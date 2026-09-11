@@ -5,49 +5,57 @@ export const volumes = [
     "id": "01-foundations",
     "order": 1,
     "name": "AI 基础与模型认知",
-    "blurb": "从模型原理到可用产品的基本功：生成式 AI 入门、提示与工程化直觉。"
+    "blurb": "从模型原理到可用产品的基本功：生成式 AI 入门、提示与工程化直觉。",
+    "who": "想先建立大模型与生成式 AI 的基本认知"
   },
   {
     "id": "04-work",
     "order": 2,
     "name": "办公与知识工作",
-    "blurb": "把 Agent 用进真实办公场景：文档、表格、流程与知识工作。"
+    "blurb": "把 Agent 用进真实办公场景：文档、表格、流程与知识工作。",
+    "who": "想立刻用 Agent 处理文档、表格、流程与知识库"
   },
   {
     "id": "07-coding",
     "order": 3,
     "name": "AI 编程与 Vibe Coding",
-    "blurb": "从提示到交付的编码工作流：AI 编程、Vibe Coding 与工程规范。"
+    "blurb": "从提示到交付的编码工作流：AI 编程、Vibe Coding 与工程规范。",
+    "who": "想用 AI 写代码、做产品、跑通从需求到上线"
   },
   {
     "id": "08-agents",
     "order": 4,
     "name": "智能体工程",
-    "blurb": "单 Agent 到多 Agent 的系统化构建：工具、记忆、编排与评测。"
+    "blurb": "单 Agent 到多 Agent 的系统化构建：工具、记忆、编排与评测。",
+    "who": "想自己搭 Agent、做 RAG、做多智能体系统"
   },
   {
     "id": "09-harness",
     "order": 5,
     "name": "Harness 与编码 Agent",
-    "blurb": "编码 Agent 的工程实践与原理：上下文装配、权限、循环与工具面。"
+    "blurb": "编码 Agent 的工程实践与原理：上下文装配、权限、循环与工具面。",
+    "who": "想弄懂 Claude Code / Codex 这类编码 Agent 内部怎么运作"
   },
   {
     "id": "10-context-memory",
     "order": 6,
     "name": "上下文、记忆与技能",
-    "blurb": "上下文工程、MCP 与技能体系：让模型在正确的信息里工作。"
+    "blurb": "上下文工程、MCP 与技能体系：让模型在正确的信息里工作。",
+    "who": "想提升上下文工程、记忆机制与技能体系"
   },
   {
     "id": "11-personal-agents",
     "order": 7,
     "name": "个人智能体",
-    "blurb": "个人助理型智能体：搭建方法、用例集与配置。"
+    "blurb": "个人助理型智能体：搭建方法、用例集与配置。",
+    "who": "想搭自己的个人助理与自动化工作流"
   },
   {
     "id": "13-local-ai",
     "order": 8,
     "name": "本地与端侧 AI",
-    "blurb": "端侧推理与本地部署：把模型放回自己的机器。"
+    "blurb": "端侧推理与本地部署：把模型放回自己的机器。",
+    "who": "想在本机 / 边缘设备上跑模型"
   }
 ] as const
 export const kindOrder = ["系统课程","课时教程","工程手册","实践案例集","源码研读","官方文档","官方博客","官方资料集","技能与配置库","清单与速查","产品仓库","其他材料"] as const

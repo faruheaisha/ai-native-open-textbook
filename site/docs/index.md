@@ -1,32 +1,40 @@
 ---
-title: "AI 原生开放教材"
+layout: home
+
+hero:
+  name: AI 原生开放教材
+  text: 读得完、找得到、有出处的 AI 课程
+  tagline: "把散落在各个仓库与站点里的高质量课程、工程手册与官方文献，按知识依赖顺序重新编排。正文与上游逐字一致，每一页都标注出处与许可。"
+  actions:
+    - theme: brand
+      text: 开始学习
+      link: /paths/01-foundations
+    - theme: alt
+      text: 课程库
+      link: /library/
+    - theme: alt
+      text: GitHub 仓库
+      link: https://github.com/faruheaisha/ai-native-open-textbook
 ---
-
-# AI 原生开放教材
-
-八条学习路径，收录开放课程、工程手册、实践案例与官方文献。每门课程都能在站内直接读完，正文与上游一致，顶部标注出处、许可与原文入口。
 
 <ResumeCard />
 
 ## 学习路径
 
+八条路径按「先能用起来，再理解原理，最后自己造」的顺序排列，每张卡片都是可以点进去的入口。
+
 <PathGrid />
 
-## 从哪里开始
+## 收录构成
 
-| 你的目标 | 建议入口 |
-|---|---|
-| 还不清楚 Agent 能做什么 | [01 AI 基础与模型认知](/paths/01-foundations) |
-| 想立刻用来处理文档、表格、流程 | [02 办公与知识工作](/paths/04-work) |
-| 想用 AI 写代码 / 做产品 | [03 AI 编程与 Vibe Coding](/paths/07-coding) |
-| 想自己搭 Agent | [04 智能体工程](/paths/08-agents) |
-| 想弄懂编码 Agent 内部怎么运作 | [05 Harness 与编码 Agent](/paths/09-harness) |
-| 想提升上下文与技能体系 | [06 上下文、记忆与技能](/paths/10-context-memory) |
-| 想搭自己的个人助理 | [07 个人智能体](/paths/11-personal-agents) |
-| 想在本机跑模型 | [08 本地与端侧 AI](/paths/13-local-ai) |
+<HomeComposition />
 
-## 检索
+## 检索入口
 
-- [课程库](/library/)　按分类与分级浏览已上架的 107 门课程
-- [来源总表](/sources/)　全部 143 条来源的出处、许可与原文入口
-- 右上角搜索框：全文检索所有课程正文
+<EntryGrid />
+
+页面右上角的搜索框可以直接检索所有课程正文，中英文均可。
+
+## 开源与协作
+
+<HomeGithub />

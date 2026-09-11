@@ -99,6 +99,27 @@ const VOLUME_BLURB = {
   "13-local-ai": "端侧推理与本地部署：把模型放回自己的机器。",
 };
 
+// 每条学习路径适合谁（首页与路径页共用，避免多处维护）。
+const VOLUME_WHO = {
+  "01-foundations": "想先建立大模型与生成式 AI 的基本认知",
+  "04-work": "想立刻用 Agent 处理文档、表格、流程与知识库",
+  "07-coding": "想用 AI 写代码、做产品、跑通从需求到上线",
+  "08-agents": "想自己搭 Agent、做 RAG、做多智能体系统",
+  "09-harness": "想弄懂 Claude Code / Codex 这类编码 Agent 内部怎么运作",
+  "10-context-memory": "想提升上下文工程、记忆机制与技能体系",
+  "11-personal-agents": "想搭自己的个人助理与自动化工作流",
+  "13-local-ai": "想在本机 / 边缘设备上跑模型",
+};
+
+// 对外地址：站内文档与主题组件都从这里取，避免多处维护。
+const SITE = {
+  repo: "https://github.com/faruheaisha/ai-native-open-textbook",
+  repoLabel: "faruheaisha/ai-native-open-textbook",
+  profile: "https://github.com/faruheaisha",
+  profileLabel: "@faruheaisha",
+  notice: "https://github.com/faruheaisha/ai-native-open-textbook/blob/main/NOTICE.md",
+};
+
 const TIER_LABEL = { 1: "主线", 2: "进阶", 3: "参考" };
 
 function blobUrl(s, rel) {
@@ -1548,7 +1569,7 @@ writeFile(
   [
     "// 由 scripts/build-site-content.mjs 生成，请勿手改。",
     `export const generatedAt = ${JSON.stringify(new Date().toISOString().slice(0, 10))}`,
-    `export const volumes = ${JSON.stringify(catalog.volumes.map((v) => ({ ...v, blurb: VOLUME_BLURB[v.id] || "" })), null, 2)} as const`,
+    `export const volumes = ${JSON.stringify(catalog.volumes.map((v) => ({ ...v, blurb: VOLUME_BLURB[v.id] || "", who: VOLUME_WHO[v.id] || "" })), null, 2)} as const`,
     `export const kindOrder = ${JSON.stringify(catalog.kindOrder)} as const`,
     `export const categoryOrder = ${JSON.stringify(CATEGORY_ORDER)} as const`,
     `export const tierLabel = ${JSON.stringify(TIER_LABEL)} as const`,
@@ -1559,6 +1580,15 @@ writeFile(
     `export interface Course { id: string; volume: string; local: string; title: string; kind: string; category: string; tier: number; license: string; licenseLabel: string; lang: string; publishable: boolean; repo: string | null; site: string | null; commit: string | null; sourceUrl: string | null; docs: CourseDoc[] }`,
     `export const courses: Course[] = ${JSON.stringify(registered, null, 2)}`,
     `export const sources: SourceEntry[] = ${JSON.stringify(allSources, null, 2)}`,
+    "",
+  ].join("\n")
+);
+
+writeFile(
+  path.join(GEN, "site.ts"),
+  [
+    "// 由 scripts/build-site-content.mjs 生成，请勿手改。",
+    `export const SITE = ${JSON.stringify(SITE, null, 2)} as const`,
     "",
   ].join("\n")
 );
@@ -1581,31 +1611,35 @@ const sortCourses = (group) =>
 
 const stars = (t) => (t === 1 ? "★★★" : t === 2 ? "★★" : "★");
 
-// 首页
+// 首页（layout: home，主视觉与数据由主题组件渲染）
 const home = [];
-home.push("---", 'title: "AI 原生开放教材"', "---", "");
-home.push("# AI 原生开放教材", "");
-home.push("八条学习路径，收录开放课程、工程手册、实践案例与官方文献。每门课程都能在站内直接读完，正文与上游一致，顶部标注出处、许可与原文入口。", "");
+home.push("---", "layout: home", "");
+home.push("hero:");
+home.push("  name: AI 原生开放教材");
+home.push("  text: 读得完、找得到、有出处的 AI 课程");
+home.push(`  tagline: ${JSON.stringify("把散落在各个仓库与站点里的高质量课程、工程手册与官方文献，按知识依赖顺序重新编排。正文与上游逐字一致，每一页都标注出处与许可。")}`);
+home.push("  actions:");
+home.push("    - theme: brand");
+home.push("      text: 开始学习");
+home.push("      link: /paths/01-foundations");
+home.push("    - theme: alt");
+home.push("      text: 课程库");
+home.push("      link: /library/");
+home.push("    - theme: alt");
+home.push("      text: GitHub 仓库");
+home.push(`      link: ${SITE.repo}`);
+home.push("---", "");
 home.push("<ResumeCard />", "");
 home.push("## 学习路径", "");
+home.push("八条路径按「先能用起来，再理解原理，最后自己造」的顺序排列，每张卡片都是可以点进去的入口。", "");
 home.push("<PathGrid />", "");
-home.push("## 从哪里开始", "");
-home.push("| 你的目标 | 建议入口 |");
-home.push("|---|---|");
-home.push("| 还不清楚 Agent 能做什么 | [01 AI 基础与模型认知](/paths/01-foundations) |");
-home.push("| 想立刻用来处理文档、表格、流程 | [02 办公与知识工作](/paths/04-work) |");
-home.push("| 想用 AI 写代码 / 做产品 | [03 AI 编程与 Vibe Coding](/paths/07-coding) |");
-home.push("| 想自己搭 Agent | [04 智能体工程](/paths/08-agents) |");
-home.push("| 想弄懂编码 Agent 内部怎么运作 | [05 Harness 与编码 Agent](/paths/09-harness) |");
-home.push("| 想提升上下文与技能体系 | [06 上下文、记忆与技能](/paths/10-context-memory) |");
-home.push("| 想搭自己的个人助理 | [07 个人智能体](/paths/11-personal-agents) |");
-home.push("| 想在本机跑模型 | [08 本地与端侧 AI](/paths/13-local-ai) |");
-home.push("");
-home.push("## 检索", "");
-home.push(`- [课程库](/library/)　按分类与分级浏览已上架的 ${registered.length} 门课程`);
-home.push(`- [来源总表](/sources/)　全部 ${T.sources} 条来源的出处、许可与原文入口`);
-home.push("- 右上角搜索框：全文检索所有课程正文");
-home.push("");
+home.push("## 收录构成", "");
+home.push("<HomeComposition />", "");
+home.push("## 检索入口", "");
+home.push("<EntryGrid />", "");
+home.push("页面右上角的搜索框可以直接检索所有课程正文，中英文均可。", "");
+home.push("## 开源与协作", "");
+home.push("<HomeGithub />", "");
 writeFile(path.join(DOCS, "index.md"), home.join("\n"));
 
 // 路径页
@@ -1661,7 +1695,7 @@ writeFile(
     "",
     "# 课程库",
     "",
-    `已上架 ${registered.length} 门课程，全部可在站内直接读完。按分类、分級、语言或关键词筛选。`,
+    `已上架 ${registered.length} 门课程，全部可在站内直接读完。按分类、分级、语言或关键词筛选。`,
     "",
     "<CourseLibrary />",
     "",
@@ -1710,6 +1744,13 @@ m.push("");
 m.push("## 目录数据", "");
 m.push(`- 来源 ${T.sources} 条 · Markdown ${T.markdown} 篇 · 文件 ${T.files} 个`);
 m.push("- 机器目录：`catalog/catalog.json`");
+m.push("");
+m.push("## 开源与反馈", "");
+m.push("本站的编排、站点源码与全部课程资源都在 GitHub 上公开维护：", "");
+m.push(`- 仓库：[${SITE.repoLabel}](${SITE.repo})`);
+m.push(`- 作者：[${SITE.profileLabel}](${SITE.profile})`);
+m.push("");
+m.push(`课程内容的著作权归各上游作者与组织所有；逐条署名、锚定版本与许可清单见仓库的 [NOTICE.md](${SITE.notice})。发现错误或想推荐新的来源，欢迎在仓库提 Issue。`);
 m.push("");
 writeFile(path.join(DOCS, "method", "index.md"), m.join("\n"));
 

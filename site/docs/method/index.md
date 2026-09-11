@@ -29,3 +29,12 @@ title: "关于本站"
 
 - 来源 143 条 · Markdown 26787 篇 · 文件 45776 个
 - 机器目录：`catalog/catalog.json`
+
+## 开源与反馈
+
+本站的编排、站点源码与全部课程资源都在 GitHub 上公开维护：
+
+- 仓库：[faruheaisha/ai-native-open-textbook](https://github.com/faruheaisha/ai-native-open-textbook)
+- 作者：[@faruheaisha](https://github.com/faruheaisha)
+
+课程内容的著作权归各上游作者与组织所有；逐条署名、锚定版本与许可清单见仓库的 [NOTICE.md](https://github.com/faruheaisha/ai-native-open-textbook/blob/main/NOTICE.md)。发现错误或想推荐新的来源，欢迎在仓库提 Issue。

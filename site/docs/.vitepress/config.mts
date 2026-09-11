@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 import type { DefaultTheme } from 'vitepress'
 import { courses, volumes } from './theme/generated/catalog'
+import { SITE } from './theme/generated/site'
 
 const HOST =
   process.env.DOCS_HOST ||
@@ -53,6 +54,9 @@ export default defineConfig({
   },
   themeConfig: {
     nav,
+    socialLinks: [
+      { icon: 'github', link: SITE.repo, ariaLabel: 'GitHub 仓库' },
+    ],
     sidebar,
     outline: { level: [2, 3], label: '本页目录' },
     docFooter: { prev: '上一篇', next: '下一篇' },
