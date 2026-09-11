@@ -1,0 +1,18 @@
+{
+  "id": "01-foundations/llms-from-scratch",
+  "volume": "01-foundations",
+  "local": "llms-from-scratch",
+  "title": "LLMs from Scratch",
+  "kind": "源码研读",
+  "license": "Apache-2.0",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "rasbt/LLMs-from-scratch",
+  "site": null,
+  "commit": "ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e",
+  "entryUrl": "https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/README.md",
+  "docs": 13
+}

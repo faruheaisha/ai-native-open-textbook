@@ -1,0 +1,18 @@
+{
+  "id": "07-coding/vibe-coding-guide",
+  "volume": "07-coding",
+  "local": "vibe-coding-guide",
+  "title": "Vibe Coding 完全指南",
+  "kind": "课时教程",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "中文",
+  "needsTranslation": false,
+  "publishable": true,
+  "repo": "zhiyue/vibe-coding-guide",
+  "site": null,
+  "commit": "ee8434ce526f629e0ca4ce00f6a66be6372327ac",
+  "entryUrl": "https://github.com/zhiyue/vibe-coding-guide/blob/ee8434ce526f629e0ca4ce00f6a66be6372327ac/README.md",
+  "docs": 3
+}

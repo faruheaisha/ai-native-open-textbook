@@ -1,0 +1,18 @@
+{
+  "id": "08-agents/baby-agent",
+  "volume": "08-agents",
+  "local": "baby-agent",
+  "title": "BabyAgent - 后端工程师的 AI Agent 教学项目 (Go 语言版)",
+  "kind": "课时教程",
+  "license": "Apache-2.0",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "中文",
+  "needsTranslation": false,
+  "publishable": true,
+  "repo": "baby-llm/baby-agent",
+  "site": null,
+  "commit": "55712911ad0c3d1554c94198370b08d9076fac1c",
+  "entryUrl": "https://github.com/baby-llm/baby-agent/blob/55712911ad0c3d1554c94198370b08d9076fac1c/README.md",
+  "docs": 14
+}

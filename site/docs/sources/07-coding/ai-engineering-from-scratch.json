@@ -1,0 +1,18 @@
+{
+  "id": "07-coding/ai-engineering-from-scratch",
+  "volume": "07-coding",
+  "local": "ai-engineering-from-scratch",
+  "title": "AI Engineering from Scratch（英文原版）",
+  "kind": "源码研读",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "rohitg00/ai-engineering-from-scratch",
+  "site": null,
+  "commit": "d18b8fe5a913c46011a3b06cb6ebd6a924414fd3",
+  "entryUrl": "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/README.md",
+  "docs": 6
+}

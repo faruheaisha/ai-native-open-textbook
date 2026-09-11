@@ -1,0 +1,18 @@
+{
+  "id": "07-coding/vibe-security-skill",
+  "volume": "07-coding",
+  "local": "vibe-security-skill",
+  "title": "Vibe Security（AI 编码安全技能）",
+  "kind": "技能与配置库",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "raroque/vibe-security-skill",
+  "site": null,
+  "commit": "850938f20f6915e7c3688d85c0a838f7909c87bb",
+  "entryUrl": "https://github.com/raroque/vibe-security-skill/blob/850938f20f6915e7c3688d85c0a838f7909c87bb/README.md",
+  "docs": 3
+}

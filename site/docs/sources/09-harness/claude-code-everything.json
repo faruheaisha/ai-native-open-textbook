@@ -1,0 +1,18 @@
+{
+  "id": "09-harness/claude-code-everything",
+  "volume": "09-harness",
+  "local": "claude-code-everything",
+  "title": "Claude Code Everything You Need to Know",
+  "kind": "工程手册",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "wesammustafa/Claude-Code-Everything-You-Need-to-Know",
+  "site": null,
+  "commit": "d9e93740193aeae2cd661c7ddf6f0c8f8989860b",
+  "entryUrl": "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/README.md",
+  "docs": 4
+}

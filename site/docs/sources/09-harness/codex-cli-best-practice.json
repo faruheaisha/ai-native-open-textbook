@@ -1,0 +1,18 @@
+{
+  "id": "09-harness/codex-cli-best-practice",
+  "volume": "09-harness",
+  "local": "codex-cli-best-practice",
+  "title": "Codex CLI Best Practice",
+  "kind": "工程手册",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "shanraisshan/codex-cli-best-practice",
+  "site": null,
+  "commit": "b79f473a188632867354fc793894dfd368a18e48",
+  "entryUrl": "https://github.com/shanraisshan/codex-cli-best-practice/blob/b79f473a188632867354fc793894dfd368a18e48/README.md",
+  "docs": 5
+}

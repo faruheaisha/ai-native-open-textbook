@@ -1,0 +1,18 @@
+{
+  "id": "11-personal-agents/mine-context",
+  "volume": "11-personal-agents",
+  "local": "mine-context",
+  "title": "MineContext（火山引擎个人上下文助手）",
+  "kind": "其他材料",
+  "license": "Apache-2.0",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "中英混排",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "volcengine/MineContext",
+  "site": null,
+  "commit": "171c7a9ea8091e326ddcf0f10718aa1b58c83c65",
+  "entryUrl": "https://github.com/volcengine/MineContext/blob/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/README.md",
+  "docs": 5
+}

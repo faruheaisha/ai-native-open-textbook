@@ -1,0 +1,18 @@
+{
+  "id": "07-coding/vibe-vibe",
+  "volume": "07-coding",
+  "local": "vibe-vibe",
+  "title": "Vibe Vibe —— 人人都能学会的 AI 编程（Vibe Coding）指南",
+  "kind": "课时教程",
+  "license": "CC BY-NC-SA 4.0",
+  "licenseLabel": "限非商用",
+  "licenseNote": "可翻译转载，限非商用并按原许可相同方式共享",
+  "lang": "中文",
+  "needsTranslation": false,
+  "publishable": true,
+  "repo": "datawhalechina/vibe-vibe",
+  "site": null,
+  "commit": "f2e121d9b6c689c0e682921df60d73e279c5e316",
+  "entryUrl": "https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/README.md",
+  "docs": 201
+}

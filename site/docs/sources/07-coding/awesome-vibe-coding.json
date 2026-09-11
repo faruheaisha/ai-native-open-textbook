@@ -1,0 +1,18 @@
+{
+  "id": "07-coding/awesome-vibe-coding",
+  "volume": "07-coding",
+  "local": "awesome-vibe-coding",
+  "title": "Vibe Coding 参考精选",
+  "kind": "清单与速查",
+  "license": "CC0-1.0",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "中英混排",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "filipecalegario/awesome-vibe-coding",
+  "site": null,
+  "commit": "59d50281e40651d574ea0ead592a08019d74730d",
+  "entryUrl": "https://github.com/filipecalegario/awesome-vibe-coding/blob/59d50281e40651d574ea0ead592a08019d74730d/README.md",
+  "docs": 3
+}

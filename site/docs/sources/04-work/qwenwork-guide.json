@@ -1,0 +1,18 @@
+{
+  "id": "04-work/qwenwork-guide",
+  "volume": "04-work",
+  "local": "qwenwork-guide",
+  "title": "千问办公绿皮书（QwenWorkGuide）",
+  "kind": "工程手册",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "中文",
+  "needsTranslation": false,
+  "publishable": true,
+  "repo": "wangxiaoshuai1998/QwenWorkGuide",
+  "site": null,
+  "commit": "002f698a68b69d3635acf6be0d6e27db69069071",
+  "entryUrl": "https://github.com/wangxiaoshuai1998/QwenWorkGuide/blob/002f698a68b69d3635acf6be0d6e27db69069071/README.md",
+  "docs": 64
+}

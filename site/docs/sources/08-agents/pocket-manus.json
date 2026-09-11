@@ -1,0 +1,18 @@
+{
+  "id": "08-agents/pocket-manus",
+  "volume": "08-agents",
+  "local": "pocket-manus",
+  "title": "Open Manus with PocketFlow Integration",
+  "kind": "产品仓库",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "Osly-AI/PocketManus",
+  "site": null,
+  "commit": "8ab0ec5f2d5dc17ff58b060af7afcda08a9f57fd",
+  "entryUrl": "https://github.com/Osly-AI/PocketManus/blob/8ab0ec5f2d5dc17ff58b060af7afcda08a9f57fd/README.md",
+  "docs": 2
+}

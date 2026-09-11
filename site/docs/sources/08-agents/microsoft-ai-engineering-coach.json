@@ -1,0 +1,18 @@
+{
+  "id": "08-agents/microsoft-ai-engineering-coach",
+  "volume": "08-agents",
+  "local": "microsoft-ai-engineering-coach",
+  "title": "AI Engineering Coach（微软）",
+  "kind": "系统课程",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "microsoft/AI-Engineering-Coach",
+  "site": null,
+  "commit": "18b1a3d16b586c171426c6a407cc5c2dc073556e",
+  "entryUrl": "https://github.com/microsoft/AI-Engineering-Coach/blob/18b1a3d16b586c171426c6a407cc5c2dc073556e/README.md",
+  "docs": 4
+}

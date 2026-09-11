@@ -1,0 +1,18 @@
+{
+  "id": "09-harness/codex-guide-freestylefly",
+  "volume": "09-harness",
+  "local": "codex-guide-freestylefly",
+  "title": "Codex 实践指南（CodexGuide）",
+  "kind": "工程手册",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "中文",
+  "needsTranslation": false,
+  "publishable": true,
+  "repo": "freestylefly/CodexGuide",
+  "site": null,
+  "commit": "f93c14ba1239178f63210c7e2e6e6965ebf59e79",
+  "entryUrl": "https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/README.md",
+  "docs": 51
+}

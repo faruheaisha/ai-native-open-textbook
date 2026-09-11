@@ -1,0 +1,18 @@
+{
+  "id": "01-foundations/ai-engineering-lab",
+  "volume": "01-foundations",
+  "local": "ai-engineering-lab",
+  "title": "AI Engineering Lab（24 周自学课程）",
+  "kind": "系统课程",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "zorost/AI-Engineering-Lab",
+  "site": null,
+  "commit": "cdd8dbdf559f72211a7c068e8877918441531e52",
+  "entryUrl": "https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/README.md",
+  "docs": 5
+}

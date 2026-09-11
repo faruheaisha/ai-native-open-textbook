@@ -1,0 +1,18 @@
+{
+  "id": "09-harness/harness-engineering-anthology",
+  "volume": "09-harness",
+  "local": "harness-engineering-anthology",
+  "title": "Harness Engineering 文集",
+  "kind": "工程手册",
+  "license": "CC-BY-4.0",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "lopopolo/harness-engineering",
+  "site": null,
+  "commit": "226c8d35fb6ea3ed55467753dba6dea2b5fd5778",
+  "entryUrl": "https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/README.md",
+  "docs": 6
+}

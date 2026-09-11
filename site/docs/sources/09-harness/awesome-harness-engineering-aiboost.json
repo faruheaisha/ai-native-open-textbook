@@ -1,0 +1,18 @@
+{
+  "id": "09-harness/awesome-harness-engineering-aiboost",
+  "volume": "09-harness",
+  "local": "awesome-harness-engineering-aiboost",
+  "title": "Awesome Harness Engineering（ai-boost）",
+  "kind": "工程手册",
+  "license": "CC0-1.0",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "ai-boost/awesome-harness-engineering",
+  "site": null,
+  "commit": "6015473ad287575fc06d0ddd7835306250a66b9f",
+  "entryUrl": "https://github.com/ai-boost/awesome-harness-engineering/blob/6015473ad287575fc06d0ddd7835306250a66b9f/README.md",
+  "docs": 3
+}

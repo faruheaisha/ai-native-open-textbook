@@ -1,0 +1,18 @@
+{
+  "id": "09-harness/ecc",
+  "volume": "09-harness",
+  "local": "ecc",
+  "title": "ECC —— Harness 性能优化系统",
+  "kind": "其他材料",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "affaan-m/ECC",
+  "site": null,
+  "commit": "928c1dea72f5c330442fc1f595563398b8f389f7",
+  "entryUrl": "https://github.com/affaan-m/ECC/blob/928c1dea72f5c330442fc1f595563398b8f389f7/README.md",
+  "docs": 6
+}

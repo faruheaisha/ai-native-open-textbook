@@ -1,0 +1,18 @@
+{
+  "id": "09-harness/awesome-harness-engineering-walkinglabs",
+  "volume": "09-harness",
+  "local": "awesome-harness-engineering-walkinglabs",
+  "title": "Awesome Harness Engineering（walkinglabs）",
+  "kind": "工程手册",
+  "license": "CC0-1.0",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "walkinglabs/awesome-harness-engineering",
+  "site": null,
+  "commit": "cff9b006ef64c624a62cbb1ee36b0c4b2b3a67ad",
+  "entryUrl": "https://github.com/walkinglabs/awesome-harness-engineering/blob/cff9b006ef64c624a62cbb1ee36b0c4b2b3a67ad/README.md",
+  "docs": 3
+}

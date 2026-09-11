@@ -1,0 +1,18 @@
+{
+  "id": "08-agents/huggingface-agents-course",
+  "volume": "08-agents",
+  "local": "huggingface-agents-course",
+  "title": "Hugging Face Agents Course（智能体课程）",
+  "kind": "系统课程",
+  "license": "Apache-2.0",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "huggingface/agents-course",
+  "site": null,
+  "commit": "b3946b1d09d29c65736e219d48a8a736a2c52154",
+  "entryUrl": "https://github.com/huggingface/agents-course/blob/b3946b1d09d29c65736e219d48a8a736a2c52154/README.md",
+  "docs": 76
+}

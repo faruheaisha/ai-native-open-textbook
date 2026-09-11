@@ -1,0 +1,18 @@
+{
+  "id": "11-personal-agents/awesome-openclaw-tutorial",
+  "volume": "11-personal-agents",
+  "local": "awesome-openclaw-tutorial",
+  "title": "Awesome OpenClaw Tutorial（中文）",
+  "kind": "清单与速查",
+  "license": "GPL-3.0",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "中文",
+  "needsTranslation": false,
+  "publishable": true,
+  "repo": "xianyu110/awesome-openclaw-tutorial",
+  "site": null,
+  "commit": "0b0943dc41725e80d64f7f8d745d185e7752be4d",
+  "entryUrl": "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/README.md",
+  "docs": 9
+}

@@ -1,0 +1,18 @@
+{
+  "id": "08-agents/gemini-cookbook",
+  "volume": "08-agents",
+  "local": "gemini-cookbook",
+  "title": "Gemini API Cookbook",
+  "kind": "官方资料集",
+  "license": "Apache-2.0",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "google-gemini/cookbook",
+  "site": null,
+  "commit": "a1b990c859a34823c982f70edaff35b830511c64",
+  "entryUrl": "https://github.com/google-gemini/cookbook/blob/a1b990c859a34823c982f70edaff35b830511c64/README.md",
+  "docs": 6
+}

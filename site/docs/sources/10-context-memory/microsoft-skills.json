@@ -1,0 +1,18 @@
+{
+  "id": "10-context-memory/microsoft-skills",
+  "volume": "10-context-memory",
+  "local": "microsoft-skills",
+  "title": "Microsoft Agent Skills",
+  "kind": "技能与配置库",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "microsoft/skills",
+  "site": null,
+  "commit": "cf77b1efbf3117501f4727c476894751311ee885",
+  "entryUrl": "https://github.com/microsoft/skills/blob/cf77b1efbf3117501f4727c476894751311ee885/README.md",
+  "docs": 4
+}

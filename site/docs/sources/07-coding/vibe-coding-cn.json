@@ -1,0 +1,18 @@
+{
+  "id": "07-coding/vibe-coding-cn",
+  "volume": "07-coding",
+  "local": "vibe-coding-cn",
+  "title": "Vibe Coding CN",
+  "kind": "课时教程",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "中英混排",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "2025Emma/vibe-coding-cn",
+  "site": null,
+  "commit": "9b42dd10ddf3fff58f8c7a4d347175db107d7bf9",
+  "entryUrl": "https://github.com/2025Emma/vibe-coding-cn/blob/9b42dd10ddf3fff58f8c7a4d347175db107d7bf9/README.md",
+  "docs": 45
+}

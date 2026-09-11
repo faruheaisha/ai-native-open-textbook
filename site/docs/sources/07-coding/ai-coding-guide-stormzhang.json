@@ -1,0 +1,18 @@
+{
+  "id": "07-coding/ai-coding-guide-stormzhang",
+  "volume": "07-coding",
+  "local": "ai-coding-guide-stormzhang",
+  "title": "面向小白的 AI 编程 CLI 教程",
+  "kind": "课时教程",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "中文",
+  "needsTranslation": false,
+  "publishable": true,
+  "repo": "stormzhang/ai-coding-guide",
+  "site": null,
+  "commit": "d187dbdb83fa1be051a850074eb518e30e2eb47c",
+  "entryUrl": "https://github.com/stormzhang/ai-coding-guide/blob/d187dbdb83fa1be051a850074eb518e30e2eb47c/README.md",
+  "docs": 5
+}

@@ -1,0 +1,18 @@
+{
+  "id": "09-harness/learn-harness-engineering",
+  "volume": "09-harness",
+  "local": "learn-harness-engineering",
+  "title": "Learn Harness Engineering",
+  "kind": "课时教程",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "walkinglabs/learn-harness-engineering",
+  "site": null,
+  "commit": "77e7a3e21469dcbece2558086c8d91657abeaa40",
+  "entryUrl": "https://github.com/walkinglabs/learn-harness-engineering/blob/77e7a3e21469dcbece2558086c8d91657abeaa40/README.md",
+  "docs": 75
+}

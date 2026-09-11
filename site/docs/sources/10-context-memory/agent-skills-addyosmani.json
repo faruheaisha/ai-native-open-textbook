@@ -1,0 +1,18 @@
+{
+  "id": "10-context-memory/agent-skills-addyosmani",
+  "volume": "10-context-memory",
+  "local": "agent-skills-addyosmani",
+  "title": "Agent Skills（Addy Osmani）",
+  "kind": "技能与配置库",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "addyosmani/agent-skills",
+  "site": null,
+  "commit": "6ca0cd7db39b41b1c37e26d335c507ee92382c6d",
+  "entryUrl": "https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/README.md",
+  "docs": 7
+}

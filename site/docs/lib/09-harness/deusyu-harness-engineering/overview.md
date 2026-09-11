@@ -1,0 +1,301 @@
+---
+title: "Harness Engineering 学习指南"
+sourceId: "09-harness/deusyu-harness-engineering"
+sourceTitle: "Harness Engineering 学习指南"
+sourceKind: "工程手册"
+licenseLabel: "可转载"
+lang: "中文"
+tier: 2
+volume: "09-harness"
+sourceUrl: "https://github.com/deusyu/harness-engineering"
+entryUrl: "https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/README.md"
+zh: ""
+---
+
+# Harness Engineering 学习指南
+
+> 一个从概念理解到独立实践的 Harness Engineering 深度学习档案
+
+[![驭缰工程 —— 人类掌舵，智能体执行（项目介绍 PPT 封面 · 2026-08 快照）](https://raw.githubusercontent.com/deusyu/harness-engineering/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/harness-engineering-intro-deck/cover.jpg)](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/harness-engineering-intro-deck/README.md)
+
+<p align="center"><sub>封面取自仓库自产的<a href="https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/harness-engineering-intro-deck/README.md">项目介绍 PPT + 海报</a>——open-kimi-ppt skill 生成，PPTD 源同仓可编辑</sub></p>
+
+## 前言
+
+这是一个不断生长的学习项目。**Harness Engineering**（驭缰工程）是 OpenAI 在 2026 年 2 月提出的工程范式：工程师不再写代码，而是设计环境、明确意图、构建反馈回路，让 AI 智能体可靠地完成工作。
+
+> **人类掌舵，智能体执行。**
+
+本仓库记录了从阅读原文、拆解概念、形成思考、动手实践到输出作品的完整学习过程。希望对同样关注 AI 工程化的朋友有所帮助。
+
+来源：[OpenAI — Harness Engineering: Harnessing Codex in an Agent-First World](https://openai.com/zh-Hans-CN/index/harness-engineering/)
+
+> **注意：** 以下经验分享并非普遍适用，请在具体实践中结合场景，辩证采纳。
+
+## ⚡ 一句话理解
+
+```
+传统工程：人类写代码 → 机器执行代码
+Harness Engineering：人类设计约束 → 智能体写代码 → 机器执行代码
+```
+
+核心转变：**工程师的产出从代码变成了约束系统**——AGENTS.md、架构规则、自定义 linter、反馈回路。
+
+## 🧭 六大核心概念
+
+<details>
+<summary><b>1. 仓库即记录系统</b> — 不在仓库里的东西，对智能体不存在</summary>
+
+Slack 讨论、Google Docs、脑子里的知识 = 对智能体不可见。一切决策、规范、计划都必须以版本化工件提交到仓库。
+
+→ 详见 [concepts/01-repo-as-source-of-truth.md](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/concepts/01-repo-as-source-of-truth.md)
+</details>
+
+<details>
+<summary><b>2. 地图而非手册</b> — AGENTS.md 是目录页，不是百科全书</summary>
+
+~100 行的入口文件，指向更深层的文档。渐进式披露：智能体从小入口点开始，被指导下一步该看什么。巨型指令文件的三个死因：挤占上下文、无法维护、无法机械验证。
+
+→ 详见 [concepts/00-overview.md](/lib/09-harness/deusyu-harness-engineering/concepts)
+</details>
+
+<details>
+<summary><b>3. 机械化执行</b> — 文档会腐烂，lint 规则不会</summary>
+
+自定义 linter + 结构测试 = 不变量的守护者。lint 错误信息里内嵌修复指令，智能体可以自我纠正。在中央层面强制执行边界，在本地层面允许自主权。
+
+→ 详见 [concepts/02-mechanical-enforcement.md](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/concepts/02-mechanical-enforcement.md)
+</details>
+
+<details>
+<summary><b>4. 智能体可读性</b> — 优先为智能体的推理能力优化</summary>
+
+选"无聊"技术（API 稳定、训练集覆盖好）。有时重新实现子集比包装不透明的上游行为更划算。让应用可以按 git worktree 启动。
+
+→ 详见 [concepts/04-agent-readability.md](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/concepts/04-agent-readability.md)
+</details>
+
+<details>
+<summary><b>5. 吞吐量改变合并理念</b> — 纠错成本低，等待成本高</summary>
+
+PR 生命周期很短。测试偶发失败通过后续重跑解决。在智能体吞吐量远超人类注意力的系统中，这通常是正确的选择。
+
+→ 详见 [concepts/05-throughput-changes-merge.md](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/concepts/05-throughput-changes-merge.md)
+</details>
+
+<details>
+<summary><b>6. 熵管理 = 垃圾回收</b> — 技术债是高息贷款</summary>
+
+智能体会复现仓库中已有的模式——包括坏模式。将"黄金规则"编码进仓库，定期后台任务扫描偏差、更新质量评分、发起重构 PR。
+
+→ 详见 [concepts/03-entropy-and-garbage-collection.md](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/concepts/03-entropy-and-garbage-collection.md)
+</details>
+
+## 🔑 关键数据点
+
+| 指标 | 数据 |
+|------|------|
+| 团队规模 | 3 人 → 7 人 |
+| 时间跨度 | 5 个月 |
+| 代码量 | ~100 万行 |
+| PR 数量 | ~1,500 个 |
+| 人均日 PR | 3.5 个（扩展后仍在增长） |
+| 单次运行时长 | 6+ 小时（通常在人类睡眠时间） |
+| 效率估算 | 手工编写的 ~1/10 时间 |
+
+## 📂 仓库结构
+
+```
+harness-engineering/
+├── README.md              ← 你在这里
+├── AGENTS.md              ← 仓库导航入口（给智能体看的）
+│
+├── concepts/              # Phase 1：概念笔记（8 篇）
+│   ├── 00-overview.md     #   六大核心概念总览
+│   ├── 01-repo-as-...     #   仓库即记录系统
+│   ├── 02-mechanical-...  #   机械化执行
+│   ├── 03-entropy-...     #   熵管理与垃圾回收
+│   ├── 04-agent-...       #   智能体可读性
+│   ├── 05-throughput-...  #   吞吐量改变合并理念
+│   ├── 06-harness-...     #   Harness 精确定义（Fowler 控制论扩展）
+│   └── 07-spec-as-product.md #   约束即产品（Symphony 延伸）
+│
+├── thinking/              # Phase 2：独立思考与质疑（11 篇）
+├── practice/              # Phase 3：小项目实验（1 个 Ralph Demo）
+├── feedback/              # Phase 4：踩坑与迭代心得（1 篇）
+├── works/                 # Phase 5：可展示的作品（40 篇翻译 + 1 篇原创 + 2 篇外部中文收录）
+├── tools/                 # 工具具像化：降低 6 维复杂度的杠杆库
+├── prompts/               # 验证有效的提示词积累
+└── references/            # 外部资源索引（79 篇文章深度摘要）
+```
+
+每个子目录都有自己的 `AGENTS.md`，说明该目录的用途和写作约定。这本身就是原文「渐进式披露」的实践。
+
+## 🚀 学习路线
+
+- [x] **Phase 1：理解核心概念** — 8 篇概念笔记，覆盖 OpenAI 六大概念 + Fowler 控制论扩展 + Symphony 约束即产品
+- [x] **Phase 2：形成自己的观点** — 11 篇独立思考（持续中）
+- [x] **Phase 3：选一个小项目实践** — Ralph Demo 完成（321 秒，$0.31）
+- [x] **Phase 4：记录反馈迭代** — 1 篇（持续中）
+- [x] **Phase 5：输出可展示的作品** — 40 篇专业翻译 + 1 篇原创综合分析 + 2 篇外部中文收录
+
+## 📚 研究资料库
+
+跨三条知识脉络 79 篇文章 + 2 篇延伸阅读：
+
+| 脉络 | 覆盖 | 核心视角 |
+|------|------|---------|
+| AI 时代的 Harness Engineering | 75 篇 | OpenAI → Fowler → Anthropic → LangChain → Stanford → Claude Code 逆向与源码实锤 → Subagent runtime → 传感器/SPDD/ADLC → 越界·安全审计·质量复盘 → 评测三部曲 → 动态工作流 → 起源考据（Ralph / Hashimoto）与学科汇流 → Codex harness 解剖 → Loop Engineering 三部曲 → 自演化 harness 与 RSI → 形式化验证 → 多智能体并行规模化（Cursor / C compiler）→ 遏制与评测官方方法论 → 行为地图 / DSL / 本地模型 / 外环问责 → 工业级机械移植（Bun）与 harness-模型共演化（HarnessX）→ 长时 harness 奠基与评测环境混杂（Anthropic 存量）→ harness 运维度量与奖励作弊（Cursor 存量）→ 工具 schema 不中立 → 软件工厂之争（Dex Horthy / Osmani）→ 智能体蜂群成本经济学 → 删掉 80% 系统提示词 → 代码评审传感器基准（ReviewBench）→ TDD 过程实证否定与结果度量（Böckeler）→ loop 日常落地（Osmani）→ 组织级采纳快照（Zalando）→ 开放中立 harness 与 compaction 白盒（Pi 双篇）→ 冻结工件跨模型迁移（StarHarness） |
+| 云原生 Harness.io | 2 篇 | CI/CD 平台架构（同名不同义的参照） |
+| 效率悖论与能力进化 | 2 篇 | YDD 系统性拆解 + METR 实验后续（测量方法论危机） |
+| 延伸阅读 | 2 篇 | Context Engineering、人机协作 |
+
+详见 [references/articles.md](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/references/articles.md) — 每篇文章含核心论点、关键数据、跨文章关联的深度摘要。
+
+## 📖 翻译作品
+
+<details>
+<summary><b>40 篇核心文章的中文翻译</b>（点击展开）</summary>
+
+| 作品 | 原作者 | 来源 |
+|------|--------|------|
+| [用 ReviewBench 评测代码评审智能体](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/langchain-reviewbench-translation.md) | Nick Hollon | LangChain |
+| [agent loop 里的 TDD：走形式还是真价值？](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/fowler-tdd-in-agent-loop-translation.md) | Birgitta Böckeler | martinfowler.com |
+| [Practical Loop Engineering（循环的日常落地）](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/osmani-practical-loop-engineering-translation.md) | Addy Osmani | AddyOsmani.com |
+| [Zalando 的 Agentic 工程快照](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/zalando-agentic-engineering-translation.md) | Bartosz Ocytko | Zalando Engineering |
+| [What Is a Harness?（harness 是什么）](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/pi-what-is-a-harness-translation.md) | Earendil / Pi 团队 | earendil.com |
+| [Compaction 在 Pi 里如何工作](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/pi-compaction-translation.md) | Earendil / Pi 团队 | earendil.com |
+| [StarHarness：分层搜索演化企业环境 harness](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/arxiv-starharness-translation.md) | ServiceNow / Mila 等 | arXiv |
+| [Claude 5 世代模型的上下文工程新规则](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/anthropic-context-engineering-claude5-translation.md) | Thariq Shihipar | Anthropic / Claude |
+| [更好的模型：更差的工具](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/ronacher-better-models-worse-tools-translation.md) | Armin Ronacher | 个人博客 |
+| [用 Rust 重写 Bun](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/bun-in-rust-translation.md) | Jarred Sumner | Bun Blog |
+| [用一支并行 Claude 团队构建 C 编译器](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/anthropic-c-compiler-translation.md) | Nicholas Carlini | Anthropic |
+| [规模化长时自主编码](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/cursor-scaling-agents-translation.md) | Wilson Lin | Cursor |
+| [我们如何在各产品中遏制 Claude](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/anthropic-how-we-contain-translation.md) | Max McGuinness 等 | Anthropic |
+| [面向自我改进的 Harness Engineering](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/weng-harness-self-improvement-translation.md) | Lilian Weng | Lil'Log |
+| [循环工程（Loop Engineering）](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/osmani-loop-engineering-translation.md) | Addy Osmani | 个人博客 |
+| [正在到来的循环（The Coming Loop）](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/ronacher-coming-loop-translation.md) | Armin Ronacher | 个人博客 |
+| [为每个任务配一套 harness：动态工作流](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/anthropic-dynamic-workflows-translation.md) | Thariq Shihipar 等 | Anthropic / Claude |
+| [METR：我们正在更改生产力实验设计](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/metr-uplift-update-translation.md) | Joel Becker 等 | METR |
+| [Inside the Scaffold 论文](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/inside-the-scaffold-paper-translation.md) | Benjamin Rombaut | Huawei / arXiv |
+| [Meta-Harness 论文](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/meta-harness-paper-translation.md) | Yoonho Lee 等 | Stanford / arXiv |
+| [Harness Engineering 正式版](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/fowler-harness-engineering-full-translation.md) | Birgitta Böckeler | Martin Fowler |
+| [Harness Engineering 备忘录](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/fowler-harness-engineering-memo-translation.md) | Birgitta Böckeler | Martin Fowler |
+| [Encoding Team Standards](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/fowler-encoding-team-standards-translation.md) | Rahul Garg | Martin Fowler |
+| [Feedback Flywheel](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/fowler-feedback-flywheel-translation.md) | Rahul Garg | Martin Fowler |
+| [Scaling Managed Agents](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/anthropic-managed-agents-translation.md) | Lance Martin 等 | Anthropic |
+| [Agent Evaluation Checklist](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/langchain-agent-evaluation-checklist-translation.md) | LangChain 团队 | LangChain |
+| [Agent-driven Development](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/github-agent-driven-development-translation.md) | Tyler McGoffin | GitHub |
+| [Continual Learning](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/langchain-continual-learning-translation.md) | Harrison Chase | LangChain |
+| [Codex 编排开源规范 Symphony](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/openai-codex-symphony-translation.md) | Kotliarskyi 等 | OpenAI |
+| [Claude Code 架构（逆向工程版）](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/claude-code-architecture-reverse-translation.md) | Vikash Rungta | Substack |
+| [面向编码智能体的可维护性传感器](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/fowler-sensors-translation.md) | Birgitta Böckeler | Martin Fowler |
+| [结构化提示驱动开发 SPDD](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/fowler-spdd-translation.md) | Wei Zhang 等 | Martin Fowler |
+| [智能体开发生命周期 ADLC](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/langchain-adlc-translation.md) | Harrison Chase | LangChain |
+| [Deep Agents 中的解释器](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/deep-agents-interpreter-translation.md) | Hunter Lovell | LangChain |
+| [Claude Code 质量回归复盘](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/anthropic-postmortem-translation.md) | Anthropic 工程团队 | Anthropic |
+| [Agentic Harness Engineering 论文](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/arxiv-agentic-harness-engineering-translation.md) | Jiahang Lin 等 | 复旦 / arXiv |
+| [过度积极的编码智能体 论文](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/arxiv-overeager-coding-agents-translation.md) | Yubin Qu 等 | arXiv |
+| [我是如何用 AI 写代码的](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/chris-ai-code-translation.md) | Chris Parsons | 个人博客 |
+| [我们如何构建 LangSmith Engine](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/langsmith-engine-translation.md) | Palash Shah | LangChain |
+
+</details>
+
+## 🔗 相关项目与资源
+
+### 原始来源
+
+| 资源 | 说明 |
+|------|------|
+| [OpenAI 原文（中文）](https://openai.com/zh-Hans-CN/index/harness-engineering/) | Harness Engineering 的完整阐述 |
+
+### Ralph 系列 — Harness Engineering 的实战框架
+
+「Ralph Wiggum 循环」是 Harness Engineering 的核心实现模式：让智能体在循环中自主工作直到任务完成。
+
+| 项目 | Stars | 说明 |
+|------|-------|------|
+| [snarktank/ralph](https://github.com/snarktank/ralph) | 13.6k | 原版 Ralph：bash 脚本反复启动 AI，每次迭代清空上下文，直到 PRD 全部完成。6 条核心信条（Fresh Context、Backpressure、Plan Is Disposable 等） |
+| [ralph-orchestrator](https://mikeyobrien.github.io/ralph-orchestrator/) | 2.3k | Rust 进化版：Hat 角色系统 + 事件驱动协调 + 多后端（Claude/Kiro/Gemini/Codex）+ 背压门控 + 持久化记忆 |
+| [bmad-ralph](https://github.com/qianxiaofeng/bmad-ralph) | 2 | BMAD 方法论 + Ralph：并行 Claude Code worktree + 三层自愈（retry → restart → diagnose）+ SQLite 状态机 |
+
+### Ralph 六条信条（与 Harness Engineering 的映射）
+
+| Ralph 信条 | Harness Engineering 对应概念 |
+|-----------|---------------------------|
+| Fresh Context Is Reliability | 智能体可读性 — 每次迭代重新读取 |
+| Backpressure Over Prescription | 机械化执行 — 不规定怎么做，但门控拒绝坏结果 |
+| The Plan Is Disposable | 熵管理 — 重新生成的成本只是一次 planning loop |
+| Disk Is State, Git Is Memory | 仓库即记录系统 — 文件是交接机制 |
+| Steer With Signals, Not Scripts | 人类掌舵 — 加路标，不加脚本 |
+| Let Ralph Ralph | 智能体执行 — 坐在循环上，不坐在循环里 |
+
+### 社区与延伸
+
+| 资源 | 说明 |
+|------|------|
+| [vibe-coding-cn](https://github.com/tukuaiai/vibe-coding-cn) | 中文 Vibe Coding 社区指南 |
+| [Mitchell Hashimoto: Engineer the Harness](https://mitchellh.com/writing/my-ai-adoption-journey#step-5-engineer-the-harness) | "harness engineering" 命名出处（已收录为文章 #29，深度摘要见 references/articles.md） |
+
+## 🛠️ 开发须知
+
+仓库自带一致性检查脚本 `scripts/check-consistency.sh`，守护数量与保真类漂移，覆盖十四层校验：
+
+- **C1-C2** — `references/articles.md` 文章数 + 下游 4 处引用（README × 2 badges、`prompts/deep-research-tracker.md` 头部、`references/AGENTS.md` 概览）
+- **C3** — `concepts/` / `thinking/` / `feedback/` 三个目录的 `*.md` 实际数与 README "X 篇" 声明一致
+- **C4** — `works/*-translation.md` 文件数与各处翻译计数声明一致（badges、表格摘要、Phase 5 注释、AGENTS 快照、表格行数）
+- **C5** — README 结构树的 `concepts/` 子树列出每一个 `concepts/*.md` 文件
+- **C6** — `references/articles.md` 末尾"不计入 N 篇"的 N 与 C1 权威值一致
+- **C7** — 三脉络（脉络一/二/三）的 per-track 计数在 4 处下游声明（READMEs 资料库表 × 2、`references/AGENTS.md` 三脉络小标题、`prompts/deep-research-tracker.md` 三脉络明细）保持一致
+- **C8** — 翻译流水线本地守卫：当 `translate/<...>/sources/<slug>/source-full.md` 已抓取，对应 `01-analysis.md` 不得再声称"仅摘要页 / 建议补抓全文"。`translate/` 已 gitignore，故 CI 与干净 clone 上自动 SKIP，仅在本地有过程稿时触发
+- **C9** — `concepts/` / `thinking/` / `feedback/` 正文不得把文库计数（"N 篇文章 / N 篇翻译 / N 大概念"）当活事实裸写——这类数字在 C2/C7 声明位之外会悄悄腐烂。历史性提法必须带"写作时点 / 当时 / 此前 / 首批 / 首轮 / 截至 / 快照"限定词，否则去掉数字、改链 `references/articles.md`
+- **C10** — 图片保真（纯本地、零网络）：每篇译文 frontmatter 必须声明 `sourceFigureCount`，正文嵌图数须 ≥ 声明数，且本地嵌图路径必须真实存在（`null` = 原文不可得、未审计 → SKIP）
+- **C11** — markdown 表格形状：受检文件里每行表格的单元格数须与表头一致
+- **C12** — `references/articles.md` 每个编号条目必须带 **作者：** 与 **日期：** 字段
+- **C13** — 零插图声明须留痕。C10 只能证伪"多报"，`sourceFigureCount: 0` 在本地永远无法被证伪——2026-07-27 就是这个洞放行了一个假 0（原文实有 4 张图）。因此声明 0 的译文必须同时带 `sourceFigureAudit`，值里要有 `YYYY-MM-DD` 核对日期，写清怎么核对、结论是什么
+- **C14** — 文档站驭缰完整性：站点侧边栏与所有展示计数必须由 `.vitepress/sidebar.mjs` 构建时从文件系统派生，站点源码（`index.md`、`.vitepress/**`）不得手写计数；`node .vitepress/sidebar.mjs --verify` 断言每个一等内容页在生成的侧边栏中恰好出现一次，并拒绝仓库内出现任何 symlink（软链会把仓库外文件带进公开产物）。构建产物侧另有 `scripts/verify-dist.mjs` 断言发布页面与 `.md` 副本一一对应、副本内相对链接与图片可达、dist 无 symlink
+
+**首次 clone 后启用 pre-commit hook：**
+
+```bash
+git config core.hooksPath .githooks
+```
+
+启用后，每次 commit 涉及 README、`AGENTS.md`、`references/articles.md`、`references/AGENTS.md`、`index.md`、`.vitepress/`、`scripts/check-consistency.sh`、或 `concepts/` / `thinking/` / `feedback/` / `works/` / `practice/` / `tools/` / `prompts/` 下（含嵌套目录）的 `*.md` 时会自动跑检查；此外任何路径下 stage 了 symlink 会被直接拒绝提交（C14 全仓禁令，按暂存区状态判定）。不涉及则不打扰。
+
+**手动跑：** `bash scripts/check-consistency.sh`
+
+**CI 兜底：** 即使本地未启用 hook，GitHub Actions（`.github/workflows/consistency.yml`）会在每次 push / PR 时跑同一脚本（不做路径过滤，保证分支保护的必需检查总能得到上报）。本地 hook 是开发期反馈，CI 才是真正的合并门。
+
+详情见根 `AGENTS.md` 的"机械化检查"段。
+
+## 🪞 仓库即 harness（自我指涉）
+
+> 这个仓库开始策展自己了。
+>
+> 收录外部调研不再靠手感——它走一条固化成 skill 的流水线 [`curate-research`](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/.claude/skills/curate-research/SKILL.md)：评审由并行 agent 自动完成（反馈回路），`scripts/check-consistency.sh` 的 C1–C14 守着计数与保真不漂移（机械护栏），而"收不收进来"始终是一道人类闸门（人类掌舵、智能体执行）。
+>
+> 于是约束本身成了产品——正是本仓库 [concepts/07-spec-as-product.md](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/concepts/07-spec-as-product.md) 讲的东西，只不过这次的实验对象是仓库自己。
+
+## 🤝 参与贡献
+
+欢迎通过 Issue 和 PR 参与：
+- 补充概念笔记（`concepts/` 中还有待补充的概念）
+- 分享你的独立思考（`thinking/`）
+- 贡献实践案例（`practice/`）
+- 推荐相关资源（`references/`）
+
+## 📞 联系方式
+
+| 渠道 | 链接 |
+|------|------|
+| GitHub | [@deusyu](https://github.com/deusyu) |
+| X (Twitter) | [@0xdeusyu](https://x.com/0xdeusyu) |
+| Telegram | [@DeusThink](https://t.me/DeusThink) |
+| Telegram 交流群 | [@talkdeusyu](https://t.me/talkdeusyu) |
+| Telegram 频道 | [@lovedesuyu](https://t.me/lovedesuyu) |
+| Email | [rainman.deus@gmail.com](mailto:rainman.deus@gmail.com) |
+
+## 📄 License
+
+MIT

@@ -1,0 +1,18 @@
+{
+  "id": "08-agents/ed-donner-production",
+  "volume": "08-agents",
+  "local": "ed-donner-production",
+  "title": "AI in Production",
+  "kind": "系统课程",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "ed-donner/production",
+  "site": null,
+  "commit": "daeb3dae34be3287842ea7faa3e6f4cba467028b",
+  "entryUrl": "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/README.md",
+  "docs": 8
+}

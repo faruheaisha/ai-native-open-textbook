@@ -1,0 +1,18 @@
+{
+  "id": "09-harness/claude-howto",
+  "volume": "09-harness",
+  "local": "claude-howto",
+  "title": "Claude How-To",
+  "kind": "工程手册",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "luongnv89/claude-howto",
+  "site": null,
+  "commit": "97bfb0685e03112ad39845889061d02cef6e534c",
+  "entryUrl": "https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/README.md",
+  "docs": 12
+}

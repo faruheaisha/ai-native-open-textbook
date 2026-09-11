@@ -1,0 +1,18 @@
+{
+  "id": "08-agents/langchain4j-for-beginners",
+  "volume": "08-agents",
+  "local": "langchain4j-for-beginners",
+  "title": "LangChain4j for Beginners",
+  "kind": "系统课程",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "microsoft/LangChain4j-for-Beginners",
+  "site": null,
+  "commit": "9aed2ec27717775def0da2ff2d7950baa8995a64",
+  "entryUrl": "https://github.com/microsoft/LangChain4j-for-Beginners/blob/9aed2ec27717775def0da2ff2d7950baa8995a64/README.md",
+  "docs": 7
+}

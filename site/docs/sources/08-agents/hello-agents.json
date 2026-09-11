@@ -1,0 +1,18 @@
+{
+  "id": "08-agents/hello-agents",
+  "volume": "08-agents",
+  "local": "hello-agents",
+  "title": "Hello Agents（Datawhale 智能体教程）",
+  "kind": "课时教程",
+  "license": "CC-BY-NC-SA-4.0",
+  "licenseLabel": "限非商用",
+  "licenseNote": "可翻译转载，限非商用并按原许可相同方式共享",
+  "lang": "中文",
+  "needsTranslation": false,
+  "publishable": true,
+  "repo": "datawhalechina/hello-agents",
+  "site": null,
+  "commit": "4f7682ceafe573d07cd8a7d0b89908500e83227d",
+  "entryUrl": "https://github.com/datawhalechina/hello-agents/blob/4f7682ceafe573d07cd8a7d0b89908500e83227d/docs/前言.md",
+  "docs": 34
+}

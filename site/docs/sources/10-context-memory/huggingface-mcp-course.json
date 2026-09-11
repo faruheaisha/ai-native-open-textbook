@@ -1,0 +1,18 @@
+{
+  "id": "10-context-memory/huggingface-mcp-course",
+  "volume": "10-context-memory",
+  "local": "huggingface-mcp-course",
+  "title": "The Model Context Protocol (MCP) Course",
+  "kind": "系统课程",
+  "license": "Apache-2.0",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "huggingface/mcp-course",
+  "site": null,
+  "commit": "e706ccc0d7abe73c31813979c3451c0e31c8a464",
+  "entryUrl": "https://github.com/huggingface/mcp-course/blob/e706ccc0d7abe73c31813979c3451c0e31c8a464/README.md",
+  "docs": 37
+}

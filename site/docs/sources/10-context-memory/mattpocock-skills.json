@@ -1,0 +1,18 @@
+{
+  "id": "10-context-memory/mattpocock-skills",
+  "volume": "10-context-memory",
+  "local": "mattpocock-skills",
+  "title": "**Matt Pocock Skills**",
+  "kind": "技能与配置库",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "mattpocock/skills",
+  "site": null,
+  "commit": "3cca18b368ae95cdbdebbff572ccafa662551015",
+  "entryUrl": "https://github.com/mattpocock/skills/blob/3cca18b368ae95cdbdebbff572ccafa662551015/README.md",
+  "docs": 60
+}

@@ -1,0 +1,18 @@
+{
+  "id": "09-harness/strands-harness-sdk",
+  "volume": "09-harness",
+  "local": "strands-harness-sdk",
+  "title": "Strands Harness SDK",
+  "kind": "工程手册",
+  "license": "Apache-2.0",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "strands-agents/harness-sdk",
+  "site": null,
+  "commit": "7bda6c70e71cd07279470268c3d3b3f4b36adf53",
+  "entryUrl": "https://github.com/strands-agents/harness-sdk/blob/7bda6c70e71cd07279470268c3d3b3f4b36adf53/README.md",
+  "docs": 3
+}

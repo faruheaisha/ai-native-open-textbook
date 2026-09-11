@@ -1,0 +1,18 @@
+{
+  "id": "07-coding/ai-coding-guide-zh",
+  "volume": "07-coding",
+  "local": "ai-coding-guide-zh",
+  "title": "Claude Code & OpenClaw & Codex & WorkBuddy 中文教程",
+  "kind": "课时教程",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "中文",
+  "needsTranslation": false,
+  "publishable": true,
+  "repo": "KimYx0207/AI-Coding-Guide-Zh",
+  "site": null,
+  "commit": "7a7c21b8e7dc976e8ade33b79ee000a172e63daf",
+  "entryUrl": "https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/README.md",
+  "docs": 53
+}

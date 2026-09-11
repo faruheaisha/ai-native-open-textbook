@@ -1,0 +1,18 @@
+{
+  "id": "09-harness/claude-code-best-practice",
+  "volume": "09-harness",
+  "local": "claude-code-best-practice",
+  "title": "Claude Code Best Practice",
+  "kind": "工程手册",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "shanraisshan/claude-code-best-practice",
+  "site": null,
+  "commit": "2d6ea151c0d7189c3eaf364809c5574bd210e545",
+  "entryUrl": "https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/README.md",
+  "docs": 9
+}

@@ -1,0 +1,18 @@
+{
+  "id": "07-coding/liyupi-ai-guide",
+  "volume": "07-coding",
+  "local": "liyupi-ai-guide",
+  "title": "鱼皮 AI 导航（ai-guide）",
+  "kind": "工程手册",
+  "license": "CC-BY-NC-SA-4.0（文档）+ MIT（站点代码）",
+  "licenseLabel": "限非商用",
+  "licenseNote": "可翻译转载，限非商用并按原许可相同方式共享",
+  "lang": "中文",
+  "needsTranslation": false,
+  "publishable": true,
+  "repo": "liyupi/ai-guide",
+  "site": null,
+  "commit": "539082c1df5743bb34d72a17857a02735b38c866",
+  "entryUrl": "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a02735b38c866/README.md",
+  "docs": 259
+}

@@ -1,0 +1,18 @@
+{
+  "id": "04-work/zhijian-ai-bluebook-workbuddy-harness",
+  "volume": "04-work",
+  "local": "zhijian-ai-bluebook-workbuddy-harness",
+  "title": "智见 AI 蓝皮书：WorkBuddy Harness",
+  "kind": "实践案例集",
+  "license": "CC-BY-SA-4.0（正文）/ MIT（示例代码）",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "中文",
+  "needsTranslation": false,
+  "publishable": true,
+  "repo": "zjp1997720/zhijian-ai-bluebook-workbuddy-harness",
+  "site": null,
+  "commit": "6ac68cd42a01add16568d1ab9cf2399822467fad",
+  "entryUrl": "https://github.com/zjp1997720/zhijian-ai-bluebook-workbuddy-harness/blob/6ac68cd42a01add16568d1ab9cf2399822467fad/01-前言.md",
+  "docs": 23
+}

@@ -1,0 +1,18 @@
+{
+  "id": "04-work/doubaowork-bluebook",
+  "volume": "04-work",
+  "local": "doubaowork-bluebook",
+  "title": "豆包工作蓝皮书（DoubaoWork Guide）",
+  "kind": "实践案例集",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "中文",
+  "needsTranslation": false,
+  "publishable": true,
+  "repo": "AlephAITech/DoubaoWorkGuide",
+  "site": null,
+  "commit": "ad7338e8fc889ec082cdfb3fa41fb659520c7174",
+  "entryUrl": "https://github.com/AlephAITech/DoubaoWorkGuide/blob/ad7338e8fc889ec082cdfb3fa41fb659520c7174/01-初始豆包工作.md",
+  "docs": 50
+}

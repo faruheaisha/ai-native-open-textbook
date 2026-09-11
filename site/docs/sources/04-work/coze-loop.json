@@ -1,0 +1,18 @@
+{
+  "id": "04-work/coze-loop",
+  "volume": "04-work",
+  "local": "coze-loop",
+  "title": "Coze Loop 源码研读",
+  "kind": "源码研读",
+  "license": "Apache-2.0",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "中英混排",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "coze-dev/coze-loop",
+  "site": null,
+  "commit": "5f1e4c234fc110c1bf674e882a6fd02109e1e1e6",
+  "entryUrl": "https://github.com/coze-dev/coze-loop/blob/5f1e4c234fc110c1bf674e882a6fd02109e1e1e6/README.md",
+  "docs": 4
+}

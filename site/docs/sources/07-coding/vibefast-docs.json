@@ -1,0 +1,18 @@
+{
+  "id": "07-coding/vibefast-docs",
+  "volume": "07-coding",
+  "local": "vibefast-docs",
+  "title": "VibeFast 文档",
+  "kind": "官方文档",
+  "license": "CC BY-NC-SA 4.0",
+  "licenseLabel": "限非商用",
+  "licenseNote": "可翻译转载，限非商用并按原许可相同方式共享",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "vibefast-app/vibefast-docs",
+  "site": null,
+  "commit": "2a34bc50576f3f74fda6196ca9bebf851187bcf9",
+  "entryUrl": "https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/README.md",
+  "docs": 7
+}

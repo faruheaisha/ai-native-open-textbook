@@ -1,0 +1,21 @@
+MIT License
+
+Copyright (c) 2026 faruheaisha (https://github.com/faruheaisha)
+
+本许可适用于本仓库中由本项目原创的内容，包括但不限于：构建脚本（scripts/）、
+网页站点（site/）、目录与编排数据（catalog/、curation.json）、派生稿（derived/）、
+中文释义（translations/）、编排文档（课程设计基线/），以及学习路径、分类与分级方案。
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+本仓库同时收录大量第三方课程内容，其著作权归各上游作者与组织所有，不适用本许可。
+第三方内容的来源、许可与署名要求，见仓库根目录的 NOTICE.md。
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

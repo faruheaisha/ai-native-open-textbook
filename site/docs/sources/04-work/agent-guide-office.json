@@ -1,0 +1,18 @@
+{
+  "id": "04-work/agent-guide-office",
+  "volume": "04-work",
+  "local": "agent-guide-office",
+  "title": "Agent 办公实战指南（社区）",
+  "kind": "工程手册",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "中文",
+  "needsTranslation": false,
+  "publishable": true,
+  "repo": "tangshiyegit/agent-guide",
+  "site": null,
+  "commit": "ae8b2262e7a1e5bd0d466037c6ad9f6037b72c33",
+  "entryUrl": "https://github.com/tangshiyegit/agent-guide/blob/ae8b2262e7a1e5bd0d466037c6ad9f6037b72c33/README.md",
+  "docs": 62
+}

@@ -1,0 +1,18 @@
+{
+  "id": "09-harness/meta-skill-harness-revfactory",
+  "volume": "09-harness",
+  "local": "meta-skill-harness-revfactory",
+  "title": "Harness —— Claude Code 团队架构工厂",
+  "kind": "工程手册",
+  "license": "Apache-2.0",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "revfactory/harness",
+  "site": null,
+  "commit": "cceac68ea1d0ad198ef4b7b906cd238375836387",
+  "entryUrl": "https://github.com/revfactory/harness/blob/cceac68ea1d0ad198ef4b7b906cd238375836387/README.md",
+  "docs": 4
+}

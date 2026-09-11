@@ -1,0 +1,18 @@
+{
+  "id": "09-harness/claude-code-ultimate-guide",
+  "volume": "09-harness",
+  "local": "claude-code-ultimate-guide",
+  "title": "Claude Code Ultimate Guide",
+  "kind": "工程手册",
+  "license": "CC-BY-SA-4.0",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "FlorianBruniaux/claude-code-ultimate-guide",
+  "site": null,
+  "commit": "af05b84fb6e32432dae2114ee2a72c44ef3d29b1",
+  "entryUrl": "https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/README.md",
+  "docs": 9
+}

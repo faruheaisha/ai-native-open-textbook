@@ -1,0 +1,18 @@
+{
+  "id": "10-context-memory/superpowers-zh",
+  "volume": "10-context-memory",
+  "local": "superpowers-zh",
+  "title": "superpowers-zh（AI 编程超能力 · 中文增强版）",
+  "kind": "技能与配置库",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "中文",
+  "needsTranslation": false,
+  "publishable": true,
+  "repo": "jnMetaCode/superpowers-zh",
+  "site": null,
+  "commit": "79ea5d262b7a1c7ce76a289390853bca51f940d4",
+  "entryUrl": "https://github.com/jnMetaCode/superpowers-zh/blob/79ea5d262b7a1c7ce76a289390853bca51f940d4/README.md",
+  "docs": 4
+}

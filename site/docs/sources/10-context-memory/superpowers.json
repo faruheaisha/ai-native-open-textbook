@@ -1,0 +1,18 @@
+{
+  "id": "10-context-memory/superpowers",
+  "volume": "10-context-memory",
+  "local": "superpowers",
+  "title": "Superpowers（Claude Code 技能库）",
+  "kind": "技能与配置库",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "obra/superpowers",
+  "site": null,
+  "commit": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797",
+  "entryUrl": "https://github.com/obra/superpowers/blob/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/README.md",
+  "docs": 3
+}

@@ -1,0 +1,18 @@
+{
+  "id": "08-agents/anthropics-courses",
+  "volume": "08-agents",
+  "local": "anthropics-courses",
+  "title": "Anthropic 官方课程",
+  "kind": "系统课程",
+  "license": "CC-BY-NC-4.0",
+  "licenseLabel": "限非商用",
+  "licenseNote": "可翻译转载，限非商用并按原许可相同方式共享",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "anthropics/courses",
+  "site": null,
+  "commit": "f4dbb137d7b02dddaf3cc73e32e20a702d3b5e77",
+  "entryUrl": "https://github.com/anthropics/courses/blob/f4dbb137d7b02dddaf3cc73e32e20a702d3b5e77/README.md",
+  "docs": 3
+}

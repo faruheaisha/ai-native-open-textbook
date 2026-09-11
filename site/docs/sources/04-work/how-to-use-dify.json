@@ -1,0 +1,18 @@
+{
+  "id": "04-work/how-to-use-dify",
+  "volume": "04-work",
+  "local": "how-to-use-dify",
+  "title": "Dify 中文系统教程（How-to-use-dify）",
+  "kind": "课时教程",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "中文",
+  "needsTranslation": false,
+  "publishable": true,
+  "repo": "hijasonxu1/How-to-use-dify",
+  "site": null,
+  "commit": "8d32c2067bfeab108a9646fe0371319f6c1d5134",
+  "entryUrl": "https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/README.md",
+  "docs": 17
+}

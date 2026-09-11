@@ -1,0 +1,18 @@
+{
+  "id": "01-foundations/awesome-chatgpt-zh",
+  "volume": "01-foundations",
+  "local": "awesome-chatgpt-zh",
+  "title": "Awesome ChatGPT 中文指南",
+  "kind": "清单与速查",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "中文",
+  "needsTranslation": false,
+  "publishable": true,
+  "repo": "EmbraceAGI/awesome-chatgpt-zh",
+  "site": null,
+  "commit": "f7c206f6b3e27dae3f4fa7fb1eee1852c72b1f68",
+  "entryUrl": "https://github.com/EmbraceAGI/awesome-chatgpt-zh/blob/f7c206f6b3e27dae3f4fa7fb1eee1852c72b1f68/README.md",
+  "docs": 6
+}

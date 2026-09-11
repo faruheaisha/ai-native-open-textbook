@@ -1,0 +1,18 @@
+{
+  "id": "07-coding/vibe-coding-prompt-template",
+  "volume": "07-coding",
+  "local": "vibe-coding-prompt-template",
+  "title": "Vibe Coding 提示词模板",
+  "kind": "课时教程",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "KhazP/vibe-coding-prompt-template",
+  "site": null,
+  "commit": "db481763c24e2b66b919f9d40aa42b16409a62d7",
+  "entryUrl": "https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/README.md",
+  "docs": 6
+}

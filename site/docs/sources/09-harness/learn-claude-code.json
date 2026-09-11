@@ -1,0 +1,18 @@
+{
+  "id": "09-harness/learn-claude-code",
+  "volume": "09-harness",
+  "local": "learn-claude-code",
+  "title": "Learn Claude Code（nano harness 17 步）",
+  "kind": "课时教程",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "中英混排",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "shareAI-lab/learn-claude-code",
+  "site": null,
+  "commit": "0dcafa2ae053a1ddd6a72f265431104b08a5aa13",
+  "entryUrl": "https://github.com/shareAI-lab/learn-claude-code/blob/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/README.md",
+  "docs": 19
+}

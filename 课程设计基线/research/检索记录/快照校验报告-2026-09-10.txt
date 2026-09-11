@@ -1,0 +1,424 @@
+DIFF  01-foundations/microsoft-generative-ai-for-beginners ok=47    crlf=123   bad=0    missing=3873 /4043
+        MISS translated_images/ar/.co-op-translator.json
+        MISS translated_images/bg/.co-op-translator.json
+        MISS translated_images/bn/.co-op-translator.json
+        MISS translated_images/cs/.co-op-translator.json
+        MISS translated_images/da/.co-op-translator.json
+PASS  01-foundations/llms-from-scratch               ok=345   crlf=0     bad=0    missing=0    /345
+PASS  01-foundations/awesome-chatgpt-zh              ok=32    crlf=0     bad=0    missing=0    /32
+DIFF  04-work/workbuddy-guide                        ok=0     crlf=57    bad=0    missing=42   /99
+        MISS .github/CASE_TEMPLATE.md
+        MISS .github/ISSUE_TEMPLATE/bug.yml
+        MISS .github/ISSUE_TEMPLATE/content.yml
+        MISS .github/PULL_REQUEST_TEMPLATE/case.md
+        MISS .github/pull_request_template.md
+DIFF  04-work/doubaowork-bluebook                    ok=2     crlf=0     bad=0    missing=43   /45
+        MISS .gitignore
+        MISS assets/brand/README.md
+        MISS assets/readme-home.png
+        MISS package-lock.json
+        MISS package.json
+PASS  04-work/qwenwork-guide                         ok=596   crlf=0     bad=0    missing=0    /596
+SKIP  04-work/qwenwork-learn-station                 站点型快照  files=42     1.9 MB  （无 commit，不参与 blob 校验；文件数变化即可疑）
+DIFF  04-work/awesome-workbuddy                      ok=200   crlf=0     bad=0    missing=31   /231
+        MISS prompts/runs/prompt-092-chatgpt-5-6-sol-20260731/run.json
+        MISS prompts/runs/prompt-093-chatgpt-5-6-sol-20260731/output.md
+        MISS prompts/runs/prompt-093-chatgpt-5-6-sol-20260731/run.json
+        MISS prompts/runs/prompt-094-chatgpt-5-6-sol-20260731/output.md
+        MISS prompts/runs/prompt-094-chatgpt-5-6-sol-20260731/run.json
+PASS  04-work/how-to-use-dify                        ok=45    crlf=0     bad=0    missing=0    /45
+PASS  07-coding/liyupi-ai-guide                      ok=727   crlf=0     bad=0    missing=0    /727
+PASS  07-coding/vibe-coding-cn                       ok=1023  crlf=0     bad=0    missing=0    /1023
+PASS  07-coding/cs146s-cn                            ok=188   crlf=0     bad=0    missing=0    /188
+PASS  07-coding/ai-coding-guide-zh                   ok=55    crlf=0     bad=0    missing=0    /55
+PASS  07-coding/ai-coding-guide-stormzhang           ok=121   crlf=0     bad=0    missing=0    /121
+PASS  07-coding/ai-engineering-from-scratch-zh       ok=2702  crlf=0     bad=0    missing=0    /2702
+PASS  07-coding/awesome-vibe-coding                  ok=11    crlf=0     bad=0    missing=0    /11
+PASS  07-coding/vibe-coding-guide                    ok=15    crlf=0     bad=0    missing=0    /15
+PASS  07-coding/ai-api-integration                   ok=43    crlf=0     bad=0    missing=0    /43
+CRLF  08-agents/huggingface-agents-course            ok=9     crlf=430   bad=0    missing=0    /439
+DIFF  08-agents/hello-agents                         ok=9     crlf=261   bad=0    missing=1075 /1345
+        MISS .github/ISSUE_TEMPLATE/book_issue.yml
+        MISS .github/ISSUE_TEMPLATE/config.yml
+        MISS Additional-Chapter/N8N_INSTALL_GUIDE.md
+        MISS Additional-Chapter/NODEJS_INSTALL_GUIDE.md
+        MISS Co-creation-projects/1zrj-DataAnalysisAgent/README.md
+DIFF  08-agents/microsoft-ai-agents-for-beginners    ok=522   crlf=0     bad=0    missing=5376 /5898
+        MISS .agents/skills/azure-openai-to-responses/SKILL.md
+        MISS .agents/skills/azure-openai-to-responses/references/cheat-sheet.md
+        MISS .agents/skills/azure-openai-to-responses/references/test-migration.md
+        MISS .agents/skills/azure-openai-to-responses/references/troubleshooting.md
+        MISS .agents/skills/azure-openai-to-responses/scripts/detect_legacy.py
+DIFF  08-agents/anthropics-courses                   ok=0     crlf=44    bad=0    missing=65   /109
+        MISS .gitignore
+        MISS anthropic_api_fundamentals/01_getting_started.ipynb
+        MISS anthropic_api_fundamentals/02_messages_format.ipynb
+        MISS anthropic_api_fundamentals/03_models.ipynb
+        MISS anthropic_api_fundamentals/04_parameters.ipynb
+PASS  08-agents/anthropic-cookbook                   ok=522   crlf=0     bad=0    missing=0    /522
+PASS  08-agents/openai-agents-python                 ok=1569  crlf=0     bad=0    missing=0    /1569
+PASS  08-agents/ai-agents-from-zero                  ok=305   crlf=0     bad=0    missing=0    /305
+PASS  08-agents/datawhale-agentic-ai                 ok=57    crlf=0     bad=0    missing=0    /57
+DIFF  08-agents/awesome-llm-apps                     ok=700   crlf=0     bad=0    missing=873  /1573
+        MISS ai_agent_framework_crash_course/google_adk_crash_course/4_tool_using_agent/4_1_builtin_tools/README.md
+        MISS ai_agent_framework_crash_course/google_adk_crash_course/4_tool_using_agent/4_1_builtin_tools/code_exec_agent/__init__.py
+        MISS ai_agent_framework_crash_course/google_adk_crash_course/4_tool_using_agent/4_1_builtin_tools/code_exec_agent/agent.py
+        MISS ai_agent_framework_crash_course/google_adk_crash_course/4_tool_using_agent/4_1_builtin_tools/requirements.txt
+        MISS ai_agent_framework_crash_course/google_adk_crash_course/4_tool_using_agent/4_1_builtin_tools/search_agent/__init__.py
+DIFF  08-agents/openai-cookbook                      ok=400   crlf=0     bad=0    missing=842  /1242
+        MISS examples/building_w_rt_mini/building_w_rt_mini.ipynb
+        MISS examples/chatgpt/chatgpt_prompt_guide/chatgpt_prompt_guide.md
+        MISS examples/chatgpt/compliance_api/logs_platform.ipynb
+        MISS examples/chatgpt/gpt_actions_library/.gpt_action_getting_started.ipynb
+        MISS examples/chatgpt/gpt_actions_library/gpt_action_bigquery.ipynb
+PASS  08-agents/gemini-cookbook                      ok=243   crlf=0     bad=0    missing=0    /243
+PASS  09-harness/learn-claude-code                   ok=261   crlf=0     bad=0    missing=0    /261
+PASS  09-harness/claude-code-best-practice           ok=140   crlf=0     bad=0    missing=0    /140
+PASS  09-harness/learn-harness-engineering           ok=2463  crlf=0     bad=0    missing=0    /2463
+DIFF  09-harness/claude-code-ultimate-guide          ok=996   crlf=0     bad=0    missing=87   /1083
+        MISS docs/resource-evaluations/README.md
+        MISS quiz/src/session.js
+        MISS quiz/src/topics.js
+        MISS quiz/src/ui.js
+        MISS quiz/templates/question-template.yaml
+PASS  09-harness/codex-orange-book                   ok=18    crlf=0     bad=0    missing=0    /18
+PASS  09-harness/claude-howto                        ok=632   crlf=0     bad=0    missing=0    /632
+PASS  09-harness/how-claude-code-works               ok=57    crlf=0     bad=0    missing=0    /57
+PASS  09-harness/codex-cli-best-practice             ok=32    crlf=0     bad=0    missing=0    /32
+DIFF  09-harness/claude-code-guide-zebbern           ok=300   crlf=0     bad=0    missing=99   /399
+        MISS skills/react-best-practices/rules/server-after-nonblocking.md
+        MISS skills/react-best-practices/rules/server-auth-actions.md
+        MISS skills/react-best-practices/rules/server-cache-lru.md
+        MISS skills/react-best-practices/rules/server-cache-react.md
+        MISS skills/react-best-practices/rules/server-dedup-props.md
+PASS  09-harness/claude-code-everything              ok=66    crlf=0     bad=0    missing=0    /66
+PASS  09-harness/learn-workbuddy                     ok=157   crlf=0     bad=0    missing=0    /157
+PASS  10-context-memory/prompt-engineering-guide     ok=1310  crlf=0     bad=0    missing=0    /1310
+PASS  10-context-memory/context-engineering-intro    ok=235   crlf=0     bad=0    missing=0    /235
+PASS  10-context-memory/agent-skills-addyosmani      ok=193   crlf=0     bad=0    missing=0    /193
+PASS  10-context-memory/awesome-context-engineering  ok=3     crlf=0     bad=0    missing=0    /3
+PASS  10-context-memory/agent-skills-for-context-engineering ok=452   crlf=0     bad=0    missing=0    /452
+PASS  10-context-memory/awesome-mcp-zh               ok=4     crlf=0     bad=0    missing=0    /4
+PASS  10-context-memory/ai-engineering-hub           ok=1166  crlf=0     bad=0    missing=0    /1166
+PASS  10-context-memory/wonderful-prompts            ok=7     crlf=0     bad=0    missing=0    /7
+PASS  11-personal-agents/qclaw                       ok=520   crlf=0     bad=0    missing=0    /520
+PASS  11-personal-agents/awesome-openclaw-usecases   ok=49    crlf=0     bad=0    missing=0    /49
+PASS  11-personal-agents/awesome-openclaw-skills     ok=35    crlf=0     bad=0    missing=0    /35
+DIFF  11-personal-agents/build-your-own-openclaw     ok=200   crlf=0     bad=0    missing=622  /822
+        MISS 07-event-driven/src/mybot/provider/web_search/base.py
+        MISS 07-event-driven/src/mybot/provider/web_search/brave.py
+        MISS 07-event-driven/src/mybot/server/__init__.py
+        MISS 07-event-driven/src/mybot/server/agent_worker.py
+        MISS 07-event-driven/src/mybot/server/worker.py
+PASS  11-personal-agents/awesome-openclaw-tutorial   ok=175   crlf=0     bad=0    missing=0    /175
+PASS  09-harness/harness-engineering-anthology       ok=74    crlf=0     bad=0    missing=0    /74
+DIFF  07-coding/ai-engineering-from-scratch          ok=2700  crlf=0     bad=0    missing=19   /2719
+        MISS site/robots.txt
+        MISS site/stats.json
+        MISS site/style.css
+        MISS site/test_build_artifacts.js
+        MISS site/test_learning_paths.js
+PASS  10-context-memory/superpowers                  ok=186   crlf=0     bad=0    missing=0    /186
+PASS  10-context-memory/mattpocock-skills            ok=164   crlf=0     bad=0    missing=0    /164
+DIFF  09-harness/ecc                                 ok=700   crlf=0     bad=0    missing=2881 /3581
+        MISS docs/es/TERMINOLOGY.md
+        MISS docs/es/TROUBLESHOOTING.md
+        MISS docs/es/agents/architect.md
+        MISS docs/es/agents/build-error-resolver.md
+        MISS docs/es/agents/chief-of-staff.md
+DIFF  08-agents/ed-donner-agents                     ok=800   crlf=0     bad=0    missing=4351 /5151
+        MISS 2_openai/community_contributions/2_lab2_with_Gemini_and_Gmail.ipynb
+        MISS 2_openai/community_contributions/2_lab2_with_graph_visualization.ipynb
+        MISS 2_openai/community_contributions/2_lab2_with_pushover_notifications.ipynb
+        MISS 2_openai/community_contributions/2_lab2_with_resend_email.ipynb
+        MISS 2_openai/community_contributions/2_lab2_with_spam_clean_up3.ipynb
+PASS  01-foundations/awesome-llm-resources           ok=4     crlf=0     bad=0    missing=0    /4
+PASS  08-agents/production-agentic-rag-course        ok=148   crlf=0     bad=0    missing=0    /148
+PASS  01-foundations/ai-engineering-lab              ok=225   crlf=0     bad=0    missing=0    /225
+PASS  08-agents/strands-agents-course                ok=55    crlf=0     bad=0    missing=0    /55
+PASS  07-coding/vibe-security-skill                  ok=15    crlf=0     bad=0    missing=0    /15
+PASS  07-coding/vibe-coding-prompt-template          ok=196   crlf=0     bad=0    missing=0    /196
+DIFF  07-coding/cloudflare-vibesdk                   ok=415   crlf=0     bad=0    missing=384  /799
+        MISS src/utils/ndjson-parser/ndjson-parser.test.ts
+        MISS src/utils/ndjson-parser/ndjson-parser.ts
+        MISS src/utils/screenshot.ts
+        MISS src/utils/sentry.ts
+        MISS src/utils/string.ts
+PASS  08-agents/baby-agent                           ok=51    crlf=0     bad=0    missing=0    /51
+PASS  08-agents/microsoft-ai-engineering-coach       ok=387   crlf=0     bad=0    missing=0    /387
+PASS  08-agents/zero2agent                           ok=347   crlf=0     bad=0    missing=0    /347
+PASS  08-agents/awesome-ai-agent-papers              ok=4     crlf=0     bad=0    missing=0    /4
+PASS  08-agents/agentic-engineering-handbook         ok=24    crlf=0     bad=0    missing=0    /24
+DIFF  04-work/agent-guide-office                     ok=65    crlf=0     bad=0    missing=658  /723
+        MISS package-lock.json
+        MISS package-prod.sh
+        MISS scripts/add-english-permalinks.mjs
+        MISS src/.vuepress/client.ts
+        MISS src/.vuepress/components/ReadMoreGate.ts
+PASS  09-harness/deusyu-harness-engineering          ok=108   crlf=0     bad=0    missing=0    /108
+PASS  09-harness/awesome-harness-engineering-aiboost ok=11    crlf=0     bad=0    missing=0    /11
+PASS  09-harness/awesome-harness-engineering-walkinglabs ok=7     crlf=0     bad=0    missing=0    /7
+PASS  09-harness/harness-engineering-from-cc-to-ai-coding ok=157   crlf=0     bad=0    missing=0    /157
+PASS  09-harness/agentic-harness-engineering         ok=214   crlf=0     bad=0    missing=0    /214
+PASS  09-harness/harness-engineering-guide-nexu      ok=97    crlf=0     bad=0    missing=0    /97
+PASS  09-harness/agentic-harness-patterns-skill      ok=34    crlf=0     bad=0    missing=0    /34
+DIFF  09-harness/better-harness                      ok=461   crlf=0     bad=0    missing=1107 /1568
+        MISS .better-harness/feature-tree.md
+        MISS .claude-plugin/marketplace.json
+        MISS .claude-plugin/plugin.json
+        MISS .codex-plugin/plugin.json
+        MISS .cursor-plugin/marketplace.json
+PASS  10-context-memory/awesome-agent-skills-voltagent ok=4     crlf=0     bad=0    missing=0    /4
+PASS  10-context-memory/awesome-agent-skills-heilcheng ok=49    crlf=0     bad=0    missing=0    /49
+PASS  10-context-memory/huggingface-mcp-course       ok=114   crlf=0     bad=0    missing=0    /114
+DIFF  04-work/zhijian-ai-bluebook-workbuddy-harness  ok=5     crlf=0     bad=0    missing=1    /6
+        MISS .github/workflows/pages.yml
+SKIP  09-harness/origin-harness-engineering-articles 站点型快照  files=8      0.2 MB  （无 commit，不参与 blob 校验；文件数变化即可疑）
+SKIP  04-work/qwenwork-official-help                 站点型快照  files=339    6.3 MB  （无 commit，不参与 blob 校验；文件数变化即可疑）
+SKIP  04-work/manus-official-docs                    站点型快照  files=3      0.2 MB  （无 commit，不参与 blob 校验；文件数变化即可疑）
+SKIP  04-work/coze-official-docs                     站点型快照  files=102    1.3 MB  （无 commit，不参与 blob 校验；文件数变化即可疑）
+SKIP  04-work/dify-official-docs                     站点型快照  files=3      2.9 MB  （无 commit，不参与 blob 校验；文件数变化即可疑）
+SKIP  04-work/workbuddy-official-docs                站点型快照  files=2      0 MB  （无 commit，不参与 blob 校验；文件数变化即可疑）
+DIFF  04-work/workbuddy-bench-official               ok=92    crlf=0     bad=0    missing=29   /121
+        MISS .gitignore
+        MISS LICENSE
+        MISS configs/bench/_default.yaml
+        MISS configs/bench/wb-bench-code-v1.0.yaml
+        MISS configs/bench/wb-bench-office-v1.0.yaml
+DIFF  04-work/multi-platform-skills-archive          ok=5     crlf=0     bad=0    missing=18442 /18447
+        MISS .gitignore
+        MISS chatgpt/archive/deleted/2026-08-06-110921/plugins/openai-bundled/sites/0.1.33/.app.json
+        MISS chatgpt/archive/deleted/2026-08-06-110921/plugins/openai-bundled/sites/0.1.33/.codex-plugin/plugin.json
+        MISS chatgpt/archive/deleted/2026-08-06-110921/plugins/openai-bundled/sites/0.1.33/AGENTS.md
+        MISS chatgpt/archive/deleted/2026-08-06-110921/plugins/openai-bundled/sites/0.1.33/TEMPEST.md
+DIFF  07-coding/easy-vibe                            ok=1893  crlf=0     bad=0    missing=824  /2717
+        MISS .github/workflows/deploy.yml
+        MISS .github/workflows/release-books.yml
+        MISS .gitignore
+        MISS .vscode/settings.json
+        MISS Dockerfile
+DIFF  07-coding/vibe-vibe                            ok=636   crlf=0     bad=0    missing=271  /907
+        MISS .cnb.yml
+        MISS .gitignore
+        MISS .prettierrc.json
+        MISS Dockerfile
+        MISS demos/demo-01-todo/.gitignore
+DIFF  07-coding/fufan-vibe-coding-course             ok=1002  crlf=0     bad=0    missing=13805 /14807
+        MISS .gitignore
+        MISS 00_Introduction/导学1：网络环境配置与VPN准备.html
+        MISS 00_Introduction/导学2：Cursor安装部署与订阅.html
+        MISS 00_Introduction/导学3：Git安装与GitHub配置.html
+        MISS 00_Introduction/导学4：Claude Code部署配置教程.html
+DIFF  07-coding/vibefast-docs                        ok=147   crlf=0     bad=0    missing=1    /148
+        MISS .gitignore
+DIFF  07-coding/vibe-coding-101-for-engineers        ok=51    crlf=0     bad=0    missing=1    /52
+        MISS .gitignore
+PASS  07-coding/lovable-for-beginners                ok=20    crlf=0     bad=0    missing=0    /20
+DIFF  07-coding/fastcampus-ai-agent-vibecoding       ok=683   crlf=0     bad=0    missing=262  /945
+        MISS .claude/hooks/youtube_transcript.sh
+        MISS .gitbook.yaml
+        MISS .gitignore
+        MISS .mcp.json
+        MISS Part2_Agent_개념과_아키텍처/Chapter2_LLM_API_호출_이해하기/requirements.txt
+DIFF  07-coding/spec-kit                             ok=455   crlf=0     bad=0    missing=89   /544
+        MISS .devcontainer/devcontainer.json
+        MISS .devcontainer/post-create.sh
+        MISS .github/ISSUE_TEMPLATE/agent_request.yml
+        MISS .github/ISSUE_TEMPLATE/bug_report.yml
+        MISS .github/ISSUE_TEMPLATE/bundle_submission.yml
+DIFF  08-agents/deepagents-in-action                 ok=21    crlf=0     bad=0    missing=29   /50
+        MISS .github/ISSUE_TEMPLATE/01-content-correction.yml
+        MISS .github/ISSUE_TEMPLATE/02-code-issue.yml
+        MISS .github/ISSUE_TEMPLATE/03-content-suggestion.yml
+        MISS .github/ISSUE_TEMPLATE/04-site-bug.yml
+        MISS .github/ISSUE_TEMPLATE/config.yml
+DIFF  08-agents/langchain4j-for-beginners            ok=13    crlf=0     bad=0    missing=875  /888
+        MISS .azd-env.sh
+        MISS .devcontainer/devcontainer.json
+        MISS .devcontainer/post-create.sh
+        MISS .gitignore
+        MISS .vscode/launch.json
+DIFF  08-agents/second-brain-ai-assistant-course     ok=122   crlf=0     bad=0    missing=41   /163
+        MISS .github/workflows/ci.yml
+        MISS .gitignore
+        MISS LICENSE
+        MISS apps/infrastructure/docker/Dockerfile
+        MISS apps/infrastructure/docker/docker-compose.yml
+DIFF  08-agents/ed-donner-production                 ok=62    crlf=0     bad=0    missing=5    /67
+        MISS .gitignore
+        MISS LICENSE
+        MISS community_contributions/Week2_day5_stale_locks/destroy.sh
+        MISS community_contributions/product.tsx
+        MISS finale/pyproject.toml
+DIFF  08-agents/pocket-manus                         ok=152   crlf=0     bad=0    missing=34   /186
+        MISS .github/ISSUE_TEMPLATE/config.yaml
+        MISS .github/ISSUE_TEMPLATE/request_new_features.yaml
+        MISS .github/ISSUE_TEMPLATE/show_me_the_bug.yaml
+        MISS .github/dependabot.yml
+        MISS .github/workflows/build-package.yaml
+DIFF  09-harness/harness-books                       ok=37    crlf=0     bad=0    missing=120  /157
+        MISS .github/workflows/ci.yml
+        MISS .github/workflows/github-pages.yml
+        MISS .gitignore
+        MISS CLAUDE.md
+        MISS book1-claude-code/_build/honkit/default/src/README.md
+DIFF  10-context-memory/openai-skills                ok=688   crlf=0     bad=0    missing=18   /706
+        MISS .gitignore
+        MISS skills/.curated/chatgpt-apps/scripts/scaffold_node_ext_apps.mjs
+        MISS skills/.curated/figma-generate-library/scripts/bindVariablesToComponent.js
+        MISS skills/.curated/figma-generate-library/scripts/cleanupOrphans.js
+        MISS skills/.curated/figma-generate-library/scripts/createComponentWithVariants.js
+DIFF  10-context-memory/microsoft-skills             ok=1900  crlf=0     bad=0    missing=118  /2018
+        MISS .entire/.gitignore
+        MISS .github/plugins/azure-kusto-graph-skills/LICENSE
+        MISS .github/plugins/azure-kusto-graph-skills/hooks/scripts/track-telemetry.js
+        MISS .github/plugins/azure-kusto-graph-skills/hooks/scripts/track-telemetry.sh
+        MISS .github/plugins/azure-sdk-typescript/skills/react-flow-node-ts/assets/template.tsx
+DIFF  10-context-memory/advanced-context-engineering ok=5     crlf=0     bad=0    missing=1    /6
+        MISS .gitignore
+DIFF  13-local-ai/edgeai-for-beginners               ok=165   crlf=0     bad=0    missing=6131 /6296
+        MISS .github/dependabot.yml
+        MISS .github/workflows/markdown-cli-lint.yml
+        MISS .gitignore
+        MISS .vscode/settings.json
+        MISS LICENSE
+DIFF  11-personal-agents/mine-context                ok=11    crlf=0     bad=0    missing=390  /401
+        MISS .github/ISSUE_TEMPLATE/01_bug_report.yml
+        MISS .github/ISSUE_TEMPLATE/02_feature_request.yml
+        MISS .github/ISSUE_TEMPLATE/03_docs_advice.yml
+        MISS .github/ISSUE_TEMPLATE/config.yml
+        MISS .github/workflows/release.yml
+DIFF  09-harness/claude-code-book-yuyu               ok=47    crlf=0     bad=0    missing=7    /54
+        MISS .gitignore
+        MISS scripts/check_book.py
+        MISS scripts/check_mermaid.mjs
+        MISS scripts/star_history.py
+        MISS scripts/typeset_cover.py
+DIFF  09-harness/claude-code-from-scratch            ok=104   crlf=0     bad=0    missing=60   /164
+        MISS .gitignore
+        MISS index.html
+        MISS python/mini_claude/__init__.py
+        MISS python/mini_claude/__main__.py
+        MISS python/mini_claude/agent.py
+DIFF  09-harness/claude-code-harness-chachamaru      ok=145   crlf=0     bad=0    missing=1116 /1261
+        MISS .claude-code-harness.config.yaml
+        MISS .claude/memory/archive/Plans-2025-12-25.md
+        MISS .claude/memory/archive/Plans-2025-12-26.md
+        MISS .claude/memory/archive/Plans-2026-01-05.md
+        MISS .claude/memory/archive/Plans-2026-01-08.md
+DIFF  09-harness/repository-harness                  ok=87    crlf=0     bad=0    missing=5    /92
+        MISS .gitignore
+        MISS Cargo.toml
+        MISS crates/harness/Cargo.toml
+        MISS scripts/engineering-wisdom-install-files.txt
+        MISS scripts/harness-install-files.txt
+DIFF  09-harness/deepseek-harness                    ok=935   crlf=0     bad=0    missing=8920 /9855
+        MISS .agents/notes/archived/feature/2026-07-22-web-multimodal-image-input-and-durable-attachments.md
+        MISS .agents/notes/archived/feature/2026-07-22-web-multimodal-image-input-and-durable-attachments.zh.md
+        MISS .agents/notes/archived/feature/2026-07-23-trajectory-step-cell.i18n.yaml
+        MISS .agents/notes/archived/feature/2026-07-23-trajectory-step-cell.md
+        MISS .agents/notes/archived/feature/2026-07-23-trajectory-step-cell.zh.md
+DIFF  09-harness/langchain-deepagents                ok=501   crlf=0     bad=0    missing=1075 /1576
+        MISS .github/scripts/checks/markdown_file_check.js
+        MISS .github/scripts/checks/readme-gate.js
+        MISS .github/scripts/labeling/close-old-prs.js
+        MISS .github/scripts/labeling/pr-labeler.js
+        MISS .github/scripts/release/draft-release-notes.js
+DIFF  09-harness/grok-build                          ok=58    crlf=0     bad=0    missing=581  /639
+        MISS .gitignore
+        MISS crates/codegen/xai-grok-agent/scripts/encrypt_templates.py
+        MISS crates/codegen/xai-grok-announcements/.gitignore
+        MISS crates/codegen/xai-grok-announcements/generate.sh
+        MISS crates/codegen/xai-grok-hooks/examples/hooks/bin/no-recursive-grep-guard.py
+DIFF  09-harness/strands-harness-sdk                 ok=500   crlf=0     bad=0    missing=1840 /2340
+        MISS .agents/skills/pr-feedback/fetch-pr-feedback.sh
+        MISS .agents/skills/pr-writer/get-diff.sh
+        MISS .agents/skills/pre-push/run-checks.sh
+        MISS .github/scripts/group-release-notes.mjs
+        MISS .github/scripts/pr-metrics/apply-labels.mjs
+DIFF  09-harness/codex-guide-freestylefly            ok=70    crlf=0     bad=0    missing=84   /154
+        MISS .agents/skills/image-publish/scripts/add-watermark.sh
+        MISS .agents/skills/image-publish/scripts/upload-oss-image.sh
+        MISS .github/ISSUE_TEMPLATE/bug_report.yml
+        MISS .github/ISSUE_TEMPLATE/content_request.yml
+        MISS .gitignore
+DIFF  09-harness/meta-skill-harness-revfactory       ok=27    crlf=0     bad=0    missing=4    /31
+        MISS .gitignore
+        MISS LICENSE
+        MISS index.html
+        MISS privacy.html
+DIFF  10-context-memory/claude-code-system-prompts   ok=301   crlf=0     bad=0    missing=416  /717
+        MISS .gitignore
+        MISS system-prompts/system-prompt-communication-style.md
+        MISS system-prompts/system-prompt-concise-output-style.md
+        MISS system-prompts/system-prompt-context-compaction-summary.md
+        MISS system-prompts/system-prompt-coordinator-cross-session-peer-guidance.md
+DIFF  10-context-memory/practical-guide-context-engineering ok=46    crlf=0     bad=0    missing=11   /57
+        MISS .github/workflows/blank.yml
+        MISS .gitignore
+        MISS NOTICE.txt
+        MISS docs.json
+        MISS docs/.vitepress/config.js
+DIFF  10-context-memory/hf-context-course            ok=240   crlf=0     bad=0    missing=43   /283
+        MISS .gitignore
+        MISS course-hyperframes/agent-loop/.gitignore
+        MISS course-hyperframes/agent-loop/index.html
+        MISS course-hyperframes/hook-lifecycle/.gitignore
+        MISS course-hyperframes/hook-lifecycle/index.html
+DIFF  10-context-memory/context-engineering-book     ok=358   crlf=0     bad=0    missing=349  /707
+        MISS .gitignore
+        MISS ch01/javascript/anthropic-claude-basic/anthropic-claude-basic.js
+        MISS ch01/javascript/anthropic-claude-streaming/anthropic-claude-streaming.js
+        MISS ch01/javascript/google-gemini-basic/google-gemini-basic.js
+        MISS ch01/javascript/google-gemini-streaming/google-gemini-streaming.js
+DIFF  10-context-memory/superpowers-zh               ok=160   crlf=0     bad=0    missing=28   /188
+        MISS .github/ISSUE_TEMPLATE/config.yml
+        MISS .github/workflows/audit.yml
+        MISS .github/workflows/ci.yml
+        MISS .github/workflows/deploy-site.yml
+        MISS .gitignore
+DIFF  10-context-memory/get-shit-done                ok=501   crlf=0     bad=0    missing=1341 /1842
+        MISS .gitignore
+        MISS bin/gsd-sdk.js
+        MISS bin/install.js
+        MISS bin/lib/ui-safety-gate.cjs
+        MISS docs/ja-JP/CONFIGURATION.md
+DIFF  08-agents/agent-systems-handbook               ok=301   crlf=0     bad=0    missing=262  /563
+        MISS .github/ISSUE_TEMPLATE/bug-report.yml
+        MISS .github/ISSUE_TEMPLATE/config.yml
+        MISS .github/ISSUE_TEMPLATE/content-proposal.yml
+        MISS .github/ISSUE_TEMPLATE/meta-process.yml
+        MISS .github/ISSUE_TEMPLATE/practitioner-skill-package.yml
+DIFF  04-work/coze-studio                            ok=347   crlf=0     bad=0    missing=11631 /11978
+        MISS .github/.licenserc.yaml
+        MISS .github/scripts/check-file-size.sh
+        MISS .github/workflows/ci.yml
+        MISS .github/workflows/ci@backend.yml
+        MISS .github/workflows/ci@main.yml
+DIFF  04-work/coze-loop                              ok=77    crlf=0     bad=0    missing=2365 /2442
+        MISS .github/.codecov.yaml
+        MISS .github/.golangci.yaml
+        MISS .github/.licenserc.yaml
+        MISS .github/ISSUE_TEMPLATE/bug_report.yml
+        MISS .github/ISSUE_TEMPLATE/config.yml
+DIFF  04-work/office-agents-hewliyang                ok=185   crlf=0     bad=0    missing=12   /197
+        MISS .gitignore
+        MISS packages/core/src/index.css
+        MISS packages/excel/src/commands.html
+        MISS packages/excel/src/taskpane.html
+        MISS packages/excel/src/taskpane/index.css
+SKIP  04-work/qwenwork-official-help-cn              站点型快照  files=215    52 MB  （无 commit，不参与 blob 校验；文件数变化即可疑）
+SKIP  04-work/qwenwork-xiaolvshu                     站点型快照  files=134    0.3 MB  （无 commit，不参与 blob 校验；文件数变化即可疑）
+SKIP  09-harness/claude-code-docs-official           站点型快照  files=205    17.9 MB  （无 commit，不参与 blob 校验；文件数变化即可疑）
+SKIP  09-harness/anthropic-engineering-blog          站点型快照  files=56     5.7 MB  （无 commit，不参与 blob 校验；文件数变化即可疑）
+SKIP  01-foundations/anthropic-platform-docs-en      站点型快照  files=631    33.7 MB  （无 commit，不参与 blob 校验；文件数变化即可疑）
+SKIP  09-harness/openai-codex-docs-official          站点型快照  files=154    5.8 MB  （无 commit，不参与 blob 校验；文件数变化即可疑）
+SKIP  09-harness/openai-developer-blog               站点型快照  files=31     0.8 MB  （无 commit，不参与 blob 校验；文件数变化即可疑）
+SKIP  08-agents/openai-cookbook-docs                 站点型快照  files=54     12 MB  （无 commit，不参与 blob 校验；文件数变化即可疑）
+SKIP  11-personal-agents/openai-plugins-docs         站点型快照  files=30     0.4 MB  （无 commit，不参与 blob 校验；文件数变化即可疑）
+SKIP  01-foundations/openai-api-docs-en              站点型快照  files=231    9.4 MB  （无 commit，不参与 blob 校验；文件数变化即可疑）
+SKIP  01-foundations/openai-api-reference-en         站点型快照  files=213    19.5 MB  （无 commit，不参与 blob 校验；文件数变化即可疑）
+
+汇总：ok=40930  crlf=915  bad=0  missing=94065  跳过来源=18
+说明：PASS=逐字节一致；CRLF=仅行尾为 CRLF（内容一致，由 git checkout 行尾转换产生）；DIFF=存在缺失或内容差异。
+结论：存在内容差异或未完成快照，逐条查看上方 DIFF / MISS 行

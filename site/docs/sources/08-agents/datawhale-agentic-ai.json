@@ -1,0 +1,18 @@
+{
+  "id": "08-agents/datawhale-agentic-ai",
+  "volume": "08-agents",
+  "local": "datawhale-agentic-ai",
+  "title": "Datawhale Agentic AI 教程",
+  "kind": "系统课程",
+  "license": "Apache-2.0",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "中文",
+  "needsTranslation": false,
+  "publishable": true,
+  "repo": "datawhalechina/agentic-ai",
+  "site": null,
+  "commit": "a93ab1d8546cca8b508a72f0f2c385777d5f1403",
+  "entryUrl": "https://github.com/datawhalechina/agentic-ai/blob/a93ab1d8546cca8b508a72f0f2c385777d5f1403/README.md",
+  "docs": 33
+}

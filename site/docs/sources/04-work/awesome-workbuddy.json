@@ -1,0 +1,18 @@
+{
+  "id": "04-work/awesome-workbuddy",
+  "volume": "04-work",
+  "local": "awesome-workbuddy",
+  "title": "办公 Agent 生态清单（awesome-workbuddy）",
+  "kind": "清单与速查",
+  "license": "CC0-1.0",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "中文",
+  "needsTranslation": false,
+  "publishable": true,
+  "repo": "staruhub/awesome-workbuddy",
+  "site": null,
+  "commit": "e32b6c953154e41f6cb4e6b69fd7d933f5cef3d3",
+  "entryUrl": "https://github.com/staruhub/awesome-workbuddy/blob/e32b6c953154e41f6cb4e6b69fd7d933f5cef3d3/README.md",
+  "docs": 4
+}

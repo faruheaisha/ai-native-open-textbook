@@ -1,0 +1,18 @@
+{
+  "id": "09-harness/agentic-harness-engineering",
+  "volume": "09-harness",
+  "local": "agentic-harness-engineering",
+  "title": "Agentic Harness Engineering（论文与实现）",
+  "kind": "工程手册",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "中英混排",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "china-qijizhifeng/agentic-harness-engineering",
+  "site": null,
+  "commit": "8b2a55d97590363fe50c3cc6b5e833b020a4bb4c",
+  "entryUrl": "https://github.com/china-qijizhifeng/agentic-harness-engineering/blob/8b2a55d97590363fe50c3cc6b5e833b020a4bb4c/README.md",
+  "docs": 37
+}

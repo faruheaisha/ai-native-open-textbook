@@ -1,0 +1,18 @@
+{
+  "id": "10-context-memory/get-shit-done",
+  "volume": "10-context-memory",
+  "local": "get-shit-done",
+  "title": "GSD（Get Shit Done）工作流文档",
+  "kind": "其他材料",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "gsd-build/get-shit-done",
+  "site": null,
+  "commit": "bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815",
+  "entryUrl": "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/README.md",
+  "docs": 4
+}

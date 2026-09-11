@@ -1,0 +1,154 @@
+---
+title: "Customer Email Assist"
+sourceId: "08-agents/agent-systems-handbook"
+sourceTitle: "Agent Systems Handbook（智能体系统手册）"
+sourceKind: "工程手册"
+licenseLabel: "限非商用"
+lang: "英文"
+tier: 1
+volume: "08-agents"
+sourceUrl: "https://github.com/Prompthon-IO/agent-systems-handbook"
+entryUrl: "https://github.com/Prompthon-IO/agent-systems-handbook/blob/5b71cfa598701a34834f33b42be5f8a422138a3c/README.md"
+zh: ""
+---
+
+# Customer Email Assist
+
+Use this skill to operate the `customer-email-assist-starter` example with the
+fewest model tokens possible.
+
+## Required Runtime Inputs
+
+For the default connector-assisted workflow:
+- `CUSTOMER_EMAIL_ASSIST_POLICY_PATH`
+- optional `CUSTOMER_EMAIL_ASSIST_DB_PATH`
+
+Gmail authentication should happen through the Codex Gmail connector. Do not ask
+the user to configure local Google OAuth variables for the normal workflow.
+
+## Hard Rule
+
+Use model tokens only for:
+
+1. understanding cleaned inbound customer email content
+2. producing JSON fields for reply templates
+
+Do not use model calls for Gmail fetching, HTML cleanup, quoted-history
+removal, signature stripping, customer matching, SQLite writes, analytics,
+filtering, pagination, or send-queue execution.
+
+## Deterministic Commands
+
+Resolve paths relative to this starter directory.
+
+```bash
+npm run setup-local
+tsx scripts/customer-email-assist.ts import-prepared-batch --input /tmp/prepared-inbound.json
+tsx scripts/customer-email-assist.ts persist-understanding --input /tmp/understanding.json
+tsx scripts/customer-email-assist.ts prepare-draft-batch --policy "$CUSTOMER_EMAIL_ASSIST_POLICY_PATH" --out /tmp/draft-batch.json
+tsx scripts/customer-email-assist.ts render-save-drafts --input /tmp/draft-fields.json
+```
+
+## Workflow
+
+1. Use the Codex Gmail connector to search the mailbox.
+   - Prefer a narrow query such as `newer_than:1d -in:spam -in:trash -category:promotions`.
+   - Read only shortlisted customer-authored messages.
+   - Keep at most four cleaned inbound items per batch.
+2. Build `/tmp/prepared-inbound.json` as `PreparedInboundItem[]`.
+   - Include only `gmailThreadId`, `gmailLastInboundMessageId`, `subject`,
+     `cleanBody`, `receivedAt`, and the customer fields.
+   - Skip ignored customers when the local database already knows them.
+3. Run `import-prepared-batch --input <file>`.
+   - This writes the SQLite issue rows and renders deterministic fallback drafts
+     without using local Gmail OAuth.
+4. Use the model only if hard logic is not enough for `understand`.
+   - Read only the JSON batch output.
+   - Return JSON only.
+   - Fields per item:
+     - `gmailThreadId`
+     - `gmailLastInboundMessageId`
+     - `customerEmail`
+     - `customerName`
+     - `subject`
+     - `receivedAt`
+     - `originalMessageText`
+     - `classification`
+     - `summary`
+     - `urgency`
+     - `actionSuggestion`
+5. Save model output, when used, and run `persist-understanding --input <file>`.
+6. Run `prepare-draft-batch --policy <file>`.
+   - This retrieves only a few policy evidence lines per issue.
+   - Prefer `--out <file>` so the CLI returns only a tiny summary.
+7. Use the model only if fallback templates are not enough for `draft-fields`.
+   - Read only the draft batch JSON.
+   - Return JSON only.
+   - Fields per item:
+     - `issueId`
+     - `classification`
+     - `draftFields.customerName`
+     - `draftFields.acknowledgement`
+     - `draftFields.nextStep`
+     - `draftFields.policyEvidence`
+     - `draftFields.signoff`
+8. Save that JSON and run `render-save-drafts --input <file>`.
+9. In the dashboard, let the user edit the rendered draft, approve send with
+   the undo countdown, cancel approval for still-queued replies, mark
+   resolved, approve pending customers, ignore customers, or update customer
+   descriptions.
+10. For `approved_to_send` rows that are waiting on connector mode, use the
+    Codex Gmail connector to create or send the reply, then mark the issue
+    resolved.
+
+## Advanced Local OAuth Adapter
+
+The repository still contains a direct Gmail API adapter for teams that
+explicitly want a standalone local integration. Treat it as advanced and do not
+present it as the normal setup path.
+
+Required advanced variables:
+- `GOOGLE_CLIENT_ID`
+- `GOOGLE_CLIENT_SECRET`
+
+The dashboard `Connect Gmail` button stores the refresh token locally after the
+Google consent callback. `GOOGLE_REFRESH_TOKEN` is still accepted as a manual
+fallback, but it is not required for the web-app flow.
+
+Optional:
+- `CUSTOMER_EMAIL_ASSIST_OPERATOR_EMAIL`
+- `GOOGLE_REDIRECT_URI` if the dashboard callback should not be inferred from the current origin
+- `CUSTOMER_EMAIL_ASSIST_GMAIL_LABEL` for OAuth-based inbound fetch/sync
+
+For setup details, read `README.md` in this starter directory. It documents how
+to create the Google OAuth client, use the dashboard callback, and which
+database/policy variables are optional.
+
+Advanced commands:
+
+```bash
+npm run sync:oauth
+tsx scripts/customer-email-assist.ts prepare-inbound-batch --out /tmp/prepared-inbound.json
+tsx scripts/customer-email-assist.ts apply-send-queue
+```
+
+When this advanced local OAuth path is connected, the dashboard's `Approve &
+Send` action can execute the deterministic send path immediately after the undo
+countdown. Without an OAuth connection, the dashboard keeps the issue in
+`approved_to_send` instead of attempting an unauthenticated send.
+
+## Response Discipline
+
+- Keep assistant narration short.
+- When a command result is enough, return only the result and the next needed
+  action.
+- Prefer compact JSON over pretty-printed output for deterministic CLI steps.
+
+## Guardrails
+
+- Keep the model inputs short. Do not send full thread history.
+- Do not send raw policy documents to the model; only send the selected policy
+  evidence lines from `prepare-draft-batch`.
+- Keep `handoff_required` cases out of auto-send flows unless the user
+  explicitly edits and approves the final reply.
+- Treat ignored customers as non-actionable in future sync runs.

@@ -1,0 +1,151 @@
+---
+title: "vibefast.app 🚀"
+sourceId: "07-coding/vibefast-docs"
+sourceTitle: "VibeFast 文档"
+sourceKind: "官方文档"
+licenseLabel: "限非商用"
+lang: "英文"
+tier: 3
+volume: "07-coding"
+sourceUrl: "https://github.com/vibefast-app/vibefast-docs"
+entryUrl: "https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/README.md"
+zh: ""
+---
+
+# vibefast.app 🚀
+
+[English](/lib/07-coding/vibefast-docs/overview) · [繁中](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/README-zh.md) · [日本語](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/README-jp.md) · [Español](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/README-es.md) · [Português (BR)](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/README-pt-br.md)
+
+**You don’t need to know how to code to build a real web app.**  
+**3 commands. Deployed globally in 5 minutes.**
+
+Free open-source vibefast.app course + paid full-stack vibefast.app template. From learning to shipping, all in one place.
+
+📚 25 hands-on tutorials, from concept to deployment  
+⚡ 3 commands to global deployment  
+🌍 5 languages: 繁中 · English · 日本語 · Español · Português (BR)
+
+-----
+
+## What Is vibefast.app
+
+vibefast.app has two parts that solve the same problem:
+
+### Free Open-Source vibefast.app course
+
+I used to charge **$2,000 USD** per person to teach this content. Now it’s completely free.
+
+Never written a line of code? That’s fine. This course was designed for you.
+
+25 hands-on tutorials covering the full Cloudflare stack, AI workflows, and the complete path from zero to deployment. Follow the roadmap and ship your first real web app in six weeks.
+
+👉 **[Read the full course free — vibefast.app/learn](https://vibefast.app/learn)**
+
+### Paid Full-Stack vibefast.app template
+
+The course teaches you how. The template helps you ship faster.
+
+Auth, database, payments, email, analytics — all configured. Three commands and your web app is live on 300+ global nodes.
+
+```bash
+git clone https://github.com/vibefast-app/vibefast.git my-app
+cd my-app && npm install
+npm run setup
+```
+
+No Next.js. No Vercel. No AWS. One platform, one bill, zero egress fees.
+
+After purchase, you’ll immediately receive a GitHub invitation to the private repository. All future updates are yours, forever, at no extra cost.
+
+-----
+
+## Experience It Right Now
+
+Other templates give you a demo site.
+
+**The vibefast.app live demo is its own production website.**
+
+This website is built entirely with the vibefast.app template. Real traffic, real users, every day. What you see is exactly what the template can produce.
+
+Sign up for free and enter the live backend. Explore Analytics, Blog, and Media directly, plus sample Business and User views in limited-access mode.
+
+👉 **[Try it free — vibefast.app](https://vibefast.app)**
+
+-----
+
+## Get the vibefast.app template
+
+Early bird pricing is for the first people who believe in this.
+
+**Early bird US$99 · Increases to US$199 on August 1, 2026**
+
+One-time payment · Lifetime updates · Immediate access to private GitHub repo
+
+👉 **[Buy now — vibefast.app/pricing](https://vibefast.app/pricing)**
+
+-----
+
+## Course Roadmap
+
+### Prologue
+
+- [x] 00 — [Why I Started Building Products at 50](/lib/07-coding/vibefast-docs/en)
+
+-----
+
+### Week 1–2: Foundation
+
+- [x] 01 — [What Is Vibe Coding?](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/01-what-is-vibecoding-en.md)
+- [x] 02 — [Setting Up Your Vibe Coding Environment from Zero](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/02-how-to-setup-vibecoding-environment-en.md)
+- [x] 03 — [What Are APIs, Frontend, and Backend?](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/03-what-is-api-frontend-backend-en.md)
+- [x] 04 — [What Is JWT Authentication?](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/04-what-is-jwt-authentication-en.md)
+
+-----
+
+### Week 2–3: Cloudflare Stack
+
+- [x] 05 — [Why Cloudflare Is the Best Choice for Vibe Coding](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/05-the-best-way-to-vibecoding-on-cloudflare-en.md)
+- [x] 06 — [Cloudflare Workers vs Traditional Servers](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/06-cloudflare-workers-vs-traditional-server-en.md)
+- [x] 07 — [Getting Started with Cloudflare D1 Database](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/07-cloudflare-d1-database-tutorial-en.md)
+- [x] 08 — [Cloudflare R2 vs AWS S3](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/08-cloudflare-r2-vs-aws-s3-en.md)
+- [x] 09 — [Environment Variables and Secret Management](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/09-environment-variables-and-secrets-en.md)
+
+-----
+
+### Week 3–4: Dev Tools & Workflow
+
+- [x] 10 — [Git and GitHub Version Control for Beginners](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/10-git-and-github-version-control-en.md)
+- [x] 11 — [Designing Frontend Interfaces with AI](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/11-ai-frontend-design-with-cursor-en.md)
+- [x] 12 — [What Are Domains and DNS?](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/12-domain-and-dns-setup-guide-en.md)
+- [x] 13 — [Security Basics for Vibe Coders](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/13-security-basics-for-vibe-coders-en.md)
+
+-----
+
+### Week 4–5: Advanced Techniques
+
+- [x] 14 — [How to Discuss Your Project with AI Before Coding](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/14-how-to-discuss-with-ai-before-coding-en.md)
+- [x] 15 — [How I Take a Feature from Idea to Deploy with Cursor](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/15-cursor-workflow-from-idea-to-deploy-en.md)
+- [x] 16 — [5 Mistakes I Made with Vibe Coding](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/16-vibe-coding-common-mistakes-en.md)
+- [x] 17 — [How to Create a Vibe Coding Work Plan](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/17-vibe-coding-work-plan-and-ai-plan-mode-en.md)
+- [x] 18 — [Don’t Panic When You See Errors: Using AI to Debug](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/18-debug-and-errors-en.md)
+
+-----
+
+### Week 5–6: Tech Choices & Real World
+
+- [x] 19 — [Choosing Your Stack: Cloudflare vs Vercel vs AWS](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/19-cloudflare-vs-vercel-vs-aws-en.md)
+- [x] 20 — [The Complete Guide to Stripe Payments](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/20-stripe-payment-complete-guide-en.md)
+- [x] 21 — [How to Write Tests with AI](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/21-ai-testing-guide-en.md)
+- [x] 22 — [SEO Basics: Getting Your Product Found on Google](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/22-seo-basics-for-indie-makers-en.md)
+- [x] 23 — [Analytics and User Tracking](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/23-analytics-and-user-tracking-en.md)
+- [x] 24 — [Case Study: Building a SaaS Product with the vibefast.app template](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/24-saas-case-study-en.md)
+- [x] 25 — [Case Study: Building an E-commerce Site with the vibefast.app template](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/25-ecommerce-case-study-en.md)
+
+-----
+
+## Quick Links
+
+- [Quickstart Guide](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/quickstart.md) — From clone to live in 3 commands
+- [FAQ](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/faq.md) — Pricing, licensing, tech stack, and support
+
+-----

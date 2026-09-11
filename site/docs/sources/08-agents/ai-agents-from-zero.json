@@ -1,0 +1,18 @@
+{
+  "id": "08-agents/ai-agents-from-zero",
+  "volume": "08-agents",
+  "local": "ai-agents-from-zero",
+  "title": "从零构建 AI Agent（didilili）",
+  "kind": "课时教程",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "中文",
+  "needsTranslation": false,
+  "publishable": true,
+  "repo": "didilili/ai-agents-from-zero",
+  "site": null,
+  "commit": "ea7f28ffe0b2c2650e3936f3bb591560225702b3",
+  "entryUrl": "https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/README.md",
+  "docs": 5
+}

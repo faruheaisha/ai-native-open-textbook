@@ -1,0 +1,18 @@
+{
+  "id": "09-harness/harness-engineering-from-cc-to-ai-coding",
+  "volume": "09-harness",
+  "local": "harness-engineering-from-cc-to-ai-coding",
+  "title": "驾驭工程：从 Claude Code 源码到 AI 编码最佳实践",
+  "kind": "工程手册",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "中文",
+  "needsTranslation": false,
+  "publishable": true,
+  "repo": "ZhangHanDong/harness-engineering-from-cc-to-ai-coding",
+  "site": null,
+  "commit": "e40e0feec02b90e308ccbfc7a8911d64118ccca0",
+  "entryUrl": "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding/blob/e40e0feec02b90e308ccbfc7a8911d64118ccca0/README.md",
+  "docs": 48
+}

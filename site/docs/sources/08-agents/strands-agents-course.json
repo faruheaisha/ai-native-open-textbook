@@ -1,0 +1,18 @@
+{
+  "id": "08-agents/strands-agents-course",
+  "volume": "08-agents",
+  "local": "strands-agents-course",
+  "title": "Strands Agents 课程（AWS）",
+  "kind": "系统课程",
+  "license": "MIT-0",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "aws-samples/sample-getting-started-with-strands-agents-course",
+  "site": null,
+  "commit": "6f0b46cd565312a34cdb9a6c72cbff7f3fa80c1d",
+  "entryUrl": "https://github.com/aws-samples/sample-getting-started-with-strands-agents-course/blob/6f0b46cd565312a34cdb9a6c72cbff7f3fa80c1d/README.md",
+  "docs": 4
+}

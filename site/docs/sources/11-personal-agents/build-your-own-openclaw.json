@@ -1,0 +1,18 @@
+{
+  "id": "11-personal-agents/build-your-own-openclaw",
+  "volume": "11-personal-agents",
+  "local": "build-your-own-openclaw",
+  "title": "Build Your Own OpenClaw",
+  "kind": "源码研读",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "中英混排",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "czl9707/build-your-own-openclaw",
+  "site": null,
+  "commit": "37ae5dd255a0451609e67ad6d6a51fa5de80523c",
+  "entryUrl": null,
+  "docs": 9
+}

@@ -1,0 +1,18 @@
+{
+  "id": "11-personal-agents/qclaw",
+  "volume": "11-personal-agents",
+  "local": "qclaw",
+  "title": "Qclaw（秋芝2046）",
+  "kind": "其他材料",
+  "license": "Apache-2.0",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "中文",
+  "needsTranslation": false,
+  "publishable": true,
+  "repo": "qiuzhi2046/Qclaw",
+  "site": null,
+  "commit": "c494768977f4e48b8eacbfae7ae390af11fc015f",
+  "entryUrl": "https://github.com/qiuzhi2046/Qclaw/blob/c494768977f4e48b8eacbfae7ae390af11fc015f/README.md",
+  "docs": 3
+}

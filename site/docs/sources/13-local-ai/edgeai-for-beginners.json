@@ -1,0 +1,18 @@
+{
+  "id": "13-local-ai/edgeai-for-beginners",
+  "volume": "13-local-ai",
+  "local": "edgeai-for-beginners",
+  "title": "EdgeAI for Beginners",
+  "kind": "系统课程",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "microsoft/edgeai-for-beginners",
+  "site": null,
+  "commit": "e88f123a4bb5796594919db3a13257c429d1288c",
+  "entryUrl": "https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/README.md",
+  "docs": 12
+}

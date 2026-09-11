@@ -1,0 +1,32 @@
+# 依赖与构建产物
+node_modules/
+site/node_modules/
+site/docs/.vitepress/dist/
+site/docs/.vitepress/cache/
+site/docs/.vitepress/.temp/
+site/.vptest/
+.cache/
+dist/
+
+# 上游资料只读快照（约 1.26 GB）：不入库。
+# 重建方式见 课程设计基线/research/ 下的检索记录与 scripts/build-catalog.mjs。
+upstream/
+
+# 编辑与调试中间产物
+scripts/tmp/
+*.bak
+*.orig
+*.rej
+
+# 本地与平台
+.env
+.env.*
+.vercel
+.netlify
+.wrangler
+.DS_Store
+Thumbs.db
+*.log
+
+# 误下载的杂项文件
+Proxy

@@ -1,0 +1,18 @@
+{
+  "id": "07-coding/ai-engineering-from-scratch-zh",
+  "volume": "07-coding",
+  "local": "ai-engineering-from-scratch-zh",
+  "title": "AI 工程从零到一（中文）",
+  "kind": "源码研读",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "中文",
+  "needsTranslation": false,
+  "publishable": true,
+  "repo": "fancyboi999/ai-engineering-from-scratch-zh",
+  "site": null,
+  "commit": "109181ce68128c1bf27ec20867177007a8bace89",
+  "entryUrl": "https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/README.md",
+  "docs": 4
+}

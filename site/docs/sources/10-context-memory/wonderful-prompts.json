@@ -1,0 +1,18 @@
+{
+  "id": "10-context-memory/wonderful-prompts",
+  "volume": "10-context-memory",
+  "local": "wonderful-prompts",
+  "title": "Wonderful Prompts",
+  "kind": "清单与速查",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "中文",
+  "needsTranslation": false,
+  "publishable": true,
+  "repo": "langgptai/wonderful-prompts",
+  "site": null,
+  "commit": "c8e5dbd3bc01740728fd1ab8f8d4f654a17e3697",
+  "entryUrl": "https://github.com/langgptai/wonderful-prompts/blob/c8e5dbd3bc01740728fd1ab8f8d4f654a17e3697/README.md",
+  "docs": 3
+}

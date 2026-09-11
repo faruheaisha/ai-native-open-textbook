@@ -1,0 +1,18 @@
+{
+  "id": "10-context-memory/claude-code-system-prompts",
+  "volume": "10-context-memory",
+  "local": "claude-code-system-prompts",
+  "title": "Claude Code System Prompts",
+  "kind": "源码研读",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "Piebald-AI/claude-code-system-prompts",
+  "site": null,
+  "commit": "3af4c6139aaabb0470440961ca8c8fb871099234",
+  "entryUrl": "https://github.com/Piebald-AI/claude-code-system-prompts/blob/3af4c6139aaabb0470440961ca8c8fb871099234/README.md",
+  "docs": 3
+}

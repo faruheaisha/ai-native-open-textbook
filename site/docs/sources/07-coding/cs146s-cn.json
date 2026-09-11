@@ -1,0 +1,18 @@
+{
+  "id": "07-coding/cs146s-cn",
+  "volume": "07-coding",
+  "local": "cs146s-cn",
+  "title": "动手学 CS146S 中文版",
+  "kind": "系统课程",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "中文",
+  "needsTranslation": false,
+  "publishable": true,
+  "repo": "ShouZhengAI/CS146S_CN",
+  "site": null,
+  "commit": "0d65f36f6673147d6c298670da4f9b4bd7f991fa",
+  "entryUrl": "https://github.com/ShouZhengAI/CS146S_CN/blob/0d65f36f6673147d6c298670da4f9b4bd7f991fa/README.md",
+  "docs": 2
+}

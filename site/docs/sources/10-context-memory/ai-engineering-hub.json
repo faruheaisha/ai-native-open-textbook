@@ -1,0 +1,18 @@
+{
+  "id": "10-context-memory/ai-engineering-hub",
+  "volume": "10-context-memory",
+  "local": "ai-engineering-hub",
+  "title": "AI Engineering Hub",
+  "kind": "其他材料",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "patchy631/ai-engineering-hub",
+  "site": null,
+  "commit": "2c9b106168d4540b88e727e4aa316c06c856c2b7",
+  "entryUrl": "https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/README.md",
+  "docs": 25
+}

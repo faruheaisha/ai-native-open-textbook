@@ -1,0 +1,18 @@
+{
+  "id": "04-work/workbuddy-bench-official",
+  "volume": "04-work",
+  "local": "workbuddy-bench-official",
+  "title": "WorkBuddy Bench（腾讯官方评测集）",
+  "kind": "产品仓库",
+  "license": "Tencent 自定义许可（声明不适用于欧盟）",
+  "licenseLabel": "限非商用",
+  "licenseNote": "可翻译转载，限非商用并按原许可相同方式共享",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "Tencent/workbuddy-bench",
+  "site": null,
+  "commit": "625b2233093ae4f23e76be28c1f341d41cc70373",
+  "entryUrl": "https://github.com/Tencent/workbuddy-bench/blob/625b2233093ae4f23e76be28c1f341d41cc70373/README.md",
+  "docs": 4
+}

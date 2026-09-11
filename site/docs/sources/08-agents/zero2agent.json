@@ -1,0 +1,18 @@
+{
+  "id": "08-agents/zero2agent",
+  "volume": "08-agents",
+  "local": "zero2agent",
+  "title": "Zero2Agent：从零实现 Agent",
+  "kind": "课时教程",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "中文",
+  "needsTranslation": false,
+  "publishable": true,
+  "repo": "ranxi2001/zero2Agent",
+  "site": null,
+  "commit": "46e9f7c28f84f54b2f6e45681d14989f01e18291",
+  "entryUrl": "https://github.com/ranxi2001/zero2Agent/blob/46e9f7c28f84f54b2f6e45681d14989f01e18291/README.md",
+  "docs": 15
+}

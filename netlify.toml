@@ -1,0 +1,25 @@
+# Netlify 部署配置
+# 构建上下文：Netlify 会在 base 目录安装依赖并执行 command；
+# 但构建脚本要读仓库根的 content/ 与 课程设计基线/，所以 command 里用 ../scripts 指回仓库根。
+
+[build]
+  base = "site"
+  command = "node ../scripts/build-index.mjs && npx vitepress build docs"
+  publish = "docs/.vitepress/dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# 带内容哈希的静态资源可长期缓存
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# 检索索引随每次构建变化，不缓存
+[[headers]]
+  for = "/search.json"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Netlify 默认开启 Pretty URLs，会把 /foo 映射到 foo.html —— 站点开启了 cleanUrls，依赖这条默认行为。

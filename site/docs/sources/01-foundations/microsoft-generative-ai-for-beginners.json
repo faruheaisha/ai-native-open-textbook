@@ -1,0 +1,18 @@
+{
+  "id": "01-foundations/microsoft-generative-ai-for-beginners",
+  "volume": "01-foundations",
+  "local": "microsoft-generative-ai-for-beginners",
+  "title": "Generative AI for Beginners（微软官方入门课）",
+  "kind": "系统课程",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "microsoft/generative-ai-for-beginners",
+  "site": null,
+  "commit": "c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07",
+  "entryUrl": "https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/README.md",
+  "docs": 6
+}

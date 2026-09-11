@@ -1,0 +1,18 @@
+{
+  "id": "08-agents/awesome-llm-apps",
+  "volume": "08-agents",
+  "local": "awesome-llm-apps",
+  "title": "Awesome LLM Apps",
+  "kind": "清单与速查",
+  "license": "Apache-2.0",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "Shubhamsaboo/awesome-llm-apps",
+  "site": null,
+  "commit": "9848ec842c5f559ad42654288cc6a38db6b175fb",
+  "entryUrl": "https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/README.md",
+  "docs": 3
+}

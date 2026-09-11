@@ -1,0 +1,18 @@
+{
+  "id": "09-harness/langchain-deepagents",
+  "volume": "09-harness",
+  "local": "langchain-deepagents",
+  "title": "LangChain DeepAgents",
+  "kind": "产品仓库",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "langchain-ai/deepagents",
+  "site": null,
+  "commit": "d93ab3351bbf4c3687212f665094ccad100f2c08",
+  "entryUrl": "https://github.com/langchain-ai/deepagents/blob/d93ab3351bbf4c3687212f665094ccad100f2c08/README.md",
+  "docs": 4
+}

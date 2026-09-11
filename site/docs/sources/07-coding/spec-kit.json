@@ -1,0 +1,18 @@
+{
+  "id": "07-coding/spec-kit",
+  "volume": "07-coding",
+  "local": "spec-kit",
+  "title": "Spec Kit（GitHub 官方规格驱动开发工具包）",
+  "kind": "产品仓库",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "github/spec-kit",
+  "site": null,
+  "commit": "c173bf19a6654e3b05386ec3599349a55282b897",
+  "entryUrl": "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/README.md",
+  "docs": 9
+}

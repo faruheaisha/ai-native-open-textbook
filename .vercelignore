@@ -1,0 +1,9 @@
+# Vercel CLI 上传时忽略：上游快照体积过大，构建也不需要。
+upstream/
+node_modules/
+site/node_modules/
+site/docs/.vitepress/dist/
+site/docs/.vitepress/cache/
+.vercel
+.netlify
+*.log

@@ -1,0 +1,18 @@
+{
+  "id": "09-harness/claude-code-guide-zebbern",
+  "volume": "09-harness",
+  "local": "claude-code-guide-zebbern",
+  "title": "Claude Code Guide（zebbern）",
+  "kind": "工程手册",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "zebbern/claude-code-guide",
+  "site": null,
+  "commit": "64c890fe74c3ccfad673dc9c71dc85b8dd2f4817",
+  "entryUrl": "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/README.md",
+  "docs": 3
+}

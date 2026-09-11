@@ -1,0 +1,342 @@
+{
+  "note": "人工分级：1 = 主线必读（建议按顺序精读）；2 = 值得精读的进阶材料；3 = 参考、工具与索引型材料。分级只影响排序与标记，不改变正文。",
+  "mainline": [
+    "01-foundations/microsoft-generative-ai-for-beginners",
+    "01-foundations/ai-engineering-lab",
+    "04-work/workbuddy-guide",
+    "04-work/qwenwork-guide",
+    "04-work/doubaowork-bluebook",
+    "04-work/how-to-use-dify",
+    "07-coding/cs146s-cn",
+    "07-coding/liyupi-ai-guide",
+    "07-coding/fufan-vibe-coding-course",
+    "07-coding/ai-engineering-from-scratch-zh",
+    "08-agents/microsoft-ai-agents-for-beginners",
+    "08-agents/huggingface-agents-course",
+    "08-agents/agent-systems-handbook",
+    "08-agents/datawhale-agentic-ai",
+    "08-agents/anthropic-cookbook",
+    "09-harness/learn-claude-code",
+    "09-harness/learn-workbuddy",
+    "09-harness/claude-code-best-practice",
+    "09-harness/claude-code-book-yuyu",
+    "09-harness/harness-engineering-from-cc-to-ai-coding",
+    "09-harness/claude-code-from-scratch",
+    "10-context-memory/hf-context-course",
+    "10-context-memory/huggingface-mcp-course",
+    "10-context-memory/context-engineering-intro",
+    "11-personal-agents/qclaw",
+    "13-local-ai/edgeai-for-beginners"
+  ],
+  "advanced": [
+    "01-foundations/llms-from-scratch",
+    "04-work/agent-guide-office",
+    "04-work/awesome-workbuddy",
+    "04-work/zhijian-ai-bluebook-workbuddy-harness",
+    "04-work/ai-coding-guide-zh",
+    "07-coding/ai-coding-guide-stormzhang",
+    "07-coding/fastcampus-ai-agent-vibecoding",
+    "07-coding/easy-vibe",
+    "07-coding/spec-kit",
+    "07-coding/awesome-vibe-coding",
+    "07-coding/ai-engineering-from-scratch",
+    "08-agents/ai-agents-from-zero",
+    "08-agents/zero2agent",
+    "08-agents/deepagents-in-action",
+    "08-agents/hello-agents",
+    "08-agents/baby-agent",
+    "08-agents/agentic-engineering-handbook",
+    "08-agents/openai-cookbook",
+    "08-agents/awesome-llm-apps",
+    "09-harness/how-claude-code-works",
+    "09-harness/deusyu-harness-engineering",
+    "09-harness/learn-harness-engineering",
+    "09-harness/better-harness",
+    "09-harness/claude-howto",
+    "09-harness/harness-engineering-anthology",
+    "09-harness/codex-cli-best-practice",
+    "09-harness/codex-guide-freestylefly",
+    "09-harness/codex-orange-book",
+    "09-harness/agentic-harness-engineering",
+    "09-harness/deepseek-harness",
+    "10-context-memory/context-engineering-book",
+    "10-context-memory/claude-code-system-prompts",
+    "10-context-memory/prompt-engineering-guide",
+    "10-context-memory/agent-skills-addyosmani",
+    "10-context-memory/practical-guide-context-engineering",
+    "10-context-memory/ai-engineering-hub",
+    "11-personal-agents/awesome-openclaw-usecases",
+    "11-personal-agents/build-your-own-openclaw",
+    "11-personal-agents/awesome-openclaw-tutorial"
+  ],
+  "titles": {
+    "01-foundations/microsoft-generative-ai-for-beginners": "Generative AI for Beginners（微软官方入门课）",
+    "04-work/coze-loop": "Coze Loop 源码研读",
+    "04-work/coze-studio": "Coze Studio 源码研读",
+    "04-work/workbuddy-bench-official": "WorkBuddy Bench（腾讯官方评测集）",
+    "07-coding/ai-api-integration": "AI API 接入实战（OpenAI 兼容协议）",
+    "07-coding/ai-engineering-from-scratch": "AI Engineering from Scratch（英文原版）",
+    "07-coding/easy-vibe": "Easy-Vibe（Datawhale：从零做出真实产品）",
+    "07-coding/fufan-vibe-coding-course": "Vibe Coding：AI 编程实战课",
+    "07-coding/spec-kit": "Spec Kit（GitHub 官方规格驱动开发工具包）",
+    "07-coding/vibe-coding-prompt-template": "Vibe Coding 提示词模板",
+    "07-coding/vibe-security-skill": "Vibe Security（AI 编码安全技能）",
+    "07-coding/vibefast-docs": "VibeFast 文档",
+    "08-agents/agent-systems-handbook": "Agent Systems Handbook（智能体系统手册）",
+    "08-agents/ai-agents-from-zero": "从零构建 AI Agent（didilili）",
+    "08-agents/anthropics-courses": "Anthropic 官方课程",
+    "08-agents/datawhale-agentic-ai": "Datawhale Agentic AI 教程",
+    "08-agents/gemini-cookbook": "Gemini API Cookbook",
+    "08-agents/hello-agents": "Hello Agents（Datawhale 智能体教程）",
+    "08-agents/huggingface-agents-course": "Hugging Face Agents Course（智能体课程）",
+    "08-agents/microsoft-ai-agents-for-beginners": "AI Agents for Beginners（微软官方入门课）",
+    "08-agents/microsoft-ai-engineering-coach": "AI Engineering Coach（微软）",
+    "08-agents/openai-agents-python": "OpenAI Agents SDK（Python）",
+    "08-agents/openai-cookbook": "OpenAI Cookbook",
+    "08-agents/production-agentic-rag-course": "生产级 Agentic RAG 课程",
+    "08-agents/strands-agents-course": "Strands Agents 课程（AWS）",
+    "09-harness/agentic-harness-patterns-skill": "Agentic Harness Patterns（模式与技能）",
+    "09-harness/awesome-harness-engineering-aiboost": "Awesome Harness Engineering（ai-boost）",
+    "09-harness/better-harness": "Better Harness（QoderAI）",
+    "09-harness/codex-guide-freestylefly": "Codex 实践指南（CodexGuide）",
+    "09-harness/ecc": "ECC —— Harness 性能优化系统",
+    "09-harness/harness-engineering-anthology": "Harness Engineering 文集",
+    "09-harness/harness-engineering-guide-nexu": "Harness Engineering 指南（nexu.io）",
+    "09-harness/langchain-deepagents": "LangChain DeepAgents",
+    "09-harness/meta-skill-harness-revfactory": "Harness —— Claude Code 团队架构工厂",
+    "09-harness/repository-harness": "Repository Harness（仓库级 Agent 工作区）",
+    "09-harness/strands-harness-sdk": "Strands Harness SDK",
+    "10-context-memory/get-shit-done": "GSD（Get Shit Done）工作流文档",
+    "10-context-memory/microsoft-skills": "Microsoft Agent Skills",
+    "10-context-memory/superpowers": "Superpowers（Claude Code 技能库）",
+    "11-personal-agents/mine-context": "MineContext（火山引擎个人上下文助手）",
+    "04-work/agent-guide-office": "Agent 办公实战指南（社区）",
+    "04-work/zhijian-ai-bluebook-workbuddy-harness": "智见 AI 蓝皮书：WorkBuddy Harness",
+    "08-agents/ed-donner-agents": "Ed Donner：AI Agents 实战课",
+    "08-agents/second-brain-ai-assistant-course": "Second Brain：AI 助理构建课",
+    "08-agents/zero2agent": "Zero2Agent：从零实现 Agent",
+    "09-harness/awesome-harness-engineering-walkinglabs": "Awesome Harness Engineering（walkinglabs）",
+    "09-harness/grok-build": "Grok Build（xAI 官方 CLI）",
+    "09-harness/agentic-harness-engineering": "Agentic Harness Engineering（论文与实现）",
+    "10-context-memory/context-engineering-book": "Context Engineering（Bonigarcia 教程）"
+  },
+  "entries": {
+    "07-coding/fufan-vibe-coding-course": "README_CN.md",
+    "09-harness/claude-code-book-yuyu": "00-前言.md",
+    "04-work/doubaowork-bluebook": "01-初始豆包工作.md",
+    "04-work/zhijian-ai-bluebook-workbuddy-harness": "01-前言.md",
+    "08-agents/microsoft-ai-agents-for-beginners": "translations/zh-CN/README.md",
+    "08-agents/hello-agents": "docs/前言.md",
+    "07-coding/vibe-vibe": "README.md"
+  },
+  "readingPlan": {
+    "04-work/qwenwork-guide": {
+      "roots": [
+        "docs/greenbook",
+        "docs/cases",
+        "docs/help"
+      ]
+    },
+    "04-work/workbuddy-guide": {
+      "roots": [
+        "docs/bluebook",
+        "docs/cases",
+        "docs/help"
+      ]
+    },
+    "04-work/agent-guide-office": {
+      "roots": [
+        "src/Coze指南",
+        "src/WorkBuddy指南"
+      ]
+    },
+    "04-work/how-to-use-dify": {
+      "roots": [
+        "docs/chapters",
+        "docs/use-cases"
+      ]
+    },
+    "07-coding/liyupi-ai-guide": {
+      "roots": [
+        "Vibe Coding 零基础教程",
+        "OpenClaw 保姆级教程",
+        "AI"
+      ],
+      "exclude": [
+        "AI/AI行业资讯",
+        "AI/DeepSeek资源汇总"
+      ]
+    },
+    "07-coding/easy-vibe": {
+      "roots": [
+        "docs/zh-cn"
+      ]
+    },
+    "07-coding/vibe-coding-cn": {
+      "roots": [
+        "i18n/zh/documents",
+        "i18n/zh/prompts/coding_prompts"
+      ]
+    },
+    "07-coding/ai-coding-guide-zh": {
+      "roots": [
+        "docs"
+      ]
+    },
+    "08-agents/huggingface-agents-course": {
+      "roots": [
+        "units/en"
+      ]
+    },
+    "08-agents/agent-systems-handbook": {
+      "roots": [
+        "foundations",
+        "systems",
+        "patterns",
+        "case-studies",
+        "reading-paths",
+        "workshops",
+        "radar",
+        "specializations",
+        "ecosystem",
+        "publications",
+        "snippets"
+      ]
+    },
+    "08-agents/datawhale-agentic-ai": {
+      "roots": [
+        "1. Agentic工作流简介[Introduction to Agentic Workflows]",
+        "2. 反思设计模式[Reflection Design Pattern]",
+        "3. 工具使用[Tool Use]",
+        "4. 构建Agentic AI的实用技巧[Practical Tips for Building Agentic AI]",
+        "5. 高度自治智能体的模式[Patterns for Highly Autonomous Agents]"
+      ]
+    },
+    "08-agents/anthropic-cookbook": {
+      "roots": [
+        "anthropic_cookbook",
+        "claude_agent_sdk",
+        "managed_agents",
+        "patterns",
+        "skills",
+        "capabilities",
+        "cost_optimization",
+        "tool_use",
+        "tool_evaluation",
+        "multimodal",
+        "evals",
+        "finetuning",
+        "observability",
+        "coding",
+        "misc",
+        "extended_thinking",
+        "third_party"
+      ]
+    },
+    "09-harness/harness-engineering-from-cc-to-ai-coding": {
+      "roots": [
+        "book/src"
+      ]
+    },
+    "09-harness/learn-harness-engineering": {
+      "roots": [
+        "docs/zh"
+      ]
+    },
+    "09-harness/codex-guide-freestylefly": {
+      "roots": [
+        "docs"
+      ],
+      "exclude": [
+        "docs/.vitepress",
+        "docs/public"
+      ]
+    },
+    "10-context-memory/huggingface-mcp-course": {
+      "roots": [
+        "units/en"
+      ]
+    },
+    "10-context-memory/context-engineering-intro": {
+      "roots": [
+        "use-cases"
+      ]
+    },
+    "01-foundations/microsoft-generative-ai-for-beginners": {
+      "roots": [
+        "00-course-setup"
+      ]
+    },
+    "08-agents/agentic-engineering-handbook": {
+      "roots": [
+        "tutorials/agent-loop"
+      ],
+      "exclude": [
+        "tutorials/agent-loop/skills"
+      ]
+    },
+    "09-harness/agentic-harness-engineering": {
+      "roots": [
+        "README_zh.md",
+        "agents",
+        "experiments",
+        "skills"
+      ]
+    },
+    "10-context-memory/mattpocock-skills": {
+      "roots": [
+        "skills"
+      ]
+    },
+    "07-coding/awesome-vibe-coding": {
+      "roots": [
+        "README-CN.md"
+      ]
+    },
+    "09-harness/awesome-harness-engineering-walkinglabs": {
+      "roots": [
+        "docs"
+      ]
+    },
+    "04-work/doubaowork-bluebook": {
+      "dir": "derived/04-work/doubaowork-bluebook",
+      "roots": [
+        "."
+      ],
+      "exclude": [
+        "README.md"
+      ]
+    },
+    "04-work/zhijian-ai-bluebook-workbuddy-harness": {
+      "dir": "derived/04-work/zhijian-ai-bluebook-workbuddy-harness",
+      "roots": [
+        "."
+      ],
+      "exclude": [
+        "README.md"
+      ]
+    },
+    "08-agents/microsoft-ai-agents-for-beginners": {
+      "roots": [
+        "translations/zh-CN"
+      ],
+      "exclude": [
+        "tests",
+        ".agents"
+      ]
+    },
+    "08-agents/hello-agents": {
+      "roots": [
+        "docs"
+      ]
+    },
+    "07-coding/vibe-vibe": {
+      "roots": [
+        "docs/Basic",
+        "docs/Advanced",
+        "docs/Practice",
+        "docs/Articles"
+      ]
+    }
+  }
+}

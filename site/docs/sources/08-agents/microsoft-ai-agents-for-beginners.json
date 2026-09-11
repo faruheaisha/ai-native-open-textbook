@@ -1,0 +1,18 @@
+{
+  "id": "08-agents/microsoft-ai-agents-for-beginners",
+  "volume": "08-agents",
+  "local": "microsoft-ai-agents-for-beginners",
+  "title": "AI Agents for Beginners（微软官方入门课）",
+  "kind": "系统课程",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "microsoft/ai-agents-for-beginners",
+  "site": null,
+  "commit": "25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595",
+  "entryUrl": "https://github.com/microsoft/ai-agents-for-beginners/blob/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translations/zh-CN/README.md",
+  "docs": 47
+}

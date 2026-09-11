@@ -1,0 +1,18 @@
+{
+  "id": "07-coding/easy-vibe",
+  "volume": "07-coding",
+  "local": "easy-vibe",
+  "title": "Easy-Vibe（Datawhale：从零做出真实产品）",
+  "kind": "课时教程",
+  "license": "CC BY-NC-SA 4.0（内容）",
+  "licenseLabel": "限非商用",
+  "licenseNote": "可翻译转载，限非商用并按原许可相同方式共享",
+  "lang": "中英混排",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "datawhalechina/easy-vibe",
+  "site": null,
+  "commit": "130e9b75b28b524e8cc74e615fd9733a4e2b330d",
+  "entryUrl": "https://github.com/datawhalechina/easy-vibe/blob/130e9b75b28b524e8cc74e615fd9733a4e2b330d/README.md",
+  "docs": 177
+}

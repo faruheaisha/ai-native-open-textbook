@@ -1,0 +1,18 @@
+{
+  "id": "07-coding/cloudflare-vibesdk",
+  "volume": "07-coding",
+  "local": "cloudflare-vibesdk",
+  "title": "Cloudflare VibeSDK",
+  "kind": "产品仓库",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "cloudflare/vibesdk",
+  "site": null,
+  "commit": "9da158d82c597a0e8f4bf033cdccd1053fb6fb15",
+  "entryUrl": "https://github.com/cloudflare/vibesdk/blob/9da158d82c597a0e8f4bf033cdccd1053fb6fb15/README.md",
+  "docs": 5
+}

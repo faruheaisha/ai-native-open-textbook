@@ -1,0 +1,18 @@
+{
+  "id": "09-harness/harness-engineering-guide-nexu",
+  "volume": "09-harness",
+  "local": "harness-engineering-guide-nexu",
+  "title": "Harness Engineering 指南（nexu.io）",
+  "kind": "工程手册",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "nexu-io/harness-engineering-guide",
+  "site": null,
+  "commit": "86fec9bea430cecb29ff10afaae36b96496a8f8e",
+  "entryUrl": "https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/README.md",
+  "docs": 8
+}

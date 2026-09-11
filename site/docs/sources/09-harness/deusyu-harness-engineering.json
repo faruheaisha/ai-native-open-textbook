@@ -1,0 +1,18 @@
+{
+  "id": "09-harness/deusyu-harness-engineering",
+  "volume": "09-harness",
+  "local": "deusyu-harness-engineering",
+  "title": "Harness Engineering 学习指南",
+  "kind": "工程手册",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "中文",
+  "needsTranslation": false,
+  "publishable": true,
+  "repo": "deusyu/harness-engineering",
+  "site": null,
+  "commit": "858c0da6570aad32947c09c7e83fb04f46d22ebe",
+  "entryUrl": "https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/README.md",
+  "docs": 10
+}

@@ -1,0 +1,18 @@
+{
+  "id": "11-personal-agents/awesome-openclaw-skills",
+  "volume": "11-personal-agents",
+  "local": "awesome-openclaw-skills",
+  "title": "Awesome OpenClaw Skills",
+  "kind": "技能与配置库",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "VoltAgent/awesome-openclaw-skills",
+  "site": null,
+  "commit": "37ad08c1b8e243d5f501c6fcaf7ac0b507bd83a1",
+  "entryUrl": "https://github.com/VoltAgent/awesome-openclaw-skills/blob/37ad08c1b8e243d5f501c6fcaf7ac0b507bd83a1/README.md",
+  "docs": 3
+}

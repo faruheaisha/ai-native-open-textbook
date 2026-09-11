@@ -1,0 +1,18 @@
+{
+  "id": "07-coding/fufan-vibe-coding-course",
+  "volume": "07-coding",
+  "local": "fufan-vibe-coding-course",
+  "title": "Vibe Coding：AI 编程实战课",
+  "kind": "系统课程",
+  "license": "README 称 MIT，仓库无 LICENSE 文件",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "中英混排",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "fufankeji/FuFan-VibeCodingCourse",
+  "site": null,
+  "commit": "5336ede159a7ac2ce0ee136324fe5bffd56970ca",
+  "entryUrl": "https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/README_CN.md",
+  "docs": 10
+}

@@ -1,0 +1,18 @@
+{
+  "id": "09-harness/codex-orange-book",
+  "volume": "09-harness",
+  "local": "codex-orange-book",
+  "title": "Codex 橙皮书",
+  "kind": "工程手册",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "中文",
+  "needsTranslation": false,
+  "publishable": true,
+  "repo": "bozhouDev/codex-orange-book",
+  "site": null,
+  "commit": "6c72add96c319507da65f963abfd9618d0c9ea0f",
+  "entryUrl": "https://github.com/bozhouDev/codex-orange-book/blob/6c72add96c319507da65f963abfd9618d0c9ea0f/README.md",
+  "docs": 3
+}

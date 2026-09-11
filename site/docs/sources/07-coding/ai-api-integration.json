@@ -1,0 +1,18 @@
+{
+  "id": "07-coding/ai-api-integration",
+  "volume": "07-coding",
+  "local": "ai-api-integration",
+  "title": "AI API 接入实战（OpenAI 兼容协议）",
+  "kind": "其他材料",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "中英混排",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "CCCpan/ai-api-integration",
+  "site": null,
+  "commit": "95cd8c6f48e58dfe96703a37b6c8fccb583bea74",
+  "entryUrl": "https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/README.md",
+  "docs": 3
+}
