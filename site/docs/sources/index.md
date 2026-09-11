@@ -8,146 +8,146 @@ title: "来源总表"
 
 | # | 来源 | 学习路径 | 类型 · 许可 · 语言 | 入口 |
 |---|---|---|---|---|
-| 1 | AI Engineering Lab（24 周自学课程） | AI 基础与模型认知 | 系统课程 · 可转载 · 英文 · 167 md | [站内](/lib/01-foundations/ai-engineering-lab/index) · — |
-| 2 | Generative AI for Beginners（微软官方入门课） | AI 基础与模型认知 | 系统课程 · 可转载 · 英文 · 46 md | [站内](/lib/01-foundations/microsoft-generative-ai-for-beginners/index) · — |
-| 3 | LLMs from Scratch | AI 基础与模型认知 | 源码研读 · 可转载 · 英文 · 75 md | [站内](/lib/01-foundations/llms-from-scratch/index) · — |
-| 4 | Anthropic 平台文档（英文全量） | AI 基础与模型认知 | 官方文档 · 仅引用 · 英文 · 629 md | — · — |
-| 5 | OpenAI API 文档（英文） | AI 基础与模型认知 | 官方文档 · 仅引用 · 英文 · 227 md | — · — |
-| 6 | OpenAI API 参考（字段级） | AI 基础与模型认知 | 官方文档 · 仅引用 · 英文 · 212 md | — · — |
-| 7 | Awesome ChatGPT 中文指南 | AI 基础与模型认知 | 清单与速查 · 可转载 · 中文 · 29 md | [站内](/lib/01-foundations/awesome-chatgpt-zh/index) · — |
-| 8 | Awesome LLM Resources（中文，清单型） | AI 基础与模型认知 | 清单与速查 · 可转载 · 中英混排 · 2 md | — · — |
-| 9 | Dify 中文系统教程（How-to-use-dify） | 办公与知识工作 | 课时教程 · 可转载 · 中文 · 43 md | [站内](/lib/04-work/how-to-use-dify/index) · — |
-| 10 | 千问办公绿皮书（QwenWorkGuide） | 办公与知识工作 | 工程手册 · 可转载 · 中文 · 413 md | [站内](/lib/04-work/qwenwork-guide/index) · — |
-| 11 | Agent 办公实战指南（社区） | 办公与知识工作 | 工程手册 · 可转载 · 中文 · 62 md | [站内](/lib/04-work/agent-guide-office/index) · — |
-| 12 | WorkBuddyGuide（蓝皮书 + 社区案例集） | 办公与知识工作 | 工程手册 · 可转载 · 中文 · 56 md | [站内](/lib/04-work/workbuddy-guide/index) · — |
-| 13 | 豆包工作蓝皮书（DoubaoWork Guide） | 办公与知识工作 | 实践案例集 · 可转载 · 中文 · 3 md | [站内](/lib/04-work/doubaowork-bluebook/index) · — |
-| 14 | 智见 AI 蓝皮书：WorkBuddy Harness | 办公与知识工作 | 实践案例集 · 可转载 · 中文 · 3 md | [站内](/lib/04-work/zhijian-ai-bluebook-workbuddy-harness/index) · — |
-| 15 | Coze Studio 源码研读 | 办公与知识工作 | 源码研读 · 可转载 · 中英混排 · 346 md | [站内](/lib/04-work/coze-studio/index) · — |
-| 16 | Coze Loop 源码研读 | 办公与知识工作 | 源码研读 · 可转载 · 中英混排 · 76 md | [站内](/lib/04-work/coze-loop/index) · — |
-| 17 | qwenwork-official-help | 办公与知识工作 | 官方文档 · 仅引用 · 中文 · 235 md | — · — |
-| 18 | qwenwork-official-help-cn | 办公与知识工作 | 官方文档 · 仅引用 · 中文 · 108 md | — · — |
-| 19 | coze-official-docs | 办公与知识工作 | 官方文档 · 仅引用 · 中文 · 101 md | — · — |
-| 20 | dify-official-docs | 办公与知识工作 | 官方文档 · 仅引用 · 中文 · 1 md | — · — |
-| 21 | manus-official-docs | 办公与知识工作 | 官方文档 · 仅引用 · 中文 · 1 md | — · — |
-| 22 | workbuddy-official-docs | 办公与知识工作 | 官方文档 · 仅引用 · 中文 · 1 md | — · — |
-| 23 | AI Skills And Experts Archive | 办公与知识工作 | 技能与配置库 · 仅引用 · 中文 · 5 md | — · — |
-| 24 | 办公 Agent 生态清单（awesome-workbuddy） | 办公与知识工作 | 清单与速查 · 可转载 · 中文 · 98 md | [站内](/lib/04-work/awesome-workbuddy/index) · — |
-| 25 | WorkBuddy Bench（腾讯官方评测集） | 办公与知识工作 | 产品仓库 · 限非商用 · 英文 · 21 md | [站内](/lib/04-work/workbuddy-bench-official/index) · — |
-| 26 | qwenwork-xiaolvshu | 办公与知识工作 | 其他材料 · 仅引用 · 中文 · 134 md | — · — |
-| 27 | Office Agents | 办公与知识工作 | 其他材料 · 仅引用 · 英文 · 15 md | — · — |
-| 28 | 千问办公学习站「职场AI三千问」 | 办公与知识工作 | 其他材料 · 仅引用 · 中文 · 1 md | — · — |
-| 29 | Vibe Coding：AI 编程实战课 | AI 编程与 Vibe Coding | 系统课程 · 可转载 · 中英混排 · 1002 md | [站内](/lib/07-coding/fufan-vibe-coding-course/index) · — |
-| 30 | FastCampus AI Agent 바이브코딩 강의 | AI 编程与 Vibe Coding | 系统课程 · 仅引用 · 英文 · 434 md | — · — |
-| 31 | Vibe Coding 101 for Software Engineers | AI 编程与 Vibe Coding | 系统课程 · 仅引用 · 英文 · 51 md | — · — |
-| 32 | 动手学 CS146S 中文版 | AI 编程与 Vibe Coding | 系统课程 · 可转载 · 中文 · 38 md | [站内](/lib/07-coding/cs146s-cn/index) · — |
-| 33 | Lovable for Beginners | AI 编程与 Vibe Coding | 系统课程 · 仅引用 · 英文 · 20 md | — · — |
-| 34 | Easy-Vibe（Datawhale：从零做出真实产品） | AI 编程与 Vibe Coding | 课时教程 · 限非商用 · 中英混排 · 1892 md | [站内](/lib/07-coding/easy-vibe/index) · — |
-| 35 | Vibe Coding CN | AI 编程与 Vibe Coding | 课时教程 · 可转载 · 中英混排 · 986 md | [站内](/lib/07-coding/vibe-coding-cn/index) · — |
-| 36 | Vibe Vibe —— 人人都能学会的 AI 编程（Vibe Coding）指南 | AI 编程与 Vibe Coding | 课时教程 · 限非商用 · 中文 · 636 md | [站内](/lib/07-coding/vibe-vibe/index) · — |
-| 37 | Vibe Coding 提示词模板 | AI 编程与 Vibe Coding | 课时教程 · 可转载 · 英文 · 161 md | [站内](/lib/07-coding/vibe-coding-prompt-template/index) · — |
-| 38 | 面向小白的 AI 编程 CLI 教程 | AI 编程与 Vibe Coding | 课时教程 · 可转载 · 中文 · 119 md | [站内](/lib/07-coding/ai-coding-guide-stormzhang/index) · — |
-| 39 | Claude Code & OpenClaw & Codex & WorkBuddy 中文教程 | AI 编程与 Vibe Coding | 课时教程 · 可转载 · 中文 · 53 md | [站内](/lib/07-coding/ai-coding-guide-zh/index) · — |
-| 40 | Vibe Coding 完全指南 | AI 编程与 Vibe Coding | 课时教程 · 可转载 · 中文 · 14 md | [站内](/lib/07-coding/vibe-coding-guide/index) · — |
-| 41 | 鱼皮 AI 导航（ai-guide） | AI 编程与 Vibe Coding | 工程手册 · 限非商用 · 中文 · 693 md | [站内](/lib/07-coding/liyupi-ai-guide/index) · — |
-| 42 | AI Engineering from Scratch（英文原版） | AI 编程与 Vibe Coding | 源码研读 · 可转载 · 英文 · 1179 md | [站内](/lib/07-coding/ai-engineering-from-scratch/index) · — |
-| 43 | AI 工程从零到一（中文） | AI 编程与 Vibe Coding | 源码研读 · 可转载 · 中文 · 1173 md | [站内](/lib/07-coding/ai-engineering-from-scratch-zh/index) · — |
-| 44 | VibeFast 文档 | AI 编程与 Vibe Coding | 官方文档 · 限非商用 · 英文 · 146 md | [站内](/lib/07-coding/vibefast-docs/index) · — |
-| 45 | Vibe Security（AI 编码安全技能） | AI 编程与 Vibe Coding | 技能与配置库 · 可转载 · 英文 · 12 md | [站内](/lib/07-coding/vibe-security-skill/index) · — |
-| 46 | Vibe Coding 参考精选 | AI 编程与 Vibe Coding | 清单与速查 · 可转载 · 中英混排 · 8 md | [站内](/lib/07-coding/awesome-vibe-coding/index) · — |
-| 47 | Spec Kit（GitHub 官方规格驱动开发工具包） | AI 编程与 Vibe Coding | 产品仓库 · 可转载 · 英文 · 140 md | [站内](/lib/07-coding/spec-kit/index) · — |
-| 48 | Cloudflare VibeSDK | AI 编程与 Vibe Coding | 产品仓库 · 可转载 · 英文 · 18 md | [站内](/lib/07-coding/cloudflare-vibesdk/index) · — |
-| 49 | AI API 接入实战（OpenAI 兼容协议） | AI 编程与 Vibe Coding | 其他材料 · 可转载 · 中英混排 · 21 md | [站内](/lib/07-coding/ai-api-integration/index) · — |
-| 50 | Hugging Face Agents Course（智能体课程） | 智能体工程 | 系统课程 · 可转载 · 英文 · 421 md | [站内](/lib/08-agents/huggingface-agents-course/index) · — |
-| 51 | AI Agents for Beginners（微软官方入门课） | 智能体工程 | 系统课程 · 可转载 · 英文 · 297 md | [站内](/lib/08-agents/microsoft-ai-agents-for-beginners/index) · — |
-| 52 | AI Engineering Coach（微软） | 智能体工程 | 系统课程 · 可转载 · 英文 · 101 md | [站内](/lib/08-agents/microsoft-ai-engineering-coach/index) · — |
-| 53 | Ed Donner：AI Agents 实战课 | 智能体工程 | 系统课程 · 可转载 · 英文 · 77 md | — · — |
-| 54 | AI in Production | 智能体工程 | 系统课程 · 可转载 · 英文 · 46 md | [站内](/lib/08-agents/ed-donner-production/index) · — |
-| 55 | Datawhale Agentic AI 教程 | 智能体工程 | 系统课程 · 可转载 · 中文 · 32 md | [站内](/lib/08-agents/datawhale-agentic-ai/index) · — |
-| 56 | Strands Agents 课程（AWS） | 智能体工程 | 系统课程 · 可转载 · 英文 · 14 md | [站内](/lib/08-agents/strands-agents-course/index) · — |
-| 57 | LangChain4j for Beginners | 智能体工程 | 系统课程 · 可转载 · 英文 · 13 md | [站内](/lib/08-agents/langchain4j-for-beginners/index) · — |
-| 58 | 生产级 Agentic RAG 课程 | 智能体工程 | 系统课程 · 可转载 · 英文 · 9 md | [站内](/lib/08-agents/production-agentic-rag-course/index) · — |
-| 59 | Anthropic 官方课程 | 智能体工程 | 系统课程 · 限非商用 · 英文 · 7 md | [站内](/lib/08-agents/anthropics-courses/index) · — |
-| 60 | Second Brain：AI 助理构建课 | 智能体工程 | 系统课程 · 可转载 · 英文 · 6 md | — · — |
-| 61 | Zero2Agent：从零实现 Agent | 智能体工程 | 课时教程 · 可转载 · 中文 · 299 md | [站内](/lib/08-agents/zero2agent/index) · — |
-| 62 | 从零构建 AI Agent（didilili） | 智能体工程 | 课时教程 · 可转载 · 中文 · 95 md | [站内](/lib/08-agents/ai-agents-from-zero/index) · — |
-| 63 | Hello Agents（Datawhale 智能体教程） | 智能体工程 | 课时教程 · 限非商用 · 中文 · 68 md | [站内](/lib/08-agents/hello-agents/index) · — |
-| 64 | BabyAgent - 后端工程师的 AI Agent 教学项目 (Go 语言版) | 智能体工程 | 课时教程 · 可转载 · 中文 · 15 md | [站内](/lib/08-agents/baby-agent/index) · — |
-| 65 | Agent Systems Handbook（智能体系统手册） | 智能体工程 | 工程手册 · 限非商用 · 英文 · 240 md | [站内](/lib/08-agents/agent-systems-handbook/index) · — |
-| 66 | Agentic Engineering Handbook | 智能体工程 | 工程手册 · 可转载 · 英文 · 11 md | [站内](/lib/08-agents/agentic-engineering-handbook/index) · — |
-| 67 | 《Deep Agents 实战》 | 智能体工程 | 实践案例集 · 限非商用 · 中文 · 21 md | [站内](/lib/08-agents/deepagents-in-action/index) · — |
-| 68 | openai-cookbook-docs | 智能体工程 | 官方文档 · 仅引用 · 英文 · 51 md | — · — |
-| 69 | Claude Cookbooks | 智能体工程 | 官方资料集 · 可转载 · 英文 · 98 md | [站内](/lib/08-agents/anthropic-cookbook/index) · — |
-| 70 | OpenAI Cookbook | 智能体工程 | 官方资料集 · 可转载 · 英文 · 53 md | [站内](/lib/08-agents/openai-cookbook/index) · — |
-| 71 | Gemini API Cookbook | 智能体工程 | 官方资料集 · 可转载 · 英文 · 27 md | [站内](/lib/08-agents/gemini-cookbook/index) · — |
-| 72 | Awesome LLM Apps | 智能体工程 | 清单与速查 · 可转载 · 英文 · 118 md | [站内](/lib/08-agents/awesome-llm-apps/index) · — |
-| 73 | Awesome AI Agent Papers | 智能体工程 | 清单与速查 · 可转载 · 英文 · 2 md | — · — |
-| 74 | OpenAI Agents SDK（Python） | 智能体工程 | 产品仓库 · 可转载 · 英文 · 518 md | [站内](/lib/08-agents/openai-agents-python/index) · — |
-| 75 | Open Manus with PocketFlow Integration | 智能体工程 | 产品仓库 · 可转载 · 英文 · 39 md | [站内](/lib/08-agents/pocket-manus/index) · — |
-| 76 | Learn Harness Engineering | Harness 与编码 Agent | 课时教程 · 可转载 · 英文 · 1729 md | [站内](/lib/09-harness/learn-harness-engineering/index) · — |
-| 77 | Learn Claude Code（nano harness 17 步） | Harness 与编码 Agent | 课时教程 · 可转载 · 中英混排 · 97 md | [站内](/lib/09-harness/learn-claude-code/index) · — |
-| 78 | Learn WorkBuddy（从 0 复刻桌面 Agent Harness） | Harness 与编码 Agent | 课时教程 · 可转载 · 中文 · 63 md | [站内](/lib/09-harness/learn-workbuddy/index) · — |
-| 79 | Claude Code Ultimate Guide | Harness 与编码 Agent | 工程手册 · 可转载 · 英文 · 666 md | [站内](/lib/09-harness/claude-code-ultimate-guide/index) · — |
-| 80 | DeepSeek Harness | Harness 与编码 Agent | 工程手册 · 可转载 · 中英混排 · 634 md | [站内](/lib/09-harness/deepseek-harness/index) · — |
-| 81 | Claude How-To | Harness 与编码 Agent | 工程手册 · 可转载 · 英文 · 482 md | [站内](/lib/09-harness/claude-howto/index) · — |
-| 82 | Better Harness（QoderAI） | Harness 与编码 Agent | 工程手册 · 可转载 · 英文 · 424 md | [站内](/lib/09-harness/better-harness/index) · — |
-| 83 | Claude Code Guide（zebbern） | Harness 与编码 Agent | 工程手册 · 可转载 · 英文 · 241 md | [站内](/lib/09-harness/claude-code-guide-zebbern/index) · — |
-| 84 | Strands Harness SDK | Harness 与编码 Agent | 工程手册 · 可转载 · 英文 · 206 md | [站内](/lib/09-harness/strands-harness-sdk/index) · — |
-| 85 | Claude Code Harness | Harness 与编码 Agent | 工程手册 · 可转载 · 中英混排 · 134 md | [站内](/lib/09-harness/claude-code-harness-chachamaru/index) · — |
-| 86 | 驾驭工程：从 Claude Code 源码到 AI 编码最佳实践 | Harness 与编码 Agent | 工程手册 · 可转载 · 中文 · 126 md | [站内](/lib/09-harness/harness-engineering-from-cc-to-ai-coding/index) · — |
-| 87 | Claude Code Best Practice | Harness 与编码 Agent | 工程手册 · 可转载 · 英文 · 122 md | [站内](/lib/09-harness/claude-code-best-practice/index) · — |
-| 88 | Harness Engineering 学习指南 | Harness 与编码 Agent | 工程手册 · 可转载 · 中文 · 85 md | [站内](/lib/09-harness/deusyu-harness-engineering/index) · — |
-| 89 | Codex 实践指南（CodexGuide） | Harness 与编码 Agent | 工程手册 · 可转载 · 中文 · 69 md | [站内](/lib/09-harness/codex-guide-freestylefly/index) · — |
-| 90 | Harness Engineering 指南（nexu.io） | Harness 与编码 Agent | 工程手册 · 可转载 · 英文 · 66 md | [站内](/lib/09-harness/harness-engineering-guide-nexu/index) · — |
-| 91 | Harness Engineering 文集 | Harness 与编码 Agent | 工程手册 · 可转载 · 英文 · 63 md | [站内](/lib/09-harness/harness-engineering-anthology/index) · — |
-| 92 | Repository Harness（仓库级 Agent 工作区） | Harness 与编码 Agent | 工程手册 · 可转载 · 英文 · 54 md | [站内](/lib/09-harness/repository-harness/index) · — |
-| 93 | Claude Code Everything You Need to Know | Harness 与编码 Agent | 工程手册 · 可转载 · 英文 · 50 md | [站内](/lib/09-harness/claude-code-everything/index) · — |
-| 94 | 御舆：解码 Agent Harness | Harness 与编码 Agent | 工程手册 · 仅引用 · 中文 · 42 md | — · — |
-| 95 | Agentic Harness Engineering（论文与实现） | Harness 与编码 Agent | 工程手册 · 可转载 · 中英混排 · 41 md | [站内](/lib/09-harness/agentic-harness-engineering/index) · — |
-| 96 | Harness Books | Harness 与编码 Agent | 工程手册 · 仅引用 · 中文 · 37 md | — · — |
-| 97 | Harness —— Claude Code 团队架构工厂 | Harness 与编码 Agent | 工程手册 · 可转载 · 英文 · 21 md | [站内](/lib/09-harness/meta-skill-harness-revfactory/index) · — |
-| 98 | Codex CLI Best Practice | Harness 与编码 Agent | 工程手册 · 可转载 · 英文 · 16 md | [站内](/lib/09-harness/codex-cli-best-practice/index) · — |
-| 99 | Awesome Harness Engineering（ai-boost） | Harness 与编码 Agent | 工程手册 · 可转载 · 英文 · 8 md | [站内](/lib/09-harness/awesome-harness-engineering-aiboost/index) · — |
-| 100 | Awesome Harness Engineering（walkinglabs） | Harness 与编码 Agent | 工程手册 · 可转载 · 英文 · 4 md | [站内](/lib/09-harness/awesome-harness-engineering-walkinglabs/index) · — |
-| 101 | Codex 橙皮书 | Harness 与编码 Agent | 工程手册 · 可转载 · 中文 · 3 md | [站内](/lib/09-harness/codex-orange-book/index) · — |
-| 102 | origin-harness-engineering-articles | Harness 与编码 Agent | 工程手册 · 仅引用 · 英文 · 0 md | — · — |
-| 103 | How Claude Code Works | Harness 与编码 Agent | 源码研读 · 可转载 · 中文 · 54 md | [站内](/lib/09-harness/how-claude-code-works/index) · — |
-| 104 | Claude Code From Scratch | Harness 与编码 Agent | 源码研读 · 可转载 · 中英混排 · 49 md | [站内](/lib/09-harness/claude-code-from-scratch/index) · — |
-| 105 | claude-code-docs-official | Harness 与编码 Agent | 官方文档 · 仅引用 · 英文 · 203 md | — · — |
-| 106 | openai-codex-docs-official | Harness 与编码 Agent | 官方文档 · 仅引用 · 英文 · 152 md | — · — |
-| 107 | openai-developer-blog | Harness 与编码 Agent | 官方博客 · 仅引用 · 英文 · 29 md | — · — |
-| 108 | anthropic-blog-official | Harness 与编码 Agent | 官方博客 · 仅引用 · 中英混排 · 1 md | — · — |
-| 109 | anthropic-engineering-blog | Harness 与编码 Agent | 官方博客 · 仅引用 · 中文 · 1 md | — · — |
-| 110 | Agentic Harness Patterns（模式与技能） | Harness 与编码 Agent | 技能与配置库 · 可转载 · 中英混排 · 30 md | [站内](/lib/09-harness/agentic-harness-patterns-skill/index) · — |
-| 111 | LangChain DeepAgents | Harness 与编码 Agent | 产品仓库 · 可转载 · 英文 · 70 md | [站内](/lib/09-harness/langchain-deepagents/index) · — |
-| 112 | Grok Build（xAI 官方 CLI） | Harness 与编码 Agent | 产品仓库 · 可转载 · 英文 · 12 md | — · — |
-| 113 | ECC —— Harness 性能优化系统 | Harness 与编码 Agent | 其他材料 · 可转载 · 英文 · 502 md | [站内](/lib/09-harness/ecc/index) · — |
-| 114 | The Context Course | 上下文、记忆与技能 | 系统课程 · 仅引用 · 英文 · 143 md | — · — |
-| 115 | The Model Context Protocol (MCP) Course | 上下文、记忆与技能 | 系统课程 · 可转载 · 英文 · 74 md | [站内](/lib/10-context-memory/huggingface-mcp-course/index) · — |
-| 116 | Prompt Engineering Guide | 上下文、记忆与技能 | 工程手册 · 可转载 · 英文 · 1111 md | [站内](/lib/10-context-memory/prompt-engineering-guide/index) · — |
-| 117 | Context Engineering（Bonigarcia 教程） | 上下文、记忆与技能 | 工程手册 · 可转载 · 英文 · 190 md | — · — |
-| 118 | Context Engineering Intro | 上下文、记忆与技能 | 工程手册 · 可转载 · 英文 · 139 md | [站内](/lib/10-context-memory/context-engineering-intro/index) · — |
-| 119 | 大模型应用开发 -上下文工程与运行空间实践指南 | 上下文、记忆与技能 | 工程手册 · 仅引用 · 中文 · 46 md | — · — |
-| 120 | humanlayer/advanced-context-engineering-for-coding-agents | 上下文、记忆与技能 | 工程手册 · 仅引用 · 英文 · 5 md | — · — |
-| 121 | Awesome Context Engineering | 上下文、记忆与技能 | 工程手册 · 可转载 · 英文 · 1 md | — · — |
-| 122 | Claude Code System Prompts | 上下文、记忆与技能 | 源码研读 · 可转载 · 英文 · 300 md | [站内](/lib/10-context-memory/claude-code-system-prompts/index) · — |
-| 123 | Microsoft Agent Skills | 上下文、记忆与技能 | 技能与配置库 · 可转载 · 英文 · 1537 md | [站内](/lib/10-context-memory/microsoft-skills/index) · — |
-| 124 | Agent Skills | 上下文、记忆与技能 | 技能与配置库 · 可转载 · 英文 · 531 md | — · — |
-| 125 | Agent Skills for Context Engineering | 上下文、记忆与技能 | 技能与配置库 · 可转载 · 英文 · 187 md | [站内](/lib/10-context-memory/agent-skills-for-context-engineering/index) · — |
-| 126 | **Matt Pocock Skills** | 上下文、记忆与技能 | 技能与配置库 · 可转载 · 英文 · 112 md | [站内](/lib/10-context-memory/mattpocock-skills/index) · — |
-| 127 | Agent Skills（Addy Osmani） | 上下文、记忆与技能 | 技能与配置库 · 可转载 · 英文 · 95 md | [站内](/lib/10-context-memory/agent-skills-addyosmani/index) · — |
-| 128 | Superpowers（Claude Code 技能库） | 上下文、记忆与技能 | 技能与配置库 · 可转载 · 英文 · 94 md | [站内](/lib/10-context-memory/superpowers/index) · — |
-| 129 | superpowers-zh（AI 编程超能力 · 中文增强版） | 上下文、记忆与技能 | 技能与配置库 · 可转载 · 中文 · 93 md | [站内](/lib/10-context-memory/superpowers-zh/index) · — |
-| 130 | Agent Skill Index | 上下文、记忆与技能 | 技能与配置库 · 可转载 · 中英混排 · 8 md | [站内](/lib/10-context-memory/awesome-agent-skills-heilcheng/index) · — |
-| 131 | Awesome Agent Skills | 上下文、记忆与技能 | 技能与配置库 · 可转载 · 英文 · 2 md | — · — |
-| 132 | Wonderful Prompts | 上下文、记忆与技能 | 清单与速查 · 可转载 · 中文 · 6 md | [站内](/lib/10-context-memory/wonderful-prompts/index) · — |
-| 133 | Awesome MCP ZH | 上下文、记忆与技能 | 清单与速查 · 可转载 · 中文 · 2 md | — · — |
-| 134 | GSD（Get Shit Done）工作流文档 | 上下文、记忆与技能 | 其他材料 · 可转载 · 英文 · 469 md | [站内](/lib/10-context-memory/get-shit-done/index) · — |
-| 135 | AI Engineering Hub | 上下文、记忆与技能 | 其他材料 · 可转载 · 英文 · 164 md | [站内](/lib/10-context-memory/ai-engineering-hub/index) · — |
-| 136 | Awesome OpenClaw Usecases | 个人智能体 | 实践案例集 · 可转载 · 英文 · 46 md | [站内](/lib/11-personal-agents/awesome-openclaw-usecases/index) · — |
-| 137 | Build Your Own OpenClaw | 个人智能体 | 源码研读 · 可转载 · 中英混排 · 16 md | [站内](/lib/11-personal-agents/build-your-own-openclaw/index) · — |
-| 138 | openai-plugins-docs | 个人智能体 | 官方文档 · 仅引用 · 英文 · 29 md | — · — |
-| 139 | Awesome OpenClaw Skills | 个人智能体 | 技能与配置库 · 可转载 · 英文 · 32 md | [站内](/lib/11-personal-agents/awesome-openclaw-skills/index) · — |
-| 140 | Awesome OpenClaw Tutorial（中文） | 个人智能体 | 清单与速查 · 可转载 · 中文 · 71 md | [站内](/lib/11-personal-agents/awesome-openclaw-tutorial/index) · — |
-| 141 | MineContext（火山引擎个人上下文助手） | 个人智能体 | 其他材料 · 可转载 · 中英混排 · 11 md | [站内](/lib/11-personal-agents/mine-context/index) · — |
-| 142 | Qclaw（秋芝2046） | 个人智能体 | 其他材料 · 可转载 · 中文 · 7 md | [站内](/lib/11-personal-agents/qclaw/index) · — |
-| 143 | EdgeAI for Beginners | 本地与端侧 AI | 系统课程 · 可转载 · 英文 · 96 md | [站内](/lib/13-local-ai/edgeai-for-beginners/index) · — |
+| 1 | AI Engineering Lab（24 周自学课程） | AI 基础与模型认知 | 系统课程 · 可转载 · 英文 · 167 md | [站内](/lib/01-foundations/ai-engineering-lab/index) · [原文 ↗](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/README.md) |
+| 2 | Generative AI for Beginners（微软官方入门课） | AI 基础与模型认知 | 系统课程 · 可转载 · 英文 · 46 md | [站内](/lib/01-foundations/microsoft-generative-ai-for-beginners/index) · [原文 ↗](https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/README.md) |
+| 3 | LLMs from Scratch | AI 基础与模型认知 | 源码研读 · 可转载 · 英文 · 75 md | [站内](/lib/01-foundations/llms-from-scratch/index) · [原文 ↗](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/README.md) |
+| 4 | Anthropic 平台文档（英文全量） | AI 基础与模型认知 | 官方文档 · 仅引用 · 英文 · 629 md | — · [原文 ↗](https://platform.claude.com/docs) |
+| 5 | OpenAI API 文档（英文） | AI 基础与模型认知 | 官方文档 · 仅引用 · 英文 · 227 md | — · [原文 ↗](https://developers.openai.com/api/docs) |
+| 6 | OpenAI API 参考（字段级） | AI 基础与模型认知 | 官方文档 · 仅引用 · 英文 · 212 md | — · [原文 ↗](https://developers.openai.com/api/reference) |
+| 7 | Awesome ChatGPT 中文指南 | AI 基础与模型认知 | 清单与速查 · 可转载 · 中文 · 29 md | [站内](/lib/01-foundations/awesome-chatgpt-zh/index) · [原文 ↗](https://github.com/EmbraceAGI/awesome-chatgpt-zh/blob/f7c206f6b3e27dae3f4fa7fb1eee1852c72b1f68/README.md) |
+| 8 | Awesome LLM Resources（大模型资源清单） | AI 基础与模型认知 | 清单与速查 · 可转载 · 中英混排 · 2 md | — · [原文 ↗](https://github.com/WangRongsheng/awesome-LLM-resources/blob/1fdf4ba2279979507c122db6403d2b7f97cc1e36/README.md) |
+| 9 | Dify 中文系统教程（How-to-use-dify） | 办公与知识工作 | 课时教程 · 可转载 · 中文 · 43 md | [站内](/lib/04-work/how-to-use-dify/index) · [原文 ↗](https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/README.md) |
+| 10 | 千问办公绿皮书（QwenWorkGuide） | 办公与知识工作 | 工程手册 · 可转载 · 中文 · 413 md | [站内](/lib/04-work/qwenwork-guide/index) · [原文 ↗](https://github.com/wangxiaoshuai1998/QwenWorkGuide/blob/002f698a68b69d3635acf6be0d6e27db69069071/README.md) |
+| 11 | Agent 办公实战指南（社区） | 办公与知识工作 | 工程手册 · 可转载 · 中文 · 62 md | [站内](/lib/04-work/agent-guide-office/index) · [原文 ↗](https://github.com/tangshiyegit/agent-guide/blob/ae8b2262e7a1e5bd0d466037c6ad9f6037b72c33/README.md) |
+| 12 | WorkBuddyGuide（蓝皮书 + 社区案例集） | 办公与知识工作 | 工程手册 · 可转载 · 中文 · 56 md | [站内](/lib/04-work/workbuddy-guide/index) · [原文 ↗](https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89da368fe208425ff50e121fe/README.md) |
+| 13 | 豆包工作蓝皮书（DoubaoWork Guide） | 办公与知识工作 | 实践案例集 · 可转载 · 中文 · 3 md | [站内](/lib/04-work/doubaowork-bluebook/index) · [原文 ↗](https://github.com/AlephAITech/DoubaoWorkGuide/blob/ad7338e8fc889ec082cdfb3fa41fb659520c7174/README.md) |
+| 14 | 智见 AI 蓝皮书：WorkBuddy Harness | 办公与知识工作 | 实践案例集 · 可转载 · 中文 · 3 md | [站内](/lib/04-work/zhijian-ai-bluebook-workbuddy-harness/index) · [原文 ↗](https://github.com/zjp1997720/zhijian-ai-bluebook-workbuddy-harness/blob/6ac68cd42a01add16568d1ab9cf2399822467fad/README.md) |
+| 15 | Coze Studio 源码研读 | 办公与知识工作 | 源码研读 · 可转载 · 中英混排 · 346 md | [站内](/lib/04-work/coze-studio/index) · [原文 ↗](https://github.com/coze-dev/coze-studio/blob/fefb05ff27be1da939612fbf9faf5db62583b8ae/README.md) |
+| 16 | Coze Loop 源码研读 | 办公与知识工作 | 源码研读 · 可转载 · 中英混排 · 76 md | [站内](/lib/04-work/coze-loop/index) · [原文 ↗](https://github.com/coze-dev/coze-loop/blob/5f1e4c234fc110c1bf674e882a6fd02109e1e1e6/README.md) |
+| 17 | 千问办公官方帮助中心（阿里云） | 办公与知识工作 | 官方文档 · 仅引用 · 中文 · 235 md | — · [原文 ↗](https://help.aliyun.com/zh/qwenwork/) |
+| 18 | qwenwork-official-help-cn | 办公与知识工作 | 官方文档 · 仅引用 · 中文 · 108 md | — · [原文 ↗](https://qwenwork.cn/docs) |
+| 19 | 扣子 Coze 官方文档 | 办公与知识工作 | 官方文档 · 仅引用 · 中文 · 101 md | — · [原文 ↗](https://docs.coze.cn/) |
+| 20 | Dify 官方文档 | 办公与知识工作 | 官方文档 · 仅引用 · 中文 · 1 md | — · [原文 ↗](https://docs.dify.ai/) |
+| 21 | Manus 官方文档 | 办公与知识工作 | 官方文档 · 仅引用 · 中文 · 1 md | — · [原文 ↗](https://manus.im/docs/introduction/welcome) |
+| 22 | WorkBuddy 官方文档（腾讯） | 办公与知识工作 | 官方文档 · 仅引用 · 中文 · 1 md | — · [原文 ↗](https://copilot.tencent.com/) |
+| 23 | AI Skills And Experts Archive | 办公与知识工作 | 技能与配置库 · 仅引用 · 中文 · 5 md | — · [原文 ↗](https://github.com/ahang1598/doubao-workbuddy-qwenwork-skills/blob/1cd75f0c4adaf7a12d4f6ba276a24b9e0d2367ca/README.md) |
+| 24 | 办公 Agent 生态清单（awesome-workbuddy） | 办公与知识工作 | 清单与速查 · 可转载 · 中文 · 98 md | [站内](/lib/04-work/awesome-workbuddy/index) · [原文 ↗](https://github.com/staruhub/awesome-workbuddy/blob/e32b6c953154e41f6cb4e6b69fd7d933f5cef3d3/README.md) |
+| 25 | WorkBuddy Bench（腾讯官方评测集） | 办公与知识工作 | 产品仓库 · 限非商用 · 英文 · 21 md | [站内](/lib/04-work/workbuddy-bench-official/index) · [原文 ↗](https://github.com/Tencent/workbuddy-bench/blob/625b2233093ae4f23e76be28c1f341d41cc70373/README.md) |
+| 26 | qwenwork-xiaolvshu | 办公与知识工作 | 其他材料 · 仅引用 · 中文 · 134 md | — · [原文 ↗](https://qwenwork.org) |
+| 27 | Office Agents | 办公与知识工作 | 其他材料 · 仅引用 · 英文 · 15 md | — · [原文 ↗](https://github.com/hewliyang/office-agents/blob/95fb654491a9d394dc85ea2b8c93dee2ca4546b9/README.md) |
+| 28 | 千问办公学习站「职场AI三千问」 | 办公与知识工作 | 其他材料 · 仅引用 · 中文 · 1 md | — · [原文 ↗](https://learn.qwenwork.host/) |
+| 29 | Vibe Coding：AI 编程实战课 | AI 编程与 Vibe Coding | 系统课程 · 可转载 · 中英混排 · 1002 md | [站内](/lib/07-coding/fufan-vibe-coding-course/index) · [原文 ↗](https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/README.md) |
+| 30 | FastCampus AI Agent 바이브코딩 강의 | AI 编程与 Vibe Coding | 系统课程 · 仅引用 · 英文 · 434 md | — · [原文 ↗](https://github.com/Koomook/fastcampus-ai-agent-vibecoding/blob/b24208b48c3945769327dbcafc2d632189369520/README.md) |
+| 31 | Vibe Coding 101 for Software Engineers | AI 编程与 Vibe Coding | 系统课程 · 仅引用 · 英文 · 51 md | — · [原文 ↗](https://github.com/goker/vibe-coding-101-for-software-engineers/blob/60d5a7fc465fc10be3b4478486a9535f1045f607/README.md) |
+| 32 | 动手学 CS146S 中文版 | AI 编程与 Vibe Coding | 系统课程 · 可转载 · 中文 · 38 md | [站内](/lib/07-coding/cs146s-cn/index) · [原文 ↗](https://github.com/ShouZhengAI/CS146S_CN/blob/0d65f36f6673147d6c298670da4f9b4bd7f991fa/README.md) |
+| 33 | Lovable for Beginners | AI 编程与 Vibe Coding | 系统课程 · 仅引用 · 英文 · 20 md | — · [原文 ↗](https://github.com/cporter202/lovable-for-beginners/blob/c4bfa59c80fa37c99dfa3810541537ab63840512/README.md) |
+| 34 | Easy-Vibe（Datawhale：从零做出真实产品） | AI 编程与 Vibe Coding | 课时教程 · 限非商用 · 中英混排 · 1892 md | [站内](/lib/07-coding/easy-vibe/index) · [原文 ↗](https://github.com/datawhalechina/easy-vibe/blob/130e9b75b28b524e8cc74e615fd9733a4e2b330d/README.md) |
+| 35 | Vibe Coding CN | AI 编程与 Vibe Coding | 课时教程 · 可转载 · 中英混排 · 986 md | [站内](/lib/07-coding/vibe-coding-cn/index) · [原文 ↗](https://github.com/2025Emma/vibe-coding-cn/blob/9b42dd10ddf3fff58f8c7a4d347175db107d7bf9/README.md) |
+| 36 | Vibe Vibe —— 人人都能学会的 AI 编程（Vibe Coding）指南 | AI 编程与 Vibe Coding | 课时教程 · 限非商用 · 中文 · 636 md | [站内](/lib/07-coding/vibe-vibe/index) · [原文 ↗](https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/README.md) |
+| 37 | Vibe Coding 提示词模板 | AI 编程与 Vibe Coding | 课时教程 · 可转载 · 英文 · 161 md | [站内](/lib/07-coding/vibe-coding-prompt-template/index) · [原文 ↗](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/README.md) |
+| 38 | 面向小白的 AI 编程 CLI 教程 | AI 编程与 Vibe Coding | 课时教程 · 可转载 · 中文 · 119 md | [站内](/lib/07-coding/ai-coding-guide-stormzhang/index) · [原文 ↗](https://github.com/stormzhang/ai-coding-guide/blob/d187dbdb83fa1be051a850074eb518e30e2eb47c/README.md) |
+| 39 | Claude Code & OpenClaw & Codex & WorkBuddy 中文教程 | AI 编程与 Vibe Coding | 课时教程 · 可转载 · 中文 · 53 md | [站内](/lib/07-coding/ai-coding-guide-zh/index) · [原文 ↗](https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/README.md) |
+| 40 | Vibe Coding 完全指南 | AI 编程与 Vibe Coding | 课时教程 · 可转载 · 中文 · 14 md | [站内](/lib/07-coding/vibe-coding-guide/index) · [原文 ↗](https://github.com/zhiyue/vibe-coding-guide/blob/ee8434ce526f629e0ca4ce00f6a66be6372327ac/README.md) |
+| 41 | 鱼皮 AI 导航（ai-guide） | AI 编程与 Vibe Coding | 工程手册 · 限非商用 · 中文 · 693 md | [站内](/lib/07-coding/liyupi-ai-guide/index) · [原文 ↗](https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a02735b38c866/README.md) |
+| 42 | AI Engineering from Scratch（英文原版） | AI 编程与 Vibe Coding | 源码研读 · 可转载 · 英文 · 1179 md | [站内](/lib/07-coding/ai-engineering-from-scratch/index) · [原文 ↗](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/README.md) |
+| 43 | AI 工程从零到一（中文） | AI 编程与 Vibe Coding | 源码研读 · 可转载 · 中文 · 1173 md | [站内](/lib/07-coding/ai-engineering-from-scratch-zh/index) · [原文 ↗](https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/README.md) |
+| 44 | VibeFast 文档 | AI 编程与 Vibe Coding | 官方文档 · 限非商用 · 英文 · 146 md | [站内](/lib/07-coding/vibefast-docs/index) · [原文 ↗](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/README.md) |
+| 45 | Vibe Security（AI 编码安全技能） | AI 编程与 Vibe Coding | 技能与配置库 · 可转载 · 英文 · 12 md | [站内](/lib/07-coding/vibe-security-skill/index) · [原文 ↗](https://github.com/raroque/vibe-security-skill/blob/850938f20f6915e7c3688d85c0a838f7909c87bb/README.md) |
+| 46 | Vibe Coding 参考精选 | AI 编程与 Vibe Coding | 清单与速查 · 可转载 · 中英混排 · 8 md | [站内](/lib/07-coding/awesome-vibe-coding/index) · [原文 ↗](https://github.com/filipecalegario/awesome-vibe-coding/blob/59d50281e40651d574ea0ead592a08019d74730d/README.md) |
+| 47 | Spec Kit（GitHub 官方规格驱动开发工具包） | AI 编程与 Vibe Coding | 产品仓库 · 可转载 · 英文 · 140 md | [站内](/lib/07-coding/spec-kit/index) · [原文 ↗](https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/README.md) |
+| 48 | Cloudflare VibeSDK | AI 编程与 Vibe Coding | 产品仓库 · 可转载 · 英文 · 18 md | [站内](/lib/07-coding/cloudflare-vibesdk/index) · [原文 ↗](https://github.com/cloudflare/vibesdk/blob/9da158d82c597a0e8f4bf033cdccd1053fb6fb15/README.md) |
+| 49 | AI API 接入实战（OpenAI 兼容协议） | AI 编程与 Vibe Coding | 其他材料 · 可转载 · 中英混排 · 21 md | [站内](/lib/07-coding/ai-api-integration/index) · [原文 ↗](https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/README.md) |
+| 50 | Hugging Face Agents Course（智能体课程） | 智能体工程 | 系统课程 · 可转载 · 英文 · 421 md | [站内](/lib/08-agents/huggingface-agents-course/index) · [原文 ↗](https://github.com/huggingface/agents-course/blob/b3946b1d09d29c65736e219d48a8a736a2c52154/README.md) |
+| 51 | AI Agents for Beginners（微软官方入门课） | 智能体工程 | 系统课程 · 可转载 · 英文 · 297 md | [站内](/lib/08-agents/microsoft-ai-agents-for-beginners/index) · [原文 ↗](https://github.com/microsoft/ai-agents-for-beginners/blob/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/README.md) |
+| 52 | AI Engineering Coach（微软） | 智能体工程 | 系统课程 · 可转载 · 英文 · 101 md | [站内](/lib/08-agents/microsoft-ai-engineering-coach/index) · [原文 ↗](https://github.com/microsoft/AI-Engineering-Coach/blob/18b1a3d16b586c171426c6a407cc5c2dc073556e/README.md) |
+| 53 | Ed Donner：AI Agents 实战课 | 智能体工程 | 系统课程 · 可转载 · 英文 · 77 md | [站内](/lib/08-agents/ed-donner-agents/index) · [原文 ↗](https://github.com/ed-donner/agents) |
+| 54 | AI in Production | 智能体工程 | 系统课程 · 可转载 · 英文 · 46 md | [站内](/lib/08-agents/ed-donner-production/index) · [原文 ↗](https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/README.md) |
+| 55 | Datawhale Agentic AI 教程 | 智能体工程 | 系统课程 · 可转载 · 中文 · 32 md | [站内](/lib/08-agents/datawhale-agentic-ai/index) · [原文 ↗](https://github.com/datawhalechina/agentic-ai/blob/a93ab1d8546cca8b508a72f0f2c385777d5f1403/README.md) |
+| 56 | Strands Agents 课程（AWS） | 智能体工程 | 系统课程 · 可转载 · 英文 · 14 md | [站内](/lib/08-agents/strands-agents-course/index) · [原文 ↗](https://github.com/aws-samples/sample-getting-started-with-strands-agents-course/blob/6f0b46cd565312a34cdb9a6c72cbff7f3fa80c1d/README.md) |
+| 57 | LangChain4j for Beginners | 智能体工程 | 系统课程 · 可转载 · 英文 · 13 md | [站内](/lib/08-agents/langchain4j-for-beginners/index) · [原文 ↗](https://github.com/microsoft/LangChain4j-for-Beginners/blob/9aed2ec27717775def0da2ff2d7950baa8995a64/README.md) |
+| 58 | 生产级 Agentic RAG 课程 | 智能体工程 | 系统课程 · 可转载 · 英文 · 9 md | [站内](/lib/08-agents/production-agentic-rag-course/index) · [原文 ↗](https://github.com/jamwithai/production-agentic-rag-course/blob/424a0eb99edf841994f2a9a053912b489d2a94ff/README.md) |
+| 59 | Anthropic 官方课程 | 智能体工程 | 系统课程 · 限非商用 · 英文 · 7 md | [站内](/lib/08-agents/anthropics-courses/index) · [原文 ↗](https://github.com/anthropics/courses/blob/f4dbb137d7b02dddaf3cc73e32e20a702d3b5e77/README.md) |
+| 60 | Second Brain：AI 助理构建课 | 智能体工程 | 系统课程 · 可转载 · 英文 · 6 md | [站内](/lib/08-agents/second-brain-ai-assistant-course/index) · [原文 ↗](https://github.com/decodingai-magazine/second-brain-ai-assistant-course/blob/17ccef571db3e4b563826dab83ecc9298a54ede1/README.md) |
+| 61 | Zero2Agent：从零实现 Agent | 智能体工程 | 课时教程 · 可转载 · 中文 · 299 md | [站内](/lib/08-agents/zero2agent/index) · [原文 ↗](https://github.com/ranxi2001/zero2Agent/blob/46e9f7c28f84f54b2f6e45681d14989f01e18291/README.md) |
+| 62 | 从零构建 AI Agent（didilili） | 智能体工程 | 课时教程 · 可转载 · 中文 · 95 md | [站内](/lib/08-agents/ai-agents-from-zero/index) · [原文 ↗](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/README.md) |
+| 63 | Hello Agents（Datawhale 智能体教程） | 智能体工程 | 课时教程 · 限非商用 · 中文 · 68 md | [站内](/lib/08-agents/hello-agents/index) · [原文 ↗](https://github.com/datawhalechina/hello-agents/blob/4f7682ceafe573d07cd8a7d0b89908500e83227d/README.md) |
+| 64 | BabyAgent - 后端工程师的 AI Agent 教学项目 (Go 语言版) | 智能体工程 | 课时教程 · 可转载 · 中文 · 15 md | [站内](/lib/08-agents/baby-agent/index) · [原文 ↗](https://github.com/baby-llm/baby-agent/blob/55712911ad0c3d1554c94198370b08d9076fac1c/README.md) |
+| 65 | Agent Systems Handbook（智能体系统手册） | 智能体工程 | 工程手册 · 限非商用 · 英文 · 240 md | [站内](/lib/08-agents/agent-systems-handbook/index) · [原文 ↗](https://github.com/Prompthon-IO/agent-systems-handbook/blob/5b71cfa598701a34834f33b42be5f8a422138a3c/README.md) |
+| 66 | Agentic Engineering Handbook | 智能体工程 | 工程手册 · 可转载 · 英文 · 11 md | [站内](/lib/08-agents/agentic-engineering-handbook/index) · [原文 ↗](https://github.com/keyuchen21/agentic-engineering-handbook/blob/002d5456ac717fb6c4444005c9bb2ceff416d8c7/README.md) |
+| 67 | 《Deep Agents 实战》 | 智能体工程 | 实践案例集 · 限非商用 · 中文 · 21 md | [站内](/lib/08-agents/deepagents-in-action/index) · [原文 ↗](https://github.com/datawhalechina/deepagents-in-action/blob/4097ff944f9ffa1bdfe2dd04f751f4416b058860/README.md) |
+| 68 | openai-cookbook-docs | 智能体工程 | 官方文档 · 仅引用 · 英文 · 51 md | — · [原文 ↗](https://developers.openai.com/cookbook) |
+| 69 | Claude Cookbooks | 智能体工程 | 官方资料集 · 可转载 · 英文 · 98 md | [站内](/lib/08-agents/anthropic-cookbook/index) · [原文 ↗](https://github.com/anthropics/anthropic-cookbook/blob/a97b9a2dc300635f0c26b5e05d0b54bbe0279ee5/README.md) |
+| 70 | OpenAI Cookbook | 智能体工程 | 官方资料集 · 可转载 · 英文 · 53 md | [站内](/lib/08-agents/openai-cookbook/index) · [原文 ↗](https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/README.md) |
+| 71 | Gemini API Cookbook | 智能体工程 | 官方资料集 · 可转载 · 英文 · 27 md | [站内](/lib/08-agents/gemini-cookbook/index) · [原文 ↗](https://github.com/google-gemini/cookbook/blob/a1b990c859a34823c982f70edaff35b830511c64/README.md) |
+| 72 | Awesome LLM Apps | 智能体工程 | 清单与速查 · 可转载 · 英文 · 118 md | [站内](/lib/08-agents/awesome-llm-apps/index) · [原文 ↗](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/README.md) |
+| 73 | Awesome AI Agent Papers（智能体论文清单） | 智能体工程 | 清单与速查 · 可转载 · 英文 · 2 md | — · [原文 ↗](https://github.com/VoltAgent/awesome-ai-agent-papers/blob/4c0c1281f01c6e66a68c0db06b9cfd79277dcfa3/README.md) |
+| 74 | OpenAI Agents SDK（Python） | 智能体工程 | 产品仓库 · 可转载 · 英文 · 518 md | [站内](/lib/08-agents/openai-agents-python/index) · [原文 ↗](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/README.md) |
+| 75 | Open Manus with PocketFlow Integration | 智能体工程 | 产品仓库 · 可转载 · 英文 · 39 md | [站内](/lib/08-agents/pocket-manus/index) · [原文 ↗](https://github.com/Osly-AI/PocketManus/blob/8ab0ec5f2d5dc17ff58b060af7afcda08a9f57fd/README.md) |
+| 76 | Learn Harness Engineering | Harness 与编码 Agent | 课时教程 · 可转载 · 英文 · 1729 md | [站内](/lib/09-harness/learn-harness-engineering/index) · [原文 ↗](https://github.com/walkinglabs/learn-harness-engineering/blob/77e7a3e21469dcbece2558086c8d91657abeaa40/README.md) |
+| 77 | Learn Claude Code（nano harness 17 步） | Harness 与编码 Agent | 课时教程 · 可转载 · 中英混排 · 97 md | [站内](/lib/09-harness/learn-claude-code/index) · [原文 ↗](https://github.com/shareAI-lab/learn-claude-code/blob/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/README.md) |
+| 78 | Learn WorkBuddy（从 0 复刻桌面 Agent Harness） | Harness 与编码 Agent | 课时教程 · 可转载 · 中文 · 63 md | [站内](/lib/09-harness/learn-workbuddy/index) · [原文 ↗](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/README.md) |
+| 79 | Claude Code Ultimate Guide | Harness 与编码 Agent | 工程手册 · 可转载 · 英文 · 666 md | [站内](/lib/09-harness/claude-code-ultimate-guide/index) · [原文 ↗](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/README.md) |
+| 80 | DeepSeek Harness | Harness 与编码 Agent | 工程手册 · 可转载 · 中英混排 · 634 md | [站内](/lib/09-harness/deepseek-harness/index) · [原文 ↗](https://github.com/deepseek-ai/deepseek-harness/blob/c291e7961a515f6d7af9304e7fd1d257929aef26/README.md) |
+| 81 | Claude How-To | Harness 与编码 Agent | 工程手册 · 可转载 · 英文 · 482 md | [站内](/lib/09-harness/claude-howto/index) · [原文 ↗](https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/README.md) |
+| 82 | Better Harness（QoderAI） | Harness 与编码 Agent | 工程手册 · 可转载 · 英文 · 424 md | [站内](/lib/09-harness/better-harness/index) · [原文 ↗](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/README.md) |
+| 83 | Claude Code Guide（zebbern） | Harness 与编码 Agent | 工程手册 · 可转载 · 英文 · 241 md | [站内](/lib/09-harness/claude-code-guide-zebbern/index) · [原文 ↗](https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/README.md) |
+| 84 | Strands Harness SDK | Harness 与编码 Agent | 工程手册 · 可转载 · 英文 · 206 md | [站内](/lib/09-harness/strands-harness-sdk/index) · [原文 ↗](https://github.com/strands-agents/harness-sdk/blob/7bda6c70e71cd07279470268c3d3b3f4b36adf53/README.md) |
+| 85 | Claude Code Harness | Harness 与编码 Agent | 工程手册 · 可转载 · 中英混排 · 134 md | [站内](/lib/09-harness/claude-code-harness-chachamaru/index) · [原文 ↗](https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/README.md) |
+| 86 | 驾驭工程：从 Claude Code 源码到 AI 编码最佳实践 | Harness 与编码 Agent | 工程手册 · 可转载 · 中文 · 126 md | [站内](/lib/09-harness/harness-engineering-from-cc-to-ai-coding/index) · [原文 ↗](https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding/blob/e40e0feec02b90e308ccbfc7a8911d64118ccca0/README.md) |
+| 87 | Claude Code Best Practice | Harness 与编码 Agent | 工程手册 · 可转载 · 英文 · 122 md | [站内](/lib/09-harness/claude-code-best-practice/index) · [原文 ↗](https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/README.md) |
+| 88 | Harness Engineering 学习指南 | Harness 与编码 Agent | 工程手册 · 可转载 · 中文 · 85 md | [站内](/lib/09-harness/deusyu-harness-engineering/index) · [原文 ↗](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/README.md) |
+| 89 | Codex 实践指南（CodexGuide） | Harness 与编码 Agent | 工程手册 · 可转载 · 中文 · 69 md | [站内](/lib/09-harness/codex-guide-freestylefly/index) · [原文 ↗](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/README.md) |
+| 90 | Harness Engineering 指南（nexu.io） | Harness 与编码 Agent | 工程手册 · 可转载 · 英文 · 66 md | [站内](/lib/09-harness/harness-engineering-guide-nexu/index) · [原文 ↗](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/README.md) |
+| 91 | Harness Engineering 文集 | Harness 与编码 Agent | 工程手册 · 可转载 · 英文 · 63 md | [站内](/lib/09-harness/harness-engineering-anthology/index) · [原文 ↗](https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/README.md) |
+| 92 | Repository Harness（仓库级 Agent 工作区） | Harness 与编码 Agent | 工程手册 · 可转载 · 英文 · 54 md | [站内](/lib/09-harness/repository-harness/index) · [原文 ↗](https://github.com/hoangnb24/repository-harness/blob/e765792b635b4d5e3e5fc0578f82f9ca5dea2681/README.md) |
+| 93 | Claude Code Everything You Need to Know | Harness 与编码 Agent | 工程手册 · 可转载 · 英文 · 50 md | [站内](/lib/09-harness/claude-code-everything/index) · [原文 ↗](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/README.md) |
+| 94 | 御舆：解码 Agent Harness | Harness 与编码 Agent | 工程手册 · 仅引用 · 中文 · 42 md | — · [原文 ↗](https://github.com/lintsinghua/claude-code-book/blob/1e2068c05ba80b85d86caae7b4c32e7478e66d09/README.md) |
+| 95 | Agentic Harness Engineering（论文与实现） | Harness 与编码 Agent | 工程手册 · 可转载 · 中英混排 · 41 md | [站内](/lib/09-harness/agentic-harness-engineering/index) · [原文 ↗](https://github.com/china-qijizhifeng/agentic-harness-engineering/blob/8b2a55d97590363fe50c3cc6b5e833b020a4bb4c/README.md) |
+| 96 | Harness Books | Harness 与编码 Agent | 工程手册 · 仅引用 · 中文 · 37 md | — · [原文 ↗](https://github.com/wquguru/harness-books/blob/fbf2b43e352443eea00eb9e4a32709a9f2c11a76/README.md) |
+| 97 | Harness —— Claude Code 团队架构工厂 | Harness 与编码 Agent | 工程手册 · 可转载 · 英文 · 21 md | [站内](/lib/09-harness/meta-skill-harness-revfactory/index) · [原文 ↗](https://github.com/revfactory/harness/blob/cceac68ea1d0ad198ef4b7b906cd238375836387/README.md) |
+| 98 | Codex CLI Best Practice | Harness 与编码 Agent | 工程手册 · 可转载 · 英文 · 16 md | [站内](/lib/09-harness/codex-cli-best-practice/index) · [原文 ↗](https://github.com/shanraisshan/codex-cli-best-practice/blob/b79f473a188632867354fc793894dfd368a18e48/README.md) |
+| 99 | Awesome Harness Engineering（ai-boost） | Harness 与编码 Agent | 工程手册 · 可转载 · 英文 · 8 md | [站内](/lib/09-harness/awesome-harness-engineering-aiboost/index) · [原文 ↗](https://github.com/ai-boost/awesome-harness-engineering/blob/6015473ad287575fc06d0ddd7835306250a66b9f/README.md) |
+| 100 | Awesome Harness Engineering（walkinglabs） | Harness 与编码 Agent | 工程手册 · 可转载 · 英文 · 4 md | [站内](/lib/09-harness/awesome-harness-engineering-walkinglabs/index) · [原文 ↗](https://github.com/walkinglabs/awesome-harness-engineering/blob/cff9b006ef64c624a62cbb1ee36b0c4b2b3a67ad/README.md) |
+| 101 | Codex 橙皮书 | Harness 与编码 Agent | 工程手册 · 可转载 · 中文 · 3 md | [站内](/lib/09-harness/codex-orange-book/index) · [原文 ↗](https://github.com/bozhouDev/codex-orange-book/blob/6c72add96c319507da65f963abfd9618d0c9ea0f/README.md) |
+| 102 | Harness Engineering 原始文献（Fowler / Mitchell / arXiv） | Harness 与编码 Agent | 工程手册 · 仅引用 · 英文 · 0 md | — · [原文 ↗](https://martinfowler.com/articles/harness-engineering.html) |
+| 103 | How Claude Code Works | Harness 与编码 Agent | 源码研读 · 可转载 · 中文 · 54 md | [站内](/lib/09-harness/how-claude-code-works/index) · [原文 ↗](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/README.md) |
+| 104 | Claude Code From Scratch | Harness 与编码 Agent | 源码研读 · 可转载 · 中英混排 · 49 md | [站内](/lib/09-harness/claude-code-from-scratch/index) · [原文 ↗](https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/README.md) |
+| 105 | claude-code-docs-official | Harness 与编码 Agent | 官方文档 · 仅引用 · 英文 · 203 md | — · [原文 ↗](https://code.claude.com/docs) |
+| 106 | openai-codex-docs-official | Harness 与编码 Agent | 官方文档 · 仅引用 · 英文 · 152 md | — · [原文 ↗](https://learn.chatgpt.com/docs) |
+| 107 | openai-developer-blog | Harness 与编码 Agent | 官方博客 · 仅引用 · 英文 · 29 md | — · [原文 ↗](https://developers.openai.com/blog) |
+| 108 | anthropic-blog-official | Harness 与编码 Agent | 官方博客 · 仅引用 · 中英混排 · 1 md | — · [原文 ↗](https://claude.com/blog) |
+| 109 | anthropic-engineering-blog | Harness 与编码 Agent | 官方博客 · 仅引用 · 中文 · 1 md | — · [原文 ↗](https://www.anthropic.com/engineering) |
+| 110 | Agentic Harness Patterns（模式与技能） | Harness 与编码 Agent | 技能与配置库 · 可转载 · 中英混排 · 30 md | [站内](/lib/09-harness/agentic-harness-patterns-skill/index) · [原文 ↗](https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/README.md) |
+| 111 | LangChain DeepAgents | Harness 与编码 Agent | 产品仓库 · 可转载 · 英文 · 70 md | [站内](/lib/09-harness/langchain-deepagents/index) · [原文 ↗](https://github.com/langchain-ai/deepagents/blob/d93ab3351bbf4c3687212f665094ccad100f2c08/README.md) |
+| 112 | Grok Build（xAI 官方 CLI） | Harness 与编码 Agent | 产品仓库 · 可转载 · 英文 · 12 md | — · [原文 ↗](https://github.com/xai-org/grok-build/blob/37949780c144e37df692e3d669051a21fec24f20/README.md) |
+| 113 | ECC —— Harness 性能优化系统 | Harness 与编码 Agent | 其他材料 · 可转载 · 英文 · 502 md | [站内](/lib/09-harness/ecc/index) · [原文 ↗](https://github.com/affaan-m/ECC/blob/928c1dea72f5c330442fc1f595563398b8f389f7/README.md) |
+| 114 | The Context Course | 上下文、记忆与技能 | 系统课程 · 仅引用 · 英文 · 143 md | — · [原文 ↗](https://github.com/huggingface/context-course/blob/0448a7ca721a63a81531e1ba94f46f897c70645b/README.md) |
+| 115 | The Model Context Protocol (MCP) Course | 上下文、记忆与技能 | 系统课程 · 可转载 · 英文 · 74 md | [站内](/lib/10-context-memory/huggingface-mcp-course/index) · [原文 ↗](https://github.com/huggingface/mcp-course/blob/e706ccc0d7abe73c31813979c3451c0e31c8a464/README.md) |
+| 116 | Prompt Engineering Guide | 上下文、记忆与技能 | 工程手册 · 可转载 · 英文 · 1111 md | [站内](/lib/10-context-memory/prompt-engineering-guide/index) · [原文 ↗](https://github.com/dair-ai/Prompt-Engineering-Guide/blob/57673726396dd94acb23bdb1e67f27c78ee85a8e/README.md) |
+| 117 | Context Engineering（Bonigarcia 教程） | 上下文、记忆与技能 | 工程手册 · 可转载 · 英文 · 190 md | [站内](/lib/10-context-memory/context-engineering-book/index) · [原文 ↗](https://github.com/bonigarcia/context-engineering/blob/46719154489e410b509db4fb69ab1c29fb3362a0/README.md) |
+| 118 | Context Engineering Intro | 上下文、记忆与技能 | 工程手册 · 可转载 · 英文 · 139 md | [站内](/lib/10-context-memory/context-engineering-intro/index) · [原文 ↗](https://github.com/coleam00/context-engineering-intro/blob/a2d84b021cee1e2f4e77ba854bba0be8cb319035/README.md) |
+| 119 | 大模型应用开发 -上下文工程与运行空间实践指南 | 上下文、记忆与技能 | 工程手册 · 仅引用 · 中文 · 46 md | — · [原文 ↗](https://github.com/WakeUp-Jin/Practical-Guide-to-Context-Engineering/blob/ec349a470e2992adc1d98899a46cb085839c0676/README.md) |
+| 120 | humanlayer/advanced-context-engineering-for-coding-agents | 上下文、记忆与技能 | 工程手册 · 仅引用 · 英文 · 5 md | — · [原文 ↗](https://github.com/humanlayer/advanced-context-engineering-for-coding-agents) |
+| 121 | Awesome Context Engineering（上下文工程清单） | 上下文、记忆与技能 | 工程手册 · 可转载 · 英文 · 1 md | — · [原文 ↗](https://github.com/Meirtz/Awesome-Context-Engineering/blob/8b6ede2b5e610774e01d74902d65a51000d671a4/README.md) |
+| 122 | Claude Code System Prompts | 上下文、记忆与技能 | 源码研读 · 可转载 · 英文 · 300 md | [站内](/lib/10-context-memory/claude-code-system-prompts/index) · [原文 ↗](https://github.com/Piebald-AI/claude-code-system-prompts/blob/3af4c6139aaabb0470440961ca8c8fb871099234/README.md) |
+| 123 | Microsoft Agent Skills | 上下文、记忆与技能 | 技能与配置库 · 可转载 · 英文 · 1537 md | [站内](/lib/10-context-memory/microsoft-skills/index) · [原文 ↗](https://github.com/microsoft/skills/blob/cf77b1efbf3117501f4727c476894751311ee885/README.md) |
+| 124 | Agent Skills | 上下文、记忆与技能 | 技能与配置库 · 仅引用 · 英文 · 531 md | — · [原文 ↗](https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/README.md) |
+| 125 | Agent Skills for Context Engineering | 上下文、记忆与技能 | 技能与配置库 · 可转载 · 英文 · 187 md | [站内](/lib/10-context-memory/agent-skills-for-context-engineering/index) · [原文 ↗](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/README.md) |
+| 126 | Matt Pocock Skills（工程技能库） | 上下文、记忆与技能 | 技能与配置库 · 可转载 · 英文 · 112 md | [站内](/lib/10-context-memory/mattpocock-skills/index) · [原文 ↗](https://github.com/mattpocock/skills/blob/3cca18b368ae95cdbdebbff572ccafa662551015/README.md) |
+| 127 | Agent Skills（Addy Osmani） | 上下文、记忆与技能 | 技能与配置库 · 可转载 · 英文 · 95 md | [站内](/lib/10-context-memory/agent-skills-addyosmani/index) · [原文 ↗](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/README.md) |
+| 128 | Superpowers（Claude Code 技能库） | 上下文、记忆与技能 | 技能与配置库 · 可转载 · 英文 · 94 md | [站内](/lib/10-context-memory/superpowers/index) · [原文 ↗](https://github.com/obra/superpowers/blob/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/README.md) |
+| 129 | superpowers-zh（AI 编程超能力 · 中文增强版） | 上下文、记忆与技能 | 技能与配置库 · 可转载 · 中文 · 93 md | [站内](/lib/10-context-memory/superpowers-zh/index) · [原文 ↗](https://github.com/jnMetaCode/superpowers-zh/blob/79ea5d262b7a1c7ce76a289390853bca51f940d4/README.md) |
+| 130 | Agent Skill Index | 上下文、记忆与技能 | 技能与配置库 · 可转载 · 中英混排 · 8 md | [站内](/lib/10-context-memory/awesome-agent-skills-heilcheng/index) · [原文 ↗](https://github.com/heilcheng/awesome-agent-skills/blob/de9056857eb0e96da833469d2ee3ac392058225d/README.md) |
+| 131 | Awesome Agent Skills（Agent 技能清单） | 上下文、记忆与技能 | 技能与配置库 · 可转载 · 英文 · 2 md | — · [原文 ↗](https://github.com/VoltAgent/awesome-agent-skills/blob/8873794bcb26ff5dcf9cd518c87cf5638ca44b92/README.md) |
+| 132 | Wonderful Prompts | 上下文、记忆与技能 | 清单与速查 · 可转载 · 中文 · 6 md | [站内](/lib/10-context-memory/wonderful-prompts/index) · [原文 ↗](https://github.com/langgptai/wonderful-prompts/blob/c8e5dbd3bc01740728fd1ab8f8d4f654a17e3697/README.md) |
+| 133 | Awesome MCP 中文资源 | 上下文、记忆与技能 | 清单与速查 · 可转载 · 中文 · 2 md | — · [原文 ↗](https://github.com/yzfly/Awesome-MCP-ZH/blob/616590af2bc94fcd98dd0b88a0b740ad6cb86a9d/README.md) |
+| 134 | GSD（Get Shit Done）工作流文档 | 上下文、记忆与技能 | 其他材料 · 可转载 · 英文 · 469 md | [站内](/lib/10-context-memory/get-shit-done/index) · [原文 ↗](https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/README.md) |
+| 135 | AI Engineering Hub | 上下文、记忆与技能 | 其他材料 · 可转载 · 英文 · 164 md | [站内](/lib/10-context-memory/ai-engineering-hub/index) · [原文 ↗](https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/README.md) |
+| 136 | Awesome OpenClaw Usecases | 个人智能体 | 实践案例集 · 可转载 · 英文 · 46 md | [站内](/lib/11-personal-agents/awesome-openclaw-usecases/index) · [原文 ↗](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/README.md) |
+| 137 | Build Your Own OpenClaw | 个人智能体 | 源码研读 · 可转载 · 中英混排 · 16 md | [站内](/lib/11-personal-agents/build-your-own-openclaw/index) · [原文 ↗](https://github.com/czl9707/build-your-own-openclaw) |
+| 138 | openai-plugins-docs | 个人智能体 | 官方文档 · 仅引用 · 英文 · 29 md | — · [原文 ↗](https://developers.openai.com/plugins) |
+| 139 | Awesome OpenClaw Skills | 个人智能体 | 技能与配置库 · 可转载 · 英文 · 32 md | [站内](/lib/11-personal-agents/awesome-openclaw-skills/index) · [原文 ↗](https://github.com/VoltAgent/awesome-openclaw-skills/blob/37ad08c1b8e243d5f501c6fcaf7ac0b507bd83a1/README.md) |
+| 140 | Awesome OpenClaw Tutorial（中文） | 个人智能体 | 清单与速查 · 可转载 · 中文 · 71 md | [站内](/lib/11-personal-agents/awesome-openclaw-tutorial/index) · [原文 ↗](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/README.md) |
+| 141 | MineContext（火山引擎个人上下文助手） | 个人智能体 | 其他材料 · 可转载 · 中英混排 · 11 md | [站内](/lib/11-personal-agents/mine-context/index) · [原文 ↗](https://github.com/volcengine/MineContext/blob/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/README.md) |
+| 142 | Qclaw（秋芝2046） | 个人智能体 | 其他材料 · 可转载 · 中文 · 7 md | [站内](/lib/11-personal-agents/qclaw/index) · [原文 ↗](https://github.com/qiuzhi2046/Qclaw/blob/c494768977f4e48b8eacbfae7ae390af11fc015f/README.md) |
+| 143 | EdgeAI for Beginners | 本地与端侧 AI | 系统课程 · 可转载 · 英文 · 96 md | [站内](/lib/13-local-ai/edgeai-for-beginners/index) · [原文 ↗](https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/README.md) |

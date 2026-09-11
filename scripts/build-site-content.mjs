@@ -107,6 +107,16 @@ function blobUrl(s, rel) {
   return s.site || null;
 }
 
+// 每条来源都必须给出一个可点的原文地址：优先入口文档，其次仓库首页，最后站点。
+function upstreamUrl(s) {
+  if (s.entry) {
+    const u = blobUrl(s, s.entry);
+    if (u) return u;
+  }
+  if (s.repo) return `https://github.com/${s.repo}`;
+  return s.site || null;
+}
+
 function rawUrl(s, rel) {
   if (s.repo && s.commit) return `https://raw.githubusercontent.com/${s.repo}/${s.commit}/${rel}`;
   return null;
@@ -507,9 +517,13 @@ function rewriteLinks(text, s, currentSourceRel, bySourceRel, currentOutRel) {
     return prefix + resolve(url, false).url + rest;
   });
 
-  text = text.replace(/(\s(?:src|poster)=")([^"]+)(")/gi, (m, open, url, close) => {
+  // 原始 HTML 里的 src / poster：单双引号都要认。微软官方课用的是 src='images/x.jpg'，
+  // 只认双引号时相对路径会漏网，VitePress 会把它当待打包的静态资源，整站构建直接失败。
+  // 指不回上游的（占位符等）整条属性去掉：不写 null，也不留一条指向空地址的破图。
+  text = text.replace(/(\s(?:src|poster)=)(["'])([^"']*)\2/gi, (m, head, q, url) => {
     if (/^(https?:|data:)/i.test(url)) return m;
-    return open + resolve(url, true).url + close;
+    const r = resolve(url.trim(), true);
+    return r.url ? head + q + r.url + q : "";
   });
 
   text = text.replace(/(\bsrcset=")([^"]+)(")/gi, (m, open, value, close) => {
@@ -520,11 +534,15 @@ function rewriteLinks(text, s, currentSourceRel, bySourceRel, currentOutRel) {
         if (!seg) return seg;
         const bits = seg.split(/\s+/);
         if (/^(https?:|data:)/i.test(bits[0])) return seg;
-        bits[0] = resolve(bits[0], true).url;
+        const u = resolve(bits[0], true).url;
+        // 解析不到的候选直接丢弃，避免 srcset 里出现空地址
+        if (!u) return "";
+        bits[0] = u;
         return bits.join(" ");
       })
+      .filter(Boolean)
       .join(", ");
-    return open + next + close;
+    return next ? open + next + close : "";
   });
 
   text = text.replace(/(<a\b[^>]*?\bhref=")([^"]+)(")/gi, (m, open, url, close) => {
@@ -1520,7 +1538,7 @@ const allSources = catalog.sources.map((s) => ({
   repo: s.repo,
   site: s.site,
   commit: s.commit,
-  entryUrl: s.entry ? blobUrl(s, s.entry) : s.site,
+  entryUrl: upstreamUrl(s),
   publishable: s.publishable,
   ported: registered.some((r) => r.id === s.id),
 }));
@@ -1626,7 +1644,7 @@ for (const v of catalog.volumes) {
     out.push("| 来源 | 类型 · 许可 · 语言 | 课时 | 原文 |");
     out.push("|---|---|---|---|");
     for (const s of outside) {
-      out.push(`| ${s.title} | ${s.kind} · ${s.licenseLabel} · ${s.lang} · ${s.md} md | ${s.lessons || "—"} | ${s.entryUrl ? `[↗](${s.entryUrl})` : "—"} |`);
+      out.push(`| ${s.title} | ${s.kind} · ${s.licenseLabel} · ${s.lang} · ${s.md} md | ${s.lessons || "—"} | ${upstreamUrl(s) ? `[原文 ↗](${upstreamUrl(s)})` : "—"} |`);
     }
     out.push("");
   }
@@ -1661,7 +1679,7 @@ catalog.sources.forEach((s, i) => {
   const staged = portedIds.has(s.id);
   const v = volById.get(s.volume);
   src.push(
-    `| ${i + 1} | ${s.title} | ${v ? v.name : s.volume} | ${s.kind} · ${s.licenseLabel} · ${s.lang} · ${s.md} md | ${staged ? `[站内](/lib/${s.volume}/${s.local}/index)` : "—"} · ${s.entryUrl ? `[原文 ↗](${s.entryUrl})` : "—"} |`
+    `| ${i + 1} | ${s.title} | ${v ? v.name : s.volume} | ${s.kind} · ${s.licenseLabel} · ${s.lang} · ${s.md} md | ${staged ? `[站内](/lib/${s.volume}/${s.local}/index)` : "—"} · ${upstreamUrl(s) ? `[原文 ↗](${upstreamUrl(s)})` : "—"} |`
   );
 });
 src.push("");

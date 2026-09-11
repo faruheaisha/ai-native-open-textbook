@@ -1,0 +1,18 @@
+{
+  "id": "08-agents/second-brain-ai-assistant-course",
+  "volume": "08-agents",
+  "local": "second-brain-ai-assistant-course",
+  "title": "Second Brain：AI 助理构建课",
+  "kind": "系统课程",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "decodingai-magazine/second-brain-ai-assistant-course",
+  "site": null,
+  "commit": "17ccef571db3e4b563826dab83ecc9298a54ede1",
+  "entryUrl": "https://github.com/decodingai-magazine/second-brain-ai-assistant-course/blob/17ccef571db3e4b563826dab83ecc9298a54ede1/README.md",
+  "docs": 5
+}

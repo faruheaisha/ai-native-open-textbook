@@ -7,11 +7,11 @@
 | 指标 | 数量 |
 |---|---|
 | 收录来源 | 143 条 |
-| 已完整上架课程（正文可站内直读） | 104 门 |
-| 站内正文页 | 2079 篇 |
+| 已完整上架课程（正文可站内直读） | 107 门 |
+| 站内正文页 | 2500 篇 |
 | 学习路径 | 8 条 |
 | 资料类型 | 12 类 |
-| 许可分级 | 可转载 114 · 仅引用 29 |
+| 许可分级 | 可转载 104 · 限非商用 9 · 仅引用 30 |
 
 ---
 
@@ -120,6 +120,7 @@ npm run docs:preview  # 预览构建产物
 |---|---|
 | `node scripts/build-catalog.mjs` | 由 `upstream/` 快照重建 `catalog/catalog.json` |
 | `node scripts/build-site-content.mjs` | 依据 `catalog` + `curation` + `derived` + `translations` 生成 `site/docs/lib/**` |
+| `node scripts/build-notice.mjs` | 依据 `catalog/catalog.json` 重建 `NOTICE.md`（第三方署名与许可清单） |
 
 `upstream/` 是上游仓库的只读快照，体积约 1.26 GB，未纳入版本控制。仅重建站内正文时不需要它 —— 站内正文的来源已在 `derived/` 与 `translations/` 中固化。
 

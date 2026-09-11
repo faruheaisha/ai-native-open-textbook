@@ -39,6 +39,7 @@ const KIND_ORDER = ["系统课程", "课时教程", "工程手册", "实践案�
 const LICENSE_RULES = [
   { cls: "cite-only", test: (s) => /未声明|站点条款|官方文档|官方博客/.test(s), label: "仅引用", note: "不可整篇转载，站内只做导航与引用" },
   { cls: "conditional", test: (s) => /NC/i.test(s), label: "限非商用", note: "可翻译转载，限非商用并按原许可相同方式共享" },
+  { cls: "cite-only", test: (s) => /逐技能|许可不一|第三方条款/.test(s), label: "仅引用", note: "技能包逐条许可不同，含限制性条款，站内仅做导航与引用" },
   { cls: "republish", test: () => true, label: "可转载", note: "可转载可翻译，须保留署名与许可声明" },
 ];
 

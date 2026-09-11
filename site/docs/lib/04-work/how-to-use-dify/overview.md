@@ -53,10 +53,10 @@ zh: ""
 | --- | --- | --- |
 | 不知道先建哪种应用 | [应用类型选择](/lib/04-work/how-to-use-dify/docs-chapters-02-应用类型选择) | Chatflow、Workflow、Agent 的选择标准 |
 | 想快速做出第一个应用 | [30 分钟入门](https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/START_HERE.md) | 一个可测试的资料问答助手 |
-| 知识库回答不准 | [知识库 RAG](/lib/04-work/how-to-use-dify/docs-chapters-06-知识库-rag) + [RAG 清单](https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/cheatsheets/rag-checklist.md) | 文档整理、知识库描述、检索调试方法 |
-| 工作流节点越做越乱 | [Workflow 工作流](/lib/04-work/how-to-use-dify/docs-chapters-07-workflow-工作流) + [节点清单](https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/cheatsheets/workflow-node-checklist.md) | 节点拆分、变量传递、错误分支设计 |
+| 知识库回答不准 | [知识库 RAG](/lib/04-work/how-to-use-dify/docs-chapters-06-知识库-rag) + [RAG 清单](/lib/04-work/how-to-use-dify/cheatsheets-rag-checklist) | 文档整理、知识库描述、检索调试方法 |
+| 工作流节点越做越乱 | [Workflow 工作流](/lib/04-work/how-to-use-dify/docs-chapters-07-workflow-工作流) + [节点清单](/lib/04-work/how-to-use-dify/cheatsheets-workflow-node-checklist) | 节点拆分、变量传递、错误分支设计 |
 | 想做能调用工具的助手 | [Agent 和工具调用](/lib/04-work/how-to-use-dify/docs-chapters-08-agent-和工具调用) | 工具边界、调用规则、迭代次数控制 |
-| 想把 Demo 交付给别人 | [API 发布和集成](/lib/04-work/how-to-use-dify/docs-chapters-10-api-发布和集成) + [生产检查清单](https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/docs/reference/production-checklist.md) | 发布、API、安全、成本和上线检查 |
+| 想把 Demo 交付给别人 | [API 发布和集成](/lib/04-work/how-to-use-dify/docs-chapters-10-api-发布和集成) + [生产检查清单](/lib/04-work/how-to-use-dify/docs-reference-production-checklist) | 发布、API、安全、成本和上线检查 |
 
 ## 学完之后能做什么
 
@@ -96,7 +96,7 @@ zh: ""
 1. 学习 [docs/chapters/06-知识库-rag.md](/lib/04-work/how-to-use-dify/docs-chapters-06-知识库-rag)。
 2. 使用 [templates/knowledge-base-description-template.md](https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/templates/knowledge-base-description-template.md) 写知识库说明。
 3. 完成 [练习 02：企业 FAQ 知识库](https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/exercises/02-build-faq-rag.md)。
-4. 对照 [cheatsheets/rag-checklist.md](https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/cheatsheets/rag-checklist.md) 调试召回效果。
+4. 对照 [cheatsheets/rag-checklist.md](/lib/04-work/how-to-use-dify/cheatsheets-rag-checklist) 调试召回效果。
 
 ### 路线 C：工作流自动化
 
@@ -108,7 +108,7 @@ zh: ""
 ### 路线 D：自部署和生产使用
 
 1. 学习 [docs/chapters/11-自部署-docker-compose.md](/lib/04-work/how-to-use-dify/docs-chapters-11-自部署-docker-compose)。
-2. 对照 [docs/reference/production-checklist.md](https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/docs/reference/production-checklist.md)。
+2. 对照 [docs/reference/production-checklist.md](/lib/04-work/how-to-use-dify/docs-reference-production-checklist)。
 3. 学习备份、升级、模型密钥和权限管理。
 4. 把测试应用迁移到生产空间。
 
@@ -119,7 +119,7 @@ zh: ""
 - [docs/project-standard.md](https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/docs/project-standard.md)：本仓库内容质量标准。
 - [docs/content-matrix.md](https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/docs/content-matrix.md)：后续扩展规划。
 - [docs/troubleshooting.md](https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/docs/troubleshooting.md)：常见问题排查。
-- [docs/reference/official-links.md](https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/docs/reference/official-links.md)：官方资料入口。
+- [docs/reference/official-links.md](/lib/04-work/how-to-use-dify/docs-reference-official-links)：官方资料入口。
 
 ## 本仓库使用的主要资料
 

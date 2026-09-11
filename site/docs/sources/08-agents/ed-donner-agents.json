@@ -1,0 +1,18 @@
+{
+  "id": "08-agents/ed-donner-agents",
+  "volume": "08-agents",
+  "local": "ed-donner-agents",
+  "title": "Ed Donner：AI Agents 实战课",
+  "kind": "系统课程",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "ed-donner/agents",
+  "site": null,
+  "commit": "8ceaf66c24643627c1e4806851736bdd444bdd4b",
+  "entryUrl": null,
+  "docs": 61
+}

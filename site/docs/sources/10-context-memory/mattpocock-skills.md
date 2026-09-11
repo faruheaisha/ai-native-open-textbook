@@ -1,7 +1,7 @@
 ---
-title: "出处：**Matt Pocock Skills**"
+title: "出处：Matt Pocock Skills（工程技能库）"
 ---
-# **Matt Pocock Skills**
+# Matt Pocock Skills（工程技能库）
 | 项 | 内容 |
 |---|---|
 | 上游 | [mattpocock/skills](https://github.com/mattpocock/skills) |

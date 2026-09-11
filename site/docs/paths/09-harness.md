@@ -51,12 +51,12 @@ title: "Harness 与编码 Agent"
 
 | 来源 | 类型 · 许可 · 语言 | 课时 | 原文 |
 |---|---|---|---|
-| 御舆：解码 Agent Harness | 工程手册 · 仅引用 · 中文 · 42 md | 6 | — |
-| Harness Books | 工程手册 · 仅引用 · 中文 · 37 md | 2 | — |
-| origin-harness-engineering-articles | 工程手册 · 仅引用 · 英文 · 0 md | — | — |
-| claude-code-docs-official | 官方文档 · 仅引用 · 英文 · 203 md | 2 | — |
-| openai-codex-docs-official | 官方文档 · 仅引用 · 英文 · 152 md | 3 | — |
-| openai-developer-blog | 官方博客 · 仅引用 · 英文 · 29 md | 1 | — |
-| anthropic-blog-official | 官方博客 · 仅引用 · 中英混排 · 1 md | — | — |
-| anthropic-engineering-blog | 官方博客 · 仅引用 · 中文 · 1 md | 2 | — |
-| Grok Build（xAI 官方 CLI） | 产品仓库 · 可转载 · 英文 · 12 md | 1 | — |
+| 御舆：解码 Agent Harness | 工程手册 · 仅引用 · 中文 · 42 md | 6 | [原文 ↗](https://github.com/lintsinghua/claude-code-book/blob/1e2068c05ba80b85d86caae7b4c32e7478e66d09/README.md) |
+| Harness Books | 工程手册 · 仅引用 · 中文 · 37 md | 2 | [原文 ↗](https://github.com/wquguru/harness-books/blob/fbf2b43e352443eea00eb9e4a32709a9f2c11a76/README.md) |
+| Harness Engineering 原始文献（Fowler / Mitchell / arXiv） | 工程手册 · 仅引用 · 英文 · 0 md | — | [原文 ↗](https://martinfowler.com/articles/harness-engineering.html) |
+| claude-code-docs-official | 官方文档 · 仅引用 · 英文 · 203 md | 2 | [原文 ↗](https://code.claude.com/docs) |
+| openai-codex-docs-official | 官方文档 · 仅引用 · 英文 · 152 md | 3 | [原文 ↗](https://learn.chatgpt.com/docs) |
+| openai-developer-blog | 官方博客 · 仅引用 · 英文 · 29 md | 1 | [原文 ↗](https://developers.openai.com/blog) |
+| anthropic-blog-official | 官方博客 · 仅引用 · 中英混排 · 1 md | — | [原文 ↗](https://claude.com/blog) |
+| anthropic-engineering-blog | 官方博客 · 仅引用 · 中文 · 1 md | 2 | [原文 ↗](https://www.anthropic.com/engineering) |
+| Grok Build（xAI 官方 CLI） | 产品仓库 · 可转载 · 英文 · 12 md | 1 | [原文 ↗](https://github.com/xai-org/grok-build/blob/37949780c144e37df692e3d669051a21fec24f20/README.md) |

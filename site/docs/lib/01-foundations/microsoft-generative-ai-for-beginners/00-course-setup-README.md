@@ -43,7 +43,7 @@ In your fork: **Code -> Codespaces -> New on main**
 
 | I want to…          | Go to…                                                                  |
 |---------------------|-------------------------------------------------------------------------|
-| Start Lesson 1      | [`01-introduction-to-genai`](https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/01-introduction-to-genai/README.md)     |
+| Start Lesson 1      | [`01-introduction-to-genai`](/lib/01-foundations/microsoft-generative-ai-for-beginners/01-introduction-to-genai-README)     |
 | Work offline        | [`setup-local.md`](/lib/01-foundations/microsoft-generative-ai-for-beginners/00-course-setup-02-setup-local)                                   |
 | Setup an LLM Provider | [`providers.md`](/lib/01-foundations/microsoft-generative-ai-for-beginners/00-course-setup-03-providers)                                        |
 | Meet other learners | [Join our Discord](https://aka.ms/genai-discord?WT.mc_id=academic-105485-koreyst)   |

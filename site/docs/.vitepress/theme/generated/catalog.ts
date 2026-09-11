@@ -55,8 +55,8 @@ export const categoryOrder = ["系统课程","工程手册与指南","实践案�
 export const tierLabel = {"1":"主线","2":"进阶","3":"参考"} as const
 export const totals = {
   "sources": 143,
-  "publishable": 114,
-  "citeOnly": 29,
+  "publishable": 113,
+  "citeOnly": 30,
   "needTranslation": 98,
   "chineseNative": 45,
   "markdown": 26787,
@@ -211,6 +211,136 @@ export const courses: Course[] = [
         "title": "Getting Started with this course",
         "rel": "00-course-setup-README",
         "sourceRel": "00-course-setup/README.md"
+      },
+      {
+        "title": "Introduction to Generative AI and Large Language Models",
+        "rel": "01-introduction-to-genai-README",
+        "sourceRel": "01-introduction-to-genai/README.md"
+      },
+      {
+        "title": "Exploring and comparing different LLMs",
+        "rel": "02-exploring-and-comparing-different-llms-README",
+        "sourceRel": "02-exploring-and-comparing-different-llms/README.md"
+      },
+      {
+        "title": "Using Generative AI Responsibly",
+        "rel": "03-using-generative-ai-responsibly-README",
+        "sourceRel": "03-using-generative-ai-responsibly/README.md"
+      },
+      {
+        "title": "Prompt Engineering Fundamentals",
+        "rel": "04-prompt-engineering-fundamentals-README",
+        "sourceRel": "04-prompt-engineering-fundamentals/README.md"
+      },
+      {
+        "title": "Creating Advanced prompts",
+        "rel": "05-advanced-prompts-README",
+        "sourceRel": "05-advanced-prompts/README.md"
+      },
+      {
+        "title": "Building Text Generation Applications",
+        "rel": "06-text-generation-apps-README",
+        "sourceRel": "06-text-generation-apps/README.md"
+      },
+      {
+        "title": "Building Generative AI-Powered Chat Applications",
+        "rel": "07-building-chat-applications-README",
+        "sourceRel": "07-building-chat-applications/README.md"
+      },
+      {
+        "title": "Building a Search Applications",
+        "rel": "08-building-search-applications-README",
+        "sourceRel": "08-building-search-applications/README.md"
+      },
+      {
+        "title": "Transcription data prep",
+        "rel": "08-building-search-applications-scripts-README",
+        "sourceRel": "08-building-search-applications/scripts/README.md"
+      },
+      {
+        "title": "Building Image Generation Applications",
+        "rel": "09-building-image-applications-README",
+        "sourceRel": "09-building-image-applications/README.md"
+      },
+      {
+        "title": "Building Low Code AI Applications",
+        "rel": "10-building-low-code-ai-applications-README",
+        "sourceRel": "10-building-low-code-ai-applications/README.md"
+      },
+      {
+        "title": "Integrating with function calling",
+        "rel": "11-integrating-with-function-calling-README",
+        "sourceRel": "11-integrating-with-function-calling/README.md"
+      },
+      {
+        "title": "Designing UX for AI Applications",
+        "rel": "12-designing-ux-for-ai-applications-README",
+        "sourceRel": "12-designing-ux-for-ai-applications/README.md"
+      },
+      {
+        "title": "Securing Your Generative AI Applications",
+        "rel": "13-securing-ai-applications-README",
+        "sourceRel": "13-securing-ai-applications/README.md"
+      },
+      {
+        "title": "The Generative AI Application Lifecycle",
+        "rel": "14-the-generative-ai-application-lifecycle-README",
+        "sourceRel": "14-the-generative-ai-application-lifecycle/README.md"
+      },
+      {
+        "title": "Neural Network Frameworks",
+        "rel": "15-rag-and-vector-databases-data-frameworks",
+        "sourceRel": "15-rag-and-vector-databases/data/frameworks.md"
+      },
+      {
+        "title": "Introduction to Neural Networks. Multi-Layered Perceptron",
+        "rel": "15-rag-and-vector-databases-data-own_framework",
+        "sourceRel": "15-rag-and-vector-databases/data/own_framework.md"
+      },
+      {
+        "title": "Introduction to Neural Networks: Perceptron",
+        "rel": "15-rag-and-vector-databases-data-perceptron",
+        "sourceRel": "15-rag-and-vector-databases/data/perceptron.md"
+      },
+      {
+        "title": "Retrieval Augmented Generation (RAG) and Vector Databases",
+        "rel": "15-rag-and-vector-databases-README",
+        "sourceRel": "15-rag-and-vector-databases/README.md"
+      },
+      {
+        "title": "Generative AI for Beginners（微软官方入门课）",
+        "rel": "16-open-source-models-README",
+        "sourceRel": "16-open-source-models/README.md"
+      },
+      {
+        "title": "Generative AI for Beginners（微软官方入门课）",
+        "rel": "17-ai-agents-README",
+        "sourceRel": "17-ai-agents/README.md"
+      },
+      {
+        "title": "Fine-Tuning Your LLM",
+        "rel": "18-fine-tuning-README",
+        "sourceRel": "18-fine-tuning/README.md"
+      },
+      {
+        "title": "Resources For Self-Guided Learning",
+        "rel": "18-fine-tuning-RESOURCES",
+        "sourceRel": "18-fine-tuning/RESOURCES.md"
+      },
+      {
+        "title": "Introduction to Small Language Models for Generative AI for Beginners",
+        "rel": "19-slm-README",
+        "sourceRel": "19-slm/README.md"
+      },
+      {
+        "title": "Building with Mistral Models",
+        "rel": "20-mistral-README",
+        "sourceRel": "20-mistral/README.md"
+      },
+      {
+        "title": "Building With the Meta Family Models",
+        "rel": "21-meta-README",
+        "sourceRel": "21-meta/README.md"
       }
     ]
   },
@@ -381,6 +511,21 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
+        "title": "Dify 应用类型选择速查表",
+        "rel": "cheatsheets-app-type-decision",
+        "sourceRel": "cheatsheets/app-type-decision.md"
+      },
+      {
+        "title": "Dify 知识库 RAG 调试清单",
+        "rel": "cheatsheets-rag-checklist",
+        "sourceRel": "cheatsheets/rag-checklist.md"
+      },
+      {
+        "title": "Workflow 节点设计速查表",
+        "rel": "cheatsheets-workflow-node-checklist",
+        "sourceRel": "cheatsheets/workflow-node-checklist.md"
+      },
+      {
         "title": "01 认识 Dify",
         "rel": "docs-chapters-01-认识-dify",
         "sourceRel": "docs/chapters/01-认识-dify.md"
@@ -439,6 +584,16 @@ export const courses: Course[] = [
         "title": "12 生产交付和团队协作",
         "rel": "docs-chapters-12-生产交付和团队协作",
         "sourceRel": "docs/chapters/12-生产交付和团队协作.md"
+      },
+      {
+        "title": "Dify 官方资料入口",
+        "rel": "docs-reference-official-links",
+        "sourceRel": "docs/reference/official-links.md"
+      },
+      {
+        "title": "Dify 生产检查清单",
+        "rel": "docs-reference-production-checklist",
+        "sourceRel": "docs/reference/production-checklist.md"
       },
       {
         "title": "案例：内容生成工作流",
@@ -7028,6 +7183,332 @@ export const courses: Course[] = [
     ]
   },
   {
+    "id": "08-agents/ed-donner-agents",
+    "volume": "08-agents",
+    "local": "ed-donner-agents",
+    "title": "Ed Donner：AI Agents 实战课",
+    "kind": "系统课程",
+    "category": "系统课程",
+    "tier": 3,
+    "license": "MIT",
+    "licenseLabel": "可转载",
+    "lang": "英文",
+    "publishable": true,
+    "repo": "ed-donner/agents",
+    "site": null,
+    "commit": "8ceaf66c24643627c1e4806851736bdd444bdd4b",
+    "entry": null,
+    "featured": false,
+    "sourceUrl": "https://github.com/ed-donner/agents",
+    "docs": [
+      {
+        "title": "课程首页",
+        "rel": "index",
+        "sourceRel": ""
+      },
+      {
+        "title": "Ed Donner：AI Agents 实战课",
+        "rel": "1_foundations-community_contributions-1_Abdulrazaq-README",
+        "sourceRel": "1_foundations/community_contributions/1_Abdulrazaq/README.md"
+      },
+      {
+        "title": "Ed Donner：AI Agents 实战课",
+        "rel": "1_foundations-community_contributions-adeyemi-kayode-README",
+        "sourceRel": "1_foundations/community_contributions/adeyemi-kayode/README.md"
+      },
+      {
+        "title": "Alter-Ego Chatbot",
+        "rel": "1_foundations-community_contributions-alter-ego-gradio-chatbot-usingAzureOpenai-README",
+        "sourceRel": "1_foundations/community_contributions/alter-ego-gradio-chatbot-usingAzureOpenai/README.md"
+      },
+      {
+        "title": "Prompt Management Refactoring Plan",
+        "rel": "1_foundations-community_contributions-amirna2_contributions-personal-ai-docs-prompt-refactoring-plan",
+        "sourceRel": "1_foundations/community_contributions/amirna2_contributions/personal-ai/docs/prompt-refactoring-plan.md"
+      },
+      {
+        "title": "Ed Donner：AI Agents 实战课",
+        "rel": "1_foundations-community_contributions-amirna2_contributions-personal-ai-prompts-chat_base",
+        "sourceRel": "1_foundations/community_contributions/amirna2_contributions/personal-ai/prompts/chat_base.md"
+      },
+      {
+        "title": "Ed Donner：AI Agents 实战课",
+        "rel": "1_foundations-community_contributions-amirna2_contributions-personal-ai-prompts-chat_init",
+        "sourceRel": "1_foundations/community_contributions/amirna2_contributions/personal-ai/prompts/chat_init.md"
+      },
+      {
+        "title": "Ed Donner：AI Agents 实战课",
+        "rel": "1_foundations-community_contributions-amirna2_contributions-personal-ai-prompts-chat_rerun",
+        "sourceRel": "1_foundations/community_contributions/amirna2_contributions/personal-ai/prompts/chat_rerun.md"
+      },
+      {
+        "title": "Ed Donner：AI Agents 实战课",
+        "rel": "1_foundations-community_contributions-amirna2_contributions-personal-ai-prompts-evaluator_with_github_context",
+        "sourceRel": "1_foundations/community_contributions/amirna2_contributions/personal-ai/prompts/evaluator_with_github_context.md"
+      },
+      {
+        "title": "Ed Donner：AI Agents 实战课",
+        "rel": "1_foundations-community_contributions-amirna2_contributions-personal-ai-prompts-evaluator",
+        "sourceRel": "1_foundations/community_contributions/amirna2_contributions/personal-ai/prompts/evaluator.md"
+      },
+      {
+        "title": "Ed Donner：AI Agents 实战课",
+        "rel": "1_foundations-community_contributions-amirna2_contributions-personal-ai-prompts-job_match_analysis",
+        "sourceRel": "1_foundations/community_contributions/amirna2_contributions/personal-ai/prompts/job_match_analysis.md"
+      },
+      {
+        "title": "AI Career Assistant",
+        "rel": "1_foundations-community_contributions-amirna2_contributions-personal-ai-README",
+        "sourceRel": "1_foundations/community_contributions/amirna2_contributions/personal-ai/README.md"
+      },
+      {
+        "title": "RAG Implementation Plan — Converting the me/ Folder into Proper RAG",
+        "rel": "1_foundations-community_contributions-Andras_Nemes-RAG_implementation_plan",
+        "sourceRel": "1_foundations/community_contributions/Andras_Nemes/RAG_implementation_plan.MD"
+      },
+      {
+        "title": "Change Log",
+        "rel": "1_foundations-community_contributions-andresr27-change_log",
+        "sourceRel": "1_foundations/community_contributions/andresr27/change_log.md"
+      },
+      {
+        "title": "Summary",
+        "rel": "1_foundations-community_contributions-andresr27-docs-private_generic",
+        "sourceRel": "1_foundations/community_contributions/andresr27/docs/private_generic.md"
+      },
+      {
+        "title": "Debate Transcript",
+        "rel": "1_foundations-community_contributions-aquagreen1000-debate_transcript",
+        "sourceRel": "1_foundations/community_contributions/aquagreen1000/debate_transcript.md"
+      },
+      {
+        "title": "Avatar — (OpenRouter + local tools)",
+        "rel": "1_foundations-community_contributions-avatar-README",
+        "sourceRel": "1_foundations/community_contributions/avatar/README.md"
+      },
+      {
+        "title": "Personal AI Assistant – AMA Chatbot",
+        "rel": "1_foundations-community_contributions-blt909-README",
+        "sourceRel": "1_foundations/community_contributions/blt909/README.md"
+      },
+      {
+        "title": "🤖 CareerWise Gemini Notify",
+        "rel": "1_foundations-community_contributions-careerwise_gemini_ntfy-README",
+        "sourceRel": "1_foundations/community_contributions/careerwise_gemini_ntfy/README.md"
+      },
+      {
+        "title": "RAG Chat Evaluator Bot",
+        "rel": "1_foundations-community_contributions-chatbot_rag_evaluation-README",
+        "sourceRel": "1_foundations/community_contributions/chatbot_rag_evaluation/README.md"
+      },
+      {
+        "title": "Smart RAG Chatbot",
+        "rel": "1_foundations-community_contributions-ChatBot_with_evaluator_and_notifier-README",
+        "sourceRel": "1_foundations/community_contributions/ChatBot_with_evaluator_and_notifier/README.md"
+      },
+      {
+        "title": "Week 1 extra: agent loop — bill split and tip",
+        "rel": "1_foundations-community_contributions-cwait-README",
+        "sourceRel": "1_foundations/community_contributions/cwait/README.md"
+      },
+      {
+        "title": "Ed Donner：AI Agents 实战课",
+        "rel": "1_foundations-community_contributions-discord_over_pushover-README",
+        "sourceRel": "1_foundations/community_contributions/discord_over_pushover/README.md"
+      },
+      {
+        "title": "Digital Persona - Personal Knowledge Base",
+        "rel": "1_foundations-community_contributions-dkisselev-zz-README",
+        "sourceRel": "1_foundations/community_contributions/dkisselev-zz/README.md"
+      },
+      {
+        "title": "Personal Chatbot - AI Assistant with Push Notifications",
+        "rel": "1_foundations-community_contributions-elijah_ach_igniters-README",
+        "sourceRel": "1_foundations/community_contributions/elijah_ach_igniters/README.md"
+      },
+      {
+        "title": "Buggy Kata",
+        "rel": "1_foundations-community_contributions-eliza_zadura-agent_loop_debuggers-first_principles_loop-README",
+        "sourceRel": "1_foundations/community_contributions/eliza_zadura/agent_loop_debuggers/first_principles_loop/README.md"
+      },
+      {
+        "title": "Gemini Chatbot of Users (Me)",
+        "rel": "1_foundations-community_contributions-gemini_based_chatbot-README",
+        "sourceRel": "1_foundations/community_contributions/gemini_based_chatbot/README.md"
+      },
+      {
+        "title": "gu1ll390 — community contributions",
+        "rel": "1_foundations-community_contributions-gu1ll390-README",
+        "sourceRel": "1_foundations/community_contributions/gu1ll390/README.md"
+      },
+      {
+        "title": "Community Contribution: H-CDT (Haben-Career Digital Twin)",
+        "rel": "1_foundations-community_contributions-haben-haben_career_twin_contribution",
+        "sourceRel": "1_foundations/community_contributions/haben/haben_career_twin_contribution.md"
+      },
+      {
+        "title": "🤖 Autonomous Self-Healing Debugger",
+        "rel": "1_foundations-community_contributions-Hareesh_Debugger_agent-README",
+        "sourceRel": "1_foundations/community_contributions/Hareesh_Debugger agent/README.md"
+      },
+      {
+        "title": "Hidden Gems World Travel Guide (RAG)",
+        "rel": "1_foundations-community_contributions-hidden_gems_world_travel_guide-README",
+        "sourceRel": "1_foundations/community_contributions/hidden_gems_world_travel_guide/README.md"
+      },
+      {
+        "title": "Advanced Digital Twin with RAG",
+        "rel": "1_foundations-community_contributions-iamumarjaved-README",
+        "sourceRel": "1_foundations/community_contributions/iamumarjaved/README.md"
+      },
+      {
+        "title": "Orchestrator-Workers Workflow Demo",
+        "rel": "1_foundations-community_contributions-lab_2_orchestrator_workers_demo-README_orchestrator_workers",
+        "sourceRel": "1_foundations/community_contributions/lab_2_orchestrator_workers_demo/README_orchestrator_workers.md"
+      },
+      {
+        "title": "Week 1 assessment — career chatbot extension",
+        "rel": "1_foundations-community_contributions-mac_week1_assessment-README",
+        "sourceRel": "1_foundations/community_contributions/mac_week1_assessment/README.md"
+      },
+      {
+        "title": "🧠 Resume-Job Match Application (LLM-Powered)",
+        "rel": "1_foundations-community_contributions-Multi-Model-Resume_JD-Match-Analyzer-README",
+        "sourceRel": "1_foundations/community_contributions/Multi-Model-Resume–JD-Match-Analyzer/README.md"
+      },
+      {
+        "title": "🤖 AI Personal Website Assistant",
+        "rel": "1_foundations-community_contributions-ngahunj-README",
+        "sourceRel": "1_foundations/community_contributions/ngahunj/README.md"
+      },
+      {
+        "title": "Week 1 Project",
+        "rel": "1_foundations-community_contributions-norbert-wakanda-README",
+        "sourceRel": "1_foundations/community_contributions/norbert-wakanda/README.md"
+      },
+      {
+        "title": "Ed Donner：AI Agents 实战课",
+        "rel": "1_foundations-community_contributions-novel-generator-README",
+        "sourceRel": "1_foundations/community_contributions/novel-generator/README.md"
+      },
+      {
+        "title": "AskSpark Project Summary",
+        "rel": "1_foundations-community_contributions-oluwaferanmi_oluwagbamila-AskSpark_Project_Summary",
+        "sourceRel": "1_foundations/community_contributions/oluwaferanmi_oluwagbamila/AskSpark_Project_Summary.md"
+      },
+      {
+        "title": "Day 2 Part 5: Workflow Design Patterns Summary",
+        "rel": "1_foundations-community_contributions-osebas15-day2_5_transcript_summary",
+        "sourceRel": "1_foundations/community_contributions/osebas15/day2_5_transcript_summary.md"
+      },
+      {
+        "title": "Ed Donner：AI Agents 实战课",
+        "rel": "1_foundations-community_contributions-qkocian-amazing_business_idea",
+        "sourceRel": "1_foundations/community_contributions/qkocian/amazing_business_idea.md"
+      },
+      {
+        "title": "Gemini Polyglot Guardian (Week 1)",
+        "rel": "1_foundations-community_contributions-Sama-ndari_gemini-polyglot-guardian-README",
+        "sourceRel": "1_foundations/community_contributions/Sama-ndari_gemini-polyglot-guardian/README.md"
+      },
+      {
+        "title": "AI Interview Simulator (Week 1)",
+        "rel": "1_foundations-community_contributions-Sama-ndari_interview-tool-README",
+        "sourceRel": "1_foundations/community_contributions/Sama-ndari_interview-tool/README.md"
+      },
+      {
+        "title": "LLM Telephone Game (Week 1)",
+        "rel": "1_foundations-community_contributions-Sama-ndari_llm-telephone-game-README",
+        "sourceRel": "1_foundations/community_contributions/Sama-ndari_llm-telephone-game/README.md"
+      },
+      {
+        "title": "Demo context (lightweight)",
+        "rel": "1_foundations-community_contributions-Sama-ndari_me-in-the-loop-me-summary",
+        "sourceRel": "1_foundations/community_contributions/Sama-ndari_me-in-the-loop/me/summary.md"
+      },
+      {
+        "title": "Personal AI Clone (Week 1)",
+        "rel": "1_foundations-community_contributions-Sama-ndari_me-in-the-loop-README",
+        "sourceRel": "1_foundations/community_contributions/Sama-ndari_me-in-the-loop/README.md"
+      },
+      {
+        "title": "Career chat (RAG + Gradio, Jupyter notebook)",
+        "rel": "1_foundations-community_contributions-sammyloto-README",
+        "sourceRel": "1_foundations/community_contributions/sammyloto/README.md"
+      },
+      {
+        "title": "careeragent",
+        "rel": "1_foundations-community_contributions-seung-gu-README",
+        "sourceRel": "1_foundations/community_contributions/seung-gu/README.md"
+      },
+      {
+        "title": "Digital twin with a reviewer",
+        "rel": "1_foundations-community_contributions-sev_rudakov_twin_evaluator-README",
+        "sourceRel": "1_foundations/community_contributions/sev_rudakov_twin_evaluator/README.md"
+      },
+      {
+        "title": "LLM Router & Evaluator-Optimizer Workflow",
+        "rel": "1_foundations-community_contributions-sharad_extended_workflow-readme",
+        "sourceRel": "1_foundations/community_contributions/sharad_extended_workflow/readme.md"
+      },
+      {
+        "title": "API Response & Conversation History",
+        "rel": "1_foundations-community_contributions-shruti_sky-documenting_day_1",
+        "sourceRel": "1_foundations/community_contributions/shruti_sky/documenting_day_1.md"
+      },
+      {
+        "title": "Ed Donner：AI Agents 实战课",
+        "rel": "1_foundations-community_contributions-simple-tools-usage-README",
+        "sourceRel": "1_foundations/community_contributions/simple-tools-usage/README.md"
+      },
+      {
+        "title": "Career conversation (evaluator-rerun)",
+        "rel": "1_foundations-community_contributions-stellaoiro-README_SPACE_lab3",
+        "sourceRel": "1_foundations/community_contributions/stellaoiro/README_SPACE_lab3.md"
+      },
+      {
+        "title": "HALI (this Space)",
+        "rel": "1_foundations-community_contributions-stellaoiro-README",
+        "sourceRel": "1_foundations/community_contributions/stellaoiro/README.md"
+      },
+      {
+        "title": "Multi-Model Evaluator (2lab2.py)",
+        "rel": "1_foundations-community_contributions-stevek_2_lab2_python-README",
+        "sourceRel": "1_foundations/community_contributions/stevek_2_lab2_python/README.md"
+      },
+      {
+        "title": "Ed Donner：AI Agents 实战课",
+        "rel": "1_foundations-community_contributions-telegram_push_notifications-telegram_setup",
+        "sourceRel": "1_foundations/community_contributions/telegram_push_notifications/telegram_setup.md"
+      },
+      {
+        "title": "Google Gemini AI Calculator",
+        "rel": "1_foundations-community_contributions-vaibhavmanwatkar-README",
+        "sourceRel": "1_foundations/community_contributions/vaibhavmanwatkar/README.md"
+      },
+      {
+        "title": "Career Chatbot 🤖",
+        "rel": "1_foundations-community_contributions-Wanjiru_Week_1-README",
+        "sourceRel": "1_foundations/community_contributions/Wanjiru_Week_1/README.md"
+      },
+      {
+        "title": "Weather Tool – Personal Assistant with Weather Integration",
+        "rel": "1_foundations-community_contributions-weather-tool-README",
+        "sourceRel": "1_foundations/community_contributions/weather-tool/README.md"
+      },
+      {
+        "title": "Q&A Database Schema and Example",
+        "rel": "1_foundations-community_contributions-week_1_sql_linkedin-week-1-self",
+        "sourceRel": "1_foundations/community_contributions/week_1_sql_linkedin/week-1-self.md"
+      },
+      {
+        "title": "Deploying your twin to Render",
+        "rel": "1_foundations-RENDER_INSTRUCTIONS",
+        "sourceRel": "1_foundations/RENDER_INSTRUCTIONS.md"
+      }
+    ]
+  },
+  {
     "id": "08-agents/ed-donner-production",
     "volume": "08-agents",
     "local": "ed-donner-production",
@@ -7440,6 +7921,52 @@ export const courses: Course[] = [
         "title": "Tool use",
         "rel": "tool_use",
         "sourceRel": "tool_use/README.md"
+      }
+    ]
+  },
+  {
+    "id": "08-agents/second-brain-ai-assistant-course",
+    "volume": "08-agents",
+    "local": "second-brain-ai-assistant-course",
+    "title": "Second Brain：AI 助理构建课",
+    "kind": "系统课程",
+    "category": "系统课程",
+    "tier": 3,
+    "license": "MIT",
+    "licenseLabel": "可转载",
+    "lang": "英文",
+    "publishable": true,
+    "repo": "decodingai-magazine/second-brain-ai-assistant-course",
+    "site": null,
+    "commit": "17ccef571db3e4b563826dab83ecc9298a54ede1",
+    "entry": "README.md",
+    "featured": false,
+    "sourceUrl": "https://github.com/decodingai-magazine/second-brain-ai-assistant-course",
+    "docs": [
+      {
+        "title": "课程首页",
+        "rel": "index",
+        "sourceRel": ""
+      },
+      {
+        "title": "🚀 Installation and Usage Guide for the Second Brain Offline Module",
+        "rel": "apps-second-brain-offline-README",
+        "sourceRel": "apps/second-brain-offline/README.md"
+      },
+      {
+        "title": "🚀 Installation and Usage Guide for the Second Brain Online Module",
+        "rel": "apps-second-brain-online-README",
+        "sourceRel": "apps/second-brain-online/README.md"
+      },
+      {
+        "title": "Workshop on Building Advanced RAG Applications and Systems",
+        "rel": "workshops-rag-solution-README",
+        "sourceRel": "workshops/rag/solution/README.md"
+      },
+      {
+        "title": "Workshop on Building Advanced RAG Applications and Systems",
+        "rel": "workshops-rag-template-README",
+        "sourceRel": "workshops/rag/template/README.md"
       }
     ]
   },
@@ -8255,6 +8782,566 @@ export const courses: Course[] = [
         "title": "Agent Systems Handbook（智能体系统手册）",
         "rel": "reading-paths-sample-projects",
         "sourceRel": "reading-paths/sample-projects.mdx"
+      },
+      {
+        "title": "Agent Runtime Cache Benchmark",
+        "rel": "skills-agent-runtime-cache-benchmark-README",
+        "sourceRel": "skills/agent-runtime-cache-benchmark/README.md"
+      },
+      {
+        "title": "Provider Cache Notes",
+        "rel": "skills-agent-runtime-cache-benchmark-references-provider-cache-notes",
+        "sourceRel": "skills/agent-runtime-cache-benchmark/references/provider-cache-notes.md"
+      },
+      {
+        "title": "Agent Runtime Cache Benchmark",
+        "rel": "skills-agent-runtime-cache-benchmark-SKILL",
+        "sourceRel": "skills/agent-runtime-cache-benchmark/SKILL.md"
+      },
+      {
+        "title": "AI Search Visibility",
+        "rel": "skills-ai-search-visibility-README",
+        "sourceRel": "skills/ai-search-visibility/README.md"
+      },
+      {
+        "title": "Persistence contract",
+        "rel": "skills-ai-search-visibility-references-persistence-contract",
+        "sourceRel": "skills/ai-search-visibility/references/persistence-contract.md"
+      },
+      {
+        "title": "Safety rules",
+        "rel": "skills-ai-search-visibility-references-safety-rules",
+        "sourceRel": "skills/ai-search-visibility/references/safety-rules.md"
+      },
+      {
+        "title": "Source and license notes",
+        "rel": "skills-ai-search-visibility-references-source-notes",
+        "sourceRel": "skills/ai-search-visibility/references/source-notes.md"
+      },
+      {
+        "title": "AI Search Visibility",
+        "rel": "skills-ai-search-visibility-SKILL",
+        "sourceRel": "skills/ai-search-visibility/SKILL.md"
+      },
+      {
+        "title": "Business Data Analysis",
+        "rel": "skills-business-data-analysis-README",
+        "sourceRel": "skills/business-data-analysis/README.md"
+      },
+      {
+        "title": "Persistence contract",
+        "rel": "skills-business-data-analysis-references-persistence-contract",
+        "sourceRel": "skills/business-data-analysis/references/persistence-contract.md"
+      },
+      {
+        "title": "Safety rules",
+        "rel": "skills-business-data-analysis-references-safety-rules",
+        "sourceRel": "skills/business-data-analysis/references/safety-rules.md"
+      },
+      {
+        "title": "Source and license notes",
+        "rel": "skills-business-data-analysis-references-source-notes",
+        "sourceRel": "skills/business-data-analysis/references/source-notes.md"
+      },
+      {
+        "title": "Business Data Analysis",
+        "rel": "skills-business-data-analysis-SKILL",
+        "sourceRel": "skills/business-data-analysis/SKILL.md"
+      },
+      {
+        "title": "Business Data Structuring",
+        "rel": "skills-business-data-structuring-README",
+        "sourceRel": "skills/business-data-structuring/README.md"
+      },
+      {
+        "title": "Persistence contract",
+        "rel": "skills-business-data-structuring-references-persistence-contract",
+        "sourceRel": "skills/business-data-structuring/references/persistence-contract.md"
+      },
+      {
+        "title": "Safety rules",
+        "rel": "skills-business-data-structuring-references-safety-rules",
+        "sourceRel": "skills/business-data-structuring/references/safety-rules.md"
+      },
+      {
+        "title": "Source and license notes",
+        "rel": "skills-business-data-structuring-references-source-notes",
+        "sourceRel": "skills/business-data-structuring/references/source-notes.md"
+      },
+      {
+        "title": "Business Data Structuring",
+        "rel": "skills-business-data-structuring-SKILL",
+        "sourceRel": "skills/business-data-structuring/SKILL.md"
+      },
+      {
+        "title": "Synthetic workshop facts",
+        "rel": "skills-content-strategy-examples-synthetic-workshop-brief",
+        "sourceRel": "skills/content-strategy/examples/synthetic-workshop-brief.md"
+      },
+      {
+        "title": "Content Strategy",
+        "rel": "skills-content-strategy-README",
+        "sourceRel": "skills/content-strategy/README.md"
+      },
+      {
+        "title": "Persistence contract",
+        "rel": "skills-content-strategy-references-persistence-contract",
+        "sourceRel": "skills/content-strategy/references/persistence-contract.md"
+      },
+      {
+        "title": "Safety rules",
+        "rel": "skills-content-strategy-references-safety-rules",
+        "sourceRel": "skills/content-strategy/references/safety-rules.md"
+      },
+      {
+        "title": "Source and license notes",
+        "rel": "skills-content-strategy-references-source-notes",
+        "sourceRel": "skills/content-strategy/references/source-notes.md"
+      },
+      {
+        "title": "Content Strategy",
+        "rel": "skills-content-strategy-SKILL",
+        "sourceRel": "skills/content-strategy/SKILL.md"
+      },
+      {
+        "title": "Synthetic Client Service Agreement",
+        "rel": "skills-course-support-examples-lesson-2-organizer-freelancer-rules-incoming-client-service-agreement",
+        "sourceRel": "skills/course-support/examples/lesson-2-organizer-freelancer-rules/incoming/client-service-agreement.md"
+      },
+      {
+        "title": "Synthetic Website Project Ideas",
+        "rel": "skills-course-support-examples-lesson-2-organizer-freelancer-rules-incoming-website-project-ideas",
+        "sourceRel": "skills/course-support/examples/lesson-2-organizer-freelancer-rules/incoming/website-project-ideas.md"
+      },
+      {
+        "title": "Synthetic Monthly Expense Notes",
+        "rel": "skills-course-support-examples-lesson-2-organizer-safe-recovery-incoming-expense-notes",
+        "sourceRel": "skills/course-support/examples/lesson-2-organizer-safe-recovery/incoming/expense-notes.md"
+      },
+      {
+        "title": "Synthetic Course Reading List",
+        "rel": "skills-course-support-examples-lesson-2-organizer-student-files-incoming-school-reading",
+        "sourceRel": "skills/course-support/examples/lesson-2-organizer-student-files/incoming/school-reading.md"
+      },
+      {
+        "title": "Workshop brief",
+        "rel": "skills-course-support-examples-lesson-2-research-brief",
+        "sourceRel": "skills/course-support/examples/lesson-2/research/brief.md"
+      },
+      {
+        "title": "Room update",
+        "rel": "skills-course-support-examples-lesson-2-research-room-update",
+        "sourceRel": "skills/course-support/examples/lesson-2/research/room-update.md"
+      },
+      {
+        "title": "Lesson 2 — Organize, Understand, Automate",
+        "rel": "skills-course-support-lessons-lesson-2",
+        "sourceRel": "skills/course-support/lessons/lesson-2.md"
+      },
+      {
+        "title": "Lesson 3 — Build → Test → Deploy",
+        "rel": "skills-course-support-lessons-lesson-3",
+        "sourceRel": "skills/course-support/lessons/lesson-3.md"
+      },
+      {
+        "title": "Lesson 4 — Structure → Operate → Analyze",
+        "rel": "skills-course-support-lessons-lesson-4",
+        "sourceRel": "skills/course-support/lessons/lesson-4.md"
+      },
+      {
+        "title": "Lesson 5 — Plan → Distribute → Discover",
+        "rel": "skills-course-support-lessons-lesson-5",
+        "sourceRel": "skills/course-support/lessons/lesson-5.md"
+      },
+      {
+        "title": "GW02 Professional AI Agent Course skill support",
+        "rel": "skills-course-support-README",
+        "sourceRel": "skills/course-support/README.md"
+      },
+      {
+        "title": "Course persistence contract v1",
+        "rel": "skills-course-support-references-backend-contract",
+        "sourceRel": "skills/course-support/references/backend-contract.md"
+      },
+      {
+        "title": "Web App dependency: classroom persistence and safe Social access",
+        "rel": "skills-course-support-references-backend-dependency",
+        "sourceRel": "skills/course-support/references/backend-dependency.md"
+      },
+      {
+        "title": "Lesson 2 — 文件整理、资料理解、工作流自动化",
+        "rel": "skills-course-support-zh-Hans-lesson-2",
+        "sourceRel": "skills/course-support/zh-Hans/lesson-2.md"
+      },
+      {
+        "title": "第 3 课：Build → Test → Deploy",
+        "rel": "skills-course-support-zh-Hans-lesson-3",
+        "sourceRel": "skills/course-support/zh-Hans/lesson-3.md"
+      },
+      {
+        "title": "第 4 课：Structure → Operate → Analyze",
+        "rel": "skills-course-support-zh-Hans-lesson-4",
+        "sourceRel": "skills/course-support/zh-Hans/lesson-4.md"
+      },
+      {
+        "title": "第 5 课：Plan → Distribute → Discover",
+        "rel": "skills-course-support-zh-Hans-lesson-5",
+        "sourceRel": "skills/course-support/zh-Hans/lesson-5.md"
+      },
+      {
+        "title": "CRM Operations",
+        "rel": "skills-crm-operations-README",
+        "sourceRel": "skills/crm-operations/README.md"
+      },
+      {
+        "title": "Persistence contract",
+        "rel": "skills-crm-operations-references-persistence-contract",
+        "sourceRel": "skills/crm-operations/references/persistence-contract.md"
+      },
+      {
+        "title": "Safety rules",
+        "rel": "skills-crm-operations-references-safety-rules",
+        "sourceRel": "skills/crm-operations/references/safety-rules.md"
+      },
+      {
+        "title": "Source and license notes",
+        "rel": "skills-crm-operations-references-source-notes",
+        "sourceRel": "skills/crm-operations/references/source-notes.md"
+      },
+      {
+        "title": "CRM Operations",
+        "rel": "skills-crm-operations-SKILL",
+        "sourceRel": "skills/crm-operations/SKILL.md"
+      },
+      {
+        "title": "Daily News Watcher",
+        "rel": "skills-daily-news-watcher-README",
+        "sourceRel": "skills/daily-news-watcher/README.md"
+      },
+      {
+        "title": "Fetch Rules",
+        "rel": "skills-daily-news-watcher-references-fetch-rules",
+        "sourceRel": "skills/daily-news-watcher/references/fetch-rules.md"
+      },
+      {
+        "title": "Daily News Watcher",
+        "rel": "skills-daily-news-watcher-SKILL",
+        "sourceRel": "skills/daily-news-watcher/SKILL.md"
+      },
+      {
+        "title": "Garbage Collector",
+        "rel": "skills-garbage-collector-README",
+        "sourceRel": "skills/garbage-collector/README.md"
+      },
+      {
+        "title": "Garbage Collector",
+        "rel": "skills-garbage-collector-SKILL",
+        "sourceRel": "skills/garbage-collector/SKILL.md"
+      },
+      {
+        "title": "Agent Systems Handbook（智能体系统手册）",
+        "rel": "skills-index",
+        "sourceRel": "skills/index.mdx"
+      },
+      {
+        "title": "Local Document Organizer",
+        "rel": "skills-local-document-organizer-README",
+        "sourceRel": "skills/local-document-organizer/README.md"
+      },
+      {
+        "title": "Course persistence",
+        "rel": "skills-local-document-organizer-references-persistence-contract",
+        "sourceRel": "skills/local-document-organizer/references/persistence-contract.md"
+      },
+      {
+        "title": "Safety Rules",
+        "rel": "skills-local-document-organizer-references-safety-rules",
+        "sourceRel": "skills/local-document-organizer/references/safety-rules.md"
+      },
+      {
+        "title": "Source notes",
+        "rel": "skills-local-document-organizer-references-source-notes",
+        "sourceRel": "skills/local-document-organizer/references/source-notes.md"
+      },
+      {
+        "title": "Local Document Organizer",
+        "rel": "skills-local-document-organizer-SKILL",
+        "sourceRel": "skills/local-document-organizer/SKILL.md"
+      },
+      {
+        "title": "Personal Knowledge Capture",
+        "rel": "skills-personal-knowledge-capture-README",
+        "sourceRel": "skills/personal-knowledge-capture/README.md"
+      },
+      {
+        "title": "Course persistence",
+        "rel": "skills-personal-knowledge-capture-references-persistence-contract",
+        "sourceRel": "skills/personal-knowledge-capture/references/persistence-contract.md"
+      },
+      {
+        "title": "Safety rules",
+        "rel": "skills-personal-knowledge-capture-references-safety-rules",
+        "sourceRel": "skills/personal-knowledge-capture/references/safety-rules.md"
+      },
+      {
+        "title": "Source notes",
+        "rel": "skills-personal-knowledge-capture-references-source-notes",
+        "sourceRel": "skills/personal-knowledge-capture/references/source-notes.md"
+      },
+      {
+        "title": "Supported File Types",
+        "rel": "skills-personal-knowledge-capture-references-supported-file-types",
+        "sourceRel": "skills/personal-knowledge-capture/references/supported-file-types.md"
+      },
+      {
+        "title": "Personal Knowledge Capture",
+        "rel": "skills-personal-knowledge-capture-SKILL",
+        "sourceRel": "skills/personal-knowledge-capture/SKILL.md"
+      },
+      {
+        "title": "Personal Workflow Automation",
+        "rel": "skills-personal-workflow-automation-README",
+        "sourceRel": "skills/personal-workflow-automation/README.md"
+      },
+      {
+        "title": "Course persistence",
+        "rel": "skills-personal-workflow-automation-references-persistence-contract",
+        "sourceRel": "skills/personal-workflow-automation/references/persistence-contract.md"
+      },
+      {
+        "title": "Safety rules",
+        "rel": "skills-personal-workflow-automation-references-safety-rules",
+        "sourceRel": "skills/personal-workflow-automation/references/safety-rules.md"
+      },
+      {
+        "title": "Source notes",
+        "rel": "skills-personal-workflow-automation-references-source-notes",
+        "sourceRel": "skills/personal-workflow-automation/references/source-notes.md"
+      },
+      {
+        "title": "Personal Workflow Automation",
+        "rel": "skills-personal-workflow-automation-SKILL",
+        "sourceRel": "skills/personal-workflow-automation/SKILL.md"
+      },
+      {
+        "title": "Presentation Template Designer",
+        "rel": "skills-presentation-template-designer-README",
+        "sourceRel": "skills/presentation-template-designer/README.md"
+      },
+      {
+        "title": "Reusable Layout Catalog",
+        "rel": "skills-presentation-template-designer-references-layout-catalog",
+        "sourceRel": "skills/presentation-template-designer/references/layout-catalog.md"
+      },
+      {
+        "title": "Presentation Template Toolchain Research",
+        "rel": "skills-presentation-template-designer-references-market-research",
+        "sourceRel": "skills/presentation-template-designer/references/market-research.md"
+      },
+      {
+        "title": "Template Manifest Schema",
+        "rel": "skills-presentation-template-designer-references-template-manifest-schema",
+        "sourceRel": "skills/presentation-template-designer/references/template-manifest-schema.md"
+      },
+      {
+        "title": "Presentation Template Designer",
+        "rel": "skills-presentation-template-designer-SKILL",
+        "sourceRel": "skills/presentation-template-designer/SKILL.md"
+      },
+      {
+        "title": "Price Watcher",
+        "rel": "skills-price-watcher-README",
+        "sourceRel": "skills/price-watcher/README.md"
+      },
+      {
+        "title": "Price Parsing",
+        "rel": "skills-price-watcher-references-price-parsing",
+        "sourceRel": "skills/price-watcher/references/price-parsing.md"
+      },
+      {
+        "title": "SQLite Schema",
+        "rel": "skills-price-watcher-references-schema",
+        "sourceRel": "skills/price-watcher/references/schema.md"
+      },
+      {
+        "title": "Source Discovery And Product Normalization",
+        "rel": "skills-price-watcher-references-source-discovery",
+        "sourceRel": "skills/price-watcher/references/source-discovery.md"
+      },
+      {
+        "title": "Price Watcher",
+        "rel": "skills-price-watcher-SKILL",
+        "sourceRel": "skills/price-watcher/SKILL.md"
+      },
+      {
+        "title": "Agent Systems Handbook（智能体系统手册）",
+        "rel": "skills-professional-ai-agent-course",
+        "sourceRel": "skills/professional-ai-agent-course.mdx"
+      },
+      {
+        "title": "Prompt Cache Agent Harness",
+        "rel": "skills-prompt-cache-agent-harness-README",
+        "sourceRel": "skills/prompt-cache-agent-harness/README.md"
+      },
+      {
+        "title": "Source Notes",
+        "rel": "skills-prompt-cache-agent-harness-references-source-notes",
+        "sourceRel": "skills/prompt-cache-agent-harness/references/source-notes.md"
+      },
+      {
+        "title": "Prompt Cache Agent Harness",
+        "rel": "skills-prompt-cache-agent-harness-SKILL",
+        "sourceRel": "skills/prompt-cache-agent-harness/SKILL.md"
+      },
+      {
+        "title": "Prompthon Social Campaign Manager",
+        "rel": "skills-prompthon-social-campaign-manager-README",
+        "sourceRel": "skills/prompthon-social-campaign-manager/README.md"
+      },
+      {
+        "title": "Social API Contract",
+        "rel": "skills-prompthon-social-campaign-manager-references-api-contract",
+        "sourceRel": "skills/prompthon-social-campaign-manager/references/api-contract.md"
+      },
+      {
+        "title": "Browser Bridge Contract",
+        "rel": "skills-prompthon-social-campaign-manager-references-browser-bridge-contract",
+        "sourceRel": "skills/prompthon-social-campaign-manager/references/browser-bridge-contract.md"
+      },
+      {
+        "title": "Canonical Host source contract",
+        "rel": "skills-prompthon-social-campaign-manager-references-canonical-host-contract",
+        "sourceRel": "skills/prompthon-social-campaign-manager/references/canonical-host-contract.md"
+      },
+      {
+        "title": "Required demo backend capability — not yet provisioned",
+        "rel": "skills-prompthon-social-campaign-manager-references-course-backend-dependency",
+        "sourceRel": "skills/prompthon-social-campaign-manager/references/course-backend-dependency.md"
+      },
+      {
+        "title": "Persistence contract",
+        "rel": "skills-prompthon-social-campaign-manager-references-persistence-contract",
+        "sourceRel": "skills/prompthon-social-campaign-manager/references/persistence-contract.md"
+      },
+      {
+        "title": "Preserved production reference",
+        "rel": "skills-prompthon-social-campaign-manager-references-production-guide",
+        "sourceRel": "skills/prompthon-social-campaign-manager/references/production-guide.md"
+      },
+      {
+        "title": "Preserved production reference",
+        "rel": "skills-prompthon-social-campaign-manager-references-production-workflow",
+        "sourceRel": "skills/prompthon-social-campaign-manager/references/production-workflow.md"
+      },
+      {
+        "title": "Safety rules",
+        "rel": "skills-prompthon-social-campaign-manager-references-safety-rules",
+        "sourceRel": "skills/prompthon-social-campaign-manager/references/safety-rules.md"
+      },
+      {
+        "title": "Source and license notes",
+        "rel": "skills-prompthon-social-campaign-manager-references-source-notes",
+        "sourceRel": "skills/prompthon-social-campaign-manager/references/source-notes.md"
+      },
+      {
+        "title": "Prompthon Social Campaign Manager",
+        "rel": "skills-prompthon-social-campaign-manager-SKILL",
+        "sourceRel": "skills/prompthon-social-campaign-manager/SKILL.md"
+      },
+      {
+        "title": "Safety Escalation Review",
+        "rel": "skills-safety-escalation-review-README",
+        "sourceRel": "skills/safety-escalation-review/README.md"
+      },
+      {
+        "title": "Escalation Checklist",
+        "rel": "skills-safety-escalation-review-references-escalation-checklist",
+        "sourceRel": "skills/safety-escalation-review/references/escalation-checklist.md"
+      },
+      {
+        "title": "Safety Escalation Review",
+        "rel": "skills-safety-escalation-review-SKILL",
+        "sourceRel": "skills/safety-escalation-review/SKILL.md"
+      },
+      {
+        "title": "Vercel Deploy",
+        "rel": "skills-vercel-deploy-README",
+        "sourceRel": "skills/vercel-deploy/README.md"
+      },
+      {
+        "title": "Persistence contract",
+        "rel": "skills-vercel-deploy-references-persistence-contract",
+        "sourceRel": "skills/vercel-deploy/references/persistence-contract.md"
+      },
+      {
+        "title": "Provider workflow",
+        "rel": "skills-vercel-deploy-references-provider-workflow",
+        "sourceRel": "skills/vercel-deploy/references/provider-workflow.md"
+      },
+      {
+        "title": "Safety rules",
+        "rel": "skills-vercel-deploy-references-safety-rules",
+        "sourceRel": "skills/vercel-deploy/references/safety-rules.md"
+      },
+      {
+        "title": "Source and license notes",
+        "rel": "skills-vercel-deploy-references-source-notes",
+        "sourceRel": "skills/vercel-deploy/references/source-notes.md"
+      },
+      {
+        "title": "Vercel Deploy",
+        "rel": "skills-vercel-deploy-SKILL",
+        "sourceRel": "skills/vercel-deploy/SKILL.md"
+      },
+      {
+        "title": "Web Builder",
+        "rel": "skills-web-builder-README",
+        "sourceRel": "skills/web-builder/README.md"
+      },
+      {
+        "title": "Persistence contract",
+        "rel": "skills-web-builder-references-persistence-contract",
+        "sourceRel": "skills/web-builder/references/persistence-contract.md"
+      },
+      {
+        "title": "Safety rules",
+        "rel": "skills-web-builder-references-safety-rules",
+        "sourceRel": "skills/web-builder/references/safety-rules.md"
+      },
+      {
+        "title": "Source and license notes",
+        "rel": "skills-web-builder-references-source-notes",
+        "sourceRel": "skills/web-builder/references/source-notes.md"
+      },
+      {
+        "title": "Web Builder",
+        "rel": "skills-web-builder-SKILL",
+        "sourceRel": "skills/web-builder/SKILL.md"
+      },
+      {
+        "title": "Web App Testing",
+        "rel": "skills-webapp-testing-README",
+        "sourceRel": "skills/webapp-testing/README.md"
+      },
+      {
+        "title": "Persistence contract",
+        "rel": "skills-webapp-testing-references-persistence-contract",
+        "sourceRel": "skills/webapp-testing/references/persistence-contract.md"
+      },
+      {
+        "title": "Safety rules",
+        "rel": "skills-webapp-testing-references-safety-rules",
+        "sourceRel": "skills/webapp-testing/references/safety-rules.md"
+      },
+      {
+        "title": "Source and license notes",
+        "rel": "skills-webapp-testing-references-source-notes",
+        "sourceRel": "skills/webapp-testing/references/source-notes.md"
+      },
+      {
+        "title": "Web App Testing",
+        "rel": "skills-webapp-testing-SKILL",
+        "sourceRel": "skills/webapp-testing/SKILL.md"
       },
       {
         "title": "Agent Systems Handbook（智能体系统手册）",
@@ -11788,6 +12875,977 @@ export const courses: Course[] = [
     ]
   },
   {
+    "id": "10-context-memory/context-engineering-book",
+    "volume": "10-context-memory",
+    "local": "context-engineering-book",
+    "title": "Context Engineering（Bonigarcia 教程）",
+    "kind": "工程手册",
+    "category": "工程手册与指南",
+    "tier": 2,
+    "license": "Apache-2.0",
+    "licenseLabel": "可转载",
+    "lang": "英文",
+    "publishable": true,
+    "repo": "bonigarcia/context-engineering",
+    "site": null,
+    "commit": "46719154489e410b509db4fb69ab1c29fb3362a0",
+    "entry": "README.md",
+    "featured": false,
+    "sourceUrl": "https://github.com/bonigarcia/context-engineering",
+    "docs": [
+      {
+        "title": "课程首页",
+        "rel": "index",
+        "sourceRel": ""
+      },
+      {
+        "title": "Context Engineering",
+        "rel": "overview",
+        "sourceRel": "README.md"
+      },
+      {
+        "title": "Basic interaction with LLMs in Java",
+        "rel": "ch01-java-README",
+        "sourceRel": "ch01/java/README.md"
+      },
+      {
+        "title": "Basic interaction with Anthropic Claude models",
+        "rel": "ch01-javascript-anthropic-claude-basic-README",
+        "sourceRel": "ch01/javascript/anthropic-claude-basic/README.md"
+      },
+      {
+        "title": "Streaming responses from Anthropic Claude models",
+        "rel": "ch01-javascript-anthropic-claude-streaming-README",
+        "sourceRel": "ch01/javascript/anthropic-claude-streaming/README.md"
+      },
+      {
+        "title": "Basic interaction with Google Gemini models",
+        "rel": "ch01-javascript-google-gemini-basic-README",
+        "sourceRel": "ch01/javascript/google-gemini-basic/README.md"
+      },
+      {
+        "title": "Streaming responses from Google Gemini models",
+        "rel": "ch01-javascript-google-gemini-streaming-README",
+        "sourceRel": "ch01/javascript/google-gemini-streaming/README.md"
+      },
+      {
+        "title": "Basic interaction with a local LLM using Ollama",
+        "rel": "ch01-javascript-ollama-local-basic-README",
+        "sourceRel": "ch01/javascript/ollama-local-basic/README.md"
+      },
+      {
+        "title": "Streaming responses from a local LLM using Ollama",
+        "rel": "ch01-javascript-ollama-local-streaming-README",
+        "sourceRel": "ch01/javascript/ollama-local-streaming/README.md"
+      },
+      {
+        "title": "Basic interaction with OpenAI GPT models",
+        "rel": "ch01-javascript-openai-gpt-basic-README",
+        "sourceRel": "ch01/javascript/openai-gpt-basic/README.md"
+      },
+      {
+        "title": "Streaming responses from OpenAI GPT models",
+        "rel": "ch01-javascript-openai-gpt-streaming-README",
+        "sourceRel": "ch01/javascript/openai-gpt-streaming/README.md"
+      },
+      {
+        "title": "Basic interaction with LLMs in JavaScript",
+        "rel": "ch01-javascript-README",
+        "sourceRel": "ch01/javascript/README.md"
+      },
+      {
+        "title": "Basic interaction with LLMs in Jupyter Notebooks",
+        "rel": "ch01-jupyter-README",
+        "sourceRel": "ch01/jupyter/README.md"
+      },
+      {
+        "title": "Basic interaction with Anthropic Claude models",
+        "rel": "ch01-python-anthropic-claude-basic-README",
+        "sourceRel": "ch01/python/anthropic-claude-basic/README.md"
+      },
+      {
+        "title": "Streaming responses from Anthropic Claude models",
+        "rel": "ch01-python-anthropic-claude-streaming-README",
+        "sourceRel": "ch01/python/anthropic-claude-streaming/README.md"
+      },
+      {
+        "title": "Basic interaction with Google Gemini models",
+        "rel": "ch01-python-google-gemini-basic-README",
+        "sourceRel": "ch01/python/google-gemini-basic/README.md"
+      },
+      {
+        "title": "Streaming responses from Google Gemini models",
+        "rel": "ch01-python-google-gemini-streaming-README",
+        "sourceRel": "ch01/python/google-gemini-streaming/README.md"
+      },
+      {
+        "title": "Basic interaction with a local LLM using Ollama",
+        "rel": "ch01-python-ollama-local-basic-README",
+        "sourceRel": "ch01/python/ollama-local-basic/README.md"
+      },
+      {
+        "title": "Streaming responses from a local LLM using Ollama",
+        "rel": "ch01-python-ollama-local-streaming-README",
+        "sourceRel": "ch01/python/ollama-local-streaming/README.md"
+      },
+      {
+        "title": "Basic interaction with OpenAI GPT models",
+        "rel": "ch01-python-openai-gpt-basic-README",
+        "sourceRel": "ch01/python/openai-gpt-basic/README.md"
+      },
+      {
+        "title": "Streaming responses from OpenAI GPT models",
+        "rel": "ch01-python-openai-gpt-streaming-README",
+        "sourceRel": "ch01/python/openai-gpt-streaming/README.md"
+      },
+      {
+        "title": "Basic interaction with LLMs in Python",
+        "rel": "ch01-python-README",
+        "sourceRel": "ch01/python/README.md"
+      },
+      {
+        "title": "Project Notetaker",
+        "rel": "ch02-agent-skills-project-notetaker-SKILL",
+        "sourceRel": "ch02/agent-skills/project-notetaker/SKILL.md"
+      },
+      {
+        "title": "Agent Skills",
+        "rel": "ch02-agent-skills-README",
+        "sourceRel": "ch02/agent-skills/README.md"
+      },
+      {
+        "title": "System prompt in Java",
+        "rel": "ch02-java-README",
+        "sourceRel": "ch02/java/README.md"
+      },
+      {
+        "title": "System prompt with Anthropic Claude models",
+        "rel": "ch02-javascript-anthropic-claude-system-prompt-README",
+        "sourceRel": "ch02/javascript/anthropic-claude-system-prompt/README.md"
+      },
+      {
+        "title": "System prompt with Google Gemini models",
+        "rel": "ch02-javascript-google-gemini-system-prompt-README",
+        "sourceRel": "ch02/javascript/google-gemini-system-prompt/README.md"
+      },
+      {
+        "title": "System prompt with Ollama models",
+        "rel": "ch02-javascript-ollama-local-system-prompt-README",
+        "sourceRel": "ch02/javascript/ollama-local-system-prompt/README.md"
+      },
+      {
+        "title": "System prompt with OpenAI GPT models",
+        "rel": "ch02-javascript-openai-gpt-system-prompt-README",
+        "sourceRel": "ch02/javascript/openai-gpt-system-prompt/README.md"
+      },
+      {
+        "title": "System prompt in JavaScript",
+        "rel": "ch02-javascript-README",
+        "sourceRel": "ch02/javascript/README.md"
+      },
+      {
+        "title": "System prompt in Jupyter Notebooks",
+        "rel": "ch02-jupyter-README",
+        "sourceRel": "ch02/jupyter/README.md"
+      },
+      {
+        "title": "System prompt with Anthropic Claude models",
+        "rel": "ch02-python-anthropic-claude-system-prompt-README",
+        "sourceRel": "ch02/python/anthropic-claude-system-prompt/README.md"
+      },
+      {
+        "title": "System prompt with Google Gemini models",
+        "rel": "ch02-python-google-gemini-system-prompt-README",
+        "sourceRel": "ch02/python/google-gemini-system-prompt/README.md"
+      },
+      {
+        "title": "Instruction artifacts",
+        "rel": "ch02-python-instruction-artifacts-README",
+        "sourceRel": "ch02/python/instruction-artifacts/README.md"
+      },
+      {
+        "title": "Claude Code instructions",
+        "rel": "ch02-python-instruction-artifacts-task-tracker-CLAUDE",
+        "sourceRel": "ch02/python/instruction-artifacts/task-tracker/CLAUDE.md"
+      },
+      {
+        "title": "System prompt with Ollama models",
+        "rel": "ch02-python-ollama-local-system-prompt-README",
+        "sourceRel": "ch02/python/ollama-local-system-prompt/README.md"
+      },
+      {
+        "title": "System prompt with OpenAI GPT models",
+        "rel": "ch02-python-openai-gpt-system-prompt-README",
+        "sourceRel": "ch02/python/openai-gpt-system-prompt/README.md"
+      },
+      {
+        "title": "System prompt in Python",
+        "rel": "ch02-python-README",
+        "sourceRel": "ch02/python/README.md"
+      },
+      {
+        "title": "Agentic retrieval-augmented generation (RAG)",
+        "rel": "ch03-python-agentic-rag-README",
+        "sourceRel": "ch03/python/agentic-rag/README.md"
+      },
+      {
+        "title": "Cache-Augmented Generation (CAG)",
+        "rel": "ch03-python-cag-README",
+        "sourceRel": "ch03/python/cag/README.md"
+      },
+      {
+        "title": "Context stuffing (system-level context)",
+        "rel": "ch03-python-context-stuffing-system-prompt-README",
+        "sourceRel": "ch03/python/context-stuffing-system-prompt/README.md"
+      },
+      {
+        "title": "Context stuffing (user-level context)",
+        "rel": "ch03-python-context-stuffing-user-prompt-README",
+        "sourceRel": "ch03/python/context-stuffing-user-prompt/README.md"
+      },
+      {
+        "title": "Context Engineering（Bonigarcia 教程）",
+        "rel": "ch03-python-local-rag-README",
+        "sourceRel": "ch03/python/local-rag/README.md"
+      },
+      {
+        "title": "RAG with Hugging Face",
+        "rel": "ch03-python-rag-hugging-face-README",
+        "sourceRel": "ch03/python/rag-hugging-face/README.md"
+      },
+      {
+        "title": "RAG with OpenAI",
+        "rel": "ch03-python-rag-openai-README",
+        "sourceRel": "ch03/python/rag-openai/README.md"
+      },
+      {
+        "title": "RAGFlow Basic Example",
+        "rel": "ch03-python-ragflow-basic-README",
+        "sourceRel": "ch03/python/ragflow-basic/README.md"
+      },
+      {
+        "title": "Retrieval-Augmented Generation (RAG) in Python",
+        "rel": "ch03-python-README",
+        "sourceRel": "ch03/python/README.md"
+      },
+      {
+        "title": "Vectorless RAG with PageIndex",
+        "rel": "ch03-python-vectorless-rag-pageindex-README",
+        "sourceRel": "ch03/python/vectorless-rag-pageindex/README.md"
+      },
+      {
+        "title": "Agent skills for CLI workflows",
+        "rel": "ch04-agent-skills-README",
+        "sourceRel": "ch04/agent-skills/README.md"
+      },
+      {
+        "title": "Workspace Analyzer",
+        "rel": "ch04-agent-skills-workspace-analyzer-SKILL",
+        "sourceRel": "ch04/agent-skills/workspace-analyzer/SKILL.md"
+      },
+      {
+        "title": "Function calling",
+        "rel": "ch04-java-function_calling-README",
+        "sourceRel": "ch04/java/function_calling/README.md"
+      },
+      {
+        "title": "MCP Selenium server in Java",
+        "rel": "ch04-java-mcp_server-mcp-java-sdk-README",
+        "sourceRel": "ch04/java/mcp_server/mcp-java-sdk/README.md"
+      },
+      {
+        "title": "MCP Selenium Server with Micronaut",
+        "rel": "ch04-java-mcp_server-mcp-micronaut-README",
+        "sourceRel": "ch04/java/mcp_server/mcp-micronaut/README.md"
+      },
+      {
+        "title": "MCP Selenium Server with Quarkus",
+        "rel": "ch04-java-mcp_server-mcp-quarkus-README",
+        "sourceRel": "ch04/java/mcp_server/mcp-quarkus/README.md"
+      },
+      {
+        "title": "MCP Selenium Server with Spring-Boot",
+        "rel": "ch04-java-mcp_server-mcp-spring-ai-README",
+        "sourceRel": "ch04/java/mcp_server/mcp-spring-ai/README.md"
+      },
+      {
+        "title": "MCP Selenium server in Java",
+        "rel": "ch04-java-mcp_server-README",
+        "sourceRel": "ch04/java/mcp_server/README.md"
+      },
+      {
+        "title": "Function calling",
+        "rel": "ch04-javascript-function_calling-README",
+        "sourceRel": "ch04/javascript/function_calling/README.md"
+      },
+      {
+        "title": "MCP Selenium server in JavaScript",
+        "rel": "ch04-javascript-mcp_server-README",
+        "sourceRel": "ch04/javascript/mcp_server/README.md"
+      },
+      {
+        "title": "Function calling",
+        "rel": "ch04-python-function_calling-README",
+        "sourceRel": "ch04/python/function_calling/README.md"
+      },
+      {
+        "title": "MCP Selenium server with Python",
+        "rel": "ch04-python-mcp_server-README",
+        "sourceRel": "ch04/python/mcp_server/README.md"
+      },
+      {
+        "title": "Memory and state examples",
+        "rel": "ch05-java-README",
+        "sourceRel": "ch05/java/README.md"
+      },
+      {
+        "title": "Memory-backed chat",
+        "rel": "ch05-javascript-mem0_chat-README",
+        "sourceRel": "ch05/javascript/mem0_chat/README.md"
+      },
+      {
+        "title": "Chapter 5 JavaScript examples",
+        "rel": "ch05-javascript-README",
+        "sourceRel": "ch05/javascript/README.md"
+      },
+      {
+        "title": "Session state chat",
+        "rel": "ch05-javascript-session_state_chat-README",
+        "sourceRel": "ch05/javascript/session_state_chat/README.md"
+      },
+      {
+        "title": "Workflow state handoff",
+        "rel": "ch05-javascript-workflow_state_handoff-README",
+        "sourceRel": "ch05/javascript/workflow_state_handoff/README.md"
+      },
+      {
+        "title": "Basic memory with Cognee",
+        "rel": "ch05-python-cognee_memory-README",
+        "sourceRel": "ch05/python/cognee_memory/README.md"
+      },
+      {
+        "title": "Memory-backed chat",
+        "rel": "ch05-python-mem0_chat-README",
+        "sourceRel": "ch05/python/mem0_chat/README.md"
+      },
+      {
+        "title": "Memory Coach",
+        "rel": "ch05-python-memory_coach-README",
+        "sourceRel": "ch05/python/memory_coach/README.md"
+      },
+      {
+        "title": "Session Memory",
+        "rel": "ch05-python-session_memory_chat-README",
+        "sourceRel": "ch05/python/session_memory_chat/README.md"
+      },
+      {
+        "title": "Session State Chat",
+        "rel": "ch05-python-session_state_chat-README",
+        "sourceRel": "ch05/python/session_state_chat/README.md"
+      },
+      {
+        "title": "Workflow State Handoff",
+        "rel": "ch05-python-workflow_state_handoff-README",
+        "sourceRel": "ch05/python/workflow_state_handoff/README.md"
+      },
+      {
+        "title": "Prompting examples in Java",
+        "rel": "ch06-java-README",
+        "sourceRel": "ch06/java/README.md"
+      },
+      {
+        "title": "Few-shot ticket normalizer",
+        "rel": "ch06-javascript-few-shot-ticket-normalizer-README",
+        "sourceRel": "ch06/javascript/few-shot-ticket-normalizer/README.md"
+      },
+      {
+        "title": "Prompt chaining support reply",
+        "rel": "ch06-javascript-prompt-chaining-support-reply-README",
+        "sourceRel": "ch06/javascript/prompt-chaining-support-reply/README.md"
+      },
+      {
+        "title": "Prompting examples in JavaScript",
+        "rel": "ch06-javascript-README",
+        "sourceRel": "ch06/javascript/README.md"
+      },
+      {
+        "title": "Prompting examples in Jupyter Notebooks",
+        "rel": "ch06-jupyter-README",
+        "sourceRel": "ch06/jupyter/README.md"
+      },
+      {
+        "title": "DSPy: Chain-of-Thought vs ReAct",
+        "rel": "ch06-python-dspy-cot-vs-react-README",
+        "sourceRel": "ch06/python/dspy-cot-vs-react/README.md"
+      },
+      {
+        "title": "Few-shot ticket normalizer",
+        "rel": "ch06-python-few-shot-ticket-normalizer-README",
+        "sourceRel": "ch06/python/few-shot-ticket-normalizer/README.md"
+      },
+      {
+        "title": "Prompt chaining support reply",
+        "rel": "ch06-python-prompt-chaining-support-reply-README",
+        "sourceRel": "ch06/python/prompt-chaining-support-reply/README.md"
+      },
+      {
+        "title": "Agent-to-Agent (A2A) communication example",
+        "rel": "ch07-a2a-example-README",
+        "sourceRel": "ch07/a2a-example/README.md"
+      },
+      {
+        "title": "Context compression with LLMLingua",
+        "rel": "ch07-context-compression-README",
+        "sourceRel": "ch07/context-compression/README.md"
+      },
+      {
+        "title": "Collaborative agents with CrewAI",
+        "rel": "ch07-crewai-crew-README",
+        "sourceRel": "ch07/crewai-crew/README.md"
+      },
+      {
+        "title": "Orchestration with DeepAgents",
+        "rel": "ch07-deepagents-orchestration-README",
+        "sourceRel": "ch07/deepagents-orchestration/README.md"
+      },
+      {
+        "title": "Multi-agent router pattern",
+        "rel": "ch07-multi-agent-router-README",
+        "sourceRel": "ch07/multi-agent-router/README.md"
+      },
+      {
+        "title": "Filesystem context with OpenViking",
+        "rel": "ch07-openviking-filesystem-README",
+        "sourceRel": "ch07/openviking-filesystem/README.md"
+      },
+      {
+        "title": "LLM evals with Promptfoo",
+        "rel": "ch08-evals-promptfoo-README",
+        "sourceRel": "ch08/evals-promptfoo/README.md"
+      },
+      {
+        "title": "Context evaluation with LLM-as-Judge using Ragas",
+        "rel": "ch08-llm-as-judge-ragas-README",
+        "sourceRel": "ch08/llm-as-judge-ragas/README.md"
+      },
+      {
+        "title": "Metrics with DeepEval",
+        "rel": "ch08-metrics-deepeval-README",
+        "sourceRel": "ch08/metrics-deepeval/README.md"
+      },
+      {
+        "title": "Observability and tracing with Langfuse",
+        "rel": "ch08-observability-langfuse-README",
+        "sourceRel": "ch08/observability-langfuse/README.md"
+      },
+      {
+        "title": "Observability with LangSmith",
+        "rel": "ch08-observability-langsmith-README",
+        "sourceRel": "ch08/observability-langsmith/README.md"
+      },
+      {
+        "title": "Bias detection: assessing fairness in AI recommendations",
+        "rel": "ch09-bias_detection-README",
+        "sourceRel": "ch09/bias_detection/README.md"
+      },
+      {
+        "title": "Context as code: Jinja2 prompt template with a CI evaluation gate",
+        "rel": "ch09-context_as_code-README",
+        "sourceRel": "ch09/context_as_code/README.md"
+      },
+      {
+        "title": "Fine-tuning: customizing model behavior",
+        "rel": "ch09-fine_tuning-README",
+        "sourceRel": "ch09/fine_tuning/README.md"
+      },
+      {
+        "title": "Human-in-the-Loop (HITL) example",
+        "rel": "ch09-human-in-the-loop-README",
+        "sourceRel": "ch09/human-in-the-loop/README.md"
+      },
+      {
+        "title": "LiteLLM gateway example",
+        "rel": "ch09-litellm_gateway-README",
+        "sourceRel": "ch09/litellm_gateway/README.md"
+      },
+      {
+        "title": "Output validation with JSON Schema",
+        "rel": "ch09-output_validation-README",
+        "sourceRel": "ch09/output_validation/README.md"
+      },
+      {
+        "title": "PII redaction with Microsoft Presidio",
+        "rel": "ch09-pii_presidio-README",
+        "sourceRel": "ch09/pii_presidio/README.md"
+      },
+      {
+        "title": "Agent with tool in Agent Development Kit (ADK)",
+        "rel": "ch10-adk-agent_with_tool-README",
+        "sourceRel": "ch10/adk/agent_with_tool/README.md"
+      },
+      {
+        "title": "Basic agent with Agent Development Kit (ADK)",
+        "rel": "ch10-adk-basic_agent-README",
+        "sourceRel": "ch10/adk/basic_agent/README.md"
+      },
+      {
+        "title": "Context compression Agent Development Kit (ADK)",
+        "rel": "ch10-adk-context_compression-README",
+        "sourceRel": "ch10/adk/context_compression/README.md"
+      },
+      {
+        "title": "Google search example",
+        "rel": "ch10-adk-google_search-README",
+        "sourceRel": "ch10/adk/google_search/README.md"
+      },
+      {
+        "title": "ADK memory example",
+        "rel": "ch10-adk-memory-README",
+        "sourceRel": "ch10/adk/memory/README.md"
+      },
+      {
+        "title": "Agent Development Kit (ADK) examples",
+        "rel": "ch10-adk-README",
+        "sourceRel": "ch10/adk/README.md"
+      },
+      {
+        "title": "ADK state example",
+        "rel": "ch10-adk-state-README",
+        "sourceRel": "ch10/adk/state/README.md"
+      },
+      {
+        "title": "Conversational state demo with Microsoft Agent Framework",
+        "rel": "ch10-agent_framework-agent_conversational_state-README",
+        "sourceRel": "ch10/agent_framework/agent_conversational_state/README.md"
+      },
+      {
+        "title": "Agent with memory using Microsoft Agent Framework",
+        "rel": "ch10-agent_framework-agent_with_memory-README",
+        "sourceRel": "ch10/agent_framework/agent_with_memory/README.md"
+      },
+      {
+        "title": "Agent with RAG using Microsoft Agent Framework",
+        "rel": "ch10-agent_framework-agent_with_rag-README",
+        "sourceRel": "ch10/agent_framework/agent_with_rag/README.md"
+      },
+      {
+        "title": "Agent with Tool with Microsoft Agent Framework",
+        "rel": "ch10-agent_framework-agent_with_tool-README",
+        "sourceRel": "ch10/agent_framework/agent_with_tool/README.md"
+      },
+      {
+        "title": "Basic conversation with Microsoft Agent Framework",
+        "rel": "ch10-agent_framework-basic_conversation-README",
+        "sourceRel": "ch10/agent_framework/basic_conversation/README.md"
+      },
+      {
+        "title": "Microsoft Agent Framework examples",
+        "rel": "ch10-agent_framework-README",
+        "sourceRel": "ch10/agent_framework/README.md"
+      },
+      {
+        "title": "Workflow state in Microsoft Agent Framework",
+        "rel": "ch10-agent_framework-workflow_state-README",
+        "sourceRel": "ch10/agent_framework/workflow_state/README.md"
+      },
+      {
+        "title": "AgentOS Service",
+        "rel": "ch10-agno-agent_os_service-README",
+        "sourceRel": "ch10/agno/agent_os_service/README.md"
+      },
+      {
+        "title": "Audit Traces",
+        "rel": "ch10-agno-audit_traces-README",
+        "sourceRel": "ch10/agno/audit_traces/README.md"
+      },
+      {
+        "title": "Knowledge Store",
+        "rel": "ch10-agno-knowledge_store-README",
+        "sourceRel": "ch10/agno/knowledge_store/README.md"
+      },
+      {
+        "title": "Agno examples",
+        "rel": "ch10-agno-README",
+        "sourceRel": "ch10/agno/README.md"
+      },
+      {
+        "title": "Session Memory",
+        "rel": "ch10-agno-session_memory-README",
+        "sourceRel": "ch10/agno/session_memory/README.md"
+      },
+      {
+        "title": "Sorting Hat",
+        "rel": "ch10-agno-sorting_hat-README",
+        "sourceRel": "ch10/agno/sorting_hat/README.md"
+      },
+      {
+        "title": "Basic text generation with the AI SDK",
+        "rel": "ch10-ai_sdk-basic_text_generation-README",
+        "sourceRel": "ch10/ai_sdk/basic_text_generation/README.md"
+      },
+      {
+        "title": "Vercel AI SDK examples",
+        "rel": "ch10-ai_sdk-README",
+        "sourceRel": "ch10/ai_sdk/README.md"
+      },
+      {
+        "title": "Streaming text with the AI SDK",
+        "rel": "ch10-ai_sdk-streaming_text-README",
+        "sourceRel": "ch10/ai_sdk/streaming_text/README.md"
+      },
+      {
+        "title": "Structured output with the AI SDK",
+        "rel": "ch10-ai_sdk-structured_output-README",
+        "sourceRel": "ch10/ai_sdk/structured_output/README.md"
+      },
+      {
+        "title": "Tool use with the AI SDK",
+        "rel": "ch10-ai_sdk-tool_use-README",
+        "sourceRel": "ch10/ai_sdk/tool_use/README.md"
+      },
+      {
+        "title": "Code Review Agent with Amazon Bedrock AgentCore",
+        "rel": "ch10-bedrock_agentcore-code_review_agent-README",
+        "sourceRel": "ch10/bedrock_agentcore/code_review_agent/README.md"
+      },
+      {
+        "title": "Hosted agent with Amazon Bedrock AgentCore",
+        "rel": "ch10-bedrock_agentcore-hosted_agent-README",
+        "sourceRel": "ch10/bedrock_agentcore/hosted_agent/README.md"
+      },
+      {
+        "title": "Amazon Bedrock AgentCore examples",
+        "rel": "ch10-bedrock_agentcore-README",
+        "sourceRel": "ch10/bedrock_agentcore/README.md"
+      },
+      {
+        "title": "Basic agent with the Claude Agent SDK",
+        "rel": "ch10-claude_agent_sdk-basic_agent-README",
+        "sourceRel": "ch10/claude_agent_sdk/basic_agent/README.md"
+      },
+      {
+        "title": "Claude Agent SDK examples",
+        "rel": "ch10-claude_agent_sdk-README",
+        "sourceRel": "ch10/claude_agent_sdk/README.md"
+      },
+      {
+        "title": "Critique Revision",
+        "rel": "ch10-crewai-critique_revision-README",
+        "sourceRel": "ch10/crewai/critique_revision/README.md"
+      },
+      {
+        "title": "Memory Handoff",
+        "rel": "ch10-crewai-memory_handoff-README",
+        "sourceRel": "ch10/crewai/memory_handoff/README.md"
+      },
+      {
+        "title": "Planner Executor",
+        "rel": "ch10-crewai-planner_executor-README",
+        "sourceRel": "ch10/crewai/planner_executor/README.md"
+      },
+      {
+        "title": "CrewAI examples",
+        "rel": "ch10-crewai-README",
+        "sourceRel": "ch10/crewai/README.md"
+      },
+      {
+        "title": "Research and Write with CrewAI",
+        "rel": "ch10-crewai-research_and_write-README",
+        "sourceRel": "ch10/crewai/research_and_write/README.md"
+      },
+      {
+        "title": "Tool Chain",
+        "rel": "ch10-crewai-tool_chain-README",
+        "sourceRel": "ch10/crewai/tool_chain/README.md"
+      },
+      {
+        "title": "Filesystem Context",
+        "rel": "ch10-deepagents-filesystem_context-README",
+        "sourceRel": "ch10/deepagents/filesystem_context/README.md"
+      },
+      {
+        "title": "Human Approval",
+        "rel": "ch10-deepagents-human_approval-README",
+        "sourceRel": "ch10/deepagents/human_approval/README.md"
+      },
+      {
+        "title": "Orchestration",
+        "rel": "ch10-deepagents-orchestration-README",
+        "sourceRel": "ch10/deepagents/orchestration/README.md"
+      },
+      {
+        "title": "DeepAgents examples",
+        "rel": "ch10-deepagents-README",
+        "sourceRel": "ch10/deepagents/README.md"
+      },
+      {
+        "title": "Sub-agent Delegation",
+        "rel": "ch10-deepagents-subagent_delegation-README",
+        "sourceRel": "ch10/deepagents/subagent_delegation/README.md"
+      },
+      {
+        "title": "DSPy BootstrapFewShot example",
+        "rel": "ch10-dspy-bootstrap_few_shot-README",
+        "sourceRel": "ch10/dspy/bootstrap_few_shot/README.md"
+      },
+      {
+        "title": "Tool use with local context in DSPy",
+        "rel": "ch10-dspy-context_tooling-README",
+        "sourceRel": "ch10/dspy/context_tooling/README.md"
+      },
+      {
+        "title": "DSPy examples",
+        "rel": "ch10-dspy-README",
+        "sourceRel": "ch10/dspy/README.md"
+      },
+      {
+        "title": "Stepwise reasoning with DSPy",
+        "rel": "ch10-dspy-stepwise_reasoning-README",
+        "sourceRel": "ch10/dspy/stepwise_reasoning/README.md"
+      },
+      {
+        "title": "Structured output with DSPy",
+        "rel": "ch10-dspy-structured_output-README",
+        "sourceRel": "ch10/dspy/structured_output/README.md"
+      },
+      {
+        "title": "Ticket triage",
+        "rel": "ch10-dspy-ticket_triage-README",
+        "sourceRel": "ch10/dspy/ticket_triage/README.md"
+      },
+      {
+        "title": "Basic agent with Embabel and Ollama",
+        "rel": "ch10-embabel-basic_agent-README",
+        "sourceRel": "ch10/embabel/basic_agent/README.md"
+      },
+      {
+        "title": "Goal planning with Embabel and Ollama",
+        "rel": "ch10-embabel-goal_planning-README",
+        "sourceRel": "ch10/embabel/goal_planning/README.md"
+      },
+      {
+        "title": "Persona prompts with Embabel and Ollama",
+        "rel": "ch10-embabel-persona_prompt-README",
+        "sourceRel": "ch10/embabel/persona_prompt/README.md"
+      },
+      {
+        "title": "Embabel examples",
+        "rel": "ch10-embabel-README",
+        "sourceRel": "ch10/embabel/README.md"
+      },
+      {
+        "title": "Deploying an ADK agent to Gemini Enterprise Agent Platform",
+        "rel": "ch10-gemini_agent_platform-deploy_adk_agent-README",
+        "sourceRel": "ch10/gemini_agent_platform/deploy_adk_agent/README.md"
+      },
+      {
+        "title": "Development Agent with Gemini Enterprise Agent Platform",
+        "rel": "ch10-gemini_agent_platform-dev_agent-README",
+        "sourceRel": "ch10/gemini_agent_platform/dev_agent/README.md"
+      },
+      {
+        "title": "Feature: Idea Scoring",
+        "rel": "ch10-gemini_agent_platform-dev_agent-spec",
+        "sourceRel": "ch10/gemini_agent_platform/dev_agent/spec.md"
+      },
+      {
+        "title": "Gemini Enterprise Agent Platform examples",
+        "rel": "ch10-gemini_agent_platform-README",
+        "sourceRel": "ch10/gemini_agent_platform/README.md"
+      },
+      {
+        "title": "Pipeline composition",
+        "rel": "ch10-haystack-pipeline_composition-README",
+        "sourceRel": "ch10/haystack/pipeline_composition/README.md"
+      },
+      {
+        "title": "Query expansion",
+        "rel": "ch10-haystack-query_expansion-README",
+        "sourceRel": "ch10/haystack/query_expansion/README.md"
+      },
+      {
+        "title": "RAG pipeline",
+        "rel": "ch10-haystack-rag_pipeline-README",
+        "sourceRel": "ch10/haystack/rag_pipeline/README.md"
+      },
+      {
+        "title": "Haystack examples",
+        "rel": "ch10-haystack-README",
+        "sourceRel": "ch10/haystack/README.md"
+      },
+      {
+        "title": "Reranking",
+        "rel": "ch10-haystack-reranking-README",
+        "sourceRel": "ch10/haystack/reranking/README.md"
+      },
+      {
+        "title": "Basic interaction with an LLM using LangChain",
+        "rel": "ch10-langchain-basic_llm_interaction-README",
+        "sourceRel": "ch10/langchain/basic_llm_interaction/README.md"
+      },
+      {
+        "title": "Context compression with LangChain",
+        "rel": "ch10-langchain-context_compression-README",
+        "sourceRel": "ch10/langchain/context_compression/README.md"
+      },
+      {
+        "title": "Conversational memory with LangChain",
+        "rel": "ch10-langchain-conversational_memory-README",
+        "sourceRel": "ch10/langchain/conversational_memory/README.md"
+      },
+      {
+        "title": "Retrieval-Augmented Generation (RAG) with LangChain",
+        "rel": "ch10-langchain-rag_with_vectorstore-README",
+        "sourceRel": "ch10/langchain/rag_with_vectorstore/README.md"
+      },
+      {
+        "title": "LangChain examples",
+        "rel": "ch10-langchain-README",
+        "sourceRel": "ch10/langchain/README.md"
+      },
+      {
+        "title": "Structured output with LangChain core primitives",
+        "rel": "ch10-langchain-structured_output-README",
+        "sourceRel": "ch10/langchain/structured_output/README.md"
+      },
+      {
+        "title": "Tool calling with LangChain agents",
+        "rel": "ch10-langchain-tool_calling-README",
+        "sourceRel": "ch10/langchain/tool_calling/README.md"
+      },
+      {
+        "title": "Basic assistant with LangChain4j and Ollama",
+        "rel": "ch10-langchain4j-basic_assistant-README",
+        "sourceRel": "ch10/langchain4j/basic_assistant/README.md"
+      },
+      {
+        "title": "Chat memory with LangChain4j and Ollama",
+        "rel": "ch10-langchain4j-chat_memory-README",
+        "sourceRel": "ch10/langchain4j/chat_memory/README.md"
+      },
+      {
+        "title": "Context assembly with LangChain4j and Ollama",
+        "rel": "ch10-langchain4j-context_assembly-README",
+        "sourceRel": "ch10/langchain4j/context_assembly/README.md"
+      },
+      {
+        "title": "Retrieval with LangChain4j and Ollama",
+        "rel": "ch10-langchain4j-rag_retrieval-README",
+        "sourceRel": "ch10/langchain4j/rag_retrieval/README.md"
+      },
+      {
+        "title": "LangChain4j examples",
+        "rel": "ch10-langchain4j-README",
+        "sourceRel": "ch10/langchain4j/README.md"
+      },
+      {
+        "title": "Structured output with LangChain4j and Ollama",
+        "rel": "ch10-langchain4j-structured_output-README",
+        "sourceRel": "ch10/langchain4j/structured_output/README.md"
+      },
+      {
+        "title": "Tool use with LangChain4j and Ollama",
+        "rel": "ch10-langchain4j-tool_use-README",
+        "sourceRel": "ch10/langchain4j/tool_use/README.md"
+      },
+      {
+        "title": "Basic LangGraph agent for stateful workflows",
+        "rel": "ch10-langgraph-basic_agent-README",
+        "sourceRel": "ch10/langgraph/basic_agent/README.md"
+      },
+      {
+        "title": "LangGraph checkpointed resume",
+        "rel": "ch10-langgraph-checkpointed_resume-README",
+        "sourceRel": "ch10/langgraph/checkpointed_resume/README.md"
+      },
+      {
+        "title": "LangGraph examples",
+        "rel": "ch10-langgraph-README",
+        "sourceRel": "ch10/langgraph/README.md"
+      },
+      {
+        "title": "LangGraph review workflow",
+        "rel": "ch10-langgraph-review_workflow-README",
+        "sourceRel": "ch10/langgraph/review_workflow/README.md"
+      },
+      {
+        "title": "Agent with custom tool in LlamaIndex",
+        "rel": "ch10-llamaindex-agent_with_tool-README",
+        "sourceRel": "ch10/llamaindex/agent_with_tool/README.md"
+      },
+      {
+        "title": "Answer and Context Relevancy Evaluations in LlamaIndex",
+        "rel": "ch10-llamaindex-answer_context_evaluation-README",
+        "sourceRel": "ch10/llamaindex/answer_context_evaluation/README.md"
+      },
+      {
+        "title": "Conversational memory and state with LlamaIndex",
+        "rel": "ch10-llamaindex-conversational_memory-README",
+        "sourceRel": "ch10/llamaindex/conversational_memory/README.md"
+      },
+      {
+        "title": "Customizing prompts with LlamaIndex",
+        "rel": "ch10-llamaindex-custom_prompts-README",
+        "sourceRel": "ch10/llamaindex/custom_prompts/README.md"
+      },
+      {
+        "title": "RAG Agent with Context Retrieval in LlamaIndex",
+        "rel": "ch10-llamaindex-rag_agent_with_context_retrieval-README",
+        "sourceRel": "ch10/llamaindex/rag_agent_with_context_retrieval/README.md"
+      },
+      {
+        "title": "Basic RAG example with LlamaIndex",
+        "rel": "ch10-llamaindex-rag_basic-README",
+        "sourceRel": "ch10/llamaindex/rag_basic/README.md"
+      },
+      {
+        "title": "LlamaIndex examples",
+        "rel": "ch10-llamaindex-README",
+        "sourceRel": "ch10/llamaindex/README.md"
+      },
+      {
+        "title": "n8n data assembly",
+        "rel": "ch10-n8n-data_assembly-README",
+        "sourceRel": "ch10/n8n/data_assembly/README.md"
+      },
+      {
+        "title": "n8n error recovery",
+        "rel": "ch10-n8n-error_recovery-README",
+        "sourceRel": "ch10/n8n/error_recovery/README.md"
+      },
+      {
+        "title": "n8n human approval workflow",
+        "rel": "ch10-n8n-human_approval_workflow-README",
+        "sourceRel": "ch10/n8n/human_approval_workflow/README.md"
+      },
+      {
+        "title": "n8n workflow sketch",
+        "rel": "ch10-n8n-human_approval_workflow-workflow",
+        "sourceRel": "ch10/n8n/human_approval_workflow/workflow.md"
+      },
+      {
+        "title": "n8n workflow examples",
+        "rel": "ch10-n8n-README",
+        "sourceRel": "ch10/n8n/README.md"
+      },
+      {
+        "title": "n8n subworkflow boundary",
+        "rel": "ch10-n8n-subworkflow_boundary-README",
+        "sourceRel": "ch10/n8n/subworkflow_boundary/README.md"
+      },
+      {
+        "title": "Durable ops assistant",
+        "rel": "ch10-openclaw-durable_ops_assistant-README",
+        "sourceRel": "ch10/openclaw/durable_ops_assistant/README.md"
+      },
+      {
+        "title": "OpenClaw examples",
+        "rel": "ch10-openclaw-README",
+        "sourceRel": "ch10/openclaw/README.md"
+      }
+    ]
+  },
+  {
     "id": "10-context-memory/context-engineering-intro",
     "volume": "10-context-memory",
     "local": "context-engineering-intro",
@@ -12140,7 +14198,7 @@ export const courses: Course[] = [
     "id": "10-context-memory/mattpocock-skills",
     "volume": "10-context-memory",
     "local": "mattpocock-skills",
-    "title": "**Matt Pocock Skills**",
+    "title": "Matt Pocock Skills（工程技能库）",
     "kind": "技能与配置库",
     "category": "技能、配置与模板",
     "tier": 3,
@@ -12166,6 +14224,131 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
+        "title": "Matt Pocock Skills（工程技能库）",
+        "rel": "docs-engineering-ask-matt",
+        "sourceRel": "docs/engineering/ask-matt.md"
+      },
+      {
+        "title": "Matt Pocock Skills（工程技能库）",
+        "rel": "docs-engineering-code-review",
+        "sourceRel": "docs/engineering/code-review.md"
+      },
+      {
+        "title": "Matt Pocock Skills（工程技能库）",
+        "rel": "docs-engineering-codebase-design",
+        "sourceRel": "docs/engineering/codebase-design.md"
+      },
+      {
+        "title": "Matt Pocock Skills（工程技能库）",
+        "rel": "docs-engineering-diagnosing-bugs",
+        "sourceRel": "docs/engineering/diagnosing-bugs.md"
+      },
+      {
+        "title": "Matt Pocock Skills（工程技能库）",
+        "rel": "docs-engineering-domain-modeling",
+        "sourceRel": "docs/engineering/domain-modeling.md"
+      },
+      {
+        "title": "Matt Pocock Skills（工程技能库）",
+        "rel": "docs-engineering-grill-with-docs",
+        "sourceRel": "docs/engineering/grill-with-docs.md"
+      },
+      {
+        "title": "Matt Pocock Skills（工程技能库）",
+        "rel": "docs-engineering-implement",
+        "sourceRel": "docs/engineering/implement.md"
+      },
+      {
+        "title": "Matt Pocock Skills（工程技能库）",
+        "rel": "docs-engineering-improve-codebase-architecture",
+        "sourceRel": "docs/engineering/improve-codebase-architecture.md"
+      },
+      {
+        "title": "Matt Pocock Skills（工程技能库）",
+        "rel": "docs-engineering-prototype",
+        "sourceRel": "docs/engineering/prototype.md"
+      },
+      {
+        "title": "Matt Pocock Skills（工程技能库）",
+        "rel": "docs-engineering-research",
+        "sourceRel": "docs/engineering/research.md"
+      },
+      {
+        "title": "Matt Pocock Skills（工程技能库）",
+        "rel": "docs-engineering-resolving-merge-conflicts",
+        "sourceRel": "docs/engineering/resolving-merge-conflicts.md"
+      },
+      {
+        "title": "Matt Pocock Skills（工程技能库）",
+        "rel": "docs-engineering-setup-matt-pocock-skills",
+        "sourceRel": "docs/engineering/setup-matt-pocock-skills.md"
+      },
+      {
+        "title": "Matt Pocock Skills（工程技能库）",
+        "rel": "docs-engineering-tdd",
+        "sourceRel": "docs/engineering/tdd.md"
+      },
+      {
+        "title": "Matt Pocock Skills（工程技能库）",
+        "rel": "docs-engineering-to-spec",
+        "sourceRel": "docs/engineering/to-spec.md"
+      },
+      {
+        "title": "Matt Pocock Skills（工程技能库）",
+        "rel": "docs-engineering-to-tickets",
+        "sourceRel": "docs/engineering/to-tickets.md"
+      },
+      {
+        "title": "Matt Pocock Skills（工程技能库）",
+        "rel": "docs-engineering-triage",
+        "sourceRel": "docs/engineering/triage.md"
+      },
+      {
+        "title": "Matt Pocock Skills（工程技能库）",
+        "rel": "docs-engineering-wayfinder",
+        "sourceRel": "docs/engineering/wayfinder.md"
+      },
+      {
+        "title": "Matt Pocock Skills（工程技能库）",
+        "rel": "docs-engineering-wizard",
+        "sourceRel": "docs/engineering/wizard.md"
+      },
+      {
+        "title": "Matt Pocock Skills（工程技能库）",
+        "rel": "docs-productivity-grill-me",
+        "sourceRel": "docs/productivity/grill-me.md"
+      },
+      {
+        "title": "Matt Pocock Skills（工程技能库）",
+        "rel": "docs-productivity-grilling",
+        "sourceRel": "docs/productivity/grilling.md"
+      },
+      {
+        "title": "Matt Pocock Skills（工程技能库）",
+        "rel": "docs-productivity-handoff",
+        "sourceRel": "docs/productivity/handoff.md"
+      },
+      {
+        "title": "Matt Pocock Skills（工程技能库）",
+        "rel": "docs-productivity-teach",
+        "sourceRel": "docs/productivity/teach.md"
+      },
+      {
+        "title": "Matt Pocock Skills（工程技能库）",
+        "rel": "docs-productivity-to-questionnaire",
+        "sourceRel": "docs/productivity/to-questionnaire.md"
+      },
+      {
+        "title": "Matt Pocock Skills（工程技能库）",
+        "rel": "docs-productivity-wait-what",
+        "sourceRel": "docs/productivity/wait-what.md"
+      },
+      {
+        "title": "Matt Pocock Skills（工程技能库）",
+        "rel": "docs-productivity-writing-for-agents",
+        "sourceRel": "docs/productivity/writing-for-agents.md"
+      },
+      {
         "title": "Deprecated",
         "rel": "skills-deprecated-README",
         "sourceRel": "skills/deprecated/README.md"
@@ -12181,7 +14364,7 @@ export const courses: Course[] = [
         "sourceRel": "skills/engineering/ask-matt/SKILL.md"
       },
       {
-        "title": "**Matt Pocock Skills**",
+        "title": "Matt Pocock Skills（工程技能库）",
         "rel": "skills-engineering-code-review-SKILL",
         "sourceRel": "skills/engineering/code-review/SKILL.md"
       },
@@ -12221,7 +14404,7 @@ export const courses: Course[] = [
         "sourceRel": "skills/engineering/domain-modeling/SKILL.md"
       },
       {
-        "title": "**Matt Pocock Skills**",
+        "title": "Matt Pocock Skills（工程技能库）",
         "rel": "skills-engineering-implement-SKILL",
         "sourceRel": "skills/engineering/implement/SKILL.md"
       },
@@ -12251,12 +14434,12 @@ export const courses: Course[] = [
         "sourceRel": "skills/engineering/README.md"
       },
       {
-        "title": "**Matt Pocock Skills**",
+        "title": "Matt Pocock Skills（工程技能库）",
         "rel": "skills-engineering-research-SKILL",
         "sourceRel": "skills/engineering/research/SKILL.md"
       },
       {
-        "title": "**Matt Pocock Skills**",
+        "title": "Matt Pocock Skills（工程技能库）",
         "rel": "skills-engineering-resolving-merge-conflicts-SKILL",
         "sourceRel": "skills/engineering/resolving-merge-conflicts/SKILL.md"
       },
@@ -12306,7 +14489,7 @@ export const courses: Course[] = [
         "sourceRel": "skills/engineering/tdd/tests.md"
       },
       {
-        "title": "**Matt Pocock Skills**",
+        "title": "Matt Pocock Skills（工程技能库）",
         "rel": "skills-engineering-to-spec-SKILL",
         "sourceRel": "skills/engineering/to-spec/SKILL.md"
       },
@@ -12331,7 +14514,7 @@ export const courses: Course[] = [
         "sourceRel": "skills/engineering/triage/SKILL.md"
       },
       {
-        "title": "**Matt Pocock Skills**",
+        "title": "Matt Pocock Skills（工程技能库）",
         "rel": "skills-engineering-wayfinder-SKILL",
         "sourceRel": "skills/engineering/wayfinder/SKILL.md"
       },
@@ -12341,17 +14524,17 @@ export const courses: Course[] = [
         "sourceRel": "skills/engineering/wizard/SKILL.md"
       },
       {
-        "title": "**Matt Pocock Skills**",
+        "title": "Matt Pocock Skills（工程技能库）",
         "rel": "skills-in-progress-claude-handoff-SKILL",
         "sourceRel": "skills/in-progress/claude-handoff/SKILL.md"
       },
       {
-        "title": "**Matt Pocock Skills**",
+        "title": "Matt Pocock Skills（工程技能库）",
         "rel": "skills-in-progress-implement-spec-SKILL",
         "sourceRel": "skills/in-progress/implement-spec/SKILL.md"
       },
       {
-        "title": "**Matt Pocock Skills**",
+        "title": "Matt Pocock Skills（工程技能库）",
         "rel": "skills-in-progress-loop-me-SKILL",
         "sourceRel": "skills/in-progress/loop-me/SKILL.md"
       },
@@ -12361,7 +14544,7 @@ export const courses: Course[] = [
         "sourceRel": "skills/in-progress/README.md"
       },
       {
-        "title": "**Matt Pocock Skills**",
+        "title": "Matt Pocock Skills（工程技能库）",
         "rel": "skills-in-progress-retro-SKILL",
         "sourceRel": "skills/in-progress/retro/SKILL.md"
       },
@@ -12396,12 +14579,12 @@ export const courses: Course[] = [
         "sourceRel": "skills/misc/setup-pre-commit/SKILL.md"
       },
       {
-        "title": "**Matt Pocock Skills**",
+        "title": "Matt Pocock Skills（工程技能库）",
         "rel": "skills-productivity-grilling-SKILL",
         "sourceRel": "skills/productivity/grilling/SKILL.md"
       },
       {
-        "title": "**Matt Pocock Skills**",
+        "title": "Matt Pocock Skills（工程技能库）",
         "rel": "skills-productivity-handoff-SKILL",
         "sourceRel": "skills/productivity/handoff/SKILL.md"
       },
@@ -12431,17 +14614,17 @@ export const courses: Course[] = [
         "sourceRel": "skills/productivity/teach/RESOURCES-FORMAT.md"
       },
       {
-        "title": "**Matt Pocock Skills**",
+        "title": "Matt Pocock Skills（工程技能库）",
         "rel": "skills-productivity-teach-SKILL",
         "sourceRel": "skills/productivity/teach/SKILL.md"
       },
       {
-        "title": "**Matt Pocock Skills**",
+        "title": "Matt Pocock Skills（工程技能库）",
         "rel": "skills-productivity-to-questionnaire-SKILL",
         "sourceRel": "skills/productivity/to-questionnaire/SKILL.md"
       },
       {
-        "title": "**Matt Pocock Skills**",
+        "title": "Matt Pocock Skills（工程技能库）",
         "rel": "skills-productivity-wait-what-SKILL",
         "sourceRel": "skills/productivity/wait-what/SKILL.md"
       },
@@ -12451,7 +14634,7 @@ export const courses: Course[] = [
         "sourceRel": "skills/productivity/writing-for-agents/SKILL-MECHANICS.md"
       },
       {
-        "title": "**Matt Pocock Skills**",
+        "title": "Matt Pocock Skills（工程技能库）",
         "rel": "skills-productivity-writing-for-agents-SKILL",
         "sourceRel": "skills/productivity/writing-for-agents/SKILL.md"
       }
@@ -13355,7 +15538,7 @@ export const sources: SourceEntry[] = [
     "id": "01-foundations/awesome-llm-resources",
     "volume": "01-foundations",
     "local": "awesome-llm-resources",
-    "title": "Awesome LLM Resources（中文，清单型）",
+    "title": "Awesome LLM Resources（大模型资源清单）",
     "kind": "清单与速查",
     "category": "速查清单与索引",
     "tier": 3,
@@ -13526,7 +15709,7 @@ export const sources: SourceEntry[] = [
     "id": "04-work/qwenwork-official-help",
     "volume": "04-work",
     "local": "qwenwork-official-help",
-    "title": "qwenwork-official-help",
+    "title": "千问办公官方帮助中心（阿里云）",
     "kind": "官方文档",
     "category": "官方文献（外链原文）",
     "tier": 3,
@@ -13535,9 +15718,9 @@ export const sources: SourceEntry[] = [
     "lessons": 1,
     "md": 235,
     "repo": null,
-    "site": null,
+    "site": "https://help.aliyun.com/zh/qwenwork/",
     "commit": null,
-    "entryUrl": null,
+    "entryUrl": "https://help.aliyun.com/zh/qwenwork/",
     "publishable": false,
     "ported": false
   },
@@ -13564,7 +15747,7 @@ export const sources: SourceEntry[] = [
     "id": "04-work/coze-official-docs",
     "volume": "04-work",
     "local": "coze-official-docs",
-    "title": "coze-official-docs",
+    "title": "扣子 Coze 官方文档",
     "kind": "官方文档",
     "category": "官方文献（外链原文）",
     "tier": 3,
@@ -13573,9 +15756,9 @@ export const sources: SourceEntry[] = [
     "lessons": 1,
     "md": 101,
     "repo": null,
-    "site": null,
+    "site": "https://docs.coze.cn/",
     "commit": null,
-    "entryUrl": null,
+    "entryUrl": "https://docs.coze.cn/",
     "publishable": false,
     "ported": false
   },
@@ -13583,7 +15766,7 @@ export const sources: SourceEntry[] = [
     "id": "04-work/dify-official-docs",
     "volume": "04-work",
     "local": "dify-official-docs",
-    "title": "dify-official-docs",
+    "title": "Dify 官方文档",
     "kind": "官方文档",
     "category": "官方文献（外链原文）",
     "tier": 3,
@@ -13592,9 +15775,9 @@ export const sources: SourceEntry[] = [
     "lessons": 0,
     "md": 1,
     "repo": null,
-    "site": null,
+    "site": "https://docs.dify.ai/",
     "commit": null,
-    "entryUrl": null,
+    "entryUrl": "https://docs.dify.ai/",
     "publishable": false,
     "ported": false
   },
@@ -13602,7 +15785,7 @@ export const sources: SourceEntry[] = [
     "id": "04-work/manus-official-docs",
     "volume": "04-work",
     "local": "manus-official-docs",
-    "title": "manus-official-docs",
+    "title": "Manus 官方文档",
     "kind": "官方文档",
     "category": "官方文献（外链原文）",
     "tier": 3,
@@ -13611,9 +15794,9 @@ export const sources: SourceEntry[] = [
     "lessons": 0,
     "md": 1,
     "repo": null,
-    "site": null,
+    "site": "https://manus.im/docs/introduction/welcome",
     "commit": null,
-    "entryUrl": null,
+    "entryUrl": "https://manus.im/docs/introduction/welcome",
     "publishable": false,
     "ported": false
   },
@@ -13621,7 +15804,7 @@ export const sources: SourceEntry[] = [
     "id": "04-work/workbuddy-official-docs",
     "volume": "04-work",
     "local": "workbuddy-official-docs",
-    "title": "workbuddy-official-docs",
+    "title": "WorkBuddy 官方文档（腾讯）",
     "kind": "官方文档",
     "category": "官方文献（外链原文）",
     "tier": 3,
@@ -13630,9 +15813,9 @@ export const sources: SourceEntry[] = [
     "lessons": 0,
     "md": 1,
     "repo": null,
-    "site": null,
+    "site": "https://copilot.tencent.com/",
     "commit": null,
-    "entryUrl": null,
+    "entryUrl": "https://copilot.tencent.com/",
     "publishable": false,
     "ported": false
   },
@@ -13744,9 +15927,9 @@ export const sources: SourceEntry[] = [
     "lessons": 5,
     "md": 1,
     "repo": null,
-    "site": null,
+    "site": "https://learn.qwenwork.host/",
     "commit": null,
-    "entryUrl": null,
+    "entryUrl": "https://learn.qwenwork.host/",
     "publishable": false,
     "ported": false
   },
@@ -14221,9 +16404,9 @@ export const sources: SourceEntry[] = [
     "repo": "ed-donner/agents",
     "site": null,
     "commit": "8ceaf66c24643627c1e4806851736bdd444bdd4b",
-    "entryUrl": null,
+    "entryUrl": "https://github.com/ed-donner/agents",
     "publishable": true,
-    "ported": false
+    "ported": true
   },
   {
     "id": "08-agents/ed-donner-production",
@@ -14356,7 +16539,7 @@ export const sources: SourceEntry[] = [
     "commit": "17ccef571db3e4b563826dab83ecc9298a54ede1",
     "entryUrl": "https://github.com/decodingai-magazine/second-brain-ai-assistant-course/blob/17ccef571db3e4b563826dab83ecc9298a54ede1/README.md",
     "publishable": true,
-    "ported": false
+    "ported": true
   },
   {
     "id": "08-agents/zero2agent",
@@ -14590,7 +16773,7 @@ export const sources: SourceEntry[] = [
     "id": "08-agents/awesome-ai-agent-papers",
     "volume": "08-agents",
     "local": "awesome-ai-agent-papers",
-    "title": "Awesome AI Agent Papers",
+    "title": "Awesome AI Agent Papers（智能体论文清单）",
     "kind": "清单与速查",
     "category": "速查清单与索引",
     "tier": 3,
@@ -15141,7 +17324,7 @@ export const sources: SourceEntry[] = [
     "id": "09-harness/origin-harness-engineering-articles",
     "volume": "09-harness",
     "local": "origin-harness-engineering-articles",
-    "title": "origin-harness-engineering-articles",
+    "title": "Harness Engineering 原始文献（Fowler / Mitchell / arXiv）",
     "kind": "工程手册",
     "category": "工程手册与指南",
     "tier": 3,
@@ -15150,9 +17333,9 @@ export const sources: SourceEntry[] = [
     "lessons": 0,
     "md": 0,
     "repo": null,
-    "site": null,
+    "site": "https://martinfowler.com/articles/harness-engineering.html",
     "commit": null,
-    "entryUrl": null,
+    "entryUrl": "https://martinfowler.com/articles/harness-engineering.html",
     "publishable": false,
     "ported": false
   },
@@ -15439,7 +17622,7 @@ export const sources: SourceEntry[] = [
     "commit": "46719154489e410b509db4fb69ab1c29fb3362a0",
     "entryUrl": "https://github.com/bonigarcia/context-engineering/blob/46719154489e410b509db4fb69ab1c29fb3362a0/README.md",
     "publishable": true,
-    "ported": false
+    "ported": true
   },
   {
     "id": "10-context-memory/context-engineering-intro",
@@ -15494,7 +17677,7 @@ export const sources: SourceEntry[] = [
     "repo": "humanlayer/advanced-context-engineering-for-coding-agents",
     "site": null,
     "commit": "f2bc7aec4575418d2d2e83fec078266cc56d3e6a",
-    "entryUrl": null,
+    "entryUrl": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents",
     "publishable": false,
     "ported": false
   },
@@ -15502,7 +17685,7 @@ export const sources: SourceEntry[] = [
     "id": "10-context-memory/awesome-context-engineering",
     "volume": "10-context-memory",
     "local": "awesome-context-engineering",
-    "title": "Awesome Context Engineering",
+    "title": "Awesome Context Engineering（上下文工程清单）",
     "kind": "工程手册",
     "category": "工程手册与指南",
     "tier": 3,
@@ -15563,7 +17746,7 @@ export const sources: SourceEntry[] = [
     "kind": "技能与配置库",
     "category": "技能、配置与模板",
     "tier": 3,
-    "licenseLabel": "可转载",
+    "licenseLabel": "仅引用",
     "lang": "英文",
     "lessons": 1,
     "md": 531,
@@ -15571,7 +17754,7 @@ export const sources: SourceEntry[] = [
     "site": null,
     "commit": "49f948faa9258a0c61caceaf225e179651397431",
     "entryUrl": "https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/README.md",
-    "publishable": true,
+    "publishable": false,
     "ported": false
   },
   {
@@ -15597,7 +17780,7 @@ export const sources: SourceEntry[] = [
     "id": "10-context-memory/mattpocock-skills",
     "volume": "10-context-memory",
     "local": "mattpocock-skills",
-    "title": "**Matt Pocock Skills**",
+    "title": "Matt Pocock Skills（工程技能库）",
     "kind": "技能与配置库",
     "category": "技能、配置与模板",
     "tier": 3,
@@ -15692,7 +17875,7 @@ export const sources: SourceEntry[] = [
     "id": "10-context-memory/awesome-agent-skills-voltagent",
     "volume": "10-context-memory",
     "local": "awesome-agent-skills-voltagent",
-    "title": "Awesome Agent Skills",
+    "title": "Awesome Agent Skills（Agent 技能清单）",
     "kind": "技能与配置库",
     "category": "技能、配置与模板",
     "tier": 3,
@@ -15730,7 +17913,7 @@ export const sources: SourceEntry[] = [
     "id": "10-context-memory/awesome-mcp-zh",
     "volume": "10-context-memory",
     "local": "awesome-mcp-zh",
-    "title": "Awesome MCP ZH",
+    "title": "Awesome MCP 中文资源",
     "kind": "清单与速查",
     "category": "速查清单与索引",
     "tier": 3,
@@ -15817,7 +18000,7 @@ export const sources: SourceEntry[] = [
     "repo": "czl9707/build-your-own-openclaw",
     "site": null,
     "commit": "37ae5dd255a0451609e67ad6d6a51fa5de80523c",
-    "entryUrl": null,
+    "entryUrl": "https://github.com/czl9707/build-your-own-openclaw",
     "publishable": true,
     "ported": true
   },

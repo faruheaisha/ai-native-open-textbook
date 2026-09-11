@@ -28,4 +28,4 @@ title: "个人智能体"
 
 | 来源 | 类型 · 许可 · 语言 | 课时 | 原文 |
 |---|---|---|---|
-| openai-plugins-docs | 官方文档 · 仅引用 · 英文 · 29 md | 1 | — |
+| openai-plugins-docs | 官方文档 · 仅引用 · 英文 · 29 md | 1 | [原文 ↗](https://developers.openai.com/plugins) |

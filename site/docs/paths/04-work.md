@@ -15,7 +15,7 @@ title: "办公与知识工作"
 | ★★★ [WorkBuddyGuide（蓝皮书 + 社区案例集）](/lib/04-work/workbuddy-guide/index) | 工程手册与指南 | 45 | [↗](https://github.com/AlephAITech/WorkBuddyGuide) |
 | ★★★ [千问办公绿皮书（QwenWorkGuide）](/lib/04-work/qwenwork-guide/index) | 工程手册与指南 | 64 | [↗](https://github.com/wangxiaoshuai1998/QwenWorkGuide) |
 | ★★★ [豆包工作蓝皮书（DoubaoWork Guide）](/lib/04-work/doubaowork-bluebook/index) | 实践案例与产品 | 50 | [↗](https://github.com/AlephAITech/DoubaoWorkGuide) |
-| ★★★ [Dify 中文系统教程（How-to-use-dify）](/lib/04-work/how-to-use-dify/index) | 系统课程 | 17 | [↗](https://github.com/hijasonxu1/How-to-use-dify) |
+| ★★★ [Dify 中文系统教程（How-to-use-dify）](/lib/04-work/how-to-use-dify/index) | 系统课程 | 22 | [↗](https://github.com/hijasonxu1/How-to-use-dify) |
 
 ## 进阶与参考
 
@@ -32,13 +32,13 @@ title: "办公与知识工作"
 
 | 来源 | 类型 · 许可 · 语言 | 课时 | 原文 |
 |---|---|---|---|
-| qwenwork-official-help | 官方文档 · 仅引用 · 中文 · 235 md | 1 | — |
-| qwenwork-official-help-cn | 官方文档 · 仅引用 · 中文 · 108 md | 1 | — |
-| coze-official-docs | 官方文档 · 仅引用 · 中文 · 101 md | 1 | — |
-| dify-official-docs | 官方文档 · 仅引用 · 中文 · 1 md | — | — |
-| manus-official-docs | 官方文档 · 仅引用 · 中文 · 1 md | — | — |
-| workbuddy-official-docs | 官方文档 · 仅引用 · 中文 · 1 md | — | — |
-| AI Skills And Experts Archive | 技能与配置库 · 仅引用 · 中文 · 5 md | — | — |
-| qwenwork-xiaolvshu | 其他材料 · 仅引用 · 中文 · 134 md | 1 | — |
-| Office Agents | 其他材料 · 仅引用 · 英文 · 15 md | 1 | — |
-| 千问办公学习站「职场AI三千问」 | 其他材料 · 仅引用 · 中文 · 1 md | 5 | — |
+| 千问办公官方帮助中心（阿里云） | 官方文档 · 仅引用 · 中文 · 235 md | 1 | [原文 ↗](https://help.aliyun.com/zh/qwenwork/) |
+| qwenwork-official-help-cn | 官方文档 · 仅引用 · 中文 · 108 md | 1 | [原文 ↗](https://qwenwork.cn/docs) |
+| 扣子 Coze 官方文档 | 官方文档 · 仅引用 · 中文 · 101 md | 1 | [原文 ↗](https://docs.coze.cn/) |
+| Dify 官方文档 | 官方文档 · 仅引用 · 中文 · 1 md | — | [原文 ↗](https://docs.dify.ai/) |
+| Manus 官方文档 | 官方文档 · 仅引用 · 中文 · 1 md | — | [原文 ↗](https://manus.im/docs/introduction/welcome) |
+| WorkBuddy 官方文档（腾讯） | 官方文档 · 仅引用 · 中文 · 1 md | — | [原文 ↗](https://copilot.tencent.com/) |
+| AI Skills And Experts Archive | 技能与配置库 · 仅引用 · 中文 · 5 md | — | [原文 ↗](https://github.com/ahang1598/doubao-workbuddy-qwenwork-skills/blob/1cd75f0c4adaf7a12d4f6ba276a24b9e0d2367ca/README.md) |
+| qwenwork-xiaolvshu | 其他材料 · 仅引用 · 中文 · 134 md | 1 | [原文 ↗](https://qwenwork.org) |
+| Office Agents | 其他材料 · 仅引用 · 英文 · 15 md | 1 | [原文 ↗](https://github.com/hewliyang/office-agents/blob/95fb654491a9d394dc85ea2b8c93dee2ca4546b9/README.md) |
+| 千问办公学习站「职场AI三千问」 | 其他材料 · 仅引用 · 中文 · 1 md | 5 | [原文 ↗](https://learn.qwenwork.host/) |

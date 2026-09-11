@@ -1,7 +1,7 @@
 ---
 title: "Misc"
 sourceId: "10-context-memory/mattpocock-skills"
-sourceTitle: "**Matt Pocock Skills**"
+sourceTitle: "Matt Pocock Skills（工程技能库）"
 sourceKind: "技能与配置库"
 licenseLabel: "可转载"
 lang: "英文"

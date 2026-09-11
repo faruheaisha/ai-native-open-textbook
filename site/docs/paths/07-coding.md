@@ -40,6 +40,6 @@ title: "AI 编程与 Vibe Coding"
 
 | 来源 | 类型 · 许可 · 语言 | 课时 | 原文 |
 |---|---|---|---|
-| FastCampus AI Agent 바이브코딩 강의 | 系统课程 · 仅引用 · 英文 · 434 md | 6 | — |
-| Vibe Coding 101 for Software Engineers | 系统课程 · 仅引用 · 英文 · 51 md | 1 | — |
-| Lovable for Beginners | 系统课程 · 仅引用 · 英文 · 20 md | — | — |
+| FastCampus AI Agent 바이브코딩 강의 | 系统课程 · 仅引用 · 英文 · 434 md | 6 | [原文 ↗](https://github.com/Koomook/fastcampus-ai-agent-vibecoding/blob/b24208b48c3945769327dbcafc2d632189369520/README.md) |
+| Vibe Coding 101 for Software Engineers | 系统课程 · 仅引用 · 英文 · 51 md | 1 | [原文 ↗](https://github.com/goker/vibe-coding-101-for-software-engineers/blob/60d5a7fc465fc10be3b4478486a9535f1045f607/README.md) |
+| Lovable for Beginners | 系统课程 · 仅引用 · 英文 · 20 md | — | [原文 ↗](https://github.com/cporter202/lovable-for-beginners/blob/c4bfa59c80fa37c99dfa3810541537ab63840512/README.md) |
