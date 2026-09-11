@@ -21,16 +21,16 @@
 
 | # | 学习路径 | 卷目录 | 适合谁 |
 |---|---|---|---|
-| 01 | AI 基础与模型认知 | `01-foundations` | 想先建立大模型与生成式 AI 的基本认知 |
-| 02 | 办公与知识工作 | `04-work` | 想立刻用 Agent 处理文档、表格、流程与知识库 |
-| 03 | AI 编程与 Vibe Coding | `07-coding` | 想用 AI 写代码、做产品、跑通从需求到上线 |
-| 04 | 智能体工程 | `08-agents` | 想自己搭 Agent、做 RAG、做多智能体系统 |
-| 05 | Harness 与编码 Agent | `09-harness` | 想弄懂 Claude Code / Codex 这类编码 Agent 内部怎么运作 |
-| 06 | 上下文、记忆与技能 | `10-context-memory` | 想提升上下文工程、记忆机制与技能体系 |
-| 07 | 个人智能体 | `11-personal-agents` | 想搭自己的个人助理与自动化工作流 |
-| 08 | 本地与端侧 AI | `13-local-ai` | 想在本机 / 边缘设备上跑模型 |
+| 01 | AI 基础与模型认知 | [`01-foundations`](site/docs/lib/01-foundations) | 想先建立大模型与生成式 AI 的基本认知 |
+| 02 | 办公与知识工作 | [`04-work`](site/docs/lib/04-work) | 想立刻用 Agent 处理文档、表格、流程与知识库 |
+| 03 | AI 编程与 Vibe Coding | [`07-coding`](site/docs/lib/07-coding) | 想用 AI 写代码、做产品、跑通从需求到上线 |
+| 04 | 智能体工程 | [`08-agents`](site/docs/lib/08-agents) | 想自己搭 Agent、做 RAG、做多智能体系统 |
+| 05 | Harness 与编码 Agent | [`09-harness`](site/docs/lib/09-harness) | 想弄懂 Claude Code / Codex 这类编码 Agent 内部怎么运作 |
+| 06 | 上下文、记忆与技能 | [`10-context-memory`](site/docs/lib/10-context-memory) | 想提升上下文工程、记忆机制与技能体系 |
+| 07 | 个人智能体 | [`11-personal-agents`](site/docs/lib/11-personal-agents) | 想搭自己的个人助理与自动化工作流 |
+| 08 | 本地与端侧 AI | [`13-local-ai`](site/docs/lib/13-local-ai) | 想在本机 / 边缘设备上跑模型 |
 
-站点首页提供了同样的入口：`/paths/<卷>`。
+站点首页提供了同样的入口：`/paths/<卷>`；上表「卷目录」一列就是仓库内可直接点开的正文目录。
 
 ## 2. 十二种资料类型
 
@@ -85,12 +85,14 @@
         └── .vitepress/       导航、主题与组件
 ```
 
+在 GitHub 上直接点开：[`catalog/`](catalog) · [`curation.json`](curation.json) · [`NOTICE.md`](NOTICE.md) · [`LICENSES/`](LICENSES) · [`site/docs/lib/`](site/docs/lib) · [`课程设计基线/`](课程设计基线)
+
 ## 5. 许可与署名
 
 教材里混合了两种性质的内容，许可必须分开看：
 
-- **本项目自身的代码与编排**（构建脚本、站点主题、目录结构、分类与分级）：MIT，见 `LICENSE`。
-- **第三方课程内容**：仍归原作者所有，按各自上游许可使用。完整逐条清单见 `NOTICE.md`。
+- **本项目自身的代码与编排**（构建脚本、站点主题、目录结构、分类与分级）：MIT，见 [`LICENSE`](LICENSE)。
+- **第三方课程内容**：仍归原作者所有，按各自上游许可使用。完整逐条清单见 [`NOTICE.md`](NOTICE.md)。
 
 按上游许可分三级：
 
@@ -118,9 +120,9 @@ npm run docs:preview  # 预览构建产物
 
 | 命令 | 作用 |
 |---|---|
-| `node scripts/build-catalog.mjs` | 由 `upstream/` 快照重建 `catalog/catalog.json` |
-| `node scripts/build-site-content.mjs` | 依据 `catalog` + `curation` + `derived` + `translations` 生成 `site/docs/lib/**` |
-| `node scripts/build-notice.mjs` | 依据 `catalog/catalog.json` 重建 `NOTICE.md`（第三方署名与许可清单） |
+| [`node scripts/build-catalog.mjs`](scripts/build-catalog.mjs) | 由 `upstream/` 快照重建 `catalog/catalog.json` |
+| [`node scripts/build-site-content.mjs`](scripts/build-site-content.mjs) | 依据 `catalog` + `curation` + `derived` + `translations` 生成 `site/docs/lib/**` |
+| [`node scripts/build-notice.mjs`](scripts/build-notice.mjs) | 依据 `catalog/catalog.json` 重建 `NOTICE.md`（第三方署名与许可清单） |
 
 `upstream/` 是上游仓库的只读快照，体积约 1.26 GB，未纳入版本控制。仅重建站内正文时不需要它 —— 站内正文的来源已在 `derived/` 与 `translations/` 中固化。
 
@@ -135,9 +137,9 @@ npm run docs:preview  # 预览构建产物
 
 ## 8. 来源总表
 
-- 站点内：`site/docs/sources/index.md`（143 条，含许可与原文入口）
-- 结构化数据：`catalog/catalog.json`
-- 第三方署名与本仓库的许可说明：`NOTICE.md`
+- 站点内：[`site/docs/sources/index.md`](site/docs/sources/index.md)（143 条，含许可与原文入口）
+- 结构化数据：[`catalog/catalog.json`](catalog/catalog.json)
+- 第三方署名与本仓库的许可说明：[`NOTICE.md`](NOTICE.md)
 
 ---
 
