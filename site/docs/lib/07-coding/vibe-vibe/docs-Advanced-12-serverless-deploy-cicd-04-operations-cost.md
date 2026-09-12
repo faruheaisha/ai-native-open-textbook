@@ -36,7 +36,7 @@ zh: ""
 
 部署平台通常提供一个分析面板，展示你的应用运行状态。
 
-![image-20260302021249583](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260302021249583.png)
+![image-20260302021249583](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260302021249583.png)
 
 不同平台的分析面板位置不同：
 - **EdgeOne**：控制台 → 项目 → 数据分析
@@ -68,7 +68,7 @@ Error: Connection timed out - database not responding
 - **Vercel**：Dashboard → 项目 → Logs，可以按时间和关键词筛选
 - **Cloudflare**：Dashboard → Workers & Pages → 实时日志
 
-![image-20260302021359067](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260302021359067.png)
+![image-20260302021359067](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260302021359067.png)
 
 ## 平台已经帮你做的优化
 

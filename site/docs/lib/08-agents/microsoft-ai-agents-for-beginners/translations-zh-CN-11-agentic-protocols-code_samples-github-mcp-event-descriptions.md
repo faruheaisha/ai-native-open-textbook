@@ -12,6 +12,8 @@ entryUrl: "https://github.com/microsoft/ai-agents-for-beginners/blob/25b7985f3b2
 zh: ""
 ---
 
+# AI Agents for Beginners（微软官方入门课）
+
 ## 活动名称：使用 Microsoft Foundry Agent Service 构建您的代码优先应用程序（EMEA/美国提供）
 
 ## 描述

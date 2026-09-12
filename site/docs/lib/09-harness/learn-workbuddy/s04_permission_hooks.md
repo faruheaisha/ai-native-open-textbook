@@ -20,7 +20,7 @@ zh: ""
 
 ---
 
-![权限治理流水线](https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s04_permission_hooks/images/permission-gates.svg)
+![权限治理流水线](https://gh-proxy.com/https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s04_permission_hooks/images/permission-gates.svg)
 
 ## 代码架构图
 

@@ -10,7 +10,7 @@ lang: "英文"
 volume: "13-local-ai"
 sourceUrl: "https://github.com/microsoft/edgeai-for-beginners"
 entryUrl: "https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/README.md"
-zh: ""
+zh: "on"
 ---
 
 # EdgeAI for Beginners

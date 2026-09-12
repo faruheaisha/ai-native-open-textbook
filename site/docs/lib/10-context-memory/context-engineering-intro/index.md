@@ -10,7 +10,7 @@ lang: "英文"
 volume: "10-context-memory"
 sourceUrl: "https://github.com/coleam00/context-engineering-intro"
 entryUrl: "https://github.com/coleam00/context-engineering-intro/blob/a2d84b021cee1e2f4e77ba854bba0be8cb319035/README.md"
-zh: ""
+zh: "on"
 ---
 
 # Context Engineering Intro

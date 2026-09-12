@@ -14,7 +14,7 @@ zh: ""
 
 # **第6章 桌面端核心功能**
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/assets/001_b600a767-2f0d-464d-9d54-2e7e1712b2a0.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/assets/001_b600a767-2f0d-464d-9d54-2e7e1712b2a0.webp)
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 

@@ -12,6 +12,8 @@ entryUrl: "https://github.com/walkinglabs/learn-harness-engineering/blob/77e7a3e
 zh: ""
 ---
 
+# Learn Harness Engineering
+
 <h1 align="center">Learn Harness Engineering</h1>
 
 <p align="center"><strong>A project-based course on building the environment, state management, verification, and control mechanisms that make AI coding agents work reliably.</strong></p>
@@ -97,17 +99,17 @@ Learn Harness Engineering is a course dedicated to the engineering of AI coding 
 ### 🏠 Course Homepage
 > A comprehensive course outline and introduction to core philosophies, providing a clear path to get started.
 
-![Course homepage preview](https://raw.githubusercontent.com/walkinglabs/learn-harness-engineering/77e7a3e21469dcbece2558086c8d91657abeaa40/docs/public/screenshots/readme/en-home.png)
+![Course homepage preview](https://gh-proxy.com/https://raw.githubusercontent.com/walkinglabs/learn-harness-engineering/77e7a3e21469dcbece2558086c8d91657abeaa40/docs/public/screenshots/readme/en-home.png)
 
 ### 📖 Immersive Lectures
 > Deep dives into real-world pain points and hands-on projects (like Project 01) for an immersive learning experience.
 
-![Course lecture preview](https://raw.githubusercontent.com/walkinglabs/learn-harness-engineering/77e7a3e21469dcbece2558086c8d91657abeaa40/docs/public/screenshots/readme/en-lecture-01.png)
+![Course lecture preview](https://gh-proxy.com/https://raw.githubusercontent.com/walkinglabs/learn-harness-engineering/77e7a3e21469dcbece2558086c8d91657abeaa40/docs/public/screenshots/readme/en-lecture-01.png)
 
 ### 🗂️ Ready-to-Use Resource Library
 > Templates and reference configurations designed to solve common pitfalls in multi-turn AI agent development, such as context loss and premature task completion.
 
-![Resource library preview](https://raw.githubusercontent.com/walkinglabs/learn-harness-engineering/77e7a3e21469dcbece2558086c8d91657abeaa40/docs/public/screenshots/readme/en-resources.png)
+![Resource library preview](https://gh-proxy.com/https://raw.githubusercontent.com/walkinglabs/learn-harness-engineering/77e7a3e21469dcbece2558086c8d91657abeaa40/docs/public/screenshots/readme/en-resources.png)
 
 ## PDF Coursebooks
 

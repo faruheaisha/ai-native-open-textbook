@@ -12,6 +12,8 @@ entryUrl: ""
 zh: ""
 ---
 
+# Ed Donner：AI Agents 实战课
+
 ## Setup
 
 1. **Dependencies** — `requirements.txt` is required so Spaces installs `openai`, `gradio`, etc. Commit it at the **root** of your Space repo (same folder as `app.py`).

@@ -12,6 +12,8 @@ entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a0
 zh: ""
 ---
 
+# 鱼皮 AI 导航（ai-guide）
+
 ## 人有多大胆，地有多大产：如何用DeepSeek写长篇小说
 
 不是科学家或技术人士，所有AI对作者而言都是一个工具助手。大部分“专业”的评论可能不如让AI自行解释。

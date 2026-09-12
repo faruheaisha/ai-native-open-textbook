@@ -49,7 +49,7 @@ What you want to extend is the Agent's behavior, but what you're modifying is th
 
 ## The Solution
 
-![Hooks Overview](https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s04_hooks/images/hooks-overview.en.svg)
+![Hooks Overview](https://gh-proxy.com/https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s04_hooks/images/hooks-overview.en.svg)
 
 The s03 loop and permission logic are fully preserved. The only change is moving `check_permission()` from inside the loop body onto a hook. The loop no longer directly calls any check function. Instead it calls `trigger_hooks("PreToolUse", block)`, and the registry decides what to run.
 

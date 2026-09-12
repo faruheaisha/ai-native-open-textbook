@@ -9,14 +9,18 @@ tier: 1
 volume: "10-context-memory"
 sourceUrl: "https://github.com/coleam00/context-engineering-intro"
 entryUrl: "https://github.com/coleam00/context-engineering-intro/blob/a2d84b021cee1e2f4e77ba854bba0be8cb319035/README.md"
-zh: ""
+zh: "on"
 ---
 
 # 🏭 Pydantic AI Agent Factory - Global Orchestration Rules
 
 This defines the complete orchestration workflow for the AI Agent Factory system and the principles that apply to ALL Pydantic AI agent development work. When a user requests to build an AI agent, follow this systematic process using specialized subagents to transform high-level requirements into simple but complete Pydantic AI agents.
 
+<div class="tb-zh"><p>本文件定义了 AI Agent Factory 系统的完整编排工作流，以及适用于所有 Pydantic AI agent 开发工作的原则。当用户请求构建 AI agent 时，遵循这套系统化流程，用专门的 subagent 把高层需求转化为简单但完整的 Pydantic AI agent。</p></div>
+
 **Core Philosophy**: Transform "I want an agent that can search the web" into a fully-functional and tested Pydantic AI agent. User input is required during Phase 0 clarification, then the process runs autonomously.
+
+<div class="tb-zh"><p>核心理念：把「我想要一个能搜索网页的 agent」这句话变成功能完整且经过测试的 Pydantic AI agent。只有在阶段 0 澄清时需要用户输入，之后就自主运行。</p></div>
 
 ---
 
@@ -24,10 +28,14 @@ This defines the complete orchestration workflow for the AI Agent Factory system
 
 ⚠️ **CRITICAL WORKFLOW TRIGGER**: When ANY user request involves creating, building, or developing an AI agent:
 
+<div class="tb-zh"><p>⚠️ 关键的工作流触发条件：当任何用户请求涉及创建、构建或开发 AI agent 时：</p></div>
+
 1. **IMMEDIATELY** recognize this as an agent factory request (stop everything else)
 2. **MUST** follow Phase 0 first - ask clarifying questions
 3. **WAIT** for user responses
 4. **THEN** check Archon and proceed with workflow
+
+<div class="tb-zh"><p>1）立即把它识别为 agent factory 请求（停下手上的其他事情）；2）必须先走阶段 0——提出澄清问题；3）等待用户回答；4）然后再检查 Archon 并推进工作流。</p></div>
 
 **Factory Workflow Recognition Patterns** (if user says ANY of these):
 - "Build an AI agent that..."
@@ -36,6 +44,8 @@ This defines the complete orchestration workflow for the AI Agent Factory system
 - "Make a Pydantic AI agent..."
 - "I want to build a Pydantic AI agent..."
 - Any request mentioning agent/AI/LLM + functionality
+
+<div class="tb-zh"><p>工厂工作流的识别模式（用户只要说出以下任意一句）：「Build an AI agent that...」「Create an agent for...」「I need an AI assistant that can...」「Make a Pydantic AI agent...」「I want to build a Pydantic AI agent...」，以及任何提到 agent、AI 或 LLM 并附带功能的请求。</p></div>
 
 **MANDATORY Archon Integration (happens AFTER Phase 0):**
 1. After getting user clarifications, run `mcp__archon__health_check`
@@ -57,13 +67,19 @@ This defines the complete orchestration workflow for the AI Agent Factory system
    - **INSTRUCT** all subagents to reference the Archon project ID
 3. If Archon is not available: Proceed without it but use TodoWrite for local tracking
 
+<div class="tb-zh"><p>强制的 Archon 集成（发生在阶段 0 之后）： 1）拿到用户澄清之后，运行 mcparchonhealth_check；2）如果 Archon 可用：创建一个对应正在构建的 agent 的 Archon 项目；为每个工作流阶段在 Archon 中创建任务——任务 1：「Requirements Analysis」（阶段 1，pydantic-ai-planner）、任务 2：「System Prompt Design」（阶段 2A，pydantic-ai-prompt-engineer）、任务 3：「Tool Development Planning」（阶段 2B，pydantic-ai-tool-integrator）、任务 4：「Dependency Configuration」（阶段 2C，pydantic-ai-dependency-manager）、任务 5：「Agent Implementation」（阶段 3，主 Claude Code）、任务 6：「Validation &amp; Testing」（阶段 4，pydantic-ai-validator）、任务 7：「Documentation &amp; Delivery」（阶段 5，主 Claude Code）；随着推进更新每个任务的状态——阶段开始时标为 "doing"，阶段成功完成时标为 "done"，并补充关于问题或偏差的备注；实现期间使用 Archon 的 RAG 查文档；指示所有 subagent 引用该 Archon 项目 ID；3）如果 Archon 不可用：不用它继续推进，但改用 TodoWrite 做本地跟踪。</p></div>
+
 **WORKFLOW ENFORCEMENT**: You MUST:
 1. Start with Phase 0 (clarifying questions)
 2. Wait for user response before proceeding
 3. Then systematically progress through ALL phases
 4. Never jump directly to implementation
 
+<div class="tb-zh"><p>工作流强制要求：你必须：1）从阶段 0（澄清问题）开始；2）等待用户回答后再继续；3）然后系统性地走完全部阶段；4）绝不直接跳到实现。</p></div>
+
 When you want to use or call upon a subagent, you must invoke the subagent, giving them a prompt and passing control to them.
+
+<div class="tb-zh"><p>当你想使用或调用某个 subagent 时，必须真正调用它，给它一段提示词并把控制权交给它。</p></div>
 
 ---
 
@@ -79,6 +95,9 @@ When you want to use or call upon a subagent, you must invoke the subagent, givi
 - Any request mentioning agent/AI/LLM + functionality
 
 **Immediate Action**:
+
+<div class="tb-zh"><p>立即行动：</p></div>
+
 ```
 1. Acknowledge agent creation request
 2. Ask 2-3 targeted clarifying questions (BEFORE invoking planner):
@@ -122,6 +141,8 @@ Actions:
 - ✅ External dependencies
 - ✅ Success criteria
 
+<div class="tb-zh"><p>质量门禁：INITIAL.md 必须包含：✅ agent 的分类与类型；✅ 功能需求；✅ 技术需求；✅ 外部依赖；✅ 成功标准。</p></div>
+
 ### Phase 2: Parallel Component Development ⚡
 **Execute SIMULTANEOUSLY** (all three subagents work in parallel):
 **Archon**: Update Tasks 2, 3, 4 to "doing" before parallel invocation
@@ -131,9 +152,12 @@ Actions:
 - ✅ RIGHT: Single message with three Task tool invocations
 - Also update all three Archon tasks (2, 3, 4) to "doing" before the parallel invocation
 
+<div class="tb-zh"><p>关键：使用并行工具调用：调用多个 subagent 时，你必须在同一条消息里用多个 tool use 调用全部三个 Task 工具。这样才能保证真正的并行执行。❌ 错误做法：调用 planner，等它完成，再调用 prompt engineer。✅ 正确做法：一条消息里发起三个 Task 工具调用。另外，在并行调用之前把三个 Archon 任务（2、3、4）都更新为 "doing"。</p></div>
+
 #### 2A: System Prompt Engineering
 **Subagent**: `pydantic-ai-prompt-engineer`
 **Philosophy**: SIMPLE, CLEAR prompts - typically 100-300 words
+
 ```
 Input: planning/INITIAL.md + FOLDER NAME from main agent
 Output: agents/[EXACT_FOLDER_NAME]/planning/prompts.md
@@ -147,6 +171,7 @@ Contents:
 #### 2B: Tool Development Planning
 **Subagent**: `pydantic-ai-tool-integrator`
 **Philosophy**: MINIMAL tools - 2-3 essential functions only
+
 ```
 Input: planning/INITIAL.md + FOLDER NAME from main agent
 Output: agents/[EXACT_FOLDER_NAME]/planning/tools.md
@@ -161,6 +186,7 @@ Contents:
 #### 2C: Dependency Configuration Planning
 **Subagent**: `pydantic-ai-dependency-manager`
 **Philosophy**: MINIMAL config - essential environment variables only
+
 ```
 Input: planning/INITIAL.md + FOLDER NAME from main agent
 Output: agents/[EXACT_FOLDER_NAME]/planning/dependencies.md
@@ -173,6 +199,8 @@ Contents:
 ```
 
 **Phase 2 Complete When**: All three subagents report completion
+
+<div class="tb-zh"><p>阶段 2 完成的标志：三个 subagent 都报告完成。</p></div>
 
 ### Phase 3: Agent Implementation 🔨
 **Actor**: Main Claude Code (not a subagent)
@@ -241,10 +269,13 @@ Actions:
 - Error handling verified
 - Performance acceptable
 
+<div class="tb-zh"><p>成功标准：所有需求都经过验证；核心功能经过测试；错误处理经过核实；性能可接受。</p></div>
+
 ### Phase 5: Delivery & Documentation 📦
 **Actor**: Main Claude Code
 **Archon**: Update Task 7 to "doing" before final documentation
 **Final Actions**:
+
 ```
 1. Update Archon Task 7 "Documentation & Delivery" to status="doing"
 2. Generate comprehensive README.md
@@ -262,6 +293,7 @@ Actions:
 
 ### Task Creation Flow
 When Archon is available, create all workflow tasks immediately after project creation:
+
 ```python
 # After creating Archon project
 tasks = [
@@ -291,6 +323,7 @@ Always pass the Archon project ID to subagents:
 
 ### Automatic Invocation
 Subagents are invoked AUTOMATICALLY based on workflow phase:
+
 ```python
 if user_request.contains(agent_creation_pattern):
     # Phase 0 - Main Claude Code asks clarifications
@@ -327,6 +360,9 @@ Users can explicitly request specific subagents:
 ## 📁 Output Directory Structure
 
 Every agent factory run creates:
+
+<div class="tb-zh"><p>每一次 agent factory 运行都会创建：</p></div>
+
 ```
 agents/
 └── [agent_name]/
@@ -356,6 +392,7 @@ agents/
 
 ### For Simple Agent Requests
 Example: "Build an agent that can search the web"
+
 ```
 1. Planner asks minimal questions (1-2)
 2. Assumes standard patterns (Brave API, string output)
@@ -365,6 +402,7 @@ Example: "Build an agent that can search the web"
 
 ### For Complex Agent Requests
 Example: "Build a multi-modal agent with database, caching, and workflow orchestration"
+
 ```
 1. Planner asks comprehensive questions (4-5)
 2. Multiple iterations may be needed
@@ -373,6 +411,7 @@ Example: "Build a multi-modal agent with database, caching, and workflow orchest
 
 ### Error Handling Protocol
 If any subagent fails:
+
 ```
 1. Log error with context
 2. Attempt automatic recovery
@@ -386,6 +425,8 @@ If any subagent fails:
 ## 📝 Main Agent Clarification Guidelines
 
 When a user requests an AI agent, the main Claude Code agent should:
+
+<div class="tb-zh"><p>当用户请求一个 AI agent 时，主 Claude Code agent 应当：</p></div>
 
 ### Ask 2-3 Focused Questions
 Keep questions simple and targeted:
@@ -410,6 +451,9 @@ When invoking the planner, provide:
 **User**: "I want to build an AI agent that can search the web"
 
 **Claude Code Response**:
+
+<div class="tb-zh"><p>Claude Code 的回应：</p></div>
+
 ```
 I'll help you build a web search AI agent using the Pydantic AI framework. Let me ask a few quick questions to better understand your needs:
 
@@ -445,6 +489,9 @@ Your web search agent is ready at: agents/web_search_agent/
 **User**: "Create an agent that can query PostgreSQL databases and explain results"
 
 **Claude Code Response**:
+
+<div class="tb-zh"><p>Claude Code 的回应：</p></div>
+
 ```
 I'll create a PostgreSQL query agent with explanation capabilities. Let me ask a few quick questions first:
 
@@ -469,6 +516,7 @@ Great! Based on your requirements [summarize their answers], I'll now create a c
 
 ### Progress Tracking
 Claude Code should provide status updates:
+
 ```
 ✅ Phase 1: Requirements Complete (INITIAL.md created)
 ⏳ Phase 2: Building Components (3 subagents working...)
@@ -534,6 +582,8 @@ Track factory performance:
 - **Validation Pass Rate**: 100% of requirements tested
 - **User Intervention**: Minimize to initial requirements only
 
+<div class="tb-zh"><p>跟踪工厂的性能：完成时间——标准 agent 的目标是 15 分钟以内；测试覆盖率——agent 最低 80%；验证通过率——100% 的需求经过测试；用户介入——尽量只限于初始需求。</p></div>
+
 ---
 
 ## 🔄 Continuous Improvement
@@ -585,11 +635,15 @@ Before considering an agent complete:
 - [ ] Security measures in place
 - [ ] User provided with clear next steps
 
+<div class="tb-zh"><p>在认为一个 agent 完成之前：需求已记录在 INITIAL.md 中；所有组件都由 subagent 生成；agent 实现完整且可用；测试已编写并通过；文档完整；安全措施到位；已向用户提供清晰的后续步骤。</p></div>
+
 ---
 
 ## 🔄 Pydantic AI Core Principles
 
 **IMPORTANT: These principles apply to ALL Pydantic AI agent development:**
+
+<div class="tb-zh"><p>重要：这些原则适用于所有 Pydantic AI agent 开发：</p></div>
 
 ### Research Methodology for AI Agents
 - **Web search extensively** - Always research Pydantic AI patterns and best practices
@@ -604,6 +658,8 @@ Before considering an agent complete:
 - **Follow established agent directory organization** patterns (agent.py, tools.py, models.py)
 - **Leverage Pydantic AI examples extensively** - Study existing patterns before creating new agents
 
+<div class="tb-zh"><p>使用虚拟环境运行所有代码与测试，如果代码库中还没有，就在需要时创建它；使用统一的 Pydantic AI 命名约定与 agent 结构模式；遵循既定的 agent 目录组织模式（agent.py、tools.py、models.py）；大量借鉴 Pydantic AI 示例——在创建新 agent 之前先研究既有模式。</p></div>
+
 ## 🧱 Agent Structure & Modularity
 
 - **Never create files longer than 500 lines** - Split into modules when approaching limit
@@ -615,6 +671,8 @@ Before considering an agent complete:
 - **Use clear, consistent imports** - Import from pydantic_ai package appropriately
 - **Use python-dotenv and load_dotenv()** for environment variables - Follow examples/main_agent_reference/settings.py pattern
 - **Never hardcode sensitive information** - Always use .env files for API keys and configuration
+
+<div class="tb-zh"><p>绝不创建超过 500 行的文件——接近上限时就拆分成模块；把 agent 代码组织成按职责清晰分离的模块：agent.py 负责主 agent 的定义与执行逻辑，tools.py 存放 agent 使用的工具函数，models.py 存放 Pydantic 输出模型与依赖类，dependencies.py 存放上下文依赖与外部服务集成；使用清晰一致的导入方式——从 pydantic_ai 包按恰当方式导入；使用 python-dotenv 和 load_dotenv() 处理环境变量——遵循 examples/main_agent_reference/settings.py 的模式；绝不硬编码敏感信息——API key 与配置一律使用 .env 文件。</p></div>
 
 ## 🤖 Pydantic AI Development Standards
 
@@ -631,6 +689,7 @@ Before considering an agent complete:
 - **Handle tool errors gracefully** - Implement retry mechanisms and error recovery
 
 ### Environment Variable Configuration with python-dotenv
+
 ```python
 # Use python-dotenv and pydantic-settings for proper configuration management
 from pydantic_settings import BaseSettings
@@ -695,9 +754,12 @@ def get_llm_model():
 - **Update task status in real-time** as agent development progresses
 - **Test agent behavior** before marking implementation tasks complete
 
+<div class="tb-zh"><p>把 agent 开发拆解为清晰的步骤，并为每步设定具体的完成标准；任务一完成就立即标记；随着开发推进实时更新任务状态；在把实现任务标记为完成之前，先测试 agent 的行为。</p></div>
+
 ## 📎 Pydantic AI Coding Standards
 
 ### Agent Architecture
+
 ```python
 # Follow main_agent_reference patterns - no result_type unless structured output needed
 from pydantic_ai import Agent, RunContext

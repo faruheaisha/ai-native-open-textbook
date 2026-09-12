@@ -1,0 +1,224 @@
+/* reader.css — 正文阅读排版层（代码 / 表格 / 引用 / 标题节奏 / 链接 / 释义）
+   ------------------------------------------------------------------
+   这一层只做一件事：把课程正文的阅读质感从「文档站默认」提到「教材」。
+   写入范围仅本文件；≥768px 的布局类规则在本文件，≤767px 归 mobile.css。
+   每条规则都带 html 前缀，以稳定压过 style.css。
+
+   为什么要有 `--tb-read-ink`：改造前同一段正文里，<p> 落在 --tb-ink-2（#55585f）、
+   <li> 落在 --tb-ink（#17181a），深浅不一；段落是正文的主体，却用了「次级文字」色。
+   这里给正文单独定一档阅读墨色：比 --tb-ink 柔、比 --tb-ink-2 沉。 */
+
+:root {
+  --tb-read-ink: #33353a;
+  --tb-code-ink: #2f3033;
+  --tb-rule: #cbc5b6;
+}
+
+html.dark {
+  --tb-read-ink: #d3d1ca;
+  --tb-code-ink: #cfcdc6;
+  --tb-rule: #45453d;
+}
+
+/* ---------- 一、正文墨色：段落 / 列表 / 表格 / 强调统一到同一档 ---------- */
+
+html .vp-doc p,
+html .vp-doc li,
+html .vp-doc dd,
+html .vp-doc td {
+  color: var(--tb-read-ink);
+}
+
+html .vp-doc em,
+html .vp-doc strong,
+html .vp-doc b {
+  color: var(--tb-read-ink);
+}
+
+/* ---------- 二、代码 ---------- */
+
+/* 围栏块原来只靠一层浅底和页面区分，在米白页面上几乎看不出边界 */
+html .vp-doc div[class*='language-'] {
+  box-shadow: inset 0 0 0 1px var(--tb-line);
+}
+
+/* 13.5px 在长代码里偏小；行高同步提到 1.72，保持每行可扫读。
+   注意权重：style.css 的 `.vp-doc div[class*="language-"] code` 是 0-2-1，
+   写成 `html .vp-doc pre code`（0-1-3）会被它压掉，白改。 */
+html .vp-doc div[class*="language-"] code {
+  font-size: 14px;
+  line-height: 1.72;
+  color: var(--tb-code-ink);
+}
+
+/* 行内 code 原来是 rgba(142,150,170,.14) —— 一块偏蓝灰的底，和全站暖中性色不搭 */
+html .vp-doc :not(pre) > code {
+  padding: 2px 6px;
+  border-radius: 5px;
+  background: rgba(23, 24, 26, 0.055);
+  color: var(--tb-accent-ink);
+  font-size: 0.875em;
+  /* 长路径断行时两段都要有圆角和内边距，不能出现缺口 */
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+html.dark .vp-doc :not(pre) > code {
+  background: rgba(236, 235, 229, 0.09);
+}
+
+html .vp-doc .lang {
+  font-size: 11px;
+  letter-spacing: 0.07em;
+  color: var(--tb-ink-3);
+}
+
+/* ---------- 三、表格：学术表头（上下粗线 + 表头下线） ----------
+   只作用于课程页。索引页（/sources/、/library/ 等）的表格由 home.css 负责，别动它们。 */
+
+html .VPDoc:has(.tb-crumb) .vp-doc table {
+  margin: 1.15rem 0 1.8rem;
+}
+
+html .VPDoc:has(.tb-crumb) .vp-doc thead th {
+  border-top: 2px solid var(--tb-rule);
+  border-bottom: 1.5px solid var(--tb-rule);
+  padding: 9px 12px;
+  font-size: 12.5px;
+  letter-spacing: 0.03em;
+  font-weight: 600;
+}
+
+html .VPDoc:has(.tb-crumb) .vp-doc tbody td {
+  border-bottom: 1px solid var(--tb-line);
+}
+
+html .VPDoc:has(.tb-crumb) .vp-doc tbody tr:last-child td {
+  border-bottom: 2px solid var(--tb-rule);
+}
+
+/* 极轻的斑马纹：够区分行，又不会把表格变成格子布 */
+html .VPDoc:has(.tb-crumb) .vp-doc tbody tr:nth-child(even) {
+  background: rgba(23, 24, 26, 0.016);
+}
+
+html.dark .VPDoc:has(.tb-crumb) .vp-doc tbody tr:nth-child(even) {
+  background: rgba(236, 235, 229, 0.03);
+}
+
+html .VPDoc:has(.tb-crumb) .vp-doc tbody tr:hover {
+  background: var(--tb-accent-soft);
+}
+
+html .VPDoc:has(.tb-crumb) .vp-doc td code,
+html .VPDoc:has(.tb-crumb) .vp-doc th code {
+  font-size: 0.86em;
+}
+
+/* ---------- 四、引用：学术细线 ----------
+   原来是 3px 线 + 整块灰底，像提示框；改成细线 + 无底，读起来是「引文」。 */
+
+html .vp-doc blockquote {
+  border-left: 2px solid var(--tb-line-2);
+  background: transparent;
+  padding: 0.1rem 0 0.1rem 1.05rem;
+  margin: 1.15rem 0;
+  color: var(--tb-ink-2);
+}
+
+html .vp-doc blockquote > p {
+  font-size: 15.5px;
+  line-height: 1.7;
+}
+
+/* 引文里紧跟的署名行（通常是 — 某人）再弱一档 */
+html .vp-doc blockquote > p:last-child:not(:only-child) {
+  color: var(--tb-ink-3);
+  font-size: 14px;
+}
+
+/* ---------- 五、标题节奏----------
+   h2 上方要明显大于下方，否则章节之间会「黏」在一起。 */
+
+html .vp-doc h2 {
+  font-size: 22px;
+  line-height: 1.35;
+  margin: 2.7rem 0 0.95rem;
+}
+
+html .vp-doc h3 {
+  font-size: 18px;
+  line-height: 1.4;
+  margin: 2rem 0 0.6rem;
+}
+
+html .vp-doc h4 {
+  font-size: 16.5px;
+  margin: 1.5rem 0 0.5rem;
+}
+
+/* 紧跟在标题后面的段落，不要再叠加一次上边距 */
+html .vp-doc h2 + p,
+html .vp-doc h3 + p,
+html .vp-doc h4 + p {
+  margin-top: 0;
+}
+
+/* ---------- 六、列表节奏 ---------- */
+
+html .vp-doc li + li {
+  margin-top: 0.4rem;
+}
+
+html .vp-doc li > ul,
+html .vp-doc li > ol {
+  margin-top: 0.4rem;
+}
+
+/* ---------- 七、链接：正文里的链接给一条淡下划线 ----------
+   全站链接默认无色差、无下划线，在一段英文里几乎看不出哪个词可以点。 */
+
+html .VPDoc:has(.tb-crumb) .vp-doc a:not(.header-anchor) {
+  border-bottom: 1px solid rgba(184, 92, 56, 0.3);
+  transition: border-bottom-color 0.15s ease;
+}
+
+html.dark .VPDoc:has(.tb-crumb) .vp-doc a:not(.header-anchor) {
+  border-bottom-color: rgba(224, 137, 95, 0.34);
+}
+
+html .VPDoc:has(.tb-crumb) .vp-doc a:not(.header-anchor):hover {
+  border-bottom-color: currentColor;
+}
+
+/* 列表导航式的一整行链接、卡片链接不下划线，避免变成一片横线 */
+html .VPDoc:has(.tb-crumb) .vp-doc li > a:only-child,
+html .VPDoc:has(.tb-crumb) .vp-doc p > a:only-child > img {
+  border-bottom-color: transparent;
+}
+
+/* ---------- 八、图片题注 ----------
+   只认「图片独占一段」后面紧跟的「斜体独占一段」——
+   不能对所有斜体下手，站内 228 处独立斜体段落里 95% 是周次标注。 */
+
+html .vp-doc p:has(> img:only-child) + p > em:only-child {
+  display: block;
+  margin-top: -0.45rem;
+  text-align: center;
+  font-size: 13.5px;
+  font-style: normal;
+  color: var(--tb-ink-3);
+}
+
+html .vp-doc p:has(> img:only-child) > img:only-child {
+  margin: 0 auto;
+}
+
+/* ---------- 九、分隔线 ---------- */
+
+html .VPDoc:has(.tb-crumb) .vp-doc hr {
+  height: 1px;
+  border: 0;
+  background: var(--tb-line);
+  margin: 2.4rem 0;
+}

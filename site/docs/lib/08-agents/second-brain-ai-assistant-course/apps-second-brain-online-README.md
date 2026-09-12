@@ -146,7 +146,7 @@ make local-infrastructure-down
 > [!NOTE]
 > To visualize the raw and RAG data from MongoDB, we recommend using [MongoDB Compass](https://rebrand.ly/second-brain-course-mongodb-compass) or Mongo's official IDE plugin (e.g., `MongoDB for VS Code`). To connect to the working MongoDB instance, use the `MONGODB_URI` value from the `.env` file or found inside the [config.py](https://github.com/decodingai-magazine/second-brain-ai-assistant-course/blob/17ccef571db3e4b563826dab83ecc9298a54ede1/apps/second-brain-online/src/second_brain_online/config.py) file.
 
-![mongodb_atlas_example.png](https://raw.githubusercontent.com/decodingai-magazine/second-brain-ai-assistant-course/17ccef571db3e4b563826dab83ecc9298a54ede1/static/mongodb_atlas_example.png)
+![mongodb_atlas_example.png](https://gh-proxy.com/https://raw.githubusercontent.com/decodingai-magazine/second-brain-ai-assistant-course/17ccef571db3e4b563826dab83ecc9298a54ede1/static/mongodb_atlas_example.png)
 
 # ⚡️ Running the Code for Each Module
 
@@ -190,7 +190,7 @@ make evaluate_agent RETRIEVER_CONFIG=configs/compute_rag_vector_index_openai_par
 
 After running the evaluation, open [Opik](https://rebrand.ly/second-brain-course-opik-dashboard) to see the evaluation results, as seen in the image below:
 
-![Opik Evaluation Results](https://raw.githubusercontent.com/decodingai-magazine/second-brain-ai-assistant-course/17ccef571db3e4b563826dab83ecc9298a54ede1/static/opik_evaluation_results_example.png)
+![Opik Evaluation Results](https://gh-proxy.com/https://raw.githubusercontent.com/decodingai-magazine/second-brain-ai-assistant-course/17ccef571db3e4b563826dab83ecc9298a54ede1/static/opik_evaluation_results_example.png)
 
 For running the evaluation, plus playing around with the agent (~20 queries), the costs and running time are:
 - Running costs OpenAI: ~$0.5

@@ -12,6 +12,8 @@ entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a0
 zh: ""
 ---
 
+# 鱼皮 AI 导航（ai-guide）
+
 ## DeepSeek 爆火逻辑、行业影响及对未来AI发展的启示
 
 ## 一、DeepSeek与国内外模型的优势与劣势分析  

@@ -14,7 +14,7 @@ zh: ""
 
 # Retrieval Augmented Generation (RAG) and Vector Databases
 
-[![Retrieval Augmented Generation (RAG) and Vector Databases](https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/15-rag-and-vector-databases/images/15-lesson-banner.png)](https://youtu.be/4l8zhHUBeyI?si=BmvDmL1fnHtgQYkL)
+[![Retrieval Augmented Generation (RAG) and Vector Databases](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/15-rag-and-vector-databases/images/15-lesson-banner.png)](https://youtu.be/4l8zhHUBeyI?si=BmvDmL1fnHtgQYkL)
 
 In the search applications lesson, we briefly learned how to integrate your own data into Large Language Models (LLMs). In this lesson, we will delve further into the concepts of grounding your data in your LLM application, the mechanics of the process and the methods for storing data, including both embeddings and text.
 
@@ -58,7 +58,7 @@ An LLM powered chatbot processes user prompts to generate responses. It is desig
 
 ### How RAGs (Retrieval Augmented Generation) work
 
-![drawing showing how RAGs work](https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/15-rag-and-vector-databases/images/how-rag-works.png)
+![drawing showing how RAGs work](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/15-rag-and-vector-databases/images/how-rag-works.png)
 
 Suppose you want to deploy a chatbot that creates quizzes from your notes, you will require a connection to the knowledge base. This is where RAG comes to the rescue. RAGs operate as follows:
 
@@ -70,7 +70,7 @@ Suppose you want to deploy a chatbot that creates quizzes from your notes, you w
 
 - **Augmented Generation:** the LLM enhances its response based on the data retrieved. It allows the response generated to be not only based on pre-trained data but also relevant information from the added context. The retrieved data is used to augment the LLM's responses. The LLM then returns an answer to the user's question.
 
-![drawing showing how RAGs architecture](https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/15-rag-and-vector-databases/images/encoder-decode.png)
+![drawing showing how RAGs architecture](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/15-rag-and-vector-databases/images/encoder-decode.png)
 
 The architecture for RAGs is implemented using transformers consisting of two parts: an encoder and a decoder. For example, when a user asks a question, the input text 'encoded' into vectors capturing the meaning of words and the vectors are 'decoded' into our document index and generates new text based on the user query. The LLM uses both an encoder-decoder model to generate the output.
 

@@ -268,8 +268,8 @@ agentseek create deepagents/subagents-dynamic --checkout main --no-input
 <table>
 <tr>
 <td width="180" align="center" valign="middle">
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/datawhalechina/deepagents-in-action/4097ff944f9ffa1bdfe2dd04f751f4416b058860/public/imgs/siliconflow-dark.svg" />
-    <img src="https://raw.githubusercontent.com/datawhalechina/deepagents-in-action/4097ff944f9ffa1bdfe2dd04f751f4416b058860/public/imgs/siliconflow.svg" alt="SiliconFlow 硅基流动" width="150" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/deepagents-in-action/4097ff944f9ffa1bdfe2dd04f751f4416b058860/public/imgs/siliconflow-dark.svg" />
+    <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/deepagents-in-action/4097ff944f9ffa1bdfe2dd04f751f4416b058860/public/imgs/siliconflow.svg" alt="SiliconFlow 硅基流动" width="150" />
 </td>
 <td valign="middle">
 本课程的模型算力由 <strong><a href="https://cloud.siliconflow.cn/i/Fq9zUwPf">硅基流动（SiliconFlow）</a></strong> 支持。硅基流动是一站式大模型云服务平台，基于自研推理引擎实现大模型高效推理加速，提供高效能、低成本的多品类 AI 模型服务，让开发者和企业聚焦产品创新，无须担心大规模推广带来的高昂算力成本。

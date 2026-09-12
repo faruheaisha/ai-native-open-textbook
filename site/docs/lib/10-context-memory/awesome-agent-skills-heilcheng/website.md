@@ -12,6 +12,8 @@ entryUrl: "https://github.com/heilcheng/awesome-agent-skills/blob/de9056857eb0e9
 zh: ""
 ---
 
+# Agent Skill Index
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started

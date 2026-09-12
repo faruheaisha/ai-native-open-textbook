@@ -107,7 +107,7 @@ LTS（Long Term Support）就像手机的"长期支持版本"——厂商承诺�
 
 小明在下单时，看到了按量计费——看起来每小时才几毛钱，算下来一个月也不贵。老师傅提醒他："你这个项目要长期跑，包年包月划算得多。按量计费适合临时测试，跑几个小时就删的那种。"小明切换到包年包月，选了一年期，价格果然便宜了一大截。
 
-![image-20260302205408945](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260302205408945.png)
+![image-20260302205408945](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260302205408945.png)
 
 ::: warning 别忘了安全组
 很多新手买完服务器，兴冲冲地装好应用，结果浏览器打不开。十有八九是**安全组没开放端口**。这个我们下一节详细讲。

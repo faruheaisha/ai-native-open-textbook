@@ -42,7 +42,7 @@ zh: ""
 
 只要你看下来方向没有明显跑偏，就可以继续点击右下角的 `立即生成应用`。
 
-![秒哒根据需求先生成需求文档，并提供“立即生成应用”入口](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Basic/01_miaoda_prd.png)
+![秒哒根据需求先生成需求文档，并提供“立即生成应用”入口](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Basic/01_miaoda_prd.png)
 
 你在这里主要看两件事：一是这份需求文档有没有把“你是谁、页面要有什么、数字分身要做什么”说对；二是右侧整理出来的风格要求有没有明显偏离你的预期。如果这两件事大体都对，就继续往下走，不要在这里过早抠细节。
 
@@ -54,9 +54,9 @@ zh: ""
 
 下面这两张图，就是一个真实的第一页结果。每个人的素材、平台当时的生成状态、你给出的风格要求都不同，所以你的页面不一定长这样；但**第一页出现类似问题很正常**，不要因为它不完美，就误以为这条路走不通。
 
-![秒哒生成的第一页结果示例：首屏和聊天区已经出现，但细节问题很多](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Basic/01_page_first_result.png)
+![秒哒生成的第一页结果示例：首屏和聊天区已经出现，但细节问题很多](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Basic/01_page_first_result.png)
 
-![秒哒生成的第一页结果示例：下半部分已经有项目卡片和底部链接，但很多交互仍是初版状态](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Basic/01_page_result2.png)
+![秒哒生成的第一页结果示例：下半部分已经有项目卡片和底部链接，但很多交互仍是初版状态](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Basic/01_page_result2.png)
 
 如果你仔细看这种第一版结果，通常会同时出现好消息和问题：好消息是，页面骨架已经出来了，首屏、项目区、聊天区、底部链接这些部分已经有了；问题也很明显，比如名字或信息可能抽错，聊天框的位置有点生硬，和页面右边缘贴得太近；`Q1`、`Q2`、`Q3` 这种按钮经常只是演示用的快捷问题，不一定真的已经接上大模型；有些链接、卡片或按钮看起来像能点，但其实还没有真正跳转。
 

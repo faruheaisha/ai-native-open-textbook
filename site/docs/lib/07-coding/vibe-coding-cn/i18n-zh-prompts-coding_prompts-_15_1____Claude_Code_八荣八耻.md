@@ -12,6 +12,8 @@ entryUrl: "https://github.com/2025Emma/vibe-coding-cn/blob/9b42dd10ddf3fff58f8c7
 zh: ""
 ---
 
+# Vibe Coding CN
+
 ### Claude Code 八荣八耻
 
 - 以瞎猜接口为耻，以认真查询为荣。

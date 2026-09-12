@@ -14,7 +14,7 @@ zh: ""
 
 # 第十三章：域名、DNS 与网络接入
 
-![img](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/mll08c63-bcea35d79958ea70.jpg)
+![img](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/mll08c63-bcea35d79958ea70.jpg)
 
 ## 序言
 

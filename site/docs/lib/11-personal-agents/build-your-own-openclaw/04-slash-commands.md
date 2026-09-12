@@ -31,7 +31,7 @@ Deterministic functionality invoked in chat, such as `/help`, `/skills`, and `/s
 
 ### Architecture
 
-<img src="https://raw.githubusercontent.com/czl9707/build-your-own-openclaw/37ae5dd255a0451609e67ad6d6a51fa5de80523c/04-slash-commands/04-slash-commands.svg" align="center" width="100%" />
+<img src="https://gh-proxy.com/https://raw.githubusercontent.com/czl9707/build-your-own-openclaw/37ae5dd255a0451609e67ad6d6a51fa5de80523c/04-slash-commands/04-slash-commands.svg" align="center" width="100%" />
 
 ## Key Components
 

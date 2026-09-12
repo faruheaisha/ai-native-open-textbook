@@ -30,7 +30,7 @@ cp default_workspace/config.example.yaml default_workspace/config.user.yaml
 
 An LLM may know how to write Python, but it cannot know the latest trends in the Python ecosystem. This opens up the world beyond the local file system and the LLM's training data.
 
-<img src="https://raw.githubusercontent.com/czl9707/build-your-own-openclaw/37ae5dd255a0451609e67ad6d6a51fa5de80523c/06-web-tools/06-web-tools.svg" align="center" width="100%" />
+<img src="https://gh-proxy.com/https://raw.githubusercontent.com/czl9707/build-your-own-openclaw/37ae5dd255a0451609e67ad6d6a51fa5de80523c/06-web-tools/06-web-tools.svg" align="center" width="100%" />
 
 ## Key Components
 

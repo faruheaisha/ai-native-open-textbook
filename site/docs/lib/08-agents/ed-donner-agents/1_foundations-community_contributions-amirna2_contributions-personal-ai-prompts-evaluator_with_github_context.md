@@ -12,6 +12,8 @@ entryUrl: ""
 zh: ""
 ---
 
+# Ed Donner：AI Agents 实战课
+
 {base_evaluator_prompt}
 
 ## GitHub Tool Results (VALID CONTEXT):

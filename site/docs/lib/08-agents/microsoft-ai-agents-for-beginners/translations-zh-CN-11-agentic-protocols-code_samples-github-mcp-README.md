@@ -56,7 +56,7 @@ chainlit run app.py -w
 
 要连接到 Github MCP 服务器，选择位于聊天框 "Type your message here.." 下方的 "plug" 图标：
 
-![MCP 连接](https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/mcp-chainlit-1.7ed66d648e3cfb28.webp)
+![MCP 连接](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/mcp-chainlit-1.7ed66d648e3cfb28.webp)
 
 在那里，你可以点击 "Connect an MCP" 来添加连接到 Github MCP 服务器的命令：
 

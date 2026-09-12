@@ -12,7 +12,9 @@ entryUrl: "https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3
 zh: ""
 ---
 
-[![Open Source Models](https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/16-open-source-models/images/16-lesson-banner.png)](https://youtu.be/CuICgfuHFSg?si=x8SpFRUsIxM9dohN)
+# Generative AI for Beginners（微软官方入门课）
+
+[![Open Source Models](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/16-open-source-models/images/16-lesson-banner.png)](https://youtu.be/CuICgfuHFSg?si=x8SpFRUsIxM9dohN)
 
 ## Introduction
 
@@ -46,12 +48,12 @@ For this lesson, we will refer to the models as "open models" going forward as t
 
 **Cost** - The cost per token for using and deploying these models is lower than that of proprietary models. When building Generative AI applications, looking at performance vs price when working with these models on your use case should be done.
 
-![Model Cost](https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/16-open-source-models/images/model-price.png)
+![Model Cost](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/16-open-source-models/images/model-price.png)
 Source: Artificial Analysis
 
 **Flexibility** - Working with open models enables you to be flexible in terms of using different models or combining them. An example of this is the [HuggingChat Assistants ](https://huggingface.co/chat?WT.mc_id=academic-105485-koreyst) where a user can select the model being used directly in the user interface:
 
-![Choose Model](https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/16-open-source-models/images/choose-model.png)
+![Choose Model](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/16-open-source-models/images/choose-model.png)
 
 ## Exploring Different Open Models
 
@@ -79,7 +81,7 @@ There is no one answer for choosing an open model. A good place to start is by u
 
 When looking to compare LLMs across the different types, [Artificial Analysis](https://artificialanalysis.ai/?WT.mc_id=academic-105485-koreyst) is another great resource:
 
-![Model Quality](https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/16-open-source-models/images/model-quality.png)
+![Model Quality](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/16-open-source-models/images/model-quality.png)
 Source: Artificial Analysis
 
 If working on a specific use case, searching for fine-tuned versions that are focused on the same area can be effective. Experimenting with multiple open models to see how they perform according to your and your users' expectations is another good practice

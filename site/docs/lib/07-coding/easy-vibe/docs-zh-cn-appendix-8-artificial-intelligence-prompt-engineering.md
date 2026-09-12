@@ -34,7 +34,7 @@ AI 本质上是一个**概率预测机器**（Next Token Predictor），它不�
 
 当我们谈论“工程”时，我们强调的是：**可复现、可验证、可转移**。
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/appendix/8-artificial-intelligence/prompt-engineering/images/image7.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/appendix/8-artificial-intelligence/prompt-engineering/images/image7.png)
 
 AI 模型像一个**黑盒子**：我们知道输入（提示词）和输出（回答），但很难完全掌控中间发生了什么。
 
@@ -79,7 +79,7 @@ AI 模型像一个**黑盒子**：我们知道输入（提示词）和输出（�
 
 大多数传统大模型（如 GPT-3.5, Llama 2）属于此类。它们**直觉式地反应**，说完上句接下句，不做深层逻辑推演。
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/appendix/8-artificial-intelligence/prompt-engineering/images/image14.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/appendix/8-artificial-intelligence/prompt-engineering/images/image14.png)
 
 - **特点**：快，但容易在复杂逻辑上犯错。
 - **策略**：需要你把步骤拆解得非常细（Chain of Thought），一步步喂给它。
@@ -88,7 +88,7 @@ AI 模型像一个**黑盒子**：我们知道输入（提示词）和输出（�
 
 新一代模型（如 o1, R1）在回答前会进行“隐式推理”。
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/appendix/8-artificial-intelligence/prompt-engineering/images/image13.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/appendix/8-artificial-intelligence/prompt-engineering/images/image13.png)
 
 - **特点**：慢，但逻辑能力强，能自我纠错。
 - **策略**：通常不需要复杂的 Prompt 技巧，直接说清楚目标即可，过多的“指手画脚”反而可能干扰它。
@@ -354,7 +354,7 @@ AI 最容易犯的毛病就是**不懂装懂**。
 
 我们推荐使用 [SiliconFlow Playground](https://cloud.siliconflow.com/me/playground/chat)（或任何你习惯的 LLM 平台），按照下面的**3 个挑战**来验证你学到的技巧。
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/appendix/8-artificial-intelligence/prompt-engineering/images/image15.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/appendix/8-artificial-intelligence/prompt-engineering/images/image15.png)
 
 > **💡 操作提示**：点击右侧侧边栏的 "Add Model for Comparison"，可以左右分屏对比两个模型（比如 Qwen-Max vs Llama-3）对同一个 Prompt 的反应。
 

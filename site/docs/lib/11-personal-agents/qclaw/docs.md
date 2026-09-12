@@ -12,6 +12,8 @@ entryUrl: "https://github.com/qiuzhi2046/Qclaw/blob/c494768977f4e48b8eacbfae7ae3
 zh: ""
 ---
 
+# Qclaw（秋芝2046）
+
 ### 📄文档改进（最简单）
 
 - [ ] README添加 Star 增长曲线插件（github history 插件）

@@ -72,13 +72,13 @@ ima 知识库连接器是千问办公与 ima 之间的桥梁——千问办公�
 - **图片/截图**：长按图片 → 用小程序打开 → 选择 ima
 
 日积月累，你的 ima 知识库里就有了原始素材。
-![qwenwork添加ima连接器](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/cases/submissions/wechat-ima-knowledge/assets\小程序一键存入ima.jpg)
+![qwenwork添加ima连接器](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/cases/submissions/wechat-ima-knowledge/assets\小程序一键存入ima.jpg)
 
 ### 第二步：在千问办公中添加 ima 连接器
 
 在千问办公中打开连接器管理面板，搜索并添加「ima 知识库」连接器，完成授权。授权完成后，千问办公就能读取你的 ima 知识库内容了。
 
-![qwenwork添加ima连接器](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/cases/submissions/wechat-ima-knowledge/assets\qwenwork添加ima连接器.png)
+![qwenwork添加ima连接器](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/cases/submissions/wechat-ima-knowledge/assets\qwenwork添加ima连接器.png)
 
 ### 第三步：用千问办公梳理知识体系
 

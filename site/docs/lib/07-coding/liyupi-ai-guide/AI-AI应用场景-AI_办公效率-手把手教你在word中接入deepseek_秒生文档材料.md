@@ -12,6 +12,8 @@ entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a0
 zh: ""
 ---
 
+# 鱼皮 AI 导航（ai-guide）
+
 ## 手把手教你在word中接入deepseek，秒生文档材料
 
 将DeepSeek接入Word，实现无需切换即可进行材料续写的功能，具有显著的价值和广泛的应用前景。以下是其核心价值的详细描述：

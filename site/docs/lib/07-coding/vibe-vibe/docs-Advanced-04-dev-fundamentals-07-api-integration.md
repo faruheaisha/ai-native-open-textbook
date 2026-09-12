@@ -76,7 +76,7 @@ API 通常返回 **JSON** 格式的数据（参见 4.6 配置文件格式）。J
 3. 创建应用或项目（填写一些基本信息）
 4. 生成 API Key
 
-![image-20260226235253923](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260226235253923.png)
+![image-20260226235253923](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260226235253923.png)
 
 ::: warning 安全第一
 
@@ -134,7 +134,7 @@ Next.js 项目中，`.env.local` 文件用于存储本地开发的环境变量�
 
 :::
 
-![image-20260226235337240](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260226235337240.png)
+![image-20260226235337240](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260226235337240.png)
 
 ### 第四步：编写最小测试
 

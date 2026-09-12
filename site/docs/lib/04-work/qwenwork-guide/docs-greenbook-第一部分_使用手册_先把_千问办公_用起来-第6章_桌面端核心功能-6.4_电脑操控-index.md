@@ -64,7 +64,7 @@ zh: ""
 
 进入 扩展 → 连接器，找到「计算机控制」卡片并点击开启。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.4 电脑操控/assets/001_4bc396ea-e810-488f-a480-6725e99961c7.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.4 电脑操控/assets/001_4bc396ea-e810-488f-a480-6725e99961c7.webp)
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 

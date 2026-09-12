@@ -18,7 +18,7 @@ zh: ""
 
 千问办公是阿里巴巴全新推出的一站式 AI 办公平台，不止于对话，更注重交付——用户仅需一句话，即可完成数据分析、PPT生成、视频剪辑、网页搭建等复杂任务，直接获得可用成果。目前已全面覆盖桌面端、网页端，并深度接入钉钉生态，依托个人云盘、IM、连接器等模块打通数据与设备，让AI真正融入工作流，随时随地响应办公需求。
 
-![image.png](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第1章 初识 千问办公/assets/001_image.png)
+![image.png](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第1章 初识 千问办公/assets/001_image.png)
 
 ### **核心能力**
 - 旗舰模型驱动：基于千问系列大模型，拥有百万级超长上下文记忆、原生多模态感知能力，以及业界领先的代码生成与理解能力，为复杂办公任务提供强劲的智能内核。支持多模态内容理解，满足多种创作任务的需求。
@@ -52,17 +52,17 @@ zh: ""
 
 用户在钉钉工作台内可直接唤起千问办公，无需额外跳转或单独登录。AI原生的数据分析、PPT生成、视频剪辑、网页搭建等核心能力，在钉内即可完整调用。用户通过自然语言对话，即可让AI处理文档、提炼信息、生成内容或完成创作任务，所有操作在钉钉界面内闭环完成。AI深度理解对话上下文，支持多轮交互与任务迭代优化，让办公协作更智能、更高效。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第1章 初识 千问办公/assets/002_461706e8-f4e8-4d05-a1a3-a39996251ec3.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第1章 初识 千问办公/assets/002_461706e8-f4e8-4d05-a1a3-a39996251ec3.webp)
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
 ### **提供桌面端，打通您的本地文件系统，与您的办公场景无缝衔接。**
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第1章 初识 千问办公/assets/003_94227b4b-da8a-407d-be86-55312bdf13ac.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第1章 初识 千问办公/assets/003_94227b4b-da8a-407d-be86-55312bdf13ac.webp)
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第1章 初识 千问办公/assets/004_c27bd8fa-79f3-4d8a-9ddb-7588982815cd.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第1章 初识 千问办公/assets/004_c27bd8fa-79f3-4d8a-9ddb-7588982815cd.webp)
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
@@ -70,7 +70,7 @@ zh: ""
 
 ### **网页端即开即用，通过浏览器随时随地、开启办公。**
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第1章 初识 千问办公/assets/005_22cf9a72-ec58-44cf-8d27-4f6f9e6d9fea.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第1章 初识 千问办公/assets/005_22cf9a72-ec58-44cf-8d27-4f6f9e6d9fea.webp)
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 

@@ -30,7 +30,7 @@ zh: ""
 1. 按照 [Microsoft Foundry](https://learn.microsoft.com/en-us/azure/ai-studio/?WT.mc_id=academic-105485-koreyst) 博客文章中的指南创建 Microsoft Foundry 中枢。
 2. 创建项目后，关闭显示的任何提示，查看 Microsoft Foundry 门户中的项目页面，页面应类似下图：
 
-    ![Microsoft Foundry Project](https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/azure-ai-foundry.88d0c35298348c2f.webp)
+    ![Microsoft Foundry Project](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/azure-ai-foundry.88d0c35298348c2f.webp)
 
 ## 部署模型
 
@@ -40,7 +40,7 @@ zh: ""
 
     > <strong>注意</strong>：降低 TPM 有助于避免过度使用您所使用订阅中的配额。
 
-    ![Model Deployed](https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/model-deployment.3749c53fb81e18fd.webp)
+    ![Model Deployed](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/model-deployment.3749c53fb81e18fd.webp)
 
 ## 创建代理
 
@@ -82,7 +82,7 @@ zh: ""
     
 > 此外，您可以添加 <strong>知识库</strong> 和 <strong>操作</strong>，以增强代理根据用户请求提供更多信息和执行自动任务的能力。对于此练习，可以跳过这些步骤。
     
-![Agent Setup](https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/agent-setup.9bbb8755bf5df672.webp)
+![Agent Setup](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/agent-setup.9bbb8755bf5df672.webp)
 
 3. 若要创建新的多 AI 代理，只需点击 <strong>新建代理</strong>。新创建的代理将显示在代理页面上。
 
@@ -95,7 +95,7 @@ zh: ""
 
     > <strong>注意</strong>：由于本练习中未使用实时数据，代理可能无法给出准确答案。目的是测试代理基于所提供的说明理解和响应用户查询的能力。
 
-    ![Agent Playground](https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/agent-playground.dc146586de715010.webp)
+    ![Agent Playground](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/agent-playground.dc146586de715010.webp)
 
 3. 测试完后，您可以通过添加更多意图、训练数据和操作进一步自定义代理以增强其功能。
 

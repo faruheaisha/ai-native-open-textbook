@@ -41,15 +41,15 @@ zh: ""
 https://github.com/KevinYoung-Kw/vibe-resume-skill
 ```
 
-![在 WorkBuddy 中安装 Vibe Resume Skill](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/cases/submissions/vibe-resume/assets/install-skill.png)
+![在 WorkBuddy 中安装 Vibe Resume Skill](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/cases/submissions/vibe-resume/assets/install-skill.png)
 
 安装完成后，WorkBuddy 会提示 Skill 已经可以使用。
 
-![Vibe Resume Skill 安装完成](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/cases/submissions/vibe-resume/assets/skill-ready.png)
+![Vibe Resume Skill 安装完成](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/cases/submissions/vibe-resume/assets/skill-ready.png)
 
 Skill 里有 12 套简历模板。可以让 WorkBuddy 把模板列出来，挑一套自己喜欢的；如果不想选，直接使用默认模板也可以。
 
-![WorkBuddy 列出 12 套简历模板](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/cases/submissions/vibe-resume/assets/template-list.png)
+![WorkBuddy 列出 12 套简历模板](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/cases/submissions/vibe-resume/assets/template-list.png)
 
 ## 第二步：发送经历和照片
 
@@ -62,11 +62,11 @@ Skill 里有 12 套简历模板。可以让 WorkBuddy 把模板列出来，挑�
 不要编造没有的数据，尽量控制在一页。
 ```
 
-![把个人经历、照片和目标岗位发给 WorkBuddy](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/cases/submissions/vibe-resume/assets/send-resume-materials.png)
+![把个人经历、照片和目标岗位发给 WorkBuddy](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/cases/submissions/vibe-resume/assets/send-resume-materials.png)
 
 WorkBuddy 读完材料后，开始整理内容和排版。第一版生成完成时，右侧可以直接预览整份简历，同时还会得到 HTML、PDF 和预览图。
 
-![WorkBuddy 生成第一版简历](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/cases/submissions/vibe-resume/assets/first-resume-result.png)
+![WorkBuddy 生成第一版简历](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/cases/submissions/vibe-resume/assets/first-resume-result.png)
 
 ## 第三步：继续修改
 
@@ -85,7 +85,7 @@ WorkBuddy 读完材料后，开始整理内容和排版。第一版生成完成�
 
 WorkBuddy 在原来的简历上加入新经历，并重新调整了整页间距。修改前后的内容都保留在同一个任务里，不需要重新制作一份简历。
 
-![增加经历并调整排版后的简历](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/cases/submissions/vibe-resume/assets/final-resume-result.png)
+![增加经历并调整排版后的简历](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/cases/submissions/vibe-resume/assets/final-resume-result.png)
 
 ## 最后得到什么
 

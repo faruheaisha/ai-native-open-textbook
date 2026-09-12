@@ -9,12 +9,16 @@ tier: 1
 volume: "10-context-memory"
 sourceUrl: "https://github.com/coleam00/context-engineering-intro"
 entryUrl: "https://github.com/coleam00/context-engineering-intro/blob/a2d84b021cee1e2f4e77ba854bba0be8cb319035/README.md"
-zh: ""
+zh: "on"
 ---
+
+# Context Engineering Intro
 
 ## Purpose
 
 Template optimized for AI agents to generate complete context engineering template packages for specific technology domains (AI frameworks, frontend stacks, backend technologies, etc.) with comprehensive domain specialization and validation.
+
+<div class="tb-zh"><p>一个为 AI agent 优化的模板，用于为特定技术领域（AI 框架、前端技术栈、后端技术等）生成完整的上下文工程模板包，包含全面的领域专门化与验证。</p></div>
 
 ## Core Principles
 
@@ -24,17 +28,23 @@ Template optimized for AI agents to generate complete context engineering templa
 4. **Validation-Driven**: Include comprehensive domain-appropriate testing and validation loops
 5. **Usability First**: Generate templates that are immediately usable by developers
 
+<div class="tb-zh"><p>1）元上下文工程：应用上下文工程原则来生成领域专属模板；2）技术专门化：与目标框架的模式和约定深度集成；3）生成完整的包：创建整套模板生态，而不只是单个文件；4）验证驱动：包含完整且适合该领域的测试与验证闭环；5）可用性优先：生成的模板开发者可以立即使用。</p></div>
+
 ---
 
 ## Goal
 
 Generate a complete context engineering template package for **[TARGET_TECHNOLOGY]** that includes:
 
+<div class="tb-zh"><p>为 [TARGET_TECHNOLOGY] 生成一个完整的上下文工程模板包，其中包含：</p></div>
+
 - Domain-specific CLAUDE.md implementation guide
 - Specialized PRP generation and execution commands
 - Technology-appropriate base PRP template
 - Comprehensive examples and documentation
 - Domain-specific validation loops and success criteria
+
+<div class="tb-zh"><p>领域专属的 CLAUDE.md 实现指南；专门的 PRP 生成与执行命令；适配该技术的基础 PRP 模板；完整的示例与文档；领域专属的验证闭环与成功标准。</p></div>
 
 ## Why
 
@@ -44,11 +54,16 @@ Generate a complete context engineering template package for **[TARGET_TECHNOLOG
 - **Knowledge Capture**: Document best practices and patterns for specific technologies
 - **Scalable Framework**: Create reusable templates that evolve with technology changes
 
+<div class="tb-zh"><p>加速开发：让上下文工程能够被快速应用到任何技术；模式一致性：在所有领域保持上下文工程原则；质量保证：为每项技术确保完整的验证与测试；知识沉淀：记录特定技术的最佳实践与模式；可扩展的框架：创建能随技术演进而更新的可复用模板。</p></div>
+
 ## What
 
 ### Template Package Components
 
 **Complete Directory Structure:**
+
+<div class="tb-zh"><p>完整的目录结构：</p></div>
+
 ```
 use-cases/{technology-name}/
 ├── CLAUDE.md                      # Domain implementation guide
@@ -72,11 +87,15 @@ use-cases/{technology-name}/
 - Testing and validation approaches
 - Security and performance considerations
 
+<div class="tb-zh"><p>技术集成： 框架专属的工具与命令；架构模式与约定；与开发工作流的集成；测试与验证方式；安全与性能考量。</p></div>
+
 **Context Engineering Adaptation:**
 - Domain-specific research processes
 - Technology-appropriate validation loops
 - Framework-specialized implementation blueprints
 - Integration with base context engineering principles
+
+<div class="tb-zh"><p>上下文工程适配： 领域专属的调研流程；适合该技术的验证闭环；框架专门化的实现蓝图；与基础上下文工程原则的集成。</p></div>
 
 ### Success Criteria
 
@@ -88,6 +107,8 @@ use-cases/{technology-name}/
 - [ ] Template immediately usable for creating projects in the domain
 - [ ] Integration with base context engineering framework maintained
 - [ ] Comprehensive documentation and examples included
+
+<div class="tb-zh"><p>验收清单：已生成完整的模板包结构；所有必需文件都存在且格式正确；领域专属内容准确体现该技术的模式；上下文工程原则已恰当适配该技术；验证闭环适合该框架且可执行；模板可直接用于在领域内创建项目；与基础上下文工程框架的集成得以保持；已包含完整的文档与示例。</p></div>
 
 ## All Needed Context
 
@@ -230,7 +251,11 @@ const anti_patterns = {
 
 **CRITICAL: Web search extensively before any template generation. This is essential for success.**
 
+<div class="tb-zh"><p>关键：在做任何模板生成之前先做大量网页搜索。这对成功至关重要。</p></div>
+
 Conduct comprehensive analysis of the target technology using web research:
+
+<div class="tb-zh"><p>通过网页调研对目标技术做全面分析：</p></div>
 
 ```yaml
 Research Task 1 - Core Framework Analysis (WEB SEARCH REQUIRED):
@@ -268,6 +293,8 @@ Research Task 4 - Template Package Structure Planning:
 ### Template Package Generation
 
 Create complete context engineering template package based on web research findings:
+
+<div class="tb-zh"><p>基于网页调研的发现，创建完整的上下文工程模板包：</p></div>
 
 ```yaml
 Generation Task 1 - Create Template Directory Structure:
@@ -327,6 +354,9 @@ Generation Task 7 - Generate Comprehensive README:
 ### Implementation Details for Copy Script and README
 
 **Copy Script (copy_template.py) Requirements:**
+
+<div class="tb-zh"><p>复制脚本（copy_template.py）要求：</p></div>
+
 ```python
 # Essential copy script functionality:
 # 1. Accept target directory as command line argument
@@ -338,6 +368,9 @@ Generation Task 7 - Generate Comprehensive README:
 ```
 
 **README Structure Requirements:**
+
+<div class="tb-zh"><p>README 结构要求：</p></div>
+
 ```markdown
 # Must include these sections in this order:
 # 1. Title and brief description of template purpose
@@ -492,6 +525,8 @@ cd examples/
 - [ ] Working examples: All examples compile/run successfully
 - [ ] Documentation complete: README and usage instructions clear
 
+<div class="tb-zh"><p>验证清单：目录结构完整——tree use-cases/{technology-name}；所有必需文件都在——CLAUDE.md、commands、基础 PRP、示例；复制脚本存在——copy_template.py 功能正确；README 完整——包含复制脚本的使用说明与 PRP 工作流；内容领域专属——准确体现该技术的模式；示例可运行——所有示例都能成功编译或运行；文档完整——README 与使用说明清晰。</p></div>
+
 ### Quality and Usability
 
 - [ ] No placeholder content: `grep -r "TODO\|PLACEHOLDER"`
@@ -500,6 +535,8 @@ cd examples/
 - [ ] Integration maintained: Works with base context engineering framework
 - [ ] Ready for use: Developer can immediately start using template
 
+<div class="tb-zh"><p>验证清单：没有占位内容——grep -r "TODO\|PLACEHOLDER"；技术专门化——框架模式被恰当记录；验证闭环可用——所有命令都能执行且功能正常；集成得以保持——能与基础上下文工程框架配合；可直接使用——开发者能立即开始使用该模板。</p></div>
+
 ### Framework Integration
 
 - [ ] Inherits base principles: Context engineering workflow preserved
@@ -507,6 +544,8 @@ cd examples/
 - [ ] Command compatibility: Slash commands work as expected
 - [ ] Documentation consistency: Follows established documentation patterns
 - [ ] Maintainable structure: Easy to update as technology evolves
+
+<div class="tb-zh"><p>验证清单：继承基础原则——上下文工程工作流得以保留；恰当专门化——包含技术专属模式；命令兼容——斜杠命令按预期工作；文档一致——遵循既定的文档模式；结构可维护——随技术演进易于更新。</p></div>
 
 ---
 
@@ -519,6 +558,8 @@ cd examples/
 - ❌ Don't use placeholder content - always include real, researched information
 - ❌ Don't ignore validation loops - include comprehensive testing for the technology
 
+<div class="tb-zh"><p>❌ 不要生成通用模板——始终深入研究并做专门化；❌ 不要跳过对技术的完整调研——彻底理解框架；❌ 不要使用占位内容——始终包含真实的、经过调研的信息；❌ 不要忽视验证闭环——为该技术包含完整的测试。</p></div>
+
 ### Content Quality
 
 - ❌ Don't assume knowledge - document everything explicitly for the domain
@@ -526,9 +567,13 @@ cd examples/
 - ❌ Don't ignore security - always include security considerations for the technology
 - ❌ Don't forget maintenance - ensure templates can evolve with technology changes
 
+<div class="tb-zh"><p>❌ 不要想当然——为该领域把一切都明确记录下来；❌ 不要跳过边界情况——包含常见的坑与错误处理；❌ 不要忽视安全——始终为该技术包含安全考量；❌ 不要忘记维护——确保模板能随技术变化而演进。</p></div>
+
 ### Framework Integration
 
 - ❌ Don't break base patterns - maintain compatibility with context engineering principles
 - ❌ Don't duplicate effort - reuse and extend base framework components
 - ❌ Don't ignore consistency - follow established naming and structure conventions
 - ❌ Don't skip validation - ensure templates actually work before completion
+
+<div class="tb-zh"><p>❌ 不要破坏基础模式——与上下文工程原则保持兼容；❌ 不要重复造轮子——复用并扩展基础框架组件；❌ 不要忽视一致性——遵循既定的命名与结构约定；❌ 不要跳过验证——在完成之前确保模板真的可用。</p></div>

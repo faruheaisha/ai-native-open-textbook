@@ -32,11 +32,11 @@ zh: ""
 
 **安装方式**：在 1Panel 应用商店搜索「Umami」，一键安装。安装表单里需要填名称、版本、端口（默认 3000）、数据库服务（下拉选择已安装的 PostgreSQL 或 MySQL 实例）、数据库名、用户和密码。
 
-![image-20260303152245410](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260303152245410.png)
+![image-20260303152245410](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260303152245410.png)
 
 小明安装 Umami 时，在「数据库服务」下拉框里看到了之前装的 PostgreSQL 实例，选中后填了数据库名 `umami` 和密码，点确认。几秒钟后，Umami 就跑起来了。
 
-![image-20260303152328354](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260303152328354.png)
+![image-20260303152328354](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260303152328354.png)
 
 安装完成后，在 Umami 后台添加你的网站，会生成一段追踪代码。把这段代码加到你网站的 `<head>` 中：
 
@@ -69,7 +69,7 @@ Umami 的详细配置和使用技巧，在 [第十五章：SEO、分享与数据
 
 **安装方式**：在 1Panel 应用商店搜索「n8n」，一键安装。
 
-小明打开 n8n 的编辑器界面，左边是各种节点——HTTP 请求、定时触发、![image-20260303152359300](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260303152359300.png)邮件发送、GitHub、Slack……拖一个"定时触发"节点到画布上，再拖一个"GitHub"节点，用线连起来，就是一个工作流。不用写代码，全靠拖拽和配置。
+小明打开 n8n 的编辑器界面，左边是各种节点——HTTP 请求、定时触发、![image-20260303152359300](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260303152359300.png)邮件发送、GitHub、Slack……拖一个"定时触发"节点到画布上，再拖一个"GitHub"节点，用线连起来，就是一个工作流。不用写代码，全靠拖拽和配置。
 
 n8n 的工作流是可视化的拖拽编辑，不需要写代码。你可以把它理解为"给你的服务器装了一个自动化管家"。
 

@@ -53,7 +53,7 @@ zh: ""
 
 上一节看到的 Uber 小程序也是这样。用户看到的是地图、路线、叫车状态和付款页面，后端还要负责行程、司机匹配、订单状态和支付结果。
 
-![Uber 微信小程序中的路线、订单和支付页面](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/wechat-uber-mini-program.png)
+![Uber 微信小程序中的路线、订单和支付页面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/wechat-uber-mini-program.png)
 
 图片与案例来源：[Uber 携手微信上线官方小程序](https://www.tencent.com/en-us/articles/2202137.html)。另外，2026 夏季达沃斯的官方小程序把会议信息、直播和互动服务放进了微信，可以参考腾讯的[夏季达沃斯微信小程序案例](https://www.tencent.com/en-us/articles/2202375.html)。
 
@@ -85,7 +85,7 @@ zh: ""
 
 如果你现在打开腾讯云最新版文档，会看到一个新的入口——**CloudBase AI 插件**。你可以把它理解成一个打包好的 AI 开发工具，一次帮你接上 MCP Server、Agent Skills 和 Hooks。你的 AI 工具如果已经支持一键安装，就优先选择这个入口。
 
-![腾讯云当前推荐的 CloudBase AI 一键插件页面（本次实际打开并截图）](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram-backend/images/cloudbase-ai-plugin-current.jpg)
+![腾讯云当前推荐的 CloudBase AI 一键插件页面（本次实际打开并截图）](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram-backend/images/cloudbase-ai-plugin-current.jpg)
 
 你可以把这套插件理解成专门给 AI 准备的“云开发说明书和操作工具”。接好以后，AI 不只是知道怎样写页面，还能按照 CloudBase 当前的规范理解云函数、微信身份、数据库权限和部署流程。
 
@@ -108,9 +108,9 @@ Northstar Service Hub 会同时用到四个工具，它们各自负责不同的�
 
 后面如果一时分不清该看哪个窗口，就按这个办法找：代码在 Trae，构建在 HBuilderX，小程序页面在微信开发者工具，云端数据和日志在 CloudBase 控制台。
 
-![在微信开发者工具中扫码登录](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image5.png)
+![在微信开发者工具中扫码登录](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image5.png)
 
-![在 Trae 中打开真实项目](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image6.png)
+![在 Trae 中打开真实项目](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image6.png)
 
 ### 2.2 确认小程序账号和 AppID
 
@@ -118,7 +118,7 @@ Northstar Service Hub 会同时用到四个工具，它们各自负责不同的�
 
 这一步和上一节完全相同：打开[微信公众平台](https://mp.weixin.qq.com/)，进入“开发管理 → 开发设置”，找到小程序唯一的 AppID。
 
-![在微信公众平台查看小程序 AppID](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image3.png)
+![在微信公众平台查看小程序 AppID](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image3.png)
 
 接着检查 HBuilderX 项目里的 AppID 是否和它一致，再确认微信开发者工具登录的是有这个小程序开发权限的账号。
 
@@ -130,7 +130,7 @@ CloudBase 整体优先推荐一键插件。Trae 当前仍按照腾讯云的专�
 
 打开腾讯云官方的 [Trae 配置指南](https://docs.cloudbase.net/ai/cloudbase-ai-toolkit/ide-setup/trae)，按照页面说明在 Trae 的 MCP 设置中加入 CloudBase。第一次使用时，优先选择官方的登录和环境选择流程，不要为了省一步把 SecretID、SecretKey 或 CloudBase API Key 粘贴进提示词。
 
-![腾讯云当前的 Trae 配置指南（本次实际打开并截图）](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram-backend/images/cloudbase-trae-guide-current.jpg)
+![腾讯云当前的 Trae 配置指南（本次实际打开并截图）](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram-backend/images/cloudbase-trae-guide-current.jpg)
 
 连接完成以后，我先没有急着让 AI 做页面，而是对它说：
 
@@ -148,11 +148,11 @@ CloudBase 整体优先推荐一键插件。Trae 当前仍按照腾讯云的专�
 
 腾讯云当前的创建环境指南会先让你根据场景选择入口。微信小程序从微信开发者工具里创建，环境会自动和当前小程序关联。
 
-![腾讯云当前的创建云开发环境指南（本次实际打开并截图）](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram-backend/images/cloudbase-create-env-guide-current.jpg)
+![腾讯云当前的创建云开发环境指南（本次实际打开并截图）](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram-backend/images/cloudbase-create-env-guide-current.jpg)
 
 如果你从 CloudBase 控制台进入，会先看到下面的登录页。这里可以使用腾讯云账号，也可以使用当前小程序所属的微信公众平台账号登录。
 
-![CloudBase 控制台当前登录页（本次实际打开并截图，未代替用户登录）](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram-backend/images/cloudbase-console-current.jpg)
+![CloudBase 控制台当前登录页（本次实际打开并截图，未代替用户登录）](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram-backend/images/cloudbase-console-current.jpg)
 
 第一次点击时，开发者工具会引导你创建环境。环境名称可以写成容易辨认的名字，例如 `northstar-dev`。
 
@@ -174,7 +174,7 @@ CloudBase 整体优先推荐一键插件。Trae 当前仍按照腾讯云的专�
 
 环境创建完成以后，回到 HBuilderX 和 Trae，打开上一节已经能运行的小程序项目。确认你修改的是源项目，而不是 HBuilderX 自动生成的 `unpackage` 编译结果。
 
-![在 Trae 中确认小程序基础文件已经准备好](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image11.png)
+![在 Trae 中确认小程序基础文件已经准备好](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image11.png)
 
 然后先运行一次原项目：
 
@@ -206,15 +206,15 @@ Trae 收到这条指令以后，会先阅读当前项目结构，判断应该增
 
 你可以在对话区看到它的计划，也可以看到每一次文件变更。
 
-![Trae 读取项目并说明修改计划](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image12.png)
+![Trae 读取项目并说明修改计划](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image12.png)
 
-![Trae 修改完成后提供变更摘要](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image13.png)
+![Trae 修改完成后提供变更摘要](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image13.png)
 
 如果你发现 AI 准备新建另一个项目，可以马上告诉它：“不要另建项目，只修改当前工作区。”
 
 如果这一轮结果不满意，也不用紧张。Trae 仍然提供回退能力，可以把工程恢复到本次修改之前。
 
-![使用回退恢复到 AI 修改之前](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image14.png)
+![使用回退恢复到 AI 修改之前](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image14.png)
 
 ### 3.3 在 HBuilderX 和微信开发者工具中查看效果
 
@@ -222,13 +222,13 @@ AI 完成第一轮开发之后，代码已经落在项目里，但还没有看�
 
 回到 HBuilderX，选择“运行 → 运行到小程序模拟器 → 微信开发者工具”。
 
-![从 HBuilderX 运行到微信小程序模拟器](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image16.png)
+![从 HBuilderX 运行到微信小程序模拟器](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image16.png)
 
 底部输出窗口会显示编译过程。如果最终没有报错，就可以切到微信开发者工具查看首页、创建工单和我的工单页面。
 
-![等待项目编译完成](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image17.png)
+![等待项目编译完成](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image17.png)
 
-![在微信开发者工具中查看运行效果](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image18.png)
+![在微信开发者工具中查看运行效果](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image18.png)
 
 这一轮先只看界面：按钮好不好点、表单清不清楚、空状态有没有告诉用户下一步做什么。后端还没有真正接上，所以暂时看到演示数据是正常的。
 
@@ -252,7 +252,7 @@ AI 一开始生成的页面不一定刚好符合你的想法。在我这次尝�
 
 下面是 Northstar Service Hub 的页面效果：
 
-![Northstar Service Hub 企业客户服务小程序：会员、快速服务与售后工单](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram-backend/images/wechat-enterprise-service-hub.png)
+![Northstar Service Hub 企业客户服务小程序：会员、快速服务与售后工单](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram-backend/images/wechat-enterprise-service-hub.png)
 
 页面完成后，里面的工单仍然只是演示数据。下一步才让它真正保存到云端。
 
@@ -304,7 +304,7 @@ AI 修改完成后，再确认部署位置：
 
 部署完成后，打开 CloudBase 的文档型数据库，在“集合管理”中找到或创建工单集合。腾讯云当前的入口说明如下：
 
-![腾讯云当前的文档型数据库操作页（本次实际打开并截图）](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram-backend/images/cloudbase-database-guide-current.jpg)
+![腾讯云当前的文档型数据库操作页（本次实际打开并截图）](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram-backend/images/cloudbase-database-guide-current.jpg)
 
 接着在模拟器里提交一张工单。页面如果显示了工单编号，同时数据库里出现了一条记录，就说明第一张工单已经真正保存成功。
 
@@ -356,7 +356,7 @@ AI 生成的后端也不一定第一次就能完全跑通。有时候页面看�
 
 CloudBase 当前也提供日志检索。你可以按时间、资源和关键词找到刚才那一次调用，而不是在几百行输出里盲找。当前操作入口如下：
 
-![腾讯云当前的日志检索操作页（本次实际打开并截图）](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram-backend/images/cloudbase-log-guide-current.jpg)
+![腾讯云当前的日志检索操作页（本次实际打开并截图）](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram-backend/images/cloudbase-log-guide-current.jpg)
 
 让 AI 输出日志时，可以保留请求编号、动作、工单编号、结果、耗时和错误码，但不要记录完整 OpenID、手机号、Token、密钥和工单敏感正文。
 
@@ -392,15 +392,15 @@ CloudBase 当前也提供日志检索。你可以按时间、资源和关键词�
 
 确认 AppID、云环境和云函数版本都正确以后，在微信开发者工具中点击“上传”，填写版本号和项目备注。
 
-![在微信开发者工具中填写上传版本信息](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image27.png)
+![在微信开发者工具中填写上传版本信息](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image27.png)
 
-![等待小程序代码上传完成](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image29.png)
+![等待小程序代码上传完成](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image29.png)
 
 上传完成后，回到微信公众平台的“版本管理”，把刚上传的开发版本设为体验版。
 
-![在公众平台查看开发版本](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image31.png)
+![在公众平台查看开发版本](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image31.png)
 
-![将上传版本设置为体验版](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image32.png)
+![将上传版本设置为体验版](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image32.png)
 
 注意：小程序前端上传成功，不代表云函数也自动更新了。每次修改后端以后，都要单独确认云函数已经部署到体验版正在使用的环境。
 

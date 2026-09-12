@@ -12,6 +12,8 @@ entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a0
 zh: ""
 ---
 
+# 鱼皮 AI 导航（ai-guide）
+
 ## DeepSeek的优势与不足
 
 **DeepSeek的优势：**

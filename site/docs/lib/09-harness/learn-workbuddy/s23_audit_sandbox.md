@@ -20,7 +20,7 @@ zh: ""
 
 ---
 
-![macOS 沙盒安全分层](https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s23_audit_sandbox/images/sandbox-layers.svg)
+![macOS 沙盒安全分层](https://gh-proxy.com/https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s23_audit_sandbox/images/sandbox-layers.svg)
 
 ## 代码架构图
 

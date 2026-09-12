@@ -12,6 +12,8 @@ entryUrl: "https://github.com/strands-agents/harness-sdk/blob/7bda6c70e71cd07279
 zh: ""
 ---
 
+# Strands Harness SDK
+
 <div>
 
   <h1>

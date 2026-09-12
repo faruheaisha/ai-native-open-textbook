@@ -12,6 +12,8 @@ entryUrl: "https://github.com/mattpocock/skills/blob/3cca18b368ae95cdbdebbff572c
 zh: ""
 ---
 
+# Matt Pocock Skills（工程技能库）
+
 ## What it does
 
 `teach` turns the directory you run it in into a standing teaching workspace and teaches you one topic across many [sessions](https://www.aihero.dev/ai-coding-dictionary/session), in short self-contained HTML lessons.

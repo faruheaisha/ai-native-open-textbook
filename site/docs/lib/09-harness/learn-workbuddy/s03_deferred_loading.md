@@ -20,7 +20,7 @@ zh: ""
 
 ---
 
-![延迟加载两步调用](https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s03_deferred_loading/images/deferred-loading.svg)
+![延迟加载两步调用](https://gh-proxy.com/https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s03_deferred_loading/images/deferred-loading.svg)
 
 ## 代码架构图
 

@@ -47,15 +47,15 @@ WorkBuddy 本身是一个通用 Agent，什么任务都能接。但通用不意�
 
 1. 打开“专家·技能·连接器”，选择“专家”；
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 6 章 WorkBuddy的专家和专家团/assets/001_image_T8L2bOcbBo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 6 章 WorkBuddy的专家和专家团/assets/001_image_T8L2bOcbBo.png)
 
 2. 点击“召唤专家”；以“高考我帮你”专家举例
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 6 章 WorkBuddy的专家和专家团/assets/002_image_TlTJbNIQOo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 6 章 WorkBuddy的专家和专家团/assets/002_image_TlTJbNIQOo.png)
 
 3. 提供任务内容，比如“帮我查一下2026年高考数学真题”
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 6 章 WorkBuddy的专家和专家团/assets/003_image_Hfv9bPfcIo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 6 章 WorkBuddy的专家和专家团/assets/003_image_Hfv9bPfcIo.png)
 
 4. 等待结果
 
@@ -63,19 +63,19 @@ WorkBuddy 本身是一个通用 Agent，什么任务都能接。但通用不意�
 
 点击我的专家，创建专家，即可
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 6 章 WorkBuddy的专家和专家团/assets/004_20260708204254_Nvfjb5QwFo.gif)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 6 章 WorkBuddy的专家和专家团/assets/004_20260708204254_Nvfjb5QwFo.gif)
 
 比如创建一个公众号创作专家，
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 6 章 WorkBuddy的专家和专家团/assets/005_image_Bzc4b6Ukko.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 6 章 WorkBuddy的专家和专家团/assets/005_image_Bzc4b6Ukko.png)
 
 生成结束，可以测试
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 6 章 WorkBuddy的专家和专家团/assets/006_image_Oz4wbqMTqo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 6 章 WorkBuddy的专家和专家团/assets/006_image_Oz4wbqMTqo.png)
 
 在我的专家中，也可以找到。
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 6 章 WorkBuddy的专家和专家团/assets/007_image_TDP4b0emBo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 6 章 WorkBuddy的专家和专家团/assets/007_image_TDP4b0emBo.png)
 
 ## 召唤一个专家团
 
@@ -83,6 +83,6 @@ WorkBuddy 本身是一个通用 Agent，什么任务都能接。但通用不意�
 
 打开“专家·技能·连接器”，选择“专家团”，点击召唤
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 6 章 WorkBuddy的专家和专家团/assets/008_image_MHngbV84ro.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 6 章 WorkBuddy的专家和专家团/assets/008_image_MHngbV84ro.png)
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 6 章 WorkBuddy的专家和专家团/assets/009_image_LUaZbwcddo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 6 章 WorkBuddy的专家和专家团/assets/009_image_LUaZbwcddo.png)

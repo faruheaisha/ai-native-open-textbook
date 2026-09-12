@@ -12,6 +12,8 @@ entryUrl: "https://github.com/datawhalechina/hello-agents/blob/4f7682ceafe573d07
 zh: ""
 ---
 
+# Hello Agents（Datawhale 智能体教程）
+
 - [Hello-Agents](https://github.com/datawhalechina/hello-agents/blob/4f7682ceafe573d07cd8a7d0b89908500e83227d/en/README_EN.md)
   - [Preface](/lib/08-agents/hello-agents/docs-Preface)
 

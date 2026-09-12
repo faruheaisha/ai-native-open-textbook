@@ -9,16 +9,20 @@ tier: 1
 volume: "10-context-memory"
 sourceUrl: "https://github.com/coleam00/context-engineering-intro"
 entryUrl: "https://github.com/coleam00/context-engineering-intro/blob/a2d84b021cee1e2f4e77ba854bba0be8cb319035/README.md"
-zh: ""
+zh: "on"
 ---
 
 # 🚀 AI Coding Workflows
 
 A comprehensive framework for developing effective AI coding workflows, with three phases - **Planning**, **Implementation**, and **Validation**.
 
+<div class="tb-zh"><p>一套用于打造高效 AI 编码工作流的完整框架，分为三个阶段——规划、实现和验证。</p></div>
+
 ## 🧠 Primary Mental Model
 
 The core philosophy centers around **Context Engineering** - systematically preparing and organizing information to maximize the effectiveness of AI coding assistants.
+
+<div class="tb-zh"><p>核心理念围绕上下文工程展开——系统性地准备和组织信息，以最大化 AI 编码助手的效果。</p></div>
 
 ## 📋 Phase 1: Planning
 
@@ -40,6 +44,8 @@ Prepare these essential elements using slash commands:
 - **Task Management**
 - **Memory Systems**
 - **Prompt Engineering**
+
+<div class="tb-zh"><p>相关主题包括：RAG（检索增强生成）；任务管理；记忆系统；提示词工程。</p></div>
 
 #### 🛠️ Supporting Tools:
 - Archon
@@ -76,6 +82,8 @@ Monitor the AI assistant to ensure it:
 - Strategic oversight
 - Manual testing
 
+<div class="tb-zh"><p>人工验证：战略性把关；手动测试。</p></div>
+
 ## 🔧 Key Components
 
 ### 🌐 Global Rules
@@ -99,3 +107,5 @@ Monitor the AI assistant to ensure it:
 - **Tool integration**: Leverage specialized tools for specific tasks
 
 This framework transforms ad-hoc AI interactions into a systematic, repeatable process that consistently produces high-quality code and documentation. 🎉
+
+<div class="tb-zh"><p>这套框架把零散的 AI 交互转变为系统化、可重复的流程，持续产出高质量的代码与文档。🎉</p></div>

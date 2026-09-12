@@ -9,17 +9,19 @@ tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/shanraisshan/claude-code-best-practice"
 entryUrl: "https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/README.md"
-zh: ""
+zh: "on"
 ---
 
 # CLI Startup Flags Best Practice
 
 Reference for Claude Code startup flags, top-level subcommands, and startup environment variables when launching Claude Code from the terminal.
 
+<div class="tb-zh"><p>在终端启动 Claude Code 时，可用的启动参数、顶层子命令与启动环境变量参考。</p></div>
+
 <table width="100%">
 <tr>
 <td><a href="/lib/09-harness/claude-code-best-practice/overview">← Back to Claude Code Best Practice</a></td>
-<td align="right"><img src="https://raw.githubusercontent.com/shanraisshan/claude-code-best-practice/2d6ea151c0d7189c3eaf364809c5574bd210e545/!/claude-jumping.svg" alt="Claude" width="60" /></td>
+<td align="right"><img src="https://gh-proxy.com/https://raw.githubusercontent.com/shanraisshan/claude-code-best-practice/2d6ea151c0d7189c3eaf364809c5574bd210e545/!/claude-jumping.svg" alt="Claude" width="60" /></td>
 </tr>
 </table>
 
@@ -43,6 +45,8 @@ Reference for Claude Code startup flags, top-level subcommands, and startup envi
 14. [Version & Help](#version--help)
 15. [Subcommands](#subcommands)
 16. [Environment Variables](#environment-variables)
+
+<div class="tb-zh"><p>1）会话管理；2）模型与配置；3）权限与安全；4）输出与格式；5）系统提示词；6）Agent 与子代理；7）MCP 与插件；8）目录与工作区；9）预算与限额；10）集成；11）初始化与维护；12）调试与诊断；13）设置覆盖；14）版本与帮助；15）子命令；16）环境变量。</p></div>
 
 ---
 
@@ -198,6 +202,8 @@ Reference for Claude Code startup flags, top-level subcommands, and startup envi
 
 These are top-level commands run as `claude <subcommand>`:
 
+<div class="tb-zh"><p>下面这些是以 claude &lt;子命令&gt; 形式运行的顶层命令：</p></div>
+
 | Subcommand | Description |
 |------------|-------------|
 | `claude` | Start interactive REPL |
@@ -218,6 +224,8 @@ These are top-level commands run as `claude <subcommand>`:
 
 These startup-only environment variables are set in your shell before launching Claude Code (they cannot be configured via `settings.json`):
 
+<div class="tb-zh"><p>下面这些环境变量只在启动时生效，需要在启动 Claude Code 之前于 shell 中设置（无法通过 settings.json 配置）：</p></div>
+
 | Variable | Description |
 |----------|-------------|
 | `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1` | Enable experimental agent teams. Also env-configurable — see [Settings Reference](https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/best-practice/claude-settings.md#environment-variables) |
@@ -232,6 +240,8 @@ These startup-only environment variables are set in your shell before launching 
 
 For environment variables configurable via the `"env"` key in `settings.json` (including `MAX_THINKING_TOKENS`, `CLAUDE_CODE_SHELL`, `CLAUDE_CODE_ENABLE_TASKS`, `CLAUDE_CODE_DISABLE_BACKGROUND_TASKS`, `CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS`, and more), see the [Claude Settings Reference](https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/best-practice/claude-settings.md#environment-variables-via-env).
 
+<div class="tb-zh"><p>若要通过 settings.json 的「env」键配置环境变量（包括 MAX_THINKING_TOKENS、CLAUDE_CODE_SHELL、CLAUDE_CODE_ENABLE_TASKS、CLAUDE_CODE_DISABLE_BACKGROUND_TASKS、CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS 等），请参见 Claude 设置参考文档。</p></div>
+
 ---
 
 ## Sources
@@ -241,3 +251,5 @@ For environment variables configurable via the `"env"` key in `settings.json` (i
 - [Claude Code Setup](https://code.claude.com/docs/en/setup)
 - [Claude Code CHANGELOG](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md)
 - [Claude Code Common Workflows](https://code.claude.com/docs/en/common-workflows)
+
+<div class="tb-zh"><p>参考链接：Claude Code CLI 参考、Claude Code 无头模式、Claude Code 安装配置、Claude Code 更新日志、Claude Code 常见工作流。</p></div>

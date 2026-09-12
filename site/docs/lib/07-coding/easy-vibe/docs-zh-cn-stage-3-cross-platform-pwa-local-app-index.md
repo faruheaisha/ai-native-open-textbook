@@ -18,7 +18,7 @@ zh: ""
 
 PWA 适合轻量工具、门店表单、活动应用、内部门户和离线采集页面。它仍然是网站，不等于所有系统能力都和原生 App 一样。
 
-![番茄农场 PWA 成品界面](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/pwa-local-app/images/image0.png)
+![番茄农场 PWA 成品界面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/pwa-local-app/images/image0.png)
 
 ## 别人把 PWA 做成了什么
 
@@ -30,7 +30,7 @@ PWA 这个名字听起来像一种新的 App，其实它首先还是网页。用
 
 Starbucks 把点单、菜单、会员入口和门店选择放进了 PWA。用户在手机浏览器里就能打开，也可以把它加到主屏幕。下面这张真实界面里，地址栏显示的是网页地址，底部已经出现“添加到主屏幕”的入口。
 
-![Starbucks PWA 的主屏幕安装入口](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/pwa-local-app/images/pwa-real-starbucks.jpg)
+![Starbucks PWA 的主屏幕安装入口](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/pwa-local-app/images/pwa-real-starbucks.jpg)
 
 它适合咖啡点单，是因为用户的目标很短：看菜单、选门店、下单，然后离开。菜单和购物车可以尽量在弱网时继续使用，真正提交订单和付款时再明确要求联网。
 
@@ -42,7 +42,7 @@ Microsoft 的 [PWA 企业案例汇总](https://learn.microsoft.com/en-us/microso
 
 Pinterest 的情况不一样。它本来就有成熟的网站，希望 Windows 用户能从开始菜单和任务栏直接打开，同时继续复用网页团队已经维护的功能。
 
-![Pinterest PWA 在桌面和手机上的界面](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/pwa-local-app/images/pwa-real-pinterest.jpg)
+![Pinterest PWA 在桌面和手机上的界面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/pwa-local-app/images/pwa-real-pinterest.jpg)
 
 Pinterest 工程团队在[发布 Windows 应用时](https://medium.com/pinterest-engineering/building-the-pinterest-app-for-windows-10-5e29f2146f7d)明确说明，这个应用建立在 PWA 之上，并使用 Manifest、Service Worker、缓存和通知能力。这样既保留了熟悉的网页体验，也能进入 Microsoft Store，像普通桌面应用一样启动。界面图来自 [Codica 的 PWA 产品展示](https://www.codica.com/blog/codica-named-top-pwa-development-firm/)。
 
@@ -52,7 +52,7 @@ Pinterest 工程团队在[发布 Windows 应用时](https://medium.com/pinterest
 
 微软还做了一个真实工具 [PWABuilder](https://www.pwabuilder.com/)。输入网站地址后，它会检查 Manifest、Service Worker、安全配置和应用信息，告诉你还缺什么。
 
-![PWABuilder 对真实网站给出的检查报告](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/pwa-local-app/images/pwa-real-pwabuilder-report.png)
+![PWABuilder 对真实网站给出的检查报告](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/pwa-local-app/images/pwa-real-pwabuilder-report.png)
 
 报告通过以后，还可以继续生成不同应用商店需要的包。它不是把任何网站一键变成优秀 App，而是把“检查配置、补资料、生成商店包”这段重复工作做成了工具。微软官方的 [PWA 打包说明](https://learn.microsoft.com/en-us/windows/apps/publish/publish-your-app/pwa/turn-your-website-pwa)给出了完整流程。
 
@@ -70,7 +70,7 @@ PWA 也不只用来做面向消费者的产品。Microsoft Power Pages 可以把
 
 PWA 不是一种新的编程语言，也不是把网页套进一个安装包就结束了。它仍然从普通网页开始，再由 Manifest 告诉系统“安装后叫什么、用哪个图标”，由 Service Worker 处理缓存和离线访问。
 
-![网页、Manifest、Service Worker 和本地数据的关系](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/pwa-local-app/images/image1.png)
+![网页、Manifest、Service Worker 和本地数据的关系](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/pwa-local-app/images/image1.png)
 
 图里的四部分各管一件事：
 
@@ -95,11 +95,11 @@ PWA 不是一种新的编程语言，也不是把网页套进一个安装包就�
 
 准备两张正方形图标，放进公开资源目录。
 
-![PWA 的 192 像素应用图标](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/pwa-local-app/images/icon-192.png)
+![PWA 的 192 像素应用图标](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/pwa-local-app/images/icon-192.png)
 
-![PWA 的 512 像素应用图标](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/pwa-local-app/images/icon-512.png)
+![PWA 的 512 像素应用图标](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/pwa-local-app/images/icon-512.png)
 
-![在 Vite 配置中增加 PWA 插件](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/pwa-local-app/images/image2.png)
+![在 Vite 配置中增加 PWA 插件](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/pwa-local-app/images/image2.png)
 
 开发服务器里不一定能完整表现生产 Service Worker。先确认配置能编译，离线测试放到生产预览阶段。
 
@@ -107,13 +107,13 @@ PWA 不是一种新的编程语言，也不是把网页套进一个安装包就�
 
 > 请把首页改成番茄农场。包含 25 分钟计时器、积分、三块菜地和种子商店；先用本机数据，不做登录和云同步。
 
-![AI 修改番茄农场页面](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/pwa-local-app/images/image3.png)
+![AI 修改番茄农场页面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/pwa-local-app/images/image3.png)
 
 运行后应看到计时器、积分、菜地和商店。
 
-![番茄农场首页与计时器](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/pwa-local-app/images/image10.png)
+![番茄农场首页与计时器](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/pwa-local-app/images/image10.png)
 
-![番茄农场的菜地和商店](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/pwa-local-app/images/image11.png)
+![番茄农场的菜地和商店](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/pwa-local-app/images/image11.png)
 
 不要为了测试等 25 分钟。增加仅在开发环境可见的“立即完成一次”按钮，生产构建不显示。
 
@@ -123,7 +123,7 @@ PWA 不是一种新的编程语言，也不是把网页套进一个安装包就�
 
 > 请给作物增加幼苗、生长和成熟三种状态。收获后增加积分，并阻止同一块地重复种植。
 
-![不同生长阶段的作物](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/pwa-local-app/images/image4.png)
+![不同生长阶段的作物](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/pwa-local-app/images/image4.png)
 
 验证：积分不足不能购买；空地才能种植；未成熟不能收获；收获后积分只增加一次。
 
@@ -131,7 +131,7 @@ PWA 不是一种新的编程语言，也不是把网页套进一个安装包就�
 
 > 请给种植和收获增加轻微动画，并尊重系统的“减少动态效果”设置。
 
-![番茄农场的操作反馈](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/pwa-local-app/images/image5.png)
+![番茄农场的操作反馈](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/pwa-local-app/images/image5.png)
 
 ## 6. 保存本机数据
 
@@ -166,7 +166,7 @@ npm run preview
 
 支持安装的桌面浏览器可能在地址栏或菜单里显示“安装应用”。安装入口由浏览器、系统和站点状态共同决定，不要只检查某一个图标。
 
-![在桌面浏览器安装番茄农场 PWA](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/pwa-local-app/images/image6.png)
+![在桌面浏览器安装番茄农场 PWA](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/pwa-local-app/images/image6.png)
 
 安装后从系统应用列表启动，确认它以独立窗口打开，名称和图标正确。
 
@@ -174,7 +174,7 @@ npm run preview
 
 先在线打开一次生产预览，让 Service Worker 完成缓存。然后在开发者工具 Network 面板切换 Offline，再刷新。
 
-![在开发者工具检查 Service Worker 和离线缓存](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/pwa-local-app/images/image7.png)
+![在开发者工具检查 Service Worker 和离线缓存](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/pwa-local-app/images/image7.png)
 
 成功标准：
 
@@ -212,7 +212,7 @@ Service Worker 在生产环境需要安全上下文，常见托管平台会提�
 
 在 Android 浏览器中打开 HTTPS 地址，从浏览器菜单选择“安装应用”或“添加到主屏幕”。不同品牌菜单文字可能不同。
 
-![在 Android 手机上安装 PWA](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/pwa-local-app/images/image8.png)
+![在 Android 手机上安装 PWA](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/pwa-local-app/images/image8.png)
 
 在 iPhone 上打开页面，通过浏览器分享菜单选择“添加到主屏幕”。系统和浏览器版本会影响入口位置，以当前界面为准。
 
@@ -222,7 +222,7 @@ Service Worker 在生产环境需要安全上下文，常见托管平台会提�
 
 打开 Chrome DevTools 的 Lighthouse，检查性能、可访问性和最佳实践。新版 Lighthouse 的分类可能调整，不要把“PWA 必须满分”当成验收条件。
 
-![使用 Lighthouse 检查番茄农场](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/pwa-local-app/images/image9.png)
+![使用 Lighthouse 检查番茄农场](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/pwa-local-app/images/image9.png)
 
 重点修复会影响真实用户的问题：图标缺失、离线白屏、按钮不可访问、资源过大和首屏加载慢。
 

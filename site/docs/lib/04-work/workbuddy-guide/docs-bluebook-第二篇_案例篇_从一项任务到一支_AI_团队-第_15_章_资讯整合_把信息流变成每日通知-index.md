@@ -46,7 +46,7 @@ flowchart LR
 
 ## 可用的资讯类 Skill
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 15 章 资讯整合：把信息流变成每日通知/assets/001_skillhub-info-skills_IzOlb7IQbo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 15 章 资讯整合：把信息流变成每日通知/assets/001_skillhub-info-skills_IzOlb7IQbo.png)
 
 大致可以分成六类：新闻、AI 行业、开发者趋势、科研论文、内容监控、事实核查与搜索补证。
 
@@ -72,9 +72,9 @@ flowchart LR
  定时每天早上7点返回gthub热门项目，并输出项目大概简介
 ```
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 15 章 资讯整合：把信息流变成每日通知/assets/002_image_Y8tcbQ5zXo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 15 章 资讯整合：把信息流变成每日通知/assets/002_image_Y8tcbQ5zXo.png)
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 15 章 资讯整合：把信息流变成每日通知/assets/003_image_QIV7b3XORo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 15 章 资讯整合：把信息流变成每日通知/assets/003_image_QIV7b3XORo.png)
 
 ## AIHOT 生成 AI 行业日报
 
@@ -88,19 +88,19 @@ AI 行业信息更新快，AIHOT 可以作为一个现成的信息源。它面�
 帮我安装这个 skill：https://aihot.virxact.com/aihot-skill/
 ```
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 15 章 资讯整合：把信息流变成每日通知/assets/004_image_CG3xbVWBlo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 15 章 资讯整合：把信息流变成每日通知/assets/004_image_CG3xbVWBlo.png)
 
 ```text
 请看一下最近 OpenAI 发布了什么新东西
 ```
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 15 章 资讯整合：把信息流变成每日通知/assets/005_image_HKdRbaqczo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 15 章 资讯整合：把信息流变成每日通知/assets/005_image_HKdRbaqczo.png)
 
 ```Plain Text
 总结今日热点新闻，值关注AI大模型方向
 ```
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 15 章 资讯整合：把信息流变成每日通知/assets/006_image_ZQW0bUCBso.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 15 章 资讯整合：把信息流变成每日通知/assets/006_image_ZQW0bUCBso.png)
 
 | 日报模块 | 写什么 | 通知对象 |
 |-|-|-|

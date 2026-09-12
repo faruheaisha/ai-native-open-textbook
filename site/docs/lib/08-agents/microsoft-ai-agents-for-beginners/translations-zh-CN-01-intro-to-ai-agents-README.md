@@ -55,7 +55,7 @@ zh: ""
   - <strong>传感器</strong> — 代理感知当前环境状态的方式。旅行代理可能会查看酒店房态或航班价格。
   - <strong>执行器</strong> — 代理采取行动的方式。旅行代理可能会预订房间、发送确认信息或取消预订。
 
-![什么是 AI 代理？](https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/what-are-ai-agents.1ec8c4d548af601a.webp)
+![什么是 AI 代理？](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/what-are-ai-agents.1ec8c4d548af601a.webp)
 
 - <strong>大型语言模型</strong> — 代理早在 LLM 出现之前就有了，但正是 LLM 使现代代理变得强大。它们能理解自然语言、推理上下文，并将模糊的用户请求转化为具体行动计划。
 
@@ -87,7 +87,7 @@ zh: ""
 
 只是因为<em>可以</em>用 AI 代理，不代表总是<em>应该</em>用。以下情况代理特别适合：
 
-![何时使用 AI 代理？](https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/when-to-use-ai-agents.54becb3bed74a479.webp)
+![何时使用 AI 代理？](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/when-to-use-ai-agents.54becb3bed74a479.webp)
 
 - <strong>开放式问题</strong> — 需要动态探索解决路径，无法预编程具体步骤。
 - <strong>多步骤流程</strong> — 任务需多轮使用各种工具，而非单次查找或生成。

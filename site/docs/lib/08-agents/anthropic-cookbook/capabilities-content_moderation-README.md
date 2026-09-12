@@ -45,7 +45,7 @@ past decision was made under a version of the prompt nobody recorded.
 
 Claude runs in exactly two places, and neither one decides the verdict:
 
-![Architecture: authoring compiles policy prose into a validated, versioned ruleset; runtime extracts typed fields from each submission and a pure-function rule engine produces the verdict](https://raw.githubusercontent.com/anthropics/anthropic-cookbook/a97b9a2dc300635f0c26b5e05d0b54bbe0279ee5/capabilities/content_moderation/images/architecture.png)
+![Architecture: authoring compiles policy prose into a validated, versioned ruleset; runtime extracts typed fields from each submission and a pure-function rule engine produces the verdict](https://gh-proxy.com/https://raw.githubusercontent.com/anthropics/anthropic-cookbook/a97b9a2dc300635f0c26b5e05d0b54bbe0279ee5/capabilities/content_moderation/images/architecture.png)
 
 - The **compiler** turns each policy clause into rules over a field schema you define.
   A static validator checks every rule against the schema and sends problems back to

@@ -49,21 +49,21 @@ zh: ""
 
 打开腾讯云 [cnb.cool](https://cnb.cool)，右上角使用微信扫码登陆注册。
 
-![扫码登录](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203194524705.jpg)
+![扫码登录](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203194524705.jpg)
 
-![注册页面](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203194703145.png)
+![注册页面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203194703145.png)
 
 ### 实名认证（必须）
 
 注册后需要完成实名认证才能使用 CNB 服务。
 
-![实名认证](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203194825714.png)
+![实名认证](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203194825714.png)
 
 完成认证后进入 [认证页面](https://cnb.cool/profile/auth)：
 
-![认证页面](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203194851637.png)
+![认证页面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203194851637.png)
 
-![填写信息](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203194948051.png)
+![填写信息](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203194948051.png)
 
 ## 2. 创建组织
 
@@ -71,9 +71,9 @@ CNB 的仓库必须在组织下管理。点击右上角的 `＋`，选择`创建
 
 - [创建组织页面](https://cnb.cool/new/groups)
 
-![创建组织](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203195108016.png)
+![创建组织](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203195108016.png)
 
-![填入组织名](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203195234651.png)
+![填入组织名](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203195234651.png)
 
 组织是团队管理成员和资源的命名空间。在创建仓库资源前，需创建组织以管理成员及仓库等资源。
 
@@ -83,13 +83,13 @@ CNB 的仓库必须在组织下管理。点击右上角的 `＋`，选择`创建
 
 点击打开 [vibestudio-default-dev](https://cnb.cool/vibevibe/vibestudio-default-dev) 仓库，点击 Fork：
 
-![Fork 仓库](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203195620152.png)
+![Fork 仓库](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203195620152.png)
 
 ### 启动云原生开发
 
 Fork 到自己的仓库之后，点击"云原生开发"按钮，稍等片刻，等待开发环境创建：
 
-![启动开发环境](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203195641644.png)
+![启动开发环境](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203195641644.png)
 
 ### 连接开发环境
 
@@ -98,7 +98,7 @@ Fork 到自己的仓库之后，点击"云原生开发"按钮，稍等片刻，�
 - 直接打开 WebIDE 在线编辑
 - 通过 SSH 登陆命令，使用安装了 Remote SSH 的 IDE 进行连接
 
-![连接方式](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203200027101.png)
+![连接方式](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203200027101.png)
 
 ::: danger
 **重要提醒：**
@@ -114,7 +114,7 @@ Fork 到自己的仓库之后，点击"云原生开发"按钮，稍等片刻，�
 
 | 配置密钥 | 剪贴板权限 |
 |----------|-----------|
-| ![配置密钥](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203200258701.png) | ![剪贴板权限](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203200406122.png) |
+| ![配置密钥](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203200258701.png) | ![剪贴板权限](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203200406122.png) |
 
 粘贴密钥时会提示调用电脑的剪贴板，同意即可。
 
@@ -122,11 +122,11 @@ Fork 到自己的仓库之后，点击"云原生开发"按钮，稍等片刻，�
 
 | 配置 MCP | 配置完成 |
 |----------|----------|
-| ![配置 MCP](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203200450374.png) | ![MCP 配置完成](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203200500173.png) |
+| ![配置 MCP](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203200450374.png) | ![MCP 配置完成](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203200500173.png) |
 
 配置完成后输入 `claude` 即可开启编程之旅：
 
-![启动 Claude](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203200538588.png)
+![启动 Claude](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203200538588.png)
 
 ## 5. 本地连接 CNB 仓库
 
@@ -150,19 +150,19 @@ git clone https://cnb.cool/你的组织名/仓库名.git
 
 点击侧边栏插件按钮，安装中文插件：
 
-![插件按钮](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203202605236.png)
+![插件按钮](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203202605236.png)
 
 按下 `Ctrl+Shift+P` 组合键显示"命令面板"，然后键入 `display` 筛选并显示"Configure Display Language"命令，按 `Enter`：
 
-![命令面板](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203202810201.png)
+![命令面板](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203202810201.png)
 
 选择"语言"以切换 UI 语言：
 
-![选择语言](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203202830872.png)
+![选择语言](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203202830872.png)
 
 选择中文并确认，自动重启后界面变为中文：
 
-![中文界面](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203202918342.png)
+![中文界面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203202918342.png)
 
 ### 2. 迁移本地已有项目
 

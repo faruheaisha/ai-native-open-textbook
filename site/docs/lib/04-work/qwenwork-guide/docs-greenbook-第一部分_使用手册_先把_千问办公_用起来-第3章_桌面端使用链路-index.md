@@ -46,7 +46,7 @@ QwenWork 是一款本地运行的桌面应用，更像一位真正能"把活干�
 
 首次启动 QwenWork 时，会出现欢迎页提示你登录。左侧是 登录/注册 按钮、语言切换，以及用于配置代理的 网络设置 入口；右侧展示产品标语。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第3章 桌面端使用链路/assets/001_3b7e3225-b264-4d4e-af87-4c09a4407d80.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第3章 桌面端使用链路/assets/001_3b7e3225-b264-4d4e-af87-4c09a4407d80.webp)
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
@@ -58,7 +58,7 @@ QwenWork 是一款本地运行的桌面应用，更像一位真正能"把活干�
 
 QwenWork 主窗口由两部分组成：左侧是垂直的导航侧边栏，右侧是承载对话、任务监控和产物的工作区。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第3章 桌面端使用链路/assets/002_e6c2eaef-549c-4015-b0fa-6057953261f3.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第3章 桌面端使用链路/assets/002_e6c2eaef-549c-4015-b0fa-6057953261f3.webp)
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
@@ -74,7 +74,7 @@ QwenWork 主窗口由两部分组成：左侧是垂直的导航侧边栏，右�
 
 <span style="color: rgb(85, 81, 75); background-color: rgb(248, 249, 251);">帮我调研一下目前市面上的 AI 桌面助手产品，包括 QwenWork、 Cursor、Windsurf、GitHub Copilot。 分别整理每个产品的核心功能、定价模式和目标用户。 汇总成一张对比表格，并导出为 Excel 文件。</span>
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第3章 桌面端使用链路/assets/003_7daf838b-52e6-408f-ba82-59d1515c56e9.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第3章 桌面端使用链路/assets/003_7daf838b-52e6-408f-ba82-59d1515c56e9.webp)
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
@@ -90,7 +90,7 @@ QwenWork 主窗口由两部分组成：左侧是垂直的导航侧边栏，右�
 
 任务执行过程中，工作区会一分为二：左侧仍是对话，展示 AI 的解释和阶段性回复；右侧的 任务监控 会实时显示真正的执行内容——任务计划、产物、当下使用的 技能 & MCP 服务。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第3章 桌面端使用链路/assets/004_16a060a4-ea4c-4d59-980e-2e7e9fb33b08.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第3章 桌面端使用链路/assets/004_16a060a4-ea4c-4d59-980e-2e7e9fb33b08.webp)
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
@@ -100,7 +100,7 @@ QwenWork 主窗口由两部分组成：左侧是垂直的导航侧边栏，右�
 
 任务结束后，QwenWork 会同时给你两件东西：一段在对话里的总结，说明它都做了什么；以及一个或多个 产物——具体的可下载文件，比如这次要的 Excel 表格。产物是真实的本地文件，直接创建并保存在你电脑上，可随时打开、编辑或转移。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第3章 桌面端使用链路/assets/005_dcae26ec-4ab0-4e20-a553-780d086c509d.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第3章 桌面端使用链路/assets/005_dcae26ec-4ab0-4e20-a553-780d086c509d.webp)
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 

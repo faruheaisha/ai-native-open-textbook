@@ -30,7 +30,7 @@ zh: ""
 <tr>
 <td width="50%" valign="top">
 
-<video src="https://github.com/CCCpan/ai-api-integration/raw/main/assets/cases/contract-verify.mp4" controls poster="https://raw.githubusercontent.com/CCCpan/ai-api-integration/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/assets/cases/contract-verify-cover.jpg" width="100%"></video>
+<video src="https://github.com/CCCpan/ai-api-integration/raw/main/assets/cases/contract-verify.mp4" controls poster="https://gh-proxy.com/https://raw.githubusercontent.com/CCCpan/ai-api-integration/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/assets/cases/contract-verify-cover.jpg" width="100%"></video>
 
 </td>
 <td valign="top">
@@ -58,7 +58,7 @@ zh: ""
 <tr>
 <td width="50%" valign="top">
 
-<video src="https://github.com/CCCpan/ai-api-integration/raw/main/assets/cases/xhs-content.mp4" controls poster="https://raw.githubusercontent.com/CCCpan/ai-api-integration/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/assets/cases/xhs-content-cover.jpg" width="100%"></video>
+<video src="https://github.com/CCCpan/ai-api-integration/raw/main/assets/cases/xhs-content.mp4" controls poster="https://gh-proxy.com/https://raw.githubusercontent.com/CCCpan/ai-api-integration/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/assets/cases/xhs-content-cover.jpg" width="100%"></video>
 
 </td>
 <td valign="top">

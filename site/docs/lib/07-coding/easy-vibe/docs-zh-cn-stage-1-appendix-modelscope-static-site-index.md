@@ -193,7 +193,7 @@ export default {
 
 打开 [魔搭社区创空间](https://modelscope.cn/studios)。页面顶部会显示“创建空间 → 搭建应用 → 发布空间 → 分享创意”的流程。
 
-![魔搭社区创空间首页，页面顶部展示创建、搭建、发布和分享流程](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-modelscope-static-site/images/modelscope-static-site/01-studios-home.webp)
+![魔搭社区创空间首页，页面顶部展示创建、搭建、发布和分享流程](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-modelscope-static-site/images/modelscope-static-site/01-studios-home.webp)
 
 点击页面中的创建按钮，或直接访问 [创建创空间](https://modelscope.cn/studios/create)。未登录时，平台会先要求登录或注册。国内站 `modelscope.cn` 和国际站 `modelscope.ai` 的账号、令牌与内容并不互通；面向国内用户时通常选择国内站。
 
@@ -201,7 +201,7 @@ export default {
 
 在“创建创空间”页面填写基础信息：
 
-![魔搭社区“创建创空间”页面，包含名称、所有者、许可证、可见性和描述等基础信息](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-modelscope-static-site/images/modelscope-static-site/02-create-studio.jpg)
+![魔搭社区“创建创空间”页面，包含名称、所有者、许可证、可见性和描述等基础信息](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-modelscope-static-site/images/modelscope-static-site/02-create-studio.jpg)
 
 1. **所属账号或组织**：决定链接中的拥有者名称。
 2. **空间名称**：建议使用小写英文字母、数字和连字符，例如 `my-portfolio`。
@@ -215,7 +215,7 @@ export default {
 
 下面是一个已经运行的 Static 创空间文件页。可以看到网页入口 `index.html` 直接位于仓库根目录，同时还有平台生成或项目自带的 `README.md`。
 
-![魔搭社区 Static 创空间文件页，根目录包含 index.html 和 README.md](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-modelscope-static-site/images/modelscope-static-site/04-studio-files.jpg)
+![魔搭社区 Static 创空间文件页，根目录包含 index.html 和 README.md](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-modelscope-static-site/images/modelscope-static-site/04-studio-files.jpg)
 
 进入新空间的 **文件** 页，点击新增或上传文件，把 `index.html`、CSS、JavaScript 和图片等发布文件传上去。上传完成后，文件列表的根目录必须直接出现 `index.html`，不能多包一层 `dist/`、`build/` 或项目目录。
 
@@ -225,7 +225,7 @@ export default {
 
 文件上传完成后，进入创空间的部署设置，在 SDK 类型中选择 **Static**。页面会提示 Static 适合展示已经准备好的 HTML 页面；同一区域也会提供 Gradio、Streamlit 和 Docker 等类型。
 
-![魔搭社区创空间的部署设置，在“接入 SDK”区域选择 Static](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-modelscope-static-site/images/modelscope-static-site/03-select-static.webp)
+![魔搭社区创空间的部署设置，在“接入 SDK”区域选择 Static](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-modelscope-static-site/images/modelscope-static-site/03-select-static.webp)
 
 再次确认仓库根目录有 `index.html`，然后保存部署设置。
 

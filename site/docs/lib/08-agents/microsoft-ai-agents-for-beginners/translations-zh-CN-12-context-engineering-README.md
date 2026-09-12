@@ -14,7 +14,7 @@ zh: ""
 
 # AI 代理的上下文工程
 
-[![上下文工程](https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/lesson-12-thumbnail.ed19c94463e774d4.webp)](https://youtu.be/F5zqRV7gEag)
+[![上下文工程](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/lesson-12-thumbnail.ed19c94463e774d4.webp)](https://youtu.be/F5zqRV7gEag)
 
 > _(点击上方图像观看本课视频)_
 
@@ -54,7 +54,7 @@ zh: ""
 
 ### 上下文类型
 
-[![上下文类型](https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/context-types.fc10b8927ee43f06.webp)](https://youtu.be/F5zqRV7gEag)
+[![上下文类型](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/context-types.fc10b8927ee43f06.webp)](https://youtu.be/F5zqRV7gEag)
 
 重要的是要记住，上下文不只是单一内容。AI 代理所需的信息可能来自各种不同来源，我们需确保代理能够访问这些来源：
 
@@ -74,7 +74,7 @@ AI 代理可能需要管理的上下文类型包括：
 
 ### 规划策略
 
-[![上下文工程最佳实践](https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/best-practices.f4170873dc554f58.webp)](https://youtu.be/F5zqRV7gEag)
+[![上下文工程最佳实践](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/best-practices.f4170873dc554f58.webp)](https://youtu.be/F5zqRV7gEag)
 
 良好的上下文工程始于良好的规划。下面的方法助你开始思考如何应用上下文工程概念：
 

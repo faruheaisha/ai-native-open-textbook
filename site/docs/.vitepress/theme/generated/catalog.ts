@@ -1,5 +1,5 @@
 // 由 scripts/build-site-content.mjs 生成，请勿手改。
-export const generatedAt = "2026-09-11"
+export const generatedAt = "2026-09-12"
 export const volumes = [
   {
     "id": "01-foundations",

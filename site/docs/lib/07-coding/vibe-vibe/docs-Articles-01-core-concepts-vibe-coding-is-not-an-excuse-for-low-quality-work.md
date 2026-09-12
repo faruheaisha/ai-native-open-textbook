@@ -26,7 +26,7 @@ zh: ""
 
 **"更快行动，打破更多东西。"**
 
-![](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/01-core-concepts/vibe-coding-is-not-an-excuse-for-low-quality-work/01.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/01-core-concepts/vibe-coding-is-not-an-excuse-for-low-quality-work/01.jpg)
 
 这句对硅谷旧口号的扭曲，随着"vibe coding"（氛围编程）进入聊天室，在最近的工程圈中回响**。是的，AI 辅助开发正在改变我们构建软件的方式，但这并不是放弃严谨、审查或工艺的免费通行证。**"Vibe coding"不是低质量工作的借口。
 
@@ -40,7 +40,7 @@ zh: ""
 
 许多早期的 vibe coding 项目表面上看起来已经“能用了”，但里面往往藏着一整串问题：错误处理不足、性能边界没想清楚、安全实践松散、逻辑结构脆弱。我曾把这类东西称作 **“[纸牌屋代码](https://addyo.substack.com/p/the-70-problem-hard-truths-about)”**——看起来完整，一旦进入真实环境的压力测试就开始松动。AI 的确可以快速产出大量代码，但数量从来不等于质量。
 
-![](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/01-core-concepts/vibe-coding-is-not-an-excuse-for-low-quality-work/02.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/01-core-concepts/vibe-coding-is-not-an-excuse-for-low-quality-work/02.jpg)
 
 _[Forrest Brazeal](https://open.substack.com/users/2605615-forrest-brazeal?utm_source=mentions) 的这幅插图，形象地展示了一个核心事实：AI 生成结果很快，但工程责任并不会因此自动消失。_
 
@@ -140,4 +140,4 @@ Vibe coding 和一般的 AI 辅助软件开发代表了我们工具的激动人�
 
 编码愉快，保持氛围高*和*质量更高。
 
-![](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/01-core-concepts/vibe-coding-is-not-an-excuse-for-low-quality-work/03.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/01-core-concepts/vibe-coding-is-not-an-excuse-for-low-quality-work/03.jpg)

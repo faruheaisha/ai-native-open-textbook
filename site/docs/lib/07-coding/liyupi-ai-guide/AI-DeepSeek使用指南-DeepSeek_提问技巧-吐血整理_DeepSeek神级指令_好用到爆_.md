@@ -12,6 +12,8 @@ entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a0
 zh: ""
 ---
 
+# 鱼皮 AI 导航（ai-guide）
+
 ## 吐血整理！DeepSeek神级指令，好用到爆！
 
 ## 一、职场打工人必备篇

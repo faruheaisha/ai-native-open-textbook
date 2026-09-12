@@ -84,4 +84,4 @@ Results:
 Duration: 3s (concurrency: 4)
 ```
 
-![Promptfoo UI](https://raw.githubusercontent.com/bonigarcia/context-engineering/46719154489e410b509db4fb69ab1c29fb3362a0/docs/img/promptfoo-ui.png)
+![Promptfoo UI](https://gh-proxy.com/https://raw.githubusercontent.com/bonigarcia/context-engineering/46719154489e410b509db4fb69ab1c29fb3362a0/docs/img/promptfoo-ui.png)

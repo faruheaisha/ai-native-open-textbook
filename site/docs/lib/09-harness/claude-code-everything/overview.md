@@ -12,7 +12,7 @@ entryUrl: "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Kn
 zh: ""
 ---
 
-# Claude Code: Everything You Need to Know <img src="https://raw.githubusercontent.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/Images/claude-jumping.svg" width="44" height="40" alt="Animated Claude" align="right" />
+# Claude Code: Everything You Need to Know <img src="https://gh-proxy.com/https://raw.githubusercontent.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/Images/claude-jumping.svg" width="44" height="40" alt="Animated Claude" align="right" />
 
 **From first prompt to agent teams — one guide.**
 
@@ -181,8 +181,8 @@ cp -r /tmp/cc-guide/.claude/commands/pr.md  your-project/.claude/commands/   # t
 - **Code:** Implement the solution; verify reasonableness as you go.  
 - **Commit:** Commit results, create pull requests, update READMEs/changelogs.
 - Claude has two default modes: `Plan Mode` and `Accept Edits Mode`. You can toggle between them using the `Shift + Tab` keys.
-    - ![Plan Mode](https://raw.githubusercontent.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/Images/plan-mode.png)
-    - ![Accept Edit Mode](https://raw.githubusercontent.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/Images/accept-edit-mode.png)
+    - ![Plan Mode](https://gh-proxy.com/https://raw.githubusercontent.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/Images/plan-mode.png)
+    - ![Accept Edit Mode](https://gh-proxy.com/https://raw.githubusercontent.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/Images/accept-edit-mode.png)
 
 > **💡 Pro Tip:** Research & planning first significantly improves performance for complex tasks.
 
@@ -294,7 +294,7 @@ echo "Analyze this code for performance issues and suggest optimizations:" \
 
 > ⚠️ **Security:** Skills are executable instructions running with your shell permissions. Read every third-party skill before adding it — exactly like reviewing a shell script before sourcing it.
 
-![Skill resolution: typing /name or Claude matching a description both enter one lookup order — project .claude/, then user ~/.claude/, then plugins, then built-in, first match wins. Both .claude/commands/name.md and .claude/skills/name/SKILL.md create the same /name command.](https://raw.githubusercontent.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/Images/skill-resolution.svg)
+![Skill resolution: typing /name or Claude matching a description both enter one lookup order — project .claude/, then user ~/.claude/, then plugins, then built-in, first match wins. Both .claude/commands/name.md and .claude/skills/name/SKILL.md create the same /name command.](https://gh-proxy.com/https://raw.githubusercontent.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/Images/skill-resolution.svg)
 
 Project beats user beats built-in — which is how this repo's custom `/review` deliberately shadows the built-in one. Slash skills load on `/` autocomplete; Agent Skills preload only their metadata and read the body on demand. [Full lookup table →](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/docs/skills.md#where-claude-looks)
 
@@ -358,7 +358,7 @@ Notable community skills: `skill-creator`, `skill-installer`, `mcp-builder`, `sy
 
 If none of those resonate, skip ahead.
 
-![Hooks Workflow](https://raw.githubusercontent.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/Images/hooks-workflow.png)
+![Hooks Workflow](https://gh-proxy.com/https://raw.githubusercontent.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/Images/hooks-workflow.png)
 
 #### Setting up hooks
 
@@ -504,7 +504,7 @@ cd ../feature-a && claude                     # start Claude in it
 git worktree remove ../feature-a              # clean up when done
 ```
 
-![Three terminals creating one worktree each, then confirming the branches are checked out independently](https://raw.githubusercontent.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/Images/work-trees.png)
+![Three terminals creating one worktree each, then confirming the branches are checked out independently](https://gh-proxy.com/https://raw.githubusercontent.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/Images/work-trees.png)
 
 > 💡 Use [tmux](https://github.com/tmux/tmux/wiki/Installing) to keep each worktree's session attached even when you close the terminal.
 >
@@ -520,8 +520,8 @@ Spawn 5 subagents to accelerate the work.
 Ultrathink.
 ```
 
-![The same spawn prompt typed into three separate sessions](https://raw.githubusercontent.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/Images/agents-prompt.png)
-![Each session running five subagents concurrently, each with its own tool calls and token count](https://raw.githubusercontent.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/Images/Subagents.png)
+![The same spawn prompt typed into three separate sessions](https://gh-proxy.com/https://raw.githubusercontent.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/Images/agents-prompt.png)
+![Each session running five subagents concurrently, each with its own tool calls and token count](https://gh-proxy.com/https://raw.githubusercontent.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/Images/Subagents.png)
 
 #### 3. Specialized subagents — drop-in role prompts
 
@@ -568,7 +568,7 @@ implement them; have code-reviewer review the changes; have
 frontend-engineer address the review feedback.
 ```
 
-<img src="https://raw.githubusercontent.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/Images/Orchestration.png" alt="Canvas board of the ten role prompts, fanning out from a general-purpose agent" width="600">
+<img src="https://gh-proxy.com/https://raw.githubusercontent.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/Images/Orchestration.png" alt="Canvas board of the ten role prompts, fanning out from a general-purpose agent" width="600">
 
 > 📐 That board is [`specialized-agents/agent-orchestration-workflow.canvas`](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/agent-orchestration-workflow.canvas) — open it in [Obsidian](https://obsidian.md/) or any canvas-compatible viewer to read the full prompts side by side.
 >
@@ -737,19 +737,19 @@ Install from the [registry](https://registry.modelcontextprotocol.io/) or follow
 
 #### The N×M problem MCP solves
 
-![N×M problem before MCP](https://raw.githubusercontent.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/Images/MCP/mcp-1.png)
+![N×M problem before MCP](https://gh-proxy.com/https://raw.githubusercontent.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/Images/MCP/mcp-1.png)
 
 Before MCP, every AI app needed a custom integration for every tool: `n` apps × `m` tools = `n × m` brittle one-off connections. Teams inside the same company would reinvent the same Slack/GitHub/Postgres integration over and over.
 
-![Without MCP vs With MCP](https://raw.githubusercontent.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/Images/MCP/mcp-2.png)
+![Without MCP vs With MCP](https://gh-proxy.com/https://raw.githubusercontent.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/Images/MCP/mcp-2.png)
 
 MCP collapses this to **N + M**: each app implements MCP once, each tool exposes MCP once, and any combination works together. Same pattern Web APIs gave us for app-to-server and LSP gave us for editor-to-language tooling.
 
-![The evolution of protocols](https://raw.githubusercontent.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/Images/MCP/mcp-3.png)
+![The evolution of protocols](https://gh-proxy.com/https://raw.githubusercontent.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/Images/MCP/mcp-3.png)
 
 #### Three pillars
 
-![MCP three pillars](https://raw.githubusercontent.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/Images/MCP/mcp-4.png)
+![MCP three pillars](https://gh-proxy.com/https://raw.githubusercontent.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/Images/MCP/mcp-4.png)
 
 Each pillar makes ownership explicit, so it's always clear who's driving:
 
@@ -761,7 +761,7 @@ Each pillar makes ownership explicit, so it's always clear who's driving:
 
 #### The MCP Registry & self-discovering agents
 
-![Agent learning on the fly](https://raw.githubusercontent.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/Images/MCP/mcp-5.png)
+![Agent learning on the fly](https://gh-proxy.com/https://raw.githubusercontent.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/Images/MCP/mcp-5.png)
 
 The [official MCP Registry](https://registry.modelcontextprotocol.io/) (public preview since September 2025) is the app-store-equivalent for MCP servers. An agent that needs to check Grafana logs but doesn't have a Grafana tool wired up can ping the registry, find the verified server, install it, and continue — teaching itself a new capability on the fly.
 

@@ -12,6 +12,8 @@ entryUrl: "https://github.com/mattpocock/skills/blob/3cca18b368ae95cdbdebbff572c
 zh: ""
 ---
 
+# Matt Pocock Skills（工程技能库）
+
 ## What it does
 
 `wait-what` is what you type when a message didn't land. The [agent](https://www.aihero.dev/ai-coding-dictionary/agent) then re-pitches what it just said. It adds the context you were missing, writes in plain English, and uses the vocabulary from your project's `CONTEXT.md`.

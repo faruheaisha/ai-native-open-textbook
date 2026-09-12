@@ -102,7 +102,7 @@ _"我听说过很多关于如何给 AI 写好规范的建议，但一直没找�
 
 **把规范接入工具链**：把规范视为与版本控制、CI/CD 紧密相连的“可执行工件”。[GitHub Spec Kit](https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/) 采用四阶段门控工作流，让规范真正成为工程流程的中心。规范不是写完就放着不管，而是要驱动实现、检查清单和任务拆解。你的角色是把方向、约束和验收标准说清楚；Coding Agents 负责推进大部分实现。在当前阶段尚未验证完成之前，不进入下一个阶段。
 
-![规范驱动开发工作流程](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/04-engineering-practices/how-to-write-a-good-spec-for-ai-agents/01.jpg)
+![规范驱动开发工作流程](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/04-engineering-practices/how-to-write-a-good-spec-for-ai-agents/01.jpg)
 
 **1. 指定**： 你提供你正在构建什么以及为什么的高层描述，Coding Agents 生成详细的规范。这不是关于技术栈或应用设计——而是关于用户旅程、体验以及成功是什么样子。谁将使用它？它解决什么问题？他们将如何与之交互？把它想象成映射你想要创建的用户体验，让 Coding Agents 充实细节。这成为一个随着你了解更多而演变的活工件。
 
@@ -128,7 +128,7 @@ _"我听说过很多关于如何给 AI 写好规范的建议，但一直没找�
 
 有经验的 AI 工程师已经了解到，试图将整个项目（所有需求、所有代码、所有指令）塞进单个提示或代理消息中是混乱的配方。你不仅有触及令牌限制的风险，还有由于"[指令诅咒](https://maxpool.dev/research-papers/curse_of_instructions_report.html)"而导致模型失去焦点的风险——太多指令导致它无法很好地遵循任何一个。解决方案是以模块化方式设计你的规范和工作流程，一次处理一个部分，只引入该部分所需的上下文。
 
-![模块化 AI 规范](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/04-engineering-practices/how-to-write-a-good-spec-for-ai-agents/02.jpg)
+![模块化 AI 规范](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/04-engineering-practices/how-to-write-a-good-spec-for-ai-agents/02.jpg)
 
 **过多上下文/指令的诅咒**： 研究证实了许多开发者轶事所见：当你在提示中堆积更多指令或数据时，模型遵守每个指令的性能[显著下降](https://openreview.net/pdf/848f1332e941771aa491f036f6350af2effe0513.pdf)。一项研究将此称为"指令诅咒"，表明即使是 GPT-4 和 Claude 在被要求同时满足许多要求时也会挣扎。实际上，如果你提出 10 个详细规则的要点，AI 可能会遵守前几个并开始忽略其他的。更好的策略是迭代聚焦。[行业指南](https://maxpool.dev/research-papers/curse_of_instructions_report.html)建议将复杂需求分解为顺序的、简单的指令作为最佳实践。一次让 AI 专注于一个子问题，完成后再继续。这保持了高质量并使错误可管理。
 
@@ -167,7 +167,7 @@ _"我听说过很多关于如何给 AI 写好规范的建议，但一直没找�
 
 **使用三层边界**： [GitHub 对 2,500+ 代理文件的分析](https://github.blog/ai-and-ml/github-copilot/how-to-write-a-great-agents-md-lessons-from-over-2500-repositories/)发现，最有效的规范使用三层边界系统，而不是简单的禁止列表。这为代理提供了更清晰的指导，说明何时继续、何时暂停以及何时停止：
 
-![AI 规范的三层边界](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/04-engineering-practices/how-to-write-a-good-spec-for-ai-agents/03.jpg)
+![AI 规范的三层边界](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/04-engineering-practices/how-to-write-a-good-spec-for-ai-agents/03.jpg)
 
 **✅ 始终做**： 代理应该在不询问的情况下采取的行动。"始终在提交前运行测试。" "始终遵循风格指南中的命名约定。" "始终将错误记录到监控服务。"
 
@@ -205,7 +205,7 @@ Simon Willison 曾把与 AI 协作形容为“一种很奇特的管理形式”�
 
 初始规范不是结束——它是循环的开始。当你持续根据规范验证代理的工作并相应调整时，会产生最佳结果。此外，现代 AI 开发者使用各种工具来支持这个过程（从 CI 管道到上下文管理实用程序）。
 
-![规范迭代循环：测试、反馈、完善、工具](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/04-engineering-practices/how-to-write-a-good-spec-for-ai-agents/04.jpg)
+![规范迭代循环：测试、反馈、完善、工具](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/04-engineering-practices/how-to-write-a-good-spec-for-ai-agents/04.jpg)
 
 **持续测试**： 不要等到最后才看代理是否满足规范。在每个主要里程碑之后，甚至每个函数之后，运行测试或至少进行快速手动检查。如果某些东西失败了，在继续之前更新规范或提示。例如，如果规范说"密码必须使用 bcrypt 哈希"，而你看到代理的代码存储明文——停止并纠正它（并提醒规范或提示关于规则）。自动化测试在这里大放异彩：如果你提供了测试（或在进行时编写它们），让代理运行它们。在许多Coding Agents 设置中，你可以让代理在完成任务后运行 npm test 或类似命令。结果（失败）然后可以反馈到下一个提示中，有效地告诉代理"你的输出在 X、Y、Z 上不符合规范——修复它。" 这种代理循环（代码 -> 测试 -> 修复 -> 重复）非常强大，是像 Claude Code 或 Copilot Labs 这样的工具正在发展以处理更大任务的方式。始终定义"完成"的含义（通过测试或标准）并检查它。
 

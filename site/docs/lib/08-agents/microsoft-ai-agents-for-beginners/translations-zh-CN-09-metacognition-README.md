@@ -49,7 +49,7 @@ zh: ""
 
 元认知在 AI 代理设计中起着关键作用，主要原因有：
 
-![元认知重要性](https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/importance-of-metacognition.b381afe9aae352f7.webp)
+![元认知重要性](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/importance-of-metacognition.b381afe9aae352f7.webp)
 
 - 自我反思：代理可以评估自身表现并识别改进空间。
 - 适应能力：代理可以根据过去经验和变化环境调整策略。
@@ -253,7 +253,7 @@ travel_agent.adjust_based_on_feedback(feedback)
 
 首先，让我们理解 RAG 工具和预先上下文加载的区别
 
-![RAG 与上下文加载比较](https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/rag-vs-context.9eae588520c00921.webp)
+![RAG 与上下文加载比较](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/rag-vs-context.9eae588520c00921.webp)
 
 ### 检索增强生成（RAG）
 

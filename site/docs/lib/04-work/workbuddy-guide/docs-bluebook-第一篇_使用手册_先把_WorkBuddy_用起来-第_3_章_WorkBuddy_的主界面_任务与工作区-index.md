@@ -16,7 +16,7 @@ zh: ""
 
 WorkBuddy 主界面可以理解为三个区域：左侧（侧边栏）管理任务，中间（对话区）下达和追踪任务，右侧（结果区）查看文件、变更、预览和最终产物。
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 3 章 WorkBuddy 的主界面、任务与工作区/assets/001_image_MuLCbdPyDo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 3 章 WorkBuddy 的主界面、任务与工作区/assets/001_image_MuLCbdPyDo.png)
 
 ## 三个区域分别做什么
 
@@ -40,7 +40,7 @@ WorkBuddy 主界面可以理解为三个区域：左侧（侧边栏）管理任�
 
 同时，可以对目录空间的权限进行设置，当开启“允许完全访问”（开启完全访问后智能体可读写授权目录外文件，请谨慎使用并优先按任务限定目录。）
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 3 章 WorkBuddy 的主界面、任务与工作区/assets/002_image_DtASbQcrto.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 3 章 WorkBuddy 的主界面、任务与工作区/assets/002_image_DtASbQcrto.png)
 
 ## 三种工作模式
 
@@ -52,13 +52,13 @@ WorkBuddy 提供三种工作模式：
 | Craft | 做一做 | 可直接操作本地文件、运行代码及系统指令 | 路径清楚、风险较低的任务 |
 | Plan | 想一想 | 先生成计划，确认后再执行 | 多步骤、跨系统、重要文件任务 |
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 3 章 WorkBuddy 的主界面、任务与工作区/assets/003_image_W7VqbwVeJo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 3 章 WorkBuddy 的主界面、任务与工作区/assets/003_image_W7VqbwVeJo.png)
 
 ## 选择不同的模型
 
 默认为自动模式，可以指定你想使用的模型，不同模型积分消耗不同。
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 3 章 WorkBuddy 的主界面、任务与工作区/assets/004_image_OzThbMYn5o.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 3 章 WorkBuddy 的主界面、任务与工作区/assets/004_image_OzThbMYn5o.png)
 
 | 任务特征 | 优先关注 |
 |-|-|

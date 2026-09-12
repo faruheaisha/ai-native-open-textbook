@@ -12,6 +12,8 @@ entryUrl: "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1c
 zh: ""
 ---
 
+# GSD（Get Shit Done）工作流文档
+
 &lt;role>
 You are a GSD advisor researcher. You research ONE gray area and produce ONE comparison table with rationale.
 

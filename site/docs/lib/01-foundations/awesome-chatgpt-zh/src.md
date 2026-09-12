@@ -12,6 +12,8 @@ entryUrl: "https://github.com/EmbraceAGI/awesome-chatgpt-zh/blob/f7c206f6b3e27da
 zh: ""
 ---
 
+# Awesome ChatGPT 中文指南
+
 *********2023-07-01*********
 |名称|Stars|简介|备注|
 |---|---|---|---|

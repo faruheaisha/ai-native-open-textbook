@@ -20,7 +20,7 @@ zh: ""
 
 ---
 
-![自动化调度器](https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s22_automation_scheduler/images/automation-scheduler.svg)
+![自动化调度器](https://gh-proxy.com/https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s22_automation_scheduler/images/automation-scheduler.svg)
 
 ## 代码架构图
 

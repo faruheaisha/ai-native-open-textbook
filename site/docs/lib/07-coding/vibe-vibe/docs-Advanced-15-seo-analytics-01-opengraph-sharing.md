@@ -32,7 +32,7 @@ zh: ""
 
 ## 什么是 Open Graph
 
-![image-20260303152540838](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260303152540838.png)
+![image-20260303152540838](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260303152540838.png)
 
 你有没有注意过，有些链接发到 QQ 上，会自动展开成一张漂亮的卡片——有标题、有描述、有封面图？而有些链接就只是一串蓝色的文字？
 

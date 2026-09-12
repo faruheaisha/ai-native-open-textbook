@@ -31,7 +31,7 @@ Safety can't rely on trusting the model — it needs code: a check before every 
 
 ## The Solution
 
-![Permission Overview](https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s03_permission/images/permission-overview.en.svg)
+![Permission Overview](https://gh-proxy.com/https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s03_permission/images/permission-overview.en.svg)
 
 s02's loop is fully preserved. The only change is inserting `check_permission()` before tool execution — each tool call passes through three gates in a fixed order: hard deny first, then soft ask, and if neither matches, allow.
 
@@ -49,7 +49,7 @@ None of the three gates match → execute directly. Most routine operations take
 
 ## How It Works
 
-![Permission Pipeline](https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s03_permission/images/permission-pipeline.en.svg)
+![Permission Pipeline](https://gh-proxy.com/https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s03_permission/images/permission-pipeline.en.svg)
 
 **Gate 1**: A hard deny list. Check first; if matched, return a block message. This list uses simple string matching to show where the permission gate sits; it is not a complete security boundary.
 

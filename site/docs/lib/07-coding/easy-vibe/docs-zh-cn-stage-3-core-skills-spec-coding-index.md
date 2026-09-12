@@ -499,7 +499,7 @@ Spec → Plan → Tasks → Implement
 
 每个阶段都会生成 Markdown 工件，并把上一步的结果交给下一步。它还提供 `clarify`、`analyze` 和 `checklist` 等命令，用来发现规格中的模糊点、文档之间的矛盾和遗漏。
 
-![GitHub Spec Kit 官方视频流程封面](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/core-skills/spec-coding/images/spec-kit-workflow.jpg)
+![GitHub Spec Kit 官方视频流程封面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/core-skills/spec-coding/images/spec-kit-workflow.jpg)
 
 _截图来源：[GitHub Spec Kit 官方仓库](https://github.com/github/spec-kit)。_
 
@@ -591,11 +591,11 @@ Kiro 把 Spec 做成了 IDE、CLI 和 Web 中的内置工作流。标准 Feature
 
 下面是 Kiro 官方演示中的 Spec 工作区。顶部可以在 Requirements、Design 和 Task list 之间切换，右侧保留与 Agent 的讨论过程。
 
-![Kiro 官方 Spec 界面：需求与设计阶段](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/core-skills/spec-coding/images/kiro-requirements.jpg)
+![Kiro 官方 Spec 界面：需求与设计阶段](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/core-skills/spec-coding/images/kiro-requirements.jpg)
 
 任务阶段会把实现工作拆成有顺序的列表，并把任务重新关联到需求：
 
-![Kiro 官方 Spec 界面：设计和任务拆解](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/core-skills/spec-coding/images/kiro-tasks.jpg)
+![Kiro 官方 Spec 界面：设计和任务拆解](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/core-skills/spec-coding/images/kiro-tasks.jpg)
 
 _两张截图来源：[Kiro 官方产品介绍](https://kiro.dev/blog/introducing-kiro/)。_
 

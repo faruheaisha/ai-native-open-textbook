@@ -49,7 +49,7 @@ zh: ""
 
 AI 只负责其中适合它的部分。登录、支付、保存文件和页面跳转都有明确规则，仍然使用普通程序来完成。
 
-![商品图片经过图片理解后生成商品描述的实际页面](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/integrating-ai-capabilities/images/index-2026-01-20-15-35-41.webp)
+![商品图片经过图片理解后生成商品描述的实际页面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/integrating-ai-capabilities/images/index-2026-01-20-15-35-41.webp)
 
 *在这个原型中，用户先上传商品图片，页面识别出商品信息，再生成可以继续编辑的描述和卖点。*
 
@@ -143,7 +143,7 @@ API Key 是应用调用模型时使用的凭证。创建以后，把它放进本
 
 发出第一次请求后，可以打开 Usage 或 Billing 页面看看是否出现了新的调用记录。这里还会显示余额和 Quota（额度）。遇到请求失败时，先确认是代码没有发出去、平台拒绝了请求，还是账号已经没有可用额度。
 
-![DeepSeek 用量页面，包含余额、月度支出和调用趋势](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/integrating-ai-capabilities/images/index-2026-01-20-13-57-41.webp)
+![DeepSeek 用量页面，包含余额、月度支出和调用趋势](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/integrating-ai-capabilities/images/index-2026-01-20-13-57-41.webp)
 
 *DeepSeek 的 Usage 页面会显示调用量、消耗和余额。*
 
@@ -153,13 +153,13 @@ API Key 是应用调用模型时使用的凭证。创建以后，把它放进本
 
 模型广场或 Models 页面用来查看平台当前提供哪些文本、图片、语音和视频模型。点进详情页以后，注意复制代码中使用的 Model ID；它可能和页面上显示的中文名称不同。
 
-![SiliconFlow 模型广场，左侧按文本、图像、视频和语音区分能力](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/integrating-ai-capabilities/images/index-2026-01-20-15-05-04.webp)
+![SiliconFlow 模型广场，左侧按文本、图像、视频和语音区分能力](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/integrating-ai-capabilities/images/index-2026-01-20-15-05-04.webp)
 
 *SiliconFlow 的模型广场可以按文本、图像、视频和语音筛选模型。*
 
 有些平台还要求先选择 Region（区域），或者创建一个 Deployment（推理服务），然后才会给出 Base URL 和 Endpoint。遇到这种情况，直接跟着平台的快速接入向导完成，不要把控制台页面的网址当成 API 地址。
 
-![火山方舟快速 API 接入页面，展示 API Key 与快速测试步骤](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/integrating-ai-capabilities/images/index-2026-01-20-23-13-01.webp)
+![火山方舟快速 API 接入页面，展示 API Key 与快速测试步骤](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/integrating-ai-capabilities/images/index-2026-01-20-23-13-01.webp)
 
 *火山方舟的快速接入页面把创建 Key、选择模型和运行示例放在了一起。*
 
@@ -270,7 +270,7 @@ response = client.chat.completions.create(
 )
 ```
 
-![在 AI IDE 中接入图片理解接口](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/integrating-ai-capabilities/images/index-2026-01-20-15-34-36.webp)
+![在 AI IDE 中接入图片理解接口](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/integrating-ai-capabilities/images/index-2026-01-20-15-34-36.webp)
 
 *先让用户确认模型识别出的商品信息，再生成文案，通常比直接从图片生成最终文案更容易发现错误。*
 
@@ -302,7 +302,7 @@ curl -X POST https://ark.cn-beijing.volces.com/api/v3/images/generations \
   }'
 ```
 
-![图片生成能力接入产品后的效果](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/integrating-ai-capabilities/images/index-2026-01-20-23-21-13.webp)
+![图片生成能力接入产品后的效果](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/integrating-ai-capabilities/images/index-2026-01-20-23-21-13.webp)
 
 图片 URL 往往有有效期。原型可以直接展示，准备上线时要根据服务条款决定是否转存，并记录提示词、模型版本和生成时间。
 

@@ -26,7 +26,7 @@ _**Agent 是一个根据数据自主完成任务或做出决策的程序。它�
 
 传统 AI 模型和 Agent 之间的区别微妙但深刻。当我们与 AI 模型（例如 Gemini、o1、Sonnet 或类似的大型语言模型）交互时，我们本质上是在进行一系列单次交互：我们提供输入，模型处理它，然后返回输出。虽然这些交互可能很复杂，但它们本质上是被动的和无状态的。每个响应都是孤立存在的，没有真正的连续性或采取独立行动的能力。
 
-![](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/01-core-concepts/what-are-ai-agents-why-do-they-matter/01.gif)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/01-core-concepts/what-are-ai-agents-why-do-they-matter/01.gif)
 
 **相比之下，AI Agent 是设计用来感知环境、做出决策并采取行动以实现特定目标的自主系统——同时保持上下文并根据结果调整方法**。
 
@@ -34,13 +34,13 @@ _**Agent 是一个根据数据自主完成任务或做出决策的程序。它�
 
 考虑一下我们今天如何使用 AI 聊天界面。你可能会要求 ChatGPT 从头到尾写一篇文章，然后得到一个**单次响应**。你可能需要自己做一些工作来迭代它。Agent 版本更加细致——Agent 可能会写一个大纲，决定是否需要研究，写一个草稿，评估是否需要改进并自我修订。让我们看看一些 Agent 实际运行的例子。
 
-![](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/01-core-concepts/what-are-ai-agents-why-do-they-matter/02.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/01-core-concepts/what-are-ai-agents-why-do-they-matter/02.jpg)
 
 当你要求 AI 模型帮助你分析一些数据时，它可以建议方法甚至编写代码，但它不能实际执行该代码或直接与你的数据交互。另一方面，AI Agent 可以主动处理你的数据：加载文件、运行分析、生成可视化，甚至根据结果建议和实施改进。
 
 这在 Agent 到 Agent 的工作流程中变得更加强大。考虑一个数据分析项目，其中多个 Agent 协作：数据准备 Agent 可能会清理和规范化你的原始数据，将其传递给应用统计方法并识别模式的分析 Agent。然后，这个 Agent 可能会与可视化 Agent 协作，创建引人注目的发现表示，而文档 Agent 则记录方法和结果。最后，审查 Agent 可能会验证整个工作流程并建议改进或额外的分析。
 
-![](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/01-core-concepts/what-are-ai-agents-why-do-they-matter/03.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/01-core-concepts/what-are-ai-agents-why-do-they-matter/03.jpg)
 
 此工作流程中的每个 Agent 都保持自己的上下文和专业知识，同时通过结构化协议与其他 Agent 协调。
 
@@ -48,7 +48,7 @@ _**Agent 是一个根据数据自主完成任务或做出决策的程序。它�
 
 回到单次提示与 Agent：当我们谈论用于代码生成的 AI 时，我们大多数人习惯于"提示和响应"方法。你给 AI 一个提示，比如"给我写做 X 的代码"，它会用一些代码响应。
 
-![](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/01-core-concepts/what-are-ai-agents-why-do-they-matter/04.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/01-core-concepts/what-are-ai-agents-why-do-they-matter/04.jpg)
 
 Agent 采用更细致的方法。它可以概述逻辑，检查代码，运行测试，检测错误，然后如果出现问题就重新思考并修复它们。这个迭代过程模仿了工程师处理问题的方式，并提供更好的结果。AI 成为协作者，而不仅仅是输出的纯生成器。
 
@@ -73,9 +73,9 @@ AI Agent 自主和协作操作的能力需要开发和采用标准化通信协�
 
 **简单来说：MCP 将 Agent 连接到工具（想想 Agent 到 API），而 A2A 使 Agent 能够与其他 Agent 对话**。
 
-![](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/01-core-concepts/what-are-ai-agents-why-do-they-matter/05.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/01-core-concepts/what-are-ai-agents-why-do-they-matter/05.jpg)
 
-![](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/01-core-concepts/what-are-ai-agents-why-do-they-matter/06.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/01-core-concepts/what-are-ai-agents-why-do-they-matter/06.jpg)
 
 ## **超越简单自动化：理解 Agent 能力**
 
@@ -101,7 +101,7 @@ _[Agent Recipes](https://www.agentrecipes.com/) 是一个学习 Agent/工作流�
 
 AI Agent 的出现催生了几种不同的架构模式，每种模式都解决了自主决策和行动挑战的不同方面。理解这些模式对于掌握 Agent 系统的当前能力和局限性以及它们未来的潜在演变至关重要。
 
-![](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/01-core-concepts/what-are-ai-agents-why-do-they-matter/07.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/01-core-concepts/what-are-ai-agents-why-do-they-matter/07.jpg)
 
 ### **工具使用和集成**
 
@@ -163,13 +163,13 @@ Microsoft 的 AutoGen 和开源 CrewAI 框架体现了这种方法，允许开�
 - 验证功能的测试 Agent
 - 维护技术文档的文档 Agent
 
-![](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/01-core-concepts/what-are-ai-agents-why-do-they-matter/08.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/01-core-concepts/what-are-ai-agents-why-do-they-matter/08.jpg)
 
 _图为 CrewAI，它允许你创建和管理 Agent 团队。_
 
 这些 Agent 之间的交互不仅仅是传递消息；它涉及用于谈判、共识建立和冲突解决的复杂协议。这反映了人类组织结构，但具有完美信息共享和一致执行既定协议的优势。
 
-![](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/01-core-concepts/what-are-ai-agents-why-do-they-matter/09.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/01-core-concepts/what-are-ai-agents-why-do-they-matter/09.jpg)
 
 _[AI Agent 技术栈](https://www.letta.com/blog/ai-agents-stack) 组织成三个关键层：Agent 托管/服务、Agent 框架和 LLM 模型与存储。_
 
@@ -241,7 +241,7 @@ Browser Use 背后的团队现在还有一个[基于云的版本](https://cloud.
 
 _"深度研究"是我最喜欢的复杂研究实现之一，我很喜欢使用 OpenAI 的深度研究以及 Google 的深度研究（这些天真的很好）。_
 
-![](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/01-core-concepts/what-are-ai-agents-why-do-they-matter/10.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/01-core-concepts/what-are-ai-agents-why-do-they-matter/10.jpg)
 
 ### **技术实现和挑战**
 
@@ -418,4 +418,4 @@ AI Agent 的时代正在展开。
 
 问题不是它们是否会改变我们使用技术的方式，而是我们如何塑造这种转变。当我们度过这一转变时，我们既需要意识到挑战，也需要有勇气重新想象当软件成为自主合作伙伴而不仅仅是工具时可能发生的事情。
 
-![](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/01-core-concepts/what-are-ai-agents-why-do-they-matter/11.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/01-core-concepts/what-are-ai-agents-why-do-they-matter/11.jpg)

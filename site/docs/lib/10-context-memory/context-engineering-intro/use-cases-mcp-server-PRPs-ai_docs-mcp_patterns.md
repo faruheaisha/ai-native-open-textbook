@@ -9,12 +9,14 @@ tier: 1
 volume: "10-context-memory"
 sourceUrl: "https://github.com/coleam00/context-engineering-intro"
 entryUrl: "https://github.com/coleam00/context-engineering-intro/blob/a2d84b021cee1e2f4e77ba854bba0be8cb319035/README.md"
-zh: ""
+zh: "on"
 ---
 
 # MCP Server Development Patterns
 
 This document contains proven patterns for developing Model Context Protocol (MCP) servers using TypeScript and Cloudflare Workers, based on the implementation in this codebase.
+
+<div class="tb-zh"><p>本文档收录了用 TypeScript 与 Cloudflare Workers 开发 Model Context Protocol（MCP）服务器的可靠模式，这些模式来自本代码库中的实现。</p></div>
 
 ## Core MCP Server Architecture
 
@@ -503,3 +505,5 @@ id = "your-kv-namespace-id"
 ```
 
 This document provides the core patterns for building secure, scalable MCP servers using the proven architecture in this codebase.
+
+<div class="tb-zh"><p>本文档给出构建安全、可扩展 MCP 服务器的核心模式，均基于本代码库中经过验证的架构。</p></div>

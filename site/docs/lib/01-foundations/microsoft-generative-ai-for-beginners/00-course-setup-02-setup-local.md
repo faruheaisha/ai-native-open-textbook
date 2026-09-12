@@ -9,7 +9,7 @@ tier: 1
 volume: "01-foundations"
 sourceUrl: "https://github.com/microsoft/generative-ai-for-beginners"
 entryUrl: "https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/README.md"
-zh: ""
+zh: "on"
 ---
 
 # Local Setup 🖥️
@@ -17,6 +17,8 @@ zh: ""
 **Use this guide if you prefer to run everything on your own laptop.**   
 You have two paths: **(A) native Python + virtual-env** or **(B) VS Code Dev Container with Docker**.  
 Choose whichever feels easier—both lead to the same lessons.
+
+<div class="tb-zh"><p>如果你更愿意把一切都跑在自己的笔记本上，就用这份指南。有两条路可选：(A) 原生 Python + 虚拟环境，或 (B) 配合 Docker 的 VS Code Dev Container。哪条顺眼选哪条，最终都通向同一套课程。</p></div>
 
 ## 1.  Prerequisites
 
@@ -29,6 +31,8 @@ Choose whichever feels easier—both lead to the same lessons.
 
 > 💡 **Tip** – Verify tools in a terminal:  
 > `python --version`, `git --version`, `docker --version`, `code --version`  
+
+<div class="tb-zh"><p>提示：在终端里用 python --version、git --version、docker --version、code --version 检查工具是否装好。</p></div>
 
 ## 2.  Option A – Native Python (quickest)
 

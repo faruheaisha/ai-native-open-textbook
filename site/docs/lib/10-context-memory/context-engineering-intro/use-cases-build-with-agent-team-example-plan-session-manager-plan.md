@@ -9,18 +9,24 @@ tier: 1
 volume: "10-context-memory"
 sourceUrl: "https://github.com/coleam00/context-engineering-intro"
 entryUrl: "https://github.com/coleam00/context-engineering-intro/blob/a2d84b021cee1e2f4e77ba854bba0be8cb319035/README.md"
-zh: ""
+zh: "on"
 ---
 
 # Claude Agent SDK Session Manager
 
 Build a full-stack application for managing Claude Agent SDK sessions. An agentic chat interface where users can create sessions, chat with Claude agents, see tool usage inline, and resume any past conversation with full history.
 
+<div class="tb-zh"><p>构建一个用于管理 Claude Agent SDK 会话的全栈应用。它是一个 agentic 聊天界面：用户可以创建会话、与 Claude agent 对话、内联查看工具使用情况，并能带着完整历史恢复任何过去的对话。</p></div>
+
 ## Problem Statement
 
 The Claude Agent SDK doesn't expose an API to fetch historical messages when resuming a session. Claude remembers the context internally, but you can't programmatically retrieve past messages to display in a UI.
 
+<div class="tb-zh"><p>Claude Agent SDK 在恢复会话时并不暴露用于获取历史消息的 API。Claude 在内部记住了上下文，但你无法以编程方式取回过去的消息来显示在 UI 上。</p></div>
+
 **Solution**: Store messages in our own database while using the SDK's session_id for context resumption.
+
+<div class="tb-zh"><p>解决方案：我们自己把消息存进数据库，同时使用 SDK 的 session_id 来恢复上下文。</p></div>
 
 ## Tech Stack
 
@@ -71,6 +77,8 @@ agent-session-manager/
 
 When building with an agent team, agents MUST follow this contract-first sequence:
 
+<div class="tb-zh"><p>用 agent 团队构建时，agent 必须遵循这套契约优先的顺序：</p></div>
+
 ### Phase 1: Database Agent
 1. Build schema, CRUD functions, Pydantic models
 2. **Send function signatures and model definitions** to lead
@@ -97,6 +105,7 @@ When building with an agent team, agents MUST follow this contract-first sequenc
 ## Database Schema
 
 ### Sessions Table
+
 ```sql
 CREATE TABLE sessions (
     id TEXT PRIMARY KEY,              -- Claude SDK session_id
@@ -110,6 +119,7 @@ CREATE TABLE sessions (
 ```
 
 ### Messages Table
+
 ```sql
 CREATE TABLE messages (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -132,6 +142,8 @@ CREATE INDEX idx_messages_session ON messages(session_id);
 
 **IMPORTANT:** This is the authoritative API contract. Both backend and frontend MUST conform to these exact specifications. The lead agent should verify alignment before integration.
 
+<div class="tb-zh"><p>重要： 这是权威的 API 契约。后端与前端都必须符合这些确切的规格。lead agent 应在集成之前核实双方是否对齐。</p></div>
+
 ### Endpoints
 
 | Method | Endpoint (exact) | Request Body | Response |
@@ -145,26 +157,40 @@ CREATE INDEX idx_messages_session ON messages(session_id);
 
 **Note:** POST and GET list endpoints use **trailing slash** (`/api/sessions/`). GET by ID, DELETE, and chat do NOT use trailing slash.
 
+<div class="tb-zh"><p>注意： POST 与 GET 的列表端点使用结尾斜杠（/api/sessions/）。按 ID 的 GET、DELETE 和 chat 则不使用结尾斜杠。</p></div>
+
 ### Response Shapes
 
 **SessionResponse:**
+
+<div class="tb-zh"><p>SessionResponse：</p></div>
+
 ```json
 {"id": "uuid", "title": "string", "system_prompt": "string|null", "working_directory": "string|null", "model": "string", "created_at": "ISO8601", "last_accessed": "ISO8601"}
 ```
 
 **MessageResponse:**
+
+<div class="tb-zh"><p>MessageResponse：</p></div>
+
 ```json
 {"id": 1, "session_id": "uuid", "role": "user|assistant", "content": "string|null", "message_type": "text|thinking|tool_use|tool_result", "tool_name": "string|null", "tool_input": "string|null", "tool_output": "string|null", "is_error": false, "timestamp": "ISO8601"}
 ```
 
 **GET /api/sessions/{id} returns a NESTED object** (not flat):
+
+<div class="tb-zh"><p>GET /api/sessions/{id} 返回的是嵌套对象（不是扁平结构）：</p></div>
+
 ```json
 {
   "session": { SessionResponse },
   "messages": [ MessageResponse, ... ]
 }
 ```
+
 The frontend must destructure this into a flat `SessionWithMessages` for its internal state.
+
+<div class="tb-zh"><p>前端必须把它解构成扁平的 SessionWithMessages，用于自己的内部状态。</p></div>
 
 ## SDK Integration
 
@@ -172,9 +198,13 @@ The frontend must destructure this into a flat `SessionWithMessages` for its int
 
 **NO MOCKING REQUIRED.** We are already authenticated with Anthropic via global CLI auth. The Claude Agent SDK automatically uses these credentials. Do not mock the SDK or create fake responses — test against the real API.
 
+<div class="tb-zh"><p>不需要 mock。 我们已经通过全局 CLI 鉴权与 Anthropic 完成了认证。Claude Agent SDK 会自动使用这些凭证。不要 mock SDK 或编造假响应——对着真实 API 测试。</p></div>
+
 ### Key Pattern: Dual Storage with Text Accumulation
 
 **IMPORTANT:** The SDK streams text in small chunks. Do NOT store each chunk as a separate database row — this causes the frontend to render N separate bubbles when loading message history. Instead, **accumulate text chunks** and store ONE row per complete text response.
+
+<div class="tb-zh"><p>重要： SDK 会把文本分成小块流式输出。不要把每个小块都存成一条独立的数据库记录——那样在加载消息历史时前端会渲染出 N 个独立气泡。应当累积文本块，每个完整的文本回复只存一行。</p></div>
 
 ```python
 async def chat(session_id: str, user_message: str):
@@ -205,9 +235,13 @@ async def chat(session_id: str, user_message: str):
 
 This way the frontend gets real-time streaming chunks, but the database stores one clean row per response.
 
+<div class="tb-zh"><p>这样前端仍能拿到实时的流式小块，而数据库里每个回复只保留一条干净记录。</p></div>
+
 ### Capturing Session ID
 
 For new sessions, capture the session_id from the init message:
+
+<div class="tb-zh"><p>对于新会话，从 init 消息中捕获 session_id：</p></div>
 
 ```python
 if isinstance(message, SystemMessage) and message.subtype == "init":
@@ -229,6 +263,8 @@ type StreamMessage =
 ## Cross-Cutting Concerns
 
 These behaviors span multiple agents and MUST be explicitly assigned during the build:
+
+<div class="tb-zh"><p>这些行为跨越多个 agent，必须在构建过程中明确指派：</p></div>
 
 | Concern | Owner | Coordinates With | Detail |
 |---------|-------|-----------------|--------|
@@ -285,9 +321,12 @@ Renders based on message_type:
 - Assistant messages: left-aligned, gray background
 - Tool cards: subtle border, expand/collapse animation
 
+<div class="tb-zh"><p>界面与技术要点：以 shadcn/ui 作为组件基础；用 Tailwind 做自定义样式；支持深色模式；响应式——移动端侧边栏收起；用户消息右对齐、蓝色背景；助手消息左对齐、灰色背景；工具卡片带细边框与展开收起动画。</p></div>
+
 ## Dependencies
 
 ### Backend
+
 ```
 fastapi>=0.109.0
 uvicorn[standard]>=0.27.0
@@ -299,6 +338,7 @@ python-dotenv>=1.0.0
 ```
 
 ### Frontend
+
 ```
 react
 react-dom
@@ -318,13 +358,19 @@ lucide-react
 5. **Error Handling**: Network/SDK errors displayed gracefully
 6. **Responsive**: Works on desktop and mobile
 
+<div class="tb-zh"><p>验收场景：1）新建会话——用户用标题加可选 system prompt 创建会话，会话被保存；2）聊天——用户发送消息，回复实时流式返回，工具使用情况内联可见；3）恢复——用户点击过去的会话，完整消息历史被加载，可继续对话；4）删除——用户删除会话，会话与消息一并移除；5）错误处理——网络或 SDK 错误被优雅展示；6）响应式——桌面与移动端都可用。</p></div>
+
 ## Validation
 
 Each agent validates their own domain before reporting done. The lead agent runs end-to-end validation after all agents complete.
 
+<div class="tb-zh"><p>每个 agent 在报告完成之前先验证自己的领域。所有 agent 完成后，由 lead agent 做端到端验证。</p></div>
+
 ### Database Validation
 
 Run from `backend/`:
+
+<div class="tb-zh"><p>在 backend/ 下运行：</p></div>
 
 ```bash
 # 1. Schema creation
@@ -378,6 +424,8 @@ asyncio.run(test())
 
 Run from `backend/`:
 
+<div class="tb-zh"><p>在 backend/ 下运行：</p></div>
+
 ```bash
 # 1. Start the server
 uvicorn app.main:app --reload &
@@ -418,6 +466,8 @@ curl -s http://localhost:8000/api/sessions/$SESSION | jq -e '. == null' && echo 
 
 Run from `frontend/`:
 
+<div class="tb-zh"><p>在 frontend/ 下运行：</p></div>
+
 ```bash
 # 1. Dependencies install
 npm install && echo "✓ Dependencies installed"
@@ -434,6 +484,8 @@ sleep 3
 ```
 
 Use the **[Vercel Agent Browser CLI](https://github.com/vercel-labs/agent-browser)** to validate UI (without backend):
+
+<div class="tb-zh"><p>用 Vercel Agent Browser CLI 验证 UI（不依赖后端）：</p></div>
 
 ```bash
 # Install if needed
@@ -454,11 +506,17 @@ agent-browser screenshot validation.png
 4. Dark mode toggle works (if implemented)
 5. Responsive layout at different widths
 
+<div class="tb-zh"><p>前端 agent 验证（无需后端）：1）侧边栏以空状态渲染；2）新建会话对话框能打开和关闭；3）组件渲染时没有控制台错误；4）深色模式开关可用（若已实现）；5）在不同宽度下布局响应正常。</p></div>
+
 ### End-to-End Validation (Lead Agent)
 
 After all agents report done, the lead agent spins up both servers and runs E2E validation using the **[Vercel Agent Browser CLI](https://github.com/vercel-labs/agent-browser)**.
 
+<div class="tb-zh"><p>所有 agent 报告完成后，lead agent 启动前后端两个服务，并用 Vercel Agent Browser CLI 跑端到端验证。</p></div>
+
 **IMPORTANT:** No mocking. We are already authenticated with Anthropic. Test against the real API.
+
+<div class="tb-zh"><p>重要： 不做 mock。我们已经与 Anthropic 完成认证。对着真实 API 测试。</p></div>
 
 ```bash
 # Start both servers
@@ -472,6 +530,8 @@ agent-browser install
 ```
 
 Use the Agent Browser CLI to run the full E2E flow:
+
+<div class="tb-zh"><p>用 Agent Browser CLI 跑完整的端到端流程：</p></div>
 
 ```bash
 # 1. CREATE SESSION

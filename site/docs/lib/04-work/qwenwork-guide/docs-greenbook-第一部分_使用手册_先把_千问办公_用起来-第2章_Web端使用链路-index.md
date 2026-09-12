@@ -32,7 +32,7 @@ zh: ""
 - 网页端：在浏览器打开  [qwenwork.cn/app](https://qwenwork.cn/app)，使用钉钉扫码或中国大陆手机号登录。
 - 钉钉内：通过钉钉底部导航栏进入千问办公。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第2章 Web端使用链路/assets/001_390c1842-cfe6-4bd2-b18c-f027d8671a33.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第2章 Web端使用链路/assets/001_390c1842-cfe6-4bd2-b18c-f027d8671a33.webp)
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
@@ -61,7 +61,7 @@ zh: ""
 
 千问办公以“任务对话”为主要工作方式。一个任务可以包含多轮交流、附件、执行过程和最终产物。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第2章 Web端使用链路/assets/002_88c8c1ae-67a5-4386-b9de-b5cd3549f860.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第2章 Web端使用链路/assets/002_88c8c1ae-67a5-4386-b9de-b5cd3549f860.webp)
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
@@ -149,7 +149,7 @@ zh: ""
 
 我的网盘是千问办公内置的云端文件空间。你上传的资料、需要长期保存的文件，以及千问办公生成的成果，都可以在这里管理。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第2章 Web端使用链路/assets/003_d96f88c5-8aab-476b-a15b-d207fcc7505d.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第2章 Web端使用链路/assets/003_d96f88c5-8aab-476b-a15b-d207fcc7505d.webp)
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
@@ -217,7 +217,7 @@ Word、Excel 和 PowerPoint 文件可以在线编辑，修改后会自动保存�
 
 QwenWork Pages 是内置的网站托管服务。你可以在任务对话中创建并发布静态网页或动态网页，无需自行准备服务器、默认域名或 CDN。同时，你可以在「我的网页」中查看并管理自己发布的网页。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第2章 Web端使用链路/assets/004_6c8bdee7-1ecd-4b97-8c47-131601365227.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第2章 Web端使用链路/assets/004_6c8bdee7-1ecd-4b97-8c47-131601365227.webp)
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 

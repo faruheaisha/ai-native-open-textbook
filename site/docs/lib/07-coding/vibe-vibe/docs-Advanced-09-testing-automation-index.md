@@ -14,7 +14,7 @@ zh: ""
 
 # 第九章：功能测试与自动化
 
-![img](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/mll04yup-21b2fa96acf26358.jpg)
+![img](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/mll04yup-21b2fa96acf26358.jpg)
 
 ## 序言
 

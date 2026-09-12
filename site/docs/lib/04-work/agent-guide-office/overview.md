@@ -12,6 +12,8 @@ entryUrl: "https://github.com/tangshiyegit/agent-guide/blob/ae8b2262e7a1e5bd0d46
 zh: ""
 ---
 
+# Agent 办公实战指南（社区）
+
 <h1 align="center">Agent 学习指南</h1>
 
 <p align="center"><strong>从认识 AI Agent，到让 AI 真正帮你干活</strong></p>
@@ -132,7 +134,7 @@ agent-guide/
 更多介绍请访问 [关于我](https://tangshiye.cn/about/)。
 
 <p align="left">
-  <img src="https://raw.githubusercontent.com/tangshiyegit/agent-guide/ae8b2262e7a1e5bd0d466037c6ad9f6037b72c33/assets/gzh-qrcode.png" alt="微信搜索 AI架构师汤师爷，关注公众号" width="480">
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/tangshiyegit/agent-guide/ae8b2262e7a1e5bd0d466037c6ad9f6037b72c33/assets/gzh-qrcode.png" alt="微信搜索 AI架构师汤师爷，关注公众号" width="480">
 </p>
 
 ## 开源协议

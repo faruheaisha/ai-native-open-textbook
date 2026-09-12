@@ -43,7 +43,7 @@ Cline 最强大的功能之一是它能够高效地整合各种类型的上下�
 
 这种灵活性在处理大型代码库或复杂调试场景时变得特别有价值。你可以有选择地包含相关文件和文档?而不是用不必要的信息压垮上下文窗口。系统的智能解析确保包含的内容针对所选模型进行了适当的格式化。
 
-![](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/03-toolchain-frameworks/why-i-use-cline-for-ai-engineering/01.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/03-toolchain-frameworks/why-i-use-cline-for-ai-engineering/01.jpg)
 
 这些功能非常适合[上下文工程](https://addyo.substack.com/p/context-engineering-bringing-engineering),为所选模型提供成功完成任务所需的所有信息和工具。
 
@@ -51,13 +51,13 @@ Cline 最强大的功能之一是它能够高效地整合各种类型的上下�
 
 与锁定特定提供商的工具不同?Cline 的模型灵活性使得能够利用不同 AI 模型优势的复杂工作流程成为可能。它支持全系列模型?包括来自 Anthropic、OpenAI、Google Gemini、DeepSeek 以及通过 LM Studio/Ollama 的本地模型:
 
-![](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/03-toolchain-frameworks/why-i-use-cline-for-ai-engineering/02.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/03-toolchain-frameworks/why-i-use-cline-for-ai-engineering/02.jpg)
 
 对于本地/离线模型用户?Cline 与 **LM Studio** 的集成有了重要升级。Cline **移除了 LM Studio API 调用的硬编码温度设置**,允许用户为本地模型自定义生成*温度*(实现更少确定性或更有创意的输出)。它还增加了对 LM Studio 响应中 reasoning_content 的支持 ?? 这意味着如果本地模型提供思维链或推理轨迹?Cline 可以捕获并利用它。这一增强为用户在通过 LM Studio 使用本地模型时提供了更多灵活性和洞察力。
 
 我也非常欣赏 Cline 在会话期间对成本的主动核算。这在模型提供商之间切换时最为明显:
 
-![](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/03-toolchain-frameworks/why-i-use-cline-for-ai-engineering/03.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/03-toolchain-frameworks/why-i-use-cline-for-ai-engineering/03.jpg)
 
 Cline 还添加了上下文大小的实时可视化指示。这个进度条会在你即将达到限制时显示?对于在模型约束内管理工作非常有用:
 
@@ -65,7 +65,7 @@ Cline 还添加了上下文大小的实时可视化指示。这个进度条会�
 
 在最近的更新中?Cline 改进了上下文窗口的可视化?这样你就知道它何时填满。当你使用 Cline 时?上下文窗口会填满(包括你的提示、Cline 的响应、文件内容、工具输出)。
 
-![Image](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/03-toolchain-frameworks/why-i-use-cline-for-ai-engineering/04.jpg 'Image')
+![Image](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/03-toolchain-frameworks/why-i-use-cline-for-ai-engineering/04.jpg 'Image')
 
 模型在非常长的上下文中可能难以保持专注。Cline 甚至使用[内置的上下文感知](https://x.com/cline/status/1922054519736934648/photo/1?来自动触发 new_task 工具?以保持最佳性能。
 
@@ -133,7 +133,7 @@ Cline 的检查点系统在每次 AI 操作后自动捕获工作区状态。
 - 捕获和分析运行时行为
 - 实时响应系统输出
 
-![](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/03-toolchain-frameworks/why-i-use-cline-for-ai-engineering/05.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/03-toolchain-frameworks/why-i-use-cline-for-ai-engineering/05.jpg)
 
 上图中?Cline 能够连接启动 Chrome 来验证一组更改是否正确渲染。它注意到有一个 Next.js 错误?并可以主动解决这个问题?而无需我来回复制粘贴问题。这是一个游戏规则改变者。
 
@@ -154,7 +154,7 @@ Cline 的检查点系统在每次 AI 操作后自动捕获工作区状态。
 
 Cline 的**计划/执行模式**(其标志性功能之一)获得了生活质量升级。以前?可能需要在每个会话中重新选择"计划"与"执行"的首选模型;现在 Cline **全局存储计划/执行模型偏好**。实际上?如果你更喜欢?比如说?DeepSeek 或 Gemini 用于规划?另一个模型用于执行?Cline 将持久地记住这些选择。
 
-![](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/03-toolchain-frameworks/why-i-use-cline-for-ai-engineering/06.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/03-toolchain-frameworks/why-i-use-cline-for-ai-engineering/06.png)
 
 这确保了跨项目的一致工作流程?无需每次手动切换设置。对于普通用户和 Cursor 迁移者来说?这使 Cline 的计划/执行系统更加无缝 ?? 以更少的摩擦连接战略规划和直接执行。
 
@@ -316,4 +316,4 @@ Cline 是否适合你的团队取决于你的具体需求和约束。
 
 \*作者除了作为用户之外?与 Cline 没有任何关联。此评估基于生产环境中的个人经验。
 
-![](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/03-toolchain-frameworks/why-i-use-cline-for-ai-engineering/07.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/03-toolchain-frameworks/why-i-use-cline-for-ai-engineering/07.png)

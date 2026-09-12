@@ -108,7 +108,7 @@ Umami 的默认登录信息是：
 
 老师傅坐下来，一个一个给他讲。
 
-![image-20260226235803668](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260226235803668.png)
+![image-20260226235803668](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260226235803668.png)
 
 ### 访问指标：最基础的四个数字
 

@@ -32,7 +32,7 @@ zh: ""
 
 **Neon** 是一个专注于 PostgreSQL 的无服务器数据库平台——你不用自己装数据库、管服务器，Neon 帮你搞定，你只管连上去用。免费套餐慷慨，冷启动快（冷启动是数据库闲置后第一次被访问时的"热身"延迟），非常适合个人项目。
 
-![image-20260222223036476](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260222223036476.jpg)
+![image-20260222223036476](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260222223036476.jpg)
 
 ### 注册步骤
 
@@ -40,11 +40,11 @@ zh: ""
 
 打开 [neon.tech](https://neon.tech)，点击右上角 **Log In**。推荐使用 GitHub 账号登录，一键授权即可。
 
-![image-20260222223100463](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260222223100463.png)
+![image-20260222223100463](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260222223100463.png)
 
 **第二步：创建项目**
 
-![image-20260222223148855](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260222223148855.png)
+![image-20260222223148855](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260222223148855.png)
 
 登录后创建第一个项目（Project）。填写以下信息：
 
@@ -52,7 +52,7 @@ zh: ""
 - **Region**：选择离你最近的区域。国内用户推荐选 **Singapore（新加坡）**，延迟最低
 - **Database Name**：默认 `neondb` 即可
 
-![image-20260222223211499](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260222223211499.png)
+![image-20260222223211499](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260222223211499.png)
 
 **第三步：获取连接字符串**
 
@@ -62,7 +62,7 @@ zh: ""
 postgresql://username:password@ep-xxx-xxx-123.us-east-2.aws.neon.tech/neondb?sslmode=require
 ```
 
-![image-20260222223303602](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260222223303602.png)
+![image-20260222223303602](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260222223303602.png)
 
 ::: warning 保管好你的连接字符串
 连接字符串包含用户名和密码，相当于数据库的钥匙。**绝对不要**提交到 GitHub 或发给别人。把它存到项目的 `.env` 文件里：
@@ -94,11 +94,11 @@ DATABASE_URL="postgresql://username:password@ep-xxx.neon.tech/neondb?sslmode=req
 
 打开 [supabase.com](https://supabase.com)，点击 **Start your project**，用 GitHub 登录。
 
-![image-20260222223411365](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260222223411365.png)
+![image-20260222223411365](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260222223411365.png)
 
 **第二步：创建组织和项目**
 
-![image-20260222223437677](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260222223437677.png)
+![image-20260222223437677](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260222223437677.png)
 
 - **Organization**：填一个组织名
 
@@ -108,17 +108,17 @@ DATABASE_URL="postgresql://username:password@ep-xxx.neon.tech/neondb?sslmode=req
 
 - **Region**：选 **Southeast Asia (Singapore)**
 
-  ![image-20260222223509375](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260222223509375.png)
+  ![image-20260222223509375](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260222223509375.png)
 
 **第三步：获取连接字符串**
 
 项目创建后，进入主页，点击顶部 Connect ：
 
-![image-20260222223646279](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260222223646279.png)
+![image-20260222223646279](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260222223646279.png)
 
 Method 选择 Transaction pooler（这就是前面说的"连接池"的具体实现方式，选它就对了）；如有空还可以配置MCP。
 
-![image-20260222224026943](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260222224026943.png)
+![image-20260222224026943](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260222224026943.png)
 
 ```
 postgresql://postgres.[project-ref]:[YOUR-PASSWORD]@aws-0-ap-southeast-1.pooler.supabase.com:6543/postgres
@@ -163,7 +163,7 @@ pnpm drizzle-kit studio
 
 浏览器会打开一个可视化界面，你能直接看到数据库里的表和数据。如果能打开，说明连接没问题。
 
-![image-20260222230115049](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260222230115049.png)
+![image-20260222230115049](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260222230115049.png)
 
 ### 方法三：去平台控制台直接看
 
@@ -171,11 +171,11 @@ pnpm drizzle-kit studio
 
 **Neon Console**：登录后进入项目，点击左侧 **Tables** 即可浏览表数据，也可以在 **SQL Editor** 里直接运行查询。
 
-![image-20260222230548275](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260222230548275.png)
+![image-20260222230548275](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260222230548275.png)
 
 **Supabase Table Editor**：登录后进入项目，点击左侧 **Table Editor**，可以像 Excel 一样直接浏览、筛选、编辑表数据。
 
-![image-20260222230528345](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260222230528345.png)
+![image-20260222230528345](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260222230528345.png)
 
 ### 常见连接问题
 

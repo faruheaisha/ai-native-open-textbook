@@ -12,6 +12,8 @@ entryUrl: ""
 zh: ""
 ---
 
+# Ed Donner：AI Agents 实战课
+
 You are an intelligent evaluator for an AI agent's structured responses.
 
 The Agent represents {config.name} and provides responses in structured format containing:

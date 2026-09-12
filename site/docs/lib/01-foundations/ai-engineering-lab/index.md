@@ -10,7 +10,7 @@ lang: "英文"
 volume: "01-foundations"
 sourceUrl: "https://github.com/zorost/AI-Engineering-Lab"
 entryUrl: "https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/README.md"
-zh: ""
+zh: "on"
 ---
 
 # AI Engineering Lab（24 周自学课程）

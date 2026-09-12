@@ -32,7 +32,7 @@ zh: ""
 
 下面是 VS Code 官方文档展示的真实评审页面。左边是待评审 PR 和改动文件，右边是 PR 描述、评审人、负责人和讨论：
 
-![GitHub Pull Requests 插件在 VS Code 中展示真实评审信息](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/vscode-extension/images/vscode-real-github-pr.png)
+![GitHub Pull Requests 插件在 VS Code 中展示真实评审信息](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/vscode-extension/images/vscode-real-github-pr.png)
 
 图片与功能说明来源：[VS Code 官方 GitHub 协作指南](https://code.visualstudio.com/docs/sourcecontrol/github)。
 
@@ -46,7 +46,7 @@ zh: ""
 
 下面是微软 Dev Containers 插件的真实命令面板。它没有重新设计一套窗口，而是把“在容器中重新打开项目”做成普通 VS Code 命令：
 
-![Dev Containers 插件在 VS Code 命令面板中的真实入口](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/vscode-extension/images/vscode-real-dev-containers.png)
+![Dev Containers 插件在 VS Code 命令面板中的真实入口](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/vscode-extension/images/vscode-real-dev-containers.png)
 
 图片与功能说明来源：[VS Code 官方 Dev Containers 文档](https://code.visualstudio.com/docs/devcontainers/containers)。
 
@@ -60,7 +60,7 @@ Salesforce 的例子更完整。[Salesforce Extension Pack](https://marketplace.
 
 下面是 Salesforce 官方文档提供的真实运行录屏。左侧是 Salesforce 项目和 Org Browser，底部可以看到 Salesforce CLI 正在读取组织中的对象定义：
 
-![Salesforce Extension Pack 在 VS Code 中连接组织并读取对象](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/vscode-extension/images/vscode-real-salesforce.gif)
+![Salesforce Extension Pack 在 VS Code 中连接组织并读取对象](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/vscode-extension/images/vscode-real-salesforce.gif)
 
 图片与功能说明来源：[Salesforce Extensions for Visual Studio Code](https://developer.salesforce.com/docs/platform/sfvscode-extensions/guide/vscode-overview.html)。
 
@@ -72,7 +72,7 @@ Ansible Playbook 是描述服务器自动化任务的配置文件，会用来安
 
 Red Hat 的 [Ansible VS Code Extension](https://marketplace.visualstudio.com/items?itemName=redhat.ansible) 提供语法高亮、自动补全、实时校验、`ansible-lint` 和模块文档提示，也支持多根工作区和容器化执行环境。开发者不用先切到浏览器搜索模块参数，鼠标停在模块上就能看到它的作用和注意事项。
 
-![Ansible 插件在 Playbook 代码旁显示官方模块说明](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/vscode-extension/images/vscode-real-ansible.png)
+![Ansible 插件在 Playbook 代码旁显示官方模块说明](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/vscode-extension/images/vscode-real-ansible.png)
 
 图片来源：[Ansible VS Code Extension 官方仓库](https://github.com/ansible/vscode-ansible)；功能说明可参考 [Red Hat Ansible VS Code 指南](https://docs.ansible.com/projects/vscode-ansible/)。
 
@@ -84,7 +84,7 @@ Red Hat 的 [Ansible VS Code Extension](https://marketplace.visualstudio.com/ite
 
 下面的真实界面来自 VS Code 官方文档。开发者在 Container Explorer 中找到仓库镜像以后，可以从右键菜单拉取、复制摘要、查看清单，或者部署到 Azure 服务：
 
-![Container Tools 在 VS Code 中管理镜像仓库](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/vscode-extension/images/vscode-real-container-tools.png)
+![Container Tools 在 VS Code 中管理镜像仓库](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/vscode-extension/images/vscode-real-container-tools.png)
 
 图片与功能说明来源：[VS Code Container Tools 文档](https://code.visualstudio.com/docs/containers/overview)。
 
@@ -116,7 +116,7 @@ Red Hat 的 [Ansible VS Code Extension](https://marketplace.visualstudio.com/ite
 
 这是 Engineering Guard 在 Extension Development Host 中的运行画面：
 
-![Engineering Guard 展示代码风险、合并门禁和负责人](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/vscode-extension/images/engineering-guard-vscode.jpg)
+![Engineering Guard 展示代码风险、合并门禁和负责人](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/vscode-extension/images/engineering-guard-vscode.jpg)
 
 先把边界说清楚：这不是一套真正的企业安全平台，也不能替代专业的 SAST、依赖扫描和代码审查。它只是用一个容易验证的小例子，带你跑通命令、规则、侧边栏、菜单、状态栏和 VSIX 打包。
 
@@ -128,7 +128,7 @@ Red Hat 的 [Ansible VS Code Extension](https://marketplace.visualstudio.com/ite
 
 微软官方的 Tree View 示例就是这种结构。下面是真实的 References 结果视图：文件是父节点，具体命中位置是子节点，点击后回到代码。
 
-![VS Code 官方 References Tree View 示例](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/vscode-extension/images/vscode-official-references-tree.png)
+![VS Code 官方 References Tree View 示例](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/vscode-extension/images/vscode-official-references-tree.png)
 
 图片来源：[VS Code Tree View API](https://code.visualstudio.com/api/extension-guides/tree-view)。Engineering Guard 的问题列表也采用同样的原生交互，不需要为了显示几行结果就先做复杂 Web 页面。
 
@@ -176,13 +176,13 @@ Red Hat 的 [Ansible VS Code Extension](https://marketplace.visualstudio.com/ite
 
 VS Code 官方 Tree View 指南给出了独立活动栏入口的真实效果：
 
-![VS Code 官方 Tree View 独立活动栏与侧边栏](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/vscode-extension/images/vscode-official-tree-view.png)
+![VS Code 官方 Tree View 独立活动栏与侧边栏](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/vscode-extension/images/vscode-official-tree-view.png)
 
 图片来源：[VS Code Tree View API](https://code.visualstudio.com/api/extension-guides/tree-view)。
 
 Engineering Guard 的实际界面中，左侧保留检查入口，右侧显示命中的规则和风险等级：
 
-![Engineering Guard 侧边栏和检查结果](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/vscode-extension/images/engineering-guard-sidebar.jpg)
+![Engineering Guard 侧边栏和检查结果](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/vscode-extension/images/engineering-guard-sidebar.jpg)
 
 ## 5. 增加菜单和状态栏
 
@@ -196,7 +196,7 @@ Engineering Guard 的实际界面中，左侧保留检查入口，右侧显示�
 
 VS Code 的原生菜单可以出现在视图标题、列表项和右键菜单中。官方示例把这些位置标得很清楚：
 
-![VS Code 官方 View Actions 与右键菜单位置](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/vscode-extension/images/vscode-official-view-actions.png)
+![VS Code 官方 View Actions 与右键菜单位置](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/vscode-extension/images/vscode-official-view-actions.png)
 
 图片来源：[VS Code Tree View API：View Actions](https://code.visualstudio.com/api/extension-guides/tree-view#view-actions)。
 
@@ -210,7 +210,7 @@ VS Code 的原生菜单可以出现在视图标题、列表项和右键菜单中
 
 现在从测试文件触发三条规则，确认文件名、行号、严重程度和建议都正确。最终结果应该类似下面这样：
 
-![Engineering Guard 的真实风险检查结果](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/vscode-extension/images/engineering-guard-findings.jpg)
+![Engineering Guard 的真实风险检查结果](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/vscode-extension/images/engineering-guard-findings.jpg)
 
 这里最重要的不是风险分数，而是每一条结果都能回答三个问题：哪里有问题、为什么有风险、下一步应该做什么。点击问题还要回到对应代码，不能让用户自己搜索行号。
 

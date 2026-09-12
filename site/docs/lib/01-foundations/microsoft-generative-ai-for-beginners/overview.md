@@ -9,39 +9,55 @@ tier: 1
 volume: "01-foundations"
 sourceUrl: "https://github.com/microsoft/generative-ai-for-beginners"
 entryUrl: "https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/README.md"
-zh: ""
+zh: "on"
 ---
 
 # Generative AI for Beginners (Version 3) - A Course
 
 Learn the fundamentals of building Generative AI applications with our 21-lesson comprehensive course by Microsoft Cloud Advocates.
 
+<div class="tb-zh"><p>通过微软 Cloud Advocates 出品的这套 21 课时综合课程，学习构建生成式 AI 应用的基础知识。</p></div>
+
 ## 🌱 Getting Started
 
 This course has 21 lessons. Each lesson covers its own topic so start wherever you like!
 
+<div class="tb-zh"><p>课程共 21 课，每一课各自独立成题，可以从任何一课开始。</p></div>
+
 Lessons are labeled either "Learn" lessons explaining a Generative AI concept or "Build" lessons that explain a concept and code examples in both **Python** and **TypeScript** when possible.
+
+<div class="tb-zh"><p>课程分为两类：讲解生成式 AI 概念的「Learn」课，以及兼顾概念讲解与代码示例的「Build」课；示例尽可能同时给出 Python 与 TypeScript 两个版本。</p></div>
 
 For .NET Developers checkout [Generative AI for Beginners (.NET Edition)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)!
 
+<div class="tb-zh"><p>.NET 开发者可以查看《Generative AI for Beginners（.NET 版）》。</p></div>
+
 Each lesson also includes a "Keep Learning" section with additional learning tools.
 
+<div class="tb-zh"><p>每一课还附有「Keep Learning」小节，提供可继续深入的学习工具与资料。</p></div>
+
 ## What You Need
+
 ### To run the code of this course, you can use either: 
  - [Azure OpenAI Service](https://aka.ms/genai-beginners/azure-open-ai?WT.mc_id=academic-105485-koreyst) - **Lessons:** "aoai-assignment"
  - [Microsoft Foundry Models](https://ai.azure.com/catalog/models?WT.mc_id=academic-105485-koreyst) - **Lessons:** "githubmodels" (GitHub Models is retiring at the end of July 2026 - use Microsoft Foundry Models instead)
  - [OpenAI API](https://aka.ms/genai-beginners/open-ai?WT.mc_id=academic-105485-koreyst) - **Lessons:** "oai-assignment" 
  - [Foundry Local](https://foundrylocal.ai?WT.mc_id=academic-105485-koreyst) - Run models fully offline on your own device, no cloud subscription required
-   
+
 - Basic knowledge of Python or TypeScript is helpful - \*For absolute beginners check out these [Python](https://aka.ms/genai-beginners/python?WT.mc_id=academic-105485-koreyst) and [TypeScript](https://aka.ms/genai-beginners/typescript?WT.mc_id=academic-105485-koreyst) courses
 - A GitHub account to [fork this entire repo](https://aka.ms/genai-beginners/github?WT.mc_id=academic-105485-koreyst) to your own GitHub account
 
+<div class="tb-zh"><p>具备 Python 或 TypeScript 的基础知识会更容易上手；完全零基础可以先看课程附带的 Python 与 TypeScript 入门课。此外需要一个 GitHub 账号，以便把整个仓库 fork 到自己名下。</p></div>
+
 We have created a **[Course Setup](/lib/01-foundations/microsoft-generative-ai-for-beginners/00-course-setup-README)** lesson to help you with setting up your development environment.
 
+<div class="tb-zh"><p>我们准备了「课程环境配置」一课，帮你把开发环境搭好。</p></div>
 
 ## 🧠 Ready to Deploy?
 
 If you are looking for more advanced code samples, check out our [collection of Generative AI Code Samples](https://aka.ms/genai-beg-code?WT.mc_id=academic-105485-koreyst) in both **Python** and **TypeScript**.
+
+<div class="tb-zh"><p>如果你在找更进阶的代码示例，可以查看生成式 AI 代码示例合集，Python 与 TypeScript 版本都有。</p></div>
 
 ## 📂 Each lesson includes:
 
@@ -49,6 +65,8 @@ If you are looking for more advanced code samples, check out our [collection of 
 - A written lesson located in the README
 - Python and TypeScript code samples supporting Azure OpenAI and OpenAI API
 - Links to extra resources to continue your learning
+
+<div class="tb-zh"><p>每课内容包括：一段简短的主题视频导览；README 中的文字课程；支持 Azure OpenAI 与 OpenAI API 的 Python、TypeScript 代码示例；以及可以继续深入的学习资源链接。</p></div>
 
 ## 🗃️ Lessons
 

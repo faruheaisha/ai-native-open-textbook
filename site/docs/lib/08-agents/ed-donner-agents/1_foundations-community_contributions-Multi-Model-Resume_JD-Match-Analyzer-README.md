@@ -14,7 +14,7 @@ zh: ""
 
 # 🧠 Resume-Job Match Application (LLM-Powered)
 
-![AnalyseResume](https://raw.githubusercontent.com/ed-donner/agents/8ceaf66c24643627c1e4806851736bdd444bdd4b/1_foundations/community_contributions/Multi-Model-Resume–JD-Match-Analyzer/AnalyzeResume.png)
+![AnalyseResume](https://gh-proxy.com/https://raw.githubusercontent.com/ed-donner/agents/8ceaf66c24643627c1e4806851736bdd444bdd4b/1_foundations/community_contributions/Multi-Model-Resume–JD-Match-Analyzer/AnalyzeResume.png)
 
 This is a **Streamlit-based web app** that evaluates how well a resume matches a job description using powerful Large Language Models (LLMs) such as:
 

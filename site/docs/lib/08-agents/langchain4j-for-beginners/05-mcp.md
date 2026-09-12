@@ -52,7 +52,7 @@ The Model Context Protocol (MCP) provides exactly that - a standard way for AI a
 
 The diagram below shows the difference — without MCP, every integration requires custom point-to-point wiring; with MCP, a single protocol connects your app to any tool:
 
-<img src="https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/05-mcp/images/mcp-comparison.png" alt="MCP Comparison" width="800"/>
+<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/05-mcp/images/mcp-comparison.png" alt="MCP Comparison" width="800"/>
 
 *Before MCP: Complex point-to-point integrations. After MCP: One protocol, endless possibilities.*
 
@@ -62,7 +62,7 @@ MCP standardizes this. An MCP server exposes tools with clear descriptions and s
 
 The diagram below illustrates this architecture — a single MCP client (your AI application) connects to multiple MCP servers, each exposing their own set of tools through the standard protocol:
 
-<img src="https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/05-mcp/images/mcp-architecture.png" alt="MCP Architecture" width="800"/>
+<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/05-mcp/images/mcp-architecture.png" alt="MCP Architecture" width="800"/>
 
 *Model Context Protocol architecture - standardized tool discovery and execution*
 
@@ -70,7 +70,7 @@ The diagram below illustrates this architecture — a single MCP client (your AI
 
 Under the hood, MCP uses a layered architecture. Your Java application (the MCP client) discovers available tools, sends JSON-RPC requests through a transport layer (Stdio or HTTP), and the MCP server executes operations and returns results. The following diagram breaks down each layer of this protocol:
 
-<img src="https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/05-mcp/images/mcp-protocol-detail.png" alt="MCP Protocol Detail" width="800"/>
+<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/05-mcp/images/mcp-protocol-detail.png" alt="MCP Protocol Detail" width="800"/>
 
 *How MCP works under the hood — clients discover tools, exchange JSON-RPC messages, and execute operations through a transport layer.*
 
@@ -92,7 +92,7 @@ To use MCP with LangChain4j, add this Maven dependency:
 
 When your client connects to an MCP server, it asks "What tools do you have?" The server responds with a list of available tools, each with descriptions and parameter schemas. Your AI agent can then decide which tools to use based on user requests. The diagram below shows this handshake — the client sends a `tools/list` request and the server returns its available tools with descriptions and parameter schemas:
 
-<img src="https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/05-mcp/images/tool-discovery.png" alt="MCP Tool Discovery" width="800"/>
+<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/05-mcp/images/tool-discovery.png" alt="MCP Tool Discovery" width="800"/>
 
 *The AI discovers available tools at startup — it now knows what capabilities are available and can decide which ones to use.*
 
@@ -100,7 +100,7 @@ When your client connects to an MCP server, it asks "What tools do you have?" Th
 
 MCP supports different transport mechanisms. The two options are Stdio (for local subprocess communication) and Streamable HTTP (for remote servers). This module demonstrates the Stdio transport:
 
-<img src="https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/05-mcp/images/transport-mechanisms.png" alt="Transport Mechanisms" width="800"/>
+<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/05-mcp/images/transport-mechanisms.png" alt="Transport Mechanisms" width="800"/>
 
 *MCP transport mechanisms: HTTP for remote servers, Stdio for local processes*
 
@@ -135,7 +135,7 @@ The `@modelcontextprotocol/server-filesystem` server exposes the following tools
 
 The following diagram shows how Stdio transport works at runtime — your Java application spawns the MCP server as a child process and they communicate through stdin/stdout pipes, with no network or HTTP involved:
 
-<img src="https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/05-mcp/images/stdio-transport-flow.png" alt="Stdio Transport Flow" width="800"/>
+<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/05-mcp/images/stdio-transport-flow.png" alt="Stdio Transport Flow" width="800"/>
 
 *Stdio transport in action — your application spawns the MCP server as a child process and communicates through stdin/stdout pipes.*
 
@@ -219,19 +219,19 @@ The **Supervisor Agent pattern** is a **flexible** form of agentic AI. A Supervi
 
 In the demo, `FileAgent` reads a file using MCP filesystem tools, and `ReportAgent` generates a structured report with an executive summary (1 sentence), 3 key points, and recommendations. The Supervisor orchestrates this flow automatically:
 
-<img src="https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/05-mcp/images/supervisor-agent-pattern.png" alt="Supervisor Agent Pattern" width="800"/>
+<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/05-mcp/images/supervisor-agent-pattern.png" alt="Supervisor Agent Pattern" width="800"/>
 
 *The Supervisor uses its LLM to decide which agents to invoke and in what order — no hardcoded routing needed.*
 
 Here's what the concrete workflow looks like for our file-to-report pipeline:
 
-<img src="https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/05-mcp/images/file-report-workflow.png" alt="File to Report Workflow" width="800"/>
+<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/05-mcp/images/file-report-workflow.png" alt="File to Report Workflow" width="800"/>
 
 *FileAgent reads the file via MCP tools, then ReportAgent transforms the raw content into a structured report.*
 
 The following sequence diagram traces the full Supervisor orchestration — from spawning the MCP server, through the Supervisor's autonomous agent selection, to the tool calls over stdio and the final report:
 
-<img src="https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/05-mcp/images/supervisor-agent-sequence.png" alt="Supervisor Agent Sequence Diagram" width="800"/>
+<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/05-mcp/images/supervisor-agent-sequence.png" alt="Supervisor Agent Sequence Diagram" width="800"/>
 
 *The Supervisor autonomously invokes FileAgent (which calls the MCP server over stdio to read the file), then invokes ReportAgent to generate a structured report — each agent stores its output in the shared Agentic Scope.*
 
@@ -320,7 +320,7 @@ This is the same [Tool Discovery](#tool-discovery) mechanism described above, bu
 
 When you configure a `SupervisorAgent`, you specify how it should formulate its final answer to the user after the sub-agents have completed their tasks. The diagram below shows the three available strategies — LAST returns the final agent's output directly, SUMMARY synthesizes all outputs through an LLM, and SCORED picks whichever scores higher against the original request:
 
-<img src="https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/05-mcp/images/response-strategies.png" alt="Response Strategies" width="800"/>
+<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/05-mcp/images/response-strategies.png" alt="Response Strategies" width="800"/>
 
 *Three strategies for how the Supervisor formulates its final response — choose based on whether you want the last agent's output, a synthesized summary, or the best-scoring option.*
 
@@ -432,7 +432,7 @@ The example demonstrates several advanced features of the agentic module. Let's 
 
 The diagram below shows how Agentic Scope works as shared memory in the file-to-report workflow — FileAgent writes its output under the key `fileContent`, ReportAgent reads that and writes its own output under `report`:
 
-<img src="https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/05-mcp/images/agentic-scope.png" alt="Agentic Scope Shared Memory" width="800"/>
+<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/05-mcp/images/agentic-scope.png" alt="Agentic Scope Shared Memory" width="800"/>
 
 *Agentic Scope acts as shared memory — FileAgent writes `fileContent`, ReportAgent reads it and writes `report`, and your code reads the final result.*
 
@@ -450,7 +450,7 @@ String report = scope.readState("report");            // Structured report from 
 
 The following diagram shows the full Agent Listener lifecycle, including how `onError` handles failures during agent execution:
 
-<img src="https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/05-mcp/images/agent-listeners.png" alt="Agent Listeners Lifecycle" width="800"/>
+<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/05-mcp/images/agent-listeners.png" alt="Agent Listeners Lifecycle" width="800"/>
 
 *Agent Listeners hook into the execution lifecycle — monitor when agents start, complete, or encounter errors.*
 
@@ -478,7 +478,7 @@ AgentListener monitor = new AgentListener() {
 
 Beyond the Supervisor pattern, the `langchain4j-agentic` module provides several powerful workflow patterns. The diagram below shows all five — from simple sequential pipelines to human-in-the-loop approval workflows:
 
-<img src="https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/05-mcp/images/workflow-patterns.png" alt="Agent Workflow Patterns" width="800"/>
+<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/05-mcp/images/workflow-patterns.png" alt="Agent Workflow Patterns" width="800"/>
 
 *Five workflow patterns for orchestrating agents — from simple sequential pipelines to human-in-the-loop approval workflows.*
 
@@ -496,7 +496,7 @@ Now that you've explored MCP and the agentic module in action, let's summarize w
 
 One of MCP's biggest advantages is its growing ecosystem. The diagram below shows how a single universal protocol connects your AI application to a wide variety of MCP servers — from filesystem and database access to GitHub, email, web scraping, and more:
 
-<img src="https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/05-mcp/images/mcp-ecosystem.png" alt="MCP Ecosystem" width="800"/>
+<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/05-mcp/images/mcp-ecosystem.png" alt="MCP Ecosystem" width="800"/>
 
 *MCP creates a universal protocol ecosystem — any MCP-compatible server works with any MCP-compatible client, enabling tool sharing across applications.*
 
@@ -508,7 +508,7 @@ One of MCP's biggest advantages is its growing ecosystem. The diagram below show
 
 To help you decide between the custom `@Tool` methods from Module 04 and MCP tools from this module, the following comparison highlights the key trade-offs — custom tools give you tight coupling and full type safety for app-specific logic, while MCP tools offer standardized, reusable integrations:
 
-<img src="https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/05-mcp/images/custom-vs-mcp-tools.png" alt="Custom Tools vs MCP Tools" width="800"/>
+<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/05-mcp/images/custom-vs-mcp-tools.png" alt="Custom Tools vs MCP Tools" width="800"/>
 
 *When to use custom @Tool methods vs MCP tools — custom tools for app-specific logic with full type safety, MCP tools for standardized integrations that work across applications.*
 
@@ -516,7 +516,7 @@ To help you decide between the custom `@Tool` methods from Module 04 and MCP too
 
 You've made it through all five modules of the LangChain4j for Beginners course! Here's a look at the full learning journey you've completed — from basic chat all the way to MCP-powered agentic systems:
 
-<img src="https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/05-mcp/images/course-completion.png" alt="Course Completion" width="800"/>
+<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/05-mcp/images/course-completion.png" alt="Course Completion" width="800"/>
 
 *Your learning journey through all five modules — from basic chat to MCP-powered agentic systems.*
 

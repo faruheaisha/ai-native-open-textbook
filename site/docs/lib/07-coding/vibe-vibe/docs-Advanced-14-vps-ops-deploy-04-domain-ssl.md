@@ -33,9 +33,9 @@ zh: ""
 - `www` 表示 `www.yourdomain.com`
 
 小明打开域名注册商的 DNS 管理页面，按照表格添加了两条 A 记录。操作本身很简单——选类型、填主机记录、填 IP 地址，几秒钟就加好了。但他心里有点没底："这就行了？域名真的能指向我的服务器？"
-![腾讯云 DNS 解析配置 - @ 记录](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/14-vps-ops-deploy/14-4-dns-root-01.png)
+![腾讯云 DNS 解析配置 - @ 记录](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/14-vps-ops-deploy/14-4-dns-root-01.png)
 
-![腾讯云 DNS 解析配置 - www 记录](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/14-vps-ops-deploy/14-4-dns-www-02.png)
+![腾讯云 DNS 解析配置 - www 记录](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/14-vps-ops-deploy/14-4-dns-www-02.png)
 
 ::: tip DNS 生效需要时间
 添加记录后，通常几分钟到几小时生效（取决于 TTL 设置和各地 DNS 缓存）。可以用以下命令检查是否生效：
@@ -64,7 +64,7 @@ DNS 解决了"域名找到服务器"的问题，但服务器收到请求后还�
 如果你在 [14.3.2](/lib/07-coding/vibe-vibe/docs-Advanced-14-vps-ops-deploy-03-2-deploy-nextjs) 或 [14.3.3](/lib/07-coding/vibe-vibe/docs-Advanced-14-vps-ops-deploy-03-3-deploy-static) 创建网站时已经填了域名，这一步就已经完成了。如果当时用的是 IP 测试，现在进入 1Panel 的「网站」页面，编辑对应网站，把域名加上。
 
 务必确保已经在应用商店安装 OpenResty。
-![1Panel 应用商店 - OpenResty](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/14-vps-ops-deploy/14-4-openresty-03.png)
+![1Panel 应用商店 - OpenResty](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/14-vps-ops-deploy/14-4-openresty-03.png)
 
 配置完成后，确保安全组已开放 **80**（HTTP）和 **443**（HTTPS）端口。然后在浏览器中访问 `http://yourdomain.com`，如果能看到你的网站，说明域名配置成功了。
 
@@ -78,11 +78,11 @@ DNS 解决了"域名找到服务器"的问题，但服务器收到请求后还�
 
 在 1Panel 中，进入「网站 > 证书」页面，点击「申请证书」。填写域名，申请方式选 **HTTP 验证**（最简单，前提是 80 端口可访问），开启「自动续签」，点击确认即可。ACME 账户保持默认的「1Panel 自动生成」就行。
 
-![浏览器"不安全"提示](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/14-vps-ops-deploy/14-4-http-insecure-05.png)
+![浏览器"不安全"提示](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/14-vps-ops-deploy/14-4-http-insecure-05.png)
 
-![1Panel SSL 证书申请配置](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/14-vps-ops-deploy/14-4-ssl-apply-06.png)
+![1Panel SSL 证书申请配置](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/14-vps-ops-deploy/14-4-ssl-apply-06.png)
 
-![HTTP 验证配置](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/14-vps-ops-deploy/14-4-ssl-http-verify-07.png)
+![HTTP 验证配置](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/14-vps-ops-deploy/14-4-ssl-http-verify-07.png)
 
 等待十几秒，状态变成"已签发"后，回到网站配置页面，在 HTTPS 设置中选择刚申请的证书并启用。
 
@@ -158,11 +158,11 @@ Let's Encrypt 证书有效期只有 90 天。如果证书过期了，用户打�
 
 :::
 
-![配置 DNS 账户](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/14-vps-ops-deploy/14-4-ssl-success-08.png)
+![配置 DNS 账户](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/14-vps-ops-deploy/14-4-ssl-success-08.png)
 
 2. 申请证书时，域名填写 `*.yourdomain.com`，验证方式选择「DNS 验证」，选择刚添加的 DNS 账户
 
-![申请通配符证书](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/14-vps-ops-deploy/14-4-https-enable-09.png)
+![申请通配符证书](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/14-vps-ops-deploy/14-4-https-enable-09.png)
 
 3. 1Panel 会自动在你的域名服务商处添加 TXT 记录完成验证，等待签发即可
 

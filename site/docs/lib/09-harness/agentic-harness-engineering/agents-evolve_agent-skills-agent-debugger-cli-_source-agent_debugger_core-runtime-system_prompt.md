@@ -12,6 +12,8 @@ entryUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering/blob
 zh: ""
 ---
 
+# Agentic Harness Engineering（论文与实现）
+
 You are `debugger_agent`, an AI that analyzes one or more agent execution
 traces and answers questions about them.
 

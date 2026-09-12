@@ -20,7 +20,7 @@ zh: ""
 
 ## **工作区**
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.14 工作台-幻灯片/assets/001_a0a90b06-c398-4fa1-864f-a358cd5bc3b4.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.14 工作台-幻灯片/assets/001_a0a90b06-c398-4fa1-864f-a358cd5bc3b4.webp)
 
 右侧画布提供 3 个标签：
 
@@ -38,7 +38,7 @@ zh: ""
 
 在输入框点击工作台切换器（默认 通用），选 幻灯片。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.14 工作台-幻灯片/assets/002_c60e538d-7d9a-4ced-8614-effd436da2bc.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.14 工作台-幻灯片/assets/002_c60e538d-7d9a-4ced-8614-effd436da2bc.webp)
 
 <span style="color: rgb(80, 100, 127); background-color: rgb(248, 249, 251);">**示例**</span>
 
@@ -50,25 +50,25 @@ zh: ""
 
 也可以点击麦克风使用 \[语音输入\]
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.14 工作台-幻灯片/assets/003_61f21089-ef0a-42c1-b38e-16bb61dfba0f.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.14 工作台-幻灯片/assets/003_61f21089-ef0a-42c1-b38e-16bb61dfba0f.webp)
 
 挑选模版、固定工作目录（可选）
 - 点击输入框下方的「不使用模版」按钮，可以从 35 个内置模版中挑一个作为视觉基调；不选也可以让 Agent 从对话中自动生成主题。
 - 点击「选择工作目录」可把任务绑定到本地一个目录——Agent 会把幻灯片源文件落到该目录下，方便长期管理与协作。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.14 工作台-幻灯片/assets/004_cfe66fa4-2292-4ff1-9b82-d2d815c5c59a.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.14 工作台-幻灯片/assets/004_cfe66fa4-2292-4ff1-9b82-d2d815c5c59a.webp)
 
 回答 Agent 的澄清问题
 
 Agent 在开工前会就受众、页数、语言等关键参数提几个问题。逐题作答可以让 deck 更贴合你的实际场景；如果不想逐项确认，也可以直接点击底部的「AI 自行决定」。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.14 工作台-幻灯片/assets/005_7a1e372a-2f77-413c-85eb-6f663f912c51.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.14 工作台-幻灯片/assets/005_7a1e372a-2f77-413c-85eb-6f663f912c51.webp)
 
 确认大纲
 
 回答完问题后，Agent 会在 大纲 标签下输出一份大纲，每节带一句简介和一个版式标签（封面页、文字大纲、左图右文、双栏、引文等）。点击 接受大纲 创建幻灯片占位；如果对结构或节奏不满意，点 附反馈驳回 让 Agent 在开页之前先调整。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.14 工作台-幻灯片/assets/006_c6f5bf58-7779-4fc7-889d-26c3c2145724.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.14 工作台-幻灯片/assets/006_c6f5bf58-7779-4fc7-889d-26c3c2145724.webp)
 
 查看幻灯片生成过程
 
@@ -78,13 +78,13 @@ Agent 在开工前会就受众、页数、语言等关键参数提几个问题�
 
 全部页面合成完成后，Agent 会问是否运行后处理步骤——可多选，也可全部跳过直接完成。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.14 工作台-幻灯片/assets/007_8334170c-c5ce-4f6d-a204-6023bf334db1.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.14 工作台-幻灯片/assets/007_8334170c-c5ce-4f6d-a204-6023bf334db1.webp)
 
 查看最终成果
 
 所有页面就绪后，画布顶部显示「N / N 张幻灯片已就绪」。右上角「保存为模版 / 放映 / 导出」可直接进入下一步；左侧缩略图列可点选任意页跳转、右侧画布渲染当前页。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.14 工作台-幻灯片/assets/008_02e3debb-cb09-4bb0-821f-556c5caec979.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.14 工作台-幻灯片/assets/008_02e3debb-cb09-4bb0-821f-556c5caec979.webp)
 
 ## **继续迭代**
 - 追加任务：在底部输入框继续追加指令，例如  *"换成对比表格的版式"*——Agent 会在当前步完成后接着处理。

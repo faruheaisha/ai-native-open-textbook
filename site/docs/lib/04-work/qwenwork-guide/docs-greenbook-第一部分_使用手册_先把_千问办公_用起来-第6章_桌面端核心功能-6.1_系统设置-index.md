@@ -18,7 +18,7 @@ QwenWork 所有设置项总览：偏好、个人资料、系统、语音、快�
 
 点击左侧侧边栏底部的 ⚙ 设置图标进入设置面板。设置分为三个分组：通用、扩展与集成、高级设置。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.1 系统设置/assets/001_011aca4f-6bff-4d0e-ad06-1578f8b77df1.webp)<span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.1 系统设置/assets/001_011aca4f-6bff-4d0e-ad06-1578f8b77df1.webp)<span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
 ## **通用**
 

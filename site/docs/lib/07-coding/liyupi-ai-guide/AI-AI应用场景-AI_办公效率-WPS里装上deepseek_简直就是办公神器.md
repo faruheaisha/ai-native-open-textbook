@@ -12,6 +12,8 @@ entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a0
 zh: ""
 ---
 
+# 鱼皮 AI 导航（ai-guide）
+
 ## WPS里装上deepseek，简直就是办公神器
 
 不得不说，将DeepSeek-R1接入WPS真的惊呆我了！这意味着什么？简单来说，文档编辑从“手动挡”进化成了“自动挡”！不管是生成内容、优化表达，甚至是逻辑推理分析，AI都能直接帮你搞定，爽到飞起！

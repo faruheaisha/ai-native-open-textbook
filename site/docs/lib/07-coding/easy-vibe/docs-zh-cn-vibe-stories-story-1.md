@@ -20,19 +20,19 @@ zh: ""
 
 小浩，是一位小学三年级的乡村代课老师。曾经的他做过运营，搞过商业数据分析，也敲过代码，月入过万。在旁人眼里，这个从农村走出来的年轻人算是“混得不错”。但他放弃了令人羡慕的工作，辞职回到老家，只为带农村孩子们去看更大的世界。
 
-![小浩老师和孩子们](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-1/image1.jpeg)
+![小浩老师和孩子们](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-1/image1.jpeg)
 
 ## 01 当“人工智能”第一次出现在课堂
 
 刚来村里教书的时候，小浩老师的心里是堵着的。“村里条件有限，孩子们很难有机会看到外面的世界，他们的世界很小，小到只有翻旧的课本和脚下的泥土。”他想让孩子们看看更大的世界，也想告诉他们，这个世界上有一个东西叫“人工智能”。它能画画，会写诗，还能回答脑袋里所有天马行空的问题。
 
-![乡村课堂里的日常](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-1/image2.jpeg)
+![乡村课堂里的日常](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-1/image2.jpeg)
 
 刚开始推进的时候并不顺利。让孩子们自己带手机来学校，通过手机接触 AI，这个想法一度遭到了校领导的坚决反对：“你这是让孩子抄答案！这叫不务正业！”但他没有放弃，三天两头想办法去说服校领导。最后双方各退一步，可以学 AI，但是不能违反学校规定，学生不能自己带手机到课堂上。
 
 于是，小浩老师就自掏腰包，收了几部二手手机，把自己的“豆包”账号登录到这些手机上给孩子们用。就这样，孩子们第一次摸上了“高科技”。他们很快学会了用 AI 搜资料、学舞蹈，甚至玩文生图。AI 第一次帮这些孩子打开了新世界的大门。
 
-![孩子们在机房里接触 AI 的样子](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-1/image3.png)
+![孩子们在机房里接触 AI 的样子](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-1/image3.png)
 
 ## 02 农村课堂的“特产”：苍蝇与误触
 
@@ -40,7 +40,7 @@ zh: ""
 
 电子屏发热发光，苍蝇尤其喜欢往上扑。屏幕无法识别是正常操作还是误触，经常造成课件乱跳、视频暂停，甚至中途关机的问题。一节课 40 分钟，得花 20 分钟在讲台上赶苍蝇，好好的课上得稀碎，小浩老师和孩子们都苦不堪言。
 
-![被误触困扰的教室电子屏](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-1/image4.png)
+![被误触困扰的教室电子屏](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-1/image4.png)
 
 突然有一天，一个学生举手对小浩老师说：“老师，我们能不能一起做一个程序，把苍蝇‘关’在外面？”
 
@@ -55,7 +55,7 @@ zh: ""
 
 这一问，还真问出了门道。AI 告诉他们要区分 `RawInput`，要识别 `ExtraInfo`。孩子们虽然听不懂这些专业术语，但他们可以通过数据观察和小组讨论，发现不同输入的 `ExtraInfo` 值确实有差别。
 
-![“小浩触屏锁”的输入识别界面](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-1/image5.png)
+![“小浩触屏锁”的输入识别界面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-1/image5.png)
 
 就这样，小浩老师和孩子们你一句我一句，和 AI 硬生生“聊”出了现在的【小浩触屏锁】。它的原理很简单：通过识别输入信号的特征，精准拦截掉屏幕的触控信号，只保留鼠标操作。这样一来，不管苍蝇在屏幕上怎么开派对，课件都能稳如泰山。
 
@@ -77,7 +77,7 @@ zh: ""
 
 那个提议做软件的孩子，以前最调皮，现在上课听得最认真。因为他知道，他参与创造的东西，正在帮大家解决问题。这种“我也能行”的自信，比考一百分更珍贵。
 
-![孩子们的笑脸和课堂合影](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-1/image6.jpeg)
+![孩子们的笑脸和课堂合影](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-1/image6.jpeg)
 
 他也坦白说，自己带孩子们用手机、搞 AI，没少挨批评，也没少听流言蜚语。很多人说他不务正业，带坏风气。但看着孩子们因为 AI 变得更好奇、更善良，他觉得一切都是值得的。
 
@@ -85,14 +85,14 @@ zh: ""
 
 小浩老师真挚地呼吁大家，多多关注公立教育里真实可落地的 AI 电子数字化课堂。农村娃的小小世界，其实更需要 AI 的帮助。AI 不只是工具，更是帮孩子们链接大千世界的一扇窗。
 
-![孩子们写给老师的祝福](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-1/image7.png)
+![孩子们写给老师的祝福](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-1/image7.png)
 
-![“老师您辛苦了”](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-1/image8.png)
+![“老师您辛苦了”](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-1/image8.png)
 
-![孩子们手写的小纸条](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-1/image9.png)
+![孩子们手写的小纸条](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-1/image9.png)
 
-![生活里的孩子们](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-1/image10.png)
+![生活里的孩子们](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-1/image10.png)
 
-![教室里的孩子们](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-1/image11.png)
+![教室里的孩子们](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-1/image11.png)
 
-![小浩的自拍](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-1/image12.png)
+![小浩的自拍](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-1/image12.png)

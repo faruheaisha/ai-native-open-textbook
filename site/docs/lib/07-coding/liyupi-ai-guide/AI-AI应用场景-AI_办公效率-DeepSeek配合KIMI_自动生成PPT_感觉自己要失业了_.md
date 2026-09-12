@@ -12,6 +12,8 @@ entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a0
 zh: ""
 ---
 
+# 鱼皮 AI 导航（ai-guide）
+
 ## DeepSeek配合KIMI，自动生成PPT，感觉自己要失业了！
 
 之前跟大家分享了如何将DeepSeek放在Excel表格中，有粉丝就能到能用DeepSeek来生成PPT吗？

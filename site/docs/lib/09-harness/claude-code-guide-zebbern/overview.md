@@ -12,6 +12,8 @@ entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad67
 zh: ""
 ---
 
+# Claude Code Guide（zebbern）
+
 <h2 id="claude-code-community-guide">Claude Code Guide</h2>
 
 _For reference and contributions, visit the [official Claude Code documentation](https://code.claude.com/docs/en/overview)_

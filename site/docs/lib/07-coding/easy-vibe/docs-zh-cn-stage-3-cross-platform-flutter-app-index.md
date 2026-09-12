@@ -47,7 +47,7 @@ BMW、Google Pay 和 Nubank 面向的用户完全不同，却都在正式产品�
 
 BMW 曾经发现 iOS 和 Android 车主应用之间的功能与设计差距越来越大，同时还要维护不同品牌、系统和四十多个市场的版本。团队后来用 Flutter 建立统一移动平台，My BMW App 于 2020 年发布，并扩展到 47 个国家。它的流水线每天会自动构建、测试和部署多个变体，而不是让一套源码替代发布工程。
 
-![My BMW App 在车辆旁边显示车况与服务入口](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/flutter-app/images/flutter-real-bmw.png)
+![My BMW App 在车辆旁边显示车况与服务入口](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/flutter-app/images/flutter-real-bmw.png)
 
 图片与数据来源：[Flutter 官方 BMW 案例](https://flutter.dev/showcase/bmw)。
 
@@ -59,7 +59,7 @@ BMW 曾经发现 iOS 和 Android 车主应用之间的功能与设计差距越�
 
 Google Pay 原来的 Android 和 iOS 实现合计约 170 万行代码。迁移前，团队先让三名资深工程师做首页、聊天和支付的纵向原型，把关键原生插件也放进去验证；得到团队反馈以后，才逐步扩大到正式重写。官方案例记录的新代码库约 110 万行，工程投入减少约 60% 到 70%，但安全审查和平台接入并没有因此消失。
 
-![Google Pay 的奖励反馈与付款状态界面](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/flutter-app/images/flutter-real-google-pay.png)
+![Google Pay 的奖励反馈与付款状态界面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/flutter-app/images/flutter-real-google-pay.png)
 
 图片与数据来源：[Flutter 官方 Google Pay 案例](https://flutter.dev/showcase/google-pay)。
 
@@ -71,7 +71,7 @@ Google Pay 原来的 Android 和 iOS 实现合计约 170 万行代码。迁移�
 
 巴西数字银行 Nubank 没有因为 Flutter 热门就直接迁移。官方案例介绍，团队先用 11 项标准比较 Kotlin Native、React Native 和 Flutter，还让不同经验的开发者完成一小时任务并收集反馈。选定 Flutter 后，新功能逐步采用，旧功能再按计划迁移。团队随后建立了自己的设计系统，并把单元、组件和端到端测试纳入开发方式。
 
-![Nubank 账户与帮助入口的真实界面](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/flutter-app/images/flutter-real-nubank.png)
+![Nubank 账户与帮助入口的真实界面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/flutter-app/images/flutter-real-nubank.png)
 
 图片与数据来源：[Flutter 官方 Nubank 案例](https://flutter.dev/showcase/nubank)。案例还记录了合并成功率、合并时间和新人上手速度等实际指标。
 
@@ -151,7 +151,7 @@ flutter run -d chrome
 
 下面是本页实际构建并打开的版本。顶部写着最后同步时间和待同步数量，费用行也标记了待同步，而不是只在控制台打印一条日志。
 
-![Flutter 门店费用簿实际运行首页，新增的打印纸记录仍在](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/flutter-app/images/flutter-expense-home.png)
+![Flutter 门店费用簿实际运行首页，新增的打印纸记录仍在](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/flutter-app/images/flutter-expense-home.png)
 
 这张图来自 Chrome 中运行的 Flutter Web 生产构建。页面刷新以后，“打印纸 ¥56”仍然存在，所以它也记录了本机恢复测试的结果；它不是 Android 或 iOS 截图。
 
@@ -163,7 +163,7 @@ flutter run -d chrome
 
 > 点击“记一笔”时打开底部表单，只填写费用说明和金额。
 
-![实际运行的新增费用底部表单](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/flutter-app/images/flutter-expense-form.png)
+![实际运行的新增费用底部表单](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/flutter-app/images/flutter-expense-form.png)
 
 底部表单适合短任务，因为用户还能看见原来的页面。字段变多、需要拍照或审批信息时，就应该换成完整页面，不要把所有内容硬塞进一个弹层。
 
@@ -177,7 +177,7 @@ Flutter 官方的[表单教程](https://docs.flutter.dev/cookbook/forms)列出�
 
 实际点击空表单的“保存到本机”以后，两个字段会变红，并分别说明缺少什么：
 
-![空费用表单显示字段级错误提示](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/flutter-app/images/flutter-expense-validation.png)
+![空费用表单显示字段级错误提示](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/flutter-app/images/flutter-expense-validation.png)
 
 这里没有只写“参数错误”，也没有弹出一个马上消失的统一提示。用户能在出错的位置直接修改。需要自己实现时，可对照 Flutter 官方的[表单校验示例](https://docs.flutter.dev/cookbook/forms/validation)。
 
@@ -187,7 +187,7 @@ Flutter 官方的[表单教程](https://docs.flutter.dev/cookbook/forms)列出�
 
 本页实测输入“打印纸”和 `56` 后，金额从 ¥890.50 变为 ¥946.50，待同步数量从 1 变为 2，列表顶部出现新记录，底部同时显示“已保存在本机，联网后再同步”。
 
-![保存费用后同时更新汇总、列表和成功提示](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/flutter-app/images/flutter-expense-saved.png)
+![保存费用后同时更新汇总、列表和成功提示](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/flutter-app/images/flutter-expense-saved.png)
 
 这类反馈看起来只是文案，却能避免用户因为不确定而连续点五次。以后接真实后端，还要让服务端识别重复提交，不能只靠按钮暂时禁用。
 

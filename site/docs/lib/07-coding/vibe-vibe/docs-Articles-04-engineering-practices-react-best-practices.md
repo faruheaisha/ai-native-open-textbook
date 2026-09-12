@@ -23,7 +23,7 @@ zh: ""
 
 我们将 10+ 年的 React 和 Next.js 性能优化知识封装到 [`react-best-practices`](https://github.com/vercel-labs/agent-skills/tree/main/skills/react-best-practices) 中，这是一个专为 AI Agent 和 LLM 优化的结构化仓库。
 
-![React Best Practices](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/2026-01/react-best-practices-hero.png)
+![React Best Practices](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/2026-01/react-best-practices-hero.png)
 
 ## 为什么需要这个框架
 
@@ -115,7 +115,7 @@ async function handleRequest(userId: string, skipProcessing: boolean) {
 
 几个例子：
 
-![React Best Practices Examples](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/2026-01/react-best-practices-example.png)
+![React Best Practices Examples](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/2026-01/react-best-practices-example.png)
 
 ### 合并循环迭代
 

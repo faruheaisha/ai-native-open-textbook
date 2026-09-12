@@ -12,6 +12,8 @@ entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a0
 zh: ""
 ---
 
+# 鱼皮 AI 导航（ai-guide）
+
 ## DeepSeek技术解读：从V3到R1的MoE架构创新
 
 首先简单提一下MoE的发展历史，早在1991年一篇名为《[Adaptive Mixtures of Local Experts](https://link.zhihu.com/?target=https%3A//ieeexplore.ieee.org/abstract/document/6797059) 》的研究，最早提出了[Mixture of Experts](https://zhida.zhihu.com/search?content_id=253521716&content_type=Article&match_order=1&q=Mixture+of+Experts&zhida_source=entity)的原型框架，如图1，直至今日，MoE的框架依然保持这种方式。

@@ -12,6 +12,8 @@ entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a0
 zh: ""
 ---
 
+# 鱼皮 AI 导航（ai-guide）
+
 ## DeepSeek一句话搞定修图难题
 
 家人们！！今天解锁了deepseek打工新姿势 让deepseeker帮我写PS脚本，直接一键get日式小清新照片🎞️ 操作很简单，思路一下就打开了！ 

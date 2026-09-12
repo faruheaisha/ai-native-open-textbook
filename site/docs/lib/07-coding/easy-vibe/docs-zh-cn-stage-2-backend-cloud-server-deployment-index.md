@@ -73,7 +73,7 @@ zh: ""
 
 ## 1.1 Vercel — Next.js 官方平台，前端首选
 
-![Vercel 首页](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/backend/cloud-server-deployment/images/vercel.png)
+![Vercel 首页](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/backend/cloud-server-deployment/images/vercel.png)
 
 **官网**：https://vercel.com
 
@@ -107,7 +107,7 @@ zh: ""
 
 ## 1.2 Cloudflare Pages — 无限带宽，国内访问快
 
-![Cloudflare Pages 首页](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/backend/cloud-server-deployment/images/cloudflare-pages.png)
+![Cloudflare Pages 首页](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/backend/cloud-server-deployment/images/cloudflare-pages.png)
 
 **官网**：https://pages.cloudflare.com
 
@@ -132,7 +132,7 @@ zh: ""
 
 ## 1.3 Netlify — 老牌静态托管，插件生态丰富
 
-![Netlify 首页](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/backend/cloud-server-deployment/images/netlify.png)
+![Netlify 首页](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/backend/cloud-server-deployment/images/netlify.png)
 
 **官网**：https://www.netlify.com
 
@@ -144,7 +144,7 @@ zh: ""
 
 ## 1.4 Railway — 部署后端的最佳体验（常驻服务）
 
-![Railway 首页](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/backend/cloud-server-deployment/images/railway.png)
+![Railway 首页](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/backend/cloud-server-deployment/images/railway.png)
 
 **官网**：https://railway.app
 
@@ -171,7 +171,7 @@ zh: ""
 
 ## 1.5 Zeabur — 国内开发者友好的 PaaS
 
-![Zeabur 首页](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/backend/cloud-server-deployment/images/zeabur.png)
+![Zeabur 首页](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/backend/cloud-server-deployment/images/zeabur.png)
 
 **官网**：https://zeabur.com
 
@@ -206,7 +206,7 @@ zh: ""
 
 ## 1.7 Fly.io — 真正 7×24 在线的免费容器
 
-![Fly.io 首页](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/backend/cloud-server-deployment/images/flyio.png)
+![Fly.io 首页](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/backend/cloud-server-deployment/images/flyio.png)
 
 **官网**：https://fly.io
 
@@ -259,7 +259,7 @@ zh: ""
 
 ### 腾讯云轻量应用服务器（推荐新手）
 
-![腾讯云轻量应用服务器](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/backend/cloud-server-deployment/images/tencent-lighthouse.png)
+![腾讯云轻量应用服务器](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/backend/cloud-server-deployment/images/tencent-lighthouse.png)
 
 **官网**：https://cloud.tencent.com/product/lighthouse
 
@@ -291,7 +291,7 @@ zh: ""
 
 ### 阿里云轻量应用服务器
 
-![阿里云轻量应用服务器](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/backend/cloud-server-deployment/images/aliyun-lighthouse.png)
+![阿里云轻量应用服务器](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/backend/cloud-server-deployment/images/aliyun-lighthouse.png)
 
 **官网**：https://www.aliyun.com/product/swas
 
@@ -341,7 +341,7 @@ zh: ""
 | **RackNerd** | ~$10/年（年付） | 超低价，适合非核心项目练手 | 纯练手、预算极低 |
 | **雨云** | ¥10/月起 | 国内厂商运营的海外 VPS，支付宝付款方便 | 国内用户图方便 |
 
-![Vultr 首页](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/backend/cloud-server-deployment/images/vultr.png)
+![Vultr 首页](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/backend/cloud-server-deployment/images/vultr.png)
 
 **Vultr 购买流程（其他海外厂商类似）：**
 1. 访问 https://www.vultr.com/ 注册账号（需要邮箱+信用卡/PayPal）

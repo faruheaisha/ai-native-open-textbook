@@ -12,6 +12,8 @@ entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a0
 zh: ""
 ---
 
+# 鱼皮 AI 导航（ai-guide）
+
 ## deepseek+数字人王炸组合使用方法
 
 deepseek结合数字人，分分钟让您的流量飞起！

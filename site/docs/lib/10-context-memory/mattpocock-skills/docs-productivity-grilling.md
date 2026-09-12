@@ -12,6 +12,8 @@ entryUrl: "https://github.com/mattpocock/skills/blob/3cca18b368ae95cdbdebbff572c
 zh: ""
 ---
 
+# Matt Pocock Skills（工程技能库）
+
 ## What it does
 
 `grilling` is the interview loop that stress-tests a plan, a decision, or an idea before anyone acts on it. It maps the subject as a **design tree**: every decision branches into the decisions that hang off it, and interviews you branch by branch until nothing is left silently assumed.

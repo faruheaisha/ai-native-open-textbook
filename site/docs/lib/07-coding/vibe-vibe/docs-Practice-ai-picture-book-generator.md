@@ -20,7 +20,7 @@ zh: ""
 
 ## 🖼️ 效果展示
 
-![AI绘本效果图](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Practice/11.01-20260106012640_47_179.jpg)
+![AI绘本效果图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Practice/11.01-20260106012640_47_179.jpg)
 
 *上图展示了一本由 AI 自动生成的儿童绘本《狐狸大冒险》，包含封面、内容页、互动页、角色参考图等完整内容。*
 
@@ -82,11 +82,11 @@ Nano Banana Pro 是一个强大的 AI 图片生成服务，用于生成绘本插
 
 1. 打开 [https://grsai.com](https://grsai.com) (注: 这个网站目前是我用着相对性价比感觉比较高的nano banana pro模型服务商, 如果有其他更好的模型服务商, 欢迎在评论区分享)
 
-![alt text](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Practice/11.01-image-20.png)
+![alt text](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Practice/11.01-image-20.png)
 
 2. 注册账号并登录
 3. 进入控制台，创建 API Key(按需购买积分, 按照我的经验来说, 10 元以内对于测试项目是完全够用的, 非广告推销, 只是为了测试与接入nano banana pro做图片生成功能使用)
-![alt text](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Practice/11.01-image-21.png)
+![alt text](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Practice/11.01-image-21.png)
 4. **重要**：妥善保存你的 API Key，不要泄露！
 
 #### 2. 配置环境变量
@@ -141,7 +141,7 @@ API 信息：
 AI 会帮你生成完整的接入代码！
 
 如果AI生成的代码有错误, 可以打开接入文档:https://grsai.com/dashboard/documents/nano-banana, 然后把所有的 api 调用信息copy 过来, 让AI帮你实现具体的接入逻辑, 而你只需要配置下 Token 就可以了。
-![alt text](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Practice/11.01-image-22.png)
+![alt text](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Practice/11.01-image-22.png)
 
 ### Step 6：运行看效果！
 
@@ -228,19 +228,19 @@ https://mineru.net/
 精准解析 高效提取 全面助力AI Ready数据自由
 
 打开网址, 注册账号, 进入首页.
-![alt text](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Practice/11.01-image-14.png)
+![alt text](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Practice/11.01-image-14.png)
 
 点击 'API'，先进行 API 申请, "MinerU API 申请问卷", 提交后很快就会收到通过的申请.
 
-![alt text](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Practice/11.01-image-16.png)
+![alt text](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Practice/11.01-image-16.png)
 
 申请通过后，就可以创建 API Token 了(注意, 该 Token 要保存好，后面要用到, 且不要轻易泄漏)。
-![alt text](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Practice/11.01-image-17.png)
+![alt text](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Practice/11.01-image-17.png)
 
 mineru当前每天支持 10000 次的免费调用，基本可以满足我们的测试需求!
 
 在接入阶段, 将API文档页中关于如何接入 API 的全部内容 copy 过来, 让AI帮我实现具体的接入逻辑, 而你只需要配置下 Token 就可以了。
-![alt text](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Practice/11.01-image-19.png)
+![alt text](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Practice/11.01-image-19.png)
 
 ### 第三轮对话：设计 Prompt（最关键！）
 
@@ -284,7 +284,7 @@ mineru当前每天支持 10000 次的免费调用，基本可以满足我们的�
 2. 生成每一页时，把角色设定图作为参考传给 AI
 3. 在 Prompt 里强调"必须和参考图保持一致"
 
-![角色设定图效果](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Practice/11.01-20260106012659_49_179.jpg)
+![角色设定图效果](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Practice/11.01-20260106012659_49_179.jpg)
 
 *角色设定图示例：包含全身姿势（站立、挥手、坐下、行走）、面部表情（开心、好奇、惊讶、坚定）、关键特征标注（发型、眼睛、服装）*
 
@@ -609,7 +609,7 @@ JSON 格式，便于程序解析
 
 ### 系统架构图
 
-![AI绘本整体架构图](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Practice/11.01-AI绘本整体架构图.jpg)
+![AI绘本整体架构图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Practice/11.01-AI%E7%BB%98%E6%9C%AC%E6%95%B4%E4%BD%93%E6%9E%B6%E6%9E%84%E5%9B%BE.jpg)
 
 **架构说明：**
 

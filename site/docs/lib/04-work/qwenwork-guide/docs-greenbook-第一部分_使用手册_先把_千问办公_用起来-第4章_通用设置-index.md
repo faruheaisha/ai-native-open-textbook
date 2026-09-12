@@ -16,7 +16,7 @@ zh: ""
 
 通用设置用于管理个人资料、语言、外观、订阅及积分使用情况。用户可在千问办公客户端内点击「个人头像」或侧边栏「设置」图标入口进入。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第4章 通用设置/assets/001_afd7667d-f875-4e01-9d5b-cf134ebce7b6.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第4章 通用设置/assets/001_afd7667d-f875-4e01-9d5b-cf134ebce7b6.webp)
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
@@ -26,13 +26,13 @@ zh: ""
 
 展示当前账号的头像、昵称、用户名及绑定手机号。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第4章 通用设置/assets/002_e742c7f2-666d-4098-8d1b-0f70e87e6f98.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第4章 通用设置/assets/002_e742c7f2-666d-4098-8d1b-0f70e87e6f98.webp)
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
 点击「编辑」，可修改昵称和用户名。昵称支持 3～20 个字符，仅限字母、数字或下划线；用户名每 30 天仅可修改 1 次。修改完成后，点击「完成」保存。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第4章 通用设置/assets/003_cebced9f-ad15-4822-a610-c62115c8a1a5.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第4章 通用设置/assets/003_cebced9f-ad15-4822-a610-c62115c8a1a5.webp)
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
@@ -40,7 +40,7 @@ zh: ""
 
 点击个人资料右侧的「更多」按钮，可选择「重置密码」或「注销账号」。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第4章 通用设置/assets/004_2b3ff5f2-d414-4e95-8e1b-13f2f4031c86.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第4章 通用设置/assets/004_2b3ff5f2-d414-4e95-8e1b-13f2f4031c86.webp)
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
@@ -48,7 +48,7 @@ zh: ""
 
 展示当前订阅版本、到期时间以及当前积分余额及积分构成，包括每日刷新积分、每月订阅积分和长期积分。点击「管理」可管理当前订阅；点击「升级」可升级订阅版本；点击「充值」可购买积分。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第4章 通用设置/assets/005_79ecb3cb-df9f-453c-a44b-d8d1819e3dfd.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第4章 通用设置/assets/005_79ecb3cb-df9f-453c-a44b-d8d1819e3dfd.webp)
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
@@ -70,7 +70,7 @@ zh: ""
 
 个人版用户可查看当前订阅版本、剩余积分及积分到期时间。支持查看用量详情、充值积分；免费版用户还可点击「升级订阅」升级个人套餐。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第4章 通用设置/assets/006_f33cc9ca-c075-4ddc-8e77-3f8d6218cac9.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第4章 通用设置/assets/006_f33cc9ca-c075-4ddc-8e77-3f8d6218cac9.webp)
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
@@ -78,7 +78,7 @@ zh: ""
 
 企业版员工可查看个人剩余积分及积分使用情况。当积分不足时，可向所属企业申请积分。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第4章 通用设置/assets/007_90bb1a86-be3c-4b99-bea0-9851add20c4c.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第4章 通用设置/assets/007_90bb1a86-be3c-4b99-bea0-9851add20c4c.webp)
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 

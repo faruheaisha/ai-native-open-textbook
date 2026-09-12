@@ -22,7 +22,7 @@ zh: ""
 
 所以这篇文章的重点不是"怎么写出一个 Skill"，而是"怎么像管代码工厂一样管 Skill"：让公共能力沉淀到一处、让业务差异各自隔离、让每一次修改都是加一块积木而不是糊一层补丁。可维护性，以及始终保持简洁、优雅的架构，才是简单 Skill 和商业级 Skill 真正的分水岭。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/怎么写出一个skill/assets/001_7a09baac-803a-43b5-a555-f92ff6892bf4.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/怎么写出一个skill/assets/001_7a09baac-803a-43b5-a555-f92ff6892bf4.jpg)
 
 ## 01 Skill 不是提示词，是可安装的工作单元
 
@@ -36,7 +36,7 @@ zh: ""
 
 真正要做的不是继续加规则，而是问一句：这件事应该由 LLM 判断，还是应该由工程结构保证？
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/怎么写出一个skill/assets/002_fa689ce1-6d35-4980-9151-a3d359190c5e.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/怎么写出一个skill/assets/002_fa689ce1-6d35-4980-9151-a3d359190c5e.jpg)
 
 ## 02 官方规范的核心：渐进披露
 
@@ -67,7 +67,7 @@ assets/ 放要被使用但不必读进上下文的素材。比如模板文件、
 
 这就叫渐进披露。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/怎么写出一个skill/assets/003_1601555c-a2ea-4808-9e8e-34c6cb2e5287.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/怎么写出一个skill/assets/003_1601555c-a2ea-4808-9e8e-34c6cb2e5287.jpg)
 
 ## 03 简单 Skill 怎么写
 
@@ -90,7 +90,7 @@ assets/ 放要被使用但不必读进上下文的素材。比如模板文件、
 
 简单 Skill 最怕"顺手扩展"。本来只排版，后来又想顺手起标题、顺手同步平台、顺手生成封面。每多一个"顺手"，就多一个失败面。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/怎么写出一个skill/assets/004_fcb569b6-f192-41a8-a5a0-f0b2f026bf44.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/怎么写出一个skill/assets/004_fcb569b6-f192-41a8-a5a0-f0b2f026bf44.jpg)
 
 ## 04 复杂 Skill 不是把多个 Skill 写进一个大文档
 
@@ -175,7 +175,7 @@ tools: Read, Write, Bash
 
 只有 image-factory 一个东西注册成全局技能。用户说"做张封面""做组知识卡片""照这张海报做"，都先进这个入口；入口读一张路由表，把请求分发到对应的业务薄壳。四个薄壳不单独注册，只能通过主入口内部调用。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/怎么写出一个skill/assets/005_f2ac6a9c-d34c-4155-a5ba-18e99ac503f0.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/怎么写出一个skill/assets/005_f2ac6a9c-d34c-4155-a5ba-18e99ac503f0.jpg)
 
 关键在于职责怎么切：
 
@@ -201,7 +201,7 @@ Skill 最容易出问题的地方，其实不是写得不够详细，而是业�
 
 判断标准很简单：只要答案应该稳定，就不要交给 LLM 猜。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/怎么写出一个skill/assets/006_74eed9ea-59d6-4759-ab5e-5e941896fa11.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/怎么写出一个skill/assets/006_74eed9ea-59d6-4759-ab5e-5e941896fa11.png)
 
 **适合脚本的事情：**
 - 日期解析；
@@ -270,7 +270,7 @@ source_article: "[[<文章路径>]]"
 
 这八项的价值，是把"我感觉它可以"变成"它真的有可验证边界"。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/怎么写出一个skill/assets/007_0d692ac1-8555-4f10-8f1d-98075dec2ba9.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/怎么写出一个skill/assets/007_0d692ac1-8555-4f10-8f1d-98075dec2ba9.jpg)
 
 ## 07 个人用、团队用、商业用，要求完全不同
 
@@ -298,7 +298,7 @@ source_article: "[[<文章路径>]]"
 
 这时 Skill 已经不是"提示词资产"，而是产品的一部分。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/怎么写出一个skill/assets/008_55a47679-7909-431e-a2f7-8c85674c7aed.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/怎么写出一个skill/assets/008_55a47679-7909-431e-a2f7-8c85674c7aed.jpg)
 
 ## 08 最常见的坑
 
@@ -312,7 +312,7 @@ source_article: "[[<文章路径>]]"
 
 **第五个坑，是把脚本能做的事交给 LLM。** 日期、路径、文件、状态、URL、超时，这些都应该工程化。LLM 的强项是理解和表达，不是当文件系统。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/怎么写出一个skill/assets/009_bd5f4ba5-87c7-4efd-a3ed-4831c541fb5b.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/怎么写出一个skill/assets/009_bd5f4ba5-87c7-4efd-a3ed-4831c541fb5b.jpg)
 
 ## 09 写在最后：门槛已经变了
 
@@ -324,7 +324,7 @@ Skill 好写，AI 十几秒就能给你一个。但"能跑一次"和"能一直�
 
 于是分水岭悄悄换了位置：从"你会不会用 AI 写 Skill"，变成了"当 AI 帮你把 Skill 越写越多、越改越复杂时，你有没有一套工程化的规矩，让它始终简洁、优雅、可维护"。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/怎么写出一个skill/assets/010_9735bf0e-e15b-4ea8-9bd7-4d786d904190.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/怎么写出一个skill/assets/010_9735bf0e-e15b-4ea8-9bd7-4d786d904190.jpg)
 
 懂工程的人，Skill 会变成越用越顺的资产；不懂的人，迟早被自己那堆屎山反噬——就像不懂软件工程的人让 AI 狂写代码，最后代码没人敢碰。
 

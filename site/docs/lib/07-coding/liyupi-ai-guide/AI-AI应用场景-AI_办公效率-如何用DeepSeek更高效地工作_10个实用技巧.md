@@ -12,6 +12,8 @@ entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a0
 zh: ""
 ---
 
+# 鱼皮 AI 导航（ai-guide）
+
 ## 如何用DeepSeek更高效地工作：10个实用技巧
 
 在当今快节奏的工作环境中，高效的工具和方法是提升生产力的关键。DeepSeek作为一款强大的智能助手，能够帮助用户快速获取信息、解决问题并优化工作流程。然而，如何最大限度地发挥DeepSeek的潜力，取决于用户如何与其互动。本文将结合10个实用技巧，深入探讨如何用DeepSeek更高效地工作。

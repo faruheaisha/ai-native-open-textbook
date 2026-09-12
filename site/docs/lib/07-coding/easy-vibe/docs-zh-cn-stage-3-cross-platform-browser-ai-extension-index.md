@@ -20,7 +20,7 @@ zh: ""
 
 开发从不联网的本地版本开始，确认扩展结构与页面读取都正常后，再按需要接 Chrome 内置 AI 或企业后端。
 
-![Enterprise Knowledge Copilot 在侧边栏整理客户支持文档](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/browser-ai-extension/images/extension-enterprise-preview.png)
+![Enterprise Knowledge Copilot 在侧边栏整理客户支持文档](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/browser-ai-extension/images/extension-enterprise-preview.png)
 
 ## 真正的浏览器助手长什么样
 
@@ -32,7 +32,7 @@ zh: ""
 
 Glean 做的是企业知识助手。员工打开制度、项目文档或客户页面时，可以在浏览器侧栏继续提问。回答不只参考当前网页，也会查公司已经接入的文档、对话和人员信息。
 
-![Glean 在浏览器侧栏结合当前页面和企业知识回答问题](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/browser-ai-extension/images/browser-real-glean.webp)
+![Glean 在浏览器侧栏结合当前页面和企业知识回答问题](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/browser-ai-extension/images/browser-real-glean.webp)
 
 它的[官方产品页](https://www.glean.com/platform/browser-extension)展示了四个主要入口：发现相关内容、对当前页面提问、搜索公司资料和生成内容。搜索结果仍然遵守原系统的权限，不是装上扩展以后就能看到全公司的文件。
 
@@ -42,7 +42,7 @@ Glean 做的是企业知识助手。员工打开制度、项目文档或客户�
 
 Grammarly 没有要求用户每写一句话都打开聊天窗口。它先在 Gmail、在线文档等输入区域旁边工作：发现问题时画出下划线，用户停在文字上方时再显示修改建议。
 
-![Grammarly 在网页输入框里给出局部修改建议](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/browser-ai-extension/images/browser-real-grammarly.png)
+![Grammarly 在网页输入框里给出局部修改建议](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/browser-ai-extension/images/browser-real-grammarly.png)
 
 从这张 [Grammarly 官方帮助页](https://support.grammarly.com/hc/en-us/articles/115000091592-Grammarly-s-browser-extension-user-guide)的真实截图可以看出，建议卡片很小，用户可以接受，也可以忽略。需要生成或重写时，再主动打开生成式 AI。
 
@@ -66,7 +66,7 @@ Glean 选择侧边栏，Grammarly 把建议放在句子旁边，Edge 则直接�
 - Service Worker 负责接收事件和组织处理流程；
 - Side Panel 展示按钮、加载状态和摘要结果。
 
-![Content Script、Service Worker 和 Side Panel 的消息流](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/browser-ai-extension/images/image2.png)
+![Content Script、Service Worker 和 Side Panel 的消息流](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/browser-ai-extension/images/image2.png)
 
 Service Worker 会在需要时启动，空闲后可能被浏览器回收，所以不能把必须保留的状态只放在内存里。
 
@@ -82,7 +82,7 @@ AI 完成后，项目里至少应有 manifest、service worker、content script 
 
 在地址栏打开 `chrome://extensions`，打开右上角“开发者模式”，点击“加载已解压的扩展程序”，选择刚才的项目文件夹。
 
-![在 Chrome 扩展管理页加载未打包扩展](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/browser-ai-extension/images/image3.png)
+![在 Chrome 扩展管理页加载未打包扩展](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/browser-ai-extension/images/image3.png)
 
 成功时，卡片上能看到扩展名称和版本，没有红色错误。把扩展固定到工具栏，点击图标，确认右侧能打开空白侧边栏。
 
@@ -111,7 +111,7 @@ AI 完成后，项目里至少应有 manifest、service worker、content script 
 
 > 请把读取结果整理成“页面主题、关键要点、数字与时间、下一步”四部分。先使用本地规则，不调用网络 API。
 
-![侧边栏的按钮、加载状态和摘要结果](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/browser-ai-extension/images/image5.png)
+![侧边栏的按钮、加载状态和摘要结果](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/browser-ai-extension/images/image5.png)
 
 摘要不需要像模型一样聪明，但必须稳定。找一篇有标题、列表和日期的页面，确认每个区域都有内容；再打开空白页，确认不会一直显示加载中。
 
@@ -141,11 +141,11 @@ Chrome 官方目前要求由用户操作触发模型创建。首次下载需要�
 
 如果只是个人本机实验，也可以允许用户填写自己的密钥，但设置页必须明确说明风险，不能把它当成组织部署方案。
 
-![设置页选择摘要方式](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/browser-ai-extension/images/image6-1.png)
+![设置页选择摘要方式](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/browser-ai-extension/images/image6-1.png)
 
-![设置页填写个人测试配置](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/browser-ai-extension/images/image6-2.png)
+![设置页填写个人测试配置](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/browser-ai-extension/images/image6-2.png)
 
-![设置页保存配置后的状态](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/browser-ai-extension/images/image6-3.png)
+![设置页保存配置后的状态](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/browser-ai-extension/images/image6-3.png)
 
 ## 8. 检查权限
 
@@ -169,7 +169,7 @@ Chrome 官方目前要求由用户操作触发模型创建。首次下载需要�
 2. Service Worker：在扩展管理页点击“Service Worker”。
 3. Content Script：在当前网页的开发者工具里查看。
 
-![在 Chrome DevTools 中选择扩展执行上下文](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/browser-ai-extension/images/image9.png)
+![在 Chrome DevTools 中选择扩展执行上下文](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/browser-ai-extension/images/image9.png)
 
 报错时先确认错误来自哪一层，再交给 AI：
 
@@ -197,9 +197,9 @@ Chrome 官方目前要求由用户操作触发模型创建。首次下载需要�
 
 发布到 Chrome Web Store 前，准备图标、说明、隐私政策、权限用途和真实截图。商店规则会更新，提交时以 Chrome Web Store 后台的当前要求为准。
 
-![Chrome Web Store 后台填写扩展资料](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/browser-ai-extension/images/image10.png)
+![Chrome Web Store 后台填写扩展资料](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/browser-ai-extension/images/image10.png)
 
-![Chrome Web Store 后台上传截图和发布资料](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/browser-ai-extension/images/image10-1.png)
+![Chrome Web Store 后台上传截图和发布资料](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/browser-ai-extension/images/image10-1.png)
 
 发布前再做一次隐私检查：
 

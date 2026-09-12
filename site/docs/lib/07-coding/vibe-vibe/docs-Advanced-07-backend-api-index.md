@@ -14,7 +14,7 @@ zh: ""
 
 # 第七章：后端API开发
 
-![img](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/mll04abe-1f408b85793aaf81.jpg)
+![img](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/mll04abe-1f408b85793aaf81.jpg)
 
 ## 序言
 

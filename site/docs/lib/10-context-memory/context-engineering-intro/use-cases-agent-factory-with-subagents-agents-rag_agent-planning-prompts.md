@@ -9,7 +9,7 @@ tier: 1
 volume: "10-context-memory"
 sourceUrl: "https://github.com/coleam00/context-engineering-intro"
 entryUrl: "https://github.com/coleam00/context-engineering-intro/blob/a2d84b021cee1e2f4e77ba854bba0be8cb319035/README.md"
-zh: ""
+zh: "on"
 ---
 
 # System Prompts for Semantic Search Agent
@@ -87,6 +87,7 @@ async def get_search_context(ctx: RunContext[AgentDependencies]) -> str:
 ## Prompt Variations
 
 ### Minimal Mode (for token optimization)
+
 ```python
 MINIMAL_PROMPT = """
 You are a semantic search assistant. Analyze user queries, select the best search method (semantic, hybrid, or auto), retrieve relevant documents, and provide clear summaries with source citations.
@@ -103,6 +104,7 @@ Guidelines:
 ```
 
 ### Verbose Mode (for complex queries)
+
 ```python
 VERBOSE_PROMPT = """
 You are an expert knowledge retrieval and analysis assistant with advanced semantic search capabilities. Your role is to intelligently navigate large knowledge bases, extract relevant information, and provide comprehensive insights to user queries.
@@ -140,11 +142,17 @@ Quality Standards:
 ## Integration Instructions
 
 1. Import in agent.py:
+
+<div class="tb-zh"><p>清单第 1 步：在 agent.py 中导入：</p></div>
+
 ```python
 from .prompts.system_prompts import SYSTEM_PROMPT, get_search_context
 ```
 
 2. Apply to agent:
+
+<div class="tb-zh"><p>清单第 2 步：应用到 agent：</p></div>
+
 ```python
 agent = Agent(
     model,
@@ -164,6 +172,8 @@ agent.system_prompt(get_search_context)
 - Edge cases: empty results, low similarity scores, query ambiguity
 - Search strategy logic clearly defined for consistent behavior
 
+<div class="tb-zh"><p>要点：主提示词约占 280 个 token；关键行为触发点包括查询分析、工具选择和摘要；已测试的场景包括概念性查询、事实性查找和多部分问题；边界情况包括结果为空、相似度分数偏低和查询含义模糊；搜索策略逻辑已清晰定义，以保证行为一致。</p></div>
+
 ## Testing Checklist
 
 - [x] Role clearly defined as semantic search expert
@@ -176,3 +186,5 @@ agent.system_prompt(get_search_context)
 - [x] User interaction patterns defined
 - [x] Context management addressed
 - [x] Security considerations included (no data retention)
+
+<div class="tb-zh"><p>清单（均已完成）：角色已明确定义为语义搜索专家；能力覆盖全面（检索、分析、综合）；工具使用指引明确；搜索策略的决策方式清晰；已规定输出格式（摘要加引用）；已覆盖错误处理（结果为空、相似度偏低）；已包含质量约束（相似度阈值）；已定义用户交互模式；已处理上下文管理；已包含安全考量（不保留数据）。</p></div>

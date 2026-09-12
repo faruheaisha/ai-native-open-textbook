@@ -12,6 +12,8 @@ entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a0
 zh: ""
 ---
 
+# 鱼皮 AI 导航（ai-guide）
+
 ## DeepSeek-R1的训练流程强化学习（RL）阶段采用了GRPO算法
 
 DeepSeek-R1的训练流程确实包含多个阶段，其中强化学习（RL）阶段采用了GRPO（Group Relative Policy Optimization）算法。具体流程如下：

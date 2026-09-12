@@ -26,7 +26,7 @@ We use the following tools
 
 A demo of the project is available below:
 
-![demo](https://raw.githubusercontent.com/patchy631/ai-engineering-hub/2c9b106168d4540b88e727e4aa316c06c856c2b7/Colivara-deepseek-website-RAG/video-demo.mp4)
+![demo](https://gh-proxy.com/https://raw.githubusercontent.com/patchy631/ai-engineering-hub/2c9b106168d4540b88e727e4aa316c06c856c2b7/Colivara-deepseek-website-RAG/video-demo.mp4)
 
 ---
 ## Setup and installations

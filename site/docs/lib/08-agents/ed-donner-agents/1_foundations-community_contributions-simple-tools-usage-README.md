@@ -12,6 +12,8 @@ entryUrl: ""
 zh: ""
 ---
 
+# Ed Donner：AI Agents 实战课
+
 simple-tools-usage is a very basic example of using the OpenAI API with a tool.
 
 The "tool" is simply a Python function that:

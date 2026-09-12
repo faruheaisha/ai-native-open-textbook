@@ -24,7 +24,7 @@ As the Agent works, every file read, command result, and model response remains 
 
 This lesson adds a four-step compaction pipeline. It first reduces recoverable tool output and summarizes history only when those reductions are not enough.
 
-![Context Compact overview](https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s08_context_compact/images/compact-overview.en.svg)
+![Context Compact overview](https://gh-proxy.com/https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s08_context_compact/images/compact-overview.en.svg)
 
 ## Understanding Context
 
@@ -51,7 +51,7 @@ Tool results are better first targets:
 
 The pipeline therefore follows increasing information loss and cost: persist, trim, replace old results, and summarize last.
 
-![Four-step compaction pipeline](https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s08_context_compact/images/compaction-layers.en.svg)
+![Four-step compaction pipeline](https://gh-proxy.com/https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s08_context_compact/images/compaction-layers.en.svg)
 
 ## Step 1: tool_result_budget
 
@@ -65,7 +65,7 @@ Each result above `LARGE_RESULT_CHAR_LIMIT = 30000` is written in full to:
 
 The context keeps the file path and a 2,000-character preview:
 
-![Persisting large results](https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s08_context_compact/images/layer1-budget.en.svg)
+![Persisting large results](https://gh-proxy.com/https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s08_context_compact/images/layer1-budget.en.svg)
 
 The core loop persists results in descending size order:
 
@@ -125,7 +125,7 @@ This step controls the number of messages. Tool results inside the retained mess
 
 After the first two steps, `prepare` estimates the remaining context size and runs `micro_compact` only when it is above `CONTEXT_CHAR_LIMIT`. Among results the model has already consumed, `micro_compact` keeps the latest 3 and shortens older results longer than 120 characters until the context approaches 80% of the limit. Before replacing an old result, it writes the complete content to disk, so every replacement retains a recovery path:
 
-![Replacing old results with recovery paths](https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s08_context_compact/images/micro-compact.en.svg)
+![Replacing old results with recovery paths](https://gh-proxy.com/https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s08_context_compact/images/micro-compact.en.svg)
 
 ```python
 unseen = self.unseen_tool_result_positions(messages)
@@ -165,7 +165,7 @@ When the count still exceeds `CONTEXT_CHAR_LIMIT`, `compact_history` does four t
 3. Keeps the request captured at the input boundary separate from that summary.
 4. Replaces the active history with one `[Compacted]` message.
 
-![History summary](https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s08_context_compact/images/auto-compact.en.svg)
+![History summary](https://gh-proxy.com/https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s08_context_compact/images/auto-compact.en.svg)
 
 ```python
 def compact_history(messages, active_request):

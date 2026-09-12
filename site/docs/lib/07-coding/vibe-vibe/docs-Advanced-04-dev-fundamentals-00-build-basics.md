@@ -138,7 +138,7 @@ graph LR
 
 即使纯静态项目（Vite 打包），通常也不能直接双击打开。现代应用使用**绝对路径**引用资源，双击打开使用 **file:// 协议**会导致浏览器找不到资源。
 
-![image-20260226235036212](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260226235036212.png)
+![image-20260226235036212](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260226235036212.png)
 
 ::: tip 正确的访问方式
 
@@ -163,7 +163,7 @@ graph LR
 - 无痕模式打开
 - 开发者工具 Network 选项卡勾选 "Disable cache"
 
-![image-20260226235149160](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260226235149160.png)
+![image-20260226235149160](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260226235149160.png)
 
 ### 构建缓存
 

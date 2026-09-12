@@ -12,6 +12,8 @@ entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a0
 zh: ""
 ---
 
+# 鱼皮 AI 导航（ai-guide）
+
 ## 普通人如何通过炒股买基金赚到100万？
 
 最近，DeepSeek火了，有人用它算命有人用它写论文，那是不是也可以用它来规划我们的投资呢？

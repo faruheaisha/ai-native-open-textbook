@@ -14,7 +14,7 @@ zh: ""
 
 # Building Text Generation Applications
 
-[![Building Text Generation Applications](https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/06-text-generation-apps/images/06-lesson-banner.png)](https://youtu.be/0Y5Luf5sRQA?si=t_xVg0clnAI4oUFZ)
+[![Building Text Generation Applications](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/06-text-generation-apps/images/06-lesson-banner.png)](https://youtu.be/0Y5Luf5sRQA?si=t_xVg0clnAI4oUFZ)
 
 > _(Click the image above to view video of this lesson)_
 

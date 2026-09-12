@@ -20,7 +20,7 @@ zh: ""
 
 ---
 
-![工具分发](https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s02_tool_dispatch/images/tool-dispatch.svg)
+![工具分发](https://gh-proxy.com/https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s02_tool_dispatch/images/tool-dispatch.svg)
 
 ## 代码架构图
 

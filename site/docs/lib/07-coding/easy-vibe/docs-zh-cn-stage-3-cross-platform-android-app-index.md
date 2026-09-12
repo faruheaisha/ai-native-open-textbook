@@ -34,13 +34,13 @@ Android 原生应用不是浏览器里的页面，而是可以直接安装到手
 
 Compose 不是只给教学项目使用。Android Developers 的[团队采用页面](https://developer.android.com/develop/ui/compose/adopt)列出了 Airbnb、Lyft、Reddit、Dropbox、SoundCloud、Mercari 和 Play Store 等真实团队。
 
-![Android Developers 面向团队介绍 Compose，并展示 SoundCloud 案例](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/android-compose-official-cases.jpg)
+![Android Developers 面向团队介绍 Compose，并展示 SoundCloud 案例](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/android-compose-official-cases.jpg)
 
 图片来源：[在团队中使用 Compose](https://developer.android.com/develop/ui/compose/adopt)。页面里的案例重点不是“界面看起来像 Google”，而是团队怎样把 Compose 加进已有的大型 Android 产品。
 
 另一个很直观的例子是 Threads。Android Developers 的官方案例介绍，Meta 团队使用 Jetpack Compose，在五个月内完成了第一版 Android 应用；同一期案例还介绍了 Reddit 用 Compose 重做功能，并减少重复代码。
 
-![Android Developers 展示 Threads 的真实开发案例](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/android-threads-reddit-official.jpg)
+![Android Developers 展示 Threads 的真实开发案例](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/android-threads-reddit-official.jpg)
 
 图片与案例来源：[Android Developers 2023 年 11 月案例](https://developer.android.com/newsletter/android-dev/2023/content/november?hl=en)。同类案例还有 Dropbox 的首页、文件预览和搜索，以及 SoundCloud 面向更多屏幕尺寸的改造。
 
@@ -60,17 +60,17 @@ Compose 不是只给教学项目使用。Android Developers 的[团队采用页�
 
 从 [Android Studio 官网](https://developer.android.com/studio) 下载当前稳定版。第一次启动时，让安装向导配置 Android SDK、Platform Tools 和模拟器。
 
-![Android Studio 安装向导](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image1.png)
+![Android Studio 安装向导](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image1.png)
 
-![选择 Android SDK 组件](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image4.png)
+![选择 Android SDK 组件](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image4.png)
 
 安装完成后，在欢迎页选择 **New Project**，使用一个带 Jetpack Compose 的空白 Activity 模板。
 
-![在 Android Studio 创建新项目](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image8.png)
+![在 Android Studio 创建新项目](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image8.png)
 
 项目名填写 `ElectronicWoodenFish`，语言选择 Kotlin，最低系统版本保持模板推荐值即可。
 
-![填写 Android 项目名称和 Kotlin 配置](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image10.png)
+![填写 Android 项目名称和 Kotlin 配置](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image10.png)
 
 等待 Gradle 同步完成。右下角不再显示下载任务，Build 窗口没有红色错误，才继续下一步。
 
@@ -82,15 +82,15 @@ Compose 不是只给教学项目使用。Android Developers 的[团队采用页�
 
 在右侧打开 Device Manager，创建一台普通 Phone 模拟器。系统镜像不必追求最新，选择已经下载且与项目兼容的版本。
 
-![在 Device Manager 创建模拟器](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image16.png)
+![在 Device Manager 创建模拟器](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image16.png)
 
-![选择一台 Android 虚拟设备](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image18.png)
+![选择一台 Android 虚拟设备](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image18.png)
 
 启动模拟器，再点击工具栏运行按钮。
 
-![Android 模拟器启动完成](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image21.png)
+![Android 模拟器启动完成](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image21.png)
 
-![空白 Android 应用运行成功](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image22.png)
+![空白 Android 应用运行成功](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image22.png)
 
 看到空白应用，说明 SDK、Gradle、模拟器和项目已经连通。不要在空白项目都无法运行时让 AI 同时增加业务功能。
 
@@ -100,11 +100,11 @@ Compose 不是只给教学项目使用。Android Developers 的[团队采用页�
 
 > 请把 Compose 首页改成电子木鱼。点击中间的木鱼后，次数加一，并播放轻微的缩放动画。
 
-![AI 修改 Android 项目文件](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image15.png)
+![AI 修改 Android 项目文件](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image15.png)
 
 回到 Android Studio，等待 Gradle 同步，再重新运行。
 
-![电子木鱼第一版在模拟器中运行](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image23.png)
+![电子木鱼第一版在模拟器中运行](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image23.png)
 
 这一轮只验证：按钮能点、数字每次加一、快速点击不会漏掉大量操作、旋转屏幕后应用不崩溃。
 
@@ -116,23 +116,23 @@ Compose 不是只给教学项目使用。Android Developers 的[团队采用页�
 
 把确认有使用权的木鱼图片放到 `res/drawable`，音效放到 `res/raw`。资源文件名只用小写字母、数字和下划线。
 
-![把图片素材放入 Android 资源目录](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image24.png)
+![把图片素材放入 Android 资源目录](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image24.png)
 
-![准备短音效文件](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image25.png)
+![准备短音效文件](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image25.png)
 
 > 请使用 drawable 里的木鱼图片和 raw 里的敲击音效。点击时播放一次，页面离开后释放音频资源。
 
-![AI 接入图片和音频资源](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image26.png)
+![AI 接入图片和音频资源](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image26.png)
 
 重新运行，连续点击十几次。声音不能明显延迟，也不能在切到后台后继续播放。
 
-![带图片和音效的电子木鱼](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image28.png)
+![带图片和音效的电子木鱼](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image28.png)
 
 ## 5. 增加点击动画
 
 > 请给每次点击增加独立的“+1”上浮动画。快速点击时允许多个动画同时存在，结束后自动清理。
 
-![快速点击时出现多个独立动画](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image30.png)
+![快速点击时出现多个独立动画](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image30.png)
 
 不要在提示词里指定复杂状态容器。先描述结果，让 AI 根据当前代码选择实现；只有出现性能或状态问题时，再讨论具体技术。
 
@@ -162,15 +162,15 @@ Compose 不是只给教学项目使用。Android Developers 的[团队采用页�
 
 在手机“开发者选项”中打开 USB 调试，用数据线连接电脑；首次连接时，在手机上确认这台电脑的调试授权。
 
-![在 Android 手机开启开发者选项](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image39.png)
+![在 Android 手机开启开发者选项](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image39.png)
 
-![允许电脑进行 USB 调试](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image46.png)
+![允许电脑进行 USB 调试](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image46.png)
 
 Android Studio 顶部设备列表出现手机后，选择它并运行。
 
-![Android Studio 识别到真机](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image47.png)
+![Android Studio 识别到真机](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image47.png)
 
-![应用成功安装到 Android 手机](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image49-sidebar-cropped.png)
+![应用成功安装到 Android 手机](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image49-sidebar-cropped.png)
 
 真机至少测试：
 
@@ -187,9 +187,9 @@ Android Studio 顶部设备列表出现手机后，选择它并运行。
 
 在 Android Studio 中选择 **Build APK**，完成后通过通知中的链接打开输出目录。
 
-![Android Studio 生成测试 APK](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image50.png)
+![Android Studio 生成测试 APK](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image50.png)
 
-![找到 APK 输出文件](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image51.png)
+![找到 APK 输出文件](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image51.png)
 
 把 APK 安装到另一台没有开发环境的手机，重新完成点击、音效、保存和重置测试。
 
@@ -197,13 +197,13 @@ Android Studio 顶部设备列表出现手机后，选择它并运行。
 
 正式分发需要签名。选择 **Generate Signed Bundle / APK**，优先为应用商店生成 Android App Bundle；直接分发时再根据需要生成 APK。
 
-![选择生成签名 Bundle 或 APK](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image52.png)
+![选择生成签名 Bundle 或 APK](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image52.png)
 
-![创建或选择签名密钥](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image53.png)
+![创建或选择签名密钥](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image53.png)
 
 签名文件和密码不能提交到公开仓库，也不要发给 AI。丢失正式签名材料可能影响后续版本更新，应放进团队的受控密钥管理流程并做好备份。
 
-![生成 Release 构建](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image54.png)
+![生成 Release 构建](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image54.png)
 
 ## 11. 发布前检查
 
@@ -218,9 +218,9 @@ Android Studio 顶部设备列表出现手机后，选择它并运行。
 - 不同系统版本和真机测试结果；
 - 图片、字体和音效的商业授权。
 
-![准备应用商店图标和截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image59.png)
+![准备应用商店图标和截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image59.png)
 
-![在发布后台填写应用资料](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image62.png)
+![在发布后台填写应用资料](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/android-app/images/image62.png)
 
 ## 12. 把电子木鱼装到另一台手机
 

@@ -10,7 +10,7 @@ lang: "英文"
 volume: "09-harness"
 sourceUrl: "https://github.com/shanraisshan/codex-cli-best-practice"
 entryUrl: "https://github.com/shanraisshan/codex-cli-best-practice/blob/b79f473a188632867354fc793894dfd368a18e48/README.md"
-zh: ""
+zh: "on"
 ---
 
 # Codex CLI Best Practice

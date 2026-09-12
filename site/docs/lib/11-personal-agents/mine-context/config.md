@@ -12,6 +12,8 @@ entryUrl: "https://github.com/volcengine/MineContext/blob/171c7a9ea8091e326ddcf0
 zh: ""
 ---
 
+# MineContext（火山引擎个人上下文助手）
+
 Welcome to MineContext!
 
 MineContext is your Context-Aware AI Partner

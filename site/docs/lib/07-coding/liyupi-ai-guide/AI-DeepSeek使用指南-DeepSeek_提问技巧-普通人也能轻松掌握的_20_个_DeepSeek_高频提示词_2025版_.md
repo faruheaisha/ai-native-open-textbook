@@ -12,6 +12,8 @@ entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a0
 zh: ""
 ---
 
+# 鱼皮 AI 导航（ai-guide）
+
 ## 普通人也能轻松掌握的 20 个 DeepSeek 高频提示词（2025版）
 
 ## 一、基础原则

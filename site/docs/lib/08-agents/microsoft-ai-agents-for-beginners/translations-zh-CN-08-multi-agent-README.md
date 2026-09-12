@@ -98,7 +98,7 @@ zh: ""
 
 该模式可以通过集中式架构实现，所有消息通过中央服务器转发，也可通过分散式架构直接交换消息。
 
-![Group chat](https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/multi-agent-group-chat.ec10f4cde556babd.webp)
+![Group chat](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/multi-agent-group-chat.ec10f4cde556babd.webp)
 
 ### 工作交接
 
@@ -108,7 +108,7 @@ zh: ""
 
 在该模式中，每个智能体代表一个任务或工作流程中的某个步骤，智能体可根据预定规则将任务交接给其他智能体。
 
-![Hand off](https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/multi-agent-hand-off.4c5fb00ba6f8750a.webp)
+![Hand off](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/multi-agent-hand-off.4c5fb00ba6f8750a.webp)
 
 ### 协同过滤
 
@@ -122,7 +122,7 @@ zh: ""
 - <strong>技术分析</strong>：另一个智能体擅长技术分析。
 - <strong>基本面分析</strong>：还有一个智能体擅长基本面分析。通过协作，这些智能体可为用户提供更全面的建议。
 
-![Recommendation](https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/multi-agent-filtering.d959cb129dc9f608.webp)
+![Recommendation](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/multi-agent-filtering.d959cb129dc9f608.webp)
 
 ## 场景：退款流程
 

@@ -1,0 +1,939 @@
+/* ============================================================
+   移动端与窄屏阅读体验
+   只在窄屏生效的规则集中放这里，避免和 style.css 里的桌面规则互相干扰。
+   断点口径：< 640 手机 · 640–959 大屏手机与竖屏平板 · >= 960 桌面。
+
+   优先级说明：VitePress 默认主题的组件样式带 scoped 属性（等于多一个类选择器），
+   所以必要处用 html 前缀或类名重复来压过它，而不改动桌面端任何规则。
+   ============================================================ */
+
+/* ============================================================
+   一、全站基础：中文换行、标点、图片
+   ============================================================ */
+
+@media (max-width: 959.9px) {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  /* line-break: strict 让中文标点遵守避头尾，不落在行首；
+     overflow-wrap 兜住上游文档里的长 URL、长英文词、长文件名——这是窄屏最常见的横向溢出源。 */
+  .vp-doc p,
+  .vp-doc li,
+  .vp-doc dd,
+  .vp-doc dt,
+  .vp-doc blockquote,
+  .vp-doc summary,
+  .vp-doc td,
+  .vp-doc th,
+  .vp-doc figcaption,
+  .tb-zh p,
+  .tb-crumb,
+  .tb-sourcebar,
+  .tb-lib__meta,
+  .tb-lib__title {
+    line-break: strict;
+    overflow-wrap: break-word;
+    word-break: normal;
+  }
+
+  /* VitePress 会把图片原始宽高写进属性，窄屏等比缩放时必须放开高度 */
+  .vp-doc img,
+  .vp-doc video,
+  .vp-doc iframe,
+  .vp-doc svg {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .vp-doc img {
+    border-radius: 8px;
+  }
+}
+
+/* 触摸设备没有 hover，而标题锚点是「0 透明度但仍可点」的 15x34 区域，
+   正好压在正文左边缘上，容易误触；鼠标驱动的窄窗口保留它。
+   屏幕阅读器仍然可以激活锚点，不受影响。 */
+@media (max-width: 959.9px) and (hover: none) {
+  .vp-doc .header-anchor {
+    pointer-events: none;
+  }
+
+  /* 触摸端没有 hover，把悬停反馈换成按压反馈 */
+  .tb-path:active,
+  .tb-entry__card:active {
+    border-color: var(--tb-accent);
+  }
+}
+
+/* ============================================================
+   二、站内正文页：面包屑、来源信息条、中文释义、标题、代码、表格
+   ============================================================ */
+
+@media (max-width: 959.9px) {
+  /* ---------- 面包屑：收字号，尽量一行放得下 ---------- */
+  .tb-crumb {
+    gap: 5px;
+    margin: 0 0 10px;
+    font-size: 12px;
+  }
+
+  .tb-crumb__sep {
+    font-size: 11px;
+  }
+
+  /* ---------- 来源信息条：名称与元信息一段，操作按钮另起一段 ---------- */
+  .tb-sourcebar {
+    gap: 6px 8px;
+    margin: 0 0 20px;
+    padding: 10px 12px;
+    border-radius: 8px;
+  }
+
+  .tb-sourcebar__name {
+    font-size: 13px;
+  }
+
+  .tb-sourcebar__meta {
+    font-size: 12px;
+  }
+
+  /* 「占满整行但不占高度」的 flex 项，把后面的按钮挤到下一行 */
+  .tb-sourcebar__spacer {
+    flex: 1 1 100%;
+    height: 0;
+    min-height: 0;
+  }
+
+  /* 原文 / 仓库 / 中文释义开关：从小文字变成 34px 的胶囊按钮 */
+  .tb-sourcebar__link,
+  .tb-zh-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40px;
+    padding: 0 13px;
+    border: 1px solid var(--tb-line);
+    border-radius: 999px;
+    background: var(--tb-surface);
+    font-size: 12px;
+    line-height: 1;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .tb-zh-btn {
+    border-color: var(--tb-accent-soft);
+    background: var(--tb-accent-soft);
+  }
+
+  .tb-sourcebar__link:active,
+  .tb-zh-btn:active {
+    filter: brightness(0.95);
+  }
+
+  /* ---------- 逐段中文释义 ---------- */
+  .tb-zh {
+    -webkit-tap-highlight-color: transparent;
+    border-radius: 0 8px 8px 0;
+  }
+
+  html .tb-zh p {
+    font-size: 15px;
+    line-height: 1.85;
+  }
+
+  .tb-zh:active {
+    filter: brightness(0.97);
+  }
+
+  /* ---------- 标题：窄屏收一档，并且和正文拉开距离 ---------- */
+  .vp-doc h1 {
+    font-size: 25px;
+    line-height: 1.32;
+    margin: 0 0 0.75rem;
+  }
+
+  .vp-doc h2 {
+    font-size: 19.5px;
+    margin: 2.1rem 0 0.7rem;
+    padding-top: 0.9rem;
+  }
+
+  .vp-doc h3 {
+    font-size: 16.5px;
+    margin: 1.5rem 0 0.55rem;
+  }
+
+  .vp-doc h4,
+  .vp-doc h5,
+  .vp-doc h6 {
+    font-size: 15.5px;
+    margin: 1.2rem 0 0.45rem;
+  }
+
+  .vp-doc p,
+  .vp-doc li {
+    line-height: 1.8;
+  }
+
+  .vp-doc p {
+    margin: 0.85rem 0;
+  }
+
+  /* 列表左缩进收窄，把宽度还给正文 */
+  .vp-doc ul,
+  .vp-doc ol {
+    padding-left: 1.25rem;
+  }
+
+  .vp-doc li + li {
+    margin-top: 0.35rem;
+  }
+
+  /* ---------- 代码块 ----------
+     VitePress 在 <640px 已经让代码块满宽出血（margin: 0 -24px），
+     这里只收内边距与字号：等于每行多显示 4 个字符左右。 */
+  html .vp-doc div[class*="language-"] pre {
+    padding: 14px 0;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  html .vp-doc div[class*="language-"] code {
+    padding: 0 16px;
+    font-size: 12.5px;
+    line-height: 1.65;
+  }
+
+  /* 高亮行与 diff 行是「负边距铺满」的，内边距变了要跟着变，否则会错位 */
+  html .vp-doc div[class*="language-"] code .highlighted,
+  html .vp-doc div[class*="language-"] code .diff {
+    margin: 0 -16px;
+    padding: 0 16px;
+    width: calc(100% + 32px);
+  }
+
+  html .vp-doc .vp-block {
+    padding: 14px 16px;
+  }
+
+  /* ---------- 表格：窄屏横滑，字号与内边距同步收窄 ---------- */
+  html .vp-doc table {
+    font-size: 12.5px;
+    line-height: 1.55;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  html .vp-doc th,
+  html .vp-doc td {
+    padding: 6px 9px;
+  }
+
+  html .vp-doc th {
+    font-size: 12px;
+  }
+
+  /* ---------- 引用块与提示块 ---------- */
+  .vp-doc blockquote {
+    padding: 0.35rem 0.85rem;
+    margin: 0.9rem 0;
+  }
+
+  .vp-doc blockquote > p {
+    font-size: 14.5px;
+    line-height: 1.8;
+  }
+
+  html .vp-doc .custom-block {
+    padding: 13px 14px 6px;
+  }
+
+  html .vp-doc .custom-block.details summary {
+    display: flex;
+    align-items: center;
+    min-height: 40px;
+    margin: 0 0 6px;
+  }
+}
+
+/* ============================================================
+   二之二、表格：窄屏给列一个最小宽度
+   style.css 让表格 width: 100% 并允许横滑；手机上 100% 会把 6 列压到每条
+   60-70px，中文一列拆成三四行，一张表要划好几屏。给单元格设最小宽度后，
+   表格会按「可读列宽」横向滚动，行高从三四行降到一两行。
+
+   注意：这里不能用 width: max-content——那会让表格自身撑出容器，而它同时又是
+   滚动容器，结果是右侧内容既滚不到也看不见。必须保持外层 width: 100%。
+   ============================================================ */
+
+@media (max-width: 639.9px) {
+  html .vp-doc table {
+    width: 100%;
+    min-width: 100%;
+  }
+
+  /* 列宽下限：低于这个宽度中文会拆得太碎；上限交给浏览器按内容决定 */
+  html .vp-doc th,
+  html .vp-doc td {
+    min-width: 9.5em;
+  }
+
+  /* 第一列通常是编号或短名，不折行 */
+  html .vp-doc td:first-child {
+    white-space: nowrap;
+  }
+}
+
+/* ============================================================
+   三、顶部导航、本页导航、抽屉侧栏
+   ============================================================ */
+
+@media (max-width: 959.9px) {
+  /* ---------- 顶部导航：样式本来就是 36px，这里抬到 44px ---------- */
+  html .VPNavBar .DocSearch-Button {
+    height: 44px;
+    min-width: 44px;
+    justify-content: center;
+    margin: 0 2px 0 0;
+    padding: 0 10px;
+  }
+
+  /* 站内搜索按钮（SiteSearch）：≤720px 只剩一个图标，量出来 37x40，
+     补到 44px 宽并让图标居中，拇指按下去更稳。 */
+  html .VPNavBar .tb-srch__btn {
+    min-width: 44px;
+    justify-content: center;
+  }
+
+  html .VPNavBar .VPNavBarTitle .title {
+    font-size: 15px;
+  }
+
+  /* ---------- 本页导航：把 24px 的「目录 / 本页目录」按钮抬到 44px ---------- */
+  html .VPLocalNav .container {
+    padding: 0 8px;
+  }
+
+  html .VPLocalNav .menu {
+    min-height: 44px;
+    padding: 10px 14px;
+    font-size: 13px;
+  }
+
+  /* 容器样式带 scoped 属性，需要重复类名才压得住 */
+  html .VPLocalNavOutlineDropdown.VPLocalNavOutlineDropdown {
+    padding: 2px 10px 1px;
+  }
+
+  html .VPLocalNavOutlineDropdown.VPLocalNavOutlineDropdown > button {
+    min-height: 44px;
+    padding: 10px 4px;
+    font-size: 13px;
+  }
+
+  /* 目录面板贴着本页导航的下沿，滚动范围按可视线高留出余量 */
+  html .VPLocalNavOutlineDropdown .items {
+    top: 47px;
+    right: 10px;
+    left: 10px;
+    max-height: calc(var(--vp-vh, 100vh) - 106px);
+    /* 面板滚到底不要把背后的正文一起带着滚（iOS 橡皮筋） */
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  html .VPLocalNavOutlineDropdown .top-link {
+    line-height: 52px;
+  }
+
+  /* 目录项：32px 行高抬到 44px，方便点按 */
+  html .VPLocalNavOutlineDropdown .outline-link {
+    line-height: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  /* ---------- 抽屉侧栏 ---------- */
+  /* 抽屉在 <960px 的层级是 60，高过导航（30），会整块盖住导航；
+     顶部留 20px 起步间距，底部留出安全区，滚动不穿透到页面。 */
+  html .VPSidebar.VPSidebar {
+    padding: 20px 20px 56px;
+    width: min(320px, calc(100% - 56px));
+    max-width: none;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* 侧栏条目：32px 行高抬到 44px */
+  html .VPSidebar.VPSidebar .VPSidebarItem .text {
+    padding: 8px 0;
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+  html .VPSidebar.VPSidebar .VPSidebarItem .caret {
+    width: 44px;
+    height: 44px;
+    margin-right: -10px;
+  }
+
+  html .VPSidebar.VPSidebar .VPSidebarItem.level-0 {
+    padding-bottom: 16px;
+  }
+
+  html .VPSidebar.VPSidebar .VPSidebarItem.level-1 .items,
+  html .VPSidebar.VPSidebar .VPSidebarItem.level-2 .items,
+  html .VPSidebar.VPSidebar .VPSidebarItem.level-3 .items,
+  html .VPSidebar.VPSidebar .VPSidebarItem.level-4 .items,
+  html .VPSidebar.VPSidebar .VPSidebarItem.level-5 .items {
+    padding-left: 12px;
+  }
+
+  /* ---------- 汉堡菜单展开的全屏导航 ---------- */
+  html .VPNavScreen .container {
+    max-width: none;
+    padding: 16px 0 72px;
+  }
+
+  html .VPNavScreen {
+    padding: 0 20px;
+  }
+
+  /* 返回顶部 / 跳过导航 */
+  html .VPSkipLink:focus {
+    top: 8px;
+    left: 8px;
+  }
+}
+
+/* ============================================================
+   四、课程库：筛选控件与课程列表
+   ============================================================ */
+
+@media (max-width: 959.9px) {
+  /* 搜索框与重置按钮排成一行，都抬到 44px */
+  .tb-lib__bar {
+    gap: 8px;
+    margin-bottom: 14px;
+  }
+
+  .tb-lib__search {
+    min-height: 44px;
+    font-size: 15px;
+    padding: 10px 13px;
+    border-radius: 10px;
+  }
+
+  .tb-lib__reset {
+    min-height: 44px;
+    padding: 0 15px;
+    font-size: 14px;
+    border-radius: 10px;
+  }
+
+  /* 筛选项：30px 的小药丸抬到 40px，并允许随手指点按 */
+  .tb-lib__group {
+    gap: 8px 6px;
+    margin-bottom: 12px;
+  }
+
+  .tb-lib__label {
+    min-width: 34px;
+    font-size: 12px;
+  }
+
+  .tb-lib__chip {
+    min-height: 40px;
+    padding: 0 13px;
+    font-size: 13px;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .tb-lib__select {
+    min-height: 40px;
+    padding: 0 10px;
+    font-size: 13px;
+    border-radius: 8px;
+  }
+
+  .tb-lib__count {
+    margin: 16px 0 8px !important;
+    font-size: 13px !important;
+  }
+
+  /* 列表项：标题独占一行、元信息换行、操作做成按钮。
+     style.css 在桌面端给每行留了 -12px 的「悬停出血」，让高亮比正文栏更宽；
+     窄屏没有悬停，这 12px 只会把标题顶到 x=14，比上方搜索框（x=24）更靠外，
+     分隔线也会比搜索框、筛选项更宽。这里把出血收回，整行与它们对齐同一条竖线。 */
+  .tb-lib__item {
+    grid-template-columns: 1fr;
+    grid-template-areas: "title" "meta" "links";
+    gap: 7px;
+    margin: 0 !important;
+    padding: 14px 0;
+  }
+
+  /* 标题里若出现超长不可断的串（URL、英文长词），也不让整行被撑宽 */
+  .tb-lib__title,
+  .tb-lib__meta {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .tb-lib__title {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .tb-lib__meta {
+    gap: 5px;
+    font-size: 12px;
+    line-height: 1.6;
+  }
+
+  .tb-lib__links {
+    gap: 8px;
+    font-size: 13px;
+  }
+
+  .tb-lib__links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 38px;
+    padding: 0 15px;
+    border: 1px solid var(--tb-line-2);
+    border-radius: 999px;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* 药丸按钮上的文字已经写了「原文 ↗」，VitePress 还会给外链补一个图标，
+     窄屏上就成了两个箭头并排。药丸里去掉图标，正文里的外链图标保留。 */
+  .tb-lib__links a[target='_blank']::after {
+    display: none !important;
+  }
+
+  .tb-lib__links a:active {
+    border-color: var(--tb-accent);
+    color: var(--tb-accent-ink) !important;
+  }
+
+  .tb-lib__outside summary {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 4px 0;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .tb-lib__empty {
+    font-size: 14px !important;
+    line-height: 1.7;
+  }
+}
+
+/* ============================================================
+   五、首页：主视觉、继续阅读、学习路径、收录构成、检索入口、开源
+   ============================================================ */
+
+@media (max-width: 959.9px) {
+  .VPHero.VPHomeHero .tagline {
+    margin-top: 12px;
+    font-size: 14.5px;
+    line-height: 1.8;
+  }
+
+  .VPHero.VPHomeHero .actions {
+    padding-top: 22px;
+    gap: 10px;
+  }
+
+  html .VPHero.VPHomeHero .actions .VPButton {
+    min-height: 46px;
+    padding: 0 20px;
+    font-size: 14.5px;
+  }
+
+  /* ---------- 继续阅读 ---------- */
+  .VPHome .vp-doc .tb-resume__last,
+  .VPHome .vp-doc .tb-resume__start {
+    gap: 7px;
+    padding: 12px 14px;
+  }
+
+  .VPHome .vp-doc .tb-resume__pill {
+    display: inline-flex;
+    align-items: center;
+    min-height: 38px;
+    padding: 0 13px;
+    font-size: 12.5px;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* ---------- 学习路径卡片 ---------- */
+  .VPHome .vp-doc .tb-path {
+    padding: 15px 16px;
+    gap: 8px;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .VPHome .vp-doc .tb-path__pill {
+    display: inline-flex;
+    align-items: center;
+    min-height: 30px;
+    padding: 0 9px;
+    font-size: 12px;
+  }
+
+  /* ---------- 收录构成 ---------- */
+  .VPHome .vp-doc .tb-comp__panel {
+    padding: 15px 16px;
+  }
+
+  .VPHome .vp-doc .tb-bar__name {
+    font-size: 12.5px;
+  }
+
+  /* ---------- 检索入口 ---------- */
+  .VPHome .vp-doc .tb-entry__card {
+    padding: 15px 16px;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* ---------- 开源与协作 ---------- */
+  .VPHome .vp-doc .tb-gh {
+    gap: 14px;
+    padding: 20px 17px;
+  }
+
+  .VPHome .vp-doc .tb-gh__repo {
+    display: inline-flex;
+    align-items: center;
+    min-height: 38px;
+    overflow-wrap: anywhere;
+  }
+
+  .VPHome .vp-doc .tb-gh__btn {
+    flex: 1 1 auto;
+    min-height: 44px;
+    justify-content: center;
+    padding: 0 16px;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* 首页区块标题在窄屏不需要那么大的上间距 */
+  .VPHome .vp-doc h2 {
+    margin: 2.1rem 0 0.3rem;
+  }
+
+  /* 首页正文容器在 <768px 时给页脚留 96px，偏大，收一半 */
+  html .VPHome.VPHome {
+    margin-bottom: 48px;
+  }
+}
+
+/* 420px 以下：学习路径与检索入口固定单列，
+   避免 style.css 里 minmax(300px, 1fr) 在极窄屏撑出横向滚动。 */
+@media (max-width: 719.9px) {
+  .VPHome .vp-doc .tb-paths,
+  .VPHome .vp-doc .tb-entry {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ============================================================
+   六、全站页脚：窄屏改成竖排的两行链接，每个链接 40px 高
+   ============================================================ */
+
+@media (max-width: 959.9px) {
+  .tb-foot__inner {
+    gap: 0 16px;
+  }
+
+  .tb-foot__brand {
+    flex: 1 1 100%;
+    margin-bottom: 2px;
+    font-weight: 600;
+    color: var(--tb-ink-2);
+  }
+
+  /* 分隔点和弹簧占位在竖排里没有意义 */
+  .tb-foot__sep,
+  .tb-foot__spacer {
+    display: none;
+  }
+
+  .tb-foot a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 40px;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .tb-foot__mute {
+    flex: 1 1 100%;
+    margin-top: 4px;
+    line-height: 1.7;
+  }
+}
+
+/* ============================================================
+   七、代码块：语言栏与复制按钮（配合 style.css 的「窄栏 + 常显按钮」）
+   ============================================================ */
+
+@media (max-width: 959.9px) {
+  /* 语言栏加高 4px，让复制按钮有 46x30 的触控面积，同时不挤压代码 */
+  html .vp-doc div[class*="language-"] {
+    padding-top: 34px;
+  }
+
+  /* 语言名左对齐；右侧预留给复制按钮（46px + 4px 间隙）。
+     将来出现超长语言名时用省略号收尾，而不是钻到按钮底下或被裁断。
+     这里用 block + line-height 而不是 flex，否则 text-overflow 不生效。 */
+  html .vp-doc div[class*="language-"] > span.lang {
+    display: block;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 54px 0 12px;
+    font-size: 11px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  /* 复制按钮顶到语言栏右端，手指点得中；语言名左对齐，两者不会重叠 */
+  html .vp-doc div[class*="language-"] > button.copy {
+    top: 2px;
+    right: 2px;
+    width: 46px;
+    height: 30px;
+    border-radius: 6px;
+    background-size: 16px;
+    opacity: 0.72;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  html .vp-doc div[class*="language-"] > button.copy:active {
+    opacity: 1;
+    background-color: var(--tb-line);
+  }
+
+  /* 按钮本体 46x30，触控高度偏低；用 ::after 把命中范围补满整条语言栏
+     （46x34），视觉完全不变。主题只用了 ::before 放「已复制」气泡，::after 是空的。 */
+  html .vp-doc div[class*="language-"] > button.copy::after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+  }
+
+  /* 「已复制」气泡跟着按钮一起缩小，否则会溢出语言栏被裁掉 */
+  html .vp-doc div[class*="language-"] > button.copy.copied::before,
+  html .vp-doc div[class*="language-"] > button.copy:hover.copied::before {
+    top: 1px;
+    height: 26px;
+    min-width: 52px;
+    padding: 0 8px;
+    font-size: 11.5px;
+    line-height: 24px;
+  }
+}
+
+/* ============================================================
+   八、正文插图放大遮罩（.tb-lb）
+
+   正文插图的原始宽度中位数在 1400px 左右，而手机只有 390px：按「缩到可视区」
+   显示等于没放大（实测 366px，只有原图的 26%）。窄屏改成「按原始像素显示 +
+   可拖动」，等于放大到三倍多，图里的字才真的看得清。
+   遮罩自己充当滚动容器，两个方向都能拖；图装得下时仍然居中。
+   ============================================================ */
+
+@media (max-width: 959.9px) {
+  html .tb-lb {
+    display: flex;
+    padding: 0;
+    overflow: auto;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+    /* 去掉毛玻璃：一是全屏 blur 在手机上很费电，二是滤镜会成为 fixed 的包含块，
+       关闭按钮会跟着图片一起被拖走。底色相应加深，补回背景与前景的对比。 */
+    background: rgba(22, 20, 18, 0.94);
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+
+  /* 用 margin: auto 而不是 justify-content: center——前者在「装不下」时退化成
+     贴左上角，溢出部分仍然拖得到；后者会把溢出的一侧裁掉、永远拖不过去。 */
+  html .tb-lb img {
+    margin: auto;
+    max-width: none;
+    max-height: none;
+    border-radius: 0;
+  }
+
+  /* 遮罩变成滚动容器后，按钮必须脱离滚动内容，改用 fixed 钉在视口上 */
+  html .tb-lb__x {
+    position: fixed;
+    top: max(12px, env(safe-area-inset-top, 0px));
+    right: max(12px, env(safe-area-inset-right, 0px));
+    width: 44px;
+    height: 44px;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  html .tb-lb__x:active {
+    background: rgba(255, 255, 255, 0.22);
+  }
+
+  html .tb-lb__hint {
+    position: fixed;
+    bottom: max(14px, env(safe-area-inset-bottom, 0px));
+    padding: 0 20px;
+    line-height: 1.6;
+    /* 触屏没有 Esc 键，换成「可拖动」：图片现在按原像素显示，不说一句
+       读者会以为右边被裁掉了。原文字号归零、由 ::before 提供新文案。 */
+    font-size: 0;
+  }
+
+  html .tb-lb__hint::before {
+    content: '点击任意处关闭 · 图片可拖动查看';
+    font-size: 12.5px;
+  }
+}
+
+/* ============================================================
+   九、更窄的手机（<= 430px）：字号再收一档
+   ============================================================ */
+
+@media (max-width: 639.9px) {
+  .tb-foot__inner {
+    padding: 10px 18px 14px;
+  }
+}
+
+@media (max-width: 429.9px) {
+  .VPHero.VPHomeHero .name {
+    font-size: 34px;
+  }
+
+  .VPHero.VPHomeHero .text {
+    font-size: 18px;
+  }
+
+  .vp-doc h1 {
+    font-size: 23px;
+  }
+
+  .vp-doc h2 {
+    font-size: 18.5px;
+  }
+
+  .tb-sourcebar {
+    padding: 9px 11px;
+  }
+
+  html .vp-doc div[class*="language-"] code {
+    padding: 0 14px;
+  }
+
+  html .vp-doc div[class*="language-"] code .highlighted,
+  html .vp-doc div[class*="language-"] code .diff {
+    margin: 0 -14px;
+    padding: 0 14px;
+    width: calc(100% + 28px);
+  }
+}
+
+/* ============================================================
+   十、正文细读：代码块横滑提示、行内代码、图片说明、面包屑、返回顶部
+   ============================================================ */
+
+@media (max-width: 959.9px) {
+  /* ---------- 代码块：横向溢出时两端的渐隐提示 ----------
+     代码在手机上普遍比屏幕宽 1.5~2 倍，可横向滑动，但滚动条只在滑动时出现，
+     读者常常不知道右边还有。这里用两层背景做出渐隐：随内容滚动的那层负责「盖住」，
+     钉在边缘的那层负责「显示」，于是贴到最右端时右端渐隐自动消失、贴到最左端时
+     左端渐隐自动消失、代码装得下时两端都不显示——不需要任何脚本。 */
+  html .vp-doc div[class*="language-"] > pre {
+    background-image:
+      linear-gradient(to right, var(--vp-code-block-bg) 70%, transparent),
+      linear-gradient(to left, var(--vp-code-block-bg) 70%, transparent),
+      linear-gradient(to right, var(--tb-codefade), transparent),
+      linear-gradient(to left, var(--tb-codefade), transparent);
+    background-position: left center, right center, left center, right center;
+    background-repeat: no-repeat;
+    background-size: 20px 100%, 20px 100%, 14px 100%, 14px 100%;
+    background-attachment: local, local, scroll, scroll;
+    /* 在代码里左右划时不要触发浏览器的「后退」手势 */
+    overscroll-behavior-x: contain;
+  }
+
+  /* ---------- 行内代码跨行：每一段都保留自己的圆角与内边距 ----------
+     正文里的长 URL、长文件名很常见，默认 slice 会让折行处出现一个缺口。 */
+  .vp-doc code {
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+
+  /* ---------- 图片说明 / 独立成段的斜体 ----------
+     上游文档惯用「*斜体* 单独成段」写图注或副标题，默认与正文同号同色，
+     层级看不出来。 */
+  .vp-doc figcaption,
+  .vp-doc p > em:only-child {
+    display: block;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--tb-ink-3);
+  }
+
+  .vp-doc figcaption {
+    margin: 4px 0 0;
+  }
+
+  /* ---------- 返回顶部：正文动辄上千屏，手机上也得有个落点 ---------- */
+  html .tb-totop {
+    display: flex;
+    right: 14px;
+    bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+    width: 44px;
+    height: 44px;
+    /* 按钮是用 opacity 隐藏的，没出现时不能留下命中区，否则会「点空」跳回顶部 */
+    pointer-events: none;
+  }
+
+  html .tb-totop.is-on {
+    pointer-events: auto;
+  }
+
+  /* 顶部进度条 2px 在手机上太细 */
+  html .tb-progress {
+    height: 3px;
+  }
+}
+
+/* 窄屏的渐隐颜色：浅色主题用灰，深色主题要比底色更暗才看得出来 */
+@media (max-width: 959.9px) {
+  :root {
+    --tb-codefade: rgba(23, 24, 26, 0.22);
+  }
+
+  html.dark {
+    --tb-codefade: rgba(0, 0, 0, 0.42);
+  }
+}
+
+/* ---------- 面包屑：窄屏省掉与来源条重复的当前项 ----------
+   这一项的正下方就是来源条，同一串名字连排两行；顺带去掉折行后悬在行尾的分隔符。 */
+@media (max-width: 719.9px) {
+  .tb-crumb__here {
+    display: none;
+  }
+
+  .tb-crumb__sep:has(+ .tb-crumb__here) {
+    display: none;
+  }
+}

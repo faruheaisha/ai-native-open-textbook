@@ -21,17 +21,31 @@ for (const c of courses) {
   const items: DefaultTheme.SidebarItem[] = c.docs
     .filter((d) => d.rel !== 'index')
     .map((d) => ({ text: d.title, link: `/lib/${c.volume}/${c.local}/${d.rel}` }))
-  sidebar[`/lib/${c.volume}/${c.local}/`] = [
+  const rail: DefaultTheme.SidebarItem[] = [
     { text: c.title, items },
     { text: '出处与许可', items: [{ text: '来源信息', link: `/sources/${c.volume}/${c.local}` }] },
   ]
+  sidebar[`/lib/${c.volume}/${c.local}/`] = rail
+  // 从课程点进「来源信息」时不换掉左栏，读者知道自己还在哪门课里。
+  sidebar[`/sources/${c.volume}/${c.local}`] = rail
 }
 
 const pathItems = volumes.map((v) => ({ text: `${v.order}. ${v.name}`, link: `/paths/${v.id}` }))
 sidebar['/paths/'] = [{ text: '学习路径', items: pathItems }]
-sidebar['/library/'] = [{ text: '课程库', link: '/library/' }]
-sidebar['/sources/'] = [{ text: '来源总表', link: '/sources/' }]
-sidebar['/method/'] = [{ text: '关于本站', link: '/method/' }]
+// 索引类页面本身只有一个条目，左栏会空掉一大片。
+// 这三页补上「索引 + 学习路径」，左栏就一直是可用的导航。
+const indexItems: DefaultTheme.SidebarItem[] = [
+  { text: '课程库', link: '/library/' },
+  { text: '来源总表', link: '/sources/' },
+  { text: '关于本站', link: '/method/' }
+]
+const indexRail: DefaultTheme.SidebarItem[] = [
+  { text: '索引', items: indexItems },
+  { text: '学习路径', items: pathItems }
+]
+sidebar['/library/'] = indexRail
+sidebar['/sources/'] = indexRail
+sidebar['/method/'] = indexRail
 
 const nav: DefaultTheme.NavItem[] = [
   { text: '开始学习', items: pathItems },
@@ -47,7 +61,11 @@ export default defineConfig({
   base: BASE,
   cleanUrls: true,
   ignoreDeadLinks: [/^https?:\/\/localhost(:\d+)?/],
-  head: [['link', { rel: 'icon', type: 'image/svg+xml', href: `${BASE}favicon.svg` }]],
+  // viewport-fit=cover 是 env(safe-area-inset-*) 生效的前提（刘海 / 圆角屏的安全区）
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: `${BASE}favicon.svg` }],
+    ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,viewport-fit=cover' }],
+  ],
   sitemap: {
     hostname: origin,
     transformItems: (items) => items.filter((i) => !/(^|\/)404$/.test(String(i.url))),
@@ -66,29 +84,7 @@ export default defineConfig({
     sidebarMenuLabel: '目录',
     returnToTopLabel: '回到顶部',
     externalLinkIcon: true,
-    search: {
-      provider: 'local',
-      options: {
-        translations: {
-          button: { buttonText: '搜索', buttonAriaLabel: '搜索课程与文档' },
-          modal: {
-            noResultsText: '没有找到结果',
-            resetButtonTitle: '清除条件',
-            displayDetails: '显示详情',
-            footer: { selectText: '选择', navigateText: '切换', closeText: '关闭' },
-          },
-        },
-        miniSearch: {
-          options: {
-            // 中文按词切分，否则整句会被当成一个词条。
-            tokenize: (text: string) => {
-              const Segmenter = (Intl as unknown as { Segmenter?: new (l: string, o: object) => { segment(t: string): Iterable<{ segment: string }> } }).Segmenter
-              if (!Segmenter) return String(text).split(/[\s\-_./]+/).filter(Boolean)
-              return Array.from(new Segmenter('zh', { granularity: 'word' }).segment(String(text)), (x) => x.segment).filter((x) => x.trim().length > 0)
-            },
-          },
-        },
-      },
-    },
+    // 站内搜索由主题层的 <SiteSearch> 承担：VitePress 自带的本地搜索会把 2700 页正文
+    // 整篇编入索引（实测产物 37MB），且默认分词对中文无效。
   },
 })

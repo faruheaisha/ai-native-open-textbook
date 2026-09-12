@@ -12,6 +12,8 @@ entryUrl: "https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549
 zh: ""
 ---
 
+# Agentic Harness Patterns（模式与技能）
+
 <p align="center"><strong>Production design patterns for AI coding agents, distilled from 512,000 lines of Claude Code.</strong></p>
 
 ---

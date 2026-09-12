@@ -62,7 +62,7 @@ zh: ""
 - 把一套成熟设计逐像素复刻出来，你就被迫搞懂了它背后的每一个决策
 - 当你"抄到像"了，下一次遇到类似场景，你就知道"该往哪个方向抄"
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/design-reference.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/design-reference.jpg)
 
 > 💡 一句话总结：**能临摹出一款好产品，说明你已经具备了前端设计的基本功；能在此基础上做改动，说明你已经出师了。**
 
@@ -80,7 +80,7 @@ zh: ""
 
 设计师的工作方式天然包含参考：Pinterest 找灵感、Dribbble 看趋势、竞品分析看结构。AI 时代这件事被放大了——因为工具直接把"参考"变成了可执行的能力：
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/design-inspiration.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/design-inspiration.jpg)
 
 - Claude Design 可以导入你收藏的参考网站，按它的风格生成初稿
 - Open Design 内置了 151 套开源设计系统，一键套用到自己的项目
@@ -104,19 +104,19 @@ zh: ""
 
 这些网站长什么样？先睹为快（点击图片可放大）：
 
-![Awwwards — 网页设计的"奥斯卡"](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/site-awwwards.jpg)
+![Awwwards — 网页设计的"奥斯卡"](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/site-awwwards.jpg)
 
-![Recent（原 Godly）— 高质量网页灵感合集](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/site-godly.jpg)
+![Recent（原 Godly）— 高质量网页灵感合集](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/site-godly.jpg)
 
-![Landbook — 落地页设计精选](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/site-landbook.jpg)
+![Landbook — 落地页设计精选](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/site-landbook.jpg)
 
-![Lapa Ninja — 7300+ 落地页截图库](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/site-lapa.jpg)
+![Lapa Ninja — 7300+ 落地页截图库](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/site-lapa.jpg)
 
-![Mobbin — 真实 App 界面库](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/site-mobbin.jpg)
+![Mobbin — 真实 App 界面库](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/site-mobbin.jpg)
 
-![Dribbble — 设计师社区](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/site-dribbble.jpg)
+![Dribbble — 设计师社区](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/site-dribbble.jpg)
 
-![Behance — 完整项目案例库](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/site-behance.jpg)
+![Behance — 完整项目案例库](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/site-behance.jpg)
 
 ::: tip 💡 建立自己的参考库
 遇到心动的页面，**立刻截图 + 存链接**，按"落地页 / 组件 / 配色 / 动效"分类归档。临摹时直接从这个库里挑目标，比临时上网找快得多。
@@ -139,7 +139,7 @@ zh: ""
 
 "抄得像"的前提是"看得懂"。这一章教你一套通用的页面拆解框架。
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/page-structure.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/page-structure.jpg)
 
 ### 2.1 看结构：页面由哪些区块组成
 
@@ -215,7 +215,7 @@ zh: ""
 
 "他们是怎么设计出来的？"答案越来越多元。以下是 2 条典型路线，覆盖从"手动精细控制"到"对话式自动生成"。
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/ai-design.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/ai-design.jpg)
 
 ### 3.1 路线一：Figma / MasterGo——专业设计稿工具
 
@@ -225,9 +225,9 @@ zh: ""
 - 通过 Figma Make / MasterGo AI 等能力辅助生成与批量调整
 - 最终交给前端按设计稿实现，或通过插件转代码
 
-![Figma 编辑器：左侧图层面板、中间画布、右侧属性面板](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/figma_editor.jpg)
+![Figma 编辑器：左侧图层面板、中间画布、右侧属性面板](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/figma_editor.jpg)
 
-![MasterGo 编辑器：国产云端设计工具，与 Figma 类似的画布布局](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/mastergo_editor.jpg)
+![MasterGo 编辑器：国产云端设计工具，与 Figma 类似的画布布局](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/mastergo_editor.jpg)
 
 > 适合：需要严格设计稿交付、团队协作、复杂交互的场景。工具操作详见 [Figma 与 MasterGo 入门](https://github.com/datawhalechina/easy-vibe/blob/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/figma-mastergo/README.md)。
 
@@ -257,45 +257,45 @@ Tone should feel warm, premium, calm, and trustworthy - think a mix of Blue Bott
 Coffee + Apple Store + minimalist lifestyle design.
 ```
 
-![Claude Design 实际生成：雾屿咖啡高保真落地页，左侧对话+进度，右侧画布渲染完整 Hero 区](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/claude_case_landing.jpg)
+![Claude Design 实际生成：雾屿咖啡高保真落地页，左侧对话+进度，右侧画布渲染完整 Hero 区](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/claude_case_landing.jpg)
 
 **② 默认产出 3 个设计变体，选方向再精修**
 
 Claude Design 不是只给一个答案，而是默认生成多个方向供你挑选——编辑器风、博物馆风、Zine 风等，点进去再细化。
 
-![实际案例：PCWorld 记者让 Claude 解释 AI Tokens 概念，返回 Editorial / Museum / Field Notes 三种风格供选择](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/claude_case_variants.jpg)
+![实际案例：PCWorld 记者让 Claude 解释 AI Tokens 概念，返回 Editorial / Museum / Field Notes 三种风格供选择](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/claude_case_variants.jpg)
 
 **③ 生成可交互原型（不只是静态图）**
 
 生成的页面是真正可点击、可输入的 HTML——按钮有 hover 效果，表单能输入，数据会实时计算。
 
-![实际生成的 Token 科普页：内置实时分词器，输入句子后色块高亮显示每个 token，底部统计字符/词/token 数](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/claude_case_interactive.jpg)
+![实际生成的 Token 科普页：内置实时分词器，输入句子后色块高亮显示每个 token，底部统计字符/词/token 数](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/claude_case_interactive.jpg)
 
 **④ 做产品演示文稿/PPT**
 
 不仅能做网页，还能生成完整的幻灯片（多页、带导航、可导出 PDF/PPTX）。
 
-![实际生成：咖啡品牌 Pitch Deck，左侧列出 13 页大纲，右侧渲染当前幻灯片内容，底部可翻页](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/claude_case_slide.jpg)
+![实际生成：咖啡品牌 Pitch Deck，左侧列出 13 页大纲，右侧渲染当前幻灯片内容，底部可翻页](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/claude_case_slide.jpg)
 
 **⑤ 生成动画视频**
 
 通过 "From template" 可以创建带动画的 HTML 视频——分镜脚本 + 实际渲染的动画画面，有播放控制条。
 
-![实际生成：45秒咖啡制作动画视频，左侧列出分镜时间表，右侧画布播放动画（咖啡豆→烘焙→冲泡）](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/claude_case_video.jpg)
+![实际生成：45秒咖啡制作动画视频，左侧列出分镜时间表，右侧画布播放动画（咖啡豆→烘焙→冲泡）](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/claude_case_video.jpg)
 
 **⑥ 迭代已有设计（直接在画布上评论）**
 
 生成原型后，不用重新写 prompt，直接点 Comment 按钮圈选元素写评论，Claude 会局部修改。
 
-![画布上点击 Comment 按钮，圈选任意元素后弹出评论框，写"Suggest to Claude"即可局部迭代](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/claude_case_comment.jpg)
+![画布上点击 Comment 按钮，圈选任意元素后弹出评论框，写"Suggest to Claude"即可局部迭代](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/claude_case_comment.jpg)
 
 **⑦ 移动端 App 页面设计**
 
 支持指定设备尺寸（如 iPhone），生成带设备外框的移动端 UI 原型。
 
-![实际生成：板球计分 App（Tracket）移动端界面——深色 Header + 比分显示 + 操作按钮，针对户外阳光场景做了高对比度设计](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/claude_case_mobile.jpg)
+![实际生成：板球计分 App（Tracket）移动端界面——深色 Header + 比分显示 + 操作按钮，针对户外阳光场景做了高对比度设计](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/claude_case_mobile.jpg)
 
-![Claude Design 画布总览：左侧对话，右侧 Tweaks 面板可实时调整主题、断点、颜色等参数](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/claude_design_canvas.jpg)
+![Claude Design 画布总览：左侧对话，右侧 Tweaks 面板可实时调整主题、断点、颜色等参数](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/claude_design_canvas.jpg)
 
 > 适合：没有设计背景、想跳过 Figma 学习曲线、快速拿到可交互原型的人。
 
@@ -323,27 +323,27 @@ Claude Design 不是只给一个答案，而是默认生成多个方向供你挑
 用 Open Design，套用 Linear 的设计系统，生成一个 SaaS 产品的落地页 HTML
 ```
 
-![Open Design 新建原型对话框：中文界面，可选原型/幻灯片/媒体，切换线框图/高保真，选择设计体系和目标平台](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/od_case_create.jpg)
+![Open Design 新建原型对话框：中文界面，可选原型/幻灯片/媒体，切换线框图/高保真，选择设计体系和目标平台](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/od_case_create.jpg)
 
-![Open Design 内置 150+ 套设计系统（Agentic、Airbnb、Airtable、Linear、Stripe、Vercel…），按类别分组，每个都有色板预览和说明](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/od_case_designsystems.jpg)
+![Open Design 内置 150+ 套设计系统（Agentic、Airbnb、Airtable、Linear、Stripe、Vercel…），按类别分组，每个都有色板预览和说明](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/od_case_designsystems.jpg)
 
 **② Studio 工作区：对话驱动，实时生成**
 
 左侧是对话面板（显示 AI 的思考步骤、Todo 列表、Write 操作），右侧是 iframe 画布实时渲染生成结果——和 Claude Design 类似，但底部显示本地正在调用哪个 CLI Agent（如 Claude Code、Codex、deepseek 等）。
 
-![Open Design Studio 工作区：左侧 Chat 面板显示生成计划和进度，右侧画布渲染出"Open Design"大字封面页（幻灯片模式），顶部可切换 Preview/Source/Comment/Edit](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/od_case_studio.jpg)
+![Open Design Studio 工作区：左侧 Chat 面板显示生成计划和进度，右侧画布渲染出"Open Design"大字封面页（幻灯片模式），顶部可切换 Preview/Source/Comment/Edit](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/od_case_studio.jpg)
 
 **③ 套用设计系统生成幻灯片/PPT**
 
 选择 Slide deck 类型，输入主题即可生成完整多页幻灯片。下图是社区用户用 Open Design 生成的中文演讲幻灯片。
 
-![真实用户案例："一人公司 · 被 AI 折叠的组织"演讲幻灯片封面——深色背景、衬线大字标题、演讲者信息、底部页码导航](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/od_case_deck.jpg)
+![真实用户案例："一人公司 · 被 AI 折叠的组织"演讲幻灯片封面——深色背景、衬线大字标题、演讲者信息、底部页码导航](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/od_case_deck.jpg)
 
 **④ 生成高保真移动端 App 原型**
 
 支持多屏同时预览，自动生成 iPhone 设备外框，Tab 栏、卡片布局、进度条等组件一应俱全。
 
-![真实生成案例：游戏化生活管理 App（Level）——3 屏并排预览，包含每日任务首页、任务分类仪表盘、任务详情页，浅色模式，彩色卡片](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/od_case_mobile.jpg)
+![真实生成案例：游戏化生活管理 App（Level）——3 屏并排预览，包含每日任务首页、任务分类仪表盘、任务详情页，浅色模式，彩色卡片](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/od_case_mobile.jpg)
 
 **⑤ 用 UI design Skill 规范化 AI 输出**
 
@@ -370,7 +370,7 @@ opendesign
 # 所有设计文件保存在本地 ~/.open-design/，不经过任何第三方服务器
 ```
 
-![Open Design 主界面：选择 Skill（原型/幻灯片/图片/视频等）+ 输入需求即可生成，本地 CLI Agent 自动作为引擎](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/opendesign_home.jpg)
+![Open Design 主界面：选择 Skill（原型/幻灯片/图片/视频等）+ 输入需求即可生成，本地 CLI Agent 自动作为引擎](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/opendesign_home.jpg)
 
 > 适合：注重数据隐私、已有编码 Agent、想完全掌控设计流程的开发者。
 
@@ -388,7 +388,7 @@ opendesign
 **参考 → 设计 → 交付** 全程可以混用：用 Claude Design / Open Design 快速出方向和原型 → 定稿后导入 Figma/MasterGo 精修 → 交接给 Claude Code 写成代码。每条路线取长补短。
 :::
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/design-tools.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/design-tools.jpg)
 
 ---
 
@@ -396,7 +396,7 @@ opendesign
 
 目标很具体：**选一个你喜欢的真实网页，临摹到"像"。** 这里以落地页为例。
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/design-workspace.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/design-workspace.jpg)
 
 ### Step 1：选定目标
 
@@ -456,7 +456,7 @@ opendesign
 
 临摹出的设计稿/原型，最终要变成产品里的真实页面。两条交接路径：
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/design-to-code.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/design-to-code.jpg)
 
 ### 5.1 路径 A：AI 设计工具 → 前端代码
 
@@ -476,7 +476,7 @@ opendesign
 
 临摹 3 个页面后你会发现：**好看的页面背后都有一套稳定的"设计系统"**。与其自己从 0 造，不如站在巨人肩膀上。
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/design-system.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/design-system.jpg)
 
 ### 6.1 什么是"可移植的设计系统"
 
@@ -534,7 +534,7 @@ DESIGN.md  =  颜色 Token + 字体规范 + 间距节奏 + 组件样式 + 使用
 
 临摹能力越强，越要守住边界：
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/copyright.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/ui-design/images/copyright.jpg)
 
 **抄规则，不抄结果。** 布局、配色、间距这些"规则"可以学习；Logo、图标、插画、文案等"结果"不要直接复制。
 

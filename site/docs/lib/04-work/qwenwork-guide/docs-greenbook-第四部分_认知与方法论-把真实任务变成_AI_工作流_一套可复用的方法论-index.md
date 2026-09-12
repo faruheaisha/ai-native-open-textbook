@@ -19,7 +19,7 @@ zh: ""
 
 昨天社群里问了一个很典型的问题。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/把真实任务变成 AI 工作流：一套可复用的方法论/assets/001_2a6b1df5-0135-4e05-9f40-0d2728b2391a.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/把真实任务变成 AI 工作流：一套可复用的方法论/assets/001_2a6b1df5-0135-4e05-9f40-0d2728b2391a.png)
 
 手里有一批历史资料：既有公司的正式业务文档，也有自己零散记录的思考。希望借助 AI，把这些资料加工成两类成果——
 
@@ -27,7 +27,7 @@ zh: ""
 
 在社群里做了概要的回答，比较琐碎，并且篇幅有限。因为这个案例比较典型，所以单独写篇文章，来说明一下这个工作的流程和思路。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/把真实任务变成 AI 工作流：一套可复用的方法论/assets/002_567fbb6d-c87d-4b79-a08d-7aef7313db07.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/把真实任务变成 AI 工作流：一套可复用的方法论/assets/002_567fbb6d-c87d-4b79-a08d-7aef7313db07.jpg)
 
 这个需求听起来像"让 AI 批量总结文档"。但如果真的开始做，很快就会遇到一串问题：资料应该怎么分类？面试和写文章需要的是同一种摘要吗？文档太多，上下文放不下怎么办？以后还有新资料进来，难道每次都重跑一遍？什么时候应该写 Skill？
 
@@ -41,7 +41,7 @@ AI Native 的开工方式，是先把模糊需求变成可执行、可验证、�
 
 ## 01 先别看工具：把需求画成"一份素材，两个输出"
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/把真实任务变成 AI 工作流：一套可复用的方法论/assets/003_60163a58-f712-493f-bc9c-e02fbb918205.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/把真实任务变成 AI 工作流：一套可复用的方法论/assets/003_60163a58-f712-493f-bc9c-e02fbb918205.png)
 
 拿到需求后，我不会先问"资料放在哪里"，而会先问两个问题：原始素材是什么，最终要交付什么。
 
@@ -78,7 +78,7 @@ AI Native 的开工方式，是先把模糊需求变成可执行、可验证、�
 
 ## 02 一开始就写一个小 Skill，把流程假设变成可执行原型
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/把真实任务变成 AI 工作流：一套可复用的方法论/assets/004_2ca9bb24-a3d6-402b-9178-60ca61575f29.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/把真实任务变成 AI 工作流：一套可复用的方法论/assets/004_2ca9bb24-a3d6-402b-9178-60ca61575f29.png)
 
 很多人把 Skill 理解成"流程成熟之后再写的说明书"。其实在早期，一个轻量 Skill 也可以是实验容器。
 
@@ -120,7 +120,7 @@ Agent 知道要读取什么、按什么顺序处理、交付什么；用户也�
 
 ## 03 用小样本跑 MVP，不要拿全部资料赌第一次结果
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/把真实任务变成 AI 工作流：一套可复用的方法论/assets/005_e1260c13-5a60-49f2-a113-41ca4b98500a.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/把真实任务变成 AI 工作流：一套可复用的方法论/assets/005_e1260c13-5a60-49f2-a113-41ca4b98500a.jpg)
 
 有了小 Skill，下一步不是把整个飞书知识库导出来，而是挑选一组代表性样本。
 
@@ -152,7 +152,7 @@ Skill 的第一个版本不是为了证明自己正确，而是为了尽快暴�
 
 ## 04 MVP 通过后，再分开处理"海量"与"持续"
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/把真实任务变成 AI 工作流：一套可复用的方法论/assets/006_e5524d17-bbe6-491d-9cf0-2db64a12a2c3.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/把真实任务变成 AI 工作流：一套可复用的方法论/assets/006_e5524d17-bbe6-491d-9cf0-2db64a12a2c3.jpg)
 
 海量和持续看起来都在说"资料很多"，实际上是两种不同问题。
 
@@ -232,7 +232,7 @@ description: 渐进处理新增或变更的资料
 
 ## 05 两个输出不是终点，而是两条下游生产线的入口
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/把真实任务变成 AI 工作流：一套可复用的方法论/assets/007_2948c978-07cf-4ab6-b1f8-79199b986074.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/把真实任务变成 AI 工作流：一套可复用的方法论/assets/007_2948c978-07cf-4ab6-b1f8-79199b986074.png)
 
 完成素材加工后，面试和公众号不能被塞进同一个大提示词。它们虽然使用同一批事实，验收标准却完全不同。
 
@@ -242,7 +242,7 @@ description: 渐进处理新增或变更的资料
 
 ### （一）面试线：从证据卡片走到虚拟面试官
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/把真实任务变成 AI 工作流：一套可复用的方法论/assets/008_e7f0373c-484f-4bae-b5d7-0739f059507a.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/把真实任务变成 AI 工作流：一套可复用的方法论/assets/008_e7f0373c-484f-4bae-b5d7-0739f059507a.jpg)
 
 面试线的目的不是生成一份听起来流畅的标准答案，而是让岗位要求、个人证据、口头表达和简历表述保持一致。
 
@@ -298,7 +298,7 @@ description: 把项目证据转成可追问的面试话术
 
 ### （二）公众号线：从选题走到可审核的公众号草稿
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/把真实任务变成 AI 工作流：一套可复用的方法论/assets/009_af8dd195-5bd8-4e02-b4e2-0e73495d65aa.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/把真实任务变成 AI 工作流：一套可复用的方法论/assets/009_af8dd195-5bd8-4e02-b4e2-0e73495d65aa.jpg)
 
 公众号线追求的是读者价值、个人观点和公开安全。它需要从可公开证据中寻找问题与冲突，生成选题，再把正式事实和个人思考组织成文章，而不是把公司资料换个说法直接发布。
 
@@ -354,7 +354,7 @@ description: 编排选题到公众号草稿的生产链
 
 ## 06 最后的大 Skill，只负责判断与编排
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/把真实任务变成 AI 工作流：一套可复用的方法论/assets/010_b2d59bf6-c3fa-490f-a685-0f42bed822ec.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/把真实任务变成 AI 工作流：一套可复用的方法论/assets/010_b2d59bf6-c3fa-490f-a685-0f42bed822ec.png)
 
 整个系统稳定以后，可以再写一个更大的编排型 Skill。
 
@@ -400,7 +400,7 @@ description: 编排选题到公众号草稿的生产链
 
 在这个案例里，Skill 同时经历了三种角色。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/把真实任务变成 AI 工作流：一套可复用的方法论/assets/011_74066147-f465-4fde-9ad0-0228919cd5ea.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/把真实任务变成 AI 工作流：一套可复用的方法论/assets/011_74066147-f465-4fde-9ad0-0228919cd5ea.png)
 
 **第一阶段｜探索工具。** 我们用 historical-doc-mvp 验证哪些字段有用，两个输出真正需要什么。
 
@@ -427,7 +427,7 @@ AI Native 不是把工作全部交给 AI，而是让任务、流程、证据、�
 
 如果你想今天就开始，不需要先掌握复杂的多 Agent 编排，也不需要一次写出完整系统，只做下面四件事。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/把真实任务变成 AI 工作流：一套可复用的方法论/assets/012_7d54e0af-0764-409e-861c-fdf4d5e248c9.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/把真实任务变成 AI 工作流：一套可复用的方法论/assets/012_7d54e0af-0764-409e-861c-fdf4d5e248c9.png)
 
 **1｜锁定一个可验收的真实输出。** 把目标写成一个可以检查的交付物，例如一段 90 秒面试回答，或者 3 个可以继续写的公众号选题。
 

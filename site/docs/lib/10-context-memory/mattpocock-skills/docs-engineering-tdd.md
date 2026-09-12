@@ -12,6 +12,8 @@ entryUrl: "https://github.com/mattpocock/skills/blob/3cca18b368ae95cdbdebbff572c
 zh: ""
 ---
 
+# Matt Pocock Skills（工程技能库）
+
 ## What it does
 
 `tdd` builds a feature or fixes a bug test-first: one failing test, then just enough code to pass it, then the next behaviour. It carries the standards that make that loop produce tests worth keeping: what a good test is, where tests go, what mocks are for, and the three anti-patterns that quietly ruin a suite.

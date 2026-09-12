@@ -12,6 +12,8 @@ entryUrl: "https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89d
 zh: ""
 ---
 
+# WorkBuddyGuide（蓝皮书 + 社区案例集）
+
 <h1 align="center">WorkBuddy 实战蓝皮书</h1>
 
 <p align="center"><strong>从第一项任务，到一支 AI 团队</strong></p>

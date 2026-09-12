@@ -12,6 +12,8 @@ entryUrl: ""
 zh: ""
 ---
 
+# Ed Donner：AI Agents 实战课
+
 How to Use Telegram for Notifications (Free Alternative)
 
 If you prefer not to use Pushover, you can use a Telegram Bot to receive notifications from your AI Agent. It is free, secure, and requires no trial periods.

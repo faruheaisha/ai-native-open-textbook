@@ -14,7 +14,7 @@ zh: ""
 
 # 第三章：产品思维与文档驱动
 
-![img](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/mlkzvdt7-83b23488ee2e4fad.jpg)
+![img](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/mlkzvdt7-83b23488ee2e4fad.jpg)
 
 ## 序言：为什么先写文档再写代码？
 

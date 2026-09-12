@@ -30,8 +30,8 @@ zh: ""
 
 <table><tbody>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260222213812614.png" /></td>
-    <td><img src="https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260222213829480.png" /></td>
+    <td><img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260222213812614.png" /></td>
+    <td><img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260222213829480.png" /></td>
   </tr>
 </tbody></table>
 
@@ -45,8 +45,8 @@ zh: ""
 
 <table><tbody>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260222213914501.png" /></td>
-    <td><img src="https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260222213927522.png" /></td>
+    <td><img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260222213914501.png" /></td>
+    <td><img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260222213927522.png" /></td>
   </tr>
 </tbody></table>
 
@@ -56,7 +56,7 @@ zh: ""
 
 收录了数千个真实 App 和网站的截图，按功能分类（登录、设置、支付等）。
 
-![image-20260222213947631](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260222213947631.png)
+![image-20260222213947631](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260222213947631.png)
 
 **怎么用**：搜索具体功能（如 "onboarding"、"pricing"），看看成熟产品是怎么做的。
 
@@ -70,7 +70,7 @@ zh: ""
 
 访问地址：[land-book.com](https://land-book.com/)
 
-![image-20260222214021688](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260222214021688.png)
+![image-20260222214021688](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260222214021688.png)
 
 ## 风格关键词
 
@@ -95,13 +95,13 @@ zh: ""
 | **Happy Hues** | 提供完整的配色方案 + 预览 | happyhues.co |
 | **Tailwind 调色板** | Tailwind 内置的颜色系统 | tailwindcss.com/docs/colors |
 
-![image-20260226235525847](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260226235525847.png)
+![image-20260226235525847](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260226235525847.png)
 
-![image-20260226235543860](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260226235543860.png)
+![image-20260226235543860](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260226235543860.png)
 
-![image-20260226235612718](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260226235612718.png)
+![image-20260226235612718](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260226235612718.png)
 
-![image-20260226235631335](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260226235631335.png)
+![image-20260226235631335](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260226235631335.png)
 
 ::: tip 配色捷径
 不想自己选颜色？告诉 AI："用 Tailwind 的 slate 色系做暗色模式"或"用 Tailwind 的 blue 色系做主色调"。Tailwind 的颜色系统已经帮你调好了明暗层次。

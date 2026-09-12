@@ -10,7 +10,7 @@ lang: "英文"
 volume: "01-foundations"
 sourceUrl: "https://github.com/microsoft/generative-ai-for-beginners"
 entryUrl: "https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/README.md"
-zh: ""
+zh: "on"
 ---
 
 # Generative AI for Beginners（微软官方入门课）

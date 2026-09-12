@@ -12,6 +12,8 @@ entryUrl: "https://github.com/mattpocock/skills/blob/3cca18b368ae95cdbdebbff572c
 zh: ""
 ---
 
+# Matt Pocock Skills（工程技能库）
+
 ## What it does
 
 `codebase-design` fixes the words you use to design a module: **module**, **interface**, **depth**, **seam**, **adapter**, **leverage**, **locality**. It defines each one precisely, bans the loose substitutes ("component", "service", "API", "boundary"), and states the handful of principles that follow from them.

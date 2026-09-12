@@ -49,7 +49,7 @@ zh: ""
 
 ### 2.1 网站 / PWA：先让用户点开就能用
 
-![网站与 PWA 架构：浏览器通过 Web 前端访问 API，Service Worker 负责缓存和离线能力](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/choose-platform/images/web-pwa-architecture.svg)
+![网站与 PWA 架构：浏览器通过 Web 前端访问 API，Service Worker 负责缓存和离线能力](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/choose-platform/images/web-pwa-architecture.svg)
 
 如果用户只是想打开链接完成一件事，Web 往往是第一版最省力的选择。PWA 仍然是网站，只是增加了安装到桌面、离线缓存等能力。
 
@@ -61,7 +61,7 @@ zh: ""
 
 ### 2.2 微信小程序：用户本来就在微信里
 
-![微信小程序架构：微信客户端加载小程序，小程序调用云函数或企业 API，再访问数据库与文件存储](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/choose-platform/images/wechat-mini-program-architecture.svg)
+![微信小程序架构：微信客户端加载小程序，小程序调用云函数或企业 API，再访问数据库与文件存储](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/choose-platform/images/wechat-mini-program-architecture.svg)
 
 小程序的优势不是“比 App 高级”，而是用户不用安装。扫码、群分享、公众号和门店入口都能把用户直接带进业务流程。
 
@@ -73,7 +73,7 @@ zh: ""
 
 ### 2.3 iOS / Android 原生：直接使用系统能力
 
-![原生移动端架构：iOS 与 Android 分别使用平台 UI 和系统 API，共同连接业务 API](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/choose-platform/images/native-mobile-architecture.svg)
+![原生移动端架构：iOS 与 Android 分别使用平台 UI 和系统 API，共同连接业务 API](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/choose-platform/images/native-mobile-architecture.svg)
 
 原生开发离操作系统最近。后台定位、蓝牙、健康数据、音视频、复杂动画和系统级安全能力，原生通常拥有最完整的支持。
 
@@ -85,7 +85,7 @@ zh: ""
 
 ### 2.4 Flutter / React Native：共享业务，分别落到两端
 
-![跨端移动架构：共享代码生成 iOS 与 Android 应用，平台差异通过插件或原生模块补齐](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/choose-platform/images/cross-platform-mobile-architecture.svg)
+![跨端移动架构：共享代码生成 iOS 与 Android 应用，平台差异通过插件或原生模块补齐](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/choose-platform/images/cross-platform-mobile-architecture.svg)
 
 团队明确需要 iOS 和 Android，又不想维护两套完整业务代码时，可以选择 Flutter 或 React Native。大部分界面和业务逻辑共享，平台能力再通过插件或原生模块接入。
 
@@ -97,7 +97,7 @@ zh: ""
 
 ### 2.5 Electron / Tauri：用 Web 技术做桌面软件
 
-![Web 技术桌面端架构：Web 界面通过安全桥接调用桌面进程，再访问文件、通知与系统能力](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/choose-platform/images/web-desktop-architecture.svg)
+![Web 技术桌面端架构：Web 界面通过安全桥接调用桌面进程，再访问文件、通知与系统能力](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/choose-platform/images/web-desktop-architecture.svg)
 
 如果团队熟悉 Vue、React 或普通前端，又需要独立窗口、托盘、文件读写和桌面通知，Electron 或 Tauri 会比从头学习原生桌面开发更快。
 
@@ -109,7 +109,7 @@ zh: ""
 
 ### 2.6 Qt / 原生桌面端：业务软件直接连接设备与系统
 
-![Qt 与原生桌面架构：桌面界面连接 C++ 业务层，再访问设备协议、本地数据和企业服务](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/choose-platform/images/qt-native-desktop-architecture.svg)
+![Qt 与原生桌面架构：桌面界面连接 C++ 业务层，再访问设备协议、本地数据和企业服务](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/choose-platform/images/qt-native-desktop-architecture.svg)
 
 Qt 不只是“工厂大屏”。在工业界和企业软件中，它常被用于设备控制台、医疗影像、汽车诊断、实验室软件、交易终端、工程设计工具和长期运行的桌面客户端。
 
@@ -121,7 +121,7 @@ Qt 不只是“工厂大屏”。在工业界和企业软件中，它常被用�
 
 ### 2.7 浏览器插件：功能就发生在网页旁边
 
-![浏览器插件架构：内容脚本读取当前网页，后台服务协调任务，侧边栏展示结果并调用企业 API](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/choose-platform/images/browser-extension-architecture.svg)
+![浏览器插件架构：内容脚本读取当前网页，后台服务协调任务，侧边栏展示结果并调用企业 API](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/choose-platform/images/browser-extension-architecture.svg)
 
 如果用户的工作本来就在网页里，就别再让他复制内容、打开另一个系统、粘贴并提交。浏览器插件可以直接读取当前页面，在侧边栏或右键菜单里完成下一步。
 
@@ -133,7 +133,7 @@ Qt 不只是“工厂大屏”。在工业界和企业软件中，它常被用�
 
 ### 2.8 VS Code 插件 / CLI：把工具放进开发流程
 
-![开发者工具架构：编辑器或终端触发插件与命令行工具，再连接代码仓库、构建系统和服务 API](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/choose-platform/images/developer-tool-architecture.svg)
+![开发者工具架构：编辑器或终端触发插件与命令行工具，再连接代码仓库、构建系统和服务 API](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/choose-platform/images/developer-tool-architecture.svg)
 
 面向开发者的工具，最好出现在他们已经工作的地方。需要读取当前文件、展示诊断和提供编辑器交互时做 VS Code 插件；需要进入脚本、CI 和批处理流程时做 CLI。
 
@@ -143,7 +143,7 @@ Qt 不只是“工厂大屏”。在工业界和企业软件中，它常被用�
 
 ### 2.9 多端企业系统：不同角色使用不同入口
 
-![多端企业系统架构：用户小程序、员工移动端、运营后台和桌面客户端共享统一身份、API 与数据](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/choose-platform/images/multi-client-enterprise-architecture.svg)
+![多端企业系统架构：用户小程序、员工移动端、运营后台和桌面客户端共享统一身份、API 与数据](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/choose-platform/images/multi-client-enterprise-architecture.svg)
 
 企业业务很少永远停在单个平台。消费者、现场员工、运营人员和管理者的工作环境不同，强迫所有人使用同一种客户端，体验通常会很差。
 
@@ -153,7 +153,7 @@ Qt 不只是“工厂大屏”。在工业界和企业软件中，它常被用�
 
 ### 2.10 Godot 等游戏引擎：场景、角色和交互围绕实时画面组织
 
-![游戏引擎架构：场景与节点组织玩法，脚本和物理系统驱动实时画面，再导出到桌面、移动端或 Web](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/choose-platform/images/game-engine-architecture.svg)
+![游戏引擎架构：场景与节点组织玩法，脚本和物理系统驱动实时画面，再导出到桌面、移动端或 Web](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/choose-platform/images/game-engine-architecture.svg)
 
 横版动作、像素游戏和 3D 游戏都需要持续更新画面、处理输入、碰撞、动画、声音和关卡。Godot 这类游戏引擎已经把这些常用能力放进同一个编辑器，比从普通网页或原生 UI 框架里重新搭一套游戏循环更合适。
 
@@ -196,7 +196,7 @@ Qt 不只是“工厂大屏”。在工业界和企业软件中，它常被用�
 
 ## 5. 决策时按这个顺序走
 
-![平台选型流程：先判断入口，再判断系统权限、工作时长与是否需要多个角色](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/choose-platform/images/platform-decision-map.svg)
+![平台选型流程：先判断入口，再判断系统权限、工作时长与是否需要多个角色](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/choose-platform/images/platform-decision-map.svg)
 
 如果几个答案同时成立，不必硬选唯一平台。先确定最重要的用户和最频繁的任务，把第一条完整链路做通，再决定第二个入口。
 

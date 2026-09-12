@@ -283,7 +283,7 @@ steps/              # 每章可运行的最小实现（单一真源 → 生成�
 
 ## 🤝 贡献者
 
-| <img src="https://github.com/Windy3f3f3f3f.png" width="60" /> | <img src="https://github.com/davidweidawang.png" width="60" /> | <img src="https://raw.githubusercontent.com/Windy3f3f3f3f/claude-code-from-scratch/0b452360866433fde0dc77cd37ada9d303546592/assets/kaibo.jpg" width="60" /> |
+| <img src="https://github.com/Windy3f3f3f3f.png" width="60" /> | <img src="https://github.com/davidweidawang.png" width="60" /> | <img src="https://gh-proxy.com/https://raw.githubusercontent.com/Windy3f3f3f3f/claude-code-from-scratch/0b452360866433fde0dc77cd37ada9d303546592/assets/kaibo.jpg" width="60" /> |
 |:---:|:---:|:---:|
 | [@Windy3f3f3f3f](https://github.com/Windy3f3f3f3f) | [@davidweidawang](https://github.com/davidweidawang) | [Kaibo Huang](https://scholar.google.com/citations?user=C7B5X5IAAAAJ&hl=zh-CN) |
 

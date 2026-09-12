@@ -14,7 +14,7 @@ zh: ""
 
 # 使用 Microsoft Foundry Local 和 Qwen 创建本地 AI 代理
 
-![创建本地 AI 代理](https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/lesson-17-thumbnail.f86434c595a408fc.webp)
+![创建本地 AI 代理](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/lesson-17-thumbnail.f86434c595a408fc.webp)
 
 上一课将代理扩展到了云端。本课则将它们带回到单机上。完成后，你将拥有一个能推理、调用工具、读取文件、搜索文档的工作中的工程助手——**无需任何云端推理调用。**
 

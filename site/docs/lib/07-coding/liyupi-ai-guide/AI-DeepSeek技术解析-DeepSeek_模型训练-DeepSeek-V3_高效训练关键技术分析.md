@@ -12,6 +12,8 @@ entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a0
 zh: ""
 ---
 
+# 鱼皮 AI 导航（ai-guide）
+
 ## DeepSeek-V3 高效训练关键技术分析
 
 本文从模型架构、并行策略、通信优化和显存优化四个方面展开，深入分析了DeepSeek-V3高效训练的关键技术，探讨其如何以仅5%的算力实现对标GPT-4o的性能。

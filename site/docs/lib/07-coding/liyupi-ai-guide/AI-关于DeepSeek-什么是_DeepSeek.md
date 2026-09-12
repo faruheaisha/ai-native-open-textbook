@@ -12,6 +12,8 @@ entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a0
 zh: ""
 ---
 
+# 鱼皮 AI 导航（ai-guide）
+
 ## 什么是 DeepSeek
 
 DeepSeek（深度求索）是一款由国内团队开发的开源人工智能工具库，专注于提供高效易用的AI模型训练与推理能力。它既包含预训练大语言模型（如DeepSeek-R1系列），也提供配套工具链，助力开发者快速实现AI应用落地。

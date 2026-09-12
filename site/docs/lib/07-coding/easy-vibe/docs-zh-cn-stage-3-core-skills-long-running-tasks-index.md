@@ -26,7 +26,7 @@ zh: ""
 
 本章要解决的核心问题是：如何让 Claude Code 像真正的开发者一样，持续工作直到任务真正完成。
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/core-skills/long-running-tasks/images/home-cover.svg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/core-skills/long-running-tasks/images/home-cover.svg)
 
 ---
 

@@ -14,7 +14,7 @@ zh: ""
 
 # Agent Skill Index
 
-[![Agent Skill Index Banner](https://raw.githubusercontent.com/heilcheng/awesome-agent-skills/de9056857eb0e96da833469d2ee3ac392058225d/assets/banner.png)](https://agent-skill.co)
+[![Agent Skill Index Banner](https://gh-proxy.com/https://raw.githubusercontent.com/heilcheng/awesome-agent-skills/de9056857eb0e96da833469d2ee3ac392058225d/assets/banner.png)](https://agent-skill.co)
 
 > 🌐 Browse the live directory at **[agent-skill.co](https://agent-skill.co)**
 

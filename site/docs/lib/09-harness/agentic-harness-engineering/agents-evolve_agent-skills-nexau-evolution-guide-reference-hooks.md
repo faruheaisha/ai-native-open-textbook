@@ -12,6 +12,8 @@ entryUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering/blob
 zh: ""
 ---
 
+# Agentic Harness Engineering（论文与实现）
+
 ## Middleware Hooks
 
 NexAU no longer exposes separate `before_model_hooks`, `after_model_hooks`, or `after_tool_hooks`. Instead, the agent runtime is driven entirely by **middlewares**—Python objects that can plug into every phase of the loop.

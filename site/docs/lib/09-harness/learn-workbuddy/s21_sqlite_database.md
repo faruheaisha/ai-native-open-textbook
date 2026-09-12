@@ -20,7 +20,7 @@ zh: ""
 
 ---
 
-![SQLite 数据库架构](https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s21_sqlite_database/images/sqlite-schema.svg)
+![SQLite 数据库架构](https://gh-proxy.com/https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s21_sqlite_database/images/sqlite-schema.svg)
 
 ## 代码架构图
 

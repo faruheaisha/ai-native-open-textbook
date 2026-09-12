@@ -146,11 +146,11 @@ https://github.com/JZCreative/2025showreel
 
 动画效果概述：
 
-![粒子球体形成后的初始画面](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/cases/submissions/jz-2025-showreel/assets/showreel-sphere.png)
+![粒子球体形成后的初始画面](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/cases/submissions/jz-2025-showreel/assets/showreel-sphere.png)
 
 *300 个粒子聚拢成球体，带坐标轴、大圆参考线和粒子间虚线连接。*
 
-![场景展示效果](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/cases/submissions/jz-2025-showreel/assets/showreel-scene.png)
+![场景展示效果](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/cases/submissions/jz-2025-showreel/assets/showreel-scene.png)
 
 *聚焦节点后，标题从节点浮出，Mockup 浏览器窗口沿分支线展开，右上角信息面板实时显示旋转数据。*
 

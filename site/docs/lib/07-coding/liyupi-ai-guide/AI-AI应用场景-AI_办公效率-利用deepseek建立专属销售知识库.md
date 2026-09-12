@@ -12,6 +12,8 @@ entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a0
 zh: ""
 ---
 
+# 鱼皮 AI 导航（ai-guide）
+
 ## 利用deepseek建立专属销售知识库
 
 ![img](https://pic.yupi.icu/yuyi/1739508363465-dcb20197-0511-48bd-a073-de9d86a8e9a9.png)

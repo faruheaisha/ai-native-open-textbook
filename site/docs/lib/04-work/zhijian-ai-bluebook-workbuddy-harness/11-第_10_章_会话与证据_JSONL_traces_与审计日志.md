@@ -55,7 +55,7 @@ grep '"type": "function_call"' <会话文件> | grep -o '"name": "[^"]*"' | sort
 
 实践意义：「它把我的文件改坏了」这句话有了客观对照——当前文件与快照一比，改动无所遁形。找回原状也简单：定位快照事件的时间戳，去 file-history 目录取对应版本。配合第 12 章的删除保护与回收站机制，这是文件安全的三重保险之一。
 
-![三本账的分工](https://raw.githubusercontent.com/zjp1997720/zhijian-ai-bluebook-workbuddy-harness/6ac68cd42a01add16568d1ab9cf2399822467fad/workbuddy-harness/fig-13.png)
+![三本账的分工](https://gh-proxy.com/https://raw.githubusercontent.com/zjp1997720/zhijian-ai-bluebook-workbuddy-harness/6ac68cd42a01add16568d1ab9cf2399822467fad/workbuddy-harness/fig-13.png)
 
 *图 10-1：三本账的分工。*
 

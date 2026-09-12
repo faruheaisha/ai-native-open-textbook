@@ -143,7 +143,7 @@ You can then choose from a variety of models to run on your local machine. For t
 
 ## Creating an assistant to handle sensitive information locally
 
-![Lemonade Server Interface](https://raw.githubusercontent.com/lemonade-sdk/assets/refs/heads/main/huggingface_course/hf_lemonade.png)
+![Lemonade Server Interface](https://gh-proxy.com/https://raw.githubusercontent.com/lemonade-sdk/assets/refs/heads/main/huggingface_course/hf_lemonade.png)
 
 Now let's enhance our end-to-end application by enabling access to local files and introducing an assistant that processes sensitive information entirely on-device. Specifically, this assistant will help us evaluate candidate resumes and support decision-making in the hiring process—all while keeping the data private and secure.
 
@@ -210,7 +210,7 @@ Checkpoint: Menlo/Jan-nano-gguf:jan-nano-4b-Q4_0.gguf
 Recipe: llamacpp
 ```
 
-![Custom Model](https://raw.githubusercontent.com/lemonade-sdk/assets/refs/heads/main/huggingface_course/custom_model.png)
+![Custom Model](https://gh-proxy.com/https://raw.githubusercontent.com/lemonade-sdk/assets/refs/heads/main/huggingface_course/custom_model.png)
 
 All done! Now let's give it a try.
 
@@ -218,7 +218,7 @@ All done! Now let's give it a try.
 
 ### Taking it for a spin
 
-![recording](https://raw.githubusercontent.com/lemonade-sdk/assets/refs/heads/main/huggingface_course/recording.gif)
+![recording](https://gh-proxy.com/https://raw.githubusercontent.com/lemonade-sdk/assets/refs/heads/main/huggingface_course/recording.gif)
 
 Our goal is to create an assistant that can help us handle sensitive information locally. To do this, we'll first create a job description file for our assistant to work with.
 

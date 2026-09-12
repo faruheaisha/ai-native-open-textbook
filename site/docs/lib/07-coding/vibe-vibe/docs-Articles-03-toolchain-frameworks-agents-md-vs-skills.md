@@ -129,7 +129,7 @@ Skills 看起来是正确的抽象。你将框架文档打包成一个 Skill，�
 
 团队在所有四种配置上运行了强化的评估套件：
 
-![所有四种配置的评估结果。AGENTS.md（第三列）在构建、检查和测试中达到 100%](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/agents-md-eval-results.png)
+![所有四种配置的评估结果。AGENTS.md（第三列）在构建、检查和测试中达到 100%](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/agents-md-eval-results.png)
 
 **最终通过率**：
 
@@ -173,7 +173,7 @@ Skills 看起来是正确的抽象。你将框架文档打包成一个 Skill，�
 
 完整索引涵盖 Next.js 文档的每个部分：
 
-![完整的压缩文档索引。每行将目录路径映射到它包含的文档文件](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/agents-md-compressed-index.png)
+![完整的压缩文档索引。每行将目录路径映射到它包含的文档文件](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/agents-md-compressed-index.png)
 
 智能体知道在哪里找到文档，而无需在上下文中包含完整内容。当它需要特定信息时，它从 `.next-docs/` 目录读取相关文件。
 

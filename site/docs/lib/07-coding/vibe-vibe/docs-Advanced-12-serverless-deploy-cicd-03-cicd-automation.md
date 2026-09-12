@@ -42,7 +42,7 @@ CI/CD 听起来很高级，但用大白话说就是两件事：
 - **推送到 `main` 分支** → 自动部署到生产环境（用户访问的正式版本）
 - **创建 Pull Request** → 自动构建并生成预览链接
 
-![image-20260302013311084](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260302013311084.png)
+![image-20260302013311084](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260302013311084.png)
 
 **预览链接是 CI/CD 最直观的产物。** 
 

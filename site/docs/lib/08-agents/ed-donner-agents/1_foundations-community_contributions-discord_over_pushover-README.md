@@ -12,6 +12,8 @@ entryUrl: ""
 zh: ""
 ---
 
+# Ed Donner：AI Agents 实战课
+
 ## Reason
 
 I wanted to receive notifications even after 30 days. That's why I decided to use discord webhooks instead of pushover. The code is not much different.

@@ -20,7 +20,7 @@ zh: ""
 
 ---
 
-![三级模型路由](https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s08_model_routing/images/model-routing.svg)
+![三级模型路由](https://gh-proxy.com/https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s08_model_routing/images/model-routing.svg)
 
 ## 代码架构图
 

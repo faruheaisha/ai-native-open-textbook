@@ -31,7 +31,7 @@ The model thinks "read this file" but has to spell out `cat path/to/file`. An ex
 
 ## Overview: Tool Dispatch
 
-![Tool Dispatch](https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s02_tool_use/images/tool-dispatch.en.svg)
+![Tool Dispatch](https://gh-proxy.com/https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s02_tool_use/images/tool-dispatch.en.svg)
 
 The s01 loop is fully preserved (LLM call, `tool_use` block check, message append — not a single word changed). The only change is in that one line of tool execution: `run_bash()` is replaced with `TOOL_HANDLERS[block.name]()` dispatch lookup.
 

@@ -229,52 +229,52 @@ A/B 测试
 
 打开左侧“专家·技能·连接器”，可以从技能市场搜索，也可以用“查找技能”描述需求。
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 5 章 WorkBuddy加载一个真正用得上的 Skill/assets/001_image_TdcLblfvIo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 5 章 WorkBuddy加载一个真正用得上的 Skill/assets/001_image_TdcLblfvIo.png)
 
 也可以在SkillHub技能市场里找到合适的Skill
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 5 章 WorkBuddy加载一个真正用得上的 Skill/assets/002_image_V3E5bsVZGo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 5 章 WorkBuddy加载一个真正用得上的 Skill/assets/002_image_V3E5bsVZGo.png)
 
 除了从推荐列表里直接安装，还可以**导入自己下载的技能**。
 
 比如你在网上看到一个好用的技能包，下载下来是一个 zip 压缩文件，操作流程是这样的：点击"上传技能"，把 zip 文件加载即可
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 5 章 WorkBuddy加载一个真正用得上的 Skill/assets/003_image_Oag3bNQHOo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 5 章 WorkBuddy加载一个真正用得上的 Skill/assets/003_image_Oag3bNQHOo.png)
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 5 章 WorkBuddy加载一个真正用得上的 Skill/assets/004_image_GgOebNBh3o.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 5 章 WorkBuddy加载一个真正用得上的 Skill/assets/004_image_GgOebNBh3o.png)
 
 ## 使用Skill解决一个任务
 
 比如，你让AI写了一篇文章，需要去除AI味，你可以找到“文章去AI味工具 ”Skill，安装之后，使用时，直接 “/” 可以换出。
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 5 章 WorkBuddy加载一个真正用得上的 Skill/assets/005_20260708200848_NN3hbPsKAo.gif)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 5 章 WorkBuddy加载一个真正用得上的 Skill/assets/005_20260708200848_NN3hbPsKAo.gif)
 
 你只需要引用Skill内容，把文章给到即可，
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 5 章 WorkBuddy加载一个真正用得上的 Skill/assets/006_image_Xom2btXVZo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 5 章 WorkBuddy加载一个真正用得上的 Skill/assets/006_image_Xom2btXVZo.png)
 
 WorkBuddy 会先加载skill的内容，
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 5 章 WorkBuddy加载一个真正用得上的 Skill/assets/007_image_AmOVb1oGEo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 5 章 WorkBuddy加载一个真正用得上的 Skill/assets/007_image_AmOVb1oGEo.png)
 
 根据skill中的规则，来执行，比如要去除不是而是、双引号等内容，
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 5 章 WorkBuddy加载一个真正用得上的 Skill/assets/008_image_FbpQbmSswo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 5 章 WorkBuddy加载一个真正用得上的 Skill/assets/008_image_FbpQbmSswo.png)
 
 修改之后，可以得到结果，确实去除了AI味。
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 5 章 WorkBuddy加载一个真正用得上的 Skill/assets/009_image_RhBKbRhgIo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 5 章 WorkBuddy加载一个真正用得上的 Skill/assets/009_image_RhBKbRhgIo.png)
 
 ## Skill的关闭和卸载
 
 从全部技能中，点击我安装的
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 5 章 WorkBuddy加载一个真正用得上的 Skill/assets/010_image_NGsdbBcjso.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 5 章 WorkBuddy加载一个真正用得上的 Skill/assets/010_image_NGsdbBcjso.png)
 
 按钮关闭（则关闭该Skill）
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 5 章 WorkBuddy加载一个真正用得上的 Skill/assets/011_image_DABBb41fGo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 5 章 WorkBuddy加载一个真正用得上的 Skill/assets/011_image_DABBb41fGo.png)
 
 点击“···”，可以选择删除或编辑该Skill
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 5 章 WorkBuddy加载一个真正用得上的 Skill/assets/012_image_Uya3bNC9io.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 5 章 WorkBuddy加载一个真正用得上的 Skill/assets/012_image_Uya3bNC9io.png)

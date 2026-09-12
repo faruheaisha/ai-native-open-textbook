@@ -291,7 +291,7 @@ AI 会返回一份结构化的需求和对应的提示词。你自己检查一�
 ```
 
 通常 AI 会生成类似下面的结构化提示词：
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/building-prototype/images/index-2026-01-14-14-25-56.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/building-prototype/images/index-2026-01-14-14-25-56.webp)
 
 你可以把这份提示词稍作修改后，发给 AI IDE 生成代码。
 
@@ -316,13 +316,13 @@ AI IDE 的界面和确认方式会持续变化，这里只保留一条稳定的�
 如果 AI 停止运行，先查看它是否在等待确认，或者终端中是否已经启动了开发服务。不要只按教程寻找某个固定按钮。
 
 完成第一轮生成后，可以得到一版包含主要结构的页面：
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/building-prototype/images/index-2026-01-14-14-50-34.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/building-prototype/images/index-2026-01-14-14-50-34.webp)
 
 初版页面已经包含主要结构，但信息层级和间距还可以继续调整。此时可以通过具体描述和页面截图，让 AI 修改界面。调整以后，页面会更容易阅读和操作：
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/building-prototype/images/index-2026-01-14-15-05-16.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/building-prototype/images/index-2026-01-14-15-05-16.webp)
 
 你可以根据需求继续删减功能，例如：“第一版暂时不需要批量导入，请先移除”，“左侧字段太多，请只保留完成核心流程所需的内容”。也可以参考成熟产品的信息结构和交互方式，但应重新组织品牌、文案和视觉细节，而不是直接复制页面。完成后可以得到：
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/building-prototype/images/index-2026-01-14-15-15-18.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/building-prototype/images/index-2026-01-14-15-15-18.webp)
 
 ### 2.3 遇到报错怎么办
 
@@ -364,12 +364,12 @@ AI IDE 的界面和确认方式会持续变化，这里只保留一条稳定的�
 核心流程可以运行后，再检查导航、设置和列表等页面。初版中有些入口可能只有外观，还没有对应行为。
 
 可以让 AI 对照需求列出尚未实现的页面，再按优先级逐个补充。每完成一个页面，都实际点击并检查关键交互：
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/building-prototype/images/index-2026-01-14-15-17-55.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/building-prototype/images/index-2026-01-14-15-17-55.webp)
 
 等待片刻后，我们能够看到程序已经在之前的基础上补充了多个页面和可交互功能：
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/building-prototype/images/index-2026-01-14-15-23-40.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/building-prototype/images/index-2026-01-14-15-23-40.webp)
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/building-prototype/images/index-2026-01-14-15-23-53.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/building-prototype/images/index-2026-01-14-15-23-53.webp)
 
 完成后，按真实使用顺序走一遍流程。记录无法点击、跳转错误或内容缺失的位置，再逐项修复。
 
@@ -436,21 +436,21 @@ AI IDE 的界面和确认方式会持续变化，这里只保留一条稳定的�
 ```
 
 可以先准备一个正常示例，再补充信息缺失、图片格式不符等边界示例：
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/building-prototype/images/index-2026-01-14-15-30-30.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/building-prototype/images/index-2026-01-14-15-30-30.webp)
 
 点击后得到结果：
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/building-prototype/images/index-2026-01-14-15-31-23.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/building-prototype/images/index-2026-01-14-15-31-23.webp)
 
 如果结果立即出现，用户无法判断系统是否正在处理。可以加入一个短暂的加载状态，用来验证等待过程中的按钮、提示和占位内容：
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/building-prototype/images/index-2026-01-14-15-50-05.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/building-prototype/images/index-2026-01-14-15-50-05.webp)
 
 走通生成功能后，我们还要确保模板库的功能正常，从页面的生成卡片上我们能够知道模版库收藏功能并没有实现，此时需要和 AI 进一步深入对话，“请你帮我确保需求 [此处粘贴上面的 2. 的内容] 正常，可以点击一个结果收藏对应的模板，点开后能看到生成参数”
 
 第一次实现通常还会遗漏一些状态，可以结合截图逐项修正：
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/building-prototype/images/index-2026-01-14-15-57-14.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/building-prototype/images/index-2026-01-14-15-57-14.webp)
 
 最后得到预期结果：
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/building-prototype/images/index-2026-01-14-16-12-56.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/building-prototype/images/index-2026-01-14-16-12-56.webp)
 
 除了手动体验需求流程，你还可以让 AI 帮你直接做需求检查，例如：
 

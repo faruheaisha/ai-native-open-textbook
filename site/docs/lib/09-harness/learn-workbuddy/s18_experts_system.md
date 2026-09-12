@@ -20,7 +20,7 @@ zh: ""
 
 ---
 
-![专家系统](https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s18_experts_system/images/experts-system.svg)
+![专家系统](https://gh-proxy.com/https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s18_experts_system/images/experts-system.svg)
 
 ## 代码架构图
 

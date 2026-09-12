@@ -12,6 +12,8 @@ entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a0
 zh: ""
 ---
 
+# 鱼皮 AI 导航（ai-guide）
+
 <h1 align="center">🐟 鱼皮的 AI 知识库</h1>
 
   <b>完全免费开放的 AI 知识共享平台 | 减少信息差，让每个人都能享受技术红利</b>

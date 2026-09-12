@@ -20,7 +20,7 @@ zh: ""
 
 **Claude Code 现已支持[智能体团队](https://code.claude.com/docs/en/agent-teams)**（swarms）。不再是单个智能体按顺序完成任务，而是由一个主智能体将工作委派给多个团队成员，它们并行工作——研究、调试和构建，同时相互协调。在你的 `settings.json` 中启用智能体团队功能来试用它。如果你一直在通过 Conductor、Gas Town 或类似工具探索多智能体编排，这个消息会让你兴奋。
 
-![展示主智能体将任务委派给多个团队成员的示意图，每个成员并行处理项目的不同方面](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/03-toolchain-frameworks/claude-code-swarms/01.webp)
+![展示主智能体将任务委派给多个团队成员的示意图，每个成员并行处理项目的不同方面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/03-toolchain-frameworks/claude-code-swarms/01.webp)
 
 社区一直将这些模式称为 **swarms**（群体）—— 协调的 AI 智能体团队，每个都有专门的角色，通过结构化通信并行工作。从开发者在 Claude Code 的二进制文件中发现功能标志并通过子智能体和 bash 脚本构建变通方案开始，现在已经成为一流的功能。TeammateTool、基于收件箱的通信、tmux 分屏——这些都已经实现。
 
@@ -80,7 +80,7 @@ swarms 背后的核心洞察很简单～**LLM 的表现随着上下文扩展而�
 
 Claude 创建带有共享任务列表的团队，为每个视角生成团队成员，让它们探索问题，并综合发现。负责人的终端列出所有团队成员及其正在处理的工作。
 
-![终端截图显示一个团队负责人和三个团队成员，每个都在处理与 CLI 工具项目相关的不同任务](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/03-toolchain-frameworks/claude-code-swarms/02.webp)
+![终端截图显示一个团队负责人和三个团队成员，每个都在处理与 CLI 工具项目相关的不同任务](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/03-toolchain-frameworks/claude-code-swarms/02.webp)
 
 你也可以明确团队结构：
 

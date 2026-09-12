@@ -25,7 +25,7 @@ AI 改变了人们查找信息的方式。对企业而言，理解 LLM 如何搜
 
 我们正在构建一个 AI 引擎优化（AEO）系统，用于追踪模型如何发现、解释和引用 Vercel 及我们的网站。
 
-![营销团队的最终用户看到的是跨编程智能体格式一致的响应](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/2026-03/vercel-aeo-tracking.png)
+![营销团队的最终用户看到的是跨编程智能体格式一致的响应](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/2026-03/vercel-aeo-tracking.png)
 
 这最初只是一个面向标准聊天模型的原型，但我们很快意识到这还不够。想真正看清可见性，就必须把 Coding Agents 也纳入追踪范围。
 

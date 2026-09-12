@@ -71,13 +71,13 @@ ima 知识库连接器是 WorkBuddy 与 ima 之间的桥梁——WorkBuddy 可�
 - **图片/截图**：长按图片 → 用小程序打开 → 选择 ima
 
 日积月累，你的 ima 知识库里就有了原始素材。
-![workbuddy添加ima连接器](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/cases/submissions/wechat-ima-knowledge/assets\小程序一键存入ima.jpg)
+![workbuddy添加ima连接器](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/cases/submissions/wechat-ima-knowledge/assets\小程序一键存入ima.jpg)
 
 ### 第二步：在 WorkBuddy 中添加 ima 连接器
 
 在 WorkBuddy 中打开连接器管理面板，搜索并添加「ima 知识库」连接器，完成授权。授权完成后，WorkBuddy 就能读取你的 ima 知识库内容了。
 
-![workbuddy添加ima连接器](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/cases/submissions/wechat-ima-knowledge/assets\workbuddy添加ima连接器.png)
+![workbuddy添加ima连接器](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/cases/submissions/wechat-ima-knowledge/assets\workbuddy添加ima连接器.png)
 
 ### 第三步：用 WorkBuddy 梳理知识体系
 

@@ -12,6 +12,8 @@ entryUrl: "https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24
 zh: ""
 ---
 
+# Vibe Coding 提示词模板
+
 <h3 align="center">Vibe Workflow — plan, build, check, and recover</h3>
 
   <strong>Your AI can write code. This workflow helps you decide what to build, check what works, and recover when it breaks.</strong>

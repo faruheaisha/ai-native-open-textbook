@@ -12,6 +12,8 @@ entryUrl: "https://github.com/Piebald-AI/claude-code-system-prompts/blob/3af4c61
 zh: ""
 ---
 
+# Claude Code System Prompts
+
 ${HOOK_EVALUATION_TASK_PROMPT} ${TRANSCRIPT_PATH!==void 0?`The conversation transcript is available at: ${TRANSCRIPT_PATH}
 You can read this file to analyze the conversation history if needed.`:"This call is being served for another machine's session; there is no local conversation transcript to read."}
 

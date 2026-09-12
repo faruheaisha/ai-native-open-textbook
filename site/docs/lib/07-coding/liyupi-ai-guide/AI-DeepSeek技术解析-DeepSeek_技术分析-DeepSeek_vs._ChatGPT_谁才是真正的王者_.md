@@ -12,6 +12,8 @@ entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a0
 zh: ""
 ---
 
+# 鱼皮 AI 导航（ai-guide）
+
 ## DeepSeek vs. ChatGPT：谁才是真正的王者？
 
 作为一名PPC Campaign Manager，我每天都与各种数据和技术打交道。最近，DeepSeek的出现，让我对AI领域的未来发展充满了好奇，也让我开始思考：DeepSeek和ChatGPT，究竟谁更强大？

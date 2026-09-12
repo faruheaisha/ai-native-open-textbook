@@ -12,8 +12,10 @@ entryUrl: "https://github.com/staruhub/awesome-workbuddy/blob/e32b6c953154e41f6c
 zh: ""
 ---
 
+# 办公 Agent 生态清单（awesome-workbuddy）
+
 <h1 align="center">
-  <a href="https://www.workbuddy.cn/"><img src="https://raw.githubusercontent.com/staruhub/awesome-workbuddy/e32b6c953154e41f6cb4e6b69fd7d933f5cef3d3/assets/banner.png" alt="Awesome WorkBuddy" width="800" /></a>
+  <a href="https://www.workbuddy.cn/"><img src="https://gh-proxy.com/https://raw.githubusercontent.com/staruhub/awesome-workbuddy/e32b6c953154e41f6cb4e6b69fd7d933f5cef3d3/assets/banner.png" alt="Awesome WorkBuddy" width="800" /></a>
 </h1>
 
   

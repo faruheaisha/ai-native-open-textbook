@@ -9,12 +9,16 @@ tier: 1
 volume: "10-context-memory"
 sourceUrl: "https://github.com/coleam00/context-engineering-intro"
 entryUrl: "https://github.com/coleam00/context-engineering-intro/blob/a2d84b021cee1e2f4e77ba854bba0be8cb319035/README.md"
-zh: ""
+zh: "on"
 ---
+
+# Context Engineering Intro
 
 ## Purpose
 
 [Brief description of the PydanticAI agent to be built and its main purpose]
+
+<div class="tb-zh"><p>[待构建的 PydanticAI agent 的简要描述及其主要用途]</p></div>
 
 ## Core Principles
 
@@ -24,9 +28,13 @@ zh: ""
 4. **Context Engineering Integration**: Apply proven context engineering workflows to AI agent development
 5. **Comprehensive Testing**: Use TestModel and FunctionModel for thorough agent validation
 
+<div class="tb-zh"><p>1）PydanticAI 最佳实践：与 PydanticAI 的 agent 创建、工具与结构化输出模式深度集成；2）生产就绪：包含面向生产部署的安全性、测试与监控；3）类型安全优先：自始至终利用 PydanticAI 的类型安全设计与 Pydantic 校验；4）上下文工程集成：把经过验证的上下文工程工作流应用到 AI agent 开发中；5）完整测试：用 TestModel 和 FunctionModel 做彻底的 agent 验证。</p></div>
+
 ## ⚠️ Implementation Guidelines: Don't Over-Engineer
 
 **IMPORTANT**: Keep your agent implementation focused and practical. Don't build unnecessary complexity.
+
+<div class="tb-zh"><p>重要：保持 agent 实现聚焦且实用。不要构建不必要的复杂性。</p></div>
 
 ### What NOT to do:
 - ❌ **Don't create dozens of tools** - Build only the tools your agent actually needs
@@ -48,15 +56,21 @@ zh: ""
 
 If the answer is no, don't build it. Keep it simple, focused, and functional.
 
+<div class="tb-zh"><p>如果答案是「不需要」，就不要构建它。保持简单、聚焦、可用。</p></div>
+
 ---
 
 ## Goal
 
 [Detailed description of what the agent should accomplish]
 
+<div class="tb-zh"><p>[详细描述这个 agent 应当完成什么]</p></div>
+
 ## Why
 
 [Explanation of why this agent is needed and what problem it solves]
+
+<div class="tb-zh"><p>[说明为什么需要这个 agent，以及它解决什么问题]</p></div>
 
 ## What
 
@@ -211,12 +225,16 @@ implementation_gotchas:
 
 **RESEARCH REQUIRED - Complete before implementation:**
 
+<div class="tb-zh"><p>必须调研——在实现之前完成：</p></div>
+
 ✅ **PydanticAI Framework Deep Dive:**
 - [ ] Agent creation patterns and best practices
 - [ ] Model provider configuration and fallback strategies
 - [ ] Tool integration patterns (@agent.tool vs @agent.tool_plain)
 - [ ] Dependency injection system and type safety
 - [ ] Testing strategies with TestModel and FunctionModel
+
+<div class="tb-zh"><p>✅ PydanticAI 框架深入研读：agent 创建模式与最佳实践；模型 provider 配置与回退策略；工具集成模式（@agent.tool 与 @agent.tool_plain 的取舍）；依赖注入系统与类型安全；用 TestModel 和 FunctionModel 的测试策略。</p></div>
 
 ✅ **Agent Architecture Investigation:**
 - [ ] Project structure conventions (agent.py, tools.py, models.py, dependencies.py)
@@ -225,12 +243,16 @@ implementation_gotchas:
 - [ ] Async/sync patterns and streaming support
 - [ ] Error handling and retry mechanisms
 
+<div class="tb-zh"><p>✅ Agent 架构调研：项目结构约定（agent.py、tools.py、models.py、dependencies.py）；system prompt 设计（静态与动态）；用 Pydantic 模型做结构化输出校验；异步与同步模式及流式支持；错误处理与重试机制。</p></div>
+
 ✅ **Security and Production Patterns:**
 - [ ] API key management and secure configuration
 - [ ] Input validation and prompt injection prevention
 - [ ] Rate limiting and monitoring strategies
 - [ ] Logging and observability patterns
 - [ ] Deployment and scaling considerations
+
+<div class="tb-zh"><p>✅ 安全与生产模式：API key 管理与安全配置；输入校验与提示词注入防护；限流与监控策略；日志与可观测性模式；部署与扩缩容考量。</p></div>
 
 ### Agent Implementation Plan
 
@@ -375,6 +397,8 @@ grep -r "logging\|logger" agent_project/ | wc -l  # Should have logging
 - [ ] Dependency injection properly configured and tested
 - [ ] Comprehensive test suite with TestModel and FunctionModel
 
+<div class="tb-zh"><p>交付清单：完整的 agent 项目结构——agent.py、tools.py、models.py、dependencies.py；以正确的模型 provider 配置实例化 agent；用 @agent.tool 装饰器注册工具并集成 RunContext；用 Pydantic 模型校验结构化输出；正确配置并测试依赖注入；用 TestModel 和 FunctionModel 构建完整的测试套件。</p></div>
+
 ### PydanticAI Best Practices
 
 - [ ] Type safety throughout with proper type hints and validation
@@ -383,6 +407,8 @@ grep -r "logging\|logger" agent_project/ | wc -l  # Should have logging
 - [ ] Async/sync patterns consistent and appropriate
 - [ ] Documentation and code comments for maintainability
 
+<div class="tb-zh"><p>全程类型安全，有恰当的类型提示与校验；落实安全模式（API key、输入校验、限流）；错误处理与重试机制以保证稳健运行；异步与同步模式保持一致且恰当；文档与代码注释便于维护。</p></div>
+
 ### Production Readiness
 
 - [ ] Environment configuration with .env files and validation
@@ -390,6 +416,8 @@ grep -r "logging\|logger" agent_project/ | wc -l  # Should have logging
 - [ ] Performance optimization and resource management
 - [ ] Deployment readiness with proper configuration management
 - [ ] Maintenance and update strategies documented
+
+<div class="tb-zh"><p>用 .env 文件做环境配置并校验；搭建日志与监控以便可观测；性能优化与资源管理；具备恰当的配置管理以便部署；记录维护与升级策略。</p></div>
 
 ---
 
@@ -403,12 +431,16 @@ grep -r "logging\|logger" agent_project/ | wc -l  # Should have logging
 - ❌ Don't create complex tool chains - keep tools focused and composable
 - ❌ Don't skip error handling - implement comprehensive retry and fallback mechanisms
 
+<div class="tb-zh"><p>❌ 不要跳过 TestModel 验证——开发期间始终用 TestModel 测试；❌ 不要硬编码 API key——所有凭证都使用环境变量；❌ 不要忽视异步模式——PydanticAI 对 async/sync 有特定要求；❌ 不要创建复杂的工具链——保持工具聚焦且可组合；❌ 不要跳过错误处理——实现完整的重试与回退机制。</p></div>
+
 ### Agent Architecture
 
 - ❌ Don't mix agent types - clearly separate chat, tool, workflow, and structured output patterns
 - ❌ Don't ignore dependency injection - use proper type-safe dependency management
 - ❌ Don't skip output validation - always use Pydantic models for structured responses
 - ❌ Don't forget tool documentation - ensure all tools have proper descriptions and schemas
+
+<div class="tb-zh"><p>❌ 不要混用 agent 类型——把对话、工具、工作流和结构化输出模式清晰分开；❌ 不要忽视依赖注入——使用恰当的类型安全依赖管理；❌ 不要跳过输出校验——结构化响应一律使用 Pydantic 模型；❌ 不要忘记工具文档——确保所有工具都有恰当的描述和 schema。</p></div>
 
 ### Security and Production
 
@@ -417,4 +449,8 @@ grep -r "logging\|logger" agent_project/ | wc -l  # Should have logging
 - ❌ Don't ignore rate limiting - implement proper throttling for external services
 - ❌ Don't deploy without monitoring - include proper observability from the start
 
+<div class="tb-zh"><p>❌ 不要暴露敏感数据——对所有输出与日志做安全核查；❌ 不要跳过输入校验——清洗并校验所有用户输入；❌ 不要忽视限流——对外部服务实现恰当的节流；❌ 不要在没有监控的情况下部署——从一开始就包含恰当的可观测性。</p></div>
+
 **RESEARCH STATUS: [TO BE COMPLETED]** - Complete comprehensive PydanticAI research before implementation begins.
+
+<div class="tb-zh"><p>调研状态：[待完成]——在实现开始之前先完成对 PydanticAI 的全面调研。</p></div>

@@ -22,7 +22,7 @@ s01 → ... → s15 → [s16](/lib/09-harness/learn-claude-code/s16_workflow_run
 
 ---
 
-![Goal Loop overview](https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s17_goal_loop/images/goal-loop-overview.svg)
+![Goal Loop overview](https://gh-proxy.com/https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s17_goal_loop/images/goal-loop-overview.svg)
 
 Since s01, the agent loop has had one simple exit condition: when the model stops calling tools, the program returns.
 

@@ -16,7 +16,7 @@ zh: ""
 
 *One day, software was debugged by humans staring at stack traces until their eyes bled. They would manually apply fixes, re-run scripts, and pray to the compiler. That era is fading. Engineering is becoming the domain of autonomous agents that monitor their own execution, observe their own failures, and self-correct in a recursive loop. This repo is a prototype of how that loop begins.*
 
-![Teaser](https://raw.githubusercontent.com/ed-donner/agents/8ceaf66c24643627c1e4806851736bdd444bdd4b/1_foundations/community_contributions/Hareesh_Debugger agent/assets/UI.png)
+![Teaser](https://gh-proxy.com/https://raw.githubusercontent.com/ed-donner/agents/8ceaf66c24643627c1e4806851736bdd444bdd4b/1_foundations/community_contributions/Hareesh_Debugger agent/assets/UI.png)
 
 ## The Idea
 Give an AI agent access to a local execution environment and a "buggy" script. The agent executes the code, captures the raw `stderr` (the Traceback), reasons about the failure, applies a fix, and verifies the result. It repeats this until the mission is accomplished. You don't "fix" the code; you set the goal and let the agent navigate the errors.
@@ -31,7 +31,7 @@ The repo is deliberately kept lean with only three core components:
 ## The loop in action
 The agent doesn't just suggest code; it verifies its own "Thought Process" by observing the terminal output. Below is a snapshot of the agent successfully navigating through multiple logical and syntax errors to reach a verified state.
 
-![Teaser](https://raw.githubusercontent.com/ed-donner/agents/8ceaf66c24643627c1e4806851736bdd444bdd4b/1_foundations/community_contributions/Hareesh_Debugger agent/assets/Report.png)
+![Teaser](https://gh-proxy.com/https://raw.githubusercontent.com/ed-donner/agents/8ceaf66c24643627c1e4806851736bdd444bdd4b/1_foundations/community_contributions/Hareesh_Debugger agent/assets/Report.png)
 
 ## Design Choices
 - **Recursive Autonomy.** Unlike a standard chatbot, this agent runs in a `while not done` loop. It doesn't just guess a fix; it verifies it.
@@ -55,4 +55,4 @@ uv run main.py
 ## Physical Notification
 Once the agent verifies that the script runs successfully without errors, it bridges the gap to the physical world, alerting you that the mission is complete
 
-![Teaser](https://raw.githubusercontent.com/ed-donner/agents/8ceaf66c24643627c1e4806851736bdd444bdd4b/1_foundations/community_contributions/Hareesh_Debugger agent/assets/Notification.jpg)
+![Teaser](https://gh-proxy.com/https://raw.githubusercontent.com/ed-donner/agents/8ceaf66c24643627c1e4806851736bdd444bdd4b/1_foundations/community_contributions/Hareesh_Debugger agent/assets/Notification.jpg)

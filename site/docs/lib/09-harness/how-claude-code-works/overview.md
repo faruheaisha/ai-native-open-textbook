@@ -217,7 +217,7 @@ Claude Code 支持三种多 Agent 模式：
 
 ## 🤝 贡献者
 
-| <img src="https://github.com/Windy3f3f3f3f.png" width="60" /> | <img src="https://github.com/davidweidawang.png" width="60" /> | <img src="https://raw.githubusercontent.com/Windy3f3f3f3f/how-claude-code-works/f4d6505ed9162a0ee6be089190f74c419ecacb19/assets/kaibo.jpg" width="60" /> | <img src="https://github.com/longx24.png" width="60" /> |
+| <img src="https://github.com/Windy3f3f3f3f.png" width="60" /> | <img src="https://github.com/davidweidawang.png" width="60" /> | <img src="https://gh-proxy.com/https://raw.githubusercontent.com/Windy3f3f3f3f/how-claude-code-works/f4d6505ed9162a0ee6be089190f74c419ecacb19/assets/kaibo.jpg" width="60" /> | <img src="https://github.com/longx24.png" width="60" /> |
 |:---:|:---:|:---:|:---:|
 | [@Windy3f3f3f3f](https://github.com/Windy3f3f3f3f) | [@davidweidawang](https://github.com/davidweidawang) | [Kaibo Huang](https://scholar.google.com/citations?user=C7B5X5IAAAAJ&hl=zh-CN) | [@longx24](https://github.com/longx24) |
 

@@ -12,6 +12,8 @@ entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a0
 zh: ""
 ---
 
+# 鱼皮 AI 导航（ai-guide）
+
 ## DeepSeek最强专业拆解：清交复教授超硬核解读
 
 导读：DeepSeek的写作能力为何飞跃？PTX是否真正做到了绕开CUDA的垄断？

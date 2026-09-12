@@ -43,8 +43,8 @@ zh: ""
 
 **在线阅读（GitHub Pages）**：[https://onefly.top/zero2Agent](https://onefly.top/zero2Agent)
 
-<img src="https://raw.githubusercontent.com/ranxi2001/zero2Agent/46e9f7c28f84f54b2f6e45681d14989f01e18291/assets/images/homepage.png" alt="首页" width="100%" />
-<img src="https://raw.githubusercontent.com/ranxi2001/zero2Agent/46e9f7c28f84f54b2f6e45681d14989f01e18291/assets/images/article-page.png" alt="文章页" width="100%" />
+<img src="https://gh-proxy.com/https://raw.githubusercontent.com/ranxi2001/zero2Agent/46e9f7c28f84f54b2f6e45681d14989f01e18291/assets/images/homepage.png" alt="首页" width="100%" />
+<img src="https://gh-proxy.com/https://raw.githubusercontent.com/ranxi2001/zero2Agent/46e9f7c28f84f54b2f6e45681d14989f01e18291/assets/images/article-page.png" alt="文章页" width="100%" />
 
 ---
 

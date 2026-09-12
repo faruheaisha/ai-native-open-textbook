@@ -18,39 +18,39 @@ zh: ""
 
 1. 点击“新建任务”；
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 4 章 快速完成第一个 WorkBuddy 任务/assets/001_image_C4q3bdNKso.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 4 章 快速完成第一个 WorkBuddy 任务/assets/001_image_C4q3bdNKso.png)
 
 2. 选择或创建独立工作目录；
 
 *PS：WorkBuddy 采用文件夹级授权与高危拦截，首次操作请先在演练目录进行、留意授权范围，处理真实业务数据前谨慎确认*
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 4 章 快速完成第一个 WorkBuddy 任务/assets/002_image_GeeybIFZLo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 4 章 快速完成第一个 WorkBuddy 任务/assets/002_image_GeeybIFZLo.png)
 
 3. 判断应该使用模式，默认为Craft，还可以设置成Ask或Plan；
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 4 章 快速完成第一个 WorkBuddy 任务/assets/003_image_DZ55bxbCvo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 4 章 快速完成第一个 WorkBuddy 任务/assets/003_image_DZ55bxbCvo.png)
 
 4. 选择模型，可以指定你想使用的模型，不同模型积分消耗不同。
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 4 章 快速完成第一个 WorkBuddy 任务/assets/004_image_JiigbkdTKo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 4 章 快速完成第一个 WorkBuddy 任务/assets/004_image_JiigbkdTKo.png)
 
 5. 输入任务说明，“帮我分析一下《电商销售数据.xlsx》数据，生成一份汇报 PPT。”
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 4 章 快速完成第一个 WorkBuddy 任务/assets/005_image_ReDxbwNkYo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 4 章 快速完成第一个 WorkBuddy 任务/assets/005_image_ReDxbwNkYo.png)
 
 6. 如有必要，指定 Skill、专家、连接器或资料库，这里暂时忽略
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 4 章 快速完成第一个 WorkBuddy 任务/assets/006_image_INLGb7TDQo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 4 章 快速完成第一个 WorkBuddy 任务/assets/006_image_INLGb7TDQo.png)
 
 7. 发送后观察计划、工具调用和文件变更；
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 4 章 快速完成第一个 WorkBuddy 任务/assets/007_image_BD1FbDdcEo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 4 章 快速完成第一个 WorkBuddy 任务/assets/007_image_BD1FbDdcEo.png)
 
 8. 在结果区预览产物并验收。
 
 文件可以本地打开、上传云端、或分享，注意分享前先确认产物不含敏感或涉密信息，按公司规范选择共享范围。
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 4 章 快速完成第一个 WorkBuddy 任务/assets/008_image_TzOAb2lxIo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 4 章 快速完成第一个 WorkBuddy 任务/assets/008_image_TzOAb2lxIo.png)
 
 ## 如何写一个任务说明
 

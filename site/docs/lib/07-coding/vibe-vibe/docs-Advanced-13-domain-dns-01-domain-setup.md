@@ -57,7 +57,7 @@ https://blog.myapp.com
 3. 搜索你想要的域名
 4. 选择年限（建议先买 1 年），完成支付
 
-![image-20260302021706102](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260302021706102.png)
+![image-20260302021706102](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260302021706102.png)
 
 ::: tip 国内域名注册
 如果你需要 `.cn` 域名或计划备案，推荐选择国内平台注册。流程类似：搜索域名 → 加入购物车 → 实名认证 → 支付。
@@ -92,7 +92,7 @@ CNAME 是呼叫转移——通讯录里存的是另一个人的名字，先查�
 
 平台会告诉你需要添加的 DNS 记录，通常是一条 CNAME 记录。（有时候也会让你添加 TXT 记录，认真按照要求填写即可）
 
-![image-20260302021734337](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260302021734337.png)
+![image-20260302021734337](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260302021734337.png)
 
 **第二步：在域名注册商添加 DNS 记录**
 
@@ -103,7 +103,7 @@ CNAME 是呼叫转移——通讯录里存的是另一个人的名字，先查�
 - **目标**：平台给你的 CNAME 值
 - **TTL**：自动
 
-![image-20260302021925134](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260302021925134.png)
+![image-20260302021925134](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260302021925134.png)
 
 **第三步：等待生效**
 
@@ -124,7 +124,7 @@ ping myapp.com
 
 ## HTTPS：给你的网站加把锁
 
-![image-20260302022236403](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260302022236403.png)
+![image-20260302022236403](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260302022236403.png)
 
 HTTP 是明信片，路上谁都能看；HTTPS 是密封信，只有收件人能打开。浏览器地址栏的小锁就是"密封信"的标志——它意味着用户和你的网站之间的数据传输是加密的，不会被中间人窃听。
 
@@ -134,11 +134,11 @@ HTTP 是明信片，路上谁都能看；HTTPS 是密封信，只有收件人能
 
 - **EdgeOne Pages**：需要你在域名管理页面手动点击"申请免费证书"。证书申请成功后会自动续期，不用担心过期
 
-  ![image-20260302022300776](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260302022300776.png)
+  ![image-20260302022300776](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260302022300776.png)
 
-  ![image-20260302022312982](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260302022312982.png)
+  ![image-20260302022312982](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260302022312982.png)
 
-![image-20260302022322990](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260302022322990.png)
+![image-20260302022322990](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260302022322990.png)
 
 如果绑定域名后没有看到小锁，等 5-15 分钟再刷新。证书签发需要一点时间。
 

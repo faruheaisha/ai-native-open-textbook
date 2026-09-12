@@ -12,13 +12,15 @@ entryUrl: "https://github.com/wangxiaoshuai1998/QwenWorkGuide/blob/002f698a68b69
 zh: ""
 ---
 
+# 千问办公绿皮书（QwenWorkGuide）
+
 > 本文来自艾笑AI《【自媒体学 AI 必看】公众号排版 skill 详解》。   
 
 很多 Skill 写不好，不是因为提示词不够强。
 
 而是因为一开始就没有把「流程、文件、脚本、模板」拆清楚。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【自媒体学 AI 必看】公众号排版 skill 详解/assets/001_80230461-d594-4b1c-b5d1-b852d75dac3e.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【自媒体学 AI 必看】公众号排版 skill 详解/assets/001_80230461-d594-4b1c-b5d1-b852d75dac3e.png)
 
 [写skill懵逼必看，从简单到复杂skill的工程化指南](https://mp.weixin.qq.com/s?__biz=MzkxMTc0MjQ2MA==&mid=2247484524&idx=1&sn=2a7dcb2ae38cdc88a26370eb9ebffe03&scene=21#wechat_redirect)
 
@@ -58,7 +60,7 @@ zh: ""
 
 Markdown 的文章语义，要被转换成微信公众号能识别、能保存、能展示的 HTML 标签。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【自媒体学 AI 必看】公众号排版 skill 详解/assets/002_011d4300-dab7-482b-bfc8-183afa2e09e3.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【自媒体学 AI 必看】公众号排版 skill 详解/assets/002_011d4300-dab7-482b-bfc8-183afa2e09e3.png)
 
 这就是公众号排版麻烦的地方。
 
@@ -90,7 +92,7 @@ Markdown 的文章语义，要被转换成微信公众号能识别、能保存�
 
 可以先把它画成这样：
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【自媒体学 AI 必看】公众号排版 skill 详解/assets/003_71ee51a2-dd7d-47b7-a4ed-d990d9eeca43.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【自媒体学 AI 必看】公众号排版 skill 详解/assets/003_71ee51a2-dd7d-47b7-a4ed-d990d9eeca43.png)
 
 这张流程图一画出来，问题就清楚了。
 
@@ -152,7 +154,7 @@ gzh-format/
 
 它的核心是把功能放到合适的位置。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【自媒体学 AI 必看】公众号排版 skill 详解/assets/004_b6655002-a150-4b9a-b79c-0e5b748ee7de.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【自媒体学 AI 必看】公众号排版 skill 详解/assets/004_b6655002-a150-4b9a-b79c-0e5b748ee7de.png)
 
 `SKILL.md` 负责整个流程和判断入口。
 
@@ -190,7 +192,7 @@ gzh-format/
 
 我现在更愿意把 `SKILL.md` 当成主控台。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【自媒体学 AI 必看】公众号排版 skill 详解/assets/005_268f80c6-a1b1-4046-94d0-6ac10ec92c0f.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【自媒体学 AI 必看】公众号排版 skill 详解/assets/005_268f80c6-a1b1-4046-94d0-6ac10ec92c0f.png)
 
 这里还有一个很容易被忽略的细节：Skill 的触发，并不是先读取 `SKILL.md` 正文。
 

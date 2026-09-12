@@ -68,4 +68,4 @@ Trace available in LangSmith when LANGSMITH_TRACING=true, LANGCHAIN_PROJECT, and
 
 Example LangSmith dashboard:
 
-![LangSmith dashboard](https://raw.githubusercontent.com/bonigarcia/context-engineering/46719154489e410b509db4fb69ab1c29fb3362a0/docs/img/langsmith-dashboard.png)
+![LangSmith dashboard](https://gh-proxy.com/https://raw.githubusercontent.com/bonigarcia/context-engineering/46719154489e410b509db4fb69ab1c29fb3362a0/docs/img/langsmith-dashboard.png)

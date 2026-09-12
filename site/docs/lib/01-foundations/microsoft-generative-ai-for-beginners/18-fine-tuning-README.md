@@ -35,7 +35,7 @@ Ready? Let's get started.
 
 Want to get the big picture of what we'll cover before we dive in? Check out this illustrated guide that describes the learning journey for this lesson - from learning the core concepts and motivation for fine-tuning, to understanding the process and best practices for executing the fine-tuning task. This is a fascinating topic for exploration, so don't forget to check out the [Resources](/lib/01-foundations/microsoft-generative-ai-for-beginners/18-fine-tuning-RESOURCES) page for additional links to support your self-guided learning journey!
 
-![Illustrated Guide to Fine Tuning Language Models](https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/18-fine-tuning/img/18-fine-tuning-sketchnote.png)
+![Illustrated Guide to Fine Tuning Language Models](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/18-fine-tuning/img/18-fine-tuning-sketchnote.png)
 
 ## What is fine-tuning for language models?
 

@@ -42,7 +42,7 @@ zh: ""
 
 为了创建可扩展的系统提示，我们可以使用系统消息框架来构建应用中的一个或多个代理：
 
-![建立系统消息框架](https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/system-message-framework.3a97368c92d11d68.webp)
+![建立系统消息框架](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/system-message-framework.3a97368c92d11d68.webp)
 
 #### 第一步：创建元系统消息
 
@@ -131,7 +131,7 @@ This AI assistant is designed to streamline the flight booking process for custo
 
 要构建可信赖的 AI 代理，理解并减轻风险和威胁至关重要。下面仅展示 AI 代理面临的一些不同威胁，以及您如何更好地规划和准备应对它们。
 
-![理解威胁](https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/understanding-threats.89edeada8a97fc0f.webp)
+![理解威胁](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/understanding-threats.89edeada8a97fc0f.webp)
 
 ### 任务和指令
 
@@ -167,7 +167,7 @@ This AI assistant is designed to streamline the flight booking process for custo
 
 另一构建可信赖 AI 代理系统的有效方法是采用“人在回路中”。这营造了一个流程，让用户在运行过程中向代理提供反馈。用户实质上充当多代理系统中的代理，提供批准或终止正在运行的过程。
 
-![人在回路中](https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/human-in-the-loop.5f0068a678f62f4f.webp)
+![人在回路中](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/human-in-the-loop.5f0068a678f62f4f.webp)
 
 下面是使用 Microsoft Agent Framework 实现该概念的代码片段：
 

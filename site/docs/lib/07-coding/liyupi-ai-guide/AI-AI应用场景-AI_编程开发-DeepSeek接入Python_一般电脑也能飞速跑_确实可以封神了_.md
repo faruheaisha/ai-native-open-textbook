@@ -12,6 +12,8 @@ entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a0
 zh: ""
 ---
 
+# 鱼皮 AI 导航（ai-guide）
+
 ## DeepSeek接入Python，一般电脑也能飞速跑，确实可以封神了！
 
 今天这篇教程介绍：DeepSeep最新推理模型R1接入Python编程，在本地电脑从零搭建方法。

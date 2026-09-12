@@ -26,7 +26,7 @@ zh: ""
 
 老黄是一位自动售货机货物运输员。DeepSeek 的爆火让他意识到：“时代的列车要开了，不管是在写字楼里喝咖啡的人，还是在货车里啃馒头的人，都会受到 AI 浪潮的冲击。不迎头赶上，就只能被甩在原地吃灰。”
 
-![老黄故事里的家乡旧影](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-4/image1.png)
+![老黄故事里的家乡旧影](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-4/image1.png)
 
 于是，这个彻头彻尾的门外汉决定认真学一学。他想看看，“一个原来只会开车的手，能不能敲响 AI 编程的门。”
 
@@ -41,11 +41,11 @@ zh: ""
 - “帮我做个贪吃蛇，要好看点，有开始按钮！”
 - “生成个动态地图，展示货物从中国发往全球的酷炫效果！”
 
-![老黄最开始做出的贪吃蛇 demo](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-4/image2.png)
+![老黄最开始做出的贪吃蛇 demo](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-4/image2.png)
 
 嗖的一声，应用就出来了。这种奇妙的感觉让他深受震撼。编程从一种枯燥的“手工业”，变成了指挥若定的“艺术”。这双握了半辈子方向盘的手，竟然也能握住数字世界的方向盘。
 
-![货运动态地图 demo](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-4/image3.png)
+![货运动态地图 demo](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-4/image3.png)
 
 ## 03 在崩溃和坚持里，硬跑通“商业闭环”
 
@@ -55,13 +55,13 @@ zh: ""
 
 刚开始复刻网站原型还算顺利。但到了第二步，实现“核心功能图生图”时，系统就开始疯狂报错。作为一个小白，老黄只能一边和 AI 对话调试，一边补基础知识。连续四五天，他白天开车补货，晚上回来就和 AI 展开“车轮战”，反复对话、调试、学习。最崩溃的时候，他守在屏幕前，对着 F12 开发者文档一坐就是一个通宵。
 
-![AI 编辑器的初版页面](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-4/image4.png)
+![AI 编辑器的初版页面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-4/image4.png)
 
 他也想过放弃。是学习群里的积极解答、知识分享会的专业分享，把他又拉了回来。这些都成了他坚持下来的力量。后来他用上了国产编程工具 Trae 的免费大模型，报错减少了，沟通也更顺畅了。老黄一口气把文生图、文生视频、老照片修复都接了进去。
 
-![老照片修复功能展示](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-4/image7.png)
+![老照片修复功能展示](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-4/image7.png)
 
-![Nano Banana 的编辑工作流页面](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-4/image6.png)
+![Nano Banana 的编辑工作流页面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-4/image6.png)
 
 最难啃的骨头，其实是设置域名邮箱、配置谷歌登录，以及接入支付系统（Paypal 和 Creem）。老黄对着官方文档，一边问 AI，一边自己做设计和配置。就这样，他一个人完成了从 0 到 1 的支付接口对接。
 
@@ -76,13 +76,13 @@ zh: ""
 - **学会偷师**：别光复制粘贴，尽量理解 AI 为什么这么写。
 - **调整心态**：报错了别怕，那是在教你避坑。
 
-![图生图工作流页面](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-4/image5.png)
+![图生图工作流页面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-4/image5.png)
 
 ## 05 时代列车，人人可上
 
 现在，老黄还是那个在郑州跑货车的司机。但和以前不同的是，现在的他多了一个身份：AI 应用开发者。最近他又给公司开发了一个“速便利校园零食购”小程序，极大提升了老师和同学们的购物体验。
 
-![老黄后来做的“速便利校园零食购”](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-4/image8.png)
+![老黄后来做的“速便利校园零食购”](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-4/image8.png)
 
 正如老黄所说：“只要有解决问题的冲动，代码就不再是门槛。”
 

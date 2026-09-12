@@ -26,7 +26,7 @@ zh: ""
 
 _AI助手在编码领域的崛起引发了一个悖论：我们可能正在提高生产力，但如果不小心，就有可能因技能退化而失去优势。技能退化是指由于缺乏使用或练习，技能随时间推移而下降或丧失。_
 
-![](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/04-engineering-practices/avoiding-skill-atrophy-in-the-age-of-ai/01.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/04-engineering-practices/avoiding-skill-atrophy-in-the-age-of-ai/01.jpg)
 
 **如果没有AI，你会完全陷入困境吗**？
 
@@ -50,7 +50,7 @@ _AI助手在编码领域的崛起引发了一个悖论：我们可能正在提�
 
 这在日常编码中是什么样子？它开始得很微妙。一位工程师[承认](https://nmn.gl/blog/ai-illiterate-programmers?trk=public_post_comment-text#:~:text=I%20stared%20at%20my%20terminal,it%20out%20without%20AI%E2%80%99s%20help)，在12年的编程生涯后，AI的即时帮助让他*"在自己的技艺上变得更差"*。他描述了一种逐渐的衰退：**首先，他停止阅读文档**——当LLM可以立即解释时，为什么还要费心呢？
 
-![](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/04-engineering-practices/avoiding-skill-atrophy-in-the-age-of-ai/02.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/04-engineering-practices/avoiding-skill-atrophy-in-the-age-of-ai/02.jpg)
 
 然后**调试技能减弱**——堆栈跟踪和错误消息感觉令人生畏，所以他只是将它们复制粘贴到AI中寻求修复。"我已经成为一个人类剪贴板"他感叹道，盲目地将错误传递给AI，然后将解决方案传回代码。每个错误曾经教会他一些新东西；现在*解决方案神奇地出现，他什么也学不到*。即时答案的多巴胺冲击取代了来之不易的理解所带来的满足感。
 
@@ -132,4 +132,4 @@ _AI助手在编码领域的崛起引发了一个悖论：我们可能正在提�
 
 _我很高兴分享我正在与O'Reilly合作撰写一本新的[AI辅助工程书籍](https://www.oreilly.com/library/view/vibe-coding-the/9798341634749/)。如果你喜欢我在这里的写作，你可能会有兴趣查看它。_
 
-![](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/04-engineering-practices/avoiding-skill-atrophy-in-the-age-of-ai/03.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/04-engineering-practices/avoiding-skill-atrophy-in-the-age-of-ai/03.png)

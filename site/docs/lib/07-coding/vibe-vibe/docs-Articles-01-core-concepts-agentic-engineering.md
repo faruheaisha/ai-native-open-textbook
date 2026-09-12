@@ -55,7 +55,7 @@ Andrej Karpathy 后来建议改用“[智能体工程](https://x.com/karpathy/st
 
 **它划清了边界。** 氛围编程强调快速试错；智能体工程强调 AI 负责实现推进，而人类对架构、质量与正确性负责。两者都可以有价值，但不应该混为一谈。
 
-![一个光谱图，一端是氛围编程，另一端是智能体工程，中间是 AI 辅助工程。](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/01-core-concepts/agentic-engineering/01.jpg)
+![一个光谱图，一端是氛围编程，另一端是智能体工程，中间是 AI 辅助工程。](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/01-core-concepts/agentic-engineering/01.jpg)
 
 ## **智能体工程在实践中可能是什么样子**
 

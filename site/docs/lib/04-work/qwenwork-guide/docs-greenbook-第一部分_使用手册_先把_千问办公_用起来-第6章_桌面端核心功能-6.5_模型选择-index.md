@@ -81,7 +81,7 @@ QwenWork 内置多个世界级 AI 模型，并提供灵活的选择机制，帮�
 
 不同模型的 Credits 消耗不同。点击界面右上角的用量图标（⏱），再点击弹出的 查看我的用量 即可查看余额与用量明细。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.5 模型选择/assets/001_e77332ca-fcfe-4716-950c-39037f7ecd0c.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.5 模型选择/assets/001_e77332ca-fcfe-4716-950c-39037f7ecd0c.webp)
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 

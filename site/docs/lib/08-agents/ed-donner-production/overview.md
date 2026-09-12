@@ -16,7 +16,7 @@ zh: ""
 
 ## Deploy Gen AI and Agentic AI at Scale in 4 weeks
 
-![Course Image](https://raw.githubusercontent.com/ed-donner/production/daeb3dae34be3287842ea7faa3e6f4cba467028b/assets/course.png)
+![Course Image](https://gh-proxy.com/https://raw.githubusercontent.com/ed-donner/production/daeb3dae34be3287842ea7faa3e6f4cba467028b/assets/course.png)
 
 _If you're looking at this in Cursor, please right click on the filename in the Explorer on the left, and select "Open preview", to view it in formatted glory._
 

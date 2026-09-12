@@ -95,7 +95,7 @@ Logo 是决定你网站第一印象的关键元素之一。想要从 AI 设计 A
 
 - 输入上述提示词 → 比对 Agent 生成的多个设计稿。
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image1.webp)![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image2.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image1.webp)![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image2.webp)
 
 ## 4. 确定最终 Logo
 
@@ -154,11 +154,11 @@ Logo 是决定你网站第一印象的关键元素之一。想要从 AI 设计 A
   - https://colorhunt.co/
   - https://coolors.co/
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image3.webp)![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image4.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image3.webp)![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image4.webp)
 
 - **在 Google 上通过关键词搜索配色**
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image5.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image5.webp)
 
 ## 4. 编写网站设计提示词
 
@@ -180,7 +180,7 @@ Logo 是决定你网站第一印象的关键元素之一。想要从 AI 设计 A
 
 **Mastergo 提示词示例**
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image6.webp)![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image7.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image6.webp)![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image7.webp)
 
 ## 2. 审阅设计稿并提出修改意见
 
@@ -191,7 +191,7 @@ Logo 是决定你网站第一印象的关键元素之一。想要从 AI 设计 A
 - “调整一下颜色搭配。”
 - “把这里这一块删掉。”
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image8.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image8.webp)
 
 ## 3. 确定最终设计
 
@@ -203,15 +203,15 @@ Logo 是决定你网站第一印象的关键元素之一。想要从 AI 设计 A
 
 1. 打开 [Mastergo 插件网站](https://mastergo.com/community/plugin)，搜索 **seal**。
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image9.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image9.webp)
 
 2. 回到设计页面，点击 **方块图标（插件）**。
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image10.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image10.png)
 
 3. 选中你想转换为代码的设计区域，点击 **Generate** 按钮生成代码。
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image11.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image11.webp)
 
 ---
 
@@ -290,7 +290,7 @@ function showAlert() {
 背景为黑色，文字为白色。"
 ```
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image12.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image12.webp)
 
 ## 3. 运行网站
 
@@ -311,7 +311,7 @@ function showAlert() {
 - “把按钮做大一点。”
 - “字体粗一点。”
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image13.png)![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image14.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image13.png)![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image14.png)
 
 ## 5. 修改网站文案内容
 
@@ -321,15 +321,15 @@ Agent 生成的初版网站，通常会包含一些自动生成的占位文本�
 
 1. 先写好你想在 About 页面展示的内容。为了方便 Agent 理解，可以将内容保存为 Markdown 格式。
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image15.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image15.webp)
 
 2. 然后在对话中告诉 Agent，将该文件中的内容应用到指定页面上。
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image16.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image16.png)
 
 3. 查看应用内容后的更新版本。
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image17.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image17.webp)
 
 ## 6. 插入图片
 
@@ -337,11 +337,11 @@ Agent 生成的初版网站，通常会包含一些自动生成的占位文本�
 
 - **示例：**
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image18.png)![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image19.png)![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image20.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image18.png)![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image19.png)![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image20.png)
 
 - **结果：**
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image21.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image21.webp)
 
 ---
 
@@ -353,8 +353,8 @@ Agent 生成的初版网站，通常会包含一些自动生成的占位文本�
 
 - **示例：**
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image22.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image22.webp)
 
 - **结果：**
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image23.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/appendix-articles/example0-2/images/image23.webp)

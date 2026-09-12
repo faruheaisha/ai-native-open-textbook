@@ -20,7 +20,7 @@ zh: ""
 
 ---
 
-![工具输出外部化](https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s13_output_externalization/images/output-externalization.svg)
+![工具输出外部化](https://gh-proxy.com/https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s13_output_externalization/images/output-externalization.svg)
 
 ## 代码架构图
 

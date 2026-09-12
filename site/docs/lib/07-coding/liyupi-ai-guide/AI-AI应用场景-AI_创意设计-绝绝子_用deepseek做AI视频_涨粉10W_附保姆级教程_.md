@@ -12,6 +12,8 @@ entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a0
 zh: ""
 ---
 
+# 鱼皮 AI 导航（ai-guide）
+
 ## 绝绝子！用deepseek做AI视频，涨粉10W+（附保姆级教程）
 
 今天分享用deepseek做AI视频，流量飞起，更让我们舒畅的是，deepseek竟然限制了除 86 开头的手机号之外的注册。国产 AI 的崛起！

@@ -12,6 +12,8 @@ entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a0
 zh: ""
 ---
 
+# 鱼皮 AI 导航（ai-guide）
+
 ## 教你用DeepSeek+Clien，从0到1开发一个APP
 
 ![img](https://pic.yupi.icu/yuyi/1739500352583-f02b1c47-9b5f-49cb-8145-93dd96498a6a.webp)

@@ -12,6 +12,8 @@ entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a0
 zh: ""
 ---
 
+# 鱼皮 AI 导航（ai-guide）
+
 ## 用DeepSeek写文章？这4个骚操作让你躺平也能出爆款！（含提示词）
 
 DeepSeek 作为在春节期间破圈的国产之光AI，很多人只会用来问答或者写点基础文案，但其实它能做的事情多得超乎你的想象。

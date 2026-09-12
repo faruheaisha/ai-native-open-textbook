@@ -62,4 +62,4 @@ The script will run a simple AI agent, built with `create_agent`, that calls a d
 
 You can visit the Langfuse URL to see a complete, step-by-step visualization of the agent's execution, including thoughts, tool calls, and LLM inputs/outputs.
 
-![Langfuse web interface](https://raw.githubusercontent.com/bonigarcia/context-engineering/46719154489e410b509db4fb69ab1c29fb3362a0/docs/img/langfuse-dashboard.png)
+![Langfuse web interface](https://gh-proxy.com/https://raw.githubusercontent.com/bonigarcia/context-engineering/46719154489e410b509db4fb69ab1c29fb3362a0/docs/img/langfuse-dashboard.png)

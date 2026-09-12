@@ -12,6 +12,8 @@ entryUrl: "https://github.com/bonigarcia/context-engineering/blob/46719154489e41
 zh: ""
 ---
 
+# Context Engineering（Bonigarcia 教程）
+
 ## Local retrieval-augmented generation (RAG)
 
 This sample application implements a local RAG system using the following stack:
@@ -73,4 +75,4 @@ npm install
 npm run dev
 ```
 
-![RAG UI interface](https://raw.githubusercontent.com/bonigarcia/context-engineering/46719154489e410b509db4fb69ab1c29fb3362a0/docs/img/loca-rag-ui.png)
+![RAG UI interface](https://gh-proxy.com/https://raw.githubusercontent.com/bonigarcia/context-engineering/46719154489e410b509db4fb69ab1c29fb3362a0/docs/img/loca-rag-ui.png)

@@ -16,7 +16,7 @@ zh: ""
 
 A comprehensive guide to becoming an AI Engineer, starting from Python fundamentals to building production-ready AI applications.
 
-![AI Engineering Roadmap](https://raw.githubusercontent.com/patchy631/ai-engineering-hub/2c9b106168d4540b88e727e4aa316c06c856c2b7/ai-engineering-roadmap/assets/ai engg roadmap.jpg)
+![AI Engineering Roadmap](https://gh-proxy.com/https://raw.githubusercontent.com/patchy631/ai-engineering-hub/2c9b106168d4540b88e727e4aa316c06c856c2b7/ai-engineering-roadmap/assets/ai engg roadmap.jpg)
 
 ---
 
@@ -41,7 +41,7 @@ A comprehensive guide to becoming an AI Engineer, starting from Python fundament
 
 Start with Python, and Harvard's CS50p is the best place to learn it.
 
-![CS50 Python](https://raw.githubusercontent.com/patchy631/ai-engineering-hub/2c9b106168d4540b88e727e4aa316c06c856c2b7/ai-engineering-roadmap/assets/cs50.png)
+![CS50 Python](https://gh-proxy.com/https://raw.githubusercontent.com/patchy631/ai-engineering-hub/2c9b106168d4540b88e727e4aa316c06c856c2b7/ai-engineering-roadmap/assets/cs50.png)
 
 **🔗 [Harvard CS50's Introduction to Programming with Python](https://pll.harvard.edu/course/cs50s-introduction-programming-python)**
 
@@ -58,7 +58,7 @@ Start with Python, and Harvard's CS50p is the best place to learn it.
 
 This 4-hour course by Andrew Ng is a great starting point.
 
-![AI Python](https://raw.githubusercontent.com/patchy631/ai-engineering-hub/2c9b106168d4540b88e727e4aa316c06c856c2b7/ai-engineering-roadmap/assets/aipython.png)
+![AI Python](https://gh-proxy.com/https://raw.githubusercontent.com/patchy631/ai-engineering-hub/2c9b106168d4540b88e727e4aa316c06c856c2b7/ai-engineering-roadmap/assets/aipython.png)
 
 **🔗 [AI Python for Beginners - DeepLearning.AI](https://deeplearning.ai/short-courses/ai-python-for-beginners/)**
 
@@ -75,7 +75,7 @@ This 4-hour course by Andrew Ng is a great starting point.
 
 These playlists by Khan Academy are the perfect place to learn it:
 
-![Khan Academy](https://raw.githubusercontent.com/patchy631/ai-engineering-hub/2c9b106168d4540b88e727e4aa316c06c856c2b7/ai-engineering-roadmap/assets/khanacademy.png)
+![Khan Academy](https://gh-proxy.com/https://raw.githubusercontent.com/patchy631/ai-engineering-hub/2c9b106168d4540b88e727e4aa316c06c856c2b7/ai-engineering-roadmap/assets/khanacademy.png)
 
 **🔗 Essential Math Playlists:**
 - [Linear Algebra](https://www.youtube.com/playlist?list=PLFD0EB975BA0CC1E0)
@@ -88,7 +88,7 @@ These playlists by Khan Academy are the perfect place to learn it:
 
 **These three videos by 3Blue1Brown are the best visual explainers of LLMs and their internal workings.**
 
-![3Blue1Brown Neural Networks](https://raw.githubusercontent.com/patchy631/ai-engineering-hub/2c9b106168d4540b88e727e4aa316c06c856c2b7/ai-engineering-roadmap/assets/3b1bnn.png)
+![3Blue1Brown Neural Networks](https://gh-proxy.com/https://raw.githubusercontent.com/patchy631/ai-engineering-hub/2c9b106168d4540b88e727e4aa316c06c856c2b7/ai-engineering-roadmap/assets/3b1bnn.png)
 
 **🔗 [Neural Networks Playlist - 3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)**
 
@@ -106,7 +106,7 @@ These playlists by Khan Academy are the perfect place to learn it:
 
 Neural Nets zero-to-hero by Andrej Karpathy is the greatest series to do so.
 
-![Andrej Karpathy](https://raw.githubusercontent.com/patchy631/ai-engineering-hub/2c9b106168d4540b88e727e4aa316c06c856c2b7/ai-engineering-roadmap/assets/nnkarpathy.png)
+![Andrej Karpathy](https://gh-proxy.com/https://raw.githubusercontent.com/patchy631/ai-engineering-hub/2c9b106168d4540b88e727e4aa316c06c856c2b7/ai-engineering-roadmap/assets/nnkarpathy.png)
 
 **🔗 [Neural Networks: Zero to Hero - Andrej Karpathy](https://youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)**
 
@@ -122,7 +122,7 @@ Neural Nets zero-to-hero by Andrej Karpathy is the greatest series to do so.
 
 > *"To build an agent, you don't need complex frameworks or libraries, but rather composable patterns."*
 
-![Anthropic](https://raw.githubusercontent.com/patchy631/ai-engineering-hub/2c9b106168d4540b88e727e4aa316c06c856c2b7/ai-engineering-roadmap/assets/anthropic.png)
+![Anthropic](https://gh-proxy.com/https://raw.githubusercontent.com/patchy631/ai-engineering-hub/2c9b106168d4540b88e727e4aa316c06c856c2b7/ai-engineering-roadmap/assets/anthropic.png)
 
 **🔗 [Building Effective Agents - Anthropic](https://anthropic.com/engineering/building-effective-agents)**
 
@@ -138,7 +138,7 @@ Neural Nets zero-to-hero by Andrej Karpathy is the greatest series to do so.
 
 João Moura precisely teaches how to think of agents like humans working together in a clear and practical manner.
 
-![CrewAI](https://raw.githubusercontent.com/patchy631/ai-engineering-hub/2c9b106168d4540b88e727e4aa316c06c856c2b7/ai-engineering-roadmap/assets/crewai.png)
+![CrewAI](https://gh-proxy.com/https://raw.githubusercontent.com/patchy631/ai-engineering-hub/2c9b106168d4540b88e727e4aa316c06c856c2b7/ai-engineering-roadmap/assets/crewai.png)
 
 **🔗 [Multi AI Agent Systems with CrewAI - Coursera](https://coursera.org/projects/multi-ai-agent-systems-with-crewai)**
 
@@ -155,7 +155,7 @@ João Moura precisely teaches how to think of agents like humans working togethe
 
 This free hands-on guide on MCP has 10+ projects.
 
-![MCP Guidebook](https://raw.githubusercontent.com/patchy631/ai-engineering-hub/2c9b106168d4540b88e727e4aa316c06c856c2b7/ai-engineering-roadmap/assets/mcp-guidebook.png)
+![MCP Guidebook](https://gh-proxy.com/https://raw.githubusercontent.com/patchy631/ai-engineering-hub/2c9b106168d4540b88e727e4aa316c06c856c2b7/ai-engineering-roadmap/assets/mcp-guidebook.png)
 
 **🔗 [MCP: The Illustrated Guidebook](https://mcp.dailydoseofds.com)**
 
@@ -174,7 +174,7 @@ This free hands-on guide on MCP has 10+ projects.
 - Real-world AI agent applications
 - Examples to implement, adapt, and scale in your projects
 
-![AI Engineering Hub](https://raw.githubusercontent.com/patchy631/ai-engineering-hub/2c9b106168d4540b88e727e4aa316c06c856c2b7/ai-engineering-roadmap/assets/ai-engg-hub.png)
+![AI Engineering Hub](https://gh-proxy.com/https://raw.githubusercontent.com/patchy631/ai-engineering-hub/2c9b106168d4540b88e727e4aa316c06c856c2b7/ai-engineering-roadmap/assets/ai-engg-hub.png)
 
 **🔗 [AI Engineering Hub - GitHub](https://github.com/patchy631/ai-engineering-hub)**
 
@@ -192,7 +192,7 @@ This free hands-on guide on MCP has 10+ projects.
 
 Chip Huyen's book is one of the best on AI Engineering.
 
-![AI Engineering Book](https://raw.githubusercontent.com/patchy631/ai-engineering-hub/2c9b106168d4540b88e727e4aa316c06c856c2b7/ai-engineering-roadmap/assets/ai-engg-book.png)
+![AI Engineering Book](https://gh-proxy.com/https://raw.githubusercontent.com/patchy631/ai-engineering-hub/2c9b106168d4540b88e727e4aa316c06c856c2b7/ai-engineering-roadmap/assets/ai-engg-book.png)
 
 **🔗 [AI Engineering Book - GitHub](https://github.com/chiphuyen/aie-book)**
 

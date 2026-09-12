@@ -18,7 +18,7 @@ zh: ""
 >
 > **Harness 层**：项目作用域、记忆写入策略、蒸馏策略与 prompt 注入。
 
-![工作区记忆系统](https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s10_workspace_memory/images/workspace-memory.svg)
+![工作区记忆系统](https://gh-proxy.com/https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s10_workspace_memory/images/workspace-memory.svg)
 
 ## 代码架构图
 
@@ -299,7 +299,7 @@ python3 s10_workspace_memory/code.py
 
 ## 三层记忆中的位置
 
-![三层记忆系统架构](https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s10_workspace_memory/images/three-layer-memory.svg)
+![三层记忆系统架构](https://gh-proxy.com/https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s10_workspace_memory/images/three-layer-memory.svg)
 
 工作区记忆属于当前项目；s11 才会处理跨项目的用户偏好，s12 再讨论远端 profile/recall。三层不能只按“文件放在哪里”区分，更重要的是 owner、写入权限、保留策略和召回时机不同。
 

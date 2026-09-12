@@ -20,7 +20,7 @@ zh: ""
 
 ---
 
-![远端记忆与召回](https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s12_cloud_memory/images/cloud-memory.svg)
+![远端记忆与召回](https://gh-proxy.com/https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s12_cloud_memory/images/cloud-memory.svg)
 
 ## 本章解决什么问题
 

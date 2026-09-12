@@ -14,7 +14,7 @@ zh: ""
 
 # 第四章：你必须知道的开发基础
 
-![img](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/mlkzwcw8-aa8ae9e1ebb5251a.jpg)
+![img](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/mlkzwcw8-aa8ae9e1ebb5251a.jpg)
 
 ## 序言
 

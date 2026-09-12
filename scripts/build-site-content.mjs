@@ -5,7 +5,8 @@
 //   1. 正文一律照搬。本脚本不改写、不摘要、不润色、不增删段落。
 //   2. 只做必要的机械处理：
 //      a. 链接重写——同时上架的同课程文档改成站内相对链接，其余指回上游原文；
-//      b. 图片指向上游仓库在 pinned commit 的原图，站内不复制媒体；
+//      b. 图片指向 pinned commit 的原图：站内已镜像的走站内路径（mirror-index.json），
+//         其余经加速通道，不把读者直接丢给被墙的 raw.githubusercontent.com；
 //      c. 转义 {{ }} 与 <script，避免被 Vue 当模板求值（渲染结果不变）；
 //      d. 去掉仓库门面（徽章、logo、许可尾巴），课程内容一律保留。
 //   3. 站内入口页、来源页、目录页由脚本生成，不混入课程正文。
@@ -138,8 +139,48 @@ function upstreamUrl(s) {
   return s.site || null;
 }
 
+// 图片地址：站内镜像优先，其次走加速通道。
+// 表由 scripts/mirror-images.mjs 产出（原始 URL -> 站内路径 / 已逐字节核实的替代地址）。
+// 表不存在或读坏了都只是退化为「全部走加速通道」，不能让生成流程失败。
+const RAW_HOST = "https://raw.githubusercontent.com/";
+const RAW_PROXY = process.env.TB_RAW_PROXY === undefined ? "https://gh-proxy.com/" : process.env.TB_RAW_PROXY;
+const MIRROR_INDEX = (() => {
+  const f = path.join(DOCS, "mirror-index.json");
+  const m = new Map();
+  try {
+    const j = JSON.parse(fs.readFileSync(f, "utf8"));
+    for (const [k, v] of Object.entries(j)) if (typeof v === "string" && v) m.set(k, v);
+  } catch {
+    /* 没有表就整段跳过 */
+  }
+  return m;
+})();
+const imgStat = { local: 0, remap: 0, proxied: 0 };
+
+// 查表用的键：查询串与片段对图片本体没有意义，去掉后才好对齐。
+function rawKey(u) {
+  return String(u).split("#")[0].split("?")[0];
+}
+
+// 把一个 raw.githubusercontent.com 地址换成站内可用的地址：
+//   1. 表里有站内路径 -> 用它（本地镜像）；
+//   2. 表里有核实过的替代地址 -> 用它（上游真实位置，仍走加速通道）；
+//   3. 其余 -> 原地址套加速通道前缀；通道关掉（TB_RAW_PROXY=""）时原样返回。
+function localizeRaw(url) {
+  if (!url || url.indexOf(RAW_HOST) !== 0) return url;
+  const hit = MIRROR_INDEX.get(rawKey(url)) || MIRROR_INDEX.get(url);
+  if (hit) {
+    if (hit.startsWith("/")) { imgStat.local += 1; return hit; }
+    imgStat.remap += 1;
+    return RAW_PROXY ? RAW_PROXY + hit : hit;
+  }
+  if (!RAW_PROXY) return url;
+  imgStat.proxied += 1;
+  return RAW_PROXY + url;
+}
+
 function rawUrl(s, rel) {
-  if (s.repo && s.commit) return `https://raw.githubusercontent.com/${s.repo}/${s.commit}/${rel}`;
+  if (s.repo && s.commit) return localizeRaw(`https://raw.githubusercontent.com/${s.repo}/${s.commit}/${rel}`);
   return null;
 }
 
@@ -287,6 +328,23 @@ function stripFrontmatter(text) {
     if (lines[i].trim() === "---") return lines.slice(i + 1).join("\n").replace(/^\n+/, "");
   }
   return text;
+}
+
+// 正文里是否已经有一级标题。和 firstHeadingOf 一样要跳过代码块，
+// 否则配置文件里的 "# 注释" 会被当成标题。
+function hasH1(text) {
+  let inFence = null;
+  for (const line of text.split("\n")) {
+    const t = line.trim();
+    const f = /^(\x60{3,}|~{3,})/.exec(t);
+    if (inFence) {
+      if (f && /^(\x60{3,}|~{3,})$/.test(t) && f[1][0] === inFence[0] && f[1].length >= inFence.length) inFence = null;
+      continue;
+    }
+    if (f) { inFence = f[1]; continue; }
+    if (/^\s{0,3}#\s+\S/.test(line)) return true;
+  }
+  return false;
 }
 
 function firstHeadingOf(text, fallback) {
@@ -502,7 +560,11 @@ function rewriteLinks(text, s, currentSourceRel, bySourceRel, currentOutRel) {
   };
 
   text = text.replace(/(!\[[^\]]*\]\()([^)\s]+)(\s*(?:"[^"]*"|'[^']*'))?(\))/g, (m, open, url, title, close) => {
-    if (/^(https?:|data:)/i.test(url)) return m;
+    if (/^https?:/i.test(url)) {
+      const l = localizeRaw(url);
+      return l === url ? m : open + l + (title || "") + close;
+    }
+    if (/^data:/i.test(url)) return m;
     const r = resolve(url, true);
     return r.url ? open + r.url + (title || "") + close : "";
   });
@@ -517,7 +579,9 @@ function rewriteLinks(text, s, currentSourceRel, bySourceRel, currentOutRel) {
   });
 
   // 普通链接：链接文字里不再允许方括号，避免吞掉嵌套结构。
-  text = text.replace(/(\[[^\[\]]*\]\()([^)\s]+)(\s*(?:"[^"]*"|'[^']*'))?(\))/g, (m, open, url, title, close) => {
+  // 开头加 (?<!!) 是为了不碰图片语法——![alt](url) 里的 [alt](url) 长得和普通链接一样，
+  // 先改图片再改链接时会把刚写好的站内路径当成相对链接二次解析（站内镜像路径尤其明显）。
+  text = text.replace(/(?<!!)(\[[^\[\]]*\]\()([^)\s]+)(\s*(?:"[^"]*"|'[^']*'))?(\))/g, (m, open, url, title, close) => {
     if (/^(https?:|mailto:|data:|#)/i.test(url)) return m;
     const r = resolve(url, false);
     if (r.url) return open + r.url + (title || "") + close;
@@ -542,7 +606,11 @@ function rewriteLinks(text, s, currentSourceRel, bySourceRel, currentOutRel) {
   // 只认双引号时相对路径会漏网，VitePress 会把它当待打包的静态资源，整站构建直接失败。
   // 指不回上游的（占位符等）整条属性去掉：不写 null，也不留一条指向空地址的破图。
   text = text.replace(/(\s(?:src|poster)=)(["'])([^"']*)\2/gi, (m, head, q, url) => {
-    if (/^(https?:|data:)/i.test(url)) return m;
+    if (/^https?:/i.test(url.trim())) {
+      const l = localizeRaw(url.trim());
+      return l === url.trim() ? m : head + q + l + q;
+    }
+    if (/^data:/i.test(url)) return m;
     const r = resolve(url.trim(), true);
     return r.url ? head + q + r.url + q : "";
   });
@@ -554,7 +622,13 @@ function rewriteLinks(text, s, currentSourceRel, bySourceRel, currentOutRel) {
         const seg = part.trim();
         if (!seg) return seg;
         const bits = seg.split(/\s+/);
-        if (/^(https?:|data:)/i.test(bits[0])) return seg;
+        if (/^https?:/i.test(bits[0])) {
+          const l = localizeRaw(bits[0]);
+          if (l === bits[0]) return seg;
+          bits[0] = l;
+          return bits.join(" ");
+        }
+        if (/^data:/i.test(bits[0])) return seg;
         const u = resolve(bits[0], true).url;
         // 解析不到的候选直接丢弃，避免 srcset 里出现空地址
         if (!u) return "";
@@ -1414,7 +1488,10 @@ for (const s of selected) {
     const fmText = Object.entries(fm)
       .map(([k, v]) => `${k}: ${JSON.stringify(v)}`)
       .join("\n");
-    writeFile(outPath, `---\n${fmText}\n---\n\n${text}\n`);
+    // 上游有些页面正文本身没有一级标题（README 直接以链接列表开头）。
+    // 这类页面打开后顶部只有面包屑，读者看不出自己在哪一课，所以补一个标题。
+    const body0 = hasH1(text) ? text : `# ${title}\n\n${text}`;
+    writeFile(outPath, `---\n${fmText}\n---\n\n${body0}\n`);
     processed.set(d.outRel, text);
     pages.push({ title, rel: d.outRel.replace(/\.md$/, ""), sourceRel: d.relInSource });
     docCount++;
@@ -1637,7 +1714,7 @@ home.push("## 收录构成", "");
 home.push("<HomeComposition />", "");
 home.push("## 检索入口", "");
 home.push("<EntryGrid />", "");
-home.push("页面右上角的搜索框可以直接检索所有课程正文，中英文均可。", "");
+home.push("页面顶部的搜索可以直接检索所有课程正文，中英文均可。", "");
 home.push("## 开源与协作", "");
 home.push("<HomeGithub />", "");
 writeFile(path.join(DOCS, "index.md"), home.join("\n"));
@@ -1658,7 +1735,7 @@ for (const v of catalog.volumes) {
     out.push("| 课程 | 分类 | 课时 | 原文 |");
     out.push("|---|---|---|---|");
     for (const c of mainline) {
-      out.push(`| ★★★ [${c.title}](/lib/${c.volume}/${c.local}/index) | ${c.category} | ${c.docs.length} | ${c.sourceUrl ? `[↗](${c.sourceUrl})` : "—"} |`);
+      out.push(`| ★★★ [${c.title}](/lib/${c.volume}/${c.local}/index) | ${c.category} | ${c.docs.length} | ${c.sourceUrl ? `[打开 ↗](${c.sourceUrl})` : "—"} |`);
     }
     out.push("");
   }
@@ -1668,7 +1745,7 @@ for (const v of catalog.volumes) {
     out.push("| 课程 | 分类 | 分级 | 课时 | 原文 |");
     out.push("|---|---|---|---|---|");
     for (const c of rest) {
-      out.push(`| [${c.title}](/lib/${c.volume}/${c.local}/index) | ${c.category} | ${stars(c.tier)} ${TIER_LABEL[c.tier]} | ${c.docs.length} | ${c.sourceUrl ? `[↗](${c.sourceUrl})` : "—"} |`);
+      out.push(`| [${c.title}](/lib/${c.volume}/${c.local}/index) | ${c.category} | ${stars(c.tier)} ${TIER_LABEL[c.tier]} | ${c.docs.length} | ${c.sourceUrl ? `[打开 ↗](${c.sourceUrl})` : "—"} |`);
     }
     out.push("");
   }
@@ -1678,7 +1755,7 @@ for (const v of catalog.volumes) {
     out.push("| 来源 | 类型 · 许可 · 语言 | 课时 | 原文 |");
     out.push("|---|---|---|---|");
     for (const s of outside) {
-      out.push(`| ${s.title} | ${s.kind} · ${s.licenseLabel} · ${s.lang} · ${s.md} md | ${s.lessons || "—"} | ${upstreamUrl(s) ? `[原文 ↗](${upstreamUrl(s)})` : "—"} |`);
+      out.push(`| ${s.title} | <span class="tb-nb">${s.kind}</span> · <span class="tb-nb">${s.licenseLabel}</span> · <span class="tb-nb">${s.lang}</span> · <span class="tb-nb">${s.md} md</span> | <span class="tb-nb">${s.lessons || "—"}</span> | <span class="tb-nb">${upstreamUrl(s) ? `[原文 ↗](${upstreamUrl(s)})` : "—"}</span> |`);
     }
     out.push("");
   }
@@ -1713,13 +1790,39 @@ catalog.sources.forEach((s, i) => {
   const staged = portedIds.has(s.id);
   const v = volById.get(s.volume);
   src.push(
-    `| ${i + 1} | ${s.title} | ${v ? v.name : s.volume} | ${s.kind} · ${s.licenseLabel} · ${s.lang} · ${s.md} md | ${staged ? `[站内](/lib/${s.volume}/${s.local}/index)` : "—"} · ${upstreamUrl(s) ? `[原文 ↗](${upstreamUrl(s)})` : "—"} |`
+    `| ${i + 1} | ${s.title} | <span class="tb-nb">${v ? v.name : s.volume}</span> | <span class="tb-nb">${s.kind}</span> · <span class="tb-nb">${s.licenseLabel}</span> · <span class="tb-nb">${s.lang}</span> · <span class="tb-nb">${s.md} md</span> | <span class="tb-nb">${staged ? `[站内](/lib/${s.volume}/${s.local}/index)` : "—"} · ${upstreamUrl(s) ? `[原文 ↗](${upstreamUrl(s)})` : "—"}</span> |`
   );
 });
 src.push("");
 writeFile(path.join(DOCS, "sources", "index.md"), src.join("\n"));
 
 // 关于本站
+const zhStat = (function () {
+  let courses = 0, pages = 0, slots = 0;
+  try {
+    for (const vol of fs.readdirSync(TRANS_DIR)) {
+      const dir = path.join(TRANS_DIR, vol);
+      if (!fs.statSync(dir).isDirectory()) continue;
+      for (const f of fs.readdirSync(dir)) {
+        if (!f.endsWith(".json")) continue;
+        const obj = JSON.parse(fs.readFileSync(path.join(dir, f), "utf8"));
+        let filled = 0;
+        for (const v of Object.values(obj)) {
+          if (!Array.isArray(v)) continue;
+          filled += v.filter((x) => typeof x === "string" && x.trim()).length;
+        }
+        if (!filled) continue;
+        courses += 1;
+        pages += Object.keys(obj).length;
+        slots += filled;
+      }
+    }
+  } catch {
+    /* 还没有译文目录时按 0 处理 */
+  }
+  return { courses: courses, pages: pages, slots: slots };
+})();
+const enPages = registered.reduce((n, s) => n + (s.lang === "英文" ? s.docs.length : 0), 0);
 const m = [];
 m.push("---", 'title: "关于本站"', "---", "");
 m.push("# 关于本站", "");
@@ -1727,22 +1830,27 @@ m.push("本站是一份开放课程与官方文献的编排索引：把散落在
 m.push("## 正文从哪里来", "");
 m.push("| 环节 | 做法 |");
 m.push("|---|---|");
-m.push("| 正文 | 与上游快照逐字一致 |");
-m.push("| 链接 | 同课程内文档走站内，其余指回上游原文 |");
-m.push("| 图片 | 指向上游仓库在锚定版本的原图 |");
-m.push("| 可见文本 | 仅去掉仓库门面（徽章、居中 logo、许可与引用尾巴）|");
-m.push("| 翻译 | 英文材料附逐段中文释义，默认收起，不替换原文 |");
+m.push("| <span class=\"tb-nb\">正文</span> | 与上游快照逐字一致 |");
+m.push("| <span class=\"tb-nb\">链接</span> | 同课程内文档走站内，其余指回上游原文 |");
+m.push("| <span class=\"tb-nb\">图片</span> | 上游锚定版本的原图；站内已镜像的走站内，其余经加速通道 |");
+m.push("| <span class=\"tb-nb\">可见文本</span> | 仅去掉仓库门面（徽章、居中 logo、许可与引用尾巴）|");
+m.push("| <span class=\"tb-nb\">翻译</span> | 英文材料附逐段中文释义，默认收起，不替换原文；未覆盖的仍以原文呈现 |");
 m.push("");
 m.push("## 分类口径", "");
 m.push("| 维度 | 取值 |");
 m.push("|---|---|");
-m.push(`| 学习路径 | ${catalog.volumes.length} 条，代表知识依赖顺序 |`);
-m.push(`| 分类 | ${CATEGORY_ORDER.join(" / ")} |`);
-m.push("| 分级 | ★★★ 主线 / ★★ 进阶 / ★ 参考 |");
-m.push("| 许可 | 可转载 / 限非商用 / 仅引用（仅引用者只提供外链与索引）|");
+m.push(`| <span class="tb-nb">学习路径</span> | ${catalog.volumes.length} 条，代表知识依赖顺序 |`);
+m.push(`| <span class="tb-nb">分类</span> | ${CATEGORY_ORDER.join(" / ")} |`);
+m.push("| <span class=\"tb-nb\">分级</span> | ★★★ 主线 / ★★ 进阶 / ★ 参考 |");
+m.push("| <span class=\"tb-nb\">许可</span> | 可转载 / 限非商用 / 仅引用（仅引用者只提供外链与索引）|");
 m.push("");
 m.push("## 目录数据", "");
 m.push(`- 来源 ${T.sources} 条 · Markdown ${T.markdown} 篇 · 文件 ${T.files} 个`);
+if (zhStat.courses) {
+  m.push(`- 逐段中文释义：${zhStat.courses} 门 · ${zhStat.pages} 篇 · 已译 ${zhStat.slots} 段（英文材料 ${enPages} 篇）`);
+} else {
+  m.push(`- 逐段中文释义：英文材料 ${enPages} 篇，译文陆续补入`);
+}
 m.push("- 机器目录：`catalog/catalog.json`");
 m.push("");
 m.push("## 开源与反馈", "");
@@ -1757,3 +1865,4 @@ writeFile(path.join(DOCS, "method", "index.md"), m.join("\n"));
 console.log("编排整合完成");
 console.log(`  上架课程 ${registered.length} 门 · 站内正文 ${docCount} 篇 · 登记来源 ${allSources.length} 条`);
 console.log(`  批次：${BATCH_KINDS ? [...BATCH_KINDS].join(" / ") : "全部可转载类目"}${BATCH_VOLUMES ? "　路径：" + [...BATCH_VOLUMES].join(",") : ""}`);
+console.log(`  图片：站内镜像 ${imgStat.local} · 核实替代地址 ${imgStat.remap} · 加速通道 ${imgStat.proxied}`);

@@ -38,7 +38,7 @@ SLMs are trained on vast amounts of text data. During training, they learn the p
 
 The development of SLMs aligns with the increasing need for models that can be deployed in resource-constrained environments, such as mobile devices or edge computing platforms, where full-scale LLMs may be impractical due to their heavy resource demands. By focusing on efficiency, SLMs balance performance with accessibility, enabling broader application across various domains.
 
-![slm](https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/19-slm/img/slm.png)
+![slm](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/19-slm/img/slm.png)
 
 ## Learning Objectives
 
@@ -144,7 +144,7 @@ We can use the Phi-3/3.5 Family model based on different scenarios. Unlike LLM, 
 
 We hope to use Phi-3/3.5 in different scenarios. Next, we will use Phi-3/3.5 based on different scenarios.
 
-![phi3](https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/19-slm/img/phi3.png)
+![phi3](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/19-slm/img/phi3.png)
 
 ### Inference via Cloud APIs
 
@@ -156,9 +156,9 @@ Microsoft Foundry Models is the most direct way. You can quickly access the Phi-
 
 - Demo: Comparison of the effects of Phi-3-mini and Phi-3.5-mini in Chinese scenarios
 
-![phi3](https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/19-slm/img/gh1.png)
+![phi3](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/19-slm/img/gh1.png)
 
-![phi35](https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/19-slm/img/gh2.png)
+![phi35](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/19-slm/img/gh2.png)
 
 
 **Microsoft Foundry**

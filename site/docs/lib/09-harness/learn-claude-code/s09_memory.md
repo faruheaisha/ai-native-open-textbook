@@ -27,7 +27,7 @@ An Agent starts a new session without the previous conversation in `messages`. A
 
 A complete transcript works as an archive, but sending it with every request does not scale. The conversation keeps growing, useful information becomes hard to locate, and old facts may no longer be true. Memory must decide what is worth keeping across sessions and which records belong in the current task.
 
-![Memory Overview](https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s09_memory/images/memory-overview.en.svg)
+![Memory Overview](https://gh-proxy.com/https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s09_memory/images/memory-overview.en.svg)
 
 ---
 
@@ -39,7 +39,7 @@ s07 showed a better reading pattern: keep a short index available and load full 
 
 This chapter therefore needs four parts: storage, recall, extraction, and consolidation.
 
-![Memory Subsystems](https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s09_memory/images/memory-subsystems.en.svg)
+![Memory Subsystems](https://gh-proxy.com/https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s09_memory/images/memory-subsystems.en.svg)
 
 ---
 

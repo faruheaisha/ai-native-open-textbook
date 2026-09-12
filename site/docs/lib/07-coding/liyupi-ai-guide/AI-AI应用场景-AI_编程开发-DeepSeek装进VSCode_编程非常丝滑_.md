@@ -12,9 +12,11 @@ entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a0
 zh: ""
 ---
 
+# 鱼皮 AI 导航（ai-guide）
+
 ## DeepSeek装进VSCode，编程非常丝滑！
 
-<iframe src="https://raw.githubusercontent.com/liyupi/ai-guide/539082c1df5743bb34d72a17857a02735b38c866//player.bilibili.com/player.html" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="800" height="450"></iframe>
+<iframe src="https://gh-proxy.com/https://raw.githubusercontent.com/liyupi/ai-guide/539082c1df5743bb34d72a17857a02735b38c866//player.bilibili.com/player.html" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="800" height="450"></iframe>
 
 如果把最近爆火的 DeepSeek 装进 VSCode，帮我们写代码，会有多爽？
 

@@ -39,7 +39,7 @@ Shopify POS、Discord 和 MTA TrainTime 面向零售、社区交流和公共交�
 
 Shopify POS 通常放在收银台，或者拿在店员手里。顾客结账时要用它收款，找商品时要用它查库存，退换货时还要调出订单和顾客资料。门店忙起来以后，这些操作必须连得上、找得到，也不能让店员在几个系统之间来回切换。
 
-![Shopify POS 官方产品页展示的库存和门店界面](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/react-native-expo/images/shopify-pos-product.jpg)
+![Shopify POS 官方产品页展示的库存和门店界面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/react-native-expo/images/shopify-pos-product.jpg)
 
 图片来自 [Shopify POS 官方产品页](https://apps.shopify.com/shopify-pos)。
 
@@ -51,7 +51,7 @@ Shopify 在正式采用 React Native 以前，专门用性能较低的 Android �
 
 Discord 是一个社区交流平台。用户会在里面聊天、加入语音频道、管理成员和设置不同角色。下面是 Discord 官方展示的手机端角色管理页面。
 
-![Discord 官方展示的 Android 角色页面改版前后](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/react-native-expo/images/discord-react-native-roles.png)
+![Discord 官方展示的 Android 角色页面改版前后](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/react-native-expo/images/discord-react-native-roles.png)
 
 图片来源：[Discord 官方博客：Android 切换到 React Native](https://discord.com/blog/android-react-native-framework-update)。
 
@@ -63,7 +63,7 @@ Discord 原来分别维护 Android 和 iPhone 应用，新功能经常不能同�
 
 纽约大都会运输署 MTA 用 Expo 开发 TrainTime 等出行应用。乘客可能在赶车时查下一班列车，在站台上买票，上车后再向工作人员出示车票。这些操作都发生在时间紧、网络环境不断变化的通勤途中。
 
-![Expo 官方案例展示的 MTA TrainTime 应用](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/react-native-expo/images/expo-mta-case.png)
+![Expo 官方案例展示的 MTA TrainTime 应用](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/react-native-expo/images/expo-mta-case.png)
 
 图片来源：[Expo 官方 MTA 案例](https://expo.dev/customers/mta)。
 
@@ -75,7 +75,7 @@ MTA 的团队使用 Expo 提供的打包和更新服务。“打包”就是把�
 
 下面这张图展示三个部分的关系：中间是要创建的项目；React Native 负责把页面显示到手机上；Expo 负责启动项目，并在以后把它制作成测试应用。
 
-![React Native 与 Expo 的项目结构](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/react-native-expo/images/react-native-expo-architecture.svg)
+![React Native 与 Expo 的项目结构](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/react-native-expo/images/react-native-expo-architecture.svg)
 
 中间的项目保存页面和功能。React Native 负责把页面显示到 Android 和 iPhone，Expo 帮助项目启动和打包；同一套页面也可以在浏览器中打开。
 
@@ -132,11 +132,11 @@ Expo 官方的[创建项目教程](https://docs.expo.dev/tutorial/create-your-fi
 
 下面的截图来自本次创建的 Expo 项目，页面实际运行在浏览器中。
 
-![门店巡检应用真实运行在 Expo Web](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/react-native-expo/images/expo-web-running.png)
+![门店巡检应用真实运行在 Expo Web](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/react-native-expo/images/expo-web-running.png)
 
 浏览器窗口变窄后，内容应该变成手机宽度，按钮和文字不能挤在一起。
 
-![同一个 Expo Web 应用的窄屏布局](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/react-native-expo/images/expo-web-mobile-layout.png)
+![同一个 Expo Web 应用的窄屏布局](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/react-native-expo/images/expo-web-mobile-layout.png)
 
 这张窄屏图只用于检查页面在较窄窗口中的排列。Android 和 iPhone 的运行结果仍要在对应设备中验证。
 
@@ -176,7 +176,7 @@ Expo 官方的[创建项目教程](https://docs.expo.dev/tutorial/create-your-fi
 
 实际操作时，勾选“检查安全出口”以后，进度从 `1/4` 变成 `2/4`；输入“消防通道有纸箱，已通知值班员移走”并保存，记录出现在页面，输入框也恢复为空。
 
-![真实点击和保存后的巡检记录](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/react-native-expo/images/expo-web-record-saved.png)
+![真实点击和保存后的巡检记录](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/react-native-expo/images/expo-web-record-saved.png)
 
 文字记录完成后，可以使用 Expo 的拍照和相册工具 [ImagePicker](https://docs.expo.dev/versions/latest/sdk/imagepicker/)增加照片记录。
 

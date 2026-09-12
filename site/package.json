@@ -6,13 +6,14 @@
   "scripts": {
     "build:catalog": "node ../scripts/build-catalog.mjs",
     "build:content": "node ../scripts/build-site-content.mjs",
-    "build:data": "npm run build:catalog && npm run build:content",
+    "build:data": "npm run build:catalog && npm run build:content && npm run build:search",
     "docs:dev": "npm run build:data && vitepress dev docs",
     "docs:build": "npm run build:data && vitepress build docs",
     "docs:preview": "vitepress preview docs",
     "docs:check:html": "node ../scripts/check-html.mjs",
     "docs:check": "node ../scripts/check-dist.mjs",
-    "docs:release": "npm run docs:check:html && npm run docs:build && npm run docs:check"
+    "docs:release": "npm run docs:check:html && npm run docs:build && npm run docs:check",
+    "build:search": "node ../scripts/build-search-index.mjs"
   },
   "keywords": [],
   "author": "",

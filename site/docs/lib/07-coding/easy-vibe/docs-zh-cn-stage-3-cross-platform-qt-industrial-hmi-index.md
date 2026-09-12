@@ -51,11 +51,11 @@ Qt 不是一套买来就能用的 SCADA 或 PLC 软件，而是企业拿来开�
 
 BOMAG 的 myCOCKPIT 用在压路机等工程机械上。屏幕要让驾驶员快速看到作业参数、车速、温度和设备状态，常用操作也要足够大，戴着手套仍然容易点击。
 
-![BOMAG myCOCKPIT 真实 HMI 界面](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/qt-industrial-hmi/images/qt-enterprise-bomag-mycockpit.png)
+![BOMAG myCOCKPIT 真实 HMI 界面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/qt-industrial-hmi/images/qt-enterprise-bomag-mycockpit.png)
 
 单独看界面还不容易理解它为什么属于工业软件。装进驾驶室以后就清楚了：中间的 Qt 显示屏只是整台机器的一部分，它要和控制器、摄像头、传感器及车辆总线一起工作。
 
-![BOMAG 工程机械驾驶室中的 myCOCKPIT 显示终端](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/qt-industrial-hmi/images/qt-enterprise-bomag-in-vehicle.jpg)
+![BOMAG 工程机械驾驶室中的 myCOCKPIT 显示终端](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/qt-industrial-hmi/images/qt-enterprise-bomag-in-vehicle.jpg)
 
 Qt 官方案例提到，BOMAG 使用 Qt 已经超过十年，同一套 HMI 思路还要适应不同尺寸和不同设备。图片与案例来源：[BOMAG Built with Qt](https://www.qt.io/development/bomag-built-with-qt)。
 
@@ -63,7 +63,7 @@ Qt 官方案例提到，BOMAG 使用 Qt 已经超过十年，同一套 HMI 思�
 
 机器人示教器是操作员配置动作、查看程序和排查问题的手持终端。它不能只追求“好看”，还要让工程师在生产现场很快找到当前步骤、执行结果和故障原因。
 
-![Agile Robots 真实机器人示教终端](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/qt-industrial-hmi/images/qt-enterprise-agile-robots-interface.jpg)
+![Agile Robots 真实机器人示教终端](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/qt-industrial-hmi/images/qt-enterprise-agile-robots-interface.jpg)
 
 Agile Robots 的官方案例介绍了它们怎样用一套 Qt 代码同时服务 Windows 和 Linux，并让研发测试界面与生产现场保持一致。图片与案例来源：[Agile Robots Built with Qt](https://www.qt.io/agile-robots-built-with-qt)。
 
@@ -75,7 +75,7 @@ Agile Robots 的官方案例介绍了它们怎样用一套 Qt 代码同时服务
 
 Parker Application Designer 是给设备制造商使用的 HMI 设计工具。它不是某一台机器的固定页面，而是让工程机械厂商自己安排按钮、仪表和应用，再部署到 Parker Pro Display 上。
 
-![Parker Pro Display 上的真实应用入口界面](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/qt-industrial-hmi/images/qt-reference-parker-hmi.png)
+![Parker Pro Display 上的真实应用入口界面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/qt-industrial-hmi/images/qt-reference-parker-hmi.png)
 
 这个案例值得看的不是图标样式，而是“平台化”：同一块显示终端可以装入不同应用，设备厂商不需要为每款机器重新做一整套界面。Parker 的工程师也在案例中介绍了 QML 在这套软件中的作用。图片与案例来源：[Parker Hannifin Built with Qt](https://www.qt.io/development/parker-hannifin-built-with-qt)。
 
@@ -83,7 +83,7 @@ Parker Application Designer 是给设备制造商使用的 HMI 设计工具。�
 
 船上的电力、推进、压载水和报警来自不同系统，操作员却需要在一套界面里看到它们。Blue Ctrl 的 X-CONNECT 把设备配置、实时状态、报警和趋势放进同一套船舶自动化平台。
 
-![Blue Ctrl X-CONNECT 船舶自动化平台的真实界面](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/qt-industrial-hmi/images/qt-reference-blue-ctrl.jpg)
+![Blue Ctrl X-CONNECT 船舶自动化平台的真实界面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/qt-industrial-hmi/images/qt-reference-blue-ctrl.jpg)
 
 这张图很适合观察企业上位机的信息层级：总览页只放最重要的状态，报警页面强调异常，详细参数再进入下一层查看。图片与案例来源：[Blue Ctrl Built with Qt](https://www.qt.io/blue-ctrl-built-with-qt)。
 
@@ -91,7 +91,7 @@ Parker Application Designer 是给设备制造商使用的 HMI 设计工具。�
 
 Precision Planting 的 20|20 显示终端安装在农业机械上。播种或收获时，它会把多行作业数据、速度、覆盖情况和异常位置持续显示给驾驶员。
 
-![Precision Planting 20|20 农业设备实时监视器](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/qt-industrial-hmi/images/qt-reference-precision-planting.webp)
+![Precision Planting 20|20 农业设备实时监视器](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/qt-industrial-hmi/images/qt-reference-precision-planting.webp)
 
 它和普通数据大屏的区别很明显：驾驶员正在操作机器，不能停下来阅读长段文字，所以颜色、位置和报警必须一眼就能看懂。图片与案例来源：[Precision Planting Built with Qt](https://www.qt.io/precision-planting-built-with-qt)。
 
@@ -113,7 +113,7 @@ Precision Planting 的 20|20 显示终端安装在农业机械上。播种或收
 
 下位机直接靠近生产设备和现场信号，常见的有 PLC、MCU、运动控制器、机器人控制器、数据采集板和远程 I/O。它会按照固定周期读取温度、压力、限位开关等输入，再控制电机、阀门、继电器等输出。
 
-![下位机读取现场输入、执行控制逻辑并驱动设备](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/qt-industrial-hmi/images/qt-lower-computer-explained.svg)
+![下位机读取现场输入、执行控制逻辑并驱动设备](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/qt-industrial-hmi/images/qt-lower-computer-explained.svg)
 
 它负责的是设备真正的控制动作，包括运行顺序、速度控制、条件判断、安全联锁和故障保护。即使上位机突然退出、网络断开或操作界面卡住，下位机仍然应该让设备保持安全，而不是等上位机回来以后才处理。
 
@@ -123,7 +123,7 @@ Precision Planting 的 20|20 显示终端安装在农业机械上。播种或收
 
 上位机是人观察和管理设备的入口，通常运行在工业电脑、工程师站、控制室工作站或设备触摸屏上。HMI、SCADA 客户端和设备运营平台都可以属于上位机软件，Qt 最常出现在这一层。
 
-![Qt 上位机把设备数据整理成状态、趋势、报警和操作入口](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/qt-industrial-hmi/images/qt-upper-computer-explained.svg)
+![Qt 上位机把设备数据整理成状态、趋势、报警和操作入口](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/qt-industrial-hmi/images/qt-upper-computer-explained.svg)
 
 它把下位机传来的原始数据变成操作员能看懂的状态、趋势和报警，也负责配方管理、参数下发、历史记录和报表。上位机可以发出“启动设备”“切换配方”或“把目标温度改为 80℃”这样的请求，但最终能不能执行，仍然要由下位机检查现场条件。
 
@@ -137,7 +137,7 @@ Precision Planting 的 20|20 显示终端安装在农业机械上。播种或收
 
 一句话记忆就是：**下位机负责把设备控制正确，上位机负责让人看得懂、管得住、查得到。**
 
-![传感器、下位机、通信协议和 Qt 上位机之间的关系](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/qt-industrial-hmi/images/qt-upper-lower-architecture.svg)
+![传感器、下位机、通信协议和 Qt 上位机之间的关系](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/qt-industrial-hmi/images/qt-upper-lower-architecture.svg)
 
 放到这篇教程里就很容易理解了：本地 TCP 设备模拟器扮演一个简化的下位机，持续发送压力、温度和振动；PySide6 客户端就是上位机，负责连接设备、显示趋势、触发报警并保存记录。这个模拟器只用于学习通信和断线处理，并不具备真实 PLC 的实时控制与安全联锁能力。
 
@@ -205,7 +205,7 @@ Qt 最常见的语言组合不是只有一种，通常要看软件运行在哪�
 
 这是最后从打包目录启动的成品：
 
-![从 macOS 独立应用包启动的 Plant Operations Console，历史报警仍然存在](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/qt-industrial-hmi/images/qt-run-packaged-app.jpg)
+![从 macOS 独立应用包启动的 Plant Operations Console，历史报警仍然存在](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/qt-industrial-hmi/images/qt-run-packaged-app.jpg)
 
 本篇使用 Qt 官方的 Python 绑定 **PySide6**。它仍然是 Qt 6，只是比第一次就配置 C++、CMake 和编译器更容易跟着做。等界面和数据链路稳定后，再根据团队情况决定要不要迁移到 C++。
 
@@ -233,7 +233,7 @@ AI 完成后，按它给出的方式启动程序。第一版不需要登录、�
 
 我本机运行后的结果如下。右上角显示“模拟运行中”，底部数据源是 `SIMULATOR`：
 
-![Qt 客户端使用模拟数据运行，压力、温度、振动和趋势持续更新](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/qt-industrial-hmi/images/qt-run-simulator.jpg)
+![Qt 客户端使用模拟数据运行，压力、温度、振动和趋势持续更新](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/qt-industrial-hmi/images/qt-run-simulator.jpg)
 
 如果文字被遮住或窗口缩放后布局错乱，只改布局：
 
@@ -251,11 +251,11 @@ AI 完成后，按它给出的方式启动程序。第一版不需要登录、�
 
 客户端连接成功后，状态变成“设备已连接”，数据来源变成 `TCP`，页面数值也开始跟着模拟器变化：
 
-![Qt 客户端成功连接本机 TCP 设备模拟器，数据来源显示为 127.0.0.1:50200](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/qt-industrial-hmi/images/qt-run-device-connected.jpg)
+![Qt 客户端成功连接本机 TCP 设备模拟器，数据来源显示为 127.0.0.1:50200](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/qt-industrial-hmi/images/qt-run-device-connected.jpg)
 
 接着直接关闭设备模拟器。客户端不能卡住，也不能继续假装在线。我本机关闭以后，状态立即变成了“设备已断开”：
 
-![关闭设备模拟器后，Qt 客户端显示设备已断开并保留最后一次数据](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/qt-industrial-hmi/images/qt-run-device-disconnected.jpg)
+![关闭设备模拟器后，Qt 客户端显示设备已断开并保留最后一次数据](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/qt-industrial-hmi/images/qt-run-device-disconnected.jpg)
 
 重新启动模拟器，再点一次“连接设备”，连接也恢复成功。
 
@@ -273,7 +273,7 @@ AI 完成后，按它给出的方式启动程序。第一版不需要登录、�
 
 点击“测试报警”后，温度升到测试值，趋势出现尖峰，右侧出现红色报警卡片：
 
-![点击测试报警后，Qt 客户端显示高温报警、趋势尖峰和待确认记录](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/qt-industrial-hmi/images/qt-run-alarm.jpg)
+![点击测试报警后，Qt 客户端显示高温报警、趋势尖峰和待确认记录](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/qt-industrial-hmi/images/qt-run-alarm.jpg)
 
 报警至少要写清楚时间、内容和状态。只显示一句“温度过高”，以后很难追查什么时候发生、有没有处理。
 
@@ -289,11 +289,11 @@ AI 完成后，按它给出的方式启动程序。第一版不需要登录、�
 
 我先确认了刚才的报警，列表状态从“待确认”变成“已确认”：
 
-![确认报警后，SQLite 列表中的状态更新为已确认](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/qt-industrial-hmi/images/qt-run-sqlite-saved.jpg)
+![确认报警后，SQLite 列表中的状态更新为已确认](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/qt-industrial-hmi/images/qt-run-sqlite-saved.jpg)
 
 然后关闭整个应用，再重新启动。刚才那条报警仍然在列表里，说明这不是只存在页面内存里的假数据：
 
-![完全关闭并重启 Qt 应用后，SQLite 中的已确认报警记录仍然存在](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/qt-industrial-hmi/images/qt-run-restart-persisted.jpg)
+![完全关闭并重启 Qt 应用后，SQLite 中的已确认报警记录仍然存在](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/qt-industrial-hmi/images/qt-run-restart-persisted.jpg)
 
 如果重启以后记录消失，直接说：
 
@@ -315,7 +315,7 @@ AI 完成后，按它给出的方式启动程序。第一版不需要登录、�
 
 最后使用 macOS 自带的磁盘映像工具生成 DMG，并完成完整性校验。Finder 里可以看到 105.2 MB 的独立应用和 44.5 MB 的磁盘映像：
 
-![Finder 列表中显示实际生成的 PlantOperationsConsole 应用和 DMG 文件及大小](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/qt-industrial-hmi/images/qt-run-package-files-cropped.png)
+![Finder 列表中显示实际生成的 PlantOperationsConsole 应用和 DMG 文件及大小](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/qt-industrial-hmi/images/qt-run-package-files-cropped.png)
 
 本次生成的 DMG 校验结果是 `VALID`。它还没有做开发者证书签名和 Apple 公证，所以这里只适合本机和内部测试。准备公开发布时再补签名、公证和升级策略。
 

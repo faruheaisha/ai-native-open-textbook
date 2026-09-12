@@ -12,6 +12,8 @@ entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a0
 zh: ""
 ---
 
+# 鱼皮 AI 导航（ai-guide）
+
 ## 用DeepSeek做小红书真的太牛了！轻轻松松打造爆款笔记
 
 最近，DeepSeek火出圈了，不仅在人工智能行业带来一场海啸，还在其他各个行业掀起了应用热潮，连官媒也在用DeepSeek创作素材，那么**这个DeepSeek到底是个啥？又能帮助小红书博主做什么？这篇文章我们就来详细介绍一下如何使用DeepSeek做小红书。**

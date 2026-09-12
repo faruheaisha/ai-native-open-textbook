@@ -12,6 +12,8 @@ entryUrl: "https://github.com/huggingface/agents-course/blob/b3946b1d09d29c65736
 zh: ""
 ---
 
+# Hugging Face Agents Course（智能体课程）
+
 ### Q1: What is an Agent?
 Which of the following best describes an AI Agent?
 

@@ -14,7 +14,7 @@ zh: ""
 
 # 使用智能代理协议（MCP、A2A 和 NLWeb）
 
-[![智能代理协议](https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/lesson-11-thumbnail.b6c742949cf1ce2a.webp)](https://youtu.be/X-Dh9R3Opn8)
+[![智能代理协议](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/lesson-11-thumbnail.b6c742949cf1ce2a.webp)](https://youtu.be/X-Dh9R3Opn8)
 
 > _(点击上方图片查看本课视频)_
 
@@ -74,7 +74,7 @@ MCP 为 AI 代理带来了显著的优势：
 
 ### MCP 示例
 
-![MCP Diagram](https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/mcp-diagram.e4ca1cbd551444a1.webp)
+![MCP Diagram](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/mcp-diagram.e4ca1cbd551444a1.webp)
 
 假设用户想通过由 MCP 支持的 AI 助手预订航班。
 
@@ -129,7 +129,7 @@ A2A 致力于使代理之间通信并协作完成用户子任务。协议中的�
 
 ### A2A 示例
 
-![A2A Diagram](https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/A2A-Diagram.8666928d648acc26.webp)
+![A2A Diagram](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/A2A-Diagram.8666928d648acc26.webp)
 
 让我们扩展旅游预订场景，这次采用 A2A。
 
@@ -163,7 +163,7 @@ A2A 致力于使代理之间通信并协作完成用户子任务。协议中的�
 
 ### NLWeb 示例
 
-![NLWeb](https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/nlweb-diagram.c1e2390b310e5fe4.webp)
+![NLWeb](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/nlweb-diagram.c1e2390b310e5fe4.webp)
 
 再次考虑我们的旅游预订网站，这次由 NLWeb 驱动。
 

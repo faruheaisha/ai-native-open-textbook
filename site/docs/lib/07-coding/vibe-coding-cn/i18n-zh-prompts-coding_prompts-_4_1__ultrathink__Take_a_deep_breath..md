@@ -12,6 +12,8 @@ entryUrl: "https://github.com/2025Emma/vibe-coding-cn/blob/9b42dd10ddf3fff58f8c7
 zh: ""
 ---
 
+# Vibe Coding CN
+
 **ultrathink** : Take a deep breath. We’re not here to write code. We’re here to make a dent in the universe.
 
 ## The Vision

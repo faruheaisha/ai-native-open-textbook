@@ -12,6 +12,8 @@ entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a0
 zh: ""
 ---
 
+# 鱼皮 AI 导航（ai-guide）
+
 ## 一文详解 DeepSeek 技术架构
 
 ![img](https://pic.yupi.icu/yuyi/1739515413170-7be71c79-af4b-43a8-996f-36d7d27b5c0d.png)

@@ -32,7 +32,7 @@ QwenWork 目前支持以下 IM 平台：
 
 所有 IM 频道均在 IM 频道 页面统一管理。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.7 IM 频道/assets/001_ddb2e32e-9726-409a-885e-29dcbac744b1.webp)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.7 IM 频道/assets/001_ddb2e32e-9726-409a-885e-29dcbac744b1.webp)
 
 <span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 

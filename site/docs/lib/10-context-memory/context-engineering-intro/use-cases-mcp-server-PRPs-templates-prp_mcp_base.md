@@ -9,12 +9,16 @@ tier: 1
 volume: "10-context-memory"
 sourceUrl: "https://github.com/coleam00/context-engineering-intro"
 entryUrl: "https://github.com/coleam00/context-engineering-intro/blob/a2d84b021cee1e2f4e77ba854bba0be8cb319035/README.md"
-zh: ""
+zh: "on"
 ---
+
+# Context Engineering Intro
 
 ## Purpose
 
 Template optimized for AI agents to implement production-ready Model Context Protocol (MCP) servers with GitHub OAuth authentication, database integration, and Cloudflare Workers deployment using the proven patterns from this codebase.
+
+<div class="tb-zh"><p>一个为 AI agent 优化的模板，用于实现生产就绪的 Model Context Protocol（MCP）服务器，具备 GitHub OAuth 鉴权、数据库集成与 Cloudflare Workers 部署，沿用本代码库中经过验证的模式。</p></div>
 
 ## Core Principles
 
@@ -23,16 +27,22 @@ Template optimized for AI agents to implement production-ready Model Context Pro
 3. **Security First**: Build-in authentication, authorization, and SQL injection protection
 4. **Production Ready**: Include monitoring, error handling, and deployment automation
 
+<div class="tb-zh"><p>1）上下文为王：包含所有必要的 MCP 模式、鉴权流程与部署配置；2）验证闭环：提供从 TypeScript 编译到生产部署的可执行测试；3）安全优先：内建鉴权、授权与 SQL 注入防护；4）生产就绪：包含监控、错误处理与部署自动化。</p></div>
+
 ---
 
 ## Goal
 
 Build a production-ready MCP (Model Context Protocol) server with:
 
+<div class="tb-zh"><p>构建一个生产就绪的 MCP（Model Context Protocol）服务器，具备：</p></div>
+
 - [SPECIFIC MCP FUNCTIONALITY] - describe the specific tools and resources to implement
 - GitHub OAuth authentication with role-based access control
 - Cloudflare Workers deployment with monitoring
 - [ADDITIONAL FEATURES] - any specific features beyond the base authentication/database
+
+<div class="tb-zh"><p>【具体的 MCP 功能】——描述要实现的具体工具与资源；带基于角色的访问控制的 GitHub OAuth 鉴权；带监控的 Cloudflare Workers 部署；【附加功能】——基础鉴权与数据库之外的任何特定功能。</p></div>
 
 ## Why
 
@@ -42,11 +52,15 @@ Build a production-ready MCP (Model Context Protocol) server with:
 - **Integration**: [HOW THIS FITS WITH EXISTING SYSTEMS]
 - **User Value**: [SPECIFIC BENEFITS TO END USERS]
 
+<div class="tb-zh"><p>开发者生产力：让 AI 助手能够安全地访问【具体数据或操作】；企业级安全：带细粒度权限体系的 GitHub OAuth；可扩展性：Cloudflare Workers 全球边缘部署；集成：【它与现有系统如何配合】；用户价值：【对终端用户的具体价值】。</p></div>
+
 ## What
 
 ### MCP Server Features
 
 **Core MCP Tools:**
+
+<div class="tb-zh"><p>核心 MCP 工具：</p></div>
 
 - Tools are organized in modular files and registered via `src/tools/register-tools.ts`
 - Each feature/domain gets its own tool registration file (e.g., `database-tools.ts`, `analytics-tools.ts`)
@@ -55,26 +69,40 @@ Build a production-ready MCP (Model Context Protocol) server with:
 - Comprehensive error handling and logging
 - [DOMAIN-SPECIFIC TOOLS] - tools specific to your use case
 
+<div class="tb-zh"><p>工具按模块化的文件组织，并通过 src/tools/register-tools.ts 注册；每个功能或领域有自己的工具注册文件（例如 database-tools.ts、analytics-tools.ts）；【列出具体工具】——例如 queryDatabase、listTables、executeOperations；用户鉴权与权限校验在工具注册时进行；完整的错误处理与日志；【领域专属工具】——针对你的用例的工具。</p></div>
+
 **Authentication & Authorization:**
+
+<div class="tb-zh"><p>鉴权与授权：</p></div>
 
 - GitHub OAuth 2.0 integration with signed cookie approval system
 - Role-based access control (read-only vs privileged users)
 - User context propagation to all MCP tools
 - Secure session management with HMAC-signed cookies
 
+<div class="tb-zh"><p>GitHub OAuth 2.0 集成，配合签名 cookie 的批准机制；基于角色的访问控制（只读用户与特权用户）；把用户上下文传递到所有 MCP 工具；用 HMAC 签名 cookie 做安全的会话管理。</p></div>
+
 **Database Integration:**
+
+<div class="tb-zh"><p>数据库集成：</p></div>
 
 - PostgreSQL connection pooling with automatic cleanup
 - SQL injection protection and query validation
 - Read/write operation separation based on user permissions
 - Error sanitization to prevent information leakage
 
+<div class="tb-zh"><p>带自动清理的 PostgreSQL 连接池；SQL 注入防护与查询校验；按用户权限区分读与写操作；错误信息脱敏以防信息泄漏。</p></div>
+
 **Deployment & Monitoring:**
+
+<div class="tb-zh"><p>部署与监控：</p></div>
 
 - Cloudflare Workers with Durable Objects for state management
 - Optional Sentry integration for error tracking and performance monitoring
 - Environment-based configuration (development vs production)
 - Real-time logging and alerting
+
+<div class="tb-zh"><p>用 Cloudflare Workers 配合 Durable Objects 做状态管理；可选的 Sentry 集成用于错误跟踪与性能监控；基于环境的配置（开发与生产）；实时日志与告警。</p></div>
 
 ### Success Criteria
 
@@ -86,6 +114,8 @@ Build a production-ready MCP (Model Context Protocol) server with:
 - [ ] Authentication prevents unauthorized access to sensitive operations
 - [ ] Error handling provides user-friendly messages without leaking system details
 - [ ] [DOMAIN-SPECIFIC SUCCESS CRITERIA]
+
+<div class="tb-zh"><p>验收清单：MCP 服务器通过 MCP Inspector 的校验；GitHub OAuth 流程端到端可用（授权 → 回调 → 访问 MCP）；TypeScript 编译无错误通过；本地开发服务器能启动并正确响应；成功部署到 Cloudflare Workers；鉴权能阻止对敏感操作的未授权访问；错误处理给出对用户友好的信息且不泄漏系统细节；【领域专属的成功标准】。</p></div>
 
 ## All Needed Context
 
@@ -219,6 +249,8 @@ interface Env {
 ### Data Models & Types
 
 Define TypeScript interfaces and Zod schemas for type safety and validation.
+
+<div class="tb-zh"><p>为类型安全与校验定义 TypeScript 接口和 Zod schema。</p></div>
 
 ```typescript
 // User authentication props (inherited from OAuth)
@@ -503,6 +535,8 @@ npm run test
 
 Run unit tests with the above command (Vitest) to make sure all functionality is working.
 
+<div class="tb-zh"><p>用上面的命令运行单元测试（Vitest），确保所有功能都正常工作。</p></div>
+
 ### Level 4: Database Integration Testing (if applicable)
 
 ```bash
@@ -529,6 +563,8 @@ curl -X POST http://localhost:8792/mcp \
 - [ ] MCP endpoint responds: `curl http://localhost:8792/mcp` returns server info
 - [ ] OAuth flow works: Authentication redirects and completes successfully
 
+<div class="tb-zh"><p>验证清单：TypeScript 编译通过——npm run type-check 通过；单元测试通过——npm run test 通过；本地服务器启动——wrangler dev 无错误运行；MCP 端点响应——curl http://localhost:8792/mcp 返回服务器信息；OAuth 流程可用——鉴权重定向并成功完成。</p></div>
+
 ---
 
 ## Anti-Patterns to Avoid
@@ -539,9 +575,13 @@ curl -X POST http://localhost:8792/mcp \
 - ❌ Don't forget to implement cleanup() method for Durable Objects
 - ❌ Don't hardcode user permissions - use configurable permission systems
 
+<div class="tb-zh"><p>❌ 不要跳过用 Zod 做输入校验——始终校验工具参数；❌ 不要忘记为 Durable Objects 实现 cleanup() 方法；❌ 不要硬编码用户权限——使用可配置的权限体系。</p></div>
+
 ### Development Process
 
 - ❌ Don't skip the validation loops - each level catches different issues
 - ❌ Don't guess about OAuth configuration - test the full flow
 - ❌ Don't deploy without monitoring - implement logging and error tracking
 - ❌ Don't ignore TypeScript errors - fix all type issues before deployment
+
+<div class="tb-zh"><p>❌ 不要跳过验证闭环——每一层能捕获不同的问题；❌ 不要对 OAuth 配置靠猜——把完整流程测一遍；❌ 不要在没有监控的情况下部署——实现日志与错误跟踪；❌ 不要忽视 TypeScript 错误——部署前修掉所有类型问题。</p></div>

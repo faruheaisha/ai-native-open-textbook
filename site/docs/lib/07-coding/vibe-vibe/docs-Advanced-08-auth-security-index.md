@@ -14,7 +14,7 @@ zh: ""
 
 # 第八章：安全与用户认证
 
-![img](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/mll04qyy-61b0d268ae22452a.jpg)
+![img](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/mll04qyy-61b0d268ae22452a.jpg)
 
 ## 序言
 

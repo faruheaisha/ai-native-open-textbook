@@ -12,7 +12,9 @@ entryUrl: "https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682
 zh: ""
 ---
 
-![alt text](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/practice-01-vibe-coding-methodology.png)
+# Vibe Vibe —— 人人都能学会的 AI 编程（Vibe Coding）指南
+
+![alt text](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/practice-01-vibe-coding-methodology.png)
 
 这不是一篇"纯小白 Vibecoding 的体验分享"。我想分享的是另一种实践经验——当你自己本身就具备了足够的后端研发能力时，如何基于 AI 这个强大工具来给自己加效率杠杆，大幅提升自己的工作效率，让 AI 成为一个极其高效的"执行层"，而决策权依然在你手里，将自己从重复性的编码工作中解放出来，专注于架构设计和决策把控，让自己从执行层面的琐事中解脱出来，成为真正的架构师和决策者。同时也让自己在日常的琐碎工作里能过的更舒服一些，有更多的精力去写作去思考，哪怕简单休息下也好。  
 

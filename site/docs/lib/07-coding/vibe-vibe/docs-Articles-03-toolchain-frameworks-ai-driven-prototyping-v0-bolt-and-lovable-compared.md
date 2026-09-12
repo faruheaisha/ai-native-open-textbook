@@ -32,23 +32,23 @@ zh: ""
 
 [v0.dev](http://v0.dev/) 在**快速 UI 原型开发**方面尤其突出。很多团队会用它补充设计系统、维护组件库，或者快速试验界面方案。它与 Tailwind、Material UI 等常见 UI 框架配合顺畅。如今的 v0 已不只会生成 UI 组件，也开始覆盖后端能力，包括数据库和 API 路由集成，显示出 Vercel 在全栈方向上的明确投入。虽然这部分能力还在早期，但已经能看出竞争力。
 
-![](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/03-toolchain-frameworks/ai-driven-prototyping-v0-bolt-and-lovable-compared/01.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/03-toolchain-frameworks/ai-driven-prototyping-v0-bolt-and-lovable-compared/01.png)
 
 _我经常先给 v0 一个参考稿——要么上传图片，要么直接喂 Figma 设计——再通过几轮提示，把交互细化到我满意的程度。如果你愿意把设计往后放，纯文本提示也能起步。若原型需要持久化能力，v0 也能配合 Prisma 一类方案把数据模型先搭起来。_
 
-![](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/03-toolchain-frameworks/ai-driven-prototyping-v0-bolt-and-lovable-compared/02.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/03-toolchain-frameworks/ai-driven-prototyping-v0-bolt-and-lovable-compared/02.jpg)
 
 StackBlitz的[Bolt.new](http://bolt.new/)专为**前端和全栈开发**设计，允许前端和后端原型开发，无需设置本地环境。它因速度快（非常适合快速MVP）、灵活性以及自定义部署流程的能力而受到赞誉。Bolt支持各种框架并提供实时调试，适合需要快速原型开发和部署应用的开发者。其基于浏览器的环境简化了工作流程，尽管对于非常复杂的项目可能面临限制。
 
-![](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/03-toolchain-frameworks/ai-driven-prototyping-v0-bolt-and-lovable-compared/03.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/03-toolchain-frameworks/ai-driven-prototyping-v0-bolt-and-lovable-compared/03.png)
 
 _我用 Bolt 做过不少东西，从带认证、存储能力的 React + Tailwind 全栈应用，到调用浏览器内 AI 模型、WASM 的更复杂原型，整体体验都不错。和 v0 一样，它也支持把图片、文件一起作为提示输入。它与 Supabase 的集成做得比较顺，省去了不少手工建表和对接的步骤。_
 
-![](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/03-toolchain-frameworks/ai-driven-prototyping-v0-bolt-and-lovable-compared/04.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/03-toolchain-frameworks/ai-driven-prototyping-v0-bolt-and-lovable-compared/04.jpg)
 
 [Lovable](https://lovable.dev/) 同样聚焦**前端与全栈开发**，但整体路线更偏“引导式体验”。它擅长从文本提示直接生成完整应用，把数据库、认证等后端部分也一起带上，对团队协作场景尤其友好。它很早就接入了 Supabase 这类数据库与认证服务。不过到了复杂项目里，它在可定制性上的上限通常不如 Bolt。
 
-![](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/03-toolchain-frameworks/ai-driven-prototyping-v0-bolt-and-lovable-compared/05.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/03-toolchain-frameworks/ai-driven-prototyping-v0-bolt-and-lovable-compared/05.png)
 
 _我觉得 Lovable 在能力面上和 Bolt 很接近，Supabase 集成也都做得不错。就目前而言，我更信任 Bolt 在少来回修改的情况下产出更成熟的 UI。不过这很看具体项目，我还是建议两者都试一下，再决定哪一个更贴你的工作流。_
 
@@ -76,7 +76,7 @@ Vercel的v0对UI开发采取了有主见的立场，专注于通过自然语言�
 
 **CLI集成**：v0允许开发者通过其"Blocks"功能将组件直接安装到项目中。生成组件后，v0提供一个npx命令，你可以在终端中运行以将组件安装到代码库中。这对于使用Next.js的人特别有益，因为安装可以直接添加组件及其所有依赖项。
 
-![](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/03-toolchain-frameworks/ai-driven-prototyping-v0-bolt-and-lovable-compared/06.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/03-toolchain-frameworks/ai-driven-prototyping-v0-bolt-and-lovable-compared/06.png)
 
 **Figma集成**：用户可以直接从Figma导入设计到v0，作为UI生成的起点。这允许从设计到代码的更平滑过渡，利用现有的设计工作来加速开发。导入设计时，v0现在能够识别Figma文件中使用的确切颜色和设计令牌。
 
@@ -104,11 +104,11 @@ StackBlitz的Bolt代表了一种更雄心勃勃的方法，试图通过[WebConta
 
 **文件锁定和定向**：Bolt有一个功能，开发者可以[控制](https://x.com/stackblitz/status/1854205385344999477)Bolt AI可以修改或保持不变的文件。这允许有针对性的开发或保护代码库的某些部分不被重写，当你在应用的某个部分工作而不想影响其余部分时，这非常有用。
 
-![](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/03-toolchain-frameworks/ai-driven-prototyping-v0-bolt-and-lovable-compared/07.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/03-toolchain-frameworks/ai-driven-prototyping-v0-bolt-and-lovable-compared/07.png)
 
 **在StackBlitz中打开选项**：此功能允许用户无缝地从Bolt的AI驱动开发环境过渡到StackBlitz的交互式编码空间，实现进一步的GitHub同步、手动编辑或与现有StackBlitz项目的集成。当你需要调整AI生成的代码或添加Bolt的自动生成功能尚不支持的复杂功能时，这特别有用。
 
-![](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/03-toolchain-frameworks/ai-driven-prototyping-v0-bolt-and-lovable-compared/08.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/03-toolchain-frameworks/ai-driven-prototyping-v0-bolt-and-lovable-compared/08.png)
 
 **请求中继**：Bolt实现了"[请求中继](https://x.com/stackblitz/status/1869097850233376911)"功能，允许你的Bolt应用连接到通常会因CORS策略而被浏览器阻止的API和服务。我确实遇到过几个这个功能有用的情况。
 
@@ -138,7 +138,7 @@ Lovable采用独特的方法，专注于引导式开发，对架构和工具有�
 
 **选择元素功能**：在Lovable中，你可以直接从预览中[选择](https://pixeljets.com/blog/lovable-dev-vs-bolt-new/)一个元素，并在聊天消息中引用它进行修改。这个不常被讨论的功能通过将你的反馈直接链接到UI元素，使迭代设计调整更加直观。
 
-![](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/03-toolchain-frameworks/ai-driven-prototyping-v0-bolt-and-lovable-compared/09.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/03-toolchain-frameworks/ai-driven-prototyping-v0-bolt-and-lovable-compared/09.jpg)
 
 **自定义指令和知识库**：Lovable支持在项目中创建"知识库"，你可以在其中定义项目特定的细节、功能或设计指南。这有助于保持一致性并为AI提供上下文以获得更好的结果。
 
@@ -178,4 +178,4 @@ Lovable采用独特的方法，专注于引导式开发，对架构和工具有�
 
 这些工具当然还不能完全替代传统开发流程，但它们已经显著降低了从想法到可运行原型之间的摩擦。最终谁更适合你，取决于它在“自动化”和“开发者控制权”之间的平衡，以及它能否随着项目复杂度继续撑下去。
 
-![](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/03-toolchain-frameworks/ai-driven-prototyping-v0-bolt-and-lovable-compared/10.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/03-toolchain-frameworks/ai-driven-prototyping-v0-bolt-and-lovable-compared/10.png)

@@ -14,7 +14,7 @@ zh: ""
 
 # 探索 Microsoft Agent 框架
 
-![Agent Framework](https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/lesson-14-thumbnail.90df0065b9d234ee.webp)
+![Agent Framework](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/lesson-14-thumbnail.90df0065b9d234ee.webp)
 
 ### 介绍
 
@@ -38,7 +38,7 @@ zh: ""
 
 ## 了解 Microsoft Agent 框架
 
-![Framework Intro](https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/framework-intro.077af16617cf130c.webp)
+![Framework Intro](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/framework-intro.077af16617cf130c.webp)
 
 [Microsoft Agent 框架 (MAF)](https://aka.ms/ai-agents-beginners/agent-framework) 是微软用于构建 AI 代理的统一框架。它提供了灵活性来应对生产和研究环境中各种代理使用场景，包括：
 
@@ -68,7 +68,7 @@ Microsoft Agent 框架还注重互操作性，通过：
 
 ### 代理
 
-![Agent Framework](https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/agent-components.410a06daf87b4fef.webp)
+![Agent Framework](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/agent-components.410a06daf87b4fef.webp)
 
 <strong>创建代理</strong>
 

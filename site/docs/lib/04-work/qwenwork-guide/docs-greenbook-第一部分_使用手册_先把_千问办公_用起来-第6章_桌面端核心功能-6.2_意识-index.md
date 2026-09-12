@@ -20,7 +20,7 @@ zh: ""
 
 意识页面入口在左侧导航的「意识」图标，进入后包含两个主开关、进化动态面板，以及所有意识文件的管理入口。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.2 意识/assets/001_d7c64931-39ca-4b88-8337-7e42eaffade6.webp)<span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.2 意识/assets/001_d7c64931-39ca-4b88-8337-7e42eaffade6.webp)<span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
 
 ## **主开关**
 - 意识模式：主开关。启用后 QwenWork 将按照你定制的风格工作，并拥有跨会话记忆与技能进化能力。

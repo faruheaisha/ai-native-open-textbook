@@ -9,12 +9,14 @@ tier: 1
 volume: "01-foundations"
 sourceUrl: "https://github.com/zorost/AI-Engineering-Lab"
 entryUrl: "https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/README.md"
-zh: ""
+zh: "on"
 ---
 
 # AI Engineering Lab: 24-Week AI Engineering Program
 
 > **Find the Signal. Act with Intelligence.** · Developed by [Zorost Intelligence AI Lab](https://zorost.com)
+
+<div class="tb-zh"><p>找准信号，凭智能行动。· 由 Zorost Intelligence AI Lab 开发。</p></div>
 
 This is the heart of AI Engineering Lab: a 24-week, week-by-week path from Python
 fundamentals to production lakehouse AI. Every week has a **section** (the phase),
@@ -22,15 +24,19 @@ a **category** (the skill area), a **use case** from the running ZoroLogistics
 case study, **runnable notebooks**, and a **checklist** you tick off in the Excel
 tracker.
 
-![Seven phases across 24 weeks, and what each one puts in your hands](https://raw.githubusercontent.com/zorost/AI-Engineering-Lab/cdd8dbdf559f72211a7c068e8877918441531e52/assets/diagrams/lab-journey.png)
+<div class="tb-zh"><p>这里是 AI Engineering Lab 的核心：一条 24 周、逐周推进的路径，从 Python 基础一路走到生产级湖仓 AI。每一周都有一个 section（阶段）、一个 category（技能领域）、一个来自贯穿全程的 ZoroLogistics 案例的用例、可直接运行的 notebook，以及一份要在 Excel 追踪表里逐项打勾的清单。</p></div>
+
+![Seven phases across 24 weeks, and what each one puts in your hands](https://gh-proxy.com/https://raw.githubusercontent.com/zorost/AI-Engineering-Lab/cdd8dbdf559f72211a7c068e8877918441531e52/assets/diagrams/lab-journey.png)
 
 > **Brand new?** Read [`START-HERE.md`](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/START-HERE.md) first, and keep
 > [`reference/GLOSSARY.md`](/lib/01-foundations/ai-engineering-lab/reference) one tab away, every term in the program is
 > defined there in plain language.
 
+<div class="tb-zh"><p>全新上手？先读 START-HERE.md，并把 reference/GLOSSARY.md 放在旁边一个标签页——课程里的每个术语都在那里用平实的语言定义了。</p></div>
+
 ## How the program works
 
-![One week, four beats: study, build, ship, reflect](https://raw.githubusercontent.com/zorost/AI-Engineering-Lab/cdd8dbdf559f72211a7c068e8877918441531e52/assets/diagrams/lab-week.png)
+![One week, four beats: study, build, ship, reflect](https://gh-proxy.com/https://raw.githubusercontent.com/zorost/AI-Engineering-Lab/cdd8dbdf559f72211a7c068e8877918441531e52/assets/diagrams/lab-week.png)
 
 1. **One case study, all 24 weeks.** You are the AI engineering team at
    **ZoroLogistics**, a fictional freight company. The data, the models, and the
@@ -49,6 +55,8 @@ tracker.
    Week 8, and even then a small model on CPU works). Weeks 18 to 24 use free/limited
    tiers of the major clouds.
 
+<div class="tb-zh"><p>1）一套案例贯穿 24 周：你是虚构货运公司 ZoroLogistics 的 AI 工程团队。第 1 周构建的数据、模型和 agent 会被复用、改进并生产化，一直到第 24 周。毕业时你拥有的是一个彼此关联的作品集，而不是 24 个互不相干的演示。 2）每周节奏（约每周 10 小时）：周一到周二·学习——读本周的 README 和链接的知识库文件；周三到周四·构建——跑 notebook，然后修改并扩展它；周五·用例——完成用例练习，交付一件具体的东西；周五到周日·复盘与打勾——更新 Excel 追踪表，推送你的 fork。 3）处处有评测：从第 3 周起，每一件 AI 产物都要带一个分数（一个指标或一次评测）和一份误差分析记录。这正是本课程要植入的核心 AI 工程习惯。 4）先本地、后云端：第 1 到 13 周在笔记本上跑（第 8 周前不需要 GPU，即便到那时用 CPU 跑小模型也行）；第 18 到 24 周使用各大云的免费或有限额度。</p></div>
+
 ## Prerequisites
 
 - Comfort with any programming language (Python is taught from the ground up)
@@ -56,6 +64,8 @@ tracker.
 - A laptop: 16 GB RAM recommended; Apple Silicon or NVIDIA GPU helpful from Week 8
 - Optional accounts (created during their weeks): GitHub, Hugging Face, a model
   API key of your choice, free tiers of Azure / Google Cloud / AWS / Databricks
+
+<div class="tb-zh"><p>能用任意一门编程语言上手（Python 会从零教起）；Git 基础（第 1 周会复习）；一台笔记本（建议 16 GB 内存；从第 8 周起 Apple Silicon 或 NVIDIA GPU 会有帮助）；一些可选账号（在对应周里创建）：GitHub、Hugging Face、你自选的一个模型 API key，以及 Azure / Google Cloud / AWS / Databricks 的免费额度。</p></div>
 
 ## The 24 weeks at a glance
 
@@ -87,6 +97,8 @@ tracker.
 | 24 | Databricks Production: DABs, Governance & the Capstone | Databricks Zero to Hero | Production & Capstone |
 
 Each week folder (`curriculum/week-NN/`) is a complete lesson:
+
+<div class="tb-zh"><p>每个周的目录（curriculum/week-NN/）都是一节完整课程：</p></div>
 
 ```
 week-NN/
@@ -145,17 +157,25 @@ CI/CD, governance, and FinOps, ending in the
 Download `tracking/ai-engineering-lab-24-week-tracker.xlsx` and open it in Excel,
 Google Sheets, or LibreOffice. It contains:
 
+<div class="tb-zh"><p>下载 tracking/ai-engineering-lab-24-week-tracker.xlsx，用 Excel、Google Sheets 或 LibreOffice 打开。里面包含：</p></div>
+
 - A **Dashboard** sheet: your name, start date, per-week completion bars, and a
   chart of your progress across all 24 weeks.
 - **One sheet per week**: every checklist item with a status dropdown
   (☐ Not started · ▶ In progress · ✅ Done · ⏭ Skipped), automatic per-week
   completion percentage, and a notes column.
 
+<div class="tb-zh"><p>一个 Dashboard 工作表：你的名字、开始日期、逐周完成度条，以及覆盖全部 24 周的进度图表；每周一个工作表：每个清单项都带状态下拉（☐ 未开始 · ▶ 进行中 · ✅ 完成 · ⏭ 已跳过）、自动计算的当周完成百分比，以及一列备注。</p></div>
+
 The workbook is generated from `manifest.json`, see `tracking/README.md`.
+
+<div class="tb-zh"><p>这份工作簿由 manifest.json 生成，参见 tracking/README.md。</p></div>
 
 ## Certification of completion
 
 Finish all 24 weeks (including the Week 24 capstone) and you will have:
+
+<div class="tb-zh"><p>完成全部 24 周（包括第 24 周的结业项目）之后，你将拥有：</p></div>
 
 - 43 executed notebooks (Python, SQL, PySpark)
 - A portfolio: fine-tuned model, RAG agent, multi-agent system, MCP server,
@@ -163,8 +183,14 @@ Finish all 24 weeks (including the Week 24 capstone) and you will have:
 - An eval harness you built yourself, the artifact that separates AI engineers
   from demo builders
 
+<div class="tb-zh"><p>43 个已跑通的 notebook（Python、SQL、PySpark）；一个作品集：微调过的模型、RAG agent、多 agent 系统、MCP 服务器、三次云端部署、一个受治理的 Databricks 湖仓；以及一套你自己搭的评测框架——正是这件产物把 AI 工程师和「只能做演示的人」区分开来。</p></div>
+
 Share your fork and tracker dashboard with your mentor, your team, or
 [Zorost Intelligence](https://zorost.com).
 
+<div class="tb-zh"><p>把你的 fork 和追踪看板分享给你的导师、团队，或者 Zorost Intelligence。</p></div>
+
 ---
 © 2026 Zorost Intelligence LLC · https://zorost.com
+
+<div class="tb-zh"><p>© 2026 Zorost Intelligence LLC · https://zorost.com</p></div>

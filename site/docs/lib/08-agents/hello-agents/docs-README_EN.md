@@ -12,8 +12,10 @@ entryUrl: "https://github.com/datawhalechina/hello-agents/blob/4f7682ceafe573d07
 zh: ""
 ---
 
+# Hello Agents（Datawhale 智能体教程）
+
 <div align='center'>
-  <img src="https://raw.githubusercontent.com/datawhalechina/hello-agents/4f7682ceafe573d07cd8a7d0b89908500e83227d/docs/images/hello-agents.png" alt="alt text" width="100%">
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/hello-agents/4f7682ceafe573d07cd8a7d0b89908500e83227d/docs/images/hello-agents.png" alt="alt text" width="100%">
   <h1>Hello-Agents</h1>
   <h3>🤖 "Building Agent Systems from Scratch"</h3>
   <p><em>From fundamental theory to practical applications, comprehensively master the design and implementation of agent systems</em></p>
@@ -159,14 +161,14 @@ We are an open-source community and welcome any form of contribution!
 ## Reader Community Group
 
 <div align='center'>
-	<img src="https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/读者群二维码.png" alt="阅读群额码" width="30%">
+	<img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/读者群二维码.png" alt="阅读群额码" width="30%">
 	<p>Scan the QR code to join the reader community group and discuss with more learners</p>
 </div>
 
 ## About Datawhale
 
 <div align='center'>
-    <img src="https://raw.githubusercontent.com/datawhalechina/hello-agents/4f7682ceafe573d07cd8a7d0b89908500e83227d/docs/images/datawhale.png" alt="Datawhale" width="30%">
+    <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/hello-agents/4f7682ceafe573d07cd8a7d0b89908500e83227d/docs/images/datawhale.png" alt="Datawhale" width="30%">
     <p>Scan the QR code to follow the Datawhale official account and get more quality open-source content</p>
 </div>
 

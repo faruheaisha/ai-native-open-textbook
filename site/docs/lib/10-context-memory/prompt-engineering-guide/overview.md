@@ -9,7 +9,7 @@ tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide"
 entryUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide/blob/57673726396dd94acb23bdb1e67f27c78ee85a8e/README.md"
-zh: ""
+zh: "on"
 ---
 
 # Prompt Engineering Guide
@@ -20,19 +20,34 @@ zh: ""
 
 Prompt engineering is a relatively new discipline for developing and optimizing prompts to efficiently use language models (LMs) for a wide variety of applications and research topics. Prompt engineering skills help to better understand the capabilities and limitations of large language models (LLMs). Researchers use prompt engineering to improve the capacity of LLMs on a wide range of common and complex tasks such as question answering and arithmetic reasoning. Developers use prompt engineering to design robust and effective prompting techniques that interface with LLMs and other tools.
 
+<div class="tb-zh"><p>提示词工程是一门相对较新的学科，研究如何开发并优化提示词，以便在各种应用和研究课题中高效使用语言模型（LM）。提示词工程技能有助于更好地理解大语言模型（LLM）的能力与局限。研究者用提示词工程提升 LLM 在问答、算术推理等各类常见与复杂任务上的表现；开发者用它设计稳健、有效的提示技术，让 LLM 与其他工具顺畅对接。</p></div>
+
 Motivated by the high interest in developing with LLMs, we have created this new prompt engineering guide that contains all the latest papers, learning guides, lectures, references, and tools related to prompt engineering for LLMs.
+
+<div class="tb-zh"><p>出于大家对 LLM 开发的高度兴趣，我们编写了这份新的提示词工程指南，收录了与 LLM 提示词工程相关的全部最新论文、学习指南、讲座、参考资料与工具。</p></div>
 
 🌐 [Prompt Engineering Guide (Web Version)](https://www.promptingguide.ai/)
 
+<div class="tb-zh"><p>🌐 提示词工程指南（网页版）</p></div>
+
 🎉 We are excited to launch our new prompt engineering, RAG, and AI Agents courses under the DAIR.AI Academy. [Join Now](https://academy.dair.ai/pricing)!
+
+<div class="tb-zh"><p>🎉 我们很高兴在 DAIR.AI Academy 下推出新的提示词工程、RAG 和 AI Agents 课程。立即加入！</p></div>
 
 The courses are meant to compliment this guide and provide a more hands-on approach to learning about prompt engineering, context engineering, and AI Agents. 
 
+<div class="tb-zh"><p>这些课程旨在与这份指南互补，用更偏动手的方式学习提示词工程、上下文工程和 AI Agents。</p></div>
+
 Use code PROMPTING20 to get an extra 20% off.
+
+<div class="tb-zh"><p>使用优惠码 PROMPTING20 可额外享受 20% 折扣。</p></div>
 
 Happy Prompting!
 
+<div class="tb-zh"><p>祝你提示愉快！</p></div>
+
 ---
+
 ## Announcements / Updates
 
 - 🎓 We now offer self-paced prompt engineering courses under our DAIR.AI Academy. [Join Now](https://academy.dair.ai/pricing)! 
@@ -44,13 +59,23 @@ Happy Prompting!
 - 🔥 We reached #1 on Hacker News on 21 Feb 2023
 - 🎉 The First Prompt Engineering Lecture went live [here](https://youtu.be/dOxUroR57xs)
 
+<div class="tb-zh"><p>🎓 我们现在在 DAIR.AI Academy 提供可自定进度的提示词工程课程，立即加入！🎓 面向 LLM 的提示词工程新课程已发布，点此报名！💼 我们现提供企业培训、咨询和演讲等服务。🌐 我们现在支持 13 种语言，欢迎更多翻译。👩‍🎓 2024 年 1 月我们的学习者突破 300 万！🎉 我们上线了指南的新网页版。🔥 2023 年 2 月 21 日我们登上 Hacker News 第一。🎉 首场提示词工程讲座已上线。</p></div>
+
 [Join our Discord](https://discord.gg/YbMT8k6GfX)
+
+<div class="tb-zh"><p>加入我们的 Discord</p></div>
 
 [Follow us on Twitter](https://twitter.com/dair_ai)
 
+<div class="tb-zh"><p>在 Twitter 上关注我们</p></div>
+
 [Subscribe to our YouTube](https://www.youtube.com/channel/UCyna_OxOWL7IEuOwb7WhmxQ)
 
+<div class="tb-zh"><p>订阅我们的 YouTube</p></div>
+
 [Subscribe to our Newsletter](https://nlpnews.substack.com/)
+
+<div class="tb-zh"><p>订阅我们的通讯</p></div>
 
 ---
 
@@ -126,7 +151,10 @@ You can also find the most up-to-date guides on our new website [https://www.pro
 - [Prompt Engineering - Datasets](https://www.promptingguide.ai/datasets)
 - [Prompt Engineering - Additional Readings](https://www.promptingguide.ai/readings)
 
+<div class="tb-zh"><p>提示词工程——导论：LLM 设置；提示词基础；提示词要素；设计提示词的通用技巧；提示词示例。提示词工程——技术：零样本提示；少样本提示；思维链提示；自洽性；生成知识提示；提示链；思维树（ToT）；检索增强生成；自动推理与工具使用（ART）；自动提示工程师；主动提示；方向性刺激提示；程序辅助语言模型；ReAct 提示；多模态 CoT 提示；图提示。提示词工程——应用：函数调用；生成数据；为 RAG 生成合成数据集；应对生成数据集的多样性；生成代码；毕业生岗位分类案例研究。提示词工程——提示词库：分类；编程；创造力；评估；信息抽取；图像生成；数学；问答；推理；文本摘要；真实性；对抗性提示。提示词工程——模型：ChatGPT；Code Llama；Flan；Gemini；GPT-4；LLaMA；Mistral 7B；Mixtral；OLMo；Phi-2；模型合集。提示词工程——风险与误用：对抗性提示；事实性；偏见。提示词工程——论文：综述；方法；应用；合集。提示词工程——工具；提示词工程——notebook；提示词工程——数据集；提示词工程——延伸阅读。</p></div>
+
 ---
+
 ## Lecture
 
 We have published a 1 hour lecture that provides a comprehensive overview of prompting techniques, applications, and tools.
@@ -134,10 +162,15 @@ We have published a 1 hour lecture that provides a comprehensive overview of pro
 - [Notebook with code](https://github.com/dair-ai/Prompt-Engineering-Guide/blob/main/notebooks/pe-lecture.ipynb)
 - [Slides](https://github.com/dair-ai/Prompt-Engineering-Guide/blob/main/lecture/Prompt-Engineering-Lecture-Elvis.pdf)
 
+<div class="tb-zh"><p>我们发布了一场 1 小时的讲座，全面概览提示技术、应用与工具。视频讲座；带代码的 notebook；幻灯片。</p></div>
+
 ---
+
 ## Running the guide locally
 
 To run the guide locally, for example to check the correct implementation of a new translation, you will need to:
+
+<div class="tb-zh"><p>如果想在本地运行这份指南——例如核对某个新翻译的正确实现——你需要：</p></div>
 
 1. Install Node >=18.0.0
 1. Install `pnpm` if not present in your system. Check [here](https://pnpm.io/installation) for detailed instructions.
@@ -145,7 +178,10 @@ To run the guide locally, for example to check the correct implementation of a n
 1. Boot the guide with `pnpm dev`
 2. Browse the guide at `http://localhost:3000/`
 
+<div class="tb-zh"><p>1）安装 Node &gt;=18.0.0；2）如果系统里没有 pnpm，先安装它，详细说明见 pnpm 官网；3）安装依赖：pnpm i next react react-dom nextra nextra-theme-docs；4）用 pnpm dev 启动指南；5）在 http://localhost:3000/ 浏览指南。</p></div>
+
 ---
+
 ## Appearances
 Some places where we have been featured:
 - Wall Street Journal - [ChatGPT Can Give Great Answers. But Only If You Know How to Ask the Right Question](https://www.wsj.com/articles/chatgpt-ask-the-right-question-12d0f035)
@@ -154,6 +190,8 @@ Some places where we have been featured:
 
 ---
 If you are using the guide for your work or research, please cite us as follows:
+
+<div class="tb-zh"><p>如果你在工作中或研究中使用了这份指南，请按以下方式引用我们：</p></div>
 
 ```
 @article{Saravia_Prompt_Engineering_Guide_2022,

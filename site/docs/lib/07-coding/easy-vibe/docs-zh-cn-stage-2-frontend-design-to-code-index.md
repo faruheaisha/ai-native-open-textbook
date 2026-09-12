@@ -64,7 +64,7 @@ zh: ""
    - 颜色、字体大小尽量还原设计稿
    ```
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/design-to-code/images/image42.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/design-to-code/images/image42.png)
 
 4. **获取并保存代码**
    - 要求模型返回完整的 HTML 代码
@@ -94,7 +94,7 @@ MasterGo 同样提供了强大的 AI 页面生成功能，可以根据参考图�
 
 在 MasterGo 编辑界面的上方工具栏中，可以找到 AI 工具按钮：
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/design-to-code/images/image47.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/design-to-code/images/image47.png)
 
 #### 生成流程
 
@@ -104,15 +104,15 @@ MasterGo 同样提供了强大的 AI 页面生成功能，可以根据参考图�
 
 2. **查看生成结果**
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/design-to-code/images/image48.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/design-to-code/images/image48.png)
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/design-to-code/images/image49.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/design-to-code/images/image49.png)
 
 3. **获取代码**
    - 点击蓝色按钮"插入到画布"，可直接编辑生成后的网页
    - 或点击右侧的"代码"按钮，复制代码内容到本地
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/design-to-code/images/image50.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/design-to-code/images/image50.png)
 
 ---
 
@@ -142,25 +142,25 @@ Figma Make 是 Figma 官方推出的 AI 设计工具，能够根据用户输入�
    - 将你想要还原的设计图上传到对话框
    - 添加描述需求的提示词
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/design-to-code/images/image43.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/design-to-code/images/image43.png)
 
 3. **查看生成结果**
    - 稍等片刻后即可看到渲染结果
    - 点击右上角的播放按钮可进行全屏预览
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/design-to-code/images/image44.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/design-to-code/images/image44.png)
 
 4. **细节调整**
    - 点击右上角的编辑器图标（鼠标和尺子图标）
    - 回到熟悉的 Figma Editor 界面进行详细调整
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/design-to-code/images/image45.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/design-to-code/images/image45.png)
 
 5. **导出代码**
    - 调整满意后，选择导出代码
    - 可以直接连接到 GitHub 保存代码
 
-![](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/design-to-code/images/image46.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-2/frontend/design-to-code/images/image46.png)
 
 ### 3.2 插件导出代码
 

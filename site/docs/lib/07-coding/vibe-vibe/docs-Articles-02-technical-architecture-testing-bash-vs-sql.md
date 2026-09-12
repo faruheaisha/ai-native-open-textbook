@@ -68,7 +68,7 @@ AI 社区里有一个越来越流行的判断：文件系统和 Bash 可能是 A
 
 有一个现象很值得注意：Bash 智能体会生成[非常复杂的 Shell 命令](https://www.braintrust.dev/app/braintrust-labs/p/bash-evals/experiments/bash-claude-sonnet-4-5?c=sql-claude-sonnet-4-5&r=b665a3b6-a046-4584-a8f7-2289ef580384&s=510baab2-879b-4a8e-9f9f-c4cb716dc6f4&fs=1)，把 `find`、`grep`、`jq`、`awk`、`xargs` 组合成非常复杂的流水线。模型显然掌握了不少 Shell 技巧，但这些技巧并没有自动转化成更好的任务结果。
 
-![复杂的 shell 脚本并未转化为准确性](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/02-technical-architecture/testing-bash-vs-sql/01.png)
+![复杂的 shell 脚本并未转化为准确性](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/02-technical-architecture/testing-bash-vs-sql/01.png)
 
 _复杂的 Shell 脚本并未转化为更高准确率_
 
@@ -107,7 +107,7 @@ Vercel 团队随后提交了一个[修正这些问题的 PR](https://github.com/
 
 在修复 `just-bash`、评估数据集和数据加载问题之后，`bash + sqlite` 组合成了最可靠的方法。真正的赢家不是某一次跑分里的“原始准确率”，而是能否把**自我验证**纳入工作流，持续得到稳定结果。
 
-![混合方法在准确性上与 SQL 持平，同时增加了自我验证](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/02-technical-architecture/testing-bash-vs-sql/02.png)
+![混合方法在准确性上与 SQL 持平，同时增加了自我验证](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/02-technical-architecture/testing-bash-vs-sql/02.png)
 
 _混合方法在准确率上追平 SQL，同时引入了自我验证_
 

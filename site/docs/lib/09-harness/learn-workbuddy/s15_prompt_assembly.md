@@ -20,7 +20,7 @@ zh: ""
 
 ---
 
-![S15 Memory Selection 与 Prompt Assembly](https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s15_prompt_assembly/images/prompt-assembly.svg)
+![S15 Memory Selection 与 Prompt Assembly](https://gh-proxy.com/https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s15_prompt_assembly/images/prompt-assembly.svg)
 
 ## 本章解决什么问题
 

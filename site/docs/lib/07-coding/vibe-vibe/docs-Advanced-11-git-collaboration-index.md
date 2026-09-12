@@ -14,7 +14,7 @@ zh: ""
 
 # 第十一章：Git 版本控制与协作开发
 
-![img](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/mll07nf0-b9713c4841e17ce9.jpg)
+![img](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/mll07nf0-b9713c4841e17ce9.jpg)
 
 ## 序言
 

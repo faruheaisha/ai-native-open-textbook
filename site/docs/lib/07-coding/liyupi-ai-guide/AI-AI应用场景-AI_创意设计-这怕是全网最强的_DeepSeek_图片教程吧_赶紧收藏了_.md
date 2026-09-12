@@ -12,6 +12,8 @@ entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a0
 zh: ""
 ---
 
+# 鱼皮 AI 导航（ai-guide）
+
 ## 这怕是全网最强的 DeepSeek 图片教程吧，赶紧收藏了！
 
 废话不多说，我们直接进入正题，讲讲如何让 DeepSeek 帮我们通过文字生成图片，及处理图片。

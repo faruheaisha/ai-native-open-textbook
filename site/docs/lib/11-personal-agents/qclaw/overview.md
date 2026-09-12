@@ -12,6 +12,8 @@ entryUrl: "https://github.com/qiuzhi2046/Qclaw/blob/c494768977f4e48b8eacbfae7ae3
 zh: ""
 ---
 
+# Qclaw（秋芝2046）
+
 <br />
 
   <h1 align="center" style="margin-top: 0.2em;">Qclaw</h1>
@@ -201,7 +203,7 @@ build/              应用图标与打包资源
 
 - **Qclaw贡献者交流群**
 <p>
-  <img src="https://raw.githubusercontent.com/qiuzhi2046/Qclaw/c494768977f4e48b8eacbfae7ae390af11fc015f/docs/images/feishu_contributor.png" alt="Qclaw贡献者交流群" height="160">
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/qiuzhi2046/Qclaw/c494768977f4e48b8eacbfae7ae390af11fc015f/docs/images/feishu_contributor.png" alt="Qclaw贡献者交流群" height="160">
   <br />
   <mark>如果你希望给 Qclaw 做贡献，欢迎加入贡献者交流群！</mark>
 </p>
@@ -211,7 +213,7 @@ build/              应用图标与打包资源
 - **Qclaw用户交流群**
 
 <p>
-  <img src="https://raw.githubusercontent.com/qiuzhi2046/Qclaw/c494768977f4e48b8eacbfae7ae390af11fc015f/docs/images/feishu_qrcode.png" alt="Qclaw用户交流群二维码" height="180">
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/qiuzhi2046/Qclaw/c494768977f4e48b8eacbfae7ae390af11fc015f/docs/images/feishu_qrcode.png" alt="Qclaw用户交流群二维码" height="180">
   <br />
   <mark>如果你对Qclaw有疑问、希望与其他朋友交流等，欢迎加入用户交流群！</mark>
 </p>
@@ -234,7 +236,7 @@ build/              应用图标与打包资源
 <p>
   
   &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/qiuzhi2046/Qclaw/c494768977f4e48b8eacbfae7ae390af11fc015f/docs/images/wechat-search.png" alt="微信搜一搜" height="120">
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/qiuzhi2046/Qclaw/c494768977f4e48b8eacbfae7ae390af11fc015f/docs/images/wechat-search.png" alt="微信搜一搜" height="120">
 </p>
 
 ## 加入我们

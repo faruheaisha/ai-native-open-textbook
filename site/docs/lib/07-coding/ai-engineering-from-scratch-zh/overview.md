@@ -12,6 +12,8 @@ entryUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/10
 zh: ""
 ---
 
+# AI 工程从零到一（中文）
+
 <b>从零开始，亲手实现每一个 AI 算法</b><br/>
   <sub>523 节课 · 20 个阶段 · Python / TypeScript / Rust / Julia · 配套中文网站 <a href="https://aieng-zh.cn">aieng-zh.cn</a></sub>
 

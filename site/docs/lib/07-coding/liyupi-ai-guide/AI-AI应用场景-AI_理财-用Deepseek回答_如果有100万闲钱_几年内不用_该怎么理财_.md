@@ -12,6 +12,8 @@ entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a0
 zh: ""
 ---
 
+# 鱼皮 AI 导航（ai-guide）
+
 ## 用Deepseek回答：如果有100万闲钱，几年内不用，该怎么理财？
 
 正月这几天，Deepseek可是个热词，我也很好奇，在手机上和电脑上都试着用它来回答我的各种问题。

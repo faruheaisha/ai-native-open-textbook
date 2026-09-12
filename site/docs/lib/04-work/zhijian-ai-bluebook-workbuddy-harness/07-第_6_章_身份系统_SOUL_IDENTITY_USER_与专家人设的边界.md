@@ -46,7 +46,7 @@ zh: ""
 
 这次事故的教学价值超过事故本身。它演示了 Harness 设计的经典难题：多个「人格来源」叠加时，优先级必须在拼装层显式裁决，否则模型收到矛盾指令，行为随机。你在定制任何 Agent 时都会遇到同款问题：公司规范、项目规则、个人偏好、临时指令，谁压谁？WorkBuddy 的答案是一个明确的让位规则，简单但有效。
 
-![身份四件套分工与专家对话时的让位边界](https://raw.githubusercontent.com/zjp1997720/zhijian-ai-bluebook-workbuddy-harness/6ac68cd42a01add16568d1ab9cf2399822467fad/workbuddy-harness/fig-07.png)
+![身份四件套分工与专家对话时的让位边界](https://gh-proxy.com/https://raw.githubusercontent.com/zjp1997720/zhijian-ai-bluebook-workbuddy-harness/6ac68cd42a01add16568d1ab9cf2399822467fad/workbuddy-harness/fig-07.png)
 
 *图 6-1：身份四件套分工与专家对话时的让位边界。*
 

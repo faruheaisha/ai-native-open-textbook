@@ -12,6 +12,8 @@ entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec359934
 zh: ""
 ---
 
+# Spec Kit（GitHub 官方规格驱动开发工具包）
+
 <h1>🌱 Spec Kit</h1>
     <h3><em>Define what to build before building it — with any AI coding agent.</em></h3>
 
@@ -229,7 +231,7 @@ For detailed step-by-step instructions, see our [comprehensive guide](https://gi
 
 Want to see Spec Kit in action? Watch our [video overview](https://www.youtube.com/watch?v=a9eR1xsfvHg&pp=0gcJCckJAYcqIYzv)!
 
-[![Spec Kit video header](https://raw.githubusercontent.com/github/spec-kit/main/media/spec-kit-video-header.jpg)](https://www.youtube.com/watch?v=a9eR1xsfvHg&pp=0gcJCckJAYcqIYzv)
+[![Spec Kit video header](https://gh-proxy.com/https://raw.githubusercontent.com/github/spec-kit/main/media/spec-kit-video-header.jpg)](https://www.youtube.com/watch?v=a9eR1xsfvHg&pp=0gcJCckJAYcqIYzv)
 
 ## 🌍 Community
 

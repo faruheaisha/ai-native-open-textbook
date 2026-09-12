@@ -12,6 +12,8 @@ entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a0
 zh: ""
 ---
 
+# 鱼皮 AI 导航（ai-guide）
+
 ## DeepSeek-R1 技术全景解析：从原理到实践的“炼金术配方”
 
 （调试着R1的API接口，看着控制台瀑布般流淌的思维链日志）此刻我仿佛看到AlphaGo的棋谱在代码世界重生——**这是属于推理模型的AlphaZero时刻**。

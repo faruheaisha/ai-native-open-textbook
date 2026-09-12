@@ -14,7 +14,7 @@ zh: ""
 
 # 第六章：数据持久化与数据库
 
-![img](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/mlkzzu32-0a305624d07171b4.jpg)
+![img](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/mlkzzu32-0a305624d07171b4.jpg)
 
 ## 序言
 

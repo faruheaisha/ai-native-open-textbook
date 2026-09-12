@@ -30,7 +30,7 @@ zh: ""
 
 最后，我们得到了一个名为 **Relationship Compass** 的原生 macOS 应用。它可以搜索和筛选联系人、维护关系档案、导入 CSV、记录互动，并自动算出下一次应该联系谁。
 
-![最终完成的 Relationship Compass 联系人管理界面](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/core-skills/github-iterative-development/images/contact-profile.jpeg)
+![最终完成的 Relationship Compass 联系人管理界面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/core-skills/github-iterative-development/images/contact-profile.jpeg)
 
 你可以直接查看这次实践产生的[公开 GitHub 示例仓库](https://github.com/sanbuphy/relationship-compass-macos)。仓库只使用假数据，里面保留了需求文档、GitHub Issues、提交记录、源代码和测试。
 
@@ -558,11 +558,11 @@ swift test
 
 这段代码做了四件事：读取 UTF-8 CSV、检查表头、寻找重复联系人、准备导入结果。它会先在一份候选数据上完成全部处理，只有所有行都合法时才替换当前联系人列表。因此，文件中途出错也不会让应用留下“只导入一半”的状态。
 
-![Xcode 中的 CSV 导入、表头校验与安全去重实现](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/core-skills/github-iterative-development/images/code-csv-import.jpeg)
+![Xcode 中的 CSV 导入、表头校验与安全去重实现](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/core-skills/github-iterative-development/images/code-csv-import.jpeg)
 
 对应的 [`RelationshipStoreTests`](https://github.com/sanbuphy/relationship-compass-macos/blob/main/Tests/RelationshipCompassTests/RelationshipStoreTests.swift#L29-L69) 会把同一份 CSV 连续导入两次，确认第二次只更新已有联系人，而不是再新增一份。测试还覆盖了重复表头和带 UTF-8 BOM 的文件等边界情况。
 
-![Swift Testing 中关于重复导入和异常表头的公开行为测试](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/core-skills/github-iterative-development/images/code-behavior-tests.jpeg)
+![Swift Testing 中关于重复导入和异常表头的公开行为测试](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/core-skills/github-iterative-development/images/code-behavior-tests.jpeg)
 
 ::: tip 完成这一步后，你应该看到什么？
 
@@ -653,21 +653,21 @@ GitHub 上的实现 Issues 会按照依赖顺序逐张关闭；仓库里会出�
 
 在右上角输入 `Founder` 后，列表会从 6 位样例联系人缩小到 Maya Chen。左上角还可以继续选择关系强度和圈子。普通联系人列表与待跟进列表使用同一套筛选规则，不会出现一边筛选了、另一边仍显示全部联系人的情况。
 
-![按角色搜索联系人，只保留匹配 Founder 的 Maya Chen](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/core-skills/github-iterative-development/images/search-and-filter.jpeg)
+![按角色搜索联系人，只保留匹配 Founder 的 Maya Chen](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/core-skills/github-iterative-development/images/search-and-filter.jpeg)
 
 ### 9.2 编辑关系档案
 
 选择联系人后，可以修改组织、角色、邮箱、关系强度、圈子、跟进周期和备注。应用会自动清理重复圈子，并检查跟进周期至少为一天。保存后的内容会立即反映到搜索和筛选结果中。
 
-![Relationship Compass 的联系人关系档案编辑界面](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/core-skills/github-iterative-development/images/contact-profile.jpeg)
+![Relationship Compass 的联系人关系档案编辑界面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/core-skills/github-iterative-development/images/contact-profile.jpeg)
 
 ### 9.3 记录互动并计算下次跟进
 
 为 Maya 记录一次 2026 年 8 月 9 日的互动后，应用根据 30 天的跟进周期，把下一次联系日期更新为 2026 年 9 月 8 日。互动内容会出现在历史记录中；日期到期后，这位联系人会自动进入“待跟进”区域。
 
-![记录互动后自动计算出的下一次跟进日期](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/core-skills/github-iterative-development/images/interaction-follow-up.jpeg)
+![记录互动后自动计算出的下一次跟进日期](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/core-skills/github-iterative-development/images/interaction-follow-up.jpeg)
 
-![新记录已经出现在 Interaction History 中](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/core-skills/github-iterative-development/images/interaction-history.jpeg)
+![新记录已经出现在 Interaction History 中](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/core-skills/github-iterative-development/images/interaction-history.jpeg)
 
 这些界面背后的关键行为都有对应测试。例如，同一份 CSV 重复导入不会产生重复联系人；错误表头不会破坏原有数据；保存和重新打开后，所有字段仍然一致；保存文件损坏时，应用会安全回到样例数据；搜索和两个筛选条件也可以一起使用。
 

@@ -16,7 +16,7 @@ zh: ""
 
 ## And welcome to the AWS Bedrock AgentCore Finale
 
-![Course Image](https://raw.githubusercontent.com/ed-donner/production/daeb3dae34be3287842ea7faa3e6f4cba467028b/assets/finale.png)
+![Course Image](https://gh-proxy.com/https://raw.githubusercontent.com/ed-donner/production/daeb3dae34be3287842ea7faa3e6f4cba467028b/assets/finale.png)
 
 _If you're looking at this in Cursor, please right click on the filename in the Explorer on the left, and select "Open preview", to view it in formatted glory._
 

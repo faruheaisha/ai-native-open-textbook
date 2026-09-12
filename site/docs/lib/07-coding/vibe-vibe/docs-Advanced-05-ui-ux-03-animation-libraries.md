@@ -24,7 +24,7 @@ zh: ""
 
 Motion（包名 `motion`，前身是 `framer-motion`）是 React 生态最流行的动画库，GitHub 30,000+ Star。你只需要描述"动画结束时元素长什么样"，Motion 自己算出中间过程——和 React"描述结果而非步骤"的写法一致。
 
-![image-20260222213320488](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260222213320488.jpg)
+![image-20260222213320488](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260222213320488.jpg)
 
 **常用动画场景和提示词**：
 
@@ -44,7 +44,7 @@ Motion（包名 `motion`，前身是 `framer-motion`）是 React 生态最流行
 
 GSAP（GreenSock Animation Platform）是 Web 动画领域的老牌王者，性能极强，能做出最复杂的动画效果。
 
-![image-20260222213406770](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260222213406770.png)
+![image-20260222213406770](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260222213406770.png)
 
 **特点**：
 
@@ -68,8 +68,8 @@ GSAP（GreenSock Animation Platform）是 Web 动画领域的老牌王者，性�
 
 <table><tbody>
   <tr>
-    <td><img src="https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260222213514935.jpg" /></td>
-    <td><img src="https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260222213459756.png" /></td>
+    <td><img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260222213514935.jpg" /></td>
+    <td><img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260222213459756.png" /></td>
   </tr>
 </tbody></table>
 
@@ -79,7 +79,7 @@ GSAP（GreenSock Animation Platform）是 Web 动画领域的老牌王者，性�
 
 如果你想在网页上做 3D 效果，Three.js 是最主流的选择（也有 Babylon.js 等替代方案，但 Three.js 生态最大、教程最多）。配合 React 封装库 `@react-three/fiber`，可以用 React 组件的方式写 3D 场景。
 
-![image-20260222213553727](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260222213553727.jpg)
+![image-20260222213553727](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260222213553727.jpg)
 
 **适合场景**：
 

@@ -1,0 +1,891 @@
+/* ============================================================
+   首页 / 学习路径 / 课程库：视觉与交互打磨
+   ------------------------------------------------------------
+   作用范围只有三类页面：
+     · 首页（.VPHome）
+     · 课程库（.tb-lib）
+     · 没有 .tb-crumb 的索引页（学习路径、来源总表、关于本站）
+   课程正文页不在其中，正文阅读样式仍由 style.css 独占。
+   桌面增强统一包在 min-width: 960px 里，避免覆盖 mobile.css
+   已经处理好的窄屏触控尺寸。
+   ============================================================ */
+
+/* ---------- 一、首页：区块标题 ---------- */
+
+.VPHome .vp-doc h2 {
+  position: relative;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--tb-line);
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -0.012em;
+}
+
+/* 一条贯穿整栏的细线，加左侧一段品牌色短线：分区清楚，但不用加粗 */
+.VPHome .vp-doc h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  display: block;
+  width: 40px;
+  height: 2px;
+  margin: 0;
+  border-radius: 0 2px 2px 0;
+  background: var(--tb-accent);
+}
+
+/* ---------- 二、首页：主视觉右侧的阅读示意 ---------- */
+/* 结构来自 Layout.vue 的 #home-hero-image 插槽，这里只做视觉。
+   目标：从「灰骨架」变成「一眼看懂的阅读界面」。 */
+
+.tb-hero__preview {
+  border-radius: 14px;
+  box-shadow:
+    0 1px 2px -1px rgba(0, 0, 0, 0.05),
+    0 14px 30px -24px rgba(0, 0, 0, 0.34),
+    0 44px 76px -62px rgba(0, 0, 0, 0.42);
+}
+
+.tb-hero__preview-top {
+  gap: 9px;
+  padding: 9px 14px;
+}
+
+.tb-hero__preview-dots i {
+  width: 7px;
+  height: 7px;
+}
+
+.tb-hero__preview-dots i:first-child {
+  background: var(--tb-accent);
+  opacity: 0.7;
+}
+
+.tb-hero__preview-title {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  color: var(--tb-ink-2);
+}
+
+/* 两栏之间加一条分栏线：一眼看出「左边目录、右边正文」 */
+.tb-hero__preview-body {
+  grid-template-columns: 84px 1fr;
+  gap: 0;
+  padding: 15px 16px 18px;
+}
+
+.tb-hero__preview-col--main {
+  gap: 9px;
+  padding-left: 18px;
+  border-left: 1px solid var(--tb-line);
+}
+
+/* 栏目标签后面拖一条细线，做出文档栏目的样子 */
+.tb-hero__preview-cap {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  opacity: 1;
+  color: var(--tb-ink-3);
+}
+
+.tb-hero__preview-cap::after {
+  content: "";
+  flex: 1 1 auto;
+  height: 1px;
+  background: var(--tb-line);
+}
+
+/* 目录栏：每一条前面有一个方点，第二条是「当前所在」 */
+.tb-hero__preview-col:not(.tb-hero__preview-col--main) {
+  gap: 9px;
+  padding-left: 10px;
+}
+
+.tb-hero__preview-col:not(.tb-hero__preview-col--main) .tb-skel {
+  position: relative;
+  height: 6px;
+}
+
+.tb-hero__preview-col:not(.tb-hero__preview-col--main) .tb-skel::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 50%;
+  width: 4px;
+  height: 4px;
+  margin-top: -2px;
+  border-radius: 1px;
+  background: var(--tb-line-2);
+}
+
+/* 第 2 个 span 是第 1 条目录项（第 1 个 span 是「目录」标签） */
+.tb-hero__preview-col:not(.tb-hero__preview-col--main) .tb-skel:nth-of-type(3) {
+  background: var(--tb-accent);
+  opacity: 0.5;
+}
+
+.tb-hero__preview-col:not(.tb-hero__preview-col--main) .tb-skel:nth-of-type(3)::before {
+  background: var(--tb-accent);
+}
+
+/* 正文栏：首行是标题（更深更高），其余是正文行 */
+.tb-hero__preview-col--main .tb-skel {
+  height: 6px;
+  background: var(--tb-line-2);
+  opacity: 0.6;
+}
+
+.tb-hero__preview-col--main .tb-skel--lead {
+  height: 11px;
+  border-radius: 3px;
+  background: var(--tb-ink);
+  opacity: 0.34;
+}
+
+.tb-hero__zh {
+  padding: 4px 9px;
+  border-radius: 5px;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+
+/* ---------- 三、首页：数据条 ---------- */
+@media (min-width: 960px) {
+  .tb-stats__cell {
+    padding: 14px 18px 15px;
+    transition: background-color 0.2s ease;
+  }
+
+  .tb-stats__digits {
+    font-size: 30px;
+    letter-spacing: -0.03em;
+  }
+
+  .tb-stats__unit {
+    font-weight: 500;
+  }
+
+  .tb-stats__label {
+    letter-spacing: 0.01em;
+  }
+}
+
+@media (min-width: 960px) and (hover: hover) {
+  .tb-stats__cell:hover {
+    background: var(--tb-sink);
+  }
+}
+
+/* ---------- 四、首页：主线起点 / 继续阅读 ---------- */
+@media (min-width: 960px) {
+  .VPHome .vp-doc .tb-resume__last,
+  .VPHome .vp-doc .tb-resume__start {
+    border-left-width: 2px;
+  }
+
+  .VPHome .vp-doc .tb-resume__last {
+    border-left-color: var(--tb-line-2);
+  }
+
+  .VPHome .vp-doc .tb-resume__start {
+    border-left-color: var(--tb-accent);
+  }
+
+  .VPHome .vp-doc .tb-resume__pill {
+    transition: border-color 0.16s ease, color 0.16s ease, background-color 0.16s ease,
+      transform 0.16s ease;
+  }
+}
+
+@media (min-width: 960px) and (hover: hover) {
+  .VPHome .vp-doc .tb-resume__pill:hover {
+    background: var(--tb-accent-soft);
+    transform: translateY(-1px);
+  }
+}
+
+/* ---------- 五、首页：学习路径卡片 ---------- */
+@media (min-width: 960px) {
+  .VPHome .vp-doc .tb-path__head {
+    align-items: center;
+  }
+
+  /* 序号做成步骤徽章，一眼看出路径的先后 */
+  .VPHome .vp-doc .tb-path__order {
+    display: inline-flex;
+    align-items: center;
+    height: 20px;
+    padding: 0 7px;
+    border-radius: 5px;
+    background: var(--tb-accent-soft);
+    color: var(--tb-accent-ink);
+    font-size: 11.5px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    transition: background-color 0.18s ease, color 0.18s ease;
+  }
+
+  .VPHome .vp-doc .tb-path__name {
+    font-size: 16.5px;
+  }
+
+  .VPHome .vp-doc .tb-path__foot {
+    transition: color 0.18s ease;
+  }
+
+  /* 箭头紧跟在文字后面，不要飘到卡片最右边 */
+  .VPHome .vp-doc .tb-path__foot::after {
+    content: "\2192";
+    display: inline-block;
+    margin-left: 4px;
+    color: var(--tb-accent);
+    transition: transform 0.18s ease;
+  }
+}
+
+@media (min-width: 960px) and (hover: hover) {
+  .VPHome .vp-doc .tb-path:hover .tb-path__order {
+    background: var(--tb-accent);
+    color: #fff;
+  }
+
+  .VPHome .vp-doc .tb-path:hover .tb-path__foot {
+    color: var(--tb-accent-ink);
+  }
+
+  .VPHome .vp-doc .tb-path:hover .tb-path__foot::after {
+    transform: translateX(3px);
+  }
+}
+
+/* 键盘走查时也要看得见焦点 */
+.VPHome .vp-doc .tb-path:focus-visible,
+.VPHome .vp-doc .tb-entry__card:focus-visible {
+  outline: 2px solid var(--tb-accent);
+  outline-offset: 2px;
+}
+
+/* ---------- 六、首页：收录构成 ---------- */
+@media (min-width: 960px) {
+  .VPHome .vp-doc .tb-comp__title {
+    letter-spacing: 0.12em;
+  }
+
+  /* 许可图例做成三张等高的卡片，把右栏的高度撑满：
+     既不留一大块空白，也不用把行距拉到 100px 以上那么散。 */
+  .VPHome .vp-doc .tb-lic__legend {
+    flex: 1 1 auto;
+    gap: 12px;
+    margin-top: 16px;
+  }
+
+  .VPHome .vp-doc .tb-lic__legend li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 1 0;
+    padding: 12px 14px;
+    border-radius: 10px;
+    background: var(--tb-sink);
+  }
+
+  .VPHome .vp-doc .tb-lic__desc {
+    margin-left: 16px;
+  }
+
+  .VPHome .vp-doc .tb-lic {
+    height: 14px;
+    border-radius: 4px;
+  }
+
+  .VPHome .vp-doc .tb-bar__track {
+    height: 7px;
+  }
+
+  .VPHome .vp-doc .tb-bar__num {
+    font-weight: 600;
+    color: var(--tb-ink-2);
+  }
+}
+
+/* ---------- 七、首页：检索入口 ---------- */
+@media (min-width: 960px) {
+  .VPHome .vp-doc .tb-entry__card::before {
+    position: absolute;
+    top: 15px;
+    right: 16px;
+    font-family: var(--vp-font-family-mono);
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    color: var(--tb-line-2);
+    transition: color 0.18s ease;
+  }
+
+  .VPHome .vp-doc .tb-entry__card:nth-of-type(1)::before {
+    content: "01";
+  }
+
+  .VPHome .vp-doc .tb-entry__card:nth-of-type(2)::before {
+    content: "02";
+  }
+
+  .VPHome .vp-doc .tb-entry__card:nth-of-type(3)::before {
+    content: "03";
+  }
+
+  .VPHome .vp-doc .tb-entry__title {
+    padding-right: 30px;
+    font-size: 15.5px;
+  }
+
+  .VPHome .vp-doc .tb-entry__go {
+    display: inline-block;
+    margin-top: auto;
+    padding-top: 4px;
+    transition: transform 0.18s ease;
+  }
+}
+
+@media (min-width: 960px) and (hover: hover) {
+  .VPHome .vp-doc .tb-entry__card:hover::before {
+    color: var(--tb-accent);
+  }
+
+  .VPHome .vp-doc .tb-entry__card:hover .tb-entry__go {
+    transform: translateX(3px);
+  }
+}
+
+/* ---------- 八、首页：开源与协作 ---------- */
+@media (min-width: 960px) {
+  .VPHome .vp-doc .tb-gh {
+    padding: 26px 28px;
+    border-radius: 16px;
+  }
+
+  /* 右上一角淡淡的栅格，与首屏的底纹同一套语言 */
+  .VPHome .vp-doc .tb-gh::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(to right, var(--tb-grid-line) 1px, transparent 1px),
+      linear-gradient(to bottom, var(--tb-grid-line) 1px, transparent 1px);
+    background-size: 34px 34px;
+    -webkit-mask-image: radial-gradient(420px 210px at 100% 0%, #000, transparent 74%);
+    mask-image: radial-gradient(420px 210px at 100% 0%, #000, transparent 74%);
+    pointer-events: none;
+  }
+
+  .VPHome .vp-doc .tb-gh__text,
+  .VPHome .vp-doc .tb-gh__actions {
+    position: relative;
+  }
+
+  .VPHome .vp-doc .tb-gh__title {
+    font-size: 17.5px;
+    letter-spacing: -0.01em;
+  }
+
+  .VPHome .vp-doc .tb-gh__btn {
+    padding: 10px 19px;
+    border-radius: 9px;
+  }
+}
+
+/* ---------- 九、首页：检索入口下方的说明 ---------- */
+/* index.md 里这一段紧跟在检索入口卡片之后，原文是普通段落。 */
+
+.VPHome .vp-doc .tb-entry + p {
+  margin: 0 0 2.2rem;
+  padding: 11px 15px;
+  border-left: 2px solid var(--tb-accent);
+  border-radius: 0 8px 8px 0;
+  background: var(--tb-accent-soft);
+  font-size: 13px;
+  line-height: 1.75;
+  color: var(--tb-ink-2);
+}
+
+@media (min-width: 960px) {
+  .VPHome .vp-doc h2 {
+    margin: 3.4rem 0 1.1rem;
+  }
+
+  .VPHome .vp-doc h2:first-of-type {
+    margin-top: 2.2rem;
+  }
+}
+/* ---------- 十、索引页：标题与表格 ---------- */
+/* 学习路径、来源总表、关于本站、课程库都是「索引页」：
+   .VPDoc 里没有课程页才有的 .tb-crumb。正文课程页不受影响。 */
+
+.VPDoc:not(:has(.tb-crumb)) .vp-doc h1 {
+  position: relative;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--tb-line);
+  margin-bottom: 1.3rem;
+}
+
+.VPDoc:not(:has(.tb-crumb)) .vp-doc h1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 46px;
+  height: 2px;
+  border-radius: 0 2px 2px 0;
+  background: var(--tb-accent);
+}
+
+/* 索引表格：表头有底、行可追踪、悬停有反馈 */
+.VPDoc:not(:has(.tb-crumb)) .vp-doc table {
+  font-size: 13.5px;
+  margin: 1.1rem 0 1.9rem;
+}
+
+.VPDoc:not(:has(.tb-crumb)) .vp-doc thead th {
+  background: var(--tb-sink);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--tb-ink-2);
+}
+
+.VPDoc:not(:has(.tb-crumb)) .vp-doc tbody td {
+  color: var(--tb-ink-2);
+  line-height: 1.6;
+}
+
+.VPDoc:not(:has(.tb-crumb)) .vp-doc tbody td:first-child {
+  color: var(--tb-ink);
+}
+
+.VPDoc:not(:has(.tb-crumb)) .vp-doc tr {
+  transition: background-color 0.14s ease;
+}
+
+.VPDoc:not(:has(.tb-crumb)) .vp-doc tbody tr:nth-child(2n) {
+  background: transparent;
+}
+
+.VPDoc:not(:has(.tb-crumb)) .vp-doc h1 + p,
+.VPDoc:not(:has(.tb-crumb)) .vp-doc h2 + p {
+  color: var(--tb-ink-2);
+}
+
+@media (hover: hover) {
+  .VPDoc:not(:has(.tb-crumb)) .vp-doc tbody tr:hover {
+    background: var(--tb-accent-soft);
+  }
+}
+
+/* ---------- 十一、课程库：筛选条吸顶 ---------- */
+
+.tb-lib__stick-sentinel {
+  display: block;
+  height: 1px;
+  margin-bottom: -1px;
+  pointer-events: none;
+}
+
+@media (min-width: 960px) {
+  .tb-lib__bar {
+    position: sticky;
+    top: calc(var(--vp-nav-height) + 10px);
+    z-index: 20;
+    margin-bottom: 6px;
+    padding: 12px 0;
+    background: var(--tb-paper);
+    transition: box-shadow 0.2s ease;
+  }
+
+  .tb-lib.is-stuck .tb-lib__bar {
+    box-shadow: 0 14px 18px -18px rgba(0, 0, 0, 0.55);
+  }
+
+  .tb-lib__search {
+    padding: 9px 13px;
+    border-radius: 9px;
+  }
+
+  .tb-lib__search:focus {
+    box-shadow: 0 0 0 3px var(--tb-accent-soft);
+  }
+
+  .tb-lib__group {
+    margin-bottom: 9px;
+  }
+
+  .tb-lib__chip {
+    transition: background-color 0.16s ease, border-color 0.16s ease, color 0.16s ease;
+  }
+
+  .tb-lib__count {
+    margin: 12px 0 4px !important;
+  }
+}
+
+@media (min-width: 960px) and (hover: hover) {
+  .tb-lib__chip:hover {
+    background: var(--tb-accent-soft);
+  }
+
+  .tb-lib__chip.is-on:hover {
+    background: var(--tb-accent-ink);
+  }
+}
+
+/* ---------- 十二、课程库：结果行 ---------- */
+
+@media (min-width: 960px) {
+  .tb-lib__item {
+    gap: 3px 16px;
+  }
+
+  .tb-lib__title {
+    font-size: 15.5px;
+    line-height: 1.5;
+  }
+
+  .tb-lib__meta {
+    gap: 7px;
+    font-size: 12.5px;
+  }
+
+  .tb-lib__tier {
+    letter-spacing: -0.5px;
+  }
+
+  .tb-lib__lic {
+    background: var(--tb-accent-soft);
+    padding: 0 7px;
+    line-height: 18px;
+  }
+
+  .tb-lib__links {
+    gap: 12px;
+    align-items: center;
+  }
+
+  /* 「站内阅读」做成按钮，「原文 ↗」保持文字链接，主次分明 */
+  .tb-lib__links a:first-child {
+    padding: 3px 12px;
+    border: 1px solid var(--tb-line-2);
+    border-radius: 999px;
+    font-size: 12px;
+    transition: border-color 0.16s ease, background-color 0.16s ease;
+  }
+}
+
+@media (min-width: 960px) and (hover: hover) {
+  .tb-lib .tb-lib__links a:first-child:hover {
+    border-color: var(--tb-accent);
+    background: var(--tb-accent-soft);
+  }
+}
+
+/* 空态：给出下一步动作，而不是只留一句话 */
+.tb-lib .tb-lib__empty {
+  padding: 26px 18px;
+  border: 1px dashed var(--tb-line-2);
+  border-radius: 12px;
+  background: var(--tb-sink);
+  text-align: center;
+  color: var(--tb-ink-2);
+}
+
+/* 展开区（官方文献与外链）做成卡片，和主列表分开 */
+.tb-lib__outside {
+  margin-top: 30px;
+  padding: 4px 0 0;
+  border-top: 1px solid var(--tb-line);
+}
+
+.tb-lib__outside summary {
+  font-weight: 500;
+  color: var(--tb-ink);
+}
+
+.tb-lib__outside summary:hover {
+  color: var(--tb-accent-ink);
+}
+
+/* ---------- 十三、窄屏补充 ---------- */
+/* mobile.css 已经定了触控尺寸，这里只补它没覆盖的排版细节。 */
+
+@media (max-width: 959.9px) {
+  /* 筛选条在窄屏不吸顶：56px 导航 + 本地导航之后，再占一条搜索框会挡掉太多正文 */
+  .tb-lib__bar {
+    position: static;
+  }
+
+  .VPHome .vp-doc .tb-stats {
+    margin-top: 26px;
+  }
+
+  .VPHome .vp-doc .tb-path__name {
+    font-size: 15.5px;
+  }
+
+  .VPHome .vp-doc .tb-entry__title {
+    font-size: 15px;
+  }
+
+  .VPHome .vp-doc .tb-comp__title {
+    letter-spacing: 0.1em;
+  }
+
+  .VPHome .vp-doc .tb-resume__tag {
+    font-size: 10.5px;
+  }
+
+  .VPHome .vp-doc .tb-resume__start {
+    gap: 8px;
+  }
+}
+
+@media (max-width: 719.9px) {
+  .VPDoc:not(:has(.tb-crumb)) .vp-doc thead th {
+    font-size: 11.5px;
+  }
+
+  .VPDoc:not(:has(.tb-crumb)) .vp-doc table {
+    font-size: 13px;
+  }
+}
+/* ---------- 十四、细节校准 ---------- */
+
+/* 检索入口卡片右上角的编号：不是内容，但要看得见 */
+@media (min-width: 960px) {
+  .VPHome .vp-doc .tb-entry__card::before {
+    color: var(--tb-ink-3);
+    opacity: 0.55;
+  }
+}
+
+/* 主视觉示意里「当前所在」的那条目录项：淡到只做暗示 */
+.tb-hero__preview-col:not(.tb-hero__preview-col--main) .tb-skel:nth-of-type(3) {
+  opacity: 0.34;
+}
+
+/* 开源区块：左侧补一个深色仓图标，压住宽屏上的大片空白 */
+.tb-gh__mark {
+  display: none;
+}
+
+@media (min-width: 960px) {
+  .VPHome .vp-doc .tb-gh__mark {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+    width: 58px;
+    height: 58px;
+    border-radius: 16px;
+    background: var(--tb-ink);
+    color: var(--tb-paper);
+  }
+
+  .VPHome .vp-doc .tb-gh__btn:not(.tb-gh__btn--brand) {
+    padding: 9px 16px;
+    font-size: 13px;
+  }
+}
+
+/* 窄屏提示语里「按左栏目录顺序读」没有意义：手机上本来就没有左栏 */
+@media (max-width: 959.9px) {
+  .tb-lib__count-hint {
+    display: none;
+  }
+}
+/* ---------- 十五、暗色下的对齐校正 ---------- */
+/* 亮色里靠 --tb-line / --tb-line-2 表达的层次，在深底上会糊成一片。
+   这里把示意条与圆点提到 --tb-ink-3 一档，暗色下才读得出「哪里是哪里」。 */
+
+html.dark .tb-hero__preview {
+  border-color: var(--tb-line-2);
+}
+
+html.dark .tb-hero__preview-col--main .tb-skel {
+  background: var(--tb-line-2);
+  opacity: 0.95;
+}
+
+html.dark .tb-hero__preview-col--main .tb-skel--lead {
+  background: var(--tb-ink);
+  opacity: 0.5;
+}
+
+html.dark .tb-hero__preview-col:not(.tb-hero__preview-col--main) .tb-skel::before {
+  background: var(--tb-ink-3);
+}
+
+html.dark .tb-hero__preview-col:not(.tb-hero__preview-col--main) .tb-skel:nth-of-type(3) {
+  opacity: 0.5;
+}
+
+html.dark .tb-hero__preview-col:not(.tb-hero__preview-col--main) .tb-skel:nth-of-type(3)::before {
+  background: var(--tb-accent);
+}
+/* 暗色下 --tb-sink 比面板底色还深，卡片边界会糊掉；补一条边框把它拉回来 */
+html.dark .VPHome .vp-doc .tb-lic__legend li {
+  border: 1px solid var(--tb-line);
+}
+
+/* ---------- 十六、窄屏：筛选项改横向滚动 ---------- */
+/* 430px 下四个筛选组会换行成 7 行、把列表推到 700px 之外。
+   改成一行一组的横向滚动：既保留全部选项，又不占竖向空间。
+   标签固定在左侧，滑动时始终知道这一行在筛什么。 */
+
+@media (max-width: 719.9px) {
+  .tb-lib__group:not(:has(.tb-lib__select)) {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scrollbar-width: none;
+    margin-right: -24px;
+    padding-right: 24px;
+    padding-bottom: 2px;
+  }
+
+  .tb-lib__group:not(:has(.tb-lib__select))::-webkit-scrollbar {
+    display: none;
+  }
+
+  .tb-lib__group:not(:has(.tb-lib__select)) .tb-lib__label {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    flex: none;
+    padding-right: 8px;
+    background: var(--tb-paper);
+  }
+
+  .tb-lib__group:not(:has(.tb-lib__select)) .tb-lib__chip {
+    flex: none;
+  }
+
+  /* 横向滚动区的右端没有渐隐，加一层遮罩提示「还能往右滑」 */
+  .tb-lib__group:not(:has(.tb-lib__select)) {
+    -webkit-mask-image: linear-gradient(to right, #000 0, #000 calc(100% - 26px), transparent 100%);
+    mask-image: linear-gradient(to right, #000 0, #000 calc(100% - 26px), transparent 100%);
+  }
+}
+/* ---------- 十七、滚动揭示的兜底 ---------- */
+/* style.css 里的揭示靠 IntersectionObserver 加 .is-in。
+   但如果读者是「跳到页面中段」进来的（刷新恢复滚动位置、浏览器内查找、
+   直接拖到一半），被跳过的区块永远不会被观察到，就会一直停在 opacity:0。
+   这里加一条带延迟的兜底动画：即使观察没触发，3 秒后也一定可见。 */
+
+@keyframes tb-reveal-failsafe {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+html.tb-reveal .VPHome .tb-resume,
+html.tb-reveal .VPHome .tb-comp,
+html.tb-reveal .VPHome .tb-entry,
+html.tb-reveal .VPHome .tb-gh {
+  animation: tb-reveal-failsafe 0.6s cubic-bezier(0.22, 1, 0.36, 1) 3s forwards;
+}
+
+/* 已经揭开的区块不要再被兜底动画重播一遍 */
+html.tb-reveal .VPHome .tb-resume.is-in,
+html.tb-reveal .VPHome .tb-comp.is-in,
+html.tb-reveal .VPHome .tb-entry.is-in,
+html.tb-reveal .VPHome .tb-gh.is-in {
+  animation: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.tb-reveal .VPHome .tb-resume,
+  html.tb-reveal .VPHome .tb-comp,
+  html.tb-reveal .VPHome .tb-entry,
+  html.tb-reveal .VPHome .tb-gh {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+}
+/* ---------- 十八、课程库：空态与列表脊 ---------- */
+
+.tb-lib .tb-lib__empty-text {
+  margin: 0 0 14px;
+  font-size: 13.5px;
+  line-height: 1.7;
+  color: var(--tb-ink-2);
+}
+
+.tb-lib__empty-reset {
+  font: inherit;
+  font-size: 13px;
+  min-height: 36px;
+  padding: 0 16px;
+  border: 1px solid var(--tb-line-2);
+  border-radius: 999px;
+  background: var(--tb-surface);
+  color: var(--tb-ink-2);
+  cursor: pointer;
+  transition: border-color 0.16s ease, color 0.16s ease, background-color 0.16s ease;
+}
+
+@media (hover: hover) {
+  .tb-lib__empty-reset:hover {
+    border-color: var(--tb-accent);
+    background: var(--tb-accent-soft);
+    color: var(--tb-accent-ink);
+  }
+}
+
+@media (max-width: 959.9px) {
+  .tb-lib__empty-reset {
+    min-height: 44px;
+    padding: 0 20px;
+    font-size: 14px;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@media (min-width: 960px) {
+  /* 左边那条强调线平时留一点影子：整列形成一条「列表脊」，
+     扫读时比纯分隔线更容易定位，悬停时再点亮相依的那一行。 */
+  .tb-lib__item::before {
+    opacity: 0.22;
+  }
+
+  .tb-lib__item:has(a):hover::before {
+    opacity: 1;
+  }
+}
+/* ---------- 十九、动效偏好 ---------- */
+/* 悬停时的轻微位移也只是装饰，系统要求减少动效时一并去掉，
+   颜色与透明度的变化保留：它们不产生位移，不影响前庭反应。 */
+
+@media (prefers-reduced-motion: reduce) {
+  .VPHome .vp-doc .tb-entry__go,
+  .VPHome .vp-doc .tb-resume__pill,
+  .VPHome .vp-doc .tb-path__foot::after,
+  .VPHome .vp-doc .tb-path__order {
+    transition: none;
+    transform: none;
+  }
+
+  .VPHome .vp-doc .tb-entry__card:hover .tb-entry__go,
+  .VPHome .vp-doc .tb-path:hover .tb-path__foot::after,
+  .VPHome .vp-doc .tb-resume__pill:hover {
+    transform: none;
+  }
+}

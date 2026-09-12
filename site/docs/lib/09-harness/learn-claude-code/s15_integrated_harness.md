@@ -44,7 +44,7 @@ S15 does not introduce another isolated mechanism. It shows where the existing m
 
 ## Solution
 
-![System Architecture](https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s15_integrated_harness/images/system-architecture.en.svg)
+![System Architecture](https://gh-proxy.com/https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s15_integrated_harness/images/system-architecture.en.svg)
 
 S15 does not introduce a new mechanism. It connects the components from the earlier chapters in one integrated harness:
 

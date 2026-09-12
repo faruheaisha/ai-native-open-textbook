@@ -35,7 +35,7 @@ Every round-trip, you're the middle layer. Automating that is what this chapter 
 
 ## The Solution
 
-![Agent Loop](https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s01_agent_loop/images/agent-loop.en.svg)
+![Agent Loop](https://gh-proxy.com/https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s01_agent_loop/images/agent-loop.en.svg)
 
 A `while True` loop: keep going when the model calls a tool, stop when it doesn't. The loop checks the response content blocks directly:
 

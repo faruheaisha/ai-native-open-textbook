@@ -73,7 +73,7 @@ zh: ""
 
 这次选择的是 Framer 官网展示的一张页面。画面里有大标题、导航栏、紫色山景和几个小按钮，主要内容很清楚。
 
-![老师放进 Trae 的网页截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/clone-your-favorite-app/images/framer-official-interface.webp)
+![老师放进 Trae 的网页截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/clone-your-favorite-app/images/framer-official-interface.webp)
 
 _截图来源：[Framer Website Builder](https://www.framer.com/solutions/website-builder/)_
 
@@ -91,7 +91,7 @@ _截图来源：[Framer Website Builder](https://www.framer.com/solutions/websit
 
 Trae 创建了 `index.html`、`styles.css` 和 `script.js`，随后把网页启动在浏览器里。下面的动图是这次实际生成的结果：
 
-![Trae 根据截图实际生成并运行的 Wishlabs 网页](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/clone-your-favorite-app/images/trae-generated-wishlabs.webp)
+![Trae 根据截图实际生成并运行的 Wishlabs 网页](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/clone-your-favorite-app/images/trae-generated-wishlabs.webp)
 
 先别急着研究代码，我们只看页面。对照前面的参考图，你会发现：
 
@@ -158,7 +158,7 @@ Trae 创建了 `index.html`、`styles.css` 和 `script.js`，随后把网页启�
 
 SaaS 产品经常使用数据看板来展示项目进度、销售情况或用户数据。下面这张 Linear 页面里，左边是导航，右边是看板列表，整体结构非常清楚。
 
-![Linear 官方 Dashboard 界面](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/clone-your-favorite-app/images/linear-official-dashboard.webp)
+![Linear 官方 Dashboard 界面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/clone-your-favorite-app/images/linear-official-dashboard.webp)
 
 _课堂参考图：[Linear Dashboards](https://linear.app/docs/dashboards)_
 
@@ -171,7 +171,7 @@ _课堂参考图：[Linear Dashboards](https://linear.app/docs/dashboards)_
 
 Trae 做出了侧边栏、数据卡片和图表。下面是页面打开后的操作动图：
 
-![Trae 根据截图实际生成并运行的数据看板](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/clone-your-favorite-app/images/trae-generated-linear-dashboard.webp)
+![Trae 根据截图实际生成并运行的数据看板](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/clone-your-favorite-app/images/trae-generated-linear-dashboard.webp)
 
 这里的数据不是真实业务数据，但没有关系。第一次练习的重点，是把看板的结构做出来。等页面稳定以后，再把标题、数字和图表内容换成你自己的。
 
@@ -179,7 +179,7 @@ Trae 做出了侧边栏、数据卡片和图表。下面是页面打开后的操
 
 如果你对普通网页没有兴趣，也可以拿游戏画面来练习。老师选择了一张 Minecraft 的方块世界截图作为参考。
 
-![Minecraft Creative Mode 真实界面](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/clone-your-favorite-app/images/minecraft-official-creative-mode.webp)
+![Minecraft Creative Mode 真实界面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/clone-your-favorite-app/images/minecraft-official-creative-mode.webp)
 
 _课堂参考图：[Microsoft Learn 的 Minecraft 示例](https://learn.microsoft.com/en-us/xbox/accessibility/xbox-accessibility-guidelines/108)_
 
@@ -192,7 +192,7 @@ _课堂参考图：[Microsoft Learn 的 Minecraft 示例](https://learn.microsof
 
 Trae 做出了一个可以玩的网页小游戏。人物可以移动，也可以放置和破坏方块：
 
-![Trae 根据截图实际生成并运行的 2D 方块小游戏](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/clone-your-favorite-app/images/trae-generated-block-game.webp)
+![Trae 根据截图实际生成并运行的 2D 方块小游戏](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/clone-your-favorite-app/images/trae-generated-block-game.webp)
 
 先看清楚：上面这个结果是一个 <strong>2D 横版游戏</strong>。人物只能在平面里移动，画面没有前后远近。因为老师只说了“方块小游戏”，没有告诉 Trae 一定要做成 3D，所以它选择了比较简单的做法。
 
@@ -209,7 +209,7 @@ Trae 做出了一个可以玩的网页小游戏。人物可以移动，也可以
 
 这次 Trae 做出了一个真正的 3D 方块世界：
 
-![Trae 根据截图实际生成并运行的 3D 方块小游戏](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/clone-your-favorite-app/images/trae-generated-3d-block-game.webp)
+![Trae 根据截图实际生成并运行的 3D 方块小游戏](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-1/clone-your-favorite-app/images/trae-generated-3d-block-game.webp)
 
 点击“开始游戏”后，可以用 `WASD` 走动，用鼠标转动视角。左键破坏方块，右键放置方块，数字键可以更换方块。
 

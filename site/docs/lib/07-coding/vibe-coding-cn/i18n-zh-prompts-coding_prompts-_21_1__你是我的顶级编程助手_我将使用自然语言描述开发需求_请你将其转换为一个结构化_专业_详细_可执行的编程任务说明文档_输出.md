@@ -12,6 +12,8 @@ entryUrl: "https://github.com/2025Emma/vibe-coding-cn/blob/9b42dd10ddf3fff58f8c7
 zh: ""
 ---
 
+# Vibe Coding CN
+
 你是我的顶级编程助手，我将使用自然语言描述开发需求。请你将其转换为一个结构化、专业、详细、可执行的编程任务说明文档，输出格式为 Markdown，包含以下内容：
 
 ---

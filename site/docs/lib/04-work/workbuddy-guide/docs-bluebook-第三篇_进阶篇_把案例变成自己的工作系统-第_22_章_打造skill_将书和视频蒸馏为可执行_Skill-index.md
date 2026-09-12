@@ -18,7 +18,7 @@ zh: ""
 
 可以使用[cangjie-skill](https://github.com/kangarooking/cangjie-skill)把知识蒸馏成skill。
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 22 章 打造skill：将书和视频蒸馏为可执行 Skill/assets/001_image_WcJzb4b7Yo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 22 章 打造skill：将书和视频蒸馏为可执行 Skill/assets/001_image_WcJzb4b7Yo.png)
 
 cangjie-skill 开源项目（v1 蒸馏书，v2 增加视频蒸馏），以及 Andrej Karpathy 关于 LLM 个人知识库的思路。
 
@@ -32,7 +32,7 @@ AI 在训练时已经摄入了大量经典著作，但在实际问答中，它�
 
 知识精馏要解决的，就是这个"学了用不上"的问题。
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 22 章 打造skill：将书和视频蒸馏为可执行 Skill/assets/002_image_M0YFbAywgo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 22 章 打造skill：将书和视频蒸馏为可执行 Skill/assets/002_image_M0YFbAywgo.png)
 
 ## 知识精馏的定义
 
@@ -61,13 +61,13 @@ flowchart TD
     E --> F[阶段 5：压力测试]
 ```
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 22 章 打造skill：将书和视频蒸馏为可执行 Skill/assets/003_image_N5i2bw6V5o.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 22 章 打造skill：将书和视频蒸馏为可执行 Skill/assets/003_image_N5i2bw6V5o.png)
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 22 章 打造skill：将书和视频蒸馏为可执行 Skill/assets/004_image_FiYybAIEQo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 22 章 打造skill：将书和视频蒸馏为可执行 Skill/assets/004_image_FiYybAIEQo.png)
 
 以蒸馏《文案创作完全手册》为例
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 22 章 打造skill：将书和视频蒸馏为可执行 Skill/assets/005_image_NaOwbuAcQo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 22 章 打造skill：将书和视频蒸馏为可执行 Skill/assets/005_image_NaOwbuAcQo.png)
 
 ### 阶段 0：整书 / 整片理解
 
@@ -80,7 +80,7 @@ flowchart TD
 
 这一步决定后续提取的质量上限。跳过这一步直接提取，容易把作者反对的观点当成他支持的方法论。
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 22 章 打造skill：将书和视频蒸馏为可执行 Skill/assets/006_image_F5Ngb4vd5o.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 22 章 打造skill：将书和视频蒸馏为可执行 Skill/assets/006_image_F5Ngb4vd5o.png)
 
 ### 阶段 1：五个 Agent 并行提取
 
@@ -96,7 +96,7 @@ flowchart TD
 
 五个角度并行，避免单线阅读中的视角遗漏。
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 22 章 打造skill：将书和视频蒸馏为可执行 Skill/assets/007_image_QMdJbhsm0o.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 22 章 打造skill：将书和视频蒸馏为可执行 Skill/assets/007_image_QMdJbhsm0o.png)
 
 ### 阶段 1.5：三重验证筛选
 
@@ -110,7 +110,7 @@ flowchart TD
 
 宁缺毋滥。一本书通常有 50–100 个候选单元，通过三重验证后保留 10–25 个。
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 22 章 打造skill：将书和视频蒸馏为可执行 Skill/assets/008_image_D7z7b4DWvo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 22 章 打造skill：将书和视频蒸馏为可执行 Skill/assets/008_image_D7z7b4DWvo.png)
 
 ### 阶段 2：构造 Skill
 
@@ -123,7 +123,7 @@ flowchart TD
 
 触发条件的设计是最难也最关键的一步。没有触发条件的 Skill，在实际使用中无法被 Agent 正确识别和调用。
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 22 章 打造skill：将书和视频蒸馏为可执行 Skill/assets/009_image_XXrkbXOymo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 22 章 打造skill：将书和视频蒸馏为可执行 Skill/assets/009_image_XXrkbXOymo.png)
 
 ### 阶段 4：链接
 
@@ -135,7 +135,7 @@ flowchart TD
 
 链接层让 Agent 在遇到复杂问题时，能够选择一组 Skill 而不只是单个 Skill。
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 22 章 打造skill：将书和视频蒸馏为可执行 Skill/assets/010_image_BXYeb8ld7o.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 22 章 打造skill：将书和视频蒸馏为可执行 Skill/assets/010_image_BXYeb8ld7o.png)
 
 ### 阶段 5：压力测试
 
@@ -143,13 +143,13 @@ flowchart TD
 
 **执行验证**：给出真实问题，验证 Skill 是否能输出可落地的步骤而不是正确的废话。
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 22 章 打造skill：将书和视频蒸馏为可执行 Skill/assets/011_image_NwvvbJkuco.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 22 章 打造skill：将书和视频蒸馏为可执行 Skill/assets/011_image_NwvvbJkuco.png)
 
 ## 蒸馏产物结构
 
 一本书蒸馏完成后，产物是一套 Skill 集合：
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 22 章 打造skill：将书和视频蒸馏为可执行 Skill/assets/012_image_LEKGbkn2Go.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 22 章 打造skill：将书和视频蒸馏为可执行 Skill/assets/012_image_LEKGbkn2Go.png)
 
 ```text
 book-skill/
@@ -166,9 +166,9 @@ book-skill/
 
 每个 Skill 文件包含：触发条件、执行步骤、输出格式、边界限制、测试用例。测试用例格式兼容 darwin-skill（自动 Skill 进化工具），蒸馏产物可以持续自动优化。
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 22 章 打造skill：将书和视频蒸馏为可执行 Skill/assets/013_image_Mp0ZbEmn7o.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 22 章 打造skill：将书和视频蒸馏为可执行 Skill/assets/013_image_Mp0ZbEmn7o.png)
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 22 章 打造skill：将书和视频蒸馏为可执行 Skill/assets/014_image_C1aCbJYz3o.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 22 章 打造skill：将书和视频蒸馏为可执行 Skill/assets/014_image_C1aCbJYz3o.png)
 
 ## 知识精馏 vs RAG
 
@@ -208,7 +208,7 @@ cangjie-skill 的阶段 0（整书理解）和阶段 1（并行提取）吸收�
 
 cangjie-skill v2 在书本蒸馏基础上增加了视频蒸馏能力（借助[video-downloader skill](https://github.com/kangarooking/kangarooking-skills/tree/main/video-downloader)）。视频与书的区别在于：需要先完成"视频 → 文字"的转换，再进入六阶段 SOP。
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 22 章 打造skill：将书和视频蒸馏为可执行 Skill/assets/015_image_MG56bW6jlo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 22 章 打造skill：将书和视频蒸馏为可执行 Skill/assets/015_image_MG56bW6jlo.png)
 
 ### 视频获取与转写
 
@@ -331,7 +331,7 @@ darwin-skill 是自动 Skill 进化工具：将 Skill 喂给它，它会自动�
 - 产出：25 个 Skill
 - 特点：全部为时效性内容，AI 未经训练，蒸馏后可直接在对应场景下被 Agent 调用
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 22 章 打造skill：将书和视频蒸馏为可执行 Skill/assets/016_image_HoW7bnRYFo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 22 章 打造skill：将书和视频蒸馏为可执行 Skill/assets/016_image_HoW7bnRYFo.png)
 
 ## 总结：知识精馏在技能包体系中的位置
 

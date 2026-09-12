@@ -67,7 +67,7 @@ pnpm install
 
 小明听到这里有点懵："所以我要填两个端口？"老师傅说："对。容器内部端口是 3000（Next.js 默认），服务器外部端口你自己定，比如 3001。用户访问 3001，流量就转发到容器的 3000。"
 
-![image-20260303151924020](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260303151924020.png)
+![image-20260303151924020](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260303151924020.png)
 
 ## 前置准备：内存不足的解决方案
 
@@ -116,7 +116,7 @@ free -h
 - **端口映射**：把容器的 3000 映射到服务器的 3001（见下方说明）
 - **环境变量**：把 `.env` 里的变量逐一添加（见下方说明）
 
-![image-20260302235637992](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260302235637992.png)
+![image-20260302235637992](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260302235637992.png)
 
 ### 端口映射怎么配置
 
@@ -134,7 +134,7 @@ free -h
 
 配置完成后，记得在云厂商的安全组中**开放对应的外部端口**（如 3001）。
 
-![image-20260303151929448](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260303151929448.png)
+![image-20260303151929448](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260303151929448.png)
 
 ### 启动命令怎么填
 
@@ -197,7 +197,7 @@ Redis 连接字符串的格式取决于是否设置了密码：
 
 小明把本地 `.env` 文件里的变量一个个复制过去。填到 `DATABASE_URL` 时，他差点又写 `localhost`——想起上一节的教训，赶紧改成了 PostgreSQL 的容器名。他去「容器」页面确认了一下，容器名是 `1Panel-postgresql-ukow`。
 
-![image-20260302235711891](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260302235711891.png)
+![image-20260302235711891](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260302235711891.png)
 
 ### 点击确认，等待启动
 
@@ -207,7 +207,7 @@ Redis 连接字符串的格式取决于是否设置了密码：
 
 查看运行日志可以在「网站 > 运行环境」列表中点击对应环境的「日志」按钮。
 
-![image-20260302235748925](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260302235748925.png)
+![image-20260302235748925](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260302235748925.png)
 
 ## 第四步：访问你的应用
 

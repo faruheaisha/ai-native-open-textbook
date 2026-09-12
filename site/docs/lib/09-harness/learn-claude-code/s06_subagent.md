@@ -30,7 +30,7 @@ The Agent is fixing a bug. It reads many files to trace the call chain, and ever
 
 ## The Solution
 
-![Subagent Overview](https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s06_subagent/images/subagent-overview.en.svg)
+![Subagent Overview](https://gh-proxy.com/https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s06_subagent/images/subagent-overview.en.svg)
 
 Calling `task` synchronously runs a nested agent loop with a fresh `messages[]`. When that loop finishes, its final text becomes the tool result in the parent conversation.
 

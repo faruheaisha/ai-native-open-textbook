@@ -16,7 +16,7 @@ zh: ""
 
 MineContext is a proactive context-aware AI partner. By utilizing screenshots and content comprehension (with future support for multi-source multimodal information including documents, images, videos, code, and external application data), it can see and understand the user's digital world context. Based on an underlying contextual engineering framework, it actively delivers high-quality information such as insights, daily/weekly summaries, to-do lists, and activity records.
 
-![feature.gif](https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/feature.gif)
+![feature.gif](https://gh-proxy.com/https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/feature.gif)
 
 # 🚀 Key Features
 
@@ -51,7 +51,7 @@ In addition, we support custom model services based on the OpenAI API protocol. 
 
 Click [Github Latest Release](https://github.com/volcengine/MineContext/releases) to Download
 
-![Download APP](https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/Download-App.gif)
+![Download APP](https://gh-proxy.com/https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/Download-App.gif)
 
 > **Note**: Starting from v0.1.5, MineContext supports Apple notarization, so you no longer need to disable the quarantine attribute. If you're using an older version, please refer to the [previous documentation](https://github.com/volcengine/MineContext/blob/0.1.4/README.md) for instructions.
 
@@ -68,22 +68,22 @@ We recommend using [LMStudio](https://lmstudio.ai/) to run local models. It prov
 After obtaining the Doubao API Key, you need to activate two models in the [Model Activation Management Interface](https://console.volcengine.com/ark/region:ark+cn-beijing/model): the Visual Language Model and the Embedding Model.
 
 - Visual Language Model: Doubao-Seed-1.6-flash
-  ![doubao-vlm-model](https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/doubao-vlm-model.png)
+  ![doubao-vlm-model](https://gh-proxy.com/https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/doubao-vlm-model.png)
 
 - Embedding Model: Doubao-embedding-vision
-  ![doubao-emb-model](https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/doubao-emb-model.png)
+  ![doubao-emb-model](https://gh-proxy.com/https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/doubao-emb-model.png)
 
 The following is the filling process after obtaining the API Key:
 
-![Enter API Key](https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/Enter-API-Key.gif)
+![Enter API Key](https://gh-proxy.com/https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/Enter-API-Key.gif)
 
 ## 3. Start Recording
 
 Enter [Screen Monitor] to enable the system permissions for screen sharing. After completing the setup, you need to restart the application for the changes to take effect.
-![Enable-Permissions](https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/Enable-Permissions.gif)
+![Enable-Permissions](https://gh-proxy.com/https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/Enable-Permissions.gif)
 
 After restarting the application, please first set your screen sharing area in [Settings], then click [Start Recording] to begin taking screenshots.
-![Screen-Settings](https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/Screen-Settings.gif)
+![Screen-Settings](https://gh-proxy.com/https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/Screen-Settings.gif)
 
 ## 4. Forget it
 
@@ -94,13 +94,13 @@ After starting the recording, your context will gradually be collected. It will 
 MineContext supports backend debugging, which can be accessed at `http://localhost:1733`.
 
 1.View Token Consumption and Usage
-![后台调试1](https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/backend-web-1.png)
+![后台调试1](https://gh-proxy.com/https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/backend-web-1.png)
 
 2.Configure Interval for Automated Tasks
-![后台调试2](https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/backend-web-2.png)
+![后台调试2](https://gh-proxy.com/https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/backend-web-2.png)
 
 3.Adjust System Prompt for Automated Tasks
-![后台调试3](https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/backend-web-3.png)
+![后台调试3](https://gh-proxy.com/https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/backend-web-3.png)
 
 # 🎃 Contribution Guide
 

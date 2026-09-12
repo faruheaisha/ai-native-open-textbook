@@ -20,7 +20,7 @@ zh: ""
 
 ---
 
-![Agent Loop 核心循环](https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s01_agent_loop/images/agent-loop.svg)
+![Agent Loop 核心循环](https://gh-proxy.com/https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s01_agent_loop/images/agent-loop.svg)
 
 ## 代码架构图
 

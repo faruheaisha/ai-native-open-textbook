@@ -20,7 +20,7 @@ zh: ""
 
 ---
 
-![Sidecar Server 架构](https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s06_sidecar_server/images/sidecar-arch.svg)
+![Sidecar Server 架构](https://gh-proxy.com/https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s06_sidecar_server/images/sidecar-arch.svg)
 
 ## 代码架构图
 

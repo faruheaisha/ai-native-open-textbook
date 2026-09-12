@@ -36,13 +36,13 @@ Apple Developer 的团队文章很适合看真实产品怎样采用 SwiftUI，�
 
 Tiimo 是一款面向神经多样性人群的计划工具，提供 iPhone、iPad 和 Apple Watch 版本。团队没有为了追新技术一次重写全部应用，而是结合产品路线逐步迁移，让无障碍、动画和多设备支持更容易维护。
 
-![Apple Developer 展示 Tiimo 在 iPhone 上的真实界面](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/apple-tiimo-swiftui-case.jpg)
+![Apple Developer 展示 Tiimo 在 iPhone 上的真实界面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/apple-tiimo-swiftui-case.jpg)
 
 图片与案例来源：[Tiimo 团队为什么迁移到 SwiftUI](https://developer.apple.com/articles/tiimo/)。Apple 的文章还列出了团队规模、支持设备和实际迁移考虑，很适合小团队参考。
 
 Copilot Money 是另一个完全不同的产品：它会整理账户、交易和现金流。这个应用最初使用 Swift 和 UIKit，后来把新的 Cash Flow 功能用 SwiftUI 与 Swift Charts 做出来，并让 iOS 和 macOS 版本共享更多实现。
 
-![Copilot Money 用 Swift Charts 展示真实现金流数据](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/apple-copilot-money-case.jpg)
+![Copilot Money 用 Swift Charts 展示真实现金流数据](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/apple-copilot-money-case.jpg)
 
 图片与案例来源：[Copilot Money 如何采用 Swift Charts](https://developer.apple.com/articles/copilot-money/)。它说明成熟 App 不必在 UIKit 和 SwiftUI 之间二选一，新页面和新功能可以逐步采用 SwiftUI。
 
@@ -60,45 +60,45 @@ Apple 的[企业开发入口](https://developer.apple.com/business/get-started/)
 
 用户输入现有食材，应用生成一份菜谱，并把确认过的结果保存在本机。教程从 Xcode 空项目开始，依次完成模拟器运行、AI 修改、后端接口、本地存储、真机测试和 App Store 发布准备。
 
-![冰箱大厨 iOS 应用成品](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image47.png)
+![冰箱大厨 iOS 应用成品](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image47.png)
 
 ## 1. 准备设备和工具
 
 iOS 应用需要一台能运行当前 Xcode 的 Mac。真机测试还需要 iPhone 和 Apple ID；只有模拟器测试时，可以暂时不接手机。
 
-![Mac 与 iPhone 开发环境](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image1.png)
+![Mac 与 iPhone 开发环境](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image1.png)
 
 从 Mac App Store 安装 Xcode，第一次启动时等待开发组件安装完成。
 
-![Xcode 欢迎界面](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image12.png)
+![Xcode 欢迎界面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image12.png)
 
 如果后面要连接 iPhone，在手机“隐私与安全”里开启开发者模式。菜单位置可能随 iOS 版本变化，以手机当前提示为准。
 
-![在 iPhone 开启开发者模式](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image9.png)
+![在 iPhone 开启开发者模式](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image9.png)
 
 ## 2. 创建并运行空白项目
 
 在 Xcode 欢迎页选择 **Create New Project**。
 
-![在 Xcode 创建新项目](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image14.png)
+![在 Xcode 创建新项目](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image14.png)
 
 模板选择 iOS App，界面使用 SwiftUI，语言使用 Swift。
 
-![选择 iOS App 模板](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image15.png)
+![选择 iOS App 模板](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image15.png)
 
 项目名填写 `FridgeChef`，Organization Identifier 使用自己的反向域名。需要本地历史记录时，可以选择 SwiftData；如果模板提供的选项不同，也可以稍后再增加。
 
-![填写项目名称、团队和 Bundle Identifier](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image16-private-redacted.png)
+![填写项目名称、团队和 Bundle Identifier](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image16-private-redacted.png)
 
 选择保存位置并创建项目。
 
-![选择 Xcode 项目保存位置](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image17-cropped.png)
+![选择 Xcode 项目保存位置](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image17-cropped.png)
 
 先不要改代码。顶部选择一台 iPhone 模拟器，点击 Run。
 
-![在 Xcode 选择模拟器并运行](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image19.png)
+![在 Xcode 选择模拟器并运行](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image19.png)
 
-![空白 SwiftUI 应用在模拟器中运行](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image21.png)
+![空白 SwiftUI 应用在模拟器中运行](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image21.png)
 
 空白应用能启动，才说明 Xcode、SDK、签名和模拟器已经连通。
 
@@ -110,11 +110,11 @@ iOS 应用需要一台能运行当前 Xcode 的 Mac。真机测试还需要 iPho
 
 > 请把当前 SwiftUI 首页改成冰箱大厨。首页显示食材输入框、生成菜谱按钮和历史记录空状态，先使用演示数据。
 
-![AI 读取 iOS 项目并开始修改](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image23-terminal-cropped.png)
+![AI 读取 iOS 项目并开始修改](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image23-terminal-cropped.png)
 
 回到 Xcode 重新运行。第一轮只看输入框、按钮和空状态，不接网络。
 
-![SwiftUI 首页第一版](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image25.png)
+![SwiftUI 首页第一版](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image25.png)
 
 如果布局不适合小屏幕：
 
@@ -150,7 +150,7 @@ iOS 应用需要一台能运行当前 Xcode 的 Mac。真机测试还需要 iPho
 
 在 Xcode 中创建 SwiftData 模型或当前项目使用的本地数据模型。
 
-![在 Xcode 配置本地菜谱数据](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image29.png)
+![在 Xcode 配置本地菜谱数据](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image29.png)
 
 > 请把用户确认的菜谱保存到本机，并在首页按时间倒序显示。删除前需要确认，空数据库显示空状态。
 
@@ -166,13 +166,13 @@ iOS 应用需要一台能运行当前 Xcode 的 Mac。真机测试还需要 iPho
 
 图标应为自己创作或确认有权使用的素材。生成 1024×1024 原图后，拖入 Assets 中对应的 App Icon 资源。
 
-![准备冰箱大厨图标](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image31.png)
+![准备冰箱大厨图标](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image31.png)
 
-![把图标放入 Xcode Assets](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image34.png)
+![把图标放入 Xcode Assets](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image34.png)
 
 重新运行，确认模拟器桌面和应用切换器里都显示新图标。
 
-![带正式图标的冰箱大厨](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image36.png)
+![带正式图标的冰箱大厨](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image36.png)
 
 ## 8. 做一次完整模拟器验收
 
@@ -190,7 +190,7 @@ iOS 应用需要一台能运行当前 Xcode 的 Mac。真机测试还需要 iPho
 
 > 我执行【操作】后出现【现象】。Xcode 错误是【内容】。请只修复这一项，并告诉我怎样复测。
 
-![在 Xcode 查看编译和运行错误](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image42.png)
+![在 Xcode 查看编译和运行错误](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image42.png)
 
 日志里不要写完整菜谱输入、用户 Token、联系方式或服务器密钥。
 
@@ -198,17 +198,17 @@ iOS 应用需要一台能运行当前 Xcode 的 Mac。真机测试还需要 iPho
 
 用数据线连接 iPhone，首次连接时在手机上选择信任。
 
-![将 iPhone 连接到 Mac](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image39.png)
+![将 iPhone 连接到 Mac](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image39.png)
 
-![在 iPhone 上信任这台电脑](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image40-device-redacted.png)
+![在 iPhone 上信任这台电脑](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image40-device-redacted.png)
 
 回到 Xcode，在顶部设备列表选择自己的 iPhone，确认 Signing & Capabilities 中选择了正确团队，再点击 Run。
 
-![冰箱大厨安装到真实 iPhone](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image41.png)
+![冰箱大厨安装到真实 iPhone](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image41.png)
 
 个人 Apple ID 可以用于开发调试，但签名有效期和能力有限。系统要求信任开发者时，根据手机当前提示操作。
 
-![在 iPhone 设备管理中信任开发应用](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image45.png)
+![在 iPhone 设备管理中信任开发应用](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image45.png)
 
 真机重点测试键盘、网络切换、后台恢复、深色模式、动态字体和真实触摸区域。
 
@@ -216,7 +216,7 @@ iOS 应用需要一台能运行当前 Xcode 的 Mac。真机测试还需要 iPho
 
 准备上架时，需要加入 Apple Developer Program，在 App Store Connect 创建 App 条目，并通过 Xcode 上传归档构建。
 
-![App Store Connect 发布入口](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image46.png)
+![App Store Connect 发布入口](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/ios-app/images/image46.png)
 
 账号费用、SDK 要求、隐私清单和审核规则会变化，提交时以 Apple 当前后台和官方文档为准。
 

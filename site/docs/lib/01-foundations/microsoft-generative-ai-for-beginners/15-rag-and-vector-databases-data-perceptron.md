@@ -18,7 +18,7 @@ One of the first attempts to implement something similar to a modern neural netw
 
 |      |      |
 |--------------|-----------|
-|<img src='https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/15-rag-and-vector-databases/data/images/Rosenblatt-wikipedia.jpg' alt='Frank Rosenblatt'/> | <img src='https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/15-rag-and-vector-databases/data/images/Mark_I_perceptron_wikipedia.jpg' alt='The Mark 1 Perceptron' />|
+|<img src='https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/15-rag-and-vector-databases/data/images/Rosenblatt-wikipedia.jpg' alt='Frank Rosenblatt'/> | <img src='https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/15-rag-and-vector-databases/data/images/Mark_I_perceptron_wikipedia.jpg' alt='The Mark 1 Perceptron' />|
 
 > Images from Wikipedia
 

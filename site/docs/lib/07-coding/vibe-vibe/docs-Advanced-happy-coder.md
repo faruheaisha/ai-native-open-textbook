@@ -22,7 +22,7 @@ zh: ""
 
 > 甚至可以在 Happy App 中使用 语言输入动动嘴就能实现 AI 编程
 
-![img](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/header.png)
+![img](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/header.png)
 
 注：
 
@@ -45,7 +45,7 @@ zh: ""
 
 > Happy Coder 的神不在于它的模型比别人强，而在于它让 AI 开发变得像呼吸一样随时随地，而且像保险柜一样安全。
 
-<video src="https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/happy-coder/Happy-App.mp4" autoplay muted loop playsinline controls></video>
+<video src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/happy-coder/Happy-App.mp4" autoplay muted loop playsinline controls></video>
 
 ### 1、Happy Coder 解决了什么痛点
 
@@ -70,7 +70,7 @@ zh: ""
 
  Happy Coder 采用了 “三位一体” 的协作系统架构，即 ”三剑客架构“ ：
 
-![AA332EC147F2DC33DBF646428A1BFDDC](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/AA332EC147F2DC33DBF646428A1BFDDC.jpg)
+![AA332EC147F2DC33DBF646428A1BFDDC](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/AA332EC147F2DC33DBF646428A1BFDDC.jpg)
 
 - **Happy CLI（电脑端的“大脑”）**：它是包裹在 AI 助手（如 Claude Code、Gemini、CodeX）外的“智能外壳”。负责把终端屏幕上的内容**瞬间加密**并打包发走
 
@@ -210,7 +210,7 @@ A：检查是否已全局安装了 `claude-code`。如果是权限问题，尝�
 
 Node.js 官方下载地址：[https://nodejs.org/zh-cn/download](https://nodejs.org/zh-cn/download)
 
-![image-20260131001148941](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260131001148941.png)
+![image-20260131001148941](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260131001148941.png)
 
 执行以下命令来验证版本
 
@@ -228,7 +228,7 @@ node -v
 - 完成安装之后，就可以使用命令行的 git 工具（已经自带了 ssh 客户端）了，另外还有一个图形界面的 Git 项目管理工具
 - 在开始菜单里找到`Git -> Git Bash`，会弹出 Git 命令窗口，你可以在该窗口进行 Git 操作
 
-![image-20260131021033116](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260131021033116.png)
+![image-20260131021033116](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260131021033116.png)
 
 执行以下命令来验证版本
 
@@ -255,7 +255,7 @@ npm install -g @anthropic-ai/claude-code
 
 启动 Claude Code，终端输入 `claude` 指令，回车
 
-![image-20260131034907440](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260131034907440.png)
+![image-20260131034907440](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260131034907440.png)
 
 > 注：文件夹地址栏输“cmd”进入命令行的方式使用 Claude code，更方便，更便捷
 
@@ -314,11 +314,11 @@ happy claude
 
 以 Windows 为例
 
-![image-20260121191356935](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260121191356935.png)
+![image-20260121191356935](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260121191356935.png)
 
 运行 `happy claude` 指令后，选择什么终端进行身份验证（Mobile App 或 Web Browser）
 
-![image-20260122210939700](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260122210939700.png)
+![image-20260122210939700](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260122210939700.png)
 
 注：
 
@@ -334,67 +334,67 @@ happy claude
 
 在终端输入 `happy claude` 指令回车后，选择 `Web Browser`
 
-![image-20260122210432625](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260122210432625.png)
+![image-20260122210432625](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260122210432625.png)
 
 当选择 `Web Browser` 后，会自动跳转弹出浏览器窗口，如下图
 
-![image-20260121181508114](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260121181508114.png)
+![image-20260121181508114](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260121181508114.png)
 
 ### 3.1、第一次接受连接会失败
 
 第一次点击 “接受连接” 可能会连接终端失败，不过不要慌 ！
 
-![image-20260121182200139](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260121182200139.png)
+![image-20260121182200139](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260121182200139.png)
 
 只需要打开 Happy Coder 的官网 [https://happy.engineering](https://happy.engineering/) 点击 “Launch Web App” （启动 Web 应用）
 
-![image-20260121182844980](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260121182844980.png)
+![image-20260121182844980](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260121182844980.png)
 
 ### 3.2、创建账户
 
 点击 “Launch Web App” 按钮后会跳转 应用登录页面，先创建账户
 
-![image-20260121182628650](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260121182628650.png)
+![image-20260121182628650](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260121182628650.png)
 
 点击 “创建账户” 后，会进入 “Web Browser” （网页浏览器）模式，会显示终端连接成功
 
-![image-20260121185336273](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260121185336273.png)
+![image-20260121185336273](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260121185336273.png)
 
 点击 “启动新会话” 后，在文本框中输入 “你好” 测试，错误提示 “选择一台设备以启动会话”
 
-![image-20260121190528627](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260121190528627.png)
+![image-20260121190528627](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260121190528627.png)
 
 再返回浏览器 “连接终端页面”，右键选择 “重新加载” 刷新一次当前页面，再次点击 “连接终端” 按钮
 
-![image-20260122133741436](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260122133741436.png)
+![image-20260122133741436](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260122133741436.png)
 
 ### 3.2、终端连接成功
 
 刷新浏览器页面后，重新点击 “接受连接” 按钮，显示 “终端连接成功”，终端也发生了变化
 
-![image-20260122174624545](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260122174624545.png)
+![image-20260122174624545](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260122174624545.png)
 
 当点击 “确定按钮” 后，再次点击左侧对话列表中的，当前终端目录就可以进入对话模式
 
-![image-20260122175007857](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260122175007857.png)
+![image-20260122175007857](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260122175007857.png)
 
 ### 3.3、开启会话，发送指令即可在浏览器中随意使用 Claude Code
 
 点击左侧列表的当前对话后，页面即进入对话模式，同时终端也会实时同步
 
-![image-20260122180649958](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260122180649958.png)
+![image-20260122180649958](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260122180649958.png)
 
 接下来就跟之前在 Claude Code 终端中开发项目一样，就不用那个黑窗口终端了（记住：终端不能关闭）
 
-![image-20260122180854765](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260122180854765.png)
+![image-20260122180854765](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260122180854765.png)
 
 当我们在终端按下 `Ctrl + C` 时，happy claude 就会退出会话，同时浏览器网页端也会退出会话
 
-![image-20260122204025422](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260122204025422.png)
+![image-20260122204025422](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260122204025422.png)
 
 再次连接，只需要在终端输入 `happy claude` 指令，浏览器端就会自动连接开启会话，终端也会自动进入 Claude Code 开启会话，无需再做任何验证。
 
-![image-20260122205314503](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260122205314503.png)
+![image-20260122205314503](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260122205314503.png)
 
 > 现在，就可以继续在浏览器中使用 Claude Code 了
 
@@ -415,11 +415,11 @@ happy auth logout
 
 输入指令后，终端提示 “您需要重新认证才能再次使用 Happy，您确定要注销吗？(y/N)” 
 
-![image-20260125235204925](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260125235204925.png)
+![image-20260125235204925](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260125235204925.png)
 
 选择 "y" ，确认退出登录
 
-![image-20260126030118571](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260126030118571.png)
+![image-20260126030118571](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260126030118571.png)
 
 退出登录后，终端再次输入启动 Happy Coder 指令
 
@@ -429,18 +429,18 @@ happy claude
 
 在终端输入 `happy claude` 指令
 
-![image-20260121191356935](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260121191356935.png)
+![image-20260121191356935](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260121191356935.png)
 
 运行 `happy claude` 指令后，选择 Mobile App 终端进行身份验证，回车确认
 
-![image-20260122210244474](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260122210244474.png)
+![image-20260122210244474](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260122210244474.png)
 
 选择 ”Mobile App“ 后，会生成移动端认证二维码 和 URL 地址，进行身份验证
 
 - 使用 Happy 手机端 App 扫描二维码
 - 或 手动输入 URL 进行身份验证
 
-![image-20260126030816690](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260126030816690.png)
+![image-20260126030816690](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260126030816690.png)
 
 ### 4.1、  安装 Happy App
 
@@ -449,14 +449,14 @@ happy claude
 
 > 安装成功后，直接打开 Happy App 不需要注册登录
 
-<img src="https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260126040729755.png" alt="image-20260126040729755" style="zoom: 20%;" />
+<img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260126040729755.png" alt="image-20260126040729755" style="zoom: 20%;" />
 
 ### 4.2、通过 App 连接电脑终端
 
 - 点击 App 中 “打开相机” 按钮，扫描终端的二维码
 - 点击手动输入 URL，复制终端中 “Or manually enter this URL” 后的连接地址，手动输入
 
-<img src="https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260126041817239.png" alt="image-20260126041817239" style="zoom:20%;" />
+<img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260126041817239.png" alt="image-20260126041817239" style="zoom:20%;" />
 
 ### 4.3、开启 Claude Code 和 Happy App 实时会话
 
@@ -464,11 +464,11 @@ happy claude
 - 同时，也可以语音输入
 - 移动端 和 电脑端 无需同一网络，随时随地都可以保持实时会话
 
-<img src="https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260126044357499.png" alt="image-20260126044357499" style="zoom: 50%;" />
+<img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260126044357499.png" alt="image-20260126044357499" style="zoom: 50%;" />
 
 当用户在移动端发出指令后，会实时同步到电脑端的 Claude Code 完成与模型的会话
 
-![image-20260126044604246](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260126044604246.png)
+![image-20260126044604246](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260126044604246.png)
 
 > 此时，就可以根据自己的需求在手机上通过 Happy App 发出指令，完成自己的任何任务
 
@@ -552,7 +552,7 @@ happy gemini
 
 > 本次我们选择使用门槛最低的功能最强大的 **“阿里无影云电脑 + Happy Coder”** 来实现在云端实现随时随地 AI 编程
 
-![image-20260201045344280](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260201045344280.png)
+![image-20260201045344280](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260201045344280.png)
 
 ### 1、云电脑是什么
 
@@ -560,7 +560,7 @@ happy gemini
 - 正因为核心部件都在云上，所以你可以随时升降电脑配置、随地跨设备使用云电脑
 - 并且只有开机期间才需要付费
 
-![image-20260201040412804](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260201040412804.png)
+![image-20260201040412804](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260201040412804.png)
 
 ### 2、云电脑的使用场景
 
@@ -572,7 +572,7 @@ happy gemini
 - **出差办公：**出差无需携带笨重打电脑平板、手机等随时变为办公电脑
 - **低配机、MacBook、手机打高端游戏：**低配机随时复活变高配，MacBook、手机也畅玩 3A 大作游戏
 
-![image-20260201044503810](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260201044503810.png)
+![image-20260201044503810](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260201044503810.png)
 
 ### 3、云电脑有什么优势
 
@@ -584,7 +584,7 @@ happy gemini
 
 > 在编程开发、AI 大模型部署 等，都可随时升级提高配置，以满足实际需求
 
-![image-20260201040810890](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260201040810890.png)
+![image-20260201040810890](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260201040810890.png)
 
 ### 3.2、拓展设备功能
 
@@ -592,7 +592,7 @@ happy gemini
 
 > 有没有发现 ？出门再也不用背电脑了！就连电视机，也可以秒变电脑。
 
-![image-20260201042041634](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260201042041634.png)
+![image-20260201042041634](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260201042041634.png)
 
 ### 3.3、跨越平台限制
 
@@ -600,7 +600,7 @@ happy gemini
 
 > 包括编程开发，需要用到 Linux 系统、Windows 等多平台测试开发时，随时切换省时省力
 
-![image-20260201042214018](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260201042214018.png)
+![image-20260201042214018](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260201042214018.png)
 
 ### 4、云电脑怎么用
 
@@ -618,55 +618,55 @@ happy gemini
 - 安装成功后，即可通过客户端随时随地访问无影服务
 - 推荐使用阿里系账号扫码登录即可
 
-![image-20260206210230299](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260206210230299.png)
+![image-20260206210230299](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260206210230299.png)
 
 选择个人版，使用支付宝登录
 
-![image-20260202222641438](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260202222641438.png)
+![image-20260202222641438](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260202222641438.png)
 
 新用户第一次注册，可免费试用一个月（学习使用完全够用）
 
-![image-20260203190342789](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260203190342789.png)
+![image-20260203190342789](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260203190342789.png)
 
 确认领取并下单
 
 - 黄金款：系统盘 60G + 数据盘 40 G + 公网带宽 10 Mbps + 40 核时算力（免费赠送一个月、到期续费 9.9元/月）
 - 240 核时算力 （免费 1年有效期）
 
-![image-20260203224450286](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260203224450286.png)
+![image-20260203224450286](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260203224450286.png)
 
 设置云电脑基础信息
 
 - 云电脑名称：自定义一个名称（类似本地电脑的名称）
 - 常用地：就近原则（选择距离自己城市近的节点，理论上速度更快）
 
-![image-20260203224822787](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260203224822787.png)
+![image-20260203224822787](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260203224822787.png)
 
 点击立即下单即可
 
-![image-20260203230146847](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260203230146847.png)
+![image-20260203230146847](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260203230146847.png)
 
 下单成功后，扫描开通免密支付
 
 > 注：自动续费可以去支付宝取消即可。不影响新注册免费用政策，后续不用也不会继续收费，不用担心
 
-![image-20260203235745450](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260203235745450.png)
+![image-20260203235745450](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260203235745450.png)
 
 支付宝扫码成功后，点击 “已完成开通并授权扣款” 按钮
 
-![image-20260204000019220](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260204000019220.png)
+![image-20260204000019220](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260204000019220.png)
 
 进入订购成功页面
 
-![image-20260204000140841](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260204000140841.png)
+![image-20260204000140841](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260204000140841.png)
 
 可关闭订购成功页面，进入无影云电脑客户端首页，直接点击 “连接” 按钮 即可进入云电脑
 
-![image-20260204000837531](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260204000837531.png)
+![image-20260204000837531](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260204000837531.png)
 
 第一次进入默认是 Windows 系统，所有操作跟本地电脑一模一样
 
-![image-20260204001044451](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260204001044451.png)
+![image-20260204001044451](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260204001044451.png)
 
 注：
 
@@ -678,15 +678,15 @@ happy gemini
 - 默认是 Windows 可随时切换 Linux 系统
 - 也可随时切回 Windows 系统，方法同样
 
-![image-20260204002406928](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260204002406928.png)
+![image-20260204002406928](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260204002406928.png)
 
 确定后，再次确认即可切换操作系统
 
-![image-20260204002601380](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260204002601380.png)
+![image-20260204002601380](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260204002601380.png)
 
 系统切换成功后，进入 Linux 系统
 
-![image-20260204210109896](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260204210109896.png)
+![image-20260204210109896](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260204210109896.png)
 
 ### 4.3、安装无影客户端（移动端）
 
@@ -695,7 +695,7 @@ happy gemini
 - 通过应用商店搜索下载安装 **无影云电脑 App**（管理 和 操作云电脑）
 - 通过支付宝扫码登录后，也可以通过支付宝小程序管理 无影云电脑（只能管理不能操作云电脑）
 
-![image-20260204220317499](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260204220317499.png)
+![image-20260204220317499](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260204220317499.png)
 
 ### 4.4、云电脑开机灵活选择配置
 
@@ -710,35 +710,35 @@ happy gemini
 
 > 试用可选择最低配置，不够用时随时切换即可（配置越高 每小时消耗的核时越多）
 
-![image-20260205223928504](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260205223928504.png)
+![image-20260205223928504](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260205223928504.png)
 
 ### 5、在云电脑上部署安装 Happy Coder 实现全面上云
 
 - 和本地一样安装安装配置好 Claude Code 工具 与 对应的模型，保证与本地一样可以正常使用
 - 在云电脑上安装 Happy Coder，具体步骤与本地一样
 
-![image-20260205194841161](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260205194841161.png)
+![image-20260205194841161](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260205194841161.png)
 
 - 安装成功后，使用 `happy claude` 选择 Mobile App 终端进行身份验证，回车确认
 
-![image-20260205195159053](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260205195159053.png)
+![image-20260205195159053](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260205195159053.png)
 
 选择 ”Mobile App“ 后，会生成移动端认证二维码 和 URL 地址，进行身份验证
 
 - 使用 Happy 手机端 App 扫描二维码
 - 或 手动输入 URL 进行身份验证
 
-![image-20260205202715658](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260205202715658.png)
+![image-20260205202715658](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260205202715658.png)
 
 ### 5.1、在手机端 Happy App 上连接云电脑终端
 
 打开手机端 Happy App 通过扫描二维码 或 手动输入 URL 进行身份验证，输入提示词即可连接云电脑上 Claude Code 进行项目的开发
 
-![image-20260205205229841](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260205205229841.png)
+![image-20260205205229841](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260205205229841.png)
 
 同时云电脑端的 Claude Code 也会同步
 
-![image-20260205205508549](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260205205508549.png)
+![image-20260205205508549](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260205205508549.png)
 
 ### 5.2、随时可接管
 
@@ -750,7 +750,7 @@ happy gemini
 
 ### 5.3、在无影云电脑 App 上操控云电脑
 
-![image-20260205210533916](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260205210533916.png)
+![image-20260205210533916](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/happy-coder/image-20260205210533916.png)
 
 ## 六、为什么会选择这套 AI 编程的工具链
 

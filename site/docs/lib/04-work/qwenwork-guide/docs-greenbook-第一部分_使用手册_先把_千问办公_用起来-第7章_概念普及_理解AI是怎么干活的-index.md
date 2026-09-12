@@ -16,35 +16,35 @@ zh: ""
 
 ## **一、什么是LLM**
 
-![result_00 (1).png](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第7章 概念普及：理解AI是怎么干活的/assets/001_result_00 (1/README.md).png)
+![result_00 (1).png](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第7章 概念普及：理解AI是怎么干活的/assets/001_result_00 (1/README.md).png)
 
 ## **二、Token与Tokenizer**
 
-![result_00 (2).png](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第7章 概念普及：理解AI是怎么干活的/assets/002_result_00 (2/README.md).png)
+![result_00 (2).png](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第7章 概念普及：理解AI是怎么干活的/assets/002_result_00 (2/README.md).png)
 
 ## **三、Prompt与Prompt工程**
 
-![result_00 (3).png](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第7章 概念普及：理解AI是怎么干活的/assets/003_result_00 (3/README.md).png)
+![result_00 (3).png](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第7章 概念普及：理解AI是怎么干活的/assets/003_result_00 (3/README.md).png)
 
 ## **四、知识库、RAG、记忆/意识**
 
-![result_00 (8).png](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第7章 概念普及：理解AI是怎么干活的/assets/004_result_00 (8/README.md).png)
+![result_00 (8).png](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第7章 概念普及：理解AI是怎么干活的/assets/004_result_00 (8/README.md).png)
 
 ## **五、Agent、MCP、SKill**
 
-![result_00 (5).png](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第7章 概念普及：理解AI是怎么干活的/assets/005_result_00 (5/README.md).png)
+![result_00 (5).png](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第7章 概念普及：理解AI是怎么干活的/assets/005_result_00 (5/README.md).png)
 
 ## **六、API与CLI**
 
-![result_00 (7).png](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第7章 概念普及：理解AI是怎么干活的/assets/006_result_00 (7/README.md).png)
+![result_00 (7).png](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第7章 概念普及：理解AI是怎么干活的/assets/006_result_00 (7/README.md).png)
 
 ## **七、Harness架构是怎么工作的？**
 
-![result_00 (9).png](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第7章 概念普及：理解AI是怎么干活的/assets/007_result_00 (9/README.md).png)
+![result_00 (9).png](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第7章 概念普及：理解AI是怎么干活的/assets/007_result_00 (9/README.md).png)
 
 ## **八、一张图讲解清楚Agent是怎么工作的**
 
-![result_00 (6).png](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第7章 概念普及：理解AI是怎么干活的/assets/008_result_00 (6/README.md).png)
+![result_00 (6).png](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第7章 概念普及：理解AI是怎么干活的/assets/008_result_00 (6/README.md).png)
 
 ## **🎨 ✏️ 一句话总结**
 

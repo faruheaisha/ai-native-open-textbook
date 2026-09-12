@@ -34,7 +34,7 @@ S11 addresses this by running slow Bash commands in the background, allowing the
 
 ## The Solution
 
-![Background Tasks Overview](https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s11_background_tasks/images/background-tasks-overview.en.svg)
+![Background Tasks Overview](https://gh-proxy.com/https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s11_background_tasks/images/background-tasks-overview.en.svg)
 
 This chapter sends slow operations to background threads. The current tool call first returns a placeholder `tool_result`, allowing the Agent Loop to continue. At the start of a later turn, completed results are collected and added to the conversation as notifications.
 

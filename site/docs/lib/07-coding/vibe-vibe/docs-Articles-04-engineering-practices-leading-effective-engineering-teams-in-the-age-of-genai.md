@@ -42,7 +42,7 @@ _本文基于"[领导高效工程团队](https://leet.addy.ie/)"中的理念进�
 
 - **伦理与监督**： 建立护栏以确保 AI 驱动的代码安全、无偏见并遵守最佳实践。在审查中保持人类参与。
 
-![](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/04-engineering-practices/leading-effective-engineering-teams-in-the-age-of-genai/01.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/04-engineering-practices/leading-effective-engineering-teams-in-the-age-of-genai/01.jpg)
 
 _在我的团队中，我们让各级管理者/总监/副总裁和技术负责人在理解、应用和构建方面提升技能，并指导 IC（个人贡献者）做同样的事情。我倾向于建议只有在实际构建 AI 功能或直接与模型团队合作时，才需要了解训练/模型专业化。_
 
@@ -212,7 +212,7 @@ Gemini 的出现预示着一个 AI 在开发堆栈中无处不在的未来。不
 
 - **提供领导层的保证**： 公司高管和你作为一线领导者应该保证，没有计划因 AI 而减少工程人员，而不重新调整这些角色。如果高层管理层已经做出了这样的声明，放大它们。如果没有，也许你可以倡导这样的立场，或者至少传达你自己的观点，即 AI 带来的任何效率提升都将允许团队承担更多项目，而不是导致裁员。工程师通常是务实的；如果你始终如一地表明 AI 被用来做更多（而不是用更少的人做同样的事情），他们的信任就会增长。
 
-![](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/04-engineering-practices/leading-effective-engineering-teams-in-the-age-of-genai/02.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/04-engineering-practices/leading-effective-engineering-teams-in-the-age-of-genai/02.jpg)
 
 _如果你的团队对编码的 AI 持怀疑态度，这是完全自然的。许多人从这个角度开始，在直接体验后得出了更细致的意见。即使你不完全相信，了解当前工具/模型的可能性也是有用的。_
 

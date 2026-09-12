@@ -20,7 +20,7 @@ zh: ""
 
 ---
 
-![MCP 连接器生态](https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s17_mcp_connectors/images/mcp-connectors.svg)
+![MCP 连接器生态](https://gh-proxy.com/https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s17_mcp_connectors/images/mcp-connectors.svg)
 
 ## 代码架构图
 

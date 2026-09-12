@@ -42,7 +42,7 @@ zh: ""
 把下面内容记入“灵感收件箱”，保留我的原话，不扩写、不评价：“AI 工具真正的门槛不是提示词，而是验收结果。”
 ```
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 16 章 收藏不是知识管理，能再次用起来才是/assets/001_image_M29JbJQ3po.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 16 章 收藏不是知识管理，能再次用起来才是/assets/001_image_M29JbJQ3po.png)
 
 ## 场景二：微信收藏很多，真正写作时还是搜不到
 
@@ -54,7 +54,7 @@ zh: ""
 处理本周微信收藏，只读，不删除原收藏。
 ```
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 16 章 收藏不是知识管理，能再次用起来才是/assets/002_byKl8HZ2_TtombzmOwo.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 16 章 收藏不是知识管理，能再次用起来才是/assets/002_byKl8HZ2_TtombzmOwo.jpg)
 
 ## 场景三：ima 作为移动知识入口
 
@@ -64,7 +64,7 @@ ima 的优势不是“问答更聪明”，而是手机收集、知识库读写�
 将我刚选择的 3 份文件放入 ima“WorkBuddy 案例库”的收件箱。
 ```
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 16 章 收藏不是知识管理，能再次用起来才是/assets/003_image_D0c8blIsEo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 16 章 收藏不是知识管理，能再次用起来才是/assets/003_image_D0c8blIsEo.png)
 
 ## 场景四：Obsidian 不是文件夹，而是可维护的 Wiki
 
@@ -77,4 +77,4 @@ ima 的优势不是“问答更聪明”，而是手机收集、知识库读写�
 
 WorkBuddy 能识别文章正文和作者，并生成 Markdown 条目。
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 16 章 收藏不是知识管理，能再次用起来才是/assets/004_test_SSsAbxS8po.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 16 章 收藏不是知识管理，能再次用起来才是/assets/004_test_SSsAbxS8po.jpg)

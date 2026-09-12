@@ -14,7 +14,7 @@ zh: ""
 
 # Prompt Engineering Fundamentals
 
-[![Prompt Engineering Fundamentals](https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/04-prompt-engineering-fundamentals/images/04-lesson-banner.png)](https://youtu.be/GElCu2kUlRs?si=qrXsBvXnCW12epb8)
+[![Prompt Engineering Fundamentals](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/04-prompt-engineering-fundamentals/images/04-lesson-banner.png)](https://youtu.be/GElCu2kUlRs?si=qrXsBvXnCW12epb8)
 
 ## Introduction
 This module covers essential concepts and techniques for creating effective prompts in generative AI models. The way you write your prompt to an LLM also matters. A carefully-crafted prompt can achieve a better quality of response. But what exactly do terms like _prompt_ and _prompt engineering_ mean? And how do I improve the prompt _input_ that I send to the LLM? These are the questions we'll try to answer within this chapter and the next.
@@ -58,7 +58,7 @@ The notebook comes with _starter_ exercises - but you are encouraged to add your
 
 Want to get the big picture of what this lesson covers before you dive in? Check out this illustrated guide, which gives you a sense of the main topics covered and the key takeaways for you to think about in each one. The lesson roadmap takes you from understanding the core concepts and challenges to addressing them with relevant prompt engineering techniques and best practices. Note that the "Advanced Techniques" section in this guide refers to content covered in the _next_ chapter of this curriculum.
 
-![Illustrated Guide to Prompt Engineering](https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/04-prompt-engineering-fundamentals/images/04-prompt-engineering-sketchnote.png)
+![Illustrated Guide to Prompt Engineering](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/04-prompt-engineering-fundamentals/images/04-prompt-engineering-sketchnote.png)
 
 ## Our Startup
 
@@ -91,7 +91,7 @@ An LLM sees prompts as a _sequence of tokens_ where different models (or version
 
 To get an intuition for how tokenization works, try tools like the [OpenAI Tokenizer](https://platform.openai.com/tokenizer?WT.mc_id=academic-105485-koreyst) shown below. Copy in your prompt - and see how that gets converted into tokens, paying attention to how whitespace characters and punctuation marks are handled. Note that this example shows an older LLM (GPT-3) - so trying this with a newer model may produce a different result.
 
-![Tokenization](https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/04-prompt-engineering-fundamentals/images/04-tokenizer-example.png)
+![Tokenization](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/04-prompt-engineering-fundamentals/images/04-tokenizer-example.png)
 
 ### Concept: Foundation Models
 
@@ -101,7 +101,7 @@ Want to see how prompt-based completion works? Enter the above prompt into the [
 
 But what if the user wanted to see something specific that met some criteria or task objective? This is where _instruction-tuned_ LLMs come into the picture.
 
-![Base LLM Chat Completion](https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/04-prompt-engineering-fundamentals/images/04-playground-chat-base.png)
+![Base LLM Chat Completion](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/04-prompt-engineering-fundamentals/images/04-playground-chat-base.png)
 
 ### Concept: Instruction Tuned LLMs
 
@@ -115,7 +115,7 @@ Let's try it out - revisit the prompt above, but now change the _system message_
 
 See how the result is now tuned to reflect the desired goal and format? An educator can now directly use this response in their slides for that class.
 
-![Instruction Tuned LLM Chat Completion](https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/04-prompt-engineering-fundamentals/images/04-playground-chat-instructions.png)
+![Instruction Tuned LLM Chat Completion](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/04-prompt-engineering-fundamentals/images/04-playground-chat-instructions.png)
 
 ## Why do we need Prompt Engineering?
 
@@ -146,15 +146,15 @@ So what happens when we run this prompt with different LLM providers?
 
 > **Response 1**: OpenAI Playground (GPT-35)
 
-![Response 1](https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/04-prompt-engineering-fundamentals/images/04-fabrication-oai.png)
+![Response 1](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/04-prompt-engineering-fundamentals/images/04-fabrication-oai.png)
 
 > **Response 2**: Azure OpenAI Playground (GPT-35)
 
-![Response 2](https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/04-prompt-engineering-fundamentals/images/04-fabrication-aoai.png)
+![Response 2](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/04-prompt-engineering-fundamentals/images/04-fabrication-aoai.png)
 
 > **Response 3**: : Hugging Face Chat Playground (LLama-2)
 
-![Response 3](https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/04-prompt-engineering-fundamentals/images/04-fabrication-huggingchat.png)
+![Response 3](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/04-prompt-engineering-fundamentals/images/04-fabrication-huggingchat.png)
 
 As expected, each model (or model version) produces slightly different responses thanks to stochastic behavior and model capability variations. For instance, one model targets an 8th grade audience while the other assumes a high-school student. But all three models did generate responses that could convince an uninformed user that the event was real.
 

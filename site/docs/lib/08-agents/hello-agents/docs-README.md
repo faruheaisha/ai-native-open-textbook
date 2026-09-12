@@ -12,11 +12,13 @@ entryUrl: "https://github.com/datawhalechina/hello-agents/blob/4f7682ceafe573d07
 zh: ""
 ---
 
+# Hello Agents（Datawhale 智能体教程）
+
 <div align="right">
   <a href="/lib/08-agents/hello-agents/docs-README_EN">English</a> | 中文
 </div>
 <div align='center'>
-  <img src="https://raw.githubusercontent.com/datawhalechina/hello-agents/4f7682ceafe573d07cd8a7d0b89908500e83227d/docs/images/hello-agents.png" alt="alt text" width="100%">
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/hello-agents/4f7682ceafe573d07cd8a7d0b89908500e83227d/docs/images/hello-agents.png" alt="alt text" width="100%">
   <h1>Hello-Agents</h1>
   <h3>🤖 《从零开始构建智能体》</h3>
   <p><em>从基础理论到实际应用，全面掌握智能体系统的设计与实现</em></p>
@@ -172,14 +174,14 @@ zh: ""
 ## 读者交流群
 
 <div align='center'>
-    <img src="https://raw.githubusercontent.com/datawhalechina/hello-agents/4f7682ceafe573d07cd8a7d0b89908500e83227d/读者群二维码.png" alt="读者群二维码" width="30%">
+    <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/hello-agents/4f7682ceafe573d07cd8a7d0b89908500e83227d/读者群二维码.png" alt="读者群二维码" width="30%">
     <p>扫描二维码加入读者交流群，与更多学习者交流讨论</p>
 </div>
 
 ## 关于 Datawhale
 
 <div align='center'>
-    <img src="https://raw.githubusercontent.com/datawhalechina/hello-agents/4f7682ceafe573d07cd8a7d0b89908500e83227d/docs/images/datawhale.png" alt="Datawhale" width="30%">
+    <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/hello-agents/4f7682ceafe573d07cd8a7d0b89908500e83227d/docs/images/datawhale.png" alt="Datawhale" width="30%">
     <p>扫描二维码关注 Datawhale 公众号，获取更多优质开源内容</p>
 </div>
 

@@ -59,7 +59,7 @@ pnpm build    # 产物在 dist/
 ## 第二步：在 1Panel 创建网站
 
 进入 1Panel 的「网站」页面，点击「创建网站」，选择「静态网站」。填入主域名（先用 IP 测试也行），其他保持默认，点击确认即可。
-![1Panel 创建静态网站配置页面](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/14-vps-ops-deploy/14-3-3-static-site-01.png)
+![1Panel 创建静态网站配置页面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/14-vps-ops-deploy/14-3-3-static-site-01.png)
 
 小明在 1Panel 的「网站」页面点击"创建网站"，选择"静态网站"，填了个域名就搞定了。1Panel 自动创建了网站目录并生成 OpenResty 配置，不需要手写任何配置文件。
 

@@ -324,7 +324,7 @@ npx superpowers-zh@latest --uninstall
 <table>
 <tr>
 <td width="170" align="center">
-<img src="https://raw.githubusercontent.com/jnMetaCode/superpowers-zh/79ea5d262b7a1c7ce76a289390853bca51f940d4/assets/qr-wechat.jpg" width="150" alt="微信公众号 AI不止语 二维码"><br>
+<img src="https://gh-proxy.com/https://raw.githubusercontent.com/jnMetaCode/superpowers-zh/79ea5d262b7a1c7ce76a289390853bca51f940d4/assets/qr-wechat.jpg" width="150" alt="微信公众号 AI不止语 二维码"><br>
 <sub>微信扫码关注</sub>
 </td>
 <td>

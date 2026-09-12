@@ -26,11 +26,11 @@ zh: ""
 
 更关键的是，即便替换了 ip 角色，好多人并没有继续往下想：角色替换以后，整套配图系统还可以怎么改？比如，我不喜欢线条风格，能不能换成毛毡、拼贴、版画或者成熟的编辑卡通？同一个 IP 能不能有不同表情？能不能坐、推、拉、拆、连接、检查，而不是永远站在画面旁边指东西？生成完以后，标题、表情、版式还能不能继续加工？比如我今天这篇文章批图选择就不是昨天的简约线稿模式，而是一种卡通插画风，这样对于某些图片展示更醒目一些。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/001_5b027f96-76aa-486c-ae9d-42a8cac7d02f.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/001_5b027f96-76aa-486c-ae9d-42a8cac7d02f.jpg)
 
 同样的内容结构，换成拼贴画风以后，人物、动作和信息关系都没有改变，变化的只是画面的渲染表面。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/002_a0153b4f-85b4-435a-b88e-6324e9d8d1ea.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/002_a0153b4f-85b4-435a-b88e-6324e9d8d1ea.jpg)
 
 这背后是一个很常见的 Skill 误区。
 
@@ -48,11 +48,11 @@ zh: ""
 
 有些图用流程解释一件事，有些图做前后对比，有些图把复杂系统画成分层结构，还有一些图就是把一段内容压缩成一张"划重点"总结图。它们没有固定人物，读者照样能理解文章，也能在滑动过程中获得停顿和记忆点。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/003_35bc4101-01cc-4d71-bd87-09b2de860f3a.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/003_35bc4101-01cc-4d71-bd87-09b2de860f3a.jpg)
 
 普通非 IP 配图也一样：流程、对比、分层和路线这些结构并不依赖某一种画风，换成纸张拼贴后仍然成立。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/004_41ac1e0e-c750-47b8-921f-591cee791caf.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/004_41ac1e0e-c750-47b8-921f-591cee791caf.jpg)
 
 因为一张普通配图要解决的核心问题，从来不是"放谁进去"，而是：
 
@@ -101,7 +101,7 @@ zh: ""
 
 其中选择认知锚点、关系结构、视觉隐喻、独立生成和逐张 QA，是普通配图与 IP 配图共用的主干；角色动作与镜头轮换，则是进入 IP 模式后增加的部分。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/005_b7be5aa4-5029-416c-9be2-2b6709b4622b.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/005_b7be5aa4-5029-416c-9be2-2b6709b4622b.png)
 
 这就是普通非 IP 配图的主干。
 
@@ -118,7 +118,7 @@ zh: ""
 
 一个人物被贴在角落里，并不会自动产生 IP 感。它可能只是 logo、装饰或者主持人立牌。读者看见了这个人，却记不住她在画面里做了什么，也感受不到她与内容有什么关系。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/006_f0570d0b-d391-4a88-aca5-de0d36e16bf7.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/006_f0570d0b-d391-4a88-aca5-de0d36e16bf7.png)
 
 真正的公式应该是：
 ```text
@@ -152,7 +152,7 @@ IP 配图 = 内容层 + 身份层 + 表演层
 
 从这个结构可以看出：IP 配图不是覆盖普通配图，而是在原来的内容合同上增加角色和表演结构。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/007_e5976513-0c83-4c57-9991-7cb1a5eeed06.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/007_e5976513-0c83-4c57-9991-7cb1a5eeed06.jpg)
 
 把这些结构真正放进一个 Skill 文件夹里，大致会是这样：
 ```text
@@ -178,7 +178,7 @@ ip-illustration-skill/
 
 不管是做短剧里的连续角色，还是做公众号里的形象图片，大致思路都是一致的：必须让同一个人物跨场景、跨姿势、跨镜头以后，仍然保持身份一致。参考图的作用不只是告诉模型"这个人长什么样"，更重要的是建立一组稳定的人物条件，让读者每次都能认出这是同一个人。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/008_d38c1b1c-a3bb-4dec-85ff-c529106b0f85.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/008_d38c1b1c-a3bb-4dec-85ff-c529106b0f85.png)
 
 最常见的做法，是找一张自己满意的照片或卡通图，扔给模型，然后说："以后都照这个人画。"
 
@@ -217,7 +217,7 @@ ip-illustration-skill/
 
 人格会直接影响表情、动作幅度和画面尺度。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/009_1f52d414-637c-4905-9bc7-2ace9f710d88.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/009_1f52d414-637c-4905-9bc7-2ace9f710d88.jpg)
 
 **参考素材：每张图到底能证明什么**
 
@@ -237,7 +237,7 @@ ip-illustration-skill/
 不锁定 → 标题、排版、背景、具体动作
 ```
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/010_4f88f554-dab1-4322-95cf-f6a11e259cf2.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/010_4f88f554-dab1-4322-95cf-f6a11e259cf2.png)
 
 **失败标准：什么情况必须判定为不是这个 IP**
 
@@ -252,7 +252,7 @@ ip-illustration-skill/
 那么判定：人物身份漂移，重新生成
 ```
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/011_125745ad-f233-4a34-a3b0-a446e016841d.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/011_125745ad-f233-4a34-a3b0-a446e016841d.jpg)
 
 做到这一步，IP 才从"一张参考图"变成一套可检查、可复用的身份系统。
 
@@ -270,7 +270,7 @@ ip-illustration-skill/
 
 同一个艾笑老师 IP，可以被画成克制线稿，也可以是毛毡定格、纸张拼贴、版画或者精致编辑卡通。风格变了，脸型、年龄感、发型、眼镜和核心气质仍然应该保持。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/012_923f32a3-abe9-43a2-874f-7a5ebdc4785a.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/012_923f32a3-abe9-43a2-874f-7a5ebdc4785a.png)
 
 这里用毛毡做示意，只是因为材质变化最直观。真正可以切换的远不止毛毡：极简线稿、纸张拼贴、松弛手绘、高冲击撞色、艺术版画和精致编辑卡通，都可以在不改角色档案的前提下单独替换。把几种画风并排放在一起看，变化的是表面，留下来的才是 IP。
 
@@ -288,7 +288,7 @@ ip-illustration-skill/
 
 这里改变的是画面材质，不是角色身份。所以风格可以从编辑卡通换成毛毡，人物仍然是同一个人。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/013_7d39646c-bc51-4f61-923e-6cc6679c9c46.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/013_7d39646c-bc51-4f61-923e-6cc6679c9c46.jpg)
 
 这一步解决的，才是"我不喜欢线条风格，能不能换成别的风格"这个问题。
 
@@ -306,7 +306,7 @@ ip-illustration-skill/
 
 真正有效的 IP 动作，应该承担画面里的关键关系。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/014_7ba34f66-5d7a-4fea-a09b-7c2176f78bc1.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/014_7ba34f66-5d7a-4fea-a09b-7c2176f78bc1.png)
 
 讲筛选，她可以亲手把不同素材放进筛选器；讲连接，她可以把两个断开的模块接起来；讲修复，她可以补上一段断裂的链路；讲判断，她可以检查仪表、拨动转盘或比较两边的砝码；讲拆解，她可以把一个黑箱拆成几层；讲复盘，她可以沿着反馈回路回看问题。
 
@@ -323,7 +323,7 @@ ip-illustration-skill/
 
 所以动作库不是让人物"姿势丰富一点"，而是让不同内容都能找到一个真正参与其中的动作。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/015_ff9dad08-6f48-4b5b-a0ce-a43a85f6ac5e.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/015_ff9dad08-6f48-4b5b-a0ce-a43a85f6ac5e.jpg)
 
 这时，普通配图里的"关系结构"仍然存在，只是角色变成了完成这段关系的动作主体。
 
@@ -335,7 +335,7 @@ IP 配图则可以让艾笑老师亲手打开黑箱，把"角色""风格""动作
 
 同一段内容，结构没有变；IP 的加入让读者多记住了一个持续出现的行动者。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/016_367d01b1-258b-455f-a1d3-311470b6dda0.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/016_367d01b1-258b-455f-a1d3-311470b6dda0.jpg)
 
 ## 06 表情、视线和动作也要拆开，才能真正二次加工
 
@@ -369,7 +369,7 @@ IP 配图则可以让艾笑老师亲手打开黑箱，把"角色""风格""动作
 
 这样，同一个"怀疑检查"可以放进线稿、毛毡和编辑卡通三种风格；同一个"连接模块"可以搭配专注、吃力或完成后的轻松表情；同一个 IP 也可以从全身动作切换到手部特写。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/017_78002610-1a29-46ae-baa5-29b1921196bd.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/017_78002610-1a29-46ae-baa5-29b1921196bd.jpg)
 
 二次加工的空间，就是这样被保留下来的。
 
@@ -381,7 +381,7 @@ Image 2、Banana 这类模型已经可以在一次生成里同时完成人物、
 
 这篇文章现在的大部分 16:9 配图就是这种方式。下面这张图虽然讲的是"画面与文字分两步"，但它自身的制作方式其实是一次性的图文融合生成：人物、场景、标题和标注都在同一张图里完成。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/018_1beb5a22-0a7c-40a7-8c15-c21a3bbaa107.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/018_1beb5a22-0a7c-40a7-8c15-c21a3bbaa107.jpg)
 
 **第二种：先生成纯图，再二次加文字**
 
@@ -389,9 +389,9 @@ Image 2、Banana 这类模型已经可以在一次生成里同时完成人物、
 
 下面就是我之前做过的一组真实案例。第一张是模型生成的无字底图；第二张没有重新生成人物，而是在同一张底图上扩展画布，再由发布层加入稳定中文。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/019_586e0850-43b7-49b3-bc38-e53c26c08d55.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/019_586e0850-43b7-49b3-bc38-e53c26c08d55.jpg)
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/020_f24887c2-8c2a-4aa2-8f2c-914405ba139a.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/020_f24887c2-8c2a-4aa2-8f2c-914405ba139a.jpg)
 
 对应到 Skill 里，文字策略应该明确写成两种可选模式，而不是一律要求分成两步：
 ```text
@@ -426,7 +426,7 @@ Image 2、Banana 这类模型已经可以在一次生成里同时完成人物、
 
 它不是多了一张人物素材，而是多了两套长期管理的系统。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/021_ff505964-9462-4fa5-ad1c-8be04e0bd317.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/021_ff505964-9462-4fa5-ad1c-8be04e0bd317.png)
 
 如果要把一套普通配图升级成 IP 配图，可以按下面八步依次完成。
 
@@ -438,7 +438,7 @@ Image 2、Banana 这类模型已经可以在一次生成里同时完成人物、
 
 第四步：把角色身份与风格拆开。先验证同一个人能否跨两到三种风格保持身份，再继续增加毛毡、拼贴或版画等变体。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/022_961fa1a2-b075-45c3-a30c-182da7b5cf1e.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/022_961fa1a2-b075-45c3-a30c-182da7b5cf1e.png)
 
 第五步：建立动作库。动作不要从"站、坐、抬手"出发，而要从文章常见语义出发：筛选、连接、修补、比较、拆解、记录、验证、回看。
 
@@ -446,7 +446,7 @@ Image 2、Banana 这类模型已经可以在一次生成里同时完成人物、
 
 第七步：建立连续画面的 QA。检查角色有没有漂移，动作是否重复，人物与物件的尺度是否可信，表情和正文语义是否匹配，最近几张是不是又回到了同一种站姿。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/023_2293bb4e-cbdf-4ffa-be2b-509f7d6bb70f.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/023_2293bb4e-cbdf-4ffa-be2b-509f7d6bb70f.jpg)
 
 甚至"同一个表情换了画风后还在不在"，也可以写成回归用例：
 ```text
@@ -480,4 +480,4 @@ Image 2、Banana 这类模型已经可以在一次生成里同时完成人物、
 
 先把配图的内容结构保留下来，再把你的 IP 作为一个真正的行动者放进去。到那一步，读者记住的才不只是某种流行画风，而是你的角色、你的表达方式，以及只有你能持续讲下去的内容。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/024_0e5bf8fb-54c7-4577-a8c5-b1fa16e4fd78.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/assets/024_0e5bf8fb-54c7-4577-a8c5-b1fa16e4fd78.jpg)

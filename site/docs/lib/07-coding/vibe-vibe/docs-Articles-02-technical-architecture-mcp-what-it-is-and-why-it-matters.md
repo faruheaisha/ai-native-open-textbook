@@ -28,7 +28,7 @@ zh: ""
 
 可以把 MCP 想成一种“通用插头”。**模型上下文协议（MCP）** 本质上就是 AI 世界里的通用连接标准。它是一个[开放标准](https://www.anthropic.com/news/model-context-protocol)，也常被形容为“AI 集成领域的 USB-C”：让模型能够用一致的方式连接不同应用与数据源。
 
-![](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/02-technical-architecture/mcp-what-it-is-and-why-it-matters/01.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/02-technical-architecture/mcp-what-it-is-and-why-it-matters/01.jpg)
 
 它在实际使用里意味着什么？如果你正在使用 Cursor、Windsurf 之类的 AI 编码工具，MCP 就是让这些工具代表你去调用外部系统的共享协议。通过 MCP，模型可以查询数据库、读取设计文件、操作本地应用，甚至控制某些自动化服务，而不需要为每个工具单独适配一套接口。
 

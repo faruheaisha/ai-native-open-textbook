@@ -30,7 +30,7 @@ zh: ""
 
 50 个学生，1 个老师。每个学生卡住的点都不一样：有人不明白 `input()` 是干什么的，有人不知道 `if` 语句怎么写，有人根本搞不懂数据类型转换。一节课 45 分钟，我像个不停拧螺丝的工人，这边刚拧紧一颗，扭头一看，旁边又松了三颗。
 
-![那节 Python 实践课上的 BMI 题目](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-3/image1.png)
+![那节 Python 实践课上的 BMI 题目](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-3/image1.png)
 
 虽然一刻都没有停下来，但举手提问的同学好像一点都没少。有的学生等了几分钟还等不到我，就开始自己折腾电脑；还有的学生索性直接趴下睡觉了。下课铃响起的那一刻，我站在机房里，看着眼前一片混乱，突然觉得特别无力。
 
@@ -46,7 +46,7 @@ zh: ""
 
 现有的 AI 编程工具虽然可以直接给答案，但还不能做到真正的学习引导。所以我决定自己做一个新的应用，一个会教学、会引导、会陪着学生把问题想清楚的 AI 助教。
 
-![信息科技课程中心的首页原型](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-3/image2.png)
+![信息科技课程中心的首页原型](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-3/image2.png)
 
 ## 03 从梦想到现实：编程学伴
 
@@ -56,7 +56,7 @@ zh: ""
 
 我还记得第一次在应用里集成 AI，输入“input 函数怎么用”，看到它真的返回了示例代码和讲解时，那种兴奋和欣慰到现在都记得。我给这个应用起名叫“信息科技课程中心”，核心模块是“编程学伴”。
 
-![编程学伴的代码审查界面](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-3/image3.png)
+![编程学伴的代码审查界面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-3/image3.png)
 
 它能做三件事：
 
@@ -80,11 +80,11 @@ zh: ""
 - 老师可以课下批阅作业，不合格的打回重做；
 - 当学生通过某门课的所有作业，系统会自动发一份课程完成证书。
 
-![课程与班级管理界面](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-3/image4.png)
+![课程与班级管理界面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-3/image4.png)
 
 这个“证书”是我特意加的。因为我知道，对于高中生来说，一个小小的认可和仪式感，足以让他觉得“我真的学会了什么”。
 
-![课程完成证书示意](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-3/image5.png)
+![课程完成证书示意](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/vibe-stories/images/story-3/image5.png)
 
 编程学伴加上课程管理，形成了一个完整的学习闭环，也让学生的学习更有始有终、更有成就感。
 

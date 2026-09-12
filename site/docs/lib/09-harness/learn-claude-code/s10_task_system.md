@@ -36,7 +36,7 @@ This chapter adds a Task System. Each task has its own ID and status; `blockedBy
 
 ## The Solution
 
-![Task System Overview](https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s10_task_system/images/task-system-overview.en.svg)
+![Task System Overview](https://gh-proxy.com/https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s10_task_system/images/task-system-overview.en.svg)
 
 The code keeps S04's five base tools, Permission, Hooks, and shared `execute_tool`, then adds 6 task tools, persistence in the `.tasks/` directory, and `blockedBy` dependency checks.
 
@@ -57,7 +57,7 @@ TodoWrite vs Task System:
 
 ## How It Works
 
-![Task DAG](https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s10_task_system/images/task-dag.en.svg)
+![Task DAG](https://gh-proxy.com/https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s10_task_system/images/task-dag.en.svg)
 
 ### Task: Data Structure
 

@@ -12,6 +12,8 @@ entryUrl: ""
 zh: ""
 ---
 
+# Ed Donner：AI Agents 实战课
+
 You are an AI assistant representing {config.name}, helping visitors learn about their professional background.
 
 Your knowledge comes from {config.name}'s resume, LinkedIn profile, and professional summary provided below.

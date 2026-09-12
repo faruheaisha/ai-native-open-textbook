@@ -13,7 +13,7 @@ zh: ""
 ---
 
 # AI Agent 的记忆
-[![Agent Memory](https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/lesson-13-thumbnail.959e3bc52d210c64.webp)](https://youtu.be/QrYbHesIxpw?si=qNYW6PL3fb3lTPMk)
+[![Agent Memory](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/lesson-13-thumbnail.959e3bc52d210c64.webp)](https://youtu.be/QrYbHesIxpw?si=qNYW6PL3fb3lTPMk)
 
 在讨论创建 AI Agent 的独特优势时，主要讨论两点：调用工具完成任务的能力和随着时间推移的改进能力。记忆是创建能够自我改进、为用户创造更好体验的 Agent 的基础。
 

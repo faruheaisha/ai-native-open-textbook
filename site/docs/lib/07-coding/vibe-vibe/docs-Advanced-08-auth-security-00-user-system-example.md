@@ -90,7 +90,7 @@ src/
   5. 返回 session token → 浏览器存入 Cookie
 ```
 
-![image-20260227000741233](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260227000741233.png)
+![image-20260227000741233](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260227000741233.png)
 
 ### 登录流程
 
@@ -104,7 +104,7 @@ src/
   4. 返回 session token → 浏览器存入 Cookie
 ```
 
-![image-20260227000752991](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260227000752991.png)
+![image-20260227000752991](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260227000752991.png)
 
 ### 受保护路由
 
@@ -116,7 +116,7 @@ src/
   ❌ 无效/过期 → 重定向到 /login
 ```
 
-![image-20260227000835333](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260227000835333.png)
+![image-20260227000835333](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260227000835333.png)
 
 ## AI 生成了什么
 
@@ -197,15 +197,15 @@ pnpm drizzle-kit push
 
 Better Auth 需要 `user`、`session`、`account`、`verification` 四张表。AI 已经在 schema 里定义好了，push 一下就行。
 
-![image-20260227000945256](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260227000945256.png)
+![image-20260227000945256](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260227000945256.png)
 
-![image-20260227001900414](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260227001900414.png)
+![image-20260227001900414](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260227001900414.png)
 
 **第二步：测试注册**
 
 启动 `pnpm dev`，访问 `/register`，填写邮箱和密码，点击注册。
 
-![image-20260227002810786](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260227002810786.png)
+![image-20260227002810786](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260227002810786.png)
 
 **第三步：测试登出和登录**
 
@@ -219,9 +219,9 @@ pnpm drizzle-kit studio
 
 打开 `user` 表，你能看到刚才注册的用户。注意 `password` 字段存的不是明文，而是一串加密后的哈希值——这就是安全。
 
-![image-20260227002858565](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260227002858565.png)
+![image-20260227002858565](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260227002858565.png)
 
-![image-20260227002907603](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260227002907603.png)
+![image-20260227002907603](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260227002907603.png)
 
 ## 常见问题
 

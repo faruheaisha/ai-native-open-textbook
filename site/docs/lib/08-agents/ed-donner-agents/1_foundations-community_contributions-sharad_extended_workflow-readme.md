@@ -18,7 +18,7 @@ This project demonstrates a simple, modular workflow for orchestrating multiple 
 
 ## Workflow Overview
 
-![image](https://raw.githubusercontent.com/ed-donner/agents/8ceaf66c24643627c1e4806851736bdd444bdd4b/1_foundations/community_contributions/sharad_extended_workflow/images/workflow.png)
+![image](https://gh-proxy.com/https://raw.githubusercontent.com/ed-donner/agents/8ceaf66c24643627c1e4806851736bdd444bdd4b/1_foundations/community_contributions/sharad_extended_workflow/images/workflow.png)
 1. **User Input**: The user provides a request (e.g., a math problem, translation, or text to summarize).
 2. **Router LLM**: A general-purpose LLM analyzes the input and decides which specialized LLM (math, translation, or summarization) should handle it.
 3. **Specialized LLMs**: Each task (math, translation, summarization) is handled by a dedicated prompt to the LLM.

@@ -12,6 +12,8 @@ entryUrl: "https://github.com/raroque/vibe-security-skill/blob/850938f20f6915e7c
 zh: ""
 ---
 
+# Vibe Security（AI 编码安全技能）
+
 Audit code for security vulnerabilities commonly introduced by AI code generation. These issues are prevalent in "vibe-coded" apps — projects built rapidly with AI assistance where security fundamentals get skipped.
 
 AI assistants consistently get these patterns wrong, leading to real breaches, stolen API keys, and drained billing accounts. This skill exists to catch those mistakes before they ship.

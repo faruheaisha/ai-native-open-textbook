@@ -101,7 +101,7 @@ NFT 也不等于图片。图片、名称和说明通常放在 metadata（内容�
 
 Ticketmaster 曾把 NFT 数字藏品直接接入活动体验。用户购票或入场后，可以领取一份与活动相关的数字纪念品，不需要先理解复杂的链上操作。
 
-![Ticketmaster 官方展示的 NFT 数字藏品界面](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/nft-minting/images/nft-real-ticketmaster.png)
+![Ticketmaster 官方展示的 NFT 数字藏品界面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/nft-minting/images/nft-real-ticketmaster.png)
 
 Ticketmaster 在 2023 年发布的 [AFLW 数字藏品案例](https://business.ticketmaster.com/digital-collectibles-go-global-with-the-aflw/)中写到，当时这套能力已经在 4,000 场活动中铸造超过 1,450 万份数字藏品。这里值得参考的不是交易，而是它把领取入口放进原有票务流程，普通用户看到的是活动纪念品，不是一串合约调用。
 
@@ -111,7 +111,7 @@ POAP 是 Proof of Attendance Protocol 的缩写。活动组织者可以给到场
 
 下面这枚 WNBA Commissioner’s Cup 徽章来自 POAP 官方首页展示的真实案例：
 
-![POAP 官方展示的 WNBA 活动参与徽章](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/nft-minting/images/nft-real-poap-wnba.webp)
+![POAP 官方展示的 WNBA 活动参与徽章](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/nft-minting/images/nft-real-poap-wnba.webp)
 
 图片与产品说明来源：[POAP 官方网站](https://poap.xyz/)和 [POAP Help Center](https://help.poap.xyz/hc/en-us/articles/9494654007437-What-is-POAP-)。POAP 的官方说明把这类徽章定义为 ERC-721 Token，用来记录参加线下或线上活动、社区治理和协作项目等经历。
 
@@ -126,7 +126,7 @@ POAP 是 Proof of Attendance Protocol 的缩写。活动组织者可以给到场
 - 应用负责领取、查看、转移和展示；
 - 后端负责发行资格、运营规则、密钥托管、监控和用户支持。
 
-![NFT 合约、metadata 和应用界面的关系](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/nft-minting/images/nft-architecture.svg)
+![NFT 合约、metadata 和应用界面的关系](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/nft-minting/images/nft-architecture.svg)
 
 NFT 并不是把整张图片直接塞进链上。常见做法是由合约保存 `tokenURI`，应用再通过这个地址读取 metadata。Token 的所有权也不自动等于图片版权，品牌授权和使用范围仍然需要单独写清楚。
 
@@ -157,7 +157,7 @@ NFT 并不是把整张图片直接塞进链上。常见做法是由合约保存 
 
 这次实际运行的链 ID 是 `31337`，Solidity 编译器是 `0.8.30`：
 
-![本地模拟链与编译环境的实际运行结果](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/nft-minting/images/nft-local-environment.jpg)
+![本地模拟链与编译环境的实际运行结果](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/nft-minting/images/nft-local-environment.jpg)
 
 这些账户和余额只存在于本地实验中，不是真实资产。公开教程里也不要展示真实钱包的私钥或助记词。
 
@@ -189,7 +189,7 @@ NFT 并不是把整张图片直接塞进链上。常见做法是由合约保存 
 
 调整到双方支持的 EVM 版本以后，合约成功部署，管理员也铸造了 Token `0`：
 
-![合约编译、部署和第一次铸造的实际结果](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/nft-minting/images/nft-local-deploy-mint.jpg)
+![合约编译、部署和第一次铸造的实际结果](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/nft-minting/images/nft-local-deploy-mint.jpg)
 
 ## 5. 把写入结果读回来
 
@@ -217,7 +217,7 @@ NFT 并不是把整张图片直接塞进链上。常见做法是由合约保存 
 
 实际结果是普通账户被拒绝，没有生成新 Token；管理员再次铸造后得到 Token `1`，下一个编号变成 `2`。
 
-![普通账户失败和管理员再次铸造的实际结果](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/nft-minting/images/nft-local-permission-test.jpg)
+![普通账户失败和管理员再次铸造的实际结果](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/nft-minting/images/nft-local-permission-test.jpg)
 
 这里失败才是正确结果。权限测试如果只验证管理员成功，没有验证普通账户失败，就只完成了一半。
 
@@ -225,7 +225,7 @@ NFT 并不是把整张图片直接塞进链上。常见做法是由合约保存 
 
 最后重新启动本地实验，从编译一直跑到第二次铸造。下面是这次完整运行结果：
 
-![Vibe Certificate 本地编译、部署、铸造与权限验证结果](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/nft-minting/images/nft-local-run-result.jpg)
+![Vibe Certificate 本地编译、部署、铸造与权限验证结果](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/nft-minting/images/nft-local-run-result.jpg)
 
 合约地址和账户地址都是模拟链生成的测试地址。重启本地链以后，地址和状态可以全部重置。
 

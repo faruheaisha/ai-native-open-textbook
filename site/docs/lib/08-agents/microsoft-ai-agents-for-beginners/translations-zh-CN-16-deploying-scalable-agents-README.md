@@ -14,7 +14,7 @@ zh: ""
 
 # 使用 Microsoft Foundry 部署可扩展代理
 
-![部署可扩展代理](https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/lesson-16-thumbnail.d78cace536bc5d50.webp)
+![部署可扩展代理](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/lesson-16-thumbnail.d78cace536bc5d50.webp)
 
 在本课程到目前为止，您已经构建了运行在笔记本内、由 `az login` 和少量环境变量驱动的代理，这些代理运行在您的笔记本电脑上。这完全是学习的正确方式。但这并不是让数千客户在凌晨三点依赖的代理的正确运行方式。
 

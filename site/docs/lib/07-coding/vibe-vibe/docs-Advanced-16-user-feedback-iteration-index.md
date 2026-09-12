@@ -14,7 +14,7 @@ zh: ""
 
 # 第十六章：用户反馈与产品迭代
 
-![img](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/mll09knu-500214b5388c0f63.jpg)
+![img](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/mll09knu-500214b5388c0f63.jpg)
 
 ## 序言
 

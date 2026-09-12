@@ -41,7 +41,7 @@ This approach lets the Agent read every specification, but it fixes all three do
 
 ## The Solution
 
-![Skill Overview](https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s07_skill_loading/images/skill-overview.en.svg)
+![Skill Overview](https://gh-proxy.com/https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s07_skill_loading/images/skill-overview.en.svg)
 
 At startup, `SkillLoader` scans `skills/*/SKILL.md`, reads `name` and `description` from YAML frontmatter, and adds that catalog to the system prompt. When the model needs the full instructions, it calls `load_skill(name)`; the returned `SKILL.md` is appended to the message list as a `tool_result`.
 

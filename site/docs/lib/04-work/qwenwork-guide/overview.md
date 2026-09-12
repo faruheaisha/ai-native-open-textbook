@@ -12,6 +12,8 @@ entryUrl: "https://github.com/wangxiaoshuai1998/QwenWorkGuide/blob/002f698a68b69
 zh: ""
 ---
 
+# 千问办公绿皮书（QwenWorkGuide）
+
 <h1 align="center">千问办公绿皮书</h1>
 
 <p align="center"><strong>千问办公中文使用手册与实战指南（QwenWork Greenbook）</strong></p>

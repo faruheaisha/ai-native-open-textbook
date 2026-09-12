@@ -12,7 +12,9 @@ entryUrl: "https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3
 zh: ""
 ---
 
-[![Open Source Models](https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/17-ai-agents/images/17-lesson-banner.png)](https://youtu.be/yAXVW-lUINc?si=bOtW9nL6jc3XJgOM)
+# Generative AI for Beginners（微软官方入门课）
+
+[![Open Source Models](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/17-ai-agents/images/17-lesson-banner.png)](https://youtu.be/yAXVW-lUINc?si=bOtW9nL6jc3XJgOM)
 
 ## Introduction
 
@@ -38,7 +40,7 @@ AI Agents are a very exciting field in the world of Generative AI. With this exc
 
 AI Agents allow Large Language Models (LLMs) to perform tasks by giving them access to a **state** and **tools**.
 
-![Agent Model](https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/17-ai-agents/images/what-agent.png)
+![Agent Model](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/17-ai-agents/images/what-agent.png)
 
 Let's define these terms:
 
@@ -58,7 +60,7 @@ To manage the **state** , it uses a built-in function called the `AgentExecutor`
 
 The `Agent Executor` also stores the chat history to provide the context of the chat.
 
-![Langchain Agents](https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/17-ai-agents/images/langchain-agents.png)
+![Langchain Agents](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/17-ai-agents/images/langchain-agents.png)
 
 LangChain offers a [catalog of tools](https://integrations.langchain.com/tools?WT.mc_id=academic-105485-koreyst) that can be imported into your application in which the LLM can get access to. These are made by the community and by the LangChain team.
 
@@ -90,7 +92,7 @@ To change and manage state, an assistant Agent generates Python code to complete
 
 Here is an example of the process:
 
-![AutoGen](https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/17-ai-agents/images/autogen.png)
+![AutoGen](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/17-ai-agents/images/autogen.png)
 
 #### LLM Defined with a System Message
 
@@ -216,7 +218,7 @@ To manage the state of the conversation, TaskWeaver uses the concept of a `Plann
 
 To complete the tasks the `Planner` is exposed to the collection of tools called `Plugins`. This can be Python classes or a general code interpreter. This plugins are stored as embeddings so that the LLM can better search for the correct plugin.
 
-![Taskweaver](https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/17-ai-agents/images/taskweaver.png)
+![Taskweaver](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/17-ai-agents/images/taskweaver.png)
 
 Here is an example of a plugin to handle anomaly detection:
 
@@ -230,7 +232,7 @@ The code is verified before executing. Another feature to manage context in Task
 
 The last agent framework we will explore is [JARVIS](https://github.com/microsoft/JARVIS?tab=readme-ov-file&WT.mc_id=academic-105485-koreyst). What makes JARVIS unique is that it uses an LLM to manage the `state` of the conversation and the `tools`are other AI models. Each of the AI models are specialized models that perform certain tasks such as object detection, transcription or image captioning.
 
-![JARVIS](https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/17-ai-agents/images/jarvis.png)
+![JARVIS](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/17-ai-agents/images/jarvis.png)
 
 The LLM, being a general purpose model, receives the request from the user and identifies the specific task and any arguments/data that is needed to complete the task.
 

@@ -60,7 +60,7 @@ Coding agents like [Copilot CLI](https://github.com/features/copilot/cli) and [G
 
 ---
 
-![Context-Driven Development Architecture](https://raw.githubusercontent.com/microsoft/skills/main/.github/assets/agent-skills-image.png)
+![Context-Driven Development Architecture](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/skills/main/.github/assets/agent-skills-image.png)
 
 ---
 

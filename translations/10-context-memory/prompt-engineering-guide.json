@@ -1,0 +1,38 @@
+{
+  "README.md": [
+    "提示词工程是一门相对较新的学科，研究如何开发并优化提示词，以便在各种应用和研究课题中高效使用语言模型（LM）。提示词工程技能有助于更好地理解大语言模型（LLM）的能力与局限。研究者用提示词工程提升 LLM 在问答、算术推理等各类常见与复杂任务上的表现；开发者用它设计稳健、有效的提示技术，让 LLM 与其他工具顺畅对接。",
+    "出于大家对 LLM 开发的高度兴趣，我们编写了这份新的提示词工程指南，收录了与 LLM 提示词工程相关的全部最新论文、学习指南、讲座、参考资料与工具。",
+    "🌐 提示词工程指南（网页版）",
+    "🎉 我们很高兴在 DAIR.AI Academy 下推出新的提示词工程、RAG 和 AI Agents 课程。立即加入！",
+    "这些课程旨在与这份指南互补，用更偏动手的方式学习提示词工程、上下文工程和 AI Agents。",
+    "使用优惠码 PROMPTING20 可额外享受 20% 折扣。",
+    "祝你提示愉快！",
+    "🎓 我们现在在 DAIR.AI Academy 提供可自定进度的提示词工程课程，立即加入！🎓 面向 LLM 的提示词工程新课程已发布，点此报名！💼 我们现提供企业培训、咨询和演讲等服务。🌐 我们现在支持 13 种语言，欢迎更多翻译。👩‍🎓 2024 年 1 月我们的学习者突破 300 万！🎉 我们上线了指南的新网页版。🔥 2023 年 2 月 21 日我们登上 Hacker News 第一。🎉 首场提示词工程讲座已上线。",
+    "加入我们的 Discord",
+    "在 Twitter 上关注我们",
+    "订阅我们的 YouTube",
+    "订阅我们的通讯",
+    "提示词工程——导论：LLM 设置；提示词基础；提示词要素；设计提示词的通用技巧；提示词示例。提示词工程——技术：零样本提示；少样本提示；思维链提示；自洽性；生成知识提示；提示链；思维树（ToT）；检索增强生成；自动推理与工具使用（ART）；自动提示工程师；主动提示；方向性刺激提示；程序辅助语言模型；ReAct 提示；多模态 CoT 提示；图提示。提示词工程——应用：函数调用；生成数据；为 RAG 生成合成数据集；应对生成数据集的多样性；生成代码；毕业生岗位分类案例研究。提示词工程——提示词库：分类；编程；创造力；评估；信息抽取；图像生成；数学；问答；推理；文本摘要；真实性；对抗性提示。提示词工程——模型：ChatGPT；Code Llama；Flan；Gemini；GPT-4；LLaMA；Mistral 7B；Mixtral；OLMo；Phi-2；模型合集。提示词工程——风险与误用：对抗性提示；事实性；偏见。提示词工程——论文：综述；方法；应用；合集。提示词工程——工具；提示词工程——notebook；提示词工程——数据集；提示词工程——延伸阅读。",
+    "我们发布了一场 1 小时的讲座，全面概览提示技术、应用与工具。视频讲座；带代码的 notebook；幻灯片。",
+    "如果想在本地运行这份指南——例如核对某个新翻译的正确实现——你需要：",
+    "1）安装 Node >=18.0.0；2）如果系统里没有 pnpm，先安装它，详细说明见 pnpm 官网；3）安装依赖：pnpm i next react react-dom nextra nextra-theme-docs；4）用 pnpm dev 启动指南；5）在 http://localhost:3000/ 浏览指南。",
+    "如果你在工作中或研究中使用了这份指南，请按以下方式引用我们："
+  ],
+  "ar-pages/about.ar.mdx": [
+    "Prompt Engineering Guide 是 [DAIR.AI](https://github.com/dair-ai) 的一个项目，旨在让研究者和从业者学习提示词工程。",
+    "DAIR.AI 的目标是让 AI 研究、教育与技术走向大众。我们的使命是赋能下一代的 AI 创新者与创造者。",
+    "我们欢迎社区贡献，请留意页面上的 Edit 按钮。",
+    "许可证信息见[此处](https://github.com/dair-ai/Prompt-Engineering-Guide#license)。",
+    "我们借鉴了许多开放资源，例如 [OpenAI CookBook](https://github.com/openai/openai-cookbook)、[Pretrain, Prompt, Predict](http://pretrain.nlpedia.ai/)、[Learn Prompting](https://learnprompting.org/)，以及更多其他资源。"
+  ],
+  "pages/about.ca.mdx": [
+    "Prompt Engineering Guide 是 [DAIR.AI](https://github.com/dair-ai) 的一个项目，旨在让研究者和从业者学习提示词工程。",
+    "DAIR.AI 的目标是让 AI 研究、教育与技术走向大众。我们的使命是赋能下一代的 AI 创新者与创造者。",
+    "我们欢迎社区贡献，请留意页面上的 Edit 按钮。",
+    "许可证信息见[此处](https://github.com/dair-ai/Prompt-Engineering-Guide#license)。",
+    "我们借鉴了许多开放资源，例如 [OpenAI CookBook](https://github.com/openai/openai-cookbook)、[Pretrain, Prompt, Predict](http://pretrain.nlpedia.ai/)、[Learn Prompting](https://learnprompting.org/)，以及更多其他资源。"
+  ],
+  "guides/README.md": [
+    "内容为一份指南目录，依次为：Prompt Engineering - Introduction（提示词工程入门）；Basic Prompting（基础提示）；Advanced Prompting（进阶提示）；Applications（应用）；ChatGPT（对话场景）；Adversarial Prompting（对抗性提示）；Reliability（可靠性）；Miscellaneous Topics（其他主题）。各条目分别链接到上游仓库 `guides/` 目录下的对应文档。"
+  ]
+}

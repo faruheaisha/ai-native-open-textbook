@@ -12,6 +12,8 @@ entryUrl: "https://github.com/2025Emma/vibe-coding-cn/blob/9b42dd10ddf3fff58f8c7
 zh: ""
 ---
 
+# Vibe Coding CN
+
 你需要为一个项目的 docs 文件夹中的所有英文文件重命名为中文。请按照以下规则进行：
 
 1. 分析每个文件名和其内容（快速浏览文件开头和标题）

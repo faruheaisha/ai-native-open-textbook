@@ -42,7 +42,7 @@ zh: ""
 
 ## **独立开发 vs. 团队：快速比较**
 
-![独立开发 vs 团队代码审查](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/04-engineering-practices/ai-writes-code-faster-your-job-is-to-prove-it-works/01.jpg)
+![独立开发 vs 团队代码审查](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/04-engineering-practices/ai-writes-code-faster-your-job-is-to-prove-it-works/01.jpg)
 
 ## **独立开发者：以"推理速度"交付**
 

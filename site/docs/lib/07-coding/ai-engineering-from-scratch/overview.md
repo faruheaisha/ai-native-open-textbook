@@ -12,6 +12,8 @@ entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5
 zh: ""
 ---
 
+# AI Engineering from Scratch（英文原版）
+
 <b>Read in your language:</b>
 [Türkçe](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/i18n/tr/README.md)
   <br><sub>Translated landing pages, committed to the repo. English is canonical; lesson pages are machine-translated on the <code>translations</code> branch. See <a href="/lib/07-coding/ai-engineering-from-scratch/docs">docs/i18n.md</a>.</sub>

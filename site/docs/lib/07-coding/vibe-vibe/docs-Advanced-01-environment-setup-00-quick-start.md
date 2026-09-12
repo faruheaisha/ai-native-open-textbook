@@ -33,11 +33,11 @@ zh: ""
 
 **下载地址**：<https://registry.npmmirror.com/-/binary/git-for-windows/v2.52.0.windows.1/Git-2.52.0-64-bit.exe>
 
-![image-20260203180304836](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260203180304836.png)
+![image-20260203180304836](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203180304836.png)
 
 下载后双击安装，**一直点"下一步"即可**（已安装可跳过）。
 
-### 2. 安装 [Node.js](https://nodejs.org/zh-cn/download)![image-20260203180429883](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260203180429883.png)
+### 2. 安装 [Node.js](https://nodejs.org/zh-cn/download)![image-20260203180429883](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203180429883.png)
 
 **下载地址**：<https://npmmirror.com/mirrors/node/v24.13.0/node-v24.13.0-x64.msi>
 
@@ -54,7 +54,7 @@ node -v
 
 如果显示版本号，说明安装成功。
 
-![image-20260203180527608](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260203180527608.png)
+![image-20260203180527608](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203180527608.png)
 
 如果提示「无法识别命令」，关闭终端重新打开后再试，如果仍不行则重启电脑。
 
@@ -66,7 +66,7 @@ node -v
 npm config set registry https://registry.npmmirror.com/; npm install -g pnpm; pnpm setup; pnpm config set registry https://registry.npmmirror.com/
 ```
 
-![image-20260203180609407](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260203180609407.png)
+![image-20260203180609407](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203180609407.png)
 
 ::: warning PowerShell 执行策略错误？
 
@@ -78,7 +78,7 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 然后重新运行上面的命令即可。
 
-![image-20260203180635579](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260203180635579.png)
+![image-20260203180635579](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203180635579.png)
 
 :::
 
@@ -98,7 +98,7 @@ claude
 
 如果看到 Claude Code 的欢迎界面，说明安装成功！
 
-![image-20260203180714506](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260203180714506.png)
+![image-20260203180714506](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203180714506.png)
 
 ::: warning 如果提示「No suitable shell found」
 
@@ -106,13 +106,13 @@ claude
 
 1. 按 `Win + S` 搜索"环境变量"
 
-   ![image-20260203180856348](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260203180856348.png)
+   ![image-20260203180856348](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203180856348.png)
 
 2. 点击"编辑系统环境变量"
 
 3. 点击"环境变量"
 
-   ![image-20260203180925214](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260203180925214.png)
+   ![image-20260203180925214](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203180925214.png)
 
 4. 在"系统变量"中点击"新建"
 
@@ -120,7 +120,7 @@ claude
 
 6. 变量值：`C:\Program Files\Git\bin\bash.exe`
 
-   ![image-20260203181030343](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260203181030343.png)
+   ![image-20260203181030343](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203181030343.png)
 
 7. 确定保存，**重启 PowerShell** 后再试
 
@@ -208,9 +208,9 @@ Claude Code 默认使用 Claude 官方模型，但你可以配置国内模型（
 
 访问 [智谱开放平台](https://open.bigmodel.cn/)，点击右上角的「注册/登录」按钮，按照提示完成账号注册流程。登录后，在个人中心页面，点击 [API Keys](https://bigmodel.cn/usercenter/proj-mgmt/apikeys)，创建一个新的 API Key。
 
-![image-20260203181347764](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260203181347764.png)
+![image-20260203181347764](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203181347764.png)
 
-![image-20260203181406471](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260203181406471.png)
+![image-20260203181406471](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203181406471.png)
 
 **步骤 2：一键安装小助手-自动配置**
 
@@ -220,7 +220,7 @@ Claude Code 默认使用 Claude 官方模型，但你可以配置国内模型（
 npx @z_ai/coding-helper
 ```
 
-![Description](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/1764741445765coding-tool-helper.gifattname=coding-tool-helper.gif)
+![Description](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/1764741445765coding-tool-helper.gifattname%3Dcoding-tool-helper.gif)
 
 输入获取到的 API Key，工具会自动完成所有配置。
 
@@ -242,7 +242,7 @@ claude
 
 如果你需要频繁切换不同的 AI 模型供应商（如 GLM、DeepSeek、OpenAI 等），可以使用 [cc-switch](https://github.com/farion1231/cc-switch)——一个支持 Claude Code、Codex 和 Gemini CLI 的桌面 GUI 配置管理工具，可一键切换 API 配置、统一管理 MCP 服务器和 Skills，并支持速度测试和系统托盘快速切换。
 
-![主界面](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/main-zh.png)
+![主界面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/main-zh.png)
 
 :::
 
@@ -252,7 +252,7 @@ claude
 
 Mac/Linux 用户的初始化脚本已自动安装 nvm（Node 版本管理器）。Windows 用户如果想管理多个 Node.js 版本，可以安装 nvm：
 
-![image-20260203181915052](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260203181915052.png)
+![image-20260203181915052](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203181915052.png)
 
 **下载**连接：<https://ghfast.top/https://github.com/coreybutler/nvm-windows/releases/download/1.2.2/nvm-setup.zip>
 

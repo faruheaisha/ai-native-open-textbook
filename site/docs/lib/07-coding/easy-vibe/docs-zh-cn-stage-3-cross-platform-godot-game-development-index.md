@@ -54,7 +54,7 @@ Godot 编辑器左边最重要的区域叫“场景树”。里面的每一项�
 
 下面这张图是本篇横版原型在 Godot 4.7.1 中的真实编辑器窗口。左边能看到 `World`、`Platforms`、`GoalBeacon`、`Player` 和 `HUD`；中间是 2D 场景；下方文件系统里是场景和 GDScript。截图只保留了 Godot 窗口，没有桌面、Finder 目录或个人文件。
 
-![Godot 编辑器中的横版原型场景树与 2D 工作区](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/godot-game-development/images/godot-editor-platformer.png)
+![Godot 编辑器中的横版原型场景树与 2D 工作区](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/godot-game-development/images/godot-editor-platformer.png)
 
 先记住一个简单的拆法：玩家、关卡、HUD 和可收集物尽量各自负责一件事。原型很小时全部塞在主场景里确实也能运行，但功能一多就会互相牵连。
 
@@ -86,7 +86,7 @@ Godot 能打开项目后，先按 F6 运行当前场景或按 F5 运行主场景
 
 《Primal Light》是 Fat Gem 制作的线性 2D 动作平台游戏，已经发行到 Windows、macOS、Linux 和 Nintendo Switch。Godot 官方 Showcase 的开发者访谈特别提到，开发者看重 Godot 以像素为原生单位、信号系统和动画工具。
 
-![Godot Showcase 中的 Primal Light 官方展示图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/godot-game-development/images/godot-case-primal-light.webp)
+![Godot Showcase 中的 Primal Light 官方展示图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/godot-game-development/images/godot-case-primal-light.webp)
 
 图片与案例来源：[Godot Showcase — Primal Light](https://godotengine.org/showcase/primal-light/)。
 
@@ -130,7 +130,7 @@ Godot 能打开项目后，先按 F6 运行当前场景或按 F5 运行主场景
 
 这是本机实际运行后的画面。角色可以左右移动和跳跃，平台具有碰撞，右上角信标提供清楚的终点方向。
 
-![Godot 4.7.1 实际运行的 Skyline Courier 横版原型](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/godot-game-development/images/godot-run-platformer.png)
+![Godot 4.7.1 实际运行的 Skyline Courier 横版原型](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/godot-game-development/images/godot-run-platformer.png)
 
 这张图不是效果稿。项目在 Godot 4.7.1 中加载了 `main.tscn`，`CharacterBody2D` 接收移动与跳跃输入，`StaticBody2D` 负责平台碰撞，运行窗口真实渲染后截取了这一帧。
 
@@ -157,7 +157,7 @@ Godot 能打开项目后，先按 F6 运行当前场景或按 F5 运行主场景
 
 《Dome Keeper》由 Bippinbits 制作，是一款已经正式发行的像素风生存采矿游戏。玩家在攻击间隙向地下挖掘资源，再回到穹顶抵御怪物，并用资源升级装备。
 
-![Godot Showcase 中的 Dome Keeper 官方展示图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/godot-game-development/images/godot-case-dome-keeper.webp)
+![Godot Showcase 中的 Dome Keeper 官方展示图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/godot-game-development/images/godot-case-dome-keeper.webp)
 
 图片与案例来源：[Godot Showcase — Dome Keeper](https://godotengine.org/showcase/dome-keeper/)。
 
@@ -197,7 +197,7 @@ Godot 能打开项目后，先按 F6 运行当前场景或按 F5 运行主场景
 
 这是本机实际运行的结果。内部画布是 320×180，显示窗口按 4 倍整数放大；角色、树木、路径和光晶都对齐到像素网格，画面没有使用平滑缩放。
 
-![Godot 4.7.1 实际运行的 Lantern Woods 像素原型](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/godot-game-development/images/godot-run-pixel.png)
+![Godot 4.7.1 实际运行的 Lantern Woods 像素原型](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/godot-game-development/images/godot-run-pixel.png)
 
 原型中的三颗光晶会检查玩家距离并更新 `LIGHT 0/3`。截图停在第一次收集前，因此三颗仍然都在场景里；实际操作时可以依次走近它们验证计数。
 
@@ -222,7 +222,7 @@ Godot 能打开项目后，先按 F6 运行当前场景或按 F5 运行主场景
 
 《Wrought Flesh》由 Miziziziz 制作，是已经正式发行的 3D 生物朋克动作 RPG。Godot 官方 Showcase 列出了器官属性系统、武器、敌人、Boss、任务和多个生态区域。
 
-![Godot Showcase 中的 Wrought Flesh 官方展示图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/godot-game-development/images/godot-case-wrought-flesh.webp)
+![Godot Showcase 中的 Wrought Flesh 官方展示图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/godot-game-development/images/godot-case-wrought-flesh.webp)
 
 图片与案例来源：[Godot Showcase — Wrought Flesh](https://godotengine.org/showcase/wrought-flesh/)。
 
@@ -264,7 +264,7 @@ Godot 能打开项目后，先按 F6 运行当前场景或按 F5 运行主场景
 
 这是本机实际运行的 3D 场景。地面和悬浮平台仍然是简单几何体，所以它诚实地说只是灰盒原型；但方向光、投影、环境颜色、发光材质和目标门都已经真实生效。
 
-![Godot 4.7.1 实际运行的 Signal Garden 3D 灰盒原型](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/godot-game-development/images/godot-run-3d.png)
+![Godot 4.7.1 实际运行的 Signal Garden 3D 灰盒原型](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/godot-game-development/images/godot-run-3d.png)
 
 图中角色是带碰撞体的 `CharacterBody3D`，摄像机跟随玩家；两个晶体会旋转，悬浮平台会上下移动。阴影能帮助判断物体离地高度，发光门则告诉玩家移动方向。这些反馈在正式模型进场以前就应该跑通。
 

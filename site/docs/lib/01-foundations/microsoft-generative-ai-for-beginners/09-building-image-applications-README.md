@@ -14,7 +14,7 @@ zh: ""
 
 # Building Image Generation Applications
 
-[![Building Image Generation Applications](https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/09-building-image-applications/images/09-lesson-banner.png)](https://aka.ms/gen-ai-lesson9-gh?WT.mc_id=academic-105485-koreyst)
+[![Building Image Generation Applications](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/09-building-image-applications/images/09-lesson-banner.png)](https://aka.ms/gen-ai-lesson9-gh?WT.mc_id=academic-105485-koreyst)
 
 There's more to LLMs than text generation. You can also generate images from text descriptions. Images as a modality are useful across MedTech, architecture, tourism, game development, marketing, and more. In this lesson we look at today's **GPT Image** models and build an image generation app.
 
@@ -157,9 +157,9 @@ with open("images/edited-image.png", "wb") as f:
 ```
 
 <div style="display: flex; justify-content: space-between; align-items: center; margin: 20px 0;">
-  <img src="https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/09-building-image-applications/images/sunlit_lounge.png" style="width: 30%; max-width: 200px; height: auto;">
-  <img src="https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/09-building-image-applications/images/mask.png" style="width: 30%; max-width: 200px; height: auto;">
-  <img src="https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/09-building-image-applications/images/sunlit_lounge_result.png" style="width: 30%; max-width: 200px; height: auto;">
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/09-building-image-applications/images/sunlit_lounge.png" style="width: 30%; max-width: 200px; height: auto;">
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/09-building-image-applications/images/mask.png" style="width: 30%; max-width: 200px; height: auto;">
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/09-building-image-applications/images/sunlit_lounge_result.png" style="width: 30%; max-width: 200px; height: auto;">
 </div>
 
 ## Setting boundaries with metaprompts

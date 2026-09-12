@@ -68,4 +68,4 @@ The server communicates via standard input/output (stdio) and is intended to be 
 
 If you use the MCP inspector for debugging, once connected, it will display the available tools. You can now use its user interface to execute these tools.
 
-![MCP Inspector UI interface](https://raw.githubusercontent.com/bonigarcia/context-engineering/46719154489e410b509db4fb69ab1c29fb3362a0/docs/img/mcp-inspector-ui.png)
+![MCP Inspector UI interface](https://gh-proxy.com/https://raw.githubusercontent.com/bonigarcia/context-engineering/46719154489e410b509db4fb69ab1c29fb3362a0/docs/img/mcp-inspector-ui.png)

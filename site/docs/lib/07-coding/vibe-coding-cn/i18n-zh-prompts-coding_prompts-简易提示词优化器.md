@@ -12,6 +12,8 @@ entryUrl: "https://github.com/2025Emma/vibe-coding-cn/blob/9b42dd10ddf3fff58f8c7
 zh: ""
 ---
 
+# Vibe Coding CN
+
 你是世界顶级提示工程专家，对以下“初始提示词”进行批判性优化。
 
 从以下四个维度进行全面改写：

@@ -12,9 +12,11 @@ entryUrl: "https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682
 zh: ""
 ---
 
+# Vibe Vibe —— 人人都能学会的 AI 编程（Vibe Coding）指南
+
 ## Next Level
 
-![img](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/mll09weg-197b0efb5807cc43.jpg)
+![img](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/mll09weg-197b0efb5807cc43.jpg)
 
 回望整个旅程，你已经从"有个想法"到"上线产品"再到"持续迭代"，形成了完整的闭环。
 

@@ -9,12 +9,16 @@ tier: 1
 volume: "10-context-memory"
 sourceUrl: "https://github.com/coleam00/context-engineering-intro"
 entryUrl: "https://github.com/coleam00/context-engineering-intro/blob/a2d84b021cee1e2f4e77ba854bba0be8cb319035/README.md"
-zh: ""
+zh: "on"
 ---
+
+# Context Engineering Intro
 
 ## Purpose
 
 Generate a complete context engineering template package for **PydanticAI** that enables developers to rapidly build intelligent AI agents with tool integration, conversation handling, and structured data validation using the PydanticAI framework.
+
+<div class="tb-zh"><p>为 PydanticAI 生成一个完整的上下文工程模板包，让开发者能用 PydanticAI 框架快速构建具备工具集成、对话处理与结构化数据校验的智能 AI agent。</p></div>
 
 ## Core Principles
 
@@ -24,17 +28,23 @@ Generate a complete context engineering template package for **PydanticAI** that
 4. **Production Ready**: Include security, testing, and best practices for production deployments
 5. **Context Engineering Integration**: Apply proven context engineering workflows to AI agent development
 
+<div class="tb-zh"><p>1）PydanticAI 专门化：与 PydanticAI 的 agent 创建、工具与结构化输出模式深度集成；2）生成完整的包：创建整套模板生态，包含可运行的示例与验证；3）类型安全优先：自始至终利用 PydanticAI 的类型安全设计与 Pydantic 校验；4）生产就绪：包含面向生产部署的安全性、测试与最佳实践；5）上下文工程集成：把经过验证的上下文工程工作流应用到 AI agent 开发中。</p></div>
+
 ---
 
 ## Goal
 
 Generate a complete context engineering template package for **PydanticAI** that includes:
 
+<div class="tb-zh"><p>为 PydanticAI 生成一个完整的上下文工程模板包，其中包含：</p></div>
+
 - PydanticAI-specific CLAUDE.md implementation guide with agent patterns
 - Specialized PRP generation and execution commands for AI agents
 - Domain-specific base PRP template with agent architecture patterns
 - Comprehensive working examples (chat agents, tool integration, multi-step workflows)
 - PydanticAI-specific validation loops and testing patterns
+
+<div class="tb-zh"><p>PydanticAI 专属的 CLAUDE.md 实现指南，含 agent 模式；为 AI agent 专门化的 PRP 生成与执行命令；带 agent 架构模式的领域专属基础 PRP 模板；完整的可运行示例（聊天 agent、工具集成、多步工作流）；PydanticAI 专属的验证闭环与测试模式。</p></div>
 
 ## Why
 
@@ -44,11 +54,16 @@ Generate a complete context engineering template package for **PydanticAI** that
 - **Knowledge Capture**: Document PydanticAI-specific patterns, gotchas, and integration strategies
 - **Scalable AI Framework**: Create reusable templates for various AI agent use cases
 
+<div class="tb-zh"><p>加速 AI 开发：让生产级 PydanticAI agent 的开发变得快速；模式一致性：保持既有的 AI agent 架构模式与最佳实践；质量保证：为 agent 行为、工具与输出确保完整的测试；知识沉淀：记录 PydanticAI 专属的模式、坑与集成策略；可扩展的 AI 框架：为各种 AI agent 用例创建可复用模板。</p></div>
+
 ## What
 
 ### Template Package Components
 
 **Complete Directory Structure:**
+
+<div class="tb-zh"><p>完整的目录结构：</p></div>
+
 ```
 use-cases/pydantic-ai/
 ├── CLAUDE.md                           # PydanticAI implementation guide
@@ -78,11 +93,15 @@ use-cases/pydantic-ai/
 - Testing patterns using TestModel and FunctionModel
 - Security patterns for API key management and input validation
 
+<div class="tb-zh"><p>PydanticAI 集成： 用多种模型 provider（OpenAI、Anthropic、Gemini）创建 agent；工具集成模式与函数注册；用依赖做对话记忆与上下文管理；用 Pydantic 模型做结构化输出校验；使用 TestModel 和 FunctionModel 的测试模式；API key 管理与输入校验的安全模式。</p></div>
+
 **Context Engineering Adaptation:**
 - PydanticAI-specific research processes and documentation references
 - Agent-appropriate validation loops and testing strategies
 - AI framework-specialized implementation blueprints
 - Integration with base context engineering principles for AI development
+
+<div class="tb-zh"><p>上下文工程适配： PydanticAI 专属的调研流程与文档引用；适合 agent 的验证闭环与测试策略；AI 框架专门化的实现蓝图；与面向 AI 开发的基础上下文工程原则的集成。</p></div>
 
 ### Success Criteria
 
@@ -94,6 +113,8 @@ use-cases/pydantic-ai/
 - [ ] Template immediately usable for creating PydanticAI projects
 - [ ] Integration with base context engineering framework maintained
 - [ ] Comprehensive examples and testing documentation included
+
+<div class="tb-zh"><p>验收清单：已生成完整的 PydanticAI 模板包结构；所有必需文件都在且内容针对 PydanticAI；agent 模式准确体现 PydanticAI 最佳实践；上下文工程原则已为 AI agent 开发做适配；验证闭环适合测试 AI agent 与工具；模板可直接用于创建 PydanticAI 项目；与基础上下文工程框架的集成得以保持；已包含完整的示例与测试文档。</p></div>
 
 ## All Needed Context
 
@@ -334,11 +355,15 @@ testing_gotchas:
 
 **Comprehensive PydanticAI Analysis Complete:**
 
+<div class="tb-zh"><p>对 PydanticAI 的完整分析已完成：</p></div>
+
 ✅ **Core Framework Analysis:** 
 - PydanticAI architecture, agent creation patterns, model provider integration
 - Project structure conventions from official docs and examples
 - Dependency injection system and type-safe design principles
 - Development workflow with async/sync patterns and streaming support
+
+<div class="tb-zh"><p>✅ 核心框架分析： PydanticAI 架构、agent 创建模式、模型 provider 集成；来自官方文档与示例的项目结构约定；依赖注入系统与类型安全设计原则；配合异步/同步模式与流式支持的开发工作流。</p></div>
 
 ✅ **Tool System Investigation:**
 - Function tool registration patterns (@agent.tool vs @agent.tool_plain)
@@ -346,11 +371,15 @@ testing_gotchas:
 - Parameter validation, docstring extraction, and schema generation
 - Rich return types and multi-modal content support
 
+<div class="tb-zh"><p>✅ 工具系统调研： 函数工具的注册模式（@agent.tool 与 @agent.tool_plain 的取舍）；用 RunContext 与依赖注入做上下文管理；参数校验、docstring 提取与 schema 生成；丰富的返回类型与多模态内容支持。</p></div>
+
 ✅ **Testing Framework Analysis:**
 - TestModel and FunctionModel for unit testing without API calls
 - Agent.override() patterns for test isolation
 - Pytest integration with async testing and fixtures
 - Evaluation strategies for model performance vs unit testing
+
+<div class="tb-zh"><p>✅ 测试框架分析： 用 TestModel 和 FunctionModel 在不调用 API 的情况下做单元测试；用 Agent.override() 模式做测试隔离；与 pytest 集成异步测试与 fixture；模型性能评估与单元测试的区别。</p></div>
 
 ✅ **Security and Production Patterns:**
 - API key management with environment variables and secure storage
@@ -358,9 +387,13 @@ testing_gotchas:
 - Rate limiting, monitoring, and Logfire integration
 - Common security vulnerabilities and prevention strategies
 
+<div class="tb-zh"><p>✅ 安全与生产模式： 用环境变量与安全存储管理 API key；用 Pydantic 模型与参数 schema 做输入校验；限流、监控与 Logfire 集成；常见安全漏洞与防护策略。</p></div>
+
 ### Template Package Generation
 
 Create complete PydanticAI context engineering template based on research findings:
+
+<div class="tb-zh"><p>基于调研发现，创建完整的 PydanticAI 上下文工程模板：</p></div>
 
 ```yaml
 Generation Task 1 - Create PydanticAI Template Directory Structure:
@@ -569,6 +602,8 @@ grep -r "pytest" examples/testing_examples/ | wc -l  # Should have tests
 - [ ] Testing patterns included: TestModel/FunctionModel examples and validation
 - [ ] Documentation complete: PydanticAI-specific patterns and gotchas documented
 
+<div class="tb-zh"><p>验证清单：目录结构完整——tree use-cases/pydantic-ai；PydanticAI 专属文件——含 agent 模式与专门命令的 CLAUDE.md；复制脚本存在——copy_template.py 具备恰当的 PydanticAI 功能；README 完整——包含 agent 开发工作流与复制说明；agent 示例可运行——所有示例都使用真实的 PydanticAI 代码模式；包含测试模式——TestModel/FunctionModel 示例与验证；文档完整——PydanticAI 专属模式与坑都已记录。</p></div>
+
 ### Quality and Usability for PydanticAI
 
 - [ ] No placeholder content: `grep -r "TODO\|PLACEHOLDER"` returns empty
@@ -577,6 +612,8 @@ grep -r "pytest" examples/testing_examples/ | wc -l  # Should have tests
 - [ ] Framework integration: Works with base context engineering for AI development
 - [ ] Ready for AI development: Developers can immediately create PydanticAI agents
 
+<div class="tb-zh"><p>验证清单：没有占位内容——grep -r "TODO\|PLACEHOLDER" 返回为空；PydanticAI 专门化——agent 模式、工具与测试都被恰当记录；验证闭环可用——所有命令都可执行且具备 agent 专属功能；框架集成——能与用于 AI 开发的基础上下文工程配合；可用于 AI 开发——开发者能立即创建 PydanticAI agent。</p></div>
+
 ### PydanticAI Framework Integration
 
 - [ ] Inherits base principles: Context engineering workflow preserved for AI agents
@@ -584,6 +621,8 @@ grep -r "pytest" examples/testing_examples/ | wc -l  # Should have tests
 - [ ] Command compatibility: Slash commands work for agent development workflows
 - [ ] Documentation consistency: Follows patterns while specializing for AI development
 - [ ] Maintainable structure: Easy to update as PydanticAI framework evolves
+
+<div class="tb-zh"><p>验证清单：继承基础原则——上下文工程工作流为 AI agent 得以保留；恰当的 AI 专门化——包含 PydanticAI 模式、安全与测试；命令兼容——斜杠命令可服务于 agent 开发工作流；文档一致——在为 AI 开发专门化的同时遵循既有模式；结构可维护——随 PydanticAI 框架演进易于更新。</p></div>
 
 ---
 
@@ -596,12 +635,16 @@ grep -r "pytest" examples/testing_examples/ | wc -l  # Should have tests
 - ❌ Don't use placeholder agent code - include real, working PydanticAI examples
 - ❌ Don't ignore testing patterns - TestModel/FunctionModel are critical for AI
 
+<div class="tb-zh"><p>❌ 不要创建通用的 AI 模板——彻底调研 PydanticAI 的具体细节；❌ 不要跳过 agent 架构调研——理解工具、记忆与校验；❌ 不要使用占位的 agent 代码——包含真实可运行的 PydanticAI 示例；❌ 不要忽视测试模式——TestModel/FunctionModel 对 AI 至关重要。</p></div>
+
 ### PydanticAI Content Quality
 
 - ❌ Don't assume AI patterns - document PydanticAI-specific gotchas explicitly
 - ❌ Don't skip security research - API keys, input validation, prompt injection critical
 - ❌ Don't ignore model providers - include OpenAI, Anthropic, Gemini patterns
 - ❌ Don't forget async patterns - PydanticAI has specific async/sync considerations
+
+<div class="tb-zh"><p>❌ 不要对 AI 模式想当然——明确记录 PydanticAI 专属的坑；❌ 不要跳过安全调研——API key、输入校验、提示词注入都至关重要；❌ 不要忽视模型 provider——包含 OpenAI、Anthropic、Gemini 的模式；❌ 不要忘记异步模式——PydanticAI 对 async/sync 有特定考量。</p></div>
 
 ### PydanticAI Framework Integration
 
@@ -610,4 +653,8 @@ grep -r "pytest" examples/testing_examples/ | wc -l  # Should have tests
 - ❌ Don't ignore AI-specific validation - agent behavior testing is unique requirement
 - ❌ Don't skip real examples - include working agents with tools and validation
 
+<div class="tb-zh"><p>❌ 不要破坏上下文工程——为 AI 开发保持 PRP 工作流；❌ 不要重复基础功能——恰当地扩展与专门化；❌ 不要忽视 AI 专属验证——agent 行为测试是独特的要求；❌ 不要跳过真实示例——包含带工具与校验的可运行 agent。</p></div>
+
 **CONFIDENCE SCORE: 9/10** - Comprehensive PydanticAI research completed, framework patterns understood, ready to generate specialized context engineering template for AI agent development.
+
+<div class="tb-zh"><p>置信度评分：9/10——已完成对 PydanticAI 的完整调研，理解了框架模式，可以开始为 AI agent 开发生成专门的上下文工程模板。</p></div>

@@ -10,7 +10,7 @@ lang: "英文"
 volume: "10-context-memory"
 sourceUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide"
 entryUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide/blob/57673726396dd94acb23bdb1e67f27c78ee85a8e/README.md"
-zh: ""
+zh: "on"
 ---
 
 # Prompt Engineering Guide

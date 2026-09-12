@@ -30,7 +30,7 @@ MCP separates those responsibilities. A server provides a tool list and invocati
 
 ## The Solution
 
-![MCP Architecture](https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s14_mcp_plugin/images/mcp-architecture.en.svg)
+![MCP Architecture](https://gh-proxy.com/https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s14_mcp_plugin/images/mcp-architecture.en.svg)
 
 This chapter starts from s04's five base tools and hooks, then adds three parts:
 

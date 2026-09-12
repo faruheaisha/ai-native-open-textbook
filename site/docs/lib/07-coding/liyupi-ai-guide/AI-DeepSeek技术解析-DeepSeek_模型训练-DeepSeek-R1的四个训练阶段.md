@@ -12,6 +12,8 @@ entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a0
 zh: ""
 ---
 
+# 鱼皮 AI 导航（ai-guide）
+
 ## DeepSeek-R1的四个训练阶段
 
 DeepSeek-R1的训练流程包含四个阶段，分为两个强化学习（RL）阶段和两个监督微调（SFT）阶段。

@@ -12,8 +12,10 @@ entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be
 zh: ""
 ---
 
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/openai/openai-cookbook/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/images/openai-cookbook-white.png" style="max-width: 100%; width: 400px; margin-bottom: 20px">
-    <img alt="OpenAI Cookbook Logo" src="https://raw.githubusercontent.com/openai/openai-cookbook/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/images/openai-cookbook.png" width="400px">
+# OpenAI Cookbook
+
+<source media="(prefers-color-scheme: dark)" srcset="https://gh-proxy.com/https://raw.githubusercontent.com/openai/openai-cookbook/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/images/openai-cookbook-white.png" style="max-width: 100%; width: 400px; margin-bottom: 20px">
+    <img alt="OpenAI Cookbook Logo" src="https://gh-proxy.com/https://raw.githubusercontent.com/openai/openai-cookbook/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/images/openai-cookbook.png" width="400px">
 
 <h3></h3>
  

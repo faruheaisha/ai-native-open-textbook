@@ -12,6 +12,8 @@ entryUrl: "https://github.com/raroque/vibe-security-skill/blob/850938f20f6915e7c
 zh: ""
 ---
 
+# Vibe Security（AI 编码安全技能）
+
 <h1 align="center">Vibe Security - Agent Skill for AI Coding Assistants</h1>
 
 An agent skill that helps secure vibe-coded apps - or honestly any app - from common security vulnerability patterns. Built by [Chris Raroque](https://www.youtube.com/@raroque) ([@raroque](https://twitter.com/raroque)) in collaboration with my colleagues at [Aloa](https://aloa.co).

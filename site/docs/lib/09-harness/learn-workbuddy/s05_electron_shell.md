@@ -20,7 +20,7 @@ zh: ""
 
 ---
 
-![Electron 三进程架构](https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s05_electron_shell/images/electron-arch.svg)
+![Electron 三进程架构](https://gh-proxy.com/https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s05_electron_shell/images/electron-arch.svg)
 
 ## 代码架构图
 
@@ -98,7 +98,7 @@ Electron 有三个进程角色：
 
 上图是 s05 的核心——三个 Electron 进程。但 WorkBuddy 的完整进程拓扑远不止于此。下面的图展示了从 Main Process 到 Sidecar、CLI 会话、MCP 连接器、安全审计的**完整进程架构**，后续 s06-s07-s17-s23 会逐一拆解每个子系统：
 
-![WorkBuddy 完整进程架构](https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s05_electron_shell/images/process-architecture.svg)
+![WorkBuddy 完整进程架构](https://gh-proxy.com/https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s05_electron_shell/images/process-architecture.svg)
 
 ---
 

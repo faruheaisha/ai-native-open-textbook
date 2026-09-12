@@ -34,7 +34,7 @@ The longer the conversation, the worse it gets: tool results keep filling the co
 
 ## The Solution
 
-![Todo Overview](https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s05_todo_write/images/todo-overview.en.svg)
+![Todo Overview](https://gh-proxy.com/https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s05_todo_write/images/todo-overview.en.svg)
 
 S05 keeps the tool dispatch, permissions, and hooks from S04, then adds `todo_write` and a reminder counter. `todo_write` only updates planning state; the existing tools still perform the work.
 

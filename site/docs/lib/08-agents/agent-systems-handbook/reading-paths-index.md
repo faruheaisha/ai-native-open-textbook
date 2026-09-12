@@ -12,6 +12,8 @@ entryUrl: "https://github.com/Prompthon-IO/agent-systems-handbook/blob/5b71cfa59
 zh: ""
 ---
 
+# Agent Systems Handbook（智能体系统手册）
+
 import SupportCTA from "/snippets/support-cta.mdx";
 
 This directory turns the repository into a path-first lab instead of a

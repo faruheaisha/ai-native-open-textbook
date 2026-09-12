@@ -20,7 +20,7 @@ zh: ""
 
 ---
 
-![结果交付系统](https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s20_result_presentation/images/result-presentation.svg)
+![结果交付系统](https://gh-proxy.com/https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s20_result_presentation/images/result-presentation.svg)
 
 ## 代码架构图
 

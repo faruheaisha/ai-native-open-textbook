@@ -12,6 +12,8 @@ entryUrl: "https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea43
 zh: ""
 ---
 
+# Harness Engineering 指南（nexu.io）
+
 <em>The practical guide to building AI agent harnesses — with real code examples you can copy and run.</em>
 
   

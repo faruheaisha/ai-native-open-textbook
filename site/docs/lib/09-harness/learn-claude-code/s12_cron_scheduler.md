@@ -28,7 +28,7 @@ For requests such as "run tests every morning at 9am" or "check CI status every 
 
 ## The Solution
 
-![Cron Scheduler Overview](https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s12_cron_scheduler/images/cron-scheduler-overview.en.svg)
+![Cron Scheduler Overview](https://gh-proxy.com/https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s12_cron_scheduler/images/cron-scheduler-overview.en.svg)
 
 Suppose the Agent registers this job:
 

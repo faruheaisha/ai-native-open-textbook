@@ -12,6 +12,8 @@ entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a0
 zh: ""
 ---
 
+# 鱼皮 AI 导航（ai-guide）
+
 ## 如何在iPhone上用语音调用Deepseek
 
 使用iPhone的小伙伴注意了，现在可以用语言直接调用Deepseek，快捷、高效，一起来看怎么操作：

@@ -80,7 +80,10 @@ html.dark {
   --vp-code-block-bg: #1c1c19;
 }
 
-/* ---------- 栏宽：三栏宽度固定，长文不横跨 ---------- */
+/* ---------- 栏宽：三栏宽度固定，长文不横跨 ----------
+   实测：正文栏实际落在 VitePress 的 688px 上——它的 scoped 规则权重更高，
+   这条 var(--tb-measure) 目前只在没有 aside 的页面上生效。
+   要整体改栏宽，得同时提高这条的权重，别只改变量。 */
 
 .VPDoc .content-container {
   max-width: var(--tb-measure);
@@ -346,6 +349,26 @@ html.tb-zh-on .tb-zh.tb-zh-hide {
   font-size: 11px;
   color: var(--tb-accent-ink);
   opacity: 0.85;
+}
+
+/* 触屏没有悬停，整块可点也没法提示；把「释」做成左边的方形收起键，
+   和 Layout 里「只认左侧 36px 轻点」的判定对齐。 */
+@media (hover: none) {
+  .tb-zh { cursor: auto; padding-left: 2.4rem; }
+
+  .tb-zh::before {
+    left: 0.25rem;
+    top: 0.45rem;
+    display: grid;
+    place-items: center;
+    width: 22px;
+    height: 22px;
+    border: 1px solid var(--tb-line-2);
+    border-radius: 6px;
+    background: var(--tb-surface);
+    font-size: 10px;
+    opacity: 1;
+  }
 }
 
 .tb-zh p {
@@ -1729,4 +1752,1237 @@ html.tb-reveal .VPHome .tb-gh.is-in {
   .VPHero.VPHomeHero.has-image .text {
     font-size: 25px;
   }
+}
+
+/* ---------- 阅读进度：长文页顶部的细进度条 ---------- */
+
+.tb-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 60;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, var(--tb-accent), var(--tb-accent-ink));
+  transform: scaleX(var(--tb-p, 0));
+  transform-origin: 0 50%;
+  opacity: 0.85;
+  pointer-events: none;
+}
+
+/* ---------- 回到顶部：只在桌面出现，手机上留给系统手势 ---------- */
+
+.tb-totop {
+  position: fixed;
+  right: 22px;
+  bottom: 26px;
+  z-index: 55;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  border: 1px solid var(--tb-line);
+  border-radius: 50%;
+  background: var(--tb-surface);
+  color: var(--tb-ink-2);
+  box-shadow: 0 1px 2px rgba(23, 24, 26, 0.05), 0 6px 16px -8px rgba(23, 24, 26, 0.22);
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 0.25s ease, transform 0.25s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.tb-totop.is-on {
+  opacity: 1;
+  transform: none;
+}
+
+@media (min-width: 960px) {
+  .tb-totop {
+    display: flex;
+    pointer-events: none;
+  }
+
+  .tb-totop.is-on {
+    pointer-events: auto;
+  }
+}
+
+@media (hover: hover) {
+  .tb-totop:hover {
+    border-color: var(--tb-accent);
+    color: var(--tb-accent-ink);
+  }
+}
+
+/* ---------- 中文释义：悬停提示与出现动效 ---------- */
+
+@keyframes tb-zh-in {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+html.tb-zh-on .tb-zh {
+  animation: tb-zh-in 0.28s ease both;
+}
+
+.tb-zh::after {
+  content: "点击收起";
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  font-size: 11px;
+  letter-spacing: 0.02em;
+  color: var(--tb-accent-ink);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  pointer-events: none;
+}
+
+@media (hover: hover) {
+  .tb-zh:hover::after {
+    opacity: 0.7;
+  }
+}
+
+/* 开关按下时用实心，状态一眼能看出来 */
+.tb-zh-btn[aria-pressed='true'] {
+  background: var(--tb-accent);
+  border-color: var(--tb-accent);
+  color: var(--tb-surface);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html.tb-zh-on .tb-zh {
+    animation: none !important;
+  }
+
+  .tb-totop {
+    transition: none !important;
+  }
+}
+
+/* ===== 正文阅读细节 ===== */
+
+/* 上游 README 常写「正文 / --- / 下一节」，hr 的下边距正好撞上 h2 的上边框，
+   于是同一处分隔出现两条平行细线。同一处只保留一条。 */
+.vp-doc hr + h2,
+.vp-doc hr + h3,
+.vp-doc hr + h4 {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.vp-doc hr + h2 { margin-top: 1.9rem; }
+.vp-doc hr + h3 { margin-top: 1.5rem; }
+
+/* 连续的分隔线合并成一条：上游文档在标题前叠两三条 --- 的情况不少 */
+.vp-doc hr + hr { display: none; }
+
+/* 正文第一块不留上边距，否则标题和正文之间会先空一大段 */
+.vp-doc > div > :first-child { margin-top: 0; }
+
+/* ---------- 代码块：语言名独占一条窄栏，复制按钮常显 ----------
+   上游把语言名和复制按钮都钉在右上角，两者会互相压住；而且复制按钮只在
+   悬停时才浮现，读者常常找不到它。改成「窄栏 + 常显按钮」后各占其位。 */
+.vp-doc div[class*="language-"] {
+  padding-top: 30px;
+}
+
+.vp-doc div[class*="language-"] > span.lang {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 0 14px;
+  border-bottom: 1px solid var(--tb-line);
+  color: var(--tb-ink-3);
+  font-size: 11.5px;
+  letter-spacing: 0.04em;
+  pointer-events: none;
+}
+
+.vp-doc div[class*="language-"] > pre {
+  padding: 15px 0 16px;
+  scrollbar-width: thin;
+}
+
+.vp-doc div[class*="language-"] pre::-webkit-scrollbar { height: 8px; }
+.vp-doc div[class*="language-"] pre::-webkit-scrollbar-thumb {
+  background: var(--tb-line-2);
+  border-radius: 999px;
+}
+
+.vp-doc div[class*="language-"] > button.copy {
+  top: 4px;
+  right: 6px;
+  width: 30px;
+  height: 22px;
+  border: 0;
+  border-radius: 5px;
+  background-size: 15px;
+  opacity: 0.5;
+}
+
+.vp-doc div[class*="language-"]:hover > button.copy,
+.vp-doc div[class*="language-"] > button.copy:focus-visible {
+  opacity: 1;
+}
+
+.vp-doc div[class*="language-"] > button.copy:hover,
+.vp-doc div[class*="language-"] > button.copy.copied {
+  opacity: 1;
+  background-color: var(--tb-line);
+}
+
+.vp-doc div[class*="language-"] > button.copy.copied::before,
+.vp-doc div[class*="language-"] > button.copy:hover.copied::before {
+  border-radius: 4px 0 0 4px;
+  border-right: 0;
+  font-size: 12px;
+}
+
+/* ---------- 标题锚点：移到标题上才浮现，键盘聚焦时同样可见 ---------- */
+.vp-doc h2 .header-anchor,
+.vp-doc h3 .header-anchor {
+  opacity: 0;
+  transition: opacity 0.18s ease;
+}
+
+.vp-doc h2:hover .header-anchor,
+.vp-doc h3:hover .header-anchor,
+.vp-doc .header-anchor:focus-visible { opacity: 1; }
+
+/* ---------- 图片：正文插图可点击放大 ---------- */
+.vp-doc img { cursor: zoom-in; }
+.vp-doc a img { cursor: pointer; }
+
+.tb-lb {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: grid;
+  place-items: center;
+  padding: clamp(14px, 4vw, 52px);
+  background: rgba(22, 20, 18, 0.84);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  opacity: 0;
+  transition: opacity 0.22s ease;
+}
+
+.tb-lb[hidden] { display: none; }
+.tb-lb.is-on { opacity: 1; }
+.tb-lb:focus { outline: none; }
+
+.tb-lb img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  border: 0;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.45);
+  cursor: zoom-out;
+  transform: scale(0.965);
+  transition: transform 0.22s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+.tb-lb.is-on img { transform: scale(1); }
+
+.tb-lb__x {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.18s ease;
+}
+
+.tb-lb__x:hover { background: rgba(255, 255, 255, 0.22); }
+
+.tb-lb__hint {
+  position: absolute;
+  bottom: 16px;
+  left: 0;
+  right: 0;
+  margin: 0;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.62);
+  font-size: 12.5px;
+  pointer-events: none;
+}
+
+body.tb-lb-open { overflow: hidden; }
+
+/* ---------- 选中文字与键盘焦点 ---------- */
+::selection {
+  background: var(--tb-accent-soft);
+  color: var(--tb-accent-ink);
+}
+
+.tb-lb ::selection { background: rgba(255, 255, 255, 0.24); color: #fff; }
+
+.vp-doc a:focus-visible,
+.vp-doc button:focus-visible,
+.tb-foot a:focus-visible {
+  outline: 2px solid var(--tb-accent);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tb-lb,
+  .tb-lb img { transition: none; }
+  .tb-lb img { transform: none; }
+}
+
+/* ===== 课程库：筛选计数、排序、行悬停 ===== */
+
+/* 每个筛选项后面的数字：告诉读者「点下去还剩几门」，不用先点了才知道 */
+.tb-lib__n {
+  font-style: normal;
+  font-size: 11px;
+  margin-left: 5px;
+  opacity: 0.6;
+  font-variant-numeric: tabular-nums;
+}
+
+.tb-lib__chip.is-on .tb-lib__n { opacity: 0.88; }
+
+/* 在当前条件下会被筛空的选项：留着可点，但明显退到后面 */
+.tb-lib__chip.is-zero { opacity: 0.4; }
+.tb-lib__chip.is-zero:hover { opacity: 1; }
+
+.tb-lib__label--gap { margin-left: 12px; }
+
+.tb-lib__reset:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.tb-lib__reset:disabled:hover {
+  border-color: var(--tb-line);
+  color: var(--tb-ink-3);
+}
+
+.tb-lib__count b {
+  font-size: 14.5px;
+  color: var(--tb-ink);
+  font-variant-numeric: tabular-nums;
+}
+
+.tb-lib__count-hint { color: var(--tb-ink-3); }
+
+/* 一行就是一条课程：悬停时整行抬起、左侧起一条强调线，暗示「点这儿进去」 */
+.tb-lib__item {
+  position: relative;
+  padding: 11px 12px;
+  margin: 0 -12px !important;
+  border-radius: 8px;
+  transition: background 0.16s ease;
+}
+
+.tb-lib__item::before {
+  content: '';
+  position: absolute;
+  left: 1px;
+  top: 13px;
+  bottom: 13px;
+  width: 2px;
+  border-radius: 2px;
+  background: var(--tb-accent);
+  opacity: 0;
+  transition: opacity 0.16s ease;
+}
+
+.tb-lib__item:has(a):hover { background: var(--tb-sink); }
+.tb-lib__item:has(a):hover::before { opacity: 1; }
+
+/* ===== 来源总表：表头单元格不折断 ===== */
+.tb-nb { white-space: nowrap; }
+
+/* 表格里的链接不该被当成普通文本折成两三行 */
+/* 表格里的链接按内容自然换行；确实不能折断的短标签用 .tb-nb 单独标注 */
+
+/* ===== 右栏「本页目录」：长标题允许两行，比截断成「One company, the who…」好读 ===== */
+.VPDocAsideOutline .outline-link {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+  line-height: 1.45;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.VPDocAsideOutline .outline-link:hover {
+  color: var(--tb-accent-ink);
+}
+
+/* 当前项：VitePress 自己的选择器带 scoped 属性（0-3-0），
+   要盖过它必须凑到 0-3-1，所以前面挂一个 html。 */
+html .VPDocAsideOutline .outline-link.active {
+  color: var(--tb-accent-ink);
+  font-weight: 500;
+}
+
+/* 当前项加一条实心竖标，扫一眼就知道读到哪 */
+.VPDocAsideOutline .outline-marker {
+  width: 2px;
+  border-radius: 2px;
+  background-color: var(--tb-accent);
+}
+
+.VPDocAsideOutline .outline-title {
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  color: var(--tb-ink-3);
+}
+
+/* ===== 站内搜索（SiteSearch） =====
+   替代 VitePress 自带的本地搜索：索引只有课程名、课时名、小节标题与开篇摘要，
+   常驻 ~1.9MB，且中文按子串直接命中。 */
+
+.tb-srch {
+  display: flex;
+  align-items: center;
+  margin-right: 6px;
+}
+
+.tb-srch__btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 40px;
+  padding: 0 11px 0 12px;
+  border: 1px solid var(--tb-line);
+  border-radius: 9px;
+  background: var(--tb-surface);
+  color: var(--tb-ink-3);
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.tb-srch__btn:hover {
+  border-color: var(--tb-line-2);
+  color: var(--tb-ink-2);
+}
+
+.tb-srch__btn:focus-visible {
+  outline: 2px solid var(--tb-accent);
+  outline-offset: 2px;
+}
+
+.tb-srch__kbd {
+  padding: 2px 5px;
+  border: 1px solid var(--tb-line);
+  border-radius: 5px;
+  font-size: 11px;
+  line-height: 1.4;
+  color: var(--tb-ink-3);
+}
+
+/* ---------- 遮罩与面板 ---------- */
+.tb-srch-lock { overflow: hidden; }
+
+.tb-srch__mask {
+  position: fixed;
+  inset: 0;
+  z-index: 210;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: clamp(40px, 9vh, 108px) 16px 24px;
+  background: rgba(24, 22, 20, 0.44);
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+}
+
+.tb-srch__panel {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 640px;
+  max-height: min(640px, calc(100vh - 120px));
+  border: 1px solid var(--tb-line);
+  border-radius: 14px;
+  background: var(--tb-surface);
+  box-shadow: 0 22px 60px rgba(30, 24, 18, 0.22), 0 2px 8px rgba(30, 24, 18, 0.08);
+  overflow: hidden;
+}
+
+.tb-srch__field {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 14px;
+  height: 56px;
+  border-bottom: 1px solid var(--tb-line);
+  color: var(--tb-ink-3);
+  flex: none;
+}
+
+.tb-srch__field input {
+  flex: 1 1 auto;
+  min-width: 0;
+  height: 100%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--tb-ink);
+  font: inherit;
+  font-size: 15px;
+}
+
+.tb-srch__field input::-webkit-search-cancel-button { display: none; }
+.tb-srch__field input::placeholder { color: var(--tb-ink-3); }
+
+.tb-srch__clear {
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--tb-sink);
+  color: var(--tb-ink-3);
+  cursor: pointer;
+}
+
+.tb-srch__clear:hover { color: var(--tb-ink); }
+
+/* 关闭按钮：桌面端靠 Esc，窄屏才出现 */
+.tb-srch__x { display: none; }
+
+.tb-srch__count {
+  margin: 0;
+  padding: 10px 16px 4px;
+  font-size: 12px;
+  color: var(--tb-ink-3);
+}
+
+.tb-srch__list {
+  list-style: none;
+  margin: 0;
+  padding: 6px 8px 8px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+}
+
+.tb-srch__item a {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 8px;
+  padding: 9px 10px;
+  border-radius: 9px;
+  text-decoration: none !important;
+  color: inherit;
+}
+
+/* 当前行：整行品牌浅染 + 左侧 3px 强调条。
+   只靠一层浅底色，放大后几乎看不出选中；加一条竖线后一眼可辨。 */
+.tb-srch__item.is-cur a {
+  background: var(--tb-accent-soft);
+  border-left: 3px solid var(--tb-accent);
+  padding-left: 13px;
+}
+
+.tb-srch__tag {
+  flex: none;
+  padding: 1px 6px;
+  border-radius: 5px;
+  font-size: 11px;
+  line-height: 1.6;
+  color: var(--tb-ink-3);
+  background: var(--tb-sink);
+}
+
+.tb-srch__item.is-cur .tb-srch__tag { background: var(--tb-surface); }
+
+.tb-srch__tag.is-course {
+  color: var(--tb-accent-ink);
+  background: var(--tb-accent-soft);
+}
+
+.tb-srch__ttl {
+  font-size: 14.5px;
+  font-weight: 600;
+  color: var(--tb-ink);
+}
+
+.tb-srch__item.is-cur .tb-srch__ttl { color: var(--tb-accent-ink); }
+
+.tb-srch__ctx,
+.tb-srch__ctx2 {
+  flex: 1 1 100%;
+  padding-left: 2px;
+  font-size: 12.5px;
+  color: var(--tb-ink-3);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.tb-srch__ctx--head { color: var(--tb-ink-2); }
+
+.tb-srch__none,
+.tb-srch__guide {
+  margin: 0;
+  padding: 18px 18px 22px;
+  font-size: 13.5px;
+  color: var(--tb-ink-3);
+}
+
+.tb-srch__guide-t {
+  margin: 0 0 8px;
+  font-size: 12px;
+  color: var(--tb-ink-3);
+}
+
+.tb-srch__guide-i {
+  margin: 0 0 6px;
+  font-size: 13px;
+  color: var(--tb-ink-2);
+}
+
+.tb-srch__guide-i b { color: var(--tb-ink); font-weight: 600; }
+
+.tb-srch__hint {
+  margin: 0;
+  padding: 8px 16px;
+  border-top: 1px solid var(--tb-line);
+  font-size: 11.5px;
+  color: var(--tb-ink-3);
+  flex: none;
+}
+
+.tb-srch__hint b {
+  display: inline-block;
+  min-width: 16px;
+  padding: 1px 4px;
+  margin: 0 1px;
+  border: 1px solid var(--tb-line);
+  border-radius: 4px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.tb-srch__panel mark {
+  padding: 0 1px;
+  border-radius: 3px;
+  background: var(--tb-accent-soft);
+  color: var(--tb-accent-ink);
+  font-weight: 600;
+}
+
+/* 当前行的标题本来就是品牌色，命中词再用白底会变成一块白牌；
+   行底已经是浅染，命中词就在它上面再深一档，1x 下也能一眼看到。 */
+.tb-srch__item.is-cur a mark {
+  background: rgba(184, 92, 56, 0.3);
+  color: var(--tb-accent-ink);
+}
+
+html.dark .tb-srch__item.is-cur a mark {
+  background: rgba(224, 137, 95, 0.34);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tb-srch__btn { transition: none; }
+}
+
+/* ---------- 搜索面板：窄屏改为全屏式 ---------- */
+@media (max-width: 719.9px) {
+  .tb-srch { margin-right: 0; }
+
+  .tb-srch__btn {
+    gap: 0;
+    height: 40px;
+    padding: 0 10px;
+  }
+
+  .tb-srch__btn-text,
+  .tb-srch__kbd { display: none; }
+
+  .tb-srch__mask {
+    align-items: stretch;
+    padding: 0;
+    background: var(--tb-surface);
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+
+  .tb-srch__panel {
+    max-width: none;
+    max-height: none;
+    height: 100vh;
+    height: 100dvh;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .tb-srch__field {
+    height: calc(58px + env(safe-area-inset-top, 0px));
+    padding: env(safe-area-inset-top, 0px) 10px 0 14px;
+    flex: none;
+  }
+
+  .tb-srch__field input { font-size: 16px; }
+
+  .tb-srch__x {
+    display: block;
+    flex: none;
+    width: auto;
+    height: 42px;
+    margin-left: 2px;
+    padding: 0 4px 0 8px;
+    border: 0;
+    border-radius: 8px;
+    background: transparent;
+    color: var(--tb-accent-ink);
+    font: inherit;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  .tb-srch__x-i { display: none; }
+  .tb-srch__x-t { display: inline; }
+  .tb-srch__x:active { opacity: 0.6; }
+
+  /* 触屏下没有键盘导航，去掉首条预高亮（连同桌面那条左侧强调条一并收掉） */
+  .tb-srch__item.is-cur a {
+    background: transparent;
+    border-left: 0;
+    padding-left: 10px;
+  }
+  .tb-srch__item.is-cur .tb-srch__ttl { color: var(--tb-ink); }
+  .tb-srch__item.is-cur .tb-srch__tag { background: var(--tb-sink); }
+  .tb-srch__item.is-cur a mark { background: var(--tb-accent-soft); }
+
+  .tb-srch__clear { width: 32px; height: 32px; }
+
+  .tb-srch__count { padding: 12px 16px 6px; font-size: 12.5px; }
+
+  .tb-srch__list {
+    padding: 4px 8px calc(20px + env(safe-area-inset-bottom, 0px));
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .tb-srch__item a {
+    gap: 5px 8px;
+    padding: 12px 10px;
+    min-height: 44px;
+  }
+
+  .tb-srch__item + .tb-srch__item a { border-top: 1px solid var(--tb-line); border-radius: 0; }
+
+  .tb-srch__ttl { font-size: 15.5px; line-height: 1.45; }
+
+  .tb-srch__ctx,
+  .tb-srch__ctx2 { font-size: 12.5px; }
+
+  .tb-srch__hint { display: none; }
+
+  .tb-srch__guide { padding: 14px 16px calc(20px + env(safe-area-inset-bottom, 0px)); }
+}
+
+@media (max-width: 429.9px) {
+  .tb-srch__field { padding-left: 12px; }
+  .tb-srch__ttl { font-size: 15px; }
+}
+
+/* ---------- 导航栏：搜索按钮移到菜单之后、主题开关之前 ---------- */
+.VPNavBar .content-body .VPNavBarTranslations { order: 11; }
+.VPNavBar .content-body .VPNavBarMenu { order: 10; }
+.VPNavBar .content-body .tb-srch { order: 20; }
+.VPNavBar .content-body .VPNavBarAppearance { order: 30; }
+.VPNavBar .content-body .VPNavBarSocialLinks { order: 40; }
+.VPNavBar .content-body .VPNavBarExtra { order: 50; }
+.VPNavBar .content-body .VPNavBarHamburger { order: 60; }
+
+/* ---------- 侧栏：长中文标题的可扫读性 ---------- */
+
+.VPSidebar .nav .text,
+.VPSidebarItem .text {
+  line-height: 20px;
+}
+
+.VPSidebarItem.is-link > .item > .link,
+.VPSidebarItem.level-0 > .item {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* 一级课时：换行后缩进，首行凸出，方便沿着条目扫读 */
+.VPSidebarItem.level-1.is-link > .item > .link > .text,
+.VPSidebarItem.level-2.is-link > .item > .link > .text {
+  padding-left: 11px;
+  text-indent: -11px;
+}
+
+/* 非当前项降一档对比度，当前项加左侧强调线 */
+.VPSidebarItem.level-1.is-link:not(.is-active) > .item > .link > .text,
+.VPSidebarItem.level-2.is-link:not(.is-active) > .item > .link > .text {
+  color: var(--tb-ink-2);
+}
+
+.VPSidebarItem.level-1.is-link.is-active > .item > .indicator,
+.VPSidebarItem.level-2.is-link.is-active > .item > .indicator {
+  width: 2px;
+  border-radius: 2px;
+  background: var(--tb-accent);
+}
+
+.VPSidebarItem.level-1.is-link.is-active > .item > .link > .text,
+.VPSidebarItem.level-2.is-link.is-active > .item > .link > .text {
+  color: var(--tb-accent-ink);
+  font-weight: 600;
+}
+
+/* 课程名在长列表里吸顶 */
+@media (min-width: 960px) {
+  .VPSidebarItem.level-0 > .item {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background: var(--vp-sidebar-bg-color, var(--tb-paper));
+  }
+}
+
+@media (min-width: 1400px) {
+  :root { --tb-side-w: 288px; }
+}
+
+/* ---------- 侧栏分组标题：做成「标签」而不是链接 ---------- */
+
+.VPSidebarItem.level-0 > .item > .text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  padding-bottom: 7px;
+  border-bottom: 1px solid var(--tb-line);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0.01em;
+  color: var(--tb-ink-3);
+}
+
+.VPSidebarItem.level-0 > .item {
+  margin-bottom: 4px;
+}
+
+/* 分组标题吸顶时补一层底，避免文字与下方条目叠在一起 */
+@media (min-width: 960px) {
+  .VPSidebarItem.level-0 > .item {
+    padding-top: 8px;
+    background: var(--vp-sidebar-bg-color, var(--tb-paper));
+  }
+}
+
+/* ---------- 中文释义开关：关＝中性，开＝实心品牌色 ---------- */
+
+.tb-sourcebar .tb-zh-btn {
+  background: var(--tb-surface);
+  border-color: var(--tb-line);
+  color: var(--tb-ink-2);
+}
+
+.tb-sourcebar .tb-zh-btn:hover {
+  border-color: var(--tb-accent);
+  color: var(--tb-accent-ink);
+}
+
+.tb-sourcebar .tb-zh-btn[aria-pressed='true'],
+.tb-sourcebar .tb-zh-btn[aria-pressed='true']:hover {
+  background: var(--tb-accent);
+  border-color: var(--tb-accent);
+  color: var(--tb-surface);
+}
+
+/* ---------- 窄屏表格：首列吸附 + 宽表转卡片 ---------- */
+
+@media (max-width: 959.9px) {
+  /* 还能横滑的表：首列钉住，滚到右边也知道自己在哪一行 */
+  html .vp-doc table:not(.tb-card) td:first-child,
+  html .vp-doc table:not(.tb-card) th:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+  }
+
+  html .vp-doc table:not(.tb-card) td:first-child { background: var(--tb-surface); }
+  html .vp-doc table:not(.tb-card) th:first-child { background: var(--tb-sink); }
+}
+
+@media (max-width: 719.9px) {
+  /* 超过三列且会溢出的表，整张改成一条条卡片 */
+  html .vp-doc table.tb-card {
+    display: block;
+    width: 100%;
+    min-width: 0;
+    border: 0;
+    background: none;
+    font-size: 13px;
+  }
+
+  html .vp-doc table.tb-card thead,
+  html .vp-doc table.tb-card colgroup { display: none; }
+
+  html .vp-doc table.tb-card tbody { display: block; }
+
+  html .vp-doc table.tb-card tr {
+    display: block;
+    margin: 0 0 10px;
+    padding: 2px 0 5px;
+    border: 1px solid var(--tb-line);
+    border-radius: 10px;
+    background: var(--tb-surface);
+  }
+
+  html .vp-doc table.tb-card tr:last-child { margin-bottom: 0; }
+
+  /* 标签绝对定位，右边内容仍是普通行内流：
+     单元格里既有文字又有链接时不会被拆成两栏。 */
+  html .vp-doc table.tb-card td {
+    display: block;
+    position: relative;
+    width: auto;
+    min-width: 0;
+    padding: 5px 13px 5px 5.4em;
+    border: 0;
+    background: none !important;
+  }
+
+  html .vp-doc table.tb-card td[data-th-skip] { display: none; }
+
+  html .vp-doc table.tb-card td[data-th]::before {
+    content: attr(data-th);
+    position: absolute;
+    left: 13px;
+    top: 5px;
+    width: 4.4em;
+    font-size: 12px;
+    line-height: 1.7;
+    font-weight: 400;
+    color: var(--tb-ink-3);
+  }
+
+  /* 标签本身就长（例如「类型 · 许可 · 语言」）时改为占一行 */
+  html .vp-doc table.tb-card td[data-th-long] { padding-left: 13px; }
+
+  html .vp-doc table.tb-card td[data-th-long]::before {
+    position: static;
+    display: block;
+    width: auto;
+    margin-bottom: 1px;
+  }
+
+  /* 没有标签的那一格是这张卡片的标题 */
+  html .vp-doc table.tb-card td:not([data-th]):not([data-th-skip]) {
+    padding: 9px 13px 8px;
+    margin-bottom: 2px;
+    border-bottom: 1px solid var(--tb-line);
+    font-size: 13.5px;
+    font-weight: 600;
+    line-height: 1.55;
+  }
+
+  html .vp-doc table.tb-card td:not([data-th]):not([data-th-skip]) a { white-space: normal; }
+
+  /* 卡片里的外链（原文、仓库）多半只有一个箭头，把可点面积撑起来 */
+  html .vp-doc table.tb-card td[data-th] a {
+    display: inline-block;
+    padding: 6px 3px;
+    margin: -6px 0;
+  }
+}
+
+/* ---------- 索引表里的外链图标 ----------
+   生成器已经把这类链接写成「打开 ↗ / 原文 ↗ / 仓库 ↗」，
+   VitePress 再补一个外链图标就成了两个箭头并排，还白占列宽。
+   课程正文里的链接保留图标——那里的箭头才是有用的提示。 */
+
+.VPDoc:not(:has(.tb-crumb)) .vp-doc table a[target='_blank']::after,
+.VPDoc:not(:has(.tb-crumb)) .vp-doc table a[href^='http']::after {
+  display: none !important;
+}
+
+/* ---------- 链接文字里已有箭头时不再补外链图标 ----------
+   生成器把索引表写成「打开 ↗ / 原文 ↗」，卡片里也是「原文 ↗」。
+   VitePress 的箭头是用 mask-image 画的，只靠 :has() 挑表格会漏掉组件里的链接，
+   所以由脚本统一打标记，这里只负责隐藏。 */
+
+.vp-doc a.tb-x-text::after { display: none !important; }
+
+/* ---------- 长表格就地筛选 ----------
+   来源总表一百四十多行，一屏只看得到十条，找一条要翻十屏。
+   行数多的表加一个筛选框，就地过滤，正文一个字不改。 */
+
+.tb-filter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 16px 0 10px;
+}
+
+.tb-filter__field {
+  /* 原来是 flex:1 1 auto，会一路拉满整个内容栏，看着像一条空长条；
+     固定成一个工具条控件的宽度，计数与「清除」自然跟在右边。 */
+  flex: 0 1 360px;
+  min-width: 200px;
+  display: flex;
+  align-items: center;
+  height: 38px;
+  padding: 0 12px;
+  border: 1px solid var(--tb-line-2);
+  border-radius: 9px;
+  background: var(--tb-surface);
+  transition: border-color .15s ease, box-shadow .15s ease;
+}
+
+.tb-filter__field:focus-within {
+  border-color: var(--tb-accent);
+  box-shadow: 0 0 0 3px var(--tb-accent-soft);
+}
+
+.tb-filter__icon { flex: 0 0 auto; display: flex; color: var(--tb-ink-3); }
+
+.tb-filter__input {
+  flex: 1 1 auto;
+  min-width: 0;
+  height: 100%;
+  padding: 0 8px;
+  border: 0;
+  outline: 0;
+  background: none;
+  color: var(--tb-ink);
+  font-family: inherit;
+  font-size: 13.5px;
+}
+
+.tb-filter__input::placeholder { color: var(--tb-ink-3); }
+.tb-filter__input::-webkit-search-cancel-button { display: none; }
+
+.tb-filter__count {
+  flex: 0 0 auto;
+  color: var(--tb-ink-3);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.tb-filter__clear {
+  flex: 0 0 auto;
+  height: 30px;
+  padding: 0 11px;
+  border: 1px solid var(--tb-line-2);
+  border-radius: 8px;
+  background: var(--tb-surface);
+  color: var(--tb-ink-2);
+  font: inherit;
+  font-size: 12.5px;
+  cursor: pointer;
+}
+
+.tb-filter__clear:hover { border-color: var(--tb-accent); color: var(--tb-accent-ink); }
+
+/* 卡片式表格里的行是 display:block，会盖掉 [hidden]，这里补回来 */
+.vp-doc tr[hidden] { display: none !important; }
+
+@media (max-width: 719.9px) {
+  .tb-filter { gap: 8px; margin: 13px 0 9px; }
+  .tb-filter__field { height: 42px; }
+  .tb-filter__input { font-size: 16px; }
+  .tb-filter__clear { height: 34px; padding: 0 10px; }
+}
+
+/* 来源总表这类五列表，压在 47rem 的阅读栏里会挤成三行。
+   只对带筛选器的表格页放宽内容栏，长文页仍是 47rem。 */
+/* VitePress 自己的规则是 .VPDoc.has-aside .content-container[data-v-xxx]，
+   权重 0-4-0，比这里的 .VPDoc .content-container（0-3-0）重，
+   所以只写一条简单选择器会被它压掉。要放宽宽度必须写到同等权重。 */
+@media (min-width: 1200px) {
+  html .VPDoc:has(.tb-filter) .content-container,
+  html .VPDoc.has-aside:has(.tb-filter) .content-container { max-width: 56rem; }
+}
+
+/* ---------- 课程入口页：课时清单 ----------
+   每门课的落地页就是「标题 + 一段简介 + 课时清单 + 开始学习」。
+   默认的 ol 只是一串橙色链接，看不出这门课有多少节、读到哪一节。
+   这里把清单排成章节目录：等宽编号、分隔线、悬停指示。 */
+
+html.tb-landing .vp-doc ol {
+  counter-reset: tb-lesson;
+  margin: 20px 0 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid var(--tb-line);
+}
+
+html.tb-landing .vp-doc ol > li {
+  position: relative;
+  counter-increment: tb-lesson;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid var(--tb-line);
+}
+
+html.tb-landing .vp-doc ol > li::marker { content: none; }
+
+html.tb-landing .vp-doc ol > li > a {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  padding: 11px 30px 11px 2px;
+  color: var(--tb-ink);
+  font-weight: 400;
+  line-height: 1.6;
+  transition: color .15s ease;
+}
+
+html.tb-landing .vp-doc ol > li > a::before {
+  content: counter(tb-lesson, decimal-leading-zero);
+  flex: 0 0 auto;
+  width: 2.2em;
+  color: var(--tb-ink-3);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: .04em;
+  transition: color .15s ease;
+}
+
+html.tb-landing .vp-doc ol > li > a::after {
+  content: "\2192";
+  position: absolute;
+  right: 6px;
+  top: 50%;
+  margin-top: -0.72em;
+  color: var(--tb-accent);
+  font-size: 14px;
+  line-height: 1.4;
+  opacity: 0;
+  transform: translateX(-3px);
+  transition: opacity .16s ease, transform .16s ease;
+}
+
+html.tb-landing .vp-doc ol > li > a:hover { color: var(--tb-accent-ink); }
+html.tb-landing .vp-doc ol > li > a:hover::before { color: var(--tb-accent); }
+html.tb-landing .vp-doc ol > li > a:hover::after { opacity: 1; transform: translateX(0); }
+
+html.tb-landing .vp-doc ol > li > a:focus-visible {
+  outline: 2px solid var(--tb-accent);
+  outline-offset: -2px;
+  border-radius: 4px;
+}
+
+/* ---------- 404 ----------
+   VitePress 自带的 404 是英文（PAGE NOT FOUND + 一句英文名言），
+   对中文读者没有帮助。这里换成四个能接着走的入口。 */
+
+.tb-nf {
+  max-width: 34rem;
+  margin: 0 auto;
+  padding: 5rem 24px 6rem;
+  text-align: center;
+}
+
+.tb-nf__code {
+  margin: 0;
+  color: var(--tb-line-2);
+  font-size: 84px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  font-variant-numeric: tabular-nums;
+}
+
+.tb-nf__title {
+  margin: 14px 0 0;
+  border: 0;
+  padding: 0;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--tb-ink);
+}
+
+.tb-nf__text {
+  margin: 10px 0 0;
+  color: var(--tb-ink-2);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.tb-nf__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 28px;
+  text-align: left;
+}
+
+.tb-nf__card {
+  display: block;
+  padding: 13px 15px;
+  border: 1px solid var(--tb-line);
+  border-radius: 10px;
+  background: var(--tb-surface);
+  text-decoration: none;
+  transition: border-color .15s ease, transform .15s ease, box-shadow .15s ease;
+}
+
+.tb-nf__card:hover {
+  border-color: var(--tb-accent);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, .05);
+}
+
+.tb-nf__card-t {
+  display: block;
+  color: var(--tb-accent-ink);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.tb-nf__card-d {
+  display: block;
+  margin-top: 3px;
+  color: var(--tb-ink-3);
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.tb-nf__hint {
+  margin: 26px 0 0;
+  color: var(--tb-ink-3);
+  font-size: 12.5px;
+}
+
+@media (max-width: 559.9px) {
+  .tb-nf { padding: 3.2rem 18px 4rem; }
+  .tb-nf__code { font-size: 64px; }
+  .tb-nf__grid { grid-template-columns: minmax(0, 1fr); }
 }

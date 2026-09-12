@@ -93,7 +93,7 @@ _隐藏在日志文件中的提示注入_
 
 ## 零边界：今天的默认设置
 
-![所有内容都在一个安全上下文中](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/05-security-compliance/security-boundaries-in-agentic-architectures/01.png)
+![所有内容都在一个安全上下文中](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/05-security-compliance/security-boundaries-in-agentic-architectures/01.png)
 
 _所有内容都在一个安全上下文中_
 
@@ -103,7 +103,7 @@ _所有内容都在一个安全上下文中_
 
 ## 无沙箱的密钥注入
 
-![除密钥外，所有内容都在一个安全上下文中](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/05-security-compliance/security-boundaries-in-agentic-architectures/02.png)
+![除密钥外，所有内容都在一个安全上下文中](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/05-security-compliance/security-boundaries-in-agentic-architectures/02.png)
 
 _除密钥外，所有内容都在一个安全上下文中_
 
@@ -121,7 +121,7 @@ _除密钥外，所有内容都在一个安全上下文中_
 
 ## 分离智能体计算和沙箱计算
 
-![智能体和生成的代码在独立的安全上下文中。生成的代码根本无法访问密钥。](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/05-security-compliance/security-boundaries-in-agentic-architectures/03.png)
+![智能体和生成的代码在独立的安全上下文中。生成的代码根本无法访问密钥。](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/05-security-compliance/security-boundaries-in-agentic-architectures/03.png)
 
 _智能体和生成的代码在独立的安全上下文中。生成的代码根本无法访问密钥。_
 
@@ -139,7 +139,7 @@ _智能体和生成的代码在独立的安全上下文中。生成的代码根�
 
 ## 带密钥注入的应用沙箱
 
-![独立的安全上下文与密钥注入。生成的代码可以在运行时通过代理使用凭证，但无法泄露它们。](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/05-security-compliance/security-boundaries-in-agentic-architectures/04.png)
+![独立的安全上下文与密钥注入。生成的代码可以在运行时通过代理使用凭证，但无法泄露它们。](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/05-security-compliance/security-boundaries-in-agentic-architectures/04.png)
 
 _独立的安全上下文与密钥注入。生成的代码可以在运行时通过代理使用凭证，但无法泄露它们。_
 

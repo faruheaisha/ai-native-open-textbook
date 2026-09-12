@@ -28,5 +28,8 @@ scripts/tmp/
 Thumbs.db
 *.log
 
-# 误下载的杂项文件
+# 误下载的杂项文件与临时截图
 Proxy
+*.png
+!site/docs/public/**/*.png
+!docs/**/*.png

@@ -24,7 +24,7 @@ zh: ""
 
 Electron 官网有一个很大的 [Showcase](https://www.electronjs.org/apps)，收录了数百个已经发布的产品。里面既有 Asana、Notion 和 Microsoft Teams 这类协作工具，也有 Figma、Visual Studio Code、GitHub Desktop、Postman 和 Docker Desktop 这类设计与开发工具。
 
-![Electron 官网展示的真实生产应用](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/electron-voice-to-text/images/electron-official-showcase.jpg)
+![Electron 官网展示的真实生产应用](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/electron-voice-to-text/images/electron-official-showcase.jpg)
 
 图片来源：[Electron Showcase](https://www.electronjs.org/apps)。这张图里的 Asana、Discord 和 Figma 只是第一页的一小部分。
 
@@ -50,7 +50,7 @@ Electron 官方在“[为什么选择 Electron](https://www.electronjs.org/docs/
 
 用户录一段现场说明，应用生成文字，再整理成问题、处理过程、风险和后续动作。企业里类似的软件会用在维修工单、保险查勘、物业巡检、客户拜访和护理记录中。
 
-![Field Voice Log 将现场语音整理成业务记录](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/electron-voice-to-text/images/electron-field-voice-log.jpg)
+![Field Voice Log 将现场语音整理成业务记录](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/electron-voice-to-text/images/electron-field-voice-log.jpg)
 
 开发从演示文本和桌面界面开始，接着连接麦克风与识别服务，最后制作安装包。共享密钥不会写进桌面客户端。
 
@@ -58,13 +58,13 @@ Electron 官方在“[为什么选择 Electron](https://www.electronjs.org/docs/
 
 Electron 把网页界面和桌面系统能力放在同一个应用中，但两者不能随便混在一起。
 
-![Electron 由 Chromium 界面和 Node.js 系统能力组成](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/electron-voice-to-text/images/image1.png)
+![Electron 由 Chromium 界面和 Node.js 系统能力组成](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/electron-voice-to-text/images/image1.png)
 
 - Main Process 管理窗口、文件和应用生命周期；
 - Renderer Process 显示页面，不直接开放 Node.js；
 - Preload 只暴露页面真正需要的少量能力。
 
-![Main、Preload 和 Renderer 之间通过 IPC 通信](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/electron-voice-to-text/images/image2.png)
+![Main、Preload 和 Renderer 之间通过 IPC 通信](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/electron-voice-to-text/images/image2.png)
 
 录音按钮在页面里，保存临时文件和调用本地模型放在主进程里，中间通过 Preload 传递有限的数据。
 
@@ -76,7 +76,7 @@ Electron 把网页界面和桌面系统能力放在同一个应用中，但两�
 
 依赖安装完成后运行项目。看到 Electron 默认窗口，并且终端没有红色错误，说明基础环境正常。
 
-![Electron Forge 项目第一次启动](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/electron-voice-to-text/images/image4.png)
+![Electron Forge 项目第一次启动](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/electron-voice-to-text/images/image4.png)
 
 如果启动失败：
 
@@ -88,7 +88,7 @@ Electron 把网页界面和桌面系统能力放在同一个应用中，但两�
 
 这一轮只看布局。窗口缩窄以后，按钮和文字不能重叠；空白状态要告诉用户下一步做什么。
 
-![语音记录工具的首页布局](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/electron-voice-to-text/images/image3.png)
+![语音记录工具的首页布局](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/electron-voice-to-text/images/image3.png)
 
 如果界面太复杂：
 
@@ -100,7 +100,7 @@ Electron 把网页界面和桌面系统能力放在同一个应用中，但两�
 
 > 请给录音按钮接入麦克风。开始后显示时长和录音状态，停止后把音频交给 Preload，不要在 Renderer 开启 Node 集成。
 
-![录音中状态和实时计时](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/electron-voice-to-text/images/image6.png)
+![录音中状态和实时计时](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/electron-voice-to-text/images/image6.png)
 
 第一次点击时，系统会询问麦克风权限。拒绝后应用应显示“没有麦克风权限”，不能一直停在加载中。
 
@@ -121,7 +121,7 @@ Electron 把网页界面和桌面系统能力放在同一个应用中，但两�
 
 > 请增加演示识别模式。主进程收到音频后返回一段固定的现场记录，让我先验证 IPC、加载状态和报告页面。
 
-![IPC 把音频请求交给主进程，再把结果返回页面](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/electron-voice-to-text/images/image5.png)
+![IPC 把音频请求交给主进程，再把结果返回页面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/electron-voice-to-text/images/image5.png)
 
 成功时，停止录音后先显示“处理中”，随后出现演示文字；快速开始第二次录音时，第一次结果不能覆盖新任务。
 
@@ -135,7 +135,7 @@ Electron 把网页界面和桌面系统能力放在同一个应用中，但两�
 
 > 请把演示识别替换为本地 whisper.cpp。录音先转成 16 kHz、单声道 PCM WAV，再交给模型；失败时保留原音频和错误提示。
 
-![本地模型在离线状态下返回文字](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/electron-voice-to-text/images/image9.png)
+![本地模型在离线状态下返回文字](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/electron-voice-to-text/images/image9.png)
 
 先用小模型验证流程，再根据电脑性能选择更大的模型。模型大小、速度和硬件加速会随绑定库变化，不要把某个速度写成固定承诺。
 
@@ -147,7 +147,7 @@ Electron 把网页界面和桌面系统能力放在同一个应用中，但两�
 
 > 请把音频发送到企业后端完成转写。客户端不保存模型密钥，要有上传进度、取消、超时和重试。
 
-![云端识别完成后显示原始文字](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/electron-voice-to-text/images/image7.png)
+![云端识别完成后显示原始文字](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/electron-voice-to-text/images/image7.png)
 
 不要把 API Key 放在 Renderer、`localStorage`、配置页或打包产物里。即使放在主进程，桌面安装包仍然能被用户读取；组织共享密钥必须留在服务器。
 
@@ -161,7 +161,7 @@ Electron 把网页界面和桌面系统能力放在同一个应用中，但两�
 
 设置页只保存语言、识别方式和下载目录等非敏感选项。
 
-![设置页切换识别方式和语言](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/electron-voice-to-text/images/image8.png)
+![设置页切换识别方式和语言](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/electron-voice-to-text/images/image8.png)
 
 ## 8. 调试时看三个地方
 
@@ -196,7 +196,7 @@ npm run make
 
 Forge 只会生成已经配置、并且当前操作系统支持的格式。一次命令不会自动在任意电脑上同时生成所有平台安装包。
 
-![Electron Forge 的安装包输出目录](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/electron-voice-to-text/images/image10.png)
+![Electron Forge 的安装包输出目录](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/electron-voice-to-text/images/image10.png)
 
 拿生成物到一台没有 Node.js、没有项目源码的干净电脑测试：
 

@@ -47,7 +47,7 @@ The harness has to answer a connected set of questions:
 
 ## The Solution
 
-![Agent Teams Overview](https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s13_agent_teams/images/agent-teams-overview.en.svg)
+![Agent Teams Overview](https://gh-proxy.com/https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s13_agent_teams/images/agent-teams-overview.en.svg)
 
 s13 reuses s10's base tools, hooks, permission checks, and Task System, then adds a Lead-managed team runtime:
 
@@ -319,7 +319,7 @@ Task completion also stays separate from worktree cleanup. `complete_task` recor
 
 Free-form text works for ordinary collaboration, but shutdown and approval should not depend on guessing intent. They use structured messages:
 
-![Team Protocols](https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s13_agent_teams/images/team-protocols-overview.en.svg)
+![Team Protocols](https://gh-proxy.com/https://raw.githubusercontent.com/shareAI-lab/learn-claude-code/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s13_agent_teams/images/team-protocols-overview.en.svg)
 
 ```python
 @dataclass

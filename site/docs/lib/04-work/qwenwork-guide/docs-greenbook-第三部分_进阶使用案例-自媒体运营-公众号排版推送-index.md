@@ -49,14 +49,14 @@ md2wechat 是 千问办公 的一个内置技能（skill），负责把 Markdown
 操作步骤：
 1. 打开微信开发者平台（developers.weixin.qq.com），用管理员微信扫码登录。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第三部分 进阶使用案例/自媒体运营-公众号排版推送/assets/001_0f151961-938a-4323-899f-28dad87a1ef8.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第三部分 进阶使用案例/自媒体运营-公众号排版推送/assets/001_0f151961-938a-4323-899f-28dad87a1ef8.jpg)
 
 微信开发者平台首页
 2. 进入「公众号」→「基础信息」页面。
 3. 页面上会显示你的 AppID（一串字母数字组合），直接复制。
 4. 往下找到「开发密钥」一栏，点 AppSecret 旁边的「重置」按钮，管理员微信扫码确认后，会显示一串密钥。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第三部分 进阶使用案例/自媒体运营-公众号排版推送/assets/002_39fa4859-72a0-44de-b808-118140276eb2.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第三部分 进阶使用案例/自媒体运营-公众号排版推送/assets/002_39fa4859-72a0-44de-b808-118140276eb2.jpg)
 
 基础信息页 - AppID 与开发密钥位置
 
@@ -74,7 +74,7 @@ md2wechat 是 千问办公 的一个内置技能（skill），负责把 Markdown
 怎么加：
 1. 打开浏览器，百度搜索"ip"，页面顶部会显示你的本机出口 IP（类似 140.205.11.23 这种格式）。
 
-![](https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第三部分 进阶使用案例/自媒体运营-公众号排版推送/assets/003_88ecff4c-e403-4f43-b809-11300a571cf0.jpg)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第三部分 进阶使用案例/自媒体运营-公众号排版推送/assets/003_88ecff4c-e403-4f43-b809-11300a571cf0.jpg)
 
 百度搜索 ip - 查看本机出口 IP
 2. 回到微信开发者平台，「基础信息」页面往下找到「API IP 白名单」，点修改。

@@ -22,11 +22,11 @@ zh: ""
 
 打开 Claude，输入 `/plugin` 打开插件商店。
 
-![image-20260203183832193](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260203183832193.png)
+![image-20260203183832193](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203183832193.png)
 
 通过键盘上下按键切换来安装插件，按空格选中，按 `i` 安装。部分插件安装时会弹出的浏览器页面进行登陆，按照提示操作即可。
 
-![image-20260203184020360](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260203184020360.png)
+![image-20260203184020360](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203184020360.png)
 
 ### 推荐插件
 
@@ -76,7 +76,7 @@ brew install --cask cc-switch
 
 | 主界面                                                       | 添加供应商                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [![主界面](https://github.com/farion1231/cc-switch/raw/main/assets/screenshots/main-zh.png)](https://github.com/farion1231/cc-switch/blob/main/assets/screenshots/main-zh.png) | [![添加供应商](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/add-zh.png)](https://github.com/farion1231/cc-switch/blob/main/assets/screenshots/add-zh.png) |
+| [![主界面](https://github.com/farion1231/cc-switch/raw/main/assets/screenshots/main-zh.png)](https://github.com/farion1231/cc-switch/blob/main/assets/screenshots/main-zh.png) | [![添加供应商](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/add-zh.png)](https://github.com/farion1231/cc-switch/blob/main/assets/screenshots/add-zh.png) |
 
 ### 切换供应商
 
@@ -91,13 +91,13 @@ brew install --cask cc-switch
 
 点击右上角"MCP"按钮进入 MCP 管理界面，可以点击 导入已有 按钮导入，可以看到通过插件安装的MCP：
 
-![image-20260203185306838](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260203185306838.png)
+![image-20260203185306838](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203185306838.png)
 
 如果你没有安装context7插件，在这里点击右上角可以添加context7的mcp服务器。
 
 > 安装后，在对话时输入usecontext7，AI就会去调用context7插件查找官方文档，增加写出来代码的准确性。
 
-![image-20260203184852968](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260203184852968.png)
+![image-20260203184852968](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260203184852968.png)
 
 ## 5. Skills 管理
 

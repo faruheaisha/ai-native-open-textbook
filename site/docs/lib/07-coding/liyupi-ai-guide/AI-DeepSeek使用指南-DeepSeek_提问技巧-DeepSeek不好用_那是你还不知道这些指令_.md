@@ -12,6 +12,8 @@ entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a0
 zh: ""
 ---
 
+# 鱼皮 AI 导航（ai-guide）
+
 ## DeepSeek不好用？那是你还不知道这些指令！
 
 今天给大家整理的这35个实用提示词指令，让你的DeepSeek也能立刻变得好用起来，一起来看看吧！ 

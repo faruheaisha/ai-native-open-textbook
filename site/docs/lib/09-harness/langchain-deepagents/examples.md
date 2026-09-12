@@ -12,8 +12,10 @@ entryUrl: "https://github.com/langchain-ai/deepagents/blob/d93ab3351bbf4c3687212
 zh: ""
 ---
 
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/langchain-ai/deepagents/d93ab3351bbf4c3687212f665094ccad100f2c08/.github/images/logo-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/langchain-ai/deepagents/d93ab3351bbf4c3687212f665094ccad100f2c08/.github/images/logo-light.svg">
+# LangChain DeepAgents
+
+<source media="(prefers-color-scheme: dark)" srcset="https://gh-proxy.com/https://raw.githubusercontent.com/langchain-ai/deepagents/d93ab3351bbf4c3687212f665094ccad100f2c08/.github/images/logo-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://gh-proxy.com/https://raw.githubusercontent.com/langchain-ai/deepagents/d93ab3351bbf4c3687212f665094ccad100f2c08/.github/images/logo-light.svg">
 
 <h3 align="center">Examples</h3>
 

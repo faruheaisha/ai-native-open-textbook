@@ -35,7 +35,7 @@ Vibe Coding 正在快速改变软件的生产方式。本文整理自 Vercel 发
 
 现在，像 v0、Lovable、[Replit](https://v0.app/docs/compare/v0-vs-replit) 这样的 Vibe Coding 工具，又把这条路径往前推进了一步，进入“所说即所得”的阶段：你描述需求，系统直接生成应用、网站或工作流。门槛被进一步压低，团队协作方式、项目分工方式，以及个人独立完成工作的边界，都在随之变化。
 
-![从 No-code 到 Vibe Code 的演进](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/2025-02/vibe-coding-no-code-to-vibe-code.png)
+![从 No-code 到 Vibe Code 的演进](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/2025-02/vibe-coding-no-code-to-vibe-code.png)
 
 ## Vibe Coding 的核心优势
 
@@ -53,9 +53,9 @@ Vibe Coding 正在重新定义“谁能编程”以及“编程意味着什么�
 
 这种可及性的提升会带来新的机会，但也带来了新的要求：当越来越多用户可以直接构建软件时，平台必须把更多安全与约束机制前置进去，而不能默认每个人都具备完整的工程背景。
 
-![Vibe Coding 面向所有人](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/2025-02/vibe-coding-for-everyone.png)
+![Vibe Coding 面向所有人](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/2025-02/vibe-coding-for-everyone.png)
 
-![谁是 Vibe Coder](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/2025-02/who-are-vibe-coders.png)
+![谁是 Vibe Coder](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/2025-02/who-are-vibe-coders.png)
 
 ## 构建 Vibe Coding 的护栏
 
@@ -67,7 +67,7 @@ Vibe Coding 正在重新定义“谁能编程”以及“编程意味着什么�
 
 最成功的 Vibe Coding 平台，很可能会是那些把安全能力直接做进界面和默认流程的平台。
 
-![Vibe Coding 安全性](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/2025-02/vibe-coding-security.png)
+![Vibe Coding 安全性](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/2025-02/vibe-coding-security.png)
 
 ## Vibe Coding 的未来
 

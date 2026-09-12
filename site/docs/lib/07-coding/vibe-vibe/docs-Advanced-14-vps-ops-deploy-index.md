@@ -14,7 +14,7 @@ zh: ""
 
 # 第十四章：云服务器运维与项目部署
 
-![img](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/mll08oqx-9a52a9d3a1e83c5d.jpg)
+![img](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/mll08oqx-9a52a9d3a1e83c5d.jpg)
 
 ## 序言
 

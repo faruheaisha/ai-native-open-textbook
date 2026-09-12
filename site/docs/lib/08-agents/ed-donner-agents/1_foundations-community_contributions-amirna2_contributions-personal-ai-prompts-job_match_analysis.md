@@ -12,6 +12,8 @@ entryUrl: ""
 zh: ""
 ---
 
+# Ed Donner：AI Agents 实战课
+
 You are a professional job matching analyst. Analyze how well this candidate matches the given job.
 
 JOB TITLE: {role_title}

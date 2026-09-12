@@ -36,7 +36,7 @@ EdgeOne Pages 是腾讯云的边缘部署平台，国内访问速度快，对 Ne
 
 打开 [EdgeOne Pages 控制台](https://console.cloud.tencent.com/edgeone/pages)，用微信扫码或腾讯云账号登录。如果是第一次使用腾讯云，需要完成实名认证。
 
-![image-20260227003947136](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260227003947136.png)
+![image-20260227003947136](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260227003947136.png)
 
 点击 **导入 Git** 仓库，选择 **连接 GitHub**。
 
@@ -48,13 +48,13 @@ EdgeOne Pages 是腾讯云的边缘部署平台，国内访问速度快，对 Ne
 
 当然，点击直接上传也是可以的，平台会通常会自动识别项目架构。
 
-![image-20260227005154181](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260227005154181.png)
+![image-20260227005154181](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260227005154181.png)
 
 ## 配置构建设置
 
 这一步是告诉平台"怎么构建你的项目"。EdgeOne 会根据你选的框架自动填充推荐配置，但你需要理解每一项的含义，这样出问题时才知道去哪里改。
 
-![image-20260227005228223](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260227005228223.png)
+![image-20260227005228223](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260227005228223.png)
 
 **框架预设**选 Next.js。选了之后，平台会自动帮你填好构建命令和输出目录——就像你在手机上打开 .pdf 文件时系统自动用 PDF 阅读器打开一样，平台识别了你用 Next.js，就自动知道该怎么构建。
 
@@ -66,13 +66,13 @@ EdgeOne Pages 是腾讯云的边缘部署平台，国内访问速度快，对 Ne
 
 **Node 版本**——EdgeOne 通常默认是 Node 22，大多数 Next.js 项目直接用默认值就能构建通过。一般先不改，**只有当日志里出现 Node 版本不兼容报错时，再改成和你本地一致的版本**。
 
-![image-20260227005254177](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260227005254177.png)
+![image-20260227005254177](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260227005254177.png)
 
 ## 配置环境变量
 
 在构建设置页面下方，找到 **环境变量** 区域。
 
-还记得刚才说的吗？`.env` 文件没有上传到 GitHub，所以你需要在这里手动把变量填进来。EdgeOne Pages 支持**批量导入**——直接把 `.env` 文件的内容粘贴进去，平台会自动解析成键值对![image-20260227005320209](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260227005320209.png)。
+还记得刚才说的吗？`.env` 文件没有上传到 GitHub，所以你需要在这里手动把变量填进来。EdgeOne Pages 支持**批量导入**——直接把 `.env` 文件的内容粘贴进去，平台会自动解析成键值对![image-20260227005320209](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260227005320209.png)。
 
 小明的项目需要这几个变量：
 
@@ -92,7 +92,7 @@ BETTER_AUTH_URL="https://你的域名"      # 认证回调地址，先留空，�
 
 这是国内部署平台特有的一步，和 ICP 备案有关。
 
-![image-20260227005154181](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260227005154181.png)
+![image-20260227005154181](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260227005154181.png)
 
 简单来说：如果你选了包含"中国大陆"的加速区域，就需要 ICP 备案。你在很多国内网站底部都能看到一串"京ICP备xxxxxxxx号"之类的文字，那就是 ICP 备案号。国内法规要求，服务器在中国大陆的网站必须完成备案才能对外访问。个人也可以申请，但需要一到两周的审核时间。
 
@@ -102,7 +102,7 @@ BETTER_AUTH_URL="https://你的域名"      # 认证回调地址，先留空，�
 
 一切配置完毕后，正常情况下首次部署会直接成功。
 
-![image-20260302003046402](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260302003046402.png)
+![image-20260302003046402](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260302003046402.png)
 
 如果你也遇到红色的 **Failed**，再看这一小节就行。**构建日志是最重要的信息源——答案通常在最后几行。**
 
@@ -114,7 +114,7 @@ error engine "node" is incompatible with this module
 
 这表示 Node 版本不兼容。处理方式很简单：回到构建设置，把 Node 版本改成和项目要求一致，然后点击**重新部署**。
 
-![image-20260227005254177](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260227005254177.png)
+![image-20260227005254177](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260227005254177.png)
 
 重新部署后，通常就会顺利走到绿色的 **Success**。
 
@@ -122,7 +122,7 @@ error engine "node" is incompatible with this module
 
 构建成功后，平台生成了一个预览链接，格式类似 `xxx.edgeone.dev`。
 
-![image-20260302003255608](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260302003255608.png)
+![image-20260302003255608](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260302003255608.png)
 
 小明点开链接，看到了自己的"个人豆瓣"——和本地一模一样，但这次是在公网上。他把链接发给朋友，朋友秒开了页面，回了一句："终于能打开了！"
 

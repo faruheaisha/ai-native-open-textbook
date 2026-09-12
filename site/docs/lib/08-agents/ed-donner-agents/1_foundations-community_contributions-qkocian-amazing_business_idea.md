@@ -12,6 +12,8 @@ entryUrl: ""
 zh: ""
 ---
 
+# Ed Donner：AI Agents 实战课
+
 **Solution: AI‑Powered “Legal Ops Agent” Platform**
 
 **1. Core Offering**  

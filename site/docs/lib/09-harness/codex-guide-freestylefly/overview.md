@@ -12,6 +12,8 @@ entryUrl: "https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210
 zh: ""
 ---
 
+# Codex 实践指南（CodexGuide）
+
 <h3 align="center">面向全球初学者、创作者、开发者与团队的 Codex 实践指南</h3>
 
   

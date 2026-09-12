@@ -14,7 +14,7 @@ zh: ""
 
 # Building Generative AI-Powered Chat Applications
 
-[![Building Generative AI-Powered Chat Applications](https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/07-building-chat-applications/images/07-lesson-banner.png)](https://youtu.be/R9V0ZY1BEQo?si=IHuU-fS9YWT8s4sA)
+[![Building Generative AI-Powered Chat Applications](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/07-building-chat-applications/images/07-lesson-banner.png)](https://youtu.be/R9V0ZY1BEQo?si=IHuU-fS9YWT8s4sA)
 
 > _(Click the image above to view video of this lesson)_
 
@@ -102,11 +102,11 @@ General UX principles apply to chat applications, but here are some additional c
 
 One such example of personalization is the "Custom instructions" settings in OpenAI's ChatGPT. It allows you to provide information about yourself that may be important context for your prompts. Here's an example of a custom instruction.
 
-![Custom Instructions Settings in ChatGPT](https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/07-building-chat-applications/images/custom-instructions.png)
+![Custom Instructions Settings in ChatGPT](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/07-building-chat-applications/images/custom-instructions.png)
 
 This "profile" prompts ChatGPT to create a lesson plan on linked lists. Notice that ChatGPT takes into account that the user may want a more in depth lesson plan based on her experience.
 
-![A prompt in ChatGPT for a lesson plan about linked lists](https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/07-building-chat-applications/images/lesson-plan-prompt.png)
+![A prompt in ChatGPT for a lesson plan about linked lists](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/07-building-chat-applications/images/lesson-plan-prompt.png)
 
 ### Microsoft's System Message Framework for Large Language Models
 

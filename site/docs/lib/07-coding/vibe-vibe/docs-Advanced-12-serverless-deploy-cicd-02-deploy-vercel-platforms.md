@@ -44,18 +44,18 @@ Vercel 是 Next.js 的创造者，也是 Next.js 项目的官方推荐部署平�
 
 打开 [vercel.com](https://vercel.com)，用 GitHub 账号登录。
 
-![image-20260302004336073](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260302004336073.png)
+![image-20260302004336073](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260302004336073.png)
 
 点击 **Add New → Project**，选择你的 GitHub 仓库。Vercel 会自动检测到 Next.js 框架，大部分配置不需要改。
 
-![image-20260302004314090](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260302004314090.png)
+![image-20260302004314090](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260302004314090.png)
 
 你只需要做两件事：
 
 1. 添加环境变量（和 EdgeOne 一样，把 `.env` 内容填进去）
 2. 点击 **Deploy**
 
-![image-20260302004247091](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260302004247091.png)
+![image-20260302004247091](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260302004247091.png)
 
 部署成功后，你会得到一个 `xxx.vercel.app` 的链接。
 
@@ -91,11 +91,11 @@ Vercel 不只是"能部署"，它在开发体验上做了很多额外的事。
 
 **预览部署**是最实用的功能。每次你创建 Pull Request，Vercel 会自动为这个 PR 生成一个独立的预览链接。你可以把这个链接发给朋友，让他们在合并代码之前就看到效果。这和第十一章学的 PR 工作流完美配合——审查代码的同时，直接在预览链接上测试功能。
 
-![image-20260302005118317](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260302005118317.png)
+![image-20260302005118317](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260302005118317.png)
 
 **分析面板**是 Vercel 的增值能力，但通常需要你在项目里额外接入对应组件（如 Analytics / Speed Insights）后才会有完整数据。具体接入步骤建议直接按 Vercel 控制台和官方文档页面操作，因为不同框架版本与套餐入口可能会有差异。
 
-![image-20260302005153216](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260302005153216.png)
+![image-20260302005153216](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260302005153216.png)
 
 **Edge Functions** 把你的代码复制到全球各地的 CDN 节点上。你的 API 路由通常跑在一台固定的服务器上——不管用户在北京还是纽约，请求都要飞到同一个地方处理。Edge Functions 让这些动态逻辑也能就近执行，用户的请求在最近的节点就地处理，不用绕远路。
 
@@ -123,20 +123,20 @@ Cloudflare Pages 的最大卖点是**无限带宽**——免费套餐不限流�
 1. 登录 [Cloudflare Dashboard](https://dash.cloudflare.com)
 2. 进入 **Workers & Pages → Create**
 
-![image-20260302005022505](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260302005022505.png)
+![image-20260302005022505](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260302005022505.png)
 
 3. 连接 GitHub，选择仓库
 4. 配置构建设置（框架预设选 Next.js）
 5. 添加环境变量
 6. 点击部署
 
-![image-20260302005442304](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260302005442304.png)
+![image-20260302005442304](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260302005442304.png)
 
 看到了吗？和 EdgeOne、Vercel 的步骤几乎一模一样。
 
-![image-20260302005452914](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260302005452914.png)
+![image-20260302005452914](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260302005452914.png)
 
-![image-20260302012941453](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260302012941453.png)
+![image-20260302012941453](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260302012941453.png)
 
 ### Cloudflare 的独特优势
 
@@ -154,7 +154,7 @@ Cloudflare Pages 的最大卖点是**无限带宽**——免费套餐不限流�
 4. 选择加速区域（和 EdgeOne 类似，国内需要备案）
 5. 部署
 
-![image-20260302013222049](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/image-20260302013222049.png)
+![image-20260302013222049](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/image-20260302013222049.png)
 
 ESA 和 EdgeOne 的定位类似，都是国内云厂商的边缘部署平台。选哪个主要看你更熟悉哪家的生态——如果你已经在用阿里云的其他服务（比如 OSS、RDS），ESA 会更方便，因为账号和计费都在一个体系里。
 

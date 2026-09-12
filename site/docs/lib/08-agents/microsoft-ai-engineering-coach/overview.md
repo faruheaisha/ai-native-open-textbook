@@ -12,6 +12,8 @@ entryUrl: "https://github.com/microsoft/AI-Engineering-Coach/blob/18b1a3d16b586c
 zh: ""
 ---
 
+# AI Engineering Coach（微软）
+
 <h1 align="center">AI Engineer Coach</h1>
 
 <strong>better agentic engineering.</strong><br>
@@ -39,19 +41,19 @@ AI Engineer Coach reads your local AI session logs and turns them into actionabl
 <details>
 <summary><strong>Screenshots</strong></summary>
 <br>
-<p align="center"><img src="https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/assets/screen-timeline.png" alt="Timeline" width="820"></p>
-<p align="center"><img src="https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/assets/screen-output.png" alt="Code Output" width="820"></p>
-<p align="center"><img src="https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/assets/screen-consumption.png" alt="Premium Request Consumption" width="820"></p>
-<p align="center"><img src="https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/assets/screen-patterns-projects.png" alt="Activity Patterns - Projects" width="820"></p>
-<p align="center"><img src="https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/assets/screen-patterns-workhours.png" alt="Activity Patterns - Work Hours" width="820"></p>
-<p align="center"><img src="https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/assets/screen-antipatterns.png" alt="Anti-Patterns" width="820"></p>
-<p align="center"><img src="https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/assets/screen-skill-finder.png" alt="Skill Finder" width="820"></p>
-<p align="center"><img src="https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/assets/screen-context-quality.png" alt="Context Quality" width="820"></p>
-<p align="center"><img src="https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/assets/screen-context-management.png" alt="Context Management" width="820"></p>
-<p align="center"><img src="https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/assets/screen-learning.png" alt="Learning Center" width="820"></p>
-<p align="center"><img src="https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/assets/screen-achievements.png" alt="Achievements" width="820"></p>
-<p align="center"><img src="https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/assets/screen-sdlc.png" alt="Agentic SDLC" width="820"></p>
-<p align="center"><img src="https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/assets/screen-share.png" alt="Share Your Stats" width="820"></p>
+<p align="center"><img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/assets/screen-timeline.png" alt="Timeline" width="820"></p>
+<p align="center"><img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/assets/screen-output.png" alt="Code Output" width="820"></p>
+<p align="center"><img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/assets/screen-consumption.png" alt="Premium Request Consumption" width="820"></p>
+<p align="center"><img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/assets/screen-patterns-projects.png" alt="Activity Patterns - Projects" width="820"></p>
+<p align="center"><img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/assets/screen-patterns-workhours.png" alt="Activity Patterns - Work Hours" width="820"></p>
+<p align="center"><img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/assets/screen-antipatterns.png" alt="Anti-Patterns" width="820"></p>
+<p align="center"><img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/assets/screen-skill-finder.png" alt="Skill Finder" width="820"></p>
+<p align="center"><img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/assets/screen-context-quality.png" alt="Context Quality" width="820"></p>
+<p align="center"><img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/assets/screen-context-management.png" alt="Context Management" width="820"></p>
+<p align="center"><img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/assets/screen-learning.png" alt="Learning Center" width="820"></p>
+<p align="center"><img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/assets/screen-achievements.png" alt="Achievements" width="820"></p>
+<p align="center"><img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/assets/screen-sdlc.png" alt="Agentic SDLC" width="820"></p>
+<p align="center"><img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/assets/screen-share.png" alt="Share Your Stats" width="820"></p>
 </details>
 
 ---

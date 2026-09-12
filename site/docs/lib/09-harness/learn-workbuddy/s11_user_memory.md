@@ -20,7 +20,7 @@ zh: ""
 
 ---
 
-![用户级记忆](https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s11_user_memory/images/user-memory.svg)
+![用户级记忆](https://gh-proxy.com/https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/s11_user_memory/images/user-memory.svg)
 
 ## 本章解决什么问题
 

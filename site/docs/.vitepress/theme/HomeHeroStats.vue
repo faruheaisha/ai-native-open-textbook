@@ -20,7 +20,8 @@ let raf = 0
 let timer = 0
 
 function run() {
-  const dur = 1500
+  // 900ms：再长一点，读者会先看到一组还没跑到的数字
+  const dur = 900
   const start = performance.now()
   const tick = (now: number) => {
     const p = Math.min(1, (now - start) / dur)
@@ -42,7 +43,7 @@ onMounted(() => {
       if (!entries.some((e) => e.isIntersecting)) return
       io?.disconnect()
       io = null
-      timer = window.setTimeout(run, 120)
+      timer = window.setTimeout(run, 70)
     },
     { threshold: 0.2 }
   )

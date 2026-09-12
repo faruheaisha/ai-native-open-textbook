@@ -9,12 +9,14 @@ tier: 1
 volume: "13-local-ai"
 sourceUrl: "https://github.com/microsoft/edgeai-for-beginners"
 entryUrl: "https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/README.md"
-zh: ""
+zh: "on"
 ---
 
 # Chapter 01: Transforming AI Deployment for the Edge
 
 EdgeAI represents a paradigm shift in artificial intelligence deployment, transitioning AI capabilities from cloud-based processing to local edge devices. This chapter explores the fundamental concepts, key technologies, and practical applications that define this transformative approach to AI implementation.
+
+<div class="tb-zh"><p>EdgeAI 代表着人工智能部署方式的一次范式转变：把 AI 能力从云端处理转移到本地边缘设备。本章探讨界定这种变革性 AI 实现方式的基本概念、关键技术以及实际应用。</p></div>
 
 ## Module Structure
 
@@ -40,6 +42,10 @@ By the end of this chapter, readers will understand:
 - Hardware platform selection and platform-specific optimization approaches
 - Performance benchmarking and deployment best practices
 
+<div class="tb-zh"><p>读完本章，读者将理解：云端 AI 与边缘 AI 架构之间的根本差异；边缘部署的核心优化技术；真实世界的应用与成功案例；实现 EdgeAI 方案的实用技能；硬件平台选型以及针对特定平台的优化思路；性能基准测试与部署的最佳实践。</p></div>
+
 ## Future Implications
 
 EdgeAI emerges as a critical trend shaping the future of AI deployment, paving the way for distributed, efficient, and privacy-preserving AI systems that can operate independently of cloud connectivity while maintaining high performance standards.
+
+<div class="tb-zh"><p>EdgeAI 正在成为塑造 AI 部署未来的一个关键趋势，它为分布式、高效且保护隐私的 AI 系统铺平道路——这些系统可以在不连云端的情况下独立运行，同时保持高性能标准。</p></div>

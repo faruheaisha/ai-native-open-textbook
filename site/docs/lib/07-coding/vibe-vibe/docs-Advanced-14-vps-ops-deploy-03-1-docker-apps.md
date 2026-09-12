@@ -34,7 +34,7 @@ zh: ""
 
 1Panel 把 Docker 的操作封装成了图形界面。打开面板的「应用商店」，你会看到各种常用软件，点一下就能安装。
 
-![1Panel 应用商店页面](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/14-vps-ops-deploy/14-3-1-appstore-01.png)
+![1Panel 应用商店页面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/14-vps-ops-deploy/14-3-1-appstore-01.png)
 
 常用应用一览：
 
@@ -57,7 +57,7 @@ zh: ""
 
 小明在应用商店里搜索 PostgreSQL，点击「安装」进入应用详情页。弹出的配置页面让他填端口号、管理员用户名和密码。在「高级设置」中还可以选择是否暴露外部端口、设置资源限制等。他按照提示填好，点确认——弹出安装日志界面，进度条跑了十几秒，状态变成了"运行中"。整个过程比他想象的简单得多。安装完成后，可以在「应用商店 - 已安装」页面看到这个应用。
 
-![1Panel 安装 PostgreSQL 配置页面](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/14-3-1-app-install-02.png)
+![1Panel 安装 PostgreSQL 配置页面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/14-3-1-app-install-02.png)
 
 安装过程中，1Panel 会让你填写一些配置（端口、密码等）。老师傅提醒："**安装时设置的密码一定要记下来**，后面配置环境变量要用。"
 
@@ -69,22 +69,22 @@ zh: ""
 Halo 是一个开源的博客系统，在 1Panel 应用商店中可以一键安装。以下展示完整的安装和初始化流程，帮助你理解应用商店的工作方式。
 
 **数据库选择**：安装时需要选择数据库类型（PostgreSQL 或 MySQL）
-![Halo 数据库选择](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/14-vps-ops-deploy/14-3-1-halo-db-04.png)
+![Halo 数据库选择](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/14-vps-ops-deploy/14-3-1-halo-db-04.png)
 
 **初始化配置**：首次访问时进入初始化向导
-![Halo 初始化界面](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/14-vps-ops-deploy/14-3-1-halo-init-05.png)
+![Halo 初始化界面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/14-vps-ops-deploy/14-3-1-halo-init-05.png)
 
 **用户设置**：创建管理员账号
-![Halo 用户初始化](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/14-vps-ops-deploy/14-3-1-halo-user-06.png)
+![Halo 用户初始化](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/14-vps-ops-deploy/14-3-1-halo-user-06.png)
 
 **管理后台**：安装完成后的管理界面
-![Halo 管理后台](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/14-vps-ops-deploy/14-3-1-halo-admin-07.png)
+![Halo 管理后台](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/14-vps-ops-deploy/14-3-1-halo-admin-07.png)
 
 **前台效果**：博客的访客视图
-![Halo 前台页面](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/14-vps-ops-deploy/14-3-1-halo-frontend-08.png)
+![Halo 前台页面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/14-vps-ops-deploy/14-3-1-halo-frontend-08.png)
 
 **插件生态**：支持通过插件扩展功能
-![Halo 插件管理](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/14-vps-ops-deploy/14-3-1-halo-plugin-09.png)
+![Halo 插件管理](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/14-vps-ops-deploy/14-3-1-halo-plugin-09.png)
 
 这个流程展示了应用商店安装的典型步骤：选择配置 → 等待安装 → 初始化设置 → 开始使用。其他应用（如 Umami、n8n）的安装流程类似。
 :::
@@ -108,7 +108,7 @@ Halo 是一个开源的博客系统，在 1Panel 应用商店中可以一键安�
 **详细的数据库设计和操作，详见第 6 章《数据持久化与数据库》。**
 :::
 
-![1Panel 数据库连接信息](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/14-vps-ops-deploy/14-3-1-db-conn-03.png)
+![1Panel 数据库连接信息](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/14-vps-ops-deploy/14-3-1-db-conn-03.png)
 
 ::: warning 容器化数据库的连接地址
 1Panel 通过 Docker 安装的数据库采用容器化方式运行，连接信息页面会提示不同场景对应不同的连接地址。从容器内连接用容器名，从主机连接用 `127.0.0.1`——后面「容器网络基础」会详细解释。
@@ -123,7 +123,7 @@ Halo 是一个开源的博客系统，在 1Panel 应用商店中可以一键安�
 
 小明点进「容器」页面，看到 PostgreSQL、OpenResty 都在跑，每个容器旁边有绿色的"运行中"标识。
 
-![1Panel 容器列表页面](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/14-vps-ops-deploy/14-3-1-container-list-20.png)
+![1Panel 容器列表页面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/14-vps-ops-deploy/14-3-1-container-list-20.png)
 
 常用操作：
 
@@ -140,7 +140,7 @@ Halo 是一个开源的博客系统，在 1Panel 应用商店中可以一键安�
 ::: tip 日志是你最好的朋友
 应用出问题时,第一反应不是去搜索引擎，而是**先看日志**。在「容器」页面点击目标容器，选择「日志」，就能看到实时输出——支持按最近一天、4 小时、1 小时、10 分钟筛选，还能开启「追踪」实时刷新。日志就是应用的实时自言自语——它会告诉你"我在找数据库但找不到""我缺了一个环境变量"，比你自己猜的准得多。90% 的问题，日志里都有答案。
 
-![容器日志查看](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/Advanced/14-vps-ops-deploy/14-3-1-container-log-11.png)
+![容器日志查看](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/Advanced/14-vps-ops-deploy/14-3-1-container-log-11.png)
 
 :::
 

@@ -26,7 +26,7 @@ zh: ""
 
 真实产品不只是在微信里放几个网页。Uber 的微信小程序允许出境用户查询路线、叫车并使用微信支付，不需要另外下载 Uber App 或重新准备当地支付方式。
 
-![Uber 微信小程序中的真实叫车页面](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/wechat-uber-mini-program.png)
+![Uber 微信小程序中的真实叫车页面](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/wechat-uber-mini-program.png)
 
 图片与案例来源：[Uber 携手微信上线官方小程序](https://www.tencent.com/en-us/articles/2202137.html)。从这张图可以看到，地图、路线、车辆状态和支付都留在微信里的同一段流程中。
 
@@ -78,13 +78,13 @@ zh: ""
 
 1. 在浏览器地址栏输入 https://mp.weixin.qq.com ，打开微信公众平台网页，用你的微信扫码登录。
 
-![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image1.png)
+![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image1.png)
 
 2. 在首页选择「小程序」，按照页面提示完成注册流程，填写邮箱、手机号以及主体类型（个人或企业）。
-   ![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image2.png)
+   ![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image2.png)
 3. 注册成功并进入后台后，找到「开发管理」或「开发设置」页面，就能看到一个唯一的编号，名字叫 AppID 。这个编号后面会用在项目配置里，相当于你这个小程序在微信里的身份证。
 
-![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image3.png)
+![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image3.png)
 
 把 AppID 保存在团队的项目配置记录里，不要把 AppSecret 截图、提交到公开仓库或发给 AI。
 
@@ -94,7 +94,7 @@ zh: ""
 2. 下载完成后，双击安装包，按照安装向导一步步点击下一步。如果你不清楚要改什么设置，保持默认选项就可以。
 3. 安装结束后，从桌面或开始菜单启动微信开发者工具。首次启动时，它会在屏幕上显示一个二维码，提示你用手机微信扫码登录。用自己的微信扫码并确认授权后，就可以进入主界面。
 
-![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image4.png)![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image5.png)
+![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image4.png)![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image5.png)
 
 登录后先停在主界面。项目构建完成以后，再回到这里查看运行效果。
 
@@ -102,11 +102,11 @@ zh: ""
 
 打开 [Trae 官网](https://www.trae.cn)，安装与当前系统匹配的版本。安装完成后先确认它能打开一个本地文件夹。
 
-![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image6.png)
+![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image6.png)
 
 接着从 [HBuilderX 官网](https://www.dcloud.io/hbuilderx.html) 下载对应版本。安装后能进入欢迎页即可，暂时不用研究其他功能。
 
-![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image7.png)
+![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image7.png)
 
 小程序账号、AppID、Trae、HBuilderX 和微信开发者工具都准备好以后，就可以创建项目了。
 
@@ -114,19 +114,19 @@ zh: ""
 
 1. 在 HBuilderX 中点击“新建项目”。
 
-![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image8.png)
+![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image8.png)
 
 2. 选择 uni-app 默认模板，填写项目名和保存位置，然后点击右下角“创建”。
 
-![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image9.png)
+![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image9.png)
 
 3. 等待 HBuilderX 创建项目。
 
-![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image10.png)
+![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image10.png)
 
 4. 在 Trae 中打开刚才创建的项目文件夹。左侧能看到项目文件，说明准备完成。
 
-![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image11.png)
+![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image11.png)
 
 ## 3. 小程序开发
 
@@ -146,26 +146,26 @@ zh: ""
 
 1. 对话区会说明准备增加哪些页面和游戏逻辑。
 
-![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image12.png)![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image13.png)
+![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image12.png)![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image13.png)
 
 2. 修改会直接落到当前项目文件。
 3. 完成后检查修改摘要，确认没有删除与任务无关的内容。
 
 如果方向明显不对，可以使用 Trae 的回退功能恢复这一轮修改。回退以后重新描述问题，不要在错误版本上继续叠加功能。
 
-![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image14.png)
+![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image14.png)
 
-![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image15.png)
+![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image15.png)
 
 ### 3.3 在 HBuilderX 和微信开发者工具中查看效果
 
 回到 HBuilderX，选择“运行 → 运行到小程序模拟器 → 微信开发者工具”。HBuilderX 会先构建项目，再把结果交给微信开发者工具。
 
-![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image16.png)
+![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image16.png)
 
 底部输出窗口出现 `ready` 且没有红色错误后，再切到微信开发者工具。
 
-![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image17.png)
+![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image17.png)
 
 如果没有自动打开微信开发者工具：
 
@@ -175,7 +175,7 @@ zh: ""
 
 看到首页以后，先点击开始，确认蛇能移动、吃到食物、增加分数并重新开始。
 
-![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image18.png)
+![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image18.png)
 
 ### 3.4 把方向按钮改成摇杆
 
@@ -185,11 +185,11 @@ zh: ""
 
 AI 修改完成后，重点验证快速转向、反方向操作和松开摇杆三个情况。
 
-![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image19.png)
+![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image19.png)
 
 修改完成后重新运行。没有看到变化时，先停止 HBuilderX 当前任务，再执行一次“运行到小程序模拟器”，不要只反复刷新旧构建。
 
-![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image20.png)
+![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image20.png)
 
 ### 3.5 出现问题时怎样描述
 
@@ -205,13 +205,13 @@ AI 修改完成后，重点验证快速转向、反方向操作和松开摇杆�
 
 功能稳定以后，可以提供一张有权使用的风格参考图，让 AI 只调整颜色、背景和按钮：
 
-![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image21.png)
+![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image21.png)
 
 ### 3.6 最终成品
 
 最后得到首页、游戏页和结束状态。蛇能移动、吃食物和计分，摇杆松开后仍会沿最后方向继续移动。
 
-![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image22.png)![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image23.png)![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image24.png)
+![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image22.png)![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image23.png)![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image24.png)
 
 不要只看截图判断完成。至少连续玩三局，测试快速转向、撞墙、吃到食物、重新开始和小屏显示。都正常以后再上传体验版。
 
@@ -238,7 +238,7 @@ AI 修改完成后，重点验证快速转向、反方向操作和松开摇杆�
 
 项目中的 AppID 必须和后台一致。截图时像下面这样遮住具体值，也不要展示 AppSecret。
 
-![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image25.png)
+![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image25.png)
 
 #### 4.1.2 在项目中填写 AppID
 
@@ -246,7 +246,7 @@ AI 修改完成后，重点验证快速转向、反方向操作和松开摇杆�
 2. 在左侧文件树中找到 `manifest.json`，双击打开。
 3. 下拉到「微信小程序配置」这一栏，你会看到一个输入框，提示类似「微信小程序 AppID（请在微信开发者工具中获取）」。
 4. 把刚才在公众平台上看到的 AppID 原样粘贴进来，保存文件。
-   ![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image26.png)
+   ![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image26.png)
 
 保存后重新构建项目，微信开发者工具会按这个 AppID 识别上传目标。
 
@@ -258,11 +258,11 @@ AI 修改完成后，重点验证快速转向、反方向操作和松开摇杆�
    2. 项目备注：写一段简短说明，比如「完成基本功能的开发」。
 3. 检查无误后，点击「上传」按钮。下面的输出区域会显示编译过程，所有步骤变成绿色并提示上传完成，就说明这一版已经成功提交到了微信服务器。
 
-![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image27.png)
+![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image27.png)
 
-![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image28.png)
+![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image28.png)
 
-![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image29.png)![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image30.png)
+![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image29.png)![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image30.png)
 
 #### 4.1.4 在管理后台中把版本设为体验版
 
@@ -271,9 +271,9 @@ AI 修改完成后，重点验证快速转向、反方向操作和松开摇杆�
 3. 在页面的「开发版本」一栏，你应该能看到刚刚上传的那个版本：版本号是 `1.0.0`，备注是你写的那一段说明，时间是刚刚的上传时间。
 4. 在这一行右侧选择「设为体验版」。如果后台要求先补充主营类目，按实际功能选择后再回来操作。
 
-   ![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image31.png)
+   ![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image31.png)
 
-   ![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image32.png)
+   ![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image32.png)
 
 完成后生成体验二维码，把测试同事加入体验成员。至少用两台不同尺寸的手机测试摇杆、重新开始、前后台切换和分享入口。
 
@@ -294,7 +294,7 @@ AI 修改完成后，重点验证快速转向、反方向操作和松开摇杆�
 
 一开始进度会显示 0%，随着你完成每一步，系统会自动把进度向前推进。
 
-![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image33.png)
+![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image33.png)
 
 #### 4.2.2 填写小程序基本信息
 
@@ -302,7 +302,7 @@ AI 修改完成后，重点验证快速转向、反方向操作和松开摇杆�
 
 图标和截图的尺寸以后台当前提示为准，图片、字体和音效也要确认有权公开使用。
 
-![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image34.png)
+![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image34.png)
 
 全部填写完毕后，点击保存或下一步，发布流程中的第一步就完成了。
 
@@ -310,17 +310,17 @@ AI 修改完成后，重点验证快速转向、反方向操作和松开摇杆�
 
 类目决定平台按什么业务审核，也会影响需要提交的资质。它必须和实际功能一致。
 
-![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image35.png)
+![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image35.png)
 
 点击“添加类目”后，后台会显示当前账号可以选择的分类：
 
-![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image36.png)
+![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image36.png)
 
 下面的截图只展示类目选择界面，不代表贪吃蛇应该选择“教育器具”。如果准备公开运营游戏，应先确认是否需要使用微信小游戏账号、对应类目和额外规则；不要为了通过审核把游戏描述成教育工具。
 
-![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image37.png)
+![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image37.png)
 
-![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image38.png)
+![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image38.png)
 
 确认类目后，点击保存。如果页面提示「创建类目成功」，并在列表中显示你刚刚添加的那一项，就说明这一步已经完成。
 
@@ -328,16 +328,16 @@ AI 修改完成后，重点验证快速转向、反方向操作和松开摇杆�
 
 发布流程还会要求完成运营信息和小程序备案，用来确认主体与负责人。
 
-![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image39.png)
+![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image39.png)
 
 1. 选择与注册账号一致的主体类型。
 2. 按后台提示填写主体和负责人信息。
 3. 上传当前页面要求的证明材料并完成核验。
-   ![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image40.png)
+   ![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image40.png)
 
 身份证、手机号、验证码和证件照片都不要发给 AI，也不要出现在教程截图里。提交后回到后台查看实际状态；需要短信或工信部核验时，按收到的官方通知在有效期内完成。
 
-![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image41.png)
+![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image41.png)
 
 #### 4.2.5 提交审核并等待正式发布
 
@@ -347,7 +347,7 @@ AI 修改完成后，重点验证快速转向、反方向操作和松开摇杆�
 
 审核如果要求补充操作视频、页面截图或资质，就按退回原因修改后重新提交。通过以后，仍要在版本管理中确认是否需要手动点击“发布”。不要只看到“审核通过”就以为用户已经能搜索到。
 
-![微信小程序操作截图](https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image42.png)
+![微信小程序操作截图](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/easy-vibe/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/images/image42.png)
 
 ## 5. 从贪吃蛇走到第一个真实小程序
 

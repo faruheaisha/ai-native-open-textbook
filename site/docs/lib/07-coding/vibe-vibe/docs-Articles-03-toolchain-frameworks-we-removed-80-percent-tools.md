@@ -35,7 +35,7 @@ zh: ""
 
 如果说 [v0](https://v0.app/) 是我们用于构建 UI 的 AI，那么 d0 就是我们用于理解数据的 AI。
 
-![d0 让任何人都能通过在 Slack 中提问来做出数据驱动的决策](https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/images/articles/localized/03-toolchain-frameworks/we-removed-80-percent-tools/01.png)
+![d0 让任何人都能通过在 Slack 中提问来做出数据驱动的决策](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/vibe-vibe/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/public/images/articles/localized/03-toolchain-frameworks/we-removed-80-percent-tools/01.png)
 
 d0 将自然语言问题翻译成针对我们分析基础设施的 SQL 查询，让团队中的任何人都能获得答案，无需编写代码或等待数据团队。
 

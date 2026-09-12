@@ -96,15 +96,15 @@ ps：以上提示词可以根据自己的会议修改。
 下载或保存前说明文件类型、大小、目标目录和保留期限。
 ```
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 17 章 会议结束不是终点，工作才刚刚开始/assets/001_image_AXyxbhbcqo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 17 章 会议结束不是终点，工作才刚刚开始/assets/001_image_AXyxbhbcqo.png)
 
 在这个过程中需要连接腾讯会议连接器，按照提示在连接管理器中找到“腾讯会议”，并授权连接就行。
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 17 章 会议结束不是终点，工作才刚刚开始/assets/002_image_AqEYbLlgUo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 17 章 会议结束不是终点，工作才刚刚开始/assets/002_image_AqEYbLlgUo.png)
 
 腾讯会议能力通常需要先把 9 位会议号转换成内部 `meeting_id`，再查询详情、录制和转写。这个过程由 Skill 完成，不需手工转换，但保留会议号、会议 ID、录制 ID、查询时间和权限状态，方便排错。
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 17 章 会议结束不是终点，工作才刚刚开始/assets/003_image_N3UabeCFBo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 17 章 会议结束不是终点，工作才刚刚开始/assets/003_image_N3UabeCFBo.png)
 
 录制与转写的边界
 
@@ -142,7 +142,7 @@ ps：以上提示词可以根据自己的会议修改。
 不得根据语气猜测负责人或截止时间。
 ```
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 17 章 会议结束不是终点，工作才刚刚开始/assets/004_image_Ne3BbzhZco.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 17 章 会议结束不是终点，工作才刚刚开始/assets/004_image_Ne3BbzhZco.png)
 
 ### 第五步：纪要里的待办，不能直接静默写入任务系统
 
@@ -158,7 +158,7 @@ ps：以上提示词可以根据自己的会议修改。
 写入完成后返回成功、失败、跳过和重复四个清单，不发送催办消息。
 ```
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 17 章 会议结束不是终点，工作才刚刚开始/assets/005_image_YK5Ebuvyto.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 17 章 会议结束不是终点，工作才刚刚开始/assets/005_image_YK5Ebuvyto.png)
 
 这里由于我这次的会议主要是为了演示用，所以待办项的相关责任人都是待确认状态。
 
@@ -176,7 +176,7 @@ B. 发给管理层：三句话结论、关键风险和需要支持的决定。
 只生成草稿，不发送。
 ```
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 17 章 会议结束不是终点，工作才刚刚开始/assets/006_image_DYjgbWFlGo.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 17 章 会议结束不是终点，工作才刚刚开始/assets/006_image_DYjgbWFlGo.png)
 
 批量重命名要保留映射表；同名冲突不覆盖；合同、财务和人事文件按组织规则处理，不能只按文件名猜分类。
 
@@ -192,7 +192,7 @@ B. 发给管理层：三句话结论、关键风险和需要支持的决定。
 不使用无法解释的装饰图表。先返回页级大纲和证据映射，确认后再生成 PPT。
 ```
 
-![](https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 17 章 会议结束不是终点，工作才刚刚开始/assets/011_image_CIeub9uEro.png)
+![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 17 章 会议结束不是终点，工作才刚刚开始/assets/011_image_CIeub9uEro.png)
 
 ## 一套基础办公 Skill 栈
 

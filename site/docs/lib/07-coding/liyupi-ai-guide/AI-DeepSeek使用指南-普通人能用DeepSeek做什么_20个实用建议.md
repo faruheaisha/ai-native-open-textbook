@@ -12,6 +12,8 @@ entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a0
 zh: ""
 ---
 
+# 鱼皮 AI 导航（ai-guide）
+
 ## 普通人能用DeepSeek做什么？20个实用建议
 
 在春节期间，AI界的DeepSeek一直在刷频，霸屏了大半个公众号。很多对DeepSeek这家公司、创始人、AI天才少女、以及新的大模型设计方法的讨论和解读。也有各行各业自媒体人用DeepSeek进行应用的提问探索。

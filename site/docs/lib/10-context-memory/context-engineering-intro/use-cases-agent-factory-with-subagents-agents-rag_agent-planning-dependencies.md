@@ -9,7 +9,7 @@ tier: 1
 volume: "10-context-memory"
 sourceUrl: "https://github.com/coleam00/context-engineering-intro"
 entryUrl: "https://github.com/coleam00/context-engineering-intro/blob/a2d84b021cee1e2f4e77ba854bba0be8cb319035/README.md"
-zh: ""
+zh: "on"
 ---
 
 # Semantic Search Agent - Dependency Configuration
@@ -20,6 +20,7 @@ Minimal dependency configuration for a semantic search agent that connects to Po
 ## Environment Variables Configuration
 
 ### Essential Environment Variables (.env.example)
+
 ```bash
 # LLM Configuration (REQUIRED)
 LLM_PROVIDER=openai
@@ -60,6 +61,7 @@ DB_TIMEOUT=30
 ## Settings Configuration (settings.py)
 
 ### BaseSettings Class Structure
+
 ```python
 class Settings(BaseSettings):
     """Application settings with environment variable support."""
@@ -101,6 +103,7 @@ class Settings(BaseSettings):
 ## Model Provider Configuration (providers.py)
 
 ### Simple OpenAI Provider Setup
+
 ```python
 def get_llm_model():
     """Get OpenAI model configuration."""
@@ -122,6 +125,7 @@ def get_embedding_client():
 ## Agent Dependencies (dependencies.py)
 
 ### Simple Dataclass Structure
+
 ```python
 @dataclass
 class SemanticSearchDependencies:
@@ -181,6 +185,7 @@ class SemanticSearchDependencies:
 ## Python Package Requirements
 
 ### Core Dependencies (requirements.txt)
+
 ```txt
 # Pydantic AI Framework
 pydantic-ai>=0.1.0
@@ -215,6 +220,7 @@ ruff>=0.1.0
 ```
 
 ### Optional Performance Dependencies
+
 ```txt
 # Enhanced Performance (optional)
 uvloop>=0.19.0  # Faster async event loop on Unix
@@ -231,6 +237,7 @@ orjson>=3.9.0   # Faster JSON processing
 - **Retry Logic**: 3 attempts with exponential backoff
 
 ### Required Database Schema
+
 ```sql
 -- Ensure PGVector extension is enabled
 CREATE EXTENSION IF NOT EXISTS vector;
@@ -263,6 +270,7 @@ CREATE EXTENSION IF NOT EXISTS vector;
 ## Error Handling Patterns
 
 ### Database Connection Errors
+
 ```python
 # Retry logic with exponential backoff
 max_retries = 3
@@ -270,12 +278,14 @@ base_delay = 1.0
 ```
 
 ### OpenAI API Errors
+
 ```python
 # Handle rate limiting, API errors
 # Fallback to cached embeddings when possible
 ```
 
 ### Search Operation Errors
+
 ```python
 # Graceful degradation from hybrid to semantic search
 # Empty result handling
@@ -285,6 +295,7 @@ base_delay = 1.0
 ## Testing Configuration
 
 ### Test Dependencies Structure
+
 ```python
 @dataclass 
 class TestDependencies:
@@ -302,6 +313,7 @@ class TestDependencies:
 ```
 
 ### Test Environment Variables
+
 ```bash
 # Test-specific overrides
 DATABASE_URL=postgresql://test:test@localhost:5432/test_db
@@ -354,6 +366,8 @@ LOG_LEVEL=DEBUG
 - [x] Performance considerations addressed
 - [x] Production deployment guidelines included
 
+<div class="tb-zh"><p>清单（均已完成）：必要环境变量已定义；已配置单一模型 provider（OpenAI）；依赖结构采用简单的 dataclass；已确定最小 Python 包集合；已指定数据库连接池；已列出安全措施；已定义错误处理模式；已提供测试配置；已考虑性能问题；已包含生产部署指引。</p></div>
+
 ## Dependencies Summary
 
 **Total Python Packages**: 12 core + 4 development
@@ -362,4 +376,8 @@ LOG_LEVEL=DEBUG
 **Configuration Complexity**: Low - Single model provider, simple dataclass
 **Initialization Time**: ~2-3 seconds for database pool + OpenAI client
 
+<div class="tb-zh"><p>Python 包总数：12 个核心包加 4 个开发包；环境变量：共 15 个，其中 5 个必填；外部服务：2 个（PostgreSQL + PGVector、OpenAI API）；配置复杂度：低——单一模型 provider，简单的 dataclass；初始化时间：数据库连接池加 OpenAI client 约 2–3 秒。</p></div>
+
 This minimal dependency configuration provides all essential functionality while maintaining simplicity and avoiding over-engineering. The focus is on the core semantic search capabilities with proper database connection management and OpenAI integration.
+
+<div class="tb-zh"><p>这套最小依赖配置提供了全部必要功能，同时保持简单、避免过度设计。重点放在核心的语义检索能力上，并配以恰当的数据库连接管理与 OpenAI 集成。</p></div>
