@@ -1,5 +1,5 @@
 {
-  "note": "人工分级：1 = 主线必读（建议按顺序精读）；2 = 值得精读的进阶材料；3 = 参考、工具与索引型材料。分级只影响排序与标记，不改变正文。",
+  "note": "人工分级：1 = 主线必读（建议按顺序精读）；2 = 值得精读的进阶材料；3 = 参考、工具与索引型材料。分级只影响排序与标记，不改变正文。 [render-exclude] readingPlan.exclude 里除了「不进阅读范围的目录」，还登记了 8 篇单个文件：上游正文里混了 ${…} / {/*…*/} 这类 JSX 模板表达式，或「一句话以 <li 开头」，VitePress 渲染时 Vue 编译器会报 Duplicate attribute / Invalid end tag。等上游改掉或渲染层能兜住再收回。",
   "mainline": [
     "01-foundations/microsoft-generative-ai-for-beginners",
     "01-foundations/ai-engineering-lab",
@@ -403,6 +403,63 @@
         "README.md",
         "apps",
         "workshops"
+      ]
+    },
+    "10-context-memory/claude-code-system-prompts": {
+      "exclude": [
+        "system-prompts/agent-prompt-recent-message-summarization.md",
+        "system-prompts/data-self-hosted-runner-session-metrics-help.md"
+      ],
+      "roots": [
+        "."
+      ]
+    },
+    "09-harness/claude-code-guide-zebbern": {
+      "exclude": [
+        "skills/broken-authentication/SKILL.md"
+      ],
+      "roots": [
+        "."
+      ]
+    },
+    "09-harness/grok-build": {
+      "exclude": [
+        "crates/codegen/xai-grok-agent/templates/subagent_prompt.md"
+      ],
+      "roots": [
+        "."
+      ]
+    },
+    "09-harness/harness-engineering-anthology": {
+      "exclude": [
+        "sources/raw/hyperbola/chatgpt-4000.mdx"
+      ],
+      "roots": [
+        "."
+      ]
+    },
+    "07-coding/ai-engineering-from-scratch": {
+      "exclude": [
+        "phases/01-math-foundations/18-convex-optimization/docs/en.md"
+      ],
+      "roots": [
+        "."
+      ]
+    },
+    "07-coding/ai-engineering-from-scratch-zh": {
+      "exclude": [
+        "phases/01-math-foundations/18-convex-optimization/docs/zh.md"
+      ],
+      "roots": [
+        "."
+      ]
+    },
+    "07-coding/fufan-vibe-coding-course": {
+      "exclude": [
+        "Stage4_Enterprise_Practice/Lesson07_Document_Review_Agent/AgentTeamProject/docs/11_integration_testing/integration_test_results.md"
+      ],
+      "roots": [
+        "."
       ]
     }
   }

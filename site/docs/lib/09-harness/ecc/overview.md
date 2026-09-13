@@ -255,7 +255,7 @@ cd ECC
 | OpenCode | `npm install && npm run build:opencode && ./install.sh --profile full --target opencode` | Builds the plugin payload before the full install |
 | Gemini CLI | `./install.sh --profile minimal --target gemini` | Project-local `.gemini/` config |
 | Zed | `./install.sh --profile minimal --target zed` | Project-local `.zed/` adapter |
-| Antigravity | `./install.sh --profile minimal --target antigravity` | See the [Antigravity guide](/lib/09-harness/ecc/docs) |
+| Antigravity | `./install.sh --profile minimal --target antigravity` | See the [Antigravity guide](https://github.com/affaan-m/ECC/blob/928c1dea72f5c330442fc1f595563398b8f389f7/docs/ANTIGRAVITY-GUIDE.md) |
 | Qwen CLI | `./install.sh --profile minimal --target qwen` | See the [Qwen guide](https://github.com/affaan-m/ECC/blob/928c1dea72f5c330442fc1f595563398b8f389f7/docs/QWEN-GUIDE.md) |
 | Hermes | `./install.sh --profile minimal --target hermes` | See the [Hermes setup guide](https://github.com/affaan-m/ECC/blob/928c1dea72f5c330442fc1f595563398b8f389f7/docs/HERMES-SETUP.md) |
 | OpenClaw | `./install.sh --profile minimal --target openclaw` | Managed home-directory install |

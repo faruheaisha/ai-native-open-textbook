@@ -22,7 +22,13 @@ change (a patch, an artifact, a report) and is graded against a test suite.
 
 ## 课时
 
-1. [Configuration system](configs.md)
-2. [Datasets](datasets.md)
+1. [claude-code harness](configs-harnesses-claude-code-CONFIG.md)
+2. [CodeBuddy Code (cbc) harness](configs-harnesses-codebuddy-code-CONFIG.md)
+3. [Adding / adjusting a harness](configs-harnesses-HARNESS_AUTHORING.md)
+4. [Configuration system](configs.md)
+5. [配置体系](configs-README.zh.md)
+6. [Datasets](datasets.md)
+7. [WorkBuddy Bench（腾讯官方评测集）](README.zh.md)
+8. [proxy — protocol translation & parameter injection](src-workbuddy_bench-proxy.md)
 
-开始学习 → [Configuration system](configs.md)
+开始学习 → [claude-code harness](configs-harnesses-claude-code-CONFIG.md)

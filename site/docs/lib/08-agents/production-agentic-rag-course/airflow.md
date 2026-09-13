@@ -16,6 +16,8 @@ zh: ""
 
 This directory contains Apache Airflow configuration and DAGs for the arXiv Paper Curator project.
 
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/jamwithai/production-agentic-rag-course/424a0eb99edf841994f2a9a053912b489d2a94ff/static/week2_data_ingestion_flow.png" alt="Week 2 Data Ingestion Architecture" width="800">
+
 ## Current Setup (Week 2)
 
 ### Production-Ready DAGs

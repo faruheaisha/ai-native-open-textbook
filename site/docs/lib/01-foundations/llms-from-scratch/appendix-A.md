@@ -17,9 +17,9 @@ zh: ""
 &nbsp;
 ## Main Chapter Code
 
-- [01_main-chapter-code](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/appendix-A/01_main-chapter-code/README.md) contains the main chapter code
+- [01_main-chapter-code](/lib/01-foundations/llms-from-scratch/appendix-A-01_main-chapter-code) contains the main chapter code
 
 &nbsp;
 ## Bonus Materials
 
-- [02_setup-recommendations](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/appendix-A/02_setup-recommendations/README.md) contains Python installation and setup recommendations.
+- [02_setup-recommendations](/lib/01-foundations/llms-from-scratch/appendix-A-02_setup-recommendations) contains Python installation and setup recommendations.

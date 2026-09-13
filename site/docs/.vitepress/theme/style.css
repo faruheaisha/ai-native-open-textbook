@@ -1912,8 +1912,16 @@ html.tb-zh-on .tb-zh {
   pointer-events: none;
 }
 
+/* 语言标签与代码正文左对齐（同 20px），否则标签会比正文多缩 6px */
+.vp-doc div[class*="language-"] > .lang {
+  padding: 0 20px;
+}
+
+/* 桌面端原来横向内边距是 0，代码首尾贴着框边。
+   960px 以下由 mobile.css 给 code 补 16px，这里补上桌面端的一份；
+   VitePress 自己的默认值是 padding: 0 24px，20px 更贴合站内的紧凑感。 */
 .vp-doc div[class*="language-"] > pre {
-  padding: 15px 0 16px;
+  padding: 15px 20px 16px;
   scrollbar-width: thin;
 }
 

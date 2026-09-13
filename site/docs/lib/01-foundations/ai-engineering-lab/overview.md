@@ -17,7 +17,7 @@ zh: "on"
 **[Start here](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/START-HERE.md)** ·
 [Browse all 24 weeks](https://zorost.github.io/AI-Engineering-Lab/#weeks) ·
 [Reference](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/reference/README.md) ·
-[Glossary](/lib/01-foundations/ai-engineering-lab/reference) ·
+[Glossary](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/reference/GLOSSARY.md) ·
 [Roadmap](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/ROADMAP.md)
 
 <div class="tb-zh"><p>从这里开始 · 浏览全部 24 周 · 参考资料 · 术语表 · 路线图</p></div>
@@ -39,9 +39,9 @@ python -m pip install -r requirements.txt
 
 1. **New to programming or to AI?** Read **[START-HERE.md](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/START-HERE.md)** first. It names the
    tools, the order, and what to do when something breaks.
-2. **Open [`curriculum/week-01`](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/curriculum/week-01/README.md).** It sets up your machine and
+2. **Open [`curriculum/week-01`](/lib/01-foundations/ai-engineering-lab/curriculum-week-01).** It sets up your machine and
    generates the dataset every later week reuses. No GPU needed for the first eight weeks.
-3. **Open the tracker** in [`curriculum/tracking`](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/curriculum/tracking/README.md), then follow the
+3. **Open the tracker** in [`curriculum/tracking`](/lib/01-foundations/ai-engineering-lab/curriculum-tracking), then follow the
    Monday row.
 
 <div class="tb-zh"><p>1）刚开始学编程或 AI？先读 START-HERE.md，里面写明了要用的工具、顺序，以及出问题时该怎么办。2）打开 curriculum/week-01，它会配置好你的机器，并生成之后每一周都会复用的数据集；前八周不需要 GPU。3）打开 curriculum/tracking 里的进度追踪表，然后从「周一」那一行开始照着做。</p></div>
@@ -116,7 +116,7 @@ folder here.
 | **7 · Databricks zero to hero** | 21 to 24 | Lakehouse, Unity Catalog, PySpark, Lakeflow, AI Search, Genie, production |
 
 Week by week: [curriculum/README.md](/lib/01-foundations/ai-engineering-lab/curriculum) ·
-Visual deep dive: [curriculum/learning-path.md](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/curriculum/learning-path.md)
+Visual deep dive: [curriculum/learning-path.md](/lib/01-foundations/ai-engineering-lab/curriculum-learning-path)
 
 <div class="tb-zh"><p>逐周导航：curriculum/README.md；可视化深入解读：curriculum/learning-path.md。</p></div>
 

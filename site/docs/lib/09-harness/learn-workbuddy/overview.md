@@ -89,7 +89,7 @@ uv run python examples/full_tour/code.py
 
 环境已存在时，运行 `conda env update -f environment.yml --prune`，激活环境后再执行上面的 `uv sync` 命令即可同步。项目依赖安装在 `.venv`，其 Python 解释器来自 Conda 环境。
 
-这条命令会离线跑完整 harness tour：provider adapter、session、记忆、工具、权限、外部化、JSONL、HTTP、审计和 artifacts 全部走一遍。想按课程学，走 [Learning Guide](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/docs/learning-guide.md)；想先看图，走 [Visual Tour](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/docs/visual-tour.md)。
+这条命令会离线跑完整 harness tour：provider adapter、session、记忆、工具、权限、外部化、JSONL、HTTP、审计和 artifacts 全部走一遍。想按课程学，走 [Learning Guide](/lib/09-harness/learn-workbuddy/docs-learning-guide)；想先看图，走 [Visual Tour](/lib/09-harness/learn-workbuddy/docs-visual-tour)。
 
 ---
 
@@ -208,14 +208,14 @@ flowchart LR
 
 | 阶段 | 章节 | 你会搭出来什么 |
 |---|---|---|
-| Agent 基础 | [s01](/lib/09-harness/learn-workbuddy/s01_agent_loop) - [s04](/lib/09-harness/learn-workbuddy/s04_permission_hooks) | 循环、工具分发、延迟加载、权限 hook |
-| 桌面运行时 | [s05](/lib/09-harness/learn-workbuddy/s05_electron_shell) - [s09](/lib/09-harness/learn-workbuddy/s09_jsonl_transcript) | Electron 分层、sidecar、session、模型路由、JSONL |
-| 记忆系统 | [s10](/lib/09-harness/learn-workbuddy/s10_workspace_memory) - [s12](/lib/09-harness/learn-workbuddy/s12_cloud_memory) | 工作区记忆、用户记忆、远端 profile/search |
-| 上下文管理 | [s13](/lib/09-harness/learn-workbuddy/s13_output_externalization) - [s15](/lib/09-harness/learn-workbuddy/s15_prompt_assembly) | 大输出外部化、压缩、prompt 组装 |
-| 扩展生态 | [s16](/lib/09-harness/learn-workbuddy/s16_skills_system) - [s18](/lib/09-harness/learn-workbuddy/s18_experts_system) | Skills、MCP connectors、Experts |
-| 产品化能力 | [s19](/lib/09-harness/learn-workbuddy/s19_visualizer) - [s24](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s24_comprehensive/README.md) | 可视化、交付、SQLite、自动化、安全审计、综合版 |
+| Agent 基础 | [s01](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s01_agent_loop/README.md) - [s04](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s04_permission_hooks/README.md) | 循环、工具分发、延迟加载、权限 hook |
+| 桌面运行时 | [s05](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s05_electron_shell/README.md) - [s09](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s09_jsonl_transcript/README.md) | Electron 分层、sidecar、session、模型路由、JSONL |
+| 记忆系统 | [s10](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s10_workspace_memory/README.md) - [s12](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s12_cloud_memory/README.md) | 工作区记忆、用户记忆、远端 profile/search |
+| 上下文管理 | [s13](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s13_output_externalization/README.md) - [s15](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s15_prompt_assembly/README.md) | 大输出外部化、压缩、prompt 组装 |
+| 扩展生态 | [s16](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s16_skills_system/README.md) - [s18](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s18_experts_system/README.md) | Skills、MCP connectors、Experts |
+| 产品化能力 | [s19](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s19_visualizer/README.md) - [s24](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s24_comprehensive/README.md) | 可视化、交付、SQLite、自动化、安全审计、综合版 |
 
-更细的模块划分见 [Chapter Map](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/docs/chapter-map.md)。每章代码如何继承上一章、只新增一个核心机制，见 [Progression Contract](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/docs/progression-contract.md)。外部资料的推荐阅读路径见 [Further Reading Map](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/docs/further-reading.md)。对标 learn-claude-code 后的代码质量取舍见 [Code Quality Review](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/docs/code-quality-review.md)。
+更细的模块划分见 [Chapter Map](/lib/09-harness/learn-workbuddy/docs-chapter-map)。每章代码如何继承上一章、只新增一个核心机制，见 [Progression Contract](/lib/09-harness/learn-workbuddy/docs-progression-contract)。外部资料的推荐阅读路径见 [Further Reading Map](/lib/09-harness/learn-workbuddy/docs-further-reading)。对标 learn-claude-code 后的代码质量取舍见 [Code Quality Review](/lib/09-harness/learn-workbuddy/docs-code-quality-review)。
 
 ---
 
@@ -223,29 +223,29 @@ flowchart LR
 
 | 章节 | 主题 | 关键机制 |
 |---|---|---|
-| [s01 Agent Loop](/lib/09-harness/learn-workbuddy/s01_agent_loop) | 一个循环就是 agent 的心脏 | `while True` / `tool_use` / `tool_result` |
-| [s02 Tool Dispatch](/lib/09-harness/learn-workbuddy/s02_tool_dispatch) | 工具注册和分发 | dispatch map / 并发工具 |
-| [s03 Deferred Loading](/lib/09-harness/learn-workbuddy/s03_deferred_loading) | 工具按需展开 | `ToolSearch` / `DeferExecuteTool` |
-| [s04 Permission Hooks](/lib/09-harness/learn-workbuddy/s04_permission_hooks) | 先划边界，再给自由 | permission rule / hook evaluator |
-| [s05 Electron Shell](/lib/09-harness/learn-workbuddy/s05_electron_shell) | 一个进程不够，要分层 | main / renderer / preload |
-| [s06 Sidecar Server](/lib/09-harness/learn-workbuddy/s06_sidecar_server) | 主进程不跑 agent | local RPC / sidecar lifecycle |
-| [s07 Session Management](/lib/09-harness/learn-workbuddy/s07_session_management) | 逻辑会话可恢复，运行时必须重建 | session create/resume/close |
-| [s08 Model Routing](/lib/09-harness/learn-workbuddy/s08_model_routing) | 用模型管理模型成本 | lite / default / craft |
-| [s09 JSONL Transcript](/lib/09-harness/learn-workbuddy/s09_jsonl_transcript) | 追加写入，崩溃可恢复 | event log / replay |
-| [s10 Workspace Memory](/lib/09-harness/learn-workbuddy/s10_workspace_memory) | 每天的工作要记下来 | append-only workspace log |
-| [s11 User Memory](/lib/09-harness/learn-workbuddy/s11_user_memory) | 跨项目偏好放用户级 | user memory / preference distill |
-| [s12 Cloud Memory](/lib/09-harness/learn-workbuddy/s12_cloud_memory) | 远端 profile 和历史召回 | profile injection / recall history |
-| [s13 Output Externalization](/lib/09-harness/learn-workbuddy/s13_output_externalization) | 大输出写磁盘，上下文留指针 | tool-result swap |
-| [s14 Context Compact](/lib/09-harness/learn-workbuddy/s14_context_compact) | 上下文总会满 | truncate / prune / summarize |
-| [s15 Prompt Assembly](/lib/09-harness/learn-workbuddy/s15_prompt_assembly) | Prompt 是运行时组装出来的 | context blocks / budget |
-| [s16 Skills System](/lib/09-harness/learn-workbuddy/s16_skills_system) | 技能先列目录，用到再展开 | `SKILL.md` / lazy load |
-| [s17 MCP Connectors](/lib/09-harness/learn-workbuddy/s17_mcp_connectors) | 外接工具要有标准协议 | discovery / trust / call |
-| [s18 Experts System](/lib/09-harness/learn-workbuddy/s18_experts_system) | 领域专家整包加载 | expert pack / routing |
-| [s19 Visualizer](/lib/09-harness/learn-workbuddy/s19_visualizer) | 不只是文字，还能画图 | SVG / HTML widget |
-| [s20 Result Presentation](/lib/09-harness/learn-workbuddy/s20_result_presentation) | 做完要交付 | artifacts / file cards |
-| [s21 SQLite Database](/lib/09-harness/learn-workbuddy/s21_sqlite_database) | 会话、用量、任务要可查询 | WAL / schema / usage |
-| [s22 Automation Scheduler](/lib/09-harness/learn-workbuddy/s22_automation_scheduler) | 到点自动跑 | recurring / once / queue |
-| [s23 Audit Sandbox](/lib/09-harness/learn-workbuddy/s23_audit_sandbox) | 每步留痕，不可篡改 | hash chain / command policy |
+| [s01 Agent Loop](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s01_agent_loop/README.md) | 一个循环就是 agent 的心脏 | `while True` / `tool_use` / `tool_result` |
+| [s02 Tool Dispatch](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s02_tool_dispatch/README.md) | 工具注册和分发 | dispatch map / 并发工具 |
+| [s03 Deferred Loading](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s03_deferred_loading/README.md) | 工具按需展开 | `ToolSearch` / `DeferExecuteTool` |
+| [s04 Permission Hooks](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s04_permission_hooks/README.md) | 先划边界，再给自由 | permission rule / hook evaluator |
+| [s05 Electron Shell](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s05_electron_shell/README.md) | 一个进程不够，要分层 | main / renderer / preload |
+| [s06 Sidecar Server](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s06_sidecar_server/README.md) | 主进程不跑 agent | local RPC / sidecar lifecycle |
+| [s07 Session Management](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s07_session_management/README.md) | 逻辑会话可恢复，运行时必须重建 | session create/resume/close |
+| [s08 Model Routing](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s08_model_routing/README.md) | 用模型管理模型成本 | lite / default / craft |
+| [s09 JSONL Transcript](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s09_jsonl_transcript/README.md) | 追加写入，崩溃可恢复 | event log / replay |
+| [s10 Workspace Memory](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s10_workspace_memory/README.md) | 每天的工作要记下来 | append-only workspace log |
+| [s11 User Memory](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s11_user_memory/README.md) | 跨项目偏好放用户级 | user memory / preference distill |
+| [s12 Cloud Memory](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s12_cloud_memory/README.md) | 远端 profile 和历史召回 | profile injection / recall history |
+| [s13 Output Externalization](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s13_output_externalization/README.md) | 大输出写磁盘，上下文留指针 | tool-result swap |
+| [s14 Context Compact](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s14_context_compact/README.md) | 上下文总会满 | truncate / prune / summarize |
+| [s15 Prompt Assembly](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s15_prompt_assembly/README.md) | Prompt 是运行时组装出来的 | context blocks / budget |
+| [s16 Skills System](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s16_skills_system/README.md) | 技能先列目录，用到再展开 | `SKILL.md` / lazy load |
+| [s17 MCP Connectors](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s17_mcp_connectors/README.md) | 外接工具要有标准协议 | discovery / trust / call |
+| [s18 Experts System](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s18_experts_system/README.md) | 领域专家整包加载 | expert pack / routing |
+| [s19 Visualizer](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s19_visualizer/README.md) | 不只是文字，还能画图 | SVG / HTML widget |
+| [s20 Result Presentation](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s20_result_presentation/README.md) | 做完要交付 | artifacts / file cards |
+| [s21 SQLite Database](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s21_sqlite_database/README.md) | 会话、用量、任务要可查询 | WAL / schema / usage |
+| [s22 Automation Scheduler](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s22_automation_scheduler/README.md) | 到点自动跑 | recurring / once / queue |
+| [s23 Audit Sandbox](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s23_audit_sandbox/README.md) | 每步留痕，不可篡改 | hash chain / command policy |
 | [s24 Comprehensive](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s24_comprehensive/README.md) | 机制很多，循环一个 | RAG-memory harness 端到端与重启回放 |
 
 ---
@@ -407,7 +407,7 @@ python3 scripts/model_benchmark.py --providers deepseek openai-chat --max-lesson
 ```
 
 配置见 `.env.example`（`PROVIDER=deepseek|anthropic|openai|openai-chat|offline|auto`）。协议对照与设计
-说明见 [docs/appendix/provider-adapter.md](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/docs/appendix/provider-adapter.md)。
+说明见 [docs/appendix/provider-adapter.md](/lib/09-harness/learn-workbuddy/docs-appendix-provider-adapter)。
 
 ---
 
@@ -417,19 +417,19 @@ python3 scripts/model_benchmark.py --providers deepseek openai-chat --max-lesson
 
 | 层 | 职责 | 教学章节 |
 |---|---|---|
-| Workspace memory | 当前项目的事实、决策、每日工作日志 | [s10](/lib/09-harness/learn-workbuddy/s10_workspace_memory) |
-| User memory | 跨项目偏好、习惯、长期约束 | [s11](/lib/09-harness/learn-workbuddy/s11_user_memory) |
-| Remote profile/search | 服务端 profile 和历史检索的抽象模型 | [s12](/lib/09-harness/learn-workbuddy/s12_cloud_memory) |
-| Transcript | 会话事件追加写入，可恢复可回放 | [s09](/lib/09-harness/learn-workbuddy/s09_jsonl_transcript) |
-| Tool-result swap | 大输出外部化，history 只保留摘要和指针 | [s13](/lib/09-harness/learn-workbuddy/s13_output_externalization) |
+| Workspace memory | 当前项目的事实、决策、每日工作日志 | [s10](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s10_workspace_memory/README.md) |
+| User memory | 跨项目偏好、习惯、长期约束 | [s11](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s11_user_memory/README.md) |
+| Remote profile/search | 服务端 profile 和历史检索的抽象模型 | [s12](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s12_cloud_memory/README.md) |
+| Transcript | 会话事件追加写入，可恢复可回放 | [s09](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s09_jsonl_transcript/README.md) |
+| Tool-result swap | 大输出外部化，history 只保留摘要和指针 | [s13](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s13_output_externalization/README.md) |
 
 核心心法：**上下文窗口是 RAM，JSONL、SQLite、记忆文件和 tool-results 是磁盘。**
 
-想看五类状态如何在不混淆所有权的前提下协作，可以运行完全离线的 [Layered Memory Walkthrough](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/examples/layered_memory_walkthrough/README.md)。它直接串联 S09–S14，演示写入、重复事实蒸馏、用户隔离、带来源召回、Artifact 引用、压缩不变量和 fresh-process 恢复，不新增第二套 Memory 包。
+想看五类状态如何在不混淆所有权的前提下协作，可以运行完全离线的 [Layered Memory Walkthrough](/lib/09-harness/learn-workbuddy/examples-layered_memory_walkthrough)。它直接串联 S09–S14，演示写入、重复事实蒸馏、用户隔离、带来源召回、Artifact 引用、压缩不变量和 fresh-process 恢复，不新增第二套 Memory 包。
 
-想验证 Memory 在并发、身份冲突、跨用户读取、损坏 JSONL 和进程重启下能否 fail closed，可以运行 [Memory Resilience Evaluation](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/examples/memory_resilience_eval/README.md)。它复用 S12 的公开存储与召回契约，逐 case 输出可检查证据；任何安全边界失败都不能被其他通过项平均掉。
+想验证 Memory 在并发、身份冲突、跨用户读取、损坏 JSONL 和进程重启下能否 fail closed，可以运行 [Memory Resilience Evaluation](/lib/09-harness/learn-workbuddy/examples-memory_resilience_eval)。它复用 S12 的公开存储与召回契约，逐 case 输出可检查证据；任何安全边界失败都不能被其他通过项平均掉。
 
-想验证“检索正确之后，回答是否真的被证据支持”，可以运行 [Answer-grounded RAG Evaluation](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/examples/answer_grounding_eval/README.md)。它把 evidence-set/citation 完整性与 fixture-backed claim/source 对齐分开评测，并覆盖无证据拒答、引用洗白和跨 query 回答重放。
+想验证“检索正确之后，回答是否真的被证据支持”，可以运行 [Answer-grounded RAG Evaluation](/lib/09-harness/learn-workbuddy/examples-answer_grounding_eval)。它把 evidence-set/citation 完整性与 fixture-backed claim/source 对齐分开评测，并覆盖无证据拒答、引用洗白和跨 query 回答重放。
 
 ---
 
@@ -450,7 +450,7 @@ python3 scripts/model_benchmark.py --providers deepseek openai-chat --max-lesson
 - 私有密钥、token、用户路径、用户 ID、日志原文
 - 可用于绕过授权、安全机制或商业限制的细节
 
-更多说明见 [NOTICE.md](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/NOTICE.md) 和 [docs/legal/clean-room.md](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/docs/legal/clean-room.md)。
+更多说明见 [NOTICE.md](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/NOTICE.md) 和 [docs/legal/clean-room.md](/lib/09-harness/learn-workbuddy/docs-legal-clean-room)。
 
 ---
 

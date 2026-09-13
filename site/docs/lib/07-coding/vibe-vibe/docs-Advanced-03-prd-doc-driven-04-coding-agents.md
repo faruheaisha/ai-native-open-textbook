@@ -320,4 +320,4 @@ graph TD
 ## 相关内容
 
 - 前置：[3.3 PRD 编写实战](/lib/07-coding/vibe-vibe/docs-Advanced-03-prd-doc-driven-03-prd-template-guide)
-- 详见：[第四章：开发常识与技术栈](/lib/07-coding/vibe-vibe/docs-Advanced-04-dev-fundamentals-index)
+- 详见：[第四章：开发常识与技术栈](https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/Advanced/04-dev-fundamentals/index.md)

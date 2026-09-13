@@ -20,7 +20,7 @@ This comprehensive chapter explores the complete lifecycle of Small Language Mod
 
 ## Chapter Structure and Learning Journey
 
-### **[Section 1: SLM Advanced Learning - Foundations and Optimization](https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/Module03/01.SLMAdvancedLearning.md)**
+### **[Section 1: SLM Advanced Learning - Foundations and Optimization](/lib/13-local-ai/edgeai-for-beginners/Module03-01.SLMAdvancedLearning)**
 The opening section establishes the theoretical groundwork for understanding Small Language Models and their strategic importance in edge AI deployments. This section covers:
 
 - **Parameter Classification Framework**: Detailed exploration of SLM categories from Micro SLMs (100M-1.4B parameters) to Medium SLMs (14B-30B parameters), with specific focus on models like Phi-4-mini-3.8B, Qwen3 series, and Google Gemma3, including hardware requirements and memory footprint analysis for each model tier
@@ -34,7 +34,7 @@ This foundational section emphasizes the balance between operational efficiency,
 
 <div class="tb-zh"><p>这一基础部分强调运行效率、部署灵活性与成本效益之间的平衡——正是这些让 SLM 非常适合边缘计算场景，并配有开发者可直接用于自己项目的实用代码示例。</p></div>
 
-### **[Section 2: Local Environment Deployment - Privacy-First Solutions](https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/Module03/02.DeployingSLMinLocalEnv.md)**
+### **[Section 2: Local Environment Deployment - Privacy-First Solutions](/lib/13-local-ai/edgeai-for-beginners/Module03-02.DeployingSLMinLocalEnv)**
 The second section transitions from theory to practical implementation, focusing on local deployment strategies that prioritize data sovereignty and operational independence. Key areas include:
 
 - **Ollama Universal Platform**: Comprehensive exploration of cross-platform deployment with emphasis on developer-friendly workflows, model lifecycle management, and customization through Modelfiles, including complete REST API integration examples and CLI automation scripts
@@ -49,7 +49,7 @@ This section provides practical guidance for organizations seeking to implement 
 
 <div class="tb-zh"><p>这一部分为那些希望实现隐私保护型 AI 方案、同时又要完全掌控自己部署环境的组织提供实用指引，并配有开发者可直接按需改造的即用型代码示例。</p></div>
 
-### **[Section 3: Containerized Cloud Deployment - Production-Scale Solutions](https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/Module03/03.DeployingSLMinCloud.md)**
+### **[Section 3: Containerized Cloud Deployment - Production-Scale Solutions](/lib/13-local-ai/edgeai-for-beginners/Module03-03.DeployingSLMinCloud)**
 The final section culminates in advanced containerized deployment strategies, featuring Microsoft's Phi-4-mini-instruct as the primary case study. This section covers:
 
 - **vLLM Deployment**: High-performance inference optimization with OpenAI-compatible APIs, advanced GPU acceleration, and production-grade configuration, including complete Dockerfiles, Kubernetes manifests, and performance tuning parameters

@@ -48,7 +48,7 @@ Harness Engineering：人类设计约束 → 智能体写代码 → 机器执行
 
 Slack 讨论、Google Docs、脑子里的知识 = 对智能体不可见。一切决策、规范、计划都必须以版本化工件提交到仓库。
 
-→ 详见 [concepts/01-repo-as-source-of-truth.md](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/concepts/01-repo-as-source-of-truth.md)
+→ 详见 [concepts/01-repo-as-source-of-truth.md](/lib/09-harness/deusyu-harness-engineering/concepts-01-repo-as-source-of-truth)
 </details>
 
 <details>
@@ -56,7 +56,7 @@ Slack 讨论、Google Docs、脑子里的知识 = 对智能体不可见。一切
 
 ~100 行的入口文件，指向更深层的文档。渐进式披露：智能体从小入口点开始，被指导下一步该看什么。巨型指令文件的三个死因：挤占上下文、无法维护、无法机械验证。
 
-→ 详见 [concepts/00-overview.md](/lib/09-harness/deusyu-harness-engineering/concepts)
+→ 详见 [concepts/00-overview.md](/lib/09-harness/deusyu-harness-engineering/concepts-00-overview)
 </details>
 
 <details>
@@ -64,7 +64,7 @@ Slack 讨论、Google Docs、脑子里的知识 = 对智能体不可见。一切
 
 自定义 linter + 结构测试 = 不变量的守护者。lint 错误信息里内嵌修复指令，智能体可以自我纠正。在中央层面强制执行边界，在本地层面允许自主权。
 
-→ 详见 [concepts/02-mechanical-enforcement.md](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/concepts/02-mechanical-enforcement.md)
+→ 详见 [concepts/02-mechanical-enforcement.md](/lib/09-harness/deusyu-harness-engineering/concepts-02-mechanical-enforcement)
 </details>
 
 <details>
@@ -72,7 +72,7 @@ Slack 讨论、Google Docs、脑子里的知识 = 对智能体不可见。一切
 
 选"无聊"技术（API 稳定、训练集覆盖好）。有时重新实现子集比包装不透明的上游行为更划算。让应用可以按 git worktree 启动。
 
-→ 详见 [concepts/04-agent-readability.md](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/concepts/04-agent-readability.md)
+→ 详见 [concepts/04-agent-readability.md](/lib/09-harness/deusyu-harness-engineering/concepts-04-agent-readability)
 </details>
 
 <details>
@@ -80,7 +80,7 @@ Slack 讨论、Google Docs、脑子里的知识 = 对智能体不可见。一切
 
 PR 生命周期很短。测试偶发失败通过后续重跑解决。在智能体吞吐量远超人类注意力的系统中，这通常是正确的选择。
 
-→ 详见 [concepts/05-throughput-changes-merge.md](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/concepts/05-throughput-changes-merge.md)
+→ 详见 [concepts/05-throughput-changes-merge.md](/lib/09-harness/deusyu-harness-engineering/concepts-05-throughput-changes-merge)
 </details>
 
 <details>
@@ -88,7 +88,7 @@ PR 生命周期很短。测试偶发失败通过后续重跑解决。在智能�
 
 智能体会复现仓库中已有的模式——包括坏模式。将"黄金规则"编码进仓库，定期后台任务扫描偏差、更新质量评分、发起重构 PR。
 
-→ 详见 [concepts/03-entropy-and-garbage-collection.md](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/concepts/03-entropy-and-garbage-collection.md)
+→ 详见 [concepts/03-entropy-and-garbage-collection.md](/lib/09-harness/deusyu-harness-engineering/concepts-03-entropy-and-garbage-collection)
 </details>
 
 ## 🔑 关键数据点
@@ -150,7 +150,7 @@ harness-engineering/
 | 效率悖论与能力进化 | 2 篇 | YDD 系统性拆解 + METR 实验后续（测量方法论危机） |
 | 延伸阅读 | 2 篇 | Context Engineering、人机协作 |
 
-详见 [references/articles.md](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/references/articles.md) — 每篇文章含核心论点、关键数据、跨文章关联的深度摘要。
+详见 [references/articles.md](/lib/09-harness/deusyu-harness-engineering/references-articles) — 每篇文章含核心论点、关键数据、跨文章关联的深度摘要。
 
 ## 📖 翻译作品
 
@@ -275,7 +275,7 @@ git config core.hooksPath .githooks
 >
 > 收录外部调研不再靠手感——它走一条固化成 skill 的流水线 [`curate-research`](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/.claude/skills/curate-research/SKILL.md)：评审由并行 agent 自动完成（反馈回路），`scripts/check-consistency.sh` 的 C1–C14 守着计数与保真不漂移（机械护栏），而"收不收进来"始终是一道人类闸门（人类掌舵、智能体执行）。
 >
-> 于是约束本身成了产品——正是本仓库 [concepts/07-spec-as-product.md](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/concepts/07-spec-as-product.md) 讲的东西，只不过这次的实验对象是仓库自己。
+> 于是约束本身成了产品——正是本仓库 [concepts/07-spec-as-product.md](/lib/09-harness/deusyu-harness-engineering/concepts-07-spec-as-product) 讲的东西，只不过这次的实验对象是仓库自己。
 
 ## 🤝 参与贡献
 

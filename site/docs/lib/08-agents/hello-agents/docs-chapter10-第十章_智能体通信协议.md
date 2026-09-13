@@ -103,6 +103,7 @@ MCP（Model Context Protocol）由 Anthropic 团队提出<sup>[1]</sup>，其核
 
 MCP 的设计哲学是"上下文共享"。它不仅仅是一个 RPC（远程过程调用）协议，更重要的是它允许智能体和工具之间共享丰富的上下文信息。如图 10.1 所示，当智能体访问一个代码仓库时，MCP 服务器不仅能提供文件内容，还能提供代码结构、依赖关系、提交历史等上下文信息，让智能体能够做出更智能的决策。
 
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-1.png" alt="" width="85%"/>
   <p>图 10.1 MCP 设计思想</p>
 
 <strong>（2）A2A：智能体间的对话</strong>
@@ -111,6 +112,7 @@ A2A（Agent-to-Agent Protocol）协议由 Google 团队提出<sup>2</sup>，其�
 
 A2A 的设计哲学是"对等通信"。如图 10.2 所示，在 A2A 网络中，每个智能体既是服务提供者，也是服务消费者。智能体可以主动发起请求，也可以响应其他智能体的请求。这种对等的设计避免了中心化协调器的瓶颈，让智能体网络更加灵活和可扩展。
 
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-2.png" alt="" width="85%"/>
   <p>图 10.2 A2A 设计思想</p>
 
 <strong>（3）ANP：智能体网络的基础设施</strong>
@@ -119,11 +121,13 @@ ANP（Agent Network Protocol）是一个概念性的协议框架<sup>3</sup>，�
 
 ANP 的设计哲学是"去中心化服务发现"。在一个包含成百上千个智能体的网络中，如何让智能体能够找到它需要的服务？如图 10.3 所示，ANP 提供了服务注册、发现和路由机制，让智能体能够动态地发现网络中的其他服务，而不需要预先配置所有的连接关系。
 
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-3.png" alt="" width="85%"/>
   <p>图 10.3 ANP 设计思想</p>
 
 最后在表 10.1 中，让我们通过一个对比表格来更清晰地理解这三种协议的差异：
 
   <p>表 10.1 三种协议对比</p>
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-table-1.png" alt="" width="85%"/>
 
 <strong>（4）如何选择合适的协议？</strong>
 
@@ -141,6 +145,7 @@ ANP 的设计哲学是"去中心化服务发现"。在一个包含成百上千�
 
 如图 10.4 所示，HelloAgents 的通信协议架构采用三层设计，从底层到上层分别是：协议实现层、工具封装层和智能体集成层。
 
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-4.png" alt="" width="85%"/>
   <p>图 10.4 HelloAgents 通信协议设计</p>
 
 <strong>（1）协议实现层</strong>：这一层包含了三种协议的具体实现。MCP 基于 FastMCP 库实现，提供客户端和服务器功能；A2A 基于 Google 官方的 a2a-sdk 实现；ANP 是我们自研的轻量级实现，提供服务发现和网络管理功能，当然目前也有官方的[实现](https://github.com/agent-network-protocol/AgentConnect)，考虑到后期的迭代，因此这里只做概念的模拟。
@@ -235,6 +240,7 @@ MCP 协议采用 Host、Client、Servers 三层架构设计，让我们通过图
 
 假设你正在使用 Claude Desktop 询问："我桌面上有哪些文档？"
 
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-5.png" alt="" width="85%"/>
   <p>图 10.5 MCP 案例演示</p>
 
 <strong>三层架构的职责：</strong>
@@ -254,6 +260,7 @@ MCP 协议采用 Host、Client、Servers 三层架构设计，让我们通过图
 如表 10.2 所示，MCP 协议提供了三大核心能力，构成完整的工具访问框架：
 
   <p>表 10.2 MCP 核心能力</p>
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-table-2.png" alt="" width="85%"/>
 
 这三种能力的区别在于：<strong>Tools 是主动的</strong>（执行操作），<strong>Resources 是被动的</strong>（提供数据），<strong>Prompts 是指导性的</strong>（提供模板）。
 
@@ -261,6 +268,7 @@ MCP 协议采用 Host、Client、Servers 三层架构设计，让我们通过图
 
 让我们通过一个具体例子来理解 MCP 的完整工作流程，如图 10.6 所示：
 
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-6.png" alt="" width="85%"/>
   <p>图 10.6 MCP 案例演示</p>
 
 一个关键问题是：<strong>Claude（或其他 LLM）是如何决定使用哪些工具的？</strong> 
@@ -289,6 +297,7 @@ MCP 协议采用 Host、Client、Servers 三层架构设计，让我们通过图
 很多开发者会问：<strong>我已经在用 Function Calling 了，为什么还需要 MCP？</strong> 让我们通过表 10.3 来理解它们的区别。
 
   <p>表 10.3 Function Calling 与 MCP 对比</p>
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-table-3.png" alt="" width="85%"/>
 
 这里我们以智能体需要访问 GitHub 仓库和本地文件系统为例子来详细对比同一个任务的两种实现
 
@@ -588,6 +597,7 @@ MCP 协议的一个重要特性是<strong>传输层无关性</strong>（Transpor
 HelloAgents 的`MCPClient`支持五种传输方式，每种都有不同的使用场景，如表 10.4 所示：
 
   <p>表 10.4 MCP 传输方式对比</p>
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-table-4.png" alt="" width="85%"/>
 
 <strong>（2）传输方式使用示例</strong>
 
@@ -1034,8 +1044,10 @@ MCP 协议的一个巨大优势是<strong>丰富的社区生态</strong>。Anthr
 表 10.5 和 10.6 给出常用的官方 MCP 服务器和社区热门 MCP 服务器：
 
   <p>表 10.5 常用官方 MCP 服务器</p>
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-table-5.png" alt="" width="85%"/>
 
   <p>表 10.6 社区热门 MCP 服务器</p>
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-table-6.png" alt="" width="85%"/>
 
 以下是一些特别有趣的案例 TODO 可供参考：
 
@@ -1100,9 +1112,11 @@ MCP 协议解决了智能体与工具的交互，而 A2A 协议则解决智能�
 A2A 协议采用点对点（P2P）架构（网状拓扑），允许智能体直接通信，从根本上解决了上述问题。它的核心是<strong>任务（Task）</strong>和<strong>工件（Artifact）</strong>这两个抽象概念，这是它与 MCP 最大的区别，如表 10.7 所示。
 
   <p>表 10.7 A2A 核心概念</p>
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-table-7.png" alt="" width="85%"/>
 
 为实现对协作过程的管理，A2A 为任务定义了标准化的生命周期，包括创建、协商、代理、执行中、完成、失败等状态，可见图 10.7。
 
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-7.png" alt="" width="85%"/>
   <p>图 10.7 A2A 任务周期</p>
 
 
@@ -1110,6 +1124,7 @@ A2A 协议采用点对点（P2P）架构（网状拓扑），允许智能体直�
 
 A2A 请求生命周期是一个序列，详细说明了请求遵循的四个主要步骤：代理发现、身份验证、发送消息 API 和发送消息流 API。下图 10.8 借鉴了官网的流程图，用来展示了操作流程，说明了客户端、A2A 服务器和身份验证服务器之间的交互。
 
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-8.png" alt="" width="85%"/>
   <p>图 10.8 A2A 请求生命周期</p>
 
 ### 10.3.2 使用 A2A 协议实战
@@ -1640,9 +1655,11 @@ ANP 的设计目标就是提供一套标准化的机制，来解决上述的服�
 为实现其设计目标，ANP 定义了以下几个核心概念，如表 10.8 所示：
 
   <p>表 10.8 ANP 核心概念</p>
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-table-8.png" alt="" width="85%"/>
 
 我们同样借用官方的[入门指南](https://github.com/agent-network-protocol/AgentNetworkProtocol/blob/main/docs/chinese/ANP入门指南.md)来介绍 ANP 的架构设计，如图 10.9 所示
 
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-9.png" alt="" width="85%"/>
   <p>图 10.9 ANP 整体流程</p>
 
 
@@ -2254,6 +2271,7 @@ Dockerfile 配置说明：
 
 一旦发布完成，可以看到类似这样的页面，如图 10.10 所示：
 
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-10.png" alt="" width="85%"/>
   <p>图 10.10 Smithery 发布成功页面 </p>
 
 
@@ -2302,6 +2320,7 @@ response = agent.run("北京今天天气怎么样？")
 
 当然，这里只是举例，还有更多的用法可以自行探索，下图 10.11 展示了当 MCP 工具发布成功会包含的信息，显示服务的名称“天气”，其唯一标识符 `@jjyaoao/weather-mcp-server`，以及状态信息。Tools 区域就是我们刚刚实现的方法，Connect 区则提供了连接和使用此服务所需的技术信息，包括服务的<strong>接入 URL 地址</strong>和多种语言/环境下的<strong>配置代码片段</strong>。如果想要更加深入了解可以点击这个[链接](https://smithery.ai/server/@jjyaoao/weather-mcp-server)。
 
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-11.png" alt="" width="85%"/>
   <p>图 10.11 Smithery 发布成功的 MCP 工具 </p>
 
 现在是时候去创造你的 MCP 服务器了！

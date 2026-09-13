@@ -17,6 +17,14 @@ const { createMarkdownRenderer } = await import(
   pathToFileURL(path.join(ROOT, "site", "node_modules", "vitepress", "dist", "node", "index.js")).href
 );
 const compiler = require(path.join(ROOT, "site", "node_modules", "@vue", "compiler-dom", "dist", "compiler-dom.cjs.js"));
+// VitePress 出的是 SSR 代码，所以两边都要编一遍：
+// 只看 parse 会漏掉 codegen 阶段的错（例如 {:.class} 生成 _mergeProps(a, , b)）。
+let compilerSsr = null;
+try {
+  compilerSsr = require(path.join(ROOT, "site", "node_modules", "@vue", "compiler-ssr", "dist", "compiler-ssr.cjs.js"));
+} catch {
+  /* 没有 SSR 编译器就只查客户端一份 */
+}
 const md = await createMarkdownRenderer(path.join(ROOT, "site", "docs"), {});
 
 const files = [];
@@ -58,7 +66,8 @@ for (const f of files) {
   }
   for (const u of relativeAssets(html)) bad.push([f, "相对资源会被打包器解析，须指回上游： " + u]);
   try {
-    compiler.parse(html);
+    compiler.compile(html, { mode: "function" });
+    if (compilerSsr) compilerSsr.compile(html, { mode: "function" });
   } catch (e) {
     const loc = e.loc?.start;
     let where = "";

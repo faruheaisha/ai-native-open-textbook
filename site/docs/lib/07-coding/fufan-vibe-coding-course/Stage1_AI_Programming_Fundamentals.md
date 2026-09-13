@@ -14,7 +14,7 @@ zh: ""
 
 # Stage 1: AI Programming Fundamentals
 
-English | [中文](https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/Stage1_AI_Programming_Fundamentals/README_CN.md)
+English | [中文](/lib/07-coding/fufan-vibe-coding-course/Stage1_AI_Programming_Fundamentals-README_CN)
 
 ## Objectives
 
@@ -22,12 +22,12 @@ Establish AI programming habits, complete LLM API integration, build a runnable 
 
 ## Lessons
 
-- **[Lesson 01](https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/Stage1_AI_Programming_Fundamentals/Lesson01_Dev_Workflow_and_Environment/Courseware/README.md)**: Development Workflow and Environment Setup
+- **[Lesson 01](/lib/07-coding/fufan-vibe-coding-course/Stage1_AI_Programming_Fundamentals-Lesson01_Dev_Workflow_and_Environment-Courseware)**: Development Workflow and Environment Setup
   - Vibe Coding AI Programming Paradigm
   - Getting Started with Cursor
   - ChatGPT Clone Hands-on Project
 
-- **[Lesson 02](https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/Stage1_AI_Programming_Fundamentals/Lesson02_LLM_API_and_Data_Assistant/Courseware/README.md)**: LLM API Integration and Smart Data Assistant
+- **[Lesson 02](/lib/07-coding/fufan-vibe-coding-course/Stage1_AI_Programming_Fundamentals-Lesson02_LLM_API_and_Data_Assistant-Courseware)**: LLM API Integration and Smart Data Assistant
   - Four Cursor Q&A Modes Application
   - MCP Server Integration and Configuration
   - Intelligent Data Analysis Assistant Hands-on
@@ -49,3 +49,5 @@ The `.excalidraw` files are the **original editable courseware**. You can modify
 1. Visit [https://excalidraw.com/](https://excalidraw.com/) (VPN required)
 2. Click the menu icon (☰) → **Open** (Ctrl+O)
 3. Select the `.excalidraw` file from your local drive
+
+<img src="https://gh-proxy.com/https://raw.githubusercontent.com/fufankeji/FuFan-VibeCodingCourse/5336ede159a7ac2ce0ee136324fe5bffd56970ca/Stage1_AI_Programming_Fundamentals/Lesson01_Dev_Workflow_and_Environment/images/open1.png" width="600" alt="How to open excalidraw file">

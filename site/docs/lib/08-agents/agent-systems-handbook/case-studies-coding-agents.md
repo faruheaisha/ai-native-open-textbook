@@ -241,5 +241,5 @@ From there, connect this case study to:
   a local coding-agent workflow that makes sandbox and approval choices visible
 - [Local Agent Tooling Source Map](https://github.com/Prompthon-IO/agent-systems-handbook/blob/5b71cfa598701a34834f33b42be5f8a422138a3c/contributor-kit/reference-notes/local-agent-tooling-source-map/README.md)
   for roots, resources, connectors, and file-grounded boundary design
-- [Case Studies Overview](/lib/08-agents/agent-systems-handbook/case-studies-README) for adjacent product shapes such as
+- [Case Studies Overview](/lib/08-agents/agent-systems-handbook/case-studies-2) for adjacent product shapes such as
   deep research and customer support agents

@@ -1182,7 +1182,7 @@ Auto Memory is a separate mechanism (`~/.claude/projects/<project>/memory/`), no
 
 ### Integration Points
 - [MCP Protocol](../05-mcp/) - Live data access alongside memory
-- [Slash Commands](../01-slash-commands/) - Session-specific shortcuts
+- [Slash Commands](/lib/09-harness/claude-howto/01-slash-commands) - Session-specific shortcuts
 - [Skills](../03-skills/) - Automated workflows with memory context
 
 ### Related Claude Features

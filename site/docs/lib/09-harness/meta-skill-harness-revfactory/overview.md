@@ -14,7 +14,7 @@ zh: ""
 
 # Harness — The Team-Architecture Factory for Claude Code
 
-**English** | [한국어](https://github.com/revfactory/harness/blob/cceac68ea1d0ad198ef4b7b906cd238375836387/README_KO.md) | [日本語](https://github.com/revfactory/harness/blob/cceac68ea1d0ad198ef4b7b906cd238375836387/README_JA.md)
+**English** | [한국어](/lib/09-harness/meta-skill-harness-revfactory/README_KO) | [日本語](/lib/09-harness/meta-skill-harness-revfactory/README_JA)
 
 > **Harness is a team-architecture factory for Claude Code.** Say **"build a harness for this project"** (English) or **"하네스 구성해줘"** (한국어) or **"ハーネスを構成して"** (日本語), and the plugin turns your domain description into an agent team and the skills they use — picked from six pre-defined team-architecture patterns.
 
@@ -114,6 +114,8 @@ Set up a harness
 |------|-------------|-----------------|
 | **Agent Teams** (default) | TeamCreate + SendMessage + TaskCreate | 2+ agents requiring collaboration |
 | **Subagents** | Direct Agent tool invocation | One-off tasks, no inter-agent communication needed |
+
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/revfactory/harness/cceac68ea1d0ad198ef4b7b906cd238375836387/harness_team.png" alt="Harness Agent Team" width="500">
 
 ### Architecture Patterns
 

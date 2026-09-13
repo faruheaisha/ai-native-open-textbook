@@ -156,4 +156,4 @@ NO_PROXY = "localhost,127.0.0.1,::1,*.local"
 
 ## 下一步
 
-下一步：[实战案例库](/lib/09-harness/codex-guide-freestylefly/docs-recipes-00-index)。
+下一步：[实战案例库](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/recipes/00-index.md)。

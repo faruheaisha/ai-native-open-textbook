@@ -12,21 +12,21 @@ title: "办公与知识工作"
 
 | 课程 | 分类 | 课时 | 原文 |
 |---|---|---|---|
-| ★★★ [WorkBuddyGuide（蓝皮书 + 社区案例集）](/lib/04-work/workbuddy-guide/index) | 工程手册与指南 | 45 | [打开 ↗](https://github.com/AlephAITech/WorkBuddyGuide) |
-| ★★★ [千问办公绿皮书（QwenWorkGuide）](/lib/04-work/qwenwork-guide/index) | 工程手册与指南 | 64 | [打开 ↗](https://github.com/wangxiaoshuai1998/QwenWorkGuide) |
-| ★★★ [豆包工作蓝皮书（DoubaoWork Guide）](/lib/04-work/doubaowork-bluebook/index) | 实践案例与产品 | 50 | [打开 ↗](https://github.com/AlephAITech/DoubaoWorkGuide) |
+| ★★★ [WorkBuddyGuide（蓝皮书 + 社区案例集）](/lib/04-work/workbuddy-guide/index) | 工程手册与指南 | 25 | [打开 ↗](https://github.com/AlephAITech/WorkBuddyGuide) |
+| ★★★ [千问办公绿皮书（QwenWorkGuide）](/lib/04-work/qwenwork-guide/index) | 工程手册与指南 | 24 | [打开 ↗](https://github.com/wangxiaoshuai1998/QwenWorkGuide) |
+| ★★★ [豆包工作蓝皮书（DoubaoWork Guide）](/lib/04-work/doubaowork-bluebook/index) | 实践案例与产品 | 25 | [打开 ↗](https://github.com/AlephAITech/DoubaoWorkGuide) |
 | ★★★ [Dify 中文系统教程（How-to-use-dify）](/lib/04-work/how-to-use-dify/index) | 系统课程 | 22 | [打开 ↗](https://github.com/hijasonxu1/How-to-use-dify) |
 
 ## 进阶与参考
 
 | 课程 | 分类 | 分级 | 课时 | 原文 |
 |---|---|---|---|---|
-| [Agent 办公实战指南（社区）](/lib/04-work/agent-guide-office/index) | 工程手册与指南 | ★★ 进阶 | 62 | [打开 ↗](https://github.com/tangshiyegit/agent-guide) |
+| [Agent 办公实战指南（社区）](/lib/04-work/agent-guide-office/index) | 工程手册与指南 | ★★ 进阶 | 25 | [打开 ↗](https://github.com/tangshiyegit/agent-guide) |
+| [办公 Agent 生态清单（awesome-workbuddy）](/lib/04-work/awesome-workbuddy/index) | 速查清单与索引 | ★★ 进阶 | 25 | [打开 ↗](https://github.com/staruhub/awesome-workbuddy) |
 | [智见 AI 蓝皮书：WorkBuddy Harness](/lib/04-work/zhijian-ai-bluebook-workbuddy-harness/index) | 实践案例与产品 | ★★ 进阶 | 23 | [打开 ↗](https://github.com/zjp1997720/zhijian-ai-bluebook-workbuddy-harness) |
-| [办公 Agent 生态清单（awesome-workbuddy）](/lib/04-work/awesome-workbuddy/index) | 速查清单与索引 | ★★ 进阶 | 4 | [打开 ↗](https://github.com/staruhub/awesome-workbuddy) |
-| [Coze Studio 源码研读](/lib/04-work/coze-studio/index) | 源码与实现研读 | ★ 参考 | 4 | [打开 ↗](https://github.com/coze-dev/coze-studio) |
-| [Coze Loop 源码研读](/lib/04-work/coze-loop/index) | 源码与实现研读 | ★ 参考 | 4 | [打开 ↗](https://github.com/coze-dev/coze-loop) |
-| [WorkBuddy Bench（腾讯官方评测集）](/lib/04-work/workbuddy-bench-official/index) | 实践案例与产品 | ★ 参考 | 4 | [打开 ↗](https://github.com/Tencent/workbuddy-bench) |
+| [Coze Loop 源码研读](/lib/04-work/coze-loop/index) | 源码与实现研读 | ★ 参考 | 25 | [打开 ↗](https://github.com/coze-dev/coze-loop) |
+| [Coze Studio 源码研读](/lib/04-work/coze-studio/index) | 源码与实现研读 | ★ 参考 | 21 | [打开 ↗](https://github.com/coze-dev/coze-studio) |
+| [WorkBuddy Bench（腾讯官方评测集）](/lib/04-work/workbuddy-bench-official/index) | 实践案例与产品 | ★ 参考 | 10 | [打开 ↗](https://github.com/Tencent/workbuddy-bench) |
 
 ## 官方文献与外链
 

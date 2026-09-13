@@ -19,6 +19,10 @@ zh: ""
 
 ## 课时
 
-1. [Role: []](examples.md)
+1. [Role: []](examples-base.md)
+2. [Wonderful Prompts](examples-GPT_Generate_A_book.md)
+3. [Wonderful Prompts](examples-gpt_math_solver.md)
+4. [Wonderful Prompts](examples-gpt4_CAN_coder.md)
+5. [Wonderful Prompts](examples-super_experts_gpt.md)
 
-开始学习 → [Role: []](examples.md)
+开始学习 → [Role: []](examples-base.md)

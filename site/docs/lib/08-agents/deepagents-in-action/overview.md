@@ -20,6 +20,8 @@ zh: ""
 
 由 **[沧海九粟](https://space.bilibili.com/28357052)** 出品 &nbsp;·&nbsp; LangChain 官方认证大使 &nbsp;·&nbsp; 《LangChain 实战》《LangGraph 实战》作者 &nbsp;·&nbsp; B 站万粉 UP 主
 
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/deepagents-in-action/4097ff944f9ffa1bdfe2dd04f751f4416b058860/public/imgs/hero.png" alt="《Deep Agents 实战》课程网站" width="800" />
+
 ---
 
 > [!WARNING]

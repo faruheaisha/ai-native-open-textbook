@@ -1,5 +1,5 @@
 // 由 scripts/build-site-content.mjs 生成，请勿手改。
-export const generatedAt = "2026-09-12"
+export const generatedAt = "2026-09-13"
 export const volumes = [
   {
     "id": "01-foundations",
@@ -155,19 +155,119 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
+        "title": "Week Template: AI Engineering Lab (Rich Lesson Standard v2)",
+        "rel": "curriculum-_templates-week-template",
+        "sourceRel": "curriculum/_templates/week-template.md"
+      },
+      {
+        "title": "AI Engineering Lab: Learning Path",
+        "rel": "curriculum-learning-path",
+        "sourceRel": "curriculum/learning-path.md"
+      },
+      {
+        "title": "AI Engineering Lab: Projects",
+        "rel": "curriculum-projects",
+        "sourceRel": "curriculum/projects/README.md"
+      },
+      {
         "title": "AI Engineering Lab: 24-Week AI Engineering Program",
         "rel": "curriculum",
         "sourceRel": "curriculum/README.md"
       },
       {
-        "title": "Generated data",
-        "rel": "data",
-        "sourceRel": "data/README.md"
+        "title": "AI Engineering Lab: Progress Tracker",
+        "rel": "curriculum-tracking",
+        "sourceRel": "curriculum/tracking/README.md"
       },
       {
-        "title": "AI Engineering Lab: Glossary",
-        "rel": "reference",
-        "sourceRel": "reference/GLOSSARY.md"
+        "title": "Week 01: Exercises & Checklist",
+        "rel": "curriculum-week-01-exercises",
+        "sourceRel": "curriculum/week-01/exercises.md"
+      },
+      {
+        "title": "Week 01: Quiz (10 questions, 8/10 to pass)",
+        "rel": "curriculum-week-01-quiz",
+        "sourceRel": "curriculum/week-01/quiz.md"
+      },
+      {
+        "title": "Week 01: Python Foundations & the AI Engineering Landscape",
+        "rel": "curriculum-week-01",
+        "sourceRel": "curriculum/week-01/README.md"
+      },
+      {
+        "title": "Week 02: Exercises & Checklist",
+        "rel": "curriculum-week-02-exercises",
+        "sourceRel": "curriculum/week-02/exercises.md"
+      },
+      {
+        "title": "Week 02: Quiz (10 questions, 8/10 to pass)",
+        "rel": "curriculum-week-02-quiz",
+        "sourceRel": "curriculum/week-02/quiz.md"
+      },
+      {
+        "title": "Week 02: Data Engineering & SQL for AI",
+        "rel": "curriculum-week-02",
+        "sourceRel": "curriculum/week-02/README.md"
+      },
+      {
+        "title": "Week 03: Exercises & Checklist",
+        "rel": "curriculum-week-03-exercises",
+        "sourceRel": "curriculum/week-03/exercises.md"
+      },
+      {
+        "title": "Week 03: Quiz (10 questions, 8/10 to pass)",
+        "rel": "curriculum-week-03-quiz",
+        "sourceRel": "curriculum/week-03/quiz.md"
+      },
+      {
+        "title": "Week 03: Machine Learning Fundamentals",
+        "rel": "curriculum-week-03",
+        "sourceRel": "curriculum/week-03/README.md"
+      },
+      {
+        "title": "Week 04: Exercises & Checklist",
+        "rel": "curriculum-week-04-exercises",
+        "sourceRel": "curriculum/week-04/exercises.md"
+      },
+      {
+        "title": "Week 04: Quiz (10 questions, 8/10 to pass)",
+        "rel": "curriculum-week-04-quiz",
+        "sourceRel": "curriculum/week-04/quiz.md"
+      },
+      {
+        "title": "Week 04: Deep Learning with PyTorch",
+        "rel": "curriculum-week-04",
+        "sourceRel": "curriculum/week-04/README.md"
+      },
+      {
+        "title": "Week 05: Exercises & Checklist",
+        "rel": "curriculum-week-05-exercises",
+        "sourceRel": "curriculum/week-05/exercises.md"
+      },
+      {
+        "title": "Week 05: Quiz (10 questions, 8/10 to pass)",
+        "rel": "curriculum-week-05-quiz",
+        "sourceRel": "curriculum/week-05/quiz.md"
+      },
+      {
+        "title": "Week 05, How LLMs Work: Tokens to Transformers",
+        "rel": "curriculum-week-05",
+        "sourceRel": "curriculum/week-05/README.md"
+      },
+      {
+        "title": "Week 06: Exercises & Checklist",
+        "rel": "curriculum-week-06-exercises",
+        "sourceRel": "curriculum/week-06/exercises.md"
+      },
+      {
+        "title": "Week 06: Quiz (10 questions, 8/10 to pass)",
+        "rel": "curriculum-week-06-quiz",
+        "sourceRel": "curriculum/week-06/quiz.md"
+      },
+      {
+        "title": "Week 06: Prompt Engineering & the Context Window",
+        "rel": "curriculum-week-06",
+        "sourceRel": "curriculum/week-06/README.md"
       }
     ]
   },
@@ -217,82 +317,82 @@ export const courses: Course[] = [
       },
       {
         "title": "Getting Started with this course",
-        "rel": "00-course-setup-README",
+        "rel": "00-course-setup",
         "sourceRel": "00-course-setup/README.md"
       },
       {
         "title": "Introduction to Generative AI and Large Language Models",
-        "rel": "01-introduction-to-genai-README",
+        "rel": "01-introduction-to-genai",
         "sourceRel": "01-introduction-to-genai/README.md"
       },
       {
         "title": "Exploring and comparing different LLMs",
-        "rel": "02-exploring-and-comparing-different-llms-README",
+        "rel": "02-exploring-and-comparing-different-llms",
         "sourceRel": "02-exploring-and-comparing-different-llms/README.md"
       },
       {
         "title": "Using Generative AI Responsibly",
-        "rel": "03-using-generative-ai-responsibly-README",
+        "rel": "03-using-generative-ai-responsibly",
         "sourceRel": "03-using-generative-ai-responsibly/README.md"
       },
       {
         "title": "Prompt Engineering Fundamentals",
-        "rel": "04-prompt-engineering-fundamentals-README",
+        "rel": "04-prompt-engineering-fundamentals",
         "sourceRel": "04-prompt-engineering-fundamentals/README.md"
       },
       {
         "title": "Creating Advanced prompts",
-        "rel": "05-advanced-prompts-README",
+        "rel": "05-advanced-prompts",
         "sourceRel": "05-advanced-prompts/README.md"
       },
       {
         "title": "Building Text Generation Applications",
-        "rel": "06-text-generation-apps-README",
+        "rel": "06-text-generation-apps",
         "sourceRel": "06-text-generation-apps/README.md"
       },
       {
         "title": "Building Generative AI-Powered Chat Applications",
-        "rel": "07-building-chat-applications-README",
+        "rel": "07-building-chat-applications",
         "sourceRel": "07-building-chat-applications/README.md"
       },
       {
         "title": "Building a Search Applications",
-        "rel": "08-building-search-applications-README",
+        "rel": "08-building-search-applications",
         "sourceRel": "08-building-search-applications/README.md"
       },
       {
         "title": "Transcription data prep",
-        "rel": "08-building-search-applications-scripts-README",
+        "rel": "08-building-search-applications-scripts",
         "sourceRel": "08-building-search-applications/scripts/README.md"
       },
       {
         "title": "Building Image Generation Applications",
-        "rel": "09-building-image-applications-README",
+        "rel": "09-building-image-applications",
         "sourceRel": "09-building-image-applications/README.md"
       },
       {
         "title": "Building Low Code AI Applications",
-        "rel": "10-building-low-code-ai-applications-README",
+        "rel": "10-building-low-code-ai-applications",
         "sourceRel": "10-building-low-code-ai-applications/README.md"
       },
       {
         "title": "Integrating with function calling",
-        "rel": "11-integrating-with-function-calling-README",
+        "rel": "11-integrating-with-function-calling",
         "sourceRel": "11-integrating-with-function-calling/README.md"
       },
       {
         "title": "Designing UX for AI Applications",
-        "rel": "12-designing-ux-for-ai-applications-README",
+        "rel": "12-designing-ux-for-ai-applications",
         "sourceRel": "12-designing-ux-for-ai-applications/README.md"
       },
       {
         "title": "Securing Your Generative AI Applications",
-        "rel": "13-securing-ai-applications-README",
+        "rel": "13-securing-ai-applications",
         "sourceRel": "13-securing-ai-applications/README.md"
       },
       {
         "title": "The Generative AI Application Lifecycle",
-        "rel": "14-the-generative-ai-application-lifecycle-README",
+        "rel": "14-the-generative-ai-application-lifecycle",
         "sourceRel": "14-the-generative-ai-application-lifecycle/README.md"
       },
       {
@@ -309,46 +409,6 @@ export const courses: Course[] = [
         "title": "Introduction to Neural Networks: Perceptron",
         "rel": "15-rag-and-vector-databases-data-perceptron",
         "sourceRel": "15-rag-and-vector-databases/data/perceptron.md"
-      },
-      {
-        "title": "Retrieval Augmented Generation (RAG) and Vector Databases",
-        "rel": "15-rag-and-vector-databases-README",
-        "sourceRel": "15-rag-and-vector-databases/README.md"
-      },
-      {
-        "title": "Generative AI for Beginners（微软官方入门课）",
-        "rel": "16-open-source-models-README",
-        "sourceRel": "16-open-source-models/README.md"
-      },
-      {
-        "title": "Generative AI for Beginners（微软官方入门课）",
-        "rel": "17-ai-agents-README",
-        "sourceRel": "17-ai-agents/README.md"
-      },
-      {
-        "title": "Fine-Tuning Your LLM",
-        "rel": "18-fine-tuning-README",
-        "sourceRel": "18-fine-tuning/README.md"
-      },
-      {
-        "title": "Resources For Self-Guided Learning",
-        "rel": "18-fine-tuning-RESOURCES",
-        "sourceRel": "18-fine-tuning/RESOURCES.md"
-      },
-      {
-        "title": "Introduction to Small Language Models for Generative AI for Beginners",
-        "rel": "19-slm-README",
-        "sourceRel": "19-slm/README.md"
-      },
-      {
-        "title": "Building with Mistral Models",
-        "rel": "20-mistral-README",
-        "sourceRel": "20-mistral/README.md"
-      },
-      {
-        "title": "Building With the Meta Family Models",
-        "rel": "21-meta-README",
-        "sourceRel": "21-meta/README.md"
       }
     ]
   },
@@ -383,6 +443,16 @@ export const courses: Course[] = [
       },
       {
         "title": "Appendix A: Introduction to PyTorch",
+        "rel": "appendix-A-01_main-chapter-code",
+        "sourceRel": "appendix-A/01_main-chapter-code/README.md"
+      },
+      {
+        "title": "LLMs from Scratch",
+        "rel": "appendix-A-02_setup-recommendations",
+        "sourceRel": "appendix-A/02_setup-recommendations/README.md"
+      },
+      {
+        "title": "Appendix A: Introduction to PyTorch",
         "rel": "appendix-A",
         "sourceRel": "appendix-A/README.md"
       },
@@ -402,9 +472,59 @@ export const courses: Course[] = [
         "sourceRel": "appendix-E/README.md"
       },
       {
+        "title": "Recommendations for Getting the Most Out of a Technical Book",
+        "rel": "ch01-reading-recommendations",
+        "sourceRel": "ch01/reading-recommendations.md"
+      },
+      {
+        "title": "Chapter 2: Working with Text Data",
+        "rel": "ch02-01_main-chapter-code",
+        "sourceRel": "ch02/01_main-chapter-code/README.md"
+      },
+      {
+        "title": "Chapter 2: Working with Text Data",
+        "rel": "ch02-02_bonus_bytepair-encoder",
+        "sourceRel": "ch02/02_bonus_bytepair-encoder/README.md"
+      },
+      {
+        "title": "Chapter 2: Working with Text Data",
+        "rel": "ch02-03_bonus_embedding-vs-matmul",
+        "sourceRel": "ch02/03_bonus_embedding-vs-matmul/README.md"
+      },
+      {
+        "title": "Chapter 2: Working with Text Data",
+        "rel": "ch02-04_bonus_dataloader-intuition",
+        "sourceRel": "ch02/04_bonus_dataloader-intuition/README.md"
+      },
+      {
+        "title": "Byte Pair Encoding (BPE) Tokenizer From Scratch",
+        "rel": "ch02-05_bpe-from-scratch",
+        "sourceRel": "ch02/05_bpe-from-scratch/README.md"
+      },
+      {
+        "title": "SimpleTokenizerV3",
+        "rel": "ch02-06_bonus_simple-tokenizer-v3",
+        "sourceRel": "ch02/06_bonus_simple-tokenizer-v3/README.md"
+      },
+      {
         "title": "Chapter 2: Working with Text Data",
         "rel": "ch02",
         "sourceRel": "ch02/README.md"
+      },
+      {
+        "title": "Chapter 3: Coding Attention Mechanisms",
+        "rel": "ch03-01_main-chapter-code",
+        "sourceRel": "ch03/01_main-chapter-code/README.md"
+      },
+      {
+        "title": "More Efficient Multi-Head Attention Implementations",
+        "rel": "ch03-02_bonus_efficient-multihead-attention",
+        "sourceRel": "ch03/02_bonus_efficient-multihead-attention/README.md"
+      },
+      {
+        "title": "Understanding PyTorch Buffers",
+        "rel": "ch03-03_understanding-buffers",
+        "sourceRel": "ch03/03_understanding-buffers/README.md"
       },
       {
         "title": "Chapter 3: Coding Attention Mechanisms",
@@ -412,29 +532,19 @@ export const courses: Course[] = [
         "sourceRel": "ch03/README.md"
       },
       {
-        "title": "Chapter 4: Implementing a GPT Model from Scratch to Generate Text",
-        "rel": "ch04",
-        "sourceRel": "ch04/README.md"
+        "title": "Chapter 4: Implementing a GPT Model from Scratch To Generate Text",
+        "rel": "ch04-01_main-chapter-code",
+        "sourceRel": "ch04/01_main-chapter-code/README.md"
       },
       {
-        "title": "Chapter 5: Pretraining on Unlabeled Data",
-        "rel": "ch05",
-        "sourceRel": "ch05/README.md"
+        "title": "Chapter 4: Implementing a GPT Model from Scratch To Generate Text",
+        "rel": "ch04-02_performance-analysis",
+        "sourceRel": "ch04/02_performance-analysis/README.md"
       },
       {
-        "title": "Chapter 6: Finetuning for Classification",
-        "rel": "ch06",
-        "sourceRel": "ch06/README.md"
-      },
-      {
-        "title": "Chapter 7: Finetuning to Follow Instructions",
-        "rel": "ch07",
-        "sourceRel": "ch07/README.md"
-      },
-      {
-        "title": "Optional Setup Instructions",
-        "rel": "setup",
-        "sourceRel": "setup/README.md"
+        "title": "Bonus Material: KV Cache",
+        "rel": "ch04-03_kv-cache",
+        "sourceRel": "ch04/03_kv-cache/README.md"
       }
     ]
   },
@@ -469,23 +579,149 @@ export const courses: Course[] = [
       },
       {
         "title": "Agent-First / Agent-Friendly：为智能体而构建",
-        "rel": "docs",
+        "rel": "docs-Agent_First",
         "sourceRel": "docs/Agent_First.md"
       },
       {
         "title": "Awesome ChatGPT 中文指南",
-        "rel": "examples",
+        "rel": "docs-AGI",
+        "sourceRel": "docs/AGI.md"
+      },
+      {
+        "title": "Awesome ChatGPT 中文指南",
+        "rel": "docs-AI_money",
+        "sourceRel": "docs/AI_money.md"
+      },
+      {
+        "title": "Awesome ChatGPT 中文指南",
+        "rel": "docs-AI_tools",
+        "sourceRel": "docs/AI_tools.md"
+      },
+      {
+        "title": "浏览器与计算机自动化（Browser / Computer Use）",
+        "rel": "docs-Browser_Computer_Use",
+        "sourceRel": "docs/Browser_Computer_Use.md"
+      },
+      {
+        "title": "Awesome ChatGPT 中文指南",
+        "rel": "docs-ChatGPT_access",
+        "sourceRel": "docs/ChatGPT_access.md"
+      },
+      {
+        "title": "Awesome ChatGPT 中文指南",
+        "rel": "docs-ChatGPT_dev",
+        "sourceRel": "docs/ChatGPT_dev.md"
+      },
+      {
+        "title": "Awesome ChatGPT 中文指南",
+        "rel": "docs-ChatGPT_plugins",
+        "sourceRel": "docs/ChatGPT_plugins.md"
+      },
+      {
+        "title": "Awesome ChatGPT 中文指南",
+        "rel": "docs-ChatGPT_prompts",
+        "sourceRel": "docs/ChatGPT_prompts.md"
+      },
+      {
+        "title": "Awesome ChatGPT 中文指南",
+        "rel": "docs-ChatGPT_tools",
+        "sourceRel": "docs/ChatGPT_tools.md"
+      },
+      {
+        "title": "Awesome ChatGPT 中文指南",
+        "rel": "docs-ChatGPT_Top_Project",
+        "sourceRel": "docs/ChatGPT_Top_Project.md"
+      },
+      {
+        "title": "Awesome ChatGPT 中文指南",
+        "rel": "docs-Claude_Skills",
+        "sourceRel": "docs/Claude_Skills.md"
+      },
+      {
+        "title": "Coding Agents 编程智能体",
+        "rel": "docs-Coding_Agents",
+        "sourceRel": "docs/Coding_Agents.md"
+      },
+      {
+        "title": "DeepSeek 生态指南",
+        "rel": "docs-DeepSeek",
+        "sourceRel": "docs/DeepSeek.md"
+      },
+      {
+        "title": "Awesome ChatGPT 中文指南",
+        "rel": "docs-LLM_RAG",
+        "sourceRel": "docs/LLM_RAG.md"
+      },
+      {
+        "title": "Awesome ChatGPT 中文指南",
+        "rel": "docs-LLMs",
+        "sourceRel": "docs/LLMs.md"
+      },
+      {
+        "title": "Awesome ChatGPT 中文指南",
+        "rel": "docs-MCP",
+        "sourceRel": "docs/MCP.md"
+      },
+      {
+        "title": "前沿大模型经典技术文章",
+        "rel": "docs-OpenAI_articles",
+        "sourceRel": "docs/OpenAI_articles.md"
+      },
+      {
+        "title": "Sora 体系化知识",
+        "rel": "docs-Sora",
+        "sourceRel": "docs/Sora.md"
+      },
+      {
+        "title": "Awesome ChatGPT 中文指南",
+        "rel": "docs-thinking",
+        "sourceRel": "docs/thinking.md"
+      },
+      {
+        "title": "Awesome ChatGPT 中文指南",
+        "rel": "examples-chatGPT_set_free",
         "sourceRel": "examples/chatGPT_set_free.md"
       },
       {
         "title": "Awesome ChatGPT 中文指南",
-        "rel": "files",
-        "sourceRel": "files/simpread-真 · 万字长文：可能是全网最晚的 ChatGPT 技术总结 - TechBeattech.md"
+        "rel": "examples-ChatGPT_xiangzi",
+        "sourceRel": "examples/ChatGPT_xiangzi.md"
       },
       {
         "title": "Awesome ChatGPT 中文指南",
-        "rel": "src",
-        "sourceRel": "src/trending.md"
+        "rel": "examples-free_chatgpt_website",
+        "sourceRel": "examples/free_chatgpt_website.md"
+      }
+    ]
+  },
+  {
+    "id": "01-foundations/awesome-llm-resources",
+    "volume": "01-foundations",
+    "local": "awesome-llm-resources",
+    "title": "Awesome LLM Resources（大模型资源清单）",
+    "kind": "清单与速查",
+    "category": "速查清单与索引",
+    "tier": 3,
+    "license": "Apache-2.0",
+    "licenseLabel": "可转载",
+    "lang": "中英混排",
+    "publishable": true,
+    "repo": "WangRongsheng/awesome-LLM-resources",
+    "site": null,
+    "commit": "1fdf4ba2279979507c122db6403d2b7f97cc1e36",
+    "entry": "README.md",
+    "featured": false,
+    "sourceUrl": "https://github.com/WangRongsheng/awesome-LLM-resources",
+    "docs": [
+      {
+        "title": "课程首页",
+        "rel": "index",
+        "sourceRel": ""
+      },
+      {
+        "title": "Awesome LLM Resources（大模型资源清单）",
+        "rel": "overview",
+        "sourceRel": "README.md"
       }
     ]
   },
@@ -651,313 +887,113 @@ export const courses: Course[] = [
       },
       {
         "title": "用千问办公专家团吃透十年年报：一套可复用的上市公司深度研究方法",
-        "rel": "docs-cases-submissions-annual-report-digital-transformation-index",
+        "rel": "docs-cases-submissions-annual-report-digital-transformation",
         "sourceRel": "docs/cases/submissions/annual-report-digital-transformation/index.md"
       },
       {
         "title": "【示例】用千问办公自动整理每日 AI 资讯",
-        "rel": "docs-cases-submissions-daily-ai-news-index",
+        "rel": "docs-cases-submissions-daily-ai-news",
         "sourceRel": "docs/cases/submissions/daily-ai-news/index.md"
       },
       {
         "title": "用千问办公生成一个 GSAP 粒子球体作品集动画网站",
-        "rel": "docs-cases-submissions-jz-2025-showreel-index",
+        "rel": "docs-cases-submissions-jz-2025-showreel",
         "sourceRel": "docs/cases/submissions/jz-2025-showreel/index.md"
       },
       {
         "title": "用千问办公清洗 119 份门店 Excel 并生成可交互运营看板",
-        "rel": "docs-cases-submissions-tea-shop-sales-analysis-index",
+        "rel": "docs-cases-submissions-tea-shop-sales-analysis",
         "sourceRel": "docs/cases/submissions/tea-shop-sales-analysis/index.md"
       },
       {
         "title": "把经历发给千问办公，直接生成一份好看的简历",
-        "rel": "docs-cases-submissions-vibe-resume-index",
+        "rel": "docs-cases-submissions-vibe-resume",
         "sourceRel": "docs/cases/submissions/vibe-resume/index.md"
       },
       {
         "title": "用千问办公公众号 Skill 一键排版并发布到微信公众号草稿箱",
-        "rel": "docs-cases-submissions-wechat-format-publish-index",
+        "rel": "docs-cases-submissions-wechat-format-publish",
         "sourceRel": "docs/cases/submissions/wechat-format-publish/index.md"
       },
       {
         "title": "告别微信收藏夹吃灰：用 ima + 千问办公把碎片内容构建成可生长的知识体系",
-        "rel": "docs-cases-submissions-wechat-ima-knowledge-index",
+        "rel": "docs-cases-submissions-wechat-ima-knowledge",
         "sourceRel": "docs/cases/submissions/wechat-ima-knowledge/index.md"
       },
       {
         "title": "\\[实战指南\\]｜如何用 Remotion Skills 做视频",
-        "rel": "docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-_实战案例_如何用_Remotion_Skills_做视频-index",
+        "rel": "docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-_实战案例_如何用_Remotion_Skills_做视频",
         "sourceRel": "docs/greenbook/第二部分 实战案例 从具体任务，走向AI Native/[实战案例]｜如何用 Remotion Skills 做视频/index.md"
       },
       {
         "title": "实战指南｜高效整理资料、加工文档",
-        "rel": "docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-_文档类_高效整理资料_加工文档-index",
+        "rel": "docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-_文档类_高效整理资料_加工文档",
         "sourceRel": "docs/greenbook/第二部分 实战案例 从具体任务，走向AI Native/【文档类】｜高效整理资料、加工文档/index.md"
       },
       {
         "title": "实战指南｜快速写好通知/请示/公告等材料",
-        "rel": "docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-_文档类_快速写好通知_请示_公告等材料-index",
+        "rel": "docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-_文档类_快速写好通知_请示_公告等材料",
         "sourceRel": "docs/greenbook/第二部分 实战案例 从具体任务，走向AI Native/【文档类】｜快速写好通知／请示／公告等材料/index.md"
       },
       {
         "title": "实战指南｜高效整理资料、加工文档",
-        "rel": "docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-部分_实战案例_从具体任务_走向AI_Native-_文档类_高效整理资料_加工文档-index",
+        "rel": "docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-部分_实战案例_从具体任务_走向AI_Native-_文档类_高效整理资料_加工文档",
         "sourceRel": "docs/greenbook/第二部分 实战案例 从具体任务，走向AI Native/部分 实战案例 从具体任务，走向AI Native/【文档类】｜高效整理资料、加工文档/index.md"
       },
       {
         "title": "实战指南｜快速写好通知/请示/公告等材料",
-        "rel": "docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-部分_实战案例_从具体任务_走向AI_Native-_文档类_快速写好通知_请示_公告等材料-index",
+        "rel": "docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-部分_实战案例_从具体任务_走向AI_Native-_文档类_快速写好通知_请示_公告等材料",
         "sourceRel": "docs/greenbook/第二部分 实战案例 从具体任务，走向AI Native/部分 实战案例 从具体任务，走向AI Native/【文档类】｜快速写好通知／请示／公告等材料/index.md"
       },
       {
         "title": "电商运营-电商经营数据大屏「官方案例」",
-        "rel": "docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-部分_实战案例_从具体任务_走向AI_Native-电商运营-电商经营数据大屏_官方案例_-index",
+        "rel": "docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-部分_实战案例_从具体任务_走向AI_Native-电商运营-电商经营数据大屏_官方案例_",
         "sourceRel": "docs/greenbook/第二部分 实战案例 从具体任务，走向AI Native/部分 实战案例 从具体任务，走向AI Native/电商运营-电商经营数据大屏「官方案例」/index.md"
       },
       {
         "title": "实战指南｜4个场景教你用 千问办公 告别重复工作",
-        "rel": "docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-部分_实战案例_从具体任务_走向AI_Native-实战指南_4个场景教你用_千问办公_告别重复工作-index",
+        "rel": "docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-部分_实战案例_从具体任务_走向AI_Native-实战指南_4个场景教你用_千问办公_告别重复工作",
         "sourceRel": "docs/greenbook/第二部分 实战案例 从具体任务，走向AI Native/部分 实战案例 从具体任务，走向AI Native/实战指南｜4个场景教你用 千问办公 告别重复工作/index.md"
       },
       {
         "title": "实战指南｜5个技巧教你用 千问办公做复杂数据分析",
-        "rel": "docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-部分_实战案例_从具体任务_走向AI_Native-实战指南_5个技巧教你用_千问_做复杂数据分析-index",
+        "rel": "docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-部分_实战案例_从具体任务_走向AI_Native-实战指南_5个技巧教你用_千问_做复杂数据分析",
         "sourceRel": "docs/greenbook/第二部分 实战案例 从具体任务，走向AI Native/部分 实战案例 从具体任务，走向AI Native/实战指南｜5个技巧教你用 千问 做复杂数据分析/index.md"
       },
       {
         "title": "实战指南｜5个技巧教你用 千问办公做复杂数据分析",
-        "rel": "docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-部分_实战案例_从具体任务_走向AI_Native-实战指南_5个技巧教你用_TRAE_做复杂数据分析-index",
+        "rel": "docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-部分_实战案例_从具体任务_走向AI_Native-实战指南_5个技巧教你用_TRAE_做复杂数据分析",
         "sourceRel": "docs/greenbook/第二部分 实战案例 从具体任务，走向AI Native/部分 实战案例 从具体任务，走向AI Native/实战指南｜5个技巧教你用 TRAE 做复杂数据分析/index.md"
       },
       {
         "title": "实战指南｜数据分析全流程实战教程",
-        "rel": "docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-部分_实战案例_从具体任务_走向AI_Native-实战指南_数据分析全流程实战教程-index",
+        "rel": "docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-部分_实战案例_从具体任务_走向AI_Native-实战指南_数据分析全流程实战教程",
         "sourceRel": "docs/greenbook/第二部分 实战案例 从具体任务，走向AI Native/部分 实战案例 从具体任务，走向AI Native/实战指南｜数据分析全流程实战教程/index.md"
       },
       {
         "title": "实战指南｜Excel 表格数据处理",
-        "rel": "docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-部分_实战案例_从具体任务_走向AI_Native-实战指南_Excel_表格数据处理-index",
+        "rel": "docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-部分_实战案例_从具体任务_走向AI_Native-实战指南_Excel_表格数据处理",
         "sourceRel": "docs/greenbook/第二部分 实战案例 从具体任务，走向AI Native/部分 实战案例 从具体任务，走向AI Native/实战指南｜Excel 表格数据处理/index.md"
       },
       {
         "title": "自媒体-上传录音，克隆自己的声音做口播",
-        "rel": "docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-部分_实战案例_从具体任务_走向AI_Native-自媒体-上传录音_克隆自己的声音做口播-index",
+        "rel": "docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-部分_实战案例_从具体任务_走向AI_Native-自媒体-上传录音_克隆自己的声音做口播",
         "sourceRel": "docs/greenbook/第二部分 实战案例 从具体任务，走向AI Native/部分 实战案例 从具体任务，走向AI Native/自媒体-上传录音，克隆自己的声音做口播/index.md"
       },
       {
         "title": "第二部分 实战案例 从具体任务，走向AI Native",
-        "rel": "docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-部分_实战案例_从具体任务_走向AI_Native-index",
+        "rel": "docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-部分_实战案例_从具体任务_走向AI_Native",
         "sourceRel": "docs/greenbook/第二部分 实战案例 从具体任务，走向AI Native/部分 实战案例 从具体任务，走向AI Native/index.md"
       },
       {
         "title": "电商运营-电商经营数据大屏「官方案例」",
-        "rel": "docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-电商运营-电商经营数据大屏_官方案例_-index",
+        "rel": "docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-电商运营-电商经营数据大屏_官方案例_",
         "sourceRel": "docs/greenbook/第二部分 实战案例 从具体任务，走向AI Native/电商运营-电商经营数据大屏「官方案例」/index.md"
       },
       {
         "title": "实战指南｜4个场景教你用 千问办公 告别重复工作",
-        "rel": "docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-实战指南_4个场景教你用_千问办公_告别重复工作-index",
+        "rel": "docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-实战指南_4个场景教你用_千问办公_告别重复工作",
         "sourceRel": "docs/greenbook/第二部分 实战案例 从具体任务，走向AI Native/实战指南｜4个场景教你用 千问办公 告别重复工作/index.md"
-      },
-      {
-        "title": "实战指南｜5个技巧教你用 千问办公做复杂数据分析",
-        "rel": "docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-实战指南_5个技巧教你用_千问_做复杂数据分析-index",
-        "sourceRel": "docs/greenbook/第二部分 实战案例 从具体任务，走向AI Native/实战指南｜5个技巧教你用 千问 做复杂数据分析/index.md"
-      },
-      {
-        "title": "实战指南｜5个技巧教你用 千问办公做复杂数据分析",
-        "rel": "docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-实战指南_5个技巧教你用_TRAE_做复杂数据分析-index",
-        "sourceRel": "docs/greenbook/第二部分 实战案例 从具体任务，走向AI Native/实战指南｜5个技巧教你用 TRAE 做复杂数据分析/index.md"
-      },
-      {
-        "title": "实战指南｜数据分析全流程实战教程",
-        "rel": "docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-实战指南_数据分析全流程实战教程-index",
-        "sourceRel": "docs/greenbook/第二部分 实战案例 从具体任务，走向AI Native/实战指南｜数据分析全流程实战教程/index.md"
-      },
-      {
-        "title": "实战指南｜Excel 表格数据处理",
-        "rel": "docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-实战指南_Excel_表格数据处理-index",
-        "sourceRel": "docs/greenbook/第二部分 实战案例 从具体任务，走向AI Native/实战指南｜Excel 表格数据处理/index.md"
-      },
-      {
-        "title": "自媒体-上传录音，克隆自己的声音做口播",
-        "rel": "docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-自媒体-上传录音_克隆自己的声音做口播-index",
-        "sourceRel": "docs/greenbook/第二部分 实战案例 从具体任务，走向AI Native/自媒体-上传录音，克隆自己的声音做口播/index.md"
-      },
-      {
-        "title": "第二部分 实战案例 从具体任务，走向AI Native",
-        "rel": "docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-index",
-        "sourceRel": "docs/greenbook/第二部分 实战案例 从具体任务，走向AI Native/index.md"
-      },
-      {
-        "title": "千问办公绿皮书（QwenWorkGuide）",
-        "rel": "docs-greenbook-第三部分_进阶使用案例-_实战案例_从_UI_到可交付前端原型-index",
-        "sourceRel": "docs/greenbook/第三部分 进阶使用案例/[实战案例]｜从 UI 到可交付前端原型/index.md"
-      },
-      {
-        "title": "实战指南｜内容创作者从选题到复盘全流程",
-        "rel": "docs-greenbook-第三部分_进阶使用案例-内容创作者_从选题到复盘全流程-index",
-        "sourceRel": "docs/greenbook/第三部分 进阶使用案例/内容创作者｜从选题到复盘全流程/index.md"
-      },
-      {
-        "title": "实战指南｜图片设计、生成和编辑",
-        "rel": "docs-greenbook-第三部分_进阶使用案例-内容创作者_图片设计_生成和编辑-index",
-        "sourceRel": "docs/greenbook/第三部分 进阶使用案例/内容创作者｜图片设计、生成和编辑/index.md"
-      },
-      {
-        "title": "实战指南｜由需求直接生成原型图",
-        "rel": "docs-greenbook-第三部分_进阶使用案例-实战指南_由需求直接生成原型图-index",
-        "sourceRel": "docs/greenbook/第三部分 进阶使用案例/实战指南｜由需求直接生成原型图/index.md"
-      },
-      {
-        "title": "自媒体运营-公众号排版推送",
-        "rel": "docs-greenbook-第三部分_进阶使用案例-自媒体运营-公众号排版推送-index",
-        "sourceRel": "docs/greenbook/第三部分 进阶使用案例/自媒体运营-公众号排版推送/index.md"
-      },
-      {
-        "title": "第三部分 进阶使用案例",
-        "rel": "docs-greenbook-第三部分_进阶使用案例-index",
-        "sourceRel": "docs/greenbook/第三部分 进阶使用案例/index.md"
-      },
-      {
-        "title": "千问办公绿皮书（QwenWorkGuide）",
-        "rel": "docs-greenbook-第四部分_认知与方法论-_自媒体学_AI_必看_公众号排版_skill_详解-index",
-        "sourceRel": "docs/greenbook/第四部分 认知与方法论/【自媒体学 AI 必看】公众号排版 skill 详解/index.md"
-      },
-      {
-        "title": "【IP 配图 Skill 必看】全网独一份的架构详解",
-        "rel": "docs-greenbook-第四部分_认知与方法论-_IP_配图_Skill_必看_全网独一份的架构详解-index",
-        "sourceRel": "docs/greenbook/第四部分 认知与方法论/【IP 配图 Skill 必看】全网独一份的架构详解/index.md"
-      },
-      {
-        "title": "把真实任务变成 AI 工作流：一套可复用的方法论",
-        "rel": "docs-greenbook-第四部分_认知与方法论-把真实任务变成_AI_工作流_一套可复用的方法论-index",
-        "sourceRel": "docs/greenbook/第四部分 认知与方法论/把真实任务变成 AI 工作流：一套可复用的方法论/index.md"
-      },
-      {
-        "title": "怎么写出一个skill",
-        "rel": "docs-greenbook-第四部分_认知与方法论-怎么写出一个skill-index",
-        "sourceRel": "docs/greenbook/第四部分 认知与方法论/怎么写出一个skill/index.md"
-      },
-      {
-        "title": "第四部分 认知与方法论",
-        "rel": "docs-greenbook-第四部分_认知与方法论-index",
-        "sourceRel": "docs/greenbook/第四部分 认知与方法论/index.md"
-      },
-      {
-        "title": "第1章 初识 千问办公",
-        "rel": "docs-greenbook-第一部分_使用手册_先把_千问办公_用起来-第1章_初识_千问办公-index",
-        "sourceRel": "docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第1章 初识 千问办公/index.md"
-      },
-      {
-        "title": "第2章 Web端使用链路",
-        "rel": "docs-greenbook-第一部分_使用手册_先把_千问办公_用起来-第2章_Web端使用链路-index",
-        "sourceRel": "docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第2章 Web端使用链路/index.md"
-      },
-      {
-        "title": "第3章 桌面端使用链路",
-        "rel": "docs-greenbook-第一部分_使用手册_先把_千问办公_用起来-第3章_桌面端使用链路-index",
-        "sourceRel": "docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第3章 桌面端使用链路/index.md"
-      },
-      {
-        "title": "第4章 通用设置",
-        "rel": "docs-greenbook-第一部分_使用手册_先把_千问办公_用起来-第4章_通用设置-index",
-        "sourceRel": "docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第4章 通用设置/index.md"
-      },
-      {
-        "title": "第5章 网页端核心功能",
-        "rel": "docs-greenbook-第一部分_使用手册_先把_千问办公_用起来-第5章_网页端核心功能-index",
-        "sourceRel": "docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第5章 网页端核心功能/index.md"
-      },
-      {
-        "title": "6.1 系统设置",
-        "rel": "docs-greenbook-第一部分_使用手册_先把_千问办公_用起来-第6章_桌面端核心功能-6.1_系统设置-index",
-        "sourceRel": "docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.1 系统设置/index.md"
-      },
-      {
-        "title": "6.2 意识",
-        "rel": "docs-greenbook-第一部分_使用手册_先把_千问办公_用起来-第6章_桌面端核心功能-6.2_意识-index",
-        "sourceRel": "docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.2 意识/index.md"
-      },
-      {
-        "title": "6.3 应用快照",
-        "rel": "docs-greenbook-第一部分_使用手册_先把_千问办公_用起来-第6章_桌面端核心功能-6.3_应用快照-index",
-        "sourceRel": "docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.3 应用快照/index.md"
-      },
-      {
-        "title": "6.4 电脑操控",
-        "rel": "docs-greenbook-第一部分_使用手册_先把_千问办公_用起来-第6章_桌面端核心功能-6.4_电脑操控-index",
-        "sourceRel": "docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.4 电脑操控/index.md"
-      },
-      {
-        "title": "6.5 模型选择",
-        "rel": "docs-greenbook-第一部分_使用手册_先把_千问办公_用起来-第6章_桌面端核心功能-6.5_模型选择-index",
-        "sourceRel": "docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.5 模型选择/index.md"
-      },
-      {
-        "title": "6.6 语音输入",
-        "rel": "docs-greenbook-第一部分_使用手册_先把_千问办公_用起来-第6章_桌面端核心功能-6.6_语音输入-index",
-        "sourceRel": "docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.6 语音输入/index.md"
-      },
-      {
-        "title": "6.7 IM 频道",
-        "rel": "docs-greenbook-第一部分_使用手册_先把_千问办公_用起来-第6章_桌面端核心功能-6.7_IM_频道-index",
-        "sourceRel": "docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.7 IM 频道/index.md"
-      },
-      {
-        "title": "6.8 定时任务",
-        "rel": "docs-greenbook-第一部分_使用手册_先把_千问办公_用起来-第6章_桌面端核心功能-6.8_定时任务-index",
-        "sourceRel": "docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.8 定时任务/index.md"
-      },
-      {
-        "title": "6.9 Hooks",
-        "rel": "docs-greenbook-第一部分_使用手册_先把_千问办公_用起来-第6章_桌面端核心功能-6.9_Hooks-index",
-        "sourceRel": "docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.9 Hooks/index.md"
-      },
-      {
-        "title": "6.10 连接器",
-        "rel": "docs-greenbook-第一部分_使用手册_先把_千问办公_用起来-第6章_桌面端核心功能-6.10_连接器-index",
-        "sourceRel": "docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.10 连接器/index.md"
-      },
-      {
-        "title": "6.11 技能",
-        "rel": "docs-greenbook-第一部分_使用手册_先把_千问办公_用起来-第6章_桌面端核心功能-6.11_技能-index",
-        "sourceRel": "docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.11 技能/index.md"
-      },
-      {
-        "title": "6.12 专家套件",
-        "rel": "docs-greenbook-第一部分_使用手册_先把_千问办公_用起来-第6章_桌面端核心功能-6.12_专家套件-index",
-        "sourceRel": "docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.12 专家套件/index.md"
-      },
-      {
-        "title": "6.14 工作台-幻灯片",
-        "rel": "docs-greenbook-第一部分_使用手册_先把_千问办公_用起来-第6章_桌面端核心功能-6.14_工作台-幻灯片-index",
-        "sourceRel": "docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.14 工作台-幻灯片/index.md"
-      },
-      {
-        "title": "6.15 工作台-设计",
-        "rel": "docs-greenbook-第一部分_使用手册_先把_千问办公_用起来-第6章_桌面端核心功能-6.15_工作台-设计-index",
-        "sourceRel": "docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.15 工作台-设计/index.md"
-      },
-      {
-        "title": "第6章 桌面端核心功能",
-        "rel": "docs-greenbook-第一部分_使用手册_先把_千问办公_用起来-第6章_桌面端核心功能-index",
-        "sourceRel": "docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/index.md"
-      },
-      {
-        "title": "第7章 概念普及：理解AI是怎么干活的",
-        "rel": "docs-greenbook-第一部分_使用手册_先把_千问办公_用起来-第7章_概念普及_理解AI是怎么干活的-index",
-        "sourceRel": "docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第7章 概念普及：理解AI是怎么干活的/index.md"
-      },
-      {
-        "title": "第一部分 使用手册：先把 千问办公 用起来",
-        "rel": "docs-greenbook-第一部分_使用手册_先把_千问办公_用起来-index",
-        "sourceRel": "docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/index.md"
-      },
-      {
-        "title": "千问办公使用手册与实战指南",
-        "rel": "docs-greenbook-index",
-        "sourceRel": "docs/greenbook/index.md"
       }
     ]
   },
@@ -1104,191 +1140,6 @@ export const courses: Course[] = [
         "title": "12.Coze智能体-卡片",
         "rel": "src-Coze指南-Coze基础入门-12.Coze智能体-卡片",
         "sourceRel": "src/Coze指南/Coze基础入门/12.Coze智能体-卡片.md"
-      },
-      {
-        "title": "13.Coze智能体-发布渠道",
-        "rel": "src-Coze指南-Coze基础入门-13.Coze智能体-发布渠道",
-        "sourceRel": "src/Coze指南/Coze基础入门/13.Coze智能体-发布渠道.md"
-      },
-      {
-        "title": "扣子Coze实战：1分钟生成100篇爆款小红书养生笔记",
-        "rel": "src-Coze指南-Coze实战案例-扣子Coze实战_1分钟生成100篇爆款小红书养生笔记",
-        "sourceRel": "src/Coze指南/Coze实战案例/扣子Coze实战：1分钟生成100篇爆款小红书养生笔记.md"
-      },
-      {
-        "title": "扣子Coze实战：1分钟自动仿写公众号爆文，一键自动发布",
-        "rel": "src-Coze指南-Coze实战案例-扣子Coze实战_1分钟自动仿写公众号爆文_一键自动发布",
-        "sourceRel": "src/Coze指南/Coze实战案例/扣子Coze实战：1分钟自动仿写公众号爆文，一键自动发布.md"
-      },
-      {
-        "title": "扣子Coze实战：从0到1搭建抖音+小红书对标账号监控智能体",
-        "rel": "src-Coze指南-Coze实战案例-扣子Coze实战_从0到1搭建抖音_小红书对标账号监控智能体",
-        "sourceRel": "src/Coze指南/Coze实战案例/扣子Coze实战：从0到1搭建抖音+小红书对标账号监控智能体.md"
-      },
-      {
-        "title": "扣子Coze实战：从0到1搭建小红书图文改写智能体",
-        "rel": "src-Coze指南-Coze实战案例-扣子Coze实战_从0到1搭建小红书图文改写智能体",
-        "sourceRel": "src/Coze指南/Coze实战案例/扣子Coze实战：从0到1搭建小红书图文改写智能体.md"
-      },
-      {
-        "title": "扣子Coze实战：从0到1打造抖音+小红书热点监控智能体",
-        "rel": "src-Coze指南-Coze实战案例-扣子Coze实战_从0到1打造抖音_小红书热点监控智能体",
-        "sourceRel": "src/Coze指南/Coze实战案例/扣子Coze实战：从0到1打造抖音+小红书热点监控智能体.md"
-      },
-      {
-        "title": "扣子Coze实战：搭建数据分析智能体，1分钟完成复盘",
-        "rel": "src-Coze指南-Coze实战案例-扣子Coze实战_搭建数据分析智能体_1分钟完成复盘",
-        "sourceRel": "src/Coze指南/Coze实战案例/扣子Coze实战：搭建数据分析智能体，1分钟完成复盘.md"
-      },
-      {
-        "title": "扣子Coze实战：混剪视频工作流，日产50条爆款，单月变现6位数（喂饭教程）",
-        "rel": "src-Coze指南-Coze实战案例-扣子Coze实战_混剪视频工作流_日产50条爆款_单月变现6位数_喂饭教程_",
-        "sourceRel": "src/Coze指南/Coze实战案例/扣子Coze实战：混剪视频工作流，日产50条爆款，单月变现6位数（喂饭教程）.md"
-      },
-      {
-        "title": "扣子Coze实战：如何从0到1搭建一个账号定位智能体",
-        "rel": "src-Coze指南-Coze实战案例-扣子Coze实战_如何从0到1搭建一个账号定位智能体",
-        "sourceRel": "src/Coze指南/Coze实战案例/扣子Coze实战：如何从0到1搭建一个账号定位智能体.md"
-      },
-      {
-        "title": "扣子Coze实战：一键打造自己的口播数字人视频",
-        "rel": "src-Coze指南-Coze实战案例-扣子Coze实战_一键打造自己的口播数字人视频",
-        "sourceRel": "src/Coze指南/Coze实战案例/扣子Coze实战：一键打造自己的口播数字人视频.md"
-      },
-      {
-        "title": "扣子Coze实战：一键复刻全网爆款文案",
-        "rel": "src-Coze指南-Coze实战案例-扣子Coze实战_一键复刻全网爆款文案",
-        "sourceRel": "src/Coze指南/Coze实战案例/扣子Coze实战：一键复刻全网爆款文案.md"
-      },
-      {
-        "title": "扣子Coze实战：一天产出50条爆款书单视频，每月躺赚5位数，免费分享！",
-        "rel": "src-Coze指南-Coze实战案例-扣子Coze实战_一天产出50条爆款书单视频_每月躺赚5位数",
-        "sourceRel": "src/Coze指南/Coze实战案例/扣子Coze实战：一天产出50条爆款书单视频，每月躺赚5位数.md"
-      },
-      {
-        "title": "扣子Coze实战：自动拆解对标账号，输出20页专业报告（保姆级教程）",
-        "rel": "src-Coze指南-Coze实战案例-扣子Coze实战_自动拆解对标账号_输出20页专业报告_保姆级教程_",
-        "sourceRel": "src/Coze指南/Coze实战案例/扣子Coze实战：自动拆解对标账号，输出20页专业报告（保姆级教程）.md"
-      },
-      {
-        "title": "Coze指南：从 AI 基础到智能体实战",
-        "rel": "src-Coze指南-README",
-        "sourceRel": "src/Coze指南/README.md"
-      },
-      {
-        "title": "WorkBuddy 是什么？核心功能、适用场景与入门方法",
-        "rel": "src-WorkBuddy指南-01.基础入门-01.初始WorkBuddy",
-        "sourceRel": "src/WorkBuddy指南/01.基础入门/01.初始WorkBuddy.md"
-      },
-      {
-        "title": "WorkBuddy Skill、专家和专家团怎么用？区别与选择方法",
-        "rel": "src-WorkBuddy指南-01.基础入门-02.WorkBuddy专家_专家团和_Skill_怎么用",
-        "sourceRel": "src/WorkBuddy指南/01.基础入门/02.WorkBuddy专家、专家团和 Skill 怎么用.md"
-      },
-      {
-        "title": "用 WorkBuddy 批量整理图片：分类、重命名与检查方法",
-        "rel": "src-WorkBuddy指南-01.基础入门-03.用WorkBuddy整理散乱的图片",
-        "sourceRel": "src/WorkBuddy指南/01.基础入门/03.用WorkBuddy整理散乱的图片.md"
-      },
-      {
-        "title": "WorkBuddy 连接器教程：读取转写并整理会议纪要",
-        "rel": "src-WorkBuddy指南-01.基础入门-04.用WorkBuddy连接器整理会议纪要",
-        "sourceRel": "src/WorkBuddy指南/01.基础入门/04.用WorkBuddy连接器整理会议纪要.md"
-      },
-      {
-        "title": "WorkBuddy 数据分析入门：目标、口径、提示词与验收",
-        "rel": "src-WorkBuddy指南-01.基础入门-05.用WorkBuddy做数据分析",
-        "sourceRel": "src/WorkBuddy指南/01.基础入门/05.用WorkBuddy做数据分析.md"
-      },
-      {
-        "title": "WorkBuddy 手机版怎么用？远程控制电脑完成任务",
-        "rel": "src-WorkBuddy指南-01.基础入门-06.用WorkBuddy手机版远程控制电脑",
-        "sourceRel": "src/WorkBuddy指南/01.基础入门/06.用WorkBuddy手机版远程控制电脑.md"
-      },
-      {
-        "title": "WorkBuddy 自动化任务教程：设置定时执行与结果检查",
-        "rel": "src-WorkBuddy指南-01.基础入门-07.用WorkBuddy自动化任务定制执行",
-        "sourceRel": "src/WorkBuddy指南/01.基础入门/07.用WorkBuddy自动化任务定制执行.md"
-      },
-      {
-        "title": "WorkBuddy 越用越蠢？这 8 大焚决拿好，早用早享受",
-        "rel": "src-WorkBuddy指南-01.基础入门-08.WorkBuddy越用越蠢_这_8_大焚决拿好_早用早享受",
-        "sourceRel": "src/WorkBuddy指南/01.基础入门/08.WorkBuddy越用越蠢？这 8 大焚决拿好，早用早享受.md"
-      },
-      {
-        "title": "WorkBuddy + ima 搭建 AI 写作与知识库工作流",
-        "rel": "src-WorkBuddy指南-02.自媒体案例-01.用WorkBuddy和ima搭建AI写作工作流",
-        "sourceRel": "src/WorkBuddy指南/02.自媒体案例/01.用WorkBuddy和ima搭建AI写作工作流.md"
-      },
-      {
-        "title": "用 WorkBuddy 写小红书图文和 60 秒短视频脚本",
-        "rel": "src-WorkBuddy指南-02.自媒体案例-02.用_WorkBuddy_辅助完成小红书图文和短视频脚本",
-        "sourceRel": "src/WorkBuddy指南/02.自媒体案例/02.用 WorkBuddy 辅助完成小红书图文和短视频脚本.md"
-      },
-      {
-        "title": "用 WorkBuddy 做高质量 PPT：材料整理、生成与修改",
-        "rel": "src-WorkBuddy指南-03.办公案例-01.用WorkBuddy生成高质量_PPT",
-        "sourceRel": "src/WorkBuddy指南/03.办公案例/01.用WorkBuddy生成高质量 PPT.md"
-      },
-      {
-        "title": "用 WorkBuddy 整理桌面发票：查找、归档与核对",
-        "rel": "src-WorkBuddy指南-03.办公案例-02.用WorkBuddy整理桌面发票",
-        "sourceRel": "src/WorkBuddy指南/03.办公案例/02.用WorkBuddy整理桌面发票.md"
-      },
-      {
-        "title": "用 WorkBuddy 生成每日资讯简报：收集、筛选与定时执行",
-        "rel": "src-WorkBuddy指南-03.办公案例-03.用WorkBuddy生成每日资讯简报",
-        "sourceRel": "src/WorkBuddy指南/03.办公案例/03.用WorkBuddy生成每日资讯简报.md"
-      },
-      {
-        "title": "WorkBuddy 生成 Word 教程：从文档初稿到配套 PPT",
-        "rel": "src-WorkBuddy指南-03.办公案例-04.用_WorkBuddy生成_Word_和_PPT",
-        "sourceRel": "src/WorkBuddy指南/03.办公案例/04.用 WorkBuddy生成 Word 和 PPT.md"
-      },
-      {
-        "title": "WorkBuddy 文件处理教程：批量重命名、纪要与视频翻译",
-        "rel": "src-WorkBuddy指南-03.办公案例-05.用WorkBuddy处理文件",
-        "sourceRel": "src/WorkBuddy指南/03.办公案例/05.用WorkBuddy处理文件.md"
-      },
-      {
-        "title": "WorkBuddy 定时发送邮件简报：QQ 邮箱配置与自动化",
-        "rel": "src-WorkBuddy指南-03.办公案例-06.用WorkBuddy定时发送邮件简报",
-        "sourceRel": "src/WorkBuddy指南/03.办公案例/06.用WorkBuddy定时发送邮件简报.md"
-      },
-      {
-        "title": "用 WorkBuddy 零代码制作本地应用：需求、运行与排错",
-        "rel": "src-WorkBuddy指南-03.办公案例-07.用WorkBuddy零代码制作本地应用",
-        "sourceRel": "src/WorkBuddy指南/03.办公案例/07.用WorkBuddy零代码制作本地应用.md"
-      },
-      {
-        "title": "WorkBuddy 分析 Excel 数据并生成图表：完整实操教程",
-        "rel": "src-WorkBuddy指南-03.办公案例-08.用WorkBuddy分析数据并生成图表",
-        "sourceRel": "src/WorkBuddy指南/03.办公案例/08.用WorkBuddy分析数据并生成图表.md"
-      },
-      {
-        "title": "WorkBuddy 自定义 Skill 教程：创建、测试与复用流程",
-        "rel": "src-WorkBuddy指南-03.办公案例-09.用WorkBuddy创建自己的Skill",
-        "sourceRel": "src/WorkBuddy指南/03.办公案例/09.用WorkBuddy创建自己的Skill.md"
-      },
-      {
-        "title": "WorkBuddy 管理腾讯会议：创建、修改与整理会议纪要",
-        "rel": "src-WorkBuddy指南-03.办公案例-10.用WorkBuddy一句话管理腾讯会议",
-        "sourceRel": "src/WorkBuddy指南/03.办公案例/10.用WorkBuddy一句话管理腾讯会议.md"
-      },
-      {
-        "title": "职场人最头疼的问题，用 WorkBuddy 10分钟搞定，保姆级实操教程！",
-        "rel": "src-WorkBuddy指南-03.办公案例-11.用WorkBuddy搭一套每天自动送到邮箱的资讯简报",
-        "sourceRel": "src/WorkBuddy指南/03.办公案例/11.用WorkBuddy搭一套每天自动送到邮箱的资讯简报.md"
-      },
-      {
-        "title": "WorkBuddy 又上新了，零基础也能手搓出数据看板",
-        "rel": "src-WorkBuddy指南-03.办公案例-12.WorkBuddy又上新了_普通人零基础手搓数据看板",
-        "sourceRel": "src/WorkBuddy指南/03.办公案例/12.WorkBuddy又上新了，普通人零基础手搓数据看板.md"
-      },
-      {
-        "title": "WorkBuddy 教程：从入门到 Skill、自动化与办公实战",
-        "rel": "src-WorkBuddy指南-README",
-        "sourceRel": "src/WorkBuddy指南/README.md"
       }
     ]
   },
@@ -1323,218 +1174,118 @@ export const courses: Course[] = [
       },
       {
         "title": "第 11 章 办公三件套：Word、Excel、PPT",
-        "rel": "docs-bluebook-第二篇_案例篇_从一项任务到一支_AI_团队-第_11_章_办公三件套_Word_Excel_PPT-index",
+        "rel": "docs-bluebook-第二篇_案例篇_从一项任务到一支_AI_团队-第_11_章_办公三件套_Word_Excel_PPT",
         "sourceRel": "docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 11 章 办公三件套：Word、Excel、PPT/index.md"
       },
       {
         "title": "第 12 章 从整理桌面文件这些小事做起",
-        "rel": "docs-bluebook-第二篇_案例篇_从一项任务到一支_AI_团队-第_12_章_从整理桌面文件这些小事做起-index",
+        "rel": "docs-bluebook-第二篇_案例篇_从一项任务到一支_AI_团队-第_12_章_从整理桌面文件这些小事做起",
         "sourceRel": "docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 12 章 从整理桌面文件这些小事做起/index.md"
       },
       {
         "title": "第 13 章 远程控制你的电脑，不用发愁不在电脑前",
-        "rel": "docs-bluebook-第二篇_案例篇_从一项任务到一支_AI_团队-第_13_章_远程控制你的电脑_不用发愁不在电脑前-index",
+        "rel": "docs-bluebook-第二篇_案例篇_从一项任务到一支_AI_团队-第_13_章_远程控制你的电脑_不用发愁不在电脑前",
         "sourceRel": "docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 13 章 远程控制你的电脑，不用发愁不在电脑前/index.md"
       },
       {
         "title": "第 14 章 生活助手的价值，是减少琐碎",
-        "rel": "docs-bluebook-第二篇_案例篇_从一项任务到一支_AI_团队-第_14_章_生活助手的价值_是减少琐碎-index",
+        "rel": "docs-bluebook-第二篇_案例篇_从一项任务到一支_AI_团队-第_14_章_生活助手的价值_是减少琐碎",
         "sourceRel": "docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 14 章 生活助手的价值，是减少琐碎/index.md"
       },
       {
         "title": "第 15 章 资讯整合：把信息流变成每日通知",
-        "rel": "docs-bluebook-第二篇_案例篇_从一项任务到一支_AI_团队-第_15_章_资讯整合_把信息流变成每日通知-index",
+        "rel": "docs-bluebook-第二篇_案例篇_从一项任务到一支_AI_团队-第_15_章_资讯整合_把信息流变成每日通知",
         "sourceRel": "docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 15 章 资讯整合：把信息流变成每日通知/index.md"
       },
       {
         "title": "第 16 章 收藏不是知识管理，能再次用起来才是",
-        "rel": "docs-bluebook-第二篇_案例篇_从一项任务到一支_AI_团队-第_16_章_收藏不是知识管理_能再次用起来才是-index",
+        "rel": "docs-bluebook-第二篇_案例篇_从一项任务到一支_AI_团队-第_16_章_收藏不是知识管理_能再次用起来才是",
         "sourceRel": "docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 16 章 收藏不是知识管理，能再次用起来才是/index.md"
       },
       {
         "title": "第 17 章 会议结束不是终点，工作才刚刚开始",
-        "rel": "docs-bluebook-第二篇_案例篇_从一项任务到一支_AI_团队-第_17_章_会议结束不是终点_工作才刚刚开始-index",
+        "rel": "docs-bluebook-第二篇_案例篇_从一项任务到一支_AI_团队-第_17_章_会议结束不是终点_工作才刚刚开始",
         "sourceRel": "docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 17 章 会议结束不是终点，工作才刚刚开始/index.md"
       },
       {
         "title": "第 18 章 把投资分析变成你的日常",
-        "rel": "docs-bluebook-第二篇_案例篇_从一项任务到一支_AI_团队-第_18_章_把投资分析变成你的日常-index",
+        "rel": "docs-bluebook-第二篇_案例篇_从一项任务到一支_AI_团队-第_18_章_把投资分析变成你的日常",
         "sourceRel": "docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 18 章 把投资分析变成你的日常/index.md"
       },
       {
         "title": "第 19 章 一句话召唤 AI 视频团队",
-        "rel": "docs-bluebook-第二篇_案例篇_从一项任务到一支_AI_团队-第_19_章_一句话召唤_AI_视频团队-index",
+        "rel": "docs-bluebook-第二篇_案例篇_从一项任务到一支_AI_团队-第_19_章_一句话召唤_AI_视频团队",
         "sourceRel": "docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 19 章 一句话召唤 AI 视频团队/index.md"
       },
       {
         "title": "第 20 章 自媒体不只是靠努力，而是一条增长闭环",
-        "rel": "docs-bluebook-第二篇_案例篇_从一项任务到一支_AI_团队-第_20_章_自媒体不只是靠努力_而是一条增长闭环-index",
+        "rel": "docs-bluebook-第二篇_案例篇_从一项任务到一支_AI_团队-第_20_章_自媒体不只是靠努力_而是一条增长闭环",
         "sourceRel": "docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 20 章 自媒体不只是靠努力，而是一条增长闭环/index.md"
       },
       {
         "title": "第 21 章 WorkBuddy也能做GEO专家",
-        "rel": "docs-bluebook-第二篇_案例篇_从一项任务到一支_AI_团队-第_21_章_WorkBuddy也能做GEO专家-index",
+        "rel": "docs-bluebook-第二篇_案例篇_从一项任务到一支_AI_团队-第_21_章_WorkBuddy也能做GEO专家",
         "sourceRel": "docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 21 章 WorkBuddy也能做GEO专家/index.md"
       },
       {
         "title": "第二篇 案例篇：从一项任务到一支 AI 团队",
-        "rel": "docs-bluebook-第二篇_案例篇_从一项任务到一支_AI_团队-index",
+        "rel": "docs-bluebook-第二篇_案例篇_从一项任务到一支_AI_团队",
         "sourceRel": "docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/index.md"
       },
       {
         "title": "第 22 章 打造skill：将书和视频蒸馏为可执行 Skill",
-        "rel": "docs-bluebook-第三篇_进阶篇_把案例变成自己的工作系统-第_22_章_打造skill_将书和视频蒸馏为可执行_Skill-index",
+        "rel": "docs-bluebook-第三篇_进阶篇_把案例变成自己的工作系统-第_22_章_打造skill_将书和视频蒸馏为可执行_Skill",
         "sourceRel": "docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 22 章 打造skill：将书和视频蒸馏为可执行 Skill/index.md"
       },
       {
         "title": "第 23 章 其他用法补充：WorkBuddy 实操案例集",
-        "rel": "docs-bluebook-第三篇_进阶篇_把案例变成自己的工作系统-第_23_章_其他用法补充_WorkBuddy_实操案例集-index",
+        "rel": "docs-bluebook-第三篇_进阶篇_把案例变成自己的工作系统-第_23_章_其他用法补充_WorkBuddy_实操案例集",
         "sourceRel": "docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 23 章 其他用法补充：WorkBuddy 实操案例集/index.md"
       },
       {
         "title": "第 24 章 如何进行多 Agent 系统设计",
-        "rel": "docs-bluebook-第三篇_进阶篇_把案例变成自己的工作系统-第_24_章_如何进行多_Agent_系统设计-index",
+        "rel": "docs-bluebook-第三篇_进阶篇_把案例变成自己的工作系统-第_24_章_如何进行多_Agent_系统设计",
         "sourceRel": "docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 24 章 如何进行多 Agent 系统设计/index.md"
       },
       {
         "title": "第 25 章 自动化工作流的可靠性",
-        "rel": "docs-bluebook-第三篇_进阶篇_把案例变成自己的工作系统-第_25_章_自动化工作流的可靠性-index",
+        "rel": "docs-bluebook-第三篇_进阶篇_把案例变成自己的工作系统-第_25_章_自动化工作流的可靠性",
         "sourceRel": "docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 25 章 自动化工作流的可靠性/index.md"
       },
       {
         "title": "第三篇 进阶篇：把案例变成自己的工作系统",
-        "rel": "docs-bluebook-第三篇_进阶篇_把案例变成自己的工作系统-index",
+        "rel": "docs-bluebook-第三篇_进阶篇_把案例变成自己的工作系统",
         "sourceRel": "docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/index.md"
       },
       {
         "title": "第 26 章 岗位路线图：不同岗位如何把 WorkBuddy 用深",
-        "rel": "docs-bluebook-第四篇_岗位与行业落地-第_26_章_岗位路线图_不同岗位如何把_WorkBuddy_用深-index",
+        "rel": "docs-bluebook-第四篇_岗位与行业落地-第_26_章_岗位路线图_不同岗位如何把_WorkBuddy_用深",
         "sourceRel": "docs/bluebook/第四篇 岗位与行业落地/第 26 章 岗位路线图：不同岗位如何把 WorkBuddy 用深/index.md"
       },
       {
         "title": "第 27 章 行业路线图：从通用能力到行业工作流",
-        "rel": "docs-bluebook-第四篇_岗位与行业落地-第_27_章_行业路线图_从通用能力到行业工作流-index",
+        "rel": "docs-bluebook-第四篇_岗位与行业落地-第_27_章_行业路线图_从通用能力到行业工作流",
         "sourceRel": "docs/bluebook/第四篇 岗位与行业落地/第 27 章 行业路线图：从通用能力到行业工作流/index.md"
       },
       {
         "title": "第四篇 岗位与行业落地",
-        "rel": "docs-bluebook-第四篇_岗位与行业落地-index",
+        "rel": "docs-bluebook-第四篇_岗位与行业落地",
         "sourceRel": "docs/bluebook/第四篇 岗位与行业落地/index.md"
       },
       {
         "title": "第 1 章 初识 WorkBuddy",
-        "rel": "docs-bluebook-第一篇_使用手册_先把_WorkBuddy_用起来-第_1_章_初识_WorkBuddy-index",
+        "rel": "docs-bluebook-第一篇_使用手册_先把_WorkBuddy_用起来-第_1_章_初识_WorkBuddy",
         "sourceRel": "docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 1 章 初识 WorkBuddy/index.md"
       },
       {
         "title": "第 2 章 WorkBuddy的下载、安装、登录与更新",
-        "rel": "docs-bluebook-第一篇_使用手册_先把_WorkBuddy_用起来-第_2_章_WorkBuddy的下载_安装_登录与更新-index",
+        "rel": "docs-bluebook-第一篇_使用手册_先把_WorkBuddy_用起来-第_2_章_WorkBuddy的下载_安装_登录与更新",
         "sourceRel": "docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 2 章 WorkBuddy的下载、安装、登录与更新/index.md"
       },
       {
         "title": "第 3 章 WorkBuddy 的主界面、任务与工作区",
-        "rel": "docs-bluebook-第一篇_使用手册_先把_WorkBuddy_用起来-第_3_章_WorkBuddy_的主界面_任务与工作区-index",
+        "rel": "docs-bluebook-第一篇_使用手册_先把_WorkBuddy_用起来-第_3_章_WorkBuddy_的主界面_任务与工作区",
         "sourceRel": "docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 3 章 WorkBuddy 的主界面、任务与工作区/index.md"
-      },
-      {
-        "title": "第 4 章 快速完成第一个 WorkBuddy 任务",
-        "rel": "docs-bluebook-第一篇_使用手册_先把_WorkBuddy_用起来-第_4_章_快速完成第一个_WorkBuddy_任务-index",
-        "sourceRel": "docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 4 章 快速完成第一个 WorkBuddy 任务/index.md"
-      },
-      {
-        "title": "第 5 章 WorkBuddy加载一个真正用得上的 Skill",
-        "rel": "docs-bluebook-第一篇_使用手册_先把_WorkBuddy_用起来-第_5_章_WorkBuddy加载一个真正用得上的_Skill-index",
-        "sourceRel": "docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 5 章 WorkBuddy加载一个真正用得上的 Skill/index.md"
-      },
-      {
-        "title": "第 6 章 WorkBuddy的专家和专家团",
-        "rel": "docs-bluebook-第一篇_使用手册_先把_WorkBuddy_用起来-第_6_章_WorkBuddy的专家和专家团-index",
-        "sourceRel": "docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 6 章 WorkBuddy的专家和专家团/index.md"
-      },
-      {
-        "title": "第 7 章 WorkBuddy 使用连接器",
-        "rel": "docs-bluebook-第一篇_使用手册_先把_WorkBuddy_用起来-第_7_章_WorkBuddy_使用连接器-index",
-        "sourceRel": "docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 7 章 WorkBuddy 使用连接器/index.md"
-      },
-      {
-        "title": "第 8 章 WorkBuddy 接入小程序与 IM 助理",
-        "rel": "docs-bluebook-第一篇_使用手册_先把_WorkBuddy_用起来-第_8_章_WorkBuddy_接入小程序与_IM_助理-index",
-        "sourceRel": "docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 8 章 WorkBuddy 接入小程序与 IM 助理/index.md"
-      },
-      {
-        "title": "第 9 章 如何接入外部 API",
-        "rel": "docs-bluebook-第一篇_使用手册_先把_WorkBuddy_用起来-第_9_章_如何接入外部_API-index",
-        "sourceRel": "docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 9 章 如何接入外部 API/index.md"
-      },
-      {
-        "title": "第 10 章 WorkBuddy 自动化任务",
-        "rel": "docs-bluebook-第一篇_使用手册_先把_WorkBuddy_用起来-第_10_章_WorkBuddy_自动化任务-index",
-        "sourceRel": "docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 10 章 WorkBuddy 自动化任务/index.md"
-      },
-      {
-        "title": "课外阅读：一章看懂 AI 工作系统",
-        "rel": "docs-bluebook-第一篇_使用手册_先把_WorkBuddy_用起来-课外阅读_一章看懂_AI_工作系统-index",
-        "sourceRel": "docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/课外阅读：一章看懂 AI 工作系统/index.md"
-      },
-      {
-        "title": "第一篇 使用手册：先把 WorkBuddy 用起来",
-        "rel": "docs-bluebook-第一篇_使用手册_先把_WorkBuddy_用起来-index",
-        "sourceRel": "docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/index.md"
-      },
-      {
-        "title": "附录 A 常用指令模板",
-        "rel": "docs-bluebook-附录-附录_A_常用指令模板-index",
-        "sourceRel": "docs/bluebook/附录/附录 A 常用指令模板/index.md"
-      },
-      {
-        "title": "附录 B 场景速查表",
-        "rel": "docs-bluebook-附录-附录_B_场景速查表-index",
-        "sourceRel": "docs/bluebook/附录/附录 B 场景速查表/index.md"
-      },
-      {
-        "title": "附录",
-        "rel": "docs-bluebook-附录-index",
-        "sourceRel": "docs/bluebook/附录/index.md"
-      },
-      {
-        "title": "WorkBuddy 使用手册与实战指南",
-        "rel": "docs-bluebook-index",
-        "sourceRel": "docs/bluebook/index.md"
-      },
-      {
-        "title": "用 WorkBuddy 专家团吃透十年年报：一套可复用的上市公司深度研究方法",
-        "rel": "docs-cases-submissions-annual-report-digital-transformation-index",
-        "sourceRel": "docs/cases/submissions/annual-report-digital-transformation/index.md"
-      },
-      {
-        "title": "【示例】用 WorkBuddy 自动整理每日 AI 资讯",
-        "rel": "docs-cases-submissions-daily-ai-news-index",
-        "sourceRel": "docs/cases/submissions/daily-ai-news/index.md"
-      },
-      {
-        "title": "用 WorkBuddy 生成一个 GSAP 粒子球体作品集动画网站",
-        "rel": "docs-cases-submissions-jz-2025-showreel-index",
-        "sourceRel": "docs/cases/submissions/jz-2025-showreel/index.md"
-      },
-      {
-        "title": "用 WorkBuddy 清洗 119 份门店 Excel 并生成可交互运营看板",
-        "rel": "docs-cases-submissions-tea-shop-sales-analysis-index",
-        "sourceRel": "docs/cases/submissions/tea-shop-sales-analysis/index.md"
-      },
-      {
-        "title": "把经历发给 WorkBuddy，直接生成一份好看的简历",
-        "rel": "docs-cases-submissions-vibe-resume-index",
-        "sourceRel": "docs/cases/submissions/vibe-resume/index.md"
-      },
-      {
-        "title": "用 WorkBuddy 公众号 Skill 一键排版并发布到微信公众号草稿箱",
-        "rel": "docs-cases-submissions-wechat-format-publish-index",
-        "sourceRel": "docs/cases/submissions/wechat-format-publish/index.md"
-      },
-      {
-        "title": "告别微信收藏夹吃灰：用 ima + WorkBuddy 把碎片内容构建成可生长的知识体系",
-        "rel": "docs-cases-submissions-wechat-ima-knowledge-index",
-        "sourceRel": "docs/cases/submissions/wechat-ima-knowledge/index.md"
       }
     ]
   },
@@ -1681,131 +1432,6 @@ export const courses: Course[] = [
         "title": "自动总结工作日报，提醒每日工作事项",
         "rel": "24-自动总结工作日报_提醒每日工作事项",
         "sourceRel": "24-自动总结工作日报，提醒每日工作事项.md"
-      },
-      {
-        "title": "快速读一本书，并迅速掌握书中的技能",
-        "rel": "25-快速读一本书_并迅速掌握书中的技能",
-        "sourceRel": "25-快速读一本书，并迅速掌握书中的技能.md"
-      },
-      {
-        "title": "用一个精美的个人网站包装你自己",
-        "rel": "26-用一个精美的个人网站包装你自己",
-        "sourceRel": "26-用一个精美的个人网站包装你自己.md"
-      },
-      {
-        "title": "今天写什么：从热点、同行到本周选题",
-        "rel": "27-今天写什么_从热点_同行到本周选题",
-        "sourceRel": "27-今天写什么：从热点、同行到本周选题.md"
-      },
-      {
-        "title": "从热点到公众号成稿",
-        "rel": "28-从热点到公众号成稿",
-        "sourceRel": "28-从热点到公众号成稿.md"
-      },
-      {
-        "title": "同一份内容，怎么改成每个平台自己的版本",
-        "rel": "29-同一份内容_怎么改成每个平台自己的版本",
-        "sourceRel": "29-同一份内容，怎么改成每个平台自己的版本.md"
-      },
-      {
-        "title": "从长文到能拍的口播与分镜",
-        "rel": "30-从长文到能拍的口播与分镜",
-        "sourceRel": "30-从长文到能拍的口播与分镜.md"
-      },
-      {
-        "title": "长音视频怎样完成转写、字幕和高光切片",
-        "rel": "31-长音视频怎样完成转写_字幕和高光切片",
-        "sourceRel": "31-长音视频怎样完成转写、字幕和高光切片.md"
-      },
-      {
-        "title": "从评论区找到下一篇内容，并复盘",
-        "rel": "32-从评论区找到下一篇内容_并复盘",
-        "sourceRel": "32-从评论区找到下一篇内容，并复盘.md"
-      },
-      {
-        "title": "个人 IP 怎么做GEO体检？",
-        "rel": "33-个人_IP_怎么做GEO体检_",
-        "sourceRel": "33-个人 IP 怎么做GEO体检？.md"
-      },
-      {
-        "title": "爆款公众号文章转短视频",
-        "rel": "34-爆款公众号文章转短视频",
-        "sourceRel": "34-爆款公众号文章转短视频.md"
-      },
-      {
-        "title": "从随手收藏到以后真正能搜",
-        "rel": "35-从随手收藏到以后真正能搜",
-        "sourceRel": "35-从随手收藏到以后真正能搜.md"
-      },
-      {
-        "title": "重复文件和冲突版本，先看差异再决定",
-        "rel": "36-重复文件和冲突版本_先看差异再决定",
-        "sourceRel": "36-重复文件和冲突版本，先看差异再决定.md"
-      },
-      {
-        "title": "项目结束，把文件、决策和交付物一起沉淀",
-        "rel": "37-项目结束_把文件_决策和交付物一起沉淀",
-        "sourceRel": "37-项目结束，把文件、决策和交付物一起沉淀.md"
-      },
-      {
-        "title": "老同事的经验别让它躺平！我用豆包工作把飞书知识库变成了可复用Skil",
-        "rel": "38-老同事的经验别让它躺平_我用豆包工作把飞书知识库变成了可复用Skil",
-        "sourceRel": "38-老同事的经验别让它躺平！我用豆包工作把飞书知识库变成了可复用Skil.md"
-      },
-      {
-        "title": "企业制度不用翻烂知识库！我用豆包一句话查到加班流程还带出处",
-        "rel": "39-企业制度不用翻烂知识库_我用豆包一句话查到加班流程还带出处",
-        "sourceRel": "39-企业制度不用翻烂知识库！我用豆包一句话查到加班流程还带出处.md"
-      },
-      {
-        "title": "分类太细反而难找！我用豆包+飞书知识库把541个GPT提示词案例重新归了类",
-        "rel": "40-分类太细反而难找_我用豆包_飞书知识库把541个GPT提示词案例重新归了类",
-        "sourceRel": "40-分类太细反而难找！我用豆包+飞书知识库把541个GPT提示词案例重新归了类.md"
-      },
-      {
-        "title": "哪些知识已经过期，自动找到 Owner 来确认",
-        "rel": "41-哪些知识已经过期_自动找到_Owner_来确认",
-        "sourceRel": "41-哪些知识已经过期，自动找到 Owner 来确认.md"
-      },
-      {
-        "title": "从一张产品原图到整套主图",
-        "rel": "42-从一张产品原图到整套主图",
-        "sourceRel": "42-从一张产品原图到整套主图.md"
-      },
-      {
-        "title": "收盘以后，怎样把市场变化变成明天的研究清单",
-        "rel": "43-收盘以后_怎样把市场变化变成明天的研究清单",
-        "sourceRel": "43-收盘以后，怎样把市场变化变成明天的研究清单.md"
-      },
-      {
-        "title": "财报出来以后，先看增长，再查增长质量",
-        "rel": "44-财报出来以后_先看增长_再查增长质量",
-        "sourceRel": "44-财报出来以后，先看增长，再查增长质量.md"
-      },
-      {
-        "title": "第一次研究一家公司：从商业模式到八种关键追问",
-        "rel": "45-第一次研究一家公司_从商业模式到八种关键追问",
-        "sourceRel": "45-第一次研究一家公司：从商业模式到八种关键追问.md"
-      },
-      {
-        "title": "从筛选到估值：统一口径以后，再比较和定价",
-        "rel": "46-从筛选到估值_统一口径以后_再比较和定价",
-        "sourceRel": "46-从筛选到估值：统一口径以后，再比较和定价.md"
-      },
-      {
-        "title": "看公司，也要看股东、管理层和治理结构",
-        "rel": "47-看公司_也要看股东_管理层和治理结构",
-        "sourceRel": "47-看公司，也要看股东、管理层和治理结构.md"
-      },
-      {
-        "title": "市场到底在争什么：从多空分歧到研报事实审计",
-        "rel": "48-市场到底在争什么_从多空分歧到研报事实审计",
-        "sourceRel": "48-市场到底在争什么：从多空分歧到研报事实审计.md"
-      },
-      {
-        "title": "从一张 K 线图开始，完成一场有证据的投研评审会",
-        "rel": "49-从一张_K_线图开始_完成一场有证据的投研评审会",
-        "sourceRel": "49-从一张 K 线图开始，完成一场有证据的投研评审会.md"
       }
     ]
   },
@@ -1975,14 +1601,99 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
+        "title": "1. 欢迎使用 Cmd Markdown 编辑阅读器",
+        "rel": "backend-infra-document-parser-impl-builtin-test_data-test_markdown",
+        "sourceRel": "backend/infra/document/parser/impl/builtin/test_data/test_markdown.md"
+      },
+      {
+        "title": "CLAUDE.md",
+        "rel": "CLAUDE",
+        "sourceRel": "CLAUDE.md"
+      },
+      {
+        "title": "{{ packageName }}",
+        "rel": "common-_templates-component",
+        "sourceRel": "common/_templates/component/README.md"
+      },
+      {
+        "title": "🦀️ Rsbuild & React App",
+        "rel": "common-_templates-rsbuild-web",
+        "sourceRel": "common/_templates/rsbuild-web/README.md"
+      },
+      {
+        "title": "环境变量",
+        "rel": "common-_templates-rspack-web-env",
+        "sourceRel": "common/_templates/rspack-web/env/README.md"
+      },
+      {
+        "title": "Rspack & React App",
+        "rel": "common-_templates-rspack-web",
+        "sourceRel": "common/_templates/rspack-web/README.md"
+      },
+      {
+        "title": "{{ packageName }}",
+        "rel": "common-_templates-solid-component",
+        "sourceRel": "common/_templates/solid-component/README.md"
+      },
+      {
+        "title": "中文备注转换为英文 - 实现方案",
+        "rel": "common-autoinstallers-rush-commands-src-convert-comments-implementation-plan",
+        "sourceRel": "common/autoinstallers/rush-commands/src/convert-comments/implementation-plan.md"
+      },
+      {
+        "title": "中文备注转换为英文 - 项目概览",
+        "rel": "common-autoinstallers-rush-commands-src-convert-comments",
+        "sourceRel": "common/autoinstallers/rush-commands/src/convert-comments/README.md"
+      },
+      {
+        "title": "代码仓库中的中文备注转换为英文",
+        "rel": "common-autoinstallers-rush-commands-src-convert-comments-requirements",
+        "sourceRel": "common/autoinstallers/rush-commands/src/convert-comments/requirements.md"
+      },
+      {
+        "title": "中文备注转换为英文 - 技术规格说明",
+        "rel": "common-autoinstallers-rush-commands-src-convert-comments-technical-specification",
+        "sourceRel": "common/autoinstallers/rush-commands/src/convert-comments/technical-specification.md"
+      },
+      {
+        "title": "cd ./docker/atlas",
+        "rel": "docker-atlas",
+        "sourceRel": "docker/atlas/README.md"
+      },
+      {
         "title": "NATS EventBus Integration Guide",
-        "rel": "docs",
+        "rel": "docs-nats-eventbus-integration-guide-en",
         "sourceRel": "docs/nats-eventbus-integration-guide-en.md"
       },
       {
-        "title": "Coze Studio Frontend",
-        "rel": "frontend",
-        "sourceRel": "frontend/README.md"
+        "title": "NATS EventBus 集成指南",
+        "rel": "docs-nats-eventbus-integration-guide",
+        "sourceRel": "docs/nats-eventbus-integration-guide.md"
+      },
+      {
+        "title": "OceanBase Vector Database Integration Guide",
+        "rel": "docs-oceanbase-integration-guide-en",
+        "sourceRel": "docs/oceanbase-integration-guide-en.md"
+      },
+      {
+        "title": "OceanBase 向量数据库集成指南",
+        "rel": "docs-oceanbase-integration-guide",
+        "sourceRel": "docs/oceanbase-integration-guide.md"
+      },
+      {
+        "title": "Pulsar EventBus Integration Guide",
+        "rel": "docs-pulsar-eventbus-integration-guide-en",
+        "sourceRel": "docs/pulsar-eventbus-integration-guide-en.md"
+      },
+      {
+        "title": "Pulsar EventBus 集成指南",
+        "rel": "docs-pulsar-eventbus-integration-guide",
+        "sourceRel": "docs/pulsar-eventbus-integration-guide.md"
+      },
+      {
+        "title": "🦀️ Rsbuild & React App",
+        "rel": "frontend-apps-coze-studio",
+        "sourceRel": "frontend/apps/coze-studio/README.md"
       }
     ]
   },
@@ -2016,14 +1727,119 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
-        "title": "AGENTS.md",
-        "rel": "docs",
-        "sourceRel": "docs/AGENTS.md"
+        "title": "ARCHITECTURE.md — Coze Loop",
+        "rel": "ARCHITECTURE",
+        "sourceRel": "ARCHITECTURE.md"
       },
       {
-        "title": "🧭 Cozeloop Frontend",
-        "rel": "frontend",
-        "sourceRel": "frontend/README.md"
+        "title": "Runtime 模块重构说明",
+        "rel": "backend-modules-evaluation-infra-runtime",
+        "sourceRel": "backend/modules/evaluation/infra/runtime/README.md"
+      },
+      {
+        "title": "Error Code Generation",
+        "rel": "backend-script-errorx",
+        "sourceRel": "backend/script/errorx/README.md"
+      },
+      {
+        "title": "部署与环境配置指南",
+        "rel": "docs-guidance-deployment-guide",
+        "sourceRel": "docs/guidance/deployment-guide.md"
+      },
+      {
+        "title": "IDL 变更与代码生成流程",
+        "rel": "docs-guidance-idl-codegen-guide",
+        "sourceRel": "docs/guidance/idl-codegen-guide.md"
+      },
+      {
+        "title": "后端 DDD 模块与 API 参考",
+        "rel": "docs-reference-backend-modules-api",
+        "sourceRel": "docs/reference/backend-modules-api.md"
+      },
+      {
+        "title": "前端 Rush.js 包结构与分层参考",
+        "rel": "docs-reference-frontend-packages",
+        "sourceRel": "docs/reference/frontend-packages.md"
+      },
+      {
+        "title": "CozeLoop",
+        "rel": "frontend-apps-cozeloop",
+        "sourceRel": "frontend/apps/cozeloop/README.md"
+      },
+      {
+        "title": "@coze-arch/eslint-config",
+        "rel": "frontend-config-eslint-config",
+        "sourceRel": "frontend/config/eslint-config/README.md"
+      },
+      {
+        "title": "@coze-arch/postcss-config",
+        "rel": "frontend-config-postcss-config",
+        "sourceRel": "frontend/config/postcss-config/README.md"
+      },
+      {
+        "title": "@coze-arch/stylelint-config",
+        "rel": "frontend-config-stylelint-config",
+        "sourceRel": "frontend/config/stylelint-config/README.md"
+      },
+      {
+        "title": "@coze-arch/tailwind-config",
+        "rel": "frontend-config-tailwind-config",
+        "sourceRel": "frontend/config/tailwind-config/README.md"
+      },
+      {
+        "title": "@coze-arch/ts-config",
+        "rel": "frontend-config-ts-config",
+        "sourceRel": "frontend/config/ts-config/README.md"
+      },
+      {
+        "title": "@coze-arch/vitest-config",
+        "rel": "frontend-config-vitest-config",
+        "sourceRel": "frontend/config/vitest-config/README.md"
+      },
+      {
+        "title": "@coze-arch/eslint-plugin",
+        "rel": "frontend-infra-eslint-plugin",
+        "sourceRel": "frontend/infra/eslint-plugin/README.md"
+      },
+      {
+        "title": "@coze-arch/idl-parser",
+        "rel": "frontend-infra-idl-idl-parser",
+        "sourceRel": "frontend/infra/idl/idl-parser/README.md"
+      },
+      {
+        "title": "@coze-arch/idl2ts-cli",
+        "rel": "frontend-infra-idl-idl2ts-cli",
+        "sourceRel": "frontend/infra/idl/idl2ts-cli/README.md"
+      },
+      {
+        "title": "@coze-arch/idl2ts-generator",
+        "rel": "frontend-infra-idl-idl2ts-generator",
+        "sourceRel": "frontend/infra/idl/idl2ts-generator/README.md"
+      },
+      {
+        "title": "@coze-arch/idl2ts-helper",
+        "rel": "frontend-infra-idl-idl2ts-helper",
+        "sourceRel": "frontend/infra/idl/idl2ts-helper/README.md"
+      },
+      {
+        "title": "@coze-arch/idl2ts-plugin",
+        "rel": "frontend-infra-idl-idl2ts-plugin",
+        "sourceRel": "frontend/infra/idl/idl2ts-plugin/README.md"
+      },
+      {
+        "title": "@coze-arch/idl2ts-runtime",
+        "rel": "frontend-infra-idl-idl2ts-runtime",
+        "sourceRel": "frontend/infra/idl/idl2ts-runtime/README.md"
+      },
+      {
+        "title": "@coze-arch/pkg-root-webpack-plugin",
+        "rel": "frontend-infra-plugins-pkg-root-webpack-plugin",
+        "sourceRel": "frontend/infra/plugins/pkg-root-webpack-plugin/README.md"
+      },
+      {
+        "title": "@coze-arch/postcss-plugin",
+        "rel": "frontend-infra-plugins-postcss-plugin",
+        "sourceRel": "frontend/infra/plugins/postcss-plugin/README.md"
       }
     ]
   },
@@ -2058,13 +1874,118 @@ export const courses: Course[] = [
       },
       {
         "title": "Prompt 运行结果生成清单",
-        "rel": "delivery",
+        "rel": "delivery-PROMPT-RUN-MANIFEST",
         "sourceRel": "delivery/PROMPT-RUN-MANIFEST.md"
       },
       {
+        "title": "测试报告与已知限制",
+        "rel": "delivery-TEST-REPORT",
+        "sourceRel": "delivery/TEST-REPORT.md"
+      },
+      {
         "title": "Prompt 运行回放与证据说明",
-        "rel": "docs",
+        "rel": "docs-prompt-run-provenance",
         "sourceRel": "docs/prompt-run-provenance.md"
+      },
+      {
+        "title": "中国宠物食品行业首次汇报",
+        "rel": "prompts-runs-prompt-001-chatgpt-5-6-sol-20260731-client_report",
+        "sourceRel": "prompts/runs/prompt-001-chatgpt-5-6-sol-20260731/client_report.md"
+      },
+      {
+        "title": "报销 SaaS 竞品决策预览",
+        "rel": "prompts-runs-prompt-002-chatgpt-5-6-sol-20260731-output",
+        "sourceRel": "prompts/runs/prompt-002-chatgpt-5-6-sol-20260731/output.md"
+      },
+      {
+        "title": "制造业数字化政策高管简报预览",
+        "rel": "prompts-runs-prompt-003-chatgpt-5-6-sol-20260731-output",
+        "sourceRel": "prompts/runs/prompt-003-chatgpt-5-6-sol-20260731/output.md"
+      },
+      {
+        "title": "消息队列选型结论预览",
+        "rel": "prompts-runs-prompt-004-chatgpt-5-6-sol-20260731-output",
+        "sourceRel": "prompts/runs/prompt-004-chatgpt-5-6-sol-20260731/output.md"
+      },
+      {
+        "title": "无糖气泡茶上市测算预览",
+        "rel": "prompts-runs-prompt-005-chatgpt-5-6-sol-20260731-output",
+        "sourceRel": "prompts/runs/prompt-005-chatgpt-5-6-sol-20260731/output.md"
+      },
+      {
+        "title": "大语言模型幻觉缓解综述工作底稿",
+        "rel": "prompts-runs-prompt-006-chatgpt-5-6-sol-20260731-output",
+        "sourceRel": "prompts/runs/prompt-006-chatgpt-5-6-sol-20260731/output.md"
+      },
+      {
+        "title": "Pre-A 跨境物流 SaaS 尽调备忘录预览",
+        "rel": "prompts-runs-prompt-007-chatgpt-5-6-sol-20260731-output",
+        "sourceRel": "prompts/runs/prompt-007-chatgpt-5-6-sol-20260731/output.md"
+      },
+      {
+        "title": "新款吹风机发热舆情简报预览",
+        "rel": "prompts-runs-prompt-008-chatgpt-5-6-sol-20260731-output",
+        "sourceRel": "prompts/runs/prompt-008-chatgpt-5-6-sol-20260731/output.md"
+      },
+      {
+        "title": "记账 App 流失用户洞察预览",
+        "rel": "prompts-runs-prompt-009-chatgpt-5-6-sol-20260731-output",
+        "sourceRel": "prompts/runs/prompt-009-chatgpt-5-6-sol-20260731/output.md"
+      },
+      {
+        "title": "AI Agent 对企业软件影响：演讲要点预览",
+        "rel": "prompts-runs-prompt-010-chatgpt-5-6-sol-20260731-output",
+        "sourceRel": "prompts/runs/prompt-010-chatgpt-5-6-sol-20260731/output.md"
+      },
+      {
+        "title": "六区销售表清洗结果预览",
+        "rel": "prompts-runs-prompt-011-chatgpt-5-6-sol-20260731-output",
+        "sourceRel": "prompts/runs/prompt-011-chatgpt-5-6-sol-20260731/output.md"
+      },
+      {
+        "title": "Q3 销售复盘：管理层结论预览",
+        "rel": "prompts-runs-prompt-012-chatgpt-5-6-sol-20260731-output",
+        "sourceRel": "prompts/runs/prompt-012-chatgpt-5-6-sol-20260731/output.md"
+      },
+      {
+        "title": "物流成本图表集编排预览",
+        "rel": "prompts-runs-prompt-013-chatgpt-5-6-sol-20260731-output",
+        "sourceRel": "prompts/runs/prompt-013-chatgpt-5-6-sol-20260731/output.md"
+      },
+      {
+        "title": "消费者问卷当晚快报预览",
+        "rel": "prompts-runs-prompt-014-chatgpt-5-6-sol-20260731-output",
+        "sourceRel": "prompts/runs/prompt-014-chatgpt-5-6-sol-20260731/output.md"
+      },
+      {
+        "title": "三表联读分析预览",
+        "rel": "prompts-runs-prompt-015-chatgpt-5-6-sol-20260731-output",
+        "sourceRel": "prompts/runs/prompt-015-chatgpt-5-6-sol-20260731/output.md"
+      },
+      {
+        "title": "注册改版 A/B 实验解读预览",
+        "rel": "prompts-runs-prompt-016-chatgpt-5-6-sol-20260731-output",
+        "sourceRel": "prompts/runs/prompt-016-chatgpt-5-6-sol-20260731/output.md"
+      },
+      {
+        "title": "经营周报试跑 · 2026-W30",
+        "rel": "prompts-runs-prompt-017-chatgpt-5-6-sol-20260731-output",
+        "sourceRel": "prompts/runs/prompt-017-chatgpt-5-6-sol-20260731/output.md"
+      },
+      {
+        "title": "支付异常检测结果预览",
+        "rel": "prompts-runs-prompt-018-chatgpt-5-6-sol-20260731-output",
+        "sourceRel": "prompts/runs/prompt-018-chatgpt-5-6-sol-20260731/output.md"
+      },
+      {
+        "title": "会员 RFM 分层预览",
+        "rel": "prompts-runs-prompt-019-chatgpt-5-6-sol-20260731-output",
+        "sourceRel": "prompts/runs/prompt-019-chatgpt-5-6-sol-20260731/output.md"
+      },
+      {
+        "title": "App 下单漏斗分析预览",
+        "rel": "prompts-runs-prompt-020-chatgpt-5-6-sol-20260731-output",
+        "sourceRel": "prompts/runs/prompt-020-chatgpt-5-6-sol-20260731/output.md"
       }
     ]
   },
@@ -2098,14 +2019,44 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
+        "title": "claude-code harness",
+        "rel": "configs-harnesses-claude-code-CONFIG",
+        "sourceRel": "configs/harnesses/claude-code/CONFIG.md"
+      },
+      {
+        "title": "CodeBuddy Code (cbc) harness",
+        "rel": "configs-harnesses-codebuddy-code-CONFIG",
+        "sourceRel": "configs/harnesses/codebuddy-code/CONFIG.md"
+      },
+      {
+        "title": "Adding / adjusting a harness",
+        "rel": "configs-harnesses-HARNESS_AUTHORING",
+        "sourceRel": "configs/harnesses/HARNESS_AUTHORING.md"
+      },
+      {
         "title": "Configuration system",
         "rel": "configs",
         "sourceRel": "configs/README.md"
       },
       {
+        "title": "配置体系",
+        "rel": "configs-README.zh",
+        "sourceRel": "configs/README.zh.md"
+      },
+      {
         "title": "Datasets",
         "rel": "datasets",
         "sourceRel": "datasets/README.md"
+      },
+      {
+        "title": "WorkBuddy Bench（腾讯官方评测集）",
+        "rel": "README.zh",
+        "sourceRel": "README.zh.md"
+      },
+      {
+        "title": "proxy — protocol translation & parameter injection",
+        "rel": "src-workbuddy_bench-proxy",
+        "sourceRel": "src/workbuddy_bench/proxy/README.md"
       }
     ]
   },
@@ -2134,9 +2085,74 @@ export const courses: Course[] = [
         "sourceRel": ""
       },
       {
+        "title": "导学：环境配置与工具准备",
+        "rel": "00_Introduction-README_CN",
+        "sourceRel": "00_Introduction/README_CN.md"
+      },
+      {
         "title": "00Introduction: Environment Setup",
         "rel": "00_Introduction",
         "sourceRel": "00_Introduction/README.md"
+      },
+      {
+        "title": "FuFan-VibeCodingCourse",
+        "rel": "CLAUDE",
+        "sourceRel": "CLAUDE.md"
+      },
+      {
+        "title": "React + TypeScript + Vite",
+        "rel": "Stage1_AI_Programming_Fundamentals-Lesson01_Dev_Workflow_and_Environment-chatgpt-clone-frontend",
+        "sourceRel": "Stage1_AI_Programming_Fundamentals/Lesson01_Dev_Workflow_and_Environment/chatgpt-clone/frontend/README.md"
+      },
+      {
+        "title": "类ChatGPT对话系统架构规划",
+        "rel": "Stage1_AI_Programming_Fundamentals-Lesson01_Dev_Workflow_and_Environment-Courseware-02_课程资料-plans-chatgpt_clone_plan_82c449d6.plan",
+        "sourceRel": "Stage1_AI_Programming_Fundamentals/Lesson01_Dev_Workflow_and_Environment/Courseware/02_课程资料/plans/chatgpt_clone_plan_82c449d6.plan.md"
+      },
+      {
+        "title": "DeepSeek 智能对话系统 - 分阶段实施计划",
+        "rel": "Stage1_AI_Programming_Fundamentals-Lesson01_Dev_Workflow_and_Environment-Courseware-02_课程资料-plans-deepseek_chat_system_d15b7da2.plan",
+        "sourceRel": "Stage1_AI_Programming_Fundamentals/Lesson01_Dev_Workflow_and_Environment/Courseware/02_课程资料/plans/deepseek_chat_system_d15b7da2.plan.md"
+      },
+      {
+        "title": "Vibe Coding AI 编程范式与快速上手实践",
+        "rel": "Stage1_AI_Programming_Fundamentals-Lesson01_Dev_Workflow_and_Environment-Courseware-README_CN",
+        "sourceRel": "Stage1_AI_Programming_Fundamentals/Lesson01_Dev_Workflow_and_Environment/Courseware/README_CN.md"
+      },
+      {
+        "title": "Vibe Coding AI Programming Paradigm and Hands-on Practice",
+        "rel": "Stage1_AI_Programming_Fundamentals-Lesson01_Dev_Workflow_and_Environment-Courseware",
+        "sourceRel": "Stage1_AI_Programming_Fundamentals/Lesson01_Dev_Workflow_and_Environment/Courseware/README.md"
+      },
+      {
+        "title": "从零开发智能数据分析助理",
+        "rel": "Stage1_AI_Programming_Fundamentals-Lesson02_LLM_API_and_Data_Assistant-Courseware-README_CN",
+        "sourceRel": "Stage1_AI_Programming_Fundamentals/Lesson02_LLM_API_and_Data_Assistant/Courseware/README_CN.md"
+      },
+      {
+        "title": "Building an Intelligent Data Analysis Assistant from Scratch",
+        "rel": "Stage1_AI_Programming_Fundamentals-Lesson02_LLM_API_and_Data_Assistant-Courseware",
+        "sourceRel": "Stage1_AI_Programming_Fundamentals/Lesson02_LLM_API_and_Data_Assistant/Courseware/README.md"
+      },
+      {
+        "title": "Data Analysis Assistant - Backend",
+        "rel": "Stage1_AI_Programming_Fundamentals-Lesson02_LLM_API_and_Data_Assistant-NL2SQLAgent-backend",
+        "sourceRel": "Stage1_AI_Programming_Fundamentals/Lesson02_LLM_API_and_Data_Assistant/NL2SQLAgent/backend/README.md"
+      },
+      {
+        "title": "Data Analysis Assistant - Frontend",
+        "rel": "Stage1_AI_Programming_Fundamentals-Lesson02_LLM_API_and_Data_Assistant-NL2SQLAgent-frontend",
+        "sourceRel": "Stage1_AI_Programming_Fundamentals/Lesson02_LLM_API_and_Data_Assistant/NL2SQLAgent/frontend/README.md"
+      },
+      {
+        "title": "智能数据分析助理",
+        "rel": "Stage1_AI_Programming_Fundamentals-Lesson02_LLM_API_and_Data_Assistant-NL2SQLAgent",
+        "sourceRel": "Stage1_AI_Programming_Fundamentals/Lesson02_LLM_API_and_Data_Assistant/NL2SQLAgent/README.md"
+      },
+      {
+        "title": "阶段一：AI 编程基础",
+        "rel": "Stage1_AI_Programming_Fundamentals-README_CN",
+        "sourceRel": "Stage1_AI_Programming_Fundamentals/README_CN.md"
       },
       {
         "title": "Stage 1: AI Programming Fundamentals",
@@ -2144,39 +2160,44 @@ export const courses: Course[] = [
         "sourceRel": "Stage1_AI_Programming_Fundamentals/README.md"
       },
       {
-        "title": "Stage 2: Cursor Deep Dive",
-        "rel": "Stage2_Cursor_Deep_Dive",
-        "sourceRel": "Stage2_Cursor_Deep_Dive/README.md"
+        "title": "Lesson 03 & 04: OpenClaw 源码架构拆解与二次开发 · 搭建数字员工",
+        "rel": "Stage2_Cursor_Deep_Dive-Lesson03_OpenClaw_Architecture_Digital_Employee-README_CN",
+        "sourceRel": "Stage2_Cursor_Deep_Dive/Lesson03_OpenClaw_Architecture_Digital_Employee/README_CN.md"
       },
       {
-        "title": "Stage 3: Claude Code Engineering",
-        "rel": "Stage3_Claude_Code_Engineering",
-        "sourceRel": "Stage3_Claude_Code_Engineering/README.md"
+        "title": "Lesson 03 & 04: OpenClaw Source Architecture & Secondary Development — Building a Digital Employee",
+        "rel": "Stage2_Cursor_Deep_Dive-Lesson03_OpenClaw_Architecture_Digital_Employee",
+        "sourceRel": "Stage2_Cursor_Deep_Dive/Lesson03_OpenClaw_Architecture_Digital_Employee/README.md"
       },
       {
-        "title": "Stage 4: Enterprise Practice",
-        "rel": "Stage4_Enterprise_Practice",
-        "sourceRel": "Stage4_Enterprise_Practice/README.md"
+        "title": "客户端与 Web UI 的关系说明",
+        "rel": "Stage2_Cursor_Deep_Dive-Lesson04_OpenClaw_Custom_Dev_Full_Process-02_系统规范文档-architecture-overview-1.0-客户端与UI关系说明",
+        "sourceRel": "Stage2_Cursor_Deep_Dive/Lesson04_OpenClaw_Custom_Dev_Full_Process/02_系统规范文档/architecture-overview-1.0/客户端与UI关系说明.md"
       },
       {
-        "title": "Stage 5: OpenSpec Applied",
-        "rel": "Stage5_OpenSpec_Applied",
-        "sourceRel": "Stage5_OpenSpec_Applied/README.md"
+        "title": "OpenClaw 数据流详解",
+        "rel": "Stage2_Cursor_Deep_Dive-Lesson04_OpenClaw_Custom_Dev_Full_Process-02_系统规范文档-architecture-overview-1.0-数据流说明",
+        "sourceRel": "Stage2_Cursor_Deep_Dive/Lesson04_OpenClaw_Custom_Dev_Full_Process/02_系统规范文档/architecture-overview-1.0/数据流说明.md"
       },
       {
-        "title": "Stage 6: Spec-Kit Applied",
-        "rel": "Stage6_SpecKit_Applied",
-        "sourceRel": "Stage6_SpecKit_Applied/README.md"
+        "title": "OpenClaw 项目整体架构说明",
+        "rel": "Stage2_Cursor_Deep_Dive-Lesson04_OpenClaw_Custom_Dev_Full_Process-02_系统规范文档-architecture-overview-1.0-系统架构说明",
+        "sourceRel": "Stage2_Cursor_Deep_Dive/Lesson04_OpenClaw_Custom_Dev_Full_Process/02_系统规范文档/architecture-overview-1.0/系统架构说明.md"
       },
       {
-        "title": "Stage 7: Superpowers Applied",
-        "rel": "Stage7_Superpowers_Applied",
-        "sourceRel": "Stage7_Superpowers_Applied/README.md"
+        "title": "Agent、Channels 和 Plugins 三者关系详解",
+        "rel": "Stage2_Cursor_Deep_Dive-Lesson04_OpenClaw_Custom_Dev_Full_Process-02_系统规范文档-architecture-overview-1.0-Agent-Channels-Plugins关系说明",
+        "sourceRel": "Stage2_Cursor_Deep_Dive/Lesson04_OpenClaw_Custom_Dev_Full_Process/02_系统规范文档/architecture-overview-1.0/Agent-Channels-Plugins关系说明.md"
       },
       {
-        "title": "Stage 8: AlphaProject Applied",
-        "rel": "Stage8_AlphaProject_Applied",
-        "sourceRel": "Stage8_AlphaProject_Applied/README.md"
+        "title": "Channel 独立性说明：每个外部服务都有独立的 Channel",
+        "rel": "Stage2_Cursor_Deep_Dive-Lesson04_OpenClaw_Custom_Dev_Full_Process-02_系统规范文档-architecture-overview-1.0-Channel独立性说明",
+        "sourceRel": "Stage2_Cursor_Deep_Dive/Lesson04_OpenClaw_Custom_Dev_Full_Process/02_系统规范文档/architecture-overview-1.0/Channel独立性说明.md"
+      },
+      {
+        "title": "Channel 统一接口规范说明",
+        "rel": "Stage2_Cursor_Deep_Dive-Lesson04_OpenClaw_Custom_Dev_Full_Process-02_系统规范文档-architecture-overview-1.0-Channel统一接口规范",
+        "sourceRel": "Stage2_Cursor_Deep_Dive/Lesson04_OpenClaw_Custom_Dev_Full_Process/02_系统规范文档/architecture-overview-1.0/Channel统一接口规范.md"
       }
     ]
   },
@@ -2208,6 +2229,116 @@ export const courses: Course[] = [
         "title": "CS146S：现代软件开发者——课程作业",
         "rel": "Assignments",
         "sourceRel": "Assignments/README.md"
+      },
+      {
+        "title": "第 1 周——提示技术",
+        "rel": "Assignments-week1-assignment",
+        "sourceRel": "Assignments/week1/assignment.md"
+      },
+      {
+        "title": "动手学 CS146S 中文版",
+        "rel": "Assignments-week1",
+        "sourceRel": "Assignments/week1/README.md"
+      },
+      {
+        "title": "第 2 周——行动项提取器",
+        "rel": "Assignments-week2-assignment",
+        "sourceRel": "Assignments/week2/assignment.md"
+      },
+      {
+        "title": "第 2 周：行动项提取器",
+        "rel": "Assignments-week2",
+        "sourceRel": "Assignments/week2/README.md"
+      },
+      {
+        "title": "第 2 周作业报告",
+        "rel": "Assignments-week2-writeup",
+        "sourceRel": "Assignments/week2/writeup.md"
+      },
+      {
+        "title": "第 3 周——构建自定义 MCP Server",
+        "rel": "Assignments-week3-assignment",
+        "sourceRel": "Assignments/week3/assignment.md"
+      },
+      {
+        "title": "第 3 周：GitHub MCP Server",
+        "rel": "Assignments-week3",
+        "sourceRel": "Assignments/week3/README.md"
+      },
+      {
+        "title": "第 4 周——现实世界中的自主编码智能体",
+        "rel": "Assignments-week4-assignment",
+        "sourceRel": "Assignments/week4/assignment.md"
+      },
+      {
+        "title": "Week 4 repository guide",
+        "rel": "Assignments-week4-CLAUDE",
+        "sourceRel": "Assignments/week4/CLAUDE.md"
+      },
+      {
+        "title": "API reference",
+        "rel": "Assignments-week4-docs-API",
+        "sourceRel": "Assignments/week4/docs/API.md"
+      },
+      {
+        "title": "仓库任务清单",
+        "rel": "Assignments-week4-docs-TASKS",
+        "sourceRel": "Assignments/week4/docs/TASKS.md"
+      },
+      {
+        "title": "Week 4：开发者指挥中心",
+        "rel": "Assignments-week4",
+        "sourceRel": "Assignments/week4/README.md"
+      },
+      {
+        "title": "第 4 周书面报告",
+        "rel": "Assignments-week4-writeup",
+        "sourceRel": "Assignments/week4/writeup.md"
+      },
+      {
+        "title": "第 5 周——使用 Warp 进行智能体式开发",
+        "rel": "Assignments-week5-assignment",
+        "sourceRel": "Assignments/week5/assignment.md"
+      },
+      {
+        "title": "代码仓库任务",
+        "rel": "Assignments-week5-docs-TASKS",
+        "sourceRel": "Assignments/week5/docs/TASKS.md"
+      },
+      {
+        "title": "第 5 周：智能体驱动的全栈开发",
+        "rel": "Assignments-week5",
+        "sourceRel": "Assignments/week5/README.md"
+      },
+      {
+        "title": "第 5 周书面报告",
+        "rel": "Assignments-week5-writeup",
+        "sourceRel": "Assignments/week5/writeup.md"
+      },
+      {
+        "title": "第 6 周——使用 Semgrep 扫描并修复漏洞",
+        "rel": "Assignments-week6-assignment",
+        "sourceRel": "Assignments/week6/assignment.md"
+      },
+      {
+        "title": "第 6 周：用 Semgrep 修复安全问题",
+        "rel": "Assignments-week6",
+        "sourceRel": "Assignments/week6/README.md"
+      },
+      {
+        "title": "第 6 周作业报告",
+        "rel": "Assignments-week6-writeup",
+        "sourceRel": "Assignments/week6/writeup.md"
+      },
+      {
+        "title": "第 7 周——使用 Graphite 探索 AI 代码审查",
+        "rel": "Assignments-week7-assignment",
+        "sourceRel": "Assignments/week7/assignment.md"
+      },
+      {
+        "title": "第 7 周——任务清单",
+        "rel": "Assignments-week7-docs-TASKS",
+        "sourceRel": "Assignments/week7/docs/TASKS.md"
       }
     ]
   },
@@ -2307,7 +2438,7 @@ export const courses: Course[] = [
       },
       {
         "title": "浏览器调试器（DevTools）基础",
-        "rel": "docs-zh-cn-appendix-2-development-tools-debugging-art-index",
+        "rel": "docs-zh-cn-appendix-2-development-tools-debugging-art-2",
         "sourceRel": "docs/zh-cn/appendix/2-development-tools/debugging-art/index.md"
       },
       {
@@ -2344,776 +2475,6 @@ export const courses: Course[] = [
         "title": "网页的隐藏维度：国际化与无障碍全景",
         "rel": "docs-zh-cn-appendix-3-browser-and-frontend-a11n-i18n",
         "sourceRel": "docs/zh-cn/appendix/3-browser-and-frontend/a11n-i18n.md"
-      },
-      {
-        "title": "前端工程化全景",
-        "rel": "docs-zh-cn-appendix-3-browser-and-frontend-frontend-engineering",
-        "sourceRel": "docs/zh-cn/appendix/3-browser-and-frontend/frontend-engineering.md"
-      },
-      {
-        "title": "图形与动画基础：Canvas 与他的朋友们",
-        "rel": "docs-zh-cn-appendix-3-browser-and-frontend-graphics-animation",
-        "sourceRel": "docs/zh-cn/appendix/3-browser-and-frontend/graphics-animation.md"
-      },
-      {
-        "title": "JavaScript 原理",
-        "rel": "docs-zh-cn-appendix-3-browser-and-frontend-javascript-deep-dive",
-        "sourceRel": "docs/zh-cn/appendix/3-browser-and-frontend/javascript-deep-dive.md"
-      },
-      {
-        "title": "JavaScript 运行时原理",
-        "rel": "docs-zh-cn-appendix-3-browser-and-frontend-javascript-runtime",
-        "sourceRel": "docs/zh-cn/appendix/3-browser-and-frontend/javascript-runtime.md"
-      },
-      {
-        "title": "实时通信原理：Polling/SSE/WebSocket",
-        "rel": "docs-zh-cn-appendix-3-browser-and-frontend-realtime-communication",
-        "sourceRel": "docs/zh-cn/appendix/3-browser-and-frontend/realtime-communication.md"
-      },
-      {
-        "title": "路由与导航导论",
-        "rel": "docs-zh-cn-appendix-3-browser-and-frontend-routing-navigation",
-        "sourceRel": "docs/zh-cn/appendix/3-browser-and-frontend/routing-navigation.md"
-      },
-      {
-        "title": "TypeScript 原理",
-        "rel": "docs-zh-cn-appendix-3-browser-and-frontend-typescript",
-        "sourceRel": "docs/zh-cn/appendix/3-browser-and-frontend/typescript.md"
-      },
-      {
-        "title": "API 设计原理：前后端的通信协议",
-        "rel": "docs-zh-cn-appendix-4-server-and-backend-api-design",
-        "sourceRel": "docs/zh-cn/appendix/4-server-and-backend/api-design.md"
-      },
-      {
-        "title": "API 入门导论：从零理解程序之间的通信",
-        "rel": "docs-zh-cn-appendix-4-server-and-backend-api-intro",
-        "sourceRel": "docs/zh-cn/appendix/4-server-and-backend/api-intro.md"
-      },
-      {
-        "title": "异步任务队列原理",
-        "rel": "docs-zh-cn-appendix-4-server-and-backend-async-task-queues",
-        "sourceRel": "docs/zh-cn/appendix/4-server-and-backend/async-task-queues.md"
-      },
-      {
-        "title": "后端语言导论",
-        "rel": "docs-zh-cn-appendix-4-server-and-backend-backend-languages",
-        "sourceRel": "docs/zh-cn/appendix/4-server-and-backend/backend-languages.md"
-      },
-      {
-        "title": "后端分层架构原理",
-        "rel": "docs-zh-cn-appendix-4-server-and-backend-backend-layered-architecture",
-        "sourceRel": "docs/zh-cn/appendix/4-server-and-backend/backend-layered-architecture.md"
-      },
-      {
-        "title": "后端项目架构导论",
-        "rel": "docs-zh-cn-appendix-4-server-and-backend-backend-project-architecture",
-        "sourceRel": "docs/zh-cn/appendix/4-server-and-backend/backend-project-architecture.md"
-      },
-      {
-        "title": "缓存原理与策略",
-        "rel": "docs-zh-cn-appendix-4-server-and-backend-caching",
-        "sourceRel": "docs/zh-cn/appendix/4-server-and-backend/caching.md"
-      },
-      {
-        "title": "客户端语言导论：Swift/Kotlin/Dart",
-        "rel": "docs-zh-cn-appendix-4-server-and-backend-client-languages",
-        "sourceRel": "docs/zh-cn/appendix/4-server-and-backend/client-languages.md"
-      },
-      {
-        "title": "并发异步与多线程原理",
-        "rel": "docs-zh-cn-appendix-4-server-and-backend-concurrency-async",
-        "sourceRel": "docs/zh-cn/appendix/4-server-and-backend/concurrency-async.md"
-      },
-      {
-        "title": "跨平台方案全景",
-        "rel": "docs-zh-cn-appendix-4-server-and-backend-cross-platform",
-        "sourceRel": "docs/zh-cn/appendix/4-server-and-backend/cross-platform.md"
-      },
-      {
-        "title": "领域特定语言（DSL）原理",
-        "rel": "docs-zh-cn-appendix-4-server-and-backend-domain-specific-languages",
-        "sourceRel": "docs/zh-cn/appendix/4-server-and-backend/domain-specific-languages.md"
-      },
-      {
-        "title": "文件与对象存储导论",
-        "rel": "docs-zh-cn-appendix-4-server-and-backend-file-storage",
-        "sourceRel": "docs/zh-cn/appendix/4-server-and-backend/file-storage.md"
-      },
-      {
-        "title": "HTTP 协议原理：前后端的通信语言",
-        "rel": "docs-zh-cn-appendix-4-server-and-backend-http-protocol",
-        "sourceRel": "docs/zh-cn/appendix/4-server-and-backend/http-protocol.md"
-      },
-      {
-        "title": "消息队列与事件驱动原理",
-        "rel": "docs-zh-cn-appendix-4-server-and-backend-message-queues",
-        "sourceRel": "docs/zh-cn/appendix/4-server-and-backend/message-queues.md"
-      },
-      {
-        "title": "限流与背压原理",
-        "rel": "docs-zh-cn-appendix-4-server-and-backend-rate-limiting-backpressure",
-        "sourceRel": "docs/zh-cn/appendix/4-server-and-backend/rate-limiting-backpressure.md"
-      },
-      {
-        "title": "请求旅程全景",
-        "rel": "docs-zh-cn-appendix-4-server-and-backend-request-journey",
-        "sourceRel": "docs/zh-cn/appendix/4-server-and-backend/request-journey.md"
-      },
-      {
-        "title": "搜索引擎原理",
-        "rel": "docs-zh-cn-appendix-4-server-and-backend-search-engines",
-        "sourceRel": "docs/zh-cn/appendix/4-server-and-backend/search-engines.md"
-      },
-      {
-        "title": "序列化原理：数据的翻译",
-        "rel": "docs-zh-cn-appendix-4-server-and-backend-serialization",
-        "sourceRel": "docs/zh-cn/appendix/4-server-and-backend/serialization.md"
-      },
-      {
-        "title": "Web 框架原理",
-        "rel": "docs-zh-cn-appendix-4-server-and-backend-web-frameworks",
-        "sourceRel": "docs/zh-cn/appendix/4-server-and-backend/web-frameworks.md"
-      },
-      {
-        "title": "A/B 测试原理：用数据做决策",
-        "rel": "docs-zh-cn-appendix-5-data-ab-testing",
-        "sourceRel": "docs/zh-cn/appendix/5-data/ab-testing.md"
-      },
-      {
-        "title": "数据分析原理",
-        "rel": "docs-zh-cn-appendix-5-data-data-analysis",
-        "sourceRel": "docs/zh-cn/appendix/5-data/data-analysis.md"
-      },
-      {
-        "title": "数据治理导论",
-        "rel": "docs-zh-cn-appendix-5-data-data-governance",
-        "sourceRel": "docs/zh-cn/appendix/5-data/data-governance.md"
-      },
-      {
-        "title": "数据模型全景：文档/图/时序/向量",
-        "rel": "docs-zh-cn-appendix-5-data-data-models",
-        "sourceRel": "docs/zh-cn/appendix/5-data/data-models.md"
-      },
-      {
-        "title": "数据埋点导论",
-        "rel": "docs-zh-cn-appendix-5-data-data-tracking",
-        "sourceRel": "docs/zh-cn/appendix/5-data/data-tracking.md"
-      },
-      {
-        "title": "数据可视化原理",
-        "rel": "docs-zh-cn-appendix-5-data-data-visualization",
-        "sourceRel": "docs/zh-cn/appendix/5-data/data-visualization.md"
-      },
-      {
-        "title": "数据库原理：索引/事务/查询优化",
-        "rel": "docs-zh-cn-appendix-5-data-database-fundamentals",
-        "sourceRel": "docs/zh-cn/appendix/5-data/database-fundamentals.md"
-      },
-      {
-        "title": "分布式系统原理",
-        "rel": "docs-zh-cn-appendix-6-architecture-and-system-design-distributed-systems",
-        "sourceRel": "docs/zh-cn/appendix/6-architecture-and-system-design/distributed-systems.md"
-      },
-      {
-        "title": "高可用与容灾原理",
-        "rel": "docs-zh-cn-appendix-6-architecture-and-system-design-high-availability",
-        "sourceRel": "docs/zh-cn/appendix/6-architecture-and-system-design/high-availability.md"
-      },
-      {
-        "title": "单体到微服务演进导论",
-        "rel": "docs-zh-cn-appendix-6-architecture-and-system-design-monolith-to-microservices",
-        "sourceRel": "docs/zh-cn/appendix/6-architecture-and-system-design/monolith-to-microservices.md"
-      },
-      {
-        "title": "系统设计方法论",
-        "rel": "docs-zh-cn-appendix-6-architecture-and-system-design-system-design-methodology",
-        "sourceRel": "docs/zh-cn/appendix/6-architecture-and-system-design/system-design-methodology.md"
-      },
-      {
-        "title": "CI/CD 自动化导论",
-        "rel": "docs-zh-cn-appendix-7-infrastructure-and-operations-ci-cd",
-        "sourceRel": "docs/zh-cn/appendix/7-infrastructure-and-operations/ci-cd.md"
-      },
-      {
-        "title": "云身份与权限管理原理",
-        "rel": "docs-zh-cn-appendix-7-infrastructure-and-operations-cloud-iam",
-        "sourceRel": "docs/zh-cn/appendix/7-infrastructure-and-operations/cloud-iam.md"
-      },
-      {
-        "title": "云平台实战基础",
-        "rel": "docs-zh-cn-appendix-7-infrastructure-and-operations-cloud-platforms",
-        "sourceRel": "docs/zh-cn/appendix/7-infrastructure-and-operations/cloud-platforms.md"
-      },
-      {
-        "title": "对象存储与 CDN 原理",
-        "rel": "docs-zh-cn-appendix-7-infrastructure-and-operations-cloud-storage-cdn",
-        "sourceRel": "docs/zh-cn/appendix/7-infrastructure-and-operations/cloud-storage-cdn.md"
-      },
-      {
-        "title": "域名 DNS 与 HTTPS 原理",
-        "rel": "docs-zh-cn-appendix-7-infrastructure-and-operations-dns-https",
-        "sourceRel": "docs/zh-cn/appendix/7-infrastructure-and-operations/dns-https.md"
-      },
-      {
-        "title": "Docker 容器化导论",
-        "rel": "docs-zh-cn-appendix-7-infrastructure-and-operations-docker-containers",
-        "sourceRel": "docs/zh-cn/appendix/7-infrastructure-and-operations/docker-containers.md"
-      },
-      {
-        "title": "网关与反向代理原理",
-        "rel": "docs-zh-cn-appendix-7-infrastructure-and-operations-gateway-proxy",
-        "sourceRel": "docs/zh-cn/appendix/7-infrastructure-and-operations/gateway-proxy.md"
-      },
-      {
-        "title": "故障排查与应急响应导论",
-        "rel": "docs-zh-cn-appendix-7-infrastructure-and-operations-incident-response",
-        "sourceRel": "docs/zh-cn/appendix/7-infrastructure-and-operations/incident-response.md"
-      },
-      {
-        "title": "基础设施即代码原理",
-        "rel": "docs-zh-cn-appendix-7-infrastructure-and-operations-infrastructure-as-code",
-        "sourceRel": "docs/zh-cn/appendix/7-infrastructure-and-operations/infrastructure-as-code.md"
-      },
-      {
-        "title": "Kubernetes 编排原理",
-        "rel": "docs-zh-cn-appendix-7-infrastructure-and-operations-kubernetes",
-        "sourceRel": "docs/zh-cn/appendix/7-infrastructure-and-operations/kubernetes.md"
-      },
-      {
-        "title": "Linux 基础",
-        "rel": "docs-zh-cn-appendix-7-infrastructure-and-operations-linux-basics",
-        "sourceRel": "docs/zh-cn/appendix/7-infrastructure-and-operations/linux-basics.md"
-      },
-      {
-        "title": "负载均衡与网关原理",
-        "rel": "docs-zh-cn-appendix-7-infrastructure-and-operations-load-balancing-gateway",
-        "sourceRel": "docs/zh-cn/appendix/7-infrastructure-and-operations/load-balancing-gateway.md"
-      },
-      {
-        "title": "监控日志与告警原理",
-        "rel": "docs-zh-cn-appendix-7-infrastructure-and-operations-monitoring-logging",
-        "sourceRel": "docs/zh-cn/appendix/7-infrastructure-and-operations/monitoring-logging.md"
-      },
-      {
-        "title": "AI Agent 原理与工具调用",
-        "rel": "docs-zh-cn-appendix-8-artificial-intelligence-ai-agents",
-        "sourceRel": "docs/zh-cn/appendix/8-artificial-intelligence/ai-agents.md"
-      },
-      {
-        "title": "AI 能力词典",
-        "rel": "docs-zh-cn-appendix-8-artificial-intelligence-ai-capability-dictionary",
-        "sourceRel": "docs/zh-cn/appendix/8-artificial-intelligence/ai-capability-dictionary.md"
-      },
-      {
-        "title": "AI 简史：从符号逻辑到千亿参数大模型",
-        "rel": "docs-zh-cn-appendix-8-artificial-intelligence-ai-history",
-        "sourceRel": "docs/zh-cn/appendix/8-artificial-intelligence/ai-history.md"
-      },
-      {
-        "title": "AI 原生应用设计导论",
-        "rel": "docs-zh-cn-appendix-8-artificial-intelligence-ai-native-app-design",
-        "sourceRel": "docs/zh-cn/appendix/8-artificial-intelligence/ai-native-app-design.md"
-      },
-      {
-        "title": "AI Agent 协议原理：MCP 与 A2A",
-        "rel": "docs-zh-cn-appendix-8-artificial-intelligence-ai-protocols",
-        "sourceRel": "docs/zh-cn/appendix/8-artificial-intelligence/ai-protocols.md"
-      },
-      {
-        "title": "上下文工程导论",
-        "rel": "docs-zh-cn-appendix-8-artificial-intelligence-context-engineering",
-        "sourceRel": "docs/zh-cn/appendix/8-artificial-intelligence/context-engineering.md"
-      },
-      {
-        "title": "Embedding 与向量检索原理",
-        "rel": "docs-zh-cn-appendix-8-artificial-intelligence-embedding-vector-retrieval",
-        "sourceRel": "docs/zh-cn/appendix/8-artificial-intelligence/embedding-vector-retrieval.md"
-      },
-      {
-        "title": "图像生成原理",
-        "rel": "docs-zh-cn-appendix-8-artificial-intelligence-image-generation",
-        "sourceRel": "docs/zh-cn/appendix/8-artificial-intelligence/image-generation.md"
-      },
-      {
-        "title": "大语言模型工作原理",
-        "rel": "docs-zh-cn-appendix-8-artificial-intelligence-llm-principles",
-        "sourceRel": "docs/zh-cn/appendix/8-artificial-intelligence/llm-principles.md"
-      },
-      {
-        "title": "模型微调与部署导论",
-        "rel": "docs-zh-cn-appendix-8-artificial-intelligence-model-finetuning-deployment",
-        "sourceRel": "docs/zh-cn/appendix/8-artificial-intelligence/model-finetuning-deployment.md"
-      },
-      {
-        "title": "多模态模型原理：视觉/音频/视频",
-        "rel": "docs-zh-cn-appendix-8-artificial-intelligence-multimodal-models",
-        "sourceRel": "docs/zh-cn/appendix/8-artificial-intelligence/multimodal-models.md"
-      },
-      {
-        "title": "神经网络与深度学习基础",
-        "rel": "docs-zh-cn-appendix-8-artificial-intelligence-neural-networks",
-        "sourceRel": "docs/zh-cn/appendix/8-artificial-intelligence/neural-networks.md"
-      },
-      {
-        "title": "提示词工程导论",
-        "rel": "docs-zh-cn-appendix-8-artificial-intelligence-prompt-engineering",
-        "sourceRel": "docs/zh-cn/appendix/8-artificial-intelligence/prompt-engineering.md"
-      },
-      {
-        "title": "RAG 原理：检索增强生成",
-        "rel": "docs-zh-cn-appendix-8-artificial-intelligence-rag",
-        "sourceRel": "docs/zh-cn/appendix/8-artificial-intelligence/rag.md"
-      },
-      {
-        "title": "语音合成与识别原理",
-        "rel": "docs-zh-cn-appendix-8-artificial-intelligence-speech-synthesis-recognition",
-        "sourceRel": "docs/zh-cn/appendix/8-artificial-intelligence/speech-synthesis-recognition.md"
-      },
-      {
-        "title": "Transformer 与注意力机制原理",
-        "rel": "docs-zh-cn-appendix-8-artificial-intelligence-transformer-attention",
-        "sourceRel": "docs/zh-cn/appendix/8-artificial-intelligence/transformer-attention.md"
-      },
-      {
-        "title": "代码质量与重构导论",
-        "rel": "docs-zh-cn-appendix-9-engineering-excellence-code-quality-refactoring",
-        "sourceRel": "docs/zh-cn/appendix/9-engineering-excellence/code-quality-refactoring.md"
-      },
-      {
-        "title": "设计模式基础",
-        "rel": "docs-zh-cn-appendix-9-engineering-excellence-design-patterns",
-        "sourceRel": "docs/zh-cn/appendix/9-engineering-excellence/design-patterns.md"
-      },
-      {
-        "title": "开源协作导论",
-        "rel": "docs-zh-cn-appendix-9-engineering-excellence-open-source-collaboration",
-        "sourceRel": "docs/zh-cn/appendix/9-engineering-excellence/open-source-collaboration.md"
-      },
-      {
-        "title": "安全思维与攻防基础",
-        "rel": "docs-zh-cn-appendix-9-engineering-excellence-security-thinking",
-        "sourceRel": "docs/zh-cn/appendix/9-engineering-excellence/security-thinking.md"
-      },
-      {
-        "title": "技术文档写作导论",
-        "rel": "docs-zh-cn-appendix-9-engineering-excellence-technical-writing",
-        "sourceRel": "docs/zh-cn/appendix/9-engineering-excellence/technical-writing.md"
-      },
-      {
-        "title": "技术选型方法论",
-        "rel": "docs-zh-cn-appendix-9-engineering-excellence-technology-selection",
-        "sourceRel": "docs/zh-cn/appendix/9-engineering-excellence/technology-selection.md"
-      },
-      {
-        "title": "测试策略导论",
-        "rel": "docs-zh-cn-appendix-9-engineering-excellence-testing-strategies",
-        "sourceRel": "docs/zh-cn/appendix/9-engineering-excellence/testing-strategies.md"
-      },
-      {
-        "title": "附录",
-        "rel": "docs-zh-cn-appendix-index",
-        "sourceRel": "docs/zh-cn/appendix/index.md"
-      },
-      {
-        "title": "项目介绍",
-        "rel": "docs-zh-cn-guide-introduction",
-        "sourceRel": "docs/zh-cn/guide/introduction.md"
-      },
-      {
-        "title": "产品思维基础",
-        "rel": "docs-zh-cn-stage-1-appendix-a-product-thinking-index",
-        "sourceRel": "docs/zh-cn/stage-1/appendix-a-product-thinking/index.md"
-      },
-      {
-        "title": "七款 AI 编程工具对比",
-        "rel": "docs-zh-cn-stage-1-appendix-articles-example0-1-vibe-coding-tools-snake-game-tutorial",
-        "sourceRel": "docs/zh-cn/stage-1/appendix-articles/example0-1/vibe-coding-tools-snake-game-tutorial.md"
-      },
-      {
-        "title": "用设计和编程 Agent 设计网站",
-        "rel": "docs-zh-cn-stage-1-appendix-articles-example0-2-vibe-coding-tools-build-website-with-ai-coding-and-design-agents",
-        "sourceRel": "docs/zh-cn/stage-1/appendix-articles/example0-2/vibe-coding-tools-build-website-with-ai-coding-and-design-agents.md"
-      },
-      {
-        "title": "常见问题与排错",
-        "rel": "docs-zh-cn-stage-1-appendix-b-common-errors-index",
-        "sourceRel": "docs/zh-cn/stage-1/appendix-b-common-errors/index.md"
-      },
-      {
-        "title": "C 端场景灵感方向参考",
-        "rel": "docs-zh-cn-stage-1-appendix-consumer-scenarios-index",
-        "sourceRel": "docs/zh-cn/stage-1/appendix-consumer-scenarios/index.md"
-      },
-      {
-        "title": "创意灵感从哪里来",
-        "rel": "docs-zh-cn-stage-1-appendix-idea-sources-index",
-        "sourceRel": "docs/zh-cn/stage-1/appendix-idea-sources/index.md"
-      },
-      {
-        "title": "在魔搭社区发布你的 Vibe Coding 产物",
-        "rel": "docs-zh-cn-stage-1-appendix-modelscope-static-site-index",
-        "sourceRel": "docs/zh-cn/stage-1/appendix-modelscope-static-site/index.md"
-      },
-      {
-        "title": "构建可交互的产品原型",
-        "rel": "docs-zh-cn-stage-1-building-prototype-index",
-        "sourceRel": "docs/zh-cn/stage-1/building-prototype/index.md"
-      },
-      {
-        "title": "从截图复刻：第一次模仿练习",
-        "rel": "docs-zh-cn-stage-1-clone-your-favorite-app-index",
-        "sourceRel": "docs/zh-cn/stage-1/clone-your-favorite-app/index.md"
-      },
-      {
-        "title": "完整项目实战：从想法到作品",
-        "rel": "docs-zh-cn-stage-1-complete-project-practice-index",
-        "sourceRel": "docs/zh-cn/stage-1/complete-project-practice/index.md"
-      },
-      {
-        "title": "如何判断一个好点子",
-        "rel": "docs-zh-cn-stage-1-finding-great-idea-index",
-        "sourceRel": "docs/zh-cn/stage-1/finding-great-idea/index.md"
-      },
-      {
-        "title": "为原型接入 AI 能力",
-        "rel": "docs-zh-cn-stage-1-integrating-ai-capabilities-index",
-        "sourceRel": "docs/zh-cn/stage-1/integrating-ai-capabilities/index.md"
-      },
-      {
-        "title": "Dify 入门与知识库集成",
-        "rel": "docs-zh-cn-stage-2-ai-capabilities-dify-knowledge-base-index",
-        "sourceRel": "docs/zh-cn/stage-2/ai-capabilities/dify-knowledge-base/index.md"
-      },
-      {
-        "title": "AI 营销文案 SaaS 开发实战",
-        "rel": "docs-zh-cn-stage-2-assignments-copywriting-platform-supabase-index",
-        "sourceRel": "docs/zh-cn/stage-2/assignments/copywriting-platform-supabase/index.md"
-      },
-      {
-        "title": "PRD：AI 营销文案 SaaS 平台",
-        "rel": "docs-zh-cn-stage-2-assignments-copywriting-platform-supabase-PRD",
-        "sourceRel": "docs/zh-cn/stage-2/assignments/copywriting-platform-supabase/PRD.md"
-      },
-      {
-        "title": "类 Dify 智能体平台开发实战",
-        "rel": "docs-zh-cn-stage-2-assignments-custom-dify-agent-platform-index",
-        "sourceRel": "docs/zh-cn/stage-2/assignments/custom-dify-agent-platform/index.md"
-      },
-      {
-        "title": "PRD：类 Dify 智能体编排平台",
-        "rel": "docs-zh-cn-stage-2-assignments-custom-dify-agent-platform-PRD",
-        "sourceRel": "docs/zh-cn/stage-2/assignments/custom-dify-agent-platform/PRD.md"
-      },
-      {
-        "title": "在线考试与管理系统开发实战",
-        "rel": "docs-zh-cn-stage-2-assignments-exam-management-express-index",
-        "sourceRel": "docs/zh-cn/stage-2/assignments/exam-management-express/index.md"
-      },
-      {
-        "title": "PRD：在线考试与管理系统",
-        "rel": "docs-zh-cn-stage-2-assignments-exam-management-express-PRD",
-        "sourceRel": "docs/zh-cn/stage-2/assignments/exam-management-express/PRD.md"
-      },
-      {
-        "title": "现代 AI 生图 SaaS 开发实战",
-        "rel": "docs-zh-cn-stage-2-assignments-modern-landing-page-index",
-        "sourceRel": "docs/zh-cn/stage-2/assignments/modern-landing-page/index.md"
-      },
-      {
-        "title": "PRD：现代 AI 生图 SaaS 平台",
-        "rel": "docs-zh-cn-stage-2-assignments-modern-landing-page-PRD",
-        "sourceRel": "docs/zh-cn/stage-2/assignments/modern-landing-page/PRD.md"
-      },
-      {
-        "title": "Spring Boot 电影推荐系统开发实战",
-        "rel": "docs-zh-cn-stage-2-assignments-movie-recommendation-springboot-index",
-        "sourceRel": "docs/zh-cn/stage-2/assignments/movie-recommendation-springboot/index.md"
-      },
-      {
-        "title": "PRD：Spring Boot 电影推荐系统",
-        "rel": "docs-zh-cn-stage-2-assignments-movie-recommendation-springboot-PRD",
-        "sourceRel": "docs/zh-cn/stage-2/assignments/movie-recommendation-springboot/PRD.md"
-      },
-      {
-        "title": "生鲜电商微服务系统开发实战",
-        "rel": "docs-zh-cn-stage-2-assignments-simple-grocery-microservices-index",
-        "sourceRel": "docs/zh-cn/stage-2/assignments/simple-grocery-microservices/index.md"
-      },
-      {
-        "title": "PRD：生鲜电商微服务系统",
-        "rel": "docs-zh-cn-stage-2-assignments-simple-grocery-microservices-PRD",
-        "sourceRel": "docs/zh-cn/stage-2/assignments/simple-grocery-microservices/PRD.md"
-      },
-      {
-        "title": "Go 交通数据分析平台开发实战",
-        "rel": "docs-zh-cn-stage-2-assignments-traffic-data-visualization-go-index",
-        "sourceRel": "docs/zh-cn/stage-2/assignments/traffic-data-visualization-go/index.md"
-      },
-      {
-        "title": "PRD：Go 交通数据分析与可视化平台",
-        "rel": "docs-zh-cn-stage-2-assignments-traffic-data-visualization-go-PRD",
-        "sourceRel": "docs/zh-cn/stage-2/assignments/traffic-data-visualization-go/PRD.md"
-      },
-      {
-        "title": "智能旅游规划 Agent 平台开发实战",
-        "rel": "docs-zh-cn-stage-2-assignments-travel-planning-agent-platform-index",
-        "sourceRel": "docs/zh-cn/stage-2/assignments/travel-planning-agent-platform/index.md"
-      },
-      {
-        "title": "PRD：智能旅游规划 Agent 编排平台",
-        "rel": "docs-zh-cn-stage-2-assignments-travel-planning-agent-platform-PRD",
-        "sourceRel": "docs/zh-cn/stage-2/assignments/travel-planning-agent-platform/PRD.md"
-      },
-      {
-        "title": "大模型辅助编写接口代码与接口文档",
-        "rel": "docs-zh-cn-stage-2-backend-ai-interface-code-index",
-        "sourceRel": "docs/zh-cn/stage-2/backend/ai-interface-code/index.md"
-      },
-      {
-        "title": "把网站发到网上（进阶方式）：自己买台 VPS 服务器搭建发布",
-        "rel": "docs-zh-cn-stage-2-backend-cloud-server-deployment-index",
-        "sourceRel": "docs/zh-cn/stage-2/backend/cloud-server-deployment/index.md"
-      },
-      {
-        "title": "从数据库到 Supabase",
-        "rel": "docs-zh-cn-stage-2-backend-database-supabase-index",
-        "sourceRel": "docs/zh-cn/stage-2/backend/database-supabase/index.md"
-      },
-      {
-        "title": "Git 和 GitHub 工作流",
-        "rel": "docs-zh-cn-stage-2-backend-git-workflow-index",
-        "sourceRel": "docs/zh-cn/stage-2/backend/git-workflow/index.md"
-      },
-      {
-        "title": "CLI AI 编程工具",
-        "rel": "docs-zh-cn-stage-2-backend-modern-cli-index",
-        "sourceRel": "docs/zh-cn/stage-2/backend/modern-cli/index.md"
-      },
-      {
-        "title": "如何集成 Stripe 等收费系统",
-        "rel": "docs-zh-cn-stage-2-backend-stripe-payment-index",
-        "sourceRel": "docs/zh-cn/stage-2/backend/stripe-payment/index.md"
-      },
-      {
-        "title": "把网站发到网上（简单方式）：Vercel/Zeabur/CloudBase 一键发布",
-        "rel": "docs-zh-cn-stage-2-backend-zeabur-deployment-index",
-        "sourceRel": "docs/zh-cn/stage-2/backend/zeabur-deployment/index.md"
-      },
-      {
-        "title": "从设计原型到项目代码",
-        "rel": "docs-zh-cn-stage-2-frontend-design-to-code-index",
-        "sourceRel": "docs/zh-cn/stage-2/frontend/design-to-code/index.md"
-      },
-      {
-        "title": "Project 4: 一起做霍格沃茨画像",
-        "rel": "docs-zh-cn-stage-2-frontend-hogwarts-portraits-index",
-        "sourceRel": "docs/zh-cn/stage-2/frontend/hogwarts-portraits/index.md"
-      },
-      {
-        "title": "用 LLM 和 Skills 让界面变好看：提示词与插件实战",
-        "rel": "docs-zh-cn-stage-2-frontend-llm-skills-beautiful-index",
-        "sourceRel": "docs/zh-cn/stage-2/frontend/llm-skills-beautiful/index.md"
-      },
-      {
-        "title": "从 NanoBanana 出发，搭建自己的素材生产Agent",
-        "rel": "docs-zh-cn-stage-2-frontend-lovart-assets-index",
-        "sourceRel": "docs/zh-cn/stage-2/frontend/lovart-assets/index.md"
-      },
-      {
-        "title": "使用现代组件库更新你的界面",
-        "rel": "docs-zh-cn-stage-2-frontend-modern-component-library-index",
-        "sourceRel": "docs/zh-cn/stage-2/frontend/modern-component-library/index.md"
-      },
-      {
-        "title": "参考 UI 设计规范设计页面和按钮",
-        "rel": "docs-zh-cn-stage-2-frontend-multi-product-ui-index",
-        "sourceRel": "docs/zh-cn/stage-2/frontend/multi-product-ui/index.md"
-      },
-      {
-        "title": "构建第一个现代应用程序 - UI 设计",
-        "rel": "docs-zh-cn-stage-2-frontend-ui-design-index",
-        "sourceRel": "docs/zh-cn/stage-2/frontend/ui-design/index.md"
-      },
-      {
-        "title": "初中级开发",
-        "rel": "docs-zh-cn-stage-2-index",
-        "sourceRel": "docs/zh-cn/stage-2/index.md"
-      },
-      {
-        "title": "企业级客服 Agent 实战：用 LangGraph 搭建可升级、可审计的客服系统",
-        "rel": "docs-zh-cn-stage-3-ai-advanced-langgraph-advanced-rag-index",
-        "sourceRel": "docs/zh-cn/stage-3/ai-advanced/langgraph-advanced-rag/index.md"
-      },
-      {
-        "title": "企业级知识库实战：用 LlamaIndex 搭建能落地的 RAG 系统",
-        "rel": "docs-zh-cn-stage-3-ai-advanced-llamaindex-enterprise-knowledge-base-index",
-        "sourceRel": "docs/zh-cn/stage-3/ai-advanced/llamaindex-enterprise-knowledge-base/index.md"
-      },
-      {
-        "title": "本节课你将学到",
-        "rel": "docs-zh-cn-stage-3-ai-advanced-rag-introduction-index",
-        "sourceRel": "docs/zh-cn/stage-3/ai-advanced/rag-introduction/index.md"
-      },
-      {
-        "title": "Claude Agent Teams 完全指南",
-        "rel": "docs-zh-cn-stage-3-core-skills-agent-teams-index",
-        "sourceRel": "docs/zh-cn/stage-3/core-skills/agent-teams/index.md"
-      },
-      {
-        "title": "Claude Code 快速上手核心指南",
-        "rel": "docs-zh-cn-stage-3-core-skills-basics-index",
-        "sourceRel": "docs/zh-cn/stage-3/core-skills/basics/index.md"
-      },
-      {
-        "title": "Claude Agent SDK 完全指南",
-        "rel": "docs-zh-cn-stage-3-core-skills-claude-agent-sdk-index",
-        "sourceRel": "docs/zh-cn/stage-3/core-skills/claude-agent-sdk/index.md"
-      },
-      {
-        "title": "用 GitHub Issues 驱动 AI 全流程开发：从需求讨论到 macOS 成品",
-        "rel": "docs-zh-cn-stage-3-core-skills-github-iterative-development-index",
-        "sourceRel": "docs/zh-cn/stage-3/core-skills/github-iterative-development/index.md"
-      },
-      {
-        "title": "如何让 Claude Code 长时间工作",
-        "rel": "docs-zh-cn-stage-3-core-skills-long-running-tasks-index",
-        "sourceRel": "docs/zh-cn/stage-3/core-skills/long-running-tasks/index.md"
-      },
-      {
-        "title": "Claude Code MCP 完全指南",
-        "rel": "docs-zh-cn-stage-3-core-skills-mcp-index",
-        "sourceRel": "docs/zh-cn/stage-3/core-skills/mcp/index.md"
-      },
-      {
-        "title": "Claude Code 手机远程开发",
-        "rel": "docs-zh-cn-stage-3-core-skills-mobile-development-index",
-        "sourceRel": "docs/zh-cn/stage-3/core-skills/mobile-development/index.md"
-      },
-      {
-        "title": "Claude Code Skills 完全指南",
-        "rel": "docs-zh-cn-stage-3-core-skills-skills-index",
-        "sourceRel": "docs/zh-cn/stage-3/core-skills/skills/index.md"
-      },
-      {
-        "title": "从 Vibe Coding 到 Spec Coding：先把需求写清楚，再让 AI 写代码",
-        "rel": "docs-zh-cn-stage-3-core-skills-spec-coding-index",
-        "sourceRel": "docs/zh-cn/stage-3/core-skills/spec-coding/index.md"
-      },
-      {
-        "title": "Claude Code Superpowers 工程级开发",
-        "rel": "docs-zh-cn-stage-3-core-skills-superpowers-index",
-        "sourceRel": "docs/zh-cn/stage-3/core-skills/superpowers/index.md"
-      },
-      {
-        "title": "AI 辅助开发工作流",
-        "rel": "docs-zh-cn-stage-3-core-skills-workflow-index",
-        "sourceRel": "docs/zh-cn/stage-3/core-skills/workflow/index.md"
-      },
-      {
-        "title": "如何用 Jetpack Compose 开发 Android 原生应用",
-        "rel": "docs-zh-cn-stage-3-cross-platform-android-app-index",
-        "sourceRel": "docs/zh-cn/stage-3/cross-platform/android-app/index.md"
-      },
-      {
-        "title": "如何把开发好的程序发布上架",
-        "rel": "docs-zh-cn-stage-3-cross-platform-app-publishing-index",
-        "sourceRel": "docs/zh-cn/stage-3/cross-platform/app-publishing/index.md"
-      },
-      {
-        "title": "如何开发浏览器 AI 助手插件",
-        "rel": "docs-zh-cn-stage-3-cross-platform-browser-ai-extension-index",
-        "sourceRel": "docs/zh-cn/stage-3/cross-platform/browser-ai-extension/index.md"
-      },
-      {
-        "title": "如何选择你的应用该开发的平台",
-        "rel": "docs-zh-cn-stage-3-cross-platform-choose-platform-index",
-        "sourceRel": "docs/zh-cn/stage-3/cross-platform/choose-platform/index.md"
-      },
-      {
-        "title": "如何开发跨平台 Electron 桌面程序",
-        "rel": "docs-zh-cn-stage-3-cross-platform-electron-voice-to-text-index",
-        "sourceRel": "docs/zh-cn/stage-3/cross-platform/electron-voice-to-text/index.md"
-      },
-      {
-        "title": "如何开发 Flutter 跨平台应用",
-        "rel": "docs-zh-cn-stage-3-cross-platform-flutter-app-index",
-        "sourceRel": "docs/zh-cn/stage-3/cross-platform/flutter-app/index.md"
-      },
-      {
-        "title": "如何用 Godot 开发横版、像素与 3D 游戏",
-        "rel": "docs-zh-cn-stage-3-cross-platform-godot-game-development-index",
-        "sourceRel": "docs/zh-cn/stage-3/cross-platform/godot-game-development/index.md"
-      },
-      {
-        "title": "如何用 SwiftUI 开发 iOS 原生应用",
-        "rel": "docs-zh-cn-stage-3-cross-platform-ios-app-index",
-        "sourceRel": "docs/zh-cn/stage-3/cross-platform/ios-app/index.md"
-      },
-      {
-        "title": "如何在本地模拟链铸造 NFT",
-        "rel": "docs-zh-cn-stage-3-cross-platform-nft-minting-index",
-        "sourceRel": "docs/zh-cn/stage-3/cross-platform/nft-minting/index.md"
-      },
-      {
-        "title": "如何开发 PWA 本地应用",
-        "rel": "docs-zh-cn-stage-3-cross-platform-pwa-local-app-index",
-        "sourceRel": "docs/zh-cn/stage-3/cross-platform/pwa-local-app/index.md"
-      },
-      {
-        "title": "如何开发企业 Qt 设备客户端",
-        "rel": "docs-zh-cn-stage-3-cross-platform-qt-industrial-hmi-index",
-        "sourceRel": "docs/zh-cn/stage-3/cross-platform/qt-industrial-hmi/index.md"
-      },
-      {
-        "title": "从零开始用 React Native + Expo 做一个门店巡检应用",
-        "rel": "docs-zh-cn-stage-3-cross-platform-react-native-expo-index",
-        "sourceRel": "docs/zh-cn/stage-3/cross-platform/react-native-expo/index.md"
-      },
-      {
-        "title": "如何开发 VS Code 插件",
-        "rel": "docs-zh-cn-stage-3-cross-platform-vscode-extension-index",
-        "sourceRel": "docs/zh-cn/stage-3/cross-platform/vscode-extension/index.md"
-      },
-      {
-        "title": "如何构建微信小程序（包含后端）",
-        "rel": "docs-zh-cn-stage-3-cross-platform-wechat-miniprogram-backend-index",
-        "sourceRel": "docs/zh-cn/stage-3/cross-platform/wechat-miniprogram-backend/index.md"
-      },
-      {
-        "title": "如何构建微信小程序",
-        "rel": "docs-zh-cn-stage-3-cross-platform-wechat-miniprogram-index",
-        "sourceRel": "docs/zh-cn/stage-3/cross-platform/wechat-miniprogram/index.md"
-      },
-      {
-        "title": "进阶开发",
-        "rel": "docs-zh-cn-stage-3-index",
-        "sourceRel": "docs/zh-cn/stage-3/index.md"
-      },
-      {
-        "title": "如何构建属于自己的个人网页与学术博客",
-        "rel": "docs-zh-cn-stage-3-personal-brand-personal-website-blog-index",
-        "sourceRel": "docs/zh-cn/stage-3/personal-brand/personal-website-blog/index.md"
-      },
-      {
-        "title": "放弃月入过万，他在农村小学带孩子们“用AI赶苍蝇”",
-        "rel": "docs-zh-cn-vibe-stories-story-1",
-        "sourceRel": "docs/zh-cn/vibe-stories/story-1.md"
-      },
-      {
-        "title": "期末考试周，我偷偷用AI造了个“校园闲鱼”",
-        "rel": "docs-zh-cn-vibe-stories-story-2",
-        "sourceRel": "docs/zh-cn/vibe-stories/story-2.md"
-      },
-      {
-        "title": "我给每个学生，做了一个不会累的“学霸同桌”",
-        "rel": "docs-zh-cn-vibe-stories-story-3",
-        "sourceRel": "docs/zh-cn/vibe-stories/story-3.md"
-      },
-      {
-        "title": "48岁货车司机，熬了几个通宵，硬是用AI磕出一个出海工具站",
-        "rel": "docs-zh-cn-vibe-stories-story-4",
-        "sourceRel": "docs/zh-cn/vibe-stories/story-4.md"
       }
     ]
   },
@@ -3260,106 +2621,6 @@ export const courses: Course[] = [
         "title": "流程标准化",
         "rel": "i18n-zh-prompts-coding_prompts-标准化流程",
         "sourceRel": "i18n/zh/prompts/coding_prompts/标准化流程.md"
-      },
-      {
-        "title": "🧠 AI 文件与代码生成规范",
-        "rel": "i18n-zh-prompts-coding_prompts-标准项目目录结构",
-        "sourceRel": "i18n/zh/prompts/coding_prompts/标准项目目录结构.md"
-      },
-      {
-        "title": "Vibe Coding CN",
-        "rel": "i18n-zh-prompts-coding_prompts-分析1",
-        "sourceRel": "i18n/zh/prompts/coding_prompts/分析1.md"
-      },
-      {
-        "title": "Vibe Coding CN",
-        "rel": "i18n-zh-prompts-coding_prompts-分析2",
-        "sourceRel": "i18n/zh/prompts/coding_prompts/分析2.md"
-      },
-      {
-        "title": "Vibe Coding CN",
-        "rel": "i18n-zh-prompts-coding_prompts-简易提示词优化器",
-        "sourceRel": "i18n/zh/prompts/coding_prompts/简易提示词优化器.md"
-      },
-      {
-        "title": "Vibe Coding CN",
-        "rel": "i18n-zh-prompts-coding_prompts-胶水开发",
-        "sourceRel": "i18n/zh/prompts/coding_prompts/胶水开发.md"
-      },
-      {
-        "title": "精华技术文档生成提示词",
-        "rel": "i18n-zh-prompts-coding_prompts-精华技术文档生成提示词",
-        "sourceRel": "i18n/zh/prompts/coding_prompts/精华技术文档生成提示词.md"
-      },
-      {
-        "title": "Vibe Coding CN",
-        "rel": "i18n-zh-prompts-coding_prompts-客观分析",
-        "sourceRel": "i18n/zh/prompts/coding_prompts/客观分析.md"
-      },
-      {
-        "title": "Vibe Coding CN",
-        "rel": "i18n-zh-prompts-coding_prompts-前端设计",
-        "sourceRel": "i18n/zh/prompts/coding_prompts/前端设计.md"
-      },
-      {
-        "title": "Vibe Coding CN",
-        "rel": "i18n-zh-prompts-coding_prompts-人机对齐",
-        "sourceRel": "i18n/zh/prompts/coding_prompts/人机对齐.md"
-      },
-      {
-        "title": "Vibe Coding CN",
-        "rel": "i18n-zh-prompts-coding_prompts-任务描述_分析与补全任务",
-        "sourceRel": "i18n/zh/prompts/coding_prompts/任务描述，分析与补全任务.md"
-      },
-      {
-        "title": "Vibe Coding CN",
-        "rel": "i18n-zh-prompts-coding_prompts-输入简单的日常行为的研究报告摘要",
-        "sourceRel": "i18n/zh/prompts/coding_prompts/输入简单的日常行为的研究报告摘要.md"
-      },
-      {
-        "title": "Vibe Coding CN",
-        "rel": "i18n-zh-prompts-coding_prompts-系统架构",
-        "sourceRel": "i18n/zh/prompts/coding_prompts/系统架构.md"
-      },
-      {
-        "title": "vibe coding 至尊超级终极无敌指南 V114514",
-        "rel": "i18n-zh-prompts-coding_prompts-系统架构可视化生成Mermaid",
-        "sourceRel": "i18n/zh/prompts/coding_prompts/系统架构可视化生成Mermaid.md"
-      },
-      {
-        "title": "📘 项目上下文文档生成 · 工程化 Prompt（专业优化版）",
-        "rel": "i18n-zh-prompts-coding_prompts-项目上下文文档生成",
-        "sourceRel": "i18n/zh/prompts/coding_prompts/项目上下文文档生成.md"
-      },
-      {
-        "title": "🔍 执行纯净性检测（Execution Purity Verification Prompt）",
-        "rel": "i18n-zh-prompts-coding_prompts-执行纯净性检测",
-        "sourceRel": "i18n/zh/prompts/coding_prompts/执行纯净性检测.md"
-      },
-      {
-        "title": "Vibe Coding CN",
-        "rel": "i18n-zh-prompts-coding_prompts-智能需求理解与研发导航引擎",
-        "sourceRel": "i18n/zh/prompts/coding_prompts/智能需求理解与研发导航引擎.md"
-      },
-      {
-        "title": "Vibe Coding CN",
-        "rel": "i18n-zh-prompts-coding_prompts-docs文件夹中文命名提示词",
-        "sourceRel": "i18n/zh/prompts/coding_prompts/docs文件夹中文命名提示词.md"
-      },
-      {
-        "title": "📂 提示词分类 - 软件工程，vibe coding用提示词（基于Excel原始数据)",
-        "rel": "i18n-zh-prompts-coding_prompts-index",
-        "sourceRel": "i18n/zh/prompts/coding_prompts/index.md"
-      },
-      {
-        "title": "AI 项目计划生成系统",
-        "rel": "i18n-zh-prompts-coding_prompts-plan提示词",
-        "sourceRel": "i18n/zh/prompts/coding_prompts/plan提示词.md"
-      },
-      {
-        "title": "生产级 Shell 控制面板生成规格说明",
-        "rel": "i18n-zh-prompts-coding_prompts-sh控制面板生成",
-        "sourceRel": "i18n/zh/prompts/coding_prompts/sh控制面板生成.md"
       }
     ]
   },
@@ -3434,7 +2695,7 @@ export const courses: Course[] = [
       },
       {
         "title": "第一章：环境搭建与代码运行基础",
-        "rel": "docs-Advanced-01-environment-setup-index",
+        "rel": "docs-Advanced-01-environment-setup",
         "sourceRel": "docs/Advanced/01-environment-setup/index.md"
       },
       {
@@ -3469,7 +2730,7 @@ export const courses: Course[] = [
       },
       {
         "title": "第二章：AI 使用说明书",
-        "rel": "docs-Advanced-02-ai-tuning-guide-index",
+        "rel": "docs-Advanced-02-ai-tuning-guide",
         "sourceRel": "docs/Advanced/02-ai-tuning-guide/index.md"
       },
       {
@@ -3499,893 +2760,8 @@ export const courses: Course[] = [
       },
       {
         "title": "第三章：产品思维与文档驱动",
-        "rel": "docs-Advanced-03-prd-doc-driven-index",
+        "rel": "docs-Advanced-03-prd-doc-driven",
         "sourceRel": "docs/Advanced/03-prd-doc-driven/index.md"
-      },
-      {
-        "title": "4.0 代码运行的三种状态 🟢",
-        "rel": "docs-Advanced-04-dev-fundamentals-00-build-basics",
-        "sourceRel": "docs/Advanced/04-dev-fundamentals/00-build-basics.md"
-      },
-      {
-        "title": "4.1 技术栈决策框架 🟡",
-        "rel": "docs-Advanced-04-dev-fundamentals-01-tech-stack-decision",
-        "sourceRel": "docs/Advanced/04-dev-fundamentals/01-tech-stack-decision.md"
-      },
-      {
-        "title": "4.2 从 PRD 到技术文档 🟢",
-        "rel": "docs-Advanced-04-dev-fundamentals-02-prd-and-tech-docs",
-        "sourceRel": "docs/Advanced/04-dev-fundamentals/02-prd-and-tech-docs.md"
-      },
-      {
-        "title": "4.3 如何读懂 AI 生成的代码 🟢",
-        "rel": "docs-Advanced-04-dev-fundamentals-03-programming-basics",
-        "sourceRel": "docs/Advanced/04-dev-fundamentals/03-programming-basics.md"
-      },
-      {
-        "title": "4.4 API 与 HTTP 基础 🟢",
-        "rel": "docs-Advanced-04-dev-fundamentals-04-api-and-http",
-        "sourceRel": "docs/Advanced/04-dev-fundamentals/04-api-and-http.md"
-      },
-      {
-        "title": "4.5 前后端分离概念 🟢",
-        "rel": "docs-Advanced-04-dev-fundamentals-05-frontend-backend-separation",
-        "sourceRel": "docs/Advanced/04-dev-fundamentals/05-frontend-backend-separation.md"
-      },
-      {
-        "title": "4.6 配置文件格式 🟢",
-        "rel": "docs-Advanced-04-dev-fundamentals-06-config-formats",
-        "sourceRel": "docs/Advanced/04-dev-fundamentals/06-config-formats.md"
-      },
-      {
-        "title": "4.7 API 集成实战 🟢",
-        "rel": "docs-Advanced-04-dev-fundamentals-07-api-integration",
-        "sourceRel": "docs/Advanced/04-dev-fundamentals/07-api-integration.md"
-      },
-      {
-        "title": "4.8 项目说明书结构 🟢",
-        "rel": "docs-Advanced-04-dev-fundamentals-08-readme-structure",
-        "sourceRel": "docs/Advanced/04-dev-fundamentals/08-readme-structure.md"
-      },
-      {
-        "title": "4.9 别再重复造轮子",
-        "rel": "docs-Advanced-04-dev-fundamentals-09-finding-libraries",
-        "sourceRel": "docs/Advanced/04-dev-fundamentals/09-finding-libraries.md"
-      },
-      {
-        "title": "第四章：你必须知道的开发基础",
-        "rel": "docs-Advanced-04-dev-fundamentals-index",
-        "sourceRel": "docs/Advanced/04-dev-fundamentals/index.md"
-      },
-      {
-        "title": "5.3 动画与交互库",
-        "rel": "docs-Advanced-05-ui-ux-03-animation-libraries",
-        "sourceRel": "docs/Advanced/05-ui-ux/03-animation-libraries.md"
-      },
-      {
-        "title": "5.4 UI 风格与灵感",
-        "rel": "docs-Advanced-05-ui-ux-04-ui-inspiration",
-        "sourceRel": "docs/Advanced/05-ui-ux/04-ui-inspiration.md"
-      },
-      {
-        "title": "5.5 让页面更高级的效果",
-        "rel": "docs-Advanced-05-ui-ux-05-advanced-effects",
-        "sourceRel": "docs/Advanced/05-ui-ux/05-advanced-effects.md"
-      },
-      {
-        "title": "5.6 让 AI 记住你的设计规范",
-        "rel": "docs-Advanced-05-ui-ux-06-component-skills",
-        "sourceRel": "docs/Advanced/05-ui-ux/06-component-skills.md"
-      },
-      {
-        "title": "第五章：界面(UI)与交互(UX)",
-        "rel": "docs-Advanced-05-ui-ux-index",
-        "sourceRel": "docs/Advanced/05-ui-ux/index.md"
-      },
-      {
-        "title": "6.0 领取你的数据库",
-        "rel": "docs-Advanced-06-data-persistence-database-00-get-your-database",
-        "sourceRel": "docs/Advanced/06-data-persistence-database/00-get-your-database.md"
-      },
-      {
-        "title": "6.1 数据存储演进",
-        "rel": "docs-Advanced-06-data-persistence-database-01-storage-evolution",
-        "sourceRel": "docs/Advanced/06-data-persistence-database/01-storage-evolution.md"
-      },
-      {
-        "title": "6.2 数据库基础概念",
-        "rel": "docs-Advanced-06-data-persistence-database-02-database-basics",
-        "sourceRel": "docs/Advanced/06-data-persistence-database/02-database-basics.md"
-      },
-      {
-        "title": "6.3 如何操作数据库",
-        "rel": "docs-Advanced-06-data-persistence-database-03-database-operations",
-        "sourceRel": "docs/Advanced/06-data-persistence-database/03-database-operations.md"
-      },
-      {
-        "title": "6.4 数据库设计与优化",
-        "rel": "docs-Advanced-06-data-persistence-database-05-database-design",
-        "sourceRel": "docs/Advanced/06-data-persistence-database/05-database-design.md"
-      },
-      {
-        "title": "第六章：数据持久化与数据库",
-        "rel": "docs-Advanced-06-data-persistence-database-index",
-        "sourceRel": "docs/Advanced/06-data-persistence-database/index.md"
-      },
-      {
-        "title": "7.0 跑通你的第一个全栈应用",
-        "rel": "docs-Advanced-07-backend-api-00-crud-example",
-        "sourceRel": "docs/Advanced/07-backend-api/00-crud-example.md"
-      },
-      {
-        "title": "7.1 一个接口不够用了",
-        "rel": "docs-Advanced-07-backend-api-01-api-growing-pains",
-        "sourceRel": "docs/Advanced/07-backend-api/01-api-growing-pains.md"
-      },
-      {
-        "title": "7.2 当接口出了问题",
-        "rel": "docs-Advanced-07-backend-api-02-when-things-go-wrong",
-        "sourceRel": "docs/Advanced/07-backend-api/02-when-things-go-wrong.md"
-      },
-      {
-        "title": "7.3 让接口更好用",
-        "rel": "docs-Advanced-07-backend-api-03-api-as-product",
-        "sourceRel": "docs/Advanced/07-backend-api/03-api-as-product.md"
-      },
-      {
-        "title": "第七章：后端API开发",
-        "rel": "docs-Advanced-07-backend-api-index",
-        "sourceRel": "docs/Advanced/07-backend-api/index.md"
-      },
-      {
-        "title": "8.0 用户系统快速示例",
-        "rel": "docs-Advanced-08-auth-security-00-user-system-example",
-        "sourceRel": "docs/Advanced/08-auth-security/00-user-system-example.md"
-      },
-      {
-        "title": "8.1 密钥管理与环境变量",
-        "rel": "docs-Advanced-08-auth-security-01-env-and-secrets",
-        "sourceRel": "docs/Advanced/08-auth-security/01-env-and-secrets.md"
-      },
-      {
-        "title": "8.2 认证方式与方案选择",
-        "rel": "docs-Advanced-08-auth-security-02-auth-methods",
-        "sourceRel": "docs/Advanced/08-auth-security/02-auth-methods.md"
-      },
-      {
-        "title": "8.3 路由保护与权限控制",
-        "rel": "docs-Advanced-08-auth-security-03-route-protection",
-        "sourceRel": "docs/Advanced/08-auth-security/03-route-protection.md"
-      },
-      {
-        "title": "8.4 安全检查与问题排查",
-        "rel": "docs-Advanced-08-auth-security-04-security-checklist",
-        "sourceRel": "docs/Advanced/08-auth-security/04-security-checklist.md"
-      },
-      {
-        "title": "8.5 进阶安全防护",
-        "rel": "docs-Advanced-08-auth-security-05-advanced-security",
-        "sourceRel": "docs/Advanced/08-auth-security/05-advanced-security.md"
-      },
-      {
-        "title": "第八章：安全与用户认证",
-        "rel": "docs-Advanced-08-auth-security-index",
-        "sourceRel": "docs/Advanced/08-auth-security/index.md"
-      },
-      {
-        "title": "9.1 为什么需要测试",
-        "rel": "docs-Advanced-09-testing-automation-01-testing-strategy",
-        "sourceRel": "docs/Advanced/09-testing-automation/01-testing-strategy.md"
-      },
-      {
-        "title": "9.2 API 测试与 E2E 测试",
-        "rel": "docs-Advanced-09-testing-automation-02-api-and-e2e-testing",
-        "sourceRel": "docs/Advanced/09-testing-automation/02-api-and-e2e-testing.md"
-      },
-      {
-        "title": "9.3 自动化工作流",
-        "rel": "docs-Advanced-09-testing-automation-03-automation-workflow",
-        "sourceRel": "docs/Advanced/09-testing-automation/03-automation-workflow.md"
-      },
-      {
-        "title": "第九章：功能测试与自动化",
-        "rel": "docs-Advanced-09-testing-automation-index",
-        "sourceRel": "docs/Advanced/09-testing-automation/index.md"
-      },
-      {
-        "title": "10.1 从 Localhost 到互联网",
-        "rel": "docs-Advanced-10-localhost-public-access-01-network-layers",
-        "sourceRel": "docs/Advanced/10-localhost-public-access/01-network-layers.md"
-      },
-      {
-        "title": "10.2 内网穿透：临时让朋友看看",
-        "rel": "docs-Advanced-10-localhost-public-access-02-tunneling",
-        "sourceRel": "docs/Advanced/10-localhost-public-access/02-tunneling.md"
-      },
-      {
-        "title": "第十章：Localhost 与公网访问",
-        "rel": "docs-Advanced-10-localhost-public-access-index",
-        "sourceRel": "docs/Advanced/10-localhost-public-access/index.md"
-      },
-      {
-        "title": "11.1 为什么需要 Git",
-        "rel": "docs-Advanced-11-git-collaboration-01-why-git",
-        "sourceRel": "docs/Advanced/11-git-collaboration/01-why-git.md"
-      },
-      {
-        "title": "11.2 推上云端，开始协作",
-        "rel": "docs-Advanced-11-git-collaboration-02-remote-and-collaboration",
-        "sourceRel": "docs/Advanced/11-git-collaboration/02-remote-and-collaboration.md"
-      },
-      {
-        "title": "11.3 分支、PR 与团队工作流",
-        "rel": "docs-Advanced-11-git-collaboration-03-branch-and-workflow",
-        "sourceRel": "docs/Advanced/11-git-collaboration/03-branch-and-workflow.md"
-      },
-      {
-        "title": "第十一章：Git 版本控制与协作开发",
-        "rel": "docs-Advanced-11-git-collaboration-index",
-        "sourceRel": "docs/Advanced/11-git-collaboration/index.md"
-      },
-      {
-        "title": "12.1 部署到 EdgeOne Pages",
-        "rel": "docs-Advanced-12-serverless-deploy-cicd-01-deploy-edgeone",
-        "sourceRel": "docs/Advanced/12-serverless-deploy-cicd/01-deploy-edgeone.md"
-      },
-      {
-        "title": "12.2 部署到类 Vercel 平台",
-        "rel": "docs-Advanced-12-serverless-deploy-cicd-02-deploy-vercel-platforms",
-        "sourceRel": "docs/Advanced/12-serverless-deploy-cicd/02-deploy-vercel-platforms.md"
-      },
-      {
-        "title": "12.3 CI/CD 与自动化",
-        "rel": "docs-Advanced-12-serverless-deploy-cicd-03-cicd-automation",
-        "sourceRel": "docs/Advanced/12-serverless-deploy-cicd/03-cicd-automation.md"
-      },
-      {
-        "title": "12.4 运维基础与成本优化",
-        "rel": "docs-Advanced-12-serverless-deploy-cicd-04-operations-cost",
-        "sourceRel": "docs/Advanced/12-serverless-deploy-cicd/04-operations-cost.md"
-      },
-      {
-        "title": "第十二章：无服务器部署与 CI/CD 自动化",
-        "rel": "docs-Advanced-12-serverless-deploy-cicd-index",
-        "sourceRel": "docs/Advanced/12-serverless-deploy-cicd/index.md"
-      },
-      {
-        "title": "13.1 域名购买与 DNS 配置",
-        "rel": "docs-Advanced-13-domain-dns-01-domain-setup",
-        "sourceRel": "docs/Advanced/13-domain-dns/01-domain-setup.md"
-      },
-      {
-        "title": "13.2 备案与访问问题排查",
-        "rel": "docs-Advanced-13-domain-dns-02-compliance-access",
-        "sourceRel": "docs/Advanced/13-domain-dns/02-compliance-access.md"
-      },
-      {
-        "title": "第十三章：域名、DNS 与网络接入",
-        "rel": "docs-Advanced-13-domain-dns-index",
-        "sourceRel": "docs/Advanced/13-domain-dns/index.md"
-      },
-      {
-        "title": "14.1 VPS 选购指南",
-        "rel": "docs-Advanced-14-vps-ops-deploy-01-vps-selection",
-        "sourceRel": "docs/Advanced/14-vps-ops-deploy/01-vps-selection.md"
-      },
-      {
-        "title": "14.2 VPS 初始化与安全配置",
-        "rel": "docs-Advanced-14-vps-ops-deploy-02-vps-setup",
-        "sourceRel": "docs/Advanced/14-vps-ops-deploy/02-vps-setup.md"
-      },
-      {
-        "title": "14.3.1 应用商店与 Docker 基础",
-        "rel": "docs-Advanced-14-vps-ops-deploy-03-1-docker-apps",
-        "sourceRel": "docs/Advanced/14-vps-ops-deploy/03-1-docker-apps.md"
-      },
-      {
-        "title": "14.3.2 部署 Next.js 应用",
-        "rel": "docs-Advanced-14-vps-ops-deploy-03-2-deploy-nextjs",
-        "sourceRel": "docs/Advanced/14-vps-ops-deploy/03-2-deploy-nextjs.md"
-      },
-      {
-        "title": "14.3.3 部署静态网站",
-        "rel": "docs-Advanced-14-vps-ops-deploy-03-3-deploy-static",
-        "sourceRel": "docs/Advanced/14-vps-ops-deploy/03-3-deploy-static.md"
-      },
-      {
-        "title": "14.3.4 部署前后端分离应用",
-        "rel": "docs-Advanced-14-vps-ops-deploy-03-4-deploy-fullstack",
-        "sourceRel": "docs/Advanced/14-vps-ops-deploy/03-4-deploy-fullstack.md"
-      },
-      {
-        "title": "14.4 配置域名与证书",
-        "rel": "docs-Advanced-14-vps-ops-deploy-04-domain-ssl",
-        "sourceRel": "docs/Advanced/14-vps-ops-deploy/04-domain-ssl.md"
-      },
-      {
-        "title": "14.5 其他好玩的应用",
-        "rel": "docs-Advanced-14-vps-ops-deploy-05-cool-apps",
-        "sourceRel": "docs/Advanced/14-vps-ops-deploy/05-cool-apps.md"
-      },
-      {
-        "title": "第十四章：云服务器运维与项目部署",
-        "rel": "docs-Advanced-14-vps-ops-deploy-index",
-        "sourceRel": "docs/Advanced/14-vps-ops-deploy/index.md"
-      },
-      {
-        "title": "15.1 Open Graph 与社交分享",
-        "rel": "docs-Advanced-15-seo-analytics-01-opengraph-sharing",
-        "sourceRel": "docs/Advanced/15-seo-analytics/01-opengraph-sharing.md"
-      },
-      {
-        "title": "15.2 SEO 全攻略",
-        "rel": "docs-Advanced-15-seo-analytics-02-seo-guide",
-        "sourceRel": "docs/Advanced/15-seo-analytics/02-seo-guide.md"
-      },
-      {
-        "title": "15.3 Umami 数据统计",
-        "rel": "docs-Advanced-15-seo-analytics-03-umami",
-        "sourceRel": "docs/Advanced/15-seo-analytics/03-umami.md"
-      },
-      {
-        "title": "15.4 法律合规",
-        "rel": "docs-Advanced-15-seo-analytics-04-legal",
-        "sourceRel": "docs/Advanced/15-seo-analytics/04-legal.md"
-      },
-      {
-        "title": "第十五章：SEO、分享与数据统计",
-        "rel": "docs-Advanced-15-seo-analytics-index",
-        "sourceRel": "docs/Advanced/15-seo-analytics/index.md"
-      },
-      {
-        "title": "16.1 面对真实用户",
-        "rel": "docs-Advanced-16-user-feedback-iteration-01-facing-real-users",
-        "sourceRel": "docs/Advanced/16-user-feedback-iteration/01-facing-real-users.md"
-      },
-      {
-        "title": "16.2 反馈分类与优先级",
-        "rel": "docs-Advanced-16-user-feedback-iteration-02-feedback-prioritization",
-        "sourceRel": "docs/Advanced/16-user-feedback-iteration/02-feedback-prioritization.md"
-      },
-      {
-        "title": "16.3 理解用户",
-        "rel": "docs-Advanced-16-user-feedback-iteration-03-understanding-users",
-        "sourceRel": "docs/Advanced/16-user-feedback-iteration/03-understanding-users.md"
-      },
-      {
-        "title": "16.4 迭代与成长",
-        "rel": "docs-Advanced-16-user-feedback-iteration-04-iteration-and-growth",
-        "sourceRel": "docs/Advanced/16-user-feedback-iteration/04-iteration-and-growth.md"
-      },
-      {
-        "title": "第十六章：用户反馈与产品迭代",
-        "rel": "docs-Advanced-16-user-feedback-iteration-index",
-        "sourceRel": "docs/Advanced/16-user-feedback-iteration/index.md"
-      },
-      {
-        "title": "Vibe Vibe —— 人人都能学会的 AI 编程（Vibe Coding）指南",
-        "rel": "docs-Advanced-99-next-level-index",
-        "sourceRel": "docs/Advanced/99-next-level/index.md"
-      },
-      {
-        "title": "随时随地 AI 编程：Happy Coder 工具链",
-        "rel": "docs-Advanced-happy-coder",
-        "sourceRel": "docs/Advanced/happy-coder.md"
-      },
-      {
-        "title": "进阶篇：从想法到产品的100小时",
-        "rel": "docs-Advanced-index",
-        "sourceRel": "docs/Advanced/index.md"
-      },
-      {
-        "title": "开局一个浏览器，代码环境全搞定",
-        "rel": "docs-Advanced-web-ide",
-        "sourceRel": "docs/Advanced/web-ide.md"
-      },
-      {
-        "title": "智能体工程",
-        "rel": "docs-Articles-01-core-concepts-agentic-engineering",
-        "sourceRel": "docs/Articles/01-core-concepts/agentic-engineering.md"
-      },
-      {
-        "title": "Coding Agents 入门：真正完成工作的艺术",
-        "rel": "docs-Articles-01-core-concepts-coding-agents-101",
-        "sourceRel": "docs/Articles/01-core-concepts/coding-agents-101.md"
-      },
-      {
-        "title": "我们在 FAANG 是怎么做 Vibe Coding 的",
-        "rel": "docs-Articles-01-core-concepts-how-we-vibe-code-at-faang",
-        "sourceRel": "docs/Articles/01-core-concepts/how-we-vibe-code-at-faang.md"
-      },
-      {
-        "title": "核心概念与范式演进",
-        "rel": "docs-Articles-01-core-concepts-index",
-        "sourceRel": "docs/Articles/01-core-concepts/index.md"
-      },
-      {
-        "title": "规范是新的源代码",
-        "rel": "docs-Articles-01-core-concepts-specs-are-the-new-source-code",
-        "sourceRel": "docs/Articles/01-core-concepts/specs-are-the-new-source-code.md"
-      },
-      {
-        "title": "工厂模型：Coding Agents 如何改变软件工程",
-        "rel": "docs-Articles-01-core-concepts-the-factory-model-how-coding-agents-changed-software-engineering",
-        "sourceRel": "docs/Articles/01-core-concepts/the-factory-model-how-coding-agents-changed-software-engineering.md"
-      },
-      {
-        "title": "Vibe Coding 不是低质量工作的借口",
-        "rel": "docs-Articles-01-core-concepts-vibe-coding-is-not-an-excuse-for-low-quality-work",
-        "sourceRel": "docs/Articles/01-core-concepts/vibe-coding-is-not-an-excuse-for-low-quality-work.md"
-      },
-      {
-        "title": "Vibe Coding：革命还是鲁莽放纵？",
-        "rel": "docs-Articles-01-core-concepts-vibe-coding-revolution-or-reckless-abandon",
-        "sourceRel": "docs/Articles/01-core-concepts/vibe-coding-revolution-or-reckless-abandon.md"
-      },
-      {
-        "title": "什么是 AI Agent？为什么它们很重要？",
-        "rel": "docs-Articles-01-core-concepts-what-are-ai-agents-why-do-they-matter",
-        "sourceRel": "docs/Articles/01-core-concepts/what-are-ai-agents-why-do-they-matter.md"
-      },
-      {
-        "title": "关于 Vibe Coding 你需要知道的一切",
-        "rel": "docs-Articles-01-core-concepts-what-you-need-to-know-about-vibe-coding",
-        "sourceRel": "docs/Articles/01-core-concepts/what-you-need-to-know-about-vibe-coding.md"
-      },
-      {
-        "title": "如何成为世界级的智能体工程师",
-        "rel": "docs-Articles-01-core-concepts-world-class-agent-engineer",
-        "sourceRel": "docs/Articles/01-core-concepts/world-class-agent-engineer.md"
-      },
-      {
-        "title": "用文件系统和 Bash 构建智能体",
-        "rel": "docs-Articles-02-technical-architecture-build-agents-with-filesystems-and-bash",
-        "sourceRel": "docs/Articles/02-technical-architecture/build-agents-with-filesystems-and-bash.md"
-      },
-      {
-        "title": "揭秘 Claude Code 的工作原理",
-        "rel": "docs-Articles-02-technical-architecture-how-claude-code-works",
-        "sourceRel": "docs/Articles/02-technical-architecture/how-claude-code-works.md"
-      },
-      {
-        "title": "基础技术与架构设计",
-        "rel": "docs-Articles-02-technical-architecture-index",
-        "sourceRel": "docs/Articles/02-technical-architecture/index.md"
-      },
-      {
-        "title": "MCP：它是什么，以及为什么重要",
-        "rel": "docs-Articles-02-technical-architecture-mcp-what-it-is-and-why-it-matters",
-        "sourceRel": "docs/Articles/02-technical-architecture/mcp-what-it-is-and-why-it-matters.md"
-      },
-      {
-        "title": "多智能体系统如何支撑 AI 原生工程",
-        "rel": "docs-Articles-02-technical-architecture-multi-agent-systems-ai-native-engineering",
-        "sourceRel": "docs/Articles/02-technical-architecture/multi-agent-systems-ai-native-engineering.md"
-      },
-      {
-        "title": "理解 AI 的「五层蛋糕」架构",
-        "rel": "docs-Articles-02-technical-architecture-nvidia-ai-5-layer-cake",
-        "sourceRel": "docs/Articles/02-technical-architecture/nvidia-ai-5-layer-cake.md"
-      },
-      {
-        "title": "自我改进的编码智能体",
-        "rel": "docs-Articles-02-technical-architecture-self-improving-coding-agents",
-        "sourceRel": "docs/Articles/02-technical-architecture/self-improving-coding-agents.md"
-      },
-      {
-        "title": "测试「Bash 就够了」假设：SQL vs Bash 智能体对比实验",
-        "rel": "docs-Articles-02-technical-architecture-testing-bash-vs-sql",
-        "sourceRel": "docs/Articles/02-technical-architecture/testing-bash-vs-sql.md"
-      },
-      {
-        "title": "AGENTS.md vs Skills：被动上下文为何胜过主动检索",
-        "rel": "docs-Articles-03-toolchain-frameworks-agents-md-vs-skills",
-        "sourceRel": "docs/Articles/03-toolchain-frameworks/agents-md-vs-skills.md"
-      },
-      {
-        "title": "AI 驱动的原型开发：v0、Bolt 和 Lovable 对比",
-        "rel": "docs-Articles-03-toolchain-frameworks-ai-driven-prototyping-v0-bolt-and-lovable-compared",
-        "sourceRel": "docs/Articles/03-toolchain-frameworks/ai-driven-prototyping-v0-bolt-and-lovable-compared.md"
-      },
-      {
-        "title": "Claude Code Swarms：多智能体协作开发",
-        "rel": "docs-Articles-03-toolchain-frameworks-claude-code-swarms",
-        "sourceRel": "docs/Articles/03-toolchain-frameworks/claude-code-swarms.md"
-      },
-      {
-        "title": "Claude Skills 完整构建指南",
-        "rel": "docs-Articles-03-toolchain-frameworks-complete-guide-to-building-skills-for-claude",
-        "sourceRel": "docs/Articles/03-toolchain-frameworks/complete-guide-to-building-skills-for-claude.md"
-      },
-      {
-        "title": "如何为 AI 智能体写出优秀的规范",
-        "rel": "docs-Articles-03-toolchain-frameworks-how-to-write-good-spec-for-ai-agents",
-        "sourceRel": "docs/Articles/03-toolchain-frameworks/how-to-write-good-spec-for-ai-agents.md"
-      },
-      {
-        "title": "工具链与开发框架",
-        "rel": "docs-Articles-03-toolchain-frameworks-index",
-        "sourceRel": "docs/Articles/03-toolchain-frameworks/index.md"
-      },
-      {
-        "title": "我们删掉了智能体 80% 的工具",
-        "rel": "docs-Articles-03-toolchain-frameworks-we-removed-80-percent-tools",
-        "sourceRel": "docs/Articles/03-toolchain-frameworks/we-removed-80-percent-tools.md"
-      },
-      {
-        "title": "为什么我在 AI 工程中使用 Cline",
-        "rel": "docs-Articles-03-toolchain-frameworks-why-i-use-cline-for-ai-engineering",
-        "sourceRel": "docs/Articles/03-toolchain-frameworks/why-i-use-cline-for-ai-engineering.md"
-      },
-      {
-        "title": "AI 代码审查的实施与最佳实践",
-        "rel": "docs-Articles-04-engineering-practices-ai-code-review-implementation",
-        "sourceRel": "docs/Articles/04-engineering-practices/ai-code-review-implementation.md"
-      },
-      {
-        "title": "AI 写代码更快，你的工作是证明它能用",
-        "rel": "docs-Articles-04-engineering-practices-ai-writes-code-faster-your-job-is-to-prove-it-works",
-        "sourceRel": "docs/Articles/04-engineering-practices/ai-writes-code-faster-your-job-is-to-prove-it-works.md"
-      },
-      {
-        "title": "在AI时代避免技能退化",
-        "rel": "docs-Articles-04-engineering-practices-avoiding-skill-atrophy-in-the-age-of-ai",
-        "sourceRel": "docs/Articles/04-engineering-practices/avoiding-skill-atrophy-in-the-age-of-ai.md"
-      },
-      {
-        "title": "超越70%：最大化AI辅助编程中人类30%的价值",
-        "rel": "docs-Articles-04-engineering-practices-beyond-the-70-maximizing-the-human-30-of-ai-assisted-coding",
-        "sourceRel": "docs/Articles/04-engineering-practices/beyond-the-70-maximizing-the-human-30-of-ai-assisted-coding.md"
-      },
-      {
-        "title": "如何为 AI Coding Agents 编写高质量规范",
-        "rel": "docs-Articles-04-engineering-practices-how-to-write-a-good-spec-for-ai-agents",
-        "sourceRel": "docs/Articles/04-engineering-practices/how-to-write-a-good-spec-for-ai-agents.md"
-      },
-      {
-        "title": "工程实施与质量保障",
-        "rel": "docs-Articles-04-engineering-practices-index",
-        "sourceRel": "docs/Articles/04-engineering-practices/index.md"
-      },
-      {
-        "title": "GenAI 时代领导高效工程团队",
-        "rel": "docs-Articles-04-engineering-practices-leading-effective-engineering-teams-in-the-age-of-genai",
-        "sourceRel": "docs/Articles/04-engineering-practices/leading-effective-engineering-teams-in-the-age-of-genai.md"
-      },
-      {
-        "title": "我在2026年的LLM编码工作流",
-        "rel": "docs-Articles-04-engineering-practices-my-llm-coding-workflow-going-into-2026",
-        "sourceRel": "docs/Articles/04-engineering-practices/my-llm-coding-workflow-going-into-2026.md"
-      },
-      {
-        "title": "React 最佳实践：Vercel 十年性能优化经验总结",
-        "rel": "docs-Articles-04-engineering-practices-react-best-practices",
-        "sourceRel": "docs/Articles/04-engineering-practices/react-best-practices.md"
-      },
-      {
-        "title": "停止为 AGENTS.md 使用 /init",
-        "rel": "docs-Articles-04-engineering-practices-stop-using-init-for-agents",
-        "sourceRel": "docs/Articles/04-engineering-practices/stop-using-init-for-agents.md"
-      },
-      {
-        "title": "Vercel 如何构建 Coding Agents 的 AEO 追踪系统",
-        "rel": "docs-Articles-04-engineering-practices-vercel-aeo-tracking",
-        "sourceRel": "docs/Articles/04-engineering-practices/vercel-aeo-tracking.md"
-      },
-      {
-        "title": "使用 AI Gateway 生成视频",
-        "rel": "docs-Articles-04-engineering-practices-video-generation-with-ai-gateway",
-        "sourceRel": "docs/Articles/04-engineering-practices/video-generation-with-ai-gateway.md"
-      },
-      {
-        "title": "你的 AI Coding Agents 需要一个管理者",
-        "rel": "docs-Articles-04-engineering-practices-your-ai-coding-agents-need-a-manager",
-        "sourceRel": "docs/Articles/04-engineering-practices/your-ai-coding-agents-need-a-manager.md"
-      },
-      {
-        "title": "AI 代理已经到来，威胁也随之而来",
-        "rel": "docs-Articles-05-security-compliance-ai-agents-threats-and-mitigations",
-        "sourceRel": "docs/Articles/05-security-compliance/ai-agents-threats-and-mitigations.md"
-      },
-      {
-        "title": "安全、合规与局限性",
-        "rel": "docs-Articles-05-security-compliance-index",
-        "sourceRel": "docs/Articles/05-security-compliance/index.md"
-      },
-      {
-        "title": "智能体架构中的安全边界",
-        "rel": "docs-Articles-05-security-compliance-security-boundaries-in-agentic-architectures",
-        "sourceRel": "docs/Articles/05-security-compliance/security-boundaries-in-agentic-architectures.md"
-      },
-      {
-        "title": "OpenEvidence 如何打造让医生信得过的医疗 AI",
-        "rel": "docs-Articles-06-business-trends-how-openevidence-built-healthcare-ai-physicians-trust",
-        "sourceRel": "docs/Articles/06-business-trends/how-openevidence-built-healthcare-ai-physicians-trust.md"
-      },
-      {
-        "title": "商业应用与行业趋势",
-        "rel": "docs-Articles-06-business-trends-index",
-        "sourceRel": "docs/Articles/06-business-trends/index.md"
-      },
-      {
-        "title": "用 AI 智能体扩展社区，同时保持人性化",
-        "rel": "docs-Articles-06-business-trends-keeping-community-human-while-scaling-with-agents",
-        "sourceRel": "docs/Articles/06-business-trends/keeping-community-human-while-scaling-with-agents.md"
-      },
-      {
-        "title": "软件工程的未来两年",
-        "rel": "docs-Articles-06-business-trends-the-next-two-years-of-software-engineering",
-        "sourceRel": "docs/Articles/06-business-trends/the-next-two-years-of-software-engineering.md"
-      },
-      {
-        "title": "优质文章篇",
-        "rel": "docs-Articles-index",
-        "sourceRel": "docs/Articles/index.md"
-      },
-      {
-        "title": "0.1 这本教程在教什么，以及你会做出什么",
-        "rel": "docs-Basic-00-preface-0.1-start-here",
-        "sourceRel": "docs/Basic/00-preface/0.1-start-here.md"
-      },
-      {
-        "title": "0.2 谁适合学，以及怎么学最有效",
-        "rel": "docs-Basic-00-preface-0.2-what-you-will-build",
-        "sourceRel": "docs/Basic/00-preface/0.2-what-you-will-build.md"
-      },
-      {
-        "title": "0.3 卡住时怎么办：基础版统一求助流程",
-        "rel": "docs-Basic-00-preface-0.3-who-this-is-for",
-        "sourceRel": "docs/Basic/00-preface/0.3-who-this-is-for.md"
-      },
-      {
-        "title": "0.4 本章小结：基础版学习地图",
-        "rel": "docs-Basic-00-preface-0.4-how-to-learn",
-        "sourceRel": "docs/Basic/00-preface/0.4-how-to-learn.md"
-      },
-      {
-        "title": "第 0 章：开始前 —— 你会做出什么，怎么学，卡住怎么办",
-        "rel": "docs-Basic-00-preface-index",
-        "sourceRel": "docs/Basic/00-preface/index.md"
-      },
-      {
-        "title": "1.1 为什么从这一章开始，以及先准备什么",
-        "rel": "docs-Basic-01-awakening-1.1-coder-to-commander",
-        "sourceRel": "docs/Basic/01-awakening/1.1-coder-to-commander.md"
-      },
-      {
-        "title": "1.2 用填空式模板写出第一版需求",
-        "rel": "docs-Basic-01-awakening-1.2-breaking-myths",
-        "sourceRel": "docs/Basic/01-awakening/1.2-breaking-myths.md"
-      },
-      {
-        "title": "1.3 在平台里生成你的第一个版本，并完成三轮微调",
-        "rel": "docs-Basic-01-awakening-1.3-tools-guide",
-        "sourceRel": "docs/Basic/01-awakening/1.3-tools-guide.md"
-      },
-      {
-        "title": "1.4 本章小结：第一轮验收与下一轮优化清单",
-        "rel": "docs-Basic-01-awakening-1.4-vibe-vs-spec",
-        "sourceRel": "docs/Basic/01-awakening/1.4-vibe-vs-spec.md"
-      },
-      {
-        "title": "第 1 章：第一个版本 —— 2 小时做出你的个人主页 + 数字分身",
-        "rel": "docs-Basic-01-awakening-index",
-        "sourceRel": "docs/Basic/01-awakening/index.md"
-      },
-      {
-        "title": "2.1 为什么要把项目带回本地，以及如何把它导出下来",
-        "rel": "docs-Basic-02-mindset-2.1-thinking-upgrade",
-        "sourceRel": "docs/Basic/02-mindset/2.1-thinking-upgrade.md"
-      },
-      {
-        "title": "2.2 用 AI IDE 打开它，并先认识最关键的几部分",
-        "rel": "docs-Basic-02-mindset-2.2-inversion-thinking",
-        "sourceRel": "docs/Basic/02-mindset/2.2-inversion-thinking.md"
-      },
-      {
-        "title": "2.3 完成一次最小修改，并学会 3 类高频提问",
-        "rel": "docs-Basic-02-mindset-2.3-subtraction-thinking",
-        "sourceRel": "docs/Basic/02-mindset/2.3-subtraction-thinking.md"
-      },
-      {
-        "title": "2.4 本章小结：你的本地工作台已经搭好",
-        "rel": "docs-Basic-02-mindset-2.4-story-thinking",
-        "sourceRel": "docs/Basic/02-mindset/2.4-story-thinking.md"
-      },
-      {
-        "title": "第 2 章：带回自己的工作台 —— 从平台到本地",
-        "rel": "docs-Basic-02-mindset-index",
-        "sourceRel": "docs/Basic/02-mindset/index.md"
-      },
-      {
-        "title": "3.1 为什么先改界面，以及先选一个清晰的风格方向",
-        "rel": "docs-Basic-03-technique-3.1-prompt-basics",
-        "sourceRel": "docs/Basic/03-technique/3.1-prompt-basics.md"
-      },
-      {
-        "title": "3.2 三个最值回票价的界面改动",
-        "rel": "docs-Basic-03-technique-3.2-structured-frameworks",
-        "sourceRel": "docs/Basic/03-technique/3.2-structured-frameworks.md"
-      },
-      {
-        "title": "3.3 用更清晰的话告诉 AI 你想怎么改，并兼顾好不好用",
-        "rel": "docs-Basic-03-technique-3.3-advanced-techniques",
-        "sourceRel": "docs/Basic/03-technique/3.3-advanced-techniques.md"
-      },
-      {
-        "title": "3.4 本章小结：你的首页已经像一个作品",
-        "rel": "docs-Basic-03-technique-3.4-first-prd",
-        "sourceRel": "docs/Basic/03-technique/3.4-first-prd.md"
-      },
-      {
-        "title": "第 3 章：做好第一印象 —— 界面、风格与更有效的需求表达",
-        "rel": "docs-Basic-03-technique-index",
-        "sourceRel": "docs/Basic/03-technique/index.md"
-      },
-      {
-        "title": "4.1 为什么先学“存档”，以及 Git 的最小闭环",
-        "rel": "docs-Basic-04-practice-0-to-1-4.1-before-start",
-        "sourceRel": "docs/Basic/04-practice-0-to-1/4.1-before-start.md"
-      },
-      {
-        "title": "4.2 从访客视角决定你要补什么内容",
-        "rel": "docs-Basic-04-practice-0-to-1-4.2-build-page",
-        "sourceRel": "docs/Basic/04-practice-0-to-1/4.2-build-page.md"
-      },
-      {
-        "title": "4.3 只添加 2-3 个最有价值的内容模块，并让数字分身更容易被使用",
-        "rel": "docs-Basic-04-practice-0-to-1-4.3-core-features",
-        "sourceRel": "docs/Basic/04-practice-0-to-1/4.3-core-features.md"
-      },
-      {
-        "title": "4.4 本章小结：主页更完整，也更可回退",
-        "rel": "docs-Basic-04-practice-0-to-1-4.4-data-storage",
-        "sourceRel": "docs/Basic/04-practice-0-to-1/4.4-data-storage.md"
-      },
-      {
-        "title": "第 4 章：让主页更完整 —— 内容、引导与基础存档",
-        "rel": "docs-Basic-04-practice-0-to-1-index",
-        "sourceRel": "docs/Basic/04-practice-0-to-1/index.md"
-      },
-      {
-        "title": "5.1 为什么“像你”比“更聪明”更重要，以及先用一句人话理解背后发生了什么",
-        "rel": "docs-Basic-05-advanced-5.1-version-control",
-        "sourceRel": "docs/Basic/05-advanced/5.1-version-control.md"
-      },
-      {
-        "title": "5.2 写第一版“数字分身说明书”，并用 1-3 组真实材料校准它",
-        "rel": "docs-Basic-05-advanced-5.2-deployment",
-        "sourceRel": "docs/Basic/05-advanced/5.2-deployment.md"
-      },
-      {
-        "title": "5.3 四类最常见问题，以及成本与安全的最小意识",
-        "rel": "docs-Basic-05-advanced-5.3-security",
-        "sourceRel": "docs/Basic/05-advanced/5.3-security.md"
-      },
-      {
-        "title": "5.4 本章小结：它已经能更稳地代表你",
-        "rel": "docs-Basic-05-advanced-5.4-iteration",
-        "sourceRel": "docs/Basic/05-advanced/5.4-iteration.md"
-      },
-      {
-        "title": "第 5 章：让数字分身更像你 —— 人设、回答与排错",
-        "rel": "docs-Basic-05-advanced-index",
-        "sourceRel": "docs/Basic/05-advanced/index.md"
-      },
-      {
-        "title": "6.1 为什么把“上线”放在最后，以及上线前检查",
-        "rel": "docs-Basic-06-launch-6.1-preflight",
-        "sourceRel": "docs/Basic/06-launch/6.1-preflight.md"
-      },
-      {
-        "title": "6.2 把代码推到远程仓库，并用 EdgeOne Pages 完成部署",
-        "rel": "docs-Basic-06-launch-6.2-deploy",
-        "sourceRel": "docs/Basic/06-launch/6.2-deploy.md"
-      },
-      {
-        "title": "6.3 上线后自测，并收集第一轮真实反馈",
-        "rel": "docs-Basic-06-launch-6.3-feedback",
-        "sourceRel": "docs/Basic/06-launch/6.3-feedback.md"
-      },
-      {
-        "title": "6.4 基础版收束：你已经从“有想法”走到了“有作品”",
-        "rel": "docs-Basic-06-launch-6.4-wrap-up",
-        "sourceRel": "docs/Basic/06-launch/6.4-wrap-up.md"
-      },
-      {
-        "title": "第 6 章：正式上线 —— 部署、分享与第一轮真实反馈",
-        "rel": "docs-Basic-06-launch-index",
-        "sourceRel": "docs/Basic/06-launch/index.md"
-      },
-      {
-        "title": "A. 常用提示词模板",
-        "rel": "docs-Basic-99-appendix-a-prompt-cheatsheet",
-        "sourceRel": "docs/Basic/99-appendix/a-prompt-cheatsheet.md"
-      },
-      {
-        "title": "B. 常见错误与“问 AI”流程",
-        "rel": "docs-Basic-99-appendix-b-errors-and-asking-ai",
-        "sourceRel": "docs/Basic/99-appendix/b-errors-and-asking-ai.md"
-      },
-      {
-        "title": "C. UI 速查卡",
-        "rel": "docs-Basic-99-appendix-c-ui-cheatsheet",
-        "sourceRel": "docs/Basic/99-appendix/c-ui-cheatsheet.md"
-      },
-      {
-        "title": "D. Git 最小操作卡",
-        "rel": "docs-Basic-99-appendix-d-git-minimal-card",
-        "sourceRel": "docs/Basic/99-appendix/d-git-minimal-card.md"
-      },
-      {
-        "title": "E. API Key、环境变量与基础安全",
-        "rel": "docs-Basic-99-appendix-e-api-key-env-security",
-        "sourceRel": "docs/Basic/99-appendix/e-api-key-env-security.md"
-      },
-      {
-        "title": "F. Vibe Coding 的能与不能",
-        "rel": "docs-Basic-99-appendix-f-vibe-coding-can-and-cannot",
-        "sourceRel": "docs/Basic/99-appendix/f-vibe-coding-can-and-cannot.md"
-      },
-      {
-        "title": "G. 进阶版跳转地图",
-        "rel": "docs-Basic-99-appendix-g-advanced-jump-map",
-        "sourceRel": "docs/Basic/99-appendix/g-advanced-jump-map.md"
-      },
-      {
-        "title": "附录",
-        "rel": "docs-Basic-99-appendix-index",
-        "sourceRel": "docs/Basic/99-appendix/index.md"
-      },
-      {
-        "title": "结语：给未来的你",
-        "rel": "docs-Basic-100-epilogue-index",
-        "sourceRel": "docs/Basic/100-epilogue/index.md"
-      },
-      {
-        "title": "下部预告：Vibe Coding 全栈实战教程",
-        "rel": "docs-Basic-101-next-part-index",
-        "sourceRel": "docs/Basic/101-next-part/index.md"
-      },
-      {
-        "title": "进阶版核心内容详解",
-        "rel": "docs-Basic-101-next-part-preview-advanced-content",
-        "sourceRel": "docs/Basic/101-next-part/preview-advanced-content.md"
-      },
-      {
-        "title": "基础篇",
-        "rel": "docs-Basic-index",
-        "sourceRel": "docs/Basic/index.md"
-      },
-      {
-        "title": "开源 AI 画布：我的 Vibecoding 实践历程",
-        "rel": "docs-Practice-ai-canvas-vibecoding-journey",
-        "sourceRel": "docs/Practice/ai-canvas-vibecoding-journey.md"
-      },
-      {
-        "title": "🎨 Vibecoding 案例分享：零代码打造 AI 绘本生成器",
-        "rel": "docs-Practice-ai-picture-book-generator",
-        "sourceRel": "docs/Practice/ai-picture-book-generator.md"
-      },
-      {
-        "title": "全栈实战：AI 简历优化 SaaS (AI Resume Polish)",
-        "rel": "docs-Practice-ai-resume-saas",
-        "sourceRel": "docs/Practice/ai-resume-saas.md"
-      },
-      {
-        "title": "全栈开发：21天养成思考习惯的小游戏",
-        "rel": "docs-Practice-full-stack-21-day-thinking-habit-game",
-        "sourceRel": "docs/Practice/full-stack-21-day-thinking-habit-game.md"
-      },
-      {
-        "title": "实践案例篇",
-        "rel": "docs-Practice-index",
-        "sourceRel": "docs/Practice/index.md"
-      },
-      {
-        "title": "Vibe Vibe —— 人人都能学会的 AI 编程（Vibe Coding）指南",
-        "rel": "docs-Practice-vibe-coding-methodology",
-        "sourceRel": "docs/Practice/vibe-coding-methodology.md"
       }
     ]
   },
@@ -4424,9 +2800,74 @@ export const courses: Course[] = [
         "sourceRel": "cli/README.md"
       },
       {
+        "title": "AI Agent Security",
+        "rel": "docs-ai-agent-security",
+        "sourceRel": "docs/ai/agent-security.md"
+      },
+      {
+        "title": "Modern AI build paths",
+        "rel": "docs-ai-build-paths",
+        "sourceRel": "docs/ai/build-paths.md"
+      },
+      {
+        "title": "AI Feature Patterns",
+        "rel": "docs-ai-feature-patterns",
+        "sourceRel": "docs/ai/feature-patterns.md"
+      },
+      {
+        "title": "Vibe Workflow chat context pack",
+        "rel": "docs-context-pack",
+        "sourceRel": "docs/context-pack.md"
+      },
+      {
+        "title": "Freshness Policy",
+        "rel": "docs-maintenance-freshness-policy",
+        "sourceRel": "docs/maintenance/freshness-policy.md"
+      },
+      {
+        "title": "Reliability release evidence and remaining work",
+        "rel": "docs-maintenance-reliability-release",
+        "sourceRel": "docs/maintenance/reliability-release.md"
+      },
+      {
         "title": "Docs",
         "rel": "docs",
         "sourceRel": "docs/README.md"
+      },
+      {
+        "title": "Agent Tooling Compatibility",
+        "rel": "docs-tools-agent-tooling-compatibility",
+        "sourceRel": "docs/tools/agent-tooling-compatibility.md"
+      },
+      {
+        "title": "Claude Subagents And Skills",
+        "rel": "docs-tools-claude-agent-teams",
+        "sourceRel": "docs/tools/claude-agent-teams.md"
+      },
+      {
+        "title": "Cursor Rules And Background Agents",
+        "rel": "docs-tools-cursor-cloud-agents",
+        "sourceRel": "docs/tools/cursor-cloud-agents.md"
+      },
+      {
+        "title": "Builder Exit Review",
+        "rel": "docs-workflow-builder-exit-review",
+        "sourceRel": "docs/workflow/builder-exit-review.md"
+      },
+      {
+        "title": "Project document contract",
+        "rel": "docs-workflow-document-contract",
+        "sourceRel": "docs/workflow/document-contract.md"
+      },
+      {
+        "title": "Golden Path Checklist",
+        "rel": "docs-workflow-golden-path-checklist",
+        "sourceRel": "docs/workflow/golden-path-checklist.md"
+      },
+      {
+        "title": "Worked workflow recipes",
+        "rel": "docs-workflow-recipes",
+        "sourceRel": "docs/workflow/recipes.md"
       },
       {
         "title": "Worked Example: Reddit to AI",
@@ -4434,9 +2875,39 @@ export const courses: Course[] = [
         "sourceRel": "examples/README.md"
       },
       {
-        "title": "AGENTS.md — [App Name]",
-        "rel": "templates",
-        "sourceRel": "templates/AGENTS.md"
+        "title": "Reconstructed example progress",
+        "rel": "examples-reddit-to-ai-agent_docs-reconstructed-progress",
+        "sourceRel": "examples/reddit-to-ai/agent_docs/reconstructed-progress.md"
+      },
+      {
+        "title": "System Memory & Context 🧠",
+        "rel": "examples-reddit-to-ai-MEMORY",
+        "sourceRel": "examples/reddit-to-ai/MEMORY.md"
+      },
+      {
+        "title": "Product Requirements Document: Reddit to AI MVP",
+        "rel": "examples-reddit-to-ai-PRD-reddit-to-ai-MVP",
+        "sourceRel": "examples/reddit-to-ai/PRD-reddit-to-ai-MVP.md"
+      },
+      {
+        "title": "Deep Research: Reddit to AI",
+        "rel": "examples-reddit-to-ai-research-reddit-to-ai",
+        "sourceRel": "examples/reddit-to-ai/research-reddit-to-ai.md"
+      },
+      {
+        "title": "Technical Design Document: Reddit to AI MVP",
+        "rel": "examples-reddit-to-ai-TechDesign-reddit-to-ai-MVP",
+        "sourceRel": "examples/reddit-to-ai/TechDesign-reddit-to-ai-MVP.md"
+      },
+      {
+        "title": "Part 1 — Deep Research Prompt Builder",
+        "rel": "part1-deepresearch",
+        "sourceRel": "part1-deepresearch.md"
+      },
+      {
+        "title": "Part 2 — Product Requirements Document (PRD) Generator",
+        "rel": "part2-prd-mvp",
+        "sourceRel": "part2-prd-mvp.md"
       }
     ]
   },
@@ -4470,19 +2941,119 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
-        "title": "Claude Code 中文教程",
-        "rel": "claude-code",
-        "sourceRel": "claude-code/index.md"
+        "title": "01 · Claude Code 简介",
+        "rel": "claude-code-01-what-is-claude-code",
+        "sourceRel": "claude-code/01-what-is-claude-code.md"
       },
       {
-        "title": "Codex 教程",
-        "rel": "codex",
-        "sourceRel": "codex/README.md"
+        "title": "02 · 安装与使用",
+        "rel": "claude-code-02-install",
+        "sourceRel": "claude-code/02-install.md"
       },
       {
-        "title": "DeepSeek Harness 中文教程",
-        "rel": "deepseek-harness",
-        "sourceRel": "deepseek-harness/index.md"
+        "title": "03 · Claude Code 如何工作",
+        "rel": "claude-code-03-how-it-works",
+        "sourceRel": "claude-code/03-how-it-works.md"
+      },
+      {
+        "title": "04 · API 配置：订阅登录还是 API key，怎么选、怎么切",
+        "rel": "claude-code-04-api-config",
+        "sourceRel": "claude-code/04-api-config.md"
+      },
+      {
+        "title": "05 · 接入第三方 / 国产模型",
+        "rel": "claude-code-05-third-party-models",
+        "sourceRel": "claude-code/05-third-party-models.md"
+      },
+      {
+        "title": "06 · Coding Plan：订阅套餐与计费",
+        "rel": "claude-code-06-coding-plan",
+        "sourceRel": "claude-code/06-coding-plan.md"
+      },
+      {
+        "title": "07 · 第一次使用：跑通第一个例子",
+        "rel": "claude-code-07-first-run",
+        "sourceRel": "claude-code/07-first-run.md"
+      },
+      {
+        "title": "08 · VS Code 集成",
+        "rel": "claude-code-08-vscode",
+        "sourceRel": "claude-code/08-vscode.md"
+      },
+      {
+        "title": "09 · JetBrains 集成",
+        "rel": "claude-code-09-jetbrains",
+        "sourceRel": "claude-code/09-jetbrains.md"
+      },
+      {
+        "title": "10 · 桌面 app（Desktop）",
+        "rel": "claude-code-10-desktop",
+        "sourceRel": "claude-code/10-desktop.md"
+      },
+      {
+        "title": "11 · 网页版与云端：把 Claude Code 装进浏览器和手机",
+        "rel": "claude-code-11-web-and-cloud",
+        "sourceRel": "claude-code/11-web-and-cloud.md"
+      },
+      {
+        "title": "12 · 项目初始化：用 /init 一键生成 CLAUDE.md",
+        "rel": "claude-code-12-project-init",
+        "sourceRel": "claude-code/12-project-init.md"
+      },
+      {
+        "title": "13 · 项目结构：Claude Code 在你项目里都放了什么",
+        "rel": "claude-code-13-project-structure",
+        "sourceRel": "claude-code/13-project-structure.md"
+      },
+      {
+        "title": "14 · 交互界面与快捷键：把手放对地方",
+        "rel": "claude-code-14-interface-and-shortcuts",
+        "sourceRel": "claude-code/14-interface-and-shortcuts.md"
+      },
+      {
+        "title": "15 · 怎么提问和给指令：把话说到 Claude 心坎里",
+        "rel": "claude-code-15-prompting",
+        "sourceRel": "claude-code/15-prompting.md"
+      },
+      {
+        "title": "16 · 四个最常用的活儿：探索代码库、修 bug、重构、写测试",
+        "rel": "claude-code-16-common-workflows",
+        "sourceRel": "claude-code/16-common-workflows.md"
+      },
+      {
+        "title": "17 · 图片与多模态：贴张截图，它就懂了",
+        "rel": "claude-code-17-images-multimodal",
+        "sourceRel": "claude-code/17-images-multimodal.md"
+      },
+      {
+        "title": "18 · CLAUDE.md 使用指南：把项目规矩写进它的记忆",
+        "rel": "claude-code-18-claude-md-guide",
+        "sourceRel": "claude-code/18-claude-md-guide.md"
+      },
+      {
+        "title": "19 · 上下文管理：别让它「失忆」也别烧爆 token",
+        "rel": "claude-code-19-context-management",
+        "sourceRel": "claude-code/19-context-management.md"
+      },
+      {
+        "title": "20 · 权限配置：放多松、收多紧，你说了算",
+        "rel": "claude-code-20-permissions",
+        "sourceRel": "claude-code/20-permissions.md"
+      },
+      {
+        "title": "21 · 安全与风险边界：到底该不该信任 AI 碰你的代码",
+        "rel": "claude-code-21-security",
+        "sourceRel": "claude-code/21-security.md"
+      },
+      {
+        "title": "22 · MCP：给 Claude 接上外部世界",
+        "rel": "claude-code-22-mcp",
+        "sourceRel": "claude-code/22-mcp.md"
+      },
+      {
+        "title": "23 · 子代理（Subagents）：把活儿外包出去，别什么都自己扛",
+        "rel": "claude-code-23-subagents",
+        "sourceRel": "claude-code/23-subagents.md"
       }
     ]
   },
@@ -4629,146 +3200,6 @@ export const courses: Course[] = [
         "title": "CX-09 Automations 完整指南：App 里的后台任务、提醒和周期检查",
         "rel": "docs-codex-CX-09-Codex-Automations后台任务完整指南",
         "sourceRel": "docs/codex/CX-09-Codex-Automations后台任务完整指南.md"
-      },
-      {
-        "title": "CX-10 Review / GitHub / PR 工作流：从 App 改动到可合并结果",
-        "rel": "docs-codex-CX-10-Codex-Review-GitHub-PR完整指南",
-        "sourceRel": "docs/codex/CX-10-Codex-Review-GitHub-PR完整指南.md"
-      },
-      {
-        "title": "CX-11 Codex Web / Cloud 辅助指南：什么时候离开 App",
-        "rel": "docs-codex-CX-11-Codex-Web-Cloud辅助指南",
-        "sourceRel": "docs/codex/CX-11-Codex-Web-Cloud辅助指南.md"
-      },
-      {
-        "title": "CX-12 Codex CLI 辅助指南：App 用户什么时候需要终端",
-        "rel": "docs-codex-CX-12-Codex-CLI辅助完整指南",
-        "sourceRel": "docs/codex/CX-12-Codex-CLI辅助完整指南.md"
-      },
-      {
-        "title": "CX-13 安全与企业指南：围绕 App 建立权限、审计和合规边界",
-        "rel": "docs-codex-CX-13-Codex安全企业完整指南",
-        "sourceRel": "docs/codex/CX-13-Codex安全企业完整指南.md"
-      },
-      {
-        "title": "CX-14 Codex 与 Claude Code 对比：从 App 主线出发做工具选择",
-        "rel": "docs-codex-CX-14-Codex与Claude-Code对比指南",
-        "sourceRel": "docs/codex/CX-14-Codex与Claude-Code对比指南.md"
-      },
-      {
-        "title": "00. OpenClaw 文档阅读指南",
-        "rel": "docs-openclaw-00-阅读指南",
-        "sourceRel": "docs/openclaw/00-阅读指南.md"
-      },
-      {
-        "title": "01. OpenClaw 项目介绍",
-        "rel": "docs-openclaw-01-OpenClaw项目介绍",
-        "sourceRel": "docs/openclaw/01-OpenClaw项目介绍.md"
-      },
-      {
-        "title": "02. 安装部署指南",
-        "rel": "docs-openclaw-02-安装部署指南",
-        "sourceRel": "docs/openclaw/02-安装部署指南.md"
-      },
-      {
-        "title": "03. 快速开始指南",
-        "rel": "docs-openclaw-03-快速开始指南",
-        "sourceRel": "docs/openclaw/03-快速开始指南.md"
-      },
-      {
-        "title": "04. AI 模型配置指南",
-        "rel": "docs-openclaw-04-模型配置指南",
-        "sourceRel": "docs/openclaw/04-模型配置指南.md"
-      },
-      {
-        "title": "05. 消息平台接入指南",
-        "rel": "docs-openclaw-05-消息平台接入指南",
-        "sourceRel": "docs/openclaw/05-消息平台接入指南.md"
-      },
-      {
-        "title": "06. 技能系统 (Skills) 完全指南",
-        "rel": "docs-openclaw-06-技能系统指南",
-        "sourceRel": "docs/openclaw/06-技能系统指南.md"
-      },
-      {
-        "title": "07. 记忆系统完全指南",
-        "rel": "docs-openclaw-07-记忆系统指南",
-        "sourceRel": "docs/openclaw/07-记忆系统指南.md"
-      },
-      {
-        "title": "08. 多 Agent 协作指南",
-        "rel": "docs-openclaw-08-多Agent协作指南",
-        "sourceRel": "docs/openclaw/08-多Agent协作指南.md"
-      },
-      {
-        "title": "09. Docker 部署指南",
-        "rel": "docs-openclaw-09-Docker部署指南",
-        "sourceRel": "docs/openclaw/09-Docker部署指南.md"
-      },
-      {
-        "title": "10. 安全配置指南",
-        "rel": "docs-openclaw-10-安全配置指南",
-        "sourceRel": "docs/openclaw/10-安全配置指南.md"
-      },
-      {
-        "title": "11. 常见问题 (FAQ)",
-        "rel": "docs-openclaw-11-常见问题FAQ",
-        "sourceRel": "docs/openclaw/11-常见问题FAQ.md"
-      },
-      {
-        "title": "WB-00. WorkBuddy 系列阅读指南",
-        "rel": "docs-workbuddy-WB-00-阅读指南",
-        "sourceRel": "docs/workbuddy/WB-00-阅读指南.md"
-      },
-      {
-        "title": "WB-01 WorkBuddy 项目介绍：30 分钟亲手跑通第一个 AI 员工",
-        "rel": "docs-workbuddy-WB-01-WorkBuddy项目介绍完整指南",
-        "sourceRel": "docs/workbuddy/WB-01-WorkBuddy项目介绍完整指南.md"
-      },
-      {
-        "title": "WB-02 WorkBuddy 安装与登录：从下载到跑通第一个任务",
-        "rel": "docs-workbuddy-WB-02-WorkBuddy安装与登录完整指南",
-        "sourceRel": "docs/workbuddy/WB-02-WorkBuddy安装与登录完整指南.md"
-      },
-      {
-        "title": "WB-03 WorkBuddy 专家与专家团：把 AI 变成你的专业团队",
-        "rel": "docs-workbuddy-WB-03-WorkBuddy专家与专家团完整指南",
-        "sourceRel": "docs/workbuddy/WB-03-WorkBuddy专家与专家团完整指南.md"
-      },
-      {
-        "title": "WB-04 WorkBuddy 技能与技能市场：让 AI 会干具体的活",
-        "rel": "docs-workbuddy-WB-04-WorkBuddy技能与技能市场完整指南",
-        "sourceRel": "docs/workbuddy/WB-04-WorkBuddy技能与技能市场完整指南.md"
-      },
-      {
-        "title": "WB-05 WorkBuddy 连接器与腾讯生态：让 AI 伸进你的办公软件",
-        "rel": "docs-workbuddy-WB-05-WorkBuddy连接器与腾讯生态完整指南",
-        "sourceRel": "docs/workbuddy/WB-05-WorkBuddy连接器与腾讯生态完整指南.md"
-      },
-      {
-        "title": "WB-06 WorkBuddy 知识库：让 AI 读你所有的资料再回答",
-        "rel": "docs-workbuddy-WB-06-WorkBuddy知识库完整指南",
-        "sourceRel": "docs/workbuddy/WB-06-WorkBuddy知识库完整指南.md"
-      },
-      {
-        "title": "WB-07 WorkBuddy 自动化与计划任务：让 AI 定时和远程干活",
-        "rel": "docs-workbuddy-WB-07-WorkBuddy自动化与计划任务完整指南",
-        "sourceRel": "docs/workbuddy/WB-07-WorkBuddy自动化与计划任务完整指南.md"
-      },
-      {
-        "title": "WB-08 WorkBuddy 多端协同：桌面、手机、微信无缝接力",
-        "rel": "docs-workbuddy-WB-08-WorkBuddy多端协同完整指南",
-        "sourceRel": "docs/workbuddy/WB-08-WorkBuddy多端协同完整指南.md"
-      },
-      {
-        "title": "WB-09 WorkBuddy Coding Mode：办公人偶尔写点代码用",
-        "rel": "docs-workbuddy-WB-09-WorkBuddy-Coding-Mode编程模式完整指南",
-        "sourceRel": "docs/workbuddy/WB-09-WorkBuddy-Coding-Mode编程模式完整指南.md"
-      },
-      {
-        "title": "WB-10 WorkBuddy 企业账号、安全与四工具对比",
-        "rel": "docs-workbuddy-WB-10-WorkBuddy企业账号安全与对比完整指南",
-        "sourceRel": "docs/workbuddy/WB-10-WorkBuddy企业账号安全与对比完整指南.md"
       }
     ]
   },
@@ -4803,8 +3234,68 @@ export const courses: Course[] = [
       },
       {
         "title": "第一章：什么是 Vibe Coding",
-        "rel": "chapters",
+        "rel": "chapters-01-what-is-vibe-coding",
         "sourceRel": "chapters/01-what-is-vibe-coding.md"
+      },
+      {
+        "title": "第二章：你需要准备什么",
+        "rel": "chapters-02-what-you-need",
+        "sourceRel": "chapters/02-what-you-need.md"
+      },
+      {
+        "title": "第三章：AI 编程工具全景",
+        "rel": "chapters-03-ai-tools-landscape",
+        "sourceRel": "chapters/03-ai-tools-landscape.md"
+      },
+      {
+        "title": "第四章：选择你的第一个工具",
+        "rel": "chapters-04-your-first-tool",
+        "sourceRel": "chapters/04-your-first-tool.md"
+      },
+      {
+        "title": "第五章：学会和 AI 对话——Prompt 的艺术",
+        "rel": "chapters-05-art-of-prompting",
+        "sourceRel": "chapters/05-art-of-prompting.md"
+      },
+      {
+        "title": "第六章：从零开始做一个项目",
+        "rel": "chapters-06-build-your-first-project",
+        "sourceRel": "chapters/06-build-your-first-project.md"
+      },
+      {
+        "title": "第七章：当 AI 搞砸了怎么办",
+        "rel": "chapters-07-when-ai-goes-wrong",
+        "sourceRel": "chapters/07-when-ai-goes-wrong.md"
+      },
+      {
+        "title": "第八章：进阶技巧",
+        "rel": "chapters-08-advanced-techniques",
+        "sourceRel": "chapters/08-advanced-techniques.md"
+      },
+      {
+        "title": "第九章：实战案例展示",
+        "rel": "chapters-09-real-world-examples",
+        "sourceRel": "chapters/09-real-world-examples.md"
+      },
+      {
+        "title": "第十章：下一步去哪里",
+        "rel": "chapters-10-whats-next",
+        "sourceRel": "chapters/10-whats-next.md"
+      },
+      {
+        "title": "附录：Claude Code + 智谱 GLM 安装配置指南",
+        "rel": "chapters-appendix-claude-code-glm-setup",
+        "sourceRel": "chapters/appendix-claude-code-glm-setup.md"
+      },
+      {
+        "title": "Vibe Coding 教程设计文档",
+        "rel": "docs-plans-2026-02-20-vibe-coding-tutorial-design",
+        "sourceRel": "docs/plans/2026-02-20-vibe-coding-tutorial-design.md"
+      },
+      {
+        "title": "Vibe Coding 教程实施计划",
+        "rel": "docs-plans-2026-02-20-vibe-coding-tutorial-plan",
+        "sourceRel": "docs/plans/2026-02-20-vibe-coding-tutorial-plan.md"
       }
     ]
   },
@@ -4854,7 +3345,7 @@ export const courses: Course[] = [
       },
       {
         "title": "关于DeepSeek",
-        "rel": "AI-关于DeepSeek-README",
+        "rel": "AI-关于DeepSeek",
         "sourceRel": "AI/关于DeepSeek/README.md"
       },
       {
@@ -4909,7 +3400,7 @@ export const courses: Course[] = [
       },
       {
         "title": "AI项目教程",
-        "rel": "AI-AI项目教程-README",
+        "rel": "AI-AI项目教程",
         "sourceRel": "AI/AI项目教程/README.md"
       },
       {
@@ -4951,1176 +3442,6 @@ export const courses: Course[] = [
         "title": "鱼皮 AI 导航（ai-guide）",
         "rel": "AI-AI应用场景-AI_办公效率-DeepSeek嵌入到Excel_提升10倍工作效率_太牛了_",
         "sourceRel": "AI/AI应用场景/AI + 办公效率/DeepSeek嵌入到Excel，提升10倍工作效率，太牛了！.md"
-      },
-      {
-        "title": "鱼皮 AI 导航（ai-guide）",
-        "rel": "AI-AI应用场景-AI_办公效率-WPS里装上deepseek_简直就是办公神器",
-        "sourceRel": "AI/AI应用场景/AI + 办公效率/WPS里装上deepseek，简直就是办公神器.md"
-      },
-      {
-        "title": "💗用 DeepSeek 给对象做个网站，她一定感动坏了",
-        "rel": "AI-AI应用场景-AI_编程开发-_用_DeepSeek_给对象做个网站_她一定感动坏了",
-        "sourceRel": "AI/AI应用场景/AI + 编程开发/💗用 DeepSeek 给对象做个网站，她一定感动坏了.md"
-      },
-      {
-        "title": "1 分钟生成架构图？程序员 AI 绘图保姆级教程",
-        "rel": "AI-AI应用场景-AI_编程开发-1_分钟生成架构图_程序员_AI_绘图保姆级教程",
-        "sourceRel": "AI/AI应用场景/AI + 编程开发/1 分钟生成架构图？程序员 AI 绘图保姆级教程.md"
-      },
-      {
-        "title": "3 小时做游戏，10 天狂赚 28 万！程序员用 AI 躺赚？",
-        "rel": "AI-AI应用场景-AI_编程开发-3_小时做游戏_10_天狂赚_28_万_程序员用_AI_躺赚_",
-        "sourceRel": "AI/AI应用场景/AI + 编程开发/3 小时做游戏，10 天狂赚 28 万！程序员用 AI 躺赚？.md"
-      },
-      {
-        "title": "鱼皮 AI 导航（ai-guide）",
-        "rel": "AI-AI应用场景-AI_编程开发-教你用DeepSeek_Clien_从0到1开发一个APP",
-        "sourceRel": "AI/AI应用场景/AI + 编程开发/教你用DeepSeek+Clien，从0到1开发一个APP.md"
-      },
-      {
-        "title": "鱼皮 AI 导航（ai-guide）",
-        "rel": "AI-AI应用场景-AI_编程开发-DeepSeek接入Python_一般电脑也能飞速跑_确实可以封神了_",
-        "sourceRel": "AI/AI应用场景/AI + 编程开发/DeepSeek接入Python，一般电脑也能飞速跑，确实可以封神了！.md"
-      },
-      {
-        "title": "鱼皮 AI 导航（ai-guide）",
-        "rel": "AI-AI应用场景-AI_编程开发-DeepSeek装进VSCode_编程非常丝滑_",
-        "sourceRel": "AI/AI应用场景/AI + 编程开发/DeepSeek装进VSCode，编程非常丝滑！.md"
-      },
-      {
-        "title": "5 个不得不收藏的 Deepseek 王炸组合！",
-        "rel": "AI-AI应用场景-AI_创意设计-5_个不得不收藏的_Deepseek_王炸组合_",
-        "sourceRel": "AI/AI应用场景/AI + 创意设计/5 个不得不收藏的 Deepseek 王炸组合！.md"
-      },
-      {
-        "title": "和 Deepseek 联手，做个哪吒的乾坤圈视频",
-        "rel": "AI-AI应用场景-AI_创意设计-和_Deepseek_联手_做个哪吒的乾坤圈视频",
-        "sourceRel": "AI/AI应用场景/AI + 创意设计/和 Deepseek 联手，做个哪吒的乾坤圈视频.md"
-      },
-      {
-        "title": "鱼皮 AI 导航（ai-guide）",
-        "rel": "AI-AI应用场景-AI_创意设计-绝绝子_用deepseek做AI视频_涨粉10W_附保姆级教程_",
-        "sourceRel": "AI/AI应用场景/AI + 创意设计/绝绝子！用deepseek做AI视频，涨粉10W+（附保姆级教程）.md"
-      },
-      {
-        "title": "一、选定主题",
-        "rel": "AI-AI应用场景-AI_创意设计-用_deepseek_做_AI_视频_绝了_和抄作业一样简单_",
-        "sourceRel": "AI/AI应用场景/AI + 创意设计/用 deepseek 做 AI 视频，绝了，和抄作业一样简单！.md"
-      },
-      {
-        "title": "鱼皮 AI 导航（ai-guide）",
-        "rel": "AI-AI应用场景-AI_创意设计-这怕是全网最强的_DeepSeek_图片教程吧_赶紧收藏了_",
-        "sourceRel": "AI/AI应用场景/AI + 创意设计/这怕是全网最强的 DeepSeek 图片教程吧，赶紧收藏了！.md"
-      },
-      {
-        "title": "鱼皮 AI 导航（ai-guide）",
-        "rel": "AI-AI应用场景-AI_创意设计-deepseek_数字人王炸组合使用方法",
-        "sourceRel": "AI/AI应用场景/AI + 创意设计/deepseek+数字人王炸组合使用方法.md"
-      },
-      {
-        "title": "鱼皮 AI 导航（ai-guide）",
-        "rel": "AI-AI应用场景-AI_创意设计-DeepSeek一句话搞定修图难题",
-        "sourceRel": "AI/AI应用场景/AI + 创意设计/DeepSeek一句话搞定修图难题.md"
-      },
-      {
-        "title": "鱼皮 AI 导航（ai-guide）",
-        "rel": "AI-AI应用场景-AI_理财-普通人如何通过炒股买基金赚到100万_",
-        "sourceRel": "AI/AI应用场景/AI + 理财/普通人如何通过炒股买基金赚到100万？.md"
-      },
-      {
-        "title": "用DeepSeek搞钱，日赚百万",
-        "rel": "AI-AI应用场景-AI_理财-用DeepSeek搞钱_日赚百万",
-        "sourceRel": "AI/AI应用场景/AI + 理财/用DeepSeek搞钱，日赚百万.md"
-      },
-      {
-        "title": "鱼皮 AI 导航（ai-guide）",
-        "rel": "AI-AI应用场景-AI_理财-用Deepseek回答_如果有100万闲钱_几年内不用_该怎么理财_",
-        "sourceRel": "AI/AI应用场景/AI + 理财/用Deepseek回答：如果有100万闲钱，几年内不用，该怎么理财？.md"
-      },
-      {
-        "title": "DeepSeek告诉我：30岁到40岁，一般会拥有这么多的存款",
-        "rel": "AI-AI应用场景-AI_理财-DeepSeek告诉我_30岁到40岁_一般会拥有这么多的存款",
-        "sourceRel": "AI/AI应用场景/AI + 理财/DeepSeek告诉我：30岁到40岁，一般会拥有这么多的存款.md"
-      },
-      {
-        "title": "鱼皮 AI 导航（ai-guide）",
-        "rel": "AI-AI应用场景-AI_内容创作-3秒让DeepSeek写出爆款小红书",
-        "sourceRel": "AI/AI应用场景/AI + 内容创作/3秒让DeepSeek写出爆款小红书.md"
-      },
-      {
-        "title": "鱼皮 AI 导航（ai-guide）",
-        "rel": "AI-AI应用场景-AI_内容创作-人有多大胆_地有多大产_如何用DeepSeek写长篇小说",
-        "sourceRel": "AI/AI应用场景/AI + 内容创作/人有多大胆，地有多大产：如何用DeepSeek写长篇小说.md"
-      },
-      {
-        "title": "鱼皮 AI 导航（ai-guide）",
-        "rel": "AI-AI应用场景-AI_内容创作-如何利用DeepSeek进行高效内容创作",
-        "sourceRel": "AI/AI应用场景/AI + 内容创作/如何利用DeepSeek进行高效内容创作.md"
-      },
-      {
-        "title": "鱼皮 AI 导航（ai-guide）",
-        "rel": "AI-AI应用场景-AI_内容创作-用DeepSeek写文章_这4个骚操作让你躺平也能出爆款_含提示词_",
-        "sourceRel": "AI/AI应用场景/AI + 内容创作/用DeepSeek写文章？这4个骚操作让你躺平也能出爆款！（含提示词）.md"
-      },
-      {
-        "title": "鱼皮 AI 导航（ai-guide）",
-        "rel": "AI-AI应用场景-AI_内容创作-用DeepSeek做小红书真的太牛了_轻轻松松打造爆款笔记",
-        "sourceRel": "AI/AI应用场景/AI + 内容创作/用DeepSeek做小红书真的太牛了！轻轻松松打造爆款笔记.md"
-      },
-      {
-        "title": "AI写小说怎么写？deepseek帮你写小说教程",
-        "rel": "AI-AI应用场景-AI_内容创作-AI写小说怎么写_deepseek帮你写小说教程",
-        "sourceRel": "AI/AI应用场景/AI + 内容创作/AI写小说怎么写？deepseek帮你写小说教程.md"
-      },
-      {
-        "title": "DeepSeek使用指南：提升公文、新闻与广告文案写作效率的三大技巧",
-        "rel": "AI-AI应用场景-AI_内容创作-DeepSeek使用指南_提升公文_新闻与广告文案写作效率的三大技巧_",
-        "sourceRel": "AI/AI应用场景/AI + 内容创作/DeepSeek使用指南：提升公文、新闻与广告文案写作效率的三大技巧 .md"
-      },
-      {
-        "title": "AI应用场景",
-        "rel": "AI-AI应用场景-README",
-        "sourceRel": "AI/AI应用场景/README.md"
-      },
-      {
-        "title": "鱼皮 AI 导航（ai-guide）",
-        "rel": "AI-DeepSeek技术解析-DeepSeek_技术分析-一文详解_DeepSeek_技术架构",
-        "sourceRel": "AI/DeepSeek技术解析/DeepSeek 技术分析/一文详解 DeepSeek 技术架构.md"
-      },
-      {
-        "title": "鱼皮 AI 导航（ai-guide）",
-        "rel": "AI-DeepSeek技术解析-DeepSeek_技术分析-DeepSeek_爆火逻辑_行业影响及对未来AI发展的启示",
-        "sourceRel": "AI/DeepSeek技术解析/DeepSeek 技术分析/DeepSeek 爆火逻辑、行业影响及对未来AI发展的启示.md"
-      },
-      {
-        "title": "鱼皮 AI 导航（ai-guide）",
-        "rel": "AI-DeepSeek技术解析-DeepSeek_技术分析-DeepSeek_vs._ChatGPT_谁才是真正的王者_",
-        "sourceRel": "AI/DeepSeek技术解析/DeepSeek 技术分析/DeepSeek vs. ChatGPT：谁才是真正的王者？.md"
-      },
-      {
-        "title": "鱼皮 AI 导航（ai-guide）",
-        "rel": "AI-DeepSeek技术解析-DeepSeek_技术分析-DeepSeek-R1_技术全景解析_从原理到实践的_炼金术配方_",
-        "sourceRel": "AI/DeepSeek技术解析/DeepSeek 技术分析/DeepSeek-R1 技术全景解析：从原理到实践的“炼金术配方”.md"
-      },
-      {
-        "title": "鱼皮 AI 导航（ai-guide）",
-        "rel": "AI-DeepSeek技术解析-DeepSeek_技术分析-DeepSeek的优势与不足",
-        "sourceRel": "AI/DeepSeek技术解析/DeepSeek 技术分析/DeepSeek的优势与不足.md"
-      },
-      {
-        "title": "鱼皮 AI 导航（ai-guide）",
-        "rel": "AI-DeepSeek技术解析-DeepSeek_技术分析-DeepSeek技术解读_从V3到R1的MoE架构创新",
-        "sourceRel": "AI/DeepSeek技术解析/DeepSeek 技术分析/DeepSeek技术解读：从V3到R1的MoE架构创新.md"
-      },
-      {
-        "title": "鱼皮 AI 导航（ai-guide）",
-        "rel": "AI-DeepSeek技术解析-DeepSeek_技术分析-DeepSeek最强专业拆解_清交复教授超硬核解读",
-        "sourceRel": "AI/DeepSeek技术解析/DeepSeek 技术分析/DeepSeek最强专业拆解：清交复教授超硬核解读.md"
-      },
-      {
-        "title": "鱼皮 AI 导航（ai-guide）",
-        "rel": "AI-DeepSeek技术解析-DeepSeek_模型训练-DeepSeek-R1的四个训练阶段",
-        "sourceRel": "AI/DeepSeek技术解析/DeepSeek 模型训练/DeepSeek-R1的四个训练阶段.md"
-      },
-      {
-        "title": "鱼皮 AI 导航（ai-guide）",
-        "rel": "AI-DeepSeek技术解析-DeepSeek_模型训练-DeepSeek-R1的训练流程强化学习_RL_阶段采用了GRPO算法",
-        "sourceRel": "AI/DeepSeek技术解析/DeepSeek 模型训练/DeepSeek-R1的训练流程强化学习（RL）阶段采用了GRPO算法.md"
-      },
-      {
-        "title": "鱼皮 AI 导航（ai-guide）",
-        "rel": "AI-DeepSeek技术解析-DeepSeek_模型训练-DeepSeek-V3_高效训练关键技术分析",
-        "sourceRel": "AI/DeepSeek技术解析/DeepSeek 模型训练/DeepSeek-V3 高效训练关键技术分析.md"
-      },
-      {
-        "title": "鱼皮 AI 导航（ai-guide）",
-        "rel": "AI-DeepSeek技术解析-DeepSeek_模型训练-DeepSeek华丽文风从何而来_业内人士_训练数据_训练策略和迭代优化缺一不可",
-        "sourceRel": "AI/DeepSeek技术解析/DeepSeek 模型训练/DeepSeek华丽文风从何而来？业内人士：训练数据、训练策略和迭代优化缺一不可.md"
-      },
-      {
-        "title": "DeepSeek技术解析",
-        "rel": "AI-DeepSeek技术解析-README",
-        "sourceRel": "AI/DeepSeek技术解析/README.md"
-      },
-      {
-        "title": "【汇总】满血版 DeepSeek 第三方使用渠道",
-        "rel": "AI-DeepSeek使用指南-_汇总_满血版_DeepSeek_第三方使用渠道",
-        "sourceRel": "AI/DeepSeek使用指南/【汇总】满血版 DeepSeek 第三方使用渠道.md"
-      },
-      {
-        "title": "鱼皮 AI 导航（ai-guide）",
-        "rel": "AI-DeepSeek使用指南-_DeepSeek_小白快速上手指南",
-        "sourceRel": "AI/DeepSeek使用指南/🔥DeepSeek 小白快速上手指南.md"
-      },
-      {
-        "title": "2分钟学会 DeepSeek API，竟然比官方更好用！",
-        "rel": "AI-DeepSeek使用指南-2分钟学会_DeepSeek_API_竟然比官方更好用_",
-        "sourceRel": "AI/DeepSeek使用指南/2分钟学会 DeepSeek API，竟然比官方更好用！.md"
-      },
-      {
-        "title": "几个技巧，教你去除文章的 AI 味！",
-        "rel": "AI-DeepSeek使用指南-几个技巧_教你去除文章的_AI_味_",
-        "sourceRel": "AI/DeepSeek使用指南/几个技巧，教你去除文章的 AI 味！.md"
-      },
-      {
-        "title": "鱼皮 AI 导航（ai-guide）",
-        "rel": "AI-DeepSeek使用指南-普通人能用DeepSeek做什么_20个实用建议",
-        "sourceRel": "AI/DeepSeek使用指南/普通人能用DeepSeek做什么？20个实用建议.md"
-      },
-      {
-        "title": "鱼皮 AI 导航（ai-guide）",
-        "rel": "AI-DeepSeek使用指南-如何在iPhone上用语音调用Deepseek",
-        "sourceRel": "AI/DeepSeek使用指南/如何在iPhone上用语音调用Deepseek.md"
-      },
-      {
-        "title": "完整攻略：如何用好DeepSeek，一文汇总！",
-        "rel": "AI-DeepSeek使用指南-完整攻略_如何用好DeepSeek_一文汇总_",
-        "sourceRel": "AI/DeepSeek使用指南/完整攻略：如何用好DeepSeek，一文汇总！.md"
-      },
-      {
-        "title": "最新清华大学DeepSeek使用手册第1-5版，官方完整版PDF免费下载",
-        "rel": "AI-DeepSeek使用指南-最新清华大学DeepSeek使用手册第1-5版_官方完整版PDF免费下载",
-        "sourceRel": "AI/DeepSeek使用指南/最新清华大学DeepSeek使用手册第1-5版，官方完整版PDF免费下载.md"
-      },
-      {
-        "title": "鱼皮 AI 导航（ai-guide）",
-        "rel": "AI-DeepSeek使用指南-DeepSeek_本地部署教程",
-        "sourceRel": "AI/DeepSeek使用指南/DeepSeek 本地部署教程.md"
-      },
-      {
-        "title": "DeepSeek 发布新模型 V3-0324，附使用教程",
-        "rel": "AI-DeepSeek使用指南-DeepSeek_发布新模型_V3-0324_附使用教程",
-        "sourceRel": "AI/DeepSeek使用指南/DeepSeek 发布新模型 V3-0324，附使用教程.md"
-      },
-      {
-        "title": "50个常用的DeepSeek模仿风格提示词，去AI味的大杀器",
-        "rel": "AI-DeepSeek使用指南-DeepSeek_提问技巧-50个常用的DeepSeek模仿风格提示词_去AI味的大杀器",
-        "sourceRel": "AI/DeepSeek使用指南/DeepSeek 提问技巧/50个常用的DeepSeek模仿风格提示词，去AI味的大杀器.md"
-      },
-      {
-        "title": "鱼皮 AI 导航（ai-guide）",
-        "rel": "AI-DeepSeek使用指南-DeepSeek_提问技巧-普通人也能轻松掌握的_20_个_DeepSeek_高频提示词_2025版_",
-        "sourceRel": "AI/DeepSeek使用指南/DeepSeek 提问技巧/普通人也能轻松掌握的 20 个 DeepSeek 高频提示词（2025版）.md"
-      },
-      {
-        "title": "鱼皮 AI 导航（ai-guide）",
-        "rel": "AI-DeepSeek使用指南-DeepSeek_提问技巧-吐血整理_DeepSeek神级指令_好用到爆_",
-        "sourceRel": "AI/DeepSeek使用指南/DeepSeek 提问技巧/吐血整理！DeepSeek神级指令，好用到爆！.md"
-      },
-      {
-        "title": "我发现了 DeepSeek 去 AI 味的捷径，太香了！",
-        "rel": "AI-DeepSeek使用指南-DeepSeek_提问技巧-我发现了_DeepSeek_去_AI_味的捷径_太香了",
-        "sourceRel": "AI/DeepSeek使用指南/DeepSeek 提问技巧/我发现了 DeepSeek 去 AI 味的捷径，太香了.md"
-      },
-      {
-        "title": "鱼皮 AI 导航（ai-guide）",
-        "rel": "AI-DeepSeek使用指南-DeepSeek_提问技巧-DeepSeek_提示词基本法则",
-        "sourceRel": "AI/DeepSeek使用指南/DeepSeek 提问技巧/DeepSeek 提示词基本法则.md"
-      },
-      {
-        "title": "鱼皮 AI 导航（ai-guide）",
-        "rel": "AI-DeepSeek使用指南-DeepSeek_提问技巧-DeepSeek不好用_那是你还不知道这些指令_",
-        "sourceRel": "AI/DeepSeek使用指南/DeepSeek 提问技巧/DeepSeek不好用？那是你还不知道这些指令！.md"
-      },
-      {
-        "title": "DeepSeek使用指南",
-        "rel": "AI-DeepSeek使用指南-README",
-        "sourceRel": "AI/DeepSeek使用指南/README.md"
-      },
-      {
-        "title": "AI",
-        "rel": "AI-README",
-        "sourceRel": "AI/README.md"
-      },
-      {
-        "title": "OpenClaw 保姆级教程导读",
-        "rel": "OpenClaw_保姆级教程-00_OpenClaw_保姆级教程导读",
-        "sourceRel": "OpenClaw 保姆级教程/00 OpenClaw 保姆级教程导读.md"
-      },
-      {
-        "title": "OpenClaw 是什么",
-        "rel": "OpenClaw_保姆级教程-01_OpenClaw_是什么",
-        "sourceRel": "OpenClaw 保姆级教程/01 OpenClaw 是什么.md"
-      },
-      {
-        "title": "本地安装 OpenClaw",
-        "rel": "OpenClaw_保姆级教程-02_本地安装_OpenClaw",
-        "sourceRel": "OpenClaw 保姆级教程/02 本地安装 OpenClaw.md"
-      },
-      {
-        "title": "OpenClaw 一键安装脚本",
-        "rel": "OpenClaw_保姆级教程-03_OpenClaw_一键安装脚本",
-        "sourceRel": "OpenClaw 保姆级教程/03 OpenClaw 一键安装脚本.md"
-      },
-      {
-        "title": "云端部署 OpenClaw",
-        "rel": "OpenClaw_保姆级教程-04_云端部署_OpenClaw",
-        "sourceRel": "OpenClaw 保姆级教程/04 云端部署 OpenClaw.md"
-      },
-      {
-        "title": "OpenClaw 一站式部署平台大全",
-        "rel": "OpenClaw_保姆级教程-05_OpenClaw_一站式部署平台大全",
-        "sourceRel": "OpenClaw 保姆级教程/05 OpenClaw 一站式部署平台大全.md"
-      },
-      {
-        "title": "OpenClaw 接入 QQ 和飞书",
-        "rel": "OpenClaw_保姆级教程-06_OpenClaw_接入_QQ_和飞书",
-        "sourceRel": "OpenClaw 保姆级教程/06 OpenClaw 接入 QQ 和飞书.md"
-      },
-      {
-        "title": "OpenClaw 初始化和基础使用",
-        "rel": "OpenClaw_保姆级教程-07_OpenClaw_初始化和基础使用",
-        "sourceRel": "OpenClaw 保姆级教程/07 OpenClaw 初始化和基础使用.md"
-      },
-      {
-        "title": "OpenClaw 模型选择与切换",
-        "rel": "OpenClaw_保姆级教程-08_OpenClaw_模型选择与切换",
-        "sourceRel": "OpenClaw 保姆级教程/08 OpenClaw 模型选择与切换.md"
-      },
-      {
-        "title": "OpenClaw 工具管理与多媒体能力",
-        "rel": "OpenClaw_保姆级教程-09_OpenClaw_工具管理与多媒体能力",
-        "sourceRel": "OpenClaw 保姆级教程/09 OpenClaw 工具管理与多媒体能力.md"
-      },
-      {
-        "title": "OpenClaw Skills 技能系统",
-        "rel": "OpenClaw_保姆级教程-10_OpenClaw_Skills_技能系统",
-        "sourceRel": "OpenClaw 保姆级教程/10 OpenClaw Skills 技能系统.md"
-      },
-      {
-        "title": "OpenClaw 定时任务与自动化",
-        "rel": "OpenClaw_保姆级教程-11_OpenClaw_定时任务与自动化",
-        "sourceRel": "OpenClaw 保姆级教程/11 OpenClaw 定时任务与自动化.md"
-      },
-      {
-        "title": "OpenClaw 多 Agent 协作",
-        "rel": "OpenClaw_保姆级教程-12_OpenClaw_多_Agent_协作",
-        "sourceRel": "OpenClaw 保姆级教程/12 OpenClaw 多 Agent 协作.md"
-      },
-      {
-        "title": "OpenClaw 记忆管理与成本控制",
-        "rel": "OpenClaw_保姆级教程-13_OpenClaw_记忆管理与成本控制",
-        "sourceRel": "OpenClaw 保姆级教程/13 OpenClaw 记忆管理与成本控制.md"
-      },
-      {
-        "title": "OpenClaw 安全指南",
-        "rel": "OpenClaw_保姆级教程-14_OpenClaw_安全指南",
-        "sourceRel": "OpenClaw 保姆级教程/14 OpenClaw 安全指南.md"
-      },
-      {
-        "title": "OpenClaw 一键卸载脚本",
-        "rel": "OpenClaw_保姆级教程-15_OpenClaw_一键卸载脚本",
-        "sourceRel": "OpenClaw 保姆级教程/15 OpenClaw 一键卸载脚本.md"
-      },
-      {
-        "title": "番外 OpenClaw 创始人的故事",
-        "rel": "OpenClaw_保姆级教程-番外_-_OpenClaw_创始人的故事",
-        "sourceRel": "OpenClaw 保姆级教程/番外 - OpenClaw 创始人的故事.md"
-      },
-      {
-        "title": "OpenClaw 接入微信保姆级教程",
-        "rel": "OpenClaw_保姆级教程-OpenClaw_接入微信保姆级教程",
-        "sourceRel": "OpenClaw 保姆级教程/OpenClaw 接入微信保姆级教程.md"
-      },
-      {
-        "title": "OpenClaw 实战 用 GLM-5 打造你的 AI 伴侣",
-        "rel": "OpenClaw_保姆级教程-OpenClaw_实战_-_用_GLM-5_打造你的_AI_伴侣",
-        "sourceRel": "OpenClaw 保姆级教程/OpenClaw 实战 - 用 GLM-5 打造你的 AI 伴侣.md"
-      },
-      {
-        "title": "Vibe Coding 简介",
-        "rel": "Vibe_Coding_零基础教程-00_Vibe_Coding_简介",
-        "sourceRel": "Vibe Coding 零基础教程/00 Vibe Coding 简介.md"
-      },
-      {
-        "title": "快速上手 Vibe Coding",
-        "rel": "Vibe_Coding_零基础教程-01_快速上手_Vibe_Coding",
-        "sourceRel": "Vibe Coding 零基础教程/01 快速上手 Vibe Coding.md"
-      },
-      {
-        "title": "AI 编程学习路线：我们学 AI 编程时，到底在学什么？",
-        "rel": "Vibe_Coding_零基础教程-02_AI_编程学习路线",
-        "sourceRel": "Vibe Coding 零基础教程/02 AI 编程学习路线.md"
-      },
-      {
-        "title": "AI 编程工具大全",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-00_AI_编程工具大全",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/00 AI 编程工具大全.md"
-      },
-      {
-        "title": "AI 模型选择指南",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-01_AI_模型选择指南",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/01 AI 模型选择指南.md"
-      },
-      {
-        "title": "AI 零代码平台",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-02_AI_零代码平台",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/02 AI 零代码平台.md"
-      },
-      {
-        "title": "AI 智能体平台",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-03_AI_智能体平台",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/03 AI 智能体平台.md"
-      },
-      {
-        "title": "AI 代码编辑器",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-04_AI_代码编辑器",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/04 AI 代码编辑器.md"
-      },
-      {
-        "title": "AI 命令行编程工具",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-05_AI_命令行编程工具",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/05 AI 命令行编程工具.md"
-      },
-      {
-        "title": "AI IDE 插件",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-06_AI_IDE_插件",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/06 AI IDE 插件.md"
-      },
-      {
-        "title": "OpenClaw 保姆级安装教程",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-07_OpenClaw_保姆级安装教程",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/07 OpenClaw 保姆级安装教程.md"
-      },
-      {
-        "title": "AI 辅助工具集",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-08_AI_辅助工具集",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/08 AI 辅助工具集.md"
-      },
-      {
-        "title": "我的 AI 工具箱推荐",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-09_我的_AI_工具箱推荐",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/09 我的 AI 工具箱推荐.md"
-      },
-      {
-        "title": "优质 AI 编程扩展推荐",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-10_优质_AI_编程扩展推荐",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/10 优质 AI 编程扩展推荐.md"
-      },
-      {
-        "title": "盘点 32 个 AI 编程工具，一口气全部介绍！",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-工具实战-盘点_32_个_AI_编程工具",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/工具实战/盘点 32 个 AI 编程工具.md"
-      },
-      {
-        "title": "在 IDEA 中使用 AI 编程",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-工具实战-在_IDEA_中使用_AI_编程",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/工具实战/在 IDEA 中使用 AI 编程.md"
-      },
-      {
-        "title": "Agent Skills：通用 AI 技能库",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-工具实战-Agent_Skills_通用_AI_技能库",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/工具实战/Agent Skills：通用 AI 技能库.md"
-      },
-      {
-        "title": "Dify：零代码 AI 应用开发平台",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-工具实战-Dify_零代码_AI_应用开发平台",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/工具实战/Dify：零代码 AI 应用开发平台.md"
-      },
-      {
-        "title": "Gemini CLI：Google 的免费 AI 命令行工具实测",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-工具实战-Gemini_CLI_首测_免费开源很香_但坑点很多_",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/工具实战/Gemini CLI 首测：免费开源很香，但坑点很多！.md"
-      },
-      {
-        "title": "GitHub Copilot 云端 AI 自动开发实战",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-工具实战-GitHub_Copilot_云端_AI_自动开发实战",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/工具实战/GitHub Copilot 云端 AI 自动开发实战.md"
-      },
-      {
-        "title": "GLM-5 + OpenClaw：打造你的 AI 伴侣",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-工具实战-GLM-5_OpenClaw_打造你的_AI_伴侣",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/工具实战/GLM-5 + OpenClaw：打造你的 AI 伴侣.md"
-      },
-      {
-        "title": "Matt Pocock Skills：真实工程技能库",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-工具实战-Matt_Pocock_Skills_真实工程技能库",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/工具实战/Matt Pocock Skills：真实工程技能库.md"
-      },
-      {
-        "title": "OpenClaw：部署你的 AI 数字员工",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-工具实战-OpenClaw_部署你的_AI_数字员工",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/工具实战/OpenClaw：部署你的 AI 数字员工.md"
-      },
-      {
-        "title": "OpenCode：开源免费的 AI 命令行工具实测",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-工具实战-OpenCode_开源免费的_AI_命令行工具实测",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/工具实战/OpenCode：开源免费的 AI 命令行工具实测.md"
-      },
-      {
-        "title": "OpenSpec：轻量规范开发框架",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-工具实战-OpenSpec_轻量规范开发框架",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/工具实战/OpenSpec：轻量规范开发框架.md"
-      },
-      {
-        "title": "Remotion：用 AI 编程做动画视频",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-工具实战-Remotion_用_AI_编程做动画视频",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/工具实战/Remotion：用 AI 编程做动画视频.md"
-      },
-      {
-        "title": "Spec-kit：规范驱动开发框架",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-工具实战-Spec-kit_规范驱动开发框架",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/工具实战/Spec-kit：规范驱动开发框架.md"
-      },
-      {
-        "title": "Superpowers：核心技能库",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-工具实战-Superpowers_核心技能库",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/工具实战/Superpowers：核心技能库.md"
-      },
-      {
-        "title": "TRAE SOLO：AI 主导的全栈开发工具",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-工具实战-TRAE_SOLO_AI_主导的全栈开发工具",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/工具实战/TRAE SOLO：AI 主导的全栈开发工具.md"
-      },
-      {
-        "title": "VSCode + GitHub Copilot：微软全家桶的 AI 编程实战",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-工具实战-VSCode_GitHub_Copilot_微软全家桶的_AI_编程实战",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/工具实战/VSCode + GitHub Copilot：微软全家桶的 AI 编程实战.md"
-      },
-      {
-        "title": "用好 CLAUDE.md，让你的 AI 编程效率翻倍！",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-Claude_Code-用好_CLAUDE_md_让_AI_编程效率翻倍",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/Claude Code/用好 CLAUDE.md 让 AI 编程效率翻倍.md"
-      },
-      {
-        "title": "Claude Code 常用斜杠命令大全，用好了效率翻倍！",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-Claude_Code-Claude_Code_常用斜杠命令大全",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/Claude Code/Claude Code 常用斜杠命令大全.md"
-      },
-      {
-        "title": "Claude Code 封号机制和应对方案",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-Claude_Code-Claude_Code_封号机制和应对方案",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/Claude Code/Claude Code 封号机制和应对方案.md"
-      },
-      {
-        "title": "Claude Code 和 Codex 对接国内模型教程",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-Claude_Code-Claude_Code_和_Codex_对接国内模型教程",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/Claude Code/Claude Code 和 Codex 对接国内模型教程.md"
-      },
-      {
-        "title": "Claude Code 配置哲学：官方亲自教你怎么「调教」AI",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-Claude_Code-Claude_Code_配置哲学_七种指令方式全解析",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/Claude Code/Claude Code 配置哲学：七种指令方式全解析.md"
-      },
-      {
-        "title": "Claude Code 验证循环实战教程",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-Claude_Code-Claude_Code_验证循环实战教程",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/Claude Code/Claude Code 验证循环实战教程.md"
-      },
-      {
-        "title": "Codex 主题定制教程",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-Codex-Codex_主题定制教程",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/Codex/Codex 主题定制教程.md"
-      },
-      {
-        "title": "Codex Record & Replay：录制功能教程",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-Codex-Codex_Record_Replay_录制功能教程",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/Codex/Codex Record & Replay：录制功能教程.md"
-      },
-      {
-        "title": "Codex：AI 桌面应用保姆级教程",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-Codex-Codex_AI_桌面应用保姆级教程",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/Codex/Codex：AI 桌面应用保姆级教程.md"
-      },
-      {
-        "title": "Cursor 保姆级教程：一篇搞定 AI 编程第一课",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-Cursor-Cursor_保姆级教程",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/Cursor/Cursor 保姆级教程.md"
-      },
-      {
-        "title": "Cursor Debug 模式详解",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-Cursor-Cursor_Debug_模式详解",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/Cursor/Cursor Debug 模式详解.md"
-      },
-      {
-        "title": "DeepSeek Harness 保姆级入门教程",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-DeepSeek_Harness-DeepSeek_Harness_保姆级入门教程",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/DeepSeek Harness/DeepSeek Harness 保姆级入门教程.md"
-      },
-      {
-        "title": "DeepSeek Harness 服务器部署教程",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-DeepSeek_Harness-DeepSeek_Harness_服务器部署教程",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/DeepSeek Harness/DeepSeek Harness 服务器部署教程.md"
-      },
-      {
-        "title": "DeepSeek Harness 极简模式实测",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-DeepSeek_Harness-DeepSeek_Harness_极简模式实测",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/DeepSeek Harness/DeepSeek Harness 极简模式实测.md"
-      },
-      {
-        "title": "DeepSeek Harness 精选插件推荐",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-DeepSeek_Harness-DeepSeek_Harness_精选插件推荐",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/DeepSeek Harness/DeepSeek Harness 精选插件推荐.md"
-      },
-      {
-        "title": "DeepSeek Harness 三大进阶玩法",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-DeepSeek_Harness-DeepSeek_Harness_三大进阶玩法",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/DeepSeek Harness/DeepSeek Harness 三大进阶玩法.md"
-      },
-      {
-        "title": "DeepSeek Harness Agent 预设详解",
-        "rel": "Vibe_Coding_零基础教程-10_编程工具-DeepSeek_Harness-DeepSeek_Harness_Agent_预设详解",
-        "sourceRel": "Vibe Coding 零基础教程/10 编程工具/DeepSeek Harness/DeepSeek Harness Agent 预设详解.md"
-      },
-      {
-        "title": "模型动态",
-        "rel": "Vibe_Coding_零基础教程-15_模型动态-00_模型动态导读",
-        "sourceRel": "Vibe Coding 零基础教程/15 模型动态/00 模型动态导读.md"
-      },
-      {
-        "title": "小米 MiMo 编程能力实测 - 4 个项目案例",
-        "rel": "Vibe_Coding_零基础教程-15_模型动态-小米_MiMo_编程能力实测_-_4_个项目案例",
-        "sourceRel": "Vibe Coding 零基础教程/15 模型动态/小米 MiMo 编程能力实测 - 4 个项目案例.md"
-      },
-      {
-        "title": "Claude Fable 5 编程能力实测 - 对比 Opus 4.8 和 GPT-5.5",
-        "rel": "Vibe_Coding_零基础教程-15_模型动态-Claude_Fable_5_编程能力实测_-_对比_Opus_4.8_和_GPT-5.5",
-        "sourceRel": "Vibe Coding 零基础教程/15 模型动态/Claude Fable 5 编程能力实测 - 对比 Opus 4.8 和 GPT-5.5.md"
-      },
-      {
-        "title": "Claude Fable 5.1 编程能力实测 - 3 个项目案例",
-        "rel": "Vibe_Coding_零基础教程-15_模型动态-Claude_Fable_5.1_编程能力实测_-_3_个项目案例",
-        "sourceRel": "Vibe Coding 零基础教程/15 模型动态/Claude Fable 5.1 编程能力实测 - 3 个项目案例.md"
-      },
-      {
-        "title": "Claude Opus 5 编程能力实测 - 7 个项目案例",
-        "rel": "Vibe_Coding_零基础教程-15_模型动态-Claude_Opus_5_编程能力实测_-_7_个项目案例",
-        "sourceRel": "Vibe Coding 零基础教程/15 模型动态/Claude Opus 5 编程能力实测 - 7 个项目案例.md"
-      },
-      {
-        "title": "DeepSeek V4 Flash Vision 视觉能力实测 - 8 个场景",
-        "rel": "Vibe_Coding_零基础教程-15_模型动态-DeepSeek_V4_Flash_Vision_视觉能力实测_-_8_个场景",
-        "sourceRel": "Vibe Coding 零基础教程/15 模型动态/DeepSeek V4 Flash Vision 视觉能力实测 - 8 个场景.md"
-      },
-      {
-        "title": "DeepSeek V4 Pro 编程能力实测 - 7 个项目案例",
-        "rel": "Vibe_Coding_零基础教程-15_模型动态-DeepSeek_V4_Pro_编程能力实测_-_7_个项目案例",
-        "sourceRel": "Vibe Coding 零基础教程/15 模型动态/DeepSeek V4 Pro 编程能力实测 - 7 个项目案例.md"
-      },
-      {
-        "title": "GLM-5.3 三模型横评 - DeepSeek Harness 统一评测",
-        "rel": "Vibe_Coding_零基础教程-15_模型动态-GLM-5.3_三模型横评_-_DeepSeek_Harness_统一评测",
-        "sourceRel": "Vibe Coding 零基础教程/15 模型动态/GLM-5.3 三模型横评 - DeepSeek Harness 统一评测.md"
-      },
-      {
-        "title": "GLM-5.3-Flash 编程能力实测 - 3 个项目案例",
-        "rel": "Vibe_Coding_零基础教程-15_模型动态-GLM-5.3-Flash_编程能力实测_-_3_个项目案例",
-        "sourceRel": "Vibe Coding 零基础教程/15 模型动态/GLM-5.3-Flash 编程能力实测 - 3 个项目案例.md"
-      },
-      {
-        "title": "GPT-5.6 三模型横评 - 全栈项目实测",
-        "rel": "Vibe_Coding_零基础教程-15_模型动态-GPT-5.6_三模型横评_-_全栈项目实测",
-        "sourceRel": "Vibe Coding 零基础教程/15 模型动态/GPT-5.6 三模型横评 - 全栈项目实测.md"
-      },
-      {
-        "title": "Kimi K3 编程能力实测 - 7 个项目案例",
-        "rel": "Vibe_Coding_零基础教程-15_模型动态-Kimi_K3_编程能力实测_-_7_个项目案例",
-        "sourceRel": "Vibe Coding 零基础教程/15 模型动态/Kimi K3 编程能力实测 - 7 个项目案例.md"
-      },
-      {
-        "title": "Opus 4.8 四模型横评 - 全栈项目实测",
-        "rel": "Vibe_Coding_零基础教程-15_模型动态-Opus_4.8_四模型横评_-_全栈项目实测",
-        "sourceRel": "Vibe Coding 零基础教程/15 模型动态/Opus 4.8 四模型横评 - 全栈项目实测.md"
-      },
-      {
-        "title": "Vibe Coding 项目实战导读",
-        "rel": "Vibe_Coding_零基础教程-20_项目实战-00_Vibe_Coding_项目实战导读",
-        "sourceRel": "Vibe Coding 零基础教程/20 项目实战/00 Vibe Coding 项目实战导读.md"
-      },
-      {
-        "title": "Vibe Coding 项目开发流程",
-        "rel": "Vibe_Coding_零基础教程-20_项目实战-01_Vibe_Coding_项目开发流程",
-        "sourceRel": "Vibe Coding 零基础教程/20 项目实战/01 Vibe Coding 项目开发流程.md"
-      },
-      {
-        "title": "Vibe Coding 个人工具开发",
-        "rel": "Vibe_Coding_零基础教程-20_项目实战-02_Vibe_Coding_个人工具开发",
-        "sourceRel": "Vibe Coding 零基础教程/20 项目实战/02 Vibe Coding 个人工具开发.md"
-      },
-      {
-        "title": "Vibe Coding AI 应用开发",
-        "rel": "Vibe_Coding_零基础教程-20_项目实战-03_Vibe_Coding_AI_应用开发",
-        "sourceRel": "Vibe Coding 零基础教程/20 项目实战/03 Vibe Coding AI 应用开发.md"
-      },
-      {
-        "title": "Vibe Coding 全栈应用开发",
-        "rel": "Vibe_Coding_零基础教程-20_项目实战-04_Vibe_Coding_全栈应用开发",
-        "sourceRel": "Vibe Coding 零基础教程/20 项目实战/04 Vibe Coding 全栈应用开发.md"
-      },
-      {
-        "title": "Vibe Coding 小程序开发",
-        "rel": "Vibe_Coding_零基础教程-20_项目实战-05_Vibe_Coding_小程序开发",
-        "sourceRel": "Vibe Coding 零基础教程/20 项目实战/05 Vibe Coding 小程序开发.md"
-      },
-      {
-        "title": "项目部署上线教程",
-        "rel": "Vibe_Coding_零基础教程-20_项目实战-06_项目部署上线教程",
-        "sourceRel": "Vibe Coding 零基础教程/20 项目实战/06 项目部署上线教程.md"
-      },
-      {
-        "title": "Vibe Coding 项目灵感大全",
-        "rel": "Vibe_Coding_零基础教程-20_项目实战-10_Vibe_Coding_项目灵感大全",
-        "sourceRel": "Vibe Coding 零基础教程/20 项目实战/10 Vibe Coding 项目灵感大全.md"
-      },
-      {
-        "title": "更多企业级 AI 编程实战项目",
-        "rel": "Vibe_Coding_零基础教程-20_项目实战-进阶_-_企业级_AI_编程实战项目",
-        "sourceRel": "Vibe Coding 零基础教程/20 项目实战/进阶 - 企业级 AI 编程实战项目.md"
-      },
-      {
-        "title": "企业项目开发流程",
-        "rel": "Vibe_Coding_零基础教程-20_项目实战-进阶_-_企业项目开发流程",
-        "sourceRel": "Vibe Coding 零基础教程/20 项目实战/进阶 - 企业项目开发流程.md"
-      },
-      {
-        "title": "AI 创意应用 - 程序员人格测试 CBTI 项目",
-        "rel": "Vibe_Coding_零基础教程-20_项目实战-AI_创意应用-AI_创意应用_-_程序员人格测试_CBTI_项目",
-        "sourceRel": "Vibe Coding 零基础教程/20 项目实战/AI 创意应用/AI 创意应用 - 程序员人格测试 CBTI 项目.md"
-      },
-      {
-        "title": "AI 创意应用 - 高考分数预测器项目实战",
-        "rel": "Vibe_Coding_零基础教程-20_项目实战-AI_创意应用-AI_创意应用_-_高考分数预测器项目",
-        "sourceRel": "Vibe Coding 零基础教程/20 项目实战/AI 创意应用/AI 创意应用 - 高考分数预测器项目.md"
-      },
-      {
-        "title": "AI 创意应用 - 互联网数字墓园项目实战",
-        "rel": "Vibe_Coding_零基础教程-20_项目实战-AI_创意应用-AI_创意应用_-_互联网数字墓园项目",
-        "sourceRel": "Vibe Coding 零基础教程/20 项目实战/AI 创意应用/AI 创意应用 - 互联网数字墓园项目.md"
-      },
-      {
-        "title": "AI 创意应用 - 蒸馏自己成 Skill 项目",
-        "rel": "Vibe_Coding_零基础教程-20_项目实战-AI_创意应用-AI_创意应用_-_蒸馏自己成_Skill_项目",
-        "sourceRel": "Vibe Coding 零基础教程/20 项目实战/AI 创意应用/AI 创意应用 - 蒸馏自己成 Skill 项目.md"
-      },
-      {
-        "title": "Claude Code - AI 提肛助手项目实战",
-        "rel": "Vibe_Coding_零基础教程-20_项目实战-AI_创意应用-Claude_Code_-_AI_提肛助手项目实战",
-        "sourceRel": "Vibe Coding 零基础教程/20 项目实战/AI 创意应用/Claude Code - AI 提肛助手项目实战.md"
-      },
-      {
-        "title": "Cursor + Claude Opus 5 - 以撒的结合肉鸽游戏项目实战",
-        "rel": "Vibe_Coding_零基础教程-20_项目实战-AI_创意应用-Cursor_Claude_Opus_5_-_以撒的结合肉鸽游戏项目实战",
-        "sourceRel": "Vibe Coding 零基础教程/20 项目实战/AI 创意应用/Cursor + Claude Opus 5 - 以撒的结合肉鸽游戏项目实战.md"
-      },
-      {
-        "title": "DeepSeek + 火山 - AI 海龟汤游戏项目实战",
-        "rel": "Vibe_Coding_零基础教程-20_项目实战-AI_创意应用-DeepSeek_火山_-_AI_海龟汤游戏项目实战",
-        "sourceRel": "Vibe Coding 零基础教程/20 项目实战/AI 创意应用/DeepSeek + 火山 - AI 海龟汤游戏项目实战.md"
-      },
-      {
-        "title": "GitHub Copilot - AI 塔罗牌占卜项目实战",
-        "rel": "Vibe_Coding_零基础教程-20_项目实战-AI_创意应用-GitHub_Copilot_-_AI_塔罗牌占卜网站项目实战",
-        "sourceRel": "Vibe Coding 零基础教程/20 项目实战/AI 创意应用/GitHub Copilot - AI 塔罗牌占卜网站项目实战.md"
-      },
-      {
-        "title": "Cursor + Claude Fable 5 - 装了吗桌面 APP 项目实战",
-        "rel": "Vibe_Coding_零基础教程-20_项目实战-AI_跨端应用-Cursor_Claude_Fable_5_-_装了吗桌面_APP_项目实战",
-        "sourceRel": "Vibe Coding 零基础教程/20 项目实战/AI 跨端应用/Cursor + Claude Fable 5 - 装了吗桌面 APP 项目实战.md"
-      },
-      {
-        "title": "Cursor + Cordova - 表情包生成器 APP 项目实战",
-        "rel": "Vibe_Coding_零基础教程-20_项目实战-AI_跨端应用-Cursor_Cordova_-_表情包生成器_APP_项目实战",
-        "sourceRel": "Vibe Coding 零基础教程/20 项目实战/AI 跨端应用/Cursor + Cordova - 表情包生成器 APP 项目实战.md"
-      },
-      {
-        "title": "GitHub Copilot - AI 闯关学习小程序项目实战",
-        "rel": "Vibe_Coding_零基础教程-20_项目实战-AI_跨端应用-GitHub_Copilot_-_AI_闯关学习小程序项目实战",
-        "sourceRel": "Vibe Coding 零基础教程/20 项目实战/AI 跨端应用/GitHub Copilot - AI 闯关学习小程序项目实战.md"
-      },
-      {
-        "title": "GLM + Claude Code - AI 命令行编程工具项目实战",
-        "rel": "Vibe_Coding_零基础教程-20_项目实战-AI_跨端应用-GLM_Claude_Code_-_AI_命令行编程工具项目实战",
-        "sourceRel": "Vibe Coding 零基础教程/20 项目实战/AI 跨端应用/GLM + Claude Code - AI 命令行编程工具项目实战.md"
-      },
-      {
-        "title": "TRAE - AI 学习英雄小程序实战",
-        "rel": "Vibe_Coding_零基础教程-20_项目实战-AI_跨端应用-TRAE_-_AI_学习英雄小程序实战",
-        "sourceRel": "Vibe Coding 零基础教程/20 项目实战/AI 跨端应用/TRAE - AI 学习英雄小程序实战.md"
-      },
-      {
-        "title": "Codex - AI 开源项目学习网站项目实战",
-        "rel": "Vibe_Coding_零基础教程-20_项目实战-AI_实用工具-Codex_-_AI_开源项目学习网站项目实战",
-        "sourceRel": "Vibe Coding 零基础教程/20 项目实战/AI 实用工具/Codex - AI 开源项目学习网站项目实战.md"
-      },
-      {
-        "title": "Codex + GPT-5.5 实战：手把手开发一个 AI 搜索引擎",
-        "rel": "Vibe_Coding_零基础教程-20_项目实战-AI_实用工具-Codex_GPT-5.5_-_AI_搜索引擎项目实战",
-        "sourceRel": "Vibe Coding 零基础教程/20 项目实战/AI 实用工具/Codex + GPT-5.5 - AI 搜索引擎项目实战.md"
-      },
-      {
-        "title": "Cursor - AI 万能视频下载总结器项目实战",
-        "rel": "Vibe_Coding_零基础教程-20_项目实战-AI_实用工具-Cursor_-_AI_万能视频下载总结器项目实战",
-        "sourceRel": "Vibe Coding 零基础教程/20 项目实战/AI 实用工具/Cursor - AI 万能视频下载总结器项目实战.md"
-      },
-      {
-        "title": "Cursor - GitHub 文档翻译工具项目实战",
-        "rel": "Vibe_Coding_零基础教程-20_项目实战-AI_实用工具-Cursor_-_GitHub_文档翻译工具项目实战",
-        "sourceRel": "Vibe Coding 零基础教程/20 项目实战/AI 实用工具/Cursor - GitHub 文档翻译工具项目实战.md"
-      },
-      {
-        "title": "EdgeOne Makers - AI 副业点子验证器项目实战",
-        "rel": "Vibe_Coding_零基础教程-20_项目实战-AI_实用工具-EdgeOne_Makers_-_AI_副业点子验证器项目实战",
-        "sourceRel": "Vibe Coding 零基础教程/20 项目实战/AI 实用工具/EdgeOne Makers - AI 副业点子验证器项目实战.md"
-      },
-      {
-        "title": "GitHub Copilot - AI 热点监控工具项目实战",
-        "rel": "Vibe_Coding_零基础教程-20_项目实战-AI_实用工具-GitHub_Copilot_-_AI_热点监控工具项目实战",
-        "sourceRel": "Vibe Coding 零基础教程/20 项目实战/AI 实用工具/GitHub Copilot - AI 热点监控工具项目实战.md"
-      },
-      {
-        "title": "Kimi K2 - AI 文档阅读助手项目实战",
-        "rel": "Vibe_Coding_零基础教程-20_项目实战-AI_实用工具-Kimi_K2_-_AI_文档阅读助手项目实战",
-        "sourceRel": "Vibe Coding 零基础教程/20 项目实战/AI 实用工具/Kimi K2 - AI 文档阅读助手项目实战.md"
-      },
-      {
-        "title": "LangChain + LangGraph - AI 智能 PPT 生成器项目实战",
-        "rel": "Vibe_Coding_零基础教程-20_项目实战-AI_实用工具-LangChain_LangGraph_-_AI_智能_PPT_生成器项目实战",
-        "sourceRel": "Vibe Coding 零基础教程/20 项目实战/AI 实用工具/LangChain + LangGraph - AI 智能 PPT 生成器项目实战.md"
-      },
-      {
-        "title": "Vercel AI 网关 - AI 减压小能手项目实战",
-        "rel": "Vibe_Coding_零基础教程-20_项目实战-AI_实用工具-Vercel_AI_网关_-_AI_减压小能手项目实战",
-        "sourceRel": "Vibe Coding 零基础教程/20 项目实战/AI 实用工具/Vercel AI 网关 - AI 减压小能手项目实战.md"
-      },
-      {
-        "title": "Cursor + LangChain4j - AI 程序员技术练兵场项目实战",
-        "rel": "Vibe_Coding_零基础教程-20_项目实战-AI_智能体和平台-进阶_-_Cursor_LangChain4j_-_AI_程序员技术练兵场项目实战",
-        "sourceRel": "Vibe Coding 零基础教程/20 项目实战/AI 智能体和平台/进阶 - Cursor + LangChain4j - AI 程序员技术练兵场项目实战.md"
-      },
-      {
-        "title": "LangChain4j + 多智能体 - AI 零代码应用生成平台项目实战",
-        "rel": "Vibe_Coding_零基础教程-20_项目实战-AI_智能体和平台-进阶_-_LangChain4j_多智能体_-_AI_零代码应用生成平台项目实战",
-        "sourceRel": "Vibe Coding 零基础教程/20 项目实战/AI 智能体和平台/进阶 - LangChain4j + 多智能体 - AI 零代码应用生成平台项目实战.md"
-      },
-      {
-        "title": "Spring AI - AI 超级智能体项目实战",
-        "rel": "Vibe_Coding_零基础教程-20_项目实战-AI_智能体和平台-进阶_-_Spring_AI_-_AI_超级智能体项目实战",
-        "sourceRel": "Vibe Coding 零基础教程/20 项目实战/AI 智能体和平台/进阶 - Spring AI - AI 超级智能体项目实战.md"
-      },
-      {
-        "title": "DeepSeek V4 + Claude Code 手把手带你搞一个 API 中转站",
-        "rel": "Vibe_Coding_零基础教程-20_项目实战-AI_智能体和平台-Claude_Code_DeepSeek_-_API_中转站项目实战",
-        "sourceRel": "Vibe Coding 零基础教程/20 项目实战/AI 智能体和平台/Claude Code + DeepSeek - API 中转站项目实战.md"
-      },
-      {
-        "title": "Cursor + LangChain4j - AI 编程助手项目实战",
-        "rel": "Vibe_Coding_零基础教程-20_项目实战-AI_智能体和平台-Cursor_LangChain4j_-_AI_编程助手项目实战",
-        "sourceRel": "Vibe Coding 零基础教程/20 项目实战/AI 智能体和平台/Cursor + LangChain4j - AI 编程助手项目实战.md"
-      },
-      {
-        "title": "Vibe Coding 经验技巧总览",
-        "rel": "Vibe_Coding_零基础教程-30_经验技巧-00_Vibe_Coding_经验技巧总览",
-        "sourceRel": "Vibe Coding 零基础教程/30 经验技巧/00 Vibe Coding 经验技巧总览.md"
-      },
-      {
-        "title": "Vibe Coding 五大核心心法",
-        "rel": "Vibe_Coding_零基础教程-30_经验技巧-01_Vibe_Coding_五大核心心法",
-        "sourceRel": "Vibe Coding 零基础教程/30 经验技巧/01 Vibe Coding 五大核心心法.md"
-      },
-      {
-        "title": "Vibe Coding 对话工程技巧",
-        "rel": "Vibe_Coding_零基础教程-30_经验技巧-02_Vibe_Coding_对话工程技巧",
-        "sourceRel": "Vibe Coding 零基础教程/30 经验技巧/02 Vibe Coding 对话工程技巧.md"
-      },
-      {
-        "title": "Vibe Coding 上下文管理技巧",
-        "rel": "Vibe_Coding_零基础教程-30_经验技巧-03_Vibe_Coding_上下文管理技巧",
-        "sourceRel": "Vibe Coding 零基础教程/30 经验技巧/03 Vibe Coding 上下文管理技巧.md"
-      },
-      {
-        "title": "Vibe Coding 幻觉和死循环处理",
-        "rel": "Vibe_Coding_零基础教程-30_经验技巧-04_Vibe_Coding_幻觉和死循环处理",
-        "sourceRel": "Vibe Coding 零基础教程/30 经验技巧/04 Vibe Coding 幻觉和死循环处理.md"
-      },
-      {
-        "title": "Vibe Coding 效率提升技巧",
-        "rel": "Vibe_Coding_零基础教程-30_经验技巧-05_Vibe_Coding_效率提升技巧",
-        "sourceRel": "Vibe Coding 零基础教程/30 经验技巧/05 Vibe Coding 效率提升技巧.md"
-      },
-      {
-        "title": "Vibe Coding 代码质量保障",
-        "rel": "Vibe_Coding_零基础教程-30_经验技巧-06_Vibe_Coding_代码质量保障",
-        "sourceRel": "Vibe Coding 零基础教程/30 经验技巧/06 Vibe Coding 代码质量保障.md"
-      },
-      {
-        "title": "Vibe Coding 代码重构技巧",
-        "rel": "Vibe_Coding_零基础教程-30_经验技巧-07_Vibe_Coding_代码重构技巧",
-        "sourceRel": "Vibe Coding 零基础教程/30 经验技巧/07 Vibe Coding 代码重构技巧.md"
-      },
-      {
-        "title": "Vibe Coding 性能优化技巧",
-        "rel": "Vibe_Coding_零基础教程-30_经验技巧-08_Vibe_Coding_性能优化技巧",
-        "sourceRel": "Vibe Coding 零基础教程/30 经验技巧/08 Vibe Coding 性能优化技巧.md"
-      },
-      {
-        "title": "Vibe Coding 安全防护技巧",
-        "rel": "Vibe_Coding_零基础教程-30_经验技巧-09_Vibe_Coding_安全防护技巧",
-        "sourceRel": "Vibe Coding 零基础教程/30 经验技巧/09 Vibe Coding 安全防护技巧.md"
-      },
-      {
-        "title": "Vibe Coding 成本控制技巧",
-        "rel": "Vibe_Coding_零基础教程-30_经验技巧-10_Vibe_Coding_成本控制技巧",
-        "sourceRel": "Vibe Coding 零基础教程/30 经验技巧/10 Vibe Coding 成本控制技巧.md"
-      },
-      {
-        "title": "Vibe Coding 团队协作技巧",
-        "rel": "Vibe_Coding_零基础教程-30_经验技巧-11_Vibe_Coding_团队协作技巧",
-        "sourceRel": "Vibe Coding 零基础教程/30 经验技巧/11 Vibe Coding 团队协作技巧.md"
-      },
-      {
-        "title": "Vibe Coding 网站美化技巧",
-        "rel": "Vibe_Coding_零基础教程-30_经验技巧-12_Vibe_Coding_网站美化技巧",
-        "sourceRel": "Vibe Coding 零基础教程/30 经验技巧/12 Vibe Coding 网站美化技巧.md"
-      },
-      {
-        "title": "Anthropic 官方 - 大规模代码迁移方法",
-        "rel": "Vibe_Coding_零基础教程-30_经验技巧-大厂_AI_编程经验-Anthropic_官方_-_大规模代码迁移方法",
-        "sourceRel": "Vibe Coding 零基础教程/30 经验技巧/大厂 AI 编程经验/Anthropic 官方 - 大规模代码迁移方法.md"
-      },
-      {
-        "title": "Anthropic 官方 - 人机协作团队方法",
-        "rel": "Vibe_Coding_零基础教程-30_经验技巧-大厂_AI_编程经验-Anthropic_官方_-_人机协作团队方法",
-        "sourceRel": "Vibe Coding 零基础教程/30 经验技巧/大厂 AI 编程经验/Anthropic 官方 - 人机协作团队方法.md"
-      },
-      {
-        "title": "Anthropic 官方 - 提示词精简方法",
-        "rel": "Vibe_Coding_零基础教程-30_经验技巧-大厂_AI_编程经验-Anthropic_官方_-_提示词精简方法",
-        "sourceRel": "Vibe Coding 零基础教程/30 经验技巧/大厂 AI 编程经验/Anthropic 官方 - 提示词精简方法.md"
-      },
-      {
-        "title": "用 grill-me 让 AI 拷问你的需求",
-        "rel": "Vibe_Coding_零基础教程-30_经验技巧-用_grill-me_让_AI_拷问你的需求",
-        "sourceRel": "Vibe Coding 零基础教程/30 经验技巧/用 grill-me 让 AI 拷问你的需求.md"
-      },
-      {
-        "title": "鱼皮的 AI 工作流分享",
-        "rel": "Vibe_Coding_零基础教程-30_经验技巧-鱼皮的_AI_工作流分享",
-        "sourceRel": "Vibe Coding 零基础教程/30 经验技巧/鱼皮的 AI 工作流分享.md"
-      },
-      {
-        "title": "Harness Engineering 保姆级教程",
-        "rel": "Vibe_Coding_零基础教程-30_经验技巧-Harness_Engineering_保姆级教程",
-        "sourceRel": "Vibe Coding 零基础教程/30 经验技巧/Harness Engineering 保姆级教程.md"
-      },
-      {
-        "title": "Loop Engineering 保姆级教程",
-        "rel": "Vibe_Coding_零基础教程-30_经验技巧-Loop_Engineering_保姆级教程",
-        "sourceRel": "Vibe Coding 零基础教程/30 经验技巧/Loop Engineering 保姆级教程.md"
-      },
-      {
-        "title": "编程学习路线大全",
-        "rel": "Vibe_Coding_零基础教程-40_编程学习-01_编程学习路线",
-        "sourceRel": "Vibe Coding 零基础教程/40 编程学习/01 编程学习路线.md"
-      },
-      {
-        "title": "编程知识百科",
-        "rel": "Vibe_Coding_零基础教程-40_编程学习-02_编程知识百科",
-        "sourceRel": "Vibe Coding 零基础教程/40 编程学习/02 编程知识百科.md"
-      },
-      {
-        "title": "编程资源大全",
-        "rel": "Vibe_Coding_零基础教程-40_编程学习-03_编程资源大全",
-        "sourceRel": "Vibe Coding 零基础教程/40 编程学习/03 编程资源大全.md"
-      },
-      {
-        "title": "AI 编程技术入门指南",
-        "rel": "Vibe_Coding_零基础教程-40_编程学习-04_AI_编程技术",
-        "sourceRel": "Vibe Coding 零基础教程/40 编程学习/04 AI 编程技术.md"
-      },
-      {
-        "title": "程序员 AI 绘图完全指南",
-        "rel": "Vibe_Coding_零基础教程-40_编程学习-05_AI_绘图指南",
-        "sourceRel": "Vibe Coding 零基础教程/40 编程学习/05 AI 绘图指南.md"
-      },
-      {
-        "title": "AI 应用开发面试必知必会",
-        "rel": "Vibe_Coding_零基础教程-40_编程学习-06_AI_应用开发面试题",
-        "sourceRel": "Vibe Coding 零基础教程/40 编程学习/06 AI 应用开发面试题.md"
-      },
-      {
-        "title": "程序员简历模板",
-        "rel": "Vibe_Coding_零基础教程-40_编程学习-07_程序员简历模板",
-        "sourceRel": "Vibe Coding 零基础教程/40 编程学习/07 程序员简历模板.md"
-      },
-      {
-        "title": "程序员面试刷题神器",
-        "rel": "Vibe_Coding_零基础教程-40_编程学习-08_程序员面试刷题",
-        "sourceRel": "Vibe Coding 零基础教程/40 编程学习/08 程序员面试刷题.md"
-      },
-      {
-        "title": "程序员高效工作技巧",
-        "rel": "Vibe_Coding_零基础教程-40_编程学习-09_程序员工作技巧",
-        "sourceRel": "Vibe Coding 零基础教程/40 编程学习/09 程序员工作技巧.md"
-      },
-      {
-        "title": "程序员快速成长的六大方法",
-        "rel": "Vibe_Coding_零基础教程-40_编程学习-10_程序员成长大法",
-        "sourceRel": "Vibe Coding 零基础教程/40 编程学习/10 程序员成长大法.md"
-      },
-      {
-        "title": "程序员必备软件工具推荐",
-        "rel": "Vibe_Coding_零基础教程-40_编程学习-11_编程工具大全",
-        "sourceRel": "Vibe Coding 零基础教程/40 编程学习/11 编程工具大全.md"
-      },
-      {
-        "title": "团队研发规范",
-        "rel": "Vibe_Coding_零基础教程-40_编程学习-团队研发规范",
-        "sourceRel": "Vibe Coding 零基础教程/40 编程学习/团队研发规范.md"
-      },
-      {
-        "title": "AI 编程时代，哪些技术必须要了解？",
-        "rel": "Vibe_Coding_零基础教程-40_编程学习-AI_编程技术栈速查",
-        "sourceRel": "Vibe Coding 零基础教程/40 编程学习/AI 编程技术栈速查.md"
-      },
-      {
-        "title": "AI 时代程序员必须做的 20 件事",
-        "rel": "Vibe_Coding_零基础教程-40_编程学习-AI_时代程序员必须做的_20_件事",
-        "sourceRel": "Vibe Coding 零基础教程/40 编程学习/AI 时代程序员必须做的 20 件事.md"
-      },
-      {
-        "title": "AI 时代新岗位 FDE 前线部署工程师",
-        "rel": "Vibe_Coding_零基础教程-40_编程学习-AI_时代新岗位_FDE_前线部署工程师",
-        "sourceRel": "Vibe Coding 零基础教程/40 编程学习/AI 时代新岗位 FDE 前线部署工程师.md"
-      },
-      {
-        "title": "MCP 服务开发保姆级教程",
-        "rel": "Vibe_Coding_零基础教程-40_编程学习-MCP_服务开发",
-        "sourceRel": "Vibe Coding 零基础教程/40 编程学习/MCP 服务开发.md"
-      },
-      {
-        "title": "产品变现导读",
-        "rel": "Vibe_Coding_零基础教程-50_产品变现-00_产品变现导读",
-        "sourceRel": "Vibe Coding 零基础教程/50 产品变现/00 产品变现导读.md"
-      },
-      {
-        "title": "为什么要做产品变现？",
-        "rel": "Vibe_Coding_零基础教程-50_产品变现-01_为什么要做产品变现_",
-        "sourceRel": "Vibe Coding 零基础教程/50 产品变现/01 为什么要做产品变现？.md"
-      },
-      {
-        "title": "需求分析和产品规划",
-        "rel": "Vibe_Coding_零基础教程-50_产品变现-02_需求分析和产品规划",
-        "sourceRel": "Vibe Coding 零基础教程/50 产品变现/02 需求分析和产品规划.md"
-      },
-      {
-        "title": "文档沉淀和知识管理",
-        "rel": "Vibe_Coding_零基础教程-50_产品变现-03_文档沉淀和知识管理",
-        "sourceRel": "Vibe Coding 零基础教程/50 产品变现/03 文档沉淀和知识管理.md"
-      },
-      {
-        "title": "技术选型实战指南",
-        "rel": "Vibe_Coding_零基础教程-50_产品变现-04_技术选型实战指南",
-        "sourceRel": "Vibe Coding 零基础教程/50 产品变现/04 技术选型实战指南.md"
-      },
-      {
-        "title": "系统架构设计实践",
-        "rel": "Vibe_Coding_零基础教程-50_产品变现-05_系统架构设计实践",
-        "sourceRel": "Vibe Coding 零基础教程/50 产品变现/05 系统架构设计实践.md"
-      },
-      {
-        "title": "项目研发流程选择",
-        "rel": "Vibe_Coding_零基础教程-50_产品变现-06_项目研发流程选择",
-        "sourceRel": "Vibe Coding 零基础教程/50 产品变现/06 项目研发流程选择.md"
-      },
-      {
-        "title": "产品盈利模式设计",
-        "rel": "Vibe_Coding_零基础教程-50_产品变现-07_产品盈利模式设计",
-        "sourceRel": "Vibe Coding 零基础教程/50 产品变现/07 产品盈利模式设计.md"
-      },
-      {
-        "title": "产品付费策略设计",
-        "rel": "Vibe_Coding_零基础教程-50_产品变现-08_产品付费策略设计",
-        "sourceRel": "Vibe Coding 零基础教程/50 产品变现/08 产品付费策略设计.md"
-      },
-      {
-        "title": "SEO 搜索引擎优化实战",
-        "rel": "Vibe_Coding_零基础教程-50_产品变现-09_SEO_搜索引擎优化实战",
-        "sourceRel": "Vibe Coding 零基础教程/50 产品变现/09 SEO 搜索引擎优化实战.md"
-      },
-      {
-        "title": "GEO 生成式引擎优化实战",
-        "rel": "Vibe_Coding_零基础教程-50_产品变现-10_GEO_生成式引擎优化实战",
-        "sourceRel": "Vibe Coding 零基础教程/50 产品变现/10 GEO 生成式引擎优化实战.md"
-      },
-      {
-        "title": "网站数据保护实践",
-        "rel": "Vibe_Coding_零基础教程-50_产品变现-网站数据保护实践",
-        "sourceRel": "Vibe Coding 零基础教程/50 产品变现/网站数据保护实践.md"
-      },
-      {
-        "title": "网站数据分析实战",
-        "rel": "Vibe_Coding_零基础教程-50_产品变现-网站数据分析实战",
-        "sourceRel": "Vibe Coding 零基础教程/50 产品变现/网站数据分析实战.md"
-      },
-      {
-        "title": "我的 GitHub 涨星涨粉技巧",
-        "rel": "Vibe_Coding_零基础教程-50_产品变现-我的_GitHub_涨星涨粉技巧",
-        "sourceRel": "Vibe Coding 零基础教程/50 产品变现/我的 GitHub 涨星涨粉技巧.md"
-      },
-      {
-        "title": "我的个人站长实战经验",
-        "rel": "Vibe_Coding_零基础教程-50_产品变现-我的个人站长实战经验",
-        "sourceRel": "Vibe Coding 零基础教程/50 产品变现/我的个人站长实战经验.md"
-      },
-      {
-        "title": "我的自媒体起号经验",
-        "rel": "Vibe_Coding_零基础教程-50_产品变现-我的自媒体起号经验",
-        "sourceRel": "Vibe Coding 零基础教程/50 产品变现/我的自媒体起号经验.md"
-      },
-      {
-        "title": "我的自媒体涨粉运营之路",
-        "rel": "Vibe_Coding_零基础教程-50_产品变现-我的自媒体涨粉运营之路",
-        "sourceRel": "Vibe Coding 零基础教程/50 产品变现/我的自媒体涨粉运营之路.md"
-      },
-      {
-        "title": "系统监控告警实践",
-        "rel": "Vibe_Coding_零基础教程-50_产品变现-系统监控告警实践",
-        "sourceRel": "Vibe Coding 零基础教程/50 产品变现/系统监控告警实践.md"
-      },
-      {
-        "title": "云服务安全防护实践",
-        "rel": "Vibe_Coding_零基础教程-50_产品变现-云服务安全防护实践",
-        "sourceRel": "Vibe Coding 零基础教程/50 产品变现/云服务安全防护实践.md"
-      },
-      {
-        "title": "Vibe Coding 资源大全",
-        "rel": "Vibe_Coding_零基础教程-60_Vibe_Coding_资源大全",
-        "sourceRel": "Vibe Coding 零基础教程/60 Vibe Coding 资源大全.md"
-      },
-      {
-        "title": "鱼皮的 AI 编程实战视频课",
-        "rel": "Vibe_Coding_零基础教程-65_鱼皮的_AI_编程实战视频课",
-        "sourceRel": "Vibe Coding 零基础教程/65 鱼皮的 AI 编程实战视频课.md"
-      },
-      {
-        "title": "Vibe Coding 概念大全",
-        "rel": "Vibe_Coding_零基础教程-70_AI_编程概念大全-00_Vibe_Coding_概念大全",
-        "sourceRel": "Vibe Coding 零基础教程/70 AI 编程概念大全/00 Vibe Coding 概念大全.md"
-      },
-      {
-        "title": "面试官问「AI 应用怎么开发」，别说只会调 API！",
-        "rel": "Vibe_Coding_零基础教程-70_AI_编程概念大全-主流_AI_应用开发模式",
-        "sourceRel": "Vibe Coding 零基础教程/70 AI 编程概念大全/主流 AI 应用开发模式.md"
-      },
-      {
-        "title": "AI 大模型到底是怎么工作的？一篇文章给你讲明白",
-        "rel": "Vibe_Coding_零基础教程-70_AI_编程概念大全-AI_大模型原理入门",
-        "sourceRel": "Vibe Coding 零基础教程/70 AI 编程概念大全/AI 大模型原理入门.md"
-      },
-      {
-        "title": "AI 动态工作流详解",
-        "rel": "Vibe_Coding_零基础教程-70_AI_编程概念大全-AI_动态工作流详解",
-        "sourceRel": "Vibe Coding 零基础教程/70 AI 编程概念大全/AI 动态工作流详解.md"
-      },
-      {
-        "title": "Vibe Coding 常见问题和解决",
-        "rel": "Vibe_Coding_零基础教程-90_Vibe_Coding_常见问题和解决",
-        "sourceRel": "Vibe Coding 零基础教程/90 Vibe Coding 常见问题和解决.md"
-      },
-      {
-        "title": "鱼皮 Vibe Coding 零基础入门教程",
-        "rel": "Vibe_Coding_零基础教程-README",
-        "sourceRel": "Vibe Coding 零基础教程/README.md"
       }
     ]
   },
@@ -6154,24 +3475,119 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
+        "title": "Backers",
+        "rel": "BACKERS",
+        "sourceRel": "BACKERS.md"
+      },
+      {
         "title": "Book Pipeline",
         "rel": "book",
         "sourceRel": "book/README.md"
       },
       {
-        "title": "Certification Curricula",
-        "rel": "certifications",
-        "sourceRel": "certifications/README.md"
+        "title": "Learn Claude Certifications From GitHub",
+        "rel": "certifications-claude-GETTING_STARTED",
+        "sourceRel": "certifications/claude/GETTING_STARTED.md"
       },
       {
-        "title": "Internationalization (i18n)",
-        "rel": "docs",
-        "sourceRel": "docs/i18n.md"
+        "title": "Study the Decisions, Not the Vocabulary",
+        "rel": "certifications-claude-lessons-00-certification-strategy-docs-en",
+        "sourceRel": "certifications/claude/lessons/00-certification-strategy/docs/en.md"
       },
       {
-        "title": "Glossary",
-        "rel": "glossary",
-        "sourceRel": "glossary/README.md"
+        "title": "Choose the Smallest Surface That Can Carry the Work",
+        "rel": "certifications-claude-lessons-01-claude-product-and-model-landscape-docs-en",
+        "sourceRel": "certifications/claude/lessons/01-claude-product-and-model-landscape/docs/en.md"
+      },
+      {
+        "title": "Spend Capability Where Failure Is Expensive",
+        "rel": "certifications-claude-lessons-02-model-selection-and-token-economics-docs-en",
+        "sourceRel": "certifications/claude/lessons/02-model-selection-and-token-economics/docs/en.md"
+      },
+      {
+        "title": "Turn a Request Into a Testable Contract",
+        "rel": "certifications-claude-lessons-03-prompting-and-task-decomposition-docs-en",
+        "sourceRel": "certifications/claude/lessons/03-prompting-and-task-decomposition/docs/en.md"
+      },
+      {
+        "title": "Put Each Fact in the Right Kind of Context",
+        "rel": "certifications-claude-lessons-04-context-knowledge-memory-and-caching-docs-en",
+        "sourceRel": "certifications/claude/lessons/04-context-knowledge-memory-and-caching/docs/en.md"
+      },
+      {
+        "title": "Validate the Claim, Not the Confidence",
+        "rel": "certifications-claude-lessons-05-output-evaluation-and-validation-docs-en",
+        "sourceRel": "certifications/claude/lessons/05-output-evaluation-and-validation/docs/en.md"
+      },
+      {
+        "title": "Put Authority Around Capability",
+        "rel": "certifications-claude-lessons-06-governance-safety-and-responsible-use-docs-en",
+        "sourceRel": "certifications/claude/lessons/06-governance-safety-and-responsible-use/docs/en.md"
+      },
+      {
+        "title": "Design the Handoff Before the Automation",
+        "rel": "certifications-claude-lessons-07-workflow-design-and-human-handoffs-docs-en",
+        "sourceRel": "certifications/claude/lessons/07-workflow-design-and-human-handoffs/docs/en.md"
+      },
+      {
+        "title": "The Messages API Is a State Machine",
+        "rel": "certifications-claude-lessons-08-messages-api-and-application-lifecycle-docs-en",
+        "sourceRel": "certifications/claude/lessons/08-messages-api-and-application-lifecycle/docs/en.md"
+      },
+      {
+        "title": "Structured Output Is an Untrusted Contract",
+        "rel": "certifications-claude-lessons-09-structured-output-and-defensive-parsing-docs-en",
+        "sourceRel": "certifications/claude/lessons/09-structured-output-and-defensive-parsing/docs/en.md"
+      },
+      {
+        "title": "A Tool Loop Is Controlled Delegation",
+        "rel": "certifications-claude-lessons-10-tool-use-and-agentic-loops-docs-en",
+        "sourceRel": "certifications/claude/lessons/10-tool-use-and-agentic-loops/docs/en.md"
+      },
+      {
+        "title": "MCP Separates Capability From Host",
+        "rel": "certifications-claude-lessons-11-mcp-server-design-and-integration-docs-en",
+        "sourceRel": "certifications/claude/lessons/11-mcp-server-design-and-integration/docs/en.md"
+      },
+      {
+        "title": "The Agent SDK Is a Harness, Not Permission",
+        "rel": "certifications-claude-lessons-12-claude-agent-sdk-and-hooks-docs-en",
+        "sourceRel": "certifications/claude/lessons/12-claude-agent-sdk-and-hooks/docs/en.md"
+      },
+      {
+        "title": "Security Lives Outside the Prompt",
+        "rel": "certifications-claude-lessons-13-application-security-and-secrets-docs-en",
+        "sourceRel": "certifications/claude/lessons/13-application-security-and-secrets/docs/en.md"
+      },
+      {
+        "title": "Evals Turn Agent Behavior Into Engineering Evidence",
+        "rel": "certifications-claude-lessons-14-evals-testing-debugging-and-observability-docs-en",
+        "sourceRel": "certifications/claude/lessons/14-evals-testing-debugging-and-observability/docs/en.md"
+      },
+      {
+        "title": "Claude Code Scales Through Shared Constraints",
+        "rel": "certifications-claude-lessons-15-claude-code-for-development-teams-docs-en",
+        "sourceRel": "certifications/claude/lessons/15-claude-code-for-development-teams/docs/en.md"
+      },
+      {
+        "title": "Team Configuration Review: Support Router",
+        "rel": "certifications-claude-lessons-15-claude-code-for-development-teams-outputs-team-configuration-review",
+        "sourceRel": "certifications/claude/lessons/15-claude-code-for-development-teams/outputs/team-configuration-review.md"
+      },
+      {
+        "title": "Multi-Agent Orchestration and Delegation",
+        "rel": "certifications-claude-lessons-16-multi-agent-orchestration-and-delegation-docs-en",
+        "sourceRel": "certifications/claude/lessons/16-multi-agent-orchestration-and-delegation/docs/en.md"
+      },
+      {
+        "title": "Orchestration Contract: Runtime Migration Decision",
+        "rel": "certifications-claude-lessons-16-multi-agent-orchestration-and-delegation-outputs-orchestration-contract",
+        "sourceRel": "certifications/claude/lessons/16-multi-agent-orchestration-and-delegation/outputs/orchestration-contract.md"
+      },
+      {
+        "title": "Agent SDK Sessions, Subagents, and Context",
+        "rel": "certifications-claude-lessons-17-agent-sdk-sessions-subagents-and-context-docs-en",
+        "sourceRel": "certifications/claude/lessons/17-agent-sdk-sessions-subagents-and-context/docs/en.md"
       }
     ]
   },
@@ -6205,14 +3621,119 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
-        "title": "认证课程",
-        "rel": "certifications",
-        "sourceRel": "certifications/README.md"
+        "title": "在 GitHub 上学习 Claude 认证",
+        "rel": "certifications-claude-GETTING_STARTED",
+        "sourceRel": "certifications/claude/GETTING_STARTED.md"
       },
       {
-        "title": "Glossary",
-        "rel": "glossary",
-        "sourceRel": "glossary/README.md"
+        "title": "学决策，不背词汇",
+        "rel": "certifications-claude-lessons-00-certification-strategy-docs-zh",
+        "sourceRel": "certifications/claude/lessons/00-certification-strategy/docs/zh.md"
+      },
+      {
+        "title": "选择能承载工作的最小载体",
+        "rel": "certifications-claude-lessons-01-claude-product-and-model-landscape-docs-zh",
+        "sourceRel": "certifications/claude/lessons/01-claude-product-and-model-landscape/docs/zh.md"
+      },
+      {
+        "title": "把能力花在失败代价高的地方",
+        "rel": "certifications-claude-lessons-02-model-selection-and-token-economics-docs-zh",
+        "sourceRel": "certifications/claude/lessons/02-model-selection-and-token-economics/docs/zh.md"
+      },
+      {
+        "title": "把请求变成可测试的合约",
+        "rel": "certifications-claude-lessons-03-prompting-and-task-decomposition-docs-zh",
+        "sourceRel": "certifications/claude/lessons/03-prompting-and-task-decomposition/docs/zh.md"
+      },
+      {
+        "title": "把每项事实放进正确的上下文",
+        "rel": "certifications-claude-lessons-04-context-knowledge-memory-and-caching-docs-zh",
+        "sourceRel": "certifications/claude/lessons/04-context-knowledge-memory-and-caching/docs/zh.md"
+      },
+      {
+        "title": "验证主张，而非置信度",
+        "rel": "certifications-claude-lessons-05-output-evaluation-and-validation-docs-zh",
+        "sourceRel": "certifications/claude/lessons/05-output-evaluation-and-validation/docs/zh.md"
+      },
+      {
+        "title": "让能力受权责边界约束",
+        "rel": "certifications-claude-lessons-06-governance-safety-and-responsible-use-docs-zh",
+        "sourceRel": "certifications/claude/lessons/06-governance-safety-and-responsible-use/docs/zh.md"
+      },
+      {
+        "title": "自动化前先设计交接",
+        "rel": "certifications-claude-lessons-07-workflow-design-and-human-handoffs-docs-zh",
+        "sourceRel": "certifications/claude/lessons/07-workflow-design-and-human-handoffs/docs/zh.md"
+      },
+      {
+        "title": "Messages API 是一台状态机",
+        "rel": "certifications-claude-lessons-08-messages-api-and-application-lifecycle-docs-zh",
+        "sourceRel": "certifications/claude/lessons/08-messages-api-and-application-lifecycle/docs/zh.md"
+      },
+      {
+        "title": "结构化输出是不可信的契约",
+        "rel": "certifications-claude-lessons-09-structured-output-and-defensive-parsing-docs-zh",
+        "sourceRel": "certifications/claude/lessons/09-structured-output-and-defensive-parsing/docs/zh.md"
+      },
+      {
+        "title": "工具循环是受控委托",
+        "rel": "certifications-claude-lessons-10-tool-use-and-agentic-loops-docs-zh",
+        "sourceRel": "certifications/claude/lessons/10-tool-use-and-agentic-loops/docs/zh.md"
+      },
+      {
+        "title": "MCP 将能力与宿主解耦",
+        "rel": "certifications-claude-lessons-11-mcp-server-design-and-integration-docs-zh",
+        "sourceRel": "certifications/claude/lessons/11-mcp-server-design-and-integration/docs/zh.md"
+      },
+      {
+        "title": "Agent SDK 提供运行框架，权限另行控制",
+        "rel": "certifications-claude-lessons-12-claude-agent-sdk-and-hooks-docs-zh",
+        "sourceRel": "certifications/claude/lessons/12-claude-agent-sdk-and-hooks/docs/zh.md"
+      },
+      {
+        "title": "安全边界在 prompt 之外",
+        "rel": "certifications-claude-lessons-13-application-security-and-secrets-docs-zh",
+        "sourceRel": "certifications/claude/lessons/13-application-security-and-secrets/docs/zh.md"
+      },
+      {
+        "title": "Eval 将 Agent 行为变成工程证据",
+        "rel": "certifications-claude-lessons-14-evals-testing-debugging-and-observability-docs-zh",
+        "sourceRel": "certifications/claude/lessons/14-evals-testing-debugging-and-observability/docs/zh.md"
+      },
+      {
+        "title": "Claude Code 靠共享约束支持规模化协作",
+        "rel": "certifications-claude-lessons-15-claude-code-for-development-teams-docs-zh",
+        "sourceRel": "certifications/claude/lessons/15-claude-code-for-development-teams/docs/zh.md"
+      },
+      {
+        "title": "团队配置审查：Support Router",
+        "rel": "certifications-claude-lessons-15-claude-code-for-development-teams-outputs-team-configuration-review",
+        "sourceRel": "certifications/claude/lessons/15-claude-code-for-development-teams/outputs/team-configuration-review.md"
+      },
+      {
+        "title": "多 Agent 编排与委派",
+        "rel": "certifications-claude-lessons-16-multi-agent-orchestration-and-delegation-docs-zh",
+        "sourceRel": "certifications/claude/lessons/16-multi-agent-orchestration-and-delegation/docs/zh.md"
+      },
+      {
+        "title": "编排合约：Runtime 迁移决策",
+        "rel": "certifications-claude-lessons-16-multi-agent-orchestration-and-delegation-outputs-orchestration-contract",
+        "sourceRel": "certifications/claude/lessons/16-multi-agent-orchestration-and-delegation/outputs/orchestration-contract.md"
+      },
+      {
+        "title": "Agent SDK Session、Subagent 与上下文",
+        "rel": "certifications-claude-lessons-17-agent-sdk-sessions-subagents-and-context-docs-zh",
+        "sourceRel": "certifications/claude/lessons/17-agent-sdk-sessions-subagents-and-context/docs/zh.md"
+      },
+      {
+        "title": "Session 恢复数据包：客户端迁移",
+        "rel": "certifications-claude-lessons-17-agent-sdk-sessions-subagents-and-context-outputs-session-recovery-packet",
+        "sourceRel": "certifications/claude/lessons/17-agent-sdk-sessions-subagents-and-context/outputs/session-recovery-packet.md"
+      },
+      {
+        "title": "Tool 合约、错误与渐进式发现",
+        "rel": "certifications-claude-lessons-18-tool-contracts-errors-and-progressive-discovery-docs-zh",
+        "sourceRel": "certifications/claude/lessons/18-tool-contracts-errors-and-progressive-discovery/docs/zh.md"
       }
     ]
   },
@@ -6246,29 +3767,119 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
+        "title": "VibeFast 文档",
+        "rel": "BRAND",
+        "sourceRel": "BRAND.md"
+      },
+      {
         "title": "Why I Started Building Seriously at 50",
-        "rel": "en",
+        "rel": "en-00-why-i-started-at-50-en",
         "sourceRel": "en/00-why-i-started-at-50-en.md"
       },
       {
-        "title": "Por qué empecé a construir en serio a los 50",
-        "rel": "es",
-        "sourceRel": "es/00-why-i-started-at-50-es.md"
+        "title": "What is Vibe Coding? A Complete Introduction",
+        "rel": "en-01-what-is-vibecoding-en",
+        "sourceRel": "en/01-what-is-vibecoding-en.md"
       },
       {
-        "title": "なぜ私は50歳になってから本気でプロダクトを作り始めたのか",
-        "rel": "jp",
-        "sourceRel": "jp/00-why-i-started-at-50-jp.md"
+        "title": "Getting Started with Vibe Coding: Setting Up Your Development Environment from Scratch",
+        "rel": "en-02-how-to-setup-vibecoding-environment-en",
+        "sourceRel": "en/02-how-to-setup-vibecoding-environment-en.md"
       },
       {
-        "title": "Por Que Comecei a Construir Produtos de Verdade aos 50 Anos",
-        "rel": "pt-br",
-        "sourceRel": "pt-br/00-why-i-started-at-50-pt-br.md"
+        "title": "What is an API? Plain English Explanation of Frontend-Backend Communication",
+        "rel": "en-03-what-is-api-frontend-backend-en",
+        "sourceRel": "en/03-what-is-api-frontend-backend-en.md"
       },
       {
-        "title": "為什麼我 50 歲才開始認真 Build 產品",
-        "rel": "zh",
-        "sourceRel": "zh/00-why-i-started-at-50-zh.md"
+        "title": "What is JWT? Plain English Explanation of This Tech You Use Every Day",
+        "rel": "en-04-what-is-jwt-authentication-en",
+        "sourceRel": "en/04-what-is-jwt-authentication-en.md"
+      },
+      {
+        "title": "The Best Way to Vibe Code on Cloudflare",
+        "rel": "en-05-the-best-way-to-vibecoding-on-cloudflare-en",
+        "sourceRel": "en/05-the-best-way-to-vibecoding-on-cloudflare-en.md"
+      },
+      {
+        "title": "What's the Difference Between Cloudflare Workers and Traditional Servers?",
+        "rel": "en-06-cloudflare-workers-vs-traditional-server-en",
+        "sourceRel": "en/06-cloudflare-workers-vs-traditional-server-en.md"
+      },
+      {
+        "title": "D1 Database Basics: Using AI to Design Your First Table",
+        "rel": "en-07-cloudflare-d1-database-tutorial-en",
+        "sourceRel": "en/07-cloudflare-d1-database-tutorial-en.md"
+      },
+      {
+        "title": "R2 vs S3: Why I Don't Use AWS to Store Images",
+        "rel": "en-08-cloudflare-r2-vs-aws-s3-en",
+        "sourceRel": "en/08-cloudflare-r2-vs-aws-s3-en.md"
+      },
+      {
+        "title": "What Are Environment Variables? Why You Can't Put API Keys in Code",
+        "rel": "en-09-environment-variables-and-secrets-en",
+        "sourceRel": "en/09-environment-variables-and-secrets-en.md"
+      },
+      {
+        "title": "Git and GitHub Basics: Version Control Essentials for Vibe Coders",
+        "rel": "en-10-git-and-github-version-control-en",
+        "sourceRel": "en/10-git-and-github-version-control-en.md"
+      },
+      {
+        "title": "Designing Beautiful UI with AI: A Complete Cursor Prompt Guide",
+        "rel": "en-11-ai-frontend-design-with-cursor-en",
+        "sourceRel": "en/11-ai-frontend-design-with-cursor-en.md"
+      },
+      {
+        "title": "What is a Domain and DNS? What to Do After Buying a Domain",
+        "rel": "en-12-domain-and-dns-setup-guide-en",
+        "sourceRel": "en/12-domain-and-dns-setup-guide-en.md"
+      },
+      {
+        "title": "Security Basics for Vibe Coders: Confirm These Before Going Live",
+        "rel": "en-13-security-basics-for-vibe-coders-en",
+        "sourceRel": "en/13-security-basics-for-vibe-coders-en.md"
+      },
+      {
+        "title": "How to Discuss Projects with AI: Think First, Code Later",
+        "rel": "en-14-how-to-discuss-with-ai-before-coding-en",
+        "sourceRel": "en/14-how-to-discuss-with-ai-before-coding-en.md"
+      },
+      {
+        "title": "How I Use Cursor to Take a Feature from Idea to Live",
+        "rel": "en-15-cursor-workflow-from-idea-to-deploy-en",
+        "sourceRel": "en/15-cursor-workflow-from-idea-to-deploy-en.md"
+      },
+      {
+        "title": "5 Pitfalls I've Hit in Vibe Coding (and How to Avoid Them)",
+        "rel": "en-16-vibe-coding-common-mistakes-en",
+        "sourceRel": "en/16-vibe-coding-common-mistakes-en.md"
+      },
+      {
+        "title": "How to Create a Vibe Coding Work Plan: From Requirements Analysis to AI Plan Mode",
+        "rel": "en-17-vibe-coding-work-plan-and-ai-plan-mode-en",
+        "sourceRel": "en/17-vibe-coding-work-plan-and-ai-plan-mode-en.md"
+      },
+      {
+        "title": "Don’t Panic: Using AI to Read Error Messages and Fix Problems",
+        "rel": "en-18-debug-and-errors-en",
+        "sourceRel": "en/18-debug-and-errors-en.md"
+      },
+      {
+        "title": "Why I Chose Cloudflare Over Vercel and AWS",
+        "rel": "en-19-cloudflare-vs-vercel-vs-aws-en",
+        "sourceRel": "en/19-cloudflare-vs-vercel-vs-aws-en.md"
+      },
+      {
+        "title": "Stripe Payments: From Sandbox Testing to Going Live",
+        "rel": "en-20-stripe-payment-complete-guide-en",
+        "sourceRel": "en/20-stripe-payment-complete-guide-en.md"
+      },
+      {
+        "title": "How to Test Your App: Let AI Generate curl Commands for Every Feature",
+        "rel": "en-21-ai-testing-guide-en",
+        "sourceRel": "en/21-ai-testing-guide-en.md"
       }
     ]
   },
@@ -6302,8 +3913,53 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
+        "title": "AI / LLM Integration Security",
+        "rel": "vibe-security-references-ai-integration",
+        "sourceRel": "vibe-security/references/ai-integration.md"
+      },
+      {
+        "title": "Authentication & Authorization",
+        "rel": "vibe-security-references-authentication",
+        "sourceRel": "vibe-security/references/authentication.md"
+      },
+      {
+        "title": "Data Access & Input Validation",
+        "rel": "vibe-security-references-data-access",
+        "sourceRel": "vibe-security/references/data-access.md"
+      },
+      {
+        "title": "Database Access Control",
+        "rel": "vibe-security-references-database-security",
+        "sourceRel": "vibe-security/references/database-security.md"
+      },
+      {
+        "title": "Deployment Security",
+        "rel": "vibe-security-references-deployment",
+        "sourceRel": "vibe-security/references/deployment.md"
+      },
+      {
+        "title": "Mobile Security (React Native / Expo)",
+        "rel": "vibe-security-references-mobile",
+        "sourceRel": "vibe-security/references/mobile.md"
+      },
+      {
+        "title": "Payment Security (Stripe)",
+        "rel": "vibe-security-references-payments",
+        "sourceRel": "vibe-security/references/payments.md"
+      },
+      {
+        "title": "Rate Limiting & Abuse Prevention",
+        "rel": "vibe-security-references-rate-limiting",
+        "sourceRel": "vibe-security/references/rate-limiting.md"
+      },
+      {
+        "title": "Secrets & Environment Variables",
+        "rel": "vibe-security-references-secrets-and-env",
+        "sourceRel": "vibe-security/references/secrets-and-env.md"
+      },
+      {
         "title": "Vibe Security（AI 编码安全技能）",
-        "rel": "vibe-security",
+        "rel": "vibe-security-SKILL",
         "sourceRel": "vibe-security/SKILL.md"
       }
     ]
@@ -6374,39 +4030,114 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
-        "title": "Documentation",
-        "rel": "docs",
-        "sourceRel": "docs/README.md"
+        "title": "Development Notes",
+        "rel": "DEVELOPMENT",
+        "sourceRel": "DEVELOPMENT.md"
       },
       {
-        "title": "Spec Kit Extensions",
-        "rel": "extensions",
-        "sourceRel": "extensions/README.md"
+        "title": "Community Bundles",
+        "rel": "docs-community-bundles",
+        "sourceRel": "docs/community/bundles.md"
       },
       {
-        "title": "Spec Kit Integration Catalog",
-        "rel": "integrations",
-        "sourceRel": "integrations/README.md"
+        "title": "Community Extensions",
+        "rel": "docs-community-extensions",
+        "sourceRel": "docs/community/extensions.md"
       },
       {
-        "title": "Spec Kit - April 2026 Newsletter",
-        "rel": "newsletters",
-        "sourceRel": "newsletters/2026-April.md"
+        "title": "Community Friends",
+        "rel": "docs-community-friends",
+        "sourceRel": "docs/community/friends.md"
       },
       {
-        "title": "Presets",
-        "rel": "presets",
-        "sourceRel": "presets/README.md"
+        "title": "Community",
+        "rel": "docs-community-overview",
+        "sourceRel": "docs/community/overview.md"
       },
       {
-        "title": "[CHECKLIST TYPE] Checklist: [FEATURE NAME]",
-        "rel": "templates",
-        "sourceRel": "templates/checklist-template.md"
+        "title": "Community Presets",
+        "rel": "docs-community-presets",
+        "sourceRel": "docs/community/presets.md"
       },
       {
-        "title": "Workflows",
-        "rel": "workflows",
-        "sourceRel": "workflows/README.md"
+        "title": "Community Walkthroughs",
+        "rel": "docs-community-walkthroughs",
+        "sourceRel": "docs/community/walkthroughs.md"
+      },
+      {
+        "title": "Handling Complex Features",
+        "rel": "docs-concepts-complex-features",
+        "sourceRel": "docs/concepts/complex-features.md"
+      },
+      {
+        "title": "What is Spec-Driven Development?",
+        "rel": "docs-concepts-sdd",
+        "sourceRel": "docs/concepts/sdd.md"
+      },
+      {
+        "title": "Spec of Specs",
+        "rel": "docs-concepts-spec-of-specs",
+        "sourceRel": "docs/concepts/spec-of-specs.md"
+      },
+      {
+        "title": "Spec Persistence Models",
+        "rel": "docs-concepts-spec-persistence",
+        "sourceRel": "docs/concepts/spec-persistence.md"
+      },
+      {
+        "title": "Evolving Specs in Existing Projects",
+        "rel": "docs-guides-evolving-specs",
+        "sourceRel": "docs/guides/evolving-specs.md"
+      },
+      {
+        "title": "Adopting Spec Kit in an Existing Project",
+        "rel": "docs-guides-existing-projects",
+        "sourceRel": "docs/guides/existing-projects.md"
+      },
+      {
+        "title": "Using Spec Kit in a Monorepo",
+        "rel": "docs-guides-monorepo",
+        "sourceRel": "docs/guides/monorepo.md"
+      },
+      {
+        "title": "History",
+        "rel": "docs-history",
+        "sourceRel": "docs/history.md"
+      },
+      {
+        "title": "Enterprise / Air-Gapped Installation",
+        "rel": "docs-install-air-gapped",
+        "sourceRel": "docs/install/air-gapped.md"
+      },
+      {
+        "title": "One-time Usage (uvx)",
+        "rel": "docs-install-one-time",
+        "sourceRel": "docs/install/one-time.md"
+      },
+      {
+        "title": "Installing with pipx",
+        "rel": "docs-install-pipx",
+        "sourceRel": "docs/install/pipx.md"
+      },
+      {
+        "title": "Installing from PyPI",
+        "rel": "docs-install-pypi",
+        "sourceRel": "docs/install/pypi.md"
+      },
+      {
+        "title": "Installing uv",
+        "rel": "docs-install-uv",
+        "sourceRel": "docs/install/uv.md"
+      },
+      {
+        "title": "Installation Guide",
+        "rel": "docs-installation",
+        "sourceRel": "docs/installation.md"
+      },
+      {
+        "title": "Local Development Guide",
+        "rel": "docs-local-development",
+        "sourceRel": "docs/local-development.md"
       }
     ]
   },
@@ -6440,14 +4171,59 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
+        "title": "CLAUDE.md",
+        "rel": "CLAUDE",
+        "sourceRel": "CLAUDE.md"
+      },
+      {
         "title": "VibeSDK Architecture Diagrams",
-        "rel": "docs",
+        "rel": "docs-architecture-diagrams",
         "sourceRel": "docs/architecture-diagrams.md"
+      },
+      {
+        "title": "VibeSDK Developer Guide",
+        "rel": "docs-llm",
+        "sourceRel": "docs/llm.md"
+      },
+      {
+        "title": "Legacy V1 Dev API Postman Collection",
+        "rel": "docs-POSTMAN_COLLECTION_",
+        "sourceRel": "docs/POSTMAN_COLLECTION_README.md"
+      },
+      {
+        "title": "VibeSDK Setup Guide",
+        "rel": "docs-setup",
+        "sourceRel": "docs/setup.md"
+      },
+      {
+        "title": "Cloudflare VibeSDK",
+        "rel": "docs-usage-limits-ui",
+        "sourceRel": "docs/usage-limits-ui.md"
+      },
+      {
+        "title": "Publishing artifacts-viewer",
+        "rel": "packages-artifacts-viewer-PUBLISH",
+        "sourceRel": "packages/artifacts-viewer/PUBLISH.md"
+      },
+      {
+        "title": "artifacts-viewer",
+        "rel": "packages-artifacts-viewer",
+        "sourceRel": "packages/artifacts-viewer/README.md"
+      },
+      {
+        "title": "Cloudflare VibeSDK",
+        "rel": "samplePrompts",
+        "sourceRel": "samplePrompts.md"
       },
       {
         "title": "@cf-vibesdk/sdk",
         "rel": "sdk",
         "sourceRel": "sdk/README.md"
+      },
+      {
+        "title": "Cloudflare VibeSDK",
+        "rel": "sdk-test-README.test",
+        "sourceRel": "sdk/test/README.test.md"
       },
       {
         "title": "@space-do/space",
@@ -6484,6 +4260,101 @@ export const courses: Course[] = [
         "title": "ai-api-integration",
         "rel": "overview",
         "sourceRel": "README.md"
+      },
+      {
+        "title": "音频生成调用指南",
+        "rel": "docs-modalities-audio",
+        "sourceRel": "docs/modalities/audio.md"
+      },
+      {
+        "title": "代码生成 / 编程类模型",
+        "rel": "docs-modalities-code-generation",
+        "sourceRel": "docs/modalities/code-generation.md"
+      },
+      {
+        "title": "Embeddings 向量调用指南",
+        "rel": "docs-modalities-embeddings",
+        "sourceRel": "docs/modalities/embeddings.md"
+      },
+      {
+        "title": "图片生成调用指南",
+        "rel": "docs-modalities-image-generation",
+        "sourceRel": "docs/modalities/image-generation.md"
+      },
+      {
+        "title": "文本类大模型调用指南",
+        "rel": "docs-modalities-text-models",
+        "sourceRel": "docs/modalities/text-models.md"
+      },
+      {
+        "title": "视频生成调用指南",
+        "rel": "docs-modalities-video-generation",
+        "sourceRel": "docs/modalities/video-generation.md"
+      },
+      {
+        "title": "视觉理解 / 多模态输入",
+        "rel": "docs-modalities-vision",
+        "sourceRel": "docs/modalities/vision.md"
+      },
+      {
+        "title": "ChatBox 接入大模型 API",
+        "rel": "docs-tools-chatbox-setup",
+        "sourceRel": "docs/tools/chatbox-setup.md"
+      },
+      {
+        "title": "Claude Code 接入大模型 API",
+        "rel": "docs-tools-claude-code-setup",
+        "sourceRel": "docs/tools/claude-code-setup.md"
+      },
+      {
+        "title": "Cline 接入大模型 API",
+        "rel": "docs-tools-cline-setup",
+        "sourceRel": "docs/tools/cline-setup.md"
+      },
+      {
+        "title": "Continue (VS Code) 接入大模型 API",
+        "rel": "docs-tools-continue-setup",
+        "sourceRel": "docs/tools/continue-setup.md"
+      },
+      {
+        "title": "Cursor 接入主流大模型 API（GPT-5 / Claude Opus / Gemini）",
+        "rel": "docs-tools-cursor-setup",
+        "sourceRel": "docs/tools/cursor-setup.md"
+      },
+      {
+        "title": "Dify 接入大模型 API",
+        "rel": "docs-tools-dify-setup",
+        "sourceRel": "docs/tools/dify-setup.md"
+      },
+      {
+        "title": "LangChain 接入大模型 API",
+        "rel": "docs-tools-langchain-setup",
+        "sourceRel": "docs/tools/langchain-setup.md"
+      },
+      {
+        "title": "LlamaIndex 接入大模型 API",
+        "rel": "docs-tools-llamaindex-setup",
+        "sourceRel": "docs/tools/llamaindex-setup.md"
+      },
+      {
+        "title": "LobeChat 接入大模型 API",
+        "rel": "docs-tools-lobechat-setup",
+        "sourceRel": "docs/tools/lobechat-setup.md"
+      },
+      {
+        "title": "Open WebUI 接入大模型 API",
+        "rel": "docs-tools-openwebui-setup",
+        "sourceRel": "docs/tools/openwebui-setup.md"
+      },
+      {
+        "title": "ai-api-integration",
+        "rel": "README_CN",
+        "sourceRel": "README_CN.md"
+      },
+      {
+        "title": "ai-api-integration",
+        "rel": "README_EN",
+        "sourceRel": "README_EN.md"
       },
       {
         "title": "Demo: Multi-model CLI chat",
@@ -6635,261 +4506,6 @@ export const courses: Course[] = [
         "title": "Unit 1 Quiz",
         "rel": "units-en-unit1-final-quiz",
         "sourceRel": "units/en/unit1/final-quiz.mdx"
-      },
-      {
-        "title": "Introduction to Agents",
-        "rel": "units-en-unit1-introduction",
-        "sourceRel": "units/en/unit1/introduction.mdx"
-      },
-      {
-        "title": "Messages and Special Tokens",
-        "rel": "units-en-unit1-messages-and-special-tokens",
-        "sourceRel": "units/en/unit1/messages-and-special-tokens.mdx"
-      },
-      {
-        "title": "Observe: Integrating Feedback to Reflect and Adapt",
-        "rel": "units-en-unit1-observations",
-        "sourceRel": "units/en/unit1/observations.mdx"
-      },
-      {
-        "title": "Hugging Face Agents Course（智能体课程）",
-        "rel": "units-en-unit1-quiz1",
-        "sourceRel": "units/en/unit1/quiz1.mdx"
-      },
-      {
-        "title": "Quick Self-Check (ungraded) [[quiz2]]",
-        "rel": "units-en-unit1-quiz2",
-        "sourceRel": "units/en/unit1/quiz2.mdx"
-      },
-      {
-        "title": "Table of Contents",
-        "rel": "units-en-unit1-README",
-        "sourceRel": "units/en/unit1/README.md"
-      },
-      {
-        "title": "Thought: Internal Reasoning and the ReAct Approach",
-        "rel": "units-en-unit1-thoughts",
-        "sourceRel": "units/en/unit1/thoughts.mdx"
-      },
-      {
-        "title": "What are Tools?",
-        "rel": "units-en-unit1-tools",
-        "sourceRel": "units/en/unit1/tools.mdx"
-      },
-      {
-        "title": "Let's Create Our First Agent Using smolagents",
-        "rel": "units-en-unit1-tutorial",
-        "sourceRel": "units/en/unit1/tutorial.mdx"
-      },
-      {
-        "title": "What is an Agent?",
-        "rel": "units-en-unit1-what-are-agents",
-        "sourceRel": "units/en/unit1/what-are-agents.mdx"
-      },
-      {
-        "title": "Introduction to Agentic Frameworks",
-        "rel": "units-en-unit2-introduction",
-        "sourceRel": "units/en/unit2/introduction.mdx"
-      },
-      {
-        "title": "Building Blocks of LangGraph",
-        "rel": "units-en-unit2-langgraph-building_blocks",
-        "sourceRel": "units/en/unit2/langgraph/building_blocks.mdx"
-      },
-      {
-        "title": "Conclusion",
-        "rel": "units-en-unit2-langgraph-conclusion",
-        "sourceRel": "units/en/unit2/langgraph/conclusion.mdx"
-      },
-      {
-        "title": "Document Analysis Graph",
-        "rel": "units-en-unit2-langgraph-document_analysis_agent",
-        "sourceRel": "units/en/unit2/langgraph/document_analysis_agent.mdx"
-      },
-      {
-        "title": "Building Your First LangGraph",
-        "rel": "units-en-unit2-langgraph-first_graph",
-        "sourceRel": "units/en/unit2/langgraph/first_graph.mdx"
-      },
-      {
-        "title": "Introduction to LangGraph",
-        "rel": "units-en-unit2-langgraph-introduction",
-        "sourceRel": "units/en/unit2/langgraph/introduction.mdx"
-      },
-      {
-        "title": "Test Your Understanding of LangGraph",
-        "rel": "units-en-unit2-langgraph-quiz1",
-        "sourceRel": "units/en/unit2/langgraph/quiz1.mdx"
-      },
-      {
-        "title": "What is LangGraph? [[what-is-langgraph]]",
-        "rel": "units-en-unit2-langgraph-when_to_use_langgraph",
-        "sourceRel": "units/en/unit2/langgraph/when_to_use_langgraph.mdx"
-      },
-      {
-        "title": "What are components in LlamaIndex?",
-        "rel": "units-en-unit2-llama-index-components",
-        "sourceRel": "units/en/unit2/llama-index/components.mdx"
-      },
-      {
-        "title": "Conclusion",
-        "rel": "units-en-unit2-llama-index-conclusion",
-        "sourceRel": "units/en/unit2/llama-index/conclusion.mdx"
-      },
-      {
-        "title": "Introduction to LlamaIndex",
-        "rel": "units-en-unit2-llama-index-introduction",
-        "sourceRel": "units/en/unit2/llama-index/introduction.mdx"
-      },
-      {
-        "title": "Introduction to the LlamaHub",
-        "rel": "units-en-unit2-llama-index-llama-hub",
-        "sourceRel": "units/en/unit2/llama-index/llama-hub.mdx"
-      },
-      {
-        "title": "Small Quiz (ungraded) [[quiz1]]",
-        "rel": "units-en-unit2-llama-index-quiz1",
-        "sourceRel": "units/en/unit2/llama-index/quiz1.mdx"
-      },
-      {
-        "title": "Quick Self-Check (ungraded) [[quiz2]]",
-        "rel": "units-en-unit2-llama-index-quiz2",
-        "sourceRel": "units/en/unit2/llama-index/quiz2.mdx"
-      },
-      {
-        "title": "Table of Contents",
-        "rel": "units-en-unit2-llama-index-README",
-        "sourceRel": "units/en/unit2/llama-index/README.md"
-      },
-      {
-        "title": "Using Tools in LlamaIndex",
-        "rel": "units-en-unit2-llama-index-tools",
-        "sourceRel": "units/en/unit2/llama-index/tools.mdx"
-      },
-      {
-        "title": "Creating agentic workflows in LlamaIndex",
-        "rel": "units-en-unit2-llama-index-workflows",
-        "sourceRel": "units/en/unit2/llama-index/workflows.mdx"
-      },
-      {
-        "title": "Building Agents That Use Code",
-        "rel": "units-en-unit2-smolagents-code_agents",
-        "sourceRel": "units/en/unit2/smolagents/code_agents.mdx"
-      },
-      {
-        "title": "Conclusion",
-        "rel": "units-en-unit2-smolagents-conclusion",
-        "sourceRel": "units/en/unit2/smolagents/conclusion.mdx"
-      },
-      {
-        "title": "Exam Time!",
-        "rel": "units-en-unit2-smolagents-final_quiz",
-        "sourceRel": "units/en/unit2/smolagents/final_quiz.mdx"
-      },
-      {
-        "title": "Introduction to smolagents",
-        "rel": "units-en-unit2-smolagents-introduction",
-        "sourceRel": "units/en/unit2/smolagents/introduction.mdx"
-      },
-      {
-        "title": "Multi-Agent Systems",
-        "rel": "units-en-unit2-smolagents-multi_agent_systems",
-        "sourceRel": "units/en/unit2/smolagents/multi_agent_systems.mdx"
-      },
-      {
-        "title": "Small Quiz (ungraded) [[quiz1]]",
-        "rel": "units-en-unit2-smolagents-quiz1",
-        "sourceRel": "units/en/unit2/smolagents/quiz1.mdx"
-      },
-      {
-        "title": "Small Quiz (ungraded) [[quiz2]]",
-        "rel": "units-en-unit2-smolagents-quiz2",
-        "sourceRel": "units/en/unit2/smolagents/quiz2.mdx"
-      },
-      {
-        "title": "Building Agentic RAG Systems",
-        "rel": "units-en-unit2-smolagents-retrieval_agents",
-        "sourceRel": "units/en/unit2/smolagents/retrieval_agents.mdx"
-      },
-      {
-        "title": "Writing actions as code snippets or JSON blobs",
-        "rel": "units-en-unit2-smolagents-tool_calling_agents",
-        "sourceRel": "units/en/unit2/smolagents/tool_calling_agents.mdx"
-      },
-      {
-        "title": "Tools",
-        "rel": "units-en-unit2-smolagents-tools",
-        "sourceRel": "units/en/unit2/smolagents/tools.mdx"
-      },
-      {
-        "title": "Vision Agents with smolagents",
-        "rel": "units-en-unit2-smolagents-vision_agents",
-        "sourceRel": "units/en/unit2/smolagents/vision_agents.mdx"
-      },
-      {
-        "title": "Why use smolagents",
-        "rel": "units-en-unit2-smolagents-why_use_smolagents",
-        "sourceRel": "units/en/unit2/smolagents/why_use_smolagents.mdx"
-      },
-      {
-        "title": "Creating Your Gala Agent",
-        "rel": "units-en-unit3-agentic-rag-agent",
-        "sourceRel": "units/en/unit3/agentic-rag/agent.mdx"
-      },
-      {
-        "title": "Agentic Retrieval Augmented Generation (RAG)",
-        "rel": "units-en-unit3-agentic-rag-agentic-rag",
-        "sourceRel": "units/en/unit3/agentic-rag/agentic-rag.mdx"
-      },
-      {
-        "title": "Conclusion",
-        "rel": "units-en-unit3-agentic-rag-conclusion",
-        "sourceRel": "units/en/unit3/agentic-rag/conclusion.mdx"
-      },
-      {
-        "title": "Introduction to Use Case for Agentic RAG",
-        "rel": "units-en-unit3-agentic-rag-introduction",
-        "sourceRel": "units/en/unit3/agentic-rag/introduction.mdx"
-      },
-      {
-        "title": "Creating a RAG Tool for Guest Stories",
-        "rel": "units-en-unit3-agentic-rag-invitees",
-        "sourceRel": "units/en/unit3/agentic-rag/invitees.mdx"
-      },
-      {
-        "title": "Building and Integrating Tools for Your Agent",
-        "rel": "units-en-unit3-agentic-rag-tools",
-        "sourceRel": "units/en/unit3/agentic-rag/tools.mdx"
-      },
-      {
-        "title": "And now? What topics I should learn?",
-        "rel": "units-en-unit4-additional-readings",
-        "sourceRel": "units/en/unit4/additional-readings.mdx"
-      },
-      {
-        "title": "Conclusion",
-        "rel": "units-en-unit4-conclusion",
-        "sourceRel": "units/en/unit4/conclusion.mdx"
-      },
-      {
-        "title": "Claim Your Certificate 🎓",
-        "rel": "units-en-unit4-get-your-certificate",
-        "sourceRel": "units/en/unit4/get-your-certificate.mdx"
-      },
-      {
-        "title": "Hands-On",
-        "rel": "units-en-unit4-hands-on",
-        "sourceRel": "units/en/unit4/hands-on.mdx"
-      },
-      {
-        "title": "Welcome to the final Unit [[introduction]]",
-        "rel": "units-en-unit4-introduction",
-        "sourceRel": "units/en/unit4/introduction.mdx"
-      },
-      {
-        "title": "What is GAIA?",
-        "rel": "units-en-unit4-what-is-gaia",
-        "sourceRel": "units/en/unit4/what-is-gaia.mdx"
       }
     ]
   },
@@ -6929,7 +4545,7 @@ export const courses: Course[] = [
       },
       {
         "title": "课程设置",
-        "rel": "translations-zh-CN-00-course-setup-README",
+        "rel": "translations-zh-CN-00-course-setup",
         "sourceRel": "translations/zh-CN/00-course-setup/README.md"
       },
       {
@@ -6939,7 +4555,7 @@ export const courses: Course[] = [
       },
       {
         "title": "AI 代理及代理使用案例简介",
-        "rel": "translations-zh-CN-01-intro-to-ai-agents-README",
+        "rel": "translations-zh-CN-01-intro-to-ai-agents",
         "sourceRel": "translations/zh-CN/01-intro-to-ai-agents/README.md"
       },
       {
@@ -6954,7 +4570,7 @@ export const courses: Course[] = [
       },
       {
         "title": "探索AI代理框架",
-        "rel": "translations-zh-CN-02-explore-agentic-frameworks-README",
+        "rel": "translations-zh-CN-02-explore-agentic-frameworks",
         "sourceRel": "translations/zh-CN/02-explore-agentic-frameworks/README.md"
       },
       {
@@ -6964,7 +4580,7 @@ export const courses: Course[] = [
       },
       {
         "title": "AI 代理设计原则",
-        "rel": "translations-zh-CN-03-agentic-design-patterns-README",
+        "rel": "translations-zh-CN-03-agentic-design-patterns",
         "sourceRel": "translations/zh-CN/03-agentic-design-patterns/README.md"
       },
       {
@@ -6974,7 +4590,7 @@ export const courses: Course[] = [
       },
       {
         "title": "工具使用设计模式",
-        "rel": "translations-zh-CN-04-tool-use-README",
+        "rel": "translations-zh-CN-04-tool-use",
         "sourceRel": "translations/zh-CN/04-tool-use/README.md"
       },
       {
@@ -6989,12 +4605,12 @@ export const courses: Course[] = [
       },
       {
         "title": "Agentic RAG",
-        "rel": "translations-zh-CN-05-agentic-rag-README",
+        "rel": "translations-zh-CN-05-agentic-rag",
         "sourceRel": "translations/zh-CN/05-agentic-rag/README.md"
       },
       {
         "title": "构建可信赖的 AI 代理",
-        "rel": "translations-zh-CN-06-building-trustworthy-agents-README",
+        "rel": "translations-zh-CN-06-building-trustworthy-agents",
         "sourceRel": "translations/zh-CN/06-building-trustworthy-agents/README.md"
       },
       {
@@ -7004,7 +4620,7 @@ export const courses: Course[] = [
       },
       {
         "title": "规划设计",
-        "rel": "translations-zh-CN-07-planning-design-README",
+        "rel": "translations-zh-CN-07-planning-design",
         "sourceRel": "translations/zh-CN/07-planning-design/README.md"
       },
       {
@@ -7034,118 +4650,8 @@ export const courses: Course[] = [
       },
       {
         "title": "使用 Microsoft Agent Framework 工作流构建多智能体应用",
-        "rel": "translations-zh-CN-08-multi-agent-code_samples-workflows-agent-framework-README",
+        "rel": "translations-zh-CN-08-multi-agent-code_samples-workflows-agent-framework",
         "sourceRel": "translations/zh-CN/08-multi-agent/code_samples/workflows-agent-framework/README.md"
-      },
-      {
-        "title": "多智能体设计模式",
-        "rel": "translations-zh-CN-08-multi-agent-README",
-        "sourceRel": "translations/zh-CN/08-multi-agent/README.md"
-      },
-      {
-        "title": "知识检测答案",
-        "rel": "translations-zh-CN-08-multi-agent-solution-solution-quiz",
-        "sourceRel": "translations/zh-CN/08-multi-agent/solution/solution-quiz.md"
-      },
-      {
-        "title": "AI Agents for Beginners（微软官方入门课）",
-        "rel": "translations-zh-CN-08-multi-agent-solution-solution",
-        "sourceRel": "translations/zh-CN/08-multi-agent/solution/solution.md"
-      },
-      {
-        "title": "AI 代理中的元认知",
-        "rel": "translations-zh-CN-09-metacognition-README",
-        "sourceRel": "translations/zh-CN/09-metacognition/README.md"
-      },
-      {
-        "title": "生产中的 AI 代理：可观测性与评估",
-        "rel": "translations-zh-CN-10-ai-agents-production-README",
-        "sourceRel": "translations/zh-CN/10-ai-agents-production/README.md"
-      },
-      {
-        "title": "欢迎使用 Chainlit！🚀🤖",
-        "rel": "translations-zh-CN-11-agentic-protocols-code_samples-github-mcp-chainlit",
-        "sourceRel": "translations/zh-CN/11-agentic-protocols/code_samples/github-mcp/chainlit.md"
-      },
-      {
-        "title": "AI Agents for Beginners（微软官方入门课）",
-        "rel": "translations-zh-CN-11-agentic-protocols-code_samples-github-mcp-event-descriptions",
-        "sourceRel": "translations/zh-CN/11-agentic-protocols/code_samples/github-mcp/event-descriptions.md"
-      },
-      {
-        "title": "MCP服务器集成指南",
-        "rel": "translations-zh-CN-11-agentic-protocols-code_samples-github-mcp-MCP_SETUP",
-        "sourceRel": "translations/zh-CN/11-agentic-protocols/code_samples/github-mcp/MCP_SETUP.md"
-      },
-      {
-        "title": "Github MCP 服务器示例",
-        "rel": "translations-zh-CN-11-agentic-protocols-code_samples-github-mcp-README",
-        "sourceRel": "translations/zh-CN/11-agentic-protocols/code_samples/github-mcp/README.md"
-      },
-      {
-        "title": "使用 MCP 构建代理间通信系统",
-        "rel": "translations-zh-CN-11-agentic-protocols-code_samples-mcp-agents-README",
-        "sourceRel": "translations/zh-CN/11-agentic-protocols/code_samples/mcp-agents/README.md"
-      },
-      {
-        "title": "使用智能代理协议（MCP、A2A 和 NLWeb）",
-        "rel": "translations-zh-CN-11-agentic-protocols-README",
-        "sourceRel": "translations/zh-CN/11-agentic-protocols/README.md"
-      },
-      {
-        "title": "代理备忘录",
-        "rel": "translations-zh-CN-12-context-engineering-code_samples-vacation_agent_scratchpad",
-        "sourceRel": "translations/zh-CN/12-context-engineering/code_samples/vacation_agent_scratchpad.md"
-      },
-      {
-        "title": "AI 代理的上下文工程",
-        "rel": "translations-zh-CN-12-context-engineering-README",
-        "sourceRel": "translations/zh-CN/12-context-engineering/README.md"
-      },
-      {
-        "title": "AI Agent 的记忆",
-        "rel": "translations-zh-CN-13-agent-memory-README",
-        "sourceRel": "translations/zh-CN/13-agent-memory/README.md"
-      },
-      {
-        "title": "探索 Microsoft Agent 框架",
-        "rel": "translations-zh-CN-14-microsoft-agent-framework-README",
-        "sourceRel": "translations/zh-CN/14-microsoft-agent-framework/README.md"
-      },
-      {
-        "title": "构建计算机使用代理（CUA）",
-        "rel": "translations-zh-CN-15-browser-use-README",
-        "sourceRel": "translations/zh-CN/15-browser-use/README.md"
-      },
-      {
-        "title": "使用 Microsoft Foundry 部署可扩展代理",
-        "rel": "translations-zh-CN-16-deploying-scalable-agents-README",
-        "sourceRel": "translations/zh-CN/16-deploying-scalable-agents/README.md"
-      },
-      {
-        "title": "使用 Microsoft Foundry Local 和 Qwen 创建本地 AI 代理",
-        "rel": "translations-zh-CN-17-creating-local-ai-agents-README",
-        "sourceRel": "translations/zh-CN/17-creating-local-ai-agents/README.md"
-      },
-      {
-        "title": "示例收据夹具",
-        "rel": "translations-zh-CN-18-securing-ai-agents-code_samples-sample_receipts-README",
-        "sourceRel": "translations/zh-CN/18-securing-ai-agents/code_samples/sample_receipts/README.md"
-      },
-      {
-        "title": "利用加密收据保障 AI 代理安全",
-        "rel": "translations-zh-CN-18-securing-ai-agents-README",
-        "sourceRel": "translations/zh-CN/18-securing-ai-agents/README.md"
-      },
-      {
-        "title": "初学者的 AI 代理 - 学习指南",
-        "rel": "translations-zh-CN-STUDY_GUIDE",
-        "sourceRel": "translations/zh-CN/STUDY_GUIDE.md"
-      },
-      {
-        "title": "代理烟雾测试",
-        "rel": "translations-zh-CN-tests-README",
-        "sourceRel": "translations/zh-CN/tests/README.md"
       }
     ]
   },
@@ -7180,13 +4686,118 @@ export const courses: Course[] = [
       },
       {
         "title": "Authoring Rules and Metrics",
-        "rel": "docs",
+        "rel": "docs-AUTHORING_RULES",
         "sourceRel": "docs/AUTHORING_RULES.md"
       },
       {
-        "title": "Skills",
-        "rel": "skills",
-        "sourceRel": "skills/README.md"
+        "title": "AI Engineering Coach（微软）",
+        "rel": "docs-content-_",
+        "sourceRel": "docs/content/_index.md"
+      },
+      {
+        "title": "AI Engineering Coach（微软）",
+        "rel": "docs-content-features-_",
+        "sourceRel": "docs/content/features/_index.md"
+      },
+      {
+        "title": "Chat Participant",
+        "rel": "docs-content-features-chat",
+        "sourceRel": "docs/content/features/chat.md"
+      },
+      {
+        "title": "AI Engineering Coach（微软）",
+        "rel": "docs-content-getting-started-_",
+        "sourceRel": "docs/content/getting-started/_index.md"
+      },
+      {
+        "title": "Installation",
+        "rel": "docs-content-getting-started-installation",
+        "sourceRel": "docs/content/getting-started/installation.md"
+      },
+      {
+        "title": "Supported Tools",
+        "rel": "docs-content-getting-started-supported-tools",
+        "sourceRel": "docs/content/getting-started/supported-tools.md"
+      },
+      {
+        "title": "AI Engineering Coach（微软）",
+        "rel": "docs-content-improve-_",
+        "sourceRel": "docs/content/improve/_index.md"
+      },
+      {
+        "title": "Anti-Patterns",
+        "rel": "docs-content-improve-anti-patterns",
+        "sourceRel": "docs/content/improve/anti-patterns.md"
+      },
+      {
+        "title": "Context Health",
+        "rel": "docs-content-improve-context-health",
+        "sourceRel": "docs/content/improve/context-health.md"
+      },
+      {
+        "title": "Data Explorer",
+        "rel": "docs-content-improve-data-explorer",
+        "sourceRel": "docs/content/improve/data-explorer.md"
+      },
+      {
+        "title": "Rule Editor",
+        "rel": "docs-content-improve-rule-editor",
+        "sourceRel": "docs/content/improve/rule-editor.md"
+      },
+      {
+        "title": "Rule Playground",
+        "rel": "docs-content-improve-rule-playground",
+        "sourceRel": "docs/content/improve/rule-playground.md"
+      },
+      {
+        "title": "Skill Finder",
+        "rel": "docs-content-improve-skill-finder",
+        "sourceRel": "docs/content/improve/skill-finder.md"
+      },
+      {
+        "title": "AI Engineering Coach（微软）",
+        "rel": "docs-content-level-up-_",
+        "sourceRel": "docs/content/level-up/_index.md"
+      },
+      {
+        "title": "Achievements",
+        "rel": "docs-content-level-up-achievements",
+        "sourceRel": "docs/content/level-up/achievements.md"
+      },
+      {
+        "title": "Learning Center",
+        "rel": "docs-content-level-up-learning",
+        "sourceRel": "docs/content/level-up/learning.md"
+      },
+      {
+        "title": "Agentic SDLC",
+        "rel": "docs-content-level-up-sdlc",
+        "sourceRel": "docs/content/level-up/sdlc.md"
+      },
+      {
+        "title": "Share",
+        "rel": "docs-content-level-up-share",
+        "sourceRel": "docs/content/level-up/share.md"
+      },
+      {
+        "title": "AI Engineering Coach（微软）",
+        "rel": "docs-content-measure-_",
+        "sourceRel": "docs/content/measure/_index.md"
+      },
+      {
+        "title": "Burndown",
+        "rel": "docs-content-measure-burndown",
+        "sourceRel": "docs/content/measure/burndown.md"
+      },
+      {
+        "title": "Output",
+        "rel": "docs-content-measure-output",
+        "sourceRel": "docs/content/measure/output.md"
+      },
+      {
+        "title": "Activity Patterns",
+        "rel": "docs-content-measure-patterns",
+        "sourceRel": "docs/content/measure/patterns.md"
       }
     ]
   },
@@ -7216,17 +4827,17 @@ export const courses: Course[] = [
       },
       {
         "title": "Ed Donner：AI Agents 实战课",
-        "rel": "1_foundations-community_contributions-1_Abdulrazaq-README",
+        "rel": "1_foundations-community_contributions-1_Abdulrazaq",
         "sourceRel": "1_foundations/community_contributions/1_Abdulrazaq/README.md"
       },
       {
         "title": "Ed Donner：AI Agents 实战课",
-        "rel": "1_foundations-community_contributions-adeyemi-kayode-README",
+        "rel": "1_foundations-community_contributions-adeyemi-kayode",
         "sourceRel": "1_foundations/community_contributions/adeyemi-kayode/README.md"
       },
       {
         "title": "Alter-Ego Chatbot",
-        "rel": "1_foundations-community_contributions-alter-ego-gradio-chatbot-usingAzureOpenai-README",
+        "rel": "1_foundations-community_contributions-alter-ego-gradio-chatbot-usingAzureOpenai",
         "sourceRel": "1_foundations/community_contributions/alter-ego-gradio-chatbot-usingAzureOpenai/README.md"
       },
       {
@@ -7266,7 +4877,7 @@ export const courses: Course[] = [
       },
       {
         "title": "AI Career Assistant",
-        "rel": "1_foundations-community_contributions-amirna2_contributions-personal-ai-README",
+        "rel": "1_foundations-community_contributions-amirna2_contributions-personal-ai",
         "sourceRel": "1_foundations/community_contributions/amirna2_contributions/personal-ai/README.md"
       },
       {
@@ -7291,228 +4902,28 @@ export const courses: Course[] = [
       },
       {
         "title": "Avatar — (OpenRouter + local tools)",
-        "rel": "1_foundations-community_contributions-avatar-README",
+        "rel": "1_foundations-community_contributions-avatar",
         "sourceRel": "1_foundations/community_contributions/avatar/README.md"
       },
       {
         "title": "Personal AI Assistant – AMA Chatbot",
-        "rel": "1_foundations-community_contributions-blt909-README",
+        "rel": "1_foundations-community_contributions-blt909",
         "sourceRel": "1_foundations/community_contributions/blt909/README.md"
       },
       {
         "title": "🤖 CareerWise Gemini Notify",
-        "rel": "1_foundations-community_contributions-careerwise_gemini_ntfy-README",
+        "rel": "1_foundations-community_contributions-careerwise_gemini_ntfy",
         "sourceRel": "1_foundations/community_contributions/careerwise_gemini_ntfy/README.md"
       },
       {
         "title": "RAG Chat Evaluator Bot",
-        "rel": "1_foundations-community_contributions-chatbot_rag_evaluation-README",
+        "rel": "1_foundations-community_contributions-chatbot_rag_evaluation",
         "sourceRel": "1_foundations/community_contributions/chatbot_rag_evaluation/README.md"
       },
       {
         "title": "Smart RAG Chatbot",
-        "rel": "1_foundations-community_contributions-ChatBot_with_evaluator_and_notifier-README",
+        "rel": "1_foundations-community_contributions-ChatBot_with_evaluator_and_notifier",
         "sourceRel": "1_foundations/community_contributions/ChatBot_with_evaluator_and_notifier/README.md"
-      },
-      {
-        "title": "Week 1 extra: agent loop — bill split and tip",
-        "rel": "1_foundations-community_contributions-cwait-README",
-        "sourceRel": "1_foundations/community_contributions/cwait/README.md"
-      },
-      {
-        "title": "Ed Donner：AI Agents 实战课",
-        "rel": "1_foundations-community_contributions-discord_over_pushover-README",
-        "sourceRel": "1_foundations/community_contributions/discord_over_pushover/README.md"
-      },
-      {
-        "title": "Digital Persona - Personal Knowledge Base",
-        "rel": "1_foundations-community_contributions-dkisselev-zz-README",
-        "sourceRel": "1_foundations/community_contributions/dkisselev-zz/README.md"
-      },
-      {
-        "title": "Personal Chatbot - AI Assistant with Push Notifications",
-        "rel": "1_foundations-community_contributions-elijah_ach_igniters-README",
-        "sourceRel": "1_foundations/community_contributions/elijah_ach_igniters/README.md"
-      },
-      {
-        "title": "Buggy Kata",
-        "rel": "1_foundations-community_contributions-eliza_zadura-agent_loop_debuggers-first_principles_loop-README",
-        "sourceRel": "1_foundations/community_contributions/eliza_zadura/agent_loop_debuggers/first_principles_loop/README.md"
-      },
-      {
-        "title": "Gemini Chatbot of Users (Me)",
-        "rel": "1_foundations-community_contributions-gemini_based_chatbot-README",
-        "sourceRel": "1_foundations/community_contributions/gemini_based_chatbot/README.md"
-      },
-      {
-        "title": "gu1ll390 — community contributions",
-        "rel": "1_foundations-community_contributions-gu1ll390-README",
-        "sourceRel": "1_foundations/community_contributions/gu1ll390/README.md"
-      },
-      {
-        "title": "Community Contribution: H-CDT (Haben-Career Digital Twin)",
-        "rel": "1_foundations-community_contributions-haben-haben_career_twin_contribution",
-        "sourceRel": "1_foundations/community_contributions/haben/haben_career_twin_contribution.md"
-      },
-      {
-        "title": "🤖 Autonomous Self-Healing Debugger",
-        "rel": "1_foundations-community_contributions-Hareesh_Debugger_agent-README",
-        "sourceRel": "1_foundations/community_contributions/Hareesh_Debugger agent/README.md"
-      },
-      {
-        "title": "Hidden Gems World Travel Guide (RAG)",
-        "rel": "1_foundations-community_contributions-hidden_gems_world_travel_guide-README",
-        "sourceRel": "1_foundations/community_contributions/hidden_gems_world_travel_guide/README.md"
-      },
-      {
-        "title": "Advanced Digital Twin with RAG",
-        "rel": "1_foundations-community_contributions-iamumarjaved-README",
-        "sourceRel": "1_foundations/community_contributions/iamumarjaved/README.md"
-      },
-      {
-        "title": "Orchestrator-Workers Workflow Demo",
-        "rel": "1_foundations-community_contributions-lab_2_orchestrator_workers_demo-README_orchestrator_workers",
-        "sourceRel": "1_foundations/community_contributions/lab_2_orchestrator_workers_demo/README_orchestrator_workers.md"
-      },
-      {
-        "title": "Week 1 assessment — career chatbot extension",
-        "rel": "1_foundations-community_contributions-mac_week1_assessment-README",
-        "sourceRel": "1_foundations/community_contributions/mac_week1_assessment/README.md"
-      },
-      {
-        "title": "🧠 Resume-Job Match Application (LLM-Powered)",
-        "rel": "1_foundations-community_contributions-Multi-Model-Resume_JD-Match-Analyzer-README",
-        "sourceRel": "1_foundations/community_contributions/Multi-Model-Resume–JD-Match-Analyzer/README.md"
-      },
-      {
-        "title": "🤖 AI Personal Website Assistant",
-        "rel": "1_foundations-community_contributions-ngahunj-README",
-        "sourceRel": "1_foundations/community_contributions/ngahunj/README.md"
-      },
-      {
-        "title": "Week 1 Project",
-        "rel": "1_foundations-community_contributions-norbert-wakanda-README",
-        "sourceRel": "1_foundations/community_contributions/norbert-wakanda/README.md"
-      },
-      {
-        "title": "Ed Donner：AI Agents 实战课",
-        "rel": "1_foundations-community_contributions-novel-generator-README",
-        "sourceRel": "1_foundations/community_contributions/novel-generator/README.md"
-      },
-      {
-        "title": "AskSpark Project Summary",
-        "rel": "1_foundations-community_contributions-oluwaferanmi_oluwagbamila-AskSpark_Project_Summary",
-        "sourceRel": "1_foundations/community_contributions/oluwaferanmi_oluwagbamila/AskSpark_Project_Summary.md"
-      },
-      {
-        "title": "Day 2 Part 5: Workflow Design Patterns Summary",
-        "rel": "1_foundations-community_contributions-osebas15-day2_5_transcript_summary",
-        "sourceRel": "1_foundations/community_contributions/osebas15/day2_5_transcript_summary.md"
-      },
-      {
-        "title": "Ed Donner：AI Agents 实战课",
-        "rel": "1_foundations-community_contributions-qkocian-amazing_business_idea",
-        "sourceRel": "1_foundations/community_contributions/qkocian/amazing_business_idea.md"
-      },
-      {
-        "title": "Gemini Polyglot Guardian (Week 1)",
-        "rel": "1_foundations-community_contributions-Sama-ndari_gemini-polyglot-guardian-README",
-        "sourceRel": "1_foundations/community_contributions/Sama-ndari_gemini-polyglot-guardian/README.md"
-      },
-      {
-        "title": "AI Interview Simulator (Week 1)",
-        "rel": "1_foundations-community_contributions-Sama-ndari_interview-tool-README",
-        "sourceRel": "1_foundations/community_contributions/Sama-ndari_interview-tool/README.md"
-      },
-      {
-        "title": "LLM Telephone Game (Week 1)",
-        "rel": "1_foundations-community_contributions-Sama-ndari_llm-telephone-game-README",
-        "sourceRel": "1_foundations/community_contributions/Sama-ndari_llm-telephone-game/README.md"
-      },
-      {
-        "title": "Demo context (lightweight)",
-        "rel": "1_foundations-community_contributions-Sama-ndari_me-in-the-loop-me-summary",
-        "sourceRel": "1_foundations/community_contributions/Sama-ndari_me-in-the-loop/me/summary.md"
-      },
-      {
-        "title": "Personal AI Clone (Week 1)",
-        "rel": "1_foundations-community_contributions-Sama-ndari_me-in-the-loop-README",
-        "sourceRel": "1_foundations/community_contributions/Sama-ndari_me-in-the-loop/README.md"
-      },
-      {
-        "title": "Career chat (RAG + Gradio, Jupyter notebook)",
-        "rel": "1_foundations-community_contributions-sammyloto-README",
-        "sourceRel": "1_foundations/community_contributions/sammyloto/README.md"
-      },
-      {
-        "title": "careeragent",
-        "rel": "1_foundations-community_contributions-seung-gu-README",
-        "sourceRel": "1_foundations/community_contributions/seung-gu/README.md"
-      },
-      {
-        "title": "Digital twin with a reviewer",
-        "rel": "1_foundations-community_contributions-sev_rudakov_twin_evaluator-README",
-        "sourceRel": "1_foundations/community_contributions/sev_rudakov_twin_evaluator/README.md"
-      },
-      {
-        "title": "LLM Router & Evaluator-Optimizer Workflow",
-        "rel": "1_foundations-community_contributions-sharad_extended_workflow-readme",
-        "sourceRel": "1_foundations/community_contributions/sharad_extended_workflow/readme.md"
-      },
-      {
-        "title": "API Response & Conversation History",
-        "rel": "1_foundations-community_contributions-shruti_sky-documenting_day_1",
-        "sourceRel": "1_foundations/community_contributions/shruti_sky/documenting_day_1.md"
-      },
-      {
-        "title": "Ed Donner：AI Agents 实战课",
-        "rel": "1_foundations-community_contributions-simple-tools-usage-README",
-        "sourceRel": "1_foundations/community_contributions/simple-tools-usage/README.md"
-      },
-      {
-        "title": "Career conversation (evaluator-rerun)",
-        "rel": "1_foundations-community_contributions-stellaoiro-README_SPACE_lab3",
-        "sourceRel": "1_foundations/community_contributions/stellaoiro/README_SPACE_lab3.md"
-      },
-      {
-        "title": "HALI (this Space)",
-        "rel": "1_foundations-community_contributions-stellaoiro-README",
-        "sourceRel": "1_foundations/community_contributions/stellaoiro/README.md"
-      },
-      {
-        "title": "Multi-Model Evaluator (2lab2.py)",
-        "rel": "1_foundations-community_contributions-stevek_2_lab2_python-README",
-        "sourceRel": "1_foundations/community_contributions/stevek_2_lab2_python/README.md"
-      },
-      {
-        "title": "Ed Donner：AI Agents 实战课",
-        "rel": "1_foundations-community_contributions-telegram_push_notifications-telegram_setup",
-        "sourceRel": "1_foundations/community_contributions/telegram_push_notifications/telegram_setup.md"
-      },
-      {
-        "title": "Google Gemini AI Calculator",
-        "rel": "1_foundations-community_contributions-vaibhavmanwatkar-README",
-        "sourceRel": "1_foundations/community_contributions/vaibhavmanwatkar/README.md"
-      },
-      {
-        "title": "Career Chatbot 🤖",
-        "rel": "1_foundations-community_contributions-Wanjiru_Week_1-README",
-        "sourceRel": "1_foundations/community_contributions/Wanjiru_Week_1/README.md"
-      },
-      {
-        "title": "Weather Tool – Personal Assistant with Weather Integration",
-        "rel": "1_foundations-community_contributions-weather-tool-README",
-        "sourceRel": "1_foundations/community_contributions/weather-tool/README.md"
-      },
-      {
-        "title": "Q&A Database Schema and Example",
-        "rel": "1_foundations-community_contributions-week_1_sql_linkedin-week-1-self",
-        "sourceRel": "1_foundations/community_contributions/week_1_sql_linkedin/week-1-self.md"
-      },
-      {
-        "title": "Deploying your twin to Render",
-        "rel": "1_foundations-RENDER_INSTRUCTIONS",
-        "sourceRel": "1_foundations/RENDER_INSTRUCTIONS.md"
       }
     ]
   },
@@ -7546,34 +4957,119 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
+        "title": "Digital Twin — Eben's Personal Assistant",
+        "rel": "community_contributions-a3_igniters_ebenhays",
+        "sourceRel": "community_contributions/a3_igniters_ebenhays/README.md"
+      },
+      {
+        "title": "FitCheck AI — Resume Analyzer",
+        "rel": "community_contributions-a3_igniters_ebenhays-week1day5_ebenhays",
+        "sourceRel": "community_contributions/a3_igniters_ebenhays/week1day5_ebenhays.md"
+      },
+      {
+        "title": "Issue description",
+        "rel": "community_contributions-arijitdeb1_nova_lite_invocation_error_fix",
+        "sourceRel": "community_contributions/arijitdeb1_nova_lite_invocation_error_fix.md"
+      },
+      {
+        "title": "AI in Production",
+        "rel": "community_contributions-aws_cloudflare_dns_integration",
+        "sourceRel": "community_contributions/aws_cloudflare_dns_integration.md"
+      },
+      {
+        "title": "AWS Profile Quick Tip",
+        "rel": "community_contributions-aws_configure_tips",
+        "sourceRel": "community_contributions/aws_configure_tips.md"
+      },
+      {
+        "title": "Consultation App Deployment Alternative to App Runner",
+        "rel": "community_contributions-aws_ecs_deployment_alternative_to_apprunner",
+        "sourceRel": "community_contributions/aws_ecs_deployment_alternative_to_apprunner.md"
+      },
+      {
+        "title": "Deploying a container to AWS ECS Express Mode",
+        "rel": "community_contributions-aws_ecs_express_mode",
+        "sourceRel": "community_contributions/aws_ecs_express_mode.md"
+      },
+      {
+        "title": "AWS Copilot",
+        "rel": "community_contributions-aws-copilot",
+        "sourceRel": "community_contributions/aws-copilot.md"
+      },
+      {
+        "title": "AI in Production",
+        "rel": "community_contributions-books_recommender",
+        "sourceRel": "community_contributions/books_recommender.md"
+      },
+      {
+        "title": "Vercel Clerk publishable key: use CLERKPUBLISHABLEKEY",
+        "rel": "community_contributions-clerk_publishable_key_vercel",
+        "sourceRel": "community_contributions/clerk_publishable_key_vercel.md"
+      },
+      {
+        "title": "Damola's AI Twin",
+        "rel": "community_contributions-damola_ai_twin",
+        "sourceRel": "community_contributions/damola_ai_twin.md"
+      },
+      {
+        "title": "Fix: 403 Forbidden Error on Windows/Docker (Clock Skew)",
+        "rel": "community_contributions-fix_windows_docker_403_forbidden_clerk",
+        "sourceRel": "community_contributions/fix_windows_docker_403_forbidden_clerk.md"
+      },
+      {
+        "title": "Clerk Logging Configuration Guide",
+        "rel": "community_contributions-fix-issue-18",
+        "sourceRel": "community_contributions/fix-issue-18.md"
+      },
+      {
+        "title": "Digital Twin on AWS",
+        "rel": "community_contributions-igniters_olawale-week2",
+        "sourceRel": "community_contributions/igniters_olawale/week2.md"
+      },
+      {
+        "title": "AI-Powered SaaS Platform",
+        "rel": "community_contributions-igniters_sodiq-week_1",
+        "sourceRel": "community_contributions/igniters_sodiq/week_1.md"
+      },
+      {
+        "title": "Project Details",
+        "rel": "community_contributions-Igniters_tobe_health_tech-health_app",
+        "sourceRel": "community_contributions/Igniters_tobe_health_tech/health_app.md"
+      },
+      {
+        "title": "AI in Production",
+        "rel": "community_contributions-ijosh-production_week1",
+        "sourceRel": "community_contributions/ijosh/production_week1.md"
+      },
+      {
+        "title": "Week 2 – AI Digital Twin",
+        "rel": "community_contributions-ijosh-production_week2",
+        "sourceRel": "community_contributions/ijosh/production_week2.md"
+      },
+      {
+        "title": "Issue description",
+        "rel": "community_contributions-jwt_token_60s_fix",
+        "sourceRel": "community_contributions/jwt_token_60s_fix.md"
+      },
+      {
+        "title": "Week1 Exercise",
+        "rel": "community_contributions-ns_sly_wrk-week1",
+        "sourceRel": "community_contributions/ns_sly_wrk/week1.md"
+      },
+      {
         "title": "Community Contributions for Production Course",
         "rel": "community_contributions",
         "sourceRel": "community_contributions/README.md"
       },
       {
-        "title": "Welcome back to the Production Repo!",
-        "rel": "finale",
-        "sourceRel": "finale/README.md"
+        "title": "Issue description",
+        "rel": "community_contributions-streaming_error_fix_day2_vikas",
+        "sourceRel": "community_contributions/streaming_error_fix_day2_vikas.md"
       },
       {
-        "title": "INSTANT GRATIFICATION!",
-        "rel": "week1",
-        "sourceRel": "week1/day1.md"
-      },
-      {
-        "title": "Day 1: Introducing The Twin",
-        "rel": "week2",
-        "sourceRel": "week2/day1.md"
-      },
-      {
-        "title": "Days 1 and 2: Please move to the cyber repo:",
-        "rel": "week3",
-        "sourceRel": "week3/README.md"
-      },
-      {
-        "title": "Please return to the alex repo",
-        "rel": "week4",
-        "sourceRel": "week4/README.md"
+        "title": "Salutron: Multi-Cloud Infrastructure Automation",
+        "rel": "community_contributions-terraform_aws_gcp_azure_githubactions",
+        "sourceRel": "community_contributions/terraform_aws_gcp_azure_githubactions.md"
       }
     ]
   },
@@ -7720,46 +5216,6 @@ export const courses: Course[] = [
         "title": "Datawhale Agentic AI 教程",
         "rel": "4._构建Agentic_AI的实用技巧_Practical_Tips_for_Building_Agentic_AI_-4.6_解决识别到的问题_How_to_address_problems_you_identify_",
         "sourceRel": "4. 构建Agentic AI的实用技巧[Practical Tips for Building Agentic AI]/4.6 解决识别到的问题[How to address problems you identify].md"
-      },
-      {
-        "title": "Datawhale Agentic AI 教程",
-        "rel": "4._构建Agentic_AI的实用技巧_Practical_Tips_for_Building_Agentic_AI_-4.7_延迟与成本优化_Latency_cost_optimization_",
-        "sourceRel": "4. 构建Agentic AI的实用技巧[Practical Tips for Building Agentic AI]/4.7 延迟与成本优化[Latency, cost optimization].md"
-      },
-      {
-        "title": "Datawhale Agentic AI 教程",
-        "rel": "4._构建Agentic_AI的实用技巧_Practical_Tips_for_Building_Agentic_AI_-4.8_开发过程总结_Development_process_summary_",
-        "sourceRel": "4. 构建Agentic AI的实用技巧[Practical Tips for Building Agentic AI]/4.8 开发过程总结[Development process summary].md"
-      },
-      {
-        "title": "Datawhale Agentic AI 教程",
-        "rel": "5._高度自治智能体的模式_Patterns_for_Highly_Autonomous_Agents_-5.1_工作流规划_Planning_workflows_",
-        "sourceRel": "5. 高度自治智能体的模式[Patterns for Highly Autonomous Agents]/5.1 工作流规划[Planning workflows].md"
-      },
-      {
-        "title": "Datawhale Agentic AI 教程",
-        "rel": "5._高度自治智能体的模式_Patterns_for_Highly_Autonomous_Agents_-5.2_创建与执行LLM计划_Creating_and_executing_LLM_plans_",
-        "sourceRel": "5. 高度自治智能体的模式[Patterns for Highly Autonomous Agents]/5.2 创建与执行LLM计划[Creating and executing LLM plans].md"
-      },
-      {
-        "title": "Datawhale Agentic AI 教程",
-        "rel": "5._高度自治智能体的模式_Patterns_for_Highly_Autonomous_Agents_-5.3_结合代码执行的规划_Planning_with_code_execution_",
-        "sourceRel": "5. 高度自治智能体的模式[Patterns for Highly Autonomous Agents]/5.3 结合代码执行的规划[Planning with code execution].md"
-      },
-      {
-        "title": "Datawhale Agentic AI 教程",
-        "rel": "5._高度自治智能体的模式_Patterns_for_Highly_Autonomous_Agents_-5.5_多智能体工作流_Multi-agentic_workflows_",
-        "sourceRel": "5. 高度自治智能体的模式[Patterns for Highly Autonomous Agents]/5.5 多智能体工作流[Multi-agentic workflows].md"
-      },
-      {
-        "title": "Datawhale Agentic AI 教程",
-        "rel": "5._高度自治智能体的模式_Patterns_for_Highly_Autonomous_Agents_-5.7_多智能体系统的通信模式_Communication_patterns_for_multi-agent_systems_",
-        "sourceRel": "5. 高度自治智能体的模式[Patterns for Highly Autonomous Agents]/5.7 多智能体系统的通信模式[Communication patterns for multi-agent systems].md"
-      },
-      {
-        "title": "Datawhale Agentic AI 教程",
-        "rel": "5._高度自治智能体的模式_Patterns_for_Highly_Autonomous_Agents_-5.10_总结_Conclusion_",
-        "sourceRel": "5. 高度自治智能体的模式[Patterns for Highly Autonomous Agents]/5.10 总结[Conclusion].md"
       }
     ]
   },
@@ -7791,6 +5247,46 @@ export const courses: Course[] = [
         "title": "Getting Started with Strands Agents - Complete Learning Path",
         "rel": "overview",
         "sourceRel": "README.md"
+      },
+      {
+        "title": "Agent-to-Agent (A2A) Communication Example",
+        "rel": "course-1-Lab5-strands-a2a-inter-agent",
+        "sourceRel": "course-1/Lab5/strands-a2a-inter-agent/README.md"
+      },
+      {
+        "title": "Lab 06: Observability with LangFuse and Evaluation with RAGAS",
+        "rel": "course-1-Lab6",
+        "sourceRel": "course-1/Lab6/README.md"
+      },
+      {
+        "title": "Lab 1: Overview of Strands Agents",
+        "rel": "course-2-Lab1",
+        "sourceRel": "course-2/Lab1/README.md"
+      },
+      {
+        "title": "Lab 2: Model Providers and Configuration",
+        "rel": "course-2-Lab2",
+        "sourceRel": "course-2/Lab2/README.md"
+      },
+      {
+        "title": "Lab 3: Advanced Response Processing with Hooks",
+        "rel": "course-2-Lab3",
+        "sourceRel": "course-2/Lab3/README.md"
+      },
+      {
+        "title": "Lab 4: Tools and MCP Integration",
+        "rel": "course-2-Lab4",
+        "sourceRel": "course-2/Lab4/README.md"
+      },
+      {
+        "title": "Lab 5: Conversation and Session Management",
+        "rel": "course-2-Lab5",
+        "sourceRel": "course-2/Lab5/README.md"
+      },
+      {
+        "title": "Lab 6: Memory Persistent Agents",
+        "rel": "course-2-Lab6",
+        "sourceRel": "course-2/Lab6/README.md"
       },
       {
         "title": "Advanced Strands Agents with MCP",
@@ -7834,6 +5330,11 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
+        "title": "Azure Infrastructure for LangChain4j Getting Started",
+        "rel": "01-introduction-infra",
+        "sourceRel": "01-introduction/infra/README.md"
+      },
+      {
         "title": "Module 01: Getting Started with LangChain4j",
         "rel": "01-introduction",
         "sourceRel": "01-introduction/README.md"
@@ -7857,6 +5358,16 @@ export const courses: Course[] = [
         "title": "Module 05: Model Context Protocol (MCP)",
         "rel": "05-mcp",
         "sourceRel": "05-mcp/README.md"
+      },
+      {
+        "title": "LangChain4j Glossary",
+        "rel": "docs-GLOSSARY",
+        "sourceRel": "docs/GLOSSARY.md"
+      },
+      {
+        "title": "Testing LangChain4j Applications",
+        "rel": "docs-TESTING",
+        "sourceRel": "docs/TESTING.md"
       }
     ]
   },
@@ -7893,6 +5404,41 @@ export const courses: Course[] = [
         "title": "Airflow Configuration",
         "rel": "airflow",
         "sourceRel": "airflow/README.md"
+      },
+      {
+        "title": "Week 1: Infrastructure Setup and Verification",
+        "rel": "notebooks-week1",
+        "sourceRel": "notebooks/week1/README.md"
+      },
+      {
+        "title": "Week 2: arXiv API Integration & PDF Processing",
+        "rel": "notebooks-week2",
+        "sourceRel": "notebooks/week2/README.md"
+      },
+      {
+        "title": "Week 3: Keyword Search First - The Critical Foundation",
+        "rel": "notebooks-week3",
+        "sourceRel": "notebooks/week3/README.md"
+      },
+      {
+        "title": "Week 4: Document Chunking and Hybrid Search",
+        "rel": "notebooks-week4",
+        "sourceRel": "notebooks/week4/README.md"
+      },
+      {
+        "title": "Week 5: Complete RAG System with LLM Integration",
+        "rel": "notebooks-week5",
+        "sourceRel": "notebooks/week5/README.md"
+      },
+      {
+        "title": "Week 6: Production Monitoring and Caching with Langfuse and Redis",
+        "rel": "notebooks-week6",
+        "sourceRel": "notebooks/week6/README.md"
+      },
+      {
+        "title": "Week 7: Agentic RAG with LangGraph + Telegram Bot",
+        "rel": "notebooks-week7",
+        "sourceRel": "notebooks/week7/README.md"
       }
     ]
   },
@@ -7924,6 +5470,31 @@ export const courses: Course[] = [
         "title": "Anthropic courses",
         "rel": "overview",
         "sourceRel": "README.md"
+      },
+      {
+        "title": "Anthropic 官方课程",
+        "rel": "prompt_evaluations-05_prompt_foo_code_graded_animals",
+        "sourceRel": "prompt_evaluations/05_prompt_foo_code_graded_animals/README.md"
+      },
+      {
+        "title": "Anthropic 官方课程",
+        "rel": "prompt_evaluations-06_prompt_foo_code_graded_classification",
+        "sourceRel": "prompt_evaluations/06_prompt_foo_code_graded_classification/README.md"
+      },
+      {
+        "title": "Anthropic 官方课程",
+        "rel": "prompt_evaluations-07_prompt_foo_custom_graders",
+        "sourceRel": "prompt_evaluations/07_prompt_foo_custom_graders/README.md"
+      },
+      {
+        "title": "Anthropic 官方课程",
+        "rel": "prompt_evaluations-08_prompt_foo_model_graded",
+        "sourceRel": "prompt_evaluations/08_prompt_foo_model_graded/README.md"
+      },
+      {
+        "title": "Anthropic 官方课程",
+        "rel": "prompt_evaluations-09_custom_model_graded_prompt_foo",
+        "sourceRel": "prompt_evaluations/09_custom_model_graded_prompt_foo/README.md"
       },
       {
         "title": "Tool use",
@@ -7958,22 +5529,22 @@ export const courses: Course[] = [
       },
       {
         "title": "🚀 Installation and Usage Guide for the Second Brain Offline Module",
-        "rel": "apps-second-brain-offline-README",
+        "rel": "apps-second-brain-offline",
         "sourceRel": "apps/second-brain-offline/README.md"
       },
       {
         "title": "🚀 Installation and Usage Guide for the Second Brain Online Module",
-        "rel": "apps-second-brain-online-README",
+        "rel": "apps-second-brain-online",
         "sourceRel": "apps/second-brain-online/README.md"
       },
       {
         "title": "Workshop on Building Advanced RAG Applications and Systems",
-        "rel": "workshops-rag-solution-README",
+        "rel": "workshops-rag-solution",
         "sourceRel": "workshops/rag/solution/README.md"
       },
       {
         "title": "Workshop on Building Advanced RAG Applications and Systems",
-        "rel": "workshops-rag-template-README",
+        "rel": "workshops-rag-template",
         "sourceRel": "workshops/rag/template/README.md"
       }
     ]
@@ -8008,69 +5579,114 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
+        "title": "Site Architecture",
+        "rel": "docs-architecture",
+        "sourceRel": "docs/architecture/index.md"
+      },
+      {
+        "title": "Agent API Lab",
+        "rel": "examples-agent-api-lab-2",
+        "sourceRel": "examples/agent-api-lab/README.md"
+      },
+      {
+        "title": "面试诊断 Agent PRD",
+        "rel": "final-project-01-prd",
+        "sourceRel": "final-project/01-prd/index.md"
+      },
+      {
+        "title": "系统架构设计",
+        "rel": "final-project-02-architecture",
+        "sourceRel": "final-project/02-architecture/index.md"
+      },
+      {
+        "title": "Query Engine 实现",
+        "rel": "final-project-03-query-engine",
+        "sourceRel": "final-project/03-query-engine/index.md"
+      },
+      {
+        "title": "Tools & Skills 实现",
+        "rel": "final-project-04-tools-skills",
+        "sourceRel": "final-project/04-tools-skills/index.md"
+      },
+      {
+        "title": "知识库构建",
+        "rel": "final-project-05-knowledge-base",
+        "sourceRel": "final-project/05-knowledge-base/index.md"
+      },
+      {
+        "title": "Context & Memory 实现",
+        "rel": "final-project-06-context-memory",
+        "sourceRel": "final-project/06-context-memory/index.md"
+      },
+      {
+        "title": "Permission & Session 实现",
+        "rel": "final-project-07-permission-session",
+        "sourceRel": "final-project/07-permission-session/index.md"
+      },
+      {
+        "title": "Hook & Command 实现",
+        "rel": "final-project-08-hook-command",
+        "sourceRel": "final-project/08-hook-command/index.md"
+      },
+      {
+        "title": "Sub-agent 编排",
+        "rel": "final-project-09-sub-agent",
+        "sourceRel": "final-project/09-sub-agent/index.md"
+      },
+      {
+        "title": "STT 集成与语音分析",
+        "rel": "final-project-10-stt-speech",
+        "sourceRel": "final-project/10-stt-speech/index.md"
+      },
+      {
+        "title": "部署与演示",
+        "rel": "final-project-11-deploy-demo",
+        "sourceRel": "final-project/11-deploy-demo/index.md"
+      },
+      {
+        "title": "Web UI 交互设计",
+        "rel": "final-project-12-web-ui",
+        "sourceRel": "final-project/12-web-ui/index.md"
+      },
+      {
         "title": "Final Project：OfferPilot",
         "rel": "final-project",
         "sourceRel": "final-project/index.md"
       },
       {
-        "title": "learn-agent-basic",
-        "rel": "learn-agent-basic",
-        "sourceRel": "learn-agent-basic/index.md"
+        "title": "什么是 Agent",
+        "rel": "learn-agent-basic-01-what-is-an-agent",
+        "sourceRel": "learn-agent-basic/01-what-is-an-agent/index.md"
       },
       {
-        "title": "Agent 面试通关：大厂 AI Agent 高频面试题深度拆解",
-        "rel": "learn-agent-interview",
-        "sourceRel": "learn-agent-interview/index.md"
+        "title": "Workflow 和 Agent 的区别",
+        "rel": "learn-agent-basic-02-workflow-vs-agent",
+        "sourceRel": "learn-agent-basic/02-workflow-vs-agent/index.md"
       },
       {
-        "title": "learn-agent-practice",
-        "rel": "learn-agent-practice",
-        "sourceRel": "learn-agent-practice/index.md"
+        "title": "一个 Agent 系统的核心组成",
+        "rel": "learn-agent-basic-03-core-components",
+        "sourceRel": "learn-agent-basic/03-core-components/index.md"
       },
       {
-        "title": "框架调研",
-        "rel": "learn-agent-survey",
-        "sourceRel": "learn-agent-survey/index.md"
+        "title": "为什么很多 Agent Demo 一落地就不稳定",
+        "rel": "learn-agent-basic-04-why-agent-demos-break",
+        "sourceRel": "learn-agent-basic/04-why-agent-demos-break/index.md"
       },
       {
-        "title": "learn-agent-training",
-        "rel": "learn-agent-training",
-        "sourceRel": "learn-agent-training/index.md"
+        "title": "大模型 API 输入输出与 Tool Calling",
+        "rel": "learn-agent-basic-05-tool-calling-basics",
+        "sourceRel": "learn-agent-basic/05-tool-calling-basics/index.md"
       },
       {
-        "title": "Claude Code",
-        "rel": "learn-claude-code",
-        "sourceRel": "learn-claude-code/index.md"
+        "title": "Context、State 与 Memory",
+        "rel": "learn-agent-basic-06-memory-patterns",
+        "sourceRel": "learn-agent-basic/06-memory-patterns/index.md"
       },
       {
-        "title": "OpenAI Codex CLI",
-        "rel": "learn-codex",
-        "sourceRel": "learn-codex/index.md"
-      },
-      {
-        "title": "DeepSeek Harness",
-        "rel": "learn-deepseek-harness",
-        "sourceRel": "learn-deepseek-harness/index.md"
-      },
-      {
-        "title": "learn-langgraph",
-        "rel": "learn-langgraph",
-        "sourceRel": "learn-langgraph/index.md"
-      },
-      {
-        "title": "OpenClaw Agent",
-        "rel": "learn-openclaw",
-        "sourceRel": "learn-openclaw/index.md"
-      },
-      {
-        "title": "Pi Coding Agent：从一次真实任务开始",
-        "rel": "learn-pi",
-        "sourceRel": "learn-pi/index.md"
-      },
-      {
-        "title": "SDK 框架",
-        "rel": "learn-sdk-frameworks",
-        "sourceRel": "learn-sdk-frameworks/index.md"
+        "title": "Planning、Reflection、RAG 分别解决什么问题",
+        "rel": "learn-agent-basic-07-planning-reflection-rag",
+        "sourceRel": "learn-agent-basic/07-planning-reflection-rag/index.md"
       }
     ]
   },
@@ -8104,19 +5720,119 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
-        "title": "深度研搜：前言",
-        "rel": "实战项目-深度研搜",
-        "sourceRel": "实战项目-深度研搜/0-前言.md"
+        "title": "1-1 大模型认知与工程概览",
+        "rel": "1-1-大模型认知与工程概览",
+        "sourceRel": "1-1-大模型认知与工程概览.md"
       },
       {
-        "title": "电商问数：前言",
-        "rel": "实战项目-电商问数",
-        "sourceRel": "实战项目-电商问数/0-前言.md"
+        "title": "1-2 提示词工程基础",
+        "rel": "1-2-提示词工程基础",
+        "sourceRel": "1-2-提示词工程基础.md"
       },
       {
-        "title": "关键词微调：课程数据与配置",
-        "rel": "案例与源码-4-微调",
-        "sourceRel": "案例与源码-4-微调/README.md"
+        "title": "1-3 RAG、微调、续训与智能体选型",
+        "rel": "1-3-RAG_微调_续训与智能体选型",
+        "sourceRel": "1-3-RAG、微调、续训与智能体选型.md"
+      },
+      {
+        "title": "2 - RAG - 搭建企业私有&个人知识库",
+        "rel": "2-RAG-搭建企业私有_个人知识库",
+        "sourceRel": "2-RAG-搭建企业私有&个人知识库.md"
+      },
+      {
+        "title": "3 - 基于 Coze&Dify 平台的智能体开发",
+        "rel": "3-基于Coze_Dify平台的智能体开发",
+        "sourceRel": "3-基于Coze&Dify平台的智能体开发.md"
+      },
+      {
+        "title": "4 - Python 调用 Dify 平台工作流",
+        "rel": "4-Python调用Dify平台工作流",
+        "sourceRel": "4-Python调用Dify平台工作流.md"
+      },
+      {
+        "title": "5 - Python 调用 Coze 平台工作流",
+        "rel": "5-Python调用Coze平台工作流",
+        "sourceRel": "5-Python调用Coze平台工作流.md"
+      },
+      {
+        "title": "6 - Coze 与 Dify 的 Windows 平台部署",
+        "rel": "6-Coze与Dify的Windows平台部署",
+        "sourceRel": "6-Coze与Dify的Windows平台部署.md"
+      },
+      {
+        "title": "7 - 企业级大模型部署",
+        "rel": "7-企业级大模型部署",
+        "sourceRel": "7-企业级大模型部署.md"
+      },
+      {
+        "title": "8 - Docker 快速入门与 Dify 部署排障",
+        "rel": "8-Docker快速入门与Dify部署排障",
+        "sourceRel": "8-Docker快速入门与Dify部署排障.md"
+      },
+      {
+        "title": "9 - LangChain 概述与架构",
+        "rel": "9-LangChain概述与架构",
+        "sourceRel": "9-LangChain概述与架构.md"
+      },
+      {
+        "title": "10 - LangChain 快速上手与 HelloWorld",
+        "rel": "10-LangChain快速上手与HelloWorld",
+        "sourceRel": "10-LangChain快速上手与HelloWorld.md"
+      },
+      {
+        "title": "11 - Model I/O 与模型接入",
+        "rel": "11-Model-I-O与模型接入",
+        "sourceRel": "11-Model-I-O与模型接入.md"
+      },
+      {
+        "title": "12 - Ollama 本地部署与调用",
+        "rel": "12-Ollama本地部署与调用",
+        "sourceRel": "12-Ollama本地部署与调用.md"
+      },
+      {
+        "title": "13 - 提示词与消息模板",
+        "rel": "13-提示词与消息模板",
+        "sourceRel": "13-提示词与消息模板.md"
+      },
+      {
+        "title": "14 - 输出解析器",
+        "rel": "14-输出解析器",
+        "sourceRel": "14-输出解析器.md"
+      },
+      {
+        "title": "15 - LCEL 与链式调用",
+        "rel": "15-LCEL与链式调用",
+        "sourceRel": "15-LCEL与链式调用.md"
+      },
+      {
+        "title": "16 - 记忆与对话历史（含 Redis 基础）",
+        "rel": "16-记忆与对话历史_含Redis基础_",
+        "sourceRel": "16-记忆与对话历史（含Redis基础）.md"
+      },
+      {
+        "title": "17 - Tools 工具调用",
+        "rel": "17-Tools工具调用",
+        "sourceRel": "17-Tools工具调用.md"
+      },
+      {
+        "title": "18 - 向量数据库与 Embedding 实战",
+        "rel": "18-向量数据库与Embedding实战",
+        "sourceRel": "18-向量数据库与Embedding实战.md"
+      },
+      {
+        "title": "19 - RAG 检索增强生成",
+        "rel": "19-RAG检索增强生成",
+        "sourceRel": "19-RAG检索增强生成.md"
+      },
+      {
+        "title": "20 - MCP 模型上下文协议",
+        "rel": "20-MCP模型上下文协议",
+        "sourceRel": "20-MCP模型上下文协议.md"
+      },
+      {
+        "title": "21 - Agent 智能体",
+        "rel": "21-Agent智能体",
+        "sourceRel": "21-Agent智能体.md"
       }
     ]
   },
@@ -8263,51 +5979,6 @@ export const courses: Course[] = [
         "title": "Chapter 11 Agentic-RL",
         "rel": "docs-chapter11-Chapter11-Agentic-RL",
         "sourceRel": "docs/chapter11/Chapter11-Agentic-RL.md"
-      },
-      {
-        "title": "第十二章 智能体性能评估",
-        "rel": "docs-chapter12-第十二章_智能体性能评估",
-        "sourceRel": "docs/chapter12/第十二章 智能体性能评估.md"
-      },
-      {
-        "title": "Chapter 12: Agent Performance Evaluation",
-        "rel": "docs-chapter12-Chapter12-Agent-Performance-Evaluation",
-        "sourceRel": "docs/chapter12/Chapter12-Agent-Performance-Evaluation.md"
-      },
-      {
-        "title": "第十五章 构建赛博小镇",
-        "rel": "docs-chapter15-第十五章_构建赛博小镇",
-        "sourceRel": "docs/chapter15/第十五章 构建赛博小镇.md"
-      },
-      {
-        "title": "Chapter 15: Building Cyber Town",
-        "rel": "docs-chapter15-Chapter15-Building-Cyber-Town",
-        "sourceRel": "docs/chapter15/Chapter15-Building-Cyber-Town.md"
-      },
-      {
-        "title": "第十六章 毕业设计：构建属于你的多智能体应用",
-        "rel": "docs-chapter16-第十六章_毕业设计",
-        "sourceRel": "docs/chapter16/第十六章 毕业设计.md"
-      },
-      {
-        "title": "Chapter 16: Graduation Project - Building Your Own Multi-Agent Application",
-        "rel": "docs-chapter16-Chapter16-Graduation-Project",
-        "sourceRel": "docs/chapter16/Chapter16-Graduation-Project.md"
-      },
-      {
-        "title": "Preface",
-        "rel": "docs-Preface",
-        "sourceRel": "docs/Preface.md"
-      },
-      {
-        "title": "Hello Agents（Datawhale 智能体教程）",
-        "rel": "docs-README_EN",
-        "sourceRel": "docs/README_EN.md"
-      },
-      {
-        "title": "Hello Agents（Datawhale 智能体教程）",
-        "rel": "docs-README",
-        "sourceRel": "docs/README.md"
       }
     ]
   },
@@ -8396,6 +6067,11 @@ export const courses: Course[] = [
         "sourceRel": "ch11/README.md"
       },
       {
+        "title": "CLAUDE.md",
+        "rel": "CLAUDE",
+        "sourceRel": "CLAUDE.md"
+      },
+      {
         "title": "React + Vite",
         "rel": "frontend",
         "sourceRel": "frontend/README.md"
@@ -8443,12 +6119,12 @@ export const courses: Course[] = [
       },
       {
         "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "case-studies-examples-customer-email-assist-starter-index",
+        "rel": "case-studies-examples-customer-email-assist-starter",
         "sourceRel": "case-studies/examples/customer-email-assist-starter/index.mdx"
       },
       {
         "title": "Customer Email Assist Starter",
-        "rel": "case-studies-examples-customer-email-assist-starter-README",
+        "rel": "case-studies-examples-customer-email-assist-starter-2",
         "sourceRel": "case-studies/examples/customer-email-assist-starter/README.md"
       },
       {
@@ -8463,7 +6139,7 @@ export const courses: Course[] = [
       },
       {
         "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "case-studies-examples-customer-support-email-agent-starter-index",
+        "rel": "case-studies-examples-customer-support-email-agent-starter",
         "sourceRel": "case-studies/examples/customer-support-email-agent-starter/index.mdx"
       },
       {
@@ -8473,17 +6149,17 @@ export const courses: Course[] = [
       },
       {
         "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "case-studies-examples-deep-research-agent-starter-index",
+        "rel": "case-studies-examples-deep-research-agent-starter",
         "sourceRel": "case-studies/examples/deep-research-agent-starter/index.mdx"
       },
       {
         "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "case-studies-index",
+        "rel": "case-studies",
         "sourceRel": "case-studies/index.mdx"
       },
       {
         "title": "Case Studies",
-        "rel": "case-studies-README",
+        "rel": "case-studies-2",
         "sourceRel": "case-studies/README.md"
       },
       {
@@ -8503,17 +6179,17 @@ export const courses: Course[] = [
       },
       {
         "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "ecosystem-examples-langgraph-starter-index",
+        "rel": "ecosystem-examples-langgraph-starter",
         "sourceRel": "ecosystem/examples/langgraph-starter/index.mdx"
       },
       {
         "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "ecosystem-examples-messaging-transaction-assistant-starter-index",
+        "rel": "ecosystem-examples-messaging-transaction-assistant-starter",
         "sourceRel": "ecosystem/examples/messaging-transaction-assistant-starter/index.mdx"
       },
       {
         "title": "Messaging Transaction Assistant Starter",
-        "rel": "ecosystem-examples-messaging-transaction-assistant-starter-README",
+        "rel": "ecosystem-examples-messaging-transaction-assistant-starter-2",
         "sourceRel": "ecosystem/examples/messaging-transaction-assistant-starter/README.md"
       },
       {
@@ -8528,7 +6204,7 @@ export const courses: Course[] = [
       },
       {
         "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "ecosystem-index",
+        "rel": "ecosystem",
         "sourceRel": "ecosystem/index.mdx"
       },
       {
@@ -8538,893 +6214,8 @@ export const courses: Course[] = [
       },
       {
         "title": "Ecosystem",
-        "rel": "ecosystem-README",
+        "rel": "ecosystem-2",
         "sourceRel": "ecosystem/README.md"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "foundations-agent-systems-what-is-agent-system",
-        "sourceRel": "foundations/agent-systems/what-is-agent-system.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "foundations-agent-systems-what-is-agent",
-        "sourceRel": "foundations/agent-systems/what-is-agent.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "foundations-agent-systems-why-agent-systems-matter",
-        "sourceRel": "foundations/agent-systems/why-agent-systems-matter.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "foundations-agents-vs-workflows",
-        "sourceRel": "foundations/agents-vs-workflows.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "foundations-history-of-agent-ideas",
-        "sourceRel": "foundations/history-of-agent-ideas.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "foundations-index",
-        "sourceRel": "foundations/index.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "foundations-llm-foundations-for-agent-systems",
-        "sourceRel": "foundations/llm-foundations-for-agent-systems.mdx"
-      },
-      {
-        "title": "Foundations",
-        "rel": "foundations-README",
-        "sourceRel": "foundations/README.md"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "foundations-the-agent-system",
-        "sourceRel": "foundations/the-agent-system.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "patterns-agent-memory-and-retrieval",
-        "sourceRel": "patterns/agent-memory-and-retrieval.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "patterns-agent-runtime-building-blocks",
-        "sourceRel": "patterns/agent-runtime-building-blocks.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "patterns-browser-and-computer-use-patterns",
-        "sourceRel": "patterns/browser-and-computer-use-patterns.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "patterns-examples-agent-memory-retrieval-starter-index",
-        "sourceRel": "patterns/examples/agent-memory-retrieval-starter/index.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "patterns-examples-prompt-cache-agent-starter-index",
-        "sourceRel": "patterns/examples/prompt-cache-agent-starter/index.mdx"
-      },
-      {
-        "title": "Prompt Cache Agent Starter",
-        "rel": "patterns-examples-prompt-cache-agent-starter-README",
-        "sourceRel": "patterns/examples/prompt-cache-agent-starter/README.md"
-      },
-      {
-        "title": "Source Notes",
-        "rel": "patterns-examples-prompt-cache-agent-starter-SOURCE_NOTES",
-        "sourceRel": "patterns/examples/prompt-cache-agent-starter/SOURCE_NOTES.md"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "patterns-index",
-        "sourceRel": "patterns/index.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "patterns-planning-and-reflection",
-        "sourceRel": "patterns/planning-and-reflection.mdx"
-      },
-      {
-        "title": "Patterns",
-        "rel": "patterns-README",
-        "sourceRel": "patterns/README.md"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "patterns-reasoning-and-control-patterns",
-        "sourceRel": "patterns/reasoning-and-control-patterns.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "patterns-tool-design-for-agent-systems",
-        "sourceRel": "patterns/tool-design-for-agent-systems.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "publications-index",
-        "sourceRel": "publications/index.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "publications-metadata-schema",
-        "sourceRel": "publications/metadata-schema.mdx"
-      },
-      {
-        "title": "Publications",
-        "rel": "publications-README",
-        "sourceRel": "publications/README.md"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "radar-2026-04-assistant-safety-escalation-watch",
-        "sourceRel": "radar/2026-04-assistant-safety-escalation-watch.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "radar-2026-04-cyber-defense-access-policy-watch",
-        "sourceRel": "radar/2026-04-cyber-defense-access-policy-watch.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "radar-2026-04-defense-agent-training-loop-watch",
-        "sourceRel": "radar/2026-04-defense-agent-training-loop-watch.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "radar-2026-04-interoperability-watch",
-        "sourceRel": "radar/2026-04-interoperability-watch.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "radar-2026-04-local-agent-watch",
-        "sourceRel": "radar/2026-04-local-agent-watch.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "radar-2026-04-portable-assistant-memory-watch",
-        "sourceRel": "radar/2026-04-portable-assistant-memory-watch.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "radar-2026-04-protocol-watch",
-        "sourceRel": "radar/2026-04-protocol-watch.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "radar-2026-05-agentic-shopping-assistant-watch",
-        "sourceRel": "radar/2026-05-agentic-shopping-assistant-watch.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "radar-2026-05-customer-support-agent-evaluation-tradeoffs",
-        "sourceRel": "radar/2026-05-customer-support-agent-evaluation-tradeoffs.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "radar-2026-05-openai-multicloud-managed-agents",
-        "sourceRel": "radar/2026-05-openai-multicloud-managed-agents.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "radar-2026-05-prompt-injection-authority-boundaries",
-        "sourceRel": "radar/2026-05-prompt-injection-authority-boundaries.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "radar-2026-06-agent-first-devices-watch",
-        "sourceRel": "radar/2026-06-agent-first-devices-watch.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "radar-2026-06-agent-runtime-billing-watch",
-        "sourceRel": "radar/2026-06-agent-runtime-billing-watch.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "radar-2026-06-agentic-resource-discovery-watch",
-        "sourceRel": "radar/2026-06-agentic-resource-discovery-watch.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "radar-2026-06-open-agent-training-environments-watch",
-        "sourceRel": "radar/2026-06-open-agent-training-environments-watch.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "radar-2026-06-prompt-injection-lockdown-mode-watch",
-        "sourceRel": "radar/2026-06-prompt-injection-lockdown-mode-watch.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "radar-index",
-        "sourceRel": "radar/index.mdx"
-      },
-      {
-        "title": "Radar",
-        "rel": "radar-README",
-        "sourceRel": "radar/README.md"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "reading-paths-builder",
-        "sourceRel": "reading-paths/builder.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "reading-paths-contributor",
-        "sourceRel": "reading-paths/contributor.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "reading-paths-environment-setup",
-        "sourceRel": "reading-paths/environment-setup.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "reading-paths-explorer",
-        "sourceRel": "reading-paths/explorer.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "reading-paths-index",
-        "sourceRel": "reading-paths/index.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "reading-paths-practitioner",
-        "sourceRel": "reading-paths/practitioner.mdx"
-      },
-      {
-        "title": "Reading Paths",
-        "rel": "reading-paths-README",
-        "sourceRel": "reading-paths/README.md"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "reading-paths-sample-projects",
-        "sourceRel": "reading-paths/sample-projects.mdx"
-      },
-      {
-        "title": "Agent Runtime Cache Benchmark",
-        "rel": "skills-agent-runtime-cache-benchmark-README",
-        "sourceRel": "skills/agent-runtime-cache-benchmark/README.md"
-      },
-      {
-        "title": "Provider Cache Notes",
-        "rel": "skills-agent-runtime-cache-benchmark-references-provider-cache-notes",
-        "sourceRel": "skills/agent-runtime-cache-benchmark/references/provider-cache-notes.md"
-      },
-      {
-        "title": "Agent Runtime Cache Benchmark",
-        "rel": "skills-agent-runtime-cache-benchmark-SKILL",
-        "sourceRel": "skills/agent-runtime-cache-benchmark/SKILL.md"
-      },
-      {
-        "title": "AI Search Visibility",
-        "rel": "skills-ai-search-visibility-README",
-        "sourceRel": "skills/ai-search-visibility/README.md"
-      },
-      {
-        "title": "Persistence contract",
-        "rel": "skills-ai-search-visibility-references-persistence-contract",
-        "sourceRel": "skills/ai-search-visibility/references/persistence-contract.md"
-      },
-      {
-        "title": "Safety rules",
-        "rel": "skills-ai-search-visibility-references-safety-rules",
-        "sourceRel": "skills/ai-search-visibility/references/safety-rules.md"
-      },
-      {
-        "title": "Source and license notes",
-        "rel": "skills-ai-search-visibility-references-source-notes",
-        "sourceRel": "skills/ai-search-visibility/references/source-notes.md"
-      },
-      {
-        "title": "AI Search Visibility",
-        "rel": "skills-ai-search-visibility-SKILL",
-        "sourceRel": "skills/ai-search-visibility/SKILL.md"
-      },
-      {
-        "title": "Business Data Analysis",
-        "rel": "skills-business-data-analysis-README",
-        "sourceRel": "skills/business-data-analysis/README.md"
-      },
-      {
-        "title": "Persistence contract",
-        "rel": "skills-business-data-analysis-references-persistence-contract",
-        "sourceRel": "skills/business-data-analysis/references/persistence-contract.md"
-      },
-      {
-        "title": "Safety rules",
-        "rel": "skills-business-data-analysis-references-safety-rules",
-        "sourceRel": "skills/business-data-analysis/references/safety-rules.md"
-      },
-      {
-        "title": "Source and license notes",
-        "rel": "skills-business-data-analysis-references-source-notes",
-        "sourceRel": "skills/business-data-analysis/references/source-notes.md"
-      },
-      {
-        "title": "Business Data Analysis",
-        "rel": "skills-business-data-analysis-SKILL",
-        "sourceRel": "skills/business-data-analysis/SKILL.md"
-      },
-      {
-        "title": "Business Data Structuring",
-        "rel": "skills-business-data-structuring-README",
-        "sourceRel": "skills/business-data-structuring/README.md"
-      },
-      {
-        "title": "Persistence contract",
-        "rel": "skills-business-data-structuring-references-persistence-contract",
-        "sourceRel": "skills/business-data-structuring/references/persistence-contract.md"
-      },
-      {
-        "title": "Safety rules",
-        "rel": "skills-business-data-structuring-references-safety-rules",
-        "sourceRel": "skills/business-data-structuring/references/safety-rules.md"
-      },
-      {
-        "title": "Source and license notes",
-        "rel": "skills-business-data-structuring-references-source-notes",
-        "sourceRel": "skills/business-data-structuring/references/source-notes.md"
-      },
-      {
-        "title": "Business Data Structuring",
-        "rel": "skills-business-data-structuring-SKILL",
-        "sourceRel": "skills/business-data-structuring/SKILL.md"
-      },
-      {
-        "title": "Synthetic workshop facts",
-        "rel": "skills-content-strategy-examples-synthetic-workshop-brief",
-        "sourceRel": "skills/content-strategy/examples/synthetic-workshop-brief.md"
-      },
-      {
-        "title": "Content Strategy",
-        "rel": "skills-content-strategy-README",
-        "sourceRel": "skills/content-strategy/README.md"
-      },
-      {
-        "title": "Persistence contract",
-        "rel": "skills-content-strategy-references-persistence-contract",
-        "sourceRel": "skills/content-strategy/references/persistence-contract.md"
-      },
-      {
-        "title": "Safety rules",
-        "rel": "skills-content-strategy-references-safety-rules",
-        "sourceRel": "skills/content-strategy/references/safety-rules.md"
-      },
-      {
-        "title": "Source and license notes",
-        "rel": "skills-content-strategy-references-source-notes",
-        "sourceRel": "skills/content-strategy/references/source-notes.md"
-      },
-      {
-        "title": "Content Strategy",
-        "rel": "skills-content-strategy-SKILL",
-        "sourceRel": "skills/content-strategy/SKILL.md"
-      },
-      {
-        "title": "Synthetic Client Service Agreement",
-        "rel": "skills-course-support-examples-lesson-2-organizer-freelancer-rules-incoming-client-service-agreement",
-        "sourceRel": "skills/course-support/examples/lesson-2-organizer-freelancer-rules/incoming/client-service-agreement.md"
-      },
-      {
-        "title": "Synthetic Website Project Ideas",
-        "rel": "skills-course-support-examples-lesson-2-organizer-freelancer-rules-incoming-website-project-ideas",
-        "sourceRel": "skills/course-support/examples/lesson-2-organizer-freelancer-rules/incoming/website-project-ideas.md"
-      },
-      {
-        "title": "Synthetic Monthly Expense Notes",
-        "rel": "skills-course-support-examples-lesson-2-organizer-safe-recovery-incoming-expense-notes",
-        "sourceRel": "skills/course-support/examples/lesson-2-organizer-safe-recovery/incoming/expense-notes.md"
-      },
-      {
-        "title": "Synthetic Course Reading List",
-        "rel": "skills-course-support-examples-lesson-2-organizer-student-files-incoming-school-reading",
-        "sourceRel": "skills/course-support/examples/lesson-2-organizer-student-files/incoming/school-reading.md"
-      },
-      {
-        "title": "Workshop brief",
-        "rel": "skills-course-support-examples-lesson-2-research-brief",
-        "sourceRel": "skills/course-support/examples/lesson-2/research/brief.md"
-      },
-      {
-        "title": "Room update",
-        "rel": "skills-course-support-examples-lesson-2-research-room-update",
-        "sourceRel": "skills/course-support/examples/lesson-2/research/room-update.md"
-      },
-      {
-        "title": "Lesson 2 — Organize, Understand, Automate",
-        "rel": "skills-course-support-lessons-lesson-2",
-        "sourceRel": "skills/course-support/lessons/lesson-2.md"
-      },
-      {
-        "title": "Lesson 3 — Build → Test → Deploy",
-        "rel": "skills-course-support-lessons-lesson-3",
-        "sourceRel": "skills/course-support/lessons/lesson-3.md"
-      },
-      {
-        "title": "Lesson 4 — Structure → Operate → Analyze",
-        "rel": "skills-course-support-lessons-lesson-4",
-        "sourceRel": "skills/course-support/lessons/lesson-4.md"
-      },
-      {
-        "title": "Lesson 5 — Plan → Distribute → Discover",
-        "rel": "skills-course-support-lessons-lesson-5",
-        "sourceRel": "skills/course-support/lessons/lesson-5.md"
-      },
-      {
-        "title": "GW02 Professional AI Agent Course skill support",
-        "rel": "skills-course-support-README",
-        "sourceRel": "skills/course-support/README.md"
-      },
-      {
-        "title": "Course persistence contract v1",
-        "rel": "skills-course-support-references-backend-contract",
-        "sourceRel": "skills/course-support/references/backend-contract.md"
-      },
-      {
-        "title": "Web App dependency: classroom persistence and safe Social access",
-        "rel": "skills-course-support-references-backend-dependency",
-        "sourceRel": "skills/course-support/references/backend-dependency.md"
-      },
-      {
-        "title": "Lesson 2 — 文件整理、资料理解、工作流自动化",
-        "rel": "skills-course-support-zh-Hans-lesson-2",
-        "sourceRel": "skills/course-support/zh-Hans/lesson-2.md"
-      },
-      {
-        "title": "第 3 课：Build → Test → Deploy",
-        "rel": "skills-course-support-zh-Hans-lesson-3",
-        "sourceRel": "skills/course-support/zh-Hans/lesson-3.md"
-      },
-      {
-        "title": "第 4 课：Structure → Operate → Analyze",
-        "rel": "skills-course-support-zh-Hans-lesson-4",
-        "sourceRel": "skills/course-support/zh-Hans/lesson-4.md"
-      },
-      {
-        "title": "第 5 课：Plan → Distribute → Discover",
-        "rel": "skills-course-support-zh-Hans-lesson-5",
-        "sourceRel": "skills/course-support/zh-Hans/lesson-5.md"
-      },
-      {
-        "title": "CRM Operations",
-        "rel": "skills-crm-operations-README",
-        "sourceRel": "skills/crm-operations/README.md"
-      },
-      {
-        "title": "Persistence contract",
-        "rel": "skills-crm-operations-references-persistence-contract",
-        "sourceRel": "skills/crm-operations/references/persistence-contract.md"
-      },
-      {
-        "title": "Safety rules",
-        "rel": "skills-crm-operations-references-safety-rules",
-        "sourceRel": "skills/crm-operations/references/safety-rules.md"
-      },
-      {
-        "title": "Source and license notes",
-        "rel": "skills-crm-operations-references-source-notes",
-        "sourceRel": "skills/crm-operations/references/source-notes.md"
-      },
-      {
-        "title": "CRM Operations",
-        "rel": "skills-crm-operations-SKILL",
-        "sourceRel": "skills/crm-operations/SKILL.md"
-      },
-      {
-        "title": "Daily News Watcher",
-        "rel": "skills-daily-news-watcher-README",
-        "sourceRel": "skills/daily-news-watcher/README.md"
-      },
-      {
-        "title": "Fetch Rules",
-        "rel": "skills-daily-news-watcher-references-fetch-rules",
-        "sourceRel": "skills/daily-news-watcher/references/fetch-rules.md"
-      },
-      {
-        "title": "Daily News Watcher",
-        "rel": "skills-daily-news-watcher-SKILL",
-        "sourceRel": "skills/daily-news-watcher/SKILL.md"
-      },
-      {
-        "title": "Garbage Collector",
-        "rel": "skills-garbage-collector-README",
-        "sourceRel": "skills/garbage-collector/README.md"
-      },
-      {
-        "title": "Garbage Collector",
-        "rel": "skills-garbage-collector-SKILL",
-        "sourceRel": "skills/garbage-collector/SKILL.md"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "skills-index",
-        "sourceRel": "skills/index.mdx"
-      },
-      {
-        "title": "Local Document Organizer",
-        "rel": "skills-local-document-organizer-README",
-        "sourceRel": "skills/local-document-organizer/README.md"
-      },
-      {
-        "title": "Course persistence",
-        "rel": "skills-local-document-organizer-references-persistence-contract",
-        "sourceRel": "skills/local-document-organizer/references/persistence-contract.md"
-      },
-      {
-        "title": "Safety Rules",
-        "rel": "skills-local-document-organizer-references-safety-rules",
-        "sourceRel": "skills/local-document-organizer/references/safety-rules.md"
-      },
-      {
-        "title": "Source notes",
-        "rel": "skills-local-document-organizer-references-source-notes",
-        "sourceRel": "skills/local-document-organizer/references/source-notes.md"
-      },
-      {
-        "title": "Local Document Organizer",
-        "rel": "skills-local-document-organizer-SKILL",
-        "sourceRel": "skills/local-document-organizer/SKILL.md"
-      },
-      {
-        "title": "Personal Knowledge Capture",
-        "rel": "skills-personal-knowledge-capture-README",
-        "sourceRel": "skills/personal-knowledge-capture/README.md"
-      },
-      {
-        "title": "Course persistence",
-        "rel": "skills-personal-knowledge-capture-references-persistence-contract",
-        "sourceRel": "skills/personal-knowledge-capture/references/persistence-contract.md"
-      },
-      {
-        "title": "Safety rules",
-        "rel": "skills-personal-knowledge-capture-references-safety-rules",
-        "sourceRel": "skills/personal-knowledge-capture/references/safety-rules.md"
-      },
-      {
-        "title": "Source notes",
-        "rel": "skills-personal-knowledge-capture-references-source-notes",
-        "sourceRel": "skills/personal-knowledge-capture/references/source-notes.md"
-      },
-      {
-        "title": "Supported File Types",
-        "rel": "skills-personal-knowledge-capture-references-supported-file-types",
-        "sourceRel": "skills/personal-knowledge-capture/references/supported-file-types.md"
-      },
-      {
-        "title": "Personal Knowledge Capture",
-        "rel": "skills-personal-knowledge-capture-SKILL",
-        "sourceRel": "skills/personal-knowledge-capture/SKILL.md"
-      },
-      {
-        "title": "Personal Workflow Automation",
-        "rel": "skills-personal-workflow-automation-README",
-        "sourceRel": "skills/personal-workflow-automation/README.md"
-      },
-      {
-        "title": "Course persistence",
-        "rel": "skills-personal-workflow-automation-references-persistence-contract",
-        "sourceRel": "skills/personal-workflow-automation/references/persistence-contract.md"
-      },
-      {
-        "title": "Safety rules",
-        "rel": "skills-personal-workflow-automation-references-safety-rules",
-        "sourceRel": "skills/personal-workflow-automation/references/safety-rules.md"
-      },
-      {
-        "title": "Source notes",
-        "rel": "skills-personal-workflow-automation-references-source-notes",
-        "sourceRel": "skills/personal-workflow-automation/references/source-notes.md"
-      },
-      {
-        "title": "Personal Workflow Automation",
-        "rel": "skills-personal-workflow-automation-SKILL",
-        "sourceRel": "skills/personal-workflow-automation/SKILL.md"
-      },
-      {
-        "title": "Presentation Template Designer",
-        "rel": "skills-presentation-template-designer-README",
-        "sourceRel": "skills/presentation-template-designer/README.md"
-      },
-      {
-        "title": "Reusable Layout Catalog",
-        "rel": "skills-presentation-template-designer-references-layout-catalog",
-        "sourceRel": "skills/presentation-template-designer/references/layout-catalog.md"
-      },
-      {
-        "title": "Presentation Template Toolchain Research",
-        "rel": "skills-presentation-template-designer-references-market-research",
-        "sourceRel": "skills/presentation-template-designer/references/market-research.md"
-      },
-      {
-        "title": "Template Manifest Schema",
-        "rel": "skills-presentation-template-designer-references-template-manifest-schema",
-        "sourceRel": "skills/presentation-template-designer/references/template-manifest-schema.md"
-      },
-      {
-        "title": "Presentation Template Designer",
-        "rel": "skills-presentation-template-designer-SKILL",
-        "sourceRel": "skills/presentation-template-designer/SKILL.md"
-      },
-      {
-        "title": "Price Watcher",
-        "rel": "skills-price-watcher-README",
-        "sourceRel": "skills/price-watcher/README.md"
-      },
-      {
-        "title": "Price Parsing",
-        "rel": "skills-price-watcher-references-price-parsing",
-        "sourceRel": "skills/price-watcher/references/price-parsing.md"
-      },
-      {
-        "title": "SQLite Schema",
-        "rel": "skills-price-watcher-references-schema",
-        "sourceRel": "skills/price-watcher/references/schema.md"
-      },
-      {
-        "title": "Source Discovery And Product Normalization",
-        "rel": "skills-price-watcher-references-source-discovery",
-        "sourceRel": "skills/price-watcher/references/source-discovery.md"
-      },
-      {
-        "title": "Price Watcher",
-        "rel": "skills-price-watcher-SKILL",
-        "sourceRel": "skills/price-watcher/SKILL.md"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "skills-professional-ai-agent-course",
-        "sourceRel": "skills/professional-ai-agent-course.mdx"
-      },
-      {
-        "title": "Prompt Cache Agent Harness",
-        "rel": "skills-prompt-cache-agent-harness-README",
-        "sourceRel": "skills/prompt-cache-agent-harness/README.md"
-      },
-      {
-        "title": "Source Notes",
-        "rel": "skills-prompt-cache-agent-harness-references-source-notes",
-        "sourceRel": "skills/prompt-cache-agent-harness/references/source-notes.md"
-      },
-      {
-        "title": "Prompt Cache Agent Harness",
-        "rel": "skills-prompt-cache-agent-harness-SKILL",
-        "sourceRel": "skills/prompt-cache-agent-harness/SKILL.md"
-      },
-      {
-        "title": "Prompthon Social Campaign Manager",
-        "rel": "skills-prompthon-social-campaign-manager-README",
-        "sourceRel": "skills/prompthon-social-campaign-manager/README.md"
-      },
-      {
-        "title": "Social API Contract",
-        "rel": "skills-prompthon-social-campaign-manager-references-api-contract",
-        "sourceRel": "skills/prompthon-social-campaign-manager/references/api-contract.md"
-      },
-      {
-        "title": "Browser Bridge Contract",
-        "rel": "skills-prompthon-social-campaign-manager-references-browser-bridge-contract",
-        "sourceRel": "skills/prompthon-social-campaign-manager/references/browser-bridge-contract.md"
-      },
-      {
-        "title": "Canonical Host source contract",
-        "rel": "skills-prompthon-social-campaign-manager-references-canonical-host-contract",
-        "sourceRel": "skills/prompthon-social-campaign-manager/references/canonical-host-contract.md"
-      },
-      {
-        "title": "Required demo backend capability — not yet provisioned",
-        "rel": "skills-prompthon-social-campaign-manager-references-course-backend-dependency",
-        "sourceRel": "skills/prompthon-social-campaign-manager/references/course-backend-dependency.md"
-      },
-      {
-        "title": "Persistence contract",
-        "rel": "skills-prompthon-social-campaign-manager-references-persistence-contract",
-        "sourceRel": "skills/prompthon-social-campaign-manager/references/persistence-contract.md"
-      },
-      {
-        "title": "Preserved production reference",
-        "rel": "skills-prompthon-social-campaign-manager-references-production-guide",
-        "sourceRel": "skills/prompthon-social-campaign-manager/references/production-guide.md"
-      },
-      {
-        "title": "Preserved production reference",
-        "rel": "skills-prompthon-social-campaign-manager-references-production-workflow",
-        "sourceRel": "skills/prompthon-social-campaign-manager/references/production-workflow.md"
-      },
-      {
-        "title": "Safety rules",
-        "rel": "skills-prompthon-social-campaign-manager-references-safety-rules",
-        "sourceRel": "skills/prompthon-social-campaign-manager/references/safety-rules.md"
-      },
-      {
-        "title": "Source and license notes",
-        "rel": "skills-prompthon-social-campaign-manager-references-source-notes",
-        "sourceRel": "skills/prompthon-social-campaign-manager/references/source-notes.md"
-      },
-      {
-        "title": "Prompthon Social Campaign Manager",
-        "rel": "skills-prompthon-social-campaign-manager-SKILL",
-        "sourceRel": "skills/prompthon-social-campaign-manager/SKILL.md"
-      },
-      {
-        "title": "Safety Escalation Review",
-        "rel": "skills-safety-escalation-review-README",
-        "sourceRel": "skills/safety-escalation-review/README.md"
-      },
-      {
-        "title": "Escalation Checklist",
-        "rel": "skills-safety-escalation-review-references-escalation-checklist",
-        "sourceRel": "skills/safety-escalation-review/references/escalation-checklist.md"
-      },
-      {
-        "title": "Safety Escalation Review",
-        "rel": "skills-safety-escalation-review-SKILL",
-        "sourceRel": "skills/safety-escalation-review/SKILL.md"
-      },
-      {
-        "title": "Vercel Deploy",
-        "rel": "skills-vercel-deploy-README",
-        "sourceRel": "skills/vercel-deploy/README.md"
-      },
-      {
-        "title": "Persistence contract",
-        "rel": "skills-vercel-deploy-references-persistence-contract",
-        "sourceRel": "skills/vercel-deploy/references/persistence-contract.md"
-      },
-      {
-        "title": "Provider workflow",
-        "rel": "skills-vercel-deploy-references-provider-workflow",
-        "sourceRel": "skills/vercel-deploy/references/provider-workflow.md"
-      },
-      {
-        "title": "Safety rules",
-        "rel": "skills-vercel-deploy-references-safety-rules",
-        "sourceRel": "skills/vercel-deploy/references/safety-rules.md"
-      },
-      {
-        "title": "Source and license notes",
-        "rel": "skills-vercel-deploy-references-source-notes",
-        "sourceRel": "skills/vercel-deploy/references/source-notes.md"
-      },
-      {
-        "title": "Vercel Deploy",
-        "rel": "skills-vercel-deploy-SKILL",
-        "sourceRel": "skills/vercel-deploy/SKILL.md"
-      },
-      {
-        "title": "Web Builder",
-        "rel": "skills-web-builder-README",
-        "sourceRel": "skills/web-builder/README.md"
-      },
-      {
-        "title": "Persistence contract",
-        "rel": "skills-web-builder-references-persistence-contract",
-        "sourceRel": "skills/web-builder/references/persistence-contract.md"
-      },
-      {
-        "title": "Safety rules",
-        "rel": "skills-web-builder-references-safety-rules",
-        "sourceRel": "skills/web-builder/references/safety-rules.md"
-      },
-      {
-        "title": "Source and license notes",
-        "rel": "skills-web-builder-references-source-notes",
-        "sourceRel": "skills/web-builder/references/source-notes.md"
-      },
-      {
-        "title": "Web Builder",
-        "rel": "skills-web-builder-SKILL",
-        "sourceRel": "skills/web-builder/SKILL.md"
-      },
-      {
-        "title": "Web App Testing",
-        "rel": "skills-webapp-testing-README",
-        "sourceRel": "skills/webapp-testing/README.md"
-      },
-      {
-        "title": "Persistence contract",
-        "rel": "skills-webapp-testing-references-persistence-contract",
-        "sourceRel": "skills/webapp-testing/references/persistence-contract.md"
-      },
-      {
-        "title": "Safety rules",
-        "rel": "skills-webapp-testing-references-safety-rules",
-        "sourceRel": "skills/webapp-testing/references/safety-rules.md"
-      },
-      {
-        "title": "Source and license notes",
-        "rel": "skills-webapp-testing-references-source-notes",
-        "sourceRel": "skills/webapp-testing/references/source-notes.md"
-      },
-      {
-        "title": "Web App Testing",
-        "rel": "skills-webapp-testing-SKILL",
-        "sourceRel": "skills/webapp-testing/SKILL.md"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "specializations-ai-native-internship",
-        "sourceRel": "specializations/ai-native-internship.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "systems-agent-security-and-prompt-injection",
-        "sourceRel": "systems/agent-security-and-prompt-injection.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "systems-agent-ui-protocols-and-generative-ui",
-        "sourceRel": "systems/agent-ui-protocols-and-generative-ui.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "systems-context-engineering",
-        "sourceRel": "systems/context-engineering.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "systems-evaluation-and-observability",
-        "sourceRel": "systems/evaluation-and-observability.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "systems-examples-weather-mcp-server-starter-index",
-        "sourceRel": "systems/examples/weather-mcp-server-starter/index.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "systems-index",
-        "sourceRel": "systems/index.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "systems-protocols-and-interoperability",
-        "sourceRel": "systems/protocols-and-interoperability.mdx"
-      },
-      {
-        "title": "Systems",
-        "rel": "systems-README",
-        "sourceRel": "systems/README.md"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "workshops-codex-github-and-repository",
-        "sourceRel": "workshops/codex/github-and-repository.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "workshops-codex-index",
-        "sourceRel": "workshops/codex/index.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "workshops-codex-install-mac",
-        "sourceRel": "workshops/codex/install-mac.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "workshops-codex-install-windows",
-        "sourceRel": "workshops/codex/install-windows.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "workshops-desktop-agents-claude-code",
-        "sourceRel": "workshops/desktop-agents/claude-code.mdx"
-      },
-      {
-        "title": "Agent Systems Handbook（智能体系统手册）",
-        "rel": "workshops-desktop-agents-codex",
-        "sourceRel": "workshops/desktop-agents/codex.mdx"
       }
     ]
   },
@@ -9515,8 +6306,98 @@ export const courses: Course[] = [
       },
       {
         "title": "第 1 章：从 Agent Framework 到 Agent Harness — Deep Agents 的诞生逻辑",
-        "rel": "content",
+        "rel": "content-ch01-agent-harness",
         "sourceRel": "content/ch01-agent-harness.md"
+      },
+      {
+        "title": "第 2 章：快速上手 — 5 分钟构建你的第一个 Deep Agent",
+        "rel": "content-ch02-quickstart",
+        "sourceRel": "content/ch02-quickstart.md"
+      },
+      {
+        "title": "第 3 章：虚拟文件系统 — Deep Agents 的 Context Engineering 核心",
+        "rel": "content-ch03-virtual-filesystem",
+        "sourceRel": "content/ch03-virtual-filesystem.md"
+      },
+      {
+        "title": "第 4 章：任务规划与分解 — 让 Agent 学会拆解复杂任务",
+        "rel": "content-ch04-task-planning",
+        "sourceRel": "content/ch04-task-planning.md"
+      },
+      {
+        "title": "第 5 章：子 Agent 与上下文隔离 — 让 Agent 学会\"委派\"",
+        "rel": "content-ch05-subagents",
+        "sourceRel": "content/ch05-subagents.md"
+      },
+      {
+        "title": "第 6 章：异步子 Agent — 让主 Agent 同时驱动多个子任务",
+        "rel": "content-ch06-async-subagents",
+        "sourceRel": "content/ch06-async-subagents.md"
+      },
+      {
+        "title": "第 7 章：Skills — 可复用的 Agent 能力包",
+        "rel": "content-ch07-skills",
+        "sourceRel": "content/ch07-skills.md"
+      },
+      {
+        "title": "第 8 章：长期记忆 — 让 Agent 拥有跨对话的记忆",
+        "rel": "content-ch08-long-term-memory",
+        "sourceRel": "content/ch08-long-term-memory.md"
+      },
+      {
+        "title": "第 9 章：Human-in-the-Loop — 构建安全的人机协作流程",
+        "rel": "content-ch09-human-in-the-loop",
+        "sourceRel": "content/ch09-human-in-the-loop.md"
+      },
+      {
+        "title": "第 10 章：沙箱执行 — 让 Agent 安全地运行代码",
+        "rel": "content-ch10-sandboxes",
+        "sourceRel": "content/ch10-sandboxes.md"
+      },
+      {
+        "title": "第 11 章：文件系统权限 — 用声明式规则控制 Agent 的读写边界",
+        "rel": "content-ch11-filesystem-permissions",
+        "sourceRel": "content/ch11-filesystem-permissions.md"
+      },
+      {
+        "title": "第 12 章：MCP — 用标准协议扩展 Deep Agents 工具生态",
+        "rel": "content-ch12-mcp",
+        "sourceRel": "content/ch12-mcp.md"
+      },
+      {
+        "title": "第 13 章：评分量规 — 让 Agent 按验收标准自我迭代",
+        "rel": "content-ch13-grading-rubrics",
+        "sourceRel": "content/ch13-grading-rubrics.md"
+      },
+      {
+        "title": "第 14 章：Streaming — 实时观察主 Agent、子 Agent 与工具调用",
+        "rel": "content-ch14-streaming",
+        "sourceRel": "content/ch14-streaming.md"
+      },
+      {
+        "title": "第 15 章：Interpreters — 让 Agent 用代码编排工具与数据",
+        "rel": "content-ch15-interpreters",
+        "sourceRel": "content/ch15-interpreters.md"
+      },
+      {
+        "title": "第 16 章：Dynamic Subagents — 用代码编排多个 Agent",
+        "rel": "content-ch16-dynamic-subagents",
+        "sourceRel": "content/ch16-dynamic-subagents.md"
+      },
+      {
+        "title": "AgentSeek 准备篇（上）：用生命周期工作流启动 DeepAgents 模板",
+        "rel": "content-pre01-agentseek-create",
+        "sourceRel": "content/pre01-agentseek-create.md"
+      },
+      {
+        "title": "AgentSeek 准备篇（下）：为 AI 编码助手安装开发技能",
+        "rel": "content-pre02-agentseek-skills",
+        "sourceRel": "content/pre02-agentseek-skills.md"
+      },
+      {
+        "title": "Deep Agents v0.7：更轻、更透明、更可配置的 Harness",
+        "rel": "content-release-v0-7",
+        "sourceRel": "content/release-v0-7.md"
       }
     ]
   },
@@ -9551,12 +6432,12 @@ export const courses: Course[] = [
       },
       {
         "title": "Evaluations with Promptfoo",
-        "rel": "capabilities-classification-evaluation-README",
+        "rel": "capabilities-classification-evaluation",
         "sourceRel": "capabilities/classification/evaluation/README.md"
       },
       {
         "title": "Classification with Claude",
-        "rel": "capabilities-classification-README",
+        "rel": "capabilities-classification",
         "sourceRel": "capabilities/classification/README.md"
       },
       {
@@ -9576,62 +6457,62 @@ export const courses: Course[] = [
       },
       {
         "title": "Evaluation",
-        "rel": "capabilities-content_moderation-evaluation-README",
+        "rel": "capabilities-content_moderation-evaluation",
         "sourceRel": "capabilities/content_moderation/evaluation/README.md"
       },
       {
         "title": "Content policy enforcement with Claude",
-        "rel": "capabilities-content_moderation-README",
+        "rel": "capabilities-content_moderation",
         "sourceRel": "capabilities/content_moderation/README.md"
       },
       {
         "title": "Retrieval Augmented Generation with Contextual Embeddings",
-        "rel": "capabilities-contextual-embeddings-README",
+        "rel": "capabilities-contextual-embeddings",
         "sourceRel": "capabilities/contextual-embeddings/README.md"
       },
       {
         "title": "Knowledge Graph Extraction Evaluation",
-        "rel": "capabilities-knowledge_graph-evaluation-README",
+        "rel": "capabilities-knowledge_graph-evaluation",
         "sourceRel": "capabilities/knowledge_graph/evaluation/README.md"
       },
       {
         "title": "Knowledge Graph Construction with Claude",
-        "rel": "capabilities-knowledge_graph-README",
+        "rel": "capabilities-knowledge_graph",
         "sourceRel": "capabilities/knowledge_graph/README.md"
       },
       {
         "title": "Claude Capabilities",
-        "rel": "capabilities-README",
+        "rel": "capabilities",
         "sourceRel": "capabilities/README.md"
       },
       {
         "title": "Evaluations with Promptfoo",
-        "rel": "capabilities-retrieval_augmented_generation-evaluation-README",
+        "rel": "capabilities-retrieval_augmented_generation-evaluation",
         "sourceRel": "capabilities/retrieval_augmented_generation/evaluation/README.md"
       },
       {
         "title": "Retrieval Augmented Generation with Claude",
-        "rel": "capabilities-retrieval_augmented_generation-README",
+        "rel": "capabilities-retrieval_augmented_generation",
         "sourceRel": "capabilities/retrieval_augmented_generation/README.md"
       },
       {
         "title": "Evaluations with Promptfoo",
-        "rel": "capabilities-summarization-evaluation-README",
+        "rel": "capabilities-summarization-evaluation",
         "sourceRel": "capabilities/summarization/evaluation/README.md"
       },
       {
         "title": "Summarization with Claude",
-        "rel": "capabilities-summarization-README",
+        "rel": "capabilities-summarization",
         "sourceRel": "capabilities/summarization/README.md"
       },
       {
         "title": "Evaluations with Promptfoo",
-        "rel": "capabilities-text_to_sql-evaluation-README",
+        "rel": "capabilities-text_to_sql-evaluation",
         "sourceRel": "capabilities/text_to_sql/evaluation/README.md"
       },
       {
         "title": "Text-to-SQL with Claude",
-        "rel": "capabilities-text_to_sql-README",
+        "rel": "capabilities-text_to_sql",
         "sourceRel": "capabilities/text_to_sql/README.md"
       },
       {
@@ -9656,263 +6537,13 @@ export const courses: Course[] = [
       },
       {
         "title": "Tier 1 — Local Docker",
-        "rel": "claude_agent_sdk-hosting-docker-README",
+        "rel": "claude_agent_sdk-hosting-docker",
         "sourceRel": "claude_agent_sdk/hosting/docker/README.md"
       },
       {
         "title": "Tier 3 — Kubernetes (pod-per-session)",
-        "rel": "claude_agent_sdk-hosting-kubernetes-README",
+        "rel": "claude_agent_sdk-hosting-kubernetes",
         "sourceRel": "claude_agent_sdk/hosting/kubernetes/README.md"
-      },
-      {
-        "title": "Tier 2 — Modal",
-        "rel": "claude_agent_sdk-hosting-modal-README",
-        "sourceRel": "claude_agent_sdk/hosting/modal/README.md"
-      },
-      {
-        "title": "Hosting the research agent",
-        "rel": "claude_agent_sdk-hosting-README",
-        "sourceRel": "claude_agent_sdk/hosting/README.md"
-      },
-      {
-        "title": "Observability Agent Architecture",
-        "rel": "claude_agent_sdk-observability_agent-architecture_diagram",
-        "sourceRel": "claude_agent_sdk/observability_agent/architecture_diagram.md"
-      },
-      {
-        "title": "Building Powerful Agents with the Claude Agent SDK",
-        "rel": "claude_agent_sdk-README",
-        "sourceRel": "claude_agent_sdk/README.md"
-      },
-      {
-        "title": "Research Agent Architecture",
-        "rel": "claude_agent_sdk-research_agent-architecture_diagram",
-        "sourceRel": "claude_agent_sdk/research_agent/architecture_diagram.md"
-      },
-      {
-        "title": "CMA as an MCP server",
-        "rel": "managed_agents-cma-mcp-CLAUDE",
-        "sourceRel": "managed_agents/cma-mcp/CLAUDE.md"
-      },
-      {
-        "title": "CMA as an MCP server",
-        "rel": "managed_agents-cma-mcp-README",
-        "sourceRel": "managed_agents/cma-mcp/README.md"
-      },
-      {
-        "title": "Setup tips & tricks — CMA as an MCP server",
-        "rel": "managed_agents-cma-mcp-skill",
-        "sourceRel": "managed_agents/cma-mcp/skill.md"
-      },
-      {
-        "title": "Gate, expense approver",
-        "rel": "managed_agents-example_data-gate-README",
-        "sourceRel": "managed_agents/example_data/gate/README.md"
-      },
-      {
-        "title": "Iterate, get the tests green",
-        "rel": "managed_agents-example_data-iterate-README",
-        "sourceRel": "managed_agents/example_data/iterate/README.md"
-      },
-      {
-        "title": "Orchestrate, drive an issue to a merged PR",
-        "rel": "managed_agents-example_data-orchestrate-README",
-        "sourceRel": "managed_agents/example_data/orchestrate/README.md"
-      },
-      {
-        "title": "Example data",
-        "rel": "managed_agents-example_data-OVERVIEW",
-        "sourceRel": "managed_agents/example_data/OVERVIEW.md"
-      },
-      {
-        "title": "Runbook: OOMKilled / OutOfMemoryError",
-        "rel": "managed_agents-example_data-sre-runbooks-oom",
-        "sourceRel": "managed_agents/example_data/sre/runbooks/oom.md"
-      },
-      {
-        "title": "Linear × Claude Managed Agents bridge",
-        "rel": "managed_agents-linear-CLAUDE",
-        "sourceRel": "managed_agents/linear/CLAUDE.md"
-      },
-      {
-        "title": "Linear × Claude Managed Agents",
-        "rel": "managed_agents-linear-README",
-        "sourceRel": "managed_agents/linear/README.md"
-      },
-      {
-        "title": "Setup tips & tricks — Linear × CMA webhook bridge",
-        "rel": "managed_agents-linear-skill",
-        "sourceRel": "managed_agents/linear/skill.md"
-      },
-      {
-        "title": "MongoDB on Claude Managed Agents",
-        "rel": "managed_agents-mongodb_on_cma-README",
-        "sourceRel": "managed_agents/mongodb_on_cma/README.md"
-      },
-      {
-        "title": "Claude Managed Agents cookbooks",
-        "rel": "managed_agents-README",
-        "sourceRel": "managed_agents/README.md"
-      },
-      {
-        "title": "Road trip planner (Claude Managed Agents + Next.js)",
-        "rel": "managed_agents-roadtrip_planner-CLAUDE",
-        "sourceRel": "managed_agents/roadtrip_planner/CLAUDE.md"
-      },
-      {
-        "title": "Road trip planner: stream sessions, scope vault credentials, override models, and review plans agent-to-agent",
-        "rel": "managed_agents-roadtrip_planner-README",
-        "sourceRel": "managed_agents/roadtrip_planner/README.md"
-      },
-      {
-        "title": "Setup walkthrough",
-        "rel": "managed_agents-roadtrip_planner-skill",
-        "sourceRel": "managed_agents/roadtrip_planner/skill.md"
-      },
-      {
-        "title": "Cloudflare demo — Self-Hosted Sandboxes (pure-Worker variant)",
-        "rel": "managed_agents-self_hosted_sandboxes-cf-worker-README",
-        "sourceRel": "managed_agents/self_hosted_sandboxes/cf-worker/README.md"
-      },
-      {
-        "title": "Cloudflare demo — Self-Hosted Sandboxes (Container variant)",
-        "rel": "managed_agents-self_hosted_sandboxes-cf-README",
-        "sourceRel": "managed_agents/self_hosted_sandboxes/cf/README.md"
-      },
-      {
-        "title": "Daytona demo — Self-Hosted Sandboxes",
-        "rel": "managed_agents-self_hosted_sandboxes-daytona-README",
-        "sourceRel": "managed_agents/self_hosted_sandboxes/daytona/README.md"
-      },
-      {
-        "title": "Docker demo — Self-Hosted Sandboxes",
-        "rel": "managed_agents-self_hosted_sandboxes-docker-README",
-        "sourceRel": "managed_agents/self_hosted_sandboxes/docker/README.md"
-      },
-      {
-        "title": "Upgrading \"Running a self-hosted worker\"",
-        "rel": "managed_agents-self_hosted_sandboxes-docs-upgrade-guide",
-        "sourceRel": "managed_agents/self_hosted_sandboxes/docs/upgrade-guide.md"
-      },
-      {
-        "title": "Running a self-hosted worker",
-        "rel": "managed_agents-self_hosted_sandboxes-docs-usage-guide",
-        "sourceRel": "managed_agents/self_hosted_sandboxes/docs/usage-guide.md"
-      },
-      {
-        "title": "Modal demo — Self-Hosted Sandboxes",
-        "rel": "managed_agents-self_hosted_sandboxes-modal-README",
-        "sourceRel": "managed_agents/self_hosted_sandboxes/modal/README.md"
-      },
-      {
-        "title": "Self-Hosted Sandboxes",
-        "rel": "managed_agents-self_hosted_sandboxes-README",
-        "sourceRel": "managed_agents/self_hosted_sandboxes/README.md"
-      },
-      {
-        "title": "Vercel demo — Self-Hosted Sandboxes",
-        "rel": "managed_agents-self_hosted_sandboxes-vercel-README",
-        "sourceRel": "managed_agents/self_hosted_sandboxes/vercel/README.md"
-      },
-      {
-        "title": "Sentry triage × Claude Managed Agents",
-        "rel": "managed_agents-sentry-CLAUDE",
-        "sourceRel": "managed_agents/sentry/CLAUDE.md"
-      },
-      {
-        "title": "Sentry triage × Claude Managed Agents",
-        "rel": "managed_agents-sentry-README",
-        "sourceRel": "managed_agents/sentry/README.md"
-      },
-      {
-        "title": "Setup tips & tricks: scheduled Sentry triage with vault env-var credentials",
-        "rel": "managed_agents-sentry-skill",
-        "sourceRel": "managed_agents/sentry/skill.md"
-      },
-      {
-        "title": "Slack × Claude Managed Agents bridge",
-        "rel": "managed_agents-slack-CLAUDE",
-        "sourceRel": "managed_agents/slack/CLAUDE.md"
-      },
-      {
-        "title": "Slack × Claude Managed Agents",
-        "rel": "managed_agents-slack-README",
-        "sourceRel": "managed_agents/slack/README.md"
-      },
-      {
-        "title": "Setup tips & tricks — Slack × CMA webhook bridge",
-        "rel": "managed_agents-slack-skill",
-        "sourceRel": "managed_agents/slack/skill.md"
-      },
-      {
-        "title": "Claude Cookbooks",
-        "rel": "patterns-agents-prompts-citations_agent",
-        "sourceRel": "patterns/agents/prompts/citations_agent.md"
-      },
-      {
-        "title": "Claude Cookbooks",
-        "rel": "patterns-agents-prompts-research_lead_agent",
-        "sourceRel": "patterns/agents/prompts/research_lead_agent.md"
-      },
-      {
-        "title": "Claude Cookbooks",
-        "rel": "patterns-agents-prompts-research_subagent",
-        "sourceRel": "patterns/agents/prompts/research_subagent.md"
-      },
-      {
-        "title": "Building Effective Agents Cookbook",
-        "rel": "patterns-agents-README",
-        "sourceRel": "patterns/agents/README.md"
-      },
-      {
-        "title": "Skills Cookbook - Claude Code Guide",
-        "rel": "skills-CLAUDE",
-        "sourceRel": "skills/CLAUDE.md"
-      },
-      {
-        "title": "Financial Ratio Calculator Skill",
-        "rel": "skills-custom_skills-analyzing-financial-statements-SKILL",
-        "sourceRel": "skills/custom_skills/analyzing-financial-statements/SKILL.md"
-      },
-      {
-        "title": "Brand Guidelines Reference",
-        "rel": "skills-custom_skills-applying-brand-guidelines-REFERENCE",
-        "sourceRel": "skills/custom_skills/applying-brand-guidelines/REFERENCE.md"
-      },
-      {
-        "title": "Corporate Brand Guidelines Skill",
-        "rel": "skills-custom_skills-applying-brand-guidelines-SKILL",
-        "sourceRel": "skills/custom_skills/applying-brand-guidelines/SKILL.md"
-      },
-      {
-        "title": "Financial Modeling Suite",
-        "rel": "skills-custom_skills-creating-financial-models-SKILL",
-        "sourceRel": "skills/custom_skills/creating-financial-models/SKILL.md"
-      },
-      {
-        "title": "Claude Skills Cookbook 🚀",
-        "rel": "skills-README",
-        "sourceRel": "skills/README.md"
-      },
-      {
-        "title": "Deepgram < Claude Cookbooks",
-        "rel": "third_party-Deepgram-README",
-        "sourceRel": "third_party/Deepgram/README.md"
-      },
-      {
-        "title": "ElevenLabs < Claude Cookbooks",
-        "rel": "third_party-ElevenLabs-README",
-        "sourceRel": "third_party/ElevenLabs/README.md"
-      },
-      {
-        "title": "LlamaIndex < Claude Cookbooks",
-        "rel": "third_party-LlamaIndex-README",
-        "sourceRel": "third_party/LlamaIndex/README.md"
-      },
-      {
-        "title": "Embeddings",
-        "rel": "third_party-VoyageAI-how_to_create_embeddings",
-        "sourceRel": "third_party/VoyageAI/how_to_create_embeddings.md"
       }
     ]
   },
@@ -9947,13 +6578,118 @@ export const courses: Course[] = [
       },
       {
         "title": "Building workspace agents in ChatGPT to complete repeatable, end-to-end work",
-        "rel": "articles",
+        "rel": "articles-chatgpt-agents-sales-meeting-prep",
         "sourceRel": "articles/chatgpt-agents-sales-meeting-prep.md"
       },
       {
-        "title": "How to build an agent with the Node.js SDK",
-        "rel": "examples",
-        "sourceRel": "examples/How_to_build_an_agent_with_the_node_sdk.mdx"
+        "title": "Using PLANS.md for multi-hour problem solving",
+        "rel": "articles-codex_exec_plans",
+        "sourceRel": "articles/codex_exec_plans.md"
+      },
+      {
+        "title": "User guide for gpt-oss-safeguard",
+        "rel": "articles-gpt-oss-safeguard-guide",
+        "sourceRel": "articles/gpt-oss-safeguard-guide.md"
+      },
+      {
+        "title": "How to handle the raw chain of thought in gpt-oss",
+        "rel": "articles-gpt-oss-handle-raw-cot",
+        "sourceRel": "articles/gpt-oss/handle-raw-cot.md"
+      },
+      {
+        "title": "How to run gpt-oss locally with LM Studio",
+        "rel": "articles-gpt-oss-run-locally-lmstudio",
+        "sourceRel": "articles/gpt-oss/run-locally-lmstudio.md"
+      },
+      {
+        "title": "How to run gpt-oss locally with Ollama",
+        "rel": "articles-gpt-oss-run-locally-ollama",
+        "sourceRel": "articles/gpt-oss/run-locally-ollama.md"
+      },
+      {
+        "title": "How to run gpt-oss with Hugging Face Transformers",
+        "rel": "articles-gpt-oss-run-transformers",
+        "sourceRel": "articles/gpt-oss/run-transformers.md"
+      },
+      {
+        "title": "How to run gpt-oss with vLLM",
+        "rel": "articles-gpt-oss-run-vllm",
+        "sourceRel": "articles/gpt-oss/run-vllm.md"
+      },
+      {
+        "title": "Verifying gpt-oss implementations",
+        "rel": "articles-gpt-oss-verifying-implementations",
+        "sourceRel": "articles/gpt-oss/verifying-implementations.md"
+      },
+      {
+        "title": "How to work with large language models",
+        "rel": "articles-how_to_work_with_large_language_models",
+        "sourceRel": "articles/how_to_work_with_large_language_models.md"
+      },
+      {
+        "title": "OpenAI harmony response format",
+        "rel": "articles-openai-harmony",
+        "sourceRel": "articles/openai-harmony.md"
+      },
+      {
+        "title": "Build a per-run spending controller with the Responses API",
+        "rel": "articles-per_run_spending_controller_responses_api",
+        "sourceRel": "articles/per_run_spending_controller_responses_api.md"
+      },
+      {
+        "title": "Related resources from around the web",
+        "rel": "articles-related_resources",
+        "sourceRel": "articles/related_resources.md"
+      },
+      {
+        "title": "Techniques to improve reliability",
+        "rel": "articles-techniques_to_improve_reliability",
+        "sourceRel": "articles/techniques_to_improve_reliability.md"
+      },
+      {
+        "title": "Text comparison examples",
+        "rel": "articles-text_comparison_examples",
+        "sourceRel": "articles/text_comparison_examples.md"
+      },
+      {
+        "title": "What’s new with DALL·E-3?",
+        "rel": "articles-what_is_new_with_dalle_3",
+        "sourceRel": "articles/what_is_new_with_dalle_3.mdx"
+      },
+      {
+        "title": "What makes documentation good",
+        "rel": "articles-what_makes_documentation_good",
+        "sourceRel": "articles/what_makes_documentation_good.md"
+      },
+      {
+        "title": "Agents SDK Deployment Manager",
+        "rel": "examples-agents_sdk-deployment_manager",
+        "sourceRel": "examples/agents_sdk/deployment_manager/README.md"
+      },
+      {
+        "title": "Migrate from the Claude Agent SDK to the OpenAI Agents SDK",
+        "rel": "examples-agents_sdk-migrate-from-claude-agent-sdk",
+        "sourceRel": "examples/agents_sdk/migrate-from-claude-agent-sdk/README.md"
+      },
+      {
+        "title": "Code Interpreter Prompt (Best Practices, GPT-4.1)",
+        "rel": "examples-agents_sdk-multi-agent-portfolio-collaboration-prompts-code_interpreter",
+        "sourceRel": "examples/agents_sdk/multi-agent-portfolio-collaboration/prompts/code_interpreter.md"
+      },
+      {
+        "title": "Memo Editor – Prompt",
+        "rel": "examples-agents_sdk-multi-agent-portfolio-collaboration-prompts-editor_base",
+        "sourceRel": "examples/agents_sdk/multi-agent-portfolio-collaboration/prompts/editor_base.md"
+      },
+      {
+        "title": "Lead Fundamental Analyst – Prompt",
+        "rel": "examples-agents_sdk-multi-agent-portfolio-collaboration-prompts-fundamental_base",
+        "sourceRel": "examples/agents_sdk/multi-agent-portfolio-collaboration/prompts/fundamental_base.md"
+      },
+      {
+        "title": "Macro Strategist – Prompt",
+        "rel": "examples-agents_sdk-multi-agent-portfolio-collaboration-prompts-macro_base",
+        "sourceRel": "examples/agents_sdk/multi-agent-portfolio-collaboration/prompts/macro_base.md"
       }
     ]
   },
@@ -9987,9 +6723,79 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
+        "title": "Gemini API and Google Workspace Codelab",
+        "rel": "examples-Apps_script_and_Workspace_codelab",
+        "sourceRel": "examples/Apps_script_and_Workspace_codelab/README.md"
+      },
+      {
+        "title": "ChromaDB integration",
+        "rel": "examples-chromadb",
+        "sourceRel": "examples/chromadb/README.md"
+      },
+      {
+        "title": "Gemini API Haystack Examples",
+        "rel": "examples-haystack",
+        "sourceRel": "examples/haystack/README.md"
+      },
+      {
+        "title": "Voice-Controlled LED Ring with the ESP32",
+        "rel": "examples-iot-esp32-voice_led_controller",
+        "sourceRel": "examples/iot/esp32/voice_led_controller/README.md"
+      },
+      {
+        "title": "Gemini JSON Capabilities",
+        "rel": "examples-json_capabilities",
+        "sourceRel": "examples/json_capabilities/README.md"
+      },
+      {
+        "title": "Gemini API LangChain Examples",
+        "rel": "examples-langchain",
+        "sourceRel": "examples/langchain/README.md"
+      },
+      {
+        "title": "LlamaIndex Integration with Gemini",
+        "rel": "examples-llamaindex",
+        "sourceRel": "examples/llamaindex/README.md"
+      },
+      {
+        "title": "MLflow Integration with Gemini",
+        "rel": "examples-mlflow",
+        "sourceRel": "examples/mlflow/README.md"
+      },
+      {
+        "title": "Prompting techniques",
+        "rel": "examples-prompting_techniques",
+        "sourceRel": "examples/prompting_techniques/README.md"
+      },
+      {
+        "title": "Prompting Examples",
+        "rel": "examples-prompting",
+        "sourceRel": "examples/prompting/README.md"
+      },
+      {
+        "title": "Gemini API Cookbook",
+        "rel": "examples-qdrant",
+        "sourceRel": "examples/qdrant/README.md"
+      },
+      {
         "title": "Gemini API Examples",
         "rel": "examples",
         "sourceRel": "examples/README.md"
+      },
+      {
+        "title": "Gemini API Weaviate Examples",
+        "rel": "examples-weaviate",
+        "sourceRel": "examples/weaviate/README.md"
+      },
+      {
+        "title": "JavaScript/TypeScript Quickstarts",
+        "rel": "quickstarts-js",
+        "sourceRel": "quickstarts-js/README.md"
+      },
+      {
+        "title": "Gemini File API Sample Client Code",
+        "rel": "quickstarts-file-api",
+        "sourceRel": "quickstarts/file-api/README.md"
       },
       {
         "title": "Gemini API Tutorials",
@@ -9997,9 +6803,29 @@ export const courses: Course[] = [
         "sourceRel": "quickstarts/README.md"
       },
       {
-        "title": "JavaScript/TypeScript Quickstarts",
-        "rel": "quickstarts-js",
-        "sourceRel": "quickstarts-js/README.md"
+        "title": "Call the Gemini API with cURL",
+        "rel": "quickstarts-rest",
+        "sourceRel": "quickstarts/rest/README.md"
+      },
+      {
+        "title": "Gemini websockets Cookbook",
+        "rel": "quickstarts-websockets",
+        "sourceRel": "quickstarts/websockets/README.md"
+      },
+      {
+        "title": "Gemini API Cookbook Quality Assurance Tools: Architecture & Design",
+        "rel": "tools-Design",
+        "sourceRel": "tools/Design.md"
+      },
+      {
+        "title": "📐 Design Document: Notebook Automated Testing, Security & Regression Suite",
+        "rel": "tools-nb_tester-Design",
+        "sourceRel": "tools/nb_tester/Design.md"
+      },
+      {
+        "title": "🧪 Gemini API Cookbook Notebook Testing & Regression Suite",
+        "rel": "tools-nb_tester",
+        "sourceRel": "tools/nb_tester/README.md"
       },
       {
         "title": "Gemini API Cookbook Quality Assurance & Linting Tools",
@@ -10038,9 +6864,145 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
-        "title": "🧩 Agent Skills",
-        "rel": "agent_skills",
-        "sourceRel": "agent_skills/README.md"
+        "title": "🎮 AI 3D PyGame Visualizer with DeepSeek R1",
+        "rel": "advanced_ai_agents-autonomous_game_playing_agent_apps-ai_3dpygame_r1",
+        "sourceRel": "advanced_ai_agents/autonomous_game_playing_agent_apps/ai_3dpygame_r1/README.md"
+      },
+      {
+        "title": "♜ Agent White vs Agent Black: Chess Game",
+        "rel": "advanced_ai_agents-autonomous_game_playing_agent_apps-ai_chess_agent",
+        "sourceRel": "advanced_ai_agents/autonomous_game_playing_agent_apps/ai_chess_agent/README.md"
+      },
+      {
+        "title": "🎮 Agent X vs Agent O: Tic-Tac-Toe Game",
+        "rel": "advanced_ai_agents-autonomous_game_playing_agent_apps-ai_tic_tac_toe_agent",
+        "sourceRel": "advanced_ai_agents/autonomous_game_playing_agent_apps/ai_tic_tac_toe_agent/README.md"
+      },
+      {
+        "title": "AG2 Adaptive Research Team",
+        "rel": "advanced_ai_agents-multi_agent_apps-agent_teams-ag2_adaptive_research_team",
+        "sourceRel": "advanced_ai_agents/multi_agent_apps/agent_teams/ag2_adaptive_research_team/README.md"
+      },
+      {
+        "title": "🧲 AI Competitor Intelligence Agent Team",
+        "rel": "advanced_ai_agents-multi_agent_apps-agent_teams-ai_competitor_intelligence_agent_team",
+        "sourceRel": "advanced_ai_agents/multi_agent_apps/agent_teams/ai_competitor_intelligence_agent_team/README.md"
+      },
+      {
+        "title": "Awesome LLM Apps",
+        "rel": "advanced_ai_agents-multi_agent_apps-agent_teams-ai_finance_agent_team",
+        "sourceRel": "advanced_ai_agents/multi_agent_apps/agent_teams/ai_finance_agent_team/README.md"
+      },
+      {
+        "title": "AI Game Design Agent Team 🎮",
+        "rel": "advanced_ai_agents-multi_agent_apps-agent_teams-ai_game_design_agent_team",
+        "sourceRel": "advanced_ai_agents/multi_agent_apps/agent_teams/ai_game_design_agent_team/README.md"
+      },
+      {
+        "title": "👨‍⚖️ AI Legal Agent Team",
+        "rel": "advanced_ai_agents-multi_agent_apps-agent_teams-ai_legal_agent_team",
+        "sourceRel": "advanced_ai_agents/multi_agent_apps/agent_teams/ai_legal_agent_team/README.md"
+      },
+      {
+        "title": "🏠 AI Real Estate Agent Team",
+        "rel": "advanced_ai_agents-multi_agent_apps-agent_teams-ai_real_estate_agent_team",
+        "sourceRel": "advanced_ai_agents/multi_agent_apps/agent_teams/ai_real_estate_agent_team/README.md"
+      },
+      {
+        "title": "💼 AI Recruitment Agent Team",
+        "rel": "advanced_ai_agents-multi_agent_apps-agent_teams-ai_recruitment_agent_team",
+        "sourceRel": "advanced_ai_agents/multi_agent_apps/agent_teams/ai_recruitment_agent_team/README.md"
+      },
+      {
+        "title": "👨🏻‍💼 AI Sales Intelligence Agent Team",
+        "rel": "advanced_ai_agents-multi_agent_apps-agent_teams-ai_sales_intelligence_agent_team",
+        "sourceRel": "advanced_ai_agents/multi_agent_apps/agent_teams/ai_sales_intelligence_agent_team/README.md"
+      },
+      {
+        "title": "🔍 AI SEO Audit Team",
+        "rel": "advanced_ai_agents-multi_agent_apps-agent_teams-ai_seo_audit_team",
+        "sourceRel": "advanced_ai_agents/multi_agent_apps/agent_teams/ai_seo_audit_team/README.md"
+      },
+      {
+        "title": "AI Services Agency 👨‍💼",
+        "rel": "advanced_ai_agents-multi_agent_apps-agent_teams-ai_services_agency",
+        "sourceRel": "advanced_ai_agents/multi_agent_apps/agent_teams/ai_services_agency/README.md"
+      },
+      {
+        "title": "👨‍🏫 AI Teaching Agent Team",
+        "rel": "advanced_ai_agents-multi_agent_apps-agent_teams-ai_teaching_agent_team",
+        "sourceRel": "advanced_ai_agents/multi_agent_apps/agent_teams/ai_teaching_agent_team/README.md"
+      },
+      {
+        "title": "TripCraft AI - Agent Architecture",
+        "rel": "advanced_ai_agents-multi_agent_apps-agent_teams-ai_travel_planner_agent_team-backend-agents",
+        "sourceRel": "advanced_ai_agents/multi_agent_apps/agent_teams/ai_travel_planner_agent_team/backend/agents/README.md"
+      },
+      {
+        "title": "Awesome LLM Apps",
+        "rel": "advanced_ai_agents-multi_agent_apps-agent_teams-ai_travel_planner_agent_team-client",
+        "sourceRel": "advanced_ai_agents/multi_agent_apps/agent_teams/ai_travel_planner_agent_team/client/README.md"
+      },
+      {
+        "title": "✈️ TripCraft AI",
+        "rel": "advanced_ai_agents-multi_agent_apps-agent_teams-ai_travel_planner_agent_team",
+        "sourceRel": "advanced_ai_agents/multi_agent_apps/agent_teams/ai_travel_planner_agent_team/README.md"
+      },
+      {
+        "title": "📊 AI VC Due Diligence Agent Team",
+        "rel": "advanced_ai_agents-multi_agent_apps-agent_teams-ai_vc_due_diligence_agent_team",
+        "sourceRel": "advanced_ai_agents/multi_agent_apps/agent_teams/ai_vc_due_diligence_agent_team/README.md"
+      },
+      {
+        "title": "💻 Multimodal AI Coding Agent Team with o3-mini and Gemini",
+        "rel": "advanced_ai_agents-multi_agent_apps-agent_teams-multimodal_coding_agent_team",
+        "sourceRel": "advanced_ai_agents/multi_agent_apps/agent_teams/multimodal_coding_agent_team/README.md"
+      },
+      {
+        "title": "Multimodal AI Design Agent Team",
+        "rel": "advanced_ai_agents-multi_agent_apps-agent_teams-multimodal_design_agent_team",
+        "sourceRel": "advanced_ai_agents/multi_agent_apps/agent_teams/multimodal_design_agent_team/README.md"
+      },
+      {
+        "title": "🎨 🍌 Multimodal UI/UX Feedback Agent Team with Nano Banana",
+        "rel": "advanced_ai_agents-multi_agent_apps-agent_teams-multimodal_uiux_feedback_agent_team",
+        "sourceRel": "advanced_ai_agents/multi_agent_apps/agent_teams/multimodal_uiux_feedback_agent_team/README.md"
+      },
+      {
+        "title": "🌍 AQI Analysis Agent",
+        "rel": "advanced_ai_agents-multi_agent_apps-ai_aqi_analysis_agent",
+        "sourceRel": "advanced_ai_agents/multi_agent_apps/ai_aqi_analysis_agent/README.md"
+      }
+    ]
+  },
+  {
+    "id": "08-agents/awesome-ai-agent-papers",
+    "volume": "08-agents",
+    "local": "awesome-ai-agent-papers",
+    "title": "Awesome AI Agent Papers（智能体论文清单）",
+    "kind": "清单与速查",
+    "category": "速查清单与索引",
+    "tier": 3,
+    "license": "MIT",
+    "licenseLabel": "可转载",
+    "lang": "英文",
+    "publishable": true,
+    "repo": "VoltAgent/awesome-ai-agent-papers",
+    "site": null,
+    "commit": "4c0c1281f01c6e66a68c0db06b9cfd79277dcfa3",
+    "entry": "README.md",
+    "featured": false,
+    "sourceUrl": "https://github.com/VoltAgent/awesome-ai-agent-papers",
+    "docs": [
+      {
+        "title": "课程首页",
+        "rel": "index",
+        "sourceRel": ""
+      },
+      {
+        "title": "Awesome AI Agent Papers",
+        "rel": "overview",
+        "sourceRel": "README.md"
       }
     ]
   },
@@ -10074,24 +7036,74 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
+        "title": "Configuration",
+        "rel": "docs-config",
+        "sourceRel": "docs/config.md"
+      },
+      {
+        "title": "Context management",
+        "rel": "docs-context",
+        "sourceRel": "docs/context.md"
+      },
+      {
+        "title": "Examples",
+        "rel": "docs-examples",
+        "sourceRel": "docs/examples.md"
+      },
+      {
+        "title": "Guardrails",
+        "rel": "docs-guardrails",
+        "sourceRel": "docs/guardrails.md"
+      },
+      {
+        "title": "Handoffs",
+        "rel": "docs-handoffs",
+        "sourceRel": "docs/handoffs.md"
+      },
+      {
+        "title": "Human-in-the-loop",
+        "rel": "docs-human_in_the_loop",
+        "sourceRel": "docs/human_in_the_loop.md"
+      },
+      {
         "title": "OpenAI Agents SDK",
         "rel": "docs",
         "sourceRel": "docs/index.md"
       },
       {
-        "title": "Running the example suite",
-        "rel": "examples",
-        "sourceRel": "examples/README.md"
+        "title": "Model context protocol (MCP)",
+        "rel": "docs-mcp",
+        "sourceRel": "docs/mcp.md"
       },
       {
-        "title": "Packaged integration tests",
-        "rel": "integration_tests",
-        "sourceRel": "integration_tests/README.md"
+        "title": "Models",
+        "rel": "docs-models",
+        "sourceRel": "docs/models/index.md"
       },
       {
-        "title": "Tests",
-        "rel": "tests",
-        "sourceRel": "tests/README.md"
+        "title": "Agent orchestration",
+        "rel": "docs-multi_agent",
+        "sourceRel": "docs/multi_agent.md"
+      },
+      {
+        "title": "Quickstart",
+        "rel": "docs-quickstart",
+        "sourceRel": "docs/quickstart.md"
+      },
+      {
+        "title": "Realtime agents guide",
+        "rel": "docs-realtime-guide",
+        "sourceRel": "docs/realtime/guide.md"
+      },
+      {
+        "title": "Quickstart",
+        "rel": "docs-realtime-quickstart",
+        "sourceRel": "docs/realtime/quickstart.md"
+      },
+      {
+        "title": "Realtime transport",
+        "rel": "docs-realtime-transport",
+        "sourceRel": "docs/realtime/transport.md"
       }
     ]
   },
@@ -10123,6 +7135,111 @@ export const courses: Course[] = [
         "title": "Open Manus with PocketFlow Integration",
         "rel": "overview",
         "sourceRel": "README.md"
+      },
+      {
+        "title": "Marketing Automation with PocketFlow and Manus",
+        "rel": "docs-design-marketing_automation",
+        "sourceRel": "docs/design/marketing_automation.md"
+      },
+      {
+        "title": "Research Report: AI Workflow Generators",
+        "rel": "examples-pocketflow_marketing-output-ai_workflow_research",
+        "sourceRel": "examples/pocketflow_marketing/output/ai_workflow_research.md"
+      },
+      {
+        "title": "Go-To-Market Strategy for DataInsight Pro",
+        "rel": "examples-pocketflow_marketing-output-gtm_strategy_output",
+        "sourceRel": "examples/pocketflow_marketing/output/gtm_strategy_output.md"
+      },
+      {
+        "title": "Marketing Workflow Output",
+        "rel": "examples-pocketflow_marketing-output-marketing_workflow_output",
+        "sourceRel": "examples/pocketflow_marketing/output/marketing_workflow_output.md"
+      },
+      {
+        "title": "PocketFlow Marketing Automation Examples",
+        "rel": "examples-pocketflow_marketing",
+        "sourceRel": "examples/pocketflow_marketing/README.md"
+      },
+      {
+        "title": "Examples",
+        "rel": "examples-use_case",
+        "sourceRel": "examples/use_case/readme.md"
+      },
+      {
+        "title": "(Advanced) Async",
+        "rel": "PocketFlow-docs-core_abstraction-async",
+        "sourceRel": "PocketFlow/docs/core_abstraction/async.md"
+      },
+      {
+        "title": "Batch",
+        "rel": "PocketFlow-docs-core_abstraction-batch",
+        "sourceRel": "PocketFlow/docs/core_abstraction/batch.md"
+      },
+      {
+        "title": "Communication",
+        "rel": "PocketFlow-docs-core_abstraction-communication",
+        "sourceRel": "PocketFlow/docs/core_abstraction/communication.md"
+      },
+      {
+        "title": "Flow",
+        "rel": "PocketFlow-docs-core_abstraction-flow",
+        "sourceRel": "PocketFlow/docs/core_abstraction/flow.md"
+      },
+      {
+        "title": "Node",
+        "rel": "PocketFlow-docs-core_abstraction-node",
+        "sourceRel": "PocketFlow/docs/core_abstraction/node.md"
+      },
+      {
+        "title": "(Advanced) Parallel",
+        "rel": "PocketFlow-docs-core_abstraction-parallel",
+        "sourceRel": "PocketFlow/docs/core_abstraction/parallel.md"
+      },
+      {
+        "title": "Agent",
+        "rel": "PocketFlow-docs-design_pattern-agent",
+        "sourceRel": "PocketFlow/docs/design_pattern/agent.md"
+      },
+      {
+        "title": "Map Reduce",
+        "rel": "PocketFlow-docs-design_pattern-mapreduce",
+        "sourceRel": "PocketFlow/docs/design_pattern/mapreduce.md"
+      },
+      {
+        "title": "Chat Memory",
+        "rel": "PocketFlow-docs-design_pattern-memory",
+        "sourceRel": "PocketFlow/docs/design_pattern/memory.md"
+      },
+      {
+        "title": "(Advanced) Multi-Agents",
+        "rel": "PocketFlow-docs-design_pattern-multi_agent",
+        "sourceRel": "PocketFlow/docs/design_pattern/multi_agent.md"
+      },
+      {
+        "title": "RAG (Retrieval Augmented Generation)",
+        "rel": "PocketFlow-docs-design_pattern-rag",
+        "sourceRel": "PocketFlow/docs/design_pattern/rag.md"
+      },
+      {
+        "title": "Structured Output",
+        "rel": "PocketFlow-docs-design_pattern-structure",
+        "sourceRel": "PocketFlow/docs/design_pattern/structure.md"
+      },
+      {
+        "title": "Workflow",
+        "rel": "PocketFlow-docs-design_pattern-workflow",
+        "sourceRel": "PocketFlow/docs/design_pattern/workflow.md"
+      },
+      {
+        "title": "LLM Application Development Playbook",
+        "rel": "PocketFlow-docs-guide",
+        "sourceRel": "PocketFlow/docs/guide.md"
+      },
+      {
+        "title": "Pocket Flow",
+        "rel": "PocketFlow-docs",
+        "sourceRel": "PocketFlow/docs/index.md"
       }
     ]
   },
@@ -10157,27 +7274,27 @@ export const courses: Course[] = [
       },
       {
         "title": "拆解 Claude Code 的 harness 设计",
-        "rel": "docs-zh-harness-designs-claude-code-index",
+        "rel": "docs-zh-harness-designs-claude-code",
         "sourceRel": "docs/zh/harness-designs/claude-code/index.md"
       },
       {
         "title": "拆解 Codex 的 harness 设计",
-        "rel": "docs-zh-harness-designs-codex-index",
+        "rel": "docs-zh-harness-designs-codex",
         "sourceRel": "docs/zh/harness-designs/codex/index.md"
       },
       {
         "title": "拆解 DeepSeek Harness 的设计",
-        "rel": "docs-zh-harness-designs-deepseek-index",
+        "rel": "docs-zh-harness-designs-deepseek",
         "sourceRel": "docs/zh/harness-designs/deepseek/index.md"
       },
       {
         "title": "前沿 Harness 拆解",
-        "rel": "docs-zh-harness-designs-index",
+        "rel": "docs-zh-harness-designs",
         "sourceRel": "docs/zh/harness-designs/index.md"
       },
       {
         "title": "拆解 Pi 的 harness 设计",
-        "rel": "docs-zh-harness-designs-pi-index",
+        "rel": "docs-zh-harness-designs-pi",
         "sourceRel": "docs/zh/harness-designs/pi/index.md"
       },
       {
@@ -10192,7 +7309,7 @@ export const courses: Course[] = [
       },
       {
         "title": "第一讲. 模型能力强，不等于执行可靠",
-        "rel": "docs-zh-lectures-lecture-01-why-capable-agents-still-fail-index",
+        "rel": "docs-zh-lectures-lecture-01-why-capable-agents-still-fail",
         "sourceRel": "docs/zh/lectures/lecture-01-why-capable-agents-still-fail/index.md"
       },
       {
@@ -10202,7 +7319,7 @@ export const courses: Course[] = [
       },
       {
         "title": "第二讲. Harness 到底是什么",
-        "rel": "docs-zh-lectures-lecture-02-what-a-harness-actually-is-index",
+        "rel": "docs-zh-lectures-lecture-02-what-a-harness-actually-is",
         "sourceRel": "docs/zh/lectures/lecture-02-what-a-harness-actually-is/index.md"
       },
       {
@@ -10212,7 +7329,7 @@ export const courses: Course[] = [
       },
       {
         "title": "第三讲. 让代码仓库成为唯一的事实来源",
-        "rel": "docs-zh-lectures-lecture-03-why-the-repository-must-become-the-system-of-record-index",
+        "rel": "docs-zh-lectures-lecture-03-why-the-repository-must-become-the-system-of-record",
         "sourceRel": "docs/zh/lectures/lecture-03-why-the-repository-must-become-the-system-of-record/index.md"
       },
       {
@@ -10227,7 +7344,7 @@ export const courses: Course[] = [
       },
       {
         "title": "第四讲. 把指令拆分到不同文件里",
-        "rel": "docs-zh-lectures-lecture-04-why-one-giant-instruction-file-fails-index",
+        "rel": "docs-zh-lectures-lecture-04-why-one-giant-instruction-file-fails",
         "sourceRel": "docs/zh/lectures/lecture-04-why-one-giant-instruction-file-fails/index.md"
       },
       {
@@ -10239,286 +7356,6 @@ export const courses: Course[] = [
         "title": "会话交接示例",
         "rel": "docs-zh-lectures-lecture-05-why-long-running-tasks-lose-continuity-code-session-handoff",
         "sourceRel": "docs/zh/lectures/lecture-05-why-long-running-tasks-lose-continuity/code/session-handoff.md"
-      },
-      {
-        "title": "第五讲. 让跨会话的任务保持上下文连续",
-        "rel": "docs-zh-lectures-lecture-05-why-long-running-tasks-lose-continuity-index",
-        "sourceRel": "docs/zh/lectures/lecture-05-why-long-running-tasks-lose-continuity/index.md"
-      },
-      {
-        "title": "初始化器输出检查清单",
-        "rel": "docs-zh-lectures-lecture-06-why-initialization-needs-its-own-phase-code-initializer-output-checklist",
-        "sourceRel": "docs/zh/lectures/lecture-06-why-initialization-needs-its-own-phase/code/initializer-output-checklist.md"
-      },
-      {
-        "title": "第六讲. 让 agent 每次工作前先初始化",
-        "rel": "docs-zh-lectures-lecture-06-why-initialization-needs-its-own-phase-index",
-        "sourceRel": "docs/zh/lectures/lecture-06-why-initialization-needs-its-own-phase/index.md"
-      },
-      {
-        "title": "范围界定示例",
-        "rel": "docs-zh-lectures-lecture-07-why-agents-overreach-and-under-finish-code-scope-surface-example",
-        "sourceRel": "docs/zh/lectures/lecture-07-why-agents-overreach-and-under-finish/code/scope-surface-example.md"
-      },
-      {
-        "title": "第七讲. 给 agent 划清每次任务的边界",
-        "rel": "docs-zh-lectures-lecture-07-why-agents-overreach-and-under-finish-index",
-        "sourceRel": "docs/zh/lectures/lecture-07-why-agents-overreach-and-under-finish/index.md"
-      },
-      {
-        "title": "通过门控策略",
-        "rel": "docs-zh-lectures-lecture-08-why-feature-lists-are-harness-primitives-code-pass-gate-policy",
-        "sourceRel": "docs/zh/lectures/lecture-08-why-feature-lists-are-harness-primitives/code/pass-gate-policy.md"
-      },
-      {
-        "title": "第八讲. 用功能清单约束 agent 该做什么",
-        "rel": "docs-zh-lectures-lecture-08-why-feature-lists-are-harness-primitives-index",
-        "sourceRel": "docs/zh/lectures/lecture-08-why-feature-lists-are-harness-primitives/index.md"
-      },
-      {
-        "title": "干净状态检查清单",
-        "rel": "docs-zh-lectures-lecture-09-why-agents-declare-victory-too-early-code-clean-state-checklist",
-        "sourceRel": "docs/zh/lectures/lecture-09-why-agents-declare-victory-too-early/code/clean-state-checklist.md"
-      },
-      {
-        "title": "第九讲. 防止 agent 提前宣告完成",
-        "rel": "docs-zh-lectures-lecture-09-why-agents-declare-victory-too-early-index",
-        "sourceRel": "docs/zh/lectures/lecture-09-why-agents-declare-victory-too-early/index.md"
-      },
-      {
-        "title": "Electron 架构规则",
-        "rel": "docs-zh-lectures-lecture-10-why-end-to-end-testing-changes-results-code-architecture-rules",
-        "sourceRel": "docs/zh/lectures/lecture-10-why-end-to-end-testing-changes-results/code/architecture-rules.md"
-      },
-      {
-        "title": "示例：将审查反馈转化为规则",
-        "rel": "docs-zh-lectures-lecture-10-why-end-to-end-testing-changes-results-code-review-feedback-to-rule",
-        "sourceRel": "docs/zh/lectures/lecture-10-why-end-to-end-testing-changes-results/code/review-feedback-to-rule.md"
-      },
-      {
-        "title": "第十讲. 跑通完整流程才算真正验证",
-        "rel": "docs-zh-lectures-lecture-10-why-end-to-end-testing-changes-results-index",
-        "sourceRel": "docs/zh/lectures/lecture-10-why-end-to-end-testing-changes-results/index.md"
-      },
-      {
-        "title": "评估者评分标准示例",
-        "rel": "docs-zh-lectures-lecture-11-why-observability-belongs-inside-the-harness-code-evaluator-rubric",
-        "sourceRel": "docs/zh/lectures/lecture-11-why-observability-belongs-inside-the-harness/code/evaluator-rubric.md"
-      },
-      {
-        "title": "Sprint 契约示例",
-        "rel": "docs-zh-lectures-lecture-11-why-observability-belongs-inside-the-harness-code-sprint-contract",
-        "sourceRel": "docs/zh/lectures/lecture-11-why-observability-belongs-inside-the-harness/code/sprint-contract.md"
-      },
-      {
-        "title": "第十一讲. 让 agent 的运行过程可观测",
-        "rel": "docs-zh-lectures-lecture-11-why-observability-belongs-inside-the-harness-index",
-        "sourceRel": "docs/zh/lectures/lecture-11-why-observability-belongs-inside-the-harness/index.md"
-      },
-      {
-        "title": "基准对比模板",
-        "rel": "docs-zh-lectures-lecture-12-why-every-session-must-leave-a-clean-state-code-benchmark-comparison-template",
-        "sourceRel": "docs/zh/lectures/lecture-12-why-every-session-must-leave-a-clean-state/code/benchmark-comparison-template.md"
-      },
-      {
-        "title": "第十二讲. 每次会话结束前都做好交接",
-        "rel": "docs-zh-lectures-lecture-12-why-every-session-must-leave-a-clean-state-index",
-        "sourceRel": "docs/zh/lectures/lecture-12-why-every-session-must-leave-a-clean-state/index.md"
-      },
-      {
-        "title": "Checker Agent Prompt（检查者）",
-        "rel": "docs-zh-lectures-lecture-13-loop-engineering-code-checker-prompt",
-        "sourceRel": "docs/zh/lectures/lecture-13-loop-engineering/code/checker-prompt.md"
-      },
-      {
-        "title": "Goal Loop 目标描述模板",
-        "rel": "docs-zh-lectures-lecture-13-loop-engineering-code-goal-template",
-        "sourceRel": "docs/zh/lectures/lecture-13-loop-engineering/code/goal-template.md"
-      },
-      {
-        "title": "第 13 讲代码",
-        "rel": "docs-zh-lectures-lecture-13-loop-engineering-code-index",
-        "sourceRel": "docs/zh/lectures/lecture-13-loop-engineering/code/index.md"
-      },
-      {
-        "title": "Loop State 循环状态模板",
-        "rel": "docs-zh-lectures-lecture-13-loop-engineering-code-loop-state-template",
-        "sourceRel": "docs/zh/lectures/lecture-13-loop-engineering/code/loop-state-template.md"
-      },
-      {
-        "title": "Maker Agent Prompt（制作者）",
-        "rel": "docs-zh-lectures-lecture-13-loop-engineering-code-maker-prompt",
-        "sourceRel": "docs/zh/lectures/lecture-13-loop-engineering/code/maker-prompt.md"
-      },
-      {
-        "title": "第十三讲. 从手动驱动到自动循环",
-        "rel": "docs-zh-lectures-lecture-13-loop-engineering-index",
-        "sourceRel": "docs/zh/lectures/lecture-13-loop-engineering/index.md"
-      },
-      {
-        "title": "第 14 讲代码",
-        "rel": "docs-zh-lectures-lecture-14-graph-engineering-code-index",
-        "sourceRel": "docs/zh/lectures/lecture-14-graph-engineering/code/index.md"
-      },
-      {
-        "title": "第十四讲. 从单循环到图工程",
-        "rel": "docs-zh-lectures-lecture-14-graph-engineering-index",
-        "sourceRel": "docs/zh/lectures/lecture-14-graph-engineering/index.md"
-      },
-      {
-        "title": "欢迎来到项目实战",
-        "rel": "docs-zh-projects-index",
-        "sourceRel": "docs/zh/projects/index.md"
-      },
-      {
-        "title": "Project 01. 只写提示词让 agent 做，和定好规则再让它做，差多少",
-        "rel": "docs-zh-projects-project-01-baseline-vs-minimal-harness-index",
-        "sourceRel": "docs/zh/projects/project-01-baseline-vs-minimal-harness/index.md"
-      },
-      {
-        "title": "Project 02. 让 agent 看懂项目、接住上次的工作",
-        "rel": "docs-zh-projects-project-02-agent-readable-workspace-index",
-        "sourceRel": "docs/zh/projects/project-02-agent-readable-workspace/index.md"
-      },
-      {
-        "title": "Project 03. 让 agent 关掉再打开还能接着干",
-        "rel": "docs-zh-projects-project-03-multi-session-continuity-index",
-        "sourceRel": "docs/zh/projects/project-03-multi-session-continuity/index.md"
-      },
-      {
-        "title": "Project 04. 用运行反馈修正 agent 的行为",
-        "rel": "docs-zh-projects-project-04-incremental-indexing-index",
-        "sourceRel": "docs/zh/projects/project-04-incremental-indexing/index.md"
-      },
-      {
-        "title": "Project 05. 让 agent 自己检查自己做的对不对",
-        "rel": "docs-zh-projects-project-05-grounded-qa-verification-index",
-        "sourceRel": "docs/zh/projects/project-05-grounded-qa-verification/index.md"
-      },
-      {
-        "title": "Project 06. 搭建一套完整的 agent 工作环境",
-        "rel": "docs-zh-projects-project-06-runtime-observability-and-debugging-index",
-        "sourceRel": "docs/zh/projects/project-06-runtime-observability-and-debugging/index.md"
-      },
-      {
-        "title": "Project 07. 搭建你的第一个自动循环",
-        "rel": "docs-zh-projects-project-07-loop-engineering-first-loop-index",
-        "sourceRel": "docs/zh/projects/project-07-loop-engineering-first-loop/index.md"
-      },
-      {
-        "title": "Project 08. 把你的工作流画成一张图",
-        "rel": "docs-zh-projects-project-08-graph-engineering-first-graph-index",
-        "sourceRel": "docs/zh/projects/project-08-graph-engineering-first-graph/index.md"
-      },
-      {
-        "title": "中文资料库",
-        "rel": "docs-zh-resources-index",
-        "sourceRel": "docs/zh/resources/index.md"
-      },
-      {
-        "title": "OpenAI 高级资源包",
-        "rel": "docs-zh-resources-openai-advanced-index",
-        "sourceRel": "docs/zh/resources/openai-advanced/index.md"
-      },
-      {
-        "title": "ARCHITECTURE.md",
-        "rel": "docs-zh-resources-openai-advanced-repo-template-ARCHITECTURE",
-        "sourceRel": "docs/zh/resources/openai-advanced/repo-template/ARCHITECTURE.md"
-      },
-      {
-        "title": "高级仓库模板",
-        "rel": "docs-zh-resources-openai-advanced-repo-template-index",
-        "sourceRel": "docs/zh/resources/openai-advanced/repo-template/index.md"
-      },
-      {
-        "title": "SOP：Chrome DevTools 验证闭环",
-        "rel": "docs-zh-resources-openai-advanced-sops-chrome-devtools-validation-loop",
-        "sourceRel": "docs/zh/resources/openai-advanced/sops/chrome-devtools-validation-loop.md"
-      },
-      {
-        "title": "SOP：把不可见知识编码进仓库",
-        "rel": "docs-zh-resources-openai-advanced-sops-encode-knowledge-into-repo",
-        "sourceRel": "docs/zh/resources/openai-advanced/sops/encode-knowledge-into-repo.md"
-      },
-      {
-        "title": "OpenAI 高级 SOP",
-        "rel": "docs-zh-resources-openai-advanced-sops-index",
-        "sourceRel": "docs/zh/resources/openai-advanced/sops/index.md"
-      },
-      {
-        "title": "SOP：分层领域架构",
-        "rel": "docs-zh-resources-openai-advanced-sops-layered-domain-architecture",
-        "sourceRel": "docs/zh/resources/openai-advanced/sops/layered-domain-architecture.md"
-      },
-      {
-        "title": "SOP：可观测性反馈闭环",
-        "rel": "docs-zh-resources-openai-advanced-sops-observability-feedback-loop",
-        "sourceRel": "docs/zh/resources/openai-advanced/sops/observability-feedback-loop.md"
-      },
-      {
-        "title": "编码代理开工流程",
-        "rel": "docs-zh-resources-reference-coding-agent-startup-flow",
-        "sourceRel": "docs/zh/resources/reference/coding-agent-startup-flow.md"
-      },
-      {
-        "title": "中文参考",
-        "rel": "docs-zh-resources-reference-index",
-        "sourceRel": "docs/zh/resources/reference/index.md"
-      },
-      {
-        "title": "初始化代理操作手册",
-        "rel": "docs-zh-resources-reference-initializer-agent-playbook",
-        "sourceRel": "docs/zh/resources/reference/initializer-agent-playbook.md"
-      },
-      {
-        "title": "方法对照表",
-        "rel": "docs-zh-resources-reference-method-map",
-        "sourceRel": "docs/zh/resources/reference/method-map.md"
-      },
-      {
-        "title": "Prompt 校准",
-        "rel": "docs-zh-resources-reference-prompt-calibration",
-        "sourceRel": "docs/zh/resources/reference/prompt-calibration.md"
-      },
-      {
-        "title": "进度日志",
-        "rel": "docs-zh-resources-templates-claude-progress",
-        "sourceRel": "docs/zh/resources/templates/claude-progress.md"
-      },
-      {
-        "title": "CLAUDE.md",
-        "rel": "docs-zh-resources-templates-CLAUDE",
-        "sourceRel": "docs/zh/resources/templates/CLAUDE.md"
-      },
-      {
-        "title": "干净状态检查清单",
-        "rel": "docs-zh-resources-templates-clean-state-checklist",
-        "sourceRel": "docs/zh/resources/templates/clean-state-checklist.md"
-      },
-      {
-        "title": "评审评分表",
-        "rel": "docs-zh-resources-templates-evaluator-rubric",
-        "sourceRel": "docs/zh/resources/templates/evaluator-rubric.md"
-      },
-      {
-        "title": "模板使用指南",
-        "rel": "docs-zh-resources-templates-index",
-        "sourceRel": "docs/zh/resources/templates/index.md"
-      },
-      {
-        "title": "质量文档",
-        "rel": "docs-zh-resources-templates-quality-document",
-        "sourceRel": "docs/zh/resources/templates/quality-document.md"
-      },
-      {
-        "title": "会话交接",
-        "rel": "docs-zh-resources-templates-session-handoff",
-        "sourceRel": "docs/zh/resources/templates/session-handoff.md"
-      },
-      {
-        "title": "Skills（技能集）",
-        "rel": "docs-zh-skills-index",
-        "sourceRel": "docs/zh/skills/index.md"
       }
     ]
   },
@@ -10552,89 +7389,119 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
-        "title": "s01: The Agent Loop — One Loop Is All You Need",
-        "rel": "s01_agent_loop",
-        "sourceRel": "s01_agent_loop/README.md"
+        "title": "s01: The Agent Loop",
+        "rel": "docs-en-s01-the-agent-loop",
+        "sourceRel": "docs/en/s01-the-agent-loop.md"
       },
       {
-        "title": "s02: Tool Use — Add a Tool, Add Just One Line",
-        "rel": "s02_tool_use",
-        "sourceRel": "s02_tool_use/README.md"
+        "title": "s02: Tool Use",
+        "rel": "docs-en-s02-tool-use",
+        "sourceRel": "docs/en/s02-tool-use.md"
       },
       {
-        "title": "s03: Permission — Check Permissions Before Execution",
-        "rel": "s03_permission",
-        "sourceRel": "s03_permission/README.md"
+        "title": "s03: TodoWrite",
+        "rel": "docs-en-s03-todo-write",
+        "sourceRel": "docs/en/s03-todo-write.md"
       },
       {
-        "title": "s04: Hooks — Hang on the Loop, Don't Write into It",
-        "rel": "s04_hooks",
-        "sourceRel": "s04_hooks/README.md"
+        "title": "s04: Subagents",
+        "rel": "docs-en-s04-subagent",
+        "sourceRel": "docs/en/s04-subagent.md"
       },
       {
-        "title": "s05: TodoWrite — An Agent Without a Plan Drifts Off Course",
-        "rel": "s05_todo_write",
-        "sourceRel": "s05_todo_write/README.md"
+        "title": "s05: Skills",
+        "rel": "docs-en-s05-skill-loading",
+        "sourceRel": "docs/en/s05-skill-loading.md"
       },
       {
-        "title": "s06: Subagent — Give a Subtask Its Own Context",
-        "rel": "s06_subagent",
-        "sourceRel": "s06_subagent/README.md"
+        "title": "s06: Context Compact",
+        "rel": "docs-en-s06-context-compact",
+        "sourceRel": "docs/en/s06-context-compact.md"
       },
       {
-        "title": "s07: Skill Loading — Load Skills When Needed",
-        "rel": "s07_skill_loading",
-        "sourceRel": "s07_skill_loading/README.md"
+        "title": "s07: Task System",
+        "rel": "docs-en-s07-task-system",
+        "sourceRel": "docs/en/s07-task-system.md"
       },
       {
-        "title": "s08: Context Compact: Make Room Before the Context Fills Up",
-        "rel": "s08_context_compact",
-        "sourceRel": "s08_context_compact/README.md"
+        "title": "s08: Background Tasks",
+        "rel": "docs-en-s08-background-tasks",
+        "sourceRel": "docs/en/s08-background-tasks.md"
       },
       {
-        "title": "s09: Memory — Keep Useful Knowledge Across Sessions",
-        "rel": "s09_memory",
-        "sourceRel": "s09_memory/README.md"
+        "title": "s09: Agent Teams",
+        "rel": "docs-en-s09-agent-teams",
+        "sourceRel": "docs/en/s09-agent-teams.md"
       },
       {
-        "title": "s10: Task System — From an Execution Checklist to Coordinated Task State",
-        "rel": "s10_task_system",
-        "sourceRel": "s10_task_system/README.md"
+        "title": "s10: Team Protocols",
+        "rel": "docs-en-s10-team-protocols",
+        "sourceRel": "docs/en/s10-team-protocols.md"
       },
       {
-        "title": "s11: Background Tasks — Slow Operations Go to the Background",
-        "rel": "s11_background_tasks",
-        "sourceRel": "s11_background_tasks/README.md"
+        "title": "s11: Autonomous Agents",
+        "rel": "docs-en-s11-autonomous-agents",
+        "sourceRel": "docs/en/s11-autonomous-agents.md"
       },
       {
-        "title": "s12: Cron Scheduler — Start Work on a Schedule",
-        "rel": "s12_cron_scheduler",
-        "sourceRel": "s12_cron_scheduler/README.md"
+        "title": "s12: Worktree + Task Isolation",
+        "rel": "docs-en-s12-worktree-task-isolation",
+        "sourceRel": "docs/en/s12-worktree-task-isolation.md"
       },
       {
-        "title": "s13: Agent Teams — Runtime and Coordination Protocols",
-        "rel": "s13_agent_teams",
-        "sourceRel": "s13_agent_teams/README.md"
+        "title": "s01: The Agent Loop (Agent 循环)",
+        "rel": "docs-zh-s01-the-agent-loop",
+        "sourceRel": "docs/zh/s01-the-agent-loop.md"
       },
       {
-        "title": "s14: MCP Tools — Discover and Invoke External Tools",
-        "rel": "s14_mcp_plugin",
-        "sourceRel": "s14_mcp_plugin/README.md"
+        "title": "s02: Tool Use (工具使用)",
+        "rel": "docs-zh-s02-tool-use",
+        "sourceRel": "docs/zh/s02-tool-use.md"
       },
       {
-        "title": "s15: Integrated Harness — Many Mechanisms, One Loop",
-        "rel": "s15_integrated_harness",
-        "sourceRel": "s15_integrated_harness/README.md"
+        "title": "s03: TodoWrite (待办写入)",
+        "rel": "docs-zh-s03-todo-write",
+        "sourceRel": "docs/zh/s03-todo-write.md"
       },
       {
-        "title": "s16: Workflow Runtime — The Model Decides Each Step; a Script Decides the Orchestration",
-        "rel": "s16_workflow_runtime",
-        "sourceRel": "s16_workflow_runtime/README.md"
+        "title": "s04: Subagents (Subagent)",
+        "rel": "docs-zh-s04-subagent",
+        "sourceRel": "docs/zh/s04-subagent.md"
       },
       {
-        "title": "s17: Goal Loop: The Model Proposes a Stop; an Independent Evaluator Decides Whether to Continue",
-        "rel": "s17_goal_loop",
-        "sourceRel": "s17_goal_loop/README.md"
+        "title": "s05: Skills (Skill 加载)",
+        "rel": "docs-zh-s05-skill-loading",
+        "sourceRel": "docs/zh/s05-skill-loading.md"
+      },
+      {
+        "title": "s06: Context Compact (上下文压缩)",
+        "rel": "docs-zh-s06-context-compact",
+        "sourceRel": "docs/zh/s06-context-compact.md"
+      },
+      {
+        "title": "s07: Task System (任务系统)",
+        "rel": "docs-zh-s07-task-system",
+        "sourceRel": "docs/zh/s07-task-system.md"
+      },
+      {
+        "title": "s08: Background Tasks (后台任务)",
+        "rel": "docs-zh-s08-background-tasks",
+        "sourceRel": "docs/zh/s08-background-tasks.md"
+      },
+      {
+        "title": "s09: Agent Teams (Agent 团队)",
+        "rel": "docs-zh-s09-agent-teams",
+        "sourceRel": "docs/zh/s09-agent-teams.md"
+      },
+      {
+        "title": "s10: Team Protocols (团队协议)",
+        "rel": "docs-zh-s10-team-protocols",
+        "sourceRel": "docs/zh/s10-team-protocols.md"
+      },
+      {
+        "title": "s11: Autonomous Agents (Autonomous Agent)",
+        "rel": "docs-zh-s11-autonomous-agents",
+        "sourceRel": "docs/zh/s11-autonomous-agents.md"
       }
     ]
   },
@@ -10668,119 +7535,119 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
-        "title": "s01: Agent Loop — 一个循环就够了",
-        "rel": "s01_agent_loop",
-        "sourceRel": "s01_agent_loop/README.md"
+        "title": "Appendix: Provider Adapter - DeepSeek / Anthropic tooluse vs OpenAI functioncall",
+        "rel": "docs-appendix-provider-adapter",
+        "sourceRel": "docs/appendix/provider-adapter.md"
       },
       {
-        "title": "s02: Tool Dispatch — 一个注册表就是工具边界",
-        "rel": "s02_tool_dispatch",
-        "sourceRel": "s02_tool_dispatch/README.md"
+        "title": "WorkBuddy Harness 架构图谱",
+        "rel": "docs-architecture-harness-map",
+        "sourceRel": "docs/architecture/harness-map.md"
       },
       {
-        "title": "s03: Deferred Tool Loading — 先发现，再加载，再执行",
-        "rel": "s03_deferred_loading",
-        "sourceRel": "s03_deferred_loading/README.md"
+        "title": "Source And Memory System",
+        "rel": "docs-architecture-source-and-memory-system",
+        "sourceRel": "docs/architecture/source-and-memory-system.md"
       },
       {
-        "title": "s04: Permission & Hooks — 先决策，再审批，再执行",
-        "rel": "s04_permission_hooks",
-        "sourceRel": "s04_permission_hooks/README.md"
+        "title": "Chapter Map",
+        "rel": "docs-chapter-map",
+        "sourceRel": "docs/chapter-map.md"
       },
       {
-        "title": "s05: Electron Shell — 一个进程不够, 要三个",
-        "rel": "s05_electron_shell",
-        "sourceRel": "s05_electron_shell/README.md"
+        "title": "Code Quality Review",
+        "rel": "docs-code-quality-review",
+        "sourceRel": "docs/code-quality-review.md"
       },
       {
-        "title": "s06: Sidecar Server — 主进程不跑 agent, Sidecar 来跑",
-        "rel": "s06_sidecar_server",
-        "sourceRel": "s06_sidecar_server/README.md"
+        "title": "Model Benchmark Sample Report",
+        "rel": "docs-evidence-model-benchmark-sample",
+        "sourceRel": "docs/evidence/model-benchmark-sample.md"
       },
       {
-        "title": "s07: Session Management — 逻辑会话可恢复，运行时必须重建",
-        "rel": "s07_session_management",
-        "sourceRel": "s07_session_management/README.md"
+        "title": "WorkBuddy-Style Harness Research Summary",
+        "rel": "docs-evidence-workbuddy-5.2.3",
+        "sourceRel": "docs/evidence/workbuddy-5.2.3.md"
       },
       {
-        "title": "s08: Model Routing — 用 AI 管理 AI, 便宜的做粗筛, 贵的做推理",
-        "rel": "s08_model_routing",
-        "sourceRel": "s08_model_routing/README.md"
+        "title": "Public Research Material Review",
+        "rel": "docs-evidence-workbuddy-self-analysis-review",
+        "sourceRel": "docs/evidence/workbuddy-self-analysis-review.md"
       },
       {
-        "title": "s09: JSONL Transcript — 证据只追加，运行时状态可重建",
-        "rel": "s09_jsonl_transcript",
-        "sourceRel": "s09_jsonl_transcript/README.md"
+        "title": "Further Reading Map",
+        "rel": "docs-further-reading",
+        "sourceRel": "docs/further-reading.md"
       },
       {
-        "title": "s10: Workspace Memory — 从工作日志蒸馏可恢复的项目记忆",
-        "rel": "s10_workspace_memory",
-        "sourceRel": "s10_workspace_memory/README.md"
+        "title": "Learning Guide",
+        "rel": "docs-learning-guide",
+        "sourceRel": "docs/learning-guide.md"
       },
       {
-        "title": "s11: User Memory — Profile 与 Preference 的用户级边界",
-        "rel": "s11_user_memory",
-        "sourceRel": "s11_user_memory/README.md"
+        "title": "Clean-room Boundary",
+        "rel": "docs-legal-clean-room",
+        "sourceRel": "docs/legal/clean-room.md"
       },
       {
-        "title": "s12: Remote Memory — Stored Record 与 Recalled Context",
-        "rel": "s12_cloud_memory",
-        "sourceRel": "s12_cloud_memory/README.md"
+        "title": "Progression Contract",
+        "rel": "docs-progression-contract",
+        "sourceRel": "docs/progression-contract.md"
       },
       {
-        "title": "s13: Tool Output Externalization — 内存不够, 换到磁盘",
-        "rel": "s13_output_externalization",
-        "sourceRel": "s13_output_externalization/README.md"
+        "title": "Review & Fixes — 对标 learn-claude-code",
+        "rel": "docs-review-and-fixes",
+        "sourceRel": "docs/review-and-fixes.md"
       },
       {
-        "title": "s14: Context Compact — 上下文总会满, 要有办法腾地方",
-        "rel": "s14_context_compact",
-        "sourceRel": "s14_context_compact/README.md"
+        "title": "安全边界：先读这个，再信任代码",
+        "rel": "docs-security-boundaries",
+        "sourceRel": "docs/security-boundaries.md"
       },
       {
-        "title": "s15: Prompt Assembly — 从召回候选到预算内上下文",
-        "rel": "s15_prompt_assembly",
-        "sourceRel": "s15_prompt_assembly/README.md"
+        "title": "Skill Evolution & Evaluation (Reference)",
+        "rel": "docs-skill-evolution-and-evaluation",
+        "sourceRel": "docs/skill-evolution-and-evaluation.md"
       },
       {
-        "title": "s16: Skills System — 技能先列目录, 用到时再展开",
-        "rel": "s16_skills_system",
-        "sourceRel": "s16_skills_system/README.md"
+        "title": "Visual Tour",
+        "rel": "docs-visual-tour",
+        "sourceRel": "docs/visual-tour.md"
       },
       {
-        "title": "s17: MCP Connectors — 外接工具, 标准协议, 信任模型",
-        "rel": "s17_mcp_connectors",
-        "sourceRel": "s17_mcp_connectors/README.md"
+        "title": "Answer-grounded RAG Evaluation：回答里的每个 Claim 由什么证据支持",
+        "rel": "examples-answer_grounding_eval",
+        "sourceRel": "examples/answer_grounding_eval/README.md"
       },
       {
-        "title": "s18: Experts System — 领域专家, 整包加载",
-        "rel": "s18_experts_system",
-        "sourceRel": "s18_experts_system/README.md"
+        "title": "Retrieval-to-Prompt Context Pipeline：检索结果怎样安全进入 Prompt",
+        "rel": "examples-context_pipeline_walkthrough",
+        "sourceRel": "examples/context_pipeline_walkthrough/README.md"
       },
       {
-        "title": "s19: Visualizer — 不只是文字, 还能画图",
-        "rel": "s19_visualizer",
-        "sourceRel": "s19_visualizer/README.md"
+        "title": "Full Tour：一次跑遍完整 harness",
+        "rel": "examples-full_tour",
+        "sourceRel": "examples/full_tour/README.md"
       },
       {
-        "title": "s20: Result Presentation — 做完要交付, 不只是说",
-        "rel": "s20_result_presentation",
-        "sourceRel": "s20_result_presentation/README.md"
+        "title": "Layered Memory Walkthrough：一次看清五类状态",
+        "rel": "examples-layered_memory_walkthrough",
+        "sourceRel": "examples/layered_memory_walkthrough/README.md"
       },
       {
-        "title": "s21: SQLite Database — 会话要持久, 用量要追踪",
-        "rel": "s21_sqlite_database",
-        "sourceRel": "s21_sqlite_database/README.md"
+        "title": "Memory Resilience Evaluation：用故障注入验证长期记忆边界",
+        "rel": "examples-memory_resilience_eval",
+        "sourceRel": "examples/memory_resilience_eval/README.md"
       },
       {
-        "title": "s22: Automation Scheduler — 到点自动跑, 不需要人推",
-        "rel": "s22_automation_scheduler",
-        "sourceRel": "s22_automation_scheduler/README.md"
+        "title": "Mini WorkBuddy 集成 demo",
+        "rel": "examples-mini_workbuddy_demo",
+        "sourceRel": "examples/mini_workbuddy_demo/README.md"
       },
       {
-        "title": "s23: Audit & Sandbox — 每步留痕, 不可篡改",
-        "rel": "s23_audit_sandbox",
-        "sourceRel": "s23_audit_sandbox/README.md"
+        "title": "Reflection Memory 离线示例",
+        "rel": "examples-reflection_memory",
+        "sourceRel": "examples/reflection_memory/README.md"
       }
     ]
   },
@@ -10814,39 +7681,119 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
+        "title": "Claude Code Ultimate Guide - Project Context",
+        "rel": "CLAUDE",
+        "sourceRel": "CLAUDE.md"
+      },
+      {
         "title": "Pedagogy Note: Skills–Commands Merger (CC 2.1.3)",
-        "rel": "claudedocs",
+        "rel": "claudedocs-pedagogy-skills-merger",
         "sourceRel": "claudedocs/pedagogy-skills-merger.md"
       },
       {
         "title": "Competitive Analysis: Claude Code Guides & Resources",
-        "rel": "docs",
+        "rel": "docs-competitive-analysis",
         "sourceRel": "docs/competitive-analysis.md"
       },
       {
-        "title": "Claude Code Examples",
-        "rel": "examples",
-        "sourceRel": "examples/README.md"
+        "title": "Quick-Win Video Series",
+        "rel": "docs-distribution-quick-win-video-series",
+        "sourceRel": "docs/distribution/quick-win-video-series.md"
       },
       {
-        "title": "Exported Formats",
-        "rel": "exports",
-        "sourceRel": "exports/README.md"
+        "title": "Distribution Assets",
+        "rel": "docs-distribution",
+        "sourceRel": "docs/distribution/README.md"
       },
       {
-        "title": "Guide Documentation",
-        "rel": "guide",
-        "sourceRel": "guide/README.md"
+        "title": "Ecosystem: 6 Interconnected Repositories",
+        "rel": "docs-ecosystem",
+        "sourceRel": "docs/ecosystem.md"
       },
       {
-        "title": "Machine-Readable References",
-        "rel": "machine-readable",
-        "sourceRel": "machine-readable/README.md"
+        "title": "Claude Code: For CIOs & CEOs",
+        "rel": "docs-for-cio-ceo",
+        "sourceRel": "docs/for-cio-ceo.md"
       },
       {
-        "title": "Claude Code Knowledge Quiz",
-        "rel": "quiz",
-        "sourceRel": "quiz/README.md"
+        "title": "Claude Code: For CTOs & Decision Makers",
+        "rel": "docs-for-cto",
+        "sourceRel": "docs/for-cto.md"
+      },
+      {
+        "title": "Claude Code: For Product Managers & Product Designers",
+        "rel": "docs-for-product-managers",
+        "sourceRel": "docs/for-product-managers.md"
+      },
+      {
+        "title": "Claude Code: For Tech Leads & Engineering Managers",
+        "rel": "docs-for-tech-leads",
+        "sourceRel": "docs/for-tech-leads.md"
+      },
+      {
+        "title": "Scheduled public-mentions search",
+        "rel": "docs-media-mentions-perplexity-scheduled-search",
+        "sourceRel": "docs/media-mentions/perplexity-scheduled-search.md"
+      },
+      {
+        "title": "Media Mentions Tracker",
+        "rel": "docs-media-mentions",
+        "sourceRel": "docs/media-mentions/README.md"
+      },
+      {
+        "title": "Resource Evaluation: Everything Claude Code (GitHub Repository)",
+        "rel": "docs-resource-evaluations-015-everything-claude-code-github-repo",
+        "sourceRel": "docs/resource-evaluations/015-everything-claude-code-github-repo.md"
+      },
+      {
+        "title": "Resource Evaluation: Gang Rui's Tasks API Limitations Analysis",
+        "rel": "docs-resource-evaluations-016-gang-rui-tasks-api-limitations",
+        "sourceRel": "docs/resource-evaluations/016-gang-rui-tasks-api-limitations.md"
+      },
+      {
+        "title": "Pat Cullen - Multi-Agent PR Review (Final Review)",
+        "rel": "docs-resource-evaluations-017-pat-cullen-final-review",
+        "sourceRel": "docs/resource-evaluations/017-pat-cullen-final-review.md"
+      },
+      {
+        "title": "Resource Evaluation: Community Discussions Analysis Report (January 2026)",
+        "rel": "docs-resource-evaluations-023-community-discussions-report-jan2026",
+        "sourceRel": "docs/resource-evaluations/023-community-discussions-report-jan2026.md"
+      },
+      {
+        "title": "Resource Evaluation: \"The 80% Problem in Agentic Coding\"",
+        "rel": "docs-resource-evaluations-024-addy-osmani-80-percent-problem",
+        "sourceRel": "docs/resource-evaluations/024-addy-osmani-80-percent-problem.md"
+      },
+      {
+        "title": "Évaluation Ressource: Signaux communautaires Claude Code: Janvier–Février 2026",
+        "rel": "docs-resource-evaluations-025-community-signals-feb2026",
+        "sourceRel": "docs/resource-evaluations/025-community-signals-feb2026.md"
+      },
+      {
+        "title": "Resource Evaluation: \"AGENTS.md Outperforms Skills in Our Agent Evals\"",
+        "rel": "docs-resource-evaluations-025-vercel-agents-md-vs-skills-eval",
+        "sourceRel": "docs/resource-evaluations/025-vercel-agents-md-vs-skills-eval.md"
+      },
+      {
+        "title": "Resource Evaluation: Contribution Metrics (Anthropic Blog)",
+        "rel": "docs-resource-evaluations-026-contribution-metrics-blog",
+        "sourceRel": "docs/resource-evaluations/026-contribution-metrics-blog.md"
+      },
+      {
+        "title": "Resource Evaluation: shanraisshan/claude-code-best-practice — Claude Code Best Practices Repo",
+        "rel": "docs-resource-evaluations-069-claude-code-best-practice-repo-eval",
+        "sourceRel": "docs/resource-evaluations/069-claude-code-best-practice-repo-eval.md"
+      },
+      {
+        "title": "Resource Evaluation: .claude/ Config — shanraisshan/claude-code-best-practice",
+        "rel": "docs-resource-evaluations-070-claude-code-best-practice-dot-claude-eval",
+        "sourceRel": "docs/resource-evaluations/070-claude-code-best-practice-dot-claude-eval.md"
+      },
+      {
+        "title": "Resource Evaluation 071: Steven Ge: Claude Code for Technical Writing",
+        "rel": "docs-resource-evaluations-071-steven-ge-technical-writing-workflow",
+        "sourceRel": "docs/resource-evaluations/071-steven-ge-technical-writing-workflow.md"
       }
     ]
   },
@@ -10880,14 +7827,114 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
-        "title": "AGENTS.md — Performance Benchmarks",
-        "rel": "benchmarks",
-        "sourceRel": "benchmarks/AGENTS.md"
+        "title": "@deepseek-ai/dsh",
+        "rel": "apps-cli",
+        "sourceRel": "apps/cli/README.md"
       },
       {
-        "title": "AGENTS.md — The documentation standard",
-        "rel": "docs",
-        "sourceRel": "docs/AGENTS.md"
+        "title": "@deepseek-ai/dsh",
+        "rel": "apps-cli-README.zh",
+        "sourceRel": "apps/cli/README.zh.md"
+      },
+      {
+        "title": "dsh CLI behavior reference",
+        "rel": "apps-cli-reference",
+        "sourceRel": "apps/cli/reference/README.md"
+      },
+      {
+        "title": "dsh CLI（命令行界面）行为参考",
+        "rel": "apps-cli-reference-README.zh",
+        "sourceRel": "apps/cli/reference/README.zh.md"
+      },
+      {
+        "title": "DeepSeek Harness Desktop",
+        "rel": "apps-desktop",
+        "sourceRel": "apps/desktop/README.md"
+      },
+      {
+        "title": "DeepSeek Harness 桌面端",
+        "rel": "apps-desktop-README.zh",
+        "sourceRel": "apps/desktop/README.zh.md"
+      },
+      {
+        "title": "apps/web browser e2e",
+        "rel": "apps-web-tests",
+        "sourceRel": "apps/web/tests/README.md"
+      },
+      {
+        "title": "apps/web 浏览器 e2e",
+        "rel": "apps-web-tests-README.zh",
+        "sourceRel": "apps/web/tests/README.zh.md"
+      },
+      {
+        "title": "Running benchmarks",
+        "rel": "BENCHMARK",
+        "sourceRel": "BENCHMARK.md"
+      },
+      {
+        "title": "Active Assistant reconnect benchmark",
+        "rel": "benchmarks-active-stream-reconnect",
+        "sourceRel": "benchmarks/active-stream-reconnect/README.md"
+      },
+      {
+        "title": "活跃 Assistant 重连基准",
+        "rel": "benchmarks-active-stream-reconnect-README.zh",
+        "sourceRel": "benchmarks/active-stream-reconnect/README.zh.md"
+      },
+      {
+        "title": "Backend continuation benchmarks",
+        "rel": "benchmarks-agent-continuation",
+        "sourceRel": "benchmarks/agent-continuation/README.md"
+      },
+      {
+        "title": "后端续聊基准",
+        "rel": "benchmarks-agent-continuation-README.zh",
+        "sourceRel": "benchmarks/agent-continuation/README.zh.md"
+      },
+      {
+        "title": "Long-session browser benchmark",
+        "rel": "benchmarks-long-session-browser",
+        "sourceRel": "benchmarks/long-session-browser/README.md"
+      },
+      {
+        "title": "长会话浏览器基准",
+        "rel": "benchmarks-long-session-browser-README.zh",
+        "sourceRel": "benchmarks/long-session-browser/README.zh.md"
+      },
+      {
+        "title": "贡献",
+        "rel": "CONTRIBUTING.zh",
+        "sourceRel": "CONTRIBUTING.zh.md"
+      },
+      {
+        "title": "Bilingual documentation",
+        "rel": "docs-i18n",
+        "sourceRel": "docs/i18n/README.md"
+      },
+      {
+        "title": "双语文档",
+        "rel": "docs-i18n-README.zh",
+        "sourceRel": "docs/i18n/README.zh.md"
+      },
+      {
+        "title": "Post-mortems",
+        "rel": "docs-postmortem",
+        "sourceRel": "docs/postmortem/README.md"
+      },
+      {
+        "title": "事故复盘（postmortem）",
+        "rel": "docs-postmortem-README.zh",
+        "sourceRel": "docs/postmortem/README.zh.md"
+      },
+      {
+        "title": "Safety",
+        "rel": "SAFETY",
+        "sourceRel": "SAFETY.md"
+      },
+      {
+        "title": "安全",
+        "rel": "SAFETY.zh",
+        "sourceRel": "SAFETY.zh.md"
       }
     ]
   },
@@ -10921,9 +7968,64 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
+        "title": "Claude How-To",
+        "rel": "01-slash-commands-commit",
+        "sourceRel": "01-slash-commands/commit.md"
+      },
+      {
+        "title": "Documentation Refactor",
+        "rel": "01-slash-commands-doc-refactor",
+        "sourceRel": "01-slash-commands/doc-refactor.md"
+      },
+      {
+        "title": "API Documentation Generator",
+        "rel": "01-slash-commands-generate-api-docs",
+        "sourceRel": "01-slash-commands/generate-api-docs.md"
+      },
+      {
+        "title": "Code Optimization",
+        "rel": "01-slash-commands-optimize",
+        "sourceRel": "01-slash-commands/optimize.md"
+      },
+      {
+        "title": "Pull Request Preparation Checklist",
+        "rel": "01-slash-commands-pr",
+        "sourceRel": "01-slash-commands/pr.md"
+      },
+      {
+        "title": "Commit and Push Everything",
+        "rel": "01-slash-commands-push-all",
+        "sourceRel": "01-slash-commands/push-all.md"
+      },
+      {
         "title": "Slash Commands",
         "rel": "01-slash-commands",
         "sourceRel": "01-slash-commands/README.md"
+      },
+      {
+        "title": "Setup CI/CD Pipeline",
+        "rel": "01-slash-commands-setup-ci-cd",
+        "sourceRel": "01-slash-commands/setup-ci-cd.md"
+      },
+      {
+        "title": "Expand Unit Tests",
+        "rel": "01-slash-commands-unit-test-expand",
+        "sourceRel": "01-slash-commands/unit-test-expand.md"
+      },
+      {
+        "title": "API Module Standards",
+        "rel": "02-memory-directory-api-CLAUDE",
+        "sourceRel": "02-memory/directory-api-CLAUDE.md"
+      },
+      {
+        "title": "My Development Preferences",
+        "rel": "02-memory-personal-CLAUDE",
+        "sourceRel": "02-memory/personal-CLAUDE.md"
+      },
+      {
+        "title": "Project Configuration",
+        "rel": "02-memory-project-CLAUDE",
+        "sourceRel": "02-memory/project-CLAUDE.md"
       },
       {
         "title": "Memory Guide",
@@ -10931,44 +8033,54 @@ export const courses: Course[] = [
         "sourceRel": "02-memory/README.md"
       },
       {
-        "title": "Agent Skills Guide",
-        "rel": "03-skills",
-        "sourceRel": "03-skills/README.md"
+        "title": "Claude How-To",
+        "rel": "03-skills-blog-draft-SKILL",
+        "sourceRel": "03-skills/blog-draft/SKILL.md"
       },
       {
-        "title": "Subagents - Complete Reference Guide",
-        "rel": "04-subagents",
-        "sourceRel": "04-subagents/README.md"
+        "title": "[Blog Post Title]",
+        "rel": "03-skills-blog-draft-templates-draft-template",
+        "sourceRel": "03-skills/blog-draft/templates/draft-template.md"
       },
       {
-        "title": "MCP (Model Context Protocol)",
-        "rel": "05-mcp",
-        "sourceRel": "05-mcp/README.md"
+        "title": "Blog Post Outline: [Title]",
+        "rel": "03-skills-blog-draft-templates-outline-template",
+        "sourceRel": "03-skills/blog-draft/templates/outline-template.md"
       },
       {
-        "title": "Hooks",
-        "rel": "06-hooks",
-        "sourceRel": "06-hooks/README.md"
+        "title": "Brand Voice Skill",
+        "rel": "03-skills-brand-voice-SKILL",
+        "sourceRel": "03-skills/brand-voice/SKILL.md"
       },
       {
-        "title": "Claude Code Plugins",
-        "rel": "07-plugins",
-        "sourceRel": "07-plugins/README.md"
+        "title": "Brand Voice Tone Examples",
+        "rel": "03-skills-brand-voice-tone-examples",
+        "sourceRel": "03-skills/brand-voice/tone-examples.md"
       },
       {
-        "title": "Checkpoints and Rewind",
-        "rel": "08-checkpoints",
-        "sourceRel": "08-checkpoints/README.md"
+        "title": "Claude How-To",
+        "rel": "03-skills-claude-md-SKILL",
+        "sourceRel": "03-skills/claude-md/SKILL.md"
       },
       {
-        "title": "Advanced Features",
-        "rel": "09-advanced-features",
-        "sourceRel": "09-advanced-features/README.md"
+        "title": "Code Review Skill",
+        "rel": "03-skills-code-review-specialist-SKILL",
+        "sourceRel": "03-skills/code-review-specialist/SKILL.md"
       },
       {
-        "title": "CLI Reference",
-        "rel": "10-cli",
-        "sourceRel": "10-cli/README.md"
+        "title": "Code Review Finding Template",
+        "rel": "03-skills-code-review-specialist-templates-finding-template",
+        "sourceRel": "03-skills/code-review-specialist/templates/finding-template.md"
+      },
+      {
+        "title": "Code Review Checklist",
+        "rel": "03-skills-code-review-specialist-templates-review-checklist",
+        "sourceRel": "03-skills/code-review-specialist/templates/review-checklist.md"
+      },
+      {
+        "title": "API Documentation Generator Skill",
+        "rel": "03-skills-doc-generator-SKILL",
+        "sourceRel": "03-skills/doc-generator/SKILL.md"
       }
     ]
   },
@@ -11002,14 +8114,114 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
+        "title": "Studio is a desktop application, so it follows the host appearance until the",
+        "rel": "DESIGN",
+        "sourceRel": "DESIGN.md"
+      },
+      {
+        "title": "Host Adapter Matrix",
+        "rel": "docs-adapters",
+        "sourceRel": "docs/adapters/README.md"
+      },
+      {
+        "title": "Checkpoint-backed Compare Sources and Materialization",
+        "rel": "docs-adrs-checkpoint-backed-compare-sources",
+        "sourceRel": "docs/adrs/checkpoint-backed-compare-sources.md"
+      },
+      {
+        "title": "ADR: Developer Experience System",
+        "rel": "docs-adrs-developer-experience-system",
+        "sourceRel": "docs/adrs/developer-experience-system.md"
+      },
+      {
+        "title": "ADR: AI-Optimized Directory Structure",
+        "rel": "docs-adrs-directory-structure",
+        "sourceRel": "docs/adrs/directory-structure.md"
+      },
+      {
+        "title": "Harness Checkpoint Experiment Compare",
+        "rel": "docs-adrs-harness-checkpoint-experiment-compare",
+        "sourceRel": "docs/adrs/harness-checkpoint-experiment-compare.md"
+      },
+      {
+        "title": "Harness Run Evidence Bridge",
+        "rel": "docs-adrs-harness-run-evidence-bridge",
+        "sourceRel": "docs/adrs/harness-run-evidence-bridge.md"
+      },
+      {
+        "title": "Memory 范围、导航与分析",
+        "rel": "docs-adrs-memory-navigation-and-analysis",
+        "sourceRel": "docs/adrs/memory-navigation-and-analysis.md"
+      },
+      {
+        "title": "Ontology Language Analysis Runtime",
+        "rel": "docs-adrs-ontology-language-runtime",
+        "sourceRel": "docs/adrs/ontology-language-runtime.md"
+      },
+      {
+        "title": "Architecture Decision Records",
+        "rel": "docs-adrs",
+        "sourceRel": "docs/adrs/README.md"
+      },
+      {
+        "title": "Session notebook trace and outcome projection",
+        "rel": "docs-adrs-session-notebook-evidence-projection",
+        "sourceRel": "docs/adrs/session-notebook-evidence-projection.md"
+      },
+      {
+        "title": "Harness Studio Artifact runtime and provider architecture",
+        "rel": "docs-adrs-studio-artifact-runtime-and-providers",
+        "sourceRel": "docs/adrs/studio-artifact-runtime-and-providers.md"
+      },
+      {
         "title": "Architecture Principles",
-        "rel": "docs",
+        "rel": "docs-ARCHITECTURE",
         "sourceRel": "docs/ARCHITECTURE.md"
       },
       {
-        "title": "References",
-        "rel": "references",
-        "sourceRel": "references/README.md"
+        "title": "Better Harness（QoderAI）",
+        "rel": "docs-blog-2026-07-30-better-harness-in-qoder",
+        "sourceRel": "docs/blog/2026-07-30-better-harness-in-qoder.md"
+      },
+      {
+        "title": "Better Harness（QoderAI）",
+        "rel": "docs-blog-2026-07-30-better-harness-is-now-open-source",
+        "sourceRel": "docs/blog/2026-07-30-better-harness-is-now-open-source.md"
+      },
+      {
+        "title": "Better Harness（QoderAI）",
+        "rel": "docs-blog-2026-08-09-agent-plugin-engineering",
+        "sourceRel": "docs/blog/2026-08-09-agent-plugin-engineering.md"
+      },
+      {
+        "title": "Better Harness（QoderAI）",
+        "rel": "docs-blog-2026-08-14-harness-inspector",
+        "sourceRel": "docs/blog/2026-08-14-harness-inspector.md"
+      },
+      {
+        "title": "Better Harness（QoderAI）",
+        "rel": "docs-blog-2026-09-09-organizational-harness-engineering",
+        "sourceRel": "docs/blog/2026-09-09-organizational-harness-engineering.md"
+      },
+      {
+        "title": "Community Extensibility",
+        "rel": "docs-community",
+        "sourceRel": "docs/community.md"
+      },
+      {
+        "title": "Better Harness Concepts (one page)",
+        "rel": "docs-concepts",
+        "sourceRel": "docs/concepts.md"
+      },
+      {
+        "title": "Better Harness Glossary",
+        "rel": "docs-glossary",
+        "sourceRel": "docs/glossary.md"
+      },
+      {
+        "title": "Better Harness（QoderAI）",
+        "rel": "docs-i18n-zh-Hans-docusaurus-plugin-content-blog-2026-08-14-harness-inspector",
+        "sourceRel": "docs/i18n/zh-Hans/docusaurus-plugin-content-blog/2026-08-14-harness-inspector.md"
       }
     ]
   },
@@ -11046,6 +8258,111 @@ export const courses: Course[] = [
         "title": "Quality-First Claude and Codex Agent Pack",
         "rel": "agents",
         "sourceRel": "agents/README.md"
+      },
+      {
+        "title": "Academic Paper Reviewer — Simulated Peer Review",
+        "rel": "skills-academic-paper-reviewer-SKILL",
+        "sourceRel": "skills/academic-paper-reviewer/SKILL.md"
+      },
+      {
+        "title": "Advanced Active Directory Attacks Reference",
+        "rel": "skills-active-directory-attacks-references-advanced-attacks",
+        "sourceRel": "skills/active-directory-attacks/references/advanced-attacks.md"
+      },
+      {
+        "title": "Active Directory Attacks",
+        "rel": "skills-active-directory-attacks-SKILL",
+        "sourceRel": "skills/active-directory-attacks/SKILL.md"
+      },
+      {
+        "title": "API Fuzzing for Bug Bounty",
+        "rel": "skills-api-fuzzing-bug-bounty-SKILL",
+        "sourceRel": "skills/api-fuzzing-bug-bounty/SKILL.md"
+      },
+      {
+        "title": "Design an Interface",
+        "rel": "skills-api-shape-explorer-SKILL",
+        "sourceRel": "skills/api-shape-explorer/SKILL.md"
+      },
+      {
+        "title": "Audit Flow Commands",
+        "rel": "skills-audit-flow-COMMANDS",
+        "sourceRel": "skills/audit-flow/COMMANDS.md"
+      },
+      {
+        "title": "Audit Flow Examples",
+        "rel": "skills-audit-flow-EXAMPLES",
+        "sourceRel": "skills/audit-flow/EXAMPLES.md"
+      },
+      {
+        "title": "Audit Flow",
+        "rel": "skills-audit-flow-SKILL",
+        "sourceRel": "skills/audit-flow/SKILL.md"
+      },
+      {
+        "title": "Authentication Patterns Skill",
+        "rel": "skills-authentication-patterns-SKILL",
+        "sourceRel": "skills/authentication-patterns/SKILL.md"
+      },
+      {
+        "title": "Advanced AWS Penetration Testing Reference",
+        "rel": "skills-aws-penetration-testing-references-advanced-aws-pentesting",
+        "sourceRel": "skills/aws-penetration-testing/references/advanced-aws-pentesting.md"
+      },
+      {
+        "title": "AWS Penetration Testing",
+        "rel": "skills-aws-penetration-testing-SKILL",
+        "sourceRel": "skills/aws-penetration-testing/SKILL.md"
+      },
+      {
+        "title": "Burp Suite Web Application Testing",
+        "rel": "skills-burp-suite-testing-SKILL",
+        "sourceRel": "skills/burp-suite-testing/SKILL.md"
+      },
+      {
+        "title": "Claude Code Guide（zebbern）",
+        "rel": "skills-caching-SKILL",
+        "sourceRel": "skills/caching/SKILL.md"
+      },
+      {
+        "title": "chart-generation Capability",
+        "rel": "skills-chart-image-CAPABILITY",
+        "sourceRel": "skills/chart-image/CAPABILITY.md"
+      },
+      {
+        "title": "📊 chart-image",
+        "rel": "skills-chart-image",
+        "sourceRel": "skills/chart-image/README.md"
+      },
+      {
+        "title": "Chart Image Generator",
+        "rel": "skills-chart-image-SKILL",
+        "sourceRel": "skills/chart-image/SKILL.md"
+      },
+      {
+        "title": "Advanced Cloud Pentesting Scripts",
+        "rel": "skills-cloud-penetration-testing-references-advanced-cloud-scripts",
+        "sourceRel": "skills/cloud-penetration-testing/references/advanced-cloud-scripts.md"
+      },
+      {
+        "title": "Cloud Penetration Testing",
+        "rel": "skills-cloud-penetration-testing-SKILL",
+        "sourceRel": "skills/cloud-penetration-testing/SKILL.md"
+      },
+      {
+        "title": "API Documentation: FastAPI & Django",
+        "rel": "skills-code-documenter-references-api-docs-fastapi-django",
+        "sourceRel": "skills/code-documenter/references/api-docs-fastapi-django.md"
+      },
+      {
+        "title": "API Documentation: NestJS & Express",
+        "rel": "skills-code-documenter-references-api-docs-nestjs-express",
+        "sourceRel": "skills/code-documenter/references/api-docs-nestjs-express.md"
+      },
+      {
+        "title": "Coverage Reports",
+        "rel": "skills-code-documenter-references-coverage-reports",
+        "sourceRel": "skills/code-documenter/references/coverage-reports.md"
       }
     ]
   },
@@ -11079,9 +8396,104 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
-        "title": "Agent Development Guide - Documentation Site",
-        "rel": "site",
-        "sourceRel": "site/AGENTS.md"
+        "title": "CMS Migration TODO",
+        "rel": "site-CMS-TODO",
+        "sourceRel": "site/CMS-TODO.md"
+      },
+      {
+        "title": "AWS CDK App Runner Deployment Example",
+        "rel": "site-docs-examples-cdk-deploy_to_apprunner",
+        "sourceRel": "site/docs/examples/cdk/deploy_to_apprunner/README.md"
+      },
+      {
+        "title": "AWS CDK EC2 Deployment Example",
+        "rel": "site-docs-examples-cdk-deploy_to_ec2",
+        "sourceRel": "site/docs/examples/cdk/deploy_to_ec2/README.md"
+      },
+      {
+        "title": "AWS CDK Fargate Deployment Example",
+        "rel": "site-docs-examples-cdk-deploy_to_fargate",
+        "sourceRel": "site/docs/examples/cdk/deploy_to_fargate/README.md"
+      },
+      {
+        "title": "AWS CDK Lambda Deployment Example",
+        "rel": "site-docs-examples-cdk-deploy_to_lambda",
+        "sourceRel": "site/docs/examples/cdk/deploy_to_lambda/README.md"
+      },
+      {
+        "title": "Amazon EKS Deployment Example",
+        "rel": "site-docs-examples-deploy_to_eks",
+        "sourceRel": "site/docs/examples/deploy_to_eks/README.md"
+      },
+      {
+        "title": "Multi-Agent Example",
+        "rel": "site-docs-examples-python-multi_agent_example",
+        "sourceRel": "site/docs/examples/python/multi_agent_example/index.md"
+      },
+      {
+        "title": "TypeScript Agent Deployment to Amazon Bedrock AgentCore Runtime",
+        "rel": "site-docs-examples-typescript-deploy_to_bedrock_agentcore",
+        "sourceRel": "site/docs/examples/typescript/deploy_to_bedrock_agentcore/README.md"
+      },
+      {
+        "title": "Astro/Starlight CMS Customizations",
+        "rel": "site-SITE-ARCHITECTURE",
+        "sourceRel": "site/SITE-ARCHITECTURE.md"
+      },
+      {
+        "title": "Strands Harness SDK",
+        "rel": "site-src-content-blog-an-agent-for-the-thing-you-keep-putting-off",
+        "sourceRel": "site/src/content/blog/an-agent-for-the-thing-you-keep-putting-off.mdx"
+      },
+      {
+        "title": "Strands Harness SDK",
+        "rel": "site-src-content-blog-evaluating-ai-agents-practical-guide-strands-evals",
+        "sourceRel": "site/src/content/blog/evaluating-ai-agents-practical-guide-strands-evals.mdx"
+      },
+      {
+        "title": "Strands Harness SDK",
+        "rel": "site-src-content-blog-figma-to-code-at-scale-building-with-strands-agents",
+        "sourceRel": "site/src/content/blog/figma-to-code-at-scale-building-with-strands-agents.mdx"
+      },
+      {
+        "title": "Strands Harness SDK",
+        "rel": "site-src-content-blog-inside-agentic-football-cup",
+        "sourceRel": "site/src/content/blog/inside-agentic-football-cup.mdx"
+      },
+      {
+        "title": "Strands Harness SDK",
+        "rel": "site-src-content-blog-interleaved-thinking-claude-4",
+        "sourceRel": "site/src/content/blog/interleaved-thinking-claude-4.mdx"
+      },
+      {
+        "title": "Strands Harness SDK",
+        "rel": "site-src-content-blog-introducing-harness-optimizer",
+        "sourceRel": "site/src/content/blog/introducing-harness-optimizer.mdx"
+      },
+      {
+        "title": "Strands Harness SDK",
+        "rel": "site-src-content-blog-introducing-strands-agent-sops",
+        "sourceRel": "site/src/content/blog/introducing-strands-agent-sops.mdx"
+      },
+      {
+        "title": "Strands Harness SDK",
+        "rel": "site-src-content-blog-introducing-strands-agents",
+        "sourceRel": "site/src/content/blog/introducing-strands-agents.mdx"
+      },
+      {
+        "title": "Strands Harness SDK",
+        "rel": "site-src-content-blog-introducing-strands-labs",
+        "sourceRel": "site/src/content/blog/introducing-strands-labs.mdx"
+      },
+      {
+        "title": "Strands Harness SDK",
+        "rel": "site-src-content-blog-multimodal-evaluators-mllm-as-a-judge-image-to-text-strands-evals",
+        "sourceRel": "site/src/content/blog/multimodal-evaluators-mllm-as-a-judge-image-to-text-strands-evals.mdx"
+      },
+      {
+        "title": "Strands Harness SDK",
+        "rel": "site-src-content-blog-our-production-sdk-hit-99-95-on-arc-agi-3",
+        "sourceRel": "site/src/content/blog/our-production-sdk-hit-99-95-on-arc-agi-3.mdx"
       }
     ]
   },
@@ -11116,18 +8528,118 @@ export const courses: Course[] = [
       },
       {
         "title": "Advisor Agent",
-        "rel": "agents",
+        "rel": "agents-advisor",
         "sourceRel": "agents/advisor.md"
       },
       {
+        "title": "livemsg-gate",
+        "rel": "agents-livemsg-gate",
+        "sourceRel": "agents/livemsg-gate.md"
+      },
+      {
+        "title": "Reviewer Agent",
+        "rel": "agents-reviewer",
+        "sourceRel": "agents/reviewer.md"
+      },
+      {
+        "title": "Test-Wiring Auditor Agent",
+        "rel": "agents-test-wiring-auditor",
+        "sourceRel": "agents/test-wiring-auditor.md"
+      },
+      {
+        "title": "Worker Agent",
+        "rel": "agents-worker",
+        "sourceRel": "agents/worker.md"
+      },
+      {
         "title": "Advisor Strategy",
-        "rel": "docs",
+        "rel": "docs-advisor-strategy",
         "sourceRel": "docs/advisor-strategy.md"
       },
       {
-        "title": "Hooks Best Practices",
-        "rel": "hooks",
-        "sourceRel": "hooks/BEST_PRACTICES.md"
+        "title": "Agent Frontmatter Policy",
+        "rel": "docs-agent-frontmatter-policy",
+        "sourceRel": "docs/agent-frontmatter-policy.md"
+      },
+      {
+        "title": "Agent View (claude agents) Policy",
+        "rel": "docs-agent-view-policy",
+        "sourceRel": "docs/agent-view-policy.md"
+      },
+      {
+        "title": "Claude harness Architecture",
+        "rel": "docs-ARCHITECTURE",
+        "sourceRel": "docs/ARCHITECTURE.md"
+      },
+      {
+        "title": "Hokage Core Cross-Harness Architecture",
+        "rel": "docs-architecture-hokage-core",
+        "sourceRel": "docs/architecture/hokage-core.md"
+      },
+      {
+        "title": "Review Calibration",
+        "rel": "docs-architecture-review-calibration",
+        "sourceRel": "docs/architecture/review-calibration.md"
+      },
+      {
+        "title": "Benchmark Rubric",
+        "rel": "docs-benchmark-rubric",
+        "sourceRel": "docs/benchmark-rubric.md"
+      },
+      {
+        "title": "Bootstrap Routing Contract",
+        "rel": "docs-bootstrap-routing-contract",
+        "sourceRel": "docs/bootstrap-routing-contract.md"
+      },
+      {
+        "title": "Branch Alignment Ledger",
+        "rel": "docs-branch-alignment-ledger",
+        "sourceRel": "docs/branch-alignment-ledger.md"
+      },
+      {
+        "title": "Claude Code 2.1.99 → 2.1.110 — Harness 影響分類",
+        "rel": "docs-cc-2.1.99-2.1.110-impact",
+        "sourceRel": "docs/cc-2.1.99-2.1.110-impact.md"
+      },
+      {
+        "title": "Claude Code 2.1.99-2.1.111 影響整理",
+        "rel": "docs-cc-2.1.99-2.1.111-impact",
+        "sourceRel": "docs/cc-2.1.99-2.1.111-impact.md"
+      },
+      {
+        "title": "Claims Audit",
+        "rel": "docs-claims-audit",
+        "sourceRel": "docs/claims-audit.md"
+      },
+      {
+        "title": "Claude Code Compatibility",
+        "rel": "docs-CLAUDE_CODE_COMPATIBILITY",
+        "sourceRel": "docs/CLAUDE_CODE_COMPATIBILITY.md"
+      },
+      {
+        "title": "Claude Code Setup: MCP, Telemetry, Provider Guidance",
+        "rel": "docs-claude-code-setup-mcp-telemetry-provider",
+        "sourceRel": "docs/claude-code-setup-mcp-telemetry-provider.md"
+      },
+      {
+        "title": "主要コマンド一覧",
+        "rel": "docs-CLAUDE-commands",
+        "sourceRel": "docs/CLAUDE-commands.md"
+      },
+      {
+        "title": "Claude Code / Codex Feature Table（upstream snapshot 完全版）",
+        "rel": "docs-CLAUDE-feature-table",
+        "sourceRel": "docs/CLAUDE-feature-table.md"
+      },
+      {
+        "title": "Claude host livemsg delivery (Mode 2)",
+        "rel": "docs-claude-livemsg-delivery",
+        "sourceRel": "docs/claude-livemsg-delivery.md"
+      },
+      {
+        "title": "CLAUDE.md 構造監査 — Phase 47.1.1 調査レポート",
+        "rel": "docs-claude-md-structure-audit",
+        "sourceRel": "docs/claude-md-structure-audit.md"
       }
     ]
   },
@@ -11162,7 +8674,7 @@ export const courses: Course[] = [
       },
       {
         "title": "附录 A：关键文件索引",
-        "rel": "book-src-appendix-a-file-index",
+        "rel": "book-src-appendix-a-file-",
         "sourceRel": "book/src/appendix/a-file-index.md"
       },
       {
@@ -11274,121 +8786,6 @@ export const courses: Course[] = [
         "title": "第14章：缓存中断检测系统",
         "rel": "book-src-part4-ch14",
         "sourceRel": "book/src/part4/ch14.md"
-      },
-      {
-        "title": "第15章：缓存优化模式",
-        "rel": "book-src-part4-ch15",
-        "sourceRel": "book/src/part4/ch15.md"
-      },
-      {
-        "title": "第16章：权限系统",
-        "rel": "book-src-part5-ch16",
-        "sourceRel": "book/src/part5/ch16.md"
-      },
-      {
-        "title": "第17章：YOLO 分类器",
-        "rel": "book-src-part5-ch17",
-        "sourceRel": "book/src/part5/ch17.md"
-      },
-      {
-        "title": "第17b章：提示注入防御 — 从 Unicode 清洗到纵深防御",
-        "rel": "book-src-part5-ch17b",
-        "sourceRel": "book/src/part5/ch17b.md"
-      },
-      {
-        "title": "第18章：Hooks — 用户自定义拦截点",
-        "rel": "book-src-part5-ch18",
-        "sourceRel": "book/src/part5/ch18.md"
-      },
-      {
-        "title": "第18b章：沙箱系统 — 从 Seatbelt 到 Bubblewrap 的多平台隔离",
-        "rel": "book-src-part5-ch18b",
-        "sourceRel": "book/src/part5/ch18b.md"
-      },
-      {
-        "title": "第19章：CLAUDE.md — 用户指令作为覆盖层",
-        "rel": "book-src-part5-ch19",
-        "sourceRel": "book/src/part5/ch19.md"
-      },
-      {
-        "title": "第20章：Agent 派生与编排",
-        "rel": "book-src-part6-ch20",
-        "sourceRel": "book/src/part6/ch20.md"
-      },
-      {
-        "title": "第20b章：Teams 与多进程协作",
-        "rel": "book-src-part6-ch20b",
-        "sourceRel": "book/src/part6/ch20b.md"
-      },
-      {
-        "title": "第20c章：Ultraplan — 远程多代理规划",
-        "rel": "book-src-part6-ch20c",
-        "sourceRel": "book/src/part6/ch20c.md"
-      },
-      {
-        "title": "第21章：Effort、Fast Mode 与 Thinking",
-        "rel": "book-src-part6-ch21",
-        "sourceRel": "book/src/part6/ch21.md"
-      },
-      {
-        "title": "第22章：技能系统 -- 从内置到用户自定义",
-        "rel": "book-src-part6-ch22",
-        "sourceRel": "book/src/part6/ch22.md"
-      },
-      {
-        "title": "第22b章：插件系统 — 从打包到市场的扩展工程",
-        "rel": "book-src-part6-ch22b",
-        "sourceRel": "book/src/part6/ch22b.md"
-      },
-      {
-        "title": "第23章：未发布功能管线 -- 89 个 Feature Flag 背后的路线图",
-        "rel": "book-src-part6-ch23",
-        "sourceRel": "book/src/part6/ch23.md"
-      },
-      {
-        "title": "第24章：跨会话记忆 — 从遗忘到持久学习",
-        "rel": "book-src-part6-ch24",
-        "sourceRel": "book/src/part6/ch24.md"
-      },
-      {
-        "title": "第25章：驾驭工程原则",
-        "rel": "book-src-part7-ch25",
-        "sourceRel": "book/src/part7/ch25.md"
-      },
-      {
-        "title": "第26章：上下文管理作为核心能力",
-        "rel": "book-src-part7-ch26",
-        "sourceRel": "book/src/part7/ch26.md"
-      },
-      {
-        "title": "第27章：生产级 AI 编码模式",
-        "rel": "book-src-part7-ch27",
-        "sourceRel": "book/src/part7/ch27.md"
-      },
-      {
-        "title": "第28章：Claude Code 的不足之处（以及你能修复什么）",
-        "rel": "book-src-part7-ch28",
-        "sourceRel": "book/src/part7/ch28.md"
-      },
-      {
-        "title": "第29章：可观测性工程 — 从 logEvent 到生产级遥测",
-        "rel": "book-src-part7-ch29",
-        "sourceRel": "book/src/part7/ch29.md"
-      },
-      {
-        "title": "第30章：构建你自己的 AI Agent — 从 Claude Code 模式到实战",
-        "rel": "book-src-part7-ch30",
-        "sourceRel": "book/src/part7/ch30.md"
-      },
-      {
-        "title": "前言",
-        "rel": "book-src-preface",
-        "sourceRel": "book/src/preface.md"
-      },
-      {
-        "title": "目录",
-        "rel": "book-src-SUMMARY",
-        "sourceRel": "book/src/SUMMARY.md"
       }
     ]
   },
@@ -11422,39 +8819,109 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
+        "title": "Video 1: From Vibe Coding to Agentic Engineering — Workflows with Claude Code",
+        "rel": "_-video-presentation-transcript-1-video-workflow",
+        "sourceRel": "!/video-presentation-transcript/1-video-workflow.md"
+      },
+      {
         "title": "Claude Code Best Practice",
-        "rel": "agent-teams",
+        "rel": "agent-teams-agent-teams-prompt",
         "sourceRel": "agent-teams/agent-teams-prompt.md"
       },
       {
+        "title": "Dubai Time Card",
+        "rel": "agent-teams-output-output",
+        "sourceRel": "agent-teams/output/output.md"
+      },
+      {
         "title": "CLI Startup Flags Best Practice",
-        "rel": "best-practice",
+        "rel": "best-practice-claude-cli-startup-flags",
         "sourceRel": "best-practice/claude-cli-startup-flags.md"
       },
       {
+        "title": "Commands Best Practice",
+        "rel": "best-practice-claude-commands",
+        "sourceRel": "best-practice/claude-commands.md"
+      },
+      {
+        "title": "MCP Servers Best Practice",
+        "rel": "best-practice-claude-mcp",
+        "sourceRel": "best-practice/claude-mcp.md"
+      },
+      {
+        "title": "Claude Memory",
+        "rel": "best-practice-claude-memory",
+        "sourceRel": "best-practice/claude-memory.md"
+      },
+      {
+        "title": "Settings Best Practice",
+        "rel": "best-practice-claude-settings",
+        "sourceRel": "best-practice/claude-settings.md"
+      },
+      {
+        "title": "Skills Best Practice",
+        "rel": "best-practice-claude-skills",
+        "sourceRel": "best-practice/claude-skills.md"
+      },
+      {
+        "title": "Sub-agents Best Practice",
+        "rel": "best-practice-claude-subagents",
+        "sourceRel": "best-practice/claude-subagents.md"
+      },
+      {
+        "title": "Verification Checklist — Settings Report",
+        "rel": "changelog-best-practice-claude-settings-verification-checklist",
+        "sourceRel": "changelog/best-practice/claude-settings/verification-checklist.md"
+      },
+      {
+        "title": "Verification Checklist — Subagents Report",
+        "rel": "changelog-best-practice-claude-subagents-verification-checklist",
+        "sourceRel": "changelog/best-practice/claude-subagents/verification-checklist.md"
+      },
+      {
+        "title": "Verification Checklist — README CONCEPTS Section",
+        "rel": "changelog-best-practice-concepts-verification-checklist",
+        "sourceRel": "changelog/best-practice/concepts/verification-checklist.md"
+      },
+      {
+        "title": "CLAUDE.md",
+        "rel": "CLAUDE",
+        "sourceRel": "CLAUDE.md"
+      },
+      {
+        "title": "Cross-Model (Claude Code + Codex) Workflow",
+        "rel": "development-workflows-cross-model-workflow-cross-model-workflow",
+        "sourceRel": "development-workflows/cross-model-workflow/cross-model-workflow.md"
+      },
+      {
+        "title": "RPI Workflow",
+        "rel": "development-workflows-rpi-rpi-workflow",
+        "sourceRel": "development-workflows/rpi/rpi-workflow.md"
+      },
+      {
         "title": "Agent Teams Implementation",
-        "rel": "implementation",
+        "rel": "implementation-claude-agent-teams-implementation",
         "sourceRel": "implementation/claude-agent-teams-implementation.md"
       },
       {
-        "title": "Orchestration Workflow",
-        "rel": "orchestration-workflow",
-        "sourceRel": "orchestration-workflow/orchestration-workflow.md"
+        "title": "Commands Implementation",
+        "rel": "implementation-claude-commands-implementation",
+        "sourceRel": "implementation/claude-commands-implementation.md"
       },
       {
-        "title": "Claude Advanced Tool Use Patterns",
-        "rel": "reports",
-        "sourceRel": "reports/claude-advanced-tool-use.md"
+        "title": "Goal Implementation",
+        "rel": "implementation-claude-goal-implementation",
+        "sourceRel": "implementation/claude-goal-implementation.md"
       },
       {
-        "title": "10 Tips for Using Claude Code — From the Claude Code Team",
-        "rel": "tips",
-        "sourceRel": "tips/claude-boris-10-tips-01-feb-26.md"
+        "title": "Skills Implementation",
+        "rel": "implementation-claude-skills-implementation",
+        "sourceRel": "implementation/claude-skills-implementation.md"
       },
       {
-        "title": "Head of Claude Code: What Happens After Coding Is Solved — Lenny's Podcast",
-        "rel": "videos",
-        "sourceRel": "videos/claude-boris-lennys-podcast-19-feb-26.md"
+        "title": "Sub-agents Implementation",
+        "rel": "implementation-claude-subagents-implementation",
+        "sourceRel": "implementation/claude-subagents-implementation.md"
       }
     ]
   },
@@ -11489,43 +8956,118 @@ export const courses: Course[] = [
       },
       {
         "title": "Harness Engineering 概念总览",
-        "rel": "concepts",
+        "rel": "concepts-00-overview",
         "sourceRel": "concepts/00-overview.md"
       },
       {
+        "title": "仓库即记录系统（Repo as System of Record）",
+        "rel": "concepts-01-repo-as-source-of-truth",
+        "sourceRel": "concepts/01-repo-as-source-of-truth.md"
+      },
+      {
+        "title": "机械化执行（Mechanical Enforcement）",
+        "rel": "concepts-02-mechanical-enforcement",
+        "sourceRel": "concepts/02-mechanical-enforcement.md"
+      },
+      {
+        "title": "熵管理与垃圾回收（Entropy & Garbage Collection）",
+        "rel": "concepts-03-entropy-and-garbage-collection",
+        "sourceRel": "concepts/03-entropy-and-garbage-collection.md"
+      },
+      {
+        "title": "智能体可读性（Agent Readability）",
+        "rel": "concepts-04-agent-readability",
+        "sourceRel": "concepts/04-agent-readability.md"
+      },
+      {
+        "title": "吞吐量改变合并理念（Throughput Changes Merge Philosophy）",
+        "rel": "concepts-05-throughput-changes-merge",
+        "sourceRel": "concepts/05-throughput-changes-merge.md"
+      },
+      {
+        "title": "Harness 的精确定义与组件清单",
+        "rel": "concepts-06-harness-definition",
+        "sourceRel": "concepts/06-harness-definition.md"
+      },
+      {
+        "title": "约束即产品（Spec as Product）",
+        "rel": "concepts-07-spec-as-product",
+        "sourceRel": "concepts/07-spec-as-product.md"
+      },
+      {
         "title": "翻译即 Harness：一个非代码场景的 Harness Engineering 实践",
-        "rel": "feedback",
+        "rel": "feedback-2026-04-14-translation-as-harness",
         "sourceRel": "feedback/2026-04-14-translation-as-harness.md"
       },
       {
-        "title": "practice/ — 动手实践",
-        "rel": "practice",
-        "sourceRel": "practice/AGENTS.md"
+        "title": "Task: Build a CLI word counter",
+        "rel": "practice-01-ralph-demo-PROMPT",
+        "sourceRel": "practice/01-ralph-demo/PROMPT.md"
       },
       {
-        "title": "prompts/ — 提示词积累",
-        "rel": "prompts",
-        "sourceRel": "prompts/AGENTS.md"
+        "title": "实验 01：用 Ralph Orchestrator 跑一个完整的编排循环",
+        "rel": "practice-01-ralph-demo",
+        "sourceRel": "practice/01-ralph-demo/README.md"
       },
       {
-        "title": "references/ — 外部资源索引",
-        "rel": "references",
-        "sourceRel": "references/AGENTS.md"
+        "title": "深度研究追踪 Prompt",
+        "rel": "prompts-deep-research-tracker",
+        "sourceRel": "prompts/deep-research-tracker.md"
       },
       {
-        "title": "thinking/ — 独立思考",
-        "rel": "thinking",
-        "sourceRel": "thinking/AGENTS.md"
+        "title": "Harness Engineering Study Guide",
+        "rel": "README.en",
+        "sourceRel": "README.en.md"
       },
       {
-        "title": "工具地图：复杂度维度 ↔ 工具杠杆",
-        "rel": "tools",
-        "sourceRel": "tools/00-overview.md"
+        "title": "文章索引",
+        "rel": "references-articles",
+        "sourceRel": "references/articles.md"
       },
       {
-        "title": "works/ — 作品输出",
-        "rel": "works",
-        "sourceRel": "works/AGENTS.md"
+        "title": "跨文章深层洞见：文章库 × 实践记录交叉对比",
+        "rel": "thinking-cross-article-insights",
+        "sourceRel": "thinking/cross-article-insights.md"
+      },
+      {
+        "title": "评估是房间里的大象：Harness Engineering 的阿喀琉斯之踵",
+        "rel": "thinking-evaluation-elephant-in-the-room",
+        "sourceRel": "thinking/evaluation-elephant-in-the-room.md"
+      },
+      {
+        "title": "修流程，不修代码：Bun 重写案例的范式信号",
+        "rel": "thinking-fix-the-process-not-the-code",
+        "sourceRel": "thinking/fix-the-process-not-the-code.md"
+      },
+      {
+        "title": "Guides × Sensors 框架的产品化检验：claude-code-harness v4.2 暴露的五个张力",
+        "rel": "thinking-guides-sensors-meets-claude-code-harness",
+        "sourceRel": "thinking/guides-sensors-meets-claude-code-harness.md"
+      },
+      {
+        "title": "个人开发者的 Harness Engineering：从精英团队到一人军团",
+        "rel": "thinking-harness-for-solo-developers",
+        "sourceRel": "thinking/harness-for-solo-developers.md"
+      },
+      {
+        "title": "可驾驭性与 Java/Spring Boot 的结构性优势",
+        "rel": "thinking-harnessability-and-java",
+        "sourceRel": "thinking/harnessability-and-java.md"
+      },
+      {
+        "title": "Meta-Harness 与现有 Harness Engineering 体系的五个张力",
+        "rel": "thinking-meta-harness-tensions",
+        "sourceRel": "thinking/meta-harness-tensions.md"
+      },
+      {
+        "title": "传统软件工程 ↔ AI Agent 工程：一张对照表，与它的三处修正",
+        "rel": "thinking-se-to-agent-engineering-mapping",
+        "sourceRel": "thinking/se-to-agent-engineering-mapping.md"
+      },
+      {
+        "title": "AI 时代的软件项目复杂度",
+        "rel": "thinking-software-project-complexity-in-the-ai-era",
+        "sourceRel": "thinking/software-project-complexity-in-the-ai-era.md"
       }
     ]
   },
@@ -11560,7 +9102,7 @@ export const courses: Course[] = [
       },
       {
         "title": "进阶教程",
-        "rel": "docs-advanced-00-index",
+        "rel": "docs-advanced-00-",
         "sourceRel": "docs/advanced/00-index.md"
       },
       {
@@ -11630,178 +9172,18 @@ export const courses: Course[] = [
       },
       {
         "title": "学习路线",
-        "rel": "docs-guide-index",
+        "rel": "docs-guide",
         "sourceRel": "docs/guide/index.md"
       },
       {
         "title": "参考手册",
-        "rel": "docs-manual-00-index",
+        "rel": "docs-manual-00-",
         "sourceRel": "docs/manual/00-index.md"
       },
       {
         "title": "参考来源与致谢",
         "rel": "docs-manual-02-credits",
         "sourceRel": "docs/manual/02-credits.md"
-      },
-      {
-        "title": "实战案例库",
-        "rel": "docs-recipes-00-index",
-        "sourceRel": "docs/recipes/00-index.md"
-      },
-      {
-        "title": "Codex × PPT Skill：一句话生成演示文稿",
-        "rel": "docs-recipes-01-ppt-skill-walkthrough",
-        "sourceRel": "docs/recipes/01-ppt-skill-walkthrough.md"
-      },
-      {
-        "title": "Codex × Draw.io MCP：AI 自动绘制架构图",
-        "rel": "docs-recipes-02-drawio-mcp",
-        "sourceRel": "docs/recipes/02-drawio-mcp.md"
-      },
-      {
-        "title": "Codex × Playwright MCP：让 AI 像人一样操控浏览器",
-        "rel": "docs-recipes-03-playwright-mcp",
-        "sourceRel": "docs/recipes/03-playwright-mcp.md"
-      },
-      {
-        "title": "Codex × HyperFrames：用代码生成动画视频",
-        "rel": "docs-recipes-04-hyperframes-animation",
-        "sourceRel": "docs/recipes/04-hyperframes-animation.md"
-      },
-      {
-        "title": "Codex × Obsidian：在知识库中自动生成配图",
-        "rel": "docs-recipes-05-obsidian-codex",
-        "sourceRel": "docs/recipes/05-obsidian-codex.md"
-      },
-      {
-        "title": "Codex × 飞书 CLI：一句话处理飞书数据",
-        "rel": "docs-recipes-06-feishu-cli-codex",
-        "sourceRel": "docs/recipes/06-feishu-cli-codex.md"
-      },
-      {
-        "title": "Codex × LLM Wiki：在 Obsidian 中搭建 AI 知识库",
-        "rel": "docs-recipes-07-llm-wiki-codex",
-        "sourceRel": "docs/recipes/07-llm-wiki-codex.md"
-      },
-      {
-        "title": "Codex × Figma MCP：让 AI 读懂你的设计稿",
-        "rel": "docs-recipes-08-figma-mcp-codex",
-        "sourceRel": "docs/recipes/08-figma-mcp-codex.md"
-      },
-      {
-        "title": "Codex × Notion MCP：打通你的知识工作空间",
-        "rel": "docs-recipes-09-notion-mcp-codex",
-        "sourceRel": "docs/recipes/09-notion-mcp-codex.md"
-      },
-      {
-        "title": "Codex × DKFile：AI 网页一键发布到公网",
-        "rel": "docs-recipes-10-dkfile-deploy-codex",
-        "sourceRel": "docs/recipes/10-dkfile-deploy-codex.md"
-      },
-      {
-        "title": "Codex × 云服务器：远程定位并修复 Bug",
-        "rel": "docs-recipes-11-remote-bug-fix",
-        "sourceRel": "docs/recipes/11-remote-bug-fix.md"
-      },
-      {
-        "title": "Codex × Chrome：让 AI 直接控制浏览器",
-        "rel": "docs-recipes-12-chrome-browser-plugin",
-        "sourceRel": "docs/recipes/12-chrome-browser-plugin.md"
-      },
-      {
-        "title": "Codex × GitHub Actions：CI 失败自动修复实测",
-        "rel": "docs-recipes-13-github-actions-ci-fix",
-        "sourceRel": "docs/recipes/13-github-actions-ci-fix.md"
-      },
-      {
-        "title": "Codex × 临床文献综述：把医学问题整理成可复核证据表",
-        "rel": "docs-recipes-14-clinical-literature-review",
-        "sourceRel": "docs/recipes/14-clinical-literature-review.md"
-      },
-      {
-        "title": "Codex × Hatch Pet：用一张照片生成专属宠物",
-        "rel": "docs-recipes-15-hatch-pet-photo",
-        "sourceRel": "docs/recipes/15-hatch-pet-photo.md"
-      },
-      {
-        "title": "Codex × 安卓手机：扫码连接，远程操控",
-        "rel": "docs-recipes-16-android-remote-control",
-        "sourceRel": "docs/recipes/16-android-remote-control.md"
-      },
-      {
-        "title": "如何设置自己的 Codex 桌面宠物",
-        "rel": "docs-recipes-17-desktop-pet",
-        "sourceRel": "docs/recipes/17-desktop-pet.md"
-      },
-      {
-        "title": "快速上手",
-        "rel": "docs-start-00-index",
-        "sourceRel": "docs/start/00-index.md"
-      },
-      {
-        "title": "Codex 是什么",
-        "rel": "docs-start-01-what-is-codex",
-        "sourceRel": "docs/start/01-what-is-codex.md"
-      },
-      {
-        "title": "Codex 桌面 App 下载与安装",
-        "rel": "docs-start-02-app-installation",
-        "sourceRel": "docs/start/02-app-installation.md"
-      },
-      {
-        "title": "订阅 ChatGPT Plus / Pro",
-        "rel": "docs-start-03-account-plan",
-        "sourceRel": "docs/start/03-account-plan.md"
-      },
-      {
-        "title": "连接第三方 API",
-        "rel": "docs-start-04-third-party-api",
-        "sourceRel": "docs/start/04-third-party-api.md"
-      },
-      {
-        "title": "用 Codex 完成第一个任务",
-        "rel": "docs-start-06-first-task",
-        "sourceRel": "docs/start/06-first-task.md"
-      },
-      {
-        "title": "任务设计",
-        "rel": "docs-start-07-task-design",
-        "sourceRel": "docs/start/07-task-design.md"
-      },
-      {
-        "title": "任务执行与验证闭环",
-        "rel": "docs-start-08-task-execution",
-        "sourceRel": "docs/start/08-task-execution.md"
-      },
-      {
-        "title": "用手机远程操控 Codex",
-        "rel": "docs-start-09-mobile-control",
-        "sourceRel": "docs/start/09-mobile-control.md"
-      },
-      {
-        "title": "安装CLI",
-        "rel": "docs-start-10-cli-installation",
-        "sourceRel": "docs/start/10-cli-installation.md"
-      },
-      {
-        "title": "运行 CLI",
-        "rel": "docs-start-11-cli-first-run",
-        "sourceRel": "docs/start/11-cli-first-run.md"
-      },
-      {
-        "title": "CLI 选项与命令",
-        "rel": "docs-start-12-cli-options",
-        "sourceRel": "docs/start/12-cli-options.md"
-      },
-      {
-        "title": "在 VS Code 中使用 Codex",
-        "rel": "docs-start-13-ide-vscode",
-        "sourceRel": "docs/start/13-ide-vscode.md"
-      },
-      {
-        "title": "使用 Codex Cloud",
-        "rel": "docs-start-14-cloud",
-        "sourceRel": "docs/start/14-cloud.md"
       }
     ]
   },
@@ -11836,33 +9218,118 @@ export const courses: Course[] = [
       },
       {
         "title": "2026-04-15 — +15 New · 15 Total",
-        "rel": "changelog",
+        "rel": "changelog-2026-04-15",
         "sourceRel": "changelog/2026-04-15.md"
       },
       {
+        "title": "2026-04-16 — +6 New · 21 Total",
+        "rel": "changelog-2026-04-16",
+        "sourceRel": "changelog/2026-04-16.md"
+      },
+      {
+        "title": "2026-04-19 — +4 New · 25 Total",
+        "rel": "changelog-2026-04-19",
+        "sourceRel": "changelog/2026-04-19.md"
+      },
+      {
         "title": "Agent Teams: Parallel Claudes Building Real Software",
-        "rel": "guide",
+        "rel": "guide-agent-teams",
         "sourceRel": "guide/agent-teams.md"
       },
       {
+        "title": "Agentic Loop",
+        "rel": "guide-agentic-loop",
+        "sourceRel": "guide/agentic-loop.md"
+      },
+      {
+        "title": "Classifier-Based Permission Systems (Auto Mode)",
+        "rel": "guide-classifier-permissions",
+        "sourceRel": "guide/classifier-permissions.md"
+      },
+      {
+        "title": "Comparison of Major Harness Implementations",
+        "rel": "guide-comparison",
+        "sourceRel": "guide/comparison.md"
+      },
+      {
+        "title": "Context Engineering",
+        "rel": "guide-context-engineering",
+        "sourceRel": "guide/context-engineering.md"
+      },
+      {
+        "title": "Error Handling",
+        "rel": "guide-error-handling",
+        "sourceRel": "guide/error-handling.md"
+      },
+      {
+        "title": "Eval Awareness — When Agents Recognize They're Being Tested",
+        "rel": "guide-eval-awareness",
+        "sourceRel": "guide/eval-awareness.md"
+      },
+      {
+        "title": "Infrastructure Noise in Agent Evaluations",
+        "rel": "guide-eval-infrastructure",
+        "sourceRel": "guide/eval-infrastructure.md"
+      },
+      {
+        "title": "Every AI Startup Should Watch Out: 1000+ Ghost Accounts Drained Our Platform in 15 Days",
+        "rel": "guide-ghost-account-hunting",
+        "sourceRel": "guide/ghost-account-hunting.md"
+      },
+      {
+        "title": "Glossary",
+        "rel": "guide-glossary",
+        "sourceRel": "guide/glossary.md"
+      },
+      {
+        "title": "Guardrails",
+        "rel": "guide-guardrails",
+        "sourceRel": "guide/guardrails.md"
+      },
+      {
+        "title": "Harness vs. Framework",
+        "rel": "guide-harness-vs-framework",
+        "sourceRel": "guide/harness-vs-framework.md"
+      },
+      {
+        "title": "Initializer + Coding Agent — A Two-Phase Harness Pattern",
+        "rel": "guide-initializer-coding-pattern",
+        "sourceRel": "guide/initializer-coding-pattern.md"
+      },
+      {
+        "title": "Long-Running Agent Harness Design",
+        "rel": "guide-long-running-harness",
+        "sourceRel": "guide/long-running-harness.md"
+      },
+      {
+        "title": "Managed Agents: Decoupling Brain from Hands",
+        "rel": "guide-managed-agents-architecture",
+        "sourceRel": "guide/managed-agents-architecture.md"
+      },
+      {
+        "title": "Memory & Context",
+        "rel": "guide-memory-and-context",
+        "sourceRel": "guide/memory-and-context.md"
+      },
+      {
+        "title": "Multi-Agent Orchestration",
+        "rel": "guide-multi-agent-orchestration",
+        "sourceRel": "guide/multi-agent-orchestration.md"
+      },
+      {
+        "title": "The Billion-Token Battle: Shipping Our OpenClaw Windows Client",
+        "rel": "guide-nexu-windows-packaging",
+        "sourceRel": "guide/nexu-windows-packaging.md"
+      },
+      {
+        "title": "Sandbox",
+        "rel": "guide-sandbox",
+        "sourceRel": "guide/sandbox.md"
+      },
+      {
         "title": "Harness Engineering 指南（nexu.io）",
-        "rel": "site",
-        "sourceRel": "site/README.md"
-      },
-      {
-        "title": "Skills",
-        "rel": "skills",
-        "sourceRel": "skills/README.md"
-      },
-      {
-        "title": "2026-04-15 — 新增 15 篇 · 累计 15 篇",
-        "rel": "zh-changelog",
-        "sourceRel": "zh-changelog/2026-04-15.md"
-      },
-      {
-        "title": "Agent Teams：并行 Claude 打造真实软件",
-        "rel": "zh-guide",
-        "sourceRel": "zh-guide/agent-teams.md"
+        "rel": "guide-scheduling-and-automation",
+        "sourceRel": "guide/scheduling-and-automation.md"
       }
     ]
   },
@@ -11896,24 +9363,119 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
-        "title": "Harness Engineering Theses",
-        "rel": "docs",
-        "sourceRel": "docs/README.md"
+        "title": "Architecture",
+        "rel": "ARCHITECTURE",
+        "sourceRel": "ARCHITECTURE.md"
       },
       {
-        "title": "Evaluate the Harness",
-        "rel": "evals",
-        "sourceRel": "evals/README.md"
+        "title": "Claude Code",
+        "rel": "CLAUDE",
+        "sourceRel": "CLAUDE.md"
       },
       {
-        "title": "Playbooks",
-        "rel": "playbooks",
-        "sourceRel": "playbooks/README.md"
+        "title": "Copyright, Attribution, and Source Material",
+        "rel": "COPYING",
+        "sourceRel": "COPYING.md"
       },
       {
-        "title": "Sources",
-        "rel": "sources",
-        "sourceRel": "sources/README.md"
+        "title": "Maximize Autonomy Inside Explicit Authority",
+        "rel": "docs-authority",
+        "sourceRel": "docs/authority/README.md"
+      },
+      {
+        "title": "Claude Code",
+        "rel": "docs-CLAUDE",
+        "sourceRel": "docs/CLAUDE.md"
+      },
+      {
+        "title": "Run Known Work as a Continuous Loop",
+        "rel": "docs-continuous-maintenance",
+        "sourceRel": "docs/continuous-maintenance/README.md"
+      },
+      {
+        "title": "Infrastructure as a Typed Control Plane",
+        "rel": "docs-domain-modeling-homelab",
+        "sourceRel": "docs/domain-modeling/homelab.md"
+      },
+      {
+        "title": "Harness Engineering the hyperbo.la Build",
+        "rel": "docs-domain-modeling-hyperbola",
+        "sourceRel": "docs/domain-modeling/hyperbola.md"
+      },
+      {
+        "title": "Architectures That Teach",
+        "rel": "docs-domain-modeling-implementations",
+        "sourceRel": "docs/domain-modeling/implementations.md"
+      },
+      {
+        "title": "Make the Repository Teach the Agent",
+        "rel": "docs-domain-modeling",
+        "sourceRel": "docs/domain-modeling/README.md"
+      },
+      {
+        "title": "Dependency Ownership",
+        "rel": "docs-durable-systems-dependency-ownership",
+        "sourceRel": "docs/durable-systems/dependency-ownership.md"
+      },
+      {
+        "title": "Preserve Coherence and Own Lifetime Risk",
+        "rel": "docs-durable-systems",
+        "sourceRel": "docs/durable-systems/README.md"
+      },
+      {
+        "title": "Measure Effectiveness at the Outcome Boundary",
+        "rel": "docs-effectiveness",
+        "sourceRel": "docs/effectiveness/README.md"
+      },
+      {
+        "title": "MLD: Telemetry for the Harness Builder",
+        "rel": "docs-feedback-mld",
+        "sourceRel": "docs/feedback/mld.md"
+      },
+      {
+        "title": "Turn Feedback Into Infrastructure",
+        "rel": "docs-feedback",
+        "sourceRel": "docs/feedback/README.md"
+      },
+      {
+        "title": "Model-Native Semantics Across Agent Hosts",
+        "rel": "docs-fixed-worker-model-native-semantics",
+        "sourceRel": "docs/fixed-worker/model-native-semantics.md"
+      },
+      {
+        "title": "Hold the Worker Constant",
+        "rel": "docs-fixed-worker",
+        "sourceRel": "docs/fixed-worker/README.md"
+      },
+      {
+        "title": "Route Context Just in Time",
+        "rel": "docs-just-in-time-context",
+        "sourceRel": "docs/just-in-time-context/README.md"
+      },
+      {
+        "title": "Deploy Into the Private Process-Data Iceberg",
+        "rel": "docs-last-mile-deployment",
+        "sourceRel": "docs/last-mile-deployment/README.md"
+      },
+      {
+        "title": "Influences and Alternate Framings",
+        "rel": "docs-lineage",
+        "sourceRel": "docs/lineage/README.md"
+      },
+      {
+        "title": "Prove the Outcome in the Real Environment",
+        "rel": "docs-proof",
+        "sourceRel": "docs/proof/README.md"
+      },
+      {
+        "title": "Release Integrity",
+        "rel": "docs-proof-release-integrity",
+        "sourceRel": "docs/proof/release-integrity.md"
+      },
+      {
+        "title": "Prove a Security Claim",
+        "rel": "docs-proof-rustsec",
+        "sourceRel": "docs/proof/rustsec.md"
       }
     ]
   },
@@ -11947,19 +9509,119 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
+        "title": "Project Rules",
+        "rel": "CLAUDE",
+        "sourceRel": "CLAUDE.md"
+      },
+      {
+        "title": "Architecture",
+        "rel": "docs-ARCHITECTURE",
+        "sourceRel": "docs/ARCHITECTURE.md"
+      },
+      {
+        "title": "0019 Repository-Centered Default Workflow",
+        "rel": "docs-decisions-0019-repository-centered-default-workflow",
+        "sourceRel": "docs/decisions/0019-repository-centered-default-workflow.md"
+      },
+      {
+        "title": "0020 Installation Profile And Knowledge Boundaries",
+        "rel": "docs-decisions-0020-installation-profile-and-knowledge-boundaries",
+        "sourceRel": "docs/decisions/0020-installation-profile-and-knowledge-boundaries.md"
+      },
+      {
+        "title": "0024 Rust Harness Core Maintenance CLI",
+        "rel": "docs-decisions-0024-rust-harness-core-maintenance-cli",
+        "sourceRel": "docs/decisions/0024-rust-harness-core-maintenance-cli.md"
+      },
+      {
+        "title": "0025 Latest-Release Self-Update And Human-Directed Conflicts",
+        "rel": "docs-decisions-0025-latest-release-self-update-and-human-directed-conflicts",
+        "sourceRel": "docs/decisions/0025-latest-release-self-update-and-human-directed-conflicts.md"
+      },
+      {
+        "title": "0026 Explicit Onboarding Skills In Default Core",
+        "rel": "docs-decisions-0026-explicit-onboarding-skills-in-default-core",
+        "sourceRel": "docs/decisions/0026-explicit-onboarding-skills-in-default-core.md"
+      },
+      {
+        "title": "0027 End Protocol V1 And Focus The Repository Protocol",
+        "rel": "docs-decisions-0027-end-protocol-v1-and-focus-repository-protocol",
+        "sourceRel": "docs/decisions/0027-end-protocol-v1-and-focus-repository-protocol.md"
+      },
+      {
+        "title": "0028 Authoritative Invariant Encoding",
+        "rel": "docs-decisions-0028-authoritative-invariant-encoding",
+        "sourceRel": "docs/decisions/0028-authoritative-invariant-encoding.md"
+      },
+      {
+        "title": "Decisions",
+        "rel": "docs-decisions",
+        "sourceRel": "docs/decisions/README.md"
+      },
+      {
+        "title": "Repository-Centered Workflow Demo",
+        "rel": "docs-demo",
+        "sourceRel": "docs/demo/README.md"
+      },
+      {
+        "title": "Harness Product Model",
+        "rel": "docs-HARNESS",
+        "sourceRel": "docs/HARNESS.md"
+      },
+      {
+        "title": "Encoding Invariants",
+        "rel": "docs-patterns-encoding-invariants",
+        "sourceRel": "docs/patterns/encoding-invariants.md"
+      },
+      {
+        "title": "Active Execution Plans",
+        "rel": "docs-plans-active",
+        "sourceRel": "docs/plans/active/README.md"
+      },
+      {
+        "title": "Execution Plan: P1 Invariant Encoding",
+        "rel": "docs-plans-completed-p1-encode-invariants",
+        "sourceRel": "docs/plans/completed/p1-encode-invariants.md"
+      },
+      {
+        "title": "Completed Execution Plans",
+        "rel": "docs-plans-completed",
+        "sourceRel": "docs/plans/completed/README.md"
+      },
+      {
+        "title": "Execution Plan: Repository Protocol Core",
+        "rel": "docs-plans-completed-repository-protocol-core",
+        "sourceRel": "docs/plans/completed/repository-protocol-core.md"
+      },
+      {
+        "title": "Execution Plans",
+        "rel": "docs-plans",
+        "sourceRel": "docs/plans/README.md"
+      },
+      {
+        "title": "Installation Contract",
+        "rel": "docs-product-installation-profiles",
+        "sourceRel": "docs/product/installation-profiles.md"
+      },
+      {
+        "title": "Product Docs",
+        "rel": "docs-product",
+        "sourceRel": "docs/product/README.md"
+      },
+      {
         "title": "Documentation Map",
         "rel": "docs",
         "sourceRel": "docs/README.md"
       },
       {
-        "title": "Scripts",
-        "rel": "scripts",
-        "sourceRel": "scripts/README.md"
+        "title": "Application Legibility Research",
+        "rel": "docs-research-application-legibility",
+        "sourceRel": "docs/research/application-legibility.md"
       },
       {
-        "title": "Test Suite Map",
-        "rel": "tests",
-        "sourceRel": "tests/README.md"
+        "title": "Application Runbook: Surface",
+        "rel": "docs-templates-application-runbook",
+        "sourceRel": "docs/templates/application-runbook.md"
       }
     ]
   },
@@ -11994,13 +9656,118 @@ export const courses: Course[] = [
       },
       {
         "title": "Agent Teams — The Complete Guide",
-        "rel": "docs",
+        "rel": "docs-agent-teams",
         "sourceRel": "docs/agent-teams.md"
+      },
+      {
+        "title": "Slash Commands — Cheatsheet",
+        "rel": "docs-reference-commands",
+        "sourceRel": "docs/reference/commands.md"
+      },
+      {
+        "title": "Reasoning Effort Levels",
+        "rel": "docs-reference-effort-levels",
+        "sourceRel": "docs/reference/effort-levels.md"
+      },
+      {
+        "title": "FAQ — Claude Code & Claude Plans",
+        "rel": "docs-reference-faq",
+        "sourceRel": "docs/reference/faq.md"
+      },
+      {
+        "title": "Further reading",
+        "rel": "docs-reference-further-reading",
+        "sourceRel": "docs/reference/further-reading.md"
+      },
+      {
+        "title": "Models — Specifications & Pricing",
+        "rel": "docs-reference-models",
+        "sourceRel": "docs/reference/models.md"
+      },
+      {
+        "title": "Claude Skills — The Complete Guide",
+        "rel": "docs-skills",
+        "sourceRel": "docs/skills.md"
+      },
+      {
+        "title": "Dynamic Workflows — Orchestrating Agents at Scale",
+        "rel": "docs-workflows",
+        "sourceRel": "docs/workflows.md"
+      },
+      {
+        "title": "Memory MCP Server",
+        "rel": "mcp-servers-memory",
+        "sourceRel": "mcp-servers/memory.md"
+      },
+      {
+        "title": "Playwright MCP Server",
+        "rel": "mcp-servers-playwright",
+        "sourceRel": "mcp-servers/playwright.md"
       },
       {
         "title": "MCP Servers Documentation",
         "rel": "mcp-servers",
         "sourceRel": "mcp-servers/README.md"
+      },
+      {
+        "title": "Sequential Thinking MCP Server",
+        "rel": "mcp-servers-sequential-thinking",
+        "sourceRel": "mcp-servers/sequential-thinking.md"
+      },
+      {
+        "title": "Serena MCP Server",
+        "rel": "mcp-servers-serena",
+        "sourceRel": "mcp-servers/serena.md"
+      },
+      {
+        "title": "Claude Code Everything You Need to Know",
+        "rel": "specialized-agents-Descriptions-backend-engineer-description",
+        "sourceRel": "specialized-agents/Descriptions/backend-engineer-description.md"
+      },
+      {
+        "title": "Claude Code Everything You Need to Know",
+        "rel": "specialized-agents-Descriptions-business-analyst-description",
+        "sourceRel": "specialized-agents/Descriptions/business-analyst-description.md"
+      },
+      {
+        "title": "Claude Code Everything You Need to Know",
+        "rel": "specialized-agents-Descriptions-code-reviewer-description",
+        "sourceRel": "specialized-agents/Descriptions/code-reviewer-description.md"
+      },
+      {
+        "title": "Claude Code Everything You Need to Know",
+        "rel": "specialized-agents-Descriptions-database-engineer-description",
+        "sourceRel": "specialized-agents/Descriptions/database-engineer-description.md"
+      },
+      {
+        "title": "Claude Code Everything You Need to Know",
+        "rel": "specialized-agents-Descriptions-frontend-engineer-description",
+        "sourceRel": "specialized-agents/Descriptions/frontend-engineer-description.md"
+      },
+      {
+        "title": "Claude Code Everything You Need to Know",
+        "rel": "specialized-agents-Descriptions-project-manager-description",
+        "sourceRel": "specialized-agents/Descriptions/project-manager-description.md"
+      },
+      {
+        "title": "Claude Code Everything You Need to Know",
+        "rel": "specialized-agents-Descriptions-security-reviewer-description",
+        "sourceRel": "specialized-agents/Descriptions/security-reviewer-description.md"
+      },
+      {
+        "title": "Claude Code Everything You Need to Know",
+        "rel": "specialized-agents-Descriptions-tech-lead-description",
+        "sourceRel": "specialized-agents/Descriptions/tech-lead-description.md"
+      },
+      {
+        "title": "Claude Code Everything You Need to Know",
+        "rel": "specialized-agents-Descriptions-ux-engineer-description",
+        "sourceRel": "specialized-agents/Descriptions/ux-engineer-description.md"
+      },
+      {
+        "title": "Claude Code Everything You Need to Know",
+        "rel": "specialized-agents-system-prompts-backend-engineer-prompt",
+        "sourceRel": "specialized-agents/system-prompts/backend-engineer-prompt.md"
       }
     ]
   },
@@ -12040,7 +9807,7 @@ export const courses: Course[] = [
       },
       {
         "title": "codeagentsimple",
-        "rel": "agents-code_agent_simple-README",
+        "rel": "agents-code_agent_simple",
         "sourceRel": "agents/code_agent_simple/README.md"
       },
       {
@@ -12135,78 +9902,13 @@ export const courses: Course[] = [
       },
       {
         "title": "codeagentsimple",
-        "rel": "experiments-evolved_harness-README",
+        "rel": "experiments-evolved_harness",
         "sourceRel": "experiments/evolved_harness/README.md"
       },
       {
         "title": "Short-Term Memory",
         "rel": "experiments-evolved_harness-ShortTermMEMORY",
         "sourceRel": "experiments/evolved_harness/ShortTermMEMORY.md"
-      },
-      {
-        "title": "Agentic Harness Engineering（论文与实现）",
-        "rel": "experiments-evolved_harness-systemprompt",
-        "sourceRel": "experiments/evolved_harness/systemprompt.md"
-      },
-      {
-        "title": "Agentic Harness Engineering：以可观测性驱动的编码 Agent Harness 自动演化",
-        "rel": "README_zh",
-        "sourceRel": "README_zh.md"
-      },
-      {
-        "title": "Task Analysis: {{taskid}}",
-        "rel": "skills-agentic-harness-engineering-references-analysis-detail-template",
-        "sourceRel": "skills/agentic-harness-engineering/references/analysis/detail-template.md"
-      },
-      {
-        "title": "Evaluation Overview — Iteration {{iteration}}",
-        "rel": "skills-agentic-harness-engineering-references-analysis-overview-template",
-        "sourceRel": "skills/agentic-harness-engineering/references/analysis/overview-template.md"
-      },
-      {
-        "title": "Analysis — 经验可观测性标准",
-        "rel": "skills-agentic-harness-engineering-references-analysis-README",
-        "sourceRel": "skills/agentic-harness-engineering/references/analysis/README.md"
-      },
-      {
-        "title": "HARNESS.md Directory Template",
-        "rel": "skills-agentic-harness-engineering-references-directory-template",
-        "sourceRel": "skills/agentic-harness-engineering/references/directory-template.md"
-      },
-      {
-        "title": "results.json — 评估结果标准格式",
-        "rel": "skills-agentic-harness-engineering-references-docs-results-format",
-        "sourceRel": "skills/agentic-harness-engineering/references/docs/results-format.md"
-      },
-      {
-        "title": "回滚策略 — Harness Change Rollback",
-        "rel": "skills-agentic-harness-engineering-references-docs-rollback-strategy",
-        "sourceRel": "skills/agentic-harness-engineering/references/docs/rollback-strategy.md"
-      },
-      {
-        "title": "Evaluation Overview — Iteration 3",
-        "rel": "skills-agentic-harness-engineering-references-examples-trace-sample-analysis-overview",
-        "sourceRel": "skills/agentic-harness-engineering/references/examples/trace-sample/analysis-overview.md"
-      },
-      {
-        "title": "Trace Sample — Task T-042: Search Results Exceed 50",
-        "rel": "skills-agentic-harness-engineering-references-examples-trace-sample-task-t042-search-truncation",
-        "sourceRel": "skills/agentic-harness-engineering/references/examples/trace-sample/task-t042-search-truncation.md"
-      },
-      {
-        "title": "HARNESS.md — Agent Harness Specification v1.0",
-        "rel": "skills-agentic-harness-engineering-references-HARNESS",
-        "sourceRel": "skills/agentic-harness-engineering/references/HARNESS.md"
-      },
-      {
-        "title": "🦁 HARNESS.md + AHE.skill",
-        "rel": "skills-agentic-harness-engineering-references-PROJECT_README",
-        "sourceRel": "skills/agentic-harness-engineering/references/PROJECT_README.md"
-      },
-      {
-        "title": "AHE Skill — Agent Harness Evolution",
-        "rel": "skills-agentic-harness-engineering-SKILL",
-        "sourceRel": "skills/agentic-harness-engineering/SKILL.md"
       }
     ]
   },
@@ -12240,14 +9942,89 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
+        "title": "Harness — GitHub Trending Readiness Audit",
+        "rel": "_workspace-01_auditor_repo_audit",
+        "sourceRel": "_workspace/01_auditor_repo_audit.md"
+      },
+      {
+        "title": "Harness Launch Content — Multi-Platform",
+        "rel": "_workspace-02_content_launch_contents",
+        "sourceRel": "_workspace/02_content_launch_contents.md"
+      },
+      {
+        "title": "Harness 아웃리치 타겟 맵",
+        "rel": "_workspace-03_scout_outreach_map",
+        "sourceRel": "_workspace/03_scout_outreach_map.md"
+      },
+      {
+        "title": "GitHub Trending 통합 런치 플랜 — Harness",
+        "rel": "_workspace-04_strategist_launch_plan",
+        "sourceRel": "_workspace/04_strategist_launch_plan.md"
+      },
+      {
+        "title": "Release Audit — 2026-04-18",
+        "rel": "_workspace-release-audit-2026-04-18",
+        "sourceRel": "_workspace/release/audit-2026-04-18.md"
+      },
+      {
+        "title": "Post-M0 Audit — 2026-04-18",
+        "rel": "_workspace-release-post-m0-audit-2026-04-18",
+        "sourceRel": "_workspace/release/post-m0-audit-2026-04-18.md"
+      },
+      {
         "title": "Experimental Flag Dependency",
-        "rel": "docs",
+        "rel": "docs-experimental-dependency",
         "sourceRel": "docs/experimental-dependency.md"
       },
       {
-        "title": "Harness — GitHub Trending Readiness Audit",
-        "rel": "_workspace",
-        "sourceRel": "_workspace/01_auditor_repo_audit.md"
+        "title": "Quickstart — 5 Minutes to Your First Harness",
+        "rel": "docs-quickstart",
+        "sourceRel": "docs/quickstart.md"
+      },
+      {
+        "title": "Harness — Claude Code のためのチームアーキテクチャファクトリー",
+        "rel": "README_JA",
+        "sourceRel": "README_JA.md"
+      },
+      {
+        "title": "Harness — Claude Code를 위한 팀 아키텍처 팩토리",
+        "rel": "README_KO",
+        "sourceRel": "README_KO.md"
+      },
+      {
+        "title": "Agent Team Design Patterns",
+        "rel": "skills-harness-references-agent-design-patterns",
+        "sourceRel": "skills/harness/references/agent-design-patterns.md"
+      },
+      {
+        "title": "오케스트레이터 스킬 템플릿",
+        "rel": "skills-harness-references-orchestrator-template",
+        "sourceRel": "skills/harness/references/orchestrator-template.md"
+      },
+      {
+        "title": "QA 에이전트 설계 가이드",
+        "rel": "skills-harness-references-qa-agent-guide",
+        "sourceRel": "skills/harness/references/qa-agent-guide.md"
+      },
+      {
+        "title": "스킬 테스트 & 반복 개선 가이드",
+        "rel": "skills-harness-references-skill-testing-guide",
+        "sourceRel": "skills/harness/references/skill-testing-guide.md"
+      },
+      {
+        "title": "스킬 작성 가이드",
+        "rel": "skills-harness-references-skill-writing-guide",
+        "sourceRel": "skills/harness/references/skill-writing-guide.md"
+      },
+      {
+        "title": "Agent Team Examples",
+        "rel": "skills-harness-references-team-examples",
+        "sourceRel": "skills/harness/references/team-examples.md"
+      },
+      {
+        "title": "Harness — Agent Team & Skill Architect",
+        "rel": "skills-harness-SKILL",
+        "sourceRel": "skills/harness/SKILL.md"
       }
     ]
   },
@@ -12282,17 +10059,57 @@ export const courses: Course[] = [
       },
       {
         "title": "Best Practice: AGENTS.md",
-        "rel": "best-practice",
+        "rel": "best-practice-codex-agents-md",
         "sourceRel": "best-practice/codex-agents-md.md"
       },
       {
+        "title": "Best Practice: Config",
+        "rel": "best-practice-codex-config",
+        "sourceRel": "best-practice/codex-config.md"
+      },
+      {
+        "title": "Best Practice: Hooks",
+        "rel": "best-practice-codex-hooks",
+        "sourceRel": "best-practice/codex-hooks.md"
+      },
+      {
+        "title": "Best Practice: Plugin Marketplace",
+        "rel": "best-practice-codex-marketplace",
+        "sourceRel": "best-practice/codex-marketplace.md"
+      },
+      {
+        "title": "Best Practice: MCP (Model Context Protocol)",
+        "rel": "best-practice-codex-mcp",
+        "sourceRel": "best-practice/codex-mcp.md"
+      },
+      {
+        "title": "Best Practice: Memories",
+        "rel": "best-practice-codex-memory",
+        "sourceRel": "best-practice/codex-memory.md"
+      },
+      {
+        "title": "Best Practice: Skills",
+        "rel": "best-practice-codex-skills",
+        "sourceRel": "best-practice/codex-skills.md"
+      },
+      {
+        "title": "Best Practice: Subagents",
+        "rel": "best-practice-codex-subagents",
+        "sourceRel": "best-practice/codex-subagents.md"
+      },
+      {
+        "title": "CLAUDE.md",
+        "rel": "CLAUDE",
+        "sourceRel": "CLAUDE.md"
+      },
+      {
         "title": "Skills System Reference",
-        "rel": "docs",
+        "rel": "docs-SKILLS",
         "sourceRel": "docs/SKILLS.md"
       },
       {
         "title": "Orchestration Workflow",
-        "rel": "orchestration-workflow",
+        "rel": "orchestration-workflow-orchestration-workflow",
         "sourceRel": "orchestration-workflow/orchestration-workflow.md"
       }
     ]
@@ -12327,9 +10144,19 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
-        "title": "AGENTS.md",
-        "rel": "templates",
-        "sourceRel": "templates/AGENTS.md"
+        "title": "Harness Review Checklist",
+        "rel": "templates-HARNESS_CHECKLIST",
+        "sourceRel": "templates/HARNESS_CHECKLIST.md"
+      },
+      {
+        "title": "IMPLEMENT.md",
+        "rel": "templates-IMPLEMENT",
+        "sourceRel": "templates/IMPLEMENT.md"
+      },
+      {
+        "title": "PLAN.md",
+        "rel": "templates-PLAN",
+        "sourceRel": "templates/PLAN.md"
       }
     ]
   },
@@ -12399,8 +10226,13 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
+        "title": "ChatGPT 橙皮书：从安装到实战案例的全链路使用指南",
+        "rel": "ChatGPT橙皮书",
+        "sourceRel": "ChatGPT橙皮书.md"
+      },
+      {
         "title": "ChatGPT 橙皮书网站发布说明",
-        "rel": "site",
+        "rel": "site-DEPLOY",
         "sourceRel": "site/DEPLOY.md"
       }
     ]
@@ -12435,14 +10267,119 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
+        "title": "How Claude Code Works",
+        "rel": "_coverpage",
+        "sourceRel": "_coverpage.md"
+      },
+      {
         "title": "第 1 章：Claude Code 概述",
-        "rel": "docs",
+        "rel": "docs-01-overview",
         "sourceRel": "docs/01-overview.md"
       },
       {
-        "title": "How Claude Code Works",
-        "rel": "en",
-        "sourceRel": "en/README.md"
+        "title": "第 2 章：系统主循环",
+        "rel": "docs-02-agent-loop",
+        "sourceRel": "docs/02-agent-loop.md"
+      },
+      {
+        "title": "第 3 章：上下文工程",
+        "rel": "docs-03-context-engineering",
+        "sourceRel": "docs/03-context-engineering.md"
+      },
+      {
+        "title": "第 4 章：工具系统",
+        "rel": "docs-04-tool-system",
+        "sourceRel": "docs/04-tool-system.md"
+      },
+      {
+        "title": "第 10 章：代码编辑策略",
+        "rel": "docs-05-code-editing-strategy",
+        "sourceRel": "docs/05-code-editing-strategy.md"
+      },
+      {
+        "title": "第 7 章：Hooks 与可扩展性",
+        "rel": "docs-06-hooks-extensibility",
+        "sourceRel": "docs/06-hooks-extensibility.md"
+      },
+      {
+        "title": "第 8 章：多 Agent 架构",
+        "rel": "docs-07-multi-agent",
+        "sourceRel": "docs/07-multi-agent.md"
+      },
+      {
+        "title": "第 6 章：记忆系统",
+        "rel": "docs-08-memory-system",
+        "sourceRel": "docs/08-memory-system.md"
+      },
+      {
+        "title": "第 5 章：技能系统",
+        "rel": "docs-09-skills-system",
+        "sourceRel": "docs/09-skills-system.md"
+      },
+      {
+        "title": "第 9 章：Plan 模式",
+        "rel": "docs-10-plan-mode",
+        "sourceRel": "docs/10-plan-mode.md"
+      },
+      {
+        "title": "第 12 章：权限与安全",
+        "rel": "docs-11-permission-security",
+        "sourceRel": "docs/11-permission-security.md"
+      },
+      {
+        "title": "第 14 章：用户体验设计",
+        "rel": "docs-12-user-experience",
+        "sourceRel": "docs/12-user-experience.md"
+      },
+      {
+        "title": "第 15 章：最小必要组件",
+        "rel": "docs-13-minimal-components",
+        "sourceRel": "docs/13-minimal-components.md"
+      },
+      {
+        "title": "第 13 章：系统提示词速查手册",
+        "rel": "docs-14-system-prompt-design",
+        "sourceRel": "docs/14-system-prompt-design.md"
+      },
+      {
+        "title": "第 11 章：任务管理系统",
+        "rel": "docs-15-task-system",
+        "sourceRel": "docs/15-task-system.md"
+      },
+      {
+        "title": "第 16 章：可观测性——一次任务的全程可追溯",
+        "rel": "docs-16-observability",
+        "sourceRel": "docs/16-observability.md"
+      },
+      {
+        "title": "第 17 章：自治与续跑——/goal 与 /loop",
+        "rel": "docs-17-autonomy-goal-loop",
+        "sourceRel": "docs/17-autonomy-goal-loop.md"
+      },
+      {
+        "title": "第 18 章：Auto Mode——权限进入分类器时代",
+        "rel": "docs-18-auto-mode",
+        "sourceRel": "docs/18-auto-mode.md"
+      },
+      {
+        "title": "第 19 章：Dynamic Workflows——用确定性脚本指挥 agent 舰队",
+        "rel": "docs-19-dynamic-workflows",
+        "sourceRel": "docs/19-dynamic-workflows.md"
+      },
+      {
+        "title": "第 20 章：Agent Teams——对等组队与跨会话安全",
+        "rel": "docs-20-agent-teams",
+        "sourceRel": "docs/20-agent-teams.md"
+      },
+      {
+        "title": "第 21 章：后台 Agent 舰队——脱终端常驻与 daemon 监管",
+        "rel": "docs-21-background-fleet",
+        "sourceRel": "docs/21-background-fleet.md"
+      },
+      {
+        "title": "10 分钟读懂 Claude Code",
+        "rel": "docs-quick-start",
+        "sourceRel": "docs/quick-start.md"
       }
     ]
   },
@@ -12476,29 +10413,119 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
+        "title": "Claude Code from Scratch",
+        "rel": "_coverpage",
+        "sourceRel": "_coverpage.md"
+      },
+      {
+        "title": "Test Project Rules",
+        "rel": "CLAUDE",
+        "sourceRel": "CLAUDE.md"
+      },
+      {
         "title": "引言：从一个空循环开始，造一个 Claude Code",
-        "rel": "docs",
+        "rel": "docs-00-introduction",
         "sourceRel": "docs/00-introduction.md"
       },
       {
-        "title": "Claude Code From Scratch",
-        "rel": "en",
-        "sourceRel": "en/README.md"
+        "title": "1. Agent Loop — 核心循环",
+        "rel": "docs-01-agent-loop",
+        "sourceRel": "docs/01-agent-loop.md"
       },
       {
-        "title": "Mini Claude Code — Python 版",
-        "rel": "python",
-        "sourceRel": "python/README.md"
+        "title": "2. 工具系统",
+        "rel": "docs-02-tools",
+        "sourceRel": "docs/02-tools.md"
       },
       {
-        "title": "Runnable steps",
-        "rel": "steps",
-        "sourceRel": "steps/README.md"
+        "title": "3. System Prompt 工程",
+        "rel": "docs-03-system-prompt",
+        "sourceRel": "docs/03-system-prompt.md"
       },
       {
-        "title": "Mini Claude 功能测试指南",
-        "rel": "test",
-        "sourceRel": "test/TEST-GUIDE.md"
+        "title": "4. CLI 与会话",
+        "rel": "docs-04-cli-session",
+        "sourceRel": "docs/04-cli-session.md"
+      },
+      {
+        "title": "5. 流式输出与双后端",
+        "rel": "docs-05-streaming",
+        "sourceRel": "docs/05-streaming.md"
+      },
+      {
+        "title": "6. 权限与安全",
+        "rel": "docs-06-permissions",
+        "sourceRel": "docs/06-permissions.md"
+      },
+      {
+        "title": "7. 上下文管理",
+        "rel": "docs-07-context",
+        "sourceRel": "docs/07-context.md"
+      },
+      {
+        "title": "8. 记忆系统",
+        "rel": "docs-08-memory",
+        "sourceRel": "docs/08-memory.md"
+      },
+      {
+        "title": "9. 技能系统",
+        "rel": "docs-09-skills",
+        "sourceRel": "docs/09-skills.md"
+      },
+      {
+        "title": "10. Plan Mode：只读规划模式",
+        "rel": "docs-10-plan-mode",
+        "sourceRel": "docs/10-plan-mode.md"
+      },
+      {
+        "title": "11. 多 Agent 架构",
+        "rel": "docs-11-multi-agent",
+        "sourceRel": "docs/11-multi-agent.md"
+      },
+      {
+        "title": "12. MCP 集成",
+        "rel": "docs-12-mcp",
+        "sourceRel": "docs/12-mcp.md"
+      },
+      {
+        "title": "13. 架构对比与下一步",
+        "rel": "docs-13-whats-next",
+        "sourceRel": "docs/13-whats-next.md"
+      },
+      {
+        "title": "14. 功能测试指南",
+        "rel": "docs-14-testing",
+        "sourceRel": "docs/14-testing.md"
+      },
+      {
+        "title": "15. 自治与续跑（/goal · /loop · Auto Mode）",
+        "rel": "docs-15-autonomy",
+        "sourceRel": "docs/15-autonomy.md"
+      },
+      {
+        "title": "Introduction: Building a Claude Code from an Empty Loop",
+        "rel": "en-docs-00-introduction",
+        "sourceRel": "en/docs/00-introduction.md"
+      },
+      {
+        "title": "1. Agent Loop -- The Core Cycle",
+        "rel": "en-docs-01-agent-loop",
+        "sourceRel": "en/docs/01-agent-loop.md"
+      },
+      {
+        "title": "2. Tool System",
+        "rel": "en-docs-02-tools",
+        "sourceRel": "en/docs/02-tools.md"
+      },
+      {
+        "title": "3. System Prompt Engineering",
+        "rel": "en-docs-03-system-prompt",
+        "sourceRel": "en/docs/03-system-prompt.md"
+      },
+      {
+        "title": "4. CLI and Sessions",
+        "rel": "en-docs-04-cli-session",
+        "sourceRel": "en/docs/04-cli-session.md"
       }
     ]
   },
@@ -12533,8 +10560,118 @@ export const courses: Course[] = [
       },
       {
         "title": "Claude Code 源码蒸馏 - Harness Engineering 实践记录",
-        "rel": "docs",
+        "rel": "docs-distillation-harness-practice-zh",
         "sourceRel": "docs/distillation-harness-practice-zh.md"
+      },
+      {
+        "title": "Distilling Claude Code Source — A Harness Engineering Practice Log",
+        "rel": "docs-distillation-harness-practice",
+        "sourceRel": "docs/distillation-harness-practice.md"
+      },
+      {
+        "title": "Agentic Harness Patterns（模式与技能）",
+        "rel": "README_ZH",
+        "sourceRel": "README_ZH.md"
+      },
+      {
+        "title": "Agent 编排模式",
+        "rel": "skills-agentic-harness-patterns-zh-references-agent-orchestration-pattern",
+        "sourceRel": "skills/agentic-harness-patterns-zh/references/agent-orchestration-pattern.md"
+      },
+      {
+        "title": "Bootstrap 序列模式",
+        "rel": "skills-agentic-harness-patterns-zh-references-bootstrap-sequence-pattern",
+        "sourceRel": "skills/agentic-harness-patterns-zh/references/bootstrap-sequence-pattern.md"
+      },
+      {
+        "title": "上下文工程模式",
+        "rel": "skills-agentic-harness-patterns-zh-references-context-engineering-pattern",
+        "sourceRel": "skills/agentic-harness-patterns-zh/references/context-engineering-pattern.md"
+      },
+      {
+        "title": "上下文压缩与快照管理",
+        "rel": "skills-agentic-harness-patterns-zh-references-context-engineering-compress-pattern",
+        "sourceRel": "skills/agentic-harness-patterns-zh/references/context-engineering/compress-pattern.md"
+      },
+      {
+        "title": "委派工作的上下文隔离",
+        "rel": "skills-agentic-harness-patterns-zh-references-context-engineering-isolate-pattern",
+        "sourceRel": "skills/agentic-harness-patterns-zh/references/context-engineering/isolate-pattern.md"
+      },
+      {
+        "title": "上下文选择与渐进式披露",
+        "rel": "skills-agentic-harness-patterns-zh-references-context-engineering-select-pattern",
+        "sourceRel": "skills/agentic-harness-patterns-zh/references/context-engineering/select-pattern.md"
+      },
+      {
+        "title": "Hook 生命周期模式",
+        "rel": "skills-agentic-harness-patterns-zh-references-hook-lifecycle-pattern",
+        "sourceRel": "skills/agentic-harness-patterns-zh/references/hook-lifecycle-pattern.md"
+      },
+      {
+        "title": "记忆与持久化模式",
+        "rel": "skills-agentic-harness-patterns-zh-references-memory-persistence-pattern",
+        "sourceRel": "skills/agentic-harness-patterns-zh/references/memory-persistence-pattern.md"
+      },
+      {
+        "title": "权限门控模式",
+        "rel": "skills-agentic-harness-patterns-zh-references-permission-gate-pattern",
+        "sourceRel": "skills/agentic-harness-patterns-zh/references/permission-gate-pattern.md"
+      },
+      {
+        "title": "技能运行时与打包模式",
+        "rel": "skills-agentic-harness-patterns-zh-references-skill-runtime-pattern",
+        "sourceRel": "skills/agentic-harness-patterns-zh/references/skill-runtime-pattern.md"
+      },
+      {
+        "title": "长时间运行的工作管理",
+        "rel": "skills-agentic-harness-patterns-zh-references-task-decomposition-pattern",
+        "sourceRel": "skills/agentic-harness-patterns-zh/references/task-decomposition-pattern.md"
+      },
+      {
+        "title": "工具注册表模式",
+        "rel": "skills-agentic-harness-patterns-zh-references-tool-registry-pattern",
+        "sourceRel": "skills/agentic-harness-patterns-zh/references/tool-registry-pattern.md"
+      },
+      {
+        "title": "Agentic Harness Patterns（中文版）",
+        "rel": "skills-agentic-harness-patterns-zh-SKILL",
+        "sourceRel": "skills/agentic-harness-patterns-zh/SKILL.md"
+      },
+      {
+        "title": "Agent Orchestration Pattern",
+        "rel": "skills-agentic-harness-patterns-references-agent-orchestration-pattern",
+        "sourceRel": "skills/agentic-harness-patterns/references/agent-orchestration-pattern.md"
+      },
+      {
+        "title": "Bootstrap Sequence Pattern",
+        "rel": "skills-agentic-harness-patterns-references-bootstrap-sequence-pattern",
+        "sourceRel": "skills/agentic-harness-patterns/references/bootstrap-sequence-pattern.md"
+      },
+      {
+        "title": "Context Engineering Pattern",
+        "rel": "skills-agentic-harness-patterns-references-context-engineering-pattern",
+        "sourceRel": "skills/agentic-harness-patterns/references/context-engineering-pattern.md"
+      },
+      {
+        "title": "Context Compression and Snapshot Management",
+        "rel": "skills-agentic-harness-patterns-references-context-engineering-compress-pattern",
+        "sourceRel": "skills/agentic-harness-patterns/references/context-engineering/compress-pattern.md"
+      },
+      {
+        "title": "Context Isolation for Delegated Work",
+        "rel": "skills-agentic-harness-patterns-references-context-engineering-isolate-pattern",
+        "sourceRel": "skills/agentic-harness-patterns/references/context-engineering/isolate-pattern.md"
+      },
+      {
+        "title": "Context Selection and Progressive Disclosure",
+        "rel": "skills-agentic-harness-patterns-references-context-engineering-select-pattern",
+        "sourceRel": "skills/agentic-harness-patterns/references/context-engineering/select-pattern.md"
+      },
+      {
+        "title": "Hook Lifecycle Pattern",
+        "rel": "skills-agentic-harness-patterns-references-hook-lifecycle-pattern",
+        "sourceRel": "skills/agentic-harness-patterns/references/hook-lifecycle-pattern.md"
       }
     ]
   },
@@ -12568,14 +10705,190 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
-        "title": "LangChain DeepAgents",
-        "rel": "examples",
-        "sourceRel": "examples/README.md"
+        "title": "Deep Agents Code GitHub Action",
+        "rel": "ACTION",
+        "sourceRel": "ACTION.md"
       },
       {
-        "title": "Deep Agents Monorepo",
-        "rel": "libs",
-        "sourceRel": "libs/README.md"
+        "title": "Async Subagent Server",
+        "rel": "examples-async-subagent-server",
+        "sourceRel": "examples/async-subagent-server/README.md"
+      },
+      {
+        "title": "better-harness",
+        "rel": "examples-better-harness",
+        "sourceRel": "examples/better-harness/README.md"
+      },
+      {
+        "title": "Content Builder Agent",
+        "rel": "examples-content-builder-agent",
+        "sourceRel": "examples/content-builder-agent/README.md"
+      },
+      {
+        "title": "Blog Post Writing Skill",
+        "rel": "examples-content-builder-agent-skills-blog-post-SKILL",
+        "sourceRel": "examples/content-builder-agent/skills/blog-post/SKILL.md"
+      },
+      {
+        "title": "Social Media Content Skill",
+        "rel": "examples-content-builder-agent-skills-social-media-SKILL",
+        "sourceRel": "examples/content-builder-agent/skills/social-media/SKILL.md"
+      },
+      {
+        "title": "🚀 Deep Research",
+        "rel": "examples-deep_research",
+        "sourceRel": "examples/deep_research/README.md"
+      },
+      {
+        "title": "deploy-coding-agent",
+        "rel": "examples-deploy-coding-agent",
+        "sourceRel": "examples/deploy-coding-agent/README.md"
+      },
+      {
+        "title": "Code Review Skill",
+        "rel": "examples-deploy-coding-agent-skills-code-review-SKILL",
+        "sourceRel": "examples/deploy-coding-agent/skills/code-review/SKILL.md"
+      },
+      {
+        "title": "Coding Preferences Skill",
+        "rel": "examples-deploy-coding-agent-skills-coding-prefs-SKILL",
+        "sourceRel": "examples/deploy-coding-agent/skills/coding-prefs/SKILL.md"
+      },
+      {
+        "title": "Planning Skill",
+        "rel": "examples-deploy-coding-agent-skills-planning-SKILL",
+        "sourceRel": "examples/deploy-coding-agent/skills/planning/SKILL.md"
+      },
+      {
+        "title": "deploy-content-writer",
+        "rel": "examples-deploy-content-writer",
+        "sourceRel": "examples/deploy-content-writer/README.md"
+      },
+      {
+        "title": "Blog Post Writing Skill",
+        "rel": "examples-deploy-content-writer-skills-blog-post-SKILL",
+        "sourceRel": "examples/deploy-content-writer/skills/blog-post/SKILL.md"
+      },
+      {
+        "title": "Social Media Content Skill",
+        "rel": "examples-deploy-content-writer-skills-social-media-SKILL",
+        "sourceRel": "examples/deploy-content-writer/skills/social-media/SKILL.md"
+      },
+      {
+        "title": "deploy-gtm-agent",
+        "rel": "examples-deploy-gtm-agent",
+        "sourceRel": "examples/deploy-gtm-agent/README.md"
+      },
+      {
+        "title": "Competitor Analysis",
+        "rel": "examples-deploy-gtm-agent-skills-competitor-analysis-SKILL",
+        "sourceRel": "examples/deploy-gtm-agent/skills/competitor-analysis/SKILL.md"
+      },
+      {
+        "title": "Market Analysis",
+        "rel": "examples-deploy-gtm-agent-subagents-market-researcher-skills-analyze-market-SKILL",
+        "sourceRel": "examples/deploy-gtm-agent/subagents/market-researcher/skills/analyze-market/SKILL.md"
+      },
+      {
+        "title": "deploy-mcp-docs-agent",
+        "rel": "examples-deploy-mcp-docs-agent",
+        "sourceRel": "examples/deploy-mcp-docs-agent/README.md"
+      },
+      {
+        "title": "Downloading Agents",
+        "rel": "examples-downloading_agents",
+        "sourceRel": "examples/downloading_agents/README.md"
+      },
+      {
+        "title": "LLM Wiki",
+        "rel": "examples-llm-wiki",
+        "sourceRel": "examples/llm-wiki/README.md"
+      },
+      {
+        "title": "Nemotron Deep Agent + GPU Skills",
+        "rel": "examples-nvidia_deep_agent",
+        "sourceRel": "examples/nvidia_deep_agent/README.md"
+      },
+      {
+        "title": "cuDF Analytics Skill",
+        "rel": "examples-nvidia_deep_agent-skills-cudf-analytics-SKILL",
+        "sourceRel": "examples/nvidia_deep_agent/skills/cudf-analytics/SKILL.md"
+      },
+      {
+        "title": "cuML Machine Learning Skill",
+        "rel": "examples-nvidia_deep_agent-skills-cuml-machine-learning-SKILL",
+        "sourceRel": "examples/nvidia_deep_agent/skills/cuml-machine-learning/SKILL.md"
+      }
+    ]
+  },
+  {
+    "id": "09-harness/grok-build",
+    "volume": "09-harness",
+    "local": "grok-build",
+    "title": "Grok Build（xAI 官方 CLI）",
+    "kind": "产品仓库",
+    "category": "实践案例与产品",
+    "tier": 3,
+    "license": "Apache-2.0",
+    "licenseLabel": "可转载",
+    "lang": "英文",
+    "publishable": true,
+    "repo": "xai-org/grok-build",
+    "site": null,
+    "commit": "37949780c144e37df692e3d669051a21fec24f20",
+    "entry": "README.md",
+    "featured": false,
+    "sourceUrl": "https://github.com/xai-org/grok-build",
+    "docs": [
+      {
+        "title": "课程首页",
+        "rel": "index",
+        "sourceRel": ""
+      },
+      {
+        "title": "Grok Build（xAI 官方 CLI）",
+        "rel": "overview",
+        "sourceRel": "README.md"
+      },
+      {
+        "title": "xai-crash-handler",
+        "rel": "crates-codegen-xai-crash-handler",
+        "sourceRel": "crates/codegen/xai-crash-handler/README.md"
+      },
+      {
+        "title": "xai-grok-agent",
+        "rel": "crates-codegen-xai-grok-agent",
+        "sourceRel": "crates/codegen/xai-grok-agent/README.md"
+      },
+      {
+        "title": "How you work",
+        "rel": "crates-codegen-xai-grok-agent-templates-apply_patch_prompt",
+        "sourceRel": "crates/codegen/xai-grok-agent/templates/apply_patch_prompt.md"
+      },
+      {
+        "title": "Grok Build（xAI 官方 CLI）",
+        "rel": "crates-codegen-xai-grok-agent-templates-prompt",
+        "sourceRel": "crates/codegen/xai-grok-agent/templates/prompt.md"
+      },
+      {
+        "title": "Hook Examples",
+        "rel": "crates-codegen-xai-grok-hooks-examples",
+        "sourceRel": "crates/codegen/xai-grok-hooks/examples/README.md"
+      },
+      {
+        "title": "Fuzzing xai-grok-markdown",
+        "rel": "crates-codegen-xai-grok-markdown-fuzz",
+        "sourceRel": "crates/codegen/xai-grok-markdown/fuzz/README.md"
+      },
+      {
+        "title": "🚀 Architecture Overview — xai-grok-pager Rendering Engine",
+        "rel": "crates-codegen-xai-grok-markdown-fuzz-seeds-render_all-bench",
+        "sourceRel": "crates/codegen/xai-grok-markdown/fuzz/seeds/render_all/bench.md"
+      },
+      {
+        "title": "Math seed",
+        "rel": "crates-codegen-xai-grok-markdown-fuzz-seeds-render_all-math",
+        "sourceRel": "crates/codegen/xai-grok-markdown/fuzz/seeds/render_all/math.md"
       }
     ]
   },
@@ -12610,23 +10923,118 @@ export const courses: Course[] = [
       },
       {
         "title": "ECC —— Harness 性能优化系统",
-        "rel": "agents",
+        "rel": "agents-a11y-architect",
         "sourceRel": "agents/a11y-architect.md"
       },
       {
-        "title": "Aside Command",
-        "rel": "commands",
-        "sourceRel": "commands/aside.md"
+        "title": "ECC —— Harness 性能优化系统",
+        "rel": "agents-agent-evaluator",
+        "sourceRel": "agents/agent-evaluator.md"
       },
       {
-        "title": "Development Context",
-        "rel": "contexts",
-        "sourceRel": "contexts/dev.md"
+        "title": "ECC —— Harness 性能优化系统",
+        "rel": "agents-architect",
+        "sourceRel": "agents/architect.md"
       },
       {
-        "title": "Antigravity Setup and Usage Guide",
-        "rel": "docs",
-        "sourceRel": "docs/ANTIGRAVITY-GUIDE.md"
+        "title": "Build Error Resolver",
+        "rel": "agents-build-error-resolver",
+        "sourceRel": "agents/build-error-resolver.md"
+      },
+      {
+        "title": "ECC —— Harness 性能优化系统",
+        "rel": "agents-chief-of-staff",
+        "sourceRel": "agents/chief-of-staff.md"
+      },
+      {
+        "title": "Code Architect Agent",
+        "rel": "agents-code-architect",
+        "sourceRel": "agents/code-architect.md"
+      },
+      {
+        "title": "Code Explorer Agent",
+        "rel": "agents-code-explorer",
+        "sourceRel": "agents/code-explorer.md"
+      },
+      {
+        "title": "ECC —— Harness 性能优化系统",
+        "rel": "agents-code-reviewer",
+        "sourceRel": "agents/code-reviewer.md"
+      },
+      {
+        "title": "Code Simplifier Agent",
+        "rel": "agents-code-simplifier",
+        "sourceRel": "agents/code-simplifier.md"
+      },
+      {
+        "title": "Comment Analyzer Agent",
+        "rel": "agents-comment-analyzer",
+        "sourceRel": "agents/comment-analyzer.md"
+      },
+      {
+        "title": "Conversation Analyzer Agent",
+        "rel": "agents-conversation-analyzer",
+        "sourceRel": "agents/conversation-analyzer.md"
+      },
+      {
+        "title": "C++ Build Error Resolver",
+        "rel": "agents-cpp-build-resolver",
+        "sourceRel": "agents/cpp-build-resolver.md"
+      },
+      {
+        "title": "ECC —— Harness 性能优化系统",
+        "rel": "agents-cpp-reviewer",
+        "sourceRel": "agents/cpp-reviewer.md"
+      },
+      {
+        "title": "ECC —— Harness 性能优化系统",
+        "rel": "agents-csharp-reviewer",
+        "sourceRel": "agents/csharp-reviewer.md"
+      },
+      {
+        "title": "Dart/Flutter Build Error Resolver",
+        "rel": "agents-dart-build-resolver",
+        "sourceRel": "agents/dart-build-resolver.md"
+      },
+      {
+        "title": "Database Reviewer",
+        "rel": "agents-database-reviewer",
+        "sourceRel": "agents/database-reviewer.md"
+      },
+      {
+        "title": "Django Build Error Resolver",
+        "rel": "agents-django-build-resolver",
+        "sourceRel": "agents/django-build-resolver.md"
+      },
+      {
+        "title": "ECC —— Harness 性能优化系统",
+        "rel": "agents-django-reviewer",
+        "sourceRel": "agents/django-reviewer.md"
+      },
+      {
+        "title": "Documentation & Codemap Specialist",
+        "rel": "agents-doc-updater",
+        "sourceRel": "agents/doc-updater.md"
+      },
+      {
+        "title": "ECC —— Harness 性能优化系统",
+        "rel": "agents-docs-lookup",
+        "sourceRel": "agents/docs-lookup.md"
+      },
+      {
+        "title": "E2E Test Runner",
+        "rel": "agents-e2e-runner",
+        "sourceRel": "agents/e2e-runner.md"
+      },
+      {
+        "title": "ECC —— Harness 性能优化系统",
+        "rel": "agents-fastapi-reviewer",
+        "sourceRel": "agents/fastapi-reviewer.md"
+      },
+      {
+        "title": "ECC —— Harness 性能优化系统",
+        "rel": "agents-flutter-reviewer",
+        "sourceRel": "agents/flutter-reviewer.md"
       }
     ]
   },
@@ -12768,71 +11176,6 @@ export const courses: Course[] = [
         "title": "Creating the MCP Server",
         "rel": "units-en-unit3_1-creating-the-mcp-server",
         "sourceRel": "units/en/unit3_1/creating-the-mcp-server.mdx"
-      },
-      {
-        "title": "Build a Pull Request Agent on the Hugging Face Hub",
-        "rel": "units-en-unit3_1-introduction",
-        "sourceRel": "units/en/unit3_1/introduction.mdx"
-      },
-      {
-        "title": "MCP Client",
-        "rel": "units-en-unit3_1-mcp-client",
-        "sourceRel": "units/en/unit3_1/mcp-client.mdx"
-      },
-      {
-        "title": "Quiz 1: MCP Server Implementation",
-        "rel": "units-en-unit3_1-quiz1",
-        "sourceRel": "units/en/unit3_1/quiz1.mdx"
-      },
-      {
-        "title": "Quiz 2: Pull Request Agent Integration",
-        "rel": "units-en-unit3_1-quiz2",
-        "sourceRel": "units/en/unit3_1/quiz2.mdx"
-      },
-      {
-        "title": "Setting up the Project",
-        "rel": "units-en-unit3_1-setting-up-the-project",
-        "sourceRel": "units/en/unit3_1/setting-up-the-project.mdx"
-      },
-      {
-        "title": "Webhook Listener",
-        "rel": "units-en-unit3_1-webhook-listener",
-        "sourceRel": "units/en/unit3_1/webhook-listener.mdx"
-      },
-      {
-        "title": "Unit 3 Solution Walkthrough: Building a Pull Request Agent with MCP",
-        "rel": "units-en-unit3-build-mcp-server-solution-walkthrough",
-        "sourceRel": "units/en/unit3/build-mcp-server-solution-walkthrough.mdx"
-      },
-      {
-        "title": "Module 1: Build MCP Server",
-        "rel": "units-en-unit3-build-mcp-server",
-        "sourceRel": "units/en/unit3/build-mcp-server.mdx"
-      },
-      {
-        "title": "Get your certificate!",
-        "rel": "units-en-unit3-certificate",
-        "sourceRel": "units/en/unit3/certificate.mdx"
-      },
-      {
-        "title": "Unit 3 Conclusion: The CodeCraft Studios Transformation",
-        "rel": "units-en-unit3-conclusion",
-        "sourceRel": "units/en/unit3/conclusion.mdx"
-      },
-      {
-        "title": "Module 2: GitHub Actions Integration",
-        "rel": "units-en-unit3-github-actions-integration",
-        "sourceRel": "units/en/unit3/github-actions-integration.mdx"
-      },
-      {
-        "title": "Advanced MCP Development: Building Custom Workflow Servers for Claude Code",
-        "rel": "units-en-unit3-introduction",
-        "sourceRel": "units/en/unit3/introduction.mdx"
-      },
-      {
-        "title": "Module 3: Slack Notification",
-        "rel": "units-en-unit3-slack-notification",
-        "sourceRel": "units/en/unit3/slack-notification.mdx"
       }
     ]
   },
@@ -12866,9 +11209,49 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
-        "title": "About",
-        "rel": "ar-pages",
-        "sourceRel": "ar-pages/about.ar.mdx"
+        "title": "Prompt Engineering Guide",
+        "rel": "CLAUDE",
+        "sourceRel": "CLAUDE.md"
+      },
+      {
+        "title": "Advanced Prompting",
+        "rel": "guides-prompts-advanced-usage",
+        "sourceRel": "guides/prompts-advanced-usage.md"
+      },
+      {
+        "title": "Adversarial Prompting",
+        "rel": "guides-prompts-adversarial",
+        "sourceRel": "guides/prompts-adversarial.md"
+      },
+      {
+        "title": "Prompt Applications",
+        "rel": "guides-prompts-applications",
+        "sourceRel": "guides/prompts-applications.md"
+      },
+      {
+        "title": "Basic Prompting",
+        "rel": "guides-prompts-basic-usage",
+        "sourceRel": "guides/prompts-basic-usage.md"
+      },
+      {
+        "title": "ChatGPT Prompt Engineering",
+        "rel": "guides-prompts-chatgpt",
+        "sourceRel": "guides/prompts-chatgpt.md"
+      },
+      {
+        "title": "Prompting Introduction",
+        "rel": "guides-prompts-intro",
+        "sourceRel": "guides/prompts-intro.md"
+      },
+      {
+        "title": "Miscellaneous Topics",
+        "rel": "guides-prompts-miscellaneous",
+        "sourceRel": "guides/prompts-miscellaneous.md"
+      },
+      {
+        "title": "Prompt Engineering Guide",
+        "rel": "guides-prompts-reliability",
+        "sourceRel": "guides/prompts-reliability.md"
       },
       {
         "title": "Prompt Engineering Guide",
@@ -12876,9 +11259,69 @@ export const courses: Course[] = [
         "sourceRel": "guides/README.md"
       },
       {
-        "title": "Quant a",
-        "rel": "pages",
-        "sourceRel": "pages/about.ca.mdx"
+        "title": "About",
+        "rel": "pages-about.en",
+        "sourceRel": "pages/about.en.mdx"
+      },
+      {
+        "title": "About",
+        "rel": "pages-about.jp",
+        "sourceRel": "pages/about.jp.mdx"
+      },
+      {
+        "title": "About",
+        "rel": "pages-about.kr",
+        "sourceRel": "pages/about.kr.mdx"
+      },
+      {
+        "title": "关于",
+        "rel": "pages-about.zh",
+        "sourceRel": "pages/about.zh.mdx"
+      },
+      {
+        "title": "Agents",
+        "rel": "pages-agents.en",
+        "sourceRel": "pages/agents.en.mdx"
+      },
+      {
+        "title": "AI Workflows vs. AI Agents",
+        "rel": "pages-agents-ai-workflows-vs-ai-agents.en",
+        "sourceRel": "pages/agents/ai-workflows-vs-ai-agents.en.mdx"
+      },
+      {
+        "title": "Agent Components",
+        "rel": "pages-agents-components.en",
+        "sourceRel": "pages/agents/components.en.mdx"
+      },
+      {
+        "title": "Context Engineering Deep Dive: Building a Deep Research Agent",
+        "rel": "pages-agents-context-engineering-deep-dive.en",
+        "sourceRel": "pages/agents/context-engineering-deep-dive.en.mdx"
+      },
+      {
+        "title": "Why Context Engineering?",
+        "rel": "pages-agents-context-engineering.en",
+        "sourceRel": "pages/agents/context-engineering.en.mdx"
+      },
+      {
+        "title": "Deep Agents",
+        "rel": "pages-agents-deep-agents.en",
+        "sourceRel": "pages/agents/deep-agents.en.mdx"
+      },
+      {
+        "title": "Function Calling in AI Agents",
+        "rel": "pages-agents-function-calling.en",
+        "sourceRel": "pages/agents/function-calling.en.mdx"
+      },
+      {
+        "title": "Introduction to AI Agents",
+        "rel": "pages-agents-introduction.en",
+        "sourceRel": "pages/agents/introduction.en.mdx"
+      },
+      {
+        "title": "LLM Applications & Guides",
+        "rel": "pages-applications.en",
+        "sourceRel": "pages/applications.en.mdx"
       }
     ]
   },
@@ -12913,102 +11356,102 @@ export const courses: Course[] = [
       },
       {
         "title": "Basic interaction with LLMs in Java",
-        "rel": "ch01-java-README",
+        "rel": "ch01-java",
         "sourceRel": "ch01/java/README.md"
       },
       {
         "title": "Basic interaction with Anthropic Claude models",
-        "rel": "ch01-javascript-anthropic-claude-basic-README",
+        "rel": "ch01-javascript-anthropic-claude-basic",
         "sourceRel": "ch01/javascript/anthropic-claude-basic/README.md"
       },
       {
         "title": "Streaming responses from Anthropic Claude models",
-        "rel": "ch01-javascript-anthropic-claude-streaming-README",
+        "rel": "ch01-javascript-anthropic-claude-streaming",
         "sourceRel": "ch01/javascript/anthropic-claude-streaming/README.md"
       },
       {
         "title": "Basic interaction with Google Gemini models",
-        "rel": "ch01-javascript-google-gemini-basic-README",
+        "rel": "ch01-javascript-google-gemini-basic",
         "sourceRel": "ch01/javascript/google-gemini-basic/README.md"
       },
       {
         "title": "Streaming responses from Google Gemini models",
-        "rel": "ch01-javascript-google-gemini-streaming-README",
+        "rel": "ch01-javascript-google-gemini-streaming",
         "sourceRel": "ch01/javascript/google-gemini-streaming/README.md"
       },
       {
         "title": "Basic interaction with a local LLM using Ollama",
-        "rel": "ch01-javascript-ollama-local-basic-README",
+        "rel": "ch01-javascript-ollama-local-basic",
         "sourceRel": "ch01/javascript/ollama-local-basic/README.md"
       },
       {
         "title": "Streaming responses from a local LLM using Ollama",
-        "rel": "ch01-javascript-ollama-local-streaming-README",
+        "rel": "ch01-javascript-ollama-local-streaming",
         "sourceRel": "ch01/javascript/ollama-local-streaming/README.md"
       },
       {
         "title": "Basic interaction with OpenAI GPT models",
-        "rel": "ch01-javascript-openai-gpt-basic-README",
+        "rel": "ch01-javascript-openai-gpt-basic",
         "sourceRel": "ch01/javascript/openai-gpt-basic/README.md"
       },
       {
         "title": "Streaming responses from OpenAI GPT models",
-        "rel": "ch01-javascript-openai-gpt-streaming-README",
+        "rel": "ch01-javascript-openai-gpt-streaming",
         "sourceRel": "ch01/javascript/openai-gpt-streaming/README.md"
       },
       {
         "title": "Basic interaction with LLMs in JavaScript",
-        "rel": "ch01-javascript-README",
+        "rel": "ch01-javascript",
         "sourceRel": "ch01/javascript/README.md"
       },
       {
         "title": "Basic interaction with LLMs in Jupyter Notebooks",
-        "rel": "ch01-jupyter-README",
+        "rel": "ch01-jupyter",
         "sourceRel": "ch01/jupyter/README.md"
       },
       {
         "title": "Basic interaction with Anthropic Claude models",
-        "rel": "ch01-python-anthropic-claude-basic-README",
+        "rel": "ch01-python-anthropic-claude-basic",
         "sourceRel": "ch01/python/anthropic-claude-basic/README.md"
       },
       {
         "title": "Streaming responses from Anthropic Claude models",
-        "rel": "ch01-python-anthropic-claude-streaming-README",
+        "rel": "ch01-python-anthropic-claude-streaming",
         "sourceRel": "ch01/python/anthropic-claude-streaming/README.md"
       },
       {
         "title": "Basic interaction with Google Gemini models",
-        "rel": "ch01-python-google-gemini-basic-README",
+        "rel": "ch01-python-google-gemini-basic",
         "sourceRel": "ch01/python/google-gemini-basic/README.md"
       },
       {
         "title": "Streaming responses from Google Gemini models",
-        "rel": "ch01-python-google-gemini-streaming-README",
+        "rel": "ch01-python-google-gemini-streaming",
         "sourceRel": "ch01/python/google-gemini-streaming/README.md"
       },
       {
         "title": "Basic interaction with a local LLM using Ollama",
-        "rel": "ch01-python-ollama-local-basic-README",
+        "rel": "ch01-python-ollama-local-basic",
         "sourceRel": "ch01/python/ollama-local-basic/README.md"
       },
       {
         "title": "Streaming responses from a local LLM using Ollama",
-        "rel": "ch01-python-ollama-local-streaming-README",
+        "rel": "ch01-python-ollama-local-streaming",
         "sourceRel": "ch01/python/ollama-local-streaming/README.md"
       },
       {
         "title": "Basic interaction with OpenAI GPT models",
-        "rel": "ch01-python-openai-gpt-basic-README",
+        "rel": "ch01-python-openai-gpt-basic",
         "sourceRel": "ch01/python/openai-gpt-basic/README.md"
       },
       {
         "title": "Streaming responses from OpenAI GPT models",
-        "rel": "ch01-python-openai-gpt-streaming-README",
+        "rel": "ch01-python-openai-gpt-streaming",
         "sourceRel": "ch01/python/openai-gpt-streaming/README.md"
       },
       {
         "title": "Basic interaction with LLMs in Python",
-        "rel": "ch01-python-README",
+        "rel": "ch01-python",
         "sourceRel": "ch01/python/README.md"
       },
       {
@@ -13018,838 +11461,13 @@ export const courses: Course[] = [
       },
       {
         "title": "Agent Skills",
-        "rel": "ch02-agent-skills-README",
+        "rel": "ch02-agent-skills",
         "sourceRel": "ch02/agent-skills/README.md"
       },
       {
         "title": "System prompt in Java",
-        "rel": "ch02-java-README",
+        "rel": "ch02-java",
         "sourceRel": "ch02/java/README.md"
-      },
-      {
-        "title": "System prompt with Anthropic Claude models",
-        "rel": "ch02-javascript-anthropic-claude-system-prompt-README",
-        "sourceRel": "ch02/javascript/anthropic-claude-system-prompt/README.md"
-      },
-      {
-        "title": "System prompt with Google Gemini models",
-        "rel": "ch02-javascript-google-gemini-system-prompt-README",
-        "sourceRel": "ch02/javascript/google-gemini-system-prompt/README.md"
-      },
-      {
-        "title": "System prompt with Ollama models",
-        "rel": "ch02-javascript-ollama-local-system-prompt-README",
-        "sourceRel": "ch02/javascript/ollama-local-system-prompt/README.md"
-      },
-      {
-        "title": "System prompt with OpenAI GPT models",
-        "rel": "ch02-javascript-openai-gpt-system-prompt-README",
-        "sourceRel": "ch02/javascript/openai-gpt-system-prompt/README.md"
-      },
-      {
-        "title": "System prompt in JavaScript",
-        "rel": "ch02-javascript-README",
-        "sourceRel": "ch02/javascript/README.md"
-      },
-      {
-        "title": "System prompt in Jupyter Notebooks",
-        "rel": "ch02-jupyter-README",
-        "sourceRel": "ch02/jupyter/README.md"
-      },
-      {
-        "title": "System prompt with Anthropic Claude models",
-        "rel": "ch02-python-anthropic-claude-system-prompt-README",
-        "sourceRel": "ch02/python/anthropic-claude-system-prompt/README.md"
-      },
-      {
-        "title": "System prompt with Google Gemini models",
-        "rel": "ch02-python-google-gemini-system-prompt-README",
-        "sourceRel": "ch02/python/google-gemini-system-prompt/README.md"
-      },
-      {
-        "title": "Instruction artifacts",
-        "rel": "ch02-python-instruction-artifacts-README",
-        "sourceRel": "ch02/python/instruction-artifacts/README.md"
-      },
-      {
-        "title": "Claude Code instructions",
-        "rel": "ch02-python-instruction-artifacts-task-tracker-CLAUDE",
-        "sourceRel": "ch02/python/instruction-artifacts/task-tracker/CLAUDE.md"
-      },
-      {
-        "title": "System prompt with Ollama models",
-        "rel": "ch02-python-ollama-local-system-prompt-README",
-        "sourceRel": "ch02/python/ollama-local-system-prompt/README.md"
-      },
-      {
-        "title": "System prompt with OpenAI GPT models",
-        "rel": "ch02-python-openai-gpt-system-prompt-README",
-        "sourceRel": "ch02/python/openai-gpt-system-prompt/README.md"
-      },
-      {
-        "title": "System prompt in Python",
-        "rel": "ch02-python-README",
-        "sourceRel": "ch02/python/README.md"
-      },
-      {
-        "title": "Agentic retrieval-augmented generation (RAG)",
-        "rel": "ch03-python-agentic-rag-README",
-        "sourceRel": "ch03/python/agentic-rag/README.md"
-      },
-      {
-        "title": "Cache-Augmented Generation (CAG)",
-        "rel": "ch03-python-cag-README",
-        "sourceRel": "ch03/python/cag/README.md"
-      },
-      {
-        "title": "Context stuffing (system-level context)",
-        "rel": "ch03-python-context-stuffing-system-prompt-README",
-        "sourceRel": "ch03/python/context-stuffing-system-prompt/README.md"
-      },
-      {
-        "title": "Context stuffing (user-level context)",
-        "rel": "ch03-python-context-stuffing-user-prompt-README",
-        "sourceRel": "ch03/python/context-stuffing-user-prompt/README.md"
-      },
-      {
-        "title": "Context Engineering（Bonigarcia 教程）",
-        "rel": "ch03-python-local-rag-README",
-        "sourceRel": "ch03/python/local-rag/README.md"
-      },
-      {
-        "title": "RAG with Hugging Face",
-        "rel": "ch03-python-rag-hugging-face-README",
-        "sourceRel": "ch03/python/rag-hugging-face/README.md"
-      },
-      {
-        "title": "RAG with OpenAI",
-        "rel": "ch03-python-rag-openai-README",
-        "sourceRel": "ch03/python/rag-openai/README.md"
-      },
-      {
-        "title": "RAGFlow Basic Example",
-        "rel": "ch03-python-ragflow-basic-README",
-        "sourceRel": "ch03/python/ragflow-basic/README.md"
-      },
-      {
-        "title": "Retrieval-Augmented Generation (RAG) in Python",
-        "rel": "ch03-python-README",
-        "sourceRel": "ch03/python/README.md"
-      },
-      {
-        "title": "Vectorless RAG with PageIndex",
-        "rel": "ch03-python-vectorless-rag-pageindex-README",
-        "sourceRel": "ch03/python/vectorless-rag-pageindex/README.md"
-      },
-      {
-        "title": "Agent skills for CLI workflows",
-        "rel": "ch04-agent-skills-README",
-        "sourceRel": "ch04/agent-skills/README.md"
-      },
-      {
-        "title": "Workspace Analyzer",
-        "rel": "ch04-agent-skills-workspace-analyzer-SKILL",
-        "sourceRel": "ch04/agent-skills/workspace-analyzer/SKILL.md"
-      },
-      {
-        "title": "Function calling",
-        "rel": "ch04-java-function_calling-README",
-        "sourceRel": "ch04/java/function_calling/README.md"
-      },
-      {
-        "title": "MCP Selenium server in Java",
-        "rel": "ch04-java-mcp_server-mcp-java-sdk-README",
-        "sourceRel": "ch04/java/mcp_server/mcp-java-sdk/README.md"
-      },
-      {
-        "title": "MCP Selenium Server with Micronaut",
-        "rel": "ch04-java-mcp_server-mcp-micronaut-README",
-        "sourceRel": "ch04/java/mcp_server/mcp-micronaut/README.md"
-      },
-      {
-        "title": "MCP Selenium Server with Quarkus",
-        "rel": "ch04-java-mcp_server-mcp-quarkus-README",
-        "sourceRel": "ch04/java/mcp_server/mcp-quarkus/README.md"
-      },
-      {
-        "title": "MCP Selenium Server with Spring-Boot",
-        "rel": "ch04-java-mcp_server-mcp-spring-ai-README",
-        "sourceRel": "ch04/java/mcp_server/mcp-spring-ai/README.md"
-      },
-      {
-        "title": "MCP Selenium server in Java",
-        "rel": "ch04-java-mcp_server-README",
-        "sourceRel": "ch04/java/mcp_server/README.md"
-      },
-      {
-        "title": "Function calling",
-        "rel": "ch04-javascript-function_calling-README",
-        "sourceRel": "ch04/javascript/function_calling/README.md"
-      },
-      {
-        "title": "MCP Selenium server in JavaScript",
-        "rel": "ch04-javascript-mcp_server-README",
-        "sourceRel": "ch04/javascript/mcp_server/README.md"
-      },
-      {
-        "title": "Function calling",
-        "rel": "ch04-python-function_calling-README",
-        "sourceRel": "ch04/python/function_calling/README.md"
-      },
-      {
-        "title": "MCP Selenium server with Python",
-        "rel": "ch04-python-mcp_server-README",
-        "sourceRel": "ch04/python/mcp_server/README.md"
-      },
-      {
-        "title": "Memory and state examples",
-        "rel": "ch05-java-README",
-        "sourceRel": "ch05/java/README.md"
-      },
-      {
-        "title": "Memory-backed chat",
-        "rel": "ch05-javascript-mem0_chat-README",
-        "sourceRel": "ch05/javascript/mem0_chat/README.md"
-      },
-      {
-        "title": "Chapter 5 JavaScript examples",
-        "rel": "ch05-javascript-README",
-        "sourceRel": "ch05/javascript/README.md"
-      },
-      {
-        "title": "Session state chat",
-        "rel": "ch05-javascript-session_state_chat-README",
-        "sourceRel": "ch05/javascript/session_state_chat/README.md"
-      },
-      {
-        "title": "Workflow state handoff",
-        "rel": "ch05-javascript-workflow_state_handoff-README",
-        "sourceRel": "ch05/javascript/workflow_state_handoff/README.md"
-      },
-      {
-        "title": "Basic memory with Cognee",
-        "rel": "ch05-python-cognee_memory-README",
-        "sourceRel": "ch05/python/cognee_memory/README.md"
-      },
-      {
-        "title": "Memory-backed chat",
-        "rel": "ch05-python-mem0_chat-README",
-        "sourceRel": "ch05/python/mem0_chat/README.md"
-      },
-      {
-        "title": "Memory Coach",
-        "rel": "ch05-python-memory_coach-README",
-        "sourceRel": "ch05/python/memory_coach/README.md"
-      },
-      {
-        "title": "Session Memory",
-        "rel": "ch05-python-session_memory_chat-README",
-        "sourceRel": "ch05/python/session_memory_chat/README.md"
-      },
-      {
-        "title": "Session State Chat",
-        "rel": "ch05-python-session_state_chat-README",
-        "sourceRel": "ch05/python/session_state_chat/README.md"
-      },
-      {
-        "title": "Workflow State Handoff",
-        "rel": "ch05-python-workflow_state_handoff-README",
-        "sourceRel": "ch05/python/workflow_state_handoff/README.md"
-      },
-      {
-        "title": "Prompting examples in Java",
-        "rel": "ch06-java-README",
-        "sourceRel": "ch06/java/README.md"
-      },
-      {
-        "title": "Few-shot ticket normalizer",
-        "rel": "ch06-javascript-few-shot-ticket-normalizer-README",
-        "sourceRel": "ch06/javascript/few-shot-ticket-normalizer/README.md"
-      },
-      {
-        "title": "Prompt chaining support reply",
-        "rel": "ch06-javascript-prompt-chaining-support-reply-README",
-        "sourceRel": "ch06/javascript/prompt-chaining-support-reply/README.md"
-      },
-      {
-        "title": "Prompting examples in JavaScript",
-        "rel": "ch06-javascript-README",
-        "sourceRel": "ch06/javascript/README.md"
-      },
-      {
-        "title": "Prompting examples in Jupyter Notebooks",
-        "rel": "ch06-jupyter-README",
-        "sourceRel": "ch06/jupyter/README.md"
-      },
-      {
-        "title": "DSPy: Chain-of-Thought vs ReAct",
-        "rel": "ch06-python-dspy-cot-vs-react-README",
-        "sourceRel": "ch06/python/dspy-cot-vs-react/README.md"
-      },
-      {
-        "title": "Few-shot ticket normalizer",
-        "rel": "ch06-python-few-shot-ticket-normalizer-README",
-        "sourceRel": "ch06/python/few-shot-ticket-normalizer/README.md"
-      },
-      {
-        "title": "Prompt chaining support reply",
-        "rel": "ch06-python-prompt-chaining-support-reply-README",
-        "sourceRel": "ch06/python/prompt-chaining-support-reply/README.md"
-      },
-      {
-        "title": "Agent-to-Agent (A2A) communication example",
-        "rel": "ch07-a2a-example-README",
-        "sourceRel": "ch07/a2a-example/README.md"
-      },
-      {
-        "title": "Context compression with LLMLingua",
-        "rel": "ch07-context-compression-README",
-        "sourceRel": "ch07/context-compression/README.md"
-      },
-      {
-        "title": "Collaborative agents with CrewAI",
-        "rel": "ch07-crewai-crew-README",
-        "sourceRel": "ch07/crewai-crew/README.md"
-      },
-      {
-        "title": "Orchestration with DeepAgents",
-        "rel": "ch07-deepagents-orchestration-README",
-        "sourceRel": "ch07/deepagents-orchestration/README.md"
-      },
-      {
-        "title": "Multi-agent router pattern",
-        "rel": "ch07-multi-agent-router-README",
-        "sourceRel": "ch07/multi-agent-router/README.md"
-      },
-      {
-        "title": "Filesystem context with OpenViking",
-        "rel": "ch07-openviking-filesystem-README",
-        "sourceRel": "ch07/openviking-filesystem/README.md"
-      },
-      {
-        "title": "LLM evals with Promptfoo",
-        "rel": "ch08-evals-promptfoo-README",
-        "sourceRel": "ch08/evals-promptfoo/README.md"
-      },
-      {
-        "title": "Context evaluation with LLM-as-Judge using Ragas",
-        "rel": "ch08-llm-as-judge-ragas-README",
-        "sourceRel": "ch08/llm-as-judge-ragas/README.md"
-      },
-      {
-        "title": "Metrics with DeepEval",
-        "rel": "ch08-metrics-deepeval-README",
-        "sourceRel": "ch08/metrics-deepeval/README.md"
-      },
-      {
-        "title": "Observability and tracing with Langfuse",
-        "rel": "ch08-observability-langfuse-README",
-        "sourceRel": "ch08/observability-langfuse/README.md"
-      },
-      {
-        "title": "Observability with LangSmith",
-        "rel": "ch08-observability-langsmith-README",
-        "sourceRel": "ch08/observability-langsmith/README.md"
-      },
-      {
-        "title": "Bias detection: assessing fairness in AI recommendations",
-        "rel": "ch09-bias_detection-README",
-        "sourceRel": "ch09/bias_detection/README.md"
-      },
-      {
-        "title": "Context as code: Jinja2 prompt template with a CI evaluation gate",
-        "rel": "ch09-context_as_code-README",
-        "sourceRel": "ch09/context_as_code/README.md"
-      },
-      {
-        "title": "Fine-tuning: customizing model behavior",
-        "rel": "ch09-fine_tuning-README",
-        "sourceRel": "ch09/fine_tuning/README.md"
-      },
-      {
-        "title": "Human-in-the-Loop (HITL) example",
-        "rel": "ch09-human-in-the-loop-README",
-        "sourceRel": "ch09/human-in-the-loop/README.md"
-      },
-      {
-        "title": "LiteLLM gateway example",
-        "rel": "ch09-litellm_gateway-README",
-        "sourceRel": "ch09/litellm_gateway/README.md"
-      },
-      {
-        "title": "Output validation with JSON Schema",
-        "rel": "ch09-output_validation-README",
-        "sourceRel": "ch09/output_validation/README.md"
-      },
-      {
-        "title": "PII redaction with Microsoft Presidio",
-        "rel": "ch09-pii_presidio-README",
-        "sourceRel": "ch09/pii_presidio/README.md"
-      },
-      {
-        "title": "Agent with tool in Agent Development Kit (ADK)",
-        "rel": "ch10-adk-agent_with_tool-README",
-        "sourceRel": "ch10/adk/agent_with_tool/README.md"
-      },
-      {
-        "title": "Basic agent with Agent Development Kit (ADK)",
-        "rel": "ch10-adk-basic_agent-README",
-        "sourceRel": "ch10/adk/basic_agent/README.md"
-      },
-      {
-        "title": "Context compression Agent Development Kit (ADK)",
-        "rel": "ch10-adk-context_compression-README",
-        "sourceRel": "ch10/adk/context_compression/README.md"
-      },
-      {
-        "title": "Google search example",
-        "rel": "ch10-adk-google_search-README",
-        "sourceRel": "ch10/adk/google_search/README.md"
-      },
-      {
-        "title": "ADK memory example",
-        "rel": "ch10-adk-memory-README",
-        "sourceRel": "ch10/adk/memory/README.md"
-      },
-      {
-        "title": "Agent Development Kit (ADK) examples",
-        "rel": "ch10-adk-README",
-        "sourceRel": "ch10/adk/README.md"
-      },
-      {
-        "title": "ADK state example",
-        "rel": "ch10-adk-state-README",
-        "sourceRel": "ch10/adk/state/README.md"
-      },
-      {
-        "title": "Conversational state demo with Microsoft Agent Framework",
-        "rel": "ch10-agent_framework-agent_conversational_state-README",
-        "sourceRel": "ch10/agent_framework/agent_conversational_state/README.md"
-      },
-      {
-        "title": "Agent with memory using Microsoft Agent Framework",
-        "rel": "ch10-agent_framework-agent_with_memory-README",
-        "sourceRel": "ch10/agent_framework/agent_with_memory/README.md"
-      },
-      {
-        "title": "Agent with RAG using Microsoft Agent Framework",
-        "rel": "ch10-agent_framework-agent_with_rag-README",
-        "sourceRel": "ch10/agent_framework/agent_with_rag/README.md"
-      },
-      {
-        "title": "Agent with Tool with Microsoft Agent Framework",
-        "rel": "ch10-agent_framework-agent_with_tool-README",
-        "sourceRel": "ch10/agent_framework/agent_with_tool/README.md"
-      },
-      {
-        "title": "Basic conversation with Microsoft Agent Framework",
-        "rel": "ch10-agent_framework-basic_conversation-README",
-        "sourceRel": "ch10/agent_framework/basic_conversation/README.md"
-      },
-      {
-        "title": "Microsoft Agent Framework examples",
-        "rel": "ch10-agent_framework-README",
-        "sourceRel": "ch10/agent_framework/README.md"
-      },
-      {
-        "title": "Workflow state in Microsoft Agent Framework",
-        "rel": "ch10-agent_framework-workflow_state-README",
-        "sourceRel": "ch10/agent_framework/workflow_state/README.md"
-      },
-      {
-        "title": "AgentOS Service",
-        "rel": "ch10-agno-agent_os_service-README",
-        "sourceRel": "ch10/agno/agent_os_service/README.md"
-      },
-      {
-        "title": "Audit Traces",
-        "rel": "ch10-agno-audit_traces-README",
-        "sourceRel": "ch10/agno/audit_traces/README.md"
-      },
-      {
-        "title": "Knowledge Store",
-        "rel": "ch10-agno-knowledge_store-README",
-        "sourceRel": "ch10/agno/knowledge_store/README.md"
-      },
-      {
-        "title": "Agno examples",
-        "rel": "ch10-agno-README",
-        "sourceRel": "ch10/agno/README.md"
-      },
-      {
-        "title": "Session Memory",
-        "rel": "ch10-agno-session_memory-README",
-        "sourceRel": "ch10/agno/session_memory/README.md"
-      },
-      {
-        "title": "Sorting Hat",
-        "rel": "ch10-agno-sorting_hat-README",
-        "sourceRel": "ch10/agno/sorting_hat/README.md"
-      },
-      {
-        "title": "Basic text generation with the AI SDK",
-        "rel": "ch10-ai_sdk-basic_text_generation-README",
-        "sourceRel": "ch10/ai_sdk/basic_text_generation/README.md"
-      },
-      {
-        "title": "Vercel AI SDK examples",
-        "rel": "ch10-ai_sdk-README",
-        "sourceRel": "ch10/ai_sdk/README.md"
-      },
-      {
-        "title": "Streaming text with the AI SDK",
-        "rel": "ch10-ai_sdk-streaming_text-README",
-        "sourceRel": "ch10/ai_sdk/streaming_text/README.md"
-      },
-      {
-        "title": "Structured output with the AI SDK",
-        "rel": "ch10-ai_sdk-structured_output-README",
-        "sourceRel": "ch10/ai_sdk/structured_output/README.md"
-      },
-      {
-        "title": "Tool use with the AI SDK",
-        "rel": "ch10-ai_sdk-tool_use-README",
-        "sourceRel": "ch10/ai_sdk/tool_use/README.md"
-      },
-      {
-        "title": "Code Review Agent with Amazon Bedrock AgentCore",
-        "rel": "ch10-bedrock_agentcore-code_review_agent-README",
-        "sourceRel": "ch10/bedrock_agentcore/code_review_agent/README.md"
-      },
-      {
-        "title": "Hosted agent with Amazon Bedrock AgentCore",
-        "rel": "ch10-bedrock_agentcore-hosted_agent-README",
-        "sourceRel": "ch10/bedrock_agentcore/hosted_agent/README.md"
-      },
-      {
-        "title": "Amazon Bedrock AgentCore examples",
-        "rel": "ch10-bedrock_agentcore-README",
-        "sourceRel": "ch10/bedrock_agentcore/README.md"
-      },
-      {
-        "title": "Basic agent with the Claude Agent SDK",
-        "rel": "ch10-claude_agent_sdk-basic_agent-README",
-        "sourceRel": "ch10/claude_agent_sdk/basic_agent/README.md"
-      },
-      {
-        "title": "Claude Agent SDK examples",
-        "rel": "ch10-claude_agent_sdk-README",
-        "sourceRel": "ch10/claude_agent_sdk/README.md"
-      },
-      {
-        "title": "Critique Revision",
-        "rel": "ch10-crewai-critique_revision-README",
-        "sourceRel": "ch10/crewai/critique_revision/README.md"
-      },
-      {
-        "title": "Memory Handoff",
-        "rel": "ch10-crewai-memory_handoff-README",
-        "sourceRel": "ch10/crewai/memory_handoff/README.md"
-      },
-      {
-        "title": "Planner Executor",
-        "rel": "ch10-crewai-planner_executor-README",
-        "sourceRel": "ch10/crewai/planner_executor/README.md"
-      },
-      {
-        "title": "CrewAI examples",
-        "rel": "ch10-crewai-README",
-        "sourceRel": "ch10/crewai/README.md"
-      },
-      {
-        "title": "Research and Write with CrewAI",
-        "rel": "ch10-crewai-research_and_write-README",
-        "sourceRel": "ch10/crewai/research_and_write/README.md"
-      },
-      {
-        "title": "Tool Chain",
-        "rel": "ch10-crewai-tool_chain-README",
-        "sourceRel": "ch10/crewai/tool_chain/README.md"
-      },
-      {
-        "title": "Filesystem Context",
-        "rel": "ch10-deepagents-filesystem_context-README",
-        "sourceRel": "ch10/deepagents/filesystem_context/README.md"
-      },
-      {
-        "title": "Human Approval",
-        "rel": "ch10-deepagents-human_approval-README",
-        "sourceRel": "ch10/deepagents/human_approval/README.md"
-      },
-      {
-        "title": "Orchestration",
-        "rel": "ch10-deepagents-orchestration-README",
-        "sourceRel": "ch10/deepagents/orchestration/README.md"
-      },
-      {
-        "title": "DeepAgents examples",
-        "rel": "ch10-deepagents-README",
-        "sourceRel": "ch10/deepagents/README.md"
-      },
-      {
-        "title": "Sub-agent Delegation",
-        "rel": "ch10-deepagents-subagent_delegation-README",
-        "sourceRel": "ch10/deepagents/subagent_delegation/README.md"
-      },
-      {
-        "title": "DSPy BootstrapFewShot example",
-        "rel": "ch10-dspy-bootstrap_few_shot-README",
-        "sourceRel": "ch10/dspy/bootstrap_few_shot/README.md"
-      },
-      {
-        "title": "Tool use with local context in DSPy",
-        "rel": "ch10-dspy-context_tooling-README",
-        "sourceRel": "ch10/dspy/context_tooling/README.md"
-      },
-      {
-        "title": "DSPy examples",
-        "rel": "ch10-dspy-README",
-        "sourceRel": "ch10/dspy/README.md"
-      },
-      {
-        "title": "Stepwise reasoning with DSPy",
-        "rel": "ch10-dspy-stepwise_reasoning-README",
-        "sourceRel": "ch10/dspy/stepwise_reasoning/README.md"
-      },
-      {
-        "title": "Structured output with DSPy",
-        "rel": "ch10-dspy-structured_output-README",
-        "sourceRel": "ch10/dspy/structured_output/README.md"
-      },
-      {
-        "title": "Ticket triage",
-        "rel": "ch10-dspy-ticket_triage-README",
-        "sourceRel": "ch10/dspy/ticket_triage/README.md"
-      },
-      {
-        "title": "Basic agent with Embabel and Ollama",
-        "rel": "ch10-embabel-basic_agent-README",
-        "sourceRel": "ch10/embabel/basic_agent/README.md"
-      },
-      {
-        "title": "Goal planning with Embabel and Ollama",
-        "rel": "ch10-embabel-goal_planning-README",
-        "sourceRel": "ch10/embabel/goal_planning/README.md"
-      },
-      {
-        "title": "Persona prompts with Embabel and Ollama",
-        "rel": "ch10-embabel-persona_prompt-README",
-        "sourceRel": "ch10/embabel/persona_prompt/README.md"
-      },
-      {
-        "title": "Embabel examples",
-        "rel": "ch10-embabel-README",
-        "sourceRel": "ch10/embabel/README.md"
-      },
-      {
-        "title": "Deploying an ADK agent to Gemini Enterprise Agent Platform",
-        "rel": "ch10-gemini_agent_platform-deploy_adk_agent-README",
-        "sourceRel": "ch10/gemini_agent_platform/deploy_adk_agent/README.md"
-      },
-      {
-        "title": "Development Agent with Gemini Enterprise Agent Platform",
-        "rel": "ch10-gemini_agent_platform-dev_agent-README",
-        "sourceRel": "ch10/gemini_agent_platform/dev_agent/README.md"
-      },
-      {
-        "title": "Feature: Idea Scoring",
-        "rel": "ch10-gemini_agent_platform-dev_agent-spec",
-        "sourceRel": "ch10/gemini_agent_platform/dev_agent/spec.md"
-      },
-      {
-        "title": "Gemini Enterprise Agent Platform examples",
-        "rel": "ch10-gemini_agent_platform-README",
-        "sourceRel": "ch10/gemini_agent_platform/README.md"
-      },
-      {
-        "title": "Pipeline composition",
-        "rel": "ch10-haystack-pipeline_composition-README",
-        "sourceRel": "ch10/haystack/pipeline_composition/README.md"
-      },
-      {
-        "title": "Query expansion",
-        "rel": "ch10-haystack-query_expansion-README",
-        "sourceRel": "ch10/haystack/query_expansion/README.md"
-      },
-      {
-        "title": "RAG pipeline",
-        "rel": "ch10-haystack-rag_pipeline-README",
-        "sourceRel": "ch10/haystack/rag_pipeline/README.md"
-      },
-      {
-        "title": "Haystack examples",
-        "rel": "ch10-haystack-README",
-        "sourceRel": "ch10/haystack/README.md"
-      },
-      {
-        "title": "Reranking",
-        "rel": "ch10-haystack-reranking-README",
-        "sourceRel": "ch10/haystack/reranking/README.md"
-      },
-      {
-        "title": "Basic interaction with an LLM using LangChain",
-        "rel": "ch10-langchain-basic_llm_interaction-README",
-        "sourceRel": "ch10/langchain/basic_llm_interaction/README.md"
-      },
-      {
-        "title": "Context compression with LangChain",
-        "rel": "ch10-langchain-context_compression-README",
-        "sourceRel": "ch10/langchain/context_compression/README.md"
-      },
-      {
-        "title": "Conversational memory with LangChain",
-        "rel": "ch10-langchain-conversational_memory-README",
-        "sourceRel": "ch10/langchain/conversational_memory/README.md"
-      },
-      {
-        "title": "Retrieval-Augmented Generation (RAG) with LangChain",
-        "rel": "ch10-langchain-rag_with_vectorstore-README",
-        "sourceRel": "ch10/langchain/rag_with_vectorstore/README.md"
-      },
-      {
-        "title": "LangChain examples",
-        "rel": "ch10-langchain-README",
-        "sourceRel": "ch10/langchain/README.md"
-      },
-      {
-        "title": "Structured output with LangChain core primitives",
-        "rel": "ch10-langchain-structured_output-README",
-        "sourceRel": "ch10/langchain/structured_output/README.md"
-      },
-      {
-        "title": "Tool calling with LangChain agents",
-        "rel": "ch10-langchain-tool_calling-README",
-        "sourceRel": "ch10/langchain/tool_calling/README.md"
-      },
-      {
-        "title": "Basic assistant with LangChain4j and Ollama",
-        "rel": "ch10-langchain4j-basic_assistant-README",
-        "sourceRel": "ch10/langchain4j/basic_assistant/README.md"
-      },
-      {
-        "title": "Chat memory with LangChain4j and Ollama",
-        "rel": "ch10-langchain4j-chat_memory-README",
-        "sourceRel": "ch10/langchain4j/chat_memory/README.md"
-      },
-      {
-        "title": "Context assembly with LangChain4j and Ollama",
-        "rel": "ch10-langchain4j-context_assembly-README",
-        "sourceRel": "ch10/langchain4j/context_assembly/README.md"
-      },
-      {
-        "title": "Retrieval with LangChain4j and Ollama",
-        "rel": "ch10-langchain4j-rag_retrieval-README",
-        "sourceRel": "ch10/langchain4j/rag_retrieval/README.md"
-      },
-      {
-        "title": "LangChain4j examples",
-        "rel": "ch10-langchain4j-README",
-        "sourceRel": "ch10/langchain4j/README.md"
-      },
-      {
-        "title": "Structured output with LangChain4j and Ollama",
-        "rel": "ch10-langchain4j-structured_output-README",
-        "sourceRel": "ch10/langchain4j/structured_output/README.md"
-      },
-      {
-        "title": "Tool use with LangChain4j and Ollama",
-        "rel": "ch10-langchain4j-tool_use-README",
-        "sourceRel": "ch10/langchain4j/tool_use/README.md"
-      },
-      {
-        "title": "Basic LangGraph agent for stateful workflows",
-        "rel": "ch10-langgraph-basic_agent-README",
-        "sourceRel": "ch10/langgraph/basic_agent/README.md"
-      },
-      {
-        "title": "LangGraph checkpointed resume",
-        "rel": "ch10-langgraph-checkpointed_resume-README",
-        "sourceRel": "ch10/langgraph/checkpointed_resume/README.md"
-      },
-      {
-        "title": "LangGraph examples",
-        "rel": "ch10-langgraph-README",
-        "sourceRel": "ch10/langgraph/README.md"
-      },
-      {
-        "title": "LangGraph review workflow",
-        "rel": "ch10-langgraph-review_workflow-README",
-        "sourceRel": "ch10/langgraph/review_workflow/README.md"
-      },
-      {
-        "title": "Agent with custom tool in LlamaIndex",
-        "rel": "ch10-llamaindex-agent_with_tool-README",
-        "sourceRel": "ch10/llamaindex/agent_with_tool/README.md"
-      },
-      {
-        "title": "Answer and Context Relevancy Evaluations in LlamaIndex",
-        "rel": "ch10-llamaindex-answer_context_evaluation-README",
-        "sourceRel": "ch10/llamaindex/answer_context_evaluation/README.md"
-      },
-      {
-        "title": "Conversational memory and state with LlamaIndex",
-        "rel": "ch10-llamaindex-conversational_memory-README",
-        "sourceRel": "ch10/llamaindex/conversational_memory/README.md"
-      },
-      {
-        "title": "Customizing prompts with LlamaIndex",
-        "rel": "ch10-llamaindex-custom_prompts-README",
-        "sourceRel": "ch10/llamaindex/custom_prompts/README.md"
-      },
-      {
-        "title": "RAG Agent with Context Retrieval in LlamaIndex",
-        "rel": "ch10-llamaindex-rag_agent_with_context_retrieval-README",
-        "sourceRel": "ch10/llamaindex/rag_agent_with_context_retrieval/README.md"
-      },
-      {
-        "title": "Basic RAG example with LlamaIndex",
-        "rel": "ch10-llamaindex-rag_basic-README",
-        "sourceRel": "ch10/llamaindex/rag_basic/README.md"
-      },
-      {
-        "title": "LlamaIndex examples",
-        "rel": "ch10-llamaindex-README",
-        "sourceRel": "ch10/llamaindex/README.md"
-      },
-      {
-        "title": "n8n data assembly",
-        "rel": "ch10-n8n-data_assembly-README",
-        "sourceRel": "ch10/n8n/data_assembly/README.md"
-      },
-      {
-        "title": "n8n error recovery",
-        "rel": "ch10-n8n-error_recovery-README",
-        "sourceRel": "ch10/n8n/error_recovery/README.md"
-      },
-      {
-        "title": "n8n human approval workflow",
-        "rel": "ch10-n8n-human_approval_workflow-README",
-        "sourceRel": "ch10/n8n/human_approval_workflow/README.md"
-      },
-      {
-        "title": "n8n workflow sketch",
-        "rel": "ch10-n8n-human_approval_workflow-workflow",
-        "sourceRel": "ch10/n8n/human_approval_workflow/workflow.md"
-      },
-      {
-        "title": "n8n workflow examples",
-        "rel": "ch10-n8n-README",
-        "sourceRel": "ch10/n8n/README.md"
-      },
-      {
-        "title": "n8n subworkflow boundary",
-        "rel": "ch10-n8n-subworkflow_boundary-README",
-        "sourceRel": "ch10/n8n/subworkflow_boundary/README.md"
-      },
-      {
-        "title": "Durable ops assistant",
-        "rel": "ch10-openclaw-durable_ops_assistant-README",
-        "sourceRel": "ch10/openclaw/durable_ops_assistant/README.md"
-      },
-      {
-        "title": "OpenClaw examples",
-        "rel": "ch10-openclaw-README",
-        "sourceRel": "ch10/openclaw/README.md"
       }
     ]
   },
@@ -13904,7 +11522,7 @@ export const courses: Course[] = [
       },
       {
         "title": "🔍 Semantic Search Agent",
-        "rel": "use-cases-agent-factory-with-subagents-agents-rag_agent-README",
+        "rel": "use-cases-agent-factory-with-subagents-agents-rag_agent",
         "sourceRel": "use-cases/agent-factory-with-subagents/agents/rag_agent/README.md"
       },
       {
@@ -13929,7 +11547,7 @@ export const courses: Course[] = [
       },
       {
         "title": "🏭 AI Agent Factory with Claude Code Subagents",
-        "rel": "use-cases-agent-factory-with-subagents-README",
+        "rel": "use-cases-agent-factory-with-subagents",
         "sourceRel": "use-cases/agent-factory-with-subagents/README.md"
       },
       {
@@ -13939,7 +11557,7 @@ export const courses: Course[] = [
       },
       {
         "title": "WISC Framework: Context Engineering for AI Coding",
-        "rel": "use-cases-ai-coding-wisc-framework-README",
+        "rel": "use-cases-ai-coding-wisc-framework",
         "sourceRel": "use-cases/ai-coding-wisc-framework/README.md"
       },
       {
@@ -13969,7 +11587,7 @@ export const courses: Course[] = [
       },
       {
         "title": "🚀 AI Coding Workflows",
-        "rel": "use-cases-ai-coding-workflows-foundation-README",
+        "rel": "use-cases-ai-coding-workflows-foundation",
         "sourceRel": "use-cases/ai-coding-workflows-foundation/README.md"
       },
       {
@@ -13979,7 +11597,7 @@ export const courses: Course[] = [
       },
       {
         "title": "Build with Agent Team",
-        "rel": "use-cases-build-with-agent-team-README",
+        "rel": "use-cases-build-with-agent-team",
         "sourceRel": "use-cases/build-with-agent-team/README.md"
       },
       {
@@ -13996,81 +11614,6 @@ export const courses: Course[] = [
         "title": "Context Engineering Intro",
         "rel": "use-cases-mcp-server-PRPs-ai_docs-claude_api_usage",
         "sourceRel": "use-cases/mcp-server/PRPs/ai_docs/claude_api_usage.md"
-      },
-      {
-        "title": "MCP Server Development Patterns",
-        "rel": "use-cases-mcp-server-PRPs-ai_docs-mcp_patterns",
-        "sourceRel": "use-cases/mcp-server/PRPs/ai_docs/mcp_patterns.md"
-      },
-      {
-        "title": "Context Engineering Intro",
-        "rel": "use-cases-mcp-server-PRPs-INITIAL",
-        "sourceRel": "use-cases/mcp-server/PRPs/INITIAL.md"
-      },
-      {
-        "title": "Product Requirement Prompt (PRP) Concept",
-        "rel": "use-cases-mcp-server-PRPs-README",
-        "sourceRel": "use-cases/mcp-server/PRPs/README.md"
-      },
-      {
-        "title": "Context Engineering Intro",
-        "rel": "use-cases-mcp-server-PRPs-templates-prp_mcp_base",
-        "sourceRel": "use-cases/mcp-server/PRPs/templates/prp_mcp_base.md"
-      },
-      {
-        "title": "MCP Server Builder - Context Engineering Use Case",
-        "rel": "use-cases-mcp-server-README",
-        "sourceRel": "use-cases/mcp-server/README.md"
-      },
-      {
-        "title": "PydanticAI Context Engineering - Global Rules for AI Agent Development",
-        "rel": "use-cases-pydantic-ai-CLAUDE",
-        "sourceRel": "use-cases/pydantic-ai/CLAUDE.md"
-      },
-      {
-        "title": "Context Engineering Intro",
-        "rel": "use-cases-pydantic-ai-PRPs-INITIAL",
-        "sourceRel": "use-cases/pydantic-ai/PRPs/INITIAL.md"
-      },
-      {
-        "title": "Context Engineering Intro",
-        "rel": "use-cases-pydantic-ai-PRPs-templates-prp_pydantic_ai_base",
-        "sourceRel": "use-cases/pydantic-ai/PRPs/templates/prp_pydantic_ai_base.md"
-      },
-      {
-        "title": "Pydantic AI Context Engineering Template",
-        "rel": "use-cases-pydantic-ai-README",
-        "sourceRel": "use-cases/pydantic-ai/README.md"
-      },
-      {
-        "title": "Template Generator - Global Rules for Context Engineering",
-        "rel": "use-cases-template-generator-CLAUDE",
-        "sourceRel": "use-cases/template-generator/CLAUDE.md"
-      },
-      {
-        "title": "Template Generation Request",
-        "rel": "use-cases-template-generator-PRPs-INITIAL_PYDANTIC_AI",
-        "sourceRel": "use-cases/template-generator/PRPs/INITIAL_PYDANTIC_AI.md"
-      },
-      {
-        "title": "Template Generation Request",
-        "rel": "use-cases-template-generator-PRPs-INITIAL",
-        "sourceRel": "use-cases/template-generator/PRPs/INITIAL.md"
-      },
-      {
-        "title": "Context Engineering Intro",
-        "rel": "use-cases-template-generator-PRPs-template-pydantic-ai",
-        "sourceRel": "use-cases/template-generator/PRPs/template-pydantic-ai.md"
-      },
-      {
-        "title": "Context Engineering Intro",
-        "rel": "use-cases-template-generator-PRPs-templates-prp_template_base",
-        "sourceRel": "use-cases/template-generator/PRPs/templates/prp_template_base.md"
-      },
-      {
-        "title": "Template Generator - Meta-Framework for Context Engineering",
-        "rel": "use-cases-template-generator-README",
-        "sourceRel": "use-cases/template-generator/README.md"
       }
     ]
   },
@@ -14105,8 +11648,118 @@ export const courses: Course[] = [
       },
       {
         "title": "Claude Code System Prompts",
-        "rel": "system-prompts",
+        "rel": "CLAUDE",
+        "sourceRel": "CLAUDE.md"
+      },
+      {
+        "title": "Claude Code System Prompts",
+        "rel": "system-prompts-agent-prompt-agent-hook",
         "sourceRel": "system-prompts/agent-prompt-agent-hook.md"
+      },
+      {
+        "title": "Claude Code System Prompts",
+        "rel": "system-prompts-agent-prompt-artifact-comment-thread-analyst",
+        "sourceRel": "system-prompts/agent-prompt-artifact-comment-thread-analyst.md"
+      },
+      {
+        "title": "Claude Code System Prompts",
+        "rel": "system-prompts-agent-prompt-artifact-editor-thread-follow-up",
+        "sourceRel": "system-prompts/agent-prompt-artifact-editor-thread-follow-up.md"
+      },
+      {
+        "title": "Claude Code System Prompts",
+        "rel": "system-prompts-agent-prompt-artifact-type-creation-slash-command",
+        "sourceRel": "system-prompts/agent-prompt-artifact-type-creation-slash-command.md"
+      },
+      {
+        "title": "Claude Code System Prompts",
+        "rel": "system-prompts-agent-prompt-auto-mode-rule-reviewer",
+        "sourceRel": "system-prompts/agent-prompt-auto-mode-rule-reviewer.md"
+      },
+      {
+        "title": "Claude Code System Prompts",
+        "rel": "system-prompts-agent-prompt-away-summary-generation",
+        "sourceRel": "system-prompts/agent-prompt-away-summary-generation.md"
+      },
+      {
+        "title": "Claude Code System Prompts",
+        "rel": "system-prompts-agent-prompt-background-agent-state-classifier",
+        "sourceRel": "system-prompts/agent-prompt-background-agent-state-classifier.md"
+      },
+      {
+        "title": "Claude Code System Prompts",
+        "rel": "system-prompts-agent-prompt-background-job-agent-instructions",
+        "sourceRel": "system-prompts/agent-prompt-background-job-agent-instructions.md"
+      },
+      {
+        "title": "Batch: Parallel Work Orchestration",
+        "rel": "system-prompts-agent-prompt-batch-slash-command",
+        "sourceRel": "system-prompts/agent-prompt-batch-slash-command.md"
+      },
+      {
+        "title": "Claude Code System Prompts",
+        "rel": "system-prompts-agent-prompt-claude-code-guide",
+        "sourceRel": "system-prompts/agent-prompt-claude-code-guide.md"
+      },
+      {
+        "title": "Claude Code System Prompts",
+        "rel": "system-prompts-agent-prompt-claude-guide-agent",
+        "sourceRel": "system-prompts/agent-prompt-claude-guide-agent.md"
+      },
+      {
+        "title": "Claude Code System Prompts",
+        "rel": "system-prompts-agent-prompt-claude-md-creation",
+        "sourceRel": "system-prompts/agent-prompt-claude-md-creation.md"
+      },
+      {
+        "title": "Claude Code System Prompts",
+        "rel": "system-prompts-agent-prompt-code-review-gitlab-comment-posting",
+        "sourceRel": "system-prompts/agent-prompt-code-review-gitlab-comment-posting.md"
+      },
+      {
+        "title": "Claude Code System Prompts",
+        "rel": "system-prompts-agent-prompt-code-review-inline-gap-sweep-phase",
+        "sourceRel": "system-prompts/agent-prompt-code-review-inline-gap-sweep-phase.md"
+      },
+      {
+        "title": "Claude Code System Prompts",
+        "rel": "system-prompts-agent-prompt-code-review-minimal-mode",
+        "sourceRel": "system-prompts/agent-prompt-code-review-minimal-mode.md"
+      },
+      {
+        "title": "Claude Code System Prompts",
+        "rel": "system-prompts-agent-prompt-code-review-part-1-base-finder-angles",
+        "sourceRel": "system-prompts/agent-prompt-code-review-part-1-base-finder-angles.md"
+      },
+      {
+        "title": "Claude Code System Prompts",
+        "rel": "system-prompts-agent-prompt-code-review-part-2-low-effort-minimum-findings-mode",
+        "sourceRel": "system-prompts/agent-prompt-code-review-part-2-low-effort-minimum-findings-mode.md"
+      },
+      {
+        "title": "Claude Code System Prompts",
+        "rel": "system-prompts-agent-prompt-code-review-part-2-low-effort-mode",
+        "sourceRel": "system-prompts/agent-prompt-code-review-part-2-low-effort-mode.md"
+      },
+      {
+        "title": "Claude Code System Prompts",
+        "rel": "system-prompts-agent-prompt-code-review-part-3-extra-high-and-maximum-effort-modes",
+        "sourceRel": "system-prompts/agent-prompt-code-review-part-3-extra-high-and-maximum-effort-modes.md"
+      },
+      {
+        "title": "Claude Code System Prompts",
+        "rel": "system-prompts-agent-prompt-code-review-part-4-three-state-verification-phase",
+        "sourceRel": "system-prompts/agent-prompt-code-review-part-4-three-state-verification-phase.md"
+      },
+      {
+        "title": "Claude Code System Prompts",
+        "rel": "system-prompts-agent-prompt-code-review-part-5-recall-biased-verification-phase",
+        "sourceRel": "system-prompts/agent-prompt-code-review-part-5-recall-biased-verification-phase.md"
+      },
+      {
+        "title": "Claude Code System Prompts",
+        "rel": "system-prompts-agent-prompt-code-review-part-6-medium-effort-mode",
+        "sourceRel": "system-prompts/agent-prompt-code-review-part-6-medium-effort-mode.md"
       }
     ]
   },
@@ -14145,9 +11798,114 @@ export const courses: Course[] = [
         "sourceRel": "docs-site/README.md"
       },
       {
+        "title": "Continual Learning Hook",
+        "rel": "hooks-continual-learning",
+        "sourceRel": "hooks/continual-learning/README.md"
+      },
+      {
         "title": "Skill Evaluation Test Harness",
         "rel": "tests",
         "sourceRel": "tests/README.md"
+      },
+      {
+        "title": "Agent Framework Azure AI Python Acceptance Criteria",
+        "rel": "tests-scenarios-agent-framework-azure-ai-py-acceptance-criteria",
+        "sourceRel": "tests/scenarios/agent-framework-azure-ai-py/acceptance-criteria.md"
+      },
+      {
+        "title": "Azure.AI.Agents.Persistent SDK Acceptance Criteria (.NET)",
+        "rel": "tests-scenarios-azure-ai-agents-persistent-dotnet-acceptance-criteria",
+        "sourceRel": "tests/scenarios/azure-ai-agents-persistent-dotnet/acceptance-criteria.md"
+      },
+      {
+        "title": "Azure AI Agents Persistent SDK for Java Acceptance Criteria",
+        "rel": "tests-scenarios-azure-ai-agents-persistent-java-acceptance-criteria",
+        "sourceRel": "tests/scenarios/azure-ai-agents-persistent-java/acceptance-criteria.md"
+      },
+      {
+        "title": "Azure AI Anomaly Detector SDK for Java Acceptance Criteria",
+        "rel": "tests-scenarios-azure-ai-anomalydetector-java-acceptance-criteria",
+        "sourceRel": "tests/scenarios/azure-ai-anomalydetector-java/acceptance-criteria.md"
+      },
+      {
+        "title": "Azure AI Content Safety SDK for Java Acceptance Criteria",
+        "rel": "tests-scenarios-azure-ai-contentsafety-java-acceptance-criteria",
+        "sourceRel": "tests/scenarios/azure-ai-contentsafety-java/acceptance-criteria.md"
+      },
+      {
+        "title": "Azure AI Content Safety SDK Acceptance Criteria",
+        "rel": "tests-scenarios-azure-ai-contentsafety-py-acceptance-criteria",
+        "sourceRel": "tests/scenarios/azure-ai-contentsafety-py/acceptance-criteria.md"
+      },
+      {
+        "title": "Acceptance Criteria: azure-ai-contentsafety-ts",
+        "rel": "tests-scenarios-azure-ai-contentsafety-ts-acceptance-criteria",
+        "sourceRel": "tests/scenarios/azure-ai-contentsafety-ts/acceptance-criteria.md"
+      },
+      {
+        "title": "Azure AI Content Understanding SDK Acceptance Criteria",
+        "rel": "tests-scenarios-azure-ai-contentunderstanding-py-acceptance-criteria",
+        "sourceRel": "tests/scenarios/azure-ai-contentunderstanding-py/acceptance-criteria.md"
+      },
+      {
+        "title": "Azure Document Intelligence SDK Acceptance Criteria (.NET)",
+        "rel": "tests-scenarios-azure-ai-document-intelligence-dotnet-acceptance-criteria",
+        "sourceRel": "tests/scenarios/azure-ai-document-intelligence-dotnet/acceptance-criteria.md"
+      },
+      {
+        "title": "Acceptance Criteria: azure-ai-document-intelligence-ts",
+        "rel": "tests-scenarios-azure-ai-document-intelligence-ts-acceptance-criteria",
+        "sourceRel": "tests/scenarios/azure-ai-document-intelligence-ts/acceptance-criteria.md"
+      },
+      {
+        "title": "Azure Document Intelligence (Form Recognizer) SDK for Java Acceptance Criteria",
+        "rel": "tests-scenarios-azure-ai-formrecognizer-java-acceptance-criteria",
+        "sourceRel": "tests/scenarios/azure-ai-formrecognizer-java/acceptance-criteria.md"
+      },
+      {
+        "title": "Acceptance Criteria: azure-ai-language-conversations-py",
+        "rel": "tests-scenarios-azure-ai-language-conversations-py-acceptance-criteria",
+        "sourceRel": "tests/scenarios/azure-ai-language-conversations-py/acceptance-criteria.md"
+      },
+      {
+        "title": "Azure Machine Learning SDK v2 Acceptance Criteria",
+        "rel": "tests-scenarios-azure-ai-ml-py-acceptance-criteria",
+        "sourceRel": "tests/scenarios/azure-ai-ml-py/acceptance-criteria.md"
+      },
+      {
+        "title": "Azure OpenAI SDK Acceptance Criteria (.NET)",
+        "rel": "tests-scenarios-azure-ai-openai-dotnet-acceptance-criteria",
+        "sourceRel": "tests/scenarios/azure-ai-openai-dotnet/acceptance-criteria.md"
+      },
+      {
+        "title": "Azure.AI.Projects SDK Acceptance Criteria (.NET)",
+        "rel": "tests-scenarios-azure-ai-projects-dotnet-acceptance-criteria",
+        "sourceRel": "tests/scenarios/azure-ai-projects-dotnet/acceptance-criteria.md"
+      },
+      {
+        "title": "Azure AI Projects SDK for Java Acceptance Criteria",
+        "rel": "tests-scenarios-azure-ai-projects-java-acceptance-criteria",
+        "sourceRel": "tests/scenarios/azure-ai-projects-java/acceptance-criteria.md"
+      },
+      {
+        "title": "Azure AI Projects SDK Acceptance Criteria",
+        "rel": "tests-scenarios-azure-ai-projects-py-acceptance-criteria",
+        "sourceRel": "tests/scenarios/azure-ai-projects-py/acceptance-criteria.md"
+      },
+      {
+        "title": "Azure AI Projects SDK Acceptance Criteria (TypeScript)",
+        "rel": "tests-scenarios-azure-ai-projects-ts-acceptance-criteria",
+        "sourceRel": "tests/scenarios/azure-ai-projects-ts/acceptance-criteria.md"
+      },
+      {
+        "title": "Azure AI Text Analytics SDK Acceptance Criteria",
+        "rel": "tests-scenarios-azure-ai-textanalytics-py-acceptance-criteria",
+        "sourceRel": "tests/scenarios/azure-ai-textanalytics-py/acceptance-criteria.md"
+      },
+      {
+        "title": "Azure AI Transcription SDK Acceptance Criteria",
+        "rel": "tests-scenarios-azure-ai-transcription-py-acceptance-criteria",
+        "sourceRel": "tests/scenarios/azure-ai-transcription-py/acceptance-criteria.md"
       }
     ]
   },
@@ -14181,24 +11939,119 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
+        "title": "CLAUDE.md",
+        "rel": "CLAUDE",
+        "sourceRel": "CLAUDE.md"
+      },
+      {
         "title": "PDF Processing",
-        "rel": "docs",
+        "rel": "docs-agentskills",
         "sourceRel": "docs/agentskills.md"
       },
       {
-        "title": "Governance policy",
-        "rel": "governance",
-        "sourceRel": "governance/README.md"
+        "title": "Agent Skills for Context Engineering",
+        "rel": "docs-blogs",
+        "sourceRel": "docs/blogs.md"
       },
       {
-        "title": "Researcher Operating System",
-        "rel": "researcher",
-        "sourceRel": "researcher/README.md"
+        "title": "Agent Skills for Context Engineering",
+        "rel": "docs-claude_research",
+        "sourceRel": "docs/claude_research.md"
       },
       {
-        "title": "Skill Name",
-        "rel": "template",
-        "sourceRel": "template/SKILL.md"
+        "title": "Agent Skills for Context Engineering",
+        "rel": "docs-compression",
+        "sourceRel": "docs/compression.md"
+      },
+      {
+        "title": "ADR-0001: Machine-testable, deny-by-default authority",
+        "rel": "docs-decisions-0001-machine-testable-constitution",
+        "sourceRel": "docs/decisions/0001-machine-testable-constitution.md"
+      },
+      {
+        "title": "ADR-0002: Treat the corpus inventory as a checked derived view",
+        "rel": "docs-decisions-0002-derived-corpus-inventory",
+        "sourceRel": "docs/decisions/0002-derived-corpus-inventory.md"
+      },
+      {
+        "title": "ADR-0003: Publish allowlisted projections, not redacted private records",
+        "rel": "docs-decisions-0003-allowlisted-public-projections",
+        "sourceRel": "docs/decisions/0003-allowlisted-public-projections.md"
+      },
+      {
+        "title": "ADR-0004: Make schemas, identity, and frozen bytes runtime-neutral",
+        "rel": "docs-decisions-0004-runtime-neutral-artifact-contracts",
+        "sourceRel": "docs/decisions/0004-runtime-neutral-artifact-contracts.md"
+      },
+      {
+        "title": "Architecture decision records",
+        "rel": "docs-decisions",
+        "sourceRel": "docs/decisions/README.md"
+      },
+      {
+        "title": "Agent Skills for Context Engineering",
+        "rel": "docs-gemini_research",
+        "sourceRel": "docs/gemini_research.md"
+      },
+      {
+        "title": "Agent Skills for Context Engineering",
+        "rel": "docs-hncapsule",
+        "sourceRel": "docs/hncapsule.md"
+      },
+      {
+        "title": "Agent Skills for Context Engineering",
+        "rel": "docs-netflix_context",
+        "sourceRel": "docs/netflix_context.md"
+      },
+      {
+        "title": "Skills Improvement Analysis: Lessons from Anthropic's \"Building Claude Code\" Article",
+        "rel": "docs-skills-improvement-analysis",
+        "sourceRel": "docs/skills-improvement-analysis.md"
+      },
+      {
+        "title": "SPEC-000: Program constitution and authority model",
+        "rel": "docs-specs-SPEC-000-program-constitution",
+        "sourceRel": "docs/specs/SPEC-000-program-constitution.md"
+      },
+      {
+        "title": "SPEC-001: Repository reconciliation and generated corpus inventory",
+        "rel": "docs-specs-SPEC-001-repository-reconciliation",
+        "sourceRel": "docs/specs/SPEC-001-repository-reconciliation.md"
+      },
+      {
+        "title": "SPEC-002: Public and private boundary",
+        "rel": "docs-specs-SPEC-002-public-private-boundary",
+        "sourceRel": "docs/specs/SPEC-002-public-private-boundary.md"
+      },
+      {
+        "title": "SPEC-003: Schema registry and artifact identity",
+        "rel": "docs-specs-SPEC-003-schema-registry",
+        "sourceRel": "docs/specs/SPEC-003-schema-registry.md"
+      },
+      {
+        "title": "Agent Skills for Context Engineering",
+        "rel": "docs-vercel_tool",
+        "sourceRel": "docs/vercel_tool.md"
+      },
+      {
+        "title": "Book SFT Pipeline",
+        "rel": "examples-book-sft-pipeline",
+        "sourceRel": "examples/book-sft-pipeline/README.md"
+      },
+      {
+        "title": "Segmentation Strategies",
+        "rel": "examples-book-sft-pipeline-references-segmentation-strategies",
+        "sourceRel": "examples/book-sft-pipeline/references/segmentation-strategies.md"
+      },
+      {
+        "title": "Tinker Format Specification",
+        "rel": "examples-book-sft-pipeline-references-tinker-format",
+        "sourceRel": "examples/book-sft-pipeline/references/tinker-format.md"
+      },
+      {
+        "title": "Book SFT Pipeline",
+        "rel": "examples-book-sft-pipeline-SKILL",
+        "sourceRel": "examples/book-sft-pipeline/SKILL.md"
       }
     ]
   },
@@ -14345,306 +12198,6 @@ export const courses: Course[] = [
         "title": "Matt Pocock Skills（工程技能库）",
         "rel": "docs-productivity-to-questionnaire",
         "sourceRel": "docs/productivity/to-questionnaire.md"
-      },
-      {
-        "title": "Matt Pocock Skills（工程技能库）",
-        "rel": "docs-productivity-wait-what",
-        "sourceRel": "docs/productivity/wait-what.md"
-      },
-      {
-        "title": "Matt Pocock Skills（工程技能库）",
-        "rel": "docs-productivity-writing-for-agents",
-        "sourceRel": "docs/productivity/writing-for-agents.md"
-      },
-      {
-        "title": "Deprecated",
-        "rel": "skills-deprecated-README",
-        "sourceRel": "skills/deprecated/README.md"
-      },
-      {
-        "title": "Phase boundaries",
-        "rel": "skills-engineering-ask-matt-PHASE-BOUNDARIES",
-        "sourceRel": "skills/engineering/ask-matt/PHASE-BOUNDARIES.md"
-      },
-      {
-        "title": "Ask Matt",
-        "rel": "skills-engineering-ask-matt-SKILL",
-        "sourceRel": "skills/engineering/ask-matt/SKILL.md"
-      },
-      {
-        "title": "Matt Pocock Skills（工程技能库）",
-        "rel": "skills-engineering-code-review-SKILL",
-        "sourceRel": "skills/engineering/code-review/SKILL.md"
-      },
-      {
-        "title": "Deepening",
-        "rel": "skills-engineering-codebase-design-DEEPENING",
-        "sourceRel": "skills/engineering/codebase-design/DEEPENING.md"
-      },
-      {
-        "title": "Design It Twice",
-        "rel": "skills-engineering-codebase-design-DESIGN-IT-TWICE",
-        "sourceRel": "skills/engineering/codebase-design/DESIGN-IT-TWICE.md"
-      },
-      {
-        "title": "Codebase Design",
-        "rel": "skills-engineering-codebase-design-SKILL",
-        "sourceRel": "skills/engineering/codebase-design/SKILL.md"
-      },
-      {
-        "title": "Diagnosing Bugs",
-        "rel": "skills-engineering-diagnosing-bugs-SKILL",
-        "sourceRel": "skills/engineering/diagnosing-bugs/SKILL.md"
-      },
-      {
-        "title": "ADR Format",
-        "rel": "skills-engineering-domain-modeling-ADR-FORMAT",
-        "sourceRel": "skills/engineering/domain-modeling/ADR-FORMAT.md"
-      },
-      {
-        "title": "CONTEXT.md Format",
-        "rel": "skills-engineering-domain-modeling-CONTEXT-FORMAT",
-        "sourceRel": "skills/engineering/domain-modeling/CONTEXT-FORMAT.md"
-      },
-      {
-        "title": "Domain Modeling",
-        "rel": "skills-engineering-domain-modeling-SKILL",
-        "sourceRel": "skills/engineering/domain-modeling/SKILL.md"
-      },
-      {
-        "title": "Matt Pocock Skills（工程技能库）",
-        "rel": "skills-engineering-implement-SKILL",
-        "sourceRel": "skills/engineering/implement/SKILL.md"
-      },
-      {
-        "title": "Improve Codebase Architecture",
-        "rel": "skills-engineering-improve-codebase-architecture-SKILL",
-        "sourceRel": "skills/engineering/improve-codebase-architecture/SKILL.md"
-      },
-      {
-        "title": "Logic Prototype",
-        "rel": "skills-engineering-prototype-LOGIC",
-        "sourceRel": "skills/engineering/prototype/LOGIC.md"
-      },
-      {
-        "title": "Prototype",
-        "rel": "skills-engineering-prototype-SKILL",
-        "sourceRel": "skills/engineering/prototype/SKILL.md"
-      },
-      {
-        "title": "UI Prototype",
-        "rel": "skills-engineering-prototype-UI",
-        "sourceRel": "skills/engineering/prototype/UI.md"
-      },
-      {
-        "title": "Engineering",
-        "rel": "skills-engineering-README",
-        "sourceRel": "skills/engineering/README.md"
-      },
-      {
-        "title": "Matt Pocock Skills（工程技能库）",
-        "rel": "skills-engineering-research-SKILL",
-        "sourceRel": "skills/engineering/research/SKILL.md"
-      },
-      {
-        "title": "Matt Pocock Skills（工程技能库）",
-        "rel": "skills-engineering-resolving-merge-conflicts-SKILL",
-        "sourceRel": "skills/engineering/resolving-merge-conflicts/SKILL.md"
-      },
-      {
-        "title": "Domain Docs",
-        "rel": "skills-engineering-setup-matt-pocock-skills-domain",
-        "sourceRel": "skills/engineering/setup-matt-pocock-skills/domain.md"
-      },
-      {
-        "title": "Issue tracker: GitHub",
-        "rel": "skills-engineering-setup-matt-pocock-skills-issue-tracker-github",
-        "sourceRel": "skills/engineering/setup-matt-pocock-skills/issue-tracker-github.md"
-      },
-      {
-        "title": "Issue tracker: GitLab",
-        "rel": "skills-engineering-setup-matt-pocock-skills-issue-tracker-gitlab",
-        "sourceRel": "skills/engineering/setup-matt-pocock-skills/issue-tracker-gitlab.md"
-      },
-      {
-        "title": "Issue tracker: Local Markdown",
-        "rel": "skills-engineering-setup-matt-pocock-skills-issue-tracker-local",
-        "sourceRel": "skills/engineering/setup-matt-pocock-skills/issue-tracker-local.md"
-      },
-      {
-        "title": "Setup Matt Pocock's Skills",
-        "rel": "skills-engineering-setup-matt-pocock-skills-SKILL",
-        "sourceRel": "skills/engineering/setup-matt-pocock-skills/SKILL.md"
-      },
-      {
-        "title": "Triage Labels",
-        "rel": "skills-engineering-setup-matt-pocock-skills-triage-labels",
-        "sourceRel": "skills/engineering/setup-matt-pocock-skills/triage-labels.md"
-      },
-      {
-        "title": "When to Mock",
-        "rel": "skills-engineering-tdd-mocking",
-        "sourceRel": "skills/engineering/tdd/mocking.md"
-      },
-      {
-        "title": "Test-Driven Development",
-        "rel": "skills-engineering-tdd-SKILL",
-        "sourceRel": "skills/engineering/tdd/SKILL.md"
-      },
-      {
-        "title": "Good and Bad Tests",
-        "rel": "skills-engineering-tdd-tests",
-        "sourceRel": "skills/engineering/tdd/tests.md"
-      },
-      {
-        "title": "Matt Pocock Skills（工程技能库）",
-        "rel": "skills-engineering-to-spec-SKILL",
-        "sourceRel": "skills/engineering/to-spec/SKILL.md"
-      },
-      {
-        "title": "To Tickets",
-        "rel": "skills-engineering-to-tickets-SKILL",
-        "sourceRel": "skills/engineering/to-tickets/SKILL.md"
-      },
-      {
-        "title": "Writing Agent Briefs",
-        "rel": "skills-engineering-triage-AGENT-BRIEF",
-        "sourceRel": "skills/engineering/triage/AGENT-BRIEF.md"
-      },
-      {
-        "title": "Out-of-Scope Knowledge Base",
-        "rel": "skills-engineering-triage-OUT-OF-SCOPE",
-        "sourceRel": "skills/engineering/triage/OUT-OF-SCOPE.md"
-      },
-      {
-        "title": "Triage",
-        "rel": "skills-engineering-triage-SKILL",
-        "sourceRel": "skills/engineering/triage/SKILL.md"
-      },
-      {
-        "title": "Matt Pocock Skills（工程技能库）",
-        "rel": "skills-engineering-wayfinder-SKILL",
-        "sourceRel": "skills/engineering/wayfinder/SKILL.md"
-      },
-      {
-        "title": "Wizard",
-        "rel": "skills-engineering-wizard-SKILL",
-        "sourceRel": "skills/engineering/wizard/SKILL.md"
-      },
-      {
-        "title": "Matt Pocock Skills（工程技能库）",
-        "rel": "skills-in-progress-claude-handoff-SKILL",
-        "sourceRel": "skills/in-progress/claude-handoff/SKILL.md"
-      },
-      {
-        "title": "Matt Pocock Skills（工程技能库）",
-        "rel": "skills-in-progress-implement-spec-SKILL",
-        "sourceRel": "skills/in-progress/implement-spec/SKILL.md"
-      },
-      {
-        "title": "Matt Pocock Skills（工程技能库）",
-        "rel": "skills-in-progress-loop-me-SKILL",
-        "sourceRel": "skills/in-progress/loop-me/SKILL.md"
-      },
-      {
-        "title": "In Progress",
-        "rel": "skills-in-progress-README",
-        "sourceRel": "skills/in-progress/README.md"
-      },
-      {
-        "title": "Matt Pocock Skills（工程技能库）",
-        "rel": "skills-in-progress-retro-SKILL",
-        "sourceRel": "skills/in-progress/retro/SKILL.md"
-      },
-      {
-        "title": "Setup TS Deep Modules",
-        "rel": "skills-in-progress-setup-ts-deep-modules-SKILL",
-        "sourceRel": "skills/in-progress/setup-ts-deep-modules/SKILL.md"
-      },
-      {
-        "title": "Setup Git Guardrails",
-        "rel": "skills-misc-git-guardrails-claude-code-SKILL",
-        "sourceRel": "skills/misc/git-guardrails-claude-code/SKILL.md"
-      },
-      {
-        "title": "Migrate to Shoehorn",
-        "rel": "skills-misc-migrate-to-shoehorn-SKILL",
-        "sourceRel": "skills/misc/migrate-to-shoehorn/SKILL.md"
-      },
-      {
-        "title": "Misc",
-        "rel": "skills-misc-README",
-        "sourceRel": "skills/misc/README.md"
-      },
-      {
-        "title": "Scaffold Exercises",
-        "rel": "skills-misc-scaffold-exercises-SKILL",
-        "sourceRel": "skills/misc/scaffold-exercises/SKILL.md"
-      },
-      {
-        "title": "Setup Pre-Commit Hooks",
-        "rel": "skills-misc-setup-pre-commit-SKILL",
-        "sourceRel": "skills/misc/setup-pre-commit/SKILL.md"
-      },
-      {
-        "title": "Matt Pocock Skills（工程技能库）",
-        "rel": "skills-productivity-grilling-SKILL",
-        "sourceRel": "skills/productivity/grilling/SKILL.md"
-      },
-      {
-        "title": "Matt Pocock Skills（工程技能库）",
-        "rel": "skills-productivity-handoff-SKILL",
-        "sourceRel": "skills/productivity/handoff/SKILL.md"
-      },
-      {
-        "title": "Productivity",
-        "rel": "skills-productivity-README",
-        "sourceRel": "skills/productivity/README.md"
-      },
-      {
-        "title": "GLOSSARY.md Format",
-        "rel": "skills-productivity-teach-GLOSSARY-FORMAT",
-        "sourceRel": "skills/productivity/teach/GLOSSARY-FORMAT.md"
-      },
-      {
-        "title": "Learning Record Format",
-        "rel": "skills-productivity-teach-LEARNING-RECORD-FORMAT",
-        "sourceRel": "skills/productivity/teach/LEARNING-RECORD-FORMAT.md"
-      },
-      {
-        "title": "MISSION.md Format",
-        "rel": "skills-productivity-teach-MISSION-FORMAT",
-        "sourceRel": "skills/productivity/teach/MISSION-FORMAT.md"
-      },
-      {
-        "title": "RESOURCES.md Format",
-        "rel": "skills-productivity-teach-RESOURCES-FORMAT",
-        "sourceRel": "skills/productivity/teach/RESOURCES-FORMAT.md"
-      },
-      {
-        "title": "Matt Pocock Skills（工程技能库）",
-        "rel": "skills-productivity-teach-SKILL",
-        "sourceRel": "skills/productivity/teach/SKILL.md"
-      },
-      {
-        "title": "Matt Pocock Skills（工程技能库）",
-        "rel": "skills-productivity-to-questionnaire-SKILL",
-        "sourceRel": "skills/productivity/to-questionnaire/SKILL.md"
-      },
-      {
-        "title": "Matt Pocock Skills（工程技能库）",
-        "rel": "skills-productivity-wait-what-SKILL",
-        "sourceRel": "skills/productivity/wait-what/SKILL.md"
-      },
-      {
-        "title": "Skill mechanics",
-        "rel": "skills-productivity-writing-for-agents-SKILL-MECHANICS",
-        "sourceRel": "skills/productivity/writing-for-agents/SKILL-MECHANICS.md"
-      },
-      {
-        "title": "Matt Pocock Skills（工程技能库）",
-        "rel": "skills-productivity-writing-for-agents-SKILL",
-        "sourceRel": "skills/productivity/writing-for-agents/SKILL.md"
       }
     ]
   },
@@ -14679,28 +12232,118 @@ export const courses: Course[] = [
       },
       {
         "title": "Senior Code Reviewer",
-        "rel": "agents",
+        "rel": "agents-code-reviewer",
         "sourceRel": "agents/code-reviewer.md"
       },
       {
+        "title": "Security Auditor",
+        "rel": "agents-security-auditor",
+        "sourceRel": "agents/security-auditor.md"
+      },
+      {
+        "title": "Test Engineer",
+        "rel": "agents-test-engineer",
+        "sourceRel": "agents/test-engineer.md"
+      },
+      {
+        "title": "Web Performance Auditor",
+        "rel": "agents-web-performance-auditor",
+        "sourceRel": "agents/web-performance-auditor.md"
+      },
+      {
+        "title": "agent-skills",
+        "rel": "CLAUDE",
+        "sourceRel": "CLAUDE.md"
+      },
+      {
         "title": "Adoption Guide: New Projects vs. Established Codebases",
-        "rel": "docs",
+        "rel": "docs-adoption-guide",
         "sourceRel": "docs/adoption-guide.md"
       },
       {
-        "title": "Skill Evals",
-        "rel": "evals",
-        "sourceRel": "evals/README.md"
+        "title": "Advanced per-agent configuration",
+        "rel": "docs-advanced-per-agent-configuration",
+        "sourceRel": "docs/advanced-per-agent-configuration.md"
       },
       {
-        "title": "sdd-cache hook",
-        "rel": "hooks",
-        "sourceRel": "hooks/SDD-CACHE.md"
+        "title": "Using agent-skills with Antigravity CLI (agy)",
+        "rel": "docs-antigravity-setup",
+        "sourceRel": "docs/antigravity-setup.md"
       },
       {
-        "title": "Accessibility Checklist",
-        "rel": "references",
-        "sourceRel": "references/accessibility-checklist.md"
+        "title": "Using agent-skills with Codex",
+        "rel": "docs-codex-setup",
+        "sourceRel": "docs/codex-setup.md"
+      },
+      {
+        "title": "Using agent-skills with Command Code",
+        "rel": "docs-commandcode-setup",
+        "sourceRel": "docs/commandcode-setup.md"
+      },
+      {
+        "title": "How agent-skills compares",
+        "rel": "docs-comparison",
+        "sourceRel": "docs/comparison.md"
+      },
+      {
+        "title": "Using agent-skills with GitHub Copilot CLI",
+        "rel": "docs-copilot-cli-setup",
+        "sourceRel": "docs/copilot-cli-setup.md"
+      },
+      {
+        "title": "Using agent-skills with GitHub Copilot",
+        "rel": "docs-copilot-setup",
+        "sourceRel": "docs/copilot-setup.md"
+      },
+      {
+        "title": "Using agent-skills with Cursor",
+        "rel": "docs-cursor-setup",
+        "sourceRel": "docs/cursor-setup.md"
+      },
+      {
+        "title": "Developer Onboarding",
+        "rel": "docs-developer-onboarding",
+        "sourceRel": "docs/developer-onboarding.md"
+      },
+      {
+        "title": "Using agent-skills with Gemini CLI",
+        "rel": "docs-gemini-cli-setup",
+        "sourceRel": "docs/gemini-cli-setup.md"
+      },
+      {
+        "title": "Getting Started with agent-skills",
+        "rel": "docs-getting-started",
+        "sourceRel": "docs/getting-started.md"
+      },
+      {
+        "title": "OpenCode Setup",
+        "rel": "docs-opencode-setup",
+        "sourceRel": "docs/opencode-setup.md"
+      },
+      {
+        "title": "Skill Anatomy",
+        "rel": "docs-skill-anatomy",
+        "sourceRel": "docs/skill-anatomy.md"
+      },
+      {
+        "title": "Using agent-skills with Windsurf",
+        "rel": "docs-windsurf-setup",
+        "sourceRel": "docs/windsurf-setup.md"
+      },
+      {
+        "title": "URL shortener service brief",
+        "rel": "evals-fixtures-api-and-interface-design-service-brief",
+        "sourceRel": "evals/fixtures/api-and-interface-design/service-brief.md"
+      },
+      {
+        "title": "Signup reproduction",
+        "rel": "evals-fixtures-browser-testing-with-devtools",
+        "sourceRel": "evals/fixtures/browser-testing-with-devtools/README.md"
+      },
+      {
+        "title": "Session context audit",
+        "rel": "evals-fixtures-context-engineering-context-audit",
+        "sourceRel": "evals/fixtures/context-engineering/context-audit.md"
       }
     ]
   },
@@ -14734,9 +12377,109 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
+        "title": "Superpowers — Contributor Guidelines",
+        "rel": "CLAUDE",
+        "sourceRel": "CLAUDE.md"
+      },
+      {
+        "title": "OpenCode Support Design",
+        "rel": "docs-plans-2025-11-22-opencode-support-design",
+        "sourceRel": "docs/plans/2025-11-22-opencode-support-design.md"
+      },
+      {
+        "title": "OpenCode Support Implementation Plan",
+        "rel": "docs-plans-2025-11-22-opencode-support-implementation",
+        "sourceRel": "docs/plans/2025-11-22-opencode-support-implementation.md"
+      },
+      {
+        "title": "Skills Improvements from User Feedback",
+        "rel": "docs-plans-2025-11-28-skills-improvements-from-user-feedback",
+        "sourceRel": "docs/plans/2025-11-28-skills-improvements-from-user-feedback.md"
+      },
+      {
         "title": "Porting Superpowers to a New Harness",
-        "rel": "docs",
+        "rel": "docs-porting-to-a-new-harness",
         "sourceRel": "docs/porting-to-a-new-harness.md"
+      },
+      {
+        "title": "Superpowers for Kimi Code",
+        "rel": "docs-README.kimi",
+        "sourceRel": "docs/README.kimi.md"
+      },
+      {
+        "title": "Superpowers for OpenCode",
+        "rel": "docs-README.opencode",
+        "sourceRel": "docs/README.opencode.md"
+      },
+      {
+        "title": "Document Review System Implementation Plan",
+        "rel": "docs-superpowers-plans-2026-01-22-document-review-system",
+        "sourceRel": "docs/superpowers/plans/2026-01-22-document-review-system.md"
+      },
+      {
+        "title": "Visual Brainstorming Refactor Implementation Plan",
+        "rel": "docs-superpowers-plans-2026-02-19-visual-brainstorming-refactor",
+        "sourceRel": "docs/superpowers/plans/2026-02-19-visual-brainstorming-refactor.md"
+      },
+      {
+        "title": "Zero-Dependency Brainstorm Server Implementation Plan",
+        "rel": "docs-superpowers-plans-2026-03-11-zero-dep-brainstorm-server",
+        "sourceRel": "docs/superpowers/plans/2026-03-11-zero-dep-brainstorm-server.md"
+      },
+      {
+        "title": "Codex App Compatibility Implementation Plan",
+        "rel": "docs-superpowers-plans-2026-03-23-codex-app-compatibility",
+        "sourceRel": "docs/superpowers/plans/2026-03-23-codex-app-compatibility.md"
+      },
+      {
+        "title": "Worktree Rototill Implementation Plan",
+        "rel": "docs-superpowers-plans-2026-04-06-worktree-rototill",
+        "sourceRel": "docs/superpowers/plans/2026-04-06-worktree-rototill.md"
+      },
+      {
+        "title": "Lift drill into superpowers as evals/ — implementation plan",
+        "rel": "docs-superpowers-plans-2026-05-06-lift-drill-into-evals",
+        "sourceRel": "docs/superpowers/plans/2026-05-06-lift-drill-into-evals.md"
+      },
+      {
+        "title": "Pi Extension and Evals Implementation Plan",
+        "rel": "docs-superpowers-plans-2026-05-07-pi-extension-and-evals",
+        "sourceRel": "docs/superpowers/plans/2026-05-07-pi-extension-and-evals.md"
+      },
+      {
+        "title": "SDD Task-Scoped Review Dispatch Implementation Plan",
+        "rel": "docs-superpowers-plans-2026-06-09-sdd-task-scoped-review-dispatch",
+        "sourceRel": "docs/superpowers/plans/2026-06-09-sdd-task-scoped-review-dispatch.md"
+      },
+      {
+        "title": "Visual Brainstorming Companion — Issue & Change Catalog",
+        "rel": "docs-superpowers-plans-2026-06-09-visual-companion-issues",
+        "sourceRel": "docs/superpowers/plans/2026-06-09-visual-companion-issues.md"
+      },
+      {
+        "title": "Visual Companion Final Hardening Fixup Implementation Plan",
+        "rel": "docs-superpowers-plans-2026-06-11-visual-companion-final-hardening-fixup",
+        "sourceRel": "docs/superpowers/plans/2026-06-11-visual-companion-final-hardening-fixup.md"
+      },
+      {
+        "title": "SDD Plan-Scoped Workspace Implementation Plan",
+        "rel": "docs-superpowers-plans-2026-07-06-sdd-plan-scoped-workspace",
+        "sourceRel": "docs/superpowers/plans/2026-07-06-sdd-plan-scoped-workspace.md"
+      },
+      {
+        "title": "SDD Fix-Loop Redesign Implementation Plan",
+        "rel": "docs-superpowers-plans-2026-07-15-sdd-fix-loop-redesign",
+        "sourceRel": "docs/superpowers/plans/2026-07-15-sdd-fix-loop-redesign.md"
+      },
+      {
+        "title": "Codex Efficiency Fixes Implementation Plan",
+        "rel": "docs-superpowers-plans-2026-07-30-codex-efficiency-fixes",
+        "sourceRel": "docs/superpowers/plans/2026-07-30-codex-efficiency-fixes.md"
+      },
+      {
+        "title": "Hermes Version-Bump Wiring Implementation Plan",
+        "rel": "docs-superpowers-plans-2026-08-06-hermes-version-bump-wiring",
+        "sourceRel": "docs/superpowers/plans/2026-08-06-hermes-version-bump-wiring.md"
       }
     ]
   },
@@ -14770,14 +12513,119 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
+        "title": "Superpowers — 贡献者指南",
+        "rel": "CLAUDE",
+        "sourceRel": "CLAUDE.md"
+      },
+      {
         "title": "Superpowers 中文版 — Aider 安装指南",
-        "rel": "docs",
+        "rel": "docs-README.aider",
         "sourceRel": "docs/README.aider.md"
       },
       {
-        "title": "superpowers-zh 官网",
-        "rel": "site",
-        "sourceRel": "site/README.md"
+        "title": "Superpowers 中文版 — Antigravity 安装指南",
+        "rel": "docs-README.antigravity",
+        "sourceRel": "docs/README.antigravity.md"
+      },
+      {
+        "title": "Superpowers 中文版 — Claw Code 安装指南",
+        "rel": "docs-README.claw",
+        "sourceRel": "docs/README.claw.md"
+      },
+      {
+        "title": "Superpowers 中文版 — Cline 安装指南",
+        "rel": "docs-README.cline",
+        "sourceRel": "docs/README.cline.md"
+      },
+      {
+        "title": "华为云码道 CodeArts 使用指南",
+        "rel": "docs-README.codearts",
+        "sourceRel": "docs/README.codearts.md"
+      },
+      {
+        "title": "CodeBuddy 使用指南",
+        "rel": "docs-README.codebuddy",
+        "sourceRel": "docs/README.codebuddy.md"
+      },
+      {
+        "title": "Superpowers 中文版 — Codex CLI 安装指南",
+        "rel": "docs-README.codex",
+        "sourceRel": "docs/README.codex.md"
+      },
+      {
+        "title": "Superpowers 中文版 — Crush 安装指南",
+        "rel": "docs-README.crush",
+        "sourceRel": "docs/README.crush.md"
+      },
+      {
+        "title": "Superpowers 中文版 — DeepSeek Harness 安装指南",
+        "rel": "docs-README.deepseek-harness",
+        "sourceRel": "docs/README.deepseek-harness.md"
+      },
+      {
+        "title": "Superpowers 中文版 — DeerFlow 安装指南",
+        "rel": "docs-README.deerflow",
+        "sourceRel": "docs/README.deerflow.md"
+      },
+      {
+        "title": "Superpowers 中文版 — Gemini CLI 安装指南",
+        "rel": "docs-README.gemini-cli",
+        "sourceRel": "docs/README.gemini-cli.md"
+      },
+      {
+        "title": "Superpowers 中文版 — Hermes Agent 安装指南",
+        "rel": "docs-README.hermes",
+        "sourceRel": "docs/README.hermes.md"
+      },
+      {
+        "title": "Superpowers 中文版 — Kilo Code 安装指南",
+        "rel": "docs-README.kilocode",
+        "sourceRel": "docs/README.kilocode.md"
+      },
+      {
+        "title": "Superpowers 中文版 · Kimi Code 指南",
+        "rel": "docs-README.kimi",
+        "sourceRel": "docs/README.kimi.md"
+      },
+      {
+        "title": "Superpowers 中文版 — Kiro 安装指南",
+        "rel": "docs-README.kiro",
+        "sourceRel": "docs/README.kiro.md"
+      },
+      {
+        "title": "Superpowers 中文版 — OpenClaw 安装指南",
+        "rel": "docs-README.openclaw",
+        "sourceRel": "docs/README.openclaw.md"
+      },
+      {
+        "title": "Superpowers 中文版 — OpenCode 安装指南",
+        "rel": "docs-README.opencode",
+        "sourceRel": "docs/README.opencode.md"
+      },
+      {
+        "title": "Superpowers 中文版 · Pi 指南",
+        "rel": "docs-README.pi",
+        "sourceRel": "docs/README.pi.md"
+      },
+      {
+        "title": "Superpowers 中文版 — Qoder 安装指南",
+        "rel": "docs-README.qoder",
+        "sourceRel": "docs/README.qoder.md"
+      },
+      {
+        "title": "Superpowers 中文版 — Qwen Code 安装指南",
+        "rel": "docs-README.qwen",
+        "sourceRel": "docs/README.qwen.md"
+      },
+      {
+        "title": "Superpowers 中文版 — Reasonix 安装指南",
+        "rel": "docs-README.reasonix",
+        "sourceRel": "docs/README.reasonix.md"
+      },
+      {
+        "title": "Superpowers 中文版 — TRAE CN（国内版）安装指南",
+        "rel": "docs-README.trae-cn",
+        "sourceRel": "docs/README.trae-cn.md"
       }
     ]
   },
@@ -14812,8 +12660,49 @@ export const courses: Course[] = [
       },
       {
         "title": "Agent Skill Index",
+        "rel": "README.zh-CN",
+        "sourceRel": "README.zh-CN.md"
+      },
+      {
+        "title": "Agent Skill Index",
+        "rel": "README.zh-TW",
+        "sourceRel": "README.zh-TW.md"
+      },
+      {
+        "title": "Agent Skill Index",
         "rel": "website",
         "sourceRel": "website/README.md"
+      }
+    ]
+  },
+  {
+    "id": "10-context-memory/awesome-agent-skills-voltagent",
+    "volume": "10-context-memory",
+    "local": "awesome-agent-skills-voltagent",
+    "title": "Awesome Agent Skills（Agent 技能清单）",
+    "kind": "技能与配置库",
+    "category": "技能、配置与模板",
+    "tier": 3,
+    "license": "MIT",
+    "licenseLabel": "可转载",
+    "lang": "英文",
+    "publishable": true,
+    "repo": "VoltAgent/awesome-agent-skills",
+    "site": null,
+    "commit": "8873794bcb26ff5dcf9cd518c87cf5638ca44b92",
+    "entry": "README.md",
+    "featured": false,
+    "sourceUrl": "https://github.com/VoltAgent/awesome-agent-skills",
+    "docs": [
+      {
+        "title": "课程首页",
+        "rel": "index",
+        "sourceRel": ""
+      },
+      {
+        "title": "Awesome Agent Skills",
+        "rel": "overview",
+        "sourceRel": "README.md"
       }
     ]
   },
@@ -14848,8 +12737,59 @@ export const courses: Course[] = [
       },
       {
         "title": "Role: []",
-        "rel": "examples",
+        "rel": "examples-base",
         "sourceRel": "examples/base.md"
+      },
+      {
+        "title": "Wonderful Prompts",
+        "rel": "examples-GPT_Generate_A_book",
+        "sourceRel": "examples/GPT_Generate_A_book.md"
+      },
+      {
+        "title": "Wonderful Prompts",
+        "rel": "examples-gpt_math_solver",
+        "sourceRel": "examples/gpt_math_solver.md"
+      },
+      {
+        "title": "Wonderful Prompts",
+        "rel": "examples-gpt4_CAN_coder",
+        "sourceRel": "examples/gpt4_CAN_coder.md"
+      },
+      {
+        "title": "Wonderful Prompts",
+        "rel": "examples-super_experts_gpt",
+        "sourceRel": "examples/super_experts_gpt.md"
+      }
+    ]
+  },
+  {
+    "id": "10-context-memory/awesome-mcp-zh",
+    "volume": "10-context-memory",
+    "local": "awesome-mcp-zh",
+    "title": "Awesome MCP 中文资源",
+    "kind": "清单与速查",
+    "category": "速查清单与索引",
+    "tier": 3,
+    "license": "MIT",
+    "licenseLabel": "可转载",
+    "lang": "中文",
+    "publishable": true,
+    "repo": "yzfly/Awesome-MCP-ZH",
+    "site": null,
+    "commit": "616590af2bc94fcd98dd0b88a0b740ad6cb86a9d",
+    "entry": "README.md",
+    "featured": false,
+    "sourceUrl": "https://github.com/yzfly/Awesome-MCP-ZH",
+    "docs": [
+      {
+        "title": "课程首页",
+        "rel": "index",
+        "sourceRel": ""
+      },
+      {
+        "title": "Awesome-MCP-ZH",
+        "rel": "overview",
+        "sourceRel": "README.md"
       }
     ]
   },
@@ -14884,13 +12824,113 @@ export const courses: Course[] = [
       },
       {
         "title": "GSD（Get Shit Done）工作流文档",
-        "rel": "agents",
+        "rel": "agents-gsd-advisor-researcher",
         "sourceRel": "agents/gsd-advisor-researcher.md"
       },
       {
-        "title": "GSD Documentation",
-        "rel": "docs",
-        "sourceRel": "docs/README.md"
+        "title": "GSD（Get Shit Done）工作流文档",
+        "rel": "agents-gsd-assumptions-analyzer",
+        "sourceRel": "agents/gsd-assumptions-analyzer.md"
+      },
+      {
+        "title": "GSD（Get Shit Done）工作流文档",
+        "rel": "agents-gsd-code-fixer",
+        "sourceRel": "agents/gsd-code-fixer.md"
+      },
+      {
+        "title": "GSD（Get Shit Done）工作流文档",
+        "rel": "agents-gsd-code-reviewer",
+        "sourceRel": "agents/gsd-code-reviewer.md"
+      },
+      {
+        "title": "GSD（Get Shit Done）工作流文档",
+        "rel": "agents-gsd-codebase-mapper",
+        "sourceRel": "agents/gsd-codebase-mapper.md"
+      },
+      {
+        "title": "GSD（Get Shit Done）工作流文档",
+        "rel": "agents-gsd-debug-session-manager",
+        "sourceRel": "agents/gsd-debug-session-manager.md"
+      },
+      {
+        "title": "GSD（Get Shit Done）工作流文档",
+        "rel": "agents-gsd-debugger",
+        "sourceRel": "agents/gsd-debugger.md"
+      },
+      {
+        "title": "GSD（Get Shit Done）工作流文档",
+        "rel": "agents-gsd-doc-classifier",
+        "sourceRel": "agents/gsd-doc-classifier.md"
+      },
+      {
+        "title": "GSD（Get Shit Done）工作流文档",
+        "rel": "agents-gsd-doc-synthesizer",
+        "sourceRel": "agents/gsd-doc-synthesizer.md"
+      },
+      {
+        "title": "GSD（Get Shit Done）工作流文档",
+        "rel": "agents-gsd-doc-verifier",
+        "sourceRel": "agents/gsd-doc-verifier.md"
+      },
+      {
+        "title": "GSD（Get Shit Done）工作流文档",
+        "rel": "agents-gsd-doc-writer",
+        "sourceRel": "agents/gsd-doc-writer.md"
+      },
+      {
+        "title": "GSD（Get Shit Done）工作流文档",
+        "rel": "agents-gsd-domain-researcher",
+        "sourceRel": "agents/gsd-domain-researcher.md"
+      },
+      {
+        "title": "GSD（Get Shit Done）工作流文档",
+        "rel": "agents-gsd-eval-auditor",
+        "sourceRel": "agents/gsd-eval-auditor.md"
+      },
+      {
+        "title": "GSD（Get Shit Done）工作流文档",
+        "rel": "agents-gsd-eval-planner",
+        "sourceRel": "agents/gsd-eval-planner.md"
+      },
+      {
+        "title": "GSD（Get Shit Done）工作流文档",
+        "rel": "agents-gsd-executor",
+        "sourceRel": "agents/gsd-executor.md"
+      },
+      {
+        "title": "GSD（Get Shit Done）工作流文档",
+        "rel": "agents-gsd-framework-selector",
+        "sourceRel": "agents/gsd-framework-selector.md"
+      },
+      {
+        "title": "GSD（Get Shit Done）工作流文档",
+        "rel": "agents-gsd-integration-checker",
+        "sourceRel": "agents/gsd-integration-checker.md"
+      },
+      {
+        "title": "GSD Intel Updater",
+        "rel": "agents-gsd-intel-updater",
+        "sourceRel": "agents/gsd-intel-updater.md"
+      },
+      {
+        "title": "GSD（Get Shit Done）工作流文档",
+        "rel": "agents-gsd-nyquist-auditor",
+        "sourceRel": "agents/gsd-nyquist-auditor.md"
+      },
+      {
+        "title": "GSD（Get Shit Done）工作流文档",
+        "rel": "agents-gsd-pattern-mapper",
+        "sourceRel": "agents/gsd-pattern-mapper.md"
+      },
+      {
+        "title": "GSD（Get Shit Done）工作流文档",
+        "rel": "agents-gsd-phase-researcher",
+        "sourceRel": "agents/gsd-phase-researcher.md"
+      },
+      {
+        "title": "GSD（Get Shit Done）工作流文档",
+        "rel": "agents-gsd-plan-checker",
+        "sourceRel": "agents/gsd-plan-checker.md"
       }
     ]
   },
@@ -14934,14 +12974,24 @@ export const courses: Course[] = [
         "sourceRel": "agent-with-mcp-memory/README.md"
       },
       {
+        "title": "Enterprise-grade, agentic RAG over complex real-world docs",
+        "rel": "agentic_rag_deepseek",
+        "sourceRel": "agentic_rag_deepseek/README.md"
+      },
+      {
         "title": "Agentic RAG using CrewAI",
         "rel": "agentic_rag",
         "sourceRel": "agentic_rag/README.md"
       },
       {
-        "title": "Enterprise-grade, agentic RAG over complex real-world docs",
-        "rel": "agentic_rag_deepseek",
-        "sourceRel": "agentic_rag_deepseek/README.md"
+        "title": "AI News generator",
+        "rel": "ai_news_generator",
+        "sourceRel": "ai_news_generator/README.md"
+      },
+      {
+        "title": "Zep Documentation Data Directory",
+        "rel": "ai-avatar-demo-data",
+        "sourceRel": "ai-avatar-demo/data/README.md"
       },
       {
         "title": "AI Avatar Demo powered by Zep",
@@ -14962,11 +13012,6 @@ export const courses: Course[] = [
         "title": "AI Podcast Generator",
         "rel": "ai-podcast-generator",
         "sourceRel": "ai-podcast-generator/README.md"
-      },
-      {
-        "title": "AI News generator",
-        "rel": "ai_news_generator",
-        "sourceRel": "ai_news_generator/README.md"
       },
       {
         "title": "Amazon Product Analysis MCP Server",
@@ -14992,6 +13037,16 @@ export const courses: Course[] = [
         "title": "Biotech Agentic Analyst",
         "rel": "biotech-agentic-analyst",
         "sourceRel": "biotech-agentic-analyst/README.md"
+      },
+      {
+        "title": "{{crewname}} Crew",
+        "rel": "book-writer-flow-book_flow-book_writing_flow",
+        "sourceRel": "book-writer-flow/book_flow/book_writing_flow/README.md"
+      },
+      {
+        "title": "Chapter 1: Introduction to Astronomy in 2025",
+        "rel": "book-writer-flow-book_flow-book_writing_flow-src-book",
+        "sourceRel": "book-writer-flow/book_flow/book_writing_flow/src/book.md"
       },
       {
         "title": "Book Writer flow using DeepMind's Gemma 3, CrewAI and BrightData",
@@ -15022,21 +13077,6 @@ export const courses: Course[] = [
         "title": "Chat with Code using Qwen3-Coder",
         "rel": "chat-with-code",
         "sourceRel": "chat-with-code/README.md"
-      },
-      {
-        "title": "Code Generation Model Comparison using Opik",
-        "rel": "code-model-comparison",
-        "sourceRel": "code-model-comparison/README.md"
-      },
-      {
-        "title": "MultiModal RAG with ColiVara and DeepSeek-Janus-Pro",
-        "rel": "Colivara-deepseek-website-RAG",
-        "sourceRel": "Colivara-deepseek-website-RAG/README.md"
-      },
-      {
-        "title": "Content writing agentic-workflow",
-        "rel": "content_planner_flow",
-        "sourceRel": "content_planner_flow/README.md"
       }
     ]
   },
@@ -15070,9 +13110,119 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
+        "title": "Awesome OpenClaw 使用案例",
+        "rel": "README_CN",
+        "sourceRel": "README_CN.md"
+      },
+      {
+        "title": "Awesome OpenClaw 활용 사례",
+        "rel": "README_KR",
+        "sourceRel": "README_KR.md"
+      },
+      {
         "title": "AI Video Editing via Chat",
-        "rel": "usecases",
+        "rel": "usecases-ai-video-editing",
         "sourceRel": "usecases/ai-video-editing.md"
+      },
+      {
+        "title": "OpenClaw as Desktop Cowork (AionUi) — Remote Rescue & Multi-Agent Hub",
+        "rel": "usecases-aionui-cowork-desktop",
+        "sourceRel": "usecases/aionui-cowork-desktop.md"
+      },
+      {
+        "title": "arXiv Paper Reader",
+        "rel": "usecases-arxiv-paper-reader",
+        "sourceRel": "usecases/arxiv-paper-reader.md"
+      },
+      {
+        "title": "Autonomous Educational Game Development Pipeline",
+        "rel": "usecases-autonomous-game-dev-pipeline",
+        "sourceRel": "usecases/autonomous-game-dev-pipeline.md"
+      },
+      {
+        "title": "Autonomous Project Management with Subagents",
+        "rel": "usecases-autonomous-project-management",
+        "sourceRel": "usecases/autonomous-project-management.md"
+      },
+      {
+        "title": "Multi-Agent Content Factory",
+        "rel": "usecases-content-factory",
+        "sourceRel": "usecases/content-factory.md"
+      },
+      {
+        "title": "Custom Morning Brief",
+        "rel": "usecases-custom-morning-brief",
+        "sourceRel": "usecases/custom-morning-brief.md"
+      },
+      {
+        "title": "Daily Reddit Digest",
+        "rel": "usecases-daily-reddit-digest",
+        "sourceRel": "usecases/daily-reddit-digest.md"
+      },
+      {
+        "title": "Daily YouTube Digest",
+        "rel": "usecases-daily-youtube-digest",
+        "sourceRel": "usecases/daily-youtube-digest.md"
+      },
+      {
+        "title": "Dynamic Dashboard with Sub-agent Spawning",
+        "rel": "usecases-dynamic-dashboard",
+        "sourceRel": "usecases/dynamic-dashboard.md"
+      },
+      {
+        "title": "AI-Powered Earnings Tracker",
+        "rel": "usecases-earnings-tracker",
+        "sourceRel": "usecases/earnings-tracker.md"
+      },
+      {
+        "title": "Event Guest Confirmation",
+        "rel": "usecases-event-guest-confirmation",
+        "sourceRel": "usecases/event-guest-confirmation.md"
+      },
+      {
+        "title": "Family Calendar Aggregation & Household Assistant",
+        "rel": "usecases-family-calendar-household-assistant",
+        "sourceRel": "usecases/family-calendar-household-assistant.md"
+      },
+      {
+        "title": "Habit Tracker & Accountability Coach",
+        "rel": "usecases-habit-tracker-accountability-coach",
+        "sourceRel": "usecases/habit-tracker-accountability-coach.md"
+      },
+      {
+        "title": "Health & Symptom Tracker",
+        "rel": "usecases-health-symptom-tracker",
+        "sourceRel": "usecases/health-symptom-tracker.md"
+      },
+      {
+        "title": "HF Papers Research Discovery",
+        "rel": "usecases-hf-papers-research-discovery",
+        "sourceRel": "usecases/hf-papers-research-discovery.md"
+      },
+      {
+        "title": "Inbox De-clutter",
+        "rel": "usecases-inbox-declutter",
+        "sourceRel": "usecases/inbox-declutter.md"
+      },
+      {
+        "title": "Personal Knowledge Base (RAG)",
+        "rel": "usecases-knowledge-base-rag",
+        "sourceRel": "usecases/knowledge-base-rag.md"
+      },
+      {
+        "title": "LaTeX Paper Writing",
+        "rel": "usecases-latex-paper-writing",
+        "sourceRel": "usecases/latex-paper-writing.md"
+      },
+      {
+        "title": "Local CRM Framework with DenchClaw",
+        "rel": "usecases-local-crm-framework",
+        "sourceRel": "usecases/local-crm-framework.md"
+      },
+      {
+        "title": "Market Research & Product Factory",
+        "rel": "usecases-market-research-product-factory",
+        "sourceRel": "usecases/market-research-product-factory.md"
       }
     ]
   },
@@ -15106,9 +13256,19 @@ export const courses: Course[] = [
         "sourceRel": "00-chat-loop/README.md"
       },
       {
+        "title": "步骤 00：只是一个聊天循环",
+        "rel": "00-chat-loop-README.zh",
+        "sourceRel": "00-chat-loop/README.zh.md"
+      },
+      {
         "title": "Step 01: Give your agent a tool.",
         "rel": "01-tools",
         "sourceRel": "01-tools/README.md"
+      },
+      {
+        "title": "步骤 01：给你的智能体一个工具",
+        "rel": "01-tools-README.zh",
+        "sourceRel": "01-tools/README.zh.md"
       },
       {
         "title": "Step 02: Skills",
@@ -15116,9 +13276,19 @@ export const courses: Course[] = [
         "sourceRel": "02-skills/README.md"
       },
       {
+        "title": "步骤 02：技能",
+        "rel": "02-skills-README.zh",
+        "sourceRel": "02-skills/README.zh.md"
+      },
+      {
         "title": "Step 03: Persistence",
         "rel": "03-persistence",
         "sourceRel": "03-persistence/README.md"
+      },
+      {
+        "title": "步骤 03：持久化",
+        "rel": "03-persistence-README.zh",
+        "sourceRel": "03-persistence/README.zh.md"
       },
       {
         "title": "Step 04: Slash Commands",
@@ -15126,9 +13296,19 @@ export const courses: Course[] = [
         "sourceRel": "04-slash-commands/README.md"
       },
       {
+        "title": "步骤 04：斜杠命令",
+        "rel": "04-slash-commands-README.zh",
+        "sourceRel": "04-slash-commands/README.zh.md"
+      },
+      {
         "title": "Step 05: Compaction",
         "rel": "05-compaction",
         "sourceRel": "05-compaction/README.md"
+      },
+      {
+        "title": "步骤 05：压缩",
+        "rel": "05-compaction-README.zh",
+        "sourceRel": "05-compaction/README.zh.md"
       },
       {
         "title": "Step 06: Web Tools",
@@ -15136,9 +13316,19 @@ export const courses: Course[] = [
         "sourceRel": "06-web-tools/README.md"
       },
       {
+        "title": "步骤 06：Web 工具",
+        "rel": "06-web-tools-README.zh",
+        "sourceRel": "06-web-tools/README.zh.md"
+      },
+      {
         "title": "Step 07: Event-Driven Architecture",
         "rel": "07-event-driven",
         "sourceRel": "07-event-driven/README.md"
+      },
+      {
+        "title": "步骤 07：事件驱动架构",
+        "rel": "07-event-driven-README.zh",
+        "sourceRel": "07-event-driven/README.zh.md"
       }
     ]
   },
@@ -15173,8 +13363,118 @@ export const courses: Course[] = [
       },
       {
         "title": "AI & LLMs",
-        "rel": "categories",
+        "rel": "categories-ai-and-llms",
         "sourceRel": "categories/ai-and-llms.md"
+      },
+      {
+        "title": "Apple Apps & Services",
+        "rel": "categories-apple-apps-and-services",
+        "sourceRel": "categories/apple-apps-and-services.md"
+      },
+      {
+        "title": "Browser & Automation",
+        "rel": "categories-browser-and-automation",
+        "sourceRel": "categories/browser-and-automation.md"
+      },
+      {
+        "title": "Calendar & Scheduling",
+        "rel": "categories-calendar-and-scheduling",
+        "sourceRel": "categories/calendar-and-scheduling.md"
+      },
+      {
+        "title": "Clawdbot Tools",
+        "rel": "categories-clawdbot-tools",
+        "sourceRel": "categories/clawdbot-tools.md"
+      },
+      {
+        "title": "CLI Utilities",
+        "rel": "categories-cli-utilities",
+        "sourceRel": "categories/cli-utilities.md"
+      },
+      {
+        "title": "Coding Agents & IDEs",
+        "rel": "categories-coding-agents-and-ides",
+        "sourceRel": "categories/coding-agents-and-ides.md"
+      },
+      {
+        "title": "Communication",
+        "rel": "categories-communication",
+        "sourceRel": "categories/communication.md"
+      },
+      {
+        "title": "Data & Analytics",
+        "rel": "categories-data-and-analytics",
+        "sourceRel": "categories/data-and-analytics.md"
+      },
+      {
+        "title": "DevOps & Cloud",
+        "rel": "categories-devops-and-cloud",
+        "sourceRel": "categories/devops-and-cloud.md"
+      },
+      {
+        "title": "Gaming",
+        "rel": "categories-gaming",
+        "sourceRel": "categories/gaming.md"
+      },
+      {
+        "title": "Git & GitHub",
+        "rel": "categories-git-and-github",
+        "sourceRel": "categories/git-and-github.md"
+      },
+      {
+        "title": "Health & Fitness",
+        "rel": "categories-health-and-fitness",
+        "sourceRel": "categories/health-and-fitness.md"
+      },
+      {
+        "title": "Image & Video Generation",
+        "rel": "categories-image-and-video-generation",
+        "sourceRel": "categories/image-and-video-generation.md"
+      },
+      {
+        "title": "iOS & macOS Development",
+        "rel": "categories-ios-and-macos-development",
+        "sourceRel": "categories/ios-and-macos-development.md"
+      },
+      {
+        "title": "Marketing & Sales",
+        "rel": "categories-marketing-and-sales",
+        "sourceRel": "categories/marketing-and-sales.md"
+      },
+      {
+        "title": "Media & Streaming",
+        "rel": "categories-media-and-streaming",
+        "sourceRel": "categories/media-and-streaming.md"
+      },
+      {
+        "title": "Moltbook",
+        "rel": "categories-moltbook",
+        "sourceRel": "categories/moltbook.md"
+      },
+      {
+        "title": "Notes & PKM",
+        "rel": "categories-notes-and-pkm",
+        "sourceRel": "categories/notes-and-pkm.md"
+      },
+      {
+        "title": "PDF & Documents",
+        "rel": "categories-pdf-and-documents",
+        "sourceRel": "categories/pdf-and-documents.md"
+      },
+      {
+        "title": "Personal Development",
+        "rel": "categories-personal-development",
+        "sourceRel": "categories/personal-development.md"
+      },
+      {
+        "title": "Productivity & Tasks",
+        "rel": "categories-productivity-and-tasks",
+        "sourceRel": "categories/productivity-and-tasks.md"
+      },
+      {
+        "title": "Search & Research",
+        "rel": "categories-search-and-research",
+        "sourceRel": "categories/search-and-research.md"
       }
     ]
   },
@@ -15209,38 +13509,118 @@ export const courses: Course[] = [
       },
       {
         "title": "附录A 命令速查表",
-        "rel": "appendix",
+        "rel": "appendix-A-command-reference",
         "sourceRel": "appendix/A-command-reference.md"
       },
       {
+        "title": "附录B 常用Skills清单",
+        "rel": "appendix-B-skills-catalog",
+        "sourceRel": "appendix/B-skills-catalog.md"
+      },
+      {
+        "title": "附录C API服务商对比",
+        "rel": "appendix-C-api-comparison",
+        "sourceRel": "appendix/C-api-comparison.md"
+      },
+      {
+        "title": "附录E 社区资源导航",
+        "rel": "appendix-D-community-resources",
+        "sourceRel": "appendix/D-community-resources.md"
+      },
+      {
+        "title": "附录E：常见访问题速查",
+        "rel": "appendix-E-common-problems",
+        "sourceRel": "appendix/E-common-problems.md"
+      },
+      {
+        "title": "附录C 配置模板与自定义参考",
+        "rel": "appendix-E-config-templates",
+        "sourceRel": "appendix/E-config-templates.md"
+      },
+      {
+        "title": "第17章：避坑指南与最佳实践",
+        "rel": "appendix-F-best-practices",
+        "sourceRel": "appendix/F-best-practices.md"
+      },
+      {
+        "title": "🔥🔥🔥云上OpenClaw实操视频教程合集",
+        "rel": "appendix-F-video-tutorials",
+        "sourceRel": "appendix/F-video-tutorials.md"
+      },
+      {
+        "title": "附录G：文档链接验证",
+        "rel": "appendix-G-links-validation",
+        "sourceRel": "appendix/G-links-validation.md"
+      },
+      {
+        "title": "附录H：配置文件模板和示例",
+        "rel": "appendix-H-config-templates",
+        "sourceRel": "appendix/H-config-templates.md"
+      },
+      {
+        "title": "附录 I：思考题参考答案",
+        "rel": "appendix-I-thinking-questions-answers",
+        "sourceRel": "appendix/I-thinking-questions-answers.md"
+      },
+      {
+        "title": "飞书Bot配置检查清单",
+        "rel": "appendix-J-feishu-checklist",
+        "sourceRel": "appendix/J-feishu-checklist.md"
+      },
+      {
+        "title": "附录J：OpenClaw深度解析（腾讯技术工程）",
+        "rel": "appendix-J-tencent-deep-dive",
+        "sourceRel": "appendix/J-tencent-deep-dive.md"
+      },
+      {
         "title": "OpenClaw API Key 配置完整指南",
-        "rel": "docs",
-        "sourceRel": "docs/api-key-config-guide.md"
+        "rel": "appendix-K-api-key-config-guide",
+        "sourceRel": "appendix/K-api-key-config-guide.md"
       },
       {
-        "title": "OpenClaw 示例文件",
-        "rel": "examples",
-        "sourceRel": "examples/README.md"
+        "title": "OpenClaw 配置文件结构完整指南",
+        "rel": "appendix-L-config-file-structure",
+        "sourceRel": "appendix/L-config-file-structure.md"
       },
       {
-        "title": "CSDN 附录发布布清单",
-        "rel": "reports",
-        "sourceRel": "reports/APPENDIX_PUBLISH_CHECKLIST.md"
+        "title": "🔍 搜索功能使用指南",
+        "rel": "appendix-M-search-guide",
+        "sourceRel": "appendix/M-search-guide.md"
       },
       {
-        "title": "CSDN 自动发文工具",
-        "rel": "scripts",
-        "sourceRel": "scripts/README.md"
+        "title": "OpenClaw Skills 生态说明",
+        "rel": "appendix-N-skills-ecosystem",
+        "sourceRel": "appendix/N-skills-ecosystem.md"
       },
       {
-        "title": "成本计算器",
-        "rel": "tutorials",
-        "sourceRel": "tutorials/COST-CALCULATOR.md"
+        "title": "第1章：认识OpenClaw",
+        "rel": "docs-01-basics-01-introduction",
+        "sourceRel": "docs/01-basics/01-introduction.md"
       },
       {
-        "title": "OpenClaw v2026.3.12 版本更新解读",
-        "rel": "updates",
-        "sourceRel": "updates/2026-03-13-v2026.3.12.md"
+        "title": "第2章节：环境搭建",
+        "rel": "docs-01-basics-02-installation",
+        "sourceRel": "docs/01-basics/02-installation.md"
+      },
+      {
+        "title": "第3章节：快速上手",
+        "rel": "docs-01-basics-03-quick-start",
+        "sourceRel": "docs/01-basics/03-quick-start.md"
+      },
+      {
+        "title": "第4章节：本地文件管理",
+        "rel": "docs-02-core-features-04-file-management",
+        "sourceRel": "docs/02-core-features/04-file-management.md"
+      },
+      {
+        "title": "第5章节 知识库与第二大脑（Active Memory / Memory Wiki / 研究归档）",
+        "rel": "docs-02-core-features-05-knowledge-management",
+        "sourceRel": "docs/02-core-features/05-knowledge-management.md"
+      },
+      {
+        "title": "第6章节 日程与任务管理",
+        "rel": "docs-02-core-features-06-schedule-management",
+        "sourceRel": "docs/02-core-features/06-schedule-management.md"
       }
     ]
   },
@@ -15275,8 +13655,18 @@ export const courses: Course[] = [
       },
       {
         "title": "MineContext（火山引擎个人上下文助手）",
-        "rel": "config",
+        "rel": "config-quick_start_default",
         "sourceRel": "config/quick_start_default.md"
+      },
+      {
+        "title": "macOS Window Capture",
+        "rel": "frontend-externals-python-window_capture",
+        "sourceRel": "frontend/externals/python/window_capture/README.md"
+      },
+      {
+        "title": "macOS Window Inspector",
+        "rel": "frontend-externals-python-window_inspector",
+        "sourceRel": "frontend/externals/python/window_inspector/README.md"
       },
       {
         "title": "MineContext",
@@ -15284,9 +13674,19 @@ export const courses: Course[] = [
         "sourceRel": "frontend/README.md"
       },
       {
+        "title": "👋🏻 MineContext 是什么",
+        "rel": "README_zh",
+        "sourceRel": "README_zh.md"
+      },
+      {
         "title": "MineContext 架构概览",
-        "rel": "src",
+        "rel": "src-architecture-overview-zh",
         "sourceRel": "src/architecture-overview-zh.md"
+      },
+      {
+        "title": "MineContext Architecture Overview",
+        "rel": "src-architecture-overview",
+        "sourceRel": "src/architecture-overview.md"
       }
     ]
   },
@@ -15320,9 +13720,19 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
+        "title": "CURSOR.md",
+        "rel": "CURSOR",
+        "sourceRel": "CURSOR.md"
+      },
+      {
         "title": "Qclaw（秋芝2046）",
-        "rel": "docs",
+        "rel": "docs-good-first-issues",
         "sourceRel": "docs/good-first-issues.md"
+      },
+      {
+        "title": "Qclaw（秋芝2046）",
+        "rel": "README.en",
+        "sourceRel": "README.en.md"
       }
     ]
   },
@@ -15356,9 +13766,64 @@ export const courses: Course[] = [
         "sourceRel": "README.md"
       },
       {
+        "title": "Introduction to Edge AI for Beginners",
+        "rel": "introduction",
+        "sourceRel": "introduction.md"
+      },
+      {
+        "title": "Section 1: EdgeAI Fundamentals",
+        "rel": "Module01-01.EdgeAIFundamentals",
+        "sourceRel": "Module01/01.EdgeAIFundamentals.md"
+      },
+      {
+        "title": "Section 2: Real-World Case Studies",
+        "rel": "Module01-02.RealWorldCaseStudies",
+        "sourceRel": "Module01/02.RealWorldCaseStudies.md"
+      },
+      {
+        "title": "Section 3: Practical Implementation Guide",
+        "rel": "Module01-03.PracticalImplementationGuide",
+        "sourceRel": "Module01/03.PracticalImplementationGuide.md"
+      },
+      {
+        "title": "Section 4: Edge AI Deployment Hardware Platforms",
+        "rel": "Module01-04.EdgeDeployment",
+        "sourceRel": "Module01/04.EdgeDeployment.md"
+      },
+      {
         "title": "Chapter 01: Transforming AI Deployment for the Edge",
         "rel": "Module01",
         "sourceRel": "Module01/README.md"
+      },
+      {
+        "title": "Section 1: Microsoft Phi Model Family Fundamentals",
+        "rel": "Module02-01.PhiFamily",
+        "sourceRel": "Module02/01.PhiFamily.md"
+      },
+      {
+        "title": "Section 2: Qwen Family Fundamentals",
+        "rel": "Module02-02.QwenFamily",
+        "sourceRel": "Module02/02.QwenFamily.md"
+      },
+      {
+        "title": "Section 3: Gemma Family Fundamentals",
+        "rel": "Module02-03.GemmaFamily",
+        "sourceRel": "Module02/03.GemmaFamily.md"
+      },
+      {
+        "title": "Section 4: BitNET Family Fundamentals",
+        "rel": "Module02-04.BitNETFamily",
+        "sourceRel": "Module02/04.BitNETFamily.md"
+      },
+      {
+        "title": "Section 5: Microsoft Mu Model Fundamentals",
+        "rel": "Module02-05.mumodel",
+        "sourceRel": "Module02/05.mumodel.md"
+      },
+      {
+        "title": "Section 6: Phi-Silica - Optimized On-Device Language Models",
+        "rel": "Module02-06.phisilica",
+        "sourceRel": "Module02/06.phisilica.md"
       },
       {
         "title": "Chapter 02: Small Language Model Foundations",
@@ -15366,44 +13831,54 @@ export const courses: Course[] = [
         "sourceRel": "Module02/README.md"
       },
       {
+        "title": "Section 1: SLM Advanced Learning - Foundations and Optimization",
+        "rel": "Module03-01.SLMAdvancedLearning",
+        "sourceRel": "Module03/01.SLMAdvancedLearning.md"
+      },
+      {
+        "title": "Section 2: Local Environment Deployment - Privacy-First Solutions",
+        "rel": "Module03-02.DeployingSLMinLocalEnv",
+        "sourceRel": "Module03/02.DeployingSLMinLocalEnv.md"
+      },
+      {
+        "title": "Containerized Cloud Deployment - Production-Scale Solutions",
+        "rel": "Module03-03.DeployingSLMinCloud",
+        "sourceRel": "Module03/03.DeployingSLMinCloud.md"
+      },
+      {
         "title": "Chapter 03: Deploying Small Language Models (SLMs)",
         "rel": "Module03",
         "sourceRel": "Module03/README.md"
       },
       {
-        "title": "Chapter 04 : Model Format Conversion and Quantization - Chapter Overview",
-        "rel": "Module04",
-        "sourceRel": "Module04/README.md"
+        "title": "Section 1: Model Format Conversion and Quantization Foundations",
+        "rel": "Module04-01.Introduce",
+        "sourceRel": "Module04/01.Introduce.md"
       },
       {
-        "title": "Chapter 05 : SLMOps - A Comprehensive Guide to Small Language Model Operations",
-        "rel": "Module05",
-        "sourceRel": "Module05/README.md"
+        "title": "Section 2 : Llama.cpp Implementation Guide",
+        "rel": "Module04-02.Llamacpp",
+        "sourceRel": "Module04/02.Llamacpp.md"
       },
       {
-        "title": "Chapter 06 : SLM Agentic Systems: A Comprehensive Overview",
-        "rel": "Module06",
-        "sourceRel": "Module06/README.md"
+        "title": "Section 3 : Microsoft Olive Optimization Suite",
+        "rel": "Module04-03.MicrosoftOlive",
+        "sourceRel": "Module04/03.MicrosoftOlive.md"
       },
       {
-        "title": "Chapter 07 : EdgeAI Samples",
-        "rel": "Module07",
-        "sourceRel": "Module07/README.md"
+        "title": "Section 4 : OpenVINO Toolkit Optimization Suite",
+        "rel": "Module04-04.openvino",
+        "sourceRel": "Module04/04.openvino.md"
       },
       {
-        "title": "Module 08: Hands on With Microsoft Foundry Local - Complete Developer Toolkit",
-        "rel": "Module08",
-        "sourceRel": "Module08/README.md"
+        "title": "Section 4 : Apple MLX Framework Deep Dive",
+        "rel": "Module04-05.AppleMLX",
+        "sourceRel": "Module04/05.AppleMLX.md"
       },
       {
-        "title": "EdgeAI for Beginners - Workshop",
-        "rel": "Workshop",
-        "sourceRel": "Workshop/README.md"
-      },
-      {
-        "title": "🎙️ The AI Podcast Studio Workshop",
-        "rel": "WorkshopForAgentic",
-        "sourceRel": "WorkshopForAgentic/README.md"
+        "title": "Section 6: Edge AI Development Workflow Synthesis",
+        "rel": "Module04-06.workflow-synthesis",
+        "sourceRel": "Module04/06.workflow-synthesis.md"
       }
     ]
   }
@@ -15559,7 +14034,7 @@ export const sources: SourceEntry[] = [
     "commit": "1fdf4ba2279979507c122db6403d2b7f97cc1e36",
     "entryUrl": "https://github.com/WangRongsheng/awesome-LLM-resources/blob/1fdf4ba2279979507c122db6403d2b7f97cc1e36/README.md",
     "publishable": true,
-    "ported": false
+    "ported": true
   },
   {
     "id": "04-work/how-to-use-dify",
@@ -16794,7 +15269,7 @@ export const sources: SourceEntry[] = [
     "commit": "4c0c1281f01c6e66a68c0db06b9cfd79277dcfa3",
     "entryUrl": "https://github.com/VoltAgent/awesome-ai-agent-papers/blob/4c0c1281f01c6e66a68c0db06b9cfd79277dcfa3/README.md",
     "publishable": true,
-    "ported": false
+    "ported": true
   },
   {
     "id": "08-agents/openai-agents-python",
@@ -17535,7 +16010,7 @@ export const sources: SourceEntry[] = [
     "commit": "37949780c144e37df692e3d669051a21fec24f20",
     "entryUrl": "https://github.com/xai-org/grok-build/blob/37949780c144e37df692e3d669051a21fec24f20/README.md",
     "publishable": true,
-    "ported": false
+    "ported": true
   },
   {
     "id": "09-harness/ecc",
@@ -17896,7 +16371,7 @@ export const sources: SourceEntry[] = [
     "commit": "8873794bcb26ff5dcf9cd518c87cf5638ca44b92",
     "entryUrl": "https://github.com/VoltAgent/awesome-agent-skills/blob/8873794bcb26ff5dcf9cd518c87cf5638ca44b92/README.md",
     "publishable": true,
-    "ported": false
+    "ported": true
   },
   {
     "id": "10-context-memory/wonderful-prompts",
@@ -17934,7 +16409,7 @@ export const sources: SourceEntry[] = [
     "commit": "616590af2bc94fcd98dd0b88a0b740ad6cb86a9d",
     "entryUrl": "https://github.com/yzfly/Awesome-MCP-ZH/blob/616590af2bc94fcd98dd0b88a0b740ad6cb86a9d/README.md",
     "publishable": true,
-    "ported": false
+    "ported": true
   },
   {
     "id": "10-context-memory/get-shit-done",

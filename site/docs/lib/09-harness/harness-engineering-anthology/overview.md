@@ -41,7 +41,7 @@ retrievable context, examples, tools, and executable constraints.
 [systems-level framing]: https://x.com/_lopopolo/status/2028982729145237775
 [\[un\]prompted conference]: https://www.youtube.com/watch?v=U2O14Jd3MBU
 [Make the Repository Teach the Agent]:
-  https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/docs/domain-modeling/README.md#make-nonfunctional-requirements-recoverable
+  /lib/09-harness/harness-engineering-anthology/docs-domain-modeling#make-nonfunctional-requirements-recoverable
 
 Because [work is an iterative game], a harness can make organizational judgment
 cumulative. Lessons from accepted work, corrections, failures, and user
@@ -50,7 +50,7 @@ later trajectories. Over time, that feedback loop can [make coherence
 cumulative] across agent-maintained artifacts.
 
 [work is an iterative game]: https://x.com/_lopopolo/status/2052858891835465813
-[make coherence cumulative]: https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/docs/durable-systems/README.md#make-coherence-cumulative
+[make coherence cumulative]: /lib/09-harness/harness-engineering-anthology/docs-durable-systems#make-coherence-cumulative
 
 [Code is how an agent uses a computer]. That internal action language can
 produce reliable domain outcomes for people who never review the implementation
@@ -59,7 +59,7 @@ authority, and proof.
 
 [Code is how an agent uses a computer]:
   https://x.com/_lopopolo/status/2043495733375230026
-[last-mile deployment]: https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/docs/last-mile-deployment/README.md
+[last-mile deployment]: /lib/09-harness/harness-engineering-anthology/docs-last-mile-deployment
 
 General model weights contain only the visible tip of an organization’s
 process-data iceberg. Below the waterline sit the current operational state,
@@ -76,8 +76,8 @@ direct reading, start with the [thesis index]. For an application, choose from
 the [playbooks].
 
 [`AGENTS.md`]: https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/AGENTS.md
-[thesis index]: /lib/09-harness/harness-engineering-anthology/docs
-[playbooks]: /lib/09-harness/harness-engineering-anthology/playbooks
+[thesis index]: https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/docs/README.md
+[playbooks]: https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/playbooks/README.md
 
 ## Sources and related work
 
@@ -89,11 +89,11 @@ the [playbooks].
 [“Harness engineering: leveraging Codex in an agent-first world”]:
   https://openai.com/index/harness-engineering/
 [fetch helper]: https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/sources/scripts/fetch_openai.py
-[Source library]: /lib/09-harness/harness-engineering-anthology/sources
-[Influences and alternate framings]: https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/docs/lineage/README.md
+[Source library]: https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/sources/README.md
+[Influences and alternate framings]: /lib/09-harness/harness-engineering-anthology/docs-lineage
 
 Repository-authored material is licensed under [CC BY 4.0]. See [`COPYING.md`]
 for attribution and rights in source material.
 
 [CC BY 4.0]: https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/LICENSE/README.md
-[`COPYING.md`]: https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/COPYING.md
+[`COPYING.md`]: /lib/09-harness/harness-engineering-anthology/COPYING

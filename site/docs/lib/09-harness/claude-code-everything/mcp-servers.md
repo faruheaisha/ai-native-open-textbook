@@ -24,10 +24,10 @@ This directory contains comprehensive documentation for the four core Model Cont
 
 | Server | Purpose | Key Features | Documentation |
 |--------|---------|--------------|---------------|
-| **Serena** | Semantic code intelligence | • Wide language support via LSP<br>• Symbol-level navigation<br>• Project indexing<br>• Context-aware editing | [serena.md](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/mcp-servers/serena.md) |
-| **Sequential Thinking** | Advanced reasoning | • Problem decomposition<br>• Multi-step planning<br>• Structured analysis<br>• Decision support | [sequential-thinking.md](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/mcp-servers/sequential-thinking.md) |
-| **Memory** | Persistent context | • Cross-session memory<br>• Project preferences<br>• Historical context<br>• Knowledge retention | [memory.md](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/mcp-servers/memory.md) |
-| **Playwright** | Browser automation | • Web scraping<br>• Automated testing<br>• Screenshot capture<br>• Device emulation | [playwright.md](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/mcp-servers/playwright.md) |
+| **Serena** | Semantic code intelligence | • Wide language support via LSP<br>• Symbol-level navigation<br>• Project indexing<br>• Context-aware editing | [serena.md](/lib/09-harness/claude-code-everything/mcp-servers-serena) |
+| **Sequential Thinking** | Advanced reasoning | • Problem decomposition<br>• Multi-step planning<br>• Structured analysis<br>• Decision support | [sequential-thinking.md](/lib/09-harness/claude-code-everything/mcp-servers-sequential-thinking) |
+| **Memory** | Persistent context | • Cross-session memory<br>• Project preferences<br>• Historical context<br>• Knowledge retention | [memory.md](/lib/09-harness/claude-code-everything/mcp-servers-memory) |
+| **Playwright** | Browser automation | • Web scraping<br>• Automated testing<br>• Screenshot capture<br>• Device emulation | [playwright.md](/lib/09-harness/claude-code-everything/mcp-servers-playwright) |
 
 > **Tip:** Keep only 3–6 MCP servers active at a time — every connected server adds tools to Claude's context.
 
@@ -230,10 +230,10 @@ playwright: ✓ Connected
 
 ### Server-Specific Documentation
 
-- **[Serena](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/mcp-servers/serena.md)** - For code-heavy projects
-- **[Sequential Thinking](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/mcp-servers/sequential-thinking.md)** - For complex problem-solving
-- **[Memory](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/mcp-servers/memory.md)** - For persistent project knowledge
-- **[Playwright](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/mcp-servers/playwright.md)** - For web automation needs
+- **[Serena](/lib/09-harness/claude-code-everything/mcp-servers-serena)** - For code-heavy projects
+- **[Sequential Thinking](/lib/09-harness/claude-code-everything/mcp-servers-sequential-thinking)** - For complex problem-solving
+- **[Memory](/lib/09-harness/claude-code-everything/mcp-servers-memory)** - For persistent project knowledge
+- **[Playwright](/lib/09-harness/claude-code-everything/mcp-servers-playwright)** - For web automation needs
 
 ---
 

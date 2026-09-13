@@ -67,7 +67,7 @@ Learn the complete journey of AI agent development, from basic usage to advanced
 | [Lab 3: AWS Service Integration](https://github.com/aws-samples/sample-getting-started-with-strands-agents-course/blob/6f0b46cd565312a34cdb9a6c72cbff7f3fa80c1d/course-1/Lab3/README.md) | AWS service tool usage (S3, DynamoDB) | 15 min |  |
 | [Lab 4: MCP & Tools](https://github.com/aws-samples/sample-getting-started-with-strands-agents-course/blob/6f0b46cd565312a34cdb9a6c72cbff7f3fa80c1d/course-1/Lab4/README.md) | Model Context Protocol, tool creation | 14 min |  |
 | [Lab 5: A2A Communication](https://github.com/aws-samples/sample-getting-started-with-strands-agents-course/blob/6f0b46cd565312a34cdb9a6c72cbff7f3fa80c1d/course-1/Lab5/README.md) | Multi-agent systems & communication | 11 min |  |
-| [Lab 6: Observability](https://github.com/aws-samples/sample-getting-started-with-strands-agents-course/blob/6f0b46cd565312a34cdb9a6c72cbff7f3fa80c1d/course-1/Lab6/README.md) | LangFuse, RAGAS, performance monitoring | 21 min |  |
+| [Lab 6: Observability](/lib/08-agents/strands-agents-course/course-1-Lab6) | LangFuse, RAGAS, performance monitoring | 21 min |  |
 
 ### Course 1 Lab Details
 
@@ -144,12 +144,12 @@ A comprehensive advanced course for building production-ready AI agents using th
 
 | 🧪 Lab | 📝 What You'll Learn | ⏱️ Time | 📊 Level |
 |--------|---------------------|---------|----------|
-| [Lab 1: Overview of Strands Agents](https://github.com/aws-samples/sample-getting-started-with-strands-agents-course/blob/6f0b46cd565312a34cdb9a6c72cbff7f3fa80c1d/course-2/Lab1/README.md) | Fundamental agentic AI concepts, agent lifecycle | 13 min |  |
-| [Lab 2: Model Providers](https://github.com/aws-samples/sample-getting-started-with-strands-agents-course/blob/6f0b46cd565312a34cdb9a6c72cbff7f3fa80c1d/course-2/Lab2/README.md) | Multi-provider configuration, metrics analysis | 12 min |  |
-| [Lab 3: Advanced Response Processing](https://github.com/aws-samples/sample-getting-started-with-strands-agents-course/blob/6f0b46cd565312a34cdb9a6c72cbff7f3fa80c1d/course-2/Lab3/README.md) | Hooks, lifecycle management, async patterns | 14 min |  |
-| [Lab 4: Tools & MCP Integration](https://github.com/aws-samples/sample-getting-started-with-strands-agents-course/blob/6f0b46cd565312a34cdb9a6c72cbff7f3fa80c1d/course-2/Lab4/README.md) | Custom tools, MCP servers, self-extending agents | 19 min |  |
-| [Lab 5: Session Management](https://github.com/aws-samples/sample-getting-started-with-strands-agents-course/blob/6f0b46cd565312a34cdb9a6c72cbff7f3fa80c1d/course-2/Lab5/README.md) | Conversation strategies, state persistence | 11 min |  |
-| [Lab 6: Memory Persistent Agents](https://github.com/aws-samples/sample-getting-started-with-strands-agents-course/blob/6f0b46cd565312a34cdb9a6c72cbff7f3fa80c1d/course-2/Lab6/README.md) | Long-term memory, FAISS, OpenSearch, Mem0 | 15 min |  |
+| [Lab 1: Overview of Strands Agents](/lib/08-agents/strands-agents-course/course-2-Lab1) | Fundamental agentic AI concepts, agent lifecycle | 13 min |  |
+| [Lab 2: Model Providers](/lib/08-agents/strands-agents-course/course-2-Lab2) | Multi-provider configuration, metrics analysis | 12 min |  |
+| [Lab 3: Advanced Response Processing](/lib/08-agents/strands-agents-course/course-2-Lab3) | Hooks, lifecycle management, async patterns | 14 min |  |
+| [Lab 4: Tools & MCP Integration](/lib/08-agents/strands-agents-course/course-2-Lab4) | Custom tools, MCP servers, self-extending agents | 19 min |  |
+| [Lab 5: Session Management](/lib/08-agents/strands-agents-course/course-2-Lab5) | Conversation strategies, state persistence | 11 min |  |
+| [Lab 6: Memory Persistent Agents](/lib/08-agents/strands-agents-course/course-2-Lab6) | Long-term memory, FAISS, OpenSearch, Mem0 | 15 min |  |
 
 ### Course 2 Lab Details
 

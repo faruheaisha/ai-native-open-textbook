@@ -85,7 +85,7 @@ cd claude-code-from-scratch
 npm install && npm run build
 ```
 
-**Python 版**（需要 Python 3.11+，[详细说明](/lib/09-harness/claude-code-from-scratch/python)）
+**Python 版**（需要 Python 3.11+，[详细说明](https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/python/README.md)）
 
 ```bash
 cd python
@@ -294,6 +294,8 @@ steps/              # 每章可运行的最小实现（单一真源 → 生成�
 ## 💬 更多交流
 
 **加入 AI Agent 工坊 交流群**
+
+<img src="https://gh-proxy.com/https://raw.githubusercontent.com/Windy3f3f3f3f/claude-code-from-scratch/0b452360866433fde0dc77cd37ada9d303546592/assets/qq.jpg" width="280" alt="QQ 群二维码" />
 
 QQ 群号：**1090526244**
 

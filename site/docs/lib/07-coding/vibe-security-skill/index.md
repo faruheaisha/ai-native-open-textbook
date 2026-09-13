@@ -19,6 +19,15 @@ An agent skill that helps secure vibe-coded apps - or honestly any app - from co
 
 ## 课时
 
-1. [Vibe Security（AI 编码安全技能）](vibe-security.md)
+1. [AI / LLM Integration Security](vibe-security-references-ai-integration.md)
+2. [Authentication & Authorization](vibe-security-references-authentication.md)
+3. [Data Access & Input Validation](vibe-security-references-data-access.md)
+4. [Database Access Control](vibe-security-references-database-security.md)
+5. [Deployment Security](vibe-security-references-deployment.md)
+6. [Mobile Security (React Native / Expo)](vibe-security-references-mobile.md)
+7. [Payment Security (Stripe)](vibe-security-references-payments.md)
+8. [Rate Limiting & Abuse Prevention](vibe-security-references-rate-limiting.md)
+9. [Secrets & Environment Variables](vibe-security-references-secrets-and-env.md)
+10. [Vibe Security（AI 编码安全技能）](vibe-security-SKILL.md)
 
-开始学习 → [Vibe Security（AI 编码安全技能）](vibe-security.md)
+开始学习 → [AI / LLM Integration Security](vibe-security-references-ai-integration.md)

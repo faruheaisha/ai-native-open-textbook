@@ -462,6 +462,7 @@ In this process, the `_auto_detect_provider` method successfully infers the `pro
 Compared to the basic implementation in Section 4.1.3, the current HelloAgentsLLM has the following significant advantages:
 
   <p>Table 7.1 Comparison of HelloAgentLLM Different Version Features</p>
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/7-figures/table-01.png" alt="" width="90%"/>
 
 As shown in Table 7.1 above, this evolution embodies an important principle of framework design: **start simple, gradually improve**. We enhanced functional completeness while maintaining interface simplicity.
 
@@ -1287,6 +1288,7 @@ print(f"Math-specific Agent result: {math_result}")
 As shown in Table 7.2, through this framework refactoring, we not only maintained the core functionality of various Agent paradigms from Chapter 4 but also significantly improved code organization, maintainability, and extensibility. All Agents now share a unified infrastructure while maintaining their respective characteristics and advantages.
 
   <p>Table 7.2 Comparison of Agent Implementations Across Chapters</p>
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/7-figures/table-02.png" alt="" width="90%"/>
 
 ### 7.4.5 FunctionCallAgent
 
@@ -1614,6 +1616,7 @@ if __name__ == "__main__":
 
 Through this simplified mathematical calculation tool case, we learned how to quickly develop custom tools: write a simple calculation function, register it through ToolRegistry, and then integrate it with SimpleAgent. For more intuitive observation, Figure 7.1 is provided here to clearly understand the code's running logic.
 
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/7-figures/01.png" alt="" width="90%"/>
   <p>Figure 7.1 SimpleAgent Workflow Based on HelloAgents</p>
 
 ### 7.5.3 Multi-Source Search Tool

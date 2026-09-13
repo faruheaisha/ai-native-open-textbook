@@ -16,7 +16,7 @@ zh: ""
 
 通过统一的 OpenAI 兼容协议接入 GPT-5、Claude Opus 4.7、Gemini 3.1、Sora 2、Suno 等主流大模型 API 的实战教程仓库。
 
-🇬🇧 [English](https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/README_EN.md)
+🇬🇧 [English](/lib/07-coding/ai-api-integration/README_EN)
 
 ## 🎬 实战案例
 
@@ -39,10 +39,10 @@ zh: ""
 
 | 环节 | 用到的能力 |
 |---|---|
-| OCR 提取合同字段 | [视觉理解](https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/docs/modalities/vision.md) |
+| OCR 提取合同字段 | [视觉理解](/lib/07-coding/ai-api-integration/docs-modalities-vision) |
 | 工商接口比对（差异检测、逐位核对） | Function Calling |
-| 输出报告图 | [图片生成](https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/docs/modalities/image-generation.md) |
-| 多轮串起来 | [文本对话](https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/docs/modalities/text-models.md) |
+| 输出报告图 | [图片生成](/lib/07-coding/ai-api-integration/docs-modalities-image-generation) |
+| 多轮串起来 | [文本对话](/lib/07-coding/ai-api-integration/docs-modalities-text-models) |
 
 **关键数据：** 8-10 分钟 → 36 秒（−90%）／ 5 工具 → 1 指令（−80%）
 
@@ -67,9 +67,9 @@ zh: ""
 
 | 环节 | 用到的能力 |
 |---|---|
-| 语音转写 | [音频](https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/docs/modalities/audio.md) |
-| 长文本整理成稿件 | [文本对话](https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/docs/modalities/text-models.md)（`claude-opus-4-7` / `gpt-5`） |
-| 自动出封面 / 配图 | [图片生成](https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/docs/modalities/image-generation.md) |
+| 语音转写 | [音频](/lib/07-coding/ai-api-integration/docs-modalities-audio) |
+| 长文本整理成稿件 | [文本对话](/lib/07-coding/ai-api-integration/docs-modalities-text-models)（`claude-opus-4-7` / `gpt-5`） |
+| 自动出封面 / 配图 | [图片生成](/lib/07-coding/ai-api-integration/docs-modalities-image-generation) |
 | 多账号定时调度 | Function Calling + Cron |
 
 **适用场景：** 日更账号 / MCN 批量生产 / 品牌内容矩阵 / 垂直知识沉淀
@@ -168,7 +168,7 @@ curl http://xdhdancer.top/v1/chat/completions \
 
 ## 模型清单
 
-精选条目，完整列表见 [docs/modalities/text-models.md](https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/docs/modalities/text-models.md)。
+精选条目，完整列表见 [docs/modalities/text-models.md](/lib/07-coding/ai-api-integration/docs-modalities-text-models)。
 
 | 模型 ID | 厂商 | 上下文 | 用途 |
 |---|---|---|---|
@@ -193,20 +193,20 @@ curl http://xdhdancer.top/v1/chat/completions \
 
 | 工具 | 类型 | 教程 |
 |---|---|---|
-| Cursor | AI 优先的 IDE | [cursor-setup.md](https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/docs/tools/cursor-setup.md) |
-| Cline | VS Code AI 代理插件 | [cline-setup.md](https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/docs/tools/cline-setup.md) |
-| Claude Code | Anthropic 官方 CLI | [claude-code-setup.md](https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/docs/tools/claude-code-setup.md) |
-| ChatBox | 跨平台桌面客户端 | [chatbox-setup.md](https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/docs/tools/chatbox-setup.md) |
-| Dify | 低代码 LLM 工作流 | [dify-setup.md](https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/docs/tools/dify-setup.md) |
-| LobeChat | 自部署 Chat UI | [lobechat-setup.md](https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/docs/tools/lobechat-setup.md) |
-| Open WebUI | 自部署 Web UI | [openwebui-setup.md](https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/docs/tools/openwebui-setup.md) |
-| Continue | VS Code 编程助手 | [continue-setup.md](https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/docs/tools/continue-setup.md) |
-| LangChain | LLM 应用框架 | [langchain-setup.md](https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/docs/tools/langchain-setup.md) |
-| LlamaIndex | RAG / 数据框架 | [llamaindex-setup.md](https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/docs/tools/llamaindex-setup.md) |
+| Cursor | AI 优先的 IDE | [cursor-setup.md](/lib/07-coding/ai-api-integration/docs-tools-cursor-setup) |
+| Cline | VS Code AI 代理插件 | [cline-setup.md](/lib/07-coding/ai-api-integration/docs-tools-cline-setup) |
+| Claude Code | Anthropic 官方 CLI | [claude-code-setup.md](/lib/07-coding/ai-api-integration/docs-tools-claude-code-setup) |
+| ChatBox | 跨平台桌面客户端 | [chatbox-setup.md](/lib/07-coding/ai-api-integration/docs-tools-chatbox-setup) |
+| Dify | 低代码 LLM 工作流 | [dify-setup.md](/lib/07-coding/ai-api-integration/docs-tools-dify-setup) |
+| LobeChat | 自部署 Chat UI | [lobechat-setup.md](/lib/07-coding/ai-api-integration/docs-tools-lobechat-setup) |
+| Open WebUI | 自部署 Web UI | [openwebui-setup.md](/lib/07-coding/ai-api-integration/docs-tools-openwebui-setup) |
+| Continue | VS Code 编程助手 | [continue-setup.md](/lib/07-coding/ai-api-integration/docs-tools-continue-setup) |
+| LangChain | LLM 应用框架 | [langchain-setup.md](/lib/07-coding/ai-api-integration/docs-tools-langchain-setup) |
+| LlamaIndex | RAG / 数据框架 | [llamaindex-setup.md](/lib/07-coding/ai-api-integration/docs-tools-llamaindex-setup) |
 
 ## 多模态教程
 
-[文本对话](https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/docs/modalities/text-models.md) · [代码生成](https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/docs/modalities/code-generation.md) · [图片生成](https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/docs/modalities/image-generation.md) · [视频生成](https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/docs/modalities/video-generation.md) · [音频 / 音乐](https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/docs/modalities/audio.md) · [视觉理解](https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/docs/modalities/vision.md) · [Embeddings](https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/docs/modalities/embeddings.md)
+[文本对话](/lib/07-coding/ai-api-integration/docs-modalities-text-models) · [代码生成](/lib/07-coding/ai-api-integration/docs-modalities-code-generation) · [图片生成](/lib/07-coding/ai-api-integration/docs-modalities-image-generation) · [视频生成](/lib/07-coding/ai-api-integration/docs-modalities-video-generation) · [音频 / 音乐](/lib/07-coding/ai-api-integration/docs-modalities-audio) · [视觉理解](/lib/07-coding/ai-api-integration/docs-modalities-vision) · [Embeddings](/lib/07-coding/ai-api-integration/docs-modalities-embeddings)
 
 ## 完整 Demo
 

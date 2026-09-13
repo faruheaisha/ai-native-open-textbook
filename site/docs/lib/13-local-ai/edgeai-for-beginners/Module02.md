@@ -20,7 +20,7 @@ This comprehensive foundational chapter provides an essential exploration of Sma
 
 ## Chapter Architecture and Progressive Learning Framework
 
-### **[Section 1: Microsoft Phi Model Family Fundamentals](https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/Module02/01.PhiFamily.md)**
+### **[Section 1: Microsoft Phi Model Family Fundamentals](/lib/13-local-ai/edgeai-for-beginners/Module02-01.PhiFamily)**
 The opening section introduces Microsoft's groundbreaking Phi model family, demonstrating how compact, efficient models achieve remarkable performance while maintaining significantly reduced computational requirements. This foundational section covers:
 
 - **Design Philosophy Evolution**: Comprehensive exploration of Microsoft's Phi family development from Phi-1 through Phi-4, emphasizing the revolutionary "textbook quality" training methodology and inference-time scaling
@@ -33,7 +33,7 @@ This section establishes the fundamental principle that model efficiency and cap
 
 <div class="tb-zh"><p>本节确立一条基本原则：通过创新的训练方法和架构优化，模型的效率与能力可以并存。</p></div>
 
-### **[Section 2: Qwen Family Fundamentals](https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/Module02/02.QwenFamily.md)**
+### **[Section 2: Qwen Family Fundamentals](/lib/13-local-ai/edgeai-for-beginners/Module02-02.QwenFamily)**
 The second section transitions to Alibaba's comprehensive open-source approach, demonstrating how transparent, accessible models can achieve competitive performance while maintaining deployment flexibility. Key focus areas include:
 
 - **Open Source Excellence**: Comprehensive exploration of the Qwen evolution from Qwen 1.0 through Qwen3, emphasizing massive-scale training (36 trillion tokens) and multilingual capabilities across 119 languages
@@ -46,7 +46,7 @@ This section emphasizes the democratization of AI technology through open-source
 
 <div class="tb-zh"><p>本节强调通过开源可及性推动 AI 技术的民主化，同时保持有竞争力的性能表现。</p></div>
 
-### **[Section 3: Gemma Family Fundamentals](https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/Module02/03.GemmaFamily.md)**
+### **[Section 3: Gemma Family Fundamentals](/lib/13-local-ai/edgeai-for-beginners/Module02-03.GemmaFamily)**
 The third section explores Google's comprehensive approach to open-source multimodal AI, showcasing how research-driven development can deliver accessible yet powerful AI capabilities. This section covers:
 
 - **Research-Driven Innovation**: Comprehensive coverage of Gemma 3 and Gemma 3n architectures, featuring breakthrough Per-Layer Embeddings (PLE) technology and mobile-first optimization strategies
@@ -59,7 +59,7 @@ This section demonstrates how cutting-edge research can be translated into pract
 
 <div class="tb-zh"><p>本节展示如何把前沿研究转化为实用、易得的 AI 方案，从而催生新类别的应用。</p></div>
 
-### **[Section 4: BitNET Family Fundamentals](https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/Module02/04.BitNETFamily.md)**
+### **[Section 4: BitNET Family Fundamentals](/lib/13-local-ai/edgeai-for-beginners/Module02-04.BitNETFamily)**
 The fourth section presents Microsoft's revolutionary approach to 1-bit quantization, representing the frontier of ultra-efficient AI deployment. This advanced section covers:
 
 - **Revolutionary Quantization**: Comprehensive exploration of 1.58-bit quantization using ternary weights {-1, 0, +1}, achieving 1.37x to 6.17x speedups with 55-82% energy reduction
@@ -72,7 +72,7 @@ This section demonstrates how revolutionary quantization techniques can dramatic
 
 <div class="tb-zh"><p>本节展示革命性的量化技术如何在保持有竞争力性能的同时，大幅提升 AI 效率。</p></div>
 
-### **[Section 5: Microsoft Mu Model Fundamentals](https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/Module02/05.mumodel.md)**
+### **[Section 5: Microsoft Mu Model Fundamentals](/lib/13-local-ai/edgeai-for-beginners/Module02-05.mumodel)**
 The fifth section explores Microsoft's groundbreaking Mu model, designed specifically for on-device deployment in Windows. This specialized section covers:
 
 - **Device-First Architecture**: Comprehensive exploration of Microsoft's specialized on-device model built into Windows 11 devices
@@ -85,7 +85,7 @@ This section demonstrates how specialized models can enhance Windows 11 operatin
 
 <div class="tb-zh"><p>本节展示专用模型如何在保持隐私与性能的同时，增强 Windows 11 操作系统的功能。</p></div>
 
-### **[Section 6: Phi-Silica Fundamentals](https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/Module02/06.phisilica.md)**
+### **[Section 6: Phi-Silica Fundamentals](/lib/13-local-ai/edgeai-for-beginners/Module02-06.phisilica)**
 The concluding section examines Microsoft's Phi-Silica, an ultra-efficient language model built into Windows 11 for Copilot+ PCs with NPU hardware. This advanced section covers:
 
 - **Exceptional Efficiency Metrics**: Comprehensive analysis of Phi-Silica's remarkable performance capabilities, delivering 650 tokens per second with only 1.5 watts of power consumption

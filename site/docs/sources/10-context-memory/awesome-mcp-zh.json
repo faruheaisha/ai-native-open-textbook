@@ -1,0 +1,18 @@
+{
+  "id": "10-context-memory/awesome-mcp-zh",
+  "volume": "10-context-memory",
+  "local": "awesome-mcp-zh",
+  "title": "Awesome MCP 中文资源",
+  "kind": "清单与速查",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "中文",
+  "needsTranslation": false,
+  "publishable": true,
+  "repo": "yzfly/Awesome-MCP-ZH",
+  "site": null,
+  "commit": "616590af2bc94fcd98dd0b88a0b740ad6cb86a9d",
+  "entryUrl": "https://github.com/yzfly/Awesome-MCP-ZH/blob/616590af2bc94fcd98dd0b88a0b740ad6cb86a9d/README.md",
+  "docs": 2
+}

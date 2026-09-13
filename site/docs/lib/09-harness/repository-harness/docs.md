@@ -26,7 +26,7 @@ Start with the smallest authoritative surface.
 - `product/`: current product behavior and installation contract.
 - `decisions/`: lasting choices future work must inherit.
 - `plans/`: one durable working-memory document for work that needs it.
-- [`patterns/encoding-invariants.md`](https://github.com/hoangnb24/repository-harness/blob/e765792b635b4d5e3e5fc0578f82f9ca5dea2681/docs/patterns/encoding-invariants.md): turn
+- [`patterns/encoding-invariants.md`](/lib/09-harness/repository-harness/docs-patterns-encoding-invariants): turn
   accepted architecture, reliability, security, and quality rules into native
   mechanical validation.
 - `templates/`: optional decision, plan, runbook, and Harness-improvement

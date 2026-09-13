@@ -101,7 +101,7 @@ Do the first three steps in ChatGPT, Claude.ai, Gemini, or any other chat tool. 
 
 This step gives you a quick read on demand, competitors, and whether the scope looks realistic.
 
-1. Open [`part1-deepresearch.md`](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/part1-deepresearch.md) and **copy all of its contents**.
+1. Open [`part1-deepresearch.md`](/lib/07-coding/vibe-coding-prompt-template/part1-deepresearch) and **copy all of its contents**.
 2. **Paste it** into your preferred AI platform Chat (like Claude.ai, ChatGPT, or Gemini) and press **Enter**.
 3. The AI will ask you a few questions about your idea. Answer them truthfully in the chat.
 4. The AI will generate a comprehensive research document based on your answers.
@@ -116,7 +116,7 @@ Tip: if your chat tool supports web search, source grounding, URL context, or de
 
 This turns the rough idea into a scope you can build against.
 
-1. Copy the contents of [`part2-prd-mvp.md`](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/part2-prd-mvp.md).
+1. Copy the contents of [`part2-prd-mvp.md`](/lib/07-coding/vibe-coding-prompt-template/part2-prd-mvp).
 2. **Option A (Same Chat):** If you kept your chat open, paste the prompt right below the Deep Research output.
 3. **Option B (New Chat):** Start a fresh chat, paste your saved `research-[YourAppName].md` content, and then paste the Part 2 prompt below it.
 4. Press Enter, answer any clarifying questions the AI asks, and let it generate your requirements.
@@ -155,7 +155,7 @@ This step fills out `AGENTS.md` and the supporting docs from your PRD and tech d
    - `docs/TechDesign-[YourAppName]-MVP.md`
    - optional: `docs/research-[YourAppName].md` (or `.txt` for backward compatibility)
 5. Open the AI Chat inside your IDE, type: *"Read [`part4-notes-for-agent.md`](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/part4-notes-for-agent.md), follow its instructions, and set up my workspace."*
-6. The agent should fill the CLI-installed boilerplates (or use the [chat context pack](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/docs/context-pack.md)), generate selected tool configs (`CLAUDE.md`, `.cursor/rules/`, `GEMINI.md`, `.codex/config.toml`, `.agents/skills/`, etc.), and fill placeholders using the files in `docs/`.
+6. The agent should fill the CLI-installed boilerplates (or use the [chat context pack](/lib/07-coding/vibe-coding-prompt-template/docs-context-pack)), generate selected tool configs (`CLAUDE.md`, `.cursor/rules/`, `GEMINI.md`, `.codex/config.toml`, `.agents/skills/`, etc.), and fill placeholders using the files in `docs/`.
 
 Default generated files:
 - `AGENTS.md`
@@ -214,9 +214,9 @@ This repo documents the workflow behind a handful of shipped projects. The goal 
 
 ## Modern AI build paths
 
-The five-step workflow stays the same whether you're building a standard web MVP, an AI product on OpenAI/Vercel/Cloudflare/Google, a local-model setup, or a builder prototype — you just make the target surface explicit in Step 3. See [Modern AI build paths](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/docs/ai/build-paths.md) for the per-path defaults and the exact items to add to your Tech Design, kept current under the [Freshness policy](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/docs/maintenance/freshness-policy.md).
+The five-step workflow stays the same whether you're building a standard web MVP, an AI product on OpenAI/Vercel/Cloudflare/Google, a local-model setup, or a builder prototype — you just make the target surface explicit in Step 3. See [Modern AI build paths](/lib/07-coding/vibe-coding-prompt-template/docs-ai-build-paths) for the per-path defaults and the exact items to add to your Tech Design, kept current under the [Freshness policy](/lib/07-coding/vibe-coding-prompt-template/docs-maintenance-freshness-policy).
 
-For AI product features, use [AI feature patterns](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/docs/ai/feature-patterns.md). For MCP, agent permissions, prompt injection, and provider retention decisions, use [AI agent security](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/docs/ai/agent-security.md). For builder-generated projects, complete the [Builder exit review](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/docs/workflow/builder-exit-review.md).
+For AI product features, use [AI feature patterns](/lib/07-coding/vibe-coding-prompt-template/docs-ai-feature-patterns). For MCP, agent permissions, prompt injection, and provider retention decisions, use [AI agent security](/lib/07-coding/vibe-coding-prompt-template/docs-ai-agent-security). For builder-generated projects, complete the [Builder exit review](/lib/07-coding/vibe-coding-prompt-template/docs-workflow-builder-exit-review).
 
 ---
 
@@ -258,7 +258,7 @@ To avoid context overload, let the agent write durable project facts into files 
 - **Subagents first:** Use focused subagents for research, code review, debugging, and test verification. Use experimental team-style coordination only when agents truly need to communicate or split disjoint modules.
 - **Plan before edit:** Use the tool's actual plan/approval mode where available, then require a short plan before multi-file changes.
 - **Scoped rules and skills:** Keep `AGENTS.md` as the cross-tool source of truth, then add `.cursor/rules/`, `.claude/agents/`, `.codex/config.toml`, `.agents/skills/`, or `GEMINI.md` only as concise tool-specific adapters.
-- **Task routing:** Use [Agent tooling compatibility](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/docs/tools/agent-tooling-compatibility.md) to decide when to use Codex, Claude Code, Cursor, Copilot, Antigravity, local agents, or builder tools.
+- **Task routing:** Use [Agent tooling compatibility](/lib/07-coding/vibe-coding-prompt-template/docs-tools-agent-tooling-compatibility) to decide when to use Codex, Claude Code, Cursor, Copilot, Antigravity, local agents, or builder tools.
 </details>
 
 <details>
@@ -291,7 +291,7 @@ When an agent ignores instructions or behaves inconsistently:
 
 Treat AI safety as a design-time requirement, not a final polish pass: Step 3 defines the AI surface, data boundaries, approval gates, evals, and cost ceiling; Step 4 generates the matching tool permissions; Step 5 produces evidence (changed files, commands, test/browser results, unresolved risks). Untrusted content — web pages, emails, tool output, RAG chunks, uploads — is data, not instructions.
 
-Full guidance: [AI agent security](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/docs/ai/agent-security.md) and [AI feature patterns](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/docs/ai/feature-patterns.md).
+Full guidance: [AI agent security](/lib/07-coding/vibe-coding-prompt-template/docs-ai-agent-security) and [AI feature patterns](/lib/07-coding/vibe-coding-prompt-template/docs-ai-feature-patterns).
 
 ---
 
@@ -369,14 +369,14 @@ Once the MVP works, do a final pass on secrets, auth, and basic abuse protection
 
 - [Worked example — what the workflow produces end to end](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/examples/reddit-to-ai/README.md)
 - [Docs index — what to read and when](/lib/07-coding/vibe-coding-prompt-template/docs)
-- [Claude subagents and agent teams — delegated work patterns](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/docs/tools/claude-agent-teams.md)
-- [Cursor agents, rules, memories, and background agents](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/docs/tools/cursor-cloud-agents.md)
-- [AI agent security — threat surfaces, tool permissions, and evals](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/docs/ai/agent-security.md)
-- [AI feature patterns — RAG, structured outputs, memory, approvals, telemetry](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/docs/ai/feature-patterns.md)
-- [Agent tooling compatibility — choosing adapters and agent surfaces](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/docs/tools/agent-tooling-compatibility.md)
-- [Builder exit review — no-code/AI builder production checks](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/docs/workflow/builder-exit-review.md)
-- [Freshness policy — how time-sensitive content is maintained](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/docs/maintenance/freshness-policy.md)
-- [Golden path checklist — end-to-end workflow validation, partially automated via `scripts/validate.py`](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/docs/workflow/golden-path-checklist.md)
+- [Claude subagents and agent teams — delegated work patterns](/lib/07-coding/vibe-coding-prompt-template/docs-tools-claude-agent-teams)
+- [Cursor agents, rules, memories, and background agents](/lib/07-coding/vibe-coding-prompt-template/docs-tools-cursor-cloud-agents)
+- [AI agent security — threat surfaces, tool permissions, and evals](/lib/07-coding/vibe-coding-prompt-template/docs-ai-agent-security)
+- [AI feature patterns — RAG, structured outputs, memory, approvals, telemetry](/lib/07-coding/vibe-coding-prompt-template/docs-ai-feature-patterns)
+- [Agent tooling compatibility — choosing adapters and agent surfaces](/lib/07-coding/vibe-coding-prompt-template/docs-tools-agent-tooling-compatibility)
+- [Builder exit review — no-code/AI builder production checks](/lib/07-coding/vibe-coding-prompt-template/docs-workflow-builder-exit-review)
+- [Freshness policy — how time-sensitive content is maintained](/lib/07-coding/vibe-coding-prompt-template/docs-maintenance-freshness-policy)
+- [Golden path checklist — end-to-end workflow validation, partially automated via `scripts/validate.py`](/lib/07-coding/vibe-coding-prompt-template/docs-workflow-golden-path-checklist)
 
 ---
 

@@ -137,7 +137,7 @@ Launch your coding agent in the project directory, then:
 
 ### 1. Install Specify CLI
 
-Requires **[uv](https://docs.astral.sh/uv/)** ([install uv](https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/docs/install/uv.md)). Replace `vX.Y.Z` with the latest release tag from [Releases](https://github.com/github/spec-kit/releases) — keep the leading `v` (for example, `v0.12.11`, not `0.12.11`):
+Requires **[uv](https://docs.astral.sh/uv/)** ([install uv](/lib/07-coding/spec-kit/docs-install-uv)). Replace `vX.Y.Z` with the latest release tag from [Releases](https://github.com/github/spec-kit/releases) — keep the leading `v` (for example, `v0.12.11`, not `0.12.11`):
 
 ```bash
 uv tool install specify-cli --from git+https://github.com/github/spec-kit.git@vX.Y.Z
@@ -149,7 +149,7 @@ Prefer installing from PyPI? The `specify-cli` package is also published there:
 uv tool install specify-cli
 ```
 
-See the [Installation Guide](https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/docs/installation.md) for alternative methods, verification, upgrade, and troubleshooting.
+See the [Installation Guide](/lib/07-coding/spec-kit/docs-installation) for alternative methods, verification, upgrade, and troubleshooting.
 
 ### 2. Initialize a project
 
@@ -246,7 +246,7 @@ Explore community-contributed resources on the [Spec Kit docs site](https://gith
 > [!NOTE]
 > Community contributions are independently created and maintained by their respective authors. Review source code before installation and use at your own discretion.
 
-Want to contribute? See the [Extension Publishing Guide](https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/extensions/EXTENSION-PUBLISHING-GUIDE.md), the [Presets Publishing Guide](https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/presets/PUBLISHING.md), or the [Community Bundles guide](https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/docs/community/bundles.md).
+Want to contribute? See the [Extension Publishing Guide](https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/extensions/EXTENSION-PUBLISHING-GUIDE.md), the [Presets Publishing Guide](https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/presets/PUBLISHING.md), or the [Community Bundles guide](/lib/07-coding/spec-kit/docs-community-bundles).
 
 ## 🤖 Supported AI Coding Agent Integrations
 

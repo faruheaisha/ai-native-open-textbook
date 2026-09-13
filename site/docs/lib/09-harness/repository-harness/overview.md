@@ -189,7 +189,7 @@ Harness does not automatically delete legacy binaries, databases, schemas, or
 state from consumer repositories.
 
 See
-[`decision 0027`](https://github.com/hoangnb24/repository-harness/blob/e765792b635b4d5e3e5fc0578f82f9ca5dea2681/docs/decisions/0027-end-protocol-v1-and-focus-repository-protocol.md).
+[`decision 0027`](/lib/09-harness/repository-harness/docs-decisions-0027-end-protocol-v1-and-focus-repository-protocol).
 
 ## Development
 

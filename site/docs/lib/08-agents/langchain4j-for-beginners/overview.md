@@ -39,7 +39,7 @@ Each module has a companion live session where we walk through the concepts and 
 
 ##  Learning Path
 
-**New to LangChain4j?** Check out the [Glossary](https://github.com/microsoft/LangChain4j-for-Beginners/blob/9aed2ec27717775def0da2ff2d7950baa8995a64/docs/GLOSSARY.md) for definitions of key terms and concepts.
+**New to LangChain4j?** Check out the [Glossary](/lib/08-agents/langchain4j-for-beginners/docs-GLOSSARY) for definitions of key terms and concepts.
 
 > **Quick Start**
 
@@ -50,7 +50,7 @@ Each module has a companion live session where we walk through the concepts and 
 5. Wait 5-10 minutes for the environment to be ready
 6. Jump straight to [Introduction](/lib/08-agents/langchain4j-for-beginners/01-introduction) to get started!
 
-After completing the modules, explore the [Testing Guide](https://github.com/microsoft/LangChain4j-for-Beginners/blob/9aed2ec27717775def0da2ff2d7950baa8995a64/docs/TESTING.md) to see LangChain4j testing concepts in action.
+After completing the modules, explore the [Testing Guide](/lib/08-agents/langchain4j-for-beginners/docs-TESTING) to see LangChain4j testing concepts in action.
 
 > **Note:** This training uses Azure OpenAI. Get started with a [FREE Azure account](https://aka.ms/azure-free-account) if you don't have one.
 

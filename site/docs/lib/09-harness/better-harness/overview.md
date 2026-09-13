@@ -57,7 +57,7 @@ Better Harness scopes behavior claims to relevant Task Episodes and the
 surrounding project mechanisms. Qoder and Cursor produce host-native Canvas
 reports; Claude Code, Codex, Qwen Code, GitHub Copilot, and Kimi Code produce
 self-contained HTML with paired Markdown. Missing or partial evidence remains
-explicit. See the [Host Adapter Matrix](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/adapters/README.md) for current
+explicit. See the [Host Adapter Matrix](/lib/09-harness/better-harness/docs-adapters) for current
 coverage and output differences.
 
 <div class="tb-zh"><p>Better Harness 把行为层面的结论限定在相关的 Task Episode 及其周边项目机制范围内。Qoder 和 Cursor 产出宿主原生的 Canvas 报告；Claude Code、Codex、Qwen Code、GitHub Copilot 和 Kimi Code 则产出自包含的 HTML，并配一份 Markdown。缺失或不完整的证据都保持显式可见。当前覆盖范围与输出差异见 Host Adapter Matrix。</p></div>
@@ -169,14 +169,14 @@ Better Harness opens three connected layers, not only a slash-command prompt:
 <div class="tb-zh"><p>Better Harness 打开的是三个相互关联的层次，而不只是一个斜杠命令提示词：</p></div>
 
 - **Engineering practices** — evidence and judgment guidance across
-  [Session Evidence, Project Harness, Agent Customize, and Loop Engineering](/lib/09-harness/better-harness/references).
+  [Session Evidence, Project Harness, Agent Customize, and Loop Engineering](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/references/README.md).
 - **Evaluation model** — the task-centered
   [Agent Work Loop](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/models/agent-work-loop.md), including evidence states,
   findings, scoring boundaries, and longitudinal validation.
 - **Runnable implementation** — the canonical
   [`/better-harness` workflow](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/skills/better-harness/SKILL.md), evidence
   collectors, analyzers, renderers, and thin
-  [host adapters](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/adapters/README.md).
+  [host adapters](/lib/09-harness/better-harness/docs-adapters).
 
 <div class="tb-zh"><p>工程实践——横跨会话证据、项目 Harness、Agent 定制与循环工程的证据与判断指引；评估模型——以任务为中心的 Agent Work Loop，包含证据状态、findings、评分边界和纵向验证；可运行的实现——规范的 /better-harness 工作流、证据收集器、分析器、渲染器，以及轻量的宿主适配器。</p></div>
 
@@ -188,7 +188,7 @@ or improved an outcome.
 
 ## Architecture
 
-[![Better Harness architecture: host integration, three independent evidence agents, unified analysis by one lead agent, findings, host outputs, and repair](https://gh-proxy.com/https://raw.githubusercontent.com/QoderAI/better-harness/e1538c15a98856b3349f365d951f4fa0bcc33f24/assets/better-harness-architecture-en.svg)](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/lib/09-harness/better-harness/docs/README.md)
+[![Better Harness architecture: host integration, three independent evidence agents, unified analysis by one lead agent, findings, host outputs, and repair](https://gh-proxy.com/https://raw.githubusercontent.com/QoderAI/better-harness/e1538c15a98856b3349f365d951f4fa0bcc33f24/assets/better-harness-architecture-en.svg)](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/lib/09-harness/better-harness/docs-ARCHITECTURE/README.md)
 
 <div class="tb-zh"><p>配图（可点击跳转至 docs/README.md）：Better Harness 架构——宿主集成、三个独立的证据 agent、由单个 lead agent 统一分析、findings、宿主输出，以及修复。</p></div>
 
@@ -482,7 +482,7 @@ evidence boundaries live in the docs so this README stays focused:
   (`pi install <source>` or `pi -e <source>`). The same adapter reads
   [Oh My Pi (OMP)](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/docs/hosts/adapter-matrix.md#oh-my-pi-omp) sessions when
   `PI_CODING_AGENT_DIR` points at an OMP agent directory.
-- **Kimi Code** — [Host Adapter Matrix](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/adapters/README.md)
+- **Kimi Code** — [Host Adapter Matrix](/lib/09-harness/better-harness/docs-adapters)
   (`.kimi-plugin/plugin.json` plugin install).
 - **WorkBuddy** — [Host Adapter Matrix](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/docs/hosts/adapter-matrix.md#workbuddy).
 - **Grok** — [Host Adapter Matrix](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/docs/hosts/adapter-matrix.md#grok).
@@ -544,7 +544,7 @@ smallest surface that matches the improvement you want to make:
 
 | What you can contribute | Start here | Example contribution |
 | --- | --- | --- |
-| Workflow guidance and engineering practices | [`skills/`](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/skills/README.md) or [`references/`](/lib/09-harness/better-harness/references) | Add sourced guidance for a language, framework, review pattern, or recurring agent workflow. |
+| Workflow guidance and engineering practices | [`skills/`](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/skills/README.md) or [`references/`](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/references/README.md) | Add sourced guidance for a language, framework, review pattern, or recurring agent workflow. |
 | Evaluation models and executable analysis | [`models/`](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/models/README.md) or [`scripts/`](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/scripts/README.md) | Add an evidence-backed evaluation lens, detector, or agent-friendly analysis command with fixtures and tests. |
 | Delivery controls and host support | [`hooks/`](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/hooks/README.md) or the [new Coding Agent guide](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/adapters/contributing-new-coding-agent.md) | Add a narrow lifecycle check or document and validate evidence support for another Coding Agent host. |
 | Reports and visual language | [`templates/reporting/`](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/templates/reporting/README.md) or [`templates/style/`](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/templates/style/README.md) | Add a report mode, reusable reporting contract, or directive-only visual style with validation evidence. |
@@ -554,13 +554,13 @@ To get started:
 
 <div class="tb-zh"><p>上手步骤：</p></div>
 
-1. Read the [community extension map](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/community.md) to choose the canonical
+1. Read the [community extension map](/lib/09-harness/better-harness/docs-community) to choose the canonical
    owner and understand its contract.
 2. Follow the [contribution guide](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/CONTRIBUTING.md) to set up the project and
    scope the change.
 3. For host support, follow the
    [new Coding Agent contribution guide](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/adapters/contributing-new-coding-agent.md)
-   and update the [host adapter matrix](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/adapters/README.md).
+   and update the [host adapter matrix](/lib/09-harness/better-harness/docs-adapters).
 4. Add tests, fixtures, or preview evidence when the contribution changes
    runtime behavior or rendered output.
 5. Open a focused pull request that explains what changed, why, and how it was

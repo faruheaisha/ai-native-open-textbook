@@ -18,21 +18,21 @@ Most users only need the main README and the golden path checklist. The rest of 
 
 ## Read This First
 
-- [Golden path checklist](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/docs/workflow/golden-path-checklist.md) - verify the five-step workflow produced the right files.
-- [Freshness policy](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/docs/maintenance/freshness-policy.md) - maintainer-only rules for keeping AI/tooling claims current.
+- [Golden path checklist](/lib/07-coding/vibe-coding-prompt-template/docs-workflow-golden-path-checklist) - verify the five-step workflow produced the right files.
+- [Freshness policy](/lib/07-coding/vibe-coding-prompt-template/docs-maintenance-freshness-policy) - maintainer-only rules for keeping AI/tooling claims current.
 - [Changelog](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/docs/CHANGELOG.md) - notable changes to this template and the `vibeworkflow` CLI.
 
 ## When You Need Them
 
 | Need | Read |
 |------|------|
-| Starting from v0, Lovable, Bolt, Replit, or another builder | [Builder exit review](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/docs/workflow/builder-exit-review.md) |
-| Choosing a build path (web MVP, OpenAI/Vercel/Cloudflare/Google AI, local, builder) | [Modern AI build paths](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/docs/ai/build-paths.md) |
-| Adding product AI, RAG, memory, tool calls, or voice | [AI feature patterns](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/docs/ai/feature-patterns.md) |
-| Letting AI read data, call tools, use MCP, or take actions | [AI agent security](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/docs/ai/agent-security.md) |
-| Choosing between Codex, Claude, Cursor, Copilot, Antigravity, builders, or local agents | [Agent tooling compatibility](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/docs/tools/agent-tooling-compatibility.md) |
-| Using Claude Code subagents, skills, hooks, or agent teams | [Claude guide](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/docs/tools/claude-agent-teams.md) |
-| Using Cursor rules, Bugbot, background agents, or environments | [Cursor guide](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/docs/tools/cursor-cloud-agents.md) |
+| Starting from v0, Lovable, Bolt, Replit, or another builder | [Builder exit review](/lib/07-coding/vibe-coding-prompt-template/docs-workflow-builder-exit-review) |
+| Choosing a build path (web MVP, OpenAI/Vercel/Cloudflare/Google AI, local, builder) | [Modern AI build paths](/lib/07-coding/vibe-coding-prompt-template/docs-ai-build-paths) |
+| Adding product AI, RAG, memory, tool calls, or voice | [AI feature patterns](/lib/07-coding/vibe-coding-prompt-template/docs-ai-feature-patterns) |
+| Letting AI read data, call tools, use MCP, or take actions | [AI agent security](/lib/07-coding/vibe-coding-prompt-template/docs-ai-agent-security) |
+| Choosing between Codex, Claude, Cursor, Copilot, Antigravity, builders, or local agents | [Agent tooling compatibility](/lib/07-coding/vibe-coding-prompt-template/docs-tools-agent-tooling-compatibility) |
+| Using Claude Code subagents, skills, hooks, or agent teams | [Claude guide](/lib/07-coding/vibe-coding-prompt-template/docs-tools-claude-agent-teams) |
+| Using Cursor rules, Bugbot, background agents, or environments | [Cursor guide](/lib/07-coding/vibe-coding-prompt-template/docs-tools-cursor-cloud-agents) |
 
 ## Reading Rule
 

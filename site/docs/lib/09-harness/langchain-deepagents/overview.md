@@ -16,6 +16,7 @@ zh: ""
 
 <source media="(prefers-color-scheme: dark)" srcset="https://gh-proxy.com/https://raw.githubusercontent.com/langchain-ai/deepagents/d93ab3351bbf4c3687212f665094ccad100f2c08/.github/images/logo-dark.svg">
       <source media="(prefers-color-scheme: light)" srcset="https://gh-proxy.com/https://raw.githubusercontent.com/langchain-ai/deepagents/d93ab3351bbf4c3687212f665094ccad100f2c08/.github/images/logo-light.svg">
+      <img alt="Deep Agents Logo" src="https://gh-proxy.com/https://raw.githubusercontent.com/langchain-ai/deepagents/d93ab3351bbf4c3687212f665094ccad100f2c08/.github/images/logo-dark.svg" width="50%">
 
   <h3>The batteries-included agent harness.</h3>
 
@@ -97,7 +98,7 @@ The layers compose: any LangGraph `CompiledStateGraph` can be passed in as a sub
 
 ## Resources
 
-- [Examples](/lib/09-harness/langchain-deepagents/examples) — working agents and patterns
+- [Examples](https://github.com/langchain-ai/deepagents/blob/d93ab3351bbf4c3687212f665094ccad100f2c08/examples/README.md) — working agents and patterns
 - [Documentation](https://docs.langchain.com/oss/python/deepagents/overview) — conceptual overviews and guides
 - [LangChain ecosystem overview](https://docs.langchain.com/oss/python/concepts/products) — how Deep Agents, LangChain, LangGraph, and LangSmith fit together
 - [API reference](https://reference.langchain.com/python/deepagents/) — complete reference for all public classes, functions, and types

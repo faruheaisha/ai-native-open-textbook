@@ -1,0 +1,43 @@
+---
+title: "动手学 CS146S 中文版"
+sourceId: "07-coding/cs146s-cn"
+sourceTitle: "动手学 CS146S 中文版"
+sourceKind: "系统课程"
+licenseLabel: "可转载"
+lang: "中文"
+tier: 1
+volume: "07-coding"
+sourceUrl: "https://github.com/ShouZhengAI/CS146S_CN"
+entryUrl: "https://github.com/ShouZhengAI/CS146S_CN/blob/0d65f36f6673147d6c298670da4f9b4bd7f991fa/README.md"
+zh: ""
+---
+
+# 动手学 CS146S 中文版
+
+## 大语言模型提示词练习场
+
+本周练习六种常用提示方法。作业说明见 [assignment.md](/lib/07-coding/cs146s-cn/Assignments-week1-assignment)。
+
+### 1. K-shot Prompting（少样本提示）
+
+先给模型几组“输入单词 → 反转结果”的示例，让它从示例中学会逐字倒序。再明确只输出结果，避免解释或多余符号影响匹配。
+
+### 2. Chain of Thought（思维链）
+
+把模运算拆成小步骤：先找 $3$ 的幂模 $100$ 的周期 $20$，再算 $12345 \bmod 20=5$，最后算 $3^5 \bmod 100=43$。固定最后一行为 `Answer: 43`。
+
+### 3. Tool Calling（工具调用）
+
+告诉模型可用工具的准确名称、参数和 JSON 结构，并要求只输出合法 JSON。执行器解析 JSON 后调用工具，读取 Python 文件中各顶层函数的返回类型。
+
+### 4. Self-Consistency Prompting（自洽提示）
+
+统一每次推理的步骤：第二次停车点距起点 $60-15=45$ 英里，两次停车点相距 $45-20=25$ 英里。多次生成答案后做多数投票，降低单次随机错误的影响。
+
+### 5. RAG（检索增强生成）
+
+先按“用户、认证、端点”等关键词筛出相关 API 文档，再把文档和问题一起交给模型。要求代码只采用文档给出的基础 URL、请求头、端点和返回字段，避免模型猜测接口。
+
+### 6. Reflexion（反思修正）
+
+先生成实现并运行测试，再把上一版代码和每条失败信息整理给模型。模型根据“预期值、实际值、缺失检查”定位根因，输出完整修正版，同时保留已经通过的行为。

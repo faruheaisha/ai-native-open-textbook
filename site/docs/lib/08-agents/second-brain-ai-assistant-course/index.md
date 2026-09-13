@@ -17,9 +17,9 @@ zh: ""
 
 ## 课时
 
-1. [🚀 Installation and Usage Guide for the Second Brain Offline Module](apps-second-brain-offline-README.md)
-2. [🚀 Installation and Usage Guide for the Second Brain Online Module](apps-second-brain-online-README.md)
-3. [Workshop on Building Advanced RAG Applications and Systems](workshops-rag-solution-README.md)
-4. [Workshop on Building Advanced RAG Applications and Systems](workshops-rag-template-README.md)
+1. [🚀 Installation and Usage Guide for the Second Brain Offline Module](apps-second-brain-offline.md)
+2. [🚀 Installation and Usage Guide for the Second Brain Online Module](apps-second-brain-online.md)
+3. [Workshop on Building Advanced RAG Applications and Systems](workshops-rag-solution.md)
+4. [Workshop on Building Advanced RAG Applications and Systems](workshops-rag-template.md)
 
-开始学习 → [🚀 Installation and Usage Guide for the Second Brain Offline Module](apps-second-brain-offline-README.md)
+开始学习 → [🚀 Installation and Usage Guide for the Second Brain Offline Module](apps-second-brain-offline.md)

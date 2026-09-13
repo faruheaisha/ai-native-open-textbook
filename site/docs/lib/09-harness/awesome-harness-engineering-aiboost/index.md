@@ -19,6 +19,8 @@ zh: ""
 
 ## 课时
 
-1. [AGENTS.md](templates.md)
+1. [Harness Review Checklist](templates-HARNESS_CHECKLIST.md)
+2. [IMPLEMENT.md](templates-IMPLEMENT.md)
+3. [PLAN.md](templates-PLAN.md)
 
-开始学习 → [AGENTS.md](templates.md)
+开始学习 → [Harness Review Checklist](templates-HARNESS_CHECKLIST.md)

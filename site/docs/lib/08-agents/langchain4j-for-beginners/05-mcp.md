@@ -530,7 +530,7 @@ You've completed the LangChain4j for Beginners course. You've learned:
 
 ### What's Next?
 
-After completing the modules, explore the [Testing Guide](https://github.com/microsoft/LangChain4j-for-Beginners/blob/9aed2ec27717775def0da2ff2d7950baa8995a64/docs/TESTING.md) to see LangChain4j testing concepts in action.
+After completing the modules, explore the [Testing Guide](/lib/08-agents/langchain4j-for-beginners/docs-TESTING) to see LangChain4j testing concepts in action.
 
 **Official Resources:**
 - [LangChain4j Documentation](https://docs.langchain4j.dev/) - Comprehensive guides and API reference

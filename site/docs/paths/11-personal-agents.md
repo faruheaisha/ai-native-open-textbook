@@ -12,17 +12,17 @@ title: "个人智能体"
 
 | 课程 | 分类 | 课时 | 原文 |
 |---|---|---|---|
-| ★★★ [Qclaw（秋芝2046）](/lib/11-personal-agents/qclaw/index) | 速查清单与索引 | 3 | [打开 ↗](https://github.com/qiuzhi2046/Qclaw) |
+| ★★★ [Qclaw（秋芝2046）](/lib/11-personal-agents/qclaw/index) | 速查清单与索引 | 5 | [打开 ↗](https://github.com/qiuzhi2046/Qclaw) |
 
 ## 进阶与参考
 
 | 课程 | 分类 | 分级 | 课时 | 原文 |
 |---|---|---|---|---|
-| [Build Your Own OpenClaw](/lib/11-personal-agents/build-your-own-openclaw/index) | 源码与实现研读 | ★★ 进阶 | 9 | [打开 ↗](https://github.com/czl9707/build-your-own-openclaw) |
-| [Awesome OpenClaw Tutorial（中文）](/lib/11-personal-agents/awesome-openclaw-tutorial/index) | 速查清单与索引 | ★★ 进阶 | 9 | [打开 ↗](https://github.com/xianyu110/awesome-openclaw-tutorial) |
-| [Awesome OpenClaw Usecases](/lib/11-personal-agents/awesome-openclaw-usecases/index) | 实践案例与产品 | ★★ 进阶 | 3 | [打开 ↗](https://github.com/hesamsheikh/awesome-openclaw-usecases) |
-| [MineContext（火山引擎个人上下文助手）](/lib/11-personal-agents/mine-context/index) | 速查清单与索引 | ★ 参考 | 5 | [打开 ↗](https://github.com/volcengine/MineContext) |
-| [Awesome OpenClaw Skills](/lib/11-personal-agents/awesome-openclaw-skills/index) | 技能、配置与模板 | ★ 参考 | 3 | [打开 ↗](https://github.com/VoltAgent/awesome-openclaw-skills) |
+| [Awesome OpenClaw Usecases](/lib/11-personal-agents/awesome-openclaw-usecases/index) | 实践案例与产品 | ★★ 进阶 | 25 | [打开 ↗](https://github.com/hesamsheikh/awesome-openclaw-usecases) |
+| [Awesome OpenClaw Tutorial（中文）](/lib/11-personal-agents/awesome-openclaw-tutorial/index) | 速查清单与索引 | ★★ 进阶 | 25 | [打开 ↗](https://github.com/xianyu110/awesome-openclaw-tutorial) |
+| [Build Your Own OpenClaw](/lib/11-personal-agents/build-your-own-openclaw/index) | 源码与实现研读 | ★★ 进阶 | 17 | [打开 ↗](https://github.com/czl9707/build-your-own-openclaw) |
+| [Awesome OpenClaw Skills](/lib/11-personal-agents/awesome-openclaw-skills/index) | 技能、配置与模板 | ★ 参考 | 25 | [打开 ↗](https://github.com/VoltAgent/awesome-openclaw-skills) |
+| [MineContext（火山引擎个人上下文助手）](/lib/11-personal-agents/mine-context/index) | 速查清单与索引 | ★ 参考 | 9 | [打开 ↗](https://github.com/volcengine/MineContext) |
 
 ## 官方文献与外链
 

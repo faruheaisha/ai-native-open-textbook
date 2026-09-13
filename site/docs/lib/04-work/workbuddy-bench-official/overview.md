@@ -15,7 +15,7 @@ zh: ""
 # WorkBuddy Bench（腾讯官方评测集）
 
 <strong>English</strong> ·
-[简体中文](https://github.com/Tencent/workbuddy-bench/blob/625b2233093ae4f23e76be28c1f341d41cc70373/README.zh.md)
+[简体中文](/lib/04-work/workbuddy-bench-official/README.zh)
 
 ---
 

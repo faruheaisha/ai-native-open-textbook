@@ -1,0 +1,18 @@
+{
+  "id": "10-context-memory/awesome-agent-skills-voltagent",
+  "volume": "10-context-memory",
+  "local": "awesome-agent-skills-voltagent",
+  "title": "Awesome Agent Skills（Agent 技能清单）",
+  "kind": "技能与配置库",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "VoltAgent/awesome-agent-skills",
+  "site": null,
+  "commit": "8873794bcb26ff5dcf9cd518c87cf5638ca44b92",
+  "entryUrl": "https://github.com/VoltAgent/awesome-agent-skills/blob/8873794bcb26ff5dcf9cd518c87cf5638ca44b92/README.md",
+  "docs": 2
+}

@@ -19,6 +19,7 @@ zh: ""
 
 ## 课时
 
-1. [ChatGPT 橙皮书网站发布说明](site.md)
+1. [ChatGPT 橙皮书：从安装到实战案例的全链路使用指南](ChatGPT橙皮书.md)
+2. [ChatGPT 橙皮书网站发布说明](site-DEPLOY.md)
 
-开始学习 → [ChatGPT 橙皮书网站发布说明](site.md)
+开始学习 → [ChatGPT 橙皮书：从安装到实战案例的全链路使用指南](ChatGPT橙皮书.md)

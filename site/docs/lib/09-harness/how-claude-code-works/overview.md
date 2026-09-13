@@ -39,6 +39,8 @@ Claude Code 是目前使用最广泛的 AI 编程 Agent，也是我们认为最�
 
 我们和 Claude Code 加班从源码中提炼出 16 篇专题文档，覆盖了从核心循环到安全防护的每一个关键设计决策。不管你是想造自己的 AI Agent，还是想更深入地理解和使用 Claude Code，这里都是最短路径（应该？就算不是最短的，我们也会不断更新这个项目）。
 
+  <img alt="在线阅读文档网站截图" src="https://gh-proxy.com/https://raw.githubusercontent.com/Windy3f3f3f3f/how-claude-code-works/f4d6505ed9162a0ee6be089190f74c419ecacb19/assets/architecture.png" width="800" />
+
 ## 🏗️ 系统架构
 
 ```mermaid
@@ -146,27 +148,27 @@ Claude Code 支持三种多 Agent 模式：
 
 | # | 文档 | 你会了解到 |
 |---|------|-----------|
-| 1 | [概述](/lib/09-harness/how-claude-code-works/docs) | 技术选型背后的思考（为什么 Bun/React/Zod）、6 条核心设计原则、9 阶段 235ms 启动流程、数据流全景 |
-| 2 | [系统主循环](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/02-agent-loop.md) | Agent 循环的双层架构、7 种 Continue Sites 故障恢复、工具预执行、StreamingToolExecutor 并发机制 |
-| 3 | [上下文工程](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/03-context-engineering.md) | 4 级压缩流水线完整细节、压缩后自动恢复机制（5 文件 + 技能重激活）、提示词缓存策略与缓存断裂检测 |
-| 4 | [工具系统](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/04-tool-system.md) | 数十个工具的注册与并发控制、MCP 6 种传输详解、连接状态机、OAuth 2.0 + PKCE 认证流程 |
-| 5 | [技能系统](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/09-skills-system.md) | 6 层技能来源与优先级、懒加载与 Token 预算分配、Inline/Fork 双执行模式、白名单权限模型、压缩后技能保留 |
-| 6 | [记忆系统](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/08-memory-system.md) | 4 种记忆类型与封闭分类法、Sonnet 语义召回与异步预取、后台记忆提取 Agent、记忆漂移防御、团队记忆 |
-| 7 | [Hooks 与可扩展性](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/06-hooks-extensibility.md) | 23+ Hook 事件全景、5 种 Hook 类型、6 阶段执行管道、PermissionRequest 4 种能力、信任模型与安全 |
-| 8 | [多 Agent 架构](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/07-multi-agent.md) | 子 Agent 4 种执行模式与 Worktree 隔离、协调器纯编排设计、Swarm 3 种执行后端与信箱通信 |
-| 9 | [Plan 模式](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/10-plan-mode.md) | 两条进入路径、5 阶段与迭代双工作流、附件节流机制、Phase 4 四种实验变体、计划文件管理与恢复、审批与权限恢复 |
-| 10 | [代码编辑策略](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/05-code-editing-strategy.md) | search-and-replace 为什么比整文件重写更好、唯一性约束与抗幻觉设计、编辑前强制读取的代码级实现 |
-| 11 | [任务管理系统](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/15-task-system.md) | 文件级存储与并发锁设计、三层变更检测、依赖追踪与原子认领、多 Agent 任务协调、验证提醒机制 |
-| 12 | [权限与安全](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/11-permission-security.md) | 7 层纵深防御体系、tree-sitter AST 分析 + 23 项安全检查、竞速确认机制与 200ms 防误触 |
-| 13 | [系统提示词设计](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/14-system-prompt-design.md) | 7 层递进式提示词架构、反模式接种与负面清单设计、爆炸半径风险框架、内外分层变体、7 条 Agent 提示词设计原则 |
-| 14 | [用户体验设计](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/12-user-experience.md) | 自研 Ink 渲染器架构、Yoga Flexbox 布局、虚拟滚动与对象池优化、Vim 模式 |
-| 15 | [最小必要组件](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/13-minimal-components.md) | 7 个最小必要组件框架、最小实现 vs 生产级实现的逐项对照、从 500 行到 50 万行的演进路线 |
-| 16 | [可观测性：Metrics 与 Trace](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/16-observability.md) | 一次 prompt 的 EXPLAIN、三观测平面 + transcript 持久层、prompt.id 关联键、OTel metric/event/span 走读、成本核算、权限决策日志、隐私边界 |
-| 17 🔍 | [自治与续跑：`/goal` 与 `/loop`](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/17-autonomy-goal-loop.md) | **快照之后·黑盒逆向**：自治的两种范式（守门评估器 vs 自排程闹钟）、`/goal` 评估器的完整系统提示词与 impossible 死循环刹车、`/loop` 解析规则与 cron / ScheduleWakeup 三条执行路径、文末附可复现的逆向方法（静态串 + 明文反代抓包） |
-| 18 🔍 | [Auto Mode：权限进入分类器时代](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/18-auto-mode.md) | **快照之后·源码+抓包**：权限从"规则 + 确认框"进化到 ML 分类器逐动作裁决、四个自然语言规则桶、两段式（粗筛→细判）分类器、reasoning-blind"被审者无从辩护"、它怎么听懂"别 push"、刹车与降级；文末附分类器完整系统提示词原文 + 可复现逆向方法 |
-| 19 🔍 | [Dynamic Workflows：确定性脚本编排 agent 舰队](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/19-dynamic-workflows.md) | **快照之后·工具描述+strings+抓包**：把第 8 章"模型当协调器"换成确定性 JS 脚本 fan-out 几十上百 subagent；pipeline 无 barrier 的设计、schema 结构化输出、三道上限 + token 预算、worktree 隔离与断点续跑、把可靠性编排进流程的质量范式、ultraplan→ultracode 演进；文末附 Workflow 工具描述逐字节选 |
-| 20 🔍 | [Agent Teams：对等组队与跨会话安全](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/20-agent-teams.md) | **快照之后·源码+strings**：从主从编排走到对等组队——SendMessage 寻址、Team = TaskList、共享记忆与 artifact；核心是那条"别的会话不携带用户权威"的跨会话规则（转发被拒动作＝权限洗白），接第 18 章 SOFT BLOCK 桶，加一道跨机 bridge 的 bypass-immune 守卫；文末附工具描述与规则逐字 |
-| 21 🔍 | [后台 Agent 舰队：脱终端常驻与 daemon 监管](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/21-background-fleet.md) | **快照之后·strings 挑大梁**：`/bg` 把会话从终端摘下、关掉终端也照跑，`claude agents` 一张表管全部；近八十个 `tengu_bg_*` 拼出一台带健康检查/崩溃重生/孤儿收养/预热池的本地进程舰队监管器、on-demand daemon 与一键关停、子 agent 默认后台 + task-notification、完工自动 commit+push+draft PR；文末附关键字符串与事件族 |
+| 1 | [概述](/lib/09-harness/how-claude-code-works/docs-01-overview) | 技术选型背后的思考（为什么 Bun/React/Zod）、6 条核心设计原则、9 阶段 235ms 启动流程、数据流全景 |
+| 2 | [系统主循环](/lib/09-harness/how-claude-code-works/docs-02-agent-loop) | Agent 循环的双层架构、7 种 Continue Sites 故障恢复、工具预执行、StreamingToolExecutor 并发机制 |
+| 3 | [上下文工程](/lib/09-harness/how-claude-code-works/docs-03-context-engineering) | 4 级压缩流水线完整细节、压缩后自动恢复机制（5 文件 + 技能重激活）、提示词缓存策略与缓存断裂检测 |
+| 4 | [工具系统](/lib/09-harness/how-claude-code-works/docs-04-tool-system) | 数十个工具的注册与并发控制、MCP 6 种传输详解、连接状态机、OAuth 2.0 + PKCE 认证流程 |
+| 5 | [技能系统](/lib/09-harness/how-claude-code-works/docs-09-skills-system) | 6 层技能来源与优先级、懒加载与 Token 预算分配、Inline/Fork 双执行模式、白名单权限模型、压缩后技能保留 |
+| 6 | [记忆系统](/lib/09-harness/how-claude-code-works/docs-08-memory-system) | 4 种记忆类型与封闭分类法、Sonnet 语义召回与异步预取、后台记忆提取 Agent、记忆漂移防御、团队记忆 |
+| 7 | [Hooks 与可扩展性](/lib/09-harness/how-claude-code-works/docs-06-hooks-extensibility) | 23+ Hook 事件全景、5 种 Hook 类型、6 阶段执行管道、PermissionRequest 4 种能力、信任模型与安全 |
+| 8 | [多 Agent 架构](/lib/09-harness/how-claude-code-works/docs-07-multi-agent) | 子 Agent 4 种执行模式与 Worktree 隔离、协调器纯编排设计、Swarm 3 种执行后端与信箱通信 |
+| 9 | [Plan 模式](/lib/09-harness/how-claude-code-works/docs-10-plan-mode) | 两条进入路径、5 阶段与迭代双工作流、附件节流机制、Phase 4 四种实验变体、计划文件管理与恢复、审批与权限恢复 |
+| 10 | [代码编辑策略](/lib/09-harness/how-claude-code-works/docs-05-code-editing-strategy) | search-and-replace 为什么比整文件重写更好、唯一性约束与抗幻觉设计、编辑前强制读取的代码级实现 |
+| 11 | [任务管理系统](/lib/09-harness/how-claude-code-works/docs-15-task-system) | 文件级存储与并发锁设计、三层变更检测、依赖追踪与原子认领、多 Agent 任务协调、验证提醒机制 |
+| 12 | [权限与安全](/lib/09-harness/how-claude-code-works/docs-11-permission-security) | 7 层纵深防御体系、tree-sitter AST 分析 + 23 项安全检查、竞速确认机制与 200ms 防误触 |
+| 13 | [系统提示词设计](/lib/09-harness/how-claude-code-works/docs-14-system-prompt-design) | 7 层递进式提示词架构、反模式接种与负面清单设计、爆炸半径风险框架、内外分层变体、7 条 Agent 提示词设计原则 |
+| 14 | [用户体验设计](/lib/09-harness/how-claude-code-works/docs-12-user-experience) | 自研 Ink 渲染器架构、Yoga Flexbox 布局、虚拟滚动与对象池优化、Vim 模式 |
+| 15 | [最小必要组件](/lib/09-harness/how-claude-code-works/docs-13-minimal-components) | 7 个最小必要组件框架、最小实现 vs 生产级实现的逐项对照、从 500 行到 50 万行的演进路线 |
+| 16 | [可观测性：Metrics 与 Trace](/lib/09-harness/how-claude-code-works/docs-16-observability) | 一次 prompt 的 EXPLAIN、三观测平面 + transcript 持久层、prompt.id 关联键、OTel metric/event/span 走读、成本核算、权限决策日志、隐私边界 |
+| 17 🔍 | [自治与续跑：`/goal` 与 `/loop`](/lib/09-harness/how-claude-code-works/docs-17-autonomy-goal-loop) | **快照之后·黑盒逆向**：自治的两种范式（守门评估器 vs 自排程闹钟）、`/goal` 评估器的完整系统提示词与 impossible 死循环刹车、`/loop` 解析规则与 cron / ScheduleWakeup 三条执行路径、文末附可复现的逆向方法（静态串 + 明文反代抓包） |
+| 18 🔍 | [Auto Mode：权限进入分类器时代](/lib/09-harness/how-claude-code-works/docs-18-auto-mode) | **快照之后·源码+抓包**：权限从"规则 + 确认框"进化到 ML 分类器逐动作裁决、四个自然语言规则桶、两段式（粗筛→细判）分类器、reasoning-blind"被审者无从辩护"、它怎么听懂"别 push"、刹车与降级；文末附分类器完整系统提示词原文 + 可复现逆向方法 |
+| 19 🔍 | [Dynamic Workflows：确定性脚本编排 agent 舰队](/lib/09-harness/how-claude-code-works/docs-19-dynamic-workflows) | **快照之后·工具描述+strings+抓包**：把第 8 章"模型当协调器"换成确定性 JS 脚本 fan-out 几十上百 subagent；pipeline 无 barrier 的设计、schema 结构化输出、三道上限 + token 预算、worktree 隔离与断点续跑、把可靠性编排进流程的质量范式、ultraplan→ultracode 演进；文末附 Workflow 工具描述逐字节选 |
+| 20 🔍 | [Agent Teams：对等组队与跨会话安全](/lib/09-harness/how-claude-code-works/docs-20-agent-teams) | **快照之后·源码+strings**：从主从编排走到对等组队——SendMessage 寻址、Team = TaskList、共享记忆与 artifact；核心是那条"别的会话不携带用户权威"的跨会话规则（转发被拒动作＝权限洗白），接第 18 章 SOFT BLOCK 桶，加一道跨机 bridge 的 bypass-immune 守卫；文末附工具描述与规则逐字 |
+| 21 🔍 | [后台 Agent 舰队：脱终端常驻与 daemon 监管](/lib/09-harness/how-claude-code-works/docs-21-background-fleet) | **快照之后·strings 挑大梁**：`/bg` 把会话从终端摘下、关掉终端也照跑，`claude agents` 一张表管全部；近八十个 `tengu_bg_*` 拼出一台带健康检查/崩溃重生/孤儿收养/预热池的本地进程舰队监管器、on-demand daemon 与一键关停、子 agent 默认后台 + task-notification、完工自动 commit+push+draft PR；文末附关键字符串与事件族 |
 
 ## 🎯 谁应该读这个？
 
@@ -189,15 +191,15 @@ Claude Code 支持三种多 Agent 模式：
 
 ## 🗺️ 阅读建议
 
-只有 10 分钟？读 [快速入门](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/quick-start.md)。
+只有 10 分钟？读 [快速入门](/lib/09-harness/how-claude-code-works/docs-quick-start)。
 
-想理解核心原理？按顺序读 [主循环](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/02-agent-loop.md)、[上下文工程](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/03-context-engineering.md)、[工具系统](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/04-tool-system.md) 三章。
+想理解核心原理？按顺序读 [主循环](/lib/09-harness/how-claude-code-works/docs-02-agent-loop)、[上下文工程](/lib/09-harness/how-claude-code-works/docs-03-context-engineering)、[工具系统](/lib/09-harness/how-claude-code-works/docs-04-tool-system) 三章。
 
-想自己造一个 AI Agent？先读 [最小必要组件](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/13-minimal-components.md)，然后跟着 [claude-code-from-scratch](https://github.com/Windy3f3f3f3f/claude-code-from-scratch) 的 13 章教程动手实现——~4300 行代码，每一步都对照源码讲解。
+想自己造一个 AI Agent？先读 [最小必要组件](/lib/09-harness/how-claude-code-works/docs-13-minimal-components)，然后跟着 [claude-code-from-scratch](https://github.com/Windy3f3f3f3f/claude-code-from-scratch) 的 13 章教程动手实现——~4300 行代码，每一步都对照源码讲解。
 
-想定制 Claude Code？读 [Hooks 与可扩展性](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/06-hooks-extensibility.md)、[记忆系统](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/08-memory-system.md) 和 [技能系统](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/09-skills-system.md)。
+想定制 Claude Code？读 [Hooks 与可扩展性](/lib/09-harness/how-claude-code-works/docs-06-hooks-extensibility)、[记忆系统](/lib/09-harness/how-claude-code-works/docs-08-memory-system) 和 [技能系统](/lib/09-harness/how-claude-code-works/docs-09-skills-system)。
 
-关注安全？读 [权限与安全](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/11-permission-security.md) 和 [代码编辑策略](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/05-code-editing-strategy.md)。
+关注安全？读 [权限与安全](/lib/09-harness/how-claude-code-works/docs-11-permission-security) 和 [代码编辑策略](/lib/09-harness/how-claude-code-works/docs-05-code-editing-strategy)。
 
 ## 🧭 路线图 / TODO
 
@@ -205,12 +207,12 @@ Claude Code 支持三种多 Agent 模式：
 
 计划新增的专题：
 
-- [x] 可观测性：Metrics 与 Trace（[#10](https://github.com/Windy3f3f3f3f/how-claude-code-works/issues/10) 提议）—— Claude Code 自身如何打点：OpenTelemetry 指标/事件导出、成本核算、会话 transcript 作为 turn 级 trace。已完成，见[第 16 章：可观测性](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/16-observability.md)
-- [x] 自治闭环：`/goal`、`/loop` 与 cron 调度（v2.1.71 / v2.1.139）—— 设定完成条件后跨 turn 自主工作直到达成；定时/模型自定节奏的循环任务。已完成，见[第 17 章：自治与续跑](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/17-autonomy-goal-loop.md)，含 `/goal` 评估器与 `/loop` 命令的完整提示词原文 + 可复现逆向方法
-- [x] Dynamic Workflows（v2.1.154 起，触发词 "ultracode"）—— 用一段编排脚本在后台指挥几十到几百个 agent，带 token 预算控制、断点续跑与 `/workflows` 监控面板。已完成，见[第 19 章：Dynamic Workflows](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/19-dynamic-workflows.md)，含 Workflow 工具描述逐字节选 + 可复现逆向方法
-- [x] Auto Mode：权限进入分类器时代（v2.1.152 起免 opt-in）—— 从"规则 + 确认框"到 LLM 分类器实时判断每个动作放行/拦截，并能理解"别 push"这类口头边界。已完成，见[第 18 章：Auto Mode](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/18-auto-mode.md)，含分类器完整系统提示词原文 + 四规则桶 + 可复现逆向方法
-- [x] Agent Teams 与跨会话安全（v2.1.166–178）—— `SendMessage` 组队协作；"跨会话消息不携带用户权威"的防提示注入设计。已完成，见[第 20 章：Agent Teams](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/20-agent-teams.md)，含 SendMessage / TeamCreate 工具描述与跨会话规则逐字 + 可复现逆向方法
-- [x] 后台 Agent 舰队（v2.1.139–198）—— `/bg` 后台化、常驻 daemon、`claude agents` 全局面板、会话睡醒机制、完工自动 commit+push+draft PR、子 agent 默认后台运行。已完成，见[第 21 章：后台 Agent 舰队](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/21-background-fleet.md)，含近八十个 `tengu_bg_*` 事件族与关键字符串 + 可复现逆向方法
+- [x] 可观测性：Metrics 与 Trace（[#10](https://github.com/Windy3f3f3f3f/how-claude-code-works/issues/10) 提议）—— Claude Code 自身如何打点：OpenTelemetry 指标/事件导出、成本核算、会话 transcript 作为 turn 级 trace。已完成，见[第 16 章：可观测性](/lib/09-harness/how-claude-code-works/docs-16-observability)
+- [x] 自治闭环：`/goal`、`/loop` 与 cron 调度（v2.1.71 / v2.1.139）—— 设定完成条件后跨 turn 自主工作直到达成；定时/模型自定节奏的循环任务。已完成，见[第 17 章：自治与续跑](/lib/09-harness/how-claude-code-works/docs-17-autonomy-goal-loop)，含 `/goal` 评估器与 `/loop` 命令的完整提示词原文 + 可复现逆向方法
+- [x] Dynamic Workflows（v2.1.154 起，触发词 "ultracode"）—— 用一段编排脚本在后台指挥几十到几百个 agent，带 token 预算控制、断点续跑与 `/workflows` 监控面板。已完成，见[第 19 章：Dynamic Workflows](/lib/09-harness/how-claude-code-works/docs-19-dynamic-workflows)，含 Workflow 工具描述逐字节选 + 可复现逆向方法
+- [x] Auto Mode：权限进入分类器时代（v2.1.152 起免 opt-in）—— 从"规则 + 确认框"到 LLM 分类器实时判断每个动作放行/拦截，并能理解"别 push"这类口头边界。已完成，见[第 18 章：Auto Mode](/lib/09-harness/how-claude-code-works/docs-18-auto-mode)，含分类器完整系统提示词原文 + 四规则桶 + 可复现逆向方法
+- [x] Agent Teams 与跨会话安全（v2.1.166–178）—— `SendMessage` 组队协作；"跨会话消息不携带用户权威"的防提示注入设计。已完成，见[第 20 章：Agent Teams](/lib/09-harness/how-claude-code-works/docs-20-agent-teams)，含 SendMessage / TeamCreate 工具描述与跨会话规则逐字 + 可复现逆向方法
+- [x] 后台 Agent 舰队（v2.1.139–198）—— `/bg` 后台化、常驻 daemon、`claude agents` 全局面板、会话睡醒机制、完工自动 commit+push+draft PR、子 agent 默认后台运行。已完成，见[第 21 章：后台 Agent 舰队](/lib/09-harness/how-claude-code-works/docs-21-background-fleet)，含近八十个 `tengu_bg_*` 事件族与关键字符串 + 可复现逆向方法
 - [ ] 云端多 Agent 审查（v2.1.111–147）—— 从 `/ultrareview` 到 `/code-review`：并行多 agent 分析 + 对抗式批判，带档位（low→ultra）与 CI 集成
 
 > 欢迎在 [issues](https://github.com/Windy3f3f3f3f/how-claude-code-works/issues) 里投票或补充你最想看的主题。
@@ -230,6 +232,8 @@ Claude Code 支持三种多 Agent 模式：
 ## 💬 更多交流
 
 **加入 AI Agent 工坊 交流群**
+
+<img src="https://gh-proxy.com/https://raw.githubusercontent.com/Windy3f3f3f3f/how-claude-code-works/f4d6505ed9162a0ee6be089190f74c419ecacb19/assets/qq.jpg" width="280" alt="QQ 群二维码" />
 
 QQ 群号：1090526244
 

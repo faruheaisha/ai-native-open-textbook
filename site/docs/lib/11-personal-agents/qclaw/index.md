@@ -22,6 +22,8 @@ zh: ""
 
 ## 课时
 
-1. [Qclaw（秋芝2046）](docs.md)
+1. [CURSOR.md](CURSOR.md)
+2. [Qclaw（秋芝2046）](docs-good-first-issues.md)
+3. [Qclaw（秋芝2046）](README.en.md)
 
-开始学习 → [Qclaw（秋芝2046）](docs.md)
+开始学习 → [CURSOR.md](CURSOR.md)

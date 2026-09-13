@@ -37,49 +37,49 @@ This guide covers harness engineering from first principles to production patter
 |-------|-------------|
 | [What is a Harness?](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/what-is-harness.md) | The concept in 3 minutes. How it turns a model into an agent. Harness vs. framework vs. runtime. |
 | [Your First Harness](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/your-first-harness.md) | Build a working harness in 50 lines of Python. Complete code you can copy and run. |
-| [Harness vs. Framework](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/harness-vs-framework.md) | When to use a raw harness vs. LangChain/CrewAI. Decision tree + side-by-side code comparison. |
+| [Harness vs. Framework](/lib/09-harness/harness-engineering-guide-nexu/guide-harness-vs-framework) | When to use a raw harness vs. LangChain/CrewAI. Decision tree + side-by-side code comparison. |
 
 ## Core Concepts
 
 | Topic | Description |
 |-------|-------------|
-| [Agentic Loop](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/agentic-loop.md) | The think → act → observe cycle. Turn budgets, parallel tool calls, loop detection, streaming. |
+| [Agentic Loop](/lib/09-harness/harness-engineering-guide-nexu/guide-agentic-loop) | The think → act → observe cycle. Turn budgets, parallel tool calls, loop detection, streaming. |
 | [Tool System](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/tool-system.md) | Tool registry, static vs. dynamic loading, MCP protocol, description quality patterns. |
-| [Memory & Context](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/memory-and-context.md) | Context assembly, session management, two-tier memory (daily logs + long-term). AGENTS.md and MEMORY.md patterns. |
-| [Guardrails](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/guardrails.md) | Permission models, trust boundaries, sandboxing, prompt injection defense. |
+| [Memory & Context](/lib/09-harness/harness-engineering-guide-nexu/guide-memory-and-context) | Context assembly, session management, two-tier memory (daily logs + long-term). AGENTS.md and MEMORY.md patterns. |
+| [Guardrails](/lib/09-harness/harness-engineering-guide-nexu/guide-guardrails) | Permission models, trust boundaries, sandboxing, prompt injection defense. |
 
 ## Practice
 
 | Topic | Description |
 |-------|-------------|
-| [Context Engineering](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/context-engineering.md) | Priority-based assembly, three lines of defense for compression, token budgeting. |
-| [Sandbox](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/sandbox.md) | Docker and Firecracker setups, network isolation, filesystem restrictions. |
+| [Context Engineering](/lib/09-harness/harness-engineering-guide-nexu/guide-context-engineering) | Priority-based assembly, three lines of defense for compression, token budgeting. |
+| [Sandbox](/lib/09-harness/harness-engineering-guide-nexu/guide-sandbox) | Docker and Firecracker setups, network isolation, filesystem restrictions. |
 | [Skill System](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/skill-system.md) | Skill packaging, on-demand loading, SKILL.md format, thin harness + thick skills. |
 | [Sub-Agent](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/sub-agent.md) | Leader-Worker pattern, file-based communication, session isolation, parallel execution. |
-| [Error Handling](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/error-handling.md) | Error classification, retry strategies, graceful degradation, checkpoint/resume. |
-| [Multi-Agent Orchestration](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/multi-agent-orchestration.md) | Orchestration patterns (pipeline, fan-out, supervisor), context isolation, real-world examples (Multica, Paseo, OpenClaw). |
-| [Scheduling & Automation](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/scheduling-and-automation.md) | Cron, heartbeats, event triggers. Session targeting, delivery, LangSmith vs harness-native comparison. |
-| [Long-Running Harness Design](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/long-running-harness.md) | Context anxiety, self-evaluation bias, context reset vs compaction, GAN-inspired generator-evaluator architecture. |
-| [Managed Agents Architecture](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/managed-agents-architecture.md) | Brain/hands/session decoupling, pets vs cattle, credential isolation, TTFT improvements. |
-| [Eval Infrastructure Noise](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/eval-infrastructure.md) | Resource config swings benchmark scores by 6pp. Floor+ceiling enforcement strategy. |
-| [Classifier-Based Permissions](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/classifier-permissions.md) | Replace approval fatigue with model-based classifiers. Two-layer defense, four threat models, reasoning-blind design. |
-| [Eval Awareness](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/eval-awareness.md) | When agents recognize they're being tested. Novel contamination, multi-agent amplification, harness defenses. |
-| [Agent Teams](/lib/09-harness/harness-engineering-guide-nexu/guide) | 16 parallel Claudes built a 100K-line C compiler. Ralph-loop, git-based coordination, GCC-as-oracle bisection. |
-| [Initializer + Coding Agent Pattern](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/initializer-coding-pattern.md) | Two-phase harness for long-running agents. Feature list JSON, startup ritual, clean state commit. |
+| [Error Handling](/lib/09-harness/harness-engineering-guide-nexu/guide-error-handling) | Error classification, retry strategies, graceful degradation, checkpoint/resume. |
+| [Multi-Agent Orchestration](/lib/09-harness/harness-engineering-guide-nexu/guide-multi-agent-orchestration) | Orchestration patterns (pipeline, fan-out, supervisor), context isolation, real-world examples (Multica, Paseo, OpenClaw). |
+| [Scheduling & Automation](/lib/09-harness/harness-engineering-guide-nexu/guide-scheduling-and-automation) | Cron, heartbeats, event triggers. Session targeting, delivery, LangSmith vs harness-native comparison. |
+| [Long-Running Harness Design](/lib/09-harness/harness-engineering-guide-nexu/guide-long-running-harness) | Context anxiety, self-evaluation bias, context reset vs compaction, GAN-inspired generator-evaluator architecture. |
+| [Managed Agents Architecture](/lib/09-harness/harness-engineering-guide-nexu/guide-managed-agents-architecture) | Brain/hands/session decoupling, pets vs cattle, credential isolation, TTFT improvements. |
+| [Eval Infrastructure Noise](/lib/09-harness/harness-engineering-guide-nexu/guide-eval-infrastructure) | Resource config swings benchmark scores by 6pp. Floor+ceiling enforcement strategy. |
+| [Classifier-Based Permissions](/lib/09-harness/harness-engineering-guide-nexu/guide-classifier-permissions) | Replace approval fatigue with model-based classifiers. Two-layer defense, four threat models, reasoning-blind design. |
+| [Eval Awareness](/lib/09-harness/harness-engineering-guide-nexu/guide-eval-awareness) | When agents recognize they're being tested. Novel contamination, multi-agent amplification, harness defenses. |
+| [Agent Teams](/lib/09-harness/harness-engineering-guide-nexu/guide-agent-teams) | 16 parallel Claudes built a 100K-line C compiler. Ralph-loop, git-based coordination, GCC-as-oracle bisection. |
+| [Initializer + Coding Agent Pattern](/lib/09-harness/harness-engineering-guide-nexu/guide-initializer-coding-pattern) | Two-phase harness for long-running agents. Feature list JSON, startup ritual, clean state commit. |
 
 ## Reference
 
 | Topic | Description |
 |-------|-------------|
-| [Implementation Comparison](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/comparison.md) | Side-by-side comparison of OpenClaw, Claude Code, Codex, Cline, Aider, Cursor. |
-| [Glossary](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/glossary.md) | Key terms defined. |
+| [Implementation Comparison](/lib/09-harness/harness-engineering-guide-nexu/guide-comparison) | Side-by-side comparison of OpenClaw, Claude Code, Codex, Cline, Aider, Cursor. |
+| [Glossary](/lib/09-harness/harness-engineering-guide-nexu/guide-glossary) | Key terms defined. |
 
 ## Showcase
 
 | Topic | Description |
 |-------|-------------|
-| [Shipping Our Windows Client](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/nexu-windows-packaging.md) | Build time 15min→4min, install time 10min→2min. How we rebuilt the Electron packaging pipeline. |
-| [Ghost Account Hunting](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/ghost-account-hunting.md) | 1000+ ghost accounts drained our platform in 15 days. The full post-mortem. |
+| [Shipping Our Windows Client](/lib/09-harness/harness-engineering-guide-nexu/guide-nexu-windows-packaging) | Build time 15min→4min, install time 10min→2min. How we rebuilt the Electron packaging pipeline. |
+| [Ghost Account Hunting](/lib/09-harness/harness-engineering-guide-nexu/guide-ghost-account-hunting) | 1000+ ghost accounts drained our platform in 15 days. The full post-mortem. |
 
 ---
 

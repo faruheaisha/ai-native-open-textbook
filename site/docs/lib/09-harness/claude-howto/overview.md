@@ -109,8 +109,8 @@ Take the self-assessment or pick your level:
 | Level | You can... | Start here | Time |
 |-------|-----------|------------|------|
 | **Beginner** | Start Claude Code and chat | [Slash Commands](/lib/09-harness/claude-howto/01-slash-commands) | ~2.5 hours |
-| **Intermediate** | Use CLAUDE.md and custom commands | [Skills](/lib/09-harness/claude-howto/03-skills) | ~3.5 hours |
-| **Advanced** | Configure MCP servers and hooks | [Advanced Features](/lib/09-harness/claude-howto/09-advanced-features) | ~5 hours |
+| **Intermediate** | Use CLAUDE.md and custom commands | [Skills](https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/03-skills/README.md) | ~3.5 hours |
+| **Advanced** | Configure MCP servers and hooks | [Advanced Features](https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/09-advanced-features/README.md) | ~5 hours |
 
 **Full learning path with all 10 modules:**
 
@@ -118,14 +118,14 @@ Take the self-assessment or pick your level:
 |-------|--------|-------|------|
 | 1 | [Slash Commands](/lib/09-harness/claude-howto/01-slash-commands) | Beginner | 30 min |
 | 2 | [Memory](/lib/09-harness/claude-howto/02-memory) | Beginner+ | 45 min |
-| 3 | [Checkpoints](/lib/09-harness/claude-howto/08-checkpoints) | Intermediate | 45 min |
-| 4 | [CLI Basics](/lib/09-harness/claude-howto/10-cli) | Beginner+ | 30 min |
-| 5 | [Skills](/lib/09-harness/claude-howto/03-skills) | Intermediate | 1 hour |
-| 6 | [Hooks](/lib/09-harness/claude-howto/06-hooks) | Intermediate | 1 hour |
-| 7 | [MCP](/lib/09-harness/claude-howto/05-mcp) | Intermediate+ | 1 hour |
-| 8 | [Subagents](/lib/09-harness/claude-howto/04-subagents) | Intermediate+ | 1.5 hours |
-| 9 | [Advanced Features](/lib/09-harness/claude-howto/09-advanced-features) | Advanced | 2-3 hours |
-| 10 | [Plugins](/lib/09-harness/claude-howto/07-plugins) | Advanced | 2 hours |
+| 3 | [Checkpoints](https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/08-checkpoints/README.md) | Intermediate | 45 min |
+| 4 | [CLI Basics](https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/10-cli/README.md) | Beginner+ | 30 min |
+| 5 | [Skills](https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/03-skills/README.md) | Intermediate | 1 hour |
+| 6 | [Hooks](https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/06-hooks/README.md) | Intermediate | 1 hour |
+| 7 | [MCP](https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/05-mcp/README.md) | Intermediate+ | 1 hour |
+| 8 | [Subagents](https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/04-subagents/README.md) | Intermediate+ | 1.5 hours |
+| 9 | [Advanced Features](https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/09-advanced-features/README.md) | Advanced | 2-3 hours |
+| 10 | [Plugins](https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/07-plugins/README.md) | Advanced | 2 hours |
 
 **[Complete Learning Roadmap ->](https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/LEARNING-ROADMAP.md)**
 
@@ -231,14 +231,14 @@ MIT licensed. Free forever. Clone it, fork it, make it yours.
 | **Feature Catalog** | Complete reference with installation commands | [CATALOG.md](https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/CATALOG.md) |
 | **Slash Commands** | User-invoked shortcuts | [01-slash-commands/](/lib/09-harness/claude-howto/01-slash-commands) |
 | **Memory** | Persistent context | [02-memory/](/lib/09-harness/claude-howto/02-memory) |
-| **Skills** | Reusable capabilities | [03-skills/](/lib/09-harness/claude-howto/03-skills) |
-| **Subagents** | Specialized AI assistants | [04-subagents/](/lib/09-harness/claude-howto/04-subagents) |
-| **MCP Protocol** | External tool access | [05-mcp/](/lib/09-harness/claude-howto/05-mcp) |
-| **Hooks** | Event-driven automation | [06-hooks/](/lib/09-harness/claude-howto/06-hooks) |
-| **Plugins** | Bundled features | [07-plugins/](/lib/09-harness/claude-howto/07-plugins) |
-| **Checkpoints** | Session snapshots & rewind | [08-checkpoints/](/lib/09-harness/claude-howto/08-checkpoints) |
-| **Advanced Features** | Planning, thinking, background tasks | [09-advanced-features/](/lib/09-harness/claude-howto/09-advanced-features) |
-| **CLI Reference** | Commands, flags, and options | [10-cli/](/lib/09-harness/claude-howto/10-cli) |
+| **Skills** | Reusable capabilities | [03-skills/](https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/03-skills/README.md) |
+| **Subagents** | Specialized AI assistants | [04-subagents/](https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/04-subagents/README.md) |
+| **MCP Protocol** | External tool access | [05-mcp/](https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/05-mcp/README.md) |
+| **Hooks** | Event-driven automation | [06-hooks/](https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/06-hooks/README.md) |
+| **Plugins** | Bundled features | [07-plugins/](https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/07-plugins/README.md) |
+| **Checkpoints** | Session snapshots & rewind | [08-checkpoints/](https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/08-checkpoints/README.md) |
+| **Advanced Features** | Planning, thinking, background tasks | [09-advanced-features/](https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/09-advanced-features/README.md) |
+| **CLI Reference** | Commands, flags, and options | [10-cli/](https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/10-cli/README.md) |
 | **Blog Posts** | Real-world usage examples | [Blog Posts](https://medium.com/@luongnv89) |
 
 </details>
@@ -361,7 +361,7 @@ cp 02-memory/personal-CLAUDE.md ~/.claude/CLAUDE.md
 
 <summary>03. Skills</summary>
 
-**Location**: [03-skills/](/lib/09-harness/claude-howto/03-skills)
+**Location**: [03-skills/](https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/03-skills/README.md)
 
 **What**: Reusable, auto-invoked capabilities with instructions and scripts
 
@@ -386,7 +386,7 @@ cp -r 03-skills/code-review-specialist /path/to/project/.claude/skills/
 
 <summary>04. Subagents</summary>
 
-**Location**: [04-subagents/](/lib/09-harness/claude-howto/04-subagents)
+**Location**: [04-subagents/](https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/04-subagents/README.md)
 
 **What**: Specialized AI assistants with isolated contexts and custom prompts
 
@@ -409,7 +409,7 @@ cp 04-subagents/*.md /path/to/project/.claude/agents/
 
 <summary>05. MCP Protocol</summary>
 
-**Location**: [05-mcp/](/lib/09-harness/claude-howto/05-mcp)
+**Location**: [05-mcp/](https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/05-mcp/README.md)
 
 **What**: Model Context Protocol for accessing external tools and APIs
 
@@ -438,7 +438,7 @@ claude mcp add github -- npx -y @modelcontextprotocol/server-github
 
 <summary>06. Hooks</summary>
 
-**Location**: [06-hooks/](/lib/09-harness/claude-howto/06-hooks)
+**Location**: [06-hooks/](https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/06-hooks/README.md)
 
 **What**: Event-driven shell commands that execute automatically in response to Claude Code events
 
@@ -488,7 +488,7 @@ Configure hooks in `~/.claude/settings.json`:
 
 <summary>07. Plugins</summary>
 
-**Location**: [07-plugins/](/lib/09-harness/claude-howto/07-plugins)
+**Location**: [07-plugins/](https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/07-plugins/README.md)
 
 **What**: Bundled collections of commands, agents, MCP, and hooks
 
@@ -511,7 +511,7 @@ Configure hooks in `~/.claude/settings.json`:
 
 <summary>08. Checkpoints and Rewind</summary>
 
-**Location**: [08-checkpoints/](/lib/09-harness/claude-howto/08-checkpoints)
+**Location**: [08-checkpoints/](https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/08-checkpoints/README.md)
 
 **What**: Save conversation state and rewind to previous points to explore different approaches
 
@@ -546,7 +546,7 @@ Configure hooks in `~/.claude/settings.json`:
 <details>
 <summary>09. Advanced Features</summary>
 
-**Location**: [09-advanced-features/](/lib/09-harness/claude-howto/09-advanced-features)
+**Location**: [09-advanced-features/](https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/09-advanced-features/README.md)
 
 **What**: Advanced capabilities for complex workflows and automation
 
@@ -566,7 +566,7 @@ See [config-examples.json](https://github.com/luongnv89/claude-howto/blob/97bfb0
 
 <summary>10. CLI Reference</summary>
 
-**Location**: [10-cli/](/lib/09-harness/claude-howto/10-cli)
+**Location**: [10-cli/](https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/10-cli/README.md)
 
 **What**: Complete command-line interface reference for Claude Code
 

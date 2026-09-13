@@ -593,10 +593,10 @@ Reusable starting points for harness artifacts. Copy and adapt.
 
 | Template | Purpose |
 |---|---|
-| [`templates/AGENTS.md`](/lib/09-harness/awesome-harness-engineering-aiboost/templates) | Project-level agent instructions: conventions, constraints, tool permissions |
-| [`templates/PLAN.md`](https://github.com/ai-boost/awesome-harness-engineering/blob/6015473ad287575fc06d0ddd7835306250a66b9f/templates/PLAN.md) | Task planning artifact with milestones and verification gates |
-| [`templates/IMPLEMENT.md`](https://github.com/ai-boost/awesome-harness-engineering/blob/6015473ad287575fc06d0ddd7835306250a66b9f/templates/IMPLEMENT.md) | Implementation log: decisions, deviations, open questions |
-| [`templates/HARNESS_CHECKLIST.md`](https://github.com/ai-boost/awesome-harness-engineering/blob/6015473ad287575fc06d0ddd7835306250a66b9f/templates/HARNESS_CHECKLIST.md) | Review checklist before shipping a harness to production |
+| [`templates/AGENTS.md`](https://github.com/ai-boost/awesome-harness-engineering/blob/6015473ad287575fc06d0ddd7835306250a66b9f/templates/AGENTS.md) | Project-level agent instructions: conventions, constraints, tool permissions |
+| [`templates/PLAN.md`](/lib/09-harness/awesome-harness-engineering-aiboost/templates-PLAN) | Task planning artifact with milestones and verification gates |
+| [`templates/IMPLEMENT.md`](/lib/09-harness/awesome-harness-engineering-aiboost/templates-IMPLEMENT) | Implementation log: decisions, deviations, open questions |
+| [`templates/HARNESS_CHECKLIST.md`](/lib/09-harness/awesome-harness-engineering-aiboost/templates-HARNESS_CHECKLIST) | Review checklist before shipping a harness to production |
 
 ---
 

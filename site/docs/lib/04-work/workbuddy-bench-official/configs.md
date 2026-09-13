@@ -14,7 +14,7 @@ zh: ""
 
 # Configuration system
 
-**English** | [简体中文](https://github.com/Tencent/workbuddy-bench/blob/625b2233093ae4f23e76be28c1f341d41cc70373/configs/README.zh.md)
+**English** | [简体中文](/lib/04-work/workbuddy-bench-official/configs-README.zh)
 
 Every input to an evaluation run lives here. The four subdirectories are the four
 layers. At runtime they are first **deep-merged**, then resolved into a single

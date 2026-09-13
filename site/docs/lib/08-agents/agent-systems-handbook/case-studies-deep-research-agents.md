@@ -102,7 +102,7 @@ Practical defaults:
 
 - [Context Engineering](https://github.com/Prompthon-IO/agent-systems-handbook/blob/5b71cfa598701a34834f33b42be5f8a422138a3c/systems/context-engineering/README.md)
 - [Evaluation And Observability](https://github.com/Prompthon-IO/agent-systems-handbook/blob/5b71cfa598701a34834f33b42be5f8a422138a3c/systems/evaluation-and-observability/README.md)
-- [Case Studies Overview](/lib/08-agents/agent-systems-handbook/case-studies-README)
+- [Case Studies Overview](/lib/08-agents/agent-systems-handbook/case-studies-2)
 
 ## Update Log
 

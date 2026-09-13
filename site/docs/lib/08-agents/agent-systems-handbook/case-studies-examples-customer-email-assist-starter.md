@@ -1,0 +1,165 @@
+---
+title: "Agent Systems Handbook（智能体系统手册）"
+sourceId: "08-agents/agent-systems-handbook"
+sourceTitle: "Agent Systems Handbook（智能体系统手册）"
+sourceKind: "工程手册"
+licenseLabel: "限非商用"
+lang: "英文"
+tier: 1
+volume: "08-agents"
+sourceUrl: "https://github.com/Prompthon-IO/agent-systems-handbook"
+entryUrl: "https://github.com/Prompthon-IO/agent-systems-handbook/blob/5b71cfa598701a34834f33b42be5f8a422138a3c/README.md"
+zh: ""
+---
+
+# Agent Systems Handbook（智能体系统手册）
+
+import SupportCTA from "/snippets/support-cta.mdx";
+
+## Summary
+
+This starter extends the customer-support case study into a connector-first
+local workflow: read Gmail through the Codex Gmail connector, classify customer
+issues with deterministic rules first, persist them in SQLite, and review or
+approve replies through a local dashboard.
+
+## Status
+
+`starter`
+
+Source code: [case-studies/examples/customer-email-assist-starter](https://github.com/Prompthon-IO/agent-systems-handbook/tree/main/case-studies/examples/customer-email-assist-starter)
+
+## Why It Exists
+
+The earlier [Customer Support Email Agent Starter](https://github.com/Prompthon-IO/agent-systems-handbook/blob/5b71cfa598701a34834f33b42be5f8a422138a3c/case-studies/examples/customer-support-email-agent-starter/README.md)
+shows the safer draft-only boundary. This follow-on starter keeps the same
+local-first posture, but adds the operational surfaces teams usually need next:
+Gmail connector import, local SQLite state, customer review queues, and a
+deterministic dashboard.
+
+## Related Lab Pages
+
+- [Customer Support Agents](https://github.com/Prompthon-IO/agent-systems-handbook/blob/5b71cfa598701a34834f33b42be5f8a422138a3c/case-studies/customer-support-agents/README.md)
+- [Customer Support Email Agent Starter](https://github.com/Prompthon-IO/agent-systems-handbook/blob/5b71cfa598701a34834f33b42be5f8a422138a3c/case-studies/examples/customer-support-email-agent-starter/README.md)
+- [Case Studies Overview](/lib/08-agents/agent-systems-handbook/case-studies-2)
+
+## Folder Structure
+
+```text
+customer-email-assist-starter/
+├── app/
+│   ├── api/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── index.mdx
+├── package.json
+├── README.md
+├── scripts/
+│   └── customer-email-assist.ts
+├── skill/
+│   └── SKILL.md
+└── src/
+    ├── components/
+    ├── lib/
+    └── test/
+```
+
+## Quick Start
+
+Install dependencies and run the local dashboard:
+
+```bash
+npm install
+npm run setup-local
+npm run dev
+```
+
+For the default connector-assisted low-token path, let Codex use the Gmail
+connector to produce a prepared inbound batch, then import that batch:
+
+```bash
+tsx scripts/customer-email-assist.ts import-prepared-batch --input /tmp/prepared-inbound.json
+```
+
+Write intermediate batches to files instead of printing large JSON blobs to
+stdout:
+
+```bash
+tsx scripts/customer-email-assist.ts prepare-draft-batch --out /tmp/draft-batch.json
+```
+
+An advanced direct Gmail OAuth adapter still exists for standalone local
+integrations, but it is not the default setup path:
+
+```bash
+npm run sync:oauth
+```
+
+For the direct OAuth auto-send path, follow the starter README and use the
+dashboard `Connect Gmail` button after creating the Google OAuth client:
+
+```text
+case-studies/examples/customer-email-assist-starter/README.md
+```
+
+In connector-first mode, dashboard approval stores issues as
+`approved_to_send` for the Codex Gmail connector runner. If local OAuth is
+connected, the dashboard can execute the deterministic send path immediately
+after the undo countdown.
+
+## Minimal-Token Boundary
+
+This starter is designed to minimize model usage.
+
+- Hard logic handles Gmail connector import shaping, HTML stripping, signature
+  trimming, quoted history removal, customer matching, SQLite persistence,
+  analytics, and queue state.
+- The intended skill workflow reserves model usage for only two JSON-only
+  surfaces:
+  - understanding cleaned inbound customer messages
+  - generating template-field JSON for reply drafts
+- The rendered reply text and HTML are produced locally from fixed templates,
+  not from free-form model output.
+
+## Included Sample Files
+
+- `skill/SKILL.md`: Codex workflow for the two model-backed steps plus the
+  deterministic CLI commands
+- `src/lib/email-processing.ts`: HTML cleanup, quoted-history trimming, and
+  heuristic classification helpers
+- `src/lib/repository.ts`: SQLite queries for issues, customers, analytics, and
+  review actions
+- `src/lib/sync.ts`: deterministic inbound batch import, draft preparation, and
+  draft rendering coordination
+- `app/page.tsx`: Next.js App Router dashboard with issues, analysis, customer
+  review, and customer management
+- `README.md`: direct Gmail OAuth setup, dashboard connection flow, and optional
+  runtime variables
+
+## Constraints
+
+- Gmail authentication is expected to happen through the Codex Gmail connector
+  in the normal workflow.
+- Direct Gmail OAuth exists as an advanced adapter for standalone local runs.
+  Its required values are `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET`; the
+  dashboard connection flow stores the refresh token in local state.
+- Attachments and inline images are ignored in v1.
+- The dashboard is single-operator and local-machine oriented.
+- `import-prepared-batch` uses deterministic fallback understanding and drafting
+  so the starter remains runnable without a live model call.
+- `npm run setup-local` resets the local SQLite database to an empty state.
+
+## Verification
+
+- `npm run lint`
+- `npm run test`
+- `npm run build`
+
+## Next Steps
+
+- Insert a real model-backed `understand` step between `prepare-inbound-batch`
+  and `persist-understanding`.
+- Insert a model-backed `draft-fields` step between `prepare-draft-batch` and
+  `render-save-drafts`.
+- Add a fixture-driven Gmail replay suite with sample labeled threads.

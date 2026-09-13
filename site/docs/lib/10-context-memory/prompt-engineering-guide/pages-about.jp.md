@@ -1,0 +1,25 @@
+---
+title: "About"
+sourceId: "10-context-memory/prompt-engineering-guide"
+sourceTitle: "Prompt Engineering Guide"
+sourceKind: "工程手册"
+licenseLabel: "可转载"
+lang: "英文"
+tier: 2
+volume: "10-context-memory"
+sourceUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide"
+entryUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide/blob/57673726396dd94acb23bdb1e67f27c78ee85a8e/README.md"
+zh: ""
+---
+
+# About
+
+「Prompt Engineering Guide」は、[DAIR.AI](https://github.com/dair-ai)のプロジェクトです。Prompt Engineeringについて、研究者や実践者に教育することを目的としています。
+
+DAIR.AIは、AIの研究、教育、技術を民主化することを目指しています。私たちのミッションは、次世代のAIイノベーターやクリエイターを可能にすることです。
+
+コミュニティからの貢献を歓迎しています。編集ボタンを探してください。
+
+ライセンス情報は[こちら](https://github.com/dair-ai/Prompt-Engineering-Guide/blob/main/LICENSE.md)からご覧いただけます。
+
+私たちは、[OpenAI CookBook](https://github.com/openai/openai-cookbook)、[Pretrain, Prompt, Predict](http://pretrain.nlpedia.ai/)、[Learn Prompting](https://learnprompting.org/)など、多くのオープンリソースからインスピレーションを得ています。

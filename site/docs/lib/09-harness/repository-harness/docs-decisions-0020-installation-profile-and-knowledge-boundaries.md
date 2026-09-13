@@ -1,0 +1,79 @@
+---
+title: "0020 Installation Profile And Knowledge Boundaries"
+sourceId: "09-harness/repository-harness"
+sourceTitle: "Repository Harness（仓库级 Agent 工作区）"
+sourceKind: "工程手册"
+licenseLabel: "可转载"
+lang: "英文"
+tier: 3
+volume: "09-harness"
+sourceUrl: "https://github.com/hoangnb24/repository-harness"
+entryUrl: "https://github.com/hoangnb24/repository-harness/blob/e765792b635b4d5e3e5fc0578f82f9ca5dea2681/README.md"
+zh: ""
+---
+
+# 0020 Installation Profile And Knowledge Boundaries
+
+Date: 2026-07-21
+
+## Status
+
+Accepted. Amended by decisions 0026 and 0027.
+
+## Context
+
+Decision 0019 made the repository-centered workflow authoritative. Installation
+must make that boundary physically true: a consumer should receive generic
+repository guidance and the safe maintenance binary without upstream product
+history, application assumptions, or a second source of truth.
+
+Decision 0026 added explicit-only onboarding skills to the core. Decision 0027
+ended the former compatibility profile rather than continuing a two-product
+installer.
+
+## Decision
+
+Harness has one product profile: **core**.
+
+Core installs:
+
+- the compact repository map and workflow;
+- generic product, plan, and decision structure;
+- optional templates for durable plans, decisions, runbooks, and measured
+  Harness improvements;
+- explicit-only onboarding and proposal-audit skills; and
+- the checksum-verified Rust `harness` maintenance binary.
+
+Core does not install:
+
+- consumer product policy or architecture;
+- application commands, credentials, fixtures, logs, or validation;
+- a database, schemas, orchestration, or background processes; or
+- upstream history, tests, CI, release scripts, and product decisions.
+
+The engineering-wisdom advisory skill is an independent explicit opt-in, not a
+second product profile. It stores no state and establishes no consumer policy.
+
+Installation and updates preserve unknown existing files. In particular, they
+do not automatically delete artifacts from the end-of-life compatibility
+product. Removal of consumer-owned legacy bytes requires a separate explicit
+decision in that repository.
+
+## Alternatives Considered
+
+1. **Keep a compatibility profile.** Superseded by decision 0027 because its
+   implementation and release train kept two products in one repository.
+2. **Install upstream architecture and examples.** Rejected because their names
+   and placement would make them appear authoritative for the consumer.
+3. **Offer many feature flags.** Rejected because combinatorial profiles obscure
+   the small stable core.
+4. **Install advisory philosophy by default.** Rejected because repository
+   authority, not upstream taste, must decide engineering policy.
+
+## Consequences
+
+- Fresh installations have one product and one authority path.
+- Consumer repositories receive no fabricated application truth.
+- The installed binary can safely deliver later core improvements.
+- Historical product implementations remain in Git rather than in consumer
+  payloads or current documentation search.

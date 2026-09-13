@@ -36,6 +36,11 @@ const args = Object.fromEntries(
 );
 const BATCH_KINDS = args.kinds ? new Set(args.kinds.split(",").filter(Boolean)) : null;
 const BATCH_VOLUMES = args.volumes ? new Set(args.volumes.split(",")) : null;
+// 每门课的正文篇数上限（兜底路径用）。编排口径是「入口文档 + 每个课时目录的主文档」，
+// 这个上限只防止个别超大仓库把整棵树灌进来。
+// 想要某门课完整收录，在 curation.json 的 readingPlan 里登记 roots（那边的默认上限是 600）。
+// 注：VitePress 把整站页面放在同一个进程里渲染，页面数直接决定构建内存：
+// 2500 页约 5GB，5200 页约 10GB，10000 页超过 12GB（本机 15.7GB 被撑爆）。加课要考虑这个。
 const MAX_DOCS = Number(args.maxDocs || 24);
 
 const catalog = JSON.parse(fs.readFileSync(CATALOG, "utf8"));
@@ -242,10 +247,14 @@ function readingSet(s) {
   }
   if (entryRel) add(path.join(srcDir, ...entryRel.split("/")), "overview.md");
 
-  // 有些上游把整门课放在多层目录里（units/en/unit1/xxx.mdx、docs/zh/01-xxx.md），
-  // lessonList 只到一级目录，正文会整片丢失。这类课程在 curation.json 里登记阅读范围。
-  const plan = planEarly;
-  if (plan && Array.isArray(plan.roots) && plan.roots.length) {
+  // 阅读范围：curation.json 的 readingPlan 可显式登记 roots / exclude / limit。
+  // 没登记的课程默认读整棵源树。
+  // 原兜底是「每个课时目录只取一个主文档、全课最多 24 篇」—— 上游几百篇正文连同配图
+  // 会整片丢失（实例：一份 502 篇的仓库只上了 6 篇，65 门课一张图都没有）。
+  const plan = planEarly && Array.isArray(planEarly.roots) && planEarly.roots.length
+    ? planEarly
+    : { roots: ["."] };
+  if (plan) {
     const skip = (plan.exclude || []).map((x) => String(x).replace(/[\\/]+$/, ""));
     const collected = [];
     for (const root of plan.roots) {
@@ -263,9 +272,26 @@ function readingSet(s) {
 // 仓库事务文件与隐藏目录不是课程正文。
 const PLAN_SKIP_FILE = /(^|\/)(AGENTS|CHANGELOG|CODE_OF_CONDUCT|CONTRIBUTING|SECURITY|SUPPORT|NOTICE|PATENTS|LICENSE|_sidebar|_navbar|_\u5feb\u7167\u4fe1\u606f|_\u5feb\u7167\u7d22\u5f15)(\.mdx?)?$/i;
 
+// 多语种仓库会把同一份正文摊成十几个语种目录（i18n/ja、docs/ko、ar-pages…）。
+// 站点面向中文读者，只保留中文与英文，其余语种整枝跳过；中文的 zh-tw / zh-hant 也保留。
+const LOCALE_CODES = "ar|ja|ko|es|fr|de|pt|ru|hi|vi|th|id|tr|it|nl|pl|uk|fa|he|bn|el|cs|ro|hu|sv|da|fi|no|sk|bg|hr|sr|lt|lv|et|sl|ca|gl|eu|af|ms|tl|ne|ur|ta|te|ml|kn|mr|gu|pa|si|km|lo|my|am";
+const PLAN_SKIP_LOCALE = new RegExp("^(" + LOCALE_CODES + ")([-_][a-z0-9]{2,6})?$", "i");
+// 目录之外，上游还会把同一篇正文写成「文件名 + 语种后缀」（README.ja.md、chapter5.ko.md）。
+// zh / en 保留（中文版对本站读者有用），其余语种整篇跳过。
+const PLAN_SKIP_LOCALE_FILE = new RegExp("\\.(" + LOCALE_CODES + ")([-_][A-Za-z0-9]{2,6})?\\.mdx?$", "i");
+const PLAN_KEEP_LOCALE_DIR = /^(i18n|locales|lang|translations|locale)$/i;
+function isForeignLocaleDir(seg) {
+  const t = seg.trim().toLowerCase();
+  if (PLAN_KEEP_LOCALE_DIR.test(t)) return false; // 容器目录本身保留，交给下一层判断
+  return PLAN_SKIP_LOCALE.test(t);
+}
+
 function planOutRel(rel) {
   return rel
     .replace(/\.mdx?$/i, "")
+    // 「课时目录/README.md」会拼成 s13_agent_teams-README，
+    // 目录名本身已经说清楚了，去掉冗余尾段，URL 回到 s13_agent_teams。
+    .replace(/[\/]?(?:README|readme|Readme|index|INDEX)$/, "")
     // 标题里带 .md（如「双层 SKILL.md 与 WORKBUDDY.md」）时，站点会生成 xxx.md.md。
     // 这种双扩展名的页面 VitePress 解析不了，指向它的链接一律判定为死链、构建直接失败；
     // 段内的 .md 换成 _md，站内链接与文件名保持一致。
@@ -281,9 +307,18 @@ function planOutRel(rel) {
     });
     for (const abs of collected) {
       const rel = path.relative(srcDir, abs).split(path.sep).join("/");
+      // 上游偶尔把整站文档拼成一个大文件（llms-full.md 之类），几百 KB 一条，
+      // 不是一节内容，渲染它也最吃内存。
+      try {
+        if (fs.statSync(abs).size > 512 * 1024) continue;
+      } catch {
+        continue;
+      }
       if (skip.some((p) => rel === p || rel.startsWith(p + "/"))) continue;
       if (/(^|\/)\./.test(rel)) continue;
       if (PLAN_SKIP_FILE.test(rel)) continue;
+      if (rel.split("/").some(isForeignLocaleDir)) continue;
+      if (PLAN_SKIP_LOCALE_FILE.test(rel)) continue;
       if (/(^|\/)(assets?|images?|img|media|public|static|figures?|documents)(\/|$)/i.test(rel)) continue;
       if (/(^|\/)source\.md$/i.test(rel)) continue;
       if (/(^|\/)QwenWorkGuide(\/|$)/.test(rel)) continue;
@@ -299,24 +334,9 @@ function planOutRel(rel) {
       while (seen.has(outRel)) outRel = base + "-" + n++ + ".md";
       add(abs, outRel);
     }
-    return { entryRel, list: list.slice(0, plan.limit || 600) };
+    return { entryRel, list: list.slice(0, plan.limit || MAX_DOCS) };
   }
 
-  for (const l of s.lessonList || []) {
-    const dir = path.join(srcDir, l.dir);
-    let picked = null;
-    for (const c of ["README.md", "readme.md", "index.md", "README.MD"]) {
-      if (fs.existsSync(path.join(dir, c))) {
-        picked = path.join(dir, c);
-        break;
-      }
-    }
-    if (!picked) {
-      const f = mdFilesIn(dir)[0];
-      if (f) picked = path.join(dir, f);
-    }
-    if (picked) add(picked, `${String(l.dir).replace(/[^\w.\u4e00-\u9fff-]/g, "_").replace(/\.mdx?$/i, "_md")}.md`);
-  }
   return { entryRel, list: list.slice(0, MAX_DOCS) };
 }
 
@@ -524,6 +544,38 @@ function vPreInlineCode(text) {
   });
 }
 
+// 上游偶尔多写一个孤立的 \`\`\` 围栏（手误），围栏之后的正文会被所有工序当成代码跳过，
+// 里面的相对链接就一直没改写，构建时被判成死链（实测 3 条让整站构建失败）。
+// 这里做最后一次兜底：全篇扫一遍剩下的相对 .md 链接，只改写「确实指向本站已发布页面」的，
+// 指不到的一律原样留着，交给上游地址或后续人工处理。
+function resolveLeftoverLinks(text, bySourceRel, currentSourceRel) {
+  const decode = (u) => {
+    if (!/%[0-9A-Fa-f]{2}/.test(u)) return u;
+    try {
+      return decodeURIComponent(u);
+    } catch {
+      return u;
+    }
+  };
+  return text.replace(/(?<!!)(\[[^\[\]]*\]\()([^)\s]+)(\s*(?:"[^"]*"|'[^']*'))?(\))/g, (m, open, url, title, close) => {
+    if (/^(?:[a-z][a-z0-9+.-]*:|\/\/|\/|#)/i.test(url)) return m;
+    const clean = decode(url.split("#")[0].split("?")[0]);
+    if (!clean) return m;
+    const hash = url.includes("#") ? "#" + decode(url.slice(url.indexOf("#") + 1)) : "";
+    const base = path.posix.dirname(currentSourceRel);
+    const target = path.posix.normalize(path.posix.join(base, clean));
+    // 「指向目录」的写法（../03-skills/）也要认：依次试目录里的 README / index，再试同名 .md
+    const tries = [target, path.posix.join(target, "README.md"), path.posix.join(target, "index.md"), target + ".md"];
+    let hit = null;
+    for (const t of tries) {
+      hit = bySourceRel.get(t);
+      if (hit) break;
+    }
+    if (!hit) return m;
+    return open + "/lib/" + hit.replace(/\.md$/, "") + hash + (title || "") + close;
+  });
+}
+
 function rewriteLinks(text, s, currentSourceRel, bySourceRel, currentOutRel) {
   const decode = (u) => {
     if (!/%[0-9A-Fa-f]{2}/.test(u)) return u;
@@ -596,6 +648,12 @@ function rewriteLinks(text, s, currentSourceRel, bySourceRel, currentOutRel) {
     return r.url ? open + r.url + (title || "") + close : open.slice(1, -2);
   });
 
+  // 模板占位符行「[DATE]: [PLACEHOLDER]」会被 markdown 当成引用式链接定义，
+  // 生成一条指向 ./[PLACEHOLDER] 的死链，整站构建因此失败。
+  // URL 段以方括号开头的一律不是地址，把行首方括号转义掉：可见文字不变，定义不再成立。
+  // 行首可能还有列表符号（「- [DATE]: [PLACEHOLDER]」），一并认掉。
+  text = text.replace(/^([ \t]*(?:[-*+][ \t]+|\d+[.)][ \t]+)?)\[([^\[\]]+)\]:([ \t]*)\[/gm, "$1\\[$2]:$3[");
+
   // 引用式链接定义：[标签]: 路径（Markdown 的另一种链接写法）
   text = text.replace(/^([ \t]*\[[^\[\]]+\]:[ \t]*\r?\n?[ \t]*)(\S+)([^\n]*)$/gm, (m, prefix, url, rest) => {
     if (/^(https?:|mailto:|data:|#)/i.test(url)) return m;
@@ -663,6 +721,25 @@ for (const t of ["data","datalist","dialog","fieldset","form","label","legend","
 // 块级标签：跨段不成对就丢弃（markdown-it 的 HTML 块规则会把跨段的配对拆散）。
 const BLOCK_TAGS = new Set(["details","summary","div","p","table","thead","tbody","tfoot","tr","th","td","caption","ul","ol","li","dl","dt","dd","blockquote","section","article","nav","header","footer","main","aside","figure","figcaption","center","picture","video","audio","iframe","colgroup"]);
 
+// 上游正文里真的会出现「一句话以 <li 开头」的写法：
+//   <li Only messages that actually came from the user (user-role turns) count as user messages. …
+// 它会被 markdown 当成 HTML 块交给渲染器，Vue 编译时报 Duplicate attribute。
+// 判定：标签名后面跟了一串「不是 attr / attr="…" 形式的裸词」，那就是句子不是标签，整体转义成文字。
+function proseTagAttrs(raw) {
+  if (!raw) return false;
+  // 先把属性值掏空再判断：URL 和 alt 里出现括号、逗号、空格都是正常的
+  const stripped = raw.replace(/"[^"]*"/g, '""').replace(/'[^']*'/g, "''");
+  if (stripped.length > 100) return true;
+  if (/[()\[\],;—–。，、！？]/.test(stripped)) return true;
+  const inner = stripped.replace(/^<\/?[A-Za-z][A-Za-z0-9:-]*/, "").replace(/\/?>$/, "").trim();
+  if (!inner) return false;
+  const toks = inner.split(/\s+/).filter(Boolean);
+  if (toks.length < 3) return false;
+  let bare = 0;
+  for (const t of toks) if (!/^[A-Za-z_:@.#-]+(=(""|''))?$/.test(t)) bare += 1;
+  return bare >= 2;
+}
+
 function sanitizeHtml(text) {
   const comments = [];
   for (const m of text.matchAll(/<!--[\s\S]*?-->/g)) comments.push([m.index, m.index + m[0].length]);
@@ -701,7 +778,7 @@ function sanitizeHtml(text) {
       name,
       isClose: m[0].startsWith("</"),
       isVoid: HTML_VOID.has(name) || m[3] === "/",
-      keep: HTML_TAGS.has(name),
+      keep: HTML_TAGS.has(name) && !proseTagAttrs(m[0]),
       seg: segAt(m.index),
       paired: false,
     });
@@ -974,6 +1051,13 @@ function stripChrome(text) {
       .replace(/<a\b[^>]*>\s*<img\b[^>]*(?:shields\.io|badgen\.net|visitorbadge|github-readme-stats|star-history|komarev|profile-counter|codecov\.io)[^>]*>\s*<\/a>/gi, "")
       .replace(/<img\b[^>]*(?:shields\.io|badgen\.net|visitorbadge|github-readme-stats|star-history|komarev|profile-counter|codecov\.io)[^>]*>/gi, "")
       .replace(/!\[[^\]]*\]\(<?https?:\/\/[^)\s]*(?:shields\.io|badgen\.net|visitorbadge|github-readme-stats|star-history|komarev|profile-counter|codecov\.io)[^)]*\)/gi, "")
+      // MDX 的 <video src={某个变量} …>…</video>：静态书里没有这个变量，播不了，
+      // 留在正文里就是一段渲染器过不去的坏标签。整块去掉，其余 <video src="…"> 照旧保留。
+      .replace(/<video\b[^>]*\{[^>]*>[\s\S]*?<\/video>/gi, "")
+      // Docusaurus 风格的类属性语法「[文字](链接){:.external}」在 VitePress 里会生成
+      // 空的属性对象，Vue 编译成 _mergeProps(a, , b) 直接是语法错误、整站构建失败。
+      // 只去属性声明，链接与文字一字不动。{#anchor} 是有效写法，保留。
+      .replace(/\{:\s*[^}\n]*\}/g, "")
   )
     .replace(/<!--[^>]*\bSTART\b[^>]*-->[\s\S]*?<!--[^>]*\bEND\b[^>]*-->/gi, "")
     .replace(/<!--[\s\S]*?-->/g, "");
@@ -1045,7 +1129,11 @@ function stripChrome(text) {
     // 页脚里的多语言链接 / 许可声明，属于仓库门面
     if (/readme-i18n\.com/i.test(t)) continue;
     if (/^<sub>.*\b(license|licence|mit|apache|gpl|bsd)\b/i.test(t)) continue;
-    if (centered > 0 && (/^<img\b/i.test(t) || /^<\/?a\b/i.test(t) || /^\[?!\[/i.test(t))) continue;
+    // 居中块里原来把 <img> 也一并丢掉，结果上游最标准的插图写法
+    // 「<div align="center"><img src="…" width="90%"></div>」整片消失。
+    // 实测全站因此丢掉 5874 张图（hello-agents 461 张、codex-orange-book 123 张全没了）。
+    // 徽章另有 shields.io 等规则兜底，这里只丢链接壳，图片留下。
+    if (centered > 0 && (/^<\/?a\b/i.test(t) || /^\[?!\[/i.test(t))) continue;
     kept.push(line);
   }
 
@@ -1320,9 +1408,23 @@ function rmrf(p) {
   fs.rmSync(p, { recursive: true, force: true });
 }
 
+// Windows 上刚写完的文件会被实时扫描/索引短暂占用，直接写会抛
+// UNKNOWN: unknown error, open '…'，一次就中断整轮生成。这里做几次退避重试。
 function writeFile(p, text) {
   fs.mkdirSync(path.dirname(p), { recursive: true });
-  fs.writeFileSync(p, text.replace(/\r\n/g, "\n"), "utf8");
+  const data = text.replace(/\r\n/g, "\n");
+  for (let attempt = 0; ; attempt += 1) {
+    try {
+      fs.writeFileSync(p, data, "utf8");
+      return;
+    } catch (err) {
+      if (attempt >= 6) throw err;
+      const until = Date.now() + 60 * (attempt + 1);
+      while (Date.now() < until) {
+        /* 忙等：生成流程是单线程的，这里没有别的事可做 */
+      }
+    }
+  }
 }
 
 // ---------- 译文提取模式 ----------
@@ -1450,7 +1552,18 @@ let docCount = 0;
 
 for (const s of selected) {
   const { entryRel, list: set } = readingSet(s);
-  if (set.length < 2) continue;
+  // 原来「少于 2 篇就跳过」，于是 5 份「可转载」的单文档清单（一份长 README，
+  // 113KB–307KB）整份没上站。改成：空壳才跳，单篇要有实质体量才收。
+  if (set.length < 2) {
+    const only = set[0];
+    let big = false;
+    try {
+      big = Boolean(only) && fs.statSync(only.abs).size >= 20000;
+    } catch {
+      big = false;
+    }
+    if (!big) continue;
+  }
   const outDir = path.posix.join(s.volume, s.local);
   // 上游有些页面整页都是组件壳子，清洗后是空的、不会进书；链接指向它们就会变成死链。
   const usable = set.filter((d) => !isStubDoc(d));
@@ -1470,6 +1583,7 @@ for (const s of selected) {
     text = mapOutsideCode(text, escapeVueAndTags);
     text = mapOutsideCode(text, vPreInlineCode);
     text = mapOutsideCode(text, unescapeTagsInInlineCode);
+    text = resolveLeftoverLinks(text, bySourceRel, d.relInSource);
     text = withTranslations(text, trans[d.relInSource]);
     const outPath = path.join(LIB, s.volume, s.local, ...d.outRel.split("/"));
     const fm = {

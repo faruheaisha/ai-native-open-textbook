@@ -19,8 +19,12 @@ MineContext is a proactive context-aware AI partner. By utilizing screenshots an
 
 ## 课时
 
-1. [MineContext（火山引擎个人上下文助手）](config.md)
-2. [MineContext](frontend.md)
-3. [MineContext 架构概览](src.md)
+1. [MineContext（火山引擎个人上下文助手）](config-quick_start_default.md)
+2. [macOS Window Capture](frontend-externals-python-window_capture.md)
+3. [macOS Window Inspector](frontend-externals-python-window_inspector.md)
+4. [MineContext](frontend.md)
+5. [👋🏻 MineContext 是什么](README_zh.md)
+6. [MineContext 架构概览](src-architecture-overview-zh.md)
+7. [MineContext Architecture Overview](src-architecture-overview.md)
 
-开始学习 → [MineContext（火山引擎个人上下文助手）](config.md)
+开始学习 → [MineContext（火山引擎个人上下文助手）](config-quick_start_default.md)

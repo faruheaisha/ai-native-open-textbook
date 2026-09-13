@@ -29,7 +29,7 @@ tracker.
 ![Seven phases across 24 weeks, and what each one puts in your hands](https://gh-proxy.com/https://raw.githubusercontent.com/zorost/AI-Engineering-Lab/cdd8dbdf559f72211a7c068e8877918441531e52/assets/diagrams/lab-journey.png)
 
 > **Brand new?** Read [`START-HERE.md`](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/START-HERE.md) first, and keep
-> [`reference/GLOSSARY.md`](/lib/01-foundations/ai-engineering-lab/reference) one tab away, every term in the program is
+> [`reference/GLOSSARY.md`](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/reference/GLOSSARY.md) one tab away, every term in the program is
 > defined there in plain language.
 
 <div class="tb-zh"><p>全新上手？先读 START-HERE.md，并把 reference/GLOSSARY.md 放在旁边一个标签页——课程里的每个术语都在那里用平实的语言定义了。</p></div>

@@ -1,0 +1,100 @@
+---
+title: "Agent Systems Handbook（智能体系统手册）"
+sourceId: "08-agents/agent-systems-handbook"
+sourceTitle: "Agent Systems Handbook（智能体系统手册）"
+sourceKind: "工程手册"
+licenseLabel: "限非商用"
+lang: "英文"
+tier: 1
+volume: "08-agents"
+sourceUrl: "https://github.com/Prompthon-IO/agent-systems-handbook"
+entryUrl: "https://github.com/Prompthon-IO/agent-systems-handbook/blob/5b71cfa598701a34834f33b42be5f8a422138a3c/README.md"
+zh: ""
+---
+
+# Agent Systems Handbook（智能体系统手册）
+
+import SupportCTA from "/snippets/support-cta.mdx";
+
+## Summary
+
+This starter shows a messaging-native transaction assistant in the smallest
+useful shape: bounded business context, intent capture, plan selection, user
+confirmation, and payment handoff.
+
+## Status
+
+`starter`
+
+Source code: [ecosystem/examples/messaging-transaction-assistant-starter](https://github.com/Prompthon-IO/agent-systems-handbook/tree/main/ecosystem/examples/messaging-transaction-assistant-starter)
+
+## Why It Exists
+
+Messaging surfaces are becoming places where users complete real tasks without
+switching apps. The assistant pattern is not "let the model pay for something."
+It is a bounded flow where the assistant collects intent, presents a reviewable
+choice, and hands off to a trusted payment surface after explicit confirmation.
+
+Meta's May 2026 `Business AI on WhatsApp` launch sharpens the business-side
+version of that pattern: a small business can ground the assistant in its
+profile, catalog, and support context, let it answer customer questions after
+hours, and still step in directly whenever needed. This starter keeps that
+shape vendor-neutral and repo-native.
+
+## Related Lab Pages
+
+- [Ecosystem Overview](/lib/08-agents/agent-systems-handbook/ecosystem-2)
+- May 2026 Agentic Shopping Assistant Watch
+- [Source Project Guidelines](https://github.com/Prompthon-IO/agent-systems-handbook/blob/5b71cfa598701a34834f33b42be5f8a422138a3c/contributor-kit/source-project-guidelines/README.md)
+
+## Folder Structure
+
+```text
+messaging-transaction-assistant-starter/
+├── README.md
+├── SOURCE_NOTES.md
+├── index.mdx
+└── src/
+    ├── run_demo.py
+    └── transaction_flow.py
+```
+
+## Included Sample Files
+
+- `src/transaction_flow.py`: typed helpers for bounded business context, intent
+  capture, plan selection, confirmation, and payment handoff
+- `src/run_demo.py`: tiny command-line demo of the flow
+- `SOURCE_NOTES.md`: source lineage and attribution boundary
+
+## Flow Boundaries
+
+The assistant may:
+
+- answer from a local business profile, catalog, and support notes
+- infer a recharge-like intent from a message
+- ask for missing plan or recipient details
+- show a confirmation summary
+- keep business takeover available when a human seller wants to step in
+- prepare a handoff payload for a payment surface
+
+The assistant must not:
+
+- execute payment
+- store card or bank credentials
+- bypass user confirmation
+- imply vendor-specific integration that does not exist
+
+## Current Source Signal
+
+The current signal for this refresh is Meta's May 2026 `Business AI on
+WhatsApp` launch for Indian small businesses. Meta frames the assistant around
+catalog-grounded product questions, key business information, after-hours
+coverage, and seller control. That makes the reusable handbook lesson more
+specific than a generic chatbot: the assistant should stay inside a visible
+business context boundary while a human still owns final overrides and payment.
+
+## Next Steps
+
+- Add a richer state machine for missing details.
+- Add localization fixtures for different messaging markets.
+- Add a fake payment adapter that only records handoff state for tests.

@@ -19,7 +19,15 @@ zh: ""
 
 ## 课时
 
-1. [Advanced Strands Agents with MCP](course-2.md)
-2. [Building a Calculator Agent with Amazon Bedrock AgentCore](course-4.md)
+1. [Agent-to-Agent (A2A) Communication Example](course-1-Lab5-strands-a2a-inter-agent.md)
+2. [Lab 06: Observability with LangFuse and Evaluation with RAGAS](course-1-Lab6.md)
+3. [Lab 1: Overview of Strands Agents](course-2-Lab1.md)
+4. [Lab 2: Model Providers and Configuration](course-2-Lab2.md)
+5. [Lab 3: Advanced Response Processing with Hooks](course-2-Lab3.md)
+6. [Lab 4: Tools and MCP Integration](course-2-Lab4.md)
+7. [Lab 5: Conversation and Session Management](course-2-Lab5.md)
+8. [Lab 6: Memory Persistent Agents](course-2-Lab6.md)
+9. [Advanced Strands Agents with MCP](course-2.md)
+10. [Building a Calculator Agent with Amazon Bedrock AgentCore](course-4.md)
 
-开始学习 → [Advanced Strands Agents with MCP](course-2.md)
+开始学习 → [Agent-to-Agent (A2A) Communication Example](course-1-Lab5-strands-a2a-inter-agent.md)

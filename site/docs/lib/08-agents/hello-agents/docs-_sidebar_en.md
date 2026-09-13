@@ -15,7 +15,7 @@ zh: ""
 # Hello Agents（Datawhale 智能体教程）
 
 - [Hello-Agents](https://github.com/datawhalechina/hello-agents/blob/4f7682ceafe573d07cd8a7d0b89908500e83227d/en/README_EN.md)
-  - [Preface](/lib/08-agents/hello-agents/docs-Preface)
+  - [Preface](https://github.com/datawhalechina/hello-agents/blob/4f7682ceafe573d07cd8a7d0b89908500e83227d/docs/Preface.md)
 
 - <strong>Part I: Fundamentals of Agents and Language Models</strong>
   - [Chapter 1 Introduction to Agents](https://github.com/datawhalechina/hello-agents/blob/4f7682ceafe573d07cd8a7d0b89908500e83227d/en/chapter1/Chapter1-Introduction-to-Agents.md)

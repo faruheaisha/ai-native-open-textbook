@@ -24,15 +24,15 @@ zh: ""
 
 | 仓库 | 作者 | 用途 | 相关案例 |
 |------|------|------|----------|
-| [op7418/guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill) | 藏师傅（op7418） | 案例中使用的 PPT Skill，支持一句话生成演示文稿 | [01 Codex × PPT Skill](/lib/09-harness/codex-guide-freestylefly/docs-recipes-01-ppt-skill-walkthrough) |
-| [jgraph/drawio-mcp](https://github.com/jgraph/drawio-mcp) | Draw.io 官方 | Draw.io 官方发布的 MCP，让 Codex 直接绘制架构图 | [02 Codex × Draw.io MCP](/lib/09-harness/codex-guide-freestylefly/docs-recipes-02-drawio-mcp) |
-| [larksuite/cli](https://github.com/larksuite/cli/blob/main/README.zh.md) | 飞书官方 | 飞书官方开源 CLI，支持通过命令行操作飞书数据 | [06 Codex × 飞书 CLI](/lib/09-harness/codex-guide-freestylefly/docs-recipes-06-feishu-cli-codex) |
-| [wshuyi/remotion-video-skill](https://github.com/wshuyi/remotion-video-skill) | 王老师（wshuyi） | 基于 Remotion 的视频生成 Skill，代码驱动制作视频 | [04 Codex × HyperFrames](/lib/09-harness/codex-guide-freestylefly/docs-recipes-04-hyperframes-animation) |
-| [karpathy/llm-wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) | Andrej Karpathy | LLM Wiki 理念原始设计文档，本站案例的核心参考 | [07 Codex × LLM Wiki](/lib/09-harness/codex-guide-freestylefly/docs-recipes-07-llm-wiki-codex) |
+| [op7418/guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill) | 藏师傅（op7418） | 案例中使用的 PPT Skill，支持一句话生成演示文稿 | [01 Codex × PPT Skill](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/recipes/01-ppt-skill-walkthrough.md) |
+| [jgraph/drawio-mcp](https://github.com/jgraph/drawio-mcp) | Draw.io 官方 | Draw.io 官方发布的 MCP，让 Codex 直接绘制架构图 | [02 Codex × Draw.io MCP](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/recipes/02-drawio-mcp.md) |
+| [larksuite/cli](https://github.com/larksuite/cli/blob/main/README.zh.md) | 飞书官方 | 飞书官方开源 CLI，支持通过命令行操作飞书数据 | [06 Codex × 飞书 CLI](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/recipes/06-feishu-cli-codex.md) |
+| [wshuyi/remotion-video-skill](https://github.com/wshuyi/remotion-video-skill) | 王老师（wshuyi） | 基于 Remotion 的视频生成 Skill，代码驱动制作视频 | [04 Codex × HyperFrames](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/recipes/04-hyperframes-animation.md) |
+| [karpathy/llm-wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) | Andrej Karpathy | LLM Wiki 理念原始设计文档，本站案例的核心参考 | [07 Codex × LLM Wiki](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/recipes/07-llm-wiki-codex.md) |
 | [Dailin521/codex-provider-sync](https://github.com/Dailin521/codex-provider-sync) | Dailin521 | 社区工具，用于 Codex provider metadata 同步与历史会话可见性排障；最后核对日期：2026-05-29 | [配置文件 config.toml](/lib/09-harness/codex-guide-freestylefly/docs-advanced-09-config-toml#切换-provider-后历史会话不可见怎么办) |
-| [BigPizzaV3/CodexPlusPlus](https://github.com/BigPizzaV3/CodexPlusPlus) | BigPizzaV3 | 社区工具，用于 Codex 桌面 App 外部 launcher、中转注入和 provider 管理；最后核对日期：2026-05-29 | [连接第三方 API](/lib/09-harness/codex-guide-freestylefly/docs-start-04-third-party-api) |
-| [BenedictKing/ccx](https://github.com/BenedictKing/ccx) | BenedictKing | 社区项目，提供 AI API 代理、协议转换、渠道编排和 Codex Responses 网关能力；最后核对日期：2026-05-29 | [连接第三方 API](/lib/09-harness/codex-guide-freestylefly/docs-start-04-third-party-api) |
-| [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | farion1231 | 社区工具，用于管理 Codex、Claude Code、Gemini CLI 等工具的供应商配置和一键切换；最后核对日期：2026-05-29 | [连接第三方 API](/lib/09-harness/codex-guide-freestylefly/docs-start-04-third-party-api) |
+| [BigPizzaV3/CodexPlusPlus](https://github.com/BigPizzaV3/CodexPlusPlus) | BigPizzaV3 | 社区工具，用于 Codex 桌面 App 外部 launcher、中转注入和 provider 管理；最后核对日期：2026-05-29 | [连接第三方 API](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/start/04-third-party-api.md) |
+| [BenedictKing/ccx](https://github.com/BenedictKing/ccx) | BenedictKing | 社区项目，提供 AI API 代理、协议转换、渠道编排和 Codex Responses 网关能力；最后核对日期：2026-05-29 | [连接第三方 API](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/start/04-third-party-api.md) |
+| [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | farion1231 | 社区工具，用于管理 Codex、Claude Code、Gemini CLI 等工具的供应商配置和一键切换；最后核对日期：2026-05-29 | [连接第三方 API](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/start/04-third-party-api.md) |
 
 ---
 
@@ -40,9 +40,9 @@ zh: ""
 
 | 视频 | 相关案例 | 链接 |
 |------|----------|------|
-| Draw.io MCP 使用教程 | [02 Codex × Draw.io MCP](/lib/09-harness/codex-guide-freestylefly/docs-recipes-02-drawio-mcp) | [BV1865K6gEhZ](https://www.bilibili.com/video/BV1865K6gEhZ/) |
-| 保姆级 Claude Code 速成，必学！简单！【附完整文档】 | [03 Codex × Playwright MCP](/lib/09-harness/codex-guide-freestylefly/docs-recipes-03-playwright-mcp) | [b23.tv/xDKx6jX](https://b23.tv/xDKx6jX) |
-| Codex 实践 LLM Wiki 知识库搭建教程 | [07 Codex × LLM Wiki](/lib/09-harness/codex-guide-freestylefly/docs-recipes-07-llm-wiki-codex) | [BV1y19hBhEMT](https://www.bilibili.com/video/BV1y19hBhEMT/) |
+| Draw.io MCP 使用教程 | [02 Codex × Draw.io MCP](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/recipes/02-drawio-mcp.md) | [BV1865K6gEhZ](https://www.bilibili.com/video/BV1865K6gEhZ/) |
+| 保姆级 Claude Code 速成，必学！简单！【附完整文档】 | [03 Codex × Playwright MCP](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/recipes/03-playwright-mcp.md) | [b23.tv/xDKx6jX](https://b23.tv/xDKx6jX) |
+| Codex 实践 LLM Wiki 知识库搭建教程 | [07 Codex × LLM Wiki](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/recipes/07-llm-wiki-codex.md) | [BV1y19hBhEMT](https://www.bilibili.com/video/BV1y19hBhEMT/) |
 
 ---
 
@@ -50,9 +50,9 @@ zh: ""
 
 | 文章 | 作者 | 相关案例 | 链接 |
 |------|------|----------|------|
-| 在 Obsidian 中使用 Codex 完成内容创作 | 微信公众号 | [05 Codex × Obsidian](/lib/09-harness/codex-guide-freestylefly/docs-recipes-05-obsidian-codex) | [查看原文](https://mp.weixin.qq.com/s/f5HWooI1a8pnSObJ9rSqMw) |
-| 飞书 CLI 开源发布介绍 | 数字生命卡斯克 | [06 Codex × 飞书 CLI](/lib/09-harness/codex-guide-freestylefly/docs-recipes-06-feishu-cli-codex) | [查看原文](https://mp.weixin.qq.com/s/fvjxT_GgbEgxgsPCUlo-RQ) |
-| 团队如何用飞书 CLI 完成协作任务 | 数字生命卡斯克 | [06 Codex × 飞书 CLI](/lib/09-harness/codex-guide-freestylefly/docs-recipes-06-feishu-cli-codex) | [查看原文](https://mp.weixin.qq.com/s/6vqkEvFYNEtUu3rTQAllzw) |
+| 在 Obsidian 中使用 Codex 完成内容创作 | 微信公众号 | [05 Codex × Obsidian](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/recipes/05-obsidian-codex.md) | [查看原文](https://mp.weixin.qq.com/s/f5HWooI1a8pnSObJ9rSqMw) |
+| 飞书 CLI 开源发布介绍 | 数字生命卡斯克 | [06 Codex × 飞书 CLI](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/recipes/06-feishu-cli-codex.md) | [查看原文](https://mp.weixin.qq.com/s/fvjxT_GgbEgxgsPCUlo-RQ) |
+| 团队如何用飞书 CLI 完成协作任务 | 数字生命卡斯克 | [06 Codex × 飞书 CLI](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/recipes/06-feishu-cli-codex.md) | [查看原文](https://mp.weixin.qq.com/s/6vqkEvFYNEtUu3rTQAllzw) |
 
 ---
 
@@ -60,7 +60,7 @@ zh: ""
 
 | 工具 | 简介 | 相关案例 | 链接 |
 |------|------|----------|------|
-| DKFile | 小白友好的静态网页托管工具，上传 HTML 即可获得公网链接 | [10 Codex × DKFile](/lib/09-harness/codex-guide-freestylefly/docs-recipes-10-dkfile-deploy-codex) | [dkfile.net](https://dkfile.net) |
+| DKFile | 小白友好的静态网页托管工具，上传 HTML 即可获得公网链接 | [10 Codex × DKFile](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/recipes/10-dkfile-deploy-codex.md) | [dkfile.net](https://dkfile.net) |
 
 ---
 
@@ -68,9 +68,9 @@ zh: ""
 
 | 文档 | 相关案例 | 链接 |
 |------|----------|------|
-| Using Codex with your ChatGPT plan | [12 Codex × Chrome](/lib/09-harness/codex-guide-freestylefly/docs-recipes-12-chrome-browser-plugin) | [查看文档](https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan) |
-| Codex Skills 官方说明 | [01 Codex × PPT Skill](/lib/09-harness/codex-guide-freestylefly/docs-recipes-01-ppt-skill-walkthrough) | [查看文档](https://developers.openai.com/codex/skills) |
-| Codex Use Cases | [12 Codex × Chrome](/lib/09-harness/codex-guide-freestylefly/docs-recipes-12-chrome-browser-plugin) | [查看文档](https://developers.openai.com/codex/explore/) |
+| Using Codex with your ChatGPT plan | [12 Codex × Chrome](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/recipes/12-chrome-browser-plugin.md) | [查看文档](https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan) |
+| Codex Skills 官方说明 | [01 Codex × PPT Skill](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/recipes/01-ppt-skill-walkthrough.md) | [查看文档](https://developers.openai.com/codex/skills) |
+| Codex Use Cases | [12 Codex × Chrome](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/recipes/12-chrome-browser-plugin.md) | [查看文档](https://developers.openai.com/codex/explore/) |
 
 ---
 

@@ -19,9 +19,19 @@ The OpenAI Agents SDK is a lightweight yet powerful framework for building multi
 
 ## 课时
 
-1. [OpenAI Agents SDK](docs.md)
-2. [Running the example suite](examples.md)
-3. [Packaged integration tests](integration_tests.md)
-4. [Tests](tests.md)
+1. [Configuration](docs-config.md)
+2. [Context management](docs-context.md)
+3. [Examples](docs-examples.md)
+4. [Guardrails](docs-guardrails.md)
+5. [Handoffs](docs-handoffs.md)
+6. [Human-in-the-loop](docs-human_in_the_loop.md)
+7. [OpenAI Agents SDK](docs.md)
+8. [Model context protocol (MCP)](docs-mcp.md)
+9. [Models](docs-models.md)
+10. [Agent orchestration](docs-multi_agent.md)
+11. [Quickstart](docs-quickstart.md)
+12. [Realtime agents guide](docs-realtime-guide.md)
+13. [Quickstart](docs-realtime-quickstart.md)
+14. [Realtime transport](docs-realtime-transport.md)
 
-开始学习 → [OpenAI Agents SDK](docs.md)
+开始学习 → [Configuration](docs-config.md)

@@ -225,3 +225,4 @@ docker compose up -d --build
 ## 关注我们
 
 <p>扫描下方二维码关注公众号：Datawhale</p>
+&lt;img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/pumpkin-book/master/res/qrcode.jpeg" width = "180" height = "180">

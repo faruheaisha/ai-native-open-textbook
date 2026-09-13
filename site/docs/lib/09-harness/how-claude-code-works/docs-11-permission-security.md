@@ -1,0 +1,790 @@
+---
+title: "第 12 章：权限与安全"
+sourceId: "09-harness/how-claude-code-works"
+sourceTitle: "How Claude Code Works"
+sourceKind: "源码研读"
+licenseLabel: "可转载"
+lang: "中文"
+tier: 2
+volume: "09-harness"
+sourceUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works"
+entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/README.md"
+zh: ""
+---
+
+# 第 12 章：权限与安全
+
+> Claude Code 在用户的真实环境中执行代码——安全不是可选的附加功能，而是架构的基石。
+
+## 12.1 纵深防御架构
+
+Claude Code 采用**纵深防御（Defense in Depth）**策略。多个独立的安全层共同保护用户环境——即使某一层被绕过，其他层仍然有效。
+
+```mermaid
+graph TD
+    Request[工具调用请求] --> L1[Layer 1: Trust Dialog<br/>工作区信任确认<br/>不信任则禁用所有自定义 Hook]
+    L1 --> L2[Layer 2: 权限模式<br/>default/plan/acceptEdits/bypass/dontAsk]
+    L2 --> L3[Layer 3: 权限规则匹配<br/>allow/deny/ask 列表<br/>支持通配符模式]
+    L3 --> L4[Layer 4: Bash 多层安全<br/>AST解析 + 23项静态检查]
+    L4 --> L5[Layer 5: 工具级安全<br/>validateInput/checkPermissions<br/>危险文件保护]
+    L5 --> L6[Layer 6: 沙箱与隔离<br/>Sandbox 进程隔离<br/>Git Worktree 文件隔离]
+    L6 --> L7[Layer 7: 用户确认<br/>交互式对话框<br/>LLM分类器竞速<br/>Hook 覆盖]
+    L7 --> Exec[执行工具]
+```
+
+**Layer 1 — 工作区信任确认（Trust Dialog）**：当你首次在一个目录中启动 Claude Code 时，系统会弹出信任确认对话框。这是第一道防线：如果用户选择不信任当前工作区，系统会禁用所有项目级 Hook 和自定义设置。这防止了一种常见攻击场景——恶意仓库在 `.claude/` 目录下预埋 Hook 脚本，用户一 clone 就自动执行。只有在用户明确信任后，项目级配置才会生效。
+
+**Layer 2 — 权限模式**：全局策略开关，决定系统的默认行为是"询问"、"自动允许"还是"自动拒绝"。详见 [12.2 权限模式](#122-权限模式)。
+
+**Layer 3 — 权限规则匹配**：用户和管理员可以预定义 allow/deny/ask 规则列表，对特定工具或特定命令进行精确控制。例如 `Bash(npm test:*)` 允许所有 npm test 相关命令自动通过。详见 [12.3 权限规则系统](#123-权限规则系统)。
+
+**Layer 4 — Bash 多层安全**：Bash 是攻击面最大的工具，因此有独立的多层安全验证体系，包括 tree-sitter AST 解析、23 项静态安全检查、路径约束验证等。详见 [12.6 Bash 命令的多层安全验证](#126-bash-命令的多层安全验证)。
+
+**Layer 5 — 工具级安全**：每个工具声明自己的安全属性并实现专属的验证逻辑。`validateInput` 方法在权限检查之前验证输入合法性（如检查文件路径格式）；`checkPermissions` 方法执行工具特有的安全逻辑（如文件编辑工具检查目标是否为危险文件）。只读工具（如 `Read`、`Glob`、`Grep`）在大多数模式下可自动通过。
+
+**Layer 6 — 沙箱与隔离**：这一层提供两种隔离机制。Sandbox 通过操作系统级进程隔离限制 Bash 命令的文件系统、网络和进程权限，macOS 用 Seatbelt，Linux 用命名空间。Git Worktree 提供文件级隔离——子 Agent 在独立的 worktree 中工作，完成后如果没有实质修改则自动清理，防止子 Agent 的实验性操作污染主工作目录。详见 [12.9 沙箱设计](#129-沙箱设计)。
+
+**Layer 7 — 用户确认**：前面所有自动化层都无法决策时，最终由人类拍板。交互式对话框同时启动 Hook 检查和 LLM 分类器，三者竞速——但用户一旦亲自操作对话框，自动化结果一律丢弃，人类意图永远优先。详见 [12.5 三种权限处理器](#125-三种权限处理器)。
+
+> 为什么不用一个统一的权限检查代替 7 层？因为纵深防御的核心假设是"每一层都可能被绕过"。如果只有工具级检查，一个巧妙的命令注入就可能绕过全部安全机制。7 层架构中，即使 AST 语义分析被绕过，路径约束和用户确认仍然可以拦截。
+
+> **阅读建议**：如果你想先建立整体认知，可以跳到 [12.4 权限决策完整流程](#124-权限决策完整流程) 了解一次工具调用的完整权限决策链路，再回来阅读 12.2/12.3 中权限模式和规则系统的细节。
+
+## 12.2 权限模式
+
+Claude Code 定义了 5 种外部权限模式和 2 种内部模式：
+
+| 模式 | 行为 | 适用场景 |
+|------|------|---------|
+| `default` | 无匹配规则时交互确认 | 日常使用 |
+| `acceptEdits` | 自动批准 Edit/Write/NotebookEdit | 信任度高的项目 |
+| `plan` | 执行前暂停审查 | 敏感操作审计 |
+| `bypassPermissions` | 全部自动批准 | 完全信任（危险） |
+| `dontAsk` | 无匹配规则时自动拒绝 | CI/CD 环境 |
+| `auto`（内部） | LLM 分类器自动决策 | 内部使用 |
+| `bubble`（内部） | 把权限提示上抛到父终端 | （隐式 fork 的）子 Agent |
+
+下面逐一解释每种模式的行为和设计动机：
+
+### default 模式
+
+这是最常用的模式。工具调用的决策链路如下：先检查 deny 规则，命中则直接拒绝；再检查 allow 规则，命中则自动通过；两者都不命中时，弹出交互式确认对话框让用户决定。用户在对话框中可以选择"一次性允许"或"始终允许"（后者会将规则持久化到配置文件）。
+
+这个模式体现了"默认安全"原则：**未知的操作一律询问用户**，而不是静默允许或静默拒绝。
+
+### acceptEdits 模式
+
+自动批准文件编辑类工具 `Edit`、`Write`、`NotebookEdit`，以及 Bash 里的文件操作命令 `mkdir`、`touch`、`rm`、`rmdir`、`mv`、`cp`、`sed`。其他 Bash 命令仍需确认。
+
+但**危险文件和目录的安全检查是 bypass-immune 的**——即使在 acceptEdits 模式下，编辑 `.git/`、`.bashrc`、`.claude/settings.json` 等敏感路径仍然需要用户确认。这个设计确保了即使用户选择了宽松模式，安全底线也不会被突破（详见 [12.7 危险文件与目录保护](#127-危险文件与目录保护)）。
+
+### plan 模式
+
+模型生成操作计划但暂停执行，每个工具调用都需要用户明确批准。适合审查敏感操作或不熟悉的代码库。plan 模式还可以与 auto 模式结合：如果用户原本使用 bypassPermissions，进入 plan 模式后系统会记住 `prePlanMode`，plan 审查通过后按原模式执行。
+
+### bypassPermissions 模式
+
+全部工具调用自动批准——但这并不意味着毫无限制。**deny 规则和 bypass-immune 安全检查仍然生效**。源码中的检查顺序是关键：
+
+```
+1. 先检查 deny 规则          → 命中直接拒绝，不管什么模式
+2. 先检查安全路径检查         → .git/、.claude/ 等 bypass-immune 路径仍需确认
+3. 然后才检查 bypassPermissions → 只有通过了上面两关，才会自动允许
+```
+
+这意味着管理员可以通过 deny 规则对 bypassPermissions 模式施加约束，例如 `deny Bash(rm -rf:*)` 即使在 bypass 模式下也会生效。
+
+> 源码：`src/utils/permissions/permissions.ts:1262-1281`
+
+### dontAsk 模式
+
+与 bypassPermissions 相反：将所有需要"询问用户"的决策转为"拒绝"。为 CI/CD 和无人值守环境设计——没有人可以回答确认对话框，所以不确定的操作宁可拒绝也不能挂起等待。allow 和 deny 规则仍然生效，只是 ask 被替换为 deny。
+
+### 内部模式
+
+`auto` 模式：用 LLM 分类器（transcript classifier）自动做权限决策，无需用户交互。分类器分析当前对话上下文和工具调用意图来判断操作是否安全。这是一个 feature-gated 的内部功能（`TRANSCRIPT_CLASSIFIER`）。当分类器无法判断或累积拒绝超过阈值时，回退到交互模式。
+
+`bubble` 模式：用于（隐式 fork 的）子 Agent。子 Agent 遇到无法自动决策的权限提示时，把它"冒泡"上抛到父终端/父 Agent 显示、由父侧处理（源码里 `FORK_AGENT` 的 `permissionMode: 'bubble'` 注释即 "surfaces permission prompts to the parent terminal"）。
+
+## 12.3 权限规则系统
+
+权限规则是整个权限系统的基础数据结构。理解规则的格式、匹配方式和优先级，是理解后续所有安全机制的前提。
+
+### 规则格式
+
+每条规则由两部分组成：工具名，加上可选的内容匹配模式。
+
+```
+ToolName              → 匹配该工具的所有调用
+ToolName(content)     → 匹配该工具中特定内容的调用
+```
+
+对于 Bash 工具，content 就是命令字符串。例如：
+
+| 规则 | 含义 |
+|------|------|
+| `Bash` | 匹配所有 Bash 命令 |
+| `Bash(npm install)` | 精确匹配 `npm install` |
+| `Bash(npm:*)` | 前缀匹配——匹配 `npm`、`npm install`、`npm run build` 等 |
+| `Bash(git *)` | 通配符匹配——匹配 `git commit`、`git push` 等 |
+| `Edit` | 匹配所有文件编辑操作 |
+| `Edit(src/**)` | 匹配 src 目录下的文件编辑 |
+
+对于 MCP 工具，规则支持服务器级别匹配：`mcp__server1` 匹配该服务器的所有工具，`mcp__server1__tool1` 匹配特定工具。
+
+> 源码：`src/utils/permissions/permissionRuleParser.ts`，`src/utils/permissions/shellRuleMatching.ts`
+
+### 三种匹配类型
+
+规则解析器（`parsePermissionRule`）将规则内容解析为三种类型之一：
+
+**精确匹配**：规则内容不含 `:*` 后缀也不含未转义的 `*`。命令必须与规则内容完全相同才能匹配。例如 `npm install` 只匹配 `npm install`，不匹配 `npm install lodash`。
+
+**前缀匹配**（legacy `:*` 语法）：规则以 `:*` 结尾。剥离 `:*` 后，命令以该前缀开头即匹配。例如 `npm:*` 匹配 `npm`、`npm install`、`npm run build`。注意 `npm:*` 也匹配裸 `npm`（无参数），这是刻意设计——允许前缀意味着信任该命令的所有用法。
+
+**通配符匹配**：规则包含未转义的 `*`。`*` 被转为正则的 `.*`，匹配任意字符序列。例如 `git * --no-verify` 匹配 `git commit --no-verify`、`git push --no-verify`。
+
+一个精巧的细节：当模式以 ` *`（空格+通配符）结尾，且整个模式只有这一个通配符时，尾部会变为可选的——`git *` 既匹配 `git commit` 也匹配裸 `git`。这让通配符语法与前缀语法的行为保持一致。
+
+```typescript
+// 源码简化示意
+if (regexPattern.endsWith(' .*') && unescapedStarCount === 1) {
+  regexPattern = regexPattern.slice(0, -3) + '( .*)?'
+}
+```
+
+如果需要匹配字面量 `*`（比如命令中真的有星号），用 `\*` 转义。
+
+> 源码：`src/utils/permissions/shellRuleMatching.ts`
+
+### 三种规则行为
+
+每条规则关联一种行为：
+
+- `allow`：匹配的操作自动批准，无需用户确认
+- `deny`：匹配的操作直接拒绝，用户无法覆盖，除非删掉规则
+- `ask`：匹配的操作强制弹出确认对话框，即使在 bypassPermissions 模式下也要确认
+
+`ask` 规则的存在是一个重要的安全设计：即使你对大多数操作使用 bypass 模式，也可以对特定高危操作（如 `npm publish`、`git push --force`）设置 ask 规则作为安全阀。
+
+### 规则来源与优先级
+
+规则可以来自多个来源。源码用一个固定顺序的数组 `PERMISSION_RULE_SOURCES` 遍历所有来源、收集规则，顺序如下（这是迭代顺序，不是线性的优先级高低）：
+
+| 迭代顺序 | 来源 | 说明 | 存储位置 |
+|--------|------|------|---------|
+| 1 | `userSettings` | 用户全局设置 | `~/.claude/settings.json` |
+| 2 | `projectSettings` | 项目级设置 | `.claude/settings.json`（提交到仓库） |
+| 3 | `localSettings` | 本地项目设置 | `.claude/settings.local.json`（不提交） |
+| 4 | `flagSettings` | CLI 启动参数 | 命令行 `--allowedTools` 等 |
+| 5 | `policySettings` | 企业管理策略 | 企业 MDM 下发 |
+| 6 | `cliArg` | 运行时参数 | API/SDK 传入 |
+| 7 | `command` | 命令级规则 | 自定义命令定义 |
+| 8 | `session` | 会话级规则 | 用户在对话中"始终允许"生成 |
+
+需要澄清一个常见误解：权限规则是 additive 的——各来源的规则会全部收集，再按 **deny > ask > allow** 的行为在全局裁决，而不是简单的"高来源压掉低来源"。上表的顺序主要决定 `.find()` 取哪个来源为首个命中，用于展示和引用，也决定规则的删除、覆盖行为，并非谁压谁。因此别以为数组第 1 位的 `userSettings` 压得过第 5 位的 `policySettings`。
+
+`policySettings` 之所以最权威，不是因为它排在来源数组第一，而是来自三重机制：企业策略规则不可删除（`deletePermissionRule` 对 policySettings 抛 "Cannot delete permission rules from read-only settings"）、`allowManagedPermissionRulesOnly` 可清空所有非 policy 来源的规则、以及 deny 全局优先于 allow。管理员据此可以通过 MDM 下发用户无法覆盖的强制规则。
+
+> 源码：`src/utils/permissions/permissions.ts`，`src/utils/permissions/permissionsLoader.ts`
+
+### 实际配置示例
+
+```json
+// ~/.claude/settings.json
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm test:*)",           // 允许所有 npm test 命令
+      "Bash(git status)",           // 允许 git status
+      "Bash(git diff:*)",           // 允许所有 git diff 命令
+      "Read",                       // 允许所有文件读取
+      "Glob",                       // 允许所有文件搜索
+      "mcp__filesystem"             // 允许 filesystem MCP 服务器所有工具
+    ],
+    "deny": [
+      "Bash(rm -rf:*)",            // 禁止所有 rm -rf 命令
+      "Bash(git push --force:*)"   // 禁止 force push
+    ],
+    "ask": [
+      "Bash(npm publish:*)",       // 发布包时必须确认
+      "Bash(git push:*)"           // push 时必须确认
+    ]
+  }
+}
+```
+
+当模型调用 `Bash(npm test --coverage)` 时，系统匹配到 allow 规则 `Bash(npm test:*)` 并自动通过；调用 `Bash(npm publish)` 时，匹配到 ask 规则，即使在 bypassPermissions 模式下也会弹出确认对话框。
+
+## 12.4 权限决策完整流程
+
+理解了规则系统后，我们来看完整的权限决策流程。每次工具调用都经过 `hasPermissionsToUseToolInner` 函数，这是整个权限系统的核心调度器。
+
+```mermaid
+flowchart TD
+    Start[工具调用请求] --> S1{Step 1a<br/>整个工具被 deny?}
+    S1 -->|是| Deny1[拒绝]
+    S1 -->|否| S2{Step 1b<br/>整个工具被 ask?}
+    S2 -->|是| AskCheck{沙箱可自动允许?}
+    AskCheck -->|是| S3
+    AskCheck -->|否| Ask1[弹出确认]
+    S2 -->|否| S3[Step 1c<br/>调用 tool.checkPermissions]
+    S3 --> S4{Step 1d-1g<br/>工具返回什么?}
+    S4 -->|deny| Deny2[拒绝]
+    S4 -->|ask + bypass-immune| Ask2[强制确认<br/>即使 bypass 模式]
+    S4 -->|ask + ask规则| Ask3[强制确认<br/>即使 bypass 模式]
+    S4 -->|allow/passthrough| S5{Step 2a<br/>bypassPermissions?}
+    S5 -->|是| Allow1[允许]
+    S5 -->|否| S6{Step 2b<br/>always-allow 规则?}
+    S6 -->|是| Allow2[允许]
+    S6 -->|否| S7[Step 3<br/>passthrough → ask<br/>弹出确认对话框]
+```
+
+逐段解读这个流程：
+
+**Step 1a — 工具级 deny 规则**：首先检查是否有规则直接拒绝整个工具（如 deny 规则 `Bash` 会禁止所有 Bash 命令）。如果命中，直接拒绝，不进入后续任何检查。
+
+**Step 1b — 工具级 ask 规则**：检查是否有规则要求整个工具必须确认。这里有一个例外：如果沙箱已启用且配置了 `autoAllowBashIfSandboxed`，沙箱化的命令可以跳过 ask 规则自动通过——因为沙箱本身已经限制了命令的能力。
+
+**Step 1c — 工具自身的权限检查**：调用 `tool.checkPermissions(parsedInput, context)`。每个工具实现自己的逻辑：
+- BashTool：执行完整的多层安全验证（AST 解析、静态检查、路径约束等），详见 [12.6](#126-bash-命令的多层安全验证)
+- FileEditTool / FileWriteTool：检查目标文件是否在危险列表中、是否在允许的工作目录内
+- 只读工具 Read、Glob、Grep：通常返回 allow
+
+**Step 1d-1g — 处理工具返回结果**：这里有几个关键的 bypass-immune 场景。
+- 1f：如果工具返回的 ask 带着用户配置的 ask 规则作为原因（如 `Bash(npm publish:*)`），即使在 bypassPermissions 模式下也必须确认。这样一来，用户为特定操作设的安全阀就不会被 bypass 绕过。
+- 1g：安全路径检查（`.git/`、`.claude/`、`.bashrc` 等）返回的 ask 是 bypass-immune 的——这些路径太敏感，任何模式下都不该自动通过。
+
+**Step 2a — 检查 bypass 模式**：注意这一步排在 deny 规则和 safety check 之后。deny 规则和安全检查的优先级高于 bypassPermissions 模式，这是整个流程里最关键的设计决策。
+
+**Step 2b — 检查 allow 规则**：如果存在匹配的 allow 规则，自动通过。
+
+**Step 3 — 兜底为 ask**：如果前面所有检查都没有得出明确结论（工具返回了 passthrough），则转为 ask，弹出确认对话框。
+
+> 源码：`src/utils/permissions/permissions.ts:1158-1319`，函数 `hasPermissionsToUseToolInner`
+
+## 12.5 三种权限处理器
+
+当权限决策流程得出 ask 结论后，如何向用户展示确认对话框？不同的执行上下文使用不同的权限处理器：
+
+```mermaid
+graph TD
+    Request[权限请求] --> Context{执行上下文?}
+    Context -->|CLI/REPL| Interactive[InteractiveHandler<br/>并行执行Hook+分类器<br/>同时显示UI确认<br/>竞速机制]
+    Context -->|协调器Worker| Coordinator[CoordinatorHandler<br/>顺序执行Hook+分类器<br/>未决时显示对话框]
+    Context -->|子Agent| Swarm[SwarmWorkerHandler<br/>上下文特定处理]
+```
+
+### InteractiveHandler 的竞速机制
+
+这是最精巧的设计——用户确认和自动化检查同时进行：
+
+```mermaid
+sequenceDiagram
+    participant UI as UI确认对话框
+    participant Hook as PermissionRequest Hook
+    participant Cls as LLM分类器
+    participant Guard as createResolveOnce 守卫
+
+    Note over UI, Cls: 同时启动
+
+    UI->>Guard: 用户点击 Allow
+    Hook->>Guard: Hook 返回 allow
+    Cls->>Guard: 分类器返回 allow
+
+    Note over Guard: 第一个决定生效<br/>后续被丢弃
+
+    Note over UI: 200ms 防误触宽限期<br/>避免用户意外按键
+```
+
+关键细节：
+- `createResolveOnce` 守卫确保只有第一个决定生效
+- `userInteracted` 标志：用户一旦触碰对话框，分类器结果就作废
+- 200ms 防误触宽限期：忽略对话框刚弹出时的意外按键，免得它被当成"用户已交互"、过早取消正在竞速的分类器自动批准
+
+### 竞速机制的代码实现
+
+```typescript
+// createResolveOnce：确保只有第一个决定生效
+function createResolveOnce<T>() {
+  let resolved = false
+  let resolve: (value: T) => void
+  const promise = new Promise<T>(r => { resolve = r })
+
+  return {
+    promise,
+    resolve: (value: T) => {
+      if (resolved) return    // 后续决定被丢弃
+      resolved = true
+      resolve(value)
+    }
+  }
+}
+
+// InteractiveHandler 的并行决策流程
+async function handlePermission(request: PermissionRequest) {
+  const { promise, resolve } = createResolveOnce<Decision>()
+  let userInteracted = false
+
+  // 同时启动三个决策源
+  showUIDialog(request, (decision) => {
+    userInteracted = true
+    resolve(decision)
+  })
+
+  runHook('PermissionRequest', request).then(hookResult => {
+    if (!userInteracted) resolve(hookResult)
+  })
+
+  runClassifier(request).then(classifierResult => {
+    if (!userInteracted) resolve(classifierResult)
+  })
+
+  // 200ms 防误触：对话框显示后 200ms 内的按键被忽略
+  await sleep(200)
+  enableDialogInput()
+
+  return promise
+}
+```
+
+设计考量：200ms 宽限期保护的是竞速中的分类器结果，而非阻止误批准——它避免对话框刚弹出时的意外按键被当成"用户已交互"，从而过早取消正在竞速的 LLM 分类器自动批准（宽限期只 gate 会置 `userInteracted` 的交互，并不 gate 真正的批准动作 `onAllow`）。一旦宽限期过后用户与对话框产生交互（任何按键或点击），`userInteracted` 标志被设置，之后 Hook 和分类器的自动化结果都会被丢弃——**人类意图永远优先**。
+
+### 权限解释器（Permission Explainer）
+
+在确认对话框中，用户不仅看到命令本身，还会看到一段 AI 生成的风险解释。这个解释由 Haiku 模型（轻量快速）通过 `sideQuery` 并行生成，与对话框同时启动，不阻塞用户操作。
+
+解释包含四个维度：
+
+```typescript
+type PermissionExplanation = {
+  explanation: string   // 这条命令做什么（1-2 句话）
+  reasoning: string     // 为什么要执行它（以 "I" 开头，如 "I need to check..."）
+  risk: string          // 可能出什么问题（15 词以内）
+  riskLevel: 'LOW' | 'MEDIUM' | 'HIGH'
+    // LOW: 安全的开发工作流（读取文件、运行测试）
+    // MEDIUM: 可恢复的变更（编辑文件、安装依赖）
+    // HIGH: 危险/不可逆操作（删除文件、修改系统配置）
+}
+```
+
+这个设计让用户在做决策时拿到足够的上下文，而不是对着一个裸命令凭直觉判断。碰上不熟悉的命令，比如一条绕来绕去的 `sed` 或 `awk` 表达式，解释器先把它要做什么、可能出什么问题讲清楚，用户不必再靠猜。
+
+> 源码：`src/utils/permissions/permissionExplainer.ts`
+
+### CoordinatorHandler
+
+CoordinatorHandler 用于协调器（Coordinator）模式下的 Worker Agent。与 InteractiveHandler 的并行竞速不同，它按顺序执行：
+
+1. 先执行 Hook：如果 PermissionRequest Hook 返回了明确决策（allow/deny），直接采用
+2. 再执行分类器：Hook 未决时，运行 LLM 分类器尝试自动判断
+3. 最后显示对话框：前两者都定不下来，才向用户展示交互式确认
+
+这种顺序设计避免了多个 Worker 同时弹出对话框的混乱场景。
+
+### SwarmWorkerHandler
+
+SwarmWorkerHandler 用于子 Agent（Swarm Worker）场景。它的权限处理最为保守：
+
+- 先试分类器，未决则转发给 leader：子 Agent 不在本地做最终裁决——对 Bash 命令先等 LLM 分类器尝试自动批准，命中即通过；未决则通过 mailbox 把一条新的权限请求转发给 leader，等它决定（`createPermissionRequest` + `sendPermissionRequestViaMailbox`），而不是复用父 Agent 已批准的权限
+- 受限的工具集：子 Agent 只能使用父 Agent 明确授权的工具子集
+- 无直接用户交互：子 Agent 自身不弹出确认对话框，而是把请求交给 leader 裁决——leader 用 `onAllow` 批准、用 `onReject` 拒绝，并非未授权就一律直接拒绝；只有转发失败的异常路径才回退到本地 UI 处理
+
+## 12.6 Bash 命令的多层安全验证
+
+BashTool 是攻击面最大的工具——它可以执行任意 Shell 命令，因此有最严格的安全验证体系。
+
+### 12.6.1 bashToolHasPermission 入口流程
+
+`bashToolHasPermission` 是 Bash 权限检查的总入口（`src/tools/BashTool/bashPermissions.ts:1663`）。每条命令经过以下检查链：
+
+```mermaid
+flowchart TD
+    Cmd[输入命令] --> AST[Step 0: tree-sitter AST 安全解析<br/>解析为 simple / too-complex / unavailable]
+    AST -->|too-complex| EarlyAsk[检查 deny 规则后要求确认]
+    AST -->|simple| Sem[checkSemantics<br/>检查 eval/zsh 内建等]
+    Sem -->|不安全| EarlyAsk
+    Sem -->|安全| Next
+    AST -->|unavailable| Legacy[回退到 legacy 解析路径]
+    Legacy --> Next
+    Next[继续检查] --> Sandbox{沙箱自动允许?}
+    Sandbox -->|是| Allow[允许]
+    Sandbox -->|否| Exact[精确匹配权限规则]
+    Exact -->|deny| Deny[拒绝]
+    Exact -->|allow| Allow
+    Exact -->|无匹配| Classifier[LLM 分类器检查<br/>Haiku 模型]
+    Classifier --> Operator[命令操作符检查<br/>管道/重定向/复合命令]
+    Operator --> Safety[静态安全验证器<br/>23 项检查]
+    Safety --> Path[路径约束验证]
+    Path --> Sed[Sed 约束验证]
+    Sed --> Mode[权限模式检查]
+```
+
+### 12.6.2 Tree-sitter AST 安全解析
+
+这是 Bash 安全体系里最重要的创新。传统方法靠正则表达式加手工字符遍历，一遇到 Shell 的复杂语法就容易出现**解析器差异（parser differential）**——安全检查器理解的命令含义和 Bash 实际执行的不一样，攻击者正好钻这个空子绕过检查。
+
+tree-sitter 方案用一个真正的 Bash 语法解析器替代了手工解析，核心设计原则是 **FAIL-CLOSED：不理解的结构一律不信任**。
+
+```typescript
+// ast.ts 的核心设计
+// 源码注释原文：
+// "The key design property is FAIL-CLOSED: we never interpret structure we
+//  don't understand. If tree-sitter produces a node we haven't explicitly
+//  allowlisted, we refuse to extract argv and the caller must ask the user."
+```
+
+解析结果是三选一的枚举：
+
+| 结果 | 含义 | 后续处理 |
+|------|------|---------|
+| `simple` | 成功提取了干净的 argv[]，所有引号已解析，无隐藏的命令替换 | 继续正常的权限规则匹配 |
+| `too-complex` | 发现了无法静态分析的结构 | 检查 deny 规则后直接要求用户确认 |
+| `parse-unavailable` | tree-sitter WASM 未加载 | 回退到 legacy 解析路径 |
+
+那么什么会触发 `too-complex`？任何不在白名单里的 AST 节点类型。而白名单极为保守，只放行少数几种结构节点和分隔符：
+
+```typescript
+// 只有这 4 种结构节点会被递归遍历
+const STRUCTURAL_TYPES = new Set([
+  'program',              // 根节点
+  'list',                 // a && b || c
+  'pipeline',             // a | b
+  'redirected_statement',  // 带重定向的命令
+])
+
+// 只有这些分隔符被允许
+const SEPARATOR_TYPES = new Set(['&&', '||', '|', ';', '&', '|&', '\n'])
+```
+
+这意味着以下结构都会被标记为 `too-complex`，需要用户确认：
+- 命令替换 `$(cmd)` 或 `` `cmd` ``
+- 变量展开 `${var}`
+- 算术展开 `$((expr))`
+- 控制流 `if`/`for`/`while`/`case`
+- 函数定义
+- 进程替换 `<(cmd)` / `>(cmd)`
+
+**`checkSemantics` — 语义级安全检查**
+
+即使命令通过了 AST 解析（结果为 `simple`），还需要检查语义层面的危险。有些命令在语法上完全合法，但在语义上是危险的：
+
+- `eval "rm -rf /"` — eval 可以执行任意字符串
+- `zmodload zsh/net/tcp` — 加载 zsh 网络模块
+- `emulate sh -c 'dangerous_code'` — 改变 shell 行为并执行代码
+
+`checkSemantics` 检查 argv[0] 是否是已知的危险命令（eval、zsh 内建等），如果是则标记为需要确认。
+
+**Shadow 测试策略**
+
+tree-sitter 是新引入的解析方案，为了保证稳定性，Claude Code 采用了渐进式迁移策略：
+
+1. Shadow 模式（`TREE_SITTER_BASH_SHADOW` feature gate）：tree-sitter 与 legacy `splitCommand_DEPRECATED` 并行运行
+2. 系统比较两者的解析结果，把分歧记录到遥测事件 `tengu_tree_sitter_shadow`
+3. 但最终决策仍然走 legacy 路径——shadow 模式纯粹是观察性的
+4. 当遥测数据证明 tree-sitter 足够可靠后，才会切换为权威路径
+
+这种"先观察、再切换"的策略在安全关键系统中非常常见——它允许团队在生产环境中收集真实数据，而不是在测试环境中猜测。
+
+> 源码：`src/utils/bash/ast.ts`，`src/tools/BashTool/bashPermissions.ts:1670-1806`
+
+### 12.6.3 静态安全验证器（23 项检查）
+
+`src/tools/BashTool/bashSecurity.ts` 包含 23 项独立的检查，每一项针对特定的攻击向量：
+
+| ID | 检查项 | 防护目标 | 攻击示例 |
+|----|--------|---------|---------|
+| 1 | 不完整命令 | 防止注入续行 | 以 tab/flag/操作符开头的命令可能是上一条的续行 |
+| 2 | jq 系统函数 | 防止 jq 命令注入 | `jq 'system("rm -rf /")'` |
+| 3 | jq 文件参数 | 防止 jq 读取文件 | `jq -f malicious.jq` |
+| 4 | 混淆标志 | 防止标志混淆攻击 | 特殊构造的标志序列绕过命令识别 |
+| 5 | Shell 元字符 | 防止元字符注入 | 在已解析的命令中隐藏的特殊字符 |
+| 6 | 危险变量 | 防止环境变量注入 | `LD_PRELOAD=/evil.so cmd` |
+| 7 | 换行符 | 防止多行注入 | 嵌入换行符在视觉上隐藏第二条命令 |
+| 8 | 危险展开模式 | 防止命令/进程替换 | `echo $(rm -rf /)`、`<(cmd)`、`` `cmd` `` 等 |
+| 9 | 输入重定向 | 防止输入劫持 | `cmd < /etc/passwd` |
+| 10 | 输出重定向 | 防止输出劫持 | `cmd > ~/.bashrc` 覆盖配置 |
+| 11 | IFS 注入 | 防止利用 IFS 绕过正则校验 | `cat${IFS:0:1}/etc/passwd` 用 IFS 展开代替空格绕过正则 |
+| 12 | git commit 替换 | 防止未授权提交 | git 命令中嵌入命令替换 |
+| 13 | /proc/environ | 防止环境泄露 | 读取 `/proc/self/environ` 泄露 API keys |
+| 14 | 格式错误 Token | 防止解析混淆 | shellQuote 库误解析的 token |
+| 15 | 反斜杠空白 | 防止转义序列绕过 | `\ ` 在不同 parser 中有不同含义 |
+| 16 | 大括号展开 | 防止展开攻击 | `{a,b}` 展开为多个参数 |
+| 17 | 控制字符 | 防止终端注入 | 嵌入 ANSI 转义序列控制终端 |
+| 18 | Unicode 空白 | 防止视觉混淆 | 使用 U+200B 等零宽字符隐藏内容 |
+| 19 | 词中哈希 | 防止注释注入 | `cmd#comment` 在某些 shell 中是注释 |
+| 20 | Zsh 危险命令 | 防止模块滥用 | `zmodload zsh/net/tcp` 加载网络模块 |
+| 21 | 反斜杠操作符 | 防止转义注入 | `\;` 在不同 parser 中解析为 `;` 或字面量 |
+| 22 | 注释引号不同步 | 防止引号逃逸 | 注释中的引号改变后续代码的引号配对 |
+| 23 | 引号内换行 | 防止引号包裹的多行命令 | 引号内隐藏的换行符 |
+
+这 23 项检查的设计哲学是**各自独立、任一触发即拒绝**。它们不需要全部正确——只要任何一项检测到异常，命令就会被标记为需要用户审批。这正是纵深防御在单层内的体现。
+
+### 12.6.4 不可建议的裸 Shell 前缀
+
+当用户批准一个命令时，系统会自动建议将其保存为权限规则。但以下前缀不能作为规则建议，因为它们允许 `-c` 参数执行任意代码——建议 `Bash(bash:*)` 等于允许一切：
+
+- Shell 解释器：sh, bash, zsh, fish, csh, tcsh, ksh, dash, cmd, powershell
+- 包装器：env, xargs, nice, stdbuf, nohup, timeout, time
+- 提权工具：sudo, doas, pkexec
+
+### 12.6.5 Zsh 特定防护
+
+由于 Claude Code 默认使用用户的 shell（经常是 zsh），需要针对 zsh 特有的危险功能进行防护：
+
+```typescript
+const ZSH_DANGEROUS_COMMANDS = [
+  'zmodload',   // 模块加载（可加载 zsh/net/tcp、zsh/system 等危险模块）
+  'emulate',    // 改变 Shell 行为（emulate sh -c 可执行任意代码）
+  'sysopen',    // 直接系统调用（来自 zsh/system 模块）
+  'sysread',    // 直接系统读取
+  'syswrite',   // 直接系统写入
+  'ztcp',       // TCP 连接（可用于数据外泄）
+  'zsocket',    // Unix socket 连接
+  'zpty',       // 伪终端执行（可隐藏子进程）
+  'mapfile',    // 文件内存映射（静默文件 I/O）
+]
+```
+
+此外还检测 Zsh 特有的危险展开语法：
+
+| 语法 | 危险性 |
+|------|--------|
+| `=cmd` | `=ls` 展开为 `/bin/ls`，可被利用执行任意路径 |
+| `<()` / `>()` | 进程替换，可创建隐藏的子进程 |
+| `~[]` | Zsh 特有的历史展开 |
+| `(e:)` | 全局限定符（glob qualifier），可在文件名匹配时执行任意代码 |
+| `(+)` | 全局限定符，可触发自定义函数 |
+
+### 12.6.6 复合命令安全限制
+
+对于通过 `&&`、`||`、`;`、`|` 连接的复合命令，安全检查器会将其拆分为子命令逐一验证。但为了防止恶意构造的超长复合命令导致 ReDoS 或指数级增长的检查开销，系统设置了硬性上限：
+
+```typescript
+const MAX_SUBCOMMANDS_FOR_SECURITY_CHECK = 50
+// 超过 50 个子命令的复合命令直接标记为需要用户审批
+
+const MAX_SUGGESTED_RULES_FOR_COMPOUND = 5
+// 复合命令最多自动建议 5 条权限规则，防止规则爆炸
+```
+
+## 12.7 危险文件与目录保护
+
+除了 Bash 命令的安全检查，文件编辑类工具（`Edit`、`Write`、`NotebookEdit`）也有独立的安全机制。系统维护了一份危险文件和目录列表，这些路径即使在 bypassPermissions 模式下也需要用户确认。
+
+### 危险文件列表
+
+```typescript
+// src/utils/permissions/filesystem.ts
+export const DANGEROUS_FILES = [
+  '.gitconfig',       // Git 全局配置——可配置 core.hooksPath 执行任意脚本
+  '.gitmodules',      // Git 子模块——可在 clone 时拉取恶意仓库
+  '.bashrc',          // Bash 启动脚本——每次打开终端都会执行
+  '.bash_profile',    // Bash 登录脚本
+  '.zshrc',           // Zsh 启动脚本
+  '.zprofile',        // Zsh 登录脚本
+  '.profile',         // POSIX shell 通用启动脚本
+  '.ripgreprc',       // ripgrep 配置——可配置 --pre 预处理器执行代码
+  '.mcp.json',        // MCP 服务器配置——配置的服务器拥有完整系统访问权限
+  '.claude.json',     // Claude Code 配置——可修改权限规则
+]
+```
+
+保护每个文件的原因都很具体。一类是启动时自动执行的脚本，比如 .bashrc、.zshrc，它们是持久化后门的理想载体；另一类是能改变安全边界的配置文件，比如 .gitconfig 可以注入 git hooks、.mcp.json 可以添加新的 MCP 服务器。
+
+### 危险目录列表
+
+```typescript
+export const DANGEROUS_DIRECTORIES = [
+  '.git',     // Git 内部目录——hooks/ 子目录中的脚本在 git 操作时自动执行
+  '.vscode',  // VS Code 配置——tasks.json 可定义自动执行的任务
+  '.idea',    // JetBrains IDE 配置——类似风险
+  '.claude',  // Claude Code 配置——包含 settings、hooks、commands、agents
+]
+```
+
+### 大小写绕过防御
+
+在 macOS（默认大小写不敏感文件系统）和 Windows 上，攻击者可以通过混合大小写绕过路径检查。例如，`.cLauDe/Settings.locaL.json` 在文件系统层面等同于 `.claude/settings.local.json`，但简单的字符串比较会认为它们不同。
+
+Claude Code 通过 `normalizeCaseForComparison` 统一转为小写后再比较：
+
+```typescript
+export function normalizeCaseForComparison(path: string): string {
+  return path.toLowerCase()
+}
+```
+
+注意这个函数无论在什么平台都会执行——即使在 Linux（大小写敏感）上也统一转小写。这是一种保守策略：防止跨平台场景下出现安全漏洞，比如 Linux CI 访问 macOS 开发者的配置。
+
+### Skill 作用域缩窄
+
+`.claude/skills/` 目录下的文件需要特殊处理。Claude Code 的 Skill 系统允许用户创建自定义技能，技能文件存储在 `.claude/skills/{skill-name}/` 目录下。
+
+当模型需要编辑某个 Skill 的文件时，系统不会给出宽泛的"允许编辑 .claude/ 目录"选项——那太危险，会暴露 settings.json 和 hooks/——而是生成一条缩窄的权限建议：只允许编辑这个 Skill 自己的目录。
+
+```typescript
+// 例如编辑 .claude/skills/my-tool/handler.ts
+// 系统建议的权限模式是 "/.claude/skills/my-tool/**"
+// 而不是 "/.claude/**"
+```
+
+这防止了迭代一个 Skill 时意外获得修改整个 `.claude/` 目录的权限。
+
+> 源码：`src/utils/permissions/filesystem.ts`
+
+## 12.8 权限决策追踪
+
+系统完整记录每次权限决策，供审计和调试：
+
+```typescript
+type DecisionSource =
+  | 'user_permanent'   // 用户批准并保存规则（"始终允许"）
+  | 'user_temporary'   // 用户批准一次
+  | 'user_abort'       // 用户按 Escape 中止
+  | 'user_reject'      // 用户明确拒绝
+  | 'hook'             // PermissionRequest Hook 决策
+  | 'classifier'       // LLM 分类器自动批准
+  | 'config'           // 配置允许列表自动批准
+```
+
+每个工具调用有一个唯一的 `toolUseID`，决策记录存储在 `toolUseContext.toolDecisions` Map 中。这些记录有两个用途：
+
+1. 遥测事件：每次决策都发送对应的遥测事件，用于安全审计和产品分析
+
+```typescript
+// 遥测事件
+'tengu_tool_use_granted_in_prompt_permanent'   // 用户批准并保存
+'tengu_tool_use_granted_in_prompt_temporary'   // 用户一次性批准
+'tengu_tool_use_granted_by_classifier'         // LLM 分类器批准
+'tengu_tool_use_granted_in_config'             // 配置规则批准
+'tengu_tool_use_granted_by_permission_hook'    // 权限 Hook 批准
+'tengu_tool_use_rejected_in_prompt'            // 提示词中被拒绝
+'tengu_tool_use_denied_in_config'              // 配置规则拒绝
+
+// 代码编辑工具额外记录 OTel 计数器
+// 包含文件扩展名（语言信息），用于分析编辑模式
+```
+
+2. PermissionDenied Hook：权限被拒绝时触发，把拒绝详情传给外部脚本。企业可以据此做自定义日志、告警通知和合规报告。
+
+## 12.9 沙箱设计
+
+沙箱是纵深防御中最"物理"的一层——它通过操作系统级机制限制命令的执行环境，即使代码本身有恶意，也无法超越沙箱的边界。
+
+### 架构
+
+Claude Code 使用 `@anthropic-ai/sandbox-runtime` 包，通过 `SandboxManager` 适配器集成到 CLI 中。适配器负责将 Claude Code 的设置（权限规则、工作目录、MCP 配置等）转换为沙箱运行时的配置格式。
+
+### 三维度限制
+
+沙箱限制命令在三个维度上的能力：
+
+文件系统限制：
+- 可写范围：项目目录加临时目录 `/tmp/claude-{uid}/`。即使命令试图写入 `~/.bashrc` 或 `/etc/passwd`，也会被文件系统沙箱拦截
+- 始终禁写：Claude Code 自身的设置文件 `settings.json`、`settings.local.json`——防止沙箱内的命令通过修改权限规则实现"沙箱逃逸"
+- 可读范围：项目目录加系统必要路径 `/usr/`、`/lib/` 等，可通过配置扩展
+
+网络限制：
+- 默认策略取决于配置。系统从 `WebFetch` 工具的 allow 权限规则中提取允许的域名列表
+- `allowManagedDomainsOnly` 选项：企业可以锁定为只允许管理策略中指定的域名，阻止所有其他网络访问
+- deny 规则里的域名进入网络黑名单
+
+进程限制：
+- macOS：使用 Apple 的 Seatbelt（`sandbox-exec`）框架，通过声明式策略文件定义允许的系统调用和资源访问
+- Linux：使用命名空间隔离进程，其中 mount namespace 隔离文件系统视图，network namespace 隔离网络
+
+### 路径模式约定
+
+沙箱配置中的路径模式有特殊语法：
+
+| 模式 | 含义 | 示例 |
+|------|------|------|
+| `//path` | 文件系统绝对路径 | `//var/log` → `/var/log` |
+| `/path` | 相对于设置文件所在目录 | `/src` → `{settings-dir}/src` |
+| `~/path` | 用户主目录 | `~/Downloads` |
+| `./path` 或 `path` | 相对路径 | 由沙箱运行时处理 |
+
+### autoAllowBashIfSandboxed
+
+当沙箱和 `autoAllowBashIfSandboxed` 同时启用时，沙箱化的命令可以跳过权限确认自动执行。背后的道理不难理解：一条命令如果已经被沙箱锁在项目目录内、连不了网、也改不了系统文件，它能造成的破坏就已经受控，用不着再让用户逐条确认。
+
+但有几个关键例外：
+- 设置了 `dangerouslyDisableSandbox` 的命令不享受自动允许
+- 显式 deny 规则仍然生效
+- 显式 ask 规则仍然生效
+
+### dangerouslyDisableSandbox
+
+`dangerouslyDisableSandbox` 参数的命名是刻意设计的——名字本身就是一种安全提醒。
+
+- 必要场景：某些命令确实需要系统级访问权限，例如操作 Docker 要用 `/var/run/docker.sock`，跑 apt、brew 这类系统包管理器也是
+- 模型必须显式请求：模型要在工具调用里明确设置这个参数，用户还得在对话框里批准
+- 其他安全层仍然生效：即使禁用了沙箱，Bash 多层安全检查、权限规则匹配、路径约束等防护层依然有效——这正是纵深防御的价值
+
+> 源码：`src/utils/sandbox/sandbox-adapter.ts`
+
+## 12.10 路径边界保护
+
+路径边界保护确保工具操作不会超出允许的路径范围。这是一个看似简单但细节丰富的安全机制。
+
+### 基本原理
+
+每次涉及文件路径的操作都会经过 `checkPathConstraints` 验证：
+
+1. 主工作目录检查：路径必须在当前项目目录（`cwd`）及其子目录内
+2. 附加工作目录检查：通过 `/add-dir` 命令添加的额外允许路径
+3. 越界拒绝：不在任何允许范围内的路径直接拒绝
+
+### 符号链接解析
+
+简单的 `path.resolve` 不足以防御所有攻击。攻击者可以在项目目录内创建符号链接指向外部路径：
+
+```bash
+# 攻击示例
+ln -s /etc/passwd ./project/innocent-file
+# 现在 ./project/innocent-file 通过路径检查（在项目目录内）
+# 但实际指向 /etc/passwd
+```
+
+因此系统会同时解析路径和工作目录的符号链接，进行对称比较。macOS 上还需要特殊处理：`/home` 是指向 `/System/Volumes/Data/home` 的符号链接，`/tmp` 指向 `/private/tmp`。
+
+### Bash 专用路径验证
+
+`src/tools/BashTool/pathValidation.ts` 为每种命令类型实现了专用的路径提取器（`PATH_EXTRACTORS`），覆盖了大量命令：
+
+| 命令类别 | 命令 |
+|---------|------|
+| 目录操作 | cd, mkdir |
+| 文件操作 | touch, rm, rmdir, mv, cp |
+| 读取命令 | cat, head, tail, sort, uniq, wc, cut, paste, column, tr, file, stat, strings, hexdump, od, base64, nl |
+| 搜索命令 | ls, find, grep, rg |
+| 编辑命令 | sed, awk |
+| VCS | git |
+| 数据处理 | jq, diff |
+| 校验 | sha256sum, sha1sum, md5sum |
+
+每种命令的路径提取逻辑都不同——例如 `cp` 需要验证源路径和目标路径，`mv` 同理，而 `cat` 只需要验证读取路径。
+
+### 危险删除防护
+
+`checkDangerousRemovalPaths` 专门防护灾难性删除操作。当检测到 `rm` 或 `rmdir` 的目标是关键系统路径（如 `/`、`/home`、`/etc`、`~`）时，强制要求用户确认且不提供 "始终允许" 选项——防止用户不小心将 `rm -rf /` 存为自动允许规则。
+
+> 源码：`src/tools/BashTool/pathValidation.ts`，`src/utils/permissions/pathValidation.ts`
+
+## 12.11 Prompt Injection 防御
+
+Claude Code 通过多重机制防御提示注入攻击：
+
+### 结构化消息防御
+
+```
+API 消息格式天然隔离：
+- role: "user"     → 用户输入
+- role: "assistant" → 模型输出
+- role: "tool_result" → 工具输出（模型知道这不是用户指令）
+```
+
+Anthropic API 的消息结构天然提供了一层隔离：模型能区分用户直接输入的内容和工具返回的内容，前者是 `user` 消息，后者是 `tool_result` 消息。于是即使恶意文件的内容被读进来交给模型，模型也知道这是工具输出，不是用户指令。
+
+### system-reminder 标签防御

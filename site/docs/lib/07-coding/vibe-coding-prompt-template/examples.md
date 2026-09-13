@@ -32,11 +32,11 @@ This is the **Level A (vibe coder)** path — the route most visitors take: plai
 
 | File | Produced by | What it is |
 |---|---|---|
-| [`research-reddit-to-ai.md`](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/examples/reddit-to-ai/research-reddit-to-ai.md) | Part 1 | Deep-research output: concept, users, competitors, budget |
-| [`PRD-reddit-to-ai-MVP.md`](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/examples/reddit-to-ai/PRD-reddit-to-ai-MVP.md) | Part 2 | What the MVP does — and deliberately doesn't do |
-| [`TechDesign-reddit-to-ai-MVP.md`](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/examples/reddit-to-ai/TechDesign-reddit-to-ai-MVP.md) | Part 3 | How to build it: stack choice with trade-offs, structure, costs |
+| [`research-reddit-to-ai.md`](/lib/07-coding/vibe-coding-prompt-template/examples-reddit-to-ai-research-reddit-to-ai) | Part 1 | Deep-research output: concept, users, competitors, budget |
+| [`PRD-reddit-to-ai-MVP.md`](/lib/07-coding/vibe-coding-prompt-template/examples-reddit-to-ai-PRD-reddit-to-ai-MVP) | Part 2 | What the MVP does — and deliberately doesn't do |
+| [`TechDesign-reddit-to-ai-MVP.md`](/lib/07-coding/vibe-coding-prompt-template/examples-reddit-to-ai-TechDesign-reddit-to-ai-MVP) | Part 3 | How to build it: stack choice with trade-offs, structure, costs |
 | [`AGENTS.md`](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/examples/reddit-to-ai/AGENTS.md) | Part 4 (from `templates/AGENTS.md`) | The filled-in master plan, captured mid-build |
-| [`MEMORY.md`](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/examples/reddit-to-ai/MEMORY.md) | Part 4 (from `templates/MEMORY.md`) | What a living memory file looks like a few weeks in |
+| [`MEMORY.md`](/lib/07-coding/vibe-coding-prompt-template/examples-reddit-to-ai-MEMORY) | Part 4 (from `templates/MEMORY.md`) | What a living memory file looks like a few weeks in |
 
 Each document ends with a **Handoff Context** block — the baton in the relay. Part 2 reads it from the research, Part 3 from the PRD, and Part 4 from the tech design, so you never re-answer the same questions. Watch the `Source files` line grow one arrow per stage, and the `Chosen stack` / `AI coding tool` lines appear once the tech design locks them in.
 

@@ -30,7 +30,7 @@ zh: ""
 ## 阅读入口
 
 - [在线阅读](https://bozhoudev.github.io/codex-orange-book/)
-- [完整 Markdown 原稿](https://github.com/bozhouDev/codex-orange-book/blob/6c72add96c319507da65f963abfd9618d0c9ea0f/ChatGPT橙皮书.md)
+- [完整 Markdown 原稿](/lib/09-harness/codex-orange-book/ChatGPT橙皮书)
 - [下载 PDF](https://raw.githubusercontent.com/bozhouDev/codex-orange-book/main/ChatGPT%E6%A9%99%E7%9A%AE%E4%B9%A6.pdf)
 - [预览 PDF](https://github.com/bozhouDev/codex-orange-book/blob/6c72add96c319507da65f963abfd9618d0c9ea0f/ChatGPT橙皮书.preview.pdf)
 

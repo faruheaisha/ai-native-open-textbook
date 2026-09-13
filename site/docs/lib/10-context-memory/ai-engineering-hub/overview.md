@@ -110,7 +110,7 @@ Multi-component systems, agentic workflows, and advanced features for experience
 - [**Agentic RAG**](/lib/10-context-memory/ai-engineering-hub/agentic_rag) - RAG with document search and web fallback
 - [**Agentic RAG with DeepSeek**](/lib/10-context-memory/ai-engineering-hub/agentic_rag_deepseek) - Enterprise agentic RAG with GroundX
 - [**Book Writer Flow**](/lib/10-context-memory/ai-engineering-hub/book-writer-flow) - Automated book writing with CrewAI
-- [**Content Planner Flow**](/lib/10-context-memory/ai-engineering-hub/content_planner_flow) - Content workflow with CrewAI Flow
+- [**Content Planner Flow**](https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/content_planner_flow/README.md) - Content workflow with CrewAI Flow
 - [**Brand Monitoring**](/lib/10-context-memory/ai-engineering-hub/brand-monitoring) - Automated brand monitoring system
 - [**Hotel Booking Crew**](https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/hotel-booking-crew/README.md) - Multi-agent hotel booking with DeepSeek-R1
 - [**Deploy Agentic RAG**](https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/deploy-agentic-rag/README.md) - Private Agentic RAG API with LitServe
@@ -135,7 +135,7 @@ Multi-component systems, agentic workflows, and advanced features for experience
 
 #### Multimodal
 - [**DeepSeek Multimodal RAG**](https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/deepseek-multimodal-RAG/README.md) - MultiModal RAG with DeepSeek-Janus-Pro
-- [**ColiVara Website RAG**](/lib/10-context-memory/ai-engineering-hub/Colivara-deepseek-website-RAG) - MultiModal RAG for websites
+- [**ColiVara Website RAG**](https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/Colivara-deepseek-website-RAG/README.md) - MultiModal RAG for websites
 - [**Multimodal RAG with AssemblyAI**](https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/multimodal-rag-assemblyai/README.md) - Audio + vector database + CrewAI
 
 #### MCP (Model Context Protocol)
@@ -157,7 +157,7 @@ Multi-component systems, agentic workflows, and advanced features for experience
 - [**O3 vs Claude Code**](https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/o3-vs-claude-code/README.md) - Compare Claude 3.7 and o3
 - [**Sonnet4 vs O4**](https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/sonnet4-vs-o4/README.md) - Code generation comparison
 - [**Sonnet4 vs Qwen3-Coder**](https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/sonnet4-vs-qwen3-coder/README.md) - Coder model comparison
-- [**Code Model Comparison**](/lib/10-context-memory/ai-engineering-hub/code-model-comparison) - Frontier model code comparison
+- [**Code Model Comparison**](https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/code-model-comparison/README.md) - Frontier model code comparison
 - [**GPT-OSS vs Qwen3**](https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/gpt-oss-vs-qwen3/README.md) - Reasoning capabilities comparison
 
 ---

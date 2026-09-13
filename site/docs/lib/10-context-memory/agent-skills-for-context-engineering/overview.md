@@ -209,7 +209,7 @@ The [examples](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engine
 | [digital-brain-skill](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/examples/digital-brain-skill/README.md) | **NEW** Personal operating system for founders and creators. Complete Claude Code skill with 6 modules, 4 automation scripts | context-fundamentals, context-optimization, memory-systems, tool-design, multi-agent-patterns, evaluation, project-development |
 | [x-to-book-system](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/examples/x-to-book-system/README.md) | Multi-agent system that monitors X accounts and generates daily synthesized books | multi-agent-patterns, memory-systems, context-optimization, tool-design, evaluation |
 | [llm-as-judge-skills](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/examples/llm-as-judge-skills/README.md) | Production-ready LLM evaluation tools with TypeScript implementation, 19 passing tests | advanced-evaluation, tool-design, context-fundamentals, evaluation |
-| [book-sft-pipeline](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/examples/book-sft-pipeline/README.md) | Train models to write in any author's style. Includes Gertrude Stein case study with 70% human score on Pangram, $2 total cost | project-development, context-compression, multi-agent-patterns, evaluation |
+| [book-sft-pipeline](/lib/10-context-memory/agent-skills-for-context-engineering/examples-book-sft-pipeline) | Train models to write in any author's style. Includes Gertrude Stein case study with 70% human score on Pangram, $2 total cost | project-development, context-compression, multi-agent-patterns, evaluation |
 | [interleaved-thinking](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/examples/interleaved-thinking/README.md) | Reasoning trace optimizer that captures, analyzes, and converts agent failure patterns into generated skills | evaluation, advanced-evaluation, context-degradation, harness-engineering |
 | [long-horizon-prompt-lab](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/examples/long-horizon-prompt-lab/README.md) | Production-ready educational website: method guide, copyable task-brief template, four complete prompt rewrites, structural audits, and a caveated research/vendor reference catalog | long-horizon-prompting, harness-engineering, multi-agent-patterns, advanced-evaluation |
 
@@ -240,7 +240,7 @@ The [llm-as-judge-skills](https://github.com/muratcankoylan/Agent-Skills-for-Con
 
 ### Book SFT Pipeline Example
 
-The [book-sft-pipeline](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/examples/book-sft-pipeline/README.md) example demonstrates training small models (8B) to write in any author's style:
+The [book-sft-pipeline](/lib/10-context-memory/agent-skills-for-context-engineering/examples-book-sft-pipeline) example demonstrates training small models (8B) to write in any author's style:
 
 - **Intelligent Segmentation**: Two-tier chunking with overlap for maximum training examples
 - **Prompt Diversity**: 15+ templates to prevent memorization and force style learning
@@ -251,7 +251,7 @@ Integrates with context engineering skills: project-development, context-compres
 
 ## Researcher Operating System
 
-The [researcher](/lib/10-context-memory/agent-skills-for-context-engineering/researcher) directory is a file-based operating system for turning external research into skill changes. It exists so this repository can act as a compounding source of truth instead of an anthology.
+The [researcher](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/researcher/README.md) directory is a file-based operating system for turning external research into skill changes. It exists so this repository can act as a compounding source of truth instead of an anthology.
 
 ### Measured router-benchmark results
 

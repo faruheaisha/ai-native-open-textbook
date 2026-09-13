@@ -311,23 +311,23 @@ flowchart TD
 
 | Chapter | Topic | Key Concepts |
 |---|---|---|
-| [s01](/lib/09-harness/learn-claude-code/s01_agent_loop) | Agent Loop | `messages` / `while True` / `tool_use` |
-| [s02](/lib/09-harness/learn-claude-code/s02_tool_use) | Tool Use | `TOOL_HANDLERS` / dispatch map / concurrency |
-| [s03](/lib/09-harness/learn-claude-code/s03_permission) | Permission System | `PermissionRule` / approval pipeline |
-| [s04](/lib/09-harness/learn-claude-code/s04_hooks) | Hook System | `PreToolUse` / `PostToolUse` / extension points |
-| [s05](/lib/09-harness/learn-claude-code/s05_todo_write) | TodoWrite | `TodoItem` / plan-then-execute |
-| [s06](/lib/09-harness/learn-claude-code/s06_subagent) | Subagent | `fresh messages[]` / context isolation |
-| [s07](/lib/09-harness/learn-claude-code/s07_skill_loading) | Skill Loading | `SkillLoader` / catalog / on-demand injection |
-| [s08](/lib/09-harness/learn-claude-code/s08_context_compact) | Context Compact | tool_result_budget / snip_compact / micro_compact / compact_history |
-| [s09](/lib/09-harness/learn-claude-code/s09_memory) | Memory System | selection / extraction / consolidation |
-| [s10](/lib/09-harness/learn-claude-code/s10_task_system) | Task System | `TaskRecord` / `blockedBy` / disk persistence |
-| [s11](/lib/09-harness/learn-claude-code/s11_background_tasks) | Background Tasks | threaded execution / notification queue |
-| [s12](/lib/09-harness/learn-claude-code/s12_cron_scheduler) | Cron Scheduler | durable scheduling / session-scoped triggers |
-| [s13](/lib/09-harness/learn-claude-code/s13_agent_teams) | Agent Teams | persistent teammates / atomic task claims / task-bound worktrees / typed protocols |
-| [s14](/lib/09-harness/learn-claude-code/s14_mcp_plugin) | MCP Plugin | tool discovery / namespaced tools / tool pool assembly |
-| [s15](/lib/09-harness/learn-claude-code/s15_integrated_harness) | Integrated Harness | tools, runtime context, tasks, teams, scheduling, and MCP around one loop |
-| [s16](/lib/09-harness/learn-claude-code/s16_workflow_runtime) | Workflow Runtime | script orchestration / lifecycle events / journal resume |
-| [s17](/lib/09-harness/learn-claude-code/s17_goal_loop) | Goal Loop | goal gate / conversation evaluation / automatic continuation |
+| [s01](https://github.com/shareAI-lab/learn-claude-code/blob/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s01_agent_loop/README.md) | Agent Loop | `messages` / `while True` / `tool_use` |
+| [s02](https://github.com/shareAI-lab/learn-claude-code/blob/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s02_tool_use/README.md) | Tool Use | `TOOL_HANDLERS` / dispatch map / concurrency |
+| [s03](https://github.com/shareAI-lab/learn-claude-code/blob/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s03_permission/README.md) | Permission System | `PermissionRule` / approval pipeline |
+| [s04](https://github.com/shareAI-lab/learn-claude-code/blob/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s04_hooks/README.md) | Hook System | `PreToolUse` / `PostToolUse` / extension points |
+| [s05](https://github.com/shareAI-lab/learn-claude-code/blob/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s05_todo_write/README.md) | TodoWrite | `TodoItem` / plan-then-execute |
+| [s06](https://github.com/shareAI-lab/learn-claude-code/blob/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s06_subagent/README.md) | Subagent | `fresh messages[]` / context isolation |
+| [s07](https://github.com/shareAI-lab/learn-claude-code/blob/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s07_skill_loading/README.md) | Skill Loading | `SkillLoader` / catalog / on-demand injection |
+| [s08](https://github.com/shareAI-lab/learn-claude-code/blob/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s08_context_compact/README.md) | Context Compact | tool_result_budget / snip_compact / micro_compact / compact_history |
+| [s09](https://github.com/shareAI-lab/learn-claude-code/blob/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s09_memory/README.md) | Memory System | selection / extraction / consolidation |
+| [s10](https://github.com/shareAI-lab/learn-claude-code/blob/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s10_task_system/README.md) | Task System | `TaskRecord` / `blockedBy` / disk persistence |
+| [s11](https://github.com/shareAI-lab/learn-claude-code/blob/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s11_background_tasks/README.md) | Background Tasks | threaded execution / notification queue |
+| [s12](https://github.com/shareAI-lab/learn-claude-code/blob/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s12_cron_scheduler/README.md) | Cron Scheduler | durable scheduling / session-scoped triggers |
+| [s13](https://github.com/shareAI-lab/learn-claude-code/blob/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s13_agent_teams/README.md) | Agent Teams | persistent teammates / atomic task claims / task-bound worktrees / typed protocols |
+| [s14](https://github.com/shareAI-lab/learn-claude-code/blob/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s14_mcp_plugin/README.md) | MCP Plugin | tool discovery / namespaced tools / tool pool assembly |
+| [s15](https://github.com/shareAI-lab/learn-claude-code/blob/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s15_integrated_harness/README.md) | Integrated Harness | tools, runtime context, tasks, teams, scheduling, and MCP around one loop |
+| [s16](https://github.com/shareAI-lab/learn-claude-code/blob/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s16_workflow_runtime/README.md) | Workflow Runtime | script orchestration / lifecycle events / journal resume |
+| [s17](https://github.com/shareAI-lab/learn-claude-code/blob/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/s17_goal_loop/README.md) | Goal Loop | goal gate / conversation evaluation / automatic continuation |
 
 ---
 

@@ -90,10 +90,10 @@ export OPENAI_API_KEY=sk-...
 
 ## Start here
 
--   Build your first text-based agent with the [Quickstart](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/quickstart.md).
+-   Build your first text-based agent with the [Quickstart](/lib/08-agents/openai-agents-python/docs-quickstart).
 -   Then decide how you want to carry state across turns in [Running agents](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/running_agents.md#choose-a-memory-strategy).
 -   If the task depends on real files, repos, or isolated per-agent workspace state, read the [Sandbox agents quickstart](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/sandbox_agents.md).
--   If you are deciding between handoffs and manager-style orchestration, read [Agent orchestration](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/multi_agent.md).
+-   If you are deciding between handoffs and manager-style orchestration, read [Agent orchestration](/lib/08-agents/openai-agents-python/docs-multi_agent).
 
 ## Choose your path
 
@@ -101,12 +101,12 @@ Use this table when you know the job you want to do, but not which page explains
 
 | Goal | Start here |
 | --- | --- |
-| Build the first text agent and see one complete run | [Quickstart](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/quickstart.md) |
+| Build the first text agent and see one complete run | [Quickstart](/lib/08-agents/openai-agents-python/docs-quickstart) |
 | Add function tools, hosted tools, or agents as tools | [Tools](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/tools.md) |
 | Run a coding, review, or document agent inside a real isolated workspace | [Sandbox agents quickstart](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/sandbox_agents.md) and [Sandbox clients](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/sandbox/clients.md) |
-| Decide between handoffs and manager-style orchestration | [Agent orchestration](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/multi_agent.md) |
+| Decide between handoffs and manager-style orchestration | [Agent orchestration](/lib/08-agents/openai-agents-python/docs-multi_agent) |
 | Keep memory across turns | [Running agents](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/running_agents.md#choose-a-memory-strategy) and [Sessions](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/sessions/index.md) |
-| Use OpenAI models, websocket transport, or non-OpenAI providers | [Models](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/models/index.md) |
+| Use OpenAI models, websocket transport, or non-OpenAI providers | [Models](/lib/08-agents/openai-agents-python/docs-models) |
 | Review outputs, run items, interruptions, and resume state | [Results](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/results.md) |
-| Build a low-latency voice agent with `gpt-realtime-2.1` | [Realtime agents quickstart](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/realtime/quickstart.md) and [Realtime transport](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/realtime/transport.md) |
+| Build a low-latency voice agent with `gpt-realtime-2.1` | [Realtime agents quickstart](/lib/08-agents/openai-agents-python/docs-realtime-quickstart) and [Realtime transport](/lib/08-agents/openai-agents-python/docs-realtime-transport) |
 | Build a speech-to-text / agent / text-to-speech pipeline | [Voice pipeline quickstart](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/voice/quickstart.md) |

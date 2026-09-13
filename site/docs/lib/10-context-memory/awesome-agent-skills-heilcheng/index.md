@@ -19,6 +19,8 @@ Maintained by [Hailey Cheng (Cheng Hei Lam)](https://www.linkedin.com/in/heilche
 
 ## 课时
 
-1. [Agent Skill Index](website.md)
+1. [Agent Skill Index](README.zh-CN.md)
+2. [Agent Skill Index](README.zh-TW.md)
+3. [Agent Skill Index](website.md)
 
-开始学习 → [Agent Skill Index](website.md)
+开始学习 → [Agent Skill Index](README.zh-CN.md)

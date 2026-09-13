@@ -26,7 +26,7 @@ Documentation: [https://deepseek-harness.github.io/deepseek-harness/](https://de
 
 DeepSeek Harness is in _developer preview_ and iterating rapidly. **THERE WILL BE COMPATIBILITY-BREAKING CHANGES.**
 
-Review the [safety notice](https://github.com/deepseek-ai/deepseek-harness/blob/c291e7961a515f6d7af9304e7fd1d257929aef26/SAFETY.md) before running the project.
+Review the [safety notice](/lib/09-harness/deepseek-harness/SAFETY) before running the project.
 
 ## Run
 

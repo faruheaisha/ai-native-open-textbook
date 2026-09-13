@@ -22,6 +22,8 @@ Works with Claude, Gemini, GPT, DeepSeek, Llama, Qwen and other open-source mode
 
 **[Step-by-step tutorials on Unwind AI](https://www.theunwindai.com)** · **[Quick start](#-run-one-now)** · **[Browse all templates](#-browse-all-templates)**
 
+  <img src="https://trendshift.io/api/badge/repositories/9876" width="220" alt="Featured on Trendshift as the #1 repository of the day">
+
 <br>
 
 <table>
@@ -80,7 +82,7 @@ streamlit run travel_agent.py
 
 ### 🧩 Agent Skills
 
-*Give your coding agent new abilities. One command to install, plain English to use. Every skill ships real code and passes a security + eval CI gate. Works with Claude Code, Codex, Cursor, and other coding agents. [Browse all skills →](/lib/08-agents/awesome-llm-apps/agent_skills)*
+*Give your coding agent new abilities. One command to install, plain English to use. Every skill ships real code and passes a security + eval CI gate. Works with Claude Code, Codex, Cursor, and other coding agents. [Browse all skills →](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/agent_skills/README.md)*
 
 *   [⚰️ Project Graveyard](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/agent_skills/project-graveyard/README.md) - Finds every side project you abandoned, tells you why each one died, and helps you finish the one worth going back to
 *   [🔭 Scope Creep Detector](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/agent_skills/scope-creep-detector/README.md) - Checks whether a diff grew beyond its stated intent and recommends what to keep, split, or justify
@@ -114,7 +116,7 @@ streamlit run travel_agent.py
 *   [🏚️ 🍌 AI Home Renovation Agent with Nano Banana Pro](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/multi_agent_apps/ai_home_renovation_agent/README.md) - Photos of your space in, renovation plan and photorealistic renders out
 *   [🧠 DevPulse AI - Multi-Agent Signal Intelligence](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/multi_agent_apps/devpulse_ai/README.md) - Aggregates and scores technical signals into a daily intelligence digest
 *   [🔍 AI Deep Research Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/single_agent_apps/ai_deep_research_agent/README.md) - Comprehensive web research with the OpenAI Agents SDK and Firecrawl
-*   [📊 AI VC Due Diligence Agent Team](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/multi_agent_apps/agent_teams/ai_vc_due_diligence_agent_team/README.md) - Multi-agent startup investment analysis with Gemini 3
+*   [📊 AI VC Due Diligence Agent Team](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-multi_agent_apps-agent_teams-ai_vc_due_diligence_agent_team) - Multi-agent startup investment analysis with Gemini 3
 *   [🔬 AI Research Planner & Executor (Google Interactions API)](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/single_agent_apps/research_agent_gemini_interaction_api/README.md) - Multi-phase research with stateful conversations and auto-generated infographics
 *   [🤝 AI Consultant Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/single_agent_apps/ai_consultant_agent/README.md) - Market analysis and strategy recommendations with live web research
 *   [🏗️ AI System Architect Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/single_agent_apps/ai_system_architect_r1/README.md) - Architecture reviews using DeepSeek R1 reasoning plus Claude
@@ -129,7 +131,7 @@ streamlit run travel_agent.py
 *   [🧠 AI Mental Wellbeing Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/multi_agent_apps/ai_mental_wellbeing_agent/README.md) - A coordinated agent team for mental health support plans
 *   [📑 AI Meeting Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/single_agent_apps/ai_meeting_agent/README.md) - Context, industry insights, and strategy briefs before you walk in
 *   [🧬 AI Self-Evolving Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/multi_agent_apps/ai_self_evolving_agent/README.md) - Agents that rewrite their own workflows with EvoAgentX
-*   [👨🏻‍💼 AI Sales Intelligence Agent Team](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/multi_agent_apps/agent_teams/ai_sales_intelligence_agent_team/README.md) - Generates competitive sales battle cards in real time
+*   [👨🏻‍💼 AI Sales Intelligence Agent Team](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-multi_agent_apps-agent_teams-ai_sales_intelligence_agent_team) - Generates competitive sales battle cards in real time
 *   [🎧 AI Social Media News and Podcast Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/multi_agent_apps/ai_news_and_podcast_agents/README.md) - Curates your trusted sources into briefs and generated podcasts
 *   [🌐 Openwork - Open Browser Automation Agent](https://github.com/accomplish-ai/coworker) <sub>↗ external</sub> - Open-source agent that operates a real browser
 *   [🛡️ Trust-Gated Multi-Agent Research Team](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/multi_agent_apps/trust_gated_agent_team/README.md) - Every agent verified, every action in a hash-chained audit trail
@@ -145,19 +147,19 @@ streamlit run travel_agent.py
 
 *Multiple agents collaborating to accomplish complex, cross-domain tasks.*
 
-*   [🧲 AI Competitor Intelligence Agent Team](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/multi_agent_apps/agent_teams/ai_competitor_intelligence_agent_team/README.md) - Structured competitor teardowns built from their own websites
-*   [💲 AI Finance Agent Team](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/multi_agent_apps/agent_teams/ai_finance_agent_team/README.md) - A financial analyst team in 20 lines of Python
-*   [🎨 AI Game Design Agent Team](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/multi_agent_apps/agent_teams/ai_game_design_agent_team/README.md) - Full game concepts from a swarm of design specialists
-*   [🧭 AG2 Adaptive Research Team](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/multi_agent_apps/agent_teams/ag2_adaptive_research_team/README.md) - Agent teamwork with routing and fallback, built on AG2
-*   [👨‍⚖️ AI Legal Agent Team (Cloud & Local)](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/multi_agent_apps/agent_teams/ai_legal_agent_team/README.md) - Research, contract analysis, and strategy from a full legal bench
-*   [💼 AI Recruitment Agent Team](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/multi_agent_apps/agent_teams/ai_recruitment_agent_team/README.md) - Resume screening to interview scheduling, end to end
-*   [🏠 AI Real Estate Agent Team](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/multi_agent_apps/agent_teams/ai_real_estate_agent_team/README.md) - Property search, market analysis, and recommendations
-*   [👨‍💼 AI Services Agency (CrewAI)](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/multi_agent_apps/agent_teams/ai_services_agency/README.md) - A digital agency that scopes and plans your software project
-*   [👨‍🏫 AI Teaching Agent Team](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/multi_agent_apps/agent_teams/ai_teaching_agent_team/README.md) - A faculty of agents that builds your complete learning path
-*   [💻 Multimodal Coding Agent Team](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/multi_agent_apps/agent_teams/multimodal_coding_agent_team/README.md) - Snap a photo of a coding problem, get a sandboxed solution
-*   [✨ Multimodal Design Agent Team](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/multi_agent_apps/agent_teams/multimodal_design_agent_team/README.md) - Design critiques from a Gemini-powered expert panel
-*   [🎨 🍌 Multimodal UI/UX Feedback Agent Team](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/multi_agent_apps/agent_teams/multimodal_uiux_feedback_agent_team/README.md) - Landing page feedback plus an auto-generated improved version
-*   [🌏 AI Travel Planner Agent Team](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/multi_agent_apps/agent_teams/ai_travel_planner_agent_team/README.md) - A complete trip itinerary, crafted by a team
+*   [🧲 AI Competitor Intelligence Agent Team](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-multi_agent_apps-agent_teams-ai_competitor_intelligence_agent_team) - Structured competitor teardowns built from their own websites
+*   [💲 AI Finance Agent Team](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-multi_agent_apps-agent_teams-ai_finance_agent_team) - A financial analyst team in 20 lines of Python
+*   [🎨 AI Game Design Agent Team](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-multi_agent_apps-agent_teams-ai_game_design_agent_team) - Full game concepts from a swarm of design specialists
+*   [🧭 AG2 Adaptive Research Team](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-multi_agent_apps-agent_teams-ag2_adaptive_research_team) - Agent teamwork with routing and fallback, built on AG2
+*   [👨‍⚖️ AI Legal Agent Team (Cloud & Local)](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-multi_agent_apps-agent_teams-ai_legal_agent_team) - Research, contract analysis, and strategy from a full legal bench
+*   [💼 AI Recruitment Agent Team](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-multi_agent_apps-agent_teams-ai_recruitment_agent_team) - Resume screening to interview scheduling, end to end
+*   [🏠 AI Real Estate Agent Team](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-multi_agent_apps-agent_teams-ai_real_estate_agent_team) - Property search, market analysis, and recommendations
+*   [👨‍💼 AI Services Agency (CrewAI)](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-multi_agent_apps-agent_teams-ai_services_agency) - A digital agency that scopes and plans your software project
+*   [👨‍🏫 AI Teaching Agent Team](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-multi_agent_apps-agent_teams-ai_teaching_agent_team) - A faculty of agents that builds your complete learning path
+*   [💻 Multimodal Coding Agent Team](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-multi_agent_apps-agent_teams-multimodal_coding_agent_team) - Snap a photo of a coding problem, get a sandboxed solution
+*   [✨ Multimodal Design Agent Team](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-multi_agent_apps-agent_teams-multimodal_design_agent_team) - Design critiques from a Gemini-powered expert panel
+*   [🎨 🍌 Multimodal UI/UX Feedback Agent Team](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-multi_agent_apps-agent_teams-multimodal_uiux_feedback_agent_team) - Landing page feedback plus an auto-generated improved version
+*   [🌏 AI Travel Planner Agent Team](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-multi_agent_apps-agent_teams-ai_travel_planner_agent_team) - A complete trip itinerary, crafted by a team
 
 ### 🗣️ Voice AI Agents
 
@@ -185,9 +187,9 @@ streamlit run travel_agent.py
 
 *Agents that play games end-to-end: reasoning, strategy, and action.*
 
-*   [🎮 AI 3D Pygame Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/autonomous_game_playing_agent_apps/ai_3dpygame_r1/README.md) - DeepSeek R1 writes PyGame code, browser agents run it live
-*   [♜ AI Chess Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/autonomous_game_playing_agent_apps/ai_chess_agent/README.md) - Agent White vs Agent Black with validated moves
-*   [🎲 AI Tic-Tac-Toe Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/autonomous_game_playing_agent_apps/ai_tic_tac_toe_agent/README.md) - Two different LLMs battle it out, move by move
+*   [🎮 AI 3D Pygame Agent](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-autonomous_game_playing_agent_apps-ai_3dpygame_r1) - DeepSeek R1 writes PyGame code, browser agents run it live
+*   [♜ AI Chess Agent](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-autonomous_game_playing_agent_apps-ai_chess_agent) - Agent White vs Agent Black with validated moves
+*   [🎲 AI Tic-Tac-Toe Agent](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-autonomous_game_playing_agent_apps-ai_tic_tac_toe_agent) - Two different LLMs battle it out, move by move
 
 ### ♾️ MCP AI Agents
 

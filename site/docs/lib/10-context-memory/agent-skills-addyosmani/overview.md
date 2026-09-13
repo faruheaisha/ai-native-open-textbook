@@ -114,14 +114,14 @@ claude --plugin-dir /path/to/agent-skills
 <details>
 <summary><b>Cursor</b></summary>
 
-Put workflow skills under `.cursor/skills/` (sync from `agent-skills/skills/`) and short policies in `.cursor/rules/*.mdc` — do not paste full skills into rules. See [docs/cursor-setup.md](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/docs/cursor-setup.md).
+Put workflow skills under `.cursor/skills/` (sync from `agent-skills/skills/`) and short policies in `.cursor/rules/*.mdc` — do not paste full skills into rules. See [docs/cursor-setup.md](/lib/10-context-memory/agent-skills-addyosmani/docs-cursor-setup).
 
 </details>
 
 
 <summary><b>Antigravity CLI</b></summary>
 
-Install as a native plugin for skills and subagents. In affected Antigravity CLI releases, legacy command TOMLs are reported as converted but their wrapper commands are not discoverable; invoke the underlying namespaced skills directly. See [docs/antigravity-setup.md](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/docs/antigravity-setup.md#lifecycle-workflows-and-command-compatibility).
+Install as a native plugin for skills and subagents. In affected Antigravity CLI releases, legacy command TOMLs are reported as converted but their wrapper commands are not discoverable; invoke the underlying namespaced skills directly. See [docs/antigravity-setup.md](/lib/10-context-memory/agent-skills-addyosmani/docs-antigravity-setup#lifecycle-workflows-and-command-compatibility).
 
 **Install from the repo:**
 
@@ -141,7 +141,7 @@ agy plugin install ./agent-skills
 
 <summary><b>Gemini CLI</b></summary>
 
-Install as native skills for auto-discovery, or add to `GEMINI.md` for persistent context. See [docs/gemini-cli-setup.md](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/docs/gemini-cli-setup.md).
+Install as native skills for auto-discovery, or add to `GEMINI.md` for persistent context. See [docs/gemini-cli-setup.md](/lib/10-context-memory/agent-skills-addyosmani/docs-gemini-cli-setup).
 
 **Install from the repo:**
 
@@ -160,7 +160,7 @@ gemini skills install ./agent-skills/skills/
 <details>
 <summary><b>Windsurf</b></summary>
 
-Add skill contents to your Windsurf rules configuration. See [docs/windsurf-setup.md](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/docs/windsurf-setup.md).
+Add skill contents to your Windsurf rules configuration. See [docs/windsurf-setup.md](/lib/10-context-memory/agent-skills-addyosmani/docs-windsurf-setup).
 
 </details>
 
@@ -169,16 +169,16 @@ Add skill contents to your Windsurf rules configuration. See [docs/windsurf-setu
 
 Copy skills to `.opencode/skills/` (or `~/.config/opencode/skills/`), add a project-local `AGENTS.md`, and use the built-in `skill` tool for agent-driven execution. Optional slash commands can be added under `.opencode/commands/`.
 
-See [docs/opencode-setup.md](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/docs/opencode-setup.md).
+See [docs/opencode-setup.md](/lib/10-context-memory/agent-skills-addyosmani/docs-opencode-setup).
 
 </details>
 
 <details>
 <summary><b>GitHub Copilot</b></summary>
 
-Use agent definitions from `agents/` as Copilot personas and skill content in `.github/copilot-instructions.md`. See [docs/copilot-setup.md](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/docs/copilot-setup.md).
+Use agent definitions from `agents/` as Copilot personas and skill content in `.github/copilot-instructions.md`. See [docs/copilot-setup.md](/lib/10-context-memory/agent-skills-addyosmani/docs-copilot-setup).
 
-Using the standalone `copilot` CLI? Install it as a plugin — see [docs/copilot-cli-setup.md](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/docs/copilot-cli-setup.md).
+Using the standalone `copilot` CLI? Install it as a plugin — see [docs/copilot-cli-setup.md](/lib/10-context-memory/agent-skills-addyosmani/docs-copilot-cli-setup).
 
 </details>
 
@@ -197,7 +197,7 @@ codex plugin marketplace add addyosmani/agent-skills
 codex plugin add agent-skills@agent-skills
 ```
 
-The first command registers the marketplace; the second installs the plugin. Codex reads the root `skills/` directory directly through `.codex-plugin/plugin.json`. Once installed, invoke skills in chat using `@` (e.g., `@spec-driven-development`). See [docs/codex-setup.md](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/docs/codex-setup.md) for local installation and troubleshooting.
+The first command registers the marketplace; the second installs the plugin. Codex reads the root `skills/` directory directly through `.codex-plugin/plugin.json`. Once installed, invoke skills in chat using `@` (e.g., `@spec-driven-development`). See [docs/codex-setup.md](/lib/10-context-memory/agent-skills-addyosmani/docs-codex-setup) for local installation and troubleshooting.
 
 
 
@@ -212,14 +212,14 @@ cmd skills add addyosmani/agent-skills --global   # install for all projects (~/
 cmd skills add addyosmani/agent-skills -s spec-driven-development  # install a specific skill
 ```
 
-Installed skills show up in the TUI slash menu, e.g. `/spec-driven-development`. See [docs/commandcode-setup.md](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/docs/commandcode-setup.md).
+Installed skills show up in the TUI slash menu, e.g. `/spec-driven-development`. See [docs/commandcode-setup.md](/lib/10-context-memory/agent-skills-addyosmani/docs-commandcode-setup).
 
 
 
 <details>
 <summary><b>Other Agents</b></summary>
 
-Skills are plain Markdown - they work with any agent that accepts system prompts or instruction files. See [docs/getting-started.md](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/docs/getting-started.md).
+Skills are plain Markdown - they work with any agent that accepts system prompts or instruction files. See [docs/getting-started.md](/lib/10-context-memory/agent-skills-addyosmani/docs-getting-started).
 
 </details>
 
@@ -227,7 +227,7 @@ Skills are plain Markdown - they work with any agent that accepts system prompts
 
 ## Adoption
 
-Already installed? How you roll the pack out depends on your codebase. The **[Adoption Guide](/lib/10-context-memory/agent-skills-addyosmani/docs)** covers two paths: the full lifecycle from day one for a greenfield project, or an incremental, verification-first rollout for an established codebase.
+Already installed? How you roll the pack out depends on your codebase. The **[Adoption Guide](/lib/10-context-memory/agent-skills-addyosmani/docs-adoption-guide)** covers two paths: the full lifecycle from day one for a greenfield project, or an incremental, verification-first rollout for an established codebase.
 
 ---
 
@@ -303,10 +303,10 @@ Pre-configured specialist personas for targeted reviews:
 
 | Agent | Role | Perspective |
 |-------|------|-------------|
-| [code-reviewer](/lib/10-context-memory/agent-skills-addyosmani/agents) | Senior Staff Engineer | Five-axis code review with "would a staff engineer approve this?" standard |
-| [test-engineer](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/agents/test-engineer.md) | QA Specialist | Test strategy, coverage analysis, and the Prove-It pattern |
-| [security-auditor](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/agents/security-auditor.md) | Security Engineer | Vulnerability detection, threat modeling, OWASP assessment |
-| [web-performance-auditor](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/agents/web-performance-auditor.md) | Web Performance Engineer | Core Web Vitals audit with Quick/Deep modes and a metric-honesty rule; run it via `/webperf` |
+| [code-reviewer](/lib/10-context-memory/agent-skills-addyosmani/agents-code-reviewer) | Senior Staff Engineer | Five-axis code review with "would a staff engineer approve this?" standard |
+| [test-engineer](/lib/10-context-memory/agent-skills-addyosmani/agents-test-engineer) | QA Specialist | Test strategy, coverage analysis, and the Prove-It pattern |
+| [security-auditor](/lib/10-context-memory/agent-skills-addyosmani/agents-security-auditor) | Security Engineer | Vulnerability detection, threat modeling, OWASP assessment |
+| [web-performance-auditor](/lib/10-context-memory/agent-skills-addyosmani/agents-web-performance-auditor) | Web Performance Engineer | Core Web Vitals audit with Quick/Deep modes and a metric-honesty rule; run it via `/webperf` |
 
 See [docs/agents.md](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/docs/agents.md) for the decision matrix, orchestration rules, and how personas compose with skills and slash commands.
 
@@ -322,7 +322,7 @@ Quick-reference material that skills pull in when needed:
 | [testing-patterns.md](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/references/testing-patterns.md) | Test structure, naming, mocking, React/API/E2E examples, anti-patterns (JavaScript/TypeScript) |
 | [security-checklist.md](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/references/security-checklist.md) | Pre-commit checks, auth, input validation, headers, CORS, OWASP Top 10 |
 | [performance-checklist.md](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/references/performance-checklist.md) | Core Web Vitals targets, frontend/backend checklists, measurement commands |
-| [accessibility-checklist.md](/lib/10-context-memory/agent-skills-addyosmani/references) | Keyboard nav, screen readers, visual design, ARIA, testing tools |
+| [accessibility-checklist.md](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/references/accessibility-checklist.md) | Keyboard nav, screen readers, visual design, ARIA, testing tools |
 | [observability-checklist.md](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/references/observability-checklist.md) | On-call questions, structured logging, RED/USE metrics, tracing, symptom-based alerting, pre-launch gate |
 | [orchestration-patterns.md](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/references/orchestration-patterns.md) | Endorsed multi-persona orchestration patterns, anti-patterns, and the "personas don't invoke personas" rule |
 
@@ -413,4 +413,4 @@ Skills bake in best practices from Google's engineering culture — including co
 
 ## How it compares
 
-Wondering how this stacks up against [Superpowers](https://github.com/obra/superpowers) or [Matt Pocock's skills](https://github.com/mattpocock/skills)? See **[docs/comparison.md](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/docs/comparison.md)** for an honest, side-by-side look at how the three are shaped differently and when to reach for each — including a link to a controlled [head-to-head experiment](https://www.linkedin.com/pulse/superpowers-vs-agent-skills-faster-shipping-safer-reasoning-om-mishra-dzakf/).
+Wondering how this stacks up against [Superpowers](https://github.com/obra/superpowers) or [Matt Pocock's skills](https://github.com/mattpocock/skills)? See **[docs/comparison.md](/lib/10-context-memory/agent-skills-addyosmani/docs-comparison)** for an honest, side-by-side look at how the three are shaped differently and when to reach for each — including a link to a controlled [head-to-head experiment](https://www.linkedin.com/pulse/superpowers-vs-agent-skills-faster-shipping-safer-reasoning-om-mishra-dzakf/).

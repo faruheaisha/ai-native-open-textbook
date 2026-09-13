@@ -30,6 +30,7 @@ zh: ""
 9. [第九章：Agent 技能插件（Skills）](ch09.md)
 10. [第十章：Web 服务化与 SSE 流式传输](ch10.md)
 11. [第十一章：Agent 可观测性（Observability）](ch11.md)
-12. [React + Vite](frontend.md)
+12. [CLAUDE.md](CLAUDE.md)
+13. [React + Vite](frontend.md)
 
 开始学习 → [第一章：初识 LLM（Raw HTTP 与 OpenAI SDK）](ch01.md)

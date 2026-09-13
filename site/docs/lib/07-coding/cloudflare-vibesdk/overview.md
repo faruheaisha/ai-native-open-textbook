@@ -95,7 +95,7 @@ You will need:
 - Credentials for at least one supported model provider, unless you use provider keys stored in AI Gateway.
 - A custom domain for production, including wildcard DNS and Advanced Certificate Manager when required by your subdomain layout.
 
-Authentication providers, model providers, and export integrations are optional and configuration-dependent. See the [complete setup guide](https://github.com/cloudflare/vibesdk/blob/9da158d82c597a0e8f4bf033cdccd1053fb6fb15/docs/setup.md) for current permissions, DNS, AI Gateway, provider, OAuth, and production configuration.
+Authentication providers, model providers, and export integrations are optional and configuration-dependent. See the [complete setup guide](/lib/07-coding/cloudflare-vibesdk/docs-setup) for current permissions, DNS, AI Gateway, provider, OAuth, and production configuration.
 
 ## Local development
 
@@ -117,11 +117,11 @@ bun run dev
 
 Open `http://localhost:5173`. The setup script configures local and production environments, Cloudflare resources, AI Gateway and model providers, authentication, and database migrations.
 
-For all setup options and troubleshooting, read [`docs/setup.md`](https://github.com/cloudflare/vibesdk/blob/9da158d82c597a0e8f4bf033cdccd1053fb6fb15/docs/setup.md).
+For all setup options and troubleshooting, read [`docs/setup.md`](/lib/07-coding/cloudflare-vibesdk/docs-setup).
 
 ### Feature toggles
 
-Feature settings are dashboard-managed rather than committed in `wrangler.jsonc`, so production values survive deploys through `keep_vars: true`. Set them in the Cloudflare dashboard for each deployed environment, or in `.dev.vars` for local development. Unset values default to off unless noted otherwise: `ENABLE_ARTIFACTS`, `ENABLE_READ_REPLICAS`, `ENABLE_CLOUDFLARE_LIMITS`, `ENABLE_USER_ACCOUNT_DEPLOY`, `ALLOWED_EMAIL`, `USE_CLOUDFLARE_IMAGES`, and `USE_TUNNEL_FOR_PREVIEW`; `ENABLE_EMAIL_AUTH` defaults to on. `ALLOCATION_STRATEGY` uses its normal default when unset. See the [feature-toggle setup reference](https://github.com/cloudflare/vibesdk/blob/9da158d82c597a0e8f4bf033cdccd1053fb6fb15/docs/setup.md#dashboard-managed-feature-toggles) for dependencies and behavior.
+Feature settings are dashboard-managed rather than committed in `wrangler.jsonc`, so production values survive deploys through `keep_vars: true`. Set them in the Cloudflare dashboard for each deployed environment, or in `.dev.vars` for local development. Unset values default to off unless noted otherwise: `ENABLE_ARTIFACTS`, `ENABLE_READ_REPLICAS`, `ENABLE_CLOUDFLARE_LIMITS`, `ENABLE_USER_ACCOUNT_DEPLOY`, `ALLOWED_EMAIL`, `USE_CLOUDFLARE_IMAGES`, and `USE_TUNNEL_FOR_PREVIEW`; `ENABLE_EMAIL_AUTH` defaults to on. `ALLOCATION_STRATEGY` uses its normal default when unset. See the [feature-toggle setup reference](/lib/07-coding/cloudflare-vibesdk/docs-setup#dashboard-managed-feature-toggles) for dependencies and behavior.
 
 ### Development commands
 
@@ -152,4 +152,4 @@ Feature settings are dashboard-managed rather than committed in `wrangler.jsonc`
 - **Database migrations fail**: Check D1 access and API-token permissions, then retry after newly provisioned resources become available.
 - **Required variables are missing**: Verify `JWT_SECRET`, Cloudflare account credentials, AI Gateway settings, and credentials for every enabled provider or integration.
 
-More diagnostics are available in the [setup guide](https://github.com/cloudflare/vibesdk/blob/9da158d82c597a0e8f4bf033cdccd1053fb6fb15/docs/setup.md). For help, use [GitHub issues](https://github.com/cloudflare/vibesdk/issues), [GitHub discussions](https://github.com/cloudflare/vibesdk/discussions), or the [Cloudflare Developers Discord](https://discord.gg/cloudflaredev).
+More diagnostics are available in the [setup guide](/lib/07-coding/cloudflare-vibesdk/docs-setup). For help, use [GitHub issues](https://github.com/cloudflare/vibesdk/issues), [GitHub discussions](https://github.com/cloudflare/vibesdk/discussions), or the [Cloudflare Developers Discord](https://discord.gg/cloudflaredev).

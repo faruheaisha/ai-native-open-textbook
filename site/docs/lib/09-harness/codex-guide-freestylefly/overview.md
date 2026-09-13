@@ -31,15 +31,15 @@ zh: ""
   ·
 [主题皮肤](https://theme.codexguide.ai/)
   ·
-[学习路线](/lib/09-harness/codex-guide-freestylefly/docs-guide-index)
+[学习路线](/lib/09-harness/codex-guide-freestylefly/docs-guide)
   ·
-[快速上手](/lib/09-harness/codex-guide-freestylefly/docs-start-00-index)
+[快速上手](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/start/00-index.md)
   ·
-[进阶教程](/lib/09-harness/codex-guide-freestylefly/docs-advanced-00-index)
+[进阶教程](/lib/09-harness/codex-guide-freestylefly/docs-advanced-00-)
   ·
-[实战案例](/lib/09-harness/codex-guide-freestylefly/docs-recipes-00-index)
+[实战案例](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/recipes/00-index.md)
   ·
-[参考手册](/lib/09-harness/codex-guide-freestylefly/docs-manual-00-index)
+[参考手册](/lib/09-harness/codex-guide-freestylefly/docs-manual-00-)
   ·
 [社区共建图](/lib/09-harness/codex-guide-freestylefly/docs-community-roadmap)
 
@@ -52,6 +52,8 @@ zh: ""
 
 **CodexGuide 的在线阅读地址是 [codexguide.ai](https://codexguide.ai/)。**
 
+    <img src="https://cdn.canghecode.com/codexguide/assets/homepage-preview.png" alt="CodexGuide 网站首页预览" width="920" />
+
 GitHub README 适合快速了解项目，真正学习时更推荐打开网站阅读：网站里有更完整的导航、搜索、侧边栏目录、截图、设置速查图、学习路线和实战案例。每篇关键资料都会尽量标注最后核对日期，方便你判断内容是否需要回到 OpenAI 官方资料重新确认。
 
 如果你正在第一次接触 Codex，可以直接从网站的 [学习路线](https://codexguide.ai/guide/) 开始；如果你已经知道自己要用 CLI、桌面 App、Cloud 或 IDE，可以先看 [快速上手](https://codexguide.ai/start/) 和 [进阶教程](https://codexguide.ai/advanced/)。
@@ -59,6 +61,8 @@ GitHub README 适合快速了解项目，真正学习时更推荐打开网站阅
 ## 主题皮肤
 
 **CodexGuide 的主题皮肤站地址是 [theme.codexguide.ai](https://theme.codexguide.ai/)。**
+
+    <img src="https://gh-proxy.com/https://raw.githubusercontent.com/freestylefly/CodexGuide/f93c14ba1239178f63210c7e2e6e6965ebf59e79/assets/theme-codexguide-preview.png" alt="CodexGuide 主题皮肤网站截图" width="920" />
 
 这里可以预览 Codex Themes 的官方主题、使用方法和下载入口，适合想给 Codex 桌面工作区换上个性化视觉风格的用户。
 
@@ -97,32 +101,32 @@ CodexGuide 想做的不是命令速查表，而是一份面向真实任务的实
 
 ### 1. 第一次上手
 
-先读 [学习路线](/lib/09-harness/codex-guide-freestylefly/docs-guide-index)，再完成 [桌面 App 下载与安装](/lib/09-harness/codex-guide-freestylefly/docs-start-02-app-installation)、[订阅 Plus / Pro](/lib/09-harness/codex-guide-freestylefly/docs-start-03-account-plan)、[桌面 App 总览](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/start/05-app-overview.md) 和 [第一个任务](/lib/09-harness/codex-guide-freestylefly/docs-start-06-first-task)。
+先读 [学习路线](/lib/09-harness/codex-guide-freestylefly/docs-guide)，再完成 [桌面 App 下载与安装](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/start/02-app-installation.md)、[订阅 Plus / Pro](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/start/03-account-plan.md)、[桌面 App 总览](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/start/05-app-overview.md) 和 [第一个任务](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/start/06-first-task.md)。
 
 ### 2. 想用 Codex 改真实项目
 
-从 [CLI 安装与登录](/lib/09-harness/codex-guide-freestylefly/docs-start-10-cli-installation) 开始，接着看 [第一次让 Codex 改代码](/lib/09-harness/codex-guide-freestylefly/docs-start-11-cli-first-run)、[AGENTS.md](/lib/09-harness/codex-guide-freestylefly/docs-advanced-02-agents-md)、[沙盒与审批](/lib/09-harness/codex-guide-freestylefly/docs-advanced-07-sandbox-approvals)。
+从 [CLI 安装与登录](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/start/10-cli-installation.md) 开始，接着看 [第一次让 Codex 改代码](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/start/11-cli-first-run.md)、[AGENTS.md](/lib/09-harness/codex-guide-freestylefly/docs-advanced-02-agents-md)、[沙盒与审批](/lib/09-harness/codex-guide-freestylefly/docs-advanced-07-sandbox-approvals)。
 
 ### 3. 想把 Codex 放进团队
 
-先看 [团队 playbook](/lib/09-harness/codex-guide-freestylefly/docs-advanced-10-team-playbook)，再补齐 [参考手册](/lib/09-harness/codex-guide-freestylefly/docs-manual-00-index)、[沙盒与审批](/lib/09-harness/codex-guide-freestylefly/docs-advanced-07-sandbox-approvals)、[排障手册](/lib/09-harness/codex-guide-freestylefly/docs-advanced-11-troubleshooting) 和 [实战案例库](/lib/09-harness/codex-guide-freestylefly/docs-recipes-00-index)。
+先看 [团队 playbook](/lib/09-harness/codex-guide-freestylefly/docs-advanced-10-team-playbook)，再补齐 [参考手册](/lib/09-harness/codex-guide-freestylefly/docs-manual-00-)、[沙盒与审批](/lib/09-harness/codex-guide-freestylefly/docs-advanced-07-sandbox-approvals)、[排障手册](/lib/09-harness/codex-guide-freestylefly/docs-advanced-11-troubleshooting) 和 [实战案例库](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/recipes/00-index.md)。
 
 ## 快速入口
 
 | 模块 | 适合解决什么问题 |
 | --- | --- |
-| [学习路线](/lib/09-harness/codex-guide-freestylefly/docs-guide-index) | 从入门、进阶到团队化的阅读顺序 |
-| [快速上手](/lib/09-harness/codex-guide-freestylefly/docs-start-00-index) | 桌面 App、账号、首个任务和任务闭环 |
-| [手机端协同桌面任务](/lib/09-harness/codex-guide-freestylefly/docs-start-09-mobile-control) | 用 ChatGPT 手机 App 中的 Codex 入口跟进桌面任务 |
-| [CLI 安装与登录](/lib/09-harness/codex-guide-freestylefly/docs-start-10-cli-installation) | 在本地终端安装 Codex CLI 并完成登录 |
-| [第一次让 Codex 改代码](/lib/09-harness/codex-guide-freestylefly/docs-start-11-cli-first-run) | 用 CLI 进入真实仓库，完成一次可检查的代码任务 |
-| [进阶教程](/lib/09-harness/codex-guide-freestylefly/docs-advanced-00-index) | CLI、IDE、Cloud、权限、AGENTS.md、自动化和团队实践 |
-| [参考手册](/lib/09-harness/codex-guide-freestylefly/docs-manual-00-index) | OpenAI 官方资料、Codex 更新记录和参考来源 |
+| [学习路线](/lib/09-harness/codex-guide-freestylefly/docs-guide) | 从入门、进阶到团队化的阅读顺序 |
+| [快速上手](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/start/00-index.md) | 桌面 App、账号、首个任务和任务闭环 |
+| [手机端协同桌面任务](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/start/09-mobile-control.md) | 用 ChatGPT 手机 App 中的 Codex 入口跟进桌面任务 |
+| [CLI 安装与登录](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/start/10-cli-installation.md) | 在本地终端安装 Codex CLI 并完成登录 |
+| [第一次让 Codex 改代码](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/start/11-cli-first-run.md) | 用 CLI 进入真实仓库，完成一次可检查的代码任务 |
+| [进阶教程](/lib/09-harness/codex-guide-freestylefly/docs-advanced-00-) | CLI、IDE、Cloud、权限、AGENTS.md、自动化和团队实践 |
+| [参考手册](/lib/09-harness/codex-guide-freestylefly/docs-manual-00-) | OpenAI 官方资料、Codex 更新记录和参考来源 |
 | [AGENTS.md](/lib/09-harness/codex-guide-freestylefly/docs-advanced-02-agents-md) | 给 Codex 编写项目级规则和协作边界 |
 | [沙盒与审批](/lib/09-harness/codex-guide-freestylefly/docs-advanced-07-sandbox-approvals) | 文件、命令、网络、凭据和生产资源的安全边界 |
 | [自动线程管理](/lib/09-harness/codex-guide-freestylefly/docs-advanced-08-thread-management) | 继续、分叉、移交和整理 Codex 任务 |
-| [Cloud、IDE 与桌面 App](/lib/09-harness/codex-guide-freestylefly/docs-start-14-cloud) | 不同 Codex 使用入口的适用场景 |
-| [实战案例库](/lib/09-harness/codex-guide-freestylefly/docs-recipes-00-index) | 可复制到真实项目的任务模板和复盘结构 |
+| [Cloud、IDE 与桌面 App](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/start/14-cloud.md) | 不同 Codex 使用入口的适用场景 |
+| [实战案例库](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/recipes/00-index.md) | 可复制到真实项目的任务模板和复盘结构 |
 
 ## 内容框架
 
@@ -184,6 +188,8 @@ pnpm build
 ## 社区共建
 
 欢迎加入 CodexGuide 交流群，与同频伙伴一起交流 Codex 使用经验、实践案例和最新动态。点击[加入 Codex 交流群](https://codexguide.ai/community/join)即可加入，也欢迎微信扫码关注公众号 **苍何**，获取更多 AI 工具与效率实践。
+
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/freestylefly/CodexGuide/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/images/canghe-wechat-official-account-qr.png" alt="微信扫码关注公众号苍何" width="720" />
 
 ## 事实来源
 

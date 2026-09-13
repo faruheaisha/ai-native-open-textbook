@@ -27,8 +27,10 @@ zh: ""
 
 </div>
 
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/china-qijizhifeng/agentic-harness-engineering/8b2a55d97590363fe50c3cc6b5e833b020a4bb4c/assets/figures/banner.jpg" alt="Agentic Harness Engineering" width="100%">
+
 <p align="left">
-  English | <a href="/lib/09-harness/agentic-harness-engineering/README_zh">简体中文</a>
+  English | <a href="https://github.com/china-qijizhifeng/agentic-harness-engineering/blob/8b2a55d97590363fe50c3cc6b5e833b020a4bb4c/README_zh.md">简体中文</a>
 </p>
 
 ---
@@ -53,6 +55,10 @@ AHE rests on three observability layers:
 - **Decision observability** — *Evolve Agent* proposes evidence-backed edits, predicts their impact, and is automatically falsified by the next iteration's flipped tasks.
 
 Across ten `evaluate → analyze → improve` iterations, **AHE (Agentic Harness Engineering)** lifts Terminal-Bench 2 pass@1 from **69.7% to 77.0%** on GPT-5.4, surpasses the hand-written Codex (71.9%) and the self-evolving ACE and TF-GRPO baselines, and produces a frozen harness that transfers without re-evolution to SWE-bench-verified and to four alternate base models, indicating that the evolved components encode general engineering experience rather than benchmark-specific tuning.
+
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/china-qijizhifeng/agentic-harness-engineering/8b2a55d97590363fe50c3cc6b5e833b020a4bb4c/assets/figures/transfer_model.png" alt="Cross-Model Transfer" width="28%">
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/china-qijizhifeng/agentic-harness-engineering/8b2a55d97590363fe50c3cc6b5e833b020a4bb4c/assets/figures/case_study.png" alt="Case Study" width="31%">
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/china-qijizhifeng/agentic-harness-engineering/8b2a55d97590363fe50c3cc6b5e833b020a4bb4c/assets/figures/training_curve.png" alt="Training Curve" width="39%">
 
 ---
 

@@ -19,6 +19,11 @@ Welcome to Anthropic's educational courses. This repository currently contains f
 
 ## 课时
 
-1. [Tool use](tool_use.md)
+1. [Anthropic 官方课程](prompt_evaluations-05_prompt_foo_code_graded_animals.md)
+2. [Anthropic 官方课程](prompt_evaluations-06_prompt_foo_code_graded_classification.md)
+3. [Anthropic 官方课程](prompt_evaluations-07_prompt_foo_custom_graders.md)
+4. [Anthropic 官方课程](prompt_evaluations-08_prompt_foo_model_graded.md)
+5. [Anthropic 官方课程](prompt_evaluations-09_custom_model_graded_prompt_foo.md)
+6. [Tool use](tool_use.md)
 
-开始学习 → [Tool use](tool_use.md)
+开始学习 → [Anthropic 官方课程](prompt_evaluations-05_prompt_foo_code_graded_animals.md)

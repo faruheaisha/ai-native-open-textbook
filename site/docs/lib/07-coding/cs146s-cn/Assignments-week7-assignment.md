@@ -1,0 +1,66 @@
+---
+title: "第 7 周——使用 Graphite 探索 AI 代码审查"
+sourceId: "07-coding/cs146s-cn"
+sourceTitle: "动手学 CS146S 中文版"
+sourceKind: "系统课程"
+licenseLabel: "可转载"
+lang: "中文"
+tier: 1
+volume: "07-coding"
+sourceUrl: "https://github.com/ShouZhengAI/CS146S_CN"
+entryUrl: "https://github.com/ShouZhengAI/CS146S_CN/blob/0d65f36f6673147d6c298670da4f9b4bd7f991fa/README.md"
+zh: ""
+---
+
+# 第 7 周——使用 Graphite 探索 AI 代码审查
+
+## 作业概述
+在本次作业中，你将在一个更为复杂的代码库上练习智能体驱动开发和 AI 辅助代码审查。你需要实现 `week7/docs/TASKS.md` 中的任务，通过测试和人工审查验证工作成果，并将自己的审查意见与 AI 生成的代码审查进行比较。
+
+## Graphite 入门
+1. 注册 Graphite：https://app.graphite.dev/signup
+2. 注册后，你可以领取 30 天免费试用。
+3. 30 天试用期结束后，可以使用代码 **CS146S**，通过其教育计划免费使用 Graphite。
+
+## 要完成的工作
+使用你选择的 AI 编程工具（例如 Cursor、Copilot、Claude 等）实现 `week7/docs/TASKS.md` 中的任务。
+
+### 对于每项任务：
+   1. 创建一个独立分支。
+   2. 使用 AI 工具，通过一次性提示（1-shot prompt）实现该任务。
+   3. 逐行人工审查改动。修复你发现的问题，并在有助于说明情况时添加解释性的提交消息。你也可以与同学结对，相互审查对方的代码，而不是审查自己的改动。
+   4. 为该任务创建一个拉取请求（Pull Request，PR）。确保 PR 包含：
+      - 对问题及解决方案的说明。
+      - 已执行测试的摘要（包括命令和结果），以及新增或更新的测试。
+      - 值得注意的权衡、局限性或后续工作。
+   5. 使用 Graphite Diamond 为 PR 生成 AI 辅助代码审查。
+   6. 在 `writeup.md` 中记录该 PR 的结果。
+
+## 应提交的内容
+在 `writeup.md` 中，我们希望看到以下内容：
+
+- 四个 PR，每个已完成的任务对应一个 PR，并且每个 PR 都包含：
+  - 清晰的 PR 描述
+  - 相关提交或议题的链接。
+  - PR 上清晰可见的 Graphite Diamond AI 审查意见
+
+- 一篇简短反思，回答以下问题：
+  - 你通常在人工审查中提出哪些类型的意见（例如正确性、性能、安全性、命名、测试缺口、API 设计、用户体验、文档）。
+  - 针对每个 PR，比较**你的**意见与 **Graphite** 生成的 AI 审查意见。
+  - AI 审查在哪些方面优于或逊于你的审查（请引用具体示例）。
+  - 未来你对信任 AI 审查的接受程度，以及判断何时可以依赖 AI 审查的经验法则。
+
+## 评分标准（总计 100 分）
+- 每项已完成的任务 20 分
+  - 每项任务在技术上的正确性和完整性。
+  - 代码质量：可读性、命名、结构、错误处理和测试。
+  - 人工审查意见的思考深度与周全程度
+  - Graphite Diamond 生成的 AI 代码审查
+- 简短反思 20 分
+  - 对你的审查与 Graphite AI 审查进行有洞见的比较
+  - 描述你个人对 AI 审查的信任程度
+
+## 提交说明
+1. 确保已将所有改动推送到远程仓库，以供评分。
+2. 确保已将 brentju 和 febielin 添加为作业仓库的协作者。
+3. 通过 Gradescope 提交。

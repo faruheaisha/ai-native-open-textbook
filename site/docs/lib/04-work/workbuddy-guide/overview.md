@@ -41,7 +41,7 @@ GitHub 适合了解项目和参与贡献；真正阅读蓝皮书时，网站体�
 
 ## 推荐阅读方式
 
-- **第一次使用**：从[第 1 章](/lib/04-work/workbuddy-guide/docs-bluebook-第一篇_使用手册_先把_WorkBuddy_用起来-第_1_章_初识_WorkBuddy-index)开始，按顺序完成第一篇。
+- **第一次使用**：从[第 1 章](/lib/04-work/workbuddy-guide/docs-bluebook-第一篇_使用手册_先把_WorkBuddy_用起来-第_1_章_初识_WorkBuddy)开始，按顺序完成第一篇。
 - **已经有具体任务**：直接进入第二篇对应案例，跑通后再阅读第三篇。
 - **准备团队落地**：重点阅读第三、四篇，并记录权限边界、验收标准和失败回退。
 

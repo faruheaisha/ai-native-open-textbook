@@ -1,0 +1,70 @@
+---
+title: "Awesome ChatGPT 中文指南"
+sourceId: "01-foundations/awesome-chatgpt-zh"
+sourceTitle: "Awesome ChatGPT 中文指南"
+sourceKind: "清单与速查"
+licenseLabel: "可转载"
+lang: "中文"
+tier: 3
+volume: "01-foundations"
+sourceUrl: "https://github.com/EmbraceAGI/awesome-chatgpt-zh"
+entryUrl: "https://github.com/EmbraceAGI/awesome-chatgpt-zh/blob/f7c206f6b3e27dae3f4fa7fb1eee1852c72b1f68/README.md"
+zh: ""
+---
+
+# Awesome ChatGPT 中文指南
+
+## GitHub 上的顶级爆款 ChatGPT / LLM 相关项目(10K+ Stars)
+
+> 2024–2026 更新：聚焦当代爆款，常青经典在前。Star 数为实时徽章，会随时间变化。
+
+| 名称 | Stars | 简介 | 备注 |
+|------|-------|------|------|
+| [langchain](https://github.com/langchain-ai/langchain) |  | The agent engineering platform. | LLM 应用与 Agent 开发的事实标准框架，生态最庞大 |
+| [ollama](https://github.com/ollama/ollama) |  | Get up and running with large language models locally. | 本地跑大模型最简单的方式，一行命令启动 |
+| [open-webui](https://github.com/open-webui/open-webui) |  | User-friendly AI Interface (Supports Ollama, OpenAI API, ...) | 自托管聊天 UI 王者，配合 Ollama 即得私有 ChatGPT |
+| [n8n](https://github.com/n8n-io/n8n) |  | Fair-code workflow automation platform with native AI capabilities. | 可视化工作流自动化平台，AI Agent 编排热门之选 |
+| [botpress](https://github.com/botpress/botpress) |  | The open-source hub to build & deploy GPT/LLM Agents. | 构建与部署 GPT/LLM 智能体的开源平台 |
+| [dify](https://github.com/langgenius/dify) |  | Production-ready platform for agentic workflow development. | 国产 LLMOps 平台，可视化搭建 RAG 与 Agent 应用 |
+| [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) |  | A web interface for Stable Diffusion. | AI 绘画最经典的网页界面 |
+| [ComfyUI](https://github.com/comfyanonymous/ComfyUI) |  | The most powerful and modular AI engine for content creation. | 节点式 AI 生图/视频引擎，专业玩家首选 |
+| [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) |  | The world's largest open-source prompt library for AI. | 最大的开源提示词库，通用于各家模型 |
+| [llama.cpp](https://github.com/ggml-org/llama.cpp) |  | LLM inference in C/C++ | 纯 C/C++ 本地推理引擎，量化部署的基石 |
+| [vllm](https://github.com/vllm-project/vllm) |  | A high-throughput and memory-efficient inference and serving engine for LLMs. | 高吞吐 LLM 推理服务引擎，生产部署标配 |
+| [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) |  | 100+ AI Agent & RAG apps you can actually run. | 可直接运行的 Agent 与 RAG 应用合集，学习范本 |
+| [generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners) |  | 21 Lessons teaching everything to start building Generative AI apps. | 微软出品的生成式 AI 入门课，21 课从零起步 |
+| [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) |  | DeepSeek-V3 open-weight large language model. | 国产开源大模型代表，性价比与能力震动全球；最新 V4 见 [DeepSeek 生态指南](/lib/01-foundations/awesome-chatgpt-zh/docs-DeepSeek) |
+| [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1) |  | Open-source reasoning model trained with large-scale RL. | 纯 RL 训练的开源推理模型，引发全球"DeepSeek 时刻" |
+| [awesome-deepseek-integration](https://github.com/deepseek-ai/awesome-deepseek-integration) |  | Integrate the DeepSeek API into popular software. | 官方维护的 DeepSeek 集成大全，100+ 应用与框架 |
+| [cherry-studio](https://github.com/CherryHQ/cherry-studio) |  | 🍒 Cherry Studio is a desktop client that supports for multiple LLM providers. | 国产多模型桌面客户端，DeepSeek 用户首选 |
+| [browser-use](https://github.com/browser-use/browser-use) |  | Make websites accessible for AI agents. | 让 AI 自主操作浏览器完成任务，浏览器 Agent 爆款 |
+| [NextChat](https://github.com/ChatGPTNextWeb/NextChat) |  | Light and Fast AI Assistant. Support Web/iOS/Mac/Android/Linux/Windows. | 原 ChatGPT-Next-Web，轻量跨端聊天客户端 |
+| [lobe-chat](https://github.com/lobehub/lobe-chat) |  | An open-source, modern AI chat framework / agent platform. | 设计精美的现代化 AI 聊天与 Agent 框架 |
+| [LibreChat](https://github.com/danny-avila/LibreChat) |  | Enhanced ChatGPT Clone with Agents, MCP, multi-provider support. | 功能全面的多模型自托管聊天平台 |
+| [ragflow](https://github.com/infiniflow/ragflow) |  | Open-source RAG engine based on deep document understanding. | 国产 RAG 引擎，深度文档解析见长 |
+| [anything-llm](https://github.com/Mintplex-Labs/anything-llm) |  | All-in-one local-first AI agent & RAG application. | 本地优先的一体化知识库与 Agent 应用 |
+| [MetaGPT](https://github.com/FoundationAgents/MetaGPT) |  | The Multi-Agent Framework: First AI Software Company. | 国产多智能体框架，模拟软件公司协作开发 |
+| [autogen](https://github.com/microsoft/autogen) |  | A programming framework for agentic AI. | 微软多智能体编程框架 |
+| [OpenManus](https://github.com/FoundationAgents/OpenManus) |  | An open-source framework for building general AI agents. | 国产 Manus 开源复刻，通用 Agent 爆款 |
+| [TradingAgents](https://github.com/TauricResearch/TradingAgents) |  | Multi-Agents LLM Financial Trading Framework. | 多智能体 LLM 金融交易框架，模拟分析师/交易员协作决策 |
+| [deer-flow](https://github.com/bytedance/deer-flow) |  | Community-driven Deep Research framework combining LLMs with tools. | 字节开源深度研究 SuperAgent 框架，编排长程多步任务 |
+| [OpenHands](https://github.com/All-Hands-AI/OpenHands) |  | AI-Driven Development（原 OpenDevin）. | 自主软件开发 Agent，原 OpenDevin |
+| [cline](https://github.com/cline/cline) |  | Autonomous coding agent as an SDK, IDE extension, or CLI assistant. | VS Code 内的自主编码 Agent，热度极高 |
+| [aider](https://github.com/Aider-AI/aider) |  | AI pair programming in your terminal. | 终端里的 AI 结对编程工具 |
+| [open-interpreter](https://github.com/OpenInterpreter/open-interpreter) |  | A natural language interface for computers. | 用自然语言操控电脑、执行代码 |
+| [CrewAI](https://github.com/crewAIInc/crewAI) |  | Framework for orchestrating role-playing, autonomous AI agents. | 角色扮演式多智能体协作框架 |
+| [gpt4all](https://github.com/nomic-ai/gpt4all) |  | Run Local LLMs on Any Device. Open-source and available for commercial use. | 跨平台本地大模型桌面应用，开箱即用 |
+| [Fooocus](https://github.com/lllyasviel/Fooocus) |  | Focus on prompting and generating. | 极简 AI 绘画工具，输入提示词即可出图 |
+| [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) |  | Build, deploy, and run AI agents. | 自主 Agent 鼻祖，已演进为完整 Agent 平台 |
+| [Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) |  | Guides, papers, lecture, notebooks and resources for prompt engineering. | 提示工程的指南、论文、讲座与资源 |
+| [grok-build](https://github.com/xai-org/grok-build) |  | SpaceXAI's coding agent harness and TUI. | xAI 官方终端编码 Agent「Grok Build」（Rust，Apache-2.0，2026-07 开源）：全屏 TUI、读写代码、执行命令、联网搜索、可无头跑 CI，支持 ACP 嵌入编辑器 |
+| [Unlimited-OCR](https://github.com/baidu/Unlimited-OCR) |  | Unlimited OCR Works: One-shot Long-horizon Parsing. | 百度 2026-06 开源的 OCR / 文档解析模型，一次性长程解析整份文档，已接入 vLLM、ms-swift 与百度云 |
+| [anydoc](https://github.com/firecrawl/anydoc) |  | Convert Word/PPT/Excel/PDF/EPUB to clean Markdown. | Firecrawl 出品的 Rust 文档转 Markdown 库（毫秒级，含 Node/Python/WASM 绑定），并以 Agent Skill 形式分发，让 Agent 读懂任意办公文档 |
+| [openworker](https://github.com/andrewyng/openworker) |  | AI coworker that delivers finished work on your desktop. | 吴恩达开源的桌面 AI「同事」：不只聊天而是交付成品（代码审查、文档、任务），自带模型无关（OpenAI/Anthropic/Google/Ollama 本地） |
+| [openwiki](https://github.com/langchain-ai/openwiki) |  | CLI that writes and maintains agent documentation for your codebase. | LangChain 官方，为代码库自动撰写并维护 Agent 文档，产出 OKF v0.2 知识 bundle，参见 [Awesome-OKF](https://github.com/yzfly/awesome-okf) |
+| [dsh-desktop](https://github.com/anywhere-labs/dsh-desktop) |  | DeepSeek Harness (DSH) desktop client. | 社区开源的 dsh 桌面客户端（Windows / macOS，MIT），把 dsh 的 Web UI、Host 服务与插件系统打包成原生应用，「万物皆插件」 |
+| [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) |  | A curated list of plugins for DeepSeek Harness (dsh). | DSH 插件精选列表（CC0），收录可 `dsh plugin add` 安装的社区插件，见 [DeepSeek 生态指南](/lib/01-foundations/awesome-chatgpt-zh/docs-DeepSeek) |
+| [qm](https://github.com/yc-software/qm) |  | Multiplayer agent harness for work. In Slack and on the web. | YC 出品的「多人协作 Agent harness」：团队在 Slack / Web 里共同驱动 Agent 干活 |
+| [MiMo-Code](https://github.com/XiaomiMiMo/MiMo-Code) |  | Where Models and Agents Co-Evolve. | 小米 MiMo 团队开源的终端编码 Agent（MiMoCode），读写代码、跑命令、管 Git，带持久记忆，可接任意主流模型 API |
+| [codex-security](https://github.com/openai/codex-security) |  | Codex Security CLI and TypeScript SDK. | OpenAI 官方的安全扫描 CLI / SDK：发现、验证并修复代码安全漏洞，是 Codex 在安全方向的产品化 |
+| [Kimi-K3](https://github.com/MoonshotAI/Kimi-K3) |  | Kimi K3: open-weight native multimodal agentic model. | 月之暗面 2026-07 开放权重的 2.8T 参数原生多模态 Agent 模型（KDA + AttnRes 架构，1M 上下文，896 专家激活 16 个），见 [LLMs](/lib/01-foundations/awesome-chatgpt-zh/docs-LLMs) |

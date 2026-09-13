@@ -22,6 +22,8 @@ Before embarking on your Vibe Coding journey, you need to complete the developme
 
 **Why Vibe Coding Tools Need Proper Setup?**
 
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/fufankeji/FuFan-VibeCodingCourse/5336ede159a7ac2ce0ee136324fe5bffd56970ca/00_Introduction/images/cursor_git_collaboration.png" width="85%" alt="Why Git is Essential for AI Programming">
+
 The core toolchain of Vibe Coding—Cursor, GitHub, and AI model services—all depend on stable international network connections. Without Git:
 - ❌ Cannot submit code
 - ❌ Cannot pull repositories  
@@ -34,6 +36,8 @@ With Git, you unlock the complete engineering workflow: collaborative developmen
 
 ## Git & GitHub Relationship
 
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/fufankeji/FuFan-VibeCodingCourse/5336ede159a7ac2ce0ee136324fe5bffd56970ca/00_Introduction/images/git_github_relationship.png" width="80%" alt="Git and GitHub Relationship">
+
 - **Git** (Local) - Distributed version control, local repository, offline work
 - **GitHub** (Remote) - Centralized hosting, team collaboration, social coding
 - **Push** - Upload code to GitHub
@@ -43,6 +47,8 @@ With Git, you unlock the complete engineering workflow: collaborative developmen
 
 ## Complete Learning Path
 
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/fufankeji/FuFan-VibeCodingCourse/5336ede159a7ac2ce0ee136324fe5bffd56970ca/00_Introduction/images/git_setup_flow.png" width="90%" alt="Git in Cursor Workflow - Complete Learning Path">
+
 The setup flow covers:
 1. **Git's Role & Value** - Why it's essential
 2. **Installation** - Windows / macOS / Linux
@@ -51,6 +57,8 @@ The setup flow covers:
 ---
 
 ## Configuration & Verification
+
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/fufankeji/FuFan-VibeCodingCourse/5336ede159a7ac2ce0ee136324fe5bffd56970ca/00_Introduction/images/cursor_github_config.png" width="90%" alt="Git Configuration and Cursor Integration Verification">
 
 Three key steps:
 1. **Identity Set** - Configure global user.name and user.email

@@ -42,13 +42,5 @@ zh: ""
 21. [更多错误分析示例 More error analysis examples](4._构建Agentic_AI的实用技巧_Practical_Tips_for_Building_Agentic_AI_-4.3_更多错误分析示例_More_error_analysis_examples_.md)
 22. [Datawhale Agentic AI 教程](4._构建Agentic_AI的实用技巧_Practical_Tips_for_Building_Agentic_AI_-4.4_组件级评估_Component-level_evaluations_.md)
 23. [Datawhale Agentic AI 教程](4._构建Agentic_AI的实用技巧_Practical_Tips_for_Building_Agentic_AI_-4.6_解决识别到的问题_How_to_address_problems_you_identify_.md)
-24. [Datawhale Agentic AI 教程](4._构建Agentic_AI的实用技巧_Practical_Tips_for_Building_Agentic_AI_-4.7_延迟与成本优化_Latency_cost_optimization_.md)
-25. [Datawhale Agentic AI 教程](4._构建Agentic_AI的实用技巧_Practical_Tips_for_Building_Agentic_AI_-4.8_开发过程总结_Development_process_summary_.md)
-26. [Datawhale Agentic AI 教程](5._高度自治智能体的模式_Patterns_for_Highly_Autonomous_Agents_-5.1_工作流规划_Planning_workflows_.md)
-27. [Datawhale Agentic AI 教程](5._高度自治智能体的模式_Patterns_for_Highly_Autonomous_Agents_-5.2_创建与执行LLM计划_Creating_and_executing_LLM_plans_.md)
-28. [Datawhale Agentic AI 教程](5._高度自治智能体的模式_Patterns_for_Highly_Autonomous_Agents_-5.3_结合代码执行的规划_Planning_with_code_execution_.md)
-29. [Datawhale Agentic AI 教程](5._高度自治智能体的模式_Patterns_for_Highly_Autonomous_Agents_-5.5_多智能体工作流_Multi-agentic_workflows_.md)
-30. [Datawhale Agentic AI 教程](5._高度自治智能体的模式_Patterns_for_Highly_Autonomous_Agents_-5.7_多智能体系统的通信模式_Communication_patterns_for_multi-agent_systems_.md)
-31. [Datawhale Agentic AI 教程](5._高度自治智能体的模式_Patterns_for_Highly_Autonomous_Agents_-5.10_总结_Conclusion_.md)
 
 开始学习 → [欢迎来到本课程 Welcome!](1._Agentic工作流简介_Introduction_to_Agentic_Workflows_-1.1_欢迎_Welcome_.md)

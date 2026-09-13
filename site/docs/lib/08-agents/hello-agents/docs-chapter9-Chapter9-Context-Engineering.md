@@ -40,6 +40,7 @@ After years of Prompt Engineering becoming the focus of applied AI, a new term h
 
 The so-called "context" refers to the set of tokens included when sampling a large language model (LLM). The engineering problem at hand is to **optimize the utility of these tokens** under the inherent constraints of the LLM, in order to stably obtain expected results. To effectively harness LLMs, it is often necessary to "think in context"—that is: at any call, examine the overall state visible to the LLM and predict the behavior this state might induce.
 
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/9-figures/9-1.webp" alt="" width="85%"/>
   <p>Figure 9.1 Prompt engineering vs Context engineering</p>
 
 This section will explore the emerging context engineering and provide a refined mental model for building **controllable and effective** agents.
@@ -83,6 +84,7 @@ Under the constraint of "limited attention budget", the goal of excellent contex
 
 The overall guiding principle is: **sufficient but compact information**. As shown in Figure 9.2, this is dynamic retrieval entering runtime.
 
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/9-figures/9-2.webp" alt="" width="85%"/>
   <p>Figure 9.2 Calibrating the system prompt</p>
 
 ### 9.2.2 Context Retrieval and Agentic Search
@@ -2052,6 +2054,7 @@ This scenario faces several typical long-horizon task challenges. First is the p
 
 Our codebase maintenance assistant adopts a three-layer architecture, as shown in Figure 9.3:
 
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/9-figures/9-3.png" alt="" width="85%"/>
   <p>Figure 9.3 Three-layer architecture of codebase maintenance assistant</p>
 
 ### 9.6.3 Core Implementation

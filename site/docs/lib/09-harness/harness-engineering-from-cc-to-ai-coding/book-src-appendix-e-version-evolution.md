@@ -28,8 +28,8 @@ zh: ""
 
 | 变化 | 影响章节 | 详情 |
 |------|---------|------|
-| Tree-sitter WASM 移除 | [ch16 权限系统](/lib/09-harness/harness-engineering-from-cc-to-ai-coding/book-src-part5-ch16#版本演化v2191-变化) | Bash 安全从 AST 分析退回 regex/shell-quote；因 CC-643 性能问题 |
-| `"auto"` 权限模式正式化 | [ch16](/lib/09-harness/harness-engineering-from-cc-to-ai-coding/book-src-part5-ch16#版本演化v2191-变化)-[ch17](/lib/09-harness/harness-engineering-from-cc-to-ai-coding/book-src-part5-ch17#版本演化v2191-变化) 权限/YOLO | SDK 公开 API 新增 auto mode |
+| Tree-sitter WASM 移除 | [ch16 权限系统](https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding/blob/e40e0feec02b90e308ccbfc7a8911d64118ccca0/book/src/part5/ch16.md#版本演化v2191-变化) | Bash 安全从 AST 分析退回 regex/shell-quote；因 CC-643 性能问题 |
+| `"auto"` 权限模式正式化 | [ch16](https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding/blob/e40e0feec02b90e308ccbfc7a8911d64118ccca0/book/src/part5/ch16.md#版本演化v2191-变化)-[ch17](https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding/blob/e40e0feec02b90e308ccbfc7a8911d64118ccca0/book/src/part5/ch17.md#版本演化v2191-变化) 权限/YOLO | SDK 公开 API 新增 auto mode |
 | 冷压缩 + 对话框 + 快速回填熔断 | [ch11 微压缩](/lib/09-harness/harness-engineering-from-cc-to-ai-coding/book-src-part3-ch11#版本演化v2191-变化) | 新增延迟压缩策略和用户确认 UI |
 
 ### 中影响变化
@@ -37,8 +37,8 @@ zh: ""
 | 变化 | 影响章节 | 详情 |
 |------|---------|------|
 | `staleReadFileStateHint` | [ch09](/lib/09-harness/harness-engineering-from-cc-to-ai-coding/book-src-part3-ch09#版本演化v2191-变化)-[ch10](/lib/09-harness/harness-engineering-from-cc-to-ai-coding/book-src-part3-ch10#版本演化v2191-变化) 上下文管理 | 工具执行期间文件 mtime 变化检测 |
-| Ultraplan 远程多代理规划 | [ch20 Agent 集群](/lib/09-harness/harness-engineering-from-cc-to-ai-coding/book-src-part6-ch20) | CCR 远程会话 + Opus 4.6 + 30min 超时 |
-| 子代理增强 | [ch20](/lib/09-harness/harness-engineering-from-cc-to-ai-coding/book-src-part6-ch20)-[ch21](/lib/09-harness/harness-engineering-from-cc-to-ai-coding/book-src-part6-ch21#版本演化v2191-变化) 多代理/Effort | 回合限制、精简 schema、成本引导 |
+| Ultraplan 远程多代理规划 | [ch20 Agent 集群](https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding/blob/e40e0feec02b90e308ccbfc7a8911d64118ccca0/book/src/part6/ch20.md) | CCR 远程会话 + Opus 4.6 + 30min 超时 |
+| 子代理增强 | [ch20](https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding/blob/e40e0feec02b90e308ccbfc7a8911d64118ccca0/book/src/part6/ch20.md)-[ch21](https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding/blob/e40e0feec02b90e308ccbfc7a8911d64118ccca0/book/src/part6/ch21.md#版本演化v2191-变化) 多代理/Effort | 回合限制、精简 schema、成本引导 |
 
 ### 低影响变化
 

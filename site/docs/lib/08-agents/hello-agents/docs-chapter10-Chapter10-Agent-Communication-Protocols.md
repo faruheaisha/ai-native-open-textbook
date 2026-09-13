@@ -103,6 +103,7 @@ MCP (Model Context Protocol) was proposed by the Anthropic team<sup>[1]</sup>, a
 
 MCP's design philosophy is "context sharing". It is not just an RPC (Remote Procedure Call) protocol, but more importantly, it allows agents and tools to share rich contextual information. As shown in Figure 10.1, when an agent accesses a code repository, the MCP server can not only provide file content but also provide contextual information such as code structure, dependency relationships, and commit history, enabling the agent to make more intelligent decisions.
 
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-1.png" alt="" width="85%"/>
   <p>Figure 10.1 MCP Design Philosophy</p>
 
 **(2) A2A: Dialogue Between Agents**
@@ -111,6 +112,7 @@ The A2A (Agent-to-Agent Protocol) protocol was proposed by the Google team<sup>2
 
 A2A's design philosophy is "peer-to-peer communication". As shown in Figure 10.2, in an A2A network, each agent is both a service provider and a service consumer. Agents can actively initiate requests and also respond to requests from other agents. This peer-to-peer design avoids the bottleneck of centralized coordinators, making the agent network more flexible and scalable.
 
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-2.png" alt="" width="85%"/>
   <p>Figure 10.2 A2A Design Philosophy</p>
 
 **(3) ANP: Infrastructure for Agent Networks**
@@ -119,11 +121,13 @@ ANP (Agent Network Protocol) is a conceptual protocol framework<sup>3</sup>, cur
 
 ANP's design philosophy is "decentralized service discovery". In a network containing hundreds or thousands of agents, how can agents find the services they need? As shown in Figure 10.3, ANP provides service registration, discovery, and routing mechanisms, allowing agents to dynamically discover other services in the network without needing to pre-configure all connection relationships.
 
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-3.png" alt="" width="85%"/>
   <p>Figure 10.3 ANP Design Philosophy</p>
 
 Finally, in Table 10.1, let's use a comparison table to more clearly understand the differences between these three protocols:
 
   <p>Table 10.1 Comparison of Three Protocols</p>
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-table-1.png" alt="" width="85%"/>
 
 **(4) How to Choose the Right Protocol?**
 
@@ -141,6 +145,7 @@ After understanding the design philosophies of the three protocols, let's see ho
 
 As shown in Figure 10.4, the HelloAgents communication protocol architecture adopts a three-layer design, from bottom to top: protocol implementation layer, tool encapsulation layer, and agent integration layer.
 
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-4.png" alt="" width="85%"/>
   <p>Figure 10.4 HelloAgents Communication Protocol Design</p>
 
 **(1) Protocol Implementation Layer**: This layer contains the specific implementations of the three protocols. MCP is implemented based on the FastMCP library, providing client and server functionality; A2A is implemented based on Google's official a2a-sdk; ANP is our self-developed lightweight implementation, providing service discovery and network management functions. Of course, there is currently also an official [implementation](https://github.com/agent-network-protocol/AgentConnect), but considering future iterations, we only simulate the concept here.
@@ -235,6 +240,7 @@ The MCP protocol adopts a three-layer architecture design of Host, Client, and S
 
 Suppose you are using Claude Desktop and asking: "What documents are on my desktop?"
 
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-5.png" alt="" width="85%"/>
   <p>Figure 10.5 MCP Case Demonstration</p>
 
 **Responsibilities of the Three-Layer Architecture:**
@@ -254,6 +260,7 @@ The advantage of this architectural design lies in **separation of concerns**: T
 As shown in Table 10.2, the MCP protocol provides three core capabilities, forming a complete tool access framework:
 
   <p>Table 10.2 MCP Core Capabilities</p>
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-table-2.png" alt="" width="85%"/>
 
 The difference between these three capabilities is: **Tools are active** (execute operations), **Resources are passive** (provide data), **Prompts are instructive** (provide templates).
 
@@ -261,6 +268,7 @@ The difference between these three capabilities is: **Tools are active** (execut
 
 Let's understand the complete workflow of MCP through a specific example, as shown in Figure 10.6:
 
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-6.png" alt="" width="85%"/>
   <p>Figure 10.6 MCP Case Demonstration</p>
 
 A key question is: **How does Claude (or other LLMs) decide which tools to use?**
@@ -289,6 +297,7 @@ This process is **fully automated**, and the LLM will decide whether to use and 
 Many developers ask: **I'm already using Function Calling, why do I still need MCP?** Let's understand their differences through Table 10.3.
 
   <p>Table 10.3 Function Calling vs MCP Comparison</p>
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-table-3.png" alt="" width="85%"/>
 
 Here we use the example of an agent needing to access GitHub repositories and the local file system to compare two implementations of the same task in detail.
 
@@ -588,6 +597,7 @@ An important feature of the MCP protocol is **transport agnosticism**. This mean
 HelloAgents' `MCPClient` supports five transport methods, each with different use cases, as shown in Table 10.4:
 
   <p>Table 10.4 MCP Transport Methods Comparison</p>
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-table-4.png" alt="" width="85%"/>
 
 **(2) Transport Method Usage Examples**
 
@@ -1034,8 +1044,10 @@ Here are three resource repositories for the MCP community:
 Tables 10.5 and 10.6 show commonly used official MCP servers and popular community MCP servers:
 
   <p>Table 10.5 Commonly Used Official MCP Servers</p>
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-table-5.png" alt="" width="85%"/>
 
   <p>Table 10.6 Popular Community MCP Servers</p>
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-table-6.png" alt="" width="85%"/>
 
 Here are some particularly interesting case TODOs for reference:
 
@@ -1100,9 +1112,11 @@ Traditional central coordinator (star topology) solutions have three main proble
 The A2A protocol adopts a peer-to-peer (P2P) architecture (mesh topology), allowing agents to communicate directly, fundamentally solving the above problems. Its core is the two abstract concepts of **Task** and **Artifact**, which is its biggest difference from MCP, as shown in Table 10.7.
 
   <p>Table 10.7 A2A Core Concepts</p>
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-table-7.png" alt="" width="85%"/>
 
 To implement management of the collaboration process, A2A defines a standardized lifecycle for tasks, including states such as creation, negotiation, delegation, in-progress, completion, and failure, as shown in Figure 10.7.
 
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-7.png" alt="" width="85%"/>
   <p>Figure 10.7 A2A Task Lifecycle</p>
 
 
@@ -1110,6 +1124,7 @@ This mechanism enables agents to perform task negotiation, progress tracking, an
 
 The A2A request lifecycle is a sequence that details the four main steps a request follows: agent discovery, authentication, send message API, and send message stream API. Figure 10.8 below, borrowed from the official website's flowchart, shows the operational flow, illustrating the interaction between client, A2A server, and authentication server.
 
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-8.png" alt="" width="85%"/>
   <p>Figure 10.8 A2A Request Lifecycle</p>
 
 ### 10.3.2 A2A Protocol in Practice
@@ -1640,9 +1655,11 @@ The design goal of ANP is to provide a standardized mechanism to solve the above
 To achieve its design goals, ANP defines the following core concepts, as shown in Table 10.8:
 
   <p>Table 10.8 ANP Core Concepts</p>
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-table-8.png" alt="" width="85%"/>
 
 We also borrow from the official [Getting Started Guide](https://github.com/agent-network-protocol/AgentNetworkProtocol/blob/main/docs/chinese/ANP入门指南.md) to introduce ANP's architectural design, as shown in Figure 10.9
 
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-9.png" alt="" width="85%"/>
   <p>Figure 10.9 ANP Overall Process</p>
 
 
@@ -2254,6 +2271,7 @@ Open your browser and visit [https://smithery.ai/](https://smithery.ai/). Log in
 
 Once publication is complete, you can see a page similar to this, as shown in Figure 10.10:
 
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-10.png" alt="" width="85%"/>
   <p>Figure 10.10 Smithery Publication Success Page</p>
 
 
@@ -2302,6 +2320,7 @@ response = agent.run("How's the weather in Beijing today?")
 
 Of course, this is just an example, and there are more usages to explore on your own. Figure 10.11 below shows the information included when an MCP tool is successfully published, displaying the service name "Weather", its unique identifier `@jjyaoao/weather-mcp-server`, and status information. The Tools area shows the methods we just implemented, and the Connect area provides technical information needed to connect and use this service, including the service's **access URL address** and **configuration code snippets** in multiple languages/environments. If you want to learn more, you can click this [link](https://smithery.ai/server/@jjyaoao/weather-mcp-server).
 
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/10-figures/10-11.png" alt="" width="85%"/>
   <p>Figure 10.11 Successfully Published MCP Tool on Smithery</p>
 
 Now it's time to create your own MCP server!

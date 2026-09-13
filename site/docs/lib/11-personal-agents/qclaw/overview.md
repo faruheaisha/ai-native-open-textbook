@@ -15,6 +15,7 @@ zh: ""
 # Qclaw（秋芝2046）
 
 <br />
+    <img src="https://gh-proxy.com/https://raw.githubusercontent.com/qiuzhi2046/Qclaw/c494768977f4e48b8eacbfae7ae390af11fc015f/src/assets/logo.png" alt="Logo" width="128" height="128">
 
   <h1 align="center" style="margin-top: 0.2em;">Qclaw</h1>
 
@@ -39,6 +40,12 @@ OpenClaw官方已经出了Mac版安装包（也还没出win），虽然目前非
 点进来的朋友希望大家都能动手拉代码改改呀，练习下Vibe Coding，嘿嘿~<br>
 我们也在筹备新的项目啦，希望未来尽快能跟大家见面~❤️
 ## 功能特性
+
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/qiuzhi2046/Qclaw/c494768977f4e48b8eacbfae7ae390af11fc015f/docs/images/config.png" alt="可视化配置" width="280">
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/qiuzhi2046/Qclaw/c494768977f4e48b8eacbfae7ae390af11fc015f/docs/images/im.png" alt="多渠道接入" width="280">
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/qiuzhi2046/Qclaw/c494768977f4e48b8eacbfae7ae390af11fc015f/docs/images/state_management.png" alt="状态管理" width="280">
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/qiuzhi2046/Qclaw/c494768977f4e48b8eacbfae7ae390af11fc015f/docs/images/safety.png" alt="安全防丢" width="280">
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/qiuzhi2046/Qclaw/c494768977f4e48b8eacbfae7ae390af11fc015f/docs/images/skills.png" alt="技能扩展" width="280">
 
 - **环境自检** — 自动检测 Node.js 和 OpenClaw CLI，缺失时自动安装
 - **支持 OpenClaw 全量模型** — 支持接入 OpenClaw 的所有模型，也支持自定义添加
@@ -261,6 +268,8 @@ build/              应用图标与打包资源
 感谢 Electron、React、Vite、Mantine 等众多开源项目，以及所有默默贡献的开源作者。Qclaw 的每一行代码背后，都有你们的影子。
 
 感谢参与内测的朋友们，你们的每一条 bug 反馈和建议都在让产品进步。你们的飞书 ID 我们都记下了 👀
+
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/qiuzhi2046/Qclaw/c494768977f4e48b8eacbfae7ae390af11fc015f/src/assets/feedback10_users.png" alt="内测用户" />
 
 更多见：[反馈用户（排名不分先后）](https://github.com/qiuzhi2046/Qclaw/blob/c494768977f4e48b8eacbfae7ae390af11fc015f/docs/feedback_users/README.md)
 

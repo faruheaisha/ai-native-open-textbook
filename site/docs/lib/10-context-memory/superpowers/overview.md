@@ -229,7 +229,7 @@ Superpowers is available in Kimi Code's plugin marketplace.
   /plugins install https://github.com/obra/superpowers
   ```
 
-- Detailed docs: [docs/README.kimi.md](https://github.com/obra/superpowers/blob/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/docs/README.kimi.md)
+- Detailed docs: [docs/README.kimi.md](/lib/10-context-memory/superpowers/docs-README.kimi)
 
 ### OpenCode
 
@@ -242,7 +242,7 @@ already use it in another harness.
   Fetch and follow instructions from https://raw.githubusercontent.com/obra/superpowers/refs/heads/main/.opencode/INSTALL.md
   ```
 
-- Detailed docs: [docs/README.opencode.md](https://github.com/obra/superpowers/blob/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/docs/README.opencode.md)
+- Detailed docs: [docs/README.opencode.md](/lib/10-context-memory/superpowers/docs-README.opencode)
 
 ### Pi
 

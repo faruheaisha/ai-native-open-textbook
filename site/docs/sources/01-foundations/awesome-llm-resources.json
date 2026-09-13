@@ -1,0 +1,18 @@
+{
+  "id": "01-foundations/awesome-llm-resources",
+  "volume": "01-foundations",
+  "local": "awesome-llm-resources",
+  "title": "Awesome LLM Resources（大模型资源清单）",
+  "kind": "清单与速查",
+  "license": "Apache-2.0",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "中英混排",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "WangRongsheng/awesome-LLM-resources",
+  "site": null,
+  "commit": "1fdf4ba2279979507c122db6403d2b7f97cc1e36",
+  "entryUrl": "https://github.com/WangRongsheng/awesome-LLM-resources/blob/1fdf4ba2279979507c122db6403d2b7f97cc1e36/README.md",
+  "docs": 2
+}

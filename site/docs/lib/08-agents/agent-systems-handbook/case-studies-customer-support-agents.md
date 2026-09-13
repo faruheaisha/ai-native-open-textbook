@@ -144,7 +144,7 @@ Two starter projects sit on this case-study path:
   a smaller draft-only workflow for loading a local email, loading a local
   policy, classifying complaints, queries, refund requests, and handoff cases,
   then drafting a safe policy-grounded reply.
-- [Customer Email Assist Starter](/lib/08-agents/agent-systems-handbook/case-studies-examples-customer-email-assist-starter-README):
+- [Customer Email Assist Starter](/lib/08-agents/agent-systems-handbook/case-studies-examples-customer-email-assist-starter-2):
   a mailbox-integrated follow-on starter for Gmail sync, local SQLite issue
   queues, customer review, deterministic send-queue execution, and a dashboard
   for editing and approving replies.

@@ -1,0 +1,114 @@
+---
+title: "Strands Harness SDK"
+sourceId: "09-harness/strands-harness-sdk"
+sourceTitle: "Strands Harness SDK"
+sourceKind: "工程手册"
+licenseLabel: "可转载"
+lang: "英文"
+tier: 3
+volume: "09-harness"
+sourceUrl: "https://github.com/strands-agents/harness-sdk"
+entryUrl: "https://github.com/strands-agents/harness-sdk/blob/7bda6c70e71cd07279470268c3d3b3f4b36adf53/README.md"
+zh: ""
+---
+
+# Strands Harness SDK
+
+Everyone has one. The recurring task you keep meaning to deal with and never quite do. Reconciling receipts against the credit card statement. Renewing the domain before it lapses. Chasing three people for the one document that unblocks everything else. Checking whether the thing you ordered actually shipped.
+
+Here is a challenge: pick exactly one of those and hand it to an agent.
+
+Not a script. You could already write a script. The ones worth picking resist scripting, which is the whole point.
+
+> This is the exact premise of [**Agents for Humans**](https://agentsforhumans.devpost.com/), the hackathon AWS is running from August 10 to September 14, 2026. Build an agent that handles a real task from everyday life, professional work, or your community, and you can [**win a share of $40,000**](https://agentsforhumans.devpost.com/). Every entrant gets $50 in AWS credits. Solo or team, open worldwide. The rest of this post is how to build one.
+
+## Why not just a cron job
+
+The tasks worth automating are the ones you have been avoiding, and you have been avoiding them for a reason. They involve judgment. The input is messy. The right action depends on what you find.
+
+Take "reconcile my receipts." A cron job can pull the statement. It cannot look at a $47.83 charge from `SQ *BLUE BOTTLE`, decide it is the coffee receipt sitting in your inbox from Tuesday, and flag the $200 one you do not recognize. That last step, the reading and matching and deciding, is the part you keep putting off. It is also the part an agent is actually good at.
+
+So the constraint that makes this fun: the task has to need judgment. If a `for` loop solves it, pick a harder task.
+
+## The smallest version that works
+
+Start with one tool and a model. In Strands, a tool is a plain function with a docstring. The docstring is what the model reads to decide when to call it.
+
+```python
+from strands import Agent, tool
+
+@tool
+def get_recent_charges(days: int) -> list[dict]:
+    """Return credit card charges from the last N days.
+
+    Each charge has a merchant, amount, and date.
+    """
+    # Your bank's API, a CSV export, a scraped statement: whatever you have.
+    return load_charges(since_days=days)
+
+agent = Agent(tools=[get_recent_charges])
+agent("Which charges from the last 7 days look unusual for me?")
+```
+
+That is a working agent. It decides on its own whether to call `get_recent_charges`, picks the argument, reads the result, and reasons about what "unusual" means for the charges it sees.
+
+You did not write the "is this unusual" logic. You described the data and asked the question. That is the trade: you give up writing the rules, and in return the agent handles cases you never enumerated.
+
+## Where it gets interesting
+
+One tool is a demo. The task you actually avoid needs two or three, and the judgment lives in how the agent chains them.
+
+```python
+from strands import Agent, tool
+
+@tool
+def get_recent_charges(days: int) -> list[dict]:
+    """Return credit card charges from the last N days."""
+    return load_charges(since_days=days)
+
+@tool
+def search_inbox(query: str) -> list[dict]:
+    """Search email for receipts matching a merchant or amount."""
+    return search_mail(query)
+
+@tool
+def flag_for_review(charge_id: str, reason: str) -> str:
+    """Mark a charge as needing human review, with a short reason."""
+    return mark_charge(charge_id, reason)
+
+agent = Agent(tools=[get_recent_charges, search_inbox, flag_for_review])
+agent("Match this week's charges to receipts in my inbox and flag anything you can't account for.")
+```
+
+Now there is no fixed script. The agent might pull the charges, search the inbox for each merchant, match what it can, and flag the rest. Or it might work merchant by merchant. The order is its call, and it will vary run to run:
+
+```
+# Example run:
+# 1. Agent calls get_recent_charges(days=7)
+# 2. For each charge, agent calls search_inbox with the merchant name
+# 3. Agent matches receipts it finds, reasons about the ones it doesn't
+# 4. Agent calls flag_for_review on two unmatched charges
+```
+
+You wrote three small functions. The coordination between them, the part that would have been a tangle of `if` statements, is the model's job.
+
+## The rules of the challenge
+
+Keep it honest and it stays worth doing:
+
+- **One real task.** Something you personally put off, not a toy. If you would not use it, it does not count.
+- **It has to need judgment.** No pure `for` loops. The agent should make a call you would otherwise make yourself.
+- **Give it real tools, not one god-function.** Two or three narrow functions the agent composes. That is where the behavior you did not hand-code shows up.
+- **Let it surprise you.** If every run does exactly what you predicted, the task was too easy. Pick a messier one.
+
+The tasks that make good agents are unglamorous on purpose. Nobody demos "renew the domain." But it is the honest test: a boring, real chore you have been avoiding, handled well enough that it drops off your list.
+
+The prize money helps. The better reason is that you already have a task in mind. You thought of it two paragraphs ago. If you want to [enter it](https://agentsforhumans.devpost.com/), submissions are open through September 14.
+
+## Start
+
+```bash
+pip install strands-agents strands-agents-tools
+```
+
+The [quickstart](https://strandsagents.com/) gets you to a running agent in a few minutes, and the [tools guide](https://strandsagents.com/latest/documentation/docs/user-guide/concepts/tools/) covers everything the `@tool` decorator can do. If you build something, tell us in [the Discord](https://discord.gg/strands) or open a discussion on [GitHub](https://github.com/strands-agents/harness-sdk/discussions). We want to see the boring task you never have to think about again.

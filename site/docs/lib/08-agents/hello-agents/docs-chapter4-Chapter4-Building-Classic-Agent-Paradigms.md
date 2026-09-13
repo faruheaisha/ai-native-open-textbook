@@ -173,6 +173,7 @@ $$o_t = T(a_t)$$
 
 This loop continues, appending new $(a_t,o_t)$ pairs to the history until the model determines in thought $th_t$ that the task is complete.
 
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/4-figures/4-1.png" alt="Think-Act-Observe synergistic loop in ReAct paradigm" width="90%"/>
   <p>Figure 4.1 Think-Act-Observe Synergistic Loop in ReAct Paradigm</p>
 
 This mechanism is particularly suitable for the following scenarios:
@@ -623,6 +624,7 @@ $$
 
 The final answer is the execution result of the last step $s_n$.
 
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/4-figures/4-2.png" alt="Two-stage workflow of Plan-and-Solve paradigm" width="90%"/>
   <p>Figure 4.2 Two-Stage Workflow of Plan-and-Solve Paradigm</p>
 
 Plan-and-Solve is especially suitable for complex tasks with strong structure that can be clearly decomposed, such as:
@@ -894,6 +896,7 @@ $$
 
 
 
+<img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/4-figures/4-3.png" alt="Execute-Reflect-Refine iterative loop in Reflection mechanism" width="70%"/>
 <p>Figure 4.3 Execute-Reflect-Refine Iterative Loop in Reflection Mechanism</p>
 
 
@@ -1239,6 +1242,7 @@ In this chapter, building on the large language model knowledge mastered in Chap
 The three paradigms explored in this chapter represent three different strategies for agents to solve problems, as shown in Table 4.1. In practical applications, which one to choose depends on the core requirements of the task:
 
 <p>Table 4.1 Selection Strategy for Different Agent Loops</p>
+<img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/4-figures/4-4.png" alt="" width="70%"/>
 
 At this point, we have mastered the core technologies for building individual agents. To transition knowledge and gain deeper insights into practical applications, in the next section we will explore how to use different low-code platforms and lightweight code solutions for building agents.
 

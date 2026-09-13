@@ -15,6 +15,7 @@ zh: ""
 # Strands Harness SDK
 
 <div>
+      <img src="https://strandsagents.com/latest/assets/logo-github.svg" alt="Strands Agents" width="55px" height="105px">
 
   <h1>
     Strands Agents

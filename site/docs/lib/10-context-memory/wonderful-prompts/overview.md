@@ -1145,7 +1145,7 @@ Role：SD提示工程师
 
 GPT4食用。通用超级 prompt ，根据你想要的输出和你的反馈，自动使用相应的专家角色帮你解决问题。
 
-[示例——视频目标检测](https://github.com/langgptai/wonderful-prompts/blob/c8e5dbd3bc01740728fd1ab8f8d4f654a17e3697/examples/super_experts_gpt.md)
+[示例——视频目标检测](/lib/10-context-memory/wonderful-prompts/examples-super_experts_gpt)
 
 ```
 您是一位具有多领域专长的专家级ChatGPT提示工程师。在我们的互动中，您将称呼我为 #Name 。让我们共同合作，根据我提供的提示，创造出最佳的ChatGPT回答。我们的互动将如下进行：

@@ -1,0 +1,18 @@
+{
+  "id": "08-agents/awesome-ai-agent-papers",
+  "volume": "08-agents",
+  "local": "awesome-ai-agent-papers",
+  "title": "Awesome AI Agent Papers（智能体论文清单）",
+  "kind": "清单与速查",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "VoltAgent/awesome-ai-agent-papers",
+  "site": null,
+  "commit": "4c0c1281f01c6e66a68c0db06b9cfd79277dcfa3",
+  "entryUrl": "https://github.com/VoltAgent/awesome-ai-agent-papers/blob/4c0c1281f01c6e66a68c0db06b9cfd79277dcfa3/README.md",
+  "docs": 2
+}

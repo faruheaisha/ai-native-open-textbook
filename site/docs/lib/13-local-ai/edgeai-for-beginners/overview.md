@@ -77,15 +77,15 @@ They unlock powerful NLP capabilities while meeting the constraints of:
 
 | Module | Topic | Focus Area | Key Content | Level | Duration |
 |--------|-------|------------|-------------|--------|----------|
-| [📖 00 ](https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/introduction.md) | [Introduction to EdgeAI](https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/introduction.md) | Foundation & Context | EdgeAI Overview • Industry Applications • SLM Introduction • Learning Objectives | Beginner | 1-2 hrs |
+| [📖 00 ](/lib/13-local-ai/edgeai-for-beginners/introduction) | [Introduction to EdgeAI](/lib/13-local-ai/edgeai-for-beginners/introduction) | Foundation & Context | EdgeAI Overview • Industry Applications • SLM Introduction • Learning Objectives | Beginner | 1-2 hrs |
 | [📚 01](/lib/13-local-ai/edgeai-for-beginners/Module01) | [EdgeAI Fundamentals](/lib/13-local-ai/edgeai-for-beginners/Module01) | Cloud vs Edge AI comparison | EdgeAI Fundamentals • Real World Case Studies • Implementation Guide • Edge Deployment | Beginner | 3-4 hrs |
 | [🧠 02](/lib/13-local-ai/edgeai-for-beginners/Module02) | [SLM Model Foundations](/lib/13-local-ai/edgeai-for-beginners/Module02) | Model families & architecture | Phi Family • Qwen Family • Gemma Family • BitNET • μModel • Phi-Silica | Beginner | 4-5 hrs |
 | [🚀 03](/lib/13-local-ai/edgeai-for-beginners/Module03) | [SLM Deployment Practice](/lib/13-local-ai/edgeai-for-beginners/Module03) | Local & cloud deployment | Advanced Learning • Local Environment • Cloud Deployment | Intermediate | 4-5 hrs |
-| [⚙️ 04](/lib/13-local-ai/edgeai-for-beginners/Module04) | [Model Optimization Toolkit](/lib/13-local-ai/edgeai-for-beginners/Module04) | Cross-platform optimization | Introduction • Llama.cpp • Microsoft Olive • OpenVINO • Apple MLX • Workflow Synthesis | Intermediate | 5-6 hrs |
-| [🔧 05](/lib/13-local-ai/edgeai-for-beginners/Module05) | [SLMOps Production](/lib/13-local-ai/edgeai-for-beginners/Module05) | Production operations | SLMOps Introduction • Model Distillation • Fine-tuning • Production Deployment | Advanced | 5-6 hrs |
-| [🤖 06](/lib/13-local-ai/edgeai-for-beginners/Module06) | [AI Agents & Function Calling](/lib/13-local-ai/edgeai-for-beginners/Module06) | Agent frameworks & MCP | Agent Introduction • Function Calling • Model Context Protocol | Advanced | 4-5 hrs |
-| [💻 07](/lib/13-local-ai/edgeai-for-beginners/Module07) | [Platform Implementation](/lib/13-local-ai/edgeai-for-beginners/Module07) | Cross-platform samples | AI Toolkit • Foundry Local • Windows Development | Advanced | 3-4 hrs |
-| [🏭 08](/lib/13-local-ai/edgeai-for-beginners/Module08) | [Foundry Local Toolkit](/lib/13-local-ai/edgeai-for-beginners/Module08) | Production-ready samples | Sample applications (see details below) | Expert | 8-10 hrs |
+| [⚙️ 04](https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/Module04/README.md) | [Model Optimization Toolkit](https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/Module04/README.md) | Cross-platform optimization | Introduction • Llama.cpp • Microsoft Olive • OpenVINO • Apple MLX • Workflow Synthesis | Intermediate | 5-6 hrs |
+| [🔧 05](https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/Module05/README.md) | [SLMOps Production](https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/Module05/README.md) | Production operations | SLMOps Introduction • Model Distillation • Fine-tuning • Production Deployment | Advanced | 5-6 hrs |
+| [🤖 06](https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/Module06/README.md) | [AI Agents & Function Calling](https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/Module06/README.md) | Agent frameworks & MCP | Agent Introduction • Function Calling • Model Context Protocol | Advanced | 4-5 hrs |
+| [💻 07](https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/Module07/README.md) | [Platform Implementation](https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/Module07/README.md) | Cross-platform samples | AI Toolkit • Foundry Local • Windows Development | Advanced | 3-4 hrs |
+| [🏭 08](https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/Module08/README.md) | [Foundry Local Toolkit](https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/Module08/README.md) | Production-ready samples | Sample applications (see details below) | Expert | 8-10 hrs |
 
 ### 🏭 **Module 08: Sample Applications**
 
@@ -131,7 +131,7 @@ Build an AI-powered podcast production pipeline from scratch! This immersive wor
 
 <div class="tb-zh"><p>从零搭建一条 AI 驱动的播客生产流水线！这场沉浸式工作坊教你构建一个完整的多 agent 系统，把想法变成专业的播客节目。</p></div>
 
-**[🎬 Start The AI Podcast Studio Workshop](/lib/13-local-ai/edgeai-for-beginners/WorkshopForAgentic)**
+**[🎬 Start The AI Podcast Studio Workshop](https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/WorkshopForAgentic/README.md)**
 
 <div class="tb-zh"><p>开始《AI 播客工作室》工作坊。</p></div>
 
@@ -181,7 +181,7 @@ Build an AI-powered podcast production pipeline from scratch! This immersive wor
 
 <div class="tb-zh"><p>非常适合：学习多 agent AI 系统的开发者；对 AI 自动化与工作流感兴趣的任何人；探索 AI 辅助生产的内容创作者；学习实用 AI 编排模式的学生。</p></div>
 
-**Start Building**: [🎙️ The AI Podcast Studio Workshop →](/lib/13-local-ai/edgeai-for-beginners/WorkshopForAgentic)
+**Start Building**: [🎙️ The AI Podcast Studio Workshop →](https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/WorkshopForAgentic/README.md)
 
 <div class="tb-zh"><p>开始动手：《AI 播客工作室》工作坊。</p></div>
 
@@ -217,7 +217,7 @@ Build an AI-powered podcast production pipeline from scratch! This immersive wor
 
 <div class="tb-zh"><p>推荐学习路径（总计 20 到 30 小时）：</p></div>
 
-0. **📖 Introduction** ([Introduction.md](https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/introduction.md)): EdgeAI foundation + industry context + learning framework
+0. **📖 Introduction** ([Introduction.md](/lib/13-local-ai/edgeai-for-beginners/introduction)): EdgeAI foundation + industry context + learning framework
 1. **📚 Foundation** (Modules 01-02): EdgeAI concepts + SLM model families
 2. **⚙️ Optimization** (Modules 03-04): Deployment + quantization frameworks  
 3. **🚀 Production** (Modules 05-06): SLMOps + AI agents + function calling

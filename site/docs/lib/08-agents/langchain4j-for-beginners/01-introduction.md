@@ -168,7 +168,7 @@ This will:
 2. Automatically generate `.env` file in project root with credentials
 3. Set up all required environment variables
 
-**Having deployment issues?** See the [Infrastructure README](https://github.com/microsoft/LangChain4j-for-Beginners/blob/9aed2ec27717775def0da2ff2d7950baa8995a64/01-introduction/infra/README.md) for detailed troubleshooting including subdomain name conflicts, manual Azure Portal deployment steps, and model configuration guidance.
+**Having deployment issues?** See the [Infrastructure README](/lib/08-agents/langchain4j-for-beginners/01-introduction-infra) for detailed troubleshooting including subdomain name conflicts, manual Azure Portal deployment steps, and model configuration guidance.
 
 **Verify deployment succeeded:**
 

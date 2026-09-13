@@ -19,8 +19,17 @@ zh: ""
 
 ## 课时
 
-1. [VibeSDK Architecture Diagrams](docs.md)
-2. [@cf-vibesdk/sdk](sdk.md)
-3. [@space-do/space](space.md)
+1. [CLAUDE.md](CLAUDE.md)
+2. [VibeSDK Architecture Diagrams](docs-architecture-diagrams.md)
+3. [VibeSDK Developer Guide](docs-llm.md)
+4. [Legacy V1 Dev API Postman Collection](docs-POSTMAN_COLLECTION_.md)
+5. [VibeSDK Setup Guide](docs-setup.md)
+6. [Cloudflare VibeSDK](docs-usage-limits-ui.md)
+7. [Publishing artifacts-viewer](packages-artifacts-viewer-PUBLISH.md)
+8. [artifacts-viewer](packages-artifacts-viewer.md)
+9. [Cloudflare VibeSDK](samplePrompts.md)
+10. [@cf-vibesdk/sdk](sdk.md)
+11. [Cloudflare VibeSDK](sdk-test-README.test.md)
+12. [@space-do/space](space.md)
 
-开始学习 → [VibeSDK Architecture Diagrams](docs.md)
+开始学习 → [CLAUDE.md](CLAUDE.md)

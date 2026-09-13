@@ -1,0 +1,18 @@
+{
+  "id": "09-harness/grok-build",
+  "volume": "09-harness",
+  "local": "grok-build",
+  "title": "Grok Build（xAI 官方 CLI）",
+  "kind": "产品仓库",
+  "license": "Apache-2.0",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "xai-org/grok-build",
+  "site": null,
+  "commit": "37949780c144e37df692e3d669051a21fec24f20",
+  "entryUrl": "https://github.com/xai-org/grok-build/blob/37949780c144e37df692e3d669051a21fec24f20/README.md",
+  "docs": 10
+}

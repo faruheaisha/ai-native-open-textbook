@@ -16,7 +16,7 @@ zh: ""
 
 <b>Read in your language:</b>
 [Türkçe](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/i18n/tr/README.md)
-  <br><sub>Translated landing pages, committed to the repo. English is canonical; lesson pages are machine-translated on the <code>translations</code> branch. See <a href="/lib/07-coding/ai-engineering-from-scratch/docs">docs/i18n.md</a>.</sub>
+  <br><sub>Translated landing pages, committed to the repo. English is canonical; lesson pages are machine-translated on the <code>translations</code> branch. See <a href="https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/docs/i18n.md">docs/i18n.md</a>.</sub>
 
   
   
@@ -52,7 +52,7 @@ same lesson code.
 | I want to shape the right build before implementation | [Product Judgment and Delivery path](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/learning-paths/shaping-the-build.json) | [Product Judgment and Delivery](https://aiengineeringfromscratch.com/lesson?path=phases/14-agent-engineering/47-outcomes-before-output&learningPath=shaping-the-build) |
 | I want to build with Model Context Protocol (MCP) | [Model Context Protocol (MCP) route](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/13-tools-and-protocols/README.md#model-context-protocol-mcp-path) | [Model Context Protocol (MCP) path](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/06-mcp-fundamentals&learningPath=model-context-protocol) |
 | I want to write and ship Agent Skills | [Focused Agent Skills route](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/13-tools-and-protocols/README.md#agent-skills-fast-path) | [Agent Skills path](https://aiengineeringfromscratch.com/lesson?path=phases/13-tools-and-protocols/22-skills-and-agent-sdks&learningPath=agent-skills) |
-| I want to prepare for a Claude certification | [Certification onboarding](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/certifications/claude/GETTING_STARTED.md) | [Certification Academy](https://aiengineeringfromscratch.com/certifications.html) |
+| I want to prepare for a Claude certification | [Certification onboarding](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-GETTING_STARTED) | [Certification Academy](https://aiengineeringfromscratch.com/certifications.html) |
 
 Not sure where you fit? Use the [`start-learning` placement tutor](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/skills/start-learning/SKILL.md)
 or the [website prerequisites guide](https://aiengineeringfromscratch.com/prereqs.html).

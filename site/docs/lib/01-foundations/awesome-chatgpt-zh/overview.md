@@ -53,47 +53,47 @@ ChatGPT 中文指南项目旨在帮助中文用户了解和使用 ChatGPT 及前
 
 > 你好！我是ChatGPT，一个由OpenAI开发的大型语言模型，基于GPT-4架构。我的任务是通过自然语言处理技术，与用户进行交流并提供帮助。我可以回答问题、提供建议、进行简单对话等。我的知识截止于2021年9月，所以关于那之后的信息可能无法为您提供准确的答案。请随时向我提问，我会尽我所能帮助您。
 
-## [ChatGPT 使用途径](https://github.com/EmbraceAGI/awesome-chatgpt-zh/blob/f7c206f6b3e27dae3f4fa7fb1eee1852c72b1f68/docs/ChatGPT_access.md)
-## [与 ChatGPT 高效对话？——Prompt工程指南](https://github.com/EmbraceAGI/awesome-chatgpt-zh/blob/f7c206f6b3e27dae3f4fa7fb1eee1852c72b1f68/docs/ChatGPT_prompts.md)
+## [ChatGPT 使用途径](/lib/01-foundations/awesome-chatgpt-zh/docs-ChatGPT_access)
+## [与 ChatGPT 高效对话？——Prompt工程指南](/lib/01-foundations/awesome-chatgpt-zh/docs-ChatGPT_prompts)
 ## [OpenAI GPTs 指南](https://github.com/EmbraceAGI/Awesome-AI-GPTs)
-## [前沿大模型经典技术文章](https://github.com/EmbraceAGI/awesome-chatgpt-zh/blob/f7c206f6b3e27dae3f4fa7fb1eee1852c72b1f68/docs/OpenAI_articles.md)
+## [前沿大模型经典技术文章](/lib/01-foundations/awesome-chatgpt-zh/docs-OpenAI_articles)
 
 汇集 OpenAI、Anthropic（Claude）、Google / DeepMind、DeepSeek 的经典技术文章与论文，以及 Andrej Karpathy 的博客、开源教学项目与讲座。
-## [ChatGPT 顶级爆款开源项目(10K+ Stars)](https://github.com/EmbraceAGI/awesome-chatgpt-zh/blob/f7c206f6b3e27dae3f4fa7fb1eee1852c72b1f68/docs/ChatGPT_Top_Project.md)
-## [ChatGPT 应用](https://github.com/EmbraceAGI/awesome-chatgpt-zh/blob/f7c206f6b3e27dae3f4fa7fb1eee1852c72b1f68/docs/ChatGPT_tools.md)
-## [ChatGPT 扩展能力 (GPTs / Actions)](https://github.com/EmbraceAGI/awesome-chatgpt-zh/blob/f7c206f6b3e27dae3f4fa7fb1eee1852c72b1f68/docs/ChatGPT_plugins.md)
-## [ChatGPT 应用开发指南](https://github.com/EmbraceAGI/awesome-chatgpt-zh/blob/f7c206f6b3e27dae3f4fa7fb1eee1852c72b1f68/docs/ChatGPT_dev.md)
-## [DeepSeek 生态指南](https://github.com/EmbraceAGI/awesome-chatgpt-zh/blob/f7c206f6b3e27dae3f4fa7fb1eee1852c72b1f68/docs/DeepSeek.md)
+## [ChatGPT 顶级爆款开源项目(10K+ Stars)](/lib/01-foundations/awesome-chatgpt-zh/docs-ChatGPT_Top_Project)
+## [ChatGPT 应用](/lib/01-foundations/awesome-chatgpt-zh/docs-ChatGPT_tools)
+## [ChatGPT 扩展能力 (GPTs / Actions)](/lib/01-foundations/awesome-chatgpt-zh/docs-ChatGPT_plugins)
+## [ChatGPT 应用开发指南](/lib/01-foundations/awesome-chatgpt-zh/docs-ChatGPT_dev)
+## [DeepSeek 生态指南](/lib/01-foundations/awesome-chatgpt-zh/docs-DeepSeek)
 
 DeepSeek 已从"模型提供方"演进为覆盖模型、API、编程智能体、Agent 框架与开源基础设施的完整生态：2026 年 DeepSeek-V4（Pro / Flash，1M 上下文，开放权重）正式 GA，官方 Agent 框架 deepseek-harness 上线。本节汇总官方资源、模型谱系、API 与价格、Claude Code / Codex / OpenClaw 等编程智能体接入、本地部署、第三方云平台、客户端工具、Open Infra 与复现学习资源。
 
-## [Claude Skills 指南](https://github.com/EmbraceAGI/awesome-chatgpt-zh/blob/f7c206f6b3e27dae3f4fa7fb1eee1852c72b1f68/docs/Claude_Skills.md)
+## [Claude Skills 指南](/lib/01-foundations/awesome-chatgpt-zh/docs-Claude_Skills)
 
 Claude Skills（Agent Skills）让 AI 智能体按需加载专业能力，是构建可复用、可组合智能体的新范式。本节精选了官方资源、聚合列表、知名技能仓库与工具教程；完整中文资源大全见作者维护的 [awesome-claude-skills-zh](https://github.com/yzfly/awesome-claude-skills-zh)。
 
-## [MCP 模型上下文协议指南](https://github.com/EmbraceAGI/awesome-chatgpt-zh/blob/f7c206f6b3e27dae3f4fa7fb1eee1852c72b1f68/docs/MCP.md)
+## [MCP 模型上下文协议指南](/lib/01-foundations/awesome-chatgpt-zh/docs-MCP)
 
 MCP（Model Context Protocol，模型上下文协议）是让 AI 无缝连接外部工具, 数据与系统的通用接口。本节精选了官方资源、主流客户端与各类知名 MCP Servers；完整中文资源大全（400+ Servers）见作者维护的 [Awesome-MCP-ZH](https://github.com/yzfly/Awesome-MCP-ZH)。
 
-## [Coding Agents 编程智能体](https://github.com/EmbraceAGI/awesome-chatgpt-zh/blob/f7c206f6b3e27dae3f4fa7fb1eee1852c72b1f68/docs/Coding_Agents.md)
+## [Coding Agents 编程智能体](/lib/01-foundations/awesome-chatgpt-zh/docs-Coding_Agents)
 
 以 Claude Code、OpenAI Codex 为代表的编程智能体能自主读写代码库、运行命令与提交 PR。本节汇总主流终端/IDE 编码 Agent、自主软件工程 Agent、评测基准与学习资源。
 
-## [Agent-First 为智能体而构建](/lib/01-foundations/awesome-chatgpt-zh/docs)
+## [Agent-First 为智能体而构建](/lib/01-foundations/awesome-chatgpt-zh/docs-Agent_First)
 
 软件正迎来"第二类用户"——AI 智能体。本节收录 Agent-First / Agent-Friendly 与 Agent Experience（AX）的理念、关键标准（llms.txt、AGENTS.md、MCP、NLWeb）、实践框架（agentsfirst.dev 九原则、AX 六层栈）与代表文章工具。
 
-## [浏览器与计算机自动化](https://github.com/EmbraceAGI/awesome-chatgpt-zh/blob/f7c206f6b3e27dae3f4fa7fb1eee1852c72b1f68/docs/Browser_Computer_Use.md)
+## [浏览器与计算机自动化](/lib/01-foundations/awesome-chatgpt-zh/docs-Browser_Computer_Use)
 
 让 Agent 像人一样操作浏览器与电脑。本节收录 Browser Use / Computer Use 框架、为 agent 打造的浏览器基础设施（Steel、Browserbase 等）、浏览器自动化 MCP（Chrome DevTools MCP、Playwright MCP）、反检测浏览器、桌面操作 Agent（UI-TARS、Agent S 等）与评测基准。
 
-## [LLM 开发 RAG 指南](https://github.com/EmbraceAGI/awesome-chatgpt-zh/blob/f7c206f6b3e27dae3f4fa7fb1eee1852c72b1f68/docs/LLM_RAG.md)
-## [Sora 指南](https://github.com/EmbraceAGI/awesome-chatgpt-zh/blob/f7c206f6b3e27dae3f4fa7fb1eee1852c72b1f68/docs/Sora.md)
-## [LLMs: 大模型](https://github.com/EmbraceAGI/awesome-chatgpt-zh/blob/f7c206f6b3e27dae3f4fa7fb1eee1852c72b1f68/docs/LLMs.md)
-## [AGI：通用人工智能之路](https://github.com/EmbraceAGI/awesome-chatgpt-zh/blob/f7c206f6b3e27dae3f4fa7fb1eee1852c72b1f68/docs/AGI.md)
-## [AI 生产力工具](https://github.com/EmbraceAGI/awesome-chatgpt-zh/blob/f7c206f6b3e27dae3f4fa7fb1eee1852c72b1f68/docs/AI_tools.md)
-## [AI 搞钱](https://github.com/EmbraceAGI/awesome-chatgpt-zh/blob/f7c206f6b3e27dae3f4fa7fb1eee1852c72b1f68/docs/AI_money.md)
-## [思考](https://github.com/EmbraceAGI/awesome-chatgpt-zh/blob/f7c206f6b3e27dae3f4fa7fb1eee1852c72b1f68/docs/thinking.md)
+## [LLM 开发 RAG 指南](/lib/01-foundations/awesome-chatgpt-zh/docs-LLM_RAG)
+## [Sora 指南](/lib/01-foundations/awesome-chatgpt-zh/docs-Sora)
+## [LLMs: 大模型](/lib/01-foundations/awesome-chatgpt-zh/docs-LLMs)
+## [AGI：通用人工智能之路](/lib/01-foundations/awesome-chatgpt-zh/docs-AGI)
+## [AI 生产力工具](/lib/01-foundations/awesome-chatgpt-zh/docs-AI_tools)
+## [AI 搞钱](/lib/01-foundations/awesome-chatgpt-zh/docs-AI_money)
+## [思考](/lib/01-foundations/awesome-chatgpt-zh/docs-thinking)
 
 ## ChatGPT 使用交流
 

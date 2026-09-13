@@ -70,7 +70,7 @@ fail before writing. `--force=false` keeps existing work.
 
 Full setup writes a missing `vibe.project.json` with document paths, tools,
 planning mode, and template version. Existing manifests are preserved. See the
-[document contract](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/docs/workflow/document-contract.md) for browser-export
+[document contract](/lib/07-coding/vibe-coding-prompt-template/docs-workflow-document-contract) for browser-export
 names and versioned metadata. `doctor` validates setup only and explicitly
 reports build and behavior as Not checked. Required missing metadata or
 placeholders fail setup even without `--strict`.

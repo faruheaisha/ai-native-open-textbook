@@ -19,8 +19,16 @@ zh: "on"
 
 ## 课时
 
-1. [Best Practice: AGENTS.md](best-practice.md)
-2. [Skills System Reference](docs.md)
-3. [Orchestration Workflow](orchestration-workflow.md)
+1. [Best Practice: AGENTS.md](best-practice-codex-agents-md.md)
+2. [Best Practice: Config](best-practice-codex-config.md)
+3. [Best Practice: Hooks](best-practice-codex-hooks.md)
+4. [Best Practice: Plugin Marketplace](best-practice-codex-marketplace.md)
+5. [Best Practice: MCP (Model Context Protocol)](best-practice-codex-mcp.md)
+6. [Best Practice: Memories](best-practice-codex-memory.md)
+7. [Best Practice: Skills](best-practice-codex-skills.md)
+8. [Best Practice: Subagents](best-practice-codex-subagents.md)
+9. [CLAUDE.md](CLAUDE.md)
+10. [Skills System Reference](docs-SKILLS.md)
+11. [Orchestration Workflow](orchestration-workflow-orchestration-workflow.md)
 
-开始学习 → [Best Practice: AGENTS.md](best-practice.md)
+开始学习 → [Best Practice: AGENTS.md](best-practice-codex-agents-md.md)

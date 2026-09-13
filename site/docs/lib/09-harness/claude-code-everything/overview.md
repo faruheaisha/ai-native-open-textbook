@@ -62,7 +62,7 @@ The five extension points in Claude Code, side by side:
 
 **Productivity & frameworks** — [Effort levels](#effort-levels) · [Fast Mode](#fast-mode) · [Super Claude](#super-claude-framework) · [BMAD Method](#the-bmad-method--ai-agent-framework)
 
-**Reference** — [Slash Command Cheatsheet](#built-in-slash-commands) · [Effort levels](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/docs/reference/effort-levels.md) · [Workflows](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/docs/workflows.md) · [Agent Teams](/lib/09-harness/claude-code-everything/docs) · [Skills](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/docs/skills.md) · [FAQ](#faq) · [Updates & Deprecations](#updates--deprecations) · [Further Reading](#references)
+**Reference** — [Slash Command Cheatsheet](#built-in-slash-commands) · [Effort levels](/lib/09-harness/claude-code-everything/docs-reference-effort-levels) · [Workflows](/lib/09-harness/claude-code-everything/docs-workflows) · [Agent Teams](/lib/09-harness/claude-code-everything/docs-agent-teams) · [Skills](/lib/09-harness/claude-code-everything/docs-skills) · [FAQ](#faq) · [Updates & Deprecations](#updates--deprecations) · [Further Reading](#references)
 
 ### What is Claude Code?
 
@@ -100,7 +100,7 @@ Three launches landed in quick succession this summer: **Claude Opus 4.8** (May 
 
 > Opus 4.7 / 4.6 and Sonnet 4.6 are now *legacy models* (still available via API and `/model`); Opus 4.1 retires August 5, 2026. **Mythos 5** is the same underlying model as Fable 5 with fewer safeguards — invitation-only for approved organizations via Project Glasswing.
 >
-> *[→ Full specs, capabilities, and pricing in `docs/reference/models.md`](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/docs/reference/models.md)*
+> *[→ Full specs, capabilities, and pricing in `docs/reference/models.md`](/lib/09-harness/claude-code-everything/docs-reference-models)*
 
 ---
 ### Claude Code Setup
@@ -153,7 +153,7 @@ This repo's [`.claude/`](https://github.com/wesammustafa/Claude-Code-Everything-
 | Path | What you get | Copy it when… |
 |---|---|---|
 | [`.claude/commands/`](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/.claude/commands/README.md) | 7 slash skills — `/pr`, `/review`, `/tdd`, `/test`, `/five`, `/ux`, `/todo` | You want PR hygiene and review rigor without writing the prompts |
-| [`.claude/skills/`](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/.claude/skills/README.md) | An Agent Skill — `/claude-md-review` audits a `CLAUDE.md` for vagueness, dead paths, and bloat | You want a worked example of the [frontmatter contract](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/docs/skills.md#frontmatter-reference) |
+| [`.claude/skills/`](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/.claude/skills/README.md) | An Agent Skill — `/claude-md-review` audits a `CLAUDE.md` for vagueness, dead paths, and bloat | You want a worked example of the [frontmatter contract](/lib/09-harness/claude-code-everything/docs-skills#frontmatter-reference) |
 | [`.claude/agents/`](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/.claude/agents/README.md) | 5 subagents, plus [10 more role prompts](#3-specialized-subagents--drop-in-role-prompts) in `specialized-agents/` | You want specialists without authoring role prompts — they double as [Agent Teams](#agent-teams-experimental) teammates |
 | [`.claude/workflows/`](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/.claude/workflows/README.md) | A [dynamic workflow](#dynamic-workflows) — `/stale-docs-audit` fans agents across your docs, then refutes its own findings | You want a real script to read before writing your own |
 | [`.claude/hooks/`](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/.claude/hooks/README.md) | Python hooks — `post_tool_use.py`, `notification.py`, `stop.py`, `subagent_stop.py` | You want [lifecycle automation](#hooks) (needs [`uv`](https://docs.astral.sh/uv/getting-started/installation/)) |
@@ -211,7 +211,7 @@ cp -r /tmp/cc-guide/.claude/commands/pr.md  your-project/.claude/commands/   # t
 
 #### 4. Effort levels — how hard Claude thinks
 
-*[→ Full guide in `docs/reference/effort-levels.md`](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/docs/reference/effort-levels.md)*
+*[→ Full guide in `docs/reference/effort-levels.md`](/lib/09-harness/claude-code-everything/docs-reference-effort-levels)*
 
 > **Mental model:** Effort is a **behavioural dial**, not a token budget — it shifts thinking depth, tool-call appetite, response length, and how persistently Claude pushes through multi-step work. Higher ≠ smarter; context quality often matters more.
 
@@ -246,7 +246,7 @@ cp -r /tmp/cc-guide/.claude/commands/pr.md  your-project/.claude/commands/   # t
 
 > ⚠️ **Two gotchas worth knowing:**
 > - **`max` shows diminishing returns on routine work** and is more prone to overthinking — Anthropic's own guidance. Don't default to it.
-> - **Context quality often beats more effort.** If you're reaching for max on a task that shouldn't need it, ~80% of the time the fix is upstream — sharper `CLAUDE.md`, atomic plan, named files. [Full breakdown →](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/docs/reference/effort-levels.md#effort--intelligence--the-context-quality-trap)
+> - **Context quality often beats more effort.** If you're reaching for max on a task that shouldn't need it, ~80% of the time the fix is upstream — sharper `CLAUDE.md`, atomic plan, named files. [Full breakdown →](/lib/09-harness/claude-code-everything/docs-reference-effort-levels#effort--intelligence--the-context-quality-trap)
 
 > 💡 **Pattern: plan-with-Opus / execute-with-Sonnet.** Plan in Opus 4.8 (or Fable 5) at xhigh or max; hand the atomic, zero-ambiguity plan to Sonnet 5 at lower effort to execute. Sonnet follows clear plans without drift, so the cheap execution is reliable when the plan is sharp.
 
@@ -266,7 +266,7 @@ Claude Code ships dozens of built-in slash commands ([official reference](https:
 | `/usage` | Track token and plan usage (merged `/cost` + `/stats` as of v2.1.118) |
 | `/model` | Switch models — your pick persists as the default for new sessions (press `s` for session-only) |
 
-> *[→ Curated slash-command cheatsheet in `docs/reference/commands.md`](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/docs/reference/commands.md)* (including `/fast`, `/hooks`, `/mcp`, `/teleport`, `/workflows`, `/rewind`, …)
+> *[→ Curated slash-command cheatsheet in `docs/reference/commands.md`](/lib/09-harness/claude-code-everything/docs-reference-commands)* (including `/fast`, `/hooks`, `/mcp`, `/teleport`, `/workflows`, `/rewind`, …)
 
 #### Custom slash commands
 
@@ -284,7 +284,7 @@ echo "Analyze this code for performance issues and suggest optimizations:" \
 
 ### Claude Skills
 
-*~3 min read · [Full guide in `docs/skills.md` →](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/docs/skills.md)*
+*~3 min read · [Full guide in `docs/skills.md` →](/lib/09-harness/claude-code-everything/docs-skills)*
 
 > **Mental model:** Skills package a workflow into a markdown file. Two equivalent formats — officially one system now:
 > - **Slash skills** — `.claude/commands/<name>.md`, you invoke them with `/<name>`
@@ -296,7 +296,7 @@ echo "Analyze this code for performance issues and suggest optimizations:" \
 
 ![Skill resolution: typing /name or Claude matching a description both enter one lookup order — project .claude/, then user ~/.claude/, then plugins, then built-in, first match wins. Both .claude/commands/name.md and .claude/skills/name/SKILL.md create the same /name command.](https://gh-proxy.com/https://raw.githubusercontent.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/Images/skill-resolution.svg)
 
-Project beats user beats built-in — which is how this repo's custom `/review` deliberately shadows the built-in one. Slash skills load on `/` autocomplete; Agent Skills preload only their metadata and read the body on demand. [Full lookup table →](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/docs/skills.md#where-claude-looks)
+Project beats user beats built-in — which is how this repo's custom `/review` deliberately shadows the built-in one. Slash skills load on `/` autocomplete; Agent Skills preload only their metadata and read the body on demand. [Full lookup table →](/lib/09-harness/claude-code-everything/docs-skills#where-claude-looks)
 
 #### Your first skill in 3 minutes
 
@@ -322,11 +322,11 @@ That's it — a working slash skill. Promote it to an Agent Skill later by movin
 
 #### Want more depth?
 
-The [full Skills guide in `docs/skills.md`](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/docs/skills.md) covers:
+The [full Skills guide in `docs/skills.md`](/lib/09-harness/claude-code-everything/docs-skills) covers:
 
 - The 8 skills shipped here: `/pr`, `/review`, `/tdd`, `/test`, `/five`, `/ux`, `/todo`, plus the Agent Skill [`/claude-md-review`](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/.claude/skills/claude-md-review/SKILL.md)
 - Bundled built-in skills (e.g. `/dataviz`, `/debug`, `/keybindings-help`)
-- Slash skills vs Agent Skills, and the [full frontmatter reference](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/docs/skills.md#frontmatter-reference) — including why `allowed-tools` **grants** permission rather than restricting it
+- Slash skills vs Agent Skills, and the [full frontmatter reference](/lib/09-harness/claude-code-everything/docs-skills#frontmatter-reference) — including why `allowed-tools` **grants** permission rather than restricting it
 - Workflow recipes — feature dev with TDD + PR, bug investigation, UX-first dev
 - How to write your own skills (file format, scope, examples)
 - Skills FAQ, troubleshooting, and best practices
@@ -340,7 +340,7 @@ The community has built an enormous catalog of Agent Skills. Three places to sta
 | [**SkillHub**](https://www.skillhub.club/) · [**SkillsMP**](https://skillsmp.com/) · [**Smithery**](https://smithery.ai/skills) · [**skills.sh**](https://skills.sh/) | Searchable marketplaces — community Agent Skills indexed from GitHub at massive scale |
 | [`travisvn/awesome-claude-skills`](https://github.com/travisvn/awesome-claude-skills) · [`ComposioHQ/awesome-claude-skills`](https://github.com/ComposioHQ/awesome-claude-skills) | Curated lists for high-signal picks |
 
-Notable community skills: `skill-creator`, `skill-installer`, `mcp-builder`, `systematic-debugging`, `pair-programming`, `github-code-review`, `pptx`, `react`, `frontend-design`, `prompt-engineering-patterns`, `superpowers`, `brainstorming`, `market-research-reports`, `senior-data-engineer`, and many more — see [the full ecosystem section in `docs/skills.md`](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/docs/skills.md#the-skills-ecosystem) for categorized tables and install paths.
+Notable community skills: `skill-creator`, `skill-installer`, `mcp-builder`, `systematic-debugging`, `pair-programming`, `github-code-review`, `pptx`, `react`, `frontend-design`, `prompt-engineering-patterns`, `superpowers`, `brainstorming`, `market-research-reports`, `senior-data-engineer`, and many more — see [the full ecosystem section in `docs/skills.md`](/lib/09-harness/claude-code-everything/docs-skills#the-skills-ecosystem) for categorized tables and install paths.
 
 ---
 
@@ -547,16 +547,16 @@ The `description` is what the main session uses to decide when to delegate — k
 
 | Role | System prompt | Role description |
 |---|---|---|
-| Backend Engineer | [prompt](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/system-prompts/backend-engineer-prompt.md) | [description](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/Descriptions/backend-engineer-description.md) |
-| Frontend Engineer | [prompt](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/system-prompts/frontend-engineer-prompt.md) | [description](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/Descriptions/frontend-engineer-description.md) |
-| Database Engineer | [prompt](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/system-prompts/database-engineer-prompt.md) | [description](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/Descriptions/database-engineer-description.md) |
-| Tech Lead | [prompt](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/system-prompts/tech-lead-prompt.md) | [description](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/Descriptions/tech-lead-description.md) |
-| Code Reviewer | [prompt](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/system-prompts/code-reviewer-prompt.md) | [description](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/Descriptions/code-reviewer-description.md) |
-| Security Reviewer | [prompt](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/system-prompts/security-reviewer-prompt.md) | [description](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/Descriptions/security-reviewer-description.md) |
-| UX Engineer | [prompt](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/system-prompts/ux-engineer-prompt.md) | [description](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/Descriptions/ux-engineer-description.md) |
+| Backend Engineer | [prompt](/lib/09-harness/claude-code-everything/specialized-agents-system-prompts-backend-engineer-prompt) | [description](/lib/09-harness/claude-code-everything/specialized-agents-Descriptions-backend-engineer-description) |
+| Frontend Engineer | [prompt](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/system-prompts/frontend-engineer-prompt.md) | [description](/lib/09-harness/claude-code-everything/specialized-agents-Descriptions-frontend-engineer-description) |
+| Database Engineer | [prompt](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/system-prompts/database-engineer-prompt.md) | [description](/lib/09-harness/claude-code-everything/specialized-agents-Descriptions-database-engineer-description) |
+| Tech Lead | [prompt](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/system-prompts/tech-lead-prompt.md) | [description](/lib/09-harness/claude-code-everything/specialized-agents-Descriptions-tech-lead-description) |
+| Code Reviewer | [prompt](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/system-prompts/code-reviewer-prompt.md) | [description](/lib/09-harness/claude-code-everything/specialized-agents-Descriptions-code-reviewer-description) |
+| Security Reviewer | [prompt](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/system-prompts/security-reviewer-prompt.md) | [description](/lib/09-harness/claude-code-everything/specialized-agents-Descriptions-security-reviewer-description) |
+| UX Engineer | [prompt](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/system-prompts/ux-engineer-prompt.md) | [description](/lib/09-harness/claude-code-everything/specialized-agents-Descriptions-ux-engineer-description) |
 | Design Reviewer | [prompt](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/system-prompts/design-reviewer.md) | — |
-| Project Manager | [prompt](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/system-prompts/project-manager-prompt.md) | [description](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/Descriptions/project-manager-description.md) |
-| Business Analyst | [prompt](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/system-prompts/business-analyst-prompt.md) | [description](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/Descriptions/business-analyst-description.md) |
+| Project Manager | [prompt](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/system-prompts/project-manager-prompt.md) | [description](/lib/09-harness/claude-code-everything/specialized-agents-Descriptions-project-manager-description) |
+| Business Analyst | [prompt](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/system-prompts/business-analyst-prompt.md) | [description](/lib/09-harness/claude-code-everything/specialized-agents-Descriptions-business-analyst-description) |
 
 #### Orchestrating specialists from the main session
 
@@ -639,13 +639,13 @@ Teammates appear in the **agent panel** below your prompt input: `↑`/`↓` to 
 | Start with **research and review** while learning | Start with parallel implementation |
 | Gate "done" with a `TaskCompleted` hook (exit 2 blocks) | Let a teammate declare victory on a red test suite |
 
-> 📚 **[Full guide in `docs/agent-teams.md` →](/lib/09-harness/claude-code-everything/docs)** — display modes, plan approval, the mailbox architecture, permissions, hooks, troubleshooting, and the honest limitations list. Authoritative reference: [code.claude.com/docs/en/agent-teams](https://code.claude.com/docs/en/agent-teams).
+> 📚 **[Full guide in `docs/agent-teams.md` →](/lib/09-harness/claude-code-everything/docs-agent-teams)** — display modes, plan approval, the mailbox architecture, permissions, hooks, troubleshooting, and the honest limitations list. Authoritative reference: [code.claude.com/docs/en/agent-teams](https://code.claude.com/docs/en/agent-teams).
 
 ---
 
 ### Dynamic Workflows
 
-*~3 min read · [Full guide in `docs/workflows.md` →](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/docs/workflows.md)*
+*~3 min read · [Full guide in `docs/workflows.md` →](/lib/09-harness/claude-code-everything/docs-workflows)*
 
 > **Mental model:** A dynamic workflow is a **JavaScript script that orchestrates subagents**. Claude writes the script for the task you describe; a runtime executes it in the background while your session stays responsive. Everything else on this page has Claude deciding what runs next, turn by turn — here, **the script holds the plan**.
 
@@ -674,7 +674,7 @@ Three phrases that reliably improve the script Claude writes: **"adversarially v
 
 > 📂 **This repo ships a working one:** [`.claude/workflows/stale-docs-audit.js`](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/.claude/workflows/stale-docs-audit.js) — one reader agent per doc file, then independent skeptics that try to refute each finding before it's reported. Clone and run `/stale-docs-audit`.
 
-> ⚠️ **Two things that surprise people.** The subagents a workflow spawns **always run in `acceptEdits`** regardless of your session's permission mode — file edits are auto-approved. And an agent still running when you stop a run isn't cached, so **many small agents preserve far more progress on resume** than a few long ones. [Details →](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/docs/workflows.md#permissions)
+> ⚠️ **Two things that surprise people.** The subagents a workflow spawns **always run in `acceptEdits`** regardless of your session's permission mode — file edits are auto-approved. And an agent still running when you stop a run isn't cached, so **many small agents preserve far more progress on resume** than a few long ones. [Details →](/lib/09-harness/claude-code-everything/docs-workflows#permissions)
 
 Limits: **16 concurrent agents**, **1,000 per run**, no mid-run user input, resume only within the same session. Cost control lives in `/config` (**Dynamic workflow size**, default `medium` ≈ under 15 agents) — and the cheapest habit is running on one directory before the whole repo.
 
@@ -702,14 +702,14 @@ Subagents got sharper too: they run **in the background by default** (v2.1.198),
 
 #### Featured MCP servers
 
-Full setup walkthroughs in [`mcp-servers/`](/lib/09-harness/claude-code-everything/mcp-servers). New to MCP? [`mcp-servers/playwright.md`](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/mcp-servers/playwright.md) has a working three-line setup.
+Full setup walkthroughs in [`mcp-servers/`](/lib/09-harness/claude-code-everything/mcp-servers). New to MCP? [`mcp-servers/playwright.md`](/lib/09-harness/claude-code-everything/mcp-servers-playwright) has a working three-line setup.
 
 | Server | What it adds | Walkthrough |
 |---|---|---|
-| **Serena** | Symbol-level code navigation and editing across many languages | [serena.md](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/mcp-servers/serena.md) |
-| **Sequential Thinking** | Step-by-step reasoning that breaks complex problems into manageable steps | [sequential-thinking.md](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/mcp-servers/sequential-thinking.md) |
-| **Memory** | Persistent context across sessions | [memory.md](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/mcp-servers/memory.md) |
-| **Playwright** | Browser automation — interaction, scraping, testing, accessibility | [playwright.md](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/mcp-servers/playwright.md) |
+| **Serena** | Symbol-level code navigation and editing across many languages | [serena.md](/lib/09-harness/claude-code-everything/mcp-servers-serena) |
+| **Sequential Thinking** | Step-by-step reasoning that breaks complex problems into manageable steps | [sequential-thinking.md](/lib/09-harness/claude-code-everything/mcp-servers-sequential-thinking) |
+| **Memory** | Persistent context across sessions | [memory.md](/lib/09-harness/claude-code-everything/mcp-servers-memory) |
+| **Playwright** | Browser automation — interaction, scraping, testing, accessibility | [playwright.md](/lib/09-harness/claude-code-everything/mcp-servers-playwright) |
 
 See [`mcp-servers/README.md`](/lib/09-harness/claude-code-everything/mcp-servers) for the comparison matrix, install commands, and troubleshooting.
 
@@ -834,24 +834,24 @@ claude mcp login <server>                          # OAuth sign-in (v2.1.186+)
 
 ### FAQ
 
-*[→ Full FAQ in `docs/reference/faq.md`](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/docs/reference/faq.md)* — covers models, pricing, tokens, plans, Fast Mode, worktrees, and Pro-plan optimization.
+*[→ Full FAQ in `docs/reference/faq.md`](/lib/09-harness/claude-code-everything/docs-reference-faq)* — covers models, pricing, tokens, plans, Fast Mode, worktrees, and Pro-plan optimization.
 
 A few of the most-asked questions:
 
 **How many messages do I get on the Pro plan?**
-Anthropic no longer publishes exact counts — third-party estimates put Pro at roughly ~45 messages per 5-hour window, and Claude Code's five-hour rate limits were **doubled on May 6, 2026** ([announcement](https://www.anthropic.com/news/higher-limits-spacex)). [Details →](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/docs/reference/faq.md#q-how-many-messages-do-i-get-on-the-pro-plan)
+Anthropic no longer publishes exact counts — third-party estimates put Pro at roughly ~45 messages per 5-hour window, and Claude Code's five-hour rate limits were **doubled on May 6, 2026** ([announcement](https://www.anthropic.com/news/higher-limits-spacex)). [Details →](/lib/09-harness/claude-code-everything/docs-reference-faq#q-how-many-messages-do-i-get-on-the-pro-plan)
 
 **What's the difference between Pro, Max 5x, and Max 20x?**
-Pro $20/mo, Max 5x from $100/mo (5× usage), Max 20x $200/mo (20× usage). All paid tiers include Claude Code and the current lineup — Fable 5 draws usage credits rather than plan limits. [Pricing details →](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/docs/reference/faq.md#q-what-are-the-claude-subscription-plans)
+Pro $20/mo, Max 5x from $100/mo (5× usage), Max 20x $200/mo (20× usage). All paid tiers include Claude Code and the current lineup — Fable 5 draws usage credits rather than plan limits. [Pricing details →](/lib/09-harness/claude-code-everything/docs-reference-faq#q-what-are-the-claude-subscription-plans)
 
 **Should I use Fast Mode?**
-It now runs on Opus 4.8 at 2× price for up to 2.5× output speed — an easy call when latency matters. [More →](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/docs/reference/faq.md#q-what-is-fast-mode-and-when-should-i-use-it)
+It now runs on Opus 4.8 at 2× price for up to 2.5× output speed — an easy call when latency matters. [More →](/lib/09-harness/claude-code-everything/docs-reference-faq#q-what-is-fast-mode-and-when-should-i-use-it)
 
 **What's the difference between custom slash commands and skills?**
-Officially one system now — `.claude/commands/deploy.md` and `.claude/skills/deploy/SKILL.md` both create `/deploy`. See [Skills FAQ in `docs/skills.md`](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/docs/skills.md#skills-faq).
+Officially one system now — `.claude/commands/deploy.md` and `.claude/skills/deploy/SKILL.md` both create `/deploy`. See [Skills FAQ in `docs/skills.md`](/lib/09-harness/claude-code-everything/docs-skills#skills-faq).
 
 **Can I use the 1M-token context window?**
-Yes — 1M context is standard on Sonnet 5, Opus 4.8, and Fable 5, with no long-context surcharge. [More →](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/docs/reference/faq.md#q-can-i-use-the-1m-context-window)
+Yes — 1M context is standard on Sonnet 5, Opus 4.8, and Fable 5, with no long-context surcharge. [More →](/lib/09-harness/claude-code-everything/docs-reference-faq#q-can-i-use-the-1m-context-window)
 
 ---
 
@@ -884,7 +884,7 @@ Yes — 1M context is standard on Sonnet 5, Opus 4.8, and Fable 5, with no long-
 
 ### References
 
-*[→ Full reading list in `docs/reference/further-reading.md`](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/docs/reference/further-reading.md)*
+*[→ Full reading list in `docs/reference/further-reading.md`](/lib/09-harness/claude-code-everything/docs-reference-further-reading)*
 
 A curated set of pointers — official Anthropic docs, MCP resources, hooks examples, workflow tutorials, pricing references, and adjacent tooling.
 

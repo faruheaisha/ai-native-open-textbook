@@ -14,6 +14,8 @@ zh: ""
 
 # Claude Code Harness
 
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/Chachamaru127/claude-code-harness/2b2b74805321089bd9b660a1064fa97556299703/docs/images/claude-harness-logo-with-text.png" alt="Claude Harness" width="400">
+
   <strong>Plan. Work. Review. Ship.</strong><br>
   <em>A disciplined delivery loop for Claude Code, Codex CLI, Cursor, and Grok.</em>
 
@@ -25,6 +27,8 @@ zh: ""
   
 
   English | <a href="https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/README_ja.md">日本語</a>
+
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/Chachamaru127/claude-code-harness/2b2b74805321089bd9b660a1064fa97556299703/docs/images/readme/loop-en.svg" alt="Operating loop: Plan, Work, Review, Release — with every command checked before it runs" width="880">
 
 ## The problem
 

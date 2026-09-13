@@ -30,7 +30,7 @@ zh: ""
 
 **📢 更新说明**：**AI 不停，更新不止**。本仓库将伴随 **AI 大模型技术栈持续进化**，坚持 **开源、系统化、长期更新**。模型、框架、Agent、实战项目，都会随着生态变化持续完善和升级。它不只是帮你入门，而是陪你一路成长，从零基础到能真正落地。
 
-目前 **概念篇** 已全部更新完毕，两个完整实战项目也已更新完毕：`NL2SQL + LangGraph` 实战项目 [电商问数](/lib/08-agents/ai-agents-from-zero/实战项目-电商问数)（[源码仓库](https://github.com/didilili/shopkeeper-agent)）已于 5 月 3 日完成。`DeepAgents` 多智能体实战项目 [深度研搜](/lib/08-agents/ai-agents-from-zero/实战项目-深度研搜)（[源码仓库](https://github.com/didilili/deepsearch-agents)）已于 5 月 17 日完成。你可以点击[更新日志](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/教程更新日志.md)，了解最新仓库动态。
+目前 **概念篇** 已全部更新完毕，两个完整实战项目也已更新完毕：`NL2SQL + LangGraph` 实战项目 [电商问数](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/实战项目-电商问数/0-前言.md)（[源码仓库](https://github.com/didilili/shopkeeper-agent)）已于 5 月 3 日完成。`DeepAgents` 多智能体实战项目 [深度研搜](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/实战项目-深度研搜/0-前言.md)（[源码仓库](https://github.com/didilili/deepsearch-agents)）已于 5 月 17 日完成。你可以点击[更新日志](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/教程更新日志.md)，了解最新仓库动态。
 
 ---
 
@@ -117,14 +117,14 @@ zh: ""
 | --------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 掌柜智库                                | LangGraph RAG 工作流、MinerU/OCR、向量+稀疏+Neo4j 多路召回、HyDE/BGE-Rerank、RAGAS 评估                                                                                                |
 | 电商小二                                | 意图解析、多源知识库、流式回复、转人工机制、对话复盘、多渠道与监控                                                                                                                     |
-| [电商问数](/lib/08-agents/ai-agents-from-zero/实战项目-电商问数) | 围绕自然语言问数，完整串起 MySQL 数仓、元数据知识库、Qdrant 向量检索、Elasticsearch 字段值检索、LangGraph 工作流、SQL 生成校验执行、FastAPI SSE 和前后端联调                           |
-| [深度研搜](/lib/08-agents/ai-agents-from-zero/实战项目-深度研搜) | 基于 [DeepAgents](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/实战项目-深度研搜/1-DeepAgents基础与核心概念.md) 搭建多智能体研究系统，串起网络搜索、MySQL 查询、RAGFlow 知识库、文件读取生成、FastAPI 接口和 WebSocket 实时进度回传 |
+| [电商问数](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/实战项目-电商问数/0-前言.md) | 围绕自然语言问数，完整串起 MySQL 数仓、元数据知识库、Qdrant 向量检索、Elasticsearch 字段值检索、LangGraph 工作流、SQL 生成校验执行、FastAPI SSE 和前后端联调                           |
+| [深度研搜](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/实战项目-深度研搜/0-前言.md) | 基于 [DeepAgents](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/实战项目-深度研搜/1-DeepAgents基础与核心概念.md) 搭建多智能体研究系统，串起网络搜索、MySQL 查询、RAGFlow 知识库、文件读取生成、FastAPI 接口和 WebSocket 实时进度回传 |
 | 市场罗盘                                | 场景化任务拆解、从 0 到 1 设计与开发、阶段目标与进度管控、代码评审与成果展示                                                                                                           |
 
 > **已完成实战项目推荐：**
 >
-> - [电商问数](/lib/08-agents/ai-agents-from-zero/实战项目-电商问数)（[源码仓库](https://github.com/didilili/shopkeeper-agent)）：不是简单的 SQL 生成 Demo，而是把 `MySQL`、`LangGraph`、`Qdrant`、`Elasticsearch`、`FastAPI` 等知识点放进同一条可运行的智能问数链路里。
-> - [深度研搜](/lib/08-agents/ai-agents-from-zero/实战项目-深度研搜)（[源码仓库](https://github.com/didilili/deepsearch-agents)）：不是普通聊天框，而是围绕开放研究任务，把主智能体调度、子智能体分工、多来源资料检索、文件生成交付和前后端实时联动做成一条完整闭环。
+> - [电商问数](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/实战项目-电商问数/0-前言.md)（[源码仓库](https://github.com/didilili/shopkeeper-agent)）：不是简单的 SQL 生成 Demo，而是把 `MySQL`、`LangGraph`、`Qdrant`、`Elasticsearch`、`FastAPI` 等知识点放进同一条可运行的智能问数链路里。
+> - [深度研搜](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/实战项目-深度研搜/0-前言.md)（[源码仓库](https://github.com/didilili/deepsearch-agents)）：不是普通聊天框，而是围绕开放研究任务，把主智能体调度、子智能体分工、多来源资料检索、文件生成交付和前后端实时联动做成一条完整闭环。
 
 ### 05 大模型微调实践
 

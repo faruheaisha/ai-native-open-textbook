@@ -19,7 +19,7 @@ zh: ""
 ---
 
 > [!TIP]
-> **How this was built:** Read the [Distilling Claude Code Source — A Harness Engineering Practice Log](https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/docs/distillation-harness-practice.md) for the full story of how Codex and Claude Code collaborated, the PCA-inspired taste injection, and what worked (and didn't).
+> **How this was built:** Read the [Distilling Claude Code Source — A Harness Engineering Practice Log](/lib/09-harness/agentic-harness-patterns-skill/docs-distillation-harness-practice) for the full story of how Codex and Claude Code collaborated, the PCA-inspired taste injection, and what worked (and didn't).
 
 The model loop is easy. `User -> LLM -> tool_use -> execute -> loop` fits on a napkin. What makes a production agent actually work — reliably, safely, at scale — is everything *around* the loop: memory that persists across sessions, permissions that fail closed, context budgets that don't explode, multi-agent coordination that doesn't collapse into chaos, and extensibility that doesn't become a security hole.
 
@@ -69,14 +69,14 @@ Engineers building or extending:
 | [skill-runtime-pattern](https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/skills/agentic-harness-patterns/references/skill-runtime-pattern.md) | Four-source discovery, YAML frontmatter contract, budget-constrained listing, graceful degradation |
 | [tool-registry-pattern](https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/skills/agentic-harness-patterns/references/tool-registry-pattern.md) | Fail-closed builder, per-call concurrency, partition-sort-concatenate for cache stability |
 | [permission-gate-pattern](https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/skills/agentic-harness-patterns/references/permission-gate-pattern.md) | Single gate, three behaviors, strict layered evaluation, atomic claim for race-safe resolution |
-| [agent-orchestration-pattern](https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/skills/agentic-harness-patterns/references/agent-orchestration-pattern.md) | Mutual exclusion of modes, fork cache optimization, flat swarm topology, tool filtering layers |
-| [context-engineering](https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/skills/agentic-harness-patterns/references/context-engineering-pattern.md) | Index: select / compress / isolate sub-pattern routing |
-| [select-pattern](https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/skills/agentic-harness-patterns/references/context-engineering/select-pattern.md) | Promise memoization, three-tier progressive disclosure, manual cache invalidation |
-| [compress-pattern](https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/skills/agentic-harness-patterns/references/context-engineering/compress-pattern.md) | Truncation with recovery pointers, reactive compaction, snapshot labeling |
-| [isolate-pattern](https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/skills/agentic-harness-patterns/references/context-engineering/isolate-pattern.md) | Zero-inheritance default, single-level fork boundary, worktree-based filesystem isolation |
-| [hook-lifecycle-pattern](https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/skills/agentic-harness-patterns/references/hook-lifecycle-pattern.md) | Single dispatch, all-or-nothing trust, six hook types, exit-code discipline |
+| [agent-orchestration-pattern](/lib/09-harness/agentic-harness-patterns-skill/skills-agentic-harness-patterns-references-agent-orchestration-pattern) | Mutual exclusion of modes, fork cache optimization, flat swarm topology, tool filtering layers |
+| [context-engineering](/lib/09-harness/agentic-harness-patterns-skill/skills-agentic-harness-patterns-references-context-engineering-pattern) | Index: select / compress / isolate sub-pattern routing |
+| [select-pattern](/lib/09-harness/agentic-harness-patterns-skill/skills-agentic-harness-patterns-references-context-engineering-select-pattern) | Promise memoization, three-tier progressive disclosure, manual cache invalidation |
+| [compress-pattern](/lib/09-harness/agentic-harness-patterns-skill/skills-agentic-harness-patterns-references-context-engineering-compress-pattern) | Truncation with recovery pointers, reactive compaction, snapshot labeling |
+| [isolate-pattern](/lib/09-harness/agentic-harness-patterns-skill/skills-agentic-harness-patterns-references-context-engineering-isolate-pattern) | Zero-inheritance default, single-level fork boundary, worktree-based filesystem isolation |
+| [hook-lifecycle-pattern](/lib/09-harness/agentic-harness-patterns-skill/skills-agentic-harness-patterns-references-hook-lifecycle-pattern) | Single dispatch, all-or-nothing trust, six hook types, exit-code discipline |
 | [task-decomposition-pattern](https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/skills/agentic-harness-patterns/references/task-decomposition-pattern.md) | Typed prefixed IDs, strict state machine, disk-backed output, two-phase eviction |
-| [bootstrap-sequence-pattern](https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/skills/agentic-harness-patterns/references/bootstrap-sequence-pattern.md) | Dependency-ordered init, trust-split env vars, memoized concurrent callers, fast-path dispatch |
+| [bootstrap-sequence-pattern](/lib/09-harness/agentic-harness-patterns-skill/skills-agentic-harness-patterns-references-bootstrap-sequence-pattern) | Dependency-ordered init, trust-split env vars, memoized concurrent callers, fast-path dispatch |
 
 ## How This Was Built
 
@@ -89,7 +89,7 @@ Engineers building or extending:
 4. **Abstraction uplift** — Implementation details pushed into "Evidence" sections; principles generalized to be runtime-portable
 5. **UX audit** — Discoverability, audience fit, and principle-to-action gap reviewed from user perspective
 
-For the full story — how Codex and Claude Code collaborated, the handoff protocol, what worked and what didn't — see **[Distillation Process](https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/docs/distillation-harness-practice.md)**.
+For the full story — how Codex and Claude Code collaborated, the handoff protocol, what worked and what didn't — see **[Distillation Process](/lib/09-harness/agentic-harness-patterns-skill/docs-distillation-harness-practice)**.
 
 ## Installation
 
@@ -100,7 +100,9 @@ For the full story — how Codex and Claude Code collaborated, the handoff proto
 npx skills add github:keli-wen/agentic-harness-patterns-skill
 ```
 
-**Just reading:** Open [SKILL.md](https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/skills/agentic-harness-patterns/SKILL.md) (EN) or [SKILL.md](https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/skills/agentic-harness-patterns-zh/SKILL.md) (ZH).
+  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/keli-wen/agentic-harness-patterns-skill/17549f55b84a94b1ff647ae4711be600fe8ae12f/images/skill-install-screenshot.png" alt="npx skills add screenshot" width="720">
+
+**Just reading:** Open [SKILL.md](https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/skills/agentic-harness-patterns/SKILL.md) (EN) or [SKILL.md](/lib/09-harness/agentic-harness-patterns-skill/skills-agentic-harness-patterns-zh-SKILL) (ZH).
 
 ## Project Structure
 
