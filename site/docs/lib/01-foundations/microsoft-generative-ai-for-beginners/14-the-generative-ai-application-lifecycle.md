@@ -33,7 +33,7 @@ LLMs are a new tool in the Artificial Intelligence arsenal, they are incredibly 
 
 With this, we need a new Paradigm to adapt this tool in a dynamic, with the correct incentives. We can categorize older AI apps as "ML Apps" and newer AI Apps as "GenAI Apps" or just "AI Apps", reflecting the mainstream technology and techniques used at the time. This shifts our narrative in multiple ways, look at the following comparison.
 
-![LLMOps vs. MLOps comparison](/mirror/6d/6d662a1011835e030f4853e93ab5b52de6fd4045.png)
+![LLMOps vs. MLOps comparison](/mirror/6d/6d662a1011835e030f4853e93ab5b52de6fd4045.webp)
 
 Notice that in LLMOps, we are more focused on the App Developers, using integrations as a key point, using "Models-as-a-Service" and thinking in the following points for metrics.
 
@@ -47,7 +47,7 @@ Notice that in LLMOps, we are more focused on the App Developers, using integrat
 
 First, to understand the lifecycle and the modifications, let's note the next infographic.
 
-![LLMOps infographic](/mirror/1c/1c08c888bfa45133422e063e4232e89f79349858.png)
+![LLMOps infographic](/mirror/1c/1c08c888bfa45133422e063e4232e89f79349858.webp)
 
 As you may note, this is different from the usual Lifecycles from MLOps. LLMs have many new requirements, as Prompting, different techniques to improve quality (Fine-Tuning, RAG, Meta-Prompts), different assessment and responsibility with responsible AI, lastly, new evaluation metrics (Quality, Harm, Honesty, Cost and Latency).
 
@@ -57,7 +57,7 @@ Note that this is not linear, but integrated loops, iterative and with an overar
 
 How could we explore those steps? Let's step into detail in how could we build a lifecycle.
 
-![LLMOps Workflow](/mirror/1b/1bbdd2cce04bf87c2a90b60f250e1074f2d91a48.png)
+![LLMOps Workflow](/mirror/1b/1bbdd2cce04bf87c2a90b60f250e1074f2d91a48.webp)
 
 This may look a bit complicated, lets focus on the three big steps first.
 
@@ -77,11 +77,11 @@ For Tooling, Microsoft provides the [Azure AI Platform](https://azure.microsoft.
 
 The [Azure AI Platform](https://azure.microsoft.com/solutions/ai/?WT.mc_id=academic-105485-koreyst), allows you to use [Microsoft Foundry](https://ai.azure.com/?WT.mc_id=academic-105485-koreyst). Microsoft Foundry (formerly Azure AI Studio) is a web portal that lets you explore models, samples and tools, manage your resources, and use UI development flows as well as SDK/CLI options for Code-First development.
 
-![Azure AI possibilities](/mirror/8e/8eeb4daded51eea46b22c4a4c64d4c5f558291bd.png)
+![Azure AI possibilities](/mirror/8e/8eeb4daded51eea46b22c4a4c64d4c5f558291bd.webp)
 
 Azure AI, allows you to use multiple resources, to manage your operations, services, projects, vector search and databases needs.
 
-![LLMOps with Azure AI](/mirror/7b/7bb25d217aed2821f3393b6c11e0fc56ff3d9a7f.png)
+![LLMOps with Azure AI](/mirror/7b/7bb25d217aed2821f3393b6c11e0fc56ff3d9a7f.webp)
 
 Construct, from Proof-of-Concept(POC) until large scale applications with PromptFlow:
 
@@ -89,7 +89,7 @@ Construct, from Proof-of-Concept(POC) until large scale applications with Prompt
 - Test and fine-tune your apps for quality AI, with ease.
 - Use Microsoft Foundry to Integrate and Iterate with cloud, Push and Deploy for quick integration.
 
-![LLMOps with PromptFlow](/mirror/2f/2f7f5c2a664b4b6eba33314d83edbfcf5d53233f.png)
+![LLMOps with PromptFlow](/mirror/2f/2f7f5c2a664b4b6eba33314d83edbfcf5d53233f.webp)
 
 ## Great! Continue your Learning!
 

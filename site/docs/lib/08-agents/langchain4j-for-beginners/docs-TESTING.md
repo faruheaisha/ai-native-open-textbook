@@ -42,7 +42,7 @@ mvn --% test
 
 When all tests pass, you should see output like the screenshot below — tests run with zero failures.
 
-<img src="/mirror/a0/a0d76d22e2852e9cabd739faa794a845447d3407.png" alt="Successful Test Results" width="800"/>
+<img src="/mirror/a0/a0d76d22e2852e9cabd739faa794a845447d3407.webp" alt="Successful Test Results" width="800"/>
 
 *Successful test execution showing all tests passing with zero failures*
 
@@ -50,7 +50,7 @@ When all tests pass, you should see output like the screenshot below — tests r
 
 This course focuses on **unit tests** that run locally. Each test demonstrates a specific LangChain4j concept in isolation. The testing pyramid below shows where unit tests fit — they form the fast, reliable foundation that the rest of your test strategy builds on.
 
-<img src="/mirror/e3/e31092a64faf0218562afe39e50ce5723352a15a.png" alt="Testing Pyramid" width="800"/>
+<img src="/mirror/e3/e31092a64faf0218562afe39e50ce5723352a15a.webp" alt="Testing Pyramid" width="800"/>
 
 *Testing pyramid showing the balance between unit tests (fast, isolated), integration tests (real components), and end-to-end tests. This training covers unit testing.*
 
@@ -120,7 +120,7 @@ mvn --% test -Dtest=SimpleConversationTest#shouldMaintainConversationHistory
 
 If you're using Visual Studio Code, the Test Explorer provides a graphical interface for running and debugging tests.
 
-<img src="/mirror/15/15f29d3f210177eeac715fe57d545c7b6ba72691.png" alt="VS Code Test Explorer" width="800"/>
+<img src="/mirror/15/15f29d3f210177eeac715fe57d545c7b6ba72691.webp" alt="VS Code Test Explorer" width="800"/>
 
 *VS Code Test Explorer showing the test tree with all Java test classes and individual test methods*
 
@@ -140,7 +140,7 @@ The Test Explorer shows green checkmarks for passing tests and provides detailed
 
 The simplest pattern tests prompt templates without calling any AI model. You verify that variable substitution works correctly and prompts are formatted as expected.
 
-<img src="/mirror/d7/d738cf4804ea1c2f675c995ae08a6788b9a0adc1.png" alt="Prompt Template Testing" width="800"/>
+<img src="/mirror/d7/d738cf4804ea1c2f675c995ae08a6788b9a0adc1.webp" alt="Prompt Template Testing" width="800"/>
 
 *Testing prompt templates showing variable substitution flow: template with placeholders → values applied → formatted output verified*
 
@@ -167,7 +167,7 @@ This pattern verifies that variable substitution works correctly and prompts are
 
 When testing conversation logic, use Mockito to create fake models that return predetermined responses. This makes tests fast, free, and deterministic.
 
-<img src="/mirror/ae/ae51cb63e1a68118c242405b1d5391e11d044cbf.png" alt="Mock vs Real API Comparison" width="800"/>
+<img src="/mirror/ae/ae51cb63e1a68118c242405b1d5391e11d044cbf.webp" alt="Mock vs Real API Comparison" width="800"/>
 
 *Comparison showing why mocks are preferred for testing: they're fast, free, deterministic, and require no API keys*
 
@@ -225,7 +225,7 @@ This pattern appears in `01-introduction/src/test/java/com/example/langchain4j/s
 
 Conversation memory must keep multiple users separate. This test verifies that conversations don't mix contexts.
 
-<img src="/mirror/e9/e90422334483acbfea641344ae319d90c79bedae.png" alt="Conversation Isolation" width="800"/>
+<img src="/mirror/e9/e90422334483acbfea641344ae319d90c79bedae.webp" alt="Conversation Isolation" width="800"/>
 
 *Testing conversation isolation showing separate memory stores for different users to prevent context mixing*
 
@@ -257,7 +257,7 @@ Each conversation maintains its own independent history. In production systems, 
 
 Tools are functions the AI can call. Test them directly to ensure they work correctly regardless of AI decisions.
 
-<img src="/mirror/48/48651d0eec162b17ac072017fdf70a548e64f05d.png" alt="Tools Testing" width="800"/>
+<img src="/mirror/48/48651d0eec162b17ac072017fdf70a548e64f05d.webp" alt="Tools Testing" width="800"/>
 
 *Testing tools independently showing mock tool execution without AI calls to verify business logic*
 
@@ -288,7 +288,7 @@ These tests from `04-tools/src/test/java/com/example/langchain4j/agents/tools/Si
 
 RAG systems traditionally require vector databases and embedding services. The in-memory pattern lets you test the entire pipeline without external dependencies.
 
-<img src="/mirror/97/979ca09aa4e330a90ce870660227b61fd780a062.png" alt="In-Memory RAG Testing" width="800"/>
+<img src="/mirror/97/979ca09aa4e330a90ce870660227b61fd780a062.webp" alt="In-Memory RAG Testing" width="800"/>
 
 *In-memory RAG testing workflow showing document parsing, embedding storage, and similarity search without requiring a database*
 

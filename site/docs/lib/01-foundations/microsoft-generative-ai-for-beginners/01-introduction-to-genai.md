@@ -14,7 +14,7 @@ zh: "on"
 
 # Introduction to Generative AI and Large Language Models
 
-[![Introduction to Generative AI and Large Language Models](/mirror/df/df3e5ff58e4f1e16263e54c37fb88423f14d71b2.png)](https://youtu.be/lFXQkBvEe0o?si=6ZBcQTwLJJDpnX0K)
+[![Introduction to Generative AI and Large Language Models](/mirror/df/df3e5ff58e4f1e16263e54c37fb88423f14d71b2.webp)](https://youtu.be/lFXQkBvEe0o?si=6ZBcQTwLJJDpnX0K)
 
 <div class="tb-zh"><p>本课视频封面（可点击跳转）：Introduction to Generative AI and Large Language Models。</p></div>
 
@@ -72,7 +72,7 @@ Generative AI is expected to revolutionize the way we learn and teach today, wit
 
 <div class="tb-zh"><p>生成式 AI 有望彻底改变今天的学习与教学方式：学生身边随时有一位 24 小时在线的虚拟老师，提供海量信息与示例；教师也能借助创新工具评估学生并给出反馈。</p></div>
 
-![Five young students looking at a monitor - image by DALLE2](/mirror/1e/1e4888695e19e11bf2fa58f7ba7f4a0490ca995f.png)
+![Five young students looking at a monitor - image by DALLE2](/mirror/1e/1e4888695e19e11bf2fa58f7ba7f4a0490ca995f.webp)
 
 To start, let’s define some basic concepts and terminology we’ll be using throughout the curriculum.
 
@@ -115,7 +115,7 @@ So that’s how we came to Generative AI today, which can be seen as a subset of
 
 <div class="tb-zh"><p>于是就走到今天生成式 AI 这一步，它可以看作是深度学习的一个子集。</p></div>
 
-![AI, ML, DL and Generative AI](/mirror/b1/b1c16105266411cff42050aa296195eca19c63c4.png)
+![AI, ML, DL and Generative AI](/mirror/b1/b1c16105266411cff42050aa296195eca19c63c4.webp)
 
 After decades of research in the AI field, a new model architecture – called _Transformer_ – overcame the limits of RNNs, being able to get much longer sequences of text as input. Transformers are based on the attention mechanism, enabling the model to give different weights to the inputs it receives, ‘paying more attention’ where the most relevant information is concentrated, regardless of their order in the text sequence.
 
@@ -135,7 +135,7 @@ In the next chapter we are going to explore different types of Generative AI mod
 
 <div class="tb-zh"><p>分词器（tokenizer）：把文本变成数字。大语言模型以文本为输入、以文本为输出，但作为统计模型，它们处理数字远好于处理文本序列。因此每个输入在进入核心模型之前，都会先经过分词器处理。token 是文本的一个片段，字符数可多可少；分词器的主要任务就是把输入切分成一个 token 数组。随后每个 token 会映射到一个 token 索引，也就是该文本片段的整数编码。</p></div>
 
-![Example of tokenization](/mirror/3b/3b36eea62cb19851a4205e0a2d135f7d9f5011ac.png)
+![Example of tokenization](/mirror/3b/3b36eea62cb19851a4205e0a2d135f7d9f5011ac.webp)
 
 - **Predicting output tokens**: Given n tokens as input (with max n varying from one model to another), the model is able to predict one token as output. This token is then incorporated into the input of the next iteration, in an expanding window pattern, enabling a better user experience of getting one (or multiple) sentence as an answer. This explains why, if you ever played with ChatGPT, you might have noticed that sometimes it looks like it stops in the middle of a sentence.
 
@@ -165,31 +165,31 @@ The input of a large language model is known as a prompt, while the output is kn
 
 <div class="tb-zh"><p>1. 对文章、书籍、产品评论等做摘要，并从非结构化数据中提取要点。</p></div>
 
-    ![Example of summarization](/mirror/19/19745eaf2e55498bec11bcf60dcc736bbf012053.png)
+    ![Example of summarization](/mirror/19/19745eaf2e55498bec11bcf60dcc736bbf012053.webp)
 
   2. Creative ideation and design of an article, an essay, an assignment or more.
 
 <div class="tb-zh"><p>2. 为文章、论文、作业等做创意构思与设计。</p></div>
 
-     ![Example of creative writing](/mirror/af/afc25e30e90a75c3137b86a592c04b2865980d7c.png)
+     ![Example of creative writing](/mirror/af/afc25e30e90a75c3137b86a592c04b2865980d7c.webp)
 
 - A **question**, asked in the form of a conversation with an agent.
 
 <div class="tb-zh"><p>一个 question（问题），以与智能体对话的形式提出。</p></div>
 
-  ![Example of conversation](/mirror/14/146f47d10ab34a9481fcb03614f630154ce7e8fc.png)
+  ![Example of conversation](/mirror/14/146f47d10ab34a9481fcb03614f630154ce7e8fc.webp)
 
 - A chunk of **text to complete**, which implicitly is an ask for writing assistance.
 
 <div class="tb-zh"><p>一段待补全的 text（文本），隐含的请求是写作协助。</p></div>
 
-  ![Example of text completion](/mirror/90/90b283a9ae83179843cb891a39db0682bb6f12c8.png)
+  ![Example of text completion](/mirror/90/90b283a9ae83179843cb891a39db0682bb6f12c8.webp)
 
 - A chunk of **code** together with the ask of explaining and documenting it, or a comment asking to generate a piece of code performing a specific task.
 
 <div class="tb-zh"><p>一段代码，并要求解释和补充文档；或者一条注释，要求生成完成某个特定任务的代码。</p></div>
 
-  ![Coding example](/mirror/a1/a1576deb4eebf37d3fce01c5eeea63bb7d620aaf.png)
+  ![Coding example](/mirror/a1/a1576deb4eebf37d3fce01c5eeea63bb7d620aaf.webp)
 
 The examples above are quite simple and are not intended to be an exhaustive demonstration of Large Language Models' capabilities. They are meant to show the potential of using generative AI, in particular but not limited to educational contexts.
 

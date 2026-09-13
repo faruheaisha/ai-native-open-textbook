@@ -14,7 +14,7 @@ zh: ""
 
 # Agent Skill Index
 
-[![Agent Skill Index Banner](/mirror/f8/f8d60be91ac76a5c0eb15e47c3d5edae70162933.png)](https://agent-skill.co)
+[![Agent Skill Index Banner](/mirror/f8/f8d60be91ac76a5c0eb15e47c3d5edae70162933.webp)](https://agent-skill.co)
 
 > 🌐 在 **[agent-skill.co](https://agent-skill.co)** 瀏覽即時目錄
 

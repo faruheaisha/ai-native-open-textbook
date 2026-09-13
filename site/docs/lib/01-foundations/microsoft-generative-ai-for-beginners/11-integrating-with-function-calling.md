@@ -14,7 +14,7 @@ zh: ""
 
 # Integrating with function calling
 
-[![Integrating with function calling](/mirror/82/82788f7a435e7ee32a1f73b254a0bcab676cd496.png)](https://youtu.be/DgUdCLX8qYQ?si=f1ouQU5HQx6F8Gl2)
+[![Integrating with function calling](/mirror/82/82788f7a435e7ee32a1f73b254a0bcab676cd496.webp)](https://youtu.be/DgUdCLX8qYQ?si=f1ouQU5HQx6F8Gl2)
 
 You've learned a fair bit so far in the previous lessons. However, we can improve further. Some things we can address are how we can get a more consistent response format to make it easier to work with the response downstream. Also, we might want to add data from other sources to further enrich our application.
 

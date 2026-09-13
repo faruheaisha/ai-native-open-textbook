@@ -31,7 +31,7 @@ A comprehensive Jupyter notebook that guides students through:
    - Understanding how Docker containers communicate
    - Data persistence and volume management concepts
 
-  <img src="/mirror/a8/a86b7477b786218e1cfed24d94d2e30ed4c4fb4a.png" alt="Week 1 Infrastructure Setup" width="700">
+  <img src="/mirror/a8/a86b7477b786218e1cfed24d94d2e30ed4c4fb4a.webp" alt="Week 1 Infrastructure Setup" width="700">
 
 **Architecture Overview:**
 - **FastAPI** (Port 8000): REST API with async support and automatic documentation

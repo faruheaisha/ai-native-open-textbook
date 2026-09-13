@@ -25,7 +25,7 @@ zh: "on"
 
 <a href="#time-orchestration"><img src="/mirror/40/40ff976a740fb4fcf55255dbc78bf034992e082b.svg" alt="Implemented"></a>
 
-  <img src="/mirror/15/15c5c5317ad9b02e8299ab7c539205ea766833af.png" alt="Agent Teams in action — split pane mode with tmux" width="100%">
+  <img src="/mirror/15/15c5c5317ad9b02e8299ab7c539205ea766833af.webp" alt="Agent Teams in action — split pane mode with tmux" width="100%">
 
 Agent Teams spawn **multiple independent Claude Code sessions** that coordinate via a shared task list. Unlike subagents (isolated context forks within one session), each teammate gets its own full context window with CLAUDE.md, MCP servers, and skills loaded automatically.
 

@@ -16,7 +16,7 @@ zh: ""
 
 import { Callout } from 'nextra/components'
 
-![AI Workflows vs. AI Agents](/mirror/8b/8bd2c2461b8690b081d6c2a000e1a50e55b321c6.png)
+![AI Workflows vs. AI Agents](/mirror/8b/8bd2c2461b8690b081d6c2a000e1a50e55b321c6.webp)
 
 Agentic systems represent a paradigm shift in how we orchestrate Large Language Models (LLMs) and tools to accomplish complex tasks. This guide explores the fundamental distinction between **AI workflows** and **AI Agents**, helping you understand when to use each approach in your AI applications.
 
@@ -78,7 +78,7 @@ Prompt chaining involves breaking down a complex task into sequential LLM calls,
 
 **Example: Document Generation Workflow**
 
-![Prompt Chaining](/mirror/06/060ce6aa52c2ab5293099a09ffe2f837cd95a841.png)
+![Prompt Chaining](/mirror/06/060ce6aa52c2ab5293099a09ffe2f837cd95a841.webp)
 
 This workflow demonstrates a prompt chaining pattern for document generation that begins when a chat message is received. The system first uses GPT-4.1-mini to generate an initial outline, then checks the outline against predefined criteria. A manual "Set Grade" step evaluates the quality, followed by a conditional "If" node that determines the next action based on the grade. If the outline passes validation, it proceeds to expand the outline sections using GPT-4o and then refines and polishes the final document. If the outline fails validation, the workflow branches to an "Edit Fields" step for manual adjustments before continuing, ensuring quality control throughout the multi-stage document creation process.
 
@@ -93,7 +93,7 @@ Routing directs different requests to specialized LLM chains or agents based on 
 
 **Example: Customer Support Router**
 
-![Routing](/mirror/c5/c5514cd91f3a4af7ba340dc7543cb1771cd71f50.png)
+![Routing](/mirror/c5/c5514cd91f3a4af7ba340dc7543cb1771cd71f50.webp)
 
 This workflow illustrates a routing pattern for intelligent query distribution in a customer support system. When a chat message is received, it's first processed by a Query Classifier using GPT-4.1-mini along with a Structured Output Parser to categorize the request type. Based on the classification, a "Route by Type" switch directs the query to one of three specialized LLM chains: a General LLM Chain for basic inquiries, a Refund LLM Chain for payment-related issues, or a Support LLM Chain for technical assistance. Each query type receives specialized handling while maintaining a unified response system, optimizing both accuracy and efficiency in customer service operations.
 
@@ -114,7 +114,7 @@ Parallelization executes multiple independent LLM operations simultaneously to i
 
 **Example: Content Safety Pipeline**
 
-![Parallelization](/mirror/38/38b80d9a4ba9e9bd57975bf8a52bb3d9bae1eb35.png)
+![Parallelization](/mirror/38/38b80d9a4ba9e9bd57975bf8a52bb3d9bae1eb35.webp)
 
 **Parallelization Use Cases:**
 - Content moderation systems
@@ -135,7 +135,7 @@ AI agents combine LLMs with autonomous decision-making capabilities, enabling th
 
 **Scenario**: User asks "Add a meeting with John tomorrow at 2 PM"
 
-![Task Planning Agent](/mirror/8b/8bd2c2461b8690b081d6c2a000e1a50e55b321c6.png)
+![Task Planning Agent](/mirror/8b/8bd2c2461b8690b081d6c2a000e1a50e55b321c6.webp)
 
 This workflow demonstrates an autonomous Task Planner agent that showcases agent behavior with dynamic decision-making capabilities. When a chat message is received, it's routed to a Task Planner agent that has access to three key components: a Chat Model (Reasoning LLM) for understanding and planning, a Memory system for maintaining context across interactions, and a Tool collection. The agent can autonomously select from multiple tools including add_update_tasks (to append or update tasks in a Google Sheet) and search_task (to read and search existing tasks from the sheet). Unlike predefined workflows, the agent independently determines which tools to use, when to use them, and in what sequence based on the user's request, exemplifying the flexibility and autonomy that distinguishes AI agents from traditional AI workflows.
 

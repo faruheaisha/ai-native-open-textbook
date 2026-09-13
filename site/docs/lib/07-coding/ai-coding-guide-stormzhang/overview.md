@@ -24,7 +24,7 @@ zh: ""
 
 同时提供：[Claude Code 中文教程](https://coding.stormzhang.ai/claude-code/)
 
-![AI 编程指南](/mirror/d1/d12d3cfdc7223d4225fb1fca9fae31ec0670b6c5.png)
+![AI 编程指南](/mirror/d1/d12d3cfdc7223d4225fb1fca9fae31ec0670b6c5.webp)
 
 ## 这教程跟其他教程的差异
 

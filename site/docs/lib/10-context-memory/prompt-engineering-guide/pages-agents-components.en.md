@@ -18,7 +18,7 @@ import { Callout } from 'nextra/components'
 
 AI agents require three fundamental capabilities to effectively tackle complex tasks: planning abilities, tool utilization, and memory management. Let's dive into how these components work together to create functional AI agents.
 
-![Agent Components](/mirror/f4/f488df9f8f2366fe0cb85863fc945f33e9a47a77.png)
+![Agent Components](/mirror/f4/f488df9f8f2366fe0cb85863fc945f33e9a47a77.webp)
 
 ## Planning: The Brain of the Agent
 

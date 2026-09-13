@@ -45,7 +45,7 @@ past decision was made under a version of the prompt nobody recorded.
 
 Claude runs in exactly two places, and neither one decides the verdict:
 
-![Architecture: authoring compiles policy prose into a validated, versioned ruleset; runtime extracts typed fields from each submission and a pure-function rule engine produces the verdict](/mirror/82/820a37e4bc22909f2bd21903745d11c2e8f805d2.png)
+![Architecture: authoring compiles policy prose into a validated, versioned ruleset; runtime extracts typed fields from each submission and a pure-function rule engine produces the verdict](/mirror/82/820a37e4bc22909f2bd21903745d11c2e8f805d2.webp)
 
 - The **compiler** turns each policy clause into rules over a field schema you define.
   A static validator checks every rule against the schema and sends problems back to

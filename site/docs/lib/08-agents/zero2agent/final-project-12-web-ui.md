@@ -121,7 +121,7 @@ flowchart TB
 
 ### 首页 `/`
 
-![首页线框图](/mirror/2b/2bfa4edd8e1addc95b29a72671287defee1c84fb.png)
+![首页线框图](/mirror/2b/2bfa4edd8e1addc95b29a72671287defee1c84fb.webp)
 
 ### 诊断主页面 `/diagnose`
 
@@ -129,29 +129,29 @@ flowchart TB
 
 #### 阶段 1：输入
 
-![诊断输入页](/mirror/b8/b8cc192bec6ff620afeba48e53e41dabc540e7ec.png)
+![诊断输入页](/mirror/b8/b8cc192bec6ff620afeba48e53e41dabc540e7ec.webp)
 
 #### 阶段 2：实时诊断（SSE 流式更新）
 
-![实时诊断页](/mirror/b6/b6834a246e8ea31a26e422bd50b12691b2bee613.png)
+![实时诊断页](/mirror/b6/b6834a246e8ea31a26e422bd50b12691b2bee613.webp)
 
 #### 阶段 3：报告
 
-![诊断报告页](/mirror/7c/7c533cdab64ac73d4af18c11f5f3648069f2994d.png)
+![诊断报告页](/mirror/7c/7c533cdab64ac73d4af18c11f5f3648069f2994d.webp)
 
 ### 录音诊断 `/diagnose?mode=audio`
 
 独特组件：
 
-![录音诊断页](/mirror/47/47ff622a5f4152fe6b0d2fc616dc22a2b04d1be1.png)
+![录音诊断页](/mirror/47/47ff622a5f4152fe6b0d2fc616dc22a2b04d1be1.webp)
 
 诊断报告中的语音维度展示：
 
-![语音分析组件](/mirror/7d/7d0a50737541f4cc77b2959ce8b2e2244524cbc4.png)
+![语音分析组件](/mirror/7d/7d0a50737541f4cc77b2959ce8b2e2244524cbc4.webp)
 
 ### 模拟面试 `/mock`
 
-![模拟面试页](/mirror/d1/d13e79bbee6ef639f81018c7dcef428417f3575f.png)
+![模拟面试页](/mirror/d1/d13e79bbee6ef639f81018c7dcef428417f3575f.webp)
 
 ## 组件设计
 

@@ -56,7 +56,7 @@ mkdir -p "$LABDIR/.workbuddy/skills/demo-probe"
 
 实践中最常见的错误是拿规则当技能写：把一大段「如何做 X」塞进规则文件，结果每次请求都背着这段负重，模型反而抓不住重点。判断标准一句话：**「永远适用」进规则，「有时适用」进技能**。
 
-![技能（按需）与规则（常驻）两条定制通道](https://gh-proxy.com/https://raw.githubusercontent.com/zjp1997720/zhijian-ai-bluebook-workbuddy-harness/6ac68cd42a01add16568d1ab9cf2399822467fad/workbuddy-harness/fig-12.png)
+![技能（按需）与规则（常驻）两条定制通道](/workbuddy-harness/fig-12.webp)
 
 *图 9-1：技能（按需）与规则（常驻）两条定制通道。*
 

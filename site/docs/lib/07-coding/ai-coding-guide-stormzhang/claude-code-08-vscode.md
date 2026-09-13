@@ -65,7 +65,7 @@ zh: ""
 
 在 VS Code 里按 `Cmd+Shift+X`（Mac）或 `Ctrl+Shift+X`（Windows/Linux）打开扩展视图，搜索 `Claude Code`，点**安装**。
 
-![VS Code 扩展市场搜 Claude Code，认准 Anthropic 官方扩展](/mirror/3c/3c31b0e44f66e85462592d38d64617251b6274ed.png)
+![VS Code 扩展市场搜 Claude Code，认准 Anthropic 官方扩展](/mirror/3c/3c31b0e44f66e85462592d38d64617251b6274ed.webp)
 
 上图是扩展视图里搜 `Claude Code` 的样子：红框那条「Claude Code for VS Code」、发布者带蓝色认证勾的 **Anthropic** 才是官方，认准它点进去装。
 
@@ -85,7 +85,7 @@ zh: ""
 
 这就是开头那个坑。装好后扩展默认不弹窗，得自己把面板叫出来。**最快的方式：先打开一个具体文件，再点编辑器右上角工具栏里的 Spark 图标**（一个像火花的小图标）。
 
-![VS Code 里三个打开 Claude 面板的入口位置](/mirror/f1/f1e7e6db636e2bc8a68711a0937d33c9a434aaa1.png)
+![VS Code 里三个打开 Claude 面板的入口位置](/mirror/f1/f1e7e6db636e2bc8a68711a0937d33c9a434aaa1.webp)
 
 上图把三个入口的位置都标了出来：编辑器右上角的 Spark 图标（②，最快但只在开着文件时才出现）、活动栏的 Spark（①，一直都在）、状态栏的 ✱ Claude Code（③，没开文件也能点）。
 
@@ -171,7 +171,7 @@ zh: ""
 
 计划模式在 VS Code 里有个终端给不了的待遇：**Claude 会把计划自动作为一份完整的 Markdown 文档打开，你能在上面加内联批注**。不用笼统回一句「第二步不对」，而是直接在「第二步」那行旁边写「这里别动数据库，先加缓存」，它开工前就把你的意见吸收进去——比口头返工精确得多。
 
-![VS Code 里 Plan Mode 打开的 Markdown 计划文档，某步旁有内联批注](/mirror/42/42298d2bf44b204e43b66553a8df16f3ff7ec315.png)
+![VS Code 里 Plan Mode 打开的 Markdown 计划文档，某步旁有内联批注](/mirror/42/42298d2bf44b204e43b66553a8df16f3ff7ec315.webp)
 
 上图是计划模式打开的 Markdown 计划文档：Claude 把每一步列出来，你在「第 2 步」那行旁边写下内联批注（「别动数据库，先加内存缓存」），它批准开工前就把这条意见吸收进去。
 

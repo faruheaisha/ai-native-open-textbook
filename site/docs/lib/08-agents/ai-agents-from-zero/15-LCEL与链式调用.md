@@ -53,7 +53,7 @@ zh: ""
 
 既然它们都属于“可执行组件”这一大类，那么就应该尽量遵守同一套调用协议。所以这一节你不用死记 `ABC`、`abstractmethod` 这些 Python 细节，只要先抓住一句话：**抽象基类解决的是“先把共同规则定下来”，而 Runnable 正是 LangChain 用来统一这些规则的关键抽象。**
 
-![`langchain_core.runnables.base` 中 Runnable 的类定义与职责说明：可 invoke、batch、stream 并支持组合](/mirror/74/742905ce5d8f40970b7468512f4b8b760f969ef8.jpeg)
+![`langchain_core.runnables.base` 中 Runnable 的类定义与职责说明：可 invoke、batch、stream 并支持组合](/mirror/74/742905ce5d8f40970b7468512f4b8b760f969ef8.webp)
 
 > **图意说明**：上图截自 LangChain 参考文档。`Runnable` 声明为 `class Runnable(ABC, Generic[Input, Output])`，描述的是“可被调用、批量处理、流式输出、变换与组合”的工作单元；`invoke`/`ainvoke`、`batch`/`abatch`、`stream`/`astream` 等成对出现，`astream_log` 还可流式透出部分中间结果。各方法均可传入 `config`（如标签、元数据）便于追踪与排障；输入/输出/config 的结构信息可通过 `input_schema`、`output_schema`、`config_schema` 等暴露给工具链与 IDE。
 

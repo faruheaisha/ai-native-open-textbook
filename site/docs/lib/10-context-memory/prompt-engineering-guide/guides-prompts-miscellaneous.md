@@ -34,7 +34,7 @@ Chain-of-thought (CoT) methods rely on a fixed set of human-annotated exemplars.
 
 Below is an illustration of the approach. The first step is to query the LLM with or without a few CoT examples. *k* possible answers are generated for a set of training questions. An uncertainty metric is calculated based on the *k* answers (disagreement used). The most uncertain questions are selected for annotation by humans. The new annotated exemplars are then used to infer each question. 
 
-![](/mirror/87/87e3c5f50eb83671795ceba970b9b8051974ba61.png)
+![](/mirror/87/87e3c5f50eb83671795ceba970b9b8051974ba61.webp)
 
 ---
 ## Directional Stimulus Prompting
@@ -44,7 +44,7 @@ A tuneable policy LM is trained to generate the stimulus/hint. Seeing more use o
 
 The figure below shows how Directional Stimulus Prompting compares with standard prompting. The policy LM can be small and optimized to generate the hints that guide a black-box frozen LLM.
 
-![](/mirror/2e/2e29171755246a4c65f3e8635b313217d8bda802.jpeg)
+![](/mirror/2e/2e29171755246a4c65f3e8635b313217d8bda802.webp)
 
 Full example coming soon!
 
@@ -55,7 +55,7 @@ Full example coming soon!
 
 The ReAct framework can allow LLMs to interact with external tools to retrieve additional information that leads to more reliable and factual responses.
 
-![](/mirror/7f/7fc959038b9d5ea9923e2718814d40b860c8c41e.png)
+![](/mirror/7f/7fc959038b9d5ea9923e2718814d40b860c8c41e.webp)
 
 Full example coming soon!
 
@@ -66,7 +66,7 @@ Full example coming soon!
 
 The multimodal CoT model (1B) outperforms GPT-3.5 on the ScienceQA benchmark.
 
-![](/mirror/5f/5ff28d5b8f66b70bd389282ad6e53b7e92dacffe.png)
+![](/mirror/5f/5ff28d5b8f66b70bd389282ad6e53b7e92dacffe.webp)
 
 Further reading:
 - [Language Is Not All You Need: Aligning Perception with Language Models](https://arxiv.org/abs/2302.14045) (Feb 2023)

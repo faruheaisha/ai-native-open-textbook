@@ -29,29 +29,29 @@ Works with Claude, Gemini, GPT, DeepSeek, Llama, Qwen and other open-source mode
 <table>
   <tr>
     <td width="33.3%" align="center">
-      <a href="https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/agent_skills/project-graveyard/README.md"><img src="/mirror/7e/7ecdd4633ce4edb133f6e886d0298066d58a9843.png" alt="Project Graveyard: an agent that autopsies your dead side projects"></a>
+      <a href="https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/agent_skills/project-graveyard/README.md"><img src="/mirror/7e/7ecdd4633ce4edb133f6e886d0298066d58a9843.webp" alt="Project Graveyard: an agent that autopsies your dead side projects"></a>
       <sub><b>Project Graveyard</b></sub>
     </td>
     <td width="33.3%" align="center">
-      <a href="https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/voice_ai_agents/insurance_claim_live_agent_team/README.md"><img src="/mirror/18/1842a0930f62d9916b2540b6f2b80ad5ae18128a.png" alt="Insurance Claim Live Agent Team: voice claims settled in real time"></a>
+      <a href="https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/voice_ai_agents/insurance_claim_live_agent_team/README.md"><img src="/mirror/18/1842a0930f62d9916b2540b6f2b80ad5ae18128a.webp" alt="Insurance Claim Live Agent Team: voice claims settled in real time"></a>
       <sub><b>Insurance Claim Live Agent Team</b></sub>
     </td>
     <td width="33.3%" align="center">
-      <a href="https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/single_agent_apps/ai_fraud_investigation_agent/README.md"><img src="/mirror/dc/dc13147aeaf561bc3027749e4ad1fbed54810643.png" alt="AI Fraud Investigation Agent: public records, cross-examined"></a>
+      <a href="https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/single_agent_apps/ai_fraud_investigation_agent/README.md"><img src="/mirror/dc/dc13147aeaf561bc3027749e4ad1fbed54810643.webp" alt="AI Fraud Investigation Agent: public records, cross-examined"></a>
       <sub><b>AI Fraud Investigation Agent</b></sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/agent_skills/self-improving-agent-skills/README.md"><img src="/mirror/ba/ba3d835574f004e3366b644b5a80930a2f063451.png" alt="Self-Improving Agent Skills: skills that rewrite themselves against evals"></a>
+      <a href="https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/agent_skills/self-improving-agent-skills/README.md"><img src="/mirror/ba/ba3d835574f004e3366b644b5a80930a2f063451.webp" alt="Self-Improving Agent Skills: skills that rewrite themselves against evals"></a>
       <sub><b>Self-Improving Agent Skills</b></sub>
     </td>
     <td align="center">
-      <a href="https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/multi_agent_apps/ai_home_renovation_agent/README.md"><img src="/mirror/2e/2e2be1619890b6c8e1e15b0c1f59076542ea3961.png" alt="AI Home Renovation Agent: photo in, photoreal redesign out"></a>
+      <a href="https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/multi_agent_apps/ai_home_renovation_agent/README.md"><img src="/mirror/2e/2e2be1619890b6c8e1e15b0c1f59076542ea3961.webp" alt="AI Home Renovation Agent: photo in, photoreal redesign out"></a>
       <sub><b>AI Home Renovation Agent</b></sub>
     </td>
     <td align="center">
-      <a href="https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/always_on_agents/always_on_hn_briefing_agent/README.md"><img src="/mirror/74/743726a8f98b679612a25073742ec7e03dbd3b1c.png" alt="Always-on HN Briefing Agent: it reads Hacker News while you sleep"></a>
+      <a href="https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/always_on_agents/always_on_hn_briefing_agent/README.md"><img src="/mirror/74/743726a8f98b679612a25073742ec7e03dbd3b1c.webp" alt="Always-on HN Briefing Agent: it reads Hacker News while you sleep"></a>
       <sub><b>Always-on HN Briefing Agent</b></sub>
     </td>
   </tr>

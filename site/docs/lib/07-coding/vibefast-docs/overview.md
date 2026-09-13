@@ -25,7 +25,7 @@ Free open-source vibefast.app course + paid full-stack vibefast.app template. Fr
 ⚡ 3 commands to global deployment  
 🌍 5 languages: 繁中 · English · 日本語 · Español · Português (BR)
 
-  <img src="/mirror/37/372439d6f59e936b29184757222dc1f46ee2cce8.png" width="100%">
+  <img src="/mirror/37/372439d6f59e936b29184757222dc1f46ee2cce8.webp" width="100%">
 
 -----
 

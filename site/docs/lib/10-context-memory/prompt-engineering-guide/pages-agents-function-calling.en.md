@@ -37,7 +37,7 @@ This capability is what transforms a basic LLM from a text generator into a powe
 
 ## How Function Calling Powers AI Agents
 
-![Function Calling Flow](/mirror/68/68c78a09a4f807479bfc12ec7e3f1809aeee3079.png)
+![Function Calling Flow](/mirror/68/68c78a09a4f807479bfc12ec7e3f1809aeee3079.webp)
 
 LLM-based agents rely on two key capabilities to solve complex tasks: tool calling and reasoning. These capabilities allow agents to be augmented with external tools, connect to MCP (Model Context Protocol) servers, and access knowledge bases.
 

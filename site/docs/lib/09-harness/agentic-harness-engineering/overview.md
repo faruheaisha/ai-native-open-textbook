@@ -27,7 +27,7 @@ zh: ""
 
 </div>
 
-  <img src="/mirror/99/99d2d07baa4540966b9c22202b8dd11e76ceb45c.jpg" alt="Agentic Harness Engineering" width="100%">
+  <img src="/mirror/99/99d2d07baa4540966b9c22202b8dd11e76ceb45c.webp" alt="Agentic Harness Engineering" width="100%">
 
 <p align="left">
   English | <a href="https://github.com/china-qijizhifeng/agentic-harness-engineering/blob/8b2a55d97590363fe50c3cc6b5e833b020a4bb4c/README_zh.md">简体中文</a>
@@ -56,9 +56,9 @@ AHE rests on three observability layers:
 
 Across ten `evaluate → analyze → improve` iterations, **AHE (Agentic Harness Engineering)** lifts Terminal-Bench 2 pass@1 from **69.7% to 77.0%** on GPT-5.4, surpasses the hand-written Codex (71.9%) and the self-evolving ACE and TF-GRPO baselines, and produces a frozen harness that transfers without re-evolution to SWE-bench-verified and to four alternate base models, indicating that the evolved components encode general engineering experience rather than benchmark-specific tuning.
 
-  <img src="/mirror/13/13e05ae5a7040e8f0da2384b948d5ee9bc0bcff7.png" alt="Cross-Model Transfer" width="28%">
-  <img src="/mirror/2d/2daf8c0351b18efbf1aeca1628791760c648d017.png" alt="Case Study" width="31%">
-  <img src="/mirror/03/0324cad9ca060eb5e84a4e6941077a68d9fae43f.png" alt="Training Curve" width="39%">
+  <img src="/mirror/13/13e05ae5a7040e8f0da2384b948d5ee9bc0bcff7.webp" alt="Cross-Model Transfer" width="28%">
+  <img src="/mirror/2d/2daf8c0351b18efbf1aeca1628791760c648d017.webp" alt="Case Study" width="31%">
+  <img src="/mirror/03/0324cad9ca060eb5e84a4e6941077a68d9fae43f.webp" alt="Training Curve" width="39%">
 
 ---
 

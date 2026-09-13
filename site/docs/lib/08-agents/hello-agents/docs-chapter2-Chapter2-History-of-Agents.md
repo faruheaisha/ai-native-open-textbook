@@ -16,7 +16,7 @@ zh: ""
 
 To deeply understand why modern agents present their current form and the origins of their core design philosophies, this chapter will trace back through history: starting from the classical era of artificial intelligence, exploring how the earliest "intelligence" was defined within rule systems of logic and symbols; then witnessing the major shift from single, centralized intelligence models to distributed, collaborative intelligence thinking; and finally understanding how the "learning" paradigm completely transformed the way agents acquire capabilities, giving birth to the modern agents we see today.
 
-  <img src="/mirror/c5/c579fca0aa7380ecd272968cb84d89e842559b71.png" alt="Figure description" width="90%"/>
+  <img src="/mirror/c5/c579fca0aa7380ecd272968cb84d89e842559b71.webp" alt="Figure description" width="90%"/>
   <p>Figure 2.1 The evolutionary ladder of AI agents</p>
 
 As shown in Figure 2.1, **the emergence of each new paradigm is to solve the core "pain points" or fundamental limitations of the previous generation paradigm.** While new solutions bring capability leaps, they also introduce new "limitations" that are difficult to overcome at the time, which in turn lay the groundwork for the birth of the next generation paradigm. Understanding this "problem-driven" iterative process helps us more profoundly grasp the deep reasons and historical inevitability behind modern agent technology choices.
@@ -38,7 +38,7 @@ The hypothesis contains two core assertions:
 
 A physical symbol system here refers to a system that can exist in the physical world, composed of a set of distinguishable symbols and a series of processes that operate on these symbols, with constituent elements as shown in Figure 2.2. These symbols can be combined into more complex structures (such as expressions), while processes can create, modify, copy, and destroy these symbol structures.
 
-  <img src="/mirror/41/416f017dcdd4f41c9309cfecd6d8de627fd840b0.png" alt="Figure description" width="90%"/>
+  <img src="/mirror/41/416f017dcdd4f41c9309cfecd6d8de627fd840b0.webp" alt="Figure description" width="90%"/>
   <p>Figure 2.2 Constituent elements of a physical symbol system</p>
 
 In short, PSSH boldly declared: **The essence of intelligence is the computation and processing of symbols.**
@@ -51,7 +51,7 @@ Under the direct influence of the physical symbol system hypothesis, **Expert Sy
 
 A typical expert system usually consists of several core components including a knowledge base, inference engine, and user interface, with a general architecture as shown in Figure 2.3.
 
-  <img src="/mirror/f1/f18a7815c5d1596a32696356b0e7649c0e31ce7b.png" alt="Figure description" width="90%"/>
+  <img src="/mirror/f1/f18a7815c5d1596a32696356b0e7649c0e31ce7b.webp" alt="Figure description" width="90%"/>
   <p>Figure 2.3 General architecture of expert systems</p>
 
 This architecture clearly embodies the design philosophy of separating knowledge from reasoning, an important characteristic of symbolicism AI.
@@ -71,7 +71,7 @@ MYCIN is one of the most famous and influential expert systems in history, devel
 
 - **Working Principle**: MYCIN collected patient symptoms, medical history, and test results through question-and-answer interactions with doctors. Its knowledge base contained about 600 "IF-THEN" rules provided by medical experts. The inference engine mainly worked in backward chaining: starting from the highest goal of "determining the pathogen," it backward-derived what evidence and conditions were needed, then asked doctors questions to obtain this information. Its simplified workflow is shown in Figure 2.4.
 
-  <img src="/mirror/7b/7bc1639407f827c78788e37810eb57932687fa19.png" alt="Figure description" width="90%"/>
+  <img src="/mirror/7b/7bc1639407f827c78788e37810eb57932687fa19.webp" alt="Figure description" width="90%"/>
   <p>Figure 2.4 Schematic diagram of MYCIN backward chaining reasoning process</p>
 
 - **Uncertainty Handling**: Medical diagnosis is full of uncertainty. An important innovation of MYCIN was introducing the concept of **Certainty Factor (CF)**, using a numerical value between -1 and 1 to represent the credibility of a conclusion. This enabled the system to handle uncertain, ambiguous medical knowledge and provide diagnostic results with credibility assessments, which was closer to the real world than simple Boolean logic.
@@ -81,7 +81,7 @@ MYCIN is one of the most famous and influential expert systems in history, devel
 
 If expert systems demonstrated the "depth" of symbolic AI in professional domains, then the SHRDLU project<sup>[3]</sup> developed by **Terry Winograd** from 1968-1970 achieved a revolutionary breakthrough in "breadth." As shown in Figure 2.5, SHRDLU aimed to build a comprehensive intelligent agent that could interact fluently with humans through natural language in the micro-environment of the "blocks world." The "blocks world" is a simulated three-dimensional virtual space containing blocks of different shapes, colors, and sizes, as well as a virtual robotic arm that can grasp and move them. Users issue commands or ask questions to SHRDLU in natural language, and SHRDLU executes actions in the virtual world or provides text responses.
 
-  <img src="/mirror/47/47210ecf0e44a832ceda02ed05f83a61c40788b2.png" alt="Figure description" width="90%"/>
+  <img src="/mirror/47/47210ecf0e44a832ceda02ed05f83a61c40788b2.webp" alt="Figure description" width="90%"/>
   <p>Figure 2.5 SHRDLU's "blocks world" interaction interface</p>
 
 SHRDLU attracted widespread attention at the time mainly because it was the first to integrate multiple independent artificial intelligence modules (such as language parsing, planning, memory) into a unified system and make them work collaboratively:
@@ -323,7 +323,7 @@ Let's use the classic "building a block tower" task as an example to illustrate 
 
 In this process, no single agent or agency has a global plan for the entire task. `GRASP` is only responsible for grasping; it doesn't know what a tower is; `BUILDER` is only responsible for looping; it doesn't know how to control the arm. However, when this society composed of countless "mindless" agents interacts through simple activation and inhibition rules, a seemingly highly intelligent behavior—building a block tower—naturally emerges.
 
-  <img src="/mirror/d4/d4c5a416d194b00007ebf9b100ad9e6661ca2ac8.png" alt="Figure description" width="90%"/>
+  <img src="/mirror/d4/d4c5a416d194b00007ebf9b100ad9e6661ca2ac8.webp" alt="Figure description" width="90%"/>
   <p>Figure 2.6 Schematic diagram of the emergence mechanism of block tower building behavior in the "society of mind"</p>
 
 ### 2.3.3 Theoretical Inspiration for Multi-Agent Systems
@@ -358,7 +358,7 @@ As a direct response to the limitations of symbolicism, **Connectionism** re-eme
 
 Under this paradigm, agents are no longer passive logical reasoning machines executing rules but adaptive systems capable of self-optimization through experience. As shown in Figure 2.7, this represents a fundamental shift in the core idea of building agents. Symbolicism attempted to explicitly encode human knowledge to machines, while connectionism attempted to create machines that could learn knowledge like humans.
 
-  <img src="/mirror/55/555b45a85214ae5dd880f6dd8689650460172087.png" alt="Figure description" width="90%"/>
+  <img src="/mirror/55/555b45a85214ae5dd880f6dd8689650460172087.webp" alt="Figure description" width="90%"/>
   <p>Figure 2.7 Comparison of symbolicism and connectionism paradigms</p>
 
 The rise of connectionism, especially the success of deep learning in the 21st century, endowed agents with powerful perception and pattern recognition capabilities, enabling them to directly understand the world from raw data (such as images, sounds, text), which was unimaginable in the symbolicism era. However, how to enable agents to learn to make optimal sequential decisions in dynamic interactions with the environment required supplementation from another learning paradigm.
@@ -381,7 +381,7 @@ The reinforcement learning framework can be described by several core elements:
 
 Based on the above core elements, reinforcement learning agents continuously iterate in a "perceive-act-learn" closed loop, with their working mode shown in Figure 2.8.
 
-  <img src="/mirror/92/92bae234824fb8eed74ba8f826e304878c3c7a18.png" alt="Figure description" width="90%"/>
+  <img src="/mirror/92/92bae234824fb8eed74ba8f826e304878c3c7a18.webp" alt="Figure description" width="90%"/>
   <p>Figure 2.8 Core interaction loop of reinforcement learning</p>
 
 The specific steps of this loop are as follows:
@@ -407,7 +407,7 @@ Before the emergence of the pre-training paradigm, traditional natural language 
 
 As shown in Figure 2.9, this intuitively demonstrates the complete process of pre-training and fine-tuning: general text data forms a foundation model through self-supervised learning, then fine-tuning with specific task data ultimately adapts to various downstream tasks.
 
-  <img src="/mirror/b0/b06642300d869865e4b180809c1e9e98748e5cbd.png" alt="Figure description" width="90%"/>
+  <img src="/mirror/b0/b06642300d869865e4b180809c1e9e98748e5cbd.webp" alt="Figure description" width="90%"/>
   <p>Figure 2.9 Schematic diagram of the "pre-training-fine-tuning" paradigm</p>
 
 **Birth of Large Language Models and Emergent Abilities**
@@ -425,7 +425,7 @@ At this point, in the long river of agent development history, several key techn
 
 With the rapid development of large language model technology, LLM-centric agents have become a new paradigm in the field of artificial intelligence. They can not only understand and generate human language but, more importantly, can autonomously perceive, plan, decide, and execute tasks through interaction with the environment.
 
-  <img src="/mirror/3f/3f069be1dbd8f57939842b836dcea253d09b5393.png" alt="Figure description" width="90%"/>
+  <img src="/mirror/3f/3f069be1dbd8f57939842b836dcea253d09b5393.webp" alt="Figure description" width="90%"/>
   <p>Figure 2.10 Core component architecture of LLM-driven agents</p>
 
 As described in Chapter 1, the interaction between agents and the environment can be abstracted as a core loop. LLM-driven agents complete tasks through a continuously iterative closed-loop process where multiple modules work together. This process follows the architecture shown in Figure 2.10, with specific steps as follows:
@@ -453,12 +453,12 @@ Among these, three major trends dominated research paradigms in different period
 
 Entering the 2020s, these ideological schools have deeply integrated in unprecedented ways. Large language models represented by the GPT series are themselves products of connectionism but have become the core "brain" for executing symbolic reasoning, tool invocation, and planning decisions, forming a modern agent architecture combining neural and symbolic approaches. To systematically review this development context, Figure 2.11 below organizes key theories, projects, and events in the development history of artificial intelligence agents from the 1950s to the present, providing readers with a clear global overview as a consolidation of this chapter's knowledge.
 
-  <img src="/mirror/75/75a0aab94906d071f6922873056290fd3ca5dca0.png" alt="Figure description" width="90%"/>
+  <img src="/mirror/75/75a0aab94906d071f6922873056290fd3ca5dca0.webp" alt="Figure description" width="90%"/>
   <p>Figure 2.11 Timeline of agent development evolution (incomplete version)</p>
 
 Thanks to breakthroughs in large language models, the agent technology stack presents unprecedented activity and diversity. Figure 2.12 shows a typical full view of the current AI Agent field technology stack, covering all aspects from underlying models to upper-layer applications.
 
-  <img src="/mirror/c0/c0fbd1fed48b615c912eda389d876704408aec65.png" alt="Figure description" width="90%"/>
+  <img src="/mirror/c0/c0fbd1fed48b615c912eda389d876704408aec65.webp" alt="Figure description" width="90%"/>
   <p>Figure 2.12 Overview of AI Agent technology stack</p>
 
 This technology stack diagram was released by Letta in November 2024<sup>[10]</sup>. It layers and categorizes AI agent-related tools, platforms, and services, providing valuable reference for understanding current market landscape and technology selection.

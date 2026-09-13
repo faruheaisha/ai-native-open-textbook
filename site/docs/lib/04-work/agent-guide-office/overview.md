@@ -134,7 +134,7 @@ agent-guide/
 更多介绍请访问 [关于我](https://tangshiye.cn/about/)。
 
 <p align="left">
-  <img src="/mirror/63/6309e3435b82ea493bcdbd45b63d82ce2a3acfc0.png" alt="微信搜索 AI架构师汤师爷，关注公众号" width="480">
+  <img src="/mirror/63/6309e3435b82ea493bcdbd45b63d82ce2a3acfc0.webp" alt="微信搜索 AI架构师汤师爷，关注公众号" width="480">
 </p>
 
 ## 开源协议

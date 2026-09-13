@@ -41,19 +41,19 @@ AI Engineer Coach reads your local AI session logs and turns them into actionabl
 <details>
 <summary><strong>Screenshots</strong></summary>
 <br>
-<p align="center"><img src="/mirror/0e/0efbdb99589c543f08b5a04c56ea7c0e4e301340.png" alt="Timeline" width="820"></p>
-<p align="center"><img src="/mirror/fe/fea6513fefa9a16f1c7cdac6857246e6dc25743b.png" alt="Code Output" width="820"></p>
-<p align="center"><img src="/mirror/18/18f731d3fad83de445a6be2608c89992774729f9.png" alt="Premium Request Consumption" width="820"></p>
-<p align="center"><img src="/mirror/47/47a2adf772f6e019d7ee2ec6d4ae84043bef409d.png" alt="Activity Patterns - Projects" width="820"></p>
-<p align="center"><img src="/mirror/05/05a0a97b2b91a0a1518bcf8ff588e01f4f46b5c2.png" alt="Activity Patterns - Work Hours" width="820"></p>
-<p align="center"><img src="/mirror/ca/ca53eed670692bb621d71acc7835c05c93c15f66.png" alt="Anti-Patterns" width="820"></p>
-<p align="center"><img src="/mirror/5c/5cb9a585e045f83cacc31df0adab12c4e98ac3e4.png" alt="Skill Finder" width="820"></p>
-<p align="center"><img src="/mirror/25/25f07d851f37c5a2ba40336c5a7a00862298fa96.png" alt="Context Quality" width="820"></p>
-<p align="center"><img src="/mirror/e6/e61304624b09ce00fd20ac3b76cf9c86d0562eed.png" alt="Context Management" width="820"></p>
-<p align="center"><img src="/mirror/e9/e9b18aee712f698140b86cf465deb4a73bd12085.png" alt="Learning Center" width="820"></p>
-<p align="center"><img src="/mirror/69/696d104e34f25843a380ac641dcfcdd05c7d97e4.png" alt="Achievements" width="820"></p>
-<p align="center"><img src="/mirror/5e/5e749e8504833152d06c293122991a299e0d0623.png" alt="Agentic SDLC" width="820"></p>
-<p align="center"><img src="/mirror/3f/3ff97df12c14f68bc80480958c7704e3d3111c34.png" alt="Share Your Stats" width="820"></p>
+<p align="center"><img src="/mirror/0e/0efbdb99589c543f08b5a04c56ea7c0e4e301340.webp" alt="Timeline" width="820"></p>
+<p align="center"><img src="/mirror/fe/fea6513fefa9a16f1c7cdac6857246e6dc25743b.webp" alt="Code Output" width="820"></p>
+<p align="center"><img src="/mirror/18/18f731d3fad83de445a6be2608c89992774729f9.webp" alt="Premium Request Consumption" width="820"></p>
+<p align="center"><img src="/mirror/47/47a2adf772f6e019d7ee2ec6d4ae84043bef409d.webp" alt="Activity Patterns - Projects" width="820"></p>
+<p align="center"><img src="/mirror/05/05a0a97b2b91a0a1518bcf8ff588e01f4f46b5c2.webp" alt="Activity Patterns - Work Hours" width="820"></p>
+<p align="center"><img src="/mirror/ca/ca53eed670692bb621d71acc7835c05c93c15f66.webp" alt="Anti-Patterns" width="820"></p>
+<p align="center"><img src="/mirror/5c/5cb9a585e045f83cacc31df0adab12c4e98ac3e4.webp" alt="Skill Finder" width="820"></p>
+<p align="center"><img src="/mirror/25/25f07d851f37c5a2ba40336c5a7a00862298fa96.webp" alt="Context Quality" width="820"></p>
+<p align="center"><img src="/mirror/e6/e61304624b09ce00fd20ac3b76cf9c86d0562eed.webp" alt="Context Management" width="820"></p>
+<p align="center"><img src="/mirror/e9/e9b18aee712f698140b86cf465deb4a73bd12085.webp" alt="Learning Center" width="820"></p>
+<p align="center"><img src="/mirror/69/696d104e34f25843a380ac641dcfcdd05c7d97e4.webp" alt="Achievements" width="820"></p>
+<p align="center"><img src="/mirror/5e/5e749e8504833152d06c293122991a299e0d0623.webp" alt="Agentic SDLC" width="820"></p>
+<p align="center"><img src="/mirror/3f/3ff97df12c14f68bc80480958c7704e3d3111c34.webp" alt="Share Your Stats" width="820"></p>
 </details>
 
 ---

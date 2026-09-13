@@ -62,7 +62,7 @@ GitHub README 适合快速了解项目，真正学习时更推荐打开网站阅
 
 **CodexGuide 的主题皮肤站地址是 [theme.codexguide.ai](https://theme.codexguide.ai/)。**
 
-    <img src="/mirror/fc/fc07ee78ff818070e98c4632ad46a0c74d26ccc5.png" alt="CodexGuide 主题皮肤网站截图" width="920" />
+    <img src="/mirror/fc/fc07ee78ff818070e98c4632ad46a0c74d26ccc5.webp" alt="CodexGuide 主题皮肤网站截图" width="920" />
 
 这里可以预览 Codex Themes 的官方主题、使用方法和下载入口，适合想给 Codex 桌面工作区换上个性化视觉风格的用户。
 
@@ -189,7 +189,7 @@ pnpm build
 
 欢迎加入 CodexGuide 交流群，与同频伙伴一起交流 Codex 使用经验、实践案例和最新动态。点击[加入 Codex 交流群](https://codexguide.ai/community/join)即可加入，也欢迎微信扫码关注公众号 **苍何**，获取更多 AI 工具与效率实践。
 
-  <img src="/mirror/34/3447f478347ba75a5424698afc4b9a95c40d804e.png" alt="微信扫码关注公众号苍何" width="720" />
+  <img src="/mirror/34/3447f478347ba75a5424698afc4b9a95c40d804e.webp" alt="微信扫码关注公众号苍何" width="720" />
 
 ## 事实来源
 

@@ -295,19 +295,19 @@ Claude Code 是一个在终端里运行的 AI 编程工具。你在命令行里�
 
 火山引擎提供 Lite（首月 ¥8.91，刊例价 ¥40/月）和 Pro（首月 ¥44.91，刊例价 ¥200/月）两档。支持四大国产模型自由切换，是模型选择最丰富的方案。
 
-![火山引擎 Coding Plan 定价页面](/mirror/d3/d3965446dee7c76c57118453b52a05fcc6a7d35e.png)
+![火山引擎 Coding Plan 定价页面](/mirror/d3/d3965446dee7c76c57118453b52a05fcc6a7d35e.webp)
 
 **MiniMax Coding Plan**（https://platform.minimaxi.com/docs/pricing/coding-plan）
 
 MiniMax 提供三档套餐：Starter（¥29/月，40 prompts/每 5 小时）、Plus（¥49/月，100 prompts/每 5 小时）、Max（¥119/月，300 prompts/每 5 小时）。配额制度最透明。
 
-![MiniMax Coding Plan 定价页面](/mirror/08/087d3029525dbb9282202818f7aa1fcfa2bcc658.png)
+![MiniMax Coding Plan 定价页面](/mirror/08/087d3029525dbb9282202818f7aa1fcfa2bcc658.webp)
 
 **智谱 GLM Coding**（https://www.bigmodel.cn/glm-coding）
 
 智谱提供三档：Lite（¥49/月）、Pro（¥149/月，最受欢迎）、Max（¥469/月）。GLM-4.7 在国产模型中编程能力排名第一。
 
-![智谱 GLM Coding 定价页面](/mirror/11/112bb717615b969e77af98b53af3e89b40f5a658.png)
+![智谱 GLM Coding 定价页面](/mirror/11/112bb717615b969e77af98b53af3e89b40f5a658.webp)
 
 **Kimi Code**（https://www.kimi.com/code）
 

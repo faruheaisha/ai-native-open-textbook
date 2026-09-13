@@ -14,7 +14,7 @@ zh: ""
 
 # Claude Code Harness
 
-  <img src="/mirror/65/65e6dd18fb564be8df35a5fb1f7e0e9019952291.png" alt="Claude Harness" width="400">
+  <img src="/mirror/65/65e6dd18fb564be8df35a5fb1f7e0e9019952291.webp" alt="Claude Harness" width="400">
 
   <strong>Plan. Work. Review. Ship.</strong><br>
   <em>A disciplined delivery loop for Claude Code, Codex CLI, Cursor, and Grok.</em>

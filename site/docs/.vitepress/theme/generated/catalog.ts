@@ -15869,7 +15869,7 @@ export const sources: SourceEntry[] = [
     "category": "官方文献（外链原文）",
     "tier": 3,
     "licenseLabel": "仅引用",
-    "lang": "中英混排",
+    "lang": "英文",
     "lessons": 2,
     "md": 203,
     "repo": null,

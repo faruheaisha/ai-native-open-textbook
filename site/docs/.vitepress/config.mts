@@ -2,6 +2,12 @@ import { defineConfig } from 'vitepress'
 import type { DefaultTheme } from 'vitepress'
 import { courses, volumes } from './theme/generated/catalog'
 import { SITE } from './theme/generated/site'
+import path from 'node:path'
+import { fileURLToPath } from 'node:url'
+import { setPublicDir, sizeFor, decorateHtml } from './image-dims.mts'
+
+// 正文插图的像素尺寸从 public/mirror 下的真实文件里读，先把目录位置告诉解析器。
+setPublicDir(path.join(path.dirname(fileURLToPath(import.meta.url)), '..', 'public'))
 
 const HOST =
   process.env.DOCS_HOST ||
@@ -73,6 +79,37 @@ export default defineConfig({
   sitemap: {
     hostname: origin,
     transformItems: (items) => items.filter((i) => !/(^|\/)404$/.test(String(i.url))),
+  },
+  markdown: {
+    // 正文插图统一补三个属性：
+    //   loading="lazy"   一页十几张图时，先只取视口内的，别让视口里那张去抢十几分之一的带宽
+    //   decoding="async" 解码不阻塞主线程
+    //   width/height     让浏览器提前按真实比例占好位置，图片陆续到达时页面不再往下跳
+    // 外链和走加速通道的图读不到尺寸，就只补前两个。
+    config: (md) => {
+      const renderImage = md.renderer.rules.image!
+      md.renderer.rules.image = (tokens, idx, options, env, self) => {
+        const token = tokens[idx]
+        if (token.attrGet('width') === null) {
+          const dim = sizeFor(token.attrGet('src') || '')
+          if (dim) {
+            token.attrSet('width', String(dim[0]))
+            token.attrSet('height', String(dim[1]))
+          }
+        }
+        token.attrSet('loading', 'lazy')
+        token.attrSet('decoding', 'async')
+        return renderImage(tokens, idx, options, env, self)
+      }
+
+      // 上游大量直接写 <img>，不走 markdown 图片语法，得单独过一遍。
+      // html_block / html_inline 只覆盖 HTML 片段，代码块走的是 fence/code，不会被误改。
+      for (const rule of ['html_block', 'html_inline'] as const) {
+        const orig = md.renderer.rules[rule]
+        md.renderer.rules[rule] = (tokens, idx, options, env, self) =>
+          decorateHtml(orig ? orig(tokens, idx, options, env, self) : tokens[idx].content ?? '')
+      }
+    },
   },
   themeConfig: {
     nav,

@@ -273,7 +273,7 @@ Use `https://github.com/QoderAI/better-harness.git` with Git ref `main`.
 
 <div class="tb-zh"><p>使用 https://github.com/QoderAI/better-harness.git，Git ref 设为 main。</p></div>
 
-![Codex Add plugin marketplace dialog with repository, Git ref, and optional sparse paths](/mirror/aa/aa91ac56d13232a2d383cb7088fb641d9158dc23.jpg)
+![Codex Add plugin marketplace dialog with repository, Git ref, and optional sparse paths](/mirror/aa/aa91ac56d13232a2d383cb7088fb641d9158dc23.webp)
 
 #### Codex CLI
 

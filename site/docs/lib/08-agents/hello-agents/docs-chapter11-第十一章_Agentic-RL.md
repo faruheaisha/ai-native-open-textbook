@@ -49,7 +49,7 @@ duck egg. How much in dollars does she make every day at the farmers' market?
 
 在深入 Agentic RL 之前，我们需要先理解 LLM 训练的完整流程。一个强大的 LLM(如 GPT、Claude、Qwen)的诞生，通常要经历两个主要阶段:预训练(Pretraining)和后训练(Post-training)。如图 11.1 所示，这两个阶段构成了 LLM 从"语言模型"到"对话助手"的完整演化路径。
 
-  <img src="/mirror/dd/dde5433a580fccb1a060d7d7bc9b1e49e888f02b.png" alt="" width="85%"/>
+  <img src="/mirror/dd/dde5433a580fccb1a060d7d7bc9b1e49e888f02b.webp" alt="" width="85%"/>
   <p>图 11.1 LLM 训练全景图</p>
 
 <strong>预训练阶段</strong>是 LLM 训练的第一阶段，目标是让模型学习语言的基本规律和世界知识。这个阶段使用海量的文本数据(通常是数 TB 级别)，通过自监督学习的方式训练模型：训练信号来自文本本身，例如根据上文预测下一个词。最常见的预训练任务是因果语言建模(Causal Language Modeling)，也称为下一个词预测(Next Token Prediction)。
@@ -105,7 +105,7 @@ $$
 强化学习常用马尔可夫决策过程(Markov Decision Process，MDP)框架进行形式化。MDP 由五元组 $(S, A, P, R, \gamma)$ 定义：状态空间 $S$、行动空间 $A$、状态转移函数 $P(s'|s,a)$、奖励函数 $R(s,a)$ 和折扣因子 $\gamma$。下表从 MDP 角度对比 PBRFT 和 Agentic RL。
 
   <p>表 11.1 PBRFT 与 Agentic RL 对比</p>
-  <img src="/mirror/1c/1c735d1e337754ac7e72689b82288af4a07c513a.png" alt="" width="85%"/>
+  <img src="/mirror/1c/1c735d1e337754ac7e72689b82288af4a07c513a.webp" alt="" width="85%"/>
 
 在状态方面，PBRFT 的状态 $s_0$ 仅由用户提示构成，时间跨度 $T=1$(单步)，状态不变化，可以表示为 $s_0 = \text{prompt}$。而 Agentic RL 的状态 $s_t$ 包含历史观察和上下文，时间跨度 $T \gg 1$(多步)，状态随行动演化，可以表示为 $s_t = (\text{prompt}, o_1, o_2, ..., o_t)$，其中 $o_t$ 是第 $t$ 步的观察(如工具返回结果、环境反馈等)。
 
@@ -139,7 +139,7 @@ $$
 
 Agentic RL 的目标是赋予 LLM 智能体六大核心能力，如图 11.2 所示。
 
-  <img src="/mirror/a7/a7df6bac1b0a61bafdaa7c80eb844f80b7f294ba.png" alt="" width="85%"/>
+  <img src="/mirror/a7/a7df6bac1b0a61bafdaa7c80eb844f80b7f294ba.webp" alt="" width="85%"/>
   <p>图 11.2 Agentic RL 的六大核心能力</p>
 
 <strong>推理(Reasoning)</strong>是指从给定信息中逻辑地得出结论的过程，是智能体的核心能力。传统的 CoT 提示方法依赖少样本示例，泛化能力有限;SFT 只能模仿训练数据中的推理模式，难以创新。强化学习的优势在于通过试错学习有效的推理策略，发现训练数据中没有的推理路径，学会何时需要深度思考、何时可以快速回答。推理任务可以建模为序列决策问题，给定问题 $q$，智能体需要生成推理链 $c = (c_1, c_2, ..., c_n)$ 和最终答案 $a$。奖励函数通常设计为 $r(q, c, a) = 1$ if $a = a^*$ else $0$，训练目标是 $\max_\theta \mathbb{E}_{q, (c,a) \sim \pi_\theta} [r(q, c, a)]$。通过这种方式，模型学会生成高质量的推理链，而不仅仅是记忆答案。
@@ -162,7 +162,7 @@ Agentic RL 的目标是赋予 LLM 智能体六大核心能力，如图 11.2 所�
 
 HelloAgents 的 Agentic RL 模块采用四层架构设计，如图 11.3 所示。
 
-  <img src="/mirror/28/28b50227b5634ba64917c6192dee132158b40bad.png" alt="" width="85%"/>
+  <img src="/mirror/28/28b50227b5634ba64917c6192dee132158b40bad.webp" alt="" width="85%"/>
   <p>图 11.3 HelloAgents Agentic RL 架构</p>
 
 最底层是<strong>数据集层</strong>，包含<code>GSM8KDataset</code>类、<code>create_sft_dataset()</code>函数和<code>create_rl_dataset()</code>函数，负责数据加载和格式转换。第二层是<strong>奖励函数层</strong>，包含<code>MathRewardFunction</code>基类、<code>AccuracyReward</code>准确率奖励、<code>LengthPenaltyReward</code>长度惩罚、<code>StepReward</code>步骤奖励，以及便捷创建函数<code>create_*_reward()</code>，负责定义什么是好的行为。第三层是<strong>训练器层</strong>，包含<code>SFTTrainerWrapper</code>和<code>GRPOTrainerWrapper</code>，负责具体的训练逻辑和 LoRA 支持。最顶层是<strong>统一接口层</strong>，提供<code>RLTrainingTool</code>统一训练工具，支持四种操作:<code>action="train"</code>(训练模型)、<code>action="load_dataset"</code>(加载数据集)、<code>action="create_reward"</code>(创建奖励函数)、<code>action="evaluate"</code>(评估模型)。
@@ -256,7 +256,7 @@ print(f"  GRPO模型: {grpo_result['output_dir']}")
 GSM8K(Grade School Math 8K)<sup>[4]</sup>是一个高质量的小学数学应用题数据集。如表 11.2 所示，数据集包含 7，473 个训练样本和 1，319 个测试样本，难度为小学数学水平(2-8 年级)，题型为应用题，需要 2-8 步推理才能得出答案。
 
   <p>表 11.2 GSM8K 数据集统计</p>
-  <img src="/mirror/65/6582abeff4479bd0167a44209227525ae02130bc.png" alt="" width="85%"/>
+  <img src="/mirror/65/6582abeff4479bd0167a44209227525ae02130bc.webp" alt="" width="85%"/>
 让我们看一个典型的 GSM8K 问题:
 
 ```
@@ -275,7 +275,7 @@ GSM8K(Grade School Math 8K)<sup>[4]</sup>是一个高质量的小学数学应用
 
 GSM8K 数据集需要转换为不同的格式，以适应不同的训练方法，如图 11.4 所示。
 
-  <img src="/mirror/bf/bf163d26f39b7ee12f246706a99abf9af1a4b815.png" alt="" width="85%"/>
+  <img src="/mirror/bf/bf163d26f39b7ee12f246706a99abf9af1a4b815.webp" alt="" width="85%"/>
   <p>图 11.4 GSM8K 数据格式转换</p>
 
 
@@ -304,7 +304,7 @@ RL 格式用于强化学习，只提供问题和正确答案，不提供解题�
 如表 11.3 所示，三种格式各有用途。
 
   <p>表 11.3 数据格式对比</p>
-  <img src="/mirror/77/770c883c3d00b4a394e8c48472a2b076728ac6d4.png" alt="" width="85%"/>
+  <img src="/mirror/77/770c883c3d00b4a394e8c48472a2b076728ac6d4.webp" alt="" width="85%"/>
 HelloAgents 提供了便捷的数据集加载函数。让我们通过代码来加载和查看数据集:
 
 ```python
@@ -363,7 +363,7 @@ $$
 
 HelloAgents 提供了三种内置奖励函数，可以单独使用或组合使用，如图 11.5 所示。
 
-  <img src="/mirror/3e/3e09dc8ecc30204458e9629b6be1123a7dc2dbb1.png" alt="" width="85%"/>
+  <img src="/mirror/3e/3e09dc8ecc30204458e9629b6be1123a7dc2dbb1.webp" alt="" width="85%"/>
   <p>图 11.5 奖励函数设计</p>
 <strong>（1）准确率奖励</strong>
 
@@ -557,7 +557,7 @@ print("步骤奖励:", json.loads(step_result)['description'])
 如表 11.4 所示，不同奖励函数适合不同的应用场景。
 
   <p>表 11.4 奖励函数对比</p>
-  <img src="/mirror/f2/f214ec88770e1dc91de971d81de5d0d69115c4ae.png" alt="" width="85%"/>
+  <img src="/mirror/f2/f214ec88770e1dc91de971d81de5d0d69115c4ae.webp" alt="" width="85%"/>
 
 ### 11.2.3 自定义数据集和奖励函数
 
@@ -912,7 +912,7 @@ Final Answer: 72<|im_end|>
 
 如图 11.6 所示，SFT 是从预训练模型到强化学习的桥梁。
 
-  <img src="/mirror/33/3305363056132762edb92924cad848090941b8a4.png" alt="" width="85%"/>
+  <img src="/mirror/33/3305363056132762edb92924cad848090941b8a4.webp" alt="" width="85%"/>
   <p>图 11.6 SFT 在训练流程中的作用</p>
 
 ### 11.3.2 LoRA:参数高效微调
@@ -944,7 +944,7 @@ $$
 如表 11.5 所示，LoRA 在不同模型规模下的效果对比。
 
   <p>表 11.5 LoRA vs 全量微调对比</p>
-  <img src="/mirror/2f/2f6bda9256be38645727455e41728bbb92740775.png" alt="" width="85%"/>
+  <img src="/mirror/2f/2f6bda9256be38645727455e41728bbb92740775.webp" alt="" width="85%"/>
 
 LoRA 的关键超参数包括:秩(rank，r)，控制 LoRA 矩阵的秩，越大表达能力越强，但参数量也越多，典型值为 4-64，默认 8;Alpha($\alpha$)，LoRA 的缩放因子，实际更新为 $\Delta W = \frac{\alpha}{r} BA$，控制 LoRA 的影响强度，典型值等于 rank;目标模块(target_modules)，指定哪些层应用 LoRA，通常选择注意力层(q_proj， k_proj， v_proj， o_proj)，也可以包括 MLP 层(gate_proj， up_proj， down_proj)。
 
@@ -1166,7 +1166,7 @@ $$
 
 如图 11.7 所示，PPO 和 GRPO 的训练流程对比。
 
-  <img src="/mirror/68/68b5a922d60009ecde65361d3c62da4d3383af77.png" alt="" width="85%"/>
+  <img src="/mirror/68/68b5a922d60009ecde65361d3c62da4d3383af77.webp" alt="" width="85%"/>
   <p>图 11.7 PPO vs GRPO 训练流程</p>
 
 可以看到，GRPO 省去了 Value Model 的训练，大大简化了流程。
@@ -1174,7 +1174,7 @@ $$
 如表 11.6 所示，PPO 和 GRPO 的详细对比。
 
   <p>表 11.6 PPO vs GRPO 对比</p>
-  <img src="/mirror/44/44734be1e141ccef54964f2135fc8e454a59927c.png" alt="" width="85%"/>
+  <img src="/mirror/44/44734be1e141ccef54964f2135fc8e454a59927c.webp" alt="" width="85%"/>
 
 
 
@@ -1552,7 +1552,7 @@ $$
 如表 11.7 所示，不同指标的对比。
 
   <p>表 11.7 评估指标对比</p>
-  <img src="/mirror/8b/8bf0c202af0c5af26ff6bf8ac34cb31e8e4de32a.png" alt="" width="85%"/>
+  <img src="/mirror/8b/8bf0c202af0c5af26ff6bf8ac34cb31e8e4de32a.webp" alt="" width="85%"/>
 
 
 ### 11.5.2 评估实战
@@ -1737,7 +1737,7 @@ for group_name, results in step_groups.items():
 
 基于评估和分析结果，我们可以确定模型的改进方向，如图 11.8 所示。
 
-  <img src="/mirror/50/50be1eef318a23c7f951445c4aad77ae481dd74d.png" alt="" width="85%"/>
+  <img src="/mirror/50/50be1eef318a23c7f951445c4aad77ae481dd74d.webp" alt="" width="85%"/>
   <p>图 11.8 模型改进迭代流程</p>
 
 这是一个持续迭代的过程:训练模型 → 评估性能 → 分析错误 → 确定问题 → 选择改进方向 → 重新训练。通过多次迭代，模型性能会不断提升。
@@ -1750,7 +1750,7 @@ for group_name, results in step_groups.items():
 
 一个完整的 Agentic RL 训练流程包括以下阶段:数据准备、SFT 训练、SFT 评估、GRPO 训练、GRPO 评估、模型部署。如图 11.9 所示。
 
-  <img src="/mirror/61/61cb9daa5484cb3fb1f997efc6c72a49001df5bc.png" alt="" width="85%"/>
+  <img src="/mirror/61/61cb9daa5484cb3fb1f997efc6c72a49001df5bc.webp" alt="" width="85%"/>
   <p>图 11.9 端到端训练流程</p>
 
 让我们通过一个完整的脚本来实现这个流程:
@@ -2186,7 +2186,7 @@ print(f"最佳准确率: {study.best_value:.2%}")
 如表 11.8 所示，不同调优方法的对比。
 
   <p>表 11.8 超参数调优方法对比</p>
-  <img src="/mirror/42/428da82ce89aea733ea39ffd2e72c0c0e5f31f7b.png" alt="" width="85%"/>
+  <img src="/mirror/42/428da82ce89aea733ea39ffd2e72c0c0e5f31f7b.webp" alt="" width="85%"/>
 
 ### 11.6.3 分布式训练
 
@@ -2333,7 +2333,7 @@ accelerate launch --config_file deepspeed_zero3.yaml train_script.py
 如表 11.9 所示，这是 Qwen3-0.6B 模型用不同方式训练的显存对比:
 
   <p>表 11.9 显存对比 (Qwen3-0.6B 模型)</p>
-  <img src="/mirror/59/591ed50c08d0fa0662ce5cfdcd34daeb479f1359.png" alt="" width="85%"/>
+  <img src="/mirror/59/591ed50c08d0fa0662ce5cfdcd34daeb479f1359.webp" alt="" width="85%"/>
 
 <strong>（4）多节点训练</strong>
 

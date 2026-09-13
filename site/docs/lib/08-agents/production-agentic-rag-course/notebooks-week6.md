@@ -27,7 +27,7 @@ Week 6 adds production-grade monitoring and intelligent caching to our RAG syste
 
 ## Architecture
 
-  <img src="/mirror/6a/6a115b16d5361acdcfc868adb3dc8a9bf9ed2264.png" alt="Week 6 Monitoring & Caching Architecture" width="900">
+  <img src="/mirror/6a/6a115b16d5361acdcfc868adb3dc8a9bf9ed2264.webp" alt="Week 6 Monitoring & Caching Architecture" width="900">
   <br>
   <em>Week 6 architecture with Langfuse tracing and Redis caching integration</em>
 

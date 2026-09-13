@@ -58,7 +58,7 @@ result = task(name="researcher", task="深入调研 LangGraph 生态")
 | **状态性** | 无状态——每次调用相互独立 | 有状态——子 Agent 拥有自己的线程，会话历史持续累积 |
 | **典型场景** | 一问一答、毫秒级到秒级的快速委派 | 几分钟以上的研究、编码、迁移等长程任务，需要在对话中互动管理 |
 
-![同步 vs 异步子 Agent：左侧主 Agent 委派后被阻塞、用户只能等待；右侧主 Agent 拿到任务 ID 立即返回，用户可继续对话、查看进度、追加指令或取消任务](/mirror/fc/fcc5324ef781e92bd1e2b40b2a0a147ba77d7edd.png)
+![同步 vs 异步子 Agent：左侧主 Agent 委派后被阻塞、用户只能等待；右侧主 Agent 拿到任务 ID 立即返回，用户可继续对话、查看进度、追加指令或取消任务](/mirror/fc/fcc5324ef781e92bd1e2b40b2a0a147ba77d7edd.webp)
 
 简单的判定法则：**子任务能在 5 秒内完成**，用同步；**子任务可能跑数分钟以上、且过程需要可交互**，上异步。
 
@@ -144,11 +144,11 @@ agent = create_deep_agent(
            ← cancelled
 ```
 
-![异步子 Agent 生命周期：launch 立即返回任务 ID；用户继续对话；check 查询进度；update 中途追加指令；cancel 取消任务；list 列出所有任务。主 Agent 全程不阻塞](/mirror/d8/d84b6b12cfcf0d63ff5aca4c80668e163a21a05b.png)
+![异步子 Agent 生命周期：launch 立即返回任务 ID；用户继续对话；check 查询进度；update 中途追加指令；cancel 取消任务；list 列出所有任务。主 Agent 全程不阻塞](/mirror/d8/d84b6b12cfcf0d63ff5aca4c80668e163a21a05b.webp)
 
 如果把视角换成三泳道的时序图，可以更清晰地看到三方之间的消息流——用户、主 Agent 与 Agent Protocol 服务之间，请求与返回（实线 / 虚线）一来一回，中间是用户继续聊天的"非阻塞区"：
 
-![异步子 Agent 时序图：用户向主 Agent 发起调研请求；主 Agent 调用 Agent Protocol 服务 launch 拿到 task_id 后立刻把控制权返还用户；后台 researcher 跑任务；用户后续询问进度，主 Agent 通过 check 拿到结果再回给用户](/mirror/a8/a82c7a17dc4d99e7b1a8c8d728709b62359616c6.png)
+![异步子 Agent 时序图：用户向主 Agent 发起调研请求；主 Agent 调用 Agent Protocol 服务 launch 拿到 task_id 后立刻把控制权返还用户；后台 researcher 跑任务；用户后续询问进度，主 Agent 通过 check 拿到结果再回给用户](/mirror/a8/a82c7a17dc4d99e7b1a8c8d728709b62359616c6.webp)
 
 ### 5 个工具底层做了什么
 

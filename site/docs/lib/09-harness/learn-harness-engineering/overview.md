@@ -99,17 +99,17 @@ Learn Harness Engineering is a course dedicated to the engineering of AI coding 
 ### 🏠 Course Homepage
 > A comprehensive course outline and introduction to core philosophies, providing a clear path to get started.
 
-![Course homepage preview](/mirror/ce/cecc5d477c9169de801c0d6361b93480651ab07a.png)
+![Course homepage preview](/mirror/ce/cecc5d477c9169de801c0d6361b93480651ab07a.webp)
 
 ### 📖 Immersive Lectures
 > Deep dives into real-world pain points and hands-on projects (like Project 01) for an immersive learning experience.
 
-![Course lecture preview](/mirror/f5/f5d4b6bfab7ae2621bb2217e335edbd46c8cd0c2.png)
+![Course lecture preview](/mirror/f5/f5d4b6bfab7ae2621bb2217e335edbd46c8cd0c2.webp)
 
 ### 🗂️ Ready-to-Use Resource Library
 > Templates and reference configurations designed to solve common pitfalls in multi-turn AI agent development, such as context loss and premature task completion.
 
-![Resource library preview](/mirror/7b/7bc219a4c68685d0f5efcf9a6df11de944ccc9aa.png)
+![Resource library preview](/mirror/7b/7bc219a4c68685d0f5efcf9a6df11de944ccc9aa.webp)
 
 ## PDF Coursebooks
 

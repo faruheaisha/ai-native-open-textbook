@@ -64,6 +64,6 @@ based on [claude-code-best-practice](https://github.com/shanraisshan/claude-code
 
 ## How cross-model workflow actually looks in production
 
-![Cross-Model Workflow](/mirror/c7/c76623e7754b39a5469fe260d2b2d283a04f44fa.png)
+![Cross-Model Workflow](/mirror/c7/c76623e7754b39a5469fe260d2b2d283a04f44fa.webp)
 
 *Last Updated: 2026-03-06*

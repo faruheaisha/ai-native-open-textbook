@@ -165,6 +165,9 @@ html.dark {
 
 .vp-doc img {
   max-width: 100%;
+  /* 标签上带了 width/height（浏览器据此提前占位、避免图片到达时页面往下跳）。
+     少了 height: auto，max-width 把宽度压小之后高度还按属性值渲染，图会被压扁。 */
+  height: auto;
   border: 1px solid var(--tb-line);
   border-radius: 6px;
   background: var(--tb-surface);

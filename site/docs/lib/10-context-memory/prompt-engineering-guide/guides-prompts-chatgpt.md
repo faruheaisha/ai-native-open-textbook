@@ -80,7 +80,7 @@ ASSISTANT: Of course! Black holes are created when a massive star runs out of fu
 
 Note that in the example above, I have simplified the input and output but the ChatGPT chat completion API requires messages to be in a specific format. I have added a snapshot below of how this example would look using the `Chat Mode` in the OpenAI Playground:
 
-![](/mirror/c3/c3b7368a96f56e25b6d75353f7803d07fe056bc3.png)
+![](/mirror/c3/c3b7368a96f56e25b6d75353f7803d07fe056bc3.webp)
 
 The more formal API call for our example would look something like the example below:
 
@@ -121,7 +121,7 @@ ASSISTANT: Mice.
 
 Keep in mind that I am adding the `USER` and `ASSISTANT` labels to better demonstrate how the task can be performed using ChatGPT. Here is the example using the Playground:
 
-![](/mirror/e1/e15d577d50060eb23e7f50fc214412618b6ea40e.png)
+![](/mirror/e1/e15d577d50060eb23e7f50fc214412618b6ea40e.webp)
 
 More formally, this is the API call (I've only included the message component of the request):
 

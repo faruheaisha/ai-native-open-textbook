@@ -61,7 +61,7 @@ AIHot 来自外部地址。安装前应查看来源域名和 Skill 内容，并�
 
 千问办公会先获取 Skill 内容，并调用 Skill 安全检查流程。确认来源、权限和将要执行的内容没有异常后，再继续安装。
 
-![千问办公获取 AIHot Skill 并执行安全检查](/mirror/6e/6ee4d0cb160ef459bd497539b2f2b21a5fe8b676.png)
+![千问办公获取 AIHot Skill 并执行安全检查](/mirror/6e/6ee4d0cb160ef459bd497539b2f2b21a5fe8b676.webp)
 
 安装完成后，可以继续问：
 
@@ -94,7 +94,7 @@ AIHot 来自外部地址。安装前应查看来源域名和 Skill 内容，并�
 
 实际运行后，千问办公返回了最近 7 天的 OpenAI 相关内容，并为每条资讯保留标题、时间、摘要和 AIHot 原始链接：
 
-![AIHot 查询最近 7 天 OpenAI 动态的结果](/mirror/27/27be6887c72c607722c535bca4f44101370a4299.png)
+![AIHot 查询最近 7 天 OpenAI 动态的结果](/mirror/27/27be6887c72c607722c535bca4f44101370a4299.webp)
 
 ## 任务二：生成今日 AI 大模型热点总结
 
@@ -113,7 +113,7 @@ AIHot 来自外部地址。安装前应查看来源域名和 Skill 内容，并�
 
 实际结果按照热点和大模型方向进行了整理，保留了具体来源链接，并给出一句话结论：
 
-![AIHot 生成今日 AI 大模型热点总结](/mirror/a5/a55e6fc4db3adcafa737aa71f41cdc813e28dc3c.png)
+![AIHot 生成今日 AI 大模型热点总结](/mirror/a5/a55e6fc4db3adcafa737aa71f41cdc813e28dc3c.webp)
 
 ## 怎样把任务描述写得更好
 

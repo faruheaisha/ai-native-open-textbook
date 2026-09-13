@@ -92,11 +92,11 @@ RAG 的价值就在这里：它不要求模型“自己就知道”，而是让�
 
 LLM 在考试的时候面对陌生的领域，答复能力有限，然后就准备放飞自我了，而此时 RAG 给了一些提示和思路，让 LLM 懂了开始往这个提示的方向做，最终考试的正确率从 60%到了 90%！
 
-![RAG 通过外部知识提示模型答题并提升正确率的示意图](/mirror/59/592692ac6dadf5853b3daf57efc29b0671fca54e.png)
+![RAG 通过外部知识提示模型答题并提升正确率的示意图](/mirror/59/592692ac6dadf5853b3daf57efc29b0671fca54e.webp)
 
 **举例 2：**
 
-![RAG 结合外部资料回答领域问题的示意图](/mirror/a6/a6be0acce3bae253cd591e2a94eb80c1e704ccef.png)
+![RAG 结合外部资料回答领域问题的示意图](/mirror/a6/a6be0acce3bae253cd591e2a94eb80c1e704ccef.webp)
 
 放到真实项目里，大致是：
 
@@ -132,7 +132,7 @@ flowchart LR
     end
 ```
 
-![LangChain 与 ChatGLM 构建知识库及问答流程的整体示意图](/mirror/fc/fcf9fd70a3e834e30a86648981879f683ba86d3f.png)
+![LangChain 与 ChatGLM 构建知识库及问答流程的整体示意图](/mirror/fc/fcf9fd70a3e834e30a86648981879f683ba86d3f.webp)
 
 **流程说明：**
 
@@ -159,7 +159,7 @@ flowchart LR
 | 15                         | LLM                 | 大语言模型     | 基于检索结果和用户问题生成答案。这里对应 RAG 里的“生成”。                    |
 | 16                         | Answer              | 答案           | 模型基于检索到的资料给出的最终回答。                                         |
 
-![RAG 从知识库构建到检索增强生成的完整架构图](/mirror/b9/b97d3f071d9a22fa7511d263243d92b4f6af7cbc.png)
+![RAG 从知识库构建到检索增强生成的完整架构图](/mirror/b9/b97d3f071d9a22fa7511d263243d92b4f6af7cbc.webp)
 
 > 检索-增强-生成过程：**检索**对应第 9 ～ 11 步（查询嵌入 → 查询向量 → 向量相似度搜索）；**增强**对应第 13 步（把检索结果注入到提示词 / 消息上下文）；**生成**对应第 15 步（LLM 输出答案）。
 
@@ -182,7 +182,7 @@ flowchart LR
 
 **强调一下难点的步骤（蓝色部分）：**
 
-![RAG 中最容易影响效果的关键步骤示意图](/mirror/3a/3a0407cf1724481290ffa2cc2e7868e06faccee4.png)
+![RAG 中最容易影响效果的关键步骤示意图](/mirror/3a/3a0407cf1724481290ffa2cc2e7868e06faccee4.webp)
 
 这张图提醒的是：RAG 最难的地方通常不在“上传文件”本身，而在这些环节是否做得合理：
 
@@ -301,7 +301,7 @@ flowchart TD
   - 支持混合检索、重排与更强的文档处理链路
   - 适合把“RAG 效果”当成核心竞争力的场景
 
-![Cherry Studio、AnythingLLM、Dify、FastGPT 与 RAGFlow 等知识库平台对比图](/mirror/a9/a9b302e913cc7fab0fe01bb9a2ea56efc17f6254.png)
+![Cherry Studio、AnythingLLM、Dify、FastGPT 与 RAGFlow 等知识库平台对比图](/mirror/a9/a9b302e913cc7fab0fe01bb9a2ea56efc17f6254.webp)
 
 ---
 
@@ -317,15 +317,15 @@ Cherry Studio 更适合被理解成一个“**个人向、桌面化、模型聚�
 
 **一问多答**：支持同一问题通过多个模型同时生成回复，方便对比不同模型的表现。
 
-![Cherry Studio 一问多答功能界面示意图](/mirror/20/207efb5fe1e804322ab8007d4bc4b9c1cfae4266.png)
+![Cherry Studio 一问多答功能界面示意图](/mirror/20/207efb5fe1e804322ab8007d4bc4b9c1cfae4266.webp)
 
 **助手市场**：内置千余个行业专用助手，涵盖翻译、编程、写作等场景，同时支持自定义助手。
 
-![Cherry Studio 助手市场界面示意图](/mirror/7c/7c7f21368611446facf43adedee577850d2114ab.png)
+![Cherry Studio 助手市场界面示意图](/mirror/7c/7c7f21368611446facf43adedee577850d2114ab.webp)
 
 **服务商模型聚合**：支持 OpenAI、Gemini、Anthropic、Azure 等规范的三方服务商接入，兼容性较强。
 
-![Cherry Studio 服务商模型聚合配置界面](/mirror/22/22dd1af7e983f638355bf49ab196c57fad4dd55c.png)
+![Cherry Studio 服务商模型聚合配置界面](/mirror/22/22dd1af7e983f638355bf49ab196c57fad4dd55c.webp)
 
 **数据安全**：支持全本地场景使用，结合本地大模型时，更适合对数据安全较敏感的用户。
 
@@ -350,19 +350,19 @@ Cherry Studio 更适合被理解成一个“**个人向、桌面化、模型聚�
 
 **步骤 3：创建 API 密钥**
 
-![在硅基流动平台创建 API 密钥的界面](/mirror/87/874b19dc22a52cd713c895750ded238609fb8453.png)
+![在硅基流动平台创建 API 密钥的界面](/mirror/87/874b19dc22a52cd713c895750ded238609fb8453.webp)
 
 **步骤 4：复制 API 密钥**
 
 **步骤 5：配置 API 密钥**
 
-![在 Cherry Studio 中配置 API 密钥的界面一](/mirror/82/825ae1f06fcb8a35ba936d818a465183c1bd73cc.png)
+![在 Cherry Studio 中配置 API 密钥的界面一](/mirror/82/825ae1f06fcb8a35ba936d818a465183c1bd73cc.webp)
 
 **步骤 6：选择大语言模型**
 
-![在 Cherry Studio 中选择大语言模型的界面一](/mirror/5c/5c804c22a90e7a908a618be40428920cc9030aba.png)
+![在 Cherry Studio 中选择大语言模型的界面一](/mirror/5c/5c804c22a90e7a908a618be40428920cc9030aba.webp)
 
-![在 Cherry Studio 中选择大语言模型的界面二](/mirror/ab/ab12f4b748983edbc61b7375891fa351c8c8dbaa.png)
+![在 Cherry Studio 中选择大语言模型的界面二](/mirror/ab/ab12f4b748983edbc61b7375891fa351c8c8dbaa.webp)
 
 到这里完成的是“生成模型”接入，也就是后面负责回答问题的那部分能力。
 
@@ -374,21 +374,21 @@ Cherry Studio 更适合被理解成一个“**个人向、桌面化、模型聚�
 
 根据下图确认名称：
 
-![确认嵌入模型名称的界面示意图](/mirror/be/be080c0dae839efbb42a464c868740b39d040299.png)
+![确认嵌入模型名称的界面示意图](/mirror/be/be080c0dae839efbb42a464c868740b39d040299.webp)
 
 回到 Cherry Studio 添加：
 
-![在 Cherry Studio 中添加嵌入模型的界面](/mirror/be/beb48f25a58541dcaf49d94c1e9ac3d73a35a40d.png)
+![在 Cherry Studio 中添加嵌入模型的界面](/mirror/be/beb48f25a58541dcaf49d94c1e9ac3d73a35a40d.webp)
 
 这一步对应的是 RAG 里的“Embedding”环节。后续上传文档建库、用户提问检索，都会依赖这一模型。
 
 **步骤 2：创建知识库**
 
-![在 Cherry Studio 中创建知识库的界面](/mirror/32/32f0edda21f844638f28fe4fce2a6637acf90a52.png)
+![在 Cherry Studio 中创建知识库的界面](/mirror/32/32f0edda21f844638f28fe4fce2a6637acf90a52.webp)
 
 提供知识库内容：
 
-![在 Cherry Studio 中向知识库导入文件、网页或文本内容的界面](/mirror/16/161595c41dc468938459f78c75d5f862757e7402.png)
+![在 Cherry Studio 中向知识库导入文件、网页或文本内容的界面](/mirror/16/161595c41dc468938459f78c75d5f862757e7402.webp)
 
 这里支持不同格式文件、文件夹、网页地址、大段文本内容等多种方式添加到知识库。
 
@@ -398,7 +398,7 @@ Cherry Studio 更适合被理解成一个“**个人向、桌面化、模型聚�
 
 检索：
 
-![Cherry Studio 知识库直接检索结果界面](/mirror/cb/cb41c8d6ec18bbd849ba132cf0c4c44b2da73c44.png)
+![Cherry Studio 知识库直接检索结果界面](/mirror/cb/cb41c8d6ec18bbd849ba132cf0c4c44b2da73c44.webp)
 
 这里展示的是“先搜知识库”的能力。此时系统还没有让大模型长篇生成，而是在数据库中基于 RAG 思路做召回。相关片段和匹配得分都能看到，很适合用来排查效果。
 
@@ -406,9 +406,9 @@ Cherry Studio 更适合被理解成一个“**个人向、桌面化、模型聚�
 
 选中后，提问：
 
-![Cherry Studio 基于知识库生成回答的界面一](/mirror/f2/f20636c44f7fb5b0ba215b5fbf52e27d1829364b.png)
+![Cherry Studio 基于知识库生成回答的界面一](/mirror/f2/f20636c44f7fb5b0ba215b5fbf52e27d1829364b.webp)
 
-![Cherry Studio 基于知识库生成回答的界面二](/mirror/f9/f9cb690696eaab4b6f049e6103026933bd8351ec.png)
+![Cherry Studio 基于知识库生成回答的界面二](/mirror/f9/f9cb690696eaab4b6f049e6103026933bd8351ec.webp)
 
 这一步对应的才是“完整 RAG”：先检索，再增强上下文，再由模型生成答案。
 
@@ -420,7 +420,7 @@ Cherry Studio 更适合被理解成一个“**个人向、桌面化、模型聚�
 
 网址：https://doc2x.noedgeai.com/
 
-![Doc2X 文档解析工具官网界面](/mirror/40/403685191b2a932b4538956ae55be7f3bf702cdb.png)
+![Doc2X 文档解析工具官网界面](/mirror/40/403685191b2a932b4538956ae55be7f3bf702cdb.webp)
 
 这里你要建立一个很实用的工程意识：
 
@@ -429,7 +429,7 @@ Cherry Studio 更适合被理解成一个“**个人向、桌面化、模型聚�
 
 ### 3.4 流程分析
 
-![个人知识库从导入资料到检索生成的整体流程图](/mirror/11/111f6b237cbfba3ccc57300486ae23c1be306002.jpg)
+![个人知识库从导入资料到检索生成的整体流程图](/mirror/11/111f6b237cbfba3ccc57300486ae23c1be306002.webp)
 
 Cherry Studio 这整套流程可以拆成：
 
@@ -462,21 +462,21 @@ Cherry Studio 这整套流程可以拆成：
 
 网址：https://ima.qq.com/
 
-![ima 登录界面](/mirror/c2/c2a67f81859bdf4cf9584e02ac2719cc6c862b5e.png)
+![ima 登录界面](/mirror/c2/c2a67f81859bdf4cf9584e02ac2719cc6c862b5e.webp)
 
 **步骤 2：新建知识库**
 
-![在 ima 中新建知识库的界面](/mirror/0b/0bce1ee04704d0884ea29b4a7e710a643df9d47d.png)
+![在 ima 中新建知识库的界面](/mirror/0b/0bce1ee04704d0884ea29b4a7e710a643df9d47d.webp)
 
 **步骤 3：导入本地文件**
 
-![在 ima 中导入本地文件的界面三](/mirror/11/112090919e1a21a8bccfe0ef4bfb883b36407925.png)
+![在 ima 中导入本地文件的界面三](/mirror/11/112090919e1a21a8bccfe0ef4bfb883b36407925.webp)
 
 **步骤 4：基于知识库「生成」**
 
-![ima 基于知识库生成回答的界面一](/mirror/7f/7fe16b40e04d6cdc8bef9b47b69feef3caf72b12.png)
+![ima 基于知识库生成回答的界面一](/mirror/7f/7fe16b40e04d6cdc8bef9b47b69feef3caf72b12.webp)
 
-![ima 基于知识库生成回答的界面二](/mirror/3c/3c59476b4db1f60ce770e43d334e55a5a0e826f6.png)
+![ima 基于知识库生成回答的界面二](/mirror/3c/3c59476b4db1f60ce770e43d334e55a5a0e826f6.webp)
 
 这部分最值得你体会的是：即使平台界面和 Cherry Studio 不同，但底层做的事情仍然是同一套逻辑：
 
@@ -494,11 +494,11 @@ Cherry Studio 这整套流程可以拆成：
 
 步骤 2：在 ima 中新建个人知识库，将相关文章加入到此知识库。
 
-![在微信公众号中查找可加入知识库的文章界面一](/mirror/f6/f6a6fc4acf4a4ced981efb266d65b994e7e8e247.png)
+![在微信公众号中查找可加入知识库的文章界面一](/mirror/f6/f6a6fc4acf4a4ced981efb266d65b994e7e8e247.webp)
 
 步骤 3：文章导入完成后，即可生成知识库，并基于大模型进行检索与问答。
 
-![ima 基于网页文章构建知识库后的界面一](/mirror/dc/dcd2c9a38c0235c0850fa92aba455946a1aa76fc.png)
+![ima 基于网页文章构建知识库后的界面一](/mirror/dc/dcd2c9a38c0235c0850fa92aba455946a1aa76fc.webp)
 
 这个案例很有代表性，因为它说明了一个重要认知：
 
@@ -506,9 +506,9 @@ Cherry Studio 这整套流程可以拆成：
 
 ### 4.4 添加第三方知识库
 
-![ima 查看第三方知识库的界面一](/mirror/b4/b4024808dc286242fc8d45910de28af8f29fa9f2.png)
+![ima 查看第三方知识库的界面一](/mirror/b4/b4024808dc286242fc8d45910de28af8f29fa9f2.webp)
 
-![ima 查看第三方知识库的界面二](/mirror/11/11881b4b2d34d4cde6647b4dfeb443f627a070c5.png)
+![ima 查看第三方知识库的界面二](/mirror/11/11881b4b2d34d4cde6647b4dfeb443f627a070c5.webp)
 
 这一点对应的是“知识库协作和复用”的能力。对于企业或团队来说，知识库的价值不只是你自己能查，而是它能成为多人共享的知识入口。
 
@@ -559,13 +559,13 @@ Dify 是一个开源的大语言模型（LLM）应用开发平台。和 Cherry S
 
 **步骤 1：首先创建一个新的知识库**
 
-![在 Dify 中创建知识库的界面](/mirror/65/65cc6769e24d9a41a6840e9e1faf3c892c843633.png)
+![在 Dify 中创建知识库的界面](/mirror/65/65cc6769e24d9a41a6840e9e1faf3c892c843633.webp)
 
 **步骤 2：上传知识库文件**
 
 这里准备的是一份《刑法》的 TXT 格式文本，按自然段划分了每一条法条。
 
-![在 Dify 中上传知识库文件的界面](/mirror/5a/5ad9b3995de1444c53004c227602e39365303dee.png)
+![在 Dify 中上传知识库文件的界面](/mirror/5a/5ad9b3995de1444c53004c227602e39365303dee.webp)
 
 这个案例适合作为入门演示，因为法律条文天然分段清晰、知识边界明确，也更容易观察检索是否准确。
 
@@ -587,13 +587,13 @@ Dify 是一个开源的大语言模型（LLM）应用开发平台。和 Cherry S
 | **分段最大长度** | 单块文本的字数 / 字符上限，超过就再切一刀。                          | 设太大，单块里无关内容太多，容易把噪音带进 Prompt；设太小，语义被拆散，召回容易漏关键信息。一般可从 200～800 字（或约 100～500 token）起步，再按文档类型调。 |
 | **分段重叠长度** | 相邻两块之间重复一段文字，避免边界处语义断裂。                       | 有一定重叠，边界上的句子不容易被截断；重叠太大则会造成内容重复、存储浪费和检索噪声。                                                                         |
 
-![Dify 知识库分段设置界面](/mirror/e2/e266a9194faac4e8b6f133dea35ff772e811d735.png)
+![Dify 知识库分段设置界面](/mirror/e2/e266a9194faac4e8b6f133dea35ff772e811d735.webp)
 
 **步骤 4：选择索引方式**
 
 这里自动选择高质量。高质量的准确性更高，但 token 消耗也会增加；如果用的是本地部署模型，成本敏感度会低一些。
 
-![Dify 知识库索引方式选择界面](/mirror/7f/7f0cf499cd6016142e4c720d222061eefbf3c444.png)
+![Dify 知识库索引方式选择界面](/mirror/7f/7f0cf499cd6016142e4c720d222061eefbf3c444.webp)
 
 还有 **Q&A 方式**：如果文档本身就是问答对形式，这种方式通常更契合。
 
@@ -601,7 +601,7 @@ Dify 是一个开源的大语言模型（LLM）应用开发平台。和 Cherry S
 
 在这里可选择 **Embedding 模型**与 **Rerank 模型**，也可以设置 Top K，也就是选出最相似的前 n 条。还可以设置 Score 阈值，即筛选文本的相似度下限。
 
-![Dify 知识库检索设置界面](/mirror/41/41938b475fecf4415b8efacefc438b9043168cfa.png)
+![Dify 知识库检索设置界面](/mirror/41/41938b475fecf4415b8efacefc438b9043168cfa.webp)
 
 混合检索：既包括向量检索（可选用 Rerank 模型做精排），也包含全文检索。
 
@@ -618,7 +618,7 @@ Dify 是一个开源的大语言模型（LLM）应用开发平台。和 Cherry S
 
 设置完成后，保存并处理即可。
 
-![Dify 保存并处理知识库的界面](/mirror/cf/cfa4d0e1895bf676796ca3dd862492f4b9b63d34.png)
+![Dify 保存并处理知识库的界面](/mirror/cf/cfa4d0e1895bf676796ca3dd862492f4b9b63d34.webp)
 
 这一节最值得你带走的工程结论是：
 
@@ -638,7 +638,7 @@ Dify 是一个开源的大语言模型（LLM）应用开发平台。和 Cherry S
 
 可以观察到，聊天助手会自动引用知识库中的内容进行回答。
 
-![Dify 中基于知识库进行测试问答的界面](/mirror/32/3221c2b24c410c5f824c4df68ba25cd0a9cd3029.png)
+![Dify 中基于知识库进行测试问答的界面](/mirror/32/3221c2b24c410c5f824c4df68ba25cd0a9cd3029.webp)
 
 这个案例和前面 Cherry Studio、ima 的案例一起看，会更容易形成完整理解：
 

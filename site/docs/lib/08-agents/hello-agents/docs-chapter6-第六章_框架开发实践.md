@@ -45,7 +45,7 @@ zh: ""
 在本章的后续实战中，我们将聚焦于四个在这些前沿领域极具代表性的框架：AutoGen、AgentScope、CAMEL 和 LangGraph。它们的设计理念各不相同，分别代表了实现复杂智能体系统的不同技术路径，如表6.1所示。
 
   <p>表 6.1 四种智能体框架对比</p>
-  <img src="/mirror/50/50a8ac67881a1dfb82c8ea7763c815975d1bbabb.png" alt="" width="90%"/>
+  <img src="/mirror/50/50a8ac67881a1dfb82c8ea7763c815975d1bbabb.webp" alt="" width="90%"/>
 
 
 - <strong>AutoGen</strong>：AutoGen 的核心思想是通过对话实现协作<sup>[1]</sup>。它将多智能体系统抽象为一个由多个“可对话”智能体组成的群聊。开发者可以定义不同角色（如 `Coder`, `ProductManager`, `Tester`），并设定它们之间的交互规则（例如，`Coder` 写完代码后由 `Tester` 自动接管）。任务的解决过程，就是这些智能体在群聊中通过自动化消息传递，不断对话、协作、迭代直至最终目标达成的过程。
@@ -63,7 +63,7 @@ zh: ""
 
 `0.7.4` 版本的发布是 AutoGen 发展的一个重要节点，它标志着框架在底层设计上的一次根本性革新。这次更新并非简单的功能叠加，而是对整体架构的重新思考，旨在提升框架的模块化、并发性能和开发者体验。
 
-  <img src="/mirror/a7/a7f42a6563e5ac77b2e3418feae4ef7bc82fc29d.png" alt="" width="90%"/>
+  <img src="/mirror/a7/a7f42a6563e5ac77b2e3418feae4ef7bc82fc29d.webp" alt="" width="90%"/>
   <p>图 6.1 AutoGen架构图</p>
 
 （1）框架结构的演进
@@ -417,7 +417,7 @@ model_client = OpenAIChatCompletionClient(
 
 如图6.2所示，AgentScope 采用了清晰的分层模块化设计，从底层的基础组件到上层的应用编排，形成了一个完整的智能体开发生态。
 
-  <img src="/mirror/03/0365915772fe79febf9b3cc821e139d50d1ec695.png" alt="" width="90%"/>
+  <img src="/mirror/03/0365915772fe79febf9b3cc821e139d50d1ec695.webp" alt="" width="90%"/>
   <p>图 6.2 AgentScope架构图</p>
 
 在这个架构中，最底层是<strong>基础组件层 (Foundational Components)</strong>，它为整个框架提供了核心的构建块。`Message` 组件定义了统一的消息格式，支持从简单的文本交互到复杂的多模态内容；`Memory` 组件提供了短期和长期记忆管理；`Model API` 层抽象了对不同大语言模型的调用；而 `Tool` 组件则封装了智能体与外部世界交互的能力。
@@ -739,7 +739,7 @@ CAMEL 实现自主协作的基石是两大核心概念：<strong>角色扮演 (R
 
 这些约束条件确保了对话不会偏离主题、不会陷入无效循环，而是以一种高度结构化、任务驱动的方式向前推进，如图6.3所示。
 
-  <img src="/mirror/b9/b964e34d5a9d1db8c85221ed12d70fb0cbbed308.png" alt="" width="90%"/>
+  <img src="/mirror/b9/b964e34d5a9d1db8c85221ed12d70fb0cbbed308.webp" alt="" width="90%"/>
   <p>图 6.3 CAMEL创建股票机器人交易</p>
 
 在下一节，我们将通过一个具体的实例来体验这一过程。

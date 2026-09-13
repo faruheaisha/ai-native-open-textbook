@@ -72,22 +72,22 @@ zh: ""
 
 整体布局介绍：最近扣子又又更新了他的UI界面了，如图5.1所示。现在最左边的侧边栏是扣子平台主页的开发工作区，包括核心的项目开发、资源库、效果评测和空间配置。下面的区域是扣子开发的配套资料空间包括官方模板一键复制、扣子最大的优势丰富多样的插件商店、最大的智能体社区琳琅满目、api管理就是api测试用的、以及详细的教程文档和面向企业的通用管理。右边这一块有四个模板，最上面是扣子最新的更新公告告诉你扣子的最新进展方便你了解最新的工具和功能。接着下面是新手教程，点开就是新手教程文档啦，分分钟开始智能体搭建。其次是你的关注和智能体推荐，在这里你也可以关注喜欢的AI开发者，和收藏他们的智能体为自己所用。
 
-  <img src="/mirror/d0/d082291a6dfd785cc8ceb1798c2c5df1e47d6fc4.png" alt="图片描述" width="90%"/>
+  <img src="/mirror/d0/d082291a6dfd785cc8ceb1798c2c5df1e47d6fc4.webp" alt="图片描述" width="90%"/>
   <p>图 5.1 扣子智能智能体平台整体示意图</p>
 
 （2）核心功能介绍
 
 首先我们点击左边侧栏的加号就可以看到创建智能体的入口了，这里目前有两类AI应用，一种是创建智能体，另一种叫应用。其中智能体又分为单智能体自主规划模式、单智能体对话流模式和多智能体模式。AI应用也分两种不仅能设计桌面网页端的用户界面，还能轻松搭建小程序和 H5 端的界面，如图5.2所示。
-  <img src="/mirror/bd/bd15ecb2799d4c24066a961a6a953b38b0263c2b.png" alt="图片描述" width="90%"/>
+  <img src="/mirror/bd/bd15ecb2799d4c24066a961a6a953b38b0263c2b.webp" alt="图片描述" width="90%"/>
   <p>图 5.2 扣子智能体创建入口</p>
 项目空间里是你的智能体仓库，这里放着你所有开发的智能体或复制的智能体/应用，也是在扣子进行智能体开发你最经常来到的地方，如图5.3所示。
-  <img src="/mirror/5d/5d8e2516162b12e3ac5f10340c44e6086c38577d.png" alt="图片描述" width="90%"/>
+  <img src="/mirror/5d/5d8e2516162b12e3ac5f10340c44e6086c38577d.webp" alt="图片描述" width="90%"/>
   <p>图 5.3 扣子智能体项目空间</p>
 资源库是你开发扣子智能体的核心武器库，资源库就会存放你的工作流，知识库，卡片，提示词库等等一系列开发智能体的工具。你能做出什么样的智能体，首先取决于模型的能力，但是最重要的还是要看你怎么给智能体搭配“出装和技能”。模型决定了智能体的下限，但是扣子资源库给了你智能体的能力的无穷上限，让你能够按照自己的想法，开发想象力和脑洞进行智能体的开发，如图5.4所示。
-  <img src="/mirror/5f/5f21575cb205843e9c2042891611eb86c0653930.png" alt="图片描述" width="90%"/>
+  <img src="/mirror/5f/5f21575cb205843e9c2042891611eb86c0653930.webp" alt="图片描述" width="90%"/>
   <p>图 5.4 扣子智能体资源库</p>
 空间配置包含智能体、插件、工作流和发布渠道的一个统一的管理频道，以及模型管理就是你可以在这里看到你调用的各种大模型，如图5.5所示。
-  <img src="/mirror/7e/7eb1c8abdfaf445c3f5a3d183cd8c0c1e8f8dfdc.png" alt="图片描述" width="90%"/>
+  <img src="/mirror/7e/7eb1c8abdfaf445c3f5a3d183cd8c0c1e8f8dfdc.webp" alt="图片描述" width="90%"/>
   <p>图 5.5 扣子智能体发布渠道</p>
 如果让我对扣子的智能体开发做一个简单的总结的话，我会把他比喻成一个游戏的各个组成部分，各部分配合组合出一个一个精彩的智能体像极了打“游戏”，每做完一个智能体都像是打完了一个boss并且收获满满，不管是“经验”还是“装备”。
 
@@ -123,11 +123,11 @@ zh: ""
 
 1.  <strong>插件集成:</strong> 在 Coze 的插件库中，搜索并添加所需的插件。例如，通过 <strong>RSS</strong> 插件订阅媒体平台的RSS源（如图5.6所示），通过 <strong>GitHub</strong> 插件追踪开源项目（如图5.7所示），以及通过 <strong>arXiv</strong> 插件获取最新的学术研究成果（如图5.8所示）。
 
-  <img src="/mirror/b1/b15853d778dff60f3927a0c55e860c22e7c6ec0a.png" alt="图片描述" width="90%"/>
+  <img src="/mirror/b1/b15853d778dff60f3927a0c55e860c22e7c6ec0a.webp" alt="图片描述" width="90%"/>
   <p>图 5.6 媒体平台的RSS源插件</p>
-  <img src="/mirror/98/988276ccb6bac8350b94c685a79dafcb3c28917d.png" alt="图片描述" width="90%"/>
+  <img src="/mirror/98/988276ccb6bac8350b94c685a79dafcb3c28917d.webp" alt="图片描述" width="90%"/>
   <p>图 5.7 GitHub插件</p>
-  <img src="/mirror/5f/5f0781f59f74a5010973c31ac17510fb681943a0.png" alt="图片描述" width="90%"/>
+  <img src="/mirror/5f/5f0781f59f74a5010973c31ac17510fb681943a0.webp" alt="图片描述" width="90%"/>
   <p>图 5.8 Arxiv插件</p>
 
 2.  <strong>个性化配置:</strong> 对每一个插件进行精细化配置，以确保其能精准地获取所需数据。例如，在 RSS 插件中，输入36氪、虎嗅等网站的特定RSS订阅链接；在 GitHub 插件中，设置需监控的关键词查询数量以及最新更新设置；在 arXiv 插件中，定义感兴趣的领域关键词，如“LLM”、“AI”等，定义数量以及最新更新设置。
@@ -154,7 +154,7 @@ Arxiv插件配置
 ```
 
 3.  <strong>编排连接:</strong> 在智能体的可视化编排界面中，将这些已配置的信息源插件（例如 `rss_24Hbj`、`searchRepository`、`arxiv` 等）作为数据输入节点，并将其连接至后续的逻辑处理模块（例如<strong>大模型</strong>模块），以构建完整的数据处理路径，如图5.9所示。
-  <img src="/mirror/73/73e5e8c51a1efa8297b461232354e7c1143175e4.png" alt="图片描述" width="90%"/>
+  <img src="/mirror/73/73e5e8c51a1efa8297b461232354e7c1143175e4.webp" alt="图片描述" width="90%"/>
   <p>图 5.9 每日AI简报编排流程图</p>
 
 
@@ -250,22 +250,22 @@ Arxiv插件配置
 
 多渠道发布: Coze 提供了将智能体一键发布到多个主流应用平台（如微信、豆包、飞书等）的能力，极大地扩展了智能体的应用场景，如图5.10所示。
 
-  <img src="/mirror/f5/f5f54faf137ac4ff0928276610e1bddbc16db152.png" alt="图片描述" width="60%"/>
+  <img src="/mirror/f5/f5f54faf137ac4ff0928276610e1bddbc16db152.webp" alt="图片描述" width="60%"/>
   <p>图 5.10 扣子平台的多元发布渠道</p>
 
 智能体发布后，可以在扣子商店中看到我们创建的AI智能体，同时也可以将其集成到AI应用中为用户提供服务，如图5.11和图5.12所示。在这里也附上[每日AI新闻智能体体验链接](https://www.coze.cn/store/agent/7506052197071962153?bot_id=true&bid=6hkt3je8o2g16)
 
-  <img src="/mirror/f1/f1cc36710459beb7c06bd43df42d77c3102fd8a2.png" alt="图片描述" width="90%"/>
+  <img src="/mirror/f1/f1cc36710459beb7c06bd43df42d77c3102fd8a2.webp" alt="图片描述" width="90%"/>
   <p>图 5.11 AI智能体-每日AI新闻</p>
 
 更进一步的，我们可以点击这个[体验链接](https://www.coze.cn/store/project/7458678213078777893?from=store_search_suggestion&bid=6gu3cmr7k5g1i)查看在AI应用中的每日AI新闻。
-  <img src="/mirror/e2/e2bf8240791be90ec931b74f3d286bed469623de.png" alt="图片描述" width="90%"/>
+  <img src="/mirror/e2/e2bf8240791be90ec931b74f3d286bed469623de.webp" alt="图片描述" width="90%"/>
   <p>图 5.12 AI应用中的每日AI新闻</p>
 <strong>发布配置：</strong>如果想要发布自己的智能体，还需在发布前，为智能体配置恰当的名称、头像及欢迎语，以提供更友好的用户体验，如图5.13和图5.14所示。
 
-  <img src="/mirror/08/08089b7a964b34345c56b274075a13407e185bb4.png" alt="图片描述" width="50%"/>
+  <img src="/mirror/08/08089b7a964b34345c56b274075a13407e185bb4.webp" alt="图片描述" width="50%"/>
   <p>图 5.13 为智能体配置基础信息</p>
-  <img src="/mirror/68/6819f2180655723fcdf8c97798cd4f93692f47a7.png" alt="图片描述" width="50%"/>
+  <img src="/mirror/68/6819f2180655723fcdf8c97798cd4f93692f47a7.webp" alt="图片描述" width="50%"/>
   <p>图 5.14 为智能体配置开场白和预设问题</p>
 
 
@@ -294,12 +294,12 @@ Dify 对模型高度中立且兼容性强：无论开源或商业模型，用户
 
 同时，Dify 支持本地部署（官方提供 Docker Compose 一键启动）和云端部署。用户可以选择将 Dify 自建部署在本地/私有环境（保障数据隐私），也可以使用官方 SaaS 云服务（下述商业模式部分详述）。这种部署灵活性使其适用于对安全性有要求的企业内网环境或对运维便利性有要求的开发者群体。
 
-  <img src="/mirror/b7/b75017d0839b83082b89138919b2f2c56193a55f.png" alt="图片描述" width="90%"/>
+  <img src="/mirror/b7/b75017d0839b83082b89138919b2f2c56193a55f.webp" alt="图片描述" width="90%"/>
   <p>图 5.15 Dify官网</p>
 
 Marketplace 插件生态：​Dify Marketplace 提供了一站式插件管理和一键部署功能，使开发者能够发现、扩展或提交插件，为社区带来更多可能​，如图5.16所示。
 
-  <img src="/mirror/ef/efc3c7133c1b7e5b680e5577ebd23a5c478fee62.png" alt="图片描述" width="90%"/>
+  <img src="/mirror/ef/efc3c7133c1b7e5b680e5577ebd23a5c478fee62.webp" alt="图片描述" width="90%"/>
   <p>图 5.16 Dify Marketplace插件生态</p>
 Marketplace 包含：
 
@@ -325,34 +325,34 @@ Dify 为插件开发者提供了强大的开发支持，包括远程调试功能
 
 在上一节 Coze 的案例中，我们搭建了一个每日AI简报智能体。虽然功能明确，但其单一的简报生成能力略显局限。本节将使用 Dify 构建一个功能全面的超级智能体个人助手，涵盖日常问答、文案优化、多模态生成、数据分析等多个场景。在开始之前，我们先简要了解 Dify 的主要界面和功能模块。
 
-  <img src="/mirror/88/88a4b34dd79754259df9d98d074b396535944bb2.png" alt="图片描述" width="90%"/>
+  <img src="/mirror/88/88a4b34dd79754259df9d98d074b396535944bb2.webp" alt="图片描述" width="90%"/>
   <p>图 5.17 Dify 智能体搭建主页</p>
-  <img src="/mirror/dd/ddc91ba307fe94b175c2b89755d06e1a9072d2b3.png" alt="图片描述" width="90%"/>
+  <img src="/mirror/dd/ddc91ba307fe94b175c2b89755d06e1a9072d2b3.webp" alt="图片描述" width="90%"/>
   <p>图 5.18 Dify 官方模板库</p>
-  <img src="/mirror/38/38a8002eb16d77c60cc130d6d50032408001de01.png" alt="图片描述" width="90%"/>
+  <img src="/mirror/38/38a8002eb16d77c60cc130d6d50032408001de01.webp" alt="图片描述" width="90%"/>
   <p>图 5.19 Dify 知识库</p>
-  <img src="/mirror/1a/1aed5c902d81af98f3db1a56f3b7fcce303ddb29.png" alt="图片描述" width="90%"/>
+  <img src="/mirror/1a/1aed5c902d81af98f3db1a56f3b7fcce303ddb29.webp" alt="图片描述" width="90%"/>
   <p>图 5.20 Dify 插件市场</p>
-  <img src="/mirror/bd/bd0442214d76fe9191857a3a6a2efb09e926730c.png" alt="图片描述" width="90%"/>
+  <img src="/mirror/bd/bd0442214d76fe9191857a3a6a2efb09e926730c.webp" alt="图片描述" width="90%"/>
   <p>图 5.21 Dify 大模型配置</p>
 
 <strong>(1) 创建插件和配置MCP</strong>
 
 在构建智能体之前，需要先完成必要的插件安装和 MCP 配置。如图5.22所示，这些是本案例所需的核心插件。
 
-  <img src="/mirror/3f/3fe8d2fe91f82d153689767159f44e0a22010f1c.png" alt="图片描述" width="90%"/>
+  <img src="/mirror/3f/3fe8d2fe91f82d153689767159f44e0a22010f1c.webp" alt="图片描述" width="90%"/>
   <p>图 5.22 Dify 插件安装配置</p>
 
 图中红框标注的插件需要从 Dify 插件市场中搜索并安装。用户可以点击查看详情了解各插件的具体功能。
 
 接下来配置 MCP（Model Context Protocol）。关于 MCP 的详细原理这里不展开，我们重点演示如何使用云端部署的 MCP 服务。本案例使用国内的魔搭社区 MCP 市场进行演示，如图5.23所示。
 
-  <img src="/mirror/eb/eb2d0405fd7fa3299f8327635ef051f0d7149b5a.png" alt="图片描述" width="90%"/>
+  <img src="/mirror/eb/eb2d0405fd7fa3299f8327635ef051f0d7149b5a.webp" alt="图片描述" width="90%"/>
   <p>图 5.23 魔搭社区mcp市场</p>
 
 打开魔搭社区 MCP 市场，选择 hosted 类型。以高德 MCP 为例，进入其主页后，在右侧选择 SSE 模式并点击连接配置，即可生成专属的 MCP 配置 JSON，如图5.24所示。MCP 支持多种通信模式，但在 Dify 中使用 SSE 模式通信更加流畅稳定，因此推荐选择 SSE 模式。
 
-  <img src="/mirror/7e/7e7336615e30f15dd1b2ebfce028412099f6566e.png" alt="图片描述" width="90%"/>
+  <img src="/mirror/7e/7e7336615e30f15dd1b2ebfce028412099f6566e.webp" alt="图片描述" width="90%"/>
   <p>图 5.24 高德mcp配置示例</p>
 
 <strong>(2) Agent设计与效果展示</strong>
@@ -367,7 +367,7 @@ Dify 为插件开发者提供了强大的开发支持，包括远程调试功能
 
 整个智能体的编排架构如图5.25所示。
 
-  <img src="/mirror/29/296c18c08cd40a0cf79ca5ccee82228f445668b6.png" alt="图片描述" width="60%"/>
+  <img src="/mirror/29/296c18c08cd40a0cf79ca5ccee82228f445668b6.webp" alt="图片描述" width="60%"/>
   <p>图 5.25 智能体编排</p>
 
 针对多智能体架构，我们使用问题分类器进行智能路由。在分类器中为每个智能体定义核心功能和任务范围，确保用户请求能够准确分发到对应的处理模块。
@@ -439,7 +439,7 @@ Dify 为插件开发者提供了强大的开发支持，包括远程调试功能
 
 效果演示如图5.26所示：
 
-  <img src="/mirror/32/32fb93cdf5987eb7adb69ceeede17640edf34343.png" alt="图片描述" width="50%"/>
+  <img src="/mirror/32/32fb93cdf5987eb7adb69ceeede17640edf34343.webp" alt="图片描述" width="50%"/>
   <p>图 5.26 日常助手</p>
 
 <strong>文案优化模块</strong>
@@ -477,7 +477,7 @@ Dify 为插件开发者提供了强大的开发支持，包括远程调试功能
 
 效果演示如图5.27所示：
 
-  <img src="/mirror/b0/b0dacdd68112e163eb1d2f613ed62f8fcda4cd2f.png" alt="图片描述" width="50%"/>
+  <img src="/mirror/b0/b0dacdd68112e163eb1d2f613ed62f8fcda4cd2f.webp" alt="图片描述" width="50%"/>
   <p>图 5.27 文案助手</p>
 
 <strong>多模态生成模块</strong>
@@ -494,14 +494,14 @@ Dify 为插件开发者提供了强大的开发支持，包括远程调试功能
 
 生图配置和效果如图5.28和图5.29所示。
 
-  <img src="/mirror/3a/3a4490785690f8dc5a3ba16f1f7cc63a7d60c481.png" alt="图片描述" width="50%"/>
+  <img src="/mirror/3a/3a4490785690f8dc5a3ba16f1f7cc63a7d60c481.webp" alt="图片描述" width="50%"/>
   <p>图 5.28 生图设置</p>
-  <img src="/mirror/83/83b370ea212bc410560e904d45ebe40e89557a2f.png" alt="图片描述" width="50%"/>
+  <img src="/mirror/83/83b370ea212bc410560e904d45ebe40e89557a2f.webp" alt="图片描述" width="50%"/>
   <p>图 5.29 生图助手</p>
 
 视频生成的效果如图5.30所示。
 
-  <img src="/mirror/ef/eff334e06692673a5627e5d8c9449653796119a5.png" alt="图片描述" width="50%"/>
+  <img src="/mirror/ef/eff334e06692673a5627e5d8c9449653796119a5.webp" alt="图片描述" width="50%"/>
   <p>图 5.30 视频助手</p>
 
   <p><a href="https://pub-f5ed2046361c4244878e5984bdb564de.r2.dev/9af7c33d-5c82-4b14-8fb3-a4e426e8ee5a.mp4">点击观看视频演示</a></p>
@@ -517,7 +517,7 @@ Dify 为插件开发者提供了强大的开发支持，包括远程调试功能
 
 配置数据库连接信息（IP地址、数据库名称、端口、账号、密码等），如图5.31所示。查询结果需要通过大模型节点进行整理，转换为易于理解的自然语言输出。
 
-  <img src="/mirror/4d/4d9a44076e7ced123037afa767cc80a748b00a0a.png" alt="图片描述" width="50%"/>
+  <img src="/mirror/4d/4d9a44076e7ced123037afa767cc80a748b00a0a.webp" alt="图片描述" width="50%"/>
   <p>图 5.31 数据库配置</p>
 
 提示词设置：
@@ -548,7 +548,7 @@ Dify 为插件开发者提供了强大的开发支持，包括远程调试功能
 
 效果展示如图5.32所示：
 
-  <img src="/mirror/a3/a39e5242134d9bd0470d0eaa2bc368bd24f525f4.png" alt="图片描述" width="50%"/>
+  <img src="/mirror/a3/a39e5242134d9bd0470d0eaa2bc368bd24f525f4.webp" alt="图片描述" width="50%"/>
   <p>图 5.32 数据查询助手</p>
 
 提示词设置：
@@ -581,7 +581,7 @@ Dify 为插件开发者提供了强大的开发支持，包括远程调试功能
 2. 展示生成的图表
 ```
 
-  <img src="/mirror/93/93308e459f6f17ad4c0f65ab539084ed4e94dfec.png" alt="图片描述" width="50%"/>
+  <img src="/mirror/93/93308e459f6f17ad4c0f65ab539084ed4e94dfec.webp" alt="图片描述" width="50%"/>
   <p>图 5.33 数据分析助手</p>
 
 数据分析助手这一块唯一的不同就是我们增加了数据可视化的工具，也就是“generate_pie_chart" | "generate_column_chart" | "generate_line_chart"这几个生成bi图表的工具插件，这个在前面相信大家都按照要求安装了就可以直接添加启动使用，并像上面的提示词一样增加对应的描述即可。
@@ -597,18 +597,18 @@ Dify 为插件开发者提供了强大的开发支持，包括远程调试功能
 
 配置界面如图5.34所示。
 
-  <img src="/mirror/ba/ba136ce444a594f730c255a1b73a5a02a368c54c.png" alt="图片描述" width="50%"/>
+  <img src="/mirror/ba/ba136ce444a594f730c255a1b73a5a02a368c54c.webp" alt="图片描述" width="50%"/>
   <p>图 5.34 智能体的mcp配置</p>
 
 高德助手、饮食助手和新闻助手的效果分别如图5.35、图5.36和图5.37所示。
 
-  <img src="/mirror/26/268d509f2d1ffd4efcff37975de0427ca8d0a44f.png" alt="图片描述" width="50%"/>
+  <img src="/mirror/26/268d509f2d1ffd4efcff37975de0427ca8d0a44f.webp" alt="图片描述" width="50%"/>
   <p>图 5.35 高德助手</p>
 
-  <img src="/mirror/aa/aa6bdce4fbe57114fefae93914718d4868adeb3d.png" alt="图片描述" width="50%"/>
+  <img src="/mirror/aa/aa6bdce4fbe57114fefae93914718d4868adeb3d.webp" alt="图片描述" width="50%"/>
   <p>图 5.36 饮食助手</p>
 
-  <img src="/mirror/6a/6a11ca10ef039db1dfa2fd3dae74c56297d083fd.png" alt="图片描述" width="50%"/>
+  <img src="/mirror/6a/6a11ca10ef039db1dfa2fd3dae74c56297d083fd.webp" alt="图片描述" width="50%"/>
   <p>图 5.37 新闻助手</p>
 
 至此，我们完成了一个功能全面的超级智能体个人助手。该助手涵盖了生活的多个方面：需要新衣服时，可以让豆包生成设计；出门前，可以让高德助手规划路线；不知道吃什么时，可以获取饮食推荐；想了解学习情况时，可以进行数据分析。这个智能体能够处理各类工作和生活任务，期待看到大家搭建出更多有创意的私人智能体助手。
@@ -651,37 +651,37 @@ FastGPT 是一个开源的、基于大语言模型的知识库问答平台与 Ag
 
 进入 FastGPT 官网，首先映入眼帘的是其简洁有力的产品宣言——"企业级 AI 生产力引擎"，强调构建安全、可控的企业级 AI Agent，如图5.38所示。
 
-  <img src="/mirror/be/be5fdcbdb2b3da609f1738a536b416a6bee4f9ac.png" alt="图片描述" width="90%"/>
+  <img src="/mirror/be/be5fdcbdb2b3da609f1738a536b416a6bee4f9ac.webp" alt="图片描述" width="90%"/>
   <p>图 5.38 FastGPT 官网首页</p>
 
 登录平台后，可以看到其清晰的工作台布局。左侧导航栏将核心功能划分为 对话门户、工作台、知识库和账号四大模块。其中 Agent 模块又细分为工作流、对话 Agent 和对话 Agent V2(Beta) 三种类型，方便用户根据业务场景选择合适的构建模式。主区域则提供了"从模板新建"的快捷入口，内置了销售陪练大师、文档翻译助手、行业趋势洞察简报等官方模板；下方是用户自己创建的 Agent 列表，如图5.39所示。
 
-  <img src="/mirror/87/877c09fa31a70097b9ab595710f93fc4260f1577.png" alt="图片描述" width="90%"/>
+  <img src="/mirror/87/877c09fa31a70097b9ab595710f93fc4260f1577.webp" alt="图片描述" width="90%"/>
   <p>图 5.39 FastGPT 平台主界面</p>
 
 在账号与套餐方面，FastGPT 提供了免费版供个人开发者体验。免费版包含 100 积分、600 条知识库索引、1 个团队成员、10 个 Agent、3 个知识库、30 天对话记录保留、30 QPM 的调用速率，以及单次可上传 5 个 50MB 文件的权限，如图5.40所示。对于中小企业和团队，平台也提供了付费升级方案以满足更高的并发和存储需求。
 
-  <img src="/mirror/ab/abf6ab42fb0052a52b3d40e35f11f5cb3d84b04f.png" alt="图片描述" width="90%"/>
+  <img src="/mirror/ab/abf6ab42fb0052a52b3d40e35f11f5cb3d84b04f.webp" alt="图片描述" width="90%"/>
   <p>图 5.40 FastGPT 免费版套餐与用量</p>
 
 FastGPT 最核心的竞争力在于其强大的知识库能力。平台支持多种文件格式的导入，包括 Word、Markdown、PDF 等常见文档类型。如图5.41所示，在"test 通用知识库"中，我们可以上传深度学习简介、机器学习入门、招标文件正文等多个文件，系统会自动对文件进行分块处理并建立索引，状态显示为"已就绪"后即可在对话中被检索引用。
 
-  <img src="/mirror/c9/c9168465109cd53e1665c90e3d8234fce5490239.png" alt="图片描述" width="90%"/>
+  <img src="/mirror/c9/c9168465109cd53e1665c90e3d8234fce5490239.webp" alt="图片描述" width="90%"/>
   <p>图 5.41 FastGPT 知识库文件管理</p>
 
 在文件处理层面，FastGPT 提供了精细化的参数配置。如图5.42所示，用户可以选择"分块存储"或"问答对提取"两种处理方式，设置分块条件（如原文长度大于 1000 字符时触发分块），并开启多种索引增强选项，包括将标题加入索引、自动生成补充索引以及图片自动索引等。对于包含大量图文混排内容的文档（如教材、研报），图片自动索引功能尤为重要，它能让大模型在回答时理解并引用文档中的视觉信息。
 
-  <img src="/mirror/17/17f3d0688396790cfb4564dd6996079c9bba955d.png" alt="图片描述" width="90%"/>
+  <img src="/mirror/17/17f3d0688396790cfb4564dd6996079c9bba955d.webp" alt="图片描述" width="90%"/>
   <p>图 5.42 知识库数据处理参数设置</p>
 
 上传完成后，用户可以查看文件被分块后的具体内容。如图5.43所示，以"英语四年级下册全册电子书.pdf"为例，平台展示了每个分块的文本预览，同时右侧元数据面板显示了文件大小（62MB）、原文长度（37797 字符）、处理模式（分块存储）、图片索引状态等关键信息。这种透明化的分块展示，方便开发者进行知识库的调试与优化。
 
-  <img src="/mirror/3b/3b5958ec556580c14496b82c53709155f668771a.png" alt="图片描述" width="90%"/>
+  <img src="/mirror/3b/3b5958ec556580c14496b82c53709155f668771a.webp" alt="图片描述" width="90%"/>
   <p>图 5.43 知识库文件分块详情与元数据</p>
 
 除了知识库，FastGPT 在工具集成方面也紧跟生态趋势。平台原生支持 MCP（Model Context Protocol）工具，用户可以在"我的工具"模块中统一管理各类 MCP 服务。如图5.44所示，在"ai 金融"文件夹下，我们已经配置了中文趋势聚合、实时股票 MCP、且慢基金 MCP、Minimax-MCP、BI 画图工具等多个 MCP 工具，这些工具将赋予智能体调用外部实时数据和专业服务的能力。
 
-  <img src="/mirror/d3/d374644d22428b2f18ff1ed62a0d92495e363a9b.png" alt="图片描述" width="90%"/>
+  <img src="/mirror/d3/d374644d22428b2f18ff1ed62a0d92495e363a9b.webp" alt="图片描述" width="90%"/>
   <p>图 5.44 FastGPT MCP 工具管理</p>
 
 ### 5.4.2 构建"智能投顾助手"
@@ -699,12 +699,12 @@ FastGPT 最核心的竞争力在于其强大的知识库能力。平台支持多
 
 如图5.45所示，我们可以在魔搭社区（ModelScope）的 MCP 市场中找到"可视化图表 MCP Server"。该服务基于 TypeScript 开发，兼容 MCP 协议，提供了生成面积图、柱状图、饼图等多种图表的能力，能够将枯燥的数据转化为直观的可视化结果。
 
-  <img src="/mirror/8a/8acfaf9c0d02c8b6af07af8455e4c13eab868cf3.png" alt="图片描述" width="90%"/>
+  <img src="/mirror/8a/8acfaf9c0d02c8b6af07af8455e4c13eab868cf3.webp" alt="图片描述" width="90%"/>
   <p>图 5.45 魔搭社区可视化图表 MCP Server</p>
 
 另外，如图5.46所示，阿里云百炼平台也提供了丰富的官方 MCP 服务。在 MCP 管理页面中，我们可以找到"今日投资-金融实..."和"且慢"等金融类 MCP 服务，以及股票实时行情查询、万相-视频生成等工具。将这些服务添加到 FastGPT 的 MCP 工具库后，智能体便能在对话中按需调用它们。
 
-  <img src="/mirror/f7/f721927574dfdc59947d034305cb3ac53a16ce4b.png" alt="图片描述" width="90%"/>
+  <img src="/mirror/f7/f721927574dfdc59947d034305cb3ac53a16ce4b.webp" alt="图片描述" width="90%"/>
   <p>图 5.46 阿里云百炼 MCP 管理</p>
 
 在 FastGPT 的 MCP 工具配置界面中，填写相应的服务地址、认证信息后，即可完成工具的接入。每个 MCP 工具都可以设置独立的描述和调用参数，便于智能体在决策时理解各工具的用途。
@@ -715,7 +715,7 @@ FastGPT 最核心的竞争力在于其强大的知识库能力。平台支持多
 
 如图5.47所示，"智能投顾助手"的完整工作流包含了多个处理分支：用户意图识别、知识库检索、风险问卷收集、MCP 工具调用、报告生成等。整个工作流呈现出清晰的模块化结构，数据在不同节点间有序流转。这种可视化的编排方式，让开发者能够直观地理解和调试智能体的决策路径。
 
-  <img src="/mirror/98/980bb915c63454baa6dc51bb2b5374a9614cbb3e.png" alt="图片描述" width="90%"/>
+  <img src="/mirror/98/980bb915c63454baa6dc51bb2b5374a9614cbb3e.webp" alt="图片描述" width="90%"/>
   <p>图 5.47 智能投顾助手工作流编排</p>
 
 工作流的核心逻辑如下：
@@ -762,7 +762,7 @@ FastGPT 最核心的竞争力在于其强大的知识库能力。平台支持多
 
 完成工作流和提示词配置后，我们可以在 FastGPT 的对话界面中进行测试。如图5.48所示，智能投顾助手的开场白清晰地介绍了自身的三大功能特色：精通金融投资理论、提供实时市场新闻及数据、根据风险画像评估提供资产配置建议。界面下方还提供了快捷操作按钮，方便用户一键触发常见任务。
 
-  <img src="/mirror/1c/1c914a9ea3d63424f623e85e04b9f41966031f61.png" alt="图片描述" width="50%"/>
+  <img src="/mirror/1c/1c914a9ea3d63424f623e85e04b9f41966031f61.webp" alt="图片描述" width="50%"/>
   <p>图 5.48 智能投顾助手对话界面</p>
 
 当用户点击"进行资产评估获取投资意见"后，助手会依次展开风险评估问卷，收集用户的年龄、投资经验、月收入水平、能承受的最大亏损以及投资目标等信息。基于这些信息，助手会生成一份完整的投资策略分析报告。
@@ -774,17 +774,17 @@ FastGPT 最核心的竞争力在于其强大的知识库能力。平台支持多
 - **市场基本面分析**：结合当前宏观经济环境和行业趋势，给出市场判断。
 - **再平衡策略**：提供定期调仓的建议方案，包括调仓周期和触发条件。
 
-  <img src="/mirror/d8/d8a0422a89af4f48bfcfc8c8bf858dbd78bee962.png" alt="图片描述" width="90%"/>
+  <img src="/mirror/d8/d8a0422a89af4f48bfcfc8c8bf858dbd78bee962.webp" alt="图片描述" width="90%"/>
   <p>图 5.49 投资策略分析报告</p>
 
 对于实时数据查询场景，如图5.50所示，当用户询问"查询现在贵州茅台的股价信息"时，智能体会自动调用 MCP 工具（`get_stock_quote_realtime`）获取实时行情数据。返回结果包含标题、数据来源、关键要点（开盘价、最高价、日内价格区间、成交量、总市值、流通市值等），以及潜在影响分析和建议行动。这种结构化、专业化的输出，体现了 Agent 工具调用能力的实际价值。
 
-  <img src="/mirror/92/920dc36b47257f42230898406426c85f58a59005.png" alt="图片描述" width="50%"/>
+  <img src="/mirror/92/920dc36b47257f42230898406426c85f58a59005.webp" alt="图片描述" width="50%"/>
   <p>图 5.50 实时股票行情查询</p>
 
 在概念解释方面，如图5.51所示，当用户询问"市盈率和市净率有什么区别"时，助手基于知识库和大模型的理解，给出了系统性的对比分析：从定义出发，详细解释了市盈率（P/E Ratio）和市净率（P/B Ratio）的计算方式；从四个维度（计算基础、适用行业、反映信息、局限性）进行对比；最后给出实际应用建议，说明何时应重点关注市盈率、何时应关注市净率。这种层次分明、逻辑严谨的输出，正是 RAG 增强后的大模型在垂直领域问答中的典型优势。
 
-  <img src="/mirror/d3/d3cfb4abffe2aa13c1fea26406078d34ff1dda0a.png" alt="图片描述" width="50%"/>
+  <img src="/mirror/d3/d3cfb4abffe2aa13c1fea26406078d34ff1dda0a.webp" alt="图片描述" width="50%"/>
   <p>图 5.51 市盈率与市净率概念解析</p>
 
 ### 5.4.3 FastGPT 的优势与局限性分析
@@ -830,7 +830,7 @@ n8n 的真正威力在于其强大的“连接”能力。它可以将原本孤�
 
 整个过程模拟了一个更高级的决策逻辑：`接收 -> AI Agent (思考 -> 决策 -> 工具调用) -> 回复`，如图5.52所示。
 
-  <img src="/mirror/55/55c3a1a42cf387793426dd34e22d33d787999e65.png" alt="图片描述" width="90%"/>
+  <img src="/mirror/55/55c3a1a42cf387793426dd34e22d33d787999e65.webp" alt="图片描述" width="90%"/>
   <p>图 5.52 一体化智能邮件 Agent 架构示意图</p>
 
 与将工具拆分为多个子工作流的传统方法不同，n8n 的 `AI Agent` 节点允许我们将组件，例如大语言模型（LLM）、记忆（Memory）、工具（Tools）都整合在一个统一的界面中，极大地简化了构建过程。
@@ -853,7 +853,7 @@ n8n 的真正威力在于其强大的“连接”能力。它可以将原本孤�
 - <strong>节点</strong>：`Code`
 - <strong>内容</strong>：将您的知识以 JSON 格式写入。
 
-  <img src="/mirror/31/31b181b24166feb05e93eb7bed4c88a74616f886.png" alt="Code 节点中填写了知识库 JSON 文本的截图" width="90%"/>
+  <img src="/mirror/31/31b181b24166feb05e93eb7bed4c88a74616f886.webp" alt="Code 节点中填写了知识库 JSON 文本的截图" width="90%"/>
   <p>图 5.53 在 Code 节点中定义知识源</p>
 
 ```javascript
@@ -880,7 +880,7 @@ return [
 - <strong>节点</strong>：`Embeddings Google Gemini`，选择模型为`gemini-embedding-exp-03-07`。这里使用Google API来演示，如果不知道如何获取Google API可以参考[官方文档](https://gemini-api.apifox.cn/)。
 - <strong>配置</strong>：将其连接到 `Code` 节点之后，它会自动将上游传入的文本转换为向量数据。
 
-  <img src="/mirror/e1/e13aca739e8ff10d6f1699f4930c3f7a0b2c962c.png" alt="" width="90%"/>
+  <img src="/mirror/e1/e13aca739e8ff10d6f1699f4930c3f7a0b2c962c.webp" alt="" width="90%"/>
   <p>图 5.54 对 Code 中数据进行向量化</p>
 
 <strong>(3) 存入向量存储</strong>
@@ -892,12 +892,12 @@ return [
   - <strong>Operation Mode</strong>: `Insert Documents` (写入模式)。
   - <strong>Memory Key</strong>: 为这个知识库起一个唯一的名字，例如 `my-dailytime`。这个 Key 相当于数据库的“表名”，后续 Agent 将通过它来查找信息。
 
-  <img src="/mirror/2f/2ff1bc615ecdaff75802485cd52947c8af4ae4ba.png" alt="" width="90%"/>
+  <img src="/mirror/2f/2ff1bc615ecdaff75802485cd52947c8af4ae4ba.webp" alt="" width="90%"/>
   <p>图 5.55 对 Code 中数据存入向量存储</p>
 
 完成配置后，<strong>手动执行一次</strong>这个流程。成功后，您的私有知识就加载到 n8n 的内存中了，如图5.56所示。
 
-  <img src="/mirror/4e/4e743da3c2ff96383ae6163fd32103564a99f498.png" alt="" width="90%"/>
+  <img src="/mirror/4e/4e743da3c2ff96383ae6163fd32103564a99f498.webp" alt="" width="90%"/>
   <p>图 5.56 完整的知识库加载工作流</p>
 
 ### 5.5.4 创建 Agent 主工作流
@@ -908,17 +908,17 @@ return [
 
 新建一个工作流，命名为 `Agent: Customer Support`。使用 `Gmail` 节点作为触发器，将其 <strong>Event</strong> 设置为 `Message Received`，并配置好你的邮箱账号。这样，每当有新邮件进入收件箱时，该工作流就会被自动触发，如图5.57所示。
 
-  <img src="/mirror/6d/6d5a862da3df6f4d4e16913fdcd30423f1ddbebd.png" alt="" width="90%"/>
+  <img src="/mirror/6d/6d5a862da3df6f4d4e16913fdcd30423f1ddbebd.webp" alt="" width="90%"/>
   <p>图 5.57 新建Gmail节点图</p>
 
 配置过程可参考[n8n官方文档](https://docs.n8n.io/integrations/builtin/credentials/google/oauth-single-service/?utm_source=n8n_app&utm_medium=credential_settings&utm_campaign=create_new_credentials_modal#enable-apis)。Gmail的api在这里[配置](https://console.cloud.google.com/apis/library/gmail.googleapis.com?project=apt-entropy-471905-b9)，需要创建凭证，选择Web 应用类型，最后即得到所需的客户端ID和客户端密钥。并且需要在已获授权的重定向 URI 将n8n刚给的OAuth Redirect URL给添加上。同时，还需要在[目标对象](https://console.cloud.google.com/auth/audience?project=apt-entropy-471905-b9)的Add users加上自己的邮箱地址。最终配置完成的页面如图5.58所示。
 
-  <img src="/mirror/3d/3da0a3d7c1821c7ad4c3e145b10c83610b2c15b8.png" alt="" width="90%"/>
+  <img src="/mirror/3d/3da0a3d7c1821c7ad4c3e145b10c83610b2c15b8.webp" alt="" width="90%"/>
   <p>图 5.58 Gmail账号加载成功图</p>
 
 现在我们可以点击`Fetch Test Event`获取邮件了，如图5.59所示！
 
-  <img src="/mirror/5f/5fba0f71dede829bceb850be5370dc341f999a83.png" alt="" width="90%"/>
+  <img src="/mirror/5f/5fba0f71dede829bceb850be5370dc341f999a83.webp" alt="" width="90%"/>
   <p>图 5.59 获取实时邮件图</p>
 
 （2）配置 AI Agent 节点
@@ -931,14 +931,14 @@ return [
   1. `SerpAPI`: 这是我们之前第四章案例中使用过的API，让 Agent 拥有上网搜索公开信息的能力。
   2. `Simple Vector Store`: 让 Agent 拥有查询我们第一部分中创建的私有知识库的能力。
 
-  <img src="/mirror/3f/3f6f5608fc32d541a4deceaf3f7b5fa9e232660a.png" alt="" width="90%"/>
+  <img src="/mirror/3f/3f6f5608fc32d541a4deceaf3f7b5fa9e232660a.webp" alt="" width="90%"/>
   <p>图 5.60 AI Agent节点设置图</p>
 
 这是 Agent “思考”的第一步。添加一个 `Gemini` 节点（或其他 LLM 节点），模式设置为 `Chat`。我们的目标是让它分析邮件内容，判断用户意图。Prompt 的设计至关重要，一个清晰的指令能让 LLM 更准确地完成任务。我们将邮件正文和主题（<code v-pre>{{ $json.snippet }}{{ $json.Subject }}</code>）作为变量传入 Prompt 中，没有API可以到[Google AI Studio](https://aistudio.google.com/prompts/new_chat)点击Get API key创建一个可用的。
 
 其中，对于AI Agent节点，我们需要填的主要是`User Message`和`System Message`部分，如图5.61所示。
 
-  <img src="/mirror/33/33992821bf7ea96ede6bab28907b028dc38ba926.png" alt="" width="90%"/>
+  <img src="/mirror/33/33992821bf7ea96ede6bab28907b028dc38ba926.webp" alt="" width="90%"/>
   <p>图 5.61 AI Agent 节点详解图</p>
 
 在这里给出我们案例所使用的Prompt：
@@ -1004,7 +1004,7 @@ return [
 
 只有 `Memory Key` 和 `Embeddings` 模型完全一致，Agent 才能用正确的“钥匙”和“语言”来访问知识库,如图5.62所示。
 
-  <img src="/mirror/e6/e6c16da7f23f30d58eac8114109b8b1a0d597fca.png" alt="" width="90%"/>
+  <img src="/mirror/e6/e6c16da7f23f30d58eac8114109b8b1a0d597fca.webp" alt="" width="90%"/>
   <p>图 5.62 Simple Vector Store工具配置</p>
 
 Description参数即AI Agent调用该工具时，对该工具的描述定义，在这里也给出对应的Prompt：
@@ -1025,12 +1025,12 @@ Description参数即AI Agent调用该工具时，对该工具的描述定义，�
 - <strong>Subject</strong>: <code v-pre>Re:  {{ $('Gmail').item.json.Subject }}</code>
 - <strong>Message</strong>: <code v-pre>{{ $json.output }}</code>
 
-  <img src="/mirror/aa/aa43fefef396707ced5a8c7719a36d90596d8441.png" alt="" width="90%"/>
+  <img src="/mirror/aa/aa43fefef396707ced5a8c7719a36d90596d8441.webp" alt="" width="90%"/>
   <p>图 5.63 最终回复工具图示</p>
 
 并且发送成功的同时，也能在个人邮箱收到真实的返回邮件信息，如图5.64所示。
 
-  <img src="/mirror/d0/d083c4187020fec66a0884d78cc524d9cbdb31e5.png" alt="" width="90%"/>
+  <img src="/mirror/d0/d083c4187020fec66a0884d78cc524d9cbdb31e5.webp" alt="" width="90%"/>
   <p>图 5.64 个人邮箱返回邮件格式</p>
 
 至此，一个基于 `AI Agent` 节点的一体化智能客服就构建完成了，你可以发送一封测试邮件来检验它的工作成果。这个架构的扩展性极强。未来，您可以直接向 `AI Agent` 节点添加更多的工具（如日历、数据库、CRM 等），只需在 Prompt 中教会 Agent 如何使用它们，就能不断赋予您的 Agent 更强大的能力。
@@ -1040,7 +1040,7 @@ Description参数即AI Agent调用该工具时，对该工具的描述定义，�
 通过前面从零到一构建智能邮件助手的实践，我们已经对 n8n 的工作模式有了直观的感受。作为一个强大的低代码自动化平台，n8n 在赋能 Agent 应用开发方面表现出色，但它也并非万能。如表5.1所示，我们将客观地分析其优势与潜在的局限性。
 
   <p>表 5.2 n8n 平台的优势与局限性总结</p>
-  <img src="/mirror/f0/f0bd06bfcc1cfda477e87fd0530c9674f94fa317.png" alt="" width="90%"/>
+  <img src="/mirror/f0/f0bd06bfcc1cfda477e87fd0530c9674f94fa317.webp" alt="" width="90%"/>
 
 首先，n8n 最显著的优势在于其<strong>开发效率</strong>。它将复杂的逻辑抽象为直观的可视化工作流，无论是邮件的接收、AI 的决策，还是工具的调用和最终的回复，整个数据流和处理链路都在画布上一目了然。这种低代码的特性极大地降低了技术门槛，让开发者能够快速搭建和验证 Agent 的核心逻辑，极大地缩短了从想法到原型的距离。
 

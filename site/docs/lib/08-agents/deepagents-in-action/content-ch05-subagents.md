@@ -42,7 +42,7 @@ zh: ""
 
 打个比方：主 Agent 是项目经理，子 Agent 是专项负责人。项目经理不需要参加每一个技术讨论会——他只需要看到每个负责人提交的总结报告。
 
-![上下文隔离对比：没有子 Agent 时所有中间过程堆积在主 Agent 上下文中；有子 Agent 时中间过程隔离在子 Agent 中，主 Agent 只收到精炼摘要](/mirror/d6/d64d5c8dcd87c391954c4fce41c844a1dbf0f09b.png)
+![上下文隔离对比：没有子 Agent 时所有中间过程堆积在主 Agent 上下文中；有子 Agent 时中间过程隔离在子 Agent 中，主 Agent 只收到精炼摘要](/mirror/d6/d64d5c8dcd87c391954c4fce41c844a1dbf0f09b.webp)
 
 ### 什么时候用子 Agent？
 
@@ -273,7 +273,7 @@ agent = create_deep_agent(
 )
 ```
 
-![多子 Agent 协作模式：主 Agent 作为协调者，通过 task() 委派给 data-collector、data-analyzer、report-writer 三个专业子 Agent，每个子 Agent 在独立上下文中工作](/mirror/ba/ba95613d5a210c8cf35d050f8cfc297ddacf97dc.png)
+![多子 Agent 协作模式：主 Agent 作为协调者，通过 task() 委派给 data-collector、data-analyzer、report-writer 三个专业子 Agent，每个子 Agent 在独立上下文中工作](/mirror/ba/ba95613d5a210c8cf35d050f8cfc297ddacf97dc.webp)
 
 执行流程：
 

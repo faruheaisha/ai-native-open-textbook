@@ -145,7 +145,7 @@ $env:ANTHROPIC_DEFAULT_HAIKU_MODEL="deepseek-chat"
 
 > ⚠️ **关于模型名**：上面写的 `deepseek-chat` 是示例占位。**DeepSeek 的具体模型名（以及对应哪个能力档位）以 [DeepSeek 官方文档](https://api-docs.deepseek.com/zh-cn/) 为准**，平台升级时名字会变，别照着写死。模型名是「填给快递单的快递员编号」，填错了系统不认，启动就会报错。
 
-![一个请求从 Claude Code 经环境变量改写后寄到 DeepSeek 又原路返回的时序图](/mirror/95/951f9a73c8be67f9defd6e3c49d31d50dc1b0888.png)
+![一个请求从 Claude Code 经环境变量改写后寄到 DeepSeek 又原路返回的时序图](/mirror/95/951f9a73c8be67f9defd6e3c49d31d50dc1b0888.webp)
 
 上图想表达的整条链路：你的指令 → Claude Code 打包成请求 → `BASE_URL` 把收件地址改成 DeepSeek → `AUTH_TOKEN` 验明身份 → DeepSeek 模型计算 → 结果原路返回终端。**中间 Claude Code 这个「壳」全程没变。**
 

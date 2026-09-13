@@ -26,7 +26,7 @@ from vibe coding to agentic engineering - practice makes claude perfect
 
   <img src="/mirror/f7/f79a74a25ebcc6663b7961cb2e51f55bc6cb8128.svg" alt="Supported by:" height="34">&nbsp;&nbsp;<a href="https://disrupt.com/?utm_source=github&utm_campaign=shayan_claude_code_best_practice"><img src="/mirror/66/6675f999e810ca18c2bc8b7c8294c068556bf3e6.svg" alt="Disrupt.com — Ventures Reimagined" height="34"></a>&nbsp;&nbsp;<a href="https://claudekit.cc/?utm_source=github&utm_medium=sponsorship&utm_campaign=shayan_claude_code_best_practice"><img src="/mirror/6d/6d401c87fc5926d14b74dc69a371fe661cc0172b.svg" alt="ClaudeKit — Production-ready skills and workflows" height="34"></a>
 
-  <img src="/mirror/e1/e1d31bd46c23961222b7a0e6b226b49972a33942.gif" alt="Boris Cherny on Claude Code" width="600"><br>
+  <img src="/mirror/e1/e1d31bd46c23961222b7a0e6b226b49972a33942.webp" alt="Boris Cherny on Claude Code" width="600"><br>
   Boris Cherny on X (<a href="https://x.com/bcherny/status/2007179832300581177">tweet 1</a> · <a href="https://x.com/bcherny/status/2017742741636321619">tweet 2</a> · <a href="https://x.com/bcherny/status/2021699851499798911">tweet 3</a>)
 
 > [!TIP]
@@ -101,7 +101,7 @@ See [orchestration-workflow](https://github.com/shanraisshan/claude-code-best-pr
 
   <img src="/mirror/7a/7abe7821b5277cc22f7f5cf61acdffe66d2cdf67.svg" alt="Command Skill Agent Architecture Flow" width="100%">
 
-  <img src="/mirror/6d/6da5125336d8e001084485035209b339c6e01a50.gif" alt="Orchestration Workflow Demo" width="600">
+  <img src="/mirror/6d/6da5125336d8e001084485035209b339c6e01a50.webp" alt="Orchestration Workflow Demo" width="600">
 
 ![How to Use](/mirror/43/43b393ff0af70918e029290bee538f937f2e8abb.svg)
 
@@ -521,14 +521,14 @@ Get the maximum out of this repo by following these steps:
 
 <div class="tb-zh"><p>1）把这个仓库当课程读，而不是当工作流或 skill 用——它首先是参考资料，动手跑是后面的事。2）别把 Claude 当聊天机器人：先学会 agents、commands、skills、hooks 这些原语，再把它们组装成自己的工作流。3）跑一遍 /weather-orchestrator，看完整的 command → agent → skill 流程，并把它当模板套用到从规划到交付的任何开发流程上。4）工作时留意自定义 hook 的音效——它们的实现放在专门的 Claude Code Hooks 仓库里，而 Agent Teams 这类模式则随本仓库的 implementation/ 目录发布。5）从 🔥 Hot 子表里学进阶主题及其实现：例如 Ralph Wiggum 自演进循环就是一个可直接克隆的完整仓库，能端到端看到其中一种模式。6）在你自己的项目里把 Claude 指向「技巧与提示」一节，让它给你改法建议——尤其是怎么重构你的 CLAUDE.md；每条技巧都来自 Claude 团队或社区。7）订阅 Subscribe 一节里的 Reddit 和 YouTube 频道，跟上社区动态。</p></div>
 
-<a href="https://www.youtube.com/watch?v=AkAhkalkRY4"><img src="/mirror/72/72146ae6594ba2af86933eb2e90466267c77404c.png" alt="Watch on YouTube" width="240"></a>
-<a href="https://youtu.be/lPjhM6BBK0Q"><img src="/mirror/7f/7f351a9ba3fed49c0f570b7525dbe7dce5ace37e.png" alt="Watch on YouTube" width="240"></a>
+<a href="https://www.youtube.com/watch?v=AkAhkalkRY4"><img src="/mirror/72/72146ae6594ba2af86933eb2e90466267c77404c.webp" alt="Watch on YouTube" width="240"></a>
+<a href="https://youtu.be/lPjhM6BBK0Q"><img src="/mirror/7f/7f351a9ba3fed49c0f570b7525dbe7dce5ace37e.webp" alt="Watch on YouTube" width="240"></a>
 
 **📊 Presentations**
 
 <div class="tb-zh"><p>🎬 视频</p></div>
 
-<a href="https://github.com/shanraisshan/claude-code-best-practice/tree/main/presentation/2026-04-25-gdg-kolachi-cli-claude-code-gemini"><img src="/mirror/0c/0c2e7cfb67e7bd694ed67a833bb8c0667d2196d4.png" alt="Claude Code & Gemini CLI — GDG Kolachi" width="240"></a>
+<a href="https://github.com/shanraisshan/claude-code-best-practice/tree/main/presentation/2026-04-25-gdg-kolachi-cli-claude-code-gemini"><img src="/mirror/0c/0c2e7cfb67e7bd694ed67a833bb8c0667d2196d4.webp" alt="Claude Code & Gemini CLI — GDG Kolachi" width="240"></a>
 
   <img src="/mirror/08/083732f2d17cc173d2ce8cdf174e11bd1ccf34d9.svg" alt="section divider" width="60" height="50">
 

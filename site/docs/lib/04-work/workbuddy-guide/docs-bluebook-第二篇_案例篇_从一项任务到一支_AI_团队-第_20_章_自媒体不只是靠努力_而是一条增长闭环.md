@@ -62,13 +62,13 @@ Skill 的作用是补上其中一个环节，不是接管账号判断。下面�
 不要把阅读量高直接解释成选题一定适合我。
 ```
 
-![](/mirror/c0/c00cc265d3ef807632119b2b40552abc0e05b65f.png)
+![](/mirror/c0/c00cc265d3ef807632119b2b40552abc0e05b65f.webp)
 
 ### 执行流程与结果
 
 WorkBuddy 先生成跨平台样本表，再把评论聚成问题簇，最后把“热度、账号匹配、新增价值、证据充足度、制作成本”分别评分。交付物是一张可以人工删选的选题看板。
 
-![](/mirror/e1/e137e0f6cb0061bcc424fa3a866e2a18512ace7b.png)
+![](/mirror/e1/e137e0f6cb0061bcc424fa3a866e2a18512ace7b.webp)
 
 ### **有时候光找热门还不够，我们还需要去找低粉爆款。**
 
@@ -80,15 +80,15 @@ WorkBuddy 先生成跨平台样本表，再把评论聚成问题簇，最后把�
 
 比如获取公众号最近7天的AI领域低粉爆款文章。
 
-![](/mirror/66/66f953425d97cb69c7de262d28a8bc23e065d50d.png)
+![](/mirror/66/66f953425d97cb69c7de262d28a8bc23e065d50d.webp)
 
 筛选X上的低粉爆款
 
-![](/mirror/b0/b076b8069d8eb293c228ca774f8e08b1422d62b6.png)
+![](/mirror/b0/b076b8069d8eb293c228ca774f8e08b1422d62b6.webp)
 
 以及YouTube的低粉爆款
 
-![](/mirror/3c/3cba3f00d639ffa06604e51559da77ab8115c927.png)
+![](/mirror/3c/3cba3f00d639ffa06604e51559da77ab8115c927.webp)
 
 ## 场景二：想要爆款标题，但不想标题党
 
@@ -113,7 +113,7 @@ WorkBuddy 先生成跨平台样本表，再把评论聚成问题簇，最后把�
 不要自动选择最终标题，先让我确认内容承诺。
 ```
 
-![](/mirror/7b/7bc27fe360e0747de676ef3aec1892ca48db1af3.png)
+![](/mirror/7b/7bc27fe360e0747de676ef3aec1892ca48db1af3.webp)
 
 ### 验收方法
 
@@ -121,13 +121,13 @@ WorkBuddy 先生成跨平台样本表，再把评论聚成问题簇，最后把�
 
 workbuddy通过这几个skill，生成的标题还真有那味儿。特别是小红书的标题，很有小红书的感觉。
 
-![](/mirror/ab/ab74ae1887a61d2bcebd2bc4a88fbb49f478f484.png)
+![](/mirror/ab/ab74ae1887a61d2bcebd2bc4a88fbb49f478f484.webp)
 
 可以进行 A/B 测试，但一次只改变一个主要变量，例如“问题式”与“结果式”。不要同时改标题、封面、发布时间和正文开头，否则数据无法解释。
 
 再推荐一个标题skill：[**viral-**](https://github.com/kangarooking/kangarooking-skills/tree/main/viral-title)[**title**](https://github.com/kangarooking/kangarooking-skills/tree/main/viral-title)**，很适合用来给公众号起标题**
 
-![](/mirror/06/06e0169d6d85f5ee53c0109bdf4fedfc628250e3.png)
+![](/mirror/06/06e0169d6d85f5ee53c0109bdf4fedfc628250e3.webp)
 
 ## 场景三：公众号封面每次从空白画布开始
 
@@ -152,7 +152,7 @@ workbuddy通过这几个skill，生成的标题还真有那味儿。特别是小
 
 ### 结果是否可用
 
-![](/mirror/65/65a364b7de765aef48eb07e3c2da53be40afabf7.png)
+![](/mirror/65/65a364b7de765aef48eb07e3c2da53be40afabf7.webp)
 
 生成的封面还不错，有汉字、封面负责表达的主题也比较贴切，如果换成更强的生图模型，效果应该会更好。
 
@@ -181,7 +181,7 @@ workbuddy通过这几个skill，生成的标题还真有那味儿。特别是小
 先返回逐页文案、视觉层级和预计字数，我确认后再调用封面与长图 Skill。
 ```
 
-![](/mirror/07/07532b299a5db0c7822466197968311c9dcb7644.png)
+![](/mirror/07/07532b299a5db0c7822466197968311c9dcb7644.webp)
 
 ## 场景五：一段长文怎样变成可拍的短视频
 
@@ -203,7 +203,7 @@ workbuddy通过这几个skill，生成的标题还真有那味儿。特别是小
 同时列出必须实拍、可用产品截图、可由 AI 生成的画面，禁止伪造用户反馈。
 ```
 
-![](/mirror/df/dfadc81014e07673150b3567a026aaf3ab5279b3.png)
+![](/mirror/df/dfadc81014e07673150b3567a026aaf3ab5279b3.webp)
 
 生成的口播文案，效果还不错哦。
 
@@ -219,11 +219,11 @@ workbuddy通过这几个skill，生成的标题还真有那味儿。特别是小
 
 发布链建议停在草稿箱：事实检查 → 引用与版权 → 品牌与合规 → 链接检查 → 手机预览 → 人工确认账号 → 发布。自动点赞、批量私信、刷评论、绕过平台风控和未经确认的群发，不属于本书推荐的效率场景。
 
-![](/mirror/a2/a2f5582efd8995818776df44d8f6de66b2f823f7.png)
+![](/mirror/a2/a2f5582efd8995818776df44d8f6de66b2f823f7.webp)
 
-![](/mirror/0b/0bc0752259fc24d1964a1d09e999bd4333115fa8.png)
+![](/mirror/0b/0bc0752259fc24d1964a1d09e999bd4333115fa8.webp)
 
-![](/mirror/09/09703b2678ec0577396829d5a79f930194aebe13.png)
+![](/mirror/09/09703b2678ec0577396829d5a79f930194aebe13.webp)
 
 ## 场景七：发布后不复盘，下一篇仍从零开始
 
@@ -241,9 +241,9 @@ workbuddy通过这几个skill，生成的标题还真有那味儿。特别是小
 
 把AI最开始产出的文案和终稿都丢进去，最终产出复盘报告和style-guide.md，下次AI写的东西就能离你的期望更进一步啦～
 
-![](/mirror/f3/f3ab2a55d7eac7db15950c482c2713135f781500.png)
+![](/mirror/f3/f3ab2a55d7eac7db15950c482c2713135f781500.webp)
 
-![](/mirror/5a/5aa72bfa3a64e1f128fc94b6c0314b1693e0f9ea.png)
+![](/mirror/5a/5aa72bfa3a64e1f128fc94b6c0314b1693e0f9ea.webp)
 
 ## 一套够用的自媒体 Skill 栈
 

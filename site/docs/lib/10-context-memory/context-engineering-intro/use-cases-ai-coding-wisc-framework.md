@@ -14,7 +14,7 @@ zh: "on"
 
 # WISC Framework: Context Engineering for AI Coding
 
-![WISC Framework](/mirror/c0/c07b6753088106dbd2eba669fa042c8a4388d5fa.png)
+![WISC Framework](/mirror/c0/c07b6753088106dbd2eba669fa042c8a4388d5fa.webp)
 
 ## What is WISC?
 

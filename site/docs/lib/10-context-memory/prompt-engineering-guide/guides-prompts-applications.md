@@ -122,7 +122,7 @@ produce 3 wine reviews and label taste, flavor, aroma related token; present the
  
 [Gao et al., (2022)](https://arxiv.org/abs/2211.10435) presents a method that uses LLMs to read natural language problems and generate programs as the intermediate reasoning steps. Coined, program-aided language models (PAL), differ from chain-of-thought prompting in that instead of using free-form text to obtain a solution it offloads the solution step to a programmatic runtime such as a Python interpreter.
 
-![](/mirror/33/3311713d49ba3d992d8ecae4014bb6859165adfa.png)
+![](/mirror/33/3311713d49ba3d992d8ecae4014bb6859165adfa.webp)
 
 Let's look at an example using LangChain and OpenAI GPT-3. We are interested to develop a simple application that's able to interpret the question being asked and provide an answer by leveraging the Python interpreter. 
 

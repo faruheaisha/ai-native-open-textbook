@@ -14,7 +14,7 @@ zh: "on"
 
 # EdgeAI for Beginners 
 
-![Course cover image](/mirror/b0/b0e31b10e23dc3e87d20c8e696d84ff1daca4dce.png)
+![Course cover image](/mirror/b0/b0e31b10e23dc3e87d20c8e696d84ff1daca4dce.webp)
 
 ## Introduction
 

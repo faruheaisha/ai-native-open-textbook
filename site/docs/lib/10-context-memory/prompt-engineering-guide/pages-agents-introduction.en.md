@@ -20,7 +20,7 @@ Agents are revolutionizing the way we approach complex tasks, leveraging the pow
 
 ## What is an Agent?
 
-![Agent Components](/mirror/f4/f488df9f8f2366fe0cb85863fc945f33e9a47a77.png)
+![Agent Components](/mirror/f4/f488df9f8f2366fe0cb85863fc945f33e9a47a77.webp)
 
 In this guide, we refer to an agent as an LLM-powered system designed to take actions and solve complex tasks autonomously. Unlike traditional LLMs, AI agents go beyond simple text generation. They are equipped with additional capabilities, including:
 

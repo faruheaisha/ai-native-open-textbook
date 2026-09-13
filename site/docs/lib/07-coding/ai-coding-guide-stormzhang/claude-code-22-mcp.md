@@ -182,7 +182,7 @@ HTTP 写 `url`，stdio 写 `command` 和 `args`。**它被检入版本库，等�
 
 > 💡 一句话总结：HTTP 用 `--transport http` 给网址、stdio 用 `--` 跟命令，**所有开关放名字前面**；作用域记三句——个人实验用 `local`、跨项目用 `user`、全队共享用写进 `.mcp.json` 的 `project`。
 
-![Claude Code 通过 MCP 这一层统一对接外部服务](/mirror/31/312d068f465849d4beda328e98ad6c06401e5999.png)
+![Claude Code 通过 MCP 这一层统一对接外部服务](/mirror/31/312d068f465849d4beda328e98ad6c06401e5999.webp)
 
 这张图把 MCP 的角色画成了中间那层「扩展坞」：左边是 Claude Code 自带的本地工具（读写文件、跑命令），右边是它本来够不着的外部世界（GitHub、Jira、PostgreSQL、Figma、Sentry）——中间的 MCP 层用 stdio 和 HTTP 两种线把它们接到一块，让外部服务的工具直接出现在 Claude 面前。
 

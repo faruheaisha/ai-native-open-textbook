@@ -46,7 +46,7 @@ src/memory/
 
 上下文不是“把所有东西塞进去”，而是分层管理，每层有独立的生命周期和 token 预算。
 
-![信息分层模型](/mirror/cd/cd1d06c84b2da80bb4972aa1fda7a03accaa66c0.png)
+![信息分层模型](/mirror/cd/cd1d06c84b2da80bb4972aa1fda7a03accaa66c0.webp)
 
 为什么不用满 200k 窗口？两个原因：
 1. **成本**：input tokens 按量计费，20 题诊断如果每次都带 100k 上下文，成本会翻 10 倍

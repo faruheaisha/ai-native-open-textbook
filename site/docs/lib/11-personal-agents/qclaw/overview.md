@@ -15,7 +15,7 @@ zh: ""
 # Qclaw（秋芝2046）
 
 <br />
-    <img src="/mirror/97/97961f369179a4927a262631a41665569f9bb6ab.png" alt="Logo" width="128" height="128">
+    <img src="/mirror/97/97961f369179a4927a262631a41665569f9bb6ab.webp" alt="Logo" width="128" height="128">
 
   <h1 align="center" style="margin-top: 0.2em;">Qclaw</h1>
 
@@ -41,11 +41,11 @@ OpenClaw官方已经出了Mac版安装包（也还没出win），虽然目前非
 我们也在筹备新的项目啦，希望未来尽快能跟大家见面~❤️
 ## 功能特性
 
-  <img src="/mirror/cc/cc4ea3b483e53ddeeedc0ff7f1a2666af93fceb7.png" alt="可视化配置" width="280">
-  <img src="/mirror/2e/2ecbf40f455b5b6ee22eba2ed9e5bfd6eb28c2a0.png" alt="多渠道接入" width="280">
-  <img src="/mirror/6b/6ba70287b8f7513fa26d5b0aa7ac40f1ee5cf1e7.png" alt="状态管理" width="280">
-  <img src="/mirror/7c/7c55977417ca16286c7fb670775fd842357d49b3.png" alt="安全防丢" width="280">
-  <img src="/mirror/2c/2c73e97c78de55dd873434c29ad30cfe2c954a02.png" alt="技能扩展" width="280">
+  <img src="/mirror/cc/cc4ea3b483e53ddeeedc0ff7f1a2666af93fceb7.webp" alt="可视化配置" width="280">
+  <img src="/mirror/2e/2ecbf40f455b5b6ee22eba2ed9e5bfd6eb28c2a0.webp" alt="多渠道接入" width="280">
+  <img src="/mirror/6b/6ba70287b8f7513fa26d5b0aa7ac40f1ee5cf1e7.webp" alt="状态管理" width="280">
+  <img src="/mirror/7c/7c55977417ca16286c7fb670775fd842357d49b3.webp" alt="安全防丢" width="280">
+  <img src="/mirror/2c/2c73e97c78de55dd873434c29ad30cfe2c954a02.webp" alt="技能扩展" width="280">
 
 - **环境自检** — 自动检测 Node.js 和 OpenClaw CLI，缺失时自动安装
 - **支持 OpenClaw 全量模型** — 支持接入 OpenClaw 的所有模型，也支持自定义添加
@@ -210,7 +210,7 @@ build/              应用图标与打包资源
 
 - **Qclaw贡献者交流群**
 <p>
-  <img src="/mirror/81/81bdb76a9e29a8ea519fdfd4743c7fd4c291c817.png" alt="Qclaw贡献者交流群" height="160">
+  <img src="/mirror/81/81bdb76a9e29a8ea519fdfd4743c7fd4c291c817.webp" alt="Qclaw贡献者交流群" height="160">
   <br />
   <mark>如果你希望给 Qclaw 做贡献，欢迎加入贡献者交流群！</mark>
 </p>
@@ -220,7 +220,7 @@ build/              应用图标与打包资源
 - **Qclaw用户交流群**
 
 <p>
-  <img src="/mirror/c2/c203fa161d7ee5c664546731143a1890fc04cbf9.png" alt="Qclaw用户交流群二维码" height="180">
+  <img src="/mirror/c2/c203fa161d7ee5c664546731143a1890fc04cbf9.webp" alt="Qclaw用户交流群二维码" height="180">
   <br />
   <mark>如果你对Qclaw有疑问、希望与其他朋友交流等，欢迎加入用户交流群！</mark>
 </p>
@@ -243,7 +243,7 @@ build/              应用图标与打包资源
 <p>
   
   &nbsp;&nbsp;
-  <img src="/mirror/34/3478ed4ab502d71c866b0b808e3bb2d7e978559d.png" alt="微信搜一搜" height="120">
+  <img src="/mirror/34/3478ed4ab502d71c866b0b808e3bb2d7e978559d.webp" alt="微信搜一搜" height="120">
 </p>
 
 ## 加入我们
@@ -269,7 +269,7 @@ build/              应用图标与打包资源
 
 感谢参与内测的朋友们，你们的每一条 bug 反馈和建议都在让产品进步。你们的飞书 ID 我们都记下了 👀
 
-  <img src="/mirror/9d/9d2f0b8a80dbbbfdcf1812cf04d3db359180a201.png" alt="内测用户" />
+  <img src="/mirror/9d/9d2f0b8a80dbbbfdcf1812cf04d3db359180a201.webp" alt="内测用户" />
 
 更多见：[反馈用户（排名不分先后）](https://github.com/qiuzhi2046/Qclaw/blob/c494768977f4e48b8eacbfae7ae390af11fc015f/docs/feedback_users/README.md)
 

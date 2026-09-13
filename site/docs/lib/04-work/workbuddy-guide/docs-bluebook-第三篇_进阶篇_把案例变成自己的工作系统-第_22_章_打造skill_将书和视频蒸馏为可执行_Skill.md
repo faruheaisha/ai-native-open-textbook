@@ -18,7 +18,7 @@ zh: ""
 
 可以使用[cangjie-skill](https://github.com/kangarooking/cangjie-skill)把知识蒸馏成skill。
 
-![](/mirror/a5/a55598b0f9c9e459433e11f21171ceea15a3244c.png)
+![](/mirror/a5/a55598b0f9c9e459433e11f21171ceea15a3244c.webp)
 
 cangjie-skill 开源项目（v1 蒸馏书，v2 增加视频蒸馏），以及 Andrej Karpathy 关于 LLM 个人知识库的思路。
 
@@ -32,7 +32,7 @@ AI 在训练时已经摄入了大量经典著作，但在实际问答中，它�
 
 知识精馏要解决的，就是这个"学了用不上"的问题。
 
-![](/mirror/60/60a091c45b3e030adceeb56b9d2dab455b715085.png)
+![](/mirror/60/60a091c45b3e030adceeb56b9d2dab455b715085.webp)
 
 ## 知识精馏的定义
 
@@ -61,13 +61,13 @@ flowchart TD
     E --> F[阶段 5：压力测试]
 ```
 
-![](/mirror/4f/4ff1f9dd8a50cd44c6dc2dbcf3a89b72406f4f21.png)
+![](/mirror/4f/4ff1f9dd8a50cd44c6dc2dbcf3a89b72406f4f21.webp)
 
-![](/mirror/30/3043ab20b6095b817800375aca6d9e4db3a5f1ef.png)
+![](/mirror/30/3043ab20b6095b817800375aca6d9e4db3a5f1ef.webp)
 
 以蒸馏《文案创作完全手册》为例
 
-![](/mirror/48/48e929872ba9138217c4ed9ea8d6bf8361148fe2.png)
+![](/mirror/48/48e929872ba9138217c4ed9ea8d6bf8361148fe2.webp)
 
 ### 阶段 0：整书 / 整片理解
 
@@ -80,7 +80,7 @@ flowchart TD
 
 这一步决定后续提取的质量上限。跳过这一步直接提取，容易把作者反对的观点当成他支持的方法论。
 
-![](/mirror/9e/9e89877d7c85357b0de09ad2b8f507559ac00a15.png)
+![](/mirror/9e/9e89877d7c85357b0de09ad2b8f507559ac00a15.webp)
 
 ### 阶段 1：五个 Agent 并行提取
 
@@ -96,7 +96,7 @@ flowchart TD
 
 五个角度并行，避免单线阅读中的视角遗漏。
 
-![](/mirror/29/292b75bce81ee75c30860386a30d5f7412a48c5a.png)
+![](/mirror/29/292b75bce81ee75c30860386a30d5f7412a48c5a.webp)
 
 ### 阶段 1.5：三重验证筛选
 
@@ -110,7 +110,7 @@ flowchart TD
 
 宁缺毋滥。一本书通常有 50–100 个候选单元，通过三重验证后保留 10–25 个。
 
-![](/mirror/2f/2fd0f8688c260ed0a05d0dd8cb49c2753332350e.png)
+![](/mirror/2f/2fd0f8688c260ed0a05d0dd8cb49c2753332350e.webp)
 
 ### 阶段 2：构造 Skill
 
@@ -123,7 +123,7 @@ flowchart TD
 
 触发条件的设计是最难也最关键的一步。没有触发条件的 Skill，在实际使用中无法被 Agent 正确识别和调用。
 
-![](/mirror/6c/6c90917e8bbbcc9216314adcd45f200a7495cd13.png)
+![](/mirror/6c/6c90917e8bbbcc9216314adcd45f200a7495cd13.webp)
 
 ### 阶段 4：链接
 
@@ -135,7 +135,7 @@ flowchart TD
 
 链接层让 Agent 在遇到复杂问题时，能够选择一组 Skill 而不只是单个 Skill。
 
-![](/mirror/c5/c565ded34397636b8aff1b04bf68f1b47af6bc31.png)
+![](/mirror/c5/c565ded34397636b8aff1b04bf68f1b47af6bc31.webp)
 
 ### 阶段 5：压力测试
 
@@ -143,13 +143,13 @@ flowchart TD
 
 **执行验证**：给出真实问题，验证 Skill 是否能输出可落地的步骤而不是正确的废话。
 
-![](/mirror/b2/b269a2b16ecedaddb23a6253e7eebc75ec4c11c7.png)
+![](/mirror/b2/b269a2b16ecedaddb23a6253e7eebc75ec4c11c7.webp)
 
 ## 蒸馏产物结构
 
 一本书蒸馏完成后，产物是一套 Skill 集合：
 
-![](/mirror/45/45f4a5077fd9e5e4306da4152ff38f747df649ec.png)
+![](/mirror/45/45f4a5077fd9e5e4306da4152ff38f747df649ec.webp)
 
 ```text
 book-skill/
@@ -166,9 +166,9 @@ book-skill/
 
 每个 Skill 文件包含：触发条件、执行步骤、输出格式、边界限制、测试用例。测试用例格式兼容 darwin-skill（自动 Skill 进化工具），蒸馏产物可以持续自动优化。
 
-![](/mirror/15/1522804946fe170a9929c14150566ef1ac34b45c.png)
+![](/mirror/15/1522804946fe170a9929c14150566ef1ac34b45c.webp)
 
-![](/mirror/f6/f6ccd6783c0ff7b761425785e12477a9a86c5691.png)
+![](/mirror/f6/f6ccd6783c0ff7b761425785e12477a9a86c5691.webp)
 
 ## 知识精馏 vs RAG
 
@@ -208,7 +208,7 @@ cangjie-skill 的阶段 0（整书理解）和阶段 1（并行提取）吸收�
 
 cangjie-skill v2 在书本蒸馏基础上增加了视频蒸馏能力（借助[video-downloader skill](https://github.com/kangarooking/kangarooking-skills/tree/main/video-downloader)）。视频与书的区别在于：需要先完成"视频 → 文字"的转换，再进入六阶段 SOP。
 
-![](/mirror/a3/a38fa91ec73bd7af1a31ee1918ea8dd3e29b5eab.png)
+![](/mirror/a3/a38fa91ec73bd7af1a31ee1918ea8dd3e29b5eab.webp)
 
 ### 视频获取与转写
 
@@ -331,7 +331,7 @@ darwin-skill 是自动 Skill 进化工具：将 Skill 喂给它，它会自动�
 - 产出：25 个 Skill
 - 特点：全部为时效性内容，AI 未经训练，蒸馏后可直接在对应场景下被 Agent 调用
 
-![](/mirror/2c/2c557d3e787f4416474acd0598feeeb871caddc9.png)
+![](/mirror/2c/2c557d3e787f4416474acd0598feeeb871caddc9.webp)
 
 ## 总结：知识精馏在技能包体系中的位置
 

@@ -905,7 +905,7 @@
       "licenseNote": "不可整篇转载，站内只做导航与引用",
       "kind": "官方文档",
       "lang": "中文",
-      "langRatio": 0.603,
+      "langRatio": 0.493,
       "entry": "_快照信息.md",
       "lessons": 1,
       "lessonScheme": "documents",
@@ -1528,7 +1528,7 @@
       "licenseNote": "可翻译转载，限非商用并按原许可相同方式共享",
       "kind": "课时教程",
       "lang": "中文",
-      "langRatio": 0.62,
+      "langRatio": 0.528,
       "entry": "README.md",
       "lessons": 2,
       "lessonScheme": "documents",
@@ -1734,20 +1734,20 @@
           "title": "AI"
         },
         {
-          "dir": "OpenClaw 保姆级教程",
-          "title": "OpenClaw 保姆级教程"
-        },
-        {
-          "dir": "Vibe Coding 零基础教程",
-          "title": "Vibe Coding 零基础教程"
-        },
-        {
           "dir": "image",
           "title": "image"
         },
         {
+          "dir": "OpenClaw 保姆级教程",
+          "title": "OpenClaw 保姆级教程"
+        },
+        {
           "dir": "translations",
           "title": "translations"
+        },
+        {
+          "dir": "Vibe Coding 零基础教程",
+          "title": "Vibe Coding 零基础教程"
         }
       ],
       "files": 749,
@@ -2737,14 +2737,6 @@
       "lessonScheme": "documents",
       "lessonList": [
         {
-          "dir": "_data",
-          "title": "data"
-        },
-        {
-          "dir": "_layouts",
-          "title": "layouts"
-        },
-        {
           "dir": "assets",
           "title": "assets"
         },
@@ -2811,6 +2803,14 @@
         {
           "dir": "publish-pdf",
           "title": "publish pdf"
+        },
+        {
+          "dir": "_data",
+          "title": "data"
+        },
+        {
+          "dir": "_layouts",
+          "title": "layouts"
         }
       ],
       "files": 349,
@@ -3500,10 +3500,6 @@
       "lessonScheme": "documents",
       "lessonList": [
         {
-          "dir": "PocketFlow",
-          "title": "PocketFlow"
-        },
-        {
           "dir": "app",
           "title": "app"
         },
@@ -3514,6 +3510,10 @@
         {
           "dir": "examples",
           "title": "examples"
+        },
+        {
+          "dir": "PocketFlow",
+          "title": "PocketFlow"
         },
         {
           "dir": "tests",
@@ -4102,7 +4102,7 @@
       "licenseNote": "可转载可翻译，须保留署名与许可声明",
       "kind": "工程手册",
       "lang": "中英混排",
-      "langRatio": 0.116,
+      "langRatio": 0.133,
       "entry": "README.md",
       "lessons": 5,
       "lessonScheme": "documents",
@@ -4658,7 +4658,7 @@
       "licenseNote": "不可整篇转载，站内只做导航与引用",
       "kind": "工程手册",
       "lang": "中文",
-      "langRatio": 0.487,
+      "langRatio": 0.521,
       "entry": "README.md",
       "lessons": 2,
       "lessonScheme": "documents",
@@ -4700,16 +4700,16 @@
       "lessonScheme": "documents",
       "lessonList": [
         {
-          "dir": "_workspace",
-          "title": "workspace"
-        },
-        {
           "dir": "docs",
           "title": "docs"
         },
         {
           "dir": "skills",
           "title": "skills"
+        },
+        {
+          "dir": "_workspace",
+          "title": "workspace"
         }
       ],
       "files": 28,
@@ -4996,19 +4996,19 @@
       "licenseLabel": "仅引用",
       "licenseNote": "不可整篇转载，站内只做导航与引用",
       "kind": "官方文档",
-      "lang": "中英混排",
-      "langRatio": 0.067,
+      "lang": "英文",
+      "langRatio": 0,
       "entry": "_快照信息.md",
       "lessons": 2,
       "lessonScheme": "documents",
       "lessonList": [
         {
-          "dir": "_llms",
-          "title": "llms"
-        },
-        {
           "dir": "en",
           "title": "en"
+        },
+        {
+          "dir": "_llms",
+          "title": "llms"
         }
       ],
       "files": 205,
@@ -5542,12 +5542,12 @@
       "lessonScheme": "documents",
       "lessonList": [
         {
-          "dir": "PRPs",
-          "title": "PRPs"
-        },
-        {
           "dir": "claude-code-full-guide",
           "title": "claude code full guide"
+        },
+        {
+          "dir": "PRPs",
+          "title": "PRPs"
         },
         {
           "dir": "use-cases",
@@ -5580,7 +5580,7 @@
       "licenseNote": "不可整篇转载，站内只做导航与引用",
       "kind": "工程手册",
       "lang": "中文",
-      "langRatio": 0.655,
+      "langRatio": 0.65,
       "entry": "README.md",
       "lessons": 2,
       "lessonScheme": "documents",
@@ -6199,34 +6199,6 @@
       "lessonScheme": "documents",
       "lessonList": [
         {
-          "dir": "Build-reasoning-model",
-          "title": "Build reasoning model"
-        },
-        {
-          "dir": "Colivara-deepseek-website-RAG",
-          "title": "Colivara deepseek website RAG"
-        },
-        {
-          "dir": "DeepSeek-finetuning",
-          "title": "DeepSeek finetuning"
-        },
-        {
-          "dir": "LaTeX-OCR-with-Llama",
-          "title": "LaTeX OCR with Llama"
-        },
-        {
-          "dir": "Multi-Agent-deep-researcher-mcp-windows-linux",
-          "title": "Multi Agent deep researcher mcp windows linux"
-        },
-        {
-          "dir": "Website-to-API-with-FireCrawl",
-          "title": "Website to API with FireCrawl"
-        },
-        {
-          "dir": "Youtube-trend-analysis",
-          "title": "Youtube trend analysis"
-        },
-        {
           "dir": "acp-code",
           "title": "acp code"
         },
@@ -6299,6 +6271,10 @@
           "title": "build code harness"
         },
         {
+          "dir": "Build-reasoning-model",
+          "title": "Build reasoning model"
+        },
+        {
           "dir": "chat-with-audios",
           "title": "chat with audios"
         },
@@ -6313,6 +6289,10 @@
         {
           "dir": "colbert-rag",
           "title": "colbert rag"
+        },
+        {
+          "dir": "Colivara-deepseek-website-RAG",
+          "title": "Colivara deepseek website RAG"
         },
         {
           "dir": "content_planner_flow",
@@ -6341,6 +6321,10 @@
         {
           "dir": "database-memory-agent",
           "title": "database memory agent"
+        },
+        {
+          "dir": "DeepSeek-finetuning",
+          "title": "DeepSeek finetuning"
         },
         {
           "dir": "deepseek-multimodal-RAG",
@@ -6437,6 +6421,22 @@
         {
           "dir": "imagegen-janus-pro",
           "title": "imagegen janus pro"
+        },
+        {
+          "dir": "kitops-mcp",
+          "title": "kitops mcp"
+        },
+        {
+          "dir": "knowledge distillation",
+          "title": "knowledge distillation"
+        },
+        {
+          "dir": "LaTeX-OCR-with-Llama",
+          "title": "LaTeX OCR with Llama"
+        },
+        {
+          "dir": "llama-4-rag",
+          "title": "llama 4 rag"
         }
       ],
       "files": 1188,
@@ -6623,10 +6623,6 @@
       "lessonScheme": "documents",
       "lessonList": [
         {
-          "dir": "_layouts",
-          "title": "layouts"
-        },
-        {
           "dir": "appendix",
           "title": "appendix"
         },
@@ -6661,6 +6657,10 @@
         {
           "dir": "updates",
           "title": "updates"
+        },
+        {
+          "dir": "_layouts",
+          "title": "layouts"
         }
       ],
       "files": 176,

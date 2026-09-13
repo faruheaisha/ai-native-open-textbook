@@ -24,7 +24,7 @@ WorkBuddy 内置了多款国产大模型。每日签到领取的积分基本能�
 
 如果拿不准做什么，WorkBuddy 已经按应用场景预设了模板，选一个直接开始即可。
 
-![](/mirror/3d/3ddffbcce78eae7be923f5401587bdcd288168fc.gif)
+![](/mirror/3d/3ddffbcce78eae7be923f5401587bdcd288168fc.webp)
 
 ## 短任务实战：Excel 可视化与数据清洗
 
@@ -45,7 +45,7 @@ HY3 在短任务上表现突出。PPT 生成、数据清洗、Excel 图表可视
 
 执行过程可能较慢，但最终产出的可视化效果通常超出预期——包括图表、趋势分析和文字总结。数据清洗和 PPT 生成同理。
 
-![](/mirror/2b/2b1dbf795034c3d992e8afbd7278a8b6368cf5b5.png)
+![](/mirror/2b/2b1dbf795034c3d992e8afbd7278a8b6368cf5b5.webp)
 
 ## 设计创意：用提示词生成完整网站
 
@@ -91,7 +91,7 @@ Build a full-screen hero landing page for a creative agency called "Mainframe" u
 
 以上两个模板全程使用 HY3 模型完成。
 
-![](/mirror/04/04ecd3c64a20dbcfaad00d8d85a801d6de26d421.gif)
+![](/mirror/04/04ecd3c64a20dbcfaad00d8d85a801d6de26d421.webp)
 
 ## Skill 联动：跨服务的智能推荐
 
@@ -112,6 +112,6 @@ WorkBuddy 的 Skill 系统允许 Agent 连接日常使用的各类服务。这�
 4. 输出推荐理由和歌单链接。
 ```
 
-![](/mirror/fc/fc2e8ab9d7cd3fb3dab4091430aace52bc21ca48.png)
+![](/mirror/fc/fc2e8ab9d7cd3fb3dab4091430aace52bc21ca48.webp)
 
 微信读书 Skill 的安装链接可以在官方页面获取：`https://weread.qq.com/r/weread-skills`。

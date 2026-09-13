@@ -36,7 +36,7 @@ This content is based on our new course ["Building Effective AI Agents with n8n"
 
 Let's explore context engineering principles through an example: a minimal deep research agent that performs web searches and generates reports.
 
-![Agent Workflow](/mirror/6b/6b2218b7dc96b309ddfea47482bcacb0c4cc294b.png)
+![Agent Workflow](/mirror/6b/6b2218b7dc96b309ddfea47482bcacb0c4cc294b.webp)
 
 ### The Context Engineering Challenge
 

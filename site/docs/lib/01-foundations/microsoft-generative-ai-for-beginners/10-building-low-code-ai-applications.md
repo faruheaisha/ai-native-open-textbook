@@ -14,7 +14,7 @@ zh: ""
 
 # Building Low Code AI Applications
 
-[![Building Low Code AI Applications](/mirror/70/707b215eace34bc13c7f0facd50b720540b7b501.png)](https://youtu.be/1vzq3Nd8GBA?si=h6LHWJXdmqf6mhDg)
+[![Building Low Code AI Applications](/mirror/70/707b215eace34bc13c7f0facd50b720540b7b501.webp)](https://youtu.be/1vzq3Nd8GBA?si=h6LHWJXdmqf6mhDg)
 
 > _(Click the image above to view video of this lesson)_
 
@@ -124,17 +124,17 @@ You will build the app using Copilot in Power Apps following the steps below:
 
 1. Use the text area on the home screen to describe the app you want to build. For example, **_I want to build an app to track and manage student assignments_**. Click on the **Send** button to send the prompt to the AI Copilot.
 
-![Describe the app you want to build](/mirror/02/024e7bdeba9cc1ede6d937888bccebe00089e038.png)
+![Describe the app you want to build](/mirror/02/024e7bdeba9cc1ede6d937888bccebe00089e038.webp)
 
 1. The AI Copilot will suggest a Dataverse Table with the fields you need to store the data you want to track and some sample data. You can then customize the table to meet your needs using the AI Copilot assistant feature through conversational steps.
 
    > **Important**: Dataverse is the underlying data platform for Power Platform. It is a low-code data platform for storing the app's data. It is a fully managed service that securely stores data in the Microsoft Cloud and is provisioned within your Power Platform environment. It comes with built-in data governance capabilities, such as data classification, data lineage, fine-grained access control, and more. You can learn more about Dataverse [here](https://learn.microsoft.com/power-apps/maker/data-platform/data-platform-intro?WT.mc_id=academic-109639-somelezediko).
 
-   ![Suggested fields in your new table](/mirror/45/4543171a58850f650f8e621b60d2d4cf20c82732.png)
+   ![Suggested fields in your new table](/mirror/45/4543171a58850f650f8e621b60d2d4cf20c82732.webp)
 
 1. Educators want to send emails to the students who have submitted their assignments to keep them updated on the progress of their assignments. You can use Copilot to add a new field to the table to store the student email. For example, you can use the following prompt to add a new field to the table: **_I want to add a column to store student email_**. Click on the **Send** button to send the prompt to the AI Copilot.
 
-![Adding a new field](/mirror/51/516d2432ef98ba1abbbb2a35512ae1fa7a6ad726.png)
+![Adding a new field](/mirror/51/516d2432ef98ba1abbbb2a35512ae1fa7a6ad726.webp)
 
 1. The AI Copilot will generate a new field and you can then customize the field to meet your needs.
 
@@ -144,7 +144,7 @@ You will build the app using Copilot in Power Apps following the steps below:
 
 1. For educators to send emails to students, you can use Copilot to add a new screen to the app. For example, you can use the following prompt to add a new screen to the app: **_I want to add a screen to send emails to students_**. Click on the **Send** button to send the prompt to the AI Copilot.
 
-![Adding a new screen via a prompt instruction](/mirror/c9/c90bb78db7b4476a0681930a2a34edc41f86ebc0.png)
+![Adding a new screen via a prompt instruction](/mirror/c9/c90bb78db7b4476a0681930a2a34edc41f86ebc0.webp)
 
 1. The AI Copilot will generate a new screen and you can then customize the screen to meet your needs.
 
@@ -180,15 +180,15 @@ To create a table in Dataverse using Copilot, follow the steps below:
 
 2. On the left navigation bar, select on **Tables** and then click on **Describe the new Table**.
 
-![Select new table](/mirror/bd/bd888dc26b05333bb854c9b82ab2d4b714d0e284.png)
+![Select new table](/mirror/bd/bd888dc26b05333bb854c9b82ab2d4b714d0e284.webp)
 
 1. On the **Describe the new Table** screen, use the text area to describe the table you want to create. For example, **_I want to create a table to store invoice information_**. Click on the **Send** button to send the prompt to the AI Copilot.
 
-![Describe the table](/mirror/f8/f89d11e58e035de916152b7aa36dbdb125fb3b93.png)
+![Describe the table](/mirror/f8/f89d11e58e035de916152b7aa36dbdb125fb3b93.webp)
 
 1. The AI Copilot will suggest a Dataverse Table with the fields you need to store the data you want to track and some sample data. You can then customize the table to meet your needs using the AI Copilot assistant feature through conversational steps.
 
-![Suggested Dataverse table](/mirror/fd/fd0af690910a1b6079af844b8de8fb94049f7bdc.png)
+![Suggested Dataverse table](/mirror/fd/fd0af690910a1b6079af844b8de8fb94049f7bdc.webp)
 
 1. The finance team wants to send an email to the supplier to update them with the current status of their invoice. You can use Copilot to add a new field to the table to store the supplier email. For example, you can use the following prompt to add a new field to the table: **_I want to add a column to store supplier email_**. Click on the **Send** button to send the prompt to the AI Copilot.
 
@@ -217,7 +217,7 @@ Some of the Prebuilt AI Models available in Power Platform include:
 
 With Custom AI Models you can bring your own model into AI Builder so that it can function like any AI Builder custom model, allowing you to train the model using your own data. You can use these models to automate processes and predict outcomes in both Power Apps and Power Automate. When using your own model there are limitations that apply. Read more on these [limitations](https://learn.microsoft.com/ai-builder/byo-model#limitations?WT.mc_id=academic-105485-koreyst).
 
-![AI builder models](/mirror/52/528ed267253aae18f0cc637f6fa47d18fa5943a8.png)
+![AI builder models](/mirror/52/528ed267253aae18f0cc637f6fa47d18fa5943a8.webp)
 
 ## Assignment #2 - Build an Invoice Processing Flow for Our Startup
 
@@ -231,7 +231,7 @@ To build a workflow that will help the finance team process invoices using the I
 
 2. Use the text area on the home screen to describe the workflow you want to build. For example, **_Process an invoice when it arrives in my mailbox_**. Click on the **Send** button to send the prompt to the AI Copilot.
 
-   ![Copilot power automate](/mirror/86/8697595b46632ef57dcd52fae23a77daa6264e6f.png)
+   ![Copilot power automate](/mirror/86/8697595b46632ef57dcd52fae23a77daa6264e6f.webp)
 
 3. The AI Copilot will suggest the actions you need to perform the task you want to automate. You can click on the **Next** button to go through the next steps.
 
@@ -245,7 +245,7 @@ To build a workflow that will help the finance team process invoices using the I
 
 8. Remove the **Condition** action from the flow because you will not be using it. It should look like the following screenshot:
 
-   ![power automate, remove actions](/mirror/2b/2bb1a16c4248efb23e512248fd60f6c9112004e3.png)
+   ![power automate, remove actions](/mirror/2b/2bb1a16c4248efb23e512248fd60f6c9112004e3.webp)
 
 9. Click on the **Add an action** button and search for **Dataverse**. Select the **Add a new row** action.
 
@@ -260,7 +260,7 @@ To build a workflow that will help the finance team process invoices using the I
     - Status - Set the **Status** to **Pending**.
     - Supplier Email - Use the **From** dynamic content from the **When a new email arrives** trigger.
 
-    ![power automate add row](/mirror/41/41b5ff5ab70c8d375ca4aba02e87c284960ac537.png)
+    ![power automate add row](/mirror/41/41b5ff5ab70c8d375ca4aba02e87c284960ac537.webp)
 
 12. Once you are done with the flow, click on the **Save** button to save the flow. You can then test the flow by sending an email with an invoice to the folder you specified in the trigger.
 
@@ -274,7 +274,7 @@ GPT models undergo extensive training on vast amounts of data, enabling them to 
 
 For example, you can build flows to automatically generate text for a variety of use cases, such as: drafts of emails, product descriptions, and more. You can also use the model to generate text for a variety of apps, such as chatbots and customer service apps that enable customer service agents to respond effectively and efficiently to customer inquiries.
 
-![create a prompt](/mirror/bf/bfc9eed3be94b10a103ac442aa3ab8adc27aee81.png)
+![create a prompt](/mirror/bf/bfc9eed3be94b10a103ac442aa3ab8adc27aee81.webp)
 
 To learn how to use this AI Model in Power Automate, go through the [Add intelligence with AI Builder and GPT](https://learn.microsoft.com/training/modules/ai-builder-text-generation/?WT.mc_id=academic-109639-somelezediko) module.
 

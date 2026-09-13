@@ -102,7 +102,7 @@ FilesystemPermission(
 3. 后续规则不再执行
 4. 如果没有任何规则匹配，默认**允许**
 
-![文件系统权限规则评估流程：内置文件调用携带 operation 与 path，规则按声明顺序扫描并在 first match 处停止，分别进入 allow 执行、deny 拒绝或 interrupt 人工审批；无规则匹配时默认允许，自定义工具、MCP 与 execute 需要另行控制](/mirror/94/943c37b9dbc4def4cbc7ff8e0f7420933c004c48.png)
+![文件系统权限规则评估流程：内置文件调用携带 operation 与 path，规则按声明顺序扫描并在 first match 处停止，分别进入 allow 执行、deny 拒绝或 interrupt 人工审批；无规则匹配时默认允许，自定义工具、MCP 与 execute 需要另行控制](/mirror/94/943c37b9dbc4def4cbc7ff8e0f7420933c004c48.webp)
 
 最后一点最容易造成误配。单独写一条 `allow /workspace/**` 并不会形成工作区白名单，因为工作区外的路径没有命中规则，仍会按默认行为放行。真正的白名单需要在末尾追加全局拒绝。
 
@@ -390,7 +390,7 @@ agent = create_deep_agent(
 
 二者应组合，而不能互相替代。完整的执行边界与文件传输模型见[第 10 章：沙箱执行](https://github.com/datawhalechina/deepagents-in-action/blob/4097ff944f9ffa1bdfe2dd04f751f4416b058860/ch10-sandboxes/README.md)。
 
-![文件系统权限的控制面与旁路：Agent 的内置文件调用经过 FilesystemMiddleware 和 permissions 路径规则后进入 Backend；custom tool、MCP tool 与 execute 不经过这道门，需要分别使用工具校验与 HITL、MCP Server 权限以及沙箱命令和网络策略](/mirror/0e/0eb1df9940d03d520e62800f4bd633d7df97b994.png)
+![文件系统权限的控制面与旁路：Agent 的内置文件调用经过 FilesystemMiddleware 和 permissions 路径规则后进入 Backend；custom tool、MCP tool 与 execute 不经过这道门，需要分别使用工具校验与 HITL、MCP Server 权限以及沙箱命令和网络策略](/mirror/0e/0eb1df9940d03d520e62800f4bd633d7df97b994.webp)
 
 ## 8. 什么时候升级到自定义策略
 

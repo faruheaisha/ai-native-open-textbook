@@ -58,7 +58,7 @@ wechat-publisher 基于开源项目 [wenyan-cli](https://github.com/caol64/wenya
 帮我安装公众号排版 Skill：wechat-publisher
 **或者直接去技能搜索框搜索：wechat-publisher** 这个简单直接
 ```
-![skill安装](/mirror/6d/6de1fa061a65fb2ecb43e2340a57e5cc63c2ec9c.png)
+![skill安装](/mirror/6d/6de1fa061a65fb2ecb43e2340a57e5cc63c2ec9c.webp)
 千问办公会从推荐市场中搜索并安装这个 Skill。安装完成后，可以确认一下 Skill 是否就位：
 
 ```text

@@ -115,7 +115,7 @@ Set up a harness
 | **Agent Teams** (default) | TeamCreate + SendMessage + TaskCreate | 2+ agents requiring collaboration |
 | **Subagents** | Direct Agent tool invocation | One-off tasks, no inter-agent communication needed |
 
-  <img src="/mirror/91/91d21972155199be71cb22b20f1137b1969d62a7.png" alt="Harness Agent Team" width="500">
+  <img src="/mirror/91/91d21972155199be71cb22b20f1137b1969d62a7.webp" alt="Harness Agent Team" width="500">
 
 ### Architecture Patterns
 

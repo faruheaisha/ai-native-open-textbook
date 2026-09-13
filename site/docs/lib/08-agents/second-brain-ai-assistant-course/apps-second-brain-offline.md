@@ -171,7 +171,7 @@ make local-infrastructure-down
 > [!NOTE]
 > To visualize the raw and RAG data from MongoDB, we recommend using [MongoDB Compass](https://rebrand.ly/second-brain-course-mongodb-compass) or Mongo's official IDE plugin (e.g., `MongoDB for VS Code`). To connect to the working MongoDB instance, use the `MONGODB_URI` value from the `.env` file or found inside the [config.py](https://github.com/decodingai-magazine/second-brain-ai-assistant-course/blob/17ccef571db3e4b563826dab83ecc9298a54ede1/apps/second-brain-offline/src/second_brain_offline/config.py) file.
 
-![mongodb_atlas_example.png](/mirror/bc/bc2ed8c8dc75f68417bc2c592fac4bdcec533e08.png)
+![mongodb_atlas_example.png](/mirror/bc/bc2ed8c8dc75f68417bc2c592fac4bdcec533e08.webp)
 
 # ⚡️ Running the Code for Each Module
 
@@ -280,7 +280,7 @@ HUGGINGFACE_ACCESS_TOKEN=hf_...
 > [!IMPORTANT]
 > When configuring the `HUGGINGFACE_DEDICATED_ENDPOINT`, you need to make sure that the endpoint URL ends with `/v1/`, as seen in the image above. You can copy the valid URL from the **API** tab in the **Playground** section of the dashboard, as seen in the image below.
 
-![Hugging Face Inference Endpoints Dashboard](/mirror/ab/ab2fac3d154c6808480f5acec6930d75a31e83d6.png)
+![Hugging Face Inference Endpoints Dashboard](/mirror/ab/ab2fac3d154c6808480f5acec6930d75a31e83d6.webp)
 
 After setting the environment variables, you can check that it works by running the following command:
 ```bash

@@ -69,7 +69,7 @@ Tools change this. By giving the model access to functions it can call, you tran
 
 Without tools, a language model can only generate text from its training data. Ask it for the current weather, and it has to guess. Give it tools, and it can call a weather API, perform calculations, or query a database — then weave those real results into its response.
 
-<img src="/mirror/7c/7c136da08279967750032ac75eaf6483bcd0a9e7.png" alt="Without Tools vs With Tools" width="800"/>
+<img src="/mirror/7c/7c136da08279967750032ac75eaf6483bcd0a9e7.webp" alt="Without Tools vs With Tools" width="800"/>
 
 *Without tools the model can only guess — with tools it can call APIs, run calculations, and return real-time data.*
 
@@ -80,7 +80,7 @@ An AI agent with tools follows a **Reasoning and Acting (ReAct)** pattern. The m
 3. **Observe** — The agent receives the tool's output and evaluates the result
 4. **Repeat or Respond** — If more data is needed, the agent loops back; otherwise, it composes a natural language answer
 
-<img src="/mirror/01/0105993eca3aae6a2e258ed9cb5092af21a5149f.png" alt="ReAct Pattern" width="800"/>
+<img src="/mirror/01/0105993eca3aae6a2e258ed9cb5092af21a5149f.webp" alt="ReAct Pattern" width="800"/>
 
 *The ReAct cycle — the agent reasons about what to do, acts by calling a tool, observes the result, and loops until it can deliver the final answer.*
 
@@ -118,7 +118,7 @@ public interface Assistant {
 
 The diagram below breaks down every annotation and shows how each piece helps the AI understand when to call the tool and what arguments to pass:
 
-<img src="/mirror/b0/b01143e35a50db3594014cd976e443660d33ab27.png" alt="Anatomy of Tool Definitions" width="800"/>
+<img src="/mirror/b0/b01143e35a50db3594014cd976e443660d33ab27.webp" alt="Anatomy of Tool Definitions" width="800"/>
 
 *Anatomy of a tool definition — @Tool tells the AI when to use it, @P describes each parameter, and @AiService wires everything together at startup.*
 
@@ -133,7 +133,7 @@ When a user asks "What's the weather in Seattle?", the model doesn't randomly pi
 
 If no tool matches the user's request, the model falls back to answering from its own knowledge. If multiple tools match, it picks the most specific one.
 
-<img src="/mirror/ab/abf252b8ab6349982ba5a540a33d9a343701651f.png" alt="How the AI Decides Which Tool to Use" width="800"/>
+<img src="/mirror/ab/abf252b8ab6349982ba5a540a33d9a343701651f.webp" alt="How the AI Decides Which Tool to Use" width="800"/>
 
 *The model evaluates every available tool against the user's intent and selects the best match — this is why writing clear, specific tool descriptions matters.*
 
@@ -143,13 +143,13 @@ If no tool matches the user's request, the model falls back to answering from it
 
 Spring Boot auto-wires the declarative `@AiService` interface with all registered tools, and LangChain4j executes tool calls automatically. Behind the scenes, a complete tool call flows through six stages — from the user's natural language question all the way back to a natural language answer:
 
-<img src="/mirror/07/07f2f6e75de83b4df2103d9bd03cbedb8096a970.png" alt="Tool Calling Flow" width="800"/>
+<img src="/mirror/07/07f2f6e75de83b4df2103d9bd03cbedb8096a970.webp" alt="Tool Calling Flow" width="800"/>
 
 *The end-to-end flow — the user asks a question, the model selects a tool, LangChain4j executes it, and the model weaves the result into a natural response.*
 
 Behind the scenes, `AiServices` runs the same tool-calling loop for any tool — here illustrated with a simple `Calculator`. The sequence diagram below shows exactly what happens under the hood:
 
-<img src="/mirror/fd/fd3e40794ac8d3b70d9d75cc9b9957d3bd0adea9.png" alt="Tool Calling Sequence Diagram" width="800"/>
+<img src="/mirror/fd/fd3e40794ac8d3b70d9d75cc9b9957d3bd0adea9.webp" alt="Tool Calling Sequence Diagram" width="800"/>
 
 *The tool-calling loop — `AiServices` sends your message and tool schemas to the LLM, the LLM replies with a function call like `add(42, 58)`, LangChain4j executes the `Calculator` method locally, and feeds the result back for the final answer.*
 
@@ -166,13 +166,13 @@ The model receives the weather data and formats it into a natural language respo
 
 This module uses LangChain4j's Spring Boot integration with declarative `@AiService` interfaces. At startup Spring Boot discovers every `@Component` that contains `@Tool` methods, your `ChatModel` bean, and the `ChatMemoryProvider` — then wires them all into a single `Assistant` interface with zero boilerplate.
 
-<img src="/mirror/6f/6f26bd6daa75034454bec737d3d796ad69c94c35.png" alt="Spring Boot Auto-Wiring Architecture" width="800"/>
+<img src="/mirror/6f/6f26bd6daa75034454bec737d3d796ad69c94c35.webp" alt="Spring Boot Auto-Wiring Architecture" width="800"/>
 
 *The @AiService interface ties together the ChatModel, tool components, and memory provider — Spring Boot handles all the wiring automatically.*
 
 Here's the full request lifecycle as a sequence diagram — from the HTTP request through the controller, service, and auto-wired proxy, all the way to the tool execution and back:
 
-<img src="/mirror/4d/4db558696d697eed302c045daec0bc68dcdff0a7.png" alt="Spring Boot Tool Calling Sequence" width="800"/>
+<img src="/mirror/4d/4db558696d697eed302c045daec0bc68dcdff0a7.webp" alt="Spring Boot Tool Calling Sequence" width="800"/>
 
 *The complete Spring Boot request lifecycle — HTTP request flows through the controller and service to the auto-wired Assistant proxy, which orchestrates the LLM and tool calls automatically.*
 
@@ -191,13 +191,13 @@ Alternative approaches (manual `AiServices.builder()`) require more code and mis
 
 **Tool Chaining** — The real power of tool-based agents shows when a single question requires multiple tools. Ask "What's the weather in Seattle in Fahrenheit?" and the agent automatically chains two tools: first it calls `getCurrentWeather` to get the temperature in Celsius, then it passes that value to `celsiusToFahrenheit` for conversion — all in a single conversation turn.
 
-<img src="/mirror/ec/ecaabfabb25fb7894d03aae41ccd17f8db583646.png" alt="Tool Chaining Example" width="800"/>
+<img src="/mirror/ec/ecaabfabb25fb7894d03aae41ccd17f8db583646.webp" alt="Tool Chaining Example" width="800"/>
 
 *Tool chaining in action — the agent calls getCurrentWeather first, then pipes the Celsius result into celsiusToFahrenheit, and delivers a combined answer.*
 
 **Graceful Failures** — Ask for weather in a city that's not in the mock data. The tool returns an error message, and the AI explains it can't help rather than crashing. Tools fail safely. The diagram below contrasts the two approaches — with proper error handling, the agent catches the exception and responds helpfully, while without it the entire application crashes:
 
-<img src="/mirror/70/70a624622e7f426ff0ff797f5c920f6819a8479e.png" alt="Error Handling Flow" width="800"/>
+<img src="/mirror/70/70a624622e7f426ff0ff797f5c920f6819a8479e.webp" alt="Error Handling Flow" width="800"/>
 
 *When a tool fails, the agent catches the error and responds with a helpful explanation instead of crashing.*
 
@@ -237,7 +237,7 @@ Simply click the play button next to "tools" to start this module, or start all 
 
 Here's what the Spring Boot Dashboard looks like in VS Code:
 
-<img src="/mirror/57/571e0e5eaced842d6ae4d9ae0caac1cda3fba218.png" alt="Spring Boot Dashboard" width="400"/>
+<img src="/mirror/57/571e0e5eaced842d6ae4d9ae0caac1cda3fba218.webp" alt="Spring Boot Dashboard" width="400"/>
 
 *The Spring Boot Dashboard in VS Code — start, stop, and monitor all modules from one place*
 
@@ -309,7 +309,7 @@ cd ..; .\stop-all.ps1  # All modules
 
 The application provides a web interface where you can interact with an AI agent that has access to weather and temperature conversion tools. Here's what the interface looks like — it includes quick-start examples and a chat panel for sending requests:
 
-<a href="https://github.com/microsoft/LangChain4j-for-Beginners/blob/9aed2ec27717775def0da2ff2d7950baa8995a64/04-tools/images/tools-homepage.png"><img src="/mirror/0f/0f50e07041edc120f4a7a96b7d4f510b60c8e614.png" alt="AI Agent Tools Interface" width="800" style="border: 1px solid #ddd; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"/></a>
+<a href="https://github.com/microsoft/LangChain4j-for-Beginners/blob/9aed2ec27717775def0da2ff2d7950baa8995a64/04-tools/images/tools-homepage.png"><img src="/mirror/0f/0f50e07041edc120f4a7a96b7d4f510b60c8e614.webp" alt="AI Agent Tools Interface" width="800" style="border: 1px solid #ddd; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"/></a>
 
 *The AI Agent Tools interface - quick examples and chat interface for interacting with tools*
 
@@ -325,7 +325,7 @@ Now try something more complex: "What's the weather in Seattle and convert it to
 
 The chat interface maintains conversation history, allowing you to have multi-turn interactions. You can see all previous queries and responses, making it easy to track the conversation and understand how the agent builds context over multiple exchanges.
 
-<a href="https://github.com/microsoft/LangChain4j-for-Beginners/blob/9aed2ec27717775def0da2ff2d7950baa8995a64/04-tools/images/tools-conversation-demo.png"><img src="/mirror/ae/ae41e8e996580a4cdb4c2f65ebeec4781803d95d.png" alt="Conversation with Multiple Tool Calls" width="800" style="border: 1px solid #ddd; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"/></a>
+<a href="https://github.com/microsoft/LangChain4j-for-Beginners/blob/9aed2ec27717775def0da2ff2d7950baa8995a64/04-tools/images/tools-conversation-demo.png"><img src="/mirror/ae/ae41e8e996580a4cdb4c2f65ebeec4781803d95d.webp" alt="Conversation with Multiple Tool Calls" width="800" style="border: 1px solid #ddd; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"/></a>
 
 *Multi-turn conversation showing simple conversions, weather lookups, and tool chaining*
 
@@ -352,7 +352,7 @@ The quality of your tool descriptions directly affects how well the agent uses t
 
 The `@MemoryId` annotation enables automatic session-based memory management. Each session ID gets its own `ChatMemory` instance managed by the `ChatMemoryProvider` bean, so multiple users can interact with the agent simultaneously without their conversations mixing together. The following diagram shows how multiple users are routed to isolated memory stores based on their session IDs:
 
-<img src="/mirror/bc/bcd70201819908c99c04abad778b10d419682055.png" alt="Session Management with @MemoryId" width="800"/>
+<img src="/mirror/bc/bcd70201819908c99c04abad778b10d419682055.webp" alt="Session Management with @MemoryId" width="800"/>
 
 *Each session ID maps to an isolated conversation history — users never see each other's messages.*
 
@@ -364,7 +364,7 @@ Tools can fail — APIs timeout, parameters might be invalid, external services 
 
 The diagram below shows the broad ecosystem of tools you can build. This module demonstrates weather and temperature tools, but the same `@Tool` pattern works for any Java method — from database queries to payment processing.
 
-<img src="/mirror/d3/d3309827786be0d075d78a1592a2abcb92fbf514.png" alt="Tool Ecosystem" width="800"/>
+<img src="/mirror/d3/d3309827786be0d075d78a1592a2abcb92fbf514.webp" alt="Tool Ecosystem" width="800"/>
 
 *Any Java method annotated with @Tool becomes available to the AI — the pattern extends to databases, APIs, email, file operations, and more.*
 
@@ -372,7 +372,7 @@ The diagram below shows the broad ecosystem of tools you can build. This module 
 
 Not every request needs tools. The decision comes down to whether the AI needs to interact with external systems or can answer from its own knowledge. The following guide summarizes when tools add value and when they're unnecessary:
 
-<img src="/mirror/0c/0c75535fe636cb3274704ab85202034c46d0ade7.png" alt="When to Use Tools" width="800"/>
+<img src="/mirror/0c/0c75535fe636cb3274704ab85202034c46d0ade7.webp" alt="When to Use Tools" width="800"/>
 
 *A quick decision guide — tools are for real-time data, calculations, and actions; general knowledge and creative tasks don't need them.*
 
@@ -380,7 +380,7 @@ Not every request needs tools. The decision comes down to whether the AI needs t
 
 Modules 03 and 04 both extend what the AI can do, but in fundamentally different ways. RAG gives the model access to **knowledge** by retrieving documents. Tools give the model the ability to take **actions** by calling functions. The diagram below compares these two approaches side by side — from how each workflow operates to the trade-offs between them:
 
-<img src="/mirror/55/55de7e6400a81085e73d7338184cf94bd6b63a02.png" alt="Tools vs RAG Comparison" width="800"/>
+<img src="/mirror/55/55de7e6400a81085e73d7338184cf94bd6b63a02.webp" alt="Tools vs RAG Comparison" width="800"/>
 
 *RAG retrieves information from static documents — Tools execute actions and fetch dynamic, real-time data. Many production systems combine both.*
 

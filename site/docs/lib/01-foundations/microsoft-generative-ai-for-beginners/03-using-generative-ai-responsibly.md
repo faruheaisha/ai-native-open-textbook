@@ -14,7 +14,7 @@ zh: "on"
 
 # Using Generative AI Responsibly
 
-[![Using Generative AI Responsibly](/mirror/e4/e464a5dfdab9138e882f9a947cdfcdc69ef3ce85.png)](https://youtu.be/YOp-e1GjZdA?si=7Wv4wu3x44L1DCVj)
+[![Using Generative AI Responsibly](/mirror/e4/e464a5dfdab9138e882f9a947cdfcdc69ef3ce85.webp)](https://youtu.be/YOp-e1GjZdA?si=7Wv4wu3x44L1DCVj)
 
 <div class="tb-zh"><p>本课视频封面（可点击跳转）：Using Generative AI Responsibly。</p></div>
 
@@ -140,7 +140,7 @@ Now that we have identified the importance of Responsible Generative AI, let's l
 
 <div class="tb-zh"><p>认识到负责任生成式 AI 的重要性之后，来看看我们可采取的 4 个步骤，把 AI 方案做得负责任：</p></div>
 
-![Mitigate Cycle](/mirror/09/09587ee40a62cfda84fc98baef48e0a3d73e4034.png)
+![Mitigate Cycle](/mirror/09/09587ee40a62cfda84fc98baef48e0a3d73e4034.webp)
 
 ### Measure Potential Harms
 
@@ -158,7 +158,7 @@ It is now time to find ways where we can prevent or limit the potential harm cau
 
 <div class="tb-zh"><p>接下来要找出办法，预防或限制模型及其回答可能造成的伤害。可以从 4 个层次来看：</p></div>
 
-![Mitigation Layers](/mirror/58/58c3a6f0de744e1ac65ecce02f5473d37fecbb2e.png)
+![Mitigation Layers](/mirror/58/58c3a6f0de744e1ac65ecce02f5473d37fecbb2e.webp)
 
 - **Model**. Choosing the right model for the right use case. Larger and more complex models like GPT-4 can cause more of a risk of harmful content when applied to smaller and more specific use cases. Using your training data to fine-tune also reduces the risk of harmful content.
 

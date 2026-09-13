@@ -15,7 +15,7 @@ zh: ""
 # Qclaw（秋芝2046）
 
 <br />
-    <img src="/mirror/97/97961f369179a4927a262631a41665569f9bb6ab.png" alt="Qclaw Logo" width="128" height="128">
+    <img src="/mirror/97/97961f369179a4927a262631a41665569f9bb6ab.webp" alt="Qclaw Logo" width="128" height="128">
 
   <h1 align="center" style="margin-top: 0.2em;">Qclaw</h1>
 
@@ -49,11 +49,11 @@ zh: ""
 
 ## Features
 
-  <img src="/mirror/cc/cc4ea3b483e53ddeeedc0ff7f1a2666af93fceb7.png" alt="Visual configuration" width="280">
-  <img src="/mirror/2e/2ecbf40f455b5b6ee22eba2ed9e5bfd6eb28c2a0.png" alt="Multi-channel access" width="280">
-  <img src="/mirror/6b/6ba70287b8f7513fa26d5b0aa7ac40f1ee5cf1e7.png" alt="State management" width="280">
-  <img src="/mirror/7c/7c55977417ca16286c7fb670775fd842357d49b3.png" alt="Safety and backup" width="280">
-  <img src="/mirror/2c/2c73e97c78de55dd873434c29ad30cfe2c954a02.png" alt="Skills management" width="280">
+  <img src="/mirror/cc/cc4ea3b483e53ddeeedc0ff7f1a2666af93fceb7.webp" alt="Visual configuration" width="280">
+  <img src="/mirror/2e/2ecbf40f455b5b6ee22eba2ed9e5bfd6eb28c2a0.webp" alt="Multi-channel access" width="280">
+  <img src="/mirror/6b/6ba70287b8f7513fa26d5b0aa7ac40f1ee5cf1e7.webp" alt="State management" width="280">
+  <img src="/mirror/7c/7c55977417ca16286c7fb670775fd842357d49b3.webp" alt="Safety and backup" width="280">
+  <img src="/mirror/2c/2c73e97c78de55dd873434c29ad30cfe2c954a02.webp" alt="Skills management" width="280">
 
 - **Environment check** — Detects Node.js and OpenClaw CLI automatically and installs missing dependencies when needed
 - **Full OpenClaw model support** — Works with the complete OpenClaw model catalog and also supports custom model entries

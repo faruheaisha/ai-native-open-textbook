@@ -14,7 +14,7 @@ zh: ""
 
 # Awesome LLM Resources（大模型资源清单）
 
-![](/mirror/02/025ac323fcb1d395f429dcf2592f91dd16ec4907.png)
+![](/mirror/02/025ac323fcb1d395f429dcf2592f91dd16ec4907.webp)
 
 <p align="center">全世界最好的大语言模型资源汇总 持续更新</p>
 

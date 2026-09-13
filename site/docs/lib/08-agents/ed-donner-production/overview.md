@@ -16,7 +16,7 @@ zh: ""
 
 ## Deploy Gen AI and Agentic AI at Scale in 4 weeks
 
-![Course Image](/mirror/16/16294d448cb97c5eff2617420751a025b02060e1.png)
+![Course Image](/mirror/16/16294d448cb97c5eff2617420751a025b02060e1.webp)
 
 _If you're looking at this in Cursor, please right click on the filename in the Explorer on the left, and select "Open preview", to view it in formatted glory._
 

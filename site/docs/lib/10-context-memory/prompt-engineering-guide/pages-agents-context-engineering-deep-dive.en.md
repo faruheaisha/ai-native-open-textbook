@@ -35,7 +35,7 @@ Don't underestimate the effort required for context engineering. It's not a one-
 
 ### The Original Design Problem
 
-![deep-research-agent](/mirror/6b/6b2218b7dc96b309ddfea47482bcacb0c4cc294b.png)
+![deep-research-agent](/mirror/6b/6b2218b7dc96b309ddfea47482bcacb0c4cc294b.webp)
 
 Let's look at a basic deep research agent architecture. The initial architecture connects the web search tool directly to the deep research agent. This design places too much burden on a single agent responsible for:
 

@@ -19,4 +19,4 @@ zh: ""
 
 效果：
 
-![image.png](/mirror/22/22b62bf7fbfa236c34e2d67bb1acfdbd7a9d4574.png)
+![image.png](/mirror/22/22b62bf7fbfa236c34e2d67bb1acfdbd7a9d4574.webp)

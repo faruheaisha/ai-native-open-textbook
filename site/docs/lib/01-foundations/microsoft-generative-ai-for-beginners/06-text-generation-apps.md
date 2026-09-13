@@ -14,7 +14,7 @@ zh: ""
 
 # Building Text Generation Applications
 
-[![Building Text Generation Applications](/mirror/c8/c80cc7a7f2b062d716c8a47a317462fbe73a55f6.png)](https://youtu.be/0Y5Luf5sRQA?si=t_xVg0clnAI4oUFZ)
+[![Building Text Generation Applications](/mirror/c8/c80cc7a7f2b062d716c8a47a317462fbe73a55f6.webp)](https://youtu.be/0Y5Luf5sRQA?si=t_xVg0clnAI4oUFZ)
 
 > _(Click the image above to view video of this lesson)_
 

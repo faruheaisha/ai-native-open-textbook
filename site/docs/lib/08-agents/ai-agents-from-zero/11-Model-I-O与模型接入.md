@@ -44,7 +44,7 @@ zh: ""
 - **Predict（模型调用）**：通过 LangChain 的统一接口调用不同模型提供商，例如 OpenAI、DeepSeek、阿里百炼、Ollama 等。
 - **Parse（输出解析）**：把模型返回的自然语言结果转成更稳定、程序更好处理的形式，例如字符串、JSON、结构化对象等。
 
-![Model I/O 三步流程：Format（模板与变量）→ Predict（LLM / Chat Model）→ Parse（输出解析为 JSON 等结构化数据）](/mirror/39/39ef9bd487201fa292bba5e27526bb1a00b27ae4.png)
+![Model I/O 三步流程：Format（模板与变量）→ Predict（LLM / Chat Model）→ Parse（输出解析为 JSON 等结构化数据）](/mirror/39/39ef9bd487201fa292bba5e27526bb1a00b27ae4.webp)
 
 可以把这张图看作后续几章的总地图：
 
@@ -188,7 +188,7 @@ Embedding 不是“会说话”的模型，但它依然属于 Model I/O 体系�
 
 下面这张图很适合入门建立直觉：
 
-![模型常用参数示意：Temperature 控制随机性/发散度，Max Tokens 控制单次生成长度与费用上限](/mirror/ac/ac8fa031326474a32f64bb102656a0100ab8d454.jpeg)
+![模型常用参数示意：Temperature 控制随机性/发散度，Max Tokens 控制单次生成长度与费用上限](/mirror/ac/ac8fa031326474a32f64bb102656a0100ab8d454.webp)
 
 - **`temperature`** 管“风格和发散度”
 - **`max_tokens`** 管“长度和成本”

@@ -19,7 +19,7 @@ map, and the skill map underneath it.
 
 ## The arc
 
-![Seven phases across 24 weeks, from Foundations to the Databricks capstone](/mirror/06/068f0a31d146e63bc28309f7837b3c134c0a08eb.png)
+![Seven phases across 24 weeks, from Foundations to the Databricks capstone](/mirror/06/068f0a31d146e63bc28309f7837b3c134c0a08eb.webp)
 
 The same arc as a live diagram (renders on GitHub):
 

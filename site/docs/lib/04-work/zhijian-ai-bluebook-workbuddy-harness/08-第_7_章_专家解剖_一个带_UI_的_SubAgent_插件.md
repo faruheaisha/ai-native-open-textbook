@@ -56,7 +56,7 @@ aihot/
 
 注意 `expertType: "agent"`——它声明这位专家是「单 Agent 型」。还存在另一种类型：Team 型（专家团），稍后讲。
 
-![专家四件套与 UI 字段映射](https://gh-proxy.com/https://raw.githubusercontent.com/zjp1997720/zhijian-ai-bluebook-workbuddy-harness/6ac68cd42a01add16568d1ab9cf2399822467fad/workbuddy-harness/fig-08.png)
+![专家四件套与 UI 字段映射](/workbuddy-harness/fig-08.webp)
 
 *图 7-1：专家四件套与 UI 字段映射。*
 
@@ -88,7 +88,7 @@ maxTurns: 30
 
 一次专家对话 = 清单字段渲染 UI + 人设注入 + 技能执行。没有魔法，全是文件。
 
-![专家接管的运行时链路](https://gh-proxy.com/https://raw.githubusercontent.com/zjp1997720/zhijian-ai-bluebook-workbuddy-harness/6ac68cd42a01add16568d1ab9cf2399822467fad/workbuddy-harness/fig-09.png)
+![专家接管的运行时链路](/workbuddy-harness/fig-09.webp)
 
 *图 7-2：专家接管的运行时链路。*
 

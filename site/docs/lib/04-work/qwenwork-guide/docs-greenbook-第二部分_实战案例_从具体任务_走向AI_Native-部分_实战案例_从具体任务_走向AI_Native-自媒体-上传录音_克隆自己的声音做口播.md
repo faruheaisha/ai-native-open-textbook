@@ -20,6 +20,6 @@ zh: ""
 
 效果：
 
-![image.png](/mirror/63/63b273a65ff1e93183efbdb6ce8beadf58c6e9fe.png)
+![image.png](/mirror/63/63b273a65ff1e93183efbdb6ce8beadf58c6e9fe.webp)
 
-![image.png](/mirror/11/11f6a587d9c3d6e91cb9001dd6f591a153bb7099.png)
+![image.png](/mirror/11/11f6a587d9c3d6e91cb9001dd6f591a153bb7099.webp)

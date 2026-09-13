@@ -308,7 +308,7 @@ print(result["messages"][-1].content)
 
 这个过程中，Agent 可能调用了 10+ 次工具，但你只需要一次 `invoke()` 调用。
 
-![agent.invoke() 背后发生了什么？规划任务 → 搜索信息 → 管理上下文 → 委派子任务（如需要）→ 综合报告，你只写了 1 行调用，Agent 自动完成 10+ 次工具调用](/mirror/88/88b24527cff764ccff6029ef54d741b3f2f7793b.png)
+![agent.invoke() 背后发生了什么？规划任务 → 搜索信息 → 管理上下文 → 委派子任务（如需要）→ 综合报告，你只写了 1 行调用，Agent 自动完成 10+ 次工具调用](/mirror/88/88b24527cff764ccff6029ef54d741b3f2f7793b.webp)
 
 > [!NOTE]
 > **v0.7 提醒**：图中的规划流程对应“已启用 Todo”的复杂研究任务。没有传入 `TodoListMiddleware` 时，Agent 不会获得 `write_todos` 和 `todos` 状态；即使已经启用，模型也会根据任务决定是否实际调用工具，不能把图中的每一步当成固定执行协议。
@@ -326,7 +326,7 @@ Deep Agents 支持任何实现了工具调用（Tool Calling）的 LangChain Cha
 
 硅基流动同时支持这两种接口，这意味着你可以用 `ChatOpenAI` 或 `ChatAnthropic` 来接入同一个平台上的模型。
 
-![两种大模型标准接口对比：OpenAI 兼容接口（/chat/completions，行业最广泛）和 Anthropic 兼容接口（/messages），硅基流动同时兼容两种，可接入 GLM、Kimi、Qwen、DeepSeek 等模型](/mirror/a2/a2285fd00e69ab705f726d60e3f197f440b3b1f2.png)
+![两种大模型标准接口对比：OpenAI 兼容接口（/chat/completions，行业最广泛）和 Anthropic 兼容接口（/messages），硅基流动同时兼容两种，可接入 GLM、Kimi、Qwen、DeepSeek 等模型](/mirror/a2/a2285fd00e69ab705f726d60e3f197f440b3b1f2.webp)
 
 ### 方式一：OpenAI 兼容接口（推荐）
 

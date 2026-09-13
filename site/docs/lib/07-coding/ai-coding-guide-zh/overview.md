@@ -329,7 +329,7 @@ Week 14：WorkBuddy 技能 + 连接器 + 知识库 + 自动化 + 多端 + 企业
 
 ## 📞 联系方式
 
-  <img src="/mirror/07/078c83bbd9db8eaaeb6a5db071fc25d8f12439b6.png" alt="联系方式" width="600"/>
+  <img src="/mirror/07/078c83bbd9db8eaaeb6a5db071fc25d8f12439b6.webp" alt="联系方式" width="600"/>
   <p><strong>获取更多 AI 资讯、企业赋能和高校培训支持</strong></p>
   
     👤 <strong>作者：老金</strong> | 🔗 <a href="https://github.com/KimYx0207">GitHub</a> | 🌐 <a href="https://aiking.dev/">aiking.dev</a> | 𝕏 <a href="https://x.com/KimYx0207">老金带你玩AI</a> | 📱 微信公众号：<strong>老金带你玩AI</strong>
@@ -342,12 +342,12 @@ Week 14：WorkBuddy 技能 + 连接器 + 知识库 + 自动化 + 多端 + 企业
   <table align="center">
     <tr>
       <td align="center">
-        <img src="/mirror/af/af13fdab2c7ef6f4c3ad92c777faa9ed2933136d.jpg" alt="微信收款码" width="300"/>
+        <img src="/mirror/af/af13fdab2c7ef6f4c3ad92c777faa9ed2933136d.webp" alt="微信收款码" width="300"/>
         <br/>
         <strong>微信支付</strong>
       </td>
       <td align="center">
-        <img src="/mirror/f9/f9d76c487ade463811622105071055ec910f279d.jpg" alt="支付宝收款码" width="300"/>
+        <img src="/mirror/f9/f9d76c487ade463811622105071055ec910f279d.webp" alt="支付宝收款码" width="300"/>
         <br/>
         <strong>支付宝</strong>
       </td>

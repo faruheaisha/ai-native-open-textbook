@@ -41,15 +41,15 @@ serves `dist/` plus `/api/*`.
 
 ### Deployments
 
-![Deployments](/mirror/be/beb7f75fa0429a50297b49933eefdf2b1b5ed8f2.png)
+![Deployments](/mirror/be/beb7f75fa0429a50297b49933eefdf2b1b5ed8f2.webp)
 
 ### App details
 
-![App details](/mirror/ff/ff6ecb1c110ef35a0f48959e92d2ebb34bf1be1d.png)
+![App details](/mirror/ff/ff6ecb1c110ef35a0f48959e92d2ebb34bf1be1d.webp)
 
 ### Traces
 
-![Traces](/mirror/6a/6aca2afabe5851883c474a2c6f12717001d56c85.png)
+![Traces](/mirror/6a/6aca2afabe5851883c474a2c6f12717001d56c85.webp)
 
 ## Scope
 

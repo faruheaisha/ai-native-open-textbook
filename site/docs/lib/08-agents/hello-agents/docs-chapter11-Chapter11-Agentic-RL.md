@@ -49,7 +49,7 @@ Reinforcement learning provides new possibilities. By allowing agents to autonom
 
 Before diving into Agentic RL, we need to first understand the complete process of LLM training. The birth of a powerful LLM (such as GPT, Claude, Qwen) typically goes through two main stages: Pretraining and Post-training. As shown in Figure 11.1, these two stages constitute the complete evolutionary path of LLM from "language model" to "conversational assistant".
 
-  <img src="/mirror/dd/dde5433a580fccb1a060d7d7bc9b1e49e888f02b.png" alt="" width="85%"/>
+  <img src="/mirror/dd/dde5433a580fccb1a060d7d7bc9b1e49e888f02b.webp" alt="" width="85%"/>
   <p>Figure 11.1 LLM Training Landscape</p>
 
 **Pretraining Stage** is the first stage of LLM training, with the goal of making the model learn basic language patterns and world knowledge. This stage uses massive amounts of text data (usually TB-level) and trains the model through self-supervised learning, where the training signal is constructed from the text itself, such as predicting the next word from the previous context. The most common pretraining task is Causal Language Modeling, also known as Next Token Prediction.
@@ -105,7 +105,7 @@ As can be seen, key features of Agentic RL are multi-step interaction, each acti
 Reinforcement learning is commonly formalized with the Markov Decision Process (MDP) framework. An MDP is defined by a five-tuple $(S, A, P, R, \gamma)$: state space $S$, action space $A$, state transition function $P(s'|s,a)$, reward function $R(s,a)$, and discount factor $\gamma$. The table below compares PBRFT and Agentic RL from the MDP perspective.
 
   <p>Table 11.1 Comparison of PBRFT and Agentic RL</p>
-  <img src="/mirror/1c/1c735d1e337754ac7e72689b82288af4a07c513a.png" alt="" width="85%"/>
+  <img src="/mirror/1c/1c735d1e337754ac7e72689b82288af4a07c513a.webp" alt="" width="85%"/>
 
 In terms of state, PBRFT's state $s_0$ consists only of user prompts, time span $T=1$ (single step), state doesn't change, can be represented as $s_0 = \text{prompt}$. While Agentic RL's state $s_t$ contains historical observations and context, time span $T \gg 1$ (multi-step), state evolves with actions, can be represented as $s_t = (\text{prompt}, o_1, o_2, ..., o_t)$, where $o_t$ is the observation at step $t$ (such as tool return results, environment feedback, etc.).
 
@@ -139,7 +139,7 @@ This transformation is not just a difference in technical details, but a fundame
 
 Agentic RL aims to endow LLM agents with six core capabilities, as shown in Figure 11.2.
 
-  <img src="/mirror/a7/a7df6bac1b0a61bafdaa7c80eb844f80b7f294ba.png" alt="" width="85%"/>
+  <img src="/mirror/a7/a7df6bac1b0a61bafdaa7c80eb844f80b7f294ba.webp" alt="" width="85%"/>
   <p>Figure 11.2 Six Core Capabilities of Agentic RL</p>
 
 **Reasoning** refers to the process of logically deriving conclusions from given information, which is the core capability of agents. Traditional CoT prompting methods rely on few-shot examples with limited generalization ability; SFT can only imitate reasoning patterns in training data, making it difficult to innovate. The advantage of reinforcement learning is learning effective reasoning strategies through trial and error, discovering reasoning paths not in training data, learning when deep thinking is needed and when quick answers are possible. Reasoning tasks can be modeled as sequential decision problems. Given question $q$, the agent needs to generate reasoning chain $c = (c_1, c_2, ..., c_n)$ and final answer $a$. The reward function is typically designed as $r(q, c, a) = 1$ if $a = a^*$ else $0$, with training objective $\max_\theta \mathbb{E}_{q, (c,a) \sim \pi_\theta} [r(q, c, a)]$. Through this approach, the model learns to generate high-quality reasoning chains, not just memorize answers.
@@ -162,7 +162,7 @@ In terms of technology selection, we integrated the TRL (Transformer Reinforceme
 
 HelloAgents' Agentic RL module adopts a four-layer architecture design, as shown in Figure 11.3.
 
-  <img src="/mirror/28/28b50227b5634ba64917c6192dee132158b40bad.png" alt="" width="85%"/>
+  <img src="/mirror/28/28b50227b5634ba64917c6192dee132158b40bad.webp" alt="" width="85%"/>
   <p>Figure 11.3 HelloAgents Agentic RL Architecture</p>
 
 The bottom layer is the **Dataset Layer**, containing the `GSM8KDataset` class, `create_sft_dataset()` function, and `create_rl_dataset()` function, responsible for data loading and format conversion. The second layer is the **Reward Function Layer**, containing the `MathRewardFunction` base class, `AccuracyReward` accuracy reward, `LengthPenaltyReward` length penalty, `StepReward` step reward, and convenient creation functions `create_*_reward()`, responsible for defining what good behavior is. The third layer is the **Trainer Layer**, containing `SFTTrainerWrapper` and `GRPOTrainerWrapper`, responsible for specific training logic and LoRA support. The top layer is the **Unified Interface Layer**, providing `RLTrainingTool` unified training tool, supporting four operations: `action="train"` (train model), `action="load_dataset"` (load dataset), `action="create_reward"` (create reward function), `action="evaluate"` (evaluate model).
@@ -256,7 +256,7 @@ Mathematical reasoning is an ideal task for evaluating LLM reasoning capabilitie
 GSM8K (Grade School Math 8K)<sup>[4]</sup> is a high-quality elementary school math word problem dataset. As shown in Table 11.2, the dataset contains 7,473 training samples and 1,319 test samples, with difficulty at elementary school math level (grades 2-8), problem types are word problems, requiring 2-8 steps of reasoning to arrive at answers.
 
   <p>Table 11.2 GSM8K Dataset Statistics</p>
-  <img src="/mirror/65/6582abeff4479bd0167a44209227525ae02130bc.png" alt="" width="85%"/>
+  <img src="/mirror/65/6582abeff4479bd0167a44209227525ae02130bc.webp" alt="" width="85%"/>
 
 Let's look at a typical GSM8K problem:
 
@@ -276,7 +276,7 @@ This problem requires two steps of reasoning: first calculate the quantity sold 
 
 The GSM8K dataset needs to be converted to different formats to adapt to different training methods, as shown in Figure 11.4.
 
-  <img src="/mirror/bf/bf163d26f39b7ee12f246706a99abf9af1a4b815.png" alt="" width="85%"/>
+  <img src="/mirror/bf/bf163d26f39b7ee12f246706a99abf9af1a4b815.webp" alt="" width="85%"/>
   <p>Figure 11.4 GSM8K Data Format Conversion</p>
 
 
@@ -305,7 +305,7 @@ Key points are prompt is the same as SFT, but ground_truth only contains the fin
 As shown in Table 11.3, the three formats each have their uses.
 
   <p>Table 11.3 Data Format Comparison</p>
-  <img src="/mirror/77/770c883c3d00b4a394e8c48472a2b076728ac6d4.png" alt="" width="85%"/>
+  <img src="/mirror/77/770c883c3d00b4a394e8c48472a2b076728ac6d4.webp" alt="" width="85%"/>
 
 HelloAgents provides convenient dataset loading functions. Let's load and view the dataset through code:
 
@@ -365,7 +365,7 @@ Reward function design directly affects training effectiveness. Good reward func
 
 HelloAgents provides three built-in reward functions that can be used individually or in combination, as shown in Figure 11.5.
 
-  <img src="/mirror/3e/3e09dc8ecc30204458e9629b6be1123a7dc2dbb1.png" alt="" width="85%"/>
+  <img src="/mirror/3e/3e09dc8ecc30204458e9629b6be1123a7dc2dbb1.webp" alt="" width="85%"/>
   <p>Figure 11.5 Reward Function Design</p>
 
 **(1) Accuracy Reward**
@@ -561,7 +561,7 @@ Combined reward: 1.200
 As shown in Table 11.4, different reward functions are suitable for different application scenarios.
 
   <p>Table 11.4 Reward Function Comparison</p>
-  <img src="/mirror/f2/f214ec88770e1dc91de971d81de5d0d69115c4ae.png" alt="" width="85%"/>
+  <img src="/mirror/f2/f214ec88770e1dc91de971d81de5d0d69115c4ae.webp" alt="" width="85%"/>
 
 ### 11.2.3 Custom Datasets and Reward Functions
 
@@ -916,7 +916,7 @@ As can be seen, the SFT model's output has clear structure (using "Step 1", "Ste
 
 As shown in Figure 11.6, SFT is the bridge from pretrained models to reinforcement learning.
 
-  <img src="/mirror/33/3305363056132762edb92924cad848090941b8a4.png" alt="" width="85%"/>
+  <img src="/mirror/33/3305363056132762edb92924cad848090941b8a4.webp" alt="" width="85%"/>
   <p>Figure 11.6 Role of SFT in Training Pipeline</p>
 
 ### 11.3.2 LoRA: Parameter-Efficient Fine-Tuning
@@ -948,7 +948,7 @@ Therefore, we can summarize LoRA's advantages: significantly reduced memory usag
 As shown in Table 11.5, comparison of LoRA effects at different model scales.
 
   <p>Table 11.5 LoRA vs Full Fine-Tuning Comparison</p>
-  <img src="/mirror/2f/2f6bda9256be38645727455e41728bbb92740775.png" alt="" width="85%"/>
+  <img src="/mirror/2f/2f6bda9256be38645727455e41728bbb92740775.webp" alt="" width="85%"/>
 
 LoRA's key hyperparameters include: rank (r), controlling the rank of LoRA matrices, larger means stronger expressiveness but more parameters, typical values 4-64, default 8; Alpha ($\alpha$), LoRA scaling factor, actual update is $\Delta W = \frac{\alpha}{r} BA$, controls LoRA's influence strength, typical value equals rank; target_modules, specifying which layers to apply LoRA, usually choosing attention layers (q_proj, k_proj, v_proj, o_proj), can also include MLP layers (gate_proj, up_proj, down_proj).
 
@@ -1170,7 +1170,7 @@ Where $\bar{r}_{\text{group&#125;&#125;$ is the group average reward and $\beta$
 
 As shown in Figure 11.7, comparison of PPO and GRPO training processes.
 
-  <img src="/mirror/68/68b5a922d60009ecde65361d3c62da4d3383af77.png" alt="" width="85%"/>
+  <img src="/mirror/68/68b5a922d60009ecde65361d3c62da4d3383af77.webp" alt="" width="85%"/>
   <p>Figure 11.7 PPO vs GRPO Training Process</p>
 
 As can be seen, GRPO eliminates Value Model training, greatly simplifying the process.
@@ -1178,7 +1178,7 @@ As can be seen, GRPO eliminates Value Model training, greatly simplifying the pr
 As shown in Table 11.6, detailed comparison of PPO and GRPO.
 
   <p>Table 11.6 PPO vs GRPO Comparison</p>
-  <img src="/mirror/44/44734be1e141ccef54964f2135fc8e454a59927c.png" alt="" width="85%"/>
+  <img src="/mirror/44/44734be1e141ccef54964f2135fc8e454a59927c.webp" alt="" width="85%"/>
 
 
 
@@ -1556,7 +1556,7 @@ Correct format is a basic requirement; answers with confused format are difficul
 As shown in Table 11.7, comparison of different metrics.
 
   <p>Table 11.7 Evaluation Metric Comparison</p>
-  <img src="/mirror/8b/8bf0c202af0c5af26ff6bf8ac34cb31e8e4de32a.png" alt="" width="85%"/>
+  <img src="/mirror/8b/8bf0c202af0c5af26ff6bf8ac34cb31e8e4de32a.webp" alt="" width="85%"/>
 
 
 ### 11.5.2 Evaluation Practice
@@ -1741,7 +1741,7 @@ As can be seen, the model performs well on easy problems (78.5%) but poorly on h
 
 Based on evaluation and analysis results, we can determine improvement directions for the model, as shown in Figure 11.8.
 
-  <img src="/mirror/50/50be1eef318a23c7f951445c4aad77ae481dd74d.png" alt="" width="85%"/>
+  <img src="/mirror/50/50be1eef318a23c7f951445c4aad77ae481dd74d.webp" alt="" width="85%"/>
   <p>Figure 11.8 Model Improvement Iteration Process</p>
 
 This is a continuous iteration process: train model → evaluate performance → analyze errors → identify problems → select improvement direction → retrain. Through multiple iterations, model performance will continuously improve.
@@ -1754,7 +1754,7 @@ In previous sections, we learned about data preparation, SFT training, GRPO trai
 
 A complete Agentic RL training pipeline includes the following stages: data preparation, SFT training, SFT evaluation, GRPO training, GRPO evaluation, and model deployment. As shown in Figure 11.9.
 
-  <img src="/mirror/61/61cb9daa5484cb3fb1f997efc6c72a49001df5bc.png" alt="" width="85%"/>
+  <img src="/mirror/61/61cb9daa5484cb3fb1f997efc6c72a49001df5bc.webp" alt="" width="85%"/>
   <p>Figure 11.9 End-to-End Training Pipeline</p>
 
 Let's implement this pipeline through a complete script:
@@ -2190,7 +2190,7 @@ Bayesian optimization advantages are high sample efficiency, can quickly find go
 As shown in Table 11.8, comparison of different tuning methods.
 
   <p>Table 11.8 Hyperparameter Tuning Method Comparison</p>
-  <img src="/mirror/42/428da82ce89aea733ea39ffd2e72c0c0e5f31f7b.png" alt="" width="85%"/>
+  <img src="/mirror/42/428da82ce89aea733ea39ffd2e72c0c0e5f31f7b.webp" alt="" width="85%"/>
 
 ### 11.6.3 Distributed Training
 
@@ -2337,7 +2337,7 @@ accelerate launch --config_file deepspeed_zero3.yaml train_script.py
 As shown in Table 11.9, this is a memory comparison for training Qwen3-0.6B model with different methods:
 
   <p>Table 11.9 Memory Comparison (Qwen3-0.6B Model)</p>
-  <img src="/mirror/59/591ed50c08d0fa0662ce5cfdcd34daeb479f1359.png" alt="" width="85%"/>
+  <img src="/mirror/59/591ed50c08d0fa0662ce5cfdcd34daeb479f1359.webp" alt="" width="85%"/>
 
 **(4) Multi-Node Training**
 

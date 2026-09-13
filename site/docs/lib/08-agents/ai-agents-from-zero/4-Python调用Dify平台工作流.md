@@ -35,7 +35,7 @@ zh: ""
 
 要通过 API 的方式启动工作流，**工作流必须处于已发布状态**。
 
-![Dify 工作流发布入口与发布状态的界面示意图](/mirror/8c/8cf1175b2d6a63c0d62bf2ebe317558c54638ff8.png)
+![Dify 工作流发布入口与发布状态的界面示意图](/mirror/8c/8cf1175b2d6a63c0d62bf2ebe317558c54638ff8.webp)
 
 这一步很好理解：未发布的工作流仍处于编辑态，节点、变量、提示词都可能随时变化，不适合作为外部代码依赖的服务接口。
 
@@ -43,7 +43,7 @@ zh: ""
 
 Dify 会为工作流提供对应的 API 文档入口。
 
-![Dify 工作流 API 文档入口的界面示意图](/mirror/ea/ea3502688cb7943cd199dbd0449d5cfbdd5475d3.png)
+![Dify 工作流 API 文档入口的界面示意图](/mirror/ea/ea3502688cb7943cd199dbd0449d5cfbdd5475d3.webp)
 
 第一次学习时，建议你不要跳过这一步。因为后面 Python 代码里用到的 URL、请求头、请求体结构，平台都已经给你说明了。
 
@@ -51,9 +51,9 @@ Dify 会为工作流提供对应的 API 文档入口。
 
 #### 1.3.1 创建密钥
 
-![在 Dify 中创建工作流 API 密钥的界面](/mirror/da/da98de2cf17135e1da3075ee64d99dd84469825e.png)
+![在 Dify 中创建工作流 API 密钥的界面](/mirror/da/da98de2cf17135e1da3075ee64d99dd84469825e.webp)
 
-![在 Dify 中查看并复制 API 密钥的界面](/mirror/86/86c55c795832f97e57e622aeadeab07979dc59af.png)
+![在 Dify 中查看并复制 API 密钥的界面](/mirror/86/86c55c795832f97e57e622aeadeab07979dc59af.webp)
 
 创建后复制即可。
 
@@ -61,7 +61,7 @@ Dify 会为工作流提供对应的 API 文档入口。
 
 Dify 的 API 密钥是**和工作流绑定**的。一个 API Key 只能用于**访问特定的工作流**，而一个工作流可以对应多个 API Key。
 
-![Dify 工作流与 API Key 绑定关系的界面示意图](/mirror/ae/ae13aaf1c70f63787d01fd888ad8e8d3c1d5c2d5.png)
+![Dify 工作流与 API Key 绑定关系的界面示意图](/mirror/ae/ae13aaf1c70f63787d01fd888ad8e8d3c1d5c2d5.webp)
 
 这和真实项目的权限控制很像：同一个工作流可以给不同环境、不同服务、不同调用方分发不同密钥，但密钥本身并不是“整个工作空间通用”的万能钥匙。
 
@@ -136,17 +136,17 @@ http://localhost/v1/workflows/run
 
 ### 3.1 新建 POST 请求并填写 URL
 
-![在 Postman 中新建 Dify 工作流 POST 请求的界面](/mirror/44/44d00225215f909e11ad3571c603c634850ccb8f.png)
+![在 Postman 中新建 Dify 工作流 POST 请求的界面](/mirror/44/44d00225215f909e11ad3571c603c634850ccb8f.webp)
 
 ### 3.2 添加请求头
 
-![在 Postman 中配置 Dify 工作流请求头的界面](/mirror/22/22879de45073c61e22befedd2c43a649f1320f76.png)
+![在 Postman 中配置 Dify 工作流请求头的界面](/mirror/22/22879de45073c61e22befedd2c43a649f1320f76.webp)
 
 ### 3.3 添加请求体
 
 Body 选择 `raw`，格式选择 `JSON`。
 
-![在 Postman 中填写 Dify 工作流 JSON 请求体的界面](/mirror/4e/4e632153184f1d7f206abf331a61c7125ca58066.png)
+![在 Postman 中填写 Dify 工作流 JSON 请求体的界面](/mirror/4e/4e632153184f1d7f206abf331a61c7125ca58066.webp)
 
 示例请求体：
 
@@ -164,23 +164,23 @@ Body 选择 `raw`，格式选择 `JSON`。
 
 ### 3.4 发送请求
 
-![在 Postman 中发送 Dify 工作流请求的界面](/mirror/84/8431cb9f590541ea83ecbd68de39cd8b8b3661a8.png)
+![在 Postman 中发送 Dify 工作流请求的界面](/mirror/84/8431cb9f590541ea83ecbd68de39cd8b8b3661a8.webp)
 
 ### 3.5 看懂响应
 
-![Postman 中查看 Dify 流式响应整体结果的界面](/mirror/92/924e15e1f6ecec8cb6e2a2b547fee3558267948a.png)
+![Postman 中查看 Dify 流式响应整体结果的界面](/mirror/92/924e15e1f6ecec8cb6e2a2b547fee3558267948a.webp)
 
 响应开始标志：
 
-![Dify 流式响应开始事件的界面示意图](/mirror/91/91fa86bf69cdab88d748734113dcbc613b41ced3.png)
+![Dify 流式响应开始事件的界面示意图](/mirror/91/91fa86bf69cdab88d748734113dcbc613b41ced3.webp)
 
 响应结束标志：
 
-![Dify 流式响应结束事件的界面示意图](/mirror/b6/b62e9accd8cd2fde16cdfd912c3905dc3698c8d3.png)
+![Dify 流式响应结束事件的界面示意图](/mirror/b6/b62e9accd8cd2fde16cdfd912c3905dc3698c8d3.webp)
 
 最终响应体携带工作流的最终输出：
 
-![Dify 工作流最终输出结果在响应体中的界面示意图](/mirror/52/52f1a94aa529f6521000e498062e9e71a0dc5326.png)
+![Dify 工作流最终输出结果在响应体中的界面示意图](/mirror/52/52f1a94aa529f6521000e498062e9e71a0dc5326.webp)
 
 ### 3.6 怎么理解返回体
 
@@ -210,19 +210,19 @@ Body 选择 `raw`，格式选择 `JSON`。
 
 ### 4.1 打开日志页面
 
-![Dify 工作流运行日志入口的界面示意图](/mirror/af/af1784bfd1f3767c45fecaa620f75ecdd8aeda0e.png)
+![Dify 工作流运行日志入口的界面示意图](/mirror/af/af1784bfd1f3767c45fecaa620f75ecdd8aeda0e.webp)
 
 ### 4.2 查看结果
 
-![Dify 工作流运行结果列表页的界面示意图](/mirror/e4/e4018cb151dfdaaac5cd65b7655f7b7324fd66bc.png)
+![Dify 工作流运行结果列表页的界面示意图](/mirror/e4/e4018cb151dfdaaac5cd65b7655f7b7324fd66bc.webp)
 
 ### 4.3 查看详情
 
-![Dify 工作流运行详情页的界面示意图](/mirror/f4/f48de20fdb301bb1cd576addbd6c025d7195072b.png)
+![Dify 工作流运行详情页的界面示意图](/mirror/f4/f48de20fdb301bb1cd576addbd6c025d7195072b.webp)
 
 ### 4.4 查看追踪信息
 
-![Dify 工作流追踪信息页面的界面示意图](/mirror/d5/d5107ff4420ce092fd4b138bd9a9751b14201ce3.png)
+![Dify 工作流追踪信息页面的界面示意图](/mirror/d5/d5107ff4420ce092fd4b138bd9a9751b14201ce3.webp)
 
 平台日志的价值非常大，因为它能告诉你：这次请求有没有真正进到工作流；哪个节点报错了；输入变量有没有传对；最终输出是不是和代码侧拿到的一致。
 
@@ -439,9 +439,9 @@ print(final_text[:300])
 
 对比 Dify 后台日志和 Python 控制台日志，最终运行结果应该能互相对应。
 
-![Dify 后台日志与 Python 控制台日志对照的界面示意图](/mirror/2d/2d9b6222bb080a147cf9f4703cb4e2392b3ddafe.png)
+![Dify 后台日志与 Python 控制台日志对照的界面示意图](/mirror/2d/2d9b6222bb080a147cf9f4703cb4e2392b3ddafe.webp)
 
-![Dify 后台详细运行日志与节点执行信息的界面示意图](/mirror/9d/9d0db850136f9a1ba2b7ee7ba5fcf44eb94c28e0.png)
+![Dify 后台详细运行日志与节点执行信息的界面示意图](/mirror/9d/9d0db850136f9a1ba2b7ee7ba5fcf44eb94c28e0.webp)
 
 ---
 

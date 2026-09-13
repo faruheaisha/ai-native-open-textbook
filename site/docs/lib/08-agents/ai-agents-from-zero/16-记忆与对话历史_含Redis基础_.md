@@ -42,7 +42,7 @@ zh: ""
 
 如果系统没有保存并重新注入上一轮内容，模型就只能把第二轮当作一条全新的请求，于是很自然地回答：“我不知道。”这不是模型“太笨”，而是程序根本没有把上一轮信息带给它。
 
-![无记忆时两轮对话相互独立，模型无法利用上一轮信息](/mirror/a2/a29d348d2ad8be45971dc0c0625df3dfa3b12856.jpeg)
+![无记忆时两轮对话相互独立，模型无法利用上一轮信息](/mirror/a2/a29d348d2ad8be45971dc0c0625df3dfa3b12856.webp)
 
 所以从工程角度看，记忆并不是一个“可有可无的高级特性”，而是多轮对话系统最基础的能力之一。它至少解决三类问题：
 
@@ -52,7 +52,7 @@ zh: ""
 
 用一句最直白的话说：**没有记忆，聊天系统就只是“连续发了很多次单轮请求”；有了记忆，它才真正开始像“对话”。**
 
-![LangChain 官方文档「Core components → Short-term memory」概述：记忆用于保存先前交互信息，支撑智能体在多轮交互中保持效率与体验](/mirror/19/197372351fb3bf8892c314293f94b81b4e91738a.jpeg)
+![LangChain 官方文档「Core components → Short-term memory」概述：记忆用于保存先前交互信息，支撑智能体在多轮交互中保持效率与体验](/mirror/19/197372351fb3bf8892c314293f94b81b4e91738a.webp)
 
 ### 1.2 定义
 
@@ -143,7 +143,7 @@ zh: ""
 
 这就是本章最核心的链路。
 
-![记忆在链中的位置：读历史 → 拼入 Prompt → 调模型 → 写回历史](/mirror/67/67322bf1c5b1ba6dc544dbb27d3834ece116a93b.jpeg)
+![记忆在链中的位置：读历史 → 拼入 Prompt → 调模型 → 写回历史](/mirror/67/67322bf1c5b1ba6dc544dbb27d3834ece116a93b.webp)
 
 ### 3.2 工程化表达
 
@@ -384,7 +384,7 @@ LangChain 提供了多种聊天历史实现（如内存、文件、Redis、Elast
 - **原生 Redis**：完全能跑本章主案例
 - **Redis Stack**：可以跑，而且更方便用 RedisInsight 可视化查看数据
 
-![Redis Stack 与原生 Redis 的关系](/mirror/d1/d1cb94f79fa992d5379daa258af65b17ae22ec07.jpeg)
+![Redis Stack 与原生 Redis 的关系](/mirror/d1/d1cb94f79fa992d5379daa258af65b17ae22ec07.webp)
 
 如果你是第一次学，可以直接把它们区分成这样：`Redis` 是高性能键值存储本体，`Redis Stack` 则是在 Redis 基础上补上更多增强能力，并带来更友好的工具链。
 
@@ -504,7 +504,7 @@ LRANGE message_store:user-001 0 -1
 
 它最大的教学价值不是“换了一个全新方案”，而是：让你确认 Redis Stack 也能兼容跑本章历史存储；让你能用 RedisInsight 直观看到会话数据。
 
-![RedisInsight 中查看 LangChain 写入的会话：键 message_store:user-001 类型为 LIST，元素为序列化后的 human/ai 消息（JSON），便于对照代码理解持久化结构](/mirror/8b/8b99901c18e304eb3e8637bb4c2ce4cb70559c00.png)
+![RedisInsight 中查看 LangChain 写入的会话：键 message_store:user-001 类型为 LIST，元素为序列化后的 human/ai 消息（JSON），便于对照代码理解持久化结构](/mirror/8b/8b99901c18e304eb3e8637bb4c2ce4cb70559c00.webp)
 
 所以这节更适合看作：**主案例的一个更方便观察数据的变体。**
 

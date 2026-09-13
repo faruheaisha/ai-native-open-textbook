@@ -80,11 +80,11 @@ Grading Rubrics（评分量规）把“完成”的定义写成一组可检查�
 | Grader Model | 检查标准、调用工具并形成结论 | 不能替代确定性测试 |
 | Evidence Tool | 执行测试并返回结构化事实 | 不直接放行结果 |
 
-![评分量规的角色与证据边界：工作模型生成候选答案，评分量规定义验收标准，运行记录提供上下文，证据工具提供可检查事实，评分模型综合形成评审结论；证据从文本判断、结构化产物到实际执行逐级增强](/mirror/f7/f7e4f82903e8a53a516b5776b94b831406ffe51f.png)
+![评分量规的角色与证据边界：工作模型生成候选答案，评分量规定义验收标准，运行记录提供上下文，证据工具提供可检查事实，评分模型综合形成评审结论；证据从文本判断、结构化产物到实际执行逐级增强](/mirror/f7/f7e4f82903e8a53a516b5776b94b831406ffe51f.webp)
 
 官方文档使用 Mermaid 描述这条主流程。下面的状态机图保留相同逻辑，并进一步区分“循环停止”和“结果通过”：
 
-![RubricMiddleware 运行状态机：工作模型自然停止后进入评分模型；只有 needs_revision 会携带差距说明返回工作模型，satisfied 通过验收门，max_iterations_reached、failed 与 grader_error 都会终止但不代表验收成功](/mirror/56/5662470645afeca6e24712809633228b5f959320.png)
+![RubricMiddleware 运行状态机：工作模型自然停止后进入评分模型；只有 needs_revision 会携带差距说明返回工作模型，satisfied 通过验收门，max_iterations_reached、failed 与 grader_error 都会终止但不代表验收成功](/mirror/56/5662470645afeca6e24712809633228b5f959320.webp)
 
 图中的 Agent 和 Model 表示不同层次。Working Agent（工作智能体）是由工作模型、工具和 Middleware 组成的 Deep Agent 运行体；Grader Agent（评分智能体）是 `RubricMiddleware` 管理的评审子智能体，由评分模型和取证工具组成。后文讲模型配置时使用 Working Model 与 Grader Model，讲完整执行单元时才使用 Agent。
 

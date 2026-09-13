@@ -46,7 +46,7 @@ flowchart LR
 
 ## 可用的资讯类 Skill
 
-![](/mirror/f7/f789238703678892ca0af48e01edb8ab790cd807.png)
+![](/mirror/f7/f789238703678892ca0af48e01edb8ab790cd807.webp)
 
 大致可以分成六类：新闻、AI 行业、开发者趋势、科研论文、内容监控、事实核查与搜索补证。
 
@@ -72,9 +72,9 @@ flowchart LR
  定时每天早上7点返回gthub热门项目，并输出项目大概简介
 ```
 
-![](/mirror/15/15e7e4769b83d825fdf20862bbffc66f19420203.png)
+![](/mirror/15/15e7e4769b83d825fdf20862bbffc66f19420203.webp)
 
-![](/mirror/de/defe248731d5f7ffd3914e982dd4bd9f1911bf0f.png)
+![](/mirror/de/defe248731d5f7ffd3914e982dd4bd9f1911bf0f.webp)
 
 ## AIHOT 生成 AI 行业日报
 
@@ -88,19 +88,19 @@ AI 行业信息更新快，AIHOT 可以作为一个现成的信息源。它面�
 帮我安装这个 skill：https://aihot.virxact.com/aihot-skill/
 ```
 
-![](/mirror/43/43f4e577f9c8f9f4f1fe96130c69897166fe5711.png)
+![](/mirror/43/43f4e577f9c8f9f4f1fe96130c69897166fe5711.webp)
 
 ```text
 请看一下最近 OpenAI 发布了什么新东西
 ```
 
-![](/mirror/60/60278f78a7ffb1c86fdec54f6816cd3a9b6f19ef.png)
+![](/mirror/60/60278f78a7ffb1c86fdec54f6816cd3a9b6f19ef.webp)
 
 ```Plain Text
 总结今日热点新闻，值关注AI大模型方向
 ```
 
-![](/mirror/76/76e8dbf6629fd35844663178f96f88746252ca8e.png)
+![](/mirror/76/76e8dbf6629fd35844663178f96f88746252ca8e.webp)
 
 | 日报模块 | 写什么 | 通知对象 |
 |-|-|-|

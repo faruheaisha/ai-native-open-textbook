@@ -130,7 +130,7 @@ Set up a harness
 | **Agent Teams**（デフォルト） | TeamCreate + SendMessage + TaskCreate | エージェント2名以上、コラボレーションが必要な場合 |
 | **サブエージェント** | Agentツール直接呼び出し | 単発タスク、エージェント間通信不要の場合 |
 
-  <img src="/mirror/91/91d21972155199be71cb22b20f1137b1969d62a7.png" alt="Harness Agent Team" width="500">
+  <img src="/mirror/91/91d21972155199be71cb22b20f1137b1969d62a7.webp" alt="Harness Agent Team" width="500">
 
 ### アーキテクチャパターン
 

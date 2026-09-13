@@ -50,4 +50,4 @@ zh: ""
 2. 点击菜单图标 (☰) → **打开** (Ctrl+O)
 3. 选择本地的 `.excalidraw` 文件
 
-<img src="/mirror/70/7016cc7ad12dde8c39d62cf0151375be5e585d6c.png" width="600" alt="如何打开 excalidraw 文件">
+<img src="/mirror/70/7016cc7ad12dde8c39d62cf0151375be5e585d6c.webp" width="600" alt="如何打开 excalidraw 文件">

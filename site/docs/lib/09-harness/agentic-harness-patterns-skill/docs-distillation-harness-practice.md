@@ -18,7 +18,7 @@ zh: ""
 
 It occurred to me that the process of distilling Claude Code source into an Agent Harness Patterns Skill might make for a decent harness engineering read — possibly more valuable than the skill itself. So here's a write-up, also as supplementary material for a future proper Harness Engineering blog post.
 
-<img src="/mirror/f4/f4729a89d4ad68aca2087b6788e52e017a93652e.png" alt="agent-harness-patterns" style="zoom: 25%;" />
+<img src="/mirror/f4/f4729a89d4ad68aca2087b6788e52e017a93652e.webp" alt="agent-harness-patterns" style="zoom: 25%;" />
 
 A few hours after the Claude Code source leak, I started distilling. The motivation was simple: this is probably the most mature production agent harness implementation publicly available, and I was curious about its context engineering internals.
 
@@ -47,7 +47,7 @@ How do they coordinate? The filesystem. File names + a simple Read Tool — low 
 
 Before any agent started working, I had Codex generate the full harness infrastructure. The design goal: a clean agent with no prior conversation context can pick up where the last one left off — knowing what to read, what to do next, where to write results, and how to get reviewed.
 
-![fig1_v3_20260402_215205_0](/mirror/ba/ba96f66ce3bee68fa3d6e0860fe903e218140aca.png)
+![fig1_v3_20260402_215205_0](/mirror/ba/ba96f66ce3bee68fa3d6e0860fe903e218140aca.webp)
 
 Files organized into three groups:
 
@@ -107,7 +107,7 @@ The agent didn't extract patterns from scratch. It carried my understanding of t
 
 Back to the PCA analogy: the blog posts are the basis vectors. They define "**what directions matter**," and the agent projects along those directions. Without these basis vectors, the agent might extract completely different principal components — perhaps more implementation-focused, perhaps more API-oriented — but not necessarily the harness design principles I was after. (The initial extractions were frankly terrible.)
 
-![fig3_v2_20260402_214909_0](/mirror/85/8508f6a87da1a94e78d5f633452a8c289fcce823.png)
+![fig3_v2_20260402_214909_0](/mirror/85/8508f6a87da1a94e78d5f633452a8c289fcce823.webp)
 
 > [!Tip]
 >
@@ -125,7 +125,7 @@ While the actual reviews and edits were all agent-driven, I stepped in at severa
 
 ## 3. Process Overview
 
-![fig2_fanout_convergence_20260402_213926_0](/mirror/f0/f0e5b4589ea0f4c6acc2eb328a862ae5fe58f7b8.png)
+![fig2_fanout_convergence_20260402_213926_0](/mirror/f0/f0e5b4589ea0f4c6acc2eb328a862ae5fe58f7b8.webp)
 
 ### Phase 0: Scaffolding
 

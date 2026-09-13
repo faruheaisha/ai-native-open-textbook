@@ -2054,7 +2054,7 @@ This scenario faces several typical long-horizon task challenges. First is the p
 
 Our codebase maintenance assistant adopts a three-layer architecture, as shown in Figure 9.3:
 
-  <img src="/mirror/5e/5ef6a9685d8d17caa85a5e83d5f441aa5fc6d780.png" alt="" width="85%"/>
+  <img src="/mirror/5e/5ef6a9685d8d17caa85a5e83d5f441aa5fc6d780.webp" alt="" width="85%"/>
   <p>Figure 9.3 Three-layer architecture of codebase maintenance assistant</p>
 
 ### 9.6.3 Core Implementation

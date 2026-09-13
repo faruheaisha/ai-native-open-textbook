@@ -42,7 +42,7 @@ zh: ""
 把下面内容记入“灵感收件箱”，保留我的原话，不扩写、不评价：“AI 工具真正的门槛不是提示词，而是验收结果。”
 ```
 
-![](/mirror/ad/ad544e96437996282e4de3a260365339fad35fd3.png)
+![](/mirror/ad/ad544e96437996282e4de3a260365339fad35fd3.webp)
 
 ## 场景二：微信收藏很多，真正写作时还是搜不到
 
@@ -54,7 +54,7 @@ zh: ""
 处理本周微信收藏，只读，不删除原收藏。
 ```
 
-![](/mirror/f6/f6efb89c9a066d44f8bd850b8a0c40016475b7c4.jpg)
+![](/mirror/f6/f6efb89c9a066d44f8bd850b8a0c40016475b7c4.webp)
 
 ## 场景三：ima 作为移动知识入口
 
@@ -64,7 +64,7 @@ ima 的优势不是“问答更聪明”，而是手机收集、知识库读写�
 将我刚选择的 3 份文件放入 ima“WorkBuddy 案例库”的收件箱。
 ```
 
-![](/mirror/a0/a06fb646c981b175ec9978d92c43224dd0031bd3.png)
+![](/mirror/a0/a06fb646c981b175ec9978d92c43224dd0031bd3.webp)
 
 ## 场景四：Obsidian 不是文件夹，而是可维护的 Wiki
 
@@ -77,4 +77,4 @@ ima 的优势不是“问答更聪明”，而是手机收集、知识库读写�
 
 WorkBuddy 能识别文章正文和作者，并生成 Markdown 条目。
 
-![](/mirror/df/df94e93cd65679d97eee1ce488df62b2cdfd14c3.jpg)
+![](/mirror/df/df94e93cd65679d97eee1ce488df62b2cdfd14c3.webp)

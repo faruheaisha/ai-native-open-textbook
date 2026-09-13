@@ -40,7 +40,7 @@ WorkBuddy 团队的工程复盘长文给出了官方的五层划分。以下每�
 
 **第五层：迭代层——Harness 自身如何演进。** 这层不在磁盘上，在团队的迭代节奏里：随模型能力涨落精简或加码约束。据 36 氪报道，WorkBuddy 三个多月发了 43 个版本，平均不到两天一版；更新日志里「专家提示词不再注入身份文件」「工作空间自动创建记忆文件」这类条目，就是 Harness 在自我调整的证据。本书冻结的 5.3.13，是这条河流的一帧。
 
-![官方五层 Harness 与本地证据对照](https://gh-proxy.com/https://raw.githubusercontent.com/zjp1997720/zhijian-ai-bluebook-workbuddy-harness/6ac68cd42a01add16568d1ab9cf2399822467fad/workbuddy-harness/fig-02.png)
+![官方五层 Harness 与本地证据对照](/workbuddy-harness/fig-02.webp)
 
 *图 2-1：官方五层 Harness 与本地证据对照。*
 

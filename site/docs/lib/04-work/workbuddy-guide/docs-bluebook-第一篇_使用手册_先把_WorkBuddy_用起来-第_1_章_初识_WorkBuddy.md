@@ -18,7 +18,7 @@ zh: ""
 
 面向 人力资源、行政、运营、销售、研发等不同职场角色，是一款能够像真正同事一样思考、执行任务并交付结果的 AI 办公应用。
 
-![](/mirror/1f/1fbf64481d2b4c650f8b7ec72b5106d61c127942.png)
+![](/mirror/1f/1fbf64481d2b4c650f8b7ec72b5106d61c127942.webp)
 
 ## 从“回答问题”到“交付结果”
 
@@ -43,7 +43,7 @@ flowchart LR
 
 例如，用户可以直接告诉 WorkBuddy，分析这个文件夹中的销售数据，并生成一份汇报 PPT。
 
-![](/mirror/91/91286c8222ac204da8fefc6d3e90c91b352fb537.png)
+![](/mirror/91/91286c8222ac204da8fefc6d3e90c91b352fb537.webp)
 
 WorkBuddy 会自主读取相关文件，理解数据内容，完成分析和总结，并生成最终可以查看和修改的工作成果。
 
@@ -61,4 +61,4 @@ WorkBuddy 面向的是完整的工作任务。
 
 想对workbuddy打分，可以去[观猹](https://watcha.cn/)，写出你对workbuddy的真实评价～
 
-![](/mirror/70/704f627245dd3a64a78bc9b6826400d416f1e06c.png)
+![](/mirror/70/704f627245dd3a64a78bc9b6826400d416f1e06c.webp)

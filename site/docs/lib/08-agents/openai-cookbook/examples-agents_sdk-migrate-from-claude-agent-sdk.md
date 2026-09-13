@@ -34,7 +34,7 @@ By the end of the guide, you should have a migrated app that preserves the origi
 Claude Agent SDK applications follow the Claude Code operating model: the sandbox is the agent's main workspace. The agent loop, tools, filesystem, and execution environment often live together. A gateway may sit between the sandbox and internal systems so the sandbox can make controlled requests without directly holding sensitive credentials.
 
 <figure>
-  <img src="/mirror/e7/e784123600487102e169453d6d850476581c2cf4.png" alt="Diagram of a Claude Agent SDK pattern where the server starts a coding agent inside a sandbox that contains the harness, agent loop, tools, and filesystem, with gateway-mediated access to data, APIs, and the web." />
+  <img src="/mirror/e7/e784123600487102e169453d6d850476581c2cf4.webp" alt="Diagram of a Claude Agent SDK pattern where the server starts a coding agent inside a sandbox that contains the harness, agent loop, tools, and filesystem, with gateway-mediated access to data, APIs, and the web." />
   <figcaption>
     Claude Agent SDK apps often put the harness and execution environment in the
     same sandbox boundary.
@@ -44,7 +44,7 @@ Claude Agent SDK applications follow the Claude Code operating model: the sandbo
 In the OpenAI Agents SDK pattern, the harness is separate from the compute (sandbox). The sandbox is a tool the harness can call when the agent needs scoped compute, filesystem access, code execution, artifacts, or executable skills.
 
 <figure>
-  <img src="/mirror/5a/5adf437b8fb7462b9ec1f294b709f0bd9048c3a9.png" alt="Diagram of an OpenAI Agents SDK pattern where the trusted application runtime owns secrets, the harness, the agent loop, and tools, while sandbox compute handles shell commands and filesystem work." />
+  <img src="/mirror/5a/5adf437b8fb7462b9ec1f294b709f0bd9048c3a9.webp" alt="Diagram of an OpenAI Agents SDK pattern where the trusted application runtime owns secrets, the harness, the agent loop, and tools, while sandbox compute handles shell commands and filesystem work." />
   <figcaption>
     OpenAI Agents SDK apps keep orchestration in the trusted runtime and use the
     sandbox as an execution surface.

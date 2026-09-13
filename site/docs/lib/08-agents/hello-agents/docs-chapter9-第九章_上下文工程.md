@@ -2060,7 +2060,7 @@ context = context_builder.build(
 
 我们的代码库维护助手采用三层架构，如图9.3所示：
 
-  <img src="/mirror/5e/5ef6a9685d8d17caa85a5e83d5f441aa5fc6d780.png" alt="" width="85%"/>
+  <img src="/mirror/5e/5ef6a9685d8d17caa85a5e83d5f441aa5fc6d780.webp" alt="" width="85%"/>
   <p>图 9.3 代码库维护助手三层架构</p>
 
 

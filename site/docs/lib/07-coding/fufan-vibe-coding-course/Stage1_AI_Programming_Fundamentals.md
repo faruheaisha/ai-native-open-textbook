@@ -50,4 +50,4 @@ The `.excalidraw` files are the **original editable courseware**. You can modify
 2. Click the menu icon (☰) → **Open** (Ctrl+O)
 3. Select the `.excalidraw` file from your local drive
 
-<img src="/mirror/70/7016cc7ad12dde8c39d62cf0151375be5e585d6c.png" width="600" alt="How to open excalidraw file">
+<img src="/mirror/70/7016cc7ad12dde8c39d62cf0151375be5e585d6c.webp" width="600" alt="How to open excalidraw file">

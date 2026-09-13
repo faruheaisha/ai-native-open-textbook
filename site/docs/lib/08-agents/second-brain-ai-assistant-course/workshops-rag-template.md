@@ -101,7 +101,7 @@ make local-infrastructure-down
 > [!NOTE]
 > To visualize the raw and RAG data from MongoDB, we recommend using [MongoDB Compass](https://rebrand.ly/second-brain-course-mongodb-compass) or Mongo's official IDE plugin (e.g., `MongoDB for VS Code`). To connect to the working MongoDB instance, use the `MONGODB_URI` value from the `.env` file or found inside the [config.py](https://github.com/decodingai-magazine/second-brain-ai-assistant-course/blob/17ccef571db3e4b563826dab83ecc9298a54ede1/workshops/rag/template/src/second_brain_offline/config.py) file.
 
-![mongodb_atlas_example.png](/mirror/bc/bc2ed8c8dc75f68417bc2c592fac4bdcec533e08.png)
+![mongodb_atlas_example.png](/mirror/bc/bc2ed8c8dc75f68417bc2c592fac4bdcec533e08.webp)
 
 # ⚡️ Running the Code
 

@@ -483,7 +483,7 @@ sequenceDiagram
 
 ## 数据流：一次完整诊断的生命周期
 
-![数据流生命周期](/mirror/b9/b9db86fba1678ae173e836afefef78f95b1c93ca.png)
+![数据流生命周期](/mirror/b9/b9db86fba1678ae173e836afefef78f95b1c93ca.webp)
 
 ## 依赖清单（package.json 核心）
 

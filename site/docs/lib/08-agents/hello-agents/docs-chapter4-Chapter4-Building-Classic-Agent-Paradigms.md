@@ -173,7 +173,7 @@ $$o_t = T(a_t)$$
 
 This loop continues, appending new $(a_t,o_t)$ pairs to the history until the model determines in thought $th_t$ that the task is complete.
 
-  <img src="/mirror/62/6271a601d6ba315b65b1e1f4ab6ba711dc9fb53a.png" alt="Think-Act-Observe synergistic loop in ReAct paradigm" width="90%"/>
+  <img src="/mirror/62/6271a601d6ba315b65b1e1f4ab6ba711dc9fb53a.webp" alt="Think-Act-Observe synergistic loop in ReAct paradigm" width="90%"/>
   <p>Figure 4.1 Think-Act-Observe Synergistic Loop in ReAct Paradigm</p>
 
 This mechanism is particularly suitable for the following scenarios:
@@ -624,7 +624,7 @@ $$
 
 The final answer is the execution result of the last step $s_n$.
 
-  <img src="/mirror/cc/cc8a0123e5a347e62fcb966719d62a3221aaec86.png" alt="Two-stage workflow of Plan-and-Solve paradigm" width="90%"/>
+  <img src="/mirror/cc/cc8a0123e5a347e62fcb966719d62a3221aaec86.webp" alt="Two-stage workflow of Plan-and-Solve paradigm" width="90%"/>
   <p>Figure 4.2 Two-Stage Workflow of Plan-and-Solve Paradigm</p>
 
 Plan-and-Solve is especially suitable for complex tasks with strong structure that can be clearly decomposed, such as:
@@ -896,7 +896,7 @@ $$
 
 
 
-<img src="/mirror/07/074f784c9056f2fe41d3f5e21bacb68dac2dbd3d.png" alt="Execute-Reflect-Refine iterative loop in Reflection mechanism" width="70%"/>
+<img src="/mirror/07/074f784c9056f2fe41d3f5e21bacb68dac2dbd3d.webp" alt="Execute-Reflect-Refine iterative loop in Reflection mechanism" width="70%"/>
 <p>Figure 4.3 Execute-Reflect-Refine Iterative Loop in Reflection Mechanism</p>
 
 
@@ -1242,7 +1242,7 @@ In this chapter, building on the large language model knowledge mastered in Chap
 The three paradigms explored in this chapter represent three different strategies for agents to solve problems, as shown in Table 4.1. In practical applications, which one to choose depends on the core requirements of the task:
 
 <p>Table 4.1 Selection Strategy for Different Agent Loops</p>
-<img src="/mirror/a5/a5d1ff12d86b8f6e21d9e1722609611440311e75.png" alt="" width="70%"/>
+<img src="/mirror/a5/a5d1ff12d86b8f6e21d9e1722609611440311e75.webp" alt="" width="70%"/>
 
 At this point, we have mastered the core technologies for building individual agents. To transition knowledge and gain deeper insights into practical applications, in the next section we will explore how to use different low-code platforms and lightweight code solutions for building agents.
 

@@ -184,7 +184,7 @@ agent = Agent(
 
 If you enable [tracing with Strands](https://github.com/strands-agents/harness-sdk/blob/7bda6c70e71cd07279470268c3d3b3f4b36adf53/docs/user-guide/observability-evaluation/traces/README.md), you'll see additional blocks of "reasoningContent" in your trace, like in the following image, including reasoning when Claude 4 decides to interleave thinking after tool calls.
 
-![Reasoning content example showing model invocation with interleaved thinking](/mirror/07/0784e67fa68a29efd0f3e9a7cf21bc1db24fd1af.png)
+![Reasoning content example showing model invocation with interleaved thinking](/mirror/07/0784e67fa68a29efd0f3e9a7cf21bc1db24fd1af.webp)
 
 For example, in this response there is an erroneous calculation from a tool call, which Claude could identify and fix immediately, before continuing to the next iteration of the event loop.
 

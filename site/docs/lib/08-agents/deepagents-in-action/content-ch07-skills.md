@@ -33,7 +33,7 @@ zh: ""
 
 > 类比：Skills 之于 AI Agent，就像 npm 包之于 Node.js——一个标准化的能力分发和复用机制。
 
-![Agent Skills 生态：30+ 个主流 AI 开发工具已采用这一开放标准](/mirror/50/50f1a92bce37b3b86650e282145ddff1eda8d648.png)
+![Agent Skills 生态：30+ 个主流 AI 开发工具已采用这一开放标准](/mirror/50/50f1a92bce37b3b86650e282145ddff1eda8d648.webp)
 
 ### 规范定义的目录结构
 
@@ -139,7 +139,7 @@ description: 处理各种任务。
 
 Skills 最关键的设计决策是 **Progressive Disclosure（渐进式披露）**——不是一次性把所有内容塞给 Agent，而是分三个层级逐步加载：
 
-![Skill 的三层加载结构：元数据 → 核心指令 → 辅助资源，越往下越详细、加载越晚](/mirror/8e/8edfc7e8cfb7c345db50ed66c1cb40cee564082e.png)
+![Skill 的三层加载结构：元数据 → 核心指令 → 辅助资源，越往下越详细、加载越晚](/mirror/8e/8edfc7e8cfb7c345db50ed66c1cb40cee564082e.webp)
 
 ### 三级加载机制
 
@@ -159,7 +159,7 @@ Skills 最关键的设计决策是 **Progressive Disclosure（渐进式披露）
 
 ### 匹配流程示例
 
-![Progressive Disclosure：启动阶段只读 frontmatter，匹配阶段才加载完整 SKILL.md 内容](/mirror/36/36191f6bf0f14f34992fc1292409154a724e954b.png)
+![Progressive Disclosure：启动阶段只读 frontmatter，匹配阶段才加载完整 SKILL.md 内容](/mirror/36/36191f6bf0f14f34992fc1292409154a724e954b.webp)
 
 ```
 用户："帮我查一下 LangGraph 的 interrupt 机制"
@@ -183,7 +183,7 @@ Agent 思考：
 
 Skills 的加载方式取决于你使用的 Backend。Deep Agents 提供三种 Backend，各自对应不同的文件存储策略。下面逐一演示。
 
-![Skills 的三种存储后端](/mirror/e2/e2a134c280c3bb5c5bc31863674c548b8baca546.png)
+![Skills 的三种存储后端](/mirror/e2/e2a134c280c3bb5c5bc31863674c548b8baca546.webp)
 
 ### 基本用法（FilesystemBackend）
 
@@ -363,7 +363,7 @@ def create_agent_for_user(user_role: str):
 
 ## Skills 与子 Agent
 
-![子 Agent 的 Skills 继承规则](/mirror/ce/ce0ab488fd772908c662a5edffb6dfb7e833af69.png)
+![子 Agent 的 Skills 继承规则](/mirror/ce/ce0ab488fd772908c662a5edffb6dfb7e833af69.webp)
 
 Deep Agents 支持多 Agent 协作，Skills 在主 Agent 与子 Agent 之间的继承规则如下：
 
@@ -397,7 +397,7 @@ agent = create_deep_agent(
 
 ## Skill 权限控制
 
-![Skill 权限控制：共享 + 个人分层](/mirror/4f/4fa0b2161186146fae9844c2659539d360399d92.png)
+![Skill 权限控制：共享 + 个人分层](/mirror/4f/4fa0b2161186146fae9844c2659539d360399d92.webp)
 
 生产环境中，Skill 的权限管理需要关注三个维度：
 
@@ -568,7 +568,7 @@ agent = create_deep_agent(
 
 ## 用 Skills 执行代码
 
-![Skills 代码执行的两种模式](/mirror/38/386b121da0d0904415fb093761522824aa9e4ced.png)
+![Skills 代码执行的两种模式](/mirror/38/386b121da0d0904415fb093761522824aa9e4ced.webp)
 
 Skills 不仅能提供文本指令，还能包含**可执行代码**。Deep Agents 支持两种代码执行模式：沙箱脚本和解释器技能。
 

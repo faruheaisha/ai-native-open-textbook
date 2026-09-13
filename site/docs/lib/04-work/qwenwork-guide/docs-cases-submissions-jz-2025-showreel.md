@@ -146,11 +146,11 @@ https://github.com/JZCreative/2025showreel
 
 动画效果概述：
 
-![粒子球体形成后的初始画面](/mirror/4b/4b8dd8954fa2fa98b93a4d054e23fa0c3ba58151.png)
+![粒子球体形成后的初始画面](/mirror/4b/4b8dd8954fa2fa98b93a4d054e23fa0c3ba58151.webp)
 
 *300 个粒子聚拢成球体，带坐标轴、大圆参考线和粒子间虚线连接。*
 
-![场景展示效果](/mirror/6f/6fbebbf82de9af4fbe7fefb2ecc9959c39dc5aa8.png)
+![场景展示效果](/mirror/6f/6fbebbf82de9af4fbe7fefb2ecc9959c39dc5aa8.webp)
 
 *聚焦节点后，标题从节点浮出，Mockup 浏览器窗口沿分支线展开，右上角信息面板实时显示旋转数据。*
 

@@ -26,7 +26,7 @@ We use:
 
 ## Architecture
 
-![Architecture Diagram](/mirror/85/8568eda064370c7097dd40921398d89d1ef4a526.gif)
+![Architecture Diagram](/mirror/85/8568eda064370c7097dd40921398d89d1ef4a526.webp)
 
 ## Set Up
 

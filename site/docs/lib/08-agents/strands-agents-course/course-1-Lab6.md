@@ -16,7 +16,7 @@ zh: ""
 
 This directory contains notebooks and resources to learn about observability and evaluation of AI agents using LangFuse and RAGAS.
 
-![image](/mirror/4a/4a4fb0ad807b892dc4f4ad7415b5817926ae72a4.png)
+![image](/mirror/4a/4a4fb0ad807b892dc4f4ad7415b5817926ae72a4.webp)
 
 ## Contents
 

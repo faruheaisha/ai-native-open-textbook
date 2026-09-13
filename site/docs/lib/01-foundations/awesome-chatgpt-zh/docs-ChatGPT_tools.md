@@ -88,7 +88,7 @@ zh: ""
 
 * 打开 OpenAI ChatGPT 网页，告诉 ChatGPT 你希望它扮演一个 native English speaker 与你对话，并且纠正你的单词、语法错误，插件会自动播放英语语音。
 
-![improveEnglish](/mirror/d4/d4657cd8896cb9133b400fcfe9e9cb9b77ca0462.jpg)
+![improveEnglish](/mirror/d4/d4657cd8896cb9133b400fcfe9e9cb9b77ca0462.webp)
 
 ### [翻译: OpenAI Translator](https://chrome.google.com/webstore/detail/openai-translator/ogjibjphoadhljaoicdnjnmgokohngcc?hl=zh-CN)
 
@@ -96,25 +96,25 @@ zh: ""
 
 [Chrome 插件地址](https://chrome.google.com/webstore/detail/openai-translator/ogjibjphoadhljaoicdnjnmgokohngcc?hl=zh-CN), [GitHub 开源地址](https://github.com/yetone/openai-translator)
 
-![translator](/mirror/4a/4a87032ce890c5e280f2d6ab55efecb5e6176a59.jpg)
+![translator](/mirror/4a/4a87032ce890c5e280f2d6ab55efecb5e6176a59.webp)
 
 ### [设计梦想的房间: RoomGPT](https://www.roomgpt.io/)
 
 使用 AI 设计自己梦想的房间，上传图片即可得到概念图。
 
-![RoomGPT](/mirror/fc/fc4d4cb9a1ada355c531f1c4a2edb55a92938057.png)
+![RoomGPT](/mirror/fc/fc4d4cb9a1ada355c531f1c4a2edb55a92938057.webp)
 
 ### [中科院科研工作专用ChatGPT](https://github.com/binary-husky/chatgpt_academic)
 
 中科院科研工作专用ChatGPT，特别优化学术Paper润色体验，支持自定义快捷按钮，支持markdown表格显示，Tex公式双显示，代码显示功能完善，本地Python工程剖析功能/自我剖析
 
-![chat_academic](/mirror/a7/a7af29e8c8a04c4a8a594180ac1d99c7bebcff1e.png) 
+![chat_academic](/mirror/a7/a7af29e8c8a04c4a8a594180ac1d99c7bebcff1e.webp) 
 
 ### [科研狗福音 chatPDF: 像聊天一样阅读 PDF](https://www.chatpdf.com/)
 
 科研狗福音，上传科研论文 PDF ,可以让 chatPDF 帮助快速总结文章内容，创新点，贡献点，实验结果。以下是一个例子
 
-![chatPDF_paper](/mirror/af/af6adfedccf6c1f12b4892a5e5433645e558a2ba.jpg) 
+![chatPDF_paper](/mirror/af/af6adfedccf6c1f12b4892a5e5433645e558a2ba.webp) 
 
 类似工具：
 * [PandaGPT](https://www.pandagpt.io/)
@@ -129,73 +129,73 @@ zh: ""
 
 酷表ChatExcel是通过文字聊天实现Excel的交互控制的AI辅助工具，期望通过对表输入需求即可得到处理后的数据（想起来很棒），减少额外的操作，辅助相关工作人员（会计，教师等）更简单的工作。
 
-![chat_excel](/mirror/38/38add91f1f44fed3e4b43835ee770e6611df7ee4.jpg)
+![chat_excel](/mirror/38/38add91f1f44fed3e4b43835ee770e6611df7ee4.webp)
 
 ### [Doc 文件阅读助手: ChatDoc ](https://chatdoc.com/)
 
 基于 ChatGPT 的文件阅读助手，支持中英文，可以快速从上传研究论文、书籍、手册等文件中提取、定位和汇总文件信息，并通过聊天的方式在几秒钟内给出问题的答案。
 
-![chat_doc](/mirror/25/2587758ec91dabd8d3340a9ef6a8925bde5b25cd.png)
+![chat_doc](/mirror/25/2587758ec91dabd8d3340a9ef6a8925bde5b25cd.webp)
 
 ### [跟任何一本书聊天：BookAI](https://www.bookai.chat/)
 
 输入书名你就可以跟任何一本书聊天。但需要注意背后还是那个会胡编答案的ChatGPT，所以不会 100% 准确地利用这些书籍的知识来跟你对话。估计基于真实图书数据的 ChatGPT 很快就会出现（事实上基于各种真实数据库的各种 chat 都已经在路上了）。
 
-![chatbook](/mirror/e4/e4a7b5cbd84ab83d804db856023ad60d4233d896.jpg)
+![chatbook](/mirror/e4/e4a7b5cbd84ab83d804db856023ad60d4233d896.webp)
 
 ### [ChatGPT+飞书给你飞一般的工作体验：feishu-chatgpt ](https://github.com/Leizhenpeng/feishu-chatgpt)
 
 🎒飞书 ×（GPT-3.5 + DALL·E + Whisper）= 飞一般的工作体验 🚀 语音对话、角色扮演、多话题讨论、图片创作、表格分析、文档导出 🚀
 
-![chatgpt_feishu](/mirror/e4/e414d82c59e7c3b6d35423097fa2180c710bb9b4.png)
+![chatgpt_feishu](/mirror/e4/e414d82c59e7c3b6d35423097fa2180c710bb9b4.webp)
 
 ### [写作助手: rytr](https://rytr.me/)
 
 邮件，博客等各类文档智能写作助手，支持中文
 
-![rytr](/mirror/a5/a5ae4a00f95a55c6e4ab63e152cdb37a34b079d4.jpg)
+![rytr](/mirror/a5/a5ae4a00f95a55c6e4ab63e152cdb37a34b079d4.webp)
 
 ### [与视频对话：ChatYoutube](https://chatyoutube.com/)
 
 丢一个 YouTube 视频链接，与任何YouTube视频对话。
 
-![ChatYoutube](/mirror/bf/bf51fc109f31c7a1a1ca103313bf4ed154031fbd.jpg)
+![ChatYoutube](/mirror/bf/bf51fc109f31c7a1a1ca103313bf4ed154031fbd.webp)
 
 ### [打工人福利: 周报生成器](https://weeklyreport.avemaria.fun/zh)
 
 生成各种组会、周会汇报内容，周一、五、六、日可免费使用，其余时间需要自备 OpenAI API Key
 
-![zhoubao](/mirror/19/199b1b339b37f9f64be13b287d9f4a70eaafb735.jpg)
+![zhoubao](/mirror/19/199b1b339b37f9f64be13b287d9f4a70eaafb735.webp)
 
 ### [小红书小作文生成器](https://open-gpt.app/app/clf2awmv0001mjt08hjtcpe90)
 
 帮助姐妹们一键生成小作文，在舆论场里立于不败之地。
 
-![chatgpt_xhs](/mirror/1d/1df2d26835842a9ed84d9ae0f487f1a7c8e54b04.jpg)
+![chatgpt_xhs](/mirror/1d/1df2d26835842a9ed84d9ae0f487f1a7c8e54b04.webp)
 
 ### [与文件对话：chatfiles](https://github.com/guangzhengli/ChatFiles/blob/main/README.zh.md)
 
 上传文件然后与之对话
 
-![chatfiles](/mirror/c4/c44de41d82f4e376849800c085ce2e38da1f92fa.png)
+![chatfiles](/mirror/c4/c44de41d82f4e376849800c085ce2e38da1f92fa.webp)
 
 ### [提高 ChatGPT 数学能力: WolframAlpha](https://huggingface.co/spaces/JavaFXpert/Chat-GPT-LangChain)
 
 ChatGPT 和 Wolfram|Alpha 结合，补足 ChatGPT 数学计算方面的补足。
-![gpt_wolfram](/mirror/a7/a737d09d3dcc6ddbc51926ec2e47be9d5465c924.jpg)
+![gpt_wolfram](/mirror/a7/a737d09d3dcc6ddbc51926ec2e47be9d5465c924.webp)
 
 ### [visual ChatGPT](https://huggingface.co/spaces/microsoft/visual_chatgpt)
 为 ChatGPT 添加图片能力. 
 
 [论文：[Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models
 ](https://arxiv.org/abs/2303.04671)]  [[GitHub 代码](https://github.com/microsoft/visual-chatgpt)]
-![visual_gpt](/mirror/bb/bbe4528796185e94bc582079f28d6f54907a924d.gif)
+![visual_gpt](/mirror/bb/bbe4528796185e94bc582079f28d6f54907a924d.webp)
 
 ### [Multimedia GPT](https://github.com/fengyuli-dev/multimedia-gpt)
 
 将OpenAI GPT与视觉和音频连接起来。您现在可以使用OpenAI API密钥发送图像、音频记录和pdf文档，并获得文本和图像格式的响应。目前正在增加对视频的支持。
 
-![multimedia_gpt](/mirror/53/53849126d8f4eaa2f4d040a215aaf6fbba62ea46.jpg)
+![multimedia_gpt](/mirror/53/53849126d8f4eaa2f4d040a215aaf6fbba62ea46.webp)
 
 ### [多模态聊天机器人: genmo](https://www.genmo.ai/)
 
@@ -205,13 +205,13 @@ Genmo Chat 是一款多模态聊天机器人，可以提供文本、图像、视
 
 Copilot Hub 是一个帮助你基于私有数据创建智能知识库 & 人格化 AI 的平台。你可以基于文档、网站、Notion database 或其他数据源在几分钟内创建一个自定义的 ChatGPT。
 
-![chatgpt_copilot_hub](/mirror/89/8953b5bdd398b23e5685d759cabc620cfee63eb4.jpg)
+![chatgpt_copilot_hub](/mirror/89/8953b5bdd398b23e5685d759cabc620cfee63eb4.webp)
 
 ### [人工智能医生：ChatDoctor](https://github.com/Kent0n-Li/ChatDoctor)
 
 ### [与AI对话生成思维导图 ChatMind](https://www.chatmind.tech/)
 
-![chatmind](/mirror/68/68eff904ad4e38a0edd09353467572fef4a6844f.jpg)
+![chatmind](/mirror/68/68eff904ad4e38a0edd09353467572fef4a6844f.webp)
 
 ### [自动化企业管理：Auto-GPT](https://github.com/Torantulino/Auto-GPT)
 
@@ -227,7 +227,7 @@ Meta发布“分割一切”AI模型，CV或迎来GPT-3时刻！多模态 ChatGP
 
 Meta 发布的 SAM 模型只做了一件事情：（零样本）分割一切。类似 GPT-4 已经做到的“回答一切”。
 
-![sam](/mirror/c7/c7427d928d0c01f3d2aed46dc80142e4ed614df3.jpg)
+![sam](/mirror/c7/c7427d928d0c01f3d2aed46dc80142e4ed614df3.webp)
 
 ### [支持 ChatGPT 的智能音箱 wukong-robot](https://github.com/wzpan/wukong-robot)
 
@@ -241,7 +241,7 @@ wukong-robot 是一个简单、灵活、优雅的中文语音对话机器人/智
 
 https://github.com/whoiskatrin/chart-gpt
 
-![chart](/mirror/ae/ae10de863bf27cbc6ca22256240a678106e0d72b.png)
+![chart](/mirror/ae/ae10de863bf27cbc6ca22256240a678106e0d72b.webp)
 
 #### 更多应用
 
@@ -315,12 +315,12 @@ https://github.com/whoiskatrin/chart-gpt
 
 立即使用海量的 ChatGPT 应用，或在几秒钟内创建属于自己的应用。
 
-![open_gpt_app](/mirror/ee/eea405e76f5ce33945829cb99f85c18a81f2878d.jpg)
+![open_gpt_app](/mirror/ee/eea405e76f5ce33945829cb99f85c18a81f2878d.webp)
 
 #### [AI代码助手: codeium](https://codeium.com/)
 个人使用免费，有 vscode 插件，github copilot 平替
 
-![codeium](/mirror/9e/9e38bffeaa6028322a8b4a6c5329fc51e2651b18.jpg)
+![codeium](/mirror/9e/9e38bffeaa6028322a8b4a6c5329fc51e2651b18.webp)
 
 #### [Github Copilot 开源平替，可本地部署: Tabby ](https://github.com/TabbyML/tabby)
 
@@ -330,36 +330,36 @@ https://github.com/whoiskatrin/chart-gpt
 
 GPT-4 驱动的一款强大代码编辑器，可以辅助程序员进行日常的编码，目前免费。
 
-![cursor](/mirror/7c/7cd48f62b99fe8109a18b50b60c26d4253cbd364.jpg)
+![cursor](/mirror/7c/7cd48f62b99fe8109a18b50b60c26d4253cbd364.webp)
 
 #### [帮你生成完整 Github README](https://readme.rustc.cloud/zh)
 简单描述项目简介即可快速生成 GitHub README 内容
 
-![github_readme](/mirror/09/09cd8993004e63c3a5c2337fb33a36a43e70d844.jpg)
+![github_readme](/mirror/09/09cd8993004e63c3a5c2337fb33a36a43e70d844.webp)
 
 #### [智能测试： codium](https://www.codium.ai/)
 
 CodiumAI这个项目构建了一个名为TestGPT的语言模型，是一个专注于软件测试方面的AI，用它通过对话式来生成代码分析、测试计划和测试代码。目前有vscode和jetbrains的插件可供使用。
 
-![codium](/mirror/3a/3a730dc55addbfa7486e7f83b26ff4cfa32e095f.jpg)
+![codium](/mirror/3a/3a730dc55addbfa7486e7f83b26ff4cfa32e095f.webp)
 
 #### [shell 中使用 ChatGPT](https://github.com/TheR1D/shell_gpt)
 
-![shellGPT](/mirror/d6/d67d65311424f803af66c3824394fe50ae7e7e65.gif)
+![shellGPT](/mirror/d6/d67d65311424f803af66c3824394fe50ae7e7e65.webp)
 
 #### [GitHub 官方出品新一代代码编辑器：copilot-x](https://github.com/features/preview/copilot-x)
 
 目前可申请内测
 
-![copilot_x](/mirror/98/9898b7d2c642feb02b7d0365c884a51f12de35d1.png)
+![copilot_x](/mirror/98/9898b7d2c642feb02b7d0365c884a51f12de35d1.webp)
 
 #### [一键免费部署你的私人 ChatGPT 网页应用: ChatGPT-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web)
 
-![Chatgpt_next_web](/mirror/66/6641347474d5b0072b96f26777fc0e48b6ab7665.png)
+![Chatgpt_next_web](/mirror/66/6641347474d5b0072b96f26777fc0e48b6ab7665.webp)
 
 #### [将代码从一个语言翻译为另一个语言：ai-code-translator](https://github.com/mckaywrigley/ai-code-translator)
 
-![code_translator](/mirror/3c/3c1191853f97b0d72fc374d29cb7e6712386df50.png)
+![code_translator](/mirror/3c/3c1191853f97b0d72fc374d29cb7e6712386df50.webp)
 
 #### [使用 LLMs 通过自然语言生成任意函数：AI Functions](https://www.askmarvin.ai/)
 
@@ -389,7 +389,7 @@ def ai_function(function, args, description, model = "gpt-4"):
 
 Chat-GPT 超级挂件，以侧边窗口的形式提供服务，可以在阅读书籍时划选文本点击按钮给你解释，总结和提取；也可以在使用笔记软件时为笔记润色，翻译和补充.....
 
-![sidebar](/mirror/70/707f9db3b067c404cc86eb615984e0b8134ade8f.png)
+![sidebar](/mirror/70/707f9db3b067c404cc86eb615984e0b8134ade8f.webp)
 
 * [ChatGPT 接入谷歌: chatgpt-google-extension](https://chatgpt4google.com/)
 * [使用 GPT-4 实现浏览器自动化: TaxyAI](https://github.com/TaxyAI/browser-extension)
@@ -402,5 +402,5 @@ Chat-GPT 超级挂件，以侧边窗口的形式提供服务，可以在阅读�
 ### 更多工具
 
 [ChatGPT 用法和 APP](https://gpt3demo.com/)
-![gpt3_demo](/mirror/c5/c50426e249f9e9adee8145c3e50b29eb4a90907a.jpg)
+![gpt3_demo](/mirror/c5/c50426e249f9e9adee8145c3e50b29eb4a90907a.webp)
 [一个十分全面的 AI 工具合集文档](https://bytedance.feishu.cn/base/AIMAbnJxQaNgSGsBAtwcdAkLnvf)

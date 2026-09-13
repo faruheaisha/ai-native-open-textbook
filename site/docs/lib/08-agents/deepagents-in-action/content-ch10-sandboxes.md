@@ -22,7 +22,7 @@ zh: ""
 2. **Deep Agents Code（`dcode`）**：命令行工具在本机运行 LLM 循环，把工具调用定向到远程沙箱。
 3. **LangSmith Sandboxes**：LangSmith 提供的一方托管沙箱产品，除了 Python Backend 以外，还提供快照、服务 URL、Auth Proxy、挂载和 CLI 等资源能力。
 
-![DeepAgents 代码执行全景：Agent 位于中心，通过 Sandbox Backend、文件传输、执行工具、生命周期、依赖环境与安全边界协同完成任务到产物的流程](/mirror/0a/0a83e64aad7706a94238ad5f2e1f52487dc29084.png)
+![DeepAgents 代码执行全景：Agent 位于中心，通过 Sandbox Backend、文件传输、执行工具、生命周期、依赖环境与安全边界协同完成任务到产物的流程](/mirror/0a/0a83e64aad7706a94238ad5f2e1f52487dc29084.webp)
 
 ## 1. 沙箱 Backend：执行环境，而不是权限开关
 
@@ -39,7 +39,7 @@ zh: ""
 
 不要把 `FilesystemPermission` 当作沙箱内的命令隔离：它约束内置文件工具，但不约束 `execute`。两层能力如何组合，以及 CompositeBackend 使用沙箱默认路由时为什么只能保护已知路由，见[第 11 章：文件系统权限](https://github.com/datawhalechina/deepagents-in-action/blob/4097ff944f9ffa1bdfe2dd04f751f4416b058860/ch11-filesystem-permissions/README.md)。
 
-![代码执行的主路径：用户请求经由 Agent 规划，进入代码执行沙箱，通过 execute 产出运行结果并交付文件](/mirror/fa/fafeff335641f8347095d0e0f2f7d133e0dc6635.png)
+![代码执行的主路径：用户请求经由 Agent 规划，进入代码执行沙箱，通过 execute 产出运行结果并交付文件](/mirror/fa/fafeff335641f8347095d0e0f2f7d133e0dc6635.webp)
 
 ### `execute()` 的返回值
 
@@ -190,7 +190,7 @@ RUN pip install deepagents-code
 | LLM / Agent | `read_file`、`write_file`、`edit_file`、`delete`、`ls`、`glob`、`grep`、`execute` | 只在沙箱内部完成任务 |
 | 宿主应用 | `upload_files()`、`download_files()` | 用 Provider 原生文件传输跨越宿主机与沙箱边界 |
 
-![文件的两个平面：宿主应用通过 upload_files 在运行前传入输入，并在运行后通过 download_files 取回产物；Agent 工具始终运行在代码执行沙箱内](/mirror/32/32cf5208fd296a02645beb7c77ae7027a836c3b7.png)
+![文件的两个平面：宿主应用通过 upload_files 在运行前传入输入，并在运行后通过 download_files 取回产物；Agent 工具始终运行在代码执行沙箱内](/mirror/32/32cf5208fd296a02645beb7c77ae7027a836c3b7.webp)
 
 ### 在运行前播种输入
 
@@ -225,7 +225,7 @@ for result in results:
 
 沙箱包含文件、安装的包、缓存与可能仍在运行的进程。创建后不清理会持续消耗资源；复用时又会引入状态累积。因此先确定作用域。
 
-![两种沙箱作用域对比：Thread-scoped 以单个 thread_id 和 TTL 管理独立沙箱；Assistant-scoped 让多个对话复用同一环境，并需要快照或重置策略](/mirror/fe/fef177b98e171010c05ec346eb8baa94b2120b1c.png)
+![两种沙箱作用域对比：Thread-scoped 以单个 thread_id 和 TTL 管理独立沙箱；Assistant-scoped 让多个对话复用同一环境，并需要快照或重置策略](/mirror/fe/fef177b98e171010c05ec346eb8baa94b2120b1c.webp)
 
 | 作用域 | 行为 | 适用情况 | 风险控制 |
 |---|---|---|---|

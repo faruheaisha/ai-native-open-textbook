@@ -110,4 +110,4 @@ zh: ""
 
 AI研究所：一个收录 AI 相关工具和AI资讯的中文网站
 
-![ai_yjs](/mirror/32/32f06e8633978dab803a1b8f6cb51be8ab62067a.jpg)
+![ai_yjs](/mirror/32/32f06e8633978dab803a1b8f6cb51be8ab62067a.webp)

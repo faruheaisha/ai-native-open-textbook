@@ -67,7 +67,7 @@ This is fine for simple Q&A but useless for real applications. Customer service 
 
 The following diagram contrasts the two approaches — on the left, a stateless call that forgets your name; on the right, a stateful call backed by ChatMemory that remembers it.
 
-<img src="/mirror/ec/ecfc8a89f75b2b0880da6e8b75d2303b9c46b666.png" alt="Stateless vs Stateful Conversations" width="800"/>
+<img src="/mirror/ec/ecfc8a89f75b2b0880da6e8b75d2303b9c46b666.webp" alt="Stateless vs Stateful Conversations" width="800"/>
 
 *The difference between stateless (independent calls) and stateful (context-aware) conversations*
 
@@ -75,7 +75,7 @@ The following diagram contrasts the two approaches — on the left, a stateless 
 
 Before diving into conversations, it's important to understand tokens - the basic units of text that language models process:
 
-<img src="/mirror/0f/0ff9402038d8699dd96712c4295d6a10cb8e58f9.png" alt="Token Explanation" width="800"/>
+<img src="/mirror/0f/0ff9402038d8699dd96712c4295d6a10cb8e58f9.webp" alt="Token Explanation" width="800"/>
 
 *Example of how text is broken into tokens - "I love AI!" becomes 4 separate processing units*
 
@@ -87,7 +87,7 @@ Chat memory solves the stateless problem by maintaining conversation history. Be
 
 LangChain4j provides memory implementations that handle this automatically. You choose how many messages to retain and the framework manages the context window. The diagram below shows how MessageWindowChatMemory maintains a sliding window of recent messages.
 
-<img src="/mirror/65/652ca76b19a9589fb5f46082019669ce698962c1.png" alt="Memory Window Concept" width="800"/>
+<img src="/mirror/65/652ca76b19a9589fb5f46082019669ce698962c1.webp" alt="Memory Window Concept" width="800"/>
 
 *MessageWindowChatMemory maintains a sliding window of recent messages, automatically dropping old ones*
 
@@ -226,7 +226,7 @@ From the Spring Boot Dashboard, you can:
 
 Simply click the play button next to "introduction" to start this module, or start all modules at once.
 
-<img src="/mirror/42/42052e3deb5d2d840ba75bd26d91235124ce1602.png" alt="Spring Boot Dashboard" width="400"/>
+<img src="/mirror/42/42052e3deb5d2d840ba75bd26d91235124ce1602.webp" alt="Spring Boot Dashboard" width="400"/>
 
 *The Spring Boot Dashboard in VS Code — start, stop, and monitor all modules from one place*
 
@@ -298,7 +298,7 @@ cd ..; .\stop-all.ps1  # All modules
 
 The application provides a web interface with two chat implementations side-by-side.
 
-<img src="/mirror/47/4762af497126a8d241bcd293fee6d90e7a265ecb.png" alt="Application Home Screen" width="800"/>
+<img src="/mirror/47/4762af497126a8d241bcd293fee6d90e7a265ecb.webp" alt="Application Home Screen" width="800"/>
 
 *Dashboard showing both Simple Chat (stateless) and Conversational Chat (stateful) options*
 
@@ -306,7 +306,7 @@ The application provides a web interface with two chat implementations side-by-s
 
 Try this first. Ask "My name is John" and then immediately ask "What's my name?" The model won't remember because each message is independent. This demonstrates the core problem with basic language model integration - no conversation context.
 
-<img src="/mirror/b0/b0cf4d1cec173bb8dc734900fffac45a4bdd4af5.png" alt="Stateless Chat Demo" width="800"/>
+<img src="/mirror/b0/b0cf4d1cec173bb8dc734900fffac45a4bdd4af5.webp" alt="Stateless Chat Demo" width="800"/>
 
 *AI doesn't remember your name from the previous message*
 
@@ -314,7 +314,7 @@ Try this first. Ask "My name is John" and then immediately ask "What's my name?"
 
 Now try the same sequence here. Ask "My name is John" and then "What's my name?" This time it remembers. The difference is MessageWindowChatMemory - it maintains conversation history and includes it with each request. This is how production conversational AI works.
 
-<img src="/mirror/16/16d1577bd1c85a64e802451b7e597de64b8e49d0.png" alt="Stateful Chat Demo" width="800"/>
+<img src="/mirror/16/16d1577bd1c85a64e802451b7e597de64b8e49d0.webp" alt="Stateful Chat Demo" width="800"/>
 
 *AI remembers your name from earlier in the conversation*
 

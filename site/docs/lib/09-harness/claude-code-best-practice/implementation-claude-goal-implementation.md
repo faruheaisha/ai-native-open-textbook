@@ -33,7 +33,7 @@ zh: ""
 
 ### 1. Ask the agent to propose its own goals
 
-  <img src="/mirror/71/7138426e9e3ee56bc933c2eeafdfa42494ab6aa4.png" alt="Alex Finn tweet — /goal is the most underrated AI feature of 2026" width="50%">
+  <img src="/mirror/71/7138426e9e3ee56bc933c2eeafdfa42494ab6aa4.webp" alt="Alex Finn tweet — /goal is the most underrated AI feature of 2026" width="50%">
 
 > It's official. Claude Code just released /goal
 >
@@ -59,7 +59,7 @@ zh: ""
 
 ### 2. Let the agent draft the /goal prompt for you
 
-  <img src="/mirror/bf/bf3061d8b80e7fb79e10a7d6b0dd1f21d6b4cc6c.png" alt="Meta Alchemist tweet — /goal trick for Codex" width="50%">
+  <img src="/mirror/bf/bf3061d8b80e7fb79e10a7d6b0dd1f21d6b4cc6c.webp" alt="Meta Alchemist tweet — /goal trick for Codex" width="50%">
 
 > wanna know the best /goal trick for Codex?
 >

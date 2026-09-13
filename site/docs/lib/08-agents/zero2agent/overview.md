@@ -43,8 +43,8 @@ zh: ""
 
 **在线阅读（GitHub Pages）**：[https://onefly.top/zero2Agent](https://onefly.top/zero2Agent)
 
-<img src="/mirror/b6/b699d00aee2dc45c4332ce7f3a2ff2f74cafc8fd.png" alt="首页" width="100%" />
-<img src="/mirror/e6/e6f02529898a6f29a67ef5130466b94096f64acf.png" alt="文章页" width="100%" />
+<img src="/mirror/b6/b699d00aee2dc45c4332ce7f3a2ff2f74cafc8fd.webp" alt="首页" width="100%" />
+<img src="/mirror/e6/e6f02529898a6f29a67ef5130466b94096f64acf.webp" alt="文章页" width="100%" />
 
 ---
 

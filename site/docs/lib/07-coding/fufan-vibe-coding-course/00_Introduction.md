@@ -22,7 +22,7 @@ Before embarking on your Vibe Coding journey, you need to complete the developme
 
 **Why Vibe Coding Tools Need Proper Setup?**
 
-  <img src="/mirror/12/12484ca3f2b1bd2af8dc9dae9d3b10932712096c.png" width="85%" alt="Why Git is Essential for AI Programming">
+  <img src="/mirror/12/12484ca3f2b1bd2af8dc9dae9d3b10932712096c.webp" width="85%" alt="Why Git is Essential for AI Programming">
 
 The core toolchain of Vibe Coding—Cursor, GitHub, and AI model services—all depend on stable international network connections. Without Git:
 - ❌ Cannot submit code
@@ -36,7 +36,7 @@ With Git, you unlock the complete engineering workflow: collaborative developmen
 
 ## Git & GitHub Relationship
 
-  <img src="/mirror/10/10e4c17d7c865c2ddaf4268a6d9ed18526cc9fe8.png" width="80%" alt="Git and GitHub Relationship">
+  <img src="/mirror/10/10e4c17d7c865c2ddaf4268a6d9ed18526cc9fe8.webp" width="80%" alt="Git and GitHub Relationship">
 
 - **Git** (Local) - Distributed version control, local repository, offline work
 - **GitHub** (Remote) - Centralized hosting, team collaboration, social coding
@@ -47,7 +47,7 @@ With Git, you unlock the complete engineering workflow: collaborative developmen
 
 ## Complete Learning Path
 
-  <img src="/mirror/ae/ae08cd8699bf641a52105372b5ddbd079e41d19d.png" width="90%" alt="Git in Cursor Workflow - Complete Learning Path">
+  <img src="/mirror/ae/ae08cd8699bf641a52105372b5ddbd079e41d19d.webp" width="90%" alt="Git in Cursor Workflow - Complete Learning Path">
 
 The setup flow covers:
 1. **Git's Role & Value** - Why it's essential
@@ -58,7 +58,7 @@ The setup flow covers:
 
 ## Configuration & Verification
 
-  <img src="/mirror/27/27eb0160286037c746364f25d4bac078131761ef.png" width="90%" alt="Git Configuration and Cursor Integration Verification">
+  <img src="/mirror/27/27eb0160286037c746364f25d4bac078131761ef.webp" width="90%" alt="Git Configuration and Cursor Integration Verification">
 
 Three key steps:
 1. **Identity Set** - Configure global user.name and user.email

@@ -15,7 +15,7 @@ zh: ""
 # 办公 Agent 生态清单（awesome-workbuddy）
 
 <h1 align="center">
-  <a href="https://www.workbuddy.cn/"><img src="/mirror/14/14db1709b429ec729f3a9f86f21819ce79c52849.png" alt="Awesome WorkBuddy" width="800" /></a>
+  <a href="https://www.workbuddy.cn/"><img src="/mirror/14/14db1709b429ec729f3a9f86f21819ce79c52849.webp" alt="Awesome WorkBuddy" width="800" /></a>
 </h1>
 
   

@@ -30,7 +30,7 @@ This Arduino-based application demonstrates how to capture audio from a micropho
 
 ## Hardware Setup
 
-![Wiring Diagram](/mirror/b0/b05dbb0d305ea7d139fc5cace3a17914d25f3d24.png)
+![Wiring Diagram](/mirror/b0/b05dbb0d305ea7d139fc5cace3a17914d25f3d24.webp)
 
 * **MAX9814 Microphone Module -> ESP32**
     * GND -> GND

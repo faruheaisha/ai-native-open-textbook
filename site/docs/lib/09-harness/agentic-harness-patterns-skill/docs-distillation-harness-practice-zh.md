@@ -18,7 +18,7 @@ zh: ""
 
 突然发现，我“蒸馏” Claude Code 源码得到 Agent Harness Patterns Skill 的过程是一个不错的 Harness Engineering 的阅读材料～ （甚至可能比总结出的 skills 更有价值）所以总结下，也作为未来的 Harness Engineering 正式博客的补充材料吧。
 
-<img src="/mirror/f4/f4729a89d4ad68aca2087b6788e52e017a93652e.png" alt="agent-harness-patterns" style="zoom: 25%;" />
+<img src="/mirror/f4/f4729a89d4ad68aca2087b6788e52e017a93652e.webp" alt="agent-harness-patterns" style="zoom: 25%;" />
 
 距离 Claude Code 源码泄露大概过了几个小时，我就开始动手蒸馏了。动机其实很简单：这大概是目前能拿到的最成熟的生产级 Agent harness 实现，不趁热提炼一下总觉得可惜。至少我自己也比较好奇它内部的 context engineering 的设计。
 
@@ -47,7 +47,7 @@ zh: ""
 
 在正式开工前，我让 Codex 一次性生成了整套 harness 基础设施。这套文件的设计目标是：让一个没有当前对话上下文的 clean agent 也能直接接手，知道去哪读、先做什么、做完写到哪里、怎么 review。
 
-![fig1_v3_20260402_215205_0](/mirror/ba/ba96f66ce3bee68fa3d6e0860fe903e218140aca.png)
+![fig1_v3_20260402_215205_0](/mirror/ba/ba96f66ce3bee68fa3d6e0860fe903e218140aca.webp)
 
 文件按职能分为三组：
 
@@ -107,7 +107,7 @@ Handoff 文档是 Agent 之间的 API。每份 handoff 恰好包含下一个 Age
 
 回到 PCA 的类比：博客就是那组基向量。它们定义了"**什么方向是重要的**"，然后 Agent 沿着这些方向做投影。没有这些基向量，Agent 可能会提取出完全不同的主成分，也许更偏向实现细节，也许更偏向 API 设计，但不一定是我想要的 harness 设计原则。（最初提取的东西简直没眼看）
 
-![fig3_v2_20260402_214909_0](/mirror/85/8508f6a87da1a94e78d5f633452a8c289fcce823.png)
+![fig3_v2_20260402_214909_0](/mirror/85/8508f6a87da1a94e78d5f633452a8c289fcce823.webp)
 
 > [!Tip]
 >
@@ -125,7 +125,7 @@ Handoff 文档是 Agent 之间的 API。每份 handoff 恰好包含下一个 Age
 
 ## 3. 过程概览
 
-![fig2_fanout_convergence_20260402_213926_0](/mirror/f0/f0e5b4589ea0f4c6acc2eb328a862ae5fe58f7b8.png)
+![fig2_fanout_convergence_20260402_213926_0](/mirror/f0/f0e5b4589ea0f4c6acc2eb328a862ae5fe58f7b8.webp)
 
 ### Phase 0：搭脚手架
 

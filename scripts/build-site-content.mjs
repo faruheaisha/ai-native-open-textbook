@@ -621,6 +621,17 @@ function rewriteLinks(text, s, currentSourceRel, bySourceRel, currentOutRel) {
     const clean = decode(url.split("#")[0].split("?")[0]);
     const hash = url.includes("#") ? "#" + decode(url.slice(url.indexOf("#") + 1)) : "";
     if (!clean) return { url, hash };
+    // 站内已经落了盘的资源优先。
+    // 「/workbuddy-harness/fig-02.png」这种写法指的是站内路径（文件就在 public 下），
+    // 但下面会把开头的 / 当成「仓库根相对」再去拼上游地址拼接，
+    // 结果是页面绕开本地文件、改从第三方加速通道取图。
+    // 判定顺序：优化脚本转出来的同名 .webp 优先，其次是原文件本身。
+    if (isImage && clean.startsWith('/') && !clean.startsWith('//')) {
+      const rel = clean.slice(1);
+      const webp = rel.replace(/\.(png|jpe?g|gif)$/i, '.webp');
+      if (webp !== rel && fs.existsSync(path.join(PUBLIC_DIR, webp))) return { url: '/' + webp };
+      if (fs.existsSync(path.join(PUBLIC_DIR, rel))) return { url: clean };
+    }
     // 以 / 开头的是仓库内的根相对路径，按仓库根解析。
     const fromRoot = clean.startsWith("/");
     const base = fromRoot ? "" : path.posix.dirname(currentSourceRel);

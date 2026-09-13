@@ -14,7 +14,7 @@ zh: ""
 
 # Creating Advanced prompts
 
-[![Creating Advanced Prompts](/mirror/97/97d1198266e5284600887b24ac385150fd050f92.png)](https://youtu.be/BAjzkaCdRok?si=NmUIyRf7-cDgbjtt)
+[![Creating Advanced Prompts](/mirror/97/97d1198266e5284600887b24ac385150fd050f92.webp)](https://youtu.be/BAjzkaCdRok?si=NmUIyRf7-cDgbjtt)
 
 Let's recap some learnings from the previous chapter:
 

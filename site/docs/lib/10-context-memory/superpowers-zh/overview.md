@@ -324,7 +324,7 @@ npx superpowers-zh@latest --uninstall
 <table>
 <tr>
 <td width="170" align="center">
-<img src="/mirror/51/51645663a1cf7aab51332581e206cb2c9b1ba1de.jpg" width="150" alt="微信公众号 AI不止语 二维码"><br>
+<img src="/mirror/51/51645663a1cf7aab51332581e206cb2c9b1ba1de.webp" width="150" alt="微信公众号 AI不止语 二维码"><br>
 <sub>微信扫码关注</sub>
 </td>
 <td>
