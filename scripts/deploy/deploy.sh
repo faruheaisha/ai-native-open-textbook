@@ -18,7 +18,10 @@ DEST="${DEST:-/var/www/ai-native-textbook}"
 # 清单和取图脚本是部署用的工具，不能落在网站根目录里，否则会被公开下载。
 WORKER_DIR="${WORKER_DIR:-/var/lib/ai-textbook-deploy}"
 KEY="${KEY:-$HOME/.ssh/deploy_key}"
-SSH_OPTS=(-i "$KEY" -o StrictHostKeyChecking=accept-new -o ConnectTimeout=15)
+# ServerAlive* 是必要的：上传两百多兆要几分钟，中间链路一空闲就会被掐断
+# （表现为 rsync: Broken pipe），加上保活心跳后长传才稳。
+SSH_OPTS=(-i "$KEY" -o StrictHostKeyChecking=accept-new -o ConnectTimeout=15
+  -o ServerAliveInterval=15 -o ServerAliveCountMax=8)
 SSH=(ssh "${SSH_OPTS[@]}" "$REMOTE_USER@$HOST")
 
 step() { printf '\n\033[1m== %s\033[0m\n' "$1"; }
