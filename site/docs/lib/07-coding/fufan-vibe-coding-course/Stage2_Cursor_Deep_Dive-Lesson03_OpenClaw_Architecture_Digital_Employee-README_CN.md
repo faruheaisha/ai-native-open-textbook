@@ -25,7 +25,7 @@ zh: ""
 ## 课程资料
 
 - **01_课件/**
-  - [OpenClaw 接入 AI 数字员工 - 飞书配置教程](https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/Stage2_Cursor_Deep_Dive/Lesson03_OpenClaw_Architecture_Digital_Employee/01_课件/OpenClaw 接入 AI 数字员工 - 飞书配置教程.html)
+  - [OpenClaw 接入 AI 数字员工 - 飞书配置教程](https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/Stage2_Cursor_Deep_Dive/Lesson03_OpenClaw_Architecture_Digital_Employee/01_课件/OpenClaw%20接入%20AI%20数字员工%20-%20飞书配置教程.html)
   - Excalidraw / PPT 见 `01_课件/` 内文件
 
 ## 关于 `.excalidraw` 文件

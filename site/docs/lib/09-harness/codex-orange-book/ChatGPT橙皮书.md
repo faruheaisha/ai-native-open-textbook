@@ -131,7 +131,7 @@ Codex 真正重要的地方，不是它能不能写一个函数、补一段代�
 
 ##### 五年变了四次
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-002-4f0de9d6b3.png" alt="AI编程工具的四次进化历程" width="860">
+  <img src="/mirror/af/afe40c5594034452ef9282c725c9cfbccd0481bb.png" alt="AI编程工具的四次进化历程" width="860">
 
 **AI 编程工具的四次进化**
 
@@ -161,7 +161,7 @@ Codex 重新出现后，已经不只是当年负责代码补全的模型，而�
 
 **What Codex Can Do**
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-003-4ba99b9c0a.png" alt="Codex能做什么的内容" width="860">
+  <img src="/mirror/fa/fa9753d11a75dacbd01b2980a4dfcd334bfa06be.png" alt="Codex能做什么的内容" width="860">
 
 很多人第一次用 Codex，会直接问：
 
@@ -404,7 +404,7 @@ Codex 适合帮你推进任务。
 
 **先用 ChatGPT 想清楚，再用 Codex 进项目执行。**
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-004-408fd41f24.png" alt="ChatGPT与Codex的区别对比表，分为核心定位、主要方式、适合场景、项目上下文、交付结果、使用重点六个方面" width="860">
+  <img src="/mirror/cd/cd9aa8b35c63632b9d5ed8f8e6be5d216b60c91d.png" alt="ChatGPT与Codex的区别对比表，分为核心定位、主要方式、适合场景、项目上下文、交付结果、使用重点六个方面" width="860">
 
 #### Codex 与 Cursor 的区别
 
@@ -426,7 +426,7 @@ Codex 负责帮你跑完整任务。
 
 这就是它们最大的区别。
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-005-e2cbc7da9d.png" alt="图片以“Cursor与Codex的区别”为标题，对比了两者在核心定位、使用位置、主要方式、适合场景、工作粒度、交付结果及使用重点等方面的差异" width="860">
+  <img src="/mirror/b1/b1a677468393a1170f1931f6eef39bb2c285fa2c.png" alt="图片以“Cursor与Codex的区别”为标题，对比了两者在核心定位、使用位置、主要方式、适合场景、工作粒度、交付结果及使用重点等方面的差异" width="860">
 
 #### Codex 与 Claude Code 的区别
 
@@ -505,7 +505,7 @@ OpenAI 官方文档中，Codex CLI 是本地终端里的 coding agent；Codex Ap
 
 **Claude Code 更像终端里的长期工程搭档，Codex 更像 OpenAI 生态里的多端工程 Agent。**
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-006-0f0d88385e.png" alt="Claude Code与Codex的区别对比表，从核心定位、主要入口、工作风格、适合场景、扩展能力、生态优势、选择关键等7方面进行对比" width="860">
+  <img src="/mirror/d4/d4cdf8adfbcb2376455d9576da884cb18d831007.png" alt="Claude Code与Codex的区别对比表，从核心定位、主要入口、工作风格、适合场景、扩展能力、生态优势、选择关键等7方面进行对比" width="860">
 
 #### 一句话总结 Codex
 
@@ -517,7 +517,7 @@ OpenAI 官方文档中，Codex CLI 是本地终端里的 coding agent；Codex Ap
 
 ### Codex 的使用入口
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-008-7b9207fbc0.png" alt="图片标题为“Codex的4个入口怎么选”，介绍了Codex的4种使用入口：2.1 Codex App、2.2 Codex CLI、2.3 Codex IDE Extensio..." width="860">
+  <img src="/mirror/02/0210a0e788d6d0e6606cfbaf02c1f92db89f6759.png" alt="图片标题为“Codex的4个入口怎么选”，介绍了Codex的4种使用入口：2.1 Codex App、2.2 Codex CLI、2.3 Codex IDE Extensio..." width="860">
 
 如果你主要做本地项目、网页练习和日常开发，优先从 Codex App 开始通常就够用；等你熟悉 Git、终端和团队协作后，再逐步补 CLI、IDE Extension 和 Web / Cloud。
 
@@ -667,11 +667,11 @@ Windows 版一般会跳转到 Microsoft Store 安装。
 1. 打开 [Codex App 官方页面](https://openai.com/zh-Hans-CN/codex/)
 2. 点击 Windows 下载入口
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-009-83f16b5f97.png" alt="Codex App在Windows平台的下载页面" width="860">
+  <img src="/mirror/24/245a935372fad6e455316e70a44f6aa707a2a26e.png" alt="Codex App在Windows平台的下载页面" width="860">
 
 3. 跳转到 Microsoft Store
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-010-8cac2e1d37.png" alt="Microsoft Store中Codex应用的页面" width="860">
+  <img src="/mirror/89/892ee50c53aac76f9a2184e64294be9f11a11c0b.png" alt="Microsoft Store中Codex应用的页面" width="860">
 
 4. 点击「获取」或「安装」（这里我已经安装过了所以显示的是打开）
 5. 打开 Codex App
@@ -707,7 +707,7 @@ AI-Codex-Projects
 
 选择项目目录后，Codex 才知道自己应该读哪些文件、改哪些文件、在哪个地方运行命令。
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-011-59a65b6cbe.png" alt="Codex App中选择项目目录的界面" width="860">
+  <img src="/mirror/d5/d51ac1a96fcbde94ff5c80423f0149ef3e4dc36d.png" alt="Codex App中选择项目目录的界面" width="860">
 
 ##### 理解项目列表
 
@@ -734,7 +734,7 @@ ai-first-page
 
 你点进不同项目，Codex 看到的文件范围也不一样。
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-012-caf9bf0f60.png" alt="Codex App的界面左侧菜单栏" width="860">
+  <img src="/mirror/01/019ecd4f9abf7a5d7542f50d29490c4b2e9acf41.png" alt="Codex App的界面左侧菜单栏" width="860">
 
 ##### 理解 thread（对话）
 
@@ -751,7 +751,7 @@ Thread 3：优化移动端样式
 Thread 4：帮我写 README
 ```
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-013-ab6166a144.png" alt="Codex App的菜单界面" width="860">
+  <img src="/mirror/5f/5f724eba6bd731ffb7f18293afb81c5432b00e20.png" alt="Codex App的菜单界面" width="860">
 
 每个 thread 都有自己的上下文。
 
@@ -796,7 +796,7 @@ Thread 4：帮我写 README
 请帮我做一个简单网页，黑色背景，中间显示 Hello, Codex。
 ```
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-014-f4cad7a35b.png" alt="Codex App中“做一个首页”任务的执行界面" width="860">
+  <img src="/mirror/29/29ed901e41bfe49d829390da33a8629f5f371ef8.png" alt="Codex App中“做一个首页”任务的执行界面" width="860">
 
 也可以继续追问：
 
@@ -838,7 +838,7 @@ Review pane 可以理解成：
 
 Codex 改完文件后，你不要只看它的文字总结，而是要打开 review pane 看实际改动。
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-015-6a51d13719.png" alt="Codex App中“做一个首页”任务的review pane界面" width="860">
+  <img src="/mirror/71/71cdcb3b430dc65c0c28eb8d13903145daa6a961.png" alt="Codex App中“做一个首页”任务的review pane界面" width="860">
 
 它会告诉你：
 
@@ -872,7 +872,7 @@ Codex 的「作业检查区」。
 
 Diff 是代码改动对比。
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-016-a4f222f686.png" alt="Codex App界面，左侧为项目文件夹，中间是代码编辑区域，右侧是review pane" width="860">
+  <img src="/mirror/73/7334f3c1d94334be668ab1e5889f0a39b278e83a.png" alt="Codex App界面，左侧为项目文件夹，中间是代码编辑区域，右侧是review pane" width="860">
 
 小白可以这样理解：
 
@@ -963,7 +963,7 @@ Codex 到底改了什么。
 
 右侧是多功能区域
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-017-45e7b1f44c.png" alt="Codex App的基础布局" width="860">
+  <img src="/mirror/a9/a98a3a150890d6b7956fade646db77aa092cd12d.png" alt="Codex App的基础布局" width="860">
 
 ##### 新对话
 
@@ -973,25 +973,25 @@ Codex 到底改了什么。
 
 开启新对话后需要选择新对话属于哪个项目
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-018-3206c339e6.png" alt="Codex App的界面，左侧任务列表中“hello - Codex”项目被选中" width="860">
+  <img src="/mirror/a2/a22c05dc13af38f1120bc2063805198932979c12.png" alt="Codex App的界面，左侧任务列表中“hello - Codex”项目被选中" width="860">
 
 当然我们也可以直接在项目右侧的小按钮那里点击，直接开启对应项目的一个新对话。
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-019-257b446265.png" alt="Codex App的界面，左侧任务列表中“hello - Codex”项目被红色框突出显示" width="860">
+  <img src="/mirror/6e/6e608f1b058d4e7465e65ed385253c1802103efb.png" alt="Codex App的界面，左侧任务列表中“hello - Codex”项目被红色框突出显示" width="860">
 
 ###### 不使用项目
 
 点击不使用项目，对应的会话会显示在对话里面，可以作为想问和项目无关的问题
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-020-00b4c4d600.png" alt="Codex App的对话界面" width="860">
+  <img src="/mirror/08/086407c31473414c523a69c0280b1e64301df31e.png" alt="Codex App的对话界面" width="860">
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-021-dfac5ddc9d.png" alt="Codex App的界面" width="860">
+  <img src="/mirror/4e/4e58a22d563a74a563ed551130e65251d5dc83eb.png" alt="Codex App的界面" width="860">
 
 ##### 搜索
 
 后期任务对话太多了，但是只记得一些关键次找不到对应的任务对话了，可以直接在搜索这里，搜关键词，就会查找到对应的任务对话了
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-022-35963eb7d8.png" alt="Codex App的界面，左侧为任务列表，中间是对话窗口，右侧是多功能区域" width="860">
+  <img src="/mirror/3a/3a6303f3635272174fb365b0ed3a93c90df2fbf1.png" alt="Codex App的界面，左侧为任务列表，中间是对话窗口，右侧是多功能区域" width="860">
 
 ##### 插件
 
@@ -1009,13 +1009,13 @@ Codex 到底改了什么。
 
 创建或选择好的项目会出现在项目栏里面，方便后续的管理
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-023-e2925cfe7a.png" alt="Codex App中“自动化”功能界面" width="860">
+  <img src="/mirror/bc/bc1c22d68fd4032adbc52ca567cc9f69565c7bf3.png" alt="Codex App中“自动化”功能界面" width="860">
 
 ###### thread
 
  thread 是一个项目里的「单独任务对话」
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-024-5597f4da7e.png" alt="Codex App中“自动化”页面" width="860">
+  <img src="/mirror/1e/1eecc56f8f4a307777370ac4f19e7a5265ec24dc.png" alt="Codex App中“自动化”页面" width="860">
 
 比如你有一个项目叫：
 
@@ -1088,7 +1088,7 @@ Thread 4：写项目说明文档
 
 点击对应的对话后，再点击允许，Codex 就会继续进行接下来的工作了
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-025-3c0bbdb2c9.png" alt="Codex App中“等待批准”界面" width="860">
+  <img src="/mirror/ac/ac57cf54362a779be306d8c34c5408bd9aae4536.png" alt="Codex App中“等待批准”界面" width="860">
 
 ###### 归档
 
@@ -1096,7 +1096,7 @@ Thread 4：写项目说明文档
 
 它的作用不是删除代码，也不是合并代码，而是让你的任务列表更干净。
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-026-e376d9b72b.png" alt="Codex App中“自动化”功能界面" width="860">
+  <img src="/mirror/3a/3a86c7e792e8d81e1e132764971d5c5a33fba27e.png" alt="Codex App中“自动化”功能界面" width="860">
 
 比如你做完了这些任务：
 
@@ -1113,7 +1113,7 @@ Thread 3：做一个首页
 
 **取消归档，当然你也可以在设置里面找到已归档对话，将其还原回来**
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-027-fe65838194.png" alt="Codex App中“已归档对话”界面" width="860">
+  <img src="/mirror/d9/d90643bd630058fbaae0635d3a9f617d7b043e63.png" alt="Codex App中“已归档对话”界面" width="860">
 
 ##### 设置
 
@@ -1123,7 +1123,7 @@ Thread 3：做一个首页
 
 不同套餐、工作区、模型和版本显示的限制可能不一样；具体能用多久、什么时候恢复、是否能购买额外额度，都以 Codex 当前界面和官方说明为准。
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-028-428085256a.png" alt="Codex App中“剩余额度”页面" width="860">
+  <img src="/mirror/a7/a7f23c356f4a95c1dd843be9065fbbd4aa2879b4.png" alt="Codex App中“剩余额度”页面" width="860">
 
 ##### 对话窗口
 
@@ -1173,7 +1173,7 @@ Sandbox = 给 Codex 设置工作边界
 
 ###### 三大权限
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-029-36088a5605.png" alt="Codex App的权限控制界面" width="860">
+  <img src="/mirror/16/16d526ba5ae11ca72f9941e77a88893689b08ebc.png" alt="Codex App的权限控制界面" width="860">
 
 ```text
 请求批准
@@ -1213,7 +1213,7 @@ Sandbox = 给 Codex 设置工作边界
 
 可以看到推理强度分为了4档，强度越高对应的推理能力越强所花的时间和token消耗也越大
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-030-5e67deee5c.png" alt="Codex App中“做一个首页”任务的对话窗口界面" width="860">
+  <img src="/mirror/cb/cb7bc45715030970c395f75d5d59b53f6a0977ea.png" alt="Codex App中“做一个首页”任务的对话窗口界面" width="860">
 
 | 选项 | 简单来说 | 适合任务 |
 | --- | --- | --- |
@@ -1226,7 +1226,7 @@ Sandbox = 给 Codex 设置工作边界
 
 这里可以选择不同的模型。模型能力、可用范围和消耗会随账号套餐、地区、版本和模型目录变化。普通任务用默认推荐模型即可；复杂任务再考虑切换更强模型或提高推理强度。
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-031-223a38b5c0.png" alt="Codex App中“做一个首页”任务的界面" width="860">
+  <img src="/mirror/2a/2a2a5b93b0181e0d88187062042d85e54413f828.png" alt="Codex App中“做一个首页”任务的界面" width="860">
 
 ###### 速度
 
@@ -1234,7 +1234,7 @@ Sandbox = 给 Codex 设置工作边界
 
 快速模式的速度提升、额度消耗和是否可用，都以当前界面显示为准。任务很急、额度充足时可以考虑开启；日常任务不需要默认开启。
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-032-19abbbf80a.png" alt="Codex App中“做一个首页”任务的界面" width="860">
+  <img src="/mirror/db/db928fac3eb7e63a83b704e9e41d813b805a333c.png" alt="Codex App中“做一个首页”任务的界面" width="860">
 
 ###### 引导
 
@@ -1244,7 +1244,7 @@ Sandbox = 给 Codex 设置工作边界
 
 如果不选择引导则会排队执行，只有执行完上一个任务过后，AI才会执行你发送的下一个任务
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-033-ab2aaf4b7c.png" alt="Codex App的界面，左侧为项目管理区域，显示“做一个首页”项目，有“你好”和“做一个首页”两个任务，其中“你好”任务已结束22小时" width="860">
+  <img src="/mirror/a2/a25f4e129df8c7a2eb046d71cb57435aa30438a7.png" alt="Codex App的界面，左侧为项目管理区域，显示“做一个首页”项目，有“你好”和“做一个首页”两个任务，其中“你好”任务已结束22小时" width="860">
 
 ###### 计划模式
 
@@ -1252,9 +1252,9 @@ Sandbox = 给 Codex 设置工作边界
 
 对于所有复杂任务，建议都先开启计划模式，可以查漏补缺。
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-034-6c91bab459.png" alt="Codex App中“做一个首页”任务的对话窗口界面" width="860">
+  <img src="/mirror/f7/f7a5b039978c8cbf1eb33b360a09f27337807e4a.png" alt="Codex App中“做一个首页”任务的对话窗口界面" width="860">
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-035-14008ae664.png" alt="Codex App中“极简动效增强计划”的对话窗口" width="860">
+  <img src="/mirror/d9/d95461f516a221e423ebb1c9640dd3e6ffe09a3c.png" alt="Codex App中“极简动效增强计划”的对话窗口" width="860">
 
 ##### 多功能区
 
@@ -1266,11 +1266,11 @@ Sandbox = 给 Codex 设置工作边界
 
 可以让AI帮我们只修改页面的具体部分
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-036-3a26d98ad0.png" alt="Codex App的界面" width="860">
+  <img src="/mirror/0d/0d6ffe0db3b8ad554880d0a59ddfb3776f23d096.png" alt="Codex App的界面" width="860">
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-037-2ce03561dc.png" alt="Codex App的界面，左侧为项目列表，右侧是“Hello, Codex.”的页面" width="860">
+  <img src="/mirror/94/94f0b46d176c28b4c02a0dea8ce81244223ad642.png" alt="Codex App的界面，左侧为项目列表，右侧是“Hello, Codex.”的页面" width="860">
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-038-bea3475dc4.png" alt="Codex App的界面" width="860">
+  <img src="/mirror/02/0273ced7f859e98707121c48ae8f3ffb1a2cb8fb.png" alt="Codex App的界面" width="860">
 
 ---
 
@@ -3676,9 +3676,9 @@ README 项目
 7. 如有适合长期复用的规则，请建议是否加入项目级或用户级 AGENTS.md。
 ```
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-039-1274ebbc52.png" alt="Codex平台的自动化页面" width="860">
+  <img src="/mirror/27/27a216ff41278cd86440e35eea67ece26c4a0314.png" alt="Codex平台的自动化页面" width="860">
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-040-9839b03471.png" alt="Codex桌面端界面，左侧为功能导航栏，其中“自动化”选项被选中" width="860">
+  <img src="/mirror/e5/e508bf5da6a5fc650022687ebfae8fa1bf34d5db.png" alt="Codex桌面端界面，左侧为功能导航栏，其中“自动化”选项被选中" width="860">
 
 ### 插件
 
@@ -3718,25 +3718,25 @@ Codex 本身已经能读代码、改代码、运行命令；插件是在这个�
 
 ##### 打开 Codex App
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-041-2ec5f4e518.png" alt="Codex App中插件页面" width="860">
+  <img src="/mirror/a9/a909946248e62470cca416737b9440db2c000bb3.png" alt="Codex App中插件页面" width="860">
 
 ##### 搜索或浏览插件
 
 也可以搜索对应的插件
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-042-c93789737a.png" alt="Codex App中插件页面" width="860">
+  <img src="/mirror/c9/c99280cd158c17e17763209437a00c090144d871.png" alt="Codex App中插件页面" width="860">
 
 ##### 点开插件详情
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-043-b5ddc23cd8.png" alt="Codex App中GitHub插件的详情页面" width="860">
+  <img src="/mirror/60/60aabba53606e64de3341dec6ce6a84fa05cbe61.png" alt="Codex App中GitHub插件的详情页面" width="860">
 
 ##### 点击 Add to Codex 或添加按钮
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-044-d06ab5db7e.png" alt="在Codex App中插件详情页面的界面" width="860">
+  <img src="/mirror/05/05d30710472df091e8bb75f151572144adef41db.png" alt="在Codex App中插件详情页面的界面" width="860">
 
 ##### 安装完成后，新开一个 thread 使用
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-045-053d643836.png" alt="Codex App中“hello - Codex”项目页面" width="860">
+  <img src="/mirror/e2/e2e6a474f151dd22469e4257fbee4f96ac656fad.png" alt="Codex App中“hello - Codex”项目页面" width="860">
 
 #### 在 Codex CLI 里怎么安装插件
 
@@ -3942,7 +3942,7 @@ Codex 最终要交付什么结果。
 
 在插件里面的技能可以看到系统推荐的一些Skill
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-046-d0b772835b.png" alt="Codex App中技能相关界面" width="860">
+  <img src="/mirror/70/709a9d2fdac1dfd8657ac6dc636c87b7637d7068.png" alt="Codex App中技能相关界面" width="860">
 
 ##### 创建自己的 Skill
 
@@ -4374,7 +4374,7 @@ MCP Server = Codex 可以调用的外部工具服务。
 | 7 | 回到项目 thread | 在任务里调用 MCP |
 | 8 | 查看结果和权限请求 | 确认 Codex 调用了什么工具 |
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-047-afc2022a08.png" alt="Codex App中MCP Server的设置界面" width="860">
+  <img src="/mirror/1c/1c34b384e5796227c09077d7756d970e0fac1af3.png" alt="Codex App中MCP Server的设置界面" width="860">
 
 ##### 添加 MCP 时通常需要填什么
 
@@ -4387,7 +4387,7 @@ MCP Server = Codex 可以调用的外部工具服务。
 | Auth | 授权方式 | 是否需要登录外部账号 |
 | Enabled tools | 启用哪些工具 | 只打开需要的功能 |
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-048-d6664c35fe.png" alt="Codex App中添加MCP时的设置界面" width="860">
+  <img src="/mirror/0a/0a4041432af302dc941b58875ad834c0b02590ea.png" alt="Codex App中添加MCP时的设置界面" width="860">
 
 ##### 添加 MCP 后怎么使用
 
@@ -5504,13 +5504,13 @@ Sites 在公开测试期间包含一定的计划额度，但不同计划的上�
 
 Codex 会先给出网页构建计划。
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/chatgpt-sites-01.png" alt="Codex 根据 Sites 需求生成网页构建计划" width="860">
+  <img src="/mirror/4b/4b77a4719cbc8f2bab7e33c178e61ba28f3fca76.png" alt="Codex 根据 Sites 需求生成网页构建计划" width="860">
 
 ###### Sites 输出参考图
 
 Sites 会直接输出每一页的参考图
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/chatgpt-sites-02.png" alt="Sites 输出页面参考图" width="860">
+  <img src="/mirror/97/97514cd340ef9d28af6eaf3f5fd1b849e882d68f.png" alt="Sites 输出页面参考图" width="860">
 
 ##### 第三步：先生成预览
 
@@ -5518,11 +5518,11 @@ Sites 会直接输出每一页的参考图
 
 这时可以进入预览，检查网站的整体效果。
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/chatgpt-sites-03.png" alt="Sites 生成受限访问的预览版本" width="860">
+  <img src="/mirror/08/08f8820633735398621c59598bf14e6a16beba40.png" alt="Sites 生成受限访问的预览版本" width="860">
 
 如果预览链接无法打开，先检查网络、登录状态、账号计划和工作区权限，不要直接把问题归因于站点生成失败。
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/chatgpt-sites-04.png" alt="Sites 预览链接和访问状态示例" width="860">
+  <img src="/mirror/e9/e9b89074e39b37df4bbc94feff05c09d8df0dfca.png" alt="Sites 预览链接和访问状态示例" width="860">
 
 ##### 第四步：逐项检查
 
@@ -5690,13 +5690,13 @@ Codex 负责帮你完成具体编程任务。
 
 ##### 在 Codex 对话框中输入：把项目初始化成一个 Git 工程，并排除不需要的文件
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-049-1201459d2a.png" alt="在Codex中使用Git的界面" width="860">
+  <img src="/mirror/5d/5d3d649d47bce836aab73d64c2feaaef5cb7df3e.png" alt="在Codex中使用Git的界面" width="860">
 
 ---
 
 ##### Codex 会帮我们直接写好 .gitignore 文件
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-050-c05fba79fd.png" alt="在Codex中使用Git的界面" width="860">
+  <img src="/mirror/b3/b32718f8085b27077b336dcc5eb9ce6d83a8d84c.png" alt="在Codex中使用Git的界面" width="860">
 
 #### 如何在 Codex 中使用 GitHub
 
@@ -5722,15 +5722,15 @@ Codex 负责帮你完成具体编程任务。
 
 ###### 创建 GitHub 仓库
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-051-7fe82d6fc2.png" alt="GitHub创建仓库页面" width="860">
+  <img src="/mirror/98/98bd938df7bf9ce01fbbcfc62b86019d75e03b7d.png" alt="GitHub创建仓库页面" width="860">
 
 ###### 复制仓库地址
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-052-d903af3360.png" alt="在GitHub上创建仓库时复制仓库地址的操作界面" width="860">
+  <img src="/mirror/c4/c4574b1601a9dde2c36b3b0e10d215ed98bc5a79.png" alt="在GitHub上创建仓库时复制仓库地址的操作界面" width="860">
 
 ###### 将地址复制给 Codex
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-053-1cdc6096db.png" alt="Codex平台中“做一个首页”项目的页面" width="860">
+  <img src="/mirror/81/819e6a52cb250f8abaadb2acbecbab63d03cdac4.png" alt="Codex平台中“做一个首页”项目的页面" width="860">
 
 ###### 推送到 GitHub
 
@@ -5740,29 +5740,29 @@ Codex 负责帮你完成具体编程任务。
 
 先让 AI 修改一下代码
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-054-220c086985.png" alt="Codex平台中“做一个首页”项目的界面" width="860">
+  <img src="/mirror/38/38b0134d0526d885e6f31a54ccfa836b53fbe11d.png" alt="Codex平台中“做一个首页”项目的界面" width="860">
 
 ##### 提交到 Git，保存好当前版本
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-055-05e59b1fdc.png" alt="Codex平台中使用Git进行代码管理的操作界面" width="860">
+  <img src="/mirror/9d/9db2bb2e50ad83b48771a1b5620294c7fd7c8e34.png" alt="Codex平台中使用Git进行代码管理的操作界面" width="860">
 
 ##### 继续修改代码
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-056-ea768961ca.png" alt="在Codex中使用Git的代码回滚操作界面" width="860">
+  <img src="/mirror/59/59947bad65d4b6be03e4d1ef76ddb65b7dda9929.png" alt="在Codex中使用Git的代码回滚操作界面" width="860">
 
 ##### 打开 IDE 查看代码并且回退代码
 
 先打开 IDE 查看代码
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-057-f9516b1833.png" alt="在Codex中使用Git的界面" width="860">
+  <img src="/mirror/47/47f9b726cf1cde3a4bbb08f9372ecc4e9fb6045c.png" alt="在Codex中使用Git的界面" width="860">
 
 ##### 复制版本号
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-058-72172c5bd0.png" alt="在VS Code中使用Codex进行代码回滚的操作界面" width="860">
+  <img src="/mirror/37/376250f9cad3d4922540728316fc7319f5fe8a3a.png" alt="在VS Code中使用Codex进行代码回滚的操作界面" width="860">
 
 ##### 复制给 Codex，让它回退代码到指定版本
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-059-9cdba830ef.png" alt="在Codex中使用Git进行代码回滚的操作界面" width="860">
+  <img src="/mirror/20/207108975b2f2d7c3aa9a64665824fca03a18db7.png" alt="在Codex中使用Git进行代码回滚的操作界面" width="860">
 
 #### Git Worktree
 
@@ -5787,19 +5787,19 @@ Worktree 的好处是：
 
 ##### 创建 Worktree
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-060-1e3fd3edad.png" alt="Codex移动版界面中“hello - Codex”项目的操作菜单" width="860">
+  <img src="/mirror/6f/6fb6d00e3a953b63c66cfcea8403ce4efabad477.png" alt="Codex移动版界面中“hello - Codex”项目的操作菜单" width="860">
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-061-1e67e75a88.png" alt="Codex平台界面，左侧为项目列表，其中“hello - codex_2”项目被红色框突出显示" width="860">
+  <img src="/mirror/08/08cfd701bf4f80c50d7e59bbc94736598d0d536a.png" alt="Codex平台界面，左侧为项目列表，其中“hello - codex_2”项目被红色框突出显示" width="860">
 
 ##### 使用分支进行任务
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-062-677190e8ff.png" alt="Gitpod界面中“hello - codex_2”分支的代码编辑区域" width="860">
+  <img src="/mirror/09/09b555a2b77eea42d580bcd61b856c9ee911b8ce.png" alt="Gitpod界面中“hello - codex_2”分支的代码编辑区域" width="860">
 
 ##### 合并回主干
 
 检查效果满意后，就可以合并回主干，并把这个分支删除。
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-063-8c0f374e82.png" alt="在GitHub上使用Worktree进行代码管理的操作界面" width="860">
+  <img src="/mirror/b8/b8f78478e5b0c732cfc5c6485cb8895b6d861f6f.png" alt="在GitHub上使用Worktree进行代码管理的操作界面" width="860">
 
 ### 云端运行
 
@@ -5849,31 +5849,31 @@ Codex 云端运行，本质上是：
 
 ##### 推送代码到GitHub上面
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-064-c6cc5dc4d9.png" alt="在GitHub上推送代码到仓库的操作界面" width="860">
+  <img src="/mirror/f1/f19392107db67f1be1b0b77cf43a3b6efe69ae29.png" alt="在GitHub上推送代码到仓库的操作界面" width="860">
 
 ##### 打开Codex Web
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-065-7be7472fae.png" alt="Codex操作界面，在界面某处的下拉菜单中，“打开Codex web”选项被红色框线突出显示" width="860">
+  <img src="/mirror/07/071557dccf5bbf0b9d30aa636a0ff305c3dc69eb.png" alt="Codex操作界面，在界面某处的下拉菜单中，“打开Codex web”选项被红色框线突出显示" width="860">
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-066-e3aead10bc.png" alt="Codex云端界面" width="860">
+  <img src="/mirror/b8/b8b11485633f44725de565632549921a84a9cec2.png" alt="Codex云端界面" width="860">
 
 ##### 选择我们要修改的仓库
 
 选择好过后直接让Codex给我们工作就行了
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-067-e4aba35bff.png" alt="Codex云端运行操作步骤中选择我们要修改的仓库界面" width="860">
+  <img src="/mirror/a3/a369d0c103c11aa88525b7013875170630d3d2b7.png" alt="Codex云端运行操作步骤中选择我们要修改的仓库界面" width="860">
 
 ##### 修改完成后上传到 GitHub 仓库
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-068-81826d70e0.png" alt="Codex云端运行操作步骤中修改完成后上传到GitHub仓库的界面" width="860">
+  <img src="/mirror/4d/4d80391719209607428c1b987c58c28333921b02.png" alt="Codex云端运行操作步骤中修改完成后上传到GitHub仓库的界面" width="860">
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-069-cfd1040092.png" alt="一个GitHub仓库页面，显示了用户Vink567在“Polish landing page design #2”仓库的代码提交记录" width="860">
+  <img src="/mirror/6c/6ce44298b8dd11e733285f290676a1c7b8e5ebb5.png" alt="一个GitHub仓库页面，显示了用户Vink567在“Polish landing page design #2”仓库的代码提交记录" width="860">
 
 ##### 本地修改前先同步 GitHub 仓库里的最新代码
 
 如果云端任务已经把修改推回 GitHub，本地继续开发前要先同步最新代码，避免在旧版本上继续修改导致冲突。具体是 Codex 自动帮你应用变更，还是你手动 `git pull` / `codex apply`，取决于当前入口和任务类型。
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-070-548c4bfced.png" alt="Codex云端运行操作界面" width="860">
+  <img src="/mirror/33/33600e37b49d1d1710e0a388900b765333162b7e.png" alt="Codex云端运行操作界面" width="860">
 
 ### 记忆系统
 
@@ -5988,7 +5988,7 @@ Codex 云端运行，本质上是：
 
 ##### 打开Codex的设置，找到个性化
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-071-c36b13b759.png" alt="Codex的个性化设置界面" width="860">
+  <img src="/mirror/eb/eb02c3ddb7f108f49e773e3c6f0d7451c12302d1.png" alt="Codex的个性化设置界面" width="860">
 
 ##### 输入指令，这里的指令会作为你的个人通用偏好影响后续 Codex 会话
 
@@ -6016,11 +6016,11 @@ Remove-Item "C:\path\to\file.txt"
 
 #### Codex记忆的最佳使用方法
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/codex-memory-best-practices-01.jpg" alt="Codex记忆的最佳使用方法封面图" width="860">
+  <img src="/mirror/7c/7cd48ff0442e6cd8d567245a8f06d09632b04214.jpg" alt="Codex记忆的最佳使用方法封面图" width="860">
 
 很多人用 Codex 最大的问题，不是不会提问。
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/codex-memory-best-practices-02.jpg" alt="很多人用Codex不是不会提问" width="860">
+  <img src="/mirror/e6/e6ac606e1f631e7a2499e3ed99696d59824dec93.jpg" alt="很多人用Codex不是不会提问" width="860">
 
 而是每次都从零开始交代：
 
@@ -6036,7 +6036,7 @@ Remove-Item "C:\path\to\file.txt"
 
 先看一张总表：
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/codex-memory-best-practices-03.jpg" alt="Codex记忆系统应该放在哪里的总结图" width="860">
+  <img src="/mirror/31/3148ee8b6f2acbb1196f58c467fad2a863906ed7.jpg" alt="Codex记忆系统应该放在哪里的总结图" width="860">
 
 | 你想让 Codex 记住什么 | 推荐放哪里 | 不建议放哪里 | 原因 |
 | --- | --- | --- | --- |
@@ -6053,7 +6053,7 @@ Remove-Item "C:\path\to\file.txt"
 
 比如：
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/codex-memory-best-practices-04.png" alt="当前会话适合放本次任务要求的示例图" width="860">
+  <img src="/mirror/c2/c23935a6b2d616fc77b560ef0ee5eddc9b5902ce.png" alt="当前会话适合放本次任务要求的示例图" width="860">
 
 > “这次网页背景改成蓝白色调”
 > “在网页右上角加一个登录按钮”
@@ -6082,7 +6082,7 @@ Memories 适合保存那些跨会话、跨项目也经常有用的信息。
 
 操作步骤：
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/codex-memory-best-practices-05.jpg" alt="Codex设置里开启Memories的界面" width="860">
+  <img src="/mirror/22/22b99a158fe8420c9e01545c6f429855f1ef7b4e.jpg" alt="Codex设置里开启Memories的界面" width="860">
 
 1. 在 Codex 设置里开启 Memories。
 2. 用几次真实任务让 Codex 形成稳定偏好。
@@ -6092,7 +6092,7 @@ Memories 适合保存那些跨会话、跨项目也经常有用的信息。
 ~/.codex/memories/
 ```
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/codex-memory-best-practices-06.jpg" alt="Codex memories目录文件示例" width="860">
+  <img src="/mirror/f3/f399cf1c2d0b6c9a3b9c276bc19b6fe6694d09ad.jpg" alt="Codex memories目录文件示例" width="860">
 
 常见文件和目录大致可以这样理解：
 
@@ -6133,7 +6133,7 @@ AGENTS.md 是我最推荐新手先用的一层。
 
 操作步骤：
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/codex-memory-best-practices-07.jpg" alt="Codex个性化设置写入全局AGENTS规则" width="860">
+  <img src="/mirror/de/de929fe993a312b894ac8ba7616c9cd86fab169b.jpg" alt="Codex个性化设置写入全局AGENTS规则" width="860">
 
 1. 直接在 Codex 设置里的个性化区域写入规则。
 2. 只写几条最重要、最稳定的规则。
@@ -6155,7 +6155,7 @@ AGENTS.md 是我最推荐新手先用的一层。
 
 操作步骤：
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/codex-memory-best-practices-08.png" alt="在项目根目录创建AGENTS文件" width="860">
+  <img src="/mirror/8a/8a72364ea7d868e1d9520e61f1031e4fc4a3e8e2.png" alt="在项目根目录创建AGENTS文件" width="860">
 
 1. 在对应项目文件夹根目录里创建 AGENTS.md。
 2. 只写这个项目必须遵循的规则。
@@ -6260,7 +6260,7 @@ Skill 可以包含 SKILL.md、参考文件、脚本和资源；它适合那些�
 | Automations | 定时提醒和监控 | 定期复盘、跟进、巡检、监控 |
 | MCP / Connector | 实时资料入口 | Slack、GitHub、Docs 等会变化的外部信息 |
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/codex-memory-best-practices-09.jpg" alt="Codex记忆系统各层级总结图" width="860">
+  <img src="/mirror/3b/3bb535c2c860f1fcbbe030cc76617110bf70317d.jpg" alt="Codex记忆系统各层级总结图" width="860">
 
 最后补充一句：
 
@@ -6384,9 +6384,9 @@ Chrome 扩展适合处理必须使用现有登录状态的网页。对于本地�
 
 ChatGPT 内置浏览器设置中还提供 URL 打开方式、密码管理和从 Chrome 导入数据等选项。它与安装 Chrome 扩展不是同一件事，也不是使用 Chrome 插件的前置条件。
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/chatgpt-chrome-01.png" alt="ChatGPT 桌面应用中的浏览器设置" width="860">
+  <img src="/mirror/d4/d46fa6cec3e35b76a13302ee181aeb82709d12f3.png" alt="ChatGPT 桌面应用中的浏览器设置" width="860">
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/chatgpt-chrome-02.png" alt="从 Chrome 向 ChatGPT 内置浏览器导入数据的可选设置" width="860">
+  <img src="/mirror/de/de397ab8174ec100b6dad92f46ea348829f0643a.png" alt="从 Chrome 向 ChatGPT 内置浏览器导入数据的可选设置" width="860">
 
 导入密码和 Cookie 会扩大 ChatGPT 内置浏览器可访问的敏感信息范围。只在确有需要、理解系统授权提示并愿意承担相应风险时启用；如果只是让 ChatGPT 操作当前 Chrome 登录会话，应按上面的插件流程安装 Chrome 扩展，并逐站点授权。
 
@@ -7514,65 +7514,65 @@ PR 的作用不是“走形式”，而是让别人快速知道：
 
 选择好创建的文件夹
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-072-0bacd62ef7.png" alt="Codex移动版界面，左侧为导航栏，有搜索、插件、项目等选项" width="860">
+  <img src="/mirror/58/58049c18b14f4b62e2e9278eaaa8a588c340c60f.png" alt="Codex移动版界面，左侧为导航栏，有搜索、插件、项目等选项" width="860">
 
 #### 开启计划模式
 
 生成初步项目计划，检查没问题后直接执行
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-073-6b92e44e73.png" alt="一个宠物零食售卖网站的项目计划界面" width="860">
+  <img src="/mirror/91/91bd770f4fe82dc12be78b68fbd7e3834400334a.png" alt="一个宠物零食售卖网站的项目计划界面" width="860">
 
 #### 打开 index.html 文件进行预览
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-074-a7b21a59b4.png" alt="在本地打开index.html文件进行预览的界面" width="860">
+  <img src="/mirror/df/dfab68b18b4c0531e0521937f1cfc39d77f364f2.png" alt="在本地打开index.html文件进行预览的界面" width="860">
 
 #### 创建 Git 仓库
 
 创建 Git仓库进行代码管理，方便后续的更新和维护
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-075-a3afbcdfdc.png" alt="在本地创建的“Pet treats”文件夹中，使用Codex生成的初步项目计划" width="860">
+  <img src="/mirror/e5/e56cee39c7e260fc228d8d9db2eccb0938cf455f.png" alt="在本地创建的“Pet treats”文件夹中，使用Codex生成的初步项目计划" width="860">
 
 #### 优化细节更改
 
 直接使用注释在页面进行细节修改
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-076-be7cedd51b.png" alt="一个宠物零食售卖前端页面网站中的一款商品“草本洁齿咀嚼棒”" width="860">
+  <img src="/mirror/dd/dd8ae41288801e4562e4ceb9a408f8e9e56ea300.png" alt="一个宠物零食售卖前端页面网站中的一款商品“草本洁齿咀嚼棒”" width="860">
 
 增加月销量
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-077-304ae941c4.png" alt="在GitHub上对“制作宠物零食售卖网站”项目的操作界面" width="860">
+  <img src="/mirror/ea/eac5b6b484239c21eb1dc2eeafd9b879b2764284.png" alt="在GitHub上对“制作宠物零食售卖网站”项目的操作界面" width="860">
 
 #### 新增功能
 
 新增热销榜
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-078-f63e9b6ad0.png" alt="一个宠物零食售卖前端页面网站的热销榜页面" width="860">
+  <img src="/mirror/e8/e84841252ad25695b0be86cebdc7acb2816c7642.png" alt="一个宠物零食售卖前端页面网站的热销榜页面" width="860">
 
 #### 推送更新的代码
 
 检查没有任何问题过后推送更新的代码
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-079-d84ddc95b2.png" alt="在GitHub上对“Pet treats”仓库代码进行推送更新的操作界面" width="860">
+  <img src="/mirror/30/30ccd69a5707acb0a0c72578aa8ed0fed17a04c5.png" alt="在GitHub上对“Pet treats”仓库代码进行推送更新的操作界面" width="860">
 
 #### 上传到 GitHub 仓库
 
 ##### 新建一个仓库
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-080-a53306a9a0.png" alt="Codex平台的界面，左侧为项目列表，右侧是项目详情区域" width="860">
+  <img src="/mirror/8d/8de4ae8fa81ac1f1f0994e41749e91b9fc61ec89.png" alt="Codex平台的界面，左侧为项目列表，右侧是项目详情区域" width="860">
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-081-f3937d9863.png" alt="GitHub新建仓库页面" width="860">
+  <img src="/mirror/49/49350c5a49cde3c8aa3a4e50970d20912345017c.png" alt="GitHub新建仓库页面" width="860">
 
 ---
 
 ##### 复制对应仓库链接
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-082-f8ae50f1eb.png" alt="GitHub仓库创建页面中“快速安装”部分的内容" width="860">
+  <img src="/mirror/3b/3b4c05fd82b26013b708b4453eaa02cd8a74aa40.png" alt="GitHub仓库创建页面中“快速安装”部分的内容" width="860">
 
 ##### 让 Codex 将代码上传到 GitHub 仓库
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-083-384188bf14.png" alt="在GitHub上上传代码后的信息界面" width="860">
+  <img src="/mirror/6b/6b3e388e44aefbbb56c4b996b71be4d71c5e9f61.png" alt="在GitHub上上传代码后的信息界面" width="860">
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-084-2a3160a6c5.png" alt="Codex平台的仓库页面" width="860">
+  <img src="/mirror/17/17e57a6c52f95edb1f826323bfe8e434fa0b0dff.png" alt="Codex平台的仓库页面" width="860">
 
 ##### 通过GitHub Pages 发布网页，让其他人也能访问到
 
@@ -7580,13 +7580,13 @@ PR 的作用不是“走形式”，而是让别人快速知道：
 
 等待几分钟
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-085-69a3904d44.png" alt="GitHub Pages的相关设置界面" width="860">
+  <img src="/mirror/60/602d3dc0cca769e9f662bff526c7421ae52af50c.png" alt="GitHub Pages的相关设置界面" width="860">
 
 等待几分钟，就会出现一条链接。这个链接可以让别人访问到你的网页。
 
 需要注意的是，GitHub Pages 适合托管静态网站，比如 HTML、CSS、JavaScript 和静态资源；它不适合运行需要后端服务器、数据库或敏感交易的业务逻辑。
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-086-35204e4da7.png" alt="GitHub Pages的相关设置界面" width="860">
+  <img src="/mirror/dd/dd78620d00039ff21f2ae4e035685c3924ecf0a6.png" alt="GitHub Pages的相关设置界面" width="860">
 
 ##### 打开网页查看做好的项目
 
@@ -7594,7 +7594,7 @@ PR 的作用不是“走形式”，而是让别人快速知道：
 
 https://vink567.github.io/Pet-treats/
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-087-8dd476dd7d.png" alt="在浏览器中打开的“Pet treats”网页" width="860">
+  <img src="/mirror/88/887a986d9a78f1b5be804b755f816c86e1420551.png" alt="在浏览器中打开的“Pet treats”网页" width="860">
 
 ### 实战案例二：给宠物零食网站增加功能和优化页面
 
@@ -7602,43 +7602,43 @@ https://vink567.github.io/Pet-treats/
 
 用户购买的时候需要填写自己的地址信息，这个时候就需要一个个人的登录账号来保存这些信息了
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-088-0b885ab356.png" alt="宠物零食管理系统的登录页面" width="860">
+  <img src="/mirror/b5/b5648c6d32cc5452651076b6c4b91911d1bea98a.png" alt="宠物零食管理系统的登录页面" width="860">
 
 #### 创建不同宠物分类，并在宠物分类下进行食品分类
 
 依旧先用计划模式，看看AI是否理解了你的需求
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-089-50ed4b17e0.png" alt="宠物零食网站的页面及后台内容" width="860">
+  <img src="/mirror/19/19a183aff341545105f3b9f59b182b8ea58d6758.png" alt="宠物零食网站的页面及后台内容" width="860">
 
 #### 使用注释功能优化细节
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-090-cba5ddc255.png" alt="宠物零食网站的页面及后台管理界面" width="860">
+  <img src="/mirror/df/df466b1c5b1add9e20ce50c4af2607531e07948a.png" alt="宠物零食网站的页面及后台管理界面" width="860">
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-091-4d7f53636d.png" alt="宠物零食管理后台的界面" width="860">
+  <img src="/mirror/7d/7d7579b3e9a249ca7819e0be29a591aafeca9890.png" alt="宠物零食管理后台的界面" width="860">
 
 #### 选择食品加入购物车后，点击购买时候需要提示确认地址
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-092-4f51572ac5.png" alt="宠物零食管理系统的界面" width="860">
+  <img src="/mirror/b7/b7071ff635c3433f9c6e0d1eb78d78dbb9b194f6.png" alt="宠物零食管理系统的界面" width="860">
 
 #### 提交到 Git 保存代码
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-093-40116a6ce8.png" alt="宠物零食网站的管理后台界面" width="860">
+  <img src="/mirror/a8/a8eb4e2c2d405f0fb297a6efe93a10fb027f4a18.png" alt="宠物零食网站的管理后台界面" width="860">
 
 ### 实战案例三：制作宠物零食的管理后台
 
 #### 依旧先使用计划模式
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-094-7ca371c03b.png" alt="宠物零食网站的管理后台界面" width="860">
+  <img src="/mirror/d9/d950162a12906f4cc839b06ea1000f830ab01ae8.png" alt="宠物零食网站的管理后台界面" width="860">
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-095-e441e7e74f.png" alt="宠物零食管理后台计划的相关内容" width="860">
+  <img src="/mirror/08/083ac549e71fd3fdec2da2e92d09c58f193e6722.png" alt="宠物零食管理后台计划的相关内容" width="860">
 
 #### 检查效果
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-096-cfd9668315.png" alt="宠物零食管理售卖网站的界面" width="860">
+  <img src="/mirror/81/81e194380bcd3ec844a83f8ab9be55a967c260cb.png" alt="宠物零食管理售卖网站的界面" width="860">
 
 #### 提交到 Git 保存代码
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-097-2f5c85338e.png" alt="宠物零食管理后台的界面" width="860">
+  <img src="/mirror/cd/cd5c1c3b896c67cec59269c924fdd6661710f435.png" alt="宠物零食管理后台的界面" width="860">
 
 ### 实战案例四：制作宠物零食品牌招商 PPT
 
@@ -7646,11 +7646,11 @@ https://vink567.github.io/Pet-treats/
 
 这里我安装的是我之前测评过的一个 PPT Skill，直接把 GitHub 上对应的 Skill 地址发给 Codex 让它安装就行了
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-098-7d022cbe9f.png" alt="Codex平台界面，左侧为项目列表，当前选中“Pet treats - 制作宠物零食销售网站”项目" width="860">
+  <img src="/mirror/e5/e59d119ed2f41223fa3ef371d6f8cd48fc5ef782.png" alt="Codex平台界面，左侧为项目列表，当前选中“Pet treats - 制作宠物零食销售网站”项目" width="860">
 
 #### 使用「/」选择对应的 Skill
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-099-b578e0a79f.png" alt="Codex平台中安装PPT Skill的界面" width="860">
+  <img src="/mirror/01/01971a12e27a300526c0078c7249905c3be83a83.png" alt="Codex平台中安装PPT Skill的界面" width="860">
 
 #### 检查最终的结果
 
@@ -7658,7 +7658,7 @@ Codex 最终生成了一份完整的招商 PPT。成品已上传到云端，点�
 
 [⬇ 下载招商 PPT](https://r2notes.bozhouai.com/images/codex-orange-book/pet-treats-investment-deck.pptx)
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-100-15528eaa6b.png" alt="Codex 生成的宠物零食品牌招商 PPT 预览界面" width="860">
+  <img src="/mirror/dc/dc37f0446518d649baeeb5d620fbadfea12b9a6b.png" alt="Codex 生成的宠物零食品牌招商 PPT 预览界面" width="860">
 
 ### 实战案例五：制作宠物零食宣传视频
 
@@ -7666,13 +7666,13 @@ Codex 最终生成了一份完整的招商 PPT。成品已上传到云端，点�
 
 这里使用的是 HyperFrames 这个插件
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-101-189755e043.png" alt="HyperFrames by HeyGen的界面" width="860">
+  <img src="/mirror/5d/5dcfa16de452cc9987de2f68e1d9af4c9a4d5175.png" alt="HyperFrames by HeyGen的界面" width="860">
 
 ---
 
 #### 计划生成视频
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-102-ee81b66845.png" alt="一个文档界面，标题为“重做《炭禾小食》BGM 版电影级生产过程宣传片”" width="860">
+  <img src="/mirror/2e/2e7223e9315f518cffd994cce9f2e55a5f33f0b0.png" alt="一个文档界面，标题为“重做《炭禾小食》BGM 版电影级生产过程宣传片”" width="860">
 
 #### 效果预览
 
@@ -7711,7 +7711,7 @@ Codex 最终生成了一份完整的招商 PPT。成品已上传到云端，点�
 
 点击下载后会跳转到对应的下载页面，往下滑找到对应的版本点击下载即可
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-103-fc95eb3d01.png" alt="CC Switch官网的下载页面" width="860">
+  <img src="/mirror/f0/f0b7c60063c9d4b48ebc9eb75b534db15d60db52.png" alt="CC Switch官网的下载页面" width="860">
 
 #### 接入三方模型
 
@@ -7719,33 +7719,33 @@ Codex 最终生成了一份完整的招商 PPT。成品已上传到云端，点�
 
 ###### 首先找到 DeepSeek 的官网，创建 api key
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-104-1b85927ab4.png" alt="文档配图" width="860">
+  <img src="/mirror/72/727476fc9710d8a5d88cb51d8627a46994c020a2.png" alt="文档配图" width="860">
 
 ###### 打开 cc switch
 
 点击添加模型
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-105-2a61cce466.png" alt="CC Switch的界面" width="860">
+  <img src="/mirror/e9/e9276243565c32d2e32a5a4fedb35e6ca75b66be.png" alt="CC Switch的界面" width="860">
 
 将刚刚创建的 API key 复制到这里来
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-106-450fdb2138.png" alt="CC Switch中添加新供应商界面" width="860">
+  <img src="/mirror/76/767b0e4fa99c7acf21cec1455437267872146204.png" alt="CC Switch中添加新供应商界面" width="860">
 
 开启本地路由映射
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-107-8f8a2b6a76.png" alt="接入三方模型时在CC Switch中添加模型的设置界面" width="860">
+  <img src="/mirror/92/926246b72a80fcdd882e88439ae95006648a4c02.png" alt="接入三方模型时在CC Switch中添加模型的设置界面" width="860">
 
 然后点击添加
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-108-9fe0f0d229.png" alt="CC Switch添加新供应商界面" width="860">
+  <img src="/mirror/0c/0c494c41f3e64e11958fea89a02a1f2538aab1ab.png" alt="CC Switch添加新供应商界面" width="860">
 
 进入设置，将路由全部打开
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-109-f7edb52f37.png" alt="CC Switch设置中的路由页面" width="860">
+  <img src="/mirror/0e/0e29fb7c4e61d5a894251df5171d1aad41995835.png" alt="CC Switch设置中的路由页面" width="860">
 
 点击启用
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/bozhouDev/codex-orange-book/6c72add96c319507da65f963abfd9618d0c9ea0f/assets/images/image-110-19ea6cfbfd.png" alt="CC Switch的界面，其中“DeepSeek”模型被选中，其右侧有“启用”按钮，该按钮被红色框突出显示" width="860">
+  <img src="/mirror/19/19b1129b65ef2f711471a25c9d079d5ae225408e.png" alt="CC Switch的界面，其中“DeepSeek”模型被选中，其右侧有“启用”按钮，该按钮被红色框突出显示" width="860">
 
 如果 CC Switch 的路由、模型服务和 Codex 侧配置都兼容，这时再打开 Codex，就有可能通过这套非官方路由使用 DeepSeek 等第三方模型。
 

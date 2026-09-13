@@ -14,8 +14,8 @@ zh: ""
 
 # OpenAI Cookbook
 
-<source media="(prefers-color-scheme: dark)" srcset="https://gh-proxy.com/https://raw.githubusercontent.com/openai/openai-cookbook/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/images/openai-cookbook-white.png" style="max-width: 100%; width: 400px; margin-bottom: 20px">
-    <img alt="OpenAI Cookbook Logo" src="https://gh-proxy.com/https://raw.githubusercontent.com/openai/openai-cookbook/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/images/openai-cookbook.png" width="400px">
+<source media="(prefers-color-scheme: dark)" srcset="/mirror/c8/c82e03e751695da8e8941414ad304d52fa74f693.png" style="max-width: 100%; width: 400px; margin-bottom: 20px">
+    <img alt="OpenAI Cookbook Logo" src="/mirror/92/9203d0cccc385b0e55518c14daffa52caadee43f.png" width="400px">
 
 <h3></h3>
  

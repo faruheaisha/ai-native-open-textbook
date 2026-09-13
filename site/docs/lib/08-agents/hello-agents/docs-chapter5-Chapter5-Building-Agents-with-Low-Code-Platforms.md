@@ -72,22 +72,22 @@ Coze is a super cool AI agent creation tool! It is also currently the most widel
 
 Overall layout introduction: Recently, Coze has updated its UI interface again, as shown in Figure 5.1. Now the leftmost sidebar is the development workspace of the Coze platform homepage, including core project development, resource library, effect evaluation, and space configuration. The area below is the supporting material space for Coze development, including official templates for one-click copying, Coze's biggest advantage - a rich and diverse plugin store, the largest agent community with a dazzling array, API management for API testing, as well as detailed tutorial documentation and general management for enterprises. On the right side, there are four templates. At the top is Coze's latest update announcement, telling you about Coze's latest progress so you can learn about the latest tools and features. Below that is the beginner tutorial. Click on it and you'll find the beginner tutorial documentation, and you can start building agents in minutes. Next are your follows and agent recommendations. Here you can also follow your favorite AI developers and bookmark their agents for your own use.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/coze-01.png" alt="Image description" width="90%"/>
+  <img src="/mirror/d0/d082291a6dfd785cc8ceb1798c2c5df1e47d6fc4.png" alt="Image description" width="90%"/>
   <p>Figure 5.1 Overall Schematic of Coze Agent Platform</p>
 
 (2) Core Function Introduction
 
 First, we click the plus sign on the left sidebar to see the entry point for creating agents. Currently, there are two types of AI applications: one is to create agents, and the other is called applications. Among them, agents are divided into single-agent autonomous planning mode, single-agent dialogue flow mode, and multi-agent mode. AI applications are also divided into two types: not only can you design user interfaces for desktop and web, but you can also easily build interfaces for mini-programs and H5, as shown in Figure 5.2.
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/coze-02.png" alt="Image description" width="90%"/>
+  <img src="/mirror/bd/bd15ecb2799d4c24066a961a6a953b38b0263c2b.png" alt="Image description" width="90%"/>
   <p>Figure 5.2 Coze Agent Creation Entry</p>
 The project space is your agent repository, where all the agents or applications you have developed or copied are stored. It is also the place you will visit most often when developing agents in Coze, as shown in Figure 5.3.
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/coze-03.png" alt="Image description" width="90%"/>
+  <img src="/mirror/5d/5d8e2516162b12e3ac5f10340c44e6086c38577d.png" alt="Image description" width="90%"/>
   <p>Figure 5.3 Coze Agent Project Space</p>
 The resource library is your core arsenal for developing Coze agents. The resource library stores your workflows, knowledge bases, cards, prompt libraries, and a series of other tools for developing agents. What kind of agent you can make depends first on the model's capabilities, but most importantly, it depends on how you equip the agent with "equipment and skills." The model determines the lower limit of the agent, but the Coze resource library gives you infinite upper limits for the agent's capabilities, allowing you to develop according to your own ideas, imagination, and creativity, as shown in Figure 5.4.
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/coze-04.png" alt="Image description" width="90%"/>
+  <img src="/mirror/5f/5f21575cb205843e9c2042891611eb86c0653930.png" alt="Image description" width="90%"/>
   <p>Figure 5.4 Coze Agent Resource Library</p>
 Space configuration includes a unified management channel for agents, plugins, workflows, and publishing channels, as well as model management where you can see the various large models you call, as shown in Figure 5.5.
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/coze-05.png" alt="Image description" width="90%"/>
+  <img src="/mirror/7e/7eb1c8abdfaf445c3f5a3d183cd8c0c1e8f8dfdc.png" alt="Image description" width="90%"/>
   <p>Figure 5.5 Coze Agent Publishing Channels</p>
 If I were to make a simple summary of Coze's agent development, I would compare it to the various components of a game. The combination of each part to create wonderful agents is very much like playing a "game." Every time you complete an agent, it's like defeating a boss and gaining a lot, whether it's "experience" or "equipment."
 
@@ -123,11 +123,11 @@ The primary task of building a "Daily AI Brief" agent is to connect it to rich a
 
 1.  **Plugin Integration:** In Coze's plugin library, search for and add the required plugins. For example, subscribe to RSS feeds from media platforms through the **RSS** plugin (as shown in Figure 5.6), track open-source projects through the **GitHub** plugin (as shown in Figure 5.7), and obtain the latest academic research results through the **arXiv** plugin (as shown in Figure 5.8).
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/coze-06.png" alt="Image description" width="90%"/>
+  <img src="/mirror/b1/b15853d778dff60f3927a0c55e860c22e7c6ec0a.png" alt="Image description" width="90%"/>
   <p>Figure 5.6 RSS Source Plugin for Media Platforms</p>
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/coze-07.png" alt="Image description" width="90%"/>
+  <img src="/mirror/98/988276ccb6bac8350b94c685a79dafcb3c28917d.png" alt="Image description" width="90%"/>
   <p>Figure 5.7 GitHub Plugin</p>
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/coze-08.png" alt="Image description" width="90%"/>
+  <img src="/mirror/5f/5f0781f59f74a5010973c31ac17510fb681943a0.png" alt="Image description" width="90%"/>
   <p>Figure 5.8 Arxiv Plugin</p>
 
 2.  **Personalized Configuration:** Perform fine-grained configuration for each plugin to ensure it can accurately obtain the required data. For example, in the RSS plugin, enter specific RSS subscription links for websites like 36Kr and Huxiu; in the GitHub plugin, set keyword query quantities and latest update settings to be monitored; in the arXiv plugin, define keywords of interest such as "LLM," "AI," etc., and define quantities and latest update settings.
@@ -154,7 +154,7 @@ Arxiv Plugin Configuration
 ```
 
 3.  **Orchestration and Connection:** In the agent's visual orchestration interface, use these configured information source plugins (such as `rss_24Hbj`, `searchRepository`, `arxiv`, etc.) as data input nodes and connect them to subsequent logical processing modules (such as the **Large Model** module) to build a complete data processing path, as shown in Figure 5.9.
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/coze-09.png" alt="Image description" width="90%"/>
+  <img src="/mirror/73/73e5e8c51a1efa8297b461232354e7c1143175e4.png" alt="Image description" width="90%"/>
   <p>Figure 5.9 Daily AI Brief Orchestration Flowchart</p>
 
 
@@ -250,22 +250,22 @@ Carefully check the content accuracy, format completeness, and language style of
 
 Multi-Channel Publishing: Coze provides the ability to publish agents to multiple mainstream application platforms (such as WeChat, Doubao, Feishu, etc.) with one click, greatly expanding the application scenarios of agents, as shown in Figure 5.10.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/coze-10.png" alt="Image description" width="90%"/>
+  <img src="/mirror/f5/f5f54faf137ac4ff0928276610e1bddbc16db152.png" alt="Image description" width="90%"/>
   <p>Figure 5.10 Diverse Publishing Channels of Coze Platform</p>
 
 After the agent is published, we can see the AI agent we created in the Coze store, and it can also be integrated into AI applications to provide services to users, as shown in Figures 5.11 and 5.12. Here is also the [Daily AI News Agent Experience Link](https://www.coze.cn/store/agent/7506052197071962153?bot_id=true&bid=6hkt3je8o2g16)
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/coze-11.png" alt="Image description" width="90%"/>
+  <img src="/mirror/f1/f1cc36710459beb7c06bd43df42d77c3102fd8a2.png" alt="Image description" width="90%"/>
   <p>Figure 5.11 AI Agent - Daily AI News</p>
 
 Furthermore, we can click this [experience link](https://www.coze.cn/store/project/7458678213078777893?from=store_search_suggestion&bid=6gu3cmr7k5g1i) to view Daily AI News in the AI application.
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/coze-12.png" alt="Image description" width="90%"/>
+  <img src="/mirror/e2/e2bf8240791be90ec931b74f3d286bed469623de.png" alt="Image description" width="90%"/>
   <p>Figure 5.12 Daily AI News in AI Application</p>
 **Publishing Configuration:** If you want to publish your own agent, you also need to configure an appropriate name, avatar, and welcome message for the agent before publishing to provide a more friendly user experience, as shown in Figures 5.13 and 5.14.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/coze-13.png" alt="Image description" width="90%"/>
+  <img src="/mirror/08/08089b7a964b34345c56b274075a13407e185bb4.png" alt="Image description" width="90%"/>
   <p>Figure 5.13 Configure Basic Information for Agent</p>
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/coze-14.png" alt="Image description" width="90%"/>
+  <img src="/mirror/68/6819f2180655723fcdf8c97798cd4f93692f47a7.png" alt="Image description" width="90%"/>
   <p>Figure 5.14 Configure Opening Remarks and Preset Questions for Agent</p>
 
 
@@ -294,12 +294,12 @@ Dify is highly model-neutral and compatible: whether open-source or commercial m
 
 At the same time, Dify supports local deployment (official Docker Compose one-click startup) and cloud deployment. Users can choose to self-deploy Dify in local/private environments (ensuring data privacy) or use the official SaaS cloud service (detailed in the business model section below). This deployment flexibility makes it suitable for enterprise intranet environments with security requirements or developer groups with operational convenience requirements.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/dify-01.png" alt="Image description" width="90%"/>
+  <img src="/mirror/b7/b75017d0839b83082b89138919b2f2c56193a55f.png" alt="Image description" width="90%"/>
   <p>Figure 5.15 Dify Official Website</p>
 
 Marketplace Plugin Ecosystem: Dify Marketplace provides one-stop plugin management and one-click deployment functionality, enabling developers to discover, extend, or submit plugins, bringing more possibilities to the community, as shown in Figure 5.16.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/dify-02.png" alt="Image description" width="90%"/>
+  <img src="/mirror/ef/efc3c7133c1b7e5b680e5577ebd23a5c478fee62.png" alt="Image description" width="90%"/>
   <p>Figure 5.16 Dify Marketplace Plugin Ecosystem</p>
 Marketplace includes:
 
@@ -324,34 +324,34 @@ Dify provides powerful development support for plugin developers, including remo
 
 In the previous Coze case, we built a daily AI brief agent. Although its function is clear, its single brief generation capability is somewhat limited. This section will use Dify to build a fully functional super agent personal assistant, covering multiple scenarios such as daily Q&A, copywriting optimization, multimodal generation, and data analysis. Before starting, let's briefly understand Dify's main interface and functional modules.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/dify-14.png" alt="Image description" width="90%"/>
+  <img src="/mirror/88/88a4b34dd79754259df9d98d074b396535944bb2.png" alt="Image description" width="90%"/>
   <p>Figure 5.17 Dify Agent Building Homepage</p>
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/dify-18.png" alt="Image description" width="90%"/>
+  <img src="/mirror/dd/ddc91ba307fe94b175c2b89755d06e1a9072d2b3.png" alt="Image description" width="90%"/>
   <p>Figure 5.18 Dify Official Template Library</p>
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/dify-15.png" alt="Image description" width="90%"/>
+  <img src="/mirror/38/38a8002eb16d77c60cc130d6d50032408001de01.png" alt="Image description" width="90%"/>
   <p>Figure 5.19 Dify Knowledge Base</p>
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/dify-16.png" alt="Image description" width="90%"/>
+  <img src="/mirror/1a/1aed5c902d81af98f3db1a56f3b7fcce303ddb29.png" alt="Image description" width="90%"/>
   <p>Figure 5.20 Dify Plugin Market</p>
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/dify-17.png" alt="Image description" width="90%"/>
+  <img src="/mirror/bd/bd0442214d76fe9191857a3a6a2efb09e926730c.png" alt="Image description" width="90%"/>
   <p>Figure 5.21 Dify Large Model Configuration</p>
 
 **(1) Creating Plugins and Configuring MCP**
 
 Before building the agent, necessary plugin installation and MCP configuration must be completed first. As shown in Figure 5.22, these are the core plugins required for this case.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/dify-19.png" alt="Image description" width="90%"/>
+  <img src="/mirror/3f/3fe8d2fe91f82d153689767159f44e0a22010f1c.png" alt="Image description" width="90%"/>
   <p>Figure 5.22 Dify Plugin Installation Configuration</p>
 
 The plugins marked with red boxes in the figure need to be searched for and installed from the Dify plugin market. Users can click to view details to understand the specific functions of each plugin.
 
 Next, configure MCP (Model Context Protocol). We won't expand on the detailed principles of MCP here; we'll focus on demonstrating how to use cloud-deployed MCP services. This case uses the domestic ModelScope community MCP market for demonstration, as shown in Figure 5.23.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/dify-20.png" alt="Image description" width="90%"/>
+  <img src="/mirror/eb/eb2d0405fd7fa3299f8327635ef051f0d7149b5a.png" alt="Image description" width="90%"/>
   <p>Figure 5.23 ModelScope Community MCP Market</p>
 
 Open the ModelScope community MCP market and select the hosted type. Taking Amap MCP as an example, after entering its homepage, select SSE mode on the right side and click connection configuration to generate a dedicated MCP configuration JSON, as shown in Figure 5.24. MCP supports multiple communication modes, but using SSE mode communication in Dify is smoother and more stable, so SSE mode is recommended.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/dify-21.png" alt="Image description" width="90%"/>
+  <img src="/mirror/7e/7e7336615e30f15dd1b2ebfce028412099f6566e.png" alt="Image description" width="90%"/>
   <p>Figure 5.24 Amap MCP Configuration Example</p>
 
 **(2) Agent Design and Effect Display**
@@ -366,7 +366,7 @@ This case will create a comprehensive personal assistant covering the following 
 
 The overall agent orchestration architecture is shown in Figure 5.25.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/dify-12.png" alt="Image description" width="90%"/>
+  <img src="/mirror/29/296c18c08cd40a0cf79ca5ccee82228f445668b6.png" alt="Image description" width="90%"/>
   <p>Figure 5.25 Agent Orchestration</p>
 
 For the multi-agent architecture, we use a question classifier for intelligent routing. In the classifier, define the core functions and task scope for each agent to ensure user requests can be accurately distributed to the corresponding processing modules.
@@ -438,7 +438,7 @@ As a daily question consultation expert, you must abide by the above Rules and e
 
 The effect demonstration is shown in Figure 5.26:
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/dify-03.png" alt="Image description" width="90%"/>
+  <img src="/mirror/32/32fb93cdf5987eb7adb69ceeede17640edf34343.png" alt="Image description" width="90%"/>
   <p>Figure 5.26 Daily Assistant</p>
 
 **Copywriting Optimization Module**
@@ -476,7 +476,7 @@ Now, let us prove everything with action. A truly good product does not need too
 
 The effect demonstration is shown in Figure 5.27:
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/dify-04.png" alt="Image description" width="90%"/>
+  <img src="/mirror/b0/b0dacdd68112e163eb1d2f613ed62f8fcda4cd2f.png" alt="Image description" width="90%"/>
   <p>Figure 5.27 Copywriting Assistant</p>
 
 **Multimodal Generation Module**
@@ -493,14 +493,14 @@ Here we use Jimeng's plugin to call the latest models, namely seedream5.0 and se
 
 Image generation configuration and effects are shown in Figures 5.28 and 5.29.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/dify-13.png" alt="Image description" width="90%"/>
+  <img src="/mirror/3a/3a4490785690f8dc5a3ba16f1f7cc63a7d60c481.png" alt="Image description" width="90%"/>
   <p>Figure 5.28 Image Generation Settings</p>
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/dify-05.png" alt="Image description" width="90%"/>
+  <img src="/mirror/83/83b370ea212bc410560e904d45ebe40e89557a2f.png" alt="Image description" width="90%"/>
   <p>Figure 5.29 Image Generation Assistant</p>
 
 The video generation effect is shown in Figure 5.30.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/dify-06.png" alt="Image description" width="90%"/>
+  <img src="/mirror/ef/eff334e06692673a5627e5d8c9449653796119a5.png" alt="Image description" width="90%"/>
   <p>Figure 5.30 Video Assistant</p>
 
   <p><a href="https://pub-f5ed2046361c4244878e5984bdb564de.r2.dev/9af7c33d-5c82-4b14-8fb3-a4e426e8ee5a.mp4">Click to watch video demo</a></p>
@@ -516,7 +516,7 @@ First, install the data query tool plugin; this case uses the `rookie-text2data`
 
 Configure database connection information (IP address, database name, port, account, password, etc.), as shown in Figure 5.31. Query results need to be organized through a large model node and converted into easy-to-understand natural language output.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/dify-22.png" alt="Image description" width="90%"/>
+  <img src="/mirror/4d/4d9a44076e7ced123037afa767cc80a748b00a0a.png" alt="Image description" width="90%"/>
   <p>Figure 5.31 Database Configuration</p>
 
 Prompt settings:
@@ -547,7 +547,7 @@ The user has provided raw data queried from the database. This data may have iss
 
 The effect display is shown in Figure 5.32:
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/dify-07.png" alt="Image description" width="90%"/>
+  <img src="/mirror/a3/a39e5242134d9bd0470d0eaa2bc368bd24f525f4.png" alt="Image description" width="90%"/>
   <p>Figure 5.32 Data Query Assistant</p>
 
 Prompt settings:
@@ -580,7 +580,7 @@ Please output in the following format:
 2. Display generated charts
 ```
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/dify-08.png" alt="Image description" width="90%"/>
+  <img src="/mirror/93/93308e459f6f17ad4c0f65ab539084ed4e94dfec.png" alt="Image description" width="90%"/>
   <p>Figure 5.33 Data Analysis Assistant</p>
 
 The only difference in the data analysis assistant is that we added data visualization tools, namely the "generate_pie_chart" | "generate_column_chart" | "generate_line_chart" BI chart generation tool plugins. If you have installed these as required earlier, you can directly add and use them, and add corresponding descriptions like in the prompt above.
@@ -596,18 +596,18 @@ Finally, the integration application of MCP tools. We have already completed the
 
 The configuration interface is shown in Figure 5.34.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/dify-23.png" alt="Image description" width="90%"/>
+  <img src="/mirror/ba/ba136ce444a594f730c255a1b73a5a02a368c54c.png" alt="Image description" width="90%"/>
   <p>Figure 5.34 Agent MCP Configuration</p>
 
 The effects of Amap assistant, dietary assistant, and news assistant are shown in Figures 5.35, 5.36, and 5.37 respectively.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/dify-09.png" alt="Image description" width="90%"/>
+  <img src="/mirror/26/268d509f2d1ffd4efcff37975de0427ca8d0a44f.png" alt="Image description" width="90%"/>
   <p>Figure 5.35 Amap Assistant</p>
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/dify-10.png" alt="Image description" width="90%"/>
+  <img src="/mirror/aa/aa6bdce4fbe57114fefae93914718d4868adeb3d.png" alt="Image description" width="90%"/>
   <p>Figure 5.36 Dietary Assistant</p>
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/dify-11.png" alt="Image description" width="90%"/>
+  <img src="/mirror/6a/6a11ca10ef039db1dfa2fd3dae74c56297d083fd.png" alt="Image description" width="90%"/>
   <p>Figure 5.37 News Assistant</p>
 
 At this point, we have completed a fully functional super agent personal assistant. This assistant covers multiple aspects of life: when you need new clothes, you can have Doubao generate designs; before going out, you can have the Amap assistant plan routes; when you don't know what to eat, you can get dietary recommendations; when you want to understand learning situations, you can perform data analysis. This agent can handle various work and life tasks, and we look forward to seeing everyone build more creative personal agent assistants.
@@ -648,37 +648,37 @@ FastGPT is an open-source, LLM-based knowledge base Q&A platform and Agent build
 
 When you visit the FastGPT official website, the first thing you see is its concise and powerful product manifesto — "Enterprise-grade AI Productivity Engine," emphasizing the construction of secure, controllable enterprise-grade AI Agents, as shown in Figure 5.38.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/fastgpt-01.png" alt="Image description" width="90%"/>
+  <img src="/mirror/be/be5fdcbdb2b3da609f1738a536b416a6bee4f9ac.png" alt="Image description" width="90%"/>
   <p>Figure 5.38 FastGPT Official Website Homepage</p>
 
 After logging into the platform, you can see its clear workspace layout. The left navigation bar divides core functions into four modules: Dialog Portal, Workspace, Knowledge Base, and Account. Among them, the Agent module is further divided into three types: Workflow, Dialog Agent, and Dialog Agent V2 (Beta), making it convenient for users to choose the appropriate construction mode based on their business scenarios. The main area provides a quick entry point for "Create from Template," with built-in official templates such as Sales Training Master, Document Translation Assistant, and Industry Trend Insight Briefing; below is the user's own Agent list, as shown in Figure 5.39.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/fastgpt-02.png" alt="Image description" width="90%"/>
+  <img src="/mirror/87/877c09fa31a70097b9ab595710f93fc4260f1577.png" alt="Image description" width="90%"/>
   <p>Figure 5.39 FastGPT Platform Main Interface</p>
 
 In terms of account and plan options, FastGPT provides a free version for individual developers to try. The free version includes 100 credits, 600 knowledge base indexes, 1 team member, 10 Agents, 3 knowledge bases, 30-day conversation record retention, 30 QPM call rate, and the ability to upload 5 files of 50MB each at a time, as shown in Figure 5.40. For small and medium-sized enterprises and teams, the platform also provides paid upgrade plans to meet higher concurrency and storage needs.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/fastgpt-03.png" alt="Image description" width="90%"/>
+  <img src="/mirror/ab/abf6ab42fb0052a52b3d40e35f11f5cb3d84b04f.png" alt="Image description" width="90%"/>
   <p>Figure 5.40 FastGPT Free Plan and Usage</p>
 
 FastGPT's core competitiveness lies in its powerful knowledge base capabilities. The platform supports importing multiple file formats, including common document types such as Word, Markdown, and PDF. As shown in Figure 5.41, in the "test General Knowledge Base," we can upload multiple files such as Introduction to Deep Learning, Getting Started with Machine Learning, and Bidding Document Text. The system automatically chunks and indexes the files, and once the status shows "Ready," they can be retrieved and referenced in conversations.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/fastgpt-12.png" alt="Image description" width="90%"/>
+  <img src="/mirror/c9/c9168465109cd53e1665c90e3d8234fce5490239.png" alt="Image description" width="90%"/>
   <p>Figure 5.41 FastGPT Knowledge Base File Management</p>
 
 At the file processing level, FastGPT provides fine-grained parameter configuration. As shown in Figure 5.42, users can choose between "Chunk Storage" or "Q&A Pair Extraction" processing methods, set chunking conditions (such as triggering chunking when original text length exceeds 1000 characters), and enable various index enhancement options, including adding titles to indexes, automatically generating supplementary indexes, and automatic image indexing. For documents with extensive mixed text and image content (such as textbooks and research reports), the automatic image indexing feature is particularly important, as it allows the large model to understand and reference visual information in documents when answering.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/fastgpt-14.png" alt="Image description" width="90%"/>
+  <img src="/mirror/17/17f3d0688396790cfb4564dd6996079c9bba955d.png" alt="Image description" width="90%"/>
   <p>Figure 5.42 Knowledge Base Data Processing Parameter Settings</p>
 
 After uploading, users can view the specific content of file chunks. As shown in Figure 5.43, taking "English Grade 4 Lower Semester Full Electronic Book.pdf" as an example, the platform displays the text preview of each chunk, while the right metadata panel shows key information such as file size (62MB), original text length (37,797 characters), processing mode (chunk storage), and image indexing status. This transparent chunk display facilitates developers in debugging and optimizing the knowledge base.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/fastgpt-13.png" alt="Image description" width="90%"/>
+  <img src="/mirror/3b/3b5958ec556580c14496b82c53709155f668771a.png" alt="Image description" width="90%"/>
   <p>Figure 5.43 Knowledge Base File Chunk Details and Metadata</p>
 
 In addition to the knowledge base, FastGPT also keeps up with ecosystem trends in tool integration. The platform natively supports MCP (Model Context Protocol) tools, and users can uniformly manage various MCP services in the "My Tools" module. As shown in Figure 5.44, under the "ai Finance" folder, we have configured multiple MCP tools including Chinese Trend Aggregation, Real-time Stock MCP, QieMan Fund MCP, Minimax-MCP, and BI Chart Tool. These tools will empower the agent with the ability to call external real-time data and professional services.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/fastgpt-04.png" alt="Image description" width="90%"/>
+  <img src="/mirror/d3/d374644d22428b2f18ff1ed62a0d92495e363a9b.png" alt="Image description" width="90%"/>
   <p>Figure 5.44 FastGPT MCP Tool Management</p>
 
 ### 5.4.2 Building a "Smart Investment Advisor Assistant"
@@ -696,12 +696,12 @@ This case requires the following two types of MCP services:
 
 As shown in Figure 5.45, we can find the "Visual Chart MCP Server" in the MCP marketplace of the ModelScope community. This service is developed based on TypeScript, compatible with the MCP protocol, and provides capabilities for generating area charts, bar charts, pie charts, and various other charts, transforming dry data into intuitive visual results.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/fastgpt-05.png" alt="Image description" width="90%"/>
+  <img src="/mirror/8a/8acfaf9c0d02c8b6af07af8455e4c13eab868cf3.png" alt="Image description" width="90%"/>
   <p>Figure 5.45 ModelScope Community Visual Chart MCP Server</p>
 
 Additionally, as shown in Figure 5.46, the Alibaba Cloud Bailian platform also provides rich official MCP services. In the MCP management page, we can find financial MCP services such as "Today's Investment - Financial..." and "QieMan," as well as tools like real-time stock quote query and Wanxiang - Video Generation. After adding these services to FastGPT's MCP tool library, the agent can call them on demand during conversations.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/fastgpt-06.png" alt="Image description" width="90%"/>
+  <img src="/mirror/f7/f721927574dfdc59947d034305cb3ac53a16ce4b.png" alt="Image description" width="90%"/>
   <p>Figure 5.46 Alibaba Cloud Bailian MCP Management</p>
 
 In FastGPT's MCP tool configuration interface, after filling in the corresponding service addresses and authentication information, the tool integration is complete. Each MCP tool can be configured with independent descriptions and call parameters, making it easier for the agent to understand each tool's purpose when making decisions.
@@ -712,7 +712,7 @@ After completing tool configuration, enter the core workflow orchestration phase
 
 As shown in Figure 5.47, the complete workflow of the "Smart Investment Advisor Assistant" includes multiple processing branches: user intent recognition, knowledge base retrieval, risk questionnaire collection, MCP tool invocation, and report generation. The entire workflow presents a clear modular structure with data flowing orderly between different nodes. This visual orchestration approach allows developers to intuitively understand and debug the agent's decision paths.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/fastgpt-07.png" alt="Image description" width="90%"/>
+  <img src="/mirror/98/980bb915c63454baa6dc51bb2b5374a9614cbb3e.png" alt="Image description" width="90%"/>
   <p>Figure 5.47 Smart Investment Advisor Assistant Workflow Orchestration</p>
 
 The core logic of the workflow is as follows:
@@ -759,7 +759,7 @@ At the same time, we need to configure a financial knowledge base for the assist
 
 After completing the workflow and prompt configuration, we can test in FastGPT's dialogue interface. As shown in Figure 5.48, the smart investment advisor assistant's opening message clearly introduces its three main features: mastery of financial investment theory, real-time market news and data, and asset allocation recommendations based on risk profile assessment. The interface also provides quick action buttons for users to trigger common tasks with one click.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/fastgpt-08.png" alt="Image description" width="50%"/>
+  <img src="/mirror/1c/1c914a9ea3d63424f623e85e04b9f41966031f61.png" alt="Image description" width="50%"/>
   <p>Figure 5.48 Smart Investment Advisor Assistant Dialogue Interface</p>
 
 When the user clicks "Conduct Asset Assessment for Investment Advice," the assistant sequentially unfolds the risk assessment questionnaire, collecting information about the user's age, investment experience, monthly income level, maximum tolerable loss, and investment goals. Based on this information, the assistant generates a complete investment strategy analysis report.
@@ -771,17 +771,17 @@ As shown in Figure 5.49, the report contains the following core modules:
 - **Market Fundamental Analysis**: Provides market judgment based on the current macroeconomic environment and industry trends.
 - **Rebalancing Strategy**: Provides recommendations for periodic portfolio rebalancing, including rebalancing cycle and trigger conditions.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/fastgpt-09.png" alt="Image description" width="90%"/>
+  <img src="/mirror/d8/d8a0422a89af4f48bfcfc8c8bf858dbd78bee962.png" alt="Image description" width="90%"/>
   <p>Figure 5.49 Investment Strategy Analysis Report</p>
 
 For real-time data query scenarios, as shown in Figure 5.50, when the user asks "Query the current stock price information of Kweichow Moutai," the agent automatically calls the MCP tool (`get_stock_quote_realtime`) to obtain real-time market data. The returned results include title, data source, key highlights (opening price, highest price, intraday price range, trading volume, total market capitalization, circulating market capitalization, etc.), as well as potential impact analysis and suggested actions. This structured, professional output reflects the practical value of Agent tool invocation capabilities.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/fastgpt-10.png" alt="Image description" width="50%"/>
+  <img src="/mirror/92/920dc36b47257f42230898406426c85f58a59005.png" alt="Image description" width="50%"/>
   <p>Figure 5.50 Real-time Stock Quote Query</p>
 
 In terms of concept explanation, as shown in Figure 5.51, when the user asks "What's the difference between P/E ratio and P/B ratio," the assistant provides a systematic comparative analysis based on knowledge base and large model understanding: starting from definitions, it explains the calculation methods of P/E Ratio and P/B Ratio in detail; compares them from four dimensions (calculation basis, applicable industries, information reflected, limitations); and finally provides practical application advice on when to focus on P/E ratio versus P/B ratio. This well-structured, logically rigorous output is a typical advantage of RAG-enhanced large models in vertical domain Q&A.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/fastgpt-11.png" alt="Image description" width="50%"/>
+  <img src="/mirror/d3/d3cfb4abffe2aa13c1fea26406078d34ff1dda0a.png" alt="Image description" width="50%"/>
   <p>Figure 5.51 P/E Ratio and P/B Ratio Concept Analysis</p>
 
 ### 5.4.3 Analysis of FastGPT's Advantages and Limitations
@@ -826,7 +826,7 @@ Regarding n8n's environment configuration and most basic usage, documentation ha
 
 The entire process simulates a more advanced decision logic: `Receive -> AI Agent (Think -> Decide -> Tool Call) -> Reply`, as shown in Figure 5.52.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/n8n-01.png" alt="Image description" width="90%"/>
+  <img src="/mirror/55/55c3a1a42cf387793426dd34e22d33d787999e65.png" alt="Image description" width="90%"/>
   <p>Figure 5.52 Integrated Intelligent Email Agent Architecture Diagram</p>
 
 Unlike the traditional method of splitting tools into multiple sub-workflows, n8n's `AI Agent` node allows us to integrate components such as large language models (LLM), memory, and tools in a unified interface, greatly simplifying the construction process.
@@ -849,7 +849,7 @@ First, we use the `Code` node to store our raw knowledge text. This is a simple 
 - **Node**: `Code`
 - **Content**: Write your knowledge in JSON format.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/n8n-02.png" alt="Screenshot of knowledge base JSON text filled in Code node" width="90%"/>
+  <img src="/mirror/31/31b181b24166feb05e93eb7bed4c88a74616f886.png" alt="Screenshot of knowledge base JSON text filled in Code node" width="90%"/>
   <p>Figure 5.53 Defining Knowledge Source in Code Node</p>
 
 ```javascript
@@ -876,7 +876,7 @@ Computers cannot directly understand text and need to convert it into vectors. W
 - **Node**: `Embeddings Google Gemini`, select model as `gemini-embedding-exp-03-07`. Here we use Google API for demonstration; if you don't know how to obtain Google API, you can refer to the official documentation.
 - **Configuration**: Connect it after the `Code` node, and it will automatically convert the text passed from upstream into vector data.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/n8n-03.png" alt="" width="90%"/>
+  <img src="/mirror/e1/e13aca739e8ff10d6f1699f4930c3f7a0b2c962c.png" alt="" width="90%"/>
   <p>Figure 5.54 Vectorizing Data in Code</p>
 
 **(3) Store in Vector Storage**
@@ -888,12 +888,12 @@ Finally, we store the vectorized knowledge in an in-memory database, as shown in
   - **Operation Mode**: `Insert Documents` (write mode).
   - **Memory Key**: Give this knowledge base a unique name, for example `my-dailytime`. This Key is equivalent to the "table name" of the database, and the Agent will use it to find information later.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/n8n-04.png" alt="" width="90%"/>
+  <img src="/mirror/2f/2ff1bc615ecdaff75802485cd52947c8af4ae4ba.png" alt="" width="90%"/>
   <p>Figure 5.55 Storing Data from Code into Vector Storage</p>
 
 After completing the configuration, **manually execute this process once**. After success, your private knowledge is loaded into n8n's memory, as shown in Figure 5.56.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/n8n-05.png" alt="" width="90%"/>
+  <img src="/mirror/4e/4e743da3c2ff96383ae6163fd32103564a99f498.png" alt="" width="90%"/>
   <p>Figure 5.56 Complete Knowledge Base Loading Workflow</p>
 
 ### 5.5.4 Creating Agent Main Workflow
@@ -904,17 +904,17 @@ With the tools ready, we now start building the Agent's main process. It will be
 
 Create a new workflow named `Agent: Customer Support`. Use the `Gmail` node as a trigger, set its **Event** to `Message Received`, and configure your email account. This way, whenever a new email enters the inbox, the workflow will be automatically triggered, as shown in Figure 5.57.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/n8n-06.png" alt="" width="90%"/>
+  <img src="/mirror/6d/6d5a862da3df6f4d4e16913fdcd30423f1ddbebd.png" alt="" width="90%"/>
   <p>Figure 5.57 Creating Gmail Node</p>
 
 The configuration process can refer to [n8n official documentation](https://docs.n8n.io/integrations/builtin/credentials/google/oauth-single-service/?utm_source=n8n_app&utm_medium=credential_settings&utm_campaign=create_new_credentials_modal#enable-apis). Gmail's API is configured [here](https://console.cloud.google.com/apis/library/gmail.googleapis.com?project=apt-entropy-471905-b9). You need to create credentials, select Web application type, and finally get the required client ID and client secret. You also need to add the OAuth Redirect URL given by n8n to the authorized redirect URIs. At the same time, you also need to add your own email address in Add users in [Audience](https://console.cloud.google.com/auth/audience?project=apt-entropy-471905-b9). The final configured page is shown in Figure 5.58.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/n8n-07.png" alt="" width="90%"/>
+  <img src="/mirror/3d/3da0a3d7c1821c7ad4c3e145b10c83610b2c15b8.png" alt="" width="90%"/>
   <p>Figure 5.58 Gmail Account Successfully Loaded</p>
 
 Now we can click `Fetch Test Event` to get emails, as shown in Figure 5.59!
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/n8n-08.png" alt="" width="90%"/>
+  <img src="/mirror/5f/5fba0f71dede829bceb850be5370dc341f999a83.png" alt="" width="90%"/>
   <p>Figure 5.59 Getting Real-time Emails</p>
 
 (2) Configure AI Agent Node
@@ -927,14 +927,14 @@ This is the brain of the entire workflow. Drag an `AI Agent` node from the node 
   1. `SerpAPI`: This is the API we used in the Chapter 4 case, giving the Agent the ability to search for public information online.
   2. `Simple Vector Store`: Gives the Agent the ability to query the private knowledge base we created in the first part.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/n8n-09.png" alt="" width="90%"/>
+  <img src="/mirror/3f/3f6f5608fc32d541a4deceaf3f7b5fa9e232660a.png" alt="" width="90%"/>
   <p>Figure 5.60 AI Agent Node Settings</p>
 
 This is the first step of Agent "thinking." Add a `Gemini` node (or other LLM node), set the mode to `Chat`. Our goal is to have it analyze email content and judge user intent. Prompt design is crucial; a clear instruction can make the LLM complete the task more accurately. We pass the email body and subject (<code v-pre>{{ $json.snippet }}{{ $json.Subject }}</code>) as variables into the Prompt. If you don't have an API, you can go to [Google AI Studio](https://aistudio.google.com/prompts/new_chat) and click Get API key to create an available one.
 
 For the AI Agent node, we mainly need to fill in the `User Message` and `System Message` sections, as shown in Figure 5.61.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/n8n-10.png" alt="" width="90%"/>
+  <img src="/mirror/33/33992821bf7ea96ede6bab28907b028dc38ba926.png" alt="" width="90%"/>
   <p>Figure 5.61 AI Agent Node Details</p>
 
 Here is the Prompt used in our case:
@@ -1000,7 +1000,7 @@ For the `Simple Vector Store` tool, we need to perform key configurations to ens
 
 Only when the `Memory Key` and `Embeddings` model are completely consistent can the Agent use the correct "key" and "language" to access the knowledge base, as shown in Figure 5.62.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/n8n-11.png" alt="" width="90%"/>
+  <img src="/mirror/e6/e6c16da7f23f30d58eac8114109b8b1a0d597fca.png" alt="" width="90%"/>
   <p>Figure 5.62 Simple Vector Store Tool Configuration</p>
 
 The Description parameter is the description definition of the tool when the AI Agent calls it. Here is the corresponding Prompt:
@@ -1021,12 +1021,12 @@ The last step is execution. Connect the output of the `AI Agent` node to a `Gmai
 - **Subject**: <code v-pre>Re:  {{ $('Gmail').item.json.Subject }}</code>
 - **Message**: <code v-pre>{{ $json.output }}</code>
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/n8n-12.png" alt="" width="90%"/>
+  <img src="/mirror/aa/aa43fefef396707ced5a8c7719a36d90596d8441.png" alt="" width="90%"/>
   <p>Figure 5.63 Final Reply Tool Diagram</p>
 
 And when the sending is successful, you can also receive real return email information in your personal mailbox, as shown in Figure 5.64.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/n8n-13.png" alt="" width="90%"/>
+  <img src="/mirror/d0/d083c4187020fec66a0884d78cc524d9cbdb31e5.png" alt="" width="90%"/>
   <p>Figure 5.64 Personal Mailbox Return Email Format</p>
 
 At this point, an integrated intelligent customer service based on the `AI Agent` node is completed. You can send a test email to verify its work results. This architecture has extremely strong extensibility. In the future, you can directly add more tools (such as calendars, databases, CRM, etc.) to the `AI Agent` node. You only need to teach the Agent how to use them in the Prompt to continuously empower your Agent with more powerful capabilities.
@@ -1036,7 +1036,7 @@ At this point, an integrated intelligent customer service based on the `AI Agent
 Through the practice of building an intelligent email assistant from scratch, we have gained an intuitive understanding of n8n's working mode. As a powerful low-code automation platform, n8n performs excellently in empowering Agent application development, but it is not omnipotent. As shown in Table 5.2, we will objectively analyze its advantages and potential limitations.
 
   <p>Table 5.2 Summary of n8n Platform's Advantages and Limitations</p>
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/5-figures/n8n-14.png" alt="" width="90%"/>
+  <img src="/mirror/f0/f0bd06bfcc1cfda477e87fd0530c9674f94fa317.png" alt="" width="90%"/>
 
 First, n8n's most significant advantage lies in its **development efficiency**. It abstracts complex logic into intuitive visual workflows. Whether it's email reception, AI decision-making, tool invocation, or final reply, the entire data flow and processing chain are clear at a glance on the canvas. This low-code characteristic greatly lowers the technical threshold, allowing developers to quickly build and verify the core logic of Agents, greatly shortening the distance from idea to prototype.
 

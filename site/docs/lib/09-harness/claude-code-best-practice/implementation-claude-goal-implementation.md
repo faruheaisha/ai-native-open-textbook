@@ -17,13 +17,13 @@ zh: ""
 <table width="100%">
 <tr>
 <td><a href="/lib/09-harness/claude-code-best-practice/overview">← Back to Claude Code Best Practice</a></td>
-<td align="right"><img src="https://gh-proxy.com/https://raw.githubusercontent.com/shanraisshan/claude-code-best-practice/2d6ea151c0d7189c3eaf364809c5574bd210e545/!/claude-jumping.svg" alt="Claude" width="60" /></td>
+<td align="right"><img src="/mirror/08/083732f2d17cc173d2ce8cdf174e11bd1ccf34d9.svg" alt="Claude" width="60" /></td>
 </tr>
 </table>
 
 ---
 
-<a href="#goal-tips-from-the-community"><img src="https://gh-proxy.com/https://raw.githubusercontent.com/shanraisshan/claude-code-best-practice/2d6ea151c0d7189c3eaf364809c5574bd210e545/!/tags/implemented-hd.svg" alt="Implemented"></a>
+<a href="#goal-tips-from-the-community"><img src="/mirror/40/40ff976a740fb4fcf55255dbc78bf034992e082b.svg" alt="Implemented"></a>
 
 `/goal` keeps your agent working across turns until a condition is satisfied — Claude Code, Codex, and Hermes Agent all support it. The community is converging on a few high-leverage prompting tricks that pair well with it.
 
@@ -33,7 +33,7 @@ zh: ""
 
 ### 1. Ask the agent to propose its own goals
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/shanraisshan/claude-code-best-practice/2d6ea151c0d7189c3eaf364809c5574bd210e545/implementation/assets/impl-goal-claude.png" alt="Alex Finn tweet — /goal is the most underrated AI feature of 2026" width="50%">
+  <img src="/mirror/71/7138426e9e3ee56bc933c2eeafdfa42494ab6aa4.png" alt="Alex Finn tweet — /goal is the most underrated AI feature of 2026" width="50%">
 
 > It's official. Claude Code just released /goal
 >
@@ -59,7 +59,7 @@ zh: ""
 
 ### 2. Let the agent draft the /goal prompt for you
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/shanraisshan/claude-code-best-practice/2d6ea151c0d7189c3eaf364809c5574bd210e545/implementation/assets/impl-goal-codex.png" alt="Meta Alchemist tweet — /goal trick for Codex" width="50%">
+  <img src="/mirror/bf/bf3061d8b80e7fb79e10a7d6b0dd1f21d6b4cc6c.png" alt="Meta Alchemist tweet — /goal trick for Codex" width="50%">
 
 > wanna know the best /goal trick for Codex?
 >
@@ -81,7 +81,7 @@ zh: ""
 
 ---
 
-## ![How to Use](https://gh-proxy.com/https://raw.githubusercontent.com/shanraisshan/claude-code-best-practice/2d6ea151c0d7189c3eaf364809c5574bd210e545/!/tags/how-to-use.svg)
+## ![How to Use](/mirror/43/43b393ff0af70918e029290bee538f937f2e8abb.svg)
 
 ```bash
 $ claude

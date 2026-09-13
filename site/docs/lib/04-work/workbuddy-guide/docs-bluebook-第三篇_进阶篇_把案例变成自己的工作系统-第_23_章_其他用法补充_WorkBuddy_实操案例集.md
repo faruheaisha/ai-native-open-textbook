@@ -24,7 +24,7 @@ WorkBuddy 内置了多款国产大模型。每日签到领取的积分基本能�
 
 如果拿不准做什么，WorkBuddy 已经按应用场景预设了模板，选一个直接开始即可。
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 23 章 其他用法补充：WorkBuddy 实操案例集/assets/001_01_app_templates_To5yb29RMo.gif)
+![](/mirror/3d/3ddffbcce78eae7be923f5401587bdcd288168fc.gif)
 
 ## 短任务实战：Excel 可视化与数据清洗
 
@@ -45,7 +45,7 @@ HY3 在短任务上表现突出。PPT 生成、数据清洗、Excel 图表可视
 
 执行过程可能较慢，但最终产出的可视化效果通常超出预期——包括图表、趋势分析和文字总结。数据清洗和 PPT 生成同理。
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 23 章 其他用法补充：WorkBuddy 实操案例集/assets/002_image_F4BfbagcFo.png)
+![](/mirror/2b/2b1dbf795034c3d992e8afbd7278a8b6368cf5b5.png)
 
 ## 设计创意：用提示词生成完整网站
 
@@ -69,7 +69,7 @@ Build a full-screen hero section for a creative portfolio using React, Vite, Tai
 6. prefers-reduced-motion 下禁用所有动画。
 ```
 
-<video controls preload="metadata" src="https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 23 章 其他用法补充：WorkBuddy 实操案例集/assets/003_asset_HE1Nb74Hfo.mp4"></video>
+<video controls preload="metadata" src="https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇%20进阶篇：把案例变成自己的工作系统/第%2023%20章%20其他用法补充：WorkBuddy%20实操案例集/assets/003_asset_HE1Nb74Hfo.mp4"></video>
 
 ### 模板二：创意机构 Landing Page（鼠标控制视频）
 
@@ -91,7 +91,7 @@ Build a full-screen hero landing page for a creative agency called "Mainframe" u
 
 以上两个模板全程使用 HY3 模型完成。
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 23 章 其他用法补充：WorkBuddy 实操案例集/assets/004_03_website_design_WX9gb8dBMo.gif)
+![](/mirror/04/04ecd3c64a20dbcfaad00d8d85a801d6de26d421.gif)
 
 ## Skill 联动：跨服务的智能推荐
 
@@ -112,6 +112,6 @@ WorkBuddy 的 Skill 系统允许 Agent 连接日常使用的各类服务。这�
 4. 输出推荐理由和歌单链接。
 ```
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 23 章 其他用法补充：WorkBuddy 实操案例集/assets/005_04_skill_music_GxX3brlGeo.png)
+![](/mirror/fc/fc2e8ab9d7cd3fb3dab4091430aace52bc21ca48.png)
 
 微信读书 Skill 的安装链接可以在官方页面获取：`https://weread.qq.com/r/weread-skills`。

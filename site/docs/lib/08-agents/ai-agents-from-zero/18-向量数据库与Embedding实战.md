@@ -53,7 +53,7 @@ LangChain 官方文档把文本 Embedding 说得很清楚：**Embedding 模型�
 
 下图可以帮助你建立整体印象：左边是原始内容，中间是嵌入模型，右边是一串串向量。
 
-![文本、图像等通过嵌入模型转为向量，便于相似性计算与检索](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/18/18-1-2-1.jpeg)
+![文本、图像等通过嵌入模型转为向量，便于相似性计算与检索](/mirror/c3/c367bb182f38b86e37ba450a2e8c96ef53919366.jpeg)
 
 用更直白的话说，Embedding 解决的是：
 
@@ -96,11 +96,11 @@ Embedding 输出的向量，一般是固定长度的浮点数列表。这个长�
 
 下面两张图分别帮助你理解“图像也可以向量化”和“向量空间会影响检索效果”。
 
-![图像向量化与对比示意](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/18/18-1-5-1.jpeg)
+![图像向量化与对比示意](/mirror/71/712f391db1235627936285e881efcbb08c12a7c2.jpeg)
 
 > **图意说明：** 同品种毛色不同、同毛色体型不同——类比向量检索中「按特征维度」区分样本；用于建立「**向量 = 特征坐标**」的直觉（本章主线仍以文本 Embedding 为主）。
 
-![向量维度与检索效果](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/18/18-1-5-2.jpeg)
+![向量维度与检索效果](/mirror/bb/bbb4aa72c8329c4bacfa9cbae31f5f7d4889f1c5.jpeg)
 
 > **图意说明：** 高维 Embedding 可理解为「更多维度的特征轴」；维度与模型设计相关，**检索效果依赖模型与索引质量**，而非单看维数高低。
 
@@ -129,7 +129,7 @@ LangChain 官方概括非常直接：**向量存储（Vector Store）就是存�
 | 主要依据     | 字段值相等、大小、排序          | 向量距离 / 相似度                    |
 | 常见用途     | 订单、用户、交易、配置          | RAG、搜索、推荐、去重、聚类          |
 
-![传统数据库与向量数据库的查询方式对比：字段精确查询侧重值匹配，向量检索侧重语义相似](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/18/18-2-2-1.png)
+![传统数据库与向量数据库的查询方式对比：字段精确查询侧重值匹配，向量检索侧重语义相似](/mirror/53/53eec70dda91726246f74316b936d434dadf49b2.png)
 
 这并不代表传统数据库没用，而是说：**当你的问题从“查字段”变成“查意思”时，就要引入向量数据库。**
 
@@ -160,7 +160,7 @@ LangChain 官方概括非常直接：**向量存储（Vector Store）就是存�
 - 稀疏向量更偏“按关键词和词权重找相关内容”
 - 标量字段负责“按业务条件过滤结果”
 
-![稠密向量与稀疏向量对比：稠密向量表达整体语义，稀疏向量更接近关键词权重](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/18/18-2-4-1.png)
+![稠密向量与稀疏向量对比：稠密向量表达整体语义，稀疏向量更接近关键词权重](/mirror/2e/2e04d8088babf1c4fab882757e1e8875ff23e0bb.png)
 
 **扩展：BGE-M3 与混合检索**
 
@@ -204,7 +204,7 @@ RAG 的底层链路通常是：
 
 也就是说，**向量数据库是 RAG 的底层基础设施之一，但它本身不等于完整 RAG。**
 
-![向量与向量库在知识体系中的位置](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/18/18-2-6-1.jpeg)
+![向量与向量库在知识体系中的位置](/mirror/9f/9fdcc8109d047c81b99c67a9acc8985ae28ab5dc.jpeg)
 
 > **图意说明：** 上半为**索引/入库**链路，下半为**查询**链路；向量库处于「分段文本向量化之后、检索 top-K 片段之后交给模型」的关键位置。完整加载器、切分器与生成环节见 [第 19 章 RAG](/lib/08-agents/ai-agents-from-zero/19-RAG检索增强生成)。
 
@@ -422,7 +422,7 @@ OpenAI 官方文档里也明确提到：在很多 Embedding 场景里，**余弦
 - **FLAT**：更偏暴力搜索，准确但慢
 - **HNSW**：工程里很常见的 ANN 索引，通常能在召回率和延迟之间取得较好平衡
 
-![HNSW 索引示意：通过分层近邻图减少全量比较，在召回率与查询速度之间折中](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/18/18-5-3-1.png)
+![HNSW 索引示意：通过分层近邻图减少全量比较，在召回率与查询速度之间折中](/mirror/a0/a0cb533ba8eb25afb987129adcb5f912c65d0377.png)
 
 入门阶段可以先记住一句话：**索引的作用不是改变“语义相似”的定义，而是让“找最相似内容”这件事在大规模数据下也能跑得动。**
 
@@ -495,7 +495,7 @@ OpenAI 官方文档里也明确提到：在很多 Embedding 场景里，**余弦
 
 运行后，你可以在 RedisInsight 里看到类似下图的结构：
 
-![RedisInsight 中查看写入的文档与向量](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/18/18-6-1-1.jpg)
+![RedisInsight 中查看写入的文档与向量](/mirror/fc/fcbfe8e8723ea76eabf10ed1fce6d738385581ae.jpg)
 
 看到这张图时，建议你重点理解：
 

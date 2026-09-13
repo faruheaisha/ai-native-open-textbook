@@ -33,3 +33,8 @@ Proxy
 *.png
 !site/docs/public/**/*.png
 !docs/**/*.png
+
+# 第三方图片的本地镜像（约 570MB）。构建产物，不入库。
+# 生成方式：node scripts/mirror-images.mjs（可反复运行续传）
+# 索引 mirror-index.json 入库：仓库里没有镜像文件时，生成器会按索引回退到加速通道。
+site/docs/public/mirror/

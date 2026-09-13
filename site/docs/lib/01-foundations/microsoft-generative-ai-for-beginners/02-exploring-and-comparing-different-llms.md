@@ -14,7 +14,7 @@ zh: "on"
 
 # Exploring and comparing different LLMs
 
-[![Exploring and comparing different LLMs](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/02-exploring-and-comparing-different-llms/images/02-lesson-banner.png)](https://youtu.be/KIRUeDKscfI?si=8BHX1zvwzQBn-PlK)
+[![Exploring and comparing different LLMs](/mirror/fe/fe782c58702801906d53e97de0cf64434b9b33af.png)](https://youtu.be/KIRUeDKscfI?si=8BHX1zvwzQBn-PlK)
 
 <div class="tb-zh"><p>本课视频封面（可点击跳转）：Exploring and comparing different LLMs。</p></div>
 
@@ -100,7 +100,7 @@ The term Foundation Model was [coined by Stanford researchers](https://arxiv.org
 
 <div class="tb-zh"><p>它们使用无监督学习或自监督学习训练，也就是在无标注的多模态数据上训练，训练过程不需要人工注释或打标；它们体量极大，基于在数十亿参数上训练的极深神经网络；它们通常被设计为其他模型的「基础」，可以作为起点在其上继续构建其他模型，例如通过微调实现。</p></div>
 
-![Foundation Models versus LLMs](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/02-exploring-and-comparing-different-llms/images/FoundationModel.png)
+![Foundation Models versus LLMs](/mirror/33/33d2ea9a86113cbd5bd332508d0a4f64078d4d22.png)
 
 Image source: [Essential Guide to Foundation Models and Large Language Models | by Babar M Bhatti | Medium
 ](https://thebabar.medium.com/essential-guide-to-foundation-models-and-large-language-models-27dab58f7404)
@@ -111,7 +111,7 @@ To further clarify this distinction, let’s take ChatGPT as a historical exampl
 
 <div class="tb-zh"><p>为了进一步厘清这一区别，以 ChatGPT 作为历史例子：早期版本的 ChatGPT 以 GPT-3.5 作为基础模型，OpenAI 随后用对话专用数据和对齐技术做出了在对话场景中表现更好的调优版本。如今的 AI 服务常常在多个模型变体之间路由，因此服务名与底层模型名并不总是一回事。</p></div>
 
-![Foundation Model](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/02-exploring-and-comparing-different-llms/images/Multimodal.png)
+![Foundation Model](/mirror/3d/3da55b3a15a31927f61dfaaee459947cbd70ae1b.png)
 
 Image source: [2108.07258.pdf (arxiv.org)](https://arxiv.org/pdf/2108.07258.pdf?WT.mc_id=academic-105485-koreyst)
 
@@ -141,19 +141,19 @@ Embeddings are a set of models that can convert text into a numerical form, call
 
 <div class="tb-zh"><p>嵌入（embedding）模型把文本转换为数值形式，即所谓 embedding——输入文本的数值表示。嵌入让机器更容易理解词与词、句子与句子之间的关系，也可作为其他模型的输入，例如分类模型，或在数值数据上表现更好的聚类模型。嵌入模型常用于迁移学习：先为一个数据充足的中转任务训练模型，再把模型权重（嵌入）复用到其他下游任务上。这一类的例子是 OpenAI embeddings。</p></div>
 
-![Embedding](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/02-exploring-and-comparing-different-llms/images/Embedding.png)
+![Embedding](/mirror/38/382aafa83ef8047f76f3eee982e839ec789296ee.png)
 
 Image generation models are models that generate images. These models are often used for image editing, image synthesis, and image translation. Image generation models are often trained on large datasets of images, such as [LAION-5B](https://laion.ai/blog/laion-5b/?WT.mc_id=academic-105485-koreyst), and can be used to generate new images or to edit existing images with inpainting, super-resolution, and colorization techniques. Examples include [GPT Image models](https://platform.openai.com/docs/guides/images?WT.mc_id=academic-105485-koreyst), [Stable Diffusion models](https://github.com/Stability-AI/StableDiffusion?WT.mc_id=academic-105485-koreyst), and Imagen models.
 
 <div class="tb-zh"><p>图像生成模型用来生成图像，常用于图像编辑、图像合成与图像翻译。这类模型通常在大型图像数据集上训练（如 LAION-5B），可通过 inpainting、超分辨率与上色等技术生成新图或编辑现有图像。例子包括 GPT Image 模型、Stable Diffusion 模型与 Imagen 模型。</p></div>
 
-![Image generation](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/02-exploring-and-comparing-different-llms/images/Image.png)
+![Image generation](/mirror/5a/5a91afdff96ead85598a04661f3c721841eeb597.png)
 
 Text and code generation models are models that generate text or code. These models are often used for text summarization, translation, and question answering. Text generation models are often trained on large datasets of text, such as [BookCorpus](https://www.cv-foundation.org/openaccess/content_iccv_2015/html/Zhu_Aligning_Books_and_ICCV_2015_paper.html?WT.mc_id=academic-105485-koreyst), and can be used to generate new text, or to answer questions. Code generation models, like [CodeParrot](https://huggingface.co/codeparrot?WT.mc_id=academic-105485-koreyst), are often trained on large datasets of code, such as GitHub, and can be used to generate new code, or to fix bugs in existing code.
 
 <div class="tb-zh"><p>文本与代码生成模型用来生成文本或代码，常用于文本摘要、翻译与问答。文本生成模型常在大型文本数据集（如 BookCorpus）上训练，可生成新文本或回答问题；代码生成模型如 CodeParrot 通常在 GitHub 等大型代码数据集上训练，可生成新代码或修复已有代码中的 bug。</p></div>
 
-![Text and code generation](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/02-exploring-and-comparing-different-llms/images/Text.png)
+![Text and code generation](/mirror/31/3167e57a61fbd2721f3ca0851ddf8854b10ca8d3.png)
 
 ### Encoder-Decoder versus Decoder-only
 
@@ -206,31 +206,31 @@ Most of the models we mentioned in previous paragraphs (OpenAI models, open-weig
 
 <div class="tb-zh"><p>在目录中查找感兴趣的基础模型，既有 Azure 自售的模型，也有来自合作伙伴与社区提供方的模型；可以按任务、提供方、许可证、部署方式或名称筛选。</p></div>
 
-![Model catalog](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/02-exploring-and-comparing-different-llms/images/AzureAIStudioModelCatalog.png)
+![Model catalog](/mirror/11/11a89fc3a02b3476d45a3e885af1f259b85b580e.png)
 
 - Review the model card, including a detailed description of intended use and training data, code samples and evaluation results on the internal evaluations library.
 
 <div class="tb-zh"><p>查看模型卡，包括预期用途、训练数据的详细说明，以及代码示例和在内部评估库上的评测结果。</p></div>
 
-![Model card](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/02-exploring-and-comparing-different-llms/images/ModelCard.png)
+![Model card](/mirror/90/907eb984beb7d6f6dc141c4c66aa128cd54d5353.png)
 
 - Compare benchmarks across models and datasets available in the industry to assess which one meets the business scenario, through the [Model Benchmarks](https://learn.microsoft.com/azure/ai-foundry/concepts/model-benchmarks?WT.mc_id=academic-105485-koreyst) pane.
 
 <div class="tb-zh"><p>通过 Model Benchmarks 面板，比较业界可用的模型与数据集上的基准成绩，判断哪个模型更契合业务场景。</p></div>
 
-![Model benchmarks](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/02-exploring-and-comparing-different-llms/images/ModelBenchmarks.png)
+![Model benchmarks](/mirror/f6/f674031283918d12c652a729410e472450670384.png)
 
 - Fine-tune supported models on custom training data to improve model performance in a specific workload, leveraging the experimentation and tracking capabilities of Microsoft Foundry.
 
 <div class="tb-zh"><p>用自定义训练数据微调受支持的模型，借助 Microsoft Foundry 的实验与追踪能力提升模型在特定工作负载上的表现。</p></div>
 
-![Model fine-tuning](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/02-exploring-and-comparing-different-llms/images/FineTuning.png)
+![Model fine-tuning](/mirror/48/4843d71f30a5085a1e8d5ba5f01bbcbff9167394.png)
 
 - Deploy the original pre-trained model or the fine-tuned version to a remote real-time inference endpoint, using managed compute or serverless deployment options, to enable applications to consume it.
 
 <div class="tb-zh"><p>把原始预训练模型或微调后的版本部署到远程实时推理端点，可选择托管算力或无服务器（serverless）部署方式，供应用调用。</p></div>
 
-![Model deployment](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/02-exploring-and-comparing-different-llms/images/ModelDeploy.png)
+![Model deployment](/mirror/ef/ef49c77f19be8c35a46d727790123a271477989c.png)
 
 > [!NOTE]
 > Not all models in the catalog are currently available for fine-tuning and/or pay-as-you-go deployment. Check the model card for details on the model's capabilities and limitations.
@@ -263,7 +263,7 @@ There are several approaches a business can use to get the results they need fro
 
 <div class="tb-zh"><p>微调模型（fine-tuned model）：在你自己的数据上继续训练模型，使结果更精确、更贴合需求，但成本可能较高。</p></div>
 
-![LLMs deployment](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/02-exploring-and-comparing-different-llms/images/Deploy.png)
+![LLMs deployment](/mirror/76/7623107fe8f99a83c7eda66b563a89fd36bb17af.png)
 
 Img source: [Four Ways that Enterprises Deploy LLMs | Fiddler AI Blog](https://www.fiddler.ai/blog/four-ways-that-enterprises-deploy-llms?WT.mc_id=academic-105485-koreyst)
 

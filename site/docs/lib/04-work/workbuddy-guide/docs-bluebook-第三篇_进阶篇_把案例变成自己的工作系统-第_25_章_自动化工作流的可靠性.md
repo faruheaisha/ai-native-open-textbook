@@ -32,9 +32,9 @@ AI 内容领域更新速度快，每天需要从多个信息源中筛选当日�
 
 手动运行一次这个任务，WorkBuddy 会同时调用四个数据源，整合输出一份当日 AI 热点清单，供博主快速判断和筛选。
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 25 章 自动化工作流的可靠性/assets/001_image_FGBhb1udco.png)
+![](/mirror/34/34d754c57f520feea5422ee2f063da86da0620ab.png)
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 25 章 自动化工作流的可靠性/assets/002_image_Yuucbmf9So.png)
+![](/mirror/14/14b3df242647a471a827c679191bb687193191cc.png)
 
 跑通一次后，下一步是把它设置为定时自动化任务：每天早上 9:00 自动运行，结果推送到指定位置，无需每天手动触发。
 
@@ -63,13 +63,13 @@ AI 内容领域更新速度快，每天需要从多个信息源中筛选当日�
 
 WorkBuddy 会将当前 Prompt 和数据源配置保存为定时任务，按设定时间自动执行。
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 25 章 自动化工作流的可靠性/assets/003_image_RNrFb50Tqo.png)
+![](/mirror/03/0330d7fa9f023f91d8e055042a6db678aff296e7.png)
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 25 章 自动化工作流的可靠性/assets/004_image_IPtlb5D3Zo.png)
+![](/mirror/f7/f77746797cba4b6aa40c77da244f7c6077caadc2.png)
 
 设置完成后，每天早上 9:00，WorkBuddy 自动调用四个数据源，整合结果并推送。博主打开通知，直接开始筛选选题，不需要手动触发。
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 25 章 自动化工作流的可靠性/assets/005_image_A6Jmbe0tao.png)
+![](/mirror/18/18f1e3d9d36db459e502f46570b605f60c059e9c.png)
 
 ## 把自动化任务设计成状态机
 

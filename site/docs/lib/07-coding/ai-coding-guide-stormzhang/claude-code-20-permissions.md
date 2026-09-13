@@ -93,7 +93,7 @@ zh: ""
 
 > 💡 一句话总结：Manual（`default`）步步问、`acceptEdits` 改码免问、`plan` 只看不动、`auto` 有分类器兜底、`bypassPermissions` 完全裸奔——**记住这条从严到松的光谱，对号入座就行**。
 
-![权限模式松紧光谱：从步步问到全裸奔](https://gh-proxy.com/https://raw.githubusercontent.com/stormzhang/ai-coding-guide/d187dbdb83fa1be051a850074eb518e30e2eb47c/claude-code/assets/20-permission-spectrum@2x.png)
+![权限模式松紧光谱：从步步问到全裸奔](/mirror/f1/f184f9b0e7fd80755e3f390fbfe90eee6c54b6ff.png)
 
 这张图把六种模式排成一条「从最严到最松」的光谱：左边绿区是 `plan` / Manual（只读、步步问，最安全），往右经过 `acceptEdits`（改码免问）、`auto`（分类器兜底），一直到右边红区的 `bypassPermissions`（完全裸奔）——颜色越往右越红，提醒你「越松越要看清自己在哪用」。
 

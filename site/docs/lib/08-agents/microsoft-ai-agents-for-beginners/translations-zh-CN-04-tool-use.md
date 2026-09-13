@@ -221,7 +221,7 @@ AI 代理可以利用工具完成复杂任务、获取信息或做出决策。�
 
 下图说明了 Microsoft 代理框架中函数调用的流程：
 
-![函数调用](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/functioncalling-diagram.a84006fc287f6014.webp)
+![函数调用](/mirror/2a/2ac8e79d7f667f848bbe7dc4879f92ab89ee6391.webp)
 
 在 Microsoft 代理框架中，工具定义为被装饰的函数。我们可以将之前看到的 `get_current_time` 函数用 `@tool` 装饰器转换为工具。框架会自动序列化该函数及其参数，创建发送给 LLM 的 Schema。
 
@@ -277,7 +277,7 @@ Microsoft Foundry 代理服务中的工具可分为两类：
 
 下图展示了如何使用 Microsoft Foundry 代理服务分析销售数据：
 
-![代理服务实操](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/agent-service-in-action.34fb465c9a84659e.webp)
+![代理服务实操](/mirror/38/38c10f691389fe09bf4e62dc2dd7bd3d8e89d3e0.webp)
 
 要使用服务中的任何工具，我们可以创建客户端并定义单个工具或工具集。下面的 Python 代码演示了这一实现。LLM 将能够查看工具集，并根据用户请求决定是使用用户创建的函数 `fetch_sales_data_using_sqlite_query` 还是预构建的代码解释器。
 

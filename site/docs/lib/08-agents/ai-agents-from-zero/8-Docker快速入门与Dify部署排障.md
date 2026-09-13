@@ -91,7 +91,7 @@ Build, Ship and Run Any App, Anywhere
 
 虚拟机会把操作系统也虚拟出来，每个虚拟机都有自己的完整系统；Docker 容器共享宿主机内核，只把应用运行需要的文件、依赖和隔离环境打包起来。
 
-![Docker 与虚拟机在架构层面的区别](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/8/8-1-3-1.png)
+![Docker 与虚拟机在架构层面的区别](/mirror/4d/4d887b8f5f44a027a6b3a3082d647a130a6c6190.png)
 
 主要看三个区别：
 
@@ -110,7 +110,7 @@ Docker 是典型的客户端和服务端架构。
 
 你在终端里执行的 `docker` 命令，是 Docker Client；负责创建容器、拉取镜像、管理网络和数据卷的是 Docker Daemon。镜像通常来自 Docker Hub 或其他镜像仓库。
 
-![Docker 客户端、Docker Daemon 与 Registry 的关系](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/8/8-1-4-1.png)
+![Docker 客户端、Docker Daemon 与 Registry 的关系](/mirror/2d/2dcadc04fe28b795476826c4b8d7c4150e93de69.png)
 
 图里重点画出了四个对象：客户端、Docker 主机、镜像仓库、容器。为了后面能读懂 Dify 的 Compose 文件，这里再把 volume 和 Compose 一起补进来：
 
@@ -199,11 +199,11 @@ Windows 上可以按下面顺序检查：
 
 虚拟化可以在任务管理器里看，确认状态显示为“已启用”：
 
-![在任务管理器中确认 CPU 虚拟化已启用](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/8/8-2-2-1.png)
+![在任务管理器中确认 CPU 虚拟化已启用](/mirror/4c/4c9c34c99aa6367f817509cee67de133fa5db4ee.png)
 
 WSL 2 相关功能可以在 Windows 功能里勾选。不同 Windows 版本的显示文字可能略有差异，重点是启用 Virtual Machine Platform 和 WSL：
 
-![在 Windows 功能中启用虚拟机平台和适用于 Linux 的 Windows 子系统](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/8/8-2-2-2.png)
+![在 Windows 功能中启用虚拟机平台和适用于 Linux 的 Windows 子系统](/mirror/fe/fe12f77be2288f650e78f5b04931ac341d714000.png)
 
 如果需要用命令启用 WSL 和虚拟机平台，可以用管理员 PowerShell 执行：
 
@@ -224,17 +224,17 @@ https://www.docker.com/products/docker-desktop/
 
 选择 Windows 版本下载安装包。
 
-![Docker Desktop 官方下载页面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/8/8-2-3-1.png)
+![Docker Desktop 官方下载页面](/mirror/f6/f643c33952a87d9752784928d4278a335ca11886.png)
 
 ### 2.4 安装并启动 Docker Desktop
 
 双击安装包，按提示完成安装即可。安装过程中如果看到 WSL 2、桌面快捷方式等选项，保持默认配置即可。
 
-![Docker Desktop 安装设置界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/8/8-2-4-1.png)
+![Docker Desktop 安装设置界面](/mirror/cd/cdaf44d4d4efa8e3de9944e02b8484e20329f7da.png)
 
 安装完成后打开 Docker Desktop，确认状态栏显示 **Running**。
 
-![Docker Desktop 成功启动后的主界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/8/8-2-4-2.png)
+![Docker Desktop 成功启动后的主界面](/mirror/63/63345a8d061c80acdbe9c58d2596cd5ff0b509c7.png)
 
 如果 Windows 提示需要安装“适用于 Linux 的 Windows 子系统”，按提示装完，再重新打开 Docker Desktop。
 
@@ -290,7 +290,7 @@ docker pull mysql:8.0.45
 docker images
 ```
 
-![使用 docker images 查看本地 MySQL 镜像](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/8/8-2-6-1.png)
+![使用 docker images 查看本地 MySQL 镜像](/mirror/98/980c2f1fb36918b46bacf2079b118b02e05b61de.png)
 
 启动一个 MySQL 容器：
 
@@ -314,7 +314,7 @@ docker run -d --name mysql-db -p 9999:3306 -e MYSQL_ROOT_PASSWORD=123456 mysql:8
 docker ps
 ```
 
-![使用 docker ps 查看正在运行的 MySQL 容器](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/8/8-2-6-2.png)
+![使用 docker ps 查看正在运行的 MySQL 容器](/mirror/40/405f7ba579cf0bdc8966ab669111d7bc62bf9b7b.png)
 
 这里有两个地址容易混：
 
@@ -361,7 +361,7 @@ print("Python 已成功连接 Docker 中的 MySQL")
 python test_mysql.py
 ```
 
-![本机 Python 脚本成功连接 Docker 中的 MySQL](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/8/8-2-7-1.png)
+![本机 Python 脚本成功连接 Docker 中的 MySQL](/mirror/9e/9ec09d88bf1502afec85a754dc4d8f0da47cc54d.png)
 
 这个小案例不是为了讲 MySQL，而是先把 Docker 的基本动作串起来：
 
@@ -381,7 +381,7 @@ docker ps
 
 命令行里看到的容器列表大致是这样的：
 
-![docker ps 输出中 IMAGE 列与 NAMES 列的区别](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/8/8-2-8-1.png)
+![docker ps 输出中 IMAGE 列与 NAMES 列的区别](/mirror/f6/f65820eb7cbbc0f1786d0ebc73a021af4d7c6e99.png)
 
 输出里常见两列：
 
@@ -397,9 +397,9 @@ docker ps
 
 Docker Desktop 里也能直接区分：
 
-![Docker Desktop 中的 Containers 列表](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/8/8-2-8-2.png)
+![Docker Desktop 中的 Containers 列表](/mirror/26/266dc8aceee2dee82bd12b43e621d9e8a9e860bd.png)
 
-![Docker Desktop 中的 Images 列表](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/8/8-2-8-3.png)
+![Docker Desktop 中的 Images 列表](/mirror/2d/2dd616b2b0bc254dce4af32d6bb7b3a3caa9c1ac.png)
 
 一个镜像可以启动多个容器。Dify 的 `api`、`worker`、`worker_beat` 就可能使用同一个后端镜像，只是启动模式不同。
 
@@ -855,7 +855,7 @@ mysql_data:/var/lib/mysql
 
 Windows 路径写法也遵循同一个规则：冒号左边是宿主机真实目录，右边是容器内目录。容器写入右边目录时，数据会落到左边目录。
 
-![bind mount 中宿主机路径和容器路径的对应关系](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/8/8-4-2-1.png)
+![bind mount 中宿主机路径和容器路径的对应关系](/mirror/42/42e4955ebef57d30124703e4b3487ee4497f0f3d.png)
 
 粗略判断可以这样看：
 
@@ -903,7 +903,7 @@ Docker 官方文档也把 volume 定义为由容器引擎管理的持久化数�
 
 如果你使用的是 Docker Desktop，通常可以在设置中找到 Docker Engine 的配置区域，然后为 `registry-mirrors` 增加镜像地址。Ubuntu 服务器上的配置方式见第 2.10 小节。
 
-![Docker Desktop 的 Docker Engine 配置界面与 registry-mirrors 示例](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/8/8-4-4-1.png)
+![Docker Desktop 的 Docker Engine 配置界面与 registry-mirrors 示例](/mirror/0d/0d789fce740b782a879d18dff8b9a91748e02ced.png)
 
 镜像源可参考 GitHub 上的汇总项目：[dongyubin/DockerHub 国内镜像加速列表](https://github.com/dongyubin/DockerHub)。
 
@@ -982,7 +982,7 @@ docker compose logs python-app
 docker images
 ```
 
-![使用 docker images 确认需要离线迁移的镜像](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/8/8-4-5-1.png)
+![使用 docker images 确认需要离线迁移的镜像](/mirror/8c/8cbc6f170cdbbf947191993d1d21ab0eba4c8400.png)
 
 打包 MySQL 镜像和自定义 Python 镜像：
 
@@ -1039,7 +1039,7 @@ docker compose ps
 docker compose logs python-app
 ```
 
-![离线导入镜像后使用 Compose 启动并验证服务](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/8/8-4-5-2.png)
+![离线导入镜像后使用 Compose 启动并验证服务](/mirror/eb/eb23c6384c754bd50711a2bd0fed7d6c2348da7f.png)
 
 这个思路迁移到 Dify 也一样：提前准备好所需镜像、`.env`、`docker-compose.yaml`、`envs/` 目录、volume / 挂载目录和数据库备份，再到目标服务器导入和启动。
 
@@ -1413,11 +1413,11 @@ docker compose logs -f redis
 
 这类页面不是“正常升级完成”，而是新环境像第一次安装一样重新进入了初始化流程：
 
-![Dify 升级后进入初始化管理员页面的示例](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/8/8-6-4-1.png)
+![Dify 升级后进入初始化管理员页面的示例](/mirror/12/1268056fc29454a8302750bbec63ddc1f8b54248.png)
 
 也可能在浏览器里看到安装/初始化入口。出现这种情况时，不要急着重新初始化，先检查旧数据库是否还在：
 
-![Dify 升级后进入安装入口页面的示例](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/8/8-6-4-2.png)
+![Dify 升级后进入安装入口页面的示例](/mirror/d7/d75fcc766aaa121a9b2bd1fa7c5499a14a4b98c1.png)
 
 先查 PostgreSQL 里是否有用户表数据：
 
@@ -1425,7 +1425,7 @@ docker compose logs -f redis
 docker exec -it docker-db_postgres-1 psql -U postgres -d dify -c "select count(*) as users_count from account;"
 ```
 
-![通过 psql 查询 Dify 用户表记录数以判断是否读到旧数据库](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/8/8-6-4-3.png)
+![通过 psql 查询 Dify 用户表记录数以判断是否读到旧数据库](/mirror/8b/8b28726e021cb5086a115d965d70ca0ebef51074.png)
 
 如果用户表有记录，说明数据库里仍有旧数据；如果为 0 或表不存在，需要继续查库名和挂载。
 
@@ -1440,11 +1440,11 @@ docker volume ls
 
 `docker volume ls` 可以帮助确认当前环境里有哪些 Docker 管理的数据卷：
 
-![使用 docker volume ls 查看 Dify 相关 volume 列表](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/8/8-6-4-4.png)
+![使用 docker volume ls 查看 Dify 相关 volume 列表](/mirror/b1/b13a911a99d5989a39fa4c5697959b795fc6e427.png)
 
 `docker inspect` 的 Mounts 字段能看到数据库容器实际挂载到了哪里：
 
-![使用 docker inspect 查看 PostgreSQL 容器的 Mounts 挂载信息](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/8/8-6-4-5.png)
+![使用 docker inspect 查看 PostgreSQL 容器的 Mounts 挂载信息](/mirror/0e/0eaccaf947e78db6c9ffb6853d0a922965ec3662.png)
 
 常见原因：
 
@@ -1541,7 +1541,7 @@ docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' doc
 
 在 Mac 本地保存服务器私钥，例如：
 
-![在 Mac 本地保存用于 SSH 隧道连接的服务器私钥](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/8/8-6-5-1.png)
+![在 Mac 本地保存用于 SSH 隧道连接的服务器私钥](/mirror/55/5547c30c1fab2efa726f82fe1eb991422a154efa.png)
 
 ```bash
 nano ~/.ssh/aliyun_navicat.pem
@@ -1559,11 +1559,11 @@ ssh -i ~/.ssh/aliyun_navicat.pem \
 
 这个终端窗口需要保持打开。关闭窗口，隧道就断开。
 
-![建立 SSH 隧道后终端保持连接的状态](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/8/8-6-5-2.png)
+![建立 SSH 隧道后终端保持连接的状态](/mirror/fd/fd696d263dca125beecae15c40847b045909e5ab.png)
 
 Navicat 里不要再勾选 SSH 选项，因为隧道已经由命令行建好了。它只需要连接本机端口：
 
-![Navicat 中通过本机 15432 端口连接 PostgreSQL 的配置](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/8/8-6-5-3.png)
+![Navicat 中通过本机 15432 端口连接 PostgreSQL 的配置](/mirror/9b/9ba6017a66ea2366af60d36b7797e7d61cd34ded.png)
 
 常见填写方式：
 
@@ -1577,7 +1577,7 @@ Navicat 里不要再勾选 SSH 选项，因为隧道已经由命令行建好了�
 
 连接成功后，就可以像普通 PostgreSQL 一样查看 Dify 表结构和数据：
 
-![Navicat 成功连接 Dify PostgreSQL 数据库后的表结构视图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/8/8-6-5-4.png)
+![Navicat 成功连接 Dify PostgreSQL 数据库后的表结构视图](/mirror/77/777c565aaa57316edfa1e0e2890cd794a91e494c.png)
 
 生产环境里，查看表结构通常没问题；如果要改数据、删数据或批量更新，先备份，再确认影响范围。
 
@@ -1649,11 +1649,11 @@ docker compose down
 
 执行后，终端里通常会看到容器和网络被移除：
 
-![执行 docker compose down 后容器和网络被移除的终端输出](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/8/8-7-1-1.png)
+![执行 docker compose down 后容器和网络被移除的终端输出](/mirror/06/06c9bd3e086770ef00fd042911a54f28879989b7.png)
 
 可以再看一眼 volume 是否仍然存在：
 
-![docker compose down 后使用 docker volume ls 确认 volume 仍然存在](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/8/8-7-1-2.png)
+![docker compose down 后使用 docker volume ls 确认 volume 仍然存在](/mirror/c4/c4449611d24163da203ea04310fa836acd5562da.png)
 
 **第 5 步：准备新版本**
 

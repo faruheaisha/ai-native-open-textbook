@@ -50,7 +50,7 @@ MCP 是一套开放协议，用统一方式描述 Agent 可以使用的工具与
   -> Deep Agent 继续推理并回答
 ```
 
-![MCP 接入 Deep Agents 的分层架构：用户请求由 Deep Agent 规划，经 LangChain Tool 和 langchain-mcp-adapters 转换，通过 MCP Client 与 Session 调用本地或远程 MCP Server，结果以 ToolMessage 返回 Agent](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/deepagents-in-action/4097ff944f9ffa1bdfe2dd04f751f4416b058860/public/imgs/36-framework-mcp-integration-layers.png)
+![MCP 接入 Deep Agents 的分层架构：用户请求由 Deep Agent 规划，经 LangChain Tool 和 langchain-mcp-adapters 转换，通过 MCP Client 与 Session 调用本地或远程 MCP Server，结果以 ToolMessage 返回 Agent](/mirror/34/344457a2bb8c815d32935e683837a1e356163eb1.png)
 
 `create_deep_agent()` 不直接接收 MCP 配置，也不负责 MCP Session 的生命周期。应用先通过客户端加载工具，再把得到的 LangChain Tool 列表传入 `tools=`。下面是**示意片段**；它省略了 `MultiServerMCPClient` 与 `create_deep_agent` 的导入，以及 `client`、`model` 的定义，并且必须放在异步函数内执行：
 
@@ -213,7 +213,7 @@ required: ['a', 'b']
 5. LangChain Tool 可以发起真实 MCP 调用
 6. Server 的返回值可以转换成 LangChain 内容块
 
-![MCP 分层验证路径：先验证 Server 函数，再完成工具发现与 Schema 转换，随后直接异步调用 LangChain Tool，最后才接入 Deep Agent 与模型](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/deepagents-in-action/4097ff944f9ffa1bdfe2dd04f751f4416b058860/public/imgs/37-flowchart-mcp-validation-path.png)
+![MCP 分层验证路径：先验证 Server 函数，再完成工具发现与 Schema 转换，随后直接异步调用 LangChain Tool，最后才接入 Deep Agent 与模型](/mirror/f5/f5a62d7164cbb8b891371f81e05d5427d02688ab.png)
 
 ### 为什么结果不是裸整数
 

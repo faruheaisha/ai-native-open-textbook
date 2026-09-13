@@ -129,8 +129,9 @@ const SITE = {
 const TIER_LABEL = { 1: "主线", 2: "进阶", 3: "参考" };
 
 function blobUrl(s, rel) {
-  if (s.repo && s.commit) return `https://github.com/${s.repo}/blob/${s.commit}/${rel}`;
-  if (s.repo) return `https://github.com/${s.repo}/blob/HEAD/${rel}`;
+  const p = encodePathForUrl(rel);
+  if (s.repo && s.commit) return `https://github.com/${s.repo}/blob/${s.commit}/${p}`;
+  if (s.repo) return `https://github.com/${s.repo}/blob/HEAD/${p}`;
   return s.site || null;
 }
 
@@ -149,6 +150,7 @@ function upstreamUrl(s) {
 // 表不存在或读坏了都只是退化为「全部走加速通道」，不能让生成流程失败。
 const RAW_HOST = "https://raw.githubusercontent.com/";
 const RAW_PROXY = process.env.TB_RAW_PROXY === undefined ? "https://gh-proxy.com/" : process.env.TB_RAW_PROXY;
+const PUBLIC_DIR = path.join(DOCS, "public");
 const MIRROR_INDEX = (() => {
   const f = path.join(DOCS, "mirror-index.json");
   const m = new Map();
@@ -162,6 +164,16 @@ const MIRROR_INDEX = (() => {
 })();
 const imgStat = { local: 0, remap: 0, proxied: 0 };
 
+// 上游目录名里带空格与全角冒号（「第一篇 使用手册：先把 WorkBuddy 用起来」）。
+// 把这种路径原样拼进 ![](…) 或 […](…) ，markdown 会在**空格**处截断地址：
+// 读者看到的是半截地址，后半段变成正文里「一堆看不懂的内容」，图片和链接全废。
+// 只编码会破坏 markdown 语法的字符；中文等交给浏览器自己处理，
+// 这样 mirror-index 里按原始地址存的键还能对上。
+const URL_NEEDS_ESCAPE = /[ ()<>"'\u0060]/g;
+function encodePathForUrl(rel) {
+  return String(rel).replace(URL_NEEDS_ESCAPE, (ch) => "%" + ch.charCodeAt(0).toString(16).toUpperCase().padStart(2, "0"));
+}
+
 // 查表用的键：查询串与片段对图片本体没有意义，去掉后才好对齐。
 function rawKey(u) {
   return String(u).split("#")[0].split("?")[0];
@@ -173,11 +185,29 @@ function rawKey(u) {
 //   3. 其余 -> 原地址套加速通道前缀；通道关掉（TB_RAW_PROXY=""）时原样返回。
 function localizeRaw(url) {
   if (!url || url.indexOf(RAW_HOST) !== 0) return url;
-  const hit = MIRROR_INDEX.get(rawKey(url)) || MIRROR_INDEX.get(url);
+  let hit = MIRROR_INDEX.get(rawKey(url)) || MIRROR_INDEX.get(url);
+  if (!hit && /%[0-9A-Fa-f]{2}/.test(url)) {
+    // 表是按原始地址（含空格）存的，这里把编码还原后再查一次
+    try {
+      const plain = decodeURIComponent(rawKey(url));
+      hit = MIRROR_INDEX.get(plain) || MIRROR_INDEX.get(decodeURIComponent(url));
+    } catch {
+      /* 还原失败就当作没命中 */
+    }
+  }
   if (hit) {
-    if (hit.startsWith("/")) { imgStat.local += 1; return hit; }
-    imgStat.remap += 1;
-    return RAW_PROXY ? RAW_PROXY + hit : hit;
+    if (hit.startsWith("/")) {
+      // 表里的站内路径只在 public 下真有这个文件时才用。
+      // 镜像目录（约 570MB 第三方截图）不进仓库：clone 出来直接构建时这里会落空，
+      // 必须退回加速通道，否则整站图片都是死链。
+      if (fs.existsSync(path.join(PUBLIC_DIR, hit.slice(1)))) {
+        imgStat.local += 1;
+        return hit;
+      }
+    } else {
+      imgStat.remap += 1;
+      return RAW_PROXY ? RAW_PROXY + hit : hit;
+    }
   }
   if (!RAW_PROXY) return url;
   imgStat.proxied += 1;
@@ -185,7 +215,9 @@ function localizeRaw(url) {
 }
 
 function rawUrl(s, rel) {
-  if (s.repo && s.commit) return localizeRaw(`https://raw.githubusercontent.com/${s.repo}/${s.commit}/${rel}`);
+  if (s.repo && s.commit) {
+    return localizeRaw(`https://raw.githubusercontent.com/${s.repo}/${s.commit}/${encodePathForUrl(rel)}`);
+  }
   return null;
 }
 

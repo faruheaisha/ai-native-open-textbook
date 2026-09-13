@@ -29,7 +29,7 @@ cp default_workspace/config.example.yaml default_workspace/config.user.yaml
 
 让智能体能真正*做事*——不只是聊天。
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/czl9707/build-your-own-openclaw/37ae5dd255a0451609e67ad6d6a51fa5de80523c/01-tools/01-tools.svg" align="center" width="100%" />
+<img src="/mirror/20/20b6b3f14cfe413fc00d6c2f2519c95a18999ed0.svg" align="center" width="100%" />
 
 ## 关键组件
 

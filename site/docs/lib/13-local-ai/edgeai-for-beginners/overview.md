@@ -14,7 +14,7 @@ zh: "on"
 
 # EdgeAI for Beginners 
 
-![Course cover image](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/edgeai-for-beginners/e88f123a4bb5796594919db3a13257c429d1288c/imgs/cover.png)
+![Course cover image](/mirror/b0/b0e31b10e23dc3e87d20c8e696d84ff1daca4dce.png)
 
 ## Introduction
 

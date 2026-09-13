@@ -39,7 +39,7 @@ Claude Code 是目前使用最广泛的 AI 编程 Agent，也是我们认为最�
 
 我们和 Claude Code 加班从源码中提炼出 16 篇专题文档，覆盖了从核心循环到安全防护的每一个关键设计决策。不管你是想造自己的 AI Agent，还是想更深入地理解和使用 Claude Code，这里都是最短路径（应该？就算不是最短的，我们也会不断更新这个项目）。
 
-  <img alt="在线阅读文档网站截图" src="https://gh-proxy.com/https://raw.githubusercontent.com/Windy3f3f3f3f/how-claude-code-works/f4d6505ed9162a0ee6be089190f74c419ecacb19/assets/architecture.png" width="800" />
+  <img alt="在线阅读文档网站截图" src="/mirror/8c/8c27733aa951b9e2adeac9ffbfbf1a2f85536fc4.png" width="800" />
 
 ## 🏗️ 系统架构
 
@@ -219,7 +219,7 @@ Claude Code 支持三种多 Agent 模式：
 
 ## 🤝 贡献者
 
-| <img src="https://github.com/Windy3f3f3f3f.png" width="60" /> | <img src="https://github.com/davidweidawang.png" width="60" /> | <img src="https://gh-proxy.com/https://raw.githubusercontent.com/Windy3f3f3f3f/how-claude-code-works/f4d6505ed9162a0ee6be089190f74c419ecacb19/assets/kaibo.jpg" width="60" /> | <img src="https://github.com/longx24.png" width="60" /> |
+| <img src="https://github.com/Windy3f3f3f3f.png" width="60" /> | <img src="https://github.com/davidweidawang.png" width="60" /> | <img src="/mirror/de/de6a92f13e81fed3ef6c97c00d75a85cbe47416c.jpg" width="60" /> | <img src="https://github.com/longx24.png" width="60" /> |
 |:---:|:---:|:---:|:---:|
 | [@Windy3f3f3f3f](https://github.com/Windy3f3f3f3f) | [@davidweidawang](https://github.com/davidweidawang) | [Kaibo Huang](https://scholar.google.com/citations?user=C7B5X5IAAAAJ&hl=zh-CN) | [@longx24](https://github.com/longx24) |
 
@@ -233,7 +233,7 @@ Claude Code 支持三种多 Agent 模式：
 
 **加入 AI Agent 工坊 交流群**
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/Windy3f3f3f3f/how-claude-code-works/f4d6505ed9162a0ee6be089190f74c419ecacb19/assets/qq.jpg" width="280" alt="QQ 群二维码" />
+<img src="/mirror/9a/9ae63d220449f4f5d0f159e98759e32e28dfa3bc.jpg" width="280" alt="QQ 群二维码" />
 
 QQ 群号：1090526244
 

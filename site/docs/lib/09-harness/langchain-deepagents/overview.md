@@ -14,9 +14,9 @@ zh: ""
 
 # LangChain DeepAgents
 
-<source media="(prefers-color-scheme: dark)" srcset="https://gh-proxy.com/https://raw.githubusercontent.com/langchain-ai/deepagents/d93ab3351bbf4c3687212f665094ccad100f2c08/.github/images/logo-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://gh-proxy.com/https://raw.githubusercontent.com/langchain-ai/deepagents/d93ab3351bbf4c3687212f665094ccad100f2c08/.github/images/logo-light.svg">
-      <img alt="Deep Agents Logo" src="https://gh-proxy.com/https://raw.githubusercontent.com/langchain-ai/deepagents/d93ab3351bbf4c3687212f665094ccad100f2c08/.github/images/logo-dark.svg" width="50%">
+<source media="(prefers-color-scheme: dark)" srcset="/mirror/18/189ebcf3c6787085937eb051e680d286714fed26.svg">
+      <source media="(prefers-color-scheme: light)" srcset="/mirror/c9/c9388249bafa67ab09a9d3b6215cd312dd2d8fa3.svg">
+      <img alt="Deep Agents Logo" src="/mirror/18/189ebcf3c6787085937eb051e680d286714fed26.svg" width="50%">
 
   <h3>The batteries-included agent harness.</h3>
 

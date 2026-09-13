@@ -14,7 +14,7 @@ zh: "on"
 
 # WISC Framework: Context Engineering for AI Coding
 
-![WISC Framework](https://gh-proxy.com/https://raw.githubusercontent.com/coleam00/context-engineering-intro/a2d84b021cee1e2f4e77ba854bba0be8cb319035/use-cases/ai-coding-wisc-framework/WISCFrameworkForAICoding.png)
+![WISC Framework](/mirror/c0/c07b6753088106dbd2eba669fa042c8a4388d5fa.png)
 
 ## What is WISC?
 

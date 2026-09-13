@@ -16,7 +16,7 @@ zh: ""
 
 > 一个从概念理解到独立实践的 Harness Engineering 深度学习档案
 
-[![驭缰工程 —— 人类掌舵，智能体执行（项目介绍 PPT 封面 · 2026-08 快照）](https://gh-proxy.com/https://raw.githubusercontent.com/deusyu/harness-engineering/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/harness-engineering-intro-deck/cover.jpg)](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/harness-engineering-intro-deck/README.md)
+[![驭缰工程 —— 人类掌舵，智能体执行（项目介绍 PPT 封面 · 2026-08 快照）](/mirror/f1/f1043e93ca6c50bafb7015ce711924bc13120ac9.jpg)](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/harness-engineering-intro-deck/README.md)
 
 <p align="center"><sub>封面取自仓库自产的<a href="https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/harness-engineering-intro-deck/README.md">项目介绍 PPT + 海报</a>——open-kimi-ppt skill 生成，PPTD 源同仓可编辑</sub></p>
 

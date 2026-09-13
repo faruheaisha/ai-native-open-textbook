@@ -35,7 +35,7 @@ zh: ""
   </tr>
 </table>
 
-![Architecture Overview](https://gh-proxy.com/https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/images/architecture-overview.svg)
+![Architecture Overview](/mirror/ae/aec3dd470d17faaeb0f40645fe2f7c632d26c9e6.svg)
 
 ---
 

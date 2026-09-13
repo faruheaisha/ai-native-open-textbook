@@ -31,7 +31,7 @@ A comprehensive Jupyter notebook that guides students through:
    - Implementing date-based filtering for targeted paper retrieval
    - Testing CS.AI category searches with proper API etiquette
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/jamwithai/production-agentic-rag-course/424a0eb99edf841994f2a9a053912b489d2a94ff/static/week2_data_ingestion_flow.png" alt="Week 2 Data Ingestion Architecture" width="800">
+  <img src="/mirror/24/24a0f27081fb6c014f11fe34f71095864ab0858a.png" alt="Week 2 Data Ingestion Architecture" width="800">
 
 **Data Pipeline Overview:**
 - **MetadataFetcher**: 🎯 Main orchestrator coordinating the entire pipeline

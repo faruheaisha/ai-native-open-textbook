@@ -20,7 +20,7 @@ The Output page shows your **Code Output** -- how much code your AI assistants h
 
 ## Code Output
 
-![Code Output](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/screenshots/screen-output.png)
+![Code Output](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/docs/themes/coach/static/screenshots/screen-output.png)
 
 The Code Output tab measures how much code your AI assistants have generated:
 

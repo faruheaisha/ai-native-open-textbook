@@ -42,7 +42,7 @@ pip install "hello-agents[all]==0.2.8"
 
 所谓“上下文”，是指在对大语言模型（LLM）进行采样时所包含的那组 tokens。手头的工程问题，是在 LLM 的固有约束之下，<strong>优化这些 tokens 的效用</strong>，以便稳定地得到预期结果。想要有效驾驭 LLM，往往需要“在上下文中思考”——也就是说：在任何一次调用时，都要审视 LLM 可见的整体状态，并预判这种状态可能诱发的行为。
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/9-figures/9-1.webp" alt="" width="85%"/>
+  <img src="/mirror/54/5472bd3e0863d0ad147a00ef51bc996fb85e4f12.webp" alt="" width="85%"/>
   <p>图 9.1 Prompt engineering vs Context engineering</p>
 
 本节将探讨正在兴起的上下文工程，并给出一个用于构建<strong>可调控、有效</strong>智能体的精炼心智模型。
@@ -86,7 +86,7 @@ pip install "hello-agents[all]==0.2.8"
 
 总的指导思想是：<strong>信息充分但紧致</strong>。如图9.2所示，是进入运行时的动态检索。
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/9-figures/9-2.webp" alt="" width="85%"/>
+  <img src="/mirror/88/8870b1005ef35cebbbb196e13a680469e2cb696a.webp" alt="" width="85%"/>
   <p>图 9.2 Calibrating the system prompt</p>
 
 
@@ -2060,7 +2060,7 @@ context = context_builder.build(
 
 我们的代码库维护助手采用三层架构，如图9.3所示：
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/9-figures/9-3.png" alt="" width="85%"/>
+  <img src="/mirror/5e/5ef6a9685d8d17caa85a5e83d5f441aa5fc6d780.png" alt="" width="85%"/>
   <p>图 9.3 代码库维护助手三层架构</p>
 
 

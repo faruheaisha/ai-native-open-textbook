@@ -99,7 +99,7 @@ MCP（Model Context Protocol，模型上下文协议）是让 AI 无缝连接外
 
 **1.微信公众号**
 
-![wx_gh](https://gh-proxy.com/https://raw.githubusercontent.com/EmbraceAGI/awesome-chatgpt-zh/f7c206f6b3e27dae3f4fa7fb1eee1852c72b1f68/imgs/qrcode_for_wx_gh.jpg)
+![wx_gh](/mirror/92/9287cee563eecf73047a1e16e9bd9672c2ee06e3.jpg)
 
 **2.Telegram 电报**
 

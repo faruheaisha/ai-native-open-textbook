@@ -22,4 +22,4 @@ zh: ""
 - [【文档类】｜快速写好通知/请示/公告等材料](/lib/04-work/qwenwork-guide/docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-部分_实战案例_从具体任务_走向AI_Native-_文档类_快速写好通知_请示_公告等材料)
 - [电商运营-电商经营数据大屏「官方案例」](/lib/04-work/qwenwork-guide/docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-部分_实战案例_从具体任务_走向AI_Native-电商运营-电商经营数据大屏_官方案例_)
 - [自媒体-上传录音，克隆自己的声音做口播](/lib/04-work/qwenwork-guide/docs-greenbook-第二部分_实战案例_从具体任务_走向AI_Native-部分_实战案例_从具体任务_走向AI_Native-自媒体-上传录音_克隆自己的声音做口播)
-- [[实战案例]｜如何用 Remotion Skills 做视频](https://github.com/wangxiaoshuai1998/QwenWorkGuide/blob/002f698a68b69d3635acf6be0d6e27db69069071/greenbook/第二部分 实战案例 从具体任务，走向AI Native/[实战案例]｜如何用 Remotion Skills 做视频/index.md)
+- [[实战案例]｜如何用 Remotion Skills 做视频](https://github.com/wangxiaoshuai1998/QwenWorkGuide/blob/002f698a68b69d3635acf6be0d6e27db69069071/greenbook/第二部分%20实战案例%20从具体任务，走向AI%20Native/[实战案例]｜如何用%20Remotion%20Skills%20做视频/index.md)

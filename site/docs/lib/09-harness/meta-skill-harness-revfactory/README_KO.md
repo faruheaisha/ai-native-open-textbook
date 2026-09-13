@@ -130,7 +130,7 @@ Claude Code에서 다음과 같이 트리거한다:
 | **에이전트 팀** (기본) | TeamCreate + SendMessage + TaskCreate | 2개 이상 에이전트, 협업 필요 |
 | **서브 에이전트** | Agent 도구 직접 호출 | 단발성 작업, 통신 불필요 |
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/revfactory/harness/cceac68ea1d0ad198ef4b7b906cd238375836387/harness_team.png" alt="Harness Agent Team" width="500">
+  <img src="/mirror/91/91d21972155199be71cb22b20f1137b1969d62a7.png" alt="Harness Agent Team" width="500">
 
 ### 아키텍처 패턴
 

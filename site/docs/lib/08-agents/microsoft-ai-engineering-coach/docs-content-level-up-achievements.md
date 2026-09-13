@@ -16,7 +16,7 @@ zh: ""
 
 The Achievements page tracks your journey to mastering AI-assisted development through an XP-based progression system.
 
-![Achievements](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/screenshots/screen-achievements.png)
+![Achievements](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/docs/themes/coach/static/screenshots/screen-achievements.png)
 
 ## AI Engineer Roadmap
 

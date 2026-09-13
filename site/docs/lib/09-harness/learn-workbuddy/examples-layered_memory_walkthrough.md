@@ -18,7 +18,7 @@ zh: ""
 
 它没有新增 Memory 核心包，也没有复制章节实现。`code.py` 直接加载 S09–S14 的现有教学入口，只承担编排、故障注入和跨重启断言。
 
-![Layered Memory Walkthrough 架构](https://gh-proxy.com/https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/examples/layered_memory_walkthrough/images/layered-memory.svg)
+![Layered Memory Walkthrough 架构](/mirror/32/323d3fd350fe8d36e7c2c8a7734bd339cbd009aa.svg)
 
 ## 代码架构图
 

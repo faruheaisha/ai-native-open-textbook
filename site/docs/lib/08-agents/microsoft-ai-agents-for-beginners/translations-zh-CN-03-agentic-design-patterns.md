@@ -41,7 +41,7 @@ zh: ""
 
 ## 代理设计原则
 
-![代理设计原则](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/agentic-design-principles.1cfdf8b6d3cc73c2.webp)
+![代理设计原则](/mirror/07/07ec9233ce9373d1ba319bee366f7438fea9d1d1.webp)
 
 ### 代理（空间）
 

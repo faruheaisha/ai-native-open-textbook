@@ -14,7 +14,7 @@ zh: ""
 
 # 初学者人工智能代理课程
 
-![初学者人工智能代理](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/repo-thumbnailv3.917487e234b90100.webp)
+![初学者人工智能代理](/mirror/3e/3ebadeb4a1fd2effe94c2b8d513c5cd0cc3cff09.webp)
 
 ## 教授开始构建人工智能代理所需的一切知识的课程
 

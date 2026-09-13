@@ -28,7 +28,7 @@ We at the [DAIR.AI Academy](https://academy.dair.ai/) and other folks from [Lang
 
 Here is an example of a deep agent built to power the [DAIR.AI Academy's](https://academy.dair.ai/) customer support system intended for students to ask questions regarding our trainings and courses:
 
-![deep-agent](https://gh-proxy.com/https://raw.githubusercontent.com/dair-ai/Prompt-Engineering-Guide/57673726396dd94acb23bdb1e67f27c78ee85a8e/img/agents/customer-support-deep-agent.png)
+![deep-agent](/mirror/82/823f5de6b3fea09b4a2fa48f2111e3a93a47b65b.png)
 
 This post is based on our new course ["Building Effective AI Agents with n8n"](https://academy.dair.ai/courses/building-effective-ai-agents), which provides comprehensive insights, downloadable templates, prompts, and advanced tips into designing and implementing deep agents.
 
@@ -36,7 +36,7 @@ Here’s roughly the core idea behind Deep Agents (based on my own thoughts and 
 
 ## Planning
 
-![cs-planning](https://gh-proxy.com/https://raw.githubusercontent.com/dair-ai/Prompt-Engineering-Guide/57673726396dd94acb23bdb1e67f27c78ee85a8e/img/agents/cs-planning.png)
+![cs-planning](/mirror/df/dfe90bfd797e69b662ad05674311b1689326acd4.png)
 
 Instead of reasoning ad-hoc inside a single context window, Deep Agents maintain structured task plans they can update, retry, and recover from. Think of it as a living to-do list that guides the agent toward its long-term goal. To experience this, just try out Claude Code or Codex for planning; the results are significantly better once you enable it before executing any task. 
 
@@ -44,7 +44,7 @@ We have also written recently on the power of brainstorming for longer with Clau
 
 ## Orchestrator & Sub-agent Architecture
 
-![cs-subagents](https://gh-proxy.com/https://raw.githubusercontent.com/dair-ai/Prompt-Engineering-Guide/57673726396dd94acb23bdb1e67f27c78ee85a8e/img/agents/cs-subagents.png)
+![cs-subagents](/mirror/9b/9b41082eb97fc721fc394e67284739f031b7b41f.png)
 
 One big agent (typically with a very long context) is no longer enough. I've seen [arguments](https://cognition.ai/blog/dont-build-multi-agents) against multi-agent systems and in favor of monolithic systems, but I'm skeptical about this. 
 
@@ -56,7 +56,7 @@ I wrote a few notes on the power of using orchestrator and subagents [here](http
 
 ## Context Retrieval and Agentic Search
 
-![persistent-storage](https://gh-proxy.com/https://raw.githubusercontent.com/dair-ai/Prompt-Engineering-Guide/57673726396dd94acb23bdb1e67f27c78ee85a8e/img/agents/cs-persistent-storage.png)
+![persistent-storage](/mirror/f7/f7041ca88f270947a27dd4d831da6e5416df0127.png)
 
 Deep Agents don’t rely on conversation history alone. They store intermediate work in external memory like files, notes, vectors, or databases, letting them reference what matters without overloading the model’s context. High-quality structured memory is a thing of beauty. 
 
@@ -70,7 +70,7 @@ Read our previous guide on context engineering to learn more: [Context Engineeri
 
 ## Verification
 
-![verification agent](https://gh-proxy.com/https://raw.githubusercontent.com/dair-ai/Prompt-Engineering-Guide/57673726396dd94acb23bdb1e67f27c78ee85a8e/img/agents/cs-verification-agent.png)
+![verification agent](/mirror/fd/fdde5538ca459df14be45b1fa06d9f9be04e2806.png)
 
 Next to context engineering, verification is one of the most important components of an agentic system (though less often discussed). Verification boils down to verifying outputs, which can be automated (LLM-as-a-Judge) or done by a human. Because of the effectiveness of modern LLMs at generating text (in domains like math and coding), it's easy to forget that they still suffer from hallucination, sycophancy, prompt injection, and a number of other issues. Verification helps with making your agents more reliable and more production-ready. You can build good verifiers by leveraging systematic evaluation pipelines.
 

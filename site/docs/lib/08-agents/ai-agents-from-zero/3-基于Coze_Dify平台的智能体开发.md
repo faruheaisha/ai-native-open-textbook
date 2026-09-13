@@ -74,7 +74,7 @@ zh: ""
 
 **举例 1：HyperWrite 研发的个人助理型智能体，可自动预订航班机票**
 
-![HyperWrite 个人助理型智能体自动预订航班机票的示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-1-1-1.png)
+![HyperWrite 个人助理型智能体自动预订航班机票的示意图](/mirror/00/0090359b7fc21863ca3a17b2cb7506d7e2d5615a.png)
 
 这类智能体不是只会回答问题，而是会**围绕一个目标去调用工具并完成动作**。
 
@@ -82,13 +82,13 @@ zh: ""
 
 情感沟通类智能体“`林间聊愈室`”app 上线，收获大量用户好评。其中产品使用小动物的角色设定降低了用户的戒备心，加上治愈的画风和场景设计，打造独特的用户体验。
 
-![情感沟通类智能体林间聊愈室的产品界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-1-1-2.png)
+![情感沟通类智能体林间聊愈室的产品界面示意图](/mirror/48/48ed26b9bc7aa38cf18dd84495cc7d67fb7448ee.png)
 
 这类产品说明：哪怕没有复杂工具，仅靠角色设定、对话体验和风格设计，也能做出有价值的智能体产品。
 
 **举例 3：Shopify 多模态智能体**
 
-![Shopify 多模态智能体分析商品图像与库存环境的示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-1-1-3.png)
+![Shopify 多模态智能体分析商品图像与库存环境的示意图](/mirror/ad/ad793a3323b698ab7a96e135bd2e93fe2c1c7278.png)
 
 Shopify 多模态智能体图片识别功能，分析产品图像、货架状况和仓库环境，有助于快速评估库存水平、识别损坏情况并有效进行产品分类。
 
@@ -96,7 +96,7 @@ Shopify 多模态智能体图片识别功能，分析产品图像、货架状况
 
 **举例 4：豆包上集成的多种智能体**
 
-![豆包上集成多种智能体的界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-1-1-4.png)
+![豆包上集成多种智能体的界面示意图](/mirror/b8/b816e01a00afdf8d835aad2c74dea038bf88cf47.png)
 
 这类平台型智能体最适合做“**快速验证需求、快速交付给用户体验**”。
 
@@ -104,7 +104,7 @@ Shopify 多模态智能体图片识别功能，分析产品图像、货架状况
 
 开发的智能体可以一键发布到豆包、飞书、微信公众号等多个社交平台和应用程序上。
 
-![Coze 智能体可一键发布到多个平台的示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-1-1-5.png)
+![Coze 智能体可一键发布到多个平台的示意图](/mirror/e7/e750f1a698edd4d986147c6971c28023d9ddf495.png)
 
 ### 1.4 平台智能体通常由哪些能力组成？
 
@@ -124,11 +124,11 @@ OpenAI 前研究负责人 Lilian Weng 在 2023 年的文章中，对当时常见
 
 智能体架构：
 
-![Lilian Weng 文章中关于 AI Agent 组成模块的概览图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-1-5-1.png)
+![Lilian Weng 文章中关于 AI Agent 组成模块的概览图](/mirror/6f/6fa145fdc0a070c3dbc410a0cff7805326e21bab.png)
 
 文章链接如下：https://lilianweng.github.io/posts/2023-06-23-agent/
 
-![AI Agent 架构图中关于规划、记忆与工具协同方式的说明](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-1-5-2.svg)
+![AI Agent 架构图中关于规划、记忆与工具协同方式的说明](/mirror/11/114bb0f8b33cc79e31bb00e0d51f2a10f1549c1d.svg)
 
 下面我们只保留对平台学习最有帮助的理解。
 
@@ -141,7 +141,7 @@ OpenAI 前研究负责人 Lilian Weng 在 2023 年的文章中，对当时常见
 
 - **短期记忆**：主要是当前对话上下文，受上下文窗口限制。
 
-  ![短期记忆在对话上下文中的示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-1-5-3.png)
+  ![短期记忆在对话上下文中的示意图](/mirror/fc/fc9fec3f5c958eb735961cb1ebb0a4aecc317763.png)
 
 - **长期记忆**：跨轮次、跨任务保留信息，平台里往往通过变量、数据库、知识库或总结机制来近似实现。
 
@@ -149,7 +149,7 @@ OpenAI 前研究负责人 Lilian Weng 在 2023 年的文章中，对当时常见
 
 **3. 工具使用（Tool Use）解决“模型本身做不了什么”的问题**
 
-![工具使用扩展大模型能力边界的示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-1-5-4.png)
+![工具使用扩展大模型能力边界的示意图](/mirror/31/31abd4b030b01ee5700e96db5cdba998ec730244.png)
 
 - 例如联网搜索、订单查询、数据库写入、调用外部接口。
 - 这是平台智能体和普通聊天机器人最重要的分水岭之一。
@@ -159,16 +159,16 @@ OpenAI 前研究负责人 Lilian Weng 在 2023 年的文章中，对当时常见
 - 工作流更适合**固定步骤**任务。
 - 更自主的 Agent 更适合**目标开放、需要临场判断**的任务。
 
-![规划与任务拆解的示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-1-5-5.png)
+![规划与任务拆解的示意图](/mirror/f1/f17a357e20a9df10c0c3982d57a9d62aeb01962c.png)
 
-![规划与反思机制的示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-1-5-6.png)
+![规划与反思机制的示意图](/mirror/c2/c2555123209d96219796a92587a7d6652cc36ea2.png)
 
 **5. 行动（Action）是真正把决策落实成结果**
 
 - 比如发起搜索、调用模型、生成图片、写入记录、汇总回答。
 - 多个智能体之间也可以协作，从单智能体升级到多智能体系统。
 
-![多智能体协作完成复杂任务的示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-1-5-7.png)
+![多智能体协作完成复杂任务的示意图](/mirror/43/43d3bbf1f63014f86e480587215b412c36d1047d.png)
 
 ### 1.5 平台生态、应用场景与发展方向
 
@@ -176,21 +176,21 @@ OpenAI 前研究负责人 Lilian Weng 在 2023 年的文章中，对当时常见
 
 将 AI 和人类协作的程度类比自动驾驶的不同阶段：
 
-![将 AI 与人类协作程度类比自动驾驶分级的示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-1-2-1.png)
+![将 AI 与人类协作程度类比自动驾驶分级的示意图](/mirror/0e/0e1807522f3447ed9bdb2dd3d151e17e440bd98f.png)
 
 研究 AI 智能体的终极愿景，是让系统逐步具备更强的感知、决策与执行能力，最终向 AGI 靠近：
 
-![从当前智能体能力走向 AGI 的发展阶段示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-1-2-2.png)
+![从当前智能体能力走向 AGI 的发展阶段示意图](/mirror/04/04e85ec9625f3516d9170178b16ae8a8a7d9895f.png)
 
 国内大模型厂商也都在快速布局智能体平台和应用生态：
 
-![国内大模型厂商也都在快速布局智能体平台和应用生态的界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-1-1-3.png)
+![国内大模型厂商也都在快速布局智能体平台和应用生态的界面示意图](/mirror/ad/ad793a3323b698ab7a96e135bd2e93fe2c1c7278.png)
 
 > 比如，用户可以在该平台上创建、配置和管理聊天机器人和智能体。
 
 智能体的应用领域也已经非常广泛：
 
-![智能体在不同行业和场景中的应用示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-1-4-1.png)
+![智能体在不同行业和场景中的应用示意图](/mirror/53/5307164e0999dbceca01e96a278919ee00e29880.png)
 
 在不久的将来，**智能体会越来越像 AI 系统里的最小工作单元**。对普通用户来说，它像助手；对企业来说，它更像一个可配置、可调用、可交付的智能任务单元。
 
@@ -213,7 +213,7 @@ OpenAI 前研究负责人 Lilian Weng 在 2023 年的文章中，对当时常见
 - 模型围绕一个目标，自主进行任务拆分、工具选择和过程推进。
 - 更灵活，但也更难控、更难调试。
 
-![平台智能体 Level 1、Level 2、Level 3 的区别示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-1-6-1.png)
+![平台智能体 Level 1、Level 2、Level 3 的区别示意图](/mirror/d8/d8b8d94b649dbe77a25bb1408fd6387bbd0760ad.png)
 
 > - 只是要一个有角色感的助手，用 Level 1 就够。
 > - 任务步骤固定、希望稳定可控，用 Level 2。
@@ -235,49 +235,49 @@ OpenAI 前研究负责人 Lilian Weng 在 2023 年的文章中，对当时常见
 
 #### 步骤 1：创建智能体
 
-![在 Cherry Studio 中进入智能体创建入口的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-2-1-1.png)
+![在 Cherry Studio 中进入智能体创建入口的界面](/mirror/db/dbd005077a3a05540773d9299b22cab90bb9a208.png)
 
-![在 Cherry Studio 中新建智能体配置页的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-2-1-2.png)
+![在 Cherry Studio 中新建智能体配置页的界面](/mirror/66/66536cdd3d0743c6d3fa80ced0891e0700746c90.png)
 
 其中，提示词可以借助 LLM 提供：
 
-![在 Cherry Studio 中借助大模型生成提示词的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-2-1-3.png)
+![在 Cherry Studio 中借助大模型生成提示词的界面](/mirror/c5/c5570e3182b3996000d1a1844c18ea2d012235ed.png)
 
 #### 步骤 2：进一步编辑智能体
 
-![在 Cherry Studio 中继续编辑智能体基础信息的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-2-1-4.png)
+![在 Cherry Studio 中继续编辑智能体基础信息的界面](/mirror/a3/a315aa57d79ae2fe0173df94834c7d4a912bc0ae.png)
 
-![在 Cherry Studio 中调整模型参数与智能体配置的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-2-1-5.png)
+![在 Cherry Studio 中调整模型参数与智能体配置的界面](/mirror/ba/baa787897ead0d6852f7a435a648984753562bfc.png)
 
 说明：模型温度：温度越高，输出的内容越有创意性。
 
 #### 步骤 3：添加到助手
 
-![将新建智能体添加到助手列表中的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-2-1-6.png)
+![将新建智能体添加到助手列表中的界面](/mirror/4a/4ab77a6244565483498befcbd607e01aefedbd28.png)
 
 #### 步骤 4：使用
 
-![在 Cherry Studio 中调用智能体进行对话的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-2-1-7.png)
+![在 Cherry Studio 中调用智能体进行对话的界面](/mirror/5c/5c3fb5d0c8080bb8e0a81dfe8ba48828f0999655.png)
 
 ### 2.2 其他平台创建智能体
 
 举例：豆包
 
-![豆包平台中创建智能体的界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-2-2-1.png)
+![豆包平台中创建智能体的界面示意图](/mirror/0d/0d0890f7cd791d39c9636ca5ee3549ba7a1719a5.png)
 
 举例：腾讯元器
 
 https://yuanqi.tencent.com/agent-shop
 
-![腾讯元器平台中创建智能体的界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-2-2-2.png)
+![腾讯元器平台中创建智能体的界面示意图](/mirror/22/226d7cd48152e442cdfe7bcc57bf866b729e81fd.png)
 
 举例：讯飞星火
 
 https://xinghuo.xfyun.cn/desktop-app-download
 
-![讯飞星火平台中创建智能体的界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-2-2-3.png)
+![讯飞星火平台中创建智能体的界面示意图](/mirror/e7/e7d3db21953ff4ac2cb62887af3f2e183c94a5ed.png)
 
-![讯飞星火平台中配置智能体能力的界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-2-2-4.png)
+![讯飞星火平台中配置智能体能力的界面示意图](/mirror/62/6296307a125c14d0bf2e1f7b242c26741119f55d.png)
 
 > 后续细节这里省略。
 
@@ -291,7 +291,7 @@ https://xinghuo.xfyun.cn/desktop-app-download
 
 https://agent.xfyun.cn/home
 
-![以讯飞星辰 Agent 平台为例的界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-3-1-1.png)
+![以讯飞星辰 Agent 平台为例的界面示意图](/mirror/9b/9bd40e65e2bdd4c4daa500f09bcd24d8ba378d7f.png)
 
 工作流最适合的场景，可以直接概括成一句话：**任务步骤大致确定，希望过程可见、可控、可复用时，优先工作流。**
 
@@ -338,15 +338,15 @@ https://agent.xfyun.cn/home
 
 `工作空间`：展示已开发的智能体或资源库列表，用户可在该平台上创建、配置和管理聊天机器人与智能体。
 
-![Coze 工作空间界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-3-1.png)
+![Coze 工作空间界面示意图](/mirror/de/dec9757a4a4444d3ec791070feb1805c2320ab6d.png)
 
 `商店`：展示平台上其他用户开发的项目，以及开发时可用的各种插件（如联网、爬虫、股票分析等）。
 
-![Coze 商店与插件市场界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-3-2.png)
+![Coze 商店与插件市场界面示意图](/mirror/bd/bd500ffcbb4d685eb69eefc1dc68a688621807b7.png)
 
 `模板`：提供大量可复制的模板，部分模板收费。
 
-![Coze 模板中心界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-3-3.png)
+![Coze 模板中心界面示意图](/mirror/58/5801867eab4f37aba6d50d2fc2dd09e6205c062c.png)
 
 ### 4.4 案例 1：深夜情感主持
 
@@ -360,11 +360,11 @@ https://agent.xfyun.cn/home
 
 #### ① 创建智能体
 
-![在 Coze 中创建深夜情感主持智能体的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-4-1.png)
+![在 Coze 中创建深夜情感主持智能体的界面](/mirror/d6/d63b64f191aaf54f8208f92596424752d374f606.png)
 
 #### ② 填写提示词
 
-![在 Coze 中填写深夜情感主持提示词的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-4-2.png)
+![在 Coze 中填写深夜情感主持提示词的界面](/mirror/7d/7d03bb2c31b24a454b6a496911654b6ab6cc5a4f.png)
 
 ##### 通用结构
 
@@ -393,9 +393,9 @@ https://agent.xfyun.cn/home
 2. 描述角色在互动过程中需要遵循的限制条件2
 ```
 
-![深夜情感主持智能体的通用提示词结构模板](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-4-3.png)
+![深夜情感主持智能体的通用提示词结构模板](/mirror/17/1762a2a6a7ed28234576d530f377ce7c2d884251.png)
 
-![深夜情感主持智能体的完整提示词示例](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-4-4.png)
+![深夜情感主持智能体的完整提示词示例](/mirror/0c/0c1cd31043349b6942369c33708215f0b6e047c2.png)
 
 ```
 # 角色
@@ -431,31 +431,31 @@ https://agent.xfyun.cn/home
 
 #### ③ 模型参数设置
 
-![在 Coze 中设置深夜情感主持模型参数的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-4-5.png)
+![在 Coze 中设置深夜情感主持模型参数的界面](/mirror/50/50ddace89fed12b54d3387810040de69b3e614c1.png)
 
 关于 temperature（温度）：
 
-![模型温度 Temperature 参数高低带来的输出差异示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-4-6.jpg)
+![模型温度 Temperature 参数高低带来的输出差异示意图](/mirror/d5/d54abe4c3d912a9638e47e7c6a6a9805a6419421.jpg)
 
 **说明**：温度（Temperature）控制模型输出的随机程度。**温度越低**（接近 0），回答越稳定、一致、偏保守，适合事实问答、代码等；**温度越高**（接近 1 或更大），回答越随机、有创意、多样，适合创意写作、头脑风暴等。情感类、开放对话可适当调高，需精确一致时建议调低。
 
 #### ④ 测试
 
-![在 Coze 中测试深夜情感主持智能体的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-4-7.png)
+![在 Coze 中测试深夜情感主持智能体的界面](/mirror/e6/e680aecec603435088500197de771995eb8ce74a.png)
 
 #### ⑤ 设置开场白及预设问题
 
-![在 Coze 中配置开场白和预设问题的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-4-8.png)
+![在 Coze 中配置开场白和预设问题的界面](/mirror/37/37359d31adfdb82ba6a422dc08a4efc1f819645c.png)
 
 #### ⑥ 发布
 
-![在 Coze 中发布深夜情感主持智能体的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-4-9.png)
+![在 Coze 中发布深夜情感主持智能体的界面](/mirror/7b/7b04827fe095f6f34b99a58bcf3bc47cee64466a.png)
 
 可以发布到多个平台：
 
-![Coze 智能体支持发布到多个平台的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-4-10.png)
+![Coze 智能体支持发布到多个平台的界面](/mirror/a8/a8ad0cb887ed04a58f8e71c554dbbe5ba4d7e213.png)
 
-![Coze 智能体多平台发布后的渠道选择界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-4-11.png)
+![Coze 智能体多平台发布后的渠道选择界面](/mirror/e0/e05df4512119d4efc86ff42a896e55c1e4fbab0a.png)
 
 ### 4.5 案例 2：高考报考指南
 
@@ -471,11 +471,11 @@ https://agent.xfyun.cn/home
 
 创建智能体：
 
-![在 Coze 中创建高考报考指南智能体的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-5-1.png)
+![在 Coze 中创建高考报考指南智能体的界面](/mirror/c6/c654f69f830c3c59e3834d7d98ee1d89f3beea9d.png)
 
 #### ② 填写提示词
 
-![在 Coze 中填写高考报考指南提示词的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-5-2.png)
+![在 Coze 中填写高考报考指南提示词的界面](/mirror/89/8918e2e4055b7ced9f924c86b346992f5c49b906.png)
 
 ```
 # 角色
@@ -508,35 +508,35 @@ https://agent.xfyun.cn/home
 
 未使用插件时：
 
-![高考报考指南在未接入插件时的回答界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-5-3.png)
+![高考报考指南在未接入插件时的回答界面](/mirror/ed/ed553f099925313ce8aa96a18789d59722e9bfcd.png)
 
 安装插件：
 
-![在 Coze 中为高考报考指南安装搜索插件的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-5-4.png)
+![在 Coze 中为高考报考指南安装搜索插件的界面](/mirror/92/92a6210d74ae8e0ab1cd9d7a78d5c29b4808adde.png)
 
 继续搜索：
 
-![高考报考指南继续配置搜索插件的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-5-5.png)
+![高考报考指南继续配置搜索插件的界面](/mirror/5f/5f42078130b027ab06cb435f2cc6dbc8cf274be9.png)
 
-![高考报考指南选择并启用搜索插件的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-5-6.png)
+![高考报考指南选择并启用搜索插件的界面](/mirror/30/307e160823ea3a06c021e0b6db44c8a905b945a0.png)
 
 **插件 2：头条图片搜索**
 
-![头条图片搜索插件的界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-5-7.png)
+![头条图片搜索插件的界面示意图](/mirror/4e/4ef3c358998b86030b962bb081e0a46f236cdd22.png)
 
-![头条图片搜索插件调用效果的界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-5-8.png)
+![头条图片搜索插件调用效果的界面示意图](/mirror/32/3294666f6dcb0777dacdc700c12691b7a3e584a6.png)
 
 #### ④ 使用知识库
 
-![在 Coze 中为高考报考指南接入知识库的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-5-9.png)
+![在 Coze 中为高考报考指南接入知识库的界面](/mirror/cb/cb25b05e6ad9a3bf25a584f97c5a97257136ea11.png)
 
-![在 Coze 中创建或选择知识库资源的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-5-10.png)
+![在 Coze 中创建或选择知识库资源的界面](/mirror/b4/b4829150168a696c5bfe96e2826851baa18d01ac.png)
 
-![在 Coze 中上传高考相关资料到知识库的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-5-11.png)
+![在 Coze 中上传高考相关资料到知识库的界面](/mirror/12/12f8300e7400237ce263c8d28f1e5ceee591a38d.png)
 
-![在 Coze 中配置知识库召回策略的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-5-12.png)
+![在 Coze 中配置知识库召回策略的界面](/mirror/25/25d638175fbcf12f60ce82f94d05a03daadaf436.png)
 
-![高考报考指南调用知识库后的回答效果示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-5-13.png)
+![高考报考指南调用知识库后的回答效果示意图](/mirror/a7/a7743ef36e54f1213b9ba84e5f6075150be1e966.png)
 
 ### 4.6 案例 3：家庭记账助手
 
@@ -550,13 +550,13 @@ https://agent.xfyun.cn/home
 
 #### ① 创建智能体
 
-![在 Coze 中创建家庭记账助手的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-6-1.png)
+![在 Coze 中创建家庭记账助手的界面](/mirror/7c/7cad58d03baf736f5b874d504e4379b2459fad80.png)
 
 #### ② 填写提示词
 
-![在 Coze 中填写家庭记账助手提示词的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-6-2.png)
+![在 Coze 中填写家庭记账助手提示词的界面](/mirror/ba/bace48f17ca4e94abca268c1288e56a3903fab6c.png)
 
-![在 Coze 中继续完善家庭记账助手提示词的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-6-3.png)
+![在 Coze 中继续完善家庭记账助手提示词的界面](/mirror/e3/e3659969907cecca83bfe936084badc0e8ea9ee5.png)
 
 ```
 # 角色
@@ -604,37 +604,37 @@ https://agent.xfyun.cn/home
 
 在没有变量时，聊天中的上下文一旦清空，就没法获取之前的交互数据了。比如：
 
-![家庭记账助手在未使用变量时的对话记录示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-6-4.png)
+![家庭记账助手在未使用变量时的对话记录示意图](/mirror/cd/cd3914c5054c9b268636708e83256646288f3b09.png)
 
 > 小插曲：修改了提示词“限制”部分：
 >
-> ![修改家庭记账助手提示词限制部分的界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-6-5.png)
+> ![修改家庭记账助手提示词限制部分的界面示意图](/mirror/ad/ad35592dc3332809ed9ce58ae71c8ba21e8351ec.png)
 
 但清空记录以后：
 
-![清空历史记录后家庭记账助手无法记住用户信息的示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-6-6.png)
+![清空历史记录后家庭记账助手无法记住用户信息的示意图](/mirror/af/aff7ca368c8efe84836c196e6409abc43071dcbb.png)
 
-![清空历史记录后家庭记账助手上下文丢失的示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-6-7.png)
+![清空历史记录后家庭记账助手上下文丢失的示意图](/mirror/16/163197a72fb7a67b2acdd93b3e8fb67854bc3922.png)
 
 设置变量：
 
-![在 Coze 中为家庭记账助手设置变量的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-6-8.png)
+![在 Coze 中为家庭记账助手设置变量的界面](/mirror/9e/9e9f505e4e2409d48c54ac4345359598d466b36c.png)
 
-![在 Coze 中配置家庭记账助手变量字段的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-6-9.png)
+![在 Coze 中配置家庭记账助手变量字段的界面](/mirror/36/36588f76b75e1faf7647b1203a011e3d2d1599ab.png)
 
-![家庭记账助手变量写入与读取配置的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-6-10.png)
+![家庭记账助手变量写入与读取配置的界面](/mirror/50/505ac53bd16cbedc18d60719ddd2f656dfb6a181.png)
 
 在清除历史记录以后，仍然可以记录用户信息。
 
 #### ④ 数据库的使用
 
-![家庭记账助手中数据库功能的配置界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-6-11.png)
+![家庭记账助手中数据库功能的配置界面](/mirror/a6/a61555e7affa20f6988bcb6e3e0b1b59c591b260.png)
 
-![家庭记账助手中数据库字段配置的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-6-12.png)
+![家庭记账助手中数据库字段配置的界面](/mirror/38/3842024815ee3f86c1e9b91066cdc36f4d3bf562.png)
 
-![家庭记账助手中数据库写入能力的界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-6-13.png)
+![家庭记账助手中数据库写入能力的界面示意图](/mirror/b8/b82db047aece477bdc02599356df2f5de35e9b52.png)
 
-![家庭记账助手中数据库查询或展示效果的界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-4-6-14.png)
+![家庭记账助手中数据库查询或展示效果的界面示意图](/mirror/ff/ff55b39528107e1c8cabdc39a8635cd7cf98bc68.png)
 
 #### ⑤ 其他功能
 
@@ -658,7 +658,7 @@ Dify（DefineModify）是一个开源的大语言模型(LLM)应用开发平台�
 
 Dify 为 AI Agent 提供了 50 多种内置工具，如谷歌搜索、DALL·E、Stable Diffusion 和 WolframAlpha 等。
 
-![Dify 平台中内置工具能力的界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-5-1-1.png)
+![Dify 平台中内置工具能力的界面示意图](/mirror/11/1187f4b4b2e7e4687a2fa166ca52e1e0b0b824d2.png)
 
 它的具体功能如下：
 
@@ -666,7 +666,7 @@ Dify 为 AI Agent 提供了 50 多种内置工具，如谷歌搜索、DALL·E、
 - 基于`RAG`构建私有知识库应用
 - 基于`Workflow`构建智能工作流应用
 
-![Dify 支持 Agent、RAG 与 Workflow 三类应用形态的示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-5-1-2.png)
+![Dify 支持 Agent、RAG 与 Workflow 三类应用形态的示意图](/mirror/b9/b948a2a756932025a3c509f2b050eebafbdc7f7e.png)
 
 Dify 可以本地化部署，保证数据的安全。
 
@@ -682,17 +682,17 @@ Dify 可以本地化部署，保证数据的安全。
 
 #### ① 创建 Agent
 
-![在 Dify 中创建时事评论助手 Agent 的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-5-2-1.png)
+![在 Dify 中创建时事评论助手 Agent 的界面](/mirror/2a/2adac599b88433760e2a92ffc53634db5aa51b05.png)
 
-![在 Dify 中选择 Agent 应用类型的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-5-2-2.png)
+![在 Dify 中选择 Agent 应用类型的界面](/mirror/f7/f705758d59af06929412998e100ab4ee267b9fad.png)
 
 #### ② 配置
 
-![在 Dify 中配置时事评论助手基础参数的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-5-2-3.png)
+![在 Dify 中配置时事评论助手基础参数的界面](/mirror/03/03b90baabcc0ba07c4a770c545135670c53bf858.png)
 
 借助大模型提供提示词：
 
-![在 Dify 中借助大模型生成时事评论助手提示词的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-5-2-4.png)
+![在 Dify 中借助大模型生成时事评论助手提示词的界面](/mirror/ec/ec43fbdc1a561dcdf7e0e6de1848ddd3ee398280.png)
 
 ```
 # 角色定义
@@ -749,21 +749,21 @@ Dify 可以本地化部署，保证数据的安全。
 
 #### ③ 测试
 
-![在 Dify 中测试时事评论助手的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-5-2-5.png)
+![在 Dify 中测试时事评论助手的界面](/mirror/2f/2f28965acdce9b28ea1327d8c2d33372382ace8b.png)
 
 #### ④ 查看 Agent 日志
 
-![在 Dify 中查看时事评论助手 Agent 日志入口的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-5-2-6.png)
+![在 Dify 中查看时事评论助手 Agent 日志入口的界面](/mirror/80/807071e9fd48f51a3e478181fab63bf67a3ef897.png)
 
 Agent 日志如下：
 
-![Dify 时事评论助手的 Agent 日志界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-5-2-7.png)
+![Dify 时事评论助手的 Agent 日志界面示意图](/mirror/a8/a8d21880482e2ffa73bdd64453060b07c1614684.png)
 
-![Dify 时事评论助手的 Agent 日志详情界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-5-2-8.png)
+![Dify 时事评论助手的 Agent 日志详情界面示意图](/mirror/35/3598fce09cea3b125198d3a4a131fea259f69ad2.png)
 
 #### ⑤ 发布
 
-![在 Dify 中发布时事评论助手的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-5-2-9.png)
+![在 Dify 中发布时事评论助手的界面](/mirror/67/67549c1fbebf7112dc319f87a6f60b2ed2e9d11e.png)
 
 > 评价：根据现有资料，Dify 搭建的智能体和 Coze 搭建的智能体一样，检索资料解决问题的能力仍有待提高。
 
@@ -786,7 +786,7 @@ Agent 日志如下：
 
 #### ① 创建一个空白的 Agent 应用
 
-![① 创建一个空白的 Agent 应用的界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-5-3-1.png)
+![① 创建一个空白的 Agent 应用的界面示意图](/mirror/41/41c51ee3efcb7265f222361f7c285634eaa3815c.png)
 
 #### ② 添加提示词
 
@@ -843,15 +843,15 @@ Agent 日志如下：
 ⽤户计划前往{{destination}}旅⾏{{num_day}}天，预算为{{budget}}。
 ```
 
-![北京旅行助手在 Dify 中填写提示词后的配置界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-5-3-2.png)
+![北京旅行助手在 Dify 中填写提示词后的配置界面](/mirror/90/90afa6ef7b4b4e7726f04d27200d18031f3a23f1.png)
 
 #### ③ 添加对话开场白、内容审查
 
 选择“管理”，在功能中添加对话开场白和内容审查等功能
 
-![在 Dify 管理页中添加对话开场白和内容审查功能的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-5-3-3.png)
+![在 Dify 管理页中添加对话开场白和内容审查功能的界面](/mirror/66/6674108786575af4ec9ca7ceb17c1586727caf3f.png)
 
-![在 Dify 中继续配置对话开场白和内容审查功能的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-5-3-4.png)
+![在 Dify 中继续配置对话开场白和内容审查功能的界面](/mirror/fb/fb823989b119a32d7d0153522d7f7a2394d38a2e.png)
 
 对话开场白：
 
@@ -867,13 +867,13 @@ Agent 日志如下：
 帮我制定一次蜜月旅行，目的地是{{destination}}，为期{{num_day}}天，预算是{{budget}}
 ```
 
-![北京旅行助手配置对话开场白和开场问题的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-5-3-5.png)
+![北京旅行助手配置对话开场白和开场问题的界面](/mirror/56/56186cd8a96e987f2484bb8477bf3c36bcebd0bb.png)
 
-![北京旅行助手变量填写后的开场问题配置界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-5-3-6.png)
+![北京旅行助手变量填写后的开场问题配置界面](/mirror/6f/6f6a483f7395a14d92673e63df4e3e4d54cd71d9.png)
 
 内容审查设置
 
-![北京旅行助手内容审查规则的配置界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-5-3-7.png)
+![北京旅行助手内容审查规则的配置界面](/mirror/7f/7faee5144e5fbadcac3399b0f20c6a7af0bac677.png)
 
 ```
 偷东西
@@ -887,11 +887,11 @@ Agent 日志如下：
 
 提问被拦截
 
-![北京旅行助手中敏感问题被内容审查拦截的效果示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-5-3-8.png)
+![北京旅行助手中敏感问题被内容审查拦截的效果示意图](/mirror/1a/1a54b20830ba2064766be2ec22e6962304dc2694.png)
 
 #### ④ 完整测试
 
-![北京旅行助手在 Dify 中完成配置后的整体测试界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-5-3-10.png)
+![北京旅行助手在 Dify 中完成配置后的整体测试界面](/mirror/43/436113f1bd50b74f1cf0dde03cd6f0e39917844a.png)
 
 ---
 
@@ -929,13 +929,13 @@ Agent 日志如下：
 
 **情况 1：发布到商店：Yes！**
 
-![Coze 工作流发布到商店后的界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-6-2-1.png)
+![Coze 工作流发布到商店后的界面示意图](/mirror/f8/f867ee208ccd5a09fd3d000e852d31fbc4214caa.png)
 
 发布到商店后，其他用户只能体验，不能复制或查看工作流（无复制选项）。
 
 **情况 2：发布到模板：No！**
 
-![Coze 工作流模板发布权限限制的界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-6-2-2.png)
+![Coze 工作流模板发布权限限制的界面示意图](/mirror/8f/8fbd0f6470c6d4cf92c09d07ff4efbe49fb2f029.png)
 
 只有发布为模板后，其他用户才能查看应用或智能体的设置细节，但权限管理较严格。
 
@@ -973,7 +973,7 @@ https://metaso.cn/
 
 **1. 选择长思考和研究模式**
 
-![秘塔 AI 中选择长思考和研究模式的界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-9-1-1.png)
+![秘塔 AI 中选择长思考和研究模式的界面示意图](/mirror/f3/f3d1ae7786db1790e5d2afde3e347495ff4b31e8.png)
 
 选择长思考-R1 会调用秘塔部署的满血版 DeepSeek-R1 模型。
 
@@ -1007,7 +1007,7 @@ https://metaso.cn/
 
 秘塔 AI 会自主拆解任务，并依次执行，最后汇总
 
-![秘塔 AI 会自主拆解任务，并依次执行，最后汇总的界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-9-1-2.png)
+![秘塔 AI 会自主拆解任务，并依次执行，最后汇总的界面示意图](/mirror/1d/1de5d21342734394f2a22c86942db16494c2d194.png)
 
 此外，回答内容会通过引文标注出处。
 
@@ -1015,7 +1015,7 @@ https://metaso.cn/
 
 https://zhida.zhihu.com/pro
 
-![知乎直答中使用深度研究能力的界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-9-2-1.png)
+![知乎直答中使用深度研究能力的界面示意图](/mirror/c9/c9e517ce4eb12ea8f95c9f1144d24b80bd43ecdf.png)
 
 ```
 对比QWQ和DeepSeek-R1
@@ -1023,15 +1023,15 @@ https://zhida.zhihu.com/pro
 
 **回答**
 
-![知乎直答对比 QWQ 和 DeepSeek-R1 的回答界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-9-2-2.png)
+![知乎直答对比 QWQ 和 DeepSeek-R1 的回答界面](/mirror/7c/7cf8daaf6503aff45be340f920f08f148bcb1cd5.png)
 
 ### 9.3 PerPlexity
 
 https://www.perplexity.ai
 
-![Perplexity 首页与深度研究入口的界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-9-3-1.png)
+![Perplexity 首页与深度研究入口的界面示意图](/mirror/b3/b3b0c0a68c9c42884cb423d1b85e85ed2a1fc44f.png)
 
-![Perplexity 中切换深度研究模式的界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-9-3-2.png)
+![Perplexity 中切换深度研究模式的界面示意图](/mirror/5d/5dcc83b02e0394680eae86395d312c17f42b0172.png)
 
 选择深度研究即可使用官方部署的 DeepSeek-R1 满血版。
 
@@ -1043,7 +1043,7 @@ https://www.perplexity.ai
 
 **回答**
 
-![Perplexity 对比 QWQ 和 DeepSeek-R1 的回答界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-9-3-3.png)
+![Perplexity 对比 QWQ 和 DeepSeek-R1 的回答界面](/mirror/36/36d9ac012500bd138bcd6ef8c7a1aa34ababe0df.png)
 
 **总结**
 
@@ -1055,31 +1055,31 @@ OpenAI 推出的深度研究模式，只有每月支付$200 才可以使用。�
 
 https://chatgpt.com/#pricing
 
-![OpenAI GPT Pro 中 Deep Research 功能入口的界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-9-4-1.png)
+![OpenAI GPT Pro 中 Deep Research 功能入口的界面示意图](/mirror/41/41502e256160f77c89a354fecb0706a39804984e.png)
 
 之前的页面：
 
-![OpenAI Deep Research 早期页面布局的界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-9-4-2.png)
+![OpenAI Deep Research 早期页面布局的界面示意图](/mirror/6e/6ea29bdc8e12903849c34b174f63aee4296b535d.png)
 
 相对而言，这是更加接近 AI Agent 的模式，AI 可以自主调用工具、自主决策，中间过程更复杂，最终输出的内容更加优质。
 
 以下是 B 站某博主实测截图，研究耗时 19 分钟：
 
-![OpenAI Deep Research 实测中研究耗时 19 分钟的界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-9-4-3.png)
+![OpenAI Deep Research 实测中研究耗时 19 分钟的界面示意图](/mirror/8f/8f28831124a4b60eafa0456e7060bffee91902ef.png)
 
-![OpenAI Deep Research 实测中间过程的界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-9-4-4.png)
+![OpenAI Deep Research 实测中间过程的界面示意图](/mirror/ac/ac300e7bafc205cce69f9f1350db0e79883115a3.png)
 
 下图右侧展示的都是 DeepResearch 自主规划的子任务：
 
-![OpenAI Deep Research 自主规划子任务列表的界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-9-4-5.png)
+![OpenAI Deep Research 自主规划子任务列表的界面示意图](/mirror/80/803d278b91edc2754c912b8d4e69bf3491294155.png)
 
 研究耗时 13 分钟，生成 3 万多字，突破了大模型单次输出上限：
 
-![OpenAI Deep Research 生成长篇研究结果的界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-9-4-6.png)
+![OpenAI Deep Research 生成长篇研究结果的界面示意图](/mirror/7a/7aedc7b817031a4cae0edcd928aeb3a271224559.png)
 
 会主动追问需求：
 
-![OpenAI Deep Research 主动追问补充需求的界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/3/3-9-4-7.png)
+![OpenAI Deep Research 主动追问补充需求的界面示意图](/mirror/7c/7c520d35ef66326ec203b2e754ae3b10d931dba2.png)
 
 补充需求后最终耗时 32 分钟研究。
 

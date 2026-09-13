@@ -35,7 +35,7 @@ Don't underestimate the effort required for context engineering. It's not a one-
 
 ### The Original Design Problem
 
-![deep-research-agent](https://gh-proxy.com/https://raw.githubusercontent.com/dair-ai/Prompt-Engineering-Guide/57673726396dd94acb23bdb1e67f27c78ee85a8e/img/agents/simple-dr-agent.png)
+![deep-research-agent](/mirror/6b/6b2218b7dc96b309ddfea47482bcacb0c4cc294b.png)
 
 Let's look at a basic deep research agent architecture. The initial architecture connects the web search tool directly to the deep research agent. This design places too much burden on a single agent responsible for:
 

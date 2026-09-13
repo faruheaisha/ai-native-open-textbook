@@ -17,13 +17,13 @@ zh: ""
 <table width="100%">
 <tr>
 <td><a href="/lib/09-harness/claude-code-best-practice/overview">← Back to Claude Code Best Practice</a></td>
-<td align="right"><img src="https://gh-proxy.com/https://raw.githubusercontent.com/shanraisshan/claude-code-best-practice/2d6ea151c0d7189c3eaf364809c5574bd210e545/!/claude-jumping.svg" alt="Claude" width="60" /></td>
+<td align="right"><img src="/mirror/08/083732f2d17cc173d2ce8cdf174e11bd1ccf34d9.svg" alt="Claude" width="60" /></td>
 </tr>
 </table>
 
 ---
 
-<a href="#weather-orchestrator"><img src="https://gh-proxy.com/https://raw.githubusercontent.com/shanraisshan/claude-code-best-practice/2d6ea151c0d7189c3eaf364809c5574bd210e545/!/tags/implemented-hd.svg" alt="Implemented"></a>
+<a href="#weather-orchestrator"><img src="/mirror/40/40ff976a740fb4fcf55255dbc78bf034992e082b.svg" alt="Implemented"></a>
 
 The weather orchestrator command is implemented in this repo as the entry point of the **Command → Agent → Skill** architecture pattern, demonstrating how commands orchestrate multi-step workflows.
 
@@ -65,7 +65,7 @@ The command orchestrates the entire workflow: it asks the user for their tempera
 
 ---
 
-## ![How to Use](https://gh-proxy.com/https://raw.githubusercontent.com/shanraisshan/claude-code-best-practice/2d6ea151c0d7189c3eaf364809c5574bd210e545/!/tags/how-to-use.svg)
+## ![How to Use](/mirror/43/43b393ff0af70918e029290bee538f937f2e8abb.svg)
 
 ```bash
 $ claude
@@ -74,17 +74,17 @@ $ claude
 
 ---
 
-## ![How to Implement](https://gh-proxy.com/https://raw.githubusercontent.com/shanraisshan/claude-code-best-practice/2d6ea151c0d7189c3eaf364809c5574bd210e545/!/tags/how-to-implement.svg)
+## ![How to Implement](/mirror/e6/e65e66f0e8e567e7838caeaf4013e59c09a69e4e.svg)
 
 Ask Claude to create one for you — it will generate the markdown file with YAML frontmatter and body in `.claude/commands/<name>.md`
 
 ---
 
-<a href="https://github.com/shanraisshan/claude-code-best-practice#orchestration-workflow"><img src="https://gh-proxy.com/https://raw.githubusercontent.com/shanraisshan/claude-code-best-practice/2d6ea151c0d7189c3eaf364809c5574bd210e545/!/tags/orchestration-workflow-hd.svg" alt="Orchestration Workflow"></a>
+<a href="https://github.com/shanraisshan/claude-code-best-practice#orchestration-workflow"><img src="/mirror/f8/f8123f3d43b611e2b595c8a50cd3e2b50275e72b.svg" alt="Orchestration Workflow"></a>
 
 The weather orchestrator is the **Command** in the Command → Agent → Skill orchestration pattern. It serves as the entry point — handling user interaction (temperature unit preference), delegating data fetching to the `weather-agent`, and invoking the `weather-svg-creator` skill for visual output.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/shanraisshan/claude-code-best-practice/2d6ea151c0d7189c3eaf364809c5574bd210e545/orchestration-workflow/orchestration-workflow.svg" alt="Command Skill Agent Architecture Flow" width="100%">
+  <img src="/mirror/7a/7abe7821b5277cc22f7f5cf61acdffe66d2cdf67.svg" alt="Command Skill Agent Architecture Flow" width="100%">
 
 | Component | Role | This Repo |
 |-----------|------|-----------|

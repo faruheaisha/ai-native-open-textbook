@@ -46,7 +46,7 @@ ollama run qwen:4b
 
 如果本地还没有这个模型，Ollama 会先下载；下载完成后，它会直接启动并进入交互模式。从入门视角看，这比自己去处理模型权重、推理框架、启动服务、配置推理端口，要简单得多。
 
-![Ollama 官方标志：羊驼线稿风格图标（品牌识别，常见于安装包与文档）](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/12/12-1-1-1.png)
+![Ollama 官方标志：羊驼线稿风格图标（品牌识别，常见于安装包与文档）](/mirror/5d/5d7ef51824b41c551c388171e32c03fcb8810fab.png)
 
 ### 1.2 Ollama 解决了什么问题
 
@@ -224,7 +224,7 @@ D:\devSoft\Ollama\models
 
 然后再通过环境变量或图形设置告诉 Ollama：以后模型存这里。
 
-![Windows 安装向导中自定义 Ollama 程序安装路径的操作步骤（动图）](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/12/12-2-4-1.gif)
+![Windows 安装向导中自定义 Ollama 程序安装路径的操作步骤（动图）](/mirror/bd/bd21c0f49c49e47bf7a878235ac14c5be50063b4.gif)
 
 ### 2.5 修改模型存储目录
 
@@ -239,7 +239,7 @@ D:\devSoft\Ollama\models
 OLLAMA_MODELS=D:\devSoft\Ollama\models
 ```
 
-![Windows「环境变量」对话框中新建用户变量 OLLAMA_MODELS 并指向自定义 models 目录](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/12/12-2-5-1.jpeg)
+![Windows「环境变量」对话框中新建用户变量 OLLAMA_MODELS 并指向自定义 models 目录](/mirror/38/381aaaf989735594f53dc5138b9c53619a1d1644.jpeg)
 
 根据 Ollama 官方 FAQ，默认模型目录通常是：
 
@@ -261,7 +261,7 @@ OLLAMA_MODELS=D:\devSoft\Ollama\models
 
 如果你之前已经在其他目录下载过模型，可以直接把已有模型目录迁移过去，避免重复下载。
 
-![将已有 blobs、manifests 等模型目录内容复制到 OLLAMA_MODELS 指定路径以复用下载](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/12/12-2-6-1.jpeg)
+![将已有 blobs、manifests 等模型目录内容复制到 OLLAMA_MODELS 指定路径以复用下载](/mirror/35/35916a00d297858fdb17bb43538743391ff5ceb1.jpeg)
 
 这在实际开发里非常有用，比如：
 
@@ -273,9 +273,9 @@ OLLAMA_MODELS=D:\devSoft\Ollama\models
 
 部分 Ollama 桌面应用版本支持通过设置界面修改模型存储位置。如果你使用的是桌面客户端，可以在设置中查看是否存在 **Model location** 或类似选项。
 
-![Ollama 桌面客户端菜单中打开 Settings（设置）的入口位置](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/12/12-2-7-1.png)
+![Ollama 桌面客户端菜单中打开 Settings（设置）的入口位置](/mirror/a6/a617aeaf65553da8299eeedb87f2462273572495.png)
 
-![在 Settings 中将 Model location 改为课程资料或自定义的 models 文件夹](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/12/12-2-7-2.png)
+![在 Settings 中将 Model location 改为课程资料或自定义的 models 文件夹](/mirror/d8/d88f9c17dd3c2be077ebd0e106c651a13db3fd94.png)
 
 改完后，建议：
 
@@ -521,7 +521,7 @@ ollama list
 
 > **把 Ollama 从“命令行能聊天的工具”升级成“项目里能调用的模型端点”。**
 
-![本地 LangChain 应用连接 Ollama 服务：代码发送请求，本地服务加载模型文件并返回 AI 回复](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/12/12-5-1-1.png)
+![本地 LangChain 应用连接 Ollama 服务：代码发送请求，本地服务加载模型文件并返回 AI 回复](/mirror/71/71dfe8d048a5cc88509d251c329552c141215130.png)
 
 ### 5.2 ChatOllama 是什么
 

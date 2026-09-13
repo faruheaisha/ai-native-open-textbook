@@ -43,7 +43,7 @@ print(result["messages"][-1].content)
 - 工具参数还在生成，还是工具已经返回错误？
 - 最终答案出现前，究竟发生了哪些中间步骤？
 
-![同一个研究请求在 invoke 与 Streaming 中的体验对比：invoke 只显示运行中和最终答案，Streaming 则逐步展开 coordinator、researcher、搜索工具和消息状态](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/deepagents-in-action/4097ff944f9ffa1bdfe2dd04f751f4416b058860/public/imgs/44-comparison-invoke-vs-streaming.png)
+![同一个研究请求在 invoke 与 Streaming 中的体验对比：invoke 只显示运行中和最终答案，Streaming 则逐步展开 coordinator、researcher、搜索工具和消息状态](/mirror/6f/6f6d6937adbc0d06701d370984b463c095f4d802.png)
 
 我们先不急着设计漂亮的进度条。第一步只做一件事：把当前运行中“谁在工作”显示出来。
 
@@ -191,7 +191,7 @@ def belongs_to_subagent(namespace: list[str] | tuple[str, ...], path: tuple[str,
 | `stream.subagents` | coordinator 发起的委派 |
 | `stream.output` | 顶层运行的最终输出 |
 
-![v3 Typed Projection 的层级与作用域：顶层 stream 提供 messages、tool_calls、values、subagents 和 output；subagent handle 保存 name、path、status，并按需打开自己的同类 projections](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/deepagents-in-action/4097ff944f9ffa1bdfe2dd04f751f4416b058860/public/imgs/45-framework-typed-projections.png)
+![v3 Typed Projection 的层级与作用域：顶层 stream 提供 messages、tool_calls、values、subagents 和 output；subagent handle 保存 name、path、status，并按需打开自己的同类 projections](/mirror/34/34d95d8c0b8483e45985c49552fddc0876d17c50.png)
 
 这里最容易犯的错是范围混淆。`stream.messages` 不会替你合并所有子 Agent 的消息；`subagent.messages` 也不会包含 coordinator 的最终总结。它们是两条独立 projection。
 
@@ -396,7 +396,7 @@ for name, item in stream.interleave("messages", "subagents"):
 
 它适合快速做一个同步展示。如果要递归合并工具调用和嵌套子 Agent，仍然建议在应用层写一个事件 adapter，而不是让每个组件都理解 iterator 的细节。
 
-![coordinator 与 researcher 的事件会交错到达：串行消费把两个来源分组后造成顺序失真，并发消费使用 asyncio.gather 或 interleave 将事件按到达过程送入页面事件流](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/deepagents-in-action/4097ff944f9ffa1bdfe2dd04f751f4416b058860/public/imgs/46-sequence-concurrent-streaming.png)
+![coordinator 与 researcher 的事件会交错到达：串行消费把两个来源分组后造成顺序失真，并发消费使用 asyncio.gather 或 interleave 将事件按到达过程送入页面事件流](/mirror/38/38347dfe4a0ab84c95150fa23b555623f99b43a2.png)
 
 ## 7. 页面开始工作后，才需要精确顺序
 
@@ -476,7 +476,7 @@ for chunk in agent.stream(
 | `ns` | `tuple[str, ...]` | `()` 表示主 Agent；非空 tuple 是产生当前 chunk 的完整 namespace |
 | `data` | 随 `type` 变化 | `updates` 常是节点状态字典，`messages` 常是消息与 metadata，`custom` 是工具写入的自定义 payload |
 
-![v3 与 v2 Streaming 的观察层级对比：v3 Typed Projection 面向产品角色提供 message、subagent 和 tool_call 字段；v2 StreamPart 面向图执行提供 type、ns、data；两者通过应用事件 Adapter 转换为统一页面事件](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/deepagents-in-action/4097ff944f9ffa1bdfe2dd04f751f4416b058860/public/imgs/47-comparison-v3-v2-streaming.png)
+![v3 与 v2 Streaming 的观察层级对比：v3 Typed Projection 面向产品角色提供 message、subagent 和 tool_call 字段；v2 StreamPart 面向图执行提供 type、ns、data；两者通过应用事件 Adapter 转换为统一页面事件](/mirror/74/7434aab00f52c44be205f70c10196ffdcd2382c1.png)
 
 ```text
 ()                              -> main agent

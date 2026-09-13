@@ -25,7 +25,7 @@ This project is a hands-on crash course on building AI agents using a 100% open-
 All concepts are demonstrated with real, runnable code.
 
 ### Watch this tutorial on YouTube
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/patchy631/ai-engineering-hub/2c9b106168d4540b88e727e4aa316c06c856c2b7/agent-with-mcp-memory/assets/thumbnail.jpeg" alt="Watch this tutorial on YouTube" width="550"/>
+  <img src="/mirror/ef/ef960f56bab796eec4e58f4edc6592092ff23284.jpeg" alt="Watch this tutorial on YouTube" width="550"/>
 
 ## What is an AI Agent?
 

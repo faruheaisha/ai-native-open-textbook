@@ -21,7 +21,7 @@ This document describes the **Agent → Skill** orchestration workflow, demonstr
 <table width="100%">
 <tr>
 <td><a href="/lib/09-harness/codex-cli-best-practice/overview">← Back to Codex CLI Best Practice</a></td>
-<td align="right"><img src="https://gh-proxy.com/https://raw.githubusercontent.com/shanraisshan/codex-cli-best-practice/b79f473a188632867354fc793894dfd368a18e48/!/codex-jumping.svg" alt="Codex" width="60" /></td>
+<td align="right"><img src="/mirror/d5/d53dec6003575523123a41b242b60001c19a9882.svg" alt="Codex" width="60" /></td>
 </tr>
 </table>
 
@@ -39,7 +39,7 @@ This showcases the **Agent → Skill** architecture pattern, where:
 
 <div class="tb-zh"><p>它展示了 Agent → Skill 架构模式，其中：agent 负责抓取数据并编排流程；skill 独立产出可视化结果。</p></div>
 
-## ![How to Use](https://gh-proxy.com/https://raw.githubusercontent.com/shanraisshan/codex-cli-best-practice/b79f473a188632867354fc793894dfd368a18e48/!/tags/how-to-use.svg)
+## ![How to Use](/mirror/6e/6e97c4520101a2ed5f0363ff79822b80c90e4c8c.svg)
 
 ```bash
 codex
@@ -69,7 +69,7 @@ Output files:
 
 ## Flow Diagram
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/shanraisshan/codex-cli-best-practice/b79f473a188632867354fc793894dfd368a18e48/!/orchestration-workflow-diagram.svg" alt="Orchestration Workflow: Agent → Skill → Output" width="100%">
+  <img src="/mirror/d0/d0e770112b9a9c8a416c2be170846524de844bc5.svg" alt="Orchestration Workflow: Agent → Skill → Output" width="100%">
 
 ```
 ╔══════════════════════════════════════════════════════════════════╗

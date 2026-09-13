@@ -21,7 +21,7 @@ Claude Code commands — frontmatter fields and official built-in slash commands
 <table width="100%">
 <tr>
 <td><a href="/lib/09-harness/claude-code-best-practice/overview">← Back to Claude Code Best Practice</a></td>
-<td align="right"><img src="https://gh-proxy.com/https://raw.githubusercontent.com/shanraisshan/claude-code-best-practice/2d6ea151c0d7189c3eaf364809c5574bd210e545/!/claude-jumping.svg" alt="Claude" width="60" /></td>
+<td align="right"><img src="/mirror/08/083732f2d17cc173d2ce8cdf174e11bd1ccf34d9.svg" alt="Claude" width="60" /></td>
 </tr>
 </table>
 
@@ -54,7 +54,7 @@ Claude Code commands — frontmatter fields and official built-in slash commands
 
 ---
 
-## ![Official](https://gh-proxy.com/https://raw.githubusercontent.com/shanraisshan/claude-code-best-practice/2d6ea151c0d7189c3eaf364809c5574bd210e545/!/tags/official.svg) **(93)**
+## ![Official](/mirror/5d/5dc02d05a93f03f9dbc3b6ede8ad03e64a65f789.svg) **(93)**
 
 | # | Command | Tag | Description |
 |---|---------|-----|-------------|

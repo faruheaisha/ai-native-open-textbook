@@ -18,7 +18,7 @@ The Context Health page has two tabs: **Context Quality** and **Context Manageme
 
 ## Context Quality
 
-![Context Quality](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/screenshots/screen-context-quality.png)
+![Context Quality](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/docs/themes/coach/static/screenshots/screen-context-quality.png)
 
 The Context Quality tab assesses your workspace readiness for AI agents. It scores your setup across several dimensions:
 
@@ -55,7 +55,7 @@ A treemap visualization where tile size represents request volume and tile color
 
 ## Context Management
 
-![Context Management](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/screenshots/screen-context-management.png)
+![Context Management](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/docs/themes/coach/static/screenshots/screen-context-management.png)
 
 The Context Management tab analyzes how efficiently your coding sessions use the available context window.
 

@@ -25,7 +25,7 @@ Free open-source vibefast.app course + paid full-stack vibefast.app template. Fr
 ⚡ 3 commands to global deployment  
 🌍 5 languages: 繁中 · English · 日本語 · Español · Português (BR)
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/vibefast-app/vibefast-docs/2a34bc50576f3f74fda6196ca9bebf851187bcf9/asset/homepage.png" width="100%">
+  <img src="/mirror/37/372439d6f59e936b29184757222dc1f46ee2cce8.png" width="100%">
 
 -----
 

@@ -29,7 +29,7 @@ cp default_workspace/config.example.yaml default_workspace/config.user.yaml
 
 AI 智能体的基础：一个简单的聊天循环，用户输入，LLM 响应。
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/czl9707/build-your-own-openclaw/37ae5dd255a0451609e67ad6d6a51fa5de80523c/00-chat-loop/00-chat-loop.svg" align="center" width="100%" />
+<img src="/mirror/a3/a3b733660ce6427053263145151bf064b56aa61b.svg" align="center" width="100%" />
 
 ## 关键组件
 

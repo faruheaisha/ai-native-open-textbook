@@ -40,7 +40,7 @@ Session 只是这条链路的中间部分。
 
 我们将一次 Coding Agent 的交付拆成三个连续、但边界不同的部分：
 
-![意图、过程与产出构成一条从需求到提交的交付链](https://gh-proxy.com/https://raw.githubusercontent.com/QoderAI/better-harness/e1538c15a98856b3349f365d951f4fa0bcc33f24/img/harness-inspector-architecture-en.svg)
+![意图、过程与产出构成一条从需求到提交的交付链](https://gh-proxy.com/https://raw.githubusercontent.com/QoderAI/better-harness/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/static/img/harness-inspector-architecture-en.svg)
 
 - **意图（Intent）** 是一次变化的语义化起点，例如用户的需求、Issue、Spec 或者架构约束。
 - **过程（Process）** 体现的是这次变化真正发生的过程，对于 Agent 来说，主要体现为 Session 记录以及其中的搜索、读取、修改和验证。

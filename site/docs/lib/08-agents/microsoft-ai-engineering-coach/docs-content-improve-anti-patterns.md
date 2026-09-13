@@ -16,7 +16,7 @@ zh: ""
 
 The Anti-Patterns page is the core improvement engine of AI Engineer Coach. It runs a set of detection rules across your session data and produces scored findings with actionable recommendations.
 
-![Anti-Patterns View](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/screenshots/screen-antipatterns.png)
+![Anti-Patterns View](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/docs/themes/coach/static/screenshots/screen-antipatterns.png)
 
 ## Rule Engine
 

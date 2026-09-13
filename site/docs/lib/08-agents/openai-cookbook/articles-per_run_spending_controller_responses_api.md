@@ -43,7 +43,7 @@ Ticket #4821 uses 1,200 input tokens. To avoid underestimating the response cost
 
 Use Python's built-in `Fraction` type to keep dollar amounts exact. Before making a real request, check the model, default processing tier, token limits, and prices. The `verified_at` date records when those prices were checked; it does not prove they are still current. See [current API pricing](https://developers.openai.com/api/docs/pricing) and [model documentation](https://developers.openai.com/api/docs/models).
 
-![Model spending control: count the input, set aside the highest possible cost, run the model, and record the actual cost.](https://gh-proxy.com/https://raw.githubusercontent.com/openai/openai-cookbook/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/images/per_run_spending_controller/decision_flow.svg)
+![Model spending control: count the input, set aside the highest possible cost, run the model, and record the actual cost.](/mirror/3b/3b8f4feee2724fa09e30095687513978f91854a2.svg)
 
 ## Keep each run within its budget
 
@@ -301,7 +301,7 @@ The first response to ticket #4821 reports 1,200 input tokens: 400 cached and 50
 
 The first response costs $0.01, leaving $0.01. The next response could cost $0.0146, so the controller stops before sending another model request.
 
-![Support ticket budget: the first answer spends $0.01 and the second answer is blocked because $0.0146 exceeds the remaining $0.01.](https://gh-proxy.com/https://raw.githubusercontent.com/openai/openai-cookbook/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/images/per_run_spending_controller/support_ticket.svg)
+![Support ticket budget: the first answer spends $0.01 and the second answer is blocked because $0.0146 exceeds the remaining $0.01.](/mirror/3d/3dcbd0c448ab3ac050cd35ee5fd98389873e3093.svg)
 
 Save the three code blocks above and the offline example below, in order, as `controller.py`. Install the SDK and run:
 

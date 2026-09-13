@@ -14,7 +14,7 @@ zh: ""
 
 # Introduction to Edge AI for Beginners
 
-![Edge AI Introduction](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/edgeai-for-beginners/e88f123a4bb5796594919db3a13257c429d1288c/imgs/cover.png)
+![Edge AI Introduction](/mirror/b0/b0e31b10e23dc3e87d20c8e696d84ff1daca4dce.png)
 
 Welcome to your journey into **Edge Artificial Intelligence** – a revolutionary approach that brings the power of AI directly to where data is created and decisions need to be made. This introduction will establish the foundation for understanding why Edge AI represents the future of intelligent computing and how you can master its implementation.
 

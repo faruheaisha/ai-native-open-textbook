@@ -16,7 +16,7 @@ zh: ""
 
 The Agentic SDLC page measures how broadly you use AI across the full software development lifecycle.
 
-![Agentic SDLC](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/screenshots/screen-sdlc.png)
+![Agentic SDLC](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/docs/themes/coach/static/screenshots/screen-sdlc.png)
 
 ## Overview
 

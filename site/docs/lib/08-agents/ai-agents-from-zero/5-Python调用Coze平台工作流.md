@@ -33,7 +33,7 @@ zh: ""
 
 Coze 的 API 能力需要通过应用发布功能启用。
 
-![Coze 工作流发布 API 入口的界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/5/5-1-1-1.png)
+![Coze 工作流发布 API 入口的界面示意图](/mirror/8b/8b6187f019cc8cdacf9866a1318f0b5e8cd8ec85.png)
 
 这一步的意义和 Dify 很像：只有发布后的工作流，才适合作为外部系统依赖的稳定入口。
 
@@ -45,7 +45,7 @@ Coze 的 API 能力需要通过应用发布功能启用。
 
 发布成功后，在工作流画布页面可以看到 API 调试入口。
 
-![Coze 工作流画布中的 API 调试入口界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/5/5-2-1-1.png)
+![Coze 工作流画布中的 API 调试入口界面](/mirror/fa/fa5a7cac220eff08276d92b371c0e8abf889f93f.png)
 
 ### 2.2 查看 workflow_id 和 app_id
 
@@ -56,7 +56,7 @@ Coze 的 API 能力需要通过应用发布功能启用。
 - **工作流 ID**：`workflow_id`
 - **应用 ID**：`app_id`
 
-![Coze API Playground 中查看 workflow_id 和 app_id 的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/5/5-2-2-1.png)
+![Coze API Playground 中查看 workflow_id 和 app_id 的界面](/mirror/27/27ea9949c488a6387d49c69f7a9c48f5197cfad9.png)
 
 可以这样理解：
 
@@ -67,11 +67,11 @@ Coze 的 API 能力需要通过应用发布功能启用。
 
 左侧窗口向下滑动，可以看到 token（即 API Key），点击“授权”按钮。
 
-![Coze API Playground 中生成并授权 API Key 的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/5/5-2-3-1.png)
+![Coze API Playground 中生成并授权 API Key 的界面](/mirror/35/359691c650eca8f3328d4d2b9dce7e61290ca153.png)
 
 点击后会自动生成并填充 API Key。
 
-![Coze API Playground 中自动填充 API Key 后的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/5/5-2-3-2.png)
+![Coze API Playground 中自动填充 API Key 后的界面](/mirror/5f/5ffaed489d23e9767462cac0abad54ce4af6fbc2.png)
 
 右侧的 Shell 命令窗口会同步更新。
 
@@ -79,7 +79,7 @@ Coze 的 API 能力需要通过应用发布功能启用。
 
 请求体中的 `parameters` 对象用于向工作流传递参数，该对象的每个属性都对应工作流中的一个输入变量。
 
-![Coze API Playground 中配置 parameters 入参的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/5/5-2-4-1.png)
+![Coze API Playground 中配置 parameters 入参的界面](/mirror/6b/6bf6c4e316fbec2f67cce0b12858f2b68ed8f259.png)
 
 这也是 Coze 调用里最容易出错的地方。因为它不是“差不多就行”，而是**字段名、类型、结构都必须对齐平台里的定义**。
 
@@ -87,7 +87,7 @@ Coze 的 API 能力需要通过应用发布功能启用。
 
 可以直接点击 Shell 命令窗口右上角的“运行”按钮。
 
-![Coze API Playground 中运行工作流请求的界面](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/5/5-2-5-1.png)
+![Coze API Playground 中运行工作流请求的界面](/mirror/1c/1cee1512dd77a6b2096b200a32c85c649195eda0.png)
 
 ---
 
@@ -122,17 +122,17 @@ curl -X POST 'https://api.coze.cn/v1/workflow/stream_run' \
 
 ### 4.1 运行结果界面
 
-![Coze 工作流流式运行结果界面的整体示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/5/5-4-1-1.png)
+![Coze 工作流流式运行结果界面的整体示意图](/mirror/9e/9e217d0746da0d1d2466183f8eb68241fecef2ea.png)
 
 ### 4.2 Message
 
-![Coze 流式返回中 Message 事件内容的界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/5/5-4-2-1.png)
+![Coze 流式返回中 Message 事件内容的界面示意图](/mirror/86/86fcb74fffca874abaee5d3f18b023ea511fe98f.png)
 
 `Message` 才是携带真正业务内容的事件类型，此处的 `content` 就是工作流某一步的输出。
 
 ### 4.3 Done
 
-![Coze 流式返回中 Done 结束事件的界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/5/5-4-3-1.png)
+![Coze 流式返回中 Done 结束事件的界面示意图](/mirror/8c/8c4becd7af28dcff70be179e14288bcd479736cc.png)
 
 `Done` 表示流式响应结束，通常出现在所有 `Message` 之后。
 
@@ -152,7 +152,7 @@ curl -X POST 'https://api.coze.cn/v1/workflow/stream_run' \
 
 Coze 提供了官方 Python SDK：`cozepy`。
 
-![Coze 官方 Python SDK cozepy 的文档或仓库界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/5/5-5-1-1.png)
+![Coze 官方 Python SDK cozepy 的文档或仓库界面示意图](/mirror/0a/0ae34f4910188fca130e237c206c93047943df54.png)
 
 ### 5.2 安装依赖
 
@@ -289,13 +289,13 @@ handle_workflow_iterator(
 
 ### 5.5 运行结果
 
-![Python 调用 Coze 工作流后的运行结果界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/5/5-5-5-1.png)
+![Python 调用 Coze 工作流后的运行结果界面示意图](/mirror/ad/adf8eff160dcaef9d839b309be5a4a1bff8683d3.png)
 
 ## 6、除了 SDK，还可以在平台侧运行
 
 如果你只是想先确认工作流本身能正常输出，也可以直接在平台里测试。
 
-![在 Coze 平台侧直接测试工作流输出的界面示意图](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/5/5-6-1-1.png)
+![在 Coze 平台侧直接测试工作流输出的界面示意图](/mirror/bc/bca8baa2ca704e2c8334c80f2ad36aa05bb5ded7.png)
 
 真实项目中，推荐的顺序通常是：
 

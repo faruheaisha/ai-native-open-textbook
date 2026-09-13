@@ -134,7 +134,7 @@ agent-guide/
 更多介绍请访问 [关于我](https://tangshiye.cn/about/)。
 
 <p align="left">
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/tangshiyegit/agent-guide/ae8b2262e7a1e5bd0d466037c6ad9f6037b72c33/assets/gzh-qrcode.png" alt="微信搜索 AI架构师汤师爷，关注公众号" width="480">
+  <img src="/mirror/63/6309e3435b82ea493bcdbd45b63d82ce2a3acfc0.png" alt="微信搜索 AI架构师汤师爷，关注公众号" width="480">
 </p>
 
 ## 开源协议

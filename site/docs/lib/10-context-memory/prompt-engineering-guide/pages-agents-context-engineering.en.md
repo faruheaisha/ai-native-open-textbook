@@ -36,7 +36,7 @@ This content is based on our new course ["Building Effective AI Agents with n8n"
 
 Let's explore context engineering principles through an example: a minimal deep research agent that performs web searches and generates reports.
 
-![Agent Workflow](https://gh-proxy.com/https://raw.githubusercontent.com/dair-ai/Prompt-Engineering-Guide/57673726396dd94acb23bdb1e67f27c78ee85a8e/img/agents/simple-dr-agent.png)
+![Agent Workflow](/mirror/6b/6b2218b7dc96b309ddfea47482bcacb0c4cc294b.png)
 
 ### The Context Engineering Challenge
 

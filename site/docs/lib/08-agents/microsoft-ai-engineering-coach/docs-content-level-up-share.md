@@ -16,7 +16,7 @@ zh: ""
 
 The Share page lets you generate a visual stat card summarizing your AI coding activity. You can share it with your team or save it as a personal record.
 
-![Share Stats](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/screenshots/screen-share.png)
+![Share Stats](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/docs/themes/coach/static/screenshots/screen-share.png)
 
 ## Stat Card Contents
 

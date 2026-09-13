@@ -16,7 +16,7 @@ zh: ""
 
 This directory contains notebooks and resources to learn about observability and evaluation of AI agents using LangFuse and RAGAS.
 
-![image](https://gh-proxy.com/https://raw.githubusercontent.com/aws-samples/sample-getting-started-with-strands-agents-course/6f0b46cd565312a34cdb9a6c72cbff7f3fa80c1d/course-1/Lab6/image/restaurant_agent_architecture.png)
+![image](/mirror/4a/4a4fb0ad807b892dc4f4ad7415b5817926ae72a4.png)
 
 ## Contents
 

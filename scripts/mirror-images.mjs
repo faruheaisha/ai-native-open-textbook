@@ -101,7 +101,19 @@ function mapOutsideCode(text, fn) {
 }
 
 function normalizeRaw(u) {
-  return u.split("#")[0].split("?")[0];
+  let s = u.split("#")[0].split("?")[0];
+  // 站内生成结果里的地址可能套着加速前缀，先剥掉，拿原始 raw 地址当索引键
+  if (PRIMARY && s.startsWith(PRIMARY)) s = s.slice(PRIMARY.length);
+  else s = s.replace(/^https?:\/\/gh-proxy\.com\//i, "");
+  // 路径里的空格被生成器编码成了 %20，解码回来才能和原始地址对齐
+  if (/%[0-9A-Fa-f]{2}/.test(s)) {
+    try {
+      s = decodeURIComponent(s);
+    } catch {
+      /* 解不开就按原样当键 */
+    }
+  }
+  return s;
 }
 
 function collectImageUrls() {

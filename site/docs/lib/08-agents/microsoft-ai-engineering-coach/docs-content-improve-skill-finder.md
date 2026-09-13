@@ -16,7 +16,7 @@ zh: ""
 
 The Skill Finder analyzes your prompt history to identify repeated patterns that waste time and matches them against a community-maintained skill catalog.
 
-![Skill Finder](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/screenshots/screen-skill-finder.png)
+![Skill Finder](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/docs/themes/coach/static/screenshots/screen-skill-finder.png)
 
 ## Custom Skill Opportunities
 

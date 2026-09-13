@@ -32,7 +32,7 @@ We hit plenty of walls along the way and made some unconventional technical deci
 
 ## Where electron-builder Falls Short
 
-![Where electron-builder Falls Short](https://gh-proxy.com/https://raw.githubusercontent.com/joeylee12629-star/article-assets/main/win-packaging/sec-en-01.jpg)
+![Where electron-builder Falls Short](/mirror/22/2280549c2f8697e826063a481c6c09d28c647075.jpg)
 
 electron-builder is the de facto standard for packaging Electron apps. Most projects use it end-to-end, from source to final installer. So did we, initially.
 
@@ -47,7 +47,7 @@ electron-builder still handles producing `win-unpacked` (the raw app directory).
 
 ## Custom 7z + NSIS Pipeline
 
-![Custom 7z + NSIS Pipeline](https://gh-proxy.com/https://raw.githubusercontent.com/joeylee12629-star/article-assets/main/win-packaging/sec-en-02.jpg)
+![Custom 7z + NSIS Pipeline](/mirror/86/8667418825dc0093cb1fbf43448e62dc5d85edd1.jpg)
 
 Our new pipeline has two stages:
 
@@ -68,7 +68,7 @@ We also vendored 7-Zip directly into the repo, so both CI and local builds have 
 
 ## Platform Update Drivers
 
-![Platform Update Drivers](https://gh-proxy.com/https://raw.githubusercontent.com/joeylee12629-star/article-assets/main/win-packaging/sec-en-03.jpg)
+![Platform Update Drivers](/mirror/4d/4dada502be7bff65de22d084dfc3f0281876d0b1.jpg)
 
 This one bit us hard. Our update logic for macOS and Windows used to share a single code path, branched with `if (platform === 'win32')`.
 
@@ -87,7 +87,7 @@ Each platform now evolves independently. If you're building cross-platform Elect
 
 ## Runtime Path Resolution
 
-![Runtime Path Resolution](https://gh-proxy.com/https://raw.githubusercontent.com/joeylee12629-star/article-assets/main/win-packaging/sec-en-04.jpg)
+![Runtime Path Resolution](/mirror/89/89f26c18d9e232e66468a06315ad43d40471854f.jpg)
 
 Here's a subtle one: after packaging, runtime file locations depend on your build config. Our old code used loose heuristics to find them — which mostly worked, until it didn't.
 
@@ -99,7 +99,7 @@ Before: "it's probably around here." Now: **"it must be exactly here, or fail lo
 
 ## CI/CD Pipeline
 
-![CI/CD Pipeline](https://gh-proxy.com/https://raw.githubusercontent.com/joeylee12629-star/article-assets/main/win-packaging/sec-en-05.jpg)
+![CI/CD Pipeline](/mirror/b4/b4d27bed220907c3b35171e1c7374257a39e7e0f.jpg)
 
 Previously, Windows builds were a local-only affair — success depended on your machine's toolchain being set up correctly.
 
@@ -113,7 +113,7 @@ For open-source projects, reproducible CI is everything. Any contributor can bui
 
 ## What's Next
 
-![What's Next](https://gh-proxy.com/https://raw.githubusercontent.com/joeylee12629-star/article-assets/main/win-packaging/sec-en-06.jpg)
+![What's Next](/mirror/10/1032ba349e591927306b106656093bf5c75bdf72.jpg)
 
 The real value of this work isn't a flashy new feature — it's **infrastructure that compounds**. More control over packaging, more stable updates, more predictable paths.
 

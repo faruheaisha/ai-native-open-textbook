@@ -19,7 +19,7 @@ map, and the skill map underneath it.
 
 ## The arc
 
-![Seven phases across 24 weeks, from Foundations to the Databricks capstone](https://gh-proxy.com/https://raw.githubusercontent.com/zorost/AI-Engineering-Lab/cdd8dbdf559f72211a7c068e8877918441531e52/assets/diagrams/lab-journey.png)
+![Seven phases across 24 weeks, from Foundations to the Databricks capstone](/mirror/06/068f0a31d146e63bc28309f7837b3c134c0a08eb.png)
 
 The same arc as a live diagram (renders on GitHub):
 

@@ -60,6 +60,10 @@ export default defineConfig({
   description: '按学习路径编排的开放课程与官方文献。正文与上游一致，逐页标注出处与许可。',
   base: BASE,
   cleanUrls: true,
+  // 2260 个页面的「路径 -> 产物哈希」映射表，默认会被逐页内联进 HTML。
+  // 这本教材有 2281 页，单页就要多背 800KB，全站白烧 1.8GB。
+  // 打开后改写成一份共享的 metadata.<hash>.js，各页按需引用。
+  metaChunk: true,
   ignoreDeadLinks: [/^https?:\/\/localhost(:\d+)?/],
   // viewport-fit=cover 是 env(safe-area-inset-*) 生效的前提（刘海 / 圆角屏的安全区）
   head: [

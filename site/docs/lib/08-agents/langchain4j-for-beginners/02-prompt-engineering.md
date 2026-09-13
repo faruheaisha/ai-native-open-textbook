@@ -50,7 +50,7 @@ Watch this live session that explains how to get started with this module:
 
 The following diagram provides an overview of the key topics and skills you'll develop in this module — from prompt refinement techniques to the step-by-step workflow you'll follow.
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/02-prompt-engineering/images/what-youll-learn.png" alt="What You'll Learn" width="800"/>
+<img src="/mirror/6c/6cf2cae32f4df456e869ca17029fd3425dc2f2b3.png" alt="What You'll Learn" width="800"/>
 
 In the previous module, you saw how memory enables conversational AI with Azure OpenAI. Now we'll focus on how you ask questions — the prompts themselves — using Azure OpenAI's GPT-5.2. The way you structure your prompts dramatically affects the quality of responses you get. We start with a review of the fundamental prompting techniques, then move into eight advanced patterns that take full advantage of GPT-5.2's capabilities.
 
@@ -67,7 +67,7 @@ We'll use GPT-5.2 because it introduces reasoning control - you can tell the mod
 
 At its core, prompt engineering is the difference between vague instructions and precise ones, as the comparison below illustrates.
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/02-prompt-engineering/images/what-is-prompt-engineering.png" alt="What is Prompt Engineering?" width="800"/>
+<img src="/mirror/0e/0e828eb8c9bf2b27cc9e3f1173bc94d3de47f426.png" alt="What is Prompt Engineering?" width="800"/>
 
 Prompt engineering is about designing input text that consistently gets you the results you need. It's not just about asking questions - it's about structuring requests so the model understands exactly what you want and how to deliver it.
 
@@ -75,7 +75,7 @@ Think of it like giving instructions to a colleague. "Fix the bug" is vague. "Fi
 
 The diagram below shows how LangChain4j fits into this picture — connecting your prompt patterns to the model through SystemMessage and UserMessage building blocks.
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/02-prompt-engineering/images/how-langchain4j-fits.png" alt="How LangChain4j Fits" width="800"/>
+<img src="/mirror/43/43b238bd41d8330e8400ed0d629e84c3ae3ff085.png" alt="How LangChain4j Fits" width="800"/>
 
 LangChain4j provides the infrastructure — model connections, memory, and message types — while prompt patterns are just carefully structured text you send through that infrastructure. The key building blocks are `SystemMessage` (which sets the AI's behavior and role) and `UserMessage` (which carries your actual request).
 
@@ -83,7 +83,7 @@ LangChain4j provides the infrastructure — model connections, memory, and messa
 
 The five core techniques shown below form the foundation of effective prompt engineering. Each one addresses a different aspect of how you communicate with language models.
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/02-prompt-engineering/images/five-patterns-overview.png" alt="Five Prompt Engineering Patterns Overview" width="800"/>
+<img src="/mirror/1d/1dab519129e53c4cacf3bad061d5ef61b3c36537.png" alt="Five Prompt Engineering Patterns Overview" width="800"/>
 
 Before diving into the advanced patterns in this module, let's review five foundational prompting techniques. These are the building blocks that every prompt engineer should know.
 
@@ -91,7 +91,7 @@ Before diving into the advanced patterns in this module, let's review five found
 
 The simplest approach: give the model a direct instruction with no examples. The model relies entirely on its training to understand and execute the task. This works well for straightforward requests where the expected behavior is obvious.
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/02-prompt-engineering/images/zero-shot-prompting.png" alt="Zero-Shot Prompting" width="800"/>
+<img src="/mirror/e2/e25ffbed975794c73fd706efa305497a2f549cea.png" alt="Zero-Shot Prompting" width="800"/>
 
 *Direct instruction without examples — the model infers the task from the instruction alone*
 
@@ -107,7 +107,7 @@ String response = model.chat(prompt);
 
 Provide examples that demonstrate the pattern you want the model to follow. The model learns the expected input-output format from your examples and applies it to new inputs. This dramatically improves consistency for tasks where the desired format or behavior isn't obvious.
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/02-prompt-engineering/images/few-shot-prompting.png" alt="Few-Shot Prompting" width="800"/>
+<img src="/mirror/09/09ecf2363d36b43923eccdfff9e83e9631343c16.png" alt="Few-Shot Prompting" width="800"/>
 
 *Learning from examples — the model identifies the pattern and applies it to new inputs*
 
@@ -132,7 +132,7 @@ String response = model.chat(prompt);
 
 Ask the model to show its reasoning step-by-step. Instead of jumping straight to an answer, the model breaks down the problem and works through each part explicitly. This improves accuracy on math, logic, and multi-step reasoning tasks.
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/02-prompt-engineering/images/chain-of-thought.png" alt="Chain of Thought Prompting" width="800"/>
+<img src="/mirror/62/627a55933841ec3a4707380736ec54cdad8137c7.png" alt="Chain of Thought Prompting" width="800"/>
 
 *Step-by-step reasoning — breaking complex problems into explicit logical steps*
 
@@ -153,7 +153,7 @@ String response = model.chat(prompt);
 
 Set a persona or role for the AI before asking your question. This provides context that shapes the tone, depth, and focus of the response. A "software architect" gives different advice than a "junior developer" or a "security auditor".
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/02-prompt-engineering/images/role-based-prompting.png" alt="Role-Based Prompting" width="800"/>
+<img src="/mirror/c6/c6139ed8957633b58d045bc7200e3dfcc70b9c98.png" alt="Role-Based Prompting" width="800"/>
 
 *Setting context and persona — the same question gets a different response depending on the assigned role*
 
@@ -177,7 +177,7 @@ String response = model.chat(prompt);
 
 Create reusable prompts with variable placeholders. Instead of writing a new prompt every time, define a template once and fill in different values. LangChain4j's `PromptTemplate` class makes this easy with <code v-pre>{{variable}}</code> syntax.
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/02-prompt-engineering/images/prompt-templates.png" alt="Prompt Templates" width="800"/>
+<img src="/mirror/b0/b080c8ef8890c178102e05293c4e554d9057774b.png" alt="Prompt Templates" width="800"/>
 
 *Reusable prompts with variable placeholders — one template, many uses*
 
@@ -204,13 +204,13 @@ These five fundamentals give you a solid toolkit for most prompting tasks. The r
 
 With the fundamentals covered, let's move to the eight advanced patterns that make this module unique. Not all problems need the same approach. Some questions need quick answers, others need deep thinking. Some need visible reasoning, others just need results. Each pattern below is optimized for a different scenario — and GPT-5.2's reasoning control makes the differences even more pronounced.
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/02-prompt-engineering/images/eight-patterns.png" alt="Eight Prompting Patterns" width="800"/>
+<img src="/mirror/6e/6ed38dc21b44382f065f3f56f4a70e8cdbb948f9.png" alt="Eight Prompting Patterns" width="800"/>
 
 *Overview of the eight prompt engineering patterns and their use cases*
 
 GPT-5.2 adds another dimension to these patterns: *reasoning control*. The slider below shows how you can adjust the model's thinking effort — from quick, direct answers to deep, thorough analysis.
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/02-prompt-engineering/images/reasoning-control.png" alt="Reasoning Control with GPT-5.2" width="800"/>
+<img src="/mirror/d9/d95acc9c3e802f0fd05c03cee356aa8f03cace39.png" alt="Reasoning Control with GPT-5.2" width="800"/>
 
 *GPT-5.2's reasoning control lets you specify how much thinking the model should do — from fast direct answers to deep exploration*
 
@@ -299,7 +299,7 @@ Chain-of-Thought prompting explicitly asks the model to show its reasoning proce
 
 The diagram below illustrates this Plan → Execute → Summarize workflow.
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/02-prompt-engineering/images/task-execution-pattern.png" alt="Task Execution Pattern" width="800"/>
+<img src="/mirror/3e/3e43ac2fa23dc0327c5271e378e22c37fa5a656f.png" alt="Task Execution Pattern" width="800"/>
 
 *Plan → Execute → Summarize workflow for multi-step tasks*
 
@@ -316,7 +316,7 @@ String response = chatModel.chat(prompt);
 
 The diagram below shows this iterative improvement loop — generate, evaluate, identify weaknesses, and refine until the code meets production standards.
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/02-prompt-engineering/images/self-reflection-cycle.png" alt="Self-Reflection Cycle" width="800"/>
+<img src="/mirror/5e/5e0e22e5e83017399f8763350f25f0e3fe060a8b.png" alt="Self-Reflection Cycle" width="800"/>
 
 *Iterative improvement loop - generate, evaluate, identify issues, improve, repeat*
 
@@ -375,7 +375,7 @@ String response = chatModel.chat(prompt);
 
 The following diagram shows how this structured framework organizes a code review into consistent categories with severity levels.
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/02-prompt-engineering/images/structured-analysis-pattern.png" alt="Structured Analysis Pattern" width="800"/>
+<img src="/mirror/9d/9d5b6d1dbb6d7d0b1da71ecaaa87f0654ca79215.png" alt="Structured Analysis Pattern" width="800"/>
 
 *Framework for consistent code reviews with severity levels*
 
@@ -395,7 +395,7 @@ memory.add(aiMessage2);
 
 The diagram below visualizes how conversation context accumulates with each turn and how it relates to the model's token limit.
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/02-prompt-engineering/images/context-memory.png" alt="Context Memory" width="800"/>
+<img src="/mirror/50/504f3fd27576704bec32a36e8705837891d6aeab.png" alt="Context Memory" width="800"/>
 
 *How conversation context accumulates over multiple turns until reaching the token limit*
 
@@ -415,7 +415,7 @@ String response = chatModel.chat(prompt);
 
 The diagram below illustrates how the model breaks problems into explicit, numbered logical steps.
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/02-prompt-engineering/images/step-by-step-pattern.png" alt="Step-by-Step Pattern" width="800"/>
+<img src="/mirror/86/867e7d03bd203a6396c6ac4d95085ab5d1ef42df.png" alt="Step-by-Step Pattern" width="800"/>
 
 *Breaking down problems into explicit logical steps*
 
@@ -437,7 +437,7 @@ String response = chatModel.chat(prompt);
 
 The following diagram shows how constraints guide the model to produce output that strictly adheres to your format and length requirements.
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/02-prompt-engineering/images/constrained-output-pattern.png" alt="Constrained Output Pattern" width="800"/>
+<img src="/mirror/99/99b49c2d41858164d2ea8a6d8fa5fc646ed23270.png" alt="Constrained Output Pattern" width="800"/>
 
 *Enforcing specific format, length, and structure requirements*
 
@@ -473,7 +473,7 @@ From the Spring Boot Dashboard, you can:
 
 Simply click the play button next to "prompt-engineering" to start this module, or start all modules at once.
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/02-prompt-engineering/images/dashboard.png" alt="Spring Boot Dashboard" width="400"/>
+<img src="/mirror/1a/1a078c7c3c379ba3bdab0b6557c1a3618ae93774.png" alt="Spring Boot Dashboard" width="400"/>
 
 *The Spring Boot Dashboard in VS Code — start, stop, and monitor all modules from one place*
 
@@ -545,7 +545,7 @@ cd ..; .\stop-all.ps1  # All modules
 
 Here is the main interface of the prompt engineering module, where you can experiment with all eight patterns side by side.
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/02-prompt-engineering/images/dashboard-home.png" alt="Dashboard Home" width="800" style="border: 1px solid #ddd; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"/>
+<img src="/mirror/ac/ac1d41ba98aea60942e9a080074b36cd1501b5d6.png" alt="Dashboard Home" width="800" style="border: 1px solid #ddd; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"/>
 
 *The main dashboard showing all 8 prompt engineering patterns with their characteristics and use cases*
 

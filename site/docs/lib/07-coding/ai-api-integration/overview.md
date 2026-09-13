@@ -30,7 +30,7 @@ zh: ""
 <tr>
 <td width="50%" valign="top">
 
-<video src="https://github.com/CCCpan/ai-api-integration/raw/main/assets/cases/contract-verify.mp4" controls poster="https://gh-proxy.com/https://raw.githubusercontent.com/CCCpan/ai-api-integration/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/assets/cases/contract-verify-cover.jpg" width="100%"></video>
+<video src="https://github.com/CCCpan/ai-api-integration/raw/main/assets/cases/contract-verify.mp4" controls poster="/mirror/9a/9aba2a48354eed90d41445f28ced366335aa737a.jpg" width="100%"></video>
 
 </td>
 <td valign="top">
@@ -58,7 +58,7 @@ zh: ""
 <tr>
 <td width="50%" valign="top">
 
-<video src="https://github.com/CCCpan/ai-api-integration/raw/main/assets/cases/xhs-content.mp4" controls poster="https://gh-proxy.com/https://raw.githubusercontent.com/CCCpan/ai-api-integration/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/assets/cases/xhs-content-cover.jpg" width="100%"></video>
+<video src="https://github.com/CCCpan/ai-api-integration/raw/main/assets/cases/xhs-content.mp4" controls poster="/mirror/fa/fa2f82b170dd09937dc2b01485f840e16e3ad313.jpg" width="100%"></video>
 
 </td>
 <td valign="top">

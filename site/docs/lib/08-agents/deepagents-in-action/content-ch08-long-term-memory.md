@@ -51,7 +51,7 @@ Deep Agents 将记忆作为**一等公民**——Agent 以文件形式读写记�
 
 这些信息不应该随着对话结束而消失。这就是**长期记忆**——它需要一种能跨线程持久化的存储方式。
 
-![Agent 的两种记忆：短期记忆（Checkpointer，同一对话内有效）vs 长期记忆（Store，跨对话持久化），CompositeBackend 将两者组合](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/deepagents-in-action/4097ff944f9ffa1bdfe2dd04f751f4416b058860/public/imgs/26-comparison-memory-types.png)
+![Agent 的两种记忆：短期记忆（Checkpointer，同一对话内有效）vs 长期记忆（Store，跨对话持久化），CompositeBackend 将两者组合](/mirror/8d/8da7dad12ac71b508fb47e170d8610442ec1306d.png)
 
 ## Checkpointer：短期记忆的基础
 
@@ -293,7 +293,7 @@ agent = create_deep_agent(
 )
 ```
 
-![记忆的三种作用域：Agent 级（所有用户共享 AGENTS.md）、用户级（按 user_id 隔离 preferences.md）、组织级（全组织共享 compliance.md，通常只读）](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/deepagents-in-action/4097ff944f9ffa1bdfe2dd04f751f4416b058860/public/imgs/28-arch-scoped-memory.png)
+![记忆的三种作用域：Agent 级（所有用户共享 AGENTS.md）、用户级（按 user_id 隔离 preferences.md）、组织级（全组织共享 compliance.md，通常只读）](/mirror/5c/5c81b8722865f5ce40422c7fac268fd1d0c8629f.png)
 
 ### 路径路由的工作方式
 
@@ -333,7 +333,7 @@ agent.invoke({
 # Agent 读取 /memories/preferences.md，用中文注释、英文变量名
 ```
 
-![跨对话记忆工作流程：对话 1 将偏好写入 /memories/，持久化存储保留数据，对话 2 读取之前保存的偏好——不同对话共享持久化文件](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/deepagents-in-action/4097ff944f9ffa1bdfe2dd04f751f4416b058860/public/imgs/27-flowchart-cross-thread.png)
+![跨对话记忆工作流程：对话 1 将偏好写入 /memories/，持久化存储保留数据，对话 2 读取之前保存的偏好——不同对话共享持久化文件](/mirror/09/091e72eb8cf08be97883c96ddfcf1421584c3174.png)
 
 ## 四种实用场景
 

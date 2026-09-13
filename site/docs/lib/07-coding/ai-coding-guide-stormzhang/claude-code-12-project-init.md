@@ -110,7 +110,7 @@ claude
 
 那它在背后到底干了啥？看它跑过很多次，大致是这么个流程：
 
-![/init 五步初始化流程](https://gh-proxy.com/https://raw.githubusercontent.com/stormzhang/ai-coding-guide/d187dbdb83fa1be051a850074eb518e30e2eb47c/claude-code/assets/12-init-flow@2x.png)
+![/init 五步初始化流程](/mirror/02/020181d2674e260d82716d15972c0ab869932c33.png)
 
 整件事串成一条线就是：**在项目目录里启动 `claude` → 敲 `/init` → Claude 扫描项目结构、识别技术栈 → 落盘一份 CLAUDE.md 草稿 → 你再人工微调补全**。前四步基本是自动的，最后那步「人工微调」才是把草稿变成好手册的关键，这一篇先点到，第 18 篇专门讲。
 

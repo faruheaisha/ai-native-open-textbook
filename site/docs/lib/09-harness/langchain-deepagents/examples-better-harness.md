@@ -43,7 +43,7 @@ It then:
 5. keeps the change only if the combined pass count improves
 6. optionally runs `scorecard` on baseline and final only
 
-![Better Harness Optimization](https://gh-proxy.com/https://raw.githubusercontent.com/langchain-ai/deepagents/d93ab3351bbf4c3687212f665094ccad100f2c08/examples/better-harness/better_harness_optimization.svg)
+![Better Harness Optimization](/mirror/61/613c580e343a4f8e8edd9460ad74ef13edfc5cd9.svg)
 
 ## Start here
 

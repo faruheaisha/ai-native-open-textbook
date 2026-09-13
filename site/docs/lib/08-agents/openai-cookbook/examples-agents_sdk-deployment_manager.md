@@ -41,15 +41,15 @@ serves `dist/` plus `/api/*`.
 
 ### Deployments
 
-![Deployments](https://gh-proxy.com/https://raw.githubusercontent.com/openai/openai-cookbook/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/examples/agents_sdk/deployment_manager/docs/screenshots/deployments.png)
+![Deployments](/mirror/be/beb7f75fa0429a50297b49933eefdf2b1b5ed8f2.png)
 
 ### App details
 
-![App details](https://gh-proxy.com/https://raw.githubusercontent.com/openai/openai-cookbook/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/examples/agents_sdk/deployment_manager/docs/screenshots/app-details.png)
+![App details](/mirror/ff/ff6ecb1c110ef35a0f48959e92d2ebb34bf1be1d.png)
 
 ### Traces
 
-![Traces](https://gh-proxy.com/https://raw.githubusercontent.com/openai/openai-cookbook/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/examples/agents_sdk/deployment_manager/docs/screenshots/traces.png)
+![Traces](/mirror/6a/6aca2afabe5851883c474a2c6f12717001d56c85.png)
 
 ## Scope
 

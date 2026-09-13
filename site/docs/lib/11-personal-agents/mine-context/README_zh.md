@@ -16,7 +16,7 @@ zh: ""
 
 MineContext 是一个具有上下文感知能力的主动式 AI 伙伴。它基于屏幕截图+内容理解的方式（未来还将支持其他来源的多模态信息，包括文档、图片、视频、代码、外部应用数据），能够看到并看懂用户的数字世界上下文，然后再基于底层的上下文工程框架，主动推送洞察、日/周总结 、待办、活动记录等高质量信息，同时支持用户基于 Context 和生成的信息进行再创作。
 
-![feature.gif](https://gh-proxy.com/https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/feature.gif)
+![feature.gif](/mirror/8d/8d9ca160fd810806de9b59a6c4306b3b238119af.gif)
 
 # 🚀 核心功能
 
@@ -51,7 +51,7 @@ MineContext 非常注重用户隐私，所有数据都默认保存在本地如�
 
 点击 [Github Latest Release](https://github.com/volcengine/MineContext/releases) 下载最新版本。
 
-![Download APP](https://gh-proxy.com/https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/Download-App.gif)
+![Download APP](/mirror/7d/7d1139b330704f35c4efb3d2cb23aa4886f123fd.gif)
 
 > **注意**：从 v0.1.5 版本开始，MineContext 已支持 Apple 公证，因此不再需要禁用隔离属性。如果您使用的是旧版本，请参考[之前的文档](https://github.com/volcengine/MineContext/blob/0.1.4/README_zh.md)获取相关说明。
 
@@ -65,23 +65,23 @@ MineContext 非常注重用户隐私，所有数据都默认保存在本地如�
 获取豆包 API 之后需要在 [模型开通管理界面](https://console.volcengine.com/ark/region:ark+cn-beijing/model) 开通视觉语言模型和向量化两个模型。
 
 - 视觉语言模型：Doubao-Seed-1.6-flash
-  ![doubao-vlm-model](https://gh-proxy.com/https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/doubao-vlm-model.png)
+  ![doubao-vlm-model](/mirror/4b/4b8a80e9cb4b007ea059f722280b5594cb6ef449.png)
 
 - 向量化模型：Doubao-embedding-vision
-  ![doubao-emb-model](https://gh-proxy.com/https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/doubao-emb-model.png)
+  ![doubao-emb-model](/mirror/94/94e2ef9a57d093864df0c8ec89565b97ab989bf1.png)
 
 以下是获取了 API Key 后的填写流程：
-![Enter API-Key](https://gh-proxy.com/https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/Enter-API-Key.gif)
+![Enter API-Key](/mirror/e8/e8a50d34e005581356aff4d81a64f18acb953a3c.gif)
 
 ## 3. 开始记录
 
 进入【Screen Monitor】启用屏幕分享的系统权限，设置完之后需要重新启动应用使其生效。
 
-![Enable-Permissions](https://gh-proxy.com/https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/Enable-Permissions.gif)
+![Enable-Permissions](/mirror/04/0408b7917dda8cdcbceed1eb8cf77c4938f8aa8f.gif)
 
 重新启动应用后，请先在【Settings】设置您的屏幕共享区域，然后点击【Start Recording】开始截图。
 
-![Screen-Settings](https://gh-proxy.com/https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/Screen-Settings.gif)
+![Screen-Settings](/mirror/e1/e1f1bf5c7ee1111021b45c5413b16aeb32b509a3.gif)
 
 ## 4. 忘掉它
 
@@ -93,15 +93,15 @@ MineContext 支持在`http://localhost:1733` 进行后台调试。
 
 1.支持查看 Token 用量与使用情况
 
-![后台调试1](https://gh-proxy.com/https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/backend-web-1.png)
+![后台调试1](/mirror/a6/a6ea4d8a78ba7f1dc3c4c12e18f2d36f49086467.png)
 
 2.支持主动推送任务的时间间隔设置
 
-![后台调试2](https://gh-proxy.com/https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/backend-web-2.png)
+![后台调试2](/mirror/23/23e064a9fc30fc53510ea81331d84349d3f8acf6.png)
 
 3.支持调整主动推送任务的系统提示词
 
-![后台调试3](https://gh-proxy.com/https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/backend-web-3.png)
+![后台调试3](/mirror/86/863955d8ad15b14fc15e8591682300622866bd85.png)
 
 # 🎃 贡献指南
 

@@ -43,7 +43,7 @@ zh: ""
 
 `claude` 启动后，从下往上大致是这么个布局：
 
-![交互界面分区与高频快捷键](https://gh-proxy.com/https://raw.githubusercontent.com/stormzhang/ai-coding-guide/d187dbdb83fa1be051a850074eb518e30e2eb47c/claude-code/assets/14-interface-keys@2x.png)
+![交互界面分区与高频快捷键](/mirror/a4/a4406d7da12c1349ca77e91a987e4605a5b83ae1.png)
 
 - **输入框**：最底下那一行，前面通常有个 `>` 提示符。**这是你跟 Claude 说话的唯一入口**，打字、贴代码、敲特殊命令全在这儿。
 - **状态行 / 页脚**：紧贴输入框上下的那几行小字。它会显示一些上下文信息——比如当前在哪个目录、有没有后台任务在跑、如果你这个分支有打开的 PR，官方文档说还会在页脚显示一个可点击的「PR #编号」链接，下划线颜色代表审查状态（绿=已批准、黄=待审、红=请求改动、灰=草稿）。

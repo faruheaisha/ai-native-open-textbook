@@ -14,7 +14,7 @@ zh: ""
 
 # 用千问办公清洗 119 份门店 Excel 并生成可交互运营看板
 
-![案例封面：门店运营分析看板](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/cases/submissions/tea-shop-sales-analysis/assets/cover.jpg)
+![案例封面：门店运营分析看板](/mirror/35/35504243eb736482fb21c006a0efdf02e107775b.jpg)
 
 ## 场景描述
 
@@ -26,7 +26,7 @@ zh: ""
 - **金额字段有噪声**：混入 ￥/CNY/RMB/元、千分位逗号，还有「待补录」「--」等缺失标记和负数退货
 - **同一门店分散在多个文件**：例如北京三里屯店的数据散落在 6 个文件里
 
-![总部实际收到的门店 Excel：列名、格式、币种单位五花八门](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/cases/submissions/tea-shop-sales-analysis/assets/mess-data.jpg)
+![总部实际收到的门店 Excel：列名、格式、币种单位五花八门](/mirror/f1/f1692753593b55778eac5db83bdefb851e2b90c2.jpg)
 
 手工合并和清洗这类数据通常需要 6-7 小时，且容易出错。这个案例演示如何把工作一次性交给千问办公，并拿到可以直接汇报的交付物。
 
@@ -125,17 +125,17 @@ zh: ""
 
 **Excel 分析报告**：8 个 Sheet（封面指标卡 / 区域汇总 / 城市汇总 / TOP10 门店 / 品类占比 / 月度趋势 / 洞察与策略建议 / 数据说明与假设），165 个活公式，recalc 校验 0 错误。核心发现：华南（28.8%）与华东（28.7%）双龙头合计过半；TOP10 门店占全盘 38.7%；水果/鲜果茶品类占 20.0%。
 
-![Excel 分析报告](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/cases/submissions/tea-shop-sales-analysis/assets/report-xlsx.jpg)
+![Excel 分析报告](/mirror/6f/6f1a69b41094587acb1f4d1d4dbaf3780a5ce121.jpg)
 
 **HTML 驾驶舱**：深绿品牌色 + 金点缀的咨询所风格，KPI 卡、5 张图表、门店明细表全部全局联动；趋势图支持拖拽选月。聚合数值经 node 脚本多场景模拟校验，与 Excel 报告完全一致。
 
-![HTML 驾驶舱：全局联动的交互看板](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/cases/submissions/tea-shop-sales-analysis/assets/cover.jpg)
+![HTML 驾驶舱：全局联动的交互看板](/mirror/35/35504243eb736482fb21c006a0efdf02e107775b.jpg)
 
 **执行过程**：千问办公接到任务指令后开始执行（左图）；清洗完成后，它会先汇报发现了哪些脏数据问题、做了哪些处理假设，由人确认口径后再继续（右图）。
 
-![在千问办公中下达任务指令](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/cases/submissions/tea-shop-sales-analysis/assets/qwenwork-task.jpg)
+![在千问办公中下达任务指令](/mirror/63/63a45931f2af18ba0b208deba9cd416bf378bcef.jpg)
 
-![千问办公汇报发现的脏数据问题与处理结果](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/cases/submissions/tea-shop-sales-analysis/assets/qwenwork-cleaning.jpg)
+![千问办公汇报发现的脏数据问题与处理结果](/mirror/26/26957e4ce2e550f1f5b8e6742b14bdf952a4c9cf.jpg)
 
 ## 验收标准
 

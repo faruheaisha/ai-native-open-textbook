@@ -115,7 +115,7 @@ A comprehensive Jupyter notebook that guides you through building the keyword se
 
 **Week 3 Architecture:**
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/jamwithai/production-agentic-rag-course/424a0eb99edf841994f2a9a053912b489d2a94ff/static/week3_opensearch_flow.png" alt="Week 3 OpenSearch Flow Architecture" width="800">
+  <img src="/mirror/84/84f689ac714b8c28bf98564ca3ce170e5e3061e1.png" alt="Week 3 OpenSearch Flow Architecture" width="800">
   <br>
   <em>Complete Week 3 architecture showing the OpenSearch integration flow</em>
 

@@ -44,7 +44,7 @@ zh: ""
 - **Predict（模型调用）**：通过 LangChain 的统一接口调用不同模型提供商，例如 OpenAI、DeepSeek、阿里百炼、Ollama 等。
 - **Parse（输出解析）**：把模型返回的自然语言结果转成更稳定、程序更好处理的形式，例如字符串、JSON、结构化对象等。
 
-![Model I/O 三步流程：Format（模板与变量）→ Predict（LLM / Chat Model）→ Parse（输出解析为 JSON 等结构化数据）](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/11/11-1-1-1.png)
+![Model I/O 三步流程：Format（模板与变量）→ Predict（LLM / Chat Model）→ Parse（输出解析为 JSON 等结构化数据）](/mirror/39/39ef9bd487201fa292bba5e27526bb1a00b27ae4.png)
 
 可以把这张图看作后续几章的总地图：
 
@@ -104,7 +104,7 @@ zh: ""
 
 只有把这三层分清楚，后面你才不会把“换模型”“换平台”“换 LangChain 写法”混成一件事。
 
-![模型名、模型平台、LangChain 模型对象与 AIMessage 返回对象的分层关系](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/11/11-2-1-1.svg)
+![模型名、模型平台、LangChain 模型对象与 AIMessage 返回对象的分层关系](/mirror/53/5381f7f693a6bc109e8ce91ae6a39b93fc0e618d.svg)
 
 ### 2.2 LangChain 常见模型分类
 
@@ -188,7 +188,7 @@ Embedding 不是“会说话”的模型，但它依然属于 Model I/O 体系�
 
 下面这张图很适合入门建立直觉：
 
-![模型常用参数示意：Temperature 控制随机性/发散度，Max Tokens 控制单次生成长度与费用上限](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/11/11-2-5-1.jpeg)
+![模型常用参数示意：Temperature 控制随机性/发散度，Max Tokens 控制单次生成长度与费用上限](/mirror/ac/ac8fa031326474a32f64bb102656a0100ab8d454.jpeg)
 
 - **`temperature`** 管“风格和发散度”
 - **`max_tokens`** 管“长度和成本”
@@ -623,7 +623,7 @@ print(model.invoke("你是谁？").content)
 | `callbacks` | 挂接回调处理器 | 调试、日志、观察调用过程 |
 | `configurable` | 运行时切换配置 | 在同一段代码里切换模型或参数 |
 
-![LangChain 调用时业务输入与 config 的分工：业务输入给模型理解，config 给运行时管理、观测和切换使用](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/11/11-3-8-1.svg)
+![LangChain 调用时业务输入与 config 的分工：业务输入给模型理解，config 给运行时管理、观测和切换使用](/mirror/cc/cc8c966e24a10f3ed46573a912d333dec56c89a9.svg)
 
 一个最小例子：
 

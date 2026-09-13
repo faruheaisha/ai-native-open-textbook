@@ -50,7 +50,7 @@ Agentic Retrieval-Augmented Generation（Agentic RAG）是AI开发中的新兴�
 
 这种迭代的“maker-checker”操作模式旨在提高正确性，处理向结构化数据库（如NL2SQL）提出的错误格式查询，并保证平衡且高质量的结果。系统不单靠精心设计的提示链，而是主动掌控推理流程，能重写失败的查询、选择不同的检索方法、整合多种工具——如Azure AI Search向量检索、SQL数据库或自定义API—最终给出结果。这样无需复杂的编排框架，只需“LLM调用→工具使用→LLM调用→…”的循环即可产出复杂且稳健的输出。
 
-![Agentic RAG Core Loop](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/agentic-rag-core-loop.c8f4b85c26920f71.webp)
+![Agentic RAG Core Loop](/mirror/6b/6b4cb472fc14ce18938bce1f8fe974c4cd49de22.webp)
 
 ## 掌控推理过程
 
@@ -67,7 +67,7 @@ Agentic Retrieval-Augmented Generation（Agentic RAG）是AI开发中的新兴�
 
 ## 迭代循环、工具集成与记忆
 
-![Tool Integration Architecture](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/tool-integration.0f569710b5c17c10.webp)
+![Tool Integration Architecture](/mirror/4e/4ecca613f92a8e1b8086855cef94e9e4ccebff21.webp)
 
 Agentic系统依赖于循环交互模式：
 
@@ -89,7 +89,7 @@ Agentic RAG的自主性还体现在其强大的自我纠错机制上。当系统
 
 这种迭代且动态的方法使模型持续改进，确保它不仅是一次性系统，而是能在单次会话中从错误中学习。
 
-![Self Correction Mechanism](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/self-correction.da87f3783b7f174b.webp)
+![Self Correction Mechanism](/mirror/ba/ba9ee8fe9a473f1bf041de1f80421cdf8a1e7f32.webp)
 
 ## 自主性的边界
 
@@ -118,7 +118,7 @@ Agentic RAG在需要迭代优化和精准度的场景中表现出色：
 
 拥有可清晰记录操作的工具非常重要。缺乏时，对多步骤过程的调试会十分困难。下面是Literal AI（Chainlit背后公司）给出的Agent运行示例：
 
-![AgentRunExample](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/AgentRunExample.471a94bc40cbdc0c.webp)
+![AgentRunExample](/mirror/07/07e536b4562dc141d276e519a2d825613b9a359a.webp)
 
 ## 结论
 

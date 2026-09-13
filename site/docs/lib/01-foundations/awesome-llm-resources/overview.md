@@ -14,7 +14,7 @@ zh: ""
 
 # Awesome LLM Resources（大模型资源清单）
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/WangRongsheng/awesome-LLM-resources/1fdf4ba2279979507c122db6403d2b7f97cc1e36/assets/logo6.png)
+![](/mirror/02/025ac323fcb1d395f429dcf2592f91dd16ec4907.png)
 
 <p align="center">全世界最好的大语言模型资源汇总 持续更新</p>
 

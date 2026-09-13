@@ -73,9 +73,9 @@ Perfect for getting started with AI engineering. These projects focus on single 
 - [**Qwen 2.5 OCR**](https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/qwen-2.5VL-ocr) - Text extraction using Qwen 2.5 VL model
 
 #### Chat Interfaces & UI
-- [**Local ChatGPT with DeepSeek**](https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/local-chatgpt with DeepSeek/README.md) - Mini-ChatGPT with DeepSeek-R1 and Chainlit
+- [**Local ChatGPT with DeepSeek**](https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/local-chatgpt%20with%20DeepSeek/README.md) - Mini-ChatGPT with DeepSeek-R1 and Chainlit
 - [**Local ChatGPT with Llama**](https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/local-chatgpt/README.md) - ChatGPT clone using Llama 3.2 vision
-- [**Local ChatGPT with Gemma 3**](https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/local-chatgpt with Gemma 3/README.md) - Local chat interface with Gemma 3
+- [**Local ChatGPT with Gemma 3**](https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/local-chatgpt%20with%20Gemma%203/README.md) - Local chat interface with Gemma 3
 - [**DeepSeek Thinking UI**](https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/deepseek-thinking-ui/README.md) - ChatGPT with visible reasoning using DeepSeek-R1
 - [**Qwen3 Thinking UI**](https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/qwen3-thinking-ui/README.md) - Thinking UI with Qwen3:4B and Streamlit
 - [**GPT-OSS Thinking UI**](https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/gpt-oss-thinking-ui/README.md) - GPT-OSS with reasoning visualization
@@ -148,7 +148,7 @@ Multi-component systems, agentic workflows, and advanced features for experience
 - [**MCP Voice Agent**](https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/mcp-voice-agent/README.md) - Voice agent with Firecrawl and Supabase
 - [**SDV MCP**](https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/sdv-mcp/README.md) - Synthetic Data Vault orchestration
 - [**KitOps MCP**](https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/kitops-mcp/README.md) - ML model management with KitOps
-- [**Stagehand × MCP-Use**](https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/stagehand x mcp-use/README.md) - Web automation with Stagehand MCP
+- [**Stagehand × MCP-Use**](https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/stagehand%20x%20mcp-use/README.md) - Web automation with Stagehand MCP
 
 #### Model Comparison & Evaluation
 - [**Evaluation and Observability**](https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/eval-and-observability/README.md) - E2E RAG evaluation with CometML Opik

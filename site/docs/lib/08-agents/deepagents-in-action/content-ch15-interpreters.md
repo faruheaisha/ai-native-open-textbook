@@ -57,7 +57,7 @@ Interpreter 提供另一条路径：模型生成一段 JavaScript，由 QuickJS 
 
 Interpreter 不是轻量版 Shell，也不是本地沙箱。它是 Agent 循环里的内存代码运行时。
 
-![普通 Tool Calling 需要模型逐轮调用 Tool 1、Tool 2、Tool 3，中间结果持续进入上下文；Interpreter 与 PTC 通过一次 eval 在 QuickJS 中使用 Promise.all 并行调用 tools.lookupOrder，最后只把汇总结果返回模型](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/deepagents-in-action/4097ff944f9ffa1bdfe2dd04f751f4416b058860/public/imgs/48-comparison-tool-calling-vs-interpreter.png)
+![普通 Tool Calling 需要模型逐轮调用 Tool 1、Tool 2、Tool 3，中间结果持续进入上下文；Interpreter 与 PTC 通过一次 eval 在 QuickJS 中使用 Promise.all 并行调用 tools.lookupOrder，最后只把汇总结果返回模型](/mirror/3d/3d7dbc991cfda0ef75d08cff6eaf12a4e8b480c5.png)
 
 ## 2. 准备环境并运行第一段 JavaScript
 

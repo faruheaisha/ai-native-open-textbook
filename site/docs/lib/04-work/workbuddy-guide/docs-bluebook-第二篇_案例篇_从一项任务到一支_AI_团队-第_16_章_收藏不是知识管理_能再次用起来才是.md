@@ -42,7 +42,7 @@ zh: ""
 把下面内容记入“灵感收件箱”，保留我的原话，不扩写、不评价：“AI 工具真正的门槛不是提示词，而是验收结果。”
 ```
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 16 章 收藏不是知识管理，能再次用起来才是/assets/001_image_M29JbJQ3po.png)
+![](/mirror/ad/ad544e96437996282e4de3a260365339fad35fd3.png)
 
 ## 场景二：微信收藏很多，真正写作时还是搜不到
 
@@ -54,7 +54,7 @@ zh: ""
 处理本周微信收藏，只读，不删除原收藏。
 ```
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 16 章 收藏不是知识管理，能再次用起来才是/assets/002_byKl8HZ2_TtombzmOwo.jpg)
+![](/mirror/f6/f6efb89c9a066d44f8bd850b8a0c40016475b7c4.jpg)
 
 ## 场景三：ima 作为移动知识入口
 
@@ -64,7 +64,7 @@ ima 的优势不是“问答更聪明”，而是手机收集、知识库读写�
 将我刚选择的 3 份文件放入 ima“WorkBuddy 案例库”的收件箱。
 ```
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 16 章 收藏不是知识管理，能再次用起来才是/assets/003_image_D0c8blIsEo.png)
+![](/mirror/a0/a06fb646c981b175ec9978d92c43224dd0031bd3.png)
 
 ## 场景四：Obsidian 不是文件夹，而是可维护的 Wiki
 
@@ -77,4 +77,4 @@ ima 的优势不是“问答更聪明”，而是手机收集、知识库读写�
 
 WorkBuddy 能识别文章正文和作者，并生成 Markdown 条目。
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 16 章 收藏不是知识管理，能再次用起来才是/assets/004_test_SSsAbxS8po.jpg)
+![](/mirror/df/df94e93cd65679d97eee1ce488df62b2cdfd14c3.jpg)

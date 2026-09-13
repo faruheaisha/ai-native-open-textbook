@@ -20,7 +20,7 @@ Getting an LLM agent to work well is hard. The model is good, but it needs the r
 
 That harness is everything you wrap around the model to get useful behavior: the system prompt, tool definitions, skills, retrieved context. A sharper tool description, for instance, can lead to more accurate tool invocation. But hand-tuning doesn't scale: it improves only when a human notices a failure pattern, and it falls apart across the tasks your agent sees, let alone production agents with more diverse tasks and varied end users.
 
-![Manual prompt iteration vs. automatic harness optimization](https://gh-proxy.com/https://raw.githubusercontent.com/strands-agents/harness-sdk/7bda6c70e71cd07279470268c3d3b3f4b36adf53/site/src/content/blog/resources/harness-optimizer/manual-vs-automatic.webp)
+![Manual prompt iteration vs. automatic harness optimization](/mirror/a4/a4ef757cec6ed32af371c647fa3c7765b691d0ed.webp)
 
 We built [Harness Optimizer](https://github.com/strands-labs/harness-optimizer): treat the harness as something you **optimize**, not something you author. It's open source under Apache 2.0.
 
@@ -30,7 +30,7 @@ We introduce the **Formula**: a tunable component of the harness, e.g., the syst
 
 In an automatic loop, the Formula runs steps that are similar to training models: forward pass → loss → gradient → optimizer step → repeat. Harness Optimizer borrows that shape exactly, but the "parameters" are your Formulas, and the optimizer isn't just numeric search. It could be an LLM agent that reads your agent's traces and rewrites the Formulas.
 
-![Training a model vs. optimizing a harness](https://gh-proxy.com/https://raw.githubusercontent.com/strands-agents/harness-sdk/7bda6c70e71cd07279470268c3d3b3f4b36adf53/site/src/content/blog/resources/harness-optimizer/training-vs-optimizing.webp)
+![Training a model vs. optimizing a harness](/mirror/6f/6fa4e19bce27ad091e9384e203b17117a119ace9.webp)
 
 In Harness Optimizer, we have four major classes for forming the optimization loop, i.e., [**Formula**](https://github.com/strands-labs/harness-optimizer/blob/main/strands_harness_optimizer/formulas/formula.py), [**RewardFunction**](https://github.com/strands-labs/harness-optimizer/blob/main/strands_harness_optimizer/rewards/reward_function.py), [**FormulaOptimizer**](https://github.com/strands-labs/harness-optimizer/blob/main/strands_harness_optimizer/optimizers/optimizer.py) (`.step()`), and [**Trainer**](https://github.com/strands-labs/harness-optimizer/blob/main/strands_harness_optimizer/trainer.py).
 
@@ -41,7 +41,7 @@ In Harness Optimizer, we have four major classes for forming the optimization lo
 
 The FormulaOptimizer only touches what your Formula exposes. More Formulas can be attached to the FormulaOptimizer to automatically optimize more components of your harness.
 
-![FormulaOptimizer architecture](https://gh-proxy.com/https://raw.githubusercontent.com/strands-agents/harness-sdk/7bda6c70e71cd07279470268c3d3b3f4b36adf53/site/src/content/blog/resources/harness-optimizer/formula-optimizer-architecture.webp)
+![FormulaOptimizer architecture](/mirror/ac/ac7ef1f0a3489bd1bf2924558177a7c2159c2b33.webp)
 
 Every Formula exposes the same small interface: read the current params, write new ones back, and process with the agent:
 
@@ -67,7 +67,7 @@ apply_formulas_on_strands_agent(agent, [formula])
 
 We can attach the Formula to any Strands agent and assemble the full optimization loop with: a **DataLoader** which loads and processes the dataset, an **AgentRolloutEngine** which executes the agents and produces the rollouts, a **RewardFunction** which scores each rollout, and the **FormulaOptimizer** turns those scores into new params, which flow back into the Formula for the next pass.
 
-![Formula optimization loop](https://gh-proxy.com/https://raw.githubusercontent.com/strands-agents/harness-sdk/7bda6c70e71cd07279470268c3d3b3f4b36adf53/site/src/content/blog/resources/harness-optimizer/formula-optimization-loop.webp)
+![Formula optimization loop](/mirror/ea/ea3c9c3633809ebf53e0fd1bac366d8c6d3c4e66.webp)
 
 The Formula is the one thing the loop rewrites, the `update_params` edge that closes the cycle.
 
@@ -75,7 +75,7 @@ The Formula is the one thing the loop rewrites, the `update_params` edge that cl
 
 In the default [`ContrastiveReflectionOptimizer`](https://github.com/strands-labs/harness-optimizer/blob/main/strands_harness_optimizer/optimizers/system_prompt/contrastive_reflection.py), the optimization step is *itself an LLM agent*. It splits the rollouts into wins and losses by reward, reads them contrastively to find what the wins did that the losses didn't, and rewrites the Formula to encode it.
 
-![Contrastive reflection](https://gh-proxy.com/https://raw.githubusercontent.com/strands-agents/harness-sdk/7bda6c70e71cd07279470268c3d3b3f4b36adf53/site/src/content/blog/resources/harness-optimizer/contrastive-reflection.webp)
+![Contrastive reflection](/mirror/73/7380d2a410da425d49f5157e6b12f73d1bbeb4a4.webp)
 
 By default it *appends* what it learns rather than rewriting the prompt wholesale. Here's the kind of edit it makes, starting from a generic harness:
 
@@ -105,7 +105,7 @@ A single reflection pass tends to fixate on whatever failure dominates the first
 
 Each sub-agent analyzes one trace in its own context and returns the trace-specific findings for the prompt. The orchestrator never reads raw traces; it just generalizes, deduplicates, and condenses those findings into the prompt edit.
 
-![Multi-agent optimizer](https://gh-proxy.com/https://raw.githubusercontent.com/strands-agents/harness-sdk/7bda6c70e71cd07279470268c3d3b3f4b36adf53/site/src/content/blog/resources/harness-optimizer/multi-agent-optimizer.webp)
+![Multi-agent optimizer](/mirror/9c/9c28db499951460ef45ac04b1a20dae3029aa490.webp)
 
 ## A full loop, end to end
 
@@ -141,7 +141,7 @@ The full runnable version, imports, templates, GSM8K loading, and a held-out eva
 
 We ran the same loop on three hard, multi-step benchmarks, [AppWorld](https://appworld.dev/), [WebShop](https://webshop-pnlp.github.io/), and [tau-bench](https://github.com/sierra-research/tau-bench), with a Claude Sonnet 4.6 agent, optimizing only the system prompt:
 
-![Benchmark results](https://gh-proxy.com/https://raw.githubusercontent.com/strands-agents/harness-sdk/7bda6c70e71cd07279470268c3d3b3f4b36adf53/site/src/content/blog/resources/harness-optimizer/benchmark-results.png)
+![Benchmark results](/mirror/3b/3b06cff196ad272998a607438ff05ecb3f8a8aab.png)
 
 The Harness Optimizer improves the model performance on AppWorld by **+23 points** (72.6 → 95.8).
 

@@ -45,7 +45,7 @@ Deep Agents 当前提供 7 个内置文件工具。下图展示了最初的六�
 | `glob` | 按模式匹配查找文件（如 `**/*.py`） | 在文件柜中按标签找 |
 | `grep` | 搜索文件内容，按字面量匹配；支持内容输出和计数 | 全文检索 |
 
-![虚拟文件系统六大工具：ls、read_file、write_file、edit_file、glob、grep](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/deepagents-in-action/4097ff944f9ffa1bdfe2dd04f751f4416b058860/public/imgs/07-infographic-six-tools.png)
+![虚拟文件系统六大工具：ls、read_file、write_file、edit_file、glob、grep](/mirror/9b/9bef7644f3638e8e33e10ff5042e7ced869a76c8.png)
 
 > [!NOTE]
 > **v0.7 提醒**：图片保留了早期“六大工具”的课程视角。当前版本新增 `delete`，而且 `write_file` 会完整覆盖同路径的已有文件；只改局部内容时应使用 `edit_file`。
@@ -139,7 +139,7 @@ grep("def create_agent", output_mode="content")
 
 这种"双保险"设计意味着：Agent 既有精炼的工作记忆（摘要），又能在需要时回溯细节（文件系统中的完整记录）。
 
-![上下文自动管理两道防线：大结果自动卸载（>20K tokens）和对话历史自动总结（>85% 窗口），Agent 始终拥有精炼的工作记忆和可回溯的完整记录](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/deepagents-in-action/4097ff944f9ffa1bdfe2dd04f751f4416b058860/public/imgs/08-flowchart-context-management.png)
+![上下文自动管理两道防线：大结果自动卸载（>20K tokens）和对话历史自动总结（>85% 窗口），Agent 始终拥有精炼的工作记忆和可回溯的完整记录](/mirror/ac/acf18c7e26bd08fabb7ba1308838cd388ba8ec46.png)
 
 ## 可插拔的存储后端
 
@@ -297,7 +297,7 @@ agent = create_deep_agent(
 
 我们会在后续的沙箱执行章节详细讲解。
 
-![五种存储后端对比：StateBackend（临时）→ FilesystemBackend（本地磁盘）→ StoreBackend（跨会话持久化）→ CompositeBackend（混合路由）→ 沙箱后端（安全执行），从临时到持久化的渐进选择](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/deepagents-in-action/4097ff944f9ffa1bdfe2dd04f751f4416b058860/public/imgs/09-comparison-backends.png)
+![五种存储后端对比：StateBackend（临时）→ FilesystemBackend（本地磁盘）→ StoreBackend（跨会话持久化）→ CompositeBackend（混合路由）→ 沙箱后端（安全执行），从临时到持久化的渐进选择](/mirror/55/559e8b4298202249a9e04c5ef4dcc7c68b393e1e.png)
 
 ### 后端选择指南
 

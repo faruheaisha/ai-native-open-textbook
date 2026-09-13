@@ -18,7 +18,7 @@ Welcome to the world of agents! In today's era where the wave of artificial inte
 
 Therefore, in this chapter, let's return to the fundamentals and explore several questions together: What is an agent? What are its main types? How does it interact with the world we live in? Through these discussions, we hope to lay a solid foundation for your future learning and exploration.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/1-figures/1757242319667-0.png" alt="Figure description" width="90%"/>
+  <img src="/mirror/b0/b07d8066c03ffa14eec48692bea42383f372e576.png" alt="Figure description" width="90%"/>
   <p>Figure 1.1 Basic interaction loop between agent and environment</p>
 
 ## 1.1 What is an Agent?
@@ -39,7 +39,7 @@ The starting point of this evolution is the structurally simplest **Simple Refle
 
 This type of agent relies entirely on current perceptual input and has no memory or predictive capability. It's like a digitized instinct—reliable and efficient, but therefore unable to handle complex tasks that require understanding context. Its limitations raise a key question: What should an agent do if the current state of the environment is insufficient as the sole basis for decision-making?
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/1-figures/1757242319667-1.png" alt="Figure description" width="90%"/>
+  <img src="/mirror/2b/2b5b4420331dff3a9e6a6aea181e5b9846712811.png" alt="Figure description" width="90%"/>
   <p>Figure 1.2 Decision logic diagram of a simple reflex agent</p>
 
 To answer this question, researchers introduced the concept of "state" and developed **Model-Based Reflex Agents**. This type of agent has an internal **World Model** used to track and understand aspects of the environment that cannot be directly perceived. It attempts to answer: "What is the world like now?" For example, an autonomous vehicle driving through a tunnel, even if its camera temporarily cannot perceive the vehicle ahead, its internal model will still maintain a judgment about that vehicle's existence, speed, and estimated position. This internal model gives the agent a primitive form of "memory," making its decisions no longer solely dependent on instantaneous perception but based on a more coherent and complete understanding of the world state.
@@ -63,7 +63,7 @@ The emergence of large language models represented by **GPT (Generative Pre-trai
 This transformation can be clearly seen from the comparison of the two in multiple dimensions such as core engine, knowledge source, and interaction method, as shown in Table 1.1. In short, the capabilities of traditional agents stem from engineers' explicit programming and knowledge construction, and their behavior patterns are deterministic and bounded; while LLM agents, through pre-training on massive data, have acquired implicit world models and powerful emergent capabilities, enabling them to handle complex tasks in a more flexible and general way.
 
   <p>Table 1.1 Core comparison between traditional agents and LLM-driven agents</p>
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/1-figures/1757242319667-2.png" alt="Figure description" width="90%"/>
+  <img src="/mirror/a2/a29278caeecd27326a3d8581b3a11ba0b9c70383.png" alt="Figure description" width="90%"/>
 
 This difference enables LLM agents to directly process high-level, ambiguous, and context-rich natural language instructions. Let's use an "intelligent travel assistant" as an example to illustrate.
 
@@ -87,7 +87,7 @@ The first classification dimension is based on the complexity of the agent's int
 
 In addition to the complexity of internal architecture, agents can also be classified from the time dimension of decision-making processing. This perspective focuses on whether an agent acts immediately after receiving information or acts after deliberate planning. This reveals a core trade-off in agent design: the balance between **Reactivity**, which pursues speed, and **Deliberation**, which pursues optimal solutions, as shown in Figure 1.3.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/1-figures/1757242319667-3.png" alt="Figure description" width="90%"/>
+  <img src="/mirror/4d/4d45364c72036305b33d3b6a2cdeafbcf40b5355.png" alt="Figure description" width="90%"/>
   <p>Figure 1.3 Relationship between agent decision time and quality</p>
 
 - **Reactive Agents**
@@ -139,7 +139,7 @@ For a long time, the two camps of sub-symbolism and symbolism developed like two
 - **System 2** is slow, methodical, logic-based deliberative thinking, just like the reasoning process of symbolic AI.
 - **Neuro-symbolic AI** combines the pattern recognition of System 1 with the logical reasoning of System 2, enabling the two to work together.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/1-figures/1757242319667-4.png" alt="Relationship among sub-symbolic, symbolic, and neuro-symbolic AI" width="90%"/>
+  <img src="/mirror/90/90beae3e7d4de62093cce7e7182e07882894605c.png" alt="Relationship among sub-symbolic, symbolic, and neuro-symbolic AI" width="90%"/>
   <p>Figure 1.4 Knowledge representation paradigms of sub-symbolism, symbolism, and neuro-symbolic hybrid</p>
 
 Human intelligence stems from the collaborative work of these two systems. Similarly, a truly robust AI also needs to combine the strengths of both. Large language model-driven agents are an excellent practical example of neuro-symbolism: their core is a large neural network that provides pattern recognition and language generation capabilities; during operation, they also generate a series of structured intermediate steps, such as thoughts, plans, or API calls, which are explicit, operable symbols. In this way, they combine neural pattern recognition with symbolic logical reasoning.
@@ -151,7 +151,7 @@ Human intelligence stems from the collaborative work of these two systems. Simil
 To understand how an agent operates, we must first understand the **task environment** in which it operates. In the field of artificial intelligence, the **PEAS model** is typically used to precisely describe a task environment, analyzing its **Performance measure, Environment, Actuators, and Sensors**. Taking the intelligent travel assistant mentioned above as an example, Table 1.2 below shows how to use the PEAS model to specify its task environment.
 
   <p>Table 1.2 PEAS description of intelligent travel assistant</p>
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/1-figures/1757242319667-6.png" alt="Figure description" width="90%"/>
+  <img src="/mirror/d3/d3014ab92805e74b299cb97e401742750790849e.png" alt="Figure description" width="90%"/>
 
 In practice, the digital environment in which LLM agents operate exhibits several complex characteristics that directly affect agent design.
 
@@ -167,7 +167,7 @@ Finally, almost all tasks occur in **sequential** and **dynamic** environments. 
 
 After defining the task environment in which an agent operates, let's explore its core operating mechanism. An agent does not complete tasks in one go but interacts with the environment through a continuous loop. This core mechanism is called the **Agent Loop**. As shown in Figure 1.5, this loop describes the dynamic interaction process between the agent and the environment, forming the foundation of its autonomous behavior.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/1-figures/1757242319667-5.png" alt="Figure description" width="90%"/>
+  <img src="/mirror/48/483f17d596d1c3054aede4d67b9d221f3ae3a2c4.png" alt="Figure description" width="90%"/>
   <p>Figure 1.5 Basic loop of agent-environment interaction</p>
 
 This loop mainly contains the following interconnected stages:
@@ -543,7 +543,7 @@ After understanding the two modes of agents as "tools" and "collaborators," it i
 
 Simply put, **Workflow makes AI execute instructions step by step, while Agent gives AI freedom to autonomously achieve goals.**
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/1-figures/1757242319667-18.png" alt="Figure description" width="90%"/>
+  <img src="/mirror/5e/5ecfb386b71e6f95aaa16eff74c1b2bb41119b97.png" alt="Figure description" width="90%"/>
   <p>Figure 1.6 Differences between Workflow and Agent</p>
 
 As shown in Figure 1.6, workflow is a traditional automation paradigm whose core is **pre-defined, structured orchestration of a series of tasks or steps**. It is essentially a precise, static flowchart that specifies which operations to execute under what conditions and in what order. A typical case: a company's expense reimbursement approval process. Employee submits reimbursement form (trigger) -> If amount is less than 500 yuan, directly approved by department manager -> If amount is greater than 500 yuan, first approved by department manager, then forwarded to CFO for approval -> After approval, notify finance department to make payment. Every step and every judgment condition of the entire process is precisely preset.

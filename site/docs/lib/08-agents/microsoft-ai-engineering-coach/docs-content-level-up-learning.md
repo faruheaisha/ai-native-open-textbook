@@ -16,7 +16,7 @@ zh: ""
 
 The Learning Center is a personalized upskilling program built from your actual Copilot usage. The skill tree adapts to your languages, dependencies, and projects, so everything you learn is directly applicable to your work.
 
-![Learning Center](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/screenshots/screen-learning.png)
+![Learning Center](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/docs/themes/coach/static/screenshots/screen-learning.png)
 
 ## How It Works
 

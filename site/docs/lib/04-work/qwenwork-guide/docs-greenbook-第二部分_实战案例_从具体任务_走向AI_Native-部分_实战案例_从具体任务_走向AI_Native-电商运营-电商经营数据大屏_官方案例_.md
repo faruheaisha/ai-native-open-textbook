@@ -19,4 +19,4 @@ zh: ""
 
 效果：
 
-![image.png](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第二部分 实战案例 从具体任务，走向AI Native/部分 实战案例 从具体任务，走向AI Native/电商运营-电商经营数据大屏「官方案例」/assets/001_image.png)
+![image.png](/mirror/22/22b62bf7fbfa236c34e2d67bb1acfdbd7a9d4574.png)

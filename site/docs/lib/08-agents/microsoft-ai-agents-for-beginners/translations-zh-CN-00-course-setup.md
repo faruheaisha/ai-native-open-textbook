@@ -26,7 +26,7 @@ zh: ""
 
 现在您应该拥有了本课程的个人分叉版本，链接如下：
 
-![Forked Repo](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/forked-repo.33f27ca1901baa6a.webp)
+![Forked Repo](/mirror/ff/ffb38f33393edb39e3ed19aea8e6e7e6f2d9b489.webp)
 
 ### 浅克隆（推荐用于工作坊 / Codespaces）
 

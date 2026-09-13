@@ -1200,7 +1200,7 @@ ChatGPT 的文本输出长度有限制，超出限制后输出会截断，继续
 
     请接着上文最后一个字继续生成并保持原格式
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/langgptai/wonderful-prompts/c8e5dbd3bc01740728fd1ab8f8d4f654a17e3697/imgs/continue.jpg" width="60%" height="auto">
+<img src="/mirror/67/67922c0431fe0fdf995cee797928801c1bf453fb.jpg" width="60%" height="auto">
 
 ## Github Copilot Chat
 

@@ -173,7 +173,7 @@ $$o_t = T(a_t)$$
 
 这个循环不断进行，将新的 $(a_t,o_t)$ 对追加到历史中，直到模型在思考 $th_t$ 中判断任务已完成。
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/4-figures/4-1.png" alt="ReAct范式中的“思考-行动-观察”协同循环" width="90%"/>
+  <img src="/mirror/62/6271a601d6ba315b65b1e1f4ab6ba711dc9fb53a.png" alt="ReAct范式中的“思考-行动-观察”协同循环" width="90%"/>
   <p>图 4.1 ReAct 范式中的“思考-行动-观察”协同循环</p>
 
 这种机制特别适用于以下场景：
@@ -626,7 +626,7 @@ $$
 
 最终的答案就是最后一个步骤的执行结果 $s_n$。
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/4-figures/4-2.png" alt="Plan-and-Solve范式的两阶段工作流" width="90%"/>
+  <img src="/mirror/cc/cc8a0123e5a347e62fcb966719d62a3221aaec86.png" alt="Plan-and-Solve范式的两阶段工作流" width="90%"/>
   <p>图 4.2 Plan-and-Solve 范式的两阶段工作流</p>
 
 Plan-and-Solve 尤其适用于那些结构性强、可以被清晰分解的复杂任务，例如：
@@ -898,7 +898,7 @@ $$
 
 
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/4-figures/4-3.png" alt="Reflection机制中的“执行-反思-优化”迭代循环" width="70%"/>
+<img src="/mirror/07/074f784c9056f2fe41d3f5e21bacb68dac2dbd3d.png" alt="Reflection机制中的“执行-反思-优化”迭代循环" width="70%"/>
 <p>图 4.3 Reflection 机制中的“执行-反思-优化”迭代循环</p>
 
 
@@ -1244,7 +1244,7 @@ def find_primes(n):
 本章探讨的三种范式，代表了智能体解决问题的三种不同策略，如表4.1所示。在实际应用中，选择哪一种，取决于任务的核心需求:
 
 <p>表 4.1 不同 Agent Loop 的选择策略</p>
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/4-figures/4-4.png" alt="" width="70%"/>
+<img src="/mirror/a5/a5d1ff12d86b8f6e21d9e1722609611440311e75.png" alt="" width="70%"/>
 
 至此，我们已经掌握了构建单个智能体的核心技术。为了过渡知识，以及对实际应用更加深入。下一节我们将会探索不同低代码平台的使用方式以及轻代码构建agent的方案。
 

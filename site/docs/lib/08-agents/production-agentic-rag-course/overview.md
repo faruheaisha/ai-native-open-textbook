@@ -27,7 +27,7 @@ zh: ""
 
 &lt;/br>
 
-    <img src="https://gh-proxy.com/https://raw.githubusercontent.com/jamwithai/production-agentic-rag-course/424a0eb99edf841994f2a9a053912b489d2a94ff/static/mother_of_ai_project_rag_architecture.gif" alt="RAG Architecture" width="700">
+    <img src="/mirror/30/3085cd9bd207560afac2d73781f2b86057e97db3.gif" alt="RAG Architecture" width="700">
 
 ## 📖 About This Course
 
@@ -54,11 +54,11 @@ By the end of this course, you'll have your own AI research assistant and the de
 ## 🏗️ System Architecture Evolution
 
 ### Week 7: Agentic RAG & Telegram Bot Integration
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/jamwithai/production-agentic-rag-course/424a0eb99edf841994f2a9a053912b489d2a94ff/static/week7_telegram_and_agentic_ai.png" alt="Week 7 Telegram and Agentic AI Architecture" width="800">
+  <img src="/mirror/a6/a67646774695681cf5556f53070f631cbed22d82.png" alt="Week 7 Telegram and Agentic AI Architecture" width="800">
   <p><em>Complete Week 7 architecture showing Telegram bot integration with the agentic RAG system</em></p>
 
 ### LangGraph Agentic RAG Workflow
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/jamwithai/production-agentic-rag-course/424a0eb99edf841994f2a9a053912b489d2a94ff/static/langgraph-mermaid.png" alt="LangGraph Agentic RAG Flow" width="800">
+  <img src="/mirror/6f/6f9a9421710c54d8da151ceb87db51116fec56fe.png" alt="LangGraph Agentic RAG Flow" width="800">
   <p><em>Detailed LangGraph workflow showing decision nodes, document grading, and adaptive retrieval</em></p>
 
 **Week 7 Code walkthrough + blog:** [Agentic RAG with LangGraph and Telegram](https://jamwithai.substack.com/p/agentic-rag-with-langgraph-and-telegram) 

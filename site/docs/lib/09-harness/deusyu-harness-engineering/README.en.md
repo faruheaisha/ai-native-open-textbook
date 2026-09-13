@@ -16,7 +16,7 @@ zh: ""
 
 > A deep-dive learning archive on Harness Engineering — from concept to practice
 
-[![Harness Engineering — humans steer, agents execute (intro deck cover, 2026-08 snapshot)](https://gh-proxy.com/https://raw.githubusercontent.com/deusyu/harness-engineering/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/harness-engineering-intro-deck/cover.jpg)](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/harness-engineering-intro-deck/README.md)
+[![Harness Engineering — humans steer, agents execute (intro deck cover, 2026-08 snapshot)](/mirror/f1/f1043e93ca6c50bafb7015ce711924bc13120ac9.jpg)](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/harness-engineering-intro-deck/README.md)
 
 <p align="center"><sub>Cover from the repo's own <a href="https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/harness-engineering-intro-deck/README.md">intro deck + poster</a> — generated with the open-kimi-ppt skill; editable PPTD sources live in this repo</sub></p>
 

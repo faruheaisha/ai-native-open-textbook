@@ -31,7 +31,7 @@ cp default_workspace/config.example.yaml default_workspace/config.user.yaml
 
 Skills are lazy loaded capabilities at runtime. It isn't something Openclaw invented, but an open standard. Reference the [official document](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) for more info.
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/czl9707/build-your-own-openclaw/37ae5dd255a0451609e67ad6d6a51fa5de80523c/02-skills/02-skills.svg" align="center" width="100%" />
+<img src="/mirror/1c/1cf6820f71bfef42bbf5c4e5b392189ec3445918.svg" align="center" width="100%" />
 
 ## Key Components
 

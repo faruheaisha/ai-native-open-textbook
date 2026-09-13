@@ -136,7 +136,7 @@ Agent 调用 write_todos 更新列表：
   6. [pending] 补充 Durable Objects 的资料 ← 新增
 ```
 
-![Agent 如何使用 write_todos：制定计划（全部 pending）→ 逐步执行（状态流转 + 调用工具）→ 动态调整（发现新需求，新增步骤）](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/deepagents-in-action/4097ff944f9ffa1bdfe2dd04f751f4416b058860/public/imgs/10-flowchart-todo-workflow.png)
+![Agent 如何使用 write_todos：制定计划（全部 pending）→ 逐步执行（状态流转 + 调用工具）→ 动态调整（发现新需求，新增步骤）](/mirror/97/9783e7b19d1890de46500e59a8b2962c89ba804a.png)
 
 > [!NOTE]
 > **v0.7 提醒**：这张图描述的是已启用 `TodoListMiddleware` 后的典型流程。默认配置中没有 `write_todos`；即使已经启用，图中的步骤也是可用工作方式，不是框架强制执行的状态机。
@@ -196,7 +196,7 @@ v0.7 可以从三类来源理解 `create_deep_agent()` 的中间件堆栈：
 
 其中 `FilesystemMiddleware` 的路径授权不需要另写自定义中间件；`permissions=` 的规则模型、默认允许语义与适用边界见[第 11 章：文件系统权限](https://github.com/datawhalechina/deepagents-in-action/blob/4097ff944f9ffa1bdfe2dd04f751f4416b058860/ch11-filesystem-permissions/README.md)。
 
-![揭开引擎盖：create_deep_agent() 内部分为常驻层（TodoList、Filesystem、Summarization、PatchToolCalls、AnthropicCaching）、条件层（SubAgent、Skills、Memory、HumanInTheLoop 等按参数激活）和用户自定义层](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/deepagents-in-action/4097ff944f9ffa1bdfe2dd04f751f4416b058860/public/imgs/11-framework-middleware-assembly.png)
+![揭开引擎盖：create_deep_agent() 内部分为常驻层（TodoList、Filesystem、Summarization、PatchToolCalls、AnthropicCaching）、条件层（SubAgent、Skills、Memory、HumanInTheLoop 等按参数激活）和用户自定义层](/mirror/2a/2a293d281257cc38d09b37089672d5500ea1c3e7.png)
 
 > [!NOTE]
 > **v0.7 提醒**：图片中的 TodoList 位于旧版常驻层。当前 Todo 属于应用选择层；同名的 `FilesystemMiddleware` 或 `SummarizationMiddleware` 则会替换默认实例，而且是整实例替换，不是字段合并。
@@ -404,7 +404,7 @@ print(result["messages"][-1].content)
 | | ModelCallLimitMiddleware | 限制模型调用次数 |
 | **上下文** | ContextEditingMiddleware | 清理旧的工具调用结果 |
 
-![Deep Agents 中间件全景：常驻层（5个始终启用）、条件层（5个按参数激活）、可选层（LangChain 预构建，按需添加），以及不可排除的必要中间件 FilesystemMiddleware + SubAgentMiddleware](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/deepagents-in-action/4097ff944f9ffa1bdfe2dd04f751f4416b058860/public/imgs/12-infographic-middleware.png)
+![Deep Agents 中间件全景：常驻层（5个始终启用）、条件层（5个按参数激活）、可选层（LangChain 预构建，按需添加），以及不可排除的必要中间件 FilesystemMiddleware + SubAgentMiddleware](/mirror/db/dbf80ad03985c73819ba40b4467651de91c1f366.png)
 
 > [!NOTE]
 > **v0.7 提醒**：图片保留了旧版“5 个常驻层”的结构。当前 Todo 不再常驻；`FilesystemMiddleware` 和 `SubAgentMiddleware` 仍支撑核心工具，但同名自定义实例可以在原位置换默认配置。替换时必须给出完整配置，并重新验证权限、Backend 和子 Agent 行为。

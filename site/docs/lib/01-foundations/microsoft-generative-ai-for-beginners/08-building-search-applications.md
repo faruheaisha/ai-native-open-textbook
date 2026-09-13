@@ -14,7 +14,7 @@ zh: ""
 
 # Building a Search Applications
 
-[![Introduction to Generative AI and Large Language Models](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/08-building-search-applications/images/08-lesson-banner.png)](https://youtu.be/W0-nzXjOjr0?si=GcsqiTTvd7RKbo7V)
+[![Introduction to Generative AI and Large Language Models](/mirror/91/91b6d050c3387afd535338fed7dc154fb03b379e.png)](https://youtu.be/W0-nzXjOjr0?si=GcsqiTTvd7RKbo7V)
 
 > > _Click the image above to view video of this lesson_
 
@@ -49,7 +49,7 @@ The lesson includes an Embedding Index of the YouTube transcripts for the Micros
 
 The following is an example of a semantic query for the question 'can you use rstudio with azure ml?'. Check out the YouTube url, you'll see the url contains a timestamp that takes you to the place in the video where the answer to the question is located.
 
-![Semantic query for the question "can you use rstudio with Azure ML"](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/08-building-search-applications/images/query-results.png)
+![Semantic query for the question "can you use rstudio with Azure ML"](/mirror/2f/2fd87e87ee877c4d452b7de7b83d28282c2d3251.png)
 
 ## What is semantic search?
 
@@ -168,7 +168,7 @@ Open the [solution notebook](https://github.com/microsoft/generative-ai-for-begi
 
 When you run the notebook, you'll be prompted to enter a query. The input box will look like this:
 
-![Input box for the user to input a query](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/08-building-search-applications/images/notebook-search.png)
+![Input box for the user to input a query](/mirror/46/466a41bf33cf7c97cc082c9c62d7c5e9a5ab4018.png)
 
 ## Great Work! Continue Your Learning
 

@@ -42,7 +42,7 @@ The team found Strands simpler and faster to ship with, especially for engineers
 
 ## Architecture: six specialized agents, one orchestrator
 
-![Novum Layout Studio agent architecture diagram](https://gh-proxy.com/https://raw.githubusercontent.com/strands-agents/harness-sdk/7bda6c70e71cd07279470268c3d3b3f4b36adf53/site/src/content/blog/novum_architecture.svg)
+![Novum Layout Studio agent architecture diagram](/mirror/3d/3daacd30989959ce1393905c900f6ab7b168d6b9.svg)
 
 The system uses an orchestrator that delegates to a pool of six specialized agents:
 

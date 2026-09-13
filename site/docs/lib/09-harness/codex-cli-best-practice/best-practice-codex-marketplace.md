@@ -22,7 +22,7 @@ them. A marketplace is a git repo (or local directory) containing a
 <table width="100%">
 <tr>
 <td><a href="/lib/09-harness/codex-cli-best-practice/overview">← Back to Codex CLI Best Practice</a></td>
-<td align="right"><img src="https://gh-proxy.com/https://raw.githubusercontent.com/shanraisshan/codex-cli-best-practice/b79f473a188632867354fc793894dfd368a18e48/!/codex-jumping.svg" alt="Codex" width="60" /></td>
+<td align="right"><img src="/mirror/d5/d53dec6003575523123a41b242b60001c19a9882.svg" alt="Codex" width="60" /></td>
 </tr>
 </table>
 

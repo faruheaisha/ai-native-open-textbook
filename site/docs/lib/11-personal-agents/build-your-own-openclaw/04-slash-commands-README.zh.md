@@ -31,7 +31,7 @@ cp default_workspace/config.example.yaml default_workspace/config.user.yaml
 
 ### 架构
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/czl9707/build-your-own-openclaw/37ae5dd255a0451609e67ad6d6a51fa5de80523c/04-slash-commands/04-slash-commands.svg" align="center" width="100%" />
+<img src="/mirror/7d/7d2f0afc179e31961f02c46fb03f05a2425190ce.svg" align="center" width="100%" />
 
 ## 关键组件
 

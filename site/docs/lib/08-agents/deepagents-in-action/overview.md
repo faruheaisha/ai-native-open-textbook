@@ -20,7 +20,7 @@ zh: ""
 
 由 **[沧海九粟](https://space.bilibili.com/28357052)** 出品 &nbsp;·&nbsp; LangChain 官方认证大使 &nbsp;·&nbsp; 《LangChain 实战》《LangGraph 实战》作者 &nbsp;·&nbsp; B 站万粉 UP 主
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/deepagents-in-action/4097ff944f9ffa1bdfe2dd04f751f4416b058860/public/imgs/hero.png" alt="《Deep Agents 实战》课程网站" width="800" />
+  <img src="/mirror/bc/bc5421074b7e6a5d82783f9e2140446b2c2a43e4.png" alt="《Deep Agents 实战》课程网站" width="800" />
 
 ---
 
@@ -270,8 +270,8 @@ agentseek create deepagents/subagents-dynamic --checkout main --no-input
 <table>
 <tr>
 <td width="180" align="center" valign="middle">
-    <source media="(prefers-color-scheme: dark)" srcset="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/deepagents-in-action/4097ff944f9ffa1bdfe2dd04f751f4416b058860/public/imgs/siliconflow-dark.svg" />
-    <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/deepagents-in-action/4097ff944f9ffa1bdfe2dd04f751f4416b058860/public/imgs/siliconflow.svg" alt="SiliconFlow 硅基流动" width="150" />
+    <source media="(prefers-color-scheme: dark)" srcset="/mirror/3e/3e6b58c4649b5198b4a54c44a8e437789aa670d4.svg" />
+    <img src="/mirror/ec/ecc0bf4c4391bf32e360536d50c623a2f30b103f.svg" alt="SiliconFlow 硅基流动" width="150" />
 </td>
 <td valign="middle">
 本课程的模型算力由 <strong><a href="https://cloud.siliconflow.cn/i/Fq9zUwPf">硅基流动（SiliconFlow）</a></strong> 支持。硅基流动是一站式大模型云服务平台，基于自研推理引擎实现大模型高效推理加速，提供高效能、低成本的多品类 AI 模型服务，让开发者和企业聚焦产品创新，无须担心大规模推广带来的高昂算力成本。

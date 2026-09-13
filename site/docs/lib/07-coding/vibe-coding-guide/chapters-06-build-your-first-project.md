@@ -76,7 +76,7 @@ zh: ""
 
 几十秒后，你就能看到 AI 做出来的第一个版本了。下面是一个真实的例子——左边是输入的 WAFS 需求描述，右边是 AI 生成的"每日一句"页面：
 
-![用 WAFS 框架描述需求后，AI 生成的"每日一句"网页第一版](https://gh-proxy.com/https://raw.githubusercontent.com/zhiyue/vibe-coding-guide/ee8434ce526f629e0ca4ce00f6a66be6372327ac/images/daily-quote-first-version.png)
+![用 WAFS 框架描述需求后，AI 生成的"每日一句"网页第一版](/mirror/66/664d4bdbe385e99b103265293ae349abd841ba69.png)
 
 ## 第三步：审视结果，提出修改
 

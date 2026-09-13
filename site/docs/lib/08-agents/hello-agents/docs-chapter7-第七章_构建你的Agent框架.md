@@ -462,7 +462,7 @@ for chunk in llm.think(messages):
 相比于4.1.3节的基础实现，现在的HelloAgentsLLM具有以下显著优势：
 
   <p>表 7.1 HelloAgentLLM不同版本特性对比</p>
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/7-figures/table-01.png" alt="" width="90%"/>
+  <img src="/mirror/de/de82d862284f7775dfe108976f635fdc93c208c2.png" alt="" width="90%"/>
 
 如上表7.1所示，这种演进体现了框架设计的重要原则：**从简单开始，逐步完善**。我们在保持接口简洁的同时，增强了功能的完整性。
 
@@ -1288,7 +1288,7 @@ print(f"数学专用Agent结果: {math_result}")
 如表7.2所示，通过这种框架化的重构，我们不仅保持了第四章中各种Agent范式的核心功能，还大幅提升了代码的组织性、可维护性和扩展性。所有Agent现在都共享统一的基础架构，同时保持了各自的特色和优势。
 
   <p>表 7.2 Agent不同章节实现对比</p>
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/7-figures/table-02.png" alt="" width="90%"/>
+  <img src="/mirror/81/8123301fbba1ac9611411c9b99f2c56736462024.png" alt="" width="90%"/>
 
 ### 7.4.5 FunctionCallAgent
 
@@ -1666,7 +1666,7 @@ if __name__ == "__main__":
 
 通过这个简化的数学计算工具案例，我们学会了如何快速开发自定义工具：编写一个简单的计算函数，通过ToolRegistry注册，然后与SimpleAgent集成使用。为了更直观的观察，这里提供了图7.1，可以清晰理解代码的运行逻辑。
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/7-figures/01.png" alt="" width="90%"/>
+  <img src="/mirror/89/89ee77b4f2fe81c3079a8156683665a42ac8b03d.png" alt="" width="90%"/>
   <p>图 7.1 基于Helloagents的SimpleAgent运行工作流</p>
 
 ### 7.5.3 多源搜索工具

@@ -18,7 +18,7 @@ import { Callout } from 'nextra/components'
 
 AI agents require three fundamental capabilities to effectively tackle complex tasks: planning abilities, tool utilization, and memory management. Let's dive into how these components work together to create functional AI agents.
 
-![Agent Components](https://gh-proxy.com/https://raw.githubusercontent.com/dair-ai/Prompt-Engineering-Guide/57673726396dd94acb23bdb1e67f27c78ee85a8e/img/agents/agent-components.png)
+![Agent Components](/mirror/f4/f488df9f8f2366fe0cb85863fc945f33e9a47a77.png)
 
 ## Planning: The Brain of the Agent
 

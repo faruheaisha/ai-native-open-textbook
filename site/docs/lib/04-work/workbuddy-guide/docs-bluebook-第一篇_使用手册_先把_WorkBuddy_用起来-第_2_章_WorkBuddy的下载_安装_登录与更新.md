@@ -18,11 +18,11 @@ zh: ""
 
 下载WorkBuddy，点击官方地址（https://www.codebuddy.cn/work/），选择WorkBuddy，点击“下载WorkBuddy”即可下载。
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 2 章 WorkBuddy的下载、安装、登录与更新/assets/001_image_GGeabJkE2o.png)
+![](/mirror/67/6732a6623f6f093807fb3b0c3eda5325de433834.png)
 
 网站会自动检查你当前设备，判断你是什么版本，Mac ARM64、Mac x64或者Windows x64。
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 2 章 WorkBuddy的下载、安装、登录与更新/assets/002_image_HaXcbwaJXo.png)
+![](/mirror/40/408ee6dd0582cf6f0f23683f4355ccb71eb3a00c.png)
 
 ***切记：从官方入口进入下载，不从网盘或不明镜像获取安装包。***
 
@@ -30,55 +30,55 @@ zh: ""
 
 1. 下载完成后双击安装文件。
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 2 章 WorkBuddy的下载、安装、登录与更新/assets/003_image_Ehpebt4Eso.png)
+![](/mirror/63/63f769d098abe23c653c04c8978a1f8357f68708.png)
 
 1. 如系统弹出安全提示，先核对发布者与下载来源，再决定是否继续。
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 2 章 WorkBuddy的下载、安装、登录与更新/assets/004_image_LG3MbcWpvo.png)
+![](/mirror/a3/a3f99566530a2708ea3ae2adb9a8ebbfa1b5ef44.png)
 
 2. 按安装向导完成安装并启动 WorkBuddy。
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 2 章 WorkBuddy的下载、安装、登录与更新/assets/005_image_CMvYbYWFOo.png)
+![](/mirror/d1/d18579a5e21fe1cf5df0ed32c949298e6bd499e2.png)
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 2 章 WorkBuddy的下载、安装、登录与更新/assets/006_image_Wujkbd9eTo.png)
+![](/mirror/03/039abbf21be22deda79e563fb8f5cd175ce2fff4.png)
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 2 章 WorkBuddy的下载、安装、登录与更新/assets/007_image_V9L2bhWF2o.png)
+![](/mirror/1d/1d368d6d5d0d1b84669371ecd0a92eb46891bc02.png)
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 2 章 WorkBuddy的下载、安装、登录与更新/assets/008_image_DjcGbKYJSo.png)
+![](/mirror/25/2535159a8729890cd67a06f78132c8742b3318a6.png)
 
 3. 进入准备运行环境
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 2 章 WorkBuddy的下载、安装、登录与更新/assets/009_image_Q0l3bAkUPo.png)
+![](/mirror/4e/4ef4cc9d73a765e207522982ab7723e73198ae59.png)
 
 ## macOS 安装
 
 1. 打开安装文件，将 WorkBuddy 拖入“应用程序”；
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 2 章 WorkBuddy的下载、安装、登录与更新/assets/010_image_TmYPbu7Ibo.png)
+![](/mirror/d1/d16c377a867044102a8b199a7b9c2c9333fc7dd0.png)
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 2 章 WorkBuddy的下载、安装、登录与更新/assets/011_image_UlJcbVqX7o.png)
+![](/mirror/8d/8d5a9cf2c04f20b8c90e276b455907783fc32964.png)
 
 2. 从“应用程序”启动；
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 2 章 WorkBuddy的下载、安装、登录与更新/assets/012_image_LtqPbQ2z6o.png)
+![](/mirror/5f/5f0befd3fa84aac468f408a074610ae3c85dcde4.png)
 
 ## 登录
 
 点击登录按钮
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 2 章 WorkBuddy的下载、安装、登录与更新/assets/013_image_MMIXbZJafo.png)
+![](/mirror/39/397945ef5688b3f423d8bfbeab92c3fef5c4cc34.png)
 
 自动跳转网页登录
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 2 章 WorkBuddy的下载、安装、登录与更新/assets/014_image_MdmYbB2Avo.png)
+![](/mirror/fb/fbbdb7d3672553cdb34544e2eac89e32b2c20a5f.png)
 
 选择微信扫码登录，也可以手机号登录
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 2 章 WorkBuddy的下载、安装、登录与更新/assets/015_image_WZrBbbWono.png)
+![](/mirror/7d/7d6bed02c655fd881bece295ca00116f4c4314bc.png)
 
 完成后，即可使用WorkBuddy进行工作
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 2 章 WorkBuddy的下载、安装、登录与更新/assets/016_image_Pmh8b7xc8o.png)
+![](/mirror/2d/2dc9687bfdd6e4190b7228146b693d0d4c12f14a.png)
 
 *PS：若公司电脑禁止安装软件，不要绕过终端安全策略，应联系 IT 管理员确认白名单或企业部署方式。*
 
@@ -86,7 +86,7 @@ zh: ""
 
 点击左下角个人中心，选择“检查更新”，检查是否有新版本，若有新版本，可更新
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 2 章 WorkBuddy的下载、安装、登录与更新/assets/017_image_Qt1gbb7J3o.png)
+![](/mirror/11/116fe0cb1878f15b752b2b1f8c3ba9c565a038ce.png)
 
 ## 常见问题
 

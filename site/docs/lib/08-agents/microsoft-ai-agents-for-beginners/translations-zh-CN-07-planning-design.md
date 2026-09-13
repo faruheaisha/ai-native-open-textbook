@@ -33,7 +33,7 @@ zh: ""
 
 ## 定义整体目标及拆解任务
 
-![定义目标与任务](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/ai-agents-for-beginners/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translated_images/zh-CN/defining-goals-tasks.d70439e19e37c47a.webp)
+![定义目标与任务](/mirror/a8/a85e8065733fb4efd9ca00c2f2ecec4df6662152.webp)
 
 现实中的大多数任务过于复杂，无法通过一步完成。AI代理需要一个简明的目标来指导其规划和行动。例如，考虑这个目标：
 

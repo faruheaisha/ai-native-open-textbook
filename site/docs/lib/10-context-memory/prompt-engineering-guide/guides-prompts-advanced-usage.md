@@ -408,7 +408,7 @@ Some really interesting things happened with this example. In the first answer, 
 
 ## Automatic Prompt Engineer (APE)
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/dair-ai/Prompt-Engineering-Guide/57673726396dd94acb23bdb1e67f27c78ee85a8e/img/APE.png)
+![](/mirror/ec/eccf1fc3b56b3b336eb086b33b82c18d0a5a3ea9.png)
 
 [Zhou et al., (2022)](https://arxiv.org/abs/2211.01910) propose automatic prompt engineer (APE) a framework for automatic instruction generation and selection. The instruction generation problem is framed as natural language synthesis addressed as a black-box optimization problem using LLMs to generate and search over candidate solutions. 
 
@@ -418,7 +418,7 @@ APE discovers a better zero-shot CoT prompt than the human engineered "Let's thi
 
 The prompt "Let's work this out in a step by step way to be sure we have the right answer." elicits chain-of-though reasoning and improves performance on the MultiArith and GSM8K benchmarks:
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/dair-ai/Prompt-Engineering-Guide/57673726396dd94acb23bdb1e67f27c78ee85a8e/img/ape-zero-shot-cot.png)
+![](/mirror/79/793842131767d88ab4a849cb98a493ebaaf6b127.png)
 
 This paper touches on an important topic related to prompt engineering which is the idea of automatically optimizing prompts. While we don't go deep into this topic in this guide, here are a few key papers if you are interested in the topic:
 

@@ -18,7 +18,7 @@ The Patterns page reveals when, where, and how you work with AI coding assistant
 
 ## Work Hours
 
-![Work Hours Heatmap](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/screenshots/screen-patterns-workhours.png)
+![Work Hours Heatmap](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/docs/themes/coach/static/screenshots/screen-patterns-workhours.png)
 
 The Work Hours tab shows a heatmap of your coding activity across the week. Each cell represents an hour-long slot on a specific day of the week, and the color intensity indicates how many focused requests you sent during that time.
 
@@ -35,7 +35,7 @@ The Calendar tab presents a GitHub-style contribution grid. Each day is a cell c
 
 ## Projects
 
-![Projects View](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/screenshots/screen-patterns-projects.png)
+![Projects View](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/AI-Engineering-Coach/18b1a3d16b586c171426c6a407cc5c2dc073556e/docs/themes/coach/static/screenshots/screen-patterns-projects.png)
 
 The Projects tab breaks down activity by workspace. For each project, you see:
 

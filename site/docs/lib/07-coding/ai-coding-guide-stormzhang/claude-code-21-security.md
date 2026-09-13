@@ -201,7 +201,7 @@ v2.1.187 起还有个更专门的入口：**`sandbox.credentials` 设置**——
 
 但有一条边界你得清楚：**Bash 沙箱只隔离 Bash 子进程**，它管不到 Claude 的内置文件工具、MCP server 和 Hook（这些还在你主机上裸跑）。所以**沙箱对「完全无人值守」是不够的**——隔离其实是分层的，越不信任的代码越要往外加码：
 
-![Claude Code 安全的分层防护：从权限规则到独立虚拟机](https://gh-proxy.com/https://raw.githubusercontent.com/stormzhang/ai-coding-guide/d187dbdb83fa1be051a850074eb518e30e2eb47c/claude-code/assets/21-defense-layers@2x.png)
+![Claude Code 安全的分层防护：从权限规则到独立虚拟机](/mirror/76/761a25d64cf1c7c585c9af44fef4af4098f676e1.png)
 
 这张图把防护从内到外排了五层：最里是**权限规则**（工具层软约束），往外是**内置断路器**（删根目录拦截等），再到 **Bash 沙箱**（OS 级隔离 Bash 子进程），更外是 **dev container / 自定义容器**（连文件工具、MCP、Hook 一起隔离），最外层是**独立虚拟机 / 网页版云端**（内核级分离，对付完全不可信代码）。**越往外，隔离越强、信任要求越低**。
 

@@ -333,7 +333,7 @@ zh: ""
 
 `stock-advisor` 要解决的，就是把这条链路**从「一堆提示词」变成「一条按一次就跑完的流水线」**。
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 18 章 把投资分析变成你的日常/assets/001_CleanShot 2026-07-10 at 00.14.28@2x_Lxy0b4axOo.png)
+![](/mirror/27/27aba760146dd3555bf8aca277ed7b325dc80fdb.png)
 
 ### 创作原理：编排，而不是重写
 
@@ -369,7 +369,7 @@ zh: ""
 
 一句话：**把「一次严肃的股票研究」从半天的手工活，压缩成一次对话。** 你提供截图或代码，它自动完成取数、多面分析、交叉验证、多视角辩论和报告排版。人要做的，从「搬运和拼接」变成了「拍板和质疑」——这正是第一节说的，把精力还给判断。
 
-> ![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 18 章 把投资分析变成你的日常/assets/002_image_TphobTIRXo.png)
+> ![](/mirror/29/2930c91cfbfc32cef6d8c3392746067f4d530d8c.png)
 >
 > 在 WorkBuddy 里触发 `stock-advisor` Skill 的界面（技能被识别、开始执行的那一刻）。
 
@@ -392,7 +392,7 @@ zh: ""
 请以表格 + 文字结合的方式输出技术面速读报告。
 ```
 
-> ![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 18 章 把投资分析变成你的日常/assets/003_image_CrgibiDW3o.png)
+> ![](/mirror/98/986e228a5b6a52634e83d1c07494d072f682aae9.png)
 >
 > 上传 K 线图 + 输入上述提示词的对话界面。
 
@@ -402,15 +402,15 @@ WorkBuddy 先从图里识别出这是**天孚通信（300394）**，当前股价
 - **风险信号**：当日一根长上影线（最高冲 376.10 回落到 368.70），MACD 红柱开始缩短，乖离率偏大；
 - **关键位**：支撑看 MA5（347）/ MA10（319），压力看当日高点 376。
 
-> ![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 18 章 把投资分析变成你的日常/assets/004_image_WX6WbFC9Oo.png)
+> ![](/mirror/ee/ee3d28545deebffdd7dc8555e0eeed2d4fb8cc8a.png)
 >
 > 技术面速读报告的完整输出（含 K 线形态、均线、MACD 四张小表）
 >
-> ![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 18 章 把投资分析变成你的日常/assets/005_image_LKNibvYSCo.png)
+> ![](/mirror/c6/c64526b6da541785b808efc6a539bfcdd6935757.png)
 
 一句话点评：这一步它没有猜涨跌，而是把「图里能读到的事实」结构化了——形态、均线、指标、支撑压力，一目了然。
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 18 章 把投资分析变成你的日常/assets/006_image_DvVSbW5D4o.png)
+![](/mirror/2e/2efeee9391537b3da1b595f4812b2ca861feefef.png)
 
 ### 第二步：补上财报截图，做一次全面分析
 
@@ -429,7 +429,7 @@ WorkBuddy 先从图里识别出这是**天孚通信（300394）**，当前股价
 4. 明确标注关键支撑位和压力位，请按照专业研报的格式输出。
 ```
 
-> ![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 18 章 把投资分析变成你的日常/assets/007_image_CScebfl1io.png)
+> ![](/mirror/e9/e993082842b305ed63b02717da9066a978654cd3.png)
 >
 > 上传财报截图 + 输入上述提示词的对话界面。
 
@@ -445,9 +445,9 @@ WorkBuddy 先从图里识别出这是**天孚通信（300394）**，当前股价
 
 **最终评级：推荐。** 核心结论是一句很克制的话：**中期趋势向好（CPO 高景气 + 高成长），但短期估值透支、涨幅过大，不宜追高，等回调再择机。** 它还给了分投资者类型的仓位建议、四档支撑位和三档压力位。
 
-> ![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 18 章 把投资分析变成你的日常/assets/008_image_I6uBbecypo.png)
+> ![](/mirror/a5/a50da8dd2579c60b24965b9ac7f2df09821b0cd9.png)
 >
-> ![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 18 章 把投资分析变成你的日常/assets/009_image_XpbYbptp8o.png)
+> ![](/mirror/6e/6e1591b407372fdc7eff4a5222c47f00314c2f41.png)
 >
 > 全面分析报告的完整输出（财务识别表 + 综合评级表 + 操作建议 + 支撑压力位）。
 
@@ -455,7 +455,7 @@ WorkBuddy 先从图里识别出这是**天孚通信（300394）**，当前股价
 
 还可以从不同角度去分析，使用\`a-share-analyst\` \`skill去完成。
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 18 章 把投资分析变成你的日常/assets/010_image_FFsNbG1dYo.png)
+![](/mirror/af/af206e78535d16172fba69c6e255fa9b555e0506.png)
 
 ### 第三步：拿不定主意，开一场私董会
 
@@ -475,7 +475,7 @@ WorkBuddy 先从图里识别出这是**天孚通信（300394）**，当前股价
 请基于前两轮的分析数据来展开讨论，让幕僚们"带着数据聊"。
 ```
 
-> ![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 18 章 把投资分析变成你的日常/assets/011_image_LuArbEta0o.png)
+> ![](/mirror/b2/b2a06fc5759eb3ea02731d4e10884edf9dfc488f.png)
 >
 > 启动私董会的对话界面。
 
@@ -483,13 +483,13 @@ WorkBuddy 先从图里识别出这是**天孚通信（300394）**，当前股价
 
 四位幕僚各自独立发言、再互相质询，观点很快分成两派：
 
-> ![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 18 章 把投资分析变成你的日常/assets/012_image_IUTibzqkPo.png)
+> ![](/mirror/7b/7bf994c6a1fd40a71307f027198a49f3830699e6.png)
 >
-> ![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 18 章 把投资分析变成你的日常/assets/013_image_Nm2MbK8LDo.png)
+> ![](/mirror/10/10b7b99406d69c83ca577fceb9eb81b4a721fbf3.png)
 >
 > 四位幕僚独立观点 +
 >
-> ![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 18 章 把投资分析变成你的日常/assets/014_image_RQxfbNMGzo.png)
+> ![](/mirror/b4/b43779d0f2ebc3976942101524af2c2e7f509c07.png)
 >
 > 交叉质询环节（篇幅较长，建议分屏截图）。
 
@@ -500,7 +500,7 @@ WorkBuddy 先从图里识别出这是**天孚通信（300394）**，当前股价
 - **马斯克（All in）**：「CPO 是光通信的 iPhone 时刻，天孚是上游的铲子王。超买是最后的上车机会，不是下车理由。」
 - **乔布斯（有条件持有）**：「相信 CPO 革命就现在持有，但前提是 CPO FAU 在 2026 H2 如期兑现，否则果断离场。」
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 18 章 把投资分析变成你的日常/assets/015_image_Y0yvbzLRto.png)
+![](/mirror/62/62b4b5763699e5d826fd0c206c21e5c3c8b9afca.png)
 
 主持人最后综合出一份**分投资者类型的执行方案**，而不是一个笼统的「买或不买」：
 
@@ -513,7 +513,7 @@ WorkBuddy 先从图里识别出这是**天孚通信（300394）**，当前股价
 
 并且把决策挂到了几个**未来验证节点**上：8 月中报预告看 Q2 是否环比改善，H2 看 CPO FAU 能否放量、毛利率能否回到 55%+，10 月三季报看营收增速。逻辑证伪就退出。
 
-> ![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 18 章 把投资分析变成你的日常/assets/016_image_DOOhbmIIeo.png)
+> ![](/mirror/6e/6e27da5a462c17d877c5e8661680aede19e07b69.png)
 >
 > 主持人的综合执行方案（分类型建议表 + 决策节点表 + 替代标的）。
 
@@ -521,7 +521,7 @@ WorkBuddy 先从图里识别出这是**天孚通信（300394）**，当前股价
 
 对话结束后，让它把整场分析生成一份杂志风格的报告，`stock-advisor` 会调用排版模块出成品，可以本地存 PDF，也可以直接上传飞书云文档。
 
-> ![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 18 章 把投资分析变成你的日常/assets/017_image_LPupbY4lGo.png)
+> ![](/mirror/3b/3b73a401e89e078dcdd33f8e2030facd3c06ed75.png)
 >
 > 杂志风格投资分析报告成品（首屏 / 封面）。
 

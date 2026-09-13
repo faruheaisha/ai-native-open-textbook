@@ -36,4 +36,4 @@ zh: ""
 
 执行后仅新增台账文件，桌面原发票不移动、不改名、不删除
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 12 章 从整理桌面文件这些小事做起/assets/001_image_J9BUbk5hHo.png)
+![](/mirror/16/16048db2d76621df9147e311603a1fd488c0102a.png)

@@ -26,7 +26,7 @@ tracker.
 
 <div class="tb-zh"><p>这里是 AI Engineering Lab 的核心：一条 24 周、逐周推进的路径，从 Python 基础一路走到生产级湖仓 AI。每一周都有一个 section（阶段）、一个 category（技能领域）、一个来自贯穿全程的 ZoroLogistics 案例的用例、可直接运行的 notebook，以及一份要在 Excel 追踪表里逐项打勾的清单。</p></div>
 
-![Seven phases across 24 weeks, and what each one puts in your hands](https://gh-proxy.com/https://raw.githubusercontent.com/zorost/AI-Engineering-Lab/cdd8dbdf559f72211a7c068e8877918441531e52/assets/diagrams/lab-journey.png)
+![Seven phases across 24 weeks, and what each one puts in your hands](/mirror/06/068f0a31d146e63bc28309f7837b3c134c0a08eb.png)
 
 > **Brand new?** Read [`START-HERE.md`](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/START-HERE.md) first, and keep
 > [`reference/GLOSSARY.md`](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/reference/GLOSSARY.md) one tab away, every term in the program is
@@ -36,7 +36,7 @@ tracker.
 
 ## How the program works
 
-![One week, four beats: study, build, ship, reflect](https://gh-proxy.com/https://raw.githubusercontent.com/zorost/AI-Engineering-Lab/cdd8dbdf559f72211a7c068e8877918441531e52/assets/diagrams/lab-week.png)
+![One week, four beats: study, build, ship, reflect](/mirror/cf/cf3968a05bbbc9583c05f9fb2744fa7986ec2ecd.png)
 
 1. **One case study, all 24 weeks.** You are the AI engineering team at
    **ZoroLogistics**, a fictional freight company. The data, the models, and the

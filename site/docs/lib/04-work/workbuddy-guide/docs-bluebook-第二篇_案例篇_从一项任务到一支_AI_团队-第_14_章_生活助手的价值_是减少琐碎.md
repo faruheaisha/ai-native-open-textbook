@@ -58,11 +58,11 @@ zh: ""
 不要登录、预订、付款或代替我接受退改条款。
 ```
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 14 章 生活助手的价值，是减少琐碎/assets/001_image_AmSUbvzAjo.png)
+![](/mirror/92/9203c9a17e625310e03e960af67864ff33bed9eb.png)
 
 WorkBuddy 在执行过程中并不是一来就直接帮你做决定，而是尽可能详尽的再向你询问一些问题，确保真的像个专属导游那样帮你规划行程。
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 14 章 生活助手的价值，是减少琐碎/assets/002_image_HJNdbxfvOo.png)
+![](/mirror/6d/6dc0ad38a534f14fbcb30daf0c7b7e0da99fe079.png)
 
 ### 执行链与交付物
 
@@ -70,7 +70,7 @@ WorkBuddy 在执行过程中并不是一来就直接帮你做决定，而是尽�
 
 预订前由人再次确认库存、价格、签证、证件、保险和退改政策。涉及老人、儿童、孕妇、慢性病或无障碍需求时，要把限制明确写入任务，不能由模型自行推断。
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 14 章 生活助手的价值，是减少琐碎/assets/003_image_IO4lbaAS1o.png)
+![](/mirror/5c/5c39c1a41de67e69dae81b6cd6faf8cee131fe2d.png)
 
 ## 场景二：旅行结束后，把照片和账单变成可复用记录
 
@@ -109,11 +109,11 @@ WorkBuddy 还可以在旅行后完成照片按日期地点整理、票据分类�
 只提示我联系当地医疗机构或急救服务，不继续在线推演。
 ```
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 14 章 生活助手的价值，是减少琐碎/assets/004_image_JEOObotZfo.png)
+![](/mirror/c0/c0724c639e57300e10706f7bf5e3dd7554e8b844.png)
 
 以上是我从网上找的一份就诊记录，当我把这份不太详尽的就诊记录同步给WorkBuddy，他会帮我分析并生成就医材料。
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 14 章 生活助手的价值，是减少琐碎/assets/005_image_TCPXbvZ9Bo.png)
+![](/mirror/5f/5f7bd8297fa210fe0de7e241b723e059d98ac565.png)
 
 ## 场景四：健康习惯与饮食计划，可以做得更日常
 
@@ -127,13 +127,13 @@ WorkBuddy 还可以在旅行后完成照片按日期地点整理、票据分类�
 改为列出需要向医生或注册营养专业人员确认的问题。
 ```
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 14 章 生活助手的价值，是减少琐碎/assets/006_image_Fu9EbJOqWo.png)
+![](/mirror/fb/fbf3a3afbb36f9f98712c097ac1a439d836b49e5.png)
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 14 章 生活助手的价值，是减少琐碎/assets/007_image_CYQ7b2c1Ho.png)
+![](/mirror/49/4982d87eda9f0f274bc94bc4325582941d044931.png)
 
 同样的在执行过程中会仔细询问我的饮食结构和目前厨房里可用的厨具，给出真正的属于我自己的晚餐计划，而不是一份看似精确但对我个人并不适配的医疗饮食方案。
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 14 章 生活助手的价值，是减少琐碎/assets/008_image_WNlYbFucxo.png)
+![](/mirror/19/19ed8439c56c916f6b21b6cc620af2af1d36b10b.png)
 
 ## 场景五：算命、星盘与卜卦，怎样写得有趣又不越界
 
@@ -152,7 +152,7 @@ WorkBuddy 还可以在旅行后完成照片按日期地点整理、票据分类�
 不要长期保存出生时间和地点，任务结束后提醒我清理输入。
 ```
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 14 章 生活助手的价值，是减少琐碎/assets/009_image_AS0HbQeP7o.png)
+![](/mirror/af/af6b34bef3bd737e892786b29fbe5737f1a7eb54.png)
 
 ## 场景六：穿搭、家庭清单和消费比较
 
@@ -172,7 +172,7 @@ WorkBuddy 还可以在旅行后完成照片按日期地点整理、票据分类�
 不要代替我下单或接受服务条款。
 ```
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 14 章 生活助手的价值，是减少琐碎/assets/010_image_IOAgbitrRo.png)
+![](/mirror/cc/cc91d061bc1903c86b8aa7268537a8238a04b6c8.png)
 
 ## 场景七：情绪记录与现实支持
 
@@ -186,7 +186,7 @@ WorkBuddy 可以帮助记录情绪触发点、睡眠、事件和应对方式，�
 提示我立即联系当地紧急服务、专业机构或身边可信赖的人。
 ```
 
-![](https://gh-proxy.com/https://raw.githubusercontent.com/AlephAITech/WorkBuddyGuide/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 14 章 生活助手的价值，是减少琐碎/assets/011_image_Oar6b1pIjo.png)
+![](/mirror/87/879f3e0a328d14195dab054714d08688a8cdc57f.png)
 
 ## 生活 Skill 安装前的四项检查
 

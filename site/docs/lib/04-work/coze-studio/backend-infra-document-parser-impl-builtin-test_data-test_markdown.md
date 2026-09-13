@@ -119,7 +119,7 @@ cond(no)->op
 > * 撰写发布技术文稿（代码支持）
 > * 撰写发布学术论文（LaTeX 公式支持）
 
-![cmd-markdown-logo](https://gh-proxy.com/https://raw.githubusercontent.com/coze-dev/coze-studio/fefb05ff27be1da939612fbf9faf5db62583b8ae/backend/infra/document/parser/impl/builtin/test_data/logo.png)
+![cmd-markdown-logo](/mirror/93/93ea1297357f4512cdc63106ce5a7edcca2b1dd3.png)
 
 除了您现在看到的这个 Cmd Markdown 在线版本，您还可以前往以下网址下载：
 
@@ -206,7 +206,7 @@ Bob-->Alice: I am good thanks!
 
 也许您还是一个 Markdown 语法的新手，在您完全熟悉它之前，我们在 **编辑区** 的顶部放置了一个如下图所示的工具栏，您可以使用鼠标在工具栏上调整格式，不过我们仍旧鼓励你使用键盘标记格式，提高书写的流畅度。
 
-![tool-editor](https://gh-proxy.com/https://raw.githubusercontent.com/coze-dev/coze-studio/fefb05ff27be1da939612fbf9faf5db62583b8ae/backend/infra/document/parser/impl/builtin/test_data/toolbar-editor.png)
+![tool-editor](/mirror/f1/f1ddf90201d0b83dcfa30889e7ddb0d5e3c505ab.png)
 
 ### 1.3.3. 编辑模式
 
@@ -257,7 +257,7 @@ Bob-->Alice: I am good thanks!
 
 标签以后的文稿在【文件列表】（Ctrl+Alt+F）里会按照标签分类，用户可以同时使用键盘或者鼠标浏览查看，或者在【文件列表】的搜索文本框内搜索标题关键字过滤文稿，如下图所示：
 
-![file-list](https://gh-proxy.com/https://raw.githubusercontent.com/coze-dev/coze-studio/fefb05ff27be1da939612fbf9faf5db62583b8ae/backend/infra/document/parser/impl/builtin/test_data/file-list.png)
+![file-list](/mirror/a3/a3584cbf1e0662f43d9bee2079bc94896e7312ff.png)
 
 ### 1.3.10. 文稿发布和分享
 

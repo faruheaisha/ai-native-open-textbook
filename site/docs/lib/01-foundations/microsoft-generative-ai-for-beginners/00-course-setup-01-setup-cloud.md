@@ -41,7 +41,7 @@ Codespaces gives you a free, browser-based VS Code instance with all dependencie
 
 1. **Fork** this repo (top-right **Fork** button).  
 2. In your fork, click **Code ▸ Codespaces ▸ Create codespace on main**.  
-   ![Dialog showing buttons to create a codespace](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/00-course-setup/images/who-will-pay.webp)
+   ![Dialog showing buttons to create a codespace](/mirror/58/58e2166bdda561f9f08a85924ced9c80acc9da87.webp)
 
 <div class="tb-zh"><p>1. fork 本仓库（右上角的 Fork 按钮）；2. 在自己的 fork 里点击 Code ▸ Codespaces ▸ Create codespace on main。</p></div>
 

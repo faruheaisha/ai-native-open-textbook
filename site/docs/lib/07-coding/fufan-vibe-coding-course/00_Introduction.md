@@ -22,7 +22,7 @@ Before embarking on your Vibe Coding journey, you need to complete the developme
 
 **Why Vibe Coding Tools Need Proper Setup?**
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/fufankeji/FuFan-VibeCodingCourse/5336ede159a7ac2ce0ee136324fe5bffd56970ca/00_Introduction/images/cursor_git_collaboration.png" width="85%" alt="Why Git is Essential for AI Programming">
+  <img src="/mirror/12/12484ca3f2b1bd2af8dc9dae9d3b10932712096c.png" width="85%" alt="Why Git is Essential for AI Programming">
 
 The core toolchain of Vibe Coding—Cursor, GitHub, and AI model services—all depend on stable international network connections. Without Git:
 - ❌ Cannot submit code
@@ -36,7 +36,7 @@ With Git, you unlock the complete engineering workflow: collaborative developmen
 
 ## Git & GitHub Relationship
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/fufankeji/FuFan-VibeCodingCourse/5336ede159a7ac2ce0ee136324fe5bffd56970ca/00_Introduction/images/git_github_relationship.png" width="80%" alt="Git and GitHub Relationship">
+  <img src="/mirror/10/10e4c17d7c865c2ddaf4268a6d9ed18526cc9fe8.png" width="80%" alt="Git and GitHub Relationship">
 
 - **Git** (Local) - Distributed version control, local repository, offline work
 - **GitHub** (Remote) - Centralized hosting, team collaboration, social coding
@@ -47,7 +47,7 @@ With Git, you unlock the complete engineering workflow: collaborative developmen
 
 ## Complete Learning Path
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/fufankeji/FuFan-VibeCodingCourse/5336ede159a7ac2ce0ee136324fe5bffd56970ca/00_Introduction/images/git_setup_flow.png" width="90%" alt="Git in Cursor Workflow - Complete Learning Path">
+  <img src="/mirror/ae/ae08cd8699bf641a52105372b5ddbd079e41d19d.png" width="90%" alt="Git in Cursor Workflow - Complete Learning Path">
 
 The setup flow covers:
 1. **Git's Role & Value** - Why it's essential
@@ -58,7 +58,7 @@ The setup flow covers:
 
 ## Configuration & Verification
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/fufankeji/FuFan-VibeCodingCourse/5336ede159a7ac2ce0ee136324fe5bffd56970ca/00_Introduction/images/cursor_github_config.png" width="90%" alt="Git Configuration and Cursor Integration Verification">
+  <img src="/mirror/27/27eb0160286037c746364f25d4bac078131761ef.png" width="90%" alt="Git Configuration and Cursor Integration Verification">
 
 Three key steps:
 1. **Identity Set** - Configure global user.name and user.email
@@ -74,7 +74,7 @@ Three key steps:
 | [Intro-01](https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/00_Introduction/导学1：网络环境配置与VPN准备.html) | Network & VPN | Network environment detection and VPN configuration |
 | [Intro-02](https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/00_Introduction/导学2：Cursor安装部署与订阅.html) | Cursor Setup | Cursor AI IDE installation, registration, and Pro subscription |
 | [Intro-03](https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/00_Introduction/导学3：Git安装与GitHub配置.html) | Git & GitHub | Git installation, GitHub account, and Token configuration |
-| [Intro-04](https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/00_Introduction/导学4：Claude Code部署配置教程.html) | Claude Code | Claude Code local deployment, configuration, and Cursor plugin integration |
+| [Intro-04](https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/00_Introduction/导学4：Claude%20Code部署配置教程.html) | Claude Code | Claude Code local deployment, configuration, and Cursor plugin integration |
 
 ---
 

@@ -29,7 +29,7 @@ cp default_workspace/config.example.yaml default_workspace/config.user.yaml
 
 聊久了上下文会爆。压缩就是把旧消息总结一下，滚动到新会话继续聊。
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/czl9707/build-your-own-openclaw/37ae5dd255a0451609e67ad6d6a51fa5de80523c/05-compaction/05-compaction.svg" align="center" width="100%" />
+<img src="/mirror/8f/8f9b2d75be6451641898d53cd483ac2d4723cd2f.svg" align="center" width="100%" />
 
 - 上下文超过阈值？
 - 截断过大的工具结果。

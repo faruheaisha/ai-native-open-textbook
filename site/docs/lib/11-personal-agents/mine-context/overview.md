@@ -16,7 +16,7 @@ zh: ""
 
 MineContext is a proactive context-aware AI partner. By utilizing screenshots and content comprehension (with future support for multi-source multimodal information including documents, images, videos, code, and external application data), it can see and understand the user's digital world context. Based on an underlying contextual engineering framework, it actively delivers high-quality information such as insights, daily/weekly summaries, to-do lists, and activity records.
 
-![feature.gif](https://gh-proxy.com/https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/feature.gif)
+![feature.gif](/mirror/8d/8d9ca160fd810806de9b59a6c4306b3b238119af.gif)
 
 # 🚀 Key Features
 
@@ -51,7 +51,7 @@ In addition, we support custom model services based on the OpenAI API protocol. 
 
 Click [Github Latest Release](https://github.com/volcengine/MineContext/releases) to Download
 
-![Download APP](https://gh-proxy.com/https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/Download-App.gif)
+![Download APP](/mirror/7d/7d1139b330704f35c4efb3d2cb23aa4886f123fd.gif)
 
 > **Note**: Starting from v0.1.5, MineContext supports Apple notarization, so you no longer need to disable the quarantine attribute. If you're using an older version, please refer to the [previous documentation](https://github.com/volcengine/MineContext/blob/0.1.4/README.md) for instructions.
 
@@ -68,22 +68,22 @@ We recommend using [LMStudio](https://lmstudio.ai/) to run local models. It prov
 After obtaining the Doubao API Key, you need to activate two models in the [Model Activation Management Interface](https://console.volcengine.com/ark/region:ark+cn-beijing/model): the Visual Language Model and the Embedding Model.
 
 - Visual Language Model: Doubao-Seed-1.6-flash
-  ![doubao-vlm-model](https://gh-proxy.com/https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/doubao-vlm-model.png)
+  ![doubao-vlm-model](/mirror/4b/4b8a80e9cb4b007ea059f722280b5594cb6ef449.png)
 
 - Embedding Model: Doubao-embedding-vision
-  ![doubao-emb-model](https://gh-proxy.com/https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/doubao-emb-model.png)
+  ![doubao-emb-model](/mirror/94/94e2ef9a57d093864df0c8ec89565b97ab989bf1.png)
 
 The following is the filling process after obtaining the API Key:
 
-![Enter API Key](https://gh-proxy.com/https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/Enter-API-Key.gif)
+![Enter API Key](/mirror/e8/e8a50d34e005581356aff4d81a64f18acb953a3c.gif)
 
 ## 3. Start Recording
 
 Enter [Screen Monitor] to enable the system permissions for screen sharing. After completing the setup, you need to restart the application for the changes to take effect.
-![Enable-Permissions](https://gh-proxy.com/https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/Enable-Permissions.gif)
+![Enable-Permissions](/mirror/04/0408b7917dda8cdcbceed1eb8cf77c4938f8aa8f.gif)
 
 After restarting the application, please first set your screen sharing area in [Settings], then click [Start Recording] to begin taking screenshots.
-![Screen-Settings](https://gh-proxy.com/https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/Screen-Settings.gif)
+![Screen-Settings](/mirror/e1/e1f1bf5c7ee1111021b45c5413b16aeb32b509a3.gif)
 
 ## 4. Forget it
 
@@ -94,13 +94,13 @@ After starting the recording, your context will gradually be collected. It will 
 MineContext supports backend debugging, which can be accessed at `http://localhost:1733`.
 
 1.View Token Consumption and Usage
-![后台调试1](https://gh-proxy.com/https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/backend-web-1.png)
+![后台调试1](/mirror/a6/a6ea4d8a78ba7f1dc3c4c12e18f2d36f49086467.png)
 
 2.Configure Interval for Automated Tasks
-![后台调试2](https://gh-proxy.com/https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/backend-web-2.png)
+![后台调试2](/mirror/23/23e064a9fc30fc53510ea81331d84349d3f8acf6.png)
 
 3.Adjust System Prompt for Automated Tasks
-![后台调试3](https://gh-proxy.com/https://raw.githubusercontent.com/volcengine/MineContext/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/src/backend-web-3.png)
+![后台调试3](/mirror/86/863955d8ad15b14fc15e8591682300622866bd85.png)
 
 # 🎃 Contribution Guide
 

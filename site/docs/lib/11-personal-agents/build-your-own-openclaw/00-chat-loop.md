@@ -29,7 +29,7 @@ cp default_workspace/config.example.yaml default_workspace/config.user.yaml
 
 The foundation of any AI agent, a simple chat loop that takes user input and gets responses from the LLM.
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/czl9707/build-your-own-openclaw/37ae5dd255a0451609e67ad6d6a51fa5de80523c/00-chat-loop/00-chat-loop.svg" align="center" width="100%" />
+<img src="/mirror/a3/a3b733660ce6427053263145151bf064b56aa61b.svg" align="center" width="100%" />
 
 ## Key Components
 

@@ -20,7 +20,7 @@ zh: ""
 
 > ⚠️ **Security:** Skills are executable instructions running with your shell permissions. Only install skills from trusted sources, and read the file before adding it to your project — exactly like reviewing a shell script before sourcing it.
 
-![Skill resolution: typing /name or Claude matching a description both enter one lookup order — project .claude/, then user ~/.claude/, then plugins, then built-in, first match wins. Both .claude/commands/name.md and .claude/skills/name/SKILL.md create the same /name command.](https://gh-proxy.com/https://raw.githubusercontent.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/Images/skill-resolution.svg)
+![Skill resolution: typing /name or Claude matching a description both enter one lookup order — project .claude/, then user ~/.claude/, then plugins, then built-in, first match wins. Both .claude/commands/name.md and .claude/skills/name/SKILL.md create the same /name command.](/mirror/8b/8be144b7ccaaa16f7c49767df2f43cd0818129d3.svg)
 
 ### Where Claude looks for `/name`
 

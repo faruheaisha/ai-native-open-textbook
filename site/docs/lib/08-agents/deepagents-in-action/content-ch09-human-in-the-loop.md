@@ -144,7 +144,7 @@ agent = create_deep_agent(
 **3. 用户检查中断内容，做出决策**
 **4. 用相同的 `thread_id` 恢复执行**
 
-![Human-in-the-Loop 执行流程：Agent 运行 → 判断是否中断 → 用户决策（approve/edit/reject/respond）→ 执行工具或返回 ToolMessage → 恢复执行](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/deepagents-in-action/4097ff944f9ffa1bdfe2dd04f751f4416b058860/public/imgs/17-flowchart-hitl-flow.png)
+![Human-in-the-Loop 执行流程：Agent 运行 → 判断是否中断 → 用户决策（approve/edit/reject/respond）→ 执行工具或返回 ToolMessage → 恢复执行](/mirror/7c/7c03fa312e57b66cefff84c0c4faf2e20b507bde.png)
 
 代码实现：
 
@@ -368,7 +368,7 @@ interrupt_on = {
 }
 ```
 
-![按风险等级分层配置：低风险（只读，无需中断）→ 中风险（写入，审批/拒绝）→ 高风险（删除/发送，完全控制）](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/deepagents-in-action/4097ff944f9ffa1bdfe2dd04f751f4416b058860/public/imgs/18-infographic-risk-levels.png)
+![按风险等级分层配置：低风险（只读，无需中断）→ 中风险（写入，审批/拒绝）→ 高风险（删除/发送，完全控制）](/mirror/e7/e7be7bb1a5c8ab6b77cd2d2bb9d4edc260d1a011.png)
 
 | 风险等级 | 工具类型 | 配置 | 理由 |
 |---|---|---|---|
@@ -533,7 +533,7 @@ final = agent.invoke(
 
 所以，HITL 的关键不是"弹一个确认框"，而是让工作流在任意时间跨度后仍然能安全恢复：几秒后恢复、几小时后恢复，甚至换一个进程恢复，只要 Checkpointer 还在、`thread_id` 还一致。
 
-![LangGraph 中断机制：节点调用 interrupt() 后生成中断对象，Checkpointer 保存状态，人类用 Command(resume=...) 返回结果，并通过同一 thread_id 恢复执行，恢复时节点会从头重放](https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/deepagents-in-action/4097ff944f9ffa1bdfe2dd04f751f4416b058860/public/imgs/29-flowchart-interrupt-state-resume.png)
+![LangGraph 中断机制：节点调用 interrupt() 后生成中断对象，Checkpointer 保存状态，人类用 Command(resume=...) 返回结果，并通过同一 thread_id 恢复执行，恢复时节点会从头重放](/mirror/ab/ab8f427ff6090417de193eecbc5aa745d936c195.png)
 
 ### 单个中断 vs 并行中断
 

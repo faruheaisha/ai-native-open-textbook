@@ -30,7 +30,7 @@ cp default_workspace/config.example.yaml default_workspace/config.user.yaml
 
 LLM 懂 Python，但不知道昨天 PyPI 上发了什么新包。加两个工具让它能搜网页、读 URL。
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/czl9707/build-your-own-openclaw/37ae5dd255a0451609e67ad6d6a51fa5de80523c/06-web-tools/06-web-tools.svg" align="center" width="100%" />
+<img src="/mirror/d7/d73536a8890f175ee7c8aff63bc017b8f13663e6.svg" align="center" width="100%" />
 
 ## 关键组件
 

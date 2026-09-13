@@ -28,7 +28,7 @@ cp default_workspace/config.example.yaml default_workspace/config.user.yaml
 
 ## 这节做什么
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/czl9707/build-your-own-openclaw/37ae5dd255a0451609e67ad6d6a51fa5de80523c/03-persistence/03-persistence.svg" align="center" width="100%" />
+<img src="/mirror/b3/b3877c61a598825009f913a3ed63ad0cfd27ca1d.svg" align="center" width="100%" />
 
 文件系统结构：
 

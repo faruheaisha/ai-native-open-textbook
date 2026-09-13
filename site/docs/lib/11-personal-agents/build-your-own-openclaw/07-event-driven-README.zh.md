@@ -29,7 +29,7 @@ cp default_workspace/config.example.yaml default_workspace/config.user.yaml
 
 这步改动较大。用事件总线把消息源和智能体执行解耦，后面几步都依赖这个架构。
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/czl9707/build-your-own-openclaw/37ae5dd255a0451609e67ad6d6a51fa5de80523c/07-event-driven/07-event-driven.svg" align="center" width="100%" />
+<img src="/mirror/50/505b13b776a77bec876591bd499fa6473467a53a.svg" align="center" width="100%" />
 
 ## 关键组件
 

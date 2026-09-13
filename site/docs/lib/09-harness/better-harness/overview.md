@@ -135,7 +135,7 @@ Across that loop, it evaluates five parts of delivery — the **Agent Work Loop*
 
 <div class="tb-zh"><p>在这个循环之上，它评估交付的五个环节——也就是 Agent Work Loop：</p></div>
 
-[![Agent Work Loop: five dimensions from task understanding through learning capture](https://gh-proxy.com/https://raw.githubusercontent.com/QoderAI/better-harness/e1538c15a98856b3349f365d951f4fa0bcc33f24/assets/agent-work-loop-en.svg)](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/models/agent-work-loop.md)
+[![Agent Work Loop: five dimensions from task understanding through learning capture](/mirror/8b/8b098643d4d71f3631c4dcc533471610ff751deb.svg)](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/models/agent-work-loop.md)
 
 <div class="tb-zh"><p>配图（可点击跳转至 models/agent-work-loop.md）：Agent Work Loop——从任务理解到经验沉淀的五个维度。</p></div>
 
@@ -188,7 +188,7 @@ or improved an outcome.
 
 ## Architecture
 
-[![Better Harness architecture: host integration, three independent evidence agents, unified analysis by one lead agent, findings, host outputs, and repair](https://gh-proxy.com/https://raw.githubusercontent.com/QoderAI/better-harness/e1538c15a98856b3349f365d951f4fa0bcc33f24/assets/better-harness-architecture-en.svg)](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/lib/09-harness/better-harness/docs-ARCHITECTURE/README.md)
+[![Better Harness architecture: host integration, three independent evidence agents, unified analysis by one lead agent, findings, host outputs, and repair](/mirror/8f/8fb7a5c1fead81e6f67be8ce0d7122118935171f.svg)](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/lib/09-harness/better-harness/docs-ARCHITECTURE/README.md)
 
 <div class="tb-zh"><p>配图（可点击跳转至 docs/README.md）：Better Harness 架构——宿主集成、三个独立的证据 agent、由单个 lead agent 统一分析、findings、宿主输出，以及修复。</p></div>
 
@@ -273,7 +273,7 @@ Use `https://github.com/QoderAI/better-harness.git` with Git ref `main`.
 
 <div class="tb-zh"><p>使用 https://github.com/QoderAI/better-harness.git，Git ref 设为 main。</p></div>
 
-![Codex Add plugin marketplace dialog with repository, Git ref, and optional sparse paths](https://gh-proxy.com/https://raw.githubusercontent.com/QoderAI/better-harness/e1538c15a98856b3349f365d951f4fa0bcc33f24/assets/install/codex-add-marketplace.jpg)
+![Codex Add plugin marketplace dialog with repository, Git ref, and optional sparse paths](/mirror/aa/aa91ac56d13232a2d383cb7088fb641d9158dc23.jpg)
 
 #### Codex CLI
 

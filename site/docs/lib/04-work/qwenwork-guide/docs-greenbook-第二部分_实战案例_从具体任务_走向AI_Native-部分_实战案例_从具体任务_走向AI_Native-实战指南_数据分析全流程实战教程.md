@@ -90,7 +90,7 @@ zh: ""
 
 发送后，千问办公会自动打开网页、识别表格、逐页抓取，并自主调用浏览器操作和 Excel 处理能力完成清洗，**整个过程你不用看懂任何代码**，对话窗口里能看到它的思考和执行步骤，右侧还能同步看到它正在操作的页面，过程透明可追踪。
 
-![image.png](https://gh-proxy.com/https://raw.githubusercontent.com/wangxiaoshuai1998/QwenWorkGuide/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第二部分 实战案例 从具体任务，走向AI Native/部分 实战案例 从具体任务，走向AI Native/实战指南｜数据分析全流程实战教程/assets/001_image.png)
+![image.png](/mirror/c7/c718741cd33c8b446d928702163ecc5a2f12ef50.png)
 
 可以看到几个细节正是它"靠谱"的地方：收益率自动去掉了百分号转成数字、基金规模统一成"亿元"、货币和短债基金被排除掉了、抓不到的"近3年收益率"如实填了"未获取"而不是瞎编。
 

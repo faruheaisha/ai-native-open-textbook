@@ -14,7 +14,7 @@ zh: ""
 
 # Creating Advanced prompts
 
-[![Creating Advanced Prompts](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/05-advanced-prompts/images/05-lesson-banner.png)](https://youtu.be/BAjzkaCdRok?si=NmUIyRf7-cDgbjtt)
+[![Creating Advanced Prompts](/mirror/97/97d1198266e5284600887b24ac385150fd050f92.png)](https://youtu.be/BAjzkaCdRok?si=NmUIyRf7-cDgbjtt)
 
 Let's recap some learnings from the previous chapter:
 

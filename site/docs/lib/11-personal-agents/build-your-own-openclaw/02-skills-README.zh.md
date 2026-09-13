@@ -31,7 +31,7 @@ cp default_workspace/config.example.yaml default_workspace/config.user.yaml
 
 技能是运行时按需加载的能力。这不是 Openclaw 发明的，是个开放标准，详见 [官方文档](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview)。
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/czl9707/build-your-own-openclaw/37ae5dd255a0451609e67ad6d6a51fa5de80523c/02-skills/02-skills.svg" align="center" width="100%" />
+<img src="/mirror/1c/1cf6820f71bfef42bbf5c4e5b392189ec3445918.svg" align="center" width="100%" />
 
 ## 关键组件
 

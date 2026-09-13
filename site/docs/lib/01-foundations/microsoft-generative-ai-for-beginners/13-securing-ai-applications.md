@@ -14,7 +14,7 @@ zh: ""
 
 # Securing Your Generative AI Applications
 
-[![Securing Your Generative AI Applications](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/13-securing-ai-applications/images/13-lesson-banner.png)](https://youtu.be/m0vXwsx5DNg?si=TYkr936GMKz15K0L)
+[![Securing Your Generative AI Applications](/mirror/be/be1ef38f4ecd9dafd189323feefa3fe40787797f.png)](https://youtu.be/m0vXwsx5DNg?si=TYkr936GMKz15K0L)
 
 ## Introduction
 
@@ -137,7 +137,7 @@ Emulating real-world threats is now considered a standard practice in building r
 
 > The practice of AI red teaming has evolved to take on a more expanded meaning: it not only covers probing for security vulnerabilities, but also includes probing for other system failures, such as the generation of potentially harmful content. AI systems come with new risks, and red teaming is core to understanding those novel risks, such as prompt injection and producing ungrounded content. - [Microsoft AI Red Team building future of safer AI](https://www.microsoft.com/security/blog/2023/08/07/microsoft-ai-red-team-building-future-of-safer-ai/?WT.mc_id=academic-105485-koreyst)
 
-[![Guidance and resources for red teaming](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/13-securing-ai-applications/images/13-AI-red-team.png)]()
+[![Guidance and resources for red teaming](/mirror/2c/2ceb8e960e240e784c7b82f3f467066b49e5ec30.png)]()
 
 Below are key insights that have shaped Microsoft’s AI Red Team program.
 

@@ -44,7 +44,7 @@ In your fork: **Code -> Codespaces -> New on main**
 
 <div class="tb-zh"><p>在自己的 fork 中依次点击：Code -&gt; Codespaces -&gt; New on main。</p></div>
 
-![Dialog showing buttons to create a codespace](https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/00-course-setup/images/who-will-pay.webp)
+![Dialog showing buttons to create a codespace](/mirror/58/58e2166bdda561f9f08a85924ced9c80acc9da87.webp)
 
 #### 2.1 Add a secret
 

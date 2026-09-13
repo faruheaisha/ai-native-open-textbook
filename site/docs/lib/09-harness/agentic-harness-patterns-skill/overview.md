@@ -100,7 +100,7 @@ For the full story — how Codex and Claude Code collaborated, the handoff proto
 npx skills add github:keli-wen/agentic-harness-patterns-skill
 ```
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/keli-wen/agentic-harness-patterns-skill/17549f55b84a94b1ff647ae4711be600fe8ae12f/images/skill-install-screenshot.png" alt="npx skills add screenshot" width="720">
+  <img src="/mirror/61/61a8868a08633fba50acffab2f831078f9d20404.png" alt="npx skills add screenshot" width="720">
 
 **Just reading:** Open [SKILL.md](https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/skills/agentic-harness-patterns/SKILL.md) (EN) or [SKILL.md](/lib/09-harness/agentic-harness-patterns-skill/skills-agentic-harness-patterns-zh-SKILL) (ZH).
 

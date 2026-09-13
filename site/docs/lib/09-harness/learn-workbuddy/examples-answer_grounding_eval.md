@@ -18,7 +18,7 @@ zh: ""
 
 本示例接在 [Source-grounded RAG](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/examples/source_grounded_rag/README.md) 之后，完全离线地演示两层不同责任：Harness 在运行时验证 evidence binding 和 citation integrity；benchmark 使用显式 gold fixture 评价 claim 与来源是否对齐。它不调用模型，也不使用关键词重叠冒充语义蕴含。
 
-![回答级 Grounding 验收流程](https://gh-proxy.com/https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/examples/answer_grounding_eval/images/answer-grounding.svg)
+![回答级 Grounding 验收流程](/mirror/da/dafadf5fbddb3f115faafd88d8e60c4742fc2182.svg)
 
 ## 代码架构图
 

@@ -176,7 +176,7 @@ curl -fsSL https://claude.ai/install.sh | bash
 irm https://claude.ai/install.ps1 | iex
 ```
 
-![四象限对比：ChatGPT / Copilot / Cursor / Claude Code](https://gh-proxy.com/https://raw.githubusercontent.com/stormzhang/ai-coding-guide/d187dbdb83fa1be051a850074eb518e30e2eb47c/claude-code/assets/01-four-quadrant-compare@2x.png)
+![四象限对比：ChatGPT / Copilot / Cursor / Claude Code](/mirror/55/551df6c33f27df03822d789845e8aa535dd7da01.png)
 
 这张图想表达的是：把「能不能自动读懂你整个项目」和「能不能直接动手改文件」当成两个轴，四个工具一摆——**只有 Claude Code 稳稳站在「既懂全局又能动手」那个角**，ChatGPT 两样都靠手动，Copilot/Cursor 懂局部、主要靠补全。看不到图也不影响，记住上一节那三句话就够了。
 

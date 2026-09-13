@@ -18,7 +18,7 @@ zh: ""
 
 整个流程完全离线、无 API Key，不生成模型答案。它评测的是 Harness 的 context plumbing 和决策证据。
 
-![Retrieval-to-Prompt Context Pipeline](https://gh-proxy.com/https://raw.githubusercontent.com/adongwanai/learn-workbuddy/d8c2a32614555196e405f20c67e23ed84f2f2239/examples/context_pipeline_walkthrough/images/retrieval-to-prompt.svg)
+![Retrieval-to-Prompt Context Pipeline](/mirror/b1/b18bf876567791c4466c1cc809f1ae975080f3da.svg)
 
 ## 代码架构图
 

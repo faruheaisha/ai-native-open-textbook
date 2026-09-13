@@ -30,7 +30,7 @@ $$P(S)=P(w_1,w_2,…,w_m)=P(w_1)⋅P(w_2∣w_1)⋅P(w_3∣w_1,w_2)⋯P(w_m∣w_1
 
 This formula is called the chain rule of probability. However, directly calculating this formula is almost impossible because conditional probabilities like $P(w_m∣w_1,\cdots,w_{m−1})$ are too difficult to estimate from a corpus, as the word sequence $w_1,\cdots,w_{m−1}$ may have never appeared in the training data.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/3-figures/1757249275674-0.png" alt="Figure description" width="90%"/>
+  <img src="/mirror/27/27ca4048473a3e0adeb949fb95fc1a8e05302c6a.png" alt="Figure description" width="90%"/>
   <p>Figure 3.1 Schematic diagram of Markov assumption</p>
 
 To solve this problem, researchers introduced the **Markov Assumption**. Its core idea is: we don't need to trace back a word's entire history; we can approximately assume that a word's probability of appearing is only related to the limited $n−1$ words before it, as shown in Figure 3.1. Language models built on this assumption are called **N-gram models**. Here, "N" represents the context window size we consider. Let's look at some of the most common examples to understand this concept:
@@ -125,7 +125,7 @@ Its core idea can be divided into two steps:
 1. **Build a semantic space**: Create a high-dimensional continuous vector space, then map each word in the vocabulary to a point in that space. This point (i.e., vector) is called a **Word Embedding** or word vector. In this space, semantically similar words have vectors that are close together in position. For example, the vectors of `agent` and `robot` will be very close, while the vectors of `agent` and `apple` will be far apart.
 2. **Learn the mapping from context to the next word**: Utilize the powerful fitting ability of neural networks to learn a function. The input of this function is the word vectors of the previous $n−1$ words, and the output is the probability distribution of each word in the vocabulary appearing after the current context.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/3-figures/1757249275674-1.png" alt="Figure description" width="90%"/>
+  <img src="/mirror/3a/3affde4a360c3dd6905e9d2478030c926dc201cd.png" alt="Figure description" width="90%"/>
   <p>Figure 3.2 Schematic diagram of neural network language model architecture</p>
 
 As shown in Figure 3.2, in this architecture, word embeddings are automatically learned during model training. To complete the task of "predicting the next word," the model continuously adjusts the vector position of each word, ultimately making these vectors contain rich semantic information. Once we convert words into vectors, we can use mathematical tools to measure the relationships between them. The most commonly used method is **Cosine Similarity**, which measures their similarity by calculating the cosine of the angle between two vectors.
@@ -180,7 +180,7 @@ Although the neural network language model in the previous section introduced wo
 
 As shown in Figure 3.3, RNN's design introduces a **hidden state** vector, which we can understand as the network's short-term memory. At each step of processing the sequence, the network reads the current input word and combines it with its memory from the previous moment (i.e., the hidden state from the previous time step), then generates a new memory (i.e., the hidden state of the current time step) to pass to the next moment. This cyclical process allows information to continuously propagate backward through the sequence.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/3-figures/1757249275674-2.png" alt="Figure description" width="90%"/>
+  <img src="/mirror/4e/4e1af4f4d1c415123734809d6679cab3159286a5.png" alt="Figure description" width="90%"/>
   <p>Figure 3.3 Schematic diagram of RNN structure</p>
 
 However, standard RNNs have a serious problem in practice: the **Long-term Dependency Problem**. During training, the model needs to adjust weights deep in the network based on errors at the output end through the backpropagation algorithm. For RNNs, the length of the sequence is the depth of the network. When the sequence is very long, gradients undergo multiple multiplications during backward propagation, which causes gradient values to rapidly approach zero (**gradient vanishing**) or become extremely large (**gradient explosion**). Gradient vanishing prevents the model from effectively learning the impact of early sequence information on later outputs, making it difficult to capture long-distance dependencies.
@@ -199,7 +199,7 @@ In the previous section, we saw that RNNs and LSTMs process sequential data by i
 
 The original Transformer model was designed for the end-to-end task of machine translation. As shown in Figure 3.4, it follows a classic **Encoder-Decoder** architecture at the macro level.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/3-figures/1757249275674-3.png" alt="Figure description" width="50%"/>
+  <img src="/mirror/26/265433ba9e1a109085ca757fd7f57f57cdea0f1b.png" alt="Figure description" width="50%"/>
   <p>Figure 3.4 Overall Transformer architecture diagram</p>
 
 We can understand this structure as a team with clear division of labor:
@@ -316,7 +316,7 @@ If only one attention calculation is performed (i.e., single-head), the model ma
 
 It splits the original Q, K, V vectors into h parts along the dimension (h is the number of "heads"), and each part independently performs a single-head attention calculation. This is like having h different "experts" examine the sentence from different perspectives, with each expert capturing a different feature relationship. Finally, the "opinions" (i.e., output vectors) of these h experts are concatenated, then integrated through a linear transformation to obtain the final output.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/3-figures/1757249275674-4.png" alt="Figure description" width="50%"/>
+  <img src="/mirror/35/35b4bfbc9884c0bf241e0511bc9e72ec53b0f4c8.png" alt="Figure description" width="50%"/>
   <p>Figure 3.5 Multi-head attention mechanism</p>
 
 As shown in Figure 3.5, this design allows the model to jointly attend to information from different positions and different representation subspaces, greatly enhancing the model's expressive power. Below is a simple implementation of multi-head attention for reference.
@@ -688,7 +688,7 @@ Byte-Pair Encoding (BPE) is one of the most mainstream subword tokenization algo
 **Case Demonstration:** Suppose our mini corpus is `{"hug": 1, "pug": 1, "pun": 1, "bun": 1}`, and we want to build a vocabulary of size 10. The BPE training process can be represented by Table 3.1:
 
   <p>Table 3.1 Example of BPE Algorithm Merging Process</p>
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/3-figures/1757249275674-5.png" alt="Figure description" width="90%"/>
+  <img src="/mirror/45/4581b180c1603db907bc8d85e72f51e9b4aa7442.png" alt="Figure description" width="90%"/>
 
 After training ends, when the vocabulary size reaches 10, we get new tokenization rules. Now, for an unseen word "bug," the tokenizer will first check if "bug" is in the vocabulary and find it's not; then check "bu" and find it's not; finally check "b" and "ug," find both are in, and thus split it into `['b', 'ug']`.
 

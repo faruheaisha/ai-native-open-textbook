@@ -84,7 +84,7 @@ LangChain 官方文档通常也把 RAG 拆成两大阶段：**索引（Indexing�
 
 这不是为了重复，而是为了把“平台里的按钮和配置项”翻译成“代码里的组件与数据流”。
 
-![RAG 完整数据流程：离线完成文档加载、切分、向量化和入库，在线完成问题检索、上下文组装与答案生成](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/19/19-1-3-1.png)
+![RAG 完整数据流程：离线完成文档加载、切分、向量化和入库，在线完成问题检索、上下文组装与答案生成](/mirror/c7/c776fe49a93c8c95020372fa7b506b93d0cd16dd.png)
 
 #### 1.3.1 索引阶段：先把知识库准备好
 
@@ -99,7 +99,7 @@ LangChain 官方文档通常也把 RAG 拆成两大阶段：**索引（Indexing�
 3. **向量化（Embed）**：把每个文档片段转成向量。
 4. **存储（Store）**：把“片段内容 + 向量 + 元数据”写入向量数据库。
 
-![索引阶段细节示意](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/19/19-1-3-2.png)
+![索引阶段细节示意](/mirror/54/541c2591f2f0f17a7caa9eb828b665bf29fcb52d.png)
 
 这里有两个很容易忽略的点：
 
@@ -123,7 +123,7 @@ LangChain 官方文档通常也把 RAG 拆成两大阶段：**索引（Indexing�
 4. 把这些片段作为 `context` 放进 Prompt。
 5. 再把 `context + question` 一起发给大模型生成答案。
 
-![检索阶段：查询向量化、相似检索、上下文组装与生成](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/19/19-1-3-3.png)
+![检索阶段：查询向量化、相似检索、上下文组装与生成](/mirror/1a/1ac15f9940d4ae082e041c2cb31a0976e0899df1.png)
 
 这一阶段的核心不是“再去建库”，而是“**拿已经建好的索引来查资料**”。也就是说：
 
@@ -182,7 +182,7 @@ RAG 并不是某一个单独类就能完成的功能，它更像一条由多个�
 5. 把片段作为上下文，和用户问题一起填进 Prompt。
 6. 调用大模型，得到最终答案。
 
-![RAG 从检索到生成的完整数据流](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/19/19-2-1-1.svg)
+![RAG 从检索到生成的完整数据流](/mirror/7f/7fe6ae59de543e839914e0f36454d868263b0952.svg)
 
 #### 2.1.1 from_documents 与 add_texts：两种常见的入库方式
 
@@ -299,7 +299,7 @@ LangChain 官方对文档加载器的定位很明确：它们为不同数据源�
 
 **原始文件 -> Loader -> List[Document] -> TextSplitter -> VectorStore**
 
-![文档加载器继承关系示意](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/19/19-2-2-1.jpeg)
+![文档加载器继承关系示意](/mirror/da/da4ff9a6229f40a80ab3c4200dcd291eb46bd8c8.jpeg)
 
 #### 2.2.2 如何选择加载器
 
@@ -425,7 +425,7 @@ LangChain 官方也明确建议：面对通用文本时，`RecursiveCharacterTex
 
 真实项目里，不存在一个“永远最优”的块大小。它和文档类型、语言、问答粒度、模型上下文长度都有关系。学习时先跑通主链路，再基于效果调参，是更现实的路线。
 
-![chunk_size 每个块之间有一部分重叠](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/19/19-2-3-1.png)
+![chunk_size 每个块之间有一部分重叠](/mirror/af/af0de6d8764d0c15234aea30cd2d83c120b3696a.png)
 
 #### 2.3.4 文本分割器案例
 
@@ -466,9 +466,9 @@ LangChain 官方也明确建议：面对通用文本时，`RecursiveCharacterTex
 - **查询改写**：多查询扩展、HyDE 等，用额外一步改善问句与文档的匹配（常与 Agent 或固定预处理脚本结合）。
 - **评测与观测**：准备一批「问题—期望引用片段或标准答」做回归；线上可用 [LangSmith](https://docs.langchain.com/langsmith/observability-llm-tutorial) 等工具追踪检索与生成全链路，定位是检索差还是 Prompt / 模型问题。
 
-![RRF 重排序示意：融合多路检索结果的排名，缓解单一路径召回不稳的问题](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/19/19-2-4-1.png)
+![RRF 重排序示意：融合多路检索结果的排名，缓解单一路径召回不稳的问题](/mirror/f7/f767671762f0f9f58d3937652dc69560782d1a9c.png)
 
-![高级 RAG 五维增强体系：从查询、索引、检索器、生成器和管道五个方向优化效果](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/19/19-2-4-2.png)
+![高级 RAG 五维增强体系：从查询、索引、检索器、生成器和管道五个方向优化效果](/mirror/a8/a8910d3c19fdb2eb2c05146d21d98ed6e81f0d4e.png)
 
 进一步看，生产级 RAG 的优化通常可以从五个方向入手：
 

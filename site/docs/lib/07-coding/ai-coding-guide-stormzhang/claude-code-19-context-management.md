@@ -286,7 +286,7 @@ When you are using compact, please focus on test output and code changes
 
 说到底，**管理上下文的本质就一句话：把 Claude 有限的注意力，省着用在真正要紧的事情上。**
 
-![上下文窗口与 /compact、/clear](https://gh-proxy.com/https://raw.githubusercontent.com/stormzhang/ai-coding-guide/d187dbdb83fa1be051a850074eb518e30e2eb47c/claude-code/assets/19-context-window@2x.png)
+![上下文窗口与 /compact、/clear](/mirror/6c/6cbec7104500ae2428f633e1ad475601b8b65fd3.png)
 
 这张图把上下文窗口比成工作台：**塞满了文件和对话（图里到约 92%），就靠 `/compact` 把一摞聊天压成一页要点（留着继续用），或 `/clear` 把整张台面扫空（从头开始）**——前者保信息、后者图干净。
 

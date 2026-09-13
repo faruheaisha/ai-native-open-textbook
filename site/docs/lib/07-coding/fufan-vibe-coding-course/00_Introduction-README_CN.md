@@ -22,7 +22,7 @@ zh: ""
 
 **为什么 Vibe Coding 工具链需要完整配置？**
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/fufankeji/FuFan-VibeCodingCourse/5336ede159a7ac2ce0ee136324fe5bffd56970ca/00_Introduction/images/cursor_git_collaboration.png" width="85%" alt="为什么 Git 是 AI 编程必修课">
+  <img src="/mirror/12/12484ca3f2b1bd2af8dc9dae9d3b10932712096c.png" width="85%" alt="为什么 Git 是 AI 编程必修课">
 
 Vibe Coding 的核心工具链——Cursor、GitHub、AI 模型服务——都依赖稳定的国际网络连接。没有 Git：
 - ❌ 无法提交代码
@@ -36,7 +36,7 @@ Vibe Coding 的核心工具链——Cursor、GitHub、AI 模型服务——都�
 
 ## Git 与 GitHub 的关系
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/fufankeji/FuFan-VibeCodingCourse/5336ede159a7ac2ce0ee136324fe5bffd56970ca/00_Introduction/images/git_github_relationship.png" width="80%" alt="Git 与 GitHub 的关系">
+  <img src="/mirror/10/10e4c17d7c865c2ddaf4268a6d9ed18526cc9fe8.png" width="80%" alt="Git 与 GitHub 的关系">
 
 - **Git**（本地）- 分布式、本地仓库、离线工作
 - **GitHub**（远程）- 集中式、在线托管、团队协作、社交编码
@@ -47,7 +47,7 @@ Vibe Coding 的核心工具链——Cursor、GitHub、AI 模型服务——都�
 
 ## 完整学习路径
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/fufankeji/FuFan-VibeCodingCourse/5336ede159a7ac2ce0ee136324fe5bffd56970ca/00_Introduction/images/git_setup_flow.png" width="90%" alt="Git 在 Cursor 工作流中的完整教学路径">
+  <img src="/mirror/ae/ae08cd8699bf641a52105372b5ddbd079e41d19d.png" width="90%" alt="Git 在 Cursor 工作流中的完整教学路径">
 
 配置流程涵盖：
 1. **Git 位置与价值** - 为什么必须学
@@ -58,7 +58,7 @@ Vibe Coding 的核心工具链——Cursor、GitHub、AI 模型服务——都�
 
 ## 配置与验证流程
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/fufankeji/FuFan-VibeCodingCourse/5336ede159a7ac2ce0ee136324fe5bffd56970ca/00_Introduction/images/cursor_github_config.png" width="90%" alt="Git 初始化配置与 Cursor 集成验证">
+  <img src="/mirror/27/27eb0160286037c746364f25d4bac078131761ef.png" width="90%" alt="Git 初始化配置与 Cursor 集成验证">
 
 三个关键步骤：
 1. **身份配置** - 设置全局 user.name 和 user.email
@@ -74,7 +74,7 @@ Vibe Coding 的核心工具链——Cursor、GitHub、AI 模型服务——都�
 | [Intro-01](https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/00_Introduction/导学1：网络环境配置与VPN准备.html) | 网络与VPN | 网络环境检测与 VPN 配置，确保 GitHub 和 AI 服务可访问 |
 | [Intro-02](https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/00_Introduction/导学2：Cursor安装部署与订阅.html) | Cursor 配置 | Cursor AI IDE 安装、账户注册与 Pro 订阅 |
 | [Intro-03](https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/00_Introduction/导学3：Git安装与GitHub配置.html) | Git 与 GitHub | Git 安装配置、GitHub 账户注册与 Token 配置 |
-| [Intro-04](https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/00_Introduction/导学4：Claude Code部署配置教程.html) | Claude Code | Claude Code 本地部署与配置教程，合并 Cursor 插件使用 |
+| [Intro-04](https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/00_Introduction/导学4：Claude%20Code部署配置教程.html) | Claude Code | Claude Code 本地部署与配置教程，合并 Cursor 插件使用 |
 
 ---
 

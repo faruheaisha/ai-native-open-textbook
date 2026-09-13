@@ -61,7 +61,7 @@ GPT-4的发布直接填补了之前GPT系列的跨模态信息生成能力的空
 
 ### [真·万字长文：可能是全网最晚的ChatGPT技术总结](https://www.techbeat.net/article-info?id=4766)
 
-[原文链接](https://www.techbeat.net/article-info?id=4766)  [备份](https://github.com/EmbraceAGI/awesome-chatgpt-zh/blob/f7c206f6b3e27dae3f4fa7fb1eee1852c72b1f68/docs/files/simpread-真 · 万字长文：可能是全网最晚的 ChatGPT 技术总结 - TechBeattech.md)
+[原文链接](https://www.techbeat.net/article-info?id=4766)  [备份](https://github.com/EmbraceAGI/awesome-chatgpt-zh/blob/f7c206f6b3e27dae3f4fa7fb1eee1852c72b1f68/docs/files/simpread-真%20·%20万字长文：可能是全网最晚的%20ChatGPT%20技术总结%20-%20TechBeattech.md)
 
 ChatGPT的强大能力是显而易见的，但对于人工智能领域不太熟悉的人，对这种黑盒的技术仍然会担忧或者不信任。恐惧通常来自于不了解，因此本文将为大家全面剖析ChatGPT的技术原理，尽量以简单通俗的文字为大家解惑。
 

@@ -40,7 +40,7 @@ The session is only the middle of that chain.
 
 We split a coding-agent delivery into three continuous parts with different boundaries:
 
-![Intent, process, and output form one traceable delivery chain from requirement to commit](https://gh-proxy.com/https://raw.githubusercontent.com/QoderAI/better-harness/e1538c15a98856b3349f365d951f4fa0bcc33f24/img/harness-inspector-architecture-en.svg)
+![Intent, process, and output form one traceable delivery chain from requirement to commit](https://gh-proxy.com/https://raw.githubusercontent.com/QoderAI/better-harness/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/static/img/harness-inspector-architecture-en.svg)
 
 - **Intent** is the semantic starting point of a change — a requirement, an Issue, a Spec, or an architectural constraint.
 - **Process** is how the change actually unfolds. For an agent, that is mostly the session record and the searching, reading, editing, and verifying inside it.

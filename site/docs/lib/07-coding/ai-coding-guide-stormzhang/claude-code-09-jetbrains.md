@@ -76,7 +76,7 @@ JetBrains 是一整个家族，不是单个软件。**好消息是：Claude Code
 
 **类比：同一品牌的不同车型，共用一套车机系统。** IntelliJ、PyCharm、WebStorm 就像同厂家的轿车、SUV、跑车，定位不同但**底层是同一个平台**（都构建在 IntelliJ Platform 上）。所以一个插件通吃，**这篇里所有操作步骤，不管你用 IntelliJ 还是 GoLand，菜单路径都一致**。下面演示用 PyCharm。
 
-![一个 Claude Code 插件通吃所有 JetBrains IDE，因为它们共用 IntelliJ 平台底座](https://gh-proxy.com/https://raw.githubusercontent.com/stormzhang/ai-coding-guide/d187dbdb83fa1be051a850074eb518e30e2eb47c/claude-code/assets/09-plugin-platform-layers@2x.png)
+![一个 Claude Code 插件通吃所有 JetBrains IDE，因为它们共用 IntelliJ 平台底座](/mirror/e1/e14275adea8a34e3817428e12a4f71c8cf5902a3.png)
 
 上图把这层关系画清楚了：最上面的 Claude Code 插件只有一个，向下扇出适配每个 IDE；而 IntelliJ IDEA、PyCharm、WebStorm 等虽各管一门语言，却都坐在同一个 IntelliJ Platform 底座上——所以一个插件装一次，处处能用，安装配置步骤也处处一致。
 

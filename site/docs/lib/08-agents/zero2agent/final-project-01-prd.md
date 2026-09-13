@@ -32,7 +32,7 @@ zh: ""
 
 ## 用户场景
 
-![用户场景](https://gh-proxy.com/https://raw.githubusercontent.com/ranxi2001/zero2Agent/46e9f7c28f84f54b2f6e45681d14989f01e18291/final-project/01-prd/user-scenarios.drawio.png)
+![用户场景](/mirror/27/27de1099bcf701748e96fbbdb881130cb298915d.png)
 
 ## 系统架构：基于 Harness 工程的 10 层设计
 
@@ -40,7 +40,7 @@ zh: ""
 
 每一层对应具体的工程模块：
 
-![10 层 Harness 系统架构](https://gh-proxy.com/https://raw.githubusercontent.com/ranxi2001/zero2Agent/46e9f7c28f84f54b2f6e45681d14989f01e18291/final-project/01-prd/architecture-10layers.drawio.png)
+![10 层 Harness 系统架构](/mirror/07/075785423ecfdb0bdd929a1c45cd8adca34bef36.png)
 
 ## 第 1 层：Tools —— 原子能力清单
 
@@ -69,13 +69,13 @@ Skills 是 Tools 的有意义组合，代表一个完整的诊断流程。
 
 **核心 Skills：**
 
-![Skills 管线流程](https://gh-proxy.com/https://raw.githubusercontent.com/ranxi2001/zero2Agent/46e9f7c28f84f54b2f6e45681d14989f01e18291/final-project/01-prd/skills-flow.drawio.png)
+![Skills 管线流程](/mirror/a0/a0fc9b638071d87d3264f0e9ee3ccb27a10599fd.png)
 
 ## 第 3 层：Query Engine —— 模型调用的工程化
 
 不是简单 `await model.invoke()`，而是完整的调用管线：
 
-![Query Engine 调用管线](https://gh-proxy.com/https://raw.githubusercontent.com/ranxi2001/zero2Agent/46e9f7c28f84f54b2f6e45681d14989f01e18291/final-project/01-prd/query-engine.drawio.png)
+![Query Engine 调用管线](/mirror/0b/0b7c34b2d4a12d1b1540d47d2b4a8ede9e79aa23.png)
 
 关键设计：
 
@@ -88,11 +88,11 @@ Skills 是 Tools 的有意义组合，代表一个完整的诊断流程。
 
 面试诊断的上下文特别容易爆：一场面试可能有 20+ 道题，每题的回答、参考答案、诊断结果都在膨胀。
 
-![Context 管理策略](https://gh-proxy.com/https://raw.githubusercontent.com/ranxi2001/zero2Agent/46e9f7c28f84f54b2f6e45681d14989f01e18291/final-project/01-prd/context-strategy.drawio.png)
+![Context 管理策略](/mirror/f2/f20d5b319bf393b2d95a7e7a1155a13add0de1a6.png)
 
 ## 第 5 层：Memory —— 用户画像与诊断历史
 
-![Memory 三层模型](https://gh-proxy.com/https://raw.githubusercontent.com/ranxi2001/zero2Agent/46e9f7c28f84f54b2f6e45681d14989f01e18291/final-project/01-prd/memory-types.drawio.png)
+![Memory 三层模型](/mirror/fb/fbbd1480dd66df667dda1e898201b16ea03e0a0e.png)
 
 Memory 写入规则（克制原则）：
 
@@ -104,7 +104,7 @@ Memory 写入规则（克制原则）：
 
 面试内容是高度隐私数据，权限设计必须严格：
 
-![权限矩阵](https://gh-proxy.com/https://raw.githubusercontent.com/ranxi2001/zero2Agent/46e9f7c28f84f54b2f6e45681d14989f01e18291/final-project/01-prd/permission-matrix.drawio.png)
+![权限矩阵](/mirror/9c/9c118ed352cbe8b45a0edcffc206434c661519c3.png)
 
 隐私保护：
 
@@ -116,21 +116,21 @@ Memory 写入规则（克制原则）：
 
 一场面试诊断可能需要 10–30 分钟。Session 必须支持中断恢复。
 
-![Session 状态机](https://gh-proxy.com/https://raw.githubusercontent.com/ranxi2001/zero2Agent/46e9f7c28f84f54b2f6e45681d14989f01e18291/final-project/01-prd/session-state.drawio.png)
+![Session 状态机](/mirror/66/666712321bdab55409346ce8d487a40f818e8c68.png)
 
 ## 第 8 层：Command —— 确定性操作入口
 
-![用户命令](https://gh-proxy.com/https://raw.githubusercontent.com/ranxi2001/zero2Agent/46e9f7c28f84f54b2f6e45681d14989f01e18291/final-project/01-prd/commands.drawio.png)
+![用户命令](/mirror/74/7460c7c6dc2f5511fabf03cc5115d93cdeb67786.png)
 
 ## 第 9 层：Hook —— 治理逻辑的扩展点
 
-![Hook 管线](https://gh-proxy.com/https://raw.githubusercontent.com/ranxi2001/zero2Agent/46e9f7c28f84f54b2f6e45681d14989f01e18291/final-project/01-prd/hook-pipeline.drawio.png)
+![Hook 管线](/mirror/c2/c28f28c3032d41c537625503c22c07c9a97498ee.png)
 
 ## 第 10 层：Sub-agent —— 诊断任务的并行分发
 
 单题诊断可以串行，但多题诊断适合并行分发：
 
-![Sub-agent 并行诊断架构](https://gh-proxy.com/https://raw.githubusercontent.com/ranxi2001/zero2Agent/46e9f7c28f84f54b2f6e45681d14989f01e18291/final-project/01-prd/subagent-parallel.drawio.png)
+![Sub-agent 并行诊断架构](/mirror/32/32340097933d0b411e75e141604cfbcac85edb43.png)
 
 Sub-agent 职责划分：
 
@@ -146,11 +146,11 @@ Sub-agent 职责划分：
 
 知识库来源就是 zero2Agent 项目本身的面试内容：
 
-![知识库设计](https://gh-proxy.com/https://raw.githubusercontent.com/ranxi2001/zero2Agent/46e9f7c28f84f54b2f6e45681d14989f01e18291/final-project/01-prd/knowledge-base.drawio.png)
+![知识库设计](/mirror/c3/c3908358693797e717b5481c6b64fd349ad2d18d.png)
 
 ## 诊断维度与评分体系
 
-![诊断维度与评分体系](https://gh-proxy.com/https://raw.githubusercontent.com/ranxi2001/zero2Agent/46e9f7c28f84f54b2f6e45681d14989f01e18291/final-project/01-prd/diagnosis-dimensions.drawio.png)
+![诊断维度与评分体系](/mirror/d8/d81047dbb9b3c75e22c1dc82272c1c2b68be25b1.png)
 
 ## 技术选型
 
@@ -176,7 +176,7 @@ Sub-agent 职责划分：
 
 ## 开发路线图
 
-![开发路线图](https://gh-proxy.com/https://raw.githubusercontent.com/ranxi2001/zero2Agent/46e9f7c28f84f54b2f6e45681d14989f01e18291/final-project/01-prd/dev-roadmap.drawio.png)
+![开发路线图](/mirror/5c/5cc5ad687fb49a74e348318354f58880b389af16.png)
 
 ## 与 zero2Agent 课程的关系
 

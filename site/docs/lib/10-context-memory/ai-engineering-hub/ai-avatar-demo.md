@@ -26,7 +26,7 @@ We use:
 
 ## Architecture
 
-![Architecture Diagram](https://gh-proxy.com/https://raw.githubusercontent.com/patchy631/ai-engineering-hub/2c9b106168d4540b88e727e4aa316c06c856c2b7/ai-avatar-demo/assets/architecture.gif)
+![Architecture Diagram](/mirror/85/8568eda064370c7097dd40921398d89d1ef4a526.gif)
 
 ## Set Up
 

@@ -97,13 +97,13 @@ folder here.
 
 <div class="tb-zh"><p>整套课程发布成一个页面，在你 clone 任何东西之前就能先读：zorost.github.io/AI-Engineering-Lab。全部 24 周都列在那里，附有目标、可按阶段筛选，每一条都能直接链接回仓库里对应的目录。</p></div>
 
-[<img src="https://gh-proxy.com/https://raw.githubusercontent.com/zorost/AI-Engineering-Lab/cdd8dbdf559f72211a7c068e8877918441531e52/assets/diagrams/site-preview.png" alt="The AI Engineering Lab program site: a hero band and the filterable list of all 24 weeks" width="100%" />](https://zorost.github.io/AI-Engineering-Lab/)
+[<img src="/mirror/67/671a26bfd2269723ebfe4b8cf1471be37ede13dc.png" alt="The AI Engineering Lab program site: a hero band and the filterable list of all 24 weeks" width="100%" />](https://zorost.github.io/AI-Engineering-Lab/)
 
 <div class="tb-zh"><p>（配图：AI Engineering Lab 项目官网——顶部主视觉，以及可按条件筛选的全部 24 周列表。）</p></div>
 
 ## The 24 week journey
 
-![Seven phases from Foundations to the Databricks capstone, with what each phase puts in your hands](https://gh-proxy.com/https://raw.githubusercontent.com/zorost/AI-Engineering-Lab/cdd8dbdf559f72211a7c068e8877918441531e52/assets/diagrams/lab-journey.png)
+![Seven phases from Foundations to the Databricks capstone, with what each phase puts in your hands](/mirror/06/068f0a31d146e63bc28309f7837b3c134c0a08eb.png)
 
 | Phase | Weeks | What you become |
 |---|---|---|
@@ -122,7 +122,7 @@ Visual deep dive: [curriculum/learning-path.md](/lib/01-foundations/ai-engineeri
 
 ## How a week works
 
-![One week, four beats: study, build, ship, reflect, about ten hours in total](https://gh-proxy.com/https://raw.githubusercontent.com/zorost/AI-Engineering-Lab/cdd8dbdf559f72211a7c068e8877918441531e52/assets/diagrams/lab-week.png)
+![One week, four beats: study, build, ship, reflect, about ten hours in total](/mirror/cf/cf3968a05bbbc9583c05f9fb2744fa7986ec2ecd.png)
 
 | Beat | When | What you do |
 |---|---|---|
@@ -138,7 +138,7 @@ the point of the program.
 
 ## One company, the whole way through
 
-![The ZoroLogistics case study revisited six times across the 24 weeks](https://gh-proxy.com/https://raw.githubusercontent.com/zorost/AI-Engineering-Lab/cdd8dbdf559f72211a7c068e8877918441531e52/assets/diagrams/lab-case.png)
+![The ZoroLogistics case study revisited six times across the 24 weeks](/mirror/1d/1d3e39bcb608c06b9e5b3579db19909568e3e1ee.png)
 
 You are the AI engineering team at **ZoroLogistics**, a fictional freight operator. Week 1's seeded
 dataset becomes Week 2's SQL practice, Week 3's training data, Week 7's retrieval corpus, Week 10's
@@ -155,7 +155,7 @@ already serves.
 
 ## What is in the repository
 
-![The repository at top level: START-HERE, curriculum, reference, zoro, data, scripts, docs, and .github](https://gh-proxy.com/https://raw.githubusercontent.com/zorost/AI-Engineering-Lab/cdd8dbdf559f72211a7c068e8877918441531e52/assets/diagrams/lab-map.png)
+![The repository at top level: START-HERE, curriculum, reference, zoro, data, scripts, docs, and .github](/mirror/d4/d47f468a4b92a88b50967f650c1dd743350a3f05.png)
 
 ```
 AI-Engineering-Lab/
@@ -183,7 +183,7 @@ systems do.
 
 <div class="tb-zh"><p>本课程实现了吴恩达（Andrew Ng）的「AI 工程技能地图」以及他在 AI 时代构建软件的三层循环。Zorost 补上了那张地图没写的那部分：技能不能交付，系统才能交付。</p></div>
 
-![The four skills and the three loops, with the weeks that build each one](https://gh-proxy.com/https://raw.githubusercontent.com/zorost/AI-Engineering-Lab/cdd8dbdf559f72211a7c068e8877918441531e52/assets/diagrams/lab-framework.png)
+![The four skills and the three loops, with the weeks that build each one](/mirror/36/36df037dd825b60a706140e1cd911960057ff60a.png)
 
 > The Skills Map is Andrew Ng's synthesis, published in The Batch in 2026. AI Engineering Lab is an
 > independent implementation and is not affiliated with or endorsed by Andrew Ng or DeepLearning.AI.
@@ -194,7 +194,7 @@ systems do.
 
 ## The stack you will master
 
-![Every layer of the AI engineering stack and the weeks that install it](https://gh-proxy.com/https://raw.githubusercontent.com/zorost/AI-Engineering-Lab/cdd8dbdf559f72211a7c068e8877918441531e52/assets/diagrams/lab-stack.png)
+![Every layer of the AI engineering stack and the weeks that install it](/mirror/99/999e3c74a90da6ac35a628c752c1784744d61e08.png)
 
 ## What it costs
 

@@ -50,4 +50,4 @@ zh: ""
 2. 点击菜单图标 (☰) → **打开** (Ctrl+O)
 3. 选择本地的 `.excalidraw` 文件
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/fufankeji/FuFan-VibeCodingCourse/5336ede159a7ac2ce0ee136324fe5bffd56970ca/Stage1_AI_Programming_Fundamentals/Lesson01_Dev_Workflow_and_Environment/images/open1.png" width="600" alt="如何打开 excalidraw 文件">
+<img src="/mirror/70/7016cc7ad12dde8c39d62cf0151375be5e585d6c.png" width="600" alt="如何打开 excalidraw 文件">

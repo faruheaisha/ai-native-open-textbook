@@ -73,13 +73,13 @@ This grounds the model's responses in your actual data instead of relying on its
 
 The diagram below illustrates the core concept: instead of relying on the model's training data alone, RAG gives it a reference library of your documents to consult before generating each answer.
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/03-rag/images/what-is-rag.png" alt="What is RAG" width="800"/>
+<img src="/mirror/05/055e08d07bc43d9f8b6415ccb2d5e4a60c6c1b03.png" alt="What is RAG" width="800"/>
 
 *This diagram shows the difference between a standard LLM (which guesses from training data) and a RAG-enhanced LLM (which consults your documents first).*
 
 Here's how the pieces connect end-to-end. A user's question flows through four stages — embedding, vector search, context assembly, and answer generation — each building on the previous one:
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/03-rag/images/rag-architecture.png" alt="RAG Architecture" width="800"/>
+<img src="/mirror/1d/1d6ff46672928f7f621bd04f93efe1c4f92bd2e6.png" alt="RAG Architecture" width="800"/>
 
 *This diagram shows the end-to-end RAG pipeline — a user query flows through embedding, vector search, context assembly, and answer generation.*
 
@@ -89,7 +89,7 @@ The rest of this module walks through each stage in detail, with code you can ru
 
 LangChain4j offers three ways to implement RAG, each with a different level of abstraction. The diagram below compares them side by side:
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/03-rag/images/rag-approaches.png" alt="Three RAG Approaches in LangChain4j" width="800"/>
+<img src="/mirror/61/61097aafa3c71acf422a5c813e1bf8817d86232f.png" alt="Three RAG Approaches in LangChain4j" width="800"/>
 
 *This diagram compares the three LangChain4j RAG approaches — Easy, Native, and Advanced — showing their key components and when to use each one.*
 
@@ -105,7 +105,7 @@ LangChain4j offers three ways to implement RAG, each with a different level of a
 
 The diagram below shows the Easy RAG pipeline. Notice how `AiServices` and `EmbeddingStoreContentRetriever` hide all the complexity — you load a document, attach a retriever, and get answers. The Native approach in this module breaks each of those hidden steps open:
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/03-rag/images/easy-rag-pipeline.png" alt="Easy RAG Pipeline - LangChain4j" width="800"/>
+<img src="/mirror/44/449db14829263f21bddb0ff3fb2c43256ee4ca2e.png" alt="Easy RAG Pipeline - LangChain4j" width="800"/>
 
 *This diagram shows the Easy RAG pipeline. Compare this with the Native approach used in this module: Easy RAG hides the embedding, retrieval, and prompt assembly behind `AiServices` and `ContentRetriever` — you load a document, attach a retriever, and get answers. The Native approach in this module breaks that pipeline open so you call each stage (embed, search, assemble context, generate) yourself, giving you full visibility and control.*
 
@@ -132,7 +132,7 @@ List<TextSegment> segments = splitter.split(document);
 
 The diagram below shows how this works visually. Notice how each chunk shares some tokens with its neighbors — the 30-token overlap ensures no important context falls between the cracks:
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/03-rag/images/document-chunking.png" alt="Document Chunking" width="800"/>
+<img src="/mirror/4e/4e247ac7e848c473b251ef3d140b227efa7540e5.png" alt="Document Chunking" width="800"/>
 
 *This diagram shows a document being split into 300-token chunks with 30-token overlap, preserving context at chunk boundaries.*
 
@@ -149,7 +149,7 @@ Each chunk is converted into a numerical representation called an embedding — 
 
 The diagram below visualizes this concept — text goes in, numerical vectors come out, and similar meanings produce nearby vectors:
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/03-rag/images/embedding-model-concept.png" alt="Embedding Model Concept" width="800"/>
+<img src="/mirror/53/533da34ead144eab140783854dfdba126bbf0401.png" alt="Embedding Model Concept" width="800"/>
 
 *This diagram shows how an embedding model converts text into numerical vectors, placing similar meanings — like "car" and "automobile" — near each other in vector space.*
 
@@ -169,19 +169,19 @@ EmbeddingStore<TextSegment> embeddingStore =
 
 The class diagram below shows the two separate flows in a RAG pipeline and the LangChain4j classes that implement them. The **ingestion flow** (runs once at upload time) splits the document, embeds the chunks, and stores them via `.addAll()`. The **query flow** (runs each time a user asks) embeds the question, searches the store via `.search()`, and passes the matched context to the chat model. Both flows meet at the shared `EmbeddingStore<TextSegment>` interface:
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/03-rag/images/rag-langchain4j-classes.png" alt="LangChain4j RAG Classes" width="800"/>
+<img src="/mirror/6b/6b71ed3cc8964c2a418eb73c66e53ab011e07f13.png" alt="LangChain4j RAG Classes" width="800"/>
 
 *This diagram shows the two flows in a RAG pipeline — ingestion and query — and how they connect through a shared EmbeddingStore.*
 
 Once embeddings are stored, similar content naturally clusters together in vector space. The visualization below shows how documents about related topics end up as nearby points, which is what makes semantic search possible:
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/03-rag/images/vector-embeddings.png" alt="Vector Embeddings Space" width="800"/>
+<img src="/mirror/01/015748ffc7d586bf93bad390d30e4fc43fc13595.png" alt="Vector Embeddings Space" width="800"/>
 
 *This visualization shows how related documents cluster together in 3D vector space, with topics like Technical Docs, Business Rules, and FAQs forming distinct groups.*
 
 When a user searches, the system follows four steps: embed the documents once, embed the query on each search, compare the query vector against all stored vectors using cosine similarity, and return the top-K highest-scoring chunks. The diagram below walks through each step and the LangChain4j classes involved:
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/03-rag/images/embedding-search-steps.png" alt="Embedding Search Steps" width="800"/>
+<img src="/mirror/85/85a0e2ab99655f66c2b7331d872dd6b601a864dc.png" alt="Embedding Search Steps" width="800"/>
 
 *This diagram shows the four-step embedding search process: embed documents, embed the query, compare vectors with cosine similarity, and return the top-K results.*
 
@@ -211,13 +211,13 @@ for (EmbeddingMatch<TextSegment> match : matches) {
 
 The diagram below contrasts semantic search with traditional keyword search. A keyword search for "vehicle" misses a chunk about "cars and trucks," but semantic search understands they mean the same thing and returns it as a high-scoring match:
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/03-rag/images/semantic-search.png" alt="Semantic Search" width="800"/>
+<img src="/mirror/25/2590b7926c81a7b56483dd20a2629346f06dd223.png" alt="Semantic Search" width="800"/>
 
 *This diagram compares keyword-based search with semantic search, showing how semantic search retrieves conceptually related content even when exact keywords differ.*
 
 Under the hood, similarity is measured using cosine similarity — essentially asking "are these two arrows pointing in the same direction?" Two chunks can use completely different words, but if they mean the same thing their vectors point the same way and score close to 1.0:
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/03-rag/images/cosine-similarity.png" alt="Cosine Similarity" width="800"/>
+<img src="/mirror/6f/6fd230535a409cea5f4a6afec88080e3240ce26f.png" alt="Cosine Similarity" width="800"/>
 
 *This diagram illustrates cosine similarity as the angle between embedding vectors — more aligned vectors score closer to 1.0, indicating higher semantic similarity.*
 
@@ -253,7 +253,7 @@ String answer = chatModel.chat(prompt);
 
 The diagram below shows this assembly in action — the top-scoring chunks from the search step are injected into the prompt template, and the `OpenAiOfficialChatModel` generates a grounded answer:
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/03-rag/images/context-assembly.png" alt="Context Assembly" width="800"/>
+<img src="/mirror/b7/b76547f5e7a4d2313532f8cc86eef5a27373842c.png" alt="Context Assembly" width="800"/>
 
 *This diagram shows how the top-scoring chunks are assembled into a structured prompt, allowing the model to generate a grounded answer from your data.*
 
@@ -289,7 +289,7 @@ From the Spring Boot Dashboard, you can:
 
 Simply click the play button next to "rag" to start this module, or start all modules at once.
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/03-rag/images/dashboard.png" alt="Spring Boot Dashboard" width="400"/>
+<img src="/mirror/7c/7cdb10d2a3e5a8b4df4e0fabab8e7fb6a2c71266.png" alt="Spring Boot Dashboard" width="400"/>
 
 *This screenshot shows the Spring Boot Dashboard in VS Code, where you can start, stop, and monitor applications visually.*
 
@@ -361,7 +361,7 @@ cd ..; .\stop-all.ps1  # All modules
 
 The application provides a web interface for document upload and questioning.
 
-<a href="https://github.com/microsoft/LangChain4j-for-Beginners/blob/9aed2ec27717775def0da2ff2d7950baa8995a64/03-rag/images/rag-homepage.png"><img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/03-rag/images/rag-homepage.png" alt="RAG Application Interface" width="800" style="border: 1px solid #ddd; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"/></a>
+<a href="https://github.com/microsoft/LangChain4j-for-Beginners/blob/9aed2ec27717775def0da2ff2d7950baa8995a64/03-rag/images/rag-homepage.png"><img src="/mirror/a0/a0dd629468e1abdb0cdf37682adae713e4ade555.png" alt="RAG Application Interface" width="800" style="border: 1px solid #ddd; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"/></a>
 
 *This screenshot shows the RAG application interface where you upload documents and ask questions.*
 
@@ -379,7 +379,7 @@ Now ask specific questions about the document content. Try something factual tha
 
 Notice each answer includes source references with similarity scores. These scores (0 to 1) show how relevant each chunk was to your question. Higher scores mean better matches. This lets you verify the answer against the source material.
 
-<a href="https://github.com/microsoft/LangChain4j-for-Beginners/blob/9aed2ec27717775def0da2ff2d7950baa8995a64/03-rag/images/rag-query-results.png"><img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/03-rag/images/rag-query-results.png" alt="RAG Query Results" width="800" style="border: 1px solid #ddd; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"/></a>
+<a href="https://github.com/microsoft/LangChain4j-for-Beginners/blob/9aed2ec27717775def0da2ff2d7950baa8995a64/03-rag/images/rag-query-results.png"><img src="/mirror/a8/a8ec94713c1a1dac5e7ba8e812806d86db47775c.png" alt="RAG Query Results" width="800" style="border: 1px solid #ddd; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"/></a>
 
 *This screenshot shows query results with the generated answer, source references, and relevance scores for each retrieved chunk.*
 
@@ -402,7 +402,7 @@ Documents are split into 300-token chunks with 30 tokens of overlap. This balanc
 
 Every retrieved chunk comes with a similarity score between 0 and 1 that indicates how closely it matches the user's question. The diagram below visualizes the score ranges and how the system uses them to filter results:
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/03-rag/images/similarity-scores.png" alt="Similarity Scores" width="800"/>
+<img src="/mirror/d3/d3d9fb400e17b5d3b4a6b2d408c9fcceaea503fa.png" alt="Similarity Scores" width="800"/>
 
 *This diagram shows score ranges from 0 to 1, with a minimum threshold of 0.5 that filters out irrelevant chunks.*
 
@@ -415,7 +415,7 @@ The system only retrieves chunks above the minimum threshold to ensure quality.
 
 Embeddings work well when meaning clusters cleanly, but they have blind spots. The diagram below shows the common failure modes — chunks that are too large produce muddy vectors, chunks that are too small lack context, ambiguous terms point to multiple clusters, and exact-match lookups (IDs, part numbers) don't work with embeddings at all:
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/03-rag/images/embedding-failure-modes.png" alt="Embedding Failure Modes" width="800"/>
+<img src="/mirror/68/685d9a708952ad6ca1f855a31edad1455e86a17c.png" alt="Embedding Failure Modes" width="800"/>
 
 *This diagram shows common embedding failure modes: chunks too large, chunks too small, ambiguous terms that point to multiple clusters, and exact-match lookups like IDs.*
 
@@ -431,7 +431,7 @@ Each model has a maximum context window. You can't include every chunk from a la
 
 RAG isn't always the right approach. The decision guide below helps you determine when RAG adds value versus when simpler approaches — like including content directly in the prompt or relying on the model's built-in knowledge — are sufficient:
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/microsoft/LangChain4j-for-Beginners/9aed2ec27717775def0da2ff2d7950baa8995a64/03-rag/images/when-to-use-rag.png" alt="When to Use RAG" width="800"/>
+<img src="/mirror/e6/e66532bca1a5d1971ed455db0636c56e1b63f186.png" alt="When to Use RAG" width="800"/>
 
 *This diagram shows a decision guide for when RAG adds value versus when simpler approaches are sufficient.*
 

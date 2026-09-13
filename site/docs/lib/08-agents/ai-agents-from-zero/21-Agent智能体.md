@@ -50,9 +50,9 @@ zh: ""
 
 上面的公式是帮助你先抓住重点的“最小理解版”。如果把 Agent 再进一步展开，它在更完整的架构图里还可能包含记忆、规划、反思等能力。所以下图更适合理解为“扩展后的能力拼图”，而不是和上面四项定义做一一对应。
 
-![Agent 扩展架构示意：中心为 Agent，周邻 Memory（短/长期）、Planning（反思、自评、思维链）、Tools（日历、计算、搜索等）与 Action，强调多模块协同而非最小四元组一一对应（中文）](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/21/21-1-1-2.png)
+![Agent 扩展架构示意：中心为 Agent，周邻 Memory（短/长期）、Planning（反思、自评、思维链）、Tools（日历、计算、搜索等）与 Action，强调多模块协同而非最小四元组一一对应（中文）](/mirror/b1/b12f2c03488947c5cff47c339053f680780978ed.png)
 
-![Agent 扩展架构示意：中心为 Agent，周邻 Memory（短/长期）、Planning（反思、自评、思维链）、Tools（日历、计算、搜索等）与 Action，强调多模块协同而非最小四元组一一对应（英文）](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/21/21-1-1-1.jpeg)
+![Agent 扩展架构示意：中心为 Agent，周邻 Memory（短/长期）、Planning（反思、自评、思维链）、Tools（日历、计算、搜索等）与 Action，强调多模块协同而非最小四元组一一对应（英文）](/mirror/45/45ac15310449e7fb46c0c659bfb200b50447d555.jpeg)
 
 ### 1.2 Agent 最常见的工作方式：ReAct
 
@@ -71,7 +71,7 @@ zh: ""
 
 下图正好对应这条循环：
 
-![ReAct 模式：思考（Thought）→ 行动（Action）→ 观察（Observation）→ 根据结果继续循环或给出最终答案的闭环示意](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/21/21-1-2-1.jpeg)
+![ReAct 模式：思考（Thought）→ 行动（Action）→ 观察（Observation）→ 根据结果继续循环或给出最终答案的闭环示意](/mirror/cd/cd2e766d5408d53c5f0315655069a63294cfb232.jpeg)
 
 这里还要补一个现实中的重要认知：**现代 Tool Calling Agent 不一定会把“Thought”完整显示给你看。**
 
@@ -258,7 +258,7 @@ from langchain.agents import create_agent
 
 下图正好适合理解这一点：
 
-![AgentExecutor 工作流示意：左侧为消息流（Input、模型回复、History）；中间为 Agent 链（Prompt、LLM、输出解析）决定下一步；右侧为可调用的 Tool 1…n，执行结果回传并形成循环直至结束](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/21/21-3-2-1.jpeg)
+![AgentExecutor 工作流示意：左侧为消息流（Input、模型回复、History）；中间为 Agent 链（Prompt、LLM、输出解析）决定下一步；右侧为可调用的 Tool 1…n，执行结果回传并形成循环直至结束](/mirror/b3/b3644c4375b37cf6c6df8e1cc41ed21799d15d6e.jpeg)
 
 ### 3.3 agent_scratchpad 重要性
 
@@ -314,7 +314,7 @@ from langchain.agents import create_agent
 
 你通常会把这些东西交给它：模型，工具，系统提示，有时再加结构化输出、状态、中间件等。这样你可以更专注于业务目标，而不是一开始就陷进大量底层组装细节里。
 
-![Agent 工作循环：用户目标进入 Agent，模型判断下一步，必要时调用工具并根据观察结果继续循环](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/21/21-4-1-1.png)
+![Agent 工作循环：用户目标进入 Agent，模型判断下一步，必要时调用工具并根据观察结果继续循环](/mirror/c4/c45e687f785c4117f588e22a9478e05bf1811324.png)
 
 ### 4.2 V1.x 的核心输入
 
@@ -366,7 +366,7 @@ from langchain.agents import create_agent
 
 所以可以概括成一句话：**checkpointer 决定“状态能不能存下来”，thread_id 决定“这些状态属于哪一条会话”。**
 
-![Agent 短期记忆：thread_id 区分会话线程，checkpointer 按线程保存 messages 和 state，支撑多轮延续](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/21/21-4-4-1.png)
+![Agent 短期记忆：thread_id 区分会话线程，checkpointer 按线程保存 messages 和 state，支撑多轮延续](/mirror/fe/fe134e099e268d6fc4bf8f2fab35b5fbf670cae6.png)
 
 实际调用时，`thread_id` 通常通过运行配置传入，例如：
 
@@ -454,7 +454,7 @@ Agent 的问题，往往不是“有没有报错”这么简单，而是：
 
 如果说 `tools` 是给 Agent 增加能力，`middleware` 更像是给 Agent 增加运行边界。它可以在模型调用、工具调用、状态更新等阶段插入控制逻辑。
 
-![Agent Middleware 概念：在模型调用、工具调用和运行过程之间插入守护、改写、审核与日志逻辑](https://gh-proxy.com/https://raw.githubusercontent.com/didilili/ai-agents-from-zero/ea7f28ffe0b2c2650e3936f3bb591560225702b3/images/21/21-4-8-1.png)
+![Agent Middleware 概念：在模型调用、工具调用和运行过程之间插入守护、改写、审核与日志逻辑](/mirror/f5/f51a98064b048cf629c57e22bd1a91f532f45779.png)
 
 常见用途包括：
 

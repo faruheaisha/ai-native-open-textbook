@@ -68,7 +68,7 @@ Rules for verifying CONCEPTS table accuracy. Each rule is checked during every w
 
 ### 7. Beta Badge Currency
 - **Category**: Badge Accuracy
-- **What to check**: Concepts marked `![beta](https://gh-proxy.com/https://raw.githubusercontent.com/shanraisshan/claude-code-best-practice/2d6ea151c0d7189c3eaf364809c5574bd210e545/changelog/best-practice/concepts/!/tags/beta.svg)` in the Hot table should still be flagged as beta / research preview in their official docs page (header banner, "research preview" copy, or env-var gating)
+- **What to check**: Concepts marked `![beta](https://gh-proxy.com/https://raw.githubusercontent.com/shanraisshan/claude-code-best-practice/2d6ea151c0d7189c3eaf364809c5574bd210e545/!/tags/beta.svg)` in the Hot table should still be flagged as beta / research preview in their official docs page (header banner, "research preview" copy, or env-var gating)
 - **Depth**: Fetch each upstream page and check for explicit beta/preview/experimental wording; if absent, the README badge may be stale
 - **Source to compare against**: Official docs page banner text + GA-marker copy
 - **Date added**: 2026-04-26

@@ -30,7 +30,7 @@ This Arduino-based application demonstrates how to capture audio from a micropho
 
 ## Hardware Setup
 
-![Wiring Diagram](https://gh-proxy.com/https://raw.githubusercontent.com/google-gemini/cookbook/a1b990c859a34823c982f70edaff35b830511c64/examples/iot/esp32/voice_led_controller/wiring-diagram.png)
+![Wiring Diagram](/mirror/b0/b05dbb0d305ea7d139fc5cace3a17914d25f3d24.png)
 
 * **MAX9814 Microphone Module -> ESP32**
     * GND -> GND

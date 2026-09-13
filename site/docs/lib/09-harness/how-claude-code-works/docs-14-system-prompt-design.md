@@ -784,7 +784,7 @@ Claude Code 有 6 个内置 Agent 类型，每个有独立的系统提示词。
 >    - ~/.bash_profile
 >    - ~/.profile
 >
-> 2. Extract the PS1 value using this regex pattern: /(?:^|\\n)\\s\*(?:export\\s+)?PS1\\s\*=\\s\*["'](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/[^"']+/README.md)["']/m
+> 2. Extract the PS1 value using this regex pattern: /(?:^|\\n)\\s\*(?:export\\s+)?PS1\\s\*=\\s\*["'](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/[^%22%27]+/README.md)["']/m
 >
 > 3. Convert PS1 escape sequences to shell commands:
 >    - \\u → $(whoami)
@@ -921,7 +921,7 @@ Claude Code 有 6 个内置 Agent 类型，每个有独立的系统提示词。
 >    - ~/.bash_profile
 >    - ~/.profile
 >
-> 2. 使用此正则模式提取 PS1 值：/(?:^|\\n)\\s\*(?:export\\s+)?PS1\\s\*=\\s\*["'](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/[^"']+/README.md)["']/m
+> 2. 使用此正则模式提取 PS1 值：/(?:^|\\n)\\s\*(?:export\\s+)?PS1\\s\*=\\s\*["'](https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/[^%22%27]+/README.md)["']/m
 >
 > 3. 将 PS1 转义序列转换为 shell 命令：
 >    - \\u → $(whoami)

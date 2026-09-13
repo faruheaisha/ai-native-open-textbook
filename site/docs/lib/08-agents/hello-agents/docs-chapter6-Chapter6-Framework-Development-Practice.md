@@ -45,7 +45,7 @@ The ecosystem of agent frameworks is developing at an unprecedented speed. If La
 In the subsequent practical work of this chapter, we will focus on four frameworks that are highly representative in these cutting-edge fields: AutoGen, AgentScope, CAMEL, and LangGraph. Their design philosophies are different, representing different technical paths for implementing complex agent systems, as shown in Table 6.1.
 
   <p>Table 6.1 Comparison of Four Agent Frameworks</p>
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/6-figures/01.png" alt="" width="90%"/>
+  <img src="/mirror/50/50a8ac67881a1dfb82c8ea7763c815975d1bbabb.png" alt="" width="90%"/>
 
 
 - **AutoGen**: The core idea of AutoGen is to achieve collaboration through conversation<sup>[1]</sup>. It abstracts multi-agent systems as a group chat composed of multiple "conversable" agents. Developers can define different roles (such as `Coder`, `ProductManager`, `Tester`) and set interaction rules between them (for example, after `Coder` finishes writing code, `Tester` automatically takes over). The task-solving process is the process where these agents continuously converse, collaborate, and iterate in the group chat through automated message passing until the final goal is achieved.
@@ -63,7 +63,7 @@ As mentioned earlier, AutoGen's design philosophy is rooted in "driving collabor
 
 The release of version `0.7.4` is an important milestone in AutoGen's development, marking a fundamental innovation in the framework's underlying design. This update is not a simple addition of features but a rethinking of the overall architecture, aimed at improving the framework's modularity, concurrency performance, and developer experience.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/6-figures/02.png" alt="" width="90%"/>
+  <img src="/mirror/a7/a7f42a6563e5ac77b2e3418feae4ef7bc82fc29d.png" alt="" width="90%"/>
   <p>Figure 6.1 AutoGen Architecture Diagram</p>
 
 (1) Evolution of Framework Structure
@@ -414,7 +414,7 @@ Compared with AutoGen, the core difference of AgentScope lies in its **message-d
 
 As shown in Figure 6.2, AgentScope adopts a clear layered modular design, forming a complete agent development ecosystem from bottom-level basic components to top-level application orchestration.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/6-figures/03.png" alt="" width="90%"/>
+  <img src="/mirror/03/0365915772fe79febf9b3cc821e139d50d1ec695.png" alt="" width="90%"/>
   <p>Figure 6.2 AgentScope Architecture Diagram</p>
 
 In this architecture, the bottom layer is the **Foundational Components** layer, which provides core building blocks for the entire framework. The `Message` component defines a unified message format, supporting everything from simple text interaction to complex multimodal content; the `Memory` component provides short-term and long-term memory management; the `Model API` layer abstracts calls to different large language models; and the `Tool` component encapsulates the agent's ability to interact with the external world.
@@ -736,7 +736,7 @@ Simply setting roles is not enough. How can we ensure that two AIs can always "s
 
 These constraints ensure that the conversation does not deviate from the topic or fall into ineffective loops but advances in a highly structured, task-driven manner, as shown in Figure 6.3.
 
-  <img src="https://gh-proxy.com/https://raw.githubusercontent.com/datawhalechina/Hello-Agents/main/docs/images/6-figures/04.png" alt="" width="90%"/>
+  <img src="/mirror/b9/b964e34d5a9d1db8c85221ed12d70fb0cbbed308.png" alt="" width="90%"/>
   <p>Figure 6.3 CAMEL Creating Stock Trading Robot</p>
 
 In the next section, we will experience this process through a specific example.

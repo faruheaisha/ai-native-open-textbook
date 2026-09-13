@@ -283,7 +283,7 @@ steps/              # 每章可运行的最小实现（单一真源 → 生成�
 
 ## 🤝 贡献者
 
-| <img src="https://github.com/Windy3f3f3f3f.png" width="60" /> | <img src="https://github.com/davidweidawang.png" width="60" /> | <img src="https://gh-proxy.com/https://raw.githubusercontent.com/Windy3f3f3f3f/claude-code-from-scratch/0b452360866433fde0dc77cd37ada9d303546592/assets/kaibo.jpg" width="60" /> |
+| <img src="https://github.com/Windy3f3f3f3f.png" width="60" /> | <img src="https://github.com/davidweidawang.png" width="60" /> | <img src="/mirror/9e/9e244a0734c1cdd4ab1e8aae657dd2b5cb904c93.jpg" width="60" /> |
 |:---:|:---:|:---:|
 | [@Windy3f3f3f3f](https://github.com/Windy3f3f3f3f) | [@davidweidawang](https://github.com/davidweidawang) | [Kaibo Huang](https://scholar.google.com/citations?user=C7B5X5IAAAAJ&hl=zh-CN) |
 
@@ -295,7 +295,7 @@ steps/              # 每章可运行的最小实现（单一真源 → 生成�
 
 **加入 AI Agent 工坊 交流群**
 
-<img src="https://gh-proxy.com/https://raw.githubusercontent.com/Windy3f3f3f3f/claude-code-from-scratch/0b452360866433fde0dc77cd37ada9d303546592/assets/qq.jpg" width="280" alt="QQ 群二维码" />
+<img src="/mirror/5e/5e110160ba303ee5ed8968db8b817dd866ea5fd7.jpg" width="280" alt="QQ 群二维码" />
 
 QQ 群号：**1090526244**
 

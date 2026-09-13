@@ -539,7 +539,7 @@ When caching is enabled, each `list_tools()` result contains detached copies of 
 1. Calls to the MCP server to list tools.
 2. MCP-related information on tool calls.
 
-![MCP Tracing Screenshot](https://gh-proxy.com/https://raw.githubusercontent.com/openai/openai-agents-python/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/assets/images/mcp-tracing.jpg)
+![MCP Tracing Screenshot](/mirror/e5/e5b537dc814ed448f9df8d9b64d8ceba8aca6204.jpg)
 
 ## Further reading
 

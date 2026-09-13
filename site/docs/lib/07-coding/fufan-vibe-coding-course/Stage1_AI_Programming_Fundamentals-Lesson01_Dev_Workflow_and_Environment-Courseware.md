@@ -69,8 +69,8 @@ Vibe Coding - Programming Paradigm and Development Workflow in the AI Era
 课件与资料已按目录分类：
 
 - **01_课件/** — 幻灯片与 Excalidraw 源文件
-  - 📊 **PPT Slides**: [01_课件/01_Vibe Coding AI编程范式与快速上手实践.pptx](https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/Stage1_AI_Programming_Fundamentals/Lesson01_Dev_Workflow_and_Environment/Courseware/01_课件/01_Vibe Coding AI编程范式与快速上手实践.pptx)
-  - 🎨 **Excalidraw Source File**: [01_课件/01_Vibe Coding AI编程范式与快速上手实践.excalidraw](https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/Stage1_AI_Programming_Fundamentals/Lesson01_Dev_Workflow_and_Environment/Courseware/01_课件/01_Vibe Coding AI编程范式与快速上手实践.excalidraw)
+  - 📊 **PPT Slides**: [01_课件/01_Vibe Coding AI编程范式与快速上手实践.pptx](https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/Stage1_AI_Programming_Fundamentals/Lesson01_Dev_Workflow_and_Environment/Courseware/01_课件/01_Vibe%20Coding%20AI编程范式与快速上手实践.pptx)
+  - 🎨 **Excalidraw Source File**: [01_课件/01_Vibe Coding AI编程范式与快速上手实践.excalidraw](https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/Stage1_AI_Programming_Fundamentals/Lesson01_Dev_Workflow_and_Environment/Courseware/01_课件/01_Vibe%20Coding%20AI编程范式与快速上手实践.excalidraw)
   - 📝 **Live Collaboration Document**: [01_课件/260204直播协作文档.excalidraw](https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/Stage1_AI_Programming_Fundamentals/Lesson01_Dev_Workflow_and_Environment/Courseware/01_课件/260204直播协作文档.excalidraw)
 - **02_课程资料/** — 规划文档与补充资料
   - 📋 **Project Planning Documents**:
