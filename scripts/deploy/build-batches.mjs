@@ -19,6 +19,7 @@ const BATCHDIR = process.env.TB_BATCHDIR || path.join(DOCS, ".vitepress", "dist-
 const MAX_PAGES = Number(process.env.MAX_PAGES || 400);
 const HOST = process.env.DOCS_HOST || "aibook.faruheaisha.me";
 const NODE_OPTIONS = process.env.TB_NODE_OPTIONS || "--max-old-space-size=6144";
+const BATCH_START = Math.max(0, Number(process.env.BATCH_START || 0));
 
 function listCourses() {
   const out = [];
@@ -50,7 +51,10 @@ for (const c of all) {
   curPages += c.pages;
 }
 if (cur.length) batches.push(cur);
-// 试跑用：BATCH_LIMIT=1 只跑第一批，验证管道通了再跑全量。
+// 试跑/流式部署：BATCH_START 选择起始批次，BATCH_LIMIT 控制本次批次数。
+// 批次编号从 0 开始，便于外部脚本逐批构建后立即上传并清理本地产物。
+const batchStart = Math.min(BATCH_START, batches.length);
+if (batchStart) batches.splice(0, batchStart);
 if (process.env.BATCH_LIMIT) batches.length = Math.min(batches.length, Number(process.env.BATCH_LIMIT));
 console.log("批次数", batches.length, batches.map((b) => b.reduce((s, x) => s + x.pages, 0)).join(" / "));
 
