@@ -18,6 +18,7 @@ const DIST = process.env.TB_DIST || path.join(DOCS, ".vitepress", "dist");
 const BATCHDIR = process.env.TB_BATCHDIR || path.join(DOCS, ".vitepress", "dist-batch");
 const MAX_PAGES = Number(process.env.MAX_PAGES || 400);
 const HOST = process.env.DOCS_HOST || "aibook.faruheaisha.me";
+const NODE_OPTIONS = process.env.TB_NODE_OPTIONS || "--max-old-space-size=6144";
 
 function listCourses() {
   const out = [];
@@ -114,7 +115,7 @@ for (let i = 0; i < batches.length; i++) {
       stdio: ["ignore", "inherit", "inherit"],
       shell: true,
       env: Object.assign({}, process.env, {
-        NODE_OPTIONS: "--max-old-space-size=6144",
+        NODE_OPTIONS,
         DOCS_HOST: HOST,
         TB_BATCH_BUILD: "1",
         // 产物目录走环境变量：路径里有空格，命令行参数会被 shell 拆开（曾把产物写进 E:\claude）。
