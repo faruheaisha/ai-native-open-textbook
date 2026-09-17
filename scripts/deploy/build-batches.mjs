@@ -53,12 +53,33 @@ function listCourses() {
 const unitKey = (c) => `${c.vol}/${c.course}${c.slice == null ? "" : `#${c.slice}`}`;
 
 const all = listCourses();
-console.log("课程目录", all.length, "页数合计", all.reduce((s, x) => s + x.pages, 0));
+const wantedVolumes = process.env.TB_BUILD_ONLY
+  ? new Set(process.env.TB_BUILD_ONLY.split(",").map((x) => x.trim()).filter(Boolean))
+  : null;
+const wantedCourses = process.env.TB_COURSES
+  ? new Set(process.env.TB_COURSES.split(",").map((x) => x.trim()).filter(Boolean))
+  : null;
+const selected = all.filter((c) => {
+  if (wantedVolumes && !wantedVolumes.has(c.vol)) return false;
+  if (wantedCourses && !wantedCourses.has(`${c.vol}/${c.course}`)) return false;
+  return true;
+});
+console.log(
+  "课程目录",
+  all.length,
+  "门；本次选择",
+  selected.length,
+  "门；页数合计",
+  selected.reduce((s, x) => s + x.pages, 0),
+);
+if ((wantedVolumes || wantedCourses) && selected.length === 0) {
+  throw new Error("筛选条件没有匹配到课程，请检查 TB_BUILD_ONLY / TB_COURSES");
+}
 
 const batches = [];
 let cur = [];
 let curPages = 0;
-for (const c of all) {
+for (const c of selected) {
   if (curPages + c.pages > MAX_PAGES && cur.length) {
     batches.push(cur);
     cur = [];
