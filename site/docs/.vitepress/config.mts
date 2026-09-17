@@ -45,6 +45,9 @@ const origin = `https://${HOST.replace(/^https?:\/\//, '')}`
 const mirrorBuildRoot = path
   .join(path.dirname(fileURLToPath(import.meta.url)), '..', 'public', '.mirror-build-stash')
   .replaceAll('\\', '/')
+const workbuddyBuildRoot = path
+  .join(path.dirname(fileURLToPath(import.meta.url)), '..', 'public', 'workbuddy-harness')
+  .replaceAll('\\', '/')
 
 // 侧栏由目录自动生成：新增一门课不必改配置。
 const sidebar: DefaultTheme.SidebarMulti = {}
@@ -99,7 +102,12 @@ export default defineConfig({
     publicDir: process.env.TB_SKIP_MIRROR === '1' ? false : undefined,
     resolve:
       process.env.TB_SKIP_MIRROR === '1'
-        ? { alias: [{ find: /^\/mirror\//, replacement: `${mirrorBuildRoot}/` }] }
+        ? {
+            alias: [
+              { find: /^\/mirror\//, replacement: `${mirrorBuildRoot}/` },
+              { find: /^\/workbuddy-harness\//, replacement: `${workbuddyBuildRoot}/` },
+            ],
+          }
         : undefined,
   },
   // 原始课程归档是静态下载资源，不是 VitePress 页面。否则其中的 Markdown
