@@ -4,7 +4,7 @@
 // 一批只留一部分课程在 docs/lib 下（其余临时挪走），构建完再合并产物。
 //
 // 用法：node scripts/deploy/build-batches.mjs
-//   MAX_PAGES=400    单批页数上限（按页数与历史体量估算，避免 6GB 堆溢出）
+//   MAX_PAGES=200    单批页数上限（按页数与历史体量估算，避免 esbuild 原生内存溢出）
 import fs from "node:fs";
 import path from "node:path";
 import { spawnSync } from "node:child_process";
@@ -16,7 +16,7 @@ const STASH = path.join(ROOT, "site", ".batch-stash");
 // E 盘只剩 1GB，整站产物 5GB 起步，构建直接 ENOSPC。产物目录可以用环境变量指到别的盘。
 const DIST = process.env.TB_DIST || path.join(DOCS, ".vitepress", "dist");
 const BATCHDIR = process.env.TB_BATCHDIR || path.join(DOCS, ".vitepress", "dist-batch");
-const MAX_PAGES = Number(process.env.MAX_PAGES || 400);
+const MAX_PAGES = Number(process.env.MAX_PAGES || 200);
 const HOST = process.env.DOCS_HOST || "aibook.faruheaisha.me";
 const NODE_OPTIONS = process.env.TB_NODE_OPTIONS || "--max-old-space-size=6144";
 const BATCH_START = Math.max(0, Number(process.env.BATCH_START || 0));
@@ -81,7 +81,7 @@ function stash(list, to) {
   // 报 ENOENT 之外还把 94 门课留在了暂存区。
   for (const c of list) {
     if (c.files) {
-      const sliceRoot = path.join(to ? STASH : LIB, c.vol, c.course, `.slice-${c.slice}`);
+      const sliceRoot = path.join(STASH, c.vol, c.course, `.slice-${c.slice}`);
       if (to) {
         fs.mkdirSync(sliceRoot, { recursive: true });
         for (const file of c.files) fs.renameSync(path.join(c.dir, file), path.join(sliceRoot, file));
