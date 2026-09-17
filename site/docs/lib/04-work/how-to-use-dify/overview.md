@@ -9,6 +9,11 @@ tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/hijasonxu1/How-to-use-dify"
 entryUrl: "https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/04-work/how-to-use-dify/README.md"
+sourceSha256: "03c883ab19ec55268e05a9ed6adc0f50069dc6171bb283d2720c570aa744b4bc"
+pageSha256: "03c883ab19ec55268e05a9ed6adc0f50069dc6171bb283d2720c570aa744b4bc"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -80,29 +85,29 @@ zh: ""
 | [速查表](https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/cheatsheets/README.md) | 已经在使用 Dify 的人 | 应用类型、节点、RAG、发布检查清单 |
 | [模板库](https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/templates/README.md) | 想快速启动的人 | Prompt、知识库说明、工作流设计模板 |
 | [练习题](https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/exercises/README.md) | 想真正练会的人 | 从新手到进阶的任务练习 |
-| [排错指南](https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/docs/troubleshooting.md) | 遇到问题的人 | 常见故障定位路径 |
+| [排错指南](/lib/04-work/how-to-use-dify/docs-troubleshooting) | 遇到问题的人 | 常见故障定位路径 |
 
 ## 推荐学习路线
 
 ### 路线 A：零基础入门
 
 1. 读 [START_HERE.md](https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/START_HERE.md)。
-2. 完成 [练习 01：个人助手](https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/exercises/01-build-personal-assistant.md)。
+2. 完成 [练习 01：个人助手](/lib/04-work/how-to-use-dify/exercises-01-build-personal-assistant)。
 3. 学习应用类型选择：[docs/chapters/02-应用类型选择.md](/lib/04-work/how-to-use-dify/docs-chapters-02-应用类型选择)。
 4. 做一个简单 Chatflow：[docs/chapters/04-chatflow-对话流.md](/lib/04-work/how-to-use-dify/docs-chapters-04-chatflow-对话流)。
 
 ### 路线 B：知识库问答
 
 1. 学习 [docs/chapters/06-知识库-rag.md](/lib/04-work/how-to-use-dify/docs-chapters-06-知识库-rag)。
-2. 使用 [templates/knowledge-base-description-template.md](https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/templates/knowledge-base-description-template.md) 写知识库说明。
-3. 完成 [练习 02：企业 FAQ 知识库](https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/exercises/02-build-faq-rag.md)。
+2. 使用 [templates/knowledge-base-description-template.md](/lib/04-work/how-to-use-dify/templates-knowledge-base-description-template) 写知识库说明。
+3. 完成 [练习 02：企业 FAQ 知识库](/lib/04-work/how-to-use-dify/exercises-02-build-faq-rag)。
 4. 对照 [cheatsheets/rag-checklist.md](/lib/04-work/how-to-use-dify/cheatsheets-rag-checklist) 调试召回效果。
 
 ### 路线 C：工作流自动化
 
 1. 学习 [docs/chapters/07-workflow-工作流.md](/lib/04-work/how-to-use-dify/docs-chapters-07-workflow-工作流)。
-2. 使用 [templates/workflow-design-template.md](https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/templates/workflow-design-template.md) 设计节点。
-3. 完成 [练习 03：内容改写工作流](https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/exercises/03-content-workflow.md)。
+2. 使用 [templates/workflow-design-template.md](/lib/04-work/how-to-use-dify/templates-workflow-design-template) 设计节点。
+3. 完成 [练习 03：内容改写工作流](/lib/04-work/how-to-use-dify/exercises-03-content-workflow)。
 4. 学习 API 发布：[docs/chapters/10-api-发布和集成.md](/lib/04-work/how-to-use-dify/docs-chapters-10-api-发布和集成)。
 
 ### 路线 D：自部署和生产使用
@@ -114,11 +119,11 @@ zh: ""
 
 ## 当前内容
 
-- [docs/tutorial-plan.md](https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/docs/tutorial-plan.md)：完整学习大纲。
-- [docs/glossary.md](https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/docs/glossary.md)：Dify 常见术语解释。
-- [docs/project-standard.md](https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/docs/project-standard.md)：本仓库内容质量标准。
-- [docs/content-matrix.md](https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/docs/content-matrix.md)：后续扩展规划。
-- [docs/troubleshooting.md](https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/docs/troubleshooting.md)：常见问题排查。
+- [docs/tutorial-plan.md](/lib/04-work/how-to-use-dify/docs-tutorial-plan)：完整学习大纲。
+- [docs/glossary.md](/lib/04-work/how-to-use-dify/docs-glossary)：Dify 常见术语解释。
+- [docs/project-standard.md](/lib/04-work/how-to-use-dify/docs-project-standard)：本仓库内容质量标准。
+- [docs/content-matrix.md](/lib/04-work/how-to-use-dify/docs-content-matrix)：后续扩展规划。
+- [docs/troubleshooting.md](/lib/04-work/how-to-use-dify/docs-troubleshooting)：常见问题排查。
 - [docs/reference/official-links.md](/lib/04-work/how-to-use-dify/docs-reference-official-links)：官方资料入口。
 
 ## 本仓库使用的主要资料
@@ -149,8 +154,8 @@ zh: ""
 欢迎补充案例、修正过时内容、提交更好的模板。请先阅读：
 
 - [CONTRIBUTING.md](https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/CONTRIBUTING.md)
-- [docs/project-standard.md](https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/docs/project-standard.md)
-- [docs/content-matrix.md](https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/docs/content-matrix.md)
+- [docs/project-standard.md](/lib/04-work/how-to-use-dify/docs-project-standard)
+- [docs/content-matrix.md](/lib/04-work/how-to-use-dify/docs-content-matrix)
 
 ## 后续会补充
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/patchy631/ai-engineering-hub"
-entryUrl: "https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/README.md"
+entryUrl: "https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/acp-code/README.md"
+sourceRel: "acp-code/README.md"
+rawUrl: "/raw/10-context-memory/ai-engineering-hub/acp-code/README.md"
+sourceSha256: "d8beb3252412f0dbd629ca6306fa458f01644a16418575e4e74b7e26829d82df"
+pageSha256: "d8beb3252412f0dbd629ca6306fa458f01644a16418575e4e74b7e26829d82df"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -5,6 +5,7 @@ import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { volumes } from './generated/catalog'
 import { SITE } from './generated/site'
 import HomeHeroStats from './HomeHeroStats.vue'
+import { resetMermaid, setupMermaid } from './mermaid'
 
 const { Layout: BaseLayout } = DefaultTheme
 const { frontmatter, page } = useData()
@@ -391,6 +392,7 @@ onMounted(() => {
   });
   setupHome();
   bindReader();
+  setupMermaid();
   saveLast(String(page.value.relativePath || ''))
   document.addEventListener('pointerdown', onPointerDown, true)
   document.addEventListener('click', onDocClick)
@@ -401,11 +403,13 @@ watch(
   () => page.value.relativePath,
   (p) => {
     saveLast(String(p || ''))
+    resetMermaid()
     window.requestAnimationFrame(() => {
       setupHome()
       onScroll()
       markLanding()
       refreshTables()
+      setupMermaid()
     })
   }
 )
@@ -512,6 +516,7 @@ onBeforeUnmount(() => {
             {{ zhOn ? '隐藏中文释义' : '显示中文释义' }}
           </button>
           <a v-if="frontmatter.entryUrl" class="tb-sourcebar__link" :href="frontmatter.entryUrl" target="_blank" rel="noreferrer">原文 ↗</a>
+          <a v-if="frontmatter.rawUrl" class="tb-sourcebar__link" :href="withBase(frontmatter.rawUrl)" target="_blank" rel="noreferrer">原件 ↓</a>
           <a v-if="frontmatter.sourceUrl" class="tb-sourcebar__link" :href="frontmatter.sourceUrl" target="_blank" rel="noreferrer">仓库 ↗</a>
         </div>
       </template>

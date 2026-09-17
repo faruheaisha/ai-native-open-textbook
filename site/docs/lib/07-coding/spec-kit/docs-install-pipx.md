@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/github/spec-kit"
-entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/README.md"
+entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/docs/install/pipx.md"
+sourceRel: "docs/install/pipx.md"
+rawUrl: "/raw/07-coding/spec-kit/docs/install/pipx.md"
+sourceSha256: "845f76bb308861871ce4608a7fa9dea58fe2e4adbb68d1379c5d4834ecb2e0f2"
+pageSha256: "845f76bb308861871ce4608a7fa9dea58fe2e4adbb68d1379c5d4834ecb2e0f2"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -49,4 +54,4 @@ pipx uninstall specify-cli
 
 ## Next steps
 
-Head to the [Quick Start](https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/docs/quickstart.md) to initialize your first project.
+Head to the [Quick Start](/lib/07-coding/spec-kit/docs-quickstart) to initialize your first project.

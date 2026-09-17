@@ -9,6 +9,11 @@ tier: 2
 volume: "04-work"
 sourceUrl: "https://github.com/tangshiyegit/agent-guide"
 entryUrl: "https://github.com/tangshiyegit/agent-guide/blob/ae8b2262e7a1e5bd0d466037c6ad9f6037b72c33/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/04-work/agent-guide-office/README.md"
+sourceSha256: "6e94517a61c642458d8b57dba4b63d7ae93858bc826859a88d4129cc0134b3a8"
+pageSha256: "6e94517a61c642458d8b57dba4b63d7ae93858bc826859a88d4129cc0134b3a8"
+contentMode: "local-full"
 zh: ""
 ---
 

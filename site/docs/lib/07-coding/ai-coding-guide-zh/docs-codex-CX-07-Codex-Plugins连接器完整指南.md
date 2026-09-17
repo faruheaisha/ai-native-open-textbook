@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh"
-entryUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/README.md"
+entryUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/docs/codex/CX-07-Codex-Plugins连接器完整指南.md"
+sourceRel: "docs/codex/CX-07-Codex-Plugins连接器完整指南.md"
+rawUrl: "/raw/07-coding/ai-coding-guide-zh/docs/codex/CX-07-Codex-Plugins连接器完整指南.md"
+sourceSha256: "57424fc041ebd57a4acb076112efa44c9a58e9fb05bfcb2a3c7103839a7e02d1"
+pageSha256: "57424fc041ebd57a4acb076112efa44c9a58e9fb05bfcb2a3c7103839a7e02d1"
+contentMode: "local-full"
 zh: ""
 ---
 

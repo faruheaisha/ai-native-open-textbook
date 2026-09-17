@@ -1,0 +1,219 @@
+---
+title: "Local Document Organizer"
+sourceId: "08-agents/agent-systems-handbook"
+sourceTitle: "Agent Systems Handbook（智能体系统手册）"
+sourceKind: "工程手册"
+licenseLabel: "限非商用"
+lang: "英文"
+tier: 1
+volume: "08-agents"
+sourceUrl: "https://github.com/Prompthon-IO/agent-systems-handbook"
+entryUrl: "https://github.com/Prompthon-IO/agent-systems-handbook/blob/5b71cfa598701a34834f33b42be5f8a422138a3c/skills/local-document-organizer/README.md"
+sourceRel: "skills/local-document-organizer/README.md"
+rawUrl: "/raw/08-agents/agent-systems-handbook/skills/local-document-organizer/README.md"
+sourceSha256: "125d53772bc33060651a0d48ffaed6815522dd726c438d99d19328ea0e657e2f"
+pageSha256: "125d53772bc33060651a0d48ffaed6815522dd726c438d99d19328ea0e657e2f"
+contentMode: "local-full"
+zh: ""
+---
+
+# Local Document Organizer
+
+## Why This Skill Exists
+
+This package is a Practitioner-facing example of a safety-sensitive local
+filesystem workflow.
+
+"Organize my Downloads" sounds trivial, but as soon as the agent starts
+moving files, it becomes one of the easier ways to lose work: a wrong
+classification, a silent overwrite, or a missing undo path can turn a
+helpful action into a recovery problem. The package shows how a Codex skill
+can do the useful thing while keeping the user in control.
+
+The pattern is intentionally cautious:
+
+- preview before any move
+- explicit confirmation token, not inferred consent
+- never delete, never overwrite
+- low-confidence files default to staying put
+- every applied move is logged with enough information to reverse it
+
+## Who It Is For
+
+This skill is for students, contributors, and operators who want to see what
+a real Codex-compatible local workflow looks like when filesystem safety
+matters and the user expects to be able to undo an action they did not love.
+
+It is most useful for requests such as:
+
+- propose a folder structure for a messy Downloads folder
+- sort invoices, receipts, tax forms, and school documents into named
+  subfolders
+- preview what would happen before any file is touched
+- reverse a previous organization run
+
+## A Simple Mental Model
+
+Think of the workflow as three separate steps:
+
+1. **Scan means looking and proposing.** The user names a folder. The skill
+   checks its files and writes a readable preview plus a JSON plan. Nothing
+   moves during a scan.
+2. **Apply means carrying out only the reviewed plan.** After explicit
+   approval with `--confirm ORGANIZE`, the skill creates category folders,
+   performs the eligible moves, and records what happened. Conflicts and
+   permission errors stay visible instead of being hidden.
+3. **Undo means reversing recorded moves.** The skill reads the action log
+   and restores only files that were successfully moved. It still refuses
+   to overwrite anything.
+
+The agent surfaces the report, the plan, the action log path, and the
+results. The user owns the decision to apply and the decision to undo.
+
+## Beginner Terminology
+
+| Term | Plain-language meaning |
+| --- | --- |
+| Preview | A readable description of the moves the skill proposes. A preview does not move files. |
+| Plan | The saved JSON record of proposed source and destination paths that `apply` can review and use. |
+| Confidence | The strength assigned by the matching rule. Low confidence normally means the file stays where it is. |
+| Approval | The user's explicit permission to apply a reviewed plan, given with the required `ORGANIZE` confirmation token. |
+| SHA-256 / hash | A fingerprint of a file's contents. The skill uses it to notice when a file has changed since the plan was created. |
+| Journal / action log | A durable record of attempted moves and their results. It provides the evidence needed for recovery. |
+| Conflict | A move that cannot safely happen, often because a file with the same name already exists at the destination. The existing file is not overwritten. |
+| Undo | A recovery operation that uses the action log to reverse moves that actually succeeded. |
+
+## What The Package Actually Does
+
+This skill organizes files with readable filename keywords and file
+extensions. It does not understand, interpret, or summarize the knowledge
+inside a document. That is a different kind of task.
+
+- Reads classification rules from a small CSV (extension and filename
+  keyword matches with confidence scores).
+- Walks the user-named folder, classifies each file in CSV order with
+  first-match-wins semantics, and produces a deterministic plan.
+- Writes a Markdown preview that groups proposed moves by category and
+  surfaces skipped or low-confidence files.
+- Executes only the moves the user has approved with the `ORGANIZE` confirm
+  token.
+- Persists run state in
+  `~/.codex/state/local-document-organizer/organizer.sqlite` so past runs
+  remain inspectable across sessions.
+- Provides an undo command that reverses recorded moves without overwriting.
+
+## What It Does Not Do
+
+This package does not:
+
+- delete files (no `unlink`, no `rmtree`)
+- overwrite files (destination collisions are skipped)
+- act on `/`, `/System`, `/Library`, `~/Library`, `~/.ssh`, `~/.gnupg`,
+  `~/.aws`, or the home directory itself
+- move low-confidence or unmatched files unless the user explicitly opts in
+  with `--include-low-confidence`
+- send any data to external services
+
+## How To Read It In The Handbook
+
+Treat this package as a Practitioner example of a destructive-looking
+workflow that stays reversible:
+
+- `README.md` explains the human story and the three-phase boundary
+- `SKILL.md` is the invocation contract for Codex
+- `scripts/local_document_organizer.py` implements the deterministic helper
+- `references/classification-rules.csv` holds the readable category rules
+- `references/safety-rules.md` documents the hard prohibitions and skip
+  semantics
+
+If you are a student reading the repo, the main lessons are:
+
+1. preview-first is not a courtesy, it is a safety property
+2. an explicit confirmation token (`ORGANIZE`) is harder to grant by
+   accident than a free-form "yes"
+3. an action log is the difference between a regret and a recovery
+
+## Three Progressive Learning Examples
+
+Each example uses independent synthetic course files. Run its generation
+command once from the repository root. The command refuses to replace an
+existing output folder.
+
+### Student files
+
+Preview how an invoice, school reading, and internship resume are classified
+while an unknown file stays in place.
+
+```bash
+python3 skills/course-support/scripts/seed_demo.py --scenario organizer-student-files
+```
+
+### Freelancer rules
+
+Observe that meeting notes initially go to `Notes`. Add a readable
+`Meetings` filename rule, make a fresh preview, and compare the proposed
+destinations before applying anything.
+
+```bash
+python3 skills/course-support/scripts/seed_demo.py --scenario organizer-freelancer-rules
+```
+
+### Safe recovery
+
+Approve the eligible moves and observe that an existing same-name invoice
+is protected from overwrite. Inspect the partial result, then undo the moves
+that succeeded.
+
+```bash
+python3 skills/course-support/scripts/seed_demo.py --scenario organizer-safe-recovery
+```
+
+The [Lesson 2 teaching guide](/lib/08-agents/agent-systems-handbook/skills-course-support-lessons-lesson-2) contains
+the detailed command-by-command exercises. This README keeps the mental
+model and safety boundaries close at hand.
+
+## Professional AI Agent Course: Organize
+
+### What you will learn
+
+Classify and safely relocate local files, with preview, approval and undo. Do not synthesize their knowledge.
+
+### Prerequisites
+
+Use Python 3.10+, a fork/clone opened in Codex, and the [shared course setup](/lib/08-agents/agent-systems-handbook/skills-course-support). Run from the repository root. Seed the synthetic Lesson 2 files once; choose a fresh output directory if they already exist. PDF extraction optionally requires `pypdf`; TXT/Markdown/DOCX need no extra package.
+
+### 5-minute quick start
+
+```bash
+python3 skills/course-support/scripts/seed_demo.py
+python3 skills/local-document-organizer/scripts/course_organizer.py scan --folder .local-state/course-demo/lesson-2/incoming
+```
+
+Sample prompt:
+
+```text
+Use $local-document-organizer to preview the synthetic incoming folder, explain every move, and wait for my approval.
+```
+
+### Expected result
+
+The preview proposes an invoice and a school document; the unknown extension stays in place. The output contains a plan path, SHA-256 fingerprint and a canonical run id. No source file has moved. These are examples, not recorded production results.
+
+### 20–30 minute classroom exercise
+
+Follow the [Lesson 2 teaching guide](/lib/08-agents/agent-systems-handbook/skills-course-support-lessons-lesson-2)
+for the full exercise. It covers reviewing the plan and report, approving
+moves, inspecting the action journal, undoing a run, and comparing hashes
+to prove restoration. Command shorthand such as `course_organizer.py`
+resolves to this package's `scripts/` directory.
+
+### What to modify
+
+Edit `references/classification-rules.csv` to classify one extra synthetic extension; scan again. Compare proposed categories before applying. Never edit a generated approved plan. Edit the canonical package, rerun course setup, and commit only source changes to your fork.
+
+### How to verify persistence
+
+All course commands accept the shared storage flags before the subcommand. Start locally, then use `--storage prompthon` only after the Web App owner provisions the contract and scoped course access.
+
+```bash
+python3 skills/course-support/scripts/course_store.py runs --skill local-document-organizer

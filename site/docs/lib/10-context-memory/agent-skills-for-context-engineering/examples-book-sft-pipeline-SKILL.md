@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering"
-entryUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/README.md"
+entryUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/examples/book-sft-pipeline/SKILL.md"
+sourceRel: "examples/book-sft-pipeline/SKILL.md"
+rawUrl: "/raw/10-context-memory/agent-skills-for-context-engineering/examples/book-sft-pipeline/SKILL.md"
+sourceSha256: "4079f17b32dda83df535f3656f403a2220329c420fe4a4ddaf2aaccb4b585c95"
+pageSha256: "4079f17b32dda83df535f3656f403a2220329c420fe4a4ddaf2aaccb4b585c95"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -375,7 +380,7 @@ Related skills from Agent Skills for Context Engineering:
 External resources:
 - [Research Paper](https://arxiv.org/pdf/2510.13939) - Chakrabarty et al. 2025
 - [Dataset on Hugging Face](https://huggingface.co/datasets/MuratcanKoylan/gertrude-stein-style-sft)
-- [Gertrude Stein Case Study](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/examples/book-sft-pipeline/examples/gertrude-stein/README.md) - Complete working example
+- [Gertrude Stein Case Study](/lib/10-context-memory/agent-skills-for-context-engineering/examples-book-sft-pipeline-examples-gertrude-stein) - Complete working example
 
 ---
 

@@ -1,0 +1,118 @@
+---
+title: "Tool Capability Matrix"
+sourceId: "09-harness/claude-code-harness-chachamaru"
+sourceTitle: "Claude Code Harness"
+sourceKind: "工程手册"
+licenseLabel: "可转载"
+lang: "中英混排"
+tier: 3
+volume: "09-harness"
+sourceUrl: "https://github.com/Chachamaru127/claude-code-harness"
+entryUrl: "https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/docs/tool-capability-matrix.md"
+sourceRel: "docs/tool-capability-matrix.md"
+rawUrl: "/raw/09-harness/claude-code-harness-chachamaru/docs/tool-capability-matrix.md"
+sourceSha256: "a4f8850c43e2887cb3757c63123e57317bd2360e96688f4ccfede5d701db6e0e"
+pageSha256: "a4f8850c43e2887cb3757c63123e57317bd2360e96688f4ccfede5d701db6e0e"
+contentMode: "local-full"
+zh: ""
+---
+
+# Tool Capability Matrix
+
+Last updated: 2026-07-09 (Phase 111.0 pre_use SSOT sync)
+
+## Purpose
+
+This document defines the Phase 73 host capability matrix for Hokage Core
+extraction work. It is a contract document, not a marketing support matrix.
+
+The current support-tier scope is:
+
+| Host | Support tier | Claim boundary |
+|---|---|---|
+| Claude Code | `supported` | Public Claude-first support is allowed for the verified Claude Code path. |
+| Codex CLI | `supported` | Live H4 (2026-07-17) + H7 release-preflight fail-closed gate; 3cli Bash PreToolUse floor; CI-gated direct plugin marketplace/install smoke (isolated `CODEX_HOME`); app behavior and full Claude hook parity are not implied. |
+| Codex app | `candidate` | App behavior must be proven separately from Codex CLI help output. |
+| OpenCode | `internal-compatible` | Existing mirror/package validation and Node-level bootstrap plugin checks can be described as internal compatibility; real OpenCode binary runtime bootstrap parity is not proven. |
+| Cursor | `supported` | Live H4 (2026-07-17) + H7 release-preflight fail-closed gate; dist + setup-cursor + workflow smoke; **no FS jail** — containment is harness-side (`docs/CURSOR_INTEGRATION.md`). |
+| Grok | `supported` | Live H4 (2026-07-17) + H7 release-preflight fail-closed gate; setup-grok + structural workflow smoke + hookcodec HostGrok Claude-envelope PreToolUse floor; not full Claude SessionStart / PreToolUse parity. |
+| Hermes Agent | `candidate` | Manual symlink research route and local dynamic slash discovery only; no setup script, host dist, routing model, runtime floor parity, or public support claim. |
+| GitHub Copilot CLI | `candidate` | Candidate adapter only; Superpowers evidence and official docs are not Harness bootstrap proof. |
+| Antigravity CLI | `future/unsupported` | No public setup, README support, or release claim until an official or verified route plus local bootstrap smoke exists. |
+
+`not_observed != absent` applies to every host. Missing local runtime evidence
+is `not observed` until the relevant source of truth is checked. It is not a
+license to promote the host to supported.
+
+## False Parity Rule
+
+False parity is forbidden.
+
+The same capability name does not mean the same enforcement strength. Claude
+Code can stop many actions at runtime through PreToolUse across multiple tool
+types. Codex CLI and Cursor also route into the shared `bin/harness hook
+pre-tool` floor (3cli hook floor), but **coverage and containment differ**:
+Codex hooks are Bash-only; Cursor can deny tools yet has no traditional FS jail
+and treat allowlists as best-effort. OpenCode is currently a packaging and instruction surface with Node-level bootstrap validation, not proof of runtime
+guard parity. Grok is not a 3cli floor member. Candidate hosts do not inherit the safety or
+bootstrap claims of supported hosts. See
+`docs/hardening-parity.md` and `docs/research/3cli-hook-floor-contract-2026-06.md`.
+Hermes Agent remains `candidate`: local skill discovery does not prove runtime
+workflow parity or Harness safety parity.
+
+## Capability Status
+
+| Capability | Core meaning | Claude Code | Codex CLI | OpenCode | Cursor | Grok |
+|---|---|---|---|---|---|---|
+| `skill_loading` | Host can discover and load workflow skills. | Supported through the Claude plugin `skills/` surface. | Supported through `codex/.codex/skills/` and project/user skill loading. | Partial through `opencode/skills/` mirror packaging. | Partial through `.cursor-plugin/plugin.json` → `skills/` and Cursor Skills surface; runtime load not proven until workflow smoke passes. | Partial through `.grok-plugin/plugin.json` → `skills/` and `setup-grok` install; `grok inspect` discovery observed; workflow smoke not proven. |
+| `bootstrap_notice` | Host can load startup guidance or prove the guidance surface exists. | Supported through Claude SessionStart guidance, plugin instructions, and root `CLAUDE.md`. | Supported through `codex/AGENTS.md`; no SessionStart hook parity claim. | Partial through `opencode/AGENTS.md`; no SessionStart hook parity claim. | Partial through `.cursor/AGENTS.md`, `.cursor/rules/`, optional hooks config shape; no SessionStart parity claim. | Partial through `.grok/AGENTS.md` and project rules; no SessionStart parity claim. |
+| `prompt_routing` | Host can map user intent to a workflow. | Supported through slash commands, skill triggers, and SessionStart guidance. | Partial through explicit `$skill` invocation and `AGENTS.md` routing guidance. | Partial through `AGENTS.md` routing guidance and mirrored skill names. | Partial through AGENTS guidance + skill triggers; static contract only until runtime smoke. | Partial through AGENTS guidance + skill triggers; static contract only until workflow smoke. |
+| `pre_use_guard` | Host can block risky actions before execution. | Supported through PreToolUse / permission boundaries (multi-tool). | Partial: 3cli PreToolUse → shared runtime floor for **Bash** only (exit 2); non-Bash not hard-denied on hook path; still uses post quality + merge gate + fingerprint. Not Claude full-tool parity. | Unsupported for parity; instructions can warn, but no first-class pre-use guard is claimed. | Partial: project `preToolUse` can live-deny (Phase 83.7 verified) via `harness hook pre-tool --host cursor`; fail-open on non-exit-2; **no FS jail**; allowlist is best-effort. Not Claude full containment parity. | Unsupported for parity; Grok hooks exist as a host surface but Harness PreToolUse deny / 3cli floor membership is not claimed. |
+| `post_use_gate` | Host can inspect outputs after execution. | Supported through PostToolUse and review workflow checks. | Supported through post quality gate checks before merge. | Partial through package validation and release preflight checks. | Partial through review workflow guidance; no hook parity claim. | Partial through review workflow guidance; no hook parity claim. |
+| `review_artifact` | Host can produce structured review evidence. | Supported through harness-review and Claude-side review artifacts. | Supported through `scripts/codex-companion.sh review --base` and schema-backed review output. | Partial/static only; OpenCode package validation is not equivalent to an independent reviewer. | Partial/static only; reviewer subagent + harness-review skill guidance, not proven independent review loop. | Partial/static only; harness-review skill guidance after plugin install, not proven independent review loop. |
+| `memory_bridge` | Host can use a controlled memory surface. | Supported when Agent Memory / harness-mem wiring is configured. | Partial through `AGENTS.md` guidance and harness-mem bridge configuration. | Future/unsupported for runtime memory bridge parity. | Future/unsupported until MCP/harness-mem wiring is smoke-proven for Cursor. | Future/unsupported until MCP/harness-mem wiring is smoke-proven for Grok. |
+
+## Candidate And Unsupported Host Boundaries
+
+| Host | Phase 73 status | Allowed wording | Blocked wording |
+|---|---|---|
+| Codex app | `candidate` | app-specific candidate or research gate | blocked: supported, same as Codex CLI |
+| Cursor | `supported` | adapter route, handoff integration, setup-cursor install, workflow smoke, harness-side containment disclosure | blocked: identical Claude FS jail / full-tool parity |
+| Grok | `supported` | setup-grok install, workflow smoke, inspect discovery, HostGrok Claude-envelope PreToolUse floor | blocked: full Claude SessionStart / PreToolUse parity |
+| Hermes Agent | `candidate` | manual symlink research route, local dynamic slash command discovery | blocked: supported Hermes adapter |
+| GitHub Copilot CLI | `candidate` | adapter candidate, CLI capability investigation | blocked: supported Copilot adapter |
+| Antigravity CLI | `future/unsupported` | future scope, unsupported public claim, not observed | blocked: supported Antigravity adapter |
+
+## Validation Requirements
+
+The matrix is valid only when all of the following stay true:
+
+- All required capability names are present exactly as code-formatted labels.
+- Claude Code, Codex CLI, Cursor, and Grok are `supported` on their verified claim paths (H8 pin).
+- OpenCode is `internal-compatible`.
+- Cursor public `supported` retains **no FS jail** — containment is harness-side.
+- Grok public `supported` retains Claude-envelope PreToolUse floor — not full Claude hook parity.
+- Hermes Agent is `candidate` with manual symlink research evidence only.
+- Codex app and GitHub Copilot CLI are `candidate`.
+- Antigravity CLI is `future/unsupported` for public claim.
+- Codex CLI runtime evidence includes direct plugin marketplace/install smoke
+  in an isolated `CODEX_HOME` plus Bash-only 3cli pre-tool floor; non-Bash
+  gaps stay disclosed.
+- OpenCode runtime evidence remains Node-level bootstrap validation unless a
+  real binary smoke is observed.
+- The Codex safety model is **hook floor (Bash) + contract injection + post quality gate + merge gate + fingerprint**, not "instructions only".
+- Any public support wording preserves the false parity rule.
+- Cursor adapter static smoke is limited to `tests/test-cursor-adapter-candidate.sh`
+  and `scripts/setup-cursor.sh --check` until CI-gated Desktop workflow smoke is
+  observed.
+- Cursor Breezing multitask mapping is a smoke target, not a public parity claim.
+- `scripts/setup-cursor.sh` must install a real directory under
+  `~/.cursor/plugins/local/` (symlink installs are rejected by Cursor).
+- Grok adapter static smoke is limited to `tests/test-grok-adapter-candidate.sh`
+  and `scripts/setup-grok.sh --check` until CI-gated workflow smoke is observed.
+- Grok Breezing multitask mapping is a smoke target, not a public parity claim.
+- `scripts/setup-grok.sh` builds a package-local dist (no `..` manifest paths)
+  and installs via `grok plugin install` or a real-directory copy under
+  `~/.grok/plugins/`.
+- Hermes Agent static smoke is limited to `tests/test-hermes-agent-candidate.sh`
+  until a clean-profile Hermes workflow smoke is observed.

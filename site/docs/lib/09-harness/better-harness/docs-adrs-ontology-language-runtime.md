@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/QoderAI/better-harness"
-entryUrl: "https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/README.md"
+entryUrl: "https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/adrs/ontology-language-runtime.md"
+sourceRel: "docs/adrs/ontology-language-runtime.md"
+rawUrl: "/raw/09-harness/better-harness/docs/adrs/ontology-language-runtime.md"
+sourceSha256: "622280cdb39d143498bd64561a827db8ce290314b16aaeb7c75e5710781b0796"
+pageSha256: "622280cdb39d143498bd64561a827db8ce290314b16aaeb7c75e5710781b0796"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -19,7 +24,7 @@ zh: ""
 - ADR ID: `ADR-0009`
 - Status: Proposed
 - Decision date: 2026-09-09
-- Spec: [Studio Ontology Language Runtime](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/specs/2026-09-09-studio-ontology-language-runtime.md)
+- Spec: [Studio Ontology Language Runtime](/lib/09-harness/better-harness/docs-specs-2026-09-09-studio-ontology-language-runtime)
 
 ## Context
 

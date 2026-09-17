@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh"
-entryUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/README.md"
+entryUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/certifications/claude/lessons/11-mcp-server-design-and-integration/docs/zh.md"
+sourceRel: "certifications/claude/lessons/11-mcp-server-design-and-integration/docs/zh.md"
+rawUrl: "/raw/07-coding/ai-engineering-from-scratch-zh/certifications/claude/lessons/11-mcp-server-design-and-integration/docs/zh.md"
+sourceSha256: "b84948921437b834e0370123da3cd2ae4664311789121c436222f89f87473246"
+pageSha256: "b84948921437b834e0370123da3cd2ae4664311789121c436222f89f87473246"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -274,7 +279,7 @@ input-required 结果至少包含以下之一：
 
 client 收集已批准的答案后重试原 method。重试必须使用新的 JSON-RPC ID，因为它是一个新请求。它包含 `inputResponses`，并原样回显 `requestState`。
 
-对于表单 elicitation，空的 `elicitation: {}` 能力表示隐式支持表单，<code v-pre>elicitation: {"form": {}}</code> 则明确声明它。仅声明 URL 不授权表单请求；server 应返回 `-32021`，并带上 `requiredCapabilities.elicitation.form`。
+对于表单 elicitation，空的 `elicitation: \{\}` 能力表示隐式支持表单，<code v-pre>elicitation: \{"form": \{}}</code> 则明确声明它。仅声明 URL 不授权表单请求；server 应返回 `-32021`，并带上 `requiredCapabilities.elicitation.form`。
 
 ```json
 {

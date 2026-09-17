@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/Osly-AI/PocketManus"
-entryUrl: "https://github.com/Osly-AI/PocketManus/blob/8ab0ec5f2d5dc17ff58b060af7afcda08a9f57fd/README.md"
+entryUrl: "https://github.com/Osly-AI/PocketManus/blob/8ab0ec5f2d5dc17ff58b060af7afcda08a9f57fd/PocketFlow/docs/design_pattern/multi_agent.md"
+sourceRel: "PocketFlow/docs/design_pattern/multi_agent.md"
+rawUrl: "/raw/08-agents/pocket-manus/PocketFlow/docs/design_pattern/multi_agent.md"
+sourceSha256: "4d11d36f4c29013708d0a2fbb4ef7d7f7d986354678a965939dd9d9dddb86fdb"
+pageSha256: "4d11d36f4c29013708d0a2fbb4ef7d7f7d986354678a965939dd9d9dddb86fdb"
+contentMode: "local-full"
 zh: ""
 ---
 

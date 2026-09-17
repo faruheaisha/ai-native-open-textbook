@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/shareAI-lab/learn-claude-code"
-entryUrl: "https://github.com/shareAI-lab/learn-claude-code/blob/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/README.md"
+entryUrl: "https://github.com/shareAI-lab/learn-claude-code/blob/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/docs/en/s12-worktree-task-isolation.md"
+sourceRel: "docs/en/s12-worktree-task-isolation.md"
+rawUrl: "/raw/09-harness/learn-claude-code/docs/en/s12-worktree-task-isolation.md"
+sourceSha256: "9ed217f22ef7862cb590463247471ae6860d299ada3201ae2b79b38296626909"
+pageSha256: "9ed217f22ef7862cb590463247471ae6860d299ada3201ae2b79b38296626909"
+contentMode: "local-full"
 zh: ""
 ---
 

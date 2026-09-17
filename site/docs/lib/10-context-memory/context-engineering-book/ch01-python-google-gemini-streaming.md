@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/bonigarcia/context-engineering"
-entryUrl: "https://github.com/bonigarcia/context-engineering/blob/46719154489e410b509db4fb69ab1c29fb3362a0/README.md"
+entryUrl: "https://github.com/bonigarcia/context-engineering/blob/46719154489e410b509db4fb69ab1c29fb3362a0/ch01/python/google-gemini-streaming/README.md"
+sourceRel: "ch01/python/google-gemini-streaming/README.md"
+rawUrl: "/raw/10-context-memory/context-engineering-book/ch01/python/google-gemini-streaming/README.md"
+sourceSha256: "e7f222668b98484dbf000e624b08a9036f89520ec9491e485a4a73cf052a40ee"
+pageSha256: "e7f222668b98484dbf000e624b08a9036f89520ec9491e485a4a73cf052a40ee"
+contentMode: "local-full"
 zh: ""
 ---
 

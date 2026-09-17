@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/openai/openai-cookbook"
-entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/README.md"
+entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/articles/gpt-oss/run-locally-ollama.md"
+sourceRel: "articles/gpt-oss/run-locally-ollama.md"
+rawUrl: "/raw/08-agents/openai-cookbook/articles/gpt-oss/run-locally-ollama.md"
+sourceSha256: "e87d89c914ad73164a7eee22c12b7593cf4d82b05969d83cd401f8351ffb4a3e"
+pageSha256: "e87d89c914ad73164a7eee22c12b7593cf4d82b05969d83cd401f8351ffb4a3e"
+contentMode: "local-full"
 zh: ""
 ---
 

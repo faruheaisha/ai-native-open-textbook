@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/AlephAITech/DoubaoWorkGuide"
-entryUrl: "https://github.com/AlephAITech/DoubaoWorkGuide/blob/ad7338e8fc889ec082cdfb3fa41fb659520c7174/01-初始豆包工作.md"
+entryUrl: "https://github.com/AlephAITech/DoubaoWorkGuide/blob/ad7338e8fc889ec082cdfb3fa41fb659520c7174/09-API%20服务和连接器，到底该怎么选？.md"
+sourceRel: "09-API 服务和连接器，到底该怎么选？.md"
+rawUrl: "/raw/04-work/doubaowork-bluebook/09-API 服务和连接器，到底该怎么选？.md"
+sourceSha256: "770d67163990e78fa63ab8147510513fd3eaba90595a49c8168285d2ab145ccc"
+pageSha256: "770d67163990e78fa63ab8147510513fd3eaba90595a49c8168285d2ab145ccc"
+contentMode: "local-full"
 zh: ""
 ---
 

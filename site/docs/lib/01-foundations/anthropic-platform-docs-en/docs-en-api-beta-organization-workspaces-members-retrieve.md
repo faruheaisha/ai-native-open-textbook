@@ -1,0 +1,87 @@
+---
+title: "Get Workspace Member"
+sourceId: "01-foundations/anthropic-platform-docs-en"
+sourceTitle: "Anthropic 平台文档（英文全量）"
+sourceKind: "官方文档"
+licenseLabel: "仅引用"
+lang: "英文"
+tier: 3
+volume: "01-foundations"
+sourceUrl: "https://platform.claude.com/docs"
+entryUrl: "https://platform.claude.com/docs"
+sourceRel: "docs/en/api/beta/organization/workspaces/members/retrieve.md"
+rawUrl: "/raw/01-foundations/anthropic-platform-docs-en/docs/en/api/beta/organization/workspaces/members/retrieve.md"
+sourceSha256: "8f0b2f2c2b062d1079cd40cc9881327960fe0beb0b4ed764f21c1f8f431dab18"
+pageSha256: "8f0b2f2c2b062d1079cd40cc9881327960fe0beb0b4ed764f21c1f8f431dab18"
+contentMode: "local-full"
+zh: ""
+---
+
+# Get Workspace Member
+
+**GET** `/v1/organizations/workspaces/\{workspace_id\}/members/\{user_id\}`
+
+Get Workspace Member
+
+## Path parameters
+
+- `workspace_id: string`
+
+  ID of the Workspace.
+
+- `user_id: string`
+
+  ID of the User.
+
+## Returns
+
+- `BetaWorkspaceMember object`
+
+  - `type: "workspace_member"`
+
+    Object type.
+
+    For Workspace Members, this is always `"workspace_member"`.
+
+    default: workspace_member
+
+  - `user_id: string`
+
+    ID of the User.
+
+  - `workspace_id: string`
+
+    ID of the Workspace.
+
+  - `workspace_role: BetaWorkspaceRole`
+
+    Role of the Workspace Member.
+
+    - `"workspace_admin"`
+
+    - `"workspace_billing"`
+
+    - `"workspace_developer"`
+
+    - `"workspace_restricted_developer"`
+
+    - `"workspace_user"`
+
+## Example
+
+```bash
+curl https://api.anthropic.com/v1/organizations/workspaces/$WORKSPACE_ID/members/$USER_ID \
+    -H 'anthropic-version: 2023-06-01' \
+    -H "X-Api-Key: $ANTHROPIC_API_KEY"
+```
+
+### Response (200)
+
+```json
+{
+  "type": "workspace_member",
+  "user_id": "user_01WCz1FkmYMm4gnmykNKUu3Q",
+  "workspace_id": "wrkspc_01JwQvzr7rXLA5AGx3HKfFUJ",
+  "workspace_role": "workspace_admin"
+}
+```

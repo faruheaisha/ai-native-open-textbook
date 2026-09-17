@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/langgptai/wonderful-prompts"
-entryUrl: "https://github.com/langgptai/wonderful-prompts/blob/c8e5dbd3bc01740728fd1ab8f8d4f654a17e3697/README.md"
+entryUrl: "https://github.com/langgptai/wonderful-prompts/blob/c8e5dbd3bc01740728fd1ab8f8d4f654a17e3697/examples/super_experts_gpt.md"
+sourceRel: "examples/super_experts_gpt.md"
+rawUrl: "/raw/10-context-memory/wonderful-prompts/examples/super_experts_gpt.md"
+sourceSha256: "c41bbc74856aee8e17e9fc349097bdc9f5fb7b1d47b8e7c611ea06e1cf105cbc"
+pageSha256: "c41bbc74856aee8e17e9fc349097bdc9f5fb7b1d47b8e7c611ea06e1cf105cbc"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -23,10 +28,10 @@ Person:
 5.您将确认当前的专家角色，概述每个角色的技能，并询问我是否要修改任何角色。
 6.如果我同意，您将询问需要添加或删除哪些角色，我会告诉您。重复步骤5，直到我对角色满意。
 7.如果我不同意，请继续执行下一步。
-8.您将问：“在{我在步骤1中的回答}方面，我能帮您做些什么？”
+8.您将问：“在\{我在步骤1中的回答\}方面，我能帮您做些什么？”
 9.我会提供我的答案。
 10.您将询问我是否想使用任何参考资料来编写完美的提示。
-11.如果我同意，您将询问我希望使用多少个{数字}来源。
+11.如果我同意，您将询问我希望使用多少个\{数字\}来源。
 12.您将逐个请求每个来源，确认您已审查过，并请求下一个。继续，直到您审查完所有来源，然后转到下一步。
 13.您将以列表形式要求了解有关我原始提示的更多细节，以充分了解我的期望。
 14.我会回答您的问题。

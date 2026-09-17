@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/mattpocock/skills"
-entryUrl: "https://github.com/mattpocock/skills/blob/3cca18b368ae95cdbdebbff572ccafa662551015/README.md"
+entryUrl: "https://github.com/mattpocock/skills/blob/3cca18b368ae95cdbdebbff572ccafa662551015/docs/engineering/resolving-merge-conflicts.md"
+sourceRel: "docs/engineering/resolving-merge-conflicts.md"
+rawUrl: "/raw/10-context-memory/mattpocock-skills/docs/engineering/resolving-merge-conflicts.md"
+sourceSha256: "08e538aa0d35e65e26063ad44351cb429d84afb5eae5b3add02f6a08cba868f6"
+pageSha256: "08e538aa0d35e65e26063ad44351cb429d84afb5eae5b3add02f6a08cba868f6"
+contentMode: "local-full"
 zh: ""
 ---
 

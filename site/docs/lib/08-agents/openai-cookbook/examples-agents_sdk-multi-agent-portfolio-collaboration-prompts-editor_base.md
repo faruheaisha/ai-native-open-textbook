@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/openai/openai-cookbook"
-entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/README.md"
+entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/examples/agents_sdk/multi-agent-portfolio-collaboration/prompts/editor_base.md"
+sourceRel: "examples/agents_sdk/multi-agent-portfolio-collaboration/prompts/editor_base.md"
+rawUrl: "/raw/08-agents/openai-cookbook/examples/agents_sdk/multi-agent-portfolio-collaboration/prompts/editor_base.md"
+sourceSha256: "140f666c0822e085c06112e246c0cc6ef58b90e7cdc66565ad8f6e33457f37c6"
+pageSha256: "140f666c0822e085c06112e246c0cc6ef58b90e7cdc66565ad8f6e33457f37c6"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -102,7 +107,7 @@ You will receive a structured dictionary with the following keys:
 5. **Deliver**
    - When the memo is complete and all files are present, save it using `write_markdown`.
    - **Close your memo with `END_OF_MEMO`.**
-   - Verify with `read_markdown`, and return `{ "file": "investment_report.md" }`.
+   - Verify with `read_markdown`, and return `\{ "file": "investment_report.md" \}`.
 
 ---
 
@@ -117,4 +122,4 @@ You will receive a structured dictionary with the following keys:
 1. Use `list_output_files` to get available files.
 2. Preview CSV files with `read_file` for `.csv` files.
 3. Save the memo using `write_markdown` to generate the investment_report, add relevant charts and tables rendered in markdown.
-4. Return `{ "file": "investment_report.md" }` JSON to the PM Agent (not the memo, just the file).
+4. Return `\{ "file": "investment_report.md" \}` JSON to the PM Agent (not the memo, just the file).

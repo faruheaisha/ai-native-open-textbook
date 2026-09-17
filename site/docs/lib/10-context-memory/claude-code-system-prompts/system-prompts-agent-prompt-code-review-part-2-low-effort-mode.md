@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/Piebald-AI/claude-code-system-prompts"
-entryUrl: "https://github.com/Piebald-AI/claude-code-system-prompts/blob/3af4c6139aaabb0470440961ca8c8fb871099234/README.md"
+entryUrl: "https://github.com/Piebald-AI/claude-code-system-prompts/blob/3af4c6139aaabb0470440961ca8c8fb871099234/system-prompts/agent-prompt-code-review-part-2-low-effort-mode.md"
+sourceRel: "system-prompts/agent-prompt-code-review-part-2-low-effort-mode.md"
+rawUrl: "/raw/10-context-memory/claude-code-system-prompts/system-prompts/agent-prompt-code-review-part-2-low-effort-mode.md"
+sourceSha256: "46c1440a6ad51cb24d62e584507c7b560ca3b4c4ca5fa5a0a911f5720097b631"
+pageSha256: "46c1440a6ad51cb24d62e584507c7b560ca3b4c4ca5fa5a0a911f5720097b631"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -18,7 +23,7 @@ zh: ""
 
 ## Turn 1 — read
 
-One tool call: read the unified diff (`git diff @{upstream}...HEAD; git diff HEAD`
+One tool call: read the unified diff (`git diff @\{upstream\}...HEAD; git diff HEAD`
 to cover both committed and uncommitted changes, or `git diff main...HEAD` /
 the target passed as an argument). Skip test/fixture
 hunks (`test/`, `spec/`, `__tests__/`, `*_test.*`, `*.test.*`,
@@ -38,12 +43,12 @@ Do **not** flag style, naming, perf, missing tests, or anything outside the
 hunk.
 
 ${HAS_REPORT_FINDINGS_TOOL?`Report at most **4 findings**, most-severe first, in one
-${REPORT_FINDINGS_TOOL_NAME} call with `{level, findings}` — each entry has
+${REPORT_FINDINGS_TOOL_NAME\} call with `\{level, findings\}` — each entry has
 `file`, `line`, `summary`, `short_summary` (≤60 characters), and
 `failure_scenario`. If nothing qualifies, call it with an empty findings
 array. Do not also print the findings as text.
 `:`Output at most **4 findings**, most-severe first, one line each:
 `path/to/file.ext:123 — what's wrong and the concrete failure`. If nothing
 qualifies, output exactly `(none)`. Do not call the
-${REPORT_FINDINGS_TOOL_NAME} tool even if it is available.
-`}
+$\{REPORT_FINDINGS_TOOL_NAME\} tool even if it is available.
+`\}

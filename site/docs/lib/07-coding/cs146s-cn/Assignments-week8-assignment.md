@@ -1,0 +1,86 @@
+---
+title: "第 8 周——多技术栈 AI 加速 Web 应用开发"
+sourceId: "07-coding/cs146s-cn"
+sourceTitle: "动手学 CS146S 中文版"
+sourceKind: "系统课程"
+licenseLabel: "可转载"
+lang: "中文"
+tier: 1
+volume: "07-coding"
+sourceUrl: "https://github.com/ShouZhengAI/CS146S_CN"
+entryUrl: "https://github.com/ShouZhengAI/CS146S_CN/blob/0d65f36f6673147d6c298670da4f9b4bd7f991fa/Assignments/week8/assignment.md"
+sourceRel: "Assignments/week8/assignment.md"
+rawUrl: "/raw/07-coding/cs146s-cn/Assignments/week8/assignment.md"
+sourceSha256: "3e81f60e703e9c8b85ac680a62a4cf5acd30f2fd5abd18b71f027966686b0114"
+pageSha256: "3e81f60e703e9c8b85ac680a62a4cf5acd30f2fd5abd18b71f027966686b0114"
+contentMode: "local-full"
+zh: ""
+---
+
+# 第 8 周——多技术栈 AI 加速 Web 应用开发
+
+## Demo Day 确认
+请访问此[表单](https://forms.gle/J3R3PSRqnFAJxhjG8)，了解课程 Demo Day 的详细信息。
+
+## 作业概述
+使用 3 种不同的技术栈构建功能相同的 Web 应用。其中至少一个版本必须使用 AI 应用生成平台 [`bolt.new`](https://bolt.new/) 创建。至少一个版本的前端或后端必须使用非 JavaScript 语言（例如 Django、Ruby on Rails）。
+
+你可以复用前几周的应用（“开发者控制中心”），也可以自行选择并创建一个新应用，只要它符合[最低功能范围](#最低功能范围)即可。该应用应具备完整的端到端功能（前端 + 后端 + 适用情况下的持久化），并展示一组连贯的功能。
+
+## 最低功能范围 
+- 用户可以对一种主要资源（例如笔记、任务、帖子）进行创建、读取、更新和删除（CRUD）操作。
+- 在适合相应技术栈的情况下使用持久化存储（数据库或基于文件的存储）。
+- 基本的输入验证与错误处理。
+- 简洁但功能完备的用户界面，能够呈现主要操作流程。
+- 清晰说明如何在本地运行每个版本（如果进行了部署，还需提供部署链接）。
+
+## 技术栈要求
+使用不同的技术栈分别构建同一应用的 3 个独立版本。示例：
+- MERN（MongoDB、Express、React、Node.js）
+- MEVN（MongoDB、Express、Vue.js、Node.js）
+- Django + React（或 Vue）
+- Flask + 原生 JavaScript（或 React）
+- Next.js + Node（或 NestJS）
+- Ruby on Rails（全栈）
+
+请注意，至少一个版本的前端或后端必须包含一种非 JavaScript 语言（例如 Python/Django、Ruby/Rails）。
+
+至少一个版本必须使用 AI 应用生成平台 **[`bolt.new`](https://bolt.new/)** 构建；你也可以自由探索其他应用生成平台（例如 Lovable、Figma Make）来构建其余版本。
+
+## 了解 Bolt
+Bolt 是一个 AI 辅助开发平台，能够根据自然语言提示生成网站、Web 应用和移动应用。用户可以使用自然语言描述自己的想法，Bolt 会在几分钟内生成可运行的原型——从落地页和电子商务网站，到客户关系管理系统（CRM）和移动工具均可涵盖。点击[此处](https://support.bolt.new/building/intro-bolt)了解更多信息。
+
+### 领取你的 Bolt 额度：
+1. 找到我们通过电子邮件发送给你的专属 Bolt 优惠码。
+2. 访问 [bolt.new](https://github.com/ShouZhengAI/CS146S_CN/blob/0d65f36f6673147d6c298670da4f9b4bd7f991fa/Assignments/week8/bolt.new) 并创建账户。
+3. 在“Personal Settings > Subscriptions & Tokens”中找到“Upgrade to Pro”区域，然后点击蓝色的“Upgrade”按钮。
+3. 选择“Add promotion code”，并将你的专属优惠码粘贴到该字段中。
+4. 你将免费获得 3 个月的 Bolt Pro。激活试用需要提供信用卡。**如果你不打算继续订阅，请务必在 3 个月期限结束前取消，以免系统自动扣费。**
+
+## 使用 AI 应用生成器的技巧
+- Bolt 等应用生成器最适合现代全栈技术；如果使用时不指定具体框架，默认生成的通常就是此类技术栈。
+- 建议从一个清晰的提示词开始，描述应用概念、实体、路由和用户界面流程。
+- 在提示词中清楚描述数据模型及其关系。
+- 通过迭代提示词，逐步完善数据模型、CRUD 端点、身份验证（如使用）和前端组件。
+- 将每个版本彼此隔离，以避免依赖冲突。
+- 导出或同步生成的代码，并将对应技术栈的代码作为独立项目文件夹提交。
+ 
+## 提交内容
+1) `week8/` 文件夹中的 **三个**项目文件夹（每个版本一个），每个文件夹均须包含：
+   - 源代码
+   - `README.md`，其中包含前置条件、安装/设置说明、运行方式和环境配置
+   - 关于偏离要求之处、已知问题以及生成后所做手动修复的说明
+2) 填写完整的 `writeup.md` 文件：
+   - 应用概念
+   - 3 个应用版本的说明（每个版本一份）
+
+## 评分标准（100 分）
+- 应用概念符合最低功能范围（10 分）
+- 使用三种不同的技术栈（10 分）
+- 至少一个版本使用 Bolt（10 分）
+- 至少一个版本使用非 JavaScript 语言（10 分）
+- 应用的三个版本（**每个**版本 20 分）：
+   - 在 `week8/` 中的一个文件夹内提供源代码（5 分）
+   - `README.md`：包含前置条件、安装/设置说明、运行方式和环境配置（5 分）
+   - 应用功能（5 分）
+   - 在 `writeup.md` 中提供完整、详细的版本说明（5 分）

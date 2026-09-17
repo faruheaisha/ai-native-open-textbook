@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial"
-entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/README.md"
+entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/appendix/F-video-tutorials.md"
+sourceRel: "appendix/F-video-tutorials.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-tutorial/appendix/F-video-tutorials.md"
+sourceSha256: "c1f43582eb93e33555f38810711617ec8c59b94ae6bc427a5e2a765b325f125a"
+pageSha256: "c1f43582eb93e33555f38810711617ec8c59b94ae6bc427a5e2a765b325f125a"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -1,0 +1,248 @@
+---
+title: "FastCampus AI Agent 바이브코딩 강의"
+landing: true
+tier: 2
+sourceId: "07-coding/fastcampus-ai-agent-vibecoding"
+sourceTitle: "FastCampus AI Agent 바이브코딩 강의"
+sourceKind: "系统课程"
+licenseLabel: "仅引用"
+lang: "英文"
+volume: "07-coding"
+sourceUrl: "https://github.com/Koomook/fastcampus-ai-agent-vibecoding"
+entryUrl: "https://github.com/Koomook/fastcampus-ai-agent-vibecoding/blob/b24208b48c3945769327dbcafc2d632189369520/README.md"
+sourceRel: ""
+contentMode: "local-full"
+zh: ""
+---
+
+# FastCampus AI Agent 바이브코딩 강의
+
+## 课时
+
+- **Table of contents**
+  - [강의 소개](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part1_AI___Claude_Code__-Chapter1____.md)
+- **Part 1. AI 에이전트와 Claude Code 기초**
+  - [Chapter 1. 강의 소개](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-cultural-reservation-Part1_AI___Claude_Code__-Chapter1____.md)
+  - [Clip 1: 강의를 통해 얻어갈 수 있는 것](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part1_AI___Claude_Code__-Chapter1____-Clip1____________.md)
+  - [Clip 2: CLI기반 Claude Code 와 Codex로 할 수 있는 것](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part1_AI___Claude_Code__-Chapter1____-Clip2_CLI__Claude_Code__Codex_________.md)
+  - [Clip 3: AI 에이전트 + MCP 기술이 주목받는 이유](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part1_AI___Claude_Code__-Chapter1____-Clip3_AI___MCP______.md)
+  - [Clip 4: Docs와 실습코드(Github)](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part1_AI___Claude_Code__-Chapter1____-Clip4_Docs____Github.md)
+  - [Chapter 2. Claude Code 설치와 설정](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part1_AI___Claude_Code__-Chapter2_Claude_Code____.md)
+  - [Clip 1: 설치와 기본 사용법](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part1_AI___Claude_Code__-Chapter2_Claude_Code____-Clip1______.md)
+  - [Clip 2: Local/Project/User 단위 mcp 연결하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part1_AI___Claude_Code__-Chapter2_Claude_Code____-Clip2_Local_Project_User___MCP__.md)
+  - [Clip 3: CLAUDE.md, AGENTS.md 세팅하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part1_AI___Claude_Code__-Chapter2_Claude_Code____-Clip3_CLAUDE_md_AGENTS_md__.md)
+  - [Chapter 3. 커스터마이징 기초](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part1_AI___Claude_Code__-Chapter3____.md)
+  - [Clip 1: Slash Command 만들기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part1_AI___Claude_Code__-Chapter3____-Clip1_Slash_Command__.md)
+  - [Clip 2: Sub Agent 만들기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part1_AI___Claude_Code__-Chapter3____-Clip2_Sub_Agent__.md)
+  - [Clip 3: Hooks, Output Styles 설계하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part1_AI___Claude_Code__-Chapter3____-Clip3_Hooks_Output_Styles__.md)
+  - [Chapter 4. Slack MCP 서버 실습](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part1_AI___Claude_Code__-Chapter4_Slack_MCP____.md)
+  - [Clip 1: 클로드코드로 자동화하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part1_AI___Claude_Code__-Chapter4_Slack_MCP____-Clip1____.md)
+  - [Clip 2: 슬래쉬 커맨드를 자동으로 업데이트하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part1_AI___Claude_Code__-Chapter4_Slack_MCP____-Clip2________.md)
+- **Part 2. Agent 개념과 아키텍처**
+  - [Chapter 1. Agent 개념 이해하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part2_Agent____-Chapter1_Agent____.md)
+  - [Clip 1: Agent vs Workflow 개념 이해하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part2_Agent____-Chapter1_Agent____-Clip1_Agent_vs_Workflow____.md)
+  - [Clip 2: AI Agent architecture 자세히 살펴보기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part2_Agent____-Chapter1_Agent____-Clip2_AI_Agent_architecture____.md)
+  - [Chapter 2. LLM API 호출 이해하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part2_Agent____-Chapter2_LLM_API____.md)
+  - [Clip 1: LLM api 이해하고 호출해보기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part2_Agent____-Chapter2_LLM_API____-Clip1_LLM_API____.md)
+  - [Clip 2: 세부 파라미터 (reasoning_effort, verbosity, max_token)](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part2_Agent____-Chapter2_LLM_API____-Clip2______.md)
+  - [Clip 3: 프롬프트 작성](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part2_Agent____-Chapter2_LLM_API____-Clip3______.md)
+  - [Chapter 3. MCP Client 사용하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part2_Agent____-Chapter3_MCP_Client__.md)
+  - [Clip 1: Claude Code 등 에이전트가 어떻게 mcp를 활용하는지 보기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part2_Agent____-Chapter3_MCP_Client__-Clip1_Claude_Code_______MCP_____.md)
+  - [Clip 2: 오픈소스 AI AGENT의 mcp 활용 코드 까보기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part2_Agent____-Chapter3_MCP_Client__-Clip2___AI_Agent__MCP______.md)
+  - [Clip 3: Tool 이해하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part2_Agent____-Chapter3_MCP_Client__-Clip3_Tool__.md)
+  - [Clip 4: MCP client 개념 이해하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part2_Agent____-Chapter3_MCP_Client__-Clip4_MCP_Client____.md)
+  - [Chapter 4. 바이브코딩으로 MCP AI 에이전트 만들기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part2_Agent____-Chapter4___MCP_AI____.md)
+  - [Clip 1: mcp client 를 구현하기 위한 PRD 프롬프트 만들기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part2_Agent____-Chapter4___MCP_AI____-Clip1_MCP_Client_____PRD____.md)
+  - [Clip 2: mcp client 구현하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part2_Agent____-Chapter4___MCP_AI____-Clip2_MCP_Client__.md)
+- **Part 3. 바이브코딩으로 Hybrid Search RAG 구현하기**
+  - [Chapter 1. 실습: Postgresql 기반 Hybrid Search 구현하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part3___Hybrid_Search_RAG__-Chapter1___Postgresql___Hybrid_Search__.md)
+  - [Clip 1: Vector Search 이해하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part3___Hybrid_Search_RAG__-Chapter1___Postgresql___Hybrid_Search__-Clip1_Vector_Search__.md)
+  - [Clip 2: BM25 이해하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part3___Hybrid_Search_RAG__-Chapter1___Postgresql___Hybrid_Search__-Clip2_BM25__.md)
+  - [Clip 3: PRD 프롬프트 만들기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part3___Hybrid_Search_RAG__-Chapter1___Postgresql___Hybrid_Search__-Clip3_PRD____.md)
+  - [Clip 4: Hybrid Search 구현하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part3___Hybrid_Search_RAG__-Chapter1___Postgresql___Hybrid_Search__-Clip4_Hybrid_Search__.md)
+  - [Chapter 2. 실습: Langgraph 기반 workflow RAG 구현하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part3___Hybrid_Search_RAG__-Chapter2___Langgraph___workflow_RAG__.md)
+  - [Clip 1: RAG 개념 이해하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part3___Hybrid_Search_RAG__-Chapter2___Langgraph___workflow_RAG__-Clip1_RAG____.md)
+  - [Clip 2: PRD 프롬프트 만들기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part3___Hybrid_Search_RAG__-Chapter2___Langgraph___workflow_RAG__-Clip2_PRD____.md)
+  - [Clip 3: Langgraph RAG 구현하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part3___Hybrid_Search_RAG__-Chapter2___Langgraph___workflow_RAG__-Clip3_Langgraph_RAG__.md)
+  - [Clip 1: workflow -> Agentic의 개념 복기하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part3___Hybrid_Search_RAG__-Chapter3_____Agentic_RAG__-Clip1_Workflow__Agentic____.md)
+  - [Clip 2: Database와 Web Search를 툴로 사용하는 에이전트 구현하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part3___Hybrid_Search_RAG__-Chapter3_____Agentic_RAG__-Clip2_Hybrid_Search__Web_Search_________.md)
+- **Part 4. 바이브코딩으로 MCP server 구현하기**
+  - [Chapter 1. MCP server 이해하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part4___MCP_server__-Chapter1_MCP_server__.md)
+  - [Clip 1: MCP server의 개념과 구조 이해하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part4___MCP_server__-Chapter1_MCP_server__-Clip1_MCP_server_______.md)
+  - [Clip 2: MCP server 코드 까보기: sequential thinking, notion, playwright](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part4___MCP_server__-Chapter1_MCP_server__-Clip2_MCP_server____.md)
+  - [Chapter 2. 바이브코딩으로 MCP server 구현하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part4___MCP_server__-Chapter2___MCP_server__.md)
+  - [Clip 1: 계산기와 random MCP server 만들기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part4___MCP_server__-Chapter2___MCP_server__-Clip1___random_MCP_server__.md)
+  - [Clip 2: Claude code 에 연결하고 랜덤 값 변경해보기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part4___MCP_server__-Chapter2___MCP_server__-Clip2_Claude_Code_______.md)
+  - [Chapter 3. 우리 회사 DB를 쿼리하는 MCP SERVER 구현하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part4___MCP_server__-Chapter3_____DB____MCP_SERVER__.md)
+  - [Clip 1: Postgresql mcp server 구현체 보기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part4___MCP_server__-Chapter3_____DB____MCP_SERVER__-Clip1_Postgresql_MCP_Server____.md)
+  - [Clip 2: mock 스키마 만들고 데이터 합성해서 집어넣기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part4___MCP_server__-Chapter3_____DB____MCP_SERVER__-Clip2_Mock__________.md)
+  - [Clip 3: DB write tool 설계하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part4___MCP_server__-Chapter3_____DB____MCP_SERVER__-Clip3_DB_Write_Tool__.md)
+  - [Clip 4: 클로드에 연결해서 써보기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part4___MCP_server__-Chapter3_____DB____MCP_SERVER__-Clip4______.md)
+- **Part 5. AI Agent 프로젝트 3개**
+  - [Chapter 1. 바이브코딩으로 CS 슬랙봇 구현하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-Chapter1___CS____.md)
+  - [Chapter 3. 바이브코딩으로 공공 MCP 자동 생성하고 에이전트 연결하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-Chapter3_____MCP________.md)
+- **Part 6. 바이브코딩과 AI agent best practice**
+  - [Chapter 1. Best practice](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-Chapter1_Best_practice.md)
+  - [Clip 1: CLAUDE.md, AGENTS.md best practice 찾아서 이해하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-Chapter1_Best_practice-Clip1_best_practice____.md)
+  - [Clip 2: 바이브코딩 팁](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-Chapter1_Best_practice-Clip2______.md)
+  - [Clip 3: AI Agent가 사용할 툴은 AI로 만들어야 하는 이유](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-Chapter1_Best_practice-Clip3_AI_Agent______AI_______.md)
+  - [Chapter 2. 바이브코딩을 위한 Context Prompt Engineering](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-Chapter2_____Context_Prompt_Engineering.md)
+  - [Clip 1: Context/Prompt Engineering 이해하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-Chapter2_____Context_Prompt_Engineering-Clip1_Context_Prompt_Engineering__.md)
+  - [Clip 2: AI의 PM이 되기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-Chapter2_____Context_Prompt_Engineering-Clip2_AI__PM___.md)
+  - [Chapter 3. 실습: 병렬 작업을 위한 git worktree](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-Chapter3_________git_worktree.md)
+  - [Clip 1: git worktree 이해](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-Chapter3_________git_worktree-Clip1_git_worktree__.md)
+  - [Clip 3: 티켓 자동 생성하고 병렬 처리하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-Chapter3_________git_worktree-Clip3__________.md)
+  - [Chapter 4. Focus on Leaf Nodes](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-Chapter4_Focus_on_Leaf_Nodes.md)
+  - [Clip 1: 바이브코딩의 리스크를 낮추기 위한 feature 선정 방법](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-Chapter4_Focus_on_Leaf_Nodes-Clip1_________feature____.md)
+  - [Clip 2: 바이브코딩으로 프로젝트를 시작하면 유리한 점](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-Chapter4_Focus_on_Leaf_Nodes-Clip2__________.md)
+  - [Clip 1: Claude Skills 의 프롬프트와 코드를 동시에 사용하는 자동화 살펴보기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-Chapter5_______Agent_Skill-Clip1_Claude_Skills_____________.md)
+  - [Clip 2: Skill 만들고 Claude.ai 에 추가하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-Chapter5_______Agent_Skill-Clip2_Skill___Claude.ai___.md)
+- [강의 클립별 카테고리 분류](/lib/07-coding/fastcampus-ai-agent-vibecoding/readme_table.md)
+- [Table of contents](/lib/07-coding/fastcampus-ai-agent-vibecoding/SUMMARY.md)
+- [Git Worktree 자동화 스크립트 (wt)](/lib/07-coding/fastcampus-ai-agent-vibecoding/WT_SCRIPT_GUIDE.md)
+- **.claude**
+  - **agents**
+    - [FastCampus AI Agent 바이브코딩 강의](/lib/07-coding/fastcampus-ai-agent-vibecoding/_claude-agents-code-reviewer.md)
+    - [FastCampus AI Agent 바이브코딩 강의](/lib/07-coding/fastcampus-ai-agent-vibecoding/_claude-agents-lecture-content-generator.md)
+    - [FastCampus AI Agent 바이브코딩 강의](/lib/07-coding/fastcampus-ai-agent-vibecoding/_claude-agents-subway-menu-recommender.md)
+    - [FastCampus AI Agent 바이브코딩 강의](/lib/07-coding/fastcampus-ai-agent-vibecoding/_claude-agents-ultimate-planner.md)
+  - **commands**
+    - [Linear Issues Creation Command](/lib/07-coding/fastcampus-ai-agent-vibecoding/_claude-commands-create-linear-issues.md)
+    - [Slack Tasks Sync Command](/lib/07-coding/fastcampus-ai-agent-vibecoding/_claude-commands-sync-slack-tasks.md)
+    - [Update Slash Command - 대화형 커맨드 수정 워크플로우](/lib/07-coding/fastcampus-ai-agent-vibecoding/_claude-commands-update-slash-command.md)
+  - **output-styles**
+    - [Deep Research Automation](/lib/07-coding/fastcampus-ai-agent-vibecoding/_claude-output-styles-deep-research.md)
+    - [FastCampus AI Agent 바이브코딩 강의](/lib/07-coding/fastcampus-ai-agent-vibecoding/_claude-output-styles-one-word.md)
+- **Part2_Agent_개념과_아키텍처**
+  - **Chapter4_바이브코딩으로_MCP_AI_에이전트_만들기**
+    - [PRD: Playwright MCP Client](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part2_Agent____-Chapter4___MCP_AI____-PRD.md)
+    - [Playwright MCP Client](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part2_Agent____-Chapter4___MCP_AI____-playwright-mcp-client.md)
+- **Part3_바이브코딩으로_Hybrid_Search_RAG_구현하기**
+  - [PRD: 농협 대출 상품 Hybrid Search](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part3___Hybrid_Search_RAG__-PRD.md)
+  - [농협 대출 상품 Hybrid Search](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part3___Hybrid_Search_RAG__-search_app.md)
+    - [BM25 검색 문제 리포트](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part3___Hybrid_Search_RAG__-search_app-BM25_ISSUE_REPORT.md)
+    - [농협 대출 상담 Agent](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part3___Hybrid_Search_RAG__-search_app-agent_app.md)
+      - [Agent RAG 구현 레포트](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part3___Hybrid_Search_RAG__-search_app-agent_app-IMPLEMENTATION_REPORT.md)
+      - [빠른 시작 가이드](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part3___Hybrid_Search_RAG__-search_app-agent_app-QUICKSTART.md)
+      - [스트리밍 문제 해결 방법](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part3___Hybrid_Search_RAG__-search_app-agent_app-SOLUTION.md)
+- **Part4_바이브코딩으로_MCP_server_구현하기**
+  - **Chapter2_바이브코딩으로_MCP_server_구현하기**
+    - [Calculate MCP Server](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part4___MCP_server__-Chapter2___MCP_server__-calculate-mcp-server.md)
+    - [Random MCP Server](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part4___MCP_server__-Chapter2___MCP_server__-random-mcp-server.md)
+  - **Chapter3_우리_회사_DB를_쿼리하는_MCP_SERVER_구현하기**
+    - [Recruit MCP Server](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part4___MCP_server__-Chapter3_____DB____MCP_SERVER__-recruit-mcp-server.md)
+- **Part5_AI_Agent_프로젝트_3개**
+  - **Chapter1_바이브코딩으로_CS_슬랙봇_구현하기**
+    - [Deployment Guide - Google Cloud Run](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-Chapter1___CS____-DEPLOYMENT.md)
+    - [Phase 1: Hello Bot with Event Subscriptions](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-Chapter1___CS____-PHASE1_.md)
+    - [Phase 2: Claude Agent SDK Integration - Completion Report](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-Chapter1___CS____-PHASE2_COMPLETION.md)
+    - [Phase 3 Completion: Notion MCP Integration](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-Chapter1___CS____-PHASE3_COMPLETION.md)
+    - [Slack Claude Bot 구현 계획서](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-Chapter1___CS____-PLAN.md)
+    - [PRD: LLM 기반 슬랙봇 (교육용)](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-Chapter1___CS____-PRD.md)
+    - [Claude 시스템 프롬프트 분석](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-Chapter1___CS____-system_prompt_analysis.md)
+  - [Seoul Cultural Events MCP Server](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-Chapter2_________MCP_SERVER__.md)
+    - [서울시 문화행사 MCP Server - 구현 요약](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-Chapter2_________MCP_SERVER__-IMPLEMENTATION_SUMMARY.md)
+    - [서울시 문화행사 API 스펙](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-Chapter2_________MCP_SERVER__-____API__.md)
+  - **Chapter3_바이브코딩으로_공공_MCP_자동_생성하고_에이전트_연결하기**
+    - [Cookiecutter 관리 방식 상세 분석](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-Chapter3_____MCP________-Cookiecutter_Management_Analysis.md)
+    - [MCP Repository 분석 레포트](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-Chapter3_____MCP________-MCP_Repository_Analysis_Report.md)
+    - **.claude**
+      - **commands**
+        - [Add MCP Server](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-Chapter3_____MCP________-_claude-commands-add-mcp-server.md)
+    - [Seoul Cultural Events MCP Server](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-Chapter3_____MCP________-culturalevents-mcp-server.md)
+    - [Seoul Cultural Events Reservation MCP Server](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-Chapter3_____MCP________-culturalreservation-mcp-server.md)
+    - **template**
+      - [Data Seoul MCP - Cookiecutter Template](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-Chapter3_____MCP________-template-data-seoul-mcp.md)
+    - [Seoul Women Family Foundation Events MCP Server](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-Chapter3_____MCP________-womenfamilyfoundation-mcp-server.md)
+  - [강의 커리큘럼](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-cultural-reservation.md)
+    - [Table of contents](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-cultural-reservation-SUMMARY.md)
+    - **.claude**
+      - [CLAUDE.md](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-cultural-reservation-_claude-claude-lecture.md)
+      - [FastCampus AI Agent 바이브코딩 강의](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-cultural-reservation-_claude-lecture_prompt.md)
+      - [강의 자료 생성 가이드라인](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-cultural-reservation-_claude-lecture_writing_guideline.md)
+      - [지난 세미나 피드백](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-cultural-reservation-_claude-prompts.md)
+    - **文档**
+      - [FastCampus AI Agent 바이브코딩 강의](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-cultural-reservation-docs-gpt-5_verbosity_max_tokens_.md)
+    - **part-4.-mcp-server**
+      - **chapter-3.-db-mcp-server**
+        - [Clip 1: Postgresql MCP Server 구현체 보기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-cultural-reservation-part-4.-mcp-server-chapter-3.-db-mcp-server-clip-1-postgresql-mcp-server.md)
+        - [Clip 2: Mock 스키마 만들고 데이터 합성해서 집어넣기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-cultural-reservation-part-4.-mcp-server-chapter-3.-db-mcp-server-clip-2-mock.md)
+        - [Clip 3: DB Write Tool 설계하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-cultural-reservation-part-4.-mcp-server-chapter-3.-db-mcp-server-clip-3-db-write-tool.md)
+        - [Clip 4: 클로드에 연결해서 써보기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-cultural-reservation-part-4.-mcp-server-chapter-3.-db-mcp-server-clip-4.md)
+    - **Part1_AI_에이전트와_Claude_Code_기초**
+      - [Chapter 2. Claude Code 설치와 설정](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-cultural-reservation-Part1_AI___Claude_Code__-Chapter2_Claude_Code____.md)
+      - [Chapter 3. 커스터마이징 기초](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-cultural-reservation-Part1_AI___Claude_Code__-Chapter3____.md)
+      - [Chapter 4. Slack MCP 서버 실습](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-cultural-reservation-Part1_AI___Claude_Code__-Chapter4_Slack_MCP____.md)
+    - **Part2_Agent_개념과_아키텍처**
+      - [Chapter 1. Agent 개념 이해하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-cultural-reservation-Part2_Agent____-Chapter1_Agent____.md)
+      - [Chapter 3. MCP Client 사용하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-cultural-reservation-Part2_Agent____-Chapter3_MCP_Client__.md)
+      - [Chapter 4. 바이브코딩으로 MCP AI 에이전트 만들기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-cultural-reservation-Part2_Agent____-Chapter4___MCP_AI____.md)
+    - **Part3_바이브코딩으로_Hybrid_Search_RAG_구현하기**
+      - [Chapter 1. 실습: Postgresql 기반 Hybrid Search 구현하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-cultural-reservation-Part3___Hybrid_Search_RAG__-Chapter1___Postgresql___Hybrid_Search__.md)
+      - [Chapter 2. 실습: Langgraph 기반 workflow RAG 구현하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-cultural-reservation-Part3___Hybrid_Search_RAG__-Chapter2___Langgraph___workflow_RAG__.md)
+    - **Part4_바이브코딩으로_MCP_server_구현하기**
+      - [Chapter 1. MCP server 이해하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-cultural-reservation-Part4___MCP_server__-Chapter1_MCP_server__.md)
+      - [Chapter 2. 바이브코딩으로 MCP server 구현하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-cultural-reservation-Part4___MCP_server__-Chapter2___MCP_server__.md)
+    - **Part6_바이브코딩과_AI_agent_best_practice**
+      - [Chapter 1. CLAUDE.md, AGENTS.md best practice](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-cultural-reservation-Part6___AI_agent_best_practice-Chapter1_Best_practice.md)
+      - [Chapter 2. 바이브코딩을 위한 Context Prompt Engineering](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-cultural-reservation-Part6___AI_agent_best_practice-Chapter2_____Context_Prompt_Engineering.md)
+      - [Chapter 3. 실습: 병렬 작업을 위한 git worktree](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-cultural-reservation-Part6___AI_agent_best_practice-Chapter3_________git_worktree.md)
+      - [Chapter 4. Focus on Leaf Nodes](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-cultural-reservation-Part6___AI_agent_best_practice-Chapter4_Focus_on_Leaf_Nodes.md)
+  - **worktree-women-family-foundation**
+    - **Part1_AI_에이전트와_Claude_Code_기초**
+      - [Chapter 1. 강의 소개](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-women-family-foundation-Part1_AI___Claude_Code__-Chapter1____.md)
+      - [Chapter 2. Claude Code 설치와 설정](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-women-family-foundation-Part1_AI___Claude_Code__-Chapter2_Claude_Code____.md)
+      - [Chapter 3. 커스터마이징 기초](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-women-family-foundation-Part1_AI___Claude_Code__-Chapter3____.md)
+      - [Chapter 4. Slack MCP 서버 실습](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-women-family-foundation-Part1_AI___Claude_Code__-Chapter4_Slack_MCP____.md)
+    - **Part2_Agent_개념과_아키텍처**
+      - [Chapter 1. Agent 개념 이해하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-women-family-foundation-Part2_Agent____-Chapter1_Agent____.md)
+      - [Chapter 3. MCP Client 사용하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-women-family-foundation-Part2_Agent____-Chapter3_MCP_Client__.md)
+      - [Chapter 4. 바이브코딩으로 MCP AI 에이전트 만들기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-women-family-foundation-Part2_Agent____-Chapter4___MCP_AI____.md)
+    - **Part3_바이브코딩으로_Hybrid_Search_RAG_구현하기**
+      - [Chapter 1. 실습: Postgresql 기반 Hybrid Search 구현하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-women-family-foundation-Part3___Hybrid_Search_RAG__-Chapter1___Postgresql___Hybrid_Search__.md)
+      - [Chapter 2. 실습: Langgraph 기반 workflow RAG 구현하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-women-family-foundation-Part3___Hybrid_Search_RAG__-Chapter2___Langgraph___workflow_RAG__.md)
+    - **Part4_바이브코딩으로_MCP_server_구현하기**
+      - [Chapter 1. MCP server 이해하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-women-family-foundation-Part4___MCP_server__-Chapter1_MCP_server__.md)
+      - [Chapter 2. 바이브코딩으로 MCP server 구현하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-women-family-foundation-Part4___MCP_server__-Chapter2___MCP_server__.md)
+    - **Part6_바이브코딩과_AI_agent_best_practice**
+      - [Chapter 1. CLAUDE.md, AGENTS.md best practice](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-women-family-foundation-Part6___AI_agent_best_practice-Chapter1_Best_practice.md)
+      - [Chapter 2. 바이브코딩을 위한 Context Prompt Engineering](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-women-family-foundation-Part6___AI_agent_best_practice-Chapter2_____Context_Prompt_Engineering.md)
+      - [Chapter 3. 실습: 병렬 작업을 위한 git worktree](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-women-family-foundation-Part6___AI_agent_best_practice-Chapter3_________git_worktree.md)
+      - [Chapter 4. Focus on Leaf Nodes](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part5_AI_Agent___3_-worktree-women-family-foundation-Part6___AI_agent_best_practice-Chapter4_Focus_on_Leaf_Nodes.md)
+- **Part6_바이브코딩과_AI_agent_best_practice**
+  - **Chapter1_Best_practice**
+    - [Clip 1 발표 스크립트: CLAUDE.md와 AGENTS.md Best Practice](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-Chapter1_Best_practice-Clip1____.md)
+    - [Clip 2: 바이브코딩 팁을 자동화시키기 - 발표 스크립트](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-Chapter1_Best_practice-Clip2____.md)
+    - [Clip 3 발표 스크립트: AI Agent가 사용할 툴은 AI로 만들어야 하는 이유](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-Chapter1_Best_practice-Clip3____.md)
+  - **Chapter2_바이브코딩을_위한_Context_Prompt_Engineering**
+    - [Clip 1 발표 스크립트: Context/Prompt Engineering 이해하기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-Chapter2_____Context_Prompt_Engineering-Clip1____.md)
+    - [Clip 2 발표 스크립트: AI의 PM이 되기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-Chapter2_____Context_Prompt_Engineering-Clip2____.md)
+  - **Chapter3_실습_병렬_작업을_위한_git_worktree**
+    - [Clip 2: Worktree 자동화 스크립트 만들기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-Chapter3_________git_worktree-Clip2_worktree____.md)
+  - **Chapter4_Focus_on_Leaf_Nodes**
+    - [Clip 1 발표 스크립트: 바이브코딩의 리스크를 낮추기 위한 feature 선정 방법](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-Chapter4_Focus_on_Leaf_Nodes-Clip1____.md)
+  - **Chapter5_업무_자동화_바이브코딩하는_Agent_Skill**
+    - [발표 스크립트 - Chapter 5: 업무 자동화 바이브코딩하는 Agent Skill](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-Chapter5_______Agent_Skill-___.md)
+  - [Korea Data.go.kr MCP Servers](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-data-go-mcp-servers.md)
+    - [OPEN API 서비스 명세서 - 물질안전보건자료 MSDS](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-data-go-mcp-servers-MSDS_API__.md)
+    - [MCP Server Template 사용 가이드](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-data-go-mcp-servers-TEMPLATE_USAGE.md)
+    - **.claude**
+      - **commands**
+        - [🚀 Create New MCP Server for data.go.kr API](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-data-go-mcp-servers-_claude-commands-add-mcp-server.md)
+      - **subagents**
+        - [FastCampus AI Agent 바이브코딩 강의](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-data-go-mcp-servers-_claude-subagents-add-mcp-server.md)
+    - **文档**
+      - [새로운 MCP 서버 만들기 - 완전 가이드](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-data-go-mcp-servers-docs-creating-new-mcp-server.md)
+      - [실제 사례: NTS Business Verification MCP 서버 만들기](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-data-go-mcp-servers-docs-step-by-step-example.md)
+    - **源码**
+      - [FSC Corporate Financial Information MCP Server](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-data-go-mcp-servers-src-fsc-financial-info.md)
+      - [MSDS Chemical Info MCP Server](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-data-go-mcp-servers-src-msds-chemical-info.md)
+      - [NPS Business Enrollment MCP Server](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-data-go-mcp-servers-src-nps-business-enrollment.md)
+        - [Publishing to PyPI](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-data-go-mcp-servers-src-nps-business-enrollment-PUBLISH.md)
+      - [NTS Business Verification MCP Server](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-data-go-mcp-servers-src-nts-business-verification.md)
+      - [나라장터 공공데이터개방표준서비스 MCP Server](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-data-go-mcp-servers-src-pps-narajangteo.md)
+      - [Presidential Speech Records MCP Server](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-data-go-mcp-servers-src-presidential-speeches.md)
+    - **template**
+      - [{{ cookiecutter.apidisplayname }} MCP Server](/lib/07-coding/fastcampus-ai-agent-vibecoding/Part6___AI_agent_best_practice-data-go-mcp-servers-template-_cookiecutter.api_name_.md)
+
+开始学习 → [FastCampus AI Agent 바이브코딩 강의](_claude-agents-code-reviewer.md)

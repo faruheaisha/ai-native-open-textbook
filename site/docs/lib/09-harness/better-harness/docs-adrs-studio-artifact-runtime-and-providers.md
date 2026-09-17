@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/QoderAI/better-harness"
-entryUrl: "https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/README.md"
+entryUrl: "https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/adrs/studio-artifact-runtime-and-providers.md"
+sourceRel: "docs/adrs/studio-artifact-runtime-and-providers.md"
+rawUrl: "/raw/09-harness/better-harness/docs/adrs/studio-artifact-runtime-and-providers.md"
+sourceSha256: "3759df354b6678c9d1ad823a5f960df893a6f2dbf93a17e07fe24a27ecbeb3fe"
+pageSha256: "3759df354b6678c9d1ad823a5f960df893a6f2dbf93a17e07fe24a27ecbeb3fe"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -20,16 +25,16 @@ zh: ""
 - Status: Proposed
 - Decision date: 2026-08-22
 - Related specs:
-  - [View AI-generated artifacts inside Harness Studio](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/specs/2026-08-20-harness-studio-artifact-view.md)
-  - [Narrow the Studio artifact catalog contract](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/specs/2026-08-21-artifact-workspace-model.md)
-  - [Model revision-bound artifacts in Harness Studio](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/specs/2026-08-21-studio-artifact-view-model.md)
-  - [Unify code and diff rendering through Artifact View](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/specs/2026-08-22-studio-artifact-code-diff-view.md)
-  - [Render live code artifacts in Studio](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/specs/2026-08-22-studio-live-artifact-preview.md)
-  - [Render Markdown artifacts as native React documents](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/specs/2026-08-22-studio-markdown-artifact-view.md)
-  - [Render SVG and Mermaid artifacts through the React preview runtime](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/specs/2026-08-22-studio-react-document-artifacts.md)
-  - [Keep Walnut bootstrap receipts portable across platforms](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/specs/2026-08-21-walnut-cross-platform-paths.md)
-  - [Implement external Artifact providers in Harness Studio](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/specs/2026-08-22-studio-external-artifact-provider-runtime.md)
-  - [Extract the Artifact provider SDK and prove it with Structurizr](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/specs/2026-08-22-artifact-provider-sdk-and-structurizr.md)
+  - [View AI-generated artifacts inside Harness Studio](/lib/09-harness/better-harness/docs-specs-2026-08-20-harness-studio-artifact-view)
+  - [Narrow the Studio artifact catalog contract](/lib/09-harness/better-harness/docs-specs-2026-08-21-artifact-workspace-model)
+  - [Model revision-bound artifacts in Harness Studio](/lib/09-harness/better-harness/docs-specs-2026-08-21-studio-artifact-view-model)
+  - [Unify code and diff rendering through Artifact View](/lib/09-harness/better-harness/docs-specs-2026-08-22-studio-artifact-code-diff-view)
+  - [Render live code artifacts in Studio](/lib/09-harness/better-harness/docs-specs-2026-08-22-studio-live-artifact-preview)
+  - [Render Markdown artifacts as native React documents](/lib/09-harness/better-harness/docs-specs-2026-08-22-studio-markdown-artifact-view)
+  - [Render SVG and Mermaid artifacts through the React preview runtime](/lib/09-harness/better-harness/docs-specs-2026-08-22-studio-react-document-artifacts)
+  - [Keep Walnut bootstrap receipts portable across platforms](/lib/09-harness/better-harness/docs-specs-2026-08-21-walnut-cross-platform-paths)
+  - [Implement external Artifact providers in Harness Studio](/lib/09-harness/better-harness/docs-specs-2026-08-22-studio-external-artifact-provider-runtime)
+  - [Extract the Artifact provider SDK and prove it with Structurizr](/lib/09-harness/better-harness/docs-specs-2026-08-22-artifact-provider-sdk-and-structurizr)
 
 ## Context
 

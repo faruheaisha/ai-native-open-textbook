@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/datawhalechina/easy-vibe"
-entryUrl: "https://github.com/datawhalechina/easy-vibe/blob/130e9b75b28b524e8cc74e615fd9733a4e2b330d/README.md"
+entryUrl: "https://github.com/datawhalechina/easy-vibe/blob/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/appendix/1-computer-fundamentals/compilers.md"
+sourceRel: "docs/zh-cn/appendix/1-computer-fundamentals/compilers.md"
+rawUrl: "/raw/07-coding/easy-vibe/docs/zh-cn/appendix/1-computer-fundamentals/compilers.md"
+sourceSha256: "cad8729cd2854845fa2294257ed31fa20a18037e2d31a3b872caf21bde3eab01"
+pageSha256: "cad8729cd2854845fa2294257ed31fa20a18037e2d31a3b872caf21bde3eab01"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -188,7 +193,7 @@ AST 是编译器的"核心数据结构"，后续的语义分析、优化、代�
 | 优化技术 | 优化前 | 优化后 | 原理 |
 |---------|-------|-------|------|
 | 常量折叠 | `x = 10 + 5` | `x = 15` | 编译时直接算出结果 |
-| 死代码消除 | `if (false) { ... }` | 直接删除 | 永远不会执行的代码 |
+| 死代码消除 | `if (false) \{ ... \}` | 直接删除 | 永远不会执行的代码 |
 | 常量传播 | `x = 15; y = x * 2` | `y = 30` | 已知值直接替换 |
 | 循环不变量外提 | 循环内重复计算 `len = arr.length` | 提到循环外 | 避免重复计算 |
 

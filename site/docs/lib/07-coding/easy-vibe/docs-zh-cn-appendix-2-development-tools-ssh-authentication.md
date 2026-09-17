@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/datawhalechina/easy-vibe"
-entryUrl: "https://github.com/datawhalechina/easy-vibe/blob/130e9b75b28b524e8cc74e615fd9733a4e2b330d/README.md"
+entryUrl: "https://github.com/datawhalechina/easy-vibe/blob/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/appendix/2-development-tools/ssh-authentication.md"
+sourceRel: "docs/zh-cn/appendix/2-development-tools/ssh-authentication.md"
+rawUrl: "/raw/07-coding/easy-vibe/docs/zh-cn/appendix/2-development-tools/ssh-authentication.md"
+sourceSha256: "177734e69b26a36f79fe1f09fa8725526c0d13c4683d040582a95574d49affd7"
+pageSha256: "177734e69b26a36f79fe1f09fa8725526c0d13c4683d040582a95574d49affd7"
+contentMode: "local-full"
 zh: ""
 ---
 

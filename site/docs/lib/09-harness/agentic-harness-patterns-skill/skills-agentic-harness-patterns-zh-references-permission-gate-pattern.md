@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/keli-wen/agentic-harness-patterns-skill"
-entryUrl: "https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/README.md"
+entryUrl: "https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/skills/agentic-harness-patterns-zh/references/permission-gate-pattern.md"
+sourceRel: "skills/agentic-harness-patterns-zh/references/permission-gate-pattern.md"
+rawUrl: "/raw/09-harness/agentic-harness-patterns-skill/skills/agentic-harness-patterns-zh/references/permission-gate-pattern.md"
+sourceSha256: "9f4774639bf54d53921c6a34b12abc768b2196b0a49359c7d7b16da18bf105d0"
+pageSha256: "9f4774639bf54d53921c6a34b12abc768b2196b0a49359c7d7b16da18bf105d0"
+contentMode: "local-full"
 zh: ""
 ---
 

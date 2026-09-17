@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering"
-entryUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering/blob/8b2a55d97590363fe50c3cc6b5e833b020a4bb4c/README.md"
+entryUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering/blob/8b2a55d97590363fe50c3cc6b5e833b020a4bb4c/agents/explore_agent/source_agent/prompt.md"
+sourceRel: "agents/explore_agent/source_agent/prompt.md"
+rawUrl: "/raw/09-harness/agentic-harness-engineering/agents/explore_agent/source_agent/prompt.md"
+sourceSha256: "eb2a45f6b715af02cc6a2abe7501d35664e7ad4e0eb42a6b6fe2b122389bce14"
+pageSha256: "eb2a45f6b715af02cc6a2abe7501d35664e7ad4e0eb42a6b6fe2b122389bce14"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -72,7 +77,7 @@ Find the config dataclass definitions in `nexau/archs/main_sub/config/`. Documen
 - **`middlewares:` entry format**: import, params — how the import string is resolved, what's added to sys.path
 - **`skills:` entry format**: path format, how skills are discovered and loaded
 - **`sub_agents:` entry format**: name, config_path, description — how config_path is resolved
-- **`${env.XXX}` resolution**: behavior when env var is not set
+- **`$\{env.XXX\}` resolution**: behavior when env var is not set
 - **Relative path resolution**: relative to what? (YAML file directory? CWD? work_dir?)
 
 ## §2. Middleware Creation (HIGHEST PRIORITY)
@@ -146,7 +151,7 @@ Provide a minimal tool template (YAML + Python).
 - How config_path is resolved
 
 ### 5.2 Runtime
-- How `sub-agent-{name}(message="...")` is dispatched
+- How `sub-agent-\{name\}(message="...")` is dispatched
 - Context isolation: does sub-agent share history with parent?
 - Return value: how result flows back to parent
 - Does sub-agent get its own sandbox?

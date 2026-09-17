@@ -1,0 +1,71 @@
+---
+title: "Content Layout"
+sourceId: "09-harness/claude-code-harness-chachamaru"
+sourceTitle: "Claude Code Harness"
+sourceKind: "工程手册"
+licenseLabel: "可转载"
+lang: "中英混排"
+tier: 3
+volume: "09-harness"
+sourceUrl: "https://github.com/Chachamaru127/claude-code-harness"
+entryUrl: "https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/docs/content-layout.md"
+sourceRel: "docs/content-layout.md"
+rawUrl: "/raw/09-harness/claude-code-harness-chachamaru/docs/content-layout.md"
+sourceSha256: "c2fc03773fe0c2e67aa112f700f322f13fafa77872c5893214a6b4fe97ddd516"
+pageSha256: "c2fc03773fe0c2e67aa112f700f322f13fafa77872c5893214a6b4fe97ddd516"
+contentMode: "local-full"
+zh: ""
+---
+
+# Content Layout
+
+このリポジトリでは、`docs/` と `out/` を次のルールで使い分けます。
+
+## 基本ルール
+
+- `docs/`: 人が読む正本。手で編集する文章、公開用の原稿、プロンプト、設計メモ、参照資料を置く
+- `out/`: ツールや生成処理の出力先。画像、候補案、エクスポート、比較用の派生物を置く
+
+迷ったときは、この基準で決めます。
+
+1. 人があとで読み返して再利用する文章か
+   - はい: `docs/`
+2. 再生成できる生成物か
+   - はい: `out/`
+
+## Social / X 運用
+
+- `docs/social/`
+  - 投稿文の正本
+  - 画像生成プロンプト
+  - alt テキスト
+  - 投稿メモ、構成案
+- `out/social/`
+  - 生成された画像
+  - 候補カード
+  - ツールが吐いた下書き
+  - 比較用の一時成果物
+
+つまり、`docs/social/` が「何を投稿するか」、`out/social/` が「何が生成されたか」です。
+
+過去の運用で `out/x-post/`、`out/x-posts/`、`out/x-promo/`、`out/x-release/` も存在します。これらは当面そのまま残しますが、**今後の新規 social 系出力は `out/social/` に寄せる**方針とします。
+
+## Slides / Media 運用
+
+- `docs/slides/`
+  - スライド原稿、仕様、YAML ソース
+- `out/slides/`
+  - 書き出し画像、選定済み画像、品質レポート
+
+## 追加時のルール
+
+- 新しい投稿文を保存するときは、まず `docs/social/` に保存する
+- 画像生成や書き出しを回した結果は `out/social/` に保存する
+- `docs/` に生成画像を増やさない
+- `out/` に正本の説明文を増やさない
+
+## 今回の整理方針
+
+- X 投稿の原稿ソースは `docs/social/` に集約していく
+- 既存の `out/social/` は生成済み成果物として維持する
+- 将来の追加も同じルールに従う

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/nexu-io/harness-engineering-guide"
-entryUrl: "https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/README.md"
+entryUrl: "https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/guardrails.md"
+sourceRel: "guide/guardrails.md"
+rawUrl: "/raw/09-harness/harness-engineering-guide-nexu/guide/guardrails.md"
+sourceSha256: "1b54c3b7f6917682588b7d836ce3d0b3eabb7e710efb2649ba03b341605485a8"
+pageSha256: "1b54c3b7f6917682588b7d836ce3d0b3eabb7e710efb2649ba03b341605485a8"
+contentMode: "local-full"
 zh: ""
 ---
 

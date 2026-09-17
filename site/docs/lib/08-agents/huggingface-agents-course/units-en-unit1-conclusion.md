@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "08-agents"
 sourceUrl: "https://github.com/huggingface/agents-course"
-entryUrl: "https://github.com/huggingface/agents-course/blob/b3946b1d09d29c65736e219d48a8a736a2c52154/README.md"
+entryUrl: "https://github.com/huggingface/agents-course/blob/b3946b1d09d29c65736e219d48a8a736a2c52154/units/en/unit1/conclusion.mdx"
+sourceRel: "units/en/unit1/conclusion.mdx"
+rawUrl: "/raw/08-agents/huggingface-agents-course/units/en/unit1/conclusion.mdx"
+sourceSha256: "eb4dc1c17e9736888864ba846780bdb87cde21bbdc765d9dd3d89568279b5ca4"
+pageSha256: "eb4dc1c17e9736888864ba846780bdb87cde21bbdc765d9dd3d89568279b5ca4"
+contentMode: "local-full"
 zh: ""
 ---
 

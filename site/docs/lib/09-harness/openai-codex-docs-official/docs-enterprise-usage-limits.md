@@ -1,0 +1,57 @@
+---
+title: "ChatGPT usage limits and spend controls"
+sourceId: "09-harness/openai-codex-docs-official"
+sourceTitle: "openai-codex-docs-official"
+sourceKind: "官方文档"
+licenseLabel: "仅引用"
+lang: "英文"
+tier: 3
+volume: "09-harness"
+sourceUrl: "https://learn.chatgpt.com/docs"
+entryUrl: "https://learn.chatgpt.com/docs"
+sourceRel: "docs/enterprise/usage-limits.md"
+rawUrl: "/raw/09-harness/openai-codex-docs-official/docs/enterprise/usage-limits.md"
+sourceSha256: "16b5804278a279f3b0b9dc2069709ad9d14fd851ca4759165a40beef6ebe9505"
+pageSha256: "16b5804278a279f3b0b9dc2069709ad9d14fd851ca4759165a40beef6ebe9505"
+contentMode: "local-full"
+zh: ""
+---
+
+# ChatGPT usage limits and spend controls
+
+> For the complete documentation index, see [llms.txt](https://learn.chatgpt.com/llms.txt). Markdown versions of documentation pages are available by appending `.md` to the page URL.
+
+ChatGPT workspace usage limits and spend controls apply to eligible activity
+under the plan for the workspace. Depending on the plan, this can include some
+Codex activity. These controls aren't a universal Codex limit system and don't
+govern OpenAI API Platform billing.
+
+For the complete administration model, see
+[Roles and workspace permissions](https://learn.chatgpt.com/docs/enterprise/roles-and-workspace-permissions).
+
+## Know when these controls apply
+
+Review ChatGPT workspace usage controls when:
+
+- The organization's agreement uses shared or purchased ChatGPT workspace
+  credits.
+- Eligible Codex activity can consume those credits.
+- Administrators need user guardrails, workspace-level spend controls, or usage
+  notifications supported by the current plan.
+
+Usage controls don't configure feature entitlement or permissions, although
+exhausted limits can pause access to eligible features. They don't affect
+source-system permissions or govern Platform API usage or billing.
+
+## Use current procedures
+
+- [Manage usage limits and overages in ChatGPT Enterprise and Edu](https://help.openai.com/en/articles/20001001)
+- [Manage credits and spend controls in ChatGPT Business](https://help.openai.com/en/articles/20001155-managing-credits-and-spend-controls-in-chatgpt-business)
+
+## Related docs
+
+- [ChatGPT Work: usage and cost](https://learn.chatgpt.com/docs/enterprise/chatgpt-work-usage-and-cost)
+- [Admin rollout guide](https://learn.chatgpt.com/docs/enterprise/admin-setup)
+- [Governance](https://learn.chatgpt.com/docs/enterprise/governance)
+- [Workspace analytics](https://learn.chatgpt.com/docs/enterprise/workspace-analytics)
+- [Codex pricing](https://learn.chatgpt.com/docs/pricing)

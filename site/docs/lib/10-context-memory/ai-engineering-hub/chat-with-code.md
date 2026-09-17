@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/patchy631/ai-engineering-hub"
-entryUrl: "https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/README.md"
+entryUrl: "https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/chat-with-code/README.md"
+sourceRel: "chat-with-code/README.md"
+rawUrl: "/raw/10-context-memory/ai-engineering-hub/chat-with-code/README.md"
+sourceSha256: "13a9064bfa6696c7b5a501e770c5d8b73361210d93a7b5aad32a9f5b9dbe5fa6"
+pageSha256: "13a9064bfa6696c7b5a501e770c5d8b73361210d93a7b5aad32a9f5b9dbe5fa6"
+contentMode: "local-full"
 zh: ""
 ---
 

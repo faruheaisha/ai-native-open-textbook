@@ -10,6 +10,8 @@ lang: "中英混排"
 volume: "01-foundations"
 sourceUrl: "https://github.com/WangRongsheng/awesome-LLM-resources"
 entryUrl: "https://github.com/WangRongsheng/awesome-LLM-resources/blob/1fdf4ba2279979507c122db6403d2b7f97cc1e36/README.md"
+sourceRel: ""
+contentMode: "local-full"
 zh: ""
 ---
 

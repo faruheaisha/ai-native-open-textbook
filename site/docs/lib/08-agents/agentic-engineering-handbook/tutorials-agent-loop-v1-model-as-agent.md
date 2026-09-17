@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/keyuchen21/agentic-engineering-handbook"
-entryUrl: "https://github.com/keyuchen21/agentic-engineering-handbook/blob/002d5456ac717fb6c4444005c9bb2ceff416d8c7/README.md"
+entryUrl: "https://github.com/keyuchen21/agentic-engineering-handbook/blob/002d5456ac717fb6c4444005c9bb2ceff416d8c7/tutorials/agent-loop/v1-model-as-agent.md"
+sourceRel: "tutorials/agent-loop/v1-model-as-agent.md"
+rawUrl: "/raw/08-agents/agentic-engineering-handbook/tutorials/agent-loop/v1-model-as-agent.md"
+sourceSha256: "88861823291a7786652ce5fd35e6f70dbb3b2cf143b7f48f9b5e0405ae8c536b"
+pageSha256: "88861823291a7786652ce5fd35e6f70dbb3b2cf143b7f48f9b5e0405ae8c536b"
+contentMode: "local-full"
 zh: ""
 ---
 

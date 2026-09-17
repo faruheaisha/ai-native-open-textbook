@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "08-agents"
 sourceUrl: "https://github.com/huggingface/agents-course"
-entryUrl: "https://github.com/huggingface/agents-course/blob/b3946b1d09d29c65736e219d48a8a736a2c52154/README.md"
+entryUrl: "https://github.com/huggingface/agents-course/blob/b3946b1d09d29c65736e219d48a8a736a2c52154/units/en/bonus-unit2/what-is-agent-observability-and-evaluation.mdx"
+sourceRel: "units/en/bonus-unit2/what-is-agent-observability-and-evaluation.mdx"
+rawUrl: "/raw/08-agents/huggingface-agents-course/units/en/bonus-unit2/what-is-agent-observability-and-evaluation.mdx"
+sourceSha256: "285010a111331cb86b78afef2d28623834786a42f5771deb000212a78bfa421a"
+pageSha256: "285010a111331cb86b78afef2d28623834786a42f5771deb000212a78bfa421a"
+contentMode: "local-full"
 zh: ""
 ---
 

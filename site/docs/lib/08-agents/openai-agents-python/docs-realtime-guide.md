@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/openai/openai-agents-python"
-entryUrl: "https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/README.md"
+entryUrl: "https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/realtime/guide.md"
+sourceRel: "docs/realtime/guide.md"
+rawUrl: "/raw/08-agents/openai-agents-python/docs/realtime/guide.md"
+sourceSha256: "4d09957f7e01719703b6081ab6f027fa0266fe5e286dc884b6414ffbd557ef84"
+pageSha256: "4d09957f7e01719703b6081ab6f027fa0266fe5e286dc884b6414ffbd557ef84"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -298,7 +303,7 @@ agent = RealtimeAgent(
 
 Function tools can require human approval before execution. When that happens, the session emits `tool_approval_required` and pauses the tool run until you call `approve_tool_call()` or `reject_tool_call()`.
 
-If the tool also has input guardrails, those guardrails run immediately before execution after approval. To run them before the approval event is emitted, create the runner with <code v-pre>RealtimeRunner(..., config={"tool_execution": {"pre_approval_tool_input_guardrails": True}})</code>. Calls that pass this pre-approval check are still checked again after approval before execution.
+If the tool also has input guardrails, those guardrails run immediately before execution after approval. To run them before the approval event is emitted, create the runner with <code v-pre>RealtimeRunner(..., config=\{"tool_execution": \{"pre_approval_tool_input_guardrails": True}})</code>. Calls that pass this pre-approval check are still checked again after approval before execution.
 
 ```python
 async for event in session:

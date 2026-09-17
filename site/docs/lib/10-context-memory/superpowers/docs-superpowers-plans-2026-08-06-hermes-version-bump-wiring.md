@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/obra/superpowers"
-entryUrl: "https://github.com/obra/superpowers/blob/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/README.md"
+entryUrl: "https://github.com/obra/superpowers/blob/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/docs/superpowers/plans/2026-08-06-hermes-version-bump-wiring.md"
+sourceRel: "docs/superpowers/plans/2026-08-06-hermes-version-bump-wiring.md"
+rawUrl: "/raw/10-context-memory/superpowers/docs/superpowers/plans/2026-08-06-hermes-version-bump-wiring.md"
+sourceSha256: "3a9669467c0db792fb1465ccee38e086349b8415aa7077e1d6b8633f47eab208"
+pageSha256: "3a9669467c0db792fb1465ccee38e086349b8415aa7077e1d6b8633f47eab208"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -53,7 +58,7 @@ zh: ""
 - Modify: `.version-bump.json`
 
 **Interfaces:**
-- Consumes: `.version-bump.json` records shaped as `{ "path": string, "field": string }`.
+- Consumes: `.version-bump.json` records shaped as `\{ "path": string, "field": string \}`.
 - Produces: `read_manifest_field FILE FIELD`, `write_manifest_field FILE FIELD VALUE`, and `preflight_manifests` Bash helpers.
 
 - [ ] **Step 1: Fetch the current development base**

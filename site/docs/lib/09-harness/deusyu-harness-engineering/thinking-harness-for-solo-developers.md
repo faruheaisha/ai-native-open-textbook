@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/deusyu/harness-engineering"
-entryUrl: "https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/README.md"
+entryUrl: "https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/thinking/harness-for-solo-developers.md"
+sourceRel: "thinking/harness-for-solo-developers.md"
+rawUrl: "/raw/09-harness/deusyu-harness-engineering/thinking/harness-for-solo-developers.md"
+sourceSha256: "8387ecdfccd629c4f6638f23974a49861bd6a4da0893ae6c9f714dfd56a7fcd7"
+pageSha256: "8387ecdfccd629c4f6638f23974a49861bd6a4da0893ae6c9f714dfd56a7fcd7"
+contentMode: "local-full"
 zh: ""
 ---
 

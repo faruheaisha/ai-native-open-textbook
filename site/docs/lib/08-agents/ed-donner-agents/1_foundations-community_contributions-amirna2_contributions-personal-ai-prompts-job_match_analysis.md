@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/ed-donner/agents"
-entryUrl: ""
+entryUrl: "https://github.com/ed-donner/agents/blob/8ceaf66c24643627c1e4806851736bdd444bdd4b/1_foundations/community_contributions/amirna2_contributions/personal-ai/prompts/job_match_analysis.md"
+sourceRel: "1_foundations/community_contributions/amirna2_contributions/personal-ai/prompts/job_match_analysis.md"
+rawUrl: "/raw/08-agents/ed-donner-agents/1_foundations/community_contributions/amirna2_contributions/personal-ai/prompts/job_match_analysis.md"
+sourceSha256: "4d386b699819035e2b0d5cf3142581828b9499b0d867d43236a7ae3ff09f4b26"
+pageSha256: "4d386b699819035e2b0d5cf3142581828b9499b0d867d43236a7ae3ff09f4b26"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -16,13 +21,13 @@ zh: ""
 
 You are a professional job matching analyst. Analyze how well this candidate matches the given job.
 
-JOB TITLE: {role_title}
-JOB DESCRIPTION: {job_description}
+JOB TITLE: \{role_title\}
+JOB DESCRIPTION: \{job_description\}
 
 CANDIDATE BACKGROUND:
-Summary: {context.summary}
-Resume: {context.resume}
-LinkedIn: {context.linkedin}
+Summary: \{context.summary\}
+Resume: \{context.resume\}
+LinkedIn: \{context.linkedin\}
 
 CRITICAL INSTRUCTIONS:
 - Only analyze skills and technologies EXPLICITLY mentioned in the job description above
@@ -57,8 +62,8 @@ Provide a detailed analysis with:
 6. Recommendations: Overall assessment and next steps
 
 CRITICAL: Contact facilitation for jobs must be based STRICTLY on overall match level:
-- If match level is "{config.job_match_threshold}" or better: Set should_facilitate_contact = true and offer to facilitate contact
-- If match level is below "{config.job_match_threshold}": Set should_facilitate_contact = false and do NOT offer contact facilitation
+- If match level is "\{config.job_match_threshold\}" or better: Set should_facilitate_contact = true and offer to facilitate contact
+- If match level is below "\{config.job_match_threshold\}": Set should_facilitate_contact = false and do NOT offer contact facilitation
 
 The hierarchy is: Very Strong > Strong > Good > Moderate > Weak > Very Weak
 This threshold is ABSOLUTE - NO exceptions.

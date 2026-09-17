@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide"
-entryUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/README.md"
+entryUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/docs/for-tech-leads.md"
+sourceRel: "docs/for-tech-leads.md"
+rawUrl: "/raw/09-harness/claude-code-ultimate-guide/docs/for-tech-leads.md"
+sourceSha256: "7c69ef0d4fd024ef068c32a9808d474e97817e6e16e6d91d6b1f253c6ffe2746"
+pageSha256: "7c69ef0d4fd024ef068c32a9808d474e97817e6e16e6d91d6b1f253c6ffe2746"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -32,8 +37,8 @@ A team with a shared configuration is 3-5× more effective than the same devs wo
 |---|---|
 | **Standardizing config across the team** | WP05: Deploying with a Team *(coming soon)* |
 | **Security & compliance** | WP03: Security in Production · WP06: Privacy & GDPR *(coming soon)* |
-| **CI/CD integration** | [Guide Ch.9.3](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/ultimate-guide.md#93-cicd-integration) |
-| **Onboarding new devs** | [Guide Ch.3.5: Team Configuration at Scale](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/ultimate-guide.md#35-team-configuration-at-scale) |
+| **CI/CD integration** | [Guide Ch.9.3](/lib/09-harness/claude-code-ultimate-guide/guide-ultimate-guide/index#93-cicd-integration) |
+| **Onboarding new devs** | [Guide Ch.3.5: Team Configuration at Scale](/lib/09-harness/claude-code-ultimate-guide/guide-ultimate-guide/index#35-team-configuration-at-scale) |
 | **Understanding the architecture** | WP04: Architecture Demystified *(coming soon)* |
 | **Multi-agent workflows** | WP08: Agent Teams *(coming soon)* |
 
@@ -49,7 +54,7 @@ A team with a shared configuration is 3-5× more effective than the same devs wo
    - GitHub Actions for automated review + security scanning
    - Adoption phases: pilot → expansion → generalization
 
-2. **[Guide Ch.3.5: Team Configuration at Scale](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/ultimate-guide.md#35-team-configuration-at-scale)** (5 min)
+2. **[Guide Ch.3.5: Team Configuration at Scale](/lib/09-harness/claude-code-ultimate-guide/guide-ultimate-guide/index#35-team-configuration-at-scale)** (5 min)
    - How to version your team config in the repo
    - Shared vs personal settings
 
@@ -74,7 +79,7 @@ if [[ "$TOOL_INPUT_PATH" =~ \.env$|secrets/ ]]; then
 fi
 ```
 
-See [Guide Ch.7.4: Security Hooks](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/ultimate-guide.md#74-security-hooks) for the full set.
+See [Guide Ch.7.4: Security Hooks](/lib/09-harness/claude-code-ultimate-guide/guide-ultimate-guide/index#74-security-hooks) for the full set.
 
 ---
 
@@ -105,10 +110,10 @@ If you want structured onboarding rather than self-learning:
 
 ## Quick links
 
-- [Full Guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/ultimate-guide.md): start at Ch.3.5 for team config
+- [Full Guide](/lib/09-harness/claude-code-ultimate-guide/guide-ultimate-guide/index): start at Ch.3.5 for team config
 - Whitepapers: 10 focused deep-dives *(coming soon)*
-- [Templates](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/examples/README.md): ready-to-use hooks, agents, CLAUDE.md examples
-- [Security Hardening](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/security/security-hardening.md): threat database + mitigation guide
+- [Templates](/lib/09-harness/claude-code-ultimate-guide/examples): ready-to-use hooks, agents, CLAUDE.md examples
+- [Security Hardening](/lib/09-harness/claude-code-ultimate-guide/guide-security-security-hardening/index): threat database + mitigation guide
 - [CHANGELOG](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/CHANGELOG.md): what changed recently
 
 ← [Back to main README](/lib/09-harness/claude-code-ultimate-guide/overview)

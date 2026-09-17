@@ -1,0 +1,18 @@
+{
+  "id": "08-agents/openai-cookbook-docs",
+  "volume": "08-agents",
+  "local": "openai-cookbook-docs",
+  "title": "openai-cookbook-docs",
+  "kind": "官方文档",
+  "license": "官方文档（代码样例须逐篇核许可）",
+  "licenseLabel": "仅引用",
+  "licenseNote": "不可整篇转载，站内只做导航与引用",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": false,
+  "repo": null,
+  "site": "https://developers.openai.com/cookbook",
+  "commit": null,
+  "entryUrl": "https://developers.openai.com/cookbook",
+  "docs": 193
+}

@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/jnMetaCode/superpowers-zh"
-entryUrl: "https://github.com/jnMetaCode/superpowers-zh/blob/79ea5d262b7a1c7ce76a289390853bca51f940d4/README.md"
+entryUrl: "https://github.com/jnMetaCode/superpowers-zh/blob/79ea5d262b7a1c7ce76a289390853bca51f940d4/docs/README.kimi.md"
+sourceRel: "docs/README.kimi.md"
+rawUrl: "/raw/10-context-memory/superpowers-zh/docs/README.kimi.md"
+sourceSha256: "038dae3378dc60d528a55ccbc9ed4a8065d2d121b71d2cb4e52fccac49b5c9b2"
+pageSha256: "038dae3378dc60d528a55ccbc9ed4a8065d2d121b71d2cb4e52fccac49b5c9b2"
+contentMode: "local-full"
 zh: ""
 ---
 

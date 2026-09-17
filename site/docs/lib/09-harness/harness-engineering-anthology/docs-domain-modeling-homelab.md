@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/lopopolo/harness-engineering"
-entryUrl: "https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/README.md"
+entryUrl: "https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/docs/domain-modeling/homelab.md"
+sourceRel: "docs/domain-modeling/homelab.md"
+rawUrl: "/raw/09-harness/harness-engineering-anthology/docs/domain-modeling/homelab.md"
+sourceSha256: "5b79cb712f58f1f1cac1a2c3c9d2b42d5eb36febc65c1a4a91cb2d0f2be650c4"
+pageSha256: "5b79cb712f58f1f1cac1a2c3c9d2b42d5eb36febc65c1a4a91cb2d0f2be650c4"
+contentMode: "local-full"
 zh: ""
 ---
 

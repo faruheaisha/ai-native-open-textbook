@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh"
-entryUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/README.md"
+entryUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/docs/claude-code/12-Remote-Control完整指南.md"
+sourceRel: "docs/claude-code/12-Remote-Control完整指南.md"
+rawUrl: "/raw/07-coding/ai-coding-guide-zh/docs/claude-code/12-Remote-Control完整指南.md"
+sourceSha256: "c400e8b4884e2afe4b7dec5bc67ecd56a830e34128ed7a9a1228dae3e4df08c0"
+pageSha256: "c400e8b4884e2afe4b7dec5bc67ecd56a830e34128ed7a9a1228dae3e4df08c0"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -473,7 +478,7 @@ claude --remote-control
 ## 13. 下一步建议
 
 - 想把外部消息直接推到会话中：继续看 [Channels与计划任务完整指南](/lib/07-coding/ai-coding-guide-zh/docs-claude-code-13-Channels与计划任务完整指南)
-- 想理解模型切换、1M context 和 `opusplan`：继续看 [安装指南中的模型配置章节](/lib/07-coding/ai-coding-guide-zh/docs-claude-code-01-Claude-Code完整安装指南#85部分模型配置安装后的进阶配置)
+- 想理解模型切换、1M context 和 `opusplan`：继续看 [安装指南中的模型配置章节](/lib/07-coding/ai-coding-guide-zh/docs-claude-code-01-Claude-Code完整安装指南/index#85部分模型配置安装后的进阶配置)
 
 ---
 

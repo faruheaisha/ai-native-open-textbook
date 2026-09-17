@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/bozhouDev/codex-orange-book"
-entryUrl: "https://github.com/bozhouDev/codex-orange-book/blob/6c72add96c319507da65f963abfd9618d0c9ea0f/README.md"
+entryUrl: "https://github.com/bozhouDev/codex-orange-book/blob/6c72add96c319507da65f963abfd9618d0c9ea0f/site/DEPLOY.md"
+sourceRel: "site/DEPLOY.md"
+rawUrl: "/raw/09-harness/codex-orange-book/site/DEPLOY.md"
+sourceSha256: "b594447978610fe4e5390d6b487587dd9fcf2d846716b3a9e68b266e6626f579"
+pageSha256: "b594447978610fe4e5390d6b487587dd9fcf2d846716b3a9e68b266e6626f579"
+contentMode: "local-full"
 zh: ""
 ---
 

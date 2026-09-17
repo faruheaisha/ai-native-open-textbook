@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/Shubhamsaboo/awesome-llm-apps"
-entryUrl: "https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/README.md"
+entryUrl: "https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/multi_agent_apps/agent_teams/ai_travel_planner_agent_team/backend/agents/README.md"
+sourceRel: "advanced_ai_agents/multi_agent_apps/agent_teams/ai_travel_planner_agent_team/backend/agents/README.md"
+rawUrl: "/raw/08-agents/awesome-llm-apps/advanced_ai_agents/multi_agent_apps/agent_teams/ai_travel_planner_agent_team/backend/agents/README.md"
+sourceSha256: "3a48356aba3e8893f181c64c950e607b06e46a5194d2f9fb6e1691b87befcb31"
+pageSha256: "3a48356aba3e8893f181c64c950e607b06e46a5194d2f9fb6e1691b87befcb31"
+contentMode: "local-full"
 zh: ""
 ---
 

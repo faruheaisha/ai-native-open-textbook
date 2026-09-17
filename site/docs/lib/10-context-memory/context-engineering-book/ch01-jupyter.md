@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/bonigarcia/context-engineering"
-entryUrl: "https://github.com/bonigarcia/context-engineering/blob/46719154489e410b509db4fb69ab1c29fb3362a0/README.md"
+entryUrl: "https://github.com/bonigarcia/context-engineering/blob/46719154489e410b509db4fb69ab1c29fb3362a0/ch01/jupyter/README.md"
+sourceRel: "ch01/jupyter/README.md"
+rawUrl: "/raw/10-context-memory/context-engineering-book/ch01/jupyter/README.md"
+sourceSha256: "539160868b3334207e157db92e4c6e7c15d9fa68777bfe8bea9e2ed4d1006227"
+pageSha256: "539160868b3334207e157db92e4c6e7c15d9fa68777bfe8bea9e2ed4d1006227"
+contentMode: "local-full"
 zh: ""
 ---
 

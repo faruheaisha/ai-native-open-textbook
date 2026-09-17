@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/addyosmani/agent-skills"
-entryUrl: "https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/README.md"
+entryUrl: "https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/docs/getting-started.md"
+sourceRel: "docs/getting-started.md"
+rawUrl: "/raw/10-context-memory/agent-skills-addyosmani/docs/getting-started.md"
+sourceSha256: "16db95d55c06f545e6b17911615eefffa0bbd3da17e3e62d64bc744aa696cc69"
+pageSha256: "16db95d55c06f545e6b17911615eefffa0bbd3da17e3e62d64bc744aa696cc69"
+contentMode: "local-full"
 zh: ""
 ---
 

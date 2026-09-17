@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/google-gemini/cookbook"
-entryUrl: "https://github.com/google-gemini/cookbook/blob/a1b990c859a34823c982f70edaff35b830511c64/README.md"
+entryUrl: "https://github.com/google-gemini/cookbook/blob/a1b990c859a34823c982f70edaff35b830511c64/examples/weaviate/README.md"
+sourceRel: "examples/weaviate/README.md"
+rawUrl: "/raw/08-agents/gemini-cookbook/examples/weaviate/README.md"
+sourceSha256: "ea2ce5bac4a0dd6b9a48030288f86c587d8bf0aad9bf244d8d56b790420c286c"
+pageSha256: "ea2ce5bac4a0dd6b9a48030288f86c587d8bf0aad9bf244d8d56b790420c286c"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/revfactory/harness"
-entryUrl: "https://github.com/revfactory/harness/blob/cceac68ea1d0ad198ef4b7b906cd238375836387/README.md"
+entryUrl: "https://github.com/revfactory/harness/blob/cceac68ea1d0ad198ef4b7b906cd238375836387/skills/harness/references/skill-testing-guide.md"
+sourceRel: "skills/harness/references/skill-testing-guide.md"
+rawUrl: "/raw/09-harness/meta-skill-harness-revfactory/skills/harness/references/skill-testing-guide.md"
+sourceSha256: "6bbf62f35571598edcde1fe65b78faedd9eefbcea47816d7c21a6713de1b7214"
+pageSha256: "6bbf62f35571598edcde1fe65b78faedd9eefbcea47816d7c21a6713de1b7214"
+contentMode: "local-full"
 zh: ""
 ---
 

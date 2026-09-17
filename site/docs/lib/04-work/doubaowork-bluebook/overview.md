@@ -9,6 +9,11 @@ tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/AlephAITech/DoubaoWorkGuide"
 entryUrl: "https://github.com/AlephAITech/DoubaoWorkGuide/blob/ad7338e8fc889ec082cdfb3fa41fb659520c7174/01-初始豆包工作.md"
+sourceRel: "01-初始豆包工作.md"
+rawUrl: "/raw/04-work/doubaowork-bluebook/01-初始豆包工作.md"
+sourceSha256: "d64e339286d886188c661efedbd0c75dc74168c0d023cd6826f3d2518ed70c26"
+pageSha256: "d64e339286d886188c661efedbd0c75dc74168c0d023cd6826f3d2518ed70c26"
+contentMode: "local-full"
 zh: ""
 ---
 

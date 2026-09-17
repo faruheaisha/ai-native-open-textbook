@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "10-context-memory"
 sourceUrl: "https://github.com/coleam00/context-engineering-intro"
-entryUrl: "https://github.com/coleam00/context-engineering-intro/blob/a2d84b021cee1e2f4e77ba854bba0be8cb319035/README.md"
+entryUrl: "https://github.com/coleam00/context-engineering-intro/blob/a2d84b021cee1e2f4e77ba854bba0be8cb319035/use-cases/ai-coding-workflows-foundation/README.md"
+sourceRel: "use-cases/ai-coding-workflows-foundation/README.md"
+rawUrl: "/raw/10-context-memory/context-engineering-intro/use-cases/ai-coding-workflows-foundation/README.md"
+sourceSha256: "ced7ef51d5207b997af91127448f57ec9c1b8873c9d2e2546180c98aa2ca75b0"
+pageSha256: "ced7ef51d5207b997af91127448f57ec9c1b8873c9d2e2546180c98aa2ca75b0"
+contentMode: "local-full"
 zh: "on"
 ---
 

@@ -9,6 +9,11 @@ tier: 2
 volume: "01-foundations"
 sourceUrl: "https://github.com/rasbt/LLMs-from-scratch"
 entryUrl: "https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/01-foundations/llms-from-scratch/README.md"
+sourceSha256: "ef970458d14381ff6876d4ba02fb27dd6a3905d78da282338469159b7405cc3f"
+pageSha256: "ef970458d14381ff6876d4ba02fb27dd6a3905d78da282338469159b7405cc3f"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -60,23 +65,23 @@ You can alternatively view this and other files on GitHub at [https://github.com
 <br>
 
 > **Tip:**
-> If you're seeking guidance on installing Python and Python packages and setting up your code environment, I suggest reading the [README.md](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/setup/README.md) file located in the [setup](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/setup/README.md) directory.
+> If you're seeking guidance on installing Python and Python packages and setting up your code environment, I suggest reading the [README.md](/lib/01-foundations/llms-from-scratch/setup) file located in the [setup](/lib/01-foundations/llms-from-scratch/setup) directory.
 
 <br>
 <br>
 
-- [Troubleshooting Guide](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/troubleshooting.md)
+- [Troubleshooting Guide](/lib/01-foundations/llms-from-scratch/troubleshooting)
 
 | Chapter Title                                              | Main Code (for Quick Access)                                                                                                    | All Code + Supplementary      |
 |------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
-| [Setup recommendations](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/setup/README.md) <br/>[How to best read this book](https://sebastianraschka.com/blog/2025/reading-books.html)                            | -                                                                                                                               | -                             |
+| [Setup recommendations](/lib/01-foundations/llms-from-scratch/setup) <br/>[How to best read this book](https://sebastianraschka.com/blog/2025/reading-books.html)                            | -                                                                                                                               | -                             |
 | Ch 1: Understanding Large Language Models                  | No code                                                                                                                         | -                             |
 | Ch 2: Working with Text Data                               | - [ch02.ipynb](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch02/01_main-chapter-code/ch02.ipynb)<br/>- [dataloader.ipynb](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch02/01_main-chapter-code/dataloader.ipynb) (summary)<br/>- [exercise-solutions.ipynb](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch02/01_main-chapter-code/exercise-solutions.ipynb)               | [./ch02](/lib/01-foundations/llms-from-scratch/ch02)            |
 | Ch 3: Coding Attention Mechanisms                          | - [ch03.ipynb](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch03/01_main-chapter-code/ch03.ipynb)<br/>- [multihead-attention.ipynb](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch03/01_main-chapter-code/multihead-attention.ipynb) (summary) <br/>- [exercise-solutions.ipynb](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch03/01_main-chapter-code/exercise-solutions.ipynb)| [./ch03](/lib/01-foundations/llms-from-scratch/ch03)             |
-| Ch 4: Implementing a GPT Model from Scratch                | - [ch04.ipynb](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch04/01_main-chapter-code/ch04.ipynb)<br/>- [gpt.py](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch04/01_main-chapter-code/gpt.py) (summary)<br/>- [exercise-solutions.ipynb](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch04/01_main-chapter-code/exercise-solutions.ipynb) | [./ch04](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch04/README.md)           |
-| Ch 5: Pretraining on Unlabeled Data                        | - [ch05.ipynb](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch05/01_main-chapter-code/ch05.ipynb)<br/>- [gpt_train.py](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch05/01_main-chapter-code/gpt_train.py) (summary) <br/>- [gpt_generate.py](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch05/01_main-chapter-code/gpt_generate.py) (summary) <br/>- [exercise-solutions.ipynb](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch05/01_main-chapter-code/exercise-solutions.ipynb) | [./ch05](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch05/README.md)              |
-| Ch 6: Finetuning for Text Classification                   | - [ch06.ipynb](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch06/01_main-chapter-code/ch06.ipynb)  <br/>- [gpt_class_finetune.py](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch06/01_main-chapter-code/gpt_class_finetune.py)  <br/>- [exercise-solutions.ipynb](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch06/01_main-chapter-code/exercise-solutions.ipynb) | [./ch06](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch06/README.md)              |
-| Ch 7: Finetuning to Follow Instructions                    | - [ch07.ipynb](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch07/01_main-chapter-code/ch07.ipynb)<br/>- [gpt_instruction_finetuning.py](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch07/01_main-chapter-code/gpt_instruction_finetuning.py) (summary)<br/>- [ollama_evaluate.py](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch07/01_main-chapter-code/ollama_evaluate.py) (summary)<br/>- [exercise-solutions.ipynb](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch07/01_main-chapter-code/exercise-solutions.ipynb) | [./ch07](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch07/README.md)  |
+| Ch 4: Implementing a GPT Model from Scratch                | - [ch04.ipynb](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch04/01_main-chapter-code/ch04.ipynb)<br/>- [gpt.py](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch04/01_main-chapter-code/gpt.py) (summary)<br/>- [exercise-solutions.ipynb](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch04/01_main-chapter-code/exercise-solutions.ipynb) | [./ch04](/lib/01-foundations/llms-from-scratch/ch04)           |
+| Ch 5: Pretraining on Unlabeled Data                        | - [ch05.ipynb](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch05/01_main-chapter-code/ch05.ipynb)<br/>- [gpt_train.py](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch05/01_main-chapter-code/gpt_train.py) (summary) <br/>- [gpt_generate.py](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch05/01_main-chapter-code/gpt_generate.py) (summary) <br/>- [exercise-solutions.ipynb](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch05/01_main-chapter-code/exercise-solutions.ipynb) | [./ch05](/lib/01-foundations/llms-from-scratch/ch05)              |
+| Ch 6: Finetuning for Text Classification                   | - [ch06.ipynb](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch06/01_main-chapter-code/ch06.ipynb)  <br/>- [gpt_class_finetune.py](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch06/01_main-chapter-code/gpt_class_finetune.py)  <br/>- [exercise-solutions.ipynb](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch06/01_main-chapter-code/exercise-solutions.ipynb) | [./ch06](/lib/01-foundations/llms-from-scratch/ch06)              |
+| Ch 7: Finetuning to Follow Instructions                    | - [ch07.ipynb](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch07/01_main-chapter-code/ch07.ipynb)<br/>- [gpt_instruction_finetuning.py](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch07/01_main-chapter-code/gpt_instruction_finetuning.py) (summary)<br/>- [ollama_evaluate.py](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch07/01_main-chapter-code/ollama_evaluate.py) (summary)<br/>- [exercise-solutions.ipynb](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch07/01_main-chapter-code/exercise-solutions.ipynb) | [./ch07](/lib/01-foundations/llms-from-scratch/ch07)  |
 | Appendix A: Introduction to PyTorch                        | - [code-part1.ipynb](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/appendix-A/01_main-chapter-code/code-part1.ipynb)<br/>- [code-part2.ipynb](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/appendix-A/01_main-chapter-code/code-part2.ipynb)<br/>- [DDP-script.py](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/appendix-A/01_main-chapter-code/DDP-script.py)<br/>- [exercise-solutions.ipynb](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/appendix-A/01_main-chapter-code/exercise-solutions.ipynb) | [./appendix-A](/lib/01-foundations/llms-from-scratch/appendix-A) |
 | Appendix B: References and Further Reading                 | No code                                                                                                                         | [./appendix-B](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/appendix-B/README.md) |
 | Appendix C: Exercise Solutions                             | - [list of exercise solutions](/lib/01-foundations/llms-from-scratch/appendix-C)                                                                 | [./appendix-C](/lib/01-foundations/llms-from-scratch/appendix-C) |
@@ -149,9 +154,9 @@ In addition to the code exercises, you can download a free 170-page PDF titled  
 
 Several folders contain optional materials as a bonus for interested readers:
 - **Setup**
-  - [Python Setup Tips](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/setup/01_optional-python-setup-preferences/README.md)
-  - [Installing Python Packages and Libraries Used in This Book](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/setup/02_installing-python-libraries/README.md)
-  - [Docker Environment Setup Guide](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/setup/03_optional-docker-environment/README.md)
+  - [Python Setup Tips](/lib/01-foundations/llms-from-scratch/setup-01_optional-python-setup-preferences)
+  - [Installing Python Packages and Libraries Used in This Book](/lib/01-foundations/llms-from-scratch/setup-02_installing-python-libraries)
+  - [Docker Environment Setup Guide](/lib/01-foundations/llms-from-scratch/setup-03_optional-docker-environment)
 
 - **Chapter 2: Working With Text Data**
   - [Byte Pair Encoding (BPE) Tokenizer From Scratch](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch02/05_bpe-from-scratch/bpe-from-scratch-simple.ipynb)
@@ -168,46 +173,46 @@ Several folders contain optional materials as a bonus for interested readers:
 - **Chapter 4: Implementing a GPT Model From Scratch**
   - [FLOPs Analysis](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch04/02_performance-analysis/flops-analysis.ipynb)
   - [KV Cache](/lib/01-foundations/llms-from-scratch/ch04-03_kv-cache)
-  - [Attention Alternatives](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch04/README.md#attention-alternatives)
-    - [Grouped-Query Attention](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch04/04_gqa/README.md)
-    - [Multi-Head Latent Attention](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch04/05_mla/README.md)
-    - [Sliding Window Attention](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch04/06_swa/README.md)
-    - [Gated DeltaNet](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch04/08_deltanet/README.md)
-    - [DeepSeek Sparse Attention (DSA)](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch04/09_dsa/README.md)
-    - [Cross-Layer KV Sharing](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch04/10_kv-sharing/README.md)
-  - [Mixture-of-Experts (MoE)](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch04/07_moe/README.md)
+  - [Attention Alternatives](/lib/01-foundations/llms-from-scratch/ch04#attention-alternatives)
+    - [Grouped-Query Attention](/lib/01-foundations/llms-from-scratch/ch04-04_gqa)
+    - [Multi-Head Latent Attention](/lib/01-foundations/llms-from-scratch/ch04-05_mla)
+    - [Sliding Window Attention](/lib/01-foundations/llms-from-scratch/ch04-06_swa)
+    - [Gated DeltaNet](/lib/01-foundations/llms-from-scratch/ch04-08_deltanet)
+    - [DeepSeek Sparse Attention (DSA)](/lib/01-foundations/llms-from-scratch/ch04-09_dsa)
+    - [Cross-Layer KV Sharing](/lib/01-foundations/llms-from-scratch/ch04-10_kv-sharing)
+  - [Mixture-of-Experts (MoE)](/lib/01-foundations/llms-from-scratch/ch04-07_moe)
 
 - **Chapter 5: Pretraining on Unlabeled Data**
-  - [Alternative Weight Loading Methods](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch05/02_alternative_weight_loading/README.md)
-  - [Pretraining GPT on the Project Gutenberg Dataset](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch05/03_bonus_pretraining_on_gutenberg/README.md)
-  - [Adding Bells and Whistles to the Training Loop](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch05/04_learning_rate_schedulers/README.md)
-  - [Optimizing Hyperparameters for Pretraining](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch05/05_bonus_hparam_tuning/README.md)
-  - [Building a User Interface to Interact With the Pretrained LLM](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch05/06_user_interface/README.md)
-  - [Converting GPT to Llama](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch05/07_gpt_to_llama/README.md)
+  - [Alternative Weight Loading Methods](/lib/01-foundations/llms-from-scratch/ch05-02_alternative_weight_loading)
+  - [Pretraining GPT on the Project Gutenberg Dataset](/lib/01-foundations/llms-from-scratch/ch05-03_bonus_pretraining_on_gutenberg)
+  - [Adding Bells and Whistles to the Training Loop](/lib/01-foundations/llms-from-scratch/ch05-04_learning_rate_schedulers)
+  - [Optimizing Hyperparameters for Pretraining](/lib/01-foundations/llms-from-scratch/ch05-05_bonus_hparam_tuning)
+  - [Building a User Interface to Interact With the Pretrained LLM](/lib/01-foundations/llms-from-scratch/ch05-06_user_interface)
+  - [Converting GPT to Llama](/lib/01-foundations/llms-from-scratch/ch05-07_gpt_to_llama)
   - [Memory-efficient Model Weight Loading](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch05/08_memory_efficient_weight_loading/memory-efficient-state-dict.ipynb)
   - [Extending the Tiktoken BPE Tokenizer with New Tokens](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch05/09_extending-tokenizers/extend-tiktoken.ipynb)
-  - [PyTorch Performance Tips for Faster LLM Training](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch05/10_llm-training-speed/README.md)
-  - [LLM Architectures](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch05/README.md#llm-architectures-from-scratch)
+  - [PyTorch Performance Tips for Faster LLM Training](/lib/01-foundations/llms-from-scratch/ch05-10_llm-training-speed)
+  - [LLM Architectures](/lib/01-foundations/llms-from-scratch/ch05#llm-architectures-from-scratch)
     - [Llama 3.2 From Scratch](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch05/07_gpt_to_llama/standalone-llama32.ipynb)
-    - [Qwen3 Dense and Mixture-of-Experts (MoE) From Scratch](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch05/11_qwen3/README.md)
-    - [Gemma 3 From Scratch](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch05/12_gemma3/README.md)
-    - [Olmo 3 From Scratch](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch05/13_olmo3/README.md)
-    - [Tiny Aya From Scratch](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch05/15_tiny-aya/README.md)
-    - [Qwen3.5 From Scratch](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch05/16_qwen3.5/README.md)
-    - [Gemma 4 E2B and E4B From Scratch](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch05/17_gemma4/README.md)
-  - [Chapter 5 with other LLMs as Drop-In Replacement (e.g., Llama 3, Qwen 3)](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch05/14_ch05_with_other_llms/README.md)
+    - [Qwen3 Dense and Mixture-of-Experts (MoE) From Scratch](/lib/01-foundations/llms-from-scratch/ch05-11_qwen3)
+    - [Gemma 3 From Scratch](/lib/01-foundations/llms-from-scratch/ch05-12_gemma3)
+    - [Olmo 3 From Scratch](/lib/01-foundations/llms-from-scratch/ch05-13_olmo3)
+    - [Tiny Aya From Scratch](/lib/01-foundations/llms-from-scratch/ch05-15_tiny-aya)
+    - [Qwen3.5 From Scratch](/lib/01-foundations/llms-from-scratch/ch05-16_qwen3.5)
+    - [Gemma 4 E2B and E4B From Scratch](/lib/01-foundations/llms-from-scratch/ch05-17_gemma4)
+  - [Chapter 5 with other LLMs as Drop-In Replacement (e.g., Llama 3, Qwen 3)](/lib/01-foundations/llms-from-scratch/ch05-14_ch05_with_other_llms)
 - **Chapter 6: Finetuning for classification**
-  - [Additional Experiments Finetuning Different Layers and Using Larger Models](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch06/02_bonus_additional-experiments/README.md)
-  - [Finetuning Different Models on the 50k IMDb Movie Review Dataset](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch06/03_bonus_imdb-classification/README.md)
-  - [Building a User Interface to Interact With the GPT-based Spam Classifier](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch06/04_user_interface/README.md)
+  - [Additional Experiments Finetuning Different Layers and Using Larger Models](/lib/01-foundations/llms-from-scratch/ch06-02_bonus_additional-experiments)
+  - [Finetuning Different Models on the 50k IMDb Movie Review Dataset](/lib/01-foundations/llms-from-scratch/ch06-03_bonus_imdb-classification)
+  - [Building a User Interface to Interact With the GPT-based Spam Classifier](/lib/01-foundations/llms-from-scratch/ch06-04_user_interface)
 - **Chapter 7: Finetuning to follow instructions**
-  - [Dataset Utilities for Finding Near Duplicates and Creating Passive Voice Entries](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch07/02_dataset-utilities/README.md)
-  - [Evaluating Instruction Responses Using the OpenAI API and Ollama](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch07/03_model-evaluation/README.md)
+  - [Dataset Utilities for Finding Near Duplicates and Creating Passive Voice Entries](/lib/01-foundations/llms-from-scratch/ch07-02_dataset-utilities)
+  - [Evaluating Instruction Responses Using the OpenAI API and Ollama](/lib/01-foundations/llms-from-scratch/ch07-03_model-evaluation)
   - [Generating a Dataset for Instruction Finetuning](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch07/05_dataset-generation/llama3-ollama.ipynb)
   - [Improving a Dataset for Instruction Finetuning](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch07/05_dataset-generation/reflection-gpt4.ipynb)
   - [Generating a Preference Dataset With Llama 3.1 70B and Ollama](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch07/04_preference-tuning-with-dpo/create-preference-data-ollama.ipynb)
   - [Direct Preference Optimization (DPO) for LLM Alignment](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch07/04_preference-tuning-with-dpo/dpo-from-scratch.ipynb)
-  - [Building a User Interface to Interact With the Instruction-Finetuned GPT Model](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch07/06_user_interface/README.md)
+  - [Building a User Interface to Interact With the Instruction-Finetuned GPT Model](/lib/01-foundations/llms-from-scratch/ch07-06_user_interface)
 
 More bonus material from the [Reasoning From Scratch](https://github.com/rasbt/reasoning-from-scratch) repository:
 

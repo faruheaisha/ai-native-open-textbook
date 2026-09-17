@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/stormzhang/ai-coding-guide"
-entryUrl: "https://github.com/stormzhang/ai-coding-guide/blob/d187dbdb83fa1be051a850074eb518e30e2eb47c/README.md"
+entryUrl: "https://github.com/stormzhang/ai-coding-guide/blob/d187dbdb83fa1be051a850074eb518e30e2eb47c/claude-code/21-security.md"
+sourceRel: "claude-code/21-security.md"
+rawUrl: "/raw/07-coding/ai-coding-guide-stormzhang/claude-code/21-security.md"
+sourceSha256: "368f60e78331da92eeff4ee67c0a1ef78adeea2b7fdc4b12b7d498897ed12749"
+pageSha256: "368f60e78331da92eeff4ee67c0a1ef78adeea2b7fdc4b12b7d498897ed12749"
+contentMode: "local-full"
 zh: ""
 ---
 

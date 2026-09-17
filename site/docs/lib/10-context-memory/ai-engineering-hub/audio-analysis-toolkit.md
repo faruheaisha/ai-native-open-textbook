@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/patchy631/ai-engineering-hub"
-entryUrl: "https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/README.md"
+entryUrl: "https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/audio-analysis-toolkit/README.md"
+sourceRel: "audio-analysis-toolkit/README.md"
+rawUrl: "/raw/10-context-memory/ai-engineering-hub/audio-analysis-toolkit/README.md"
+sourceSha256: "530ca9314cfa4c559b7a49978be543cc4e1d6825e22837946ec94274f8f477bd"
+pageSha256: "530ca9314cfa4c559b7a49978be543cc4e1d6825e22837946ec94274f8f477bd"
+contentMode: "local-full"
 zh: ""
 ---
 

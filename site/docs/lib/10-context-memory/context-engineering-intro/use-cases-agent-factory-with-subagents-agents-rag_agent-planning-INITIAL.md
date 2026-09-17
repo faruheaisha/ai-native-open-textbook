@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "10-context-memory"
 sourceUrl: "https://github.com/coleam00/context-engineering-intro"
-entryUrl: "https://github.com/coleam00/context-engineering-intro/blob/a2d84b021cee1e2f4e77ba854bba0be8cb319035/README.md"
+entryUrl: "https://github.com/coleam00/context-engineering-intro/blob/a2d84b021cee1e2f4e77ba854bba0be8cb319035/use-cases/agent-factory-with-subagents/agents/rag_agent/planning/INITIAL.md"
+sourceRel: "use-cases/agent-factory-with-subagents/agents/rag_agent/planning/INITIAL.md"
+rawUrl: "/raw/10-context-memory/context-engineering-intro/use-cases/agent-factory-with-subagents/agents/rag_agent/planning/INITIAL.md"
+sourceSha256: "40f1de54b707b1a998437f2151c0d124cf631cedab9c2f738e7068484c064fda"
+pageSha256: "40f1de54b707b1a998437f2151c0d124cf631cedab9c2f738e7068484c064fda"
+contentMode: "local-full"
 zh: "on"
 ---
 

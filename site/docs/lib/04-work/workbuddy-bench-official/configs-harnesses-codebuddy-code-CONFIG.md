@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "04-work"
 sourceUrl: "https://github.com/Tencent/workbuddy-bench"
-entryUrl: "https://github.com/Tencent/workbuddy-bench/blob/625b2233093ae4f23e76be28c1f341d41cc70373/README.md"
+entryUrl: "https://github.com/Tencent/workbuddy-bench/blob/625b2233093ae4f23e76be28c1f341d41cc70373/configs/harnesses/codebuddy-code/CONFIG.md"
+sourceRel: "configs/harnesses/codebuddy-code/CONFIG.md"
+rawUrl: "/raw/04-work/workbuddy-bench-official/configs/harnesses/codebuddy-code/CONFIG.md"
+sourceSha256: "c3e1157d5df7608002372a7d1d66bd05a86260b54b42c7f225f8dcef102a2cc0"
+pageSha256: "c3e1157d5df7608002372a7d1d66bd05a86260b54b42c7f225f8dcef102a2cc0"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -92,7 +97,7 @@ versions that can't be parsed fall back to path B. Choose B for an absolute toke
 | `configs/models/<m>.yaml` | `model.context_window` (optional) | physical cap; a resolved value exceeding it fails fast |
 
 After resolution, `resolve_manifest._resolve_context_window` stores the result in the manifest's
-`context_window: {window, compact_pct, model_physical_max}`, which cbc_agent then translates per the table above.
+`context_window: \{window, compact_pct, model_physical_max\}`, which cbc_agent then translates per the table above.
 
 ## Version → deny list
 

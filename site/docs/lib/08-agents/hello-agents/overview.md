@@ -9,6 +9,11 @@ tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/datawhalechina/hello-agents"
 entryUrl: "https://github.com/datawhalechina/hello-agents/blob/4f7682ceafe573d07cd8a7d0b89908500e83227d/docs/前言.md"
+sourceRel: "docs/前言.md"
+rawUrl: "/raw/08-agents/hello-agents/docs/前言.md"
+sourceSha256: "2151ba2f3cdfbd3dae0bf86199ccc16b002b794796786e338a7be4e1321f3d28"
+pageSha256: "2151ba2f3cdfbd3dae0bf86199ccc16b002b794796786e338a7be4e1321f3d28"
+contentMode: "local-full"
 zh: ""
 ---
 

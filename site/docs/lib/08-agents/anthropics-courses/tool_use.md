@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/anthropics/courses"
-entryUrl: "https://github.com/anthropics/courses/blob/f4dbb137d7b02dddaf3cc73e32e20a702d3b5e77/README.md"
+entryUrl: "https://github.com/anthropics/courses/blob/f4dbb137d7b02dddaf3cc73e32e20a702d3b5e77/tool_use/README.md"
+sourceRel: "tool_use/README.md"
+rawUrl: "/raw/08-agents/anthropics-courses/tool_use/README.md"
+sourceSha256: "e023a3bd67763664f3007ece0cc890e51cfd6da3b6ab94bd590326fc6884701a"
+pageSha256: "e023a3bd67763664f3007ece0cc890e51cfd6da3b6ab94bd590326fc6884701a"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -12,4 +12,4 @@ title: "本地与端侧 AI"
 
 | 课程 | 分类 | 课时 | 原文 |
 |---|---|---|---|
-| ★★★ [EdgeAI for Beginners](/lib/13-local-ai/edgeai-for-beginners/index) | 系统课程 | 25 | [打开 ↗](https://github.com/microsoft/edgeai-for-beginners) |
+| ★★★ [EdgeAI for Beginners](/lib/13-local-ai/edgeai-for-beginners/index) | 系统课程 | 150 | [打开 ↗](https://github.com/microsoft/edgeai-for-beginners) |

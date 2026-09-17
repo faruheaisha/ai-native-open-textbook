@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/shanraisshan/claude-code-best-practice"
-entryUrl: "https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/README.md"
+entryUrl: "https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/changelog/best-practice/concepts/verification-checklist.md"
+sourceRel: "changelog/best-practice/concepts/verification-checklist.md"
+rawUrl: "/raw/09-harness/claude-code-best-practice/changelog/best-practice/concepts/verification-checklist.md"
+sourceSha256: "94ca57798c7c137729142d455dff9222905109eab3e57d8c4ec581c04ca346e8"
+pageSha256: "94ca57798c7c137729142d455dff9222905109eab3e57d8c4ec581c04ca346e8"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/stormzhang/ai-coding-guide"
-entryUrl: "https://github.com/stormzhang/ai-coding-guide/blob/d187dbdb83fa1be051a850074eb518e30e2eb47c/README.md"
+entryUrl: "https://github.com/stormzhang/ai-coding-guide/blob/d187dbdb83fa1be051a850074eb518e30e2eb47c/claude-code/23-subagents.md"
+sourceRel: "claude-code/23-subagents.md"
+rawUrl: "/raw/07-coding/ai-coding-guide-stormzhang/claude-code/23-subagents.md"
+sourceSha256: "990dd17c75f97dba8323a78c080a5b130906045e095d0d044c82720a86d28020"
+pageSha256: "990dd17c75f97dba8323a78c080a5b130906045e095d0d044c82720a86d28020"
+contentMode: "local-full"
 zh: ""
 ---
 

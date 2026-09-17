@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/hijasonxu1/How-to-use-dify"
-entryUrl: "https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/README.md"
+entryUrl: "https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/docs/chapters/03-第一个聊天助手.md"
+sourceRel: "docs/chapters/03-第一个聊天助手.md"
+rawUrl: "/raw/04-work/how-to-use-dify/docs/chapters/03-第一个聊天助手.md"
+sourceSha256: "3067db92a06f537e81b758b51cb0aa4ae04a39227870a463c574ab69caef5ffc"
+pageSha256: "3067db92a06f537e81b758b51cb0aa4ae04a39227870a463c574ab69caef5ffc"
+contentMode: "local-full"
 zh: ""
 ---
 

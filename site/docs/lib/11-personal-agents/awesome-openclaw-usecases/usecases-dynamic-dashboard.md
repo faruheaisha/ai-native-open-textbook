@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases"
-entryUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/README.md"
+entryUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/dynamic-dashboard.md"
+sourceRel: "usecases/dynamic-dashboard.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-usecases/usecases/dynamic-dashboard.md"
+sourceSha256: "a5a8cf6fec7f1addcf9bd1fe759bcb01a0b17799c2ad47043f3b0b5c682d59da"
+pageSha256: "a5a8cf6fec7f1addcf9bd1fe759bcb01a0b17799c2ad47043f3b0b5c682d59da"
+contentMode: "local-full"
 zh: ""
 ---
 

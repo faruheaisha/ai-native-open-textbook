@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/freestylefly/CodexGuide"
-entryUrl: "https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/README.md"
+entryUrl: "https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/advanced/11-troubleshooting.md"
+sourceRel: "docs/advanced/11-troubleshooting.md"
+rawUrl: "/raw/09-harness/codex-guide-freestylefly/docs/advanced/11-troubleshooting.md"
+sourceSha256: "d0aa3545386c53cadd8b07a03f69c965f6ccaffa8232856d242f1a990402ce4f"
+pageSha256: "d0aa3545386c53cadd8b07a03f69c965f6ccaffa8232856d242f1a990402ce4f"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -156,4 +161,4 @@ NO_PROXY = "localhost,127.0.0.1,::1,*.local"
 
 ## 下一步
 
-下一步：[实战案例库](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/recipes/00-index.md)。
+下一步：[实战案例库](/lib/09-harness/codex-guide-freestylefly/docs-recipes-00-)。

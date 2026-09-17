@@ -1,0 +1,77 @@
+---
+title: "Testing the toolbox"
+sourceId: "10-context-memory/microsoft-skills"
+sourceTitle: "Microsoft Agent Skills"
+sourceKind: "技能与配置库"
+licenseLabel: "可转载"
+lang: "英文"
+tier: 3
+volume: "10-context-memory"
+sourceUrl: "https://github.com/microsoft/skills"
+entryUrl: "https://github.com/microsoft/skills/blob/cf77b1efbf3117501f4727c476894751311ee885/.github/plugins/azure-skills/skills/microsoft-foundry/foundry-agent/toolbox/references/test-endpoint.md"
+sourceRel: ".github/plugins/azure-skills/skills/microsoft-foundry/foundry-agent/toolbox/references/test-endpoint.md"
+rawUrl: "/raw/10-context-memory/microsoft-skills/.github/plugins/azure-skills/skills/microsoft-foundry/foundry-agent/toolbox/references/test-endpoint.md"
+sourceSha256: "30ce163e2166c0e1549067831f5f71f098b81a67e8ed716e1aa68b3a995862e8"
+pageSha256: "30ce163e2166c0e1549067831f5f71f098b81a67e8ed716e1aa68b3a995862e8"
+contentMode: "local-full"
+zh: ""
+---
+
+# Testing the toolbox
+
+After creating or updating a toolbox (steps 1–3 in each tool's setup guide), verify it works. Two ways: call the MCP endpoint directly, or exercise it through the deployed agent.
+
+## 1. Call the toolbox endpoint directly
+
+Verify the toolbox MCP endpoint end-to-end without an agent. Use `az login` for authentication, then test the MCP operations in order. For endpoint URL format and auth scope, see [toolbox.md § MCP endpoint URL format](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-toolbox-toolbox#mcp-endpoint-url-format).
+
+**a. Get a bearer token:**
+
+```bash
+TOKEN=$(az account get-access-token --resource https://ai.azure.com --query accessToken -o tsv)
+TOOLBOX_URL="https://<account>.services.ai.azure.com/api/projects/<project>/toolboxes/<name>/mcp?api-version=v1"
+```
+
+**b. (Optional) Initialize MCP session:**
+
+The toolbox endpoint is stateless, so this step is not required — `tools/list` and `tools/call` work without it. Run it only to confirm the handshake:
+
+```bash
+curl -sS -X POST "$TOOLBOX_URL" \
+  -H "Authorization: Bearer $TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2025-03-26","capabilities":{},"clientInfo":{"name":"debug","version":"1.0.0"}}}' \
+  -D - | head -20
+```
+
+No `mcp-session-id` header is returned, and none is needed on later calls.
+
+**c. List tools:**
+
+```bash
+curl -sS -X POST "$TOOLBOX_URL" \
+  -H "Authorization: Bearer $TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","id":2,"method":"tools/list","params":{}}' | python -m json.tool
+```
+
+**d. Call a tool.** The argument shape is per-tool — read each tool's `inputSchema` from `tools/list`. Examples for the connectionless built-ins:
+
+```bash
+# web_search — arg is `search_query` (returns live Bing results)
+curl -sS -X POST "$TOOLBOX_URL" -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","id":3,"method":"tools/call","params":{"name":"<web_search_tool_name>","arguments":{"search_query":"latest Azure Foundry news"}}}' | python -m json.tool
+
+# code_interpreter — arg is `code` (spins up a sandbox container and runs it; isError=false)
+curl -sS -X POST "$TOOLBOX_URL" -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","id":4,"method":"tools/call","params":{"name":"<code_interpreter_tool_name>","arguments":{"code":"print(6*7)"}}}' | python -m json.tool
+```
+
+> ⚠️ **Agent-identity-authed tools won't work locally — that's expected, not a blocker.** The token above is your **user** identity, not the deployed agent's. Use section 2 to test those.
+
+## 2. Test it through the agent
+
+Wire the toolbox endpoint into the agent, deploy, and invoke it — this exercises the tool with the deployed agent's identity (the only way to test agent-identity-authed tools):
+
+```bash
+# 1. Read the endpoint and set the env var

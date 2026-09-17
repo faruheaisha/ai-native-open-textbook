@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/google-gemini/cookbook"
-entryUrl: "https://github.com/google-gemini/cookbook/blob/a1b990c859a34823c982f70edaff35b830511c64/README.md"
+entryUrl: "https://github.com/google-gemini/cookbook/blob/a1b990c859a34823c982f70edaff35b830511c64/quickstarts-js/README.md"
+sourceRel: "quickstarts-js/README.md"
+rawUrl: "/raw/08-agents/gemini-cookbook/quickstarts-js/README.md"
+sourceSha256: "6e47bc3a5f70f7dd0c9ff82258e38cb8ed2868efa97ff35a522943f74e41d947"
+pageSha256: "6e47bc3a5f70f7dd0c9ff82258e38cb8ed2868efa97ff35a522943f74e41d947"
+contentMode: "local-full"
 zh: ""
 ---
 

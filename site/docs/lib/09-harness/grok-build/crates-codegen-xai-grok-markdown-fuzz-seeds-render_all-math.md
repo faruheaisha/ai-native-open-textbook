@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/xai-org/grok-build"
-entryUrl: "https://github.com/xai-org/grok-build/blob/37949780c144e37df692e3d669051a21fec24f20/README.md"
+entryUrl: "https://github.com/xai-org/grok-build/blob/37949780c144e37df692e3d669051a21fec24f20/crates/codegen/xai-grok-markdown/fuzz/seeds/render_all/math.md"
+sourceRel: "crates/codegen/xai-grok-markdown/fuzz/seeds/render_all/math.md"
+rawUrl: "/raw/09-harness/grok-build/crates/codegen/xai-grok-markdown/fuzz/seeds/render_all/math.md"
+sourceSha256: "afaef38a2480d33a8bfb8e9884c87103a98ec8efe1cea06f4ede3198d6c15cb8"
+pageSha256: "afaef38a2480d33a8bfb8e9884c87103a98ec8efe1cea06f4ede3198d6c15cb8"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -23,10 +28,10 @@ $$
 $$
 
 \[
-\begin{aligned}
-f(x) &= \sqrt{x^2 + 1} \\
-g(x) &= \begin{cases} x & x \ge 0 \\ -x & x < 0 \end{cases}
-\end{aligned}
+\begin\{aligned\}
+f(x) &= \sqrt\{x^2 + 1\} \\
+g(x) &= \begin\{cases\} x & x \ge 0 \\ -x & x < 0 \end\{cases\}
+\end\{aligned\}
 \]
 
 Matrix: $$\begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$$

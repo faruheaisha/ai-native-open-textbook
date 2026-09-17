@@ -1,0 +1,104 @@
+---
+title: "Groups and provisioning"
+sourceId: "09-harness/openai-codex-docs-official"
+sourceTitle: "openai-codex-docs-official"
+sourceKind: "官方文档"
+licenseLabel: "仅引用"
+lang: "英文"
+tier: 3
+volume: "09-harness"
+sourceUrl: "https://learn.chatgpt.com/docs"
+entryUrl: "https://learn.chatgpt.com/docs"
+sourceRel: "docs/enterprise/groups-and-provisioning.md"
+rawUrl: "/raw/09-harness/openai-codex-docs-official/docs/enterprise/groups-and-provisioning.md"
+sourceSha256: "ba5a16d78ca7b233b79b8573acb626d6f3b71a59235bb3076dd8e76798d9d92c"
+pageSha256: "ba5a16d78ca7b233b79b8573acb626d6f3b71a59235bb3076dd8e76798d9d92c"
+contentMode: "local-full"
+zh: ""
+---
+
+# Groups and provisioning
+
+> For the complete documentation index, see [llms.txt](https://learn.chatgpt.com/llms.txt). Markdown versions of documentation pages are available by appending `.md` to the page URL.
+
+Groups organize people in a ChatGPT workspace and can carry custom roles. Group
+membership doesn't replace seat assignments, grant workspace feature permissions
+by itself, override local runtime policy, or provide access to the Platform API
+or connected systems.
+
+For the complete control model, see
+[Roles and workspace permissions](https://learn.chatgpt.com/docs/enterprise/roles-and-workspace-permissions).
+
+## Compare membership sources
+
+Use groups for people with a shared access need, such as a pilot cohort,
+workspace operators, or members who need the same supported feature.
+
+### Create a group for a shared access need
+
+Workspace owners and admins can create and manage groups. Create a manually
+managed group for a small or temporary audience, or sync an established group
+from your identity provider when membership should follow your directory.
+
+Each group has one authoritative membership source:
+
+| Group type                | Membership source                   | When it applies                                                                  |
+| ------------------------- | ----------------------------------- | -------------------------------------------------------------------------------- |
+| Manually managed          | ChatGPT workspace administration    | The group is small, temporary, or not managed through directory sync             |
+| Identity-provider managed | Your identity provider through SCIM | Membership should follow the organization's directory and member-removal process |
+
+Manual and identity-provider-managed groups can coexist. For synchronized
+groups, the identity provider is the membership source; later provisioning
+updates can overwrite workspace-side changes. The Help Center owns current SCIM
+behavior, supported attributes, and setup steps.
+
+## Understand the access boundary
+
+Group membership by itself doesn't grant a workspace feature permission.
+
+### Connect a group to the right permissions
+
+Workspace owners can assign custom roles to groups or, where available, directly
+to members. Check every applicable role: an explicit **Off** in any role
+denies that permission, even when another role grants it. A member's seat type
+and product eligibility still apply.
+
+SCIM provisions workspace membership and group assignments. It doesn't grant
+permissions in GitHub, Google Drive, Slack, or another connected system. It also
+doesn't replace local runtime requirements or Platform API organization access.
+
+Workspace RBAC and local runtime requirements are separate control systems. A
+group can be relevant to both, but don't infer a managed-requirements matching
+or precedence rule from workspace group order. Use
+[Managed configuration](https://learn.chatgpt.com/docs/enterprise/managed-configuration) for the
+documented delivery and local precedence rules.
+
+## Use current setup procedures
+
+Workspace administration details can change. Use these sources for current UI
+steps, availability, and limits:
+
+- [Manage members, seat types, roles, and access](https://help.openai.com/en/articles/8266401-managing-members-seat-types-roles-and-access-in-chatgpt-enterprise)
+- [Manage groups](https://help.openai.com/en/articles/9083985-group-permissions-in-gpts)
+- [SCIM integration FAQ](https://help.openai.com/en/articles/10011769-openai-platform-scim-integration-faq)
+- [Manage workspace settings](https://help.openai.com/en/articles/8411955)
+
+### Verify joiners, movers, and leavers
+
+- **Joiners:** Confirm the member accepts any pending workspace invitation and
+  receives the intended seat, group memberships, permissions, and supported
+  features.
+- **Movers:** Update the authoritative membership source and verify the
+  member's effective permissions across all applicable roles.
+- **Leavers:** Remove a SCIM-managed member's access through the identity
+  provider and confirm that the member can no longer access the workspace. If
+  you remove the member only from the workspace, a later sync can restore
+  access.
+
+## Related docs
+
+- [User lifecycle management](https://learn.chatgpt.com/docs/enterprise/user-lifecycle)
+- [Authentication](https://learn.chatgpt.com/docs/auth)
+- [Roles and workspace permissions](https://learn.chatgpt.com/docs/enterprise/roles-and-workspace-permissions)
+- [Managed configuration](https://learn.chatgpt.com/docs/enterprise/managed-configuration)
+- [Admin rollout guide](https://learn.chatgpt.com/docs/enterprise/admin-setup)

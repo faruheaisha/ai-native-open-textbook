@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "04-work"
 sourceUrl: "https://github.com/tangshiyegit/agent-guide"
-entryUrl: "https://github.com/tangshiyegit/agent-guide/blob/ae8b2262e7a1e5bd0d466037c6ad9f6037b72c33/README.md"
+entryUrl: "https://github.com/tangshiyegit/agent-guide/blob/ae8b2262e7a1e5bd0d466037c6ad9f6037b72c33/src/Coze指南/Coze基础入门/03.主流智能体平台对比.md"
+sourceRel: "src/Coze指南/Coze基础入门/03.主流智能体平台对比.md"
+rawUrl: "/raw/04-work/agent-guide-office/src/Coze指南/Coze基础入门/03.主流智能体平台对比.md"
+sourceSha256: "4728337c1e3aa7a10aaab8e92f27579e64805b6595ee99c6dc96a232a314f047"
+pageSha256: "4728337c1e3aa7a10aaab8e92f27579e64805b6595ee99c6dc96a232a314f047"
+contentMode: "local-full"
 zh: ""
 ---
 

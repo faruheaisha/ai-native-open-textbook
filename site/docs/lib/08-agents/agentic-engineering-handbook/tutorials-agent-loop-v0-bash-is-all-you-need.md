@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/keyuchen21/agentic-engineering-handbook"
-entryUrl: "https://github.com/keyuchen21/agentic-engineering-handbook/blob/002d5456ac717fb6c4444005c9bb2ceff416d8c7/README.md"
+entryUrl: "https://github.com/keyuchen21/agentic-engineering-handbook/blob/002d5456ac717fb6c4444005c9bb2ceff416d8c7/tutorials/agent-loop/v0-bash-is-all-you-need.md"
+sourceRel: "tutorials/agent-loop/v0-bash-is-all-you-need.md"
+rawUrl: "/raw/08-agents/agentic-engineering-handbook/tutorials/agent-loop/v0-bash-is-all-you-need.md"
+sourceSha256: "3437617f750aa0e40d079218b001b24fb64b83be7f9ccadae0fb68892dd5124c"
+pageSha256: "3437617f750aa0e40d079218b001b24fb64b83be7f9ccadae0fb68892dd5124c"
+contentMode: "local-full"
 zh: ""
 ---
 

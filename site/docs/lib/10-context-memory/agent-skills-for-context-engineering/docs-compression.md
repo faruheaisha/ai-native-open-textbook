@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering"
-entryUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/README.md"
+entryUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/docs/compression.md"
+sourceRel: "docs/compression.md"
+rawUrl: "/raw/10-context-memory/agent-skills-for-context-engineering/docs/compression.md"
+sourceSha256: "3be8febd4f461a0962e4529200fa5ad36361faccea486e8662f3416a393b0302"
+pageSha256: "3be8febd4f461a0962e4529200fa5ad36361faccea486e8662f3416a393b0302"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -152,31 +157,31 @@ The judge receives the probe question, the model's response, the compacted conve
 
 Here is an abbreviated example of judge output for the Factory response above:
 
-{
+\{
   "criterionResults": [
-    {
+    \{
       "criterionId": "accuracy_factual",
       "score": 5,
       "reasoning": "Response correctly identifies the 401 error, the specific endpoint (/api/auth/login), and the root cause (Redis connection issue)."
-    },
-    {
+    \},
+    \{
       "criterionId": "accuracy_technical",
       "score": 5,
       "reasoning": "Technical details are accurate - JWT generation, session persistence, and the causal chain are correctly described."
-    },
-    {
+    \},
+    \{
       "criterionId": "context_artifact_state",
       "score": 4,
       "reasoning": "Response demonstrates awareness of the debugging journey but does not enumerate all files examined."
-    },
-    {
+    \},
+    \{
       "criterionId": "completeness_coverage",
       "score": 5,
       "reasoning": "Fully addresses the probe question with the error code, endpoint, symptom, and root cause."
-    }
+    \}
   ],
   "aggregateScore": 4.8
-}
+\}
 
 The judge does not know which compression method produced the response. It evaluates purely on response quality against the rubric.
 

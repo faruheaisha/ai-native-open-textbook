@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/Chachamaru127/claude-code-harness"
-entryUrl: "https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/README.md"
+entryUrl: "https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/docs/cc-2.1.99-2.1.110-impact.md"
+sourceRel: "docs/cc-2.1.99-2.1.110-impact.md"
+rawUrl: "/raw/09-harness/claude-code-harness-chachamaru/docs/cc-2.1.99-2.1.110-impact.md"
+sourceSha256: "80844d6d7ad7da390f55d725a8c59db22fe638fdc5947f24c0b4dd8573bb7222"
+pageSha256: "80844d6d7ad7da390f55d725a8c59db22fe638fdc5947f24c0b4dd8573bb7222"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -40,7 +45,7 @@ Phase 44 で Harness 側に具体的変更を伴う項目。各行に対応フ�
 | 2.1.101 | Skill が `context: fork` と `agent` frontmatter を honor しない既存バグ修正 | Harness skill で `context: fork` を使っているスキル (canai-docs 等) の再検証 | **44.7.1** (小機能統合) |
 | 2.1.101 | Subagent が動的注入 MCP server を継承しないバグ修正 | Breezing での動的 MCP、`harness-mem` 継承 | **44.7.1** |
 | 2.1.101 | Sub-agent が isolated worktree 内の自身のファイルに Read/Edit できないバグ修正 | `isolation: worktree` の Worker / Advisor | **44.7.1** (動作確認 + smoke) |
-| 2.1.105 | **新 hook: `PreCompact`** — `{"decision":"block"}` / exit 2 で compaction を停止可能 | 長時間 Worker の意図せぬ compaction 中断を防ぐ | **44.2.1** (Go 実装 + hooks.json 登録) |
+| 2.1.105 | **新 hook: `PreCompact`** — `\{"decision":"block"\}` / exit 2 で compaction を停止可能 | 長時間 Worker の意図せぬ compaction 中断を防ぐ | **44.2.1** (Go 実装 + hooks.json 登録) |
 | 2.1.105 | **Plugin manifest: `monitors` 新規 top-level key** — session 起動 / skill invoke で background monitor が auto-arm | Harness の mem 健全性 / drift 監視 / advisor 状態の常駐化 | **44.2.2** (plugin.json 追加) |
 | 2.1.105 | `EnterWorktree` に `path` parameter 追加、既存 worktree への再入可能 | `scripts/run-worker-*.sh` 等の worktree 再利用 | **44.7.1** |
 | 2.1.105 | `/proactive` alias for `/loop` | harness-loop のエイリアス方針 | **44.7.1** (docs 追記) |

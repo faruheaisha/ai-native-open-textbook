@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/openai/openai-cookbook"
-entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/README.md"
+entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/articles/gpt-oss/verifying-implementations.md"
+sourceRel: "articles/gpt-oss/verifying-implementations.md"
+rawUrl: "/raw/08-agents/openai-cookbook/articles/gpt-oss/verifying-implementations.md"
+sourceSha256: "2739da26588a3705a13ea603baf2293149de0da8cb7e8637d2fe2187fbe0c6f1"
+pageSha256: "2739da26588a3705a13ea603baf2293149de0da8cb7e8637d2fe2187fbe0c6f1"
+contentMode: "local-full"
 zh: ""
 ---
 

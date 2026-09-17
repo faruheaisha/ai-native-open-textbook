@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/didilili/ai-agents-from-zero"
-entryUrl: "https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/README.md"
+entryUrl: "https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/10-LangChain快速上手与HelloWorld.md"
+sourceRel: "10-LangChain快速上手与HelloWorld.md"
+rawUrl: "/raw/08-agents/ai-agents-from-zero/10-LangChain快速上手与HelloWorld.md"
+sourceSha256: "80bcc21c890a70df3cd3e04659c0ea2d38cf032db0b75cd4506201b509c8761f"
+pageSha256: "80bcc21c890a70df3cd3e04659c0ea2d38cf032db0b75cd4506201b509c8761f"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -24,7 +29,7 @@ zh: ""
 
 **学习建议：** 这一章的目标很朴素：先让一次模型调用真的跑起来。学习时先确认依赖、模型名、API Key、Base URL 这几项，再看代码结构；第一次成功后，再比较多模型共存和工程化封装。遇到旧教程里的 0.x 写法，重点看它和本章 1.x 写法在入口和对象组织上有什么差别。
 
-**官方文档与资源**：详见 [工具导航与参考资料索引 - LangChain](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/工具导航与参考资料索引.md#_LangChain)。
+**官方文档与资源**：详见 [工具导航与参考资料索引 - LangChain](/lib/08-agents/ai-agents-from-zero/工具导航与参考资料索引#_LangChain)。
 
 ---
 
@@ -69,7 +74,7 @@ LangChain 可以通过不同集成包接入很多模型提供商，官方提供�
 2. 激活虚拟环境
 3. 安装本项目完整依赖
 
-更细的环境准备步骤，可配合 [新手入门与常见问题](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/新手入门与常见问题.md) 一起看。
+更细的环境准备步骤，可配合 [新手入门与常见问题](/lib/08-agents/ai-agents-from-zero/新手入门与常见问题) 一起看。
 
 ### 1.3 运行案例前置注意事项
 

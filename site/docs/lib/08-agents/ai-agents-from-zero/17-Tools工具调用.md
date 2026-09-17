@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/didilili/ai-agents-from-zero"
-entryUrl: "https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/README.md"
+entryUrl: "https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/17-Tools工具调用.md"
+sourceRel: "17-Tools工具调用.md"
+rawUrl: "/raw/08-agents/ai-agents-from-zero/17-Tools工具调用.md"
+sourceSha256: "093c21d6ee124e36d7482d346ed4489b1cf0c1b0e6e2f964f9b3bf94a2a20fd7"
+pageSha256: "093c21d6ee124e36d7482d346ed4489b1cf0c1b0e6e2f964f9b3bf94a2a20fd7"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -24,7 +29,7 @@ zh: ""
 
 **学习建议：** 学工具调用时先守住边界：模型负责判断要不要调用工具和填参数，程序负责真正执行工具并把结果交回去。读本章可以按 `@tool`、`bind_tools`、`tool_calls`、`ToolMessage`、业务闭环这条线走。Pydantic 不是装饰，它是在帮工具参数变成一份更可靠的契约。
 
-**官方文档与资源**：详见 [工具导航与参考资料索引 - 工具调用、MCP与智能体](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/工具导航与参考资料索引.md#工具调用、MCP与智能体)。
+**官方文档与资源**：详见 [工具导航与参考资料索引 - 工具调用、MCP与智能体](/lib/08-agents/ai-agents-from-zero/工具导航与参考资料索引#工具调用、MCP与智能体)。
 
 ---
 

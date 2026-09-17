@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/walkinglabs/learn-harness-engineering"
-entryUrl: "https://github.com/walkinglabs/learn-harness-engineering/blob/77e7a3e21469dcbece2558086c8d91657abeaa40/README.md"
+entryUrl: "https://github.com/walkinglabs/learn-harness-engineering/blob/77e7a3e21469dcbece2558086c8d91657abeaa40/docs/zh/lectures/lecture-03-why-the-repository-must-become-the-system-of-record/index.md"
+sourceRel: "docs/zh/lectures/lecture-03-why-the-repository-must-become-the-system-of-record/index.md"
+rawUrl: "/raw/09-harness/learn-harness-engineering/docs/zh/lectures/lecture-03-why-the-repository-must-become-the-system-of-record/index.md"
+sourceSha256: "0b79bb752d60992af57cd746e3b3968979f127572fa9b22e7460d5b4a7503bfb"
+pageSha256: "0b79bb752d60992af57cd746e3b3968979f127572fa9b22e7460d5b4a7503bfb"
+contentMode: "local-full"
 zh: ""
 ---
 

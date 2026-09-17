@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/QoderAI/better-harness"
-entryUrl: "https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/README.md"
+entryUrl: "https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/blog/2026-08-09-agent-plugin-engineering.md"
+sourceRel: "docs/blog/2026-08-09-agent-plugin-engineering.md"
+rawUrl: "/raw/09-harness/better-harness/docs/blog/2026-08-09-agent-plugin-engineering.md"
+sourceSha256: "cad9c81f3bc15b2f7a8e3e658b2efcf39bc742ff623957c4c297ad9d783098d6"
+pageSha256: "cad9c81f3bc15b2f7a8e3e658b2efcf39bc742ff623957c4c297ad9d783098d6"
+contentMode: "local-full"
 zh: ""
 ---
 

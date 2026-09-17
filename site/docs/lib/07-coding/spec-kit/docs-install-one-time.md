@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/github/spec-kit"
-entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/README.md"
+entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/docs/install/one-time.md"
+sourceRel: "docs/install/one-time.md"
+rawUrl: "/raw/07-coding/spec-kit/docs/install/one-time.md"
+sourceSha256: "1a128e9fdb0d75be4bc9b48740c68f3eb3729385f92f71237b52ad5864f3a660"
+pageSha256: "1a128e9fdb0d75be4bc9b48740c68f3eb3729385f92f71237b52ad5864f3a660"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/github/spec-kit"
-entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/README.md"
+entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/docs/guides/existing-projects.md"
+sourceRel: "docs/guides/existing-projects.md"
+rawUrl: "/raw/07-coding/spec-kit/docs/guides/existing-projects.md"
+sourceSha256: "1ab81af1def55fcc6787f31c3a31771721e87debed8b16467e1e1310758fba2f"
+pageSha256: "1ab81af1def55fcc6787f31c3a31771721e87debed8b16467e1e1310758fba2f"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -23,7 +28,7 @@ and use the workflow for the next bounded change.
 Before initialization, commit or stash existing work and create a branch for the
 adoption. This makes every generated file visible in a normal code review.
 
-Choose the [integration key](https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/docs/reference/integrations.md) for the coding agent
+Choose the [integration key](/lib/07-coding/spec-kit/docs-reference-integrations) for the coding agent
 you use. Then run the command from the repository root:
 
 ```bash
@@ -95,8 +100,8 @@ Continue through the normal workflow:
    implementation and convergence until the feature is complete.
 
 For command details and optional quality gates, see the
-[Quick Start Guide](https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/docs/quickstart.md) and
-[Agentic SDD reference](https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/docs/reference/agentic-sdd.md).
+[Quick Start Guide](/lib/07-coding/spec-kit/docs-quickstart) and
+[Agentic SDD reference](/lib/07-coding/spec-kit/docs-reference-agentic-sdd).
 
 ## 5. Decide How Specs Will Age
 

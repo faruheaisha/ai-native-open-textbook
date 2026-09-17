@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "10-context-memory"
 sourceUrl: "https://github.com/coleam00/context-engineering-intro"
-entryUrl: "https://github.com/coleam00/context-engineering-intro/blob/a2d84b021cee1e2f4e77ba854bba0be8cb319035/README.md"
+entryUrl: "https://github.com/coleam00/context-engineering-intro/blob/a2d84b021cee1e2f4e77ba854bba0be8cb319035/use-cases/ai-coding-workflows-foundation/commands/primer.md"
+sourceRel: "use-cases/ai-coding-workflows-foundation/commands/primer.md"
+rawUrl: "/raw/10-context-memory/context-engineering-intro/use-cases/ai-coding-workflows-foundation/commands/primer.md"
+sourceSha256: "d42626a29ed49c5b345423046abd828ec08a0e844c2ba07c400f75959eb2e9de"
+pageSha256: "d42626a29ed49c5b345423046abd828ec08a0e844c2ba07c400f75959eb2e9de"
+contentMode: "local-full"
 zh: "on"
 ---
 

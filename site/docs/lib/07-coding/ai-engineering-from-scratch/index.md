@@ -10,6 +10,8 @@ lang: "英文"
 volume: "07-coding"
 sourceUrl: "https://github.com/rohitg00/ai-engineering-from-scratch"
 entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/README.md"
+sourceRel: ""
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -21,28 +23,2240 @@ same lesson code.
 
 ## 课时
 
-1. [Backers](BACKERS.md)
-2. [Book Pipeline](book.md)
-3. [Learn Claude Certifications From GitHub](certifications-claude-GETTING_STARTED.md)
-4. [Study the Decisions, Not the Vocabulary](certifications-claude-lessons-00-certification-strategy-docs-en.md)
-5. [Choose the Smallest Surface That Can Carry the Work](certifications-claude-lessons-01-claude-product-and-model-landscape-docs-en.md)
-6. [Spend Capability Where Failure Is Expensive](certifications-claude-lessons-02-model-selection-and-token-economics-docs-en.md)
-7. [Turn a Request Into a Testable Contract](certifications-claude-lessons-03-prompting-and-task-decomposition-docs-en.md)
-8. [Put Each Fact in the Right Kind of Context](certifications-claude-lessons-04-context-knowledge-memory-and-caching-docs-en.md)
-9. [Validate the Claim, Not the Confidence](certifications-claude-lessons-05-output-evaluation-and-validation-docs-en.md)
-10. [Put Authority Around Capability](certifications-claude-lessons-06-governance-safety-and-responsible-use-docs-en.md)
-11. [Design the Handoff Before the Automation](certifications-claude-lessons-07-workflow-design-and-human-handoffs-docs-en.md)
-12. [The Messages API Is a State Machine](certifications-claude-lessons-08-messages-api-and-application-lifecycle-docs-en.md)
-13. [Structured Output Is an Untrusted Contract](certifications-claude-lessons-09-structured-output-and-defensive-parsing-docs-en.md)
-14. [A Tool Loop Is Controlled Delegation](certifications-claude-lessons-10-tool-use-and-agentic-loops-docs-en.md)
-15. [MCP Separates Capability From Host](certifications-claude-lessons-11-mcp-server-design-and-integration-docs-en.md)
-16. [The Agent SDK Is a Harness, Not Permission](certifications-claude-lessons-12-claude-agent-sdk-and-hooks-docs-en.md)
-17. [Security Lives Outside the Prompt](certifications-claude-lessons-13-application-security-and-secrets-docs-en.md)
-18. [Evals Turn Agent Behavior Into Engineering Evidence](certifications-claude-lessons-14-evals-testing-debugging-and-observability-docs-en.md)
-19. [Claude Code Scales Through Shared Constraints](certifications-claude-lessons-15-claude-code-for-development-teams-docs-en.md)
-20. [Team Configuration Review: Support Router](certifications-claude-lessons-15-claude-code-for-development-teams-outputs-team-configuration-review.md)
-21. [Multi-Agent Orchestration and Delegation](certifications-claude-lessons-16-multi-agent-orchestration-and-delegation-docs-en.md)
-22. [Orchestration Contract: Runtime Migration Decision](certifications-claude-lessons-16-multi-agent-orchestration-and-delegation-outputs-orchestration-contract.md)
-23. [Agent SDK Sessions, Subagents, and Context](certifications-claude-lessons-17-agent-sdk-sessions-subagents-and-context-docs-en.md)
+- **Setup & Tooling**
+  - [Dev Environment](/lib/07-coding/ai-engineering-from-scratch/phases-00-setup-and-tooling-01-dev-environment-docs-en.md)
+  - [Git & Collaboration](/lib/07-coding/ai-engineering-from-scratch/phases-00-setup-and-tooling-02-git-and-collaboration-docs-en.md)
+  - [GPU Setup & Cloud](/lib/07-coding/ai-engineering-from-scratch/phases-00-setup-and-tooling-03-gpu-setup-and-cloud-docs-en.md)
+  - [APIs & Keys](/lib/07-coding/ai-engineering-from-scratch/phases-00-setup-and-tooling-04-apis-and-keys-docs-en.md)
+  - [Jupyter Notebooks](/lib/07-coding/ai-engineering-from-scratch/phases-00-setup-and-tooling-05-jupyter-notebooks-docs-en.md)
+  - [Python Environments](/lib/07-coding/ai-engineering-from-scratch/phases-00-setup-and-tooling-06-python-environments-docs-en.md)
+  - [Docker for AI](/lib/07-coding/ai-engineering-from-scratch/phases-00-setup-and-tooling-07-docker-for-ai-docs-en.md)
+  - [Editor Setup](/lib/07-coding/ai-engineering-from-scratch/phases-00-setup-and-tooling-08-editor-setup-docs-en.md)
+  - [Data Management](/lib/07-coding/ai-engineering-from-scratch/phases-00-setup-and-tooling-09-data-management-docs-en.md)
+  - [Terminal & Shell](/lib/07-coding/ai-engineering-from-scratch/phases-00-setup-and-tooling-10-terminal-and-shell-docs-en.md)
+  - [Linux for AI](/lib/07-coding/ai-engineering-from-scratch/phases-00-setup-and-tooling-11-linux-for-ai-docs-en.md)
+  - [Debugging & Profiling](/lib/07-coding/ai-engineering-from-scratch/phases-00-setup-and-tooling-12-debugging-and-profiling-docs-en.md)
+- **Math Foundations**
+  - [Linear Algebra Intuition](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-01-linear-algebra-intuition-docs-en.md)
+  - [Vectors, Matrices & Operations](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-02-vectors-matrices-operations-docs-en.md)
+  - [Matrix Transformations & Eigenvalues](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-03-matrix-transformations-docs-en.md)
+  - [Calculus for ML: Derivatives & Gradients](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-04-calculus-for-ml-docs-en.md)
+  - [Chain Rule & Automatic Differentiation](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-05-chain-rule-and-autodiff-docs-en.md)
+  - [Probability & Distributions](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-06-probability-and-distributions-docs-en.md)
+  - [Bayes' Theorem & Statistical Thinking](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-07-bayes-theorem-docs-en.md)
+  - [Optimization: Gradient Descent Family](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-08-optimization-docs-en.md)
+  - [Information Theory: Entropy, KL Divergence](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-09-information-theory-docs-en.md)
+  - [Dimensionality Reduction: PCA, t-SNE, UMAP](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-10-dimensionality-reduction-docs-en.md)
+  - [Singular Value Decomposition](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-11-singular-value-decomposition-docs-en.md)
+  - [Tensor Operations](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-12-tensor-operations-docs-en.md)
+  - [Numerical Stability](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-13-numerical-stability-docs-en.md)
+  - [Norms & Distances](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-14-norms-and-distances-docs-en.md)
+  - [Statistics for ML](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-15-statistics-for-ml-docs-en.md)
+  - [Sampling Methods](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-16-sampling-methods-docs-en.md)
+  - [Linear Systems](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-17-linear-systems-docs-en.md)
+  - [Complex Numbers for AI](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-19-complex-numbers-docs-en.md)
+  - [The Fourier Transform](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-20-fourier-transform-docs-en.md)
+  - [Graph Theory for ML](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-21-graph-theory-docs-en.md)
+  - [Stochastic Processes](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-22-stochastic-processes-docs-en.md)
+- **ML Fundamentals**
+  - [What Is Machine Learning](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals-01-what-is-machine-learning-docs-en.md)
+  - [Linear Regression from Scratch](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals-02-linear-regression-docs-en.md)
+  - [Logistic Regression & Classification](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals-03-logistic-regression-docs-en.md)
+  - [Decision Trees & Random Forests](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals-04-decision-trees-docs-en.md)
+  - [Support Vector Machines](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals-05-support-vector-machines-docs-en.md)
+  - [KNN & Distance Metrics](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals-06-knn-and-distances-docs-en.md)
+  - [Unsupervised Learning: K-Means, DBSCAN](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals-07-unsupervised-learning-docs-en.md)
+  - [Feature Engineering & Selection](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals-08-feature-engineering-docs-en.md)
+  - [Model Evaluation: Metrics, Cross-Validation](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals-09-model-evaluation-docs-en.md)
+  - [Bias, Variance & the Learning Curve](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals-10-bias-variance-docs-en.md)
+  - [Ensemble Methods: Boosting, Bagging, Stacking](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals-11-ensemble-methods-docs-en.md)
+  - [Hyperparameter Tuning](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals-12-hyperparameter-tuning-docs-en.md)
+  - [ML Pipelines & Experiment Tracking](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals-13-ml-pipelines-docs-en.md)
+  - [Naive Bayes](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals-14-naive-bayes-docs-en.md)
+  - [Time Series Fundamentals](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals-15-time-series-docs-en.md)
+  - [Anomaly Detection](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals-16-anomaly-detection-docs-en.md)
+  - [Handling Imbalanced Data](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals-17-imbalanced-data-docs-en.md)
+  - [Feature Selection](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals-18-feature-selection-docs-en.md)
+- **Deep Learning Core**
+  - [The Perceptron: Where It All Started](/lib/07-coding/ai-engineering-from-scratch/phases-03-deep-learning-core-01-the-perceptron-docs-en.md)
+  - [Multi-Layer Networks & Forward Pass](/lib/07-coding/ai-engineering-from-scratch/phases-03-deep-learning-core-02-multi-layer-networks-docs-en.md)
+  - [Backpropagation from Scratch](/lib/07-coding/ai-engineering-from-scratch/phases-03-deep-learning-core-03-backpropagation-docs-en.md)
+  - [Activation Functions: ReLU, Sigmoid, GELU & Why](/lib/07-coding/ai-engineering-from-scratch/phases-03-deep-learning-core-04-activation-functions-docs-en.md)
+  - [Loss Functions: MSE, Cross-Entropy, Contrastive](/lib/07-coding/ai-engineering-from-scratch/phases-03-deep-learning-core-05-loss-functions-docs-en.md)
+  - [Optimizers: SGD, Momentum, Adam, AdamW](/lib/07-coding/ai-engineering-from-scratch/phases-03-deep-learning-core-06-optimizers-docs-en.md)
+  - [Regularization: Dropout, Weight Decay, BatchNorm](/lib/07-coding/ai-engineering-from-scratch/phases-03-deep-learning-core-07-regularization-docs-en.md)
+  - [Weight Initialization & Training Stability](/lib/07-coding/ai-engineering-from-scratch/phases-03-deep-learning-core-08-weight-initialization-docs-en.md)
+  - [Learning Rate Schedules & Warmup](/lib/07-coding/ai-engineering-from-scratch/phases-03-deep-learning-core-09-learning-rate-schedules-docs-en.md)
+  - [Build Your Own Mini Framework](/lib/07-coding/ai-engineering-from-scratch/phases-03-deep-learning-core-10-mini-framework-docs-en.md)
+  - [Introduction to PyTorch](/lib/07-coding/ai-engineering-from-scratch/phases-03-deep-learning-core-11-intro-to-pytorch-docs-en.md)
+  - [Introduction to JAX](/lib/07-coding/ai-engineering-from-scratch/phases-03-deep-learning-core-12-intro-to-jax-docs-en.md)
+  - [Debugging Neural Networks](/lib/07-coding/ai-engineering-from-scratch/phases-03-deep-learning-core-13-debugging-neural-networks-docs-en.md)
+- **Computer Vision**
+  - [Image Fundamentals: Pixels, Channels, Color Spaces](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-01-image-fundamentals-docs-en.md)
+  - [Convolutions from Scratch](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-02-convolutions-from-scratch-docs-en.md)
+  - [CNNs: LeNet to ResNet](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-03-cnns-lenet-to-resnet-docs-en.md)
+  - [Image Classification](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-04-image-classification-docs-en.md)
+  - [Transfer Learning & Fine-Tuning](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-05-transfer-learning-docs-en.md)
+  - [Object Detection — YOLO from Scratch](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-06-object-detection-yolo-docs-en.md)
+  - [Semantic Segmentation — U-Net](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-07-semantic-segmentation-unet-docs-en.md)
+  - [Instance Segmentation — Mask R-CNN](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-08-instance-segmentation-mask-rcnn-docs-en.md)
+  - [Image Generation — GANs](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-09-image-generation-gans-docs-en.md)
+  - [Image Generation — Diffusion Models](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-10-image-generation-diffusion-docs-en.md)
+  - [Stable Diffusion — Architecture & Fine-Tuning](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-11-stable-diffusion-docs-en.md)
+  - [Video Understanding — Temporal Modeling](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-12-video-understanding-docs-en.md)
+  - [3D Vision: Point Clouds, NeRFs](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-13-3d-vision-nerf-docs-en.md)
+  - [Vision Transformers (ViT)](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-14-vision-transformers-docs-en.md)
+  - [Real-Time Vision: Edge Deployment](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-15-real-time-edge-docs-en.md)
+  - [Build a Complete Vision Pipeline](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-16-vision-pipeline-capstone-docs-en.md)
+  - [Self-Supervised Vision — SimCLR, DINO, MAE](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-17-self-supervised-vision-docs-en.md)
+  - [Open-Vocabulary Vision — CLIP](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-18-open-vocab-clip-docs-en.md)
+  - [OCR & Document Understanding](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-19-ocr-document-understanding-docs-en.md)
+  - [Image Retrieval & Metric Learning](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-20-image-retrieval-metric-docs-en.md)
+  - [Keypoint Detection & Pose Estimation](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-21-keypoint-pose-docs-en.md)
+  - [3D Gaussian Splatting from Scratch](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-22-3d-gaussian-splatting-docs-en.md)
+  - [Diffusion Transformers & Rectified Flow](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-23-diffusion-transformers-rectified-flow-docs-en.md)
+  - [SAM 3 & Open-Vocabulary Segmentation](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-24-sam3-open-vocab-segmentation-docs-en.md)
+  - [Vision-Language Models (ViT-MLP-LLM)](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-25-vision-language-models-docs-en.md)
+  - [Monocular Depth & Geometry Estimation](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-26-monocular-depth-docs-en.md)
+  - [Multi-Object Tracking & Video Memory](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-27-multi-object-tracking-docs-en.md)
+  - [World Models & Video Diffusion](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-28-world-models-video-diffusion-docs-en.md)
+- **NLP: Foundations to Advanced**
+  - [Text Processing: Tokenization, Stemming, Lemmatization](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-01-text-processing-docs-en.md)
+  - [Bag of Words, TF-IDF & Text Representation](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-02-bag-of-words-tfidf-docs-en.md)
+  - [Word Embeddings: Word2Vec from Scratch](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-03-word-embeddings-word2vec-docs-en.md)
+  - [GloVe, FastText & Subword Embeddings](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-04-glove-fasttext-subword-docs-en.md)
+  - [Sentiment Analysis](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-05-sentiment-analysis-docs-en.md)
+  - [Named Entity Recognition (NER)](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-06-named-entity-recognition-docs-en.md)
+  - [POS Tagging & Syntactic Parsing](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-07-pos-tagging-parsing-docs-en.md)
+  - [Text Classification — CNNs & RNNs for Text](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-08-cnns-rnns-for-text-docs-en.md)
+  - [Sequence-to-Sequence Models](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-09-sequence-to-sequence-docs-en.md)
+  - [Attention Mechanism — The Breakthrough](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-10-attention-mechanism-docs-en.md)
+  - [Machine Translation](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-11-machine-translation-docs-en.md)
+  - [Text Summarization](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-12-text-summarization-docs-en.md)
+  - [Question Answering Systems](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-13-question-answering-docs-en.md)
+  - [Information Retrieval & Search](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-14-information-retrieval-search-docs-en.md)
+  - [Topic Modeling: LDA, BERTopic](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-15-topic-modeling-docs-en.md)
+  - [Text Generation](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-16-text-generation-pre-transformer-docs-en.md)
+  - [Chatbots: Rule-Based to Neural](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-17-chatbots-rule-to-neural-docs-en.md)
+  - [Multilingual NLP](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-18-multilingual-nlp-docs-en.md)
+  - [Subword Tokenization: BPE, WordPiece, Unigram, SentencePiece](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-19-subword-tokenization-docs-en.md)
+  - [Structured Outputs & Constrained Decoding](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-20-structured-outputs-constrained-decoding-docs-en.md)
+  - [NLI & Textual Entailment](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-21-nli-textual-entailment-docs-en.md)
+  - [Embedding Models Deep Dive](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-22-embedding-models-deep-dive-docs-en.md)
+  - [Chunking Strategies for RAG](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-23-chunking-strategies-rag-docs-en.md)
+  - [Coreference Resolution](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-24-coreference-resolution-docs-en.md)
+  - [Entity Linking & Disambiguation](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-25-entity-linking-docs-en.md)
+  - [Relation Extraction & Knowledge Graph Construction](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-26-relation-extraction-kg-docs-en.md)
+  - [LLM Evaluation: RAGAS, DeepEval, G-Eval](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-27-llm-evaluation-frameworks-docs-en.md)
+  - [Long-Context Evaluation: NIAH, RULER, LongBench, MRCR](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-28-long-context-evaluation-docs-en.md)
+  - [Dialogue State Tracking](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-29-dialogue-state-tracking-docs-en.md)
+- **Speech & Audio**
+  - [Audio Fundamentals: Waveforms, Sampling, FFT](/lib/07-coding/ai-engineering-from-scratch/phases-06-speech-and-audio-01-audio-fundamentals-docs-en.md)
+  - [Spectrograms, Mel Scale & Audio Features](/lib/07-coding/ai-engineering-from-scratch/phases-06-speech-and-audio-02-spectrograms-mel-features-docs-en.md)
+  - [Audio Classification](/lib/07-coding/ai-engineering-from-scratch/phases-06-speech-and-audio-03-audio-classification-docs-en.md)
+  - [Speech Recognition (ASR)](/lib/07-coding/ai-engineering-from-scratch/phases-06-speech-and-audio-04-speech-recognition-asr-docs-en.md)
+  - [Whisper: Architecture & Fine-Tuning](/lib/07-coding/ai-engineering-from-scratch/phases-06-speech-and-audio-05-whisper-architecture-finetuning-docs-en.md)
+  - [Speaker Recognition & Verification](/lib/07-coding/ai-engineering-from-scratch/phases-06-speech-and-audio-06-speaker-recognition-verification-docs-en.md)
+  - [Text-to-Speech (TTS)](/lib/07-coding/ai-engineering-from-scratch/phases-06-speech-and-audio-07-text-to-speech-docs-en.md)
+  - [Voice Cloning & Voice Conversion](/lib/07-coding/ai-engineering-from-scratch/phases-06-speech-and-audio-08-voice-cloning-conversion-docs-en.md)
+  - [Music Generation](/lib/07-coding/ai-engineering-from-scratch/phases-06-speech-and-audio-09-music-generation-docs-en.md)
+  - [Audio-Language Models](/lib/07-coding/ai-engineering-from-scratch/phases-06-speech-and-audio-10-audio-language-models-docs-en.md)
+  - [Real-Time Audio Processing](/lib/07-coding/ai-engineering-from-scratch/phases-06-speech-and-audio-11-real-time-audio-processing-docs-en.md)
+  - [Build a Voice Assistant Pipeline](/lib/07-coding/ai-engineering-from-scratch/phases-06-speech-and-audio-12-voice-assistant-pipeline-docs-en.md)
+  - [Neural Audio Codecs — EnCodec, SNAC, Mimi, DAC](/lib/07-coding/ai-engineering-from-scratch/phases-06-speech-and-audio-13-neural-audio-codecs-docs-en.md)
+  - [Voice Activity Detection & Turn-Taking](/lib/07-coding/ai-engineering-from-scratch/phases-06-speech-and-audio-14-voice-activity-detection-turn-taking-docs-en.md)
+  - [Streaming Speech-to-Speech — Moshi, Hibiki](/lib/07-coding/ai-engineering-from-scratch/phases-06-speech-and-audio-15-streaming-speech-to-speech-moshi-hibiki-docs-en.md)
+  - [Voice Anti-Spoofing & Audio Watermarking](/lib/07-coding/ai-engineering-from-scratch/phases-06-speech-and-audio-16-anti-spoofing-audio-watermarking-docs-en.md)
+  - [Audio Evaluation — WER, MOS, MMAU, Leaderboards](/lib/07-coding/ai-engineering-from-scratch/phases-06-speech-and-audio-17-audio-evaluation-metrics-docs-en.md)
+- **Transformers Deep Dive**
+  - [Why Transformers: The Problems with RNNs](/lib/07-coding/ai-engineering-from-scratch/phases-07-transformers-deep-dive-01-why-transformers-docs-en.md)
+  - [Self-Attention from Scratch](/lib/07-coding/ai-engineering-from-scratch/phases-07-transformers-deep-dive-02-self-attention-from-scratch-docs-en.md)
+  - [Multi-Head Attention](/lib/07-coding/ai-engineering-from-scratch/phases-07-transformers-deep-dive-03-multi-head-attention-docs-en.md)
+  - [Positional Encoding: Sinusoidal, RoPE, ALiBi](/lib/07-coding/ai-engineering-from-scratch/phases-07-transformers-deep-dive-04-positional-encoding-docs-en.md)
+  - [The Full Transformer: Encoder + Decoder](/lib/07-coding/ai-engineering-from-scratch/phases-07-transformers-deep-dive-05-full-transformer-docs-en.md)
+  - [BERT — Masked Language Modeling](/lib/07-coding/ai-engineering-from-scratch/phases-07-transformers-deep-dive-06-bert-masked-language-modeling-docs-en.md)
+  - [GPT — Causal Language Modeling](/lib/07-coding/ai-engineering-from-scratch/phases-07-transformers-deep-dive-07-gpt-causal-language-modeling-docs-en.md)
+  - [T5, BART — Encoder-Decoder Models](/lib/07-coding/ai-engineering-from-scratch/phases-07-transformers-deep-dive-08-t5-bart-encoder-decoder-docs-en.md)
+  - [Vision Transformers (ViT)](/lib/07-coding/ai-engineering-from-scratch/phases-07-transformers-deep-dive-09-vision-transformers-docs-en.md)
+  - [Audio Transformers — Whisper Architecture](/lib/07-coding/ai-engineering-from-scratch/phases-07-transformers-deep-dive-10-audio-transformers-whisper-docs-en.md)
+  - [Mixture of Experts (MoE)](/lib/07-coding/ai-engineering-from-scratch/phases-07-transformers-deep-dive-11-mixture-of-experts-docs-en.md)
+  - [KV Cache, Flash Attention & Inference Optimization](/lib/07-coding/ai-engineering-from-scratch/phases-07-transformers-deep-dive-12-kv-cache-flash-attention-docs-en.md)
+  - [Scaling Laws](/lib/07-coding/ai-engineering-from-scratch/phases-07-transformers-deep-dive-13-scaling-laws-docs-en.md)
+  - [Build a Transformer from Scratch](/lib/07-coding/ai-engineering-from-scratch/phases-07-transformers-deep-dive-14-build-a-transformer-capstone-docs-en.md)
+  - [Attention Variants — Sliding Window, Sparse, Differential](/lib/07-coding/ai-engineering-from-scratch/phases-07-transformers-deep-dive-15-attention-variants-docs-en.md)
+  - [Speculative Decoding — Draft, Verify, Repeat](/lib/07-coding/ai-engineering-from-scratch/phases-07-transformers-deep-dive-16-speculative-decoding-docs-en.md)
+- **Generative AI**
+  - [Generative Models: Taxonomy & History](/lib/07-coding/ai-engineering-from-scratch/phases-08-generative-ai-01-generative-models-taxonomy-history-docs-en.md)
+  - [Autoencoders & VAE](/lib/07-coding/ai-engineering-from-scratch/phases-08-generative-ai-02-autoencoders-vae-docs-en.md)
+  - [GANs: Generator vs Discriminator](/lib/07-coding/ai-engineering-from-scratch/phases-08-generative-ai-03-gans-generator-discriminator-docs-en.md)
+  - [Conditional GANs & Pix2Pix](/lib/07-coding/ai-engineering-from-scratch/phases-08-generative-ai-04-conditional-gans-pix2pix-docs-en.md)
+  - [StyleGAN](/lib/07-coding/ai-engineering-from-scratch/phases-08-generative-ai-05-stylegan-docs-en.md)
+  - [Diffusion Models — DDPM from Scratch](/lib/07-coding/ai-engineering-from-scratch/phases-08-generative-ai-06-diffusion-ddpm-from-scratch-docs-en.md)
+  - [Latent Diffusion & Stable Diffusion](/lib/07-coding/ai-engineering-from-scratch/phases-08-generative-ai-07-latent-diffusion-stable-diffusion-docs-en.md)
+  - [ControlNet, LoRA & Conditioning](/lib/07-coding/ai-engineering-from-scratch/phases-08-generative-ai-08-controlnet-lora-conditioning-docs-en.md)
+  - [Inpainting, Outpainting & Editing](/lib/07-coding/ai-engineering-from-scratch/phases-08-generative-ai-09-inpainting-outpainting-editing-docs-en.md)
+  - [Video Generation](/lib/07-coding/ai-engineering-from-scratch/phases-08-generative-ai-10-video-generation-docs-en.md)
+  - [Audio Generation](/lib/07-coding/ai-engineering-from-scratch/phases-08-generative-ai-11-audio-generation-docs-en.md)
+  - [3D Generation](/lib/07-coding/ai-engineering-from-scratch/phases-08-generative-ai-12-3d-generation-docs-en.md)
+  - [Flow Matching & Rectified Flows](/lib/07-coding/ai-engineering-from-scratch/phases-08-generative-ai-13-flow-matching-rectified-flows-docs-en.md)
+  - [Evaluation: FID, CLIP Score](/lib/07-coding/ai-engineering-from-scratch/phases-08-generative-ai-14-evaluation-fid-clip-score-docs-en.md)
+  - [Visual Autoregressive Modeling (VAR): Next-Scale Prediction](/lib/07-coding/ai-engineering-from-scratch/phases-08-generative-ai-19-visual-autoregressive-var-docs-en.md)
+- **Reinforcement Learning**
+  - [MDPs, States, Actions & Rewards](/lib/07-coding/ai-engineering-from-scratch/phases-09-reinforcement-learning-01-mdps-states-actions-rewards-docs-en.md)
+  - [Dynamic Programming](/lib/07-coding/ai-engineering-from-scratch/phases-09-reinforcement-learning-02-dynamic-programming-docs-en.md)
+  - [Monte Carlo Methods](/lib/07-coding/ai-engineering-from-scratch/phases-09-reinforcement-learning-03-monte-carlo-methods-docs-en.md)
+  - [Q-Learning, SARSA](/lib/07-coding/ai-engineering-from-scratch/phases-09-reinforcement-learning-04-q-learning-sarsa-docs-en.md)
+  - [Deep Q-Networks (DQN)](/lib/07-coding/ai-engineering-from-scratch/phases-09-reinforcement-learning-05-dqn-docs-en.md)
+  - [Policy Gradients — REINFORCE](/lib/07-coding/ai-engineering-from-scratch/phases-09-reinforcement-learning-06-policy-gradients-reinforce-docs-en.md)
+  - [Actor-Critic — A2C, A3C](/lib/07-coding/ai-engineering-from-scratch/phases-09-reinforcement-learning-07-actor-critic-a2c-a3c-docs-en.md)
+  - [PPO](/lib/07-coding/ai-engineering-from-scratch/phases-09-reinforcement-learning-08-ppo-docs-en.md)
+  - [Reward Modeling & RLHF](/lib/07-coding/ai-engineering-from-scratch/phases-09-reinforcement-learning-09-reward-modeling-rlhf-docs-en.md)
+  - [Multi-Agent RL](/lib/07-coding/ai-engineering-from-scratch/phases-09-reinforcement-learning-10-multi-agent-rl-docs-en.md)
+  - [Sim-to-Real Transfer](/lib/07-coding/ai-engineering-from-scratch/phases-09-reinforcement-learning-11-sim-to-real-transfer-docs-en.md)
+  - [RL for Games](/lib/07-coding/ai-engineering-from-scratch/phases-09-reinforcement-learning-12-rl-for-games-docs-en.md)
+- **LLMs from Scratch**
+  - [Tokenizers: BPE, WordPiece, SentencePiece](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-01-tokenizers-docs-en.md)
+  - [Building a Tokenizer from Scratch](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-02-building-a-tokenizer-docs-en.md)
+  - [Data Pipelines for Pre-Training](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-03-data-pipelines-docs-en.md)
+  - [Pre-Training a Mini GPT (124M)](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-04-pre-training-mini-gpt-docs-en.md)
+  - [Distributed Training, FSDP, DeepSpeed](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-05-scaling-distributed-docs-en.md)
+  - [Instruction Tuning — SFT](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-06-instruction-tuning-sft-docs-en.md)
+  - [RLHF — Reward Model + PPO](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-07-rlhf-docs-en.md)
+  - [DPO — Direct Preference Optimization](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-08-dpo-docs-en.md)
+  - [Constitutional AI & Self-Improvement](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-09-constitutional-ai-self-improvement-docs-en.md)
+  - [Evaluation — Benchmarks, Evals](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-10-evaluation-docs-en.md)
+  - [Quantization: INT8, GPTQ, AWQ, GGUF](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-11-quantization-docs-en.md)
+  - [Inference Optimization](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-12-inference-optimization-docs-en.md)
+  - [Building a Complete LLM Pipeline](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-13-building-complete-llm-pipeline-docs-en.md)
+  - [Open Models: Architecture Walkthroughs](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-14-open-models-architecture-walkthroughs-docs-en.md)
+  - [Speculative Decoding and EAGLE-3](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-15-speculative-decoding-eagle3-docs-en.md)
+  - [Differential Attention (V2)](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-16-differential-attention-v2-docs-en.md)
+  - [Native Sparse Attention (DeepSeek NSA)](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-17-native-sparse-attention-docs-en.md)
+  - [Multi-Token Prediction (MTP)](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-18-multi-token-prediction-docs-en.md)
+  - [DualPipe Parallelism](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-19-dualpipe-parallelism-docs-en.md)
+  - [DeepSeek-V3 Architecture Walkthrough](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-20-deepseek-v3-walkthrough-docs-en.md)
+  - [Jamba — Hybrid SSM-Transformer](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-21-jamba-hybrid-ssm-transformer-docs-en.md)
+  - [Async and Hogwild! Inference](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-22-async-hogwild-inference-docs-en.md)
+  - [Speculative Decoding and EAGLE](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-25-speculative-decoding-docs-en.md)
+  - [Gradient Checkpointing and Activation Recomputation](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-34-gradient-checkpointing-docs-en.md)
+- **LLM Engineering**
+  - [Prompt Engineering: Techniques & Patterns](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-01-prompt-engineering-docs-en.md)
+  - [Few-Shot, CoT, Tree-of-Thought](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-02-few-shot-cot-docs-en.md)
+  - [Structured Outputs](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-03-structured-outputs-docs-en.md)
+  - [Embeddings & Vector Representations](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-04-embeddings-docs-en.md)
+  - [Context Engineering](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-05-context-engineering-docs-en.md)
+  - [RAG: Retrieval-Augmented Generation](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-06-rag-docs-en.md)
+  - [Advanced RAG: Chunking, Reranking](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-07-advanced-rag-docs-en.md)
+  - [Fine-Tuning with LoRA & QLoRA](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-08-fine-tuning-lora-docs-en.md)
+  - [Function Calling & Tool Use](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-09-function-calling-docs-en.md)
+  - [Evaluation & Testing](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-10-evaluation-docs-en.md)
+  - [Caching, Rate Limiting & Cost](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-11-caching-cost-docs-en.md)
+  - [Guardrails & Safety](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-12-guardrails-docs-en.md)
+  - [Building a Production LLM App](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-13-production-app-docs-en.md)
+  - [Model Context Protocol (MCP)](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-14-model-context-protocol-docs-en.md)
+  - [Prompt Caching & Context Caching](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-15-prompt-caching-docs-en.md)
+  - [Agent State Machines — Graphs, Nodes, Checkpoints](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-16-langgraph-state-machines-docs-en.md)
+  - [Agent Framework Tradeoffs](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-17-agent-framework-tradeoffs-docs-en.md)
+- **Multimodal AI**
+  - [Vision Transformers and the Patch-Token Primitive](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-01-vision-transformer-patch-tokens-docs-en.md)
+  - [CLIP and Contrastive Vision-Language Pretraining](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-02-clip-contrastive-pretraining-docs-en.md)
+  - [BLIP-2 Q-Former as Modality Bridge](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-03-blip2-qformer-bridge-docs-en.md)
+  - [Flamingo and Gated Cross-Attention](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-04-flamingo-gated-cross-attention-docs-en.md)
+  - [LLaVA and Visual Instruction Tuning](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-05-llava-visual-instruction-tuning-docs-en.md)
+  - [Any-Resolution Vision — Patch-n'-Pack and NaFlex](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-06-any-resolution-patch-n-pack-docs-en.md)
+  - [Open-Weight VLM Recipes: What Actually Matters](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-07-open-weight-vlm-recipes-docs-en.md)
+  - [LLaVA-OneVision: Single, Multi, Video](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-08-llava-onevision-single-multi-video-docs-en.md)
+  - [Qwen-VL Family and Dynamic-FPS Video](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-09-qwen-vl-family-dynamic-fps-docs-en.md)
+  - [InternVL3 Native Multimodal Pretraining](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-10-internvl3-native-multimodal-docs-en.md)
+  - [Chameleon Early-Fusion Token-Only](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-11-chameleon-early-fusion-tokens-docs-en.md)
+  - [Emu3 Next-Token Prediction for Generation](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-12-emu3-next-token-for-generation-docs-en.md)
+  - [Transfusion Autoregressive + Diffusion](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-13-transfusion-autoregressive-diffusion-docs-en.md)
+  - [Show-o Discrete-Diffusion Unified](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-14-show-o-discrete-diffusion-unified-docs-en.md)
+  - [Janus-Pro Decoupled Encoders](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-15-janus-pro-decoupled-encoders-docs-en.md)
+  - [MIO Any-to-Any Streaming](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-16-mio-any-to-any-streaming-docs-en.md)
+  - [Video-Language Temporal Grounding](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-17-video-language-temporal-grounding-docs-en.md)
+  - [Long-Video at Million-Token Context](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-18-long-video-million-token-docs-en.md)
+  - [Audio-Language Models: Whisper to AF3](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-19-audio-language-whisper-to-af3-docs-en.md)
+  - [Omni Models: Thinker-Talker Streaming](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-20-omni-models-thinker-talker-docs-en.md)
+  - [Embodied VLAs: RT-2, OpenVLA, π0, GR00T](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-21-embodied-vlas-openvla-pi0-groot-docs-en.md)
+  - [Document and Diagram Understanding](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-22-document-diagram-understanding-docs-en.md)
+  - [ColPali Vision-Native Document RAG](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-23-colpali-vision-native-rag-docs-en.md)
+  - [Multimodal RAG and Cross-Modal Retrieval](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-24-multimodal-rag-cross-modal-docs-en.md)
+  - [Multimodal Agents and Computer-Use (Capstone)](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-25-multimodal-agents-computer-use-docs-en.md)
+- **Tools & Protocols**
+  - [The Tool Interface](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-01-the-tool-interface-docs-en.md)
+  - [Function Calling Deep Dive](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-02-function-calling-deep-dive-docs-en.md)
+  - [Parallel and Streaming Tool Calls](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-03-parallel-and-streaming-tool-calls-docs-en.md)
+  - [Structured Output](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-04-structured-output-docs-en.md)
+  - [Tool Schema Design](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-05-tool-schema-design-docs-en.md)
+  - [MCP Fundamentals: Stateless Requests and JSON-RPC](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-06-mcp-fundamentals-docs-en.md)
+  - [Building an MCP Server: Stateless Python and TypeScript](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-07-building-an-mcp-server-docs-en.md)
+  - [Building an MCP Client: Discovery, Routing, and Dual-Era Fallback](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-08-building-an-mcp-client-docs-en.md)
+  - [MCP Transports: stdio and Stateless Streamable HTTP](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-09-mcp-transports-docs-en.md)
+  - [MCP Resources and Prompts: Addressable Context for Stateless Servers](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-10-mcp-resources-and-prompts-docs-en.md)
+  - [MCP Model Input: Sampling Migration and Stateless MRTR](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-11-mcp-sampling-docs-en.md)
+  - [Explicit Scope and Stateless Elicitation](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-12-mcp-roots-and-elicitation-docs-en.md)
+  - [MCP Tasks Extension: Durable Work on a Stateless Core](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-13-mcp-async-tasks-docs-en.md)
+  - [MCP Apps on the Stateless Protocol](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-14-mcp-apps-docs-en.md)
+  - [MCP Security: Poisoned Metadata, Routing, and MRTR State](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-15-mcp-security-tool-poisoning-docs-en.md)
+  - [MCP Authorization: CIMD, Issuer Binding, PKCE, and Step-Up](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-16-mcp-security-oauth-2-1-docs-en.md)
+  - [Stateless MCP Gateways and Registry Admission](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-17-mcp-gateways-and-registries-docs-en.md)
+  - [MCP Auth in Production: Issuer-Bound Enrollment and Tokens](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-18-mcp-auth-production-docs-en.md)
+  - [A2A Protocol](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-19-a2a-protocol-docs-en.md)
+  - [OpenTelemetry GenAI](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-20-opentelemetry-genai-docs-en.md)
+  - [LLM Routing Layer](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-21-llm-routing-layer-docs-en.md)
+  - [Agent Skills: Portable Contract and Runtime Boundary](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-22-skills-and-agent-sdks-docs-en.md)
+  - [Capstone: Stateless Tool Ecosystem](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-23-capstone-tool-ecosystem-docs-en.md)
+  - [Skill Discovery and Progressive Disclosure](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-24-skill-discovery-and-progressive-disclosure-docs-en.md)
+  - [Skill Invocation and Routing](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-25-skill-invocation-and-routing-docs-en.md)
+  - [Skill Permissions, Sandboxes, and Trust](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-26-skill-permissions-sandboxes-and-trust-docs-en.md)
+  - [Skill Evals, Packaging, and Portability](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-27-skill-evals-packaging-and-portability-docs-en.md)
+  - [MCP Tool Contracts and Content](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-28-mcp-tool-contracts-and-content-docs-en.md)
+  - [MCP Reliability, Cancellation, and Flow Control](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-29-mcp-reliability-cancellation-and-flow-control-docs-en.md)
+  - [MCP Registry Supply Chain: Admission, Drift, and Rollback](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-30-mcp-registry-supply-chain-and-drift-docs-en.md)
+  - [MCP Conformance Engineering: Versioning, Evidence, and Operations](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-31-mcp-conformance-versioning-and-operations-docs-en.md)
+- **Agent Engineering**
+  - [The Agent Loop](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-01-the-agent-loop-docs-en.md)
+  - [ReWOO and Plan-and-Execute](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-02-rewoo-plan-and-execute-docs-en.md)
+  - [Reflexion and Verbal Reinforcement Learning](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-03-reflexion-verbal-rl-docs-en.md)
+  - [Tree of Thoughts and LATS](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-04-tree-of-thoughts-lats-docs-en.md)
+  - [Self-Refine and CRITIC](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-05-self-refine-and-critic-docs-en.md)
+  - [Tool Use and Function Calling](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-06-tool-use-and-function-calling-docs-en.md)
+  - [Agent Memory — Virtual Context and Memory Paging](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-07-memory-virtual-context-memgpt-docs-en.md)
+  - [Memory Blocks and Sleep-Time Compute](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-08-memory-blocks-sleep-time-compute-docs-en.md)
+  - [Hybrid Memory — Vector + Graph + KV](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-09-hybrid-memory-mem0-docs-en.md)
+  - [Skill Libraries and Lifelong Learning (Voyager)](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-10-skill-libraries-voyager-docs-en.md)
+  - [Planning with HTN and Evolutionary Search](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-11-planning-htn-and-evolutionary-docs-en.md)
+  - [Anthropic's Workflow Patterns](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-12-anthropic-workflow-patterns-docs-en.md)
+  - [Stateful Graph Orchestration — Durable Execution and Checkpoints](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-13-langgraph-stateful-graphs-docs-en.md)
+  - [The Actor Model for Agents](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-14-autogen-actor-model-docs-en.md)
+  - [Role-Based Agent Teams — Roles, Tasks, Processes](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-15-crewai-role-based-crews-docs-en.md)
+  - [OpenAI Agents SDK — Handoffs, Guardrails, Tracing](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-16-openai-agents-sdk-docs-en.md)
+  - [The Harness as a Library — Subagents and Session Store](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-17-claude-agent-sdk-docs-en.md)
+  - [Production Agent Runtimes](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-18-agno-and-mastra-runtimes-docs-en.md)
+  - [Benchmarks — SWE-bench, GAIA, AgentBench](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-19-benchmarks-swebench-gaia-docs-en.md)
+  - [Benchmarks — WebArena and OSWorld](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-20-benchmarks-webarena-osworld-docs-en.md)
+  - [Computer Use — Claude, OpenAI CUA, Gemini](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-21-computer-use-agents-docs-en.md)
+  - [Voice Agents — Pipecat and LiveKit](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-22-voice-agents-pipecat-livekit-docs-en.md)
+  - [OpenTelemetry GenAI Semantic Conventions](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-23-otel-genai-conventions-docs-en.md)
+  - [Agent Observability — Langfuse, Phoenix, Opik](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-24-agent-observability-platforms-docs-en.md)
+  - [Multi-Agent Debate and Collaboration](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-25-multi-agent-debate-docs-en.md)
+  - [Failure Modes — Why Agents Break](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-26-failure-modes-agentic-docs-en.md)
+  - [Prompt Injection and the PVE Defense](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-27-prompt-injection-defense-docs-en.md)
+  - [Orchestration Patterns — Supervisor, Swarm, Hierarchical](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-28-orchestration-patterns-docs-en.md)
+  - [Production Runtimes — Queue, Event, Cron](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-29-production-runtimes-docs-en.md)
+  - [Eval-Driven Agent Development](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-30-eval-driven-agent-development-docs-en.md)
+  - [Agent Workbench: Why Capable Models Still Fail](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-31-agent-workbench-why-models-fail-mission.md)
+  - [The Minimal Agent Workbench](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-32-minimal-agent-workbench-mission.md)
+  - [Agent Instructions as Executable Constraints](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-33-instructions-as-executable-constraints-mission.md)
+  - [Repo Memory and Durable State](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-34-repo-memory-and-state-mission.md)
+  - [Initialization Scripts for Agents](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-35-initialization-scripts-mission.md)
+  - [Scope Contracts and Task Boundaries](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-36-scope-contracts-mission.md)
+  - [Runtime Feedback Loops](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-37-runtime-feedback-loops-mission.md)
+  - [Verification Gates](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-38-verification-gates-mission.md)
+  - [Reviewer Agent: Separate Builder from Marker](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-39-reviewer-agent-mission.md)
+  - [Multi-Session Handoff](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-40-multi-session-handoff-mission.md)
+  - [The Workbench on a Real Repo](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-41-workbench-for-real-repos-mission.md)
+  - [Capstone: Ship a Reusable Agent Workbench Pack](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-42-agent-workbench-capstone-outputs-agent-workbench-pack.md)
+  - [Frame the Task Before the Agent Writes Code](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-43-frame-the-task-before-code-docs-en.md)
+  - [Build an Evidence-Backed Execution Plan](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-44-plan-from-evidence-docs-en.md)
+  - [Delegate Agent Work with Isolation and Merge Contracts](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-45-delegate-with-isolation-docs-en.md)
+  - [Turn Every Agent Correction into a System Improvement](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-46-turn-feedback-into-system-docs-en.md)
+  - [Define the Outcome Before You Choose the Output](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-47-outcomes-before-output-docs-en.md)
+  - [Discover the Workflow People Actually Perform](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-48-discover-the-real-workflow-docs-en.md)
+  - [Map Assumptions and Resolve the Riskiest One First](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-49-map-assumptions-and-risk-docs-en.md)
+  - [Choose the Smallest Slice That Can Change the Decision](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-50-choose-the-smallest-testable-slice-docs-en.md)
+  - [Write Specifications That Preserve Judgment](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-51-write-specifications-that-preserve-judgment-docs-en.md)
+  - [Design Success Metrics Before the Result Exists](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-52-design-success-metrics-docs-en.md)
+  - [Choose Prototype, Pilot, or Production Deliberately](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-53-prototype-pilot-or-production-docs-en.md)
+  - [Build a Feedback Ratchet with Ownership and Retirement](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-54-build-the-feedback-ratchet-docs-en.md)
+- **Autonomous Systems**
+  - [From Chatbots to Long-Horizon Agents (METR)](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-01-long-horizon-agents-docs-en.md)
+  - [STaR, V-STaR, Quiet-STaR: Self-Taught Reasoning](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-02-star-family-reasoning-docs-en.md)
+  - [AlphaEvolve: Evolutionary Coding Agents](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-03-alphaevolve-evolutionary-coding-docs-en.md)
+  - [Darwin Gödel Machine: Self-Modifying Agents](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-04-darwin-godel-machine-docs-en.md)
+  - [AI Scientist v2: Workshop-Level Research](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-05-ai-scientist-v2-docs-en.md)
+  - [Automated Alignment Research (Anthropic AAR)](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-06-automated-alignment-research-docs-en.md)
+  - [Recursive Self-Improvement: Capability vs Alignment](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-07-recursive-self-improvement-docs-en.md)
+  - [Bounded Self-Improvement Designs](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-08-bounded-self-improvement-docs-en.md)
+  - [Autonomous Coding Agent Landscape (SWE-bench, CodeAct)](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-09-coding-agent-landscape-docs-en.md)
+  - [Permission Modes for Autonomous Agents](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-10-claude-code-permission-modes-docs-en.md)
+  - [Browser Agents and Indirect Prompt Injection](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-11-browser-agents-docs-en.md)
+  - [Durable Execution for Long-Running Agents](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-12-durable-execution-docs-en.md)
+  - [Action Budgets, Iteration Caps, Cost Governors](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-13-cost-governors-docs-en.md)
+  - [Kill Switches, Circuit Breakers, Canary Tokens](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-14-kill-switches-canaries-docs-en.md)
+  - [HITL: Propose-Then-Commit](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-15-propose-then-commit-docs-en.md)
+  - [Checkpoints and Rollback](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-16-checkpoints-rollback-docs-en.md)
+  - [Constitutional AI and Rule Overrides](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-17-constitutional-ai-docs-en.md)
+  - [Llama Guard and Input/Output Classification](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-18-llama-guard-docs-en.md)
+  - [Anthropic Responsible Scaling Policy v3.0](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-19-anthropic-rsp-docs-en.md)
+  - [OpenAI Preparedness Framework and DeepMind FSF](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-20-openai-preparedness-deepmind-fsf-docs-en.md)
+  - [METR Time Horizons and External Evaluation](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-21-metr-external-evaluation-docs-en.md)
+  - [CAIS, CAISI, and Societal-Scale Risk](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-22-cais-caisi-societal-risk-docs-en.md)
+- **Multi-Agent & Swarms**
+  - [Why Multi-Agent](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-01-why-multi-agent-docs-en.md)
+  - [FIPA-ACL Heritage and Speech Acts](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-02-fipa-acl-heritage-docs-en.md)
+  - [Communication Protocols](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-03-communication-protocols-docs-en.md)
+  - [The Multi-Agent Primitive Model](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-04-primitive-model-docs-en.md)
+  - [Supervisor / Orchestrator-Worker Pattern](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-05-supervisor-orchestrator-pattern-docs-en.md)
+  - [Hierarchical Architecture and Decomposition Drift](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-06-hierarchical-architecture-docs-en.md)
+  - [Society of Mind and Multi-Agent Debate](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-07-society-of-mind-debate-docs-en.md)
+  - [Role Specialization — Planner / Critic / Executor / Verifier](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-08-role-specialization-docs-en.md)
+  - [Parallel Swarm and Networked Architectures](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-09-parallel-swarm-networks-docs-en.md)
+  - [Group Chat and Speaker Selection](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-10-group-chat-speaker-selection-docs-en.md)
+  - [Handoffs and Routines (Stateless Orchestration)](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-11-handoffs-and-routines-docs-en.md)
+  - [A2A — The Agent-to-Agent Protocol](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-12-a2a-protocol-docs-en.md)
+  - [Shared Memory and Blackboard Patterns](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-13-shared-memory-blackboard-docs-en.md)
+  - [Consensus and Byzantine Fault Tolerance](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-14-consensus-and-bft-docs-en.md)
+  - [Voting, Self-Consistency, and Debate Topology](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-15-voting-debate-topology-docs-en.md)
+  - [Negotiation and Bargaining](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-16-negotiation-bargaining-docs-en.md)
+  - [Generative Agents and Emergent Simulation](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-17-generative-agents-simulation-docs-en.md)
+  - [Theory of Mind and Emergent Coordination](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-18-theory-of-mind-coordination-docs-en.md)
+  - [Swarm Optimization (PSO, ACO)](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-19-swarm-optimization-pso-aco-docs-en.md)
+  - [MARL — MADDPG, QMIX, MAPPO](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-20-marl-maddpg-qmix-mappo-docs-en.md)
+  - [Agent Economies, Token Incentives, Reputation](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-21-agent-economies-docs-en.md)
+  - [Production Scaling — Queues, Checkpoints, Durability](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-22-production-scaling-queues-checkpoints-docs-en.md)
+  - [Failure Modes — MAST, Groupthink, Monoculture](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-23-failure-modes-mast-groupthink-docs-en.md)
+  - [Evaluation and Coordination Benchmarks](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-24-evaluation-coordination-benchmarks-docs-en.md)
+  - [Case Studies and 2026 State of the Art](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-25-case-studies-2026-sota-docs-en.md)
+- **Infrastructure & Production**
+  - [Managed LLM Platforms — Bedrock, Azure OpenAI, Vertex AI](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-01-managed-llm-platforms-docs-en.md)
+  - [Inference Platform Economics — Fireworks, Together, Baseten, Modal](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-02-inference-platform-economics-docs-en.md)
+  - [GPU Autoscaling on Kubernetes — Karpenter, KAI Scheduler](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-03-gpu-autoscaling-kubernetes-docs-en.md)
+  - [Serving Engine Internals — PagedAttention, Continuous Batching, Chunked Prefill](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-04-vllm-serving-internals-docs-en.md)
+  - [EAGLE-3 Speculative Decoding in Production](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-05-eagle3-speculative-decoding-docs-en.md)
+  - [Prefix-Cache Serving — RadixAttention and KV Reuse](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-06-sglang-radixattention-docs-en.md)
+  - [Hardware-Specialized Inference Compilation — FP8 and NVFP4 on Blackwell](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-07-tensorrt-llm-blackwell-docs-en.md)
+  - [Inference Metrics — TTFT, TPOT, ITL, Goodput, P99](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-08-inference-metrics-goodput-docs-en.md)
+  - [Production Quantization — AWQ, GPTQ, GGUF, FP8, NVFP4](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-09-production-quantization-docs-en.md)
+  - [Cold Start Mitigation for Serverless LLMs](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-10-cold-start-mitigation-docs-en.md)
+  - [Multi-Region LLM Serving and KV Cache Locality](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-11-multi-region-kv-locality-docs-en.md)
+  - [Edge Inference — ANE, Hexagon, WebGPU, Jetson](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-12-edge-inference-docs-en.md)
+  - [LLM Observability Stack Selection](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-13-llm-observability-docs-en.md)
+  - [Prompt Caching and Semantic Caching Economics](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-14-prompt-semantic-caching-docs-en.md)
+  - [Batch APIs — the 50% Discount as Industry Standard](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-15-batch-apis-docs-en.md)
+  - [Model Routing as a Cost-Reduction Primitive](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-16-model-routing-docs-en.md)
+  - [Disaggregated Prefill/Decode — NVIDIA Dynamo and llm-d](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-17-disaggregated-prefill-decode-docs-en.md)
+  - [Production Serving Stack — KV Offloading and Cache-Aware Routing](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-18-vllm-production-stack-lmcache-docs-en.md)
+  - [AI Gateways — LiteLLM, Portkey, Kong, Bifrost](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-19-ai-gateways-docs-en.md)
+  - [Shadow, Canary, and Progressive Deployment](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-20-shadow-canary-progressive-docs-en.md)
+  - [A/B Testing LLM Features — GrowthBook and Statsig](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-21-ab-testing-llm-features-docs-en.md)
+  - [Load Testing LLM APIs — k6, LLMPerf, GenAI-Perf](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-22-load-testing-llm-apis-docs-en.md)
+  - [SRE for AI — Multi-Agent Incident Response](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-23-sre-for-ai-docs-en.md)
+  - [Chaos Engineering for LLM Production](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-24-chaos-engineering-llm-docs-en.md)
+  - [Security — Secrets, PII Scrubbing, Audit Logs](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-25-security-secrets-audit-docs-en.md)
+  - [Compliance — SOC 2, HIPAA, GDPR, EU AI Act, ISO 42001](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-26-compliance-frameworks-docs-en.md)
+  - [FinOps for LLMs — Unit Economics and Multi-Tenant Attribution](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-27-finops-llms-docs-en.md)
+  - [Self-Hosted Serving Selection — Matching Engine to Hardware and Scale](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-28-self-hosted-serving-selection-docs-en.md)
+- **Ethics, Safety & Alignment**
+  - [Instruction-Following as Alignment Signal](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-01-instruction-following-alignment-signal-docs-en.md)
+  - [Reward Hacking & Goodhart's Law](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-02-reward-hacking-goodhart-docs-en.md)
+  - [Direct Preference Optimization Family](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-03-direct-preference-optimization-family-docs-en.md)
+  - [Sycophancy as RLHF Amplification](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-04-sycophancy-rlhf-amplification-docs-en.md)
+  - [Constitutional AI & RLAIF](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-05-constitutional-ai-rlaif-docs-en.md)
+  - [Mesa-Optimization & Deceptive Alignment](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-06-mesa-optimization-deceptive-alignment-docs-en.md)
+  - [Sleeper Agents — Persistent Deception](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-07-sleeper-agents-persistent-deception-docs-en.md)
+  - [In-Context Scheming in Frontier Models](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-08-in-context-scheming-frontier-models-docs-en.md)
+  - [Alignment Faking](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-09-alignment-faking-docs-en.md)
+  - [AI Control — Safety Despite Subversion](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-10-ai-control-subversion-docs-en.md)
+  - [Scalable Oversight & Weak-to-Strong](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-11-scalable-oversight-weak-to-strong-docs-en.md)
+  - [Red-Teaming: PAIR & Automated Attacks](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-12-red-teaming-pair-automated-attacks-docs-en.md)
+  - [Many-Shot Jailbreaking](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-13-many-shot-jailbreaking-docs-en.md)
+  - [ASCII Art & Visual Jailbreaks](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-14-ascii-art-visual-jailbreaks-docs-en.md)
+  - [Indirect Prompt Injection](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-15-indirect-prompt-injection-docs-en.md)
+  - [Red-Team Tooling: Garak, Llama Guard, PyRIT](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-16-red-team-tooling-garak-llamaguard-pyrit-docs-en.md)
+  - [WMDP & Dual-Use Capability Evaluation](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-17-wmdp-dual-use-evaluation-docs-en.md)
+  - [Frontier Safety Frameworks — RSP, PF, FSF](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-18-frontier-safety-frameworks-rsp-pf-fsf-docs-en.md)
+  - [Model Welfare Research](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-19-model-welfare-research-docs-en.md)
+  - [Bias & Representational Harm](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-20-bias-representational-harm-docs-en.md)
+  - [Fairness Criteria: Group, Individual, Counterfactual](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-21-fairness-criteria-group-individual-counterfactual-docs-en.md)
+  - [Differential Privacy for LLMs](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-22-differential-privacy-for-llms-docs-en.md)
+  - [Watermarking: SynthID, Stable Signature, C2PA](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-23-watermarking-synthid-stable-signature-c2pa-docs-en.md)
+  - [Regulatory Frameworks: EU, US, UK, Korea](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-24-regulatory-frameworks-eu-us-uk-korea-docs-en.md)
+  - [EchoLeak & CVEs for AI](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-25-echoleak-cves-for-ai-docs-en.md)
+  - [Model, System & Dataset Cards](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-26-model-system-dataset-cards-docs-en.md)
+  - [Data Provenance & Training-Data Governance](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-27-data-provenance-training-governance-docs-en.md)
+  - [Alignment Research Ecosystem: MATS, Redwood, Apollo, METR](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-28-alignment-research-ecosystem-docs-en.md)
+  - [Moderation Systems: OpenAI, Perspective, Llama Guard](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-29-moderation-systems-openai-perspective-llamaguard-docs-en.md)
+  - [Dual-Use Risk: Cyber, Bio, Chem, Nuclear](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-30-dual-use-risk-cyber-bio-chem-nuclear-docs-en.md)
+- **Capstone Projects**
+  - [Terminal-Native Coding Agent](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-01-terminal-native-coding-agent-code-ts.md)
+  - [RAG over Codebase (Cross-Repo Semantic Search)](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-02-rag-over-codebase-code-ts.md)
+  - [Real-Time Voice Assistant (ASR → LLM → TTS)](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-03-realtime-voice-assistant-code-ts.md)
+  - [Multimodal Document QA (Vision-First)](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-04-multimodal-document-qa-code-ts.md)
+  - [Autonomous Research Agent (AI-Scientist Class)](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-05-autonomous-research-agent-docs-en.md)
+  - [DevOps Troubleshooting Agent for Kubernetes](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-06-devops-troubleshooting-agent-code-ts.md)
+  - [End-to-End Fine-Tuning Pipeline](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-07-end-to-end-fine-tuning-pipeline-docs-en.md)
+  - [Production RAG Chatbot (Regulated Vertical)](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-08-production-rag-chatbot-code-ts.md)
+  - [Code Migration Agent (Repo-Level Upgrade)](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-09-code-migration-agent-code-ts.md)
+  - [Multi-Agent Software Engineering Team](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-10-multi-agent-software-team-code-ts.md)
+  - [LLM Observability & Eval Dashboard](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-11-llm-observability-dashboard-code-ts.md)
+  - [Video Understanding Pipeline (Scene → QA)](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-12-video-understanding-pipeline-code-ts.md)
+  - [Stateless MCP Server with Registry and Governance](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-13-mcp-server-with-registry-code-ts.md)
+  - [Speculative-Decoding Inference Server](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-14-speculative-decoding-server-docs-en.md)
+  - [Constitutional Safety Harness + Red-Team Range](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-15-constitutional-safety-harness-docs-en.md)
+  - [GitHub Issue-to-PR Autonomous Agent](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-16-github-issue-to-pr-agent-code-ts.md)
+  - [Personal AI Tutor (Adaptive, Multimodal)](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-17-personal-ai-tutor-code-ts.md)
+  - [Agent Harness Loop Contract](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-20-agent-harness-loop-contract-docs-en.md)
+  - [Tool Registry with Schema Validation](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-21-tool-registry-schema-validation-docs-en.md)
+  - [JSON-RPC 2.0 Over Newline-Delimited Stdio](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-22-jsonrpc-stdio-transport-docs-en.md)
+  - [Function Call Dispatcher](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-23-function-call-dispatcher-docs-en.md)
+  - [Plan-Execute Control Flow](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-24-plan-execute-control-flow-docs-en.md)
+  - [Verification Gates and Observation Budget](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-25-verification-gates-observation-budget-docs-en.md)
+  - [Sandbox Runner with Denylist and Path Jail](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-26-sandbox-runner-denylist-docs-en.md)
+  - [Eval Harness with Fixture Tasks](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-27-eval-harness-fixture-tasks-docs-en.md)
+  - [Observability with OTel GenAI Spans and Prometheus Metrics](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-28-observability-otel-traces-docs-en.md)
+  - [End-to-End Coding Agent on the Harness](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-29-end-to-end-coding-task-demo-docs-en.md)
+  - [BPE Tokenizer From Scratch](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-30-bpe-tokenizer-from-scratch-docs-en.md)
+  - [Tokenized Dataset with Sliding Window](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-31-tokenized-dataset-sliding-window-docs-en.md)
+  - [Token and Positional Embeddings](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-32-token-positional-embeddings-docs-en.md)
+  - [Multi-Head Self-Attention](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-33-multihead-self-attention-docs-en.md)
+  - [Transformer Block from Scratch](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-34-transformer-block-docs-en.md)
+  - [GPT Model Assembly](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-35-gpt-model-assembly-docs-en.md)
+  - [Training Loop and Evaluation](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-36-training-loop-eval-docs-en.md)
+  - [Loading Pretrained Weights](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-37-loading-pretrained-weights-docs-en.md)
+  - [Classifier Fine-Tuning by Head Swap](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-38-classifier-finetuning-docs-en.md)
+  - [Instruction Tuning by Supervised Fine-Tuning](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-39-instruction-tuning-sft-docs-en.md)
+  - [Direct Preference Optimization from Scratch](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-40-dpo-from-scratch-docs-en.md)
+  - [Full Evaluation Pipeline](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-41-eval-pipeline-docs-en.md)
+  - [Large Corpus Downloader](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-42-large-corpus-downloader-docs-en.md)
+  - [HDF5 Tokenized Corpus](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-43-hdf5-tokenized-corpus-docs-en.md)
+  - [Cosine LR with Linear Warmup](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-44-cosine-lr-warmup-docs-en.md)
+  - [Gradient Clipping and Mixed Precision](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-45-gradient-clipping-amp-docs-en.md)
+  - [Gradient Accumulation](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-46-gradient-accumulation-docs-en.md)
+  - [Checkpoint Save and Resume](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-47-checkpoint-save-resume-docs-en.md)
+  - [Distributed Data Parallel and FSDP from Scratch](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-48-distributed-fsdp-ddp-docs-en.md)
+  - [Language Model Evaluation Harness](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-49-lm-eval-harness-docs-en.md)
+  - [Hypothesis Generator](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-50-hypothesis-generator-docs-en.md)
+  - [Literature Retrieval](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-51-literature-retrieval-docs-en.md)
+  - [Experiment Runner](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-52-experiment-runner-docs-en.md)
+  - [Result Evaluator](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-53-result-evaluator-docs-en.md)
+  - [Paper Writer](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-54-paper-writer-docs-en.md)
+  - [Critic Loop](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-55-critic-loop-docs-en.md)
+  - [Iteration Scheduler](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-56-iteration-scheduler-docs-en.md)
+  - [End-to-End Research Demo](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-57-end-to-end-research-demo-docs-en.md)
+  - [Vision Encoder Patches](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-58-vision-encoder-patches-docs-en.md)
+  - [Vision Transformer Encoder](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-59-vit-transformer-docs-en.md)
+  - [Projection Layer for Modality Alignment](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-60-projection-layer-modality-align-docs-en.md)
+  - [Cross-Attention Fusion](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-61-cross-attention-fusion-docs-en.md)
+  - [Vision-Language Pretraining](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-62-vision-language-pretraining-docs-en.md)
+  - [Multimodal Evaluation](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-63-multimodal-eval-docs-en.md)
+  - [Chunking Strategies, Compared](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-64-chunking-strategies-advanced-docs-en.md)
+  - [Hybrid Retrieval with BM25 and Dense Embeddings](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-65-hybrid-retrieval-bm25-dense-docs-en.md)
+  - [Cross-Encoder Reranker](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-66-reranker-cross-encoder-docs-en.md)
+  - [Query Rewriting: HyDE, Multi-Query, and Decomposition](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-67-query-rewriting-hyde-docs-en.md)
+  - [RAG Evaluation: Precision, Recall, MRR, nDCG, Faithfulness, Answer Relevance](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-68-rag-eval-precision-recall-docs-en.md)
+  - [End-to-End RAG System](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-69-end-to-end-rag-system-docs-en.md)
+  - [Task Spec Format](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-70-task-spec-format-docs-en.md)
+  - [Classical Metrics](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-71-classical-metrics-docs-en.md)
+  - [Code Exec Metric](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-72-code-exec-metric-docs-en.md)
+  - [Perplexity and Calibration](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-73-perplexity-calibration-docs-en.md)
+  - [Leaderboard Aggregation](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-74-leaderboard-aggregation-docs-en.md)
+  - [End-to-End Eval Runner](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-75-end-to-end-eval-runner-docs-en.md)
+  - [Collective Ops From Scratch](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-76-collective-ops-from-scratch-docs-en.md)
+  - [Data Parallel DDP From Scratch](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-77-data-parallel-ddp-docs-en.md)
+  - [ZeRO Optimizer State Sharding](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-78-zero-parameter-sharding-docs-en.md)
+  - [Pipeline Parallel and Bubble Analysis](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-79-pipeline-parallel-docs-en.md)
+  - [Sharded Checkpoint and Atomic Resume](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-80-checkpoint-sharded-resume-docs-en.md)
+  - [End-to-End Distributed Training](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-81-end-to-end-distributed-train-docs-en.md)
+  - [Jailbreak Taxonomy](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-82-jailbreak-taxonomy-docs-en.md)
+  - [Prompt Injection Detector](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-83-prompt-injection-detector-docs-en.md)
+  - [Refusal Evaluation](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-84-refusal-evaluation-docs-en.md)
+  - [Content Classifier Integration](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-85-content-classifier-integration-docs-en.md)
+  - [Constitutional Rules Engine](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-86-constitutional-rules-engine-docs-en.md)
+  - [End-to-End Safety Gate](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-87-end-to-end-safety-gate-docs-en.md)
+- [Backers](/lib/07-coding/ai-engineering-from-scratch/BACKERS.md)
+- [Forking Guide](/lib/07-coding/ai-engineering-from-scratch/FORKING.md)
+- [Lesson Template](/lib/07-coding/ai-engineering-from-scratch/LESSON_TEMPLATE.md)
+- [Roadmap](/lib/07-coding/ai-engineering-from-scratch/ROADMAP.md)
+- [Sponsorship](/lib/07-coding/ai-engineering-from-scratch/SPONSORS.md)
+- **.claude**
+  - **skills**
+    - **check-understanding**
+      - [Check Understanding](/lib/07-coding/ai-engineering-from-scratch/_claude-skills-check-understanding-SKILL.md)
+    - **claude-certification**
+      - [Claude Certification Tutor](/lib/07-coding/ai-engineering-from-scratch/_claude-skills-claude-certification-SKILL.md)
+    - **course-guide**
+      - [Course Guide](/lib/07-coding/ai-engineering-from-scratch/_claude-skills-course-guide-SKILL.md)
+    - **find-your-level**
+      - [Find Your Level](/lib/07-coding/ai-engineering-from-scratch/_claude-skills-find-your-level-SKILL.md)
+      - **references**
+        - [Placement Quiz Answer Key](/lib/07-coding/ai-engineering-from-scratch/_claude-skills-find-your-level-references-answer-key.md)
+    - **learn-agent-skills**
+      - [Learn Agent Skills](/lib/07-coding/ai-engineering-from-scratch/_claude-skills-learn-agent-skills-SKILL.md)
+    - **learn-mcp**
+      - [Learn Model Context Protocol (MCP)](/lib/07-coding/ai-engineering-from-scratch/_claude-skills-learn-mcp-SKILL.md)
+    - **learn**
+      - [Learn](/lib/07-coding/ai-engineering-from-scratch/_claude-skills-learn-SKILL.md)
+    - **start-learning**
+      - [Start Learning](/lib/07-coding/ai-engineering-from-scratch/_claude-skills-start-learning-SKILL.md)
+- **.github**
+  - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/_github-PULL_REQUEST_TEMPLATE.md)
+- [Book Pipeline](/lib/07-coding/ai-engineering-from-scratch/book.md)
+- [Certification Curricula](/lib/07-coding/ai-engineering-from-scratch/certifications.md)
+  - [Claude Certification Curriculum](/lib/07-coding/ai-engineering-from-scratch/certifications-claude.md)
+    - [Learn Claude Certifications From GitHub](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-GETTING_STARTED.md)
+    - **lessons**
+      - **00-certification-strategy**
+        - **文档**
+          - [Study the Decisions, Not the Vocabulary](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-00-certification-strategy-docs-en.md)
+      - **01-claude-product-and-model-landscape**
+        - **文档**
+          - [Choose the Smallest Surface That Can Carry the Work](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-01-claude-product-and-model-landscape-docs-en.md)
+      - **02-model-selection-and-token-economics**
+        - **文档**
+          - [Spend Capability Where Failure Is Expensive](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-02-model-selection-and-token-economics-docs-en.md)
+      - **03-prompting-and-task-decomposition**
+        - **文档**
+          - [Turn a Request Into a Testable Contract](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-03-prompting-and-task-decomposition-docs-en.md)
+      - **04-context-knowledge-memory-and-caching**
+        - **文档**
+          - [Put Each Fact in the Right Kind of Context](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-04-context-knowledge-memory-and-caching-docs-en.md)
+      - **05-output-evaluation-and-validation**
+        - **文档**
+          - [Validate the Claim, Not the Confidence](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-05-output-evaluation-and-validation-docs-en.md)
+      - **06-governance-safety-and-responsible-use**
+        - **文档**
+          - [Put Authority Around Capability](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-06-governance-safety-and-responsible-use-docs-en.md)
+      - **07-workflow-design-and-human-handoffs**
+        - **文档**
+          - [Design the Handoff Before the Automation](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-07-workflow-design-and-human-handoffs-docs-en.md)
+      - **08-messages-api-and-application-lifecycle**
+        - **文档**
+          - [The Messages API Is a State Machine](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-08-messages-api-and-application-lifecycle-docs-en.md)
+      - **09-structured-output-and-defensive-parsing**
+        - **文档**
+          - [Structured Output Is an Untrusted Contract](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-09-structured-output-and-defensive-parsing-docs-en.md)
+      - **10-tool-use-and-agentic-loops**
+        - **文档**
+          - [A Tool Loop Is Controlled Delegation](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-10-tool-use-and-agentic-loops-docs-en.md)
+      - **11-mcp-server-design-and-integration**
+        - **文档**
+          - [MCP Separates Capability From Host](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-11-mcp-server-design-and-integration-docs-en.md)
+      - **12-claude-agent-sdk-and-hooks**
+        - **文档**
+          - [The Agent SDK Is a Harness, Not Permission](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-12-claude-agent-sdk-and-hooks-docs-en.md)
+      - **13-application-security-and-secrets**
+        - **文档**
+          - [Security Lives Outside the Prompt](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-13-application-security-and-secrets-docs-en.md)
+      - **14-evals-testing-debugging-and-observability**
+        - **文档**
+          - [Evals Turn Agent Behavior Into Engineering Evidence](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-14-evals-testing-debugging-and-observability-docs-en.md)
+      - **15-claude-code-for-development-teams**
+        - **文档**
+          - [Claude Code Scales Through Shared Constraints](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-15-claude-code-for-development-teams-docs-en.md)
+        - **outputs**
+          - [Team Configuration Review: Support Router](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-15-claude-code-for-development-teams-outputs-team-configuration-review.md)
+      - **16-multi-agent-orchestration-and-delegation**
+        - **文档**
+          - [Multi-Agent Orchestration and Delegation](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-16-multi-agent-orchestration-and-delegation-docs-en.md)
+        - **outputs**
+          - [Orchestration Contract: Runtime Migration Decision](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-16-multi-agent-orchestration-and-delegation-outputs-orchestration-contract.md)
+      - **17-agent-sdk-sessions-subagents-and-context**
+        - **文档**
+          - [Agent SDK Sessions, Subagents, and Context](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-17-agent-sdk-sessions-subagents-and-context-docs-en.md)
+        - **outputs**
+          - [Session Recovery Packet: Client Migration](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-17-agent-sdk-sessions-subagents-and-context-outputs-session-recovery-packet.md)
+      - **18-tool-contracts-errors-and-progressive-discovery**
+        - **文档**
+          - [Tool Contracts, Errors, and Progressive Discovery](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-18-tool-contracts-errors-and-progressive-discovery-docs-en.md)
+        - **outputs**
+          - [Tool Catalog Review: Support Evidence](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-18-tool-contracts-errors-and-progressive-discovery-outputs-tool-catalog-review.md)
+      - **19-claude-code-memory-rules-skills-and-ci**
+        - **文档**
+          - [Claude Code Memory, Rules, Skills, and CI](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-19-claude-code-memory-rules-skills-and-ci-docs-en.md)
+        - **outputs**
+          - [Configuration Scope Audit: Python Service](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-19-claude-code-memory-rules-skills-and-ci-outputs-configuration-scope-audit.md)
+          - **migration-review-skill**
+            - [Migration Review](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-19-claude-code-memory-rules-skills-and-ci-outputs-migration-review-skill-SKILL.md)
+            - **references**
+              - [Migration Review Checklist](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-19-claude-code-memory-rules-skills-and-ci-outputs-migration-review-skill-references-review-checklist.md)
+      - **20-reliable-extraction-batch-and-reviewers**
+        - **文档**
+          - [Reliable Extraction, Batch, and Independent Reviewers](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-20-reliable-extraction-batch-and-reviewers-docs-en.md)
+        - **outputs**
+          - [Extraction Review Report: Support Policy Changes](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-20-reliable-extraction-batch-and-reviewers-outputs-extraction-review-report.md)
+      - **21-long-context-reliability-provenance-and-escalation**
+        - **文档**
+          - [Make Large Context Observable](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-21-long-context-reliability-provenance-and-escalation-docs-en.md)
+        - **outputs**
+          - [Reliability Packet: Repository Security Review](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-21-long-context-reliability-provenance-and-escalation-outputs-reliability-packet.md)
+      - **22-business-discovery-requirements-and-slas**
+        - **文档**
+          - [Business Discovery, Requirements, and SLAs](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-22-business-discovery-requirements-and-slas-docs-en.md)
+        - **outputs**
+          - [Discovery Brief: Billing Reply Pilot](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-22-business-discovery-requirements-and-slas-outputs-discovery-brief.md)
+      - **23-end-to-end-architecture-and-value-tradeoffs**
+        - **文档**
+          - [End-to-End Architecture and Value Tradeoffs](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-23-end-to-end-architecture-and-value-tradeoffs-docs-en.md)
+        - **outputs**
+          - [ADR: Contract Review Pattern](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-23-end-to-end-architecture-and-value-tradeoffs-outputs-architecture-decision.md)
+      - **24-rag-retrieval-and-data-pipelines**
+        - **文档**
+          - [RAG, Retrieval, and Data Pipelines](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-24-rag-retrieval-and-data-pipelines-docs-en.md)
+      - **25-integration-protocols-identity-and-least-privilege**
+        - **文档**
+          - [Integration Protocols, Identity, and Least Privilege](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-25-integration-protocols-identity-and-least-privilege-docs-en.md)
+      - **26-production-observability-latency-and-cost**
+        - **文档**
+          - [Production Observability, Latency, and Cost](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-26-production-observability-latency-and-cost-docs-en.md)
+      - **27-enterprise-governance-compliance-and-hitl**
+        - **文档**
+          - [Enterprise Governance, Compliance, and Human Review](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-27-enterprise-governance-compliance-and-hitl-docs-en.md)
+        - **outputs**
+          - [Governance Control Packet: Patient Message Routing](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-27-enterprise-governance-compliance-and-hitl-outputs-governance-control-packet.md)
+      - **28-stakeholder-communication-adrs-and-lifecycle**
+        - **文档**
+          - [Stakeholder Communication, ADRs, and Lifecycle Ownership](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-28-stakeholder-communication-adrs-and-lifecycle-docs-en.md)
+        - **outputs**
+          - [Delivery Handoff Packet: Enterprise Research Assistant](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-28-stakeholder-communication-adrs-and-lifecycle-outputs-delivery-handoff-packet.md)
+      - **29-associate-workflow-capstone**
+        - **文档**
+          - [Ship a Week of Work, Not a Perfect Prompt](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-29-associate-workflow-capstone-docs-en.md)
+        - **outputs**
+          - [Associate Workflow Capstone Checklist](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-29-associate-workflow-capstone-outputs-checklist.md)
+      - **30-developer-application-capstone**
+        - **文档**
+          - [Ship a Claude Application You Can Defend](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-30-developer-application-capstone-docs-en.md)
+        - **outputs**
+          - [Order Status Assistant Architecture Record](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-30-developer-application-capstone-outputs-architecture.md)
+          - [Order Status Assistant Runbook](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-30-developer-application-capstone-outputs-runbook.md)
+      - **31-architect-foundations-scenario-capstone**
+        - **文档**
+          - [Defend One Architecture Across Six Contexts](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-31-architect-foundations-scenario-capstone-docs-en.md)
+        - **outputs**
+          - [Architect Foundations Scenario Packet](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-31-architect-foundations-scenario-capstone-outputs-architecture-packet.md)
+      - **32-architect-professional-system-capstone**
+        - **文档**
+          - [Architect Professional System Capstone](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-32-architect-professional-system-capstone-docs-en.md)
+        - **outputs**
+          - [Production Claude Architecture Packet](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-32-architect-professional-system-capstone-outputs-architecture-packet-template.md)
+          - [Reference Architecture Packet: Regional Support Resolution](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-32-architect-professional-system-capstone-outputs-reference-architecture-packet.md)
+          - [Scored Reference Rubric](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-32-architect-professional-system-capstone-outputs-scored-rubric.md)
+    - **references**
+      - [CCAR-F Exact Mechanics Review](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-references-ccar-f-exact-mechanics.md)
+    - **research**
+      - [Official Anthropic Academy Parity Map](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-research-official-academy-parity.md)
+      - [Official Claude Certification Blueprint Map](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-research-official-blueprint-map.md)
+      - [Recent Community Signal](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-research-recent-community-signal.md)
+      - [Claude Certification Source Verification Ledger](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-research-source-verification-ledger.md)
+      - [YouTube Source Review](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-research-youtube-source-review.md)
+- **文档**
+  - [Internationalization (i18n)](/lib/07-coding/ai-engineering-from-scratch/docs-i18n.md)
+- [Glossary](/lib/07-coding/ai-engineering-from-scratch/glossary.md)
+  - [AI Myths Busted](/lib/07-coding/ai-engineering-from-scratch/glossary-myths.md)
+  - [AI Engineering Glossary](/lib/07-coding/ai-engineering-from-scratch/glossary-terms/index.md)
+  - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/glossary-terms/01-A.md)
+  - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/glossary-terms/02-B.md)
+  - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/glossary-terms/03-C.md)
+  - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/glossary-terms/04-D.md)
+  - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/glossary-terms/05-E.md)
+  - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/glossary-terms/06-F.md)
+  - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/glossary-terms/07-G.md)
+  - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/glossary-terms/08-H.md)
+  - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/glossary-terms/09-I.md)
+  - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/glossary-terms/10-J.md)
+  - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/glossary-terms/11-K.md)
+  - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/glossary-terms/12-L.md)
+  - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/glossary-terms/13-M.md)
+  - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/glossary-terms/14-N.md)
+  - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/glossary-terms/15-O.md)
+  - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/glossary-terms/16-P.md)
+  - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/glossary-terms/17-Q.md)
+  - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/glossary-terms/18-R.md)
+  - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/glossary-terms/19-S.md)
+  - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/glossary-terms/20-T.md)
+  - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/glossary-terms/21-U.md)
+  - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/glossary-terms/22-V.md)
+  - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/glossary-terms/23-W.md)
+  - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/glossary-terms/24-Z.md)
+- **i18n**
+  - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/i18n-zh/14-参与贡献.md)
+- **phases**
+  - [Phase 0: Setup & Tooling](/lib/07-coding/ai-engineering-from-scratch/phases-00-setup-and-tooling.md)
+    - **01-dev-environment**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-00-setup-and-tooling-01-dev-environment-outputs-prompt-env-check.md)
+    - **04-apis-and-keys**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-00-setup-and-tooling-04-apis-and-keys-outputs-prompt-api-troubleshooter.md)
+    - **05-jupyter-notebooks**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-00-setup-and-tooling-05-jupyter-notebooks-outputs-prompt-notebook-helper.md)
+    - **09-data-management**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-00-setup-and-tooling-09-data-management-outputs-prompt-data-helper.md)
+    - **12-debugging-and-profiling**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-00-setup-and-tooling-12-debugging-and-profiling-outputs-prompt-debug-ai-code.md)
+  - [Phase 1: Math Foundations](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations.md)
+    - **01-linear-algebra-intuition**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-01-linear-algebra-intuition-outputs-prompt-linear-algebra-tutor.md)
+    - **02-vectors-matrices-operations**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-02-vectors-matrices-operations-outputs-prompt-matrix-operations.md)
+    - **03-matrix-transformations**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-03-matrix-transformations-outputs-prompt-transformation-visualizer.md)
+    - **04-calculus-for-ml**
+      - **outputs**
+        - [Gradient Computation for ML](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-04-calculus-for-ml-outputs-skill-gradient-computation.md)
+    - **05-chain-rule-and-autodiff**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-05-chain-rule-and-autodiff-outputs-skill-autodiff.md)
+    - **06-probability-and-distributions**
+      - **outputs**
+        - [Probability Distribution Selection](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-06-probability-and-distributions-outputs-skill-probability-reasoning.md)
+    - **07-bayes-theorem**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-07-bayes-theorem-outputs-prompt-bayesian-reasoning.md)
+    - **08-optimization**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-08-optimization-outputs-prompt-optimizer-guide.md)
+    - **09-information-theory**
+      - **outputs**
+        - [Information Theory for ML](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-09-information-theory-outputs-skill-information-theory.md)
+    - **10-dimensionality-reduction**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-10-dimensionality-reduction-outputs-skill-dimensionality-reduction.md)
+    - **11-singular-value-decomposition**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-11-singular-value-decomposition-outputs-skill-svd.md)
+    - **12-tensor-operations**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-12-tensor-operations-outputs-prompt-tensor-debugger.md)
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-12-tensor-operations-outputs-prompt-tensor-shapes.md)
+    - **13-numerical-stability**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-13-numerical-stability-outputs-prompt-numerical-debugger.md)
+    - **14-norms-and-distances**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-14-norms-and-distances-outputs-prompt-distance-chooser.md)
+    - **15-statistics-for-ml**
+      - **outputs**
+        - [Statistical Testing for ML](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-15-statistics-for-ml-outputs-skill-statistical-testing.md)
+    - **16-sampling-methods**
+      - **outputs**
+        - [Sampling Strategy Selection](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-16-sampling-methods-outputs-skill-sampling-strategy.md)
+    - **17-linear-systems**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-17-linear-systems-outputs-prompt-linear-solver.md)
+    - **18-convex-optimization**
+      - **outputs**
+        - [Convexity Checker](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-18-convex-optimization-outputs-skill-convexity-checker.md)
+    - **19-complex-numbers**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-19-complex-numbers-outputs-skill-complex-arithmetic.md)
+    - **20-fourier-transform**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-20-fourier-transform-outputs-prompt-spectral-analyzer.md)
+    - **21-graph-theory**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-21-graph-theory-outputs-skill-graph-analysis.md)
+    - **22-stochastic-processes**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-01-math-foundations-22-stochastic-processes-outputs-prompt-stochastic-process-advisor.md)
+  - [Phase 2: ML Fundamentals](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals.md)
+    - **01-what-is-machine-learning**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals-01-what-is-machine-learning-outputs-prompt-ml-problem-framer.md)
+    - **02-linear-regression**
+      - **outputs**
+        - [Regression Strategy Guide](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals-02-linear-regression-outputs-skill-regression.md)
+    - **03-logistic-regression**
+      - **outputs**
+        - [Classification Baseline Guide](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals-03-logistic-regression-outputs-skill-classification-baseline.md)
+    - **04-decision-trees**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals-04-decision-trees-outputs-prompt-tree-interpreter.md)
+    - **05-support-vector-machines**
+      - **outputs**
+        - [SVM Kernel Selection Guide](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals-05-support-vector-machines-outputs-skill-svm-kernel-chooser.md)
+    - **06-knn-and-distances**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals-06-knn-and-distances-outputs-prompt-distance-metric-advisor.md)
+    - **07-unsupervised-learning**
+      - **outputs**
+        - [Clustering Algorithm Selection Guide](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals-07-unsupervised-learning-outputs-skill-clustering-guide.md)
+    - **08-feature-engineering**
+      - **outputs**
+        - [Feature Engineering Prompt](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals-08-feature-engineering-outputs-prompt-feature-engineer.md)
+    - **09-model-evaluation**
+      - **outputs**
+        - [Model Evaluation Strategy](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals-09-model-evaluation-outputs-skill-evaluation.md)
+    - **10-bias-variance**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals-10-bias-variance-outputs-prompt-model-diagnostics.md)
+    - **11-ensemble-methods**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals-11-ensemble-methods-outputs-prompt-ensemble-selector.md)
+        - [Ensemble Method Selection Guide](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals-11-ensemble-methods-outputs-skill-ensemble-builder.md)
+    - **12-hyperparameter-tuning**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals-12-hyperparameter-tuning-outputs-prompt-tuning-strategy.md)
+    - **13-ml-pipelines**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals-13-ml-pipelines-outputs-prompt-ml-pipeline.md)
+    - **14-naive-bayes**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals-14-naive-bayes-outputs-skill-naive-bayes-chooser.md)
+    - **15-time-series**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals-15-time-series-outputs-prompt-time-series-advisor.md)
+    - **16-anomaly-detection**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals-16-anomaly-detection-outputs-skill-anomaly-detector.md)
+    - **17-imbalanced-data**
+      - **outputs**
+        - [Imbalanced Data Strategy](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals-17-imbalanced-data-outputs-skill-imbalanced-data.md)
+    - **18-feature-selection**
+      - **outputs**
+        - [Feature Selection Strategy](/lib/07-coding/ai-engineering-from-scratch/phases-02-ml-fundamentals-18-feature-selection-outputs-skill-feature-selector.md)
+  - [Phase 3: Deep Learning Core](/lib/07-coding/ai-engineering-from-scratch/phases-03-deep-learning-core.md)
+    - **01-the-perceptron**
+      - **outputs**
+        - [The Perceptron Pattern](/lib/07-coding/ai-engineering-from-scratch/phases-03-deep-learning-core-01-the-perceptron-outputs-skill-perceptron.md)
+    - **02-multi-layer-networks**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-03-deep-learning-core-02-multi-layer-networks-outputs-prompt-network-architect.md)
+    - **03-backpropagation**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-03-deep-learning-core-03-backpropagation-outputs-prompt-gradient-debugger.md)
+    - **04-activation-functions**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-03-deep-learning-core-04-activation-functions-outputs-prompt-activation-selector.md)
+    - **05-loss-functions**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-03-deep-learning-core-05-loss-functions-outputs-prompt-loss-debugger.md)
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-03-deep-learning-core-05-loss-functions-outputs-prompt-loss-function-selector.md)
+    - **06-optimizers**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-03-deep-learning-core-06-optimizers-outputs-prompt-optimizer-selector.md)
+    - **07-regularization**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-03-deep-learning-core-07-regularization-outputs-prompt-regularization-advisor.md)
+    - **08-weight-initialization**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-03-deep-learning-core-08-weight-initialization-outputs-prompt-init-strategy.md)
+    - **09-learning-rate-schedules**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-03-deep-learning-core-09-learning-rate-schedules-outputs-prompt-lr-schedule-advisor.md)
+    - **10-mini-framework**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-03-deep-learning-core-10-mini-framework-outputs-prompt-framework-architect.md)
+    - **11-intro-to-pytorch**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-03-deep-learning-core-11-intro-to-pytorch-outputs-prompt-pytorch-debugger.md)
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-03-deep-learning-core-11-intro-to-pytorch-outputs-skill-pytorch-patterns.md)
+    - **12-intro-to-jax**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-03-deep-learning-core-12-intro-to-jax-outputs-prompt-jax-optimizer.md)
+        - [JAX Functional Patterns](/lib/07-coding/ai-engineering-from-scratch/phases-03-deep-learning-core-12-intro-to-jax-outputs-skill-jax-patterns.md)
+    - **13-debugging-neural-networks**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-03-deep-learning-core-13-debugging-neural-networks-outputs-prompt-nn-debugger.md)
+        - [Neural Network Debug Checklist](/lib/07-coding/ai-engineering-from-scratch/phases-03-deep-learning-core-13-debugging-neural-networks-outputs-skill-debug-checklist.md)
+  - [Phase 4: Computer Vision](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision.md)
+    - **01-image-fundamentals**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-01-image-fundamentals-outputs-prompt-vision-preprocessing-audit.md)
+        - [Image Tensor Inspector](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-01-image-fundamentals-outputs-skill-image-tensor-inspector.md)
+    - **02-convolutions-from-scratch**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-02-convolutions-from-scratch-outputs-prompt-cnn-architect.md)
+        - [Conv Shape Calculator](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-02-convolutions-from-scratch-outputs-skill-conv-shape-calculator.md)
+    - **03-cnns-lenet-to-resnet**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-03-cnns-lenet-to-resnet-outputs-prompt-backbone-selector.md)
+        - [Residual Block Reviewer](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-03-cnns-lenet-to-resnet-outputs-skill-residual-block-reviewer.md)
+    - **04-image-classification**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-04-image-classification-outputs-prompt-classifier-pipeline-auditor.md)
+        - [Classification Diagnostics](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-04-image-classification-outputs-skill-classification-diagnostics.md)
+    - **05-transfer-learning**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-05-transfer-learning-outputs-prompt-fine-tune-planner.md)
+        - [Freeze Inspector](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-05-transfer-learning-outputs-skill-freeze-inspector.md)
+    - **06-object-detection-yolo**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-06-object-detection-yolo-outputs-prompt-detection-metric-reader.md)
+        - [Anchor Designer](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-06-object-detection-yolo-outputs-skill-anchor-designer.md)
+    - **07-semantic-segmentation-unet**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-07-semantic-segmentation-unet-outputs-prompt-segmentation-task-picker.md)
+        - [Segmentation Mask Inspector](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-07-semantic-segmentation-unet-outputs-skill-segmentation-mask-inspector.md)
+    - **08-instance-segmentation-mask-rcnn**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-08-instance-segmentation-mask-rcnn-outputs-prompt-instance-vs-semantic-router.md)
+        - [Mask R-CNN Head Swapper](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-08-instance-segmentation-mask-rcnn-outputs-skill-mask-rcnn-head-swapper.md)
+    - **09-image-generation-gans**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-09-image-generation-gans-outputs-prompt-gan-training-triage.md)
+        - [DCGAN Scaffold](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-09-image-generation-gans-outputs-skill-dcgan-scaffold.md)
+    - **10-image-generation-diffusion**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-10-image-generation-diffusion-outputs-prompt-diffusion-sampler-picker.md)
+        - [Noise Schedule Designer](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-10-image-generation-diffusion-outputs-skill-noise-schedule-designer.md)
+    - **11-stable-diffusion**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-11-stable-diffusion-outputs-prompt-sd-pipeline-planner.md)
+        - [LoRA Training Setup](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-11-stable-diffusion-outputs-skill-lora-training-setup.md)
+    - **12-video-understanding**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-12-video-understanding-outputs-prompt-video-architecture-picker.md)
+        - [Frame Sampler Auditor](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-12-video-understanding-outputs-skill-frame-sampler-auditor.md)
+    - **13-3d-vision-nerf**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-13-3d-vision-nerf-outputs-prompt-3d-task-router.md)
+        - [Point Cloud Loader](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-13-3d-vision-nerf-outputs-skill-point-cloud-loader.md)
+    - **14-vision-transformers**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-14-vision-transformers-outputs-prompt-vit-vs-cnn-picker.md)
+        - [ViT Patch and Positional Embedding Inspector](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-14-vision-transformers-outputs-skill-vit-patch-and-pos-embed-inspector.md)
+    - **15-real-time-edge**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-15-real-time-edge-outputs-prompt-edge-deployment-planner.md)
+        - [Latency Profiler](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-15-real-time-edge-outputs-skill-latency-profiler.md)
+    - **16-vision-pipeline-capstone**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-16-vision-pipeline-capstone-outputs-prompt-vision-service-shape-reviewer.md)
+        - [Pipeline Budget Planner](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-16-vision-pipeline-capstone-outputs-skill-pipeline-budget-planner.md)
+    - **17-self-supervised-vision**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-17-self-supervised-vision-outputs-prompt-ssl-pretraining-picker.md)
+        - [Linear Probe Runner](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-17-self-supervised-vision-outputs-skill-linear-probe-runner.md)
+    - **18-open-vocab-clip**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-18-open-vocab-clip-outputs-prompt-zero-shot-class-picker.md)
+        - [Image-Text Retriever](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-18-open-vocab-clip-outputs-skill-image-text-retriever.md)
+    - **19-ocr-document-understanding**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-19-ocr-document-understanding-outputs-prompt-ocr-stack-picker.md)
+        - [CTC Decoder](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-19-ocr-document-understanding-outputs-skill-ctc-decoder.md)
+    - **20-image-retrieval-metric**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-20-image-retrieval-metric-outputs-prompt-retrieval-loss-picker.md)
+        - [Recall@K Runner](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-20-image-retrieval-metric-outputs-skill-recall-at-k-runner.md)
+    - **21-keypoint-pose**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-21-keypoint-pose-outputs-prompt-pose-stack-picker.md)
+        - [Heatmap to Coords](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-21-keypoint-pose-outputs-skill-heatmap-to-coords.md)
+    - **22-3d-gaussian-splatting**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-22-3d-gaussian-splatting-outputs-prompt-3dgs-capture-planner.md)
+        - [3DGS Export Router](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-22-3d-gaussian-splatting-outputs-skill-3dgs-export-router.md)
+    - **23-diffusion-transformers-rectified-flow**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-23-diffusion-transformers-rectified-flow-outputs-prompt-dit-model-picker.md)
+        - [Rectified Flow Trainer](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-23-diffusion-transformers-rectified-flow-outputs-skill-rectified-flow-trainer.md)
+    - **24-sam3-open-vocab-segmentation**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-24-sam3-open-vocab-segmentation-outputs-prompt-open-vocab-stack-picker.md)
+        - [Concept Prompt Designer](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-24-sam3-open-vocab-segmentation-outputs-skill-concept-prompt-designer.md)
+    - **25-vision-language-models**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-25-vision-language-models-outputs-prompt-vlm-selector.md)
+        - [CMER Monitor](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-25-vision-language-models-outputs-skill-cmer-monitor.md)
+    - **26-monocular-depth**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-26-monocular-depth-outputs-prompt-depth-model-picker.md)
+        - [Depth to Point Cloud](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-26-monocular-depth-outputs-skill-depth-to-pointcloud.md)
+    - **27-multi-object-tracking**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-27-multi-object-tracking-outputs-prompt-tracker-picker.md)
+        - [MOT Evaluator](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-27-multi-object-tracking-outputs-skill-mot-evaluator.md)
+    - **28-world-models-video-diffusion**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-28-world-models-video-diffusion-outputs-prompt-video-model-picker.md)
+        - [Physical Plausibility Checks](/lib/07-coding/ai-engineering-from-scratch/phases-04-computer-vision-28-world-models-video-diffusion-outputs-skill-physical-plausibility-checks.md)
+  - [Phase 5: NLP, Foundations to Advanced](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced.md)
+    - **01-text-processing**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-01-text-processing-outputs-prompt-preprocessing-advisor.md)
+    - **02-bag-of-words-tfidf**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-02-bag-of-words-tfidf-outputs-prompt-vectorization-picker.md)
+    - **03-word-embeddings-word2vec**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-03-word-embeddings-word2vec-outputs-skill-embedding-probe.md)
+    - **04-glove-fasttext-subword**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-04-glove-fasttext-subword-outputs-skill-embeddings-picker.md)
+    - **05-sentiment-analysis**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-05-sentiment-analysis-outputs-prompt-sentiment-baseline.md)
+    - **06-named-entity-recognition**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-06-named-entity-recognition-outputs-skill-ner-picker.md)
+    - **07-pos-tagging-parsing**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-07-pos-tagging-parsing-outputs-skill-grammar-pipeline.md)
+    - **08-cnns-rnns-for-text**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-08-cnns-rnns-for-text-outputs-prompt-text-encoder-picker.md)
+    - **09-sequence-to-sequence**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-09-sequence-to-sequence-outputs-prompt-seq2seq-design.md)
+    - **10-attention-mechanism**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-10-attention-mechanism-outputs-prompt-attention-shapes.md)
+    - **11-machine-translation**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-11-machine-translation-outputs-skill-mt-evaluator.md)
+    - **12-text-summarization**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-12-text-summarization-outputs-skill-summary-picker.md)
+    - **13-question-answering**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-13-question-answering-outputs-skill-qa-architect.md)
+    - **14-information-retrieval-search**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-14-information-retrieval-search-outputs-skill-retrieval-picker.md)
+    - **15-topic-modeling**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-15-topic-modeling-outputs-skill-topic-picker.md)
+    - **16-text-generation-pre-transformer**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-16-text-generation-pre-transformer-outputs-prompt-lm-baseline.md)
+    - **17-chatbots-rule-to-neural**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-17-chatbots-rule-to-neural-outputs-skill-chatbot-architect.md)
+    - **18-multilingual-nlp**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-18-multilingual-nlp-outputs-skill-multilingual-picker.md)
+    - **19-subword-tokenization**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-19-subword-tokenization-outputs-skill-bpe-vs-wordpiece.md)
+    - **20-structured-outputs-constrained-decoding**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-20-structured-outputs-constrained-decoding-outputs-skill-structured-output-picker.md)
+    - **21-nli-textual-entailment**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-21-nli-textual-entailment-outputs-skill-nli-picker.md)
+    - **22-embedding-models-deep-dive**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-22-embedding-models-deep-dive-outputs-skill-embedding-picker.md)
+    - **23-chunking-strategies-rag**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-23-chunking-strategies-rag-outputs-skill-chunker.md)
+    - **24-coreference-resolution**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-24-coreference-resolution-outputs-skill-coref-picker.md)
+    - **25-entity-linking**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-25-entity-linking-outputs-skill-entity-linker.md)
+    - **26-relation-extraction-kg**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-26-relation-extraction-kg-outputs-skill-re-designer.md)
+    - **27-llm-evaluation-frameworks**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-27-llm-evaluation-frameworks-outputs-skill-eval-architect.md)
+    - **28-long-context-evaluation**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-28-long-context-evaluation-outputs-skill-long-context-eval.md)
+    - **29-dialogue-state-tracking**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-05-nlp-foundations-to-advanced-29-dialogue-state-tracking-outputs-skill-dst-designer.md)
+  - [Phase 6: Speech & Audio](/lib/07-coding/ai-engineering-from-scratch/phases-06-speech-and-audio.md)
+    - **01-audio-fundamentals**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-06-speech-and-audio-01-audio-fundamentals-outputs-skill-audio-loader.md)
+    - **02-spectrograms-mel-features**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-06-speech-and-audio-02-spectrograms-mel-features-outputs-skill-feature-extractor.md)
+    - **03-audio-classification**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-06-speech-and-audio-03-audio-classification-outputs-skill-classifier-designer.md)
+    - **04-speech-recognition-asr**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-06-speech-and-audio-04-speech-recognition-asr-outputs-skill-asr-picker.md)
+    - **05-whisper-architecture-finetuning**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-06-speech-and-audio-05-whisper-architecture-finetuning-outputs-skill-whisper-tuner.md)
+    - **06-speaker-recognition-verification**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-06-speech-and-audio-06-speaker-recognition-verification-outputs-skill-speaker-verifier.md)
+    - **07-text-to-speech**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-06-speech-and-audio-07-text-to-speech-outputs-skill-tts-designer.md)
+    - **08-voice-cloning-conversion**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-06-speech-and-audio-08-voice-cloning-conversion-outputs-skill-voice-cloner.md)
+    - **09-music-generation**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-06-speech-and-audio-09-music-generation-outputs-skill-music-designer.md)
+    - **10-audio-language-models**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-06-speech-and-audio-10-audio-language-models-outputs-skill-alm-picker.md)
+    - **11-real-time-audio-processing**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-06-speech-and-audio-11-real-time-audio-processing-outputs-skill-realtime-pipeline.md)
+    - **12-voice-assistant-pipeline**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-06-speech-and-audio-12-voice-assistant-pipeline-outputs-skill-voice-assistant-architect.md)
+    - **13-neural-audio-codecs**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-06-speech-and-audio-13-neural-audio-codecs-outputs-skill-codec-picker.md)
+    - **14-voice-activity-detection-turn-taking**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-06-speech-and-audio-14-voice-activity-detection-turn-taking-outputs-skill-vad-tuner.md)
+    - **15-streaming-speech-to-speech-moshi-hibiki**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-06-speech-and-audio-15-streaming-speech-to-speech-moshi-hibiki-outputs-skill-duplex-pipeline.md)
+    - **16-anti-spoofing-audio-watermarking**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-06-speech-and-audio-16-anti-spoofing-audio-watermarking-outputs-skill-spoof-defender.md)
+    - **17-audio-evaluation-metrics**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-06-speech-and-audio-17-audio-evaluation-metrics-outputs-skill-audio-evaluator.md)
+  - [Phase 7: Transformers Deep Dive](/lib/07-coding/ai-engineering-from-scratch/phases-07-transformers-deep-dive.md)
+    - **01-why-transformers**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-07-transformers-deep-dive-01-why-transformers-outputs-skill-architecture-picker.md)
+    - **02-self-attention-from-scratch**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-07-transformers-deep-dive-02-self-attention-from-scratch-outputs-prompt-attention-explainer.md)
+    - **03-multi-head-attention**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-07-transformers-deep-dive-03-multi-head-attention-outputs-skill-mha-configurator.md)
+    - **04-positional-encoding**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-07-transformers-deep-dive-04-positional-encoding-outputs-skill-positional-encoding-picker.md)
+    - **05-full-transformer**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-07-transformers-deep-dive-05-full-transformer-outputs-skill-transformer-block-reviewer.md)
+    - **06-bert-masked-language-modeling**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-07-transformers-deep-dive-06-bert-masked-language-modeling-outputs-skill-bert-finetuner.md)
+    - **07-gpt-causal-language-modeling**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-07-transformers-deep-dive-07-gpt-causal-language-modeling-outputs-skill-sampling-tuner.md)
+    - **08-t5-bart-encoder-decoder**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-07-transformers-deep-dive-08-t5-bart-encoder-decoder-outputs-skill-seq2seq-picker.md)
+    - **09-vision-transformers**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-07-transformers-deep-dive-09-vision-transformers-outputs-skill-vit-configurator.md)
+    - **10-audio-transformers-whisper**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-07-transformers-deep-dive-10-audio-transformers-whisper-outputs-skill-asr-configurator.md)
+    - **11-mixture-of-experts**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-07-transformers-deep-dive-11-mixture-of-experts-outputs-skill-moe-configurator.md)
+    - **12-kv-cache-flash-attention**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-07-transformers-deep-dive-12-kv-cache-flash-attention-outputs-skill-inference-optimizer.md)
+    - **13-scaling-laws**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-07-transformers-deep-dive-13-scaling-laws-outputs-skill-training-budget-estimator.md)
+    - **14-build-a-transformer-capstone**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-07-transformers-deep-dive-14-build-a-transformer-capstone-outputs-skill-transformer-review.md)
+    - **15-attention-variants**
+      - **outputs**
+        - [Attention Variant Picker](/lib/07-coding/ai-engineering-from-scratch/phases-07-transformers-deep-dive-15-attention-variants-outputs-skill-attention-variant-picker.md)
+    - **16-speculative-decoding**
+      - **outputs**
+        - [Speculative Decoding Picker](/lib/07-coding/ai-engineering-from-scratch/phases-07-transformers-deep-dive-16-speculative-decoding-outputs-skill-spec-decode-picker.md)
+  - [Phase 8: Generative AI](/lib/07-coding/ai-engineering-from-scratch/phases-08-generative-ai.md)
+    - **01-generative-models-taxonomy-history**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-08-generative-ai-01-generative-models-taxonomy-history-outputs-skill-model-chooser.md)
+    - **02-autoencoders-vae**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-08-generative-ai-02-autoencoders-vae-outputs-skill-vae-trainer.md)
+    - **03-gans-generator-discriminator**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-08-generative-ai-03-gans-generator-discriminator-outputs-skill-gan-debugger.md)
+    - **04-conditional-gans-pix2pix**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-08-generative-ai-04-conditional-gans-pix2pix-outputs-skill-img2img-chooser.md)
+    - **05-stylegan**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-08-generative-ai-05-stylegan-outputs-skill-stylegan-inversion.md)
+    - **06-diffusion-ddpm-from-scratch**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-08-generative-ai-06-diffusion-ddpm-from-scratch-outputs-skill-diffusion-trainer.md)
+    - **07-latent-diffusion-stable-diffusion**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-08-generative-ai-07-latent-diffusion-stable-diffusion-outputs-skill-sd-prompter.md)
+    - **08-controlnet-lora-conditioning**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-08-generative-ai-08-controlnet-lora-conditioning-outputs-skill-sd-toolkit-composer.md)
+    - **09-inpainting-outpainting-editing**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-08-generative-ai-09-inpainting-outpainting-editing-outputs-skill-editing-pipeline.md)
+    - **10-video-generation**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-08-generative-ai-10-video-generation-outputs-skill-video-brief.md)
+    - **11-audio-generation**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-08-generative-ai-11-audio-generation-outputs-skill-audio-brief.md)
+    - **12-3d-generation**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-08-generative-ai-12-3d-generation-outputs-skill-3d-pipeline.md)
+    - **13-flow-matching-rectified-flows**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-08-generative-ai-13-flow-matching-rectified-flows-outputs-skill-fm-tuner.md)
+    - **14-evaluation-fid-clip-score**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-08-generative-ai-14-evaluation-fid-clip-score-outputs-skill-eval-report.md)
+    - **19-visual-autoregressive-var**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-08-generative-ai-19-visual-autoregressive-var-outputs-skill-var-tokenizer-designer.md)
+  - [Phase 9: Reinforcement Learning](/lib/07-coding/ai-engineering-from-scratch/phases-09-reinforcement-learning.md)
+    - **01-mdps-states-actions-rewards**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-09-reinforcement-learning-01-mdps-states-actions-rewards-outputs-skill-mdp-modeler.md)
+    - **02-dynamic-programming**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-09-reinforcement-learning-02-dynamic-programming-outputs-skill-dp-solver.md)
+    - **03-monte-carlo-methods**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-09-reinforcement-learning-03-monte-carlo-methods-outputs-skill-mc-evaluator.md)
+    - **04-q-learning-sarsa**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-09-reinforcement-learning-04-q-learning-sarsa-outputs-skill-td-agent.md)
+    - **05-dqn**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-09-reinforcement-learning-05-dqn-outputs-skill-dqn-trainer.md)
+    - **06-policy-gradients-reinforce**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-09-reinforcement-learning-06-policy-gradients-reinforce-outputs-skill-policy-gradient-trainer.md)
+    - **07-actor-critic-a2c-a3c**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-09-reinforcement-learning-07-actor-critic-a2c-a3c-outputs-skill-actor-critic-trainer.md)
+    - **08-ppo**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-09-reinforcement-learning-08-ppo-outputs-skill-ppo-trainer.md)
+    - **09-reward-modeling-rlhf**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-09-reinforcement-learning-09-reward-modeling-rlhf-outputs-skill-rlhf-architect.md)
+    - **10-multi-agent-rl**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-09-reinforcement-learning-10-multi-agent-rl-outputs-skill-marl-architect.md)
+    - **11-sim-to-real-transfer**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-09-reinforcement-learning-11-sim-to-real-transfer-outputs-skill-sim2real-planner.md)
+    - **12-rl-for-games**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-09-reinforcement-learning-12-rl-for-games-outputs-skill-game-rl-designer.md)
+  - [Phase 10: LLMs from Scratch](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch.md)
+    - **01-tokenizers**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-01-tokenizers-outputs-prompt-tokenizer-analyzer.md)
+        - [Tokenizer Selection and Implementation](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-01-tokenizers-outputs-skill-tokenizer.md)
+    - **02-building-a-tokenizer**
+      - **outputs**
+        - [Production Tokenizer Builder](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-02-building-a-tokenizer-outputs-prompt-tokenizer-builder.md)
+    - **03-data-pipelines**
+      - **outputs**
+        - [Data Quality Checker for LLM Pre-Training](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-03-data-pipelines-outputs-prompt-data-quality-checker.md)
+    - **04-pre-training-mini-gpt**
+      - **outputs**
+        - [GPT Architecture Analyzer](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-04-pre-training-mini-gpt-outputs-prompt-gpt-architecture-analyzer.md)
+    - **05-scaling-distributed**
+      - **outputs**
+        - [Distributed Training Planner](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-05-scaling-distributed-outputs-prompt-distributed-training-planner.md)
+    - **06-instruction-tuning-sft**
+      - **outputs**
+        - [SFT Data Curator](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-06-instruction-tuning-sft-outputs-prompt-sft-data-curator.md)
+    - **07-rlhf**
+      - **outputs**
+        - [Reward Model Designer](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-07-rlhf-outputs-prompt-reward-model-designer.md)
+    - **08-dpo**
+      - **outputs**
+        - [Alignment Method Selector](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-08-dpo-outputs-prompt-alignment-method-selector.md)
+    - **09-constitutional-ai-self-improvement**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-09-constitutional-ai-self-improvement-outputs-skill-self-improvement-auditor.md)
+    - **10-evaluation**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-10-evaluation-outputs-prompt-eval-designer.md)
+        - [LLM Evaluation Strategy](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-10-evaluation-outputs-skill-llm-evaluation.md)
+    - **11-quantization**
+      - **outputs**
+        - [Quantization Decision Framework](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-11-quantization-outputs-skill-quantization.md)
+    - **12-inference-optimization**
+      - **outputs**
+        - [LLM Inference Optimization Pattern](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-12-inference-optimization-outputs-skill-inference-optimization.md)
+    - **13-building-complete-llm-pipeline**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-13-building-complete-llm-pipeline-outputs-skill-llm-pipeline-reviewer.md)
+    - **14-open-models-architecture-walkthroughs**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-14-open-models-architecture-walkthroughs-outputs-skill-open-model-picker.md)
+    - **15-speculative-decoding-eagle3**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-15-speculative-decoding-eagle3-outputs-skill-eagle3-tuner.md)
+    - **16-differential-attention-v2**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-16-differential-attention-v2-outputs-skill-diff-attention-integrator.md)
+    - **17-native-sparse-attention**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-17-native-sparse-attention-outputs-skill-nsa-integrator.md)
+    - **18-multi-token-prediction**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-18-multi-token-prediction-outputs-skill-mtp-planner.md)
+    - **19-dualpipe-parallelism**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-19-dualpipe-parallelism-outputs-skill-dualpipe-planner.md)
+    - **20-deepseek-v3-walkthrough**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-20-deepseek-v3-walkthrough-outputs-skill-deepseek-v3-reader.md)
+    - **21-jamba-hybrid-ssm-transformer**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-21-jamba-hybrid-ssm-transformer-outputs-skill-hybrid-picker.md)
+    - **22-async-hogwild-inference**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-22-async-hogwild-inference-outputs-skill-parallel-inference-router.md)
+    - **25-speculative-decoding**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-25-speculative-decoding-outputs-skill-speculative-tuning.md)
+    - **34-gradient-checkpointing**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-10-llms-from-scratch-34-gradient-checkpointing-outputs-skill-checkpointing-planner.md)
+  - [Phase 11: LLM Engineering](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering.md)
+    - **01-prompt-engineering**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-01-prompt-engineering-outputs-prompt-prompt-optimizer.md)
+        - [Prompt Pattern Selection Guide](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-01-prompt-engineering-outputs-skill-prompt-patterns.md)
+    - **02-few-shot-cot**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-02-few-shot-cot-outputs-prompt-reasoning-chain.md)
+        - [Reasoning Technique Selection Guide](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-02-few-shot-cot-outputs-skill-cot-patterns.md)
+    - **03-structured-outputs**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-03-structured-outputs-outputs-prompt-structured-extractor.md)
+        - [Structured Output Strategy](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-03-structured-outputs-outputs-skill-structured-outputs.md)
+    - **04-embeddings**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-04-embeddings-outputs-prompt-embedding-advisor.md)
+        - [Embedding Patterns](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-04-embeddings-outputs-skill-embedding-patterns.md)
+    - **05-context-engineering**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-05-context-engineering-outputs-prompt-context-optimizer.md)
+        - [Context Engineering](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-05-context-engineering-outputs-skill-context-engineering.md)
+    - **06-rag**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-06-rag-outputs-prompt-rag-architect.md)
+        - [RAG Pipeline Pattern](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-06-rag-outputs-skill-rag-pipeline.md)
+    - **07-advanced-rag**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-07-advanced-rag-outputs-prompt-advanced-rag-debugger.md)
+        - [Advanced RAG Pattern](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-07-advanced-rag-outputs-skill-advanced-rag.md)
+    - **08-fine-tuning-lora**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-08-fine-tuning-lora-outputs-prompt-lora-advisor.md)
+        - [Fine-Tuning Decision Guide](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-08-fine-tuning-lora-outputs-skill-fine-tuning-guide.md)
+    - **09-function-calling**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-09-function-calling-outputs-prompt-tool-designer.md)
+        - [Function Calling Patterns](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-09-function-calling-outputs-skill-function-calling-patterns.md)
+    - **10-evaluation**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-10-evaluation-outputs-prompt-eval-designer.md)
+        - [Eval Patterns](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-10-evaluation-outputs-skill-eval-patterns.md)
+    - **11-caching-cost**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-11-caching-cost-outputs-prompt-cost-optimizer.md)
+        - [LLM Cost Optimization Patterns](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-11-caching-cost-outputs-skill-cost-patterns.md)
+    - **12-guardrails**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-12-guardrails-outputs-prompt-safety-auditor.md)
+        - [Guardrail Patterns](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-12-guardrails-outputs-skill-guardrail-patterns.md)
+    - **13-production-app**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-13-production-app-outputs-prompt-architecture-reviewer.md)
+        - [Production LLM Checklist](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-13-production-app-outputs-skill-production-checklist.md)
+    - **14-model-context-protocol**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-14-model-context-protocol-outputs-skill-mcp-server-designer.md)
+    - **15-prompt-caching**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-15-prompt-caching-outputs-skill-prompt-caching-planner.md)
+    - **16-langgraph-state-machines**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-16-langgraph-state-machines-outputs-skill-stategraph-designer.md)
+    - **17-agent-framework-tradeoffs**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-11-llm-engineering-17-agent-framework-tradeoffs-outputs-skill-framework-picker.md)
+  - [Phase 12: Multimodal AI](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai.md)
+    - **01-vision-transformer-patch-tokens**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-01-vision-transformer-patch-tokens-outputs-skill-patch-geometry-reader.md)
+    - **02-clip-contrastive-pretraining**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-02-clip-contrastive-pretraining-outputs-skill-clip-zero-shot.md)
+    - **03-blip2-qformer-bridge**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-03-blip2-qformer-bridge-outputs-skill-modality-bridge-picker.md)
+    - **04-flamingo-gated-cross-attention**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-04-flamingo-gated-cross-attention-outputs-skill-gated-bridge-diagnostic.md)
+    - **05-llava-visual-instruction-tuning**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-05-llava-visual-instruction-tuning-outputs-skill-llava-vibes-eval.md)
+    - **06-any-resolution-patch-n-pack**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-06-any-resolution-patch-n-pack-outputs-skill-resolution-budget-planner.md)
+    - **07-open-weight-vlm-recipes**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-07-open-weight-vlm-recipes-outputs-skill-vlm-recipe-picker.md)
+    - **08-llava-onevision-single-multi-video**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-08-llava-onevision-single-multi-video-outputs-skill-onevision-budget-planner.md)
+    - **09-qwen-vl-family-dynamic-fps**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-09-qwen-vl-family-dynamic-fps-outputs-skill-qwen-vl-pipeline-designer.md)
+    - **10-internvl3-native-multimodal**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-10-internvl3-native-multimodal-outputs-skill-native-vs-posthoc-auditor.md)
+    - **11-chameleon-early-fusion-tokens**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-11-chameleon-early-fusion-tokens-outputs-skill-tokenizer-vs-adapter-picker.md)
+    - **12-emu3-next-token-for-generation**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-12-emu3-next-token-for-generation-outputs-skill-token-gen-cost-analyzer.md)
+    - **13-transfusion-autoregressive-diffusion**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-13-transfusion-autoregressive-diffusion-outputs-skill-two-loss-trainer-designer.md)
+    - **14-show-o-discrete-diffusion-unified**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-14-show-o-discrete-diffusion-unified-outputs-skill-unified-gen-model-picker.md)
+    - **15-janus-pro-decoupled-encoders**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-15-janus-pro-decoupled-encoders-outputs-skill-decoupled-encoder-picker.md)
+    - **16-mio-any-to-any-streaming**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-16-mio-any-to-any-streaming-outputs-skill-any-to-any-pipeline-auditor.md)
+    - **17-video-language-temporal-grounding**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-17-video-language-temporal-grounding-outputs-skill-video-vlm-frame-planner.md)
+    - **18-long-video-million-token**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-18-long-video-million-token-outputs-skill-long-video-strategy-planner.md)
+    - **19-audio-language-whisper-to-af3**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-19-audio-language-whisper-to-af3-outputs-skill-audio-llm-pipeline-picker.md)
+    - **20-omni-models-thinker-talker**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-20-omni-models-thinker-talker-outputs-skill-omni-streaming-budget.md)
+    - **21-embodied-vlas-openvla-pi0-groot**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-21-embodied-vlas-openvla-pi0-groot-outputs-skill-vla-action-format-picker.md)
+    - **22-document-diagram-understanding**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-22-document-diagram-understanding-outputs-skill-document-ai-stack-picker.md)
+    - **23-colpali-vision-native-rag**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-23-colpali-vision-native-rag-outputs-skill-vision-rag-designer.md)
+    - **24-multimodal-rag-cross-modal**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-24-multimodal-rag-cross-modal-outputs-skill-multimodal-rag-designer.md)
+    - **25-multimodal-agents-computer-use**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-12-multimodal-ai-25-multimodal-agents-computer-use-outputs-skill-multimodal-agent-designer.md)
+  - [Phase 13: Tools & Protocols](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols.md)
+    - **01-the-tool-interface**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-01-the-tool-interface-outputs-skill-tool-interface-reviewer.md)
+    - **02-function-calling-deep-dive**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-02-function-calling-deep-dive-outputs-skill-provider-portability-audit.md)
+    - **03-parallel-and-streaming-tool-calls**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-03-parallel-and-streaming-tool-calls-outputs-skill-parallel-call-safety-check.md)
+    - **04-structured-output**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-04-structured-output-outputs-skill-structured-output-designer.md)
+    - **05-tool-schema-design**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-05-tool-schema-design-outputs-skill-tool-schema-linter.md)
+    - **06-mcp-fundamentals**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-06-mcp-fundamentals-outputs-skill-mcp-handshake-tracer.md)
+    - **07-building-an-mcp-server**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-07-building-an-mcp-server-outputs-skill-mcp-server-scaffolder.md)
+    - **08-building-an-mcp-client**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-08-building-an-mcp-client-outputs-skill-mcp-client-harness.md)
+    - **09-mcp-transports**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-09-mcp-transports-outputs-skill-mcp-transport-migrator.md)
+    - **10-mcp-resources-and-prompts**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-10-mcp-resources-and-prompts-outputs-skill-primitive-splitter.md)
+    - **11-mcp-sampling**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-11-mcp-sampling-outputs-skill-sampling-loop-designer.md)
+    - **12-mcp-roots-and-elicitation**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-12-mcp-roots-and-elicitation-outputs-skill-elicitation-form-designer.md)
+    - **13-mcp-async-tasks**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-13-mcp-async-tasks-outputs-skill-task-store-designer.md)
+    - **14-mcp-apps**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-14-mcp-apps-outputs-skill-mcp-apps-spec.md)
+    - **15-mcp-security-tool-poisoning**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-15-mcp-security-tool-poisoning-outputs-skill-mcp-threat-model.md)
+    - **16-mcp-security-oauth-2-1**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-16-mcp-security-oauth-2-1-outputs-skill-oauth-scope-planner.md)
+    - **17-mcp-gateways-and-registries**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-17-mcp-gateways-and-registries-outputs-skill-gateway-bootstrap.md)
+    - **18-mcp-auth-production**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-18-mcp-auth-production-outputs-skill-mcp-auth.md)
+    - **19-a2a-protocol**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-19-a2a-protocol-outputs-skill-a2a-agent-spec.md)
+    - **20-opentelemetry-genai**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-20-opentelemetry-genai-outputs-skill-otel-genai-instrumentation.md)
+    - **21-llm-routing-layer**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-21-llm-routing-layer-outputs-skill-routing-config-designer.md)
+    - **22-skills-and-agent-sdks**
+      - **outputs**
+        - **skill-contract-reviewer**
+          - [Skill contract reviewer](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-22-skills-and-agent-sdks-outputs-skill-contract-reviewer-SKILL.md)
+          - **references**
+            - [Portable contract checklist](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-22-skills-and-agent-sdks-outputs-skill-contract-reviewer-references-contract.md)
+            - [Primitive decision model](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-22-skills-and-agent-sdks-outputs-skill-contract-reviewer-references-decision-model.md)
+    - **23-capstone-tool-ecosystem**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-23-capstone-tool-ecosystem-outputs-skill-ecosystem-blueprint.md)
+    - **24-skill-discovery-and-progressive-disclosure**
+      - **outputs**
+        - **skill-catalog-builder**
+          - [Skill catalog builder](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-24-skill-discovery-and-progressive-disclosure-outputs-skill-catalog-builder-SKILL.md)
+          - **references**
+            - [Discovery contract](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-24-skill-discovery-and-progressive-disclosure-outputs-skill-catalog-builder-references-discovery-contract.md)
+    - **25-skill-invocation-and-routing**
+      - **outputs**
+        - **skill-invocation-router**
+          - [Skill invocation router](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-25-skill-invocation-and-routing-outputs-skill-invocation-router-SKILL.md)
+          - **references**
+            - [Invocation model](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-25-skill-invocation-and-routing-outputs-skill-invocation-router-references-invocation-model.md)
+    - **26-skill-permissions-sandboxes-and-trust**
+      - **outputs**
+        - **skill-safety-reviewer**
+          - [Skill safety reviewer](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-26-skill-permissions-sandboxes-and-trust-outputs-skill-safety-reviewer-SKILL.md)
+          - **references**
+            - [Threat model](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-26-skill-permissions-sandboxes-and-trust-outputs-skill-safety-reviewer-references-threat-model.md)
+    - **27-skill-evals-packaging-and-portability**
+      - **outputs**
+        - **skill-release-gate**
+          - [Skill release gate](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-27-skill-evals-packaging-and-portability-outputs-skill-release-gate-SKILL.md)
+          - **references**
+            - [Evaluation contract](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-27-skill-evals-packaging-and-portability-outputs-skill-release-gate-references-eval-contract.md)
+    - **28-mcp-tool-contracts-and-content**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-28-mcp-tool-contracts-and-content-outputs-skill-mcp-contract-reviewer.md)
+    - **29-mcp-reliability-cancellation-and-flow-control**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-29-mcp-reliability-cancellation-and-flow-control-outputs-skill-mcp-reliability-reviewer.md)
+    - **30-mcp-registry-supply-chain-and-drift**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-30-mcp-registry-supply-chain-and-drift-outputs-skill-mcp-registry-admission.md)
+    - **31-mcp-conformance-versioning-and-operations**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-13-tools-and-protocols-31-mcp-conformance-versioning-and-operations-outputs-skill-mcp-conformance-release-gate.md)
+  - [Phase 14: Agent Engineering](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering.md)
+    - **01-the-agent-loop**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-01-the-agent-loop-outputs-skill-agent-loop.md)
+    - **02-rewoo-plan-and-execute**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-02-rewoo-plan-and-execute-outputs-skill-rewoo-planner.md)
+    - **03-reflexion-verbal-rl**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-03-reflexion-verbal-rl-outputs-skill-reflexion-buffer.md)
+    - **04-tree-of-thoughts-lats**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-04-tree-of-thoughts-lats-outputs-skill-search-policy.md)
+    - **05-self-refine-and-critic**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-05-self-refine-and-critic-outputs-skill-refine-loop.md)
+    - **06-tool-use-and-function-calling**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-06-tool-use-and-function-calling-outputs-skill-tool-registry.md)
+    - **07-memory-virtual-context-memgpt**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-07-memory-virtual-context-memgpt-outputs-skill-virtual-memory.md)
+    - **08-memory-blocks-sleep-time-compute**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-08-memory-blocks-sleep-time-compute-outputs-skill-memory-blocks.md)
+    - **09-hybrid-memory-mem0**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-09-hybrid-memory-mem0-outputs-skill-hybrid-memory.md)
+    - **10-skill-libraries-voyager**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-10-skill-libraries-voyager-outputs-skill-skill-library.md)
+    - **11-planning-htn-and-evolutionary**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-11-planning-htn-and-evolutionary-outputs-skill-hybrid-planner.md)
+    - **12-anthropic-workflow-patterns**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-12-anthropic-workflow-patterns-outputs-skill-workflow-picker.md)
+    - **13-langgraph-stateful-graphs**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-13-langgraph-stateful-graphs-outputs-skill-state-graph.md)
+    - **14-autogen-actor-model**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-14-autogen-actor-model-outputs-skill-actor-runtime.md)
+    - **15-crewai-role-based-crews**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-15-crewai-role-based-crews-outputs-skill-crew-or-flow.md)
+    - **16-openai-agents-sdk**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-16-openai-agents-sdk-outputs-skill-agents-sdk-scaffold.md)
+    - **17-claude-agent-sdk**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-17-claude-agent-sdk-outputs-skill-claude-agent-scaffold.md)
+    - **18-agno-and-mastra-runtimes**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-18-agno-and-mastra-runtimes-outputs-skill-runtime-picker.md)
+    - **19-benchmarks-swebench-gaia**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-19-benchmarks-swebench-gaia-outputs-skill-benchmark-harness.md)
+    - **20-benchmarks-webarena-osworld**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-20-benchmarks-webarena-osworld-outputs-skill-web-desktop-harness.md)
+    - **21-computer-use-agents**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-21-computer-use-agents-outputs-skill-computer-use-safety.md)
+    - **22-voice-agents-pipecat-livekit**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-22-voice-agents-pipecat-livekit-outputs-skill-voice-pipeline.md)
+    - **23-otel-genai-conventions**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-23-otel-genai-conventions-outputs-skill-otel-genai.md)
+    - **24-agent-observability-platforms**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-24-agent-observability-platforms-outputs-skill-obs-platform-wiring.md)
+    - **25-multi-agent-debate**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-25-multi-agent-debate-outputs-skill-debate.md)
+    - **26-failure-modes-agentic**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-26-failure-modes-agentic-outputs-skill-failure-detector.md)
+    - **27-prompt-injection-defense**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-27-prompt-injection-defense-outputs-skill-injection-defense.md)
+    - **28-orchestration-patterns**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-28-orchestration-patterns-outputs-skill-orchestration-picker.md)
+    - **29-production-runtimes**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-29-production-runtimes-outputs-skill-runtime-shape.md)
+    - **30-eval-driven-agent-development**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-30-eval-driven-agent-development-outputs-skill-eval-suite.md)
+    - **31-agent-workbench-why-models-fail**
+      - **文档**
+        - [Agent Workbench Engineering: Why Capable Models Still Fail](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-31-agent-workbench-why-models-fail-docs-en.md)
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-31-agent-workbench-why-models-fail-outputs-skill-workbench-audit.md)
+    - **32-minimal-agent-workbench**
+      - **文档**
+        - [The Minimal Agent Workbench](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-32-minimal-agent-workbench-docs-en.md)
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-32-minimal-agent-workbench-outputs-skill-minimal-workbench.md)
+    - **33-instructions-as-executable-constraints**
+      - **code**
+        - [Agent Rules](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-33-instructions-as-executable-constraints-code-agent-rules.md)
+      - **文档**
+        - [Agent Instructions as Executable Constraints](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-33-instructions-as-executable-constraints-docs-en.md)
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-33-instructions-as-executable-constraints-outputs-skill-rule-set-builder.md)
+    - **34-repo-memory-and-state**
+      - **文档**
+        - [Repo Memory and Durable State](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-34-repo-memory-and-state-docs-en.md)
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-34-repo-memory-and-state-outputs-skill-state-schema.md)
+    - **35-initialization-scripts**
+      - **文档**
+        - [Initialization Scripts for Agents](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-35-initialization-scripts-docs-en.md)
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-35-initialization-scripts-outputs-skill-init-script.md)
+    - **36-scope-contracts**
+      - **文档**
+        - [Scope Contracts and Task Boundaries](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-36-scope-contracts-docs-en.md)
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-36-scope-contracts-outputs-skill-scope-contract.md)
+    - **37-runtime-feedback-loops**
+      - **文档**
+        - [Runtime Feedback Loops](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-37-runtime-feedback-loops-docs-en.md)
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-37-runtime-feedback-loops-outputs-skill-feedback-runner.md)
+    - **38-verification-gates**
+      - **文档**
+        - [Verification Gates](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-38-verification-gates-docs-en.md)
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-38-verification-gates-outputs-skill-verification-gate.md)
+    - **39-reviewer-agent**
+      - **文档**
+        - [Reviewer Agent: Separate Builder from Marker](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-39-reviewer-agent-docs-en.md)
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-39-reviewer-agent-outputs-skill-reviewer-agent.md)
+    - **40-multi-session-handoff**
+      - **文档**
+        - [Multi-Session Handoff](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-40-multi-session-handoff-docs-en.md)
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-40-multi-session-handoff-outputs-skill-handoff-generator.md)
+    - **41-workbench-for-real-repos**
+      - **文档**
+        - [The Workbench on a Real Repo](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-41-workbench-for-real-repos-docs-en.md)
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-41-workbench-for-real-repos-outputs-skill-workbench-benchmark.md)
+    - **42-agent-workbench-capstone**
+      - [Mission - Capstone: Ship a Reusable Agent Workbench Pack](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-42-agent-workbench-capstone-mission.md)
+      - **文档**
+        - [Capstone: Ship a Reusable Agent Workbench Pack](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-42-agent-workbench-capstone-docs-en.md)
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-42-agent-workbench-capstone-outputs-skill-workbench-pack.md)
+        - **agent-workbench-pack**
+          - **文档**
+            - [Agent Rules](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-42-agent-workbench-capstone-outputs-agent-workbench-pack-docs-agent-rules.md)
+            - [Handoff Protocol](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-42-agent-workbench-capstone-outputs-agent-workbench-pack-docs-handoff-protocol.md)
+            - [Reliability Policy](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-42-agent-workbench-capstone-outputs-agent-workbench-pack-docs-reliability-policy.md)
+            - [Reviewer Rubric](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-42-agent-workbench-capstone-outputs-agent-workbench-pack-docs-reviewer-rubric.md)
+    - **43-frame-the-task-before-code**
+      - **outputs**
+        - [Task Frame: Prevent duplicate email addresses during signup](/lib/07-coding/ai-engineering-from-scratch/phases-14-agent-engineering-43-frame-the-task-before-code-outputs-task-frame.md)
+  - [Phase 15: Autonomous Systems](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems.md)
+    - **01-long-horizon-agents**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-01-long-horizon-agents-outputs-skill-horizon-reality-check.md)
+    - **02-star-family-reasoning**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-02-star-family-reasoning-outputs-skill-star-loop-reviewer.md)
+    - **03-alphaevolve-evolutionary-coding**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-03-alphaevolve-evolutionary-coding-outputs-skill-evaluator-rigor-audit.md)
+    - **04-darwin-godel-machine**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-04-darwin-godel-machine-outputs-skill-dgm-evaluator-firewall.md)
+    - **05-ai-scientist-v2**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-05-ai-scientist-v2-outputs-skill-ai-scientist-sandbox-review.md)
+    - **06-automated-alignment-research**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-06-automated-alignment-research-outputs-skill-aar-deployment-review.md)
+    - **07-recursive-self-improvement**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-07-recursive-self-improvement-outputs-skill-rsi-cycle-pause-spec.md)
+    - **08-bounded-self-improvement**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-08-bounded-self-improvement-outputs-skill-bounded-loop-review.md)
+    - **09-coding-agent-landscape**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-09-coding-agent-landscape-outputs-skill-scaffold-audit.md)
+    - **10-claude-code-permission-modes**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-10-claude-code-permission-modes-outputs-skill-permission-mode-picker.md)
+    - **11-browser-agents**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-11-browser-agents-outputs-skill-browser-agent-trust-boundary.md)
+    - **12-durable-execution**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-12-durable-execution-outputs-skill-durable-execution-review.md)
+    - **13-cost-governors**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-13-cost-governors-outputs-skill-agent-budget-audit.md)
+    - **14-kill-switches-canaries**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-14-kill-switches-canaries-outputs-skill-tripwire-design.md)
+    - **15-propose-then-commit**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-15-propose-then-commit-outputs-skill-hitl-design.md)
+    - **16-checkpoints-rollback**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-16-checkpoints-rollback-outputs-skill-rollback-rehearsal.md)
+    - **17-constitutional-ai**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-17-constitutional-ai-outputs-skill-constitution-review.md)
+    - **18-llama-guard**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-18-llama-guard-outputs-skill-classifier-stack-audit.md)
+    - **19-anthropic-rsp**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-19-anthropic-rsp-outputs-skill-scaling-policy-review.md)
+    - **20-openai-preparedness-deepmind-fsf**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-20-openai-preparedness-deepmind-fsf-outputs-skill-cross-policy-diff.md)
+    - **21-metr-external-evaluation**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-21-metr-external-evaluation-outputs-skill-horizon-interpretation.md)
+    - **22-cais-caisi-societal-risk**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-15-autonomous-systems-22-cais-caisi-societal-risk-outputs-skill-societal-risk-review.md)
+  - [Phase 16: Multi-Agent & Swarms](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms.md)
+    - **01-why-multi-agent**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-01-why-multi-agent-outputs-prompt-multi-agent-decision.md)
+    - **02-fipa-acl-heritage**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-02-fipa-acl-heritage-outputs-skill-fipa-mapper.md)
+    - **03-communication-protocols**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-03-communication-protocols-outputs-prompt-protocol-selector.md)
+    - **04-primitive-model**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-04-primitive-model-outputs-skill-primitive-mapper.md)
+    - **05-supervisor-orchestrator-pattern**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-05-supervisor-orchestrator-pattern-outputs-skill-supervisor-designer.md)
+    - **06-hierarchical-architecture**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-06-hierarchical-architecture-outputs-skill-hierarchy-fitness.md)
+    - **07-society-of-mind-debate**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-07-society-of-mind-debate-outputs-skill-debate-configurator.md)
+    - **08-role-specialization**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-08-role-specialization-outputs-skill-role-designer.md)
+    - **09-parallel-swarm-networks**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-09-parallel-swarm-networks-outputs-skill-swarm-fit.md)
+    - **10-group-chat-speaker-selection**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-10-group-chat-speaker-selection-outputs-skill-groupchat-selector.md)
+    - **11-handoffs-and-routines**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-11-handoffs-and-routines-outputs-skill-handoff-designer.md)
+    - **12-a2a-protocol**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-12-a2a-protocol-outputs-skill-a2a-integrator.md)
+    - **13-shared-memory-blackboard**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-13-shared-memory-blackboard-outputs-skill-memory-auditor.md)
+    - **14-consensus-and-bft**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-14-consensus-and-bft-outputs-skill-consensus-designer.md)
+    - **15-voting-debate-topology**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-15-voting-debate-topology-outputs-skill-topology-picker.md)
+    - **16-negotiation-bargaining**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-16-negotiation-bargaining-outputs-skill-bargainer-designer.md)
+    - **17-generative-agents-simulation**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-17-generative-agents-simulation-outputs-skill-simulation-designer.md)
+    - **18-theory-of-mind-coordination**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-18-theory-of-mind-coordination-outputs-skill-tom-auditor.md)
+    - **19-swarm-optimization-pso-aco**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-19-swarm-optimization-pso-aco-outputs-skill-swarm-optimizer.md)
+    - **20-marl-maddpg-qmix-mappo**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-20-marl-maddpg-qmix-mappo-outputs-skill-marl-picker.md)
+    - **21-agent-economies**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-21-agent-economies-outputs-skill-economy-designer.md)
+    - **22-production-scaling-queues-checkpoints**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-22-production-scaling-queues-checkpoints-outputs-skill-scaling-advisor.md)
+    - **23-failure-modes-mast-groupthink**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-23-failure-modes-mast-groupthink-outputs-skill-mast-auditor.md)
+    - **24-evaluation-coordination-benchmarks**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-24-evaluation-coordination-benchmarks-outputs-skill-benchmark-reader.md)
+    - **25-case-studies-2026-sota**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-16-multi-agent-and-swarms-25-case-studies-2026-sota-outputs-skill-case-study-mapper.md)
+  - [Phase 17: Infrastructure & Production](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production.md)
+    - **01-managed-llm-platforms**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-01-managed-llm-platforms-outputs-skill-managed-platform-picker.md)
+    - **02-inference-platform-economics**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-02-inference-platform-economics-outputs-skill-inference-platform-picker.md)
+    - **03-gpu-autoscaling-kubernetes**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-03-gpu-autoscaling-kubernetes-outputs-skill-gpu-autoscaler-plan.md)
+    - **04-vllm-serving-internals**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-04-vllm-serving-internals-outputs-skill-vllm-scheduler-reader.md)
+    - **05-eagle3-speculative-decoding**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-05-eagle3-speculative-decoding-outputs-skill-eagle3-rollout.md)
+    - **06-sglang-radixattention**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-06-sglang-radixattention-outputs-skill-radix-scheduler-advisor.md)
+    - **07-tensorrt-llm-blackwell**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-07-tensorrt-llm-blackwell-outputs-skill-trtllm-blackwell-advisor.md)
+    - **08-inference-metrics-goodput**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-08-inference-metrics-goodput-outputs-skill-slo-goodput-gate.md)
+    - **09-production-quantization**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-09-production-quantization-outputs-skill-quantization-picker.md)
+    - **10-cold-start-mitigation**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-10-cold-start-mitigation-outputs-skill-cold-start-planner.md)
+    - **11-multi-region-kv-locality**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-11-multi-region-kv-locality-outputs-skill-multi-region-router.md)
+    - **12-edge-inference**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-12-edge-inference-outputs-skill-edge-target-picker.md)
+    - **13-llm-observability**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-13-llm-observability-outputs-skill-observability-stack.md)
+    - **14-prompt-semantic-caching**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-14-prompt-semantic-caching-outputs-skill-cache-auditor.md)
+    - **15-batch-apis**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-15-batch-apis-outputs-skill-batch-triager.md)
+    - **16-model-routing**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-16-model-routing-outputs-skill-router-plan.md)
+    - **17-disaggregated-prefill-decode**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-17-disaggregated-prefill-decode-outputs-skill-disaggregation-decider.md)
+    - **18-vllm-production-stack-lmcache**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-18-vllm-production-stack-lmcache-outputs-skill-vllm-stack-decider.md)
+    - **19-ai-gateways**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-19-ai-gateways-outputs-skill-gateway-picker.md)
+    - **20-shadow-canary-progressive**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-20-shadow-canary-progressive-outputs-skill-rollout-runbook.md)
+    - **21-ab-testing-llm-features**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-21-ab-testing-llm-features-outputs-skill-ab-plan.md)
+    - **22-load-testing-llm-apis**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-22-load-testing-llm-apis-outputs-skill-load-test-plan.md)
+    - **23-sre-for-ai**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-23-sre-for-ai-outputs-skill-ai-sre-plan.md)
+    - **24-chaos-engineering-llm**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-24-chaos-engineering-llm-outputs-skill-chaos-plan.md)
+    - **25-security-secrets-audit**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-25-security-secrets-audit-outputs-skill-llm-security-plan.md)
+    - **26-compliance-frameworks**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-26-compliance-frameworks-outputs-skill-compliance-matrix.md)
+    - **27-finops-llms**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-27-finops-llms-outputs-skill-finops-plan.md)
+    - **28-self-hosted-serving-selection**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-17-infrastructure-and-production-28-self-hosted-serving-selection-outputs-skill-engine-picker.md)
+  - [Phase 18: Ethics, Safety & Alignment](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment.md)
+    - **01-instruction-following-alignment-signal**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-01-instruction-following-alignment-signal-outputs-skill-instructgpt-explainer.md)
+    - **02-reward-hacking-goodhart**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-02-reward-hacking-goodhart-outputs-skill-reward-hack-auditor.md)
+    - **03-direct-preference-optimization-family**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-03-direct-preference-optimization-family-outputs-skill-preference-loss-selector.md)
+    - **04-sycophancy-rlhf-amplification**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-04-sycophancy-rlhf-amplification-outputs-skill-sycophancy-probe.md)
+    - **05-constitutional-ai-rlaif**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-05-constitutional-ai-rlaif-outputs-skill-constitution-writer.md)
+    - **06-mesa-optimization-deceptive-alignment**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-06-mesa-optimization-deceptive-alignment-outputs-skill-mesa-diagnostic.md)
+    - **07-sleeper-agents-persistent-deception**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-07-sleeper-agents-persistent-deception-outputs-skill-sleeper-audit.md)
+    - **08-in-context-scheming-frontier-models**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-08-in-context-scheming-frontier-models-outputs-skill-scheming-triage.md)
+    - **09-alignment-faking**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-09-alignment-faking-outputs-skill-compliance-gap.md)
+    - **10-ai-control-subversion**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-10-ai-control-subversion-outputs-skill-control-protocol-audit.md)
+    - **11-scalable-oversight-weak-to-strong**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-11-scalable-oversight-weak-to-strong-outputs-skill-w2sg-pgr.md)
+    - **12-red-teaming-pair-automated-attacks**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-12-red-teaming-pair-automated-attacks-outputs-skill-attack-audit.md)
+    - **13-many-shot-jailbreaking**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-13-many-shot-jailbreaking-outputs-skill-msj-audit.md)
+    - **14-ascii-art-visual-jailbreaks**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-14-ascii-art-visual-jailbreaks-outputs-skill-encoding-audit.md)
+    - **15-indirect-prompt-injection**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-15-indirect-prompt-injection-outputs-skill-ipi-audit.md)
+    - **16-red-team-tooling-garak-llamaguard-pyrit**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-16-red-team-tooling-garak-llamaguard-pyrit-outputs-skill-red-team-stack.md)
+    - **17-wmdp-dual-use-evaluation**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-17-wmdp-dual-use-evaluation-outputs-skill-wmdp-eval.md)
+    - **18-frontier-safety-frameworks-rsp-pf-fsf**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-18-frontier-safety-frameworks-rsp-pf-fsf-outputs-skill-framework-diff.md)
+    - **19-model-welfare-research**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-19-model-welfare-research-outputs-skill-welfare-assessment.md)
+    - **20-bias-representational-harm**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-20-bias-representational-harm-outputs-skill-bias-eval.md)
+    - **21-fairness-criteria-group-individual-counterfactual**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-21-fairness-criteria-group-individual-counterfactual-outputs-skill-fairness-criterion.md)
+    - **22-differential-privacy-for-llms**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-22-differential-privacy-for-llms-outputs-skill-dp-audit.md)
+    - **23-watermarking-synthid-stable-signature-c2pa**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-23-watermarking-synthid-stable-signature-c2pa-outputs-skill-provenance-audit.md)
+    - **24-regulatory-frameworks-eu-us-uk-korea**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-24-regulatory-frameworks-eu-us-uk-korea-outputs-skill-regulatory-map.md)
+    - **25-echoleak-cves-for-ai**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-25-echoleak-cves-for-ai-outputs-skill-cve-review.md)
+    - **26-model-system-dataset-cards**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-26-model-system-dataset-cards-outputs-skill-card-audit.md)
+    - **27-data-provenance-training-governance**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-27-data-provenance-training-governance-outputs-skill-provenance-check.md)
+    - **28-alignment-research-ecosystem**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-28-alignment-research-ecosystem-outputs-skill-ecosystem-map.md)
+    - **29-moderation-systems-openai-perspective-llamaguard**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-29-moderation-systems-openai-perspective-llamaguard-outputs-skill-moderation-stack.md)
+    - **30-dual-use-risk-cyber-bio-chem-nuclear**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-18-ethics-safety-alignment-30-dual-use-risk-cyber-bio-chem-nuclear-outputs-skill-dual-use-triage.md)
+  - [Phase 19: Capstone Projects](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects.md)
+    - **01-terminal-native-coding-agent**
+      - **文档**
+        - [Capstone 01 — Terminal-Native Coding Agent](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-01-terminal-native-coding-agent-docs-en.md)
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-01-terminal-native-coding-agent-outputs-skill-terminal-coding-agent.md)
+    - **02-rag-over-codebase**
+      - **文档**
+        - [Capstone 02 — RAG over Codebase (Cross-Repo Semantic Search)](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-02-rag-over-codebase-docs-en.md)
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-02-rag-over-codebase-outputs-skill-codebase-rag.md)
+    - **03-realtime-voice-assistant**
+      - **文档**
+        - [Capstone 03 — Real-Time Voice Assistant (ASR to LLM to TTS)](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-03-realtime-voice-assistant-docs-en.md)
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-03-realtime-voice-assistant-outputs-skill-voice-agent.md)
+    - **04-multimodal-document-qa**
+      - **文档**
+        - [Capstone 04 — Multimodal Document QA (Vision-First PDF, Tables, Charts)](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-04-multimodal-document-qa-docs-en.md)
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-04-multimodal-document-qa-outputs-skill-doc-qa.md)
+    - **05-autonomous-research-agent**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-05-autonomous-research-agent-outputs-skill-ai-scientist.md)
+    - **06-devops-troubleshooting-agent**
+      - **文档**
+        - [Capstone 06 — DevOps Troubleshooting Agent for Kubernetes](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-06-devops-troubleshooting-agent-docs-en.md)
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-06-devops-troubleshooting-agent-outputs-skill-devops-agent.md)
+    - **07-end-to-end-fine-tuning-pipeline**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-07-end-to-end-fine-tuning-pipeline-outputs-skill-finetuning-pipeline.md)
+    - **08-production-rag-chatbot**
+      - **文档**
+        - [Capstone 08 — Production RAG Chatbot for a Regulated Vertical](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-08-production-rag-chatbot-docs-en.md)
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-08-production-rag-chatbot-outputs-skill-production-rag.md)
+    - **09-code-migration-agent**
+      - **文档**
+        - [Capstone 09 — Code Migration Agent (Repo-Level Language / Runtime Upgrade)](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-09-code-migration-agent-docs-en.md)
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-09-code-migration-agent-outputs-skill-migration-agent.md)
+    - **10-multi-agent-software-team**
+      - **文档**
+        - [Capstone 10 — Multi-Agent Software Engineering Team](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-10-multi-agent-software-team-docs-en.md)
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-10-multi-agent-software-team-outputs-skill-multi-agent-team.md)
+    - **11-llm-observability-dashboard**
+      - **文档**
+        - [Capstone 11 — LLM Observability & Eval Dashboard](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-11-llm-observability-dashboard-docs-en.md)
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-11-llm-observability-dashboard-outputs-skill-llm-observability.md)
+    - **12-video-understanding-pipeline**
+      - **文档**
+        - [Capstone 12 — Video Understanding Pipeline (Scene, QA, Search)](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-12-video-understanding-pipeline-docs-en.md)
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-12-video-understanding-pipeline-outputs-skill-video-qa.md)
+    - **13-mcp-server-with-registry**
+      - **文档**
+        - [Capstone 13: Stateless MCP Server with Registry and Governance](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-13-mcp-server-with-registry-docs-en.md)
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-13-mcp-server-with-registry-outputs-skill-mcp-server.md)
+    - **14-speculative-decoding-server**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-14-speculative-decoding-server-outputs-skill-inference-server.md)
+    - **15-constitutional-safety-harness**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-15-constitutional-safety-harness-outputs-skill-safety-harness.md)
+    - **16-github-issue-to-pr-agent**
+      - **文档**
+        - [Capstone 16 — GitHub Issue-to-PR Autonomous Agent](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-16-github-issue-to-pr-agent-docs-en.md)
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-16-github-issue-to-pr-agent-outputs-skill-issue-to-pr.md)
+    - **17-personal-ai-tutor**
+      - **文档**
+        - [Capstone 17 — Personal AI Tutor (Adaptive, Multimodal, with Memory)](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-17-personal-ai-tutor-docs-en.md)
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-17-personal-ai-tutor-outputs-skill-ai-tutor.md)
+    - **46-gradient-accumulation**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-46-gradient-accumulation-outputs-skill-gradient-accumulation.md)
+    - **47-checkpoint-save-resume**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-47-checkpoint-save-resume-outputs-skill-checkpoint-save-resume.md)
+    - **48-distributed-fsdp-ddp**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-48-distributed-fsdp-ddp-outputs-skill-distributed-fsdp-ddp.md)
+    - **49-lm-eval-harness**
+      - **outputs**
+        - [AI Engineering from Scratch（英文原版）](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-49-lm-eval-harness-outputs-skill-lm-eval-harness.md)
+    - **82-jailbreak-taxonomy**
+      - **outputs**
+        - [Jailbreak Taxonomy](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-82-jailbreak-taxonomy-outputs-skill-jailbreak-taxonomy.md)
+    - **83-prompt-injection-detector**
+      - **outputs**
+        - [Prompt Injection Detector](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-83-prompt-injection-detector-outputs-skill-prompt-injection-detector.md)
+    - **84-refusal-evaluation**
+      - **outputs**
+        - [Refusal Evaluation](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-84-refusal-evaluation-outputs-skill-refusal-evaluation.md)
+    - **85-content-classifier-integration**
+      - **outputs**
+        - [Content Classifier Integration](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-85-content-classifier-integration-outputs-skill-content-classifier-integration.md)
+    - **86-constitutional-rules-engine**
+      - **outputs**
+        - [Constitutional Rules Engine](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-86-constitutional-rules-engine-outputs-skill-constitutional-rules-engine.md)
+    - **87-end-to-end-safety-gate**
+      - **outputs**
+        - [End-to-End Safety Gate](/lib/07-coding/ai-engineering-from-scratch/phases-19-capstone-projects-87-end-to-end-safety-gate-outputs-skill-end-to-end-safety-gate.md)
 
-开始学习 → [Backers](BACKERS.md)
+开始学习 → [Check Understanding](_claude-skills-check-understanding-SKILL.md)

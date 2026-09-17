@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/rohitg00/ai-engineering-from-scratch"
-entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/README.md"
+entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/certifications/claude/lessons/04-context-knowledge-memory-and-caching/docs/en.md"
+sourceRel: "certifications/claude/lessons/04-context-knowledge-memory-and-caching/docs/en.md"
+rawUrl: "/raw/07-coding/ai-engineering-from-scratch/certifications/claude/lessons/04-context-knowledge-memory-and-caching/docs/en.md"
+sourceSha256: "18ebf2502418268cfc5152a00d8fc8870bccf1401bf7a214dbad243aa8d58f5e"
+pageSha256: "18ebf2502418268cfc5152a00d8fc8870bccf1401bf7a214dbad243aa8d58f5e"
+contentMode: "local-full"
 zh: ""
 ---
 

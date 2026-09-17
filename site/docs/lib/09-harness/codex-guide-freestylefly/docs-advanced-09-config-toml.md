@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/freestylefly/CodexGuide"
-entryUrl: "https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/README.md"
+entryUrl: "https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/advanced/09-config-toml.md"
+sourceRel: "docs/advanced/09-config-toml.md"
+rawUrl: "/raw/09-harness/codex-guide-freestylefly/docs/advanced/09-config-toml.md"
+sourceSha256: "a7cbc39b5a827938e53117d0183482cbaf3d857a366d87ef2693d1da65be08c9"
+pageSha256: "a7cbc39b5a827938e53117d0183482cbaf3d857a366d87ef2693d1da65be08c9"
+contentMode: "local-full"
 zh: ""
 ---
 

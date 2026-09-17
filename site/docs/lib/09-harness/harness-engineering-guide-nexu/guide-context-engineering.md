@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/nexu-io/harness-engineering-guide"
-entryUrl: "https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/README.md"
+entryUrl: "https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/context-engineering.md"
+sourceRel: "guide/context-engineering.md"
+rawUrl: "/raw/09-harness/harness-engineering-guide-nexu/guide/context-engineering.md"
+sourceSha256: "fa163ebff87b041e8e776c8880c280b86b9937d6276c8fbc63037285aadcd1b0"
+pageSha256: "fa163ebff87b041e8e776c8880c280b86b9937d6276c8fbc63037285aadcd1b0"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/shanraisshan/codex-cli-best-practice"
-entryUrl: "https://github.com/shanraisshan/codex-cli-best-practice/blob/b79f473a188632867354fc793894dfd368a18e48/README.md"
+entryUrl: "https://github.com/shanraisshan/codex-cli-best-practice/blob/b79f473a188632867354fc793894dfd368a18e48/best-practice/codex-subagents.md"
+sourceRel: "best-practice/codex-subagents.md"
+rawUrl: "/raw/09-harness/codex-cli-best-practice/best-practice/codex-subagents.md"
+sourceSha256: "8bfa10e7f82609d3203a9dead2f3b5f48a8b1e28fcad906da3ccf3f8f4d9118e"
+pageSha256: "8bfa10e7f82609d3203a9dead2f3b5f48a8b1e28fcad906da3ccf3f8f4d9118e"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -282,7 +287,7 @@ The v2 agent tool set replaces the older v1 spawn/result shape:
 
 | Tool | Purpose |
 |---|---|
-| `spawn_agent` | Spawn a child; returns `{ task_name, nickname }` |
+| `spawn_agent` | Spawn a child; returns `\{ task_name, nickname \}` |
 | `send_message` | Enqueue a message to an existing agent (no turn triggered) |
 | `followup_task` | Enqueue a message AND trigger a turn (`interrupt: true` preempts) |
 | `wait_agent` | Wait for any mailbox update in the current tree (`timeout_ms` optional) |
@@ -294,9 +299,9 @@ Key behaviors to know:
 
 - `spawn_agent` takes `fork_turns: "none" | "all" | <int>` to control context inheritance.
 - `followup_task` cannot target `/root` — you cannot reassign the root thread.
-- `wait_agent` returns `{ message, timed_out }` without message content — the
+- `wait_agent` returns `\{ message, timed_out \}` without message content — the
   content is fetched separately from the target's mailbox.
-- `list_agents` returns `agent_status` values `pending_init | running | interrupted | shutdown | not_found | { completed } | { errored }`.
+- `list_agents` returns `agent_status` values `pending_init | running | interrupted | shutdown | not_found | \{ completed \} | \{ errored \}`.
 
 User-visible equivalents:
 
@@ -317,7 +322,7 @@ Use `spawn_agents_on_csv` for many similar tasks that map to one row per work it
 | Parameter | Purpose |
 |-----------|---------|
 | `csv_path` | Source CSV |
-| `instruction` | Worker prompt template with `{column_name}` placeholders |
+| `instruction` | Worker prompt template with `\{column_name\}` placeholders |
 | `id_column` | Column for stable item IDs |
 | `output_schema` | JSON object shape each worker must return |
 | `output_csv_path` | Export path |

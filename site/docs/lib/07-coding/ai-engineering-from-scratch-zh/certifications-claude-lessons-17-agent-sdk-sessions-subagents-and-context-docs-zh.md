@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh"
-entryUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/README.md"
+entryUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/certifications/claude/lessons/17-agent-sdk-sessions-subagents-and-context/docs/zh.md"
+sourceRel: "certifications/claude/lessons/17-agent-sdk-sessions-subagents-and-context/docs/zh.md"
+rawUrl: "/raw/07-coding/ai-engineering-from-scratch-zh/certifications/claude/lessons/17-agent-sdk-sessions-subagents-and-context/docs/zh.md"
+sourceSha256: "7e65c7138c2b9a8701631de33b75e60d6db536f50788f7c75cb04db26335f17b"
+pageSha256: "7e65c7138c2b9a8701631de33b75e60d6db536f50788f7c75cb04db26335f17b"
+contentMode: "local-full"
 zh: ""
 ---
 

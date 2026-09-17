@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/qiuzhi2046/Qclaw"
-entryUrl: "https://github.com/qiuzhi2046/Qclaw/blob/c494768977f4e48b8eacbfae7ae390af11fc015f/README.md"
+entryUrl: "https://github.com/qiuzhi2046/Qclaw/blob/c494768977f4e48b8eacbfae7ae390af11fc015f/docs/good-first-issues.md"
+sourceRel: "docs/good-first-issues.md"
+rawUrl: "/raw/11-personal-agents/qclaw/docs/good-first-issues.md"
+sourceSha256: "f16c3878a5bbf4f0eb75379e5e32a249d9e095c9004aae889996841245fe0fe6"
+pageSha256: "f16c3878a5bbf4f0eb75379e5e32a249d9e095c9004aae889996841245fe0fe6"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "08-agents"
 sourceUrl: "https://github.com/huggingface/agents-course"
-entryUrl: "https://github.com/huggingface/agents-course/blob/b3946b1d09d29c65736e219d48a8a736a2c52154/README.md"
+entryUrl: "https://github.com/huggingface/agents-course/blob/b3946b1d09d29c65736e219d48a8a736a2c52154/units/en/communication/live1.mdx"
+sourceRel: "units/en/communication/live1.mdx"
+rawUrl: "/raw/08-agents/huggingface-agents-course/units/en/communication/live1.mdx"
+sourceSha256: "3a2d8400149caf60876795ff1cd2f17bd626b90b71dd97a1c6babc23f0b12516"
+pageSha256: "3a2d8400149caf60876795ff1cd2f17bd626b90b71dd97a1c6babc23f0b12516"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/deusyu/harness-engineering"
-entryUrl: "https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/README.md"
+entryUrl: "https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/concepts/04-agent-readability.md"
+sourceRel: "concepts/04-agent-readability.md"
+rawUrl: "/raw/09-harness/deusyu-harness-engineering/concepts/04-agent-readability.md"
+sourceSha256: "637f9de600cb34158fd20276045b29019c42b8469651611a0ce8e32d6cd48f62"
+pageSha256: "637f9de600cb34158fd20276045b29019c42b8469651611a0ce8e32d6cd48f62"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/obra/superpowers"
-entryUrl: "https://github.com/obra/superpowers/blob/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/README.md"
+entryUrl: "https://github.com/obra/superpowers/blob/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/docs/plans/2025-11-22-opencode-support-implementation.md"
+sourceRel: "docs/plans/2025-11-22-opencode-support-implementation.md"
+rawUrl: "/raw/10-context-memory/superpowers/docs/plans/2025-11-22-opencode-support-implementation.md"
+sourceSha256: "2cc68cc29ee1174e13a65739b004f2346911a0d89a20744930f9f5b81963b4f3"
+pageSha256: "2cc68cc29ee1174e13a65739b004f2346911a0d89a20744930f9f5b81963b4f3"
+contentMode: "local-full"
 zh: ""
 ---
 

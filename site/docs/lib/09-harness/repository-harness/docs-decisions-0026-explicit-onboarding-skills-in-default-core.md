@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/hoangnb24/repository-harness"
-entryUrl: "https://github.com/hoangnb24/repository-harness/blob/e765792b635b4d5e3e5fc0578f82f9ca5dea2681/README.md"
+entryUrl: "https://github.com/hoangnb24/repository-harness/blob/e765792b635b4d5e3e5fc0578f82f9ca5dea2681/docs/decisions/0026-explicit-onboarding-skills-in-default-core.md"
+sourceRel: "docs/decisions/0026-explicit-onboarding-skills-in-default-core.md"
+rawUrl: "/raw/09-harness/repository-harness/docs/decisions/0026-explicit-onboarding-skills-in-default-core.md"
+sourceSha256: "0c65447ea1e5fde97598b35b1acf7e8182490884aee12c1762652cdf18bb3ba8"
+pageSha256: "0c65447ea1e5fde97598b35b1acf7e8182490884aee12c1762652cdf18bb3ba8"
+contentMode: "local-full"
 zh: ""
 ---
 

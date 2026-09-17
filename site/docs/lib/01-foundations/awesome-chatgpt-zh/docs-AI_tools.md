@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "01-foundations"
 sourceUrl: "https://github.com/EmbraceAGI/awesome-chatgpt-zh"
-entryUrl: "https://github.com/EmbraceAGI/awesome-chatgpt-zh/blob/f7c206f6b3e27dae3f4fa7fb1eee1852c72b1f68/README.md"
+entryUrl: "https://github.com/EmbraceAGI/awesome-chatgpt-zh/blob/f7c206f6b3e27dae3f4fa7fb1eee1852c72b1f68/docs/AI_tools.md"
+sourceRel: "docs/AI_tools.md"
+rawUrl: "/raw/01-foundations/awesome-chatgpt-zh/docs/AI_tools.md"
+sourceSha256: "cbe7d4856256c2704f024b79acf0b0662beb972c8ed62fb475196f8267c37ed5"
+pageSha256: "cbe7d4856256c2704f024b79acf0b0662beb972c8ed62fb475196f8267c37ed5"
+contentMode: "local-full"
 zh: ""
 ---
 

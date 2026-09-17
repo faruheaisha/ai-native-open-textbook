@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/didilili/ai-agents-from-zero"
-entryUrl: "https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/README.md"
+entryUrl: "https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/5-Python调用Coze平台工作流.md"
+sourceRel: "5-Python调用Coze平台工作流.md"
+rawUrl: "/raw/08-agents/ai-agents-from-zero/5-Python调用Coze平台工作流.md"
+sourceSha256: "c502b1b3f0f18f04f7ca5c54f55da90b5877258e620787939fb46c8f3063f3a4"
+pageSha256: "c502b1b3f0f18f04f7ca5c54f55da90b5877258e620787939fb46c8f3063f3a4"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know"
-entryUrl: "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/README.md"
+entryUrl: "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/docs/agent-teams.md"
+sourceRel: "docs/agent-teams.md"
+rawUrl: "/raw/09-harness/claude-code-everything/docs/agent-teams.md"
+sourceSha256: "2684e3ee6131960fc05dda55cc023b44185aa1787d910ff39a8a6a325acd6cf4"
+pageSha256: "2684e3ee6131960fc05dda55cc023b44185aa1787d910ff39a8a6a325acd6cf4"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -231,9 +236,9 @@ Teams are stored locally under a session-derived name — `session-` plus the fi
 
 | Path | Lifetime |
 |---|---|
-| `~/.claude/teams/{team-name}/config.json` | Removed when the session ends |
-| `~/.claude/teams/{team-name}/inboxes/{agent-name}.json` | Per-agent mailbox |
-| `~/.claude/tasks/{team-name}/` | **Persists** locally, never uploaded — resumed sessions keep their tasks. Retention follows `cleanupPeriodDays` |
+| `~/.claude/teams/\{team-name\}/config.json` | Removed when the session ends |
+| `~/.claude/teams/\{team-name\}/inboxes/\{agent-name\}.json` | Per-agent mailbox |
+| `~/.claude/tasks/\{team-name\}/` | **Persists** locally, never uploaded — resumed sessions keep their tasks. Retention follows `cleanupPeriodDays` |
 
 > ⚠️ **Don't hand-edit or pre-author the team config.** It holds runtime state (session IDs, tmux pane IDs) and your changes are overwritten on the next state update. There is no project-level equivalent — a `.claude/teams/teams.json` in your project is just an ordinary file, not configuration. To define reusable roles, [use subagent definitions](#reuse-your-existing-agent-definitions).
 

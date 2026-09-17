@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/ed-donner/agents"
-entryUrl: ""
+entryUrl: "https://github.com/ed-donner/agents/blob/8ceaf66c24643627c1e4806851736bdd444bdd4b/1_foundations/community_contributions/careerwise_gemini_ntfy/README.md"
+sourceRel: "1_foundations/community_contributions/careerwise_gemini_ntfy/README.md"
+rawUrl: "/raw/08-agents/ed-donner-agents/1_foundations/community_contributions/careerwise_gemini_ntfy/README.md"
+sourceSha256: "05d848874df676c6fb4d13e8da2d5ed7ceba87dd5f760a98f631dbb7a4b97229"
+pageSha256: "05d848874df676c6fb4d13e8da2d5ed7ceba87dd5f760a98f631dbb7a4b97229"
+contentMode: "local-full"
 zh: ""
 ---
 

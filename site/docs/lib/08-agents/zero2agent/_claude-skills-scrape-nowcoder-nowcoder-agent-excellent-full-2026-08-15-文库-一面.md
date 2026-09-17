@@ -1,0 +1,47 @@
+---
+title: "文库 一面"
+sourceId: "08-agents/zero2agent"
+sourceTitle: "Zero2Agent：从零实现 Agent"
+sourceKind: "课时教程"
+licenseLabel: "可转载"
+lang: "中文"
+tier: 2
+volume: "08-agents"
+sourceUrl: "https://github.com/ranxi2001/zero2Agent"
+entryUrl: "https://github.com/ranxi2001/zero2Agent/blob/46e9f7c28f84f54b2f6e45681d14989f01e18291/.claude/skills/scrape-nowcoder/nowcoder-agent-excellent-full/2026-08-15-文库-一面.md"
+sourceRel: ".claude/skills/scrape-nowcoder/nowcoder-agent-excellent-full/2026-08-15-文库-一面.md"
+rawUrl: "/raw/08-agents/zero2agent/.claude/skills/scrape-nowcoder/nowcoder-agent-excellent-full/2026-08-15-文库-一面.md"
+sourceSha256: "ad0edab53392c1776860d5888e710b94ec745f024dea76db201e182b8b1b019a"
+pageSha256: "ad0edab53392c1776860d5888e710b94ec745f024dea76db201e182b8b1b019a"
+contentMode: "local-full"
+zh: ""
+---
+
+# 文库 一面
+
+> 发布日期：2026-08-15
+> 来源：https://www.nowcoder.com/feed/main/detail/68342ea9b032419f9a2f0ff20423a282
+
+归档说明：保留原帖完整面试流程与项目追问，并保持原有顺序；已移除账号、学校、作者所在地、个人结果、互动区和相关推荐，未补充答案或改写术语。
+
+---
+
+还是项目深挖搞得多，一直被挑战技术没难度，最终还是聊了一个小时。
+
+毕业院校、工作经历、绩效方向
+
+做了较多 Agent 相关，哪块可以展开讲
+
+找一个最有代表性的项目讲一下，这个项目里有哪些技术难点
+
+换一家公司不会再做同样的系统，你从里面沉淀了什么方法论或技术能力
+
+冷热存储这块如何实现
+
+AI 项目的整体架构和数据流
+
+浏览器输入一个 URL 到页面展示，全过程
+
+接口偶尔卡死，排查思路是什么
+
+手撕：实现一个平方根函数

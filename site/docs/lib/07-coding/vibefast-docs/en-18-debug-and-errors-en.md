@@ -8,13 +8,18 @@ lang: "英文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/vibefast-app/vibefast-docs"
-entryUrl: "https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/README.md"
+entryUrl: "https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/18-debug-and-errors-en.md"
+sourceRel: "en/18-debug-and-errors-en.md"
+rawUrl: "/raw/07-coding/vibefast-docs/en/18-debug-and-errors-en.md"
+sourceSha256: "75a4c21ed29394f0ed2bce85ee4ab9a956cf3d8ccac9ec478a15fb56440e6240"
+pageSha256: "75a4c21ed29394f0ed2bce85ee4ab9a956cf3d8ccac9ec478a15fb56440e6240"
+contentMode: "local-full"
 zh: ""
 ---
 
 # Don’t Panic: Using AI to Read Error Messages and Fix Problems
 
-[English](/lib/07-coding/vibefast-docs/en-18-debug-and-errors-en) · [繁中](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/zh/18-debug-and-errors-zh.md) · [Español](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/es/18-debug-and-errors-es.md) · [日本語](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/jp/18-debug-and-errors-jp.md) · [Português (BR)](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/pt-br/18-debug-and-errors-pt-br.md)
+[English](/lib/07-coding/vibefast-docs/en-18-debug-and-errors-en) · [繁中](/lib/07-coding/vibefast-docs/zh-18-debug-and-errors-zh) · [Español](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/es/18-debug-and-errors-es.md) · [日本語](/lib/07-coding/vibefast-docs/jp-18-debug-and-errors-jp) · [Português (BR)](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/pt-br/18-debug-and-errors-pt-br.md)
 
 **Author:** Danko Peng ([@dankopeng](https://x.com/dankopeng))  
 **Updated:** March 2026  

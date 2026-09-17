@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/keli-wen/agentic-harness-patterns-skill"
-entryUrl: "https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/README.md"
+entryUrl: "https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/README_ZH.md"
+sourceRel: "README_ZH.md"
+rawUrl: "/raw/09-harness/agentic-harness-patterns-skill/README_ZH.md"
+sourceSha256: "4617068abf7c3bac94fb2c127671e1b552dc83677ef7dde7f402cfcc8c4c49d9"
+pageSha256: "4617068abf7c3bac94fb2c127671e1b552dc83677ef7dde7f402cfcc8c4c49d9"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -105,7 +110,7 @@ npx skills add github:keli-wen/agentic-harness-patterns-skill
 
   <img src="/mirror/61/61a8868a08633fba50acffab2f831078f9d20404.webp" alt="npx skills add 截图" width="720">
 
-**直接阅读：** [SKILL.md (中文)](/lib/09-harness/agentic-harness-patterns-skill/skills-agentic-harness-patterns-zh-SKILL) 或 [SKILL.md (EN)](https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/skills/agentic-harness-patterns/SKILL.md)。
+**直接阅读：** [SKILL.md (中文)](/lib/09-harness/agentic-harness-patterns-skill/skills-agentic-harness-patterns-zh-SKILL) 或 [SKILL.md (EN)](/lib/09-harness/agentic-harness-patterns-skill/skills-agentic-harness-patterns-SKILL)。
 
 ## 项目结构
 

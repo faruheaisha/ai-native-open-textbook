@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/shanraisshan/claude-code-best-practice"
-entryUrl: "https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/README.md"
+entryUrl: "https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/!/video-presentation-transcript/1-video-workflow.md"
+sourceRel: "!/video-presentation-transcript/1-video-workflow.md"
+rawUrl: "/raw/09-harness/claude-code-best-practice/!/video-presentation-transcript/1-video-workflow.md"
+sourceSha256: "c3f2e34dba6b217beaf1813dff337f74cb4d6914d780982cdd5693fd61439ad2"
+pageSha256: "c3f2e34dba6b217beaf1813dff337f74cb4d6914d780982cdd5693fd61439ad2"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/zebbern/claude-code-guide"
-entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/README.md"
+entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/skills/chart-image/README.md"
+sourceRel: "skills/chart-image/README.md"
+rawUrl: "/raw/09-harness/claude-code-guide-zebbern/skills/chart-image/README.md"
+sourceSha256: "37487caec497cdd679c1c930e32239790234287573bda9bd42a9a48d2f9d85dd"
+pageSha256: "37487caec497cdd679c1c930e32239790234287573bda9bd42a9a48d2f9d85dd"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -287,7 +292,7 @@ echo '[{"x":"A","y":1},{"x":"B","y":2}]' | node scripts/chart.mjs --output out.p
 | `--focus-change` | Zoom Y to highlight change |
 | `--focus-recent N` | Show last N points only |
 | `--show-values` | Label min/max peaks |
-| `--annotations` | JSON array of event markers: `[{"x":"14:00","label":"News"}]` |
+| `--annotations` | JSON array of event markers: `[\{"x":"14:00","label":"News"\}]` |
 
 ---
 

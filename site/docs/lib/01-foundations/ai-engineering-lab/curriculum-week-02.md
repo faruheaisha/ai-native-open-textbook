@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "01-foundations"
 sourceUrl: "https://github.com/zorost/AI-Engineering-Lab"
-entryUrl: "https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/README.md"
+entryUrl: "https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/curriculum/week-02/README.md"
+sourceRel: "curriculum/week-02/README.md"
+rawUrl: "/raw/01-foundations/ai-engineering-lab/curriculum/week-02/README.md"
+sourceSha256: "7495762cc1bfea69bb1f8c1e4bfb068a70686844691ce15b8bfc9d115b136de9"
+pageSha256: "7495762cc1bfea69bb1f8c1e4bfb068a70686844691ce15b8bfc9d115b136de9"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -34,7 +39,7 @@ Without this week, ZoroLogistics has a data swamp: every model downstream inheri
 
 | Day | Study | Run | Ship | Time |
 |---|---|---|---|---|
-| **Mon** | Data-quality concepts; read [`reference/knowledge-base/02-ml-dl-fundamentals.md`](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/reference/knowledge-base/02-ml-dl-fundamentals.md) §2 (splits) for the "no leakage" rule | pandas refresher: `filter`, `groupby`, `merge`, `dtypes` | Notes on what "clean" means | ~2 h |
+| **Mon** | Data-quality concepts; read [`reference/knowledge-base/02-ml-dl-fundamentals.md`](/lib/01-foundations/ai-engineering-lab/reference-knowledge-base-02-ml-dl-fundamentals) §2 (splits) for the "no leakage" rule | pandas refresher: `filter`, `groupby`, `merge`, `dtypes` | Notes on what "clean" means | ~2 h |
 | **Tue** | Missing data, outliers, profiling | `01-pandas-cleaning.ipynb` Steps 1 to 3 (profile + find planted issues) | Document 5 data issues with counts | ~2.5 h |
 | **Wed** | SQL joins, aggregations, window functions | `02-sql-with-duckdb.ipynb` (on-time by carrier/lane/month, windows, top lanes) | Recorded SQL results | ~2.5 h |
 | **Thu** | Data validation; explicit invariants | `01-pandas-cleaning.ipynb` Step 5 (the 12-check gate) | A passing validation suite (12/12) | ~2 h |
@@ -43,7 +48,7 @@ Without this week, ZoroLogistics has a data swamp: every model downstream inheri
 
 ## Concepts
 
-The discipline file for the next three weeks is [`reference/knowledge-base/02-ml-dl-fundamentals.md`](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/reference/knowledge-base/02-ml-dl-fundamentals.md), but this week's real subject is the **data path underneath every model**. Read it through one lens: *a metric is only as honest as the data that produced it.* If your table has duplicate rows, your on-time rate is inflated; if a third of lane distances are `NaN`, your ETA model trains on a hole. Cleaning is not janitorial work done before the "real" AI, it *is* the AI engineering.
+The discipline file for the next three weeks is [`reference/knowledge-base/02-ml-dl-fundamentals.md`](/lib/01-foundations/ai-engineering-lab/reference-knowledge-base-02-ml-dl-fundamentals), but this week's real subject is the **data path underneath every model**. Read it through one lens: *a metric is only as honest as the data that produced it.* If your table has duplicate rows, your on-time rate is inflated; if a third of lane distances are `NaN`, your ETA model trains on a hole. Cleaning is not janitorial work done before the "real" AI, it *is* the AI engineering.
 
 ### 1. pandas: filter, group, join, pivot, dtypes
 
@@ -82,7 +87,7 @@ A **window function** is the subtle one: `GROUP BY` *collapses* rows; a window c
 
 ### 5. Data validation (pandera) with explicit checks
 
-A cleaned table is a *claim*; a validation suite is the *proof*. The notebook writes 12 executable invariants, no duplicates, no `NaN` weights, all weights positive, referential integrity for `carrier_id`/`lane_id`, `is_on_time` boolean, `delay_hours` within `[-48, 240]`, and more, each an `assert`-style `check(name, cond)` that prints PASS/FAIL. This is the same verification discipline the whole program builds on (an eval tied to a requirement; see [`reference/knowledge-base/01-ai-engineering-discipline.md`](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/reference/knowledge-base/01-ai-engineering-discipline.md) §"Verification"). pandera formalizes this into a schema you can re-run on any future batch.
+A cleaned table is a *claim*; a validation suite is the *proof*. The notebook writes 12 executable invariants, no duplicates, no `NaN` weights, all weights positive, referential integrity for `carrier_id`/`lane_id`, `is_on_time` boolean, `delay_hours` within `[-48, 240]`, and more, each an `assert`-style `check(name, cond)` that prints PASS/FAIL. This is the same verification discipline the whole program builds on (an eval tied to a requirement; see [`reference/knowledge-base/01-ai-engineering-discipline.md`](/lib/01-foundations/ai-engineering-lab/reference-knowledge-base-01-ai-engineering-discipline) §"Verification"). pandera formalizes this into a schema you can re-run on any future batch.
 
 ### 6. Dataset versioning and reproducibility
 
@@ -110,7 +115,7 @@ flowchart LR
 
 Cleaning breaks when you **impute before profiling** (filling with the global median when a per-group median is correct, or worse, filling *before* counting so you lose the audit trail). It breaks when you **drop duplicates without recording how many**, the downstream count changes and nobody can say why. It breaks when a **validation check silently passes** because you tested the wrong invariant (e.g. checking "no `NaN`" on a column you just imputed, which is circular). It breaks when you **normalize on the full dataset instead of train-only**, that leakage decision belongs to Week 3, but the habit starts here. And it breaks when you treat cleaning as a one-off: without a re-runnable suite, the next batch arrives dirty and the "silver" contract evaporates. The fix in every case is the same: a recorded recipe with a gate that fails loudly.
 
-For deeper dives: the discipline file's "systems-engineering spine" (verification is where the checks belong) and [`reference/knowledge-base/02-ml-dl-fundamentals.md`](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/reference/knowledge-base/02-ml-dl-fundamentals.md) §2 for the time-aware split you'll need next week.
+For deeper dives: the discipline file's "systems-engineering spine" (verification is where the checks belong) and [`reference/knowledge-base/02-ml-dl-fundamentals.md`](/lib/01-foundations/ai-engineering-lab/reference-knowledge-base-02-ml-dl-fundamentals) §2 for the time-aware split you'll need next week.
 
 ## Notebook walkthrough
 

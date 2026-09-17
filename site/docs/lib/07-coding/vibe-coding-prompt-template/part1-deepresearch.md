@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/KhazP/vibe-coding-prompt-template"
-entryUrl: "https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/README.md"
+entryUrl: "https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/part1-deepresearch.md"
+sourceRel: "part1-deepresearch.md"
+rawUrl: "/raw/07-coding/vibe-coding-prompt-template/part1-deepresearch.md"
+sourceSha256: "d44c57dac74af563c26b44485449a1b4e3d5b54e2caa6cf7f28aed28e180e8a0"
+pageSha256: "d44c57dac74af563c26b44485449a1b4e3d5b54e2caa6cf7f28aed28e180e8a0"
+contentMode: "local-full"
 zh: ""
 ---
 

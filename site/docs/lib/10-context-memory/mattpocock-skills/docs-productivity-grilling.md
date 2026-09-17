@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/mattpocock/skills"
-entryUrl: "https://github.com/mattpocock/skills/blob/3cca18b368ae95cdbdebbff572ccafa662551015/README.md"
+entryUrl: "https://github.com/mattpocock/skills/blob/3cca18b368ae95cdbdebbff572ccafa662551015/docs/productivity/grilling.md"
+sourceRel: "docs/productivity/grilling.md"
+rawUrl: "/raw/10-context-memory/mattpocock-skills/docs/productivity/grilling.md"
+sourceSha256: "5bd89a79cfc03e2a105e5da59da598e0834cf55df9c029daca950e98d3ff76f1"
+pageSha256: "5bd89a79cfc03e2a105e5da59da598e0834cf55df9c029daca950e98d3ff76f1"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/shanraisshan/claude-code-best-practice"
-entryUrl: "https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/README.md"
+entryUrl: "https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/best-practice/claude-skills.md"
+sourceRel: "best-practice/claude-skills.md"
+rawUrl: "/raw/09-harness/claude-code-best-practice/best-practice/claude-skills.md"
+sourceSha256: "4543c6d3624cfaef4cc374c8e4826d2cbddfc5737a9a700f8e0c42bb19159f89"
+pageSha256: "4543c6d3624cfaef4cc374c8e4826d2cbddfc5737a9a700f8e0c42bb19159f89"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -84,5 +89,5 @@ See also: [Official Skills Repository](https://github.com/anthropics/skills/tree
 ## Sources
 
 - [Claude Code Skills — Docs](https://code.claude.com/docs/en/skills)
-- [Skills Discovery in Monorepos](https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/reports/claude-skills-for-larger-mono-repos.md)
+- [Skills Discovery in Monorepos](/lib/09-harness/claude-code-best-practice/reports-claude-skills-for-larger-mono-repos)
 - [Claude Code CHANGELOG](https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md)

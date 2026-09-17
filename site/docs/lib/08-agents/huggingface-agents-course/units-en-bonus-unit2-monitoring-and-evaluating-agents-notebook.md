@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "08-agents"
 sourceUrl: "https://github.com/huggingface/agents-course"
-entryUrl: "https://github.com/huggingface/agents-course/blob/b3946b1d09d29c65736e219d48a8a736a2c52154/README.md"
+entryUrl: "https://github.com/huggingface/agents-course/blob/b3946b1d09d29c65736e219d48a8a736a2c52154/units/en/bonus-unit2/monitoring-and-evaluating-agents-notebook.mdx"
+sourceRel: "units/en/bonus-unit2/monitoring-and-evaluating-agents-notebook.mdx"
+rawUrl: "/raw/08-agents/huggingface-agents-course/units/en/bonus-unit2/monitoring-and-evaluating-agents-notebook.mdx"
+sourceSha256: "5d60aafa2bd25c168d9af30b3ecba3262e451bfbf661d904381a4f2140773781"
+pageSha256: "5d60aafa2bd25c168d9af30b3ecba3262e451bfbf661d904381a4f2140773781"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -193,7 +198,7 @@ with langfuse.start_as_current_span(
         user_id="smolagent-user-123",
         session_id="smolagent-session-123456789",
         tags=["city-question", "testing-agents"],
-        metadata={"email": "user@langfuse.com"},
+        metadata=\{"email": "user@langfuse.com"\},
         )
  
 # Flush events in short-lived applications
@@ -230,7 +235,7 @@ def respond(prompt, history):
         global trace_id
         trace_id = langfuse.get_current_trace_id()
 
-    history.append({"role": "assistant", "content": str(output)})
+    history.append(\{"role": "assistant", "content": str(output)\})
     return history
 
 def handle_like(data: gr.LikeData):
@@ -342,10 +347,10 @@ langfuse_dataset_name = "gsm8k_dataset_huggingface"
 langfuse.create_dataset(
     name=langfuse_dataset_name,
     description="GSM8K benchmark dataset uploaded from Huggingface",
-    metadata={
+    metadata=\{
         "date": "2025-03-10", 
         "type": "benchmark"
-    }
+    \}
 )
 ```
 
@@ -354,9 +359,9 @@ langfuse.create_dataset(
 for idx, row in df.iterrows():
     langfuse.create_dataset_item(
         dataset_name=langfuse_dataset_name,
-        input={"text": row["question"]},
-        expected_output={"text": row["answer"]},
-        metadata={"source_index": idx}
+        input=\{"text": row["question"]\},
+        expected_output=\{"text": row["answer"]\},
+        metadata=\{"source_index": idx\}
     )
     if idx >= 9: # Upload only the first 10 items for demonstration
         break
@@ -415,7 +420,7 @@ for item in dataset.items:
     # Use the item.run() context manager
     with item.run(
         run_name=current_run_name,
-        run_metadata={"model_provider": "Hugging Face", "temperature_setting": 0.7},
+        run_metadata=\{"model_provider": "Hugging Face", "temperature_setting": 0.7\},
         run_description="Evaluation run for GSM8K dataset"
     ) as root_span: # root_span is the root span of the new trace for this item and run.
         # All subsequent langfuse operations within this block are part of this trace.

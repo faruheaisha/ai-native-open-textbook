@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/datawhalechina/vibe-vibe"
-entryUrl: "https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/README.md"
+entryUrl: "https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/Advanced/02-ai-tuning-guide/02-vibecoding-workflow.md"
+sourceRel: "docs/Advanced/02-ai-tuning-guide/02-vibecoding-workflow.md"
+rawUrl: "/raw/07-coding/vibe-vibe/docs/Advanced/02-ai-tuning-guide/02-vibecoding-workflow.md"
+sourceSha256: "fa56c79484baf4fa4d7960d25cf34aa17b3061213a56cdf634bc1582b2dc2a00"
+pageSha256: "fa56c79484baf4fa4d7960d25cf34aa17b3061213a56cdf634bc1582b2dc2a00"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -596,7 +601,7 @@ Shift+Tab  # 在三种模式间循环切换
 | 标志 | 描述 | 示例 |
 |------|------|------|
 | `--add-dir` | 添加额外工作目录 | `claude --add-dir ../apps` |
-| `--agents` | JSON 格式定义 Agent | `claude --agents '{...}'` |
+| `--agents` | JSON 格式定义 Agent | `claude --agents '\{...\}'` |
 | `--allowedTools` | 允许的工具列表 | `claude --allowedTools "Read,Bash"` |
 | `--disallowedTools` | 禁止的工具列表 | `claude --disallowedTools "Edit"` |
 | `--system-prompt` | 替换整个系统提示 | `claude --system-prompt "..."` |

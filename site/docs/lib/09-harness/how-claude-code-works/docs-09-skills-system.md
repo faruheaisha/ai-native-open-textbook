@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works"
-entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/README.md"
+entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/09-skills-system.md"
+sourceRel: "docs/09-skills-system.md"
+rawUrl: "/raw/09-harness/how-claude-code-works/docs/09-skills-system.md"
+sourceSha256: "fec412a52697f1e0e59337a4500682835583d6667513d60376c2f1b3ad418b59"
+pageSha256: "fec412a52697f1e0e59337a4500682835583d6667513d60376c2f1b3ad418b59"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -59,7 +64,7 @@ graph TB
           └── report.md
 ```
 
-用目录而非单文件，是因为技能可能需要附带资源文件（模板、配置、参考文档），并通过 `${CLAUDE_SKILL_DIR}` 环境变量引用这些资源。目录格式让技能成为一个自包含的单元。
+用目录而非单文件，是因为技能可能需要附带资源文件（模板、配置、参考文档），并通过 `$\{CLAUDE_SKILL_DIR\}` 环境变量引用这些资源。目录格式让技能成为一个自包含的单元。
 
 ## 5.2 技能来源与加载
 

@@ -9,6 +9,11 @@ tier: 1
 volume: "08-agents"
 sourceUrl: "https://github.com/datawhalechina/agentic-ai"
 entryUrl: "https://github.com/datawhalechina/agentic-ai/blob/a93ab1d8546cca8b508a72f0f2c385777d5f1403/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/08-agents/datawhale-agentic-ai/README.md"
+sourceSha256: "22cd62511290c4a6dc3e85c9f00569fbed0c19c5b4a05f3a713ed11465258a83"
+pageSha256: "22cd62511290c4a6dc3e85c9f00569fbed0c19c5b4a05f3a713ed11465258a83"
+contentMode: "local-full"
 zh: ""
 ---
 

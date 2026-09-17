@@ -1,0 +1,165 @@
+---
+title: "Internationalize the Harness Studio browser UI"
+sourceId: "09-harness/better-harness"
+sourceTitle: "Better Harness（QoderAI）"
+sourceKind: "工程手册"
+licenseLabel: "可转载"
+lang: "英文"
+tier: 2
+volume: "09-harness"
+sourceUrl: "https://github.com/QoderAI/better-harness"
+entryUrl: "https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/specs/2026-08-28-studio-i18n.md"
+sourceRel: "docs/specs/2026-08-28-studio-i18n.md"
+rawUrl: "/raw/09-harness/better-harness/docs/specs/2026-08-28-studio-i18n.md"
+sourceSha256: "8bf277131e291894ce7d7963c7fdb1fd62c7de3048d5dff8e7c1ddd85c64da1b"
+pageSha256: "8bf277131e291894ce7d7963c7fdb1fd62c7de3048d5dff8e7c1ddd85c64da1b"
+contentMode: "local-full"
+zh: ""
+---
+
+# Internationalize the Harness Studio browser UI
+
+## Traceability
+
+- Spec ID: studio-i18n
+- Status: Implemented
+
+## Intent
+
+Harness Studio (`packages/harness-studio`) is the React browser front end of
+Better Harness. Today all of its UI copy — headings, buttons, empty states,
+`aria-label`s, placeholders, status copy, and date/number formatting — is
+hard-coded English spread across 29 `src/app/**/*.tsx` components (roughly 300+
+strings) plus a few shell-model helpers. There is no i18n library, no resource
+layer, and no language switch.
+
+Add first-class internationalization with **react-i18next**:
+English remains the default (fallback) language, Simplified Chinese becomes the
+first translated language (the project already ships `README.zh-CN.md`), and
+the language is auto-detected from `navigator.language`, switchable from the
+Studio chrome, and persisted in `localStorage` — matching the existing theme
+toggle pattern (`harness-studio-theme`).
+
+The translation payload is bundled by the existing esbuild-wasm toolchain
+(there is no CDN or runtime resource loading in this repo), so resources are
+TypeScript modules under `src/app/i18n/` organized into i18next namespaces, one
+per Studio domain, so parallel workstreams can edit disjoint files.
+
+## Acceptance Scenarios
+
+- AC-1: With no stored preference and a Chinese `navigator.language`
+  (`zh*`), Studio boots in Simplified Chinese; any other language boots in
+  English. The stored `harness-studio-language` preference wins over
+  auto-detection.
+- AC-2: A visible language control in the Studio context bar (next to the
+  theme toggle) switches the whole UI between English and Simplified Chinese
+  in place without a reload; the choice is persisted and survives reloads.
+- AC-3: Every user-visible string previously hard-coded in `src/app/**/*.tsx`
+  and in the `studio-shell-model` copy is resolved through i18next.
+  Machine data (session titles, commit messages, report payloads, file
+  paths, protocol names such as AG-UI, and server error messages) renders
+  verbatim and is never translated.
+- AC-4: Dates, times, and numbers rendered with `Intl` follow the active
+  Studio language (e.g. the Date calendar, commit timestamps, token counts),
+  not the browser locale.
+- AC-5: Plural-sensitive copy uses an unsuffixed singular/default key plus
+  i18next's `_other` key. English distinguishes the two values; `zh-CN` keeps
+  the same wording where the language does not require a plural distinction.
+- AC-6: `en` and `zh-CN` resources stay structurally identical: a vitest
+  check fails on missing keys, extra keys, or missing interpolation
+  variables (<code v-pre>{{var}}</code>).
+- AC-7: Existing behavior tests keep passing: unit tests that assert current
+  English copy pass English resources through the model helpers, and the
+  Playwright suite (default English, headless Chromium) is unchanged except
+  for language curriculum produced by the new language switch test.
+- AC-8: Keyboard focus, overflow, and console/page errors are re-checked at
+  narrow (390px) and wide widths; the language control follows the existing
+  Studio control styling (shared tokens, `aria-label`, focus treatment).
+
+## Non-goals
+
+- No translation of server-side CLI output, `scripts/harness-inspector/ui/`
+  (the non-React static Inspector report rendered by `inspector render`), or
+  documentation. Those ship their own surfaces.
+- No new Studio areas, no lazy-loaded translation chunks, no per-locale
+  number/date frameworks beyond `Intl` with the active language.
+- No translation key catalog extraction tooling; strings are converted
+  in place with the established keys below.
+- No third language, plural-form locales beyond `zh-CN`, or RTL support.
+
+## Key conventions
+
+- Namespaces mirror Studio domains:
+  `common`, `overview`, `workspace`, `sessions`, `run`, `experiment`,
+  `artifacts`, `artifactViewers`, `git`, `inputs`, `inspector`, `customize`,
+  `compare`.
+  Default namespace is `common`; components call
+  `useTranslation("<ns>")` and the default namespace is used by App-shell
+  copy.
+- Resources live in `src/app/i18n/en/<ns>.ts` and
+  `src/app/i18n/zh-CN/<ns>.ts`; `resources.ts` types the combined map and
+  `index.ts` initializes the i18next instance (detection, persistence,
+  `fallbackLng: "en"`, `interpolation.escapeValue: false`,
+  `react.useSuspense: false`).
+- Only UI copy is translated. Do not translate: data values (session
+  prompts, commit messages, report/story titles, artifact labels), file
+  paths, identifiers, protocol names (AG-UI, ACP), the "Better Harness" /
+  "Studio" / "Harness Inspector" product names, or server-provided error
+  strings (`error instanceof Error ? error.message : ...` keeps an English
+  fallback that is translated).
+- Plural copy uses <code v-pre>{{count}}</code> with an unsuffixed singular/default key and an
+  `_other` key. Both locales keep the same key tree for parity; `zh-CN` may
+  use identical values for both keys.
+- `Intl` construction in components and module helpers uses the active
+  i18n language (`i18n.resolvedLanguage ?? i18n.language`) instead of a
+  hard-coded `"en"` or the browser default.
+- Model helpers (`studioOverview`, `studioDestinations` in
+  `studio-shell-model.ts`) accept a `t` parameter and return translated
+  copy; unit tests initialize a real i18next instance with the `en`
+  resources and pass its `t` so existing English assertions keep meaning.
+
+## Plan and Tasks
+
+1. Dependencies: add `i18next` and `react-i18next` to
+   `packages/harness-studio/package.json`.
+2. `src/app/i18n/`:
+   - `en/<ns>.ts` + `zh-CN/<ns>.ts` per namespace, `resources.ts`
+     (typed combined resources), `index.ts` (instance, detection,
+     persistence, `changeLanguage` helper).
+   - `common` namespace bootstraps App-shell copy so App.tsx conversion is
+     the reference pattern for later workstreams.
+3. `src/app/main.tsx`: wrap `App` in `<I18nextProvider>` (instance from
+   `i18n/index.ts`).
+4. `src/app/App.tsx`: convert shell copy (loading/failure/gate/navigation/
+   context bar/overview/sessions workspace/compare workspace/empty states),
+   drop `AREA_COPY`, add the language toggle control next to the theme
+   toggle, and register its style in `src/app/styles/workbench.css` using
+   existing tokens.
+5. Parallel workstreams (disjoint namespaces and files):
+   - artifacts: `ArtifactsWorkspace`, `artifacts/*` (incl. pdf/docx/pptx/
+     xlsx viewers, AgentReact preview, Artifact collaboration, registry,
+     preview host, diagnostics, zoom controls).
+   - git: `GitHistoryView`; inputs: `InputTraceView`;
+     customize: `CustomizationView`; compare: `CompareView`,
+     `SimpleCompareView`; sessions: `InspectorWorkbench`,
+     `run/RunView` + `experiment/*`; code: `code/*`; run/experiment split
+     per file count.
+6. `test/i18n-resources.test.ts`: structural parity between `en` and
+   `zh-CN` (key sets equal, <code v-pre>{{var}}</code> sets equal per key).
+7. Update `test/studio-shell-model.test.ts` to pass an English `t` built
+   from the resources; add `test/browser/language.spec.mjs` covering
+   auto-detect, manual switch, and persistence.
+8. Verification: `npm run typecheck`, `npm test` (studio unit),
+   `npm run build` (studio), `npm run test:browser` plus visual review of
+   wide/compact/narrow layouts with no console errors.
+
+## Test / review evidence
+
+- Unit: i18n resource parity test; translated Artifact collaboration render;
+  shell-model helpers under English `t`.
+- Browser: language switch spec (zh-CN renders, persists, reloads),
+  Customization language switching with server diagnostics left verbatim, and
+  AgentReact language switching; existing English behavior remains covered.
+- Build: Studio typecheck/build and 64 test files pass. Focused Playwright
+  coverage passes for language, Customization wide/compact/narrow layouts,
+  and AgentReact behavior plus wide/compact/narrow overflow checks.

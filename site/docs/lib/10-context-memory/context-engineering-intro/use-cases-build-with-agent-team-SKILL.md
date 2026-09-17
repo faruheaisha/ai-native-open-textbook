@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "10-context-memory"
 sourceUrl: "https://github.com/coleam00/context-engineering-intro"
-entryUrl: "https://github.com/coleam00/context-engineering-intro/blob/a2d84b021cee1e2f4e77ba854bba0be8cb319035/README.md"
+entryUrl: "https://github.com/coleam00/context-engineering-intro/blob/a2d84b021cee1e2f4e77ba854bba0be8cb319035/use-cases/build-with-agent-team/SKILL.md"
+sourceRel: "use-cases/build-with-agent-team/SKILL.md"
+rawUrl: "/raw/10-context-memory/context-engineering-intro/use-cases/build-with-agent-team/SKILL.md"
+sourceSha256: "3d1a590a7a90b581427d7d6ab6012235c92158725ebecf827d3a441b278c7429"
+pageSha256: "3d1a590a7a90b581427d7d6ab6012235c92158725ebecf827d3a441b278c7429"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -85,7 +90,7 @@ From the plan, define each integration contract with enough specificity that age
 - Request/response JSON shapes (exact structures, not prose descriptions)
 - Status codes for success and error cases
 - SSE event types with exact JSON format
-- Response envelopes (flat vs nested — e.g., `{"session": {...}, "messages": [...]}`)
+- Response envelopes (flat vs nested — e.g., `\{"session": \{...\}, "messages": [...]\}`)
 
 ### Identify Cross-Cutting Concerns
 
@@ -104,7 +109,7 @@ Assign each concern to one agent with instructions to coordinate with others.
 
 Before including a contract in agent prompts, verify:
 - Are URLs exact, including trailing slashes? (e.g., `POST /api/sessions/` vs `POST /api/sessions`)
-- Are response shapes explicit JSON, not prose descriptions? (e.g., `{"session": {...}, "messages": [...]}` not "returns session with messages")
+- Are response shapes explicit JSON, not prose descriptions? (e.g., `\{"session": \{...\}, "messages": [...]\}` not "returns session with messages")
 - Are all SSE event types documented with exact JSON?
 - Are error responses specified? (404 body, 422 body, etc.)
 - Are storage semantics clear? (accumulated vs per-chunk)

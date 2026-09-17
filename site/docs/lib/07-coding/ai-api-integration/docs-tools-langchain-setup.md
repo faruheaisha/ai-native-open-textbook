@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/CCCpan/ai-api-integration"
-entryUrl: "https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/README.md"
+entryUrl: "https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/docs/tools/langchain-setup.md"
+sourceRel: "docs/tools/langchain-setup.md"
+rawUrl: "/raw/07-coding/ai-api-integration/docs/tools/langchain-setup.md"
+sourceSha256: "96e8b740d38c017714c9db034fef27fdb89ecced1a4ec39988c398eca39184a8"
+pageSha256: "96e8b740d38c017714c9db034fef27fdb89ecced1a4ec39988c398eca39184a8"
+contentMode: "local-full"
 zh: ""
 ---
 

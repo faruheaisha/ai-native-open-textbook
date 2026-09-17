@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/QoderAI/better-harness"
-entryUrl: "https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/README.md"
+entryUrl: "https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/i18n/zh-Hans/docusaurus-plugin-content-blog/2026-08-14-harness-inspector.md"
+sourceRel: "docs/i18n/zh-Hans/docusaurus-plugin-content-blog/2026-08-14-harness-inspector.md"
+rawUrl: "/raw/09-harness/better-harness/docs/i18n/zh-Hans/docusaurus-plugin-content-blog/2026-08-14-harness-inspector.md"
+sourceSha256: "938cf8bd92bb3bc3c582d5cba7ec2a6ebd7943449717a7cd57487e8520963f1e"
+pageSha256: "938cf8bd92bb3bc3c582d5cba7ec2a6ebd7943449717a7cd57487e8520963f1e"
+contentMode: "local-full"
 zh: ""
 ---
 

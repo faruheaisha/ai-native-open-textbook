@@ -8,13 +8,18 @@ lang: "英文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/vibefast-app/vibefast-docs"
-entryUrl: "https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/README.md"
+entryUrl: "https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/15-cursor-workflow-from-idea-to-deploy-en.md"
+sourceRel: "en/15-cursor-workflow-from-idea-to-deploy-en.md"
+rawUrl: "/raw/07-coding/vibefast-docs/en/15-cursor-workflow-from-idea-to-deploy-en.md"
+sourceSha256: "1b8223e89c4b4f12a413a067347b8460a630b310d233bafc9347ece5b03355c3"
+pageSha256: "1b8223e89c4b4f12a413a067347b8460a630b310d233bafc9347ece5b03355c3"
+contentMode: "local-full"
 zh: ""
 ---
 
 # How I Use Cursor to Take a Feature from Idea to Live
 
-[English](/lib/07-coding/vibefast-docs/en-15-cursor-workflow-from-idea-to-deploy-en) · [繁中](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/zh/15-cursor-workflow-from-idea-to-deploy-zh.md) · [Español](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/es/15-cursor-workflow-from-idea-to-deploy-es.md) · [日本語](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/jp/15-cursor-workflow-from-idea-to-deploy-jp.md) · [Português (BR)](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/pt-br/15-cursor-workflow-from-idea-to-deploy-pt-br.md)
+[English](/lib/07-coding/vibefast-docs/en-15-cursor-workflow-from-idea-to-deploy-en) · [繁中](/lib/07-coding/vibefast-docs/zh-15-cursor-workflow-from-idea-to-deploy-zh) · [Español](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/es/15-cursor-workflow-from-idea-to-deploy-es.md) · [日本語](/lib/07-coding/vibefast-docs/jp-15-cursor-workflow-from-idea-to-deploy-jp) · [Português (BR)](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/pt-br/15-cursor-workflow-from-idea-to-deploy-pt-br.md)
 
 **Author:** Danko Peng ([@dankopeng](https://x.com/dankopeng))  
 **Updated:** March 2026  

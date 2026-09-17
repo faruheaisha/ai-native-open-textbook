@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/fufankeji/FuFan-VibeCodingCourse"
-entryUrl: "https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/README_CN.md"
+entryUrl: "https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/Stage1_AI_Programming_Fundamentals/Lesson01_Dev_Workflow_and_Environment/Courseware/02_课程资料/plans/deepseek_chat_system_d15b7da2.plan.md"
+sourceRel: "Stage1_AI_Programming_Fundamentals/Lesson01_Dev_Workflow_and_Environment/Courseware/02_课程资料/plans/deepseek_chat_system_d15b7da2.plan.md"
+rawUrl: "/raw/07-coding/fufan-vibe-coding-course/Stage1_AI_Programming_Fundamentals/Lesson01_Dev_Workflow_and_Environment/Courseware/02_课程资料/plans/deepseek_chat_system_d15b7da2.plan.md"
+sourceSha256: "9e90d47adbabde756cdcd6654ec77be51c813e0f59f26c91b84e72869743194c"
+pageSha256: "9e90d47adbabde756cdcd6654ec77be51c813e0f59f26c91b84e72869743194c"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -369,9 +374,9 @@ async def stream_reasoning(messages: list):
 
 | `POST /api/conversations` | POST | 创建新对话 |
 
-| `GET /api/conversations/{id}` | GET | 获取对话详情 |
+| `GET /api/conversations/\{id\}` | GET | 获取对话详情 |
 
-| `DELETE /api/conversations/{id}` | DELETE | 删除对话 |
+| `DELETE /api/conversations/\{id\}` | DELETE | 删除对话 |
 
 | `GET /api/models` | GET | 获取可用模型列表 |
 

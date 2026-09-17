@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "08-agents"
 sourceUrl: "https://github.com/Prompthon-IO/agent-systems-handbook"
-entryUrl: "https://github.com/Prompthon-IO/agent-systems-handbook/blob/5b71cfa598701a34834f33b42be5f8a422138a3c/README.md"
+entryUrl: "https://github.com/Prompthon-IO/agent-systems-handbook/blob/5b71cfa598701a34834f33b42be5f8a422138a3c/ecosystem/examples/messaging-transaction-assistant-starter/SOURCE_NOTES.md"
+sourceRel: "ecosystem/examples/messaging-transaction-assistant-starter/SOURCE_NOTES.md"
+rawUrl: "/raw/08-agents/agent-systems-handbook/ecosystem/examples/messaging-transaction-assistant-starter/SOURCE_NOTES.md"
+sourceSha256: "7cfc42d5e38b777b74be89af74c3d1f1739474f91bf1bc27d4d8f351b292b4b4"
+pageSha256: "7cfc42d5e38b777b74be89af74c3d1f1739474f91bf1bc27d4d8f351b292b4b4"
+contentMode: "local-full"
 zh: ""
 ---
 

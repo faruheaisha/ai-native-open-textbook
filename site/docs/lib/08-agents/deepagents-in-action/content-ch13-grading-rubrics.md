@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/datawhalechina/deepagents-in-action"
-entryUrl: "https://github.com/datawhalechina/deepagents-in-action/blob/4097ff944f9ffa1bdfe2dd04f751f4416b058860/README.md"
+entryUrl: "https://github.com/datawhalechina/deepagents-in-action/blob/4097ff944f9ffa1bdfe2dd04f751f4416b058860/content/ch13-grading-rubrics.md"
+sourceRel: "content/ch13-grading-rubrics.md"
+rawUrl: "/raw/08-agents/deepagents-in-action/content/ch13-grading-rubrics.md"
+sourceSha256: "97d1020b1b92d866ca54648c1957e7f19d01655027415b93e8b48d649895c76c"
+pageSha256: "97d1020b1b92d866ca54648c1957e7f19d01655027415b93e8b48d649895c76c"
+contentMode: "local-full"
 zh: ""
 ---
 

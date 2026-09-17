@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/freestylefly/CodexGuide"
-entryUrl: "https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/README.md"
+entryUrl: "https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/advanced/07-sandbox-approvals.md"
+sourceRel: "docs/advanced/07-sandbox-approvals.md"
+rawUrl: "/raw/09-harness/codex-guide-freestylefly/docs/advanced/07-sandbox-approvals.md"
+sourceSha256: "72778d91bb2cc4a738f3f8d80930d66e84cc91c2c68a61e3087cbf34ca1f325b"
+pageSha256: "72778d91bb2cc4a738f3f8d80930d66e84cc91c2c68a61e3087cbf34ca1f325b"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh"
-entryUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/README.md"
+entryUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/certifications/claude/lessons/05-output-evaluation-and-validation/docs/zh.md"
+sourceRel: "certifications/claude/lessons/05-output-evaluation-and-validation/docs/zh.md"
+rawUrl: "/raw/07-coding/ai-engineering-from-scratch-zh/certifications/claude/lessons/05-output-evaluation-and-validation/docs/zh.md"
+sourceSha256: "08bfc2981363b5ff39a98508f76cb2752254f65eeb7ff18e124f252fc3016bc4"
+pageSha256: "08bfc2981363b5ff39a98508f76cb2752254f65eeb7ff18e124f252fc3016bc4"
+contentMode: "local-full"
 zh: ""
 ---
 

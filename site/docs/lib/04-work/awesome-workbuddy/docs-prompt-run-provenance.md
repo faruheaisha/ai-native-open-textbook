@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "04-work"
 sourceUrl: "https://github.com/staruhub/awesome-workbuddy"
-entryUrl: "https://github.com/staruhub/awesome-workbuddy/blob/e32b6c953154e41f6cb4e6b69fd7d933f5cef3d3/README.md"
+entryUrl: "https://github.com/staruhub/awesome-workbuddy/blob/e32b6c953154e41f6cb4e6b69fd7d933f5cef3d3/docs/prompt-run-provenance.md"
+sourceRel: "docs/prompt-run-provenance.md"
+rawUrl: "/raw/04-work/awesome-workbuddy/docs/prompt-run-provenance.md"
+sourceSha256: "1f3d53f8d50ba3cc198960394188913eee4a14f684f1c796c41e357788fa101b"
+pageSha256: "1f3d53f8d50ba3cc198960394188913eee4a14f684f1c796c41e357788fa101b"
+contentMode: "local-full"
 zh: ""
 ---
 

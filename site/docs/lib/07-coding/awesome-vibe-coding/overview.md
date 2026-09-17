@@ -9,6 +9,11 @@ tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/filipecalegario/awesome-vibe-coding"
 entryUrl: "https://github.com/filipecalegario/awesome-vibe-coding/blob/59d50281e40651d574ea0ead592a08019d74730d/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/07-coding/awesome-vibe-coding/README.md"
+sourceSha256: "12190a91e4b9eb9f0d5278a21f30236b5a2ebb2ea9869392d55a9098917441ef"
+pageSha256: "12190a91e4b9eb9f0d5278a21f30236b5a2ebb2ea9869392d55a9098917441ef"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -16,7 +21,7 @@ zh: ""
 
 > A curated list of vibe coding references, collaborating with AI to write code.
 
-English | [Português](https://github.com/filipecalegario/awesome-vibe-coding/blob/59d50281e40651d574ea0ead592a08019d74730d/README-PT.md) | [한국어](https://github.com/filipecalegario/awesome-vibe-coding/blob/59d50281e40651d574ea0ead592a08019d74730d/README-KR.md) | [中文](/lib/07-coding/awesome-vibe-coding/README-CN) | [日本語](https://github.com/filipecalegario/awesome-vibe-coding/blob/59d50281e40651d574ea0ead592a08019d74730d/README-JP.md)
+English | [Português](https://github.com/filipecalegario/awesome-vibe-coding/blob/59d50281e40651d574ea0ead592a08019d74730d/README-PT.md) | [한국어](/lib/07-coding/awesome-vibe-coding/README-KR) | [中文](/lib/07-coding/awesome-vibe-coding/README-CN) | [日本語](/lib/07-coding/awesome-vibe-coding/README-JP)
 
 ## Contents 
 

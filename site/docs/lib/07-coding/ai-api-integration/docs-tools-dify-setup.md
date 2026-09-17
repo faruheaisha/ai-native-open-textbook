@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/CCCpan/ai-api-integration"
-entryUrl: "https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/README.md"
+entryUrl: "https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/docs/tools/dify-setup.md"
+sourceRel: "docs/tools/dify-setup.md"
+rawUrl: "/raw/07-coding/ai-api-integration/docs/tools/dify-setup.md"
+sourceSha256: "51165cb84abf46a9dc9425f97c1ea6ccfada791dab9f999500ea892f9a406b53"
+pageSha256: "51165cb84abf46a9dc9425f97c1ea6ccfada791dab9f999500ea892f9a406b53"
+contentMode: "local-full"
 zh: ""
 ---
 

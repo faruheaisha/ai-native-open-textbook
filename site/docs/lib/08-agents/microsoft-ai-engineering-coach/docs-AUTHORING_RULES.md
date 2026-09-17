@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/microsoft/AI-Engineering-Coach"
-entryUrl: "https://github.com/microsoft/AI-Engineering-Coach/blob/18b1a3d16b586c171426c6a407cc5c2dc073556e/README.md"
+entryUrl: "https://github.com/microsoft/AI-Engineering-Coach/blob/18b1a3d16b586c171426c6a407cc5c2dc073556e/docs/AUTHORING_RULES.md"
+sourceRel: "docs/AUTHORING_RULES.md"
+rawUrl: "/raw/08-agents/microsoft-ai-engineering-coach/docs/AUTHORING_RULES.md"
+sourceSha256: "edd577e3f769fd9a6e48749c7fc749ccad2893d0761343831d27e645cd29daed"
+pageSha256: "edd577e3f769fd9a6e48749c7fc749ccad2893d0761343831d27e645cd29daed"
+contentMode: "local-full"
 zh: ""
 ---
 

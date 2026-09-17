@@ -8,13 +8,18 @@ lang: "英文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/vibefast-app/vibefast-docs"
-entryUrl: "https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/README.md"
+entryUrl: "https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/00-why-i-started-at-50-en.md"
+sourceRel: "en/00-why-i-started-at-50-en.md"
+rawUrl: "/raw/07-coding/vibefast-docs/en/00-why-i-started-at-50-en.md"
+sourceSha256: "fb215def16f82f5f45cb80be73a1f063324e0241c66435aa542e96670f208adb"
+pageSha256: "fb215def16f82f5f45cb80be73a1f063324e0241c66435aa542e96670f208adb"
+contentMode: "local-full"
 zh: ""
 ---
 
 # Why I Started Building Seriously at 50
 
-[English](/lib/07-coding/vibefast-docs/en-00-why-i-started-at-50-en) · [繁中](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/zh/00-why-i-started-at-50-zh.md) · [Español](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/es/00-why-i-started-at-50-es.md) · [日本語](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/jp/00-why-i-started-at-50-jp.md) · [Português (BR)](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/pt-br/00-why-i-started-at-50-pt-br.md)
+[English](/lib/07-coding/vibefast-docs/en-00-why-i-started-at-50-en) · [繁中](/lib/07-coding/vibefast-docs/zh-00-why-i-started-at-50-zh) · [Español](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/es/00-why-i-started-at-50-es.md) · [日本語](/lib/07-coding/vibefast-docs/jp-00-why-i-started-at-50-jp) · [Português (BR)](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/pt-br/00-why-i-started-at-50-pt-br.md)
 
 **Author:** Danko Peng ([@dankopeng](https://x.com/dankopeng))  
 **Updated:** March 2026  

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "01-foundations"
 sourceUrl: "https://github.com/microsoft/generative-ai-for-beginners"
-entryUrl: "https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/README.md"
+entryUrl: "https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/15-rag-and-vector-databases/data/perceptron.md"
+sourceRel: "15-rag-and-vector-databases/data/perceptron.md"
+rawUrl: "/raw/01-foundations/microsoft-generative-ai-for-beginners/15-rag-and-vector-databases/data/perceptron.md"
+sourceSha256: "c5acbeed8353d9a08de2697a5f798aecccfa05039761276892a655d929c2d8f4"
+pageSha256: "c5acbeed8353d9a08de2697a5f798aecccfa05039761276892a655d929c2d8f4"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/Windy3f3f3f3f/claude-code-from-scratch"
-entryUrl: "https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/README.md"
+entryUrl: "https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/docs/12-mcp.md"
+sourceRel: "docs/12-mcp.md"
+rawUrl: "/raw/09-harness/claude-code-from-scratch/docs/12-mcp.md"
+sourceSha256: "3a6d6c05f6c071ef32d80d499c891159694e3eb125f9827107049c88d4cb6ff3"
+pageSha256: "3a6d6c05f6c071ef32d80d499c891159694e3eb125f9827107049c88d4cb6ff3"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -216,7 +221,7 @@ JSON-RPC 有两种消息：**请求**（有 id，期望响应）和**通知**（
 
 三步标准流程：`initialize`（版本协商）→ `listTools`（工具发现）→ `callTool`（执行调用）。MCP 协议要求 `initialize` 之后必须发 `notifications/initialized` 通知，告诉服务器客户端准备就绪。
 
-`callTool` 的返回值处理值得注意：MCP 返回 `{ content: [{ type: "text", text: "..." }] }` 格式，我们只提取 `text` 类型的内容拼接返回——图片等其他类型暂不处理。
+`callTool` 的返回值处理值得注意：MCP 返回 `\{ content: [\{ type: "text", text: "..." \}] \}` 格式，我们只提取 `text` 类型的内容拼接返回——图片等其他类型暂不处理。
 
 ### 2. MCP 管理器 — `McpManager` 类
 

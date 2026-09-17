@@ -1,0 +1,18 @@
+{
+  "id": "04-work/coze-official-docs",
+  "volume": "04-work",
+  "local": "coze-official-docs",
+  "title": "扣子 Coze 官方文档",
+  "kind": "官方文档",
+  "license": "官方文档（扣子站点条款）",
+  "licenseLabel": "仅引用",
+  "licenseNote": "不可整篇转载，站内只做导航与引用",
+  "lang": "中文",
+  "needsTranslation": false,
+  "publishable": false,
+  "repo": null,
+  "site": null,
+  "commit": null,
+  "entryUrl": null,
+  "docs": 101
+}

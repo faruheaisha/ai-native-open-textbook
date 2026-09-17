@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/baby-llm/baby-agent"
-entryUrl: "https://github.com/baby-llm/baby-agent/blob/55712911ad0c3d1554c94198370b08d9076fac1c/README.md"
+entryUrl: "https://github.com/baby-llm/baby-agent/blob/55712911ad0c3d1554c94198370b08d9076fac1c/frontend/README.md"
+sourceRel: "frontend/README.md"
+rawUrl: "/raw/08-agents/baby-agent/frontend/README.md"
+sourceSha256: "a460b4dc7e6392e76aa54d844c9261b8db0adb7f967ba8300526456f1dcf5fb4"
+pageSha256: "a460b4dc7e6392e76aa54d844c9261b8db0adb7f967ba8300526456f1dcf5fb4"
+contentMode: "local-full"
 zh: ""
 ---
 

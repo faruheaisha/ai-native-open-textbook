@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/ed-donner/agents"
-entryUrl: ""
+entryUrl: "https://github.com/ed-donner/agents/blob/8ceaf66c24643627c1e4806851736bdd444bdd4b/1_foundations/community_contributions/amirna2_contributions/personal-ai/docs/prompt-refactoring-plan.md"
+sourceRel: "1_foundations/community_contributions/amirna2_contributions/personal-ai/docs/prompt-refactoring-plan.md"
+rawUrl: "/raw/08-agents/ed-donner-agents/1_foundations/community_contributions/amirna2_contributions/personal-ai/docs/prompt-refactoring-plan.md"
+sourceSha256: "e0d684b0f166cd8305a3edea12b58aad7ad892b256fb6d46bed62cee8749bb4d"
+pageSha256: "e0d684b0f166cd8305a3edea12b58aad7ad892b256fb6d46bed62cee8749bb4d"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -99,7 +104,7 @@ def render(path, vars):
 
 ### 3. Prompt File Format
 
-Each prompt will be a markdown file with variable placeholders using `{variable_name}` syntax.
+Each prompt will be a markdown file with variable placeholders using `\{variable_name\}` syntax.
 
 Example: `prompts/chat_init.md`
 ```markdown

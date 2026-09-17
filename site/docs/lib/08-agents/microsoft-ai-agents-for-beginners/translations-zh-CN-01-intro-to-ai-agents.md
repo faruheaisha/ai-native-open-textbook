@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "08-agents"
 sourceUrl: "https://github.com/microsoft/ai-agents-for-beginners"
-entryUrl: "https://github.com/microsoft/ai-agents-for-beginners/blob/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translations/zh-CN/README.md"
+entryUrl: "https://github.com/microsoft/ai-agents-for-beginners/blob/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translations/zh-CN/01-intro-to-ai-agents/README.md"
+sourceRel: "translations/zh-CN/01-intro-to-ai-agents/README.md"
+rawUrl: "/raw/08-agents/microsoft-ai-agents-for-beginners/translations/zh-CN/01-intro-to-ai-agents/README.md"
+sourceSha256: "dc6572bfa2ba2a0f3e3cb8b0a347a051e48c81ae5a12429bb9c270c9c81ff76c"
+pageSha256: "dc6572bfa2ba2a0f3e3cb8b0a347a051e48c81ae5a12429bb9c270c9c81ff76c"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -144,7 +149,7 @@ zh: ""
 
 ## 快速测试这个代理（可选）
 
-一旦您学会如何在 [第16课](https://github.com/microsoft/ai-agents-for-beginners/blob/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translations/zh-CN/16-deploying-scalable-agents/README.md) 部署代理，就可以为本课的 `TravelAgent` 添加快速的部署后健康检查，使用预制目录 [`tests/lesson-01-smoke-tests.json`](https://github.com/microsoft/ai-agents-for-beginners/blob/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/tests/lesson-01-smoke-tests.json)。查看 [`tests/README.md`](https://github.com/microsoft/ai-agents-for-beginners/blob/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translations/zh-CN/tests/README.md) 了解运行方式。
+一旦您学会如何在 [第16课](/lib/08-agents/microsoft-ai-agents-for-beginners/translations-zh-CN-16-deploying-scalable-agents) 部署代理，就可以为本课的 `TravelAgent` 添加快速的部署后健康检查，使用预制目录 [`tests/lesson-01-smoke-tests.json`](https://github.com/microsoft/ai-agents-for-beginners/blob/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/tests/lesson-01-smoke-tests.json)。查看 [`tests/README.md`](/lib/08-agents/microsoft-ai-agents-for-beginners/translations-zh-CN-tests) 了解运行方式。
 
 ---
 

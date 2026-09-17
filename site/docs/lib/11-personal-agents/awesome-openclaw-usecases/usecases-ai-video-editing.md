@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases"
-entryUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/README.md"
+entryUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/ai-video-editing.md"
+sourceRel: "usecases/ai-video-editing.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-usecases/usecases/ai-video-editing.md"
+sourceSha256: "3dd13b34716c11b87c6049380d67cea6cbde7491815d6b6e421098ca8127baf9"
+pageSha256: "3dd13b34716c11b87c6049380d67cea6cbde7491815d6b6e421098ca8127baf9"
+contentMode: "local-full"
 zh: ""
 ---
 

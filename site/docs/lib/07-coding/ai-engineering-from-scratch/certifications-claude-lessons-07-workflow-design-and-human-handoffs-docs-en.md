@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/rohitg00/ai-engineering-from-scratch"
-entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/README.md"
+entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/certifications/claude/lessons/07-workflow-design-and-human-handoffs/docs/en.md"
+sourceRel: "certifications/claude/lessons/07-workflow-design-and-human-handoffs/docs/en.md"
+rawUrl: "/raw/07-coding/ai-engineering-from-scratch/certifications/claude/lessons/07-workflow-design-and-human-handoffs/docs/en.md"
+sourceSha256: "cf8f7c5a26e9d80da6b73a599acc2ff96e0126e86a00f695c206a0c57e721322"
+pageSha256: "cf8f7c5a26e9d80da6b73a599acc2ff96e0126e86a00f695c206a0c57e721322"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/czl9707/build-your-own-openclaw"
-entryUrl: ""
+entryUrl: "https://github.com/czl9707/build-your-own-openclaw/blob/37ae5dd255a0451609e67ad6d6a51fa5de80523c/07-event-driven/README.zh.md"
+sourceRel: "07-event-driven/README.zh.md"
+rawUrl: "/raw/11-personal-agents/build-your-own-openclaw/07-event-driven/README.zh.md"
+sourceSha256: "dcb1e19deb7fe47fc4341f64c328ed01a29624a5ec7593282424b0c304bd5e95"
+pageSha256: "dcb1e19deb7fe47fc4341f64c328ed01a29624a5ec7593282424b0c304bd5e95"
+contentMode: "local-full"
 zh: ""
 ---
 

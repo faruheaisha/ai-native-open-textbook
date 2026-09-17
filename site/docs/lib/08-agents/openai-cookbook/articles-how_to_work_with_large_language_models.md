@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/openai/openai-cookbook"
-entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/README.md"
+entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/articles/how_to_work_with_large_language_models.md"
+sourceRel: "articles/how_to_work_with_large_language_models.md"
+rawUrl: "/raw/08-agents/openai-cookbook/articles/how_to_work_with_large_language_models.md"
+sourceSha256: "76ac11da6d273c52b5b65e968b1d75ffebe7392da29cad42dfb3f69b61af25bf"
+pageSha256: "76ac11da6d273c52b5b65e968b1d75ffebe7392da29cad42dfb3f69b61af25bf"
+contentMode: "local-full"
 zh: ""
 ---
 

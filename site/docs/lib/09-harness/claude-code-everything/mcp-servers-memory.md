@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know"
-entryUrl: "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/README.md"
+entryUrl: "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/mcp-servers/memory.md"
+sourceRel: "mcp-servers/memory.md"
+rawUrl: "/raw/09-harness/claude-code-everything/mcp-servers/memory.md"
+sourceSha256: "515563161d5d1cece090a0da40d6847b7b9246a0fde325cacf5a5d974a5f9ef4"
+pageSha256: "515563161d5d1cece090a0da40d6847b7b9246a0fde325cacf5a5d974a5f9ef4"
+contentMode: "local-full"
 zh: ""
 ---
 

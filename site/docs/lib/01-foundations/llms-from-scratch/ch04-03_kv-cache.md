@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "01-foundations"
 sourceUrl: "https://github.com/rasbt/LLMs-from-scratch"
-entryUrl: "https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/README.md"
+entryUrl: "https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch04/03_kv-cache/README.md"
+sourceRel: "ch04/03_kv-cache/README.md"
+rawUrl: "/raw/01-foundations/llms-from-scratch/ch04/03_kv-cache/README.md"
+sourceSha256: "49bf6b84fc0dfb7a573d5e8133b25ac18c720bf623027532f13247e222767de8"
+pageSha256: "49bf6b84fc0dfb7a573d5e8133b25ac18c720bf623027532f13247e222767de8"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -307,6 +312,6 @@ Unfortunately, the speed advantages disappear on CUDA devices as this is a tiny 
 &nbsp;
 ## Additional Resources
 
-1. [Qwen3 from-scratch KV cache benchmarks](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch05/11_qwen3/README.md#pro-tip-2-speed-up-inference-with-compilation)
-2. [Llama 3 from-scratch KV cache benchmarks](https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch05/07_gpt_to_llama/README.md#pro-tip-3-speed-up-inference-with-compilation)
+1. [Qwen3 from-scratch KV cache benchmarks](/lib/01-foundations/llms-from-scratch/ch05-11_qwen3#pro-tip-2-speed-up-inference-with-compilation)
+2. [Llama 3 from-scratch KV cache benchmarks](/lib/01-foundations/llms-from-scratch/ch05-07_gpt_to_llama#pro-tip-3-speed-up-inference-with-compilation)
 3. [Understanding and Coding the KV Cache in LLMs from Scratch](https://magazine.sebastianraschka.com/p/coding-the-kv-cache-in-llms) -- A more detailed write-up of this README

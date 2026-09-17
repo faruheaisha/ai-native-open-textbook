@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding"
-entryUrl: "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding/blob/e40e0feec02b90e308ccbfc7a8911d64118ccca0/README.md"
+entryUrl: "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding/blob/e40e0feec02b90e308ccbfc7a8911d64118ccca0/book/src/part1/ch04b.md"
+sourceRel: "book/src/part1/ch04b.md"
+rawUrl: "/raw/09-harness/harness-engineering-from-cc-to-ai-coding/book/src/part1/ch04b.md"
+sourceSha256: "3016c37601dca17bf0ecebb4f21bf94e8bad09b44cb550efc1c383c48712743e"
+pageSha256: "3016c37601dca17bf0ecebb4f21bf94e8bad09b44cb550efc1c383c48712743e"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -240,8 +245,8 @@ export function getPlanFilePath(agentId?: AgentId): string {
 | 默认位置 | `~/.claude/plans/` | 与项目无关的全局目录，不污染代码仓库 |
 | 可配置 | `settings.plansDirectory` | 团队可以配置为项目内目录，如 `.claude/plans/` |
 | 路径穿越防御 | `resolved.startsWith(cwd + sep)` | 防止配置的路径逃逸到项目根目录之外 |
-| 文件名 | `{wordSlug}.md` | 使用词组 slug（如 `brave-fox.md`）而非 UUID，人类可读 |
-| 子 agent 隔离 | `{wordSlug}-agent-{agentId}.md` | 每个子 agent 有独立的计划文件，避免覆盖 |
+| 文件名 | `\{wordSlug\}.md` | 使用词组 slug（如 `brave-fox.md`）而非 UUID，人类可读 |
+| 子 agent 隔离 | `\{wordSlug\}-agent-\{agentId\}.md` | 每个子 agent 有独立的计划文件，避免覆盖 |
 | 记忆化 | `memoize(getPlansDirectory)` | 避免每次工具渲染触发 `mkdirSync` 系统调用（#20005 回归修复） |
 
 ### Plan Slug 生成
@@ -596,7 +601,7 @@ if (isTeammate() && isPlanModeRequired()) {
 }
 ```
 
-审批请求是一个 JSON 消息，写入 team lead 的邮箱文件（`~/.claude/teams/{team}/inboxes/team-lead.json`）。消息使用 `proper-lockfile` 确保并发安全。
+审批请求是一个 JSON 消息，写入 team lead 的邮箱文件（`~/.claude/teams/\{team\}/inboxes/team-lead.json`）。消息使用 `proper-lockfile` 确保并发安全。
 
 ### 验证 Plan 执行
 

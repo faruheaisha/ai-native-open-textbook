@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases"
-entryUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/README.md"
+entryUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/local-crm-framework.md"
+sourceRel: "usecases/local-crm-framework.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-usecases/usecases/local-crm-framework.md"
+sourceSha256: "6246d81d2053e570647377dbd0f5d12fea80a0a20bf362d51735b628d69bf82a"
+pageSha256: "6246d81d2053e570647377dbd0f5d12fea80a0a20bf362d51735b628d69bf82a"
+contentMode: "local-full"
 zh: ""
 ---
 

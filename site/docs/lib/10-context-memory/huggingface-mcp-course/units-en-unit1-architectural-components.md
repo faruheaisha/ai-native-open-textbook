@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "10-context-memory"
 sourceUrl: "https://github.com/huggingface/mcp-course"
-entryUrl: "https://github.com/huggingface/mcp-course/blob/e706ccc0d7abe73c31813979c3451c0e31c8a464/README.md"
+entryUrl: "https://github.com/huggingface/mcp-course/blob/e706ccc0d7abe73c31813979c3451c0e31c8a464/units/en/unit1/architectural-components.mdx"
+sourceRel: "units/en/unit1/architectural-components.mdx"
+rawUrl: "/raw/10-context-memory/huggingface-mcp-course/units/en/unit1/architectural-components.mdx"
+sourceSha256: "662a0e3e5eb28ea08f146e4fabcb4e6c4e9d57486e0d483f3568806fac54ca8b"
+pageSha256: "662a0e3e5eb28ea08f146e4fabcb4e6c4e9d57486e0d483f3568806fac54ca8b"
+contentMode: "local-full"
 zh: "on"
 ---
 

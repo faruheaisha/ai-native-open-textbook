@@ -1,0 +1,18 @@
+{
+  "id": "09-harness/harness-books",
+  "volume": "09-harness",
+  "local": "harness-books",
+  "title": "Harness Books",
+  "kind": "工程手册",
+  "license": "未声明",
+  "licenseLabel": "仅引用",
+  "licenseNote": "不可整篇转载，站内只做导航与引用",
+  "lang": "中文",
+  "needsTranslation": false,
+  "publishable": false,
+  "repo": "wquguru/harness-books",
+  "site": null,
+  "commit": "fbf2b43e352443eea00eb9e4a32709a9f2c11a76",
+  "entryUrl": "https://github.com/wquguru/harness-books/blob/fbf2b43e352443eea00eb9e4a32709a9f2c11a76/README.md",
+  "docs": 37
+}

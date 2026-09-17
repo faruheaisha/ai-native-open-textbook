@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/2025Emma/vibe-coding-cn"
-entryUrl: "https://github.com/2025Emma/vibe-coding-cn/blob/9b42dd10ddf3fff58f8c7a4d347175db107d7bf9/README.md"
+entryUrl: "https://github.com/2025Emma/vibe-coding-cn/blob/9b42dd10ddf3fff58f8c7a4d347175db107d7bf9/i18n/zh/prompts/coding_prompts/%287,1%29_#_AI生成代码文档_-_通用提示词模板.md"
+sourceRel: "i18n/zh/prompts/coding_prompts/(7,1)_#_AI生成代码文档_-_通用提示词模板.md"
+rawUrl: "/raw/07-coding/vibe-coding-cn/i18n/zh/prompts/coding_prompts/(7,1)_#_AI生成代码文档_-_通用提示词模板.md"
+sourceSha256: "8208e5d6add2efe32fbc8d96bd4eaebbc987febae2e346cd8bc9ce07619d37cc"
+pageSha256: "8208e5d6add2efe32fbc8d96bd4eaebbc987febae2e346cd8bc9ce07619d37cc"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -426,11 +431,11 @@ D.py    E.py
 
 | 变量名 | 说明 | 示例 |
 |-------|------|------|
-| `{PROJECT_NAME}` | 项目名称 | 期货交易系统 |
-| `{DOC_PATH}` | 文档保存路径 | docs/code-guide.md |
-| `{TIME_NODES}` | 时间节点列表 | 早上9点、下午2点、晚上9点 |
-| `{REFERENCE_DOCS}` | 参考文档路径 | 操作手册/*.pdf |
-| `{TECH_STACK}` | 技术栈 | Python, vnpy, pandas |
+| `\{PROJECT_NAME\}` | 项目名称 | 期货交易系统 |
+| `\{DOC_PATH\}` | 文档保存路径 | docs/code-guide.md |
+| `\{TIME_NODES\}` | 时间节点列表 | 早上9点、下午2点、晚上9点 |
+| `\{REFERENCE_DOCS\}` | 参考文档路径 | 操作手册/*.pdf |
+| `\{TECH_STACK\}` | 技术栈 | Python, vnpy, pandas |
 
 ---
 

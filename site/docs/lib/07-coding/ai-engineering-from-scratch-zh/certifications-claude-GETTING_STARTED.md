@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh"
-entryUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/README.md"
+entryUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/certifications/claude/GETTING_STARTED.md"
+sourceRel: "certifications/claude/GETTING_STARTED.md"
+rawUrl: "/raw/07-coding/ai-engineering-from-scratch-zh/certifications/claude/GETTING_STARTED.md"
+sourceSha256: "e44855661ecc3a7dbb871e1053e818d605b9082a8ef337d34837394bc05dca7d"
+pageSha256: "e44855661ecc3a7dbb871e1053e818d605b9082a8ef337d34837394bc05dca7d"
+contentMode: "local-full"
 zh: ""
 ---
 

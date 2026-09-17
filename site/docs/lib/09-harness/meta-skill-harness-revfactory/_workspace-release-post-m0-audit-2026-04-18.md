@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/revfactory/harness"
-entryUrl: "https://github.com/revfactory/harness/blob/cceac68ea1d0ad198ef4b7b906cd238375836387/README.md"
+entryUrl: "https://github.com/revfactory/harness/blob/cceac68ea1d0ad198ef4b7b906cd238375836387/_workspace/release/post-m0-audit-2026-04-18.md"
+sourceRel: "_workspace/release/post-m0-audit-2026-04-18.md"
+rawUrl: "/raw/09-harness/meta-skill-harness-revfactory/_workspace/release/post-m0-audit-2026-04-18.md"
+sourceSha256: "aa52bb405f9edcfd666ae0dddcda9be1555753838d107edbb61cf57d7ac73395"
+pageSha256: "aa52bb405f9edcfd666ae0dddcda9be1555753838d107edbb61cf57d7ac73395"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -141,7 +146,7 @@ EN 기준 섹션 순서:
 | `docs/quickstart.md` | — | — | 신규 | — |
 | `docs/show-hn-launch-kit.md` | — | — | 신규 | — |
 | `_workspace/release/audit-2026-04-18.md` | 신규 | — | — | — |
-| `_workspace/community/issue-{2,3}-reply.md` | — | — | — | 신규 (2종) |
+| `_workspace/community/issue-\{2,3\}-reply.md` | — | — | — | 신규 (2종) |
 
 ### 4.2 같은 줄 동시 편집 여부
 
@@ -227,12 +232,12 @@ feat: M0 Quick Wins — 포지셔닝 선언, 버전 정합성, 거버넌스 공�
 - `/Users/robin/IdeaProjects/harness/.claude-plugin/marketplace.json`
 - `/Users/robin/IdeaProjects/harness/CHANGELOG.md`
 - `/Users/robin/IdeaProjects/harness/CONTRIBUTING.md`
-- `/Users/robin/IdeaProjects/harness/.github/ISSUE_TEMPLATE/{bug_report,feature_request,question,config}.yml`
+- `/Users/robin/IdeaProjects/harness/.github/ISSUE_TEMPLATE/\{bug_report,feature_request,question,config\}.yml`
 - `/Users/robin/IdeaProjects/harness/.github/PULL_REQUEST_TEMPLATE.md`
 - `/Users/robin/IdeaProjects/harness/docs/experimental-dependency.md`
 - `/Users/robin/IdeaProjects/harness/docs/quickstart.md`
 - `/Users/robin/IdeaProjects/harness/docs/show-hn-launch-kit.md`
 - `/Users/robin/IdeaProjects/harness/_workspace/release/audit-2026-04-18.md`
-- `/Users/robin/IdeaProjects/harness/_workspace/community/issue-{2,3}-reply.md`
+- `/Users/robin/IdeaProjects/harness/_workspace/community/issue-\{2,3\}-reply.md`
 
 감사 커맨드 로그: `git status`, `git diff --stat`, `git diff .claude-plugin/plugin.json`, `git show HEAD:README.md`, 각 파일 Read 도구 호출.

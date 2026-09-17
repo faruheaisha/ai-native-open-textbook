@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/volcengine/MineContext"
-entryUrl: "https://github.com/volcengine/MineContext/blob/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/README.md"
+entryUrl: "https://github.com/volcengine/MineContext/blob/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/frontend/README.md"
+sourceRel: "frontend/README.md"
+rawUrl: "/raw/11-personal-agents/mine-context/frontend/README.md"
+sourceSha256: "15f68e4f2eced5fab838dea2d6ec613228c12f876c228cbcd1e803d6ebdc26be"
+pageSha256: "15f68e4f2eced5fab838dea2d6ec613228c12f876c228cbcd1e803d6ebdc26be"
+contentMode: "local-full"
 zh: ""
 ---
 

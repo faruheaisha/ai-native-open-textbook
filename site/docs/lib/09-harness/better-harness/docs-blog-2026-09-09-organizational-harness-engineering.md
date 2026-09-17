@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/QoderAI/better-harness"
-entryUrl: "https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/README.md"
+entryUrl: "https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/blog/2026-09-09-organizational-harness-engineering.md"
+sourceRel: "docs/blog/2026-09-09-organizational-harness-engineering.md"
+rawUrl: "/raw/09-harness/better-harness/docs/blog/2026-09-09-organizational-harness-engineering.md"
+sourceSha256: "092297b59ece0dd059e82141784f5f44cf7bbf305be3c37eb7e8b772973ff346"
+pageSha256: "092297b59ece0dd059e82141784f5f44cf7bbf305be3c37eb7e8b772973ff346"
+contentMode: "local-full"
 zh: ""
 ---
 

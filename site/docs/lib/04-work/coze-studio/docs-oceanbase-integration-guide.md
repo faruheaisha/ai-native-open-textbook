@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "04-work"
 sourceUrl: "https://github.com/coze-dev/coze-studio"
-entryUrl: "https://github.com/coze-dev/coze-studio/blob/fefb05ff27be1da939612fbf9faf5db62583b8ae/README.md"
+entryUrl: "https://github.com/coze-dev/coze-studio/blob/fefb05ff27be1da939612fbf9faf5db62583b8ae/docs/oceanbase-integration-guide.md"
+sourceRel: "docs/oceanbase-integration-guide.md"
+rawUrl: "/raw/04-work/coze-studio/docs/oceanbase-integration-guide.md"
+sourceSha256: "db75111c4556de44ecee348fda0ac50aec147e590b4f7fe544565a6257b453a4"
+pageSha256: "db75111c4556de44ecee348fda0ac50aec147e590b4f7fe544565a6257b453a4"
+contentMode: "local-full"
 zh: ""
 ---
 

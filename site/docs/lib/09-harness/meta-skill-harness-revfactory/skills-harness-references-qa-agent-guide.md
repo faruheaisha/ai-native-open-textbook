@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/revfactory/harness"
-entryUrl: "https://github.com/revfactory/harness/blob/cceac68ea1d0ad198ef4b7b906cd238375836387/README.md"
+entryUrl: "https://github.com/revfactory/harness/blob/cceac68ea1d0ad198ef4b7b906cd238375836387/skills/harness/references/qa-agent-guide.md"
+sourceRel: "skills/harness/references/qa-agent-guide.md"
+rawUrl: "/raw/09-harness/meta-skill-harness-revfactory/skills/harness/references/qa-agent-guide.md"
+sourceSha256: "4d22939ddb8df52924d7e3acd8daa41a9afc6e9480aa4869194d964ec8891698"
+pageSha256: "4d22939ddb8df52924d7e3acd8daa41a9afc6e9480aa4869194d964ec8891698"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -36,16 +41,16 @@ zh: ""
 
 | 경계면 | 불일치 예시 | 놓치는 이유 |
 |--------|-----------|-----------|
-| API 응답 → 프론트 훅 | API가 `{ projects: [...] }` 반환, 훅이 `SlideProject[]` 기대 | 각각 개별 검증하면 정상, 교차 비교 안 함 |
+| API 응답 → 프론트 훅 | API가 `\{ projects: [...] \}` 반환, 훅이 `SlideProject[]` 기대 | 각각 개별 검증하면 정상, 교차 비교 안 함 |
 | API 응답 필드명 → 타입 정의 | API가 `thumbnailUrl`(camelCase), 타입이 `thumbnail_url`(snake_case) | TypeScript 제네릭으로 캐스팅하면 컴파일러가 못 잡음 |
 | 파일 경로 → 링크 href | 페이지가 `/dashboard/create`에 있는데 링크가 `/create`로 지정 | 파일 구조와 href를 교차 비교하지 않음 |
 | 상태 전이 맵 → 실제 status 업데이트 | 맵에 `generating_template → template_approved` 정의, 코드에서 전환 누락 | 맵 존재 확인만 하고, 모든 업데이트 코드를 추적하지 않음 |
 | API 엔드포인트 → 프론트 훅 | API 존재하지만 대응 훅 없음 (호출 안 됨) | API 목록과 훅 목록을 1:1 매핑하지 않음 |
-| 즉시 응답 → 비동기 결과 | API가 즉시 `{ status }` 반환, 프론트가 `data.failedIndices` 접근 | 동기/비동기 응답 구분 없이 타입만 확인 |
+| 즉시 응답 → 비동기 결과 | API가 즉시 `\{ status \}` 반환, 프론트가 `data.failedIndices` 접근 | 동기/비동기 응답 구분 없이 타입만 확인 |
 
 ### 1-2. 왜 정적 코드 리뷰로 못 잡나
 
-- **TypeScript 제네릭의 한계**: `fetchJson<SlideProject[]>()` — 런타임 응답이 `{ projects: [...] }`여도 컴파일 통과
+- **TypeScript 제네릭의 한계**: `fetchJson<SlideProject[]>()` — 런타임 응답이 `\{ projects: [...] \}`여도 컴파일 통과
 - **`npm run build` 통과 ≠ 정상 동작**: 타입 캐스팅, `any`, 제네릭이 사용되면 빌드는 성공하지만 런타임에 실패
 - **존재 검증 vs 연결 검증의 차이**: "API가 있는가?"와 "API의 응답이 호출측의 기대와 일치하는가?"는 전혀 다른 검증
 
@@ -68,7 +73,7 @@ QA 에이전트에 반드시 포함해야 하는 **교차 비교 검증** 영역
 ```
 
 **특히 주의할 패턴:**
-- 페이지네이션 API: `{ items: [], total, page }` vs 프론트가 배열 기대
+- 페이지네이션 API: `\{ items: [], total, page \}` vs 프론트가 배열 기대
 - snake_case DB 필드 → camelCase API 응답 → 프론트 타입 정의 간 불일치
 - 즉시 응답 (202 Accepted) vs 최종 결과의 shape 차이
 
@@ -233,7 +238,7 @@ description: "QA 검증 전문가. 스펙 준수, 통합 정합성, 디자인 �
 
 | 버그 | 경계면 | 원인 |
 |------|--------|------|
-| `projects?.filter is not a function` | API→훅 | API가 `{projects:[]}` 반환, 훅이 배열 기대 |
+| `projects?.filter is not a function` | API→훅 | API가 `\{projects:[]\}` 반환, 훅이 배열 기대 |
 | 대시보드 모든 링크 404 | 파일경로→href | `/dashboard/` 접두사 누락 |
 | 테마 이미지 안 보임 | API→컴포넌트 | `thumbnailUrl` vs `thumbnail_url` |
 | 테마 선택 저장 안 됨 | API→훅 | select-theme API 존재, 훅 없음 |

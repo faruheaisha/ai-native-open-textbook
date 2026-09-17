@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "08-agents"
 sourceUrl: "https://github.com/microsoft/ai-agents-for-beginners"
-entryUrl: "https://github.com/microsoft/ai-agents-for-beginners/blob/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translations/zh-CN/README.md"
+entryUrl: "https://github.com/microsoft/ai-agents-for-beginners/blob/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translations/zh-CN/02-explore-agentic-frameworks/README.md"
+sourceRel: "translations/zh-CN/02-explore-agentic-frameworks/README.md"
+rawUrl: "/raw/08-agents/microsoft-ai-agents-for-beginners/translations/zh-CN/02-explore-agentic-frameworks/README.md"
+sourceSha256: "0700ab55decca3ec0d10a838be2b8161b12730b692b9a77dc794be94c6e08cf8"
+pageSha256: "0700ab55decca3ec0d10a838be2b8161b12730b692b9a77dc794be94c6e08cf8"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -210,7 +215,7 @@ Microsoft Agent Framework的几个重要核心概念：
     ```python
     def get_weather(location: str) -> str:
         """Get the current weather for a location."""
-        return f"The weather in {location} is sunny, 72\u00b0F."
+        return f"The weather in \{location\} is sunny, 72\u00b0F."
 
     agent = provider.as_agent(
         name="weather_agent",
@@ -234,7 +239,7 @@ Microsoft Agent Framework的几个重要核心概念：
     )
 
     plan = await planner.run("Plan a trip to Paris")
-    result = await executor.run(f"Execute this plan: {plan}")
+    result = await executor.run(f"Execute this plan: \{plan\}")
     ```
 
 - **Azure身份集成**。框架使用`AzureCliCredential`（或`DefaultAzureCredential`）实现安全的无秘钥认证，免除直接管理API密钥的需求。
@@ -342,7 +347,7 @@ Microsoft Foundry Agent Service包括以下核心概念：
     
     # 获取并记录所有消息以查看代理的响应
     messages = project_client.agents.list_messages(thread_id=thread.id)
-    print(f"Messages: {messages}")
+    print(f"Messages: \{messages\}")
     ```
 
     在上述代码中，创建了一个线程。随后向线程发送消息。调用`create_and_process_run`后，请求代理在该线程上执行工作。最后获取消息并记录日志，查看代理的响应。消息显示了用户和代理之间对话的进展。还需了解消息类型可能包括文本、图片或文件，即代理的工作成果可能是图片或文本响应。作为开发者，你可以利用这些信息进一步处理响应或呈现给用户。

@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/deusyu/harness-engineering"
-entryUrl: "https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/README.md"
+entryUrl: "https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/practice/01-ralph-demo/README.md"
+sourceRel: "practice/01-ralph-demo/README.md"
+rawUrl: "/raw/09-harness/deusyu-harness-engineering/practice/01-ralph-demo/README.md"
+sourceSha256: "8b05aeca8ff6d82dc99291de365fa92d65c9b826c2ca5d3c4604213acada7f56"
+pageSha256: "8b05aeca8ff6d82dc99291de365fa92d65c9b826c2ca5d3c4604213acada7f56"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -198,4 +203,4 @@ Plan: 2 steps. Step 1 covers both implementation and tests. Step 2 is manual ver
 
 ## 归档文件
 
-实验原始运行在 `/tmp/ralph-demo`（ephemeral 路径）。为践行"仓库即记录系统"，产物已落盘到本目录：[PROMPT.md](/lib/09-harness/deusyu-harness-engineering/practice-01-ralph-demo-PROMPT)、[ralph.yml](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/practice/01-ralph-demo/ralph.yml)、[wc.py](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/practice/01-ralph-demo/wc.py)、[test_wc.py](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/practice/01-ralph-demo/test_wc.py)（复原件）。各文件来源与复验方式见 [AGENTS.md](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/practice/01-ralph-demo/AGENTS.md)；工具本身的主张与失效场景见 [tools/harnesses/ralph-orchestrator.md](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/tools/harnesses/ralph-orchestrator.md)。
+实验原始运行在 `/tmp/ralph-demo`（ephemeral 路径）。为践行"仓库即记录系统"，产物已落盘到本目录：[PROMPT.md](/lib/09-harness/deusyu-harness-engineering/practice-01-ralph-demo-PROMPT)、[ralph.yml](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/practice/01-ralph-demo/ralph.yml)、[wc.py](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/practice/01-ralph-demo/wc.py)、[test_wc.py](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/practice/01-ralph-demo/test_wc.py)（复原件）。各文件来源与复验方式见 [AGENTS.md](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/practice/01-ralph-demo/AGENTS.md)；工具本身的主张与失效场景见 [tools/harnesses/ralph-orchestrator.md](/lib/09-harness/deusyu-harness-engineering/tools-harnesses-ralph-orchestrator)。

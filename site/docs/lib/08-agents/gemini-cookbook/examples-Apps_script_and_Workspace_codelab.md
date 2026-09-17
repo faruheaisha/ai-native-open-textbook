@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/google-gemini/cookbook"
-entryUrl: "https://github.com/google-gemini/cookbook/blob/a1b990c859a34823c982f70edaff35b830511c64/README.md"
+entryUrl: "https://github.com/google-gemini/cookbook/blob/a1b990c859a34823c982f70edaff35b830511c64/examples/Apps_script_and_Workspace_codelab/README.md"
+sourceRel: "examples/Apps_script_and_Workspace_codelab/README.md"
+rawUrl: "/raw/08-agents/gemini-cookbook/examples/Apps_script_and_Workspace_codelab/README.md"
+sourceSha256: "44ded71d824f66fc21587a70f93258f755c5c0a614143656d0be1b99bdc9e9e7"
+pageSha256: "44ded71d824f66fc21587a70f93258f755c5c0a614143656d0be1b99bdc9e9e7"
+contentMode: "local-full"
 zh: ""
 ---
 

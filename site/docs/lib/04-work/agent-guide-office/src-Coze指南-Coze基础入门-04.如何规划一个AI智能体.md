@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "04-work"
 sourceUrl: "https://github.com/tangshiyegit/agent-guide"
-entryUrl: "https://github.com/tangshiyegit/agent-guide/blob/ae8b2262e7a1e5bd0d466037c6ad9f6037b72c33/README.md"
+entryUrl: "https://github.com/tangshiyegit/agent-guide/blob/ae8b2262e7a1e5bd0d466037c6ad9f6037b72c33/src/Coze指南/Coze基础入门/04.如何规划一个AI智能体.md"
+sourceRel: "src/Coze指南/Coze基础入门/04.如何规划一个AI智能体.md"
+rawUrl: "/raw/04-work/agent-guide-office/src/Coze指南/Coze基础入门/04.如何规划一个AI智能体.md"
+sourceSha256: "b5be5ea1db9fe0fbf6298c6aa7699f91aeea1840afdb5d8a8e123d177b96d9af"
+pageSha256: "b5be5ea1db9fe0fbf6298c6aa7699f91aeea1840afdb5d8a8e123d177b96d9af"
+contentMode: "local-full"
 zh: ""
 ---
 

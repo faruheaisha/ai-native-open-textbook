@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/AlephAITech/DoubaoWorkGuide"
-entryUrl: "https://github.com/AlephAITech/DoubaoWorkGuide/blob/ad7338e8fc889ec082cdfb3fa41fb659520c7174/01-初始豆包工作.md"
+entryUrl: "https://github.com/AlephAITech/DoubaoWorkGuide/blob/ad7338e8fc889ec082cdfb3fa41fb659520c7174/21-一份%20Word，从校对润色到排版交付.md"
+sourceRel: "21-一份 Word，从校对润色到排版交付.md"
+rawUrl: "/raw/04-work/doubaowork-bluebook/21-一份 Word，从校对润色到排版交付.md"
+sourceSha256: "5273667b58d5b7579fed16259ed8f1d29edc67e020e13d7e7254f5164c6dfe7f"
+pageSha256: "5273667b58d5b7579fed16259ed8f1d29edc67e020e13d7e7254f5164c6dfe7f"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -9,6 +9,11 @@ tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering"
 entryUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering/blob/8b2a55d97590363fe50c3cc6b5e833b020a4bb4c/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/09-harness/agentic-harness-engineering/README.md"
+sourceSha256: "cf1706a1e0e2f1f0212a6155d6f40522a3f89e9dc86a6e693bee3dfb2ad8d787"
+pageSha256: "cf1706a1e0e2f1f0212a6155d6f40522a3f89e9dc86a6e693bee3dfb2ad8d787"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -30,7 +35,7 @@ zh: ""
   <img src="/mirror/99/99d2d07baa4540966b9c22202b8dd11e76ceb45c.webp" alt="Agentic Harness Engineering" width="100%">
 
 <p align="left">
-  English | <a href="https://github.com/china-qijizhifeng/agentic-harness-engineering/blob/8b2a55d97590363fe50c3cc6b5e833b020a4bb4c/README_zh.md">简体中文</a>
+  English | <a href="/lib/09-harness/agentic-harness-engineering/README_zh">简体中文</a>
 </p>
 
 ---

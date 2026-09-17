@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "08-agents"
 sourceUrl: "https://github.com/microsoft/ai-agents-for-beginners"
-entryUrl: "https://github.com/microsoft/ai-agents-for-beginners/blob/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translations/zh-CN/README.md"
+entryUrl: "https://github.com/microsoft/ai-agents-for-beginners/blob/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translations/zh-CN/07-planning-design/README.md"
+sourceRel: "translations/zh-CN/07-planning-design/README.md"
+rawUrl: "/raw/08-agents/microsoft-ai-agents-for-beginners/translations/zh-CN/07-planning-design/README.md"
+sourceSha256: "84719c4229d664f26b1c530b13d8869297def33707ac317e3b2f7911dfb71b6e"
+pageSha256: "84719c4229d664f26b1c530b13d8869297def33707ac317e3b2f7911dfb71b6e"
+contentMode: "local-full"
 zh: ""
 ---
 

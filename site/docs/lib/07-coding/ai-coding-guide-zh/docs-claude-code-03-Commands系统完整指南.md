@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh"
-entryUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/README.md"
+entryUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/docs/claude-code/03-Commands系统完整指南.md"
+sourceRel: "docs/claude-code/03-Commands系统完整指南.md"
+rawUrl: "/raw/07-coding/ai-coding-guide-zh/docs/claude-code/03-Commands系统完整指南.md"
+sourceSha256: "b609167b2ddd8a2050c95014a794e8d355619eb4517a4370acd155d8a955af06"
+pageSha256: "b609167b2ddd8a2050c95014a794e8d355619eb4517a4370acd155d8a955af06"
+contentMode: "local-full"
 zh: ""
 ---
 

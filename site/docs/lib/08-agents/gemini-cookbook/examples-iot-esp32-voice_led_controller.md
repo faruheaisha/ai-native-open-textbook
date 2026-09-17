@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/google-gemini/cookbook"
-entryUrl: "https://github.com/google-gemini/cookbook/blob/a1b990c859a34823c982f70edaff35b830511c64/README.md"
+entryUrl: "https://github.com/google-gemini/cookbook/blob/a1b990c859a34823c982f70edaff35b830511c64/examples/iot/esp32/voice_led_controller/README.md"
+sourceRel: "examples/iot/esp32/voice_led_controller/README.md"
+rawUrl: "/raw/08-agents/gemini-cookbook/examples/iot/esp32/voice_led_controller/README.md"
+sourceSha256: "3c00607b2a30bec3097433326c5f14556592dd9ffc9f8893591794c21b76716c"
+pageSha256: "3c00607b2a30bec3097433326c5f14556592dd9ffc9f8893591794c21b76716c"
+contentMode: "local-full"
 zh: ""
 ---
 

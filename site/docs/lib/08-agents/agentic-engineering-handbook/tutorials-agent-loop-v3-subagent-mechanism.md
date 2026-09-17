@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/keyuchen21/agentic-engineering-handbook"
-entryUrl: "https://github.com/keyuchen21/agentic-engineering-handbook/blob/002d5456ac717fb6c4444005c9bb2ceff416d8c7/README.md"
+entryUrl: "https://github.com/keyuchen21/agentic-engineering-handbook/blob/002d5456ac717fb6c4444005c9bb2ceff416d8c7/tutorials/agent-loop/v3-subagent-mechanism.md"
+sourceRel: "tutorials/agent-loop/v3-subagent-mechanism.md"
+rawUrl: "/raw/08-agents/agentic-engineering-handbook/tutorials/agent-loop/v3-subagent-mechanism.md"
+sourceSha256: "7562be803619498440a255f821dcaf78452b4fd55b33285b190c6ba1bbbea0d9"
+pageSha256: "7562be803619498440a255f821dcaf78452b4fd55b33285b190c6ba1bbbea0d9"
+contentMode: "local-full"
 zh: ""
 ---
 

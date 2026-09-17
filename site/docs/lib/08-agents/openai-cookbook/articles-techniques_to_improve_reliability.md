@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/openai/openai-cookbook"
-entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/README.md"
+entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/articles/techniques_to_improve_reliability.md"
+sourceRel: "articles/techniques_to_improve_reliability.md"
+rawUrl: "/raw/08-agents/openai-cookbook/articles/techniques_to_improve_reliability.md"
+sourceSha256: "6df259b8b4a91413ebda7b10b121935586d2d3c4189faad45b213b9c49054993"
+pageSha256: "6df259b8b4a91413ebda7b10b121935586d2d3c4189faad45b213b9c49054993"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -411,7 +416,7 @@ In addition to doing poorly on long reasoning chains (where selection-inference 
 
 #### Method
 
-Least-to-most prompting is another technique that splits up reasoning tasks into smaller, more reliable subtasks. The idea is to elicit a subtask from the model by prompting it with something like `To solve {question}, we need to first solve: "`. Then, with that subtask in hand, the model can generate a solution. The solution is appended to the original question and the process is repeated until a final answer is produced.
+Least-to-most prompting is another technique that splits up reasoning tasks into smaller, more reliable subtasks. The idea is to elicit a subtask from the model by prompting it with something like `To solve \{question\}, we need to first solve: "`. Then, with that subtask in hand, the model can generate a solution. The solution is appended to the original question and the process is repeated until a final answer is produced.
 
 [![Least-to-most prompting](/mirror/c1/c1926df5b032cfa15b668bfacf7f83ab1cd76bc0.webp)
 <br>Source: _Least-to-most Prompting Enables Complex Reasoning in Large Language Models_ by Denny Zhou et al. (2022)](https://arxiv.org/abs/2205.10625)
@@ -447,7 +452,7 @@ The method is complicated, and works as follows:
 - First, build a maieutic tree, where each node is a statement that could be true or false:
   - Start with a multiple-choice question or true/false statement (e.g. `War cannot have a tie`)
   - For each possible answer to the question, use the model to generate a corresponding explanation (with a prompt like `War cannot have a tie? True, because`)
-  - Then, prompt the model with the question and the generated explanation, and ask it to produce the answer. If reversing the explanation (with a prefix like `It is wrong to say that {explanation}`) reverses the answer, then the explanation is considered 'logically integral.'
+  - Then, prompt the model with the question and the generated explanation, and ask it to produce the answer. If reversing the explanation (with a prefix like `It is wrong to say that \{explanation\}`) reverses the answer, then the explanation is considered 'logically integral.'
   - If an explanation is not logically integral, then repeat the above process recursively, with each explanation turned into a True or False question, and generate more explanations for each new question.
   - After all of the recursive explaining is done, you end up with a tree of explanations, where each leaf on the tree has the property that reversing the explanation reverses the model's answer.
 - Second, convert the tree into a graph of relations:

@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh"
-entryUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/README.md"
+entryUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/docs/claude-code/06-Subagent子代理完整指南.md"
+sourceRel: "docs/claude-code/06-Subagent子代理完整指南.md"
+rawUrl: "/raw/07-coding/ai-coding-guide-zh/docs/claude-code/06-Subagent子代理完整指南.md"
+sourceSha256: "cdc97bfcdea3d2f281a4725af4db1380ca59c27f1c522aed80855a05a94c089c"
+pageSha256: "cdc97bfcdea3d2f281a4725af4db1380ca59c27f1c522aed80855a05a94c089c"
+contentMode: "local-full"
 zh: ""
 ---
 

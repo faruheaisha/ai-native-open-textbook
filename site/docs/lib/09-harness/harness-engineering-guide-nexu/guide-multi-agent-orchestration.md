@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/nexu-io/harness-engineering-guide"
-entryUrl: "https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/README.md"
+entryUrl: "https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/multi-agent-orchestration.md"
+sourceRel: "guide/multi-agent-orchestration.md"
+rawUrl: "/raw/09-harness/harness-engineering-guide-nexu/guide/multi-agent-orchestration.md"
+sourceSha256: "de3b5781c60f1977c4e4c76caafaf2ca8fed487e996553f669c044a46282cd64"
+pageSha256: "de3b5781c60f1977c4e4c76caafaf2ca8fed487e996553f669c044a46282cd64"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -16,7 +21,7 @@ zh: ""
 
 > **Core Insight:** A single agent hits hard limits — context window size, domain specialization, and serial execution. Multi-agent orchestration breaks work across multiple agents, each with its own context and tools, coordinated by patterns borrowed from distributed systems.
 
-The [Sub-Agent](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/sub-agent.md) article covers the simplest case: one leader spawning workers for parallel tasks. This article goes further — orchestration patterns for systems where multiple agents collaborate, specialize, and scale.
+The [Sub-Agent](/lib/09-harness/harness-engineering-guide-nexu/guide-sub-agent) article covers the simplest case: one leader spawning workers for parallel tasks. This article goes further — orchestration patterns for systems where multiple agents collaborate, specialize, and scale.
 
 ## Why Multi-Agent?
 
@@ -109,7 +114,7 @@ Agents communicate directly with each other without a central coordinator. Each 
 
 ## Implementation in a Harness
 
-A Harness (the host program that wraps an LLM into a working agent — see [What Is a Harness](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/what-is-harness.md)) implements multi-agent orchestration through four mechanisms: sub-agent spawning, context isolation, parent-reads-child communication, and timeout handling.
+A Harness (the host program that wraps an LLM into a working agent — see [What Is a Harness](/lib/09-harness/harness-engineering-guide-nexu/guide-what-is-harness)) implements multi-agent orchestration through four mechanisms: sub-agent spawning, context isolation, parent-reads-child communication, and timeout handling.
 
 ### Sub-Agent Spawning
 
@@ -314,11 +319,11 @@ Splitting a 30-second task into 5 sub-agents, each taking 15 seconds of overhead
 | Debate or multi-perspective analysis | Peer-to-Peer | Agents represent distinct viewpoints |
 | Mix of parallel and sequential work | Supervisor + Fan-Out | Supervisor decides when to parallelize |
 
-Start with the simplest pattern that works. A single agent with good tool use handles 80% of tasks. When you hit the limits described in [Why Multi-Agent?](#why-multi-agent), reach for the lightest orchestration pattern that solves the specific bottleneck. The [Sub-Agent](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/sub-agent.md) article covers the simplest delegation pattern — start there before building a full orchestration layer.
+Start with the simplest pattern that works. A single agent with good tool use handles 80% of tasks. When you hit the limits described in [Why Multi-Agent?](#why-multi-agent), reach for the lightest orchestration pattern that solves the specific bottleneck. The [Sub-Agent](/lib/09-harness/harness-engineering-guide-nexu/guide-sub-agent) article covers the simplest delegation pattern — start there before building a full orchestration layer.
 
 ## Further Reading
 
-- [Sub-Agent](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/sub-agent.md) — The foundational delegation pattern for single leader, multiple workers
+- [Sub-Agent](/lib/09-harness/harness-engineering-guide-nexu/guide-sub-agent) — The foundational delegation pattern for single leader, multiple workers
 - [Agentic Loop](/lib/09-harness/harness-engineering-guide-nexu/guide-agentic-loop) — The core execution cycle that each agent runs internally
 - [Context Engineering](/lib/09-harness/harness-engineering-guide-nexu/guide-context-engineering) — Managing what goes into each agent's context window
 - [Anthropic: Building Effective Agents](https://www.anthropic.com/research/building-effective-agents) — Patterns for multi-agent coordination

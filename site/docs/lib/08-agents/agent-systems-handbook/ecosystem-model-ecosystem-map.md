@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "08-agents"
 sourceUrl: "https://github.com/Prompthon-IO/agent-systems-handbook"
-entryUrl: "https://github.com/Prompthon-IO/agent-systems-handbook/blob/5b71cfa598701a34834f33b42be5f8a422138a3c/README.md"
+entryUrl: "https://github.com/Prompthon-IO/agent-systems-handbook/blob/5b71cfa598701a34834f33b42be5f8a422138a3c/ecosystem/model-ecosystem-map.mdx"
+sourceRel: "ecosystem/model-ecosystem-map.mdx"
+rawUrl: "/raw/08-agents/agent-systems-handbook/ecosystem/model-ecosystem-map.mdx"
+sourceSha256: "49bb3b3e01fd9d849f79785bfd2c2eb82fa840ce95f1d53a73a7ef259183086c"
+pageSha256: "49bb3b3e01fd9d849f79785bfd2c2eb82fa840ce95f1d53a73a7ef259183086c"
+contentMode: "local-full"
 zh: ""
 ---
 

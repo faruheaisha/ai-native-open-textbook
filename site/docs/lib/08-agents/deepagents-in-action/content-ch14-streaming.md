@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/datawhalechina/deepagents-in-action"
-entryUrl: "https://github.com/datawhalechina/deepagents-in-action/blob/4097ff944f9ffa1bdfe2dd04f751f4416b058860/README.md"
+entryUrl: "https://github.com/datawhalechina/deepagents-in-action/blob/4097ff944f9ffa1bdfe2dd04f751f4416b058860/content/ch14-streaming.md"
+sourceRel: "content/ch14-streaming.md"
+rawUrl: "/raw/08-agents/deepagents-in-action/content/ch14-streaming.md"
+sourceSha256: "a54c8edcc12abf03ddf2f1cc13e3cf5fe4a250cf6f3e333d9e6aa29fae73dd91"
+pageSha256: "a54c8edcc12abf03ddf2f1cc13e3cf5fe4a250cf6f3e333d9e6aa29fae73dd91"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -515,7 +520,7 @@ for chunk in agent.stream(
 
 | `type` | `chunk["data"]` 常见形状 | 需要继续解读的字段 |
 | --- | --- | --- |
-| `updates` | `{node_name: state_update}` | `node_name` 是图节点名；`state_update` 的 schema 由节点决定 |
+| `updates` | `\{node_name: state_update\}` | `node_name` 是图节点名；`state_update` 的 schema 由节点决定 |
 | `messages` | `(token, metadata)` | `token.content` 是文本；工具调用还要看 `token.tool_call_chunks`，来源要结合 `chunk["ns"]` |
 | `custom` | 工具通过 writer 写入的任意对象 | 只按应用自定义 schema 解析，框架不会替你验证 |
 

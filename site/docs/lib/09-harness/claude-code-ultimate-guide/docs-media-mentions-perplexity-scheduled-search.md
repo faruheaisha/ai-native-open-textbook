@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide"
-entryUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/README.md"
+entryUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/docs/media-mentions/perplexity-scheduled-search.md"
+sourceRel: "docs/media-mentions/perplexity-scheduled-search.md"
+rawUrl: "/raw/09-harness/claude-code-ultimate-guide/docs/media-mentions/perplexity-scheduled-search.md"
+sourceSha256: "06d2ac2b2dbc72752da48ddc37b9607fad7386cf30da14916da5bbd58ebe8b9b"
+pageSha256: "06d2ac2b2dbc72752da48ddc37b9607fad7386cf30da14916da5bbd58ebe8b9b"
+contentMode: "local-full"
 zh: ""
 ---
 

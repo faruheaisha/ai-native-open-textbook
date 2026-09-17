@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/Shubhamsaboo/awesome-llm-apps"
-entryUrl: "https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/README.md"
+entryUrl: "https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/multi_agent_apps/agent_teams/ai_services_agency/README.md"
+sourceRel: "advanced_ai_agents/multi_agent_apps/agent_teams/ai_services_agency/README.md"
+rawUrl: "/raw/08-agents/awesome-llm-apps/advanced_ai_agents/multi_agent_apps/agent_teams/ai_services_agency/README.md"
+sourceSha256: "a253bf50b6b5ef65c50cd896d637d41a4f11acf2e14f74328352d8cb54a71838"
+pageSha256: "a253bf50b6b5ef65c50cd896d637d41a4f11acf2e14f74328352d8cb54a71838"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/patchy631/ai-engineering-hub"
-entryUrl: "https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/README.md"
+entryUrl: "https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/ai-engineering-roadmap/README.md"
+sourceRel: "ai-engineering-roadmap/README.md"
+rawUrl: "/raw/10-context-memory/ai-engineering-hub/ai-engineering-roadmap/README.md"
+sourceSha256: "e2f9728f7c0e50fab6235321b3d94b4892153f6683ad239008fd9855b1e42bd0"
+pageSha256: "e2f9728f7c0e50fab6235321b3d94b4892153f6683ad239008fd9855b1e42bd0"
+contentMode: "local-full"
 zh: ""
 ---
 

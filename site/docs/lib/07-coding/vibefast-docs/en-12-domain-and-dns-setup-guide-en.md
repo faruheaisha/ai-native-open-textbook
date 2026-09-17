@@ -8,13 +8,18 @@ lang: "英文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/vibefast-app/vibefast-docs"
-entryUrl: "https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/README.md"
+entryUrl: "https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/12-domain-and-dns-setup-guide-en.md"
+sourceRel: "en/12-domain-and-dns-setup-guide-en.md"
+rawUrl: "/raw/07-coding/vibefast-docs/en/12-domain-and-dns-setup-guide-en.md"
+sourceSha256: "16a4a40f6335315a5f3e02bb481c737e21eaa49928ab5d119127284bbb0ddff0"
+pageSha256: "16a4a40f6335315a5f3e02bb481c737e21eaa49928ab5d119127284bbb0ddff0"
+contentMode: "local-full"
 zh: ""
 ---
 
 # What is a Domain and DNS? What to Do After Buying a Domain
 
-[English](/lib/07-coding/vibefast-docs/en-12-domain-and-dns-setup-guide-en) · [繁中](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/zh/12-domain-and-dns-setup-guide-zh.md) · [Español](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/es/12-domain-and-dns-setup-guide-es.md) · [日本語](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/jp/12-domain-and-dns-setup-guide-jp.md) · [Português (BR)](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/pt-br/12-domain-and-dns-setup-guide-pt-br.md)
+[English](/lib/07-coding/vibefast-docs/en-12-domain-and-dns-setup-guide-en) · [繁中](/lib/07-coding/vibefast-docs/zh-12-domain-and-dns-setup-guide-zh) · [Español](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/es/12-domain-and-dns-setup-guide-es.md) · [日本語](/lib/07-coding/vibefast-docs/jp-12-domain-and-dns-setup-guide-jp) · [Português (BR)](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/pt-br/12-domain-and-dns-setup-guide-pt-br.md)
 
 **Author:** Danko Peng ([@dankopeng](https://x.com/dankopeng))  
 **Updated:** March 2026  

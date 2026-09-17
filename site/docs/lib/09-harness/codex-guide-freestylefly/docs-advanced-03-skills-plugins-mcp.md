@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/freestylefly/CodexGuide"
-entryUrl: "https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/README.md"
+entryUrl: "https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/advanced/03-skills-plugins-mcp.md"
+sourceRel: "docs/advanced/03-skills-plugins-mcp.md"
+rawUrl: "/raw/09-harness/codex-guide-freestylefly/docs/advanced/03-skills-plugins-mcp.md"
+sourceSha256: "e8c5894219c5e712fa2804cab7dd0e1b6fce9f5d24ce7d30318848fea91ab61f"
+pageSha256: "e8c5894219c5e712fa2804cab7dd0e1b6fce9f5d24ce7d30318848fea91ab61f"
+contentMode: "local-full"
 zh: ""
 ---
 

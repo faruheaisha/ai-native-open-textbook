@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "01-foundations"
 sourceUrl: "https://github.com/microsoft/generative-ai-for-beginners"
-entryUrl: "https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/README.md"
+entryUrl: "https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/04-prompt-engineering-fundamentals/README.md"
+sourceRel: "04-prompt-engineering-fundamentals/README.md"
+rawUrl: "/raw/01-foundations/microsoft-generative-ai-for-beginners/04-prompt-engineering-fundamentals/README.md"
+sourceSha256: "cb859f174d8a08f99b3d0b29b71f0ff5746f20648592bf1d60ecb38991da1f5b"
+pageSha256: "cb859f174d8a08f99b3d0b29b71f0ff5746f20648592bf1d60ecb38991da1f5b"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -206,10 +211,10 @@ The request is now in the form below, where the _tokenization_ effectively captu
 response = client.responses.create(
     model="gpt-5-mini",
     input=[
-        {"role": "system", "content": "You are a helpful assistant."},
-        {"role": "user", "content": "Who won the world series in 2020?"},
-        {"role": "assistant", "content": "The Los Angeles Dodgers won the World Series in 2020."},
-        {"role": "user", "content": "Where was it played?"}
+        \{"role": "system", "content": "You are a helpful assistant."\},
+        \{"role": "user", "content": "Who won the world series in 2020?"\},
+        \{"role": "assistant", "content": "The Los Angeles Dodgers won the World Series in 2020."\},
+        \{"role": "user", "content": "Where was it played?"\}
     ]
 )
 ```

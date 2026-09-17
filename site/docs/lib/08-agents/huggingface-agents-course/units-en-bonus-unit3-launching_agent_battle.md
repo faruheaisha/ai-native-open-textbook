@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "08-agents"
 sourceUrl: "https://github.com/huggingface/agents-course"
-entryUrl: "https://github.com/huggingface/agents-course/blob/b3946b1d09d29c65736e219d48a8a736a2c52154/README.md"
+entryUrl: "https://github.com/huggingface/agents-course/blob/b3946b1d09d29c65736e219d48a8a736a2c52154/units/en/bonus-unit3/launching_agent_battle.mdx"
+sourceRel: "units/en/bonus-unit3/launching_agent_battle.mdx"
+rawUrl: "/raw/08-agents/huggingface-agents-course/units/en/bonus-unit3/launching_agent_battle.mdx"
+sourceSha256: "d3d6d86e2d53668a8097890823a81a5fc942d01339233c0f5b9da01e35ccf880"
+pageSha256: "d3d6d86e2d53668a8097890823a81a5fc942d01339233c0f5b9da01e35ccf880"
+contentMode: "local-full"
 zh: ""
 ---
 

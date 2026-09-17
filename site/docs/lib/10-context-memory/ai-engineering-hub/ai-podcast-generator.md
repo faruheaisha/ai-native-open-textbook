@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/patchy631/ai-engineering-hub"
-entryUrl: "https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/README.md"
+entryUrl: "https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/ai-podcast-generator/README.md"
+sourceRel: "ai-podcast-generator/README.md"
+rawUrl: "/raw/10-context-memory/ai-engineering-hub/ai-podcast-generator/README.md"
+sourceSha256: "40ffe244da81a5b5d97215b469d02ed4c5e2c40b37cd27a0e97d59e814005026"
+pageSha256: "40ffe244da81a5b5d97215b469d02ed4c5e2c40b37cd27a0e97d59e814005026"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/microsoft/AI-Engineering-Coach"
-entryUrl: "https://github.com/microsoft/AI-Engineering-Coach/blob/18b1a3d16b586c171426c6a407cc5c2dc073556e/README.md"
+entryUrl: "https://github.com/microsoft/AI-Engineering-Coach/blob/18b1a3d16b586c171426c6a407cc5c2dc073556e/docs/content/improve/rule-playground.md"
+sourceRel: "docs/content/improve/rule-playground.md"
+rawUrl: "/raw/08-agents/microsoft-ai-engineering-coach/docs/content/improve/rule-playground.md"
+sourceSha256: "ff7a1821f95acc63e5899f458b51110af829a0aeabfdc879c11b5a97f9488638"
+pageSha256: "ff7a1821f95acc63e5899f458b51110af829a0aeabfdc879c11b5a97f9488638"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/lopopolo/harness-engineering"
-entryUrl: "https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/README.md"
+entryUrl: "https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/docs/domain-modeling/hyperbola.md"
+sourceRel: "docs/domain-modeling/hyperbola.md"
+rawUrl: "/raw/09-harness/harness-engineering-anthology/docs/domain-modeling/hyperbola.md"
+sourceSha256: "9d906d2e7844f86380c8e9677dfdfd1d6b4e65a29eb5e26c50881eac32760195"
+pageSha256: "9d906d2e7844f86380c8e9677dfdfd1d6b4e65a29eb5e26c50881eac32760195"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -68,4 +73,4 @@ Source: Ryan Lopopolo, [“Harness Engineering the Blog Build (Again)”]. Snaps
 [“Harness Engineering the Blog Build (Again)”]:
   https://hyperbo.la/w/harness-engineering-the-blog-build/
 [`sources/raw/hyperbola/harness-engineering-the-blog-build.mdx`]:
-  https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/sources/raw/hyperbola/harness-engineering-the-blog-build.mdx
+  /lib/09-harness/harness-engineering-anthology/sources-raw-hyperbola-harness-engineering-the-blog-build

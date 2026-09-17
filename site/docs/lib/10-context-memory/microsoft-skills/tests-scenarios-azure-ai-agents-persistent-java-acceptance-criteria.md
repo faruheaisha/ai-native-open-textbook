@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/microsoft/skills"
-entryUrl: "https://github.com/microsoft/skills/blob/cf77b1efbf3117501f4727c476894751311ee885/README.md"
+entryUrl: "https://github.com/microsoft/skills/blob/cf77b1efbf3117501f4727c476894751311ee885/tests/scenarios/azure-ai-agents-persistent-java/acceptance-criteria.md"
+sourceRel: "tests/scenarios/azure-ai-agents-persistent-java/acceptance-criteria.md"
+rawUrl: "/raw/10-context-memory/microsoft-skills/tests/scenarios/azure-ai-agents-persistent-java/acceptance-criteria.md"
+sourceSha256: "920ed03f3464eeee1027e836d6be3e2c8494d79c6887b7c25b34cae84422772c"
+pageSha256: "920ed03f3464eeee1027e836d6be3e2c8494d79c6887b7c25b34cae84422772c"
+contentMode: "local-full"
 zh: ""
 ---
 

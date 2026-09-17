@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/CCCpan/ai-api-integration"
-entryUrl: "https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/README.md"
+entryUrl: "https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/docs/tools/llamaindex-setup.md"
+sourceRel: "docs/tools/llamaindex-setup.md"
+rawUrl: "/raw/07-coding/ai-api-integration/docs/tools/llamaindex-setup.md"
+sourceSha256: "618cd17911a56ac6e54546e55e160f85554fce29911a3158c3b26467d6f84fe5"
+pageSha256: "618cd17911a56ac6e54546e55e160f85554fce29911a3158c3b26467d6f84fe5"
+contentMode: "local-full"
 zh: ""
 ---
 

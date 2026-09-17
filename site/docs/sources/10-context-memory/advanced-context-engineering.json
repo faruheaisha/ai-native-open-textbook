@@ -1,0 +1,18 @@
+{
+  "id": "10-context-memory/advanced-context-engineering",
+  "volume": "10-context-memory",
+  "local": "advanced-context-engineering",
+  "title": "humanlayer/advanced-context-engineering-for-coding-agents",
+  "kind": "工程手册",
+  "license": "未声明",
+  "licenseLabel": "仅引用",
+  "licenseNote": "不可整篇转载，站内只做导航与引用",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": false,
+  "repo": "humanlayer/advanced-context-engineering-for-coding-agents",
+  "site": null,
+  "commit": "f2bc7aec4575418d2d2e83fec078266cc56d3e6a",
+  "entryUrl": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/f2bc7aec4575418d2d2e83fec078266cc56d3e6a/ace-fca.md",
+  "docs": 6
+}

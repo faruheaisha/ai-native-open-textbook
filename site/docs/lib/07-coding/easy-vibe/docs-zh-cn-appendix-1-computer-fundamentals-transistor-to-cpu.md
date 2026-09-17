@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/datawhalechina/easy-vibe"
-entryUrl: "https://github.com/datawhalechina/easy-vibe/blob/130e9b75b28b524e8cc74e615fd9733a4e2b330d/README.md"
+entryUrl: "https://github.com/datawhalechina/easy-vibe/blob/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/appendix/1-computer-fundamentals/transistor-to-cpu.md"
+sourceRel: "docs/zh-cn/appendix/1-computer-fundamentals/transistor-to-cpu.md"
+rawUrl: "/raw/07-coding/easy-vibe/docs/zh-cn/appendix/1-computer-fundamentals/transistor-to-cpu.md"
+sourceSha256: "ba8960a80423667132f26e23fd942919c143ed9d8c42462697ded9fbf1e28af0"
+pageSha256: "ba8960a80423667132f26e23fd942919c143ed9d8c42462697ded9fbf1e28af0"
+contentMode: "local-full"
 zh: ""
 ---
 

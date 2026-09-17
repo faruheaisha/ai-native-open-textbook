@@ -1,0 +1,57 @@
+---
+title: "Introduction to Model Context Protocol"
+sourceId: "10-context-memory/hf-context-course"
+sourceTitle: "The Context Course"
+sourceKind: "系统课程"
+licenseLabel: "仅引用"
+lang: "英文"
+tier: 1
+volume: "10-context-memory"
+sourceUrl: "https://github.com/huggingface/context-course"
+entryUrl: "https://github.com/huggingface/context-course/blob/0448a7ca721a63a81531e1ba94f46f897c70645b/units/en/unit2/introduction.mdx"
+sourceRel: "units/en/unit2/introduction.mdx"
+rawUrl: "/raw/10-context-memory/hf-context-course/units/en/unit2/introduction.mdx"
+sourceSha256: "f467f054b81f069e23dcfc7b4c62790f626937ac6f3e03ab0c35f893d19fe485"
+pageSha256: "f467f054b81f069e23dcfc7b4c62790f626937ac6f3e03ab0c35f893d19fe485"
+contentMode: "local-full"
+zh: ""
+---
+
+# Introduction to Model Context Protocol
+
+Model Context Protocol (MCP) is an open standard for letting AI applications interact with external data and tools. It sits between your agent and everything else: files, databases, APIs, services.
+
+Unit 1 covered skills which are static, pre-written context that lives alongside your project. Skills are great for fixed knowledge, but they can't fetch new information or take live actions. MCP fills that gap by giving an agent **dynamic context**: it can call functions, read files, query databases, and interact with APIs through a single protocol.
+
+## The M×N Problem
+
+Imagine you want to build an AI agent that can:
+- Read files from your local system
+- Query your company's database
+- Call Slack APIs
+- Access Jira tickets
+- Search a knowledge base
+
+Without a standard protocol, you'd need to write custom integration code for every combination of agent + data source. That's an M×N problem: N agents × M data sources = N×M custom integrations.
+
+MCP eliminates this. You write your data sources as MCP servers once, and they work with any MCP-compatible agent. One adapter, infinite reuse.
+
+## MCP as Universal Adapter
+
+From a learner's point of view, MCP gives you one consistent way to expose tools, resources, and prompts to agents. The important idea in this intro is simple: build the integration once, then reuse it across compatible agents.
+
+We'll unpack the precise vocabulary in the next lesson: host, client, server, capability types, and the JSON-RPC messages underneath. For now, keep the outcome in mind rather than the wire format.
+
+## Skills + MCP
+
+It's important to mention that MCP was built before skills and in many ways, skills have consumed some of MCP's functionality. However, MCP is still a powerful tool for extending your agent's capabilities, especially under authentication scenarios.
+
+**Skills** are perfect for teaching an AI how to do something (write prompts, analyze emails, code style guidelines).
+
+**MCP** is perfect for giving an AI the ability to do something (read files, call APIs, query databases).
+
+You'll often use both: Skills provide the knowledge, MCP provides the tools and data.
+
+## What You'll Build
+
+This unit covers MCP architecture (hosts, clients, servers, and the three capability types), building servers with FastMCP and Gradio, configuring agents as MCP clients, deploying to Hugging Face Spaces, and a hands-on project tying it together.

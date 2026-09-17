@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/ranxi2001/zero2Agent"
-entryUrl: "https://github.com/ranxi2001/zero2Agent/blob/46e9f7c28f84f54b2f6e45681d14989f01e18291/README.md"
+entryUrl: "https://github.com/ranxi2001/zero2Agent/blob/46e9f7c28f84f54b2f6e45681d14989f01e18291/final-project/10-stt-speech/index.md"
+sourceRel: "final-project/10-stt-speech/index.md"
+rawUrl: "/raw/08-agents/zero2agent/final-project/10-stt-speech/index.md"
+sourceSha256: "6675dd973991b996d0ab3e5818028dd425ebd660dc8a48d97a8425ca17f53725"
+pageSha256: "6675dd973991b996d0ab3e5818028dd425ebd660dc8a48d97a8425ca17f53725"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/addyosmani/agent-skills"
-entryUrl: "https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/README.md"
+entryUrl: "https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/docs/windsurf-setup.md"
+sourceRel: "docs/windsurf-setup.md"
+rawUrl: "/raw/10-context-memory/agent-skills-addyosmani/docs/windsurf-setup.md"
+sourceSha256: "1410af016060047d1a265365f8d98aadd00a58bcfa2a048edec06d61d337cd97"
+pageSha256: "1410af016060047d1a265365f8d98aadd00a58bcfa2a048edec06d61d337cd97"
+contentMode: "local-full"
 zh: ""
 ---
 

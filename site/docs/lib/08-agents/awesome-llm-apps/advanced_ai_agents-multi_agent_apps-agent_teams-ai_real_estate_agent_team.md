@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/Shubhamsaboo/awesome-llm-apps"
-entryUrl: "https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/README.md"
+entryUrl: "https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/multi_agent_apps/agent_teams/ai_real_estate_agent_team/README.md"
+sourceRel: "advanced_ai_agents/multi_agent_apps/agent_teams/ai_real_estate_agent_team/README.md"
+rawUrl: "/raw/08-agents/awesome-llm-apps/advanced_ai_agents/multi_agent_apps/agent_teams/ai_real_estate_agent_team/README.md"
+sourceSha256: "34320aa90fca08712d2931009b13f074ade619176e5aa25ff43871653c31a0ca"
+pageSha256: "34320aa90fca08712d2931009b13f074ade619176e5aa25ff43871653c31a0ca"
+contentMode: "local-full"
 zh: ""
 ---
 

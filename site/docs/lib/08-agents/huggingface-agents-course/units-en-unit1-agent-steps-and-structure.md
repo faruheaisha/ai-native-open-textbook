@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "08-agents"
 sourceUrl: "https://github.com/huggingface/agents-course"
-entryUrl: "https://github.com/huggingface/agents-course/blob/b3946b1d09d29c65736e219d48a8a736a2c52154/README.md"
+entryUrl: "https://github.com/huggingface/agents-course/blob/b3946b1d09d29c65736e219d48a8a736a2c52154/units/en/unit1/agent-steps-and-structure.mdx"
+sourceRel: "units/en/unit1/agent-steps-and-structure.mdx"
+rawUrl: "/raw/08-agents/huggingface-agents-course/units/en/unit1/agent-steps-and-structure.mdx"
+sourceSha256: "36969388706c9ee7f0d2b0b730b4eca2f4eb19fe55b48c8fd0649572e120209f"
+pageSha256: "36969388706c9ee7f0d2b0b730b4eca2f4eb19fe55b48c8fd0649572e120209f"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -91,12 +96,12 @@ Based on its reasoning and the fact that Alfred knows about a `get_weather` tool
 Thought: I need to check the current weather for New York.
 
  ```
-    {
+    \{
       "action": "get_weather",
-      "action_input": {
+      "action_input": \{
         "location": "New York"
-      }
-    }
+      \}
+    \}
  ```
 
 Here, the action clearly specifies which tool to call (e.g., get_weather) and what parameter to pass (the “location": “New York”).

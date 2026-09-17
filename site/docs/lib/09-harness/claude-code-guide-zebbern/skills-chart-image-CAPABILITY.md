@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/zebbern/claude-code-guide"
-entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/README.md"
+entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/skills/chart-image/CAPABILITY.md"
+sourceRel: "skills/chart-image/CAPABILITY.md"
+rawUrl: "/raw/09-harness/claude-code-guide-zebbern/skills/chart-image/CAPABILITY.md"
+sourceSha256: "7bcccfc26a78909424f6c8646bd8eb8dc1fdc938c04141f9688861d431e1c9d5"
+pageSha256: "7bcccfc26a78909424f6c8646bd8eb8dc1fdc938c04141f9688861d431e1c9d5"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -48,7 +53,7 @@ node /data/clawd/skills/chart-image/scripts/chart.mjs \
   --output /tmp/chart-${Date.now()}.png
 ```
 
-**Output:** `{ path: string }` - Path to the generated PNG file
+**Output:** `\{ path: string \}` - Path to the generated PNG file
 
 ---
 
@@ -76,7 +81,7 @@ node /data/clawd/skills/chart-image/scripts/chart.mjs \
   --output /tmp/chart-${Date.now()}.png
 ```
 
-**Output:** `{ path: string }` - Path to the generated PNG file
+**Output:** `\{ path: string \}` - Path to the generated PNG file
 
 ---
 
@@ -96,7 +101,7 @@ node /data/clawd/skills/chart-image/scripts/chart.mjs \
   --output /tmp/chart-${Date.now()}.png
 ```
 
-**Output:** `{ path: string }` - Path to the generated PNG file
+**Output:** `\{ path: string \}` - Path to the generated PNG file
 
 ---
 

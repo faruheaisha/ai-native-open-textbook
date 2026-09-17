@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/deepseek-ai/deepseek-harness"
-entryUrl: "https://github.com/deepseek-ai/deepseek-harness/blob/c291e7961a515f6d7af9304e7fd1d257929aef26/README.md"
+entryUrl: "https://github.com/deepseek-ai/deepseek-harness/blob/c291e7961a515f6d7af9304e7fd1d257929aef26/docs/postmortem/README.md"
+sourceRel: "docs/postmortem/README.md"
+rawUrl: "/raw/09-harness/deepseek-harness/docs/postmortem/README.md"
+sourceSha256: "2329bb4714a4e38be7e849c0692c595e97176977530bba44660cddef7f92d900"
+pageSha256: "2329bb4714a4e38be7e849c0692c595e97176977530bba44660cddef7f92d900"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -18,7 +23,7 @@ English | [中文](/lib/09-harness/deepseek-harness/docs-postmortem-README.zh)
 
 Incident write-ups: a bug reached a place it shouldn't have (a real user, a merged PR, a release), and the interesting part is *why our process let it through*, not just the one-line fix.
 
-A post-mortem is NOT an [Agent Note](https://github.com/deepseek-ai/deepseek-harness/blob/c291e7961a515f6d7af9304e7fd1d257929aef26/.agents/notes/README.md) (which records a deliberate design decision and its rejected alternatives, or proposes future work). It is a backward-looking record of a failure: what broke, the mechanism, why every safety net missed it, and the concrete guardrails added so the same class of bug fails loudly next time.
+A post-mortem is NOT an [Agent Note](/lib/09-harness/deepseek-harness/_agents-notes) (which records a deliberate design decision and its rejected alternatives, or proposes future work). It is a backward-looking record of a failure: what broke, the mechanism, why every safety net missed it, and the concrete guardrails added so the same class of bug fails loudly next time.
 
 Write one when a bug is **subtle** (the mechanism is non-obvious and a careful engineer would re-derive it the hard way), **systemic** (the reason it escaped is a gap in tests/tooling/conventions, not a one-off typo), and **costly to rediscover** (it cost real debugging time, and would cost it again). Link the guardrails (tests, AGENTS.md rules, ADRs) the post-mortem motivated.
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/luongnv89/claude-howto"
-entryUrl: "https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/README.md"
+entryUrl: "https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/01-slash-commands/unit-test-expand.md"
+sourceRel: "01-slash-commands/unit-test-expand.md"
+rawUrl: "/raw/09-harness/claude-howto/01-slash-commands/unit-test-expand.md"
+sourceSha256: "bb5809f29469fc919da84aed6349948938943703188518ebe3f4c82e94ac8a73"
+pageSha256: "bb5809f29469fc919da84aed6349948938943703188518ebe3f4c82e94ac8a73"
+contentMode: "local-full"
 zh: ""
 ---
 

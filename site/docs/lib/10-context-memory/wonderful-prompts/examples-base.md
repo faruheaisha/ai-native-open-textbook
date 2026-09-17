@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/langgptai/wonderful-prompts"
-entryUrl: "https://github.com/langgptai/wonderful-prompts/blob/c8e5dbd3bc01740728fd1ab8f8d4f654a17e3697/README.md"
+entryUrl: "https://github.com/langgptai/wonderful-prompts/blob/c8e5dbd3bc01740728fd1ab8f8d4f654a17e3697/examples/base.md"
+sourceRel: "examples/base.md"
+rawUrl: "/raw/10-context-memory/wonderful-prompts/examples/base.md"
+sourceSha256: "f9e4182719003442d03f76f8d3ee4f05a9cde497e5a315678dd6928f0271923f"
+pageSha256: "f9e4182719003442d03f76f8d3ee4f05a9cde497e5a315678dd6928f0271923f"
+contentMode: "local-full"
 zh: ""
 ---
 

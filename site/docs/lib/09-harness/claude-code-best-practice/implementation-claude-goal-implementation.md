@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/shanraisshan/claude-code-best-practice"
-entryUrl: "https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/README.md"
+entryUrl: "https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/implementation/claude-goal-implementation.md"
+sourceRel: "implementation/claude-goal-implementation.md"
+rawUrl: "/raw/09-harness/claude-code-best-practice/implementation/claude-goal-implementation.md"
+sourceSha256: "4b071e60aadeaf200f51ac379408fcf2a1f53cee86329457d74daed77fe23b6f"
+pageSha256: "4b071e60aadeaf200f51ac379408fcf2a1f53cee86329457d74daed77fe23b6f"
+contentMode: "local-full"
 zh: ""
 ---
 

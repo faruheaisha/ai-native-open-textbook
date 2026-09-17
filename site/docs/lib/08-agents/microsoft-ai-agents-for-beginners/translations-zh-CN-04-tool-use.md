@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "08-agents"
 sourceUrl: "https://github.com/microsoft/ai-agents-for-beginners"
-entryUrl: "https://github.com/microsoft/ai-agents-for-beginners/blob/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translations/zh-CN/README.md"
+entryUrl: "https://github.com/microsoft/ai-agents-for-beginners/blob/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translations/zh-CN/04-tool-use/README.md"
+sourceRel: "translations/zh-CN/04-tool-use/README.md"
+rawUrl: "/raw/08-agents/microsoft-ai-agents-for-beginners/translations/zh-CN/04-tool-use/README.md"
+sourceSha256: "f78fc2f68d2a7da02e913e3311a3eec8f5b149d5f85a7eede2b9662dda11b0fd"
+pageSha256: "f78fc2f68d2a7da02e913e3311a3eec8f5b149d5f85a7eede2b9662dda11b0fd"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -85,7 +90,7 @@ AI 代理可以利用工具完成复杂任务、获取信息或做出决策。�
     ```python
     # 初始化用于 Azure OpenAI 的 OpenAI 客户端（响应 API，v1 端点）
     client = OpenAI(
-        base_url=f"{os.environ['AZURE_OPENAI_ENDPOINT'].rstrip('/')}/openai/v1/",
+        base_url=f"\{os.environ['AZURE_OPENAI_ENDPOINT'].rstrip('/')\}/openai/v1/",
         api_key=os.environ["AZURE_OPENAI_API_KEY"],
     )
     deployment_name = os.environ["AZURE_OPENAI_DEPLOYMENT"]
@@ -99,28 +104,28 @@ AI 代理可以利用工具完成复杂任务、获取信息或做出决策。�
     ```python
     # 模型读取的函数描述（响应 API 扁平工具格式）
     tools = [
-        {
+        \{
             "type": "function",
             "name": "get_current_time",
             "description": "Get the current time in a given location",
-            "parameters": {
+            "parameters": \{
                 "type": "object",
-                "properties": {
-                    "location": {
+                "properties": \{
+                    "location": \{
                         "type": "string",
                         "description": "The city name, e.g. San Francisco",
-                    },
-                },
+                    \},
+                \},
                 "required": ["location"],
-            },
-        }
+            \},
+        \}
     ]
     ```
    
     ```python
   
     # 初始用户消息
-    messages = [{"role": "user", "content": "What's the current time in San Francisco"}]
+    messages = [\{"role": "user", "content": "What's the current time in San Francisco"\}]
 
     # 第一次 API 调用：要求模型使用该功能
     response = client.responses.create(
@@ -142,7 +147,7 @@ AI 代理可以利用工具完成复杂任务、获取信息或做出决策。�
 
     ```bash
     Model's response:
-    [ResponseFunctionToolCall(arguments='{"location":"San Francisco"}', call_id='call_pOsKdUlqvdyttYB67MOj434b', name='get_current_time', type='function_call')]
+    [ResponseFunctionToolCall(arguments='\{"location":"San Francisco"\}', call_id='call_pOsKdUlqvdyttYB67MOj434b', name='get_current_time', type='function_call')]
     ```
   
 1. **执行任务所需的函数代码：**
@@ -153,20 +158,20 @@ AI 代理可以利用工具完成复杂任务、获取信息或做出决策。�
     ```python
       def get_current_time(location):
         """Get the current time for a given location"""
-        print(f"get_current_time called with location: {location}")  
+        print(f"get_current_time called with location: \{location\}")  
         location_lower = location.lower()
         
         for key, timezone in TIMEZONE_DATA.items():
             if key in location_lower:
-                print(f"Timezone found for {key}")  
+                print(f"Timezone found for \{key\}")  
                 current_time = datetime.now(ZoneInfo(timezone)).strftime("%I:%M %p")
-                return json.dumps({
+                return json.dumps(\{
                     "location": location,
                     "current_time": current_time
-                })
+                \})
       
-        print(f"No timezone data found for {location_lower}")  
-        return json.dumps({"location": location, "current_time": "unknown"})
+        print(f"No timezone data found for \{location_lower\}")  
+        return json.dumps(\{"location": location, "current_time": "unknown"\})
     ```
 
      ```python
@@ -183,11 +188,11 @@ AI 代理可以利用工具完成复杂任务、获取信息或做出决策。�
                 )
 
                 # 将工具结果作为 function_call_output 项返回
-                messages.append({
+                messages.append(\{
                     "type": "function_call_output",
                     "call_id": tool_call.call_id,
                     "output": time_response,
-                })
+                \})
     else:
         print("No tool calls were made by the model.")
 
@@ -209,7 +214,7 @@ AI 代理可以利用工具完成复杂任务、获取信息或做出决策。�
      ```
 
 函数调用是大多数（如果不是全部）代理工具使用设计的核心，然而从零实现有时颇具挑战。
-正如我们在[课程 2](https://github.com/microsoft/ai-agents-for-beginners/blob/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/02-explore-agentic-frameworks/README.md)所学，代理框架为我们提供了预构建的构建块以实现工具使用。
+正如我们在[课程 2](/lib/08-agents/microsoft-ai-agents-for-beginners/02-explore-agentic-frameworks)所学，代理框架为我们提供了预构建的构建块以实现工具使用。
  
 ## 使用代理框架的工具使用示例
 
@@ -332,7 +337,7 @@ agent = project_client.agents.create_agent(
 
 ## 这个代理的冒烟测试（可选）
 
-在学习了如何部署代理（参见[第16课](https://github.com/microsoft/ai-agents-for-beginners/blob/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translations/zh-CN/16-deploying-scalable-agents/README.md)）后，你可以用[`tests/lesson-04-smoke-tests.json`](https://github.com/microsoft/ai-agents-for-beginners/blob/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/tests/lesson-04-smoke-tests.json)对本课的`TravelToolAgent`进行冒烟测试（它是否仍然调用其工具并作出回答？）。有关如何运行它，请参见[`tests/README.md`](https://github.com/microsoft/ai-agents-for-beginners/blob/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translations/zh-CN/tests/README.md)。
+在学习了如何部署代理（参见[第16课](/lib/08-agents/microsoft-ai-agents-for-beginners/translations-zh-CN-16-deploying-scalable-agents)）后，你可以用[`tests/lesson-04-smoke-tests.json`](https://github.com/microsoft/ai-agents-for-beginners/blob/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/tests/lesson-04-smoke-tests.json)对本课的`TravelToolAgent`进行冒烟测试（它是否仍然调用其工具并作出回答？）。有关如何运行它，请参见[`tests/README.md`](/lib/08-agents/microsoft-ai-agents-for-beginners/translations-zh-CN-tests)。
 
 ## 上一课
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/mattpocock/skills"
-entryUrl: "https://github.com/mattpocock/skills/blob/3cca18b368ae95cdbdebbff572ccafa662551015/README.md"
+entryUrl: "https://github.com/mattpocock/skills/blob/3cca18b368ae95cdbdebbff572ccafa662551015/docs/engineering/tdd.md"
+sourceRel: "docs/engineering/tdd.md"
+rawUrl: "/raw/10-context-memory/mattpocock-skills/docs/engineering/tdd.md"
+sourceSha256: "879c4bad53e79f3972dd3b37438330f9ff86035843f3bf83ef41ff51e8337860"
+pageSha256: "879c4bad53e79f3972dd3b37438330f9ff86035843f3bf83ef41ff51e8337860"
+contentMode: "local-full"
 zh: ""
 ---
 

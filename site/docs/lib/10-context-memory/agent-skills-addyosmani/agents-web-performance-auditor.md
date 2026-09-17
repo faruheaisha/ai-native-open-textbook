@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/addyosmani/agent-skills"
-entryUrl: "https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/README.md"
+entryUrl: "https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/agents/web-performance-auditor.md"
+sourceRel: "agents/web-performance-auditor.md"
+rawUrl: "/raw/10-context-memory/agent-skills-addyosmani/agents/web-performance-auditor.md"
+sourceSha256: "0928b1cf8103262a364bce0c1fc689a918852e2275441f1b2e687adfa1e607e9"
+pageSha256: "0928b1cf8103262a364bce0c1fc689a918852e2275441f1b2e687adfa1e607e9"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -190,4 +195,4 @@ Identify the framework and rendering model (React, Vue, Svelte, Angular, Next.js
 
 - **Invoke directly when:** the user wants a performance-focused pass on a web application, a specific component, a route, or a live URL.
 - **Invoke via:** `/webperf` (dedicated performance audit command). Not included in `/ship` fan-out — performance audits apply to web applications only, not to utility libraries or CLI tools, so adding it to a global pre-launch fan-out would create noise in non-web projects.
-- **Do not invoke from another persona.** If `code-reviewer` flags a performance concern that warrants a deeper pass, surface that recommendation in the report; the user or a slash command initiates the deeper pass. See [docs/agents.md](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/docs/agents.md).
+- **Do not invoke from another persona.** If `code-reviewer` flags a performance concern that warrants a deeper pass, surface that recommendation in the report; the user or a slash command initiates the deeper pass. See [docs/agents.md](/lib/10-context-memory/agent-skills-addyosmani/docs-agents).

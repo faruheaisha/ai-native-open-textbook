@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/lopopolo/harness-engineering"
-entryUrl: "https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/README.md"
+entryUrl: "https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/docs/fixed-worker/model-native-semantics.md"
+sourceRel: "docs/fixed-worker/model-native-semantics.md"
+rawUrl: "/raw/09-harness/harness-engineering-anthology/docs/fixed-worker/model-native-semantics.md"
+sourceSha256: "c8493283cde7bebd9944a912990ef6a6679281b5184dfd92bb1db9124c2928c4"
+pageSha256: "c8493283cde7bebd9944a912990ef6a6679281b5184dfd92bb1db9124c2928c4"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -78,7 +83,7 @@ semantics into the new host. Polytoken still owns the approvals, model-visible
 results, and partial-failure behavior around it; matched journeys must cover
 those seams.
 
-[Polytoken implementation observation]: https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/sources/ryan-notes.md
+[Polytoken implementation observation]: /lib/09-harness/harness-engineering-anthology/sources-ryan-notes
 [Codex `apply_patch` instructions]:
   https://github.com/openai/codex/blob/main/codex-rs/core/prompt_with_apply_patch_instructions.md
 

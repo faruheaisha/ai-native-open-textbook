@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/jnMetaCode/superpowers-zh"
-entryUrl: "https://github.com/jnMetaCode/superpowers-zh/blob/79ea5d262b7a1c7ce76a289390853bca51f940d4/README.md"
+entryUrl: "https://github.com/jnMetaCode/superpowers-zh/blob/79ea5d262b7a1c7ce76a289390853bca51f940d4/docs/README.pi.md"
+sourceRel: "docs/README.pi.md"
+rawUrl: "/raw/10-context-memory/superpowers-zh/docs/README.pi.md"
+sourceSha256: "41ff64080a20447488e9d6aa3058b596547c796d07a107e058130aead5115ab1"
+pageSha256: "41ff64080a20447488e9d6aa3058b596547c796d07a107e058130aead5115ab1"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -55,7 +60,7 @@ Pi 有原生技能系统，但**不暴露** `Skill` 工具。skill 内容描述�
 - 「分派子智能体」→ 若装了 `pi-subagents` 的 `subagent` 工具则用之；没有则在本会话内完成或说明能力缺失，**不要**臆造 `Task` 调用
 - 「待办清单」→ 若装了 todo/task 工具则用之；否则用 plan 文件或仓库内 `TODO.md` 跟踪；旧的 `TodoWrite` 引用按此处理
 
-完整映射见 [`skills/using-superpowers/references/pi-tools.md`](https://github.com/jnMetaCode/superpowers-zh/blob/79ea5d262b7a1c7ce76a289390853bca51f940d4/skills/using-superpowers/references/pi-tools.md)，扩展也会把同样的映射注入会话。
+完整映射见 [`skills/using-superpowers/references/pi-tools.md`](/lib/10-context-memory/superpowers-zh/skills-using-superpowers-references-pi-tools)，扩展也会把同样的映射注入会话。
 
 ## 验证
 

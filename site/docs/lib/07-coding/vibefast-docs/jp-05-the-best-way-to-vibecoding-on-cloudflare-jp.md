@@ -1,0 +1,123 @@
+---
+title: "CloudflareでVibeCodingするベストな方法"
+sourceId: "07-coding/vibefast-docs"
+sourceTitle: "VibeFast 文档"
+sourceKind: "官方文档"
+licenseLabel: "限非商用"
+lang: "英文"
+tier: 3
+volume: "07-coding"
+sourceUrl: "https://github.com/vibefast-app/vibefast-docs"
+entryUrl: "https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/jp/05-the-best-way-to-vibecoding-on-cloudflare-jp.md"
+sourceRel: "jp/05-the-best-way-to-vibecoding-on-cloudflare-jp.md"
+rawUrl: "/raw/07-coding/vibefast-docs/jp/05-the-best-way-to-vibecoding-on-cloudflare-jp.md"
+sourceSha256: "b605f7321ef0690f7e395fdffbcff2340538b61ec7fbe0e31e60883df1ef31b2"
+pageSha256: "b605f7321ef0690f7e395fdffbcff2340538b61ec7fbe0e31e60883df1ef31b2"
+contentMode: "local-full"
+zh: ""
+---
+
+# CloudflareでVibeCodingするベストな方法
+
+[English](/lib/07-coding/vibefast-docs/en-05-the-best-way-to-vibecoding-on-cloudflare-en) · [繁中](/lib/07-coding/vibefast-docs/zh-05-the-best-way-to-vibecoding-on-cloudflare-zh) · [Español](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/es/05-the-best-way-to-vibecoding-on-cloudflare-es.md) · [日本語](/lib/07-coding/vibefast-docs/jp-05-the-best-way-to-vibecoding-on-cloudflare-jp) · [Português (BR)](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/pt-br/05-the-best-way-to-vibecoding-on-cloudflare-pt-br.md)
+
+**著者：** Danko Peng（[@dankopeng](https://x.com/dankopeng)）  
+**更新：** 2026年3月7日  
+**読了時間：** 約7分
+
+-----
+
+50歳のソロプレナーとして、Vibe Codingを1年以上続けてきた。
+
+先月、アイデアからアプリを本番環境にローンチするまで、たった40分しかかからなかったことがあった。デモではなく、グローバル300以上のノードで動いている本番環境だ。ログインシステム、データベース、API——すべて揃っていた。
+
+あの後に確信した：**正しいプラットフォームを選ぶことは、コードを書くスピードよりも重要だ。**
+
+あなたもVibe Codingをしているなら、この記事ではなぜ **Cloudflareのフルスタック** が現在最も快適な選択肢なのかを伝えたい——Workers、D1、R2、Remixを組み合わせて、デプロイのことを考える時間を減らし、プロダクトのことを考える時間を増やす。
+
+-----
+
+## なぜNext.jsでもVercelでもないのか？
+
+従来のクラウドソリューションを使ったことがある人なら、あの感覚を知っているだろう：アイデアは明確なのに、毎回環境設定、フロントエンドとバックエンドのCORSエラー、データベース接続で詰まり、午後がまるまる消えてしまう。
+
+私自身もその道を歩いた。Cloudflareフルスタックに切り替えてから、デプロイがこんなに静かにできることに気づいた——サーバーの管理不要、CORSの設定不要、トラフィック費用の急増を心配する必要もない。コードを書き終えたら、1つのコマンドでグローバルにローンチ。
+
+-----
+
+## Remix：ChatGPTとShopifyも採用したフロントエンドフレームワーク
+
+フロントエンドフレームワークと言えば、多くの人が最初に思い浮かべるのはNext.jsだ。しかしこの2年間、業界で最も賢いエンジニアチームはすでに静かに切り替えている。
+
+**ChatGPTは2024年にフロントエンド全体をNext.jsからRemixに移行した。** 理由は直接的だ：Remixのルーティング構造がシンプルで、データの読み込み効率が高く、開発速度が速い。数億のユーザーを支え、毎日イテレーションするプロダクトにとって、この決定は多くのことを物語っている。
+
+**Shopifyも同様だ。** Shopifyが1,017のルートを持つ巨大な管理画面をRemixに移行した結果、ページ読み込み速度が30%向上した。毎日数百万の事業者が使うプラットフォームにとって、30%は小さい数字ではない。
+
+Shopifyは2022年にRemixを買収した。Web標準への忠実さとパフォーマンスへのこだわりを見込んでのことだ。
+
+なぜRemixがVibe Codingに特に向いているか？その設計ロジックが非常に「自然言語」に近いからだ——データを読みたければ`loader`を書く、フォームを送信したければ`action`を書く。Next.jsのApp Router、Pages Router、Server Componentsのような概念を先に理解する必要がない。AIツールもRemixをより直感的に理解し、生成するコードのエラーが少ない。
+
+-----
+
+## Cloudflare Workers：あなたのアプリが全球300カ所で同時に動く
+
+従来のサーバーの概念は：アプリがある都市のマシンで動いていて、ユーザーのリクエストは距離を超えてそこに到達する必要がある。
+
+Cloudflare Workersはまったく違う。コードをデプロイすると、自動的にCloudflareのグローバル300以上のノードに複製される。ユーザーのリクエストは最も近いノードに導かれて処理される。
+
+つまり東京のユーザーもニューヨークのユーザーも、数ミリ秒でレスポンスを得られる。何も追加設定する必要はない。
+
+しかもWorkersには従来のサーバーの「コールドスタート」問題がない——最初のリクエストで数秒待たされるあの状態だ。Workersは常時待機しており、反応時間はほとんど感じられない。
+
+もう一つ特に気に入っている設計が **Service Binding** だ：フロントエンドとバックエンドがCloudflare内部で直接通信でき、公開ネットワークを経由しない。つまりCORSの設定がゼロで、APIキーも外部に露出しない。あの40分でログインフローを完成できたのは、主にここで時間を節約できたからだ——以前はフロントエンドとバックエンドの通信設定に大半の時間がかかっていた。
+
+-----
+
+## D1：エッジに置かれたデータベース
+
+データベースはVibe Codingの障害の一つだ。従来の方法は外部のデータベースサービスを探し、接続文字列の処理、遅延の問題、料金計算に悩まされる……
+
+Cloudflare D1はこの問題を簡素化した。D1はSQLiteデータベースだが、Cloudflareのエッジネットワーク上で、Workersのすぐ隣で動く。データの読み書きの遅延は非常に低く、通常数ミリ秒だ。データベースとプログラムが同じ場所で動いているからだ。
+
+Vibe Codingにとって、D1のもう一つの利点は：AIに「ユーザーデータを保存するschemaを設計して」と直接伝えれば、AIが生成するSQLがそのまま使えること。追加のORMの設定や変換レイヤーが不要だ。
+
+**無料枠**：5GBストレージ、毎日10万回の読み取り + 5万回の書き込み。ほとんどのアプリの起動段階には十分すぎる。
+
+-----
+
+## R2：メディアファイルの保存、転送料金ゼロ
+
+アプリで画像のアップロード、動画の保存、ユーザーアバターの処理が必要なら、従来はAWS S3を使う。機能は強力だが、転送料金が罠だ——トラフィックが増えるほど、請求が恐ろしくなる。
+
+Cloudflare R2はS3互換のストレージサービスで、S3と同じ方法で操作できるが、**転送料金が完全に無料**だ。
+
+私自身がブログシステムをVibeしたとき、画像はすべてR2に保存し、Remixのページがエッジから直接取得した。速度はローカル開発のように感じたが、実際にはグローバルデプロイだった。
+
+**無料枠**：10GBストレージ、毎月100万回の操作。
+
+-----
+
+## すべて合わせても、無料で始められる
+
+このスタックで最も驚いたこと：**すべてのサービスの無料枠を合わせると、実際のアプリを動かすのに十分**で、初日からサーバー費用を払う必要がない。
+
+| サービス       | 無料枠                          |
+|-------------|-------------------------------|
+| Workers     | 毎日10万リクエスト                  |
+| D1 データベース | 5GB + 毎日10万回読み取り・5万回書き込み  |
+| R2 ストレージ  | 10GB + 毎月100万回操作            |
+| Remix フロントエンド| 無料のWorkers上で直接動作          |
+
+私自身、この組み合わせで [vibefast.app](https://vibefast.app) を構築した——ユーザー登録・ログイン、ダッシュボード、データ統計、注文システムを含むサイト全体がCloudflare上で動いていて、サーバー費用は1円も払っていない。
+
+-----
+
+**Danko Peng**  
+[X](https://x.com/dankopeng) · [YouTube](https://www.youtube.com/@DankoPeng) · [Threads](https://www.threads.com/@dankopeng)
+
+-----
+
+👉 [チュートリアルトップに戻る](/lib/07-coding/vibefast-docs/README-jp)
+
+完全なCloudflareフルスタックテンプレートを今すぐ使い始めたい方へ：  
+👉 **[vibefast.app](https://vibefast.app/pricing)** — アーリーバード $99、2026年8月1日より $199 に値上がり。

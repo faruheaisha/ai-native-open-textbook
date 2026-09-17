@@ -9,6 +9,11 @@ tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide"
 entryUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/09-harness/claude-code-ultimate-guide/README.md"
+sourceSha256: "d447a9216144746c0249501384218ec80ab37a5901905be327debe50c4e99482"
+pageSha256: "d447a9216144746c0249501384218ec80ab37a5901905be327debe50c4e99482"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -35,7 +40,7 @@ zh: ""
 
 Learn Claude Code, build reliable agents, and scale their use safely. The website is the primary reading and discovery interface. This repository contains the canonical Markdown sources, reusable files, machine-readable indexes, and contribution history.
 
-**Start here:** [complete a first task online](https://cc.bruniaux.com/guide/ultimate-guide/01-quick-start/) · [browse the guide portal](https://cc.bruniaux.com/guide/) · [open the complete sitemap](https://cc.bruniaux.com/sitemap/) · [read the Markdown source](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/ultimate-guide.md)
+**Start here:** [complete a first task online](https://cc.bruniaux.com/guide/ultimate-guide/01-quick-start/) · [browse the guide portal](https://cc.bruniaux.com/guide/) · [open the complete sitemap](https://cc.bruniaux.com/sitemap/) · [read the Markdown source](/lib/09-harness/claude-code-ultimate-guide/guide-ultimate-guide/index)
 
 ## Choose your next step
 
@@ -55,10 +60,10 @@ Claude Code documentation explains the product. This guide connects product beha
 
 | Need | Start with |
 |---|---|
-| Understand Claude Code internals | [Architecture](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/core/architecture.md) and [Tools Reference](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/core/tools-reference.md) |
-| Design agent systems | [Agent Harness Engineering](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/core/agent-harness.md) and [Loop & Graph Engineering](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/core/loop-graph-engineering.md) |
-| Structure AI-assisted delivery | [Methodologies](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/core/methodologies.md) and [Workflow Guides](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/workflows/README.md) |
-| Establish a security boundary | [Security Hardening](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/security/security-hardening.md) and [Sandbox Isolation](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/security/sandbox-isolation.md) |
+| Understand Claude Code internals | [Architecture](/lib/09-harness/claude-code-ultimate-guide/guide-core-architecture/index) and [Tools Reference](/lib/09-harness/claude-code-ultimate-guide/guide-core-tools-reference) |
+| Design agent systems | [Agent Harness Engineering](/lib/09-harness/claude-code-ultimate-guide/guide-core-agent-harness/index) and [Loop & Graph Engineering](/lib/09-harness/claude-code-ultimate-guide/guide-core-loop-graph-engineering) |
+| Structure AI-assisted delivery | [Methodologies](/lib/09-harness/claude-code-ultimate-guide/guide-core-methodologies) and [Workflow Guides](/lib/09-harness/claude-code-ultimate-guide/guide-workflows) |
+| Establish a security boundary | [Security Hardening](/lib/09-harness/claude-code-ultimate-guide/guide-security-security-hardening/index) and [Sandbox Isolation](/lib/09-harness/claude-code-ultimate-guide/guide-security-sandbox-isolation) |
 | Validate understanding | [Knowledge Quiz](https://cc.bruniaux.com/quiz/) and [Recap Cards](https://cc.bruniaux.com/cheatsheets/) |
 
 The guide favors explicit trade-offs and verifiable procedures. Where evidence is incomplete, the relevant page should preserve that limit instead of presenting one workflow as universal.
@@ -94,7 +99,7 @@ claude doctor
 claude auth login
 ```
 
-The [Quick Start chapter](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/ultimate-guide.md#1-quick-start-day-1) documents installation alternatives, authentication, updates, permission modes, and common first-day failures.
+The [Quick Start chapter](/lib/09-harness/claude-code-ultimate-guide/guide-ultimate-guide/index#1-quick-start-day-1) documents installation alternatives, authentication, updates, permission modes, and common first-day failures.
 
 ### Complete a first task
 
@@ -127,18 +132,18 @@ Before asking Claude to edit code, add a project-level `CLAUDE.md` that records 
 - Run the relevant tests before claiming completion.
 ```
 
-Continue with the [first workflow](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/ultimate-guide.md#12-first-workflow) or use the [starter CLAUDE.md templates](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/examples/claude-md/README.md).
+Continue with the [first workflow](/lib/09-harness/claude-code-ultimate-guide/guide-ultimate-guide/index#12-first-workflow) or use the [starter CLAUDE.md templates](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/examples/claude-md/README.md).
 
 ### Choose a learning path
 
 | Situation | Suggested route |
 |---|---|
-| New to Claude Code | [Seven-module learning path](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/learning-path/README.md) |
-| Already using the CLI | [Core Concepts](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/ultimate-guide.md#2-core-concepts), then [Context Engineering](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/core/context-engineering.md) |
-| Senior developer or tech lead | [Methodologies](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/core/methodologies.md), [Agent Harness Engineering](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/core/agent-harness.md), then [Production Safety](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/security/production-safety.md) |
-| Engineering manager or CTO | [Adoption Approaches](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/roles/adoption-approaches.md), [Team Metrics](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/ops/team-metrics.md), then [Subscription Strategy](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/ops/subscription-strategy.md) |
-| Security or platform role | [Security Hardening](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/security/security-hardening.md), [Enterprise Governance](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/security/enterprise-governance.md), then [Observability](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/ops/observability.md) |
-| Product manager or designer | [Product Manager Guide](/lib/09-harness/claude-code-ultimate-guide/docs-for-product-managers) or [Design-to-Code Workflow](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/workflows/design-to-code.md) |
+| New to Claude Code | [Seven-module learning path](/lib/09-harness/claude-code-ultimate-guide/guide-learning-path) |
+| Already using the CLI | [Core Concepts](/lib/09-harness/claude-code-ultimate-guide/guide-ultimate-guide/index#2-core-concepts), then [Context Engineering](/lib/09-harness/claude-code-ultimate-guide/guide-core-context-engineering/index) |
+| Senior developer or tech lead | [Methodologies](/lib/09-harness/claude-code-ultimate-guide/guide-core-methodologies), [Agent Harness Engineering](/lib/09-harness/claude-code-ultimate-guide/guide-core-agent-harness/index), then [Production Safety](/lib/09-harness/claude-code-ultimate-guide/guide-security-production-safety) |
+| Engineering manager or CTO | [Adoption Approaches](/lib/09-harness/claude-code-ultimate-guide/guide-roles-adoption-approaches), [Team Metrics](/lib/09-harness/claude-code-ultimate-guide/guide-ops-team-metrics), then [Subscription Strategy](/lib/09-harness/claude-code-ultimate-guide/guide-ops-subscription-strategy) |
+| Security or platform role | [Security Hardening](/lib/09-harness/claude-code-ultimate-guide/guide-security-security-hardening/index), [Enterprise Governance](/lib/09-harness/claude-code-ultimate-guide/guide-security-enterprise-governance), then [Observability](/lib/09-harness/claude-code-ultimate-guide/guide-ops-observability) |
+| Product manager or designer | [Product Manager Guide](/lib/09-harness/claude-code-ultimate-guide/docs-for-product-managers) or [Design-to-Code Workflow](/lib/09-harness/claude-code-ultimate-guide/guide-workflows-design-to-code) |
 | Non-developer knowledge worker | [Claude Cowork Guide](https://github.com/FlorianBruniaux/claude-cowork-guide) |
 
 For a personalized route, use the repository onboarding prompt:
@@ -155,12 +160,12 @@ An agent is one component of a larger system. The surrounding harness controls c
 
 | Resource | Decision it supports |
 |---|---|
-| [Agent Harness Engineering](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/core/agent-harness.md) | Identify the controls required around an agent loop |
-| [Loop & Graph Engineering](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/core/loop-graph-engineering.md) | Choose bounded feedback loops or explicit workflow graphs |
-| [Agent Harness Map](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/ecosystem/agent-harness-landscape.md) | Distinguish runtimes, orchestrators, frameworks, control planes, and support tools |
-| [Agentic Tools](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/ecosystem/agentic-tools.md) | Compare selected coding agents and orchestration products |
-| [Agent Evaluation](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/roles/agent-evaluation.md) | Test behavior, regressions, and task-level outcomes |
-| [Harness Glossary](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/core/glossary.md) | Align terminology across design and review |
+| [Agent Harness Engineering](/lib/09-harness/claude-code-ultimate-guide/guide-core-agent-harness/index) | Identify the controls required around an agent loop |
+| [Loop & Graph Engineering](/lib/09-harness/claude-code-ultimate-guide/guide-core-loop-graph-engineering) | Choose bounded feedback loops or explicit workflow graphs |
+| [Agent Harness Map](/lib/09-harness/claude-code-ultimate-guide/guide-ecosystem-agent-harness-landscape/index) | Distinguish runtimes, orchestrators, frameworks, control planes, and support tools |
+| [Agentic Tools](/lib/09-harness/claude-code-ultimate-guide/guide-ecosystem-agentic-tools/index) | Compare selected coding agents and orchestration products |
+| [Agent Evaluation](/lib/09-harness/claude-code-ultimate-guide/guide-roles-agent-evaluation) | Test behavior, regressions, and task-level outcomes |
+| [Harness Glossary](/lib/09-harness/claude-code-ultimate-guide/guide-core-glossary) | Align terminology across design and review |
 
 ### Context and memory
 
@@ -168,27 +173,27 @@ Context quality affects every tool call and decision. Start with project instruc
 
 | Resource | Focus |
 |---|---|
-| [Context Engineering](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/core/context-engineering.md) | Context budget, modular instructions, assembly, and measurement |
-| [Memory Systems](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/core/memory-systems.md) | Native memory, cross-session systems, team sharing, and retention risks |
-| [Context Engineering Tools](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/ecosystem/context-engineering-tools.md) | Output compression, retrieval, gateways, and context inspection |
+| [Context Engineering](/lib/09-harness/claude-code-ultimate-guide/guide-core-context-engineering/index) | Context budget, modular instructions, assembly, and measurement |
+| [Memory Systems](/lib/09-harness/claude-code-ultimate-guide/guide-core-memory-systems/index) | Native memory, cross-session systems, team sharing, and retention risks |
+| [Context Engineering Tools](/lib/09-harness/claude-code-ultimate-guide/guide-ecosystem-context-engineering-tools/index) | Output compression, retrieval, gateways, and context inspection |
 | [Context Audit](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/tools/context-audit-prompt.md) | Measure a project's context architecture |
-| [Team AI Instructions](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/workflows/team-ai-instructions.md) | Maintain shared instructions across a development team |
+| [Team AI Instructions](/lib/09-harness/claude-code-ultimate-guide/guide-workflows-team-ai-instructions) | Maintain shared instructions across a development team |
 
 ### Workflows
 
 | Goal | Workflow |
 |---|---|
-| Implement with tests first | [TDD with Claude](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/workflows/tdd-with-claude.md) |
-| Define behavior before implementation | [Spec-First Development](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/workflows/spec-first.md) |
-| Separate planning from execution | [Plan-Driven Development](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/workflows/plan-driven.md) |
-| Compare independent candidates | [Best-of-N](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/workflows/best-of-n.md) |
-| Coordinate several agents | [Agent Teams](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/workflows/agent-teams.md) |
-| Build bounded autonomous loops | [Agentic Software Factories](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/workflows/agentic-software-factories.md) |
-| Review code systematically | [Code Review](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/workflows/code-review.md) |
-| Prepare a contribution another team can review | [AI-Assisted Open Source Contributions](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/workflows/ai-assisted-open-source-contributions.md) |
-| Diagnose unfamiliar repositories | [Exploration Workflow](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/workflows/exploration-workflow.md) |
+| Implement with tests first | [TDD with Claude](/lib/09-harness/claude-code-ultimate-guide/guide-workflows-tdd-with-claude) |
+| Define behavior before implementation | [Spec-First Development](/lib/09-harness/claude-code-ultimate-guide/guide-workflows-spec-first) |
+| Separate planning from execution | [Plan-Driven Development](/lib/09-harness/claude-code-ultimate-guide/guide-workflows-plan-driven) |
+| Compare independent candidates | [Best-of-N](/lib/09-harness/claude-code-ultimate-guide/guide-workflows-best-of-n) |
+| Coordinate several agents | [Agent Teams](/lib/09-harness/claude-code-ultimate-guide/guide-workflows-agent-teams/index) |
+| Build bounded autonomous loops | [Agentic Software Factories](/lib/09-harness/claude-code-ultimate-guide/guide-workflows-agentic-software-factories) |
+| Review code systematically | [Code Review](/lib/09-harness/claude-code-ultimate-guide/guide-workflows-code-review) |
+| Prepare a contribution another team can review | [AI-Assisted Open Source Contributions](/lib/09-harness/claude-code-ultimate-guide/guide-workflows-ai-assisted-open-source-contributions) |
+| Diagnose unfamiliar repositories | [Exploration Workflow](/lib/09-harness/claude-code-ultimate-guide/guide-workflows-exploration-workflow) |
 
-[Browse every workflow](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/workflows/README.md) for task management, GitHub Actions, production reliability, event-driven agents, design-to-code, PDF generation, search, and team instructions.
+[Browse every workflow](/lib/09-harness/claude-code-ultimate-guide/guide-workflows) for task management, GitHub Actions, production reliability, event-driven agents, design-to-code, PDF generation, search, and team instructions.
 
 ### Choose the smallest interface
 
@@ -203,7 +208,7 @@ Claude Code can call local commands, skills, agents, hooks, plugins, and MCP ser
 | A packaged collection of capabilities | Plugin |
 | A typed interface to a remote service | MCP server |
 
-Use the [MCP or CLI decision guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/ecosystem/mcp-vs-cli.md) and the [trade-off framework](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/ultimate-guide.md#when-to-use-what) before introducing another integration.
+Use the [MCP or CLI decision guide](/lib/09-harness/claude-code-ultimate-guide/guide-ecosystem-mcp-vs-cli) and the [trade-off framework](/lib/09-harness/claude-code-ultimate-guide/guide-ultimate-guide/index#when-to-use-what) before introducing another integration.
 
 ## Scale
 
@@ -211,13 +216,13 @@ Use the [MCP or CLI decision guide](https://github.com/FlorianBruniaux/claude-co
 
 | Concern | Primary resource | Operational companion |
 |---|---|---|
-| Permissions and prompt injection | [Security Hardening](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/security/security-hardening.md) | [Permissions Audit](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/tools/permissions-audit-prompt.md) |
-| Isolation of untrusted execution | [Sandbox Isolation](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/security/sandbox-isolation.md) | [Native Sandbox](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/security/sandbox-native.md) |
-| Production changes and rollback | [Production Safety](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/security/production-safety.md) | [Production Reliability](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/workflows/production-reliability.md) |
-| Sensitive data and retention | [Data Privacy](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/security/data-privacy.md) | [Enterprise Governance](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/security/enterprise-governance.md) |
-| Active testing of authorized applications | [Agentic Pentesting](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/security/agentic-pentesting.md) | [DarkMoon and Strix Evaluation](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/docs/resource-evaluations/darkmoon-strix-agentic-pentesting.md) |
-| MCP and extension supply chain | [MCP Ecosystem](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/ecosystem/mcp-servers-ecosystem.md) | [Threat Database](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/examples/commands/resources/threat-db.yaml) |
-| Delegation readiness | [Specification Completeness Audit](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/tools/spec-completeness-audit.md) | [Agent Evaluation](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/roles/agent-evaluation.md) |
+| Permissions and prompt injection | [Security Hardening](/lib/09-harness/claude-code-ultimate-guide/guide-security-security-hardening/index) | [Permissions Audit](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/tools/permissions-audit-prompt.md) |
+| Isolation of untrusted execution | [Sandbox Isolation](/lib/09-harness/claude-code-ultimate-guide/guide-security-sandbox-isolation) | [Native Sandbox](/lib/09-harness/claude-code-ultimate-guide/guide-security-sandbox-native) |
+| Production changes and rollback | [Production Safety](/lib/09-harness/claude-code-ultimate-guide/guide-security-production-safety) | [Production Reliability](/lib/09-harness/claude-code-ultimate-guide/guide-workflows-production-reliability) |
+| Sensitive data and retention | [Data Privacy](/lib/09-harness/claude-code-ultimate-guide/guide-security-data-privacy) | [Enterprise Governance](/lib/09-harness/claude-code-ultimate-guide/guide-security-enterprise-governance) |
+| Active testing of authorized applications | [Agentic Pentesting](/lib/09-harness/claude-code-ultimate-guide/guide-security-agentic-pentesting) | [DarkMoon and Strix Evaluation](/lib/09-harness/claude-code-ultimate-guide/docs-resource-evaluations-darkmoon-strix-agentic-pentesting) |
+| MCP and extension supply chain | [MCP Ecosystem](/lib/09-harness/claude-code-ultimate-guide/guide-ecosystem-mcp-servers-ecosystem/index) | [Threat Database](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/examples/commands/resources/threat-db.yaml) |
+| Delegation readiness | [Specification Completeness Audit](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/tools/spec-completeness-audit.md) | [Agent Evaluation](/lib/09-harness/claude-code-ultimate-guide/guide-roles-agent-evaluation) |
 
 Security claims and threat counts change as sources are added or corrected. Use the linked database and guides as the current source instead of copying their counts into project documentation.
 
@@ -225,12 +230,12 @@ Security claims and threat counts change as sources are added or corrected. Use 
 
 | Need | Resource |
 |---|---|
-| Trace agent behavior and failures | [Observability](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/ops/observability.md) |
-| Attribute AI-assisted changes | [AI Traceability](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/ops/ai-traceability.md) |
-| Evaluate team outcomes | [Team Metrics](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/ops/team-metrics.md) |
-| Calculate task-level cost | [AI Unit Economics](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/ops/ai-unit-economics.md) |
-| Operate infrastructure workflows | [DevOps & SRE](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/ops/devops-sre.md) |
-| Route governed API traffic | [API Gateways](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/ops/api-gateway.md) |
+| Trace agent behavior and failures | [Observability](/lib/09-harness/claude-code-ultimate-guide/guide-ops-observability) |
+| Attribute AI-assisted changes | [AI Traceability](/lib/09-harness/claude-code-ultimate-guide/guide-ops-ai-traceability) |
+| Evaluate team outcomes | [Team Metrics](/lib/09-harness/claude-code-ultimate-guide/guide-ops-team-metrics) |
+| Calculate task-level cost | [AI Unit Economics](/lib/09-harness/claude-code-ultimate-guide/guide-ops-ai-unit-economics) |
+| Operate infrastructure workflows | [DevOps & SRE](/lib/09-harness/claude-code-ultimate-guide/guide-ops-devops-sre) |
+| Route governed API traffic | [API Gateways](/lib/09-harness/claude-code-ultimate-guide/guide-ops-api-gateway) |
 
 A green structural check proves only what it inspected. Runtime behavior, task acceptance, security boundaries, and business outcomes require separate evidence.
 
@@ -238,12 +243,12 @@ A green structural check proves only what it inspected. Runtime behavior, task a
 
 | Decision | Resource |
 |---|---|
-| Roll out Claude Code across a team | [Adoption Approaches](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/roles/adoption-approaches.md) |
-| Define usage tiers and approvals | [Enterprise Governance](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/security/enterprise-governance.md) |
-| Preserve team knowledge | [Team Knowledge Base](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/ecosystem/team-knowledge-base.md) |
-| Compare subscriptions, APIs, and gateways | [Subscription Strategy](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/ops/subscription-strategy.md) |
-| Compare hosted and local inference | [Local vs Cloud Inference](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/ecosystem/local-vs-cloud-inference.md) |
-| Map changing AI roles | [AI Roles](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/roles/ai-roles.md) |
+| Roll out Claude Code across a team | [Adoption Approaches](/lib/09-harness/claude-code-ultimate-guide/guide-roles-adoption-approaches) |
+| Define usage tiers and approvals | [Enterprise Governance](/lib/09-harness/claude-code-ultimate-guide/guide-security-enterprise-governance) |
+| Preserve team knowledge | [Team Knowledge Base](/lib/09-harness/claude-code-ultimate-guide/guide-ecosystem-team-knowledge-base) |
+| Compare subscriptions, APIs, and gateways | [Subscription Strategy](/lib/09-harness/claude-code-ultimate-guide/guide-ops-subscription-strategy) |
+| Compare hosted and local inference | [Local vs Cloud Inference](/lib/09-harness/claude-code-ultimate-guide/guide-ecosystem-local-vs-cloud-inference/index) |
+| Map changing AI roles | [AI Roles](/lib/09-harness/claude-code-ultimate-guide/guide-roles-ai-roles/index) |
 
 The economics pages separate observed costs from estimates and scenarios. Recalculate them with your workload, acceptance criteria, review effort, and risk constraints.
 
@@ -251,12 +256,12 @@ The economics pages separate observed costs from estimates and scenarios. Recalc
 
 | Format | Use it for | Read online | Source or download |
 |---|---|---|---|
-| Complete reference | Deep explanations and linked sections | [Ultimate Guide](https://cc.bruniaux.com/guide/ultimate-guide/) | [Markdown](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/ultimate-guide.md) |
-| Daily reference | Commands, shortcuts, and checks | [Quick Reference](https://cc.bruniaux.com/cheatsheet/) | [Markdown](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/cheatsheet.md) |
-| Guided course | Progressive exercises with retained evidence | [Learning Paths](https://cc.bruniaux.com/learning/) | [Course sources](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/learning-path/README.md) |
-| Runnable material | Agents, skills, hooks, workflows, and scripts | [Examples](https://cc.bruniaux.com/examples/) | [Files](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/examples/README.md) |
-| Visual explanation | Architecture, context, security, and workflow maps | [Diagrams](https://cc.bruniaux.com/diagrams/) | [Diagram sources](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/diagrams/README.md) |
-| Knowledge check | Questions with documentation links | [Quiz](https://cc.bruniaux.com/quiz/) | [Question sources](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/quiz/README.md) |
+| Complete reference | Deep explanations and linked sections | [Ultimate Guide](https://cc.bruniaux.com/guide/ultimate-guide/) | [Markdown](/lib/09-harness/claude-code-ultimate-guide/guide-ultimate-guide/index) |
+| Daily reference | Commands, shortcuts, and checks | [Quick Reference](https://cc.bruniaux.com/cheatsheet/) | [Markdown](/lib/09-harness/claude-code-ultimate-guide/guide-cheatsheet) |
+| Guided course | Progressive exercises with retained evidence | [Learning Paths](https://cc.bruniaux.com/learning/) | [Course sources](/lib/09-harness/claude-code-ultimate-guide/guide-learning-path) |
+| Runnable material | Agents, skills, hooks, workflows, and scripts | [Examples](https://cc.bruniaux.com/examples/) | [Files](/lib/09-harness/claude-code-ultimate-guide/examples) |
+| Visual explanation | Architecture, context, security, and workflow maps | [Diagrams](https://cc.bruniaux.com/diagrams/) | [Diagram sources](/lib/09-harness/claude-code-ultimate-guide/guide-diagrams) |
+| Knowledge check | Questions with documentation links | [Quiz](https://cc.bruniaux.com/quiz/) | [Question sources](/lib/09-harness/claude-code-ultimate-guide/quiz) |
 | Printable reference | One concept per page in French and English | [Cheat Sheets](https://cc.bruniaux.com/cheatsheets/) | [Card sources](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/whitepapers/recap-cards/README.md) |
 | Long-form edition | Offline PDF and EPUB | [Ebooks](https://cc.bruniaux.com/whitepapers/) | [Downloads](https://cc.bruniaux.com/downloads/) |
 | Machine-readable index | Search and retrieval by an AI assistant | [Guide MCP](https://cc.bruniaux.com/mcp/) | [llms.txt](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/machine-readable/llms.txt) and [reference.yaml](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/machine-readable/reference.yaml) |
@@ -271,7 +276,7 @@ Use the small index for discovery:
 curl -sL https://raw.githubusercontent.com/FlorianBruniaux/claude-code-ultimate-guide/main/machine-readable/llms.txt
 ```
 
-Use [reference.yaml](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/machine-readable/reference.yaml) when the assistant needs structured topic routes and links into the full guide. Maintenance instructions belong in the [machine-readable documentation](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/machine-readable/README.md), not in this README.
+Use [reference.yaml](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/machine-readable/reference.yaml) when the assistant needs structured topic routes and links into the full guide. Maintenance instructions belong in the [machine-readable documentation](/lib/09-harness/claude-code-ultimate-guide/machine-readable), not in this README.
 
 ## Complementary ecosystem
 
@@ -289,7 +294,7 @@ No single repository needs to cover learning, installation, curation, reference 
 | Work outside software development | [Claude Cowork Guide](https://github.com/FlorianBruniaux/claude-cowork-guide) | Workflows for knowledge workers |
 | Compare coding-agent capabilities | [AI Coding Agents Matrix](https://coding-agents-matrix.dev) | Cross-agent feature comparison |
 
-This short list was reviewed on 2026-08-31. Project activity, installation methods, and scope can change. Browse the public [Ecosystem](https://cc.bruniaux.com/ecosystem/) and [Compare](https://cc.bruniaux.com/compare/) pages first. The [AI Ecosystem source](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/ecosystem/ai-ecosystem.md), [Third-Party Tools source](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/ecosystem/third-party-tools.md), and [Resource Evaluations](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/docs/resource-evaluations/README.md) retain the deeper evidence.
+This short list was reviewed on 2026-08-31. Project activity, installation methods, and scope can change. Browse the public [Ecosystem](https://cc.bruniaux.com/ecosystem/) and [Compare](https://cc.bruniaux.com/compare/) pages first. The [AI Ecosystem source](/lib/09-harness/claude-code-ultimate-guide/guide-ecosystem-ai-ecosystem/index), [Third-Party Tools source](/lib/09-harness/claude-code-ultimate-guide/guide-ecosystem-third-party-tools/index), and [Resource Evaluations](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/docs/resource-evaluations/README.md) retain the deeper evidence.
 
 ## Updates
 
@@ -298,14 +303,14 @@ Guide changes and Claude Code product releases answer different questions:
 | Feed | Tracks | Source |
 |---|---|---|
 | [Guide Changelog](https://cc.bruniaux.com/changelog/) | New pages, corrections, and major repository revisions | [CHANGELOG.md](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/CHANGELOG.md) |
-| [Claude Code Releases](https://cc.bruniaux.com/releases/) | Claude Code product versions and operational impact | [Release source](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/core/claude-code-releases.md) |
+| [Claude Code Releases](https://cc.bruniaux.com/releases/) | Claude Code product versions and operational impact | [Release source](/lib/09-harness/claude-code-ultimate-guide/guide-core-claude-code-releases/index) |
 | [RSS Feed](https://cc.bruniaux.com/rss.xml) | Published guide and product updates in a feed reader | Generated by the website |
 
 Recent guide additions include:
 
-- [Loop & Graph Engineering](https://cc.bruniaux.com/guide/loop-graph-engineering/) ([source](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/core/loop-graph-engineering.md)): bounded feedback, workflow state, stopping rules, recovery, and judgment allocation.
-- [Subscription Strategy](https://cc.bruniaux.com/guide/subscription-strategy/) ([source](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/ops/subscription-strategy.md)): seats, APIs, gateways, self-hosting scenarios, and team-scale decision gates.
-- [Cross-Session Messaging](https://cc.bruniaux.com/guide/workflows/cross-session-messaging/) ([source](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/workflows/cross-session-messaging.md)): peer discovery, delivery, security boundaries, and correlated-drift controls.
+- [Loop & Graph Engineering](https://cc.bruniaux.com/guide/loop-graph-engineering/) ([source](/lib/09-harness/claude-code-ultimate-guide/guide-core-loop-graph-engineering)): bounded feedback, workflow state, stopping rules, recovery, and judgment allocation.
+- [Subscription Strategy](https://cc.bruniaux.com/guide/subscription-strategy/) ([source](/lib/09-harness/claude-code-ultimate-guide/guide-ops-subscription-strategy)): seats, APIs, gateways, self-hosting scenarios, and team-scale decision gates.
+- [Cross-Session Messaging](https://cc.bruniaux.com/guide/workflows/cross-session-messaging/) ([source](/lib/09-harness/claude-code-ultimate-guide/guide-workflows-cross-session-messaging)): peer discovery, delivery, security boundaries, and correlated-drift controls.
 
 Use the changelog for the complete history. The README should expose only a small current selection.
 
@@ -315,13 +320,13 @@ English is the canonical edition. French is maintained in this repository. Simpl
 
 | Language | Edition |
 |---|---|
-| English | [Canonical guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/ultimate-guide.md) |
+| English | [Canonical guide](/lib/09-harness/claude-code-ultimate-guide/guide-ultimate-guide/index) |
 | Français | [French guide maintained in this repository](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/ultimate-guide.fr.md) |
 | 简体中文 | [Community edition by JAYcodr](https://github.com/JAYcodr/claude-code-ultimate-guide-zh) |
 | Українська | [Community edition by gerasimsergey](https://github.com/gerasimsergey/claude-code-ultimate-guide-ua) |
 | Español latinoamericano | [Community edition by Richardls](https://github.com/Richardls/claude-code-ultimate-guide-es) |
 
-The [translation status page](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/core/translations.md) records maintainers, source commits, coverage, measured lag, and review status.
+The [translation status page](/lib/09-harness/claude-code-ultimate-guide/guide-core-translations) records maintainers, source commits, coverage, measured lag, and review status.
 
 ## Repository map
 
@@ -345,4 +350,4 @@ docs/resource-evaluations/  Reviewed external resources
 whitepapers/                French and English long-form sources
 ```
 
-The detailed [guide index](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/README.md), [examples catalog](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/examples/README.md), and [tool index](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/tools/README.md) are the canonical navigation pages for those directories.
+The detailed [guide index](/lib/09-harness/claude-code-ultimate-guide/guide), [examples catalog](/lib/09-harness/claude-code-ultimate-guide/examples), and [tool index](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/tools/README.md) are the canonical navigation pages for those directories.

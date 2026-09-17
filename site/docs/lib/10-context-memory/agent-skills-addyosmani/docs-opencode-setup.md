@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/addyosmani/agent-skills"
-entryUrl: "https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/README.md"
+entryUrl: "https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/docs/opencode-setup.md"
+sourceRel: "docs/opencode-setup.md"
+rawUrl: "/raw/10-context-memory/agent-skills-addyosmani/docs/opencode-setup.md"
+sourceSha256: "77a6bd91ef2837acb96feea4ae60f3bfea2c4155864c197394dd2166f49de864"
+pageSha256: "77a6bd91ef2837acb96feea4ae60f3bfea2c4155864c197394dd2166f49de864"
+contentMode: "local-full"
 zh: ""
 ---
 

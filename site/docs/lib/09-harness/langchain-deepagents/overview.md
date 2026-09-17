@@ -9,6 +9,11 @@ tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/langchain-ai/deepagents"
 entryUrl: "https://github.com/langchain-ai/deepagents/blob/d93ab3351bbf4c3687212f665094ccad100f2c08/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/09-harness/langchain-deepagents/README.md"
+sourceSha256: "c404867a799a46fc6b26ac0d3824eb61135007b0e93793b07819621b9405fda1"
+pageSha256: "c404867a799a46fc6b26ac0d3824eb61135007b0e93793b07819621b9405fda1"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -98,7 +103,7 @@ The layers compose: any LangGraph `CompiledStateGraph` can be passed in as a sub
 
 ## Resources
 
-- [Examples](https://github.com/langchain-ai/deepagents/blob/d93ab3351bbf4c3687212f665094ccad100f2c08/examples/README.md) — working agents and patterns
+- [Examples](/lib/09-harness/langchain-deepagents/examples) — working agents and patterns
 - [Documentation](https://docs.langchain.com/oss/python/deepagents/overview) — conceptual overviews and guides
 - [LangChain ecosystem overview](https://docs.langchain.com/oss/python/concepts/products) — how Deep Agents, LangChain, LangGraph, and LangSmith fit together
 - [API reference](https://reference.langchain.com/python/deepagents/) — complete reference for all public classes, functions, and types

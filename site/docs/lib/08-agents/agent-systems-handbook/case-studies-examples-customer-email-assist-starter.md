@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "08-agents"
 sourceUrl: "https://github.com/Prompthon-IO/agent-systems-handbook"
-entryUrl: "https://github.com/Prompthon-IO/agent-systems-handbook/blob/5b71cfa598701a34834f33b42be5f8a422138a3c/README.md"
+entryUrl: "https://github.com/Prompthon-IO/agent-systems-handbook/blob/5b71cfa598701a34834f33b42be5f8a422138a3c/case-studies/examples/customer-email-assist-starter/index.mdx"
+sourceRel: "case-studies/examples/customer-email-assist-starter/index.mdx"
+rawUrl: "/raw/08-agents/agent-systems-handbook/case-studies/examples/customer-email-assist-starter/index.mdx"
+sourceSha256: "a8813de23324aa08c1c2358be46d67cfa4a67a085fd8c45f5656636f5a88039b"
+pageSha256: "a8813de23324aa08c1c2358be46d67cfa4a67a085fd8c45f5656636f5a88039b"
+contentMode: "local-full"
 zh: ""
 ---
 

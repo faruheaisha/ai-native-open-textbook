@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh"
-entryUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/README.md"
+entryUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/certifications/claude/lessons/14-evals-testing-debugging-and-observability/docs/zh.md"
+sourceRel: "certifications/claude/lessons/14-evals-testing-debugging-and-observability/docs/zh.md"
+rawUrl: "/raw/07-coding/ai-engineering-from-scratch-zh/certifications/claude/lessons/14-evals-testing-debugging-and-observability/docs/zh.md"
+sourceSha256: "cefdc398dc2d29dec0031ef4f125f214db0cac7417b90593ae1b87ebb7b6439e"
+pageSha256: "cefdc398dc2d29dec0031ef4f125f214db0cac7417b90593ae1b87ebb7b6439e"
+contentMode: "local-full"
 zh: ""
 ---
 

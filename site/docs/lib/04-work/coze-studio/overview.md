@@ -9,6 +9,11 @@ tier: 3
 volume: "04-work"
 sourceUrl: "https://github.com/coze-dev/coze-studio"
 entryUrl: "https://github.com/coze-dev/coze-studio/blob/fefb05ff27be1da939612fbf9faf5db62583b8ae/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/04-work/coze-studio/README.md"
+sourceSha256: "eb88f0ea792ec66d2c68eb76e36749deea4340e834eccff8ced4254639a0296e"
+pageSha256: "eb88f0ea792ec66d2c68eb76e36749deea4340e834eccff8ced4254639a0296e"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -27,7 +32,7 @@ zh: ""
   
 </p>
 
-English | [中文](https://github.com/coze-dev/coze-studio/blob/fefb05ff27be1da939612fbf9faf5db62583b8ae/README.zh_CN.md)
+English | [中文](/lib/04-work/coze-studio/README.zh_CN)
 
 </div>
 

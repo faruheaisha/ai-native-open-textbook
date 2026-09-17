@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/keyuchen21/agentic-engineering-handbook"
-entryUrl: "https://github.com/keyuchen21/agentic-engineering-handbook/blob/002d5456ac717fb6c4444005c9bb2ceff416d8c7/README.md"
+entryUrl: "https://github.com/keyuchen21/agentic-engineering-handbook/blob/002d5456ac717fb6c4444005c9bb2ceff416d8c7/tutorials/agent-loop/v2-structured-planning.md"
+sourceRel: "tutorials/agent-loop/v2-structured-planning.md"
+rawUrl: "/raw/08-agents/agentic-engineering-handbook/tutorials/agent-loop/v2-structured-planning.md"
+sourceSha256: "32f645cea53509b7f67e9f47c7f68af7b677d89501894a6f835c87ce278f2427"
+pageSha256: "32f645cea53509b7f67e9f47c7f68af7b677d89501894a6f835c87ce278f2427"
+contentMode: "local-full"
 zh: ""
 ---
 

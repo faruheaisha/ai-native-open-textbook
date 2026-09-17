@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/openai/openai-cookbook"
-entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/README.md"
+entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/articles/text_comparison_examples.md"
+sourceRel: "articles/text_comparison_examples.md"
+rawUrl: "/raw/08-agents/openai-cookbook/articles/text_comparison_examples.md"
+sourceSha256: "2febade8f33a12174b30fe4af676b7c5903774e17545f213d0494002137bc244"
+pageSha256: "2febade8f33a12174b30fe4af676b7c5903774e17545f213d0494002137bc244"
+contentMode: "local-full"
 zh: ""
 ---
 

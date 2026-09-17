@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/microsoft/skills"
-entryUrl: "https://github.com/microsoft/skills/blob/cf77b1efbf3117501f4727c476894751311ee885/README.md"
+entryUrl: "https://github.com/microsoft/skills/blob/cf77b1efbf3117501f4727c476894751311ee885/tests/scenarios/azure-ai-openai-dotnet/acceptance-criteria.md"
+sourceRel: "tests/scenarios/azure-ai-openai-dotnet/acceptance-criteria.md"
+rawUrl: "/raw/10-context-memory/microsoft-skills/tests/scenarios/azure-ai-openai-dotnet/acceptance-criteria.md"
+sourceSha256: "4a3280178e0467229d14936948964776d0e782dec363c961c2337916fbc6fa5c"
+pageSha256: "4a3280178e0467229d14936948964776d0e782dec363c961c2337916fbc6fa5c"
+contentMode: "local-full"
 zh: ""
 ---
 

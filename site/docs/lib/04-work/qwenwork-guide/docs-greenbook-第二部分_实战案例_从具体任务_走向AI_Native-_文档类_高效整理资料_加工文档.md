@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/wangxiaoshuai1998/QwenWorkGuide"
-entryUrl: "https://github.com/wangxiaoshuai1998/QwenWorkGuide/blob/002f698a68b69d3635acf6be0d6e27db69069071/README.md"
+entryUrl: "https://github.com/wangxiaoshuai1998/QwenWorkGuide/blob/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第二部分%20实战案例%20从具体任务，走向AI%20Native/【文档类】｜高效整理资料、加工文档/index.md"
+sourceRel: "docs/greenbook/第二部分 实战案例 从具体任务，走向AI Native/【文档类】｜高效整理资料、加工文档/index.md"
+rawUrl: "/raw/04-work/qwenwork-guide/docs/greenbook/第二部分 实战案例 从具体任务，走向AI Native/【文档类】｜高效整理资料、加工文档/index.md"
+sourceSha256: "c6c0a329ab2513432b1355e84cda1b8b9646bcebccc9f2388b73706ffdb2527c"
+pageSha256: "c6c0a329ab2513432b1355e84cda1b8b9646bcebccc9f2388b73706ffdb2527c"
+contentMode: "local-full"
 zh: ""
 ---
 

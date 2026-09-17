@@ -8,13 +8,18 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide"
-entryUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide/blob/57673726396dd94acb23bdb1e67f27c78ee85a8e/README.md"
+entryUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide/blob/57673726396dd94acb23bdb1e67f27c78ee85a8e/pages/agents/context-engineering.en.mdx"
+sourceRel: "pages/agents/context-engineering.en.mdx"
+rawUrl: "/raw/10-context-memory/prompt-engineering-guide/pages/agents/context-engineering.en.mdx"
+sourceSha256: "2600b74f59dbce4910de48b1ed769bf8b6adfb187d91b9634572e1526a765c20"
+pageSha256: "2600b74f59dbce4910de48b1ed769bf8b6adfb187d91b9634572e1526a765c20"
+contentMode: "local-full"
 zh: ""
 ---
 
 # Why Context Engineering?
 
-import { Callout } from 'nextra/components'
+import \{ Callout \} from 'nextra/components'
 
 [Context engineering](https://www.promptingguide.ai/guides/context-engineering-guide) is a critical practice for building reliable and effective AI agents. This guide explores the importance of context engineering through a practical example of building a deep research agent.
 

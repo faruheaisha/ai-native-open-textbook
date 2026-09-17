@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/gsd-build/get-shit-done"
-entryUrl: "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/README.md"
+entryUrl: "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/agents/gsd-code-fixer.md"
+sourceRel: "agents/gsd-code-fixer.md"
+rawUrl: "/raw/10-context-memory/get-shit-done/agents/gsd-code-fixer.md"
+sourceSha256: "6db681e16e7278124481c800504d189bb310890c41198d037708fd3df5b0c43a"
+pageSha256: "6db681e16e7278124481c800504d189bb310890c41198d037708fd3df5b0c43a"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -81,7 +86,7 @@ Before editing ANY file for a finding, establish safe rollback capability.
 3. **Verify fix:** Apply 3-tier verification strategy (see verification_strategy).
 
 4. **On verification failure:**
-   - Run `git checkout -- {file}` for EACH file in `touched_files`.
+   - Run `git checkout -- \{file\}` for EACH file in `touched_files`.
    - This is safe: the fix has NOT been committed yet (commit happens only after verification passes). `git checkout --` reverts only the uncommitted in-progress change for that file and does not affect commits from prior findings.
    - **DO NOT use Write tool for rollback** — a partial write on tool failure leaves the file corrupted with no recovery path.
 
@@ -114,15 +119,15 @@ Run syntax/parse check appropriate to file type:
 
 | Language | Check Command |
 |----------|--------------|
-| JavaScript | `node -c {file}` (syntax check) |
-| TypeScript | `npx tsc --noEmit {file}` (if tsconfig.json exists in project) |
-| Python | `python -c "import ast; ast.parse(open('{file}').read())"` |
-| JSON | `node -e "JSON.parse(require('fs').readFileSync('{file}','utf-8'))"` |
+| JavaScript | `node -c \{file\}` (syntax check) |
+| TypeScript | `npx tsc --noEmit \{file\}` (if tsconfig.json exists in project) |
+| Python | `python -c "import ast; ast.parse(open('\{file\}').read())"` |
+| JSON | `node -e "JSON.parse(require('fs').readFileSync('\{file\}','utf-8'))"` |
 | Other | Skip to Tier 1 only |
 
 **Scoping syntax checks:**
-- TypeScript: If `npx tsc --noEmit {file}` reports errors in OTHER files (not the file you just edited), those are pre-existing project errors — **IGNORE them**. Only fail if errors reference the specific file you modified.
-- JavaScript: `node -c {file}` is reliable for plain .js but NOT for JSX, TypeScript, or ESM with bare specifiers. If `node -c` fails on a file type it doesn't support, fall back to Tier 1 (re-read only) — do NOT rollback.
+- TypeScript: If `npx tsc --noEmit \{file\}` reports errors in OTHER files (not the file you just edited), those are pre-existing project errors — **IGNORE them**. Only fail if errors reference the specific file you modified.
+- JavaScript: `node -c \{file\}` is reliable for plain .js but NOT for JSX, TypeScript, or ESM with bare specifiers. If `node -c` fails on a file type it doesn't support, fall back to Tier 1 (re-read only) — do NOT rollback.
 - General rule: If a syntax check produces errors that existed BEFORE your edit (compare with pre-fix state), the fix did not introduce them. Proceed to commit.
 
 If syntax check **FAILS with errors in your modified file that were NOT present before the fix**: trigger rollback_strategy immediately.
@@ -302,10 +307,10 @@ cd "$wt"
 Concrete steps:
 1. Parse `padded_phase` and `phase_dir` from the `<config>` block (needed for the path and for the sentinel location).
 2. Resolve the current branch: `branch=$(git branch --show-current)`. If empty (detached HEAD), print an error and exit — detached-HEAD state is not supported; commits made in a detached-HEAD worktree would not advance the branch.
-3. **Recovery check (#2839, #2990):** If `${phase_dir}/.review-fix-recovery-pending.json` already exists, a prior run was interrupted. Parse the JSON, attempt to remove the orphan worktree it points at (best-effort, with `--force`), and delete the stale `reviewfix_branch` (best-effort, with `git branch -D`), then delete the stale sentinel before continuing. This makes a re-run of `/gsd:code-review --fix` self-healing.
-4. Create a unique worktree path: `wt=$(mktemp -d "/tmp/sv-${padded_phase}-reviewfix-XXXXXX")`. The `mktemp` suffix ensures concurrent runs for the same phase do not collide.
-5. Run `git worktree add -b "$reviewfix_branch" "$wt" "$branch"` — this creates a NEW branch (`gsd-reviewfix/${padded_phase}-$$`) starting from the current branch tip and attaches the worktree to that new branch. Attaching to a new branch (rather than `$branch` directly) is what allows the worktree to coexist with the user's checkout — git refuses to check out the same branch in two worktrees by default (#2990). Commits made inside the worktree advance `$reviewfix_branch`; the cleanup tail fast-forwards `$branch` to `$reviewfix_branch` so the user's branch ends up with the agent's commits.
-6. **Write the recovery sentinel** at `${phase_dir}/.review-fix-recovery-pending.json` containing `{worktree_path, branch, reviewfix_branch, padded_phase, started_at}`. Doing this AFTER `git worktree add` ensures the sentinel only ever points at a real worktree. The sentinel includes `reviewfix_branch` so recovery can clean both the orphan worktree AND its temp branch.
+3. **Recovery check (#2839, #2990):** If `${phase_dir\}/.review-fix-recovery-pending.json` already exists, a prior run was interrupted. Parse the JSON, attempt to remove the orphan worktree it points at (best-effort, with `--force`), and delete the stale `reviewfix_branch` (best-effort, with `git branch -D`), then delete the stale sentinel before continuing. This makes a re-run of `/gsd:code-review --fix` self-healing.
+4. Create a unique worktree path: `wt=$(mktemp -d "/tmp/sv-${padded_phase\}-reviewfix-XXXXXX")`. The `mktemp` suffix ensures concurrent runs for the same phase do not collide.
+5. Run `git worktree add -b "$reviewfix_branch" "$wt" "$branch"` — this creates a NEW branch (`gsd-reviewfix/${padded_phase\}-$$`) starting from the current branch tip and attaches the worktree to that new branch. Attaching to a new branch (rather than `$branch` directly) is what allows the worktree to coexist with the user's checkout — git refuses to check out the same branch in two worktrees by default (#2990). Commits made inside the worktree advance `$reviewfix_branch`; the cleanup tail fast-forwards `$branch` to `$reviewfix_branch` so the user's branch ends up with the agent's commits.
+6. **Write the recovery sentinel** at `${phase_dir\}/.review-fix-recovery-pending.json` containing `\{worktree_path, branch, reviewfix_branch, padded_phase, started_at\}`. Doing this AFTER `git worktree add` ensures the sentinel only ever points at a real worktree. The sentinel includes `reviewfix_branch` so recovery can clean both the orphan worktree AND its temp branch.
 7. All subsequent file reads, edits, and commits happen inside `$wt` (which is on `$reviewfix_branch`, not `$branch`).
 
 **If `git worktree add` fails**, surface the error and exit — do not force-remove the path, as another concurrent run may be holding it. Do not write the sentinel (the worktree does not exist). Do not delete `$reviewfix_branch` either; if `-b` failed, no temp branch was created.
@@ -381,7 +386,7 @@ cat {review_path}
 Extract `status:` from YAML frontmatter (between `---` delimiters).
 
 If status is `"clean"` or `"skipped"`:
-- Exit with message: "No issues to fix -- REVIEW.md status is {status}."
+- Exit with message: "No issues to fix -- REVIEW.md status is \{status\}."
 - Do NOT create REVIEW-FIX.md
 - Exit code 0 (not an error, just nothing to do)
 
@@ -425,7 +430,7 @@ For each finding in sorted order:
 **b. Record files to touch (for rollback):**
 - For EVERY file about to be modified:
   - Record file path in `touched_files` list for this finding
-  - No pre-capture needed — rollback uses `git checkout -- {file}` which is atomic
+  - No pre-capture needed — rollback uses `git checkout -- \{file\}` which is atomic
 
 **c. Determine if fix applies:**
 - Compare current code state to what reviewer described
@@ -593,13 +598,13 @@ _Iteration: {N}_
 
 **ALWAYS run inside the isolated worktree** — set up via `branch=$(git branch --show-current)` + `wt=$(mktemp -d "/tmp/sv-${padded_phase}-reviewfix-XXXXXX")` + `git worktree add -b "$reviewfix_branch" "$wt" "$branch"` at the very start (see `setup_worktree` step). Using `mktemp` ensures concurrent runs do not collide. Attaching to a NEW branch `$reviewfix_branch` (not `$branch` directly) is required because git refuses to check out the same branch in two worktrees by default — `$branch` is already checked out in the user's main repo (#2990). Commits advance `$reviewfix_branch`; the cleanup tail fast-forwards `$branch` to `$reviewfix_branch` so the user's branch ends up with the agent's commits. Every file read, edit, and commit must happen inside `$wt`. Run the four-step cleanup tail unconditionally when done (treat it as a finally block). If `git worktree add` fails, exit with an error rather than force-removing a path another run may hold. This prevents racing the foreground session on the shared main working tree (#2686).
 
-**ALWAYS run the transactional cleanup tail in order** (#2839, #2990): the cleanup is four steps with strict ordering. (1) `git -C "$main_repo" merge --ff-only "$reviewfix_branch"` — fast-forward the user's branch to capture the agent's commits; on divergence, fail loudly and preserve the temp branch. (2) `git worktree remove "$wt" --force`. (3) `git -C "$main_repo" branch -D "$reviewfix_branch"` ONLY if the fast-forward succeeded; otherwise leave the temp branch for manual merge. (4) `rm -f "$sentinel"` (the recovery sentinel at `${phase_dir}/.review-fix-recovery-pending.json`). The sentinel is written AFTER `git worktree add` succeeds and removed only AFTER `git worktree remove` returns successfully. The temp branch is deleted only when the fast-forward succeeded. This ordering is what makes the cleanup tail transactional — an interruption between commits and `git worktree remove` leaves the sentinel behind (with `reviewfix_branch` recorded) so a future run, `/gsd:resume-work`, or `/gsd:progress` can detect and complete the recovery. Reversing the order recreates the orphan-worktree bug.
+**ALWAYS run the transactional cleanup tail in order** (#2839, #2990): the cleanup is four steps with strict ordering. (1) `git -C "$main_repo" merge --ff-only "$reviewfix_branch"` — fast-forward the user's branch to capture the agent's commits; on divergence, fail loudly and preserve the temp branch. (2) `git worktree remove "$wt" --force`. (3) `git -C "$main_repo" branch -D "$reviewfix_branch"` ONLY if the fast-forward succeeded; otherwise leave the temp branch for manual merge. (4) `rm -f "$sentinel"` (the recovery sentinel at `${phase_dir\}/.review-fix-recovery-pending.json`). The sentinel is written AFTER `git worktree add` succeeds and removed only AFTER `git worktree remove` returns successfully. The temp branch is deleted only when the fast-forward succeeded. This ordering is what makes the cleanup tail transactional — an interruption between commits and `git worktree remove` leaves the sentinel behind (with `reviewfix_branch` recorded) so a future run, `/gsd:resume-work`, or `/gsd:progress` can detect and complete the recovery. Reversing the order recreates the orphan-worktree bug.
 
 **ALWAYS use the Write tool to create files** — never use `Bash(cat << 'EOF')` or heredoc commands for file creation.
 
 **DO read the actual source file** before applying any fix — never blindly apply REVIEW.md suggestions without understanding current code state.
 
-**DO record which files will be touched** before every fix attempt — this is your rollback list. Rollback is `git checkout -- {file}`, not content capture.
+**DO record which files will be touched** before every fix attempt — this is your rollback list. Rollback is `git checkout -- \{file\}`, not content capture.
 
 **DO commit each fix atomically** — one commit per finding, listing ALL modified file paths after the commit message.
 
@@ -612,7 +617,7 @@ _Iteration: {N}_
 
 **DO skip findings that cannot be applied cleanly** — do not force broken fixes. Mark as skipped with clear reason.
 
-**DO rollback using `git checkout -- {file}`** — atomic and safe since the fix has not been committed yet. Do NOT use Write tool for rollback (partial write on tool failure corrupts the file).
+**DO rollback using `git checkout -- \{file\}`** — atomic and safe since the fix has not been committed yet. Do NOT use Write tool for rollback (partial write on tool failure corrupts the file).
 
 **DO NOT modify files unrelated to the finding** — scope each fix narrowly to the issue at hand.
 
@@ -662,13 +667,13 @@ Fixes are committed **per-finding**. This has operational implications:
 &lt;success_criteria>
 
 - [ ] All in-scope findings attempted (either fixed or skipped with reason)
-- [ ] Each fix committed atomically with `fix({padded_phase}): {id} {description}` format
+- [ ] Each fix committed atomically with `fix(\{padded_phase\}): \{id\} \{description\}` format
 - [ ] All modified files listed after each commit message (multi-file fix support)
 - [ ] REVIEW-FIX.md created with accurate counts, status, and iteration number
 - [ ] No source files left in broken state (failed fixes rolled back via git checkout)
 - [ ] No partial or uncommitted changes remain after execution
 - [ ] Verification performed for each fix (minimum: re-read, preferred: syntax check)
-- [ ] Safe rollback used `git checkout -- {file}` (atomic, not Write tool)
+- [ ] Safe rollback used `git checkout -- \{file\}` (atomic, not Write tool)
 - [ ] Skipped findings documented with specific skip reasons
 - [ ] Project conventions from CLAUDE.md respected during fixes
 

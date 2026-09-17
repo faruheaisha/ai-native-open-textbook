@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/Windy3f3f3f3f/claude-code-from-scratch"
-entryUrl: "https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/README.md"
+entryUrl: "https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/docs/13-whats-next.md"
+sourceRel: "docs/13-whats-next.md"
+rawUrl: "/raw/09-harness/claude-code-from-scratch/docs/13-whats-next.md"
+sourceSha256: "504f63fd86ffb22de4c95bf61a18043d9e3657e2c6ad8afb085cbdea2cefe877"
+pageSha256: "504f63fd86ffb22de4c95bf61a18043d9e3657e2c6ad8afb085cbdea2cefe877"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -82,7 +87,7 @@ Claude Code 用 tree-sitter 解析 shell 命令的 AST，进行 23 项静态安�
 
 ### 第一阶段：前缀缓存（已完成）
 
-Prompt Caching 已经按 Claude Code 的做法补上了，细节在 [第 7 章：前缀缓存](https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/docs/docs/07-context.md)。做法是给系统提示词的静态部分标 `cache_control: { type: "ephemeral" }`，再给最后一条消息滚动打一个断点；命中的前缀按 0.1× 计费。多轮对话里第二轮起，前面积累的 system、工具定义和历史消息基本都从缓存读，只有最新的增量需要重新处理。
+Prompt Caching 已经按 Claude Code 的做法补上了，细节在 [第 7 章：前缀缓存](https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/docs/docs/07-context.md)。做法是给系统提示词的静态部分标 `cache_control: \{ type: "ephemeral" \}`，再给最后一条消息滚动打一个断点；命中的前缀按 0.1× 计费。多轮对话里第二轮起，前面积累的 system、工具定义和历史消息基本都从缓存读，只有最新的增量需要重新处理。
 
 ### 自治与续跑三件套（已完成）
 
@@ -131,7 +136,7 @@ Claude Code 的 `query.ts` 有 1728 行，大部分是边缘情况处理：Promp
 }
 ```
 
-核心逻辑：遍历匹配的 hook，spawn 子进程传 JSON，根据 `{"action": "allow"}` / `{"action": "deny", "reason": "..."}` 决定是否继续执行。约 300 行，最耗时的是子进程的超时和 crash 处理。
+核心逻辑：遍历匹配的 hook，spawn 子进程传 JSON，根据 `\{"action": "allow"\}` / `\{"action": "deny", "reason": "..."\}` 决定是否继续执行。约 300 行，最耗时的是子进程的超时和 crash 处理。
 
 ### 2. 错误自修复
 

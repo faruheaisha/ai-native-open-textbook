@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/ed-donner/production"
-entryUrl: "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/README.md"
+entryUrl: "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/community_contributions/damola_ai_twin.md"
+sourceRel: "community_contributions/damola_ai_twin.md"
+rawUrl: "/raw/08-agents/ed-donner-production/community_contributions/damola_ai_twin.md"
+sourceSha256: "6772edccf7466ed26e3a047d43acd7e38fab8c0eb96f65e81550a399cba059f2"
+pageSha256: "6772edccf7466ed26e3a047d43acd7e38fab8c0eb96f65e81550a399cba059f2"
+contentMode: "local-full"
 zh: ""
 ---
 

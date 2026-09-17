@@ -1,0 +1,18 @@
+{
+  "id": "01-foundations/openai-api-docs-en",
+  "volume": "01-foundations",
+  "local": "openai-api-docs-en",
+  "title": "OpenAI API 文档（英文）",
+  "kind": "官方文档",
+  "license": "官方文档（站点条款）",
+  "licenseLabel": "仅引用",
+  "licenseNote": "不可整篇转载，站内只做导航与引用",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": false,
+  "repo": null,
+  "site": "https://developers.openai.com/api/docs",
+  "commit": null,
+  "entryUrl": "https://developers.openai.com/api/docs",
+  "docs": 334
+}

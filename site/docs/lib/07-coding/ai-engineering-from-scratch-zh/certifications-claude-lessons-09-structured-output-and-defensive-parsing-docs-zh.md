@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh"
-entryUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/README.md"
+entryUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/certifications/claude/lessons/09-structured-output-and-defensive-parsing/docs/zh.md"
+sourceRel: "certifications/claude/lessons/09-structured-output-and-defensive-parsing/docs/zh.md"
+rawUrl: "/raw/07-coding/ai-engineering-from-scratch-zh/certifications/claude/lessons/09-structured-output-and-defensive-parsing/docs/zh.md"
+sourceSha256: "99c8c45ed532b0eee090c4ece564f0a467765901cfb6827c4248cb58daf65d6e"
+pageSha256: "99c8c45ed532b0eee090c4ece564f0a467765901cfb6827c4248cb58daf65d6e"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -241,7 +246,7 @@ Claude 的工具使用也会提供结构化输入，但它服务于不同边界�
 |---|---|---|
 | `auto` | 模型可以调用工具，或返回对话文本 | 两条路径都有效 |
 | `any` | 模型必须调用所提供工具之一 | 需要类型化工具结果，但有多个有效 schema |
-| `{"type":"tool","name":"extract_metadata"}` | 必须选择指定工具 | 后续工作前必须执行一次已知提取 |
+| `\{"type":"tool","name":"extract_metadata"\}` | 必须选择指定工具 | 后续工作前必须执行一次已知提取 |
 
 对于最终的机器可读响应，如果当前原生结构化输出能力支持所需 schema 与功能组合，应优先使用它。只有当工作流确实在选择或调用工具时，才使用工具 schema。无论哪一种，语义校验和授权仍是应用的职责。
 
@@ -259,7 +264,7 @@ JSON parse -> Pydantic shape validation -> domain validation -> authorization
 
 ## 流式传输产生不完整语法
 
-通过流接收的 JSON，直到相关内容块结束之前都不完整。前缀 `{"category":"bill` 还不是无效内容，它尚未完成。
+通过流接收的 JSON，直到相关内容块结束之前都不完整。前缀 `\{"category":"bill` 还不是无效内容，它尚未完成。
 
 缓冲结构化块。不要反复解析每个字符，除非使用专为增量 JSON 设计、且确实理解其部分状态语义的解析器。不要在某个必填字段恰好较早出现时触发下游动作。
 

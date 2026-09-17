@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/openai/openai-cookbook"
-entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/README.md"
+entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/articles/gpt-oss-safeguard-guide.md"
+sourceRel: "articles/gpt-oss-safeguard-guide.md"
+rawUrl: "/raw/08-agents/openai-cookbook/articles/gpt-oss-safeguard-guide.md"
+sourceSha256: "c5f5af7ccd5af9c308a8b89810147d68a15d83a15f4019c48a52ec410d567cda"
+pageSha256: "c5f5af7ccd5af9c308a8b89810147d68a15d83a15f4019c48a52ec410d567cda"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know"
-entryUrl: "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/README.md"
+entryUrl: "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/docs/reference/models.md"
+sourceRel: "docs/reference/models.md"
+rawUrl: "/raw/09-harness/claude-code-everything/docs/reference/models.md"
+sourceSha256: "dd81f54eebfed042ac968d9ef7ead956c11bea9d8d255eb2af15454b071c5b40"
+pageSha256: "dd81f54eebfed042ac968d9ef7ead956c11bea9d8d255eb2af15454b071c5b40"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -67,7 +72,7 @@ Announced May 28, 2026, replacing Opus 4.7 at **unchanged pricing** ($5/$25).
 Announced June 9, 2026 with Mythos 5 — the first *Mythos-class* models, a capability tier above Opus.
 
 - **$10/$50 per MTok** (batch $5/$25).
-- **Adaptive thinking is always on** — `thinking: {type: "disabled"}` is rejected.
+- **Adaptive thinking is always on** — `thinking: \{type: "disabled"\}` is rejected.
 - Dual-use safety classifiers (cyber, bio/chem, distillation) fall back to Opus 4.8 instead of refusing.
 - Uses the Opus 4.7 tokenizer — **~30% more tokens for the same text** vs pre-4.7 models; budget accordingly.
 - Was included free on Pro/Max/Team from June 9–22, 2026; since June 23 it draws usage credits on subscription plans. GA on API, Bedrock, Google Cloud, and Foundry.

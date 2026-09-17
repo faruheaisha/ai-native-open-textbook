@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases"
-entryUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/README.md"
+entryUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/aionui-cowork-desktop.md"
+sourceRel: "usecases/aionui-cowork-desktop.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-usecases/usecases/aionui-cowork-desktop.md"
+sourceSha256: "60fe2f8958ab4747ec97a95febdb8a8874436e6820af3589b26b540d802a5a36"
+pageSha256: "60fe2f8958ab4747ec97a95febdb8a8874436e6820af3589b26b540d802a5a36"
+contentMode: "local-full"
 zh: ""
 ---
 

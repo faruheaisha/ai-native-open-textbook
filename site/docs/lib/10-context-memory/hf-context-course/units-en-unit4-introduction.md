@@ -1,0 +1,117 @@
+---
+title: "Unit 4: Subagents"
+sourceId: "10-context-memory/hf-context-course"
+sourceTitle: "The Context Course"
+sourceKind: "系统课程"
+licenseLabel: "仅引用"
+lang: "英文"
+tier: 1
+volume: "10-context-memory"
+sourceUrl: "https://github.com/huggingface/context-course"
+entryUrl: "https://github.com/huggingface/context-course/blob/0448a7ca721a63a81531e1ba94f46f897c70645b/units/en/unit4/introduction.mdx"
+sourceRel: "units/en/unit4/introduction.mdx"
+rawUrl: "/raw/10-context-memory/hf-context-course/units/en/unit4/introduction.mdx"
+sourceSha256: "354f1253758ac6a78339bf12687a3ce00a76500c9b95a28e5388c8fcca1ba1d1"
+pageSha256: "354f1253758ac6a78339bf12687a3ce00a76500c9b95a28e5388c8fcca1ba1d1"
+contentMode: "local-full"
+zh: ""
+---
+
+# Unit 4: Subagents
+
+Subagents are isolated agent instances spawned by a parent agent to handle subtasks, often in parallel. Each has its own context window, execution limits, and tool access, and reports back to the parent.
+
+```
+Parent Agent (Main Task)
+    │
+    ├─→ Subagent 1 (Subtask A) — Separate context, separate tools
+    ├─→ Subagent 2 (Subtask B) — Separate context, separate tools
+    └─→ Subagent 3 (Subtask C) — Separate context, separate tools
+    
+    Wait for all → Aggregate results → Final answer
+```
+
+## Why Single-Agent Workflows Hit Limits
+
+A single agent runs into the same handful of problems every time. Large tasks overflow its context window. Work runs sequentially even when it could be parallel. An agent expected to be expert in everything dilutes its focus. Unrelated tasks interfere with each other in the same reasoning chain. And a single failure takes down the whole workflow, because there's no isolation. Subagents address all of these.
+
+## The 5 Use Cases for Subagents
+
+There are 5 clear signals that subagents are the right approach:
+
+### 1. Research-Heavy Tasks
+When you need to read 10+ files or documents:
+```
+Parent: "Summarize our architecture"
+├─ Subagent A: Read and summarize backend docs (50 files)
+├─ Subagent B: Read and summarize frontend docs (40 files)
+└─ Subagent C: Read and summarize database docs (30 files)
+Parent: Combine summaries into architecture overview
+```
+
+### 2. Multiple Independent Tasks
+When you have 3+ pieces of work that don't depend on each other:
+```
+Parent: "Prepare launch report"
+├─ Subagent A: Gather sales metrics (2 hours of API calls)
+├─ Subagent B: Compile feature list from GitHub (1 hour)
+└─ Subagent C: Collect user feedback from surveys (1 hour)
+Parent: Aggregate into one report
+```
+
+A single agent would take 4 hours. Subagents: ~2 hours (parallel execution).
+
+### 3. Fresh Perspective Verification
+When you need unbiased review or independent verification:
+```
+Parent: "Implement payment system"
+├─ Subagent A: Implement feature
+└─ Subagent B (read-only): Review implementation for bugs
+```
+
+The verification subagent has no memory of implementation choices, so it spots gaps.
+
+### 4. Pre-Commit Verification
+When you want independent validation before merging:
+```
+Parent: "Propose code changes"
+├─ Subagent A: Write code
+└─ Subagent B (read-only): Security review before commit
+```
+
+Prevents bad code from reaching the repository.
+
+### 5. Pipeline Workflows
+When tasks have clear sequential stages:
+```
+Parent orchestrates:
+├─ Design Stage
+│  └─ Subagent: Design API schema
+├─ Implementation Stage
+│  └─ Subagent: Write code (using design from stage 1)
+└─ Testing Stage
+   └─ Subagent: Test code (using code from stage 2)
+```
+
+Clear separation of concerns, easy to track progress. 
+
+A single agent could handle these stages sequentially, but subagents give each stage an isolated context window. The testing subagent receives only the finished code, not the full history of design discussions and implementation decisions that built up in the parent's context. This keeps each stage focused and prevents context bloat from degrading output quality on longer pipelines. It also allows the subagent to be more nit-picky and critical of the work the previous agent did and ensures outputs are as robust as possible.
+
+## The Strong Signal: "10+ Files"
+
+A strong signal to determine whether you need to use subagents in your workflow is if you find yourself thinking something along the lines of:
+- "I need to read 10+ files to understand this"
+- "I'm doing 3+ independent pieces of work"
+- "I want a second opinion on this"
+
+## Subagent Benefits
+
+Subagents enable parallel execution across multiple tasks simultaneously, give each task its own context window to prevent overflow, allow specialized tool access per agent, isolate failures so one crash doesn't take down the whole workflow, scale without slowing the parent, and decompose complexity naturally into manageable pieces.
+
+## When NOT to Use Subagents
+
+Avoid subagents for sequential dependent work where task B needs output from task A, same-file parallel edits that risk git conflicts, small quick tasks where spawn overhead exceeds the task itself, and workflows requiring more than five specialist agents where coordination becomes chaotic.
+
+## What You'll Learn
+
+This unit covers subagent patterns (fan-out/fan-in, pipeline, supervisor, swarm), the signals that tell you a task needs subagents, how to invoke them in Claude Code and Codex, and a hands-on research–implement–review pipeline.

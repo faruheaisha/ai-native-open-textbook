@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/Osly-AI/PocketManus"
-entryUrl: "https://github.com/Osly-AI/PocketManus/blob/8ab0ec5f2d5dc17ff58b060af7afcda08a9f57fd/README.md"
+entryUrl: "https://github.com/Osly-AI/PocketManus/blob/8ab0ec5f2d5dc17ff58b060af7afcda08a9f57fd/PocketFlow/docs/core_abstraction/communication.md"
+sourceRel: "PocketFlow/docs/core_abstraction/communication.md"
+rawUrl: "/raw/08-agents/pocket-manus/PocketFlow/docs/core_abstraction/communication.md"
+sourceSha256: "40c8095fe1d6e8073f5e7ea8f0ff8f9b014285a6b3a268590f0a7a7b4950ce7c"
+pageSha256: "40c8095fe1d6e8073f5e7ea8f0ff8f9b014285a6b3a268590f0a7a7b4950ce7c"
+contentMode: "local-full"
 zh: ""
 ---
 

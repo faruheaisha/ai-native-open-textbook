@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide"
-entryUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/README.md"
+entryUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/docs/for-cto.md"
+sourceRel: "docs/for-cto.md"
+rawUrl: "/raw/09-harness/claude-code-ultimate-guide/docs/for-cto.md"
+sourceSha256: "7df03e3edcef5f35e48b52cf251dc223fffe9df06c1a02b091de9185f89a6002"
+pageSha256: "7df03e3edcef5f35e48b52cf251dc223fffe9df06c1a02b091de9185f89a6002"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -117,6 +122,6 @@ If you want to accelerate adoption or get an independent assessment of your curr
 ## Quick links
 
 - Whitepapers (10 focused deep-dives): [cc.bruniaux.com/whitepapers](https://cc.bruniaux.com/whitepapers/)
-- [Security Hardening Guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/security/security-hardening.md)
+- [Security Hardening Guide](/lib/09-harness/claude-code-ultimate-guide/guide-security-security-hardening/index)
 
 ← [Back to main README](/lib/09-harness/claude-code-ultimate-guide/overview)

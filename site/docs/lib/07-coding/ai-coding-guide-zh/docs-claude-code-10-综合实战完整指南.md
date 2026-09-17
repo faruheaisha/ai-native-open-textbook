@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh"
-entryUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/README.md"
+entryUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/docs/claude-code/10-综合实战完整指南.md"
+sourceRel: "docs/claude-code/10-综合实战完整指南.md"
+rawUrl: "/raw/07-coding/ai-coding-guide-zh/docs/claude-code/10-综合实战完整指南.md"
+sourceSha256: "84bc1161b647a467ee881d19719688b13697c21d1747a46784166c53eb909552"
+pageSha256: "84bc1161b647a467ee881d19719688b13697c21d1747a46784166c53eb909552"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -163,7 +168,7 @@ project-root/
 
 #### 1.2.3 命名规范
 
-**命令文件命名**：`{序号}-{功能域}.md`
+**命令文件命名**：`\{序号\}-\{功能域\}.md`
 
 序号规则：
 - 00-09：基础设施命令（help、setup）
@@ -173,7 +178,7 @@ project-root/
 - 40-49：数据命令（migrate、seed）
 - 90-99：工具命令（debug、monitor）
 
-**技能包命名**：`{项目名}-{功能}`
+**技能包命名**：`\{项目名\}-\{功能\}`
 
 示例：
 - `ecommerce-checkout`：电商结算流程

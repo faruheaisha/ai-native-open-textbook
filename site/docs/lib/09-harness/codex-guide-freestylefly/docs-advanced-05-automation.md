@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/freestylefly/CodexGuide"
-entryUrl: "https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/README.md"
+entryUrl: "https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/advanced/05-automation.md"
+sourceRel: "docs/advanced/05-automation.md"
+rawUrl: "/raw/09-harness/codex-guide-freestylefly/docs/advanced/05-automation.md"
+sourceSha256: "796ed4d9a8a6726627a85d48c375029d0a0a59c91dedaa0fcf6d6466e10f7576"
+pageSha256: "796ed4d9a8a6726627a85d48c375029d0a0a59c91dedaa0fcf6d6466e10f7576"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "01-foundations"
 sourceUrl: "https://github.com/zorost/AI-Engineering-Lab"
-entryUrl: "https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/README.md"
+entryUrl: "https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/curriculum/learning-path.md"
+sourceRel: "curriculum/learning-path.md"
+rawUrl: "/raw/01-foundations/ai-engineering-lab/curriculum/learning-path.md"
+sourceSha256: "a79f0fef9e8b918e44a73fbef092410c4ef27fa366f7abf91d0bce36f6dc2028"
+pageSha256: "a79f0fef9e8b918e44a73fbef092410c4ef27fa366f7abf91d0bce36f6dc2028"
+contentMode: "local-full"
 zh: ""
 ---
 

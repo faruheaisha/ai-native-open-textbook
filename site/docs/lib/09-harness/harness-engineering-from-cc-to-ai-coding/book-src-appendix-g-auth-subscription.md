@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding"
-entryUrl: "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding/blob/e40e0feec02b90e308ccbfc7a8911d64118ccca0/README.md"
+entryUrl: "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding/blob/e40e0feec02b90e308ccbfc7a8911d64118ccca0/book/src/appendix/g-auth-subscription.md"
+sourceRel: "book/src/appendix/g-auth-subscription.md"
+rawUrl: "/raw/09-harness/harness-engineering-from-cc-to-ai-coding/book/src/appendix/g-auth-subscription.md"
+sourceSha256: "8433be1e1d2dc33d780e5349c46fc3d712b7bbfc92e94e3e3773e74963e6f042"
+pageSha256: "8433be1e1d2dc33d780e5349c46fc3d712b7bbfc92e94e3e3773e74963e6f042"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/langgptai/wonderful-prompts"
-entryUrl: "https://github.com/langgptai/wonderful-prompts/blob/c8e5dbd3bc01740728fd1ab8f8d4f654a17e3697/README.md"
+entryUrl: "https://github.com/langgptai/wonderful-prompts/blob/c8e5dbd3bc01740728fd1ab8f8d4f654a17e3697/examples/GPT_Generate_A_book.md"
+sourceRel: "examples/GPT_Generate_A_book.md"
+rawUrl: "/raw/10-context-memory/wonderful-prompts/examples/GPT_Generate_A_book.md"
+sourceSha256: "7a54d332a2bd410cd7416a9c952bf7795c59a28b250cfed2735c3d84f16a51af"
+pageSha256: "7a54d332a2bd410cd7416a9c952bf7795c59a28b250cfed2735c3d84f16a51af"
+contentMode: "local-full"
 zh: ""
 ---
 

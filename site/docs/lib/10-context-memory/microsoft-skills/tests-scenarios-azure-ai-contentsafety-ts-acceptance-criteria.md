@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/microsoft/skills"
-entryUrl: "https://github.com/microsoft/skills/blob/cf77b1efbf3117501f4727c476894751311ee885/README.md"
+entryUrl: "https://github.com/microsoft/skills/blob/cf77b1efbf3117501f4727c476894751311ee885/tests/scenarios/azure-ai-contentsafety-ts/acceptance-criteria.md"
+sourceRel: "tests/scenarios/azure-ai-contentsafety-ts/acceptance-criteria.md"
+rawUrl: "/raw/10-context-memory/microsoft-skills/tests/scenarios/azure-ai-contentsafety-ts/acceptance-criteria.md"
+sourceSha256: "ecf890d86016b28640fa4358b3799fc422b90a18a087e016ecb1cc7dd8ab052b"
+pageSha256: "ecf890d86016b28640fa4358b3799fc422b90a18a087e016ecb1cc7dd8ab052b"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial"
-entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/README.md"
+entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/docs/02-core-features/05-knowledge-management.md"
+sourceRel: "docs/02-core-features/05-knowledge-management.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-tutorial/docs/02-core-features/05-knowledge-management.md"
+sourceSha256: "9f5095943f36dd815fce2cedcc7198ec586ce61121f0ae28fff43e74e70bfe8b"
+pageSha256: "9f5095943f36dd815fce2cedcc7198ec586ce61121f0ae28fff43e74e70bfe8b"
+contentMode: "local-full"
 zh: ""
 ---
 

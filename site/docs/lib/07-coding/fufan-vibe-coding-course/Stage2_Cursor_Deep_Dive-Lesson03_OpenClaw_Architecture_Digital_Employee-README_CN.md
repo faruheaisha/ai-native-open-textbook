@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/fufankeji/FuFan-VibeCodingCourse"
-entryUrl: "https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/README_CN.md"
+entryUrl: "https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/Stage2_Cursor_Deep_Dive/Lesson03_OpenClaw_Architecture_Digital_Employee/README_CN.md"
+sourceRel: "Stage2_Cursor_Deep_Dive/Lesson03_OpenClaw_Architecture_Digital_Employee/README_CN.md"
+rawUrl: "/raw/07-coding/fufan-vibe-coding-course/Stage2_Cursor_Deep_Dive/Lesson03_OpenClaw_Architecture_Digital_Employee/README_CN.md"
+sourceSha256: "87f490ce5af634cf946d072d32f77807f87f05dc9feb60c9c48ccb31347e78c4"
+pageSha256: "87f490ce5af634cf946d072d32f77807f87f05dc9feb60c9c48ccb31347e78c4"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -40,4 +45,4 @@ zh: ""
 
 ## 相关
 
-- [← 返回阶段二目录](https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/Stage2_Cursor_Deep_Dive/README_CN.md)
+- [← 返回阶段二目录](/lib/07-coding/fufan-vibe-coding-course/Stage2_Cursor_Deep_Dive-README_CN)

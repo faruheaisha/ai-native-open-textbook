@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/google-gemini/cookbook"
-entryUrl: "https://github.com/google-gemini/cookbook/blob/a1b990c859a34823c982f70edaff35b830511c64/README.md"
+entryUrl: "https://github.com/google-gemini/cookbook/blob/a1b990c859a34823c982f70edaff35b830511c64/examples/mlflow/README.md"
+sourceRel: "examples/mlflow/README.md"
+rawUrl: "/raw/08-agents/gemini-cookbook/examples/mlflow/README.md"
+sourceSha256: "817d96f29adfd863a3a1e8d52d00730a732f01d4645fbeb01ba605705ea1f8b0"
+pageSha256: "817d96f29adfd863a3a1e8d52d00730a732f01d4645fbeb01ba605705ea1f8b0"
+contentMode: "local-full"
 zh: ""
 ---
 

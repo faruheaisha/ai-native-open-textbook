@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/ai-boost/awesome-harness-engineering"
-entryUrl: "https://github.com/ai-boost/awesome-harness-engineering/blob/6015473ad287575fc06d0ddd7835306250a66b9f/README.md"
+entryUrl: "https://github.com/ai-boost/awesome-harness-engineering/blob/6015473ad287575fc06d0ddd7835306250a66b9f/templates/IMPLEMENT.md"
+sourceRel: "templates/IMPLEMENT.md"
+rawUrl: "/raw/09-harness/awesome-harness-engineering-aiboost/templates/IMPLEMENT.md"
+sourceSha256: "a6ba6177f0f3cb18c97df0bee7e79d9fdfe9dc01430951e4a3fa5284991a1601"
+pageSha256: "a6ba6177f0f3cb18c97df0bee7e79d9fdfe9dc01430951e4a3fa5284991a1601"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/patchy631/ai-engineering-hub"
-entryUrl: "https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/README.md"
+entryUrl: "https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/build-code-harness/README.md"
+sourceRel: "build-code-harness/README.md"
+rawUrl: "/raw/10-context-memory/ai-engineering-hub/build-code-harness/README.md"
+sourceSha256: "79b9366423628ddd56d5e2f0b34f3d47e12b6d07d17a2bc3ca7cd24705fd9905"
+pageSha256: "79b9366423628ddd56d5e2f0b34f3d47e12b6d07d17a2bc3ca7cd24705fd9905"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -49,7 +54,7 @@ MODEL="openrouter/anthropic/claude-sonnet-4-6"
 - `memory=True` is on for this crew, and CrewAI's memory system needs an embedding model to turn text into vectors before it can save or recall anything.
 - By default that embedder is OpenAI's `text-embedding-3-large`, regardless of which provider the agents themselves run on, so this key is required even though every LLM call elsewhere in the project goes through OpenRouter.
 - Go to [OpenAI](https://platform.openai.com/account/api-keys) and create a key.
-- If you'd rather not add a second provider, point the crew at a different embedder instead (`embedder={"provider": "ollama", ...}` is a documented CrewAI option in [memory](http://docs.crewai.com/edge/en/concepts/memory)), or turn `memory=True` off.
+- If you'd rather not add a second provider, point the crew at a different embedder instead (`embedder=\{"provider": "ollama", ...\}` is a documented CrewAI option in [memory](http://docs.crewai.com/edge/en/concepts/memory)), or turn `memory=True` off.
 
 ```
 OPENAI_API_KEY="..."

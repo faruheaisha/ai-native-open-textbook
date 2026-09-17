@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/ed-donner/agents"
-entryUrl: ""
+entryUrl: "https://github.com/ed-donner/agents/blob/8ceaf66c24643627c1e4806851736bdd444bdd4b/1_foundations/community_contributions/alter-ego-gradio-chatbot-usingAzureOpenai/README.md"
+sourceRel: "1_foundations/community_contributions/alter-ego-gradio-chatbot-usingAzureOpenai/README.md"
+rawUrl: "/raw/08-agents/ed-donner-agents/1_foundations/community_contributions/alter-ego-gradio-chatbot-usingAzureOpenai/README.md"
+sourceSha256: "b3fc6f7541d526414a7ef1086976aadc0d0f644ad919ecdab89a428172e8ead3"
+pageSha256: "b3fc6f7541d526414a7ef1086976aadc0d0f644ad919ecdab89a428172e8ead3"
+contentMode: "local-full"
 zh: ""
 ---
 

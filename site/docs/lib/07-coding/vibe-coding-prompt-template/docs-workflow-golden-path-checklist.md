@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/KhazP/vibe-coding-prompt-template"
-entryUrl: "https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/README.md"
+entryUrl: "https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/docs/workflow/golden-path-checklist.md"
+sourceRel: "docs/workflow/golden-path-checklist.md"
+rawUrl: "/raw/07-coding/vibe-coding-prompt-template/docs/workflow/golden-path-checklist.md"
+sourceSha256: "1e0cf5c656753231ccc5e522aa330c7e6e3baa76cec034e1e55d83d31c63e1e0"
+pageSha256: "1e0cf5c656753231ccc5e522aa330c7e6e3baa76cec034e1e55d83d31c63e1e0"
+contentMode: "local-full"
 zh: ""
 ---
 

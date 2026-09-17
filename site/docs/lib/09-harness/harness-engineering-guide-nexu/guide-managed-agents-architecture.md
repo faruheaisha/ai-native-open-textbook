@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/nexu-io/harness-engineering-guide"
-entryUrl: "https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/README.md"
+entryUrl: "https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/managed-agents-architecture.md"
+sourceRel: "guide/managed-agents-architecture.md"
+rawUrl: "/raw/09-harness/harness-engineering-guide-nexu/guide/managed-agents-architecture.md"
+sourceSha256: "f5eccd531e7d008a4ce249649c49dce4f4fdca4c028413aea1ed516c911ac097"
+pageSha256: "f5eccd531e7d008a4ce249649c49dce4f4fdca4c028413aea1ed516c911ac097"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -94,7 +99,7 @@ The session outlives both the harness and the sandbox. If either crashes, the se
 
 ### Hands (Sandbox)
 
-Sandboxes are execution environments where the agent runs code, edits files, and executes commands. They are created on demand via `provision({resources})` and destroyed when no longer needed.
+Sandboxes are execution environments where the agent runs code, edits files, and executes commands. They are created on demand via `provision(\{resources\})` and destroyed when no longer needed.
 
 The harness calls sandboxes the same way it calls any tool: `execute(name, input) → string`. If a sandbox dies, the harness catches the error as a failed tool call and passes it to the LLM. The model can decide to retry on a fresh sandbox.
 
@@ -261,7 +266,7 @@ This is the same pattern that operating systems discovered decades ago: virtuali
 
 ## Further Reading
 
-- [Sub-Agent](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/sub-agent.md) — Spawning isolated agents with independent lifecycles
+- [Sub-Agent](/lib/09-harness/harness-engineering-guide-nexu/guide-sub-agent) — Spawning isolated agents with independent lifecycles
 - [Multi-Agent Orchestration](/lib/09-harness/harness-engineering-guide-nexu/guide-multi-agent-orchestration) — Patterns for coordinating multiple brains
 - [Sandbox](/lib/09-harness/harness-engineering-guide-nexu/guide-sandbox) — Execution environment isolation and security
 - [Scheduling & Automation](/lib/09-harness/harness-engineering-guide-nexu/guide-scheduling-and-automation) — Session targeting for long-running periodic work

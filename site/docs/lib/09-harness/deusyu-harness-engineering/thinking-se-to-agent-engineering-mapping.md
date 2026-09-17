@@ -8,14 +8,19 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/deusyu/harness-engineering"
-entryUrl: "https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/README.md"
+entryUrl: "https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/thinking/se-to-agent-engineering-mapping.md"
+sourceRel: "thinking/se-to-agent-engineering-mapping.md"
+rawUrl: "/raw/09-harness/deusyu-harness-engineering/thinking/se-to-agent-engineering-mapping.md"
+sourceSha256: "82ecf87d64667f5a56f3fb21caaafdcc3c089318f0cbcefecd9759930bd895ed"
+pageSha256: "82ecf87d64667f5a56f3fb21caaafdcc3c089318f0cbcefecd9759930bd895ed"
+contentMode: "local-full"
 zh: ""
 ---
 
 # 传统软件工程 ↔ AI Agent 工程：一张对照表，与它的三处修正
 
 > 起点：本人 2026-07-22 随手总结的一张 15 行对照表（下文原样保留）。
-> 本文把这张表当作可检验的论题，用 [references/articles.md](/lib/09-harness/deusyu-harness-engineering/references-articles) 的文献逐行校验，
+> 本文把这张表当作可检验的论题，用 [references/articles.md](/lib/09-harness/deusyu-harness-engineering/references-articles/index) 的文献逐行校验，
 > 得到：一个框架级修正（主语混了三层）、三行补全、两处语义走样、一个时间戳限定。
 > 日期：2026-07-22
 

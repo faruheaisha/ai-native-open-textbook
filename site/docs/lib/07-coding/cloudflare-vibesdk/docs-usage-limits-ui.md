@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/cloudflare/vibesdk"
-entryUrl: "https://github.com/cloudflare/vibesdk/blob/9da158d82c597a0e8f4bf033cdccd1053fb6fb15/README.md"
+entryUrl: "https://github.com/cloudflare/vibesdk/blob/9da158d82c597a0e8f4bf033cdccd1053fb6fb15/docs/usage-limits-ui.md"
+sourceRel: "docs/usage-limits-ui.md"
+rawUrl: "/raw/07-coding/cloudflare-vibesdk/docs/usage-limits-ui.md"
+sourceSha256: "9f02b823ed242fa399dc0ee2fb4c937fe7dde8f4775cd7b85c7fcb753c71104c"
+pageSha256: "9f02b823ed242fa399dc0ee2fb4c937fe7dde8f4775cd7b85c7fcb753c71104c"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -133,7 +138,7 @@ Triggered by `checkCanSendPrompt` (pre-flight) and `getBackendLimitDialog` (on b
 | `limitCheck.withinLimits` (pre-flight only) | None | — |
 | `!hasUserToken` | **Daily free limit exhausted** | "Connect Cloudflare" (OAuth) |
 | `hasUserToken && !hasCloudflareConfigured` | **Configure AI Gateway** | Navigate to `/settings?config_needed=true` |
-| `hasUserToken && hasCloudflareConfigured && credits < MINIMUM_CLOUDFLARE_BALANCE` | **Insufficient credits** (`$X.XX`) | Open `dash.cloudflare.com/{accountId}/ai/ai-gateway/credits` |
+| `hasUserToken && hasCloudflareConfigured && credits < MINIMUM_CLOUDFLARE_BALANCE` | **Insufficient credits** (`$X.XX`) | Open `dash.cloudflare.com/\{accountId\}/ai/ai-gateway/credits` |
 | Everything else | None (allow) | — |
 
 `MINIMUM_CLOUDFLARE_BALANCE` is defined in `shared/constants/limits.ts`.

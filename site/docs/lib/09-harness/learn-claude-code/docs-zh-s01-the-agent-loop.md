@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/shareAI-lab/learn-claude-code"
-entryUrl: "https://github.com/shareAI-lab/learn-claude-code/blob/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/README.md"
+entryUrl: "https://github.com/shareAI-lab/learn-claude-code/blob/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/docs/zh/s01-the-agent-loop.md"
+sourceRel: "docs/zh/s01-the-agent-loop.md"
+rawUrl: "/raw/09-harness/learn-claude-code/docs/zh/s01-the-agent-loop.md"
+sourceSha256: "4d40a78832530dd4994e2a7b89b10a9c27c0f678b2a69278a012db67dc85a07f"
+pageSha256: "4d40a78832530dd4994e2a7b89b10a9c27c0f678b2a69278a012db67dc85a07f"
+contentMode: "local-full"
 zh: ""
 ---
 

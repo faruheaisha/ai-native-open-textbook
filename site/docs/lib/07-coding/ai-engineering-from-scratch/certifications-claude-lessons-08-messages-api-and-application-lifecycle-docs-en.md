@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/rohitg00/ai-engineering-from-scratch"
-entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/README.md"
+entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/certifications/claude/lessons/08-messages-api-and-application-lifecycle/docs/en.md"
+sourceRel: "certifications/claude/lessons/08-messages-api-and-application-lifecycle/docs/en.md"
+rawUrl: "/raw/07-coding/ai-engineering-from-scratch/certifications/claude/lessons/08-messages-api-and-application-lifecycle/docs/en.md"
+sourceSha256: "89ce58e2adac70e10ffdead0d8ef3886e3ba1656a3bc69cde29bfe212acdaf2f"
+pageSha256: "89ce58e2adac70e10ffdead0d8ef3886e3ba1656a3bc69cde29bfe212acdaf2f"
+contentMode: "local-full"
 zh: ""
 ---
 

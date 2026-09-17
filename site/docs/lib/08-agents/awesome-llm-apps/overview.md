@@ -9,6 +9,11 @@ tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/Shubhamsaboo/awesome-llm-apps"
 entryUrl: "https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/08-agents/awesome-llm-apps/README.md"
+sourceSha256: "030041177ad9acaccbd3c7235ae6b776dbbe79943893d0c93a46d4fb9c218513"
+pageSha256: "030041177ad9acaccbd3c7235ae6b776dbbe79943893d0c93a46d4fb9c218513"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -29,7 +34,7 @@ Works with Claude, Gemini, GPT, DeepSeek, Llama, Qwen and other open-source mode
 <table>
   <tr>
     <td width="33.3%" align="center">
-      <a href="https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/agent_skills/project-graveyard/README.md"><img src="/mirror/7e/7ecdd4633ce4edb133f6e886d0298066d58a9843.webp" alt="Project Graveyard: an agent that autopsies your dead side projects"></a>
+      <a href="/lib/08-agents/awesome-llm-apps/agent_skills-project-graveyard"><img src="/mirror/7e/7ecdd4633ce4edb133f6e886d0298066d58a9843.webp" alt="Project Graveyard: an agent that autopsies your dead side projects"></a>
       <sub><b>Project Graveyard</b></sub>
     </td>
     <td width="33.3%" align="center">
@@ -37,17 +42,17 @@ Works with Claude, Gemini, GPT, DeepSeek, Llama, Qwen and other open-source mode
       <sub><b>Insurance Claim Live Agent Team</b></sub>
     </td>
     <td width="33.3%" align="center">
-      <a href="https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/single_agent_apps/ai_fraud_investigation_agent/README.md"><img src="/mirror/dc/dc13147aeaf561bc3027749e4ad1fbed54810643.webp" alt="AI Fraud Investigation Agent: public records, cross-examined"></a>
+      <a href="/lib/08-agents/awesome-llm-apps/advanced_ai_agents-single_agent_apps-ai_fraud_investigation_agent"><img src="/mirror/dc/dc13147aeaf561bc3027749e4ad1fbed54810643.webp" alt="AI Fraud Investigation Agent: public records, cross-examined"></a>
       <sub><b>AI Fraud Investigation Agent</b></sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/agent_skills/self-improving-agent-skills/README.md"><img src="/mirror/ba/ba3d835574f004e3366b644b5a80930a2f063451.webp" alt="Self-Improving Agent Skills: skills that rewrite themselves against evals"></a>
+      <a href="/lib/08-agents/awesome-llm-apps/agent_skills-self-improving-agent-skills"><img src="/mirror/ba/ba3d835574f004e3366b644b5a80930a2f063451.webp" alt="Self-Improving Agent Skills: skills that rewrite themselves against evals"></a>
       <sub><b>Self-Improving Agent Skills</b></sub>
     </td>
     <td align="center">
-      <a href="https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/multi_agent_apps/ai_home_renovation_agent/README.md"><img src="/mirror/2e/2e2be1619890b6c8e1e15b0c1f59076542ea3961.webp" alt="AI Home Renovation Agent: photo in, photoreal redesign out"></a>
+      <a href="/lib/08-agents/awesome-llm-apps/advanced_ai_agents-multi_agent_apps-ai_home_renovation_agent"><img src="/mirror/2e/2e2be1619890b6c8e1e15b0c1f59076542ea3961.webp" alt="AI Home Renovation Agent: photo in, photoreal redesign out"></a>
       <sub><b>AI Home Renovation Agent</b></sub>
     </td>
     <td align="center">
@@ -82,14 +87,14 @@ streamlit run travel_agent.py
 
 ### 🧩 Agent Skills
 
-*Give your coding agent new abilities. One command to install, plain English to use. Every skill ships real code and passes a security + eval CI gate. Works with Claude Code, Codex, Cursor, and other coding agents. [Browse all skills →](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/agent_skills/README.md)*
+*Give your coding agent new abilities. One command to install, plain English to use. Every skill ships real code and passes a security + eval CI gate. Works with Claude Code, Codex, Cursor, and other coding agents. [Browse all skills →](/lib/08-agents/awesome-llm-apps/agent_skills)*
 
-*   [⚰️ Project Graveyard](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/agent_skills/project-graveyard/README.md) - Finds every side project you abandoned, tells you why each one died, and helps you finish the one worth going back to
-*   [🔭 Scope Creep Detector](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/agent_skills/scope-creep-detector/README.md) - Checks whether a diff grew beyond its stated intent and recommends what to keep, split, or justify
-*   [🏺 Commit Archaeologist](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/agent_skills/commit-archaeologist/README.md) - Reconstructs why a file or code region exists from its introducing commit, later edits, co-changes, and intent clues
-*   [🩺 Dependency Doctor](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/agent_skills/dependency-doctor/README.md) - Checks a dependency manifest for standard-library pins, obsolete backports, unpinned entries, duplicate constraints, and yanked releases
-*   [🧠 Advisor Orchestrator Worker](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/agent_skills/advisor-orchestrator-worker/README.md) - Meta Loop with Claude Fable 5 as advisor, GPT-5.6 as orchestrator, and Gemini 3.7 Flash as worker
-*   [♾️ Self-Improving Agent Skills](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/agent_skills/self-improving-agent-skills/README.md) - Automatically optimize agent skills using Gemini and ADK
+*   [⚰️ Project Graveyard](/lib/08-agents/awesome-llm-apps/agent_skills-project-graveyard) - Finds every side project you abandoned, tells you why each one died, and helps you finish the one worth going back to
+*   [🔭 Scope Creep Detector](/lib/08-agents/awesome-llm-apps/agent_skills-scope-creep-detector) - Checks whether a diff grew beyond its stated intent and recommends what to keep, split, or justify
+*   [🏺 Commit Archaeologist](/lib/08-agents/awesome-llm-apps/agent_skills-commit-archaeologist) - Reconstructs why a file or code region exists from its introducing commit, later edits, co-changes, and intent clues
+*   [🩺 Dependency Doctor](/lib/08-agents/awesome-llm-apps/agent_skills-dependency-doctor) - Checks a dependency manifest for standard-library pins, obsolete backports, unpinned entries, duplicate constraints, and yanked releases
+*   [🧠 Advisor Orchestrator Worker](/lib/08-agents/awesome-llm-apps/agent_skills-advisor-orchestrator-worker) - Meta Loop with Claude Fable 5 as advisor, GPT-5.6 as orchestrator, and Gemini 3.7 Flash as worker
+*   [♾️ Self-Improving Agent Skills](/lib/08-agents/awesome-llm-apps/agent_skills-self-improving-agent-skills) - Automatically optimize agent skills using Gemini and ADK
 
 ### 🌱 Starter AI Agents
 
@@ -113,28 +118,28 @@ streamlit run travel_agent.py
 
 *Production-style agents with tools, memory, and multi-step reasoning.*
 
-*   [🏚️ 🍌 AI Home Renovation Agent with Nano Banana Pro](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/multi_agent_apps/ai_home_renovation_agent/README.md) - Photos of your space in, renovation plan and photorealistic renders out
-*   [🧠 DevPulse AI - Multi-Agent Signal Intelligence](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/multi_agent_apps/devpulse_ai/README.md) - Aggregates and scores technical signals into a daily intelligence digest
-*   [🔍 AI Deep Research Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/single_agent_apps/ai_deep_research_agent/README.md) - Comprehensive web research with the OpenAI Agents SDK and Firecrawl
+*   [🏚️ 🍌 AI Home Renovation Agent with Nano Banana Pro](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-multi_agent_apps-ai_home_renovation_agent) - Photos of your space in, renovation plan and photorealistic renders out
+*   [🧠 DevPulse AI - Multi-Agent Signal Intelligence](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-multi_agent_apps-devpulse_ai) - Aggregates and scores technical signals into a daily intelligence digest
+*   [🔍 AI Deep Research Agent](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-single_agent_apps-ai_deep_research_agent) - Comprehensive web research with the OpenAI Agents SDK and Firecrawl
 *   [📊 AI VC Due Diligence Agent Team](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-multi_agent_apps-agent_teams-ai_vc_due_diligence_agent_team) - Multi-agent startup investment analysis with Gemini 3
-*   [🔬 AI Research Planner & Executor (Google Interactions API)](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/single_agent_apps/research_agent_gemini_interaction_api/README.md) - Multi-phase research with stateful conversations and auto-generated infographics
-*   [🤝 AI Consultant Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/single_agent_apps/ai_consultant_agent/README.md) - Market analysis and strategy recommendations with live web research
-*   [🏗️ AI System Architect Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/single_agent_apps/ai_system_architect_r1/README.md) - Architecture reviews using DeepSeek R1 reasoning plus Claude
-*   [💰 AI Financial Coach Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/multi_agent_apps/ai_financial_coach_agent/README.md) - Personalized budget, debt, and savings analysis
-*   [🎬 AI Movie Production Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/single_agent_apps/ai_movie_production_agent/README.md) - Script drafts and casting ideas from a one-line movie concept
-*   [📈 AI Investment Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/single_agent_apps/ai_investment_agent/README.md) - Stock comparison reports built on Yahoo Finance data
-*   [📡 Earnings Call Analyst Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/single_agent_apps/earnings_call_analyst_agent/README.md) - Turns YouTube earnings calls into a playback-synced analyst workspace
-*   [🏋️‍♂️ AI Health & Fitness Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/single_agent_apps/ai_health_fitness_agent/README.md) - Tailored diet and workout plans from your goals
-*   [🚀 AI Product Launch Intelligence Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/multi_agent_apps/product_launch_intelligence_agent/README.md) - Go-to-market intelligence on competitor launches
-*   [🔍 AI Fraud Investigation Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/single_agent_apps/ai_fraud_investigation_agent/README.md) - Cross-references public records to flag facilities that don't add up
-*   [🗞️ AI Journalist Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/single_agent_apps/ai_journalist_agent/README.md) - Researches, writes, and edits articles on any topic
-*   [🧠 AI Mental Wellbeing Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/multi_agent_apps/ai_mental_wellbeing_agent/README.md) - A coordinated agent team for mental health support plans
-*   [📑 AI Meeting Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/single_agent_apps/ai_meeting_agent/README.md) - Context, industry insights, and strategy briefs before you walk in
-*   [🧬 AI Self-Evolving Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/multi_agent_apps/ai_self_evolving_agent/README.md) - Agents that rewrite their own workflows with EvoAgentX
+*   [🔬 AI Research Planner & Executor (Google Interactions API)](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-single_agent_apps-research_agent_gemini_interaction_api) - Multi-phase research with stateful conversations and auto-generated infographics
+*   [🤝 AI Consultant Agent](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-single_agent_apps-ai_consultant_agent) - Market analysis and strategy recommendations with live web research
+*   [🏗️ AI System Architect Agent](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-single_agent_apps-ai_system_architect_r1) - Architecture reviews using DeepSeek R1 reasoning plus Claude
+*   [💰 AI Financial Coach Agent](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-multi_agent_apps-ai_financial_coach_agent) - Personalized budget, debt, and savings analysis
+*   [🎬 AI Movie Production Agent](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-single_agent_apps-ai_movie_production_agent) - Script drafts and casting ideas from a one-line movie concept
+*   [📈 AI Investment Agent](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-single_agent_apps-ai_investment_agent) - Stock comparison reports built on Yahoo Finance data
+*   [📡 Earnings Call Analyst Agent](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-single_agent_apps-earnings_call_analyst_agent) - Turns YouTube earnings calls into a playback-synced analyst workspace
+*   [🏋️‍♂️ AI Health & Fitness Agent](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-single_agent_apps-ai_health_fitness_agent) - Tailored diet and workout plans from your goals
+*   [🚀 AI Product Launch Intelligence Agent](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-multi_agent_apps-product_launch_intelligence_agent) - Go-to-market intelligence on competitor launches
+*   [🔍 AI Fraud Investigation Agent](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-single_agent_apps-ai_fraud_investigation_agent) - Cross-references public records to flag facilities that don't add up
+*   [🗞️ AI Journalist Agent](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-single_agent_apps-ai_journalist_agent) - Researches, writes, and edits articles on any topic
+*   [🧠 AI Mental Wellbeing Agent](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-multi_agent_apps-ai_mental_wellbeing_agent) - A coordinated agent team for mental health support plans
+*   [📑 AI Meeting Agent](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-single_agent_apps-ai_meeting_agent) - Context, industry insights, and strategy briefs before you walk in
+*   [🧬 AI Self-Evolving Agent](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-multi_agent_apps-ai_self_evolving_agent) - Agents that rewrite their own workflows with EvoAgentX
 *   [👨🏻‍💼 AI Sales Intelligence Agent Team](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-multi_agent_apps-agent_teams-ai_sales_intelligence_agent_team) - Generates competitive sales battle cards in real time
 *   [🎧 AI Social Media News and Podcast Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/multi_agent_apps/ai_news_and_podcast_agents/README.md) - Curates your trusted sources into briefs and generated podcasts
 *   [🌐 Openwork - Open Browser Automation Agent](https://github.com/accomplish-ai/coworker) <sub>↗ external</sub> - Open-source agent that operates a real browser
-*   [🛡️ Trust-Gated Multi-Agent Research Team](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/multi_agent_apps/trust_gated_agent_team/README.md) - Every agent verified, every action in a hash-chained audit trail
+*   [🛡️ Trust-Gated Multi-Agent Research Team](/lib/08-agents/awesome-llm-apps/advanced_ai_agents-multi_agent_apps-trust_gated_agent_team) - Every agent verified, every action in a hash-chained audit trail
 
 ### 🛰️ Always-on Agents
 
@@ -232,37 +237,37 @@ streamlit run travel_agent.py
 
 *Agents and chatbots that remember conversations and user state across sessions.*
 
-*   [💾 AI ArXiv Agent with Memory](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_llm_apps/llm_apps_with_memory_tutorials/ai_arxiv_agent_memory/README.md) - Paper search that remembers your research interests
-*   [🛩️ AI Travel Agent with Memory](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_llm_apps/llm_apps_with_memory_tutorials/ai_travel_agent_memory/README.md) - A travel assistant that remembers your preferences
+*   [💾 AI ArXiv Agent with Memory](/lib/08-agents/awesome-llm-apps/advanced_llm_apps-llm_apps_with_memory_tutorials-ai_arxiv_agent_memory) - Paper search that remembers your research interests
+*   [🛩️ AI Travel Agent with Memory](/lib/08-agents/awesome-llm-apps/advanced_llm_apps-llm_apps_with_memory_tutorials-ai_travel_agent_memory) - A travel assistant that remembers your preferences
 *   [💬 Llama3 Stateful Chat](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_llm_apps/llm_apps_with_memory_tutorials/llama3_stateful_chat/README.md) - Session-persistent chat with Llama 3
-*   [📝 LLM App with Personalized Memory](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_llm_apps/llm_apps_with_memory_tutorials/llm_app_personalized_memory/README.md) - A chatbot that keeps context across conversations
-*   [🗄️ Local ChatGPT Clone with Memory](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_llm_apps/llm_apps_with_memory_tutorials/local_chatgpt_with_memory/README.md) - Fully local, with a personal memory per user
-*   [🧠 Multi-LLM Application with Shared Memory](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_llm_apps/llm_apps_with_memory_tutorials/multi_llm_memory/README.md) - Different models, one shared conversation memory
+*   [📝 LLM App with Personalized Memory](/lib/08-agents/awesome-llm-apps/advanced_llm_apps-llm_apps_with_memory_tutorials-llm_app_personalized_memory) - A chatbot that keeps context across conversations
+*   [🗄️ Local ChatGPT Clone with Memory](/lib/08-agents/awesome-llm-apps/advanced_llm_apps-llm_apps_with_memory_tutorials-local_chatgpt_with_memory) - Fully local, with a personal memory per user
+*   [🧠 Multi-LLM Application with Shared Memory](/lib/08-agents/awesome-llm-apps/advanced_llm_apps-llm_apps_with_memory_tutorials-multi_llm_memory) - Different models, one shared conversation memory
 
 ### 💬 Chat with X
 
 *Turn any data source into a chat interface.*
 
-*   [💬 Chat with GitHub (GPT & Llama3)](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_llm_apps/chat_with_X_tutorials/chat_with_github/README.md) - Any repo, answered in 30 lines of RAG
-*   [📨 Chat with Gmail](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_llm_apps/chat_with_X_tutorials/chat_with_gmail/README.md) - Ask your inbox questions
-*   [📄 Chat with PDF (GPT & Llama3)](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_llm_apps/chat_with_X_tutorials/chat_with_pdf/README.md) - The classic, in 30 lines of Python
-*   [📚 Chat with Research Papers (ArXiv) (GPT & Llama3)](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_llm_apps/chat_with_X_tutorials/chat_with_research_papers/README.md) - Explore arXiv conversationally with GPT-4o
-*   [📝 Chat with Substack](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_llm_apps/chat_with_X_tutorials/chat_with_substack/README.md) - Chat with any newsletter's archive
-*   [📽️ Chat with YouTube Videos](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_llm_apps/chat_with_X_tutorials/chat_with_youtube_videos/README.md) - Ask videos questions via their transcripts
+*   [💬 Chat with GitHub (GPT & Llama3)](/lib/08-agents/awesome-llm-apps/advanced_llm_apps-chat_with_X_tutorials-chat_with_github) - Any repo, answered in 30 lines of RAG
+*   [📨 Chat with Gmail](/lib/08-agents/awesome-llm-apps/advanced_llm_apps-chat_with_X_tutorials-chat_with_gmail) - Ask your inbox questions
+*   [📄 Chat with PDF (GPT & Llama3)](/lib/08-agents/awesome-llm-apps/advanced_llm_apps-chat_with_X_tutorials-chat_with_pdf) - The classic, in 30 lines of Python
+*   [📚 Chat with Research Papers (ArXiv) (GPT & Llama3)](/lib/08-agents/awesome-llm-apps/advanced_llm_apps-chat_with_X_tutorials-chat_with_research_papers) - Explore arXiv conversationally with GPT-4o
+*   [📝 Chat with Substack](/lib/08-agents/awesome-llm-apps/advanced_llm_apps-chat_with_X_tutorials-chat_with_substack) - Chat with any newsletter's archive
+*   [📽️ Chat with YouTube Videos](/lib/08-agents/awesome-llm-apps/advanced_llm_apps-chat_with_X_tutorials-chat_with_youtube_videos) - Ask videos questions via their transcripts
 
 ### 🎯 LLM Optimization Tools
 
 *Reduce token usage, context size, and API cost without losing quality.*
 
-*   [🎯 Toonify Token Optimization](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_llm_apps/llm_optimization_tools/toonify_token_optimization/README.md) - Reduce LLM API costs by 30-60% using TOON format
-*   [🧠 Headroom Context Optimization](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_llm_apps/llm_optimization_tools/headroom_context_optimization/README.md) - Reduce LLM API costs by 50-90%
+*   [🎯 Toonify Token Optimization](/lib/08-agents/awesome-llm-apps/advanced_llm_apps-llm_optimization_tools-toonify_token_optimization) - Reduce LLM API costs by 30-60% using TOON format
+*   [🧠 Headroom Context Optimization](/lib/08-agents/awesome-llm-apps/advanced_llm_apps-llm_optimization_tools-headroom_context_optimization) - Reduce LLM API costs by 50-90%
 
 ### 🔧 LLM Fine-tuning
 
 *End-to-end fine-tuning recipes for open-source models.*
 
-*   [🦥 Gemma 3 Fine-tuning](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_llm_apps/llm_finetuning_tutorials/gemma3_finetuning/README.md) - 4-bit LoRA with Unsloth, small and readable
-*   [🦙 Llama 3.2 Fine-tuning](https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_llm_apps/llm_finetuning_tutorials/llama3.2_finetuning/README.md) - Fine-tune in 30 lines, free on Colab
+*   [🦥 Gemma 3 Fine-tuning](/lib/08-agents/awesome-llm-apps/advanced_llm_apps-llm_finetuning_tutorials-gemma3_finetuning) - 4-bit LoRA with Unsloth, small and readable
+*   [🦙 Llama 3.2 Fine-tuning](/lib/08-agents/awesome-llm-apps/advanced_llm_apps-llm_finetuning_tutorials-llama3.2_finetuning) - Fine-tune in 30 lines, free on Colab
 
 ### 🧑‍🏫 AI Agent Framework Crash Courses
 

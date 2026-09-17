@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases"
-entryUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/README.md"
+entryUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/earnings-tracker.md"
+sourceRel: "usecases/earnings-tracker.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-usecases/usecases/earnings-tracker.md"
+sourceSha256: "c9047a497849eb261e0b2bd5ae88e01b581da500220722053aa970f610df7b51"
+pageSha256: "c9047a497849eb261e0b2bd5ae88e01b581da500220722053aa970f610df7b51"
+contentMode: "local-full"
 zh: ""
 ---
 

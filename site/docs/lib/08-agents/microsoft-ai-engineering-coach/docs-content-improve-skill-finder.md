@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/microsoft/AI-Engineering-Coach"
-entryUrl: "https://github.com/microsoft/AI-Engineering-Coach/blob/18b1a3d16b586c171426c6a407cc5c2dc073556e/README.md"
+entryUrl: "https://github.com/microsoft/AI-Engineering-Coach/blob/18b1a3d16b586c171426c6a407cc5c2dc073556e/docs/content/improve/skill-finder.md"
+sourceRel: "docs/content/improve/skill-finder.md"
+rawUrl: "/raw/08-agents/microsoft-ai-engineering-coach/docs/content/improve/skill-finder.md"
+sourceSha256: "73176bac14bd8ed7b03698b11e547d90e42c144dcbfa18315021f34910ff2dda"
+pageSha256: "73176bac14bd8ed7b03698b11e547d90e42c144dcbfa18315021f34910ff2dda"
+contentMode: "local-full"
 zh: ""
 ---
 

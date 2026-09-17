@@ -1,0 +1,61 @@
+---
+title: "Weekly Course Content"
+sourceId: "07-coding/vibe-coding-101-for-engineers"
+sourceTitle: "Vibe Coding 101 for Software Engineers"
+sourceKind: "系统课程"
+licenseLabel: "仅引用"
+lang: "英文"
+tier: 3
+volume: "07-coding"
+sourceUrl: "https://github.com/goker/vibe-coding-101-for-software-engineers"
+entryUrl: "https://github.com/goker/vibe-coding-101-for-software-engineers/blob/60d5a7fc465fc10be3b4478486a9535f1045f607/course-materials/weeks/README.md"
+sourceRel: "course-materials/weeks/README.md"
+rawUrl: "/raw/07-coding/vibe-coding-101-for-engineers/course-materials/weeks/README.md"
+sourceSha256: "f54cc7f46207c9017b3e181fb791707d7d5fd67be9eafc7c08b9811085e65f15"
+pageSha256: "f54cc7f46207c9017b3e181fb791707d7d5fd67be9eafc7c08b9811085e65f15"
+contentMode: "local-full"
+zh: ""
+---
+
+# Weekly Course Content
+
+Each week folder contains lecture notes, slides, and hands-on exercises.
+
+## Phase 1: Foundations (Weeks 1–4)
+
+| Week | Title | Subtitle | Materials |
+|------|-------|----------|-----------|
+| [1](/lib/07-coding/vibe-coding-101-for-engineers/course-materials-weeks-week-01) | Disciplined Vibe Coding | What Is Vibe Coding? | Lecture + Slides + Lab |
+| [2](/lib/07-coding/vibe-coding-101-for-engineers/course-materials-weeks-week-02) | How AI Coding Actually Works | LLMs, Tokens & Context | Lecture + Slides |
+| [3](/lib/07-coding/vibe-coding-101-for-engineers/course-materials-weeks-week-03) | Ship It Week | PRD → Prototype → Deploy | Lecture + Slides + Extras |
+| [4](/lib/07-coding/vibe-coding-101-for-engineers/course-materials-weeks-week-04) | Iteration & Code Review | Context Engineering | Lecture + Slides |
+
+## Phase 2: Engineering (Weeks 5–8)
+
+| Week | Title | Subtitle | Materials |
+|------|-------|----------|-----------|
+| [5](/lib/07-coding/vibe-coding-101-for-engineers/course-materials-weeks-week-05) | Testing AI-Generated Code | Why AI Code Needs More Testing | Lecture + Slides |
+| 6 | Architecture & Design Patterns | Guiding AI Toward Good Patterns | Coming Soon |
+| 7 | Security & AI Vulnerabilities | Package Hallucination & Prompt Injection | Coming Soon |
+| 8 | Skills, Agents & Automation | Building Reusable AI Workflows | Coming Soon |
+
+## Phase 3: Launch (Weeks 9–12)
+
+| Week | Title | Subtitle | Materials |
+|------|-------|----------|-----------|
+| 9 | Production Patterns & Scaling | Error Handling, Logging & Monitoring | Coming Soon |
+| 10 | Multi-Agent Systems | Orchestration & MCP | Coming Soon |
+| 11 | Ethics, Governance & Feature Freeze | Ship Responsibly | Coming Soon |
+| 12 | Demo Day & Launch | Present, Ship, Celebrate | Coming Soon |
+
+## Folder Structure
+
+Each available week contains:
+
+```
+week-XX/
+├── README.md           # Lecture content and learning objectives
+├── slides-outline.md   # Slide structure reference
+├── slides/             # PDF and PPTX presentation files
+└── lab-exercise/       # Hands-on activities (where applicable)
+```

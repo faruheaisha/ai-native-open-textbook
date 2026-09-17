@@ -9,6 +9,11 @@ tier: 3
 volume: "01-foundations"
 sourceUrl: "https://github.com/WangRongsheng/awesome-LLM-resources"
 entryUrl: "https://github.com/WangRongsheng/awesome-LLM-resources/blob/1fdf4ba2279979507c122db6403d2b7f97cc1e36/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/01-foundations/awesome-llm-resources/README.md"
+sourceSha256: "bbf92389a3ecb3bf37c2e046c1f3325c885e63d4ce824cc8094382ccc4d67535"
+pageSha256: "bbf92389a3ecb3bf37c2e046c1f3325c885e63d4ce824cc8094382ccc4d67535"
+contentMode: "local-full"
 zh: ""
 ---
 

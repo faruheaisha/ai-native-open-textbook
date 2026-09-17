@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/nexu-io/harness-engineering-guide"
-entryUrl: "https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/README.md"
+entryUrl: "https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/agentic-loop.md"
+sourceRel: "guide/agentic-loop.md"
+rawUrl: "/raw/09-harness/harness-engineering-guide-nexu/guide/agentic-loop.md"
+sourceSha256: "23a0047c186303e3408caa530794950f6f1b934c475f154638a5b0c791f3f385"
+pageSha256: "23a0047c186303e3408caa530794950f6f1b934c475f154638a5b0c791f3f385"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -1,0 +1,52 @@
+---
+title: "AI Engineering from Scratch（英文原版）"
+sourceId: "07-coding/ai-engineering-from-scratch"
+sourceTitle: "AI Engineering from Scratch（英文原版）"
+sourceKind: "源码研读"
+licenseLabel: "可转载"
+lang: "英文"
+tier: 2
+volume: "07-coding"
+sourceUrl: "https://github.com/rohitg00/ai-engineering-from-scratch"
+entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/16-multi-agent-and-swarms/19-swarm-optimization-pso-aco/outputs/skill-swarm-optimizer.md"
+sourceRel: "phases/16-multi-agent-and-swarms/19-swarm-optimization-pso-aco/outputs/skill-swarm-optimizer.md"
+rawUrl: "/raw/07-coding/ai-engineering-from-scratch/phases/16-multi-agent-and-swarms/19-swarm-optimization-pso-aco/outputs/skill-swarm-optimizer.md"
+sourceSha256: "129d7e7c202584a58028f731949e81d9f0131c96da7b3c8446c0bcd71b1ae448"
+pageSha256: "129d7e7c202584a58028f731949e81d9f0131c96da7b3c8446c0bcd71b1ae448"
+contentMode: "local-full"
+zh: ""
+---
+
+# AI Engineering from Scratch（英文原版）
+
+Given an LLM or agent optimization problem, choose the right optimizer.
+
+Produce:
+
+1. **Problem fingerprint.** Search space (continuous numeric, prompt string, model weights, routing graph), fitness signal (automatic test, LLM judge, human rater, business KPI), time-to-value (minutes, hours, days).
+2. **Optimizer choice.** PSO, ACO, genetic algorithm, DPO/RL, manual tuning. Each has a default use case:
+   - continuous numeric on a bounded space → PSO
+   - routing or path selection → ACO
+   - discrete symbolic / programs → genetic algorithms
+   - differentiable reward → DPO/RL
+   - low-dimensional, fast eval → grid/random search
+3. **Population sizing.** 10-30 for PSO/GA, pheromone matrix size for ACO. Budget calculation: N × T × cost-per-eval. Do not run swarms that cost more than the value they produce.
+4. **Fitness + quality gate.** What function scores a candidate? For ACO routing, what quality threshold triggers pheromone deposit?
+5. **Convergence monitoring.** Log g_best or pheromone stability per iteration. Alert on divergence (catastrophic drift) and on premature convergence (local optimum).
+6. **Decay / exploration tuning.** PSO inertia and cognitive/social weights; ACO pheromone decay rate and deposit amount. Trade-off: low decay → stuck on early winner; high decay → no memory.
+7. **Reset conditions.** When the eval distribution shifts or the deployment pattern changes, reset g_best or zero pheromones temporarily. Stale memories are worse than no memories.
+
+Hard rejects:
+
+- Swarm optimizers on tasks where fitness needs human review. Cost-per-iteration dwarfs budget.
+- Population sizes > 50 without a clear budget justification. Diminishing returns dominate.
+- Pheromone routing without a quality gate. Fast-but-wrong agents lock in.
+- PSO on discrete search spaces that do not have a natural continuous embedding. Use GA or simulated annealing instead.
+
+Refusal rules:
+
+- If the user is trying to optimize something with no clear fitness function, recommend defining fitness first. Swarm optimizers cannot help without an evaluator.
+- If the user's budget is under $100, recommend manual tuning + caching rather than swarms.
+- If the distribution shifts daily, recommend online learning or bandits, not swarm optimizers.
+
+Output: a one-page brief. Start with a one-sentence recommendation ("Use ACO with quality-gated pheromone deposits on a 3-agent × 4-task-type routing problem. Decay 0.05, threshold 0.6, 200 warmup tasks."), then the seven sections above. End with a budget estimate and a 1-week rollout plan.

@@ -1,0 +1,39 @@
+---
+title: "AI 工程从零到一（中文）"
+sourceId: "07-coding/ai-engineering-from-scratch-zh"
+sourceTitle: "AI 工程从零到一（中文）"
+sourceKind: "源码研读"
+licenseLabel: "可转载"
+lang: "中文"
+tier: 1
+volume: "07-coding"
+sourceUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh"
+entryUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/phases/11-llm-engineering/17-agent-framework-tradeoffs/outputs/skill-framework-picker.md"
+sourceRel: "phases/11-llm-engineering/17-agent-framework-tradeoffs/outputs/skill-framework-picker.md"
+rawUrl: "/raw/07-coding/ai-engineering-from-scratch-zh/phases/11-llm-engineering/17-agent-framework-tradeoffs/outputs/skill-framework-picker.md"
+sourceSha256: "8812a01bd50dcc0d7a7ce2a6fdc014ba33b3bd370100448209f1552c07ea7c3d"
+pageSha256: "8812a01bd50dcc0d7a7ce2a6fdc014ba33b3bd370100448209f1552c07ea7c3d"
+contentMode: "local-full"
+zh: ""
+---
+
+# AI 工程从零到一（中文）
+
+Given the task description (problem shape, total LLM calls per run, branching pattern, durability and resume needs, human-in-the-loop checkpoints, parallel fanout, session memory, expected daily run volume), output:
+
+1. Shape match. One sentence naming the abstraction that fits: graph (typed state, named transitions), org chart (specialist roles, manager-routed handoffs), chat (agents talk until done), single agent with tools. If you cannot pick one, the task is not agent-shaped yet; stop and decompose.
+2. Branching authority. Who picks the next step: developer (explicit edges), manager LLM (CrewAI hierarchical), conversational emergent (AutoGen GroupChat), tool-call self-routed (Agno). Cite the per-turn token cost of LLM-selected routing if applicable.
+3. State budget. Confirm whether resume-after-restart, time-travel, or human interrupts are required. If yes, LangGraph wins on state-first abstractions; Agno covers session-scoped memory only.
+4. Framework choice. Output one of langgraph, crewai, autogen, agno, plain_python. Include the one-sentence justification that maps the shape and state answers onto the framework's core abstraction.
+5. Escape hatch. If the daily run volume is over 10_000 or the task is two or fewer LLM calls without state, recommend plain Python with the provider SDK instead. No framework is the fastest framework when the task is small.
+
+Refuse to recommend AutoGen for deterministic workflows with a known DAG; the GroupChatManager spends tokens picking speakers that the developer could have wired statically. CrewAI does support structured task outputs via `output_pydantic` / `output_json` (see [docs.crewai.com/en/concepts/tasks](https://docs.crewai.com/en/concepts/tasks)), but its `context` channel still flows through the next task's prompt string. Push back on CrewAI when the workflow relies on raw `context` to carry structured state across tasks without one of those output schemas wired up. Push back on LangGraph for a two-call summarizer; the StateGraph overhead is pure tax. Push back on Agno when the task fans out across more than 4 parallel sub-workers with reducer semantics; Agno ships a `Parallel` block whose outputs join into a dict keyed by step name (see [docs-v1.agno.com/workflows_2/overview](https://docs-v1.agno.com/workflows_2/overview) and [docs.agno.com/workflows/access-previous-steps](https://docs.agno.com/workflows/access-previous-steps)), but it does not expose a Send-style fanout-and-reduce API comparable to LangGraph's.
+
+Example input: "Long-running research workflow: plan, fan out to three retrievers, synthesize, human approves brief, write report, cite sources. Must resume after crash. Production-bound to 50 runs per day."
+
+Example output:
+- Shape: graph. Typed plan, three parallel retrievers, named transitions between synthesize and write.
+- Branching: developer-decided via conditional edges. No per-turn manager LLM.
+- State: requires resume and human interrupt. LangGraph mandatory.
+- Framework: langgraph. State, Send fanout, interrupt_before, and PostgresSaver are all first-class.
+- Escape hatch: not applicable. 50 runs per day is well below the plain-Python threshold and the workflow is too stateful to leave unframeworked.

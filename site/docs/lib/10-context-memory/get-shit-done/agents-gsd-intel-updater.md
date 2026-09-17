@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/gsd-build/get-shit-done"
-entryUrl: "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/README.md"
+entryUrl: "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/agents/gsd-intel-updater.md"
+sourceRel: "agents/gsd-intel-updater.md"
+rawUrl: "/raw/10-context-memory/get-shit-done/agents/gsd-intel-updater.md"
+sourceSha256: "a42ff12b4c74d5faab66e588500850d418b41bc32947a6d40e738a11960b49e6"
+pageSha256: "a42ff12b4c74d5faab66e588500850d418b41bc32947a6d40e738a11960b49e6"
+contentMode: "local-full"
 zh: ""
 ---
 

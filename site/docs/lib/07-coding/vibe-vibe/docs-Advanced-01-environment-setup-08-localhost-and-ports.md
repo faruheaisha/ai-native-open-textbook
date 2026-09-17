@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/datawhalechina/vibe-vibe"
-entryUrl: "https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/README.md"
+entryUrl: "https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/Advanced/01-environment-setup/08-localhost-and-ports.md"
+sourceRel: "docs/Advanced/01-environment-setup/08-localhost-and-ports.md"
+rawUrl: "/raw/07-coding/vibe-vibe/docs/Advanced/01-environment-setup/08-localhost-and-ports.md"
+sourceSha256: "540f180694e861b426f853688ff8c6f33c90084d1454506827f2b7617feaa3c1"
+pageSha256: "540f180694e861b426f853688ff8c6f33c90084d1454506827f2b7617feaa3c1"
+contentMode: "local-full"
 zh: ""
 ---
 

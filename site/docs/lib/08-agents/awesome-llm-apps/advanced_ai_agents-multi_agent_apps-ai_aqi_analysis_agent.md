@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/Shubhamsaboo/awesome-llm-apps"
-entryUrl: "https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/README.md"
+entryUrl: "https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/multi_agent_apps/ai_aqi_analysis_agent/README.md"
+sourceRel: "advanced_ai_agents/multi_agent_apps/ai_aqi_analysis_agent/README.md"
+rawUrl: "/raw/08-agents/awesome-llm-apps/advanced_ai_agents/multi_agent_apps/ai_aqi_analysis_agent/README.md"
+sourceSha256: "78e76231ffaaaa910dd31015c16bb338f9a212fb0c045598ee604f4bb54a2ba6"
+pageSha256: "78e76231ffaaaa910dd31015c16bb338f9a212fb0c045598ee604f4bb54a2ba6"
+contentMode: "local-full"
 zh: ""
 ---
 

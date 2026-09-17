@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/microsoft/AI-Engineering-Coach"
-entryUrl: "https://github.com/microsoft/AI-Engineering-Coach/blob/18b1a3d16b586c171426c6a407cc5c2dc073556e/README.md"
+entryUrl: "https://github.com/microsoft/AI-Engineering-Coach/blob/18b1a3d16b586c171426c6a407cc5c2dc073556e/docs/content/improve/anti-patterns.md"
+sourceRel: "docs/content/improve/anti-patterns.md"
+rawUrl: "/raw/08-agents/microsoft-ai-engineering-coach/docs/content/improve/anti-patterns.md"
+sourceSha256: "5e7f56f6ee5ce80563df317812b771089d9aefb1a78d32bbaf18fc49936a9d5e"
+pageSha256: "5e7f56f6ee5ce80563df317812b771089d9aefb1a78d32bbaf18fc49936a9d5e"
+contentMode: "local-full"
 zh: ""
 ---
 

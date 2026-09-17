@@ -1,0 +1,18 @@
+{
+  "id": "04-work/qwenwork-official-help-cn",
+  "volume": "04-work",
+  "local": "qwenwork-official-help-cn",
+  "title": "qwenwork-official-help-cn",
+  "kind": "官方文档",
+  "license": "站点条款（官方文档）",
+  "licenseLabel": "仅引用",
+  "licenseNote": "不可整篇转载，站内只做导航与引用",
+  "lang": "中文",
+  "needsTranslation": false,
+  "publishable": false,
+  "repo": null,
+  "site": "https://qwenwork.cn/docs",
+  "commit": null,
+  "entryUrl": "https://qwenwork.cn/docs",
+  "docs": 108
+}

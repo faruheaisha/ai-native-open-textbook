@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial"
-entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/README.md"
+entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/docs/02-core-features/06-schedule-management.md"
+sourceRel: "docs/02-core-features/06-schedule-management.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-tutorial/docs/02-core-features/06-schedule-management.md"
+sourceSha256: "fdbf0f6d33ccc7cb2155ead0515ba528ab1c234cd9bb4c739065709b2c013a7d"
+pageSha256: "fdbf0f6d33ccc7cb2155ead0515ba528ab1c234cd9bb4c739065709b2c013a7d"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/hijasonxu1/How-to-use-dify"
-entryUrl: "https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/README.md"
+entryUrl: "https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/docs/chapters/12-生产交付和团队协作.md"
+sourceRel: "docs/chapters/12-生产交付和团队协作.md"
+rawUrl: "/raw/04-work/how-to-use-dify/docs/chapters/12-生产交付和团队协作.md"
+sourceSha256: "5ae5815c33207043d0e7c0402a7697693b69326e488aef8643761257f3602449"
+pageSha256: "5ae5815c33207043d0e7c0402a7697693b69326e488aef8643761257f3602449"
+contentMode: "local-full"
 zh: ""
 ---
 

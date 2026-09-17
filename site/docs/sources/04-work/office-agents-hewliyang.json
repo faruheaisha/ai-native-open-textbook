@@ -1,0 +1,18 @@
+{
+  "id": "04-work/office-agents-hewliyang",
+  "volume": "04-work",
+  "local": "office-agents-hewliyang",
+  "title": "Office Agents",
+  "kind": "其他材料",
+  "license": "未声明（无 LICENSE 文件）",
+  "licenseLabel": "仅引用",
+  "licenseNote": "不可整篇转载，站内只做导航与引用",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": false,
+  "repo": "hewliyang/office-agents",
+  "site": null,
+  "commit": "95fb654491a9d394dc85ea2b8c93dee2ca4546b9",
+  "entryUrl": "https://github.com/hewliyang/office-agents/blob/95fb654491a9d394dc85ea2b8c93dee2ca4546b9/README.md",
+  "docs": 10
+}

@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "04-work"
 sourceUrl: "https://github.com/zjp1997720/zhijian-ai-bluebook-workbuddy-harness"
-entryUrl: "https://github.com/zjp1997720/zhijian-ai-bluebook-workbuddy-harness/blob/6ac68cd42a01add16568d1ab9cf2399822467fad/01-前言.md"
+entryUrl: "https://github.com/zjp1997720/zhijian-ai-bluebook-workbuddy-harness/blob/6ac68cd42a01add16568d1ab9cf2399822467fad/08-第%207%20章%20专家解剖：一个带%20UI%20的%20SubAgent%20插件.md"
+sourceRel: "08-第 7 章 专家解剖：一个带 UI 的 SubAgent 插件.md"
+rawUrl: "/raw/04-work/zhijian-ai-bluebook-workbuddy-harness/08-第 7 章 专家解剖：一个带 UI 的 SubAgent 插件.md"
+sourceSha256: "92fe211fff369e4438af2b0465f4815f836a63fd1e21221dc50c24f3c187b883"
+pageSha256: "92fe211fff369e4438af2b0465f4815f836a63fd1e21221dc50c24f3c187b883"
+contentMode: "local-full"
 zh: ""
 ---
 

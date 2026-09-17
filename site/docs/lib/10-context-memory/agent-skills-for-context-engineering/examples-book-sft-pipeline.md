@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering"
-entryUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/README.md"
+entryUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/examples/book-sft-pipeline/README.md"
+sourceRel: "examples/book-sft-pipeline/README.md"
+rawUrl: "/raw/10-context-memory/agent-skills-for-context-engineering/examples/book-sft-pipeline/README.md"
+sourceSha256: "e80dc5fe7391c3a5745c574814a1502d24ba9acea91fcbb5dc7ec7d38eb43545"
+pageSha256: "e80dc5fe7391c3a5745c574814a1502d24ba9acea91fcbb5dc7ec7d38eb43545"
+contentMode: "local-full"
 zh: ""
 ---
 

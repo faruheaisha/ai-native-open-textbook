@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/hoangnb24/repository-harness"
-entryUrl: "https://github.com/hoangnb24/repository-harness/blob/e765792b635b4d5e3e5fc0578f82f9ca5dea2681/README.md"
+entryUrl: "https://github.com/hoangnb24/repository-harness/blob/e765792b635b4d5e3e5fc0578f82f9ca5dea2681/docs/patterns/encoding-invariants.md"
+sourceRel: "docs/patterns/encoding-invariants.md"
+rawUrl: "/raw/09-harness/repository-harness/docs/patterns/encoding-invariants.md"
+sourceSha256: "c49f7fe5c5995e11f095c70791f731874c8cb8e1cdabef36d26581aa0a25ffd5"
+pageSha256: "c49f7fe5c5995e11f095c70791f731874c8cb8e1cdabef36d26581aa0a25ffd5"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -18,7 +23,7 @@ Use this pattern to convert an accepted architecture, reliability, security, or
 quality rule into repository-native validation. The repository remains the
 system of record; a check enforces policy but does not create it.
 
-Follow the authority gate in the [repository workflow](https://github.com/hoangnb24/repository-harness/blob/e765792b635b4d5e3e5fc0578f82f9ca5dea2681/docs/WORKFLOW.md) before
+Follow the authority gate in the [repository workflow](/lib/09-harness/repository-harness/docs-WORKFLOW) before
 editing.
 
 ## 1. Establish Authority

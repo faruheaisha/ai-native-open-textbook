@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering"
-entryUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/README.md"
+entryUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/docs/skills-improvement-analysis.md"
+sourceRel: "docs/skills-improvement-analysis.md"
+rawUrl: "/raw/10-context-memory/agent-skills-for-context-engineering/docs/skills-improvement-analysis.md"
+sourceSha256: "4531e673b4d3831ff91e1472f1d7480fccc9fd6e79f512da90acd8c2150d3791"
+pageSha256: "4531e673b4d3831ff91e1472f1d7480fccc9fd6e79f512da90acd8c2150d3791"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -66,7 +71,7 @@ The article recommends a `config.json` pattern for skills needing user context. 
 
 The article describes using `PreToolUse` hooks to track which skills are popular and which are undertriggering. We have no way to know if skills are actually being activated correctly.
 
-### 6. No `${CLAUDE_PLUGIN_DATA}` usage
+### 6. No `$\{CLAUDE_PLUGIN_DATA\}` usage
 
 The article emphasizes persistent data storage so skills can learn over time. Our skills are stateless — they forget everything between sessions.
 
@@ -151,7 +156,7 @@ The strongest version of this repo is both: **knowledge skills that also include
 | Composable Scripts | STRONG | 92% (12/13) | Present but reference-grade |
 | On-Demand Hooks | NOT IMPLEMENTED | 0% (0/13) | High differentiation opportunity |
 | Config/Setup Pattern | NOT IMPLEMENTED | 0% (0/13) | Needed for framework-dependent skills |
-| Persistent Storage | MINIMAL | 23% (3/13) | No `${CLAUDE_PLUGIN_DATA}` usage |
+| Persistent Storage | MINIMAL | 23% (3/13) | No `${CLAUDE_PLUGIN_DATA\}` usage |
 | Progressive Disclosure | COMPREHENSIVE | 100% (13/13) | SKILL.md → references/ → scripts/ |
 | Templates/Assets | COMPREHENSIVE | 100% (13/13) | All have reference docs |
 

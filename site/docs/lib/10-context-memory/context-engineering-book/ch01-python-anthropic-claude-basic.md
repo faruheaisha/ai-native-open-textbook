@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/bonigarcia/context-engineering"
-entryUrl: "https://github.com/bonigarcia/context-engineering/blob/46719154489e410b509db4fb69ab1c29fb3362a0/README.md"
+entryUrl: "https://github.com/bonigarcia/context-engineering/blob/46719154489e410b509db4fb69ab1c29fb3362a0/ch01/python/anthropic-claude-basic/README.md"
+sourceRel: "ch01/python/anthropic-claude-basic/README.md"
+rawUrl: "/raw/10-context-memory/context-engineering-book/ch01/python/anthropic-claude-basic/README.md"
+sourceSha256: "23a1fa790a0311f0635865469f327597cfcc08699fd4446432b82db3efbcf731"
+pageSha256: "23a1fa790a0311f0635865469f327597cfcc08699fd4446432b82db3efbcf731"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/aws-samples/sample-getting-started-with-strands-agents-course"
-entryUrl: "https://github.com/aws-samples/sample-getting-started-with-strands-agents-course/blob/6f0b46cd565312a34cdb9a6c72cbff7f3fa80c1d/README.md"
+entryUrl: "https://github.com/aws-samples/sample-getting-started-with-strands-agents-course/blob/6f0b46cd565312a34cdb9a6c72cbff7f3fa80c1d/course-4/README.md"
+sourceRel: "course-4/README.md"
+rawUrl: "/raw/08-agents/strands-agents-course/course-4/README.md"
+sourceSha256: "a8e06745893bc2e9dcab3e55b14ef0dc993be67991e1b3cef60d0df35502940d"
+pageSha256: "a8e06745893bc2e9dcab3e55b14ef0dc993be67991e1b3cef60d0df35502940d"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -250,8 +255,8 @@ View your resources in the AWS Console:
 
 | Resource | Location |
 |----------|----------|
-| Agent Logs | CloudWatch → Log groups → `/aws/bedrock-agentcore/runtimes/{agent-id}-DEFAULT` |
-| Container Images | ECR → Repositories → `bedrock-agentcore-{agent-name}` |
+| Agent Logs | CloudWatch → Log groups → `/aws/bedrock-agentcore/runtimes/\{agent-id\}-DEFAULT` |
+| Container Images | ECR → Repositories → `bedrock-agentcore-\{agent-name\}` |
 | Build Logs | CodeBuild → Build history |
 | IAM Role | IAM → Roles → Search for "BedrockAgentCore" |
 

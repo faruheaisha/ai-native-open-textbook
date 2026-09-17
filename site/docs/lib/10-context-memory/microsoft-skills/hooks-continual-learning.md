@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/microsoft/skills"
-entryUrl: "https://github.com/microsoft/skills/blob/cf77b1efbf3117501f4727c476894751311ee885/README.md"
+entryUrl: "https://github.com/microsoft/skills/blob/cf77b1efbf3117501f4727c476894751311ee885/hooks/continual-learning/README.md"
+sourceRel: "hooks/continual-learning/README.md"
+rawUrl: "/raw/10-context-memory/microsoft-skills/hooks/continual-learning/README.md"
+sourceSha256: "a2aea9da4357dec8a50ad96fb317d646c61b9386f6a461a330e8e60d4a561e17"
+pageSha256: "a2aea9da4357dec8a50ad96fb317d646c61b9386f6a461a330e8e60d4a561e17"
+contentMode: "local-full"
 zh: ""
 ---
 

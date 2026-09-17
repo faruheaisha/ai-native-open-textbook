@@ -8,13 +8,18 @@ lang: "英文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/vibefast-app/vibefast-docs"
-entryUrl: "https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/README.md"
+entryUrl: "https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/03-what-is-api-frontend-backend-en.md"
+sourceRel: "en/03-what-is-api-frontend-backend-en.md"
+rawUrl: "/raw/07-coding/vibefast-docs/en/03-what-is-api-frontend-backend-en.md"
+sourceSha256: "3d1847814a0dac60213e85711fada93ed60f70af1cad6c2755cf69d7965e1c96"
+pageSha256: "3d1847814a0dac60213e85711fada93ed60f70af1cad6c2755cf69d7965e1c96"
+contentMode: "local-full"
 zh: ""
 ---
 
 # What is an API? Plain English Explanation of Frontend-Backend Communication
 
-[English](/lib/07-coding/vibefast-docs/en-03-what-is-api-frontend-backend-en) · [繁中](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/zh/03-what-is-api-frontend-backend-zh.md) · [Español](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/es/03-what-is-api-frontend-backend-es.md) · [日本語](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/jp/03-what-is-api-frontend-backend-jp.md) · [Português (BR)](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/pt-br/03-what-is-api-frontend-backend-pt-br.md)
+[English](/lib/07-coding/vibefast-docs/en-03-what-is-api-frontend-backend-en) · [繁中](/lib/07-coding/vibefast-docs/zh-03-what-is-api-frontend-backend-zh) · [Español](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/es/03-what-is-api-frontend-backend-es.md) · [日本語](/lib/07-coding/vibefast-docs/jp-03-what-is-api-frontend-backend-jp) · [Português (BR)](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/pt-br/03-what-is-api-frontend-backend-pt-br.md)
 
 **Author:** Danko Peng ([@dankopeng](https://x.com/dankopeng))  
 **Updated:** March 2026  

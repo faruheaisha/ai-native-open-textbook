@@ -1,0 +1,156 @@
+---
+title: "MCP Discovery and Connection"
+sourceId: "10-context-memory/claude-code-system-prompts"
+sourceTitle: "Claude Code System Prompts"
+sourceKind: "源码研读"
+licenseLabel: "可转载"
+lang: "英文"
+tier: 2
+volume: "10-context-memory"
+sourceUrl: "https://github.com/Piebald-AI/claude-code-system-prompts"
+entryUrl: "https://github.com/Piebald-AI/claude-code-system-prompts/blob/3af4c6139aaabb0470440961ca8c8fb871099234/system-prompts/data-cowork-plugin-mcp-discovery-and-connection.md"
+sourceRel: "system-prompts/data-cowork-plugin-mcp-discovery-and-connection.md"
+rawUrl: "/raw/10-context-memory/claude-code-system-prompts/system-prompts/data-cowork-plugin-mcp-discovery-and-connection.md"
+sourceSha256: "151c0eb8babae928145a729b7cd6d3d75506cf5576b2f5d67e2657b4ff865608"
+pageSha256: "151c0eb8babae928145a729b7cd6d3d75506cf5576b2f5d67e2657b4ff865608"
+contentMode: "local-full"
+zh: ""
+---
+
+# MCP Discovery and Connection
+
+How to find and connect MCPs during plugin customization.
+
+## Available Tools
+
+### `search_mcp_registry`
+Search the MCP directory for available connectors.
+
+**Input:** `\{ "keywords": ["array", "of", "search", "terms"] \}`
+
+**Output:** Up to 10 results, each with:
+- `name`: MCP display name
+- `description`: One-liner description
+- `tools`: List of tool names the MCP provides
+- `url`: MCP endpoint URL (use this in `.mcp.json`)
+- `directoryUuid`: UUID for use with suggest_connectors
+- `connected`: Boolean - whether user has this MCP connected
+
+### `suggest_connectors`
+Display Connect buttons to let users install/connect MCPs.
+
+**Input:** `\{ "directoryUuids": ["uuid1", "uuid2"] \}`
+
+**Output:** Renders UI with Connect buttons for each MCP
+
+## Category-to-Keywords Mapping
+
+| Category | Search Keywords |
+|----------|-----------------|
+| `project-management` | `["asana", "jira", "linear", "monday", "tasks"]` |
+| `software-coding` | `["github", "gitlab", "bitbucket", "code"]` |
+| `chat` | `["slack", "teams", "discord"]` |
+| `documents` | `["google docs", "notion", "confluence"]` |
+| `calendar` | `["google calendar", "calendar"]` |
+| `email` | `["gmail", "outlook", "email"]` |
+| `design-graphics` | `["figma", "sketch", "design"]` |
+| `analytics-bi` | `["datadog", "grafana", "analytics"]` |
+| `crm` | `["salesforce", "hubspot", "crm"]` |
+| `wiki-knowledge-base` | `["notion", "confluence", "outline", "wiki"]` |
+| `data-warehouse` | `["bigquery", "snowflake", "redshift"]` |
+| `conversation-intelligence` | `["gong", "chorus", "call recording"]` |
+
+## Workflow
+
+1. **Find customization point**: Look for `~~`-prefixed values (e.g., `~~Jira`)
+2. **Check earlier phase findings**: Did you already learn which tool they use?
+   - **Yes**: Search for that specific tool to get its `url`, skip to step 5
+   - **No**: Continue to step 3
+3. **Search**: Call `search_mcp_registry` with mapped keywords
+4. **Present choices and ask user**: Show all results, ask which they use
+5. **Connect if needed**: If not connected, call `suggest_connectors`
+6. **Update MCP config**: Add config using the `url` from search results
+
+## Updating Plugin MCP Configuration
+
+### Finding the Config File
+
+1. **Check `plugin.json`** for an `mcpServers` field:
+   ```json
+   {
+     "name": "my-plugin",
+     "mcpServers": "./config/servers.json"
+   }
+   ```
+   If present, edit the file at that path.
+
+2. **If no `mcpServers` field**, use `.mcp.json` at the plugin root (default).
+
+3. **If `mcpServers` points only to `.mcpb` files** (bundled servers), create a new `.mcp.json` at the plugin root.
+
+### Config File Format
+
+Both wrapped and unwrapped formats are supported:
+
+```json
+{
+  "mcpServers": {
+    "github": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/"
+    }
+  }
+}
+```
+
+Use the `url` field from `search_mcp_registry` results.
+
+### Directory Entries Without a URL
+
+Some directory entries have no `url` because the endpoint is dynamic - the admin provides it when connecting the server. These servers can still be referenced in the plugin's MCP config by **name**: if the MCP server name in the config matches the directory entry name, it is treated the same as a URL match.
+
+## Example: Fully Configured `.mcp.json`
+
+```json
+{
+  "mcpServers": {
+    "github": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/",
+      "headers": {
+        "Authorization": "Bearer ${GITHUB_TOKEN}"
+      }
+    },
+    "asana": {
+      "type": "sse",
+      "url": "https://mcp.asana.com/sse"
+    },
+    "slack": {
+      "type": "http",
+      "url": "https://slack.mcp.claude.com/mcp"
+    },
+    "figma": {
+      "type": "http",
+      "url": "https://mcp.figma.com/mcp"
+    },
+    "datadog": {
+      "type": "http",
+      "url": "https://api.datadoghq.com/mcp",
+      "headers": {
+        "DD-API-KEY": "${DATADOG_API_KEY}",
+        "DD-APPLICATION-KEY": "${DATADOG_APP_KEY}"
+      }
+    }
+  },
+  "recommendedCategories": [
+    "source-control",
+    "project-management",
+    "chat",
+    "documents",
+    "wiki-knowledge-base",
+    "design-graphics",
+    "analytics-bi"
+  ]
+}
+
+```

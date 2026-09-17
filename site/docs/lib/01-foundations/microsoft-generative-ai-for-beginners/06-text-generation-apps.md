@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "01-foundations"
 sourceUrl: "https://github.com/microsoft/generative-ai-for-beginners"
-entryUrl: "https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/README.md"
+entryUrl: "https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/06-text-generation-apps/README.md"
+sourceRel: "06-text-generation-apps/README.md"
+rawUrl: "/raw/01-foundations/microsoft-generative-ai-for-beginners/06-text-generation-apps/README.md"
+sourceSha256: "59c54fb72e2534fbc19d82b714c6cabc3e2b8aeca859d3fdea1b502e21977975"
+pageSha256: "59c54fb72e2534fbc19d82b714c6cabc3e2b8aeca859d3fdea1b502e21977975"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -133,7 +138,7 @@ from openai import OpenAI
 
 client = OpenAI(
     api_key=os.environ["AZURE_OPENAI_API_KEY"],
-    base_url=f"{os.environ['AZURE_OPENAI_ENDPOINT'].rstrip('/')}/openai/v1/",
+    base_url=f"\{os.environ['AZURE_OPENAI_ENDPOINT'].rstrip('/')\}/openai/v1/",
 )
 ```
 
@@ -422,7 +427,7 @@ Now that we have played out a scenario, let's write code to match the demonstrat
    ingredients = input("List of ingredients (for example, chicken, potatoes, and carrots): ")
 
    # interpolate the number of recipes into the prompt an ingredients
-   prompt = f"Show me {no_recipes} recipes for a dish with the following ingredients: {ingredients}. Per recipe, list all the ingredients used"
+   prompt = f"Show me \{no_recipes\} recipes for a dish with the following ingredients: \{ingredients\}. Per recipe, list all the ingredients used"
    ```
 
    Taking the code for a test run, could look like this:
@@ -447,10 +452,10 @@ To further improve it, we want to add the following:
   ```python
   filter = input("Filter (for example, vegetarian, vegan, or gluten-free): ")
 
-  prompt = f"Show me {no_recipes} recipes for a dish with the following ingredients: {ingredients}. Per recipe, list all the ingredients used, no {filter}"
+  prompt = f"Show me \{no_recipes\} recipes for a dish with the following ingredients: \{ingredients\}. Per recipe, list all the ingredients used, no \{filter\}"
   ```
 
-  Above, we add `{filter}` to the end of the prompt and we also capture the filter value from the user.
+  Above, we add `\{filter\}` to the end of the prompt and we also capture the filter value from the user.
 
   An example input of running the program can now look like so:
 
@@ -531,7 +536,7 @@ To further improve it, we want to add the following:
   old_prompt_result = response.output_text
   prompt = "Produce a shopping list for the generated recipes and please don't include ingredients that I already have."
 
-  new_prompt = f"{old_prompt_result} {prompt}"
+  new_prompt = f"\{old_prompt_result\} \{prompt\}"
   response = client.responses.create(model=deployment_name, input=new_prompt, max_output_tokens=1200, store=False)
 
   # print response
@@ -544,7 +549,7 @@ To further improve it, we want to add the following:
   1. We're constructing a new prompt by adding the result from the first prompt to the new prompt:
 
      ```python
-     new_prompt = f"{old_prompt_result} {prompt}"
+     new_prompt = f"\{old_prompt_result\} \{prompt\}"
      ```
 
   1. We make a new request, but also considering the number of tokens we asked for in the first prompt, so this time we say `max_output_tokens` is 1200.

@@ -9,6 +9,11 @@ tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/Chachamaru127/claude-code-harness"
 entryUrl: "https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/09-harness/claude-code-harness-chachamaru/README.md"
+sourceSha256: "d274ee01f719b812e49f995c1deddf25f8878a51cffb4b49259d8f23eee1f9ca"
+pageSha256: "d274ee01f719b812e49f995c1deddf25f8878a51cffb4b49259d8f23eee1f9ca"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -26,7 +31,7 @@ zh: ""
   
   
 
-  English | <a href="https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/README_ja.md">日本語</a>
+  English | <a href="/lib/09-harness/claude-code-harness-chachamaru/README_ja">日本語</a>
 
   <img src="/mirror/c6/c63e4801a1b6c790d6475a4b0732feaf2de1b29f.svg" alt="Operating loop: Plan, Work, Review, Release — with every command checked before it runs" width="880">
 
@@ -120,7 +125,7 @@ also uses its session selection and the active skill's settings.
 
 The general Claude review route uses Fable 5.1 / `high`; the dedicated
 Reviewer above uses a separate Sonnet 5 definition. Lightweight research has
-its own routes. See the [full role table](https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/docs/model-routing-policy.md).
+its own routes. See the [full role table](/lib/09-harness/claude-code-harness-chachamaru/docs-model-routing-policy).
 
 **Manual model and effort choices remain authoritative.** Per-call selections
 and role settings apply to their respective execution paths. Changing the
@@ -132,7 +137,7 @@ is preserved; stronger wording in a request does not authorize effort changes.
 Operations connected to CCH's checks are inspected by a Go engine before
 execution. Network sends and deletions also need command-level checks because
 a file diff cannot establish those effects. Coverage depends on the host;
-see [safety differences between hosts](https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/docs/hardening-parity.md).
+see [safety differences between hosts](/lib/09-harness/claude-code-harness-chachamaru/docs-hardening-parity).
 
 **Two layers, deliberately different in strength.**
 
@@ -205,7 +210,7 @@ a tool has an *entry path*, not a shared product promise.
 |---|---|---|
 | Claude Code | `supported` | Plugin marketplace, then `/harness-setup` |
 | Codex CLI | `supported` | [`scripts/setup-codex.sh --user`](https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/codex/README.md#option-1-script-recommended-user-based); rerun after Harness updates, then restart Codex |
-| Cursor | `supported` | `scripts/setup-cursor.sh` — containment is harness-side, see [notes](https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/docs/CURSOR_INTEGRATION.md) |
+| Cursor | `supported` | `scripts/setup-cursor.sh` — containment is harness-side, see [notes](/lib/09-harness/claude-code-harness-chachamaru/docs-CURSOR_INTEGRATION) |
 | Grok | `supported` | `scripts/setup-grok.sh` |
 | Codex app | `candidate` | Candidate smoke only; CLI proof is not reused |
 | OpenCode | `internal-compatible` | `scripts/setup-opencode.sh`; runtime parity not claimed |
@@ -301,15 +306,15 @@ uses the companion path, which explicitly selects read-only execution.
 
 | Resource | Description |
 |---|---|
-| [Tool-first onboarding](https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/docs/onboarding/index.md) | Where to start, by host tool |
-| [Install routes](https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/docs/onboarding/install.md) | Per-tool setup and tier boundaries |
-| [Migration check](https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/docs/onboarding/migration.md) | Existing-user impact and rollback |
-| [Skill trigger gate](https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/docs/onboarding/skill-trigger-acceptance.md) | How install success is verified |
-| [Capability matrix](https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/docs/tool-capability-matrix.md) | Full host claim table |
-| [Distribution scope](https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/docs/distribution-scope.md) | Included vs compatibility vs dev-only |
-| [Hardening parity](https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/docs/hardening-parity.md) | Safety differences between hosts |
-| [Work All evidence pack](https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/docs/evidence/work-all.md) | Verification contract for full-plan runs |
-| [Model roles](https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/docs/model-routing-policy.md) | Role models, reasoning effort, and override priority |
-| [Task requests and handoffs](https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/docs/prompt-calibration.md) | Completion criteria, evidence, correction instructions, and restart context |
-| [Language / i18n](https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/docs/i18n.md) | Switching output language |
+| [Tool-first onboarding](/lib/09-harness/claude-code-harness-chachamaru/docs-onboarding) | Where to start, by host tool |
+| [Install routes](/lib/09-harness/claude-code-harness-chachamaru/docs-onboarding-install) | Per-tool setup and tier boundaries |
+| [Migration check](/lib/09-harness/claude-code-harness-chachamaru/docs-onboarding-migration) | Existing-user impact and rollback |
+| [Skill trigger gate](/lib/09-harness/claude-code-harness-chachamaru/docs-onboarding-skill-trigger-acceptance) | How install success is verified |
+| [Capability matrix](/lib/09-harness/claude-code-harness-chachamaru/docs-tool-capability-matrix) | Full host claim table |
+| [Distribution scope](/lib/09-harness/claude-code-harness-chachamaru/docs-distribution-scope) | Included vs compatibility vs dev-only |
+| [Hardening parity](/lib/09-harness/claude-code-harness-chachamaru/docs-hardening-parity) | Safety differences between hosts |
+| [Work All evidence pack](/lib/09-harness/claude-code-harness-chachamaru/docs-evidence-work-all) | Verification contract for full-plan runs |
+| [Model roles](/lib/09-harness/claude-code-harness-chachamaru/docs-model-routing-policy) | Role models, reasoning effort, and override priority |
+| [Task requests and handoffs](/lib/09-harness/claude-code-harness-chachamaru/docs-prompt-calibration) | Completion criteria, evidence, correction instructions, and restart context |
+| [Language / i18n](/lib/09-harness/claude-code-harness-chachamaru/docs-i18n) | Switching output language |
 | [Changelog](https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/CHANGELOG.md) | User-facing version history |

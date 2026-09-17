@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/zebbern/claude-code-guide"
-entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/README.md"
+entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/skills/code-documenter/references/coverage-reports.md"
+sourceRel: "skills/code-documenter/references/coverage-reports.md"
+rawUrl: "/raw/09-harness/claude-code-guide-zebbern/skills/code-documenter/references/coverage-reports.md"
+sourceSha256: "dd6d9fc2e71f934264ae56982b1bef654af2551eec26c7cacf3b201d1b85e84f"
+pageSha256: "dd6d9fc2e71f934264ae56982b1bef654af2551eec26c7cacf3b201d1b85e84f"
+contentMode: "local-full"
 zh: ""
 ---
 

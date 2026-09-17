@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial"
-entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/README.md"
+entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/docs/02-core-features/04-file-management.md"
+sourceRel: "docs/02-core-features/04-file-management.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-tutorial/docs/02-core-features/04-file-management.md"
+sourceSha256: "7fc11f3a0285d540417ec75d3f88753a1eca90d19dffe04e6200bed7ebaa4f7a"
+pageSha256: "7fc11f3a0285d540417ec75d3f88753a1eca90d19dffe04e6200bed7ebaa4f7a"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -1,0 +1,115 @@
+---
+title: "Language / i18n Configuration"
+sourceId: "09-harness/claude-code-harness-chachamaru"
+sourceTitle: "Claude Code Harness"
+sourceKind: "工程手册"
+licenseLabel: "可转载"
+lang: "中英混排"
+tier: 3
+volume: "09-harness"
+sourceUrl: "https://github.com/Chachamaru127/claude-code-harness"
+entryUrl: "https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/docs/i18n.md"
+sourceRel: "docs/i18n.md"
+rawUrl: "/raw/09-harness/claude-code-harness-chachamaru/docs/i18n.md"
+sourceSha256: "ba8fbd09dd6c3ff40449e021348ce8edad88ecc34032b75565cbd995b6d4c35f"
+pageSha256: "ba8fbd09dd6c3ff40449e021348ce8edad88ecc34032b75565cbd995b6d4c35f"
+contentMode: "local-full"
+zh: ""
+---
+
+# Language / i18n Configuration
+
+Closes: [Issue #173](https://github.com/Chachamaru127/claude-code-harness/issues/173) — English version / how to set the global output language.
+
+User-facing responses (skill outputs, slash commands, hook messages) follow the explicit session or project language. **When no language is configured, the default is English.** Use Japanese only when explicitly requested via one of the three mechanisms below.
+
+This file is the SSOT. `CLAUDE.md` Language section is a short pointer to here. The README links here under "Language".
+
+---
+
+## How to switch language
+
+There are three ways to set the language. **Resolution precedence, highest first:**
+
+1. A per-message session instruction (you explicitly ask the agent to switch).
+2. The project config `.claude-code-harness.config.yaml` (`i18n.language`).
+3. The `CLAUDE_CODE_HARNESS_LANG` env var.
+
+If none are set, the default is `en`. Note that the project config takes
+priority over the env var: when `i18n.language` is present it wins, and
+`CLAUDE_CODE_HARNESS_LANG` only applies as a fallback for projects that do not
+set it.
+
+### 1. Project-level config — `.claude-code-harness.config.yaml`
+
+For a per-project setting that persists across sessions, set the language in the harness config file the runtime reads, `.claude-code-harness.config.yaml`:
+
+```yaml
+i18n:
+  language: en   # en | ja (default: en)
+```
+
+This applies to every Claude Code session run inside the project, and the language directive is re-injected on every turn so responses stay in the configured language. Commit this file to make the choice repository-wide.
+
+> Note: `harness.toml` is the v4/v5 build source consumed by `harness sync`; it does **not** currently carry the runtime language setting. Set `i18n.language` in `.claude-code-harness.config.yaml`.
+
+### 2. Per-session env var — `CLAUDE_CODE_HARNESS_LANG`
+
+For a project that does **not** pin `i18n.language`, export the env var before launching Claude Code to choose the language for that session:
+
+```bash
+export CLAUDE_CODE_HARNESS_LANG=ja
+claude            # this session uses Japanese
+```
+
+Or inline:
+
+```bash
+CLAUDE_CODE_HARNESS_LANG=ja claude
+```
+
+> If the project config sets `i18n.language`, it wins over this env var. To
+> override a config-pinned language for a single session, use a per-message
+> session instruction (below).
+
+### 3. Per-message session instruction
+
+For ad-hoc switching mid-session, tell the agent in your own words:
+
+```
+> 以後は日本語で返答してください
+```
+
+```
+> Please respond in English from now on.
+```
+
+This wins over both `.claude-code-harness.config.yaml` and `CLAUDE_CODE_HARNESS_LANG` for the rest of the session.
+
+---
+
+## What does NOT change
+
+- Machine-readable values (JSON schema fields, contract verdicts, log keys) stay English regardless of the language setting.
+- Source code identifiers, file names, commit hashes, command names stay as-is.
+- Conventional Commits prefixes (`feat:` / `fix:` / `docs:` ...) stay English.
+
+If you see Japanese in a place that should be machine-readable (e.g. a JSON contract field), please open an Issue — that's a bug, not an i18n setting question.
+
+---
+
+## Supported languages
+
+| Code | Status |
+|---|---|
+| `en` | Supported (default) |
+| `ja` | Supported |
+| other (`zh`, `ko`, `de`, etc.) | Not officially supported — session instruction can request best-effort, but skill outputs may include English fallbacks |
+
+---
+
+## Related
+
+- `CLAUDE.md` § Language (short pointer to this file)
+- `README.md` § Language (link to this file)
+- `.claude-code-harness.config.yaml` (`i18n.language`, read by the runtime and hooks)

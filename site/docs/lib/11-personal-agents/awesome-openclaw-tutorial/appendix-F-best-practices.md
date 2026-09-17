@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial"
-entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/README.md"
+entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/appendix/F-best-practices.md"
+sourceRel: "appendix/F-best-practices.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-tutorial/appendix/F-best-practices.md"
+sourceSha256: "0806c22ae7595f8a118ab0a7fb2e2a7593eda56b5503315089df4c7c0bbffc5d"
+pageSha256: "0806c22ae7595f8a118ab0a7fb2e2a7593eda56b5503315089df4c7c0bbffc5d"
+contentMode: "local-full"
 zh: ""
 ---
 

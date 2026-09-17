@@ -9,6 +9,11 @@ tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/zebbern/claude-code-guide"
 entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/09-harness/claude-code-guide-zebbern/README.md"
+sourceSha256: "9dbd9232d21737b4649272b11a869e7b4d58a0b56f019daf886f1648cf672988"
+pageSha256: "9dbd9232d21737b4649272b11a869e7b4d58a0b56f019daf886f1648cf672988"
+contentMode: "local-full"
 zh: ""
 ---
 

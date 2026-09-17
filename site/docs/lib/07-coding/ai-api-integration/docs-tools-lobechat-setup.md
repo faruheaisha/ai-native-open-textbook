@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/CCCpan/ai-api-integration"
-entryUrl: "https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/README.md"
+entryUrl: "https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/docs/tools/lobechat-setup.md"
+sourceRel: "docs/tools/lobechat-setup.md"
+rawUrl: "/raw/07-coding/ai-api-integration/docs/tools/lobechat-setup.md"
+sourceSha256: "7864b7024ae8d9d8718d84341db34ff704eddb151e78088ff24efbbf286a4cf3"
+pageSha256: "7864b7024ae8d9d8718d84341db34ff704eddb151e78088ff24efbbf286a4cf3"
+contentMode: "local-full"
 zh: ""
 ---
 

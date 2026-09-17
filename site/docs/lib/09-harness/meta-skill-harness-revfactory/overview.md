@@ -9,12 +9,17 @@ tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/revfactory/harness"
 entryUrl: "https://github.com/revfactory/harness/blob/cceac68ea1d0ad198ef4b7b906cd238375836387/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/09-harness/meta-skill-harness-revfactory/README.md"
+sourceSha256: "ab72bd9b63dd92d5e5cb375be92c668ef20cf4b2e00ad4e72eb8958706ac1eb1"
+pageSha256: "ab72bd9b63dd92d5e5cb375be92c668ef20cf4b2e00ad4e72eb8958706ac1eb1"
+contentMode: "local-full"
 zh: ""
 ---
 
 # Harness — The Team-Architecture Factory for Claude Code
 
-**English** | [한국어](/lib/09-harness/meta-skill-harness-revfactory/README_KO) | [日本語](/lib/09-harness/meta-skill-harness-revfactory/README_JA)
+**English** | [한국어](https://github.com/revfactory/harness/blob/cceac68ea1d0ad198ef4b7b906cd238375836387/README_KO.md) | [日本語](https://github.com/revfactory/harness/blob/cceac68ea1d0ad198ef4b7b906cd238375836387/README_JA.md)
 
 > **Harness is a team-architecture factory for Claude Code.** Say **"build a harness for this project"** (English) or **"하네스 구성해줘"** (한국어) or **"ハーネスを構成して"** (日本語), and the plugin turns your domain description into an agent team and the skills they use — picked from six pre-defined team-architecture patterns.
 

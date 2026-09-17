@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/Windy3f3f3f3f/claude-code-from-scratch"
-entryUrl: "https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/README.md"
+entryUrl: "https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/docs/10-plan-mode.md"
+sourceRel: "docs/10-plan-mode.md"
+rawUrl: "/raw/09-harness/claude-code-from-scratch/docs/10-plan-mode.md"
+sourceSha256: "096f04c2c96aeb15def176bdecc2da00cd1b979ba752f6841a5c5d0c469477ec"
+pageSha256: "096f04c2c96aeb15def176bdecc2da00cd1b979ba752f6841a5c5d0c469477ec"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -201,7 +206,7 @@ Plan 文件持久化到 `~/.claude/plans/` 有两个原因：
 
 | 维度 | Claude Code | mini-claude | 差异 |
 |------|------------|-------------|------|
-| Plan 文件 | 全局 plans 目录 + 语义文件名 | `~/.claude/plans/plan-{sessionId}.md` | 简化命名 |
+| Plan 文件 | 全局 plans 目录 + 语义文件名 | `~/.claude/plans/plan-\{sessionId\}.md` | 简化命名 |
 | 审批选项 | 多种执行模式 + 权限提示 | 4 种选项（clear/execute/manual/revise） | 核心对齐 |
 | 权限联动 | 深度集成（7 层权限体系） | checkPermission 特殊分支 + plan 文件白名单 | 简化但等效 |
 | 工具加载 | 始终可用 | deferred 延迟加载 | 节省提示词空间 |

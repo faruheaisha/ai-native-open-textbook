@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/VoltAgent/awesome-openclaw-skills"
-entryUrl: "https://github.com/VoltAgent/awesome-openclaw-skills/blob/37ad08c1b8e243d5f501c6fcaf7ac0b507bd83a1/README.md"
+entryUrl: "https://github.com/VoltAgent/awesome-openclaw-skills/blob/37ad08c1b8e243d5f501c6fcaf7ac0b507bd83a1/categories/health-and-fitness.md"
+sourceRel: "categories/health-and-fitness.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-skills/categories/health-and-fitness.md"
+sourceSha256: "63721c6dae7098e4ccaa5b6795139193043a17021ca4c138cec7a44e27ba17ae"
+pageSha256: "63721c6dae7098e4ccaa5b6795139193043a17021ca4c138cec7a44e27ba17ae"
+contentMode: "local-full"
 zh: ""
 ---
 

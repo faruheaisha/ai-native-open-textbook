@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh"
-entryUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/README.md"
+entryUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/docs/claude-code/08-Plugins生态完整指南.md"
+sourceRel: "docs/claude-code/08-Plugins生态完整指南.md"
+rawUrl: "/raw/07-coding/ai-coding-guide-zh/docs/claude-code/08-Plugins生态完整指南.md"
+sourceSha256: "45c0d115e61f70d7b0ff1b768a02b6aef85d3aa887dc48f65804795ba2c7ef48"
+pageSha256: "45c0d115e61f70d7b0ff1b768a02b6aef85d3aa887dc48f65804795ba2c7ef48"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/addyosmani/agent-skills"
-entryUrl: "https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/README.md"
+entryUrl: "https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/docs/developer-onboarding.md"
+sourceRel: "docs/developer-onboarding.md"
+rawUrl: "/raw/10-context-memory/agent-skills-addyosmani/docs/developer-onboarding.md"
+sourceSha256: "59a35b68045f34aa42161bc5901892489e6ecdac4b5bbfcf311fde65f8255eea"
+pageSha256: "59a35b68045f34aa42161bc5901892489e6ecdac4b5bbfcf311fde65f8255eea"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -16,7 +21,7 @@ zh: ""
 
 This guide is for people working **on** the agent-skills repository itself: contributing skills, fixing docs, improving the eval harness. If you want to *use* the skills in your own projects, you're looking for [getting-started.md](/lib/10-context-memory/agent-skills-addyosmani/docs-getting-started) instead.
 
-It's a guided tour, not a rulebook. The rules live in [CONTRIBUTING.md](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/CONTRIBUTING.md) (contribution workflow), [skill-anatomy.md](/lib/10-context-memory/agent-skills-addyosmani/docs-skill-anatomy) (skill format), and [evals/README.md](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/evals/README.md) (eval framework); this document tells you when to read each one and how the pieces fit.
+It's a guided tour, not a rulebook. The rules live in [CONTRIBUTING.md](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/CONTRIBUTING.md) (contribution workflow), [skill-anatomy.md](/lib/10-context-memory/agent-skills-addyosmani/docs-skill-anatomy) (skill format), and [evals/README.md](/lib/10-context-memory/agent-skills-addyosmani/evals) (eval framework); this document tells you when to read each one and how the pieces fit.
 
 ---
 
@@ -34,7 +39,7 @@ The repo has five composable layers. Understanding what each one is *for* preven
 
 Two structural rules worth internalizing early:
 
-- **The user (or a slash command) is the orchestrator.** Personas never invoke other personas; the only endorsed multi-persona pattern is parallel fan-out with a merge step (see [references/orchestration-patterns.md](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/references/orchestration-patterns.md)).
+- **The user (or a slash command) is the orchestrator.** Personas never invoke other personas; the only endorsed multi-persona pattern is parallel fan-out with a merge step (see [references/orchestration-patterns.md](/lib/10-context-memory/agent-skills-addyosmani/references-orchestration-patterns)).
 - **Don't duplicate, reference.** Skills link to other skills and to `references/` instead of restating content. The same rule applies to docs, including this one.
 
 One scope caveat that trips people up: `AGENTS.md` and `CLAUDE.md` at the repo root configure agents working on *this repo*. They are not reusable assets and setup guides must never tell users to copy them into their own projects; the reusable assets are the skills.

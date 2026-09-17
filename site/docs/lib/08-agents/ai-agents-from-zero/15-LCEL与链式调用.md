@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/didilili/ai-agents-from-zero"
-entryUrl: "https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/README.md"
+entryUrl: "https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/15-LCEL与链式调用.md"
+sourceRel: "15-LCEL与链式调用.md"
+rawUrl: "/raw/08-agents/ai-agents-from-zero/15-LCEL与链式调用.md"
+sourceSha256: "57606b01c21519d4f8c78234e9b190276cfbe80e1b9adc98ad143713df938cac"
+pageSha256: "57606b01c21519d4f8c78234e9b190276cfbe80e1b9adc98ad143713df938cac"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -311,7 +316,7 @@ chain = prompt | model | parser
 | **顺序链**     | `prompt -> model -> parser` / `RunnableSequence` | 一步接一步执行         | 单输入 → 单输出 | 最基础的问答、抽取、摘要     |
 | **分支链**     | `RunnableBranch(...)`                            | 按条件只走其中一条子链 | 单输入 → 单输出 | 意图路由、多语言路由         |
 | **多步串行链** | 多条子链继续串联                                 | 前一步结果给后一步     | 单输入 → 单输出 | 先总结再翻译、先整理再生成   |
-| **并行链**     | `RunnableParallel({...})`                        | 多条子链同时执行       | 单输入 → 多输出 | 中英文同时生成、多模型并跑   |
+| **并行链**     | `RunnableParallel(\{...\})`                        | 多条子链同时执行       | 单输入 → 多输出 | 中英文同时生成、多模型并跑   |
 | **函数链**     | `RunnableLambda(func)`                           | 在链中插入 Python 函数 | 取决于函数      | 字段映射、调试、轻量业务逻辑 |
 
 如果你现在只想快速建立直觉，可以这样选：

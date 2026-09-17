@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/hijasonxu1/How-to-use-dify"
-entryUrl: "https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/README.md"
+entryUrl: "https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/docs/reference/official-links.md"
+sourceRel: "docs/reference/official-links.md"
+rawUrl: "/raw/04-work/how-to-use-dify/docs/reference/official-links.md"
+sourceSha256: "8f2ae7a7c13bc8ade7e7666062b664023830952bdc885757a1e3a6b31494789c"
+pageSha256: "8f2ae7a7c13bc8ade7e7666062b664023830952bdc885757a1e3a6b31494789c"
+contentMode: "local-full"
 zh: ""
 ---
 

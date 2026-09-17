@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/rohitg00/ai-engineering-from-scratch"
-entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/README.md"
+entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/certifications/claude/lessons/01-claude-product-and-model-landscape/docs/en.md"
+sourceRel: "certifications/claude/lessons/01-claude-product-and-model-landscape/docs/en.md"
+rawUrl: "/raw/07-coding/ai-engineering-from-scratch/certifications/claude/lessons/01-claude-product-and-model-landscape/docs/en.md"
+sourceSha256: "8d7327dec93f586d1f77ae95716060d14da3d92dad48b09df2cbd143190909e8"
+pageSha256: "8d7327dec93f586d1f77ae95716060d14da3d92dad48b09df2cbd143190909e8"
+contentMode: "local-full"
 zh: ""
 ---
 

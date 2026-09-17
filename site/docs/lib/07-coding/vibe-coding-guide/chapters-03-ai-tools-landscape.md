@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/zhiyue/vibe-coding-guide"
-entryUrl: "https://github.com/zhiyue/vibe-coding-guide/blob/ee8434ce526f629e0ca4ce00f6a66be6372327ac/README.md"
+entryUrl: "https://github.com/zhiyue/vibe-coding-guide/blob/ee8434ce526f629e0ca4ce00f6a66be6372327ac/chapters/03-ai-tools-landscape.md"
+sourceRel: "chapters/03-ai-tools-landscape.md"
+rawUrl: "/raw/07-coding/vibe-coding-guide/chapters/03-ai-tools-landscape.md"
+sourceSha256: "08c2fbff7c14760fc3fa75f940baa07afcfe63102d2484803568759ce93aa974"
+pageSha256: "08c2fbff7c14760fc3fa75f940baa07afcfe63102d2484803568759ce93aa974"
+contentMode: "local-full"
 zh: ""
 ---
 

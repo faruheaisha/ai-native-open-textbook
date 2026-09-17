@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/github/spec-kit"
-entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/README.md"
+entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/docs/community/walkthroughs.md"
+sourceRel: "docs/community/walkthroughs.md"
+rawUrl: "/raw/07-coding/spec-kit/docs/community/walkthroughs.md"
+sourceSha256: "fa75be6cc409ae9621963cf36eca1fc773132dd951fad87bbda80356b65c68d7"
+pageSha256: "fa75be6cc409ae9621963cf36eca1fc773132dd951fad87bbda80356b65c68d7"
+contentMode: "local-full"
 zh: ""
 ---
 

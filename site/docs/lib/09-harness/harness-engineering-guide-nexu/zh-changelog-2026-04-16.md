@@ -1,0 +1,45 @@
+---
+title: "2026-04-16 — 新增 6 篇 · 累计 21 篇"
+sourceId: "09-harness/harness-engineering-guide-nexu"
+sourceTitle: "Harness Engineering 指南（nexu.io）"
+sourceKind: "工程手册"
+licenseLabel: "可转载"
+lang: "英文"
+tier: 3
+volume: "09-harness"
+sourceUrl: "https://github.com/nexu-io/harness-engineering-guide"
+entryUrl: "https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/zh-changelog/2026-04-16.md"
+sourceRel: "zh-changelog/2026-04-16.md"
+rawUrl: "/raw/09-harness/harness-engineering-guide-nexu/zh-changelog/2026-04-16.md"
+sourceSha256: "751505495104c27c0f44da4e1a41e960c97dcbd93ed3fe062587e01b452122a7"
+pageSha256: "751505495104c27c0f44da4e1a41e960c97dcbd93ed3fe062587e01b452122a7"
+contentMode: "local-full"
+zh: ""
+---
+
+# 2026-04-16 — 新增 6 篇 · 累计 21 篇
+
+## 实战（新增 2，累计 7）
+
+- [多 Agent 编排](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/zh/guide/multi-agent-orchestration/README.md) — 编排模式（流水线、扇出、监督者、对等通信），Context 隔离，Multica/Paseo/OpenClaw 实战案例。
+- [定时任务与自动化](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/zh/guide/scheduling-and-automation/README.md) — Cron、Heartbeat、事件触发、一次性定时器。Session 目标、交付模式、LangSmith vs Harness 原生对比。
+
+## 分享（新增 1，累计 2）
+
+- [幽灵账号盗刷排查实录](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/zh/guide/ghost-account-hunting/README.md) — 上线 15 天被 1000+ 幽灵账号盗刷的完整排查复盘、检测脚本和防御方案。
+
+## Skill
+
+- 新增 **abuse-hunter** Skill — SaaS 批量注册盗刷排查工具包。
+
+## 实战（来自 Anthropic Engineering，新增 3，累计 10）
+
+- [长时运行 Harness 设计](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/zh/guide/long-running-harness/README.md) — Context 焦虑、自评估偏差、Context Reset vs Compaction、GAN 启发的生成器-评估器、三 Agent 架构。
+- [Managed Agents 架构](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/zh/guide/managed-agents-architecture/README.md) — Brain/Hands/Session 三层解耦、Pets vs Cattle、Session 持久化、凭证隔离、TTFT 降幅 60-90%。
+- [评测基础设施噪声](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/zh/guide/eval-infrastructure/README.md) — 资源配置导致 Benchmark 得分波动 6 个百分点。Floor+Ceiling 执行策略、1x→3x→uncapped 分析。
+
+## 站点
+
+- 用像素级 SVG 渲染替换了 AI 生成的 Banner。
+- 新增 `anthropic.com/engineering` 为管线 Tier 0 信息源。
+- 同步 README（中英双语）至全部 21 篇文章 × 5 个板块。

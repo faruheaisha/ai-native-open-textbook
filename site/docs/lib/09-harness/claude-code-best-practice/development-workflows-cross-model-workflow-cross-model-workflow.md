@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/shanraisshan/claude-code-best-practice"
-entryUrl: "https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/README.md"
+entryUrl: "https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/development-workflows/cross-model-workflow/cross-model-workflow.md"
+sourceRel: "development-workflows/cross-model-workflow/cross-model-workflow.md"
+rawUrl: "/raw/09-harness/claude-code-best-practice/development-workflows/cross-model-workflow/cross-model-workflow.md"
+sourceSha256: "6e0679819b58b81fca5f5434672ed1e68426464b968925da44e7dc1a29ac5a23"
+pageSha256: "6e0679819b58b81fca5f5434672ed1e68426464b968925da44e7dc1a29ac5a23"
+contentMode: "local-full"
 zh: ""
 ---
 

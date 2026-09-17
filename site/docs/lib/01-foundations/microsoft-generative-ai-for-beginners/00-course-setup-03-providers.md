@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "01-foundations"
 sourceUrl: "https://github.com/microsoft/generative-ai-for-beginners"
-entryUrl: "https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/README.md"
+entryUrl: "https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/00-course-setup/03-providers.md"
+sourceRel: "00-course-setup/03-providers.md"
+rawUrl: "/raw/01-foundations/microsoft-generative-ai-for-beginners/00-course-setup/03-providers.md"
+sourceSha256: "813cb07c41a6da4c4f2cc9a967ad45b50f7c0d0803c9ffaae40900c059b379cf"
+pageSha256: "813cb07c41a6da4c4f2cc9a967ad45b50f7c0d0803c9ffaae40900c059b379cf"
+contentMode: "local-full"
 zh: "on"
 ---
 

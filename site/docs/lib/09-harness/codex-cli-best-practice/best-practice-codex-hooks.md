@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/shanraisshan/codex-cli-best-practice"
-entryUrl: "https://github.com/shanraisshan/codex-cli-best-practice/blob/b79f473a188632867354fc793894dfd368a18e48/README.md"
+entryUrl: "https://github.com/shanraisshan/codex-cli-best-practice/blob/b79f473a188632867354fc793894dfd368a18e48/best-practice/codex-hooks.md"
+sourceRel: "best-practice/codex-hooks.md"
+rawUrl: "/raw/09-harness/codex-cli-best-practice/best-practice/codex-hooks.md"
+sourceSha256: "4285b8df0c5770d18871310c2936c3d58adb58114691211164d53ae63ee90d59"
+pageSha256: "4285b8df0c5770d18871310c2936c3d58adb58114691211164d53ae63ee90d59"
+contentMode: "local-full"
 zh: ""
 ---
 

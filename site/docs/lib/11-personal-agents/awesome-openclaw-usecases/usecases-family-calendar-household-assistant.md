@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases"
-entryUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/README.md"
+entryUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/family-calendar-household-assistant.md"
+sourceRel: "usecases/family-calendar-household-assistant.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-usecases/usecases/family-calendar-household-assistant.md"
+sourceSha256: "894580df5660cfde1dfbec333b18d7dce96e9a462e7555131f10cdc357dc6e20"
+pageSha256: "894580df5660cfde1dfbec333b18d7dce96e9a462e7555131f10cdc357dc6e20"
+contentMode: "local-full"
 zh: ""
 ---
 

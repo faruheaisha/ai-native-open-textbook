@@ -10,6 +10,8 @@ lang: "英文"
 volume: "10-context-memory"
 sourceUrl: "https://github.com/microsoft/skills"
 entryUrl: "https://github.com/microsoft/skills/blob/cf77b1efbf3117501f4727c476894751311ee885/README.md"
+sourceRel: ""
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -19,28 +21,2077 @@ Skills, custom agents, AGENTS.md templates, and MCP configurations for AI coding
 
 ## 课时
 
-1. [Astro Starter Kit: Minimal](docs-site.md)
-2. [Continual Learning Hook](hooks-continual-learning.md)
-3. [Skill Evaluation Test Harness](tests.md)
-4. [Agent Framework Azure AI Python Acceptance Criteria](tests-scenarios-agent-framework-azure-ai-py-acceptance-criteria.md)
-5. [Azure.AI.Agents.Persistent SDK Acceptance Criteria (.NET)](tests-scenarios-azure-ai-agents-persistent-dotnet-acceptance-criteria.md)
-6. [Azure AI Agents Persistent SDK for Java Acceptance Criteria](tests-scenarios-azure-ai-agents-persistent-java-acceptance-criteria.md)
-7. [Azure AI Anomaly Detector SDK for Java Acceptance Criteria](tests-scenarios-azure-ai-anomalydetector-java-acceptance-criteria.md)
-8. [Azure AI Content Safety SDK for Java Acceptance Criteria](tests-scenarios-azure-ai-contentsafety-java-acceptance-criteria.md)
-9. [Azure AI Content Safety SDK Acceptance Criteria](tests-scenarios-azure-ai-contentsafety-py-acceptance-criteria.md)
-10. [Acceptance Criteria: azure-ai-contentsafety-ts](tests-scenarios-azure-ai-contentsafety-ts-acceptance-criteria.md)
-11. [Azure AI Content Understanding SDK Acceptance Criteria](tests-scenarios-azure-ai-contentunderstanding-py-acceptance-criteria.md)
-12. [Azure Document Intelligence SDK Acceptance Criteria (.NET)](tests-scenarios-azure-ai-document-intelligence-dotnet-acceptance-criteria.md)
-13. [Acceptance Criteria: azure-ai-document-intelligence-ts](tests-scenarios-azure-ai-document-intelligence-ts-acceptance-criteria.md)
-14. [Azure Document Intelligence (Form Recognizer) SDK for Java Acceptance Criteria](tests-scenarios-azure-ai-formrecognizer-java-acceptance-criteria.md)
-15. [Acceptance Criteria: azure-ai-language-conversations-py](tests-scenarios-azure-ai-language-conversations-py-acceptance-criteria.md)
-16. [Azure Machine Learning SDK v2 Acceptance Criteria](tests-scenarios-azure-ai-ml-py-acceptance-criteria.md)
-17. [Azure OpenAI SDK Acceptance Criteria (.NET)](tests-scenarios-azure-ai-openai-dotnet-acceptance-criteria.md)
-18. [Azure.AI.Projects SDK Acceptance Criteria (.NET)](tests-scenarios-azure-ai-projects-dotnet-acceptance-criteria.md)
-19. [Azure AI Projects SDK for Java Acceptance Criteria](tests-scenarios-azure-ai-projects-java-acceptance-criteria.md)
-20. [Azure AI Projects SDK Acceptance Criteria](tests-scenarios-azure-ai-projects-py-acceptance-criteria.md)
-21. [Azure AI Projects SDK Acceptance Criteria (TypeScript)](tests-scenarios-azure-ai-projects-ts-acceptance-criteria.md)
-22. [Azure AI Text Analytics SDK Acceptance Criteria](tests-scenarios-azure-ai-textanalytics-py-acceptance-criteria.md)
-23. [Azure AI Transcription SDK Acceptance Criteria](tests-scenarios-azure-ai-transcription-py-acceptance-criteria.md)
+- **Skill Catalog**
+  - **Core**
+    - [cloud-solution-architect](/lib/10-context-memory/microsoft-skills/_github-skills-cloud-solution-architect-SKILL.md)
+    - [copilot-sdk](/lib/10-context-memory/microsoft-skills/_github-skills-copilot-sdk-SKILL.md)
+    - [debugview](/lib/10-context-memory/microsoft-skills/_github-skills-debugview-SKILL.md)
+    - [entra-agent-id](/lib/10-context-memory/microsoft-skills/_github-skills-entra-agent-id-SKILL.md)
+    - [frontend-design-review](/lib/10-context-memory/microsoft-skills/_github-skills-frontend-design-review-SKILL.md)
+    - [github-issue-creator](/lib/10-context-memory/microsoft-skills/_github-skills-github-issue-creator-SKILL.md)
+    - [mcp-builder](/lib/10-context-memory/microsoft-skills/_github-skills-mcp-builder-SKILL.md)
+    - [podcast-generation](/lib/10-context-memory/microsoft-skills/_github-skills-podcast-generation-SKILL.md)
+    - [skill-creator](/lib/10-context-memory/microsoft-skills/_github-skills-skill-creator-SKILL/index.md)
+  - **Foundry (Language-Agnostic)**
+    - [microsoft-foundry](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-SKILL.md)
+  - **Python**
+    - [agent-framework-azure-ai-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-agent-framework-azure-ai-py-SKILL.md)
+    - [azure-ai-contentsafety-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-contentsafety-py-SKILL.md)
+    - [azure-ai-contentunderstanding-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-contentunderstanding-py-SKILL.md)
+    - [azure-ai-projects-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-projects-py-SKILL.md)
+    - [azure-search-documents-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-search-documents-py-SKILL.md)
+    - [m365-agents-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-m365-agents-py-SKILL.md)
+    - [azure-ai-ml-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-ml-py-SKILL.md)
+    - [azure-ai-textanalytics-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-textanalytics-py-SKILL.md)
+    - [azure-ai-transcription-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-transcription-py-SKILL.md)
+    - [azure-ai-translation-document-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-translation-document-py-SKILL.md)
+    - [azure-ai-translation-text-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-translation-text-py-SKILL.md)
+    - [azure-ai-vision-imageanalysis-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-vision-imageanalysis-py-SKILL.md)
+    - [azure-ai-voicelive-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-voicelive-py-SKILL.md)
+    - [azure-speech-to-text-rest-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-speech-to-text-rest-py-SKILL.md)
+    - [azure-cosmos-db-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-cosmos-db-py-SKILL.md)
+    - [azure-cosmos-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-cosmos-py-SKILL.md)
+    - [azure-data-tables-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-data-tables-py-SKILL.md)
+    - [azure-storage-blob-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-storage-blob-py-SKILL.md)
+    - [azure-storage-file-datalake-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-storage-file-datalake-py-SKILL.md)
+    - [azure-storage-file-share-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-storage-file-share-py-SKILL.md)
+    - [azure-storage-queue-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-storage-queue-py-SKILL.md)
+    - [azure-eventgrid-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-eventgrid-py-SKILL.md)
+    - [azure-eventhub-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-eventhub-py-SKILL.md)
+    - [azure-messaging-webpubsubservice-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-messaging-webpubsubservice-py-SKILL.md)
+    - [azure-servicebus-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-servicebus-py-SKILL.md)
+    - [azure-identity-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-identity-py-SKILL.md)
+    - [azure-keyvault-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-keyvault-py-SKILL.md)
+    - [azure-monitor-ingestion-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-monitor-ingestion-py-SKILL.md)
+    - [azure-monitor-opentelemetry-exporter-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-monitor-opentelemetry-exporter-py-SKILL.md)
+    - [azure-monitor-opentelemetry-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-monitor-opentelemetry-py-SKILL.md)
+    - [azure-monitor-query-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-monitor-query-py-SKILL.md)
+    - [azure-appconfiguration-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-appconfiguration-py-SKILL.md)
+    - [azure-containerregistry-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-containerregistry-py-SKILL.md)
+    - [azure-mgmt-apicenter-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-mgmt-apicenter-py-SKILL.md)
+    - [azure-mgmt-apimanagement-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-mgmt-apimanagement-py-SKILL.md)
+    - [azure-mgmt-botservice-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-mgmt-botservice-py-SKILL.md)
+    - [azure-mgmt-fabric-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-mgmt-fabric-py-SKILL.md)
+    - [fastapi-router-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-fastapi-router-py-SKILL.md)
+    - [pydantic-models-py](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-pydantic-models-py-SKILL.md)
+  - **.NET**
+    - [azure-ai-document-intelligence-dotnet](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-ai-document-intelligence-dotnet-SKILL.md)
+    - [azure-ai-openai-dotnet](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-ai-openai-dotnet-SKILL.md)
+    - [azure-ai-projects-dotnet](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-ai-projects-dotnet-SKILL.md)
+    - [azure-ai-voicelive-dotnet](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-ai-voicelive-dotnet-SKILL.md)
+    - [azure-mgmt-weightsandbiases-dotnet](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-mgmt-weightsandbiases-dotnet-SKILL.md)
+    - [azure-search-documents-dotnet](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-search-documents-dotnet-SKILL.md)
+    - [m365-agents-dotnet](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-m365-agents-dotnet-SKILL.md)
+    - [azure-mgmt-fabric-dotnet](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-mgmt-fabric-dotnet-SKILL.md)
+    - [azure-resource-manager-cosmosdb-dotnet](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-resource-manager-cosmosdb-dotnet-SKILL.md)
+    - [azure-resource-manager-mysql-dotnet](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-resource-manager-mysql-dotnet-SKILL.md)
+    - [azure-resource-manager-postgresql-dotnet](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-resource-manager-postgresql-dotnet-SKILL.md)
+    - [azure-resource-manager-redis-dotnet](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-resource-manager-redis-dotnet-SKILL.md)
+    - [azure-resource-manager-sql-dotnet](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-resource-manager-sql-dotnet-SKILL.md)
+    - [azure-eventgrid-dotnet](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-eventgrid-dotnet-SKILL.md)
+    - [azure-eventhub-dotnet](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-eventhub-dotnet-SKILL.md)
+    - [azure-servicebus-dotnet](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-servicebus-dotnet-SKILL.md)
+    - [azure-identity-dotnet](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-identity-dotnet-SKILL.md)
+    - [azure-security-keyvault-keys-dotnet](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-security-keyvault-keys-dotnet-SKILL.md)
+    - [microsoft-azure-webjobs-extensions-authentication-events-dotnet](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-microsoft-azure-webjobs-extensions-authentication-events-dotnet-SKILL.md)
+    - [azure-maps-search-dotnet](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-maps-search-dotnet-SKILL.md)
+    - [azure-mgmt-apicenter-dotnet](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-mgmt-apicenter-dotnet-SKILL.md)
+    - [azure-mgmt-apimanagement-dotnet](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-mgmt-apimanagement-dotnet-SKILL.md)
+    - [azure-mgmt-botservice-dotnet](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-mgmt-botservice-dotnet-SKILL.md)
+    - [azure-resource-manager-durabletask-dotnet](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-resource-manager-durabletask-dotnet-SKILL.md)
+    - [azure-resource-manager-playwright-dotnet](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-resource-manager-playwright-dotnet-SKILL.md)
+    - [azure-mgmt-applicationinsights-dotnet](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-mgmt-applicationinsights-dotnet-SKILL.md)
+    - [azure-mgmt-arizeaiobservabilityeval-dotnet](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-mgmt-arizeaiobservabilityeval-dotnet-SKILL.md)
+    - [azure-mgmt-mongodbatlas-dotnet](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-mgmt-mongodbatlas-dotnet-SKILL.md)
+  - **TypeScript**
+    - [azure-ai-contentsafety-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-ai-contentsafety-ts-SKILL.md)
+    - [azure-ai-document-intelligence-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-ai-document-intelligence-ts-SKILL.md)
+    - [azure-ai-projects-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-ai-projects-ts-SKILL.md)
+    - [azure-ai-translation-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-ai-translation-ts-SKILL.md)
+    - [azure-ai-voicelive-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-ai-voicelive-ts-SKILL.md)
+    - [azure-search-documents-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-search-documents-ts-SKILL.md)
+    - [m365-agents-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-m365-agents-ts-SKILL.md)
+    - [azure-cosmos-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-cosmos-ts-SKILL.md)
+    - [azure-postgres-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-postgres-ts-SKILL.md)
+    - [azure-storage-blob-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-storage-blob-ts-SKILL.md)
+    - [azure-storage-file-share-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-storage-file-share-ts-SKILL.md)
+    - [azure-storage-queue-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-storage-queue-ts-SKILL.md)
+    - [azure-eventhub-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-eventhub-ts-SKILL.md)
+    - [azure-servicebus-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-servicebus-ts-SKILL.md)
+    - [azure-web-pubsub-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-web-pubsub-ts-SKILL.md)
+    - [azure-appconfiguration-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-appconfiguration-ts-SKILL.md)
+    - [azure-identity-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-identity-ts-SKILL.md)
+    - [azure-keyvault-keys-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-keyvault-keys-ts-SKILL.md)
+    - [azure-keyvault-secrets-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-keyvault-secrets-ts-SKILL.md)
+    - [azure-microsoft-playwright-testing-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-microsoft-playwright-testing-ts-SKILL.md)
+    - [azure-monitor-opentelemetry-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-monitor-opentelemetry-ts-SKILL.md)
+    - [frontend-ui-dark-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-frontend-ui-dark-ts-SKILL.md)
+    - [react-flow-node-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-react-flow-node-ts-SKILL.md)
+    - [zustand-store-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-zustand-store-ts-SKILL.md)
+  - **Java**
+    - [azure-ai-anomalydetector-java](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-ai-anomalydetector-java-SKILL.md)
+    - [azure-ai-contentsafety-java](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-ai-contentsafety-java-SKILL.md)
+    - [azure-ai-formrecognizer-java](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-ai-formrecognizer-java-SKILL.md)
+    - [azure-ai-projects-java](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-ai-projects-java-SKILL.md)
+    - [azure-ai-vision-imageanalysis-java](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-ai-vision-imageanalysis-java-SKILL.md)
+    - [azure-communication-callautomation-java](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-communication-callautomation-java-SKILL.md)
+    - [azure-communication-callingserver-java](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-communication-callingserver-java-SKILL.md)
+    - [azure-communication-chat-java](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-communication-chat-java-SKILL.md)
+    - [azure-communication-common-java](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-communication-common-java-SKILL.md)
+    - [azure-communication-sms-java](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-communication-sms-java-SKILL.md)
+    - [azure-cosmos-java](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-cosmos-java-SKILL.md)
+    - [azure-data-tables-java](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-data-tables-java-SKILL.md)
+    - [azure-storage-blob-java](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-storage-blob-java-SKILL.md)
+    - [azure-eventgrid-java](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-eventgrid-java-SKILL.md)
+    - [azure-eventhub-java](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-eventhub-java-SKILL.md)
+    - [azure-messaging-webpubsub-java](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-messaging-webpubsub-java-SKILL.md)
+    - [azure-identity-java](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-identity-java-SKILL.md)
+    - [azure-security-keyvault-keys-java](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-security-keyvault-keys-java-SKILL.md)
+    - [azure-security-keyvault-secrets-java](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-security-keyvault-secrets-java-SKILL.md)
+    - [azure-appconfiguration-java](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-appconfiguration-java-SKILL.md)
+    - [azure-compute-batch-java](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-compute-batch-java-SKILL.md)
+    - [azure-monitor-ingestion-java](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-monitor-ingestion-java-SKILL.md)
+    - [azure-monitor-opentelemetry-exporter-java](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-monitor-opentelemetry-exporter-java-SKILL.md)
+    - [azure-monitor-query-java](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-monitor-query-java-SKILL.md)
+  - **Rust**
+    - [azure-identity-rust](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-rust-skills-azure-identity-rust-SKILL.md)
+    - [azure-keyvault-certificates-rust](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-rust-skills-azure-keyvault-certificates-rust-SKILL.md)
+    - [azure-keyvault-keys-rust](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-rust-skills-azure-keyvault-keys-rust-SKILL.md)
+    - [azure-keyvault-secrets-rust](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-rust-skills-azure-keyvault-secrets-rust-SKILL.md)
+    - [azure-cosmos-rust](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-rust-skills-azure-cosmos-rust-SKILL.md)
+    - [azure-storage-blob-rust](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-rust-skills-azure-storage-blob-rust-SKILL.md)
+    - [azure-eventhub-rust](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-rust-skills-azure-eventhub-rust-SKILL.md)
+- **Additional Resources**
+  - **Agents**
+    - [.github/agents/](/lib/10-context-memory/microsoft-skills/_github-agents-backend.agent.md)
+  - **Prompts**
+    - [.github/prompts/](/lib/10-context-memory/microsoft-skills/_github-prompts-code-review.prompt.md)
+    - [create-store.prompt.md](/lib/10-context-memory/microsoft-skills/_github-prompts-create-store.prompt.md)
+    - [create-node.prompt.md](/lib/10-context-memory/microsoft-skills/_github-prompts-create-node.prompt.md)
+    - [add-endpoint.prompt.md](/lib/10-context-memory/microsoft-skills/_github-prompts-add-endpoint.prompt.md)
+- **Testing Skills**
+  - **Adding Test Coverage**
+    - [tests/README.md](/lib/10-context-memory/microsoft-skills/tests.md)
+- [Agent Skills](/lib/10-context-memory/microsoft-skills/Agents.md)
+- **.github**
+  - [Copilot Instructions for Agent Skills](/lib/10-context-memory/microsoft-skills/_github-copilot-instructions.md)
+  - **agents**
+    - [Microsoft Agent Skills](/lib/10-context-memory/microsoft-skills/_github-agents-frontend.agent.md)
+    - [Microsoft Agent Skills](/lib/10-context-memory/microsoft-skills/_github-agents-infrastructure.agent.md)
+    - [Microsoft Agent Skills](/lib/10-context-memory/microsoft-skills/_github-agents-planner.agent.md)
+    - [Microsoft Agent Skills](/lib/10-context-memory/microsoft-skills/_github-agents-presenter.agent.md)
+    - [Microsoft Agent Skills](/lib/10-context-memory/microsoft-skills/_github-agents-scaffolder.agent.md)
+  - **文档**
+    - [Agent Integration with Skills](/lib/10-context-memory/microsoft-skills/_github-docs-agent-integration.md)
+    - [MCP Server Usage for Agents](/lib/10-context-memory/microsoft-skills/_github-docs-mcp-usage.md)
+    - [Pattern Enforcement with Skills](/lib/10-context-memory/microsoft-skills/_github-docs-pattern-enforcement.md)
+    - [Agent Skills](/lib/10-context-memory/microsoft-skills/_github-docs-skills.md)
+    - [Workflow Patterns: Combining Skills and Prompts](/lib/10-context-memory/microsoft-skills/_github-docs-workflow-patterns.md)
+  - **plugins**
+    - [Azure Kusto Graph Skills](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-kusto-graph-skills.md)
+      - **skills**
+        - **azure-kusto-graph**
+          - [Kusto Graph Semantics](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-kusto-graph-skills-skills-azure-kusto-graph-SKILL.md)
+          - **references**
+            - [Try It Out -- azure-kusto-graph](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-kusto-graph-skills-skills-azure-kusto-graph-references-EXAMPLES.md)
+            - [Kusto Explorer Launch Procedure](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-kusto-graph-skills-skills-azure-kusto-graph-references-KUSTO_EXPLORER_LAUNCH.md)
+            - [Microsoft Agent Skills](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-kusto-graph-skills-skills-azure-kusto-graph-references-SCENARIOS.md)
+        - **azure-kusto-irql-graph**
+          - [IRQL Graph Functions -- Query Results to Visualization](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-kusto-graph-skills-skills-azure-kusto-irql-graph-SKILL.md)
+          - **references**
+            - [Deploy IRQL Graph Functions](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-kusto-graph-skills-skills-azure-kusto-irql-graph-references-DEPLOY_IRQL_FUNCTIONS.md)
+            - [Try It Out -- azure-kusto-irql-graph](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-kusto-graph-skills-skills-azure-kusto-irql-graph-references-EXAMPLES.md)
+        - **azure-kusto-irql**
+          - [IRQL -- Incident Response Query Language](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-kusto-graph-skills-skills-azure-kusto-irql-SKILL.md)
+          - **references**
+            - [Try It Out -- azure-kusto-irql](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-kusto-graph-skills-skills-azure-kusto-irql-references-EXAMPLES.md)
+    - [azure-sdk-dotnet](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet.md)
+      - **skills**
+        - **azure-ai-agents-persistent-dotnet**
+          - [Azure.AI.Agents.Persistent (.NET)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-ai-agents-persistent-dotnet-SKILL.md)
+        - **azure-mgmt-apimanagement-dotnet**
+          - **references**
+            - [APIs and Operations](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-mgmt-apimanagement-dotnet-references-apis-operations.md)
+            - [Products and Subscriptions](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-mgmt-apimanagement-dotnet-references-products-subscriptions.md)
+            - [Service Management](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-mgmt-apimanagement-dotnet-references-service-management.md)
+        - **azure-resource-manager-cosmosdb-dotnet**
+          - **references**
+            - [Account Management](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-resource-manager-cosmosdb-dotnet-references-account-management.md)
+            - [SQL API Resources](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-resource-manager-cosmosdb-dotnet-references-sql-resources.md)
+            - [Throughput Configuration](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-resource-manager-cosmosdb-dotnet-references-throughput.md)
+        - **azure-resource-manager-sql-dotnet**
+          - **references**
+            - [Database Operations](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-resource-manager-sql-dotnet-references-database-operations.md)
+            - [Elastic Pools](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-resource-manager-sql-dotnet-references-elastic-pools.md)
+            - [Server Management](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-resource-manager-sql-dotnet-references-server-management.md)
+        - **azure-search-documents-dotnet**
+          - **references**
+            - [Semantic Search Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-search-documents-dotnet-references-semantic-search.md)
+            - [Vector Search Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-dotnet-skills-azure-search-documents-dotnet-references-vector-search.md)
+    - [azure-sdk-java](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java.md)
+      - **skills**
+        - **azure-ai-agents-persistent-java**
+          - [Azure AI Agents Persistent SDK for Java](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-ai-agents-persistent-java-SKILL.md)
+          - **references**
+            - [Azure AI Agents Persistent Java SDK - Examples](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-ai-agents-persistent-java-references-examples.md)
+        - **azure-ai-anomalydetector-java**
+          - **references**
+            - [Azure AI Anomaly Detector Java SDK - Examples](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-ai-anomalydetector-java-references-examples.md)
+        - **azure-ai-contentsafety-java**
+          - **references**
+            - [Azure AI Content Safety SDK for Java - Examples](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-ai-contentsafety-java-references-examples.md)
+        - **azure-ai-formrecognizer-java**
+          - **references**
+            - [Azure AI Document Intelligence - Java Code Examples](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-ai-formrecognizer-java-references-examples.md)
+        - **azure-ai-projects-java**
+          - **references**
+            - [Azure AI Projects Java SDK - Examples](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-ai-projects-java-references-examples.md)
+        - **azure-ai-vision-imageanalysis-java**
+          - **references**
+            - [Azure AI Vision Image Analysis Java SDK - Examples](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-ai-vision-imageanalysis-java-references-examples.md)
+        - **azure-ai-voicelive-java**
+          - **references**
+            - [Azure AI VoiceLive Java SDK - Examples](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-ai-voicelive-java-references-examples.md)
+        - **azure-appconfiguration-java**
+          - **references**
+            - [Azure App Configuration Java SDK - Examples](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-appconfiguration-java-references-examples.md)
+        - **azure-communication-callautomation-java**
+          - **references**
+            - [Azure Communication Call Automation SDK for Java - Examples](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-communication-callautomation-java-references-examples.md)
+        - **azure-communication-callingserver-java**
+          - **references**
+            - [Azure Communication CallingServer Java SDK - Migration Guide](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-communication-callingserver-java-references-examples.md)
+        - **azure-communication-chat-java**
+          - **references**
+            - [Azure Communication Chat SDK for Java - Examples](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-communication-chat-java-references-examples.md)
+        - **azure-communication-common-java**
+          - **references**
+            - [Azure Communication Common Java SDK - Examples](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-communication-common-java-references-examples.md)
+        - **azure-communication-sms-java**
+          - **references**
+            - [Azure Communication SMS Java SDK - Examples](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-communication-sms-java-references-examples.md)
+        - **azure-compute-batch-java**
+          - **references**
+            - [Azure Batch Java SDK - Examples](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-compute-batch-java-references-examples.md)
+        - **azure-cosmos-java**
+          - **references**
+            - [Azure Cosmos DB Java SDK - Examples](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-cosmos-java-references-examples.md)
+        - **azure-data-tables-java**
+          - **references**
+            - [Azure Data Tables SDK for Java - Examples](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-data-tables-java-references-examples.md)
+        - **azure-eventgrid-java**
+          - **references**
+            - [Azure Event Grid SDK for Java - Examples](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-eventgrid-java-references-examples.md)
+        - **azure-eventhub-java**
+          - **references**
+            - [Azure Event Hubs Java SDK - Examples](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-eventhub-java-references-examples.md)
+        - **azure-identity-java**
+          - **references**
+            - [Azure Identity library for Java - Examples](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-identity-java-references-examples.md)
+        - **azure-messaging-webpubsub-java**
+          - **references**
+            - [Azure Web PubSub Java SDK - Examples](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-messaging-webpubsub-java-references-examples.md)
+        - **azure-monitor-ingestion-java**
+          - **references**
+            - [Azure Monitor Ingestion SDK for Java - Examples](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-monitor-ingestion-java-references-examples.md)
+        - **azure-monitor-opentelemetry-exporter-java**
+          - **references**
+            - [Azure Monitor OpenTelemetry Exporter Java - Migration Guide](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-monitor-opentelemetry-exporter-java-references-examples.md)
+        - **azure-monitor-query-java**
+          - **references**
+            - [Azure Monitor Query SDK for Java - Examples](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-monitor-query-java-references-examples.md)
+        - **azure-security-keyvault-keys-java**
+          - **references**
+            - [Azure Key Vault Keys SDK for Java - Examples](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-security-keyvault-keys-java-references-examples.md)
+        - **azure-security-keyvault-secrets-java**
+          - **references**
+            - [Azure Key Vault Secrets SDK for Java - Examples](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-security-keyvault-secrets-java-references-examples.md)
+        - **azure-storage-blob-java**
+          - **references**
+            - [Azure Storage Blob Java SDK - Examples](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-java-skills-azure-storage-blob-java-references-examples.md)
+    - [azure-sdk-python](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python.md)
+      - **skills**
+        - **agent-framework-azure-ai-py**
+          - **references**
+            - [Advanced Patterns Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-agent-framework-azure-ai-py-references-advanced.md)
+            - [MCP Integration Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-agent-framework-azure-ai-py-references-mcp.md)
+            - [Thread Management Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-agent-framework-azure-ai-py-references-threads.md)
+            - [Hosted Tools Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-agent-framework-azure-ai-py-references-tools.md)
+        - **azure-ai-contentsafety-py**
+          - **references**
+            - [azure-ai-contentsafety-py capability coverage](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-contentsafety-py-references-capabilities.md)
+            - [azure-ai-contentsafety-py non-hero scenarios](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-contentsafety-py-references-non-hero-scenarios.md)
+        - **azure-ai-contentunderstanding-py**
+          - **references**
+            - [azure-ai-contentunderstanding-py capability coverage](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-contentunderstanding-py-references-capabilities.md)
+            - [azure-ai-contentunderstanding-py non-hero scenarios](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-contentunderstanding-py-references-non-hero-scenarios.md)
+        - **azure-ai-language-conversations-py**
+          - [Azure AI Language Conversations for Python](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-language-conversations-py-SKILL.md)
+          - **references**
+            - [azure-ai-language-conversations-py capability coverage](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-language-conversations-py-references-capabilities.md)
+            - [azure-ai-language-conversations-py non-hero scenarios](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-language-conversations-py-references-non-hero-scenarios.md)
+        - **azure-ai-ml-py**
+          - **references**
+            - [azure-ai-ml-py capability coverage](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-ml-py-references-capabilities.md)
+            - [azure-ai-ml-py non-hero scenarios](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-ml-py-references-non-hero-scenarios.md)
+        - **azure-ai-projects-py**
+          - **references**
+            - [Agent Operations Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-projects-py-references-agents.md)
+            - [Azure AI Projects SDK - Complete API Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-projects-py-references-api-reference.md)
+            - [Async Patterns Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-projects-py-references-async-patterns.md)
+            - [Built-in Evaluators Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-projects-py-references-built-in-evaluators.md)
+            - [Connections Operations Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-projects-py-references-connections.md)
+            - [Custom Evaluators Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-projects-py-references-custom-evaluators.md)
+            - [Datasets and Indexes Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-projects-py-references-datasets-indexes.md)
+            - [Deployments Operations Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-projects-py-references-deployments.md)
+            - [Evaluation Operations Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-projects-py-references-evaluation.md)
+            - [Agent Tools Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-projects-py-references-tools.md)
+        - **azure-ai-textanalytics-py**
+          - **references**
+            - [azure-ai-textanalytics-py capability coverage](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-textanalytics-py-references-capabilities.md)
+            - [azure-ai-textanalytics-py non-hero scenarios](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-textanalytics-py-references-non-hero-scenarios.md)
+        - **azure-ai-transcription-py**
+          - **references**
+            - [azure-ai-transcription-py capability coverage](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-transcription-py-references-capabilities.md)
+            - [azure-ai-transcription-py non-hero scenarios](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-transcription-py-references-non-hero-scenarios.md)
+        - **azure-ai-translation-document-py**
+          - **references**
+            - [azure-ai-translation-document-py capability coverage](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-translation-document-py-references-capabilities.md)
+            - [azure-ai-translation-document-py non-hero scenarios](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-translation-document-py-references-non-hero-scenarios.md)
+        - **azure-ai-translation-text-py**
+          - **references**
+            - [azure-ai-translation-text-py capability coverage](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-translation-text-py-references-capabilities.md)
+            - [azure-ai-translation-text-py non-hero scenarios](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-translation-text-py-references-non-hero-scenarios.md)
+        - **azure-ai-vision-imageanalysis-py**
+          - **references**
+            - [azure-ai-vision-imageanalysis-py capability coverage](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-vision-imageanalysis-py-references-capabilities.md)
+            - [azure-ai-vision-imageanalysis-py non-hero scenarios](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-vision-imageanalysis-py-references-non-hero-scenarios.md)
+        - **azure-ai-voicelive-py**
+          - **references**
+            - [Azure AI Voice Live SDK - API Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-voicelive-py-references-api-reference.md)
+            - [Azure AI Voice Live SDK - Examples](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-voicelive-py-references-examples.md)
+            - [Azure AI Voice Live SDK - Models Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-ai-voicelive-py-references-models.md)
+        - **azure-appconfiguration-py**
+          - **references**
+            - [azure-appconfiguration-py capability coverage](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-appconfiguration-py-references-capabilities.md)
+            - [azure-appconfiguration-py non-hero scenarios](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-appconfiguration-py-references-non-hero-scenarios.md)
+        - **azure-containerregistry-py**
+          - **references**
+            - [azure-containerregistry-py capability coverage](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-containerregistry-py-references-capabilities.md)
+            - [azure-containerregistry-py non-hero scenarios](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-containerregistry-py-references-non-hero-scenarios.md)
+        - **azure-cosmos-db-py**
+          - **references**
+            - [Cosmos DB Client Setup](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-cosmos-db-py-references-client-setup.md)
+            - [Error Handling Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-cosmos-db-py-references-error-handling.md)
+            - [Partition Key Strategies](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-cosmos-db-py-references-partitioning.md)
+            - [Service Layer Pattern](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-cosmos-db-py-references-service-layer.md)
+            - [Testing Cosmos DB Services](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-cosmos-db-py-references-testing.md)
+        - **azure-cosmos-py**
+          - **references**
+            - [Partition Key Strategies](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-cosmos-py-references-partitioning.md)
+            - [Query Patterns Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-cosmos-py-references-query-patterns.md)
+        - **azure-data-tables-py**
+          - **references**
+            - [azure-data-tables-py capability coverage](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-data-tables-py-references-capabilities.md)
+            - [azure-data-tables-py non-hero scenarios](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-data-tables-py-references-non-hero-scenarios.md)
+        - **azure-eventgrid-py**
+          - **references**
+            - [azure-eventgrid-py capability coverage](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-eventgrid-py-references-capabilities.md)
+            - [azure-eventgrid-py non-hero scenarios](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-eventgrid-py-references-non-hero-scenarios.md)
+        - **azure-eventhub-py**
+          - **references**
+            - [Checkpointing with Azure Event Hubs](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-eventhub-py-references-checkpointing.md)
+            - [Partition Management with Azure Event Hubs](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-eventhub-py-references-partitions.md)
+        - **azure-identity-py**
+          - **references**
+            - [azure-identity-py capability coverage](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-identity-py-references-capabilities.md)
+            - [azure-identity-py non-hero scenarios](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-identity-py-references-non-hero-scenarios.md)
+        - **azure-keyvault-py**
+          - **references**
+            - [azure-keyvault-py capability coverage](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-keyvault-py-references-capabilities.md)
+            - [azure-keyvault-py non-hero scenarios](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-keyvault-py-references-non-hero-scenarios.md)
+        - **azure-messaging-webpubsubservice-py**
+          - **references**
+            - [azure-messaging-webpubsubservice-py capability coverage](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-messaging-webpubsubservice-py-references-capabilities.md)
+            - [azure-messaging-webpubsubservice-py non-hero scenarios](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-messaging-webpubsubservice-py-references-non-hero-scenarios.md)
+        - **azure-mgmt-apicenter-py**
+          - **references**
+            - [azure-mgmt-apicenter-py capability coverage](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-mgmt-apicenter-py-references-capabilities.md)
+            - [azure-mgmt-apicenter-py non-hero scenarios](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-mgmt-apicenter-py-references-non-hero-scenarios.md)
+        - **azure-mgmt-apimanagement-py**
+          - **references**
+            - [azure-mgmt-apimanagement-py capability coverage](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-mgmt-apimanagement-py-references-capabilities.md)
+            - [azure-mgmt-apimanagement-py non-hero scenarios](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-mgmt-apimanagement-py-references-non-hero-scenarios.md)
+        - **azure-mgmt-botservice-py**
+          - **references**
+            - [azure-mgmt-botservice-py capability coverage](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-mgmt-botservice-py-references-capabilities.md)
+            - [azure-mgmt-botservice-py non-hero scenarios](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-mgmt-botservice-py-references-non-hero-scenarios.md)
+        - **azure-mgmt-fabric-py**
+          - **references**
+            - [azure-mgmt-fabric-py capability coverage](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-mgmt-fabric-py-references-capabilities.md)
+            - [azure-mgmt-fabric-py non-hero scenarios](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-mgmt-fabric-py-references-non-hero-scenarios.md)
+        - **azure-monitor-ingestion-py**
+          - **references**
+            - [azure-monitor-ingestion-py capability coverage](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-monitor-ingestion-py-references-capabilities.md)
+            - [azure-monitor-ingestion-py non-hero scenarios](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-monitor-ingestion-py-references-non-hero-scenarios.md)
+        - **azure-monitor-opentelemetry-exporter-py**
+          - **references**
+            - [azure-monitor-opentelemetry-exporter-py capability coverage](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-monitor-opentelemetry-exporter-py-references-capabilities.md)
+            - [azure-monitor-opentelemetry-exporter-py non-hero scenarios](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-monitor-opentelemetry-exporter-py-references-non-hero-scenarios.md)
+        - **azure-monitor-opentelemetry-py**
+          - **references**
+            - [azure-monitor-opentelemetry-py capability coverage](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-monitor-opentelemetry-py-references-capabilities.md)
+            - [azure-monitor-opentelemetry-py non-hero scenarios](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-monitor-opentelemetry-py-references-non-hero-scenarios.md)
+        - **azure-monitor-query-py**
+          - **references**
+            - [azure-monitor-query-py capability coverage](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-monitor-query-py-references-capabilities.md)
+            - [azure-monitor-query-py non-hero scenarios](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-monitor-query-py-references-non-hero-scenarios.md)
+        - **azure-search-documents-py**
+          - **references**
+            - [Agentic Retrieval with Knowledge Bases](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-search-documents-py-references-agentic-retrieval.md)
+            - [Semantic Ranking Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-search-documents-py-references-semantic-ranking.md)
+            - [Vector Search Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-search-documents-py-references-vector-search.md)
+        - **azure-servicebus-py**
+          - **references**
+            - [Dead-Letter Queue Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-servicebus-py-references-dead-letter.md)
+            - [Messaging Patterns Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-servicebus-py-references-patterns.md)
+        - **azure-speech-to-text-rest-py**
+          - **references**
+            - [Pronunciation Assessment](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-speech-to-text-rest-py-references-pronunciation-assessment.md)
+        - **azure-storage-blob-py**
+          - **references**
+            - [azure-storage-blob-py capability coverage](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-storage-blob-py-references-capabilities.md)
+            - [azure-storage-blob-py non-hero scenarios](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-storage-blob-py-references-non-hero-scenarios.md)
+        - **azure-storage-file-datalake-py**
+          - **references**
+            - [azure-storage-file-datalake-py capability coverage](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-storage-file-datalake-py-references-capabilities.md)
+            - [azure-storage-file-datalake-py non-hero scenarios](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-storage-file-datalake-py-references-non-hero-scenarios.md)
+        - **azure-storage-file-share-py**
+          - **references**
+            - [azure-storage-file-share-py capability coverage](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-storage-file-share-py-references-capabilities.md)
+            - [azure-storage-file-share-py non-hero scenarios](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-storage-file-share-py-references-non-hero-scenarios.md)
+        - **azure-storage-queue-py**
+          - **references**
+            - [azure-storage-queue-py capability coverage](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-storage-queue-py-references-capabilities.md)
+            - [azure-storage-queue-py non-hero scenarios](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-azure-storage-queue-py-references-non-hero-scenarios.md)
+        - **fastapi-router-py**
+          - **references**
+            - [fastapi-router-py capability coverage](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-fastapi-router-py-references-capabilities.md)
+        - **m365-agents-py**
+          - **references**
+            - [m365-agents-py capability coverage](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-m365-agents-py-references-capabilities.md)
+        - **pydantic-models-py**
+          - **references**
+            - [pydantic-models-py capability coverage](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-python-skills-pydantic-models-py-references-capabilities.md)
+    - [azure-sdk-rust](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-rust.md)
+      - **skills**
+        - **azure-storage-queue-rust**
+          - [Azure Queue Storage library for Rust](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-rust-skills-azure-storage-queue-rust-SKILL.md)
+    - [azure-sdk-typescript](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript.md)
+      - **skills**
+        - **azure-ai-projects-ts**
+          - **references**
+            - [Connections Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-ai-projects-ts-references-connections.md)
+            - [Evaluations Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-ai-projects-ts-references-evaluations.md)
+        - **azure-ai-voicelive-ts**
+          - **references**
+            - [Audio Streaming Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-ai-voicelive-ts-references-audio-streaming.md)
+            - [Function Calling Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-ai-voicelive-ts-references-function-calling.md)
+        - **azure-cosmos-ts**
+          - **references**
+            - [Bulk Operations Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-cosmos-ts-references-bulk-operations.md)
+            - [Query Patterns Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-cosmos-ts-references-query-patterns.md)
+        - **azure-eventhub-ts**
+          - **references**
+            - [Checkpointing Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-eventhub-ts-references-checkpointing.md)
+            - [Event Processing Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-eventhub-ts-references-event-processing.md)
+        - **azure-identity-ts**
+          - **references**
+            - [Browser Authentication Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-identity-ts-references-browser-auth.md)
+            - [Credential Types Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-identity-ts-references-credential-types.md)
+        - **azure-keyvault-keys-ts**
+          - **references**
+            - [Keys Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-keyvault-keys-ts-references-keys.md)
+            - [Secrets Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-keyvault-keys-ts-references-secrets.md)
+        - **azure-search-documents-ts**
+          - **references**
+            - [@azure/search-documents - Semantic Ranking Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-search-documents-ts-references-semantic-ranking.md)
+            - [@azure/search-documents - Vector Search Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-search-documents-ts-references-vector-search.md)
+        - **azure-servicebus-ts**
+          - **references**
+            - [Error Handling and Reliability](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-servicebus-ts-references-error-handling.md)
+            - [Queues vs Topics Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-servicebus-ts-references-queues-topics.md)
+        - **azure-storage-blob-ts**
+          - **references**
+            - [@azure/storage-blob - SAS Token Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-storage-blob-ts-references-sas-tokens.md)
+            - [@azure/storage-blob - Streaming Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-azure-storage-blob-ts-references-streaming.md)
+        - **frontend-ui-dark-ts**
+          - **references**
+            - [Components](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-frontend-ui-dark-ts-references-components.md)
+            - [Design Tokens](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-frontend-ui-dark-ts-references-design-tokens.md)
+            - [Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-sdk-typescript-skills-frontend-ui-dark-ts-references-patterns.md)
+    - [Azure](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills.md)
+      - **skills**
+        - **airunway-aks-setup**
+          - [AI Runway AKS Setup](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-airunway-aks-setup-SKILL.md)
+          - **references**
+            - [GPU Compatibility Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-airunway-aks-setup-references-gpu-profiles.md)
+            - [Model Sizing & Starter Recommendations](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-airunway-aks-setup-references-model-sizing.md)
+            - [PowerShell Command Variants](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-airunway-aks-setup-references-powershell-notes.md)
+            - [Troubleshooting & Rollback](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-airunway-aks-setup-references-troubleshooting.md)
+            - **steps**
+              - [Step 1 — Cluster Verification](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-airunway-aks-setup-references-steps-step-1-verify.md)
+              - [Step 2 — Controller Status & Installation](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-airunway-aks-setup-references-steps-step-2-controller.md)
+              - [Step 3 — GPU Assessment](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-airunway-aks-setup-references-steps-step-3-gpu.md)
+              - [Step 4 — Provider Recommendation & Installation](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-airunway-aks-setup-references-steps-step-4-provider.md)
+              - [Step 5 — First Model Deployment](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-airunway-aks-setup-references-steps-step-5-deploy.md)
+              - [Step 6 — Summary & Smoke Test](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-airunway-aks-setup-references-steps-step-6-summary.md)
+        - **appinsights-instrumentation**
+          - [AppInsights Instrumentation Guide](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-appinsights-instrumentation-SKILL.md)
+          - **references**
+            - [Microsoft Agent Skills](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-appinsights-instrumentation-references-aspnetcore.md)
+            - [Auto-instrument app](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-appinsights-instrumentation-references-auto.md)
+            - [Microsoft Agent Skills](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-appinsights-instrumentation-references-container-apps.md)
+            - [Microsoft Agent Skills](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-appinsights-instrumentation-references-nodejs.md)
+            - [Microsoft Agent Skills](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-appinsights-instrumentation-references-python.md)
+            - **sdk**
+              - [Azure Monitor OpenTelemetry Exporter — Java SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-appinsights-instrumentation-references-sdk-azure-monitor-opentelemetry-exporter-java.md)
+              - [Azure Monitor OpenTelemetry Exporter — Python SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-appinsights-instrumentation-references-sdk-azure-monitor-opentelemetry-exporter-py.md)
+              - [Azure Monitor OpenTelemetry — Python SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-appinsights-instrumentation-references-sdk-azure-monitor-opentelemetry-py.md)
+              - [Azure Monitor OpenTelemetry — TypeScript SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-appinsights-instrumentation-references-sdk-azure-monitor-opentelemetry-ts.md)
+        - **azure-ai**
+          - [Azure AI Services](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-ai-SKILL.md)
+          - **references**
+            - [Azure Authentication Best Practices](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-ai-references-auth-best-practices.md)
+            - **sdk**
+              - [Azure AI Content Safety — Java SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-ai-references-sdk-azure-ai-contentsafety-java.md)
+              - [Azure AI Content Safety — Python SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-ai-references-sdk-azure-ai-contentsafety-py.md)
+              - [Azure AI Content Safety — TypeScript SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-ai-references-sdk-azure-ai-contentsafety-ts.md)
+              - [Azure Document Intelligence — .NET SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-ai-references-sdk-azure-ai-document-intelligence-dotnet.md)
+              - [Azure Document Intelligence — TypeScript SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-ai-references-sdk-azure-ai-document-intelligence-ts.md)
+              - [Azure OpenAI — .NET SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-ai-references-sdk-azure-ai-openai-dotnet.md)
+              - [Azure AI Transcription — Python SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-ai-references-sdk-azure-ai-transcription-py.md)
+              - [Azure AI Text Translation — Python SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-ai-references-sdk-azure-ai-translation-text-py.md)
+              - [Azure Translation — TypeScript SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-ai-references-sdk-azure-ai-translation-ts.md)
+              - [Azure AI Vision Image Analysis — Java SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-ai-references-sdk-azure-ai-vision-imageanalysis-java.md)
+              - [Azure AI Vision Image Analysis — Python SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-ai-references-sdk-azure-ai-vision-imageanalysis-py.md)
+              - [Azure AI Search — .NET SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-ai-references-sdk-azure-search-documents-dotnet.md)
+              - [Azure AI Search — Python SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-ai-references-sdk-azure-search-documents-py.md)
+              - [Azure AI Search — TypeScript SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-ai-references-sdk-azure-search-documents-ts.md)
+        - **azure-aigateway**
+          - [Azure AI Gateway](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-aigateway-SKILL.md)
+          - **references**
+            - [AI Gateway Configuration Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-aigateway-references-patterns.md)
+            - [AI Gateway Policies](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-aigateway-references-policies.md)
+            - [AI Gateway Troubleshooting](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-aigateway-references-troubleshooting.md)
+            - **sdk**
+              - [API Management — .NET SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-aigateway-references-sdk-azure-mgmt-apimanagement-dotnet.md)
+              - [API Management — Python SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-aigateway-references-sdk-azure-mgmt-apimanagement-py.md)
+        - **azure-app-onboard-prereq**
+          - [Azure App Onboard Prereq — Repository Evaluation](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-prereq-SKILL.md)
+          - **references**
+            - [Build Check](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-prereq-references-build-check.md)
+            - [Non-Azure Cloud Service Dependencies](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-prereq-references-cloud-sdk-migration.md)
+            - [Completeness Check](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-prereq-references-completeness-check.md)
+            - [Microsoft Agent Skills](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-prereq-references-component-mapping.md)
+            - [Microsoft Agent Skills](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-prereq-references-dependency-compatibility.md)
+            - [Deployability Check](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-prereq-references-deployability-check.md)
+            - [Microsoft Agent Skills](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-prereq-references-prereq-artifacts.md)
+            - [Readiness Gate — Step 4](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-prereq-references-readiness-gate.md)
+            - [Remediation Protocol — Step 6](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-prereq-references-remediation-protocol.md)
+            - [Session Protocol — Step 1](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-prereq-references-session-protocol.md)
+            - [Subagent Template — Starter App Scaffold (Zero-Code Path Step 4)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-prereq-references-subagent-starter-scaffold.md)
+            - [Subscription Resolution — Defensive Fallback](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-prereq-references-subscription-resolution.md)
+            - [Zero-Code Path](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-prereq-references-zero-code-path.md)
+        - **azure-app-onboard**
+          - [Azure App Onboard](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-SKILL.md)
+          - **deploy**
+            - [Deploy — IaC Execution & Health Verification](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-deploy-SKILL.md)
+            - **references**
+              - [Approval Gate Template](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-deploy-references-approval-gate-template.md)
+              - [Blocked Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-deploy-references-blocked-patterns.md)
+              - [Code Deployment — App Service & Functions](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-deploy-references-code-deployment-appservice.md)
+              - [Code Deployment — Container Apps](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-deploy-references-code-deployment-container-apps.md)
+              - [Code Deployment — Static Web Apps](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-deploy-references-code-deployment-swa.md)
+              - [Database Post-Deploy Verification](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-deploy-references-database-post-deploy.md)
+              - [Deploy Checklist Template (compaction-safe — generated at Step 5b)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-deploy-references-deploy-checklist-template.md)
+              - [Deploy Safety](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-deploy-references-deploy-safety.md)
+              - [Error Classification](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-deploy-references-error-classification.md)
+              - [Health Check Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-deploy-references-health-check-patterns.md)
+              - [Deploy Phase — MCP Tools](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-deploy-references-mcp-tools.md)
+              - [Portal Monitoring Links](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-deploy-references-portal-links.md)
+              - [Preflight Checks](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-deploy-references-preflight-checks.md)
+              - [Subagent Template — Deploy Preflight & Checklist Generation](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-deploy-references-subagent-preflight.md)
+          - **prepare**
+            - [Prepare — Architecture Planning & Cost Estimation](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-prepare-SKILL.md)
+            - **references**
+              - [Deploy Strategy](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-prepare-references-deploy-strategy.md)
+              - [Prepare Phase — MCP Tools](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-prepare-references-mcp-tools.md)
+              - [Naming Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-prepare-references-naming-patterns.md)
+              - [App Onboard Prepare — Per-Service Pricing Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-prepare-references-pricing-guide-services.md)
+              - [App Onboard Prepare — Pricing Guide](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-prepare-references-pricing-guide.md)
+              - [Service Mapping Tables](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-prepare-references-service-mapping.md)
+              - [SKU Selection Matrix](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-prepare-references-sku-matrix.md)
+              - [SKU Quota Validation Procedure](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-prepare-references-sku-quota-validation.md)
+              - [Subagent Template — Cost Estimation (Step 6)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-prepare-references-subagent-pricing.md)
+              - [Subagent Template — Quota Validation (Step 5)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-prepare-references-subagent-quota.md)
+              - [Validation Rubric](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-prepare-references-validation-rubric.md)
+          - **references**
+            - [Approval Gates — Steps 6 & 8](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-references-approval-gates.md)
+            - [azd Template Routing](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-references-azd-template-routing.md)
+            - [Handoff Protocol — Step 9](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-references-handoff-protocol.md)
+            - [IaC Resources — Official Documentation & Tools](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-references-iac-resources.md)
+            - [Intent Gathering](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-references-intent-gathering.md)
+            - [MCP Tool Reference — Shared Index](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-references-mcp-tool-reference.md)
+            - [Pipeline Rules — Runtime Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-references-pipeline-rules-runtime.md)
+            - [Pipeline Rules — Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-references-pipeline-rules.md)
+            - [Session Protocol — Step 1](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-references-session-protocol.md)
+            - [Subscription Resolution — Defensive Fallback](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-references-subscription-resolution.md)
+          - **scaffold**
+            - [Azure App Onboard Scaffold — IaC Generation + Self-Review](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-scaffold-SKILL.md)
+            - **references**
+              - [Bicep — App Service Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-scaffold-references-bicep-app-service.md)
+              - [Bicep — Container Apps Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-scaffold-references-bicep-container-apps.md)
+              - [Bicep Patterns — Data Service Modules](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-scaffold-references-bicep-patterns-data.md)
+              - [Bicep Patterns — Security Defaults](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-scaffold-references-bicep-patterns-security.md)
+              - [Bicep Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-scaffold-references-bicep-patterns.md)
+              - [Bicep — Static Web Apps Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-scaffold-references-bicep-swa.md)
+              - [CI/CD Pipeline Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-scaffold-references-cicd-pipelines.md)
+              - [Dockerfile Generation](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-scaffold-references-dockerfile-generation.md)
+              - [Environment Variables & Secrets — Cross-Cutting Rules](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-scaffold-references-env-var-secrets.md)
+              - [Error Handling — Scaffold Sub-Skill](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-scaffold-references-error-handling.md)
+              - [IaC Generation Rules — Steps 5–8](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-scaffold-references-iac-generation-rules.md)
+              - [Scaffold Phase — MCP Tools](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-scaffold-references-mcp-tools.md)
+              - [RBAC — Common Roles Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-scaffold-references-rbac-roles.md)
+              - [Scaffold Healing Rules](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-scaffold-references-scaffold-healing-rules.md)
+              - [Self-Healing Loop — Error Classification & Auto-Fix](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-scaffold-references-self-healing.md)
+              - [Self-Review Checklist](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-scaffold-references-self-review-checklist.md)
+              - [Self-Review Procedure — Step 9](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-scaffold-references-self-review-procedure.md)
+              - [Subagent Template — IaC Generation (Steps 5–8)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-scaffold-references-subagent-iac-gen.md)
+              - [Subagent Template — Security + Adversarial Review (Steps 6–9)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-scaffold-references-subagent-review.md)
+              - [Subagent Template — Validation & Manifest (Steps 10–12)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-scaffold-references-subagent-validate.md)
+              - [Terraform Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-scaffold-references-terraform-patterns.md)
+              - [Validation, Manifest & Approval — Steps 10–12.5](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-scaffold-references-validation-and-manifest.md)
+              - [WAF Checklist](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-app-onboard-scaffold-references-waf-checklist.md)
+        - **azure-cloud-migrate**
+          - [Azure Cloud Migrate](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cloud-migrate-SKILL.md)
+          - **references**
+            - **services**
+              - **app-service**
+                - [Google App Engine to Azure App Service Migration](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cloud-migrate-references-services-app-service-app-engine-to-app-service.md)
+                - [Assessment Phase](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cloud-migrate-references-services-app-service-assessment.md)
+                - [AWS Elastic Beanstalk to Azure App Service Migration](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cloud-migrate-references-services-app-service-beanstalk-to-app-service.md)
+                - [Code Migration Phase](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cloud-migrate-references-services-app-service-code-migration.md)
+                - [Global Rules](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cloud-migrate-references-services-app-service-global-rules.md)
+                - [Heroku to Azure App Service Migration](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cloud-migrate-references-services-app-service-heroku-to-app-service.md)
+              - **container-apps**
+                - [Kubernetes to Azure Container Apps - Assessment Guide](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cloud-migrate-references-services-container-apps-assessment-guide.md)
+                - [Assessment: Cloud Run to Container Apps](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cloud-migrate-references-services-container-apps-cloudrun-assessment-guide.md)
+                - [Deployment: Cloud Run to Container Apps](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cloud-migrate-references-services-container-apps-cloudrun-deployment-guide.md)
+                - [Google Cloud Run → Azure Container Apps](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cloud-migrate-references-services-container-apps-cloudrun-to-container-apps.md)
+                - [Kubernetes to Azure Container Apps - Deployment Guide](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cloud-migrate-references-services-container-apps-deployment-guide.md)
+                - [Assessment: Fargate to Container Apps](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cloud-migrate-references-services-container-apps-fargate-assessment-guide.md)
+                - [Deployment: Fargate to Container Apps](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cloud-migrate-references-services-container-apps-fargate-deployment-guide.md)
+                - [AWS Fargate to Azure Container Apps Migration](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cloud-migrate-references-services-container-apps-fargate-to-container-apps.md)
+                - [Kubernetes to Azure Container Apps Migration](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cloud-migrate-references-services-container-apps-k8s-to-container-apps.md)
+                - [Spring Boot to Azure Container Apps Migration](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cloud-migrate-references-services-container-apps-spring-apps-to-aca.md)
+                - [Pre-Migration Assessment for Spring Boot to Azure Container Apps](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cloud-migrate-references-services-container-apps-spring-assessment-guide.md)
+                - [Spring Dependency Configuration Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cloud-migrate-references-services-container-apps-spring-dependency-patterns.md)
+                - [Deployment Guide: Spring Boot to Azure Container Apps](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cloud-migrate-references-services-container-apps-spring-deployment-guide.md)
+              - **functions**
+                - [Assessment Phase](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cloud-migrate-references-services-functions-assessment.md)
+                - [Code Migration Phase](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cloud-migrate-references-services-functions-code-migration.md)
+                - [Global Rules](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cloud-migrate-references-services-functions-global-rules.md)
+                - [AWS Lambda to Azure Functions Migration](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cloud-migrate-references-services-functions-lambda-to-functions.md)
+                - **runtimes**
+                  - [C — Azure Functions Isolated Worker Model Triggers & Bindings](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cloud-migrate-references-services-functions-runtimes-csharp.md)
+                  - [Java — Azure Functions Triggers & Bindings](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cloud-migrate-references-services-functions-runtimes-java.md)
+                  - [JavaScript (Node.js) — Azure Functions v4 Triggers & Bindings](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cloud-migrate-references-services-functions-runtimes-javascript.md)
+                  - [PowerShell — Azure Functions Triggers & Bindings](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cloud-migrate-references-services-functions-runtimes-powershell.md)
+                  - [Python — Azure Functions v2 Triggers & Bindings](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cloud-migrate-references-services-functions-runtimes-python.md)
+                  - [TypeScript — Azure Functions v4 Triggers & Bindings](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cloud-migrate-references-services-functions-runtimes-typescript.md)
+        - **azure-compliance**
+          - [Azure Compliance & Security Auditing](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compliance-SKILL.md)
+          - **references**
+            - [azqr Recommendation Categories](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compliance-references-azqr-recommendations.md)
+            - [Remediation Patterns for Common azqr Findings](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compliance-references-azqr-remediation-patterns.md)
+            - [Key Vault Expiration Audit & Compliance](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compliance-references-azure-keyvault-expiration-audit.md)
+            - [Azure Quick Review Compliance Assessment](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compliance-references-azure-quick-review.md)
+            - [Azure Resource Graph Queries for Compliance Auditing](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compliance-references-azure-resource-graph.md)
+            - **sdk**
+              - [Key Vault Certificates — Rust SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compliance-references-sdk-azure-keyvault-certificates-rust.md)
+              - [Key Vault Keys — Rust SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compliance-references-sdk-azure-keyvault-keys-rust.md)
+              - [Key Vault Keys — TypeScript SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compliance-references-sdk-azure-keyvault-keys-ts.md)
+              - [Key Vault — Python SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compliance-references-sdk-azure-keyvault-py.md)
+              - [Key Vault Secrets — Rust SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compliance-references-sdk-azure-keyvault-secrets-rust.md)
+              - [Key Vault Secrets — TypeScript SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compliance-references-sdk-azure-keyvault-secrets-ts.md)
+              - [Key Vault Keys — .NET SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compliance-references-sdk-azure-security-keyvault-keys-dotnet.md)
+              - [Key Vault Keys — Java SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compliance-references-sdk-azure-security-keyvault-keys-java.md)
+              - [Key Vault Secrets — Java SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compliance-references-sdk-azure-security-keyvault-secrets-java.md)
+        - **azure-compute**
+          - [Azure Compute Skill](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compute-SKILL.md)
+          - **references**
+            - [Azure Retail Prices API Guide](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compute-references-retail-prices-api.md)
+            - [VM Family Guide](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compute-references-vm-families.md)
+            - [VM Quota Validation Guide](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compute-references-vm-quotas.md)
+            - [VMSS Guide](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compute-references-vmss-guide.md)
+          - **workflows**
+            - **capacity-reservation**
+              - [Azure Capacity Reservation](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compute-workflows-capacity-reservation-capacity-reservation.md)
+              - **references**
+                - [Associating and Disassociating VMs/VMSS with a Capacity Reservation Group](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compute-workflows-capacity-reservation-references-association-disassociation.md)
+                - [Capacity Reservation Overview](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compute-workflows-capacity-reservation-references-capacity-reservation-overview.md)
+            - **essential-machine-management**
+              - [Essential Machine Management (EMM) Workflow](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compute-workflows-essential-machine-management-essential-machine-management.md)
+              - **references**
+                - [EMM Enable Flow (Portal)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compute-workflows-essential-machine-management-references-emm-enable-flow-portal-guidance.md)
+                - [EMM Enable Flow](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compute-workflows-essential-machine-management-references-emm-enable-flow.md)
+                - [EMM Overview](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compute-workflows-essential-machine-management-references-emm-overview.md)
+                - [EMM Prerequisites](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compute-workflows-essential-machine-management-references-emm-prerequisites.md)
+            - **vm-creator**
+              - [Azure VM/VMSS Creator](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compute-workflows-vm-creator-vm-creator.md)
+              - **示例**
+                - [{vm-name} — Bicep](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compute-workflows-vm-creator-examples-bicep.md)
+                - [{vm-name} — Terraform](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compute-workflows-vm-creator-examples-terraform.md)
+              - **references**
+                - [MCP tools used by vm-creator](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compute-workflows-vm-creator-references-mcp-tools.md)
+                - [Plan Card](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compute-workflows-vm-creator-references-plan-card.md)
+                - [Validation Gates](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compute-workflows-vm-creator-references-validation-gates.md)
+                - [Delivery Options](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compute-workflows-vm-creator-references-delivery-options.md)
+                  - [Mode C — Sync to a GitHub repo](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compute-workflows-vm-creator-references-delivery-options-github-pr.md)
+                  - [Mode A — Print in chat](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compute-workflows-vm-creator-references-delivery-options-print.md)
+                  - [Mode B — Save to a local folder](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compute-workflows-vm-creator-references-delivery-options-save-local.md)
+                - [Depth Probe — Meet the User Where They Are](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compute-workflows-vm-creator-references-depth-probe.md)
+                  - [Beginner / fast-path](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compute-workflows-vm-creator-references-depth-probe-beginner.md)
+                  - [Cost-deep branch](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compute-workflows-vm-creator-references-depth-probe-cost-deep.md)
+                  - [Networking-deep branch](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compute-workflows-vm-creator-references-depth-probe-networking-deep.md)
+                  - [Spec-deep branch](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compute-workflows-vm-creator-references-depth-probe-spec-deep.md)
+                - [Output Adapters](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compute-workflows-vm-creator-references-output-adapters.md)
+                  - [az CLI adapter](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compute-workflows-vm-creator-references-output-adapters-az-cli.md)
+                  - [Bicep adapter](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compute-workflows-vm-creator-references-output-adapters-bicep.md)
+                  - [Apply via Azure MCP](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compute-workflows-vm-creator-references-output-adapters-mcp-apply.md)
+                  - [Terraform adapter](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compute-workflows-vm-creator-references-output-adapters-terraform.md)
+            - **vm-recommender**
+              - [Azure VM Recommender](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compute-workflows-vm-recommender-vm-recommender.md)
+              - **references**
+                - [Hand-off to vm-creator](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compute-workflows-vm-recommender-references-handoff-to-creator.md)
+                - [webfetch policy](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-compute-workflows-vm-recommender-references-web-fetch-policy.md)
+        - **azure-cost**
+          - [Azure Cost Management Skill](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cost-SKILL.md)
+          - **cost-forecast**
+            - [Forecast API Error Handling](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cost-cost-forecast-error-handling.md)
+            - [Forecast API Examples](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cost-cost-forecast-examples.md)
+            - [Forecast API Guardrails](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cost-cost-forecast-guardrails.md)
+            - [Forecast API Request Body Schema](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cost-cost-forecast-request-body-schema.md)
+            - [Cost Forecast Workflow](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cost-cost-forecast-workflow.md)
+          - **cost-optimization**
+            - [AKS Cost Anomaly Investigation](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cost-cost-optimization-azure-aks-anomalies.md)
+            - [AKS Cost Analysis Add-on](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cost-cost-optimization-azure-aks-cost-addon.md)
+            - [Microsoft Agent Skills](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cost-cost-optimization-azure-quick-review.md)
+            - [Azure Resource Graph Queries for Cost Optimization](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cost-cost-optimization-azure-resource-graph.md)
+            - [Cost Optimization Report Template](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cost-cost-optimization-report-template.md)
+            - [Cost Optimization Workflow](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cost-cost-optimization-workflow.md)
+            - **sdk**
+              - [Redis Management — .NET SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cost-cost-optimization-sdk-azure-resource-manager-redis-dotnet.md)
+            - **services**
+              - **redis**
+                - [Microsoft Agent Skills](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cost-cost-optimization-services-redis-azure-cache-for-redis.md)
+              - **storage**
+                - [Microsoft Agent Skills](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cost-cost-optimization-services-storage-azure-storage.md)
+          - **cost-query**
+            - [Dimensions by Scope](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cost-cost-query-dimensions-by-scope.md)
+            - [Cost Query Error Handling](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cost-cost-query-error-handling.md)
+            - [Cost Management Query Examples](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cost-cost-query-examples.md)
+            - [Cost Query Guardrails](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cost-cost-query-guardrails.md)
+            - [Cost Management Query API — Request Body Schema](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cost-cost-query-request-body-schema.md)
+            - [Cost Query Workflow](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cost-cost-query-workflow.md)
+          - **references**
+            - [Azure Cost Skill Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-cost-references-tools-and-best-practices.md)
+        - **azure-deploy**
+          - [Azure Deploy](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-deploy-SKILL.md)
+          - **references**
+            - [Global Rules](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-deploy-references-global-rules.md)
+            - [Live Role Verification](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-deploy-references-live-role-verification.md)
+            - [Pre-Deployment Checklist](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-deploy-references-pre-deploy-checklist.md)
+            - [Azure Region Availability Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-deploy-references-region-availability.md)
+            - [Troubleshooting](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-deploy-references-troubleshooting.md)
+            - [Recipes](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-deploy-references-recipes.md)
+              - [Azure CLI Deploy Recipe](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-deploy-references-recipes-azcli.md)
+                - [Azure CLI Errors](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-deploy-references-recipes-azcli-errors.md)
+              - [AZD Deploy Recipe](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-deploy-references-recipes-azd.md)
+                - [EF Core Migrations Deployment](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-deploy-references-recipes-azd-ef-migrations.md)
+                - [AZD Errors](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-deploy-references-recipes-azd-errors.md)
+                - [Azure Functions Deployment](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-deploy-references-recipes-azd-functions-deploy.md)
+                - [Post-Deployment Steps](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-deploy-references-recipes-azd-post-deployment.md)
+                - [SQL Database Entra Authentication](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-deploy-references-recipes-azd-sql-entra-auth.md)
+                - [SQL Managed Identity Access](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-deploy-references-recipes-azd-sql-managed-identity.md)
+                - [AZD Verification](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-deploy-references-recipes-azd-verify.md)
+              - [Bicep Deploy Recipe](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-deploy-references-recipes-bicep.md)
+                - [Bicep Errors](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-deploy-references-recipes-bicep-errors.md)
+              - [CI/CD Deploy Recipe](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-deploy-references-recipes-cicd.md)
+                - [CI/CD Errors](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-deploy-references-recipes-cicd-errors.md)
+                - [CI/CD Verification](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-deploy-references-recipes-cicd-verify.md)
+              - [Terraform Deploy Recipe](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-deploy-references-recipes-terraform.md)
+                - [Terraform Verification](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-deploy-references-recipes-terraform-verify.md)
+            - **sdk**
+              - [Azure Developer CLI — Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-deploy-references-sdk-azd-deployment.md)
+              - [Authentication — .NET SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-deploy-references-sdk-azure-identity-dotnet.md)
+              - [Authentication — Java SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-deploy-references-sdk-azure-identity-java.md)
+              - [Authentication — Python SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-deploy-references-sdk-azure-identity-py.md)
+              - [Authentication — TypeScript SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-deploy-references-sdk-azure-identity-ts.md)
+        - **azure-diagnostics**
+          - [Azure Diagnostics](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-SKILL.md)
+          - **references**
+            - [Azure Resource Graph Queries for Diagnostics](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-references-azure-resource-graph.md)
+            - [KQL Query Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-references-kql-queries.md)
+            - [App Service Troubleshooting](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-references-app-service.md)
+            - [Container Apps Troubleshooting](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-references-container-apps.md)
+            - [Function Apps Troubleshooting](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-references-functions.md)
+          - **troubleshooting**
+            - **aks**
+              - [AKS Troubleshooting Guide](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-troubleshooting-aks-aks-troubleshooting.md)
+              - [General AKS Investigation & Diagnostics](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-troubleshooting-aks-general-diagnostics.md)
+              - [Load Balancer And Ingress Troubleshooting](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-troubleshooting-aks-load-balancer-and-ingress.md)
+              - [Network Policy Troubleshooting](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-troubleshooting-aks-network-policy.md)
+              - [Networking Troubleshooting](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-troubleshooting-aks-networking.md)
+              - [Node & Cluster Troubleshooting](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-troubleshooting-aks-node-issues.md)
+              - [Pod Failures & Application Issues](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-troubleshooting-aks-pod-failures.md)
+              - [Spot And Zone Issues](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-troubleshooting-aks-spot-and-zone-issues.md)
+              - [Upgrade Operations](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-troubleshooting-aks-upgrade-operations.md)
+              - **references**
+                - [AKS MCP Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-troubleshooting-aks-references-aks-mcp.md)
+                - [AKS Command Flows](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-troubleshooting-aks-references-command-flows.md)
+                - [Inspektor Gadget (IG) Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-troubleshooting-aks-references-inspektor-gadget.md)
+                - [AKS Structured Input Modes](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-troubleshooting-aks-references-structured-input-modes.md)
+            - **compute**
+              - [Azure VM Connectivity Troubleshooting](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-troubleshooting-compute-vm-troubleshooting.md)
+              - **references**
+                - [Cannot Connect to VM](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-troubleshooting-compute-references-cannot-connect-to-vm.md)
+                - [Credential and Authentication Errors](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-troubleshooting-compute-references-credential-auth-errors.md)
+                - [Firewall Blocking Connectivity](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-troubleshooting-compute-references-firewall-blocking.md)
+                - [Network Connectivity Problems](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-troubleshooting-compute-references-network-connectivity.md)
+                - [Unable to RDP into the VM](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-troubleshooting-compute-references-rdp-connectivity.md)
+                - [RDP Service and Configuration Issues](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-troubleshooting-compute-references-rdp-service-config.md)
+                - [Unable to SSH into the VM](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-troubleshooting-compute-references-ssh-connectivity.md)
+                - [VM Agent Not Responding](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-troubleshooting-compute-references-vm-agent-not-responding.md)
+            - [Azure Messaging Troubleshooting](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-troubleshooting-messaging.md)
+              - [Azure Event Hubs SDK — .NET (C)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-troubleshooting-messaging-azure-eventhubs-dotnet.md)
+              - [Azure Event Hubs SDK — Java](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-troubleshooting-messaging-azure-eventhubs-java.md)
+              - [Azure Event Hubs SDK — JavaScript](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-troubleshooting-messaging-azure-eventhubs-js.md)
+              - [Azure Event Hubs SDK — Python](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-troubleshooting-messaging-azure-eventhubs-py.md)
+              - [Azure Service Bus SDK — .NET (C)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-troubleshooting-messaging-azure-servicebus-dotnet.md)
+              - [Azure Service Bus SDK — Java](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-troubleshooting-messaging-azure-servicebus-java.md)
+              - [Azure Service Bus SDK — JavaScript](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-troubleshooting-messaging-azure-servicebus-js.md)
+              - [Azure Service Bus SDK — Python](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-troubleshooting-messaging-azure-servicebus-py.md)
+              - [Service-Level Troubleshooting](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-diagnostics-troubleshooting-messaging-service-troubleshooting.md)
+        - **azure-enterprise-infra-planner**
+          - [Azure Enterprise Infra Planner](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-SKILL.md)
+          - **references**
+            - [Bicep Generation](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-references-bicep-generation.md)
+            - [Deployment Execution](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-references-deployment.md)
+            - [Property & Pairing Checks](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-references-pairing-checks.md)
+            - [Referenced-Workload Handling (on-demand)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-references-referenced-workload.md)
+            - [Infrastructure Plan Schema](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-references-schema.md)
+            - [Terraform Generation](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-references-terraform-generation.md)
+            - [Resource Verification](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-references-verification.md)
+            - [WAF Cross-Cutting Checklist](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-references-waf-checklist.md)
+            - [Workflow](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-references-workflow.md)
+            - [Pairing Constraints Index](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-references-constraints.md)
+              - [AI & ML Pairing Constraints](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-references-constraints-ai-ml.md)
+              - [Compute (PaaS) Pairing Constraints](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-references-constraints-compute-apps.md)
+              - [Compute (IaaS) Pairing Constraints](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-references-constraints-compute-infra.md)
+              - [Data (Analytics) Pairing Constraints](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-references-constraints-data-analytics.md)
+              - [Data (Relational) Pairing Constraints](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-references-constraints-data-relational.md)
+              - [Messaging Pairing Constraints](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-references-constraints-messaging.md)
+              - [Monitoring Pairing Constraints](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-references-constraints-monitoring.md)
+              - [Networking (Connectivity) Pairing Constraints](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-references-constraints-networking-connectivity.md)
+              - [Networking (Core) Pairing Constraints](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-references-constraints-networking-core.md)
+              - [Networking (Traffic) Pairing Constraints](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-references-constraints-networking-traffic.md)
+            - **phases**
+              - [Phase 1: Extract Insights](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-references-phases-1-extract-insights.md)
+              - [Phase 2: Research WAF](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-references-phases-2-research-best-practices.md)
+              - [Phase 3: Research Resources](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-references-phases-3-research-resources.md)
+              - [Phase 5: Verify Plan](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-references-phases-5-verify.md)
+              - [Phase 6: Generate IaC](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-references-phases-6-generate-iac.md)
+              - [Phase 7: Deployment](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-references-phases-7-deploy.md)
+            - [Resource Reference Index](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-references-resources.md)
+              - [AI & ML Resources](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-references-resources-ai-ml.md)
+              - [Compute (PaaS) Resources](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-references-resources-compute-apps.md)
+              - [Compute (IaaS) Resources](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-references-resources-compute-infra.md)
+              - [Data (Analytics) Resources](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-references-resources-data-analytics.md)
+              - [Data (Relational) Resources](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-references-resources-data-relational.md)
+              - [Messaging Resources](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-references-resources-messaging.md)
+              - [Monitoring Resources](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-references-resources-monitoring.md)
+              - [Networking (Connectivity) Resources](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-references-resources-networking-connectivity.md)
+              - [Networking (Core) Resources](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-references-resources-networking-core.md)
+              - [Networking (Traffic) Resources](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-enterprise-infra-planner-references-resources-networking-traffic.md)
+        - **azure-kubernetes**
+          - [Azure Kubernetes Service](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-kubernetes-SKILL.md)
+          - **azure-kubernetes-app-deploy**
+            - [Deploy to AKS](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-kubernetes-azure-kubernetes-app-deploy-SKILL.md)
+            - **knowledge-packs**
+              - **frameworks**
+                - [ASP.NET Core Knowledge Pack](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-kubernetes-azure-kubernetes-app-deploy-knowledge-packs-frameworks-aspnet-core.md)
+                - [Django Knowledge Pack](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-kubernetes-azure-kubernetes-app-deploy-knowledge-packs-frameworks-django.md)
+                - [Express / Fastify Knowledge Pack](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-kubernetes-azure-kubernetes-app-deploy-knowledge-packs-frameworks-express.md)
+                - [FastAPI Knowledge Pack](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-kubernetes-azure-kubernetes-app-deploy-knowledge-packs-frameworks-fastapi.md)
+                - [Flask Knowledge Pack](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-kubernetes-azure-kubernetes-app-deploy-knowledge-packs-frameworks-flask.md)
+                - [Go Knowledge Pack](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-kubernetes-azure-kubernetes-app-deploy-knowledge-packs-frameworks-go.md)
+                - [NestJS Knowledge Pack](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-kubernetes-azure-kubernetes-app-deploy-knowledge-packs-frameworks-nestjs.md)
+                - [Next.js Knowledge Pack](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-kubernetes-azure-kubernetes-app-deploy-knowledge-packs-frameworks-nextjs.md)
+                - [Spring Boot Knowledge Pack](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-kubernetes-azure-kubernetes-app-deploy-knowledge-packs-frameworks-spring-boot.md)
+            - **phases**
+              - [Quick Deploy](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-kubernetes-azure-kubernetes-app-deploy-phases-quick-deploy.md)
+            - **references**
+              - [Base Image Policy](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-kubernetes-azure-kubernetes-app-deploy-references-base-images.md)
+              - [Detection Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-kubernetes-azure-kubernetes-app-deploy-references-detection.md)
+              - [Rollback Guidance](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-kubernetes-azure-kubernetes-app-deploy-references-rollback.md)
+              - [AKS Deployment Safeguards Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-kubernetes-azure-kubernetes-app-deploy-references-safeguards.md)
+              - [Azure Workload Identity for AKS](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-kubernetes-azure-kubernetes-app-deploy-references-workload-identity.md)
+            - **templates**
+              - **mermaid**
+                - [Architecture Diagram Template](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-kubernetes-azure-kubernetes-app-deploy-templates-mermaid-architecture-diagram.md)
+                - [Deployment Summary Template](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-kubernetes-azure-kubernetes-app-deploy-templates-mermaid-summary-dashboard.md)
+          - **azure-kubernetes-automatic-readiness**
+            - [AKS Automatic Readiness Assessment](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-kubernetes-azure-kubernetes-automatic-readiness-SKILL.md)
+            - **references**
+              - [Common Fix Patterns for AKS Automatic Compatibility](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-kubernetes-azure-kubernetes-automatic-readiness-references-common-fixes.md)
+              - [MCP Integration Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-kubernetes-azure-kubernetes-automatic-readiness-references-mcp-integration.md)
+              - [AKS Automatic Migration Guide](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-kubernetes-azure-kubernetes-automatic-readiness-references-migration-guide-summary.md)
+          - **references**
+            - [AKS Cluster Autoscaler (CAS)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-kubernetes-references-azure-aks-autoscaler.md)
+            - [AKS Pod Rightsizing](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-kubernetes-references-azure-aks-rightsizing.md)
+            - [AKS Spot Node Pools](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-kubernetes-references-azure-aks-spot.md)
+            - [AKS Vertical Pod Autoscaler (VPA)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-kubernetes-references-azure-aks-vpa.md)
+            - [CLI Reference for AKS](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-kubernetes-references-cli-reference.md)
+        - **azure-kusto**
+          - [Azure Data Explorer (Kusto) Query & Analytics](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-kusto-SKILL.md)
+        - **azure-messaging**
+          - [Azure Messaging SDK Troubleshooting](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-messaging-SKILL.md)
+        - **azure-prepare**
+          - [Azure Prepare](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-SKILL.md)
+          - **references**
+            - [Analyze Workspace](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-analyze.md)
+            - [APIM Deployment Guide](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-apim.md)
+            - [Architecture Planning](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-architecture.md)
+            - [.NET Aspire Projects](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-aspire.md)
+            - [Azure Context (Subscription & Location)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-azure-context.md)
+            - [Functional Verification](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-functional-verification.md)
+            - [Artifact Generation](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-generate.md)
+            - [Global Rules](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-global-rules.md)
+            - [Plan Template](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-plan-template.md)
+            - [Recipe Selection](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-recipe-selection.md)
+            - [Azure Region Availability Index](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-region-availability.md)
+            - [Requirements Gathering](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-requirements.md)
+            - [Research Components](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-research.md)
+            - [Azure Resource Limits and Quotas](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-resources-limits-quotas.md)
+            - [Codebase Scan](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-scan.md)
+            - [Specialized Technology Routing](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-specialized-routing.md)
+            - **recipes**
+              - [AZCLI Recipe](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-recipes-azcli.md)
+                - [Azure CLI Commands](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-recipes-azcli-commands.md)
+                - [Deployment Scripts](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-recipes-azcli-scripts.md)
+              - [AZD Recipe](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-recipes-azd.md)
+                - [.NET Aspire Projects with AZD](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-recipes-azd-aspire.md)
+                - [azure.yaml Generation](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-recipes-azd-azure-yaml.md)
+                - [Dockerfile Generation](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-recipes-azd-docker.md)
+                - [AZD IAC Rules](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-recipes-azd-iac-rules.md)
+                - [AZD with Terraform](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-recipes-azd-terraform.md)
+              - [Bicep Recipe](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-recipes-bicep.md)
+                - [Bicep Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-recipes-bicep-patterns.md)
+              - [Terraform Recipe](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-recipes-terraform.md)
+                - [Terraform Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-recipes-terraform-patterns.md)
+            - **runtimes**
+              - [Node.js/Express Production Configuration for Azure](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-runtimes-nodejs.md)
+            - **sdk**
+              - [App Configuration — Java SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-sdk-azure-appconfiguration-java.md)
+              - [App Configuration — Python SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-sdk-azure-appconfiguration-py.md)
+              - [App Configuration — TypeScript SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-sdk-azure-appconfiguration-ts.md)
+            - **services**
+              - [Azure Kubernetes Service (AKS)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-aks.md)
+                - [AKS - Add-ons](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-aks-addons.md)
+                - [AKS - Bicep Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-aks-bicep.md)
+                - [AKS - Kubernetes Manifests](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-aks-manifests.md)
+              - [App Insights](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-app-insights.md)
+              - [Azure App Service](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-app-service.md)
+                - [App Service Bicep Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-app-service-bicep.md)
+                - [App Service Custom Domains and Managed TLS](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-app-service-custom-domains.md)
+                - [App Service Deployment Slots](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-app-service-deployment-slots.md)
+                - [App Service Networking](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-app-service-networking.md)
+                - [App Service Auto-scaling](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-app-service-scaling.md)
+                - [App Service SKU Selection](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-app-service-sku-selection.md)
+                - **templates**
+                  - [Template Selection Decision Tree — REFERENCE ONLY](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-app-service-templates-selection.md)
+                  - [Web API Base Template — REFERENCE ONLY](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-app-service-templates-web-api.md)
+                  - [Full-Stack Web App Template — REFERENCE ONLY](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-app-service-templates-web-app.md)
+                  - [App Service Template Recipes — REFERENCE ONLY](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-app-service-templates-recipes.md)
+                    - [Composition Algorithm — REFERENCE ONLY](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-app-service-templates-recipes-composition.md)
+                    - [Entra ID / Easy Auth Recipe — REFERENCE ONLY](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-app-service-templates-recipes-auth.md)
+                      - **source**
+                        - [Auth Recipe — C (.NET) — REFERENCE ONLY](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-app-service-templates-recipes-auth-source-dotnet.md)
+                        - [Auth Recipe — Node.js (Express) — REFERENCE ONLY](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-app-service-templates-recipes-auth-source-nodejs.md)
+                        - [Auth Recipe — Python (FastAPI) — REFERENCE ONLY](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-app-service-templates-recipes-auth-source-python.md)
+                    - [Cosmos DB Recipe — REFERENCE ONLY](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-app-service-templates-recipes-cosmos.md)
+                      - **source**
+                        - [Cosmos DB Recipe — C (.NET) — REFERENCE ONLY](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-app-service-templates-recipes-cosmos-source-dotnet.md)
+                        - [Cosmos DB Recipe — Node.js — REFERENCE ONLY](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-app-service-templates-recipes-cosmos-source-nodejs.md)
+                        - [Cosmos DB Recipe — Python — REFERENCE ONLY](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-app-service-templates-recipes-cosmos-source-python.md)
+                    - [Azure Cache for Redis Recipe — REFERENCE ONLY](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-app-service-templates-recipes-redis.md)
+                      - **source**
+                        - [Redis Recipe — C (.NET) — REFERENCE ONLY](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-app-service-templates-recipes-redis-source-dotnet.md)
+                        - [Redis Recipe — Node.js — REFERENCE ONLY](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-app-service-templates-recipes-redis-source-nodejs.md)
+                        - [Redis Recipe — Python — REFERENCE ONLY](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-app-service-templates-recipes-redis-source-python.md)
+                    - [SQL Database Recipe — REFERENCE ONLY](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-app-service-templates-recipes-sql.md)
+                      - **source**
+                        - [SQL Database — C (.NET) — REFERENCE ONLY](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-app-service-templates-recipes-sql-source-dotnet.md)
+                        - [SQL Database — Node.js — REFERENCE ONLY](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-app-service-templates-recipes-sql-source-nodejs.md)
+                        - [SQL Database — Python — REFERENCE ONLY](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-app-service-templates-recipes-sql-source-python.md)
+              - [Azure Container Apps](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-container-apps.md)
+                - [Container Apps Bicep Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-container-apps-bicep.md)
+                - [Container Apps Day-2 Operations](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-container-apps-day2-operations.md)
+                - [Container Apps Environment Variables](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-container-apps-environment.md)
+                - [Container Apps Health Probes](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-container-apps-health-probes.md)
+                - [Container Apps Networking](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-container-apps-networking.md)
+                - [Container Apps Revision Management](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-container-apps-revisions.md)
+                - [Container Apps Scaling Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-container-apps-scaling.md)
+                - [Container Apps Terraform Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-container-apps-terraform.md)
+              - [Azure Cosmos DB](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-cosmos-db.md)
+                - [Cosmos DB Bicep Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-cosmos-db-bicep.md)
+                - [Cosmos DB Partition Key Selection](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-cosmos-db-partitioning.md)
+                - [Cosmos DB SDK Connection Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-cosmos-db-sdk.md)
+              - [Durable Task Scheduler](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-durable-task-scheduler.md)
+                - [Durable Task Scheduler — Bicep Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-durable-task-scheduler-bicep.md)
+                - [Durable Task Scheduler — .NET](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-durable-task-scheduler-dotnet.md)
+                - [Durable Task Scheduler — Java](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-durable-task-scheduler-java.md)
+                - [Durable Task Scheduler — JavaScript](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-durable-task-scheduler-javascript.md)
+                - [Durable Task Scheduler — Python](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-durable-task-scheduler-python.md)
+              - [Azure Event Grid](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-event-grid.md)
+                - [Event Grid - Bicep Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-event-grid-bicep.md)
+                - [Event Grid - Subscriptions](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-event-grid-subscriptions.md)
+              - [Azure AI Foundry](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-foundry.md)
+                - [Foundry Region Availability](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-foundry-region-availability.md)
+              - [Azure Functions](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions.md)
+                - [Azure Functions on Azure Container Apps (Aspire)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-aspire-containerapps.md)
+                - [Functions Bicep Patterns — REFERENCE ONLY](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-bicep.md)
+                - [Azure Functions Cold Start Mitigation](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-cold-start.md)
+                - [Durable Functions](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-durable.md)
+                - [Azure Functions Hosting Plans](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-hosting-plans.md)
+                - [Functions Terraform Patterns — REFERENCE ONLY](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-terraform.md)
+                - [Azure Functions Templates](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-templates.md)
+                  - [Template Selection Guide](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-templates-selection.md)
+                  - **base**
+                    - **eval**
+                      - [Base HTTP Template - Python Eval](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-templates-base-eval-python.md)
+                      - [Base HTTP Template - Eval Summary](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-templates-base-eval-summary.md)
+                      - [Base HTTP Template - TypeScript Eval](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-templates-base-eval-typescript.md)
+                  - [Function Template Recipes](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-templates-recipes.md)
+                    - [Composition Algorithm](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-templates-recipes-composition.md)
+                    - [Blob Storage with Event Grid Recipe](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-templates-recipes-blob-eventgrid.md)
+                      - **eval**
+                        - [blob-eventgrid Recipe - Python Eval](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-templates-recipes-blob-eventgrid-eval-python.md)
+                        - [Eval Summary](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-templates-recipes-blob-eventgrid-eval-summary.md)
+                    - **common**
+                      - [C (.NET) Entry Point (DO NOT MODIFY)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-templates-recipes-common-dotnet-entry-point.md)
+                      - [Error Handling Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-templates-recipes-common-error-handling.md)
+                      - [Health Check Endpoint](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-templates-recipes-common-health-check.md)
+                      - [Node.js Entry Point (REQUIRED)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-templates-recipes-common-nodejs-entry-point.md)
+                    - [Cosmos DB Recipe](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-templates-recipes-cosmosdb.md)
+                      - **eval**
+                        - [Cosmos DB Recipe - Python Eval](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-templates-recipes-cosmosdb-eval-python.md)
+                        - [Eval Summary](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-templates-recipes-cosmosdb-eval-summary.md)
+                        - [Cosmos DB Recipe - TypeScript Eval](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-templates-recipes-cosmosdb-eval-typescript.md)
+                    - [Durable Functions Recipe](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-templates-recipes-durable.md)
+                      - **eval**
+                        - [durable Recipe - Python Eval](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-templates-recipes-durable-eval-python.md)
+                        - [Eval Summary](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-templates-recipes-durable-eval-summary.md)
+                    - [Event Hubs Recipe](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-templates-recipes-eventhubs.md)
+                      - **eval**
+                        - [eventhubs Recipe - Python Eval](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-templates-recipes-eventhubs-eval-python.md)
+                        - [Eval Summary](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-templates-recipes-eventhubs-eval-summary.md)
+                    - [MCP (Model Context Protocol) Recipe](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-templates-recipes-mcp.md)
+                      - **eval**
+                        - [MCP Server Recipe - Python Eval](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-templates-recipes-mcp-eval-python.md)
+                        - [Eval Summary](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-templates-recipes-mcp-eval-summary.md)
+                    - [Service Bus Recipe](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-templates-recipes-servicebus.md)
+                      - **eval**
+                        - [Service Bus Recipe - Python Eval](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-templates-recipes-servicebus-eval-python.md)
+                        - [Eval Summary](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-templates-recipes-servicebus-eval-summary.md)
+                        - [Service Bus Recipe - TypeScript Eval](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-templates-recipes-servicebus-eval-typescript.md)
+                    - [Azure SQL Recipe](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-templates-recipes-sql.md)
+                      - **eval**
+                        - [sql Recipe - Python Eval](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-templates-recipes-sql-eval-python.md)
+                        - [Eval Summary](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-templates-recipes-sql-eval-summary.md)
+                    - [Timer Recipe](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-templates-recipes-timer.md)
+                      - **eval**
+                        - [Timer Recipe - Python Eval](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-templates-recipes-timer-eval-python.md)
+                        - [Eval Summary](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-functions-templates-recipes-timer-eval-summary.md)
+              - [Azure Key Vault](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-key-vault.md)
+                - [Key Vault - Bicep Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-key-vault-bicep.md)
+                - [Key Vault - SDK Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-key-vault-sdk.md)
+              - [Azure Logic Apps](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-logic-apps.md)
+                - [Logic Apps - Bicep Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-logic-apps-bicep.md)
+                - [Logic Apps - Triggers](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-logic-apps-triggers.md)
+              - [Azure Service Bus](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-service-bus.md)
+                - [Service Bus - Bicep Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-service-bus-bicep.md)
+                - [Service Bus - Messaging Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-service-bus-patterns.md)
+              - [Azure SQL Database](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-sql-database.md)
+                - [SQL Database - Entra ID Authentication](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-sql-database-auth.md)
+                - [SQL Database - Bicep Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-sql-database-bicep.md)
+                - [SQL Database - SDK Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-sql-database-sdk.md)
+              - [Azure Static Web Apps](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-static-web-apps.md)
+                - [Static Web Apps - Bicep Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-static-web-apps-bicep.md)
+                - [Static Web Apps - Deployment](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-static-web-apps-deployment.md)
+                - [SWA Region Availability](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-static-web-apps-region-availability.md)
+                - [Static Web Apps - Routing & Authentication](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-static-web-apps-routing.md)
+                - [Static Web Apps — Terraform Patterns — REFERENCE ONLY](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-static-web-apps-terraform.md)
+              - [Azure Storage](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-storage.md)
+                - [Storage - Access Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-storage-access.md)
+                - [Storage - Bicep Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-prepare-references-services-storage-bicep.md)
+        - **azure-quotas**
+          - [Azure Quotas - Service Limits & Capacity Management](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-quotas-SKILL.md)
+          - **references**
+            - [Advanced Azure Quota Commands](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-quotas-references-advanced-commands.md)
+            - [Azure Quota CLI Commands Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-quotas-references-commands.md)
+        - **azure-reliability**
+          - [Azure Reliability Assessment & Configuration](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-reliability-SKILL.md)
+          - **references**
+            - [Configure Health Probes — Platform Notes](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-reliability-references-configure-health-probes.md)
+            - [Configure Multi-Region — Active-Passive with Azure Front Door](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-reliability-references-configure-multi-region.md)
+            - [Configure Storage Redundancy](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-reliability-references-configure-storage.md)
+            - [Configure Zone Redundancy — Platform Notes](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-reliability-references-configure-zone-redundancy.md)
+            - [Health Probe & Monitoring — Platform-Level Checks](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-reliability-references-health-probe-checks.md)
+            - [IaC Patching — Bicep](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-reliability-references-iac-patching-bicep.md)
+            - [IaC Patching — Terraform](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-reliability-references-iac-patching-terraform.md)
+            - [Multi-Region & Failover Checks](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-reliability-references-multi-region-checks.md)
+            - [Storage Redundancy Checks](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-reliability-references-storage-redundancy-checks.md)
+            - [Zone Redundancy — Platform Overview](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-reliability-references-zone-redundancy-checks.md)
+            - **services**
+              - **app-service**
+                - [Azure App Service — Reliability Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-reliability-references-services-app-service-reliability.md)
+              - **functions**
+                - [Azure Functions — Reliability Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-reliability-references-services-functions-reliability.md)
+        - **azure-resource-lookup**
+          - [Azure Resource Lookup](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-resource-lookup-SKILL.md)
+          - **references**
+            - [Azure Resource Graph Query Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-resource-lookup-references-azure-resource-graph.md)
+        - **azure-resource-visualizer**
+          - [Azure Resource Visualizer - Architecture Diagram Generator](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-resource-visualizer-SKILL.md)
+          - **references**
+            - [Azure Resource Graph Queries for Resource Discovery](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-resource-visualizer-references-azure-resource-graph.md)
+        - **azure-storage**
+          - [Azure Storage Services](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-storage-SKILL.md)
+          - **references**
+            - [Azure Storage SDK Usage](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-storage-references-sdk-usage.md)
+            - **sdk**
+              - [Tables — Java SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-storage-references-sdk-azure-data-tables-java.md)
+              - [Tables — Python SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-storage-references-sdk-azure-data-tables-py.md)
+              - [Blob Storage — Java SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-storage-references-sdk-azure-storage-blob-java.md)
+              - [Blob Storage — Python SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-storage-references-sdk-azure-storage-blob-py.md)
+              - [Blob Storage — Rust SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-storage-references-sdk-azure-storage-blob-rust.md)
+              - [Blob Storage — TypeScript SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-storage-references-sdk-azure-storage-blob-ts.md)
+              - [Data Lake Storage Gen2 — Python SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-storage-references-sdk-azure-storage-file-datalake-py.md)
+              - [File Shares — Python SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-storage-references-sdk-azure-storage-file-share-py.md)
+              - [File Shares — TypeScript SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-storage-references-sdk-azure-storage-file-share-ts.md)
+              - [Queue Storage — Python SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-storage-references-sdk-azure-storage-queue-py.md)
+              - [Queue Storage — TypeScript SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-storage-references-sdk-azure-storage-queue-ts.md)
+        - **azure-upgrade**
+          - [Azure Upgrade](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-upgrade-SKILL.md)
+          - **references**
+            - [Global Rules](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-upgrade-references-global-rules.md)
+            - [Workflow Details](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-upgrade-references-workflow-details.md)
+            - **languages**
+              - [Java Legacy Azure SDK → Modern Azure SDK](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-upgrade-references-languages-java.md)
+                - [Azure SDK Migration Guidelines](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-upgrade-references-languages-java-INSTRUCTION.md)
+                - **bom-migration**
+                  - [BOM Migration — Gradle Programmatic Version Catalog (settings.gradle)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-upgrade-references-languages-java-bom-migration-bom-gradle-settings.md)
+                  - [BOM Migration — Gradle TOML Version Catalog (libs.versions.toml)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-upgrade-references-languages-java-bom-migration-bom-gradle-toml.md)
+                  - [BOM Migration — Gradle Projects (No Version Catalogs)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-upgrade-references-languages-java-bom-migration-bom-gradle.md)
+                  - [BOM Migration — Maven Projects](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-upgrade-references-languages-java-bom-migration-bom-maven.md)
+                  - [BOM Migration Guide](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-upgrade-references-languages-java-bom-migration-bom-migration.md)
+                  - [BOM Migration — Validation Checklist](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-upgrade-references-languages-java-bom-migration-bom-validation.md)
+                - **package-specific**
+                  - [com.microsoft.azure.eventprocessorhost](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-upgrade-references-languages-java-package-specific-com.microsoft.azure.eventprocessorhost.md)
+                  - [com.microsoft.azure.management.\\](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-upgrade-references-languages-java-package-specific-com.microsoft.azure.management.md)
+                - **rules**
+                  - [Efficiency](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-upgrade-references-languages-java-rules-efficiency.md)
+                  - [Execution Guidelines](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-upgrade-references-languages-java-rules-execution-guidelines.md)
+                  - [Review Code Changes (MANDATORY for each step)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-upgrade-references-languages-java-rules-review-code-changes.md)
+                  - [Troubleshooting & Anti-Excuse Rules](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-upgrade-references-languages-java-rules-troubleshooting.md)
+                  - [Upgrade Strategy](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-upgrade-references-languages-java-rules-upgrade-strategy.md)
+                  - [Upgrade Success Criteria (ALL must be met)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-upgrade-references-languages-java-rules-upgrade-success-criteria.md)
+                - **templates**
+                  - [Upgrade Plan: <PROJECTNAME (<RUNID)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-upgrade-references-languages-java-templates-PLAN_TEMPLATE.md)
+                  - [Upgrade Progress: <PROJECTNAME (<RUNID)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-upgrade-references-languages-java-templates-PROGRESS_TEMPLATE.md)
+                  - [Upgrade Summary: <PROJECTNAME (<RUNID)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-upgrade-references-languages-java-templates-SUMMARY_TEMPLATE.md)
+                - **workflow**
+                  - [Phase 1: Precheck](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-upgrade-references-languages-java-workflow-phase-1-precheck.md)
+                  - [Phase 2: Generate Upgrade Plan](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-upgrade-references-languages-java-workflow-phase-2-plan.md)
+                  - [Phase 3: Execute Upgrade Plan](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-upgrade-references-languages-java-workflow-phase-3-execute.md)
+                  - [Phase 4: Summarize & Validate](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-upgrade-references-languages-java-workflow-phase-4-summarize.md)
+            - **services**
+              - **functions**
+                - [Assessment: Functions Plan Upgrade](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-upgrade-references-services-functions-assessment.md)
+                - [Automation: Consumption to Flex Consumption Upgrade](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-upgrade-references-services-functions-automation.md)
+                - [Consumption Plan to Flex Consumption Plan Upgrade](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-upgrade-references-services-functions-consumption-to-flex.md)
+              - **redis**
+                - [Azure Cache for Redis → Azure Managed Redis (AMR) Migration](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-upgrade-references-services-redis-redis-to-amr.md)
+        - **azure-validate**
+          - [Azure Validate](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-validate-SKILL.md)
+          - **references**
+            - [Aspire + Azure Functions: Secret Storage Validation](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-validate-references-aspire-functions-secrets.md)
+            - [Global Rules](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-validate-references-global-rules.md)
+            - [Azure Policy Validation](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-validate-references-policy-validation.md)
+            - [Azure Region Availability Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-validate-references-region-availability.md)
+            - [Role Assignment Verification](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-validate-references-role-verification.md)
+            - [Recipes](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-validate-references-recipes.md)
+              - [AZCLI Validation](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-validate-references-recipes-azcli.md)
+                - [AZCLI Validation Errors](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-validate-references-recipes-azcli-errors.md)
+              - [AZD Validation](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-validate-references-recipes-azd.md)
+                - [Aspire Validation](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-validate-references-recipes-azd-aspire.md)
+                - [AZD Environment Setup](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-validate-references-recipes-azd-environment.md)
+                - [AZD Validation Errors](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-validate-references-recipes-azd-errors.md)
+              - [Bicep Validation](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-validate-references-recipes-bicep.md)
+                - [Bicep Validation Errors](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-validate-references-recipes-bicep-errors.md)
+              - [Terraform Validation](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-validate-references-recipes-terraform.md)
+                - [Terraform Validation Errors](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-azure-validate-references-recipes-terraform-errors.md)
+        - **entra-agent-id**
+          - [Microsoft Entra Agent ID](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-entra-agent-id-SKILL.md)
+          - **references**
+            - [Known Limitations](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-entra-agent-id-references-known-limitations.md)
+            - [OAuth2 Token Flow](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-entra-agent-id-references-oauth2-token-flow.md)
+            - [OBO Blueprint Setup](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-entra-agent-id-references-obo-blueprint-setup.md)
+            - [Runtime Token Exchange (fmipath)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-entra-agent-id-references-runtime-token-exchange.md)
+            - [SDK Sidecar — Code Patterns, Deployment, and Security](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-entra-agent-id-references-sdk-sidecar-deployment.md)
+            - [Microsoft Entra SDK for AgentID: Polyglot Agent Authentication](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-entra-agent-id-references-sdk-sidecar.md)
+        - **entra-app-registration**
+          - [Microsoft Agent Skills](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-entra-app-registration-SKILL.md)
+          - **references**
+            - [API Permissions Guide](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-entra-app-registration-references-api-permissions.md)
+            - [Azure CLI Commands for App Registration](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-entra-app-registration-references-cli-commands.md)
+            - [Console Application Examples](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-entra-app-registration-references-console-app-example.md)
+            - [First App Registration - Step-by-Step Guide](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-entra-app-registration-references-first-app-registration.md)
+            - [OAuth 2.0 Flows](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-entra-app-registration-references-oauth-flows.md)
+            - [Troubleshooting Microsoft Entra App Registration](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-entra-app-registration-references-troubleshooting.md)
+            - **sdk**
+              - [Authentication — Rust SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-entra-app-registration-references-sdk-azure-identity-rust.md)
+              - [Authentication Events — .NET SDK Quick Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-entra-app-registration-references-sdk-microsoft-azure-webjobs-extensions-authentication-events-dotnet.md)
+        - **microsoft-foundry**
+          - **finetuning**
+            - [Fine-Tuning on Microsoft Foundry](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-finetuning-SKILL.md)
+            - **references**
+              - [Agentic RFT — Tool Calling](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-finetuning-references-agentic-rft.md)
+              - [Dataset Formats](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-finetuning-references-dataset-formats.md)
+              - [Deployment Formats](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-finetuning-references-deployment.md)
+              - [Evaluation Methodology](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-finetuning-references-evaluation.md)
+              - [RFT Grader Design Guide](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-finetuning-references-grader-design.md)
+              - [Hyperparameter Guide](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-finetuning-references-hyperparameters.md)
+              - [Large File Uploads](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-finetuning-references-large-file-uploads.md)
+              - [Platform Gotchas — Top 10](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-finetuning-references-platform-gotchas.md)
+              - [Reward Hacking Prevention in RFT](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-finetuning-references-reward-hacking.md)
+              - [Training Curve Analysis](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-finetuning-references-training-curves.md)
+              - [Training Types: SFT vs DPO vs RFT](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-finetuning-references-training-types.md)
+              - [Vision Fine-Tuning](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-finetuning-references-vision-fine-tuning.md)
+            - **workflows**
+              - [Dataset Creation Workflow](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-finetuning-workflows-dataset-creation.md)
+              - [Diagnosing Poor Results](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-finetuning-workflows-diagnose-poor-results.md)
+              - [Full Pipeline Workflow](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-finetuning-workflows-full-pipeline.md)
+              - [Iterative Training Workflow](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-finetuning-workflows-iterative-training.md)
+              - [Quickstart: Fine-Tune Your First Model](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-finetuning-workflows-quickstart.md)
+          - **foundry-agent**
+            - **agent-optimizer**
+              - [Agent Optimizer in Foundry — Scaffold Python Agent](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-agent-optimizer-agent-optimizer.md)
+              - **references**
+                - [azd Setup](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-agent-optimizer-references-azd-setup.md)
+                - [eval.yaml Guidance](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-agent-optimizer-references-eval-yaml.md)
+                - [Optimize Workflow](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-agent-optimizer-references-optimize-workflow.md)
+                - [Python Agent Optimizer in Foundry Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-agent-optimizer-references-python-patterns.md)
+                - [Scaffold Workflow](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-agent-optimizer-references-scaffold.md)
+            - **azd-guidance**
+              - [Foundry azd Guidance](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-azd-guidance-azd-guidance.md)
+              - **references**
+                - [azd ai CLI Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-azd-guidance-references-azd-ai-cli.md)
+            - **cicd**
+              - [Set Up CI/CD for a Foundry Agent](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-cicd-cicd.md)
+            - **create**
+              - [Create Hosted Agent (azd ai)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-create-create-hosted.md)
+              - [Create Prompt Agent](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-create-create-prompt.md)
+              - [Quick Start: Hosted Foundry Agent](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-create-quick-start-hosted.md)
+              - **references**
+                - [Enable Incoming A2A on a Foundry Agent](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-create-references-enable-incoming-a2a.md)
+                - [Foundry Model Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-create-references-foundry-model.md)
+                - [Foundry Tool Catalog — Project Connections for Remote Tools](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-create-references-foundry-tool-catalog.md)
+                - [LangChain and LangGraph Hosting](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-create-references-langchain-langgraph-hosting.md)
+                - [Local Run Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-create-references-local-run.md)
+                - [Re-host an Existing Agent from other platforms](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-create-references-re-host.md)
+                - [SDK Operations for Foundry Agent Service](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-create-references-sdk-operations.md)
+                - [Use a Toolbox from Your Agent Code](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-create-references-use-toolbox-in-hosted-agent.md)
+                - **guardrails**
+                  - [Create a Guardrail via the REST API (az rest)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-create-references-guardrails-guardrail-api-create.md)
+                  - [Attach a Guardrail](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-create-references-guardrails-guardrail-attach.md)
+                  - [Guardrails (RAI Content-Filter Policies)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-create-references-guardrails-guardrail-manage.md)
+                - **skills**
+                  - [Use Skills in a Hosted Agent](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-create-references-skills-skill-attach.md)
+                  - [Skills (azd ai)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-create-references-skills-skill-manage.md)
+                  - [Skills in Toolbox](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-create-references-skills-skill-toolbox-attach.md)
+                - **tools**
+                  - **prompt-agent**
+                    - [Agent Tools](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-create-references-tools-prompt-agent-agent-tools.md)
+                    - [Tool — Agent-to-Agent (A2A, preview)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-create-references-tools-prompt-agent-tool-a2a.md)
+                    - [Azure AI Search Tool](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-create-references-tools-prompt-agent-tool-azure-ai-search.md)
+                    - [Bing Grounding Tool](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-create-references-tools-prompt-agent-tool-bing-grounding.md)
+                    - [Tool — Code Interpreter](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-create-references-tools-prompt-agent-tool-code-interpreter.md)
+                    - [Tool — Fabric IQ (preview)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-create-references-tools-prompt-agent-tool-fabric-iq.md)
+                    - [File Search Tool](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-create-references-tools-prompt-agent-tool-file-search.md)
+                    - [Tool — Function Calling (client-side)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-create-references-tools-prompt-agent-tool-function-calling.md)
+                    - [MCP Tool (Model Context Protocol)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-create-references-tools-prompt-agent-tool-mcp.md)
+                    - [Agent Memory](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-create-references-tools-prompt-agent-tool-memory.md)
+                    - [Tool — OpenAPI](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-create-references-tools-prompt-agent-tool-openapi.md)
+                    - [Web Search Tool (Preview)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-create-references-tools-prompt-agent-tool-web-search.md)
+                    - [Tool — Work IQ (preview)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-create-references-tools-prompt-agent-tool-work-iq.md)
+            - **deploy**
+              - [Deploy a Foundry Agent](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-deploy-deploy.md)
+              - **references**
+                - [Container Deploy Precheck](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-deploy-references-container-deploy.md)
+            - **eval-datasets**
+              - [Evaluation Datasets — Trace-to-Dataset Pipeline & Lifecycle Management](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-eval-datasets-eval-datasets.md)
+              - **references**
+                - [Dataset Comparison — A/B Testing Across Dataset Versions](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-eval-datasets-references-dataset-comparison.md)
+                - [Dataset Curation — Human-in-the-Loop Review](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-eval-datasets-references-dataset-curation.md)
+                - [Dataset Organization — Metadata, Splits, and Filtered Evaluation](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-eval-datasets-references-dataset-organization.md)
+                - [Dataset Versioning — Version Management & Tagging](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-eval-datasets-references-dataset-versioning.md)
+                - [Eval Lineage — Full Traceability from Production to Deployment](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-eval-datasets-references-eval-lineage.md)
+                - [Eval Regression — Automated Regression Detection](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-eval-datasets-references-eval-regression.md)
+                - [Eval Trending — Metrics Over Time](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-eval-datasets-references-eval-trending.md)
+                - [Generate Seed Evaluation Dataset](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-eval-datasets-references-generate-seed-dataset.md)
+                - [Trace-to-Dataset Pipeline — Harvest Production Traces as Test Cases](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-eval-datasets-references-trace-to-dataset.md)
+            - **invocations-ws**
+              - [Invocations WebSocket (invocationsws) Protocol](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-invocations-ws-invocations-ws.md)
+              - **references**
+                - [Invocations WebSocket Protocol Guide](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-invocations-ws-references-invocations-ws-protocol.md)
+            - **invoke**
+              - [Invoke Foundry Agent](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-invoke-invoke.md)
+              - **references**
+                - [Hosted Session File Operations with azd](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-invoke-references-file-operations.md)
+                - [Invocations Protocol Guide](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-invoke-references-invocations-protocol.md)
+                - [Hosted Session Management with azd](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-invoke-references-session-management.md)
+            - **observe**
+              - [Agent Observability Loop](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-observe-observe.md)
+              - **references**
+                - [Steps 3–5 — Download Results, Cluster Failures, Dive Into Category](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-observe-references-analyze-results.md)
+                - [Step 6 — CI/CD Evals & Continuous Production Monitoring](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-observe-references-cicd-monitoring.md)
+                - [Steps 8–10 — Re-Evaluate, Compare Versions, Iterate](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-observe-references-compare-iterate.md)
+                - [Continuous Evaluation](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-observe-references-continuous-eval.md)
+                - [Step 1 - Auto-Setup Evaluation Suite](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-observe-references-deploy-and-setup.md)
+                - [Step 2 - Run Evaluation](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-observe-references-evaluate-step.md)
+                - [Evaluation Suite Generation](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-observe-references-evaluation-suite-generation.md)
+                - [Steps 6–7 — Optimize Prompt & Deploy New Version](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-observe-references-optimize-deploy.md)
+            - **routine**
+              - [Manage Foundry Routines (azd ai routine)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-routine-routine.md)
+              - **references**
+                - [Declarative Routines](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-routine-references-azure-yaml.md)
+                - [CLI CRUD and Operations](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-routine-references-cli-crud.md)
+            - **toolbox**
+              - [Foundry Toolbox — Concept, API Shape & Schema](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-toolbox-toolbox.md)
+              - **references**
+                - [Toolbox MCP protocol, tool naming & testing](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-toolbox-references-mcp-protocol.md)
+                - [Testing the toolbox](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-toolbox-references-test-endpoint.md)
+                - [Tool — Agent-to-Agent (A2A) connection](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-toolbox-references-tool-a2a.md)
+                - [Tool — Azure AI Search (type: azureaisearch)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-toolbox-references-tool-azure-ai-search.md)
+                - [Tool — Browser Automation (type: browserautomationpreview) — preview](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-toolbox-references-tool-browser-automation.md)
+                - [Tool — Code Interpreter (type: codeinterpreter)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-toolbox-references-tool-code-interpreter.md)
+                - [Tool — Fabric IQ (type: fabriciqpreview) — preview](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-toolbox-references-tool-fabric-iq.md)
+                - [Tool — File Search (type: filesearch)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-toolbox-references-tool-file-search.md)
+                - [Tool — Remote MCP server, agent identity / project MI (type: mcp)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-toolbox-references-tool-mcp-agent-identity.md)
+                - [BYO OAuth2 — Azure-hosted MCP starter (build your own MCP on Functions)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-toolbox-references-tool-mcp-custom-oauth-azure-starter.md)
+                - [Tool — Remote MCP server, custom OAuth2 app (BYO) (type: mcp)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-toolbox-references-tool-mcp-custom-oauth.md)
+                - [Tool — Remote MCP server, static key (type: mcp)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-toolbox-references-tool-mcp-key-auth.md)
+                - [Tool — Remote MCP server, OAuth (Foundry-managed connector) (type: mcp)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-toolbox-references-tool-mcp-managed-oauth.md)
+                - [Tool — Remote MCP server, no auth (type: mcp)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-toolbox-references-tool-mcp-noauth.md)
+                - [Tool — Remote MCP server, user Entra token (type: mcp, auth UserEntraToken)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-toolbox-references-tool-mcp-user-entra-token.md)
+                - [Tool — OpenAPI (type: openapi)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-toolbox-references-tool-openapi.md)
+                - [Tool — Tool Search (preview) (type: toolboxsearchpreview)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-toolbox-references-tool-tool-search.md)
+                - [Tool — Web Search (type: websearch)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-toolbox-references-tool-web-search.md)
+                - [Tool — Work IQ (type: mcp, preview) — Microsoft 365 work context](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-toolbox-references-tool-work-iq.md)
+                - [Manage Tools & Toolboxes with azd ai](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-toolbox-references-toolbox-azd.md)
+            - **trace**
+              - [Foundry Agent Trace Analysis](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-trace-trace.md)
+              - **references**
+                - [Analyze Failures — Find and Cluster Failing Traces](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-trace-references-analyze-failures.md)
+                - [Analyze Latency — Find and Diagnose Slow Traces](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-trace-references-analyze-latency.md)
+                - [Conversation Detail — Reconstruct Full Span Tree](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-trace-references-conversation-detail.md)
+                - [Eval Correlation — Find Evaluation Results by Response or Conversation ID](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-trace-references-eval-correlation.md)
+                - [KQL Templates — GenAI Trace Query Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-trace-references-kql-templates.md)
+                - [Search Traces — Conversation-Level Search](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-trace-references-search-traces.md)
+                - [Tracing Insights API](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-trace-references-tracing-insights-api.md)
+            - **troubleshoot**
+              - [Foundry Agent Troubleshoot](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-troubleshoot-troubleshoot.md)
+            - **validate**
+              - [Validate a Foundry Hosted Agent](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-validate-validate.md)
+              - **references**
+                - [Microsoft Foundry Agent Validation](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-foundry-agent-validate-references-report-template.md)
+          - **models**
+            - **deploy-model**
+              - [Deploy Model](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-models-deploy-model-SKILL.md)
+              - [Deploy Model — Test Prompts](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-models-deploy-model-TEST_PROMPTS.md)
+              - **capacity**
+                - [Capacity Discovery](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-models-deploy-model-capacity-SKILL.md)
+              - **customize**
+                - [customize Examples](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-models-deploy-model-customize-EXAMPLES.md)
+                - [Customize Model Deployment](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-models-deploy-model-customize-SKILL.md)
+                - **references**
+                  - [Customize Guides — Selection Guides & Advanced Topics](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-models-deploy-model-customize-references-customize-guides.md)
+                  - [Customize Workflow — Detailed Phase Instructions](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-models-deploy-model-customize-references-customize-workflow.md)
+              - **preset**
+                - [Examples: preset](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-models-deploy-model-preset-EXAMPLES.md)
+                - [Deploy Model to Optimal Region](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-models-deploy-model-preset-SKILL.md)
+                - **references**
+                  - [Preset Deployment Workflow - Detailed Implementation](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-models-deploy-model-preset-references-preset-workflow.md)
+                  - [Preset Deployment Workflow — Step-by-Step](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-models-deploy-model-preset-references-workflow.md)
+          - **project**
+            - [Foundry Project Connections](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-project-connections.md)
+            - **create**
+              - [Create Microsoft Foundry Project](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-project-create-create-foundry-project.md)
+          - **quota**
+            - [Microsoft Foundry Quota Management](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-quota-quota.md)
+            - **references**
+              - [Capacity Planning Guide](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-quota-references-capacity-planning.md)
+              - [Error Resolution Workflows](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-quota-references-error-resolution.md)
+              - [Quota Optimization Strategies](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-quota-references-optimization.md)
+              - [Provisioned Throughput Units (PTU) Guide](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-quota-references-ptu-guide.md)
+              - [Troubleshooting Quota Errors](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-quota-references-troubleshooting.md)
+              - [Detailed Workflows: Quota Management](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-quota-references-workflows.md)
+          - **rbac**
+            - [Microsoft Foundry RBAC Management](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-rbac-rbac.md)
+          - **references**
+            - [Agent Metadata Contract](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-references-agent-metadata-contract.md)
+            - [Azure Authentication Best Practices](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-references-auth-best-practices.md)
+            - [Standard Agent Setup](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-references-standard-agent-setup.md)
+          - **resource**
+            - **create**
+              - [Create Foundry Resource](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-resource-create-create-foundry-resource.md)
+              - **references**
+                - [Common Patterns: Create Foundry Resource](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-resource-create-references-patterns.md)
+                - [Troubleshooting: Create Foundry Resource](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-resource-create-references-troubleshooting.md)
+                - [Detailed Workflows: Create Foundry Resource](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-resource-create-references-workflows.md)
+            - **private-network**
+              - [Microsoft Foundry Private Networking](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-resource-private-network-private-network.md)
+              - **references**
+                - [Custom Template Adaptation](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-resource-private-network-references-custom-template-adaptation.md)
+                - [Deploy & Track](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-resource-private-network-references-deploy.md)
+                - [End-to-End Test (VNet Access Required)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-resource-private-network-references-end-to-end-test.md)
+                - [Intake](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-resource-private-network-references-intake.md)
+                - [Post-Deployment Validation](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-resource-private-network-references-post-deployment-validation.md)
+                - [Scaffold & Parameterize](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-resource-private-network-references-scaffold.md)
+                - [Template Index — Foundry Private Network](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-resource-private-network-references-template-.md)
+                - [VPN Gateway & DNS Private Resolver Setup](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-microsoft-foundry-resource-private-network-references-vpn-dns-setup.md)
+        - **python-appservice-deploy**
+          - [Python on Azure App Service — Code Deploy](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-python-appservice-deploy-SKILL.md)
+          - **references**
+            - [Create RG + App Service Plan + Web App (Linux, P0v3)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-python-appservice-deploy-references-create-app.md)
+            - [Deploy via az CLI](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-python-appservice-deploy-references-deploy-azcli.md)
+            - [Deploy via azd](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-python-appservice-deploy-references-deploy-azd.md)
+            - [Framework Detection (Advisory)](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-python-appservice-deploy-references-detect.md)
+            - [Troubleshooting](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-python-appservice-deploy-references-errors.md)
+            - [Post-deploy message to the user](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-python-appservice-deploy-references-post-deploy-message.md)
+            - [Startup Commands by Framework](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-python-appservice-deploy-references-startup-commands.md)
+            - [Transient ARM error handling for az ... create](/lib/10-context-memory/microsoft-skills/_github-plugins-azure-skills-skills-python-appservice-deploy-references-transient-retry.md)
+    - [🌊 Deep Wiki](/lib/10-context-memory/microsoft-skills/_github-plugins-deep-wiki.md)
+      - **agents**
+        - [Wiki Architect Agent](/lib/10-context-memory/microsoft-skills/_github-plugins-deep-wiki-agents-wiki-architect.md)
+        - [Wiki Researcher Agent](/lib/10-context-memory/microsoft-skills/_github-plugins-deep-wiki-agents-wiki-researcher.md)
+        - [Wiki Writer Agent](/lib/10-context-memory/microsoft-skills/_github-plugins-deep-wiki-agents-wiki-writer.md)
+      - **commands**
+        - [Deep Wiki: Azure DevOps Wiki Export](/lib/10-context-memory/microsoft-skills/_github-plugins-deep-wiki-commands-ado.md)
+        - [Deep Wiki: Generate AGENTS.md Files](/lib/10-context-memory/microsoft-skills/_github-plugins-deep-wiki-commands-agents.md)
+        - [Deep Wiki: Repository Q&A](/lib/10-context-memory/microsoft-skills/_github-plugins-deep-wiki-commands-ask.md)
+        - [Deep Wiki: Build VitePress Site](/lib/10-context-memory/microsoft-skills/_github-plugins-deep-wiki-commands-build.md)
+        - [Deep Wiki: Catalogue Generation](/lib/10-context-memory/microsoft-skills/_github-plugins-deep-wiki-commands-catalogue.md)
+        - [Deep Wiki: Crisp (Fast Wiki Generation)](/lib/10-context-memory/microsoft-skills/_github-plugins-deep-wiki-commands-crisp.md)
+        - [Deep Wiki: Deploy to GitHub Pages](/lib/10-context-memory/microsoft-skills/_github-plugins-deep-wiki-commands-deploy.md)
+        - [Deep Wiki: Full Generation](/lib/10-context-memory/microsoft-skills/_github-plugins-deep-wiki-commands-generate.md)
+        - [Deep Wiki: Generate llms.txt](/lib/10-context-memory/microsoft-skills/_github-plugins-deep-wiki-commands-llms.md)
+        - [Deep Wiki: Onboarding Guide Generation](/lib/10-context-memory/microsoft-skills/_github-plugins-deep-wiki-commands-onboard.md)
+        - [Deep Wiki: Single Page Generation](/lib/10-context-memory/microsoft-skills/_github-plugins-deep-wiki-commands-page.md)
+        - [Deep Wiki: Deep Research](/lib/10-context-memory/microsoft-skills/_github-plugins-deep-wiki-commands-research.md)
+      - **skills**
+        - **wiki-ado-convert**
+          - [ADO Wiki Converter](/lib/10-context-memory/microsoft-skills/_github-plugins-deep-wiki-skills-wiki-ado-convert-SKILL.md)
+        - **wiki-agents-md**
+          - [AGENTS.md Generator](/lib/10-context-memory/microsoft-skills/_github-plugins-deep-wiki-skills-wiki-agents-md-SKILL.md)
+        - **wiki-architect**
+          - [Wiki Architect](/lib/10-context-memory/microsoft-skills/_github-plugins-deep-wiki-skills-wiki-architect-SKILL.md)
+        - **wiki-changelog**
+          - [Wiki Changelog](/lib/10-context-memory/microsoft-skills/_github-plugins-deep-wiki-skills-wiki-changelog-SKILL.md)
+        - **wiki-llms-txt**
+          - [llms.txt Generator](/lib/10-context-memory/microsoft-skills/_github-plugins-deep-wiki-skills-wiki-llms-txt-SKILL.md)
+        - **wiki-onboarding**
+          - [Wiki Onboarding Guide Generator](/lib/10-context-memory/microsoft-skills/_github-plugins-deep-wiki-skills-wiki-onboarding-SKILL.md)
+        - **wiki-page-writer**
+          - [Wiki Page Writer](/lib/10-context-memory/microsoft-skills/_github-plugins-deep-wiki-skills-wiki-page-writer-SKILL.md)
+        - **wiki-qa**
+          - [Wiki Q&A](/lib/10-context-memory/microsoft-skills/_github-plugins-deep-wiki-skills-wiki-qa-SKILL.md)
+        - **wiki-researcher**
+          - [Wiki Researcher](/lib/10-context-memory/microsoft-skills/_github-plugins-deep-wiki-skills-wiki-researcher-SKILL.md)
+        - **wiki-vitepress**
+          - [Wiki VitePress Packager](/lib/10-context-memory/microsoft-skills/_github-plugins-deep-wiki-skills-wiki-vitepress-SKILL.md)
+    - [M365 Agents Toolkit](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit.md)
+      - **skills**
+        - **declarative-agent-developer**
+          - [M365 Agent Developer](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-declarative-agent-developer-SKILL.md)
+          - **references**
+            - [API Plugin Architecture for M365 JSON Agents](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-declarative-agent-developer-references-api-plugins.md)
+            - [OAuth Authentication for M365 Agent Plugins](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-declarative-agent-developer-references-authentication.md)
+            - [M365 Agent Developer Best Practices](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-declarative-agent-developer-references-best-practices.md)
+            - [Conversation and Instruction Design for M365 Agents](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-declarative-agent-developer-references-conversation-design.md)
+            - [ATK CLI and Deployment for M365 Agents](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-declarative-agent-developer-references-deployment.md)
+            - [JSON Development Workflow](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-declarative-agent-developer-references-editing-workflow.md)
+            - [M365 JSON Agent Developer Examples](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-declarative-agent-developer-references-examples.md)
+            - [Instruction Review & Quality Audit](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-declarative-agent-developer-references-instruction-review.md)
+            - [Localization Workflow](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-declarative-agent-developer-references-localization.md)
+            - [MCP Server Plugin Integration](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-declarative-agent-developer-references-mcp-plugin.md)
+            - [Scaffolding Workflow](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-declarative-agent-developer-references-scaffolding-workflow.md)
+            - [JSON Schema Reference for M365 Copilot Agents](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-declarative-agent-developer-references-schema.md)
+            - [Workspace Detection & Gate Rules](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-declarative-agent-developer-references-workspace-gates.md)
+        - **install-atk**
+          - [Install ATK](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-install-atk-SKILL.md)
+        - **m365-agent-evaluator**
+          - [M365 Agent Evaluator](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-m365-agent-evaluator-SKILL.md)
+          - **示例**
+            - [Example: analyze existing failures](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-m365-agent-evaluator-examples-analyze-failures.md)
+            - [Example: create a starter eval dataset](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-m365-agent-evaluator-examples-basic-generation.md)
+            - [Example: iterate after agent changes](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-m365-agent-evaluator-examples-iterate-on-changes.md)
+            - [Example: missing or weak instructions](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-m365-agent-evaluator-examples-missing-instructions.md)
+            - [Example: evaluate a non-ATK project](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-m365-agent-evaluator-examples-not-atk-project.md)
+            - [Example: run evals and analyze results](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-m365-agent-evaluator-examples-run-and-analyze.md)
+          - **references**
+            - [Environment and Azure setup](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-m365-agent-evaluator-references-azure-setup.md)
+            - [Evaluation dataset templates](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-m365-agent-evaluator-references-eval-templates.md)
+            - [Guardrails and troubleshooting](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-m365-agent-evaluator-references-guardrails.md)
+            - [Output schema reference](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-m365-agent-evaluator-references-output-schema.md)
+            - [PRA scenario framework](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-m365-agent-evaluator-references-pra-framework.md)
+            - [Remediation patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-m365-agent-evaluator-references-remediation-patterns.md)
+            - [Result analysis](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-m365-agent-evaluator-references-result-analysis.md)
+            - [M365 Copilot eval workflow](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-m365-agent-evaluator-references-workflow.md)
+        - **teams-app-developer**
+          - [Microsoft 365 Agents Toolkit Skill](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-SKILL.md)
+          - **create-project**
+            - [Create Project](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-create-project-create-project.md)
+          - [Slack vs Teams: Platform Differences & Bridging Strategies](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-docs.md)
+            - [Advanced Features](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-docs-advanced-features.md)
+            - [Feature Gap Analysis: Slack ↔ Teams](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-docs-feature-gaps.md)
+            - [Files & Links](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-docs-files-and-links.md)
+            - [Identity & Auth](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-docs-identity-and-auth.md)
+            - [Infrastructure](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-docs-infrastructure.md)
+            - [Interactive Responses](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-docs-interactive-responses.md)
+            - [Messaging & Commands](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-docs-messaging-and-commands.md)
+            - [Middleware & Handler Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-docs-middleware-and-handlers.md)
+            - [UI Components](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-docs-ui-components.md)
+            - [Workflow Scenarios](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-docs-workflows.md)
+          - [Bot Platform Expert System](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-2.md)
+            - [{topic}-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-_expert-ts.md)
+            - [analyzer](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-analyzer.md)
+            - [builder](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-builder.md)
+            - [fallback](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-fallback.md)
+            - [prompt-engineer](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-prompt-engineer.md)
+            - [researcher](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-researcher.md)
+            - [update-experts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-update-experts.md)
+            - [bridge-router](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-bridge.md)
+              - [app-distribution-packaging-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-bridge-app-distribution-packaging-ts.md)
+              - [channel-ops-graph-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-bridge-channel-ops-graph-ts.md)
+              - [commands-slash-text-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-bridge-commands-slash-text-ts.md)
+              - [cross-platform-advisor-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-bridge-cross-platform-advisor-ts.md)
+              - [cross-platform-architecture-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-bridge-cross-platform-architecture-ts.md)
+              - [events-activities-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-bridge-events-activities-ts.md)
+              - [files-upload-download-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-bridge-files-upload-download-ts.md)
+              - [identity-oauth-bridge-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-bridge-identity-oauth-bridge-ts.md)
+              - [infra-compute-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-bridge-infra-compute-ts.md)
+              - [infra-observability-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-bridge-infra-observability-ts.md)
+              - [infra-secrets-config-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-bridge-infra-secrets-config-ts.md)
+              - [infra-storage-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-bridge-infra-storage-ts.md)
+              - [interactive-responses-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-bridge-interactive-responses-ts.md)
+              - [link-unfurl-preview-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-bridge-link-unfurl-preview-ts.md)
+              - [middleware-handlers-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-bridge-middleware-handlers-ts.md)
+              - [python-cross-platform](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-bridge-python-cross-platform.md)
+              - [rate-limiting-resilience-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-bridge-rate-limiting-resilience-ts.md)
+              - [rest-only-integration-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-bridge-rest-only-integration-ts.md)
+              - [scheduling-deferred-send-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-bridge-scheduling-deferred-send-ts.md)
+              - [shortcuts-extensions-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-bridge-shortcuts-extensions-ts.md)
+              - [transport-socketmode-https-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-bridge-transport-socketmode-https-ts.md)
+              - [ui-app-home-personal-tab-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-bridge-ui-app-home-personal-tab-ts.md)
+              - [ui-block-kit-adaptive-cards-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-bridge-ui-block-kit-adaptive-cards-ts.md)
+              - [ui-legacy-attachments-cards-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-bridge-ui-legacy-attachments-cards-ts.md)
+              - [ui-modals-dialogs-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-bridge-ui-modals-dialogs-ts.md)
+              - [workflow.composable-platform-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-bridge-workflow.composable-platform-ts.md)
+              - [workflows-automation-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-bridge-workflows-automation-ts.md)
+            - [convert-router](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-convert.md)
+              - [bulk-conversion-strategy-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-convert-bulk-conversion-strategy-ts.md)
+              - [dependency-mapping-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-convert-dependency-mapping-ts.md)
+              - [java-to-ts-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-convert-java-to-ts-ts.md)
+              - [js-to-ts-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-convert-js-to-ts-ts.md)
+              - [json-serialization-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-convert-json-serialization-ts.md)
+              - [kotlin-to-ts-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-convert-kotlin-to-ts-ts.md)
+              - [ruby-to-ts-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-convert-ruby-to-ts-ts.md)
+              - [type-mapping-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-convert-type-mapping-ts.md)
+            - [deploy-router](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-deploy.md)
+              - [aws-bot-deploy-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-deploy-aws-bot-deploy-ts.md)
+              - [aws-cli-reference-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-deploy-aws-cli-reference-ts.md)
+              - [azure-bot-deploy-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-deploy-azure-bot-deploy-ts.md)
+              - [azure-cli-reference-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-deploy-azure-cli-reference-ts.md)
+            - [models-router](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-models.md)
+              - [anthropic-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-models-anthropic-ts.md)
+              - [bedrock-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-models-bedrock-ts.md)
+              - [foundry-cloud-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-models-foundry-cloud-ts.md)
+              - [foundry-local-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-models-foundry-local-ts.md)
+              - [openai-azure-openai-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-models-openai-azure-openai-ts.md)
+              - [oss-openai-compatible-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-models-oss-openai-compatible-ts.md)
+              - [transformers-js-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-models-transformers-js-ts.md)
+            - [security-router](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-security.md)
+              - [input-validation-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-security-input-validation-ts.md)
+              - [secrets-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-security-secrets-ts.md)
+            - [slack-router](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-slack.md)
+              - [bolt-assistant-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-slack-bolt-assistant-ts.md)
+              - [bolt-events-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-slack-bolt-events-ts.md)
+              - [bolt-java](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-slack-bolt-java.md)
+              - [bolt-oauth-distribution-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-slack-bolt-oauth-distribution-ts.md)
+              - [bolt-python](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-slack-bolt-python.md)
+              - [cli.app-management](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-slack-cli.app-management.md)
+              - [cli.datastore-env](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-slack-cli.datastore-env.md)
+              - [cli.getting-started](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-slack-cli.getting-started.md)
+              - [cli.local-dev-deploy](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-slack-cli.local-dev-deploy.md)
+              - [cli.manifest-triggers](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-slack-cli.manifest-triggers.md)
+              - [runtime.ack-rules-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-slack-runtime.ack-rules-ts.md)
+              - [runtime.bolt-foundations-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-slack-runtime.bolt-foundations-ts.md)
+              - [runtime.shortcuts-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-slack-runtime.shortcuts-ts.md)
+              - [runtime.slash-commands-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-slack-runtime.slash-commands-ts.md)
+              - [runtime.socket-mode-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-slack-runtime.socket-mode-ts.md)
+              - [ui.block-kit-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-slack-ui.block-kit-ts.md)
+              - [ui.modals-lifecycle-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-slack-ui.modals-lifecycle-ts.md)
+              - [web-api-proactive-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-slack-web-api-proactive-ts.md)
+              - [workflow.slack-automations-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-slack-workflow.slack-automations-ts.md)
+            - [teams-router](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams.md)
+              - [a2a.client-basics-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams-a2a.client-basics-ts.md)
+              - [a2a.orchestrator-patterns-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams-a2a.orchestrator-patterns-ts.md)
+              - [a2a.server-basics-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams-a2a.server-basics-ts.md)
+              - [ai.chatprompt-basics-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams-ai.chatprompt-basics-ts.md)
+              - [ai.citations-feedback-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams-ai.citations-feedback-ts.md)
+              - [ai.conversational-query-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams-ai.conversational-query-ts.md)
+              - [ai.function-calling-design-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams-ai.function-calling-design-ts.md)
+              - [ai.function-calling-implementation-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams-ai.function-calling-implementation-ts.md)
+              - [ai.memory-localmemory-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams-ai.memory-localmemory-ts.md)
+              - [ai.model-setup-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams-ai.model-setup-ts.md)
+              - [ai.rag-retrieval-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams-ai.rag-retrieval-ts.md)
+              - [ai.rag-vectorstores-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams-ai.rag-vectorstores-ts.md)
+              - [ai.streaming-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams-ai.streaming-ts.md)
+              - [auth.oauth-sso-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams-auth.oauth-sso-ts.md)
+              - [compat.botbuilder-interop-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams-compat.botbuilder-interop-ts.md)
+              - [dev.debug-test-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams-dev.debug-test-ts.md)
+              - [graph.usergraph-appgraph-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams-graph.usergraph-appgraph-ts.md)
+              - [mcp.client-basics-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams-mcp.client-basics-ts.md)
+              - [mcp.expose-chatprompt-tools-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams-mcp.expose-chatprompt-tools-ts.md)
+              - [mcp.security-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams-mcp.security-ts.md)
+              - [mcp.server-basics-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams-mcp.server-basics-ts.md)
+              - [project.scaffold-files-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams-project.scaffold-files-ts.md)
+              - [runtime.app-init-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams-runtime.app-init-ts.md)
+              - [runtime.manifest-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams-runtime.manifest-ts.md)
+              - [runtime.proactive-messaging-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams-runtime.proactive-messaging-ts.md)
+              - [runtime.routing-handlers-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams-runtime.routing-handlers-ts.md)
+              - [state.storage-patterns-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams-state.storage-patterns-ts.md)
+              - [teams-dotnet](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams-teams-dotnet.md)
+              - [teams-python](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams-teams-python.md)
+              - [ui.adaptive-cards-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams-ui.adaptive-cards-ts.md)
+              - [ui.dialogs-task-modules-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams-ui.dialogs-task-modules-ts.md)
+              - [ui.message-extensions-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams-ui.message-extensions-ts.md)
+              - [workflow.approvals-inline-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams-workflow.approvals-inline-ts.md)
+              - [workflow.message-native-records-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams-workflow.message-native-records-ts.md)
+              - [workflow.sharepoint-lists-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams-workflow.sharepoint-lists-ts.md)
+              - [workflow.state-driven-events-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams-workflow.state-driven-events-ts.md)
+              - [workflow.triggers-compose-ts](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-experts-teams-workflow.triggers-compose-ts.md)
+          - **provision-deploy**
+            - [Provision and Deploy](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-provision-deploy-provision-deploy.md)
+          - **slack-to-teams**
+            - [Slack to Teams Expert System](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-slack-to-teams-SKILL.md)
+          - **test-playground**
+            - [Automated Testing with playground-cli](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-test-playground-playground-cli.md)
+            - [Manual Testing with Agents Playground](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-test-playground-playground.md)
+            - [Test with Agents Playground](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-test-playground-test-playground.md)
+          - **test-teams**
+            - [Test on Teams](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-test-teams-test-teams.md)
+          - [M365 Agents Toolkit — Toolchain Knowledge](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-toolkit.md)
+            - [ATK CLI Commands Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-toolkit-commands.md)
+            - [Environments and .localConfigs](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-toolkit-environments.md)
+            - [Lifecycle and atk CLI](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-toolkit-lifecycle-cli.md)
+            - [Manifest and YAML Action Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-toolkit-manifest-and-yaml.md)
+            - [Agents Playground](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-toolkit-playground.md)
+            - [Publishing](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-toolkit-publish.md)
+            - [Agent Templates Reference](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-toolkit-templates.md)
+          - **troubleshoot**
+            - [Troubleshooting](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-teams-app-developer-troubleshoot-troubleshoot.md)
+        - **ui-widget-developer**
+          - [Copilot MCP Server Development](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-ui-widget-developer-SKILL.md)
+          - **references**
+            - [Best Practices](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-ui-widget-developer-references-best-practices.md)
+            - [Copilot Widget Protocol](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-ui-widget-developer-references-copilot-widget-protocol.md)
+            - [DevTunnels Setup for MCP Servers](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-ui-widget-developer-references-devtunnels.md)
+            - [MCP Server Pattern (TypeScript)](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-ui-widget-developer-references-mcp-server-pattern.md)
+            - [MCP Plugin Schema](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-ui-widget-developer-references-plugin-schema.md)
+            - [Widget Patterns](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-365-agents-toolkit-skills-ui-widget-developer-references-widget-patterns.md)
+    - [Microsoft Foundry](/lib/10-context-memory/microsoft-skills/_github-plugins-microsoft-foundry.md)
+  - **prompts**
+    - [Scaffold Foundry App](/lib/10-context-memory/microsoft-skills/_github-prompts-scaffold-foundry-app.prompt.md)
+  - **skills**
+    - **applicationinsights-web-ts**
+      - [Application Insights JavaScript SDK (Web) for TypeScript](/lib/10-context-memory/microsoft-skills/_github-skills-applicationinsights-web-ts-SKILL.md)
+      - **references**
+        - [GenAI Agent Traces — OpenTelemetry Semantic Conventions (distilled)](/lib/10-context-memory/microsoft-skills/_github-skills-applicationinsights-web-ts-references-agent-traces.md)
+        - [Configuration Reference](/lib/10-context-memory/microsoft-skills/_github-skills-applicationinsights-web-ts-references-configuration.md)
+        - [Framework Extensions](/lib/10-context-memory/microsoft-skills/_github-skills-applicationinsights-web-ts-references-framework-extensions.md)
+    - **cloud-solution-architect**
+      - **references**
+        - [Azure Architecture Styles Reference](/lib/10-context-memory/microsoft-skills/_github-skills-cloud-solution-architect-references-architecture-styles.md)
+        - [Cloud Application Best Practices](/lib/10-context-memory/microsoft-skills/_github-skills-cloud-solution-architect-references-best-practices.md)
+        - [Cloud Design Patterns](/lib/10-context-memory/microsoft-skills/_github-skills-cloud-solution-architect-references-design-patterns.md)
+        - [Azure Design Principles](/lib/10-context-memory/microsoft-skills/_github-skills-cloud-solution-architect-references-design-principles.md)
+        - [Mission-Critical Architecture on Azure](/lib/10-context-memory/microsoft-skills/_github-skills-cloud-solution-architect-references-mission-critical.md)
+        - [Performance Antipatterns](/lib/10-context-memory/microsoft-skills/_github-skills-cloud-solution-architect-references-performance-antipatterns.md)
+        - [Azure Technology Choice Decision Frameworks](/lib/10-context-memory/microsoft-skills/_github-skills-cloud-solution-architect-references-technology-choices.md)
+    - **continual-learning**
+      - [Continual Learning for AI Coding Agents](/lib/10-context-memory/microsoft-skills/_github-skills-continual-learning-SKILL.md)
+    - **debugview**
+      - **references**
+        - [Driver IOCTLs and Buffer Formats](/lib/10-context-memory/microsoft-skills/_github-skills-debugview-references-driver-ioctls.md)
+        - [Output Formats](/lib/10-context-memory/microsoft-skills/_github-skills-debugview-references-output-formats.md)
+        - [Remote Monitoring Protocol](/lib/10-context-memory/microsoft-skills/_github-skills-debugview-references-remote-protocol.md)
+    - **entra-agent-id**
+      - **references**
+        - [Known Limitations (Preview)](/lib/10-context-memory/microsoft-skills/_github-skills-entra-agent-id-references-known-limitations.md)
+        - [OAuth2 Token Flow](/lib/10-context-memory/microsoft-skills/_github-skills-entra-agent-id-references-oauth2-token-flow.md)
+        - [Microsoft Entra SDK for AgentID: Polyglot Agent Authentication](/lib/10-context-memory/microsoft-skills/_github-skills-entra-agent-id-references-sdk-sidecar.md)
+    - **frontend-design-review**
+      - **references**
+        - [Pattern Examples](/lib/10-context-memory/microsoft-skills/_github-skills-frontend-design-review-references-pattern-examples.md)
+        - [Quick Checklist](/lib/10-context-memory/microsoft-skills/_github-skills-frontend-design-review-references-quick-checklist.md)
+        - [Review Output Format](/lib/10-context-memory/microsoft-skills/_github-skills-frontend-design-review-references-review-output-format.md)
+        - [Review Type Modifiers](/lib/10-context-memory/microsoft-skills/_github-skills-frontend-design-review-references-review-type-modifiers.md)
+    - **kql**
+      - [KQL Mastery](/lib/10-context-memory/microsoft-skills/_github-skills-kql-SKILL.md)
+      - **references**
+        - [Advanced KQL Patterns](/lib/10-context-memory/microsoft-skills/_github-skills-kql-references-advanced-patterns.md)
+        - [KQL Schema Discovery Queries](/lib/10-context-memory/microsoft-skills/_github-skills-kql-references-discovery-queries.md)
+        - [Error Recovery Reference](/lib/10-context-memory/microsoft-skills/_github-skills-kql-references-error-recovery.md)
+        - [KQL Query Templates](/lib/10-context-memory/microsoft-skills/_github-skills-kql-references-query-templates.md)
+    - **mcp-builder**
+      - **reference**
+        - [MCP Server Evaluation Guide](/lib/10-context-memory/microsoft-skills/_github-skills-mcp-builder-reference-evaluation.md)
+        - [MCP Server Best Practices](/lib/10-context-memory/microsoft-skills/_github-skills-mcp-builder-reference-mcp_best_practices.md)
+        - [Microsoft MCP Patterns](/lib/10-context-memory/microsoft-skills/_github-skills-mcp-builder-reference-microsoft_mcp_patterns.md)
+        - [Node/TypeScript MCP Server Implementation Guide](/lib/10-context-memory/microsoft-skills/_github-skills-mcp-builder-reference-node_mcp_server.md)
+        - [Python MCP Server Implementation Guide](/lib/10-context-memory/microsoft-skills/_github-skills-mcp-builder-reference-python_mcp_server.md)
+    - **microsoft-docs**
+      - [Microsoft Docs](/lib/10-context-memory/microsoft-skills/_github-skills-microsoft-docs-SKILL.md)
+    - **podcast-generation**
+      - **references**
+        - [Architecture Reference](/lib/10-context-memory/microsoft-skills/_github-skills-podcast-generation-references-architecture.md)
+        - [Code Examples](/lib/10-context-memory/microsoft-skills/_github-skills-podcast-generation-references-code-examples.md)
+    - **skill-creator**
+      - [Microsoft Agent Skills](/lib/10-context-memory/microsoft-skills/_github-skills-skill-creator-SKILL/01-About_Skills.md)
+      - [Microsoft Agent Skills](/lib/10-context-memory/microsoft-skills/_github-skills-skill-creator-SKILL/02-Core_Principles.md)
+      - [Microsoft Agent Skills](/lib/10-context-memory/microsoft-skills/_github-skills-skill-creator-SKILL/03-Skill_Structure.md)
+      - [Microsoft Agent Skills](/lib/10-context-memory/microsoft-skills/_github-skills-skill-creator-SKILL/04-Creating_Azure_SDK_Skills.md)
+      - [Microsoft Agent Skills](/lib/10-context-memory/microsoft-skills/_github-skills-skill-creator-SKILL/05-Skill_Creation_Process.md)
+      - [Microsoft Agent Skills](/lib/10-context-memory/microsoft-skills/_github-skills-skill-creator-SKILL/06-Progressive_Disclosure_Patterns.md)
+      - [Microsoft Agent Skills](/lib/10-context-memory/microsoft-skills/_github-skills-skill-creator-SKILL/07-Design_Pattern_References.md)
+      - [Microsoft Agent Skills](/lib/10-context-memory/microsoft-skills/_github-skills-skill-creator-SKILL/08-Anti-Patterns.md)
+      - [Microsoft Agent Skills](/lib/10-context-memory/microsoft-skills/_github-skills-skill-creator-SKILL/09-Checklist.md)
+      - **references**
+        - [Azure SDK Patterns by Language](/lib/10-context-memory/microsoft-skills/_github-skills-skill-creator-references-azure-sdk-patterns.md)
+        - [Output Patterns](/lib/10-context-memory/microsoft-skills/_github-skills-skill-creator-references-output-patterns.md)
+        - [Workflow Patterns](/lib/10-context-memory/microsoft-skills/_github-skills-skill-creator-references-workflows.md)
+- [Astro Starter Kit: Minimal](/lib/10-context-memory/microsoft-skills/docs-site.md)
+- **hooks**
+  - [Continual Learning Hook](/lib/10-context-memory/microsoft-skills/hooks-continual-learning.md)
+- **tests**
+  - [Vally Scenarios Guide](/lib/10-context-memory/microsoft-skills/tests-scenarios.md)
+    - **_shared**
+      - **vally**
+        - **tools**
+          - [Tools Regression Tests](/lib/10-context-memory/microsoft-skills/tests-scenarios-_shared-vally-tools-tests.md)
+    - **agent-framework-azure-ai-py**
+      - [Agent Framework Azure AI Python Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-agent-framework-azure-ai-py-acceptance-criteria.md)
+    - **azure-ai-agents-persistent-dotnet**
+      - [Azure.AI.Agents.Persistent SDK Acceptance Criteria (.NET)](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-ai-agents-persistent-dotnet-acceptance-criteria.md)
+    - **azure-ai-agents-persistent-java**
+      - [Azure AI Agents Persistent SDK for Java Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-ai-agents-persistent-java-acceptance-criteria.md)
+    - **azure-ai-anomalydetector-java**
+      - [Azure AI Anomaly Detector SDK for Java Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-ai-anomalydetector-java-acceptance-criteria.md)
+    - **azure-ai-contentsafety-java**
+      - [Azure AI Content Safety SDK for Java Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-ai-contentsafety-java-acceptance-criteria.md)
+    - **azure-ai-contentsafety-py**
+      - [Azure AI Content Safety SDK Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-ai-contentsafety-py-acceptance-criteria.md)
+    - **azure-ai-contentsafety-ts**
+      - [Acceptance Criteria: azure-ai-contentsafety-ts](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-ai-contentsafety-ts-acceptance-criteria.md)
+    - **azure-ai-contentunderstanding-py**
+      - [Azure AI Content Understanding SDK Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-ai-contentunderstanding-py-acceptance-criteria.md)
+    - **azure-ai-document-intelligence-dotnet**
+      - [Azure Document Intelligence SDK Acceptance Criteria (.NET)](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-ai-document-intelligence-dotnet-acceptance-criteria.md)
+    - **azure-ai-document-intelligence-ts**
+      - [Acceptance Criteria: azure-ai-document-intelligence-ts](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-ai-document-intelligence-ts-acceptance-criteria.md)
+    - **azure-ai-formrecognizer-java**
+      - [Azure Document Intelligence (Form Recognizer) SDK for Java Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-ai-formrecognizer-java-acceptance-criteria.md)
+    - **azure-ai-language-conversations-py**
+      - [Acceptance Criteria: azure-ai-language-conversations-py](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-ai-language-conversations-py-acceptance-criteria.md)
+    - **azure-ai-ml-py**
+      - [Azure Machine Learning SDK v2 Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-ai-ml-py-acceptance-criteria.md)
+    - **azure-ai-openai-dotnet**
+      - [Azure OpenAI SDK Acceptance Criteria (.NET)](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-ai-openai-dotnet-acceptance-criteria.md)
+    - **azure-ai-projects-dotnet**
+      - [Azure.AI.Projects SDK Acceptance Criteria (.NET)](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-ai-projects-dotnet-acceptance-criteria.md)
+    - **azure-ai-projects-java**
+      - [Azure AI Projects SDK for Java Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-ai-projects-java-acceptance-criteria.md)
+    - **azure-ai-projects-py**
+      - [Azure AI Projects SDK Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-ai-projects-py-acceptance-criteria.md)
+    - **azure-ai-projects-ts**
+      - [Azure AI Projects SDK Acceptance Criteria (TypeScript)](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-ai-projects-ts-acceptance-criteria.md)
+    - **azure-ai-textanalytics-py**
+      - [Azure AI Text Analytics SDK Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-ai-textanalytics-py-acceptance-criteria.md)
+    - **azure-ai-transcription-py**
+      - [Azure AI Transcription SDK Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-ai-transcription-py-acceptance-criteria.md)
+    - **azure-ai-translation-document-py**
+      - [Azure AI Document Translation SDK Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-ai-translation-document-py-acceptance-criteria.md)
+    - **azure-ai-translation-text-py**
+      - [Azure AI Text Translation SDK Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-ai-translation-text-py-acceptance-criteria.md)
+    - **azure-ai-translation-ts**
+      - [Azure AI Translation SDK Acceptance Criteria (TypeScript)](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-ai-translation-ts-acceptance-criteria.md)
+    - **azure-ai-vision-imageanalysis-java**
+      - [Azure AI Vision Image Analysis SDK for Java Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-ai-vision-imageanalysis-java-acceptance-criteria.md)
+    - **azure-ai-vision-imageanalysis-py**
+      - [Azure AI Vision Image Analysis Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-ai-vision-imageanalysis-py-acceptance-criteria.md)
+    - **azure-ai-voicelive-dotnet**
+      - [Azure VoiceLive SDK Acceptance Criteria (.NET)](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-ai-voicelive-dotnet-acceptance-criteria.md)
+    - **azure-ai-voicelive-java**
+      - [Azure AI VoiceLive SDK for Java Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-ai-voicelive-java-acceptance-criteria.md)
+    - **azure-ai-voicelive-py**
+      - [Azure AI Voice Live SDK Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-ai-voicelive-py-acceptance-criteria.md)
+    - **azure-ai-voicelive-ts**
+      - [Azure AI Voice Live SDK Acceptance Criteria (TypeScript)](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-ai-voicelive-ts-acceptance-criteria.md)
+    - **azure-appconfiguration-java**
+      - [Azure App Configuration SDK for Java Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-appconfiguration-java-acceptance-criteria.md)
+    - **azure-appconfiguration-py**
+      - [Azure App Configuration Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-appconfiguration-py-acceptance-criteria.md)
+    - **azure-appconfiguration-ts**
+      - [Acceptance Criteria: azure-appconfiguration-ts](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-appconfiguration-ts-acceptance-criteria.md)
+    - **azure-communication-callautomation-java**
+      - [Azure Communication Call Automation SDK for Java Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-communication-callautomation-java-acceptance-criteria.md)
+    - **azure-communication-callingserver-java**
+      - [Azure Communication CallingServer SDK for Java Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-communication-callingserver-java-acceptance-criteria.md)
+    - **azure-communication-chat-java**
+      - [Azure Communication Chat SDK for Java Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-communication-chat-java-acceptance-criteria.md)
+    - **azure-communication-common-java**
+      - [Azure Communication Common SDK for Java Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-communication-common-java-acceptance-criteria.md)
+    - **azure-communication-sms-java**
+      - [Azure Communication SMS SDK for Java Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-communication-sms-java-acceptance-criteria.md)
+    - **azure-compute-batch-java**
+      - [Azure Batch SDK for Java Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-compute-batch-java-acceptance-criteria.md)
+    - **azure-containerregistry-py**
+      - [Azure Container Registry SDK Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-containerregistry-py-acceptance-criteria.md)
+    - **azure-cosmos-db-py**
+      - [Azure Cosmos DB (FastAPI Patterns) Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-cosmos-db-py-acceptance-criteria.md)
+    - **azure-cosmos-java**
+      - [Azure Cosmos DB Java SDK Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-cosmos-java-acceptance-criteria.md)
+    - **azure-cosmos-py**
+      - [Azure Cosmos DB SDK Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-cosmos-py-acceptance-criteria.md)
+    - **azure-cosmos-rust**
+      - [Azure Cosmos DB SDK for Rust Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-cosmos-rust-acceptance-criteria.md)
+    - **azure-cosmos-ts**
+      - [Azure Cosmos DB SDK for TypeScript Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-cosmos-ts-acceptance-criteria.md)
+    - **azure-data-tables-java**
+      - [Azure Data Tables Java SDK Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-data-tables-java-acceptance-criteria.md)
+    - **azure-data-tables-py**
+      - [Azure Data Tables SDK Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-data-tables-py-acceptance-criteria.md)
+    - **azure-eventgrid-dotnet**
+      - [Azure Event Grid SDK Acceptance Criteria (.NET)](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-eventgrid-dotnet-acceptance-criteria.md)
+    - **azure-eventgrid-java**
+      - [Azure Event Grid SDK for Java Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-eventgrid-java-acceptance-criteria.md)
+    - **azure-eventgrid-py**
+      - [Azure Event Grid SDK Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-eventgrid-py-acceptance-criteria.md)
+    - **azure-eventhub-dotnet**
+      - [Azure Event Hubs SDK Acceptance Criteria (.NET)](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-eventhub-dotnet-acceptance-criteria.md)
+    - **azure-eventhub-java**
+      - [Azure Event Hubs Java SDK Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-eventhub-java-acceptance-criteria.md)
+    - **azure-eventhub-py**
+      - [Azure Event Hubs SDK Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-eventhub-py-acceptance-criteria.md)
+    - **azure-eventhub-rust**
+      - [Azure Event Hubs SDK for Rust Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-eventhub-rust-acceptance-criteria.md)
+    - **azure-eventhub-ts**
+      - [Azure Event Hubs SDK for TypeScript Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-eventhub-ts-acceptance-criteria.md)
+    - **azure-identity-dotnet**
+      - [Azure Identity SDK Acceptance Criteria (.NET)](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-identity-dotnet-acceptance-criteria.md)
+    - **azure-identity-java**
+      - [Azure Identity Java SDK Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-identity-java-acceptance-criteria.md)
+    - **azure-identity-py**
+      - [Azure Identity SDK Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-identity-py-acceptance-criteria.md)
+    - **azure-identity-rust**
+      - [Azure Identity SDK for Rust Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-identity-rust-acceptance-criteria.md)
+    - **azure-identity-ts**
+      - [Azure Identity SDK for TypeScript Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-identity-ts-acceptance-criteria.md)
+    - **azure-keyvault-certificates-rust**
+      - [Azure Key Vault Certificates SDK for Rust Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-keyvault-certificates-rust-acceptance-criteria.md)
+    - **azure-keyvault-keys-rust**
+      - [Azure Key Vault Keys SDK for Rust Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-keyvault-keys-rust-acceptance-criteria.md)
+    - **azure-keyvault-keys-ts**
+      - [Acceptance Criteria: azure-keyvault-keys-ts](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-keyvault-keys-ts-acceptance-criteria.md)
+    - **azure-keyvault-py**
+      - [Azure Key Vault SDK Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-keyvault-py-acceptance-criteria.md)
+    - **azure-keyvault-secrets-rust**
+      - [Azure Key Vault Secrets SDK for Rust Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-keyvault-secrets-rust-acceptance-criteria.md)
+    - **azure-keyvault-secrets-ts**
+      - [Acceptance Criteria: azure-keyvault-secrets-ts](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-keyvault-secrets-ts-acceptance-criteria.md)
+    - **azure-maps-search-dotnet**
+      - [Azure Maps Search SDK Acceptance Criteria (.NET)](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-maps-search-dotnet-acceptance-criteria.md)
+    - **azure-messaging-webpubsub-java**
+      - [Azure Web PubSub SDK for Java Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-messaging-webpubsub-java-acceptance-criteria.md)
+    - **azure-messaging-webpubsubservice-py**
+      - [Azure Web PubSub Service SDK Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-messaging-webpubsubservice-py-acceptance-criteria.md)
+    - **azure-mgmt-apicenter-dotnet**
+      - [Azure.ResourceManager.ApiCenter SDK Acceptance Criteria (.NET)](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-mgmt-apicenter-dotnet-acceptance-criteria.md)
+    - **azure-mgmt-apicenter-py**
+      - [Azure API Center Management SDK Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-mgmt-apicenter-py-acceptance-criteria.md)
+    - **azure-mgmt-apimanagement-dotnet**
+      - [Azure.ResourceManager.ApiManagement SDK Acceptance Criteria (.NET)](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-mgmt-apimanagement-dotnet-acceptance-criteria.md)
+    - **azure-mgmt-apimanagement-py**
+      - [Azure API Management SDK Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-mgmt-apimanagement-py-acceptance-criteria.md)
+    - **azure-mgmt-applicationinsights-dotnet**
+      - [Azure.ResourceManager.ApplicationInsights SDK Acceptance Criteria (.NET)](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-mgmt-applicationinsights-dotnet-acceptance-criteria.md)
+    - **azure-mgmt-arizeaiobservabilityeval-dotnet**
+      - [Azure.ResourceManager.ArizeAIObservabilityEval SDK Acceptance Criteria (.NET)](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-mgmt-arizeaiobservabilityeval-dotnet-acceptance-criteria.md)
+    - **azure-mgmt-botservice-dotnet**
+      - [Azure.ResourceManager.BotService SDK Acceptance Criteria (.NET)](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-mgmt-botservice-dotnet-acceptance-criteria.md)
+    - **azure-mgmt-botservice-py**
+      - [Azure Bot Service Management SDK Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-mgmt-botservice-py-acceptance-criteria.md)
+    - **azure-mgmt-fabric-dotnet**
+      - [Azure.ResourceManager.Fabric SDK Acceptance Criteria (.NET)](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-mgmt-fabric-dotnet-acceptance-criteria.md)
+    - **azure-mgmt-fabric-py**
+      - [Azure Fabric Management SDK Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-mgmt-fabric-py-acceptance-criteria.md)
+    - **azure-mgmt-mongodbatlas-dotnet**
+      - [Azure.ResourceManager.MongoDBAtlas SDK Acceptance Criteria (.NET)](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-mgmt-mongodbatlas-dotnet-acceptance-criteria.md)
+    - **azure-mgmt-weightsandbiases-dotnet**
+      - [Azure.ResourceManager.WeightsAndBiases SDK Acceptance Criteria (.NET)](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-mgmt-weightsandbiases-dotnet-acceptance-criteria.md)
+    - **azure-microsoft-playwright-testing-ts**
+      - [Azure Playwright Workspaces SDK Acceptance Criteria (TypeScript)](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-microsoft-playwright-testing-ts-acceptance-criteria.md)
+    - **azure-monitor-ingestion-java**
+      - [Azure Monitor Ingestion SDK for Java Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-monitor-ingestion-java-acceptance-criteria.md)
+    - **azure-monitor-ingestion-py**
+      - [Azure Monitor Ingestion SDK Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-monitor-ingestion-py-acceptance-criteria.md)
+    - **azure-monitor-opentelemetry-exporter-java**
+      - [Azure Monitor OpenTelemetry Exporter for Java Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-monitor-opentelemetry-exporter-java-acceptance-criteria.md)
+    - **azure-monitor-opentelemetry-exporter-py**
+      - [Azure Monitor OpenTelemetry Exporter Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-monitor-opentelemetry-exporter-py-acceptance-criteria.md)
+    - **azure-monitor-opentelemetry-py**
+      - [Azure Monitor OpenTelemetry Distro for Python Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-monitor-opentelemetry-py-acceptance-criteria.md)
+    - **azure-monitor-opentelemetry-ts**
+      - [Azure Monitor OpenTelemetry SDK Acceptance Criteria (TypeScript)](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-monitor-opentelemetry-ts-acceptance-criteria.md)
+    - **azure-monitor-query-java**
+      - [Azure Monitor Query SDK for Java Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-monitor-query-java-acceptance-criteria.md)
+    - **azure-monitor-query-py**
+      - [Azure Monitor Query SDK Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-monitor-query-py-acceptance-criteria.md)
+    - **azure-postgres-ts**
+      - [Acceptance Criteria: azure-postgres-ts](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-postgres-ts-acceptance-criteria.md)
+    - **azure-resource-manager-cosmosdb-dotnet**
+      - [Azure.ResourceManager.CosmosDB (.NET) Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-resource-manager-cosmosdb-dotnet-acceptance-criteria.md)
+    - **azure-resource-manager-durabletask-dotnet**
+      - [Azure.ResourceManager.DurableTask (.NET) Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-resource-manager-durabletask-dotnet-acceptance-criteria.md)
+    - **azure-resource-manager-mysql-dotnet**
+      - [Azure.ResourceManager.MySql (.NET) Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-resource-manager-mysql-dotnet-acceptance-criteria.md)
+    - **azure-resource-manager-playwright-dotnet**
+      - [Azure.ResourceManager.Playwright SDK Acceptance Criteria (.NET)](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-resource-manager-playwright-dotnet-acceptance-criteria.md)
+    - **azure-resource-manager-postgresql-dotnet**
+      - [Azure.ResourceManager.PostgreSql (.NET) Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-resource-manager-postgresql-dotnet-acceptance-criteria.md)
+    - **azure-resource-manager-redis-dotnet**
+      - [Azure.ResourceManager.Redis (.NET) Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-resource-manager-redis-dotnet-acceptance-criteria.md)
+    - **azure-resource-manager-sql-dotnet**
+      - [Azure.ResourceManager.Sql (.NET) Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-resource-manager-sql-dotnet-acceptance-criteria.md)
+    - **azure-search-documents-dotnet**
+      - [Azure Search Documents SDK Acceptance Criteria (.NET)](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-search-documents-dotnet-acceptance-criteria.md)
+    - **azure-search-documents-py**
+      - [Azure AI Search SDK Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-search-documents-py-acceptance-criteria.md)
+    - **azure-search-documents-ts**
+      - [Acceptance Criteria: azure-search-documents-ts](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-search-documents-ts-acceptance-criteria.md)
+    - **azure-security-keyvault-keys-dotnet**
+      - [Azure Key Vault Keys SDK Acceptance Criteria (.NET)](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-security-keyvault-keys-dotnet-acceptance-criteria.md)
+    - **azure-security-keyvault-keys-java**
+      - [Azure Key Vault Keys SDK for Java Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-security-keyvault-keys-java-acceptance-criteria.md)
+    - **azure-security-keyvault-secrets-java**
+      - [Azure Key Vault Secrets SDK for Java Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-security-keyvault-secrets-java-acceptance-criteria.md)
+    - **azure-servicebus-dotnet**
+      - [Azure Service Bus SDK Acceptance Criteria (.NET)](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-servicebus-dotnet-acceptance-criteria.md)
+    - **azure-servicebus-py**
+      - [Azure Service Bus SDK Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-servicebus-py-acceptance-criteria.md)
+    - **azure-servicebus-ts**
+      - [Azure Service Bus SDK for TypeScript Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-servicebus-ts-acceptance-criteria.md)
+    - **azure-speech-to-text-rest-py**
+      - [Azure Speech to Text REST API Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-speech-to-text-rest-py-acceptance-criteria.md)
+    - **azure-storage-blob-java**
+      - [Azure Storage Blob Java SDK Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-storage-blob-java-acceptance-criteria.md)
+    - **azure-storage-blob-py**
+      - [Azure Storage Blob SDK Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-storage-blob-py-acceptance-criteria.md)
+    - **azure-storage-blob-rust**
+      - [Azure Blob Storage SDK for Rust Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-storage-blob-rust-acceptance-criteria.md)
+    - **azure-storage-blob-ts**
+      - [Azure Storage Blob SDK for TypeScript Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-storage-blob-ts-acceptance-criteria.md)
+    - **azure-storage-file-datalake-py**
+      - [Azure Storage File Data Lake SDK Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-storage-file-datalake-py-acceptance-criteria.md)
+    - **azure-storage-file-share-py**
+      - [Azure Storage File Share SDK Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-storage-file-share-py-acceptance-criteria.md)
+    - **azure-storage-file-share-ts**
+      - [Azure Storage File Share SDK Acceptance Criteria (TypeScript)](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-storage-file-share-ts-acceptance-criteria.md)
+    - **azure-storage-queue-py**
+      - [Azure Storage Queue SDK Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-storage-queue-py-acceptance-criteria.md)
+    - **azure-storage-queue-rust**
+      - [Azure Storage Queue SDK for Rust Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-storage-queue-rust-acceptance-criteria.md)
+    - **azure-storage-queue-ts**
+      - [Azure Storage Queue SDK Acceptance Criteria (TypeScript)](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-storage-queue-ts-acceptance-criteria.md)
+    - **azure-web-pubsub-ts**
+      - [Azure Web PubSub SDK Acceptance Criteria (TypeScript)](/lib/10-context-memory/microsoft-skills/tests-scenarios-azure-web-pubsub-ts-acceptance-criteria.md)
+    - **cloud-solution-architect**
+      - [Cloud Solution Architect Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-cloud-solution-architect-acceptance-criteria.md)
+    - **copilot-sdk**
+      - [Acceptance Criteria: copilot-sdk](/lib/10-context-memory/microsoft-skills/tests-scenarios-copilot-sdk-acceptance-criteria.md)
+    - **debugview**
+      - [Acceptance Criteria: debugview](/lib/10-context-memory/microsoft-skills/tests-scenarios-debugview-acceptance-criteria.md)
+    - **entra-agent-id**
+      - [Entra Agent ID Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-entra-agent-id-acceptance-criteria.md)
+    - **fastapi-router-py**
+      - [FastAPI Router Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-fastapi-router-py-acceptance-criteria.md)
+    - **finetuning**
+      - [Azure AI Fine-Tuning Skill Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-finetuning-acceptance-criteria.md)
+    - **frontend-ui-dark-ts**
+      - [Frontend UI Dark Theme Acceptance Criteria (TypeScript)](/lib/10-context-memory/microsoft-skills/tests-scenarios-frontend-ui-dark-ts-acceptance-criteria.md)
+    - **github-issue-creator**
+      - [GitHub Issue Creator Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-github-issue-creator-acceptance-criteria.md)
+    - **m365-agents-dotnet**
+      - [Microsoft 365 Agents SDK Acceptance Criteria (.NET)](/lib/10-context-memory/microsoft-skills/tests-scenarios-m365-agents-dotnet-acceptance-criteria.md)
+    - **m365-agents-py**
+      - [Microsoft 365 Agents SDK Acceptance Criteria (Python)](/lib/10-context-memory/microsoft-skills/tests-scenarios-m365-agents-py-acceptance-criteria.md)
+    - **m365-agents-ts**
+      - [Microsoft 365 Agents SDK Acceptance Criteria (TypeScript)](/lib/10-context-memory/microsoft-skills/tests-scenarios-m365-agents-ts-acceptance-criteria.md)
+    - **mcp-builder**
+      - [MCP Server Builder Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-mcp-builder-acceptance-criteria.md)
+    - **microsoft-azure-webjobs-extensions-authentication-events-dotnet**
+      - [Microsoft.Azure.WebJobs.Extensions.AuthenticationEvents SDK Acceptance Criteria (.NET)](/lib/10-context-memory/microsoft-skills/tests-scenarios-microsoft-azure-webjobs-extensions-authentication-events-dotnet-acceptance-criteria.md)
+    - **podcast-generation**
+      - [Podcast Generation Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-podcast-generation-acceptance-criteria.md)
+    - **pydantic-models-py**
+      - [Pydantic Models Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-pydantic-models-py-acceptance-criteria.md)
+    - **react-flow-node-ts**
+      - [React Flow Node Acceptance Criteria (TypeScript)](/lib/10-context-memory/microsoft-skills/tests-scenarios-react-flow-node-ts-acceptance-criteria.md)
+    - **skill-creator**
+      - [Skill Creator Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-skill-creator-acceptance-criteria.md)
+    - **wiki-architect**
+      - [Wiki Architect — Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-wiki-architect-acceptance-criteria.md)
+    - **wiki-page-writer**
+      - [Wiki Page Writer — Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-wiki-page-writer-acceptance-criteria.md)
+    - **wiki-qa**
+      - [Wiki Q&A — Acceptance Criteria](/lib/10-context-memory/microsoft-skills/tests-scenarios-wiki-qa-acceptance-criteria.md)
+    - **zustand-store-ts**
+      - [Zustand Store Acceptance Criteria (TypeScript)](/lib/10-context-memory/microsoft-skills/tests-scenarios-zustand-store-ts-acceptance-criteria.md)
 
-开始学习 → [Astro Starter Kit: Minimal](docs-site.md)
+开始学习 → [Microsoft Agent Skills](_github-agents-backend.agent.md)

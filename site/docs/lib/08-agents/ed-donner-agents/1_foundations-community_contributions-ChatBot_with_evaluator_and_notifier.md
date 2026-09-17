@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/ed-donner/agents"
-entryUrl: ""
+entryUrl: "https://github.com/ed-donner/agents/blob/8ceaf66c24643627c1e4806851736bdd444bdd4b/1_foundations/community_contributions/ChatBot_with_evaluator_and_notifier/README.md"
+sourceRel: "1_foundations/community_contributions/ChatBot_with_evaluator_and_notifier/README.md"
+rawUrl: "/raw/08-agents/ed-donner-agents/1_foundations/community_contributions/ChatBot_with_evaluator_and_notifier/README.md"
+sourceSha256: "0ece5fc12a04c8abc47d7a398a63ffb92f4a8212c9b916c9afe3234b9b719a3e"
+pageSha256: "0ece5fc12a04c8abc47d7a398a63ffb92f4a8212c9b916c9afe3234b9b719a3e"
+contentMode: "local-full"
 zh: ""
 ---
 

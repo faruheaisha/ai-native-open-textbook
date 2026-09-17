@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/datawhalechina/easy-vibe"
-entryUrl: "https://github.com/datawhalechina/easy-vibe/blob/130e9b75b28b524e8cc74e615fd9733a4e2b330d/README.md"
+entryUrl: "https://github.com/datawhalechina/easy-vibe/blob/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/appendix/1-computer-fundamentals/data-structures.md"
+sourceRel: "docs/zh-cn/appendix/1-computer-fundamentals/data-structures.md"
+rawUrl: "/raw/07-coding/easy-vibe/docs/zh-cn/appendix/1-computer-fundamentals/data-structures.md"
+sourceSha256: "9aeb24aa442bff80b8db788d6d5e755d9be98baaecc95b2adb3099bee37661ce"
+pageSha256: "9aeb24aa442bff80b8db788d6d5e755d9be98baaecc95b2adb3099bee37661ce"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -139,7 +144,7 @@ zh: ""
 :::
 
 ::: tip 哈希表在你的代码里无处不在
-- JavaScript 的 `{}` 对象和 `Map` → 哈希表
+- JavaScript 的 `\{\}` 对象和 `Map` → 哈希表
 - Python 的 `dict` → 哈希表
 - Java 的 `HashMap` → 哈希表
 - 数据库的索引 → 底层也用哈希

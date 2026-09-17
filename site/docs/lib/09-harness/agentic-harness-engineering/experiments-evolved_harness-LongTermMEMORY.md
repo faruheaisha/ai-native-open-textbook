@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering"
-entryUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering/blob/8b2a55d97590363fe50c3cc6b5e833b020a4bb4c/README.md"
+entryUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering/blob/8b2a55d97590363fe50c3cc6b5e833b020a4bb4c/experiments/evolved_harness/LongTermMEMORY.md"
+sourceRel: "experiments/evolved_harness/LongTermMEMORY.md"
+rawUrl: "/raw/09-harness/agentic-harness-engineering/experiments/evolved_harness/LongTermMEMORY.md"
+sourceSha256: "19aaf8dec1a8b98528fae5548219cec13ffdf1bb6a4b99f9c88f61642190eec5"
+pageSha256: "19aaf8dec1a8b98528fae5548219cec13ffdf1bb6a4b99f9c88f61642190eec5"
+contentMode: "local-full"
 zh: ""
 ---
 

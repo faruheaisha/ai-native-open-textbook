@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/langgptai/wonderful-prompts"
-entryUrl: "https://github.com/langgptai/wonderful-prompts/blob/c8e5dbd3bc01740728fd1ab8f8d4f654a17e3697/README.md"
+entryUrl: "https://github.com/langgptai/wonderful-prompts/blob/c8e5dbd3bc01740728fd1ab8f8d4f654a17e3697/examples/gpt4_CAN_coder.md"
+sourceRel: "examples/gpt4_CAN_coder.md"
+rawUrl: "/raw/10-context-memory/wonderful-prompts/examples/gpt4_CAN_coder.md"
+sourceSha256: "3cb86094f1fa004d26731376f474f0708a1c6e80fd3f169476f103496fb3cdd1"
+pageSha256: "3cb86094f1fa004d26731376f474f0708a1c6e80fd3f169476f103496fb3cdd1"
+contentMode: "local-full"
 zh: ""
 ---
 

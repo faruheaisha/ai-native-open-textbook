@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/mattpocock/skills"
-entryUrl: "https://github.com/mattpocock/skills/blob/3cca18b368ae95cdbdebbff572ccafa662551015/README.md"
+entryUrl: "https://github.com/mattpocock/skills/blob/3cca18b368ae95cdbdebbff572ccafa662551015/docs/productivity/handoff.md"
+sourceRel: "docs/productivity/handoff.md"
+rawUrl: "/raw/10-context-memory/mattpocock-skills/docs/productivity/handoff.md"
+sourceSha256: "a8020faa68d0077e8a5701e817817c8858a5f1a70d5b3f16dc8034e7d8df0b44"
+pageSha256: "a8020faa68d0077e8a5701e817817c8858a5f1a70d5b3f16dc8034e7d8df0b44"
+contentMode: "local-full"
 zh: ""
 ---
 

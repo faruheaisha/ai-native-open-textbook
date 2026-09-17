@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/liyupi/ai-guide"
-entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a02735b38c866/README.md"
+entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a02735b38c866/AI/AI项目教程/AI%20海龟汤项目教程.md"
+sourceRel: "AI/AI项目教程/AI 海龟汤项目教程.md"
+rawUrl: "/raw/07-coding/liyupi-ai-guide/AI/AI项目教程/AI 海龟汤项目教程.md"
+sourceSha256: "95c0de1e58218cb726f69b8d9a9d69cb27c2a4cedf2b89c1e03647bf02cd76c7"
+pageSha256: "95c0de1e58218cb726f69b8d9a9d69cb27c2a4cedf2b89c1e03647bf02cd76c7"
+contentMode: "local-full"
 zh: ""
 ---
 

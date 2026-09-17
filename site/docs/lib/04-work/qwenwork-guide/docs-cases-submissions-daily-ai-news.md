@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/wangxiaoshuai1998/QwenWorkGuide"
-entryUrl: "https://github.com/wangxiaoshuai1998/QwenWorkGuide/blob/002f698a68b69d3635acf6be0d6e27db69069071/README.md"
+entryUrl: "https://github.com/wangxiaoshuai1998/QwenWorkGuide/blob/002f698a68b69d3635acf6be0d6e27db69069071/docs/cases/submissions/daily-ai-news/index.md"
+sourceRel: "docs/cases/submissions/daily-ai-news/index.md"
+rawUrl: "/raw/04-work/qwenwork-guide/docs/cases/submissions/daily-ai-news/index.md"
+sourceSha256: "d9f7666cc0e5486b2ad82638bd79cceb571fdfdd54439039a49f6029d71c31b2"
+pageSha256: "d9f7666cc0e5486b2ad82638bd79cceb571fdfdd54439039a49f6029d71c31b2"
+contentMode: "local-full"
 zh: ""
 ---
 

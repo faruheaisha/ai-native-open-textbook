@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide"
-entryUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/README.md"
+entryUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/docs/resource-evaluations/025-vercel-agents-md-vs-skills-eval.md"
+sourceRel: "docs/resource-evaluations/025-vercel-agents-md-vs-skills-eval.md"
+rawUrl: "/raw/09-harness/claude-code-ultimate-guide/docs/resource-evaluations/025-vercel-agents-md-vs-skills-eval.md"
+sourceSha256: "dca20acfa9f195b4a0bf33b610e691643983c33c89f6674924012e04346a10ed"
+pageSha256: "dca20acfa9f195b4a0bf33b610e691643983c33c89f6674924012e04346a10ed"
+contentMode: "local-full"
 zh: ""
 ---
 

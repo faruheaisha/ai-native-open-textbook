@@ -1,0 +1,161 @@
+---
+title: "vibefast.app クイックスタートガイド"
+sourceId: "07-coding/vibefast-docs"
+sourceTitle: "VibeFast 文档"
+sourceKind: "官方文档"
+licenseLabel: "限非商用"
+lang: "英文"
+tier: 3
+volume: "07-coding"
+sourceUrl: "https://github.com/vibefast-app/vibefast-docs"
+entryUrl: "https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/quickstart-jp.md"
+sourceRel: "quickstart-jp.md"
+rawUrl: "/raw/07-coding/vibefast-docs/quickstart-jp.md"
+sourceSha256: "c8dfe45fcd6f79f002b6a555efab193bf5832c79d301952cf06a730ccc38613c"
+pageSha256: "c8dfe45fcd6f79f002b6a555efab193bf5832c79d301952cf06a730ccc38613c"
+contentMode: "local-full"
+zh: ""
+---
+
+# vibefast.app クイックスタートガイド
+
+[English](/lib/07-coding/vibefast-docs/quickstart) · [繁中](/lib/07-coding/vibefast-docs/quickstart-zh) · [日本語](/lib/07-coding/vibefast-docs/quickstart-jp) · [Español](/lib/07-coding/vibefast-docs/quickstart-es) · [Português (BR)](/lib/07-coding/vibefast-docs/quickstart-pt-br)
+
+**更新：** 2026年3月  
+**読了時間：** 約5分
+
+-----
+
+## クローンから本番公開まで、たった3つのコマンド
+
+```bash
+git clone https://github.com/vibefast-app/vibefast.git my-app
+cd my-app && npm install
+npm run setup
+```
+
+以上です。
+
+`npm run setup` は vibefast.app template 体験の核心です。手動で行うはずだったすべてを自動で処理します：
+
+- Cloudflareにログインし、アカウントを確認
+- D1データベースを作成し、bootstrap SQLを実行、すべてのテーブルを自動構築
+- JWTシークレットを生成し、Workers環境変数に書き込み
+- フロントエンド（Remix）とバックエンド（Workers API）を同時に本番環境にデプロイ
+
+ターミナルが完了すると、2つのライブURL（フロントエンド用とバックエンドAPI用）が表示されます。あなたのアプリはすでにCloudflareの全世界300以上のエッジロケーションで稼働しています。
+
+-----
+
+## 必要な環境
+
+開始前に以下を確認してください：
+
+- **Node.js 20+**
+- **npm 10+**
+- **Cloudflareアカウント**（無料プランで十分）
+- macOSユーザー：`jq` のインストールが必要（`brew install jq`）
+
+Cloudflareアカウントがまだですか？[こちらから無料登録](https://dash.cloudflare.com/sign-up) — クレジットカード不要です。
+
+-----
+
+## まずは動いているところを見てみませんか？
+
+説明文を鵜呑みにする必要はありません。
+
+[vibefast.app](https://vibefast.app) は vibefast.app template で完全に構築されています — マーケティングページ、ブログ、料金ページ、ユーザーログイン、live backend すべてが、このテンプレートの実際の機能として本番環境で動いています。
+
+**無料アカウントを登録**してログインすると、次のものを体験できます：
+
+- live backend 内の Analytics
+- 本番サイトで動いている Blog と Media のワークフロー
+- limited-access mode で表示される Business / User の sample view
+- あなたの登録番号 — 何番目のユーザーか
+
+体験した認証フロー、live backend の UI、ページ速度 — それがまさにあなたが購入するものです。デモではありません。本物の本番環境です。
+
+![vibefast.app traffic analytics dashboard](/mirror/43/4302f7125ca960a39e196582027ac18897d44a5c.png)
+
+-----
+
+## 最初の1時間でできること
+
+vibefast.app template の設計目標はひとつ：**購入者が最初の1時間で、セットアップからカスタマイズされたライブアプリまで到達できること。**
+
+### 0〜10分：インストールとデプロイ
+
+```bash
+npm install
+npm run setup
+```
+
+完了すると、以下が手に入ります：
+
+- Cloudflare上で動作する完全なWebアプリ
+- ユーザー、投稿、注文のテーブルが作成済みのD1データベース
+- フロントエンドとバックエンドのWorkerが本番環境で稼働
+- 今すぐ開けるURL
+
+### 10〜15分：ローカル開発
+
+```bash
+npm run dev
+```
+
+1つのコマンドでフロントエンドとバックエンドの両方が起動します。ターミナルに表示されるローカルURLを開くと：
+
+- 完全なマーケティングホームページ
+- 料金ページ
+- ブログシステム
+- ユーザー登録とログイン
+- live backend
+
+これらはプレースホルダーではありません。すべての機能が接続され、動作しています。
+
+![vibefast.app signup flow](/mirror/db/dbd387f96ee797383f2a0c24c9e1d54635f55a67.png)
+
+### 15〜40分：Stripe、Resend、ブランディング
+
+Stripe APIキーとResend APIキーを設定に追加し、`npm run deploy` を実行してから：
+
+1. 設定した管理者メールでアカウントを登録
+1. `/admin` を開いて live backend にアクセスできることを確認
+1. Stripeテスト決済を実行し、Webhookが発火することを確認
+1. 購入確認メールと管理者通知メールの両方が届くことを確認
+
+エンドツーエンドのフローが通れば、あなたのアプリは準備完了です。
+
+ブランディングも簡単です — vibefast.app template は変更が必要なすべてのテキストを1つの設定ファイルに集約しています：サイト名、ドメイン、料金コピー、ホームページコピー、SEO設定。変更して `npm run deploy` を実行すれば、すべて更新されます。
+
+![vibefast.app blog editor](/mirror/f2/f2240444df40db94f045b6166af3216e0a394d42.png)
+
+-----
+
+## コマンドリファレンス
+
+|コマンド                    |説明                                    |
+|-------------------------|---------------------------------------|
+|`npm run setup`          |初回セットアップ：DB作成、シークレット生成、全Workersデプロイ|
+|`npm run dev`            |ローカル開発環境の起動（フロントエンド+バックエンド同時）    |
+|`npm run deploy`         |本番環境へデプロイ（フロントエンド+バックエンド同時）      |
+|`npm run deploy:frontend`|フロントエンドのみデプロイ                       |
+|`npm run deploy:backend` |バックエンドのみデプロイ                        |
+|`npm run build`          |全パッケージをビルド                          |
+|`npm run typecheck`      |プロジェクト全体のTypeScript型チェック             |
+
+-----
+
+## アーキテクチャをもっと深く知りたい方へ
+
+- [なぜCloudflareがVibe Codingに最適なのか](/lib/07-coding/vibefast-docs/jp-05-the-best-way-to-vibecoding-on-cloudflare-jp) — Next.js + Vercelとの直接比較
+- [Cloudflare Workersと従来のサーバーの違い](/lib/07-coding/vibefast-docs/jp-06-cloudflare-workers-vs-traditional-server-jp) — エッジアーキテクチャの実際のメリット
+
+-----
+
+## 準備はできましたか？
+
+**アーリーバード $99 — 2026年8月1日より $199 に値上がり。**  
+一回払い。永久アクセス。プライベートGitHubリポジトリ。将来のすべてのアップデート含む。
+
+👉 **[vibefast.app](https://vibefast.app)**

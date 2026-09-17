@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/datawhalechina/easy-vibe"
-entryUrl: "https://github.com/datawhalechina/easy-vibe/blob/130e9b75b28b524e8cc74e615fd9733a4e2b330d/README.md"
+entryUrl: "https://github.com/datawhalechina/easy-vibe/blob/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/appendix/1-computer-fundamentals/type-systems.md"
+sourceRel: "docs/zh-cn/appendix/1-computer-fundamentals/type-systems.md"
+rawUrl: "/raw/07-coding/easy-vibe/docs/zh-cn/appendix/1-computer-fundamentals/type-systems.md"
+sourceSha256: "7670fd771b7eef8e15d1530e9a4249721288144d6e636c9a26e0ccd5dcc9ecf7"
+pageSha256: "7670fd771b7eef8e15d1530e9a4249721288144d6e636c9a26e0ccd5dcc9ecf7"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -141,7 +146,7 @@ Python 加了 Type Hints，JavaScript 社区转向 TypeScript——动态语言�
 | 泛型特性 | 说明 | 示例 |
 |---------|------|------|
 | 泛型函数 | 函数的参数/返回值使用类型参数 | `function first<T>(arr: T[]): T` |
-| 泛型类 | 类的属性/方法使用类型参数 | `class Box<T> { value: T }` |
+| 泛型类 | 类的属性/方法使用类型参数 | `class Box<T> \{ value: T \}` |
 | 泛型约束 | 用 extends 限制 T 的范围 | `<T extends HasLength>` |
 | 多个类型参数 | 同时使用多个类型变量 | `function pair<K, V>(k: K, v: V)` |
 

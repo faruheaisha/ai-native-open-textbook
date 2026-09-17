@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/gsd-build/get-shit-done"
-entryUrl: "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/README.md"
+entryUrl: "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/agents/gsd-domain-researcher.md"
+sourceRel: "agents/gsd-domain-researcher.md"
+rawUrl: "/raw/10-context-memory/get-shit-done/agents/gsd-domain-researcher.md"
+sourceSha256: "292fef9d15834e13b7c0b087b11e3fcb0cca8ce509c0a25facc21b7140f206bd"
+pageSha256: "292fef9d15834e13b7c0b087b11e3fcb0cca8ce509c0a25facc21b7140f206bd"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -65,9 +70,9 @@ If domain is unclear, infer from phase name and goal — "contract review" → l
 
 &lt;step name="research_domain">
 Run 2-3 targeted searches:
-- `"{domain} AI system evaluation criteria site:arxiv.org OR site:research.google"`
-- `"{domain} LLM failure modes production"`
-- `"{domain} AI compliance requirements {current_year}"`
+- `"\{domain\} AI system evaluation criteria site:arxiv.org OR site:research.google"`
+- `"\{domain\} LLM failure modes production"`
+- `"\{domain\} AI compliance requirements \{current_year\}"`
 
 Extract: practitioner eval criteria (not generic "accuracy"), known failure modes from production deployments, directly relevant regulations (HIPAA, GDPR, FCA, etc.), domain expert roles.
 &lt;/step>

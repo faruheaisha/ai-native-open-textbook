@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/shanraisshan/claude-code-best-practice"
-entryUrl: "https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/README.md"
+entryUrl: "https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/best-practice/claude-subagents.md"
+sourceRel: "best-practice/claude-subagents.md"
+rawUrl: "/raw/09-harness/claude-code-best-practice/best-practice/claude-subagents.md"
+sourceSha256: "164991463f57d08c2850c24d69423faab362e589f3ef74d7335b056732b3a1e6"
+pageSha256: "164991463f57d08c2850c24d69423faab362e589f3ef74d7335b056732b3a1e6"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -39,7 +44,7 @@ Claude Code subagents — frontmatter fields and official built-in agent types.
 | `permissionMode` | string | No | Permission mode: `default`, `acceptEdits`, `auto`, `dontAsk`, `bypassPermissions`, or `plan` |
 | `maxTurns` | integer | No | Maximum number of agentic turns before the subagent stops |
 | `skills` | list | No | Skill names to preload into agent context at startup (full content injected, not just made available) |
-| `mcpServers` | list | No | MCP servers for this subagent — server name strings or inline `{name: config}` objects |
+| `mcpServers` | list | No | MCP servers for this subagent — server name strings or inline `\{name: config\}` objects |
 | `hooks` | object | No | Lifecycle hooks scoped to this subagent. All hook events are supported; `PreToolUse`, `PostToolUse`, and `Stop` are the most common |
 | `memory` | string | No | Persistent memory scope: `user`, `project`, or `local` |
 | `background` | boolean | No | Set to `true` to always run as a background task (default: `false`) |

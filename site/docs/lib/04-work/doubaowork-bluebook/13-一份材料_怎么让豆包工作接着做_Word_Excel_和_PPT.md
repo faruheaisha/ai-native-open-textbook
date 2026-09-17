@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/AlephAITech/DoubaoWorkGuide"
-entryUrl: "https://github.com/AlephAITech/DoubaoWorkGuide/blob/ad7338e8fc889ec082cdfb3fa41fb659520c7174/01-初始豆包工作.md"
+entryUrl: "https://github.com/AlephAITech/DoubaoWorkGuide/blob/ad7338e8fc889ec082cdfb3fa41fb659520c7174/13-一份材料，怎么让豆包工作接着做%20Word、Excel%20和%20PPT.md"
+sourceRel: "13-一份材料，怎么让豆包工作接着做 Word、Excel 和 PPT.md"
+rawUrl: "/raw/04-work/doubaowork-bluebook/13-一份材料，怎么让豆包工作接着做 Word、Excel 和 PPT.md"
+sourceSha256: "ae221f56d3257791e454eec33ed5da99c96c46ed310a03fa37e37807125af344"
+pageSha256: "ae221f56d3257791e454eec33ed5da99c96c46ed310a03fa37e37807125af344"
+contentMode: "local-full"
 zh: ""
 ---
 

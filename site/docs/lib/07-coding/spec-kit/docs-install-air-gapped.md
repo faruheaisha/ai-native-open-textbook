@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/github/spec-kit"
-entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/README.md"
+entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/docs/install/air-gapped.md"
+sourceRel: "docs/install/air-gapped.md"
+rawUrl: "/raw/07-coding/spec-kit/docs/install/air-gapped.md"
+sourceSha256: "ef4a8a5b5566ec3978cce34c05f040088a88ac4798970899a93a42861f413a46"
+pageSha256: "ef4a8a5b5566ec3978cce34c05f040088a88ac4798970899a93a42861f413a46"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases"
-entryUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/README.md"
+entryUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/habit-tracker-accountability-coach.md"
+sourceRel: "usecases/habit-tracker-accountability-coach.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-usecases/usecases/habit-tracker-accountability-coach.md"
+sourceSha256: "fc7aee1d0694d05191370fd92deec0cb3a5e959ba08e726b5c79e6b2f2267866"
+pageSha256: "fc7aee1d0694d05191370fd92deec0cb3a5e959ba08e726b5c79e6b2f2267866"
+contentMode: "local-full"
 zh: ""
 ---
 

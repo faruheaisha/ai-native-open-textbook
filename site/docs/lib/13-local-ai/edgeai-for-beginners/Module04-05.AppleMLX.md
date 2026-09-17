@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "13-local-ai"
 sourceUrl: "https://github.com/microsoft/edgeai-for-beginners"
-entryUrl: "https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/README.md"
+entryUrl: "https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/Module04/05.AppleMLX.md"
+sourceRel: "Module04/05.AppleMLX.md"
+rawUrl: "/raw/13-local-ai/edgeai-for-beginners/Module04/05.AppleMLX.md"
+sourceSha256: "41fb85ecb3e95a7b91d43a456204ac3a5cdb4bae8f432618b5d18f9a9f8c8d53"
+pageSha256: "41fb85ecb3e95a7b91d43a456204ac3a5cdb4bae8f432618b5d18f9a9f8c8d53"
+contentMode: "local-full"
 zh: ""
 ---
 

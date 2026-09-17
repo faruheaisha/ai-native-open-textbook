@@ -10,6 +10,8 @@ lang: "英文"
 volume: "09-harness"
 sourceUrl: "https://github.com/affaan-m/ECC"
 entryUrl: "https://github.com/affaan-m/ECC/blob/928c1dea72f5c330442fc1f595563398b8f389f7/README.md"
+sourceRel: ""
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -19,28 +21,626 @@ Your agent can write code, but ECC gives it a coordinated engineering system and
 
 ## 课时
 
-1. [ECC —— Harness 性能优化系统](agents-a11y-architect.md)
-2. [ECC —— Harness 性能优化系统](agents-agent-evaluator.md)
-3. [ECC —— Harness 性能优化系统](agents-architect.md)
-4. [Build Error Resolver](agents-build-error-resolver.md)
-5. [ECC —— Harness 性能优化系统](agents-chief-of-staff.md)
-6. [Code Architect Agent](agents-code-architect.md)
-7. [Code Explorer Agent](agents-code-explorer.md)
-8. [ECC —— Harness 性能优化系统](agents-code-reviewer.md)
-9. [Code Simplifier Agent](agents-code-simplifier.md)
-10. [Comment Analyzer Agent](agents-comment-analyzer.md)
-11. [Conversation Analyzer Agent](agents-conversation-analyzer.md)
-12. [C++ Build Error Resolver](agents-cpp-build-resolver.md)
-13. [ECC —— Harness 性能优化系统](agents-cpp-reviewer.md)
-14. [ECC —— Harness 性能优化系统](agents-csharp-reviewer.md)
-15. [Dart/Flutter Build Error Resolver](agents-dart-build-resolver.md)
-16. [Database Reviewer](agents-database-reviewer.md)
-17. [Django Build Error Resolver](agents-django-build-resolver.md)
-18. [ECC —— Harness 性能优化系统](agents-django-reviewer.md)
-19. [Documentation & Codemap Specialist](agents-doc-updater.md)
-20. [ECC —— Harness 性能优化系统](agents-docs-lookup.md)
-21. [E2E Test Runner](agents-e2e-runner.md)
-22. [ECC —— Harness 性能优化系统](agents-fastapi-reviewer.md)
-23. [ECC —— Harness 性能优化系统](agents-flutter-reviewer.md)
+- **Install ECC**
+  - **Codex App and CLI**
+    - [Codex ECC Navigation Map](/lib/09-harness/ecc/docs-CODEX-NAVIGATION-GUIDE.md)
+  - **Other agents and editors**
+    - [Antigravity guide](/lib/09-harness/ecc/docs-ANTIGRAVITY-GUIDE.md)
+    - [Qwen guide](/lib/09-harness/ecc/docs-QWEN-GUIDE.md)
+    - [Hermes setup guide](/lib/09-harness/ecc/docs-HERMES-SETUP.md)
+    - [manual adaptation guide](/lib/09-harness/ecc/docs-MANUAL-ADAPTATION-GUIDE.md)
+- **Advanced Install Options**
+  - **Find the right components first**
+    - **Configure MCPs**
+      - [docs/MCP-CONNECTOR-POLICY.md](/lib/09-harness/ecc/docs-MCP-CONNECTOR-POLICY.md)
+- **Self-Hosted Models and Custom Endpoints**
+  - **Itô compute CLI bridge**
+    - [ito-compute skill](/lib/09-harness/ecc/_agents-skills-x-api-SKILL.md)
+- **Key Concepts**
+  - **Rules**
+    - [rules/README.md](/lib/09-harness/ecc/_claude-plugin.md)
+- **Guides**
+  - [Commands Quick Reference](/lib/09-harness/ecc/COMMANDS-QUICK-REF.md)
+- **Why Choose ECC?**
+  - **Share context between harnesses**
+    - [Open the Unified Memory workflow →](/lib/09-harness/ecc/_agents-skills-unified-memory-SKILL.md)
+- **Platform Support**
+  - **Cross-tool capability map**
+    - **Limitations**
+      - [ECC 2.0 reference architecture](/lib/09-harness/ecc/docs-ECC-2.0-REFERENCE-ARCHITECTURE.md)
+      - [Migration guide from 1.x](/lib/09-harness/ecc/docs-MIGRATION-1X-TO-2.0.md)
+- **Troubleshooting**
+  - [hooks README](/lib/09-harness/ecc/_kiro-hooks.md)
+  - [TROUBLESHOOTING.md](/lib/09-harness/ecc/TROUBLESHOOTING.md)
+- **Community and Project**
+  - [Skill development guide](/lib/09-harness/ecc/docs-SKILL-DEVELOPMENT-GUIDE.md)
+  - [Skill placement policy](/lib/09-harness/ecc/docs-SKILL-PLACEMENT-POLICY.md)
+- [Everything Claude Code](/lib/09-harness/ecc/README.zh-CN.md)
+- [Soul](/lib/09-harness/ecc/SOUL.md)
+- [Sponsoring ECC](/lib/09-harness/ecc/SPONSORING.md)
+- **.agents**
+  - **skills**
+    - **agent-introspection-debugging**
+      - [Agent Introspection Debugging](/lib/09-harness/ecc/_agents-skills-agent-introspection-debugging-SKILL.md)
+    - **agent-sort**
+      - [Agent Sort](/lib/09-harness/ecc/_agents-skills-agent-sort-SKILL.md)
+    - **api-design**
+      - [API Design Patterns](/lib/09-harness/ecc/_agents-skills-api-design-SKILL.md)
+    - **article-writing**
+      - [Article Writing](/lib/09-harness/ecc/_agents-skills-article-writing-SKILL.md)
+    - **backend-patterns**
+      - [Backend Development Patterns](/lib/09-harness/ecc/_agents-skills-backend-patterns-SKILL.md)
+    - **benchmark-methodology**
+      - [Benchmark Methodology](/lib/09-harness/ecc/_agents-skills-benchmark-methodology-SKILL.md)
+    - **brand-discovery**
+      - [Brand Discovery](/lib/09-harness/ecc/_agents-skills-brand-discovery-SKILL.md)
+      - **references**
+        - [Module 10 — Purpose / Why](/lib/09-harness/ecc/_agents-skills-brand-discovery-references-10_purpose-why.md)
+        - [Module 20 — Positioning](/lib/09-harness/ecc/_agents-skills-brand-discovery-references-20_positioning.md)
+        - [Module 30 — Audience & Niche](/lib/09-harness/ecc/_agents-skills-brand-discovery-references-30_audience-niche.md)
+        - [Module 40 — Personality & Archetype](/lib/09-harness/ecc/_agents-skills-brand-discovery-references-40_personality-archetype.md)
+        - [Module 50 — Voice & Tone](/lib/09-harness/ecc/_agents-skills-brand-discovery-references-50_voice-tone.md)
+        - [Module 60 — Narrative / Story](/lib/09-harness/ecc/_agents-skills-brand-discovery-references-60_narrative-story.md)
+        - [Module 70 — Founder Brand vs Organisation Brand](/lib/09-harness/ecc/_agents-skills-brand-discovery-references-70_founder-tension.md)
+        - [Module 90 — Master Brandbook (Synthesis)](/lib/09-harness/ecc/_agents-skills-brand-discovery-references-90_SYNTHESIS.md)
+    - **brand-voice**
+      - [Brand Voice](/lib/09-harness/ecc/_agents-skills-brand-voice-SKILL.md)
+      - **references**
+        - [Voice Profile Schema](/lib/09-harness/ecc/_agents-skills-brand-voice-references-voice-profile-schema.md)
+    - **bun-runtime**
+      - [Bun Runtime](/lib/09-harness/ecc/_agents-skills-bun-runtime-SKILL.md)
+    - **coding-standards**
+      - [Coding Standards & Best Practices](/lib/09-harness/ecc/_agents-skills-coding-standards-SKILL.md)
+    - **competitive-platform-analysis**
+      - [Competitive Platform Analysis](/lib/09-harness/ecc/_agents-skills-competitive-platform-analysis-SKILL.md)
+    - **competitive-report-structure**
+      - [Competitive Report Structure](/lib/09-harness/ecc/_agents-skills-competitive-report-structure-SKILL.md)
+    - **content-engine**
+      - [Content Engine](/lib/09-harness/ecc/_agents-skills-content-engine-SKILL.md)
+    - **crosspost**
+      - [Crosspost](/lib/09-harness/ecc/_agents-skills-crosspost-SKILL.md)
+    - **deep-research**
+      - [Deep Research](/lib/09-harness/ecc/_agents-skills-deep-research-SKILL.md)
+    - **dmux-workflows**
+      - [dmux Workflows](/lib/09-harness/ecc/_agents-skills-dmux-workflows-SKILL.md)
+    - **documentation-lookup**
+      - [Documentation Lookup (Context7)](/lib/09-harness/ecc/_agents-skills-documentation-lookup-SKILL.md)
+    - **e2e-testing**
+      - [E2E Testing Patterns](/lib/09-harness/ecc/_agents-skills-e2e-testing-SKILL.md)
+    - **eval-harness**
+      - [Eval Harness Skill](/lib/09-harness/ecc/_agents-skills-eval-harness-SKILL.md)
+    - **everything-claude-code**
+      - [Everything Claude Code Conventions](/lib/09-harness/ecc/_agents-skills-everything-claude-code-SKILL.md)
+    - **exa-search**
+      - [Exa Search](/lib/09-harness/ecc/_agents-skills-exa-search-SKILL.md)
+    - **fal-ai-media**
+      - [fal.ai Media Generation](/lib/09-harness/ecc/_agents-skills-fal-ai-media-SKILL.md)
+    - **frontend-patterns**
+      - [Frontend Development Patterns](/lib/09-harness/ecc/_agents-skills-frontend-patterns-SKILL.md)
+    - **frontend-slides**
+      - [Frontend Slides](/lib/09-harness/ecc/_agents-skills-frontend-slides-SKILL.md)
+      - [Style Presets Reference](/lib/09-harness/ecc/_agents-skills-frontend-slides-STYLE_PRESETS.md)
+    - **investor-materials**
+      - [Investor Materials](/lib/09-harness/ecc/_agents-skills-investor-materials-SKILL.md)
+    - **investor-outreach**
+      - [Investor Outreach](/lib/09-harness/ecc/_agents-skills-investor-outreach-SKILL.md)
+    - **market-research**
+      - [Market Research](/lib/09-harness/ecc/_agents-skills-market-research-SKILL.md)
+    - **mcp-server-patterns**
+      - [MCP Server Patterns](/lib/09-harness/ecc/_agents-skills-mcp-server-patterns-SKILL.md)
+    - **mle-workflow**
+      - [Machine Learning Engineering Workflow](/lib/09-harness/ecc/_agents-skills-mle-workflow-SKILL.md)
+    - **nextjs-turbopack**
+      - [Next.js and Turbopack](/lib/09-harness/ecc/_agents-skills-nextjs-turbopack-SKILL.md)
+    - **plan-canvas**
+      - [Plan Canvas](/lib/09-harness/ecc/_agents-skills-plan-canvas-SKILL.md)
+    - **product-capability**
+      - [Product Capability](/lib/09-harness/ecc/_agents-skills-product-capability-SKILL.md)
+    - **security-review**
+      - [Security Review Skill](/lib/09-harness/ecc/_agents-skills-security-review-SKILL.md)
+    - **strategic-compact**
+      - [Strategic Compact Skill](/lib/09-harness/ecc/_agents-skills-strategic-compact-SKILL.md)
+    - **tdd-workflow**
+      - [Test-Driven Development Workflow](/lib/09-harness/ecc/_agents-skills-tdd-workflow-SKILL.md)
+    - **verification-loop**
+      - [Verification Loop Skill](/lib/09-harness/ecc/_agents-skills-verification-loop-SKILL.md)
+    - **video-editing**
+      - [Video Editing](/lib/09-harness/ecc/_agents-skills-video-editing-SKILL.md)
+- **.claude-plugin**
+  - [Plugin Manifest Schema Notes](/lib/09-harness/ecc/_claude-plugin-PLUGIN_SCHEMA_NOTES.md)
+- **.claude**
+  - **commands**
+    - [/add-language-rules](/lib/09-harness/ecc/_claude-commands-add-language-rules.md)
+    - [/database-migration](/lib/09-harness/ecc/_claude-commands-database-migration.md)
+    - [/feature-development](/lib/09-harness/ecc/_claude-commands-feature-development.md)
+  - **enterprise**
+    - [Enterprise Controls](/lib/09-harness/ecc/_claude-enterprise-controls.md)
+  - **research**
+    - [Everything Claude Code Research Playbook](/lib/09-harness/ecc/_claude-research-everything-claude-code-research-playbook.md)
+  - **rules**
+    - [Everything Claude Code Guardrails](/lib/09-harness/ecc/_claude-rules-everything-claude-code-guardrails.md)
+    - [Node.js Rules for everything-claude-code](/lib/09-harness/ecc/_claude-rules-node.md)
+- [Everything Claude Code for CodeBuddy](/lib/09-harness/ecc/_codebuddy.md)
+  - [Everything Claude Code for CodeBuddy](/lib/09-harness/ecc/_codebuddy-README.zh-CN.md)
+- [.codex-plugin — Codex Native Plugin for ECC](/lib/09-harness/ecc/_codex-plugin.md)
+- **.cursor**
+  - **rules**
+    - [Agent Orchestration](/lib/09-harness/ecc/_cursor-rules-common-agents.md)
+    - [Coding Style](/lib/09-harness/ecc/_cursor-rules-common-coding-style.md)
+    - [Development Workflow](/lib/09-harness/ecc/_cursor-rules-common-development-workflow.md)
+    - [Git Workflow](/lib/09-harness/ecc/_cursor-rules-common-git-workflow.md)
+    - [Hooks System](/lib/09-harness/ecc/_cursor-rules-common-hooks.md)
+    - [Common Patterns](/lib/09-harness/ecc/_cursor-rules-common-patterns.md)
+    - [Performance Optimization](/lib/09-harness/ecc/_cursor-rules-common-performance.md)
+    - [Security Guidelines](/lib/09-harness/ecc/_cursor-rules-common-security.md)
+    - [Testing Requirements](/lib/09-harness/ecc/_cursor-rules-common-testing.md)
+    - [Go Coding Style](/lib/09-harness/ecc/_cursor-rules-golang-coding-style.md)
+    - [Go Hooks](/lib/09-harness/ecc/_cursor-rules-golang-hooks.md)
+    - [Go Patterns](/lib/09-harness/ecc/_cursor-rules-golang-patterns.md)
+    - [Go Security](/lib/09-harness/ecc/_cursor-rules-golang-security.md)
+    - [Go Testing](/lib/09-harness/ecc/_cursor-rules-golang-testing.md)
+    - [Kotlin Coding Style](/lib/09-harness/ecc/_cursor-rules-kotlin-coding-style.md)
+    - [Kotlin Hooks](/lib/09-harness/ecc/_cursor-rules-kotlin-hooks.md)
+    - [Kotlin Patterns](/lib/09-harness/ecc/_cursor-rules-kotlin-patterns.md)
+    - [Kotlin Security](/lib/09-harness/ecc/_cursor-rules-kotlin-security.md)
+    - [Kotlin Testing](/lib/09-harness/ecc/_cursor-rules-kotlin-testing.md)
+    - [PHP Coding Style](/lib/09-harness/ecc/_cursor-rules-php-coding-style.md)
+    - [PHP Hooks](/lib/09-harness/ecc/_cursor-rules-php-hooks.md)
+    - [PHP Patterns](/lib/09-harness/ecc/_cursor-rules-php-patterns.md)
+    - [PHP Security](/lib/09-harness/ecc/_cursor-rules-php-security.md)
+    - [PHP Testing](/lib/09-harness/ecc/_cursor-rules-php-testing.md)
+    - [Python Coding Style](/lib/09-harness/ecc/_cursor-rules-python-coding-style.md)
+    - [Python Hooks](/lib/09-harness/ecc/_cursor-rules-python-hooks.md)
+    - [Python Patterns](/lib/09-harness/ecc/_cursor-rules-python-patterns.md)
+    - [Python Security](/lib/09-harness/ecc/_cursor-rules-python-security.md)
+    - [Python Testing](/lib/09-harness/ecc/_cursor-rules-python-testing.md)
+    - [Swift Coding Style](/lib/09-harness/ecc/_cursor-rules-swift-coding-style.md)
+    - [Swift Hooks](/lib/09-harness/ecc/_cursor-rules-swift-hooks.md)
+    - [Swift Patterns](/lib/09-harness/ecc/_cursor-rules-swift-patterns.md)
+    - [Swift Security](/lib/09-harness/ecc/_cursor-rules-swift-security.md)
+    - [Swift Testing](/lib/09-harness/ecc/_cursor-rules-swift-testing.md)
+    - [TypeScript/JavaScript Coding Style](/lib/09-harness/ecc/_cursor-rules-typescript-coding-style.md)
+    - [TypeScript/JavaScript Hooks](/lib/09-harness/ecc/_cursor-rules-typescript-hooks.md)
+    - [TypeScript/JavaScript Patterns](/lib/09-harness/ecc/_cursor-rules-typescript-patterns.md)
+    - [TypeScript/JavaScript Security](/lib/09-harness/ecc/_cursor-rules-typescript-security.md)
+    - [TypeScript/JavaScript Testing](/lib/09-harness/ecc/_cursor-rules-typescript-testing.md)
+  - **skills**
+    - **article-writing**
+      - [Article Writing](/lib/09-harness/ecc/_cursor-skills-article-writing-SKILL.md)
+    - **bun-runtime**
+      - [Bun Runtime](/lib/09-harness/ecc/_cursor-skills-bun-runtime-SKILL.md)
+    - **content-engine**
+      - [Content Engine](/lib/09-harness/ecc/_cursor-skills-content-engine-SKILL.md)
+    - **documentation-lookup**
+      - [Documentation Lookup (Context7)](/lib/09-harness/ecc/_cursor-skills-documentation-lookup-SKILL.md)
+    - **frontend-slides**
+      - [Frontend Slides](/lib/09-harness/ecc/_cursor-skills-frontend-slides-SKILL.md)
+    - **investor-materials**
+      - [Investor Materials](/lib/09-harness/ecc/_cursor-skills-investor-materials-SKILL.md)
+    - **investor-outreach**
+      - [Investor Outreach](/lib/09-harness/ecc/_cursor-skills-investor-outreach-SKILL.md)
+    - **market-research**
+      - [Market Research](/lib/09-harness/ecc/_cursor-skills-market-research-SKILL.md)
+    - **mcp-server-patterns**
+      - [MCP Server Patterns](/lib/09-harness/ecc/_cursor-skills-mcp-server-patterns-SKILL.md)
+    - **nextjs-turbopack**
+      - [Next.js and Turbopack](/lib/09-harness/ecc/_cursor-skills-nextjs-turbopack-SKILL.md)
+    - **unified-memory**
+      - [Unified Memory](/lib/09-harness/ecc/_cursor-skills-unified-memory-SKILL.md)
+- **.gemini**
+  - [ECC for Gemini CLI](/lib/09-harness/ecc/_gemini-GEMINI.md)
+- **.github**
+  - [ECC for GitHub Copilot](/lib/09-harness/ecc/_github-copilot-instructions.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/_github-PULL_REQUEST_TEMPLATE.md)
+  - **prompts**
+    - [Build Error Resolution](/lib/09-harness/ecc/_github-prompts-build-fix.prompt.md)
+    - [Implementation Planner](/lib/09-harness/ecc/_github-prompts-plan.prompt.md)
+    - [Refactor & Cleanup](/lib/09-harness/ecc/_github-prompts-refactor.prompt.md)
+    - [Security Review](/lib/09-harness/ecc/_github-prompts-security-review.prompt.md)
+    - [TDD Workflow](/lib/09-harness/ecc/_github-prompts-tdd.prompt.md)
+- [ECC for Hermes](/lib/09-harness/ecc/_hermes.md)
+- [ECC for Kimi Code CLI](/lib/09-harness/ecc/_kimi.md)
+- [Everything Claude Code for Kiro](/lib/09-harness/ecc/_kiro.md)
+  - **agents**
+    - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/_kiro-agents-architect.md)
+    - [Build Error Resolver](/lib/09-harness/ecc/_kiro-agents-build-error-resolver.md)
+    - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/_kiro-agents-chief-of-staff.md)
+    - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/_kiro-agents-code-reviewer.md)
+    - [C++ Build Error Resolver](/lib/09-harness/ecc/_kiro-agents-cpp-build-resolver.md)
+    - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/_kiro-agents-cpp-reviewer.md)
+    - [Database Reviewer](/lib/09-harness/ecc/_kiro-agents-database-reviewer.md)
+    - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/_kiro-agents-django-reviewer.md)
+    - [Documentation & Codemap Specialist](/lib/09-harness/ecc/_kiro-agents-doc-updater.md)
+    - [E2E Test Runner](/lib/09-harness/ecc/_kiro-agents-e2e-runner.md)
+    - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/_kiro-agents-fsharp-reviewer.md)
+    - [Go Build Error Resolver](/lib/09-harness/ecc/_kiro-agents-go-build-resolver.md)
+    - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/_kiro-agents-go-reviewer.md)
+    - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/_kiro-agents-harness-optimizer.md)
+    - [Java Build Error Resolver](/lib/09-harness/ecc/_kiro-agents-java-build-resolver.md)
+    - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/_kiro-agents-java-reviewer.md)
+    - [Kotlin Build Error Resolver](/lib/09-harness/ecc/_kiro-agents-kotlin-build-resolver.md)
+    - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/_kiro-agents-kotlin-reviewer.md)
+    - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/_kiro-agents-loop-operator.md)
+    - [MLE Reviewer](/lib/09-harness/ecc/_kiro-agents-mle-reviewer.md)
+    - [Performance Optimizer](/lib/09-harness/ecc/_kiro-agents-performance-optimizer.md)
+    - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/_kiro-agents-planner.md)
+    - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/_kiro-agents-python-reviewer.md)
+    - [PyTorch Build/Runtime Error Resolver](/lib/09-harness/ecc/_kiro-agents-pytorch-build-resolver.md)
+    - [React Build Resolver](/lib/09-harness/ecc/_kiro-agents-react-build-resolver.md)
+    - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/_kiro-agents-react-reviewer.md)
+    - [Refactor & Dead Code Cleaner](/lib/09-harness/ecc/_kiro-agents-refactor-cleaner.md)
+    - [Rust Build Error Resolver](/lib/09-harness/ecc/_kiro-agents-rust-build-resolver.md)
+    - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/_kiro-agents-rust-reviewer.md)
+    - [Security Reviewer](/lib/09-harness/ecc/_kiro-agents-security-reviewer.md)
+    - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/_kiro-agents-swift-reviewer.md)
+    - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/_kiro-agents-tdd-guide.md)
+    - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/_kiro-agents-typescript-reviewer.md)
+  - **文档**
+    - [Agentic Workflows: A Deep Dive](/lib/09-harness/ecc/_kiro-docs-longform-guide.md)
+    - [Quick Reference Guide](/lib/09-harness/ecc/_kiro-docs-shortform-guide.md)
+  - **skills**
+    - **agentic-engineering**
+      - [Agentic Engineering](/lib/09-harness/ecc/_kiro-skills-agentic-engineering-SKILL.md)
+    - **api-design**
+      - [API Design Patterns](/lib/09-harness/ecc/_kiro-skills-api-design-SKILL.md)
+    - **autonomous-loops**
+      - [Autonomous Loops Skill](/lib/09-harness/ecc/_kiro-skills-autonomous-loops-SKILL.md)
+    - **backend-patterns**
+      - [Backend Development Patterns](/lib/09-harness/ecc/_kiro-skills-backend-patterns-SKILL.md)
+    - **coding-standards**
+      - [Coding Standards & Best Practices](/lib/09-harness/ecc/_kiro-skills-coding-standards-SKILL.md)
+    - **content-hash-cache-pattern**
+      - [Content-Hash File Cache Pattern](/lib/09-harness/ecc/_kiro-skills-content-hash-cache-pattern-SKILL.md)
+    - **cpp-coding-standards**
+      - [C++ Coding Standards (C++ Core Guidelines)](/lib/09-harness/ecc/_kiro-skills-cpp-coding-standards-SKILL.md)
+    - **cpp-testing**
+      - [C++ Testing (Agent Skill)](/lib/09-harness/ecc/_kiro-skills-cpp-testing-SKILL.md)
+    - **database-migrations**
+      - [Database Migration Patterns](/lib/09-harness/ecc/_kiro-skills-database-migrations-SKILL.md)
+    - **deep-research**
+      - [Deep Research](/lib/09-harness/ecc/_kiro-skills-deep-research-SKILL.md)
+    - **deployment-patterns**
+      - [Deployment Patterns](/lib/09-harness/ecc/_kiro-skills-deployment-patterns-SKILL.md)
+    - **django-patterns**
+      - [Django Development Patterns](/lib/09-harness/ecc/_kiro-skills-django-patterns-SKILL.md)
+    - **django-security**
+      - [Django Security Best Practices](/lib/09-harness/ecc/_kiro-skills-django-security-SKILL.md)
+    - **docker-patterns**
+      - [Docker Patterns](/lib/09-harness/ecc/_kiro-skills-docker-patterns-SKILL.md)
+    - **e2e-testing**
+      - [E2E Testing Patterns](/lib/09-harness/ecc/_kiro-skills-e2e-testing-SKILL.md)
+    - **fastapi-patterns**
+      - [FastAPI Patterns](/lib/09-harness/ecc/_kiro-skills-fastapi-patterns-SKILL.md)
+    - **frontend-patterns**
+      - [Frontend Development Patterns](/lib/09-harness/ecc/_kiro-skills-frontend-patterns-SKILL.md)
+    - **golang-patterns**
+      - [Go Patterns](/lib/09-harness/ecc/_kiro-skills-golang-patterns-SKILL.md)
+    - **golang-testing**
+      - [Go Testing](/lib/09-harness/ecc/_kiro-skills-golang-testing-SKILL.md)
+    - **java-coding-standards**
+      - [Java Coding Standards](/lib/09-harness/ecc/_kiro-skills-java-coding-standards-SKILL.md)
+    - **jpa-patterns**
+      - [JPA/Hibernate Patterns](/lib/09-harness/ecc/_kiro-skills-jpa-patterns-SKILL.md)
+    - **kotlin-patterns**
+      - [Kotlin Development Patterns](/lib/09-harness/ecc/_kiro-skills-kotlin-patterns-SKILL.md)
+    - **kotlin-testing**
+      - [Kotlin Testing Patterns](/lib/09-harness/ecc/_kiro-skills-kotlin-testing-SKILL.md)
+    - **mle-workflow**
+      - [Machine Learning Engineering Workflow](/lib/09-harness/ecc/_kiro-skills-mle-workflow-SKILL.md)
+    - **nestjs-patterns**
+      - [NestJS Development Patterns](/lib/09-harness/ecc/_kiro-skills-nestjs-patterns-SKILL.md)
+    - **nextjs-turbopack**
+      - [Next.js and Turbopack](/lib/09-harness/ecc/_kiro-skills-nextjs-turbopack-SKILL.md)
+    - **postgres-patterns**
+      - [PostgreSQL Patterns](/lib/09-harness/ecc/_kiro-skills-postgres-patterns-SKILL.md)
+    - **python-patterns**
+      - [Python Patterns](/lib/09-harness/ecc/_kiro-skills-python-patterns-SKILL.md)
+    - **python-testing**
+      - [Python Testing](/lib/09-harness/ecc/_kiro-skills-python-testing-SKILL.md)
+    - **pytorch-patterns**
+      - [PyTorch Development Patterns](/lib/09-harness/ecc/_kiro-skills-pytorch-patterns-SKILL.md)
+    - **react-patterns**
+      - [React Patterns](/lib/09-harness/ecc/_kiro-skills-react-patterns-SKILL.md)
+    - **react-testing**
+      - [React Testing](/lib/09-harness/ecc/_kiro-skills-react-testing-SKILL.md)
+    - **rust-patterns**
+      - [Rust Development Patterns](/lib/09-harness/ecc/_kiro-skills-rust-patterns-SKILL.md)
+    - **rust-testing**
+      - [Rust Testing Patterns](/lib/09-harness/ecc/_kiro-skills-rust-testing-SKILL.md)
+    - **search-first**
+      - [/search-first — Research Before You Code](/lib/09-harness/ecc/_kiro-skills-search-first-SKILL.md)
+    - **security-review**
+      - [Security Review Skill](/lib/09-harness/ecc/_kiro-skills-security-review-SKILL.md)
+    - **springboot-patterns**
+      - [Spring Boot Development Patterns](/lib/09-harness/ecc/_kiro-skills-springboot-patterns-SKILL.md)
+    - **springboot-security**
+      - [Spring Boot Security Review](/lib/09-harness/ecc/_kiro-skills-springboot-security-SKILL.md)
+    - **strategic-compact**
+      - [Strategic Compact Skill](/lib/09-harness/ecc/_kiro-skills-strategic-compact-SKILL.md)
+    - **swift-actor-persistence**
+      - [Swift Actors for Thread-Safe Persistence](/lib/09-harness/ecc/_kiro-skills-swift-actor-persistence-SKILL.md)
+    - **swift-protocol-di-testing**
+      - [Swift Protocol-Based Dependency Injection for Testing](/lib/09-harness/ecc/_kiro-skills-swift-protocol-di-testing-SKILL.md)
+    - **tdd-workflow**
+      - [Test-Driven Development Workflow](/lib/09-harness/ecc/_kiro-skills-tdd-workflow-SKILL.md)
+    - **verification-loop**
+      - [Verification Loop Skill](/lib/09-harness/ecc/_kiro-skills-verification-loop-SKILL.md)
+  - **steering**
+    - [Coding Style](/lib/09-harness/ecc/_kiro-steering-coding-style.md)
+    - [C++ Patterns](/lib/09-harness/ecc/_kiro-steering-cpp-patterns.md)
+    - [Development Mode](/lib/09-harness/ecc/_kiro-steering-dev-mode.md)
+    - [Development Workflow](/lib/09-harness/ecc/_kiro-steering-development-workflow.md)
+    - [Git Workflow](/lib/09-harness/ecc/_kiro-steering-git-workflow.md)
+    - [Go Patterns](/lib/09-harness/ecc/_kiro-steering-golang-patterns.md)
+    - [Java Patterns](/lib/09-harness/ecc/_kiro-steering-java-patterns.md)
+    - [Kotlin Patterns](/lib/09-harness/ecc/_kiro-steering-kotlin-patterns.md)
+    - [Lessons Learned](/lib/09-harness/ecc/_kiro-steering-lessons-learned.md)
+    - [Common Patterns](/lib/09-harness/ecc/_kiro-steering-patterns.md)
+    - [Performance Optimization](/lib/09-harness/ecc/_kiro-steering-performance.md)
+    - [PHP Patterns](/lib/09-harness/ecc/_kiro-steering-php-patterns.md)
+    - [Python Patterns](/lib/09-harness/ecc/_kiro-steering-python-patterns.md)
+    - [Research Mode](/lib/09-harness/ecc/_kiro-steering-research-mode.md)
+    - [Review Mode](/lib/09-harness/ecc/_kiro-steering-review-mode.md)
+    - [Ruby Patterns](/lib/09-harness/ecc/_kiro-steering-ruby-patterns.md)
+    - [Rust Patterns](/lib/09-harness/ecc/_kiro-steering-rust-patterns.md)
+    - [Swift Patterns](/lib/09-harness/ecc/_kiro-steering-swift-patterns.md)
+    - [Testing Requirements](/lib/09-harness/ecc/_kiro-steering-testing.md)
+    - [TypeScript/JavaScript Patterns](/lib/09-harness/ecc/_kiro-steering-typescript-patterns.md)
+    - [TypeScript/JavaScript Security](/lib/09-harness/ecc/_kiro-steering-typescript-security.md)
+- [ECC for OpenClaw](/lib/09-harness/ecc/_openclaw.md)
+- [OpenCode ECC Plugin](/lib/09-harness/ecc/_opencode.md)
+  - [Migration Guide: Claude Code to OpenCode](/lib/09-harness/ecc/_opencode-MIGRATION.md)
+  - **commands**
+    - [Build Fix Command](/lib/09-harness/ecc/_opencode-commands-build-fix.md)
+    - [Checkpoint Command](/lib/09-harness/ecc/_opencode-commands-checkpoint.md)
+    - [Code Review Command](/lib/09-harness/ecc/_opencode-commands-code-review.md)
+    - [E2E Command](/lib/09-harness/ecc/_opencode-commands-e2e.md)
+    - [Eval Command](/lib/09-harness/ecc/_opencode-commands-eval.md)
+    - [Evolve Command](/lib/09-harness/ecc/_opencode-commands-evolve.md)
+    - [Go Build Command](/lib/09-harness/ecc/_opencode-commands-go-build.md)
+    - [Go Review Command](/lib/09-harness/ecc/_opencode-commands-go-review.md)
+    - [Go Test Command](/lib/09-harness/ecc/_opencode-commands-go-test.md)
+    - [Instinct Export Command](/lib/09-harness/ecc/_opencode-commands-instinct-export.md)
+    - [Instinct Import Command](/lib/09-harness/ecc/_opencode-commands-instinct-import.md)
+    - [Instinct Status Command](/lib/09-harness/ecc/_opencode-commands-instinct-status.md)
+    - [Learn Command](/lib/09-harness/ecc/_opencode-commands-learn.md)
+    - [Loop Start Command](/lib/09-harness/ecc/_opencode-commands-loop-start.md)
+    - [Loop Status Command](/lib/09-harness/ecc/_opencode-commands-loop-status.md)
+    - [Model Route Command](/lib/09-harness/ecc/_opencode-commands-model-route.md)
+    - [Orchestrate Command](/lib/09-harness/ecc/_opencode-commands-orchestrate.md)
+    - [Plan Command](/lib/09-harness/ecc/_opencode-commands-plan.md)
+    - [Projects Command](/lib/09-harness/ecc/_opencode-commands-projects.md)
+    - [Promote Command](/lib/09-harness/ecc/_opencode-commands-promote.md)
+    - [Quality Gate Command](/lib/09-harness/ecc/_opencode-commands-quality-gate.md)
+    - [Refactor Clean Command](/lib/09-harness/ecc/_opencode-commands-refactor-clean.md)
+    - [Rust Build Command](/lib/09-harness/ecc/_opencode-commands-rust-build.md)
+    - [Rust Review Command](/lib/09-harness/ecc/_opencode-commands-rust-review.md)
+    - [Rust Test Command](/lib/09-harness/ecc/_opencode-commands-rust-test.md)
+    - [Setup Package Manager Command](/lib/09-harness/ecc/_opencode-commands-setup-pm.md)
+    - [Skill Create Command](/lib/09-harness/ecc/_opencode-commands-skill-create.md)
+    - [TDD Command](/lib/09-harness/ecc/_opencode-commands-tdd.md)
+    - [Test Coverage Command](/lib/09-harness/ecc/_opencode-commands-test-coverage.md)
+    - [Update Codemaps Command](/lib/09-harness/ecc/_opencode-commands-update-codemaps.md)
+    - [Update Docs Command](/lib/09-harness/ecc/_opencode-commands-update-docs.md)
+    - [Verify Command](/lib/09-harness/ecc/_opencode-commands-verify.md)
+  - **instructions**
+    - [ECC - OpenCode Instructions](/lib/09-harness/ecc/_opencode-instructions-INSTRUCTIONS.md)
+- [.pi — Pi Coding Agent Integration](/lib/09-harness/ecc/_pi.md)
+- **.qwen**
+  - [Qwen CLI Configuration](/lib/09-harness/ecc/_qwen-QWEN.md)
+- [Everything Claude Code for Trae](/lib/09-harness/ecc/_trae.md)
+  - [Everything Claude Code for Trae](/lib/09-harness/ecc/_trae-README.zh-CN.md)
+- **agents**
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/agents-a11y-architect.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/agents-agent-evaluator.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/agents-architect.md)
+  - [Build Error Resolver](/lib/09-harness/ecc/agents-build-error-resolver.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/agents-chief-of-staff.md)
+  - [Code Architect Agent](/lib/09-harness/ecc/agents-code-architect.md)
+  - [Code Explorer Agent](/lib/09-harness/ecc/agents-code-explorer.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/agents-code-reviewer.md)
+  - [Code Simplifier Agent](/lib/09-harness/ecc/agents-code-simplifier.md)
+  - [Comment Analyzer Agent](/lib/09-harness/ecc/agents-comment-analyzer.md)
+  - [Conversation Analyzer Agent](/lib/09-harness/ecc/agents-conversation-analyzer.md)
+  - [C++ Build Error Resolver](/lib/09-harness/ecc/agents-cpp-build-resolver.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/agents-cpp-reviewer.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/agents-csharp-reviewer.md)
+  - [Dart/Flutter Build Error Resolver](/lib/09-harness/ecc/agents-dart-build-resolver.md)
+  - [Database Reviewer](/lib/09-harness/ecc/agents-database-reviewer.md)
+  - [Django Build Error Resolver](/lib/09-harness/ecc/agents-django-build-resolver.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/agents-django-reviewer.md)
+  - [Documentation & Codemap Specialist](/lib/09-harness/ecc/agents-doc-updater.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/agents-docs-lookup.md)
+  - [E2E Test Runner](/lib/09-harness/ecc/agents-e2e-runner.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/agents-fastapi-reviewer.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/agents-flutter-reviewer.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/agents-fsharp-reviewer.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/agents-gan-evaluator.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/agents-gan-generator.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/agents-gan-planner.md)
+  - [Go Build Error Resolver](/lib/09-harness/ecc/agents-go-build-resolver.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/agents-go-reviewer.md)
+  - [HarmonyOS Application Development Expert](/lib/09-harness/ecc/agents-harmonyos-app-resolver.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/agents-harness-optimizer.md)
+  - [Healthcare Reviewer — Clinical Safety & PHI Compliance](/lib/09-harness/ecc/agents-healthcare-reviewer.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/agents-homelab-architect.md)
+  - [Java Build Error Resolver](/lib/09-harness/ecc/agents-java-build-resolver.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/agents-java-reviewer.md)
+  - [Kotlin Build Error Resolver](/lib/09-harness/ecc/agents-kotlin-build-resolver.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/agents-kotlin-reviewer.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/agents-loop-operator.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/agents-marketing-agent.md)
+  - [MLE Reviewer](/lib/09-harness/ecc/agents-mle-reviewer.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/agents-network-architect.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/agents-network-config-reviewer.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/agents-network-troubleshooter.md)
+  - [Open-Source Forker](/lib/09-harness/ecc/agents-opensource-forker.md)
+  - [Open-Source Packager](/lib/09-harness/ecc/agents-opensource-packager.md)
+  - [Open-Source Sanitizer](/lib/09-harness/ecc/agents-opensource-sanitizer.md)
+  - [Performance Optimizer](/lib/09-harness/ecc/agents-performance-optimizer.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/agents-php-reviewer.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/agents-planner.md)
+  - [PR Test Analyzer Agent](/lib/09-harness/ecc/agents-pr-test-analyzer.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/agents-python-reviewer.md)
+  - [PyTorch Build/Runtime Error Resolver](/lib/09-harness/ecc/agents-pytorch-build-resolver.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/agents-rag-pipeline-reviewer.md)
+  - [React Build Resolver](/lib/09-harness/ecc/agents-react-build-resolver.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/agents-react-reviewer.md)
+  - [Refactor & Dead Code Cleaner](/lib/09-harness/ecc/agents-refactor-cleaner.md)
+  - [Rust Build Error Resolver](/lib/09-harness/ecc/agents-rust-build-resolver.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/agents-rust-reviewer.md)
+  - [Security Reviewer](/lib/09-harness/ecc/agents-security-reviewer.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/agents-seo-specialist.md)
+  - [Silent Failure Hunter Agent](/lib/09-harness/ecc/agents-silent-failure-hunter.md)
+  - [Spec Miner Agent](/lib/09-harness/ecc/agents-spec-miner.md)
+  - [Swift Build Error Resolver](/lib/09-harness/ecc/agents-swift-build-resolver.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/agents-swift-reviewer.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/agents-tdd-guide.md)
+  - [Type Design Analyzer Agent](/lib/09-harness/ecc/agents-type-design-analyzer.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/agents-typescript-reviewer.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/agents-vue-reviewer.md)
+- **commands**
+  - [Aside Command](/lib/09-harness/ecc/commands-aside.md)
+  - [Auto Update](/lib/09-harness/ecc/commands-auto-update.md)
+  - [Build and Fix](/lib/09-harness/ecc/commands-build-fix.md)
+  - [Checkpoint Command](/lib/09-harness/ecc/commands-checkpoint.md)
+  - [Code Review](/lib/09-harness/ecc/commands-code-review.md)
+  - [Cost Report](/lib/09-harness/ecc/commands-cost-report.md)
+  - [C++ Build and Fix](/lib/09-harness/ecc/commands-cpp-build.md)
+  - [C++ Code Review](/lib/09-harness/ecc/commands-cpp-review.md)
+  - [C++ TDD Command](/lib/09-harness/ecc/commands-cpp-test.md)
+  - [/ecc-guide](/lib/09-harness/ecc/commands-ecc-guide.md)
+  - [/epic-claim](/lib/09-harness/ecc/commands-epic-claim.md)
+  - [/epic-publish](/lib/09-harness/ecc/commands-epic-publish.md)
+  - [/epic-sync](/lib/09-harness/ecc/commands-epic-sync.md)
+  - [/epic-unblock](/lib/09-harness/ecc/commands-epic-unblock.md)
+  - [/epic-validate](/lib/09-harness/ecc/commands-epic-validate.md)
+  - [Evolve Command](/lib/09-harness/ecc/commands-evolve.md)
+  - [FastAPI Review](/lib/09-harness/ecc/commands-fastapi-review.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/commands-feature-dev.md)
+  - [Flutter Build and Fix](/lib/09-harness/ecc/commands-flutter-build.md)
+  - [Flutter Code Review](/lib/09-harness/ecc/commands-flutter-review.md)
+  - [Flutter Test](/lib/09-harness/ecc/commands-flutter-test.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/commands-gan-build.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/commands-gan-design.md)
+  - [Go Build and Fix](/lib/09-harness/ecc/commands-go-build.md)
+  - [Go Code Review](/lib/09-harness/ecc/commands-go-review.md)
+  - [Go TDD Command](/lib/09-harness/ecc/commands-go-test.md)
+  - [Gradle Build Fix](/lib/09-harness/ecc/commands-gradle-build.md)
+  - [Harness Audit Command](/lib/09-harness/ecc/commands-harness-audit.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/commands-hookify-configure.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/commands-hookify-help.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/commands-hookify-list.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/commands-hookify.md)
+  - [Instinct Export Command](/lib/09-harness/ecc/commands-instinct-export.md)
+  - [Instinct Import Command](/lib/09-harness/ecc/commands-instinct-import.md)
+  - [Instinct Status Command](/lib/09-harness/ecc/commands-instinct-status.md)
+  - [Jira Command](/lib/09-harness/ecc/commands-jira.md)
+  - [Kotlin Build and Fix](/lib/09-harness/ecc/commands-kotlin-build.md)
+  - [Kotlin Code Review](/lib/09-harness/ecc/commands-kotlin-review.md)
+  - [Kotlin TDD Command](/lib/09-harness/ecc/commands-kotlin-test.md)
+  - [/learn-eval - Extract, Evaluate, then Save](/lib/09-harness/ecc/commands-learn-eval.md)
+  - [/learn - Extract Reusable Patterns](/lib/09-harness/ecc/commands-learn.md)
+  - [Loop Start Command](/lib/09-harness/ecc/commands-loop-start.md)
+  - [Loop Status Command](/lib/09-harness/ecc/commands-loop-status.md)
+  - [/marketing-campaign](/lib/09-harness/ecc/commands-marketing-campaign.md)
+  - [Model Route Command](/lib/09-harness/ecc/commands-model-route.md)
+  - [Backend - Backend-Focused Development](/lib/09-harness/ecc/commands-multi-backend.md)
+  - [Execute - Multi-Model Collaborative Execution](/lib/09-harness/ecc/commands-multi-execute.md)
+  - [Frontend - Frontend-Focused Development](/lib/09-harness/ecc/commands-multi-frontend.md)
+  - [Plan - Multi-Model Collaborative Planning](/lib/09-harness/ecc/commands-multi-plan.md)
+  - [Workflow - Multi-Model Collaborative Development](/lib/09-harness/ecc/commands-multi-workflow.md)
+  - [/orch-add-feature](/lib/09-harness/ecc/commands-orch-add-feature.md)
+  - [/orch-build-mvp](/lib/09-harness/ecc/commands-orch-build-mvp.md)
+  - [/orch-change-feature](/lib/09-harness/ecc/commands-orch-change-feature.md)
+  - [/orch-fix-defect](/lib/09-harness/ecc/commands-orch-fix-defect.md)
+  - [/orch-refine-code](/lib/09-harness/ecc/commands-orch-refine-code.md)
+  - [/orch-review](/lib/09-harness/ecc/commands-orch-review.md)
+  - [Plan Canvas Command](/lib/09-harness/ecc/commands-plan-canvas.md)
+  - [PRD Command](/lib/09-harness/ecc/commands-plan-prd.md)
+  - [Plan Command](/lib/09-harness/ecc/commands-plan.md)
+  - [PM2 Init](/lib/09-harness/ecc/commands-pm2.md)
+  - [Create Pull Request](/lib/09-harness/ecc/commands-pr.md)
+  - [/project-init](/lib/09-harness/ecc/commands-project-init.md)
+  - [Projects Command](/lib/09-harness/ecc/commands-projects.md)
+  - [Promote Command](/lib/09-harness/ecc/commands-promote.md)
+  - [Smart Commit](/lib/09-harness/ecc/commands-prp-commit.md)
+  - [PRP Implement](/lib/09-harness/ecc/commands-prp-implement.md)
+  - [PRP Plan](/lib/09-harness/ecc/commands-prp-plan.md)
+  - [Create Pull Request](/lib/09-harness/ecc/commands-prp-pr.md)
+  - [Product Requirements Document Generator](/lib/09-harness/ecc/commands-prp-prd.md)
+  - [Prune Pending Instincts](/lib/09-harness/ecc/commands-prune.md)
+  - [Python Code Review](/lib/09-harness/ecc/commands-python-review.md)
+  - [Quality Gate Command](/lib/09-harness/ecc/commands-quality-gate.md)
+  - [React Build and Fix](/lib/09-harness/ecc/commands-react-build.md)
+  - [React Code Review](/lib/09-harness/ecc/commands-react-review.md)
+  - [React TDD Command](/lib/09-harness/ecc/commands-react-test.md)
+  - [Refactor Clean](/lib/09-harness/ecc/commands-refactor-clean.md)
+  - [Resume Session Command](/lib/09-harness/ecc/commands-resume-session.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/commands-review-pr.md)
+  - [Rust Build and Fix](/lib/09-harness/ecc/commands-rust-build.md)
+  - [Rust Code Review](/lib/09-harness/ecc/commands-rust-review.md)
+  - [Rust TDD Command](/lib/09-harness/ecc/commands-rust-test.md)
+  - [Santa Loop](/lib/09-harness/ecc/commands-santa-loop.md)
+  - [Save Session Command](/lib/09-harness/ecc/commands-save-session.md)
+  - [Sessions Command](/lib/09-harness/ecc/commands-sessions.md)
+  - [Package Manager Setup](/lib/09-harness/ecc/commands-setup-pm.md)
+  - [/skill-create - Local Skill Generation](/lib/09-harness/ecc/commands-skill-create.md)
+  - [Skill Health Dashboard](/lib/09-harness/ecc/commands-skill-health.md)
+  - [Test Coverage](/lib/09-harness/ecc/commands-test-coverage.md)
+  - [Update Codemaps](/lib/09-harness/ecc/commands-update-codemaps.md)
+  - [Update Documentation](/lib/09-harness/ecc/commands-update-docs.md)
+  - [Vue Code Review](/lib/09-harness/ecc/commands-vue-review.md)
+- **contexts**
+  - [Development Context](/lib/09-harness/ecc/contexts-dev.md)
+  - [Research Context](/lib/09-harness/ecc/contexts-research.md)
+  - [Code Review Context](/lib/09-harness/ecc/contexts-review.md)
+- **文档**
+  - [Atlas Cloud — LLM Provider Guide](/lib/09-harness/ecc/docs-ATLAS-CLOUD-GUIDE.md)
+  - [Capability Surface Selection](/lib/09-harness/ecc/docs-capability-surface-selection.md)
+  - [Command → Agent / Skill Map](/lib/09-harness/ecc/docs-COMMAND-AGENT-MAP.md)
+  - [Continuous Learning v2 Spec](/lib/09-harness/ecc/docs-continuous-learning-v2-spec.md)
+  - [ECC 2.0 GA Roadmap](/lib/09-harness/ecc/docs-ECC-2.0-GA-ROADMAP/index.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/docs-ECC-2.0-GA-ROADMAP/01-2026-07-26_Cross-Harness_Control-Plane_D.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/docs-ECC-2.0-GA-ROADMAP/02-2026-05-20_Delta.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/docs-ECC-2.0-GA-ROADMAP/03-2026-05-19_Delta.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/docs-ECC-2.0-GA-ROADMAP/04-Current_Evidence.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/docs-ECC-2.0-GA-ROADMAP/05-Operating_Rules.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/docs-ECC-2.0-GA-ROADMAP/06-Prompt-To-Artifact_Execution_Checklist.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/docs-ECC-2.0-GA-ROADMAP/07-Execution_Lanes_And_Tracking_Contract.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/docs-ECC-2.0-GA-ROADMAP/08-Reference_Pressure.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/docs-ECC-2.0-GA-ROADMAP/09-Milestones.md)
+  - [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/docs-ECC-2.0-GA-ROADMAP/10-Next_Engineering_Slices.md)
+  - [ECC Pro + AgentShield Security Roadmap](/lib/09-harness/ecc/docs-ECC-PRO-SECURITY-ROADMAP.md)
+  - [Hermes / OpenClaw - ECC Migration](/lib/09-harness/ecc/docs-HERMES-OPENCLAW-MIGRATION.md)
+  - [JoyCode Adapter Guide](/lib/09-harness/ecc/docs-JOYCODE-GUIDE.md)
+  - [Plan-PRD Pattern: Markdown-Staged Planning Flow](/lib/09-harness/ecc/docs-PLAN-PRD-PATTERN.md)
+  - [ECC Roadmap](/lib/09-harness/ecc/docs-ROADMAP.md)
+  - [ECC 2.0 Selective Install Discovery](/lib/09-harness/ecc/docs-SELECTIVE-INSTALL-ARCHITECTURE.md)
+  - [Troubleshooting](/lib/09-harness/ecc/docs-TROUBLESHOOTING.md)
+  - **architecture**
+    - [AgentShield Enterprise Research Roadmap](/lib/09-harness/ecc/docs-architecture-agentshield-enterprise-research-roadmap.md)
+    - [Cross-Harness Architecture](/lib/09-harness/ecc/docs-architecture-cross-harness.md)
+    - [Discussion Response Playbook](/lib/09-harness/ecc/docs-architecture-discussion-response-playbook.md)
+    - [Eval Harness Frameworks](/lib/09-harness/ecc/docs-architecture-eval-harness-frameworks.md)
+    - [Evaluator RAG Prototype](/lib/09-harness/ecc/docs-architecture-evaluator-rag-prototype.md)
+    - [Harness Adapter Compliance Matrix](/lib/09-harness/ecc/docs-architecture-harness-adapter-compliance.md)
+    - [HUD Status And Session Control Contract](/lib/09-harness/ecc/docs-architecture-hud-status-session-control.md)
+    - [ECC 2.0 Observability Readiness](/lib/09-harness/ecc/docs-architecture-observability-readiness.md)
+    - [ECC Platform Value Loop](/lib/09-harness/ecc/docs-architecture-platform-value-loop.md)
+    - [Progress Sync Contract](/lib/09-harness/ecc/docs-architecture-progress-sync-contract.md)
+    - [Session Adapter Contract](/lib/09-harness/ecc/docs-architecture-session-adapter-contract.md)
+  - **business**
+    - [Metrics and Sponsorship Playbook](/lib/09-harness/ecc/docs-business-metrics-and-sponsorship.md)
+    - [Social Launch Copy (X + LinkedIn)](/lib/09-harness/ecc/docs-business-social-launch-copy.md)
+    - [Team Agent Orchestration Content Pack](/lib/09-harness/ecc/docs-business-team-agent-orchestration-content-pack.md)
+  - **design**
+    - [Agent-space distance metric & collision avoidance (Layer 4)](/lib/09-harness/ecc/docs-design-agent-proximity.md)
+    - [ECC × Itô Compute Integration](/lib/09-harness/ecc/docs-design-ecc-ito-compute-integration.md)
+    - [ECC Memory Vault](/lib/09-harness/ecc/docs-design-ecc-memory-vault.md)
+    - [ECC Pro: Hosted Multi-Repo Agent Security Posture Dashboard](/lib/09-harness/ecc/docs-design-ecc-pro-fleet-dashboard.md)
+    - [Plan Canvas — interactive plan review in the browser](/lib/09-harness/ecc/docs-design-plan-canvas.md)
+  - **drafts**
+    - [ECC 1.10.1 release announcement draft](/lib/09-harness/ecc/docs-drafts-release-1.10.1-announcement.md)
 
-开始学习 → [ECC —— Harness 性能优化系统](agents-a11y-architect.md)
+开始学习 → [Agent Introspection Debugging](_agents-skills-agent-introspection-debugging-SKILL.md)

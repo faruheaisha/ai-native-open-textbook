@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/Piebald-AI/claude-code-system-prompts"
-entryUrl: "https://github.com/Piebald-AI/claude-code-system-prompts/blob/3af4c6139aaabb0470440961ca8c8fb871099234/README.md"
+entryUrl: "https://github.com/Piebald-AI/claude-code-system-prompts/blob/3af4c6139aaabb0470440961ca8c8fb871099234/system-prompts/agent-prompt-code-review-part-6-medium-effort-mode.md"
+sourceRel: "system-prompts/agent-prompt-code-review-part-6-medium-effort-mode.md"
+rawUrl: "/raw/10-context-memory/claude-code-system-prompts/system-prompts/agent-prompt-code-review-part-6-medium-effort-mode.md"
+sourceSha256: "6364d48d3b4b4f160ca17c5ee04dee7214a4dec495c4d4102a34dd3598f55aa6"
+pageSha256: "6364d48d3b4b4f160ca17c5ee04dee7214a4dec495c4d4102a34dd3598f55aa6"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -22,15 +27,15 @@ should be one a maintainer would act on.
 ${DIFF_GATHERING_PHASE}
 ## Phase 1 — Find candidates (3 correctness angles + 3 cleanup angles + 1 altitude angle + 1 conventions angle, up to 6 each)
 
-Run **8 independent finder angles** via the ${AGENT_TOOL_NAME} tool. Each
+Run **8 independent finder angles** via the ${AGENT_TOOL_NAME\} tool. Each
 surfaces **up to 6 candidate findings** with `file`, `line`, a one-line
 `summary`, and a concrete `failure_scenario`. ${AGENT_UNAVAILABLE_INSTRUCTIONS}
 
-${BASE_FINDER_ANGLES_BLOCK}
+${BASE_FINDER_ANGLES_BLOCK\}
 ${CLEANUP_AND_ALTITUDE_CANDIDATES_NOTE}
 Pass every candidate with a nameable failure scenario through — finders that
 silently drop half-believed candidates bypass the verify step and are the
 dominant cause of misses.
 
-${THREE_STATE_VERIFY_PHASE}
-${OUTPUT_FORMAT_FN(8)}
+${THREE_STATE_VERIFY_PHASE\}
+$\{OUTPUT_FORMAT_FN(8)\}

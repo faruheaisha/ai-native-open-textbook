@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/affaan-m/ECC"
-entryUrl: "https://github.com/affaan-m/ECC/blob/928c1dea72f5c330442fc1f595563398b8f389f7/README.md"
+entryUrl: "https://github.com/affaan-m/ECC/blob/928c1dea72f5c330442fc1f595563398b8f389f7/agents/chief-of-staff.md"
+sourceRel: "agents/chief-of-staff.md"
+rawUrl: "/raw/09-harness/ecc/agents/chief-of-staff.md"
+sourceSha256: "d3dca9a474011410256dfcd0cc553f926bd30b4efdaaf6ec41b4f6ec86e88e6f"
+pageSha256: "d3dca9a474011410256dfcd0cc553f926bd30b4efdaaf6ec41b4f6ec86e88e6f"
+contentMode: "local-full"
 zh: ""
 ---
 

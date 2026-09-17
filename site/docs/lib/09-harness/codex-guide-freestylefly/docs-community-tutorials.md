@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/freestylefly/CodexGuide"
-entryUrl: "https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/README.md"
+entryUrl: "https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/community/tutorials.md"
+sourceRel: "docs/community/tutorials.md"
+rawUrl: "/raw/09-harness/codex-guide-freestylefly/docs/community/tutorials.md"
+sourceSha256: "cebaa07b7c5e136ac52ef183875eb9067d47e249e9eb77a240b9c2d9f8c81c18"
+pageSha256: "cebaa07b7c5e136ac52ef183875eb9067d47e249e9eb77a240b9c2d9f8c81c18"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -38,4 +43,4 @@ zh: ""
 - 资料形态：开源仓库、网页阅读版、PDF。
 - 最后核对日期：2026-06-25。
 
-这份教程适合作为 CodexGuide 之外的延伸阅读。你可以先在 CodexGuide 中完成[学习路线](/lib/09-harness/codex-guide-freestylefly/docs-guide)和[入口地图](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/start/01-what-is-codex.md)，再用 Codex 橙皮书补充完整书稿式阅读体验。
+这份教程适合作为 CodexGuide 之外的延伸阅读。你可以先在 CodexGuide 中完成[学习路线](/lib/09-harness/codex-guide-freestylefly/docs-guide)和[入口地图](/lib/09-harness/codex-guide-freestylefly/docs-start-01-what-is-codex)，再用 Codex 橙皮书补充完整书稿式阅读体验。

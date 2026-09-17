@@ -1,0 +1,18 @@
+{
+  "id": "07-coding/fastcampus-ai-agent-vibecoding",
+  "volume": "07-coding",
+  "local": "fastcampus-ai-agent-vibecoding",
+  "title": "FastCampus AI Agent 바이브코딩 강의",
+  "kind": "系统课程",
+  "license": "未声明",
+  "licenseLabel": "仅引用",
+  "licenseNote": "不可整篇转载，站内只做导航与引用",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": false,
+  "repo": "Koomook/fastcampus-ai-agent-vibecoding",
+  "site": null,
+  "commit": "b24208b48c3945769327dbcafc2d632189369520",
+  "entryUrl": "https://github.com/Koomook/fastcampus-ai-agent-vibecoding/blob/b24208b48c3945769327dbcafc2d632189369520/README.md",
+  "docs": 177
+}

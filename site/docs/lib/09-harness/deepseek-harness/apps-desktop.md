@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/deepseek-ai/deepseek-harness"
-entryUrl: "https://github.com/deepseek-ai/deepseek-harness/blob/c291e7961a515f6d7af9304e7fd1d257929aef26/README.md"
+entryUrl: "https://github.com/deepseek-ai/deepseek-harness/blob/c291e7961a515f6d7af9304e7fd1d257929aef26/apps/desktop/README.md"
+sourceRel: "apps/desktop/README.md"
+rawUrl: "/raw/09-harness/deepseek-harness/apps/desktop/README.md"
+sourceSha256: "aeaa9c647df70128f3c4e6f2437af86c811f5fbe7e40133e5e2c21aa5c17d51f"
+pageSha256: "aeaa9c647df70128f3c4e6f2437af86c811f5fbe7e40133e5e2c21aa5c17d51f"
+contentMode: "local-full"
 zh: ""
 ---
 

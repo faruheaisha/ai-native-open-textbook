@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/openai/openai-cookbook"
-entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/README.md"
+entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/examples/agents_sdk/migrate-from-claude-agent-sdk/README.md"
+sourceRel: "examples/agents_sdk/migrate-from-claude-agent-sdk/README.md"
+rawUrl: "/raw/08-agents/openai-cookbook/examples/agents_sdk/migrate-from-claude-agent-sdk/README.md"
+sourceSha256: "48971f99248344f472f1704c4d27a4e9f0f73d31c3a346154ae0caaf75a8d841"
+pageSha256: "48971f99248344f472f1704c4d27a4e9f0f73d31c3a346154ae0caaf75a8d841"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -313,7 +318,7 @@ Expected result: The assistant should recommend AS-301 because it's SFO to JFK o
 | ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Agent instruction hierarchy   | `ClaudeAgentOptions(system_prompt=...)`                                                                                                                                                                   | Move the instructions into `Agent(..., instructions=...)`.                                                                                                                                           |
 | Custom business tools         | `@tool(...)` functions registered in `create_sdk_mcp_server(...)`                                                                                                                                         | Move each business action to `@function_tool` with typed parameters and structured return values.                                                                                                    |
-| Tool exposure and permissions | `mcp_servers={...}` exposes the custom travel MCP tools. `tools=[...]` would select built-in Claude Code tools if needed. `allowed_tools=[...]` pre-approves matching calls; it doesn't hide other tools. | Put only the OpenAI tools the agent should see in `Agent.tools`. Use approval for side effects. Treat Claude automatic approval as a permission-policy decision, rather than tool-exposure decision. |
+| Tool exposure and permissions | `mcp_servers=\{...\}` exposes the custom travel MCP tools. `tools=[...]` would select built-in Claude Code tools if needed. `allowed_tools=[...]` pre-approves matching calls; it doesn't hide other tools. | Put only the OpenAI tools the agent should see in `Agent.tools`. Use approval for side effects. Treat Claude automatic approval as a permission-policy decision, rather than tool-exposure decision. |
 | Agent loop                    | `ClaudeSDKClient.query(...)` and `receive_response()`                                                                                                                                                     | Use `Runner.run(...)` and preserve the built-in model/tool loop.                                                                                                                                     |
 
 ## Migration path: Claude baseline to OpenAI

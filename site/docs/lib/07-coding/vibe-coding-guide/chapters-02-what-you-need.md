@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/zhiyue/vibe-coding-guide"
-entryUrl: "https://github.com/zhiyue/vibe-coding-guide/blob/ee8434ce526f629e0ca4ce00f6a66be6372327ac/README.md"
+entryUrl: "https://github.com/zhiyue/vibe-coding-guide/blob/ee8434ce526f629e0ca4ce00f6a66be6372327ac/chapters/02-what-you-need.md"
+sourceRel: "chapters/02-what-you-need.md"
+rawUrl: "/raw/07-coding/vibe-coding-guide/chapters/02-what-you-need.md"
+sourceSha256: "a18cbc047fa2140ec18550356b5efd968096047e53ebedc96281924ace95340f"
+pageSha256: "a18cbc047fa2140ec18550356b5efd968096047e53ebedc96281924ace95340f"
+contentMode: "local-full"
 zh: ""
 ---
 

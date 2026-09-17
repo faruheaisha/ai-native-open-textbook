@@ -8,13 +8,18 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide"
-entryUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide/blob/57673726396dd94acb23bdb1e67f27c78ee85a8e/README.md"
+entryUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide/blob/57673726396dd94acb23bdb1e67f27c78ee85a8e/pages/agents/function-calling.en.mdx"
+sourceRel: "pages/agents/function-calling.en.mdx"
+rawUrl: "/raw/10-context-memory/prompt-engineering-guide/pages/agents/function-calling.en.mdx"
+sourceSha256: "4368a429a4cf37d2655fa0150326980b6e9bfd76b95fd8b72e6518a2d069f52c"
+pageSha256: "4368a429a4cf37d2655fa0150326980b6e9bfd76b95fd8b72e6518a2d069f52c"
+contentMode: "local-full"
 zh: ""
 ---
 
 # Function Calling in AI Agents
 
-import { Callout } from 'nextra/components'
+import \{ Callout \} from 'nextra/components'
 
 Function calling (also known as tool calling) is one of the core capabilities that powers modern LLM-based agents. Understanding how function calling works behind the scenes is essential for building effective AI agents and debugging them when things go wrong.
 

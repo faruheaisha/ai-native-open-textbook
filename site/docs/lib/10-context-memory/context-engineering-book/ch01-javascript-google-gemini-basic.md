@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/bonigarcia/context-engineering"
-entryUrl: "https://github.com/bonigarcia/context-engineering/blob/46719154489e410b509db4fb69ab1c29fb3362a0/README.md"
+entryUrl: "https://github.com/bonigarcia/context-engineering/blob/46719154489e410b509db4fb69ab1c29fb3362a0/ch01/javascript/google-gemini-basic/README.md"
+sourceRel: "ch01/javascript/google-gemini-basic/README.md"
+rawUrl: "/raw/10-context-memory/context-engineering-book/ch01/javascript/google-gemini-basic/README.md"
+sourceSha256: "f2b29e160728173e60f0af4552f8f860fe7960c26ba4a022ff1728f9cb09ac48"
+pageSha256: "f2b29e160728173e60f0af4552f8f860fe7960c26ba4a022ff1728f9cb09ac48"
+contentMode: "local-full"
 zh: ""
 ---
 

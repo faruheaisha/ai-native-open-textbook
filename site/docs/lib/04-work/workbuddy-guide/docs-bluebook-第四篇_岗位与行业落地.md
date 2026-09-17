@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/AlephAITech/WorkBuddyGuide"
-entryUrl: "https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89da368fe208425ff50e121fe/README.md"
+entryUrl: "https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第四篇%20岗位与行业落地/index.md"
+sourceRel: "docs/bluebook/第四篇 岗位与行业落地/index.md"
+rawUrl: "/raw/04-work/workbuddy-guide/docs/bluebook/第四篇 岗位与行业落地/index.md"
+sourceSha256: "7f0711fa3b401f2e78f1e0008626df1a7ae4c5049f7467f167af5bba4db0c343"
+pageSha256: "7f0711fa3b401f2e78f1e0008626df1a7ae4c5049f7467f167af5bba4db0c343"
+contentMode: "local-full"
 zh: ""
 ---
 

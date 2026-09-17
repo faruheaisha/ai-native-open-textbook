@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/addyosmani/agent-skills"
-entryUrl: "https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/README.md"
+entryUrl: "https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/docs/advanced-per-agent-configuration.md"
+sourceRel: "docs/advanced-per-agent-configuration.md"
+rawUrl: "/raw/10-context-memory/agent-skills-addyosmani/docs/advanced-per-agent-configuration.md"
+sourceSha256: "93b2a53ca052b5e24b7382caf9438abdae7d511d7b16aedf71f35e36e9adc60d"
+pageSha256: "93b2a53ca052b5e24b7382caf9438abdae7d511d7b16aedf71f35e36e9adc60d"
+contentMode: "local-full"
 zh: ""
 ---
 

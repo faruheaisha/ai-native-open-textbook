@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "04-work"
 sourceUrl: "https://github.com/zjp1997720/zhijian-ai-bluebook-workbuddy-harness"
-entryUrl: "https://github.com/zjp1997720/zhijian-ai-bluebook-workbuddy-harness/blob/6ac68cd42a01add16568d1ab9cf2399822467fad/01-前言.md"
+entryUrl: "https://github.com/zjp1997720/zhijian-ai-bluebook-workbuddy-harness/blob/6ac68cd42a01add16568d1ab9cf2399822467fad/11-第%2010%20章%20会话与证据：JSONL、traces%20与审计日志.md"
+sourceRel: "11-第 10 章 会话与证据：JSONL、traces 与审计日志.md"
+rawUrl: "/raw/04-work/zhijian-ai-bluebook-workbuddy-harness/11-第 10 章 会话与证据：JSONL、traces 与审计日志.md"
+sourceSha256: "6c506d30d6fed46cf978422cc1bdd6bf2956d26a7454a402d9b3600f80d621c0"
+pageSha256: "6c506d30d6fed46cf978422cc1bdd6bf2956d26a7454a402d9b3600f80d621c0"
+contentMode: "local-full"
 zh: ""
 ---
 

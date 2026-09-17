@@ -8,13 +8,18 @@ lang: "英文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/vibefast-app/vibefast-docs"
-entryUrl: "https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/README.md"
+entryUrl: "https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/02-how-to-setup-vibecoding-environment-en.md"
+sourceRel: "en/02-how-to-setup-vibecoding-environment-en.md"
+rawUrl: "/raw/07-coding/vibefast-docs/en/02-how-to-setup-vibecoding-environment-en.md"
+sourceSha256: "5cb93c4455dc68778d8948a5f23895cbab2ec52c7eab5cbe261dd9241ee8c0a1"
+pageSha256: "5cb93c4455dc68778d8948a5f23895cbab2ec52c7eab5cbe261dd9241ee8c0a1"
+contentMode: "local-full"
 zh: ""
 ---
 
 # Getting Started with Vibe Coding: Setting Up Your Development Environment from Scratch
 
-[English](/lib/07-coding/vibefast-docs/en-02-how-to-setup-vibecoding-environment-en) · [繁中](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/zh/02-how-to-setup-vibecoding-environment-zh.md) · [Español](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/es/02-how-to-setup-vibecoding-environment-es.md) · [日本語](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/jp/02-how-to-setup-vibecoding-environment-jp.md) · [Português (BR)](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/pt-br/02-how-to-setup-vibecoding-environment-pt-br.md)
+[English](/lib/07-coding/vibefast-docs/en-02-how-to-setup-vibecoding-environment-en) · [繁中](/lib/07-coding/vibefast-docs/zh-02-how-to-setup-vibecoding-environment-zh) · [Español](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/es/02-how-to-setup-vibecoding-environment-es.md) · [日本語](/lib/07-coding/vibefast-docs/jp-02-how-to-setup-vibecoding-environment-jp) · [Português (BR)](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/pt-br/02-how-to-setup-vibecoding-environment-pt-br.md)
 
 **Author:** Danko Peng ([@dankopeng](https://x.com/dankopeng))  
 **Updated:** March 2026  

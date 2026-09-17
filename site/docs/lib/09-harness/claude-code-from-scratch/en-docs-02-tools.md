@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/Windy3f3f3f3f/claude-code-from-scratch"
-entryUrl: "https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/README.md"
+entryUrl: "https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/en/docs/02-tools.md"
+sourceRel: "en/docs/02-tools.md"
+rawUrl: "/raw/09-harness/claude-code-from-scratch/en/docs/02-tools.md"
+sourceSha256: "8e010335c35a71ed720921c0749cd08f9d0edac9fa3bb39648a8a8f8b2e67a12"
+pageSha256: "8e010335c35a71ed720921c0749cd08f9d0edac9fa3bb39648a8a8f8b2e67a12"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -83,7 +88,7 @@ These definitions are passed directly to the Anthropic API's `tools` parameter -
 
 ### Tool Execution: Switch Dispatcher
 
-The `default` branch returns `Unknown tool: ${name}` instead of throwing an exception -- embodying the "errors are data" design, allowing the model to self-correct hallucinated tool names.
+The `default` branch returns `Unknown tool: $\{name\}` instead of throwing an exception -- embodying the "errors are data" design, allowing the model to self-correct hallucinated tool names.
 
 ### Tool-by-Tool Walkthrough
 

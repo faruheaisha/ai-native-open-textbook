@@ -1,6 +1,6 @@
 {
   "schema": "textbook-catalog/v1",
-  "generatedAt": "2026-09-13",
+  "generatedAt": "2026-09-16",
   "sourceIndexGeneratedAt": "2026-09-10",
   "note": "本目录只做编排，不含课程正文；正文一律引用 upstream/ 原始快照。",
   "kindOrder": [

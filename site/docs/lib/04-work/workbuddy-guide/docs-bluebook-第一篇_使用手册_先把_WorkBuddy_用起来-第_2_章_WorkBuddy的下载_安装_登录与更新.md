@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/AlephAITech/WorkBuddyGuide"
-entryUrl: "https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89da368fe208425ff50e121fe/README.md"
+entryUrl: "https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第一篇%20使用手册：先把%20WorkBuddy%20用起来/第%202%20章%20WorkBuddy的下载、安装、登录与更新/index.md"
+sourceRel: "docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 2 章 WorkBuddy的下载、安装、登录与更新/index.md"
+rawUrl: "/raw/04-work/workbuddy-guide/docs/bluebook/第一篇 使用手册：先把 WorkBuddy 用起来/第 2 章 WorkBuddy的下载、安装、登录与更新/index.md"
+sourceSha256: "0ecf0e6eb90cd6ba2e6b1c3da64a686482af261c16deb3ea0a22698431f6fc77"
+pageSha256: "0ecf0e6eb90cd6ba2e6b1c3da64a686482af261c16deb3ea0a22698431f6fc77"
+contentMode: "local-full"
 zh: ""
 ---
 

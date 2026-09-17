@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/QoderAI/better-harness"
-entryUrl: "https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/README.md"
+entryUrl: "https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/ARCHITECTURE.md"
+sourceRel: "docs/ARCHITECTURE.md"
+rawUrl: "/raw/09-harness/better-harness/docs/ARCHITECTURE.md"
+sourceSha256: "ff1a9d34bcc208f0d1f1239a58213aea2819d04412d3d7e4004fbdc77b7c7fc8"
+pageSha256: "ff1a9d34bcc208f0d1f1239a58213aea2819d04412d3d7e4004fbdc77b7c7fc8"
+contentMode: "local-full"
 zh: "on"
 ---
 
@@ -18,7 +23,7 @@ This file is the accepted repository-wide owner of architecture principles,
 ownership boundaries, and AI-facing routing rules. Detailed decisions are
 indexed in [Architecture Decision Records](/lib/09-harness/better-harness/docs-adrs). The
 [directory-structure ADR](/lib/09-harness/better-harness/docs-adrs-directory-structure) owns directory status;
-the [developer-experience-system ADR](/lib/09-harness/better-harness/docs-adrs-developer-experience-system) owns
+the [developer-experience-system ADR](/lib/09-harness/better-harness/docs-adrs-developer-experience-system/index) owns
 the target journey, contract, evidence, governance, and DX-measurement system.
 
 <div class="tb-zh"><p>本文件是全仓库公认的所有者，掌管架构原则、归属边界以及面向 AI 的路由规则。具体决策索引在架构决策记录中。目录结构 ADR 掌管目录状态；开发者体验系统 ADR 掌管目标旅程、契约、证据、治理以及 DX 度量体系。</p></div>
@@ -181,7 +186,7 @@ the target journey, contract, evidence, governance, and DX-measurement system.
 ## Developer Experience Routing
 
 - Read the
-  [Developer Experience System ADR](/lib/09-harness/better-harness/docs-adrs-developer-experience-system) before
+  [Developer Experience System ADR](/lib/09-harness/better-harness/docs-adrs-developer-experience-system/index) before
   changing public product routes, Quickstarts, CLI/help/error contracts,
   Preview prerequisites, host support declarations, diagnostics, support or
   privacy behavior, release claims, or DX metrics.

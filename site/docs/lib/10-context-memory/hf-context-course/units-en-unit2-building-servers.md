@@ -1,0 +1,417 @@
+---
+title: "Building MCP Servers with Python"
+sourceId: "10-context-memory/hf-context-course"
+sourceTitle: "The Context Course"
+sourceKind: "系统课程"
+licenseLabel: "仅引用"
+lang: "英文"
+tier: 1
+volume: "10-context-memory"
+sourceUrl: "https://github.com/huggingface/context-course"
+entryUrl: "https://github.com/huggingface/context-course/blob/0448a7ca721a63a81531e1ba94f46f897c70645b/units/en/unit2/building-servers.mdx"
+sourceRel: "units/en/unit2/building-servers.mdx"
+rawUrl: "/raw/10-context-memory/hf-context-course/units/en/unit2/building-servers.mdx"
+sourceSha256: "ec378731e4e9cca064966f45fe1624f025c9033a589de051b46173767dc09eb4"
+pageSha256: "ec378731e4e9cca064966f45fe1624f025c9033a589de051b46173767dc09eb4"
+contentMode: "local-full"
+zh: ""
+---
+
+# Building MCP Servers with Python
+
+With the architecture in hand, this lesson builds real servers — first with the FastMCP SDK for lightweight servers, then with Gradio for servers that come with a web UI.
+
+<iframe
+    src="https://context-course-mcp-transports.static.hf.space"
+    frameborder="0"
+    width="850"
+    height="450"
+></iframe>
+
+## Setting Up FastMCP
+
+FastMCP is the easiest way to build MCP servers. Install it with:
+
+```bash
+pip install "mcp[cli]"
+```
+
+The `mcp` package includes the FastMCP SDK; the `[cli]` extra adds the `mcp` command used for testing further down.
+
+## Creating Your First Server with FastMCP
+
+Let's build a simple calculator server. Create `calculator_server.py`:
+
+```python
+from mcp.server.fastmcp import FastMCP
+
+mcp = FastMCP("calculator")
+
+@mcp.tool()
+def add(a: int, b: int) -> int:
+    """Add two numbers together."""
+    return a + b
+
+@mcp.tool()
+def multiply(a: int, b: int) -> int:
+    """Multiply two numbers together."""
+    return a * b
+
+if __name__ == "__main__":
+    mcp.run()
+```
+
+FastMCP automatically:
+- Infers parameter types from function signatures
+- Generates JSON schemas from docstrings
+- Creates tool descriptions from function docstrings
+- Uses stdio transport by default
+- Handles the JSON-RPC protocol for you
+
+Run it:
+```bash
+python calculator_server.py
+```
+
+The server listens on stdin/stdout for JSON-RPC requests.
+
+## More Complex Tools with Parameters
+
+Let's build a tool that reads and analyzes files:
+
+```python
+from mcp.server.fastmcp import FastMCP
+import os
+
+mcp = FastMCP("file-analyzer")
+
+@mcp.tool()
+def read_file(path: str) -> str:
+    """Read the contents of a file.
+    
+    Args:
+        path: The absolute file path to read
+    
+    Returns:
+        The file contents as a string
+    """
+    try:
+        with open(path, 'r') as f:
+            return f.read()
+    except FileNotFoundError:
+        return f"Error: File not found at {path}"
+    except Exception as e:
+        return f"Error reading file: {str(e)}"
+
+@mcp.tool()
+def count_lines(path: str) -> int:
+    """Count the number of lines in a file.
+    
+    Args:
+        path: The absolute file path
+    
+    Returns:
+        The number of lines in the file
+    """
+    try:
+        with open(path, 'r') as f:
+            return len(f.readlines())
+    except Exception as e:
+        return -1
+
+@mcp.tool()
+def list_directory(path: str) -> list[str]:
+    """List files in a directory.
+    
+    Args:
+        path: The directory path
+    
+    Returns:
+        A list of file names in the directory
+    """
+    try:
+        return os.listdir(path)
+    except Exception as e:
+        return []
+
+if __name__ == "__main__":
+    mcp.run()
+```
+
+Key features:
+- **Docstrings become descriptions** — The first line is the tool description; additional sections describe parameters
+- **Type hints enable validation** — Parameters are automatically validated based on types
+- **Error handling** — Return meaningful error messages instead of raising exceptions
+- **Return types** — FastMCP infers what results to return
+
+## Adding Resources to Your Server
+
+Resources provide read-only data. Use the `@mcp.resource()` decorator:
+
+```python
+from mcp.server.fastmcp import FastMCP
+
+mcp = FastMCP("documentation")
+
+# Define resources
+@mcp.resource("doc://api/overview")
+def api_overview() -> str:
+    """API overview and getting started guide."""
+    return """# API Overview
+
+This API provides tools for user management, data querying, and report generation.
+
+## Getting Started
+1. Authenticate with your API token
+2. Call endpoints with appropriate parameters
+3. Handle responses and errors gracefully
+
+## Rate Limits
+- 100 requests per minute per API key
+- Burst limit: 10 requests per second
+"""
+
+@mcp.resource("doc://api/endpoints")
+def api_endpoints() -> str:
+    """Complete list of API endpoints."""
+    return """# API Endpoints
+
+## Users
+- GET /users - List all users
+- POST /users - Create a user
+- GET /users/{id} - Get a specific user
+- PUT /users/{id} - Update a user
+
+## Data
+- POST /query - Execute a database query
+- GET /data/{id} - Retrieve data
+
+## Reports
+- GET /reports - List reports
+- POST /reports - Generate a report
+"""
+
+@mcp.tool()
+def get_api_status() -> dict:
+    """Check the current API status."""
+    return {
+        "status": "operational",
+        "uptime_percent": 99.99,
+        "response_time_ms": 45
+    }
+
+if __name__ == "__main__":
+    mcp.run()
+```
+
+Resources:
+- Are identified by URIs (e.g., `doc://api/overview`)
+- Return static or semi-static content
+- Can be text, JSON, or any string content
+- Don't require parameters (unlike tools)
+- Are always available to agents
+
+## Adding Prompts
+
+Prompts are instruction templates that guide agent behavior:
+
+```python
+from mcp.server.fastmcp import FastMCP
+
+mcp = FastMCP("prompts-server")
+
+@mcp.prompt()
+def code_review_prompt(language: str = "python") -> str:
+    """Template for reviewing code in a specific language."""
+    return f"""You are an expert {language} code reviewer. 
+Analyze the provided code and provide feedback on:
+1. Correctness and logic
+2. Performance and efficiency
+3. Code style and readability
+4. Security implications
+5. Testing coverage
+
+Be constructive and suggest improvements."""
+
+@mcp.prompt()
+def security_audit_prompt() -> str:
+    """Template for security audits."""
+    return """Conduct a security audit of the provided code or system. Check for:
+1. Authentication vulnerabilities
+2. Authorization issues
+3. Data validation gaps
+4. SQL injection or injection attacks
+5. Insecure dependencies
+6. Sensitive information exposure
+
+Rate each finding by severity (critical, high, medium, low)."""
+
+@mcp.tool()
+def get_available_prompts() -> list[str]:
+    """List available prompt templates."""
+    return ["code_review_prompt", "security_audit_prompt"]
+
+if __name__ == "__main__":
+    mcp.run()
+```
+
+## Error Handling in FastMCP
+
+Handle errors gracefully by returning error messages:
+
+```python
+from mcp.server.fastmcp import FastMCP
+
+mcp = FastMCP("safe-operations")
+
+@mcp.tool()
+def divide(numerator: float, denominator: float) -> str:
+    """Divide two numbers.
+    
+    Args:
+        numerator: The dividend
+        denominator: The divisor
+    
+    Returns:
+        The quotient or an error message
+    """
+    try:
+        if denominator == 0:
+            return "Error: Cannot divide by zero"
+        result = numerator / denominator
+        return f"Result: {result}"
+    except Exception as e:
+        return f"Error: {str(e)}"
+
+@mcp.tool()
+def parse_json(data: str) -> str:
+    """Parse a JSON string.
+    
+    Args:
+        data: JSON string to parse
+    
+    Returns:
+        Parsed JSON or error message
+    """
+    import json
+    try:
+        parsed = json.loads(data)
+        return f"Valid JSON: {parsed}"
+    except json.JSONDecodeError as e:
+        return f"Invalid JSON: {str(e)}"
+
+if __name__ == "__main__":
+    mcp.run()
+```
+
+Best practices:
+- Return error messages instead of raising exceptions
+- Include helpful context in error messages
+- Validate input parameters before using them
+- Log failures for debugging
+
+## Testing Your Server Locally
+
+### Run the server directly
+
+```bash
+python calculator_server.py
+```
+
+This starts the server on stdio. You can send JSON-RPC messages on stdin, but it's usually easier to use one of the inspectors below.
+
+### MCP Inspector (recommended)
+
+The official inspector is a web UI that connects to any MCP server and lets you call tools, read resources, and fetch prompts.
+
+Using the `mcp` CLI from `mcp[cli]`:
+
+```bash
+mcp dev calculator_server.py
+```
+
+Or run the inspector directly with npx:
+
+```bash
+npx @modelcontextprotocol/inspector python calculator_server.py
+```
+
+Both open the inspector in your browser and connect it to the server over stdio.
+
+## Gradio MCP Integration
+
+FastMCP is the better default when you want a pure MCP server. Gradio is useful when you want the same functions to be usable by both agents and humans in a browser.
+
+Install Gradio with MCP support:
+
+```bash
+pip install "gradio[mcp]"
+```
+
+Create a Gradio app with MCP:
+
+```python
+import gradio as gr
+
+def letter_counter(word: str, letter: str) -> int:
+    """Count occurrences of a letter in text.
+
+    Args:
+        word: The input text
+        letter: The letter to search for
+
+    Returns:
+        The count of the letter
+    """
+    return word.lower().count(letter.lower())
+
+def reverse_text(text: str) -> str:
+    """Reverse a string.
+
+    Args:
+        text: The input text
+
+    Returns:
+        The reversed text
+    """
+    return text[::-1]
+
+# Create UI
+with gr.Blocks() as demo:
+    with gr.Tab("Letter Counter"):
+        word_input = gr.Textbox(label="Enter text")
+        letter_input = gr.Textbox(label="Enter letter")
+        count_output = gr.Number(label="Count")
+        gr.Button("Count").click(letter_counter, [word_input, letter_input], count_output)
+
+    with gr.Tab("Text Reversal"):
+        text_input = gr.Textbox(label="Enter text")
+        reversed_output = gr.Textbox(label="Reversed")
+        gr.Button("Reverse").click(reverse_text, [text_input], reversed_output)
+
+if __name__ == "__main__":
+    demo.launch(mcp_server=True)
+```
+
+Launch with `mcp_server=True` to automatically:
+- Convert functions into MCP tools
+- Create a web UI at `http://localhost:7860`
+- Expose an MCP endpoint at `http://localhost:7860/gradio_api/mcp/`
+- Handle JSON-RPC serialization automatically
+
+Your functions are now both web UI components AND MCP tools.
+
+> [!NOTE]
+> Exposing tools through a UI is useful because:
+> - Non-agent users can interact with the same functions in a browser
+> - You get a quick human test harness for the tools
+>
+> Agent-only setups do **not** require UI.
+
+For `@gr.mcp.resource()`, `@gr.api()`, deployment, and authentication details, continue to the dedicated Gradio lesson next. This page only needs the core idea: `mcp_server=True` turns the same functions into both browser handlers and MCP tools.
+
+## Key Takeaways
+
+FastMCP turns docstrings into tool descriptions and type hints into JSON schemas. Tools are callable functions, resources expose read-only data through URIs, and prompts serve as instruction templates. Finish the pure-server path first: add error handling, test locally, and only then decide whether you want a browser UI. If you do, Gradio adds one with `mcp_server=True`, and the next lesson goes deeper on Gradio-specific MCP features.
+
+Next we'll point our agents at these servers.

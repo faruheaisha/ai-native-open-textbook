@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide"
-entryUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/README.md"
+entryUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/docs/competitive-analysis.md"
+sourceRel: "docs/competitive-analysis.md"
+rawUrl: "/raw/09-harness/claude-code-ultimate-guide/docs/competitive-analysis.md"
+sourceSha256: "e65d7c60cd4c7e7cc36e08f7674749abb7ec9788b3d8d18fcdd5d6c4c871e40c"
+pageSha256: "e65d7c60cd4c7e7cc36e08f7674749abb7ec9788b3d8d18fcdd5d6c4c871e40c"
+contentMode: "local-full"
 zh: ""
 ---
 

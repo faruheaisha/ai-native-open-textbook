@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "10-context-memory"
 sourceUrl: "https://github.com/huggingface/mcp-course"
-entryUrl: "https://github.com/huggingface/mcp-course/blob/e706ccc0d7abe73c31813979c3451c0e31c8a464/README.md"
+entryUrl: "https://github.com/huggingface/mcp-course/blob/e706ccc0d7abe73c31813979c3451c0e31c8a464/units/en/unit2/clients.mdx"
+sourceRel: "units/en/unit2/clients.mdx"
+rawUrl: "/raw/10-context-memory/huggingface-mcp-course/units/en/unit2/clients.mdx"
+sourceSha256: "f3521c4410a2c15cf92ae31b2d99323ed447b652eabb23a155c6f5e21674b1a2"
+pageSha256: "f3521c4410a2c15cf92ae31b2d99323ed447b652eabb23a155c6f5e21674b1a2"
+contentMode: "local-full"
 zh: "on"
 ---
 

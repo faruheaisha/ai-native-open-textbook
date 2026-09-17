@@ -1,0 +1,67 @@
+---
+title: "Development Agent with Gemini Enterprise Agent Platform"
+sourceId: "10-context-memory/context-engineering-book"
+sourceTitle: "Context Engineering（Bonigarcia 教程）"
+sourceKind: "工程手册"
+licenseLabel: "可转载"
+lang: "英文"
+tier: 2
+volume: "10-context-memory"
+sourceUrl: "https://github.com/bonigarcia/context-engineering"
+entryUrl: "https://github.com/bonigarcia/context-engineering/blob/46719154489e410b509db4fb69ab1c29fb3362a0/ch10/gemini_agent_platform/dev_agent/README.md"
+sourceRel: "ch10/gemini_agent_platform/dev_agent/README.md"
+rawUrl: "/raw/10-context-memory/context-engineering-book/ch10/gemini_agent_platform/dev_agent/README.md"
+sourceSha256: "d3fc4c3be6841c883664ff6200b8ace8d44d267f69d0b9d908dae4011aa2d081"
+pageSha256: "d3fc4c3be6841c883664ff6200b8ace8d44d267f69d0b9d908dae4011aa2d081"
+contentMode: "local-full"
+zh: ""
+---
+
+# Development Agent with Gemini Enterprise Agent Platform
+
+This example deploys a software development agent built with the [Agent Development Kit](https://google.github.io/adk-docs/) to the Agent Runtime of [Gemini Enterprise Agent Platform](https://cloud.google.com/products/gemini-enterprise-agent-platform). The agent reads a feature spec, generates implementation code, and writes tests, all within a single managed session.
+
+The agent definition stays portable, and only the deployment call is specific to the service. The managed runtime provides session isolation and memory across turns.
+
+## Requirements
+
+- [Python](https://www.python.org/) 3.10+
+- A Google Cloud project with the Gemini Enterprise Agent Platform API (`aiplatform.googleapis.com`) enabled
+- Application Default Credentials configured (`gcloud auth application-default login`)
+- A Cloud Storage bucket used for staging
+
+## Steps for running this example in the shell
+
+1. Install dependencies:
+```bash
+python -m venv .venv
+
+# macOS/Linux:
+source .venv/bin/activate
+
+# Windows Command Prompt:
+.venv\Scripts\activate.bat
+
+# Windows PowerShell:
+.venv\Scripts\Activate.ps1
+
+pip install -r requirements.txt
+```
+
+2. Export the project settings as environment variables:
+```bash
+export GOOGLE_CLOUD_PROJECT="your-project-id"
+export GOOGLE_CLOUD_LOCATION="us-central1"
+export STAGING_BUCKET="gs://your-staging-bucket"
+```
+
+3. Run the script:
+```bash
+python dev_agent.py
+```
+
+## Output
+
+The script creates a remote agent in the managed runtime and streams the agent's reasoning and tool calls as it reads `spec.md`, generates the implementation, and writes the test file. Deployment takes several minutes the first time, and the resulting agent remains available until deleted.
+
+> Note: deploying to a managed runtime creates billable cloud resources. The spec file `spec.md` in this folder is a sample you can modify to test different feature descriptions.

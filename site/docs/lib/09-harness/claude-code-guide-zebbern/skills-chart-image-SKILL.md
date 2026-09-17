@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/zebbern/claude-code-guide"
-entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/README.md"
+entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/skills/chart-image/SKILL.md"
+sourceRel: "skills/chart-image/SKILL.md"
+rawUrl: "/raw/09-harness/claude-code-guide-zebbern/skills/chart-image/SKILL.md"
+sourceSha256: "7399868d1e6ed2193b0294a927078b96e0626dd2ab654826f0b7f8dd8103a873"
+pageSha256: "7399868d1e6ed2193b0294a927078b96e0626dd2ab654826f0b7f8dd8103a873"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/openai/openai-agents-python"
-entryUrl: "https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/README.md"
+entryUrl: "https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/quickstart.md"
+sourceRel: "docs/quickstart.md"
+rawUrl: "/raw/08-agents/openai-agents-python/docs/quickstart.md"
+sourceSha256: "344f89e0c76f46e2bb3702800a0553fa03961d0e6c2272f2eedf74ec99902bba"
+pageSha256: "344f89e0c76f46e2bb3702800a0553fa03961d0e6c2272f2eedf74ec99902bba"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -104,19 +109,19 @@ if __name__ == "__main__":
     asyncio.run(main())
 ```
 
-For a second turn, you can either pass `result.to_input_list()` back into `Runner.run(...)`, attach a [session](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/sessions/index.md), or reuse OpenAI server-managed state with `conversation_id` / `previous_response_id`. The [running agents](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/running_agents.md) guide compares these approaches.
+For a second turn, you can either pass `result.to_input_list()` back into `Runner.run(...)`, attach a [session](/lib/08-agents/openai-agents-python/docs-sessions), or reuse OpenAI server-managed state with `conversation_id` / `previous_response_id`. The [running agents](/lib/08-agents/openai-agents-python/docs-running_agents) guide compares these approaches.
 
 Use this rule of thumb:
 
 | If you want... | Start with... |
 | --- | --- |
 | Full manual control and provider-agnostic history | `result.to_input_list()` |
-| The SDK to load and save history for you | [`session=...`](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/sessions/index.md) |
+| The SDK to load and save history for you | [`session=...`](/lib/08-agents/openai-agents-python/docs-sessions) |
 | OpenAI-managed server-side continuation | `previous_response_id` or `conversation_id` |
 
-For the tradeoffs and exact behaviors, see [Running agents](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/running_agents.md#choose-a-memory-strategy).
+For the tradeoffs and exact behaviors, see [Running agents](/lib/08-agents/openai-agents-python/docs-running_agents#choose-a-memory-strategy).
 
-Use a plain `Agent` plus `Runner` when the task mainly lives in prompts, tools, and conversation state. If the agent should inspect or modify real files in an isolated workspace, jump to the [Sandbox agents quickstart](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/sandbox_agents.md).
+Use a plain `Agent` plus `Runner` when the task mainly lives in prompts, tools, and conversation state. If the agent should inspect or modify real files in an isolated workspace, jump to the [Sandbox agents quickstart](/lib/08-agents/openai-agents-python/docs-sandbox_agents).
 
 ## Give your agent tools
 
@@ -156,7 +161,7 @@ Before you choose a multi-agent pattern, decide who should own the final answer:
 -   **Handoffs**: a specialist takes over the conversation for that part of the turn.
 -   **Agents as tools**: an orchestrator stays in control and calls specialists as tools.
 
-This quickstart continues with **handoffs** because it is the shortest first example. For the manager-style pattern, see [Agent orchestration](/lib/08-agents/openai-agents-python/docs-multi_agent) and [Tools: agents as tools](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/tools.md#agents-as-tools).
+This quickstart continues with **handoffs** because it is the shortest first example. For the manager-style pattern, see [Agent orchestration](/lib/08-agents/openai-agents-python/docs-multi_agent) and [Tools: agents as tools](/lib/08-agents/openai-agents-python/docs-tools#agents-as-tools).
 
 Additional agents can be defined in the same way. `handoff_description` gives the routing agent extra context about when to delegate.
 
@@ -224,7 +229,7 @@ To review what happened during your agent run, navigate to the [Trace viewer in 
 
 Learn how to build more complex agentic flows:
 
--   Learn about how to configure [Agents](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/agents.md).
--   Learn about [running agents](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/running_agents.md) and [sessions](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/sessions/index.md).
--   Learn about [Sandbox agents](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/sandbox_agents.md) if the work should happen inside a real workspace.
--   Learn about [tools](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/tools.md), [guardrails](/lib/08-agents/openai-agents-python/docs-guardrails) and [models](/lib/08-agents/openai-agents-python/docs-models).
+-   Learn about how to configure [Agents](/lib/08-agents/openai-agents-python/docs-agents).
+-   Learn about [running agents](/lib/08-agents/openai-agents-python/docs-running_agents) and [sessions](/lib/08-agents/openai-agents-python/docs-sessions).
+-   Learn about [Sandbox agents](/lib/08-agents/openai-agents-python/docs-sandbox_agents) if the work should happen inside a real workspace.
+-   Learn about [tools](/lib/08-agents/openai-agents-python/docs-tools), [guardrails](/lib/08-agents/openai-agents-python/docs-guardrails) and [models](/lib/08-agents/openai-agents-python/docs-models).

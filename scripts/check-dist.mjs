@@ -14,7 +14,7 @@ import { join, relative, resolve, dirname, posix } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..')
-const DIST = join(ROOT, 'site/docs/.vitepress/dist')
+const DIST = resolve(process.env.TB_CHECK_DIST || join(ROOT, 'site/docs/.vitepress/dist'))
 
 /** 与 config.mts 一致：子路径部署时产物里的链接会带这个前缀 */
 const BASE = (() => {

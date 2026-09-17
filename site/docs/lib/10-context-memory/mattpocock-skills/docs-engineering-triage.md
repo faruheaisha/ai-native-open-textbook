@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/mattpocock/skills"
-entryUrl: "https://github.com/mattpocock/skills/blob/3cca18b368ae95cdbdebbff572ccafa662551015/README.md"
+entryUrl: "https://github.com/mattpocock/skills/blob/3cca18b368ae95cdbdebbff572ccafa662551015/docs/engineering/triage.md"
+sourceRel: "docs/engineering/triage.md"
+rawUrl: "/raw/10-context-memory/mattpocock-skills/docs/engineering/triage.md"
+sourceSha256: "7bdab6379baf24a6617db8349b53f332f1837227add23144d61ba9245eb15d14"
+pageSha256: "7bdab6379baf24a6617db8349b53f332f1837227add23144d61ba9245eb15d14"
+contentMode: "local-full"
 zh: ""
 ---
 

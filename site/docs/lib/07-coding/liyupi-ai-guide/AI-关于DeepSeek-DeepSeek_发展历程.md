@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/liyupi/ai-guide"
-entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a02735b38c866/README.md"
+entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a02735b38c866/AI/关于DeepSeek/DeepSeek%20发展历程.md"
+sourceRel: "AI/关于DeepSeek/DeepSeek 发展历程.md"
+rawUrl: "/raw/07-coding/liyupi-ai-guide/AI/关于DeepSeek/DeepSeek 发展历程.md"
+sourceSha256: "e7b2b3350730d261de8ec0720d0c961dcab27c41915c758583cc0c411125e670"
+pageSha256: "e7b2b3350730d261de8ec0720d0c961dcab27c41915c758583cc0c411125e670"
+contentMode: "local-full"
 zh: ""
 ---
 

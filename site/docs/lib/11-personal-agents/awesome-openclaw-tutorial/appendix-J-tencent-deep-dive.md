@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial"
-entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/README.md"
+entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/appendix/J-tencent-deep-dive.md"
+sourceRel: "appendix/J-tencent-deep-dive.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-tutorial/appendix/J-tencent-deep-dive.md"
+sourceSha256: "a8fa970336159a73a28c8e9c69066367466b24934604889efffb0f9b89456339"
+pageSha256: "a8fa970336159a73a28c8e9c69066367466b24934604889efffb0f9b89456339"
+contentMode: "local-full"
 zh: ""
 ---
 

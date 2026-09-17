@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/zebbern/claude-code-guide"
-entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/README.md"
+entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/skills/code-documenter/references/api-docs-fastapi-django.md"
+sourceRel: "skills/code-documenter/references/api-docs-fastapi-django.md"
+rawUrl: "/raw/09-harness/claude-code-guide-zebbern/skills/code-documenter/references/api-docs-fastapi-django.md"
+sourceSha256: "b99c37494269a6992608c52e3468eece0dba42a942ff44933c3965272aaf1151"
+pageSha256: "b99c37494269a6992608c52e3468eece0dba42a942ff44933c3965272aaf1151"
+contentMode: "local-full"
 zh: ""
 ---
 

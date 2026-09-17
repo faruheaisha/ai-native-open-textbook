@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "04-work"
 sourceUrl: "https://github.com/tangshiyegit/agent-guide"
-entryUrl: "https://github.com/tangshiyegit/agent-guide/blob/ae8b2262e7a1e5bd0d466037c6ad9f6037b72c33/README.md"
+entryUrl: "https://github.com/tangshiyegit/agent-guide/blob/ae8b2262e7a1e5bd0d466037c6ad9f6037b72c33/src/Coze指南/Coze基础入门/02.为什么需要AI智能体.md"
+sourceRel: "src/Coze指南/Coze基础入门/02.为什么需要AI智能体.md"
+rawUrl: "/raw/04-work/agent-guide-office/src/Coze指南/Coze基础入门/02.为什么需要AI智能体.md"
+sourceSha256: "9965009445fc2af350da7f1122710b9df9c3ca68d098c7725cfaa53325e1838d"
+pageSha256: "9965009445fc2af350da7f1122710b9df9c3ca68d098c7725cfaa53325e1838d"
+contentMode: "local-full"
 zh: ""
 ---
 

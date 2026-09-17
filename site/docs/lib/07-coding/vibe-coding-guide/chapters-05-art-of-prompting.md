@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/zhiyue/vibe-coding-guide"
-entryUrl: "https://github.com/zhiyue/vibe-coding-guide/blob/ee8434ce526f629e0ca4ce00f6a66be6372327ac/README.md"
+entryUrl: "https://github.com/zhiyue/vibe-coding-guide/blob/ee8434ce526f629e0ca4ce00f6a66be6372327ac/chapters/05-art-of-prompting.md"
+sourceRel: "chapters/05-art-of-prompting.md"
+rawUrl: "/raw/07-coding/vibe-coding-guide/chapters/05-art-of-prompting.md"
+sourceSha256: "c9dc3b4a874ec9e0f47f9d9733ae73773354c011652110c8f65440e4f8f6d29a"
+pageSha256: "c9dc3b4a874ec9e0f47f9d9733ae73773354c011652110c8f65440e4f8f6d29a"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/didilili/ai-agents-from-zero"
-entryUrl: "https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/README.md"
+entryUrl: "https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/19-RAG检索增强生成.md"
+sourceRel: "19-RAG检索增强生成.md"
+rawUrl: "/raw/08-agents/ai-agents-from-zero/19-RAG检索增强生成.md"
+sourceSha256: "7656b60e27e42b61c119e8c600f931755076ee510226511841b401346181cabf"
+pageSha256: "7656b60e27e42b61c119e8c600f931755076ee510226511841b401346181cabf"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -24,7 +29,7 @@ zh: ""
 
 **学习建议：** RAG 最好分成两段看：离线把文档处理成可检索知识，在线根据用户问题召回并组装上下文。读本章时可以用两种颜色标出来：哪些代码属于“建库”，哪些代码属于“问答”。文档加载、切分、Embedding、向量库、Prompt 这些组件的位置清楚了，换任何框架都能读懂。
 
-**官方文档与资源**：详见 [工具导航与参考资料索引 - RAG与向量检索](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/工具导航与参考资料索引.md#RAG与向量检索)。
+**官方文档与资源**：详见 [工具导航与参考资料索引 - RAG与向量检索](/lib/08-agents/ai-agents-from-zero/工具导航与参考资料索引#RAG与向量检索)。
 
 ---
 

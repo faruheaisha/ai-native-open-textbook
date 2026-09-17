@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/rohitg00/ai-engineering-from-scratch"
-entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/README.md"
+entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/certifications/claude/lessons/00-certification-strategy/docs/en.md"
+sourceRel: "certifications/claude/lessons/00-certification-strategy/docs/en.md"
+rawUrl: "/raw/07-coding/ai-engineering-from-scratch/certifications/claude/lessons/00-certification-strategy/docs/en.md"
+sourceSha256: "72adfa30cc548d94e854c07e999faffac26d6efabd56fb0fb458f7d1c1f1b817"
+pageSha256: "72adfa30cc548d94e854c07e999faffac26d6efabd56fb0fb458f7d1c1f1b817"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -279,6 +284,6 @@ This is a study gate, not a prediction of Anthropic's scaled score.
 - [Anthropic Partner certification catalog](https://anthropic-partners.skilljar.com/page/partner-certifications)
 - [Anthropic certification FAQ](https://anthropic-partners.skilljar.com/page/faq-certifications)
 - [Claude Certified Associate Foundations exam guide](https://everpath-course-content.s3-accelerate.amazonaws.com/instructor%2F6nizmqk8tpzpfjvt6qmmav7rh%2Fpublic%2F1783542847%2FClaude+Certified+Associate+%E2%80%93+Foundations+Exam+Guide.pdf)
-- [CCAR-F Exact Mechanics Review](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/certifications/claude/references/ccar-f-exact-mechanics.md)
+- [CCAR-F Exact Mechanics Review](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-references-ccar-f-exact-mechanics)
 - [Prompt Engineering: Techniques and Patterns](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/11-llm-engineering/01-prompt-engineering/README.md)
 - [Evaluation and Testing LLM Applications](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/11-llm-engineering/10-evaluation/README.md)

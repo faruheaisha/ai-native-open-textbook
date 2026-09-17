@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/gsd-build/get-shit-done"
-entryUrl: "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/README.md"
+entryUrl: "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/agents/gsd-codebase-mapper.md"
+sourceRel: "agents/gsd-codebase-mapper.md"
+rawUrl: "/raw/10-context-memory/get-shit-done/agents/gsd-codebase-mapper.md"
+sourceSha256: "3d49375c74cb4a96f116818c081eff8693b2738f4228d68e8a2fd63bc494d100"
+pageSha256: "3d49375c74cb4a96f116818c081eff8693b2738f4228d68e8a2fd63bc494d100"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/QoderAI/better-harness"
-entryUrl: "https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/README.md"
+entryUrl: "https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/adrs/harness-checkpoint-experiment-compare.md"
+sourceRel: "docs/adrs/harness-checkpoint-experiment-compare.md"
+rawUrl: "/raw/09-harness/better-harness/docs/adrs/harness-checkpoint-experiment-compare.md"
+sourceSha256: "7336467ed345976dc7f2cb80e69f4ede80c4ade08accbb310e1f364f0228373f"
+pageSha256: "7336467ed345976dc7f2cb80e69f4ede80c4ade08accbb310e1f364f0228373f"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -19,11 +24,11 @@ zh: ""
 - ADR ID: `ADR-0004`
 - Status: Proposed
 - Decision date: 2026-08-17
-- Related specs: [Harness Coding Compare](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/specs/2026-08-15-harness-coding-compare.md),
-  [Session Checkpoint Executor PoC](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/specs/2026-08-16-session-checkpoint-executor-poc.md),
-  [Native Harness run streams in Studio](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/specs/2026-09-01-harness-native-studio-stream.md)
+- Related specs: [Harness Coding Compare](/lib/09-harness/better-harness/docs-specs-2026-08-15-harness-coding-compare),
+  [Session Checkpoint Executor PoC](/lib/09-harness/better-harness/docs-specs-2026-08-16-session-checkpoint-executor-poc),
+  [Native Harness run streams in Studio](/lib/09-harness/better-harness/docs-specs-2026-09-01-harness-native-studio-stream)
 - Implementation spec: [Checkpoint-anchored multi-lane harness
-  experiments](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/specs/2026-08-17-harness-studio-checkpoint-compare.md)
+  experiments](/lib/09-harness/better-harness/docs-specs-2026-08-17-harness-studio-checkpoint-compare)
 - Source abstraction: [Checkpoint-backed Compare Sources and
   Materialization](/lib/09-harness/better-harness/docs-adrs-checkpoint-backed-compare-sources)
 

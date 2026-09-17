@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "04-work"
 sourceUrl: "https://github.com/Tencent/workbuddy-bench"
-entryUrl: "https://github.com/Tencent/workbuddy-bench/blob/625b2233093ae4f23e76be28c1f341d41cc70373/README.md"
+entryUrl: "https://github.com/Tencent/workbuddy-bench/blob/625b2233093ae4f23e76be28c1f341d41cc70373/configs/harnesses/claude-code/CONFIG.md"
+sourceRel: "configs/harnesses/claude-code/CONFIG.md"
+rawUrl: "/raw/04-work/workbuddy-bench-official/configs/harnesses/claude-code/CONFIG.md"
+sourceSha256: "a76293f9102d32ed6759325a4e100de58d9ebf7377a0d3d50f081dd18e075420"
+pageSha256: "a76293f9102d32ed6759325a4e100de58d9ebf7377a0d3d50f081dd18e075420"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/langchain-ai/deepagents"
-entryUrl: "https://github.com/langchain-ai/deepagents/blob/d93ab3351bbf4c3687212f665094ccad100f2c08/README.md"
+entryUrl: "https://github.com/langchain-ai/deepagents/blob/d93ab3351bbf4c3687212f665094ccad100f2c08/examples/deploy-coding-agent/skills/coding-prefs/SKILL.md"
+sourceRel: "examples/deploy-coding-agent/skills/coding-prefs/SKILL.md"
+rawUrl: "/raw/09-harness/langchain-deepagents/examples/deploy-coding-agent/skills/coding-prefs/SKILL.md"
+sourceSha256: "bd25243f2f619966a429e346939f6f450454c99ecef4b341c9e8a98d1a807e91"
+pageSha256: "bd25243f2f619966a429e346939f6f450454c99ecef4b341c9e8a98d1a807e91"
+contentMode: "local-full"
 zh: ""
 ---
 

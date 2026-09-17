@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/jnMetaCode/superpowers-zh"
-entryUrl: "https://github.com/jnMetaCode/superpowers-zh/blob/79ea5d262b7a1c7ce76a289390853bca51f940d4/README.md"
+entryUrl: "https://github.com/jnMetaCode/superpowers-zh/blob/79ea5d262b7a1c7ce76a289390853bca51f940d4/docs/README.openclaw.md"
+sourceRel: "docs/README.openclaw.md"
+rawUrl: "/raw/10-context-memory/superpowers-zh/docs/README.openclaw.md"
+sourceSha256: "7f3a771796e713f9b9f68b1f6da6b560795058be28f1748192b4a6e5e904138b"
+pageSha256: "7f3a771796e713f9b9f68b1f6da6b560795058be28f1748192b4a6e5e904138b"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -48,7 +53,7 @@ OpenClaw 按以下优先级加载 skills：
 | `~/.openclaw/skills/` | 中 | 用户级，所有项目共享 |
 | 内置 skills | 最低 | OpenClaw 自带 |
 
-每个 skill 是一个 `skills/{name}/SKILL.md` 文件，包含 YAML frontmatter 和指令内容。OpenClaw 会自动发现并加载。
+每个 skill 是一个 `skills/\{name\}/SKILL.md` 文件，包含 YAML frontmatter 和指令内容。OpenClaw 会自动发现并加载。
 
 ### 推荐配置方式
 

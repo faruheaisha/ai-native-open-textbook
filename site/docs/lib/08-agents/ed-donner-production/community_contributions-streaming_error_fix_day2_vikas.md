@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/ed-donner/production"
-entryUrl: "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/README.md"
+entryUrl: "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/community_contributions/streaming_error_fix_day2_vikas.md"
+sourceRel: "community_contributions/streaming_error_fix_day2_vikas.md"
+rawUrl: "/raw/08-agents/ed-donner-production/community_contributions/streaming_error_fix_day2_vikas.md"
+sourceSha256: "5a80af0c2b43cfda35563fc318b596dbd7f4a22bba5ce7307b91a1005abac019"
+pageSha256: "5a80af0c2b43cfda35563fc318b596dbd7f4a22bba5ce7307b91a1005abac019"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -31,14 +36,14 @@ def event_stream():
                     full_response.append(content)
                     lines = content.split("\n")
                     for line in lines[:-1]:
-                        yield f"data: {line}\n\n"
+                        yield f"data: \{line\}\n\n"
                         yield "data:  \n"
-                    yield f"data: {lines[-1]}\n\n"
+                    yield f"data: \{lines[-1]\}\n\n"
         except Exception as e:
-            logging.error(f"Error during streaming: {str(e)}")
-            yield f"data: Error: {str(e)}\n\n"
+            logging.error(f"Error during streaming: \{str(e)\}")
+            yield f"data: Error: \{str(e)\}\n\n"
         finally:
             yield "data: [DONE]\n\n"
             complete_response = ''.join(full_response)
-            logging.info(f"Complete response: {repr(complete_response)}")
+            logging.info(f"Complete response: \{repr(complete_response)\}")
     return StreamingResponse(event_stream(), media_type="text/event-stream")

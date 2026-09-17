@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/obra/superpowers"
-entryUrl: "https://github.com/obra/superpowers/blob/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/README.md"
+entryUrl: "https://github.com/obra/superpowers/blob/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/docs/README.opencode.md"
+sourceRel: "docs/README.opencode.md"
+rawUrl: "/raw/10-context-memory/superpowers/docs/README.opencode.md"
+sourceSha256: "299d3016ea3bd2ff436e70d27b7493f9c119febffed49bb0d82032bc246c28b1"
+pageSha256: "299d3016ea3bd2ff436e70d27b7493f9c119febffed49bb0d82032bc246c28b1"
+contentMode: "local-full"
 zh: ""
 ---
 

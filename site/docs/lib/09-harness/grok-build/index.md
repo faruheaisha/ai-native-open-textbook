@@ -10,6 +10,8 @@ lang: "英文"
 volume: "09-harness"
 sourceUrl: "https://github.com/xai-org/grok-build"
 entryUrl: "https://github.com/xai-org/grok-build/blob/37949780c144e37df692e3d669051a21fec24f20/README.md"
+sourceRel: ""
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -23,13 +25,24 @@ Protocol (ACP).
 
 ## 课时
 
-1. [xai-crash-handler](crates-codegen-xai-crash-handler.md)
-2. [xai-grok-agent](crates-codegen-xai-grok-agent.md)
-3. [How you work](crates-codegen-xai-grok-agent-templates-apply_patch_prompt.md)
-4. [Grok Build（xAI 官方 CLI）](crates-codegen-xai-grok-agent-templates-prompt.md)
-5. [Hook Examples](crates-codegen-xai-grok-hooks-examples.md)
-6. [Fuzzing xai-grok-markdown](crates-codegen-xai-grok-markdown-fuzz.md)
-7. [🚀 Architecture Overview — xai-grok-pager Rendering Engine](crates-codegen-xai-grok-markdown-fuzz-seeds-render_all-bench.md)
-8. [Math seed](crates-codegen-xai-grok-markdown-fuzz-seeds-render_all-math.md)
+- **crates**
+  - **codegen**
+    - **xai-crash-handler**
+      - [xai-crash-handler](/lib/09-harness/grok-build/crates-codegen-xai-crash-handler.md)
+    - **xai-grok-agent**
+      - [`xai-grok-agent`](/lib/09-harness/grok-build/crates-codegen-xai-grok-agent.md)
+      - **templates**
+        - [How you work](/lib/09-harness/grok-build/crates-codegen-xai-grok-agent-templates-apply_patch_prompt.md)
+        - [prompt](/lib/09-harness/grok-build/crates-codegen-xai-grok-agent-templates-prompt.md)
+    - **xai-grok-hooks**
+      - **examples**
+        - [Hook Examples](/lib/09-harness/grok-build/crates-codegen-xai-grok-hooks-examples.md)
+    - **xai-grok-markdown**
+      - **fuzz**
+        - [Fuzzing xai-grok-markdown](/lib/09-harness/grok-build/crates-codegen-xai-grok-markdown-fuzz.md)
+        - **seeds**
+          - **render_all**
+            - [🚀 Architecture Overview — `xai-grok-pager` Rendering Engine](/lib/09-harness/grok-build/crates-codegen-xai-grok-markdown-fuzz-seeds-render_all-bench.md)
+            - [Math seed](/lib/09-harness/grok-build/crates-codegen-xai-grok-markdown-fuzz-seeds-render_all-math.md)
 
 开始学习 → [xai-crash-handler](crates-codegen-xai-crash-handler.md)

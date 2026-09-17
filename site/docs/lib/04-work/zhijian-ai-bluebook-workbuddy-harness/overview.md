@@ -9,6 +9,11 @@ tier: 2
 volume: "04-work"
 sourceUrl: "https://github.com/zjp1997720/zhijian-ai-bluebook-workbuddy-harness"
 entryUrl: "https://github.com/zjp1997720/zhijian-ai-bluebook-workbuddy-harness/blob/6ac68cd42a01add16568d1ab9cf2399822467fad/01-前言.md"
+sourceRel: "01-前言.md"
+rawUrl: "/raw/04-work/zhijian-ai-bluebook-workbuddy-harness/01-前言.md"
+sourceSha256: "300ee1d12b8cacf9bd7b818e31f9fc70252312a59b8464645a9c5ffd8be9b3f2"
+pageSha256: "300ee1d12b8cacf9bd7b818e31f9fc70252312a59b8464645a9c5ffd8be9b3f2"
+contentMode: "local-full"
 zh: ""
 ---
 

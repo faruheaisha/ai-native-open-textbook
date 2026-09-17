@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/KhazP/vibe-coding-prompt-template"
-entryUrl: "https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/README.md"
+entryUrl: "https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/examples/reddit-to-ai/research-reddit-to-ai.md"
+sourceRel: "examples/reddit-to-ai/research-reddit-to-ai.md"
+rawUrl: "/raw/07-coding/vibe-coding-prompt-template/examples/reddit-to-ai/research-reddit-to-ai.md"
+sourceSha256: "6bdca042c907facf51219d9ec2f28c7adab76b4ef7eceb1408d1ba2baa6b9c85"
+pageSha256: "6bdca042c907facf51219d9ec2f28c7adab76b4ef7eceb1408d1ba2baa6b9c85"
+contentMode: "local-full"
 zh: ""
 ---
 

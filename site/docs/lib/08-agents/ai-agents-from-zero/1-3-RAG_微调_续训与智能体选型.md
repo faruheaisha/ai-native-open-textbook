@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/didilili/ai-agents-from-zero"
-entryUrl: "https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/README.md"
+entryUrl: "https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/1-3-RAG、微调、续训与智能体选型.md"
+sourceRel: "1-3-RAG、微调、续训与智能体选型.md"
+rawUrl: "/raw/08-agents/ai-agents-from-zero/1-3-RAG、微调、续训与智能体选型.md"
+sourceSha256: "40101e3ada6f60b581f7e0c6c0f621e2adee4a23e2c721d882b537121a32a4e8"
+pageSha256: "40101e3ada6f60b581f7e0c6c0f621e2adee4a23e2c721d882b537121a32a4e8"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -27,7 +32,7 @@ zh: ""
 
 **学习建议：** 学这章时，建议始终围绕三条线来判断方案：**知识够不够、行为稳不稳、流程会不会动。**如果缺的是知识，先看 RAG；如果缺的是输出风格、格式、指令遵循，先看微调；如果缺的是更底层的领域语言能力，才考虑续训；如果缺的是多步决策、外部工具调用和执行能力，再看智能体。这样你就不会把几种方案混成一团。
 
-**官方文档与资源**：详见 [工具导航与参考资料索引 - 微调与模型对齐](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/工具导航与参考资料索引.md#微调与模型对齐)、[工具导航与参考资料索引 - RAG与向量检索](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/工具导航与参考资料索引.md#rag与向量检索)、[工具导航与参考资料索引 - 工具调用、MCP与智能体](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/工具导航与参考资料索引.md#工具调用、MCP与智能体)。
+**官方文档与资源**：详见 [工具导航与参考资料索引 - 微调与模型对齐](/lib/08-agents/ai-agents-from-zero/工具导航与参考资料索引#微调与模型对齐)、[工具导航与参考资料索引 - RAG与向量检索](/lib/08-agents/ai-agents-from-zero/工具导航与参考资料索引#rag与向量检索)、[工具导航与参考资料索引 - 工具调用、MCP与智能体](/lib/08-agents/ai-agents-from-zero/工具导航与参考资料索引#工具调用、MCP与智能体)。
 
 ---
 
@@ -485,7 +490,7 @@ OpenAI 前安全系统团队负责人`翁丽莲`于 2023 年 6 月在个人博�
 - “先查库存，再查价格，再决定推荐哪一款商品”
 - “先检索用户资料，再调外部系统完成操作，再返回结果”
 
-在本仓库里，智能体这条主线后续会继续展开：[3-基于 Coze&Dify 平台的智能体开发](/lib/08-agents/ai-agents-from-zero/3-基于Coze_Dify平台的智能体开发)、[20-MCP模型上下文协议](/lib/08-agents/ai-agents-from-zero/20-MCP模型上下文协议)、[21-Agent智能体](/lib/08-agents/ai-agents-from-zero/21-Agent智能体)、[22-LangGraph概述与快速入门](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/22-LangGraph概述与快速入门.md)
+在本仓库里，智能体这条主线后续会继续展开：[3-基于 Coze&Dify 平台的智能体开发](/lib/08-agents/ai-agents-from-zero/3-基于Coze_Dify平台的智能体开发)、[20-MCP模型上下文协议](/lib/08-agents/ai-agents-from-zero/20-MCP模型上下文协议)、[21-Agent智能体](/lib/08-agents/ai-agents-from-zero/21-Agent智能体)、[22-LangGraph概述与快速入门](/lib/08-agents/ai-agents-from-zero/22-LangGraph概述与快速入门)
 
 `电商问数` 项目里，虽然主体是面向 SQL 生成的工作流（Workflow），但它本质上也体现了“检索、筛选、生成、校验、执行”的多步智能体 / 工作流思路。
 

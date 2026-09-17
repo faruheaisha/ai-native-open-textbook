@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh"
-entryUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/README.md"
+entryUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/certifications/claude/lessons/18-tool-contracts-errors-and-progressive-discovery/docs/zh.md"
+sourceRel: "certifications/claude/lessons/18-tool-contracts-errors-and-progressive-discovery/docs/zh.md"
+rawUrl: "/raw/07-coding/ai-engineering-from-scratch-zh/certifications/claude/lessons/18-tool-contracts-errors-and-progressive-discovery/docs/zh.md"
+sourceSha256: "2866b57b63bab1e77c3b98a8e40f780036e0dc588f2d9160e36e508b04ea114a"
+pageSha256: "2866b57b63bab1e77c3b98a8e40f780036e0dc588f2d9160e36e508b04ea114a"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -213,7 +218,7 @@ MCP server 可以暴露 tool、resource 与 prompt。根据控制方向选择原
 
 ## 交付产物
 
-填写完整的 [`outputs/tool-catalog-review.md`](https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/certifications/claude/lessons/18-tool-contracts-errors-and-progressive-discovery/outputs/tool-catalog-review.md) 包含明确的 policy、账户和公开搜索边界，以及一份失败矩阵。
+填写完整的 [`outputs/tool-catalog-review.md`](/lib/07-coding/ai-engineering-from-scratch-zh/certifications-claude-lessons-18-tool-contracts-errors-and-progressive-discovery-outputs-tool-catalog-review) 包含明确的 policy、账户和公开搜索边界，以及一份失败矩阵。
 
 ## 验证
 

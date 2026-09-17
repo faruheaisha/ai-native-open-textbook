@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "04-work"
 sourceUrl: "https://github.com/coze-dev/coze-loop"
-entryUrl: "https://github.com/coze-dev/coze-loop/blob/5f1e4c234fc110c1bf674e882a6fd02109e1e1e6/README.md"
+entryUrl: "https://github.com/coze-dev/coze-loop/blob/5f1e4c234fc110c1bf674e882a6fd02109e1e1e6/docs/guidance/idl-codegen-guide.md"
+sourceRel: "docs/guidance/idl-codegen-guide.md"
+rawUrl: "/raw/04-work/coze-loop/docs/guidance/idl-codegen-guide.md"
+sourceSha256: "6a6d04158ac1d6ba293bbcb5213b4cb0c8603f0527bb4db47800ee86bab765f4"
+pageSha256: "6a6d04158ac1d6ba293bbcb5213b4cb0c8603f0527bb4db47800ee86bab765f4"
+contentMode: "local-full"
 zh: ""
 ---
 

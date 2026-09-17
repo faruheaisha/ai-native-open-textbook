@@ -8,13 +8,18 @@ lang: "英文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/vibefast-app/vibefast-docs"
-entryUrl: "https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/README.md"
+entryUrl: "https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/11-ai-frontend-design-with-cursor-en.md"
+sourceRel: "en/11-ai-frontend-design-with-cursor-en.md"
+rawUrl: "/raw/07-coding/vibefast-docs/en/11-ai-frontend-design-with-cursor-en.md"
+sourceSha256: "fca5d8ef5a05c7415c0742cc4ebd8d8deec95275414423c965ac27778aef409b"
+pageSha256: "fca5d8ef5a05c7415c0742cc4ebd8d8deec95275414423c965ac27778aef409b"
+contentMode: "local-full"
 zh: ""
 ---
 
 # Designing Beautiful UI with AI: A Complete Cursor Prompt Guide
 
-[English](/lib/07-coding/vibefast-docs/en-11-ai-frontend-design-with-cursor-en) · [繁中](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/zh/11-ai-frontend-design-with-cursor-zh.md) · [Español](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/es/11-ai-frontend-design-with-cursor-es.md) · [日本語](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/jp/11-ai-frontend-design-with-cursor-jp.md) · [Português (BR)](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/pt-br/11-ai-frontend-design-with-cursor-pt-br.md)
+[English](/lib/07-coding/vibefast-docs/en-11-ai-frontend-design-with-cursor-en) · [繁中](/lib/07-coding/vibefast-docs/zh-11-ai-frontend-design-with-cursor-zh) · [Español](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/es/11-ai-frontend-design-with-cursor-es.md) · [日本語](/lib/07-coding/vibefast-docs/jp-11-ai-frontend-design-with-cursor-jp) · [Português (BR)](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/pt-br/11-ai-frontend-design-with-cursor-pt-br.md)
 
 **Author:** Danko Peng ([@dankopeng](https://x.com/dankopeng))  
 **Updated:** March 2026  
@@ -54,7 +59,7 @@ export default function ProductCard({ name, price }) {
 }
 ```
 
-The curly braces `{}` contain JavaScript expressions. Everything else looks like HTML.
+The curly braces `\{\}` contain JavaScript expressions. Everything else looks like HTML.
 
 ### What is Remix?
 

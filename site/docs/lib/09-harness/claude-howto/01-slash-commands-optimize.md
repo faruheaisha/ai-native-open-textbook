@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/luongnv89/claude-howto"
-entryUrl: "https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/README.md"
+entryUrl: "https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/01-slash-commands/optimize.md"
+sourceRel: "01-slash-commands/optimize.md"
+rawUrl: "/raw/09-harness/claude-howto/01-slash-commands/optimize.md"
+sourceSha256: "92dff3bcc925df40b740085d4e100fa515b73566a50b36fd249254840134fa2b"
+pageSha256: "92dff3bcc925df40b740085d4e100fa515b73566a50b36fd249254840134fa2b"
+contentMode: "local-full"
 zh: ""
 ---
 

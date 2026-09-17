@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/obra/superpowers"
-entryUrl: "https://github.com/obra/superpowers/blob/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/README.md"
+entryUrl: "https://github.com/obra/superpowers/blob/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/docs/superpowers/plans/2026-06-09-visual-companion-issues.md"
+sourceRel: "docs/superpowers/plans/2026-06-09-visual-companion-issues.md"
+rawUrl: "/raw/10-context-memory/superpowers/docs/superpowers/plans/2026-06-09-visual-companion-issues.md"
+sourceSha256: "bf939ca1e1398f54e1950193299084836e45767cb00735342e3d7c31ff1fe31e"
+pageSha256: "bf939ca1e1398f54e1950193299084836e45767cb00735342e3d7c31ff1fe31e"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -280,7 +285,7 @@ Pick the mechanism, then it's a small `SKILL.md` change plus a documented knob.
 blue") has to switch to the terminal, breaking the visual flow.
 
 **Change.** Add a feedback `<textarea>` whose submit emits
-`{"type":"feedback","text":...,"timestamp":...}` via the existing
+`\{"type":"feedback","text":...,"timestamp":...\}` via the existing
 `window.brainstorm.send` path (`helper.js:82-85`).
 
 **Cross-cutting — server change required.** `handleMessage` only persists events

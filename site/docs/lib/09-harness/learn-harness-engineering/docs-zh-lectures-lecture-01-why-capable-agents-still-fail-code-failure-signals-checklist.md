@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/walkinglabs/learn-harness-engineering"
-entryUrl: "https://github.com/walkinglabs/learn-harness-engineering/blob/77e7a3e21469dcbece2558086c8d91657abeaa40/README.md"
+entryUrl: "https://github.com/walkinglabs/learn-harness-engineering/blob/77e7a3e21469dcbece2558086c8d91657abeaa40/docs/zh/lectures/lecture-01-why-capable-agents-still-fail/code/failure-signals-checklist.md"
+sourceRel: "docs/zh/lectures/lecture-01-why-capable-agents-still-fail/code/failure-signals-checklist.md"
+rawUrl: "/raw/09-harness/learn-harness-engineering/docs/zh/lectures/lecture-01-why-capable-agents-still-fail/code/failure-signals-checklist.md"
+sourceSha256: "fba592a85ea052637a8b140461c1701fb94e5b5ad36ebfe0a5471a98eda2ef1a"
+pageSha256: "fba592a85ea052637a8b140461c1701fb94e5b5ad36ebfe0a5471a98eda2ef1a"
+contentMode: "local-full"
 zh: ""
 ---
 

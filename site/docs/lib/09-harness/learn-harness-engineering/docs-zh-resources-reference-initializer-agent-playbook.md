@@ -1,0 +1,54 @@
+---
+title: "初始化代理操作手册"
+sourceId: "09-harness/learn-harness-engineering"
+sourceTitle: "Learn Harness Engineering"
+sourceKind: "课时教程"
+licenseLabel: "可转载"
+lang: "英文"
+tier: 2
+volume: "09-harness"
+sourceUrl: "https://github.com/walkinglabs/learn-harness-engineering"
+entryUrl: "https://github.com/walkinglabs/learn-harness-engineering/blob/77e7a3e21469dcbece2558086c8d91657abeaa40/docs/zh/resources/reference/initializer-agent-playbook.md"
+sourceRel: "docs/zh/resources/reference/initializer-agent-playbook.md"
+rawUrl: "/raw/09-harness/learn-harness-engineering/docs/zh/resources/reference/initializer-agent-playbook.md"
+sourceSha256: "ea115fa518caccdb8b133a61602c9829c9bab30c199c82da40fd6c31c7a201fe"
+pageSha256: "ea115fa518caccdb8b133a61602c9829c9bab30c199c82da40fd6c31c7a201fe"
+contentMode: "local-full"
+zh: ""
+---
+
+# 初始化代理操作手册
+
+这个手册用于仓库里的第一轮重要会话，也就是正式开始增量开发之前的初始化阶段。
+
+## 目标
+
+先搭出稳定的工作面，让后续会话不必重新推导启动命令、当前状态和任务边界。
+
+## 必需产出
+
+初始化阶段至少应该留下这些工件：
+
+- 一个根指令文件，例如 `AGENTS.md` 或 `CLAUDE.md`
+- 一个机器可读的功能面，例如 `feature_list.json`
+- 一个持久进度工件，例如 `claude-progress.md`
+- 一个标准启动辅助脚本，例如 `init.sh`
+- 一个记录基础脚手架状态的初始安全提交
+
+## 检查清单
+
+1. 定义标准启动路径
+2. 定义标准验证路径
+3. 建立进度日志并写下初始状态
+4. 把工作拆成功能，并给出状态字段
+5. 建立第一个干净的 baseline commit
+
+## 成功标准
+
+一个完全没有前文聊天上下文的新会话，应该能回答：
+
+- 这个仓库是做什么的
+- 怎么启动
+- 怎么验证
+- 还有什么没做完
+- 下一步最佳动作是什么

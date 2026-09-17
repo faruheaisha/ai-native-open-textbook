@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering"
-entryUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/README.md"
+entryUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/docs/specs/SPEC-002-public-private-boundary.md"
+sourceRel: "docs/specs/SPEC-002-public-private-boundary.md"
+rawUrl: "/raw/10-context-memory/agent-skills-for-context-engineering/docs/specs/SPEC-002-public-private-boundary.md"
+sourceSha256: "237e49e4fba0d3a1fb5fa61a8ba8d732a3acde30309f7911ce359cbac67513bb"
+pageSha256: "237e49e4fba0d3a1fb5fa61a8ba8d732a3acde30309f7911ce359cbac67513bb"
+contentMode: "local-full"
 zh: ""
 ---
 

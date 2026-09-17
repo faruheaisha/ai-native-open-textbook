@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/raroque/vibe-security-skill"
-entryUrl: "https://github.com/raroque/vibe-security-skill/blob/850938f20f6915e7c3688d85c0a838f7909c87bb/README.md"
+entryUrl: "https://github.com/raroque/vibe-security-skill/blob/850938f20f6915e7c3688d85c0a838f7909c87bb/vibe-security/references/deployment.md"
+sourceRel: "vibe-security/references/deployment.md"
+rawUrl: "/raw/07-coding/vibe-security-skill/vibe-security/references/deployment.md"
+sourceSha256: "1849ba19291aac0e03c8e152c4d4ae44021003bc99bdcf564cabf7c3d02f4fcb"
+pageSha256: "1849ba19291aac0e03c8e152c4d4ae44021003bc99bdcf564cabf7c3d02f4fcb"
+contentMode: "local-full"
 zh: ""
 ---
 

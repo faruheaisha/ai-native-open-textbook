@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/liyupi/ai-guide"
-entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a02735b38c866/README.md"
+entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a02735b38c866/AI/AI项目教程/AI%20+%20Cursor%20开发一个模拟面试系统.md"
+sourceRel: "AI/AI项目教程/AI + Cursor 开发一个模拟面试系统.md"
+rawUrl: "/raw/07-coding/liyupi-ai-guide/AI/AI项目教程/AI + Cursor 开发一个模拟面试系统.md"
+sourceSha256: "fc12e877fa8c7d0cbd4a7c9812f71ddd57009739bd7717021ee03eda56ef734a"
+pageSha256: "fc12e877fa8c7d0cbd4a7c9812f71ddd57009739bd7717021ee03eda56ef734a"
+contentMode: "local-full"
 zh: ""
 ---
 

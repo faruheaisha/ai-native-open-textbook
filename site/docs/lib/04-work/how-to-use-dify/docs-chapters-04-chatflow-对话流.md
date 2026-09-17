@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/hijasonxu1/How-to-use-dify"
-entryUrl: "https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/README.md"
+entryUrl: "https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/docs/chapters/04-chatflow-对话流.md"
+sourceRel: "docs/chapters/04-chatflow-对话流.md"
+rawUrl: "/raw/04-work/how-to-use-dify/docs/chapters/04-chatflow-对话流.md"
+sourceSha256: "86ebf0aca87211cda8a9c21c1f9c1d8f753bb7413e28fb957c1e6696d60e3a22"
+pageSha256: "86ebf0aca87211cda8a9c21c1f9c1d8f753bb7413e28fb957c1e6696d60e3a22"
+contentMode: "local-full"
 zh: ""
 ---
 

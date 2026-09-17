@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/Shubhamsaboo/awesome-llm-apps"
-entryUrl: "https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/README.md"
+entryUrl: "https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/multi_agent_apps/agent_teams/ai_vc_due_diligence_agent_team/README.md"
+sourceRel: "advanced_ai_agents/multi_agent_apps/agent_teams/ai_vc_due_diligence_agent_team/README.md"
+rawUrl: "/raw/08-agents/awesome-llm-apps/advanced_ai_agents/multi_agent_apps/agent_teams/ai_vc_due_diligence_agent_team/README.md"
+sourceSha256: "be2348d7550f72f037b8f21826461cb11d8051aef7150c2d197ee36ac62c328c"
+pageSha256: "be2348d7550f72f037b8f21826461cb11d8051aef7150c2d197ee36ac62c328c"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -137,7 +142,7 @@ Artifacts: revenue_chart.png, investment_report.html, infographic.png
 |----------|-------|
 | Model | `gemini-3-flash-preview` |
 | Tools | `google_search` |
-| Input | `{company_info}` |
+| Input | `\{company_info\}` |
 | Output Key | `market_analysis` |
 
 **What it analyzes:**
@@ -158,7 +163,7 @@ Artifacts: revenue_chart.png, investment_report.html, infographic.png
 |----------|-------|
 | Model | `gemini-3-pro-preview` |
 | Tools | `generate_financial_chart` |
-| Input | `{company_info}`, `{market_analysis}` |
+| Input | `\{company_info\}`, `\{market_analysis\}` |
 | Output Key | `financial_model` |
 
 **What it calculates:**
@@ -186,7 +191,7 @@ Artifacts: revenue_chart.png, investment_report.html, infographic.png
 |----------|-------|
 | Model | `gemini-3-pro-preview` |
 | Tools | None (extended reasoning) |
-| Input | `{company_info}`, `{market_analysis}`, `{financial_model}` |
+| Input | `\{company_info\}`, `\{market_analysis\}`, `\{financial_model\}` |
 | Output Key | `risk_assessment` |
 
 **Risk categories analyzed:**
@@ -241,7 +246,7 @@ Artifacts: revenue_chart.png, investment_report.html, infographic.png
 |----------|-------|
 | Model | `gemini-3-flash-preview` |
 | Tools | `generate_html_report` |
-| Input | `{investor_memo}` |
+| Input | `\{investor_memo\}` |
 | Output Key | `html_report_result` |
 
 **Report features:**
@@ -264,7 +269,7 @@ Artifacts: revenue_chart.png, investment_report.html, infographic.png
 |----------|-------|
 | Model | `gemini-3-flash-preview` |
 | Tools | `generate_infographic` (uses `gemini-3-pro-image-preview`) |
-| Input | `{investor_memo}` |
+| Input | `\{investor_memo\}` |
 | Output Key | `infographic_result` |
 
 **Infographic includes:**

@@ -9,6 +9,11 @@ tier: 2
 volume: "04-work"
 sourceUrl: "https://github.com/staruhub/awesome-workbuddy"
 entryUrl: "https://github.com/staruhub/awesome-workbuddy/blob/e32b6c953154e41f6cb4e6b69fd7d933f5cef3d3/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/04-work/awesome-workbuddy/README.md"
+sourceSha256: "ffc49589f78dee3093518d1c4914e12662c10fae1241a0fdb0acf0ab268bd2a4"
+pageSha256: "ffc49589f78dee3093518d1c4914e12662c10fae1241a0fdb0acf0ab268bd2a4"
+contentMode: "local-full"
 zh: ""
 ---
 

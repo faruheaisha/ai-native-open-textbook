@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/openai/openai-agents-python"
-entryUrl: "https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/README.md"
+entryUrl: "https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/human_in_the_loop.md"
+sourceRel: "docs/human_in_the_loop.md"
+rawUrl: "/raw/08-agents/openai-agents-python/docs/human_in_the_loop.md"
+sourceSha256: "0fec53a33958c813f7e1012a07e25d10517bff68398ff8f577197b4b93c72366"
+pageSha256: "0fec53a33958c813f7e1012a07e25d10517bff68398ff8f577197b4b93c72366"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -50,7 +55,7 @@ agent = Agent(
 )
 ```
 
-`needs_approval` is available on [`function_tool`][agents.tool.function_tool], [`Agent.as_tool`][agents.agent.Agent.as_tool], [`ShellTool`][agents.tool.ShellTool], and [`ApplyPatchTool`][agents.tool.ApplyPatchTool]. Local MCP servers also support approvals through `require_approval` on [`MCPServerStdio`][agents.mcp.server.MCPServerStdio], [`MCPServerSse`][agents.mcp.server.MCPServerSse], and [`MCPServerStreamableHttp`][agents.mcp.server.MCPServerStreamableHttp]. Hosted MCP servers support approvals via [`HostedMCPTool`][agents.tool.HostedMCPTool] with `tool_config={"require_approval": "always"}` and an optional `on_approval_request` callback. Shell and apply_patch tools accept an `on_approval` callback if you want to auto-approve or auto-reject without surfacing an interruption.
+`needs_approval` is available on [`function_tool`][agents.tool.function_tool], [`Agent.as_tool`][agents.agent.Agent.as_tool], [`ShellTool`][agents.tool.ShellTool], and [`ApplyPatchTool`][agents.tool.ApplyPatchTool]. Local MCP servers also support approvals through `require_approval` on [`MCPServerStdio`][agents.mcp.server.MCPServerStdio], [`MCPServerSse`][agents.mcp.server.MCPServerSse], and [`MCPServerStreamableHttp`][agents.mcp.server.MCPServerStreamableHttp]. Hosted MCP servers support approvals via [`HostedMCPTool`][agents.tool.HostedMCPTool] with `tool_config=\{"require_approval": "always"\}` and an optional `on_approval_request` callback. Shell and apply_patch tools accept an `on_approval` callback if you want to auto-approve or auto-reject without surfacing an interruption.
 
 ## How the approval flow works
 
@@ -99,16 +104,16 @@ See [`examples/agent_patterns/human_in_the_loop_custom_rejection.py`](https://gi
 Manual `interruptions` are the most general pattern, but they are not the only one:
 
 -   Local [`ShellTool`][agents.tool.ShellTool] and [`ApplyPatchTool`][agents.tool.ApplyPatchTool] can use `on_approval` to approve or reject immediately in code.
--   [`HostedMCPTool`][agents.tool.HostedMCPTool] can use `tool_config={"require_approval": "always"}` together with `on_approval_request` for the same kind of programmatic decision.
+-   [`HostedMCPTool`][agents.tool.HostedMCPTool] can use `tool_config=\{"require_approval": "always"\}` together with `on_approval_request` for the same kind of programmatic decision.
 -   Plain [`function_tool`][agents.tool.function_tool] tools and [`Agent.as_tool()`][agents.agent.Agent.as_tool] use the manual interruption flow on this page.
 
 When these callbacks return a decision, the run continues without pausing for a human response. For Realtime and voice session APIs, see the approval flow in the [Realtime guide](/lib/08-agents/openai-agents-python/docs-realtime-guide).
 
 ## Streaming and sessions
 
-The same interruption flow works in streaming runs. After a streamed run pauses, keep consuming [`RunResultStreaming.stream_events()`][agents.result.RunResultStreaming.stream_events] until the iterator finishes, inspect [`RunResultStreaming.interruptions`][agents.result.RunResultStreaming.interruptions], resolve them, and resume with [`Runner.run_streamed(...)`][agents.run.Runner.run_streamed] if you want the resumed output to keep streaming. See [Streaming](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/streaming.md) for the streamed version of this pattern.
+The same interruption flow works in streaming runs. After a streamed run pauses, keep consuming [`RunResultStreaming.stream_events()`][agents.result.RunResultStreaming.stream_events] until the iterator finishes, inspect [`RunResultStreaming.interruptions`][agents.result.RunResultStreaming.interruptions], resolve them, and resume with [`Runner.run_streamed(...)`][agents.run.Runner.run_streamed] if you want the resumed output to keep streaming. See [Streaming](/lib/08-agents/openai-agents-python/docs-streaming) for the streamed version of this pattern.
 
-If you are also using a session, keep passing the same session instance when you resume from `RunState`, or pass another session object configured for the same session ID and backing store. The resumed turn is then appended to the same stored conversation history. See [Sessions](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/sessions/index.md) for the session lifecycle details.
+If you are also using a session, keep passing the same session instance when you resume from `RunState`, or pass another session object configured for the same session ID and backing store. The resumed turn is then appended to the same stored conversation history. See [Sessions](/lib/08-agents/openai-agents-python/docs-sessions) for the session lifecycle details.
 
 ## Example: pause, approve, resume
 
@@ -180,9 +185,9 @@ To use streaming in a run that may pause for approvals, call `Runner.run_streame
 - **Streaming approvals**: `examples/agent_patterns/human_in_the_loop_stream.py` shows how to drain `stream_events()` and then approve pending tool calls before resuming with `Runner.run_streamed(agent, state)`.
 - **Custom rejection text**: `examples/agent_patterns/human_in_the_loop_custom_rejection.py` shows how to combine run-level `tool_error_formatter` with per-call `rejection_message` overrides when approvals are rejected.
 - **Agent as tool approvals**: `Agent.as_tool(..., needs_approval=...)` applies the same interruption flow when delegated agent tasks need review. Nested interruptions still surface on the outer run, so resume the original top-level agent rather than the nested one.
-- **Local shell and apply_patch tools**: `ShellTool` and `ApplyPatchTool` also support `needs_approval`. Use `state.approve(interruption, always_approve=True)` or `state.reject(..., always_reject=True)` to cache the decision for future calls to that tool during the rest of the run. For automatic decisions, provide `on_approval` (see `examples/tools/shell.py`); for manual decisions, handle interruptions (see `examples/tools/shell_human_in_the_loop.py`). Hosted shell environments do not support `needs_approval` or `on_approval`; see the [tools guide](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/tools.md).
+- **Local shell and apply_patch tools**: `ShellTool` and `ApplyPatchTool` also support `needs_approval`. Use `state.approve(interruption, always_approve=True)` or `state.reject(..., always_reject=True)` to cache the decision for future calls to that tool during the rest of the run. For automatic decisions, provide `on_approval` (see `examples/tools/shell.py`); for manual decisions, handle interruptions (see `examples/tools/shell_human_in_the_loop.py`). Hosted shell environments do not support `needs_approval` or `on_approval`; see the [tools guide](/lib/08-agents/openai-agents-python/docs-tools).
 - **Local MCP servers**: Use `require_approval` on `MCPServerStdio` / `MCPServerSse` / `MCPServerStreamableHttp` to gate MCP tool calls (see `examples/mcp/get_all_mcp_tools_example/main.py` and `examples/mcp/tool_filter_example/main.py`).
-- **Hosted MCP servers**: Set `tool_config={"require_approval": "always"}` on `HostedMCPTool` to force HITL, optionally providing `on_approval_request` to auto-approve or reject (see `examples/hosted_mcp/human_in_the_loop.py` and `examples/hosted_mcp/on_approval.py`). Use `"never"` for trusted servers (`examples/hosted_mcp/simple.py`).
+- **Hosted MCP servers**: Set `tool_config=\{"require_approval": "always"\}` on `HostedMCPTool` to force HITL, optionally providing `on_approval_request` to auto-approve or reject (see `examples/hosted_mcp/human_in_the_loop.py` and `examples/hosted_mcp/on_approval.py`). Use `"never"` for trusted servers (`examples/hosted_mcp/simple.py`).
 - **Sessions and memory**: Pass a session to `Runner.run` so approvals and conversation history survive multiple turns. SQLite and OpenAI Conversations session variants are in `examples/memory/memory_session_hitl_example.py` and `examples/memory/openai_session_hitl_example.py`.
 - **Realtime agents**: The realtime demo exposes WebSocket messages that approve or reject tool calls via `approve_tool_call` / `reject_tool_call` on the `RealtimeSession` (see `examples/realtime/app/server.py` for the server-side handlers and [Realtime guide](/lib/08-agents/openai-agents-python/docs-realtime-guide#tool-approvals) for the API surface).
 

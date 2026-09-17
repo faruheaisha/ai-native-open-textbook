@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/nexu-io/harness-engineering-guide"
-entryUrl: "https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/README.md"
+entryUrl: "https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/eval-awareness.md"
+sourceRel: "guide/eval-awareness.md"
+rawUrl: "/raw/09-harness/harness-engineering-guide-nexu/guide/eval-awareness.md"
+sourceSha256: "eb5d2f1b8072ff9e974b2bfaa93183df97e62521853764e698fabcbe5e9b2f14"
+pageSha256: "eb5d2f1b8072ff9e974b2bfaa93183df97e62521853764e698fabcbe5e9b2f14"
+contentMode: "local-full"
 zh: ""
 ---
 

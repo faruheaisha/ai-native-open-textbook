@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "01-foundations"
 sourceUrl: "https://github.com/zorost/AI-Engineering-Lab"
-entryUrl: "https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/README.md"
+entryUrl: "https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/curriculum/README.md"
+sourceRel: "curriculum/README.md"
+rawUrl: "/raw/01-foundations/ai-engineering-lab/curriculum/README.md"
+sourceSha256: "ea86e3dcb40832968d3ea80f1c70054b14c66fe280e806db346116880363a617"
+pageSha256: "ea86e3dcb40832968d3ea80f1c70054b14c66fe280e806db346116880363a617"
+contentMode: "local-full"
 zh: "on"
 ---
 
@@ -28,8 +33,8 @@ tracker.
 
 ![Seven phases across 24 weeks, and what each one puts in your hands](/mirror/06/068f0a31d146e63bc28309f7837b3c134c0a08eb.webp)
 
-> **Brand new?** Read [`START-HERE.md`](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/START-HERE.md) first, and keep
-> [`reference/GLOSSARY.md`](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/reference/GLOSSARY.md) one tab away, every term in the program is
+> **Brand new?** Read [`START-HERE.md`](/lib/01-foundations/ai-engineering-lab/START-HERE) first, and keep
+> [`reference/GLOSSARY.md`](/lib/01-foundations/ai-engineering-lab/reference-GLOSSARY) one tab away, every term in the program is
 > defined there in plain language.
 
 <div class="tb-zh"><p>全新上手？先读 START-HERE.md，并把 reference/GLOSSARY.md 放在旁边一个标签页——课程里的每个术语都在那里用平实的语言定义了。</p></div>

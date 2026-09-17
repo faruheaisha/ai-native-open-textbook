@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/microsoft/AI-Engineering-Coach"
-entryUrl: "https://github.com/microsoft/AI-Engineering-Coach/blob/18b1a3d16b586c171426c6a407cc5c2dc073556e/README.md"
+entryUrl: "https://github.com/microsoft/AI-Engineering-Coach/blob/18b1a3d16b586c171426c6a407cc5c2dc073556e/docs/content/getting-started/supported-tools.md"
+sourceRel: "docs/content/getting-started/supported-tools.md"
+rawUrl: "/raw/08-agents/microsoft-ai-engineering-coach/docs/content/getting-started/supported-tools.md"
+sourceSha256: "77d205767f3ec8f68b13b02cea644d3e79025796dac56e90e5255aa3c278fae7"
+pageSha256: "77d205767f3ec8f68b13b02cea644d3e79025796dac56e90e5255aa3c278fae7"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/AlephAITech/WorkBuddyGuide"
-entryUrl: "https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89da368fe208425ff50e121fe/README.md"
+entryUrl: "https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第四篇%20岗位与行业落地/第%2026%20章%20岗位路线图：不同岗位如何把%20WorkBuddy%20用深/index.md"
+sourceRel: "docs/bluebook/第四篇 岗位与行业落地/第 26 章 岗位路线图：不同岗位如何把 WorkBuddy 用深/index.md"
+rawUrl: "/raw/04-work/workbuddy-guide/docs/bluebook/第四篇 岗位与行业落地/第 26 章 岗位路线图：不同岗位如何把 WorkBuddy 用深/index.md"
+sourceSha256: "b3dc1d84eb6856aab3334d7dbbd7e58b2889a31572ac14749e7ee17916682b1d"
+pageSha256: "b3dc1d84eb6856aab3334d7dbbd7e58b2889a31572ac14749e7ee17916682b1d"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/openai/openai-cookbook"
-entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/README.md"
+entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/articles/per_run_spending_controller_responses_api.md"
+sourceRel: "articles/per_run_spending_controller_responses_api.md"
+rawUrl: "/raw/08-agents/openai-cookbook/articles/per_run_spending_controller_responses_api.md"
+sourceSha256: "12c45805ecbac274778dbdc83fbd14b36c67a22a052435f98ec0b8db0009575c"
+pageSha256: "12c45805ecbac274778dbdc83fbd14b36c67a22a052435f98ec0b8db0009575c"
+contentMode: "local-full"
 zh: ""
 ---
 

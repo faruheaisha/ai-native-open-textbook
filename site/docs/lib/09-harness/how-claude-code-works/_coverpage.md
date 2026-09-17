@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works"
-entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/README.md"
+entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/_coverpage.md"
+sourceRel: "_coverpage.md"
+rawUrl: "/raw/09-harness/how-claude-code-works/_coverpage.md"
+sourceSha256: "ab963205d0d2f9d547f95fe19696c130d136e5f2498d1e625f938c2c572f70da"
+pageSha256: "ab963205d0d2f9d547f95fe19696c130d136e5f2498d1e625f938c2c572f70da"
+contentMode: "local-full"
 zh: ""
 ---
 

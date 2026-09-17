@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "01-foundations"
 sourceUrl: "https://github.com/microsoft/generative-ai-for-beginners"
-entryUrl: "https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/README.md"
+entryUrl: "https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/03-using-generative-ai-responsibly/README.md"
+sourceRel: "03-using-generative-ai-responsibly/README.md"
+rawUrl: "/raw/01-foundations/microsoft-generative-ai-for-beginners/03-using-generative-ai-responsibly/README.md"
+sourceSha256: "6b32b29909240455cee77fc0cfee94420daf03343c78d59b5963be1afb226511"
+pageSha256: "6b32b29909240455cee77fc0cfee94420daf03343c78d59b5963be1afb226511"
+contentMode: "local-full"
 zh: "on"
 ---
 

@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works"
-entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/README.md"
+entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/15-task-system.md"
+sourceRel: "docs/15-task-system.md"
+rawUrl: "/raw/09-harness/how-claude-code-works/docs/15-task-system.md"
+sourceSha256: "1ca6dc2a5940bac4ea30c670070c35135eee74cb470e19a2e7aac1896def3a9a"
+pageSha256: "1ca6dc2a5940bac4ea30c670070c35135eee74cb470e19a2e7aac1896def3a9a"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -216,7 +221,7 @@ const LOCK_OPTIONS = {
 
 | 锁粒度 | 锁对象 | 使用场景 |
 |--------|--------|----------|
-| **任务级** | `{taskId}.json` | 更新单个任务（如修改状态、设置 owner） |
+| **任务级** | `\{taskId\}.json` | 更新单个任务（如修改状态、设置 owner） |
 | **目录级** | `.lock` | 需要跨任务原子操作（如创建新任务分配 ID、带忙碌检查的认领） |
 
 这里要单独说 `claimTaskWithBusyCheck`：它用目录级锁，把「检查 agent 是否空闲 + 认领任务」这两步并成一个原子操作。若改用任务级锁，两个 agent 可能同时通过忙碌检查、然后都认领成功，破坏了「一个 agent 同时只做一件事」的约束。

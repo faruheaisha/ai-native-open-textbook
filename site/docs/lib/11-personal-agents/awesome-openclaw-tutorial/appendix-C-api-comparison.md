@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial"
-entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/README.md"
+entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/appendix/C-api-comparison.md"
+sourceRel: "appendix/C-api-comparison.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-tutorial/appendix/C-api-comparison.md"
+sourceSha256: "9d31295955d26e972ecbc96a2c638ef46319d2404b3f89672212225cdb0dfdf4"
+pageSha256: "9d31295955d26e972ecbc96a2c638ef46319d2404b3f89672212225cdb0dfdf4"
+contentMode: "local-full"
 zh: ""
 ---
 

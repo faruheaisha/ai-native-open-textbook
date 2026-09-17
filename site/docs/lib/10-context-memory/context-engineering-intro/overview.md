@@ -9,6 +9,11 @@ tier: 1
 volume: "10-context-memory"
 sourceUrl: "https://github.com/coleam00/context-engineering-intro"
 entryUrl: "https://github.com/coleam00/context-engineering-intro/blob/a2d84b021cee1e2f4e77ba854bba0be8cb319035/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/10-context-memory/context-engineering-intro/README.md"
+sourceSha256: "ab659339a50f0f8ab4e5383d3d9edbe85cf49f014cfd968544ecb2fd1759531c"
+pageSha256: "ab659339a50f0f8ab4e5383d3d9edbe85cf49f014cfd968544ecb2fd1759531c"
+contentMode: "local-full"
 zh: "on"
 ---
 

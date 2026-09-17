@@ -1,0 +1,38 @@
+---
+title: "Conclusion"
+sourceId: "08-agents/huggingface-agents-course"
+sourceTitle: "Hugging Face Agents Course（智能体课程）"
+sourceKind: "系统课程"
+licenseLabel: "可转载"
+lang: "英文"
+tier: 1
+volume: "08-agents"
+sourceUrl: "https://github.com/huggingface/agents-course"
+entryUrl: "https://github.com/huggingface/agents-course/blob/b3946b1d09d29c65736e219d48a8a736a2c52154/units/en/unit3/agentic-rag/conclusion.mdx"
+sourceRel: "units/en/unit3/agentic-rag/conclusion.mdx"
+rawUrl: "/raw/08-agents/huggingface-agents-course/units/en/unit3/agentic-rag/conclusion.mdx"
+sourceSha256: "5184edc85e3a53bbdad61e8af71cf12aa21a993ec8260a94fa1f4a3ddc94a934"
+pageSha256: "5184edc85e3a53bbdad61e8af71cf12aa21a993ec8260a94fa1f4a3ddc94a934"
+contentMode: "local-full"
+zh: ""
+---
+
+# Conclusion
+
+In this unit, we've learned how to create an agentic RAG system to help Alfred, our friendly neighborhood agent, prepare for and manage an extravagant gala.
+
+The combination of RAG with agentic capabilities demonstrates how powerful AI assistants can become when they have:
+- Access to structured knowledge (guest information)
+- Ability to retrieve real-time information (web search)
+- Domain-specific tools (weather information, Hub stats)
+- Memory of past interactions
+
+With these capabilities, Alfred is now well-equipped to be the perfect host, able to answer questions about guests, provide up-to-date information, and ensure the gala runs smoothly—even managing the perfect timing for the fireworks display!
+
+> [!TIP]
+> Now that you've built a complete agent, you might want to explore:
+>
+> - Creating more specialized tools for your own use cases
+> - Implementing more sophisticated RAG systems with embeddings
+> - Building multi-agent systems where agents can collaborate
+> - Deploying your agent as a service that others can interact with

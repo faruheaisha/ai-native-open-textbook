@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/hoangnb24/repository-harness"
-entryUrl: "https://github.com/hoangnb24/repository-harness/blob/e765792b635b4d5e3e5fc0578f82f9ca5dea2681/README.md"
+entryUrl: "https://github.com/hoangnb24/repository-harness/blob/e765792b635b4d5e3e5fc0578f82f9ca5dea2681/docs/product/installation-profiles.md"
+sourceRel: "docs/product/installation-profiles.md"
+rawUrl: "/raw/09-harness/repository-harness/docs/product/installation-profiles.md"
+sourceSha256: "28356a548542edf83682806cf57031d537b8d0cc0d894bbaf04b945b65137c2f"
+pageSha256: "28356a548542edf83682806cf57031d537b8d0cc0d894bbaf04b945b65137c2f"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/wangxiaoshuai1998/QwenWorkGuide"
-entryUrl: "https://github.com/wangxiaoshuai1998/QwenWorkGuide/blob/002f698a68b69d3635acf6be0d6e27db69069071/README.md"
+entryUrl: "https://github.com/wangxiaoshuai1998/QwenWorkGuide/blob/002f698a68b69d3635acf6be0d6e27db69069071/docs/cases/submissions/vibe-resume/index.md"
+sourceRel: "docs/cases/submissions/vibe-resume/index.md"
+rawUrl: "/raw/04-work/qwenwork-guide/docs/cases/submissions/vibe-resume/index.md"
+sourceSha256: "acc7ad7835612672d60b6c2b958d17cc59c7ce4a430e74c1e5d3c51cc038adcb"
+pageSha256: "acc7ad7835612672d60b6c2b958d17cc59c7ce4a430e74c1e5d3c51cc038adcb"
+contentMode: "local-full"
 zh: ""
 ---
 

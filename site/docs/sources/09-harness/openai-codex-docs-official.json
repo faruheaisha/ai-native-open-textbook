@@ -1,0 +1,18 @@
+{
+  "id": "09-harness/openai-codex-docs-official",
+  "volume": "09-harness",
+  "local": "openai-codex-docs-official",
+  "title": "openai-codex-docs-official",
+  "kind": "官方文档",
+  "license": "官方文档（站点条款）",
+  "licenseLabel": "仅引用",
+  "licenseNote": "不可整篇转载，站内只做导航与引用",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": false,
+  "repo": null,
+  "site": "https://learn.chatgpt.com/docs",
+  "commit": null,
+  "entryUrl": "https://learn.chatgpt.com/docs",
+  "docs": 179
+}

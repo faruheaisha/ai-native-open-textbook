@@ -1,0 +1,80 @@
+---
+title: "Unit 5: Hooks"
+sourceId: "10-context-memory/hf-context-course"
+sourceTitle: "The Context Course"
+sourceKind: "系统课程"
+licenseLabel: "仅引用"
+lang: "英文"
+tier: 1
+volume: "10-context-memory"
+sourceUrl: "https://github.com/huggingface/context-course"
+entryUrl: "https://github.com/huggingface/context-course/blob/0448a7ca721a63a81531e1ba94f46f897c70645b/units/en/unit5/introduction.mdx"
+sourceRel: "units/en/unit5/introduction.mdx"
+rawUrl: "/raw/10-context-memory/hf-context-course/units/en/unit5/introduction.mdx"
+sourceSha256: "17a320d45b33f7737849137137d71cdc3f2c6b7f19d8b2186d78767e1b2c6859"
+pageSha256: "17a320d45b33f7737849137137d71cdc3f2c6b7f19d8b2186d78767e1b2c6859"
+contentMode: "local-full"
+zh: ""
+---
+
+# Unit 5: Hooks
+
+## What Are Hooks?
+
+Hooks are user-defined handlers that run at deterministic points in an agent's lifecycle. When an agent is about to call a tool, finish a turn, or start a new session, the runtime pauses, invokes any hooks registered for that event, and then continues. Hooks let you observe what the agent is doing, block unsafe actions, inject extra context, or stream events to an external system. Crucially, they let you do this without asking the model to do it itself.
+
+```text
+User prompt
+    │
+    ├─[UserPromptSubmit hook]─► log / inject context
+    ▼
+Model reasoning
+    │
+    ├─[PreToolUse hook]─► allow, deny, rewrite args
+    ▼
+Tool executes
+    │
+    ├─[PostToolUse hook]─► log, analyze, post-process
+    ▼
+Model continues
+    │
+    └─[Stop / SessionEnd hooks]─► persist, notify, tear down
+```
+
+Skills, MCP, plugins, and subagents all shape *what the agent can do*. Hooks shape *what happens around every step the agent takes*. That makes them the right surface for observability, guardrails, and automation glue.
+
+## Why Hooks Matter
+
+A model asked to "always run the linter after editing" will eventually forget or may not be consistent in its implementation. A hook on `PostToolUse` that runs the linter is consistent every single time and always runs. Hooks turn conventions into code.
+
+> [!NOTE]
+> A linter is a tool that checks code for common mistakes, style issues, and project rule violations. It does not usually run the whole program; it scans the code and reports things that look wrong or inconsistent.
+
+Three common patterns benefit the most:
+
+**Observability.** Every tool call, prompt, and stop event can be captured in a log or dashboard so you can see what the agent actually did — not what it said it did.
+
+**Guardrails.** A hook can inspect a `Bash` command before it runs and deny anything that touches `~/.ssh/` or `rm -rf /`. Guardrails expressed as code are more reliable than guardrails expressed as prompt instructions.
+
+**Automation.** Hooks can run formatters, linters, type-checkers, or test suites automatically after a file edit. The agent does not need to remember to do it — the runtime does.
+
+## Platform Landscape
+
+The four platforms in this course all support hooks, but with different shapes:
+
+- **Claude Code** — JSON configuration in `.claude/settings.json` (or inside a plugin). Events use `PascalCase` names like `PreToolUse` and `Stop`. Hooks can be shell commands, HTTP endpoints, prompts, or subagents.
+- **Codex** — JSON configuration in `.codex/hooks.json`, gated behind a feature flag in `config.toml`. A smaller set of events (also `PascalCase`), and shell-command handlers that receive a JSON payload on stdin.
+- **OpenCode** — TypeScript/JavaScript plugin modules in `.opencode/plugins/`. Hooks are object keys on the exported plugin, like `"tool.execute.before"` or a generic `event` callback. There is no JSON event config — everything is code.
+- **Pi** — TypeScript/JavaScript extensions in `.pi/extensions/` or `~/.pi/agent/extensions/`. Events use `lower_snake_case` names like `before_agent_start`, `tool_call`, and `tool_result`, and handlers are registered in code with `pi.on(...)`.
+
+The mental model is consistent across all four: events fire, handlers run, and handlers can influence the agent's next step. Only the syntax and the event names change.
+
+## What You'll Build
+
+This unit walks through the hook lifecycle, shows the exact config shape for each platform, and then builds a working **Agent Activity Dashboard**: a Gradio app that receives hook events over HTTP and visualizes tool calls, prompts, and sessions in real time. By the end you will have one dashboard that works against all four agents.
+
+## What You'll Learn
+
+This unit covers the common hook lifecycle shared by Claude Code, Codex, OpenCode, and Pi; where hook configuration lives on each platform and what JSON or code shape it takes; how hook handlers influence the agent through exit codes, JSON output, thrown errors, or returned values; and how to build a Gradio dashboard that turns hook events into a live view of agent activity.
+
+Next, a tour of the hook events themselves.

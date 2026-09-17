@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide"
-entryUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/README.md"
+entryUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/docs/resource-evaluations/069-claude-code-best-practice-repo-eval.md"
+sourceRel: "docs/resource-evaluations/069-claude-code-best-practice-repo-eval.md"
+rawUrl: "/raw/09-harness/claude-code-ultimate-guide/docs/resource-evaluations/069-claude-code-best-practice-repo-eval.md"
+sourceSha256: "382140dfb3f3c4a88d11b25468a802f527ee4757b0dde297e68ce451a2290f07"
+pageSha256: "382140dfb3f3c4a88d11b25468a802f527ee4757b0dde297e68ce451a2290f07"
+contentMode: "local-full"
 zh: ""
 ---
 

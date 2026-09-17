@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/liyupi/ai-guide"
-entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a02735b38c866/README.md"
+entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a02735b38c866/AI/AI应用场景/AI%20+%20办公效率/利用deepseek建立专属销售知识库.md"
+sourceRel: "AI/AI应用场景/AI + 办公效率/利用deepseek建立专属销售知识库.md"
+rawUrl: "/raw/07-coding/liyupi-ai-guide/AI/AI应用场景/AI + 办公效率/利用deepseek建立专属销售知识库.md"
+sourceSha256: "6dd190b191851dfca8e83034ad2459a396c21d632d14042cf624034462dd92a0"
+pageSha256: "6dd190b191851dfca8e83034ad2459a396c21d632d14042cf624034462dd92a0"
+contentMode: "local-full"
 zh: ""
 ---
 

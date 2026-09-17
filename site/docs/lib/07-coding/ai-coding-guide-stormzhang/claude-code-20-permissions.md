@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/stormzhang/ai-coding-guide"
-entryUrl: "https://github.com/stormzhang/ai-coding-guide/blob/d187dbdb83fa1be051a850074eb518e30e2eb47c/README.md"
+entryUrl: "https://github.com/stormzhang/ai-coding-guide/blob/d187dbdb83fa1be051a850074eb518e30e2eb47c/claude-code/20-permissions.md"
+sourceRel: "claude-code/20-permissions.md"
+rawUrl: "/raw/07-coding/ai-coding-guide-stormzhang/claude-code/20-permissions.md"
+sourceSha256: "05db06d305de2da2a1fed3c8164e6e86316a364544146f2399b11feada81d79e"
+pageSha256: "05db06d305de2da2a1fed3c8164e6e86316a364544146f2399b11feada81d79e"
+contentMode: "local-full"
 zh: ""
 ---
 

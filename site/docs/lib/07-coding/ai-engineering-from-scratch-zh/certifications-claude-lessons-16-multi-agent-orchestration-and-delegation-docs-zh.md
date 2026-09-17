@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh"
-entryUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/README.md"
+entryUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/certifications/claude/lessons/16-multi-agent-orchestration-and-delegation/docs/zh.md"
+sourceRel: "certifications/claude/lessons/16-multi-agent-orchestration-and-delegation/docs/zh.md"
+rawUrl: "/raw/07-coding/ai-engineering-from-scratch-zh/certifications/claude/lessons/16-multi-agent-orchestration-and-delegation/docs/zh.md"
+sourceSha256: "ce7d9591e321094022e0bc49193bc82fa10f08ea02398600970887f365a75326"
+pageSha256: "ce7d9591e321094022e0bc49193bc82fa10f08ea02398600970887f365a75326"
+contentMode: "local-full"
 zh: ""
 ---
 

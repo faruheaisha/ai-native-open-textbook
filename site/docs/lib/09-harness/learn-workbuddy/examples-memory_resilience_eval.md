@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/adongwanai/learn-workbuddy"
-entryUrl: "https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/README.md"
+entryUrl: "https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/examples/memory_resilience_eval/README.md"
+sourceRel: "examples/memory_resilience_eval/README.md"
+rawUrl: "/raw/09-harness/learn-workbuddy/examples/memory_resilience_eval/README.md"
+sourceSha256: "077d191473cb6985a3cd0e17617da8510749fed2aae455440db5586e25828540"
+pageSha256: "077d191473cb6985a3cd0e17617da8510749fed2aae455440db5586e25828540"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -16,7 +21,7 @@ zh: ""
 
 > 结论先行：Memory “能写、能搜”还不够。并发重试、身份冲突、跨用户读取、损坏持久层和进程重启都必须得到可重复、可解释的结果。
 
-本示例完全离线地运行五个 Memory contract gate，并输出结构化 scorecard。它直接加载 [S12 Cloud Memory](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/s12_cloud_memory/README.md) 的 `RemoteMemoryStore` 与 `RecallEngine`，不新增第二套 Memory 核心，也不调用模型或网络。
+本示例完全离线地运行五个 Memory contract gate，并输出结构化 scorecard。它直接加载 [S12 Cloud Memory](/lib/09-harness/learn-workbuddy/s12_cloud_memory) 的 `RemoteMemoryStore` 与 `RecallEngine`，不新增第二套 Memory 核心，也不调用模型或网络。
 
 ## 代码架构图
 

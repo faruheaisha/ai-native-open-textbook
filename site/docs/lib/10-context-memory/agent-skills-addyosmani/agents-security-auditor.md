@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/addyosmani/agent-skills"
-entryUrl: "https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/README.md"
+entryUrl: "https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/agents/security-auditor.md"
+sourceRel: "agents/security-auditor.md"
+rawUrl: "/raw/10-context-memory/agent-skills-addyosmani/agents/security-auditor.md"
+sourceSha256: "66a3f68f1c691b600ddb44e88afb138e239d0572df37be84e1f9a427c887dd0a"
+pageSha256: "66a3f68f1c691b600ddb44e88afb138e239d0572df37be84e1f9a427c887dd0a"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -118,4 +123,4 @@ Map findings to the OWASP Top 10 for LLM Applications where relevant.
 
 - **Invoke directly when:** the user wants a security-focused pass on a specific change, file, or system component.
 - **Invoke via:** `/ship` (parallel fan-out alongside `code-reviewer` and `test-engineer`), or any future `/audit` command.
-- **Do not invoke from another persona.** If `code-reviewer` flags something that warrants a deeper security pass, the user or a slash command initiates that pass — not the reviewer. See [docs/agents.md](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/docs/agents.md).
+- **Do not invoke from another persona.** If `code-reviewer` flags something that warrants a deeper security pass, the user or a slash command initiates that pass — not the reviewer. See [docs/agents.md](/lib/10-context-memory/agent-skills-addyosmani/docs-agents).

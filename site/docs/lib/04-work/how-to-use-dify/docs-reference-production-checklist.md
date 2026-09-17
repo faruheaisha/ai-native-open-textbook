@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/hijasonxu1/How-to-use-dify"
-entryUrl: "https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/README.md"
+entryUrl: "https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/docs/reference/production-checklist.md"
+sourceRel: "docs/reference/production-checklist.md"
+rawUrl: "/raw/04-work/how-to-use-dify/docs/reference/production-checklist.md"
+sourceSha256: "e6c84b4a29c3af56b345923295c9b7b42690d999ff4fe9800ea87d466af273c0"
+pageSha256: "e6c84b4a29c3af56b345923295c9b7b42690d999ff4fe9800ea87d466af273c0"
+contentMode: "local-full"
 zh: ""
 ---
 

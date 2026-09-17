@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/didilili/ai-agents-from-zero"
-entryUrl: "https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/README.md"
+entryUrl: "https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/2-RAG-搭建企业私有&个人知识库.md"
+sourceRel: "2-RAG-搭建企业私有&个人知识库.md"
+rawUrl: "/raw/08-agents/ai-agents-from-zero/2-RAG-搭建企业私有&个人知识库.md"
+sourceSha256: "a33c14e6fadf8fbd3162f5397ca9e04342c26cf327cc7ff04a0092778dfcd61f"
+pageSha256: "a33c14e6fadf8fbd3162f5397ca9e04342c26cf327cc7ff04a0092778dfcd61f"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -27,7 +32,7 @@ zh: ""
 
 **学习建议：** 这篇适合一边看平台，一边画出 RAG 链路：文档从哪里来、如何切分和索引、用户提问时怎么召回、召回内容又怎么交给模型。按钮不用一次记全，但每做一步都要问自己：这一步是在“准备知识”，还是在“查询知识”。能分清这两段，后面换 Cherry Studio、ima 或 Dify 都不容易迷路。
 
-**官方文档与资源**：详见 [工具导航与参考资料索引 - RAG与向量检索](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/工具导航与参考资料索引.md#RAG与向量检索)。
+**官方文档与资源**：详见 [工具导航与参考资料索引 - RAG与向量检索](/lib/08-agents/ai-agents-from-zero/工具导航与参考资料索引#RAG与向量检索)。
 
 ---
 

@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial"
-entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/README.md"
+entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/appendix/M-search-guide.md"
+sourceRel: "appendix/M-search-guide.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-tutorial/appendix/M-search-guide.md"
+sourceSha256: "11c82e74943879cb4f80bba6b7ea574aa45a8c5f91ea54c61fef9e7ee8b849d7"
+pageSha256: "11c82e74943879cb4f80bba6b7ea574aa45a8c5f91ea54c61fef9e7ee8b849d7"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -230,7 +235,7 @@ https://your-site.com/search?q=飞书
 ## 📚 相关资源
 
 - [教程目录](/lib/11-personal-agents/awesome-openclaw-tutorial/overview#教程目录)
-- [学习路径](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/LEARNING-PATH.md)
+- [学习路径](/lib/11-personal-agents/awesome-openclaw-tutorial/LEARNING-PATH)
 - [常见问题](/lib/11-personal-agents/awesome-openclaw-tutorial/appendix-E-common-problems)
 
 ---

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/gsd-build/get-shit-done"
-entryUrl: "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/README.md"
+entryUrl: "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/agents/gsd-debug-session-manager.md"
+sourceRel: "agents/gsd-debug-session-manager.md"
+rawUrl: "/raw/10-context-memory/get-shit-done/agents/gsd-debug-session-manager.md"
+sourceSha256: "50bf80979fd76567647190ad692d036a9cd39b7f3706fd6a8ccdc205b41a7ef2"
+pageSha256: "50bf80979fd76567647190ad692d036a9cd39b7f3706fd6a8ccdc205b41a7ef2"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -31,7 +36,7 @@ Your first action MUST be to read the debug file at `debug_file_path`. This is y
 Received from spawning orchestrator:
 
 - `slug` — session identifier
-- `debug_file_path` — path to the debug session file (e.g. `.planning/debug/{slug}.md`)
+- `debug_file_path` — path to the debug session file (e.g. `.planning/debug/\{slug\}.md`)
 - `symptoms_prefilled` — boolean; true if symptoms already written to file
 - `tdd_mode` — boolean; true if TDD gate is active
 - `goal` — `find_root_cause_only` | `find_and_fix`

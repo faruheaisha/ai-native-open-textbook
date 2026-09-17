@@ -1,0 +1,422 @@
+---
+title: "The SKILL.md Format"
+sourceId: "10-context-memory/hf-context-course"
+sourceTitle: "The Context Course"
+sourceKind: "系统课程"
+licenseLabel: "仅引用"
+lang: "英文"
+tier: 1
+volume: "10-context-memory"
+sourceUrl: "https://github.com/huggingface/context-course"
+entryUrl: "https://github.com/huggingface/context-course/blob/0448a7ca721a63a81531e1ba94f46f897c70645b/units/en/unit1/skill-format.mdx"
+sourceRel: "units/en/unit1/skill-format.mdx"
+rawUrl: "/raw/10-context-memory/hf-context-course/units/en/unit1/skill-format.mdx"
+sourceSha256: "ac0f42b5b43d7b1a83be0fe21b3f1ab4cbedbc87148e2a829029a0d518731e33"
+pageSha256: "ac0f42b5b43d7b1a83be0fe21b3f1ab4cbedbc87148e2a829029a0d518731e33"
+contentMode: "local-full"
+zh: ""
+---
+
+# The SKILL.md Format
+
+The Agent Skills Specification describes skills as a `SKILL.md` file with YAML frontmatter and Markdown instructions, optionally accompanied by `scripts/`, `references/`, and `assets/` directories. This lesson walks through each piece and how to write them well.
+
+<iframe
+    src="https://context-course-skill-anatomy.static.hf.space"
+    frameborder="0"
+    width="850"
+    height="450"
+></iframe>
+
+## Directory Structure
+
+Skills follow a consistent directory structure defined by the Agent Skills Specification:
+
+```
+skill-name/
+├── SKILL.md              # Required: metadata + instructions
+├── scripts/              # Optional: executable code
+│   ├── validate.py
+│   ├── deploy.sh
+│   └── README.md
+├── references/           # Optional: documentation links
+│   ├── api-reference.md
+│   └── examples.md
+└── assets/               # Optional: templates, data
+    ├── template.yaml
+    └── config-example.json
+```
+
+**Rules:**
+- Directory name must be lowercase with hyphens (skill-name, not SkillName)
+- Consecutive hyphens are NOT allowed (my--skill is invalid)
+- SKILL.md is required and must be in the root
+- Optional directories: scripts/, references/, assets/
+- All relative file paths are resolved from the skill root
+
+## Frontmatter Fields
+
+Every SKILL.md starts with YAML frontmatter that describes the skill. Here's the complete specification:
+
+```yaml
+---
+name: "dataset-publishing"
+description: "Publish datasets to Hugging Face Hub. Use when uploading datasets, creating dataset cards, or managing dataset versions."
+license: "Apache-2.0"
+compatibility: "Tested with Python 3.8+ and huggingface_hub 0.16+"
+metadata:
+  author: "ml-team"
+  version: "1.0.0"
+allowed-tools: "Bash(hf:*) Python(huggingface_hub:*)"
+---
+```
+
+### Required Fields
+
+**`name`** (string)
+- Human-readable identifier for the skill
+- Constraints: lowercase letters, digits, and hyphens; 1-64 characters; no consecutive hyphens
+- Must match the directory name exactly
+- Examples: `"text-classification"`, `"model-evaluation"`, `"dataset-publishing"`
+
+**`description`** (string)
+- Concise description of what the skill does
+- Constraints: max 1024 characters
+- Should include: what task the skill accomplishes, when to use it
+- Format: Start with verb (e.g., "Publish datasets...", "Train models...")
+
+### Optional Fields
+
+**`license`** (string)
+- Software license for the skill
+- Common values: "MIT", "Apache-2.0", "CC-BY-4.0", "GPL-3.0"
+- Indicates how others can use and modify the skill
+
+**`compatibility`** (string)
+- Environment requirements and tested configurations
+- Constraints: max 500 characters
+- Examples:
+  - "Tested with Python 3.8+ and huggingface_hub 0.16+"
+  - "Requires PyTorch 2.0+, transformers 4.30+, and CUDA 11.8"
+  - "Works with Claude Code, Codex, and open source agents"
+
+**`metadata`** (object)
+- Arbitrary key-value pairs for custom data
+- Common keys: `author`, `version`, `created`, `updated`, `maintainer`, `contact`
+
+For example:
+
+```yaml
+metadata:
+  author: "john-doe"
+  version: "1.2.0"
+  created: "2024-01-15"
+  updated: "2026-04-13"
+  maintainer: "john-doe"
+```
+
+**`allowed-tools`** (string, experimental)
+- Glob patterns specifying which tools the skill uses
+- Used by agents to restrict skill execution to specific tools
+- Format: `ToolName(pattern:*)` separated by spaces
+- Examples: `"Bash(git:*) Bash(jq:*) Read"` or `"Bash(hf:*) Python(huggingface_hub:*)"`
+- Currently experimental; not all agents support this field
+
+## Body Content
+
+After frontmatter, the skill should contain detailed instructions organized in Markdown:
+
+```markdown
+# Dataset Publishing Skill
+
+## Overview
+Brief description of what the skill teaches and typical use cases.
+
+## Prerequisites Checklist
+- [ ] Python 3.8 or higher installed
+- [ ] huggingface_hub package installed
+- [ ] Valid Hugging Face account
+- [ ] HF_TOKEN environment variable set
+
+## Step-by-Step Guide
+
+### 1. Authentication
+...
+```
+
+### Content Guidelines
+
+Keep your SKILL.md focused: aim for 400–800 lines maximum, move detailed reference material to the `references/` directory, move code examples to `scripts/`, and use internal links to reference other files like `[validation script](https://github.com/huggingface/context-course/blob/0448a7ca721a63a81531e1ba94f46f897c70645b/units/en/unit1/scripts/validate.py)`.
+
+Write for clarity by using `## Section` and `### Subsection` formatting, including copy-paste-ready code examples in fenced code blocks, numbering steps for procedures, and using checklists for prerequisites. Reference external resources with links to documentation, API guides, and example code.
+
+## File References in Skills
+
+When referencing helper scripts and assets, use relative paths from the skill root:
+
+**In SKILL.md:**
+````markdown
+## Validation
+
+Run the validation script:
+```bash
+python scripts/validate_dataset.py data/my_dataset.csv
+```
+
+Generate model card:
+```bash
+python scripts/create_model_card.py --name "My Model" --metrics metrics.json
+````
+
+## Helper Scripts Structure
+
+Scripts are stored in the `scripts/` directory and can be in any programming language:
+
+**scripts/validate_dataset.py**
+```python
+import pandas as pd
+from pathlib import Path
+
+def validate_dataset(dataset_path):
+    """Validate dataset meets requirements."""
+    if not Path(dataset_path).exists():
+        raise FileNotFoundError(f"Dataset not found: {dataset_path}")
+    
+    df = pd.read_csv(dataset_path)
+    
+    # Validate required columns
+    required = {'text', 'label'}
+    missing = required - set(df.columns)
+    if missing:
+        raise ValueError(f"Missing columns: {missing}")
+    
+    # Validate no nulls
+    if df.isnull().any().any():
+        raise ValueError("Dataset contains null values")
+    
+    return True
+
+if __name__ == "__main__":
+    import sys
+    try:
+        validate_dataset(sys.argv[1])
+        print("Validation passed!")
+    except Exception as e:
+        print(f"Validation failed: {e}")
+        sys.exit(1)
+```
+
+> [!TIP]
+> Scripts do not require an excessive amount of parameters. In most cases, the agent will regenerate the script with the appropriate parameters. Starting off with the core variables is usually enough to focus the agent on the core functionality.
+
+## References Directory
+
+The `references/` directory contains documentation referenced in SKILL.md:
+
+**references/api-reference.md**
+```markdown
+# Hugging Face Hub API Reference
+
+## Dataset API
+
+### Create Dataset
+```
+
+**references/examples.md**
+```markdown
+# Example Datasets
+
+## Simple CSV Dataset
+- Name: mnist-subset
+- Format: CSV
+- Columns: image_data, label
+- Size: ~10MB
+```
+
+## Assets Directory
+
+The `assets/` directory contains templates and configuration files:
+
+**assets/dataset-card-template.md**
+````markdown
+---
+license: cc-by-4.0
+---
+
+# {DATASET_NAME}
+
+## Dataset Summary
+{Brief description}
+
+## Dataset Structure
+### Data Splits
+{List splits: train, validation, test}
+```
+
+**assets/config-example.yaml**
+````yaml
+dataset:
+  name: my-dataset
+  version: 1.0
+  format: csv
+````
+
+
+<summary>Here's a small but complete skill following the specification</summary>
+
+**skill-name/SKILL.md**
+
+````markdown
+---
+name: "model-card-generator"
+description: "Generate model cards for Hugging Face Hub. Use when documenting models, adding metadata, or creating README files."
+license: "MIT"
+compatibility: "Python 3.8+, requires jinja2"
+metadata:
+  author: "context-course"
+  version: "1.0.0"
+  created: "2026-04-13"
+---
+
+# Model Card Generator Skill
+
+## Overview
+This skill helps create professional model cards and README files for models published to Hugging Face Hub. Model cards document:
+- Model architecture and training data
+- Intended use and limitations
+- Performance metrics
+- Ethical considerations
+- License information
+
+## Prerequisites Checklist
+- [ ] Python 3.8+ installed
+- [ ] jinja2 package installed
+- [ ] Model information available (name, description, metrics)
+
+## Step-by-Step Guide
+
+### 1. Gather Model Information
+Collect the following about your model:
+- Model name and description
+- Training data description
+- Performance metrics (accuracy, F1, BLEU, etc.)
+- Intended use cases
+- Limitations
+- License (MIT, Apache-2.0, CC-BY-4.0, etc.)
+
+### 2. Generate Card
+```python
+from generate_card import create_model_card
+
+metrics = {
+    "accuracy": 0.92,
+    "f1_score": 0.89,
+    "precision": 0.91
+}
+
+card = create_model_card(
+    model_name="My Classifier",
+    description="A transformer-based text classifier",
+    metrics=metrics
+)
+
+with open("README.md", "w") as f:
+    f.write(card)
+```
+
+See [the generation script](scripts/generate_card.py) for more options.
+
+### 3. Customize
+Open README.md and add:
+- Detailed description
+- Training procedure
+- Example usage
+- Citation information
+
+## Helper Scripts
+- [Model card generator](scripts/generate_card.py)
+- [Validation tool](scripts/validate_card.py)
+
+## References
+- [Model Cards Paper](https://arxiv.org/abs/1810.03993)
+- [HF Model Card Template](../references/hf-template.md)
+- [Best Practices](../references/best-practices.md)
+
+## Troubleshooting
+
+### Issue: Frontmatter not rendering
+**Solution**: Ensure dashes are on their own lines in the YAML section:
+```yaml
+---
+license: mit
+---
+```
+
+### Issue: Characters not displaying
+**Solution**: Save file as UTF-8 encoding:
+```bash
+file README.md
+```
+````
+
+**skill-name/scripts/generate_card.py**
+```python
+from datetime import datetime
+from jinja2 import Template
+
+TEMPLATE = """---
+license: {{ license }}
+---
+
+# {{ name }}
+
+{{ description }}
+
+## Performance
+
+| Metric | Value |
+|--------|-------|
+{% for metric, value in metrics.items() %}
+| {{ metric }} | {{ "%.4f" | format(value) }} |
+{% endfor %}
+
+## Model Details
+- Created: {{ created_date }}
+- Framework: PyTorch
+
+## Uses
+This model is suitable for {{ use_cases }}.
+
+## Limitations
+- Trained on specific domain data
+- May not generalize to other domains
+"""
+
+def create_model_card(model_name, description, metrics, license="mit", use_cases="classification"):
+    """Generate a model card."""
+    template = Template(TEMPLATE)
+    return template.render(
+        name=model_name,
+        description=description,
+        metrics=metrics,
+        license=license,
+        use_cases=use_cases,
+        created_date=datetime.now().isoformat()
+    )
+```
+
+**skill-name/references/best-practices.md**
+```markdown
+# Model Card Best Practices
+
+## Writing Clear Descriptions
+- Describe what the model does in one sentence
+- Explain the training data source
+- Mention the model architecture
+- List performance metrics
+
+## Performance Documentation
+- Always include actual metrics, not just claims
+- Use standard benchmarks where possible
+- Document evaluation methodology
+- Show limitations honestly

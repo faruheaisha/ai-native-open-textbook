@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/QoderAI/better-harness"
-entryUrl: "https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/README.md"
+entryUrl: "https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/blog/2026-07-30-better-harness-in-qoder.md"
+sourceRel: "docs/blog/2026-07-30-better-harness-in-qoder.md"
+rawUrl: "/raw/09-harness/better-harness/docs/blog/2026-07-30-better-harness-in-qoder.md"
+sourceSha256: "017b53df614f29acdcd5af3f9e83240f32fb5e567b712539592ef25667a9b7e1"
+pageSha256: "017b53df614f29acdcd5af3f9e83240f32fb5e567b712539592ef25667a9b7e1"
+contentMode: "local-full"
 zh: ""
 ---
 

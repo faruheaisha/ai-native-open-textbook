@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh"
-entryUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/README.md"
+entryUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/docs/codex/CX-04-Codex项目指令权限配置完整指南.md"
+sourceRel: "docs/codex/CX-04-Codex项目指令权限配置完整指南.md"
+rawUrl: "/raw/07-coding/ai-coding-guide-zh/docs/codex/CX-04-Codex项目指令权限配置完整指南.md"
+sourceSha256: "df65ad24670462fc38005c999ab6fe65c8e7dfd54e6ac57258530f1776977171"
+pageSha256: "df65ad24670462fc38005c999ab6fe65c8e7dfd54e6ac57258530f1776977171"
+contentMode: "local-full"
 zh: ""
 ---
 

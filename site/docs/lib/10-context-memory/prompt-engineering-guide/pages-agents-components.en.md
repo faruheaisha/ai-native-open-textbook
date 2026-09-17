@@ -8,13 +8,18 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide"
-entryUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide/blob/57673726396dd94acb23bdb1e67f27c78ee85a8e/README.md"
+entryUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide/blob/57673726396dd94acb23bdb1e67f27c78ee85a8e/pages/agents/components.en.mdx"
+sourceRel: "pages/agents/components.en.mdx"
+rawUrl: "/raw/10-context-memory/prompt-engineering-guide/pages/agents/components.en.mdx"
+sourceSha256: "cec888a731f0d603d787e6c46aacece63eddf0d65f2c909e2af170343cd5f237"
+pageSha256: "cec888a731f0d603d787e6c46aacece63eddf0d65f2c909e2af170343cd5f237"
+contentMode: "local-full"
 zh: ""
 ---
 
 # Agent Components
 
-import { Callout } from 'nextra/components'
+import \{ Callout \} from 'nextra/components'
 
 AI agents require three fundamental capabilities to effectively tackle complex tasks: planning abilities, tool utilization, and memory management. Let's dive into how these components work together to create functional AI agents.
 

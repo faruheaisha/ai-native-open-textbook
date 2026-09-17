@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/microsoft/AI-Engineering-Coach"
-entryUrl: "https://github.com/microsoft/AI-Engineering-Coach/blob/18b1a3d16b586c171426c6a407cc5c2dc073556e/README.md"
+entryUrl: "https://github.com/microsoft/AI-Engineering-Coach/blob/18b1a3d16b586c171426c6a407cc5c2dc073556e/docs/content/measure/burndown.md"
+sourceRel: "docs/content/measure/burndown.md"
+rawUrl: "/raw/08-agents/microsoft-ai-engineering-coach/docs/content/measure/burndown.md"
+sourceSha256: "842dc7b9e5341961d9b39823f38780e5dfb6eb545e1f8a2d95c58009b5ad7f8e"
+pageSha256: "842dc7b9e5341961d9b39823f38780e5dfb6eb545e1f8a2d95c58009b5ad7f8e"
+contentMode: "local-full"
 zh: ""
 ---
 

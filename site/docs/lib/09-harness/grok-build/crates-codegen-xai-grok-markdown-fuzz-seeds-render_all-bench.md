@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/xai-org/grok-build"
-entryUrl: "https://github.com/xai-org/grok-build/blob/37949780c144e37df692e3d669051a21fec24f20/README.md"
+entryUrl: "https://github.com/xai-org/grok-build/blob/37949780c144e37df692e3d669051a21fec24f20/crates/codegen/xai-grok-markdown/fuzz/seeds/render_all/bench.md"
+sourceRel: "crates/codegen/xai-grok-markdown/fuzz/seeds/render_all/bench.md"
+rawUrl: "/raw/09-harness/grok-build/crates/codegen/xai-grok-markdown/fuzz/seeds/render_all/bench.md"
+sourceSha256: "b7ae16ef3e8c719b727b810b7715d67cacf1e2b03816745c5243fbda2fe64a75"
+pageSha256: "b7ae16ef3e8c719b727b810b7715d67cacf1e2b03816745c5243fbda2fe64a75"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -337,7 +342,7 @@ Here are some strings that exercise interesting rendering edge cases:
 - **Fullwidth**: `ＡＢＣＤＥ` (each char is 2 columns wide)
 - **Combining**: `naïve` vs `naïve` (precomposed U+00EF vs combining U+0308)
 - **Box drawing**: `┌─────────┐│ content │└─────────┘` (all width 1)
-- **Mathematical**: `∀x ∈ ℝ : x² ≥ 0`, `∑_{i=0}^{n} aᵢ = S`, `∫₀^∞ e^{-x} dx = 1`
+- **Mathematical**: `∀x ∈ ℝ : x² ≥ 0`, `∑_\{i=0\}^\{n\} aᵢ = S`, `∫₀^∞ e^\{-x\} dx = 1`
 - **CJK mixed**: `これはテストです — this is a test — 這是測試 — 이것은 시험이다`
 - **RTL markers**: `Hello ‮dlrow‬!` (contains RLO/PDF override characters)
 

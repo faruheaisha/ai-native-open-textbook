@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "13-local-ai"
 sourceUrl: "https://github.com/microsoft/edgeai-for-beginners"
-entryUrl: "https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/README.md"
+entryUrl: "https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/Module04/04.openvino.md"
+sourceRel: "Module04/04.openvino.md"
+rawUrl: "/raw/13-local-ai/edgeai-for-beginners/Module04/04.openvino.md"
+sourceSha256: "31181d79af7cade5fc5451edd2df7d3c8cc8fcf886aa691d32b05bc8e7b6d0c4"
+pageSha256: "31181d79af7cade5fc5451edd2df7d3c8cc8fcf886aa691d32b05bc8e7b6d0c4"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -487,7 +492,7 @@ compiled_model = core.compile_model(model, "CPU", config)
 #### 4. Memory Issues
 - Reduce model batch size during optimization
 - Use streaming for large datasets
-- Enable model caching: `core.set_property("CPU", {"CACHE_DIR": "./cache"})`
+- Enable model caching: `core.set_property("CPU", \{"CACHE_DIR": "./cache"\})`
 
 #### 5. Accuracy Degradation
 - Use higher precision (INT8 instead of INT4)

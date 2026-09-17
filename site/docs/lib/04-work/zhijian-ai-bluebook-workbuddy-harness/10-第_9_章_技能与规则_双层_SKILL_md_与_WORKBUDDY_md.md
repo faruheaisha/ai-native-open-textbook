@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "04-work"
 sourceUrl: "https://github.com/zjp1997720/zhijian-ai-bluebook-workbuddy-harness"
-entryUrl: "https://github.com/zjp1997720/zhijian-ai-bluebook-workbuddy-harness/blob/6ac68cd42a01add16568d1ab9cf2399822467fad/01-前言.md"
+entryUrl: "https://github.com/zjp1997720/zhijian-ai-bluebook-workbuddy-harness/blob/6ac68cd42a01add16568d1ab9cf2399822467fad/10-第%209%20章%20技能与规则：双层%20SKILL.md%20与%20WORKBUDDY.md.md"
+sourceRel: "10-第 9 章 技能与规则：双层 SKILL.md 与 WORKBUDDY.md.md"
+rawUrl: "/raw/04-work/zhijian-ai-bluebook-workbuddy-harness/10-第 9 章 技能与规则：双层 SKILL.md 与 WORKBUDDY.md.md"
+sourceSha256: "61126d212cb21da78f5d99ce8cbeccd3cf1be388535ef9ee66a092baccde3c7e"
+pageSha256: "61126d212cb21da78f5d99ce8cbeccd3cf1be388535ef9ee66a092baccde3c7e"
+contentMode: "local-full"
 zh: ""
 ---
 

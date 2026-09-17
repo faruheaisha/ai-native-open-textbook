@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/github/spec-kit"
-entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/README.md"
+entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/docs/community/friends.md"
+sourceRel: "docs/community/friends.md"
+rawUrl: "/raw/07-coding/spec-kit/docs/community/friends.md"
+sourceSha256: "882c907698fa9ca1a864876a61dd14f2e513b4341069c2e762f6339b64a1a808"
+pageSha256: "882c907698fa9ca1a864876a61dd14f2e513b4341069c2e762f6339b64a1a808"
+contentMode: "local-full"
 zh: ""
 ---
 

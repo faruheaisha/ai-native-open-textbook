@@ -1,0 +1,109 @@
+---
+title: "Web Analytics Patterns"
+sourceId: "10-context-memory/openai-skills"
+sourceTitle: "Agent Skills"
+sourceKind: "技能与配置库"
+licenseLabel: "仅引用"
+lang: "英文"
+tier: 3
+volume: "10-context-memory"
+sourceUrl: "https://github.com/openai/skills"
+entryUrl: "https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/skills/.curated/cloudflare-deploy/references/web-analytics/patterns.md"
+sourceRel: "skills/.curated/cloudflare-deploy/references/web-analytics/patterns.md"
+rawUrl: "/raw/10-context-memory/openai-skills/skills/.curated/cloudflare-deploy/references/web-analytics/patterns.md"
+sourceSha256: "6ccd1e334d260b968731f5f613ad28882bc199b72883e3254a52ded8d859f5a8"
+pageSha256: "6ccd1e334d260b968731f5f613ad28882bc199b72883e3254a52ded8d859f5a8"
+contentMode: "local-full"
+zh: ""
+---
+
+# Web Analytics Patterns
+
+## Core Web Vitals Debugging
+
+Dashboard → Core Web Vitals → Click metric → Debug View shows top 5 problematic elements.
+
+### LCP Fixes
+
+```html
+
+<img src="hero.jpg" loading="eager" fetchpriority="high" />
+<link rel="preload" as="image" href="/hero.jpg" fetchpriority="high" />
+```
+
+### CLS Fixes
+
+```css
+/* Reserve space */
+.ad-container { min-height: 250px; }
+img { width: 400px; height: 300px; } /* Explicit dimensions */
+```
+
+### INP Fixes
+
+```typescript
+// Debounce expensive operations
+const handleInput = debounce(search, 300);
+
+// Yield to main thread
+await task(); await new Promise(r => setTimeout(r, 0)); await task2();
+
+// Move to Web Worker for heavy computation
+```
+
+| Metric | Good | Poor |
+|--------|------|------|
+| LCP | ≤2.5s | >4s |
+| INP | ≤200ms | >500ms |
+| CLS | ≤0.1 | >0.25 |
+
+## GDPR Consent
+
+```typescript
+// Load beacon only after consent
+const consent = localStorage.getItem('analytics-consent');
+if (consent === 'accepted') {
+  const script = document.createElement('script');
+  script.src = 'https://static.cloudflareinsights.com/beacon.min.js';
+  script.setAttribute('data-cf-beacon', '{"token": "TOKEN", "spa": true}');
+  document.body.appendChild(script);
+}
+```
+
+Alternative: Dashboard → "Enable, excluding visitor data in the EU"
+
+## SPA Navigation
+
+```html
+
+```
+
+Without `spa: true`: only initial pageload tracked.
+
+## Staging/Production Separation
+
+```typescript
+// Use env-specific tokens
+const token = process.env.NEXT_PUBLIC_CF_ANALYTICS_TOKEN;
+// .env.production: production token
+// .env.staging: staging token (or empty to disable)
+```
+
+## Bot Filtering
+
+Dashboard → Filters → "Exclude Bot Traffic"
+
+Filters: Search crawlers, monitoring services, known bots.  
+Not filtered: Headless browsers (Playwright/Puppeteer).
+
+## Ad-Blocker Impact
+
+~25-40% of users may block `cloudflareinsights.com`. No official workaround.
+Dashboard shows minimum baseline; use server logs for complete picture.
+
+## Limitations
+
+- No UTM parameter tracking
+- No webhooks/alerts/API
+- No custom beacon domains
+- Max 10 non-proxied sites

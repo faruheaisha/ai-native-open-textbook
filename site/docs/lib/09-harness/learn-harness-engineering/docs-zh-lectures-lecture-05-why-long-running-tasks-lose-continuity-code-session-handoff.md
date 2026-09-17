@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/walkinglabs/learn-harness-engineering"
-entryUrl: "https://github.com/walkinglabs/learn-harness-engineering/blob/77e7a3e21469dcbece2558086c8d91657abeaa40/README.md"
+entryUrl: "https://github.com/walkinglabs/learn-harness-engineering/blob/77e7a3e21469dcbece2558086c8d91657abeaa40/docs/zh/lectures/lecture-05-why-long-running-tasks-lose-continuity/code/session-handoff.md"
+sourceRel: "docs/zh/lectures/lecture-05-why-long-running-tasks-lose-continuity/code/session-handoff.md"
+rawUrl: "/raw/09-harness/learn-harness-engineering/docs/zh/lectures/lecture-05-why-long-running-tasks-lose-continuity/code/session-handoff.md"
+sourceSha256: "7baad2d4dfff4e1ec7bbd5c2538aa427ab87474cfd3bc93e06a13fa1111d9ea3"
+pageSha256: "7baad2d4dfff4e1ec7bbd5c2538aa427ab87474cfd3bc93e06a13fa1111d9ea3"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "08-agents"
 sourceUrl: "https://github.com/huggingface/agents-course"
-entryUrl: "https://github.com/huggingface/agents-course/blob/b3946b1d09d29c65736e219d48a8a736a2c52154/README.md"
+entryUrl: "https://github.com/huggingface/agents-course/blob/b3946b1d09d29c65736e219d48a8a736a2c52154/units/en/bonus-unit3/from-llm-to-agents.mdx"
+sourceRel: "units/en/bonus-unit3/from-llm-to-agents.mdx"
+rawUrl: "/raw/08-agents/huggingface-agents-course/units/en/bonus-unit3/from-llm-to-agents.mdx"
+sourceSha256: "3fa6d95890c69d4b49d5db5e59b1ae6430d2bc676ad646c62a18e3ffa58d0bf6"
+pageSha256: "3fa6d95890c69d4b49d5db5e59b1ae6430d2bc676ad646c62a18e3ffa58d0bf6"
+contentMode: "local-full"
 zh: ""
 ---
 

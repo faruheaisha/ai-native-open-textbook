@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/patchy631/ai-engineering-hub"
-entryUrl: "https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/README.md"
+entryUrl: "https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/agent-with-mcp-memory/README.md"
+sourceRel: "agent-with-mcp-memory/README.md"
+rawUrl: "/raw/10-context-memory/ai-engineering-hub/agent-with-mcp-memory/README.md"
+sourceSha256: "6a90a91051007f5eae4960fedb2f2add3663efca8e8a0f7fc4e7e87c48c9d1fc"
+pageSha256: "6a90a91051007f5eae4960fedb2f2add3663efca8e8a0f7fc4e7e87c48c9d1fc"
+contentMode: "local-full"
 zh: ""
 ---
 

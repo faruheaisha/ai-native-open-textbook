@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/affaan-m/ECC"
-entryUrl: "https://github.com/affaan-m/ECC/blob/928c1dea72f5c330442fc1f595563398b8f389f7/README.md"
+entryUrl: "https://github.com/affaan-m/ECC/blob/928c1dea72f5c330442fc1f595563398b8f389f7/agents/django-reviewer.md"
+sourceRel: "agents/django-reviewer.md"
+rawUrl: "/raw/09-harness/ecc/agents/django-reviewer.md"
+sourceSha256: "d116bccee67db3d1f52f54f819a04467fe7dd2b0004ec85d21f218a6aacf6346"
+pageSha256: "d116bccee67db3d1f52f54f819a04467fe7dd2b0004ec85d21f218a6aacf6346"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -102,7 +107,7 @@ When invoked:
 
 - **Business logic in views or serializers**: Move to `services.py`
 - **Signal logic that belongs in a service**: Signals make flow hard to trace — use explicitly
-- **Mutable default in model field**: `default=[]` or `default={}` — use `default=list`
+- **Mutable default in model field**: `default=[]` or `default=\{\}` — use `default=list`
 - **`save()` called without `update_fields`**: Overwrites all columns — risk of clobbering concurrent writes
 
   ```python

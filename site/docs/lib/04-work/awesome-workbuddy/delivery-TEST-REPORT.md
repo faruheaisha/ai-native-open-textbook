@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "04-work"
 sourceUrl: "https://github.com/staruhub/awesome-workbuddy"
-entryUrl: "https://github.com/staruhub/awesome-workbuddy/blob/e32b6c953154e41f6cb4e6b69fd7d933f5cef3d3/README.md"
+entryUrl: "https://github.com/staruhub/awesome-workbuddy/blob/e32b6c953154e41f6cb4e6b69fd7d933f5cef3d3/delivery/TEST-REPORT.md"
+sourceRel: "delivery/TEST-REPORT.md"
+rawUrl: "/raw/04-work/awesome-workbuddy/delivery/TEST-REPORT.md"
+sourceSha256: "ccc924d6b9a18cfe048195e33087c5d24cb0a2daa4d983e2009f3393c8bd4127"
+pageSha256: "ccc924d6b9a18cfe048195e33087c5d24cb0a2daa4d983e2009f3393c8bd4127"
+contentMode: "local-full"
 zh: ""
 ---
 

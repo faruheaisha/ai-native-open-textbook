@@ -8,13 +8,18 @@ lang: "英文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/vibefast-app/vibefast-docs"
-entryUrl: "https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/README.md"
+entryUrl: "https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/06-cloudflare-workers-vs-traditional-server-en.md"
+sourceRel: "en/06-cloudflare-workers-vs-traditional-server-en.md"
+rawUrl: "/raw/07-coding/vibefast-docs/en/06-cloudflare-workers-vs-traditional-server-en.md"
+sourceSha256: "46255366dcbbb37224a0613214c55bc57b14ae73e2b6c8fcbc8a3bedc41ff8cc"
+pageSha256: "46255366dcbbb37224a0613214c55bc57b14ae73e2b6c8fcbc8a3bedc41ff8cc"
+contentMode: "local-full"
 zh: ""
 ---
 
 # What's the Difference Between Cloudflare Workers and Traditional Servers?
 
-[English](/lib/07-coding/vibefast-docs/en-06-cloudflare-workers-vs-traditional-server-en) · [繁中](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/zh/06-cloudflare-workers-vs-traditional-server-zh.md) · [Español](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/es/06-cloudflare-workers-vs-traditional-server-es.md) · [日本語](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/jp/06-cloudflare-workers-vs-traditional-server-jp.md) · [Português (BR)](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/pt-br/06-cloudflare-workers-vs-traditional-server-pt-br.md)
+[English](/lib/07-coding/vibefast-docs/en-06-cloudflare-workers-vs-traditional-server-en) · [繁中](/lib/07-coding/vibefast-docs/zh-06-cloudflare-workers-vs-traditional-server-zh) · [Español](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/es/06-cloudflare-workers-vs-traditional-server-es.md) · [日本語](/lib/07-coding/vibefast-docs/jp-06-cloudflare-workers-vs-traditional-server-jp) · [Português (BR)](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/pt-br/06-cloudflare-workers-vs-traditional-server-pt-br.md)
 
 **Author:** Danko Peng ([@dankopeng](https://x.com/dankopeng))  
 **Updated:** March 2026  

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/KhazP/vibe-coding-prompt-template"
-entryUrl: "https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/README.md"
+entryUrl: "https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/examples/reddit-to-ai/TechDesign-reddit-to-ai-MVP.md"
+sourceRel: "examples/reddit-to-ai/TechDesign-reddit-to-ai-MVP.md"
+rawUrl: "/raw/07-coding/vibe-coding-prompt-template/examples/reddit-to-ai/TechDesign-reddit-to-ai-MVP.md"
+sourceSha256: "1bfb722b4464bdbfe86b20534d8cf7c5b349fc3a050f0f05fdde35d625ba7b89"
+pageSha256: "1bfb722b4464bdbfe86b20534d8cf7c5b349fc3a050f0f05fdde35d625ba7b89"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -68,8 +73,8 @@ Reddit-to-AI/
 - **Test it by:** open a 200+ comment thread, run the scrape, confirm nested replies and that the filters change the output
 
 ### Feature 2: Prompt Presets & Custom Templates — Easy
-- **Build prompt:** "Create promptBuilder.js: given scraped thread data and a preset (Summarization, Debate Analysis, Sentiment, ELI5, Key Takeaways), return a prompt string; support custom templates with a {content} placeholder."
-- **Test it by:** pick Debate Analysis and check the thread lands where `{content}` was
+- **Build prompt:** "Create promptBuilder.js: given scraped thread data and a preset (Summarization, Debate Analysis, Sentiment, ELI5, Key Takeaways), return a prompt string; support custom templates with a \{content\} placeholder."
+- **Test it by:** pick Debate Analysis and check the thread lands where `\{content\}` was
 
 ### Feature 3: Preview Before Sending (Context Budget) — Medium
 - **Build prompt:** "Create a preview page showing the prompt in an editable textarea with a live meter (characters, estimated tokens, comment count) that warns when large, plus Send / Copy / Export buttons."

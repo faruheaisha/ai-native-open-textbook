@@ -1,0 +1,42 @@
+---
+title: "Claude Code Best Practice"
+sourceId: "09-harness/claude-code-best-practice"
+sourceTitle: "Claude Code Best Practice"
+sourceKind: "工程手册"
+licenseLabel: "可转载"
+lang: "英文"
+tier: 1
+volume: "09-harness"
+sourceUrl: "https://github.com/shanraisshan/claude-code-best-practice"
+entryUrl: "https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/videos/claude-matt-pocock-24-apr-26.md"
+sourceRel: "videos/claude-matt-pocock-24-apr-26.md"
+rawUrl: "/raw/09-harness/claude-code-best-practice/videos/claude-matt-pocock-24-apr-26.md"
+sourceSha256: "87d58effa16d07454b30f5a302a1f775665e6a4f4624e510fb1908118fe8bd94"
+pageSha256: "d5d3f6210aec1e4aad5e6a39033b6df4f9a356775bfdf41a7eaa9b3dbef3ce9f"
+contentMode: "local-full"
+zh: ""
+---
+
+### Running Grill Me on Sarah Chen's Slack Brief
+
+And so this again is where we're going. Let's let's get some exercises. So what I'd like you to do is go to this page, the the grill me skill. And inside the repo here, we have a Slack message from our pal. Where is it? It's in the root of the repo. And it's under where is it? Clientbrief.mmd. It's a Slack message from Sarah Chin. For some reason, the Claude always chooses Sarah Chen as the name. I don't know why. Um, it's saying that in Cadence, our um course platform, our retention numbers are not great. Students sign up, do a few lessons, then they drop off. I'd love to add some gamification to the platform. And so, when you're presented with an idea like this, you need to find some way of turning it into reality. Let's say Sarah Chen is your client. You're on a tight budget. You need to get this done fast. How do you go and do it?
+
+Um, raise your hand if you would. um enter plan mode when you're doing this. Anyone a big user of plan mode? Yep. Um let's actually shout out quickly any other ideas about what you would do with this or raise your hand if you what would be your first port of call. Yeah, sorry. Yes, exactly. Let's imagine that Sarah Chen's gone on hold. You have no idea, right? Uh she's just posted this thing. You need to action it before you go.
+
+Well, my first protocol is I go for this particular skill. I'm going to clear my context. I'm going to uh get rid of you. You don't need to be there. And I'm going to say um I'm going to invoke a skill, which is the grill me skill. Let's quickly check. Raise your hands if you don't know what this is. Cool. Oh, sorry. Sorry. Let me be more specific. Raise your hands if you don't know what I'm doing here when I uh do a forward slash and then type something. Anyone everyone kind of understand what that is? I'm invoking a skill. I'm invoking the grill me skill. And what I'm going to do is I'm going to say grill me and I'm going to pass in the client brief. So now the LLM really has only a couple of things here. It just has the skill and it has the description of what I want to do.
+
+And this is virtually how I start every piece of work with AI. And while it's exploring the codebase, I'm just going to show you what the grill me skill does. So this is inside the repo so you can check it out. It's extremely short. Interview me relentlessly about every aspect of this plan until we reach a shared understanding. Walk down each branch of the design tree, resolving dependencies one by one. For each question, provide your recommended answer. Ask the questions one at a time. uh blah blah blah.
+
+What this does, and what I noticed when I was working with AI, especially in plan mode actually, is it would really eagerly try to produce a plan for me. It would say, "Okay, I think I've got enough. I'm just goof plan." And what I found was that I was really trying to find the words for this for for what I wanted instead of that. And Frederick P. Brooks in the design of design he has a great quote uh talking about the design concept when you're working on something new with someone when you're uh all trying to build something together then there's this shared idea that's shared between all participants and that is the design concept and that's what I realized I needed with Claude I needed I needed to reach a shared understanding I didn't need an asset I didn't need a plan I needed to be on the same wavelength as the AI as my agent. And this is an extremely effective way of doing it.
+
+So hopefully there we go. Nice. It has done its exploration. First of all, it's invoked a sub agent which spent uh 97 93.7K tokens on Opus. Um and it's asked me the first question. Cool. We can see that even though the sub agent burned a ton of tokens, I haven't actually um uh increased my token usage that much.
+
+Raise your hand if you don't know what sub aents are. It's an important question. Everyone kind of clear what sub aents are? Okay, I'll give a brief definition which is that this this sub aents thing here, this explore sub agents, it has essentially gone and called another LLM which has an isolated context window and then that LLM has reported a summary back. So a sub aent is kind of like a delegation. You're delegating a task to a sub agent. It goes eagerly does all the thing, explores a ton of stuff and then just drip feeds the important stuff back up to the orchestrator agent to the parent agent.
+
+So, okay. So, hopefully you guys have seen the same thing. It's done on explore. And we now have our first question. Points economy. What actions earn points and how much? Okay. At this point, you can ask it, by the way, questions to um deepen your understanding of the repo. I obviously know this repo really well because I wrote it, but you might not um know what's going on. So, let's say my recommendation, keep it simple, twopoint sources to start. What's so nice about this is that not only does it give us a question that kind of aligns us here, we get a recommendation, too. And often what I'll find is the AI's recommendations are really good. And so I'll just say skip video, watch events, they're noisy and gameable. I agree. Sarah's asked while keep lessons in the bread and butter. Yeah, looks good, pal.
+
+Now, what I usually do is I usually dictate to the AI. I'm usually actually chatting to the AI instead of uh typing here, but uh this is a relatively new laptop and I couldn't get my dictation software working on it um because Windows is crap. Um so should points be retroactive? There are existing lessons progress records. We're completing out timestamps. This is a really nasty question, right? Should we actually go back and backfill all of the lesson progress events? This is a kind of question that you need to be aligned on if you're going to fulfill the feature properly. This is not something I considered and Sarah Chen certainly didn't consider. Do I want it to be retroactive? H. Let's actually do a vote inside here. Should we go back and backfill all the records? Raise your hand if you think we should backfill all the records. Raise your hand if you think we shouldn't backfill all the records. There are a lot of uh fence sitters in the room. I'm going to say, you know, this is the kind of discussion you're sort of having with the AI. You're getting further aligned. Yes, I'm just going to go with this recommendation because I'm lazy.
+
+Notice, too, how I'm able to keep in the loop here with AI. I'm not, you know, it's it's pinging me these questions pretty quickly. I'm not having to go off and check Twitter or something. Levels. What's the progression curve? Yeah, that looks about right, for instance. Yes. Okay. So hopefully you should be able to go and um kind of work through this with the AI and essentially try to reach an alignment. And this grill me skill this can last a long time. This can I've had it ask me 40 questions. I've had it ask me 80 questions. I've had some people it asks a hundred questions to literally you're sat there for an hour chatting to the AI. And what you end up with is essentially this conversation history that works really nicely and works really nicely as an asset of the design concept that you're creating.
+
+This can also function like this. You can uh have a meeting with someone who's a maybe a domain expert. Maybe I have a meeting with Sarah. I feed that meeting transcript into uh I don't know Gemini meetings or whatever you guys are using. You take that, you feed it into a grilling session and you grill through the assumptions that you didn't have. So, this ends up being a really nice kind of um a really nice way of just taking inputs from the world and then just turning and validating them.

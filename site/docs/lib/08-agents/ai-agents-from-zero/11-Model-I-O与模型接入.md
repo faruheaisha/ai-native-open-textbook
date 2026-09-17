@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/didilili/ai-agents-from-zero"
-entryUrl: "https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/README.md"
+entryUrl: "https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/11-Model-I-O与模型接入.md"
+sourceRel: "11-Model-I-O与模型接入.md"
+rawUrl: "/raw/08-agents/ai-agents-from-zero/11-Model-I-O与模型接入.md"
+sourceSha256: "a89fc421ebf51b7df19d04a06b8f8d60f3cd7e74f388664f9ae8eb08cfdb17e9"
+pageSha256: "a89fc421ebf51b7df19d04a06b8f8d60f3cd7e74f388664f9ae8eb08cfdb17e9"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -24,7 +29,7 @@ zh: ""
 
 **学习建议：** 第 10 章解决“能不能调通”，这一章解决“怎么把调用写得可换、可管、可复用”。读的时候按输入、参数、返回值、接入方式这条线走，并留意哪些代码和具体模型供应商绑定，哪些可以保持通用。后面看 [第 13 章](/lib/08-agents/ai-agents-from-zero/13-提示词与消息模板) 和 [第 14 章](/lib/08-agents/ai-agents-from-zero/14-输出解析器) 时，再把它们接回 Model I/O 这条主链。
 
-**官方文档与资源**：详见 [工具导航与参考资料索引 - 模型接入与本地运行](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/工具导航与参考资料索引.md#模型接入与本地运行)。
+**官方文档与资源**：详见 [工具导航与参考资料索引 - 模型接入与本地运行](/lib/08-agents/ai-agents-from-zero/工具导航与参考资料索引#模型接入与本地运行)。
 
 ---
 

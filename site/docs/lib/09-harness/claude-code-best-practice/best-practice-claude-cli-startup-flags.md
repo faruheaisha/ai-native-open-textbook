@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/shanraisshan/claude-code-best-practice"
-entryUrl: "https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/README.md"
+entryUrl: "https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/best-practice/claude-cli-startup-flags.md"
+sourceRel: "best-practice/claude-cli-startup-flags.md"
+rawUrl: "/raw/09-harness/claude-code-best-practice/best-practice/claude-cli-startup-flags.md"
+sourceSha256: "8299869af5ed15488cdddc13dacd2fcb2cda9e1c90f2e819e9b734ef55ce8973"
+pageSha256: "8299869af5ed15488cdddc13dacd2fcb2cda9e1c90f2e819e9b734ef55ce8973"
+contentMode: "local-full"
 zh: "on"
 ---
 
@@ -228,17 +233,17 @@ These startup-only environment variables are set in your shell before launching 
 
 | Variable | Description |
 |----------|-------------|
-| `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1` | Enable experimental agent teams. Also env-configurable — see [Settings Reference](/lib/09-harness/claude-code-best-practice/best-practice-claude-settings#environment-variables) |
-| `CLAUDE_CODE_TMPDIR` | Override temp directory for internal files. Also configurable via `env` key — see [Settings Reference](/lib/09-harness/claude-code-best-practice/best-practice-claude-settings#environment-variables-via-env) |
-| `CLAUDE_CODE_ADDITIONAL_DIRECTORIES_CLAUDE_MD=1` | Enable additional directory CLAUDE.md loading. Also configurable via `env` key — see [Settings Reference](/lib/09-harness/claude-code-best-practice/best-practice-claude-settings#environment-variables-via-env) |
-| `DISABLE_AUTOUPDATER=1` | Disable auto-updates. Also configurable via `env` key — see [Settings Reference](/lib/09-harness/claude-code-best-practice/best-practice-claude-settings#environment-variables-via-env) |
-| `CLAUDE_CODE_EFFORT_LEVEL` | Control thinking depth — see [Settings Reference](/lib/09-harness/claude-code-best-practice/best-practice-claude-settings#environment-variables-via-env) |
+| `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1` | Enable experimental agent teams. Also env-configurable — see [Settings Reference](/lib/09-harness/claude-code-best-practice/best-practice-claude-settings/index#environment-variables) |
+| `CLAUDE_CODE_TMPDIR` | Override temp directory for internal files. Also configurable via `env` key — see [Settings Reference](/lib/09-harness/claude-code-best-practice/best-practice-claude-settings/index#environment-variables-via-env) |
+| `CLAUDE_CODE_ADDITIONAL_DIRECTORIES_CLAUDE_MD=1` | Enable additional directory CLAUDE.md loading. Also configurable via `env` key — see [Settings Reference](/lib/09-harness/claude-code-best-practice/best-practice-claude-settings/index#environment-variables-via-env) |
+| `DISABLE_AUTOUPDATER=1` | Disable auto-updates. Also configurable via `env` key — see [Settings Reference](/lib/09-harness/claude-code-best-practice/best-practice-claude-settings/index#environment-variables-via-env) |
+| `CLAUDE_CODE_EFFORT_LEVEL` | Control thinking depth — see [Settings Reference](/lib/09-harness/claude-code-best-practice/best-practice-claude-settings/index#environment-variables-via-env) |
 | `USE_BUILTIN_RIPGREP=0` | Use system ripgrep instead of built-in (Alpine Linux) |
-| `CLAUDE_CODE_SIMPLE` | Enable simple mode (Bash + Edit tools only). Also configurable via `env` key — see [Settings Reference](/lib/09-harness/claude-code-best-practice/best-practice-claude-settings#environment-variables-via-env) |
+| `CLAUDE_CODE_SIMPLE` | Enable simple mode (Bash + Edit tools only). Also configurable via `env` key — see [Settings Reference](/lib/09-harness/claude-code-best-practice/best-practice-claude-settings/index#environment-variables-via-env) |
 | `CLAUDE_BASH_NO_LOGIN=1` | Skip login shell for BashTool |
-| `CCR_FORCE_BUNDLE=1` | Force bundling/uploading local repository when using `claude --remote`. Also configurable via `env` key — see [Settings Reference](/lib/09-harness/claude-code-best-practice/best-practice-claude-settings#environment-variables-via-env) |
+| `CCR_FORCE_BUNDLE=1` | Force bundling/uploading local repository when using `claude --remote`. Also configurable via `env` key — see [Settings Reference](/lib/09-harness/claude-code-best-practice/best-practice-claude-settings/index#environment-variables-via-env) |
 
-For environment variables configurable via the `"env"` key in `settings.json` (including `MAX_THINKING_TOKENS`, `CLAUDE_CODE_SHELL`, `CLAUDE_CODE_ENABLE_TASKS`, `CLAUDE_CODE_DISABLE_BACKGROUND_TASKS`, `CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS`, and more), see the [Claude Settings Reference](/lib/09-harness/claude-code-best-practice/best-practice-claude-settings#environment-variables-via-env).
+For environment variables configurable via the `"env"` key in `settings.json` (including `MAX_THINKING_TOKENS`, `CLAUDE_CODE_SHELL`, `CLAUDE_CODE_ENABLE_TASKS`, `CLAUDE_CODE_DISABLE_BACKGROUND_TASKS`, `CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS`, and more), see the [Claude Settings Reference](/lib/09-harness/claude-code-best-practice/best-practice-claude-settings/index#environment-variables-via-env).
 
 <div class="tb-zh"><p>若要通过 settings.json 的「env」键配置环境变量（包括 MAX_THINKING_TOKENS、CLAUDE_CODE_SHELL、CLAUDE_CODE_ENABLE_TASKS、CLAUDE_CODE_DISABLE_BACKGROUND_TASKS、CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS 等），请参见 Claude 设置参考文档。</p></div>
 

@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/AlephAITech/DoubaoWorkGuide"
-entryUrl: "https://github.com/AlephAITech/DoubaoWorkGuide/blob/ad7338e8fc889ec082cdfb3fa41fb659520c7174/01-初始豆包工作.md"
+entryUrl: "https://github.com/AlephAITech/DoubaoWorkGuide/blob/ad7338e8fc889ec082cdfb3fa41fb659520c7174/22-随意操作Excel，秒变数据分析大师.md"
+sourceRel: "22-随意操作Excel，秒变数据分析大师.md"
+rawUrl: "/raw/04-work/doubaowork-bluebook/22-随意操作Excel，秒变数据分析大师.md"
+sourceSha256: "dcccc68a3cdfd79043b01d85a0668106e006b732adfc4bc03f9f62447e183db4"
+pageSha256: "dcccc68a3cdfd79043b01d85a0668106e006b732adfc4bc03f9f62447e183db4"
+contentMode: "local-full"
 zh: ""
 ---
 

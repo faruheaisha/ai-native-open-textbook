@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/openai/openai-agents-python"
-entryUrl: "https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/README.md"
+entryUrl: "https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/mcp.md"
+sourceRel: "docs/mcp.md"
+rawUrl: "/raw/08-agents/openai-agents-python/docs/mcp.md"
+sourceSha256: "713685546ddcdcbd44f9bade7c4db094dcabc81bed0765ffcef6d6521ca0f0a8"
+pageSha256: "713685546ddcdcbd44f9bade7c4db094dcabc81bed0765ffcef6d6521ca0f0a8"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -150,7 +155,7 @@ asyncio.run(main())
 
 The hosted server exposes its tools automatically; you do not add it to `mcp_servers`.
 
-If you want hosted tool search to load a hosted MCP server lazily, set `tool_config["defer_loading"] = True` and add [`ToolSearchTool`][agents.tool.ToolSearchTool] to the agent. This is supported only on OpenAI Responses models. See [Tools](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/tools.md#hosted-tool-search) for the complete tool-search setup and constraints.
+If you want hosted tool search to load a hosted MCP server lazily, set `tool_config["defer_loading"] = True` and add [`ToolSearchTool`][agents.tool.ToolSearchTool] to the agent. This is supported only on OpenAI Responses models. See [Tools](/lib/08-agents/openai-agents-python/docs-tools#hosted-tool-search) for the complete tool-search setup and constraints.
 
 ### Streaming hosted MCP results
 
@@ -272,8 +277,8 @@ Supported forms:
 
 - `"always"` or `"never"` for all tools.
 - `True` requires approval for all tools, and `False` requires approval for none (equivalent to `"always"` and `"never"`, respectively).
-- A per-tool map, for example `{"delete_file": "always", "read_file": "never"}`.
-- A grouped object: <code v-pre>{"always": {"tool_names": [...]}, "never": {"tool_names": [...]}}</code>.
+- A per-tool map, for example `\{"delete_file": "always", "read_file": "never"\}`.
+- A grouped object: <code v-pre>\{"always": \{"tool_names": [...]\}, "never": \{"tool_names": [...]}}</code>.
 
 ```python
 async with MCPServerStreamableHttp(
@@ -534,7 +539,7 @@ When caching is enabled, each `list_tools()` result contains detached copies of 
 
 ## Tracing
 
-[Tracing](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/tracing.md) automatically captures MCP activity, including:
+[Tracing](/lib/08-agents/openai-agents-python/docs-tracing) automatically captures MCP activity, including:
 
 1. Calls to the MCP server to list tools.
 2. MCP-related information on tool calls.

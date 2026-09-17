@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/wangxiaoshuai1998/QwenWorkGuide"
-entryUrl: "https://github.com/wangxiaoshuai1998/QwenWorkGuide/blob/002f698a68b69d3635acf6be0d6e27db69069071/README.md"
+entryUrl: "https://github.com/wangxiaoshuai1998/QwenWorkGuide/blob/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第二部分%20实战案例%20从具体任务，走向AI%20Native/[实战案例]｜如何用%20Remotion%20Skills%20做视频/index.md"
+sourceRel: "docs/greenbook/第二部分 实战案例 从具体任务，走向AI Native/[实战案例]｜如何用 Remotion Skills 做视频/index.md"
+rawUrl: "/raw/04-work/qwenwork-guide/docs/greenbook/第二部分 实战案例 从具体任务，走向AI Native/[实战案例]｜如何用 Remotion Skills 做视频/index.md"
+sourceSha256: "f3d69f47afc94468a6f0fd479a89683108adc7d58356df8a33c2e101f0a59634"
+pageSha256: "f3d69f47afc94468a6f0fd479a89683108adc7d58356df8a33c2e101f0a59634"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -9,12 +9,17 @@ tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/vibefast-app/vibefast-docs"
 entryUrl: "https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/07-coding/vibefast-docs/README.md"
+sourceSha256: "ca374c761a38f6a7678289bf6d29e9bc4cb4257d2dcd3d69f3526989ba6c66de"
+pageSha256: "ca374c761a38f6a7678289bf6d29e9bc4cb4257d2dcd3d69f3526989ba6c66de"
+contentMode: "local-full"
 zh: ""
 ---
 
 # vibefast.app 🚀
 
-[English](/lib/07-coding/vibefast-docs/overview) · [繁中](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/README-zh.md) · [日本語](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/README-jp.md) · [Español](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/README-es.md) · [Português (BR)](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/README-pt-br.md)
+[English](/lib/07-coding/vibefast-docs/overview) · [繁中](/lib/07-coding/vibefast-docs/README-zh) · [日本語](/lib/07-coding/vibefast-docs/README-jp) · [Español](/lib/07-coding/vibefast-docs/README-es) · [Português (BR)](/lib/07-coding/vibefast-docs/README-pt-br)
 
 **You don’t need to know how to code to build a real web app.**  
 **3 commands. Deployed globally in 5 minutes.**
@@ -138,16 +143,16 @@ One-time payment · Lifetime updates · Immediate access to private GitHub repo
 - [x] 19 — [Choosing Your Stack: Cloudflare vs Vercel vs AWS](/lib/07-coding/vibefast-docs/en-19-cloudflare-vs-vercel-vs-aws-en)
 - [x] 20 — [The Complete Guide to Stripe Payments](/lib/07-coding/vibefast-docs/en-20-stripe-payment-complete-guide-en)
 - [x] 21 — [How to Write Tests with AI](/lib/07-coding/vibefast-docs/en-21-ai-testing-guide-en)
-- [x] 22 — [SEO Basics: Getting Your Product Found on Google](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/22-seo-basics-for-indie-makers-en.md)
-- [x] 23 — [Analytics and User Tracking](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/23-analytics-and-user-tracking-en.md)
-- [x] 24 — [Case Study: Building a SaaS Product with the vibefast.app template](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/24-saas-case-study-en.md)
-- [x] 25 — [Case Study: Building an E-commerce Site with the vibefast.app template](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/25-ecommerce-case-study-en.md)
+- [x] 22 — [SEO Basics: Getting Your Product Found on Google](/lib/07-coding/vibefast-docs/en-22-seo-basics-for-indie-makers-en)
+- [x] 23 — [Analytics and User Tracking](/lib/07-coding/vibefast-docs/en-23-analytics-and-user-tracking-en)
+- [x] 24 — [Case Study: Building a SaaS Product with the vibefast.app template](/lib/07-coding/vibefast-docs/en-24-saas-case-study-en)
+- [x] 25 — [Case Study: Building an E-commerce Site with the vibefast.app template](/lib/07-coding/vibefast-docs/en-25-ecommerce-case-study-en)
 
 -----
 
 ## Quick Links
 
-- [Quickstart Guide](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/quickstart.md) — From clone to live in 3 commands
-- [FAQ](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/faq.md) — Pricing, licensing, tech stack, and support
+- [Quickstart Guide](/lib/07-coding/vibefast-docs/quickstart) — From clone to live in 3 commands
+- [FAQ](/lib/07-coding/vibefast-docs/faq) — Pricing, licensing, tech stack, and support
 
 -----

@@ -9,6 +9,11 @@ tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/Windy3f3f3f3f/claude-code-from-scratch"
 entryUrl: "https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/09-harness/claude-code-from-scratch/README.md"
+sourceSha256: "19ac259dcf671def79ff47820b8438bb47c1e75f78b090fd312f8271c0168c1b"
+pageSha256: "19ac259dcf671def79ff47820b8438bb47c1e75f78b090fd312f8271c0168c1b"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -85,7 +90,7 @@ cd claude-code-from-scratch
 npm install && npm run build
 ```
 
-**Python 版**（需要 Python 3.11+，[详细说明](https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/python/README.md)）
+**Python 版**（需要 Python 3.11+，[详细说明](/lib/09-harness/claude-code-from-scratch/python)）
 
 ```bash
 cd python

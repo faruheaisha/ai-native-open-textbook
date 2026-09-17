@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "04-work"
 sourceUrl: "https://github.com/coze-dev/coze-studio"
-entryUrl: "https://github.com/coze-dev/coze-studio/blob/fefb05ff27be1da939612fbf9faf5db62583b8ae/README.md"
+entryUrl: "https://github.com/coze-dev/coze-studio/blob/fefb05ff27be1da939612fbf9faf5db62583b8ae/docs/pulsar-eventbus-integration-guide-en.md"
+sourceRel: "docs/pulsar-eventbus-integration-guide-en.md"
+rawUrl: "/raw/04-work/coze-studio/docs/pulsar-eventbus-integration-guide-en.md"
+sourceSha256: "fe33fb7bb7aedba13af16e446e8ee97ced552974af7db3fa33d994b588d413c7"
+pageSha256: "fe33fb7bb7aedba13af16e446e8ee97ced552974af7db3fa33d994b588d413c7"
+contentMode: "local-full"
 zh: ""
 ---
 

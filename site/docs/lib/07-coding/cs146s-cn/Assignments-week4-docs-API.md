@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/ShouZhengAI/CS146S_CN"
-entryUrl: "https://github.com/ShouZhengAI/CS146S_CN/blob/0d65f36f6673147d6c298670da4f9b4bd7f991fa/README.md"
+entryUrl: "https://github.com/ShouZhengAI/CS146S_CN/blob/0d65f36f6673147d6c298670da4f9b4bd7f991fa/Assignments/week4/docs/API.md"
+sourceRel: "Assignments/week4/docs/API.md"
+rawUrl: "/raw/07-coding/cs146s-cn/Assignments/week4/docs/API.md"
+sourceSha256: "68cacb1c3a0d5b2900b8f27acfe879cfba747bf3d56202f24641911b54864b07"
+pageSha256: "68cacb1c3a0d5b2900b8f27acfe879cfba747bf3d56202f24641911b54864b07"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -23,12 +28,12 @@ Base URL: `http://127.0.0.1:8000`. JSON is used for every request and response e
 | `GET` | `/notes/` | List all notes | `200`, `Note[]` |
 | `POST` | `/notes/` | Create a note | `201`, `Note` |
 | `GET` | `/notes/search?q=...` | Case-insensitive title/content search | `200`, `Note[]` |
-| `GET` | `/notes/{note_id}` | Read one note | `200`, `Note` |
-| `PUT` | `/notes/{note_id}` | Replace a note's title and content | `200`, `Note` |
-| `DELETE` | `/notes/{note_id}` | Delete one note | `204`, empty body |
+| `GET` | `/notes/\{note_id\}` | Read one note | `200`, `Note` |
+| `PUT` | `/notes/\{note_id\}` | Replace a note's title and content | `200`, `Note` |
+| `DELETE` | `/notes/\{note_id\}` | Delete one note | `204`, empty body |
 | `GET` | `/action-items/` | List action items | `200`, `ActionItem[]` |
 | `POST` | `/action-items/` | Create an open action item | `201`, `ActionItem` |
-| `PUT` | `/action-items/{item_id}/complete` | Mark an item complete; safe to repeat | `200`, `ActionItem` |
+| `PUT` | `/action-items/\{item_id\}/complete` | Mark an item complete; safe to repeat | `200`, `ActionItem` |
 
 ## Schemas
 
@@ -75,9 +80,9 @@ Both fields are required and trimmed. `title` must contain 1–200 characters an
 
 ## Query and error behavior
 
-- `q` is required, has 1–200 characters, and is trimmed before matching. A whitespace-only query returns `400` with `{"detail":"Search query must not be blank"}`.
-- A missing note returns `404` with `{"detail":"Note not found"}`.
-- A missing action item returns `404` with `{"detail":"Action item not found"}`.
+- `q` is required, has 1–200 characters, and is trimmed before matching. A whitespace-only query returns `400` with `\{"detail":"Search query must not be blank"\}`.
+- A missing note returns `404` with `\{"detail":"Note not found"\}`.
+- A missing action item returns `404` with `\{"detail":"Action item not found"\}`.
 - Invalid path/query values or malformed/invalid JSON return FastAPI's `422` validation response with a structured `detail` list.
 
 ## Synchronization check

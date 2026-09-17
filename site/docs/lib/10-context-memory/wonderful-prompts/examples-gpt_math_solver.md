@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/langgptai/wonderful-prompts"
-entryUrl: "https://github.com/langgptai/wonderful-prompts/blob/c8e5dbd3bc01740728fd1ab8f8d4f654a17e3697/README.md"
+entryUrl: "https://github.com/langgptai/wonderful-prompts/blob/c8e5dbd3bc01740728fd1ab8f8d4f654a17e3697/examples/gpt_math_solver.md"
+sourceRel: "examples/gpt_math_solver.md"
+rawUrl: "/raw/10-context-memory/wonderful-prompts/examples/gpt_math_solver.md"
+sourceSha256: "204d48f4e09835d56ead2271e9e16573daa859fcefbbb4bad29276da9ab0db85"
+pageSha256: "204d48f4e09835d56ead2271e9e16573daa859fcefbbb4bad29276da9ab0db85"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -100,7 +105,7 @@ $x = 3 + W(e^{-3})$
 
 由于 Lambert W 函数的性质，$W(e^{-3})$ 只有一个实数解，因此 x > 1 的情况下，只有一个实数解。
 
-综上，方程 $x^x = x^3$ 的解有两个：x = 1 和 x = 3 + W(e^{-3})。
+综上，方程 $x^x = x^3$ 的解有两个：x = 1 和 x = 3 + W(e^\{-3\})。
 
 ***
 综上，可以看到 GPT4 对于较简单问题可以求解正确，复杂问题仍然有待提高

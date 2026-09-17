@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/jnMetaCode/superpowers-zh"
-entryUrl: "https://github.com/jnMetaCode/superpowers-zh/blob/79ea5d262b7a1c7ce76a289390853bca51f940d4/README.md"
+entryUrl: "https://github.com/jnMetaCode/superpowers-zh/blob/79ea5d262b7a1c7ce76a289390853bca51f940d4/docs/README.gemini-cli.md"
+sourceRel: "docs/README.gemini-cli.md"
+rawUrl: "/raw/10-context-memory/superpowers-zh/docs/README.gemini-cli.md"
+sourceSha256: "cb691e4eddbe3bd69cc622105a319554d31619521e1218d874891d75987a334e"
+pageSha256: "cb691e4eddbe3bd69cc622105a319554d31619521e1218d874891d75987a334e"
+contentMode: "local-full"
 zh: ""
 ---
 

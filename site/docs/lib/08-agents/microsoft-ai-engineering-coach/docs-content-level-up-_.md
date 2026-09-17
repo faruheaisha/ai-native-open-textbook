@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/microsoft/AI-Engineering-Coach"
-entryUrl: "https://github.com/microsoft/AI-Engineering-Coach/blob/18b1a3d16b586c171426c6a407cc5c2dc073556e/README.md"
+entryUrl: "https://github.com/microsoft/AI-Engineering-Coach/blob/18b1a3d16b586c171426c6a407cc5c2dc073556e/docs/content/level-up/_index.md"
+sourceRel: "docs/content/level-up/_index.md"
+rawUrl: "/raw/08-agents/microsoft-ai-engineering-coach/docs/content/level-up/_index.md"
+sourceSha256: "b97d846cea6e2b78597e8fbe0e8b060662bf26f8d5d44f2f0fb719c9d97a9c91"
+pageSha256: "b97d846cea6e2b78597e8fbe0e8b060662bf26f8d5d44f2f0fb719c9d97a9c91"
+contentMode: "local-full"
 zh: ""
 ---
 

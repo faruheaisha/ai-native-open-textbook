@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/ranxi2001/zero2Agent"
-entryUrl: "https://github.com/ranxi2001/zero2Agent/blob/46e9f7c28f84f54b2f6e45681d14989f01e18291/README.md"
+entryUrl: "https://github.com/ranxi2001/zero2Agent/blob/46e9f7c28f84f54b2f6e45681d14989f01e18291/learn-agent-basic/02-workflow-vs-agent/index.md"
+sourceRel: "learn-agent-basic/02-workflow-vs-agent/index.md"
+rawUrl: "/raw/08-agents/zero2agent/learn-agent-basic/02-workflow-vs-agent/index.md"
+sourceSha256: "7010bf46d9d4fb7c2c6c23277e5ed7e8f2d2d88a72718ba287e0c1d8e7684725"
+pageSha256: "7010bf46d9d4fb7c2c6c23277e5ed7e8f2d2d88a72718ba287e0c1d8e7684725"
+contentMode: "local-full"
 zh: ""
 ---
 

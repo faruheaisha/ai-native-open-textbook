@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/QoderAI/better-harness"
-entryUrl: "https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/README.md"
+entryUrl: "https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/glossary.md"
+sourceRel: "docs/glossary.md"
+rawUrl: "/raw/09-harness/better-harness/docs/glossary.md"
+sourceSha256: "95b0bc3731bd5a5fe6541f11c75fb457ed2053361ac99e9efd8e8702756ebde8"
+pageSha256: "95b0bc3731bd5a5fe6541f11c75fb457ed2053361ac99e9efd8e8702756ebde8"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -60,10 +65,10 @@ for extension surfaces, read [community.md](/lib/09-harness/better-harness/docs-
 | Term | What it means | Owner / read next |
 |---|---|---|
 | Harness report concepts | Terms that can appear in `findings.json`, score rows, report cards, AI Agent Practices rows, recommendations, or reader notes. | [model routing](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/models/routing.md); [report contract](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/skills/better-harness/SKILL.md#report-output) |
-| Evidence boundary | The rule that separates static file evidence from executed command, CI, runtime, or UI evidence; unverified areas cap confidence. | [Core Change Watch](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/references/project-harness/core-change-watch.md) |
+| Evidence boundary | The rule that separates static file evidence from executed command, CI, runtime, or UI evidence; unverified areas cap confidence. | [Core Change Watch](/lib/09-harness/better-harness/references-project-harness-core-change-watch) |
 | Detector / signal | A named evidence contract (e.g. `context-fluency`) that projects raw evidence into scorecard rows. | Start with [model routing](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/models/routing.md); executable or workflow-specific signals stay with their capability or skill-local owner. |
 | Confidence | Low/Medium/High rating bound to how much was actually executed vs. only read; static-only first passes stay Low/Medium. | [skills/better-harness/SKILL.md](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/skills/better-harness/SKILL.md) |
-| Change confidence | Whether an AI-generated change is ready to land, judged by blast radius, sensitive paths, size, and validation. | [Core Change Watch](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/references/project-harness/core-change-watch.md) |
+| Change confidence | Whether an AI-generated change is ready to land, judged by blast radius, sensitive paths, size, and validation. | [Core Change Watch](/lib/09-harness/better-harness/references-project-harness-core-change-watch) |
 
 ## Capabilities (What Runs Under The Hood)
 
@@ -83,9 +88,9 @@ for extension surfaces, read [community.md](/lib/09-harness/better-harness/docs-
 |---|---|---|
 | Handoff | A row-scoped next step inside a report (draft a fix, schedule a follow-up, open a chat), not a dead-end score. | [templates/reporting/qoder-canvas.md](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/templates/reporting/qoder-canvas.md) |
 | Repair plan | A bounded fix plan for one finding, drafted via `/better-harness repair-plan` (起草修复方案) without writing report artifacts. | [skills/better-harness/SKILL.md](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/skills/better-harness/SKILL.md) |
-| Loop Engineering | The domain that decides whether repeated work exists and which durable owner (skill, hook, script, automation, rule) should hold it. | [references/loop-engineering/README.md](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/references/loop-engineering/README.md) |
-| Loop Discovery | The routing gate that proves a loop from evidence and picks the smallest durable owner. | [references/loop-engineering/loop-discovery.md](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/references/loop-engineering/loop-discovery.md) |
-| Schedule-ready | A finding stable enough to become a recurring `/schedule /better-harness` follow-up, with cadence, validation, and stop condition. | [references/loop-engineering/loop-discovery.md](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/references/loop-engineering/loop-discovery.md) |
+| Loop Engineering | The domain that decides whether repeated work exists and which durable owner (skill, hook, script, automation, rule) should hold it. | [references/loop-engineering/README.md](/lib/09-harness/better-harness/references-loop-engineering) |
+| Loop Discovery | The routing gate that proves a loop from evidence and picks the smallest durable owner. | [references/loop-engineering/loop-discovery.md](/lib/09-harness/better-harness/references-loop-engineering-loop-discovery) |
+| Schedule-ready | A finding stable enough to become a recurring `/schedule /better-harness` follow-up, with cadence, validation, and stop condition. | [references/loop-engineering/loop-discovery.md](/lib/09-harness/better-harness/references-loop-engineering-loop-discovery) |
 
 ## Extension And Hosting
 
@@ -102,6 +107,6 @@ for extension surfaces, read [community.md](/lib/09-harness/better-harness/docs-
 |---|---|
 | Improve one bounded work loop | Use `better-harness report` or `/better-harness` to establish the baseline, then review one finding-bound intervention ([README](/lib/09-harness/better-harness/overview)) |
 | Understand a report | [Agent Work Loop](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/models/agent-work-loop.md): five lifecycle dimensions qualified by session and project evidence |
-| Act on a finding | `/better-harness repair-plan`, then [Loop Discovery](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/references/loop-engineering/loop-discovery.md) |
+| Act on a finding | `/better-harness repair-plan`, then [Loop Discovery](/lib/09-harness/better-harness/references-loop-engineering-loop-discovery) |
 | Add a workflow or guidance | [community.md](/lib/09-harness/better-harness/docs-community) "Start Here" |
 | Support a new agent host | [adapters/README.md](/lib/09-harness/better-harness/docs-adapters) |

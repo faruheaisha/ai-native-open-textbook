@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/luongnv89/claude-howto"
-entryUrl: "https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/README.md"
+entryUrl: "https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/01-slash-commands/doc-refactor.md"
+sourceRel: "01-slash-commands/doc-refactor.md"
+rawUrl: "/raw/09-harness/claude-howto/01-slash-commands/doc-refactor.md"
+sourceSha256: "f0dfce041265cc9bb3083760bc093fa516dce6bef1f16df7903c3578f3b39320"
+pageSha256: "f0dfce041265cc9bb3083760bc093fa516dce6bef1f16df7903c3578f3b39320"
+contentMode: "local-full"
 zh: ""
 ---
 

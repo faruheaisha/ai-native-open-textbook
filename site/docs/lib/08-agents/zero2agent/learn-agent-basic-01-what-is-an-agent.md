@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/ranxi2001/zero2Agent"
-entryUrl: "https://github.com/ranxi2001/zero2Agent/blob/46e9f7c28f84f54b2f6e45681d14989f01e18291/README.md"
+entryUrl: "https://github.com/ranxi2001/zero2Agent/blob/46e9f7c28f84f54b2f6e45681d14989f01e18291/learn-agent-basic/01-what-is-an-agent/index.md"
+sourceRel: "learn-agent-basic/01-what-is-an-agent/index.md"
+rawUrl: "/raw/08-agents/zero2agent/learn-agent-basic/01-what-is-an-agent/index.md"
+sourceSha256: "4bf8c1cc1538b730126fa0b76c2e749ad2384954edb95ad961a02caea7804e4d"
+pageSha256: "4bf8c1cc1538b730126fa0b76c2e749ad2384954edb95ad961a02caea7804e4d"
+contentMode: "local-full"
 zh: ""
 ---
 

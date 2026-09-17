@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "10-context-memory"
 sourceUrl: "https://github.com/coleam00/context-engineering-intro"
-entryUrl: "https://github.com/coleam00/context-engineering-intro/blob/a2d84b021cee1e2f4e77ba854bba0be8cb319035/README.md"
+entryUrl: "https://github.com/coleam00/context-engineering-intro/blob/a2d84b021cee1e2f4e77ba854bba0be8cb319035/use-cases/build-with-agent-team/example-plan/session-manager-plan.md"
+sourceRel: "use-cases/build-with-agent-team/example-plan/session-manager-plan.md"
+rawUrl: "/raw/10-context-memory/context-engineering-intro/use-cases/build-with-agent-team/example-plan/session-manager-plan.md"
+sourceSha256: "7b7d77f4476bc863dd59668786871d076bc4d149e954f61b9ff25c5eafbd0699"
+pageSha256: "7b7d77f4476bc863dd59668786871d076bc4d149e954f61b9ff25c5eafbd0699"
+contentMode: "local-full"
 zh: "on"
 ---
 
@@ -148,12 +153,12 @@ CREATE INDEX idx_messages_session ON messages(session_id);
 
 | Method | Endpoint (exact) | Request Body | Response |
 |--------|-------------------|-------------|----------|
-| GET | `/health` | — | `{"status": "ok"}` |
-| POST | `/api/sessions/` | `{"title": "...", "system_prompt?": "...", "working_directory?": "...", "model?": "..."}` | `SessionResponse` (200) |
+| GET | `/health` | — | `\{"status": "ok"\}` |
+| POST | `/api/sessions/` | `\{"title": "...", "system_prompt?": "...", "working_directory?": "...", "model?": "..."\}` | `SessionResponse` (200) |
 | GET | `/api/sessions/` | — | `SessionResponse[]` (200) |
-| GET | `/api/sessions/{id}` | — | `{"session": SessionResponse, "messages": MessageResponse[]}` (200) or 404 |
-| POST | `/api/sessions/{id}/chat` | `{"message": "..."}` | SSE stream |
-| DELETE | `/api/sessions/{id}` | — | 204 No Content |
+| GET | `/api/sessions/\{id\}` | — | `\{"session": SessionResponse, "messages": MessageResponse[]\}` (200) or 404 |
+| POST | `/api/sessions/\{id\}/chat` | `\{"message": "..."\}` | SSE stream |
+| DELETE | `/api/sessions/\{id\}` | — | 204 No Content |
 
 **Note:** POST and GET list endpoints use **trailing slash** (`/api/sessions/`). GET by ID, DELETE, and chat do NOT use trailing slash.
 
@@ -177,7 +182,7 @@ CREATE INDEX idx_messages_session ON messages(session_id);
 {"id": 1, "session_id": "uuid", "role": "user|assistant", "content": "string|null", "message_type": "text|thinking|tool_use|tool_result", "tool_name": "string|null", "tool_input": "string|null", "tool_output": "string|null", "is_error": false, "timestamp": "ISO8601"}
 ```
 
-**GET /api/sessions/{id} returns a NESTED object** (not flat):
+**GET /api/sessions/\{id\} returns a NESTED object** (not flat):
 
 <div class="tb-zh"><p>GET /api/sessions/{id} 返回的是嵌套对象（不是扁平结构）：</p></div>
 
@@ -270,7 +275,7 @@ These behaviors span multiple agents and MUST be explicitly assigned during the 
 |---------|-------|-----------------|--------|
 | Text chunk accumulation | Backend | Frontend | Backend accumulates streamed text chunks into ONE DB row. Frontend renders one bubble per DB row on reload. |
 | URL trailing slashes | Backend | Frontend | FastAPI router uses trailing slashes on collection endpoints (`/api/sessions/`). Frontend fetch URLs must match exactly. |
-| Response envelope | Backend | Frontend | GET session returns `{"session": {...}, "messages": [...]}`, NOT a flat object. Frontend must destructure. |
+| Response envelope | Backend | Frontend | GET session returns `\{"session": \{...\}, "messages": [...]\}`, NOT a flat object. Frontend must destructure. |
 | UI accessibility | Frontend | Lead (for E2E testing) | All interactive elements need `aria-label` attributes. Delete buttons must be clickable (not `opacity-0` without focus fallback). |
 | SSE event format | Backend | Frontend | Exact JSON shapes for each event type documented in API Contract. Both sides must match. |
 

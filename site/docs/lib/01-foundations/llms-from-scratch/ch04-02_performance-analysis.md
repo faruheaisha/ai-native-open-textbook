@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "01-foundations"
 sourceUrl: "https://github.com/rasbt/LLMs-from-scratch"
-entryUrl: "https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/README.md"
+entryUrl: "https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch04/02_performance-analysis/README.md"
+sourceRel: "ch04/02_performance-analysis/README.md"
+rawUrl: "/raw/01-foundations/llms-from-scratch/ch04/02_performance-analysis/README.md"
+sourceSha256: "3cf2d9fa5d0512e8b5000292ad2fece4c4efcf128503e91b1526d31c9b5887ae"
+pageSha256: "3cf2d9fa5d0512e8b5000292ad2fece4c4efcf128503e91b1526d31c9b5887ae"
+contentMode: "local-full"
 zh: ""
 ---
 

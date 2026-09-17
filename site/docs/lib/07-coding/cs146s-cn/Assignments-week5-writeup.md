@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/ShouZhengAI/CS146S_CN"
-entryUrl: "https://github.com/ShouZhengAI/CS146S_CN/blob/0d65f36f6673147d6c298670da4f9b4bd7f991fa/README.md"
+entryUrl: "https://github.com/ShouZhengAI/CS146S_CN/blob/0d65f36f6673147d6c298670da4f9b4bd7f991fa/Assignments/week5/writeup.md"
+sourceRel: "Assignments/week5/writeup.md"
+rawUrl: "/raw/07-coding/cs146s-cn/Assignments/week5/writeup.md"
+sourceSha256: "933765540a0d3732538ff67063858aea7307d378f2cea3335a2a9b5d41bc2c71"
+pageSha256: "933765540a0d3732538ff67063858aea7307d378f2cea3335a2a9b5d41bc2c71"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -62,7 +67,7 @@ SUNet ID：**仓库未提供，请提交者核对个人信息**
 
 #### d. 多智能体说明
 
-后端代理负责 SQLAlchemy/Pydantic/路由，前端代理负责状态与回滚，测试代理负责外部行为，审查代理寻找遗漏。协调策略是“先冻结接口，再按目录并行，最后单点集成”。收益是前端和测试可与后端并行推演；风险是共享 schema 被并发修改、测试基于旧契约、局部检查误报。通过唯一文件所有者、交接包中的 `{ok,data,error}` 契约和集成后统一验证降低风险。
+后端代理负责 SQLAlchemy/Pydantic/路由，前端代理负责状态与回滚，测试代理负责外部行为，审查代理寻找遗漏。协调策略是“先冻结接口，再按目录并行，最后单点集成”。收益是前端和测试可与后端并行推演；风险是共享 schema 被并发修改、测试基于旧契约、局部检查误报。通过唯一文件所有者、交接包中的 `\{ok,data,error\}` 契约和集成后统一验证降低风险。
 
 #### e. 使用方式与价值
 

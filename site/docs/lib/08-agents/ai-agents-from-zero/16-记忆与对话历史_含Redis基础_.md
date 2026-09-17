@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/didilili/ai-agents-from-zero"
-entryUrl: "https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/README.md"
+entryUrl: "https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/16-记忆与对话历史（含Redis基础）.md"
+sourceRel: "16-记忆与对话历史（含Redis基础）.md"
+rawUrl: "/raw/08-agents/ai-agents-from-zero/16-记忆与对话历史（含Redis基础）.md"
+sourceSha256: "1c959cd89fa8340caca2f35bb49c1065b62f1fa5401892f99099f3c5b1d02b49"
+pageSha256: "1c959cd89fa8340caca2f35bb49c1065b62f1fa5401892f99099f3c5b1d02b49"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -24,7 +29,7 @@ zh: ""
 
 **学习建议：** 这章最好用两轮对话来学：先看没有记忆时模型为什么“忘事”，再看同一个 `session_id` 下历史消息如何被读出、拼进提示词、调用模型、写回存储。Redis 先别当重点，它只是把内存版的历史保存得更持久。只要能讲清“读历史 -> 拼提示 -> 调模型 -> 写历史”，后面的实现类就不散。
 
-**官方文档与资源**：详见 [工具导航与参考资料索引 - LangGraph](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/工具导航与参考资料索引.md#LangGraph)。
+**官方文档与资源**：详见 [工具导航与参考资料索引 - LangGraph](/lib/08-agents/ai-agents-from-zero/工具导航与参考资料索引#LangGraph)。
 
 ---
 
@@ -179,7 +184,7 @@ zh: ""
 
 不同的 `session_id`，通常对应不同的历史记录。
 
-在 `RunnableWithMessageHistory` 里，`session_id` 通常通过运行配置传入，例如 <code v-pre>config={"configurable": {"session_id": "user-001"}}</code>。不同的 `session_id` 会对应不同的历史对象。
+在 `RunnableWithMessageHistory` 里，`session_id` 通常通过运行配置传入，例如 <code v-pre>config=\{"configurable": \{"session_id": "user-001"}}</code>。不同的 `session_id` 会对应不同的历史对象。
 
 这也是为什么本章 Redis 版和多 session 版案例里，`session_id` 都很重要。如果没有这层区分，系统就可能把 A 用户的历史错拿给 B 用户。
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "08-agents"
 sourceUrl: "https://github.com/anthropics/anthropic-cookbook"
-entryUrl: "https://github.com/anthropics/anthropic-cookbook/blob/a97b9a2dc300635f0c26b5e05d0b54bbe0279ee5/README.md"
+entryUrl: "https://github.com/anthropics/anthropic-cookbook/blob/a97b9a2dc300635f0c26b5e05d0b54bbe0279ee5/claude_agent_sdk/chief_of_staff_agent/flow_diagram.md"
+sourceRel: "claude_agent_sdk/chief_of_staff_agent/flow_diagram.md"
+rawUrl: "/raw/08-agents/anthropic-cookbook/claude_agent_sdk/chief_of_staff_agent/flow_diagram.md"
+sourceSha256: "bc49b80ea12d69940d564cb7d6a91233d3fa11d3167b060fd15686a54f455b6b"
+pageSha256: "bc49b80ea12d69940d564cb7d6a91233d3fa11d3167b060fd15686a54f455b6b"
+contentMode: "local-full"
 zh: ""
 ---
 

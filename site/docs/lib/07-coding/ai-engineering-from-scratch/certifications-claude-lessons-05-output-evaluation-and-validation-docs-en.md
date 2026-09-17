@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/rohitg00/ai-engineering-from-scratch"
-entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/README.md"
+entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/certifications/claude/lessons/05-output-evaluation-and-validation/docs/en.md"
+sourceRel: "certifications/claude/lessons/05-output-evaluation-and-validation/docs/en.md"
+rawUrl: "/raw/07-coding/ai-engineering-from-scratch/certifications/claude/lessons/05-output-evaluation-and-validation/docs/en.md"
+sourceSha256: "f9fdd0bf63dfc95dfb93087677a87645e83ac9d2d5bd3f2a20ce3caffe965912"
+pageSha256: "f9fdd0bf63dfc95dfb93087677a87645e83ac9d2d5bd3f2a20ce3caffe965912"
+contentMode: "local-full"
 zh: ""
 ---
 

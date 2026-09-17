@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide"
-entryUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/README.md"
+entryUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/docs/distribution/quick-win-video-series.md"
+sourceRel: "docs/distribution/quick-win-video-series.md"
+rawUrl: "/raw/09-harness/claude-code-ultimate-guide/docs/distribution/quick-win-video-series.md"
+sourceSha256: "ba9d6b1857725393b016975b6204081df17757ae5fad48f430be3a4d07e0025b"
+pageSha256: "ba9d6b1857725393b016975b6204081df17757ae5fad48f430be3a4d07e0025b"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -28,11 +33,11 @@ Four short French videos lead to one result each. Every episode ends on an obser
 2. Ask Claude Code to inspect the relevant files before editing.
 3. Apply the smallest coherent change.
 4. Run the repository's own test, type check, or linter.
-5. Save the command, environment, result, and untested scope in [`TESTING.md`](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/examples/claude-md/TESTING.md).
+5. Save the command, environment, result, and untested scope in [`TESTING.md`](/lib/09-harness/claude-code-ultimate-guide/examples-claude-md-TESTING).
 
 **Observable check:** the proof record names an exact command and its exit result. A green command with no environment or coverage boundary is incomplete.
 
-**Guide route:** [core workflow](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/learning-path/02-core-loop.md) and [verification evidence](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/docs/resource-evaluations/best-of-n-verification-evidence.md).
+**Guide route:** [core workflow](/lib/09-harness/claude-code-ultimate-guide/guide-learning-path-02-core-loop) and [verification evidence](/lib/09-harness/claude-code-ultimate-guide/docs-resource-evaluations-best-of-n-verification-evidence).
 
 **Research support:** the [Harness Engineering talk at AI Engineer World's Fair](https://youtube.com/watch?v=D_cw-k0F1DM&t=370s) discusses verification loops in an agent harness. This is practitioner evidence; the talk reports no controlled measurement of this guide.
 
@@ -52,7 +57,7 @@ Four short French videos lead to one result each. Every episode ends on an obser
 
 **Observable check:** another contributor can find the component, state why it exists, and identify what it can access.
 
-**Guide route:** [skills](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/learning-path/05-skills.md), [subagents](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/learning-path/04-agents.md), [MCP ecosystem](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/ecosystem/mcp-servers-ecosystem.md), and [plugin distribution](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/ecosystem/plugin-distribution.md).
+**Guide route:** [skills](/lib/09-harness/claude-code-ultimate-guide/guide-learning-path-05-skills), [subagents](/lib/09-harness/claude-code-ultimate-guide/guide-learning-path-04-agents), [MCP ecosystem](/lib/09-harness/claude-code-ultimate-guide/guide-ecosystem-mcp-servers-ecosystem/index), and [plugin distribution](/lib/09-harness/claude-code-ultimate-guide/guide-ecosystem-plugin-distribution).
 
 ## Episode 3: One safe hook
 
@@ -70,7 +75,7 @@ Four short French videos lead to one result each. Every episode ends on an obser
 
 **Observable check:** all three fixtures produce the documented result and the proof record keeps untested runtime behavior as `UNKNOWN`.
 
-**Guide route:** [hooks module](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/learning-path/06-hooks.md), [hooks examples](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/examples/hooks/README.md), and [production safety](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/security/production-safety.md).
+**Guide route:** [hooks module](/lib/09-harness/claude-code-ultimate-guide/guide-learning-path-06-hooks), [hooks examples](/lib/09-harness/claude-code-ultimate-guide/examples-hooks), and [production safety](/lib/09-harness/claude-code-ultimate-guide/guide-security-production-safety).
 
 **Research support:** [Never Trust a Monkey](https://youtube.com/watch?v=uvnxEZfSr1g&t=529s) presents circular verification as a practical control. Its examples do not establish that one hook covers a production system.
 
@@ -90,7 +95,7 @@ Four short French videos lead to one result each. Every episode ends on an obser
 
 **Observable check:** the record contains C-01, C-02, and C-03, including rejected candidates, plus the selected candidate's executable verification.
 
-**Guide route:** [Best-of-N workflow](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/guide/workflows/best-of-n.md) and [installable Best-of-N skill](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/examples/skills/best-of-n/SKILL.md).
+**Guide route:** [Best-of-N workflow](/lib/09-harness/claude-code-ultimate-guide/guide-workflows-best-of-n) and [installable Best-of-N skill](/lib/09-harness/claude-code-ultimate-guide/examples-skills-best-of-n-SKILL).
 
 **Research support:** [Self-Consistency Improves Chain of Thought Reasoning](https://arxiv.org/abs/2203.11171) supports sampling several reasoning paths and selecting the most consistent answer on its evaluated tasks. It does not prove that generic self-review improves software changes. The [Stanford CS221 search lecture](https://youtube.com/watch?v=fPESauMaJYA&t=3076s) provides adjacent teaching material on Best-of-N search.
 
@@ -103,4 +108,4 @@ Four short French videos lead to one result each. Every episode ends on an obser
 - Keep claims within the cited paper or video's observed scope.
 - After publication, record the date and 30-day measures in [`distribution-channels.yaml`](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/machine-readable/distribution-channels.yaml).
 
-The [learning path slide deck](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/docs/distribution/claude-code-learning-path-slides.pptx) supplies the shared visual narrative. The [distribution workflow](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/docs/workflows/guide-distribution.md) defines approval, localization, and measurement boundaries.
+The [learning path slide deck](https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/docs/distribution/claude-code-learning-path-slides.pptx) supplies the shared visual narrative. The [distribution workflow](/lib/09-harness/claude-code-ultimate-guide/docs-workflows-guide-distribution) defines approval, localization, and measurement boundaries.

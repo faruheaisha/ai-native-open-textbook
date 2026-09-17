@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/walkinglabs/learn-harness-engineering"
-entryUrl: "https://github.com/walkinglabs/learn-harness-engineering/blob/77e7a3e21469dcbece2558086c8d91657abeaa40/README.md"
+entryUrl: "https://github.com/walkinglabs/learn-harness-engineering/blob/77e7a3e21469dcbece2558086c8d91657abeaa40/docs/zh/harness-designs/deepseek/index.md"
+sourceRel: "docs/zh/harness-designs/deepseek/index.md"
+rawUrl: "/raw/09-harness/learn-harness-engineering/docs/zh/harness-designs/deepseek/index.md"
+sourceSha256: "cced81dc43ae1bda9591696dcedb6c35328a79a8d83ac03eb828594e46da31ab"
+pageSha256: "cced81dc43ae1bda9591696dcedb6c35328a79a8d83ac03eb828594e46da31ab"
+contentMode: "local-full"
 zh: ""
 ---
 

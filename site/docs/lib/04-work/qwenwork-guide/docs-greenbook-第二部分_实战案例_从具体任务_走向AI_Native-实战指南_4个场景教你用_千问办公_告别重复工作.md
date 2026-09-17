@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/wangxiaoshuai1998/QwenWorkGuide"
-entryUrl: "https://github.com/wangxiaoshuai1998/QwenWorkGuide/blob/002f698a68b69d3635acf6be0d6e27db69069071/README.md"
+entryUrl: "https://github.com/wangxiaoshuai1998/QwenWorkGuide/blob/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第二部分%20实战案例%20从具体任务，走向AI%20Native/实战指南｜4个场景教你用%20千问办公%20告别重复工作/index.md"
+sourceRel: "docs/greenbook/第二部分 实战案例 从具体任务，走向AI Native/实战指南｜4个场景教你用 千问办公 告别重复工作/index.md"
+rawUrl: "/raw/04-work/qwenwork-guide/docs/greenbook/第二部分 实战案例 从具体任务，走向AI Native/实战指南｜4个场景教你用 千问办公 告别重复工作/index.md"
+sourceSha256: "ac2b74545e738acc06386f07982d4462b333d52d707173fd657ae9c114a1e078"
+pageSha256: "ac2b74545e738acc06386f07982d4462b333d52d707173fd657ae9c114a1e078"
+contentMode: "local-full"
 zh: ""
 ---
 

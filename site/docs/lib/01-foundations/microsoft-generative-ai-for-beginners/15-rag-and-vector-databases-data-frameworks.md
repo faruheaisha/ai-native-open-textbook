@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "01-foundations"
 sourceUrl: "https://github.com/microsoft/generative-ai-for-beginners"
-entryUrl: "https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/README.md"
+entryUrl: "https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/15-rag-and-vector-databases/data/frameworks.md"
+sourceRel: "15-rag-and-vector-databases/data/frameworks.md"
+rawUrl: "/raw/01-foundations/microsoft-generative-ai-for-beginners/15-rag-and-vector-databases/data/frameworks.md"
+sourceSha256: "ebbce5e6728650315ac4fce647f360d5c947aa69f4d21d9e9642ed39a4500360"
+pageSha256: "ebbce5e6728650315ac4fce647f360d5c947aa69f4d21d9e9642ed39a4500360"
+contentMode: "local-full"
 zh: ""
 ---
 

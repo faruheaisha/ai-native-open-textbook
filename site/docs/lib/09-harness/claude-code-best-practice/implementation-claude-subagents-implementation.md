@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/shanraisshan/claude-code-best-practice"
-entryUrl: "https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/README.md"
+entryUrl: "https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/implementation/claude-subagents-implementation.md"
+sourceRel: "implementation/claude-subagents-implementation.md"
+rawUrl: "/raw/09-harness/claude-code-best-practice/implementation/claude-subagents-implementation.md"
+sourceSha256: "5310fce92c867ea81bf478a3964ef829847d3c5a84ee558fa88689a38902e59b"
+pageSha256: "5310fce92c867ea81bf478a3964ef829847d3c5a84ee558fa88689a38902e59b"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -31,7 +36,7 @@ The weather agent is implemented in this repo as an example of the **Command →
 
 ## Weather Agent
 
-**File**: [`.claude/agents/weather-agent.md`](https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/.claude/agents/weather-agent.md)
+**File**: [`.claude/agents/weather-agent.md`](/lib/09-harness/claude-code-best-practice/_claude-agents-weather-agent)
 
 ```yaml
 ---
@@ -103,6 +108,6 @@ The weather agent is the **Agent** in the Command → Agent → Skill orchestrat
 
 | Component | Role | This Repo |
 |-----------|------|-----------|
-| **Command** | Entry point, user interaction | [`/weather-orchestrator`](https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/.claude/commands/weather-orchestrator.md) |
-| **Agent** | Fetches data with preloaded skill (agent skill) | [`weather-agent`](https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/.claude/agents/weather-agent.md) with [`weather-fetcher`](https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/.claude/skills/weather-fetcher/SKILL.md) |
-| **Skill** | Creates output independently (skill) | [`weather-svg-creator`](https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/.claude/skills/weather-svg-creator/SKILL.md) |
+| **Command** | Entry point, user interaction | [`/weather-orchestrator`](/lib/09-harness/claude-code-best-practice/_claude-commands-weather-orchestrator) |
+| **Agent** | Fetches data with preloaded skill (agent skill) | [`weather-agent`](/lib/09-harness/claude-code-best-practice/_claude-agents-weather-agent) with [`weather-fetcher`](/lib/09-harness/claude-code-best-practice/_claude-skills-weather-fetcher-SKILL) |
+| **Skill** | Creates output independently (skill) | [`weather-svg-creator`](/lib/09-harness/claude-code-best-practice/_claude-skills-weather-svg-creator-SKILL) |

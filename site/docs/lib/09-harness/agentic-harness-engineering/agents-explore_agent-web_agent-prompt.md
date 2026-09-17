@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering"
-entryUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering/blob/8b2a55d97590363fe50c3cc6b5e833b020a4bb4c/README.md"
+entryUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering/blob/8b2a55d97590363fe50c3cc6b5e833b020a4bb4c/agents/explore_agent/web_agent/prompt.md"
+sourceRel: "agents/explore_agent/web_agent/prompt.md"
+rawUrl: "/raw/09-harness/agentic-harness-engineering/agents/explore_agent/web_agent/prompt.md"
+sourceSha256: "5ae8aef5a0f5fd13b48cc27172b5a3092be7a27a09794a08feb1c0689e411062"
+pageSha256: "5ae8aef5a0f5fd13b48cc27172b5a3092be7a27a09794a08feb1c0689e411062"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -59,10 +64,10 @@ You must produce ONE skill file:
 # Your Research Protocol
 
 ## Phase 1: Read Pre-given URLs (MANDATORY)
-&#123;% for source in web_sources %}
+\{% for source in web_sources %\}
 - **&#123;&#123; source.url &#125;&#125;**
   Focus: &#123;&#123; source.focus &#125;&#125;
-&#123;% endfor %}
+\{% endfor %\}
 
 For each URL:
 1. Use WebFetch to read the full page
@@ -130,7 +135,7 @@ For EACH top team, document SPECIFICS (not design philosophy):
 - **Exact middleware configs** (param values: max_iterations=300, threshold=0.75, etc.)
 - **Exact compaction algorithm** (e.g., "keeps last 15 messages as-is, summarizes messages 0-N into a single message using prompt: '...'")
 - **Exact retry logic** (e.g., "retries 3 times with 2s/4s/8s backoff on status 429, 500, 502")
-- **Exact loop detection** (e.g., "tracks {tool_name + first_arg: count}, injects warning at count=4")
+- **Exact loop detection** (e.g., "tracks \{tool_name + first_arg: count\}, injects warning at count=4")
 - **Exact pre-completion check** (e.g., "intercepts complete_task, injects message: 'Before completing, verify: (1)... (2)... (3)...'")
 
 ### §3. Technique Ablation Data (measured impact required)

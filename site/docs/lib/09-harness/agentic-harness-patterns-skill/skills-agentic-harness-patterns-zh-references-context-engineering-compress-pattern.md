@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/keli-wen/agentic-harness-patterns-skill"
-entryUrl: "https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/README.md"
+entryUrl: "https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/skills/agentic-harness-patterns-zh/references/context-engineering/compress-pattern.md"
+sourceRel: "skills/agentic-harness-patterns-zh/references/context-engineering/compress-pattern.md"
+rawUrl: "/raw/09-harness/agentic-harness-patterns-skill/skills/agentic-harness-patterns-zh/references/context-engineering/compress-pattern.md"
+sourceSha256: "88047b5cc31a111b5062e0f948228455a5f94a1dd217d8efbd19fcc4bd401bd9"
+pageSha256: "88047b5cc31a111b5062e0f948228455a5f94a1dd217d8efbd19fcc4bd401bd9"
+contentMode: "local-full"
 zh: ""
 ---
 

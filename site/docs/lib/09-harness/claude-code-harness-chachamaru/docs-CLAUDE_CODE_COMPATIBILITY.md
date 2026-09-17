@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/Chachamaru127/claude-code-harness"
-entryUrl: "https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/README.md"
+entryUrl: "https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/docs/CLAUDE_CODE_COMPATIBILITY.md"
+sourceRel: "docs/CLAUDE_CODE_COMPATIBILITY.md"
+rawUrl: "/raw/09-harness/claude-code-harness-chachamaru/docs/CLAUDE_CODE_COMPATIBILITY.md"
+sourceSha256: "abecad4171ae0cef654942964671881fa6831ca98d1e326ad5ddfa5184016cdc"
+pageSha256: "abecad4171ae0cef654942964671881fa6831ca98d1e326ad5ddfa5184016cdc"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -102,4 +107,4 @@ bash scripts/release-preflight.sh --dry-run
 ```
 
 If you rely on `/harness-work all`, also run the success/failure fixture
-contract in [Work All Evidence Pack](https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/docs/evidence/work-all.md).
+contract in [Work All Evidence Pack](/lib/09-harness/claude-code-harness-chachamaru/docs-evidence-work-all).

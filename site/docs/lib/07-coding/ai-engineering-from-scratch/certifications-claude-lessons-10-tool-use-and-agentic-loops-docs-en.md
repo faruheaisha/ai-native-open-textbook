@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/rohitg00/ai-engineering-from-scratch"
-entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/README.md"
+entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/certifications/claude/lessons/10-tool-use-and-agentic-loops/docs/en.md"
+sourceRel: "certifications/claude/lessons/10-tool-use-and-agentic-loops/docs/en.md"
+rawUrl: "/raw/07-coding/ai-engineering-from-scratch/certifications/claude/lessons/10-tool-use-and-agentic-loops/docs/en.md"
+sourceSha256: "e8fc9fe7e9a49eaf23c72fb003471f7a83ad8bffe3ff9d83053f1ecf96196e0b"
+pageSha256: "e8fc9fe7e9a49eaf23c72fb003471f7a83ad8bffe3ff9d83053f1ecf96196e0b"
+contentMode: "local-full"
 zh: ""
 ---
 

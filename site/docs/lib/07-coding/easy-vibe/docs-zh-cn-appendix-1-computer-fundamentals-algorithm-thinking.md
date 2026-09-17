@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/datawhalechina/easy-vibe"
-entryUrl: "https://github.com/datawhalechina/easy-vibe/blob/130e9b75b28b524e8cc74e615fd9733a4e2b330d/README.md"
+entryUrl: "https://github.com/datawhalechina/easy-vibe/blob/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/appendix/1-computer-fundamentals/algorithm-thinking.md"
+sourceRel: "docs/zh-cn/appendix/1-computer-fundamentals/algorithm-thinking.md"
+rawUrl: "/raw/07-coding/easy-vibe/docs/zh-cn/appendix/1-computer-fundamentals/algorithm-thinking.md"
+sourceSha256: "50a137256f808bb47471b600fd048181a3cb6d7a1414f9032d76a4d7c327f4cc"
+pageSha256: "50a137256f808bb47471b600fd048181a3cb6d7a1414f9032d76a4d7c327f4cc"
+contentMode: "local-full"
 zh: ""
 ---
 

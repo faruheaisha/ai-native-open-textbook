@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/2025Emma/vibe-coding-cn"
-entryUrl: "https://github.com/2025Emma/vibe-coding-cn/blob/9b42dd10ddf3fff58f8c7a4d347175db107d7bf9/README.md"
+entryUrl: "https://github.com/2025Emma/vibe-coding-cn/blob/9b42dd10ddf3fff58f8c7a4d347175db107d7bf9/i18n/zh/prompts/coding_prompts/%284,1%29_ultrathink__Take_a_deep_breath..md"
+sourceRel: "i18n/zh/prompts/coding_prompts/(4,1)_ultrathink__Take_a_deep_breath..md"
+rawUrl: "/raw/07-coding/vibe-coding-cn/i18n/zh/prompts/coding_prompts/(4,1)_ultrathink__Take_a_deep_breath..md"
+sourceSha256: "186c5f9d6641374ad16ca5a9f898e335c32ccb50558c9ba81bb2acbf8e47693c"
+pageSha256: "186c5f9d6641374ad16ca5a9f898e335c32ccb50558c9ba81bb2acbf8e47693c"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -43,13 +48,13 @@ When I give you a problem, I don't want the first solution that works. I want yo
    * **最小示例**：
 
      ```json
-     {
+     \{
        "id": "2025-11-10 06:55:00",
        "user_intent": "用户希望系统在每次对话后自动记录意图与变更来源。",
        "details": "为历史记录增加 user_intent 字段，并确立追加写入规范。",
        "change_type": "修改",
        "file_path": "C:/Users/lenovo/projects/ai_memory_system/system_memory/历史记录.json,C:/Users/lenovo/projects/ai_memory_system/system_memory/config.json"
-     }
+     \}
      ```
 
 1. **Think Different** : Question every assumption. Why does it have to work that way? What if we started from zero? What would the most elegant solution look like?
@@ -169,26 +174,26 @@ When I give you a problem, I don't want the first solution that works. I want yo
    * 文件结构（最小字段）
 
      ```json
-     {
+     \{
        "last_updated": "YYYY-MM-DD HH:mm:ss",
        "projects": [
-         {
+         \{
            "project_id": "proj_001",
            "name": "一级任务/目标名称",
            "status": "未开始/进行中/已完成",
            "progress": 0,
            "tasks": [
-             {
+             \{
                "task_id": "task_001_1",
                "description": "二级任务当前进度描述",
                "progress": 0,
                "status": "未开始/进行中/已完成",
                "created_at": "YYYY-MM-DD HH:mm:ss"
-             }
+             \}
            ]
-         }
+         \}
        ]
-     }
+     \}
      ```
    * 更新规则
 

@@ -1,0 +1,67 @@
+---
+title: "Image inputs"
+sourceId: "09-harness/openai-codex-docs-official"
+sourceTitle: "openai-codex-docs-official"
+sourceKind: "官方文档"
+licenseLabel: "仅引用"
+lang: "英文"
+tier: 3
+volume: "09-harness"
+sourceUrl: "https://learn.chatgpt.com/docs"
+entryUrl: "https://learn.chatgpt.com/docs"
+sourceRel: "docs/image-inputs.md"
+rawUrl: "/raw/09-harness/openai-codex-docs-official/docs/image-inputs.md"
+sourceSha256: "252e1571e2cb0f933d04846f52023861bd6d6168a7ab279a421787db287bd3d3"
+pageSha256: "252e1571e2cb0f933d04846f52023861bd6d6168a7ab279a421787db287bd3d3"
+contentMode: "local-full"
+zh: ""
+---
+
+# Image inputs
+
+> For the complete documentation index, see [llms.txt](https://learn.chatgpt.com/llms.txt). Markdown versions of documentation pages are available by appending `.md` to the page URL.
+
+Add images to a prompt when the task depends on visual context, such as an error
+screenshot, interface design, architecture diagram, or existing asset. Explain
+what ChatGPT should inspect and what outcome you want; don't rely on the image
+alone to communicate the task.
+
+Drag an image into the prompt composer while holding <kbd>Shift</kbd> to include
+it as context. You can also ask ChatGPT to inspect an image on your system or use
+a screenshot tool to verify work in another app.
+
+Attach, paste, or drag an image into the ChatGPT web composer. In the prompt,
+tell ChatGPT what to inspect and what result you want from the image.
+
+Paste an image into the interactive composer, or pass one or more files on the
+command line:
+
+```bash
+codex -i screenshot.png "Explain this error and suggest the smallest fix"
+codex --image before.png,after.png "Compare these states and list the regressions"
+```
+
+For multiple images, separate paths with commas or repeat `--image`. Codex
+accepts common image formats, including PNG and JPEG.
+
+Drag an image into the prompt composer while holding <kbd>Shift</kbd> so the
+extension accepts the drop instead of passing it to the editor.
+
+## Write the prompt around the image
+
+Name what the image shows, point to the area that matters, and state the output
+and constraints. If you attach more than one image, identify each one and explain
+how ChatGPT should compare them.
+
+For example:
+
+```text
+Compare this checkout screen with the design. Fix spacing and typography only;
+do not change behavior. Verify the result with a new screenshot.
+```
+
+## Use the right image feature
+
+Use an image input when you want ChatGPT to inspect a visual reference. Use
+[image generation](https://learn.chatgpt.com/docs/image-generation) when you want ChatGPT to
+create or edit an image.

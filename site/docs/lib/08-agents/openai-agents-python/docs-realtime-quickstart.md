@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/openai/openai-agents-python"
-entryUrl: "https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/README.md"
+entryUrl: "https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/realtime/quickstart.md"
+sourceRel: "docs/realtime/quickstart.md"
+rawUrl: "/raw/08-agents/openai-agents-python/docs/realtime/quickstart.md"
+sourceSha256: "eb3208c9181e1a3fe7aaf87acdab18ea82578ba5ea130372efd34d2c3f7cef3f"
+pageSha256: "eb3208c9181e1a3fe7aaf87acdab18ea82578ba5ea130372efd34d2c3f7cef3f"
+contentMode: "local-full"
 zh: ""
 ---
 

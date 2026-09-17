@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/czl9707/build-your-own-openclaw"
-entryUrl: ""
+entryUrl: "https://github.com/czl9707/build-your-own-openclaw/blob/37ae5dd255a0451609e67ad6d6a51fa5de80523c/03-persistence/README.md"
+sourceRel: "03-persistence/README.md"
+rawUrl: "/raw/11-personal-agents/build-your-own-openclaw/03-persistence/README.md"
+sourceSha256: "93b741b25abfd03d0083ba1dd935a697a74dd2a5808d9b7da4560cbbc5f61118"
+pageSha256: "93b741b25abfd03d0083ba1dd935a697a74dd2a5808d9b7da4560cbbc5f61118"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -42,7 +47,7 @@ File System Structure:
 ## Key Components
 
 - **.history/index.jsonl**: JSONL file-based index for sessions, including metadata
-- **.history/sessions/{id}.jsonl**: JSONL file-based storage for messages
+- **.history/sessions/\{id\}.jsonl**: JSONL file-based storage for messages
 
 [src/mybot/core/history.py](https://github.com/czl9707/build-your-own-openclaw/blob/37ae5dd255a0451609e67ad6d6a51fa5de80523c/03-persistence/src/mybot/core/history.py) - New file
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases"
-entryUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/README.md"
+entryUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/inbox-declutter.md"
+sourceRel: "usecases/inbox-declutter.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-usecases/usecases/inbox-declutter.md"
+sourceSha256: "7051c20a721cd35774714b043d45bf16b003581a340102a6317d2fa47ee8f64b"
+pageSha256: "7051c20a721cd35774714b043d45bf16b003581a340102a6317d2fa47ee8f64b"
+contentMode: "local-full"
 zh: ""
 ---
 

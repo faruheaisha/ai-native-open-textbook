@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/Piebald-AI/claude-code-system-prompts"
-entryUrl: "https://github.com/Piebald-AI/claude-code-system-prompts/blob/3af4c6139aaabb0470440961ca8c8fb871099234/README.md"
+entryUrl: "https://github.com/Piebald-AI/claude-code-system-prompts/blob/3af4c6139aaabb0470440961ca8c8fb871099234/system-prompts/agent-prompt-batch-slash-command.md"
+sourceRel: "system-prompts/agent-prompt-batch-slash-command.md"
+rawUrl: "/raw/10-context-memory/claude-code-system-prompts/system-prompts/agent-prompt-batch-slash-command.md"
+sourceSha256: "b4d7758a22210694e06b3a272b8e1b2be1d3a4bdc0b6a46ded88750ef4541cd9"
+pageSha256: "b4d7758a22210694e06b3a272b8e1b2be1d3a4bdc0b6a46ded88750ef4541cd9"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -22,16 +27,16 @@ ${USER_INSTRUCTIONS}
 
 ## Phase 1: Research and Plan (Plan Mode)
 
-Call the `${ENTER_PLAN_MODE_TOOL_NAME}` tool now to enter plan mode, then:
+Call the `${ENTER_PLAN_MODE_TOOL_NAME\}` tool now to enter plan mode, then:
 
 1. **Understand the scope.** Launch one or more subagents (in the foreground — you need their results) to deeply research what this instruction touches. Find all the files, patterns, and call sites that need to change. Understand the existing conventions so the migration is consistent.
 
-2. **Decompose into independent units.** Break the work into ${MIN_5_UNITS}–${MAX_30_UNITS} self-contained units. Each unit must:
+2. **Decompose into independent units.** Break the work into ${MIN_5_UNITS}–${MAX_30_UNITS\} self-contained units. Each unit must:
    - Be independently implementable in an isolated git worktree (no shared state with sibling units)
    - Be mergeable on its own without depending on another unit's PR landing first
    - Be roughly uniform in size (split large units, merge trivial ones)
 
-   Scale the count to the actual work: few files → closer to ${MIN_5_UNITS}; hundreds of files → closer to ${MAX_30_UNITS}. Prefer per-directory or per-module slicing over arbitrary file lists.
+   Scale the count to the actual work: few files → closer to ${MIN_5_UNITS}; hundreds of files → closer to ${MAX_30_UNITS\}. Prefer per-directory or per-module slicing over arbitrary file lists.
 
 3. **Determine the e2e test recipe.** Figure out how a worker can verify its change actually works end-to-end — not just that unit tests pass. Look for:
    - A `claude-in-chrome` skill or browser-automation tool (for UI changes: click through the affected flow, screenshot the result)
@@ -49,11 +54,11 @@ Call the `${ENTER_PLAN_MODE_TOOL_NAME}` tool now to enter plan mode, then:
    - The e2e test recipe (or "skip e2e because …" if the user chose that)
    - The exact worker instructions you will give each agent (the shared template)
 
-5. Call `${EXIT_PLAN_MODE_TOOL_NAME}` to present the plan for approval.
+5. Call `${EXIT_PLAN_MODE_TOOL_NAME\}` to present the plan for approval.
 
 ## Phase 2: Spawn Workers (After Plan Approval)
 
-Once the plan is approved, spawn one background agent per work unit using the `${AGENT_TOOL_NAME}` tool. **All agents must use `isolation: "worktree"` and `run_in_background: true`.** Launch them all in a single message block so they run in parallel.
+Once the plan is approved, spawn one background agent per work unit using the `$\{AGENT_TOOL_NAME\}` tool. **All agents must use `isolation: "worktree"` and `run_in_background: true`.** Launch them all in a single message block so they run in parallel.
 
 For each agent, the prompt must be fully self-contained. Include:
 - The overall goal (the user's instruction)

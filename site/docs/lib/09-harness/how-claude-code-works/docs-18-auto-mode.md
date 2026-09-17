@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works"
-entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/README.md"
+entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/18-auto-mode.md"
+sourceRel: "docs/18-auto-mode.md"
+rawUrl: "/raw/09-harness/how-claude-code-works/docs/18-auto-mode.md"
+sourceSha256: "688a45082215ff97ec6176b4f8e9a096463d3654652f10cc0a2659e47304df3e"
+pageSha256: "688a45082215ff97ec6176b4f8e9a096463d3654652f10cc0a2659e47304df3e"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -87,7 +92,7 @@ zh: ""
 
 一道是总开关。分类器能不能用，由一个 GrowthBook 下发的开关 `tengu_auto_mode_config.enabled` 控制（默认就是 `disabled`），加上本地设置，一起决定一个 `autoModeCircuitBroken` 状态（`autoModeState.ts:9`、`permissionSetup.ts:1078`）。Anthropic 可以远程一键关停整个功能，客户端读到就熔断、退回普通权限流程。
 
-一道是拒绝上限。分类器连续拦 3 次、或一个会话累计拦 20 次（`DENIAL_LIMITS = {maxConsecutive:3, maxTotal:20}`，`denialTracking.ts:12`），就认为"它可能卡死在反复拒绝里了"。交互模式下退回让你手动确认；headless（无人值守）模式下直接中止 agent，抛一个"too many classifier denials in headless mode"。这跟第 12 章 12.13 讲的拒绝追踪是同一套阈值——那里讲机制，这里讲它在 auto 模式下怎么触发。
+一道是拒绝上限。分类器连续拦 3 次、或一个会话累计拦 20 次（`DENIAL_LIMITS = \{maxConsecutive:3, maxTotal:20\}`，`denialTracking.ts:12`），就认为"它可能卡死在反复拒绝里了"。交互模式下退回让你手动确认；headless（无人值守）模式下直接中止 agent，抛一个"too many classifier denials in headless mode"。这跟第 12 章 12.13 讲的拒绝追踪是同一套阈值——那里讲机制，这里讲它在 auto 模式下怎么触发。
 
 还有一道处理"分类器自己挂了"。分类请求要是报错，走一个叫 `tengu_iron_gate_closed` 的开关：这道闸默认是关着的（fail-closed，宁可错拦、给条重试提示），只有被远程打开才 fail-open（退回普通权限）。上下文太长塞不进分类器时也一样——headless 中止、交互回退人工。一句话：观测组件和决策组件都不能拖垮主流程，出问题就往安全的一侧退。
 

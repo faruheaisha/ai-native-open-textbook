@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/VoltAgent/awesome-openclaw-skills"
-entryUrl: "https://github.com/VoltAgent/awesome-openclaw-skills/blob/37ad08c1b8e243d5f501c6fcaf7ac0b507bd83a1/README.md"
+entryUrl: "https://github.com/VoltAgent/awesome-openclaw-skills/blob/37ad08c1b8e243d5f501c6fcaf7ac0b507bd83a1/categories/calendar-and-scheduling.md"
+sourceRel: "categories/calendar-and-scheduling.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-skills/categories/calendar-and-scheduling.md"
+sourceSha256: "92801e1fdc82105bc024a172832e2ee613a46e2461ad3a3f9a98aeb32ebc3669"
+pageSha256: "92801e1fdc82105bc024a172832e2ee613a46e2461ad3a3f9a98aeb32ebc3669"
+contentMode: "local-full"
 zh: ""
 ---
 

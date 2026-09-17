@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases"
-entryUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/README.md"
+entryUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/autonomous-project-management.md"
+sourceRel: "usecases/autonomous-project-management.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-usecases/usecases/autonomous-project-management.md"
+sourceSha256: "ea95a1ebf4d2de635ee7eba3c155b12e49ab4adb9b937f898668ed8f2f958f91"
+pageSha256: "ea95a1ebf4d2de635ee7eba3c155b12e49ab4adb9b937f898668ed8f2f958f91"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -122,7 +127,7 @@ PM subagent:
 
 - **STATE.yaml > orchestrator**: File-based coordination scales better than message-passing
 - **Git as audit log**: Commit STATE.yaml changes for full history
-- **Label conventions matter**: Use `pm-{project}-{scope}` for easy tracking
+- **Label conventions matter**: Use `pm-\{project\}-\{scope\}` for easy tracking
 - **Thin main session**: The less the main agent does, the faster it responds
 
 ## Based On

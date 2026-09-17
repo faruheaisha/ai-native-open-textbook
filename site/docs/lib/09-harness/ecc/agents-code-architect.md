@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/affaan-m/ECC"
-entryUrl: "https://github.com/affaan-m/ECC/blob/928c1dea72f5c330442fc1f595563398b8f389f7/README.md"
+entryUrl: "https://github.com/affaan-m/ECC/blob/928c1dea72f5c330442fc1f595563398b8f389f7/agents/code-architect.md"
+sourceRel: "agents/code-architect.md"
+rawUrl: "/raw/09-harness/ecc/agents/code-architect.md"
+sourceSha256: "1a2ce1d231b7427ff863522f6f19e7738cd668279ac60af520aa0c45ac14772b"
+pageSha256: "1a2ce1d231b7427ff863522f6f19e7738cd668279ac60af520aa0c45ac14772b"
+contentMode: "local-full"
 zh: ""
 ---
 

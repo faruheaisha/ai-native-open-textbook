@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/fufankeji/FuFan-VibeCodingCourse"
-entryUrl: "https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/README_CN.md"
+entryUrl: "https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/Stage1_AI_Programming_Fundamentals/Lesson01_Dev_Workflow_and_Environment/Courseware/02_课程资料/plans/chatgpt_clone_plan_82c449d6.plan.md"
+sourceRel: "Stage1_AI_Programming_Fundamentals/Lesson01_Dev_Workflow_and_Environment/Courseware/02_课程资料/plans/chatgpt_clone_plan_82c449d6.plan.md"
+rawUrl: "/raw/07-coding/fufan-vibe-coding-course/Stage1_AI_Programming_Fundamentals/Lesson01_Dev_Workflow_and_Environment/Courseware/02_课程资料/plans/chatgpt_clone_plan_82c449d6.plan.md"
+sourceSha256: "af2f9fb01bfeac234e81d6fdf27ec3a17115d73d7bb2995bce5336753f738965"
+pageSha256: "af2f9fb01bfeac234e81d6fdf27ec3a17115d73d7bb2995bce5336753f738965"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -134,9 +139,9 @@ interface AppState {
 
 | POST | `/api/conversations` | 创建新对话 |
 
-| GET | `/api/conversations/{id}` | 获取对话详情和消息 |
+| GET | `/api/conversations/\{id\}` | 获取对话详情和消息 |
 
-| DELETE | `/api/conversations/{id}` | 删除对话 |
+| DELETE | `/api/conversations/\{id\}` | 删除对话 |
 
 ### 2. 数据模型
 

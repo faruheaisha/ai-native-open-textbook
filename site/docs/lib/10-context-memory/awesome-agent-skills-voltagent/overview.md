@@ -9,6 +9,11 @@ tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/VoltAgent/awesome-agent-skills"
 entryUrl: "https://github.com/VoltAgent/awesome-agent-skills/blob/8873794bcb26ff5dcf9cd518c87cf5638ca44b92/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/10-context-memory/awesome-agent-skills-voltagent/README.md"
+sourceSha256: "ed28292423dc69289df212f01746b6975b61a0f8442523d3dfe2a5d592e3d0c5"
+pageSha256: "ed28292423dc69289df212f01746b6975b61a0f8442523d3dfe2a5d592e3d0c5"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "04-work"
 sourceUrl: "https://github.com/zjp1997720/zhijian-ai-bluebook-workbuddy-harness"
-entryUrl: "https://github.com/zjp1997720/zhijian-ai-bluebook-workbuddy-harness/blob/6ac68cd42a01add16568d1ab9cf2399822467fad/01-前言.md"
+entryUrl: "https://github.com/zjp1997720/zhijian-ai-bluebook-workbuddy-harness/blob/6ac68cd42a01add16568d1ab9cf2399822467fad/03-第%202%20章%20Harness%20心智模型：官方五层与本书文件地图.md"
+sourceRel: "03-第 2 章 Harness 心智模型：官方五层与本书文件地图.md"
+rawUrl: "/raw/04-work/zhijian-ai-bluebook-workbuddy-harness/03-第 2 章 Harness 心智模型：官方五层与本书文件地图.md"
+sourceSha256: "940248f1cae216a0f3ca77796f1c6e64a9a1fe6adb250ea01b0c6abeb1dd3fa4"
+pageSha256: "940248f1cae216a0f3ca77796f1c6e64a9a1fe6adb250ea01b0c6abeb1dd3fa4"
+contentMode: "local-full"
 zh: ""
 ---
 

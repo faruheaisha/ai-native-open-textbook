@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "04-work"
 sourceUrl: "https://github.com/Tencent/workbuddy-bench"
-entryUrl: "https://github.com/Tencent/workbuddy-bench/blob/625b2233093ae4f23e76be28c1f341d41cc70373/README.md"
+entryUrl: "https://github.com/Tencent/workbuddy-bench/blob/625b2233093ae4f23e76be28c1f341d41cc70373/configs/harnesses/HARNESS_AUTHORING.md"
+sourceRel: "configs/harnesses/HARNESS_AUTHORING.md"
+rawUrl: "/raw/04-work/workbuddy-bench-official/configs/harnesses/HARNESS_AUTHORING.md"
+sourceSha256: "4feceff5d202c0ac94c2fe3701a479522a642db0cf4405ce6fcf539454f68408"
+pageSha256: "4feceff5d202c0ac94c2fe3701a479522a642db0cf4405ce6fcf539454f68408"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -88,7 +93,7 @@ Underneath, this is Harbor's native image-backed volume (not bench-specific):
 - Harbor's `ServiceVolumeConfig` (`models/trial/config.py`) supports `type: "image"`
   (alongside `bind` / `volume`), and has since v0.13.0.
 - `prepare_job._harness_mount_volume` translates a harness's `mount` block into
-  `{type: image, source: <image>, target: <path>, read_only: true}` and places it in
+  `\{type: image, source: <image>, target: <path>, read_only: true\}` and places it in
   `environment.mounts`.
 - Harbor's docker environment writes these mounts into the compose override's
   `services.main.volumes` (`environments/docker/__init__.py`), where Docker Compose mounts

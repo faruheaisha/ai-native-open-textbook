@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "10-context-memory"
 sourceUrl: "https://github.com/huggingface/mcp-course"
-entryUrl: "https://github.com/huggingface/mcp-course/blob/e706ccc0d7abe73c31813979c3451c0e31c8a464/README.md"
+entryUrl: "https://github.com/huggingface/mcp-course/blob/e706ccc0d7abe73c31813979c3451c0e31c8a464/units/en/unit2/tiny-agents.mdx"
+sourceRel: "units/en/unit2/tiny-agents.mdx"
+rawUrl: "/raw/10-context-memory/huggingface-mcp-course/units/en/unit2/tiny-agents.mdx"
+sourceSha256: "2df6d863d74248f3c37f3d5d608795a9930c44186d276aae74e1dcb32dfcefe1"
+pageSha256: "2df6d863d74248f3c37f3d5d608795a9930c44186d276aae74e1dcb32dfcefe1"
+contentMode: "local-full"
 zh: "on"
 ---
 
@@ -171,20 +176,20 @@ Here we have a basic Tiny Agent that can connect to our Gradio MCP server. It in
 > We could also use an open source model running locally with Tiny Agents. If we start a local inference server with 
 >
 > ```json
-> {
+> \{
 > 	"model": "Qwen/Qwen3-32B",
 > 	"endpointUrl": "http://localhost:1234/v1",
 > 	"servers": [
-> 		{
+> 		\{
 > 			"type": "stdio",
 > 			"command": "npx",
 > 			"args": [
 > 				"mcp-remote",
 > 				"http://localhost:1234/v1/mcp/sse"
 > 			]
-> 		}
+> 		\}
 > 	]
-> }
+> \}
 > ```
 >
 >

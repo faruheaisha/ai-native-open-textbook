@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/KhazP/vibe-coding-prompt-template"
-entryUrl: "https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/README.md"
+entryUrl: "https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/docs/workflow/recipes.md"
+sourceRel: "docs/workflow/recipes.md"
+rawUrl: "/raw/07-coding/vibe-coding-prompt-template/docs/workflow/recipes.md"
+sourceSha256: "ceb20720ad8678919c5d38b831f91e80e572c08ee5214fdab273e0003ba2a36f"
+pageSha256: "ceb20720ad8678919c5d38b831f91e80e572c08ee5214fdab273e0003ba2a36f"
+contentMode: "local-full"
 zh: ""
 ---
 

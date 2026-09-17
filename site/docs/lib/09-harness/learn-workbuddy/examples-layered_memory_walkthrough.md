@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/adongwanai/learn-workbuddy"
-entryUrl: "https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/README.md"
+entryUrl: "https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/examples/layered_memory_walkthrough/README.md"
+sourceRel: "examples/layered_memory_walkthrough/README.md"
+rawUrl: "/raw/09-harness/learn-workbuddy/examples/layered_memory_walkthrough/README.md"
+sourceSha256: "b565ac97e1987f96040a4c2d2d28d637527fa6b7a311c9fc937d098b7cee7240"
+pageSha256: "b565ac97e1987f96040a4c2d2d28d637527fa6b7a311c9fc937d098b7cee7240"
+contentMode: "local-full"
 zh: ""
 ---
 

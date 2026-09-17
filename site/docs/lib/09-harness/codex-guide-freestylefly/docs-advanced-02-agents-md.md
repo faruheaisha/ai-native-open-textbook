@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/freestylefly/CodexGuide"
-entryUrl: "https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/README.md"
+entryUrl: "https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/advanced/02-agents-md.md"
+sourceRel: "docs/advanced/02-agents-md.md"
+rawUrl: "/raw/09-harness/codex-guide-freestylefly/docs/advanced/02-agents-md.md"
+sourceSha256: "fc8dbdfb3aa87a98db414e974625ce82bcd518bd3493ec7afcad6b3b3f845166"
+pageSha256: "fc8dbdfb3aa87a98db414e974625ce82bcd518bd3493ec7afcad6b3b3f845166"
+contentMode: "local-full"
 zh: ""
 ---
 

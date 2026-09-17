@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/ed-donner/production"
-entryUrl: "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/README.md"
+entryUrl: "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/community_contributions/clerk_publishable_key_vercel.md"
+sourceRel: "community_contributions/clerk_publishable_key_vercel.md"
+rawUrl: "/raw/08-agents/ed-donner-production/community_contributions/clerk_publishable_key_vercel.md"
+sourceSha256: "414dc00e4e93dc56040e2e55112e69532ba3b9c89afae1efa1a6a2bd4f3581d3"
+pageSha256: "414dc00e4e93dc56040e2e55112e69532ba3b9c89afae1efa1a6a2bd4f3581d3"
+contentMode: "local-full"
 zh: ""
 ---
 

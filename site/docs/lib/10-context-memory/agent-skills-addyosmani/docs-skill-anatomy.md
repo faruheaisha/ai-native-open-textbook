@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/addyosmani/agent-skills"
-entryUrl: "https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/README.md"
+entryUrl: "https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/docs/skill-anatomy.md"
+sourceRel: "docs/skill-anatomy.md"
+rawUrl: "/raw/10-context-memory/agent-skills-addyosmani/docs/skill-anatomy.md"
+sourceSha256: "5026d3ade4cec780a6d4c372cc11403ca1014ac369f72791f8c5ebe063519343"
+pageSha256: "5026d3ade4cec780a6d4c372cc11403ca1014ac369f72791f8c5ebe063519343"
+contentMode: "local-full"
 zh: ""
 ---
 

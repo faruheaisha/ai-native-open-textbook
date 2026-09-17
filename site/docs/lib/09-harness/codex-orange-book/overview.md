@@ -9,6 +9,11 @@ tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/bozhouDev/codex-orange-book"
 entryUrl: "https://github.com/bozhouDev/codex-orange-book/blob/6c72add96c319507da65f963abfd9618d0c9ea0f/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/09-harness/codex-orange-book/README.md"
+sourceSha256: "65e48b97acdb091381cc2028287edb0d0fd5ce120bbb064499a056a262eb4796"
+pageSha256: "65e48b97acdb091381cc2028287edb0d0fd5ce120bbb064499a056a262eb4796"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -30,7 +35,7 @@ zh: ""
 ## 阅读入口
 
 - [在线阅读](https://bozhoudev.github.io/codex-orange-book/)
-- [完整 Markdown 原稿](/lib/09-harness/codex-orange-book/ChatGPT橙皮书)
+- [完整 Markdown 原稿](/lib/09-harness/codex-orange-book/ChatGPT橙皮书/index)
 - [下载 PDF](https://raw.githubusercontent.com/bozhouDev/codex-orange-book/main/ChatGPT%E6%A9%99%E7%9A%AE%E4%B9%A6.pdf)
 - [预览 PDF](https://github.com/bozhouDev/codex-orange-book/blob/6c72add96c319507da65f963abfd9618d0c9ea0f/ChatGPT橙皮书.preview.pdf)
 

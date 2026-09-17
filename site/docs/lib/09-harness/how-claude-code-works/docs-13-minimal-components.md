@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works"
-entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/README.md"
+entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/13-minimal-components.md"
+sourceRel: "docs/13-minimal-components.md"
+rawUrl: "/raw/09-harness/how-claude-code-works/docs/13-minimal-components.md"
+sourceSha256: "6a18ec3534320c376f4fc4d374c5e881cf3c617d477ad46366da7c1c346a6187"
+pageSha256: "6a18ec3534320c376f4fc4d374c5e881cf3c617d477ad46366da7c1c346a6187"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -149,7 +154,7 @@ export function loadClaudeMd(): string {
 
 Claude Code 的提示词系统远比模板替换复杂，主要在三个维度上做了增强。
 
-先看缓存感知的分层组装。Claude Code 会精心控制内容的排列顺序：静态内容——角色定义、工具使用规范——放在提示词前部，动态内容如 git 状态、最近操作的文件放在后部。为什么这么排？因为 Anthropic API 的提示词缓存按前缀匹配，前部内容不变，缓存命中率就更高，成本和延迟随之下降。最小版本不用操心这个，短对话的 token 成本很低；可一旦 agent 一天要处理上千次查询，缓存优化能省下 30-50% 的 API 成本（详见[第 3 章 上下文工程](/lib/09-harness/how-claude-code-works/docs-03-context-engineering)）。
+先看缓存感知的分层组装。Claude Code 会精心控制内容的排列顺序：静态内容——角色定义、工具使用规范——放在提示词前部，动态内容如 git 状态、最近操作的文件放在后部。为什么这么排？因为 Anthropic API 的提示词缓存按前缀匹配，前部内容不变，缓存命中率就更高，成本和延迟随之下降。最小版本不用操心这个，短对话的 token 成本很低；可一旦 agent 一天要处理上千次查询，缓存优化能省下 30-50% 的 API 成本（详见[第 3 章 上下文工程](/lib/09-harness/how-claude-code-works/docs-03-context-engineering/index)）。
 
 再看工具动态贡献提示词。在 Claude Code 中，每个工具都有一个 `prompt()` 方法，能根据当前上下文动态生成使用指南。例如 BashTool 的 prompt 会按检测到的 shell 类型（bash/zsh/fish）调整建议。这样一来，系统提示词的一部分由工具自己"贡献"，而不必在某个中央位置硬编码。工具因此是自描述的：新加一个工具，它的使用指南也一并带来，不用改别处的代码。
 
@@ -537,7 +542,7 @@ function readFile(input: { file_path: string }): string {
 }
 ```
 
-为什么要加行号？不是为了好看，是为了给后面的 `edit_file` 提供定位参考。当模型看到 `  42 | function processData(input) {`，它就能更准确地构造 `old_string` 参数，定位到要编辑的代码段。行号是 read 和 edit 两个工具之间的隐式协作。
+为什么要加行号？不是为了好看，是为了给后面的 `edit_file` 提供定位参考。当模型看到 `  42 | function processData(input) \{`，它就能更准确地构造 `old_string` 参数，定位到要编辑的代码段。行号是 read 和 edit 两个工具之间的隐式协作。
 
 `grepSearch` 包装了系统 grep：
 
@@ -733,7 +738,7 @@ function writeFile(input: { file_path: string; content: string }): string {
 }
 ```
 
-`mkdirSync(dir, { recursive: true })` 自动创建不存在的目录链——这个小细节避免了"目录不存在"的常见错误。
+`mkdirSync(dir, \{ recursive: true \})` 自动创建不存在的目录链——这个小细节避免了"目录不存在"的常见错误。
 
 注意这两个工具的分工：`edit_file` 用于修改已有文件，`write_file` 用于创建新文件。系统提示词中明确要求模型"Use edit_file instead of write_file for existing files"。这个行为指令和唯一性约束共同确保了模型不会用全文件重写来"修改"文件——那样做会丢失信息、消耗更多 token、且更容易出错。
 
@@ -919,7 +924,7 @@ graph LR
 
 ### 阶段 4：生产就绪（~20000 行）
 
-多级压缩流水线：阶段 3 的"全量总结"是最粗暴的压缩方式。生产版本有 4 级渐进式压缩策略——先截断过大的工具结果，再裁剪早期消息，然后微压缩缓存标注，最后才总结。每一级都尽量保留信息量，只在必要时升级到更激进的策略（详见[第 3 章 上下文工程](/lib/09-harness/how-claude-code-works/docs-03-context-engineering)）。
+多级压缩流水线：阶段 3 的"全量总结"是最粗暴的压缩方式。生产版本有 4 级渐进式压缩策略——先截断过大的工具结果，再裁剪早期消息，然后微压缩缓存标注，最后才总结。每一级都尽量保留信息量，只在必要时升级到更激进的策略（详见[第 3 章 上下文工程](/lib/09-harness/how-claude-code-works/docs-03-context-engineering/index)）。
 
 Bash AST 安全分析：tree-sitter 解析 + 23 项静态检查。这是从正则黑名单到结构化分析的质变。每一条检查规则都对应一种在安全测试中发现的绕过方式。
 

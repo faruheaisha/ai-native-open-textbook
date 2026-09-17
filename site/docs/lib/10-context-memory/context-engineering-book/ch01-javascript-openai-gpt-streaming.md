@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/bonigarcia/context-engineering"
-entryUrl: "https://github.com/bonigarcia/context-engineering/blob/46719154489e410b509db4fb69ab1c29fb3362a0/README.md"
+entryUrl: "https://github.com/bonigarcia/context-engineering/blob/46719154489e410b509db4fb69ab1c29fb3362a0/ch01/javascript/openai-gpt-streaming/README.md"
+sourceRel: "ch01/javascript/openai-gpt-streaming/README.md"
+rawUrl: "/raw/10-context-memory/context-engineering-book/ch01/javascript/openai-gpt-streaming/README.md"
+sourceSha256: "49bc0e73260d5554da137c6d5361813bfd9738968fd36dc35b1b5cc412dea73b"
+pageSha256: "49bc0e73260d5554da137c6d5361813bfd9738968fd36dc35b1b5cc412dea73b"
+contentMode: "local-full"
 zh: ""
 ---
 

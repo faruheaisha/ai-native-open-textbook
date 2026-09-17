@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/patchy631/ai-engineering-hub"
-entryUrl: "https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/README.md"
+entryUrl: "https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/agentic_rag_deepseek/README.md"
+sourceRel: "agentic_rag_deepseek/README.md"
+rawUrl: "/raw/10-context-memory/ai-engineering-hub/agentic_rag_deepseek/README.md"
+sourceSha256: "ffcd42d6d355ff6c5990f9fcc86d3aaf3cb2a014e9bf48e97db4d0e86a6612b5"
+pageSha256: "ffcd42d6d355ff6c5990f9fcc86d3aaf3cb2a014e9bf48e97db4d0e86a6612b5"
+contentMode: "local-full"
 zh: ""
 ---
 

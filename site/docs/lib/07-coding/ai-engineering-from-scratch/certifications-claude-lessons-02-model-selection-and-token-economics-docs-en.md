@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/rohitg00/ai-engineering-from-scratch"
-entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/README.md"
+entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/certifications/claude/lessons/02-model-selection-and-token-economics/docs/en.md"
+sourceRel: "certifications/claude/lessons/02-model-selection-and-token-economics/docs/en.md"
+rawUrl: "/raw/07-coding/ai-engineering-from-scratch/certifications/claude/lessons/02-model-selection-and-token-economics/docs/en.md"
+sourceSha256: "d0fdfd1c6fe0d2d08a2da8947bf7f1df56f97cd27cb58eadc7028c79d4cc4d31"
+pageSha256: "d0fdfd1c6fe0d2d08a2da8947bf7f1df56f97cd27cb58eadc7028c79d4cc4d31"
+contentMode: "local-full"
 zh: ""
 ---
 

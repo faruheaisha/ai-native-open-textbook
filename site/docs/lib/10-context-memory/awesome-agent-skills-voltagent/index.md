@@ -10,6 +10,8 @@ lang: "英文"
 volume: "10-context-memory"
 sourceUrl: "https://github.com/VoltAgent/awesome-agent-skills"
 entryUrl: "https://github.com/VoltAgent/awesome-agent-skills/blob/8873794bcb26ff5dcf9cd518c87cf5638ca44b92/README.md"
+sourceRel: ""
+contentMode: "local-full"
 zh: ""
 ---
 

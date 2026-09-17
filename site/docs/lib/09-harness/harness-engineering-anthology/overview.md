@@ -9,6 +9,11 @@ tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/lopopolo/harness-engineering"
 entryUrl: "https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/09-harness/harness-engineering-anthology/README.md"
+sourceSha256: "9b6a65ee8cf67e62a31ee6a821d7d2998aded6ce6c8e3ed3a2e238c5ca1d9f07"
+pageSha256: "9b6a65ee8cf67e62a31ee6a821d7d2998aded6ce6c8e3ed3a2e238c5ca1d9f07"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -76,8 +81,8 @@ direct reading, start with the [thesis index]. For an application, choose from
 the [playbooks].
 
 [`AGENTS.md`]: https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/AGENTS.md
-[thesis index]: https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/docs/README.md
-[playbooks]: https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/playbooks/README.md
+[thesis index]: /lib/09-harness/harness-engineering-anthology/docs
+[playbooks]: /lib/09-harness/harness-engineering-anthology/playbooks
 
 ## Sources and related work
 
@@ -89,7 +94,7 @@ the [playbooks].
 [“Harness engineering: leveraging Codex in an agent-first world”]:
   https://openai.com/index/harness-engineering/
 [fetch helper]: https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/sources/scripts/fetch_openai.py
-[Source library]: https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/sources/README.md
+[Source library]: /lib/09-harness/harness-engineering-anthology/sources
 [Influences and alternate framings]: /lib/09-harness/harness-engineering-anthology/docs-lineage
 
 Repository-authored material is licensed under [CC BY 4.0]. See [`COPYING.md`]

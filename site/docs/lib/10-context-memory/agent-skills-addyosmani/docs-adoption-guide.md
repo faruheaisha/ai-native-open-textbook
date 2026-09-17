@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/addyosmani/agent-skills"
-entryUrl: "https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/README.md"
+entryUrl: "https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/docs/adoption-guide.md"
+sourceRel: "docs/adoption-guide.md"
+rawUrl: "/raw/10-context-memory/agent-skills-addyosmani/docs/adoption-guide.md"
+sourceSha256: "7f56ac1ae6e86b22091902ae51d309197d5f89dd11d5d8f286621b11f52b8a2a"
+pageSha256: "7f56ac1ae6e86b22091902ae51d309197d5f89dd11d5d8f286621b11f52b8a2a"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial"
-entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/README.md"
+entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/appendix/L-config-file-structure.md"
+sourceRel: "appendix/L-config-file-structure.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-tutorial/appendix/L-config-file-structure.md"
+sourceSha256: "5c3fa1b933f872b44e34c22e6795b0f82c1aa1e866211fea4c4b3b2869bd9850"
+pageSha256: "5c3fa1b933f872b44e34c22e6795b0f82c1aa1e866211fea4c4b3b2869bd9850"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -512,8 +517,8 @@ source ~/.zshrc
 
 ## 🔗 相关文档
 
-- [第2章：安装配置](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-01-basics-02-installation) - 基础配置教程
-- [第11章：高级配置](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/docs/03-advanced/11-advanced-configuration.md) - 模型、记忆、审批与性能
+- [第2章：安装配置](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-01-basics-02-installation/index) - 基础配置教程
+- [第11章：高级配置](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-03-advanced-11-advanced-configuration) - 模型、记忆、审批与性能
 - [配置文件模板](/lib/11-personal-agents/awesome-openclaw-tutorial/appendix-H-config-templates) - 更多配置模板
 
 ---

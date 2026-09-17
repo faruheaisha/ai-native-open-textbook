@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/addyosmani/agent-skills"
-entryUrl: "https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/README.md"
+entryUrl: "https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/docs/cursor-setup.md"
+sourceRel: "docs/cursor-setup.md"
+rawUrl: "/raw/10-context-memory/agent-skills-addyosmani/docs/cursor-setup.md"
+sourceSha256: "2df2336526a4463202615457f202d470300dd90727b1312df22513962ae4883f"
+pageSha256: "2df2336526a4463202615457f202d470300dd90727b1312df22513962ae4883f"
+contentMode: "local-full"
 zh: ""
 ---
 

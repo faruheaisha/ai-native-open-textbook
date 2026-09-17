@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/datawhalechina/vibe-vibe"
-entryUrl: "https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/README.md"
+entryUrl: "https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/Advanced/02-ai-tuning-guide/05-debugging-tips.md"
+sourceRel: "docs/Advanced/02-ai-tuning-guide/05-debugging-tips.md"
+rawUrl: "/raw/07-coding/vibe-vibe/docs/Advanced/02-ai-tuning-guide/05-debugging-tips.md"
+sourceSha256: "7617cf37c92f182be0ba6d6c65d7cef7a4cd89fbf42fbb7c867c37f2bed8ba6f"
+pageSha256: "7617cf37c92f182be0ba6d6c65d7cef7a4cd89fbf42fbb7c867c37f2bed8ba6f"
+contentMode: "local-full"
 zh: ""
 ---
 

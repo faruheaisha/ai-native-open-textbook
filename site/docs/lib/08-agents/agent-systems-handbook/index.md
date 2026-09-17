@@ -10,35 +10,244 @@ lang: "英文"
 volume: "08-agents"
 sourceUrl: "https://github.com/Prompthon-IO/agent-systems-handbook"
 entryUrl: "https://github.com/Prompthon-IO/agent-systems-handbook/blob/5b71cfa598701a34834f33b42be5f8a422138a3c/README.md"
+sourceRel: ""
+contentMode: "local-full"
 zh: ""
 ---
 
 # Agent Systems Handbook（智能体系统手册）
 
+Prompthon Agentic Labs publishes the Agent Systems Handbook by Prompthon: an AI-native field guide for students, practitioners, and builders exploring modern agent systems from different angles.
+
 ## 课时
 
-1. [Agent Systems Handbook（智能体系统手册）](case-studies-coding-agents.md)
-2. [Agent Systems Handbook（智能体系统手册）](case-studies-customer-support-agents.md)
-3. [Agent Systems Handbook（智能体系统手册）](case-studies-deep-research-agents.md)
-4. [Agent Systems Handbook（智能体系统手册）](case-studies-examples-customer-email-assist-starter.md)
-5. [Customer Email Assist Starter](case-studies-examples-customer-email-assist-starter-2.md)
-6. [Customer Email Assist](case-studies-examples-customer-email-assist-starter-skill-SKILL.md)
-7. [Customer Email Assist Support Policy](case-studies-examples-customer-email-assist-starter-support-policy.md)
-8. [Agent Systems Handbook（智能体系统手册）](case-studies-examples-customer-support-email-agent-starter.md)
-9. [Local Customer Email Reply](case-studies-examples-customer-support-email-agent-starter-skill-SKILL.md)
-10. [Agent Systems Handbook（智能体系统手册）](case-studies-examples-deep-research-agent-starter.md)
-11. [Agent Systems Handbook（智能体系统手册）](case-studies.md)
-12. [Case Studies](case-studies-2.md)
-13. [Agent Systems Handbook（智能体系统手册）](ecosystem-agent-frameworks.md)
-14. [Agent Systems Handbook（智能体系统手册）](ecosystem-agent-platforms-and-low-code-builders.md)
-15. [Agent Systems Handbook（智能体系统手册）](ecosystem-ai-builder-tools-directory.md)
-16. [Agent Systems Handbook（智能体系统手册）](ecosystem-examples-langgraph-starter.md)
-17. [Agent Systems Handbook（智能体系统手册）](ecosystem-examples-messaging-transaction-assistant-starter.md)
-18. [Messaging Transaction Assistant Starter](ecosystem-examples-messaging-transaction-assistant-starter-2.md)
-19. [Source Notes](ecosystem-examples-messaging-transaction-assistant-starter-SOURCE_NOTES.md)
-20. [Agent Systems Handbook（智能体系统手册）](ecosystem-framework-comparison.md)
-21. [Agent Systems Handbook（智能体系统手册）](ecosystem.md)
-22. [Agent Systems Handbook（智能体系统手册）](ecosystem-model-ecosystem-map.md)
-23. [Ecosystem](ecosystem-2.md)
+- **Current notes**
+  - [June 2026 Agent Runtime Billing Watch](/lib/08-agents/agent-systems-handbook/radar-2026-06-agent-runtime-billing-watch.md)
+  - [June 2026 Agentic Resource Discovery Watch](/lib/08-agents/agent-systems-handbook/radar-2026-06-agentic-resource-discovery-watch.md)
+  - [June 2026 Open Agent Training Environments Watch](/lib/08-agents/agent-systems-handbook/radar-2026-06-open-agent-training-environments-watch.md)
+  - [June 2026 Prompt Injection Lockdown Mode Watch](/lib/08-agents/agent-systems-handbook/radar-2026-06-prompt-injection-lockdown-mode-watch.md)
+  - [June 2026 Agent-First Devices Watch](/lib/08-agents/agent-systems-handbook/radar-2026-06-agent-first-devices-watch.md)
+  - [May 2026 Agentic Shopping Assistant Watch](/lib/08-agents/agent-systems-handbook/radar-2026-05-agentic-shopping-assistant-watch.md)
+  - [April 2026 Cyber Defense Access Policy Watch](/lib/08-agents/agent-systems-handbook/radar-2026-04-cyber-defense-access-policy-watch.md)
+  - [April 2026 Assistant Safety Escalation Watch](/lib/08-agents/agent-systems-handbook/radar-2026-04-assistant-safety-escalation-watch.md)
+  - [April 2026 Defense Agent Training Loop Watch](/lib/08-agents/agent-systems-handbook/radar-2026-04-defense-agent-training-loop-watch.md)
+  - [April 2026 Portable Assistant Memory Watch](/lib/08-agents/agent-systems-handbook/radar-2026-04-portable-assistant-memory-watch.md)
+  - [April 2026 Local Agent Watch](/lib/08-agents/agent-systems-handbook/radar-2026-04-local-agent-watch.md)
+  - [April 2026 Interoperability Watch](/lib/08-agents/agent-systems-handbook/radar-2026-04-interoperability-watch.md)
+  - [Protocol Watch](/lib/08-agents/agent-systems-handbook/radar-2026-04-protocol-watch.md)
+- [Case Studies](/lib/08-agents/agent-systems-handbook/case-studies-2.md)
+  - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/case-studies-coding-agents.md)
+  - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/case-studies-customer-support-agents.md)
+  - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/case-studies-deep-research-agents.md)
+  - **示例**
+    - [Customer Email Assist Starter](/lib/08-agents/agent-systems-handbook/case-studies-examples-customer-email-assist-starter-2.md)
+      - **skill**
+        - [Customer Email Assist](/lib/08-agents/agent-systems-handbook/case-studies-examples-customer-email-assist-starter-skill-SKILL.md)
+    - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/case-studies-examples-customer-support-email-agent-starter.md)
+      - **skill**
+        - [Local Customer Email Reply](/lib/08-agents/agent-systems-handbook/case-studies-examples-customer-support-email-agent-starter-skill-SKILL.md)
+    - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/case-studies-examples-deep-research-agent-starter.md)
+- [Ecosystem](/lib/08-agents/agent-systems-handbook/ecosystem-2.md)
+  - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/ecosystem-agent-frameworks.md)
+  - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/ecosystem-agent-platforms-and-low-code-builders.md)
+  - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/ecosystem-ai-builder-tools-directory.md)
+  - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/ecosystem-framework-comparison.md)
+  - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/ecosystem-model-ecosystem-map.md)
+  - **示例**
+    - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/ecosystem-examples-langgraph-starter.md)
+    - [Messaging Transaction Assistant Starter](/lib/08-agents/agent-systems-handbook/ecosystem-examples-messaging-transaction-assistant-starter-2.md)
+      - [Source Notes](/lib/08-agents/agent-systems-handbook/ecosystem-examples-messaging-transaction-assistant-starter-SOURCE_NOTES.md)
+- [Foundations](/lib/08-agents/agent-systems-handbook/foundations-2.md)
+  - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/foundations-agents-vs-workflows.md)
+  - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/foundations-history-of-agent-ideas.md)
+  - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/foundations-llm-foundations-for-agent-systems.md)
+  - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/foundations-the-agent-system.md)
+  - **agent-systems**
+    - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/foundations-agent-systems-what-is-agent-system.md)
+    - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/foundations-agent-systems-what-is-agent.md)
+    - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/foundations-agent-systems-why-agent-systems-matter.md)
+- [Patterns](/lib/08-agents/agent-systems-handbook/patterns-2.md)
+  - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/patterns-agent-memory-and-retrieval.md)
+  - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/patterns-agent-runtime-building-blocks.md)
+  - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/patterns-browser-and-computer-use-patterns.md)
+  - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/patterns-planning-and-reflection.md)
+  - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/patterns-reasoning-and-control-patterns.md)
+  - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/patterns-tool-design-for-agent-systems.md)
+  - **示例**
+    - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/patterns-examples-agent-memory-retrieval-starter.md)
+    - [Prompt Cache Agent Starter](/lib/08-agents/agent-systems-handbook/patterns-examples-prompt-cache-agent-starter-2.md)
+      - [Source Notes](/lib/08-agents/agent-systems-handbook/patterns-examples-prompt-cache-agent-starter-SOURCE_NOTES.md)
+- [Publications](/lib/08-agents/agent-systems-handbook/publications-2.md)
+  - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/publications-metadata-schema.md)
+- [Radar](/lib/08-agents/agent-systems-handbook/radar-2.md)
+  - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/radar-2026-05-customer-support-agent-evaluation-tradeoffs.md)
+  - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/radar-2026-05-openai-multicloud-managed-agents.md)
+  - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/radar-2026-05-prompt-injection-authority-boundaries.md)
+- [Reading Paths](/lib/08-agents/agent-systems-handbook/reading-paths-2.md)
+  - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/reading-paths-builder.md)
+  - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/reading-paths-contributor.md)
+  - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/reading-paths-environment-setup.md)
+  - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/reading-paths-explorer.md)
+  - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/reading-paths-practitioner.md)
+  - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/reading-paths-sample-projects.md)
+- [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/skills.md)
+  - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/skills-professional-ai-agent-course.md)
+  - [Agent Runtime Cache Benchmark](/lib/08-agents/agent-systems-handbook/skills-agent-runtime-cache-benchmark.md)
+    - [Agent Runtime Cache Benchmark](/lib/08-agents/agent-systems-handbook/skills-agent-runtime-cache-benchmark-SKILL.md)
+    - **references**
+      - [Provider Cache Notes](/lib/08-agents/agent-systems-handbook/skills-agent-runtime-cache-benchmark-references-provider-cache-notes.md)
+  - [AI Search Visibility](/lib/08-agents/agent-systems-handbook/skills-ai-search-visibility.md)
+    - [AI Search Visibility](/lib/08-agents/agent-systems-handbook/skills-ai-search-visibility-SKILL.md)
+    - **references**
+      - [Persistence contract](/lib/08-agents/agent-systems-handbook/skills-ai-search-visibility-references-persistence-contract.md)
+      - [Safety rules](/lib/08-agents/agent-systems-handbook/skills-ai-search-visibility-references-safety-rules.md)
+      - [Source and license notes](/lib/08-agents/agent-systems-handbook/skills-ai-search-visibility-references-source-notes.md)
+  - [Business Data Analysis](/lib/08-agents/agent-systems-handbook/skills-business-data-analysis.md)
+    - [Business Data Analysis](/lib/08-agents/agent-systems-handbook/skills-business-data-analysis-SKILL.md)
+    - **references**
+      - [Persistence contract](/lib/08-agents/agent-systems-handbook/skills-business-data-analysis-references-persistence-contract.md)
+      - [Safety rules](/lib/08-agents/agent-systems-handbook/skills-business-data-analysis-references-safety-rules.md)
+      - [Source and license notes](/lib/08-agents/agent-systems-handbook/skills-business-data-analysis-references-source-notes.md)
+  - [Business Data Structuring](/lib/08-agents/agent-systems-handbook/skills-business-data-structuring.md)
+    - [Business Data Structuring](/lib/08-agents/agent-systems-handbook/skills-business-data-structuring-SKILL.md)
+    - **references**
+      - [Persistence contract](/lib/08-agents/agent-systems-handbook/skills-business-data-structuring-references-persistence-contract.md)
+      - [Safety rules](/lib/08-agents/agent-systems-handbook/skills-business-data-structuring-references-safety-rules.md)
+      - [Source and license notes](/lib/08-agents/agent-systems-handbook/skills-business-data-structuring-references-source-notes.md)
+  - [Content Strategy](/lib/08-agents/agent-systems-handbook/skills-content-strategy.md)
+    - [Content Strategy](/lib/08-agents/agent-systems-handbook/skills-content-strategy-SKILL.md)
+    - **示例**
+      - [Synthetic workshop facts](/lib/08-agents/agent-systems-handbook/skills-content-strategy-examples-synthetic-workshop-brief.md)
+    - **references**
+      - [Persistence contract](/lib/08-agents/agent-systems-handbook/skills-content-strategy-references-persistence-contract.md)
+      - [Safety rules](/lib/08-agents/agent-systems-handbook/skills-content-strategy-references-safety-rules.md)
+      - [Source and license notes](/lib/08-agents/agent-systems-handbook/skills-content-strategy-references-source-notes.md)
+  - [GW02 Professional AI Agent Course skill support](/lib/08-agents/agent-systems-handbook/skills-course-support.md)
+    - **示例**
+      - **lesson-2-organizer-freelancer-rules**
+        - **incoming**
+          - [Synthetic Client Service Agreement](/lib/08-agents/agent-systems-handbook/skills-course-support-examples-lesson-2-organizer-freelancer-rules-incoming-client-service-agreement.md)
+          - [Synthetic Website Project Ideas](/lib/08-agents/agent-systems-handbook/skills-course-support-examples-lesson-2-organizer-freelancer-rules-incoming-website-project-ideas.md)
+      - **lesson-2-organizer-safe-recovery**
+        - **incoming**
+          - [Synthetic Monthly Expense Notes](/lib/08-agents/agent-systems-handbook/skills-course-support-examples-lesson-2-organizer-safe-recovery-incoming-expense-notes.md)
+      - **lesson-2-organizer-student-files**
+        - **incoming**
+          - [Synthetic Course Reading List](/lib/08-agents/agent-systems-handbook/skills-course-support-examples-lesson-2-organizer-student-files-incoming-school-reading.md)
+      - **lesson-2**
+        - **research**
+          - [Workshop brief](/lib/08-agents/agent-systems-handbook/skills-course-support-examples-lesson-2-research-brief.md)
+          - [Room update](/lib/08-agents/agent-systems-handbook/skills-course-support-examples-lesson-2-research-room-update.md)
+    - **lessons**
+      - [Lesson 2 — Organize, Understand, Automate](/lib/08-agents/agent-systems-handbook/skills-course-support-lessons-lesson-2.md)
+      - [Lesson 3 — Build → Test → Deploy](/lib/08-agents/agent-systems-handbook/skills-course-support-lessons-lesson-3.md)
+      - [Lesson 4 — Structure → Operate → Analyze](/lib/08-agents/agent-systems-handbook/skills-course-support-lessons-lesson-4.md)
+      - [Lesson 5 — Plan → Distribute → Discover](/lib/08-agents/agent-systems-handbook/skills-course-support-lessons-lesson-5.md)
+    - **references**
+      - [Course persistence contract v1](/lib/08-agents/agent-systems-handbook/skills-course-support-references-backend-contract.md)
+      - [Web App dependency: classroom persistence and safe Social access](/lib/08-agents/agent-systems-handbook/skills-course-support-references-backend-dependency.md)
+    - **zh-Hans**
+      - [Lesson 2 — 文件整理、资料理解、工作流自动化](/lib/08-agents/agent-systems-handbook/skills-course-support-zh-Hans-lesson-2.md)
+      - [第 3 课：Build → Test → Deploy](/lib/08-agents/agent-systems-handbook/skills-course-support-zh-Hans-lesson-3.md)
+      - [第 4 课：Structure → Operate → Analyze](/lib/08-agents/agent-systems-handbook/skills-course-support-zh-Hans-lesson-4.md)
+      - [第 5 课：Plan → Distribute → Discover](/lib/08-agents/agent-systems-handbook/skills-course-support-zh-Hans-lesson-5.md)
+  - [CRM Operations](/lib/08-agents/agent-systems-handbook/skills-crm-operations.md)
+    - [CRM Operations](/lib/08-agents/agent-systems-handbook/skills-crm-operations-SKILL.md)
+    - **references**
+      - [Persistence contract](/lib/08-agents/agent-systems-handbook/skills-crm-operations-references-persistence-contract.md)
+      - [Safety rules](/lib/08-agents/agent-systems-handbook/skills-crm-operations-references-safety-rules.md)
+      - [Source and license notes](/lib/08-agents/agent-systems-handbook/skills-crm-operations-references-source-notes.md)
+  - [Daily News Watcher](/lib/08-agents/agent-systems-handbook/skills-daily-news-watcher.md)
+    - [Daily News Watcher](/lib/08-agents/agent-systems-handbook/skills-daily-news-watcher-SKILL.md)
+    - **references**
+      - [Fetch Rules](/lib/08-agents/agent-systems-handbook/skills-daily-news-watcher-references-fetch-rules.md)
+  - [Garbage Collector](/lib/08-agents/agent-systems-handbook/skills-garbage-collector.md)
+    - [Garbage Collector](/lib/08-agents/agent-systems-handbook/skills-garbage-collector-SKILL.md)
+  - [Local Document Organizer](/lib/08-agents/agent-systems-handbook/skills-local-document-organizer.md)
+    - [Local Document Organizer](/lib/08-agents/agent-systems-handbook/skills-local-document-organizer-SKILL.md)
+    - **references**
+      - [Course persistence](/lib/08-agents/agent-systems-handbook/skills-local-document-organizer-references-persistence-contract.md)
+      - [Safety Rules](/lib/08-agents/agent-systems-handbook/skills-local-document-organizer-references-safety-rules.md)
+      - [Source notes](/lib/08-agents/agent-systems-handbook/skills-local-document-organizer-references-source-notes.md)
+  - [Personal Knowledge Capture](/lib/08-agents/agent-systems-handbook/skills-personal-knowledge-capture.md)
+    - [Personal Knowledge Capture](/lib/08-agents/agent-systems-handbook/skills-personal-knowledge-capture-SKILL.md)
+    - **references**
+      - [Safety rules](/lib/08-agents/agent-systems-handbook/skills-personal-knowledge-capture-references-safety-rules.md)
+      - [Source notes](/lib/08-agents/agent-systems-handbook/skills-personal-knowledge-capture-references-source-notes.md)
+      - [Supported File Types](/lib/08-agents/agent-systems-handbook/skills-personal-knowledge-capture-references-supported-file-types.md)
+  - [Personal Workflow Automation](/lib/08-agents/agent-systems-handbook/skills-personal-workflow-automation.md)
+    - [Personal Workflow Automation](/lib/08-agents/agent-systems-handbook/skills-personal-workflow-automation-SKILL.md)
+    - **references**
+      - [Safety rules](/lib/08-agents/agent-systems-handbook/skills-personal-workflow-automation-references-safety-rules.md)
+      - [Source notes](/lib/08-agents/agent-systems-handbook/skills-personal-workflow-automation-references-source-notes.md)
+  - [Presentation Template Designer](/lib/08-agents/agent-systems-handbook/skills-presentation-template-designer.md)
+    - [Presentation Template Designer](/lib/08-agents/agent-systems-handbook/skills-presentation-template-designer-SKILL.md)
+    - **references**
+      - [Reusable Layout Catalog](/lib/08-agents/agent-systems-handbook/skills-presentation-template-designer-references-layout-catalog.md)
+      - [Presentation Template Toolchain Research](/lib/08-agents/agent-systems-handbook/skills-presentation-template-designer-references-market-research.md)
+      - [Template Manifest Schema](/lib/08-agents/agent-systems-handbook/skills-presentation-template-designer-references-template-manifest-schema.md)
+  - [Price Watcher](/lib/08-agents/agent-systems-handbook/skills-price-watcher.md)
+    - [Price Watcher](/lib/08-agents/agent-systems-handbook/skills-price-watcher-SKILL.md)
+    - **references**
+      - [Price Parsing](/lib/08-agents/agent-systems-handbook/skills-price-watcher-references-price-parsing.md)
+      - [SQLite Schema](/lib/08-agents/agent-systems-handbook/skills-price-watcher-references-schema.md)
+      - [Source Discovery And Product Normalization](/lib/08-agents/agent-systems-handbook/skills-price-watcher-references-source-discovery.md)
+  - [Prompt Cache Agent Harness](/lib/08-agents/agent-systems-handbook/skills-prompt-cache-agent-harness.md)
+    - [Prompt Cache Agent Harness](/lib/08-agents/agent-systems-handbook/skills-prompt-cache-agent-harness-SKILL.md)
+    - **references**
+      - [Source Notes](/lib/08-agents/agent-systems-handbook/skills-prompt-cache-agent-harness-references-source-notes.md)
+  - [Prompthon Social Campaign Manager](/lib/08-agents/agent-systems-handbook/skills-prompthon-social-campaign-manager.md)
+    - [Prompthon Social Campaign Manager](/lib/08-agents/agent-systems-handbook/skills-prompthon-social-campaign-manager-SKILL.md)
+    - **references**
+      - [Social API Contract](/lib/08-agents/agent-systems-handbook/skills-prompthon-social-campaign-manager-references-api-contract.md)
+      - [Browser Bridge Contract](/lib/08-agents/agent-systems-handbook/skills-prompthon-social-campaign-manager-references-browser-bridge-contract.md)
+      - [Canonical Host source contract](/lib/08-agents/agent-systems-handbook/skills-prompthon-social-campaign-manager-references-canonical-host-contract.md)
+      - [Required demo backend capability — not yet provisioned](/lib/08-agents/agent-systems-handbook/skills-prompthon-social-campaign-manager-references-course-backend-dependency.md)
+      - [Persistence contract](/lib/08-agents/agent-systems-handbook/skills-prompthon-social-campaign-manager-references-persistence-contract.md)
+      - [Preserved production reference](/lib/08-agents/agent-systems-handbook/skills-prompthon-social-campaign-manager-references-production-guide.md)
+      - [Preserved production reference](/lib/08-agents/agent-systems-handbook/skills-prompthon-social-campaign-manager-references-production-workflow.md)
+      - [Safety rules](/lib/08-agents/agent-systems-handbook/skills-prompthon-social-campaign-manager-references-safety-rules.md)
+      - [Source and license notes](/lib/08-agents/agent-systems-handbook/skills-prompthon-social-campaign-manager-references-source-notes.md)
+  - [Safety Escalation Review](/lib/08-agents/agent-systems-handbook/skills-safety-escalation-review.md)
+    - [Safety Escalation Review](/lib/08-agents/agent-systems-handbook/skills-safety-escalation-review-SKILL.md)
+    - **references**
+      - [Escalation Checklist](/lib/08-agents/agent-systems-handbook/skills-safety-escalation-review-references-escalation-checklist.md)
+  - [Vercel Deploy](/lib/08-agents/agent-systems-handbook/skills-vercel-deploy.md)
+    - [Vercel Deploy](/lib/08-agents/agent-systems-handbook/skills-vercel-deploy-SKILL.md)
+    - **references**
+      - [Persistence contract](/lib/08-agents/agent-systems-handbook/skills-vercel-deploy-references-persistence-contract.md)
+      - [Provider workflow](/lib/08-agents/agent-systems-handbook/skills-vercel-deploy-references-provider-workflow.md)
+      - [Safety rules](/lib/08-agents/agent-systems-handbook/skills-vercel-deploy-references-safety-rules.md)
+      - [Source and license notes](/lib/08-agents/agent-systems-handbook/skills-vercel-deploy-references-source-notes.md)
+  - [Web Builder](/lib/08-agents/agent-systems-handbook/skills-web-builder.md)
+    - [Web Builder](/lib/08-agents/agent-systems-handbook/skills-web-builder-SKILL.md)
+    - **references**
+      - [Persistence contract](/lib/08-agents/agent-systems-handbook/skills-web-builder-references-persistence-contract.md)
+      - [Safety rules](/lib/08-agents/agent-systems-handbook/skills-web-builder-references-safety-rules.md)
+      - [Source and license notes](/lib/08-agents/agent-systems-handbook/skills-web-builder-references-source-notes.md)
+  - [Web App Testing](/lib/08-agents/agent-systems-handbook/skills-webapp-testing.md)
+    - [Web App Testing](/lib/08-agents/agent-systems-handbook/skills-webapp-testing-SKILL.md)
+    - **references**
+      - [Persistence contract](/lib/08-agents/agent-systems-handbook/skills-webapp-testing-references-persistence-contract.md)
+      - [Safety rules](/lib/08-agents/agent-systems-handbook/skills-webapp-testing-references-safety-rules.md)
+      - [Source and license notes](/lib/08-agents/agent-systems-handbook/skills-webapp-testing-references-source-notes.md)
+- **specializations**
+  - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/specializations-ai-native-internship.md)
+- [Systems](/lib/08-agents/agent-systems-handbook/systems-2.md)
+  - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/systems-agent-security-and-prompt-injection.md)
+  - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/systems-agent-ui-protocols-and-generative-ui.md)
+  - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/systems-context-engineering.md)
+  - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/systems-evaluation-and-observability.md)
+  - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/systems-protocols-and-interoperability.md)
+  - **示例**
+    - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/systems-examples-weather-mcp-server-starter.md)
+- **workshops**
+  - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/workshops-codex.md)
+    - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/workshops-codex-github-and-repository.md)
+    - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/workshops-codex-install-mac.md)
+    - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/workshops-codex-install-windows.md)
+  - **desktop-agents**
+    - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/workshops-desktop-agents-claude-code.md)
+    - [Agent Systems Handbook（智能体系统手册）](/lib/08-agents/agent-systems-handbook/workshops-desktop-agents-codex.md)
 
 开始学习 → [Agent Systems Handbook（智能体系统手册）](case-studies-coding-agents.md)

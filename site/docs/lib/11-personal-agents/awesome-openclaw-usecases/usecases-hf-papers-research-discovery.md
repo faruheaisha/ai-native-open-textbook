@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases"
-entryUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/README.md"
+entryUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/hf-papers-research-discovery.md"
+sourceRel: "usecases/hf-papers-research-discovery.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-usecases/usecases/hf-papers-research-discovery.md"
+sourceSha256: "e430789dbd026fc8e6b77ece18bf025210f0a6f8cc16e11cf32d02845dff7108"
+pageSha256: "e430789dbd026fc8e6b77ece18bf025210f0a6f8cc16e11cf32d02845dff7108"
+contentMode: "local-full"
 zh: ""
 ---
 

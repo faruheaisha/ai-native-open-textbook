@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/QoderAI/better-harness"
-entryUrl: "https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/README.md"
+entryUrl: "https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/adrs/session-notebook-evidence-projection.md"
+sourceRel: "docs/adrs/session-notebook-evidence-projection.md"
+rawUrl: "/raw/09-harness/better-harness/docs/adrs/session-notebook-evidence-projection.md"
+sourceSha256: "383fdd9fed45f3f5379e4c345fb686e24598e752d02185341f24f22ac7d798cf"
+pageSha256: "383fdd9fed45f3f5379e4c345fb686e24598e752d02185341f24f22ac7d798cf"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -111,4 +116,4 @@ the notebook appearance.
 
 - ADR ID: ADR-0006
 - Decision date: 2026-08-18
-- Spec: [Make session review and harness comparison read like a notebook](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/specs/2026-08-18-notebook-session-and-studio.md)
+- Spec: [Make session review and harness comparison read like a notebook](/lib/09-harness/better-harness/docs-specs-2026-08-18-notebook-session-and-studio)

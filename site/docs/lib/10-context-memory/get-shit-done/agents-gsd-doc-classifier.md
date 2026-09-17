@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/gsd-build/get-shit-done"
-entryUrl: "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/README.md"
+entryUrl: "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/agents/gsd-doc-classifier.md"
+sourceRel: "agents/gsd-doc-classifier.md"
+rawUrl: "/raw/10-context-memory/get-shit-done/agents/gsd-doc-classifier.md"
+sourceSha256: "b624f1608f56d8306f0e9ab9b0f971e67f13394f9530669c5b3fb66e6640e9e1"
+pageSha256: "b624f1608f56d8306f0e9ab9b0f971e67f13394f9530669c5b3fb66e6640e9e1"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -113,7 +118,7 @@ Regardless of type, extract:
 &lt;/step>
 
 &lt;step name="write_output">
-Write to `{OUTPUT_DIR}/{slug}-{source_hash}.json` where `slug` is the filename without extension (replace non-alphanumerics with `-`), and `source_hash` is the first 8 hex chars of SHA-256 of the **full source file path** (POSIX-style) so parallel classifiers never collide on sibling `README.md` files.
+Write to `\{OUTPUT_DIR\}/\{slug\}-\{source_hash\}.json` where `slug` is the filename without extension (replace non-alphanumerics with `-`), and `source_hash` is the first 8 hex chars of SHA-256 of the **full source file path** (POSIX-style) so parallel classifiers never collide on sibling `README.md` files.
 
 JSON schema:
 

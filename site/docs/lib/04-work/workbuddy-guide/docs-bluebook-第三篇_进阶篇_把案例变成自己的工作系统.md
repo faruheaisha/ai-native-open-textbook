@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/AlephAITech/WorkBuddyGuide"
-entryUrl: "https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89da368fe208425ff50e121fe/README.md"
+entryUrl: "https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇%20进阶篇：把案例变成自己的工作系统/index.md"
+sourceRel: "docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/index.md"
+rawUrl: "/raw/04-work/workbuddy-guide/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/index.md"
+sourceSha256: "2279d52289a84ebc5126204625a71425255cc2dbbb31d04f56036f09b35f318c"
+pageSha256: "2279d52289a84ebc5126204625a71425255cc2dbbb31d04f56036f09b35f318c"
+contentMode: "local-full"
 zh: ""
 ---
 

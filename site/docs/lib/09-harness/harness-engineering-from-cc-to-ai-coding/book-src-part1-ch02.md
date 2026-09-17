@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding"
-entryUrl: "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding/blob/e40e0feec02b90e308ccbfc7a8911d64118ccca0/README.md"
+entryUrl: "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding/blob/e40e0feec02b90e308ccbfc7a8911d64118ccca0/book/src/part1/ch02.md"
+sourceRel: "book/src/part1/ch02.md"
+rawUrl: "/raw/09-harness/harness-engineering-from-cc-to-ai-coding/book/src/part1/ch02.md"
+sourceSha256: "f8fa8ee2c87aaa05b58426f7ba0cc56b229601df6cb5b8fb8c3fdeb8bba4007e"
+pageSha256: "f8fa8ee2c87aaa05b58426f7ba0cc56b229601df6cb5b8fb8c3fdeb8bba4007e"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -82,7 +87,7 @@ export function buildTool<D extends AnyToolDef>(def: D): BuiltTool<D> {
 }
 ```
 
-运行时行为极简——就是一个对象展开（spread）。但它的类型层面设计（`BuiltTool<D>` 类型）精确地模拟了 `{ ...TOOL_DEFAULTS, ...def }` 的语义：如果工具定义提供了某个方法，使用工具定义的版本；否则使用默认值。
+运行时行为极简——就是一个对象展开（spread）。但它的类型层面设计（`BuiltTool<D>` 类型）精确地模拟了 `\{ ...TOOL_DEFAULTS, ...def \}` 的语义：如果工具定义提供了某个方法，使用工具定义的版本；否则使用默认值。
 
 ### 默认值与"失败关闭"哲学
 
@@ -94,11 +99,11 @@ export function buildTool<D extends AnyToolDef>(def: D): BuiltTool<D> {
 | `isConcurrencySafe` | `() => false` | **失败关闭**：假设不安全，禁止并发 |
 | `isReadOnly` | `() => false` | **失败关闭**：假设会写入，需要权限 |
 | `isDestructive` | `() => false` | 默认非破坏性 |
-| `checkPermissions` | 返回 `{ behavior: 'allow' }` | 交给通用权限系统处理 |
+| `checkPermissions` | 返回 `\{ behavior: 'allow' \}` | 交给通用权限系统处理 |
 | `toAutoClassifierInput` | `() => ''` | 默认不参与自动安全分类 |
 | `userFacingName` | `() => def.name` | 使用工具名称 |
 
-其中最重要的两个默认值是 `isConcurrencySafe: false` 和 `isReadOnly: false`。这意味着：一个新工具如果忘记声明这两个属性，系统会自动将其视为"可能修改文件系统且不能并发执行"——这是最保守、最安全的假设。只有当工具开发者主动声明 `isConcurrencySafe() { return true }` 和 `isReadOnly() { return true }` 时，系统才会放宽限制。
+其中最重要的两个默认值是 `isConcurrencySafe: false` 和 `isReadOnly: false`。这意味着：一个新工具如果忘记声明这两个属性，系统会自动将其视为"可能修改文件系统且不能并发执行"——这是最保守、最安全的假设。只有当工具开发者主动声明 `isConcurrencySafe() \{ return true \}` 和 `isReadOnly() \{ return true \}` 时，系统才会放宽限制。
 
 ### 实际工具如何使用 `buildTool`
 

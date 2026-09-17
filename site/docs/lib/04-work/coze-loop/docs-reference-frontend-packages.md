@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "04-work"
 sourceUrl: "https://github.com/coze-dev/coze-loop"
-entryUrl: "https://github.com/coze-dev/coze-loop/blob/5f1e4c234fc110c1bf674e882a6fd02109e1e1e6/README.md"
+entryUrl: "https://github.com/coze-dev/coze-loop/blob/5f1e4c234fc110c1bf674e882a6fd02109e1e1e6/docs/reference/frontend-packages.md"
+sourceRel: "docs/reference/frontend-packages.md"
+rawUrl: "/raw/04-work/coze-loop/docs/reference/frontend-packages.md"
+sourceSha256: "a013c02b73339854a744a3cb6e0e39692e4ff7070f36e1137f70139a59ca2741"
+pageSha256: "a013c02b73339854a744a3cb6e0e39692e4ff7070f36e1137f70139a59ca2741"
+contentMode: "local-full"
 zh: ""
 ---
 

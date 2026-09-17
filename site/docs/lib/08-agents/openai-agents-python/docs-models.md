@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/openai/openai-agents-python"
-entryUrl: "https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/README.md"
+entryUrl: "https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/models/index.md"
+sourceRel: "docs/models/index.md"
+rawUrl: "/raw/08-agents/openai-agents-python/docs/models/index.md"
+sourceSha256: "c5cdd8699b5d039da7fd2b74a767595ebde75a36b109af793325a5dff7ff5619"
+pageSha256: "c5cdd8699b5d039da7fd2b74a767595ebde75a36b109af793325a5dff7ff5619"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -118,7 +123,7 @@ Prompt-managed calls are the main exception. If a prompt template specifies the 
 
 With a registered [`ComputerTool`][agents.tool.ComputerTool], `tool_choice="computer"`, `"computer_use"`, and `"computer_use_preview"` are normalized to the built-in selector that matches the effective request model. If no `ComputerTool` is registered, those strings continue to behave like ordinary function names.
 
-Preview-compatible requests must serialize `environment` and display dimensions up front, so prompt-managed flows that use a [`ComputerProvider`][agents.tool.ComputerProvider] factory should either pass a concrete `Computer` or `AsyncComputer` instance or force the GA selector before sending the request. See [Tools](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/tools.md#computertool-and-the-responses-computer-tool) for the full migration details.
+Preview-compatible requests must serialize `environment` and display dimensions up front, so prompt-managed flows that use a [`ComputerProvider`][agents.tool.ComputerProvider] factory should either pass a concrete `Computer` or `AsyncComputer` instance or force the GA selector before sending the request. See [Tools](/lib/08-agents/openai-agents-python/docs-tools#computertool-and-the-responses-computer-tool) for the full migration details.
 
 #### Non-GPT-5 models
 
@@ -133,7 +138,7 @@ The following tool features are supported only with OpenAI Responses models:
 -   `@function_tool(defer_loading=True)` and other deferred-loading Responses tool surfaces
 -   [`ProgrammaticToolCallingTool`][agents.tool.ProgrammaticToolCallingTool], `allowed_callers`, and `tool_choice="programmatic_tool_calling"`
 
-These features are rejected on Chat Completions models and on non-Responses backends. When you use deferred-loading tools, add `ToolSearchTool()` to the agent and let the model load tools through `auto` or `required` tool choice instead of forcing bare namespace names or deferred-only function names. See [Hosted tool search](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/tools.md#hosted-tool-search) and [Programmatic Tool Calling](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/tools.md#programmatic-tool-calling) for setup details and current constraints.
+These features are rejected on Chat Completions models and on non-Responses backends. When you use deferred-loading tools, add `ToolSearchTool()` to the agent and let the model load tools through `auto` or `required` tool choice instead of forcing bare namespace names or deferred-only function names. See [Hosted tool search](/lib/08-agents/openai-agents-python/docs-tools#hosted-tool-search) and [Programmatic Tool Calling](/lib/08-agents/openai-agents-python/docs-tools#programmatic-tool-calling) for setup details and current constraints.
 
 ### Responses WebSocket transport
 
@@ -243,9 +248,9 @@ If you use a custom OpenAI-compatible endpoint or proxy, websocket transport als
 
 -   This is the Responses API over websocket transport, not the [Realtime API](/lib/08-agents/openai-agents-python/docs-realtime-guide). It does not apply to Chat Completions. It applies to non-OpenAI providers only if they support the Responses websocket `/responses` endpoint.
 -   Install the `websockets` package if it is not already available in your environment.
--   You can use [`Runner.run_streamed()`][agents.run.Runner.run_streamed] directly after enabling websocket transport. For multi-turn workflows where you want to reuse the same websocket connection across turns (and nested agent-as-tool calls), the [`responses_websocket_session()`][agents.responses_websocket_session] helper is recommended. See the [Running agents](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/running_agents.md) guide and [`examples/basic/stream_ws.py`](https://github.com/openai/openai-agents-python/tree/main/examples/basic/stream_ws.py).
+-   You can use [`Runner.run_streamed()`][agents.run.Runner.run_streamed] directly after enabling websocket transport. For multi-turn workflows where you want to reuse the same websocket connection across turns (and nested agent-as-tool calls), the [`responses_websocket_session()`][agents.responses_websocket_session] helper is recommended. See the [Running agents](/lib/08-agents/openai-agents-python/docs-running_agents) guide and [`examples/basic/stream_ws.py`](https://github.com/openai/openai-agents-python/tree/main/examples/basic/stream_ws.py).
 -   For long reasoning turns or networks with latency spikes, customize websocket keepalive behavior with `responses_websocket_options`. Increase `ping_timeout` to tolerate delayed pong frames, or set `ping_timeout=None` to disable heartbeat timeouts while keeping pings enabled. Prefer HTTP/SSE transport when reliability is more important than websocket latency.
--   By default the SDK disables the incoming message-size limit (`max_size=None`). For long-lived agent processes behind proxies or in memory-constrained containers, set `responses_websocket_options={"max_size": 8 * 1024 * 1024}` to bound per-message memory usage.
+-   By default the SDK disables the incoming message-size limit (`max_size=None`). For long-lived agent processes behind proxies or in memory-constrained containers, set `responses_websocket_options=\{"max_size": 8 * 1024 * 1024\}` to bound per-message memory usage.
 -   The [Responses API WebSocket service](https://developers.openai.com/api/docs/guides/websocket-mode) processes one response at a time on each connection and limits each connection to 60 minutes. Open a new connection after that limit; use multiple connections when you need parallel runs.
 -   The service keeps only the most recent response in connection-local memory. A failed `4xx` or `5xx` turn evicts from that memory the response referenced by `previous_response_id`. After reconnecting, a stored response can still be continued when available, but `store=False` and ZDR flows have no persisted fallback. Start a new chain with `previous_response_id=None` and send the full input context, or rebuild that context from locally managed session state.
 
@@ -336,7 +341,7 @@ You can integrate other LLM providers with these built-in paths:
 2. [`ModelProvider`][agents.models.interface.ModelProvider] is at the `Runner.run` level. This lets you say "use a custom model provider for all agents in this run". See a configurable example in [examples/model_providers/custom_example_provider.py](https://github.com/openai/openai-agents-python/tree/main/examples/model_providers/custom_example_provider.py).
 3. [`Agent.model`][agents.agent.Agent.model] lets you specify the model on a specific Agent instance. This enables you to mix and match different providers for different agents. See a configurable example in [examples/model_providers/custom_example_agent.py](https://github.com/openai/openai-agents-python/tree/main/examples/model_providers/custom_example_agent.py).
 
-In cases where you do not have an API key from `platform.openai.com`, we recommend disabling tracing via `set_tracing_disabled()`, or setting up a [different tracing processor](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/tracing.md).
+In cases where you do not have an API key from `platform.openai.com`, we recommend disabling tracing via `set_tracing_disabled()`, or setting up a [different tracing processor](/lib/08-agents/openai-agents-python/docs-tracing).
 
 ``` python
 from agents import Agent, AsyncOpenAI, OpenAIChatCompletionsModel, set_tracing_disabled
@@ -483,15 +488,15 @@ result = await Runner.run(
 retention control. Do not combine a direct `ModelSettings` field with the same key in
 `extra_args`.
 
-When you set `store=False`, the Responses API does not keep that response available for later server-side retrieval. This is useful for stateless or zero-data-retention style flows, but it also means features that would otherwise reuse response IDs need to rely on locally managed state instead. For example, [`OpenAIResponsesCompactionSession`][agents.memory.openai_responses_compaction_session.OpenAIResponsesCompactionSession] switches its default `"auto"` compaction path to input-based compaction when the last response was not stored. See the [Sessions guide](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/sessions/index.md#openai-responses-compaction-sessions).
+When you set `store=False`, the Responses API does not keep that response available for later server-side retrieval. This is useful for stateless or zero-data-retention style flows, but it also means features that would otherwise reuse response IDs need to rely on locally managed state instead. For example, [`OpenAIResponsesCompactionSession`][agents.memory.openai_responses_compaction_session.OpenAIResponsesCompactionSession] switches its default `"auto"` compaction path to input-based compaction when the last response was not stored. See the [Sessions guide](/lib/08-agents/openai-agents-python/docs-sessions#openai-responses-compaction-sessions).
 
-Server-side compaction is different from [`OpenAIResponsesCompactionSession`][agents.memory.openai_responses_compaction_session.OpenAIResponsesCompactionSession]. `context_management=[{"type": "compaction", "compact_threshold": ...}]` is sent with each Responses API request, and the API can emit compaction items as part of the response when the rendered context crosses the threshold. `OpenAIResponsesCompactionSession` calls the standalone `responses.compact` endpoint between turns and rewrites the local session history.
+Server-side compaction is different from [`OpenAIResponsesCompactionSession`][agents.memory.openai_responses_compaction_session.OpenAIResponsesCompactionSession]. `context_management=[\{"type": "compaction", "compact_threshold": ...\}]` is sent with each Responses API request, and the API can emit compaction items as part of the response when the rendered context crosses the threshold. `OpenAIResponsesCompactionSession` calls the standalone `responses.compact` endpoint between turns and rewrites the local session history.
 
 ### Passing `extra_args`
 
 Use `extra_args` when you need provider-specific or newer request fields that the SDK does not expose directly at the top level yet.
 
-When you use an OpenAI model, `extra_args` can pass optional parameters to both the Responses API and Chat Completions API (for example, `user` and `service_tier`). For supported models, set `extra_args={"service_tier": "fast"}` to use [Fast mode](https://developers.openai.com/api/docs/guides/fast-mode); `"priority"` remains equivalent. Do not also set the same request field through a direct `ModelSettings` field.
+When you use an OpenAI model, `extra_args` can pass optional parameters to both the Responses API and Chat Completions API (for example, `user` and `service_tier`). For supported models, set `extra_args=\{"service_tier": "fast"\}` to use [Fast mode](https://developers.openai.com/api/docs/guides/fast-mode); `"priority"` remains equivalent. Do not also set the same request field through a direct `ModelSettings` field.
 
 ```python
 from agents import Agent, ModelSettings
@@ -624,7 +629,7 @@ If you get errors related to tracing, this is because traces are uploaded to Ope
 
 1. Disable tracing entirely: [`set_tracing_disabled(True)`][agents.set_tracing_disabled].
 2. Set an OpenAI key for tracing: [`set_tracing_export_api_key(...)`][agents.set_tracing_export_api_key]. This API key will only be used for uploading traces, and must be from [platform.openai.com](https://platform.openai.com/).
-3. Use a non-OpenAI trace processor. See the [tracing docs](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/tracing.md#custom-tracing-processors).
+3. Use a non-OpenAI trace processor. See the [tracing docs](/lib/08-agents/openai-agents-python/docs-tracing#custom-tracing-processors).
 
 ### Responses API support
 
@@ -655,7 +660,7 @@ result = await Runner.run(
 
 If you use [`MultiProvider`][agents.MultiProvider], pass `openai_strict_feature_validation=True` instead.
 
-The OpenAI Chat Completions API can return audio output, but [`OpenAIChatCompletionsModel`][agents.models.openai_chatcompletions.OpenAIChatCompletionsModel] does not currently convert audio output into Agents SDK run items. If a non-streaming message or streaming delta contains audio output, the adapter raises `AgentsException("Audio is not currently supported")` instead of returning a partial or empty result. Use [Realtime agents](/lib/08-agents/openai-agents-python/docs-realtime-guide) or [Voice agents](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/voice/quickstart.md) for SDK-managed audio workflows.
+The OpenAI Chat Completions API can return audio output, but [`OpenAIChatCompletionsModel`][agents.models.openai_chatcompletions.OpenAIChatCompletionsModel] does not currently convert audio output into Agents SDK run items. If a non-streaming message or streaming delta contains audio output, the adapter raises `AgentsException("Audio is not currently supported")` instead of returning a partial or empty result. Use [Realtime agents](/lib/08-agents/openai-agents-python/docs-realtime-guide) or [Voice agents](/lib/08-agents/openai-agents-python/docs-voice-quickstart) for SDK-managed audio workflows.
 
 If a streaming or non-streaming Chat Completions response ends with `finish_reason="length"` before producing assistant text, a tool call, or a refusal, the adapter raises [`ModelBehaviorError`][agents.exceptions.ModelBehaviorError]. The SDK treats this empty result as token- or reasoning-budget exhaustion, not as a content-policy refusal, so model-refusal handlers do not run for it.
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "01-foundations"
 sourceUrl: "https://github.com/microsoft/generative-ai-for-beginners"
-entryUrl: "https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/README.md"
+entryUrl: "https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/12-designing-ux-for-ai-applications/README.md"
+sourceRel: "12-designing-ux-for-ai-applications/README.md"
+rawUrl: "/raw/01-foundations/microsoft-generative-ai-for-beginners/12-designing-ux-for-ai-applications/README.md"
+sourceSha256: "1faa01e40ba26897289292556987160ab0220161297c7000100685dc1e887e1f"
+pageSha256: "1faa01e40ba26897289292556987160ab0220161297c7000100685dc1e887e1f"
+contentMode: "local-full"
 zh: ""
 ---
 

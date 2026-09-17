@@ -8,15 +8,20 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide"
-entryUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide/blob/57673726396dd94acb23bdb1e67f27c78ee85a8e/README.md"
+entryUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide/blob/57673726396dd94acb23bdb1e67f27c78ee85a8e/pages/applications.en.mdx"
+sourceRel: "pages/applications.en.mdx"
+rawUrl: "/raw/10-context-memory/prompt-engineering-guide/pages/applications.en.mdx"
+sourceSha256: "843b93e53b691c2d7b9b46fba50a8f53e034c4cd6377b3fbc49ef9570e0b3610"
+pageSha256: "843b93e53b691c2d7b9b46fba50a8f53e034c4cd6377b3fbc49ef9570e0b3610"
+contentMode: "local-full"
 zh: ""
 ---
 
 # LLM Applications & Guides
 
-import { Callout } from 'nextra-theme-docs'
-import {Cards, Card} from 'nextra-theme-docs'
-import {FilesIcon} from 'components/icons'
+import \{ Callout \} from 'nextra-theme-docs'
+import \{Cards, Card\} from 'nextra-theme-docs'
+import \{FilesIcon\} from 'components/icons'
 import ContentFileNames from 'components/ContentFileNames'
 
 In this section, we will cover advanced and interesting ways we can use prompt engineering to perform useful and more advanced tasks with large language models (LLMs).

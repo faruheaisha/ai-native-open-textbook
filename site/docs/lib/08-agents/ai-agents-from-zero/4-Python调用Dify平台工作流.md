@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/didilili/ai-agents-from-zero"
-entryUrl: "https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/README.md"
+entryUrl: "https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/4-Python调用Dify平台工作流.md"
+sourceRel: "4-Python调用Dify平台工作流.md"
+rawUrl: "/raw/08-agents/ai-agents-from-zero/4-Python调用Dify平台工作流.md"
+sourceSha256: "ebb2c20b89e7054ef6954c84d187c632cc57d57dcb2feac51ee3622a86ba8c2c"
+pageSha256: "ebb2c20b89e7054ef6954c84d187c632cc57d57dcb2feac51ee3622a86ba8c2c"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -100,7 +105,7 @@ http://localhost/v1/workflows/run
 
 | 键            | 值                 |
 | ------------- | ------------------ |
-| Authorization | `Bearer {api_key}` |
+| Authorization | `Bearer \{api_key\}` |
 | Content-Type  | `application/json` |
 
 其中 `api_key` 替换为上一步创建的密钥。

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "13-local-ai"
 sourceUrl: "https://github.com/microsoft/edgeai-for-beginners"
-entryUrl: "https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/README.md"
+entryUrl: "https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/Module04/06.workflow-synthesis.md"
+sourceRel: "Module04/06.workflow-synthesis.md"
+rawUrl: "/raw/13-local-ai/edgeai-for-beginners/Module04/06.workflow-synthesis.md"
+sourceSha256: "458fe345a7015bcb7a6633eba8c354a448afdd00cffad76945209b410a6be454"
+pageSha256: "458fe345a7015bcb7a6633eba8c354a448afdd00cffad76945209b410a6be454"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -1109,4 +1114,4 @@ Remember that the best optimization strategy is the one that meets your specific
 
 ## ➡️ What's next
 
-- [07: Qualcomm QNN Framework Deep Dive](https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/Module04/07.QualcommQNN.md)
+- [07: Qualcomm QNN Framework Deep Dive](/lib/13-local-ai/edgeai-for-beginners/Module04-07.QualcommQNN)

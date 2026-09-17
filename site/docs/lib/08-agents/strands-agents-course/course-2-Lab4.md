@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/aws-samples/sample-getting-started-with-strands-agents-course"
-entryUrl: "https://github.com/aws-samples/sample-getting-started-with-strands-agents-course/blob/6f0b46cd565312a34cdb9a6c72cbff7f3fa80c1d/README.md"
+entryUrl: "https://github.com/aws-samples/sample-getting-started-with-strands-agents-course/blob/6f0b46cd565312a34cdb9a6c72cbff7f3fa80c1d/course-2/Lab4/README.md"
+sourceRel: "course-2/Lab4/README.md"
+rawUrl: "/raw/08-agents/strands-agents-course/course-2/Lab4/README.md"
+sourceSha256: "8a810ec5eaa790b1ee7cadf0851b1b5b07228697bc6e894df51a302b78f6b437"
+pageSha256: "8a810ec5eaa790b1ee7cadf0851b1b5b07228697bc6e894df51a302b78f6b437"
+contentMode: "local-full"
 zh: ""
 ---
 

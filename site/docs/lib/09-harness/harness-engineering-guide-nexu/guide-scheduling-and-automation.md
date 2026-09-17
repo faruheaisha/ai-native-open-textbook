@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/nexu-io/harness-engineering-guide"
-entryUrl: "https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/README.md"
+entryUrl: "https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/scheduling-and-automation.md"
+sourceRel: "guide/scheduling-and-automation.md"
+rawUrl: "/raw/09-harness/harness-engineering-guide-nexu/guide/scheduling-and-automation.md"
+sourceSha256: "af9151de3570c045e72f8cdef8e7bc751d8f8fc5844c71d5840e7a715e8bf2e5"
+pageSha256: "af9151de3570c045e72f8cdef8e7bc751d8f8fc5844c71d5840e7a715e8bf2e5"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/rohitg00/ai-engineering-from-scratch"
-entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/README.md"
+entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/certifications/claude/lessons/06-governance-safety-and-responsible-use/docs/en.md"
+sourceRel: "certifications/claude/lessons/06-governance-safety-and-responsible-use/docs/en.md"
+rawUrl: "/raw/07-coding/ai-engineering-from-scratch/certifications/claude/lessons/06-governance-safety-and-responsible-use/docs/en.md"
+sourceSha256: "827696ee9b6681971a00d3787b877969a346c3dc871b0cb6ab7b8072d3cc1829"
+pageSha256: "827696ee9b6681971a00d3787b877969a346c3dc871b0cb6ab7b8072d3cc1829"
+contentMode: "local-full"
 zh: ""
 ---
 

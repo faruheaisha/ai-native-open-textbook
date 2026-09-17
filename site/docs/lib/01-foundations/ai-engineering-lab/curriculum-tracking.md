@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "01-foundations"
 sourceUrl: "https://github.com/zorost/AI-Engineering-Lab"
-entryUrl: "https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/README.md"
+entryUrl: "https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/curriculum/tracking/README.md"
+sourceRel: "curriculum/tracking/README.md"
+rawUrl: "/raw/01-foundations/ai-engineering-lab/curriculum/tracking/README.md"
+sourceSha256: "acc85f41af01be2f1ca4ce46b1d3234715a5b81f09263c4fa8ec7d5b80192921"
+pageSha256: "acc85f41af01be2f1ca4ce46b1d3234715a5b81f09263c4fa8ec7d5b80192921"
+contentMode: "local-full"
 zh: ""
 ---
 

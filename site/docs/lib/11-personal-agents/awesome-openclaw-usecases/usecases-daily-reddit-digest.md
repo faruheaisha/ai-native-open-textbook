@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases"
-entryUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/README.md"
+entryUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/daily-reddit-digest.md"
+sourceRel: "usecases/daily-reddit-digest.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-usecases/usecases/daily-reddit-digest.md"
+sourceSha256: "ec889b1e698c54f940c1f808a7d86486f1c196df41cafe94078914251d0a2ac4"
+pageSha256: "ec889b1e698c54f940c1f808a7d86486f1c196df41cafe94078914251d0a2ac4"
+contentMode: "local-full"
 zh: ""
 ---
 

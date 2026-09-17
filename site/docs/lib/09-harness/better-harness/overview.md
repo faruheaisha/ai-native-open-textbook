@@ -9,6 +9,11 @@ tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/QoderAI/better-harness"
 entryUrl: "https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/09-harness/better-harness/README.md"
+sourceSha256: "a56feaa3871713c751cff7d65232a7d6f08d43101cb96a92ce0a8f8c7ca75755"
+pageSha256: "a56feaa3871713c751cff7d65232a7d6f08d43101cb96a92ce0a8f8c7ca75755"
+contentMode: "local-full"
 zh: "on"
 ---
 
@@ -16,7 +21,7 @@ zh: "on"
 
 <h1 align="center">Better Harness</h1>
 
-  English · <a href="https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/README.zh-CN.md">简体中文</a>
+  English · <a href="/lib/09-harness/better-harness/README.zh-CN">简体中文</a>
 
 <div class="tb-zh"><p>英文版 · 简体中文（语言切换）</p></div>
 
@@ -46,8 +51,8 @@ entrypoint across every host.
 
 This README shows inline setup for the most common hosts. Additional supported
 hosts (Qwen Code, Pi, Kimi Code, WorkBuddy, and Grok) keep their steps and
-boundaries in the [installation guide](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/docs/installation.mdx) and the
-[public Host Adapter Matrix](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/docs/hosts/adapter-matrix.md); see
+boundaries in the [installation guide](/lib/09-harness/better-harness/docs-docs-installation) and the
+[public Host Adapter Matrix](/lib/09-harness/better-harness/docs-docs-hosts-adapter-matrix); see
 [More adapters](#more-adapters). README placement is a display choice, not a
 support-level claim.
 
@@ -169,7 +174,7 @@ Better Harness opens three connected layers, not only a slash-command prompt:
 <div class="tb-zh"><p>Better Harness 打开的是三个相互关联的层次，而不只是一个斜杠命令提示词：</p></div>
 
 - **Engineering practices** — evidence and judgment guidance across
-  [Session Evidence, Project Harness, Agent Customize, and Loop Engineering](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/references/README.md).
+  [Session Evidence, Project Harness, Agent Customize, and Loop Engineering](/lib/09-harness/better-harness/references).
 - **Evaluation model** — the task-centered
   [Agent Work Loop](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/models/agent-work-loop.md), including evidence states,
   findings, scoring boundaries, and longitudinal validation.
@@ -476,16 +481,16 @@ evidence boundaries live in the docs so this README stays focused:
 
 <div class="tb-zh"><p>除上述宿主外，Better Harness 还支持 Qwen Code、Pi、Kimi Code、WorkBuddy 和 Grok。它们确切的安装方式、调用方式和证据边界都放在文档中，以便本 README 保持聚焦：</p></div>
 
-- **Qwen Code** — [installation guide](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/docs/installation.mdx#qwen-code)
+- **Qwen Code** — [installation guide](/lib/09-harness/better-harness/docs-docs-installation#qwen-code)
   (`qwen extensions install QoderAI/better-harness`).
-- **Pi** — [Host Adapter Matrix](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/docs/hosts/adapter-matrix.md#pi)
+- **Pi** — [Host Adapter Matrix](/lib/09-harness/better-harness/docs-docs-hosts-adapter-matrix#pi)
   (`pi install <source>` or `pi -e <source>`). The same adapter reads
-  [Oh My Pi (OMP)](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/docs/hosts/adapter-matrix.md#oh-my-pi-omp) sessions when
+  [Oh My Pi (OMP)](/lib/09-harness/better-harness/docs-docs-hosts-adapter-matrix#oh-my-pi-omp) sessions when
   `PI_CODING_AGENT_DIR` points at an OMP agent directory.
 - **Kimi Code** — [Host Adapter Matrix](/lib/09-harness/better-harness/docs-adapters)
   (`.kimi-plugin/plugin.json` plugin install).
-- **WorkBuddy** — [Host Adapter Matrix](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/docs/hosts/adapter-matrix.md#workbuddy).
-- **Grok** — [Host Adapter Matrix](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/docs/hosts/adapter-matrix.md#grok).
+- **WorkBuddy** — [Host Adapter Matrix](/lib/09-harness/better-harness/docs-docs-hosts-adapter-matrix#workbuddy).
+- **Grok** — [Host Adapter Matrix](/lib/09-harness/better-harness/docs-docs-hosts-adapter-matrix#grok).
 
 <div class="tb-zh"><p>Qwen Code——见安装指南（qwen extensions install QoderAI/better-harness）；Pi——见 Host Adapter Matrix（pi install &lt;source&gt; 或 pi -e &lt;source&gt;），当 PI_CODING_AGENT_DIR 指向某个 OMP agent 目录时，同一个适配器也能读取 Oh My Pi (OMP) 的会话；Kimi Code——见 Host Adapter Matrix（以 .kimi-plugin/plugin.json 安装插件）；WorkBuddy——见 Host Adapter Matrix；Grok——见 Host Adapter Matrix。</p></div>
 
@@ -544,7 +549,7 @@ smallest surface that matches the improvement you want to make:
 
 | What you can contribute | Start here | Example contribution |
 | --- | --- | --- |
-| Workflow guidance and engineering practices | [`skills/`](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/skills/README.md) or [`references/`](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/references/README.md) | Add sourced guidance for a language, framework, review pattern, or recurring agent workflow. |
+| Workflow guidance and engineering practices | [`skills/`](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/skills/README.md) or [`references/`](/lib/09-harness/better-harness/references) | Add sourced guidance for a language, framework, review pattern, or recurring agent workflow. |
 | Evaluation models and executable analysis | [`models/`](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/models/README.md) or [`scripts/`](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/scripts/README.md) | Add an evidence-backed evaluation lens, detector, or agent-friendly analysis command with fixtures and tests. |
 | Delivery controls and host support | [`hooks/`](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/hooks/README.md) or the [new Coding Agent guide](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/adapters/contributing-new-coding-agent.md) | Add a narrow lifecycle check or document and validate evidence support for another Coding Agent host. |
 | Reports and visual language | [`templates/reporting/`](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/templates/reporting/README.md) or [`templates/style/`](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/templates/style/README.md) | Add a report mode, reusable reporting contract, or directive-only visual style with validation evidence. |

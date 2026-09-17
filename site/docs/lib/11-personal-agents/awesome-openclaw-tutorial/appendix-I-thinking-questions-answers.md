@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial"
-entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/README.md"
+entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/appendix/I-thinking-questions-answers.md"
+sourceRel: "appendix/I-thinking-questions-answers.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-tutorial/appendix/I-thinking-questions-answers.md"
+sourceSha256: "8e9da2275d0db096e27fa4f16596ddd9499997b59a1765c6bc8d8fe4730eae10"
+pageSha256: "8e9da2275d0db096e27fa4f16596ddd9499997b59a1765c6bc8d8fe4730eae10"
+contentMode: "local-full"
 zh: ""
 ---
 

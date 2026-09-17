@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/QoderAI/better-harness"
-entryUrl: "https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/README.md"
+entryUrl: "https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/adrs/directory-structure.md"
+sourceRel: "docs/adrs/directory-structure.md"
+rawUrl: "/raw/09-harness/better-harness/docs/adrs/directory-structure.md"
+sourceSha256: "5fcc4c4b6e18562538a8293a07f39cdbd562fcbf1f5536229a7dd17e4596061c"
+pageSha256: "5fcc4c4b6e18562538a8293a07f39cdbd562fcbf1f5536229a7dd17e4596061c"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -32,7 +37,7 @@ of this ADR still requires the validation gate below.
 This ADR owns directory ownership and contribution routing. It does not define
 knowledge-base registry schemas, host package generation internals, or the
 cross-surface DX control plane; the latter belongs to the
-[Developer Experience System ADR](/lib/09-harness/better-harness/docs-adrs-developer-experience-system).
+[Developer Experience System ADR](/lib/09-harness/better-harness/docs-adrs-developer-experience-system/index).
 
 Rejected direction: top-level `packs/`. A pack is a lifecycle state, not a
 source directory.

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/microsoft/AI-Engineering-Coach"
-entryUrl: "https://github.com/microsoft/AI-Engineering-Coach/blob/18b1a3d16b586c171426c6a407cc5c2dc073556e/README.md"
+entryUrl: "https://github.com/microsoft/AI-Engineering-Coach/blob/18b1a3d16b586c171426c6a407cc5c2dc073556e/docs/content/improve/rule-editor.md"
+sourceRel: "docs/content/improve/rule-editor.md"
+rawUrl: "/raw/08-agents/microsoft-ai-engineering-coach/docs/content/improve/rule-editor.md"
+sourceSha256: "b04b3a7ddc581cd48fa7cc52cac9a845c41a859290010df589b1bc962565c2e2"
+pageSha256: "b04b3a7ddc581cd48fa7cc52cac9a845c41a859290010df589b1bc962565c2e2"
+contentMode: "local-full"
 zh: ""
 ---
 

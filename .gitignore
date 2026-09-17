@@ -14,6 +14,9 @@ upstream/
 
 # 编辑与调试中间产物
 scripts/tmp/
+scripts/tmp-html.html
+site/docs/.vitepress/*.timestamp-*.mjs
+site/tmp-*.mjs
 *.bak
 *.orig
 *.rej
@@ -38,3 +41,7 @@ Proxy
 # 生成方式：node scripts/mirror-images.mjs（可反复运行续传）
 # 索引 mirror-index.json 入库：仓库里没有镜像文件时，生成器会按索引回退到加速通道。
 site/docs/public/mirror/
+
+# 原件原样归档（由 build-raw-archive.mjs 生成，部署时随静态站发布；不入源码库）
+site/docs/public/raw/
+site/docs/public/raw-manifest.json

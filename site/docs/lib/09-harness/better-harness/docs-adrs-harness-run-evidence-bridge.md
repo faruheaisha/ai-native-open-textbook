@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/QoderAI/better-harness"
-entryUrl: "https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/README.md"
+entryUrl: "https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/adrs/harness-run-evidence-bridge.md"
+sourceRel: "docs/adrs/harness-run-evidence-bridge.md"
+rawUrl: "/raw/09-harness/better-harness/docs/adrs/harness-run-evidence-bridge.md"
+sourceSha256: "7ae32b016bf278711563e7517453ac9304f9b824f2cc519e9de86834d1b94edb"
+pageSha256: "7ae32b016bf278711563e7517453ac9304f9b824f2cc519e9de86834d1b94edb"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -19,7 +24,7 @@ zh: ""
 - ADR ID: `ADR-0003`
 - Status: Proposed
 - Decision date: 2026-08-15
-- Spec: [Harness as Code Architecture Hardening](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/specs/2026-08-15-harness-as-code-architecture-hardening.md)
+- Spec: [Harness as Code Architecture Hardening](/lib/09-harness/better-harness/docs-specs-2026-08-15-harness-as-code-architecture-hardening)
 
 ## Context
 

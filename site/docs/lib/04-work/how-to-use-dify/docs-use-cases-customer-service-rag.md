@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/hijasonxu1/How-to-use-dify"
-entryUrl: "https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/README.md"
+entryUrl: "https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/docs/use-cases/customer-service-rag.md"
+sourceRel: "docs/use-cases/customer-service-rag.md"
+rawUrl: "/raw/04-work/how-to-use-dify/docs/use-cases/customer-service-rag.md"
+sourceSha256: "f8f13158c0cc80b3ae260951074e9a6cc625989d0eb147d05f50fc9bb17dc1cc"
+pageSha256: "f8f13158c0cc80b3ae260951074e9a6cc625989d0eb147d05f50fc9bb17dc1cc"
+contentMode: "local-full"
 zh: ""
 ---
 

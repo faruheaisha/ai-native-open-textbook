@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/datawhalechina/vibe-vibe"
-entryUrl: "https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/README.md"
+entryUrl: "https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/Advanced/03-prd-doc-driven/index.md"
+sourceRel: "docs/Advanced/03-prd-doc-driven/index.md"
+rawUrl: "/raw/07-coding/vibe-vibe/docs/Advanced/03-prd-doc-driven/index.md"
+sourceSha256: "0e7d5e3b01e439d15bc2b299fe6f89fc75edd297562b2b564542869ae703d72c"
+pageSha256: "0e7d5e3b01e439d15bc2b299fe6f89fc75edd297562b2b564542869ae703d72c"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -136,8 +141,6 @@ PRD 就是 AI 的执行规范。当你想清楚了上面三步，PRD 就是把�
 
 本章强调的是，在 AI 时代，**问题定义能力比代码实现能力更重要**。PRD 不是形式主义，而是产品思维的体现——从"为什么做"到"是什么"再到"怎么做"，每一步都想清楚。有了结构化的 PRD 作为"单一事实来源"，AI 就能成为高效的执行伙伴而不是猜谜者。
 
-
-
 **上一章**：[第二章：AI 使用说明书](/lib/07-coding/vibe-vibe/docs-Advanced-02-ai-tuning-guide)
 
-**下一章**：[第四章：你必须知道的开发基础](https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/Advanced/04-dev-fundamentals/index.md)
+**下一章**：[第四章：你必须知道的开发基础](/lib/07-coding/vibe-vibe/docs-Advanced-04-dev-fundamentals)

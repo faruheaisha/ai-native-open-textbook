@@ -9,16 +9,21 @@ tier: 1
 volume: "01-foundations"
 sourceUrl: "https://github.com/zorost/AI-Engineering-Lab"
 entryUrl: "https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/01-foundations/ai-engineering-lab/README.md"
+sourceSha256: "f8a2923c2b427575b80a5ca41004d7e79d7b7c12e4b8db5a4305f56c60bd9904"
+pageSha256: "f8a2923c2b427575b80a5ca41004d7e79d7b7c12e4b8db5a4305f56c60bd9904"
+contentMode: "local-full"
 zh: "on"
 ---
 
 # AI Engineering Lab（24 周自学课程）
 
-**[Start here](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/START-HERE.md)** ·
+**[Start here](/lib/01-foundations/ai-engineering-lab/START-HERE)** ·
 [Browse all 24 weeks](https://zorost.github.io/AI-Engineering-Lab/#weeks) ·
 [Reference](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/reference/README.md) ·
-[Glossary](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/reference/GLOSSARY.md) ·
-[Roadmap](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/ROADMAP.md)
+[Glossary](/lib/01-foundations/ai-engineering-lab/reference-GLOSSARY) ·
+[Roadmap](/lib/01-foundations/ai-engineering-lab/ROADMAP)
 
 <div class="tb-zh"><p>从这里开始 · 浏览全部 24 周 · 参考资料 · 术语表 · 路线图</p></div>
 
@@ -37,7 +42,7 @@ cd AI-Engineering-Lab
 python -m pip install -r requirements.txt
 ```
 
-1. **New to programming or to AI?** Read **[START-HERE.md](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/START-HERE.md)** first. It names the
+1. **New to programming or to AI?** Read **[START-HERE.md](/lib/01-foundations/ai-engineering-lab/START-HERE)** first. It names the
    tools, the order, and what to do when something breaks.
 2. **Open [`curriculum/week-01`](/lib/01-foundations/ai-engineering-lab/curriculum-week-01).** It sets up your machine and
    generates the dataset every later week reuses. No GPU needed for the first eight weeks.

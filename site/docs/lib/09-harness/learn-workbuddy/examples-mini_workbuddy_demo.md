@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/adongwanai/learn-workbuddy"
-entryUrl: "https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/README.md"
+entryUrl: "https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/examples/mini_workbuddy_demo/README.md"
+sourceRel: "examples/mini_workbuddy_demo/README.md"
+rawUrl: "/raw/09-harness/learn-workbuddy/examples/mini_workbuddy_demo/README.md"
+sourceSha256: "0982aa1ec641f85c0a450de32f77d2a41f4858b13781de54fcc9d30bfeffbe3e"
+pageSha256: "0982aa1ec641f85c0a450de32f77d2a41f4858b13781de54fcc9d30bfeffbe3e"
+contentMode: "local-full"
 zh: ""
 ---
 

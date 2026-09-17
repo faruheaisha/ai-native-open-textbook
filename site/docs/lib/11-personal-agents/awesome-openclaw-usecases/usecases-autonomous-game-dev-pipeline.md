@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases"
-entryUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/README.md"
+entryUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/autonomous-game-dev-pipeline.md"
+sourceRel: "usecases/autonomous-game-dev-pipeline.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-usecases/usecases/autonomous-game-dev-pipeline.md"
+sourceSha256: "91c5b3d3de22712ef36dd7e1f098b12b0b377e4ba1b648ff510501a296e2e120"
+pageSha256: "91c5b3d3de22712ef36dd7e1f098b12b0b377e4ba1b648ff510501a296e2e120"
+contentMode: "local-full"
 zh: ""
 ---
 

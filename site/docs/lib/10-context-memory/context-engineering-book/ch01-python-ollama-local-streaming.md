@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/bonigarcia/context-engineering"
-entryUrl: "https://github.com/bonigarcia/context-engineering/blob/46719154489e410b509db4fb69ab1c29fb3362a0/README.md"
+entryUrl: "https://github.com/bonigarcia/context-engineering/blob/46719154489e410b509db4fb69ab1c29fb3362a0/ch01/python/ollama-local-streaming/README.md"
+sourceRel: "ch01/python/ollama-local-streaming/README.md"
+rawUrl: "/raw/10-context-memory/context-engineering-book/ch01/python/ollama-local-streaming/README.md"
+sourceSha256: "d4ba9ae293a8dfd95858f3103d0d0d5bbca23ba99e8c9a45043f3478e6b80f2a"
+pageSha256: "d4ba9ae293a8dfd95858f3103d0d0d5bbca23ba99e8c9a45043f3478e6b80f2a"
+contentMode: "local-full"
 zh: ""
 ---
 

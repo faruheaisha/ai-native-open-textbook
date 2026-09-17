@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering"
-entryUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/README.md"
+entryUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/docs/blogs.md"
+sourceRel: "docs/blogs.md"
+rawUrl: "/raw/10-context-memory/agent-skills-for-context-engineering/docs/blogs.md"
+sourceSha256: "6e099f78f15231b4156cbceb896b99bae2f47093f0348a337937b66c58285a5a"
+pageSha256: "6e099f78f15231b4156cbceb896b99bae2f47093f0348a337937b66c58285a5a"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -394,7 +399,7 @@ Auto – The model may choose to call a function or not. Implemented by prefilli
 
 Required – The model must call a function, but the choice is unconstrained. Implemented by prefilling up to tool call token: <|im_start|>assistant&lt;tool_call>
 
-Specified – The model must call a function from a specific subset. Implemented by prefilling up to the beginning of the function name: <|im_start|>assistant&lt;tool_call>{"name": “browser_
+Specified – The model must call a function from a specific subset. Implemented by prefilling up to the beginning of the function name: <|im_start|>assistant&lt;tool_call>\{"name": “browser_
 
 Using this, we constrain action selection by masking token logits directly. For example, when the user provides a new input, Manus must reply immediately instead of taking an action. We've also deliberately designed action names with consistent prefixes—e.g., all browser-related tools start with browser_, and command-line tools with shell_. This allows us to easily enforce that the agent only chooses from a certain group of tools at a given state without using stateful logits processors.
 
@@ -876,13 +881,13 @@ In some instances, agents may require the flexibility to interact with both natu
 
 You can add more formats for even greater flexibility, similar to GraphQL where you can choose exactly which pieces of information you want to receive. Here is an example ResponseFormat enum to control tool response verbosity:
 
-enum ResponseFormat {
+enum ResponseFormat \{
 
    DETAILED = "detailed",
 
    CONCISE = "concise"
 
-}
+\}
 
 Copy
 
@@ -1122,7 +1127,7 @@ Feature list
 
 To address the problem of the agent one-shotting an app or prematurely considering the project complete, we prompted the initializer agent to write a comprehensive file of feature requirements expanding on the user’s initial prompt. In the claude.ai clone example, this meant over 200 features, such as “a user can open a new chat, type in a query, press enter, and see an AI response.” These features were all initially marked as “failing” so that later coding agents would have a clear outline of what full functionality looked like.
 
-{
+\{
 
     "category": "functional",
 
@@ -1144,7 +1149,7 @@ To address the problem of the agent one-shotting an app or prematurely consideri
 
     "passes": false
 
-  }
+  \}
 
 Copy
 

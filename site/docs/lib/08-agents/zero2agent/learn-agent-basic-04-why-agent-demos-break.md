@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/ranxi2001/zero2Agent"
-entryUrl: "https://github.com/ranxi2001/zero2Agent/blob/46e9f7c28f84f54b2f6e45681d14989f01e18291/README.md"
+entryUrl: "https://github.com/ranxi2001/zero2Agent/blob/46e9f7c28f84f54b2f6e45681d14989f01e18291/learn-agent-basic/04-why-agent-demos-break/index.md"
+sourceRel: "learn-agent-basic/04-why-agent-demos-break/index.md"
+rawUrl: "/raw/08-agents/zero2agent/learn-agent-basic/04-why-agent-demos-break/index.md"
+sourceSha256: "e7df5b451f9963fbe77ab0e5a5240202ea5bae4b8c31e2fa12029566916acbe9"
+pageSha256: "e7df5b451f9963fbe77ab0e5a5240202ea5bae4b8c31e2fa12029566916acbe9"
+contentMode: "local-full"
 zh: ""
 ---
 

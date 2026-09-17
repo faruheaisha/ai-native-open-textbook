@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/Shubhamsaboo/awesome-llm-apps"
-entryUrl: "https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/README.md"
+entryUrl: "https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/autonomous_game_playing_agent_apps/ai_chess_agent/README.md"
+sourceRel: "advanced_ai_agents/autonomous_game_playing_agent_apps/ai_chess_agent/README.md"
+rawUrl: "/raw/08-agents/awesome-llm-apps/advanced_ai_agents/autonomous_game_playing_agent_apps/ai_chess_agent/README.md"
+sourceSha256: "cf428c47c81f380aea59183b3d44b44f1660375b605f40746ef2b44943f4f696"
+pageSha256: "cf428c47c81f380aea59183b3d44b44f1660375b605f40746ef2b44943f4f696"
+contentMode: "local-full"
 zh: ""
 ---
 

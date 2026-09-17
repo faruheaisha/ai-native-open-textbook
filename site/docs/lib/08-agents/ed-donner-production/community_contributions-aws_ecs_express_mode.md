@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/ed-donner/production"
-entryUrl: "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/README.md"
+entryUrl: "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/community_contributions/aws_ecs_express_mode.md"
+sourceRel: "community_contributions/aws_ecs_express_mode.md"
+rawUrl: "/raw/08-agents/ed-donner-production/community_contributions/aws_ecs_express_mode.md"
+sourceSha256: "265b85600f34814aad516fade903b79ec9365212e33d63586cdfb1c8eeaee4ad"
+pageSha256: "265b85600f34814aad516fade903b79ec9365212e33d63586cdfb1c8eeaee4ad"
+contentMode: "local-full"
 zh: ""
 ---
 

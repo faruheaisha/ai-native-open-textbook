@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/revfactory/harness"
-entryUrl: "https://github.com/revfactory/harness/blob/cceac68ea1d0ad198ef4b7b906cd238375836387/README.md"
+entryUrl: "https://github.com/revfactory/harness/blob/cceac68ea1d0ad198ef4b7b906cd238375836387/docs/experimental-dependency.md"
+sourceRel: "docs/experimental-dependency.md"
+rawUrl: "/raw/09-harness/meta-skill-harness-revfactory/docs/experimental-dependency.md"
+sourceSha256: "2f288e056fe7ccdb06111557e884d2fc5c113da9df2d0003cdf37d321b3eb496"
+pageSha256: "2f288e056fe7ccdb06111557e884d2fc5c113da9df2d0003cdf37d321b3eb496"
+contentMode: "local-full"
 zh: ""
 ---
 

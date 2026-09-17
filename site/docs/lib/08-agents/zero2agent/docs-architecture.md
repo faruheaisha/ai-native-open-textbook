@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/ranxi2001/zero2Agent"
-entryUrl: "https://github.com/ranxi2001/zero2Agent/blob/46e9f7c28f84f54b2f6e45681d14989f01e18291/README.md"
+entryUrl: "https://github.com/ranxi2001/zero2Agent/blob/46e9f7c28f84f54b2f6e45681d14989f01e18291/docs/architecture/index.md"
+sourceRel: "docs/architecture/index.md"
+rawUrl: "/raw/08-agents/zero2agent/docs/architecture/index.md"
+sourceSha256: "f529297e266a062418e3c421503b9f1cd6433759265993403a8f13d44b869a29"
+pageSha256: "f529297e266a062418e3c421503b9f1cd6433759265993403a8f13d44b869a29"
+contentMode: "local-full"
 zh: ""
 ---
 

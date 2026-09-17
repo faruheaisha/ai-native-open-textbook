@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/lopopolo/harness-engineering"
-entryUrl: "https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/README.md"
+entryUrl: "https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/docs/proof/rustsec.md"
+sourceRel: "docs/proof/rustsec.md"
+rawUrl: "/raw/09-harness/harness-engineering-anthology/docs/proof/rustsec.md"
+sourceSha256: "5e77bc4e4be4591b2242ea36fa0ceee40fe5e23ea3b554dff8f4621ba80c405a"
+pageSha256: "5e77bc4e4be4591b2242ea36fa0ceee40fe5e23ea3b554dff8f4621ba80c405a"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -80,4 +85,4 @@ Snapshot: [`sources/raw/hyperbola/lazy-prompt-rustsec.mdx`].
 [“A Lazy Prompt Turned Into a RustSec Advisory”]:
   https://hyperbo.la/w/lazy-prompt-rustsec/
 [`sources/raw/hyperbola/lazy-prompt-rustsec.mdx`]:
-  https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/sources/raw/hyperbola/lazy-prompt-rustsec.mdx
+  /lib/09-harness/harness-engineering-anthology/sources-raw-hyperbola-lazy-prompt-rustsec

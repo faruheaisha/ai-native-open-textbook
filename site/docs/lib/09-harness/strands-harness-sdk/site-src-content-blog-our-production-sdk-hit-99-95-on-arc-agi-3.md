@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/strands-agents/harness-sdk"
-entryUrl: "https://github.com/strands-agents/harness-sdk/blob/7bda6c70e71cd07279470268c3d3b3f4b36adf53/README.md"
+entryUrl: "https://github.com/strands-agents/harness-sdk/blob/7bda6c70e71cd07279470268c3d3b3f4b36adf53/site/src/content/blog/our-production-sdk-hit-99-95-on-arc-agi-3.mdx"
+sourceRel: "site/src/content/blog/our-production-sdk-hit-99-95-on-arc-agi-3.mdx"
+rawUrl: "/raw/09-harness/strands-harness-sdk/site/src/content/blog/our-production-sdk-hit-99-95-on-arc-agi-3.mdx"
+sourceSha256: "da494601d4f9b636b00666e3c9ea072d0bfd26ecff9ee659a7c7bd666eb63717"
+pageSha256: "da494601d4f9b636b00666e3c9ea072d0bfd26ecff9ee659a7c7bd666eb63717"
+contentMode: "local-full"
 zh: ""
 ---
 

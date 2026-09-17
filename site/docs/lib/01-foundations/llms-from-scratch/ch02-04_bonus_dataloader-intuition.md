@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "01-foundations"
 sourceUrl: "https://github.com/rasbt/LLMs-from-scratch"
-entryUrl: "https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/README.md"
+entryUrl: "https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch02/04_bonus_dataloader-intuition/README.md"
+sourceRel: "ch02/04_bonus_dataloader-intuition/README.md"
+rawUrl: "/raw/01-foundations/llms-from-scratch/ch02/04_bonus_dataloader-intuition/README.md"
+sourceSha256: "debd973e166c8881e24f6caa5f20a6176980203023fe0b8e884275ff8a477e2e"
+pageSha256: "debd973e166c8881e24f6caa5f20a6176980203023fe0b8e884275ff8a477e2e"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -9,6 +9,11 @@ tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/KhazP/vibe-coding-prompt-template"
 entryUrl: "https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/07-coding/vibe-coding-prompt-template/README.md"
+sourceSha256: "97a8c1306842097e97c18f5101aa3a7c4c4308542adc1dc200550d86aab646e1"
+pageSha256: "97a8c1306842097e97c18f5101aa3a7c4c4308542adc1dc200550d86aab646e1"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -129,7 +134,7 @@ This turns the rough idea into a scope you can build against.
 
 This step helps you choose the stack, deployment target, AI provider strategy if the product needs AI, and the verification path.
 
-1. Copy the contents of [`part3-tech-design-mvp.md`](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/part3-tech-design-mvp.md).
+1. Copy the contents of [`part3-tech-design-mvp.md`](/lib/07-coding/vibe-coding-prompt-template/part3-tech-design-mvp).
 2. Paste it into your **ongoing conversation** (or into a new one, making sure to attach the `PRD-[YourAppName]-MVP.md` from Step 2 as context).
 3. The AI will ask questions regarding your budget, timeline, and complexity tolerance.
 4. Discuss the trade-offs it presents, including no-code/full-code, Vercel vs. Cloudflare, and whether AI evals are required.
@@ -154,7 +159,7 @@ This step fills out `AGENTS.md` and the supporting docs from your PRD and tech d
    - `docs/PRD-[YourAppName]-MVP.md`
    - `docs/TechDesign-[YourAppName]-MVP.md`
    - optional: `docs/research-[YourAppName].md` (or `.txt` for backward compatibility)
-5. Open the AI Chat inside your IDE, type: *"Read [`part4-notes-for-agent.md`](https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/part4-notes-for-agent.md), follow its instructions, and set up my workspace."*
+5. Open the AI Chat inside your IDE, type: *"Read [`part4-notes-for-agent.md`](/lib/07-coding/vibe-coding-prompt-template/part4-notes-for-agent), follow its instructions, and set up my workspace."*
 6. The agent should fill the CLI-installed boilerplates (or use the [chat context pack](/lib/07-coding/vibe-coding-prompt-template/docs-context-pack)), generate selected tool configs (`CLAUDE.md`, `.cursor/rules/`, `GEMINI.md`, `.codex/config.toml`, `.agents/skills/`, etc.), and fill placeholders using the files in `docs/`.
 
 Default generated files:

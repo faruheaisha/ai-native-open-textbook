@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/gsd-build/get-shit-done"
-entryUrl: "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/README.md"
+entryUrl: "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/agents/gsd-eval-planner.md"
+sourceRel: "agents/gsd-eval-planner.md"
+rawUrl: "/raw/10-context-memory/get-shit-done/agents/gsd-eval-planner.md"
+sourceSha256: "1c5b3ff7e39395143386c8c0159145c1975d6c1b63b97df95ceb5453bede212d"
+pageSha256: "1c5b3ff7e39395143386c8c0159145c1975d6c1b63b97df95ceb5453bede212d"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -60,8 +65,8 @@ Always include: **safety** (user-facing) and **task completion** (agentic).
 Start from domain rubric ingredients in Section 1b — these are your rubric starting points, not generic dimensions. Fall back to generic `ai-evals.md` dimensions only if Section 1b is sparse.
 
 Format each rubric as:
-> PASS: {specific acceptable behavior in domain language}
-> FAIL: {specific unacceptable behavior in domain language}
+> PASS: \{specific acceptable behavior in domain language\}
+> FAIL: \{specific unacceptable behavior in domain language\}
 > Measurement: Code / LLM Judge / Human
 
 Assign measurement approach per dimension:

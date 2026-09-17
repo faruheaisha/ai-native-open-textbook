@@ -9,6 +9,11 @@ tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh"
 entryUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/07-coding/ai-engineering-from-scratch-zh/README.md"
+sourceSha256: "595327d9fd01df0bac8816419d14113b58f7d8a4e1e1b85a7fab44abea0659ad"
+pageSha256: "595327d9fd01df0bac8816419d14113b58f7d8a4e1e1b85a7fab44abea0659ad"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -49,7 +54,7 @@ zh: ""
 | 🔍 **为 AI 检索优化** | 构建时自动生成 `sitemap.xml` / `llms.txt` / 结构化数据，方便被搜索引擎和 AI 助手引用 |
 | ✅ **课数一致性护栏** | CI 自动校验课程数（`node site/build.js --check`），防止课程列表与磁盘上的实际内容漂移 |
 
-> 翻译怎么翻见 [TRANSLATION.md](https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/TRANSLATION.md)。课程结构、代码与上游保持一致，译文持续跟进上游更新。
+> 翻译怎么翻见 [TRANSLATION.md](/lib/07-coding/ai-engineering-from-scratch-zh/TRANSLATION)。课程结构、代码与上游保持一致，译文持续跟进上游更新。
 
 **目录** · [怎么运作](#怎么运作) · [课程结构](#课程的结构) · [学习路径](https://aieng-zh.cn/learning-paths.html) · [一节课的样子](#一节课的样子) · [快速开始](#快速开始) · [每节课都有产出](#每节课都有产出) · [课程目录](#contents) · [工具箱](#工具箱) · [参与贡献](#参与贡献)
 

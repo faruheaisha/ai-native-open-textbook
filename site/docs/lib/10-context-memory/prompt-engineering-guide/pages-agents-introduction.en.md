@@ -8,13 +8,18 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide"
-entryUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide/blob/57673726396dd94acb23bdb1e67f27c78ee85a8e/README.md"
+entryUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide/blob/57673726396dd94acb23bdb1e67f27c78ee85a8e/pages/agents/introduction.en.mdx"
+sourceRel: "pages/agents/introduction.en.mdx"
+rawUrl: "/raw/10-context-memory/prompt-engineering-guide/pages/agents/introduction.en.mdx"
+sourceSha256: "ae51aeccec0a30c0255ee0a7c967d61a98b4a1fa9027184cc52f538b7f81140b"
+pageSha256: "ae51aeccec0a30c0255ee0a7c967d61a98b4a1fa9027184cc52f538b7f81140b"
+contentMode: "local-full"
 zh: ""
 ---
 
 # Introduction to AI Agents
 
-import { Callout } from 'nextra/components'
+import \{ Callout \} from 'nextra/components'
 
 Agents are revolutionizing the way we approach complex tasks, leveraging the power of large language models (LLMs) to work on our behalf and achieve remarkable results. In this guide we will dive into the fundamentals of AI agents, exploring their capabilities, design patterns, and potential applications. 
 

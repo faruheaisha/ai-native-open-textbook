@@ -1,0 +1,81 @@
+---
+title: "Radar"
+sourceId: "08-agents/agent-systems-handbook"
+sourceTitle: "Agent Systems Handbook（智能体系统手册）"
+sourceKind: "工程手册"
+licenseLabel: "限非商用"
+lang: "英文"
+tier: 1
+volume: "08-agents"
+sourceUrl: "https://github.com/Prompthon-IO/agent-systems-handbook"
+entryUrl: "https://github.com/Prompthon-IO/agent-systems-handbook/blob/5b71cfa598701a34834f33b42be5f8a422138a3c/radar/README.md"
+sourceRel: "radar/README.md"
+rawUrl: "/raw/08-agents/agent-systems-handbook/radar/README.md"
+sourceSha256: "3e5e15a781dbf11c4bfeb5af44197b391024cc7595e963a071e8a48bd901e1f6"
+pageSha256: "3e5e15a781dbf11c4bfeb5af44197b391024cc7595e963a071e8a48bd901e1f6"
+contentMode: "local-full"
+zh: ""
+---
+
+# Radar
+
+This lane is the fast-moving layer for changes in the field that should not be
+forced into evergreen lab chapters too early.
+
+## What belongs here
+
+- Monthly or quarterly market updates
+- New framework and protocol watch items
+- Short notes on launches worth tracking
+- Emerging categories and shifting terminology
+- Curated editor picks and field notes
+
+## Editorial intent
+
+Keep entries short, timely, and easy to update. This is the easiest surface
+for junior contributors and the fastest way for the repository to stay current
+without destabilizing the evergreen structure.
+
+## Current notes
+
+- [June 2026 Agent Runtime Billing Watch](/lib/08-agents/agent-systems-handbook/radar-2026-06-agent-runtime-billing-watch):
+  a current signal on separating local SDK orchestration, managed runtime
+  metering, and authoritative billing surfaces for agent products.
+- [June 2026 Agentic Resource Discovery Watch](/lib/08-agents/agent-systems-handbook/radar-2026-06-agentic-resource-discovery-watch):
+  a current signal on searchable capability registries, `ai-catalog.json`,
+  trust metadata, and discovery-before-execution boundaries for agents.
+- [June 2026 Open Agent Training Environments Watch](/lib/08-agents/agent-systems-handbook/radar-2026-06-open-agent-training-environments-watch):
+  a current signal on OpenEnv, stateful execution environments, and the
+  separation between agent harnesses, environments, and reward loops.
+- [June 2026 Prompt Injection Lockdown Mode Watch](/lib/08-agents/agent-systems-handbook/radar-2026-06-prompt-injection-lockdown-mode-watch):
+  a current signal on Lockdown Mode, elevated-risk assistant surfaces,
+  connector scope, and outbound-network containment for prompt injection.
+- [June 2026 Agent-First Devices Watch](/lib/08-agents/agent-systems-handbook/radar-2026-06-agent-first-devices-watch):
+  a current signal on Project Solara, agent-native runtimes, just-in-time UI,
+  OS-enforced containment, and control-plane governance for local agents.
+- [May 2026 Agentic Shopping Assistant Watch](/lib/08-agents/agent-systems-handbook/radar-2026-05-agentic-shopping-assistant-watch):
+  a current signal on AI assistants moving from search and product comparison
+  into scheduled actions, cart building, cross-device shopping memory, and
+  review-before-checkout boundaries.
+- [April 2026 Cyber Defense Access Policy Watch](/lib/08-agents/agent-systems-handbook/radar-2026-04-cyber-defense-access-policy-watch):
+  a current signal on broad trusted cyber-defense access, gated frontier
+  defensive releases, and access-aware agent runtime boundaries.
+- [April 2026 Assistant Safety Escalation Watch](/lib/08-agents/agent-systems-handbook/radar-2026-04-assistant-safety-escalation-watch):
+  a current signal on credible violence flags, duty-to-report boundaries,
+  repeat policy violators, and audit-ready safety handoffs.
+- [April 2026 Defense Agent Training Loop Watch](/lib/08-agents/agent-systems-handbook/radar-2026-04-defense-agent-training-loop-watch):
+  a current signal on domain-specific field training, simulation-to-deployment
+  loops, and high-risk autonomy boundaries.
+- [April 2026 Portable Assistant Memory Watch](/lib/08-agents/agent-systems-handbook/radar-2026-04-portable-assistant-memory-watch):
+  a time-scoped note on imported personal context, default-on assistant memory,
+  and chat-history transfer as a separate trust boundary from retrieval and
+  durable artifacts.
+- [April 2026 Local Agent Watch](/lib/08-agents/agent-systems-handbook/radar-2026-04-local-agent-watch): a
+  time-scoped note on local agents as a concrete product shape: nearby working
+  environments, reusable skills or integrations, explicit context boundaries,
+  and reviewable artifacts.
+- [April 2026 Interoperability Watch](/lib/08-agents/agent-systems-handbook/radar-2026-04-interoperability-watch):
+  a current field note on how A2A, A2UI, and MCP are separating into different
+  interoperability layers.
+- [Protocol Watch](/lib/08-agents/agent-systems-handbook/radar-2026-04-protocol-watch): a sample time-scoped note on
+  how to track protocol boundaries without collapsing them together.

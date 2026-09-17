@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/luongnv89/claude-howto"
-entryUrl: "https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/README.md"
+entryUrl: "https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/02-memory/README.md"
+sourceRel: "02-memory/README.md"
+rawUrl: "/raw/09-harness/claude-howto/02-memory/README.md"
+sourceSha256: "d633c9dc0321f5c2f45ed1bab85c6ad105d6398ee8877ce6e45bcc768b834abb"
+pageSha256: "d633c9dc0321f5c2f45ed1bab85c6ad105d6398ee8877ce6e45bcc768b834abb"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -400,8 +405,8 @@ paths: src/api/**/*.ts
 
 - `**/*.ts` - All TypeScript files
 - `src/**/*` - All files under src/
-- `src/**/*.{ts,tsx}` - Multiple extensions
-- `{src,lib}/**/*.ts, tests/**/*.test.ts` - Multiple patterns
+- `src/**/*.\{ts,tsx\}` - Multiple extensions
+- `\{src,lib\}/**/*.ts, tests/**/*.test.ts` - Multiple patterns
 
 ### Subdirectories and Symlinks
 
@@ -966,7 +971,7 @@ When it starts growing, move content out rather than trimming prose:
 
 | Content | Where it belongs | Why |
 |---------|------------------|-----|
-| Multi-step procedures | A [skill](../03-skills/) | Loads on demand, only when relevant |
+| Multi-step procedures | A [skill](/lib/09-harness/claude-howto/03-skills) | Loads on demand, only when relevant |
 | Directory- or file-type-specific rules | `.claude/rules/*.md` with `paths:` frontmatter | Scoped by glob; loads only when you touch matching files |
 | Reference material and long examples | A skill's `references/` directory | Read only when the skill needs it |
 | Things Claude should remember about *you* | Auto memory (on by default) | Written and loaded automatically |
@@ -1181,9 +1186,9 @@ Auto Memory is a separate mechanism (`~/.claude/projects/<project>/memory/`), no
 ## Related Concepts Links
 
 ### Integration Points
-- [MCP Protocol](../05-mcp/) - Live data access alongside memory
+- [MCP Protocol](/lib/09-harness/claude-howto/05-mcp) - Live data access alongside memory
 - [Slash Commands](/lib/09-harness/claude-howto/01-slash-commands) - Session-specific shortcuts
-- [Skills](../03-skills/) - Automated workflows with memory context
+- [Skills](/lib/09-harness/claude-howto/03-skills) - Automated workflows with memory context
 
 ### Related Claude Features
 - [Claude Web Memory](https://claude.ai) - Automatic synthesis

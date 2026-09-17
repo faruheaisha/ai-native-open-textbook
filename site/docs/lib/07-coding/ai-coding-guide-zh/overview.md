@@ -9,6 +9,11 @@ tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh"
 entryUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/07-coding/ai-coding-guide-zh/README.md"
+sourceSha256: "91886e5234db956d08b9268a0be5ce6e5e0a2d5c33ea2b7531f68c7859c5e06d"
+pageSha256: "91886e5234db956d08b9268a0be5ce6e5e0a2d5c33ea2b7531f68c7859c5e06d"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -101,18 +106,18 @@ zh: ""
 
 | 序号 | 教程名称 | 难度 | 说明 |
 |------|---------|------|------|
-| OC-00 | [阅读指南](https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/docs/openclaw/00-阅读指南.md) | 🟢 | 术语表、文档地图、4条阅读路线 |
-| OC-01 | [项目介绍](https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/docs/openclaw/01-OpenClaw项目介绍.md) | 🟢 | OpenClaw 是什么、发展历史、核心架构 |
-| OC-02 | [安装部署](https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/docs/openclaw/02-安装部署指南.md) | 🟢 | macOS / Linux / Windows 全平台安装 |
-| OC-03 | [快速开始](https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/docs/openclaw/03-快速开始指南.md) | 🟢 | 完成第一个本地对话和基础检查 |
-| OC-04 | [AI 模型配置](https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/docs/openclaw/04-模型配置指南.md) | 🟡 | 接入 OpenAI / Claude / Ollama 等模型 |
-| OC-05 | [消息平台接入](https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/docs/openclaw/05-消息平台接入指南.md) | 🟡 | 连接 WhatsApp / Telegram / Discord / 飞书等平台 |
-| OC-06 | [技能系统](https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/docs/openclaw/06-技能系统指南.md) | 🟡 | 技能生态与自定义技能开发 |
-| OC-07 | [记忆系统](https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/docs/openclaw/07-记忆系统指南.md) | 🟡 | AI 如何记住你的偏好和上下文 |
-| OC-08 | [多 Agent 协作](https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/docs/openclaw/08-多Agent协作指南.md) | 🔴 | 一个网关跑多个独立 AI 助手 |
-| OC-09 | [Docker 部署](https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/docs/openclaw/09-Docker部署指南.md) | 🔴 | 容器化部署与 VPS 远程访问 |
-| OC-10 | [安全配置](https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/docs/openclaw/10-安全配置指南.md) | 🔴 | 安全配置、CVE 防护、权限管理 |
-| OC-11 | [常见问题](https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/docs/openclaw/11-常见问题FAQ.md) | 🟢 | 踩坑指南与解决方案 |
+| OC-00 | [阅读指南](/lib/07-coding/ai-coding-guide-zh/docs-openclaw-00-阅读指南) | 🟢 | 术语表、文档地图、4条阅读路线 |
+| OC-01 | [项目介绍](/lib/07-coding/ai-coding-guide-zh/docs-openclaw-01-OpenClaw项目介绍) | 🟢 | OpenClaw 是什么、发展历史、核心架构 |
+| OC-02 | [安装部署](/lib/07-coding/ai-coding-guide-zh/docs-openclaw-02-安装部署指南) | 🟢 | macOS / Linux / Windows 全平台安装 |
+| OC-03 | [快速开始](/lib/07-coding/ai-coding-guide-zh/docs-openclaw-03-快速开始指南) | 🟢 | 完成第一个本地对话和基础检查 |
+| OC-04 | [AI 模型配置](/lib/07-coding/ai-coding-guide-zh/docs-openclaw-04-模型配置指南) | 🟡 | 接入 OpenAI / Claude / Ollama 等模型 |
+| OC-05 | [消息平台接入](/lib/07-coding/ai-coding-guide-zh/docs-openclaw-05-消息平台接入指南) | 🟡 | 连接 WhatsApp / Telegram / Discord / 飞书等平台 |
+| OC-06 | [技能系统](/lib/07-coding/ai-coding-guide-zh/docs-openclaw-06-技能系统指南) | 🟡 | 技能生态与自定义技能开发 |
+| OC-07 | [记忆系统](/lib/07-coding/ai-coding-guide-zh/docs-openclaw-07-记忆系统指南) | 🟡 | AI 如何记住你的偏好和上下文 |
+| OC-08 | [多 Agent 协作](/lib/07-coding/ai-coding-guide-zh/docs-openclaw-08-多Agent协作指南/index) | 🔴 | 一个网关跑多个独立 AI 助手 |
+| OC-09 | [Docker 部署](/lib/07-coding/ai-coding-guide-zh/docs-openclaw-09-Docker部署指南) | 🔴 | 容器化部署与 VPS 远程访问 |
+| OC-10 | [安全配置](/lib/07-coding/ai-coding-guide-zh/docs-openclaw-10-安全配置指南) | 🔴 | 安全配置、CVE 防护、权限管理 |
+| OC-11 | [常见问题](/lib/07-coding/ai-coding-guide-zh/docs-openclaw-11-常见问题FAQ/index) | 🟢 | 踩坑指南与解决方案 |
 
 ### 🤖 Part 3：Codex — OpenAI 编程 Agent 平台
 
@@ -127,7 +132,7 @@ WorkBuddy 主线面向**办公人和国内团队**：会用电脑但不会命令
 
 | 序号 | 教程名称 | 学时 | 难度 | 说明 |
 |------|---------|------|------|------|
-| WB-00 | [阅读指南](https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/docs/workbuddy/WB-00-阅读指南.md) | 5 分钟 | 🟢 | 五大核心概念、文档地图、阅读路线 |
+| WB-00 | [阅读指南](/lib/07-coding/ai-coding-guide-zh/docs-workbuddy-WB-00-阅读指南) | 5 分钟 | 🟢 | 五大核心概念、文档地图、阅读路线 |
 
 ---
 
@@ -276,8 +281,8 @@ Week 14：WorkBuddy 技能 + 连接器 + 知识库 + 自动化 + 多端 + 企业
 
 | 产品 | 支持方式 | 配置入口 |
 |------|---------|---------|
-| **Claude Code** | Anthropic Console / Claude 订阅 / 第三方兼容提供商（`ANTHROPIC_BASE_URL`） | [01-安装指南：API中转站配置](/lib/07-coding/ai-coding-guide-zh/docs-claude-code-01-Claude-Code完整安装指南) |
-| **OpenClaw** | 多个主流提供商（OpenAI / Claude / Gemini / Ollama / 本地模型等，实际以当前模型目录为准） | [04-模型配置指南](https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/docs/openclaw/04-模型配置指南.md) |
+| **Claude Code** | Anthropic Console / Claude 订阅 / 第三方兼容提供商（`ANTHROPIC_BASE_URL`） | [01-安装指南：API中转站配置](/lib/07-coding/ai-coding-guide-zh/docs-claude-code-01-Claude-Code完整安装指南/index) |
+| **OpenClaw** | 多个主流提供商（OpenAI / Claude / Gemini / Ollama / 本地模型等，实际以当前模型目录为准） | [04-模型配置指南](/lib/07-coding/ai-coding-guide-zh/docs-openclaw-04-模型配置指南) |
 | **Codex** | ChatGPT 账户登录 / OpenAI API Key | [CX-01 App 安装与认证](/lib/07-coding/ai-coding-guide-zh/docs-codex-CX-01-Codex-App安装与认证完整指南) |
 
 > ⚠️ **第三方模型注意事项**：

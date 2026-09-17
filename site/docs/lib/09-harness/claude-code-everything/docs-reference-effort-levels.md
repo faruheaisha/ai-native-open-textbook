@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know"
-entryUrl: "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/README.md"
+entryUrl: "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/docs/reference/effort-levels.md"
+sourceRel: "docs/reference/effort-levels.md"
+rawUrl: "/raw/09-harness/claude-code-everything/docs/reference/effort-levels.md"
+sourceSha256: "903585e08800a02f64f314fc5e6aa0b2e40686821fe3b543ae375915d40e2e79"
+pageSha256: "903585e08800a02f64f314fc5e6aa0b2e40686821fe3b543ae375915d40e2e79"
+contentMode: "local-full"
 zh: ""
 ---
 

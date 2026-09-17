@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/KhazP/vibe-coding-prompt-template"
-entryUrl: "https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/README.md"
+entryUrl: "https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/examples/reddit-to-ai/MEMORY.md"
+sourceRel: "examples/reddit-to-ai/MEMORY.md"
+rawUrl: "/raw/07-coding/vibe-coding-prompt-template/examples/reddit-to-ai/MEMORY.md"
+sourceSha256: "f667965be2f954be9e02303eb5652a800a5305cac1be101d0f4322c5c318b339"
+pageSha256: "f667965be2f954be9e02303eb5652a800a5305cac1be101d0f4322c5c318b339"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -37,6 +42,6 @@ zh: ""
 - [x] Initial scaffold (Manifest V3 skeleton + load-unpacked workflow)
 - [x] Storage setup (`chrome.storage` settings) and npm lint/test scripts
 - [x] Smart thread scraping + quick filters (hide bots, minimum score)
-- [x] Prompt presets + `{content}` custom templates
+- [x] Prompt presets + `\{content\}` custom templates
 - [ ] Preview screen with context-size meter (in progress)
 - [ ] Send-to-AI auto-paste + fallback overlay

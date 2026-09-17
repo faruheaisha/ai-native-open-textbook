@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/lopopolo/harness-engineering"
-entryUrl: "https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/README.md"
+entryUrl: "https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/docs/domain-modeling/implementations.md"
+sourceRel: "docs/domain-modeling/implementations.md"
+rawUrl: "/raw/09-harness/harness-engineering-anthology/docs/domain-modeling/implementations.md"
+sourceSha256: "422731ed67999cd8f690795a0d29a7206ee0da5661e16043838b63ca899bf7b8"
+pageSha256: "422731ed67999cd8f690795a0d29a7206ee0da5661e16043838b63ca899bf7b8"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -51,7 +56,7 @@ harder question: whether a harness can help an agent preserve future attainment
 while many independently merged changes move the repository toward the seam.
 
 [Capability and migration seams]: /lib/09-harness/harness-engineering-anthology/docs-lineage#capability-and-migration-seams
-[The state-model evaluation]: https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/evals/artichoke-state-modeling.md
+[The state-model evaluation]: /lib/09-harness/harness-engineering-anthology/evals-artichoke-state-modeling
 
 ## `rand_mt`: repository shape as operating context
 
@@ -72,4 +77,4 @@ in the initial prompt. The [source library] indexes the repository documents,
 rollout history, and later adaptations.
 
 [`artichoke/rand_mt`]: https://github.com/artichoke/rand_mt
-[source library]: https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/sources/README.md#projects-and-cases
+[source library]: /lib/09-harness/harness-engineering-anthology/sources#projects-and-cases

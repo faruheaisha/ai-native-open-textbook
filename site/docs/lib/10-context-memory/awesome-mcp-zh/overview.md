@@ -9,6 +9,11 @@ tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/yzfly/Awesome-MCP-ZH"
 entryUrl: "https://github.com/yzfly/Awesome-MCP-ZH/blob/616590af2bc94fcd98dd0b88a0b740ad6cb86a9d/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/10-context-memory/awesome-mcp-zh/README.md"
+sourceSha256: "73e5ef22588c15c89e4054f9b936db2d26eb5f0ef513473dbe02f5c5f889de1d"
+pageSha256: "73e5ef22588c15c89e4054f9b936db2d26eb5f0ef513473dbe02f5c5f889de1d"
+contentMode: "local-full"
 zh: ""
 ---
 

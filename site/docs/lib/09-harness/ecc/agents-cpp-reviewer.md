@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/affaan-m/ECC"
-entryUrl: "https://github.com/affaan-m/ECC/blob/928c1dea72f5c330442fc1f595563398b8f389f7/README.md"
+entryUrl: "https://github.com/affaan-m/ECC/blob/928c1dea72f5c330442fc1f595563398b8f389f7/agents/cpp-reviewer.md"
+sourceRel: "agents/cpp-reviewer.md"
+rawUrl: "/raw/09-harness/ecc/agents/cpp-reviewer.md"
+sourceSha256: "c34ee3291505ea66d4330268babbd9cbc899e32b7869ca71cca1690b4ce3cf22"
+pageSha256: "c34ee3291505ea66d4330268babbd9cbc899e32b7869ca71cca1690b4ce3cf22"
+contentMode: "local-full"
 zh: ""
 ---
 

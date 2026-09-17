@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/microsoft/AI-Engineering-Coach"
-entryUrl: "https://github.com/microsoft/AI-Engineering-Coach/blob/18b1a3d16b586c171426c6a407cc5c2dc073556e/README.md"
+entryUrl: "https://github.com/microsoft/AI-Engineering-Coach/blob/18b1a3d16b586c171426c6a407cc5c2dc073556e/docs/content/improve/data-explorer.md"
+sourceRel: "docs/content/improve/data-explorer.md"
+rawUrl: "/raw/08-agents/microsoft-ai-engineering-coach/docs/content/improve/data-explorer.md"
+sourceSha256: "c937f17190f5df829a911488b4585a64e4c788c10e72c6b34986df71ebac3f75"
+pageSha256: "c937f17190f5df829a911488b4585a64e4c788c10e72c6b34986df71ebac3f75"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -9,32 +9,226 @@ licenseLabel: "可转载"
 lang: "英文"
 volume: "09-harness"
 sourceUrl: "https://github.com/walkinglabs/learn-harness-engineering"
-entryUrl: "https://github.com/walkinglabs/learn-harness-engineering/blob/77e7a3e21469dcbece2558086c8d91657abeaa40/README.md"
+entryUrl: "https://github.com/walkinglabs/learn-harness-engineering/blob/77e7a3e21469dcbece2558086c8d91657abeaa40/docs/zh/index.md"
+sourceRel: ""
+contentMode: "local-full"
 zh: ""
 ---
 
 # Learn Harness Engineering
 
-**Frontier Harness Design Breakdowns — new section (4 breakdowns)**
+Learn Harness Engineering 是一门专注于 AI 编程智能体工程化落地的课程。本课程深度研究并总结了业内最前沿的 Harness Engineering（工具马具/脚手架工程）理论与实践，参考资料包括：
+- [OpenAI: Harness engineering: leveraging Codex in an agent-first world](https://openai.com/index/harness-engineering/)
+- [Anthropic: Effective harnesses for long-running…
 
 ## 课时
 
-1. [拆解 Claude Code 的 harness 设计](docs-zh-harness-designs-claude-code.md)
-2. [拆解 Codex 的 harness 设计](docs-zh-harness-designs-codex.md)
-3. [拆解 DeepSeek Harness 的设计](docs-zh-harness-designs-deepseek.md)
-4. [前沿 Harness 拆解](docs-zh-harness-designs.md)
-5. [拆解 Pi 的 harness 设计](docs-zh-harness-designs-pi.md)
-6. [失败信号检查清单](docs-zh-lectures-lecture-01-why-capable-agents-still-fail-code-failure-signals-checklist.md)
-7. [规格不足的任务示例](docs-zh-lectures-lecture-01-why-capable-agents-still-fail-code-underspecified-task.md)
-8. [第一讲. 模型能力强，不等于执行可靠](docs-zh-lectures-lecture-01-why-capable-agents-still-fail.md)
-9. [Harness 组件示例](docs-zh-lectures-lecture-02-what-a-harness-actually-is-code-harness-components.md)
-10. [第二讲. Harness 到底是什么](docs-zh-lectures-lecture-02-what-a-harness-actually-is.md)
-11. [系统记录检查清单](docs-zh-lectures-lecture-03-why-the-repository-must-become-the-system-of-record-code-system-of-record-checklist.md)
-12. [第三讲. 让代码仓库成为唯一的事实来源](docs-zh-lectures-lecture-03-why-the-repository-must-become-the-system-of-record.md)
-13. [AGENTS.md](docs-zh-lectures-lecture-04-why-one-giant-instruction-file-fails-code-AGENTS-short.md)
-14. [指令文件反模式](docs-zh-lectures-lecture-04-why-one-giant-instruction-file-fails-code-anti-patterns.md)
-15. [第四讲. 把指令拆分到不同文件里](docs-zh-lectures-lecture-04-why-one-giant-instruction-file-fails.md)
-16. [连续性检查清单](docs-zh-lectures-lecture-05-why-long-running-tasks-lose-continuity-code-continuity-checklist.md)
-17. [会话交接示例](docs-zh-lectures-lecture-05-why-long-running-tasks-lose-continuity-code-session-handoff.md)
+- **🆕 What's New — August 2026**
+  - [Frontier Harness Design Breakdowns](/lib/09-harness/learn-harness-engineering/docs-zh-harness-designs.md)
+  - [How Pi builds its harness](/lib/09-harness/learn-harness-engineering/docs-zh-harness-designs-pi.md)
+  - [How Claude Code builds its harness](/lib/09-harness/learn-harness-engineering/docs-zh-harness-designs-claude-code.md)
+  - [How Codex builds its harness](/lib/09-harness/learn-harness-engineering/docs-zh-harness-designs-codex.md)
+  - [How DeepSeek builds its harness](/lib/09-harness/learn-harness-engineering/docs-zh-harness-designs-deepseek.md)
+  - [From Single Loops to Graph Engineering](/lib/09-harness/learn-harness-engineering/docs-zh-lectures-lecture-14-graph-engineering.md)
+  - [Draw Your Workflow as a Graph](/lib/09-harness/learn-harness-engineering/docs-zh-projects-project-08-graph-engineering-first-graph.md)
+- **🆕 What's New — July 2026**
+  - [Why You Need to Stop Prompting Your Agent](/lib/09-harness/learn-harness-engineering/docs-zh-lectures-lecture-13-loop-engineering.md)
+  - [Build Your First Automated Loop](/lib/09-harness/learn-harness-engineering/docs-zh-projects-project-07-loop-engineering-first-loop.md)
+  - [skills/harness-creator/](/lib/09-harness/learn-harness-engineering/skills-harness-creator.md)
+- **Syllabus**
+  - **Lectures — 14 conceptual units, each answering one core question**
+    - [L01](/lib/09-harness/learn-harness-engineering/docs-zh-lectures-lecture-01-why-capable-agents-still-fail.md)
+    - [L02](/lib/09-harness/learn-harness-engineering/docs-zh-lectures-lecture-02-what-a-harness-actually-is.md)
+    - [L03](/lib/09-harness/learn-harness-engineering/docs-zh-lectures-lecture-03-why-the-repository-must-become-the-system-of-record.md)
+    - [L04](/lib/09-harness/learn-harness-engineering/docs-zh-lectures-lecture-04-why-one-giant-instruction-file-fails.md)
+    - [L05](/lib/09-harness/learn-harness-engineering/docs-zh-lectures-lecture-05-why-long-running-tasks-lose-continuity.md)
+    - [L06](/lib/09-harness/learn-harness-engineering/docs-zh-lectures-lecture-06-why-initialization-needs-its-own-phase.md)
+    - [L07](/lib/09-harness/learn-harness-engineering/docs-zh-lectures-lecture-07-why-agents-overreach-and-under-finish.md)
+    - [L08](/lib/09-harness/learn-harness-engineering/docs-zh-lectures-lecture-08-why-feature-lists-are-harness-primitives.md)
+    - [L09](/lib/09-harness/learn-harness-engineering/docs-zh-lectures-lecture-09-why-agents-declare-victory-too-early.md)
+    - [L10](/lib/09-harness/learn-harness-engineering/docs-zh-lectures-lecture-10-why-end-to-end-testing-changes-results.md)
+    - [L11](/lib/09-harness/learn-harness-engineering/docs-zh-lectures-lecture-11-why-observability-belongs-inside-the-harness.md)
+    - [L12](/lib/09-harness/learn-harness-engineering/docs-zh-lectures-lecture-12-why-every-session-must-leave-a-clean-state.md)
+  - **Projects — 8 hands-on projects applying lecture methods to the same Electron app**
+    - [P01](/lib/09-harness/learn-harness-engineering/docs-zh-projects-project-01-baseline-vs-minimal-harness.md)
+    - [P02](/lib/09-harness/learn-harness-engineering/docs-zh-projects-project-02-agent-readable-workspace.md)
+    - [P03](/lib/09-harness/learn-harness-engineering/docs-zh-projects-project-03-multi-session-continuity.md)
+    - [P04](/lib/09-harness/learn-harness-engineering/docs-zh-projects-project-04-incremental-indexing.md)
+    - [P05](/lib/09-harness/learn-harness-engineering/docs-zh-projects-project-05-grounded-qa-verification.md)
+    - [P06](/lib/09-harness/learn-harness-engineering/docs-zh-projects-project-06-runtime-observability-and-debugging.md)
+- **Core References**
+  - [docs/en/resources/reference/](/lib/09-harness/learn-harness-engineering/docs-zh-resources-reference.md)
+- **文档**
+  - **zh**
+    - **lectures**
+      - **lecture-01-why-capable-agents-still-fail**
+        - **code**
+          - [失败信号检查清单](/lib/09-harness/learn-harness-engineering/docs-zh-lectures-lecture-01-why-capable-agents-still-fail-code-failure-signals-checklist.md)
+          - [规格不足的任务示例](/lib/09-harness/learn-harness-engineering/docs-zh-lectures-lecture-01-why-capable-agents-still-fail-code-underspecified-task.md)
+      - **lecture-02-what-a-harness-actually-is**
+        - **code**
+          - [Harness 组件示例](/lib/09-harness/learn-harness-engineering/docs-zh-lectures-lecture-02-what-a-harness-actually-is-code-harness-components.md)
+      - **lecture-03-why-the-repository-must-become-the-system-of-record**
+        - **code**
+          - [系统记录检查清单](/lib/09-harness/learn-harness-engineering/docs-zh-lectures-lecture-03-why-the-repository-must-become-the-system-of-record-code-system-of-record-checklist.md)
+      - **lecture-04-why-one-giant-instruction-file-fails**
+        - **code**
+          - [指令文件反模式](/lib/09-harness/learn-harness-engineering/docs-zh-lectures-lecture-04-why-one-giant-instruction-file-fails-code-anti-patterns.md)
+      - **lecture-05-why-long-running-tasks-lose-continuity**
+        - **code**
+          - [连续性检查清单](/lib/09-harness/learn-harness-engineering/docs-zh-lectures-lecture-05-why-long-running-tasks-lose-continuity-code-continuity-checklist.md)
+          - [会话交接示例](/lib/09-harness/learn-harness-engineering/docs-zh-lectures-lecture-05-why-long-running-tasks-lose-continuity-code-session-handoff.md)
+      - **lecture-06-why-initialization-needs-its-own-phase**
+        - **code**
+          - [初始化器输出检查清单](/lib/09-harness/learn-harness-engineering/docs-zh-lectures-lecture-06-why-initialization-needs-its-own-phase-code-initializer-output-checklist.md)
+      - **lecture-07-why-agents-overreach-and-under-finish**
+        - **code**
+          - [范围界定示例](/lib/09-harness/learn-harness-engineering/docs-zh-lectures-lecture-07-why-agents-overreach-and-under-finish-code-scope-surface-example.md)
+      - **lecture-08-why-feature-lists-are-harness-primitives**
+        - **code**
+          - [通过门控策略](/lib/09-harness/learn-harness-engineering/docs-zh-lectures-lecture-08-why-feature-lists-are-harness-primitives-code-pass-gate-policy.md)
+      - **lecture-09-why-agents-declare-victory-too-early**
+        - **code**
+          - [干净状态检查清单](/lib/09-harness/learn-harness-engineering/docs-zh-lectures-lecture-09-why-agents-declare-victory-too-early-code-clean-state-checklist.md)
+      - **lecture-10-why-end-to-end-testing-changes-results**
+        - **code**
+          - [Electron 架构规则](/lib/09-harness/learn-harness-engineering/docs-zh-lectures-lecture-10-why-end-to-end-testing-changes-results-code-architecture-rules.md)
+          - [示例：将审查反馈转化为规则](/lib/09-harness/learn-harness-engineering/docs-zh-lectures-lecture-10-why-end-to-end-testing-changes-results-code-review-feedback-to-rule.md)
+      - **lecture-11-why-observability-belongs-inside-the-harness**
+        - **code**
+          - [评估者评分标准示例](/lib/09-harness/learn-harness-engineering/docs-zh-lectures-lecture-11-why-observability-belongs-inside-the-harness-code-evaluator-rubric.md)
+          - [Sprint 契约示例](/lib/09-harness/learn-harness-engineering/docs-zh-lectures-lecture-11-why-observability-belongs-inside-the-harness-code-sprint-contract.md)
+      - **lecture-12-why-every-session-must-leave-a-clean-state**
+        - **code**
+          - [基准对比模板](/lib/09-harness/learn-harness-engineering/docs-zh-lectures-lecture-12-why-every-session-must-leave-a-clean-state-code-benchmark-comparison-template.md)
+      - **lecture-13-loop-engineering**
+        - [第 13 讲代码](/lib/09-harness/learn-harness-engineering/docs-zh-lectures-lecture-13-loop-engineering-code.md)
+          - [Checker Agent Prompt（检查者）](/lib/09-harness/learn-harness-engineering/docs-zh-lectures-lecture-13-loop-engineering-code-checker-prompt.md)
+          - [Goal Loop 目标描述模板](/lib/09-harness/learn-harness-engineering/docs-zh-lectures-lecture-13-loop-engineering-code-goal-template.md)
+          - [Loop State 循环状态模板](/lib/09-harness/learn-harness-engineering/docs-zh-lectures-lecture-13-loop-engineering-code-loop-state-template.md)
+          - [Maker Agent Prompt（制作者）](/lib/09-harness/learn-harness-engineering/docs-zh-lectures-lecture-13-loop-engineering-code-maker-prompt.md)
+      - **lecture-14-graph-engineering**
+        - [第 14 讲代码](/lib/09-harness/learn-harness-engineering/docs-zh-lectures-lecture-14-graph-engineering-code.md)
+    - [欢迎来到项目实战](/lib/09-harness/learn-harness-engineering/docs-zh-projects.md)
+    - [中文资料库](/lib/09-harness/learn-harness-engineering/docs-zh-resources.md)
+      - [OpenAI 高级资源包](/lib/09-harness/learn-harness-engineering/docs-zh-resources-openai-advanced.md)
+        - [高级仓库模板](/lib/09-harness/learn-harness-engineering/docs-zh-resources-openai-advanced-repo-template.md)
+          - [ARCHITECTURE.md](/lib/09-harness/learn-harness-engineering/docs-zh-resources-openai-advanced-repo-template-ARCHITECTURE.md)
+          - **文档**
+            - [DESIGN.md](/lib/09-harness/learn-harness-engineering/docs-zh-resources-openai-advanced-repo-template-docs-DESIGN.md)
+            - [FRONTEND.md](/lib/09-harness/learn-harness-engineering/docs-zh-resources-openai-advanced-repo-template-docs-FRONTEND.md)
+            - [PLANS.md](/lib/09-harness/learn-harness-engineering/docs-zh-resources-openai-advanced-repo-template-docs-PLANS.md)
+            - [PRODUCTSENSE.md](/lib/09-harness/learn-harness-engineering/docs-zh-resources-openai-advanced-repo-template-docs-PRODUCT_SENSE.md)
+            - [QUALITYSCORE.md](/lib/09-harness/learn-harness-engineering/docs-zh-resources-openai-advanced-repo-template-docs-QUALITY_SCORE.md)
+            - [RELIABILITY.md](/lib/09-harness/learn-harness-engineering/docs-zh-resources-openai-advanced-repo-template-docs-RELIABILITY.md)
+            - [设计文档索引](/lib/09-harness/learn-harness-engineering/docs-zh-resources-openai-advanced-repo-template-docs-design-docs.md)
+              - [核心信念](/lib/09-harness/learn-harness-engineering/docs-zh-resources-openai-advanced-repo-template-docs-design-docs-core-beliefs.md)
+            - **exec-plans**
+              - [技术债跟踪](/lib/09-harness/learn-harness-engineering/docs-zh-resources-openai-advanced-repo-template-docs-exec-plans-tech-debt-tracker.md)
+              - [当前执行计划](/lib/09-harness/learn-harness-engineering/docs-zh-resources-openai-advanced-repo-template-docs-exec-plans-active.md)
+              - [已完成计划](/lib/09-harness/learn-harness-engineering/docs-zh-resources-openai-advanced-repo-template-docs-exec-plans-completed.md)
+            - **generated**
+              - [数据库结构](/lib/09-harness/learn-harness-engineering/docs-zh-resources-openai-advanced-repo-template-docs-generated-db-schema.md)
+            - [产品规格索引](/lib/09-harness/learn-harness-engineering/docs-zh-resources-openai-advanced-repo-template-docs-product-specs.md)
+              - [新用户引导](/lib/09-harness/learn-harness-engineering/docs-zh-resources-openai-advanced-repo-template-docs-product-specs-new-user-onboarding.md)
+        - [OpenAI 高级 SOP](/lib/09-harness/learn-harness-engineering/docs-zh-resources-openai-advanced-sops.md)
+          - [SOP：Chrome DevTools 验证闭环](/lib/09-harness/learn-harness-engineering/docs-zh-resources-openai-advanced-sops-chrome-devtools-validation-loop.md)
+          - [SOP：把不可见知识编码进仓库](/lib/09-harness/learn-harness-engineering/docs-zh-resources-openai-advanced-sops-encode-knowledge-into-repo.md)
+          - [SOP：分层领域架构](/lib/09-harness/learn-harness-engineering/docs-zh-resources-openai-advanced-sops-layered-domain-architecture.md)
+          - [SOP：可观测性反馈闭环](/lib/09-harness/learn-harness-engineering/docs-zh-resources-openai-advanced-sops-observability-feedback-loop.md)
+      - **reference**
+        - [编码代理开工流程](/lib/09-harness/learn-harness-engineering/docs-zh-resources-reference-coding-agent-startup-flow.md)
+        - [初始化代理操作手册](/lib/09-harness/learn-harness-engineering/docs-zh-resources-reference-initializer-agent-playbook.md)
+        - [方法对照表](/lib/09-harness/learn-harness-engineering/docs-zh-resources-reference-method-map.md)
+        - [Prompt 校准](/lib/09-harness/learn-harness-engineering/docs-zh-resources-reference-prompt-calibration.md)
+      - [模板使用指南](/lib/09-harness/learn-harness-engineering/docs-zh-resources-templates.md)
+        - [进度日志](/lib/09-harness/learn-harness-engineering/docs-zh-resources-templates-claude-progress.md)
+        - [干净状态检查清单](/lib/09-harness/learn-harness-engineering/docs-zh-resources-templates-clean-state-checklist.md)
+        - [评审评分表](/lib/09-harness/learn-harness-engineering/docs-zh-resources-templates-evaluator-rubric.md)
+        - [质量文档](/lib/09-harness/learn-harness-engineering/docs-zh-resources-templates-quality-document.md)
+        - [会话交接](/lib/09-harness/learn-harness-engineering/docs-zh-resources-templates-session-handoff.md)
+    - [Skills（技能集）](/lib/09-harness/learn-harness-engineering/docs-zh-skills.md)
+- **动手项目**
+  - [Project 01: Baseline vs Minimal Harness](/lib/09-harness/learn-harness-engineering/projects-project-01.md)
+    - [Project 01: Baseline vs Minimal Harness](/lib/09-harness/learn-harness-engineering/projects-project-01-README-CN.md)
+    - **solution**
+      - [claude-progress.md -- Session Log](/lib/09-harness/learn-harness-engineering/projects-project-01-solution-claude-progress.md)
+    - **starter**
+      - [Task](/lib/09-harness/learn-harness-engineering/projects-project-01-starter-task-prompt.md)
+  - [Project 02: Agent-Readable Workspace](/lib/09-harness/learn-harness-engineering/projects-project-02.md)
+    - [Project 02: Agent-Readable Workspace](/lib/09-harness/learn-harness-engineering/projects-project-02-README-CN.md)
+    - **solution**
+      - [Session Handoff -- Project 02](/lib/09-harness/learn-harness-engineering/projects-project-02-solution-session-handoff.md)
+  - [Project 03: Multi-Session Continuity with Scope Control](/lib/09-harness/learn-harness-engineering/projects-project-03.md)
+    - [Project 03: Multi-Session Continuity with Scope Control](/lib/09-harness/learn-harness-engineering/projects-project-03-README-CN.md)
+    - **solution**
+      - [Claude Progress -- Project 03](/lib/09-harness/learn-harness-engineering/projects-project-03-solution-claude-progress.md)
+      - [Clean State Checklist -- Project 03](/lib/09-harness/learn-harness-engineering/projects-project-03-solution-clean-state-checklist.md)
+      - [Session Handoff -- Project 03](/lib/09-harness/learn-harness-engineering/projects-project-03-solution-session-handoff.md)
+      - **文档**
+        - [Architecture -- Knowledge Base Electron App](/lib/09-harness/learn-harness-engineering/projects-project-03-solution-docs-ARCHITECTURE.md)
+        - [Product Description -- Knowledge Base](/lib/09-harness/learn-harness-engineering/projects-project-03-solution-docs-PRODUCT.md)
+  - [Project 04: Runtime Feedback and Structural Control](/lib/09-harness/learn-harness-engineering/projects-project-04.md)
+    - [Project 04: Runtime Feedback and Structural Control](/lib/09-harness/learn-harness-engineering/projects-project-04-README-CN.md)
+    - **solution**
+      - [Clean State Checklist](/lib/09-harness/learn-harness-engineering/projects-project-04-solution-clean-state-checklist.md)
+  - [Project 05: Evaluator Loops and Three-Role Upgrades](/lib/09-harness/learn-harness-engineering/projects-project-05.md)
+    - [Project 05: Evaluator Loops and Three-Role Upgrades](/lib/09-harness/learn-harness-engineering/projects-project-05-README-CN.md)
+    - **solution**
+      - **gen-eval**
+        - [Clean State Checklist](/lib/09-harness/learn-harness-engineering/projects-project-05-solution-gen-eval-clean-state-checklist.md)
+        - [Evaluator Rubric - Generator + Evaluator Variant](/lib/09-harness/learn-harness-engineering/projects-project-05-solution-gen-eval-evaluator-rubric.md)
+      - **plan-gen-eval**
+        - [Clean State Checklist](/lib/09-harness/learn-harness-engineering/projects-project-05-solution-plan-gen-eval-clean-state-checklist.md)
+        - [Evaluator Rubric - Planner + Generator + Evaluator Variant](/lib/09-harness/learn-harness-engineering/projects-project-05-solution-plan-gen-eval-evaluator-rubric.md)
+        - [Sprint Contract - ConversationHistory Feature](/lib/09-harness/learn-harness-engineering/projects-project-05-solution-plan-gen-eval-sprint-contract.md)
+      - **single-role**
+        - [Evaluator Rubric - Single Role Variant](/lib/09-harness/learn-harness-engineering/projects-project-05-solution-single-role-evaluator-rubric.md)
+    - **starter**
+      - [Clean State Checklist](/lib/09-harness/learn-harness-engineering/projects-project-05-starter-clean-state-checklist.md)
+  - [Project 06: Runtime Observability and Debugging (Capstone)](/lib/09-harness/learn-harness-engineering/projects-project-06.md)
+    - [Project 06: Runtime Observability and Debugging (Capstone)](/lib/09-harness/learn-harness-engineering/projects-project-06-README-CN.md)
+    - **solution**
+      - [claude-progress.md -- Session Log](/lib/09-harness/learn-harness-engineering/projects-project-06-solution-claude-progress.md)
+      - [Clean State Checklist](/lib/09-harness/learn-harness-engineering/projects-project-06-solution-clean-state-checklist.md)
+      - [Evaluator Rubric -- Project 06 Capstone](/lib/09-harness/learn-harness-engineering/projects-project-06-solution-evaluator-rubric.md)
+      - [Quality Document -- Project 06 Capstone](/lib/09-harness/learn-harness-engineering/projects-project-06-solution-quality-document.md)
+      - [Session Handoff -- Project 06 Capstone](/lib/09-harness/learn-harness-engineering/projects-project-06-solution-session-handoff.md)
+      - **data**
+        - **sample-documents**
+          - [Software Design Notes](/lib/09-harness/learn-harness-engineering/projects-project-06-solution-data-sample-documents-design-notes.md)
+          - [Retrieval Plan](/lib/09-harness/learn-harness-engineering/projects-project-06-solution-data-sample-documents-retrieval-plan.md)
+      - **文档**
+        - [Architecture -- Knowledge Base Electron App (Capstone)](/lib/09-harness/learn-harness-engineering/projects-project-06-solution-docs-ARCHITECTURE.md)
+        - [Product Description -- Knowledge Base (Capstone)](/lib/09-harness/learn-harness-engineering/projects-project-06-solution-docs-PRODUCT.md)
+        - [Reliability -- Observability, Clean State, and Benchmarking](/lib/09-harness/learn-harness-engineering/projects-project-06-solution-docs-RELIABILITY.md)
+    - **starter**
+      - [Quality Document -- Project 06 Capstone](/lib/09-harness/learn-harness-engineering/projects-project-06-starter-quality-document.md)
+      - **data**
+        - **sample-documents**
+          - [Software Design Notes](/lib/09-harness/learn-harness-engineering/projects-project-06-starter-data-sample-documents-design-notes.md)
+          - [Retrieval Plan](/lib/09-harness/learn-harness-engineering/projects-project-06-starter-data-sample-documents-retrieval-plan.md)
+  - **shared**
+    - **data**
+      - **sample-documents**
+        - [Software Design Notes](/lib/09-harness/learn-harness-engineering/projects-shared-data-sample-documents-design-notes.md)
+        - [Retrieval Plan](/lib/09-harness/learn-harness-engineering/projects-shared-data-sample-documents-retrieval-plan.md)
+- [Skills](/lib/09-harness/learn-harness-engineering/skills.md)
+  - [Skills（技能集）](/lib/09-harness/learn-harness-engineering/skills-README-CN.md)
+  - [Skills（技能集）](/lib/09-harness/learn-harness-engineering/skills-README-ZH-TW.md)
+  - **harness-creator**
+    - [Harness Creator](/lib/09-harness/learn-harness-engineering/skills-harness-creator-SKILL.md)
+    - **references**
+      - [Context Engineering Pattern](/lib/09-harness/learn-harness-engineering/skills-harness-creator-references-context-engineering-pattern.md)
+      - [Gotchas — Harness Engineering Failure Modes](/lib/09-harness/learn-harness-engineering/skills-harness-creator-references-gotchas.md)
+      - [Lifecycle and Bootstrap Pattern](/lib/09-harness/learn-harness-engineering/skills-harness-creator-references-lifecycle-bootstrap-pattern.md)
+      - [Memory and Persistence Pattern](/lib/09-harness/learn-harness-engineering/skills-harness-creator-references-memory-persistence-pattern.md)
+      - [Multi-Agent Coordination Pattern](/lib/09-harness/learn-harness-engineering/skills-harness-creator-references-multi-agent-pattern.md)
+      - [Skill Runtime Pattern](/lib/09-harness/learn-harness-engineering/skills-harness-creator-references-skill-runtime-pattern.md)
+      - [Tool Registry and Safety Pattern](/lib/09-harness/learn-harness-engineering/skills-harness-creator-references-tool-registry-pattern.md)
+    - **templates**
+      - [{{AGENTFILENAME}}](/lib/09-harness/learn-harness-engineering/skills-harness-creator-templates-agents.md)
+      - [Session Progress Log](/lib/09-harness/learn-harness-engineering/skills-harness-creator-templates-progress.md)
+      - [Session Handoff](/lib/09-harness/learn-harness-engineering/skills-harness-creator-templates-session-handoff.md)
 
 开始学习 → [拆解 Claude Code 的 harness 设计](docs-zh-harness-designs-claude-code.md)

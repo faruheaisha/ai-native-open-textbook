@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/luongnv89/claude-howto"
-entryUrl: "https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/README.md"
+entryUrl: "https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/01-slash-commands/generate-api-docs.md"
+sourceRel: "01-slash-commands/generate-api-docs.md"
+rawUrl: "/raw/09-harness/claude-howto/01-slash-commands/generate-api-docs.md"
+sourceSha256: "b7068f984fdfaf3d16865b50157922151f5b8e520d927cdbe9ffaef25ef5a960"
+pageSha256: "b7068f984fdfaf3d16865b50157922151f5b8e520d927cdbe9ffaef25ef5a960"
+contentMode: "local-full"
 zh: ""
 ---
 

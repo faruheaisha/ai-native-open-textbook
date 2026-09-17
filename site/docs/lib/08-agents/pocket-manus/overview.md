@@ -9,6 +9,11 @@ tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/Osly-AI/PocketManus"
 entryUrl: "https://github.com/Osly-AI/PocketManus/blob/8ab0ec5f2d5dc17ff58b060af7afcda08a9f57fd/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/08-agents/pocket-manus/README.md"
+sourceSha256: "5bb3a50d48a5d6e9145a35bb4541e84fe08c636d9390082cebfa10f21f7bc7f4"
+pageSha256: "5bb3a50d48a5d6e9145a35bb4541e84fe08c636d9390082cebfa10f21f7bc7f4"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,13 +8,18 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/deusyu/harness-engineering"
-entryUrl: "https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/README.md"
+entryUrl: "https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/thinking/meta-harness-tensions.md"
+sourceRel: "thinking/meta-harness-tensions.md"
+rawUrl: "/raw/09-harness/deusyu-harness-engineering/thinking/meta-harness-tensions.md"
+sourceSha256: "4730e28ae04b00884678c085db7b271d8d96aeb077ad79dc8a4df9fef741fac2"
+pageSha256: "4730e28ae04b00884678c085db7b271d8d96aeb077ad79dc8a4df9fef741fac2"
+contentMode: "local-full"
 zh: ""
 ---
 
 # Meta-Harness 与现有 Harness Engineering 体系的五个张力
 
-> 读完 Anthropic "Scaling Managed Agents" 后，对比当时 references/ 中已收录 7 篇文章的质疑与思考（写作时点快照，未随后续文库扩容重写；文库现况见 [references/articles.md](/lib/09-harness/deusyu-harness-engineering/references-articles)）。
+> 读完 Anthropic "Scaling Managed Agents" 后，对比当时 references/ 中已收录 7 篇文章的质疑与思考（写作时点快照，未随后续文库扩容重写；文库现况见 [references/articles.md](/lib/09-harness/deusyu-harness-engineering/references-articles/index)）。
 
 ## 背景
 
@@ -74,7 +79,7 @@ Managed Agents 引入了一个新的抽象层次：不再讨论"如何设计好�
 
 文章没有讨论：
 - Harness 层的工具调用审计机制
-- 对 `provision({resources})` 的权限限制
+- 对 `provision(\{resources\})` 的权限限制
 - 大脑传递双手给其他大脑时的信任链
 
 **与 HumanLayer 的对比：** HumanLayer 明确提出了 MCP 的信任边界问题（"别连不信任的 MCP"）。Managed Agents 的架构假设所有 MCP proxy 都是可信的，但没有论证为什么。

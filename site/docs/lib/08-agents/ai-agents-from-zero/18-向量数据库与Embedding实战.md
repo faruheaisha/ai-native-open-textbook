@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/didilili/ai-agents-from-zero"
-entryUrl: "https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/README.md"
+entryUrl: "https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/18-向量数据库与Embedding实战.md"
+sourceRel: "18-向量数据库与Embedding实战.md"
+rawUrl: "/raw/08-agents/ai-agents-from-zero/18-向量数据库与Embedding实战.md"
+sourceSha256: "01d9809c1f175ca76f0aa9c94f73f78593562a3167458b7bfd72770c9db92104"
+pageSha256: "01d9809c1f175ca76f0aa9c94f73f78593562a3167458b7bfd72770c9db92104"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -23,7 +28,7 @@ zh: ""
 
 **学习建议：** 这章先画链路，再看代码：文本经过 Embedding 模型变成向量，向量进入数据库，查询时再用相似度找回来。API 名称可以后记，但要弄清“存进去的是什么、查出来的是什么、相似度为什么能代表相关性”。如果有余力，用两三条短文本手算或打印一次相似度，会比空背概念扎实。
 
-**官方文档与资源**：详见 [工具导航与参考资料索引 - RAG与向量检索](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/工具导航与参考资料索引.md#RAG与向量检索)。
+**官方文档与资源**：详见 [工具导航与参考资料索引 - RAG与向量检索](/lib/08-agents/ai-agents-from-zero/工具导航与参考资料索引#RAG与向量检索)。
 
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/openai/openai-agents-python"
-entryUrl: "https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/README.md"
+entryUrl: "https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/multi_agent.md"
+sourceRel: "docs/multi_agent.md"
+rawUrl: "/raw/08-agents/openai-agents-python/docs/multi_agent.md"
+sourceSha256: "b1def8168d4860caf521a63c0050b9304fbded8eb5e67dbfc2a234b1623d36d9"
+pageSha256: "b1def8168d4860caf521a63c0050b9304fbded8eb5e67dbfc2a234b1623d36d9"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -52,7 +57,7 @@ This pattern is great when the task is open-ended and you want to rely on the in
 4. Have specialized agents that excel in one task, rather than having a general purpose agent that is expected to be good at anything.
 5. Invest in [evals](https://platform.openai.com/docs/guides/evals). This lets you train your agents to improve and get better at tasks.
 
-If you want the core SDK primitives behind this style of orchestration, start with [tools](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/tools.md), [handoffs](/lib/08-agents/openai-agents-python/docs-handoffs), and [running agents](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/running_agents.md).
+If you want the core SDK primitives behind this style of orchestration, start with [tools](/lib/08-agents/openai-agents-python/docs-tools), [handoffs](/lib/08-agents/openai-agents-python/docs-handoffs), and [running agents](/lib/08-agents/openai-agents-python/docs-running_agents).
 
 ## Orchestrating via code
 
@@ -67,8 +72,8 @@ We have a number of examples in [`examples/agent_patterns`](https://github.com/o
 
 ## Related guides
 
--   [Agents](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/agents.md) for composition patterns and agent configuration.
--   [Tools](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/tools.md#agents-as-tools) for `Agent.as_tool()` and manager-style orchestration.
+-   [Agents](/lib/08-agents/openai-agents-python/docs-agents) for composition patterns and agent configuration.
+-   [Tools](/lib/08-agents/openai-agents-python/docs-tools#agents-as-tools) for `Agent.as_tool()` and manager-style orchestration.
 -   [Handoffs](/lib/08-agents/openai-agents-python/docs-handoffs) for delegation between specialist agents.
--   [Running agents](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/running_agents.md) for per-run orchestration controls and conversation state.
+-   [Running agents](/lib/08-agents/openai-agents-python/docs-running_agents) for per-run orchestration controls and conversation state.
 -   [Quickstart](/lib/08-agents/openai-agents-python/docs-quickstart) for a minimal end-to-end handoff example.

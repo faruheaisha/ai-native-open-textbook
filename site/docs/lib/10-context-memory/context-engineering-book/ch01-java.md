@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/bonigarcia/context-engineering"
-entryUrl: "https://github.com/bonigarcia/context-engineering/blob/46719154489e410b509db4fb69ab1c29fb3362a0/README.md"
+entryUrl: "https://github.com/bonigarcia/context-engineering/blob/46719154489e410b509db4fb69ab1c29fb3362a0/ch01/java/README.md"
+sourceRel: "ch01/java/README.md"
+rawUrl: "/raw/10-context-memory/context-engineering-book/ch01/java/README.md"
+sourceSha256: "3f9eb7b92c56d126cde860d2231d06033bb9c3a8d62a71571e2e5bb5057caaee"
+pageSha256: "3f9eb7b92c56d126cde860d2231d06033bb9c3a8d62a71571e2e5bb5057caaee"
+contentMode: "local-full"
 zh: ""
 ---
 

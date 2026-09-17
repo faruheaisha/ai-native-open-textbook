@@ -10,6 +10,8 @@ lang: "英文"
 volume: "09-harness"
 sourceUrl: "https://github.com/zebbern/claude-code-guide"
 entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/README.md"
+sourceRel: ""
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -19,27 +21,302 @@ _For reference and contributions, visit the [official Claude Code documentation]
 
 ## 课时
 
-1. [Quality-First Claude and Codex Agent Pack](agents.md)
-2. [Academic Paper Reviewer — Simulated Peer Review](skills-academic-paper-reviewer-SKILL.md)
-3. [Advanced Active Directory Attacks Reference](skills-active-directory-attacks-references-advanced-attacks.md)
-4. [Active Directory Attacks](skills-active-directory-attacks-SKILL.md)
-5. [API Fuzzing for Bug Bounty](skills-api-fuzzing-bug-bounty-SKILL.md)
-6. [Design an Interface](skills-api-shape-explorer-SKILL.md)
-7. [Audit Flow Commands](skills-audit-flow-COMMANDS.md)
-8. [Audit Flow Examples](skills-audit-flow-EXAMPLES.md)
-9. [Audit Flow](skills-audit-flow-SKILL.md)
-10. [Authentication Patterns Skill](skills-authentication-patterns-SKILL.md)
-11. [Advanced AWS Penetration Testing Reference](skills-aws-penetration-testing-references-advanced-aws-pentesting.md)
-12. [AWS Penetration Testing](skills-aws-penetration-testing-SKILL.md)
-13. [Burp Suite Web Application Testing](skills-burp-suite-testing-SKILL.md)
-14. [Claude Code Guide（zebbern）](skills-caching-SKILL.md)
-15. [chart-generation Capability](skills-chart-image-CAPABILITY.md)
-16. [📊 chart-image](skills-chart-image.md)
-17. [Chart Image Generator](skills-chart-image-SKILL.md)
-18. [Advanced Cloud Pentesting Scripts](skills-cloud-penetration-testing-references-advanced-cloud-scripts.md)
-19. [Cloud Penetration Testing](skills-cloud-penetration-testing-SKILL.md)
-20. [API Documentation: FastAPI & Django](skills-code-documenter-references-api-docs-fastapi-django.md)
-21. [API Documentation: NestJS & Express](skills-code-documenter-references-api-docs-nestjs-express.md)
-22. [Coverage Reports](skills-code-documenter-references-coverage-reports.md)
+- **agents**
+  - **.claude**
+    - **agents**
+      - [Mission](/lib/09-harness/claude-code-guide-zebbern/agents-_claude-agents-change-implementer.md)
+      - [Mission](/lib/09-harness/claude-code-guide-zebbern/agents-_claude-agents-code-reviewer.md)
+      - [Mission](/lib/09-harness/claude-code-guide-zebbern/agents-_claude-agents-codebase-mapper.md)
+      - [Mission](/lib/09-harness/claude-code-guide-zebbern/agents-_claude-agents-official-docs-researcher.md)
+      - [Mission](/lib/09-harness/claude-code-guide-zebbern/agents-_claude-agents-root-cause-debugger.md)
+      - [Mission](/lib/09-harness/claude-code-guide-zebbern/agents-_claude-agents-runtime-verifier.md)
+      - [Mission](/lib/09-harness/claude-code-guide-zebbern/agents-_claude-agents-security-reviewer.md)
+      - [Mission](/lib/09-harness/claude-code-guide-zebbern/agents-_claude-agents-solution-architect.md)
+  - [Quality-First Claude and Codex Agent Pack](/lib/09-harness/claude-code-guide-zebbern/agents.md)
+- [Authentication and routing: set only when API/provider billing is intentional](/lib/09-harness/claude-code-guide-zebbern/skills-chart-image.md)
+- **skills**
+  - **academic-paper-reviewer**
+    - [Academic Paper Reviewer — Simulated Peer Review](/lib/09-harness/claude-code-guide-zebbern/skills-academic-paper-reviewer-SKILL.md)
+  - **active-directory-attacks**
+    - **references**
+      - [Advanced Active Directory Attacks Reference](/lib/09-harness/claude-code-guide-zebbern/skills-active-directory-attacks-references-advanced-attacks.md)
+    - [Active Directory Attacks](/lib/09-harness/claude-code-guide-zebbern/skills-active-directory-attacks-SKILL.md)
+  - **api-fuzzing-bug-bounty**
+    - [API Fuzzing for Bug Bounty](/lib/09-harness/claude-code-guide-zebbern/skills-api-fuzzing-bug-bounty-SKILL.md)
+  - **api-shape-explorer**
+    - [Design an Interface](/lib/09-harness/claude-code-guide-zebbern/skills-api-shape-explorer-SKILL.md)
+  - **audit-flow**
+    - [Audit Flow Commands](/lib/09-harness/claude-code-guide-zebbern/skills-audit-flow-COMMANDS.md)
+    - [Audit Flow Examples](/lib/09-harness/claude-code-guide-zebbern/skills-audit-flow-EXAMPLES.md)
+    - [ALWAYS read the schema first to understand tables, constraints, views](/lib/09-harness/claude-code-guide-zebbern/skills-audit-flow-SKILL.md)
+  - **authentication-patterns**
+    - [Authentication Patterns Skill](/lib/09-harness/claude-code-guide-zebbern/skills-authentication-patterns-SKILL.md)
+  - **aws-penetration-testing**
+    - **references**
+      - [Advanced AWS Penetration Testing Reference](/lib/09-harness/claude-code-guide-zebbern/skills-aws-penetration-testing-references-advanced-aws-pentesting.md)
+    - [AWS Penetration Testing](/lib/09-harness/claude-code-guide-zebbern/skills-aws-penetration-testing-SKILL.md)
+  - **burp-suite-testing**
+    - [Burp Suite Web Application Testing](/lib/09-harness/claude-code-guide-zebbern/skills-burp-suite-testing-SKILL.md)
+  - **caching**
+    - [SKILL](/lib/09-harness/claude-code-guide-zebbern/skills-caching-SKILL.md)
+  - **chart-image**
+    - [chart-generation Capability](/lib/09-harness/claude-code-guide-zebbern/skills-chart-image-CAPABILITY.md)
+    - [Chart Image Generator](/lib/09-harness/claude-code-guide-zebbern/skills-chart-image-SKILL.md)
+  - **cloud-penetration-testing**
+    - **references**
+      - [Advanced Cloud Pentesting Scripts](/lib/09-harness/claude-code-guide-zebbern/skills-cloud-penetration-testing-references-advanced-cloud-scripts.md)
+    - [Cloud Penetration Testing](/lib/09-harness/claude-code-guide-zebbern/skills-cloud-penetration-testing-SKILL.md)
+  - **code-documenter**
+    - **references**
+      - [API Documentation: FastAPI & Django](/lib/09-harness/claude-code-guide-zebbern/skills-code-documenter-references-api-docs-fastapi-django.md)
+      - [API Documentation: NestJS & Express](/lib/09-harness/claude-code-guide-zebbern/skills-code-documenter-references-api-docs-nestjs-express.md)
+      - [Coverage Reports](/lib/09-harness/claude-code-guide-zebbern/skills-code-documenter-references-coverage-reports.md)
+      - [Documentation Systems & Infrastructure](/lib/09-harness/claude-code-guide-zebbern/skills-code-documenter-references-documentation-systems.md)
+      - [Interactive API Documentation](/lib/09-harness/claude-code-guide-zebbern/skills-code-documenter-references-interactive-api-docs.md)
+      - [Python Docstrings](/lib/09-harness/claude-code-guide-zebbern/skills-code-documenter-references-python-docstrings.md)
+      - [TypeScript JSDoc](/lib/09-harness/claude-code-guide-zebbern/skills-code-documenter-references-typescript-jsdoc.md)
+      - [User Guides & Tutorials](/lib/09-harness/claude-code-guide-zebbern/skills-code-documenter-references-user-guides-tutorials.md)
+    - [Code Documenter](/lib/09-harness/claude-code-guide-zebbern/skills-code-documenter-SKILL.md)
+  - **code-to-diagram**
+    - [Code to Diagram](/lib/09-harness/claude-code-guide-zebbern/skills-code-to-diagram-SKILL.md)
+  - **code-vuln-audit**
+    - [code-vuln-audit](/lib/09-harness/claude-code-guide-zebbern/skills-code-vuln-audit-SKILL.md)
+  - **composition-patterns**
+    - [React Composition Patterns](/lib/09-harness/claude-code-guide-zebbern/skills-composition-patterns.md)
+    - **rules**
+      - [Sections](/lib/09-harness/claude-code-guide-zebbern/skills-composition-patterns-rules-_sections.md)
+      - [template](/lib/09-harness/claude-code-guide-zebbern/skills-composition-patterns-rules-_template.md)
+      - [architecture avoid boolean props](/lib/09-harness/claude-code-guide-zebbern/skills-composition-patterns-rules-architecture-avoid-boolean-props.md)
+      - [architecture compound components](/lib/09-harness/claude-code-guide-zebbern/skills-composition-patterns-rules-architecture-compound-components.md)
+      - [patterns children over render props](/lib/09-harness/claude-code-guide-zebbern/skills-composition-patterns-rules-patterns-children-over-render-props.md)
+      - [patterns explicit variants](/lib/09-harness/claude-code-guide-zebbern/skills-composition-patterns-rules-patterns-explicit-variants.md)
+      - [react19 no forwardref](/lib/09-harness/claude-code-guide-zebbern/skills-composition-patterns-rules-react19-no-forwardref.md)
+      - [state context interface](/lib/09-harness/claude-code-guide-zebbern/skills-composition-patterns-rules-state-context-interface.md)
+      - [state decouple implementation](/lib/09-harness/claude-code-guide-zebbern/skills-composition-patterns-rules-state-decouple-implementation.md)
+      - [state lift state](/lib/09-harness/claude-code-guide-zebbern/skills-composition-patterns-rules-state-lift-state.md)
+    - [React Composition Patterns](/lib/09-harness/claude-code-guide-zebbern/skills-composition-patterns-SKILL.md)
+  - **cross-examine**
+    - [SKILL](/lib/09-harness/claude-code-guide-zebbern/skills-cross-examine-SKILL.md)
+  - **cv-tailor**
+    - [CV Tailor](/lib/09-harness/claude-code-guide-zebbern/skills-cv-tailor-SKILL.md)
+  - **data-viz-renderer**
+    - [Data Viz Renderer](/lib/09-harness/claude-code-guide-zebbern/skills-data-viz-renderer-SKILL.md)
+  - **database-optimizer**
+    - **references**
+      - [Index Strategies](/lib/09-harness/claude-code-guide-zebbern/skills-database-optimizer-references-index-strategies.md)
+      - [Monitoring and Analysis](/lib/09-harness/claude-code-guide-zebbern/skills-database-optimizer-references-monitoring-analysis.md)
+      - [MySQL Tuning](/lib/09-harness/claude-code-guide-zebbern/skills-database-optimizer-references-mysql-tuning.md)
+      - [PostgreSQL Tuning](/lib/09-harness/claude-code-guide-zebbern/skills-database-optimizer-references-postgresql-tuning.md)
+      - [Query Optimization](/lib/09-harness/claude-code-guide-zebbern/skills-database-optimizer-references-query-optimization.md)
+    - [Database Optimizer](/lib/09-harness/claude-code-guide-zebbern/skills-database-optimizer-SKILL.md)
+  - **database-scout**
+    - [database-scout](/lib/09-harness/claude-code-guide-zebbern/skills-database-scout-SKILL.md)
+  - **dataset-quality-audit**
+    - [dataset-quality-audit](/lib/09-harness/claude-code-guide-zebbern/skills-dataset-quality-audit-SKILL.md)
+  - **deep-module-refactor**
+    - [Reference](/lib/09-harness/claude-code-guide-zebbern/skills-deep-module-refactor-REFERENCE.md)
+    - [Improve Codebase Architecture](/lib/09-harness/claude-code-guide-zebbern/skills-deep-module-refactor-SKILL.md)
+  - **design-system-builder**
+    - [UI Designer](/lib/09-harness/claude-code-guide-zebbern/skills-design-system-builder-SKILL.md)
+  - **dev-guide-generator**
+    - [Dev Guide Generator](/lib/09-harness/claude-code-guide-zebbern/skills-dev-guide-generator-SKILL.md)
+  - **ethical-hacking-methodology**
+    - [Ethical Hacking Methodology](/lib/09-harness/claude-code-guide-zebbern/skills-ethical-hacking-methodology-SKILL.md)
+  - **file-path-traversal**
+    - [File Path Traversal Testing](/lib/09-harness/claude-code-guide-zebbern/skills-file-path-traversal-SKILL.md)
+  - **html-injection-testing**
+    - [HTML Injection Testing](/lib/09-harness/claude-code-guide-zebbern/skills-html-injection-testing-SKILL.md)
+  - **http-load-profiler**
+    - [HTTP Load Profiler — Stepped Concurrency Load Test + Inflection Point Analysis](/lib/09-harness/claude-code-guide-zebbern/skills-http-load-profiler-SKILL.md)
+  - **idor-testing**
+    - [IDOR Vulnerability Testing](/lib/09-harness/claude-code-guide-zebbern/skills-idor-testing-SKILL.md)
+  - **linux-privilege-escalation**
+    - [Linux Privilege Escalation](/lib/09-harness/claude-code-guide-zebbern/skills-linux-privilege-escalation-SKILL.md)
+  - **linux-shell-scripting**
+    - [Linux Production Shell Scripts](/lib/09-harness/claude-code-guide-zebbern/skills-linux-shell-scripting-SKILL.md)
+  - **localization-toolkit**
+    - [I18n Expert](/lib/09-harness/claude-code-guide-zebbern/skills-localization-toolkit-SKILL.md)
+  - **log-error-digest**
+    - [Log Error Digest](/lib/09-harness/claude-code-guide-zebbern/skills-log-error-digest-SKILL.md)
+  - **metasploit-framework**
+    - [Metasploit Framework](/lib/09-harness/claude-code-guide-zebbern/skills-metasploit-framework-SKILL.md)
+  - **network-101**
+    - [Network 101](/lib/09-harness/claude-code-guide-zebbern/skills-network-101-SKILL.md)
+  - **nextjs-developer**
+    - **references**
+      - [App Router Architecture](/lib/09-harness/claude-code-guide-zebbern/skills-nextjs-developer-references-app-router.md)
+      - [Data Fetching & Caching](/lib/09-harness/claude-code-guide-zebbern/skills-nextjs-developer-references-data-fetching.md)
+      - [Deployment & Production](/lib/09-harness/claude-code-guide-zebbern/skills-nextjs-developer-references-deployment.md)
+      - [Server Actions](/lib/09-harness/claude-code-guide-zebbern/skills-nextjs-developer-references-server-actions.md)
+      - [React Server Components](/lib/09-harness/claude-code-guide-zebbern/skills-nextjs-developer-references-server-components.md)
+    - [Next.js Developer](/lib/09-harness/claude-code-guide-zebbern/skills-nextjs-developer-SKILL.md)
+  - **pdf**
+    - [Fillable fields](/lib/09-harness/claude-code-guide-zebbern/skills-pdf-forms.md)
+    - [PDF Processing Advanced Reference](/lib/09-harness/claude-code-guide-zebbern/skills-pdf-reference.md)
+    - [PDF Processing Guide](/lib/09-harness/claude-code-guide-zebbern/skills-pdf-SKILL.md)
+  - **pentest-checklist**
+    - [Pentest Checklist](/lib/09-harness/claude-code-guide-zebbern/skills-pentest-checklist-SKILL.md)
+  - **pentest-commands**
+    - [Pentest Commands](/lib/09-harness/claude-code-guide-zebbern/skills-pentest-commands-SKILL.md)
+  - **pipeline-blueprint**
+    - [CI/CD Configuration Best Practices](/lib/09-harness/claude-code-guide-zebbern/skills-pipeline-blueprint-SKILL.md)
+  - **playwright**
+    - **ci**
+      - [CI: GitHub Actions](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-ci-ci-github-actions.md)
+      - [CI: GitLab CI/CD](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-ci-ci-gitlab.md)
+      - [CI: CircleCI, Azure DevOps, and Jenkins](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-ci-ci-other.md)
+      - [Docker and Containers](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-ci-docker-and-containers.md)
+      - [Global Setup and Teardown](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-ci-global-setup-teardown.md)
+      - [Parallel Execution and Sharding](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-ci-parallel-and-sharding.md)
+      - [Projects and Dependencies](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-ci-projects-and-dependencies.md)
+      - [Reporting and Artifacts](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-ci-reporting-and-artifacts.md)
+      - [Playwright CI/CD](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-ci-SKILL.md)
+      - [Test Coverage](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-ci-test-coverage.md)
+    - **core**
+      - [Accessibility Testing](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-accessibility.md)
+      - [Testing Angular Apps with Playwright](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-angular.md)
+      - [API Testing](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-api-testing.md)
+      - [Assertions and Waiting](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-assertions-and-waiting.md)
+      - [Authentication Flow Recipes](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-auth-flows.md)
+      - [Authentication Testing](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-authentication.md)
+      - [Browser APIs](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-browser-apis.md)
+      - [Browser Extensions](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-browser-extensions.md)
+      - [Canvas and WebGL Testing](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-canvas-and-webgl.md)
+      - [Clock and Time Mocking](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-clock-and-time-mocking.md)
+      - [Common Pitfalls](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-common-pitfalls.md)
+      - [Component Testing](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-component-testing.md)
+      - [Configuration](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-configuration.md)
+      - [CRUD Testing Recipes](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-crud-testing.md)
+      - [Debugging Playwright Tests](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-debugging.md)
+      - [Drag and Drop Recipes](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-drag-and-drop.md)
+      - [Electron Testing](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-electron-testing.md)
+      - [Error States and Edge Cases](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-error-and-edge-cases.md)
+      - [Playwright Error Index](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-error-.md)
+      - [File Operations](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-file-operations.md)
+      - [File Upload and Download Recipes](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-file-upload-download.md)
+      - [Fixtures and Hooks](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-fixtures-and-hooks.md)
+      - [Flaky Tests](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-flaky-tests.md)
+      - [Forms and Validation](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-forms-and-validation.md)
+      - [Internationalization and Localization Testing](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-i18n-and-localization.md)
+      - [Iframes and Shadow DOM](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-iframes-and-shadow-dom.md)
+      - [Choosing a Locator Strategy](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-locator-strategy.md)
+      - [Locators](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-locators.md)
+      - [Mobile and Responsive Testing](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-mobile-and-responsive.md)
+      - [Multi-Context, Popups, and New Windows](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-multi-context-and-popups.md)
+      - [Multi-User and Collaboration Testing](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-multi-user-and-collaboration.md)
+      - [Network Mocking](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-network-mocking.md)
+      - [Testing Next.js Apps with Playwright](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-nextjs.md)
+      - [Performance Testing](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-performance-testing.md)
+      - [Testing React Apps with Playwright](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-react.md)
+      - [Search and Filter Recipes](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-search-and-filter.md)
+      - [Security Testing](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-security-testing.md)
+      - [Service Workers and PWA Testing](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-service-workers-and-pwa.md)
+      - [Playwright Core Testing](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-SKILL.md)
+      - [Test Architecture: E2E vs Component vs API](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-test-architecture.md)
+      - [Test Data Management](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-test-data-management.md)
+      - [Test Organization](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-test-organization.md)
+      - [Third-Party Integrations](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-third-party-integrations.md)
+      - [Visual Regression Testing](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-visual-regression.md)
+      - [Testing Vue Apps with Playwright](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-vue.md)
+      - [WebSockets and Real-Time Testing](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-websockets-and-realtime.md)
+      - [When to Mock vs Use Real Services](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-core-when-to-mock.md)
+    - **migration**
+      - [Migrating from Cypress to Playwright](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-migration-from-cypress.md)
+      - [Migrating from Selenium to Playwright](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-migration-from-selenium.md)
+      - [Playwright Migration Guides](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-migration-SKILL.md)
+    - **playwright-cli**
+      - [Advanced Workflows](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-playwright-cli-advanced-workflows.md)
+      - [Core Commands](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-playwright-cli-core-commands.md)
+      - [Device and Environment Emulation](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-playwright-cli-device-emulation.md)
+      - [Request Mocking](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-playwright-cli-request-mocking.md)
+      - [Running Custom Playwright Code](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-playwright-cli-running-custom-code.md)
+      - [Screenshots and Media](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-playwright-cli-screenshots-and-media.md)
+      - [Session Management](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-playwright-cli-session-management.md)
+      - [Browser Automation with playwright-cli](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-playwright-cli-SKILL.md)
+      - [Storage and Authentication](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-playwright-cli-storage-and-auth.md)
+      - [Test Generation](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-playwright-cli-test-generation.md)
+      - [Tracing and Debugging](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-playwright-cli-tracing-and-debugging.md)
+    - **pom**
+      - [Page Object Model](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-pom-page-object-model.md)
+      - [Page Objects vs Fixtures vs Helpers](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-pom-pom-vs-fixtures-vs-helpers.md)
+      - [Playwright Page Object Model](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-pom-SKILL.md)
+    - [Playwright Skill](/lib/09-harness/claude-code-guide-zebbern/skills-playwright-SKILL.md)
+  - **privilege-escalation-methods**
+    - [Privilege Escalation Methods](/lib/09-harness/claude-code-guide-zebbern/skills-privilege-escalation-methods-SKILL.md)
+  - **project-sizing-guide**
+    - [Project Sizing Guide — Software Project Effort Estimation](/lib/09-harness/claude-code-guide-zebbern/skills-project-sizing-guide-SKILL.md)
+  - **r2-upload**
+    - [r2-upload - Cloudflare R2 / S3 Upload Skill](/lib/09-harness/claude-code-guide-zebbern/skills-r2-upload-CLAWDHUB.md)
+    - [R2/S3 Upload Skill](/lib/09-harness/claude-code-guide-zebbern/skills-r2-upload.md)
+    - [Send Me My Files - R2 Upload with Short Lived Signed URLs](/lib/09-harness/claude-code-guide-zebbern/skills-r2-upload-SKILL.md)
+  - **r3f-animation**
+    - [React Three Fiber Animation](/lib/09-harness/claude-code-guide-zebbern/skills-r3f-animation-SKILL.md)
+  - **r3f-best-practices**
+    - **rules**
+      - [Rule Sections](/lib/09-harness/claude-code-guide-zebbern/skills-r3f-best-practices-rules-_sections.md)
+      - [drei-use-gltf](/lib/09-harness/claude-code-guide-zebbern/skills-r3f-best-practices-rules-drei-use-gltf.md)
+      - [frame-delta-time](/lib/09-harness/claude-code-guide-zebbern/skills-r3f-best-practices-rules-frame-delta-time.md)
+      - [loading-suspense](/lib/09-harness/claude-code-guide-zebbern/skills-r3f-best-practices-rules-loading-suspense.md)
+      - [perf-never-set-state-in-useframe](/lib/09-harness/claude-code-guide-zebbern/skills-r3f-best-practices-rules-perf-never-set-state-in-useframe.md)
+      - [r3f-perf for Performance Monitoring](/lib/09-harness/claude-code-guide-zebbern/skills-r3f-best-practices-rules-perf-r3f-perf.md)
+      - [Toggle Visibility Instead of Remounting](/lib/09-harness/claude-code-guide-zebbern/skills-r3f-best-practices-rules-perf-visibility-toggle.md)
+      - [perf-zustand-selectors](/lib/09-harness/claude-code-guide-zebbern/skills-r3f-best-practices-rules-perf-zustand-selectors.md)
+    - [React Three Fiber Best Practices](/lib/09-harness/claude-code-guide-zebbern/skills-r3f-best-practices-SKILL.md)
+  - **react-best-practices**
+    - [React Best Practices](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices.md)
+    - **rules**
+      - [Sections](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-_sections.md)
+      - [template](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-_template.md)
+      - [advanced event handler refs](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-advanced-event-handler-refs.md)
+      - [advanced init once](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-advanced-init-once.md)
+      - [advanced use latest](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-advanced-use-latest.md)
+      - [async api routes](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-async-api-routes.md)
+      - [async defer await](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-async-defer-await.md)
+      - [async dependencies](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-async-dependencies.md)
+      - [async parallel](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-async-parallel.md)
+      - [async suspense boundaries](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-async-suspense-boundaries.md)
+      - [bundle barrel imports](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-bundle-barrel-imports.md)
+      - [bundle conditional](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-bundle-conditional.md)
+      - [bundle defer third party](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-bundle-defer-third-party.md)
+      - [bundle dynamic imports](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-bundle-dynamic-imports.md)
+      - [bundle preload](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-bundle-preload.md)
+      - [client event listeners](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-client-event-listeners.md)
+      - [client localstorage schema](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-client-localstorage-schema.md)
+      - [client passive event listeners](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-client-passive-event-listeners.md)
+      - [client swr dedup](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-client-swr-dedup.md)
+      - [js batch dom css](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-js-batch-dom-css.md)
+      - [js cache function results](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-js-cache-function-results.md)
+      - [js cache property access](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-js-cache-property-access.md)
+      - [js cache storage](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-js-cache-storage.md)
+      - [js combine iterations](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-js-combine-iterations.md)
+      - [js early exit](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-js-early-exit.md)
+      - [js hoist regexp](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-js-hoist-regexp.md)
+      - [js index maps](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-js-index-maps.md)
+      - [js length check first](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-js-length-check-first.md)
+      - [js min max loop](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-js-min-max-loop.md)
+      - [js set map lookups](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-js-set-map-lookups.md)
+      - [js tosorted immutable](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-js-tosorted-immutable.md)
+      - [rendering activity](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-rendering-activity.md)
+      - [rendering animate svg wrapper](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-rendering-animate-svg-wrapper.md)
+      - [rendering conditional render](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-rendering-conditional-render.md)
+      - [rendering content visibility](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-rendering-content-visibility.md)
+      - [rendering hoist jsx](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-rendering-hoist-jsx.md)
+      - [rendering hydration no flicker](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-rendering-hydration-no-flicker.md)
+      - [rendering hydration suppress warning](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-rendering-hydration-suppress-warning.md)
+      - [rendering svg precision](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-rendering-svg-precision.md)
+      - [rendering usetransition loading](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-rendering-usetransition-loading.md)
+      - [rerender defer reads](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-rerender-defer-reads.md)
+      - [rerender dependencies](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-rerender-dependencies.md)
+      - [rerender derived state no effect](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-rerender-derived-state-no-effect.md)
+      - [rerender derived state](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-rerender-derived-state.md)
+      - [rerender functional setstate](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-rerender-functional-setstate.md)
+      - [rerender lazy state init](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-rerender-lazy-state-init.md)
+      - [rerender memo with default value](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-rerender-memo-with-default-value.md)
+      - [rerender memo](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-rerender-memo.md)
+      - [rerender move effect to event](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-rerender-move-effect-to-event.md)
+      - [rerender simple expression in memo](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-rerender-simple-expression-in-memo.md)
+      - [rerender transitions](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-rerender-transitions.md)
+      - [rerender use ref transient values](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-rules-rerender-use-ref-transient-values.md)
+    - [Vercel React Best Practices](/lib/09-harness/claude-code-guide-zebbern/skills-react-best-practices-SKILL.md)
 
-开始学习 → [Quality-First Claude and Codex Agent Pack](agents.md)
+开始学习 → [Mission](agents-_claude-agents-change-implementer.md)

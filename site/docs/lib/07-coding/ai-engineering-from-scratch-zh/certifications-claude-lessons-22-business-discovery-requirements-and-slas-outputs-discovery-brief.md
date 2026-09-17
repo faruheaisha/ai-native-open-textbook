@@ -1,0 +1,51 @@
+---
+title: "发现简报：账单回复试点"
+sourceId: "07-coding/ai-engineering-from-scratch-zh"
+sourceTitle: "AI 工程从零到一（中文）"
+sourceKind: "源码研读"
+licenseLabel: "可转载"
+lang: "中文"
+tier: 1
+volume: "07-coding"
+sourceUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh"
+entryUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/certifications/claude/lessons/22-business-discovery-requirements-and-slas/outputs/discovery-brief.md"
+sourceRel: "certifications/claude/lessons/22-business-discovery-requirements-and-slas/outputs/discovery-brief.md"
+rawUrl: "/raw/07-coding/ai-engineering-from-scratch-zh/certifications/claude/lessons/22-business-discovery-requirements-and-slas/outputs/discovery-brief.md"
+sourceSha256: "75e3d06b152dbd3d06929e424a9c8a9e76acc523962f1ec3b20b96fdbcd2ba0a"
+pageSha256: "75e3d06b152dbd3d06929e424a9c8a9e76acc523962f1ec3b20b96fdbcd2ba0a"
+contentMode: "local-full"
+zh: ""
+---
+
+# 发现简报：账单回复试点
+
+## Outcome（成果）
+
+负责人（owner）：客服运营团队。当前符合政策的首次响应时间中位数基线（baseline）为 11 分钟。
+目标（target）是在为期六周的
+试点期间降至 3 分钟以内，同时未经依据支持的退款执行次数保持为零。
+
+## Requirements（需求）
+
+根据当前有效政策和分配到账户的事实起草回复。质量方面要求有有效政策支持；性能方面要求
+P95 低于 8 秒；安全约束是退款执行始终不进入该工作流。
+
+## Data and Authority（数据与权限）
+
+内部工单和政策数据遵循最小化原则。客服 agent 可以读取分配给自己的案件；只有获得财务授权的
+人员可以批准退款。任何机密信息或无关客户记录都不得进入上下文。
+
+## Measures（指标）
+
+SLI：评估草稿中有当前有效政策支持的比例。SLO：七天内至少达到 98%。此外还要衡量 P95、
+每份获采纳草稿的成本、审核耗时、过期来源比例和不安全操作次数。
+
+## Assumptions（假设）
+
+估算（estimate）：审核时间将从四分钟降至两分钟；负责人是客服质量团队，证据来自试点计时，
+决策日期为第二周。约束（constraint）：不得自动发送客户消息。偏好：使用简洁的回复格式。
+
+## Non-Goals（非目标）
+
+首个版本的非目标包括自主发送消息（autonomous sending）、退款、关闭账户、员工排名，以及英语
+之外的其他语言。

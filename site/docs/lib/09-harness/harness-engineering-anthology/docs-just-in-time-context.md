@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/lopopolo/harness-engineering"
-entryUrl: "https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/README.md"
+entryUrl: "https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/docs/just-in-time-context/README.md"
+sourceRel: "docs/just-in-time-context/README.md"
+rawUrl: "/raw/09-harness/harness-engineering-anthology/docs/just-in-time-context/README.md"
+sourceSha256: "e80275280376de31709b396b42f441a5cd208eadc0c2ecae54a6e0671665569b"
+pageSha256: "e80275280376de31709b396b42f441a5cd208eadc0c2ecae54a6e0671665569b"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -283,7 +288,7 @@ again. Keep the user message focused on the outcome, acceptance bar, and
 authority that should survive the whole job. The exact retention policy belongs
 to the chosen worker and must be requalified when that worker changes.
 
-[Make Capabilities Legible and Operable]: https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/docs/tool-legibility/README.md
+[Make Capabilities Legible and Operable]: /lib/09-harness/harness-engineering-anthology/docs-tool-legibility
 
 ## Place context at the latest reliable point
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "08-agents"
 sourceUrl: "https://github.com/Prompthon-IO/agent-systems-handbook"
-entryUrl: "https://github.com/Prompthon-IO/agent-systems-handbook/blob/5b71cfa598701a34834f33b42be5f8a422138a3c/README.md"
+entryUrl: "https://github.com/Prompthon-IO/agent-systems-handbook/blob/5b71cfa598701a34834f33b42be5f8a422138a3c/case-studies/coding-agents.mdx"
+sourceRel: "case-studies/coding-agents.mdx"
+rawUrl: "/raw/08-agents/agent-systems-handbook/case-studies/coding-agents.mdx"
+sourceSha256: "b2626c715619275faca3e225cec2e40d18c825be3c42e957884da58ea5c63fa8"
+pageSha256: "b2626c715619275faca3e225cec2e40d18c825be3c42e957884da58ea5c63fa8"
+contentMode: "local-full"
 zh: ""
 ---
 

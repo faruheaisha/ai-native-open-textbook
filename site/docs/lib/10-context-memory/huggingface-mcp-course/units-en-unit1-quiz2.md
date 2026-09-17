@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "10-context-memory"
 sourceUrl: "https://github.com/huggingface/mcp-course"
-entryUrl: "https://github.com/huggingface/mcp-course/blob/e706ccc0d7abe73c31813979c3451c0e31c8a464/README.md"
+entryUrl: "https://github.com/huggingface/mcp-course/blob/e706ccc0d7abe73c31813979c3451c0e31c8a464/units/en/unit1/quiz2.mdx"
+sourceRel: "units/en/unit1/quiz2.mdx"
+rawUrl: "/raw/10-context-memory/huggingface-mcp-course/units/en/unit1/quiz2.mdx"
+sourceSha256: "cafb3f3cea2915dddebd22c38c6919f5ea8ddd5f71faf83d271217d54566f43c"
+pageSha256: "cafb3f3cea2915dddebd22c38c6919f5ea8ddd5f71faf83d271217d54566f43c"
+contentMode: "local-full"
 zh: "on"
 ---
 

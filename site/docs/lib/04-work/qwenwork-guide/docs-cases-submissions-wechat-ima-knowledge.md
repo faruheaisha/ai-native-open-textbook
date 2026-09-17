@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/wangxiaoshuai1998/QwenWorkGuide"
-entryUrl: "https://github.com/wangxiaoshuai1998/QwenWorkGuide/blob/002f698a68b69d3635acf6be0d6e27db69069071/README.md"
+entryUrl: "https://github.com/wangxiaoshuai1998/QwenWorkGuide/blob/002f698a68b69d3635acf6be0d6e27db69069071/docs/cases/submissions/wechat-ima-knowledge/index.md"
+sourceRel: "docs/cases/submissions/wechat-ima-knowledge/index.md"
+rawUrl: "/raw/04-work/qwenwork-guide/docs/cases/submissions/wechat-ima-knowledge/index.md"
+sourceSha256: "39abd8bb56482e17878dcc43e2e099b72911343f249a06a62d4afcc3ed251c25"
+pageSha256: "39abd8bb56482e17878dcc43e2e099b72911343f249a06a62d4afcc3ed251c25"
+contentMode: "local-full"
 zh: ""
 ---
 

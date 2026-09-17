@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/liyupi/ai-guide"
-entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a02735b38c866/README.md"
+entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a02735b38c866/AI/AI项目教程/🔥%20企业级项目：开发%20AI%20恋爱大师应用%20+%20拥有自主规划能力的超级智能体.md"
+sourceRel: "AI/AI项目教程/🔥 企业级项目：开发 AI 恋爱大师应用 + 拥有自主规划能力的超级智能体.md"
+rawUrl: "/raw/07-coding/liyupi-ai-guide/AI/AI项目教程/🔥 企业级项目：开发 AI 恋爱大师应用 + 拥有自主规划能力的超级智能体.md"
+sourceSha256: "928ee3af9ea907a352bcdfdbfd0afa8368c5849ba64f7701994ff16b33899e9a"
+pageSha256: "928ee3af9ea907a352bcdfdbfd0afa8368c5849ba64f7701994ff16b33899e9a"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh"
-entryUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/README.md"
+entryUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/certifications/claude/lessons/15-claude-code-for-development-teams/docs/zh.md"
+sourceRel: "certifications/claude/lessons/15-claude-code-for-development-teams/docs/zh.md"
+rawUrl: "/raw/07-coding/ai-engineering-from-scratch-zh/certifications/claude/lessons/15-claude-code-for-development-teams/docs/zh.md"
+sourceSha256: "27af2a92f0803326993a6f3aa931af6c5831550f3fcca00b85097cd1a2bec80e"
+pageSha256: "27af2a92f0803326993a6f3aa931af6c5831550f3fcca00b85097cd1a2bec80e"
+contentMode: "local-full"
 zh: ""
 ---
 

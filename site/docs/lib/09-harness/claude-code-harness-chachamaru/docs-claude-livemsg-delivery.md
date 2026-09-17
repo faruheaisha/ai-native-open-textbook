@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/Chachamaru127/claude-code-harness"
-entryUrl: "https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/README.md"
+entryUrl: "https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/docs/claude-livemsg-delivery.md"
+sourceRel: "docs/claude-livemsg-delivery.md"
+rawUrl: "/raw/09-harness/claude-code-harness-chachamaru/docs/claude-livemsg-delivery.md"
+sourceSha256: "13ec68f6166b0048283698c9e746481a2b2202b032d4a5a40d78705716a2a6ff"
+pageSha256: "13ec68f6166b0048283698c9e746481a2b2202b032d4a5a40d78705716a2a6ff"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/ed-donner/production"
-entryUrl: "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/README.md"
+entryUrl: "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/community_contributions/jwt_token_60s_fix.md"
+sourceRel: "community_contributions/jwt_token_60s_fix.md"
+rawUrl: "/raw/08-agents/ed-donner-production/community_contributions/jwt_token_60s_fix.md"
+sourceSha256: "d6ccf0c27373346a68574b0bda0e0b6d08b6174ba35340c16a1a307913833192"
+pageSha256: "d6ccf0c27373346a68574b0bda0e0b6d08b6174ba35340c16a1a307913833192"
+contentMode: "local-full"
 zh: ""
 ---
 

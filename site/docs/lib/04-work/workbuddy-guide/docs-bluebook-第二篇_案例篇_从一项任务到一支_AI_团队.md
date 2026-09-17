@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/AlephAITech/WorkBuddyGuide"
-entryUrl: "https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89da368fe208425ff50e121fe/README.md"
+entryUrl: "https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇%20案例篇：从一项任务到一支%20AI%20团队/index.md"
+sourceRel: "docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/index.md"
+rawUrl: "/raw/04-work/workbuddy-guide/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/index.md"
+sourceSha256: "175e2bc9d16dae8f1d1ee62844c92fa0cc2f6b45f3564df3171c2200b91bd115"
+pageSha256: "175e2bc9d16dae8f1d1ee62844c92fa0cc2f6b45f3564df3171c2200b91bd115"
+contentMode: "local-full"
 zh: ""
 ---
 

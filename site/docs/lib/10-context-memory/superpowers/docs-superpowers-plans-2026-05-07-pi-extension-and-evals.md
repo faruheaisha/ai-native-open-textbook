@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/obra/superpowers"
-entryUrl: "https://github.com/obra/superpowers/blob/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/README.md"
+entryUrl: "https://github.com/obra/superpowers/blob/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/docs/superpowers/plans/2026-05-07-pi-extension-and-evals.md"
+sourceRel: "docs/superpowers/plans/2026-05-07-pi-extension-and-evals.md"
+rawUrl: "/raw/10-context-memory/superpowers/docs/superpowers/plans/2026-05-07-pi-extension-and-evals.md"
+sourceSha256: "887dda265dc5f61ad4a04b9d0da98c059f6d93d08ff79180afbdafa7a000d75e"
+pageSha256: "887dda265dc5f61ad4a04b9d0da98c059f6d93d08ff79180afbdafa7a000d75e"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -124,7 +129,7 @@ Expected: FAIL because the Pi backend and normalizer do not exist.
 
 - [ ] **Step 3: Add `evals/backends/pi.yaml`**
 
-Configure the backend to run `pi -e ${SUPERPOWERS_ROOT}`, use permissive TUI readiness, `/quit` shutdown, and Pi session log location.
+Configure the backend to run `pi -e ${SUPERPOWERS_ROOT\}`, use permissive TUI readiness, `/quit` shutdown, and Pi session log location.
 
 - [ ] **Step 4: Implement Pi family support**
 

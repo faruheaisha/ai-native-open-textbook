@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/revfactory/harness"
-entryUrl: "https://github.com/revfactory/harness/blob/cceac68ea1d0ad198ef4b7b906cd238375836387/README.md"
+entryUrl: "https://github.com/revfactory/harness/blob/cceac68ea1d0ad198ef4b7b906cd238375836387/skills/harness/references/agent-design-patterns.md"
+sourceRel: "skills/harness/references/agent-design-patterns.md"
+rawUrl: "/raw/09-harness/meta-skill-harness-revfactory/skills/harness/references/agent-design-patterns.md"
+sourceSha256: "d0e807b8d92c7afd0f399319d00dd49af3ef7a63408a0b00a295f46985b1fc2f"
+pageSha256: "d0e807b8d92c7afd0f399319d00dd49af3ef7a63408a0b00a295f46985b1fc2f"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -30,8 +35,8 @@ zh: ""
 
 **핵심 도구:**
 - `TeamCreate`: 팀 생성 + 팀원 스폰
-- `SendMessage({to: name})`: 특정 팀원에게 메시지
-- `SendMessage({to: "all"})`: 브로드캐스트 (비용 높음, 드물게)
+- `SendMessage(\{to: name\})`: 특정 팀원에게 메시지
+- `SendMessage(\{to: "all"\})`: 브로드캐스트 (비용 높음, 드물게)
 - `TaskCreate`/`TaskUpdate`: 공유 작업 목록 관리
 
 **특징:**
@@ -210,7 +215,7 @@ Phase별로 다른 전문가 조합이 필요하면, 이전 팀의 산출물을 
 
 ### 커스텀 타입
 
-`.claude/agents/{name}.md`에 에이전트를 정의하면 `subagent_type: "{name}"`으로 호출할 수 있다. 커스텀 에이전트는 전체 도구에 접근 가능.
+`.claude/agents/\{name\}.md`에 에이전트를 정의하면 `subagent_type: "\{name\}"`으로 호출할 수 있다. 커스텀 에이전트는 전체 도구에 접근 가능.
 
 ### 선택 기준
 
@@ -222,7 +227,7 @@ Phase별로 다른 전문가 조합이 필요하면, 이전 팀의 산출물을 
 | 설계/계획만 필요 | **`Plan`** | 분석에 집중, 코드 변경 방지 |
 | 파일 수정이 필요한 구현 작업 | **커스텀 타입** | 전체 도구 접근 + 전문 지시 |
 
-**원칙:** 모든 에이전트는 반드시 `.claude/agents/{name}.md` 파일로 정의한다. 빌트인 타입이라도 에이전트 정의 파일을 생성하여 역할·원칙·프로토콜을 명시한다. 파일로 존재해야 다음 세션에서 재사용 가능하고, 팀 통신 프로토콜이 명시되어야 협업 품질이 보장된다.
+**원칙:** 모든 에이전트는 반드시 `.claude/agents/\{name\}.md` 파일로 정의한다. 빌트인 타입이라도 에이전트 정의 파일을 생성하여 역할·원칙·프로토콜을 명시한다. 파일로 존재해야 다음 세션에서 재사용 가능하고, 팀 통신 프로토콜이 명시되어야 협업 품질이 보장된다.
 
 **모델:** 모든 에이전트는 `model: "opus"`를 사용한다. Agent 도구 호출 시 반드시 `model: "opus"` 파라미터를 명시한다.
 

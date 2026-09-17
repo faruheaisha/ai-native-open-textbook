@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/zebbern/claude-code-guide"
-entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/README.md"
+entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/skills/audit-flow/SKILL.md"
+sourceRel: "skills/audit-flow/SKILL.md"
+rawUrl: "/raw/09-harness/claude-code-guide-zebbern/skills/audit-flow/SKILL.md"
+sourceSha256: "74b3ce6d14fe5c85179a2a8ada5c5f670446f0d099204ff08fdd4fa12545ae2b"
+pageSha256: "74b3ce6d14fe5c85179a2a8ada5c5f670446f0d099204ff08fdd4fa12545ae2b"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -20,22 +25,22 @@ Interactive tracing of system flows with SQLite persistence. Supports multiple n
 
 **Directory structure by purpose:**
 
-- **Audits/Documentation/Compliance:** `docs/audits/{name}-{YYYY-MM-DD}/`
-- **Ideation/Brainstorming:** `docs/ideation/{name}-{YYYY-MM-DD}.md` (single file, no subdirectory unless artifacts needed)
-- **Debugging/Incident Review:** `docs/audits/{name}-{YYYY-MM-DD}/` (same as audits — captures evidence)
-- **Architecture Review:** `docs/audits/{name}-{YYYY-MM-DD}/` (same as audits — captures structural analysis)
+- **Audits/Documentation/Compliance:** `docs/audits/\{name\}-\{YYYY-MM-DD\}/`
+- **Ideation/Brainstorming:** `docs/ideation/\{name\}-\{YYYY-MM-DD\}.md` (single file, no subdirectory unless artifacts needed)
+- **Debugging/Incident Review:** `docs/audits/\{name\}-\{YYYY-MM-DD\}/` (same as audits — captures evidence)
+- **Architecture Review:** `docs/audits/\{name\}-\{YYYY-MM-DD\}/` (same as audits — captures structural analysis)
 
 **Required files:**
 
 - INDEX.md (manifest, entry point)
 - README.md (executive summary)
-- {name}-audit.md (flow trace)
+- \{name\}-audit.md (flow trace)
 
 **Lazy initialization:** Create subdirectories only when artifacts exist
 
 - `screenshots/` `network-traces/` `diagrams/` `code-samples/` `test-results/` `evidence/`
 
-**Naming:** `{audit-name}-{type}.md`
+**Naming:** `\{audit-name\}-\{type\}.md`
 
 ## DB-First Discipline
 
@@ -104,10 +109,10 @@ Post-export: Generate INDEX.md manifest. Organize artifacts by type. Prune empty
 | Command                              | Purpose                                        |
 | ------------------------------------ | ---------------------------------------------- |
 | `/audit-flow start`                  | New session (name, purpose, granularity)       |
-| `/audit-flow flow {name}`            | Add new flow to session                        |
-| `/audit-flow add {layer} {desc}`     | Add tuple to current flow                      |
-| `/audit-flow link {from} {to} {rel}` | Create edge (supports conditions for branches) |
-| `/audit-flow finding {desc}`         | Record finding                                 |
+| `/audit-flow flow \{name\}`            | Add new flow to session                        |
+| `/audit-flow add \{layer\} \{desc\}`     | Add tuple to current flow                      |
+| `/audit-flow link \{from\} \{to\} \{rel\}` | Create edge (supports conditions for branches) |
+| `/audit-flow finding \{desc\}`         | Record finding                                 |
 | `/audit-flow show`                   | View session/flow details                      |
 | `/audit-flow export`                 | Export (json/yaml/md/mermaid)                  |
 | `/audit-flow git-setup`              | Configure git merge/diff drivers (once)        |
@@ -337,7 +342,7 @@ python .claude/skills/audit-flow/scripts/audit.py csv-import   # CSV → DB (rec
 - [ ] Directory exists with ISO date suffix
 - [ ] INDEX.md manifest generated
 - [ ] README.md (executive summary)
-- [ ] Naming convention: `{name}-{type}.md`
+- [ ] Naming convention: `\{name\}-\{type\}.md`
 - [ ] Artifacts in typed subdirectories (lazy init)
 - [ ] Git context captured
 - [ ] Git merge driver configured (`audit.py git-setup`)

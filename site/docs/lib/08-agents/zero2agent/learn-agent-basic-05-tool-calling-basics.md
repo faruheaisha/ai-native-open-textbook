@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/ranxi2001/zero2Agent"
-entryUrl: "https://github.com/ranxi2001/zero2Agent/blob/46e9f7c28f84f54b2f6e45681d14989f01e18291/README.md"
+entryUrl: "https://github.com/ranxi2001/zero2Agent/blob/46e9f7c28f84f54b2f6e45681d14989f01e18291/learn-agent-basic/05-tool-calling-basics/index.md"
+sourceRel: "learn-agent-basic/05-tool-calling-basics/index.md"
+rawUrl: "/raw/08-agents/zero2agent/learn-agent-basic/05-tool-calling-basics/index.md"
+sourceSha256: "f281a5938969c085dcae7c52a08eb76e819b2a192f45acd4ecefecc834a95bdf"
+pageSha256: "f281a5938969c085dcae7c52a08eb76e819b2a192f45acd4ecefecc834a95bdf"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering"
-entryUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/README.md"
+entryUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/docs/specs/SPEC-000-program-constitution.md"
+sourceRel: "docs/specs/SPEC-000-program-constitution.md"
+rawUrl: "/raw/10-context-memory/agent-skills-for-context-engineering/docs/specs/SPEC-000-program-constitution.md"
+sourceSha256: "2acbb48e05ea6c4a6087c90fee6aa0b829baf6819561db80bd9eb0209b1be164"
+pageSha256: "2acbb48e05ea6c4a6087c90fee6aa0b829baf6819561db80bd9eb0209b1be164"
+contentMode: "local-full"
 zh: ""
 ---
 

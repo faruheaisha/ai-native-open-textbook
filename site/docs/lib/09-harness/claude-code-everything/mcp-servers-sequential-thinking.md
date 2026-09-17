@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know"
-entryUrl: "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/README.md"
+entryUrl: "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/mcp-servers/sequential-thinking.md"
+sourceRel: "mcp-servers/sequential-thinking.md"
+rawUrl: "/raw/09-harness/claude-code-everything/mcp-servers/sequential-thinking.md"
+sourceSha256: "a0f585d5968217fa8b8b4a187603e9d0db60a8cc85be5ef32f37ff10a805242a"
+pageSha256: "a0f585d5968217fa8b8b4a187603e9d0db60a8cc85be5ef32f37ff10a805242a"
+contentMode: "local-full"
 zh: ""
 ---
 

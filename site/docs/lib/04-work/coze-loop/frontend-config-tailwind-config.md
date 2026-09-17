@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "04-work"
 sourceUrl: "https://github.com/coze-dev/coze-loop"
-entryUrl: "https://github.com/coze-dev/coze-loop/blob/5f1e4c234fc110c1bf674e882a6fd02109e1e1e6/README.md"
+entryUrl: "https://github.com/coze-dev/coze-loop/blob/5f1e4c234fc110c1bf674e882a6fd02109e1e1e6/frontend/config/tailwind-config/README.md"
+sourceRel: "frontend/config/tailwind-config/README.md"
+rawUrl: "/raw/04-work/coze-loop/frontend/config/tailwind-config/README.md"
+sourceSha256: "1c41e8c48d68ee8b826138f1d138e4084767c0e440667c926a41ebe77b5819e5"
+pageSha256: "1c41e8c48d68ee8b826138f1d138e4084767c0e440667c926a41ebe77b5819e5"
+contentMode: "local-full"
 zh: ""
 ---
 

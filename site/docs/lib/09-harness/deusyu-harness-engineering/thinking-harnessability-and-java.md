@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/deusyu/harness-engineering"
-entryUrl: "https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/README.md"
+entryUrl: "https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/thinking/harnessability-and-java.md"
+sourceRel: "thinking/harnessability-and-java.md"
+rawUrl: "/raw/09-harness/deusyu-harness-engineering/thinking/harnessability-and-java.md"
+sourceSha256: "9825938b492a5b56943be9f0dbdfbb52fc4ad36d5bbfd6f399e6cd84e1e6436d"
+pageSha256: "9825938b492a5b56943be9f0dbdfbb52fc4ad36d5bbfd6f399e6cd84e1e6436d"
+contentMode: "local-full"
 zh: ""
 ---
 

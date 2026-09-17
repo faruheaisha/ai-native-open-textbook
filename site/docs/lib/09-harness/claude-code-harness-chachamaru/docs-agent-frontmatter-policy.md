@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/Chachamaru127/claude-code-harness"
-entryUrl: "https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/README.md"
+entryUrl: "https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/docs/agent-frontmatter-policy.md"
+sourceRel: "docs/agent-frontmatter-policy.md"
+rawUrl: "/raw/09-harness/claude-code-harness-chachamaru/docs/agent-frontmatter-policy.md"
+sourceSha256: "fceabbe49ac87a2bf7e4869db48422f16629a96b98196170d2967de7b1b66ab1"
+pageSha256: "fceabbe49ac87a2bf7e4869db48422f16629a96b98196170d2967de7b1b66ab1"
+contentMode: "local-full"
 zh: ""
 ---
 

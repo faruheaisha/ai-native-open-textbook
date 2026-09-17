@@ -10,6 +10,8 @@ lang: "英文"
 volume: "07-coding"
 sourceUrl: "https://github.com/raroque/vibe-security-skill"
 entryUrl: "https://github.com/raroque/vibe-security-skill/blob/850938f20f6915e7c3688d85c0a838f7909c87bb/README.md"
+sourceRel: ""
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -19,15 +21,17 @@ An agent skill that helps secure vibe-coded apps - or honestly any app - from co
 
 ## 课时
 
-1. [AI / LLM Integration Security](vibe-security-references-ai-integration.md)
-2. [Authentication & Authorization](vibe-security-references-authentication.md)
-3. [Data Access & Input Validation](vibe-security-references-data-access.md)
-4. [Database Access Control](vibe-security-references-database-security.md)
-5. [Deployment Security](vibe-security-references-deployment.md)
-6. [Mobile Security (React Native / Expo)](vibe-security-references-mobile.md)
-7. [Payment Security (Stripe)](vibe-security-references-payments.md)
-8. [Rate Limiting & Abuse Prevention](vibe-security-references-rate-limiting.md)
-9. [Secrets & Environment Variables](vibe-security-references-secrets-and-env.md)
-10. [Vibe Security（AI 编码安全技能）](vibe-security-SKILL.md)
+- **vibe-security**
+  - **references**
+    - [AI / LLM Integration Security](/lib/07-coding/vibe-security-skill/vibe-security-references-ai-integration.md)
+    - [Authentication & Authorization](/lib/07-coding/vibe-security-skill/vibe-security-references-authentication.md)
+    - [Data Access & Input Validation](/lib/07-coding/vibe-security-skill/vibe-security-references-data-access.md)
+    - [Database Access Control](/lib/07-coding/vibe-security-skill/vibe-security-references-database-security.md)
+    - [Deployment Security](/lib/07-coding/vibe-security-skill/vibe-security-references-deployment.md)
+    - [Mobile Security (React Native / Expo)](/lib/07-coding/vibe-security-skill/vibe-security-references-mobile.md)
+    - [Payment Security (Stripe)](/lib/07-coding/vibe-security-skill/vibe-security-references-payments.md)
+    - [Rate Limiting & Abuse Prevention](/lib/07-coding/vibe-security-skill/vibe-security-references-rate-limiting.md)
+    - [Secrets & Environment Variables](/lib/07-coding/vibe-security-skill/vibe-security-references-secrets-and-env.md)
+  - [SKILL](/lib/07-coding/vibe-security-skill/vibe-security-SKILL.md)
 
 开始学习 → [AI / LLM Integration Security](vibe-security-references-ai-integration.md)

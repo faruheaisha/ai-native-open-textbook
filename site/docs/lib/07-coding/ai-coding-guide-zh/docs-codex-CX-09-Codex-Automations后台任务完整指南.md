@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh"
-entryUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/README.md"
+entryUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/docs/codex/CX-09-Codex-Automations后台任务完整指南.md"
+sourceRel: "docs/codex/CX-09-Codex-Automations后台任务完整指南.md"
+rawUrl: "/raw/07-coding/ai-coding-guide-zh/docs/codex/CX-09-Codex-Automations后台任务完整指南.md"
+sourceSha256: "14cae81a47929cbf097f6f92d70f4dcf86c162d5a13cea0a6945c730c97f3013"
+pageSha256: "14cae81a47929cbf097f6f92d70f4dcf86c162d5a13cea0a6945c730c97f3013"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -1467,7 +1472,7 @@ Archive if all sections are empty.
 
 - **Codex App Automations 官方文档**：https://developers.openai.com/codex/app/automations
 - **本系列上一篇**：[CX-08 Subagents](/lib/07-coding/ai-coding-guide-zh/docs-codex-CX-08-Codex-Subagents多Agent协作完整指南)
-- **本系列下一篇**：[CX-10 Review / GitHub / PR](https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/docs/codex/CX-10-Codex-Review-GitHub-PR完整指南.md)
+- **本系列下一篇**：[CX-10 Review / GitHub / PR](/lib/07-coding/ai-coding-guide-zh/docs-codex-CX-10-Codex-Review-GitHub-PR完整指南)
 
 ---
 
@@ -1479,4 +1484,4 @@ Archive if all sections are empty.
 
 ## 下一步
 
-下一篇：[CX-10 Review / GitHub / PR 工作流](https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/docs/codex/CX-10-Codex-Review-GitHub-PR完整指南.md)。
+下一篇：[CX-10 Review / GitHub / PR 工作流](/lib/07-coding/ai-coding-guide-zh/docs-codex-CX-10-Codex-Review-GitHub-PR完整指南)。

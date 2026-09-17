@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/Chachamaru127/claude-code-harness"
-entryUrl: "https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/README.md"
+entryUrl: "https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/docs/claude-code-setup-mcp-telemetry-provider.md"
+sourceRel: "docs/claude-code-setup-mcp-telemetry-provider.md"
+rawUrl: "/raw/09-harness/claude-code-harness-chachamaru/docs/claude-code-setup-mcp-telemetry-provider.md"
+sourceSha256: "19a3805952124895cc9df2af550bfd3865d060e57f9b61d071139a0652932354"
+pageSha256: "19a3805952124895cc9df2af550bfd3865d060e57f9b61d071139a0652932354"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -43,7 +48,7 @@ Claude Code は工具箱で、Harness は作業手順書。
 
 ## Effort guidance
 
-`${CLAUDE_EFFORT}` は、skill 本文から現在の effort level を参照するための変数。
+`${CLAUDE_EFFORT\}` は、skill 本文から現在の effort level を参照するための変数。
 これは「skill が自分で effort を決める」ためではなく、「今どの effort で呼ばれているかを説明や分岐に使う」ためのもの。
 
 使ってよい例:
@@ -58,7 +63,7 @@ If effort is xhigh, include adversarial checks.
 
 - skill 本文で「必ず xhigh に変更して」と要求する
 - user / parent workflow の effort 指定を無視する
-- `${CLAUDE_EFFORT}` が空の時に失敗扱いにする
+- `$\{CLAUDE_EFFORT\}` が空の時に失敗扱いにする
 
 ## MCP `alwaysLoad`
 

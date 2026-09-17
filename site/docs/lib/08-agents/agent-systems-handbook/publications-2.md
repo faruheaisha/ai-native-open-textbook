@@ -1,0 +1,36 @@
+---
+title: "Publications"
+sourceId: "08-agents/agent-systems-handbook"
+sourceTitle: "Agent Systems Handbook（智能体系统手册）"
+sourceKind: "工程手册"
+licenseLabel: "限非商用"
+lang: "英文"
+tier: 1
+volume: "08-agents"
+sourceUrl: "https://github.com/Prompthon-IO/agent-systems-handbook"
+entryUrl: "https://github.com/Prompthon-IO/agent-systems-handbook/blob/5b71cfa598701a34834f33b42be5f8a422138a3c/publications/README.md"
+sourceRel: "publications/README.md"
+rawUrl: "/raw/08-agents/agent-systems-handbook/publications/README.md"
+sourceSha256: "1d8f37a8a73d887ba8b5ee717825d6c2e7aa3a1468f4e1e407d775cdf1fb6371"
+pageSha256: "1d8f37a8a73d887ba8b5ee717825d6c2e7aa3a1468f4e1e407d775cdf1fb6371"
+contentMode: "local-full"
+zh: ""
+---
+
+# Publications
+
+This lane is the bridge between repo-native lab pages and external
+publishing surfaces such as blog posts, essays, and social extensions.
+
+## Purpose
+
+- Keep external writing connected to core lab pages
+- Track ownership and freshness of publication-linked content
+- Make cross-posting an editorial extension instead of detached marketing
+
+## Working rule
+
+Every mature lab page can later point to a small set of external readings.
+Those links should be driven by metadata rather than added ad hoc.
+
+See [metadata-schema.mdx](/lib/08-agents/agent-systems-handbook/publications-metadata-schema) for the current baseline fields.

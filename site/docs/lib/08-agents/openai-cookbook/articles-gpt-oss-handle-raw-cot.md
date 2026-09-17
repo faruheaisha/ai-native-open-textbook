@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/openai/openai-cookbook"
-entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/README.md"
+entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/articles/gpt-oss/handle-raw-cot.md"
+sourceRel: "articles/gpt-oss/handle-raw-cot.md"
+rawUrl: "/raw/08-agents/openai-cookbook/articles/gpt-oss/handle-raw-cot.md"
+sourceSha256: "fd3c1c839df71d5542e966e732bd75ba8717818f75c9047fff4bf1b3322dd7dd"
+pageSha256: "fd3c1c839df71d5542e966e732bd75ba8717818f75c9047fff4bf1b3322dd7dd"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -30,7 +35,7 @@ To summarize a couple of things:
 
 If you are implementing a Chat Completions API, there is no official spec for handling chain of thought in the published OpenAI specs, as our hosted models will not offer this feature for the time being. We ask you to follow [the following convention from OpenRouter instead](https://openrouter.ai/docs/use-cases/reasoning-tokens). Including:
 
-1. Raw CoT will be returned as part of the response unless `reasoning: { exclude: true }` is specified as part of the request. [See details here](https://openrouter.ai/docs/use-cases/reasoning-tokens#legacy-parameters)
+1. Raw CoT will be returned as part of the response unless `reasoning: \{ exclude: true \}` is specified as part of the request. [See details here](https://openrouter.ai/docs/use-cases/reasoning-tokens#legacy-parameters)
 2. The raw CoT is exposed as a `reasoning` property on the message in the output
 3. For delta events the delta has a `reasoning` property
 4. On subsequent turns you should be able to receive the previous reasoning (as `reasoning`) and handle it in accordance with the behavior specified in the chat template section above.

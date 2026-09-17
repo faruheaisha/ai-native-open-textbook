@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/zebbern/claude-code-guide"
-entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/README.md"
+entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/skills/cloud-penetration-testing/SKILL.md"
+sourceRel: "skills/cloud-penetration-testing/SKILL.md"
+rawUrl: "/raw/09-harness/claude-code-guide-zebbern/skills/cloud-penetration-testing/SKILL.md"
+sourceSha256: "73527a8c1f4d8175086fefe25b9cadd858f138fea6b76ad35b58f5db7d5a1efc"
+pageSha256: "73527a8c1f4d8175086fefe25b9cadd858f138fea6b76ad35b58f5db7d5a1efc"
+contentMode: "local-full"
 zh: ""
 ---
 

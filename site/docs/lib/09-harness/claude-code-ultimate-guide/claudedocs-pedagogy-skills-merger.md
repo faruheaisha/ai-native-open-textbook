@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide"
-entryUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/README.md"
+entryUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/claudedocs/pedagogy-skills-merger.md"
+sourceRel: "claudedocs/pedagogy-skills-merger.md"
+rawUrl: "/raw/09-harness/claude-code-ultimate-guide/claudedocs/pedagogy-skills-merger.md"
+sourceSha256: "25c454020941471b1241059e7399807a10c71e33e407cbcefc1bef6fad87eb58"
+pageSha256: "25c454020941471b1241059e7399807a10c71e33e407cbcefc1bef6fad87eb58"
+contentMode: "local-full"
 zh: ""
 ---
 

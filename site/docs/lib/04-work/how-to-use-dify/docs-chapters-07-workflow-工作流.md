@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/hijasonxu1/How-to-use-dify"
-entryUrl: "https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/README.md"
+entryUrl: "https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/docs/chapters/07-workflow-工作流.md"
+sourceRel: "docs/chapters/07-workflow-工作流.md"
+rawUrl: "/raw/04-work/how-to-use-dify/docs/chapters/07-workflow-工作流.md"
+sourceSha256: "3182c04dd5d17088ec198764a5dd86fdc80f987acb152651ac063e4f75af26a8"
+pageSha256: "3182c04dd5d17088ec198764a5dd86fdc80f987acb152651ac063e4f75af26a8"
+contentMode: "local-full"
 zh: ""
 ---
 

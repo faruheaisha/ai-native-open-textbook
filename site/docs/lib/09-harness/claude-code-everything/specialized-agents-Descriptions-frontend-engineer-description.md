@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know"
-entryUrl: "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/README.md"
+entryUrl: "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/Descriptions/frontend-engineer-description.md"
+sourceRel: "specialized-agents/Descriptions/frontend-engineer-description.md"
+rawUrl: "/raw/09-harness/claude-code-everything/specialized-agents/Descriptions/frontend-engineer-description.md"
+sourceSha256: "0e3674a217f64f4eeb2640e6f0ad08982ed0428b7774075f3f28c706d594088b"
+pageSha256: "0e3674a217f64f4eeb2640e6f0ad08982ed0428b7774075f3f28c706d594088b"
+contentMode: "local-full"
 zh: ""
 ---
 

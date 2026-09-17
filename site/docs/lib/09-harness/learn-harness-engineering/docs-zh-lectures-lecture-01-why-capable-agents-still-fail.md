@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/walkinglabs/learn-harness-engineering"
-entryUrl: "https://github.com/walkinglabs/learn-harness-engineering/blob/77e7a3e21469dcbece2558086c8d91657abeaa40/README.md"
+entryUrl: "https://github.com/walkinglabs/learn-harness-engineering/blob/77e7a3e21469dcbece2558086c8d91657abeaa40/docs/zh/lectures/lecture-01-why-capable-agents-still-fail/index.md"
+sourceRel: "docs/zh/lectures/lecture-01-why-capable-agents-still-fail/index.md"
+rawUrl: "/raw/09-harness/learn-harness-engineering/docs/zh/lectures/lecture-01-why-capable-agents-still-fail/index.md"
+sourceSha256: "c6c28a1d2c8eeff07a08216956f841929c5f189733c33fa5f10ac8c55f3251c7"
+pageSha256: "c6c28a1d2c8eeff07a08216956f841929c5f189733c33fa5f10ac8c55f3251c7"
+contentMode: "local-full"
 zh: ""
 ---
 

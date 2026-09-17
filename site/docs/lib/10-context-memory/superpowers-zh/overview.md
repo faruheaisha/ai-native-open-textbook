@@ -9,12 +9,17 @@ tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/jnMetaCode/superpowers-zh"
 entryUrl: "https://github.com/jnMetaCode/superpowers-zh/blob/79ea5d262b7a1c7ce76a289390853bca51f940d4/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/10-context-memory/superpowers-zh/README.md"
+sourceSha256: "8f2eda4018844660a1cda873792afcb8c605249008441e7a48a580656bd92935"
+pageSha256: "8f2eda4018844660a1cda873792afcb8c605249008441e7a48a580656bd92935"
+contentMode: "local-full"
 zh: ""
 ---
 
 # superpowers-zh（AI 编程超能力 · 中文增强版）
 
-🌐 **简体中文** | [繁體中文](https://github.com/jnMetaCode/superpowers-zh/blob/79ea5d262b7a1c7ce76a289390853bca51f940d4/README.zh-Hant.md) | [English (upstream)](https://github.com/obra/superpowers)
+🌐 **简体中文** | [繁體中文](/lib/10-context-memory/superpowers-zh/README.zh-Hant) | [English (upstream)](https://github.com/obra/superpowers)
 
 > 🦸 **superpowers（250k+ ⭐）完整汉化 + 4 个中国原创 skills** — 让 Claude Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI / Qoder 等 **26 款 AI 编程工具**真正会干活。从头脑风暴到代码审查，从 TDD 到调试，每个 skill 都是经过实战验证的工作方法论。
 
@@ -275,7 +280,7 @@ cp -r superpowers-zh/skills /your/project/.qoder/skills      # Qoder（阿里 AI
 | Claw Code | `.claw/skills/*/SKILL.md` | Rust 版 CLI agent，兼容 Claude Code 的 SKILL.md 格式 |
 | Qoder | `.qoder/skills/*/SKILL.md` + `.qoder/rules/superpowers-zh.md` | 阿里 AI IDE，自动生成 `trigger: always_on` 的 bootstrap rule |
 
-> **详细安装指南**：[Kiro](/lib/10-context-memory/superpowers-zh/docs-README.kiro) · [DeerFlow](/lib/10-context-memory/superpowers-zh/docs-README.deerflow) · [Trae](https://github.com/jnMetaCode/superpowers-zh/blob/79ea5d262b7a1c7ce76a289390853bca51f940d4/docs/README.trae.md) · [Antigravity](/lib/10-context-memory/superpowers-zh/docs-README.antigravity) · [VS Code](https://github.com/jnMetaCode/superpowers-zh/blob/79ea5d262b7a1c7ce76a289390853bca51f940d4/docs/README.vscode.md) · [Codex](/lib/10-context-memory/superpowers-zh/docs-README.codex) · [OpenCode](/lib/10-context-memory/superpowers-zh/docs-README.opencode) · [OpenClaw](/lib/10-context-memory/superpowers-zh/docs-README.openclaw) · [Windsurf](https://github.com/jnMetaCode/superpowers-zh/blob/79ea5d262b7a1c7ce76a289390853bca51f940d4/docs/README.windsurf.md) · [Gemini CLI](/lib/10-context-memory/superpowers-zh/docs-README.gemini-cli) · [Aider](/lib/10-context-memory/superpowers-zh/docs-README.aider) · [Qwen Code](/lib/10-context-memory/superpowers-zh/docs-README.qwen) · [Hermes Agent](/lib/10-context-memory/superpowers-zh/docs-README.hermes) · [Claw Code](/lib/10-context-memory/superpowers-zh/docs-README.claw) · [Qoder](/lib/10-context-memory/superpowers-zh/docs-README.qoder) · [CodeBuddy](/lib/10-context-memory/superpowers-zh/docs-README.codebuddy) · [华为云码道](/lib/10-context-memory/superpowers-zh/docs-README.codearts) · [Kimi Code](/lib/10-context-memory/superpowers-zh/docs-README.kimi) · [Pi](/lib/10-context-memory/superpowers-zh/docs-README.pi) · [Cline](/lib/10-context-memory/superpowers-zh/docs-README.cline) · [Kilo Code](/lib/10-context-memory/superpowers-zh/docs-README.kilocode) · [Crush](/lib/10-context-memory/superpowers-zh/docs-README.crush)
+> **详细安装指南**：[Kiro](/lib/10-context-memory/superpowers-zh/docs-README.kiro) · [DeerFlow](/lib/10-context-memory/superpowers-zh/docs-README.deerflow) · [Trae](/lib/10-context-memory/superpowers-zh/docs-README.trae) · [Antigravity](/lib/10-context-memory/superpowers-zh/docs-README.antigravity) · [VS Code](/lib/10-context-memory/superpowers-zh/docs-README.vscode) · [Codex](/lib/10-context-memory/superpowers-zh/docs-README.codex) · [OpenCode](/lib/10-context-memory/superpowers-zh/docs-README.opencode) · [OpenClaw](/lib/10-context-memory/superpowers-zh/docs-README.openclaw) · [Windsurf](/lib/10-context-memory/superpowers-zh/docs-README.windsurf) · [Gemini CLI](/lib/10-context-memory/superpowers-zh/docs-README.gemini-cli) · [Aider](/lib/10-context-memory/superpowers-zh/docs-README.aider) · [Qwen Code](/lib/10-context-memory/superpowers-zh/docs-README.qwen) · [Hermes Agent](/lib/10-context-memory/superpowers-zh/docs-README.hermes) · [Claw Code](/lib/10-context-memory/superpowers-zh/docs-README.claw) · [Qoder](/lib/10-context-memory/superpowers-zh/docs-README.qoder) · [CodeBuddy](/lib/10-context-memory/superpowers-zh/docs-README.codebuddy) · [华为云码道](/lib/10-context-memory/superpowers-zh/docs-README.codearts) · [Kimi Code](/lib/10-context-memory/superpowers-zh/docs-README.kimi) · [Pi](/lib/10-context-memory/superpowers-zh/docs-README.pi) · [Cline](/lib/10-context-memory/superpowers-zh/docs-README.cline) · [Kilo Code](/lib/10-context-memory/superpowers-zh/docs-README.kilocode) · [Crush](/lib/10-context-memory/superpowers-zh/docs-README.crush)
 
 ### 卸载 / 误装清理（v1.2.1+）
 

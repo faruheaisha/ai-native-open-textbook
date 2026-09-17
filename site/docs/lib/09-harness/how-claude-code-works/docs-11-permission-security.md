@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works"
-entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/README.md"
+entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/11-permission-security.md"
+sourceRel: "docs/11-permission-security.md"
+rawUrl: "/raw/09-harness/how-claude-code-works/docs/11-permission-security.md"
+sourceSha256: "16d9e1827151bcd8e3905206e35baded1b1639e4c8786975899c5530487479ca"
+pageSha256: "16d9e1827151bcd8e3905206e35baded1b1639e4c8786975899c5530487479ca"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -459,7 +464,7 @@ const SEPARATOR_TYPES = new Set(['&&', '||', '|', ';', '&', '|&', '\n'])
 
 这意味着以下结构都会被标记为 `too-complex`，需要用户确认：
 - 命令替换 `$(cmd)` 或 `` `cmd` ``
-- 变量展开 `${var}`
+- 变量展开 `${var\}`
 - 算术展开 `$((expr))`
 - 控制流 `if`/`for`/`while`/`case`
 - 函数定义
@@ -504,12 +509,12 @@ tree-sitter 是新引入的解析方案，为了保证稳定性，Claude Code �
 | 8 | 危险展开模式 | 防止命令/进程替换 | `echo $(rm -rf /)`、`<(cmd)`、`` `cmd` `` 等 |
 | 9 | 输入重定向 | 防止输入劫持 | `cmd < /etc/passwd` |
 | 10 | 输出重定向 | 防止输出劫持 | `cmd > ~/.bashrc` 覆盖配置 |
-| 11 | IFS 注入 | 防止利用 IFS 绕过正则校验 | `cat${IFS:0:1}/etc/passwd` 用 IFS 展开代替空格绕过正则 |
+| 11 | IFS 注入 | 防止利用 IFS 绕过正则校验 | `cat$\{IFS:0:1\}/etc/passwd` 用 IFS 展开代替空格绕过正则 |
 | 12 | git commit 替换 | 防止未授权提交 | git 命令中嵌入命令替换 |
 | 13 | /proc/environ | 防止环境泄露 | 读取 `/proc/self/environ` 泄露 API keys |
 | 14 | 格式错误 Token | 防止解析混淆 | shellQuote 库误解析的 token |
 | 15 | 反斜杠空白 | 防止转义序列绕过 | `\ ` 在不同 parser 中有不同含义 |
-| 16 | 大括号展开 | 防止展开攻击 | `{a,b}` 展开为多个参数 |
+| 16 | 大括号展开 | 防止展开攻击 | `\{a,b\}` 展开为多个参数 |
 | 17 | 控制字符 | 防止终端注入 | 嵌入 ANSI 转义序列控制终端 |
 | 18 | Unicode 空白 | 防止视觉混淆 | 使用 U+200B 等零宽字符隐藏内容 |
 | 19 | 词中哈希 | 防止注释注入 | `cmd#comment` 在某些 shell 中是注释 |
@@ -619,7 +624,7 @@ export function normalizeCaseForComparison(path: string): string {
 
 ### Skill 作用域缩窄
 
-`.claude/skills/` 目录下的文件需要特殊处理。Claude Code 的 Skill 系统允许用户创建自定义技能，技能文件存储在 `.claude/skills/{skill-name}/` 目录下。
+`.claude/skills/` 目录下的文件需要特殊处理。Claude Code 的 Skill 系统允许用户创建自定义技能，技能文件存储在 `.claude/skills/\{skill-name\}/` 目录下。
 
 当模型需要编辑某个 Skill 的文件时，系统不会给出宽泛的"允许编辑 .claude/ 目录"选项——那太危险，会暴露 settings.json 和 hooks/——而是生成一条缩窄的权限建议：只允许编辑这个 Skill 自己的目录。
 
@@ -681,7 +686,7 @@ Claude Code 使用 `@anthropic-ai/sandbox-runtime` 包，通过 `SandboxManager`
 沙箱限制命令在三个维度上的能力：
 
 文件系统限制：
-- 可写范围：项目目录加临时目录 `/tmp/claude-{uid}/`。即使命令试图写入 `~/.bashrc` 或 `/etc/passwd`，也会被文件系统沙箱拦截
+- 可写范围：项目目录加临时目录 `/tmp/claude-\{uid\}/`。即使命令试图写入 `~/.bashrc` 或 `/etc/passwd`，也会被文件系统沙箱拦截
 - 始终禁写：Claude Code 自身的设置文件 `settings.json`、`settings.local.json`——防止沙箱内的命令通过修改权限规则实现"沙箱逃逸"
 - 可读范围：项目目录加系统必要路径 `/usr/`、`/lib/` 等，可通过配置扩展
 
@@ -701,7 +706,7 @@ Claude Code 使用 `@anthropic-ai/sandbox-runtime` 包，通过 `SandboxManager`
 | 模式 | 含义 | 示例 |
 |------|------|------|
 | `//path` | 文件系统绝对路径 | `//var/log` → `/var/log` |
-| `/path` | 相对于设置文件所在目录 | `/src` → `{settings-dir}/src` |
+| `/path` | 相对于设置文件所在目录 | `/src` → `\{settings-dir\}/src` |
 | `~/path` | 用户主目录 | `~/Downloads` |
 | `./path` 或 `path` | 相对路径 | 由沙箱运行时处理 |
 

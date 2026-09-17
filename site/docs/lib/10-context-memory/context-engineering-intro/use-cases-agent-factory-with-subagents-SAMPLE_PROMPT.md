@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "10-context-memory"
 sourceUrl: "https://github.com/coleam00/context-engineering-intro"
-entryUrl: "https://github.com/coleam00/context-engineering-intro/blob/a2d84b021cee1e2f4e77ba854bba0be8cb319035/README.md"
+entryUrl: "https://github.com/coleam00/context-engineering-intro/blob/a2d84b021cee1e2f4e77ba854bba0be8cb319035/use-cases/agent-factory-with-subagents/SAMPLE_PROMPT.md"
+sourceRel: "use-cases/agent-factory-with-subagents/SAMPLE_PROMPT.md"
+rawUrl: "/raw/10-context-memory/context-engineering-intro/use-cases/agent-factory-with-subagents/SAMPLE_PROMPT.md"
+sourceSha256: "a2ada81b71342854094cdb59ed8b1ca57813799beaa63f043ab1ee87808f91f9"
+pageSha256: "a2ada81b71342854094cdb59ed8b1ca57813799beaa63f043ab1ee87808f91f9"
+contentMode: "local-full"
 zh: "on"
 ---
 

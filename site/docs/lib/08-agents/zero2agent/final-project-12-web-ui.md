@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/ranxi2001/zero2Agent"
-entryUrl: "https://github.com/ranxi2001/zero2Agent/blob/46e9f7c28f84f54b2f6e45681d14989f01e18291/README.md"
+entryUrl: "https://github.com/ranxi2001/zero2Agent/blob/46e9f7c28f84f54b2f6e45681d14989f01e18291/final-project/12-web-ui/index.md"
+sourceRel: "final-project/12-web-ui/index.md"
+rawUrl: "/raw/08-agents/zero2agent/final-project/12-web-ui/index.md"
+sourceSha256: "a1ee46316a4fee753563d16899691b3dd1051e8bbb2d4e7fceb75e3d05bca055"
+pageSha256: "a1ee46316a4fee753563d16899691b3dd1051e8bbb2d4e7fceb75e3d05bca055"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -254,7 +259,7 @@ export function StreamText({ url, onComplete }: StreamTextProps) {
 
 #### ProgressTracker：实时诊断进度
 
-&#123;% raw %}
+\{% raw %\}
 ```typescript
 // components/diagnose/ProgressTracker.tsx
 
@@ -348,7 +353,7 @@ export function ProgressTracker({ sessionId }: { sessionId: string }) {
   );
 }
 ```
-&#123;% endraw %}
+\{% endraw %\}
 
 #### AudioRecorder：浏览器录音
 

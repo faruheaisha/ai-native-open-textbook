@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/ed-donner/production"
-entryUrl: "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/README.md"
+entryUrl: "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/community_contributions/igniters_sodiq/week_1.md"
+sourceRel: "community_contributions/igniters_sodiq/week_1.md"
+rawUrl: "/raw/08-agents/ed-donner-production/community_contributions/igniters_sodiq/week_1.md"
+sourceSha256: "420bb313c6ac07f23c561a175f950a4dc1887253935e3bf9be17f6996570761c"
+pageSha256: "420bb313c6ac07f23c561a175f950a4dc1887253935e3bf9be17f6996570761c"
+contentMode: "local-full"
 zh: ""
 ---
 

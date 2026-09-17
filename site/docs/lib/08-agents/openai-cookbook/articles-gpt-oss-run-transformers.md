@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/openai/openai-cookbook"
-entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/README.md"
+entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/articles/gpt-oss/run-transformers.md"
+sourceRel: "articles/gpt-oss/run-transformers.md"
+rawUrl: "/raw/08-agents/openai-cookbook/articles/gpt-oss/run-transformers.md"
+sourceSha256: "12dba93671b6ccc4c2e973b446e0ae2169909d69122450016724c14d8ce207af"
+pageSha256: "12dba93671b6ccc4c2e973b446e0ae2169909d69122450016724c14d8ce207af"
+contentMode: "local-full"
 zh: ""
 ---
 

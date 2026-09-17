@@ -10,6 +10,8 @@ lang: "英文"
 volume: "09-harness"
 sourceUrl: "https://github.com/luongnv89/claude-howto"
 entryUrl: "https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/README.md"
+sourceRel: ""
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -19,28 +21,238 @@ Go from typing `claude` to orchestrating agents, hooks, skills, and MCP servers 
 
 ## 课时
 
-1. [Claude How-To](01-slash-commands-commit.md)
-2. [Documentation Refactor](01-slash-commands-doc-refactor.md)
-3. [API Documentation Generator](01-slash-commands-generate-api-docs.md)
-4. [Code Optimization](01-slash-commands-optimize.md)
-5. [Pull Request Preparation Checklist](01-slash-commands-pr.md)
-6. [Commit and Push Everything](01-slash-commands-push-all.md)
-7. [Slash Commands](01-slash-commands.md)
-8. [Setup CI/CD Pipeline](01-slash-commands-setup-ci-cd.md)
-9. [Expand Unit Tests](01-slash-commands-unit-test-expand.md)
-10. [API Module Standards](02-memory-directory-api-CLAUDE.md)
-11. [My Development Preferences](02-memory-personal-CLAUDE.md)
-12. [Project Configuration](02-memory-project-CLAUDE.md)
-13. [Memory Guide](02-memory.md)
-14. [Claude How-To](03-skills-blog-draft-SKILL.md)
-15. [[Blog Post Title]](03-skills-blog-draft-templates-draft-template.md)
-16. [Blog Post Outline: [Title]](03-skills-blog-draft-templates-outline-template.md)
-17. [Brand Voice Skill](03-skills-brand-voice-SKILL.md)
-18. [Brand Voice Tone Examples](03-skills-brand-voice-tone-examples.md)
-19. [Claude How-To](03-skills-claude-md-SKILL.md)
-20. [Code Review Skill](03-skills-code-review-specialist-SKILL.md)
-21. [Code Review Finding Template](03-skills-code-review-specialist-templates-finding-template.md)
-22. [Code Review Checklist](03-skills-code-review-specialist-templates-review-checklist.md)
-23. [API Documentation Generator Skill](03-skills-doc-generator-SKILL.md)
+- [English](/lib/09-harness/claude-howto/01-slash-commands.md)
+- **Claude How To が解決する方法**
+  - **得られるもの**
+    - [学習パスを始める ->](/lib/09-harness/claude-howto/zh-LEARNING-ROADMAP.md)
+- **どこから始めればよいか分からない？**
+  - [スラッシュコマンド](/lib/09-harness/claude-howto/zh-01-slash-commands.md)
+  - [スキル](/lib/09-harness/claude-howto/zh-03-skills.md)
+  - [高度な機能](/lib/09-harness/claude-howto/zh-09-advanced-features.md)
+  - [メモリ](/lib/09-harness/claude-howto/zh-02-memory.md)
+  - [チェックポイント](/lib/09-harness/claude-howto/zh-08-checkpoints.md)
+  - [CLI 基礎](/lib/09-harness/claude-howto/zh-10-cli.md)
+  - [フック](/lib/09-harness/claude-howto/zh-06-hooks.md)
+  - [MCP](/lib/09-harness/claude-howto/zh-05-mcp.md)
+  - [サブエージェント](/lib/09-harness/claude-howto/zh-04-subagents.md)
+  - [プラグイン](/lib/09-harness/claude-howto/zh-07-plugins.md)
+- **今日から Claude Code をマスターし始める**
+  - [CATALOG.md](/lib/09-harness/claude-howto/zh-CATALOG.md)
+  - **サブエージェントに委譲されない**
+    - [TESTING.md](/lib/09-harness/claude-howto/_github-TESTING.md)
+    - [scripts/README.md](/lib/09-harness/claude-howto/scripts.md)
+  - **セキュリティ問題の報告**
+    - [.github/SECURITYREPORTING.md](/lib/09-harness/claude-howto/_github-SECURITY_REPORTING.md)
+- [Claude Code Feature Catalog](/lib/09-harness/claude-howto/CATALOG.md)
+- [Complete Guide to Claude Concepts](/lib/09-harness/claude-howto/claude_concepts_guide.md)
+- [Clean Code Rules for AI Code Generation](/lib/09-harness/claude-howto/clean-code-rules.md)
+- [📚 Claude Code Learning Roadmap](/lib/09-harness/claude-howto/LEARNING-ROADMAP.md)
+- [Claude Code Examples - Quick Reference Card](/lib/09-harness/claude-howto/QUICK_REFERENCE.md)
+- [List of good resources](/lib/09-harness/claude-howto/resources.md)
+- [Style Guide](/lib/09-harness/claude-howto/STYLE_GUIDE.md)
+- **.claude**
+  - **skills**
+    - [Lesson Quiz](/lib/09-harness/claude-howto/_claude-skills-lesson-quiz.md)
+      - [Lesson Quiz](/lib/09-harness/claude-howto/_claude-skills-lesson-quiz-SKILL.md)
+      - **references**
+        - [Lesson Quiz — Question Bank](/lib/09-harness/claude-howto/_claude-skills-lesson-quiz-references-question-bank.md)
+        - [Results Report Template](/lib/09-harness/claude-howto/_claude-skills-lesson-quiz-references-results-template.md)
+    - [Self-Assessment & Learning Path Advisor](/lib/09-harness/claude-howto/_claude-skills-self-assessment.md)
+      - [Self-Assessment & Learning Path Advisor](/lib/09-harness/claude-howto/_claude-skills-self-assessment-SKILL.md)
+      - **references**
+        - [Deep Assessment — Round Questions](/lib/09-harness/claude-howto/_claude-skills-self-assessment-references-deep-assessment-rounds.md)
+        - [Output Templates](/lib/09-harness/claude-howto/_claude-skills-self-assessment-references-output-templates.md)
+        - [Topic-Specific Recommendations](/lib/09-harness/claude-howto/_claude-skills-self-assessment-references-topic-recommendations.md)
+- **.github**
+  - [Claude How-To](/lib/09-harness/claude-howto/_github-pull_request_template.md)
+- **01-slash-commands**
+  - [Claude How-To](/lib/09-harness/claude-howto/01-slash-commands-commit.md)
+  - [Documentation Refactor](/lib/09-harness/claude-howto/01-slash-commands-doc-refactor.md)
+  - [API Documentation Generator](/lib/09-harness/claude-howto/01-slash-commands-generate-api-docs.md)
+  - [Code Optimization](/lib/09-harness/claude-howto/01-slash-commands-optimize.md)
+  - [Pull Request Preparation Checklist](/lib/09-harness/claude-howto/01-slash-commands-pr.md)
+  - [Commit and Push Everything](/lib/09-harness/claude-howto/01-slash-commands-push-all.md)
+  - [Setup CI/CD Pipeline](/lib/09-harness/claude-howto/01-slash-commands-setup-ci-cd.md)
+  - [Expand Unit Tests](/lib/09-harness/claude-howto/01-slash-commands-unit-test-expand.md)
+- [Memory Guide](/lib/09-harness/claude-howto/02-memory.md)
+  - [API Module Standards](/lib/09-harness/claude-howto/02-memory-directory-api-CLAUDE.md)
+  - [My Development Preferences](/lib/09-harness/claude-howto/02-memory-personal-CLAUDE.md)
+  - [Project Configuration](/lib/09-harness/claude-howto/02-memory-project-CLAUDE.md)
+- [Agent Skills Guide](/lib/09-harness/claude-howto/03-skills.md)
+  - **blog-draft**
+    - [Claude How-To](/lib/09-harness/claude-howto/03-skills-blog-draft-SKILL.md)
+    - **templates**
+      - [[Blog Post Title]](/lib/09-harness/claude-howto/03-skills-blog-draft-templates-draft-template.md)
+      - [Blog Post Outline: [Title]](/lib/09-harness/claude-howto/03-skills-blog-draft-templates-outline-template.md)
+  - **brand-voice**
+    - [Brand Voice Skill](/lib/09-harness/claude-howto/03-skills-brand-voice-SKILL.md)
+    - [Brand Voice Tone Examples](/lib/09-harness/claude-howto/03-skills-brand-voice-tone-examples.md)
+  - **claude-md**
+    - [Claude How-To](/lib/09-harness/claude-howto/03-skills-claude-md-SKILL.md)
+  - **code-review-specialist**
+    - [Code Review Skill](/lib/09-harness/claude-howto/03-skills-code-review-specialist-SKILL.md)
+    - **templates**
+      - [Code Review Finding Template](/lib/09-harness/claude-howto/03-skills-code-review-specialist-templates-finding-template.md)
+      - [Code Review Checklist](/lib/09-harness/claude-howto/03-skills-code-review-specialist-templates-review-checklist.md)
+  - **doc-generator**
+    - [API Documentation Generator Skill](/lib/09-harness/claude-howto/03-skills-doc-generator-SKILL.md)
+  - **refactor**
+    - [Code Refactoring Skill](/lib/09-harness/claude-howto/03-skills-refactor-SKILL.md)
+    - **references**
+      - [Code Smells Catalog](/lib/09-harness/claude-howto/03-skills-refactor-references-code-smells.md)
+      - [Refactoring Catalog](/lib/09-harness/claude-howto/03-skills-refactor-references-refactoring-catalog.md)
+    - **templates**
+      - [Refactoring Plan Template](/lib/09-harness/claude-howto/03-skills-refactor-templates-refactoring-plan.md)
+- [Subagents - Complete Reference Guide](/lib/09-harness/claude-howto/04-subagents.md)
+  - [Clean Code Reviewer Agent](/lib/09-harness/claude-howto/04-subagents-clean-code-reviewer.md)
+  - [Code Reviewer Agent](/lib/09-harness/claude-howto/04-subagents-code-reviewer.md)
+  - [Data Scientist Agent](/lib/09-harness/claude-howto/04-subagents-data-scientist.md)
+  - [Debugger Agent](/lib/09-harness/claude-howto/04-subagents-debugger.md)
+  - [Documentation Writer Agent](/lib/09-harness/claude-howto/04-subagents-documentation-writer.md)
+  - [Implementation Agent](/lib/09-harness/claude-howto/04-subagents-implementation-agent.md)
+  - [Performance Optimizer Agent](/lib/09-harness/claude-howto/04-subagents-performance-optimizer.md)
+  - [Secure Code Reviewer](/lib/09-harness/claude-howto/04-subagents-secure-reviewer.md)
+  - [Test Engineer Agent](/lib/09-harness/claude-howto/04-subagents-test-engineer.md)
+- [MCP (Model Context Protocol)](/lib/09-harness/claude-howto/05-mcp.md)
+- [Hooks](/lib/09-harness/claude-howto/06-hooks.md)
+- [Claude Code Plugins](/lib/09-harness/claude-howto/07-plugins.md)
+  - [DevOps Automation Plugin](/lib/09-harness/claude-howto/07-plugins-devops-automation.md)
+    - **agents**
+      - [Alert Analyzer](/lib/09-harness/claude-howto/07-plugins-devops-automation-agents-alert-analyzer.md)
+      - [Deployment Specialist](/lib/09-harness/claude-howto/07-plugins-devops-automation-agents-deployment-specialist.md)
+      - [Incident Commander](/lib/09-harness/claude-howto/07-plugins-devops-automation-agents-incident-commander.md)
+    - **commands**
+      - [Deploy Application](/lib/09-harness/claude-howto/07-plugins-devops-automation-commands-deploy.md)
+      - [Incident Response](/lib/09-harness/claude-howto/07-plugins-devops-automation-commands-incident.md)
+      - [Rollback Deployment](/lib/09-harness/claude-howto/07-plugins-devops-automation-commands-rollback.md)
+      - [System Status Check](/lib/09-harness/claude-howto/07-plugins-devops-automation-commands-status.md)
+  - [Documentation Plugin](/lib/09-harness/claude-howto/07-plugins-documentation.md)
+    - **agents**
+      - [API Documenter](/lib/09-harness/claude-howto/07-plugins-documentation-agents-api-documenter.md)
+      - [Code Commentator](/lib/09-harness/claude-howto/07-plugins-documentation-agents-code-commentator.md)
+      - [Example Generator](/lib/09-harness/claude-howto/07-plugins-documentation-agents-example-generator.md)
+    - **commands**
+      - [API Documentation Generator](/lib/09-harness/claude-howto/07-plugins-documentation-commands-generate-api-docs.md)
+      - [README Generator](/lib/09-harness/claude-howto/07-plugins-documentation-commands-generate-.md)
+      - [Documentation Sync](/lib/09-harness/claude-howto/07-plugins-documentation-commands-sync-docs.md)
+      - [Documentation Validation](/lib/09-harness/claude-howto/07-plugins-documentation-commands-validate-docs.md)
+    - **templates**
+      - [ADR [Number]: [Title]](/lib/09-harness/claude-howto/07-plugins-documentation-templates-adr-template.md)
+      - [[METHOD] /api/v1/[endpoint]](/lib/09-harness/claude-howto/07-plugins-documentation-templates-api-endpoint.md)
+      - [Function: functionName](/lib/09-harness/claude-howto/07-plugins-documentation-templates-function-docs.md)
+  - [PR Review Plugin](/lib/09-harness/claude-howto/07-plugins-pr-review.md)
+    - **agents**
+      - [Performance Analyzer](/lib/09-harness/claude-howto/07-plugins-pr-review-agents-performance-analyzer.md)
+      - [Security Reviewer](/lib/09-harness/claude-howto/07-plugins-pr-review-agents-security-reviewer.md)
+      - [Test Checker](/lib/09-harness/claude-howto/07-plugins-pr-review-agents-test-checker.md)
+    - **commands**
+      - [Security Check](/lib/09-harness/claude-howto/07-plugins-pr-review-commands-check-security.md)
+      - [Test Coverage Check](/lib/09-harness/claude-howto/07-plugins-pr-review-commands-check-tests.md)
+      - [PR Review](/lib/09-harness/claude-howto/07-plugins-pr-review-commands-review-pr.md)
+- [Checkpoints and Rewind](/lib/09-harness/claude-howto/08-checkpoints.md)
+  - [Checkpoint Examples](/lib/09-harness/claude-howto/08-checkpoints-checkpoint-examples.md)
+- [Claude How-To](/lib/09-harness/claude-howto/09-advanced-features/33-Additional_Resources.md)
+  - [Planning Mode Examples](/lib/09-harness/claude-howto/09-advanced-features-planning-mode-examples.md)
+- [Claude How-To](/lib/09-harness/claude-howto/10-cli/21-Additional_Resources.md)
+- **文档**
+  - [Roadmap: claude-howto 2026–2027](/lib/09-harness/claude-howto/docs-ROADMAP-20260401.md)
+  - [Tasks: Dual-Layer Knowledge Base — claude-howto](/lib/09-harness/claude-howto/docs-TASKS-20260401.md)
+- **prompts**
+  - [🔄 AUTOMATED WORKFLOW](/lib/09-harness/claude-howto/prompts-remotion-video.md)
+- [Claude How To - Brand Assets](/lib/09-harness/claude-howto/resources-2.md)
+  - [Claude How To - Design System](/lib/09-harness/claude-howto/resources-DESIGN-SYSTEM.md)
+  - [Quick Start - Brand Assets](/lib/09-harness/claude-howto/resources-QUICK-START.md)
+- [用一个周末掌握 Claude Code](/lib/09-harness/claude-howto/zh-2.md)
+  - [Claude Concepts 完整指南](/lib/09-harness/claude-howto/zh-claude_concepts_guide.md)
+  - [面向 AI 代码生成的整洁代码规则](/lib/09-harness/claude-howto/zh-clean-code-rules.md)
+  - [Claude Code 示例 - 速查卡](/lib/09-harness/claude-howto/zh-QUICK_REFERENCE.md)
+  - [Claude How-To](/lib/09-harness/claude-howto/zh-RELEASE_NOTES.md)
+  - [优质资源清单](/lib/09-harness/claude-howto/zh-resources.md)
+  - [风格指南](/lib/09-harness/claude-howto/zh-STYLE_GUIDE.md)
+  - **.github**
+    - [Claude How-To](/lib/09-harness/claude-howto/zh-_github-pull_request_template.md)
+    - [安全漏洞报告](/lib/09-harness/claude-howto/zh-_github-SECURITY_REPORTING.md)
+    - [测试指南](/lib/09-harness/claude-howto/zh-_github-TESTING.md)
+  - **01-slash-commands**
+    - [Claude How-To](/lib/09-harness/claude-howto/zh-01-slash-commands-commit.md)
+    - [文档重构](/lib/09-harness/claude-howto/zh-01-slash-commands-doc-refactor.md)
+    - [API 文档生成器](/lib/09-harness/claude-howto/zh-01-slash-commands-generate-api-docs.md)
+    - [代码优化](/lib/09-harness/claude-howto/zh-01-slash-commands-optimize.md)
+    - [Pull Request 准备清单](/lib/09-harness/claude-howto/zh-01-slash-commands-pr.md)
+    - [提交并推送全部内容](/lib/09-harness/claude-howto/zh-01-slash-commands-push-all.md)
+    - [设置 CI/CD 流水线](/lib/09-harness/claude-howto/zh-01-slash-commands-setup-ci-cd.md)
+    - [扩充单元测试](/lib/09-harness/claude-howto/zh-01-slash-commands-unit-test-expand.md)
+  - **02-memory**
+    - [API 模块规范](/lib/09-harness/claude-howto/zh-02-memory-directory-api-CLAUDE.md)
+    - [我的开发偏好](/lib/09-harness/claude-howto/zh-02-memory-personal-CLAUDE.md)
+    - [项目配置](/lib/09-harness/claude-howto/zh-02-memory-project-CLAUDE.md)
+  - **03-skills**
+    - **blog-draft**
+      - [Claude How-To](/lib/09-harness/claude-howto/zh-03-skills-blog-draft-SKILL.md)
+      - **templates**
+        - [[博客文章标题]](/lib/09-harness/claude-howto/zh-03-skills-blog-draft-templates-draft-template.md)
+        - [博客文章提纲：[标题]](/lib/09-harness/claude-howto/zh-03-skills-blog-draft-templates-outline-template.md)
+    - **brand-voice**
+      - [品牌语气技能](/lib/09-harness/claude-howto/zh-03-skills-brand-voice-SKILL.md)
+      - [品牌语气示例](/lib/09-harness/claude-howto/zh-03-skills-brand-voice-tone-examples.md)
+    - **claude-md**
+      - [Claude How-To](/lib/09-harness/claude-howto/zh-03-skills-claude-md-SKILL.md)
+    - **code-review-specialist**
+      - [代码审查 Skill](/lib/09-harness/claude-howto/zh-03-skills-code-review-specialist-SKILL.md)
+      - **templates**
+        - [代码审查问题记录模板](/lib/09-harness/claude-howto/zh-03-skills-code-review-specialist-templates-finding-template.md)
+        - [代码审查检查清单](/lib/09-harness/claude-howto/zh-03-skills-code-review-specialist-templates-review-checklist.md)
+    - **doc-generator**
+      - [API 文档生成 Skill](/lib/09-harness/claude-howto/zh-03-skills-doc-generator-SKILL.md)
+    - **refactor**
+      - [代码重构 Skill](/lib/09-harness/claude-howto/zh-03-skills-refactor-SKILL.md)
+      - **references**
+        - [代码异味目录](/lib/09-harness/claude-howto/zh-03-skills-refactor-references-code-smells.md)
+        - [重构目录](/lib/09-harness/claude-howto/zh-03-skills-refactor-references-refactoring-catalog.md)
+      - **templates**
+        - [重构计划模板](/lib/09-harness/claude-howto/zh-03-skills-refactor-templates-refactoring-plan.md)
+  - **04-subagents**
+    - [Clean Code Reviewer Agent](/lib/09-harness/claude-howto/zh-04-subagents-clean-code-reviewer.md)
+    - [Code Reviewer Agent](/lib/09-harness/claude-howto/zh-04-subagents-code-reviewer.md)
+    - [Data Scientist Agent](/lib/09-harness/claude-howto/zh-04-subagents-data-scientist.md)
+    - [Debugger Agent](/lib/09-harness/claude-howto/zh-04-subagents-debugger.md)
+    - [Documentation Writer Agent](/lib/09-harness/claude-howto/zh-04-subagents-documentation-writer.md)
+    - [Implementation Agent](/lib/09-harness/claude-howto/zh-04-subagents-implementation-agent.md)
+    - [Secure Code Reviewer](/lib/09-harness/claude-howto/zh-04-subagents-secure-reviewer.md)
+    - [Test Engineer Agent](/lib/09-harness/claude-howto/zh-04-subagents-test-engineer.md)
+  - **07-plugins**
+    - [DevOps 自动化插件](/lib/09-harness/claude-howto/zh-07-plugins-devops-automation.md)
+      - **commands**
+        - [应用部署](/lib/09-harness/claude-howto/zh-07-plugins-devops-automation-commands-deploy.md)
+        - [事故响应](/lib/09-harness/claude-howto/zh-07-plugins-devops-automation-commands-incident.md)
+        - [系统状态检查](/lib/09-harness/claude-howto/zh-07-plugins-devops-automation-commands-status.md)
+    - [文档生成插件](/lib/09-harness/claude-howto/zh-07-plugins-documentation.md)
+      - **agents**
+        - [API 文档专家](/lib/09-harness/claude-howto/zh-07-plugins-documentation-agents-api-documenter.md)
+      - **commands**
+        - [API 文档生成器](/lib/09-harness/claude-howto/zh-07-plugins-documentation-commands-generate-api-docs.md)
+        - [README 生成器](/lib/09-harness/claude-howto/zh-07-plugins-documentation-commands-generate-.md)
+      - **templates**
+        - [ADR [编号]：[标题]](/lib/09-harness/claude-howto/zh-07-plugins-documentation-templates-adr-template.md)
+        - [[方法] /api/v1/[endpoint]](/lib/09-harness/claude-howto/zh-07-plugins-documentation-templates-api-endpoint.md)
+        - [函数：functionName](/lib/09-harness/claude-howto/zh-07-plugins-documentation-templates-function-docs.md)
+    - [PR 审查插件](/lib/09-harness/claude-howto/zh-07-plugins-pr-review.md)
+      - **commands**
+        - [安全检查](/lib/09-harness/claude-howto/zh-07-plugins-pr-review-commands-check-security.md)
+        - [测试覆盖检查](/lib/09-harness/claude-howto/zh-07-plugins-pr-review-commands-check-tests.md)
+        - [PR 审查](/lib/09-harness/claude-howto/zh-07-plugins-pr-review-commands-review-pr.md)
+  - **08-checkpoints**
+    - [检查点示例](/lib/09-harness/claude-howto/zh-08-checkpoints-checkpoint-examples.md)
+  - **09-advanced-features**
+    - [计划模式示例](/lib/09-harness/claude-howto/zh-09-advanced-features-planning-mode-examples.md)
+  - **文档**
+    - [路线图：claude-howto 2026–2027](/lib/09-harness/claude-howto/zh-docs-ROADMAP-20260401.md)
+    - [任务：双层知识库 - claude-howto](/lib/09-harness/claude-howto/zh-docs-TASKS-20260401.md)
+  - **prompts**
+    - [🔄 自动化工作流](/lib/09-harness/claude-howto/zh-prompts-remotion-video.md)
+  - [Claude How To - 品牌资源](/lib/09-harness/claude-howto/zh-resources-2.md)
+    - [Claude How To - 设计系统](/lib/09-harness/claude-howto/zh-resources-DESIGN-SYSTEM.md)
+    - [快速开始 - 品牌资源](/lib/09-harness/claude-howto/zh-resources-QUICK-START.md)
+  - [EPUB 构建脚本](/lib/09-harness/claude-howto/zh-scripts.md)
 
-开始学习 → [Claude How-To](01-slash-commands-commit.md)
+开始学习 → [Lesson Quiz](_claude-skills-lesson-quiz.md)

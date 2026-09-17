@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/AlephAITech/WorkBuddyGuide"
-entryUrl: "https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89da368fe208425ff50e121fe/README.md"
+entryUrl: "https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第三篇%20进阶篇：把案例变成自己的工作系统/第%2022%20章%20打造skill：将书和视频蒸馏为可执行%20Skill/index.md"
+sourceRel: "docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 22 章 打造skill：将书和视频蒸馏为可执行 Skill/index.md"
+rawUrl: "/raw/04-work/workbuddy-guide/docs/bluebook/第三篇 进阶篇：把案例变成自己的工作系统/第 22 章 打造skill：将书和视频蒸馏为可执行 Skill/index.md"
+sourceSha256: "1eef95607f010e1fbef2720ee9d13c00933e8212d6bd2d6ea8291c68e0a38afa"
+pageSha256: "1eef95607f010e1fbef2720ee9d13c00933e8212d6bd2d6ea8291c68e0a38afa"
+contentMode: "local-full"
 zh: ""
 ---
 

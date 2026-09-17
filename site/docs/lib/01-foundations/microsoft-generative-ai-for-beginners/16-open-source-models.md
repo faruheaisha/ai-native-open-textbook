@@ -1,0 +1,100 @@
+---
+title: "Generative AI for Beginners（微软官方入门课）"
+sourceId: "01-foundations/microsoft-generative-ai-for-beginners"
+sourceTitle: "Generative AI for Beginners（微软官方入门课）"
+sourceKind: "系统课程"
+licenseLabel: "可转载"
+lang: "英文"
+tier: 1
+volume: "01-foundations"
+sourceUrl: "https://github.com/microsoft/generative-ai-for-beginners"
+entryUrl: "https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/16-open-source-models/README.md"
+sourceRel: "16-open-source-models/README.md"
+rawUrl: "/raw/01-foundations/microsoft-generative-ai-for-beginners/16-open-source-models/README.md"
+sourceSha256: "faf536a0b2f11d60bf9870eb388edc391a70b78e8932ad960d178d66212be425"
+pageSha256: "faf536a0b2f11d60bf9870eb388edc391a70b78e8932ad960d178d66212be425"
+contentMode: "local-full"
+zh: ""
+---
+
+# Generative AI for Beginners（微软官方入门课）
+
+[![Open Source Models](/mirror/1e/1e2941adc90289c90a1aeee8a8f1713c01a18bfb.png)](https://youtu.be/CuICgfuHFSg?si=x8SpFRUsIxM9dohN)
+
+## Introduction
+
+The world of open-source LLMs is exciting and constantly evolving. This lesson aims to provide an in-depth look at open source models. If you are looking for information on how proprietary models compare to open source models, go to the ["Exploring and Comparing Different LLMs" lesson](/lib/01-foundations/microsoft-generative-ai-for-beginners/02-exploring-and-comparing-different-llms). This lesson will also cover the topic of fine-tuning but a more detailed explanation can be found in the ["Fine-Tuning LLMs" lesson](/lib/01-foundations/microsoft-generative-ai-for-beginners/18-fine-tuning).
+
+## Learning goals
+
+- Gain an understanding of open source Models
+- Understanding the benefits of working with open source Models
+- Exploring the open models available on Hugging Face and the Microsoft Foundry model catalog
+
+## What are Open Source Models?
+
+Open source software has played a crucial role in the growth of technology across various fields. The Open Source Initiative (OSI) has defined [10 criteria for software](https://web.archive.org/web/20241126001143/https://opensource.org/osd?WT.mc_id=academic-105485-koreyst) to be classified as open source. The source code must be openly shared under a license approved by the OSI.
+
+While the development of LLMs has similar elements to developing software, the process is not exactly the same. This has brought much discussion in the community on the definition of open source in the context of LLMs. For a model to be aligned with the traditional definition of open source the following information should be publicly available:
+
+- Datasets used to train the model.
+- Full model weights as a part of the training.
+- The evaluation code.
+- The fine-tuning code.
+- Full model weights and training metrics.
+
+There are currently only a few models that match this criteria. The [OLMo model created by Allen Institute for Artificial Intelligence (AllenAI)](https://huggingface.co/allenai/OLMo-7B?WT.mc_id=academic-105485-koreyst) is one that fits this category.
+
+For this lesson, we will refer to the models as "open models" going forward as they may not match the criteria above at the time of writing.
+
+## Benefits of Open Models
+
+**Highly Customizable** - Since open models are released with detailed training information, researchers and developers can modify the model's internals. This enables the creation of highly specialized models that are fine-tuned for a specific task or area of study. Some examples of this are code generation, mathematical operations and biology.
+
+**Cost** - The cost per token for using and deploying these models is lower than that of proprietary models. When building Generative AI applications, looking at performance vs price when working with these models on your use case should be done.
+
+![Model Cost](/mirror/8d/8dbdda10f8a7fbe66dbcf814be9e57bb375e1ed5.png)
+Source: Artificial Analysis
+
+**Flexibility** - Working with open models enables you to be flexible in terms of using different models or combining them. An example of this is the [HuggingChat Assistants ](https://huggingface.co/chat?WT.mc_id=academic-105485-koreyst) where a user can select the model being used directly in the user interface:
+
+![Choose Model](/mirror/d8/d87ee05d4818956a8fc3e61e2a70c5eebcbb1a65.png)
+
+## Exploring Different Open Models
+
+### Llama 2
+
+[LLama2](https://huggingface.co/meta-llama?WT.mc_id=academic-105485-koreyst), developed by Meta is an open model that is optimized for chat based applications. This is due to its fine-tuning method, which included a large amount of dialogue and human feedback. With this method, the model produces more results that are aligned to human expectation which provides a better user experience.
+
+Some examples of fine-tuned versions of Llama include [Japanese Llama](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-7b?WT.mc_id=academic-105485-koreyst), which specializes in Japanese and [Llama Pro](https://huggingface.co/TencentARC/LLaMA-Pro-8B?WT.mc_id=academic-105485-koreyst), which is an enhanced version of the base model.
+
+### Mistral
+
+[Mistral](https://huggingface.co/mistralai?WT.mc_id=academic-105485-koreyst) is an open model with a strong focus of high performance and efficiency. It uses the Mixture-of-Experts approach which combines a group of specialized expert models into one system where depending on the input, certain models are selected to be used. This makes the computation more effective as models are only addressing the inputs they are specialized in.
+
+Some examples of fine-tuned versions of Mistral include [BioMistral](https://huggingface.co/BioMistral/BioMistral-7B?text=Mon+nom+est+Thomas+et+mon+principal?WT.mc_id=academic-105485-koreyst), which is focused on the medical domain and [OpenMath Mistral](https://huggingface.co/nvidia/OpenMath-Mistral-7B-v0.1-hf?WT.mc_id=academic-105485-koreyst), which performs mathematical computation.
+
+### Falcon
+
+[Falcon](https://huggingface.co/tiiuae?WT.mc_id=academic-105485-koreyst) is an LLM created by the Technology Innovation Institute (**TII**). The Falcon-40B was trained on 40 billion parameters which has been shown to perform better than GPT-3 with less compute budget. This is due to its use of the FlashAttention algorithm and multiquery attention that enables it to cut down on the memory requirements at inference time. With this reduced inference time, the Falcon-40B is suitable for chat applications.
+
+Some examples of fine-tuned versions of Falcon are the [OpenAssistant](https://huggingface.co/OpenAssistant/falcon-40b-sft-top1-560?WT.mc_id=academic-105485-koreyst), an assistant built on open models and [GPT4ALL](https://huggingface.co/nomic-ai/gpt4all-falcon?WT.mc_id=academic-105485-koreyst), which delivers higher performance than the base model.
+
+## How to Choose
+
+There is no one answer for choosing an open model. A good place to start is by using the Microsoft Foundry model catalog's filter by task feature. This will help you understand what types of tasks the model has been trained for. Hugging Face also maintains an LLM Leaderboard which shows you the best performing models based on certain metrics.
+
+When looking to compare LLMs across the different types, [Artificial Analysis](https://artificialanalysis.ai/?WT.mc_id=academic-105485-koreyst) is another great resource:
+
+![Model Quality](/mirror/fb/fb331085ee3b546e303427280196150569b9a130.png)
+Source: Artificial Analysis
+
+If working on a specific use case, searching for fine-tuned versions that are focused on the same area can be effective. Experimenting with multiple open models to see how they perform according to your and your users' expectations is another good practice
+
+## Next Steps
+
+The best part about open models is that you can get started working with them pretty quickly. Check out the [Microsoft Foundry model catalog](https://ai.azure.com?WT.mc_id=academic-105485-koreyst), which features a specific Hugging Face collection with these models we discussed here.
+
+## Learning does not stop here, continue the Journey
+
+After completing this lesson, check out our [Generative AI Learning collection](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) to continue leveling up your Generative AI knowledge!

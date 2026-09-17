@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering"
-entryUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/README.md"
+entryUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/docs/decisions/0002-derived-corpus-inventory.md"
+sourceRel: "docs/decisions/0002-derived-corpus-inventory.md"
+rawUrl: "/raw/10-context-memory/agent-skills-for-context-engineering/docs/decisions/0002-derived-corpus-inventory.md"
+sourceSha256: "081aca6f67112537c1d27d1fa978d511e48684d3cc4485b1b0e607c56a5e219d"
+pageSha256: "081aca6f67112537c1d27d1fa978d511e48684d3cc4485b1b0e607c56a5e219d"
+contentMode: "local-full"
 zh: ""
 ---
 

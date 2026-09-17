@@ -1,0 +1,43 @@
+---
+title: "《从100个失败项目看企业落地AI的坑》分享预览"
+sourceId: "04-work/awesome-workbuddy"
+sourceTitle: "办公 Agent 生态清单（awesome-workbuddy）"
+sourceKind: "清单与速查"
+licenseLabel: "可转载"
+lang: "中文"
+tier: 2
+volume: "04-work"
+sourceUrl: "https://github.com/staruhub/awesome-workbuddy"
+entryUrl: "https://github.com/staruhub/awesome-workbuddy/blob/e32b6c953154e41f6cb4e6b69fd7d933f5cef3d3/prompts/runs/prompt-038-chatgpt-5-6-sol-20260731/output.md"
+sourceRel: "prompts/runs/prompt-038-chatgpt-5-6-sol-20260731/output.md"
+rawUrl: "/raw/04-work/awesome-workbuddy/prompts/runs/prompt-038-chatgpt-5-6-sol-20260731/output.md"
+sourceSha256: "c5ac590a3d357d2eafb48613b4741962c973f866bc2b05a278e88261a72011da"
+pageSha256: "c5ac590a3d357d2eafb48613b4741962c973f866bc2b05a278e88261a72011da"
+contentMode: "local-full"
+zh: ""
+---
+
+# 《从100个失败项目看企业落地AI的坑》分享预览
+
+开场权威失败率未联网核验，因此本预览不用具体百分比。开场改用可诚实说明的内部合成观察：“100张项目复盘卡里，最常见的不是模型不够强，而是没人说清什么算交付。”
+
+| 段落 | 页 | 案例钩子 | 可执行建议 |
+|---|---:|---|---|
+| 认知坑 | 4—8 | 把聊天效果当生产能力 | 先写验收样例 |
+| 数据坑 | 9—13 | 资料多但无版本与权限 | 先建证据链 |
+| 组织坑 | 14—18 | 人人支持、无人负责 | 设业务Owner |
+| 预期坑 | 19—23 | 首周Demo承诺季度ROI | 分阶段门禁 |
+| 行动 | 24—25 | 明天能做的三件事 | 任务卡 |
+
+## 案例页样稿
+
+**大字标题：Demo会说，不等于上线能负责。**
+合成案例：客服问答Demo通过率看似很高，上线后却频繁给错退款政策。根因不是模型突然变笨，而是测试集没有按地区、会员等级和政策版本拆分。
+
+## 一页一句金句
+
+- “没有验收样例的AI项目，只是在集体许愿。”
+- “数据不是燃料桶，更像有门禁的证据室。”
+- “最危险的自动化，是出错后找不到负责人。”
+
+结尾三件事：选一个可回滚任务；写20个真实验收样例；明确错误由谁接管。正式峰会版本必须联网找到原始机构报告并核对样本、年份、定义，不能转引二手“失败率”。

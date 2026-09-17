@@ -9,6 +9,11 @@ tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering"
 entryUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/10-context-memory/agent-skills-for-context-engineering/README.md"
+sourceSha256: "79364448d5ce2df1823a887b987bac428b0bec5733ed2464c51c25d360211b70"
+pageSha256: "79364448d5ce2df1823a887b987bac428b0bec5733ed2464c51c25d360211b70"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -206,12 +211,12 @@ The [examples](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engine
 
 | Example | Description | Skills Applied |
 |---------|-------------|----------------|
-| [digital-brain-skill](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/examples/digital-brain-skill/README.md) | **NEW** Personal operating system for founders and creators. Complete Claude Code skill with 6 modules, 4 automation scripts | context-fundamentals, context-optimization, memory-systems, tool-design, multi-agent-patterns, evaluation, project-development |
-| [x-to-book-system](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/examples/x-to-book-system/README.md) | Multi-agent system that monitors X accounts and generates daily synthesized books | multi-agent-patterns, memory-systems, context-optimization, tool-design, evaluation |
-| [llm-as-judge-skills](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/examples/llm-as-judge-skills/README.md) | Production-ready LLM evaluation tools with TypeScript implementation, 19 passing tests | advanced-evaluation, tool-design, context-fundamentals, evaluation |
+| [digital-brain-skill](/lib/10-context-memory/agent-skills-for-context-engineering/examples-digital-brain-skill) | **NEW** Personal operating system for founders and creators. Complete Claude Code skill with 6 modules, 4 automation scripts | context-fundamentals, context-optimization, memory-systems, tool-design, multi-agent-patterns, evaluation, project-development |
+| [x-to-book-system](/lib/10-context-memory/agent-skills-for-context-engineering/examples-x-to-book-system) | Multi-agent system that monitors X accounts and generates daily synthesized books | multi-agent-patterns, memory-systems, context-optimization, tool-design, evaluation |
+| [llm-as-judge-skills](/lib/10-context-memory/agent-skills-for-context-engineering/examples-llm-as-judge-skills) | Production-ready LLM evaluation tools with TypeScript implementation, 19 passing tests | advanced-evaluation, tool-design, context-fundamentals, evaluation |
 | [book-sft-pipeline](/lib/10-context-memory/agent-skills-for-context-engineering/examples-book-sft-pipeline) | Train models to write in any author's style. Includes Gertrude Stein case study with 70% human score on Pangram, $2 total cost | project-development, context-compression, multi-agent-patterns, evaluation |
-| [interleaved-thinking](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/examples/interleaved-thinking/README.md) | Reasoning trace optimizer that captures, analyzes, and converts agent failure patterns into generated skills | evaluation, advanced-evaluation, context-degradation, harness-engineering |
-| [long-horizon-prompt-lab](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/examples/long-horizon-prompt-lab/README.md) | Production-ready educational website: method guide, copyable task-brief template, four complete prompt rewrites, structural audits, and a caveated research/vendor reference catalog | long-horizon-prompting, harness-engineering, multi-agent-patterns, advanced-evaluation |
+| [interleaved-thinking](/lib/10-context-memory/agent-skills-for-context-engineering/examples-interleaved-thinking) | Reasoning trace optimizer that captures, analyzes, and converts agent failure patterns into generated skills | evaluation, advanced-evaluation, context-degradation, harness-engineering |
+| [long-horizon-prompt-lab](/lib/10-context-memory/agent-skills-for-context-engineering/examples-long-horizon-prompt-lab) | Production-ready educational website: method guide, copyable task-brief template, four complete prompt rewrites, structural audits, and a caveated research/vendor reference catalog | long-horizon-prompting, harness-engineering, multi-agent-patterns, advanced-evaluation |
 
 Each example includes:
 - Complete PRD with architecture decisions
@@ -220,18 +225,18 @@ Each example includes:
 
 ### Digital Brain Skill Example
 
-The [digital-brain-skill](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/examples/digital-brain-skill/README.md) example is a complete personal operating system demonstrating comprehensive skills application:
+The [digital-brain-skill](/lib/10-context-memory/agent-skills-for-context-engineering/examples-digital-brain-skill) example is a complete personal operating system demonstrating comprehensive skills application:
 
 - **Progressive Disclosure**: 3-level loading (SKILL.md → MODULE.md → data files)
 - **Module Isolation**: 6 independent modules (identity, content, knowledge, network, operations, agents)
 - **Append-Only Memory**: JSONL files with schema-first lines for agent-friendly parsing
 - **Automation Scripts**: 4 consolidated tools (weekly_review, content_ideas, stale_contacts, idea_to_draft)
 
-Includes detailed traceability in [HOW-SKILLS-BUILT-THIS.md](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/examples/digital-brain-skill/HOW-SKILLS-BUILT-THIS.md) mapping every architectural decision to specific skill principles.
+Includes detailed traceability in [HOW-SKILLS-BUILT-THIS.md](/lib/10-context-memory/agent-skills-for-context-engineering/examples-digital-brain-skill-HOW-SKILLS-BUILT-THIS) mapping every architectural decision to specific skill principles.
 
 ### LLM-as-Judge Skills Example
 
-The [llm-as-judge-skills](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/examples/llm-as-judge-skills/README.md) example is a complete TypeScript implementation demonstrating:
+The [llm-as-judge-skills](/lib/10-context-memory/agent-skills-for-context-engineering/examples-llm-as-judge-skills) example is a complete TypeScript implementation demonstrating:
 
 - **Direct Scoring**: Evaluate responses against weighted criteria with rubric support
 - **Pairwise Comparison**: Compare responses with position bias mitigation
@@ -251,15 +256,15 @@ Integrates with context engineering skills: project-development, context-compres
 
 ## Researcher Operating System
 
-The [researcher](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/researcher/README.md) directory is a file-based operating system for turning external research into skill changes. It exists so this repository can act as a compounding source of truth instead of an anthology.
+The [researcher](/lib/10-context-memory/agent-skills-for-context-engineering/researcher) directory is a file-based operating system for turning external research into skill changes. It exists so this repository can act as a compounding source of truth instead of an anthology.
 
 ### Measured router-benchmark results
 
 The skill router (which decides whether the right skill gets loaded for a given task) has been benchmarked end-to-end against four frontier models via the [Cursor SDK](https://cursor.com/docs/sdk/typescript). Three full sweeps (50 prompts x 4 models x 3 replications = 600 calls each):
 
-- Baseline: [`researcher/benchmarks/router/results-published/2026-05-15.md`](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/researcher/benchmarks/router/results-published/2026-05-15.md)
-- After targeted description rewrites: [`researcher/benchmarks/router/results-published/2026-05-15-v2.md`](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/researcher/benchmarks/router/results-published/2026-05-15-v2.md) (includes delta-vs-baseline)
-- After corpus-wide hardening: [`researcher/benchmarks/router/results-published/2026-05-19.md`](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/researcher/benchmarks/router/results-published/2026-05-19.md) (600/600 usable records, 0 format failures)
+- Baseline: [`researcher/benchmarks/router/results-published/2026-05-15.md`](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-benchmarks-router-results-published-2026-05-15)
+- After targeted description rewrites: [`researcher/benchmarks/router/results-published/2026-05-15-v2.md`](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-benchmarks-router-results-published-2026-05-15-v2) (includes delta-vs-baseline)
+- After corpus-wide hardening: [`researcher/benchmarks/router/results-published/2026-05-19.md`](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-benchmarks-router-results-published-2026-05-19) (600/600 usable records, 0 format failures)
 
 Per-skill effect size for the three skills the data flagged:
 
@@ -282,7 +287,7 @@ Reproduce any of these numbers exactly via the runner under `researcher/benchmar
 
 ### What it includes
 
-Current counts and compatibility status are generated in the [live corpus inventory](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/researcher/generated/corpus-summary.md). Dated benchmark and release reports retain their original snapshot counts.
+Current counts and compatibility status are generated in the [live corpus inventory](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-generated-corpus-summary). Dated benchmark and release reports retain their original snapshot counts.
 
 - **Source registry** (`researcher/source-registry.md`): priority sources, exclusion rules, monitoring queries.
 - **Rubrics** (`researcher/rubrics/`): content curation, skill change, harness change, pairwise skill revision.

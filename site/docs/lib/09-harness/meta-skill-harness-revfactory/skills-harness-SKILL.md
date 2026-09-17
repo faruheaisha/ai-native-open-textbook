@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/revfactory/harness"
-entryUrl: "https://github.com/revfactory/harness/blob/cceac68ea1d0ad198ef4b7b906cd238375836387/README.md"
+entryUrl: "https://github.com/revfactory/harness/blob/cceac68ea1d0ad198ef4b7b906cd238375836387/skills/harness/SKILL.md"
+sourceRel: "skills/harness/SKILL.md"
+rawUrl: "/raw/09-harness/meta-skill-harness-revfactory/skills/harness/SKILL.md"
+sourceSha256: "6697122aa2a24b17d7ee1121150670284a5c2dff0dbf78e52b7ff77439252e58"
+pageSha256: "6697122aa2a24b17d7ee1121150670284a5c2dff0dbf78e52b7ff77439252e58"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -92,7 +97,7 @@ zh: ""
 
 > 중복 분류 기준과 재사용 설계는 `references/agent-design-patterns.md`의 "에이전트 재사용 설계" 참조.
 
-**모든 에이전트는 반드시 `프로젝트/.claude/agents/{name}.md` 파일로 정의한다.** 에이전트 정의 파일 없이 Agent 도구의 prompt에 역할을 직접 넣는 것은 금지한다. 이유:
+**모든 에이전트는 반드시 `프로젝트/.claude/agents/\{name\}.md` 파일로 정의한다.** 에이전트 정의 파일 없이 Agent 도구의 prompt에 역할을 직접 넣는 것은 금지한다. 이유:
 - 에이전트 정의가 파일로 존재해야 다음 세션에서 재사용 가능
 - 팀 통신 프로토콜이 명시되어야 에이전트 간 협업 품질 보장
 - 하네스의 핵심 가치는 에이전트(누가)와 스킬(어떻게)의 분리
@@ -103,7 +108,7 @@ zh: ""
 
 **팀 재구성:** 에이전트 팀은 세션당 한 팀만 활성화할 수 있지만, Phase 간에 팀을 해체하고 새 팀을 구성할 수 있다. 파이프라인 패턴처럼 Phase별로 다른 전문가 조합이 필요하면, 이전 팀의 산출물을 파일로 저장한 뒤 팀을 정리하고 새 팀을 생성한다.
 
-각 에이전트를 `프로젝트/.claude/agents/{name}.md`에 정의한다. 필수 섹션: 핵심 역할, 작업 원칙, 입력/출력 프로토콜, 에러 핸들링, 협업. 에이전트 팀 모드에서는 `## 팀 통신 프로토콜` 섹션을 추가하여 메시지 수신/발신 대상과 작업 요청 범위를 명시한다.
+각 에이전트를 `프로젝트/.claude/agents/\{name\}.md`에 정의한다. 필수 섹션: 핵심 역할, 작업 원칙, 입력/출력 프로토콜, 에러 핸들링, 협업. 에이전트 팀 모드에서는 `## 팀 통신 프로토콜` 섹션을 추가하여 메시지 수신/발신 대상과 작업 요청 범위를 명시한다.
 
 > 정의 템플릿과 실제 파일 전문은 `references/agent-design-patterns.md`의 "에이전트 정의 구조" + `references/team-examples.md` 참조.
 
@@ -115,7 +120,7 @@ zh: ""
 
 ### Phase 4: 스킬 생성
 
-각 에이전트가 사용할 스킬을 `프로젝트/.claude/skills/{name}/SKILL.md`에 생성한다. 상세 작성 가이드는 `references/skill-writing-guide.md` 참조.
+각 에이전트가 사용할 스킬을 `프로젝트/.claude/skills/\{name\}/SKILL.md`에 생성한다. 상세 작성 가이드는 `references/skill-writing-guide.md` 참조.
 
 #### 4-0. 기존 스킬 중복 검토
 
@@ -245,7 +250,7 @@ Phase마다 다른 모드를 섞어 구성한다. 자주 쓰이는 조합:
 
 파일 기반 전달 시 규칙:
 - 작업 디렉토리 하위에 `_workspace/` 폴더를 만들어 중간 산출물 저장
-- 파일명 컨벤션: `{phase}_{agent}_{artifact}.{ext}` (예: `01_analyst_requirements.md`)
+- 파일명 컨벤션: `\{phase\}_\{agent\}_\{artifact\}.\{ext\}` (예: `01_analyst_requirements.md`)
 - 최종 산출물만 사용자 지정 경로에 출력, 중간 파일(`_workspace/`)은 보존 (사후 검증·감사 추적용)
 
 #### 5-2. 에러 핸들링
@@ -292,7 +297,7 @@ Phase마다 다른 모드를 섞어 구성한다. 자주 쓰이는 조합:
 **1. 오케스트레이터 description에 후속 키워드 포함:**
 초기 생성 키워드만으로는 후속 요청이 트리거되지 않는다. description에 반드시 포함할 후속 표현:
 - "다시 실행", "재실행", "업데이트", "수정", "보완"
-- "{도메인}의 {부분작업}만 다시"
+- "\{도메인\}의 \{부분작업\}만 다시"
 - "이전 결과 기반으로", "결과 개선"
 
 **2. 오케스트레이터 Phase 1에 컨텍스트 확인 단계 추가:**

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/nexu-io/harness-engineering-guide"
-entryUrl: "https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/README.md"
+entryUrl: "https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/changelog/2026-04-19.md"
+sourceRel: "changelog/2026-04-19.md"
+rawUrl: "/raw/09-harness/harness-engineering-guide-nexu/changelog/2026-04-19.md"
+sourceSha256: "a85cb7b7ea08512df04470685503b5f76b855438bc81c4789fad42f3e778494b"
+pageSha256: "a85cb7b7ea08512df04470685503b5f76b855438bc81c4789fad42f3e778494b"
+contentMode: "local-full"
 zh: ""
 ---
 

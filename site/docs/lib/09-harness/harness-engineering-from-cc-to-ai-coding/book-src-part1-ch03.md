@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding"
-entryUrl: "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding/blob/e40e0feec02b90e308ccbfc7a8911d64118ccca0/README.md"
+entryUrl: "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding/blob/e40e0feec02b90e308ccbfc7a8911d64118ccca0/book/src/part1/ch03.md"
+sourceRel: "book/src/part1/ch03.md"
+rawUrl: "/raw/09-harness/harness-engineering-from-cc-to-ai-coding/book/src/part1/ch03.md"
+sourceSha256: "c373aa6a43f503017bc39c5f4984eab1eb64e4afb543c8b9c15a50dd20bc06df"
+pageSha256: "c373aa6a43f503017bc39c5f4984eab1eb64e4afb543c8b9c15a50dd20bc06df"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -58,7 +63,7 @@ export async function* query(params: QueryParams): AsyncGenerator<...> {
 }
 ```
 
-真正的状态机在 `queryLoop()` 中（`restored-src/src/query.ts:241`）。它是一个 `while (true)` 循环，每次迭代通过 `state = next; continue` 进入下一轮，或通过 `return { reason: '...' }` 终止。
+真正的状态机在 `queryLoop()` 中（`restored-src/src/query.ts:241`）。它是一个 `while (true)` 循环，每次迭代通过 `state = next; continue` 进入下一轮，或通过 `return \{ reason: '...' \}` 终止。
 
 ### 3.2.2 State 类型：跨迭代的可变状态
 
@@ -77,7 +82,7 @@ export async function* query(params: QueryParams): AsyncGenerator<...> {
 | `turnCount` | `number` | 当前轮次计数，用于 `maxTurns` 限制检查 |
 | `transition` | `Continue \| undefined` | 上一次迭代为何继续——让测试和调试能够断言恢复路径确实触发了 |
 
-注意设计上的一个关键决策：源码注释明确说明"Continue sites write `state = { ... }` instead of 9 separate assignments"（`restored-src/src/query.ts:267`）。这意味着每个继续点都必须显式构造完整的 `State` 对象。这种写法消除了"忘记重置某个字段"的 bug 类——在一个有 7 个继续点的循环中，这不是理论风险，而是必然会发生的事故。
+注意设计上的一个关键决策：源码注释明确说明"Continue sites write `state = \{ ... \}` instead of 9 separate assignments"（`restored-src/src/query.ts:267`）。这意味着每个继续点都必须显式构造完整的 `State` 对象。这种写法消除了"忘记重置某个字段"的 bug 类——在一个有 7 个继续点的循环中，这不是理论风险，而是必然会发生的事故。
 
 ### 3.2.3 Continue 转换类型
 

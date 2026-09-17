@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding"
-entryUrl: "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding/blob/e40e0feec02b90e308ccbfc7a8911d64118ccca0/README.md"
+entryUrl: "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding/blob/e40e0feec02b90e308ccbfc7a8911d64118ccca0/book/src/part3/ch10.md"
+sourceRel: "book/src/part3/ch10.md"
+rawUrl: "/raw/09-harness/harness-engineering-from-cc-to-ai-coding/book/src/part3/ch10.md"
+sourceSha256: "4b7bc7b319e32928790538697728c9bb0b90c197eb6a07c35ef7dd18714457e9"
+pageSha256: "4b7bc7b319e32928790538697728c9bb0b90c197eb6a07c35ef7dd18714457e9"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -42,7 +47,7 @@ context.loadedNestedMemoryPaths?.clear()
 
 这三行代码实现了一个经典的**快照-清空**模式：
 
-1. **快照**：`cacheToObject(context.readFileState)` 将内存中的 `FileStateCache`（一个 Map 结构）序列化为普通的 `Record<string, { content: string; timestamp: number }>` 对象。这个对象记录了压缩前模型读过的每一个文件——文件名、内容、以及最后读取的时间戳。
+1. **快照**：`cacheToObject(context.readFileState)` 将内存中的 `FileStateCache`（一个 Map 结构）序列化为普通的 `Record<string, \{ content: string; timestamp: number \}>` 对象。这个对象记录了压缩前模型读过的每一个文件——文件名、内容、以及最后读取的时间戳。
 
 2. **清空**：`context.readFileState.clear()` 清除文件状态缓存，`context.loadedNestedMemoryPaths?.clear()` 清除已加载的嵌套记忆路径。
 
@@ -512,7 +517,7 @@ d("tengu_tool_result_dedup", {
 });
 ```
 
-**工作原理**：系统维护一个 `seen` Map，以工具结果内容的 djb2 哈希为 key，存储短 ID 和工具名。去重只对长度在 256 字节到 50,000 字节之间的字符串结果生效——太短的不值得去重，太长的可能已被截断。首次出现的结果正常注入并在末尾追加 `[result-id: rN]` 标记；后续出现的相同结果被替换为 `<identical to result [rN] from your {tool} call earlier — refer to that output>` 引用。
+**工作原理**：系统维护一个 `seen` Map，以工具结果内容的 djb2 哈希为 key，存储短 ID 和工具名。去重只对长度在 256 字节到 50,000 字节之间的字符串结果生效——太短的不值得去重，太长的可能已被截断。首次出现的结果正常注入并在末尾追加 `[result-id: rN]` 标记；后续出现的相同结果被替换为 `<identical to result [rN] from your \{tool\} call earlier — refer to that output>` 引用。
 
 **上下文预算影响**：去重直接减少了对话历史中的 token 占用。一次典型的文件读取结果可能有数千 token，替换为引用后只需约 20 token。`savedBytes` 字段提供了精确的节省量追踪，为上下文管理的可观测性（详见第29章）增加了新维度。
 

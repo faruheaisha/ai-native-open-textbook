@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/keli-wen/agentic-harness-patterns-skill"
-entryUrl: "https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/README.md"
+entryUrl: "https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/skills/agentic-harness-patterns/references/bootstrap-sequence-pattern.md"
+sourceRel: "skills/agentic-harness-patterns/references/bootstrap-sequence-pattern.md"
+rawUrl: "/raw/09-harness/agentic-harness-patterns-skill/skills/agentic-harness-patterns/references/bootstrap-sequence-pattern.md"
+sourceSha256: "e9012269c8ea938f234709d9eb3559314d6846f5039c40a3ae9612f8784f6c6e"
+pageSha256: "e9012269c8ea938f234709d9eb3559314d6846f5039c40a3ae9612f8784f6c6e"
+contentMode: "local-full"
 zh: ""
 ---
 

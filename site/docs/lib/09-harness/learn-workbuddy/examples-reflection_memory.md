@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/adongwanai/learn-workbuddy"
-entryUrl: "https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/README.md"
+entryUrl: "https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/examples/reflection_memory/README.md"
+sourceRel: "examples/reflection_memory/README.md"
+rawUrl: "/raw/09-harness/learn-workbuddy/examples/reflection_memory/README.md"
+sourceSha256: "a1532d3178c2e27df61c7f5f5c031c49933012990c1e174c1895147cc3e4ba88"
+pageSha256: "a1532d3178c2e27df61c7f5f5c031c49933012990c1e174c1895147cc3e4ba88"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -44,7 +49,7 @@ flowchart LR
 重复失败 + 成功恢复       -> 非执行 Reflection 候选
 ```
 
-Reflection 只提供任务相关的提醒，不携带工具权限，也不能绕过 harness permission gate。它与 [`examples/self_evolving_skills/`](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/examples/self_evolving_skills/README.md) 使用兼容的 JSONL 轨迹思想，但存储、审批和检索边界彼此独立。
+Reflection 只提供任务相关的提醒，不携带工具权限，也不能绕过 harness permission gate。它与 [`examples/self_evolving_skills/`](/lib/09-harness/learn-workbuddy/examples-self_evolving_skills) 使用兼容的 JSONL 轨迹思想，但存储、审批和检索边界彼此独立。
 
 ## 形成 Reflection 的门禁
 

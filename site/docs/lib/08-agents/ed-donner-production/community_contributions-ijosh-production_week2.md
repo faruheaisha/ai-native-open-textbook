@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/ed-donner/production"
-entryUrl: "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/README.md"
+entryUrl: "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/community_contributions/ijosh/production_week2.md"
+sourceRel: "community_contributions/ijosh/production_week2.md"
+rawUrl: "/raw/08-agents/ed-donner-production/community_contributions/ijosh/production_week2.md"
+sourceSha256: "8e88766e5be83993fae3c1afd9d12785e8b9293ee441d0ebe978c801b89986b9"
+pageSha256: "8e88766e5be83993fae3c1afd9d12785e8b9293ee441d0ebe978c801b89986b9"
+contentMode: "local-full"
 zh: ""
 ---
 

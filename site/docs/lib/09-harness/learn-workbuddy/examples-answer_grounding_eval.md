@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/adongwanai/learn-workbuddy"
-entryUrl: "https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/README.md"
+entryUrl: "https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/examples/answer_grounding_eval/README.md"
+sourceRel: "examples/answer_grounding_eval/README.md"
+rawUrl: "/raw/09-harness/learn-workbuddy/examples/answer_grounding_eval/README.md"
+sourceSha256: "d73af05a90bdeeae6a12ac90b181e1803eef64974c9ce343131d2d25b31841a1"
+pageSha256: "d73af05a90bdeeae6a12ac90b181e1803eef64974c9ce343131d2d25b31841a1"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -16,7 +21,7 @@ zh: ""
 
 检索命中正确，不代表最终回答可靠。证据可能在 Prompt 中被遗漏，模型也可能引用一个真实来源，却生成该来源没有支持的结论。
 
-本示例接在 [Source-grounded RAG](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/examples/source_grounded_rag/README.md) 之后，完全离线地演示两层不同责任：Harness 在运行时验证 evidence binding 和 citation integrity；benchmark 使用显式 gold fixture 评价 claim 与来源是否对齐。它不调用模型，也不使用关键词重叠冒充语义蕴含。
+本示例接在 [Source-grounded RAG](/lib/09-harness/learn-workbuddy/examples-source_grounded_rag) 之后，完全离线地演示两层不同责任：Harness 在运行时验证 evidence binding 和 citation integrity；benchmark 使用显式 gold fixture 评价 claim 与来源是否对齐。它不调用模型，也不使用关键词重叠冒充语义蕴含。
 
 ![回答级 Grounding 验收流程](/mirror/da/dafadf5fbddb3f115faafd88d8e60c4742fc2182.svg)
 

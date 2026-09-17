@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/QoderAI/better-harness"
-entryUrl: "https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/README.md"
+entryUrl: "https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/concepts.md"
+sourceRel: "docs/concepts.md"
+rawUrl: "/raw/09-harness/better-harness/docs/concepts.md"
+sourceSha256: "33646f208a90cb03f6e23e50df3f513198e3e5653f217ef2653f2e3c9dbb3f1f"
+pageSha256: "33646f208a90cb03f6e23e50df3f513198e3e5653f217ef2653f2e3c9dbb3f1f"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -109,7 +114,7 @@ next step, so a score turns into a change:
    to validate one finding and draft a scoped repair plan, without writing new
    report artifacts.
 2. **Give recurring work an owner.** When a finding looks like repeated work,
-   route it through [Loop Discovery](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/references/loop-engineering/loop-discovery.md)
+   route it through [Loop Discovery](/lib/09-harness/better-harness/references-loop-engineering-loop-discovery)
    to pick the smallest durable owner: a skill, hook, script, automation, or
    rule.
 3. **Schedule follow-up.** A schedule-ready finding renders a row-scoped

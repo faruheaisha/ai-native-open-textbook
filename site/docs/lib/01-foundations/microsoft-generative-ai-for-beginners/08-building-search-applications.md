@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "01-foundations"
 sourceUrl: "https://github.com/microsoft/generative-ai-for-beginners"
-entryUrl: "https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/README.md"
+entryUrl: "https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/08-building-search-applications/README.md"
+sourceRel: "08-building-search-applications/README.md"
+rawUrl: "/raw/01-foundations/microsoft-generative-ai-for-beginners/08-building-search-applications/README.md"
+sourceSha256: "2fc02e6d7ff00278b450e10feda7cc1c5b5ba7f57cf1b76a804634f48e164c31"
+pageSha256: "2fc02e6d7ff00278b450e10feda7cc1c5b5ba7f57cf1b76a804634f48e164c31"
+contentMode: "local-full"
 zh: ""
 ---
 

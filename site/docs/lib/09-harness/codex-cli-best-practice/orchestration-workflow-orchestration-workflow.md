@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/shanraisshan/codex-cli-best-practice"
-entryUrl: "https://github.com/shanraisshan/codex-cli-best-practice/blob/b79f473a188632867354fc793894dfd368a18e48/README.md"
+entryUrl: "https://github.com/shanraisshan/codex-cli-best-practice/blob/b79f473a188632867354fc793894dfd368a18e48/orchestration-workflow/orchestration-workflow.md"
+sourceRel: "orchestration-workflow/orchestration-workflow.md"
+rawUrl: "/raw/09-harness/codex-cli-best-practice/orchestration-workflow/orchestration-workflow.md"
+sourceSha256: "150544f5dbe5a5d5bf328d83fca65c5b4c74440089d38e3bb1d56a198b92b631"
+pageSha256: "150544f5dbe5a5d5bf328d83fca65c5b4c74440089d38e3bb1d56a198b92b631"
+contentMode: "local-full"
 zh: "on"
 ---
 
@@ -65,7 +70,7 @@ Output files:
 | Component | Role | Example |
 |-----------|------|---------|
 | **Agent** | Entry point, data fetching, skill invocation | [`weather-agent`](https://github.com/shanraisshan/codex-cli-best-practice/blob/b79f473a188632867354fc793894dfd368a18e48/.codex/agents/weather-agent.toml) |
-| **Skill** | Creates output independently | [`weather-svg-creator`](https://github.com/shanraisshan/codex-cli-best-practice/blob/b79f473a188632867354fc793894dfd368a18e48/.agents/skills/weather-svg-creator/SKILL.md) |
+| **Skill** | Creates output independently | [`weather-svg-creator`](/lib/09-harness/codex-cli-best-practice/_agents-skills-weather-svg-creator-SKILL) |
 
 ## Flow Diagram
 

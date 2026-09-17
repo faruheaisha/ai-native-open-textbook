@@ -1,0 +1,18 @@
+{
+  "id": "04-work/multi-platform-skills-archive",
+  "volume": "04-work",
+  "local": "multi-platform-skills-archive",
+  "title": "AI Skills And Experts Archive",
+  "kind": "技能与配置库",
+  "license": "未声明（内容源自厂商产品，仅研究）",
+  "licenseLabel": "仅引用",
+  "licenseNote": "不可整篇转载，站内只做导航与引用",
+  "lang": "中文",
+  "needsTranslation": false,
+  "publishable": false,
+  "repo": "ahang1598/doubao-workbuddy-qwenwork-skills",
+  "site": null,
+  "commit": "1cd75f0c4adaf7a12d4f6ba276a24b9e0d2367ca",
+  "entryUrl": "https://github.com/ahang1598/doubao-workbuddy-qwenwork-skills/blob/1cd75f0c4adaf7a12d4f6ba276a24b9e0d2367ca/README.md",
+  "docs": 11
+}

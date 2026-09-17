@@ -1,0 +1,50 @@
+---
+title: "Basic assistant with LangChain4j and Ollama"
+sourceId: "10-context-memory/context-engineering-book"
+sourceTitle: "Context Engineering（Bonigarcia 教程）"
+sourceKind: "工程手册"
+licenseLabel: "可转载"
+lang: "英文"
+tier: 2
+volume: "10-context-memory"
+sourceUrl: "https://github.com/bonigarcia/context-engineering"
+entryUrl: "https://github.com/bonigarcia/context-engineering/blob/46719154489e410b509db4fb69ab1c29fb3362a0/ch10/langchain4j/basic_assistant/README.md"
+sourceRel: "ch10/langchain4j/basic_assistant/README.md"
+rawUrl: "/raw/10-context-memory/context-engineering-book/ch10/langchain4j/basic_assistant/README.md"
+sourceSha256: "eb7ffe1cfeeea95f3393cd8ec3ec2aafaaf433d9c1779c0ae82c7c5a65d8a2d3"
+pageSha256: "eb7ffe1cfeeea95f3393cd8ec3ec2aafaaf433d9c1779c0ae82c7c5a65d8a2d3"
+contentMode: "local-full"
+zh: ""
+---
+
+# Basic assistant with LangChain4j and Ollama
+
+This example shows the smallest LangChain4j AI service backed by a local Ollama model.
+
+The `Assistant` interface carries the system instruction as an annotation, and LangChain4j generates the implementation at runtime.
+
+## Requirements
+
+* [Java](https://www.oracle.com/java/technologies/downloads/) 21+
+* [Maven](https://maven.apache.org/) 3.9+
+* [Ollama](https://ollama.com/) installed locally
+* A pulled chat model such as `llama3.2:1b`
+
+## Steps for running this example in the shell
+
+1. Start Ollama and pull the model:
+```bash
+ollama serve
+ollama pull llama3.2:1b
+```
+
+2. Run the application:
+```bash
+mvn compile exec:java
+```
+
+## Output
+
+```
+LangChain4j is a Java library that lets you build applications on top of large language models.
+```

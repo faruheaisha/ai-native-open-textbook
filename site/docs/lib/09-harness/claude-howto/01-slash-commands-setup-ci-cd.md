@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/luongnv89/claude-howto"
-entryUrl: "https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/README.md"
+entryUrl: "https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/01-slash-commands/setup-ci-cd.md"
+sourceRel: "01-slash-commands/setup-ci-cd.md"
+rawUrl: "/raw/09-harness/claude-howto/01-slash-commands/setup-ci-cd.md"
+sourceSha256: "1cec6596910ff0919e1529fa1516ede2f75abc2398f63415ed4377e591ace1f7"
+pageSha256: "1cec6596910ff0919e1529fa1516ede2f75abc2398f63415ed4377e591ace1f7"
+contentMode: "local-full"
 zh: ""
 ---
 

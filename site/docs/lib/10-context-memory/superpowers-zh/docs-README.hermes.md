@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/jnMetaCode/superpowers-zh"
-entryUrl: "https://github.com/jnMetaCode/superpowers-zh/blob/79ea5d262b7a1c7ce76a289390853bca51f940d4/README.md"
+entryUrl: "https://github.com/jnMetaCode/superpowers-zh/blob/79ea5d262b7a1c7ce76a289390853bca51f940d4/docs/README.hermes.md"
+sourceRel: "docs/README.hermes.md"
+rawUrl: "/raw/10-context-memory/superpowers-zh/docs/README.hermes.md"
+sourceSha256: "0ec061f9322c6d726fa242ad1af174abb3915dadc52f74730618441329d3af81"
+pageSha256: "0ec061f9322c6d726fa242ad1af174abb3915dadc52f74730618441329d3af81"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -47,7 +52,7 @@ skills:
     - /your/project/.hermes/skills
 ```
 
-把它加进 `~/.hermes/config.yaml`。路径支持 `~` 展开和 `${VAR}` 环境变量替换；**配置里不存在的路径会被静默跳过**，所以写错了不会报错，只会"没生效"。
+把它加进 `~/.hermes/config.yaml`。路径支持 `~` 展开和 `$\{VAR\}` 环境变量替换；**配置里不存在的路径会被静默跳过**，所以写错了不会报错，只会"没生效"。
 
 **我们不替你改 `config.yaml`** —— 那是你的配置文件。
 

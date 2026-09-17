@@ -8,13 +8,18 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide"
-entryUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide/blob/57673726396dd94acb23bdb1e67f27c78ee85a8e/README.md"
+entryUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide/blob/57673726396dd94acb23bdb1e67f27c78ee85a8e/pages/agents/context-engineering-deep-dive.en.mdx"
+sourceRel: "pages/agents/context-engineering-deep-dive.en.mdx"
+rawUrl: "/raw/10-context-memory/prompt-engineering-guide/pages/agents/context-engineering-deep-dive.en.mdx"
+sourceSha256: "da2f384387e19da3bb365477be228135e39dcd4b837780dc881712e19013b372"
+pageSha256: "da2f384387e19da3bb365477be228135e39dcd4b837780dc881712e19013b372"
+contentMode: "local-full"
 zh: ""
 ---
 
 # Context Engineering Deep Dive: Building a Deep Research Agent
 
-import { Callout } from 'nextra/components'
+import \{ Callout \} from 'nextra/components'
 
 [Context engineering](https://www.promptingguide.ai/guides/context-engineering-guide) requires significant iteration and careful design decisions to build reliable AI agents. This guide takes a deep dive into the practical aspects of context engineering through the development of a basic deep research agent, exploring some of the techniques and design patterns that improve agent reliability and performance.
 

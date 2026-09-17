@@ -1,0 +1,87 @@
+---
+title: "2.1 思维升级：从\"我想做一个App\"到\"我要解决一个问题\""
+sourceId: "07-coding/vibe-vibe"
+sourceTitle: "Vibe Vibe —— 人人都能学会的 AI 编程（Vibe Coding）指南"
+sourceKind: "课时教程"
+licenseLabel: "限非商用"
+lang: "中文"
+tier: 3
+volume: "07-coding"
+sourceUrl: "https://github.com/datawhalechina/vibe-vibe"
+entryUrl: "https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/Basic-old/02-mindset/2.1-thinking-upgrade/index.md"
+sourceRel: "docs/Basic-old/02-mindset/2.1-thinking-upgrade/index.md"
+rawUrl: "/raw/07-coding/vibe-vibe/docs/Basic-old/02-mindset/2.1-thinking-upgrade/index.md"
+sourceSha256: "6d037d8ea3a176e3fe46eec7f719c67194c959d55f37493f8ae3673811227a4d"
+pageSha256: "6d037d8ea3a176e3fe46eec7f719c67194c959d55f37493f8ae3673811227a4d"
+contentMode: "local-full"
+zh: ""
+---
+
+# 2.1 思维升级：从"我想做一个App"到"我要解决一个问题"
+
+## 经过本节学习，你将掌握
+
+- 理解为什么"想清楚问题"比"会用AI"更重要
+- 学会用"任务视角"替代"功能视角"来思考需求
+- 掌握一个硅谷产品经理都在用的思维框架
+- 获得一个可以立即应用的"问题发现"模板
+
+## 小李的故事：一个典型的失败开局
+
+小李是一名互联网公司的运营，每天要处理大量的工作事项。
+
+某天晚上，他刷到一篇文章：《用AI三分钟做一个App》。他兴奋地打开了一个AI编程工具，输入了这样一段话：
+
+> "帮我做一个待办清单App，要有任务分类、优先级标签、截止日期提醒、重复任务、子任务拆解、标签系统、日历视图、统计报表、多设备同步、协作共享、暗黑模式……"
+
+三个小时后，小李盯着屏幕上一堆报错信息，彻底放弃了。
+
+**问题出在哪里？**
+
+不是AI不够聪明。问题在于，小李从一开始就走错了方向。
+
+他把时间花在"列功能清单"上，却从未问过自己一个最基本的问题：
+
+> **"我到底要解决什么问题？"**
+
+## 这不只是"做产品"的事
+
+在继续之前，我想先澄清一件事：
+
+**本节内容适用于你想用AI做的任何事情**，不只是"做产品"或"创业"。
+
+| 你想做的事情 | 本节对你的帮助 |
+|-------------|---------------|
+| 解决个人痛点的小工具 | 帮你想清楚"我到底要解决什么问题" |
+| 数据分析和可视化 | 帮你明确"我要回答什么业务问题" |
+| 自动化脚本 | 帮你识别"哪些重复劳动真正值得自动化" |
+| 给家人做个小网页 | 帮你理解"他们真正需要什么" |
+
+无论你想做什么，核心逻辑都是一样的：
+
+**先想清楚要解决的问题，再告诉AI怎么做。**
+
+## 本节核心洞见
+
+> "用户不是在购买你的产品，他们是在'雇佣'你的产品来完成一项工作。"
+> —— Clayton Christensen，哈佛商学院教授，《创新者的窘境》作者
+
+这句话揭示了一个反直觉的真相：
+
+- 人们买电钻，不是因为想要电钻，而是因为想要墙上的洞
+- 人们下载待办清单App，不是因为想要App，而是因为不想遗漏重要的事
+- 人们写自动化脚本，不是因为喜欢写代码，而是因为讨厌重复劳动
+
+理解这一点，是Vibe Coding成功与失败的分水岭。
+
+## 本节学习路径
+
+本节通过三个递进的内容帮助你完成思维升级：
+
+1. **[JTBD理论](/lib/07-coding/vibe-vibe/docs-Basic-old-02-mindset-2.1-thinking-upgrade-2.1.1-jtbd-intro-theory)**：理解核心概念和经典案例，掌握从功能思维到任务思维的转变
+
+2. **[JTBD实践应用](/lib/07-coding/vibe-vibe/docs-Basic-old-02-mindset-2.1-thinking-upgrade-2.1.2-jtbd-intro-practice)**：四个实际场景分析和练习，学会将理论应用到真实项目中
+
+3. **[JTBD进阶技巧](/lib/07-coding/vibe-vibe/docs-Basic-old-02-mindset-2.1-thinking-upgrade-2.1.3-jtbd-intro-advanced)**：深度理解任务三个层次，掌握AI协作和产品迭代的高级方法
+
+通过系统学习，你将掌握一个能够显著提高项目成功率的思维框架。

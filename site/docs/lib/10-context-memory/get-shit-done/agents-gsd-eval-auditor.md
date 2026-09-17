@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/gsd-build/get-shit-done"
-entryUrl: "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/README.md"
+entryUrl: "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/agents/gsd-eval-auditor.md"
+sourceRel: "agents/gsd-eval-auditor.md"
+rawUrl: "/raw/10-context-memory/get-shit-done/agents/gsd-eval-auditor.md"
+sourceSha256: "185616eb38278f334ac0d9023402343b7e2e1c51363e0a0df4aa7775435d566b"
+pageSha256: "185616eb38278f334ac0d9023402343b7e2e1c51363e0a0df4aa7775435d566b"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -128,7 +133,7 @@ Verdict:
 &lt;step name="write_eval_review">
 **ALWAYS use the Write tool to create files** — never use `Bash(cat << 'EOF')` or heredoc commands for file creation.
 
-Write to `{phase_dir}/{padded_phase}-EVAL-REVIEW.md`:
+Write to `\{phase_dir\}/\{padded_phase\}-EVAL-REVIEW.md`:
 
 ```markdown
 # EVAL-REVIEW — Phase {N}: {name}

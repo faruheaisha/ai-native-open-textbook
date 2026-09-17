@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "08-agents"
 sourceUrl: "https://github.com/microsoft/ai-agents-for-beginners"
-entryUrl: "https://github.com/microsoft/ai-agents-for-beginners/blob/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translations/zh-CN/README.md"
+entryUrl: "https://github.com/microsoft/ai-agents-for-beginners/blob/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translations/zh-CN/06-building-trustworthy-agents/README.md"
+sourceRel: "translations/zh-CN/06-building-trustworthy-agents/README.md"
+rawUrl: "/raw/08-agents/microsoft-ai-agents-for-beginners/translations/zh-CN/06-building-trustworthy-agents/README.md"
+sourceSha256: "6588501595f7091c72d60c30b2a2815dbd7cf2b1b9155d9d7d2bb48ad958ff2b"
+pageSha256: "6588501595f7091c72d60c30b2a2815dbd7cf2b1b9155d9d7d2bb48ad958ff2b"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/gsd-build/get-shit-done"
-entryUrl: "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/README.md"
+entryUrl: "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/agents/gsd-debugger.md"
+sourceRel: "agents/gsd-debugger.md"
+rawUrl: "/raw/10-context-memory/get-shit-done/agents/gsd-debugger.md"
+sourceSha256: "e48da73286d692ead399d75914475fd4490ad7d610b790819388fffdff124906"
+pageSha256: "e48da73286d692ead399d75914475fd4490ad7d610b790819388fffdff124906"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -966,8 +971,8 @@ At investigation decision points, apply structured reasoning:
 - Extract keywords from `Symptoms.errors` and `Symptoms.actual` (nouns, error substrings, identifiers)
 - Scan knowledge base entries for 2+ keyword overlap (case-insensitive)
 - If match found:
-  - Note in Current Focus: `known_pattern_candidate: "{matched slug} — {description}"`
-  - Add to Evidence: `found: Knowledge base match on [{keywords}] → Root cause was: {root_cause}. Fix was: {fix}.`
+  - Note in Current Focus: `known_pattern_candidate: "\{matched slug\} — \{description\}"`
+  - Add to Evidence: `found: Knowledge base match on [\{keywords\}] → Root cause was: \{root_cause\}. Fix was: \{fix\}.`
   - Test this hypothesis FIRST in Phase 2 — but treat it as one hypothesis, not a certainty
 - If no match: proceed normally
 
@@ -1171,7 +1176,7 @@ gsd-sdk query commit "docs: resolve debug {slug}" --files .planning/debug/resolv
 
 **Append to knowledge base:**
 
-Read `.planning/debug/resolved/{slug}.md` to extract final `Resolution` values. Then append to `.planning/debug/knowledge-base.md` (create file with header if it doesn't exist):
+Read `.planning/debug/resolved/\{slug\}.md` to extract final `Resolution` values. Then append to `.planning/debug/knowledge-base.md` (create file with header if it doesn't exist):
 
 If creating for the first time, write this header first:
 ```markdown
@@ -1363,7 +1368,7 @@ Only return this after human verification confirms the fix.
 
 **Test output (failure):**
 ```
-{first 10 lines of failure output}
+\{first 10 lines of failure output\}
 ```
 
 **Root Cause (confirmed):** {root_cause}
@@ -1413,7 +1418,7 @@ After root cause is confirmed (investigation_loop Phase 4 CONFIRMED):
   1. Write a minimal failing test that directly exercises the bug
      - Test MUST fail before the fix is applied
      - Test should be the smallest possible unit (function-level if possible)
-     - Name the test descriptively: `test('should handle {exact symptom}', ...)`
+     - Name the test descriptively: `test('should handle \{exact symptom\}', ...)`
   2. Run the test and verify it FAILS (confirms reproducibility)
   3. Update Current Focus:
      ```yaml

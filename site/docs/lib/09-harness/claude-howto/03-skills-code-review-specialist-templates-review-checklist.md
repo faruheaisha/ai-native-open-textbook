@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/luongnv89/claude-howto"
-entryUrl: "https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/README.md"
+entryUrl: "https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/03-skills/code-review-specialist/templates/review-checklist.md"
+sourceRel: "03-skills/code-review-specialist/templates/review-checklist.md"
+rawUrl: "/raw/09-harness/claude-howto/03-skills/code-review-specialist/templates/review-checklist.md"
+sourceSha256: "419ba1c3a4359fcc58b8cc0482fdf8fb0fe4cca561e4185d17cf6eb92cf58ad7"
+pageSha256: "419ba1c3a4359fcc58b8cc0482fdf8fb0fe4cca561e4185d17cf6eb92cf58ad7"
+contentMode: "local-full"
 zh: ""
 ---
 

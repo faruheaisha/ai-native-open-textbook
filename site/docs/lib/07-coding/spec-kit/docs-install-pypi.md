@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/github/spec-kit"
-entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/README.md"
+entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/docs/install/pypi.md"
+sourceRel: "docs/install/pypi.md"
+rawUrl: "/raw/07-coding/spec-kit/docs/install/pypi.md"
+sourceSha256: "f291c62542ee5f00a0e6b89c22c2f2c909fa54920c0c5999e0f1938ddc0cb1c4"
+pageSha256: "f291c62542ee5f00a0e6b89c22c2f2c909fa54920c0c5999e0f1938ddc0cb1c4"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -98,7 +103,7 @@ pip install --upgrade specify-cli
 ```
 
 > [!NOTE]
-> `specify self upgrade` currently rebuilds `uv tool` and `pipx` installs from the GitHub source release URL rather than preserving a PyPI-based installation. If you want to stay on the PyPI route, use the package-manager commands above. A plain `pip install specify-cli` is treated as an unmanaged install — upgrade it with `pip install --upgrade specify-cli`. See the [Upgrade Guide](https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/docs/upgrade.md) for details.
+> `specify self upgrade` currently rebuilds `uv tool` and `pipx` installs from the GitHub source release URL rather than preserving a PyPI-based installation. If you want to stay on the PyPI route, use the package-manager commands above. A plain `pip install specify-cli` is treated as an unmanaged install — upgrade it with `pip install --upgrade specify-cli`. See the [Upgrade Guide](/lib/07-coding/spec-kit/docs-upgrade) for details.
 
 ## Uninstall
 
@@ -115,4 +120,4 @@ pip uninstall specify-cli
 
 ## Next steps
 
-Head to the [Quick Start](https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/docs/quickstart.md) to initialize your first project.
+Head to the [Quick Start](/lib/07-coding/spec-kit/docs-quickstart) to initialize your first project.

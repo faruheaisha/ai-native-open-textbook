@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/microsoft/LangChain4j-for-Beginners"
-entryUrl: "https://github.com/microsoft/LangChain4j-for-Beginners/blob/9aed2ec27717775def0da2ff2d7950baa8995a64/README.md"
+entryUrl: "https://github.com/microsoft/LangChain4j-for-Beginners/blob/9aed2ec27717775def0da2ff2d7950baa8995a64/01-introduction/README.md"
+sourceRel: "01-introduction/README.md"
+rawUrl: "/raw/08-agents/langchain4j-for-beginners/01-introduction/README.md"
+sourceSha256: "7792b70d386553c43ea599c1d690ae48c8045a51b22a5345fca54e46016f1301"
+pageSha256: "7792b70d386553c43ea599c1d690ae48c8045a51b22a5345fca54e46016f1301"
+contentMode: "local-full"
 zh: ""
 ---
 

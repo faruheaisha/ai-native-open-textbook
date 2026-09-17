@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/ed-donner/agents"
-entryUrl: ""
+entryUrl: "https://github.com/ed-donner/agents/blob/8ceaf66c24643627c1e4806851736bdd444bdd4b/1_foundations/community_contributions/aquagreen1000/debate_transcript.md"
+sourceRel: "1_foundations/community_contributions/aquagreen1000/debate_transcript.md"
+rawUrl: "/raw/08-agents/ed-donner-agents/1_foundations/community_contributions/aquagreen1000/debate_transcript.md"
+sourceSha256: "8fe2a23f419457b24e31488cae08f237ecac625bac03d0e9ceca9e52149a55d5"
+pageSha256: "8fe2a23f419457b24e31488cae08f237ecac625bac03d0e9ceca9e52149a55d5"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh"
-entryUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/README.md"
+entryUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/certifications/claude/lessons/06-governance-safety-and-responsible-use/docs/zh.md"
+sourceRel: "certifications/claude/lessons/06-governance-safety-and-responsible-use/docs/zh.md"
+rawUrl: "/raw/07-coding/ai-engineering-from-scratch-zh/certifications/claude/lessons/06-governance-safety-and-responsible-use/docs/zh.md"
+sourceSha256: "c6d88fa034fe1af35493322234d9a83aef71e877a1b1e1941516527fa902bb8a"
+pageSha256: "c6d88fa034fe1af35493322234d9a83aef71e877a1b1e1941516527fa902bb8a"
+contentMode: "local-full"
 zh: ""
 ---
 

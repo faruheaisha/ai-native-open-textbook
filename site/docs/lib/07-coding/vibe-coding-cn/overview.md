@@ -9,6 +9,11 @@ tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/2025Emma/vibe-coding-cn"
 entryUrl: "https://github.com/2025Emma/vibe-coding-cn/blob/9b42dd10ddf3fff58f8c7a4d347175db107d7bf9/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/07-coding/vibe-coding-cn/README.md"
+sourceSha256: "141bc57157b647264c8931f2ad2267ef8a2676e2bc6ea9caceb760959360d697"
+pageSha256: "141bc57157b647264c8931f2ad2267ef8a2676e2bc6ea9caceb760959360d697"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -194,7 +199,7 @@ zh: ""
 *   [**Skills 制作器**](https://github.com/yusufkaraaslan/Skill_Seekers): 可根据需求生成定制化 Skills 的工具。
 *   [**元提示词**](https://docs.google.com/spreadsheets/d/1ngoQOhJqdguwNAilCl1joNwTje7FWWN9WiI2bo5VhpU/edit?gid=1770874220#gid=1770874220): 用于生成提示词的高级提示词。
 *   [**通用项目架构模板**](https://github.com/2025Emma/vibe-coding-cn/blob/9b42dd10ddf3fff58f8c7a4d347175db107d7bf9/i18n/zh/documents/Templates%20and%20Resources/通用项目架构模板.md): 可用于快速搭建标准化的项目目录结构。
-*   [**元技能：Skills 的 Skills**](https://github.com/2025Emma/vibe-coding-cn/blob/9b42dd10ddf3fff58f8c7a4d347175db107d7bf9/i18n/zh/skills/claude-skills/SKILL.md): 用于生成 Skills 的元技能。
+*   [**元技能：Skills 的 Skills**](/lib/07-coding/vibe-coding-cn/i18n-zh-skills-claude-skills-SKILL): 用于生成 Skills 的元技能。
 *   [**tmux快捷键大全**](https://github.com/2025Emma/vibe-coding-cn/blob/9b42dd10ddf3fff58f8c7a4d347175db107d7bf9/i18n/zh/documents/Tutorials%20and%20Guides/tmux快捷键大全.md): tmux 的快捷键参考文档。
 *   [**LazyVim快捷键大全**](https://github.com/2025Emma/vibe-coding-cn/blob/9b42dd10ddf3fff58f8c7a4d347175db107d7bf9/i18n/zh/documents/Tutorials%20and%20Guides/LazyVim快捷键大全.md): LazyVim 的快捷键参考文档。
 *   [**二哥的Java进阶之路**](https://javabetter.cn/): 包含多种开发工具的详细配置教程。
@@ -222,8 +227,8 @@ zh: ""
     *   [编程书籍推荐](https://github.com/2025Emma/vibe-coding-cn/blob/9b42dd10ddf3fff58f8c7a4d347175db107d7bf9/i18n/zh/documents/Templates%20and%20Resources/编程书籍推荐.md)
 *   **核心资源**:
     *   [**元提示词库**](https://docs.google.com/spreadsheets/d/1ngoQOhJqdguwNAilCl1joNwTje7FWWN9WiI2bo5VhpU/edit?gid=1770874220#gid=1770874220): 用于生成提示词的高级提示词集合。
-    *   [**元技能 (Meta-Skill)**](https://github.com/2025Emma/vibe-coding-cn/blob/9b42dd10ddf3fff58f8c7a4d347175db107d7bf9/i18n/zh/skills/claude-skills/SKILL.md): 用于生成 Skills 的 Skill。
-    *   [**技能库 (Skills)**](https://github.com/2025Emma/vibe-coding-cn/blob/9b42dd10ddf3fff58f8c7a4d347175db107d7bf9/i18n/zh/skills/README.md): 可直接集成的模块化技能仓库。
+    *   [**元技能 (Meta-Skill)**](/lib/07-coding/vibe-coding-cn/i18n-zh-skills-claude-skills-SKILL): 用于生成 Skills 的 Skill。
+    *   [**技能库 (Skills)**](/lib/07-coding/vibe-coding-cn/i18n-zh-skills): 可直接集成的模块化技能仓库。
     *   [**技能生成器**](https://github.com/yusufkaraaslan/Skill_Seekers): 将任何资料转化为 Agent 可用技能的工具。
     *   [**在线提示词数据库**](https://docs.google.com/spreadsheets/d/1ngoQOhJqdguwNAilCl1joNwTje7FWWN9WiI2bo5VhpU/edit?gid=2093180351#gid=2093180351&range=A1): 包含数百个适用于各场景的用户及系统提示词的在线表格。
     *   [**第三方系统提示词仓库**](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools): 汇集了多种 AI 工具的系统提示词。

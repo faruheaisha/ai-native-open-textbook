@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/zebbern/claude-code-guide"
-entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/README.md"
+entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/skills/api-fuzzing-bug-bounty/SKILL.md"
+sourceRel: "skills/api-fuzzing-bug-bounty/SKILL.md"
+rawUrl: "/raw/09-harness/claude-code-guide-zebbern/skills/api-fuzzing-bug-bounty/SKILL.md"
+sourceSha256: "b09dbcb762f0c1a2315761b9d07b47a6fdc31a68a0cb888e40cb12b54c3ede68"
+pageSha256: "b09dbcb762f0c1a2315761b9d07b47a6fdc31a68a0cb888e40cb12b54c3ede68"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -253,7 +258,7 @@ query {
 
 ```bash
 # XSS via GraphQL endpoint
-http://target.com/graphql?query={user(name:"<script>alert(1)</script>"){id}}
+http://target.com/graphql?query={user(name:""){id}}
 
 # URL-encoded XSS
 http://target.com/example?id=%C/script%E%Cscript%Ealert('XSS')%C/script%E

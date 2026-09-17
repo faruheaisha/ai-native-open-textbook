@@ -1,0 +1,278 @@
+---
+title: "构建你自己的宝可梦对战智能体"
+sourceId: "08-agents/huggingface-agents-course"
+sourceTitle: "Hugging Face Agents Course（智能体课程）"
+sourceKind: "系统课程"
+licenseLabel: "可转载"
+lang: "英文"
+tier: 1
+volume: "08-agents"
+sourceUrl: "https://github.com/huggingface/agents-course"
+entryUrl: "https://github.com/huggingface/agents-course/blob/b3946b1d09d29c65736e219d48a8a736a2c52154/units/zh-CN/bonus-unit3/building_your_pokemon_agent.mdx"
+sourceRel: "units/zh-CN/bonus-unit3/building_your_pokemon_agent.mdx"
+rawUrl: "/raw/08-agents/huggingface-agents-course/units/zh-CN/bonus-unit3/building_your_pokemon_agent.mdx"
+sourceSha256: "6d76e4d8355d7012bc81a2025218fc2e511e2bb4fd3822530ab86f69e5529512"
+pageSha256: "6d76e4d8355d7012bc81a2025218fc2e511e2bb4fd3822530ab86f69e5529512"
+contentMode: "local-full"
+zh: ""
+---
+
+# 构建你自己的宝可梦对战智能体
+
+现在你已经探索了智能体 AI 在游戏中的潜力和局限性，是时候亲自动手了。在本节中，你将**构建自己的 AI 智能体来进行宝可梦风格的回合制战斗**，使用你在整个课程中学到的一切知识。
+
+我们将把系统分解为四个关键构建块：
+
+- **Poke-env:** 一个专为训练基于规则或强化学习的宝可梦机器人而设计的 Python 库。
+
+- **Pokémon Showdown:** 一个在线对战模拟器，你的智能体将在这里战斗。
+
+- **LLMAgentBase:** 我们构建的一个自定义 Python 类，用于将你的 LLM 与 Poke-env 战斗环境连接。
+
+- **TemplateAgent:** 一个起始模板，你将完善它来创建自己独特的战斗智能体。
+
+让我们详细探索这些组件。
+
+## 🧠 Poke-env
+
+![Battle gif](https://github.com/hsahovic/poke-env/raw/master/rl-gif.gif)
+
+[Poke-env](https://github.com/hsahovic/poke-env)是一个 Python 接口，最初由[Haris Sahovic](https://huggingface.co/hsahovic)构建用于训练强化学习机器人，但我们已将其重新用于智能体 AI。
+它允许你的智能体通过简单的 API 与 Pokémon Showdown 交互。
+
+它提供了一个`Player`类，你的智能体将继承该类，涵盖与图形界面通信所需的一切。
+
+**文档**: [poke-env.readthedocs.io](https://poke-env.readthedocs.io/en/stable/)  
+**代码库**: [github.com/hsahovic/poke-env](https://github.com/hsahovic/poke-env)
+
+## ⚔️ Pokémon Showdown
+
+[Pokémon Showdown](https://pokemonshowdown.com/)是一个[开源](https://github.com/smogon/Pokemon-Showdown)战斗模拟器，你的智能体将在这里进行实时宝可梦战斗。
+它提供了一个完整的界面来实时模拟和显示战斗。在我们的挑战中，你的机器人将像人类玩家一样行动，逐回合选择招式。
+
+我们已经部署了一个所有参与者都将使用的服务器来进行战斗。让我们看看谁能构建出最好的 AI 战斗智能体！
+
+**代码库**: [github.com/smogon/Pokemon-Showdown](https://github.com/smogon/Pokemon-Showdown)  
+**网站**: [pokemonshowdown.com](https://pokemonshowdown.com/)
+
+## 🔌 LLMAgentBase
+
+`LLMAgentBase`是一个扩展了**Poke-env**中`Player`类的 Python 类。
+它作为你的**LLM**和**宝可梦战斗模拟器**之间的桥梁，处理输入/输出格式化并维护战斗上下文。
+
+这个基础智能体提供了一组工具（定义在`STANDARD_TOOL_SCHEMA`中）来与环境交互，包括：
+
+- `choose_move`: 用于在战斗中选择攻击
+- `choose_switch`: 用于切换宝可梦
+
+LLM 应该使用这些工具在比赛中做出决策。
+
+### 🧠 核心逻辑
+
+- `choose_move(battle: Battle)`: 这是每回合调用的主要方法。它接收一个`Battle`对象并基于 LLM 的输出返回一个动作字符串。
+
+### 🔧 关键内部方法
+
+- `_format_battle_state(battle)`: 将当前战斗状态转换为字符串，使其适合发送给 LLM。
+
+- `_find_move_by_name(battle, move_name)`: 按名称查找招式，用于 LLM 响应中调用`choose_move`。
+
+- `_find_pokemon_by_name(battle, pokemon_name)`: 根据 LLM 的切换命令定位要切换到的特定宝可梦。
+
+- `_get_llm_decision(battle_state)`: 这个方法在基类中是抽象的。你需要在自己的智能体中实现它（见下一节），在那里你定义如何查询 LLM 并解析其响应。
+
+这里是显示决策如何工作的摘录：
+
+```python
+STANDARD_TOOL_SCHEMA = \{
+    "choose_move": \{
+        ...
+    \},
+    "choose_switch": \{
+        ...
+    \},
+\}
+
+class LLMAgentBase(Player):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.standard_tools = STANDARD_TOOL_SCHEMA
+        self.battle_history = []
+
+    def _format_battle_state(self, battle: Battle) -> str:
+        active_pkmn = battle.active_pokemon
+        active_pkmn_info = f"Your active Pokemon: \{active_pkmn.species\} " \
+                           f"(Type: \{'/'.join(map(str, active_pkmn.types))\}) " \
+                           f"HP: \{active_pkmn.current_hp_fraction * 100:.1f\}% " \
+                           f"Status: \{active_pkmn.status.name if active_pkmn.status else 'None'\} " \
+                           f"Boosts: \{active_pkmn.boosts\}"
+
+        opponent_pkmn = battle.opponent_active_pokemon
+        opp_info_str = "Unknown"
+        if opponent_pkmn:
+            opp_info_str = f"\{opponent_pkmn.species\} " \
+                           f"(Type: \{'/'.join(map(str, opponent_pkmn.types))\}) " \
+                           f"HP: \{opponent_pkmn.current_hp_fraction * 100:.1f\}% " \
+                           f"Status: \{opponent_pkmn.status.name if opponent_pkmn.status else 'None'\} " \
+                           f"Boosts: \{opponent_pkmn.boosts\}"
+        opponent_pkmn_info = f"Opponent's active Pokemon: \{opp_info_str\}"
+
+        available_moves_info = "Available moves:\n"
+        if battle.available_moves:
+            available_moves_info += "\n".join(
+                [f"- \{move.id\} (Type: \{move.type\}, BP: \{move.base_power\}, Acc: \{move.accuracy\}, PP: \{move.current_pp\}/\{move.max_pp\}, Cat: \{move.category.name\})"
+                 for move in battle.available_moves]
+            )
+        else:
+             available_moves_info += "- None (Must switch or Struggle)"
+
+        available_switches_info = "Available switches:\n"
+        if battle.available_switches:
+              available_switches_info += "\n".join(
+                  [f"- \{pkmn.species\} (HP: \{pkmn.current_hp_fraction * 100:.1f\}%, Status: \{pkmn.status.name if pkmn.status else 'None'\})"
+                   for pkmn in battle.available_switches]
+              )
+        else:
+            available_switches_info += "- None"
+
+        state_str = f"\{active_pkmn_info\}\n" \
+                    f"\{opponent_pkmn_info\}\n\n" \
+                    f"\{available_moves_info\}\n\n" \
+                    f"\{available_switches_info\}\n\n" \
+                    f"Weather: \{battle.weather\}\n" \
+                    f"Terrains: \{battle.fields\}\n" \
+                    f"Your Side Conditions: \{battle.side_conditions\}\n" \
+                    f"Opponent Side Conditions: \{battle.opponent_side_conditions\}"
+        return state_str.strip()
+
+    def _find_move_by_name(self, battle: Battle, move_name: str) -> Optional[Move]:
+        normalized_name = normalize_name(move_name)
+        # 优先精确ID匹配
+        for move in battle.available_moves:
+            if move.id == normalized_name:
+                return move
+        # 后备方案: 检查显示名称（不太可靠）
+        for move in battle.available_moves:
+            if move.name.lower() == move_name.lower():
+                print(f"Warning: Matched move by display name '\{move.name\}' instead of ID '\{move.id\}'. Input was '\{move_name\}'.")
+                return move
+        return None
+
+    def _find_pokemon_by_name(self, battle: Battle, pokemon_name: str) -> Optional[Pokemon]:
+        normalized_name = normalize_name(pokemon_name)
+        for pkmn in battle.available_switches:
+            # 规范化种类名称用于比较
+            if normalize_name(pkmn.species) == normalized_name:
+                return pkmn
+        return None
+
+    async def choose_move(self, battle: Battle) -> str:
+        battle_state_str = self._format_battle_state(battle)
+        decision_result = await self._get_llm_decision(battle_state_str)
+        print(decision_result)
+        decision = decision_result.get("decision")
+        error_message = decision_result.get("error")
+        action_taken = False
+        fallback_reason = ""
+
+        if decision:
+            function_name = decision.get("name")
+            args = decision.get("arguments", \{\})
+            if function_name == "choose_move":
+                move_name = args.get("move_name")
+                if move_name:
+                    chosen_move = self._find_move_by_name(battle, move_name)
+                    if chosen_move and chosen_move in battle.available_moves:
+                        action_taken = True
+                        chat_msg = f"AI Decision: Using move '\{chosen_move.id\}'."
+                        print(chat_msg)
+                        return self.create_order(chosen_move)
+                    else:
+                        fallback_reason = f"LLM chose unavailable/invalid move '\{move_name\}'."
+                else:
+                     fallback_reason = "LLM 'choose_move' called without 'move_name'."
+            elif function_name == "choose_switch":
+                pokemon_name = args.get("pokemon_name")
+                if pokemon_name:
+                    chosen_switch = self._find_pokemon_by_name(battle, pokemon_name)
+                    if chosen_switch and chosen_switch in battle.available_switches:
+                        action_taken = True
+                        chat_msg = f"AI Decision: Switching to '\{chosen_switch.species\}'."
+                        print(chat_msg)
+                        return self.create_order(chosen_switch)
+                    else:
+                        fallback_reason = f"LLM chose unavailable/invalid switch '\{pokemon_name\}'."
+                else:
+                    fallback_reason = "LLM 'choose_switch' called without 'pokemon_name'."
+            else:
+                fallback_reason = f"LLM called unknown function '\{function_name\}'."
+
+        if not action_taken:
+            if not fallback_reason:
+                 if error_message:
+                     fallback_reason = f"API Error: \{error_message\}"
+                 elif decision is None:
+                      fallback_reason = "LLM did not provide a valid function call."
+                 else:
+                      fallback_reason = "Unknown error processing LLM decision."
+
+            print(f"Warning: \{fallback_reason\} Choosing random action.")
+
+            if battle.available_moves or battle.available_switches:
+                 return self.choose_random_move(battle)
+            else:
+                 print("AI Fallback: No moves or switches available. Using Struggle/Default.")
+                 return self.choose_default_move(battle)
+
+    async def _get_llm_decision(self, battle_state: str) -> Dict[str, Any]:
+        raise NotImplementedError("Subclasses must implement _get_llm_decision")
+```
+
+**完整源代码**: [agents.py](https://huggingface.co/spaces/Jofthomas/twitch_streaming/blob/main/agents.py)
+
+## 🧪 TemplateAgent
+
+现在到了有趣的部分！以 LLMAgentBase 作为你的基础，是时候实现你自己的智能体了，用你自己的策略登上排行榜。
+
+你将从这个模板开始并构建自己的逻辑。我们还提供了三个使用**OpenAI**、**Mistral**和**Gemini**模型的[完整示例](https://huggingface.co/spaces/Jofthomas/twitch_streaming/blob/main/agents.py)来指导你。
+
+这是模板的简化版本：
+
+```python
+class TemplateAgent(LLMAgentBase):
+    """使用模板AI API进行决策。"""
+    def __init__(self, api_key: str = None, model: str = "model-name", *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.model = model
+        self.template_client = TemplateModelProvider(api_key=...)
+        self.template_tools = list(self.standard_tools.values())
+
+    async def _get_llm_decision(self, battle_state: str) -> Dict[str, Any]:
+        """Sends state to the LLM and gets back the function call decision."""
+        system_prompt = (
+            "You are a ..."
+        )
+        user_prompt = f"..."
+
+        try:
+            response = await self.template_client.chat.completions.create(
+                model=self.model,
+                messages=[
+                    \{"role": "system", "content": system_prompt\},
+                    \{"role": "user", "content": user_prompt\},
+                ],
+            )
+            message = response.choices[0].message
+
+            return \{"decision": \{"name": function_name, "arguments": arguments&#125;&#125;
+
+        except Exception as e:
+            print(f"Unexpected error during call: \{e\}")
+            return \{"error": f"Unexpected error: \{e\}"\}
+```
+
+这段代码无法直接运行，它是你自定义逻辑的蓝图。
+
+有了所有准备好的组件，现在轮到你构建一个有竞争力的智能体了。在下一节中，我们将展示如何将你的智能体部署到我们的服务器并与其他智能体实时对战。
+
+让战斗开始吧！🔥

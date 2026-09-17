@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "01-foundations"
 sourceUrl: "https://github.com/rasbt/LLMs-from-scratch"
-entryUrl: "https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/README.md"
+entryUrl: "https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch02/06_bonus_simple-tokenizer-v3/README.md"
+sourceRel: "ch02/06_bonus_simple-tokenizer-v3/README.md"
+rawUrl: "/raw/01-foundations/llms-from-scratch/ch02/06_bonus_simple-tokenizer-v3/README.md"
+sourceSha256: "627174b5cb23fd6b5c759c4b49a96d08c835aa518d945fe2eda56069fe670bd1"
+pageSha256: "627174b5cb23fd6b5c759c4b49a96d08c835aa518d945fe2eda56069fe670bd1"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding"
-entryUrl: "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding/blob/e40e0feec02b90e308ccbfc7a8911d64118ccca0/README.md"
+entryUrl: "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding/blob/e40e0feec02b90e308ccbfc7a8911d64118ccca0/book/src/appendix/f-e2e-traces.md"
+sourceRel: "book/src/appendix/f-e2e-traces.md"
+rawUrl: "/raw/09-harness/harness-engineering-from-cc-to-ai-coding/book/src/appendix/f-e2e-traces.md"
+sourceSha256: "1f3b0f0c81bd9d8da8ffe12ce12fffa6fb3fcdc4fc00e8870cf4a0bd8bab9d40"
+pageSha256: "1f3b0f0c81bd9d8da8ffe12ce12fffa6fb3fcdc4fc00e8870cf4a0bd8bab9d40"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -347,5 +352,5 @@ Worker 完成任务后，触发两类事件（`restored-src/src/query/stopHooks.
 
 Worker 之间不直接对话。所有协作通过两个渠道：
 
-- **TaskList**（共享文件系统状态）：`~/.claude/tasks/{team-name}/`
-- **Mailbox**（持久化消息队列）：`~/.claude/teams/{team}/inboxes/*.json`
+- **TaskList**（共享文件系统状态）：`~/.claude/tasks/\{team-name\}/`
+- **Mailbox**（持久化消息队列）：`~/.claude/teams/\{team\}/inboxes/*.json`

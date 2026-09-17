@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/ed-donner/production"
-entryUrl: "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/README.md"
+entryUrl: "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/community_contributions/fix-issue-18.md"
+sourceRel: "community_contributions/fix-issue-18.md"
+rawUrl: "/raw/08-agents/ed-donner-production/community_contributions/fix-issue-18.md"
+sourceSha256: "acccf43c65686ae2a6553a1a4445d3bb47ac7dabad389288b5810e193287931f"
+pageSha256: "acccf43c65686ae2a6553a1a4445d3bb47ac7dabad389288b5810e193287931f"
+contentMode: "local-full"
 zh: ""
 ---
 

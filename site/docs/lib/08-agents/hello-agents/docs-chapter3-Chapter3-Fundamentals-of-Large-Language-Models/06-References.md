@@ -1,0 +1,48 @@
+---
+title: "Hello Agents（Datawhale 智能体教程）"
+sourceId: "08-agents/hello-agents"
+sourceTitle: "Hello Agents（Datawhale 智能体教程）"
+sourceKind: "课时教程"
+licenseLabel: "限非商用"
+lang: "中文"
+tier: 2
+volume: "08-agents"
+sourceUrl: "https://github.com/datawhalechina/hello-agents"
+entryUrl: "https://github.com/datawhalechina/hello-agents/blob/4f7682ceafe573d07cd8a7d0b89908500e83227d/docs/chapter3/Chapter3-Fundamentals-of-Large-Language-Models.md"
+sourceRel: "docs/chapter3/Chapter3-Fundamentals-of-Large-Language-Models.md"
+rawUrl: "/raw/08-agents/hello-agents/docs/chapter3/Chapter3-Fundamentals-of-Large-Language-Models.md"
+sourceSha256: "07789e2ea5c14d1e56b316f809255ba9861ca81b545ca9c90877bfb5310771ff"
+pageSha256: "e1d3b10f72b6a250001be0cbc693b2680a9dc2e32ebf32fcbe45f2ee0b75e4f8"
+contentMode: "local-full"
+zh: ""
+---
+
+## References
+
+[1] Bengio, Y., Ducharme, R., Vincent, P., & Jauvin, C. (2003). A neural probabilistic language model. *Journal of Machine Learning Research*, 3, 1137-1155.
+
+[2] Elman, J. L. (1990). Finding structure in time. *Cognitive Science*, 14(2), 179-211.
+
+[3] Hochreiter, S., & Schmidhuber, J. (1997). Long short-term memory. *Neural Computation*, 9(8), 1735-1780.
+
+[4] Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., ... & Polosukhin, I. (2017). Attention is all you need. In *Advances in neural information processing systems* (pp. 5998-6008).
+
+[5] Radford, A., Narasimhan, K., Salimans, T., & Sutskever, I. (2018). Improving language understanding by generative pre-training. OpenAI.
+
+[6] Gage, P. (1994). A new algorithm for data compression. *C Users Journal*, *12*(2), 23-38.
+
+[7] Schuster, M., & Nakajima, K. (2012, March). Japanese and korean voice search. In *2012 IEEE international conference on acoustics, speech and signal processing (ICASSP)* (pp. 5149-5152). IEEE.
+
+[8] Kudo, T., & Richardson, J. (2018). SentencePiece: A simple and language independent subword tokenizer and detokenizer for neural text processing. *arXiv preprint arXiv:1808.06226*.
+
+[9] Kaplan, J., McCandlish, S., Henighan, T., Brown, T. B., Chess, B., Child, R., ... & Amodei, D. (2020). Scaling Laws for Neural Language Models. arXiv preprint arXiv:2001.08361.
+
+[10] Hoffmann, J., Borgeaud, E., Mensch, A., Buchatskaya, E., Cai, T., Rutherford, R., ... & Sifre, L. (2022). Training Compute-Optimal Large Language Models. arXiv preprint arXiv:2203.07678.
+
+[11] Huang, L., Yu, W., Ma, W., Zhong, W., Feng, Z., Wang, H., ... & Liu, T. (2023). A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions. *arXiv preprint arXiv:2311.05232*.
+
+[12] Bender, E. M., Gebru, T., McMillan-Major, A., & Mitchell, M. (2021). On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? .
+
+[13] Christiano, P., Leike, J., Brown, T. B., Martic, M., Legg, S., & Amodei, D. (2017). Deep reinforcement learning from human preferences. *arXiv preprint arXiv:1706.03741*.
+
+[14] Lewis, P., Perez, E., Piktus, A., Petroni, F., Karpukhin, V., Goswami, N., ... & Kiela, D. (2020). Retrieval-augmented generation for knowledge-intensive NLP tasks. In *Advances in neural information processing systems* (pp. 9459-9474).

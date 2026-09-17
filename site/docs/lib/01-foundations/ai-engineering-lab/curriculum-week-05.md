@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "01-foundations"
 sourceUrl: "https://github.com/zorost/AI-Engineering-Lab"
-entryUrl: "https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/README.md"
+entryUrl: "https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/curriculum/week-05/README.md"
+sourceRel: "curriculum/week-05/README.md"
+rawUrl: "/raw/01-foundations/ai-engineering-lab/curriculum/week-05/README.md"
+sourceSha256: "480176dfa2a45befb45731e1367db4c9df6e9a3e026ba69f73b10d6739cfee73"
+pageSha256: "480176dfa2a45befb45731e1367db4c9df6e9a3e026ba69f73b10d6739cfee73"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -38,7 +43,7 @@ By Friday you can:
 
 | Day | Study | Run / build | Ship | Time |
 |---|---|---|---|---|
-| **Mon** | Tokenization (BPE, vocab, token counts) and embeddings in [`reference/knowledge-base/03-llm-core-concepts.md`](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/reference/knowledge-base/03-llm-core-concepts.md) §1 to 2 | Skim `01-tokenization-lab.ipynb` cells 0 to 6 | Notes: the one-sentence mental model + why BPE splits "ZoroLogistics" | ~2 h |
+| **Mon** | Tokenization (BPE, vocab, token counts) and embeddings in [`reference/knowledge-base/03-llm-core-concepts.md`](/lib/01-foundations/ai-engineering-lab/reference-knowledge-base-03-llm-core-concepts) §1 to 2 | Skim `01-tokenization-lab.ipynb` cells 0 to 6 | Notes: the one-sentence mental model + why BPE splits "ZoroLogistics" | ~2 h |
 | **Tue** | Self-attention, transformer blocks, KV cache (§3 to 6) | Run notebook 1 end-to-end; add the `$/Mtok` estimator | Token-cost number for a real note | ~2 h |
 | **Wed** | Embeddings: word vs. contextual, cosine similarity (§2) | Run `02-embeddings-and-attention-lab.ipynb` Part 1 | Top-3 commodity matches for the 3 queries | ~2 h |
 | **Thu** | Attention in code; causal masking; generation dials (§3, §10) | Run notebook 2 Part 2; read the weight heatmap | Attention matrix you can explain out loud | ~2 h |
@@ -48,7 +53,7 @@ By Friday you can:
 
 ## Concepts
 
-Read [`reference/knowledge-base/03-llm-core-concepts.md`](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/reference/knowledge-base/03-llm-core-concepts.md) first; this section is the map, that file is the terrain. The whole discipline hangs on one fact: **an LLM predicts the next token.** It does not consult a knowledge base, "decide" in some inner monologue, or hold persistent memory between calls, it samples from a learned distribution over the vocabulary, one token at a time. Your job as an AI engineer is to reason about tokens and probabilities, not to anthropomorphize the model.
+Read [`reference/knowledge-base/03-llm-core-concepts.md`](/lib/01-foundations/ai-engineering-lab/reference-knowledge-base-03-llm-core-concepts) first; this section is the map, that file is the terrain. The whole discipline hangs on one fact: **an LLM predicts the next token.** It does not consult a knowledge base, "decide" in some inner monologue, or hold persistent memory between calls, it samples from a learned distribution over the vocabulary, one token at a time. Your job as an AI engineer is to reason about tokens and probabilities, not to anthropomorphize the model.
 
 ### Tokenization is the front door
 
@@ -172,7 +177,7 @@ The failure modes this week's technique prevents, and the ones it introduces if 
 
 ## Notebook walkthrough
 
-**`01-tokenization-lab.ipynb`** (CPU only, no internet). Cell 2 seeds a generator that produces 50 realistic shipment notes from templates ("departed {city} sorting hub", "reefer unit {code} fault…"). Cell 4 runs a BPE encode/decode round-trip on *"ZoroLogistics ships pharmaceutical freight from Houston to New Orleans."* and asserts `decode(encode(text)) == text`. Cell 6 is the money cell: it tokenizes `"shipment"`, `"ZoroLogistics"`, `"pharmaceuticals"`, `"🚚"`, `"ZRL-10042"`, `"unfathomable"` and prints the subword pieces, watch "ZoroLogistics" split into four tokens and the emoji into three. Cell 8 builds the chars/token table across seven text types (the table above). Cell 10 defines `estimate_cost`; cell 12 scales to 100,000 notes/day. The final cell prints `WEEK5_NB1_DAILY_COST_USD`, **≈ 22.58** with the seeded data at $1.00/$3.00. "Correct" output is a number in the low $20s, not a formula.
+**`01-tokenization-lab.ipynb`** (CPU only, no internet). Cell 2 seeds a generator that produces 50 realistic shipment notes from templates ("departed \{city\} sorting hub", "reefer unit \{code\} fault…"). Cell 4 runs a BPE encode/decode round-trip on *"ZoroLogistics ships pharmaceutical freight from Houston to New Orleans."* and asserts `decode(encode(text)) == text`. Cell 6 is the money cell: it tokenizes `"shipment"`, `"ZoroLogistics"`, `"pharmaceuticals"`, `"🚚"`, `"ZRL-10042"`, `"unfathomable"` and prints the subword pieces, watch "ZoroLogistics" split into four tokens and the emoji into three. Cell 8 builds the chars/token table across seven text types (the table above). Cell 10 defines `estimate_cost`; cell 12 scales to 100,000 notes/day. The final cell prints `WEEK5_NB1_DAILY_COST_USD`, **≈ 22.58** with the seeded data at $1.00/$3.00. "Correct" output is a number in the low $20s, not a formula.
 
 **`02-embeddings-and-attention-lab.ipynb`** (⚠️ internet for the one-time model download; deterministic offline fallback included). Cell 2 defines 12 commodity descriptors ("pharmaceuticals and medical supplies needing cold-chain handling", "industrial chemicals and solvents with hazmat placards"…) plus three queries, including *"temperature-sensitive medical cargo that must stay cold."* Cell 4 loads `all-MiniLM-L6-v2` (384-dim) or falls back to a seeded hash embedding. Cell 6 embeds everything and prints the top-3 cosine matches per query, the correct top-1 for the first query is **pharmaceuticals** (or perishables), never "furniture." Part 2 implements `scaled_dot_product_attention` and `causal_mask` in NumPy (cells 8 to 10) and, in cell 12, runs a 5-token sequence `["shipment", "delayed", "due", "to", "storm"]` through one head with an identity projection, printing the weight matrix and an ASCII heatmap. Read the heatmap: the first token attends only to itself, the last attends to everything before it (the lower-triangular pattern). The final cell prints `WEEK5_NB2_TOP1_SIMILARITY`, the top-1 cosine for the first query, near **0.7 to 0.8** with the real embedder (the hash fallback is lower but still ranks the right commodity first).
 

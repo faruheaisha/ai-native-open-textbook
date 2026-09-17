@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/zhiyue/vibe-coding-guide"
-entryUrl: "https://github.com/zhiyue/vibe-coding-guide/blob/ee8434ce526f629e0ca4ce00f6a66be6372327ac/README.md"
+entryUrl: "https://github.com/zhiyue/vibe-coding-guide/blob/ee8434ce526f629e0ca4ce00f6a66be6372327ac/chapters/09-real-world-examples.md"
+sourceRel: "chapters/09-real-world-examples.md"
+rawUrl: "/raw/07-coding/vibe-coding-guide/chapters/09-real-world-examples.md"
+sourceSha256: "9a850a6909fa2c56e112fe3f52f47dd931adc0695e55897c1f8c28296e3a7a4e"
+pageSha256: "9a850a6909fa2c56e112fe3f52f47dd931adc0695e55897c1f8c28296e3a7a4e"
+contentMode: "local-full"
 zh: ""
 ---
 

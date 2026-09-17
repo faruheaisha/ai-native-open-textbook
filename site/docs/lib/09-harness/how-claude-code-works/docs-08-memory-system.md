@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works"
-entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/README.md"
+entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/08-memory-system.md"
+sourceRel: "docs/08-memory-system.md"
+rawUrl: "/raw/09-harness/how-claude-code-works/docs/08-memory-system.md"
+sourceSha256: "df766f5c61eb3b0793acdb3a9c34d74f647bb652f21bd2c82df2da550b94fe81"
+pageSha256: "df766f5c61eb3b0793acdb3a9c34d74f647bb652f21bd2c82df2da550b94fe81"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -165,7 +170,7 @@ flowchart TD
 |--------|------|------|
 | 1 | `CLAUDE_COWORK_MEMORY_PATH_OVERRIDE` 环境变量 | Cowork/SDK 集成，完全绕过标准路径 |
 | 2 | `autoMemoryDirectory` in settings.json | 用户自定义记忆存储位置（支持 `~/` 展开） |
-| 3 | `~/.claude/projects/{sanitized-git-root}/memory/` | 默认路径 |
+| 3 | `~/.claude/projects/\{sanitized-git-root\}/memory/` | 默认路径 |
 
 这条链唯独排除 projectSettings，是出于安全考虑。`getAutoMemPathSetting()` 从 policy / flag / local / user 四个可信来源按序读取，就是不读 projectSettings——因为它来自项目的 `.claude/settings.json`，会被签入代码仓库。一个恶意仓库可以设置 `autoMemoryDirectory: "~/.ssh"`，让 Claude Code 的记忆写入操作（Edit/Write 工具）拿到对用户 SSH 密钥目录的写权限。这跟权限系统里"安全敏感路径不信任项目级设置"的原则一致。
 
@@ -506,7 +511,7 @@ trailing run    → 只处理自游标推进后的新消息
 
 为了防止重复，提示词会注入已有记忆的清单（manifest），要求 Agent "先检查是否已有类似记忆，再决定要不要新建"。
 
-还有范围限制：`MUST only use content from last ~${newMessageCount} messages`——只从最新的消息里提取，不重新处理已经处理过的历史。
+还有范围限制：`MUST only use content from last ~$\{newMessageCount\} messages`——只从最新的消息里提取，不重新处理已经处理过的历史。
 
 ### 共享 Prompt Cache
 
@@ -638,7 +643,7 @@ Contents of ~/.claude/projects/a1b2c3d4/memory/MEMORY.md (user's auto-memory, pe
 - [Bug 追踪](reference_linear.md) — 管道 Bug 在 Linear INGEST 项目
 ```
 
-这段文本由 `getClaudeMds()` 拼接生成（`src/utils/claudemd.ts`），格式为 `Contents of {path}{description}:\n\n{content}`。`description` 部分根据文件类型不同而变化——MEMORY.md 对应的是 `(user's auto-memory, persists across conversations)`。
+这段文本由 `getClaudeMds()` 拼接生成（`src/utils/claudemd.ts`），格式为 `Contents of \{path\}\{description\}:\n\n\{content\}`。`description` 部分根据文件类型不同而变化——MEMORY.md 对应的是 `(user's auto-memory, persists across conversations)`。
 
 ### 召回的记忆：用户消息注入
 

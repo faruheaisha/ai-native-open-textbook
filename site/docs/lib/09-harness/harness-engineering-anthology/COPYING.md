@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/lopopolo/harness-engineering"
-entryUrl: "https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/README.md"
+entryUrl: "https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/COPYING.md"
+sourceRel: "COPYING.md"
+rawUrl: "/raw/09-harness/harness-engineering-anthology/COPYING.md"
+sourceSha256: "85f54ad5bc505263e0a4318d0d43e7cf6c5c30a01bd644f753385e98920cda46"
+pageSha256: "85f54ad5bc505263e0a4318d0d43e7cf6c5c30a01bd644f753385e98920cda46"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -24,7 +29,7 @@ Ryan also licenses under CC BY 4.0:
 
 - his social-post text reproduced in the public X corpus; and
 - the text of his [hyperbo.la] articles reproduced under
-  [`sources/raw/hyperbola/`](https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/sources/raw/hyperbola/README.md).
+  [`sources/raw/hyperbola/`](/lib/09-harness/harness-engineering-anthology/sources-raw-hyperbola).
 
 The grant for articles published on [hyperbo.la] excludes third-party
 quotations, images, screenshots, embeds, logos, and trademarks identified in or

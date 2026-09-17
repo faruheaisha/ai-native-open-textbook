@@ -10,6 +10,8 @@ lang: "英文"
 volume: "08-agents"
 sourceUrl: "https://github.com/Osly-AI/PocketManus"
 entryUrl: "https://github.com/Osly-AI/PocketManus/blob/8ab0ec5f2d5dc17ff58b060af7afcda08a9f57fd/README.md"
+sourceRel: ""
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -19,26 +21,50 @@ This repository extends the Open Manus project with PocketFlow(https://github.co
 
 ## 课时
 
-1. [Marketing Automation with PocketFlow and Manus](docs-design-marketing_automation.md)
-2. [Research Report: AI Workflow Generators](examples-pocketflow_marketing-output-ai_workflow_research.md)
-3. [Go-To-Market Strategy for DataInsight Pro](examples-pocketflow_marketing-output-gtm_strategy_output.md)
-4. [Marketing Workflow Output](examples-pocketflow_marketing-output-marketing_workflow_output.md)
-5. [PocketFlow Marketing Automation Examples](examples-pocketflow_marketing.md)
-6. [Examples](examples-use_case.md)
-7. [(Advanced) Async](PocketFlow-docs-core_abstraction-async.md)
-8. [Batch](PocketFlow-docs-core_abstraction-batch.md)
-9. [Communication](PocketFlow-docs-core_abstraction-communication.md)
-10. [Flow](PocketFlow-docs-core_abstraction-flow.md)
-11. [Node](PocketFlow-docs-core_abstraction-node.md)
-12. [(Advanced) Parallel](PocketFlow-docs-core_abstraction-parallel.md)
-13. [Agent](PocketFlow-docs-design_pattern-agent.md)
-14. [Map Reduce](PocketFlow-docs-design_pattern-mapreduce.md)
-15. [Chat Memory](PocketFlow-docs-design_pattern-memory.md)
-16. [(Advanced) Multi-Agents](PocketFlow-docs-design_pattern-multi_agent.md)
-17. [RAG (Retrieval Augmented Generation)](PocketFlow-docs-design_pattern-rag.md)
-18. [Structured Output](PocketFlow-docs-design_pattern-structure.md)
-19. [Workflow](PocketFlow-docs-design_pattern-workflow.md)
-20. [LLM Application Development Playbook](PocketFlow-docs-guide.md)
-21. [Pocket Flow](PocketFlow-docs.md)
+- **docs**
+  - **design**
+    - [Marketing Automation with PocketFlow and Manus](/lib/08-agents/pocket-manus/docs-design-marketing_automation.md)
+- **examples**
+  - **pocketflow_marketing**
+    - **output**
+      - [Research Report: AI Workflow Generators](/lib/08-agents/pocket-manus/examples-pocketflow_marketing-output-ai_workflow_research.md)
+      - [Go-To-Market Strategy for DataInsight Pro](/lib/08-agents/pocket-manus/examples-pocketflow_marketing-output-gtm_strategy_output.md)
+      - [Marketing Workflow Output](/lib/08-agents/pocket-manus/examples-pocketflow_marketing-output-marketing_workflow_output.md)
+    - [PocketFlow Marketing Automation Examples](/lib/08-agents/pocket-manus/examples-pocketflow_marketing.md)
+  - **use_case**
+    - [Examples](/lib/08-agents/pocket-manus/examples-use_case.md)
+- **PocketFlow**
+  - **docs**
+    - **core_abstraction**
+      - [(Advanced) Async](/lib/08-agents/pocket-manus/PocketFlow-docs-core_abstraction-async.md)
+      - [Batch](/lib/08-agents/pocket-manus/PocketFlow-docs-core_abstraction-batch.md)
+      - [Communication](/lib/08-agents/pocket-manus/PocketFlow-docs-core_abstraction-communication.md)
+      - [Flow](/lib/08-agents/pocket-manus/PocketFlow-docs-core_abstraction-flow.md)
+      - [Node](/lib/08-agents/pocket-manus/PocketFlow-docs-core_abstraction-node.md)
+      - [(Advanced) Parallel](/lib/08-agents/pocket-manus/PocketFlow-docs-core_abstraction-parallel.md)
+    - **design_pattern**
+      - [Agent](/lib/08-agents/pocket-manus/PocketFlow-docs-design_pattern-agent.md)
+      - [Map Reduce](/lib/08-agents/pocket-manus/PocketFlow-docs-design_pattern-mapreduce.md)
+      - [Chat Memory](/lib/08-agents/pocket-manus/PocketFlow-docs-design_pattern-memory.md)
+      - [(Advanced) Multi-Agents](/lib/08-agents/pocket-manus/PocketFlow-docs-design_pattern-multi_agent.md)
+      - [RAG (Retrieval Augmented Generation)](/lib/08-agents/pocket-manus/PocketFlow-docs-design_pattern-rag.md)
+      - [Structured Output](/lib/08-agents/pocket-manus/PocketFlow-docs-design_pattern-structure.md)
+      - [Workflow](/lib/08-agents/pocket-manus/PocketFlow-docs-design_pattern-workflow.md)
+    - [LLM Application Development Playbook](/lib/08-agents/pocket-manus/PocketFlow-docs-guide.md)
+    - [Pocket Flow](/lib/08-agents/pocket-manus/PocketFlow-docs.md)
+    - **utility_function**
+      - [Text Chunking](/lib/08-agents/pocket-manus/PocketFlow-docs-utility_function-chunking.md)
+      - [Embedding](/lib/08-agents/pocket-manus/PocketFlow-docs-utility_function-embedding.md)
+      - [LLM Wrappers](/lib/08-agents/pocket-manus/PocketFlow-docs-utility_function-llm.md)
+      - [Text-to-Speech](/lib/08-agents/pocket-manus/PocketFlow-docs-utility_function-text_to_speech.md)
+      - [Tool](/lib/08-agents/pocket-manus/PocketFlow-docs-utility_function-tool.md)
+      - [Vector Databases](/lib/08-agents/pocket-manus/PocketFlow-docs-utility_function-vector.md)
+      - [Visualization and Debugging](/lib/08-agents/pocket-manus/PocketFlow-docs-utility_function-viz.md)
+      - [Web Search](/lib/08-agents/pocket-manus/PocketFlow-docs-utility_function-websearch.md)
+  - [README](/lib/08-agents/pocket-manus/PocketFlow.md)
+- [👋 OpenManus](/lib/08-agents/pocket-manus/README_ja.md)
+- [👋 OpenManus](/lib/08-agents/pocket-manus/README_ko.md)
+- [Open Manus with PocketFlow Integration](/lib/08-agents/pocket-manus/README_pocketmanus.md)
+- [👋 OpenManus](/lib/08-agents/pocket-manus/README_zh.md)
 
 开始学习 → [Marketing Automation with PocketFlow and Manus](docs-design-marketing_automation.md)

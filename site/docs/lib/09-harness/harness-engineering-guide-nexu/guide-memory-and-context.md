@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/nexu-io/harness-engineering-guide"
-entryUrl: "https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/README.md"
+entryUrl: "https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/memory-and-context.md"
+sourceRel: "guide/memory-and-context.md"
+rawUrl: "/raw/09-harness/harness-engineering-guide-nexu/guide/memory-and-context.md"
+sourceSha256: "f0a234c3ffc4b939eb72f29c179c8895f91ba3eca0a185676475b41114086f94"
+pageSha256: "f0a234c3ffc4b939eb72f29c179c8895f91ba3eca0a185676475b41114086f94"
+contentMode: "local-full"
 zh: ""
 ---
 

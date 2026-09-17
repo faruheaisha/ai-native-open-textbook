@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know"
-entryUrl: "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/README.md"
+entryUrl: "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/docs/skills.md"
+sourceRel: "docs/skills.md"
+rawUrl: "/raw/09-harness/claude-code-everything/docs/skills.md"
+sourceSha256: "b9743d2a9454fd05dd2259e1aada9d546a8e3d93491e3d480f7ab10b08d86e19"
+pageSha256: "b9743d2a9454fd05dd2259e1aada9d546a8e3d93491e3d480f7ab10b08d86e19"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -135,7 +140,7 @@ Claude Skills (a.k.a. *custom slash commands*) are markdown files in `.claude/co
 | `/todo` | Slash | Task management in `todos.md` with due dates and completion tracking |
 | `/claude-md-review` | **Agent Skill** | Audits a `CLAUDE.md` for vagueness, dead file paths, stale commands, and bloat — and Claude reaches for it on its own when a project's instructions look like the problem |
 
-The first seven live in [`.claude/commands/`](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/.claude/commands/README.md) as plain markdown. [`/claude-md-review`](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/.claude/skills/claude-md-review/SKILL.md) lives in `.claude/skills/` and is the worked example of the [frontmatter contract](#frontmatter-reference) — read it alongside the field table below.
+The first seven live in [`.claude/commands/`](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/.claude/commands/README.md) as plain markdown. [`/claude-md-review`](/lib/09-harness/claude-code-everything/_claude-skills-claude-md-review-SKILL) lives in `.claude/skills/` and is the worked example of the [frontmatter contract](#frontmatter-reference) — read it alongside the field table below.
 
 > 💡 **Pro tip:** Start with simple skills like `/five` or `/todo` to understand the pattern, then progress to complex workflows like `/tdd` or `/review`.
 
@@ -470,7 +475,7 @@ Brief description of what this skill does.
 
 **3. Example: simple skill**
 
-A simplified version of this repo's [`.claude/commands/five.md`](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/.claude/commands/five.md) (the real file adds usage notes, variables, and worked examples):
+A simplified version of this repo's [`.claude/commands/five.md`](/lib/09-harness/claude-code-everything/_claude-commands-five) (the real file adds usage notes, variables, and worked examples):
 
 ```markdown
 # Five Whys Analysis
@@ -490,7 +495,7 @@ Apply the Five Whys root cause analysis technique to investigate issues.
 - Multiple root causes may exist — explore different branches
 ```
 
-> 💡 Copy this to `.claude/commands/five.md` to use it immediately — or grab [the full version](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/.claude/commands/five.md) from this repo.
+> 💡 Copy this to `.claude/commands/five.md` to use it immediately — or grab [the full version](/lib/09-harness/claude-code-everything/_claude-commands-five) from this repo.
 
 **4. Example: complex skill (complete file)**
 
@@ -648,7 +653,7 @@ Analyze the code at the provided file path or URL.
 2. Perform code review...
 ```
 
-> **Note:** `$ARGUMENTS` is a supported placeholder in custom commands/skills — this repo's own [`.claude/commands/review.md`](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/.claude/commands/review.md) uses it (`**PR Link/Number**: $ARGUMENTS`). Plain trailing text after the command also works: Claude sees whatever you type after `/skill-name` as part of the request context. See the [official commands reference](https://code.claude.com/docs/en/commands).
+> **Note:** `$ARGUMENTS` is a supported placeholder in custom commands/skills — this repo's own [`.claude/commands/review.md`](/lib/09-harness/claude-code-everything/_claude-commands-review) uses it (`**PR Link/Number**: $ARGUMENTS`). Plain trailing text after the command also works: Claude sees whatever you type after `/skill-name` as part of the request context. See the [official commands reference](https://code.claude.com/docs/en/commands).
 
 ### ❌ Don't
 

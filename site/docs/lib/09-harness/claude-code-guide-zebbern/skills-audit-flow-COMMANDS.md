@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/zebbern/claude-code-guide"
-entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/README.md"
+entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/skills/audit-flow/COMMANDS.md"
+sourceRel: "skills/audit-flow/COMMANDS.md"
+rawUrl: "/raw/09-harness/claude-code-guide-zebbern/skills/audit-flow/COMMANDS.md"
+sourceSha256: "68f364a70299d5f52ae209a2bffcf02131f760be7e6f3c840dca53d2a7505109"
+pageSha256: "68f364a70299d5f52ae209a2bffcf02131f760be7e6f3c840dca53d2a7505109"
+contentMode: "local-full"
 zh: ""
 ---
 

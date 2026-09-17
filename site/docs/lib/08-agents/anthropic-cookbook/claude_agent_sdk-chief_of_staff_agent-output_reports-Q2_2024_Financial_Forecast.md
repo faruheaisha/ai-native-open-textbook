@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "08-agents"
 sourceUrl: "https://github.com/anthropics/anthropic-cookbook"
-entryUrl: "https://github.com/anthropics/anthropic-cookbook/blob/a97b9a2dc300635f0c26b5e05d0b54bbe0279ee5/README.md"
+entryUrl: "https://github.com/anthropics/anthropic-cookbook/blob/a97b9a2dc300635f0c26b5e05d0b54bbe0279ee5/claude_agent_sdk/chief_of_staff_agent/output_reports/Q2_2024_Financial_Forecast.md"
+sourceRel: "claude_agent_sdk/chief_of_staff_agent/output_reports/Q2_2024_Financial_Forecast.md"
+rawUrl: "/raw/08-agents/anthropic-cookbook/claude_agent_sdk/chief_of_staff_agent/output_reports/Q2_2024_Financial_Forecast.md"
+sourceSha256: "38ac3b7a2fa71b4cb36d6cff963f31eeb3d61dc6b9a9c71f0b25931acac09f07"
+pageSha256: "38ac3b7a2fa71b4cb36d6cff963f31eeb3d61dc6b9a9c71f0b25931acac09f07"
+contentMode: "local-full"
 zh: ""
 ---
 

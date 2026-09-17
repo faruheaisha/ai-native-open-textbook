@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/obra/superpowers"
-entryUrl: "https://github.com/obra/superpowers/blob/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/README.md"
+entryUrl: "https://github.com/obra/superpowers/blob/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/docs/porting-to-a-new-harness.md"
+sourceRel: "docs/porting-to-a-new-harness.md"
+rawUrl: "/raw/10-context-memory/superpowers/docs/porting-to-a-new-harness.md"
+sourceSha256: "b60895cd45379329d6cc97a37a0aaf237e51773bd51c1f7f5fe38e141e53af6c"
+pageSha256: "b60895cd45379329d6cc97a37a0aaf237e51773bd51c1f7f5fe38e141e53af6c"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -165,7 +170,7 @@ A port is finished when **all** of these are true:
 6. A real user can install it through the harness's own mechanism (not by
    hand-copying files), and the version is tracked in `.version-bump.json` where
    applicable (Part 6). Note that some installers rewrite or strip the manifest on
-   install (one drops it to just `{"name": …}`), so "the *installed* files report
+   install (one drops it to just `\{"name": …\}`), so "the *installed* files report
    the repo version" is not always achievable — track the version at the source
    manifest and don't treat a rewritten installed manifest as a failure.
 
@@ -343,7 +348,7 @@ ones in spirit:
     does it run the source directly (pi's `.ts` is referenced as-is from
     `package.json`; OpenCode ships plain `.js`), or does it need a transpile/build
     step? Superpowers is zero-runtime-dependency. pi's `import type
-    { ExtensionAPI }` works specifically because the harness runs the `.ts`
+    \{ ExtensionAPI \}` works specifically because the harness runs the `.ts`
     directly, supplies that type at load, and the repo never type-checks the file
     in CI — the import isn't even declared as a dependency. If *your* harness
     actually type-checks or bundles the plugin, that breaks: an undeclared type
@@ -379,10 +384,10 @@ inline here — it lives in `references/<harness>-tools.md` (Step 4). Get the JS
 output shape exactly right. `hooks/session-start`
 detects the harness from environment variables and prints *one of three* shapes:
 
-- Cursor (`CURSOR_PLUGIN_ROOT` set): `{ "additional_context": "…" }`
+- Cursor (`CURSOR_PLUGIN_ROOT` set): `\{ "additional_context": "…" \}`
 - Claude Code (`CLAUDE_PLUGIN_ROOT` set, `COPILOT_CLI` unset):
-  `{ "hookSpecificOutput": { "hookEventName": "SessionStart", "additionalContext": "…" } }`
-- Copilot CLI / SDK standard (else): `{ "additionalContext": "…" }`
+  `\{ "hookSpecificOutput": \{ "hookEventName": "SessionStart", "additionalContext": "…" \} \}`
+- Copilot CLI / SDK standard (else): `\{ "additionalContext": "…" \}`
 
 This is a trap. Emitting the wrong field, or an extra one, means the bootstrap
 either never injects or injects twice (Claude Code reads both
@@ -407,7 +412,7 @@ Claude Code uses. Match your `hooks-<harness>.json` to whichever existing file i
 closest, not to a single canonical template.
 
 The hook **command string references a harness-provided plugin-root variable**,
-and its name differs per harness: `hooks.json` uses `${CLAUDE_PLUGIN_ROOT}`,
+and its name differs per harness: `hooks.json` uses `$\{CLAUDE_PLUGIN_ROOT\}`,
 `hooks-cursor.json` uses a relative path. Use
 whatever your harness exports. (The `session-start` script re-derives the root
 itself via `dirname`, so the script body doesn't depend on this — but the
@@ -448,7 +453,7 @@ messages break some models (#894). Three things you must replicate:
   re-injection plus the dedup guard.
 - **Message-object shape is per-harness — discover yours, don't copy a literal.**
   The two references use *incompatible* shapes: pi builds
-  `{ role, content: [{ type, text }], timestamp }`; OpenCode manipulates
+  `\{ role, content: [\{ type, text \}], timestamp \}`; OpenCode manipulates
   `message.info.role` and `message.parts[]`. Find your harness's message shape
   from its API; copying a reference's object literal verbatim will fail silently.
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/ed-donner/production"
-entryUrl: "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/README.md"
+entryUrl: "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/community_contributions/terraform_aws_gcp_azure_githubactions.md"
+sourceRel: "community_contributions/terraform_aws_gcp_azure_githubactions.md"
+rawUrl: "/raw/08-agents/ed-donner-production/community_contributions/terraform_aws_gcp_azure_githubactions.md"
+sourceSha256: "87f52a41775a504a7f958ec5e5673f47d95370856c2eef2531b83f1a0876a7b9"
+pageSha256: "87f52a41775a504a7f958ec5e5673f47d95370856c2eef2531b83f1a0876a7b9"
+contentMode: "local-full"
 zh: ""
 ---
 

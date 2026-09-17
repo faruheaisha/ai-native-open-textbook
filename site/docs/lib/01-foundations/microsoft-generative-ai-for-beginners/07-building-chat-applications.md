@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "01-foundations"
 sourceUrl: "https://github.com/microsoft/generative-ai-for-beginners"
-entryUrl: "https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/README.md"
+entryUrl: "https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/07-building-chat-applications/README.md"
+sourceRel: "07-building-chat-applications/README.md"
+rawUrl: "/raw/01-foundations/microsoft-generative-ai-for-beginners/07-building-chat-applications/README.md"
+sourceSha256: "074a6326fbb231895502990fa11c6d5924cf0f6a5a1ad5acb2d6b061dcdd7f50"
+pageSha256: "074a6326fbb231895502990fa11c6d5924cf0f6a5a1ad5acb2d6b061dcdd7f50"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/qiuzhi2046/Qclaw"
-entryUrl: "https://github.com/qiuzhi2046/Qclaw/blob/c494768977f4e48b8eacbfae7ae390af11fc015f/README.md"
+entryUrl: "https://github.com/qiuzhi2046/Qclaw/blob/c494768977f4e48b8eacbfae7ae390af11fc015f/README.en.md"
+sourceRel: "README.en.md"
+rawUrl: "/raw/11-personal-agents/qclaw/README.en.md"
+sourceSha256: "98742e3a105c4798e1de7a49b01300089ad3b34ae347e496a7c2dedce6b147e1"
+pageSha256: "98742e3a105c4798e1de7a49b01300089ad3b34ae347e496a7c2dedce6b147e1"
+contentMode: "local-full"
 zh: ""
 ---
 

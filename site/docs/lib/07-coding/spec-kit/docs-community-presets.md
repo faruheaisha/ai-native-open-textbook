@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/github/spec-kit"
-entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/README.md"
+entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/docs/community/presets.md"
+sourceRel: "docs/community/presets.md"
+rawUrl: "/raw/07-coding/spec-kit/docs/community/presets.md"
+sourceSha256: "ce1b4593b5909d41e74d9156c291ab96cebea85f58c1ff62a374b64797eace60"
+pageSha256: "ce1b4593b5909d41e74d9156c291ab96cebea85f58c1ff62a374b64797eace60"
+contentMode: "local-full"
 zh: ""
 ---
 

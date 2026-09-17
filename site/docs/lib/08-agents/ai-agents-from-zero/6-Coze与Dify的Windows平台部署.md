@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/didilili/ai-agents-from-zero"
-entryUrl: "https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/README.md"
+entryUrl: "https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/6-Coze与Dify的Windows平台部署.md"
+sourceRel: "6-Coze与Dify的Windows平台部署.md"
+rawUrl: "/raw/08-agents/ai-agents-from-zero/6-Coze与Dify的Windows平台部署.md"
+sourceSha256: "7886fd773a9e3e685fdc9c24d8776856c5423646785000b5c5e516b3bbcf6b95"
+pageSha256: "7886fd773a9e3e685fdc9c24d8776856c5423646785000b5c5e516b3bbcf6b95"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -26,7 +31,7 @@ zh: ""
 - 完成 **Dify** 在 Windows 上的最小部署：确认 Docker 环境 -> 获取代码 -> 配置 `.env` -> `docker compose up -d` -> 浏览器访问。
 - 理解两条常见模型接入路线：**云端 API 模型** 与 **本地 Ollama 模型**，知道它们分别适合什么场景。
 
-**学习建议：** 这篇不要贪多，先选一条路线跑通。还没安装 Docker Desktop 的同学，先看 [第 8 章 Windows 安装前准备](/lib/08-agents/ai-agents-from-zero/8-Docker快速入门与Dify部署排障#_22-windows-安装前准备)。只想体验 Coze，就先完成 Coze Studio 和模型配置；只想体验 Dify，就先把 Dify 服务启动并能登录。Coze Loop 可以等 Studio 跑通后再看。模型配置是最容易卡住的地方：选火山方舟就提前准备 API Key 和 Endpoint，选 Ollama 就先确认本地模型已经拉取成功。
+**学习建议：** 这篇不要贪多，先选一条路线跑通。还没安装 Docker Desktop 的同学，先看 [第 8 章 Windows 安装前准备](/lib/08-agents/ai-agents-from-zero/8-Docker快速入门与Dify部署排障/index#_22-windows-安装前准备)。只想体验 Coze，就先完成 Coze Studio 和模型配置；只想体验 Dify，就先把 Dify 服务启动并能登录。Coze Loop 可以等 Studio 跑通后再看。模型配置是最容易卡住的地方：选火山方舟就提前准备 API Key 和 Endpoint，选 Ollama 就先确认本地模型已经拉取成功。
 
 ---
 
@@ -230,7 +235,7 @@ docker compose --profile '*' up -d
 
 ![在 Docker 中启动 Coze Studio 的命令行界面](/mirror/cb/cb89ec5064015b75d04e29d4d3b8abfad595e973.webp)
 
-这条命令会通过 Compose 启用所有 profile，并在后台启动服务。`docker compose up -d` 的通用含义见 [第 8 章 Compose](/lib/08-agents/ai-agents-from-zero/8-Docker快速入门与Dify部署排障#_32-compose)。
+这条命令会通过 Compose 启用所有 profile，并在后台启动服务。`docker compose up -d` 的通用含义见 [第 8 章 Compose](/lib/08-agents/ai-agents-from-zero/8-Docker快速入门与Dify部署排障/index#_32-compose)。
 
 首次启动可能需要 5-10 分钟，具体取决于网络和镜像拉取速度。看到类似下面的结果，说明服务已经启动。
 
@@ -268,7 +273,7 @@ http://localhost:8888/
 
 Dify 的 Windows 本地部署比 Coze Studio 更直接。它不需要先在代码里配置模型文件，核心流程就是：**获取项目 -> 进入 `docker` 目录 -> 复制 `.env` -> 启动 Compose -> 浏览器访问**。
 
-本节只讲最小部署流程。Docker 通用概念、镜像拉取失败、容器状态异常、数据位置、备份升级和数据库连接，统一放在 [第 8 章 Docker 快速入门与 Dify 部署排障](/lib/08-agents/ai-agents-from-zero/8-Docker快速入门与Dify部署排障)。
+本节只讲最小部署流程。Docker 通用概念、镜像拉取失败、容器状态异常、数据位置、备份升级和数据库连接，统一放在 [第 8 章 Docker 快速入门与 Dify 部署排障](/lib/08-agents/ai-agents-from-zero/8-Docker快速入门与Dify部署排障/index)。
 
 ### 3.1 部署前准备
 
@@ -299,7 +304,7 @@ https://docs.dify.ai/zh-hans/getting-started/install-self-hosted/docker-compose
 
 第一次部署最常改的是端口。如果本机 `80` 端口被其他程序占用，可以改成 `8100`、`8080` 或其他未被占用端口。
 
-可以把 `.env` 理解为这套部署环境的运行参数表。Docker / Compose / 数据卷的关系，以及 Dify 场景下的排障方式，见 [第 8 章](/lib/08-agents/ai-agents-from-zero/8-Docker快速入门与Dify部署排障)。
+可以把 `.env` 理解为这套部署环境的运行参数表。Docker / Compose / 数据卷的关系，以及 Dify 场景下的排障方式，见 [第 8 章](/lib/08-agents/ai-agents-from-zero/8-Docker快速入门与Dify部署排障/index)。
 
 ### 3.4 启动 Dify
 
@@ -360,7 +365,7 @@ Coze Loop 更偏“效果管理”和“运行观测”。它可以帮助开发�
 
 **1. Go 语言环境**
 
-需要安装 Go SDK，版本为 1.23.4 及以上。安装后配置 GOPATH，并将 `${GOPATH}/bin` 加入系统环境变量 PATH，方便系统找到 Go 安装的二进制工具。
+需要安装 Go SDK，版本为 1.23.4 及以上。安装后配置 GOPATH，并将 `$\{GOPATH\}/bin` 加入系统环境变量 PATH，方便系统找到 Go 安装的二进制工具。
 
 Go 语言官网：https://go.dev/dl/
 
@@ -417,7 +422,7 @@ coze-loop-main\release\deployment\docker-compose\.env
 
 ![修改 Coze Loop .env 端口配置的界面](/mirror/c0/c0caaba3e5a9625574273fac638d9c2c2fd98c44.webp)
 
-再打开同目录下的 `docker-compose.yml`，确认引用 `${COZE_LOOP_APP_OPENAPI_PORT}` 的端口与 `.env` 中保持一致。
+再打开同目录下的 `docker-compose.yml`，确认引用 `$\{COZE_LOOP_APP_OPENAPI_PORT\}` 的端口与 `.env` 中保持一致。
 
 ![修改 Coze Loop docker-compose 端口映射的界面](/mirror/bf/bf27c7510f8f24ab3cdd9a335558dfe2feda7cb7.webp)
 
@@ -570,7 +575,7 @@ Trace 用于记录运行链路里的详细信息，适合排查模型调用、�
 5. **容器是否在运行**：用 `docker compose ps` 或 Docker Desktop 查看状态。
 6. **日志里有没有明确报错**：重点看 API、Web、数据库、模型服务相关日志。
 
-本章只负责跑通最小链路。更系统的 Docker 命令、Dify 数据位置、升级备份和数据库连接，继续看 [第 8 章 Docker 快速入门与 Dify 部署排障](/lib/08-agents/ai-agents-from-zero/8-Docker快速入门与Dify部署排障)。
+本章只负责跑通最小链路。更系统的 Docker 命令、Dify 数据位置、升级备份和数据库连接，继续看 [第 8 章 Docker 快速入门与 Dify 部署排障](/lib/08-agents/ai-agents-from-zero/8-Docker快速入门与Dify部署排障/index)。
 
 ---
 
@@ -594,4 +599,4 @@ Trace 用于记录运行链路里的详细信息，适合排查模型调用、�
 - **核心组件**：Coze Studio 负责智能体开发，Dify 负责工作流、知识库和应用发布，Coze Loop 更偏评测、实验、Trace 和运维。
 - **实操主线**：这章最关键的不是记住所有截图，而是掌握一条部署逻辑：**准备环境 -> 获取代码 -> 修改配置 -> 启动服务 -> 浏览器验证**。
 
-**建议下一步：** 如果你要继续看 Dify 部署后的 Docker 概念、数据位置、升级备份和排障，进入 [第 8 章 Docker 快速入门与 Dify 部署排障](/lib/08-agents/ai-agents-from-zero/8-Docker快速入门与Dify部署排障)；如果你要继续看更完整的企业部署链路，再进入 [第 7 章 企业级大模型部署](/lib/08-agents/ai-agents-from-zero/7-企业级大模型部署)。
+**建议下一步：** 如果你要继续看 Dify 部署后的 Docker 概念、数据位置、升级备份和排障，进入 [第 8 章 Docker 快速入门与 Dify 部署排障](/lib/08-agents/ai-agents-from-zero/8-Docker快速入门与Dify部署排障/index)；如果你要继续看更完整的企业部署链路，再进入 [第 7 章 企业级大模型部署](/lib/08-agents/ai-agents-from-zero/7-企业级大模型部署)。

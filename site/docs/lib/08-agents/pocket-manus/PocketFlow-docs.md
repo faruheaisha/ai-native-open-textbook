@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/Osly-AI/PocketManus"
-entryUrl: "https://github.com/Osly-AI/PocketManus/blob/8ab0ec5f2d5dc17ff58b060af7afcda08a9f57fd/README.md"
+entryUrl: "https://github.com/Osly-AI/PocketManus/blob/8ab0ec5f2d5dc17ff58b060af7afcda08a9f57fd/PocketFlow/docs/index.md"
+sourceRel: "PocketFlow/docs/index.md"
+rawUrl: "/raw/08-agents/pocket-manus/PocketFlow/docs/index.md"
+sourceSha256: "689f57729cf85bdde3b4f3b8804edd9ff4da915403fe260f24d08d2ee5f5b5b2"
+pageSha256: "689f57729cf85bdde3b4f3b8804edd9ff4da915403fe260f24d08d2ee5f5b5b2"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -50,13 +55,13 @@ From there, it’s easy to implement popular design patterns:
 
 We provide utility functions not in *codes*, but in *docs*:
 
-- [LLM Wrapper](https://github.com/Osly-AI/PocketManus/blob/8ab0ec5f2d5dc17ff58b060af7afcda08a9f57fd/PocketFlow/docs/utility_function/llm.md)
-- [Tool](https://github.com/Osly-AI/PocketManus/blob/8ab0ec5f2d5dc17ff58b060af7afcda08a9f57fd/PocketFlow/docs/utility_function/tool.md)
-- [(Optional) Viz and Debug](https://github.com/Osly-AI/PocketManus/blob/8ab0ec5f2d5dc17ff58b060af7afcda08a9f57fd/PocketFlow/docs/utility_function/viz.md)
-- [(Optional) Web Search](https://github.com/Osly-AI/PocketManus/blob/8ab0ec5f2d5dc17ff58b060af7afcda08a9f57fd/PocketFlow/docs/utility_function/websearch.md)
-- [(Optional) Chunking](https://github.com/Osly-AI/PocketManus/blob/8ab0ec5f2d5dc17ff58b060af7afcda08a9f57fd/PocketFlow/docs/utility_function/chunking.md)
-- [(Optional) Embedding](https://github.com/Osly-AI/PocketManus/blob/8ab0ec5f2d5dc17ff58b060af7afcda08a9f57fd/PocketFlow/docs/utility_function/embedding.md)
-- [(Optional) Vector Databases](https://github.com/Osly-AI/PocketManus/blob/8ab0ec5f2d5dc17ff58b060af7afcda08a9f57fd/PocketFlow/docs/utility_function/vector.md)
-- [(Optional) Text-to-Speech](https://github.com/Osly-AI/PocketManus/blob/8ab0ec5f2d5dc17ff58b060af7afcda08a9f57fd/PocketFlow/docs/utility_function/text_to_speech.md)
+- [LLM Wrapper](/lib/08-agents/pocket-manus/PocketFlow-docs-utility_function-llm)
+- [Tool](/lib/08-agents/pocket-manus/PocketFlow-docs-utility_function-tool)
+- [(Optional) Viz and Debug](/lib/08-agents/pocket-manus/PocketFlow-docs-utility_function-viz)
+- [(Optional) Web Search](/lib/08-agents/pocket-manus/PocketFlow-docs-utility_function-websearch)
+- [(Optional) Chunking](/lib/08-agents/pocket-manus/PocketFlow-docs-utility_function-chunking)
+- [(Optional) Embedding](/lib/08-agents/pocket-manus/PocketFlow-docs-utility_function-embedding)
+- [(Optional) Vector Databases](/lib/08-agents/pocket-manus/PocketFlow-docs-utility_function-vector)
+- [(Optional) Text-to-Speech](/lib/08-agents/pocket-manus/PocketFlow-docs-utility_function-text_to_speech)
 
 ## Read to Develop your LLM Apps? [Read this guide!](/lib/08-agents/pocket-manus/PocketFlow-docs-guide)

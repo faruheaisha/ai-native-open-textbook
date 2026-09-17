@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/shareAI-lab/learn-claude-code"
-entryUrl: "https://github.com/shareAI-lab/learn-claude-code/blob/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/README.md"
+entryUrl: "https://github.com/shareAI-lab/learn-claude-code/blob/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/docs/en/s05-skill-loading.md"
+sourceRel: "docs/en/s05-skill-loading.md"
+rawUrl: "/raw/09-harness/learn-claude-code/docs/en/s05-skill-loading.md"
+sourceSha256: "910ccb443bba7ded5470306c0ac9405658dd44e5e4535b9b6b6257cf67eba6b3"
+pageSha256: "910ccb443bba7ded5470306c0ac9405658dd44e5e4535b9b6b6257cf67eba6b3"
+contentMode: "local-full"
 zh: ""
 ---
 

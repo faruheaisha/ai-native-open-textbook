@@ -1,0 +1,245 @@
+---
+title: "SEO基礎：Googleにプロダクトを見つけてもらう"
+sourceId: "07-coding/vibefast-docs"
+sourceTitle: "VibeFast 文档"
+sourceKind: "官方文档"
+licenseLabel: "限非商用"
+lang: "英文"
+tier: 3
+volume: "07-coding"
+sourceUrl: "https://github.com/vibefast-app/vibefast-docs"
+entryUrl: "https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/jp/22-seo-basics-for-indie-makers-jp.md"
+sourceRel: "jp/22-seo-basics-for-indie-makers-jp.md"
+rawUrl: "/raw/07-coding/vibefast-docs/jp/22-seo-basics-for-indie-makers-jp.md"
+sourceSha256: "344127fdd53531512be75e13d629a21c386b422f2eb9b616b8b293e7f52b9521"
+pageSha256: "344127fdd53531512be75e13d629a21c386b422f2eb9b616b8b293e7f52b9521"
+contentMode: "local-full"
+zh: ""
+---
+
+# SEO基礎：Googleにプロダクトを見つけてもらう
+
+[English](/lib/07-coding/vibefast-docs/en-22-seo-basics-for-indie-makers-en) · [繁中](/lib/07-coding/vibefast-docs/zh-22-seo-basics-for-indie-makers-zh) · [Español](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/es/22-seo-basics-for-indie-makers-es.md) · [日本語](/lib/07-coding/vibefast-docs/jp-22-seo-basics-for-indie-makers-jp) · [Português (BR)](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/pt-br/22-seo-basics-for-indie-makers-pt-br.md)
+
+**著者：** Danko Peng（[@dankopeng](https://x.com/dankopeng)）  
+**更新：** 2026年3月  
+**読了時間：** 約8分
+
+-----
+
+## SEOは難しくない、ただ多くの人が方向を間違えている
+
+SEOをとても複雑なものとして捉え、アルゴリズム、被リンク、キーワード密度の研究に膨大な時間を使う人が多い。
+
+インディー開発者にとって、SEOは実際にはたった2つのことだ：**Googleにページを理解させること、そして実際のユーザーにクリックさせること。**
+
+この2つができれば、トラフィックは自然と来る。他のテクニックはすべて上級の最適化で、最初は必要ない。
+
+-----
+
+## 第1のこと：GoogleにページをReadableにする
+
+### TitleとMeta Description
+
+各ページで最も重要な2つのSEO要素：
+
+**Title**：ブラウザのタブとGoogle検索結果の青いリンクに表示される。
+
+```html
+<title>vibefast.app — Cloudflareフルスタック Webアプリテンプレート</title>
+```
+
+- 長さは50〜60文字に収める
+- コアキーワードを含める
+- 各ページで異なるものにする（全ページで同じtitleにしない）
+
+**Meta Description**：Google検索結果のtitleの下に表示される説明文。
+
+```html
+<meta name="description" content="Remix + Cloudflare Workersでフルスタックアプリをスピード作成。Auth、Stripe、D1、R2内蔵。1コマンドで起動。" />
+```
+
+- 長さは150〜160文字に収める
+- このページが何で、訪問者にどんな価値があるかを明確に伝える
+- Googleがこのテキストをそのまま使うとは限らないが、多くの場合は使われる
+
+Remixでの設定：
+
+```typescript
+// app/routes/_index.tsx
+export function meta() {
+  return [
+    { title: "vibefast.app — Cloudflareフルスタック Webアプリテンプレート" },
+    { name: "description", content: "Remix + Cloudflare Workersでフルスタックアプリをスピード作成。" },
+  ]
+}
+```
+
+### 見出し構造（H1、H2、H3）
+
+各ページにはH1が1つだけあり、そのページのテーマを説明する。その後H2、H3でコンテンツの階層を整理する。
+
+```html
+<h1>天然手工芸品のオンラインショップ</h1>
+  <h2>天然素材</h2>
+    <h3>ラベンダーシリーズ</h3>
+    <h3>ローズシリーズ</h3>
+  <h2>購入方法</h2>
+```
+
+Googleは見出し構造を使ってページが何について書かれているかを理解する。
+
+### 画像のAlt テキスト
+
+すべての画像に画像内容を説明する`alt`属性を付ける：
+
+```html
+
+<img src="soap.jpg" />
+
+<img src="lavender-soap.jpg" alt="手作りのラベンダーソープ、天然精油使用" />
+```
+
+Altテキストにより、Googleはこの画像が何かを理解でき、視覚障害のあるユーザーのスクリーンリーダーもコンテンツを理解できる。
+
+-----
+
+## 第2のこと：Googleにページを発見させる
+
+### Sitemap
+
+Sitemapは「私のサイトにはこんなページがある」をGoogleに伝えるXMLファイルだ。
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://yoursite.com/</loc>
+    <lastmod>2026-03-01</lastmod>
+  </url>
+  <url>
+    <loc>https://yoursite.com/shop</loc>
+    <lastmod>2026-03-01</lastmod>
+  </url>
+</urlset>
+```
+
+AIに「RemixでダイナミックなSitemapを作って。全商品ページを自動的に含めてください」と伝えれば、データベースからURLを読み込むsitemapルートを生成してくれる。
+
+その後、[Google Search Console](https://search.google.com/search-console) でSitemapのURLを登録する。
+
+### robots.txt
+
+`robots.txt`は検索エンジンにどのページをクロールしていいか、していけないかを伝える：
+
+```
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api
+
+Sitemap: https://yoursite.com/sitemap.xml
+```
+
+これを `/public/robots.txt` に置けば、Remixが自動的に返す。
+
+-----
+
+## 第3のこと：コンテンツが長期的なトラフィックの根本
+
+技術的なSEOは出発点に過ぎない。長期的に見ると、**価値あるコンテンツこそが継続的なトラフィックの鍵だ。**
+
+毎日ブログを書く必要があるという意味ではない。次のことを意味する：
+
+プロダクトページ自体が「このプロダクトは何か、どんな問題を解決するか、誰に向いているか」を明確に答えていること。
+
+FAQページが実際にユーザーが検索する質問に答えていること——あなたの専門用語ではなく、ユーザーが使う言葉で書く。
+
+天然手工芸品を売っている場合、潜在的なユーザーは「天然ハンドメイドソープ おすすめ」「ラベンダーソープ 効能」「ハンドメイドソープと市販品の違い」などを検索するかもしれない——これらの質問への答えが、SEOコンテンツになる。
+
+### vibefast.appの内蔵ブログ機能で集客記事を書く
+
+SEOコンテンツを書く際の最大のハードルは通常「自分でブログシステムを構築しなければならない」こと——テーブル設計、バックエンド編集画面、フロントエンド表示、記事ごとのmetaタイトルとdescription……これらを整備するだけで相当な時間がかかる。
+
+vibefast.appはこれらをすべて実装済みだ。内蔵のブログ機能には以下が含まれる：
+
+- **管理画面での記事管理**：記事の作成・編集・公開・下書きをコードなしで実行
+- **Markdownエディタ**：管理画面でMarkdownで記事を書く、WYSIWYGプレビュー付き
+- **SEOフィールド**：各記事に独立したmeta titleとmeta descriptionフィールド
+- **自動Sitemap**：新しい記事を公開すると自動的にSitemapに追加
+
+実際のワークフロー：
+
+1. AIを使ってターゲットユーザーが検索するロングテールキーワードを見つける（次のセクション参照）
+2. AIで記事の下書きを作成する
+3. vibefast.appの管理画面でMarkdownエディタに貼り付けて調整する
+4. その記事用のmeta titleとdescriptionを入力する
+5. 公開する
+
+キーワード選定から記事公開まで、最速で1時間。Vibe CoderがコンテンツSEOに取り組む最も効率的な方法だ。
+
+-----
+
+## AIでキーワードを見つける
+
+AIに直接聞こう：
+
+```
+天然手工芸品のECサイトを運営しています。
+ターゲットユーザーは素材にこだわり、自然派製品を好む消費者です。
+
+彼らが検索しそうなロングテールキーワードを10個挙げて、
+それぞれがサイトのどのページに最適かも教えてください。
+```
+
+AIのキーワード提案例：
+
+```
+「天然ハンドメイドソープ おすすめ」→ トップページまたは特集ページ
+「ラベンダー精油ソープ 効能」→ ラベンダーシリーズ商品ページ
+「ハンドメイドソープと市販品の違い」→ FAQまたはブログ
+「敏感肌 ハンドメイドソープ おすすめ」→ FAQまたはブログ
+「ハンドメイドソープ 保存方法」→ 使い方ガイドページ
+```
+
+ロングテールキーワード（長くて具体的な検索語）は競合が少なく、コンバージョン率が高い。インディーハッカーにとって最も効果的なSEO戦略だ。
+
+-----
+
+## 技術SEOチェックリスト
+
+公開前の確認：
+
+```
+□ 各ページにユニークな <title>（50〜60文字）がある
+□ 各ページにmeta description（150〜160文字）がある
+□ 各ページに <h1> が1つだけある
+□ すべての画像にalt テキストがある
+□ sitemap.xml が存在し、Google Search Consoleに登録済み
+□ robots.txt が正しく設定されている
+□ HTTPSを使用している（Cloudflareが自動処理）
+□ ページの読み込みが速い（Cloudflareのエッジノードが高速化）
+□ モバイルで正常に表示される
+```
+
+-----
+
+## やってはいけないこと：リンク購入やブラックハットSEOをしない
+
+Googleのアルゴリズムはますます賢くなっており、ブラックハットの手法（リンク購入、キーワードの詰め込み、隠しテキスト）は短期的には効果があっても、ペナルティを受けたときの順位下落は激しく、回復も難しい。
+
+インディー開発者にとって最も持続可能なSEO戦略は：**本当にユーザーの役に立つサイトを作り、コンテンツを明確に書き、技術的な基礎をしっかり作ること。**
+
+残りはGoogleに任せよう。
+
+-----
+
+**Danko Peng**  
+[X](https://x.com/dankopeng) · [YouTube](https://www.youtube.com/@DankoPeng) · [Threads](https://www.threads.com/@dankopeng)
+
+-----
+
+👉 [チュートリアルトップに戻る](/lib/07-coding/vibefast-docs/README-jp)
+
+完全なCloudflareフルスタックテンプレートを今すぐ使い始めたい方へ：  
+👉 **[vibefast.app](https://vibefast.app/pricing)** — アーリーバード $99、2026年8月1日より $199 に値上がり。

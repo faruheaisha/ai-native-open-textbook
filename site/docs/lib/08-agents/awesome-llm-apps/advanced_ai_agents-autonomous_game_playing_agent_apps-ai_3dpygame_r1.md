@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/Shubhamsaboo/awesome-llm-apps"
-entryUrl: "https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/README.md"
+entryUrl: "https://github.com/Shubhamsaboo/awesome-llm-apps/blob/9848ec842c5f559ad42654288cc6a38db6b175fb/advanced_ai_agents/autonomous_game_playing_agent_apps/ai_3dpygame_r1/README.md"
+sourceRel: "advanced_ai_agents/autonomous_game_playing_agent_apps/ai_3dpygame_r1/README.md"
+rawUrl: "/raw/08-agents/awesome-llm-apps/advanced_ai_agents/autonomous_game_playing_agent_apps/ai_3dpygame_r1/README.md"
+sourceSha256: "93db2062078e4b9bdb0a340c6eb57b905fdd1274986b7681742d3f3db51e609a"
+pageSha256: "93db2062078e4b9bdb0a340c6eb57b905fdd1274986b7681742d3f3db51e609a"
+contentMode: "local-full"
 zh: ""
 ---
 

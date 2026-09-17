@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "08-agents"
 sourceUrl: "https://github.com/anthropics/anthropic-cookbook"
-entryUrl: "https://github.com/anthropics/anthropic-cookbook/blob/a97b9a2dc300635f0c26b5e05d0b54bbe0279ee5/README.md"
+entryUrl: "https://github.com/anthropics/anthropic-cookbook/blob/a97b9a2dc300635f0c26b5e05d0b54bbe0279ee5/claude_agent_sdk/hosting/kubernetes/README.md"
+sourceRel: "claude_agent_sdk/hosting/kubernetes/README.md"
+rawUrl: "/raw/08-agents/anthropic-cookbook/claude_agent_sdk/hosting/kubernetes/README.md"
+sourceSha256: "08b3a65b04bd3af749f458c275ebe5aee7d7973ea3cbca943842aadb0b3ea26f"
+pageSha256: "08b3a65b04bd3af749f458c275ebe5aee7d7973ea3cbca943842aadb0b3ea26f"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -50,7 +55,7 @@ own pod and the cluster enforces what that pod can reach.
 
 > **Before you self-host:** if you just want a hosted agent without running
 > infrastructure, use Anthropic's managed option — see the
-> [Hosting overview](https://github.com/anthropics/anthropic-cookbook/blob/a97b9a2dc300635f0c26b5e05d0b54bbe0279ee5/claude_agent_sdk/hosting/README.md). This guide is for teams that need the
+> [Hosting overview](/lib/08-agents/anthropic-cookbook/claude_agent_sdk-hosting). This guide is for teams that need the
 > agent on their own Kubernetes cluster (regulated environments, existing
 > platform, custom networking).
 
@@ -124,7 +129,7 @@ same pod, so the agent sees a continuous conversation.
 
 The session now belongs to `alice` — the gateway records the creating tenant in
 Redis and checks it on every subsequent request. The same call with
-`$BOB_TOKEN` returns `403 {"detail":"session belongs to another tenant"}`, and
+`$BOB_TOKEN` returns `403 \{"detail":"session belongs to another tenant"\}`, and
 no token at all returns `401`. The tenant map is a static
 `token:tenant,token:tenant` string in the `gateway-tenants` secret; swap the
 `authenticate()` stub in [`gateway/main.py`](https://github.com/anthropics/anthropic-cookbook/blob/a97b9a2dc300635f0c26b5e05d0b54bbe0279ee5/claude_agent_sdk/hosting/kubernetes/gateway/main.py) for your IdP to

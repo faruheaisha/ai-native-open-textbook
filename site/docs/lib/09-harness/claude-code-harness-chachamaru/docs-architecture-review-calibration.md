@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/Chachamaru127/claude-code-harness"
-entryUrl: "https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/README.md"
+entryUrl: "https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/docs/architecture/review-calibration.md"
+sourceRel: "docs/architecture/review-calibration.md"
+rawUrl: "/raw/09-harness/claude-code-harness-chachamaru/docs/architecture/review-calibration.md"
+sourceSha256: "13bb5cbd999b04740a993da01277c98a696abd0ec0858dcaeedff252b0c463e6"
+pageSha256: "13bb5cbd999b04740a993da01277c98a696abd0ec0858dcaeedff252b0c463e6"
+contentMode: "local-full"
 zh: ""
 ---
 

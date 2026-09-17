@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/ShouZhengAI/CS146S_CN"
-entryUrl: "https://github.com/ShouZhengAI/CS146S_CN/blob/0d65f36f6673147d6c298670da4f9b4bd7f991fa/README.md"
+entryUrl: "https://github.com/ShouZhengAI/CS146S_CN/blob/0d65f36f6673147d6c298670da4f9b4bd7f991fa/Assignments/week4/README.md"
+sourceRel: "Assignments/week4/README.md"
+rawUrl: "/raw/07-coding/cs146s-cn/Assignments/week4/README.md"
+sourceSha256: "e2fb1506003a80969aec0a4d23d56f1cf8e74b708077fb2ab2294e90392fc926"
+pageSha256: "e2fb1506003a80969aec0a4d23d56f1cf8e74b708077fb2ab2294e90392fc926"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -61,7 +66,7 @@ Claude 自定义命令：
 
 ### 2. 笔记搜索
 
-固定路由 `/notes/search` 放在 `/{note_id}` 前。用 SQLAlchemy `ilike` 同时匹配标题和正文，查询值用参数绑定，不拼 SQL。前端用 `encodeURIComponent` 编码关键词。
+固定路由 `/notes/search` 放在 `/\{note_id\}` 前。用 SQLAlchemy `ilike` 同时匹配标题和正文，查询值用参数绑定，不拼 SQL。前端用 `encodeURIComponent` 编码关键词。
 
 ### 3. 完成行动项
 

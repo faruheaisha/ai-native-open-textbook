@@ -9,6 +9,11 @@ tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/liyupi/ai-guide"
 entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a02735b38c866/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/07-coding/liyupi-ai-guide/README.md"
+sourceSha256: "a78aa27aec499aaec79d6c60ca33031d283f52e5d25b8a85b8e1b28ad59f51ec"
+pageSha256: "a78aa27aec499aaec79d6c60ca33031d283f52e5d25b8a85b8e1b28ad59f51ec"
+contentMode: "local-full"
 zh: ""
 ---
 

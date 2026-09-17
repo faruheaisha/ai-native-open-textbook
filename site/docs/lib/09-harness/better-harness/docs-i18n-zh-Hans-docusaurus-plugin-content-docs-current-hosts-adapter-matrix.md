@@ -1,0 +1,142 @@
+---
+title: "宿主适配矩阵"
+sourceId: "09-harness/better-harness"
+sourceTitle: "Better Harness（QoderAI）"
+sourceKind: "工程手册"
+licenseLabel: "可转载"
+lang: "英文"
+tier: 2
+volume: "09-harness"
+sourceUrl: "https://github.com/QoderAI/better-harness"
+entryUrl: "https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/i18n/zh-Hans/docusaurus-plugin-content-docs/current/hosts/adapter-matrix.md"
+sourceRel: "docs/i18n/zh-Hans/docusaurus-plugin-content-docs/current/hosts/adapter-matrix.md"
+rawUrl: "/raw/09-harness/better-harness/docs/i18n/zh-Hans/docusaurus-plugin-content-docs/current/hosts/adapter-matrix.md"
+sourceSha256: "b1998a83949980fdc680dbfb15d71fe24e4189362e0d4a0a909f76095260962b"
+pageSha256: "b1998a83949980fdc680dbfb15d71fe24e4189362e0d4a0a909f76095260962b"
+contentMode: "local-full"
+zh: ""
+---
+
+# 宿主适配矩阵
+
+Better Harness 运行在你现有的编码智能体内。宿主差异只进入一个轻量适配层：
+宿主 shell、已配置资产 provider、会话证据适配器和输出模式。规范的产品判断
+保持与宿主无关。
+
+## 支持层级
+
+Better Harness 当前声明了十个能力层宿主适配器，其中六个已有验证过的公开
+快速开始路径。Pi、Kimi Code、WorkBuddy 与 Grok 以适配器支持展示，因为它们的安装方式和端到端
+证据边界与这六个宿主不同。完整能力层事实源仍是
+[规范适配器矩阵](https://github.com/QoderAI/better-harness/blob/main/docs/adapters/README.md)。
+
+## 受支持的宿主适配器
+
+| 宿主 | 公开入口 | 定位 | Shell | 会话证据 | 默认输出 |
+| --- | --- | --- | --- | --- | --- |
+| Qoder | 已验证快速开始 | 一等产品宿主 | `.qoder-plugin/` | Qoder 会话 | Qoder Canvas 报告 |
+| Claude Code | 已验证快速开始 | 具备分析能力的源码本地宿主 | `.claude-plugin/` | 匹配当前工作区的本地 Claude 转录（存在时） | 自包含 HTML + Markdown |
+| Codex | 已验证快速开始 | 具备分析能力的源码本地宿主 | `.codex-plugin/` | Codex 会话 | 自包含 HTML + Markdown |
+| Cursor | 已验证快速开始 | 支持 Canvas 的源码本地宿主 | `.cursor-plugin/` | 工作区匹配的转录、元数据、审计日志和可选原生 Context Usage 快照；部分覆盖保持显式标注 | Cursor Canvas 报告 |
+| Qwen Code | 已验证快速开始 | 具备分析能力的源码本地宿主 | `qwen-extension.json` | 匹配当前工作区的本地 Qwen 转录（存在时） | 自包含 HTML + Markdown |
+| GitHub Copilot | 已验证快速开始 | 具备分析能力的源码本地宿主 | `.github/plugin/` | 工作区匹配的 Copilot CLI 转录；部分覆盖保持显式标注 | 自包含 HTML + Markdown |
+| Pi | 适配器支持 | 具备分析能力的源码本地宿主 | `package.json` 中的 `pi` manifest | 匹配当前工作区的本地 Pi 会话，包含 Oh My Pi (OMP) 会话布局 | 自包含 HTML + Markdown |
+| Kimi Code | 适配器支持 | 具备分析能力的源码本地宿主 | `.kimi-plugin/plugin.json` | 匹配工作区的 Kimi wire 转录 | 自包含 HTML + Markdown |
+| WorkBuddy | 适配器支持 | 具备分析能力的源码本地宿主 | 无；Skill 使用 WorkBuddy 自有路径 | 匹配工作区的 WorkBuddy JSONL 转录 | 自包含 HTML + Markdown |
+| Grok | 适配器支持 | 具备分析能力的源码本地宿主 | 无；Skill 使用 Grok 自有路径 | 匹配工作区的 Grok 会话目录（`updates.jsonl`） | 自包含 HTML + Markdown |
+
+`@qoder-ai/better-harness` npm 包含全部七个插件元数据根目录。生成的 Qoder
+运行时 bundle 只包含 Qoder shell。Pi 复用现有 `package.json` 中的安装元数据，
+因此不会新增第八个文件系统元数据根目录；非 Qoder 的生成宿主产物保持源码本地。
+
+## 只读插件生命周期
+
+独立 CLI 可以规范化本地 Better Harness 安装证据，同时保留宿主能力差异：
+
+```bash
+better-harness plugin status --host all
+better-harness plugin verify --host all
+better-harness doctor --platform all
+```
+
+`plugin plan` 要求显式指定一个宿主，并输出带类型的原生 argv 或手工步骤，
+但不会执行。Qoder Desktop 保持内置分发，Codex Desktop 使用手工 UI 步骤；
+Cursor 在本机 help 合同过期期间保持安装不可用；Pi 持久化 surface 中缺少原生
+证据的操作保持不可用，临时 session surface 的更新/移除不适用；WorkBuddy 返回
+`PLUGIN_LIFECYCLE_UNSUPPORTED`。Kimi Code 与 Grok 尚无经验证的原生生命周期
+合同，因此生命周期目标会以 `UNKNOWN_HOST` 拒绝它们，其适配器证据仍然可用。
+在 ADR-0002 仍为 proposed 期间，shadow host profile 不替代规范适配器矩阵。
+
+## 输出模式
+
+- **Qoder Canvas** —— 渲染器负责的 `findings.json`、仅 Canvas 使用的
+  `canvas.json` 和 `report.canvas.tsx`。
+- **Cursor Canvas** —— 使用 `cursor/canvas`、原生 Context Window 证据和
+  IDE actions 渲染同一份完整报告契约。
+- **HTML 可视化** —— 面向 Claude Code/Codex/Qwen/Copilot/Pi/Kimi Code/WorkBuddy/Grok 的可移植契约，覆盖
+  `findings.json`、`report.md` 和自包含的 `report.html`
+  （见[示例报告](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/i18n/zh-Hans/docusaurus-plugin-content-docs/current/hosts/pathname:/demo/better-harness-report/README.md)）。
+- **纯 Markdown** —— 无视觉版本。
+
+## 适配器支持边界
+
+### Pi \{#pi\}
+
+Pi 可以通过 `pi install <source>` 安装本仓库，或使用 `pi -e <source>` 加载。
+生命周期状态把持久化的用户/项目包设置作为 `cli` inventory surface，把单次
+`pi -e` 激活作为独立的 `cli-session` session-only surface；空设置不能证明正在
+运行的会话没有加载该包。包发现、已配置资产、工作区匹配的会话证据与可移植
+HTML 路由均已实现。在观察到完整交互式报告闭环冒烟验证前，Pi 仍不进入已验证
+快速开始集合。
+
+### Oh My Pi (OMP) \{#oh-my-pi-omp\}
+
+Oh My Pi (OMP) 不是独立的宿主适配器，而是 `pi` 平台能识别的一种会话布局：将
+`PI_CODING_AGENT_DIR=~/.omp/agent` 指向 OMP 的 agent 目录即可。OMP 在本仓库里
+没有自己的 host id、能力画像、安装 Shell 或生命周期目标。
+
+OMP 以相对 home 目录的工作区路径命名会话目录（`~/src/dotai` → `-src-dotai`），
+而不是 pi 的绝对路径 `--<slug>--` 形式，并且在会话头之前先写一条 `title` 记录。
+Pi 适配器同时识别两种命名约定并跳过该前置记录，同时保留 pi 的 fail-closed
+会话头规则与工作区隔离。OMP 的 `/fork` 转录会复制父会话的全部条目：只有当父
+会话也在同一次发现结果中时，这些条目才计入父会话，因此既不会重复计数，也不会
+静默丢失。会话证据与可移植 HTML 路由均来自共享的 Pi provider；已配置资产也由 Pi
+provider 清点，因为它遵循同一个 `PI_CODING_AGENT_DIR` 覆盖项。
+
+### Kimi Code \{#kimi-code\}
+
+Kimi Code 通过 `/plugins install <source>` 和 `.kimi-plugin/plugin.json`
+manifest 安装本仓库，reload 后使用 `/skill:better-harness`。已配置资产、
+工作区匹配的 wire 转录与可移植 HTML 路由均已实现。在观察到完整交互式报告
+闭环冒烟验证前，Kimi Code 仍不进入已验证快速开始集合。
+
+### WorkBuddy \{#workbuddy\}
+
+WorkBuddy 的已配置资产、工作区匹配的会话证据与可移植 HTML 路由均已实现。
+本仓库不提供 WorkBuddy 安装 Shell、插件 manifest 或 npm 打包的宿主产物；安装
+仍通过 WorkBuddy 自有的 `~/.workbuddy/skills` 或 Marketplace 入口完成。
+
+### Grok \{#grok\}
+
+Grok 的已配置资产、工作区匹配的会话证据与可移植 HTML 路由均已实现。
+本仓库不提供 Grok 安装 Shell 或 npm 打包的宿主产物；安装方式是将 Skill 软链到
+`~/.grok/skills/better-harness`（或项目 `.grok/skills`）。在观察到完整交互式
+报告闭环冒烟验证前，Grok 仍不进入已验证快速开始集合。
+
+## 能力覆盖
+
+各宿主的能力刻意保持差异：没有真实证据源的宿主不会声称具备某项能力，
+不受支持的行为会在读取私有数据或修改文件之前失败。逐能力的覆盖表、
+TODO 列表和完成定义维护在仓库
+[roadmap](https://github.com/QoderAI/better-harness/blob/main/roadmap.md) 中。
+
+## 事实源
+
+规范矩阵、发现规则和拆分触发条件见
+[`docs/adapters/README.md`](https://github.com/QoderAI/better-harness/blob/main/docs/adapters/README.md)。
+
+## 贡献新的宿主
+
+请从[贡献新的 Coding Agent 宿主](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/i18n/zh-Hans/docusaurus-plugin-content-docs/current/hosts/contributing-new-coding-agent/README.md)开始。
+该指南会分别处理原生 Shell、已配置资产、会话、输出和打包声明，并链接
+Qwen Code 与 GitHub Copilot PR 作为复盘示例。

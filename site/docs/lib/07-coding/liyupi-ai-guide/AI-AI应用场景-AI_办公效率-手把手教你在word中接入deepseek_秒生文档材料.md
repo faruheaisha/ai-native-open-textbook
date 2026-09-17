@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/liyupi/ai-guide"
-entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a02735b38c866/README.md"
+entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a02735b38c866/AI/AI应用场景/AI%20+%20办公效率/手把手教你在word中接入deepseek，秒生文档材料.md"
+sourceRel: "AI/AI应用场景/AI + 办公效率/手把手教你在word中接入deepseek，秒生文档材料.md"
+rawUrl: "/raw/07-coding/liyupi-ai-guide/AI/AI应用场景/AI + 办公效率/手把手教你在word中接入deepseek，秒生文档材料.md"
+sourceSha256: "f581cbf7d1864f911732ebbba3b7ef04cd90bf8d68d37aed1824af40893a70ec"
+pageSha256: "f581cbf7d1864f911732ebbba3b7ef04cd90bf8d68d37aed1824af40893a70ec"
+contentMode: "local-full"
 zh: ""
 ---
 

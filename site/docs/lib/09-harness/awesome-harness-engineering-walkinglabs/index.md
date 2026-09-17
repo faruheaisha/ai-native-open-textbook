@@ -10,6 +10,8 @@ lang: "英文"
 volume: "09-harness"
 sourceUrl: "https://github.com/walkinglabs/awesome-harness-engineering"
 entryUrl: "https://github.com/walkinglabs/awesome-harness-engineering/blob/cff9b006ef64c624a62cbb1ee36b0c4b2b3a67ad/README.md"
+sourceRel: ""
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -19,6 +21,6 @@ Harness engineering sits at the intersection of context engineering, evaluation,
 
 ## 课时
 
-1. [README Taxonomy Implementation Plan](docs-plans-2026-08-19-readme-taxonomy-design.md)
+- [README Taxonomy Implementation Plan](/lib/09-harness/awesome-harness-engineering-walkinglabs/docs-plans-2026-08-19-readme-taxonomy-design.md)
 
 开始学习 → [README Taxonomy Implementation Plan](docs-plans-2026-08-19-readme-taxonomy-design.md)

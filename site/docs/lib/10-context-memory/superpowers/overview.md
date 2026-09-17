@@ -9,6 +9,11 @@ tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/obra/superpowers"
 entryUrl: "https://github.com/obra/superpowers/blob/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/10-context-memory/superpowers/README.md"
+sourceSha256: "4cd0e751210f24a5e4788730e7b5bb145b4d03a2b2c71202721454481a5c5e81"
+pageSha256: "4cd0e751210f24a5e4788730e7b5bb145b4d03a2b2c71202721454481a5c5e81"
+contentMode: "local-full"
 zh: ""
 ---
 

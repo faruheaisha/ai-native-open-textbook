@@ -9,6 +9,11 @@ tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works"
 entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/09-harness/how-claude-code-works/README.md"
+sourceSha256: "4d9fc910ec42c7dc5e6a4e3adecfb91eebd4dee042fb2bddf9bfcda313669cb0"
+pageSha256: "4d9fc910ec42c7dc5e6a4e3adecfb91eebd4dee042fb2bddf9bfcda313669cb0"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -150,8 +155,8 @@ Claude Code 支持三种多 Agent 模式：
 |---|------|-----------|
 | 1 | [概述](/lib/09-harness/how-claude-code-works/docs-01-overview) | 技术选型背后的思考（为什么 Bun/React/Zod）、6 条核心设计原则、9 阶段 235ms 启动流程、数据流全景 |
 | 2 | [系统主循环](/lib/09-harness/how-claude-code-works/docs-02-agent-loop) | Agent 循环的双层架构、7 种 Continue Sites 故障恢复、工具预执行、StreamingToolExecutor 并发机制 |
-| 3 | [上下文工程](/lib/09-harness/how-claude-code-works/docs-03-context-engineering) | 4 级压缩流水线完整细节、压缩后自动恢复机制（5 文件 + 技能重激活）、提示词缓存策略与缓存断裂检测 |
-| 4 | [工具系统](/lib/09-harness/how-claude-code-works/docs-04-tool-system) | 数十个工具的注册与并发控制、MCP 6 种传输详解、连接状态机、OAuth 2.0 + PKCE 认证流程 |
+| 3 | [上下文工程](/lib/09-harness/how-claude-code-works/docs-03-context-engineering/index) | 4 级压缩流水线完整细节、压缩后自动恢复机制（5 文件 + 技能重激活）、提示词缓存策略与缓存断裂检测 |
+| 4 | [工具系统](/lib/09-harness/how-claude-code-works/docs-04-tool-system/index) | 数十个工具的注册与并发控制、MCP 6 种传输详解、连接状态机、OAuth 2.0 + PKCE 认证流程 |
 | 5 | [技能系统](/lib/09-harness/how-claude-code-works/docs-09-skills-system) | 6 层技能来源与优先级、懒加载与 Token 预算分配、Inline/Fork 双执行模式、白名单权限模型、压缩后技能保留 |
 | 6 | [记忆系统](/lib/09-harness/how-claude-code-works/docs-08-memory-system) | 4 种记忆类型与封闭分类法、Sonnet 语义召回与异步预取、后台记忆提取 Agent、记忆漂移防御、团队记忆 |
 | 7 | [Hooks 与可扩展性](/lib/09-harness/how-claude-code-works/docs-06-hooks-extensibility) | 23+ Hook 事件全景、5 种 Hook 类型、6 阶段执行管道、PermissionRequest 4 种能力、信任模型与安全 |
@@ -160,7 +165,7 @@ Claude Code 支持三种多 Agent 模式：
 | 10 | [代码编辑策略](/lib/09-harness/how-claude-code-works/docs-05-code-editing-strategy) | search-and-replace 为什么比整文件重写更好、唯一性约束与抗幻觉设计、编辑前强制读取的代码级实现 |
 | 11 | [任务管理系统](/lib/09-harness/how-claude-code-works/docs-15-task-system) | 文件级存储与并发锁设计、三层变更检测、依赖追踪与原子认领、多 Agent 任务协调、验证提醒机制 |
 | 12 | [权限与安全](/lib/09-harness/how-claude-code-works/docs-11-permission-security) | 7 层纵深防御体系、tree-sitter AST 分析 + 23 项安全检查、竞速确认机制与 200ms 防误触 |
-| 13 | [系统提示词设计](/lib/09-harness/how-claude-code-works/docs-14-system-prompt-design) | 7 层递进式提示词架构、反模式接种与负面清单设计、爆炸半径风险框架、内外分层变体、7 条 Agent 提示词设计原则 |
+| 13 | [系统提示词设计](/lib/09-harness/how-claude-code-works/docs-14-system-prompt-design/index) | 7 层递进式提示词架构、反模式接种与负面清单设计、爆炸半径风险框架、内外分层变体、7 条 Agent 提示词设计原则 |
 | 14 | [用户体验设计](/lib/09-harness/how-claude-code-works/docs-12-user-experience) | 自研 Ink 渲染器架构、Yoga Flexbox 布局、虚拟滚动与对象池优化、Vim 模式 |
 | 15 | [最小必要组件](/lib/09-harness/how-claude-code-works/docs-13-minimal-components) | 7 个最小必要组件框架、最小实现 vs 生产级实现的逐项对照、从 500 行到 50 万行的演进路线 |
 | 16 | [可观测性：Metrics 与 Trace](/lib/09-harness/how-claude-code-works/docs-16-observability) | 一次 prompt 的 EXPLAIN、三观测平面 + transcript 持久层、prompt.id 关联键、OTel metric/event/span 走读、成本核算、权限决策日志、隐私边界 |
@@ -193,7 +198,7 @@ Claude Code 支持三种多 Agent 模式：
 
 只有 10 分钟？读 [快速入门](/lib/09-harness/how-claude-code-works/docs-quick-start)。
 
-想理解核心原理？按顺序读 [主循环](/lib/09-harness/how-claude-code-works/docs-02-agent-loop)、[上下文工程](/lib/09-harness/how-claude-code-works/docs-03-context-engineering)、[工具系统](/lib/09-harness/how-claude-code-works/docs-04-tool-system) 三章。
+想理解核心原理？按顺序读 [主循环](/lib/09-harness/how-claude-code-works/docs-02-agent-loop)、[上下文工程](/lib/09-harness/how-claude-code-works/docs-03-context-engineering/index)、[工具系统](/lib/09-harness/how-claude-code-works/docs-04-tool-system/index) 三章。
 
 想自己造一个 AI Agent？先读 [最小必要组件](/lib/09-harness/how-claude-code-works/docs-13-minimal-components)，然后跟着 [claude-code-from-scratch](https://github.com/Windy3f3f3f3f/claude-code-from-scratch) 的 13 章教程动手实现——~4300 行代码，每一步都对照源码讲解。
 

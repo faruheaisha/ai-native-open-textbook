@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/hoangnb24/repository-harness"
-entryUrl: "https://github.com/hoangnb24/repository-harness/blob/e765792b635b4d5e3e5fc0578f82f9ca5dea2681/README.md"
+entryUrl: "https://github.com/hoangnb24/repository-harness/blob/e765792b635b4d5e3e5fc0578f82f9ca5dea2681/docs/decisions/README.md"
+sourceRel: "docs/decisions/README.md"
+rawUrl: "/raw/09-harness/repository-harness/docs/decisions/README.md"
+sourceSha256: "a073220e7b989e207d7849d77ab0ea3624ac9e927e660f6f831f6ce7e4d04a5c"
+pageSha256: "a073220e7b989e207d7849d77ab0ea3624ac9e927e660f6f831f6ce7e4d04a5c"
+contentMode: "local-full"
 zh: ""
 ---
 

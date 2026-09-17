@@ -8,13 +8,18 @@ lang: "英文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/vibefast-app/vibefast-docs"
-entryUrl: "https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/README.md"
+entryUrl: "https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/13-security-basics-for-vibe-coders-en.md"
+sourceRel: "en/13-security-basics-for-vibe-coders-en.md"
+rawUrl: "/raw/07-coding/vibefast-docs/en/13-security-basics-for-vibe-coders-en.md"
+sourceSha256: "83ac08e067b94247588ca4055309c31f461bc0c9a21a57b0603b8414fa81fc7c"
+pageSha256: "83ac08e067b94247588ca4055309c31f461bc0c9a21a57b0603b8414fa81fc7c"
+contentMode: "local-full"
 zh: ""
 ---
 
 # Security Basics for Vibe Coders: Confirm These Before Going Live
 
-[English](/lib/07-coding/vibefast-docs/en-13-security-basics-for-vibe-coders-en) · [繁中](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/zh/13-security-basics-for-vibe-coders-zh.md) · [Español](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/es/13-security-basics-for-vibe-coders-es.md) · [日本語](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/jp/13-security-basics-for-vibe-coders-jp.md) · [Português (BR)](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/pt-br/13-security-basics-for-vibe-coders-pt-br.md)
+[English](/lib/07-coding/vibefast-docs/en-13-security-basics-for-vibe-coders-en) · [繁中](/lib/07-coding/vibefast-docs/zh-13-security-basics-for-vibe-coders-zh) · [Español](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/es/13-security-basics-for-vibe-coders-es.md) · [日本語](/lib/07-coding/vibefast-docs/jp-13-security-basics-for-vibe-coders-jp) · [Português (BR)](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/pt-br/13-security-basics-for-vibe-coders-pt-br.md)
 
 **Author:** Danko Peng ([@dankopeng](https://x.com/dankopeng))  
 **Updated:** March 2026  

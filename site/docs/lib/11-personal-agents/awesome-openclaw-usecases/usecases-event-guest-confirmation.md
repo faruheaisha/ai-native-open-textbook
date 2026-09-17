@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases"
-entryUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/README.md"
+entryUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/event-guest-confirmation.md"
+sourceRel: "usecases/event-guest-confirmation.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-usecases/usecases/event-guest-confirmation.md"
+sourceSha256: "4169d2c17b4daeb19703360e7a84b72a5abe5f5c83046917eda1f1011d8ffa15"
+pageSha256: "4169d2c17b4daeb19703360e7a84b72a5abe5f5c83046917eda1f1011d8ffa15"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/2025Emma/vibe-coding-cn"
-entryUrl: "https://github.com/2025Emma/vibe-coding-cn/blob/9b42dd10ddf3fff58f8c7a4d347175db107d7bf9/README.md"
+entryUrl: "https://github.com/2025Emma/vibe-coding-cn/blob/9b42dd10ddf3fff58f8c7a4d347175db107d7bf9/i18n/zh/prompts/coding_prompts/%2821,1%29_你是我的顶级编程助手，我将使用自然语言描述开发需求。请你将其转换为一个结构化、专业、详细、可执行的编程任务说明文档，输出.md"
+sourceRel: "i18n/zh/prompts/coding_prompts/(21,1)_你是我的顶级编程助手，我将使用自然语言描述开发需求。请你将其转换为一个结构化、专业、详细、可执行的编程任务说明文档，输出.md"
+rawUrl: "/raw/07-coding/vibe-coding-cn/i18n/zh/prompts/coding_prompts/(21,1)_你是我的顶级编程助手，我将使用自然语言描述开发需求。请你将其转换为一个结构化、专业、详细、可执行的编程任务说明文档，输出.md"
+sourceSha256: "b1cd4b7d6c8f93f80c86e35defad7046c866dd76e6f6a540e9e9fd728ae3ce65"
+pageSha256: "b1cd4b7d6c8f93f80c86e35defad7046c866dd76e6f6a540e9e9fd728ae3ce65"
+contentMode: "local-full"
 zh: ""
 ---
 

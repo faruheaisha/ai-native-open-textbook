@@ -140,14 +140,28 @@
     "04-work/zhijian-ai-bluebook-workbuddy-harness": "01-前言.md",
     "08-agents/microsoft-ai-agents-for-beginners": "translations/zh-CN/README.md",
     "08-agents/hello-agents": "docs/前言.md",
-    "07-coding/vibe-vibe": "README.md"
+    "07-coding/vibe-vibe": "README.md",
+    "04-work/qwenwork-guide": "docs/greenbook/index.md",
+    "04-work/workbuddy-guide": "docs/bluebook/index.md",
+    "09-harness/learn-harness-engineering": "docs/zh/index.md",
+    "09-harness/codex-guide-freestylefly": "docs/index.md"
   },
   "readingPlan": {
     "04-work/qwenwork-guide": {
       "roots": [
-        "docs/greenbook",
-        "docs/cases",
-        "docs/help"
+        "."
+      ],
+      "exclude": [
+        ".github",
+        "scripts",
+        "docs/index.md",
+        "docs/community",
+        "docs/greenbook/QwenWorkGuide",
+        "README_en.md",
+        "SEO.md",
+        "DEPLOYMENT.md",
+        "design-qa.md",
+        "_快照信息.md"
       ]
     },
     "04-work/workbuddy-guide": {
@@ -165,32 +179,38 @@
     },
     "04-work/how-to-use-dify": {
       "roots": [
-        "docs/chapters",
-        "docs/use-cases",
-        "docs/reference",
-        "cheatsheets"
+        "."
+      ],
+      "exclude": [
+        ".github",
+        "START_HERE.md",
+        "FAQ.md",
+        "ROADMAP.md"
       ]
     },
     "07-coding/liyupi-ai-guide": {
       "roots": [
-        "Vibe Coding 零基础教程",
-        "OpenClaw 保姆级教程",
-        "AI"
+        "."
       ],
       "exclude": [
-        "AI/AI行业资讯",
-        "AI/DeepSeek资源汇总"
+        "translations"
       ]
     },
     "07-coding/easy-vibe": {
       "roots": [
-        "docs/zh-cn"
+        "docs",
+        ".trae"
+      ],
+      "exclude": [
+        "docs/zh-cn/README.md"
       ]
     },
     "07-coding/vibe-coding-cn": {
       "roots": [
-        "i18n/zh/documents",
-        "i18n/zh/prompts/coding_prompts"
+        "i18n/zh"
+      ],
+      "exclude": [
+        "libs"
       ]
     },
     "07-coding/ai-coding-guide-zh": {
@@ -200,7 +220,8 @@
     },
     "08-agents/huggingface-agents-course": {
       "roots": [
-        "units/en"
+        "units",
+        "quiz"
       ]
     },
     "08-agents/agent-systems-handbook": {
@@ -251,12 +272,25 @@
     },
     "09-harness/harness-engineering-from-cc-to-ai-coding": {
       "roots": [
-        "book/src"
+        "book/src",
+        "book-en",
+        "docs",
+        "examples"
+      ],
+      "exclude": [
+        "specs",
+        "CLAUDE.md"
       ]
     },
     "09-harness/learn-harness-engineering": {
       "roots": [
-        "docs/zh"
+        "docs/zh",
+        "projects",
+        "skills"
+      ],
+      "exclude": [
+        "docs-readme",
+        "CLAUDE.md"
       ]
     },
     "09-harness/codex-guide-freestylefly": {
@@ -270,12 +304,19 @@
     },
     "10-context-memory/huggingface-mcp-course": {
       "roots": [
-        "units/en"
+        "units/en",
+        "projects"
       ]
     },
     "10-context-memory/context-engineering-intro": {
       "roots": [
-        "use-cases"
+        "."
+      ],
+      "exclude": [
+        "PRPs",
+        "INITIAL.md",
+        "INITIAL_EXAMPLE.md",
+        "CLAUDE.md"
       ]
     },
     "01-foundations/microsoft-generative-ai-for-beginners": {
@@ -301,7 +342,8 @@
         "18-fine-tuning",
         "19-slm",
         "20-mistral",
-        "21-meta"
+        "21-meta",
+        "docs"
       ]
     },
     "08-agents/agentic-engineering-handbook": {
@@ -329,7 +371,7 @@
     },
     "07-coding/awesome-vibe-coding": {
       "roots": [
-        "README-CN.md"
+        "."
       ]
     },
     "09-harness/awesome-harness-engineering-walkinglabs": {
@@ -357,24 +399,24 @@
     },
     "08-agents/microsoft-ai-agents-for-beginners": {
       "roots": [
-        "translations/zh-CN"
+        "."
       ],
       "exclude": [
-        "tests",
-        ".agents"
+        "translations/zh-HK",
+        "translations/zh-MO",
+        "translations/zh-TW"
       ]
     },
     "08-agents/hello-agents": {
       "roots": [
-        "docs"
+        "docs",
+        "code"
       ]
     },
     "07-coding/vibe-vibe": {
       "roots": [
-        "docs/Basic",
-        "docs/Advanced",
-        "docs/Practice",
-        "docs/Articles"
+        "docs",
+        "demos"
       ]
     },
     "08-agents/ed-donner-agents": {

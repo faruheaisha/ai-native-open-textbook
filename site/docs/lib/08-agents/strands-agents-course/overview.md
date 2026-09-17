@@ -9,6 +9,11 @@ tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/aws-samples/sample-getting-started-with-strands-agents-course"
 entryUrl: "https://github.com/aws-samples/sample-getting-started-with-strands-agents-course/blob/6f0b46cd565312a34cdb9a6c72cbff7f3fa80c1d/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/08-agents/strands-agents-course/README.md"
+sourceSha256: "57e81a4e99806780bccb3102cb3694191ab9ed9f89fbca3145ca226cb6857aa3"
+pageSha256: "57e81a4e99806780bccb3102cb3694191ab9ed9f89fbca3145ca226cb6857aa3"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -522,7 +527,7 @@ agentcore invoke '{"prompt": "What is 50 plus 30?"}'
 | **AWS Permissions** | Ensure BedrockAgentCoreFullAccess policy is attached to your user/role |
 | **Model Access** | Enable Anthropic Claude 3.5 Haiku in Amazon Bedrock console |
 | **AgentCore CLI** | Run `pip install bedrock-agentcore-starter-toolkit` if `agentcore` command not found |
-| **Deployment Failures** | Check CloudWatch logs at `/aws/bedrock-agentcore/runtimes/{agent-id}-DEFAULT` |
+| **Deployment Failures** | Check CloudWatch logs at `/aws/bedrock-agentcore/runtimes/\{agent-id\}-DEFAULT` |
 | **Session Issues** | Ensure session IDs are 33+ characters for proper session management |
 
 ---

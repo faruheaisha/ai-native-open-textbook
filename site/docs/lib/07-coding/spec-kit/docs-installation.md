@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/github/spec-kit"
-entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/README.md"
+entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/docs/installation.md"
+sourceRel: "docs/installation.md"
+rawUrl: "/raw/07-coding/spec-kit/docs/installation.md"
+sourceSha256: "d26ac4e370333cb3dcb48b384c5ab4e9d36259a473a58e7c09ce080836e71ea6"
+pageSha256: "d26ac4e370333cb3dcb48b384c5ab4e9d36259a473a58e7c09ce080836e71ea6"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -127,7 +132,7 @@ specify version
 
 This confirms that the `specify` command is available and reporting the expected version. It does not prove whether that executable came from PyPI or GitHub.
 
-**Stay current:** Run `specify self check` periodically to learn whether a newer release is available — it is read-only and never modifies your installation. When you are ready to upgrade, follow the [Upgrade Guide](https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/docs/upgrade.md).
+**Stay current:** Run `specify self check` periodically to learn whether a newer release is available — it is read-only and never modifies your installation. When you are ready to upgrade, follow the [Upgrade Guide](/lib/07-coding/spec-kit/docs-upgrade).
 
 After initialization, you should see the following commands available in your coding agent:
 

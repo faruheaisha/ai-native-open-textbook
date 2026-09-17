@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/Piebald-AI/claude-code-system-prompts"
-entryUrl: "https://github.com/Piebald-AI/claude-code-system-prompts/blob/3af4c6139aaabb0470440961ca8c8fb871099234/README.md"
+entryUrl: "https://github.com/Piebald-AI/claude-code-system-prompts/blob/3af4c6139aaabb0470440961ca8c8fb871099234/system-prompts/agent-prompt-claude-md-creation.md"
+sourceRel: "system-prompts/agent-prompt-claude-md-creation.md"
+rawUrl: "/raw/10-context-memory/claude-code-system-prompts/system-prompts/agent-prompt-claude-md-creation.md"
+sourceSha256: "1036122910d32d73a490ea1d1d908e272d9a99ba7f5a12d64a8b7017d27fafaf"
+pageSha256: "1036122910d32d73a490ea1d1d908e272d9a99ba7f5a12d64a8b7017d27fafaf"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -27,7 +32,7 @@ Usage notes:
 - Don't include generic development practices.
 - If there are Cursor rules (in .cursor/rules/ or .cursorrules) or Copilot rules (in .github/copilot-instructions.md), make sure to include the important parts.
 - If there is a README.md, make sure to include the important parts.${IS_IMPORT_ENABLED_FN()?`
-- If you find an OpenAI Codex config (~/.codex/config.toml or ./.codex/) or a Gemini CLI config (~/.gemini/settings.json or ./.gemini/ or a GEMINI.md), ${IMPORT_OFFER_NOTE}`:""}
+- If you find an OpenAI Codex config (~/.codex/config.toml or ./.codex/) or a Gemini CLI config (~/.gemini/settings.json or ./.gemini/ or a GEMINI.md), ${IMPORT_OFFER_NOTE\}`:""\}
 - Do not make up information such as "Common Development Tasks", "Tips for Development", "Support and Documentation" unless this is expressly included in other files that you read.
 - Be sure to prefix the file with the following text:
 

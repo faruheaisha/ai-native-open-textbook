@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/rohitg00/ai-engineering-from-scratch"
-entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/README.md"
+entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/certifications/claude/GETTING_STARTED.md"
+sourceRel: "certifications/claude/GETTING_STARTED.md"
+rawUrl: "/raw/07-coding/ai-engineering-from-scratch/certifications/claude/GETTING_STARTED.md"
+sourceSha256: "de06acc9d2bcbb825b9c768e92af588d2e118ca44c55302139f60bb8bdc425d1"
+pageSha256: "de06acc9d2bcbb825b9c768e92af588d2e118ca44c55302139f60bb8bdc425d1"
+contentMode: "local-full"
 zh: ""
 ---
 

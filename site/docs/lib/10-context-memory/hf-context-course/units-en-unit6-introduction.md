@@ -1,0 +1,106 @@
+---
+title: "Introduction to Nano Harness"
+sourceId: "10-context-memory/hf-context-course"
+sourceTitle: "The Context Course"
+sourceKind: "系统课程"
+licenseLabel: "仅引用"
+lang: "英文"
+tier: 1
+volume: "10-context-memory"
+sourceUrl: "https://github.com/huggingface/context-course"
+entryUrl: "https://github.com/huggingface/context-course/blob/0448a7ca721a63a81531e1ba94f46f897c70645b/units/en/unit6/introduction.mdx"
+sourceRel: "units/en/unit6/introduction.mdx"
+rawUrl: "/raw/10-context-memory/hf-context-course/units/en/unit6/introduction.mdx"
+sourceSha256: "0f87e09b224d8f6b51fbe9d885dbe0983412401d4d16f441a10a1fd71cb338a7"
+pageSha256: "0f87e09b224d8f6b51fbe9d885dbe0983412401d4d16f441a10a1fd71cb338a7"
+contentMode: "local-full"
+zh: ""
+---
+
+# Introduction to Nano Harness
+
+Mainstream agent frameworks (Codex, Claude Code, OpenCode) hide the loop that makes them work, which is great for production use, but not for learning.
+
+Nano Harness is a ~220-line Python agent built for reading, not production. It shows the system prompt, the step loop, tool execution, message history, error handling, and sandboxing in one file.
+
+> [!WARNING]
+> nano_harness is a learning tool and not intended for production use. It's just a fun way to understand how agents work under the hood. Do not use it for real work!
+
+## Why start from scratch?
+
+Learning from scratch is a great way to understand how anything works under the hood.
+
+Reading a minimal harness makes the design choices legible: when to retry, how to parse output, how to handle errors, and where the security boundary sits. This unit uses `zai-org/GLM-5.1` via Hugging Face Inference Providers as the single model, so the only moving parts are the loop and the tools.
+
+## What is Nano Harness?
+
+Nano Harness is a ~220-line Python agent framework that:
+
+1. **Takes a task** — "Inspect the workspace and provide a summary"
+2. **Calls an LLM** — Uses OpenAI-compatible API (defaults to HF router)
+3. **Generates Python code** — Model outputs executable Python code that will help complete the task
+4. **Executes safely** — In a sandboxed environment with allowed tools
+5. **Observes results** — stdout, stderr, exceptions, or a captured final answer
+6. **Updates context** — Feeds observations back to the model
+7. **Repeats** — Until the task is done or we hit step limit (we're assuming 50 steps in our implementation)
+
+## Key Features
+
+### Code-First Agent
+Instead of returning JSON or text, the model outputs Python code:
+
+```python
+# Model says:
+files = list_dir(".")
+models = read_file("models.txt")
+final_answer("Files:\n" + "\n".join(files) + "\n\nmodels.txt:\n" + models)
+```
+
+The agent parses and executes it.
+
+### Constrained Tools
+Four tools available:
+
+| Tool | What It Does | Security |
+|------|-------------|----------|
+| `list_dir(path)` | List directory contents | Path confinement |
+| `read_file(path, max_chars)` | Read file | Path confinement, size limit |
+| `write_file(path, content)` | Create/modify file | Path confinement, disabled by default |
+| `exec_cmd(args)` | Run shell command | Allowlist (only: ls, cat, pwd, echo, head, tail, wc, rg) |
+
+### Sandboxed Execution
+- All file access confined to workspace
+- Commands restricted to allowlist
+- Output size limited to prevent context overflow
+- Timeouts prevent hanging
+
+### Model via Hugging Face Inference Providers
+
+The harness defaults to the Hugging Face router, which exposes an OpenAI-compatible `/v1` surface backed by Inference Providers:
+
+```bash
+export NANO_MODEL="zai-org/GLM-5.1"
+export HF_TOKEN="hf_..."
+```
+
+## The Agentic Loop
+
+Nano Harness implements the core loop:
+
+```
+1. Call LLM with task + message history
+2. Parse model output as Python code
+3. Execute Python (with tools available)
+4. Collect stdout, stderr, exceptions
+5. Append observation to message history
+6. Repeat (max 50 steps)
+7. Done when: final_answer() called or max steps reached
+```
+
+## What You'll Learn
+
+This unit walks through the agent loop code piece by piece, explains how the tools are designed and sandboxed, extends the harness with `web_fetch` and HF Hub search, and runs it against `zai-org/GLM-5.1` through Hugging Face Inference Providers.
+
+## Prerequisites
+
+Basic Python, familiarity with HTTP APIs and sandboxing, and an HF token with access to Inference Providers.

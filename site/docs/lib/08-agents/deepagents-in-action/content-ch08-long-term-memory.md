@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/datawhalechina/deepagents-in-action"
-entryUrl: "https://github.com/datawhalechina/deepagents-in-action/blob/4097ff944f9ffa1bdfe2dd04f751f4416b058860/README.md"
+entryUrl: "https://github.com/datawhalechina/deepagents-in-action/blob/4097ff944f9ffa1bdfe2dd04f751f4416b058860/content/ch08-long-term-memory.md"
+sourceRel: "content/ch08-long-term-memory.md"
+rawUrl: "/raw/08-agents/deepagents-in-action/content/ch08-long-term-memory.md"
+sourceSha256: "cea7cecbfaf25be1958cfa2c67878daccfed85b696336b77fc72904da1530ebc"
+pageSha256: "cea7cecbfaf25be1958cfa2c67878daccfed85b696336b77fc72904da1530ebc"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -196,7 +201,7 @@ def update_preferences(new_theme: str, runtime: ToolRuntime):
     })
 ```
 
-关键点：`runtime.state` 是**读**状态，`Command(update={...})` 是**写**状态。这样工具不仅能返回结果给模型，还能直接修改 Agent 的短期记忆。
+关键点：`runtime.state` 是**读**状态，`Command(update=\{...\})` 是**写**状态。这样工具不仅能返回结果给模型，还能直接修改 Agent 的短期记忆。
 
 ## CompositeBackend：长期记忆的核心方案
 
@@ -698,7 +703,7 @@ agent = create_deep_agent(
 | Backend 配置 | Agent 可见路径 | Store key |
 |---|---|---|
 | 直接使用 `StoreBackend` | `/skills/langgraph-docs/SKILL.md` | `/skills/langgraph-docs/SKILL.md` |
-| 挂载到 `routes={"/skills/": StoreBackend(...)}` | `/skills/langgraph-docs/SKILL.md` | `/langgraph-docs/SKILL.md` |
+| 挂载到 `routes=\{"/skills/": StoreBackend(...)\}` | `/skills/langgraph-docs/SKILL.md` | `/langgraph-docs/SKILL.md` |
 
 下面按 `CompositeBackend` 路由方式预填记忆和 Skill。两条路由使用不同 namespace，既保留各自的存储边界，也避免相同相对 key 互相覆盖：
 

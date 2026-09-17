@@ -8,13 +8,18 @@ lang: "英文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/vibefast-app/vibefast-docs"
-entryUrl: "https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/README.md"
+entryUrl: "https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/14-how-to-discuss-with-ai-before-coding-en.md"
+sourceRel: "en/14-how-to-discuss-with-ai-before-coding-en.md"
+rawUrl: "/raw/07-coding/vibefast-docs/en/14-how-to-discuss-with-ai-before-coding-en.md"
+sourceSha256: "9b8fa6bb0f110abb2ec2eb468685343417274014d42c2279a5ab7d7b86702ecc"
+pageSha256: "9b8fa6bb0f110abb2ec2eb468685343417274014d42c2279a5ab7d7b86702ecc"
+contentMode: "local-full"
 zh: ""
 ---
 
 # How to Discuss Projects with AI: Think First, Code Later
 
-[English](/lib/07-coding/vibefast-docs/en-14-how-to-discuss-with-ai-before-coding-en) · [繁中](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/zh/14-how-to-discuss-with-ai-before-coding-zh.md) · [Español](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/es/14-how-to-discuss-with-ai-before-coding-es.md) · [日本語](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/jp/14-how-to-discuss-with-ai-before-coding-jp.md) · [Português (BR)](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/pt-br/14-how-to-discuss-with-ai-before-coding-pt-br.md)
+[English](/lib/07-coding/vibefast-docs/en-14-how-to-discuss-with-ai-before-coding-en) · [繁中](/lib/07-coding/vibefast-docs/zh-14-how-to-discuss-with-ai-before-coding-zh) · [Español](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/es/14-how-to-discuss-with-ai-before-coding-es.md) · [日本語](/lib/07-coding/vibefast-docs/jp-14-how-to-discuss-with-ai-before-coding-jp) · [Português (BR)](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/pt-br/14-how-to-discuss-with-ai-before-coding-pt-br.md)
 
 **Author:** Danko Peng ([@dankopeng](https://x.com/dankopeng))  
 **Updated:** March 2026  

@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/ShouZhengAI/CS146S_CN"
-entryUrl: "https://github.com/ShouZhengAI/CS146S_CN/blob/0d65f36f6673147d6c298670da4f9b4bd7f991fa/README.md"
+entryUrl: "https://github.com/ShouZhengAI/CS146S_CN/blob/0d65f36f6673147d6c298670da4f9b4bd7f991fa/Assignments/week2/README.md"
+sourceRel: "Assignments/week2/README.md"
+rawUrl: "/raw/07-coding/cs146s-cn/Assignments/week2/README.md"
+sourceSha256: "d0623667359c75c27eda6d8e207c628cb5ae11bdf3af3fb6127fec44fd5f7c3e"
+pageSha256: "d0623667359c75c27eda6d8e207c628cb5ae11bdf3af3fb6127fec44fd5f7c3e"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -65,13 +70,13 @@ FastAPI 自动接口文档位于 <http://127.0.0.1:8000/docs>。
 | 方法 | 路径 | 功能 | 请求体/参数 |
 | --- | --- | --- | --- |
 | `GET` | `/` | 返回网页界面 | 无 |
-| `POST` | `/notes` | 新建笔记 | `{"content": "..."}` |
+| `POST` | `/notes` | 新建笔记 | `\{"content": "..."\}` |
 | `GET` | `/notes` | 列出全部笔记，按 ID 倒序 | 无 |
-| `GET` | `/notes/{note_id}` | 获取单条笔记 | 路径参数 `note_id` |
-| `POST` | `/notes/extract-llm` | 用 Ollama 提取行动项，可保存原笔记 | `{"text": "...", "save_note": true}` |
-| `POST` | `/action-items/extract` | 用规则提取行动项，可保存原笔记 | `{"text": "...", "save_note": true}` |
+| `GET` | `/notes/\{note_id\}` | 获取单条笔记 | 路径参数 `note_id` |
+| `POST` | `/notes/extract-llm` | 用 Ollama 提取行动项，可保存原笔记 | `\{"text": "...", "save_note": true\}` |
+| `POST` | `/action-items/extract` | 用规则提取行动项，可保存原笔记 | `\{"text": "...", "save_note": true\}` |
 | `GET` | `/action-items` | 列出行动项；可按笔记过滤 | 可选查询参数 `note_id` |
-| `POST` | `/action-items/{id}/done` | 修改完成状态 | `{"done": true}` |
+| `POST` | `/action-items/\{id\}/done` | 修改完成状态 | `\{"done": true\}` |
 
 两个提取端点都返回：
 

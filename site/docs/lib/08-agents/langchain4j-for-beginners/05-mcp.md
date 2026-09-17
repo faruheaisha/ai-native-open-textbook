@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/microsoft/LangChain4j-for-Beginners"
-entryUrl: "https://github.com/microsoft/LangChain4j-for-Beginners/blob/9aed2ec27717775def0da2ff2d7950baa8995a64/README.md"
+entryUrl: "https://github.com/microsoft/LangChain4j-for-Beginners/blob/9aed2ec27717775def0da2ff2d7950baa8995a64/05-mcp/README.md"
+sourceRel: "05-mcp/README.md"
+rawUrl: "/raw/08-agents/langchain4j-for-beginners/05-mcp/README.md"
+sourceSha256: "b8ed7c1421ffa1587de23e5d83877cf71adaf2f8e06e9bf7d7de60197dc84229"
+pageSha256: "b8ed7c1421ffa1587de23e5d83877cf71adaf2f8e06e9bf7d7de60197dc84229"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -304,7 +309,7 @@ You may wonder: **how does `FileAgent` know how to use the npm filesystem tools?
 The `FileAgent` interface is just a **prompt definition**. It has no hardcoded knowledge of `read_file`, `list_directory`, or any other MCP tool. Here's what happens end-to-end:
 
 1. **Server spawns:** `StdioMcpTransport` launches the `@modelcontextprotocol/server-filesystem` npm package as a child process
-2. **Tool discovery:** The `McpClient` sends a `tools/list` JSON-RPC request to the server, which responds with tool names, descriptions, and parameter schemas (e.g., `read_file` — *"Read the complete contents of a file"* — `{ path: string }`)
+2. **Tool discovery:** The `McpClient` sends a `tools/list` JSON-RPC request to the server, which responds with tool names, descriptions, and parameter schemas (e.g., `read_file` — *"Read the complete contents of a file"* — `\{ path: string \}`)
 3. **Schema injection:** `McpToolProvider` wraps these discovered schemas and makes them available to LangChain4j
 4. **LLM decides:** When `FileAgent.readFile(path)` is called, LangChain4j sends the system message, user message, **and the list of tool schemas** to the LLM. The LLM reads the tool descriptions and generates a tool call (e.g., `read_file(path="/some/file.txt")`)
 5. **Execution:** LangChain4j intercepts the tool call, routes it through the MCP client back to the Node.js subprocess, gets the result, and feeds it back to the LLM

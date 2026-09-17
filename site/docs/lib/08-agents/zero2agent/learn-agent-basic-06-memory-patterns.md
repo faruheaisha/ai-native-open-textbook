@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/ranxi2001/zero2Agent"
-entryUrl: "https://github.com/ranxi2001/zero2Agent/blob/46e9f7c28f84f54b2f6e45681d14989f01e18291/README.md"
+entryUrl: "https://github.com/ranxi2001/zero2Agent/blob/46e9f7c28f84f54b2f6e45681d14989f01e18291/learn-agent-basic/06-memory-patterns/index.md"
+sourceRel: "learn-agent-basic/06-memory-patterns/index.md"
+rawUrl: "/raw/08-agents/zero2agent/learn-agent-basic/06-memory-patterns/index.md"
+sourceSha256: "2d1f896ab46ac8bf571285bd886deebdd8ae755ab670cf38315b74303e2878ea"
+pageSha256: "2d1f896ab46ac8bf571285bd886deebdd8ae755ab670cf38315b74303e2878ea"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "04-work"
 sourceUrl: "https://github.com/zjp1997720/zhijian-ai-bluebook-workbuddy-harness"
-entryUrl: "https://github.com/zjp1997720/zhijian-ai-bluebook-workbuddy-harness/blob/6ac68cd42a01add16568d1ab9cf2399822467fad/01-前言.md"
+entryUrl: "https://github.com/zjp1997720/zhijian-ai-bluebook-workbuddy-harness/blob/6ac68cd42a01add16568d1ab9cf2399822467fad/07-第%206%20章%20身份系统：SOUL、IDENTITY、USER%20与专家人设的边界.md"
+sourceRel: "07-第 6 章 身份系统：SOUL、IDENTITY、USER 与专家人设的边界.md"
+rawUrl: "/raw/04-work/zhijian-ai-bluebook-workbuddy-harness/07-第 6 章 身份系统：SOUL、IDENTITY、USER 与专家人设的边界.md"
+sourceSha256: "594e4ffbc8cbd41582da06228ae88e3fd97bd68c53c92b4f399bec739f83288e"
+pageSha256: "594e4ffbc8cbd41582da06228ae88e3fd97bd68c53c92b4f399bec739f83288e"
+contentMode: "local-full"
 zh: ""
 ---
 

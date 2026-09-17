@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide"
-entryUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/README.md"
+entryUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/docs/resource-evaluations/071-steven-ge-technical-writing-workflow.md"
+sourceRel: "docs/resource-evaluations/071-steven-ge-technical-writing-workflow.md"
+rawUrl: "/raw/09-harness/claude-code-ultimate-guide/docs/resource-evaluations/071-steven-ge-technical-writing-workflow.md"
+sourceSha256: "42de01e06e8be8d33dc7e88b58c98ac1efaacd79d308c2e9922a5097d8eda5c2"
+pageSha256: "42de01e06e8be8d33dc7e88b58c98ac1efaacd79d308c2e9922a5097d8eda5c2"
+contentMode: "local-full"
 zh: ""
 ---
 

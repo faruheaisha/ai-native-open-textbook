@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works"
-entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/README.md"
+entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/06-hooks-extensibility.md"
+sourceRel: "docs/06-hooks-extensibility.md"
+rawUrl: "/raw/09-harness/how-claude-code-works/docs/06-hooks-extensibility.md"
+sourceSha256: "d28cea0654face643bc70667d342662af879dd32a4ea2f01ae43310bdd4777fd"
+pageSha256: "d28cea0654face643bc70667d342662af879dd32a4ea2f01ae43310bdd4777fd"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -148,9 +153,9 @@ Claude Code 支持四种可配置的 Hook 类型和两种编程式 Hook 类型�
 
 工作原理（`execCommandHook`）：
 
-1. 进程创建：调用 `spawn()` 创建子进程。Shell 的选择逻辑是：如果指定了 `shell: 'powershell'`，用 `pwsh`，加上 `-NoProfile -NonInteractive`；否则走 `spawn(cmd, [], { shell: true })`——Unix 上即 `/bin/sh`，Windows 上换成 Git Bash（`findGitBashPath()`）。注意它并不读取用户的 `$SHELL`，schema 描述里的 "$SHELL" 说法与实际 spawn 实现不符。
+1. 进程创建：调用 `spawn()` 创建子进程。Shell 的选择逻辑是：如果指定了 `shell: 'powershell'`，用 `pwsh`，加上 `-NoProfile -NonInteractive`；否则走 `spawn(cmd, [], \{ shell: true \})`——Unix 上即 `/bin/sh`，Windows 上换成 Git Bash（`findGitBashPath()`）。注意它并不读取用户的 `$SHELL`，schema 描述里的 "$SHELL" 说法与实际 spawn 实现不符。
 2. 输入传递：将 Hook 的结构化输入序列化为 JSON，通过 stdin 传入子进程。这份输入包含 session_id、tool_name、tool_input 等字段，因此 Hook 脚本读一下 stdin 就能拿到完整的上下文。
-3. 环境变量：子进程继承当前环境变量。如果是插件 Hook，额外注入两个变量——`CLAUDE_PLUGIN_ROOT` 指向插件根目录，`CLAUDE_PLUGIN_DATA` 指向插件数据目录；命令里的 `${CLAUDE_PLUGIN_ROOT}` 占位符也会被替换。
+3. 环境变量：子进程继承当前环境变量。如果是插件 Hook，额外注入两个变量——`CLAUDE_PLUGIN_ROOT` 指向插件根目录，`CLAUDE_PLUGIN_DATA` 指向插件数据目录；命令里的 `$\{CLAUDE_PLUGIN_ROOT\}` 占位符也会被替换。
 4. 输出收集：等待进程退出，收集 stdout 和 stderr。
 5. 结果解析：根据退出码和 stdout 内容决定 Hook 结果，详见 7.4 节。
 
@@ -176,7 +181,7 @@ Claude Code 支持四种可配置的 Hook 类型和两种编程式 Hook 类型�
 
 1. 将 `$ARGUMENTS` 占位符替换为 Hook 输入的 JSON 字符串
 2. 构建消息数组，可选地带上对话历史，再调用 `queryModelWithoutStreaming` 做单轮、无流式的请求
-3. 系统提示词要求模型返回 `{"ok": true}` 或 `{"ok": false, "reason": "..."}`
+3. 系统提示词要求模型返回 `\{"ok": true\}` 或 `\{"ok": false, "reason": "..."\}`
 4. 解析模型返回，`ok: false` 映射为阻塞错误
 
 一个关键设计细节：Prompt Hook 直接调用 `createUserMessage` 而不经过 `processUserInput`——因为后者会触发 `UserPromptSubmit` Hook，导致无限递归。
@@ -206,7 +211,7 @@ Claude Code 支持四种可配置的 Hook 类型和两种编程式 Hook 类型�
 | 调用方式 | `queryModelWithoutStreaming`（单轮） | `query`（多轮 Agent Loop） |
 | 能否调用工具 | 不能（只有 LLM 推理） | 能（可以读文件、运行命令来验证） |
 | 默认超时 | 30 秒 | 60 秒 |
-| 输出格式 | 强制 `{ok, reason}` JSON | 通过注册结构化输出工具，返回 `{ok, reason}` |
+| 输出格式 | 强制 `\{ok, reason\}` JSON | 通过注册结构化输出工具，返回 `\{ok, reason\}` |
 
 Agent Hook 使用 `registerStructuredOutputEnforcement` 注册一个函数 Hook，确保 Agent 在结束时必须调用结构化输出工具返回结果。这是一个"Hook 嵌套 Hook"的设计——Agent Hook 本身在执行过程中注册临时的 Function Hook 来约束 Agent 行为。
 
@@ -232,11 +237,11 @@ Agent Hook 使用 `registerStructuredOutputEnforcement` 注册一个函数 Hook�
 工作原理（`execHttpHook`）：
 
 1. URL 白名单检查：如果配置了 `allowedHttpHookUrls` 策略，先检查 URL 是否匹配允许的模式。不匹配直接拒绝，不发任何请求。
-2. Header 环境变量插值：遍历 headers，匹配 `$VAR_NAME` 或 `${VAR_NAME}` 模式。只有在 `allowedEnvVars` 中列出的变量才会被替换，其他变量替换为空字符串。这防止了项目级 `.claude/settings.json` 中的恶意 Hook 窃取 `$HOME`、`$AWS_SECRET_ACCESS_KEY` 等敏感变量。
+2. Header 环境变量插值：遍历 headers，匹配 `$VAR_NAME` 或 `${VAR_NAME\}` 模式。只有在 `allowedEnvVars` 中列出的变量才会被替换，其他变量替换为空字符串。这防止了项目级 `.claude/settings.json` 中的恶意 Hook 窃取 `$HOME`、`$AWS_SECRET_ACCESS_KEY` 等敏感变量。
 3. CRLF 注入防护：插值后的 header 值会被去除 `\r`、`\n`、`\x00` 字符，防止恶意环境变量注入额外的 HTTP 头。
 4. 代理支持：自动检测 sandbox 代理和环境变量代理（`HTTP_PROXY`/`HTTPS_PROXY`），通过代理发送请求。
 5. SSRF 防护：不通过代理时，使用 `ssrfGuardedLookup` 防止请求发往内网地址。
-6. 响应解析：HTTP Hook 必须返回 JSON，这跟 Command Hook 不同——后者可以返回纯文本。空 body 被视为 `{}`，即成功且无特殊指令。
+6. 响应解析：HTTP Hook 必须返回 JSON，这跟 Command Hook 不同——后者可以返回纯文本。空 body 被视为 `\{\}`，即成功且无特殊指令。
 
 有一个重要限制：HTTP Hook 不支持 SessionStart 和 Setup 事件。原因是在 headless 模式下，这两个事件触发时 sandbox 的 structuredInput 消费者尚未启动，HTTP 请求会死锁。
 
@@ -529,7 +534,7 @@ function hookDedupKey(m: MatchedHook, payload: string): string {
 去重的核心设计：
 
 - 同源 Hook 去重：来自 settings 的 Hook（无 pluginRoot/skillRoot）共享空字符串前缀，相同命令只保留最后合并的那个
-- 跨源 Hook 不去重：插件 A 和插件 B 可能都有 `${CLAUDE_PLUGIN_ROOT}/hook.sh`，展开后指向不同文件。去重 key 包含 pluginRoot，确保它们不会被错误地合并
+- 跨源 Hook 不去重：插件 A 和插件 B 可能都有 `$\{CLAUDE_PLUGIN_ROOT\}/hook.sh`，展开后指向不同文件。去重 key 包含 pluginRoot，确保它们不会被错误地合并
 - 不同 `if` 条件不去重：即使命令相同，`if` 条件不同也是不同的 Hook
 
 Last-wins 语义：`new Map(entries)` 在 key 冲突时保留最后一个 entry。对于 settings Hook，这意味着后合并的配置（如项目设置）覆盖先合并的用户设置。
@@ -575,7 +580,7 @@ function getJsonInput() {
 
 同步模式是默认的：等待进程退出，收集 stdout/stderr，解析输出。虽然多个 Hook 之间是并行的，但每个 Hook 自身是同步等待结果的。
 
-异步模式（`async: true`）：Hook 进程在后台运行，通过 `registerPendingAsyncHook()` 注册到全局的 `AsyncHookRegistry`，立即返回 success。Agent Loop 在每轮循环中调用 `checkForAsyncHookResponses()` 轮询已完成的异步 Hook，将结果注入对话。这里的超时取值要分清两条路径：配置里写 `async: true` 的 Hook，后台超时沿用该 Hook 的 `timeout` 字段（`hook.timeout*1000`，缺省则是 `TOOL_HOOK_EXECUTION_TIMEOUT_MS` = 10 分钟），backgrounding 时以 `asyncTimeout: hookTimeoutMs` 传入；只有当 Hook 通过 stdout 自行返回 `{"async": true}` 却没带 `asyncTimeout` 时，才落到 `AsyncHookRegistry` 的 `|| 15000` 这条 15 秒兜底上。
+异步模式（`async: true`）：Hook 进程在后台运行，通过 `registerPendingAsyncHook()` 注册到全局的 `AsyncHookRegistry`，立即返回 success。Agent Loop 在每轮循环中调用 `checkForAsyncHookResponses()` 轮询已完成的异步 Hook，将结果注入对话。这里的超时取值要分清两条路径：配置里写 `async: true` 的 Hook，后台超时沿用该 Hook 的 `timeout` 字段（`hook.timeout*1000`，缺省则是 `TOOL_HOOK_EXECUTION_TIMEOUT_MS` = 10 分钟），backgrounding 时以 `asyncTimeout: hookTimeoutMs` 传入；只有当 Hook 通过 stdout 自行返回 `\{"async": true\}` 却没带 `asyncTimeout` 时，才落到 `AsyncHookRegistry` 的 `|| 15000` 这条 15 秒兜底上。
 
 异步唤醒模式（`asyncRewake: true`）最特殊，专为"后台检查 + 按需中断"场景设计：
 

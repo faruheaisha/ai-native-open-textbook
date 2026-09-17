@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/freestylefly/CodexGuide"
-entryUrl: "https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/README.md"
+entryUrl: "https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/advanced/06-hooks.md"
+sourceRel: "docs/advanced/06-hooks.md"
+rawUrl: "/raw/09-harness/codex-guide-freestylefly/docs/advanced/06-hooks.md"
+sourceSha256: "3e61f677e340e75e241d0fd0ea5c1dd1d9429588a0a1aa18dcefa023ecf4e3ae"
+pageSha256: "3e61f677e340e75e241d0fd0ea5c1dd1d9429588a0a1aa18dcefa023ecf4e3ae"
+contentMode: "local-full"
 zh: ""
 ---
 

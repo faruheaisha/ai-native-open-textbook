@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/microsoft/AI-Engineering-Coach"
-entryUrl: "https://github.com/microsoft/AI-Engineering-Coach/blob/18b1a3d16b586c171426c6a407cc5c2dc073556e/README.md"
+entryUrl: "https://github.com/microsoft/AI-Engineering-Coach/blob/18b1a3d16b586c171426c6a407cc5c2dc073556e/docs/content/measure/output.md"
+sourceRel: "docs/content/measure/output.md"
+rawUrl: "/raw/08-agents/microsoft-ai-engineering-coach/docs/content/measure/output.md"
+sourceSha256: "193d9f5e3748ef727540c9630009d4de5e99c4b2d97c47ce058040e1907c1bdb"
+pageSha256: "193d9f5e3748ef727540c9630009d4de5e99c4b2d97c47ce058040e1907c1bdb"
+contentMode: "local-full"
 zh: ""
 ---
 

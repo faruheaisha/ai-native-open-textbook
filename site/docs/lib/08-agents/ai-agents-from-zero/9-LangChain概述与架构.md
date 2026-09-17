@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/didilili/ai-agents-from-zero"
-entryUrl: "https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/README.md"
+entryUrl: "https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/9-LangChain概述与架构.md"
+sourceRel: "9-LangChain概述与架构.md"
+rawUrl: "/raw/08-agents/ai-agents-from-zero/9-LangChain概述与架构.md"
+sourceSha256: "ad2c8681068620f7e25a68f2e8686fca12f282265d78dff3ac03bf6a1148f66d"
+pageSha256: "ad2c8681068620f7e25a68f2e8686fca12f282265d78dff3ac03bf6a1148f66d"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -24,7 +29,7 @@ zh: ""
 
 **学习建议：** 这一章先当成 LangChain 的地图，不急着记 API。读完最好能说清三件事：LangChain 帮你组织哪些能力、它不负责哪些底层能力、1.x 写法和旧资料里的 0.x 写法为什么会不一样。看完后直接进入 [第 10 章](/lib/08-agents/ai-agents-from-zero/10-LangChain快速上手与HelloWorld) 跑一次最小调用，抽象概念会落得更稳。
 
-**官方文档与资源**：详见 [工具导航与参考资料索引 - LangChain](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/工具导航与参考资料索引.md#LangChain)。
+**官方文档与资源**：详见 [工具导航与参考资料索引 - LangChain](/lib/08-agents/ai-agents-from-zero/工具导航与参考资料索引#LangChain)。
 
 ---
 

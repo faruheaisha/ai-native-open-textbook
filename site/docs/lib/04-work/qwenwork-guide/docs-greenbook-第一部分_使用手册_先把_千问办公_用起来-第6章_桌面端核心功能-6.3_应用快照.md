@@ -1,0 +1,42 @@
+---
+title: "6.3 应用快照"
+sourceId: "04-work/qwenwork-guide"
+sourceTitle: "千问办公绿皮书（QwenWorkGuide）"
+sourceKind: "工程手册"
+licenseLabel: "可转载"
+lang: "中文"
+tier: 1
+volume: "04-work"
+sourceUrl: "https://github.com/wangxiaoshuai1998/QwenWorkGuide"
+entryUrl: "https://github.com/wangxiaoshuai1998/QwenWorkGuide/blob/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分%20使用手册：先把%20千问办公%20用起来/第6章%20桌面端核心功能/6.3%20应用快照/index.md"
+sourceRel: "docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.3 应用快照/index.md"
+rawUrl: "/raw/04-work/qwenwork-guide/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.3 应用快照/index.md"
+sourceSha256: "27d1acb8609b6fd3cda92ab214d08408a569a4afbed02f6404988eb9355b6d7e"
+pageSha256: "27d1acb8609b6fd3cda92ab214d08408a569a4afbed02f6404988eb9355b6d7e"
+contentMode: "local-full"
+zh: ""
+---
+
+# **6.3 应用快照**
+
+捕获最前方应用的截图与可读文本，作为对话上下文
+
+应用快照让你在不切换窗口的情况下，把当前屏幕上正在操作的内容直接带进对话。按下全局快捷键后，QwenWork 会同时捕获最前方应用的截图和可读文本，并把它们插入到输入框——从"看到问题"到"开始提问"只需一步。
+
+典型场景：在浏览器里遇到报错信息、在设计工具里看到需要反馈的 UI 细节、在终端里碰到让你不确定的输出——此时不必手动截图、粘贴、再描述，直接按下快捷键，截图与文本同时附入对话，AI 立刻获得完整上下文。
+
+## **设置快捷键**
+
+进入 设置 → 应用快照，在"全局快捷键"下拉菜单中选择触发方式（如同时按下左右两个 Option 键）。
+
+设置完成后，这个快捷键在全局生效——不论 QwenWork 是否在前台、当前焦点在哪个应用，按下即触发。捕获到的截图和可读文本会自动插入当前对话的输入框，你可以直接补充说明后发送，也可以先查看再决定是否追加描述。
+
+## **权限要求**
+
+应用快照需要 macOS 的两项系统权限方可工作：
+- 辅助功能（Accessibility）——用于读取最前方应用的界面文本与结构，提取可供 AI 理解的文字内容。
+- 屏幕录制（Screen Recording）——用于捕获当前屏幕的截图画面。
+
+首次触发快捷键时，macOS 会弹出对应的授权对话框。由于涉及系统级权限，授权流程可能需要较长时间，请耐心等待完成后再次尝试。授权仅需一次，之后不会再次询问。
+
+<span style="color: rgb(73, 70, 65); background-color: rgb(245, 247, 240);">***来源：千文办公 官方指南。***</span>

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/openai/openai-cookbook"
-entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/README.md"
+entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/articles/openai-harmony.md"
+sourceRel: "articles/openai-harmony.md"
+rawUrl: "/raw/08-agents/openai-cookbook/articles/openai-harmony.md"
+sourceSha256: "a348e9824793f6d82f241d44e5a6b1e7b23ba3bc410413766db1c0ae47d71cf7"
+pageSha256: "a348e9824793f6d82f241d44e5a6b1e7b23ba3bc410413766db1c0ae47d71cf7"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -181,7 +186,7 @@ The harmony response format consists of “messages” with the model potentiall
 <|start|>{header}<|message|>{content}<|end|>
 ```
 
-The `{header}` contains a series of meta information including the [role](#roles). `<|end|>` represents the end of a fully completed message but the model might also use other stop tokens such as `<|call|>` for tool calling and `<|return|>` to indicate the model is done with the completion.
+The `\{header\}` contains a series of meta information including the [role](#roles). `<|end|>` represents the end of a fully completed message but the model might also use other stop tokens such as `<|call|>` for tool calling and `<|return|>` to indicate the model is done with the completion.
 
 ### Chat conversation format
 
@@ -207,7 +212,7 @@ Once its done generating it will stop with either a `<|return|>` token indicatin
 
 The `final` channel will contain the answer to your user’s request. Check out the [reasoning section](#reasoning) for more details on the chain-of-thought.
 
-**Implementation note:** `<|return|>` is a decode-time stop token only. When you add the assistant’s generated reply to conversation history for the next turn, replace the trailing `<|return|>` with `<|end|>` so that stored messages are fully formed as `<|start|>{header}<|message|>{content}<|end|>`. Prior messages in prompts should therefore end with `<|end|>`. For supervised targets/training examples, ending with `<|return|>` is appropriate; for persisted history, normalize to `<|end|>`.
+**Implementation note:** `<|return|>` is a decode-time stop token only. When you add the assistant’s generated reply to conversation history for the next turn, replace the trailing `<|return|>` with `<|end|>` so that stored messages are fully formed as `<|start|>\{header\}<|message|>\{content\}<|end|>`. Prior messages in prompts should therefore end with `<|end|>`. For supervised targets/training examples, ending with `<|return|>` is appropriate; for persisted history, normalize to `<|end|>`.
 
 ### System message format
 
@@ -264,7 +269,7 @@ If you are not using function tool calling your developer message would just loo
 {instructions}<|end|>
 ```
 
-Where `{instructions}` is replaced with your “system prompt”.
+Where `\{instructions\}` is replaced with your “system prompt”.
 
 For defining function calling tools, [check out the dedicated section](#function-calling).  
 For defining an output format to be used in structured outputs, [check out this section of the guide](#structured-output).
@@ -336,7 +341,7 @@ All functions that are available to the model should be defined in the [develope
 
 To define the functions we use a TypeScript-like type syntax and wrap the functions into a dedicated `functions` namespace. It’s important to stick to this format closely to improve accuracy of function calling. You can check out the harmony renderer codebase for more information on how we are turning JSON schema definitions for the arguments into this format but some general formatting practices:
 
-- Define every function as a `type {function_name} = () => any` if it does not receive any arguments
+- Define every function as a `type \{function_name\} = () => any` if it does not receive any arguments
 - For functions that receive an argument name the argument `_` and inline the type definition
 - Add comments for descriptions in the line above the field definition
 - Always use `any` as the return type
@@ -385,7 +390,7 @@ format?: "celsius" | "fahrenheit", // default: celsius
 
 #### Receiving tool calls
 
-If the model decides to call a tool it will define a `recipient` in the header of the message using the format `to={name}`. For example, if it decides to trigger the `get_current_weather` function from above it would specify `to=functions.get_current_weather` in the header and `commentary` as the channel as specified in the [system message](#system-message-format). **The recipient might be defined in the role or channel section of the header.**
+If the model decides to call a tool it will define a `recipient` in the header of the message using the format `to=\{name\}`. For example, if it decides to trigger the `get_current_weather` function from above it would specify `to=functions.get_current_weather` in the header and `commentary` as the channel as specified in the [system message](#system-message-format). **The recipient might be defined in the role or channel section of the header.**
 
 The model might also specify a `<|constrain|>` token to indicate the type of input for the tool call. In this case since it’s being passed in as JSON the `<|constrain|>` is set to `json`.
 

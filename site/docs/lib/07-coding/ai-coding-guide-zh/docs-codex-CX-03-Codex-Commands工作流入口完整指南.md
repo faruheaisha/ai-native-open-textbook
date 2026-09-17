@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh"
-entryUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/README.md"
+entryUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/docs/codex/CX-03-Codex-Commands工作流入口完整指南.md"
+sourceRel: "docs/codex/CX-03-Codex-Commands工作流入口完整指南.md"
+rawUrl: "/raw/07-coding/ai-coding-guide-zh/docs/codex/CX-03-Codex-Commands工作流入口完整指南.md"
+sourceSha256: "21e8cff344a834e3e94d115db616a087e7e178286b1b0c8ad7ed6e21c5591d76"
+pageSha256: "21e8cff344a834e3e94d115db616a087e7e178286b1b0c8ad7ed6e21c5591d76"
+contentMode: "local-full"
 zh: ""
 ---
 

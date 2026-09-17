@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/deusyu/harness-engineering"
-entryUrl: "https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/README.md"
+entryUrl: "https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/thinking/guides-sensors-meets-claude-code-harness.md"
+sourceRel: "thinking/guides-sensors-meets-claude-code-harness.md"
+rawUrl: "/raw/09-harness/deusyu-harness-engineering/thinking/guides-sensors-meets-claude-code-harness.md"
+sourceSha256: "d676b9bd2ff772409ca3e524a0ffe3c399a78befba6378169fedbd31372df6df"
+pageSha256: "d676b9bd2ff772409ca3e524a0ffe3c399a78befba6378169fedbd31372df6df"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -22,7 +27,7 @@ zh: ""
 
 ## 为什么这个对照值得做
 
-Böckeler 在 [Harness engineering for coding agent users](https://martinfowler.com/articles/harness-engineering.html) 里给出了一个干净的 2×2 矩阵（[译文](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/fowler-harness-engineering-full-translation.md)"前馈与反馈""计算性 vs 推理性"两节），但她明确说"这是分类学，不是设计模板"。她列举的例子（AGENTS.md、ArchUnit、Skills）都是组件级的——没有一个完整产品被她拿来做端到端剖析。
+Böckeler 在 [Harness engineering for coding agent users](https://martinfowler.com/articles/harness-engineering.html) 里给出了一个干净的 2×2 矩阵（[译文](/lib/09-harness/deusyu-harness-engineering/works-fowler-harness-engineering-full-translation)"前馈与反馈""计算性 vs 推理性"两节），但她明确说"这是分类学，不是设计模板"。她列举的例子（AGENTS.md、ArchUnit、Skills）都是组件级的——没有一个完整产品被她拿来做端到端剖析。
 
 claude-code-harness v4.2 恰好提供了这样一个样本：
 
@@ -83,7 +88,7 @@ Böckeler 的矩阵把控制按"何时执行"切了一刀（前/后），但 Adv
 
 ## 张力 3：行为 Harness（房间里的大象）在 v4.2 里被绕过了，没被解决
 
-**Böckeler 的诊断：** 三类调控对象里，可维护性最成熟、架构适应度中等、行为正确性"最弱、是房间里的大象"（[译文](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/fowler-harness-engineering-full-translation.md)"行为 Harness"一节）。
+**Böckeler 的诊断：** 三类调控对象里，可维护性最成熟、架构适应度中等、行为正确性"最弱、是房间里的大象"（[译文](/lib/09-harness/deusyu-harness-engineering/works-fowler-harness-engineering-full-translation)"行为 Harness"一节）。
 
 **v4.2 的应对：** 看似认真——reviewer agent 的 4 视角（Security/Performance/Quality/Accessibility）、`xhigh` effort（[CLAUDE.md#L17](https://github.com/Chachamaru127/claude-code-harness/blob/v4.2.0/CLAUDE.md#L17)）、Plans.md 强制四态状态机（`pm:依頼中 → cc:WIP → cc:完了 → pm:確認済`）。
 

@@ -9,6 +9,11 @@ tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial"
 entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-tutorial/README.md"
+sourceSha256: "e4530d45295332d1b55a40341df108a4260bed928b277d211dcc2a51913c274f"
+pageSha256: "e4530d45295332d1b55a40341df108a4260bed928b277d211dcc2a51913c274f"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -19,7 +24,7 @@ zh: ""
 
 > 📖 **纸质书《OpenClaw超级个体实操手册》已上市！** 清华大学出版社出版，在开源教程基础上全面重写+逐条验证。🛒 [京东专属购买链接（¥42，原价¥59.8）](https://item.jd.com/14669463.html)
 
-> 🔄 **2026-09-10 更新说明**：本仓库当前按 **OpenClaw v2026.9.3（稳定版，2026-09-08 发布）** 校对；第 `1/2/5/7/8/10~15` 章已同步到 2026.9 主线。跨版本请先读 [`updates/2026-09-10-v2026.9.3.md`](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/updates/2026-09-10-v2026.9.3.md)，升级后执行 `openclaw doctor --fix`。
+> 🔄 **2026-09-10 更新说明**：本仓库当前按 **OpenClaw v2026.9.3（稳定版，2026-09-08 发布）** 校对；第 `1/2/5/7/8/10~15` 章已同步到 2026.9 主线。跨版本请先读 [`updates/2026-09-10-v2026.9.3.md`](/lib/11-personal-agents/awesome-openclaw-tutorial/updates-2026-09-10-v2026.9.3)，升级后执行 `openclaw doctor --fix`。
 
 ## 🔗 MaynorAI 高星项目导航
 
@@ -58,14 +63,14 @@ zh: ""
 
 | 你的情况 | 推荐方案 | 为什么 | 开始时间 |
 |---------|---------|------|---------|
-| **有服务器，想可视化管理** | [**宝塔面板**](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/tutorials/Openclaw史上最简单教程，小白一键部署.md#11宝塔面板-openclaw) | **免费插件** + **面板管理** + **一键安装** | → 3分钟搞定 |
-| **企业级，需要高安全性** | [**JVSClaw**](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/tutorials/Openclaw史上最简单教程，小白一键部署.md#10jvsclaw阿里云无影) | **14天免费** + **6核12GB** + **端到端加密** | → 需邀请码 |
-| **想用浏览器操控** | [Kimi Claw](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/tutorials/Openclaw史上最简单教程，小白一键部署.md#3kimi-openclaw) | **Kimi K2.5** + **浏览器控制** | → 200元/月 |
-| **量化交易/多IM** | [腾讯 WorkBuddy](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/tutorials/Openclaw史上最简单教程，小白一键部署.md#4腾讯-openclawworkbuddy) | **桌面端Agent** + **多IM支持** | → 送5000积分 |
-| **macOS原生体验** | [QClaw](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/tutorials/Openclaw史上最简单教程，小白一键部署.md#5qclaw) | **腾讯官方桌面客户端** + **全量公测** | → 免费 |
-| **Agent生态丰富** | [扣子 OpenClaw](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/tutorials/Openclaw史上最简单教程，小白一键部署.md#2扣子-openclaw) | **1800+Skills** | → 99元/月起 |
+| **有服务器，想可视化管理** | [**宝塔面板**](/lib/11-personal-agents/awesome-openclaw-tutorial/tutorials-Openclaw史上最简单教程_小白一键部署#11宝塔面板-openclaw) | **免费插件** + **面板管理** + **一键安装** | → 3分钟搞定 |
+| **企业级，需要高安全性** | [**JVSClaw**](/lib/11-personal-agents/awesome-openclaw-tutorial/tutorials-Openclaw史上最简单教程_小白一键部署#10jvsclaw阿里云无影) | **14天免费** + **6核12GB** + **端到端加密** | → 需邀请码 |
+| **想用浏览器操控** | [Kimi Claw](/lib/11-personal-agents/awesome-openclaw-tutorial/tutorials-Openclaw史上最简单教程_小白一键部署#3kimi-openclaw) | **Kimi K2.5** + **浏览器控制** | → 200元/月 |
+| **量化交易/多IM** | [腾讯 WorkBuddy](/lib/11-personal-agents/awesome-openclaw-tutorial/tutorials-Openclaw史上最简单教程_小白一键部署#4腾讯-openclawworkbuddy) | **桌面端Agent** + **多IM支持** | → 送5000积分 |
+| **macOS原生体验** | [QClaw](/lib/11-personal-agents/awesome-openclaw-tutorial/tutorials-Openclaw史上最简单教程_小白一键部署#5qclaw) | **腾讯官方桌面客户端** + **全量公测** | → 免费 |
+| **Agent生态丰富** | [扣子 OpenClaw](/lib/11-personal-agents/awesome-openclaw-tutorial/tutorials-Openclaw史上最简单教程_小白一键部署#2扣子-openclaw) | **1800+Skills** | → 99元/月起 |
 
-📖 **[查看完整一键部署教程 →](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/tutorials/Openclaw史上最简单教程，小白一键部署.md)**
+📖 **[查看完整一键部署教程 →](/lib/11-personal-agents/awesome-openclaw-tutorial/tutorials-Openclaw史上最简单教程_小白一键部署)**
 
 ---
 
@@ -73,26 +78,26 @@ zh: ""
 
 ### 🎯 零基础入门（必读）
 - 📖 [第1章：认识OpenClaw](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-01-basics-01-introduction) - 5分钟了解核心价值
-- 🚀 [第2章：快速部署](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-01-basics-02-installation) - 选择适合你的部署方式
+- 🚀 [第2章：快速部署](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-01-basics-02-installation/index) - 选择适合你的部署方式
 - 💬 [第3章：快速上手](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-01-basics-03-quick-start) - 发送第一条消息
 
 ### 🔥 核心功能（实战）
 - 📁 [第4章：文件管理](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-02-core-features-04-file-management) - 效率提升81%
 - 🧠 [第5章：知识库](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-02-core-features-05-knowledge-management) - 第二大脑系统 + Active Memory / Dreaming 补充
 - 📅 [第6章：日程管理](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-02-core-features-06-schedule-management) - AI自动创建日程
-- ⚙️ [第7章：自动化](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/docs/02-core-features/07-automation-workflow.md) - 定时任务 + Task Flow / Webhooks 更新
+- ⚙️ [第7章：自动化](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-02-core-features-07-automation-workflow) - 定时任务 + Task Flow / Webhooks 更新
 
 ### 💎 进阶技能（提升）
-- 🔌 [第8章：Skills扩展](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/docs/03-advanced/08-skills-extension.md) - 1800+技能
-- 🤖 [第9章：多平台集成](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/docs/03-advanced/09-multi-platform-integration.md) - 飞书/企微/钉钉/QQ/微信
-- 🔗 [第10章：API 与外部能力集成](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/docs/03-advanced/10-api-integration.md) - infer / webhooks / 媒体工作流
-- ⚙️ [第11章：高级配置](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/docs/03-advanced/11-advanced-configuration.md) - 模型 / 记忆 / 审批 / 性能
+- 🔌 [第8章：Skills扩展](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-03-advanced-08-skills-extension) - 1800+技能
+- 🤖 [第9章：多平台集成](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-03-advanced-09-multi-platform-integration/index) - 飞书/企微/钉钉/QQ/微信
+- 🔗 [第10章：API 与外部能力集成](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-03-advanced-10-api-integration) - infer / webhooks / 媒体工作流
+- ⚙️ [第11章：高级配置](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-03-advanced-11-advanced-configuration) - 模型 / 记忆 / 审批 / 性能
 
 ### 🎯 实战案例（直接套用）
-- 👔 [第12章：个人效率实战](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/docs/04-practical-cases/12-personal-productivity.md) - 知识工作 / 编程 / 创作 / 学习 / 个人运营
-- 🔗 [第13章：高级自动化](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/docs/04-practical-cases/13-advanced-automation.md) - cron / tasks / Task Flow / hooks / standing orders
-- 🎨 [第14章：创意应用](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/docs/04-practical-cases/14-creative-applications.md) - 图片 / 视频 / 音乐 / TTS / ComfyUI
-- 🚀 [第15章：一人公司实战](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/docs/04-practical-cases/15-solo-entrepreneur-cases.md) - 选题 / 交付 / 分发 / 复盘
+- 👔 [第12章：个人效率实战](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-04-practical-cases-12-personal-productivity) - 知识工作 / 编程 / 创作 / 学习 / 个人运营
+- 🔗 [第13章：高级自动化](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-04-practical-cases-13-advanced-automation) - cron / tasks / Task Flow / hooks / standing orders
+- 🎨 [第14章：创意应用](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-04-practical-cases-14-creative-applications) - 图片 / 视频 / 音乐 / TTS / ComfyUI
+- 🚀 [第15章：一人公司实战](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-04-practical-cases-15-solo-entrepreneur-cases) - 选题 / 交付 / 分发 / 复盘
 
 ### 📚 附录工具（速查）
 - [命令速查表](/lib/11-personal-agents/awesome-openclaw-tutorial/appendix-A-command-reference) | [必装Skills](/lib/11-personal-agents/awesome-openclaw-tutorial/appendix-B-skills-catalog)
@@ -109,14 +114,14 @@ zh: ""
 ### 安装配置问题
 - [安装失败怎么办？](/lib/11-personal-agents/awesome-openclaw-tutorial/appendix-E-common-problems#安装配置问题)
 - [API连接失败？](/lib/11-personal-agents/awesome-openclaw-tutorial/appendix-E-common-problems#api连接问题)
-- [飞书Bot不回复？](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/docs/03-advanced/09-multi-platform-integration.md#常见问题)
+- [飞书Bot不回复？](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-03-advanced-09-multi-platform-integration/index#常见问题)
 
 ### 使用问题
 - [AI变"哑巴"了？](#🔧-202632-版本ai变哑巴了) → 切换到 `full` profile
 - [Gateway启动失败？](/lib/11-personal-agents/awesome-openclaw-tutorial/appendix-E-common-problems#gateway问题) → 检查认证配置
 
 ### 成本优化
-- [API费用太高？](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/docs/03-advanced/11-advanced-configuration.md)
+- [API费用太高？](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-03-advanced-11-advanced-configuration)
 - [如何省钱？](/lib/11-personal-agents/awesome-openclaw-tutorial/appendix-F-best-practices) - 使用国产模型节省95%
 
 </details>
@@ -206,7 +211,7 @@ openclaw gateway restart
 - **稳定版**：`v2026.9.3`
 - **推荐运行时**：`Node 26`（或 `Node 24.16+`）；**不再支持 Node 22**
 - **校验方式**：`npm view openclaw version` 应返回 `2026.9.3`
-- **完整跳变说明**：[`updates/2026-09-10-v2026.9.3.md`](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/updates/2026-09-10-v2026.9.3.md)
+- **完整跳变说明**：[`updates/2026-09-10-v2026.9.3.md`](/lib/11-personal-agents/awesome-openclaw-tutorial/updates-2026-09-10-v2026.9.3)
 
 **从 2026.6.8 跳到 2026.9.3，教学上最关键的变化**
 - **OpenClaw 2.0（2026.8.1）**：会话/转录迁入 SQLite；Control UI / onboarding 大改；升级前务必备份
@@ -291,26 +296,26 @@ openclaw --version  # 确认版本为 2026.9.3
 
 ### 第一部分：零基础入门（3章节）
 - [第1章：OpenClaw是什么？](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-01-basics-01-introduction)
-- [第2章：5分钟完成部署](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-01-basics-02-installation)
+- [第2章：5分钟完成部署](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-01-basics-02-installation/index)
 - [第3章：发送第一条消息](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-01-basics-03-quick-start)
 
 ### 第二部分：核心功能（4章节）
 - [第4章：本地文件管理](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-02-core-features-04-file-management)
 - [第5章：个人知识库](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-02-core-features-05-knowledge-management)
 - [第6章：日程管理](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-02-core-features-06-schedule-management)
-- [第7章：自动化工作流](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/docs/02-core-features/07-automation-workflow.md)
+- [第7章：自动化工作流](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-02-core-features-07-automation-workflow)
 
 ### 第三部分：进阶技能（4章节）
-- [第8章：Skills扩展](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/docs/03-advanced/08-skills-extension.md)
-- [第9章：多平台集成](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/docs/03-advanced/09-multi-platform-integration.md)
-- [第10章：API 与外部能力集成](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/docs/03-advanced/10-api-integration.md)
-- [第11章：高级配置（模型、记忆、审批与性能）](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/docs/03-advanced/11-advanced-configuration.md)
+- [第8章：Skills扩展](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-03-advanced-08-skills-extension)
+- [第9章：多平台集成](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-03-advanced-09-multi-platform-integration/index)
+- [第10章：API 与外部能力集成](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-03-advanced-10-api-integration)
+- [第11章：高级配置（模型、记忆、审批与性能）](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-03-advanced-11-advanced-configuration)
 
 ### 第四部分：实战案例（4章节）
-- [第12章：个人效率实战](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/docs/04-practical-cases/12-personal-productivity.md)
-- [第13章：高级自动化工作流](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/docs/04-practical-cases/13-advanced-automation.md)
-- [第14章：创意应用实战](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/docs/04-practical-cases/14-creative-applications.md)
-- [第15章：一人公司实战](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/docs/04-practical-cases/15-solo-entrepreneur-cases.md)
+- [第12章：个人效率实战](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-04-practical-cases-12-personal-productivity)
+- [第13章：高级自动化工作流](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-04-practical-cases-13-advanced-automation)
+- [第14章：创意应用实战](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-04-practical-cases-14-creative-applications)
+- [第15章：一人公司实战](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-04-practical-cases-15-solo-entrepreneur-cases)
 
 ---
 
@@ -336,7 +341,7 @@ openclaw --version  # 确认版本为 2026.9.3
 - [文件管理：找发票](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-02-core-features-04-file-management)
 - [知识管理：网页存档](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-02-core-features-05-knowledge-management)
 - [日程管理：截图识别](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-02-core-features-06-schedule-management)
-- [自动化：网站监控](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/docs/02-core-features/07-automation-workflow.md)
+- [自动化：网站监控](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-02-core-features-07-automation-workflow)
 
 ---
 

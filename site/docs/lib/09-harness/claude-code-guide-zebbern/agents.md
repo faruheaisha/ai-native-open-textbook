@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/zebbern/claude-code-guide"
-entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/README.md"
+entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/agents/README.md"
+sourceRel: "agents/README.md"
+rawUrl: "/raw/09-harness/claude-code-guide-zebbern/agents/README.md"
+sourceSha256: "555ebc3ef4868daf8f7099b6ea5692af3a0eeece1f0907f50c2415b4678f476b"
+pageSha256: "555ebc3ef4868daf8f7099b6ea5692af3a0eeece1f0907f50c2415b4678f476b"
+contentMode: "local-full"
 zh: ""
 ---
 

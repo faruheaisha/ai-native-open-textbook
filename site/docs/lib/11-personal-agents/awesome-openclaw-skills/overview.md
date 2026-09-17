@@ -9,6 +9,11 @@ tier: 3
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/VoltAgent/awesome-openclaw-skills"
 entryUrl: "https://github.com/VoltAgent/awesome-openclaw-skills/blob/37ad08c1b8e243d5f501c6fcaf7ac0b507bd83a1/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-skills/README.md"
+sourceSha256: "39a5978370e521a9fa02784d7e9a48906e2c1e3efdae506dec11a5512a59c013"
+pageSha256: "39a5978370e521a9fa02784d7e9a48906e2c1e3efdae506dec11a5512a59c013"
+contentMode: "local-full"
 zh: ""
 ---
 

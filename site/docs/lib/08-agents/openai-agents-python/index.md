@@ -10,6 +10,8 @@ lang: "英文"
 volume: "08-agents"
 sourceUrl: "https://github.com/openai/openai-agents-python"
 entryUrl: "https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/README.md"
+sourceRel: ""
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -19,19 +21,314 @@ The OpenAI Agents SDK is a lightweight yet powerful framework for building multi
 
 ## 课时
 
-1. [Configuration](docs-config.md)
-2. [Context management](docs-context.md)
-3. [Examples](docs-examples.md)
-4. [Guardrails](docs-guardrails.md)
-5. [Handoffs](docs-handoffs.md)
-6. [Human-in-the-loop](docs-human_in_the_loop.md)
-7. [OpenAI Agents SDK](docs.md)
-8. [Model context protocol (MCP)](docs-mcp.md)
-9. [Models](docs-models.md)
-10. [Agent orchestration](docs-multi_agent.md)
-11. [Quickstart](docs-quickstart.md)
-12. [Realtime agents guide](docs-realtime-guide.md)
-13. [Quickstart](docs-realtime-quickstart.md)
-14. [Realtime transport](docs-realtime-transport.md)
+- [介绍](/lib/08-agents/openai-agents-python/docs-zh.md)
+- [快速开始](/lib/08-agents/openai-agents-python/docs-zh-quickstart.md)
+- [config](/lib/08-agents/openai-agents-python/docs-zh-config.md)
+- **文档**
+  - [agents](/lib/08-agents/openai-agents-python/docs-zh-agents.md)
+  - **沙盒智能体**
+    - [快速入门](/lib/08-agents/openai-agents-python/docs-zh-sandbox_agents.md)
+    - [概念](/lib/08-agents/openai-agents-python/docs-zh-sandbox-guide.md)
+    - [沙箱客户端](/lib/08-agents/openai-agents-python/docs-zh-sandbox-clients.md)
+    - [智能体记忆](/lib/08-agents/openai-agents-python/docs-zh-sandbox-memory.md)
+  - **实时智能体**
+    - [quickstart](/lib/08-agents/openai-agents-python/docs-zh-realtime-quickstart.md)
+    - [guide](/lib/08-agents/openai-agents-python/docs-zh-realtime-guide.md)
+  - **语音智能体**
+    - [quickstart](/lib/08-agents/openai-agents-python/docs-zh-voice-quickstart.md)
+    - [pipeline](/lib/08-agents/openai-agents-python/docs-zh-voice-pipeline.md)
+    - [tracing](/lib/08-agents/openai-agents-python/docs-zh-voice-tracing.md)
+  - [模型](/lib/08-agents/openai-agents-python/docs-zh-models.md)
+  - [tools](/lib/08-agents/openai-agents-python/docs-zh-tools.md)
+  - [guardrails](/lib/08-agents/openai-agents-python/docs-zh-guardrails.md)
+  - [running_agents](/lib/08-agents/openai-agents-python/docs-zh-running_agents.md)
+  - [streaming](/lib/08-agents/openai-agents-python/docs-zh-streaming.md)
+  - [multi_agent](/lib/08-agents/openai-agents-python/docs-zh-multi_agent.md)
+  - [handoffs](/lib/08-agents/openai-agents-python/docs-zh-handoffs.md)
+  - [results](/lib/08-agents/openai-agents-python/docs-zh-results.md)
+  - [human_in_the_loop](/lib/08-agents/openai-agents-python/docs-zh-human_in_the_loop.md)
+  - **会话**
+    - [index](/lib/08-agents/openai-agents-python/docs-zh-sessions-2.md)
+    - [sqlalchemy_session](/lib/08-agents/openai-agents-python/docs-zh-sessions-sqlalchemy_session.md)
+    - [advanced_sqlite_session](/lib/08-agents/openai-agents-python/docs-zh-sessions-advanced_sqlite_session.md)
+    - [encrypted_session](/lib/08-agents/openai-agents-python/docs-zh-sessions-encrypted_session.md)
+  - [context](/lib/08-agents/openai-agents-python/docs-zh-context.md)
+  - [usage](/lib/08-agents/openai-agents-python/docs-zh-usage.md)
+  - [mcp](/lib/08-agents/openai-agents-python/docs-zh-mcp.md)
+  - [tracing](/lib/08-agents/openai-agents-python/docs-zh-tracing.md)
+  - [测试](/lib/08-agents/openai-agents-python/docs-zh-testing.md)
+  - [visualization](/lib/08-agents/openai-agents-python/docs-zh-visualization.md)
+  - [repl](/lib/08-agents/openai-agents-python/docs-zh-repl.md)
+  - [release](/lib/08-agents/openai-agents-python/docs-zh-release.md)
+- [Codex Execution Plans (ExecPlans)](/lib/08-agents/openai-agents-python/PLANS.md)
+- **.agents**
+  - [SDK Maintainer References](/lib/08-agents/openai-agents-python/_agents-references.md)
+    - [Agent Definition and Run Context](/lib/08-agents/openai-agents-python/_agents-references-agent-definition-and-run-context.md)
+    - [Conversation State Ownership](/lib/08-agents/openai-agents-python/_agents-references-conversation-state-ownership.md)
+    - [Function and Output Schema](/lib/08-agents/openai-agents-python/_agents-references-function-and-output-schema.md)
+    - [Local MCP Server Lifecycle](/lib/08-agents/openai-agents-python/_agents-references-local-mcp-server-lifecycle.md)
+    - [Model and Provider Boundaries](/lib/08-agents/openai-agents-python/_agents-references-model-provider-boundaries.md)
+    - [Realtime Session Lifecycle](/lib/08-agents/openai-agents-python/_agents-references-realtime-session-lifecycle.md)
+    - [Realtime Tracing Architecture](/lib/08-agents/openai-agents-python/_agents-references-realtime-tracing.md)
+    - [Run Item Lifecycle](/lib/08-agents/openai-agents-python/_agents-references-run-item-lifecycle.md)
+    - [Runner Lifecycle](/lib/08-agents/openai-agents-python/_agents-references-runner-lifecycle.md)
+    - [RunState Schema and Resume Boundary](/lib/08-agents/openai-agents-python/_agents-references-runstate-schema.md)
+    - [Sandbox Runtime Boundary](/lib/08-agents/openai-agents-python/_agents-references-sandbox-runtime-boundary.md)
+    - [Session Persistence](/lib/08-agents/openai-agents-python/_agents-references-session-persistence.md)
+    - [Tool Execution Lifecycle](/lib/08-agents/openai-agents-python/_agents-references-tool-execution-lifecycle.md)
+    - [Tool Identity and Routing](/lib/08-agents/openai-agents-python/_agents-references-tool-identity.md)
+    - [Tracing Lifecycle](/lib/08-agents/openai-agents-python/_agents-references-tracing-lifecycle.md)
+    - [Voice Pipeline Lifecycle](/lib/08-agents/openai-agents-python/_agents-references-voice-pipeline-lifecycle.md)
+  - **skills**
+    - **code-change-verification**
+      - [Code Change Verification](/lib/08-agents/openai-agents-python/_agents-skills-code-change-verification-SKILL.md)
+    - **docs-sync**
+      - [Docs Sync](/lib/08-agents/openai-agents-python/_agents-skills-docs-sync-SKILL.md)
+      - **references**
+        - [Doc Coverage Checklist](/lib/08-agents/openai-agents-python/_agents-skills-docs-sync-references-doc-coverage-checklist.md)
+    - **examples-run-analysis**
+      - [Examples Run Analysis](/lib/08-agents/openai-agents-python/_agents-skills-examples-run-analysis-SKILL.md)
+    - **final-release-review**
+      - [Final Release Review](/lib/08-agents/openai-agents-python/_agents-skills-final-release-review-SKILL.md)
+      - **references**
+        - [Release Diff Review Checklist](/lib/08-agents/openai-agents-python/_agents-skills-final-release-review-references-review-checklist.md)
+    - **implementation-final-review**
+      - [Implementation Final Review](/lib/08-agents/openai-agents-python/_agents-skills-implementation-final-review-SKILL.md)
+      - **references**
+        - [High-risk independent review](/lib/08-agents/openai-agents-python/_agents-skills-implementation-final-review-references-high-risk-review.md)
+        - [Independent Reviewer Brief](/lib/08-agents/openai-agents-python/_agents-skills-implementation-final-review-references-reviewer-brief.md)
+    - **implementation-kickoff**
+      - [Implementation Kickoff](/lib/08-agents/openai-agents-python/_agents-skills-implementation-kickoff-SKILL.md)
+    - **implementation-strategy**
+      - [Implementation Strategy](/lib/08-agents/openai-agents-python/_agents-skills-implementation-strategy-SKILL.md)
+    - **maintainer-review**
+      - [Maintainer Review](/lib/08-agents/openai-agents-python/_agents-skills-maintainer-review-SKILL.md)
+      - **references**
+        - [Maintainer Evaluation Framework](/lib/08-agents/openai-agents-python/_agents-skills-maintainer-review-references-evaluation-framework.md)
+    - **openai-knowledge**
+      - [OpenAI Knowledge](/lib/08-agents/openai-agents-python/_agents-skills-openai-knowledge-SKILL.md)
+    - **pr-draft-summary**
+      - [PR Draft Summary](/lib/08-agents/openai-agents-python/_agents-skills-pr-draft-summary-SKILL.md)
+    - **release-candidate-prep**
+      - [Release Candidate Preparation](/lib/08-agents/openai-agents-python/_agents-skills-release-candidate-prep-SKILL.md)
+    - **runtime-behavior-probe**
+      - [Runtime Behavior Probe](/lib/08-agents/openai-agents-python/_agents-skills-runtime-behavior-probe-SKILL.md)
+      - **references**
+        - [Common Error Cases](/lib/08-agents/openai-agents-python/_agents-skills-runtime-behavior-probe-references-error-cases.md)
+        - [OpenAI Runtime Patterns](/lib/08-agents/openai-agents-python/_agents-skills-runtime-behavior-probe-references-openai-runtime-patterns.md)
+        - [Reporting Format](/lib/08-agents/openai-agents-python/_agents-skills-runtime-behavior-probe-references-reporting-format.md)
+        - [Validation Matrix](/lib/08-agents/openai-agents-python/_agents-skills-runtime-behavior-probe-references-validation-matrix.md)
+    - **sensitive-logging-audit**
+      - [Sensitive Logging Audit](/lib/08-agents/openai-agents-python/_agents-skills-sensitive-logging-audit-SKILL.md)
+      - **references**
+        - [Python sensitive logging validation](/lib/08-agents/openai-agents-python/_agents-skills-sensitive-logging-audit-references-redaction-validation.md)
+    - **test-coverage-improver**
+      - [Test Coverage Improver](/lib/08-agents/openai-agents-python/_agents-skills-test-coverage-improver-SKILL.md)
+- **.github**
+  - [Publishing a release](/lib/08-agents/openai-agents-python/_github-RELEASING.md)
+  - **scripts**
+    - [Repository skill tests](/lib/08-agents/openai-agents-python/_github-scripts-repo-skill-tests.md)
+- [OpenAI Agents SDK](/lib/08-agents/openai-agents-python/docs.md)
+  - [Agents](/lib/08-agents/openai-agents-python/docs-agents.md)
+  - [Configuration](/lib/08-agents/openai-agents-python/docs-config.md)
+  - [Context management](/lib/08-agents/openai-agents-python/docs-context.md)
+  - [Examples](/lib/08-agents/openai-agents-python/docs-examples.md)
+  - [Guardrails](/lib/08-agents/openai-agents-python/docs-guardrails.md)
+  - [Handoffs](/lib/08-agents/openai-agents-python/docs-handoffs.md)
+  - [Human-in-the-loop](/lib/08-agents/openai-agents-python/docs-human_in_the_loop.md)
+  - [Model context protocol (MCP)](/lib/08-agents/openai-agents-python/docs-mcp.md)
+  - [Agent orchestration](/lib/08-agents/openai-agents-python/docs-multi_agent.md)
+  - [Quickstart](/lib/08-agents/openai-agents-python/docs-quickstart.md)
+  - [Release process/changelog](/lib/08-agents/openai-agents-python/docs-release.md)
+  - [REPL utility](/lib/08-agents/openai-agents-python/docs-repl.md)
+  - [Results](/lib/08-agents/openai-agents-python/docs-results.md)
+  - [Running agents](/lib/08-agents/openai-agents-python/docs-running_agents.md)
+  - [Quickstart](/lib/08-agents/openai-agents-python/docs-sandbox_agents.md)
+  - [Streaming](/lib/08-agents/openai-agents-python/docs-streaming.md)
+  - [Testing](/lib/08-agents/openai-agents-python/docs-testing.md)
+  - [Tools](/lib/08-agents/openai-agents-python/docs-tools.md)
+  - [Tracing](/lib/08-agents/openai-agents-python/docs-tracing.md)
+  - [Usage](/lib/08-agents/openai-agents-python/docs-usage.md)
+  - [Agent visualization](/lib/08-agents/openai-agents-python/docs-visualization.md)
+  - [Models](/lib/08-agents/openai-agents-python/docs-models.md)
+    - [LiteLLM](/lib/08-agents/openai-agents-python/docs-models-litellm.md)
+  - **realtime**
+    - [Realtime agents guide](/lib/08-agents/openai-agents-python/docs-realtime-guide.md)
+    - [Quickstart](/lib/08-agents/openai-agents-python/docs-realtime-quickstart.md)
+    - [Realtime transport](/lib/08-agents/openai-agents-python/docs-realtime-transport.md)
+  - [Agents module](/lib/08-agents/openai-agents-python/docs-ref.md)
+    - [Memory](/lib/08-agents/openai-agents-python/docs-ref-memory.md)
+    - [Sandbox](/lib/08-agents/openai-agents-python/docs-ref-sandbox.md)
+    - **extensions**
+      - [Handoff prompt](/lib/08-agents/openai-agents-python/docs-ref-extensions-handoff_prompt.md)
+      - [LiteLLM Models](/lib/08-agents/openai-agents-python/docs-ref-extensions-litellm.md)
+      - **experimental**
+        - **codex**
+          - [Codex Options](/lib/08-agents/openai-agents-python/docs-ref-extensions-experimental-codex-codex_options.md)
+          - [Output Schema File](/lib/08-agents/openai-agents-python/docs-ref-extensions-experimental-codex-output_schema_file.md)
+          - [Thread Options](/lib/08-agents/openai-agents-python/docs-ref-extensions-experimental-codex-thread_options.md)
+          - [Turn Options](/lib/08-agents/openai-agents-python/docs-ref-extensions-experimental-codex-turn_options.md)
+        - **hosted_multi_agent**
+          - [Model](/lib/08-agents/openai-agents-python/docs-ref-extensions-experimental-hosted_multi_agent-model.md)
+      - **memory**
+        - [AdvancedSQLiteSession](/lib/08-agents/openai-agents-python/docs-ref-extensions-memory-advanced_sqlite_session.md)
+        - [Async Sqlite Session](/lib/08-agents/openai-agents-python/docs-ref-extensions-memory-async_sqlite_session.md)
+        - [DaprSession](/lib/08-agents/openai-agents-python/docs-ref-extensions-memory-dapr_session.md)
+        - [EncryptedSession](/lib/08-agents/openai-agents-python/docs-ref-extensions-memory-encrypt_session.md)
+        - [MongoDBSession](/lib/08-agents/openai-agents-python/docs-ref-extensions-memory-mongodb_session.md)
+        - [RedisSession](/lib/08-agents/openai-agents-python/docs-ref-extensions-memory-redis_session.md)
+        - [SQLAlchemySession](/lib/08-agents/openai-agents-python/docs-ref-extensions-memory-sqlalchemy_session.md)
+    - **memory**
+      - [OpenAI Conversations Session](/lib/08-agents/openai-agents-python/docs-ref-memory-openai_conversations_session.md)
+      - [OpenAI Responses Compaction Session](/lib/08-agents/openai-agents-python/docs-ref-memory-openai_responses_compaction_session.md)
+    - **models**
+      - [OpenAI Agent Registration](/lib/08-agents/openai-agents-python/docs-ref-models-openai_agent_registration.md)
+      - [OpenAI Chat Completions model](/lib/08-agents/openai-agents-python/docs-ref-models-openai_chatcompletions.md)
+      - [Reasoning Content Replay](/lib/08-agents/openai-agents-python/docs-ref-models-reasoning_content_replay.md)
+    - **realtime**
+      - [Realtime Configuration](/lib/08-agents/openai-agents-python/docs-ref-realtime-config.md)
+      - [Realtime Events](/lib/08-agents/openai-agents-python/docs-ref-realtime-events.md)
+    - **run_internal**
+      - [Model Provider Lifecycle](/lib/08-agents/openai-agents-python/docs-ref-run_internal-model_provider_lifecycle.md)
+    - **sandbox**
+      - [Workspace entries](/lib/08-agents/openai-agents-python/docs-ref-sandbox-entries.md)
+      - [Manifest](/lib/08-agents/openai-agents-python/docs-ref-sandbox-manifest.md)
+      - [Permissions](/lib/08-agents/openai-agents-python/docs-ref-sandbox-permissions.md)
+      - [Runtime Agent Preparation](/lib/08-agents/openai-agents-python/docs-ref-sandbox-runtime_agent_preparation.md)
+      - [SandboxAgent](/lib/08-agents/openai-agents-python/docs-ref-sandbox-sandbox_agent.md)
+      - [SnapshotSpec](/lib/08-agents/openai-agents-python/docs-ref-sandbox-snapshot.md)
+      - **capabilities**
+        - [Capabilities](/lib/08-agents/openai-agents-python/docs-ref-sandbox-capabilities-capabilities.md)
+        - [Capability](/lib/08-agents/openai-agents-python/docs-ref-sandbox-capabilities-capability.md)
+        - [Compaction](/lib/08-agents/openai-agents-python/docs-ref-sandbox-capabilities-compaction.md)
+        - [Filesystem](/lib/08-agents/openai-agents-python/docs-ref-sandbox-capabilities-filesystem.md)
+        - [Memory](/lib/08-agents/openai-agents-python/docs-ref-sandbox-capabilities-memory.md)
+        - [Shell](/lib/08-agents/openai-agents-python/docs-ref-sandbox-capabilities-shell.md)
+        - [Skills](/lib/08-agents/openai-agents-python/docs-ref-sandbox-capabilities-skills.md)
+        - **tools**
+          - [Apply Patch Tool](/lib/08-agents/openai-agents-python/docs-ref-sandbox-capabilities-tools-apply_patch_tool.md)
+      - **sandboxes**
+        - [Docker sandbox](/lib/08-agents/openai-agents-python/docs-ref-sandbox-sandboxes-docker.md)
+        - [Unix local sandbox](/lib/08-agents/openai-agents-python/docs-ref-sandbox-sandboxes-unix_local.md)
+      - **session**
+        - [Base Sandbox Session](/lib/08-agents/openai-agents-python/docs-ref-sandbox-session-base_sandbox_session.md)
+        - [Manifest Application](/lib/08-agents/openai-agents-python/docs-ref-sandbox-session-manifest_application.md)
+        - [Sandbox clients](/lib/08-agents/openai-agents-python/docs-ref-sandbox-session-sandbox_client.md)
+        - [SandboxSessionState](/lib/08-agents/openai-agents-python/docs-ref-sandbox-session-sandbox_session_state.md)
+        - [SandboxSession](/lib/08-agents/openai-agents-python/docs-ref-sandbox-session-sandbox_session.md)
+    - **voice**
+      - **models**
+        - [OpenAI Model Provider](/lib/08-agents/openai-agents-python/docs-ref-voice-models-openai_model_provider.md)
+        - [OpenAIVoiceModelProvider](/lib/08-agents/openai-agents-python/docs-ref-voice-models-openai_provider.md)
+  - **sandbox**
+    - [Sandbox clients](/lib/08-agents/openai-agents-python/docs-sandbox-clients.md)
+    - [Concepts](/lib/08-agents/openai-agents-python/docs-sandbox-guide.md)
+    - [Agent memory](/lib/08-agents/openai-agents-python/docs-sandbox-memory.md)
+  - [Sessions](/lib/08-agents/openai-agents-python/docs-sessions.md)
+    - [Advanced SQLite sessions](/lib/08-agents/openai-agents-python/docs-sessions-advanced_sqlite_session.md)
+    - [Encrypted sessions](/lib/08-agents/openai-agents-python/docs-sessions-encrypted_session.md)
+    - [SQLAlchemy sessions](/lib/08-agents/openai-agents-python/docs-sessions-sqlalchemy_session.md)
+  - **voice**
+    - [Pipelines and workflows](/lib/08-agents/openai-agents-python/docs-voice-pipeline.md)
+    - [Quickstart](/lib/08-agents/openai-agents-python/docs-voice-quickstart.md)
+    - [Tracing](/lib/08-agents/openai-agents-python/docs-voice-tracing.md)
+  - **zh**
+    - [代码示例](/lib/08-agents/openai-agents-python/docs-zh-examples.md)
+    - [会话](/lib/08-agents/openai-agents-python/docs-zh-sessions.md)
+    - **models**
+      - [LiteLLM](/lib/08-agents/openai-agents-python/docs-zh-models-litellm.md)
+    - **realtime**
+      - [实时传输](/lib/08-agents/openai-agents-python/docs-zh-realtime-transport.md)
+- [Running the example suite](/lib/08-agents/openai-agents-python/examples.md)
+  - [Common agentic patterns](/lib/08-agents/openai-agents-python/examples-agent_patterns.md)
+  - [Financial Research Agent Example](/lib/08-agents/openai-agents-python/examples-financial_research_agent.md)
+  - **mcp**
+    - [MCP Filesystem Example](/lib/08-agents/openai-agents-python/examples-mcp-filesystem_example.md)
+    - [MCP getallmcptools Example](/lib/08-agents/openai-agents-python/examples-mcp-get_all_mcp_tools_example.md)
+    - [MCP Git Example](/lib/08-agents/openai-agents-python/examples-mcp-git_example.md)
+    - [MCP Manager Example (FastAPI)](/lib/08-agents/openai-agents-python/examples-mcp-manager_example.md)
+    - [MCP Prompt Server Example](/lib/08-agents/openai-agents-python/examples-mcp-prompt_server.md)
+    - [MCP SSE Example](/lib/08-agents/openai-agents-python/examples-mcp-sse_example.md)
+    - [MCP SSE Remote Example](/lib/08-agents/openai-agents-python/examples-mcp-sse_remote_example.md)
+    - [MCP Streamable HTTP Remote Example](/lib/08-agents/openai-agents-python/examples-mcp-streamable_http_remote_example.md)
+    - [Custom HTTP Client Factory Example](/lib/08-agents/openai-agents-python/examples-mcp-streamablehttp_custom_client_example.md)
+    - [MCP Streamable HTTP Example](/lib/08-agents/openai-agents-python/examples-mcp-streamablehttp_example.md)
+    - [MCP Tool Filter Example](/lib/08-agents/openai-agents-python/examples-mcp-tool_filter_example.md)
+  - [Model provider examples](/lib/08-agents/openai-agents-python/examples-model_providers.md)
+  - **realtime**
+    - [Realtime Demo App](/lib/08-agents/openai-agents-python/examples-realtime-app.md)
+    - [Twilio SIP Realtime Example](/lib/08-agents/openai-agents-python/examples-realtime-twilio_sip.md)
+    - [Realtime Twilio Integration](/lib/08-agents/openai-agents-python/examples-realtime-twilio.md)
+  - [Research bot](/lib/08-agents/openai-agents-python/examples-research_bot.md)
+    - **sample_outputs**
+      - [Comprehensive Guide on Best Surfboards for Beginners: Transitioning, Features, and Budget Options](/lib/08-agents/openai-agents-python/examples-research_bot-sample_outputs-product_recs.md)
+      - [OpenAI Agents SDK（Python）](/lib/08-agents/openai-agents-python/examples-research_bot-sample_outputs-vacation.md)
+  - [Sandbox examples](/lib/08-agents/openai-agents-python/examples-sandbox.md)
+    - **文档**
+      - [Credit Note Example Repo](/lib/08-agents/openai-agents-python/examples-sandbox-docs-repo.md)
+        - [Task](/lib/08-agents/openai-agents-python/examples-sandbox-docs-repo-task.md)
+      - **skills**
+        - **credit-note-fixer**
+          - [Credit Note Fixer](/lib/08-agents/openai-agents-python/examples-sandbox-docs-skills-credit-note-fixer-SKILL.md)
+    - [Cloud Sandbox Extension Examples](/lib/08-agents/openai-agents-python/examples-sandbox-extensions.md)
+      - **daytona**
+        - [NASA Spending Text-to-SQL Agent](/lib/08-agents/openai-agents-python/examples-sandbox-extensions-daytona-usaspending_text2sql.md)
+          - **schema**
+            - [USAspending Glossary](/lib/08-agents/openai-agents-python/examples-sandbox-extensions-daytona-usaspending_text2sql-schema-glossary.md)
+            - [OpenAI Agents SDK（Python）](/lib/08-agents/openai-agents-python/examples-sandbox-extensions-daytona-usaspending_text2sql-schema-overview.md)
+            - **tables**
+              - [spending](/lib/08-agents/openai-agents-python/examples-sandbox-extensions-daytona-usaspending_text2sql-schema-tables-spending.md)
+      - [Temporal Sandbox Agent](/lib/08-agents/openai-agents-python/examples-sandbox-extensions-temporal.md)
+    - [Healthcare support](/lib/08-agents/openai-agents-python/examples-sandbox-healthcare_support.md)
+      - **policies**
+        - [Auth Review Queue Routing](/lib/08-agents/openai-agents-python/examples-sandbox-healthcare_support-policies-auth_review_queue_routing.md)
+        - [Billing After Consult FAQ](/lib/08-agents/openai-agents-python/examples-sandbox-healthcare_support-policies-billing_after_consult_faq.md)
+        - [Blue Cross Benefits Reference](/lib/08-agents/openai-agents-python/examples-sandbox-healthcare_support-policies-blue_cross_benefits_reference.md)
+        - [Blue Cross PPO Prior Authorization](/lib/08-agents/openai-agents-python/examples-sandbox-healthcare_support-policies-blue_cross_ppo_prior_auth.md)
+        - [Blue Cross Referral Rules](/lib/08-agents/openai-agents-python/examples-sandbox-healthcare_support-policies-blue_cross_referral_rules.md)
+        - [Commercial Eligibility Checklist](/lib/08-agents/openai-agents-python/examples-sandbox-healthcare_support-policies-commercial_eligibility_checklist.md)
+        - [Human Escalation Policy](/lib/08-agents/openai-agents-python/examples-sandbox-healthcare_support-policies-human_escalation_policy.md)
+        - [Knee Surgery Medical Necessity](/lib/08-agents/openai-agents-python/examples-sandbox-healthcare_support-policies-knee_surgery_medical_necessity.md)
+        - [Orthopedic Imaging Policy](/lib/08-agents/openai-agents-python/examples-sandbox-healthcare_support-policies-orthopedic_imaging_policy.md)
+        - [Outbound Fax Packet Requirements](/lib/08-agents/openai-agents-python/examples-sandbox-healthcare_support-policies-outbound_fax_packet_requirements.md)
+        - [Patient Messaging Guidelines](/lib/08-agents/openai-agents-python/examples-sandbox-healthcare_support-policies-patient_messaging_guidelines.md)
+        - [Referral Pending SOP](/lib/08-agents/openai-agents-python/examples-sandbox-healthcare_support-policies-referral_pending_sop.md)
+        - [Scheduling Hold Policy](/lib/08-agents/openai-agents-python/examples-sandbox-healthcare_support-policies-scheduling_hold_policy.md)
+      - **skills**
+        - **prior-auth-packet-builder**
+          - [Prior Auth Packet Builder](/lib/08-agents/openai-agents-python/examples-sandbox-healthcare_support-skills-prior-auth-packet-builder-SKILL.md)
+    - **tutorials**
+      - [Dataroom metric extract](/lib/08-agents/openai-agents-python/examples-sandbox-tutorials-dataroom_metric_extract.md)
+      - [Dataroom Q&A](/lib/08-agents/openai-agents-python/examples-sandbox-tutorials-dataroom_qa.md)
+      - [Repo code review](/lib/08-agents/openai-agents-python/examples-sandbox-tutorials-repo_code_review.md)
+      - [Sandbox resume](/lib/08-agents/openai-agents-python/examples-sandbox-tutorials-sandbox_resume.md)
+      - [Vision UI reproduction](/lib/08-agents/openai-agents-python/examples-sandbox-tutorials-vision_website_clone.md)
+        - **skills**
+          - **playwright**
+            - [Playwright](/lib/08-agents/openai-agents-python/examples-sandbox-tutorials-vision_website_clone-skills-playwright-SKILL.md)
+  - **tools**
+    - **skills**
+      - **csv-workbench**
+        - [CSV Playbook](/lib/08-agents/openai-agents-python/examples-tools-skills-csv-workbench-playbook.md)
+        - [CSV Workbench](/lib/08-agents/openai-agents-python/examples-tools-skills-csv-workbench-SKILL.md)
+  - **voice**
+    - [Streamed voice demo](/lib/08-agents/openai-agents-python/examples-voice-streamed.md)
+- [Packaged integration tests](/lib/08-agents/openai-agents-python/integration_tests.md)
+- **源码**
+  - **agents**
+    - [Realtime](/lib/08-agents/openai-agents-python/src-agents-realtime.md)
+    - **sandbox**
+      - **instructions**
+        - [How you work](/lib/08-agents/openai-agents-python/src-agents-sandbox-instructions-prompt.md)
+      - **memory**
+        - **prompts**
+          - [OpenAI Agents SDK（Python）](/lib/08-agents/openai-agents-python/src-agents-sandbox-memory-prompts-memory_consolidation_prompt.md)
+          - [OpenAI Agents SDK（Python）](/lib/08-agents/openai-agents-python/src-agents-sandbox-memory-prompts-memory_read_prompt.md)
+          - [OpenAI Agents SDK（Python）](/lib/08-agents/openai-agents-python/src-agents-sandbox-memory-prompts-rollout_extraction_prompt.md)
+          - [OpenAI Agents SDK（Python）](/lib/08-agents/openai-agents-python/src-agents-sandbox-memory-prompts-rollout_extraction_user_message.md)
+- [Tests](/lib/08-agents/openai-agents-python/tests.md)
+  - **fixtures**
+    - [RunState compatibility corpus](/lib/08-agents/openai-agents-python/tests-fixtures-run_state.md)
+  - [Realtime session test groups](/lib/08-agents/openai-agents-python/tests-realtime.md)
 
-开始学习 → [Configuration](docs-config.md)
+开始学习 → [Agent Definition and Run Context](_agents-references-agent-definition-and-run-context.md)

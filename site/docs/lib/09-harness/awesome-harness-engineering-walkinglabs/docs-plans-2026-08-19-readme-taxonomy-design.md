@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/walkinglabs/awesome-harness-engineering"
-entryUrl: "https://github.com/walkinglabs/awesome-harness-engineering/blob/cff9b006ef64c624a62cbb1ee36b0c4b2b3a67ad/README.md"
+entryUrl: "https://github.com/walkinglabs/awesome-harness-engineering/blob/cff9b006ef64c624a62cbb1ee36b0c4b2b3a67ad/docs/plans/2026-08-19-readme-taxonomy-design.md"
+sourceRel: "docs/plans/2026-08-19-readme-taxonomy-design.md"
+rawUrl: "/raw/09-harness/awesome-harness-engineering-walkinglabs/docs/plans/2026-08-19-readme-taxonomy-design.md"
+sourceSha256: "f9600bf8c9e5ad2daa4eb367dfdc7f65f26dd903869af0b9b3eda04c00695392"
+pageSha256: "f9600bf8c9e5ad2daa4eb367dfdc7f65f26dd903869af0b9b3eda04c00695392"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/rohitg00/ai-engineering-from-scratch"
-entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/README.md"
+entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/certifications/claude/lessons/03-prompting-and-task-decomposition/docs/en.md"
+sourceRel: "certifications/claude/lessons/03-prompting-and-task-decomposition/docs/en.md"
+rawUrl: "/raw/07-coding/ai-engineering-from-scratch/certifications/claude/lessons/03-prompting-and-task-decomposition/docs/en.md"
+sourceSha256: "addd310025322c230571bf49e2545722f3ae2541364423fc63e15ea38af12e7d"
+pageSha256: "addd310025322c230571bf49e2545722f3ae2541364423fc63e15ea38af12e7d"
+contentMode: "local-full"
 zh: ""
 ---
 

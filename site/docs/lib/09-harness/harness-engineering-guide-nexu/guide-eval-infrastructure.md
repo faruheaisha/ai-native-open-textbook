@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/nexu-io/harness-engineering-guide"
-entryUrl: "https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/README.md"
+entryUrl: "https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/eval-infrastructure.md"
+sourceRel: "guide/eval-infrastructure.md"
+rawUrl: "/raw/09-harness/harness-engineering-guide-nexu/guide/eval-infrastructure.md"
+sourceSha256: "3cfea07f5a0d1cfe691dfd17fc6be850afabb6fa6d5ef551b5998f0df93ad40b"
+pageSha256: "3cfea07f5a0d1cfe691dfd17fc6be850afabb6fa6d5ef551b5998f0df93ad40b"
+contentMode: "local-full"
 zh: ""
 ---
 

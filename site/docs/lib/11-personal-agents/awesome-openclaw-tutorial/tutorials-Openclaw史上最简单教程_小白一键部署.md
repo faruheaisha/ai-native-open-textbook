@@ -1,0 +1,989 @@
+---
+title: "OpenClaw史上最全最简单一键部署教程（建议收藏！）"
+sourceId: "11-personal-agents/awesome-openclaw-tutorial"
+sourceTitle: "Awesome OpenClaw Tutorial（中文）"
+sourceKind: "清单与速查"
+licenseLabel: "可转载"
+lang: "中文"
+tier: 2
+volume: "11-personal-agents"
+sourceUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial"
+entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/tutorials/Openclaw史上最简单教程，小白一键部署.md"
+sourceRel: "tutorials/Openclaw史上最简单教程，小白一键部署.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-tutorial/tutorials/Openclaw史上最简单教程，小白一键部署.md"
+sourceSha256: "7fed14610ff462826e309bd0a4147509abadda5b983f728437738063919a516e"
+pageSha256: "7fed14610ff462826e309bd0a4147509abadda5b983f728437738063919a516e"
+contentMode: "local-full"
+zh: ""
+---
+
+# OpenClaw史上最全最简单一键部署教程（建议收藏！）
+
+> **OpenClaw** 可以部署在自己的电脑上，也可以部署在各个大厂提供的平台。对**小白特别友好**，无需配置模型，无需购买服务器，甚至无需复杂的配置，只需要动动手点点就好了。不过需要购买平台对应的会员。
+>
+> 📚 **完整教程**：[Awesome OpenClaw Tutorial](https://awesome.tryopenclaw.asia/) | [GitHub 仓库](https://github.com/xianyu110/awesome-openclaw-tutorial)
+>
+
+## ✨ 快速选择指南
+
+在开始详细教程之前，先为你准备了**平台对比一览表**，帮助你快速找到最适合自己的部署方案：
+
+## 📋 平台对比一览表
+
+| 平台 | 价格 | 免费额度 | 部署时间 | 推荐指数 | 特点 |
+|------|------|----------|----------|----------|------|
+
+> 💡 **选择建议**：
+> - **完全小白**：首选 **飞书妙搭**（免费+最简单）
+> - **服务器用户**：推荐 **宝塔面板**（可视化面板管理）
+> - **企业用户**：考虑 **JVSClaw**（企业级安全+沙箱隔离）
+> - **移动端需求**：选择 **Kimi OpenClaw** 或 **WorkBuddy**
+
+---
+
+## 详细部署教程
+
+下面是各个平台的详细部署步骤和特点介绍，请根据你的需求选择合适的平台。
+
+### 🎁 核心优势（先看这个）
+
+| 优势 | 说明 |
+|------|------|
+| **完全免费** | 活动期间可**免费部署** |
+| **海量额度** | **每日免费 100 万 Tokens** |
+| **极速部署** | **1 分钟**完成 |
+| **自动集成飞书** | 不用手动配机器人 |
+| **限量开放** | 每日限量 **10 万名** |
+
+> ⏰ **限时活动**：**2026 年 3 月 31 日 24:00（北京时间）前**免费部署、每日免费 **100 万 Tokens** 额度！
+
+![](https://upload.maynor1024.live/file/1773796613888_image_16.bin)
+
+### 🚀 一键部署步骤
+
+**步骤 1：打开妙搭**
+
+- 电脑打开：https://miaoda.feishu.cn/
+- 或者手机打开飞书，搜索「**妙搭**」
+
+**步骤 2：点击创建**
+
+![image-20260318171128098](https://upload.maynor1024.live/file/1773825102861_image-20260318171128098.png)
+
+进行一键配置即可，**不到 1 分钟**就安装配置好，并且**丝滑连接飞书**。
+
+### 🧰 使用体验亮点
+
+**亮点 1：快捷指令（更不怕上下文污染）**
+
+在对话页面多了「**快捷指令**」和「**设置**」按钮。
+
+| 指令 | 用途 |
+|------|------|
+| `/new` | **新建会话**（避免上下文污染） |
+| `/stop` | **中止当前对话**（龙虾跑偏立刻刹车） |
+
+![](https://upload.maynor1024.live/file/1773796676348_image_28.bin)
+
+**亮点 2：可视化设置入口（排查/修复更方便）**
+
+点击设置会跳到妙搭的设置界面：
+
+![](https://upload.maynor1024.live/file/1773796542584_image_4.bin)
+
+你可以在妙搭里**管理/删除**刚才创建好的 OpenClaw：
+
+![](https://upload.maynor1024.live/file/1773796611375_image_17.bin)
+
+当小龙虾出问题（需要排查/修复/改配置）时，在妙搭上找到你的 🦞，点击管理：
+
+![](https://upload.maynor1024.live/file/1773796550312_image_6.bin)
+
+还可以自定义小龙虾、添加技能等：
+
+![](https://upload.maynor1024.live/file/1773796595587_image_14.bin)
+
+比如让它每次完成任务都来一句：**“已完成，老板～”**。
+
+自动创建的飞书机器人在开放平台里也能看到，整体体验非常丝滑：
+
+![](https://upload.maynor1024.live/file/1773796782224_image_46.bin)
+
+### 🎯 实战案例（更直观）
+
+**案例 1：一句话创建飞书多维表格**
+
+![](https://upload.maynor1024.live/file/1773796924964_image_71.bin)
+
+**案例 2：抖音爆款视频 → 公众号文章（自动配图+存飞书文档）**
+
+抖音视频链接直接通过技能下载：
+
+![](https://upload.maynor1024.live/file/1773796680324_image_29.bin)
+
+解析视频、截取画面、生成公众号文章、写入飞书文档，一波流操作：
+
+![](https://upload.maynor1024.live/file/1773796604495_image_15.bin)
+
+### 📚 官方教程
+
+飞书官方教程：[【飞书妙搭】全网最简单的 OpenClaw 真一键部署来了！｜限时免费，含高级玩法](https://larkcommunity.feishu.cn/wiki/LY1swuqTaiEOQ0kHXxzcoegMn4f)
+
+---
+
+## 2. 扣子 OpenClaw
+
+打开：https://www.coze.cn/
+
+注册一个账号，登录后，按照箭头选择一键部署：
+
+![](https://upload.maynor1024.live/file/1773796622145_image_19.bin)
+
+3 分钟快速部署：
+
+![](https://upload.maynor1024.live/file/1773796815565_image_51.bin)
+
+当前「OpenClaw 部署」仅面向个人高阶版、个人旗舰版、企业标准版以及企业旗舰版用户开放限时体验。
+
+![](https://upload.maynor1024.live/file/1773796720606_image_35.bin)
+
+最低可以购买高阶版，99 一个月，然后就可以体验了。
+
+![](https://upload.maynor1024.live/file/1773796580802_image_12.bin)
+
+选择模型和版本后，就能一键部署了，部署好了之后：
+
+![](https://upload.maynor1024.live/file/1773796592042_image_13.bin)
+
+如果需要配置飞书渠道，可以参考如下配置：
+
+点击配置，去创建：
+
+![](https://upload.maynor1024.live/file/1773796939834_image_72.bin)
+
+做个授权，等待个几秒钟，机器人就创建成功了，可以按照这个视频来做配置：
+
+扣子他们还搞了个 Agent 交流平台，目前已经有 13634 多个 Agent 了。
+
+![](https://upload.maynor1024.live/file/1773796681475_image_30.bin)
+
+我们也可以把自己的小龙虾注册上去，然后发帖子和别的小龙虾一起互动玩起来。
+
+注册也很简单，你可以像我一样给这个提示词：
+
+```bash
+你去这里 https://instreet.coze.site/skill.md 注册一个InStreet 账号，然后发帖说自己注册成功了！
+```
+
+![](https://upload.maynor1024.live/file/1773796664863_image_26.bin)
+
+## 3. Kimi OpenClaw
+
+打开 Kimi 官网：https://www.kimi.com/
+
+点击 Kimi Claw，简称 kimi 版小龙虾。
+
+![](https://upload.maynor1024.live/file/1773796744626_image_39.bin)
+
+当你用你粗壮的大拇指点击创建时，等待个 1 分多钟就部署好了。
+
+![](https://upload.maynor1024.live/file/1773796892476_image_64.bin)
+
+然后就可以在浏览器里面直接召唤出小龙虾。
+
+![](https://upload.maynor1024.live/file/1773796708028_image_33.bin)
+
+在右侧可以手动对自己的龙虾改名和重启，这个相当于在云端给每个人开了个沙箱环境，然后在这个独立的环境中装了个 OpenClaw。
+
+> 不过这个一键部署仅支持 Allegretto 及以上计划，大概 200，我之前买了所以就能直接创建。
+
+这里自动配置的 Kimi K2.5 Thinking 模型会自动关联 Kimi Code 会员权益额度。
+
+在使用记录这里也能看到具体的使用：
+
+![](https://upload.maynor1024.live/file/1773796872035_image_62.bin)
+
+如果已经有自己的 OpenClaw，也可以通过安装 Kimi 插件的方式实现在 Kimi 里和 OpenClaw 聊天。
+
+说实话，这个配置插件的方式只是多了一种渠道罢了，我这里就没把自己的龙虾关联过来，而是重新新建了一个。
+
+毕竟新建一个干干净净的环境，想装啥 skill 就装啥，不用担心和自己本地的龙虾配置冲突，用起来反而更省心。
+
+并且在飞书上做了集成，也就是我现在飞书上直接召唤 KimiClaw，整个配置过程，花了 3 分钟不到。
+
+然后把小龙虾拉进群聊，大家一起吹水。
+
+整个过程丝滑到有些怀疑人生，对小白来说简直太友好。
+
+当在飞书里对话时，它会先给你个回复表情，代表已收到，还挺有用的，不然每次等待回复的过程以为挂了导致会重复发送。
+
+ClawHub 是专门为小龙虾提供的 skill 仓库，这里有非常多好用的 skill。
+
+> 地址：https://clawhub.ai/
+
+![](https://upload.maynor1024.live/file/1773796639309_image_21.bin)
+
+在 KimiClaw 里，从 ClawHub 获取技能很简单，只需要跟他说需要的需求，就能快速安装好。
+
+比如我的banana生成图片技能，下达指令后，bananapro-image-gen，快速安装，然后就可以直接使用这个技能生成精美封面图片了。
+
+![](https://upload.maynor1024.live/file/1773796547519_image_5.bin)
+
+![](https://upload.maynor1024.live/file/1773796774592_image_44.bin)
+
+除了这种方式，对于一些没有上到 ClawHub 的技能，也可以直接把 GitHub 项目地址丢给他，也能一键安装。
+
+比较有意思的是，KimiClaw 可以打开浏览器后截图发我想要的信息，比如我想看看苹果最新官网有啥新东西，于是就可以直接问他。
+
+基于此，我还发现一个比较好玩的玩法，就是你不用去装什么 API，你可以通过这种方式来监控你关注账号的最新动态。
+
+他能够去查看最新的动态通过浏览器访问截图然后分析的方式，想想我们人不也是这样？打开，查看，这是绝对安全的方式，也不需要配置 API：
+
+你可以一个定时任务，比如设置每 2 分钟就去截图一次，看看有没有更新。
+
+拿这个来监控奥特曼，据说这家伙，2 月份从 19 号之后又要搞事，频发产品。
+
+最近看 40W 推特大 V AlexFinn 的分享自己过去几周使用 OpenClaw，我觉得还挺有帮助的，他分享到自己用 OpenClaw 来构建第二大脑系统。
+
+![](https://upload.maynor1024.live/file/1773796843308_image_57.bin)
+
+因为 OpenClaw 能保存记忆，完全可以把你的所有思考，所有想做的事情，都给 OpenClaw，当你真正想要应用的时候，你只需要问 OpenClaw，就能拿到结果。
+
+比如当我在飞书中下达这个指令，它会帮我自动开发好这套系统。
+
+```bash
+我想构建一个第二大脑系统,可以查看我们所有的笔记、对话和记忆。请用Next.js构建出来，请直接给我应用。
+```
+
+![](https://upload.maynor1024.live/file/1773796549873_image_7.bin)
+
+接下来，我只需要把我的所思所遇所想通通丢给 KimiClaw：
+
+```bash
+今天看到一句话，帮我记下： 挣钱，靠手脚，拼的是眼力和体力，勤奋最重要。 赚钱，靠资本，拼的是脑力和心力，认知最重要。
+```
+
+打开看看这个由 K 2.5 生成的页面。
+
+![](https://upload.maynor1024.live/file/1773796625125_image_18.bin)
+
+稍微观察下就能发现，它把我和它的任务记录也都记录出来了，以后有什么，直接丢给它，做第二大脑太舒服。
+
+下面介绍下接入飞书机器人步骤，非常简单，直接在 KimiClaw 里面提问说怎么接入飞书，它会一步步教你。
+
+**第一步，创建飞书机器人**
+
+访问飞书开放平台：[https://open.feishu.cn/app，点击创建应用：](https://open.feishu.cn/app%EF%BC%8C%E7%82%B9%E5%87%BB%E5%88%9B%E5%BB%BA%E5%BA%94%E7%94%A8%EF%BC%9A)
+
+![](https://upload.maynor1024.live/file/1773796802721_image_50.bin)
+
+填写应用名称和描述后就直接创建：
+
+![](https://upload.maynor1024.live/file/1773796906426_image_67.bin)
+
+点击添加应用能力，添加机器人。
+
+![](https://upload.maynor1024.live/file/1773796719694_image_34.bin)
+
+**第二步，配置权限**
+
+需要至少开通以下的权限：
+
+![](https://upload.maynor1024.live/file/1773796757221_image_42.bin)
+
+可以在权限管理-开通权限这里选择需要的权限手动开通：
+
+![](https://upload.maynor1024.live/file/1773796799882_image_49.bin)
+
+也可以直接导入以下权限配置即可：
+
+```json
+{
+  "scopes": {
+    "tenant": [
+      "aily:file:read",
+      "aily:file:write",
+      "application:application.app_message_stats.overview:readonly",
+      "application:application:self_manage",
+      "application:bot.menu:write",
+      "contact:user.employee_id:readonly",
+      "corehr:file:download",
+      "event:ip_list",
+      "im:chat.access_event.bot_p2p_chat:read",
+      "im:chat.members:bot_access",
+      "im:message",
+      "im:message.group_at_msg:readonly",
+      "im:message.p2p_msg:readonly",
+      "im:message:readonly",
+      "im:message:send_as_bot",
+      "im:message.reactions:read",
+      "im:resource"
+    ],
+    "user": ["aily:file:read", "aily:file:write", "im:chat.access_event.bot_p2p_chat:read"]
+  }
+}
+```
+
+![](https://upload.maynor1024.live/file/1773796560726_image_8.bin)
+
+**第三步，找到 App ID 和 App Secret**
+
+在凭证与基础信息中找到 App ID 和 App Secret，这个在飞书配置的时候会需要。
+
+![](https://upload.maynor1024.live/file/1773796864723_image_61.bin)
+
+然后把 App ID 和 App Secret 发给 KimiClaw
+
+**第四步，事件与回调**
+
+在 KimiClaw 重启后，在飞书配置页点「事件与回调」，使用 **长连接** 接收事件，点击【保存】。保存后添加事件：im.message.receive\_v1
+
+![](https://upload.maynor1024.live/file/1773796786174_image_47.bin)
+
+待重启后，接下来就可以直接在飞书中使用了。
+
+在飞书中的 bot 和 web 里的 bot 是同一个，消息也是通的。
+
+## 4. 腾讯 WorkBuddy
+
+官网地址：https://www.codebuddy.cn/work/
+
+这是腾讯 CodeBuddy 团队开发的一款桌面端 Agent，也可以用飞书、企业微信直接连接。
+
+简单来说 WorkBuddy 是 AI 原生桌面 Agent，能自主完成很多的办公类自动化操作。像什么数据分析，做 PPT，文件管理，通通都可以完成。
+
+![](https://upload.maynor1024.live/file/1773796826079_image_54.bin)
+
+不过不同的是，WorkBuddy Claw 可以通过企业微信、飞书、钉钉、QQ等日常 IM 工具中，通过手机直接指挥 WorkBuddy 干活。
+
+![](https://upload.maynor1024.live/file/1773796518484_image_1.bin)
+
+打开 WorkBuddy，点击右上角个人按钮，选择「claw 设置」：
+
+![](https://upload.maynor1024.live/file/1773796887734_image_63.bin)
+
+选择飞书集成：
+
+![](https://upload.maynor1024.live/file/1773796915237_image_69.bin)
+
+可以看到需要这 2 个参数，下面就是需要去飞书开放后台搞到这 2 参数。
+
+![](https://upload.maynor1024.live/file/1773796649783_image_23.bin)
+
+打开飞书开放后台，选择企业自建应用，创建企业自建应用：
+
+![](https://upload.maynor1024.live/file/1773796646570_image_24.bin)
+
+飞书开放后台地址如下：
+
+```bash
+https://open.feishu.cn/app?lang=zh-CN
+```
+
+添加应用能力，选择添加一个机器人：
+
+![](https://upload.maynor1024.live/file/1773796735712_image_37.bin)
+
+然后批量导入应用权限：
+
+![](https://upload.maynor1024.live/file/1773796756206_image_40.bin)
+
+把这个权限全部复制到指定的地方就好。
+
+```json
+{
+  "scopes": {
+    "tenant": [
+      "contact:contact.base:readonly",
+      "docx:document:readonly",
+      "im:chat:read",
+      "im:chat:update",
+      "im:message.group_at_msg:readonly",
+      "im:message.p2p_msg:readonly",
+      "im:message.pins:read",
+      "im:message.pins:write_only",
+      "im:message.reactions:read",
+      "im:message.reactions:write_only",
+      "im:message:readonly",
+      "im:message:recall",
+      "im:message:send_as_bot",
+      "im:message:send_multi_users",
+      "im:message:send_sys_msg",
+      "im:message:update",
+      "im:resource",
+      "application:application:self_manage",
+      "cardkit:card:write",
+      "cardkit:card:read"
+    ],
+    "user": [
+      "contact:user.employee_id:readonly",
+      "offline_access",
+      "base:app:copy",
+      "base:field:create",
+      "base:field:delete",
+      "base:field:read",
+      "base:field:update",
+      "base:record:create",
+      "base:record:delete",
+      "base:record:retrieve",
+      "base:record:update",
+      "base:table:create",
+      "base:table:delete",
+      "base:table:read",
+      "base:table:update",
+      "base:view:read",
+      "base:view:write_only",
+      "base:app:create",
+      "base:app:update",
+      "base:app:read",
+      "board:whiteboard:node:create",
+      "board:whiteboard:node:read",
+      "calendar:calendar:read",
+      "calendar:calendar.event:create",
+      "calendar:calendar.event:delete",
+      "calendar:calendar.event:read",
+      "calendar:calendar.event:reply",
+      "calendar:calendar.event:update",
+      "calendar:calendar.free_busy:read",
+      "contact:contact.base:readonly",
+      "contact:user.base:readonly",
+      "contact:user:search",
+      "docs:document.comment:create",
+      "docs:document.comment:read",
+      "docs:document.comment:update",
+      "docs:document.media:download",
+      "docs:document:copy",
+      "docx:document:create",
+      "docx:document:readonly",
+      "docx:document:write_only",
+      "drive:drive.metadata:readonly",
+      "drive:file:download",
+      "drive:file:upload",
+      "im:chat.members:read",
+      "im:chat:read",
+      "im:message",
+      "im:message.group_msg:get_as_user",
+      "im:message.p2p_msg:get_as_user",
+      "im:message:readonly",
+      "search:docs:read",
+      "search:message",
+      "space:document:delete",
+      "space:document:move",
+      "space:document:retrieve",
+      "task:comment:read",
+      "task:comment:write",
+      "task:task:read",
+      "task:task:write",
+      "task:task:writeonly",
+      "task:tasklist:read",
+      "task:tasklist:write",
+      "wiki:node:copy",
+      "wiki:node:create",
+      "wiki:node:move",
+      "wiki:node:read",
+      "wiki:node:retrieve",
+      "wiki:space:read",
+      "wiki:space:retrieve",
+      "wiki:space:write_only"
+    ]
+  }
+}
+```
+
+![](https://upload.maynor1024.live/file/1773796851908_image_58.bin)
+
+点击下一步，确认申请开通权限。
+
+![](https://upload.maynor1024.live/file/1773796645254_image_22.bin)
+
+下面是获取应用凭证，选择「凭证与基础信息」，复制 App ID 和 App Secret：
+
+![](https://upload.maynor1024.live/file/1773796575288_image_11.bin)
+
+并填入到刚才 WorkBuddy 飞书的对应配置处。
+
+![](https://upload.maynor1024.live/file/1773796729719_image_36.bin)
+
+&#x20;点击注册后即可获得一个 Webhook 地址，复制这个地址：
+
+![](https://upload.maynor1024.live/file/1773796738256_image_38.bin)
+
+回到飞书开放平台，找到刚才新建的应用，配置「事件与回调」：
+
+![](https://upload.maynor1024.live/file/1773796667880_image_27.bin)
+
+> 这是个关键配置，需要订阅机器人长链接接收事件和卡片回调。这一步的作用是让 openclaw 在飞书内具备收发消息的能力。
+
+选择将事件发送至开发者服务器，黏贴刚才的 Webhook 地址。
+
+![](https://upload.maynor1024.live/file/1773796566171_image_10.bin)
+
+然后添加接收事件：
+
+![](https://upload.maynor1024.live/file/1773796898119_image_65.bin)
+
+搜索「接收消息」，点击立即添加：
+
+![](https://upload.maynor1024.live/file/1773796820945_image_53.bin)
+
+接下来，进行回调配置，同样是同样页面，选择「回调配置」，同样将回调发送至开发者服务器，黏贴刚才的 Webhook 地址：
+
+![](https://upload.maynor1024.live/file/1773796705994_image_32.bin)
+
+需要添加「卡片回传交互」这个回调：
+
+![](https://upload.maynor1024.live/file/1773796758122_image_41.bin)
+
+最后就直接发布一下这个应用，先点击创建一下版本：
+
+![](https://upload.maynor1024.live/file/1773796815998_image_52.bin)
+
+版本号和描述填下就可以发布了：
+
+![](https://upload.maynor1024.live/file/1773796529410_image_3.bin)
+
+在飞书中点击打开应用即可和小龙虾开始对话了。
+
+![](https://upload.maynor1024.live/file/1773796703775_image_31.bin)
+
+在飞书中开始对话，就可以看到能操控 WorkBuddy 了，而且默认的 claw 文件夹就是用户的 /WorkBuddy/Claw 文件夹。
+
+![](https://upload.maynor1024.live/file/1773796919463_image_70.bin)
+
+那可以做啥呢？比如，我在手机飞书上，让 WorkBuddy 整理一下桌面：
+
+WorkBuddy 能处理复杂任务，比如进行多个 PDF 报销发票自动识别、分类并汇总金额。
+
+其中给的指令是：
+
+```bash
+请帮我处理叫做”团建设报销”文件夹里的报销发票单，图片是付款明细
+请生成一个报销简述，包含以下信息：
+- 日期
+- 商家名称
+- 消费金额
+- 消费类别（餐饮/交通/住宿/其他）
+- 备注
+
+并按照如下示例排序：2025.12.01  深圳前海数码大厦团建聚餐 消费金额：100 元
+最后帮我汇总金额，分别按照支付的明细和发票的明细金额，如有异常，帮我特殊标注
+除了最终直接输出给我外，还要以一个excel交付
+```
+
+WorkBuddy 会自动帮忙整理好，并计算出金额，最终给一个 Excel 交付结果。
+
+我发现在 WorkBuddy 中有不少的 SKill，可一键安装。
+
+![](https://upload.maynor1024.live/file/1773796633330_image_20.bin)
+
+然后就可以上手使用，配置飞书也几乎没什么门槛，主打一个方便。
+
+你不需要购买模型了，因为 WorkBuddy 已经内置了全球顶尖的模型。
+
+![](https://upload.maynor1024.live/file/1773796527144_image_2.bin)
+
+> 我这里用的是国内版，只有国内模型，国际版现在还没上线。
+
+和 Openclaw 不同的是，安全问题还是有保证的，只会对指定的文件夹做改动。
+
+现在大家完全可以去试试，腾讯大好人，**只要是 CodeBuddy 国内版用户，无论新老，一次性赠送 5,000 Credits，这是注册即有，无门槛**。
+
+```bash
+领取地址：https://www.codebuddy.cn/profile/usage
+```
+
+领完你就可以用手机遥控 AI 干活了。
+
+## 5. 火山 ArkClaw
+
+地址：https://www.volcengine.com/
+
+![](https://upload.maynor1024.live/file/1773796780059_image_45.bin)
+
+点击「立即体验」：
+
+![](https://upload.maynor1024.live/file/1773796917078_image_68.bin)
+
+点击「立即创建」：
+
+![](https://upload.maynor1024.live/file/1773796828676_image_55.bin)
+
+等待一会会，预计 1-2 分钟
+
+![](https://upload.maynor1024.live/file/1773796760632_image_43.bin)
+
+文档完善中。。
+
+## 6. 智谱 AutoClaw
+
+**地址：https://autoglm.zhipuai.cn/autoclaw/**
+
+![](https://upload.maynor1024.live/file/1773796904961_image_66.bin)
+
+选择接入 IM：
+
+![](https://upload.maynor1024.live/file/1773796851812_image_59.bin)
+
+接入飞书机器人：
+
+![](https://upload.maynor1024.live/file/1773796563471_image_9.bin)
+
+选择自动配置，登录飞书后，就能看到他自动帮配置了：
+
+![](https://upload.maynor1024.live/file/1773796653127_image_25.bin)
+
+很快就配置好了：
+
+![](https://upload.maynor1024.live/file/1773796858089_image_60.bin)
+
+打开飞书，就能看到了。
+
+![](https://upload.maynor1024.live/file/1773796833993_image_56.bin)
+
+整个过程非常的简单丝滑。
+
+## 7. JVSClaw（阿里云无影）
+
+当所有人都在讨论OpenClaw生态有多火时，我关心的是另一件事：**这东西真的能在生产环境用吗？**
+
+## 凌晨两点的那些糟心事
+
+先说几个我亲身经历过的场景。
+
+上周二凌晨2点17分，监控报警响了。我迷迷糊糊爬起来看，发现是一个数据抓取任务卡在了登录页面——目标网站改版了验证码逻辑，我的脚本在那儿一直点，点了三个小时。
+
+还有一次更离谱。开盘前我让AI去监控某只股票的异动，结果它倒是挺积极，把所有微小的波动都当成"异常"发给我。那天早上我的手机震得像爆炸一样，等我想关掉它的时候，发现操作界面卡死了。
+
+这些事说出来都挺尴尬的，但我猜很多人遇到过。
+
+**AI智能体这东西，说起来很美好——7×24小时工作、不知疲倦、自动化处理一切。但真正用起来，你会发现有三个问题绕不开：**
+
+**配置太麻烦**。得自己准备服务器、配置节点、申请API密钥、搭建Python环境……每一步都在劝退人。
+
+**终端割裂**。云端方案处理不了本地文件，本地方案又不够稳定，手机端基本上是个摆设。
+
+**你不知道它在干嘛**。AI像个黑盒在运行，你只能等结果，等不及了想干预都无从下手。
+
+3月13号，阿里云上线了JVSClaw，我试了一下，感觉他们确实认真思考过这些问题。
+
+![图片](https://upload.maynor1024.live/file/1773799159694_image_1.bin)
+
+## 三分钟就能跑起来
+
+**我用过很多OpenClaw接入方案，JVSClaw是配置最简单的。**
+
+流程就三步：给龙虾起个名字，选个性格风格，点创建。不用配置节点，不用申请API密钥，不用绑定微信或者飞书。
+
+![图片](https://upload.maynor1024.live/file/1773799168918_image_2.bin)
+
+可能有人会说："我也体验过别的产品，都说三分钟搞定，实际上得折腾大半天。"
+
+但JVSClaw这次是真的简单。他们把所有底层细节都藏起来了，你看到的就是一个界面，点点点就行了。
+
+不过我觉得更值得关注的是后面这些事。
+
+每个实例分配6核12GB的云端资源，预装了Python和Node.js环境。这点对开发者挺友好，不用自己折腾依赖了。
+
+然后是ClawSpace——给每个用户一个独立的沙箱环境，数据做了隔离。对于量化交易这种对数据安全要求极高的场景，这个设计很重要。
+
+他们还做了端到端加密和存储加密。换句话说，即使有人物理偷走了服务器硬盘，也读不到你的数据。
+
+这些技术细节可能看起来不那么"性感"，但真要在生产环境用，缺一不可。
+
+## 会自己学习的技能库
+
+JVSClaw最让我感兴趣的是它的"万能skill"。
+
+传统AI智能体的技能是静态的：你需要什么功能，就得提前配置什么技能。技能库越大，维护起来越麻烦，但最后你常用的可能就那几个。
+
+JVSClaw的做法是，它只有三个自进化技能。当你给它的任务需要某个技能但它没有的时候，你只需要加一句话："如果没有这个技能，请搜索并创建"。
+
+![图片](https://upload.maynor1024.live/file/1773799172115_image_3.bin)
+
+然后它会自己去社区找，或者自己写一个。
+
+这个设计对量化交易场景很有用。举个例子：
+
+你要抓取某个财经网站的数据，但网站改版了。传统做法是你重新写代码，而JVSClaw的智能体可以自动识别页面变化，调整抓取策略，甚至在失败的时候自己学习新方案。
+
+![图片](https://mmbiz.qpic.cn/mmbiz_png/hBIict2nry2lkhQ4ibB9xTI1En1INwH8U9bZQJwQkUicVAC0xcvQ31F50jSRaI791tb8ubftp2FRyRfwLCGENkgw0BEQFmv698Q88OdRiaeQoJU/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=4)
+
+再比如你想让它分析一份财报，它需要先把PDF转成结构化数据。JVSClaw会自动调用PDF解析、数据清洗、Excel建模这一整套技能链，把活干完。
+
+![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/hBIict2nry2k8kL9WqZwdEIWVEY5osElvhLQevWm2DTLGfV2IK4ia5wv7pPSraEnictga2rF9jEm7ygNart12Qn5DibLnjEtPQ6HDLZp0MqH4N8/640?wx_fmt=png&from=appmsg&tp=wxpic&wxfrom=5&wx_lazy=1#imgIndex=5)
+
+![图片](https://upload.maynor1024.live/file/1773799181587_image_6.bin)
+
+某种程度上，这东西更像一个"数字同事"而不是工具。用得越久，它越懂你的工作习惯。
+
+## 你能看到它在干什么
+
+对于开发者来说，最可怕的不是AI不干活，而是你不知道它在干什么。
+
+JVSClaw的ClawSpace把AI的操作过程实时显示在屏幕上：从打开浏览器、点击按钮，到填表单、提取数据，每一步都能看到。
+
+更重要的是，当它遇到登录验证这类需要人工介入的情况时，你可以手动接管。这避免了AI卡在一个地方死循环，也避免了误操作。
+
+我试了个场景：让它监控某只股票的异动。它打开行情软件，抓取买卖盘数据，计算资金流向，检测到异常的时候通知我。
+
+![图片](https://upload.maynor1024.live/file/1773799196793_image_7.bin)
+
+整个过程我可以在手机上实时看到，发现误报还能直接调参数。
+
+![图片](https://upload.maynor1024.live/file/1773799200027_image_8.bin)
+
+这种"可控的自动化"对量化交易很重要。你不用担心AI瞎操作导致资金损失，因为每一步都在你眼皮底下。
+
+## 云端和本地都能用
+
+JVSClaw支持云端和本地两种模式。
+
+云端模式适合日常轻量办公和7×24小时监控任务，消耗低，隔离好。本地模式可以处理私有数据，满足合规要求。
+
+![图片](https://upload.maynor1024.live/file/1773799196247_image_9.bin)
+
+未来他们还会上线多bot接入功能，把本地部署的Mac Mini和其他Clawbot都整合进来。也就是说，你可以在一个通道里跟多个智能体交流。
+
+对量化交易者来说，这种灵活性意味着你可以把监控任务放在云端持续运行，敏感数据保留在本地处理，手机端随时查看进度和接收提醒。
+
+## 手机端不是摆设
+
+阿里云还推了个MobileClaw，把OpenClaw引入了Android生态。
+
+这个功能能识别和操作Android系统的各种界面元素，像人手一样点击、滑动、输入。听起来简单，但技术上挺难的。
+
+你可以用MobileClaw搭一个7×24小时的智能客服系统，自动回复客户咨询，需要的时候人工接管。对量化团队来说，可以把交易员从客户服务中解放出来。
+
+![图片](https://upload.maynor1024.live/file/1773799213023_image_10.bin)
+
+或者把那些重复性的运营工作——数据录入、报表生成、风险审核——交给它。量化私募可以降低中后台人力成本。
+
+更实际的一个场景是，你的交易策略触发信号时，MobileClaw可以自动打开交易软件下单。当然，合规上还需要人工复核，但这个场景已经不远了。
+
+最直接的好处是，你不用一直守在电脑前。通勤路上用手机看看AI在干什么，会议中查查任务进度，出差时远程调调策略。
+
+对需要快速响应市场的量化交易者来说，这种"随时随地"的体验挺值钱的。
+
+## 算笔账
+
+现在说说成本。
+
+JVSClaw目前用邀请码机制，申请通过后有14天大模型免费调用量。这个设计让个人和中小企业都能低成本试水，避免了"还没用就先付费"的心理门槛。
+
+但我觉得更重要的是，它真正降低了使用成本：
+
+**人力成本**：一个AI智能体可以替代1到2个初级分析师的工作，比如数据抓取、报表生成、初步分析。
+
+**时间成本**：传统开发一个自动化脚本需要一两周，用JVSClaw配置一个智能体只要三分钟。
+
+**机会成本**：AI可以7×24小时工作，捕捉夜间市场机会，这是人类交易员做不到的。
+
+对量化团队来说，可以用更少的人力做更多的事，把资源集中到策略研发、风险管理这些高价值环节。
+
+## 不是玩具，是工具
+
+这几个月OpenClaw生态的"养虾热"，让AI智能体从实验室走到了大众视野里。但真正决定这场变革能不能持续的，不是概念有多热，而是能不能解决生产问题。
+
+JVSClaw的推出，可能标志着**AI智能体从"极客玩具"向"生产力工具"转变**：
+
+它降低了使用门槛，不懂代码的人也能部署AI智能体。
+它提供了可视化控制，AI不再是个黑盒。
+它实现了跨终端协同，AI真正融入了工作流。
+它保障了数据安全，企业才敢在核心业务里用AI。
+
+对开发者和量化交易者来说，这也许是一个值得试试的新工具。不是因为它有多炫酷，而是因为它确实解决了工程化落地的痛点。
+
+当AI智能体从"概念"变成"工具"，从"炫技"变成"实用"，这场变革才真正开始。
+
+**产品官网**：https://jvs.wuying.aliyun.com
+
+**客户端下载**：苹果App Store和各大安卓应用商店都上架了，网页端也能直接用
+
+**福利活动**：现在注册申请，可以享受前14天大模型免费调用量
+
+## 8. 宝塔面板 OpenClaw
+
+年前我们上线了 OpenClaw 一键部署，不过那一版是基于Docker的，使用起来可能会感到存在很多的限制。
+这一次，我们在宝塔面板里上线了一版新的 **OpenClaw 插件**：**宿主机安装、面板内管理、打开即可使用。**
+
+简单来说，这次不只是把 OpenClaw 跑起来，而是把 **AI 对话、角色管理、模型管理、技能安装、消息平台接入、服务管理、WebUI** 这些常用能力，直接整合进了面板里。
+
+对于想体验 AI Agent 的用户来说，上手会直接很多；对于已经接触过 OpenClaw 的用户来说，这一版也会更接近日常可用的状态。
+
+![图片](https://upload.maynor1024.live/file/1773799216343_image_1.bin)
+
+而且插件还支持接管已经在机器部署的OpenClaw（**不支持Docker部署的版本**）如果你之前已经在服务器上自行部署过 OpenClaw，也可以直接通过插件接入到面板里统一管理。
+
+![图片](https://upload.maynor1024.live/file/1773799214017_image_2.bin)
+
+**不用再从部署开始了**
+
+以前部署 OpenClaw，哪怕使用官方脚本直接安装，也经常碰到各种网络问题，还要面对复杂的终端初始化，而这次我们做的，是把它作为面板插件直接接进来，让整个使用路径更短一些。
+
+![图片](https://upload.maynor1024.live/file/1773799220838_image_3.bin)
+
+如果搜索不到请先在软件商店右上角更新软件列表。
+
+安装完成后，在插件里就可以直接看到几个核心模块：AI 对话、角色、模型管理、技能、消息平台、服务管理。也就是说，这次我们不是只提供一个运行入口，而是把 OpenClaw 常用的几块能力，一起整理到了同一个界面里。
+
+对大家来说，变化其实很直观：少一步折腾，多一步直接开用。
+
+![图片](https://upload.maynor1024.live/file/1773799224133_image_4.bin)
+
+**打开就能直接体验**
+
+这次插件里已经直接集成了 AI 对话页。
+
+进入后可以直接发起对话，也可以切换角色、新建会话。
+页面里也给了一些示例问题，方便第一次使用时快速开始。
+
+同时，当前使用模型和额度信息也都直接展示在界面里，
+整个路径会更清晰一点：打开插件、进入对话、选择角色、直接开始使用。
+
+**让用户装完之后，真的能马上用起来。**
+
+![图片](https://upload.maynor1024.live/file/1773799231258_image_5.bin)
+
+![图片](https://upload.maynor1024.live/file/1773799231348_image_6.bin)
+
+**可以按场景拆分不同助手**
+
+这版 OpenClaw 插件里，角色不是藏在配置里的东西了，而是被单独放出来做成了可管理的模块。现在支持的操作包括：新建角色、编辑角色、查看角色列表、从角色直接进入对话
+
+![图片](https://upload.maynor1024.live/file/1773799238744_image_7.bin)
+
+从编辑页也能看到，这次角色配置不只是名称修改，而是支持围绕身份、定义、性格等内容做更细的设定。
+
+![图片](https://upload.maynor1024.live/file/1773799245290_image_8.bin)
+
+这样做的好处很直接：
+
+同一个模型，不同角色下，最终的表现和使用体验可以完全不一样。你可以把旅行规划、日程整理、通用问答这些场景拆成不同角色，后续直接切换使用，不用每次重新给 AI 设定一遍身份。
+
+对于 OpenClaw 这种 Agent 方向的产品来说，角色系统越清晰，后面的使用体验就越顺。
+
+![图片](https://upload.maynor1024.live/file/1773799252544_image_9.bin)
+
+**更换和维护会更直观**
+
+除了角色之外，这次模型管理也被单独整理出来了。
+
+在模型管理页里，可以直接看到：
+
+- 模型名称
+- 供应商
+- 默认模型标记
+- 编辑、删除等操作
+
+当前展示里默认模型为 **qwen3.5-plus**。
+这部分虽然页面看起来不复杂，但对实际使用来说很有必要。
+
+![图片](https://upload.maynor1024.live/file/1773799250901_image_10.bin)
+
+因为很多时候，模型配置如果一直停留在配置文件层面，用户理解和维护成本都会比较高。现在单独做成页面之后，至少默认模型是什么、当前在用什么、后续要不要调整，都更直观了。
+
+![图片](https://upload.maynor1024.live/file/1773799260604_image_11.bin)
+
+**技能这块，这次也一起整理进来了**
+
+如果说对话、角色、模型是基础能力，那技能就是 OpenClaw 更值得展开的一部分。这次插件里已经把技能拆成了两个部分：
+
+- 已安装
+- 技能市场
+
+![图片](https://upload.maynor1024.live/file/1773799264312_image_12.bin)
+
+而且技能市场里已经能搜到不少内容，安装路径也做得比较直接。对于想快速体验的用户来说，可以直接搜、装、开；对于想继续扩展的用户来说，也保留了通过本地目录接入技能的方式。
+
+![图片](https://upload.maynor1024.live/file/1773799268132_image_13.bin)
+
+这部分能力其实很关键。因为 OpenClaw 真正有意思的地方，不只是“能对话”，而是它可以围绕技能不断扩展边界，逐步从一个对话入口，变成一个可以做更多具体事情的 Agent 平台。
+
+![图片](https://upload.maynor1024.live/file/1773799273227_image_14.bin)
+
+**后续可以往更多场景里接**
+
+这次插件里，消息平台接入也一起做进来了。
+
+目前已经支持（如果官方支持这里没有，大家也可以去命令行执行命令开启）：
+
+- QQ
+- 飞书
+- 钉钉
+- 企业微信
+
+![图片](https://upload.maynor1024.live/file/1773799275865_image_15.bin)
+
+每个平台都提供了配置入口和启用开关。这也意味着，OpenClaw 不只是能在面板里使用，后续也可以继续往外接，进入更多实际场景。
+
+这一层能力的意义其实很明确：面板内解决的是“把 OpenClaw 用起来”，消息平台解决的是“把 OpenClaw 接出去”。
+
+对很多用户来说，这一步会直接关系到后面能不能接进团队通知、机器人推送或者日常协作场景。
+
+![图片](https://upload.maynor1024.live/file/1773799281570_image_16.bin)
+
+**运行状态、端口、日志都能直接看**
+
+既然这次是宿主机安装形态，那服务管理这一页肯定也少不了。服务运行状态、停止 / 重启、日志查看、端口修改、配置文件路径、前版本信息
+
+这部分其实也很实用。因为对于很多宝塔用户来说，最需要的不是底层细节有多复杂，而是：服务有没有正常运行、出了问题去哪看、配置在哪改。
+
+这些内容现在都直接放到了面板里，整个管理路径会简单很多，也更符合插件场景下的使用习惯。
+
+![图片](https://upload.maynor1024.live/file/1773799283904_image_17.bin)
+
+![图片](https://upload.maynor1024.live/file/1773799286704_image_18.bin)
+
+**Web UI 单独管理**
+
+## 9. 百度 OpenClaw
+
+> 📝 敬请期待...
+
+## 10. 腾讯 QClaw
+
+> 📝 敬请期待...
+
+---
+
+## 🎯 总结与建议
+
+通过本教程，你可以看到 OpenClaw 生态已经非常丰富，各个平台都有自己的独特优势：
+
+### 最佳选择指南
+
+**如果你是第一次体验**：
+- 从 **飞书妙搭** 开始，完全免费且最简单
+
+**如果你想长期使用**：
+- 服务器用户选择 **宝塔面板**，方便管理
+- 企业用户选择 **JVSClaw**，安全可靠
+
+**如果你需要移动端**：
+- **Kimi OpenClaw** 提供云端沙箱
+- **WorkBuddy** 支持手机远程控制
+
+### 常见问题
+
+**Q: 这些平台收费吗？**
+A: 大部分平台都有免费额度或试用期。飞书妙搭目前完全免费，其他平台按需付费。
+
+**Q: 需要懂技术吗？**
+A: 不需要！本教程专为小白设计，跟着步骤操作即可。
+
+**Q: 可以同时使用多个平台吗？**
+A: 可以！你可以根据不同场景选择不同的平台。
+
+---
+
+## 📚 更多资源
+
+- 📖 **官方文档**：[OpenClaw 官方文档](https://docs.tryopenclaw.asia/)
+- 💬 **社区讨论**：[OpenClaw 社区](https://github.com/xianyu110/awesome-openclaw-tutorial/discussions)
+- 🎓 **视频教程**：[B站教程合集](https://space.bilibili.com/)
+
+---
+
+**最后更新时间**：2026年3月
+
+**教程版本**：v1.0

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/ed-donner/production"
-entryUrl: "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/README.md"
+entryUrl: "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/community_contributions/Igniters_tobe_health_tech/health_app.md"
+sourceRel: "community_contributions/Igniters_tobe_health_tech/health_app.md"
+rawUrl: "/raw/08-agents/ed-donner-production/community_contributions/Igniters_tobe_health_tech/health_app.md"
+sourceSha256: "6e51f82b60dea359e0ebc43b2378c87c1aff7e743d30b7c191418276ba463eb6"
+pageSha256: "6e51f82b60dea359e0ebc43b2378c87c1aff7e743d30b7c191418276ba463eb6"
+contentMode: "local-full"
 zh: ""
 ---
 

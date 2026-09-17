@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/rohitg00/ai-engineering-from-scratch"
-entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/README.md"
+entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/certifications/claude/lessons/17-agent-sdk-sessions-subagents-and-context/docs/en.md"
+sourceRel: "certifications/claude/lessons/17-agent-sdk-sessions-subagents-and-context/docs/en.md"
+rawUrl: "/raw/07-coding/ai-engineering-from-scratch/certifications/claude/lessons/17-agent-sdk-sessions-subagents-and-context/docs/en.md"
+sourceSha256: "4d5a18f9ebb6c0b63ed4f2f18fe18fd0c7bd8c346532a03706396c8b320d3224"
+pageSha256: "4d5a18f9ebb6c0b63ed4f2f18fe18fd0c7bd8c346532a03706396c8b320d3224"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -238,7 +243,7 @@ without trusting conversation history.
 
 ## Shipped Artifact
 
-The filled [`outputs/session-recovery-packet.md`](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/certifications/claude/lessons/17-agent-sdk-sessions-subagents-and-context/outputs/session-recovery-packet.md)
+The filled [`outputs/session-recovery-packet.md`](/lib/07-coding/ai-engineering-from-scratch/certifications-claude-lessons-17-agent-sdk-sessions-subagents-and-context-outputs-session-recovery-packet)
 captures one interrupted migration with hashes, an unknown side effect, and a
 safe next action.
 

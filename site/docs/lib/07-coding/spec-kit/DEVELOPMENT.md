@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/github/spec-kit"
-entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/README.md"
+entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/DEVELOPMENT.md"
+sourceRel: "DEVELOPMENT.md"
+rawUrl: "/raw/07-coding/spec-kit/DEVELOPMENT.md"
+sourceSha256: "c9f4458b35f38e052ab305b252ef54acb7a7984b47ce42286192456ef2f62f9b"
+pageSha256: "c9f4458b35f38e052ab305b252ef54acb7a7984b47ce42286192456ef2f62f9b"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -22,9 +27,9 @@ Spec Kit is a toolkit for spec-driven development. At its core, it is a coordina
 | ---------------------------------------------------------- | ------------------------------------------------------------------------------------- |
 | [README.md](/lib/07-coding/spec-kit/overview)                                     | Primary user-facing overview of Spec Kit and its workflow.                            |
 | [DEVELOPMENT.md](/lib/07-coding/spec-kit/DEVELOPMENT)                           | This document.                                                                        |
-| [spec-driven.md](https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/spec-driven.md)                           | End-to-end explanation of the Spec-Driven Development workflow supported by Spec Kit. |
+| [spec-driven.md](/lib/07-coding/spec-kit/spec-driven)                           | End-to-end explanation of the Spec-Driven Development workflow supported by Spec Kit. |
 | [RELEASE-PROCESS.md](https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/.github/workflows/RELEASE-PROCESS.md) | Release workflow, versioning rules, and changelog generation process.                 |
-| [docs/index.md](https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/docs/index.md)                             | Entry point to the `docs/` documentation set.                                         |
+| [docs/index.md](/lib/07-coding/spec-kit/docs)                             | Entry point to the `docs/` documentation set.                                         |
 | [CONTRIBUTING.md](https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/CONTRIBUTING.md)                         | Contribution process, review expectations, testing, and required development practices. |
 
 **Main repository components:**

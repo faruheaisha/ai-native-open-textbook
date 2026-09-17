@@ -1,0 +1,393 @@
+---
+title: "Hands-On: Extending Nano Harness"
+sourceId: "10-context-memory/hf-context-course"
+sourceTitle: "The Context Course"
+sourceKind: "系统课程"
+licenseLabel: "仅引用"
+lang: "英文"
+tier: 1
+volume: "10-context-memory"
+sourceUrl: "https://github.com/huggingface/context-course"
+entryUrl: "https://github.com/huggingface/context-course/blob/0448a7ca721a63a81531e1ba94f46f897c70645b/units/en/unit6/hands-on.mdx"
+sourceRel: "units/en/unit6/hands-on.mdx"
+rawUrl: "/raw/10-context-memory/hf-context-course/units/en/unit6/hands-on.mdx"
+sourceSha256: "4f03844a8f668242d880a9c9b690e0298a3cb8c0c302e696e9f254ceac98fea7"
+pageSha256: "4f03844a8f668242d880a9c9b690e0298a3cb8c0c302e696e9f254ceac98fea7"
+contentMode: "local-full"
+zh: ""
+---
+
+# Hands-On: Extending Nano Harness
+
+This section adds two tools — `web_fetch` and `hf_search` — and runs the harness against several models.
+
+## Extension 1: Add web_fetch Tool
+
+Add to your nano_harness.py:
+
+```python
+import urllib.request
+import urllib.error
+
+def web_fetch(url, max_bytes=10000):
+    """Fetch web page content with size limit."""
+    try:
+        with urllib.request.urlopen(url, timeout=TIMEOUT_S) as response:
+            content = response.read(max_bytes + 1)
+            if len(content) > max_bytes:
+                content = content[:max_bytes] + b"\n...[truncated]"
+            return content.decode("utf-8", errors="replace")
+    except urllib.error.URLError as e:
+        return f"Error: Failed to fetch {url}: {e}"
+    except Exception as e:
+        return f"Error: {type(e).__name__}: {str(e)}"
+```
+
+A byte cap prevents loading huge responses, the `timeout` stops the request from hanging, and errors are returned as strings so the agent can react.
+
+**In system prompt:**
+```python
+SYSTEM_PROMPT = """
+...
+Tools:
+  - web_fetch(url, max_bytes=10000) → fetch webpage
+...
+"""
+```
+
+**Example usage:**
+```python
+# Agent writes:
+content = web_fetch("https://huggingface.co/")
+
+# Or with size limit:
+content = web_fetch("https://huggingface.co/", max_bytes=5000)
+```
+
+## Extension 2: Add hf_search Tool
+
+Add to nano_harness.py:
+
+```python
+def hf_search(query, resource_type="models", limit=5):
+    """Search Hugging Face Hub (requires HF_TOKEN)."""
+    if not API_KEY:
+        return "Error: HF_TOKEN not set. Can't access Hugging Face API."
+    
+    try:
+        url = f"https://huggingface.co/api/{resource_type}"
+        params = f"?search={query}&limit={limit}"
+        
+        req = urllib.request.Request(
+            url + params,
+            headers={"Authorization": f"Bearer {API_KEY}"}
+        )
+        
+        with urllib.request.urlopen(req, timeout=TIMEOUT_S) as response:
+            data = json.loads(response.read())
+            
+            # Format results
+            results = []
+            for item in data[:limit]:
+                results.append({
+                    "id": item.get("id"),
+                    "downloads": item.get("downloads", 0),
+                    "description": item.get("description", "")[:200]
+                })
+            
+            return results
+    
+    except Exception as e:
+        return f"Error: {type(e).__name__}: {str(e)}"
+```
+
+The API key stays in the environment, results are capped by `limit`, and errors are caught and returned.
+
+**In system prompt:**
+```python
+SYSTEM_PROMPT = """
+...
+Tools:
+  - hf_search(query, resource_type='models', limit=10) → search HF
+...
+"""
+```
+
+**Example usage:**
+```python
+# Agent writes:
+results = hf_search("bert", resource_type="models", limit=5)
+final_answer(results)
+```
+
+## Full Extended Example
+
+Create `nano_harness_extended.py` with all tools. This version uses the Responses API so the same loop works against the Hugging Face router and a direct OpenAI endpoint without changing the control flow.
+
+```python
+#!/usr/bin/env python3
+import io
+import json
+import os
+import re
+import subprocess
+import urllib.error
+import urllib.request
+from contextlib import redirect_stderr, redirect_stdout
+from pathlib import Path
+from openai import OpenAI
+
+# Configuration
+TASK = "Search for bert models on Hugging Face and summarize top 3."
+MODEL = os.getenv("NANO_MODEL", "zai-org/GLM-5.1")
+BASE_URL = os.getenv("OPENAI_BASE_URL", "https://router.huggingface.co/v1")
+API_KEY = os.getenv("HF_TOKEN") or os.getenv("OPENAI_API_KEY", "")
+WORKSPACE = str(Path.cwd())
+MAX_STEPS = 50
+TIMEOUT_S = 30
+MAX_CHARS = 8000
+ALLOW_WRITE = False
+ALLOW_COMMANDS = ["ls", "cat", "pwd", "echo", "head", "tail", "wc", "rg"]
+TEMPERATURE = 0.2
+
+SYSTEM_PROMPT = f"""You are a code-first agent.
+Reply with executable Python only.
+
+Tools:
+  - list_dir(path='.') → list files
+  - read_file(path, max_chars=4000) → read file
+  - write_file(path, content) → write file (only if ALLOW_WRITE=True)
+  - exec_cmd(args) → run allowed command
+  - web_fetch(url, max_bytes=10000) → fetch webpage
+  - hf_search(query, limit=5) → search HF Hub
+  
+Allowed commands: {ALLOW_COMMANDS}
+Writes enabled: {ALLOW_WRITE}
+
+When done, call final_answer(result).
+Output only Python code, no prose."""
+
+def clip(x, n=MAX_CHARS):
+    s = str(x)
+    return s[:n] + f"\n...[truncated]" if len(s) > n else s
+
+def main():
+    ws = Path(WORKSPACE).resolve()
+    done = False
+    final_result = None
+    
+    def safe_path(path):
+        p = (ws / path).resolve()
+        try:
+            p.relative_to(ws)
+        except ValueError:
+            raise ValueError(f"Path escapes workspace: {path}")
+        return p
+    
+    def list_dir(path="."):
+        p = safe_path(path)
+        return sorted(x.name + ("/" if x.is_dir() else "") for x in p.iterdir())
+    
+    def read_file(path, max_chars=4000):
+        p = safe_path(path)
+        return clip(p.read_text(errors="replace"), min(max_chars, MAX_CHARS))
+    
+    def write_file(path, content):
+        if not ALLOW_WRITE:
+            raise PermissionError("write_file disabled")
+        p = safe_path(path)
+        p.parent.mkdir(parents=True, exist_ok=True)
+        p.write_text(str(content), encoding="utf-8")
+        return f"Wrote {len(str(content))} bytes"
+    
+    def exec_cmd(args):
+        if args[0] not in ALLOW_COMMANDS:
+            raise PermissionError(f"Command {args[0]} not allowed")
+        result = subprocess.run(
+            args, capture_output=True, timeout=TIMEOUT_S, text=True
+        )
+        output_parts = []
+        if result.stdout:
+            output_parts.append(f"stdout:\n{result.stdout}")
+        if result.stderr:
+            output_parts.append(f"stderr:\n{result.stderr}")
+        output = "\n\n".join(output_parts) or f"(exit code {result.returncode} with no output)"
+        return clip(output, MAX_CHARS)
+    
+    def web_fetch(url, max_bytes=10000):
+        try:
+            with urllib.request.urlopen(url, timeout=TIMEOUT_S) as r:
+                content = r.read(max_bytes)
+                return content.decode("utf-8", errors="replace")
+        except Exception as e:
+            return f"Error: {type(e).__name__}: {str(e)}"
+    
+    def hf_search(query, resource_type="models", limit=5):
+        if not API_KEY:
+            return "Error: HF_TOKEN not set"
+        try:
+            url = f"https://huggingface.co/api/{resource_type}"
+            req = urllib.request.Request(
+                f"{url}?search={query}&limit={limit}",
+                headers={"Authorization": f"Bearer {API_KEY}"}
+            )
+            with urllib.request.urlopen(req, timeout=TIMEOUT_S) as r:
+                data = json.loads(r.read())
+                return [
+                    {
+                        "id": item.get("id"),
+                        "downloads": item.get("downloads", 0),
+                        "description": item.get("description", "")[:100]
+                    }
+                    for item in data[:limit]
+                ]
+        except Exception as e:
+            return f"Error: {str(e)}"
+    
+    def final_answer(value):
+        nonlocal done, final_result
+        done = True
+        final_result = value
+        return value
+    
+    # Initialize
+    client = OpenAI(
+        api_key=API_KEY,
+        base_url=BASE_URL
+    )
+    
+    messages = [
+        {"role": "system", "content": SYSTEM_PROMPT},
+        {"role": "user", "content": TASK}
+    ]
+    
+    # Main loop
+    for step in range(MAX_STEPS):
+        print(f"\n[Step {step + 1}]")
+        
+        # Call LLM
+        response = client.responses.create(
+            model=MODEL,
+            temperature=TEMPERATURE,
+            input=messages
+        )
+        
+        content = response.output_text
+        print(f"Model:\n{content[:300]}...")
+        
+        messages.append({"role": "assistant", "content": content})
+        
+        # Execute code
+        try:
+            code_match = re.search(r"```python\n(.*?)\n```", content, re.DOTALL)
+            if not code_match:
+                raise ValueError("No Python code block found")
+
+            stdout_buffer = io.StringIO()
+            stderr_buffer = io.StringIO()
+            
+            exec_globals = {
+                "__builtins__": {},
+                "list_dir": list_dir,
+                "read_file": read_file,
+                "write_file": write_file,
+                "exec_cmd": exec_cmd,
+                "web_fetch": web_fetch,
+                "hf_search": hf_search,
+                "final_answer": final_answer,
+                "json": json
+            }
+            
+            with redirect_stdout(stdout_buffer), redirect_stderr(stderr_buffer):
+                exec(code_match.group(1), exec_globals)
+
+            stdout_text = stdout_buffer.getvalue().strip()
+            stderr_text = stderr_buffer.getvalue().strip()
+
+            if done:
+                result = f"Final answer: {clip(final_result)}"
+            else:
+                observations = []
+                if stdout_text:
+                    observations.append(f"stdout:\n{clip(stdout_text)}")
+                if stderr_text:
+                    observations.append(f"stderr:\n{clip(stderr_text)}")
+                result = "\n\n".join(observations) or "Executed successfully (no output)"
+        except FileNotFoundError:
+            result = "Error: FileNotFoundError: File not found"
+        except PermissionError as e:
+            result = f"Error: PermissionError: {str(e)}"
+        except subprocess.TimeoutExpired:
+            result = "Error: TimeoutError: Command took too long"
+        except Exception as e:
+            result = f"Error: {type(e).__name__}: {str(e)}"
+        
+        if done:
+            print(f"✓ Task complete: {final_result}")
+            break
+        
+        messages.append({"role": "user", "content": result})
+    
+    if not done:
+        print(f"✗ Max steps reached")
+
+if __name__ == "__main__":
+    main()
+```
+
+This extended version keeps the same safety model as the base harness: `write_file` is still disabled until you flip `ALLOW_WRITE`, `exec()` runs without Python's default builtins, and each loop feeds back stdout, stderr, a final answer, or a structured error string.
+
+## Running the Harness
+
+Run it against `zai-org/GLM-5.1` on Hugging Face Inference Providers:
+
+```bash
+export HF_TOKEN="hf_..."
+export NANO_MODEL="zai-org/GLM-5.1"
+python nano_harness_extended.py
+```
+
+Inference Providers route the request to a backing provider automatically. If you want to try a different HF model, set `NANO_MODEL` to any text-generation repo that's enabled on Inference Providers — the loop and tool set stay the same.
+
+## Exercise: Extend Further
+
+Add these tools yourself:
+
+### 1. git_log Tool
+```python
+# Add "git" to ALLOW_COMMANDS first, then:
+def git_log(limit=10):
+    """Get recent git commits."""
+    return exec_cmd(["git", "log", "--oneline", f"-{limit}"])
+```
+
+### 2. json_parse Tool
+```python
+def json_parse(json_string):
+    """Parse JSON safely."""
+    try:
+        return json.loads(json_string)
+    except json.JSONDecodeError as e:
+        return f"Error: {str(e)}"
+```
+
+### 3. compute_stats Tool
+```python
+def compute_stats(numbers):
+    """Compute min, max, mean."""
+    nums = list(map(float, numbers))
+    return {
+        "min": min(nums),
+        "max": max(nums),
+        "mean": sum(nums) / len(nums),
+        "count": len(nums)
+    }
+```
+
+Add these to the harness and watch how the agent's traces change.
+
+## Key Takeaways
+
+Tools connect the agent to the world. Every tool needs size limits, timeouts, and informative error strings so the agent can adapt. The same loop runs unchanged against any model on Hugging Face Inference Providers.
+
+Next, the unit 6 quiz.

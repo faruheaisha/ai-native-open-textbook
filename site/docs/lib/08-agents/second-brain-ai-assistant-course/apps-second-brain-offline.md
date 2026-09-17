@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/decodingai-magazine/second-brain-ai-assistant-course"
-entryUrl: "https://github.com/decodingai-magazine/second-brain-ai-assistant-course/blob/17ccef571db3e4b563826dab83ecc9298a54ede1/README.md"
+entryUrl: "https://github.com/decodingai-magazine/second-brain-ai-assistant-course/blob/17ccef571db3e4b563826dab83ecc9298a54ede1/apps/second-brain-offline/README.md"
+sourceRel: "apps/second-brain-offline/README.md"
+rawUrl: "/raw/08-agents/second-brain-ai-assistant-course/apps/second-brain-offline/README.md"
+sourceSha256: "a21c0b358c66febfcb50ab47331f8f6984d1fc967edff3be72f4a458f416bf86"
+pageSha256: "a21c0b358c66febfcb50ab47331f8f6984d1fc967edff3be72f4a458f416bf86"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -431,7 +436,7 @@ In case you want to use your own Notion data, you can follow these steps to set 
    - Open your database in Notion
    - Copy the ID from the URL: 
      ```
-     https://www.notion.so/{workspace}/{database_id}?v={view_id}
+     https://www.notion.so/\{workspace\}/\{database_id\}?v=\{view_id\}
      ```
      (The database ID is the part between the workspace name and the question mark)
    - Update the `database_ids` parameter in the `configs/collect_notion_data.yaml` file with your database ID(s). Just make sure to remove ours and add only yours.

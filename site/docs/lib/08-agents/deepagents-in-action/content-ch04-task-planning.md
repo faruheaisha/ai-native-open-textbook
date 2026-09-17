@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/datawhalechina/deepagents-in-action"
-entryUrl: "https://github.com/datawhalechina/deepagents-in-action/blob/4097ff944f9ffa1bdfe2dd04f751f4416b058860/README.md"
+entryUrl: "https://github.com/datawhalechina/deepagents-in-action/blob/4097ff944f9ffa1bdfe2dd04f751f4416b058860/content/ch04-task-planning.md"
+sourceRel: "content/ch04-task-planning.md"
+rawUrl: "/raw/08-agents/deepagents-in-action/content/ch04-task-planning.md"
+sourceSha256: "6abc93d2573f9ac66fd5d546992dc4fd3b9d5d5c12325d3c44651144c2689f50"
+pageSha256: "6abc93d2573f9ac66fd5d546992dc4fd3b9d5d5c12325d3c44651144c2689f50"
+contentMode: "local-full"
 zh: ""
 ---
 

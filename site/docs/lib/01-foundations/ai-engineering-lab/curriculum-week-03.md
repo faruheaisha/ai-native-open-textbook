@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "01-foundations"
 sourceUrl: "https://github.com/zorost/AI-Engineering-Lab"
-entryUrl: "https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/README.md"
+entryUrl: "https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/curriculum/week-03/README.md"
+sourceRel: "curriculum/week-03/README.md"
+rawUrl: "/raw/01-foundations/ai-engineering-lab/curriculum/week-03/README.md"
+sourceSha256: "e8e1684f689ae968629ba9959e080b004722375b8bc3830316380e30915bd29d"
+pageSha256: "e8e1684f689ae968629ba9959e080b004722375b8bc3830316380e30915bd29d"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -34,7 +39,7 @@ Without this week, ZoroLogistics can't tell the difference between a model that 
 
 | Day | Study | Run | Ship | Time |
 |---|---|---|---|---|
-| **Mon** | Read [`reference/knowledge-base/02-ml-dl-fundamentals.md`](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/reference/knowledge-base/02-ml-dl-fundamentals.md) §1 to 7 (supervised learning, splits, metrics, baselines) | `01-eta-regression-baseline.ipynb` feature-table + split cells | Notes: metric before model | ~2 h |
+| **Mon** | Read [`reference/knowledge-base/02-ml-dl-fundamentals.md`](/lib/01-foundations/ai-engineering-lab/reference-knowledge-base-02-ml-dl-fundamentals) §1 to 7 (supervised learning, splits, metrics, baselines) | `01-eta-regression-baseline.ipynb` feature-table + split cells | Notes: metric before model | ~2 h |
 | **Tue** | Regression, MAE/RMSE, baselines | The baseline + three-regressor cells | A 4-row comparison table (baseline + 3 models) | ~2.5 h |
 | **Wed** | Time-aware split, cross-validation, feature scaling | Re-run the split; try `TimeSeriesSplit` | A fair comparison logged | ~2.5 h |
 | **Thu** | Classification, precision/recall/F1, threshold | `02-on-time-classification.ipynb` end-to-end | Confusion matrix + threshold sweep | ~2.5 h |
@@ -43,7 +48,7 @@ Without this week, ZoroLogistics can't tell the difference between a model that 
 
 ## Concepts
 
-Read [`reference/knowledge-base/02-ml-dl-fundamentals.md`](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/reference/knowledge-base/02-ml-dl-fundamentals.md) before touching a notebook, it is the precise spec for this week. The through-line is Ng's core idea restated for classical ML: **pick the metric before the model, and trust nothing without a split.** A model without a number is a demo; a number without a split is a guess.
+Read [`reference/knowledge-base/02-ml-dl-fundamentals.md`](/lib/01-foundations/ai-engineering-lab/reference-knowledge-base-02-ml-dl-fundamentals) before touching a notebook, it is the precise spec for this week. The through-line is Ng's core idea restated for classical ML: **pick the metric before the model, and trust nothing without a split.** A model without a number is a demo; a number without a split is a guess.
 
 ### 1. Supervised learning: regression vs classification
 
@@ -111,7 +116,7 @@ flowchart TD
 
 The split breaks with **shuffled cross-validation** (a future shipment in training), with a **random `train_test_split`** that ignores time, and with **leaking the scaler**: fitting `StandardScaler` on the full data before splitting lets the test set's mean and variance into training. The metric breaks when someone reports **accuracy on an imbalanced target** ("80% accurate" while missing every late shipment), or **MAE on raw transit time** without stating whether it's delay or total hours. The baseline breaks when it's *absent*, a model that "beat nothing" is unverifiable. And the whole thing breaks when the **test set is touched more than once** during threshold tuning: tune on validation, then evaluate on test exactly once, or the "honest" number becomes another overfit number.
 
-For deeper dives: the discipline file's §2 to 7 (splits, metrics, baselines) and [`reference/knowledge-base/01-ai-engineering-discipline.md`](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/reference/knowledge-base/01-ai-engineering-discipline.md) §"Building and deploying AI applications" for why evals + error analysis is the defining skill.
+For deeper dives: the discipline file's §2 to 7 (splits, metrics, baselines) and [`reference/knowledge-base/01-ai-engineering-discipline.md`](/lib/01-foundations/ai-engineering-lab/reference-knowledge-base-01-ai-engineering-discipline) §"Building and deploying AI applications" for why evals + error analysis is the defining skill.
 
 ## Notebook walkthrough
 

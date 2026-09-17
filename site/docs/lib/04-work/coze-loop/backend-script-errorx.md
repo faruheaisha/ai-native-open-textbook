@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "04-work"
 sourceUrl: "https://github.com/coze-dev/coze-loop"
-entryUrl: "https://github.com/coze-dev/coze-loop/blob/5f1e4c234fc110c1bf674e882a6fd02109e1e1e6/README.md"
+entryUrl: "https://github.com/coze-dev/coze-loop/blob/5f1e4c234fc110c1bf674e882a6fd02109e1e1e6/backend/script/errorx/README.md"
+sourceRel: "backend/script/errorx/README.md"
+rawUrl: "/raw/04-work/coze-loop/backend/script/errorx/README.md"
+sourceSha256: "ef7ef385f35e96b5737a5b62aebee4b9a8c129a426c1d66877c80ccf65acdd1a"
+pageSha256: "ef7ef385f35e96b5737a5b62aebee4b9a8c129a426c1d66877c80ccf65acdd1a"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -48,7 +53,7 @@ error_code:
   # ... other common error codes
 ```
 
-### {biz}.yaml
+### \{biz\}.yaml
 Business-specific error codes (e.g., evaluation.yaml):
 ```yaml
 error_code:
@@ -109,7 +114,7 @@ The script will:
        code: 123  # Must be unique
    ```
 
-2. Create a new {biz}.yaml file with business-specific error codes:
+2. Create a new \{biz\}.yaml file with business-specific error codes:
    ```yaml
    error_code:
      - name: YourError
@@ -127,5 +132,5 @@ The script will:
 ## Adding New Error Codes
 
 1. For common errors, add to common.yaml
-2. For business-specific errors, add to the corresponding {biz}.yaml
+2. For business-specific errors, add to the corresponding \{biz\}.yaml
 3. Run the generator to update the code

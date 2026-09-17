@@ -1,0 +1,65 @@
+---
+title: "ツール & ライブラリ"
+sourceId: "10-context-memory/prompt-engineering-guide"
+sourceTitle: "Prompt Engineering Guide"
+sourceKind: "工程手册"
+licenseLabel: "可转载"
+lang: "英文"
+tier: 2
+volume: "10-context-memory"
+sourceUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide"
+entryUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide/blob/57673726396dd94acb23bdb1e67f27c78ee85a8e/pages/tools.jp.mdx"
+sourceRel: "pages/tools.jp.mdx"
+rawUrl: "/raw/10-context-memory/prompt-engineering-guide/pages/tools.jp.mdx"
+sourceSha256: "241128dbc5c884d937d257cec462fa282a92432f75b66a0704287bce2fe6ce18"
+pageSha256: "241128dbc5c884d937d257cec462fa282a92432f75b66a0704287bce2fe6ce18"
+contentMode: "local-full"
+zh: ""
+---
+
+# ツール & ライブラリ
+
+#### (名前順にソート（アルファベット順）)
+
+- [ActionSchema](https://actionschema.com)
+- [Agenta](https://github.com/Agenta-AI/agenta)
+- [AI Test Kitchen](https://aitestkitchen.withgoogle.com)
+- [betterprompt](https://github.com/stjordanis/betterprompt)
+- [Chainlit](https://github.com/chainlit/chainlit)
+- [ClickPrompt](https://github.com/prompt-engineering/click-prompt)
+- [DreamStudio](https://beta.dreamstudio.ai)
+- [Dify](https://dify.ai/)
+- [DUST](https://dust.tt)
+- [Dyno](https://trydyno.com)
+- [EmergentMind](https://www.emergentmind.com)
+- [EveryPrompt](https://www.everyprompt.com)
+- [GPT Index](https://github.com/jerryjliu/gpt_index)
+- [GPTTools](https://gpttools.com/comparisontool)
+- [hwchase17/adversarial-prompts](https://github.com/hwchase17/adversarial-prompts)
+- [Interactive Composition Explorer](https://github.com/oughtinc/ice)
+- [Knit](https://promptknit.com)
+- [LangBear](https://langbear.runbear.io)
+- [LangChain](https://github.com/hwchase17/langchain)
+- [LangSmith](https://docs.smith.langchain.com)
+- [Lexica](https://lexica.art)
+- [LMFlow](https://github.com/OptimalScale/LMFlow)
+- [loom](https://github.com/socketteer/loom)
+- [Metaprompt](https://metaprompt.vercel.app/?task=gpt)
+- [OpenAI Playground](https://beta.openai.com/playground)
+- [OpenICL](https://github.com/Shark-NLP/OpenICL)
+- [OpenPrompt](https://github.com/thunlp/OpenPrompt)
+- [OpenPlayground](https://nat.dev/)
+- [Playground](https://playgroundai.com)
+- [Prodia](https://app.prodia.com/#/)
+- [Prompt Base](https://promptbase.com)
+- [Prompt Engine](https://github.com/microsoft/prompt-engine)
+- [Prompter](https://prompter.engineer)
+- [PromptInject](https://github.com/agencyenterprise/PromptInject)
+- [Prompts.ai](https://github.com/sevazhidkov/prompts-ai)
+- [PromptPerfect](https://promptperfect.jina.ai/)
+- [Promptly](https://trypromptly.com/)
+- [PromptTools 工具](https://github.com/hegelai/prompttools)
+- [Scale SpellBook](https://scale.com/spellbook)
+- [sharegpt](https://sharegpt.com)
+- [ThoughtSource](https://github.com/OpenBioLink/ThoughtSource)
+- [Visual Prompt Builder](https://tools.saxifrage.xyz/prompt)

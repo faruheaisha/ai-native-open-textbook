@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/patchy631/ai-engineering-hub"
-entryUrl: "https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/README.md"
+entryUrl: "https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/amazon-product-analysis-server/README.md"
+sourceRel: "amazon-product-analysis-server/README.md"
+rawUrl: "/raw/10-context-memory/ai-engineering-hub/amazon-product-analysis-server/README.md"
+sourceSha256: "88b3cc0a28908e59c931fda48f5e0425eb6d65ea6a55af0409ead4830131563b"
+pageSha256: "88b3cc0a28908e59c931fda48f5e0425eb6d65ea6a55af0409ead4830131563b"
+contentMode: "local-full"
 zh: ""
 ---
 

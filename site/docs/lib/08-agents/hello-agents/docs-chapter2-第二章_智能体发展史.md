@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/datawhalechina/hello-agents"
-entryUrl: "https://github.com/datawhalechina/hello-agents/blob/4f7682ceafe573d07cd8a7d0b89908500e83227d/docs/前言.md"
+entryUrl: "https://github.com/datawhalechina/hello-agents/blob/4f7682ceafe573d07cd8a7d0b89908500e83227d/docs/chapter2/第二章%20智能体发展史.md"
+sourceRel: "docs/chapter2/第二章 智能体发展史.md"
+rawUrl: "/raw/08-agents/hello-agents/docs/chapter2/第二章 智能体发展史.md"
+sourceSha256: "778a48ab48348ace6e2fec019a67cea13b9787e1683ca4854a2104ec4559b681"
+pageSha256: "778a48ab48348ace6e2fec019a67cea13b9787e1683ca4854a2104ec4559b681"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -185,26 +190,26 @@ import re
 import random
 
 # 定义规则库:模式(正则表达式) -> 响应模板列表
-rules = {
+rules = \{
     r'I need (.*)': [
-        "Why do you need {0}?",
-        "Would it really help you to get {0}?",
-        "Are you sure you need {0}?"
+        "Why do you need \{0\}?",
+        "Would it really help you to get \{0\}?",
+        "Are you sure you need \{0\}?"
     ],
     r'Why don\'t you (.*)\?': [
-        "Do you really think I don't {0}?",
-        "Perhaps eventually I will {0}.",
-        "Do you really want me to {0}?"
+        "Do you really think I don't \{0\}?",
+        "Perhaps eventually I will \{0\}.",
+        "Do you really want me to \{0\}?"
     ],
     r'Why can\'t I (.*)\?': [
-        "Do you think you should be able to {0}?",
-        "If you could {0}, what would you do?",
-        "I don't know -- why can't you {0}?"
+        "Do you think you should be able to \{0\}?",
+        "If you could \{0\}, what would you do?",
+        "I don't know -- why can't you \{0\}?"
     ],
     r'I am (.*)': [
-        "Did you come to me because you are {0}?",
-        "How long have you been {0}?",
-        "How do you feel about being {0}?"
+        "Did you come to me because you are \{0\}?",
+        "How long have you been \{0\}?",
+        "How do you feel about being \{0\}?"
     ],
     r'.* mother .*': [
         "Tell me more about your mother.",
@@ -221,15 +226,15 @@ rules = {
         "Let's change focus a bit... Tell me about your family.",
         "Can you elaborate on that?"
     ]
-}
+\}
 
 # 定义代词转换规则
-pronoun_swap = {
+pronoun_swap = \{
     "i": "you", "you": "i", "me": "you", "my": "your",
     "am": "are", "are": "am", "was": "were", "i'd": "you would",
     "i've": "you have", "i'll": "you will", "yours": "mine",
     "mine": "yours"
-}
+\}
 
 def swap_pronouns(phrase):
     """
@@ -265,7 +270,7 @@ if __name__ == '__main__':
             print("Therapist: Goodbye. It was nice talking to you.")
             break
         response = respond(user_input)
-        print(f"Therapist: {response}")
+        print(f"Therapist: \{response\}")
         
 >>>
 Therapist: Hello! How can I help you today?

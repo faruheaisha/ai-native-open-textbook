@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/obra/superpowers"
-entryUrl: "https://github.com/obra/superpowers/blob/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/README.md"
+entryUrl: "https://github.com/obra/superpowers/blob/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/docs/superpowers/plans/2026-03-11-zero-dep-brainstorm-server.md"
+sourceRel: "docs/superpowers/plans/2026-03-11-zero-dep-brainstorm-server.md"
+rawUrl: "/raw/10-context-memory/superpowers/docs/superpowers/plans/2026-03-11-zero-dep-brainstorm-server.md"
+sourceSha256: "d1e3b19e1111cab0a113519a9d2d9e881080c5fe13c3227e6c22fa88d08dc11d"
+pageSha256: "d1e3b19e1111cab0a113519a9d2d9e881080c5fe13c3227e6c22fa88d08dc11d"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -97,7 +102,7 @@ function encodeFrame(opcode, payload) {
 
 - [ ] **Step 3: Implement decodeFrame**
 
-Client frames are always masked. Returns `{ opcode, payload, bytesConsumed }` or `null` for incomplete. Throws on unmasked frames.
+Client frames are always masked. Returns `\{ opcode, payload, bytesConsumed \}` or `null` for incomplete. Throws on unmasked frames.
 
 ```js
 function decodeFrame(buffer) {
@@ -192,15 +197,14 @@ Load `frameTemplate` and `helperInjection` at module scope so they're accessible
 const WAITING_PAGE = `<!DOCTYPE html>
 <html>
 <head><title>Brainstorm Companion</title>
-<style>body { font-family: system-ui, sans-serif; padding: 2rem; max-width: 800px; margin: 0 auto; }
-h1 { color: #333; } p { color: #666; }</style>
+
 </head>
 <body><h1>Brainstorm Companion</h1>
 <p>Waiting for Claude to push a screen...</p></body></html>`;
 
 const frameTemplate = fs.readFileSync(path.join(__dirname, 'frame-template.html'), 'utf-8');
 const helperScript = fs.readFileSync(path.join(__dirname, 'helper.js'), 'utf-8');
-const helperInjection = '<script>\n' + helperScript + '\n</script>';
+const helperInjection = '';
 
 function isFullDocument(html) {
   const trimmed = html.trimStart().toLowerCase();

@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "04-work"
 sourceUrl: "https://github.com/tangshiyegit/agent-guide"
-entryUrl: "https://github.com/tangshiyegit/agent-guide/blob/ae8b2262e7a1e5bd0d466037c6ad9f6037b72c33/README.md"
+entryUrl: "https://github.com/tangshiyegit/agent-guide/blob/ae8b2262e7a1e5bd0d466037c6ad9f6037b72c33/src/Coze指南/AI基础知识/02.什么是大模型.md"
+sourceRel: "src/Coze指南/AI基础知识/02.什么是大模型.md"
+rawUrl: "/raw/04-work/agent-guide-office/src/Coze指南/AI基础知识/02.什么是大模型.md"
+sourceSha256: "384c96f9aa9d37f7e111ab886b1aa30b456bf0c4e3613fa7091c1b78672f1275"
+pageSha256: "384c96f9aa9d37f7e111ab886b1aa30b456bf0c4e3613fa7091c1b78672f1275"
+contentMode: "local-full"
 zh: ""
 ---
 

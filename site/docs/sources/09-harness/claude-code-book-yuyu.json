@@ -1,0 +1,18 @@
+{
+  "id": "09-harness/claude-code-book-yuyu",
+  "volume": "09-harness",
+  "local": "claude-code-book-yuyu",
+  "title": "御舆：解码 Agent Harness",
+  "kind": "工程手册",
+  "license": "未声明（无 LICENSE 文件）",
+  "licenseLabel": "仅引用",
+  "licenseNote": "不可整篇转载，站内只做导航与引用",
+  "lang": "中文",
+  "needsTranslation": false,
+  "publishable": false,
+  "repo": "lintsinghua/claude-code-book",
+  "site": null,
+  "commit": "1e2068c05ba80b85d86caae7b4c32e7478e66d09",
+  "entryUrl": "https://github.com/lintsinghua/claude-code-book/blob/1e2068c05ba80b85d86caae7b4c32e7478e66d09/00-前言.md",
+  "docs": 61
+}

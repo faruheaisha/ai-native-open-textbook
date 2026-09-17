@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/stormzhang/ai-coding-guide"
-entryUrl: "https://github.com/stormzhang/ai-coding-guide/blob/d187dbdb83fa1be051a850074eb518e30e2eb47c/README.md"
+entryUrl: "https://github.com/stormzhang/ai-coding-guide/blob/d187dbdb83fa1be051a850074eb518e30e2eb47c/claude-code/14-interface-and-shortcuts.md"
+sourceRel: "claude-code/14-interface-and-shortcuts.md"
+rawUrl: "/raw/07-coding/ai-coding-guide-stormzhang/claude-code/14-interface-and-shortcuts.md"
+sourceSha256: "f9e92f60aaf4811828a619f28b85ea8ad66c3668d2cb00c70b8ba91685c180e7"
+pageSha256: "f9e92f60aaf4811828a619f28b85ea8ad66c3668d2cb00c70b8ba91685c180e7"
+contentMode: "local-full"
 zh: ""
 ---
 

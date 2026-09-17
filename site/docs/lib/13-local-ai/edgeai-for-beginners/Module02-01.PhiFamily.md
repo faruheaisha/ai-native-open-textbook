@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "13-local-ai"
 sourceUrl: "https://github.com/microsoft/edgeai-for-beginners"
-entryUrl: "https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/README.md"
+entryUrl: "https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/Module02/01.PhiFamily.md"
+sourceRel: "Module02/01.PhiFamily.md"
+rawUrl: "/raw/13-local-ai/edgeai-for-beginners/Module02/01.PhiFamily.md"
+sourceSha256: "48557e4bd24732f782c42b3aa601a07cf09af6de5bb24ba3fac723c67f01b8fe"
+pageSha256: "48557e4bd24732f782c42b3aa601a07cf09af6de5bb24ba3fac723c67f01b8fe"
+contentMode: "local-full"
 zh: ""
 ---
 

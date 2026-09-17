@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh"
-entryUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/README.md"
+entryUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/docs/claude-code/13-Channels与计划任务完整指南.md"
+sourceRel: "docs/claude-code/13-Channels与计划任务完整指南.md"
+rawUrl: "/raw/07-coding/ai-coding-guide-zh/docs/claude-code/13-Channels与计划任务完整指南.md"
+sourceSha256: "1ef2b1ca0d15753cfacd7c93be51644d7a756a8fbdbc0792e0b0b8cd87d25b24"
+pageSha256: "1ef2b1ca0d15753cfacd7c93be51644d7a756a8fbdbc0792e0b0b8cd87d25b24"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -602,7 +607,7 @@ claude --resume
 ## 14. 下一步建议
 
 - 想跨设备继续本地会话：继续看 [Remote Control完整指南](/lib/07-coding/ai-coding-guide-zh/docs-claude-code-12-Remote-Control完整指南)
-- 想控制模型、1M 上下文和 `opusplan`：继续看 [安装指南中的模型配置章节](/lib/07-coding/ai-coding-guide-zh/docs-claude-code-01-Claude-Code完整安装指南#85部分模型配置安装后的进阶配置)
+- 想控制模型、1M 上下文和 `opusplan`：继续看 [安装指南中的模型配置章节](/lib/07-coding/ai-coding-guide-zh/docs-claude-code-01-Claude-Code完整安装指南/index#85部分模型配置安装后的进阶配置)
 
 ---
 

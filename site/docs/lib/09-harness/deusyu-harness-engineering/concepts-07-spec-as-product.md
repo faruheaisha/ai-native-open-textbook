@@ -8,13 +8,18 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/deusyu/harness-engineering"
-entryUrl: "https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/README.md"
+entryUrl: "https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/concepts/07-spec-as-product.md"
+sourceRel: "concepts/07-spec-as-product.md"
+rawUrl: "/raw/09-harness/deusyu-harness-engineering/concepts/07-spec-as-product.md"
+sourceSha256: "275286611d1e4f707918fea736c06d7849150ec0c3c2af0d3b2ae97f30cf9a95"
+pageSha256: "275286611d1e4f707918fea736c06d7849150ec0c3c2af0d3b2ae97f30cf9a95"
+contentMode: "local-full"
 zh: ""
 ---
 
 # 约束即产品（Spec as Product）
 
-> 延伸概念（不在六大核心概念编号内）。来源：OpenAI Symphony（[references/articles.md #16](/lib/09-harness/deusyu-harness-engineering/references-articles#article-16)）。它把"智能体可读性"从"内部"推到"对外发布"，同时把六大概念中的"地图而非手册"原则（[00-overview.md §2](/lib/09-harness/deusyu-harness-engineering/concepts-00-overview#map-not-manual)）推到极致——map 不再止于本仓库导航，而成为可分发给社区使用者的种子文件。
+> 延伸概念（不在六大核心概念编号内）。来源：OpenAI Symphony（[references/articles.md #16](/lib/09-harness/deusyu-harness-engineering/references-articles/index#article-16)）。它把"智能体可读性"从"内部"推到"对外发布"，同时把六大概念中的"地图而非手册"原则（[00-overview.md §2](/lib/09-harness/deusyu-harness-engineering/concepts-00-overview#map-not-manual)）推到极致——map 不再止于本仓库导航，而成为可分发给社区使用者的种子文件。
 
 ## 核心思想
 
@@ -66,15 +71,15 @@ OpenAI 的工程师让 Codex 用 Elixir、TypeScript、Go、Rust、Java、Python
 
 ### Martin Fowler — 控制论的双向延伸
 
-Fowler 的 Guides×Sensors 框架（[references/articles.md #2](/lib/09-harness/deusyu-harness-engineering/references-articles#article-2)）提供了**前馈+反馈**的二维分类。Spec as Product 是把"前馈"维度（Guides）抽出来作为可独立分发的工件——SPEC 是给智能体的最高层 Guide，WORKFLOW 是过程性 Guide。反馈维度（Sensors，CI/lint/eval）通常仍由本地实现。
+Fowler 的 Guides×Sensors 框架（[references/articles.md #2](/lib/09-harness/deusyu-harness-engineering/references-articles/index#article-2)）提供了**前馈+反馈**的二维分类。Spec as Product 是把"前馈"维度（Guides）抽出来作为可独立分发的工件——SPEC 是给智能体的最高层 Guide，WORKFLOW 是过程性 Guide。反馈维度（Sensors，CI/lint/eval）通常仍由本地实现。
 
 ### HumanLayer — AGENTS.md 杠杆的扩展
 
-HumanLayer（[references/articles.md #5](/lib/09-harness/deusyu-harness-engineering/references-articles#article-5)）的"AGENTS.md 60 行规则"是**单仓库**层面的智能体引导。Spec as Product 把这套思路推到**跨仓库**：你不只是给本地智能体写一份精炼的规则文件，而是写一份"任何智能体都能拿去复刻你这套系统"的规则文件。
+HumanLayer（[references/articles.md #5](/lib/09-harness/deusyu-harness-engineering/references-articles/index#article-5)）的"AGENTS.md 60 行规则"是**单仓库**层面的智能体引导。Spec as Product 把这套思路推到**跨仓库**：你不只是给本地智能体写一份精炼的规则文件，而是写一份"任何智能体都能拿去复刻你这套系统"的规则文件。
 
 ### Meta-Harness 论文 — 从搜索到分发
 
-Meta-Harness 论文（[references/articles.md #11](/lib/09-harness/deusyu-harness-engineering/references-articles#article-11)）讨论"如何自动搜索最优 harness 设计"。Spec as Product 是它的**社会化版本**：你不是在算法空间里搜索，而是在不同团队、不同语言、不同环境下让人/智能体各自实现一遍，社区演化筛选出更好的规范。
+Meta-Harness 论文（[references/articles.md #11](/lib/09-harness/deusyu-harness-engineering/references-articles/index#article-11)）讨论"如何自动搜索最优 harness 设计"。Spec as Product 是它的**社会化版本**：你不是在算法空间里搜索，而是在不同团队、不同语言、不同环境下让人/智能体各自实现一遍，社区演化筛选出更好的规范。
 
 ## 关键洞察
 

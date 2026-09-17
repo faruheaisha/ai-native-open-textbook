@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "04-work"
 sourceUrl: "https://github.com/coze-dev/coze-loop"
-entryUrl: "https://github.com/coze-dev/coze-loop/blob/5f1e4c234fc110c1bf674e882a6fd02109e1e1e6/README.md"
+entryUrl: "https://github.com/coze-dev/coze-loop/blob/5f1e4c234fc110c1bf674e882a6fd02109e1e1e6/frontend/config/eslint-config/README.md"
+sourceRel: "frontend/config/eslint-config/README.md"
+rawUrl: "/raw/04-work/coze-loop/frontend/config/eslint-config/README.md"
+sourceSha256: "b3226622307c5d6a41b32a72a529cd629ac1be6ea1aa20ca18323a8e005e59d6"
+pageSha256: "b3226622307c5d6a41b32a72a529cd629ac1be6ea1aa20ca18323a8e005e59d6"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/keli-wen/agentic-harness-patterns-skill"
-entryUrl: "https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/README.md"
+entryUrl: "https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/skills/agentic-harness-patterns-zh/references/memory-persistence-pattern.md"
+sourceRel: "skills/agentic-harness-patterns-zh/references/memory-persistence-pattern.md"
+rawUrl: "/raw/09-harness/agentic-harness-patterns-skill/skills/agentic-harness-patterns-zh/references/memory-persistence-pattern.md"
+sourceSha256: "db30223b442a56a70702e91384de4faa22730982de71189d4bb61944a45c2206"
+pageSha256: "db30223b442a56a70702e91384de4faa22730982de71189d4bb61944a45c2206"
+contentMode: "local-full"
 zh: ""
 ---
 

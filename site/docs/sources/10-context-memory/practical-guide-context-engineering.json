@@ -1,0 +1,18 @@
+{
+  "id": "10-context-memory/practical-guide-context-engineering",
+  "volume": "10-context-memory",
+  "local": "practical-guide-context-engineering",
+  "title": "大模型应用开发 -上下文工程与运行空间实践指南",
+  "kind": "工程手册",
+  "license": "未声明（仅 NOTICE.txt）",
+  "licenseLabel": "仅引用",
+  "licenseNote": "不可整篇转载，站内只做导航与引用",
+  "lang": "中文",
+  "needsTranslation": false,
+  "publishable": false,
+  "repo": "WakeUp-Jin/Practical-Guide-to-Context-Engineering",
+  "site": null,
+  "commit": "ec349a470e2992adc1d98899a46cb085839c0676",
+  "entryUrl": "https://github.com/WakeUp-Jin/Practical-Guide-to-Context-Engineering/blob/ec349a470e2992adc1d98899a46cb085839c0676/README.md",
+  "docs": 49
+}

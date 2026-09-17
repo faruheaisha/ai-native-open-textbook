@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/gsd-build/get-shit-done"
-entryUrl: "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/README.md"
+entryUrl: "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/agents/gsd-doc-writer.md"
+sourceRel: "agents/gsd-doc-writer.md"
+rawUrl: "/raw/10-context-memory/get-shit-done/agents/gsd-doc-writer.md"
+sourceSha256: "a33ffd493fb1238227e9e8e483656d5b84d156a118866679b6fc53d34c92f3a6"
+pageSha256: "a33ffd493fb1238227e9e8e483656d5b84d156a118866679b6fc53d34c92f3a6"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -23,7 +28,7 @@ You are spawned by `/gsd:docs-update` workflow. Each spawn receives a `<doc_assi
 - `project_context`: JSON from docs-init output (project_root, project_type, doc_tooling, etc.)
 - `existing_content`: (update/supplement/fix mode only) current file content to revise or supplement
 - `scope`: (optional) `per_package` for monorepo per-package README generation
-- `failures`: (fix mode only) array of `{line, claim, expected, actual}` objects from gsd-doc-verifier output
+- `failures`: (fix mode only) array of `\{line, claim, expected, actual\}` objects from gsd-doc-verifier output
 - `description`: (custom type only) what this doc should cover, including source directories to explore
 - `output_path`: (custom type only) where to write the file, following the project's doc directory structure
 
@@ -190,7 +195,7 @@ Fix mode must correct ONLY the lines listed in the failures array. Do not modify
   before they can use the project. Discover: `package.json` `engines` field, `.nvmrc` or `.node-version`
   file, `Dockerfile` `FROM` line (indicates runtime), `pyproject.toml` `requires-python`.
   List exact versions when discoverable; use ">=X.Y" format.
-  1. Clone command (`git clone {remote URL if detectable, else placeholder}`), 2. `cd` into project dir,
+  1. Clone command (`git clone \{remote URL if detectable, else placeholder\}`), 2. `cd` into project dir,
   3. Install command (detected from package manager). Discover: `package.json` for npm/yarn/pnpm, `Pipfile`
   or `requirements.txt` for pip, `Makefile` for custom install targets.
 - First run — The single command that produces working output (a running server, a CLI result, a passing

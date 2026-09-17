@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering"
-entryUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering/blob/8b2a55d97590363fe50c3cc6b5e833b020a4bb4c/README.md"
+entryUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering/blob/8b2a55d97590363fe50c3cc6b5e833b020a4bb4c/agents/evolve_agent/skills/nexau-evolution-guide/SKILL.md"
+sourceRel: "agents/evolve_agent/skills/nexau-evolution-guide/SKILL.md"
+rawUrl: "/raw/09-harness/agentic-harness-engineering/agents/evolve_agent/skills/nexau-evolution-guide/SKILL.md"
+sourceSha256: "b019b8d9896791d0709912f3c4e1d3eaccf6011ef0375566a01f13a1415e5a06"
+pageSha256: "b019b8d9896791d0709912f3c4e1d3eaccf6011ef0375566a01f13a1415e5a06"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -414,7 +419,7 @@ tracers:
 | `system_prompt` | str | — | ✅ Safe |
 | `llm_config` | dict | — | 🚫 Hands-off |
 | `tools` | list | `[]` | ✅ Safe |
-| `stop_tools` | set | `{}` | ✅ Safe |
+| `stop_tools` | set | `\{\}` | ✅ Safe |
 | `middlewares` | list | `None` | ✅ Safe |
 | `sub_agents` | list | `[]` | ✅ Safe |
 | `skills` | list | `[]` | ✅ Safe |

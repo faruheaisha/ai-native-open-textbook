@@ -1,0 +1,38 @@
+---
+title: "Claude Code Best Practice"
+sourceId: "09-harness/claude-code-best-practice"
+sourceTitle: "Claude Code Best Practice"
+sourceKind: "工程手册"
+licenseLabel: "可转载"
+lang: "英文"
+tier: 1
+volume: "09-harness"
+sourceUrl: "https://github.com/shanraisshan/claude-code-best-practice"
+entryUrl: "https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/videos/claude-matt-pocock-24-apr-26.md"
+sourceRel: "videos/claude-matt-pocock-24-apr-26.md"
+rawUrl: "/raw/09-harness/claude-code-best-practice/videos/claude-matt-pocock-24-apr-26.md"
+sourceSha256: "87d58effa16d07454b30f5a302a1f775665e6a4f4624e510fb1908118fe8bd94"
+pageSha256: "a7703ea3040f55af0435707cbd1b986396dc29b1cedd4d2269604d093cfe7822"
+contentMode: "local-full"
+zh: ""
+---
+
+### Deep Modules vs Shallow Modules
+
+So I'm going to do two things in this final section which is I'm going to first tell you how to there's probably a question in your mind here which is let's say I have a codebase that I'm working on and it's a bad codebase. It's a codebase that's like really complicated uh that AI just never does good work in and maybe actually most humans that go into that codebase don't do good work. How what how do I improve that codebase? And the second thing is I'll show you my setup for parallelization.
+
+So let's go with um bad code first. Now where is it? Where's the diagram? Here it is. In his book um the philosophy of software design, John Alistster talks about the ideal type of module. And let's imagine that you have a codebase that looks like this. Each of these uh blocks here are individual files. And these files export things from them. You know, they have um things that you pull from the files that you then use in other things. And so you might have these weird dependencies where this file over here might rely on this file or might rely on that file for instance.
+
+Now, if these files are small and they don't kind of ex like export many things, then John would call these **shallow modules** essentially where they're not very um they kind of look like uh this. If I actually no I can't can't make a good diagram of it. They're essentially lots and lots of small chunks. Now this is hard for the AI to navigate because it doesn't really understand the dependencies between everything. It can't work out where everything is. You know it has to sort of manually track through the entire graph and go okay this relies on this one relies on this one. This one relies on this one.
+
+And it's then also hard to test this as well because where do you draw your test boundaries here? Do you test each module individually? Like just literally draw a test boundary. No, don't do that. Around this one and then maybe another test boundary around the next one and then the next one or should you sort of do big groups of it? Should you say, okay, we're going to test all of these related modules together and just sort of, you know, hope and pray that they work.
+
+Now this means that if I think that bad tests mostly look like that where the AI essentially tries to sort of wrap every tiny function in its own test boundary and then just sort of test that those individually work. But what that does is it means that when let's say this module over here calls those two. So it depends on both of these. Then this module might misorder the functions or there might be sort of stuff inside that poor module that's worth testing on its own. And if you then wrap this in a test boundary, what do you do? Do you mock the other two modules? How does that work? So actually figuring out how to um build a codebase that is easy to test is essential here because if our codebase is easy to test then our code our feedback loops are going to be better and the AI is going to do better work in our codebase. Does that make sense?
+
+So what does a good codebase looks like? Look like well not like that. It looks like this where you have what John Asterhout calls **deep modules**. Modules that have a little interface on there that expose a small simple interface that have a lot of functionality inside them. Now what this means is that these are easy to test because you just let's say that there's a dependency between this one and this one. My arrow working? Yeah, there we go. Then what you do is you just wrap a big test boundary around that one module around this one up here. And you're going to catch a lot of good stuff because there's lots of functionality that you're testing and really the caller, the person calling the module is going to have a simple interface to work from. So it's not not too tricky. That makes sense. Deep modules versus shallow modules. This is good. This shallow version is bad.
+
+And what I find is that unaided um or if you don't uh if you don't watch AI carefully, it's going to produce a codebase that looks like this. So you need to be really really careful when you're directing it. And that's why too is that if we look inside the PD, uh where is the PR gone? It's inside the issues. It's inside the gamification system. Uh not found. Of course, it's not. Here it is. Then I have uh inside here data model the modules. So it's specifically saying okay this gamification service is a new deep module which we're going to test around. It's going to have this particular interface and it's going to have um okay we're modifying the progress service too. We're modifying the lesson route modifying the dashboard roots etc. So, it's I'm being really specific about the modules that I'm editing and I'm making sure that I keep that module map in my mind at all times throughout the planning and then throughout the implementation. That make sense? Very, very useful.
+
+It's useful for one other reason, too. Not only does it make your app more testable, but you get to do a little mental trick. And I'm going to refill my water while you wait for what that is. Uh, let me Let me get a question from you guys. So, raise your hands if you feel like. Uh, if you feel like you're working harder than ever before with AI. Yeah. Uh, raise your hands if you feel like you know your codebase less well than you used to. Yeah. This is a real thing. um because we're moving fast, because we're delegating more things, we end up losing a sense of our codebase. And if we lose the sense of our codebase, we're not going to be able to improve it. And we're essentially delegating the shape of it to AI. I don't think that's good.
+
+But then how do we how do we make it so that we can move fast while still keeping enough space in our brains? I think that this is a way to do it because what you're doing here is not only are you thinking about creating big shapes in your codebase, big services. What I think you should do is **design the interface for these modules, but then delegate the implementation**. In other words, these modules can become like gray boxes where you just need to know the shape of them. You need to know what they do and sort of how they behave, but you can delegate the implementation of those modules. I found this is really nice. I don't necessarily need to co-review everything inside that module. I don't necessarily need to know everything of what it's doing. I just need to know that it behaves a certain way under certain conditions and that it does its thing. So, it's kind of like, okay, I've got a big overview of my codebase and I understand kind of the shapes inside it, understand what the interfaces all do, but I can delegate what's inside. I found that has been a really nice way to retain my sense of the codebase while preserving my sanity. Make sense?

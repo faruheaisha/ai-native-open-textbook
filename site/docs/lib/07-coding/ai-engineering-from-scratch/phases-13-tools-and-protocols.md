@@ -1,0 +1,158 @@
+---
+title: "Phase 13: Tools & Protocols"
+sourceId: "07-coding/ai-engineering-from-scratch"
+sourceTitle: "AI Engineering from Scratch（英文原版）"
+sourceKind: "源码研读"
+licenseLabel: "可转载"
+lang: "英文"
+tier: 2
+volume: "07-coding"
+sourceUrl: "https://github.com/rohitg00/ai-engineering-from-scratch"
+entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/13-tools-and-protocols/README.md"
+sourceRel: "phases/13-tools-and-protocols/README.md"
+rawUrl: "/raw/07-coding/ai-engineering-from-scratch/phases/13-tools-and-protocols/README.md"
+sourceSha256: "240a582ff474917a53cd7fd03e7aca86f506fc781c840d5378c718a38cfb9173"
+pageSha256: "240a582ff474917a53cd7fd03e7aca86f506fc781c840d5378c718a38cfb9173"
+contentMode: "local-full"
+zh: ""
+---
+
+# Phase 13: Tools & Protocols
+
+> The interfaces between AI and the real world.
+
+This phase moves from function calls and tool schemas into interoperable
+protocols, Agent Skills, security, and production governance. Numeric order is
+useful for browsing. The focused routes below are the reliable learning order.
+
+## Start this phase on GitHub
+
+**Prerequisites:** Phase 11 LLM completion APIs. For MCP or Agent Skills, use
+the focused route below instead of assuming numeric lesson order.
+
+**First full-phase lesson:** [The Tool Interface](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/13-tools-and-protocols/01-the-tool-interface/README.md)
+
+Run this command from the repository root:
+
+```bash
+python3 phases/13-tools-and-protocols/01-the-tool-interface/code/main.py
+```
+
+Keep the command, exit code, describe-decide-execute-observe trace, rejected
+input evidence, and one sentence explaining the turn limit.
+
+**Next action:** Continue to [Function Calling Deep Dive](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/13-tools-and-protocols/02-function-calling-deep-dive/README.md),
+or choose the Model Context Protocol (MCP) or Agent Skills route below.
+
+Browse the [full Phase 13 lesson list](/lib/07-coding/ai-engineering-from-scratch/overview#phase-13) or the
+[cross-phase roadmap](/lib/07-coding/ai-engineering-from-scratch/ROADMAP).
+
+## Model Context Protocol (MCP) path
+
+The focused MCP route is 17 lessons and about 23 hours 15 minutes. It follows
+MCP `2026-07-28` from one self-describing JSON-RPC request to an operational
+conformance gate.
+
+| Stage | Lessons | What you prove | Time |
+|---|---|---|---:|
+| Core | [06](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/13-tools-and-protocols/06-mcp-fundamentals/README.md), [07](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/13-tools-and-protocols/07-building-an-mcp-server/README.md), [08](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/13-tools-and-protocols/08-building-an-mcp-client/README.md), [09](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/13-tools-and-protocols/09-mcp-transports/README.md), [10](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/13-tools-and-protocols/10-mcp-resources-and-prompts/README.md) | Envelopes, discovery, client and server behavior, transports, resources, and prompts. | 5 hr 50 min |
+| Bidirectional | [11](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/13-tools-and-protocols/11-mcp-sampling/README.md), [12](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/13-tools-and-protocols/12-mcp-roots-and-elicitation/README.md), [13](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/13-tools-and-protocols/13-mcp-async-tasks/README.md), [14](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/13-tools-and-protocols/14-mcp-apps/README.md) | MRTR input, explicit scope, durable tasks, and app boundaries without server-initiated requests. | 5 hr |
+| Secure | [15](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/13-tools-and-protocols/15-mcp-security-tool-poisoning/README.md), [16](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/13-tools-and-protocols/16-mcp-security-oauth-2-1/README.md), [18](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/13-tools-and-protocols/18-mcp-auth-production/README.md), [17](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/13-tools-and-protocols/17-mcp-gateways-and-registries/README.md) | Poisoning defenses, authorization, production tokens, gateway routing, and registry admission. | 5 hr 15 min |
+| Advanced | [28](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/13-tools-and-protocols/28-mcp-tool-contracts-and-content/README.md), [29](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/13-tools-and-protocols/29-mcp-reliability-cancellation-and-flow-control/README.md), [30](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/13-tools-and-protocols/30-mcp-registry-supply-chain-and-drift/README.md), [31](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/13-tools-and-protocols/31-mcp-conformance-versioning-and-operations/README.md) | Contract fidelity, cancellation races, supply-chain drift, and release evidence. | 7 hr 10 min |
+
+The exact order is 06, 07, 08, 09, 10, 11, 12, 13, 14, 15, 16, 18, 17, 28,
+29, 30, 31. It is defined in
+[`learning-paths/model-context-protocol.json`](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/learning-paths/model-context-protocol.json).
+The tutor creates `MCP-LEARNING.md`, teaches one lesson per
+invocation, and records the request, response, command, working directory, exit
+code, and redacted boundary evidence required by each checkpoint.
+
+Start with the invocation supported by your host:
+
+| Host | Invocation |
+|---|---|
+| Codex | `learn-mcp`, or choose it from `/skills` |
+| Claude Code | `/learn-mcp` |
+| Other compatible hosts | `Use learn-mcp to start or resume the Model Context Protocol (MCP) path.` |
+
+### Your first ten minutes
+
+From the repository root, run Lesson 06's stateless transcript:
+
+```bash
+python3 phases/13-tools-and-protocols/06-mcp-fundamentals/code/main.py
+```
+
+Find four things in the output: repeated request metadata, a complete
+`server/discover` result, error `-32022` for an unsupported version, and a
+transport close that does not create or terminate an MCP protocol session.
+That transcript is the first checkpoint, not just a demo.
+
+If the repository or Python 3 is unavailable, read [Lesson 06](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/13-tools-and-protocols/06-mcp-fundamentals/README.md)
+and hand-trace one request and response. Mark the checkpoint conceptual and
+leave runtime, transport, authorization, and deployment evidence pending.
+
+Complete Lesson 15's executable security checkpoint before any non-loopback
+bind, shared ingress, hosted endpoint, or registry publication. Review the
+external target and requested authority, then confirm the deployment action
+explicitly. A completed tutorial does not grant deployment authority.
+
+Older `initialize`, `Mcp-Session-Id`, standalone SSE `GET`, session `DELETE`,
+and server-initiated request flows appear only in explicit compatibility notes.
+Modern requests declare protocol version and client capabilities in
+`params._meta`, use `server/discover`, and carry enough information to be
+validated, authorized, routed, and retried independently.
+
+[Lesson 23](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/13-tools-and-protocols/23-capstone-tool-ecosystem/README.md) is the only optional MCP route
+capstone. Complete the 17 required lessons plus [Lesson 19](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/13-tools-and-protocols/19-a2a-protocol/README.md)
+and [Lesson 20](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/13-tools-and-protocols/20-opentelemetry-genai/README.md) before starting it.
+
+## Agent Skills fast path
+
+The focused route is five lessons and about 9 hours 30 minutes:
+
+| Step | Lesson | Outcome | Time |
+|---:|---|---|---:|
+| 1 | [22: Portable Contract and Runtime Boundary](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/13-tools-and-protocols/22-skills-and-agent-sdks/README.md) | Create, install, invoke, verify, and remove a complete skill bundle. | 90 min |
+| 2 | [24: Discovery and Progressive Disclosure](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/13-tools-and-protocols/24-skill-discovery-and-progressive-disclosure/README.md) | Trace discovery, cataloging, activation, and resource loading. | 105 min |
+| 3 | [25: Invocation and Routing](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/13-tools-and-protocols/25-skill-invocation-and-routing/README.md) | Control explicit, implicit, human, model, and abstention paths. | 105 min |
+| 4 | [26: Permissions, Sandboxes, and Trust](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/13-tools-and-protocols/26-skill-permissions-sandboxes-and-trust/README.md) | Separate instructions, permissions, containment, and verification. | 120 min |
+| 5 | [27: Evals, Packaging, and Portability](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/13-tools-and-protocols/27-skill-evals-packaging-and-portability/README.md) | Build a release gate and prove behavior in real hosts. | 150 min |
+
+Start with the invocation supported by your host:
+
+| Host | Invocation |
+|---|---|
+| Codex | `learn-agent-skills`, or choose it from `/skills` |
+| Claude Code | `/learn-agent-skills` |
+| Other compatible hosts | `Use learn-agent-skills to start or resume the Agent Skills Engineering path.` |
+
+The tutor creates or resumes `AGENT-SKILLS-LEARNING.md`, teaches one lesson per
+invocation, and records the evidence required by each checkpoint. The route is
+defined in
+[`learning-paths/agent-skills.json`](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/learning-paths/agent-skills.json).
+
+If you prefer to read first, start with [Lesson 22](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/13-tools-and-protocols/22-skills-and-agent-sdks/README.md).
+Its first lab gets a skill into a real host in about ten minutes.
+
+### Prerequisite fast lane
+
+- For the real labs, you need `node`, `npx`, `python3`, one selected
+  skill-capable host, and write access to the chosen project or user skill
+  scope. Verify the three commands with `node --version`, `npx --version`, and
+  `python3 --version` before installing.
+- If that preflight is unavailable, use the website or read each `docs/en.md`
+  manually. You can complete the conceptual work, but keep discovery,
+  invocation, script, update, and uninstall evidence marked pending.
+- Skim [Lesson 01](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/13-tools-and-protocols/01-the-tool-interface/README.md) and [Lesson 05](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/13-tools-and-protocols/05-tool-schema-design/README.md)
+  if tool contracts are new to you.
+- Before Lesson 26, confirm that you can explain tool poisoning and untrusted
+  instructions. [Lesson 15](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/13-tools-and-protocols/15-mcp-security-tool-poisoning/README.md) is the optional
+  refresher for that preflight, not a sixth required lesson in this route.
+- [Lesson 23](https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/phases/13-tools-and-protocols/23-capstone-tool-ecosystem/README.md) is an optional systems capstone,
+  not the next Agent Skills lesson after 22. Complete lessons 06 through 20
+  before taking it.
+
+## Full phase
+
+See [ROADMAP.md](/lib/07-coding/ai-engineering-from-scratch/ROADMAP) for the full lesson plan.

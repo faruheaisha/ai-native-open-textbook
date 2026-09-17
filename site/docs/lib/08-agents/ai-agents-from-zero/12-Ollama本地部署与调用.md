@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/didilili/ai-agents-from-zero"
-entryUrl: "https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/README.md"
+entryUrl: "https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/12-Ollama本地部署与调用.md"
+sourceRel: "12-Ollama本地部署与调用.md"
+rawUrl: "/raw/08-agents/ai-agents-from-zero/12-Ollama本地部署与调用.md"
+sourceSha256: "523ed7a2f9485825a3690aedbea27fe7877e83b87cef7f5974bcf24d191e92c1"
+pageSha256: "523ed7a2f9485825a3690aedbea27fe7877e83b87cef7f5974bcf24d191e92c1"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -24,7 +29,7 @@ zh: ""
 
 **学习建议：** Ollama 的重点不是多背几个命令，而是亲手确认“本地模型能被服务化调用”。先装好 Ollama，拉取一个小模型，用命令行验证能回答，再接到 LangChain 的 `ChatOllama`。读代码时顺手记下模型名称、模型存放位置和机器资源限制，这些才是本地部署最常见的排障入口。
 
-**官方文档与资源**：详见 [工具导航与参考资料索引 - 模型接入与本地运行](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/工具导航与参考资料索引.md#模型接入与本地运行)。
+**官方文档与资源**：详见 [工具导航与参考资料索引 - 模型接入与本地运行](/lib/08-agents/ai-agents-from-zero/工具导航与参考资料索引#模型接入与本地运行)。
 
 ---
 

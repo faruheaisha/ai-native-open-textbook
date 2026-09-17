@@ -9,6 +9,11 @@ tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/openai/openai-cookbook"
 entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/08-agents/openai-cookbook/README.md"
+sourceSha256: "ed596b962642ea131470fef9aa699606881f218621bae563f4b12c418ef33476"
+pageSha256: "ed596b962642ea131470fef9aa699606881f218621bae563f4b12c418ef33476"
+contentMode: "local-full"
 zh: ""
 ---
 

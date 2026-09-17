@@ -1,0 +1,461 @@
+---
+title: "Hands-On: Build an Agent Activity Dashboard with Gradio"
+sourceId: "10-context-memory/hf-context-course"
+sourceTitle: "The Context Course"
+sourceKind: "系统课程"
+licenseLabel: "仅引用"
+lang: "英文"
+tier: 1
+volume: "10-context-memory"
+sourceUrl: "https://github.com/huggingface/context-course"
+entryUrl: "https://github.com/huggingface/context-course/blob/0448a7ca721a63a81531e1ba94f46f897c70645b/units/en/unit5/hands-on.mdx"
+sourceRel: "units/en/unit5/hands-on.mdx"
+rawUrl: "/raw/10-context-memory/hf-context-course/units/en/unit5/hands-on.mdx"
+sourceSha256: "f60efa2bc4c86673f906d74e78718162b3c44fd1395fd05a28d0ded19fc23e81"
+pageSha256: "f60efa2bc4c86673f906d74e78718162b3c44fd1395fd05a28d0ded19fc23e81"
+contentMode: "local-full"
+zh: ""
+---
+
+# Hands-On: Build an Agent Activity Dashboard with Gradio
+
+This project wires the hooks you configured in the previous lesson into a live dashboard. The dashboard is a Gradio app that accepts hook events over HTTP, shows the most recent calls in a table, and plots tool usage over time. It works against Claude Code, Codex, OpenCode, and Pi — with the same agent doing the work, you see what actually happens under the hood.
+
+## What You'll Build
+
+One Python process that does two things at once:
+1. A **FastAPI** endpoint at `POST /event` that any hook can post to.
+2. A **Gradio** app mounted on the same server that renders the events live.
+
+The Gradio app polls the in-memory event buffer and re-renders every second, so you can watch the agent work in real time.
+
+## Project Setup
+
+Create a fresh project directory:
+
+```bash
+mkdir agent-activity-dashboard
+cd agent-activity-dashboard
+```
+
+Install dependencies:
+
+```bash
+pip install "gradio>=4.41" "fastapi" "uvicorn[standard]" "pandas"
+```
+
+Create `requirements.txt` for later deployment:
+
+```text
+gradio>=4.41
+fastapi
+uvicorn[standard]
+pandas
+```
+
+## Step 1: Build the Receiver and Dashboard
+
+Create `app.py`:
+
+```python
+import datetime as dt
+from collections import Counter, deque
+from typing import Any
+
+import gradio as gr
+import pandas as pd
+from fastapi import FastAPI, Request
+from fastapi.responses import JSONResponse
+
+# ---------- Shared state ----------
+MAX_EVENTS = 500
+events: deque[dict[str, Any]] = deque(maxlen=MAX_EVENTS)
+
+def _truncate(value: Any, n: int) -> str:
+    text = "" if value is None else str(value)
+    return text if len(text) <= n else text[: n - 1] + "…"
+
+def _normalize(body: dict[str, Any], headers: dict[str, str]) -> dict[str, Any]:
+    """Map Claude Code / Codex / OpenCode / Pi payloads to one shape."""
+    platform = (
+        body.get("platform")
+        or headers.get("x-platform")
+        or "unknown"
+    )
+    event_name = body.get("event") or body.get("hook_event_name") or "Unknown"
+    tool = body.get("tool") or body.get("tool_name") or ""
+    args = body.get("args") or body.get("tool_input") or body.get("prompt") or ""
+    return {
+        "timestamp": dt.datetime.utcnow().isoformat(timespec="seconds") + "Z",
+        "platform": str(platform),
+        "event": str(event_name),
+        "tool": str(tool),
+        "args": _truncate(args, 200),
+    }
+
+# ---------- FastAPI receiver ----------
+api = FastAPI(title="Agent Activity Dashboard")
+
+@api.post("/event")
+async def event(req: Request):
+    try:
+        body = await req.json()
+    except Exception:
+        body = {}
+    record = _normalize(body, {k.lower(): v for k, v in req.headers.items()})
+    events.appendleft(record)
+    # Return an empty body so hook callers never block on the dashboard receiver.
+    return JSONResponse({})
+
+@api.get("/health")
+def health():
+    return {"ok": True, "events": len(events)}
+
+# ---------- Gradio views ----------
+COLUMNS = ["timestamp", "platform", "event", "tool", "args"]
+
+def events_df() -> pd.DataFrame:
+    if not events:
+        return pd.DataFrame(columns=COLUMNS)
+    return pd.DataFrame(list(events), columns=COLUMNS)
+
+def tool_counts_df() -> pd.DataFrame:
+    counter = Counter(e["tool"] for e in events if e["tool"])
+    rows = [{"tool": tool, "count": n} for tool, n in counter.most_common(15)]
+    return pd.DataFrame(rows, columns=["tool", "count"])
+
+def summary_md() -> str:
+    total = len(events)
+    platforms = sorted({e["platform"] for e in events}) or ["(none)"]
+    tools = sorted({e["tool"] for e in events if e["tool"]})
+    tools_display = ", ".join(tools) if tools else "(none)"
+    return (
+        f"**Events:** {total} (buffer holds up to {MAX_EVENTS})  \n"
+        f"**Platforms seen:** {', '.join(platforms)}  \n"
+        f"**Tools seen:** {tools_display}"
+    )
+
+def refresh():
+    return events_df(), tool_counts_df(), summary_md()
+
+def clear_events():
+    events.clear()
+    return refresh()
+
+with gr.Blocks(title="Agent Activity Dashboard") as ui:
+    gr.Markdown("# Agent Activity Dashboard")
+    gr.Markdown(
+        "Point your Claude Code, Codex, OpenCode, or Pi hooks/extensions at "
+        "`POST http://localhost:8000/event` to see live activity here."
+    )
+
+    header = gr.Markdown(value=summary_md())
+
+    with gr.Row():
+        clear_btn = gr.Button("Clear events", variant="secondary")
+
+    chart = gr.BarPlot(
+        value=tool_counts_df(),
+        x="tool",
+        y="count",
+        title="Tool usage",
+        tooltip=["tool", "count"],
+        height=280,
+    )
+
+    table = gr.Dataframe(
+        value=events_df(),
+        headers=COLUMNS,
+        label="Recent events (newest first)",
+        wrap=True,
+        interactive=False,
+    )
+
+    # Poll the shared buffer once a second.
+    gr.Timer(1.0).tick(refresh, outputs=[table, chart, header])
+    clear_btn.click(clear_events, outputs=[table, chart, header])
+
+# Mount Gradio on the FastAPI app so `/event` and the UI share one process.
+app = gr.mount_gradio_app(api, ui, path="/")
+
+if __name__ == "__main__":
+    import uvicorn
+
+    uvicorn.run(app, host="0.0.0.0", port=8000)
+```
+
+Run it:
+
+```bash
+python app.py
+```
+
+Open `http://localhost:8000` in a browser. The dashboard is empty — that's expected until a hook sends an event.
+
+> [!TIP]
+> The FastAPI route for `/event` is defined before Gradio is mounted at `/`, so POSTs hit the receiver and everything else lands on the Gradio UI.
+
+## Step 2: Connect Your Agent
+
+Use the hook config from the previous lesson. A quick reminder of the shape for each platform, adjusted so the normalizer in `app.py` can make sense of the payload.
+
+`.claude/settings.json`:
+
+```json
+{
+  "hooks": {
+    "PreToolUse":  [{ "matcher": "*", "hooks": [{ "type": "http", "url": "http://localhost:8000/event", "headers": { "X-Platform": "claude-code" } }] }],
+    "PostToolUse": [{ "matcher": "*", "hooks": [{ "type": "http", "url": "http://localhost:8000/event", "headers": { "X-Platform": "claude-code" } }] }],
+    "UserPromptSubmit": [{ "hooks": [{ "type": "http", "url": "http://localhost:8000/event", "headers": { "X-Platform": "claude-code" } }] }],
+    "Stop":            [{ "hooks": [{ "type": "http", "url": "http://localhost:8000/event", "headers": { "X-Platform": "claude-code" } }] }],
+    "SessionStart":    [{ "hooks": [{ "type": "http", "url": "http://localhost:8000/event", "headers": { "X-Platform": "claude-code" } }] }]
+  }
+}
+```
+
+Claude Code's payload already includes `hook_event_name`, `tool_name`, and `tool_input`, so the normalizer picks them up without extra work. The `X-Platform` header tags them as `claude-code`.
+
+Start a new Claude Code session in this project directory and ask it to do something concrete:
+
+```
+List the files in this directory, then read README.md and summarize it.
+```
+
+Make sure `~/.codex/config.toml` has:
+
+```toml
+[features]
+codex_hooks = true
+```
+
+These examples assume `jq` and `curl` are installed and available on your `PATH`.
+
+`.codex/hooks.json`:
+
+```json
+{
+  "hooks": {
+    "PreToolUse":  [{ "matcher": "Bash", "hooks": [{ "type": "command", "command": "jq -c '{platform:\"codex\", event:\"PreToolUse\", tool:.tool_name, args:.tool_input}' | curl -s --max-time 2 -X POST -H 'Content-Type: application/json' --data-binary @- http://localhost:8000/event || true" }] }],
+    "PostToolUse": [{ "matcher": "Bash", "hooks": [{ "type": "command", "command": "jq -c '{platform:\"codex\", event:\"PostToolUse\", tool:.tool_name, args:.tool_response}' | curl -s --max-time 2 -X POST -H 'Content-Type: application/json' --data-binary @- http://localhost:8000/event || true" }] }],
+    "UserPromptSubmit": [{ "hooks": [{ "type": "command", "command": "jq -c '{platform:\"codex\", event:\"UserPromptSubmit\", args:.prompt}' | curl -s --max-time 2 -X POST -H 'Content-Type: application/json' --data-binary @- http://localhost:8000/event || true" }] }],
+    "Stop":            [{ "hooks": [{ "type": "command", "command": "jq -c '{platform:\"codex\", event:\"Stop\", args:.last_assistant_message}' | curl -s --max-time 2 -X POST -H 'Content-Type: application/json' --data-binary @- http://localhost:8000/event || true" }] }],
+    "SessionStart":    [{ "hooks": [{ "type": "command", "command": "jq -c '{platform:\"codex\", event:\"SessionStart\"}' | curl -s --max-time 2 -X POST -H 'Content-Type: application/json' --data-binary @- http://localhost:8000/event || true" }] }]
+  }
+}
+```
+
+Each hook reshapes Codex's payload into the normalized `\{platform, event, tool, args\}` shape, then POSTs it. The `--max-time 2` on `curl` protects the agent from hanging if the dashboard is slow, and `|| true` keeps logging best-effort if the dashboard is offline.
+
+Restart Codex to pick up the hooks, then try:
+
+```
+Run `ls` in this directory and then show me the first 20 lines of app.py.
+```
+
+`.opencode/plugins/dashboard.ts`:
+
+```ts
+import type { Plugin } from "@opencode-ai/plugin"
+
+const URL = process.env.DASHBOARD_URL ?? "http://localhost:8000/event"
+
+async function send(event: string, payload: Record<string, unknown>) {
+  try {
+    await fetch(URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ platform: "opencode", event, ...payload }),
+      signal: AbortSignal.timeout(2000),
+    })
+  } catch {
+    // dashboard may be offline; never block a tool
+  }
+}
+
+export const DashboardPlugin: Plugin = async () => ({
+  "tool.execute.before": async (input, output) =>
+    send("PreToolUse", { tool: input.tool, args: output.args }),
+
+  "tool.execute.after": async (input, output) =>
+    send("PostToolUse", {
+      tool: input.tool,
+      args:
+        typeof (output as { output?: unknown }).output === "string"
+          ? ((output as { output: string }).output.slice(0, 200))
+          : "",
+    }),
+
+  event: async ({ event }) => {
+    if (event.type === "session.created") await send("SessionStart", {})
+    if (event.type === "session.idle") await send("Stop", {})
+  },
+})
+```
+
+If this is the first OpenCode plugin in the project, initialize a local package.json too:
+
+```bash
+cd .opencode
+bun init -y
+bun add -d @opencode-ai/plugin
+```
+
+Restart OpenCode so the plugin loads at startup, then run:
+
+```
+Read README.md and list its sections.
+```
+
+`.pi/extensions/dashboard.ts`:
+
+```ts
+import type { ExtensionAPI } from "@mariozechner/pi-coding-agent";
+
+const URL = process.env.DASHBOARD_URL ?? "http://localhost:8000/event";
+
+async function send(event: string, payload: Record<string, unknown>) {
+  try {
+    await fetch(URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ platform: "pi", event, ...payload }),
+      signal: AbortSignal.timeout(2000),
+    });
+  } catch {
+    // dashboard may be offline; never block the agent
+  }
+}
+
+export default function (pi: ExtensionAPI) {
+  pi.on("session_start", async () => {
+    await send("SessionStart", {});
+  });
+
+  pi.on("before_agent_start", async (event) => {
+    await send("UserPromptSubmit", { args: event.prompt });
+  });
+
+  pi.on("tool_call", async (event) => {
+    await send("PreToolUse", { tool: event.toolName, args: event.input });
+  });
+
+  pi.on("tool_result", async (event) => {
+    await send("PostToolUse", {
+      tool: event.toolName,
+      args: event.details ?? event.content,
+    });
+  });
+
+  pi.on("agent_end", async () => {
+    await send("Stop", {});
+  });
+}
+```
+
+Create `.pi/extensions/` if needed, then start Pi (or run `/reload` if Pi is already open) and try:
+
+```
+Read README.md and list its sections.
+```
+
+## Step 3: Watch It Live
+
+Leave `python app.py` running in one terminal and your agent running in another. As the agent works, events stream into the dashboard:
+
+```
+timestamp              platform     event            tool    args
+2026-04-20T10:15:02Z   claude-code  UserPromptSubmit          List the files…
+2026-04-20T10:15:03Z   claude-code  PreToolUse       Bash    {"command":"ls"}
+2026-04-20T10:15:03Z   claude-code  PostToolUse      Bash    {"exit_code":0,…}
+2026-04-20T10:15:04Z   claude-code  PreToolUse       Read    {"path":"README…
+2026-04-20T10:15:04Z   claude-code  PostToolUse      Read    {"content":"# …
+2026-04-20T10:15:06Z   claude-code  Stop                     …
+```
+
+The bar chart updates live as tools accumulate, which makes it obvious when the agent is stuck in a loop on the same tool.
+
+## Step 4: Add a Guardrail
+
+A log-only dashboard is already useful, but the real power of hooks is that they can intervene. Extend the Claude Code hook to block dangerous commands.
+
+Add a second hook handler for `PreToolUse` that runs before the dashboard logger:
+
+```json
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -r '.tool_input.command // \"\"' | grep -Eq 'rm -rf|:\\(\\)\\{.*\\|.*&.*\\}:' && { echo 'blocked: dangerous shell pattern' >&2; exit 2; } || exit 0"
+          }
+        ]
+      },
+      {
+        "matcher": "*",
+        "hooks": [
+          { "type": "http", "url": "http://localhost:8000/event",
+            "headers": { "X-Platform": "claude-code" } }
+        ]
+      }
+    ]
+  }
+}
+```
+
+Now the same `PreToolUse` event does two things: denies obviously destructive shell patterns (exit code `2` with a stderr message) and logs everything else to the dashboard. Create a disposable test folder:
+
+```bash
+mkdir -p /tmp/hook-guardrail-demo-delete-me
+```
+
+Then ask the agent to run:
+
+```text
+rm -rf /tmp/hook-guardrail-demo-delete-me
+```
+
+You'll see it refuse before the command executes, and you'll see the guardrail event in the dashboard.
+
+> [!TIP]
+> The equivalent OpenCode guard is a `throw new Error("blocked: dangerous shell pattern")` inside `"tool.execute.before"`. For Codex, the hook can either exit `2` with a stderr reason or print <code v-pre>jq -c '\{hookSpecificOutput:\{hookEventName:"PreToolUse", permissionDecision:"deny", permissionDecisionReason:"…"}}'</code> on stdout.
+
+## Step 5: Deploy (Optional)
+
+For a team-facing dashboard, host the Gradio app on [Hugging Face Spaces](https://huggingface.co/spaces). Push `app.py` and `requirements.txt`, and update the hook URLs from `http://localhost:8000/event` to `https://YOUR-USERNAME-agent-dashboard.hf.space/event`.
+
+A few cautions for a shared dashboard:
+
+- Payloads can contain secrets (prompts, file contents, command lines). Redact sensitive fields in `_normalize` before appending to the buffer.
+- A public Space is, well, public. Put authentication in front of `/event`, or keep the Space private and use a personal access token in the hook `headers`.
+- The in-memory buffer resets on restart. For durable history, swap `deque` for a SQLite file or a Spaces persistent volume.
+
+## Full Directory Layout
+
+```
+agent-activity-dashboard/
+├── app.py                              # Gradio + FastAPI server
+├── requirements.txt
+├── .claude/
+│   └── settings.json                   # Claude Code hooks
+├── .codex/
+│   └── hooks.json                      # Codex hooks
+├── .opencode/
+│   └── plugins/
+│       └── dashboard.ts                # OpenCode plugin
+└── .pi/
+    └── extensions/
+        └── dashboard.ts                # Pi extension
+```
+
+## Best Practices Demonstrated
+
+This project shows how to pick the right event for observability (`PreToolUse` and `PostToolUse`), how to collapse four different payload shapes into one normalized record, and how to use exit codes / `hookSpecificOutput` / thrown errors / returned values to enforce policy. The Gradio + FastAPI pattern — one process, two surfaces — keeps the whole thing short and makes it easy to host on Spaces.
+
+## Key Takeaways
+
+A hook is only useful if its output goes somewhere. A Gradio dashboard is a fast way to turn raw hook events into something you can actually learn from: you can watch an agent work, see where it's stuck, and prove that guardrails fire. The same dashboard works across Claude Code, Codex, OpenCode, and Pi because the event shape is narrow and the normalizer is small.
+
+Next, one more quiz to wrap up the unit.

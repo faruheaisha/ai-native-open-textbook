@@ -1,0 +1,18 @@
+{
+  "id": "09-harness/claude-code-docs-official",
+  "volume": "09-harness",
+  "local": "claude-code-docs-official",
+  "title": "claude-code-docs-official",
+  "kind": "官方文档",
+  "license": "官方文档（站点条款）",
+  "licenseLabel": "仅引用",
+  "licenseNote": "不可整篇转载，站内只做导航与引用",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": false,
+  "repo": null,
+  "site": "https://code.claude.com/docs",
+  "commit": null,
+  "entryUrl": "https://code.claude.com/docs",
+  "docs": 656
+}

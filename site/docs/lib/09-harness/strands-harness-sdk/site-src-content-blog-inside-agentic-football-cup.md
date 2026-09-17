@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/strands-agents/harness-sdk"
-entryUrl: "https://github.com/strands-agents/harness-sdk/blob/7bda6c70e71cd07279470268c3d3b3f4b36adf53/README.md"
+entryUrl: "https://github.com/strands-agents/harness-sdk/blob/7bda6c70e71cd07279470268c3d3b3f4b36adf53/site/src/content/blog/inside-agentic-football-cup.mdx"
+sourceRel: "site/src/content/blog/inside-agentic-football-cup.mdx"
+rawUrl: "/raw/09-harness/strands-harness-sdk/site/src/content/blog/inside-agentic-football-cup.mdx"
+sourceSha256: "e5b9842d098caf8952dcde6f9a8f39fb53197a2740a07eaf5f0a05eb4c01e514"
+pageSha256: "e5b9842d098caf8952dcde6f9a8f39fb53197a2740a07eaf5f0a05eb4c01e514"
+contentMode: "local-full"
 zh: ""
 ---
 

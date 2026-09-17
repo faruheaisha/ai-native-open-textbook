@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "04-work"
 sourceUrl: "https://github.com/zjp1997720/zhijian-ai-bluebook-workbuddy-harness"
-entryUrl: "https://github.com/zjp1997720/zhijian-ai-bluebook-workbuddy-harness/blob/6ac68cd42a01add16568d1ab9cf2399822467fad/01-前言.md"
+entryUrl: "https://github.com/zjp1997720/zhijian-ai-bluebook-workbuddy-harness/blob/6ac68cd42a01add16568d1ab9cf2399822467fad/12-第%2011%20章%20连接器与%20MCP：工具边界、OAuth%20与审批.md"
+sourceRel: "12-第 11 章 连接器与 MCP：工具边界、OAuth 与审批.md"
+rawUrl: "/raw/04-work/zhijian-ai-bluebook-workbuddy-harness/12-第 11 章 连接器与 MCP：工具边界、OAuth 与审批.md"
+sourceSha256: "ab39777c1403a0caba2c198bfaf055b92f59516937846b64743f311ca6d9b629"
+pageSha256: "ab39777c1403a0caba2c198bfaf055b92f59516937846b64743f311ca6d9b629"
+contentMode: "local-full"
 zh: ""
 ---
 

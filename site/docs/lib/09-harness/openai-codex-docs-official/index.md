@@ -1,0 +1,275 @@
+---
+title: "openai-codex-docs-official"
+landing: true
+tier: 3
+sourceId: "09-harness/openai-codex-docs-official"
+sourceTitle: "openai-codex-docs-official"
+sourceKind: "官方文档"
+licenseLabel: "仅引用"
+lang: "英文"
+volume: "09-harness"
+sourceUrl: "https://learn.chatgpt.com/docs"
+entryUrl: "https://learn.chatgpt.com/docs"
+sourceRel: ""
+contentMode: "local-full"
+zh: ""
+---
+
+# openai-codex-docs-official
+
+索引级 404 共 6 条（`docs.md`、`resources.md`、`videos.md`、`guides/best-practices.md`、`guides/build-ai-native-engineering-team.md`、`use-cases/llms.txt`）：这些是导航页，站点不提供 `.md` 端点，**非快照缺失**。
+
+## 课时
+
+- **Documentation sets**
+  - [Codex manual (Markdown)](/lib/09-harness/openai-codex-docs-official/docs-codex-manual/index.md)
+- **Administration**
+  - [Administration](/lib/09-harness/openai-codex-docs-official/docs-administration.md)
+- **Agent Approvals Security**
+  - [Agent approvals & security](/lib/09-harness/openai-codex-docs-official/docs-agent-approvals-security.md)
+- **Agent Configuration**
+  - [Custom instructions with AGENTS.md](/lib/09-harness/openai-codex-docs-official/docs-agent-configuration-agents-md.md)
+  - [Rules](/lib/09-harness/openai-codex-docs-official/docs-agent-configuration-rules.md)
+  - [Speed](/lib/09-harness/openai-codex-docs-official/docs-agent-configuration-speed.md)
+  - [Subagents](/lib/09-harness/openai-codex-docs-official/docs-agent-configuration-subagents.md)
+- **Amazon Bedrock**
+  - [Use ChatGPT Work and Codex with Amazon Bedrock](/lib/09-harness/openai-codex-docs-official/docs-amazon-bedrock.md)
+- **App**
+  - [ChatGPT desktop app](/lib/09-harness/openai-codex-docs-official/docs-app.md)
+  - [ChatGPT desktop app commands](/lib/09-harness/openai-codex-docs-official/docs-reference-commands.md)
+  - [ChatGPT desktop app for Windows](/lib/09-harness/openai-codex-docs-official/docs-windows-windows-app.md)
+  - [ChatGPT desktop app settings](/lib/09-harness/openai-codex-docs-official/docs-reference-settings.md)
+- **App Server**
+  - [Codex App Server](/lib/09-harness/openai-codex-docs-official/docs-app-server/index.md)
+- **Appshots**
+  - [Appshots](/lib/09-harness/openai-codex-docs-official/docs-appshots.md)
+- **Artifacts Viewer**
+  - [Work with files](/lib/09-harness/openai-codex-docs-official/docs-artifacts-viewer.md)
+- **Auth**
+  - [Authentication](/lib/09-harness/openai-codex-docs-official/docs-auth.md)
+- **Automations**
+  - [Scheduled tasks](/lib/09-harness/openai-codex-docs-official/docs-automations.md)
+- **Browser**
+  - [Browser](/lib/09-harness/openai-codex-docs-official/docs-browser.md)
+- **Build Plugins**
+  - [Build plugins](/lib/09-harness/openai-codex-docs-official/docs-build-plugins.md)
+- **Build Skills**
+  - [Build skills](/lib/09-harness/openai-codex-docs-official/docs-build-skills.md)
+- **Chrome Extension**
+  - [Browser extension](/lib/09-harness/openai-codex-docs-official/docs-chrome-extension.md)
+- **Cli**
+  - [Codex CLI](/lib/09-harness/openai-codex-docs-official/docs-codex-cli.md)
+  - [Command line options](/lib/09-harness/openai-codex-docs-official/docs-developer-commands.md)
+- **Cli Customization**
+  - [CLI customization](/lib/09-harness/openai-codex-docs-official/docs-cli-customization.md)
+- **Cloud**
+  - [Codex cloud](/lib/09-harness/openai-codex-docs-official/docs-cloud.md)
+  - [Agent internet access](/lib/09-harness/openai-codex-docs-official/docs-cloud-internet-access.md)
+- **Code Review**
+  - [Code review](/lib/09-harness/openai-codex-docs-official/docs-code-review.md)
+- **Codex Sdk**
+  - [Codex SDK](/lib/09-harness/openai-codex-docs-official/docs-codex-sdk.md)
+- **Computer Use**
+  - [Computer Use](/lib/09-harness/openai-codex-docs-official/docs-computer-use.md)
+- **Config File**
+  - [Advanced Configuration](/lib/09-harness/openai-codex-docs-official/docs-config-file-config-advanced.md)
+  - [Config basics](/lib/09-harness/openai-codex-docs-official/docs-config-file-config-basic.md)
+  - [Configuration Reference](/lib/09-harness/openai-codex-docs-official/docs-config-file-config-reference.md)
+  - [Environment variables](/lib/09-harness/openai-codex-docs-official/docs-config-file-environment-variables.md)
+  - [Sample Configuration](/lib/09-harness/openai-codex-docs-official/docs-config-file-config-sample.md)
+- **Configuration**
+  - [Configuration](/lib/09-harness/openai-codex-docs-official/docs-configuration.md)
+- **Custom Prompts**
+  - [Custom Prompts](/lib/09-harness/openai-codex-docs-official/docs-custom-prompts.md)
+- **Customization**
+  - [Computer History](/lib/09-harness/openai-codex-docs-official/docs-customization-computer-history.md)
+  - [Customization](/lib/09-harness/openai-codex-docs-official/docs-customization-overview.md)
+  - [Memories](/lib/09-harness/openai-codex-docs-official/docs-customization-memories.md)
+- **Cyber Safety**
+  - [Models and Trusted Access](/lib/09-harness/openai-codex-docs-official/docs-cyber-safety.md)
+  - [Recommended configuration](/lib/09-harness/openai-codex-docs-official/docs-cyber-safety-recommended-configuration.md)
+- **Developers**
+  - [Developers](/lib/09-harness/openai-codex-docs-official/docs-developers.md)
+- **Enterprise**
+  - [Access tokens](/lib/09-harness/openai-codex-docs-official/docs-enterprise-access-tokens.md)
+  - [Admin rollout guide](/lib/09-harness/openai-codex-docs-official/docs-enterprise-admin-setup.md)
+  - [Analytics API](/lib/09-harness/openai-codex-docs-official/docs-enterprise-analytics-api.md)
+  - [ChatGPT usage limits and spend controls](/lib/09-harness/openai-codex-docs-official/docs-enterprise-usage-limits.md)
+  - [ChatGPT Work admin FAQ](/lib/09-harness/openai-codex-docs-official/docs-enterprise-work-admin-faq.md)
+  - [ChatGPT Work cloud security](/lib/09-harness/openai-codex-docs-official/docs-enterprise-chatgpt-work-cloud-security.md)
+  - [ChatGPT Work local security](/lib/09-harness/openai-codex-docs-official/docs-enterprise-chatgpt-work-local-security.md)
+  - [ChatGPT Work Overview](/lib/09-harness/openai-codex-docs-official/docs-enterprise-chatgpt-work-overview.md)
+  - [ChatGPT Work: usage and cost](/lib/09-harness/openai-codex-docs-official/docs-enterprise-chatgpt-work-usage-and-cost.md)
+  - [Compliance API and audit events](/lib/09-harness/openai-codex-docs-official/docs-enterprise-compliance-api.md)
+  - [Deploy the Windows app](/lib/09-harness/openai-codex-docs-official/docs-enterprise-windows-deployment.md)
+  - [Governance](/lib/09-harness/openai-codex-docs-official/docs-enterprise-governance.md)
+  - [GPTs and Sharing](/lib/09-harness/openai-codex-docs-official/docs-enterprise-gpts-and-sharing.md)
+  - [Groups and provisioning](/lib/09-harness/openai-codex-docs-official/docs-enterprise-groups-and-provisioning.md)
+  - [Manage app updates](/lib/09-harness/openai-codex-docs-official/docs-enterprise-manage-app-updates.md)
+  - [Managed configuration](/lib/09-harness/openai-codex-docs-official/docs-enterprise-managed-configuration.md)
+  - [Plugin controls](/lib/09-harness/openai-codex-docs-official/docs-enterprise-apps-and-connectors.md)
+  - [Plugin management](/lib/09-harness/openai-codex-docs-official/docs-enterprise-plugin-management.md)
+  - [Prisma AIRS](/lib/09-harness/openai-codex-docs-official/docs-enterprise-prisma-airs.md)
+  - [Roles and workspace permissions](/lib/09-harness/openai-codex-docs-official/docs-enterprise-roles-and-workspace-permissions.md)
+  - [Service accounts](/lib/09-harness/openai-codex-docs-official/docs-enterprise-service-accounts.md)
+  - [Skill controls](/lib/09-harness/openai-codex-docs-official/docs-enterprise-skills.md)
+  - [User lifecycle management](/lib/09-harness/openai-codex-docs-official/docs-enterprise-user-lifecycle.md)
+  - [Using the Admin plugin in ChatGPT Work](/lib/09-harness/openai-codex-docs-official/docs-enterprise-admin-plugin.md)
+  - [Workload identity federation](/lib/09-harness/openai-codex-docs-official/docs-enterprise-workload-identity.md)
+  - [Workspace analytics](/lib/09-harness/openai-codex-docs-official/docs-enterprise-workspace-analytics.md)
+  - [Workspace model availability](/lib/09-harness/openai-codex-docs-official/docs-enterprise-workspace-model-availability.md)
+- **Environments**
+  - [Cloud environments](/lib/09-harness/openai-codex-docs-official/docs-environments-cloud-environment.md)
+  - [Codex environments](/lib/09-harness/openai-codex-docs-official/docs-environments-modes.md)
+  - [Local environments](/lib/09-harness/openai-codex-docs-official/docs-environments-local-environment.md)
+  - [Worktrees](/lib/09-harness/openai-codex-docs-official/docs-environments-git-worktrees.md)
+- **Extend**
+  - [Model Context Protocol](/lib/09-harness/openai-codex-docs-official/docs-extend-mcp.md)
+  - [Record & Replay](/lib/09-harness/openai-codex-docs-official/docs-extend-record-and-replay.md)
+- **Feature Maturity**
+  - [Feature Maturity](/lib/09-harness/openai-codex-docs-official/docs-feature-maturity.md)
+- **Features**
+  - [Features](/lib/09-harness/openai-codex-docs-official/docs-features.md)
+  - [ChatGPT Voice](/lib/09-harness/openai-codex-docs-official/docs-features-voice.md)
+  - [Codex Micro](/lib/09-harness/openai-codex-docs-official/docs-features-codex-micro.md)
+- **Get Started With Work**
+  - [Get started with ChatGPT Work](/lib/09-harness/openai-codex-docs-official/docs-get-started-with-work.md)
+- **Github Action**
+  - [Codex GitHub Action](/lib/09-harness/openai-codex-docs-official/docs-github-action.md)
+- **Glossary**
+  - [Glossary](/lib/09-harness/openai-codex-docs-official/docs-glossary.md)
+- **Hooks**
+  - [Hooks](/lib/09-harness/openai-codex-docs-official/docs-hooks.md)
+- **Ide**
+  - [Codex IDE extension](/lib/09-harness/openai-codex-docs-official/docs-codex-ide.md)
+  - [Codex IDE extension settings](/lib/09-harness/openai-codex-docs-official/docs-developer-settings.md)
+- **Image Generation**
+  - [Image generation](/lib/09-harness/openai-codex-docs-official/docs-image-generation.md)
+- **Image Inputs**
+  - [Image inputs](/lib/09-harness/openai-codex-docs-official/docs-image-inputs.md)
+- **Import**
+  - [Import from another agent](/lib/09-harness/openai-codex-docs-official/docs-import.md)
+- **Integrated Terminal**
+  - [Integrated terminal](/lib/09-harness/openai-codex-docs-official/docs-integrated-terminal.md)
+- **Linux**
+  - [ChatGPT desktop app for Linux](/lib/09-harness/openai-codex-docs-official/docs-linux-linux-app.md)
+- **Long Running Work**
+  - [Long-running work](/lib/09-harness/openai-codex-docs-official/docs-long-running-work.md)
+- **Mcp Server**
+  - [Use Codex with the Agents SDK](/lib/09-harness/openai-codex-docs-official/docs-mcp-server.md)
+- **Models**
+  - [Models](/lib/09-harness/openai-codex-docs-official/docs-models.md)
+- **Non Interactive Mode**
+  - [Non-interactive mode](/lib/09-harness/openai-codex-docs-official/docs-non-interactive-mode.md)
+- **Notifications**
+  - [Notifications](/lib/09-harness/openai-codex-docs-official/docs-notifications.md)
+- **Open Source**
+  - [Open Source](/lib/09-harness/openai-codex-docs-official/docs-open-source.md)
+- **Permission Modes**
+  - [Permissions](/lib/09-harness/openai-codex-docs-official/docs-permission-modes.md)
+- **Permissions**
+  - [Permissions](/lib/09-harness/openai-codex-docs-official/docs-permissions.md)
+- **Personalize**
+  - [Personalize ChatGPT](/lib/09-harness/openai-codex-docs-official/docs-personalize.md)
+- **Pets**
+  - [Pets](/lib/09-harness/openai-codex-docs-official/docs-pets.md)
+- **Plugins**
+  - [Plugins](/lib/09-harness/openai-codex-docs-official/docs-plugins.md)
+- **Pricing**
+  - [Pricing](/lib/09-harness/openai-codex-docs-official/docs-pricing.md)
+- **Projects**
+  - [Projects and chats](/lib/09-harness/openai-codex-docs-official/docs-projects.md)
+- **Prompting**
+  - [Prompting](/lib/09-harness/openai-codex-docs-official/docs-prompting.md)
+- **Quickstart**
+  - [Quickstart](/lib/09-harness/openai-codex-docs-official/docs-quickstart.md)
+- **Reference**
+  - [Troubleshooting](/lib/09-harness/openai-codex-docs-official/docs-reference-troubleshooting.md)
+- **Remote**
+  - [Codex Remote](/lib/09-harness/openai-codex-docs-official/docs-remote.md)
+- **Remote Connections**
+  - [Remote connections](/lib/09-harness/openai-codex-docs-official/docs-remote-connections.md)
+- **Sandboxing**
+  - [Sandbox](/lib/09-harness/openai-codex-docs-official/docs-sandboxing.md)
+  - [Auto-review](/lib/09-harness/openai-codex-docs-official/docs-sandboxing-auto-review.md)
+- **Security**
+  - [Codex Security CLI FAQ](/lib/09-harness/openai-codex-docs-official/docs-security-cli-faq.md)
+  - [Codex Security CLI quickstart](/lib/09-harness/openai-codex-docs-official/docs-security-cli.md)
+  - [Codex Security CLI reference](/lib/09-harness/openai-codex-docs-official/docs-security-cli-reference.md)
+  - [Codex Security cloud FAQ](/lib/09-harness/openai-codex-docs-official/docs-security-faq.md)
+  - [Codex Security cloud setup](/lib/09-harness/openai-codex-docs-official/docs-security-setup.md)
+  - [Codex Security plugin quickstart](/lib/09-harness/openai-codex-docs-official/docs-security-plugin.md)
+  - [Codex Security TypeScript SDK](/lib/09-harness/openai-codex-docs-official/docs-security-sdk.md)
+  - [Export and track security findings](/lib/09-harness/openai-codex-docs-official/docs-security-plugin-export-findings.md)
+  - [Fix and verify security findings](/lib/09-harness/openai-codex-docs-official/docs-security-plugin-fix-findings.md)
+  - [Improving the threat model](/lib/09-harness/openai-codex-docs-official/docs-security-threat-model.md)
+  - [Propose security hardening](/lib/09-harness/openai-codex-docs-official/docs-security-plugin-security-hardening.md)
+  - [Review code changes for security](/lib/09-harness/openai-codex-docs-official/docs-security-plugin-code-changes.md)
+  - [Run a Codex Security scan](/lib/09-harness/openai-codex-docs-official/docs-security-plugin-scans.md)
+  - [Run a deep security scan](/lib/09-harness/openai-codex-docs-official/docs-security-plugin-deep-scans.md)
+  - [Run bulk security scans](/lib/09-harness/openai-codex-docs-official/docs-security-cli-bulk-scans.md)
+  - [Run Codex Security in CI](/lib/09-harness/openai-codex-docs-official/docs-security-cli-ci.md)
+  - [Run Codex Security in GitLab CI/CD](/lib/09-harness/openai-codex-docs-official/docs-security-cli-ci-gitlab.md)
+  - [Triage a backlog](/lib/09-harness/openai-codex-docs-official/docs-security-plugin-triage-backlog.md)
+  - [Use the Codex Security workbench](/lib/09-harness/openai-codex-docs-official/docs-security-plugin-workbench.md)
+  - [Write vulnerability reports](/lib/09-harness/openai-codex-docs-official/docs-security-plugin-vulnerability-reports.md)
+- **Security Administration**
+  - [Security](/lib/09-harness/openai-codex-docs-official/docs-security-administration.md)
+- **Sites**
+  - [Sites](/lib/09-harness/openai-codex-docs-official/docs-sites.md)
+- **Skills And Plugins**
+  - [Skills & Plugins](/lib/09-harness/openai-codex-docs-official/docs-skills-and-plugins.md)
+- **Third Party**
+  - [Review GitHub pull requests with Codex](/lib/09-harness/openai-codex-docs-official/docs-third-party-github.md)
+  - [Review GitLab merge requests with Codex](/lib/09-harness/openai-codex-docs-official/docs-third-party-gitlab.md)
+  - [Use Codex in Linear](/lib/09-harness/openai-codex-docs-official/docs-third-party-linear.md)
+  - [Use Codex in Slack](/lib/09-harness/openai-codex-docs-official/docs-third-party-slack.md)
+- **Use Chatgpt**
+  - [Use ChatGPT](/lib/09-harness/openai-codex-docs-official/docs-use-chatgpt.md)
+- **Visualizations**
+  - [Visualizations](/lib/09-harness/openai-codex-docs-official/docs-visualizations.md)
+- **Web**
+  - [ChatGPT on the web](/lib/09-harness/openai-codex-docs-official/docs-web.md)
+- **Web Search**
+  - [Web search](/lib/09-harness/openai-codex-docs-official/docs-web-search.md)
+- **Webmcp**
+  - [Site tools](/lib/09-harness/openai-codex-docs-official/docs-webmcp.md)
+- **Whats New**
+  - [What's new](/lib/09-harness/openai-codex-docs-official/docs-whats-new.md)
+- **Windows**
+  - [Windows sandbox](/lib/09-harness/openai-codex-docs-official/docs-windows-windows-sandbox.md)
+  - [WSL](/lib/09-harness/openai-codex-docs-official/docs-windows-wsl.md)
+- [openai-codex-docs-official](/lib/09-harness/openai-codex-docs-official/docs-app-server/01-Connect_the_CLI_terminal_UI.md)
+- [openai-codex-docs-official](/lib/09-harness/openai-codex-docs-official/docs-app-server/02-Connect_a_remote_Code_Mode_host.md)
+- [openai-codex-docs-official](/lib/09-harness/openai-codex-docs-official/docs-app-server/03-Protocol.md)
+- [openai-codex-docs-official](/lib/09-harness/openai-codex-docs-official/docs-app-server/04-Message_schema.md)
+- [openai-codex-docs-official](/lib/09-harness/openai-codex-docs-official/docs-app-server/05-Getting_started.md)
+- [openai-codex-docs-official](/lib/09-harness/openai-codex-docs-official/docs-app-server/06-Core_primitives.md)
+- [openai-codex-docs-official](/lib/09-harness/openai-codex-docs-official/docs-app-server/07-Lifecycle_overview.md)
+- [openai-codex-docs-official](/lib/09-harness/openai-codex-docs-official/docs-app-server/08-Initialization.md)
+- [openai-codex-docs-official](/lib/09-harness/openai-codex-docs-official/docs-app-server/09-Experimental_API_opt-in.md)
+- [openai-codex-docs-official](/lib/09-harness/openai-codex-docs-official/docs-app-server/10-API_overview.md)
+- [openai-codex-docs-official](/lib/09-harness/openai-codex-docs-official/docs-app-server/11-Models.md)
+- [openai-codex-docs-official](/lib/09-harness/openai-codex-docs-official/docs-app-server/12-Threads.md)
+- [openai-codex-docs-official](/lib/09-harness/openai-codex-docs-official/docs-app-server/13-Turns.md)
+- [openai-codex-docs-official](/lib/09-harness/openai-codex-docs-official/docs-app-server/14-Review.md)
+- [openai-codex-docs-official](/lib/09-harness/openai-codex-docs-official/docs-app-server/15-Process_execution.md)
+- [openai-codex-docs-official](/lib/09-harness/openai-codex-docs-official/docs-app-server/16-Command_execution.md)
+- [openai-codex-docs-official](/lib/09-harness/openai-codex-docs-official/docs-app-server/17-Filesystem.md)
+- [openai-codex-docs-official](/lib/09-harness/openai-codex-docs-official/docs-app-server/18-Events.md)
+- [openai-codex-docs-official](/lib/09-harness/openai-codex-docs-official/docs-app-server/19-Errors.md)
+- [openai-codex-docs-official](/lib/09-harness/openai-codex-docs-official/docs-app-server/20-Approvals.md)
+- [openai-codex-docs-official](/lib/09-harness/openai-codex-docs-official/docs-app-server/22-Apps_connectors.md)
+- [openai-codex-docs-official](/lib/09-harness/openai-codex-docs-official/docs-app-server/23-Auth_endpoints.md)
+- [openai-codex-docs-official](/lib/09-harness/openai-codex-docs-official/docs-codex-manual/01-Find_By_Topic.md)
+- [openai-codex-docs-official](/lib/09-harness/openai-codex-docs-official/docs-codex-manual/02-Surfaces_and_experiences.md)
+- [openai-codex-docs-official](/lib/09-harness/openai-codex-docs-official/docs-codex-manual/03-Execution_Model_and_Workflows.md)
+- [openai-codex-docs-official](/lib/09-harness/openai-codex-docs-official/docs-codex-manual/04-Approvals_Sandboxing_and_Security.md)
+- [openai-codex-docs-official](/lib/09-harness/openai-codex-docs-official/docs-codex-manual/05-Configuration_Authentication_and_Models.md)
+- [openai-codex-docs-official](/lib/09-harness/openai-codex-docs-official/docs-codex-manual/06-CLI_IDE_App_and_Cloud_Behavior.md)
+- [openai-codex-docs-official](/lib/09-harness/openai-codex-docs-official/docs-codex-manual/07-Customization_Skills_Rules_MCP_and_Integ.md)
+- [openai-codex-docs-official](/lib/09-harness/openai-codex-docs-official/docs-codex-manual/08-Noninteractive_and_Programmatic_Interfac.md)
+- [openai-codex-docs-official](/lib/09-harness/openai-codex-docs-official/docs-codex-manual/09-Platform_Enterprise_and_Caveats.md)
+- [Developer commands](/lib/09-harness/openai-codex-docs-official/docs-developer-commands.surface-ide.md)
+
+开始学习 → [Administration](docs-administration.md)

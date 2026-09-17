@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/didilili/ai-agents-from-zero"
-entryUrl: "https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/README.md"
+entryUrl: "https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/20-MCP模型上下文协议.md"
+sourceRel: "20-MCP模型上下文协议.md"
+rawUrl: "/raw/08-agents/ai-agents-from-zero/20-MCP模型上下文协议.md"
+sourceSha256: "3887db6e5c370ae583488a5a46df7980853dfe7f7e7efc3c4b2f634407c12cea"
+pageSha256: "3887db6e5c370ae583488a5a46df7980853dfe7f7e7efc3c4b2f634407c12cea"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -24,7 +29,7 @@ zh: ""
 
 **学习建议：** MCP 先别当成一堆协议名背，它的核心是把外部能力接入模型应用时变得更标准。第一遍只抓三组关系：Tools / Resources / Prompts 是暴露的能力，Host / Client / Server 是通信角色，stdio / Streamable HTTP 是传输方式。学完 [第 21 章 Agent 智能体](/lib/08-agents/ai-agents-from-zero/21-Agent智能体) 后再回来看 `Agent + MCP`，会更容易理解它为什么重要。
 
-**官方文档与资源**：详见 [工具导航与参考资料索引 - 工具调用、MCP与智能体](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/工具导航与参考资料索引.md#工具调用、MCP与智能体)。
+**官方文档与资源**：详见 [工具导航与参考资料索引 - 工具调用、MCP与智能体](/lib/08-agents/ai-agents-from-zero/工具导航与参考资料索引#工具调用、MCP与智能体)。
 
 ---
 

@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "04-work"
 sourceUrl: "https://github.com/tangshiyegit/agent-guide"
-entryUrl: "https://github.com/tangshiyegit/agent-guide/blob/ae8b2262e7a1e5bd0d466037c6ad9f6037b72c33/README.md"
+entryUrl: "https://github.com/tangshiyegit/agent-guide/blob/ae8b2262e7a1e5bd0d466037c6ad9f6037b72c33/src/Coze指南/AI基础知识/08.用DeepSeek写出爆款文案.md"
+sourceRel: "src/Coze指南/AI基础知识/08.用DeepSeek写出爆款文案.md"
+rawUrl: "/raw/04-work/agent-guide-office/src/Coze指南/AI基础知识/08.用DeepSeek写出爆款文案.md"
+sourceSha256: "0b61b849318e4ccd007249e19fa9e187b301b77139fa758263757d2a73f3674c"
+pageSha256: "0b61b849318e4ccd007249e19fa9e187b301b77139fa758263757d2a73f3674c"
+contentMode: "local-full"
 zh: ""
 ---
 

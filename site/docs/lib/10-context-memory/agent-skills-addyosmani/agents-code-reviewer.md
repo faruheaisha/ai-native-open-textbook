@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/addyosmani/agent-skills"
-entryUrl: "https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/README.md"
+entryUrl: "https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/agents/code-reviewer.md"
+sourceRel: "agents/code-reviewer.md"
+rawUrl: "/raw/10-context-memory/agent-skills-addyosmani/agents/code-reviewer.md"
+sourceSha256: "2d02acb9db1c37521d676587d2e0afb713c8983de957a78efdfa82d27e5fc3da"
+pageSha256: "2d02acb9db1c37521d676587d2e0afb713c8983de957a78efdfa82d27e5fc3da"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -108,4 +113,4 @@ Categorize every finding, using the same severity labels as the `code-review-and
 
 - **Invoke directly when:** the user asks for a review of a specific change, file, or PR.
 - **Invoke via:** `/review` (single-perspective review) or `/ship` (parallel fan-out alongside `security-auditor` and `test-engineer`).
-- **Do not invoke from another persona.** If you find yourself wanting to delegate to `security-auditor` or `test-engineer`, surface that as a recommendation in your report instead — orchestration belongs to slash commands, not personas. See [docs/agents.md](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/docs/agents.md).
+- **Do not invoke from another persona.** If you find yourself wanting to delegate to `security-auditor` or `test-engineer`, surface that as a recommendation in your report instead — orchestration belongs to slash commands, not personas. See [docs/agents.md](/lib/10-context-memory/agent-skills-addyosmani/docs-agents).

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/rohitg00/ai-engineering-from-scratch"
-entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/README.md"
+entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/certifications/claude/lessons/14-evals-testing-debugging-and-observability/docs/en.md"
+sourceRel: "certifications/claude/lessons/14-evals-testing-debugging-and-observability/docs/en.md"
+rawUrl: "/raw/07-coding/ai-engineering-from-scratch/certifications/claude/lessons/14-evals-testing-debugging-and-observability/docs/en.md"
+sourceSha256: "1a1843ca4d9e611c77c153fdebd1afd17b8fad4d90ebf97c7ca9b2012f49ec9e"
+pageSha256: "1a1843ca4d9e611c77c153fdebd1afd17b8fad4d90ebf97c7ca9b2012f49ec9e"
+contentMode: "local-full"
 zh: ""
 ---
 

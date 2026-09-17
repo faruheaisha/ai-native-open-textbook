@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/affaan-m/ECC"
-entryUrl: "https://github.com/affaan-m/ECC/blob/928c1dea72f5c330442fc1f595563398b8f389f7/README.md"
+entryUrl: "https://github.com/affaan-m/ECC/blob/928c1dea72f5c330442fc1f595563398b8f389f7/agents/flutter-reviewer.md"
+sourceRel: "agents/flutter-reviewer.md"
+rawUrl: "/raw/09-harness/ecc/agents/flutter-reviewer.md"
+sourceSha256: "26a78d27db9a035204c9c517314c880a5ea4419500da319acdb643b84d59b0b8"
+pageSha256: "26a78d27db9a035204c9c517314c880a5ea4419500da319acdb643b84d59b0b8"
+contentMode: "local-full"
 zh: ""
 ---
 

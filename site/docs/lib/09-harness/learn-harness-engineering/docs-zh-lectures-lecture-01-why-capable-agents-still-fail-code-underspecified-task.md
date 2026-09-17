@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/walkinglabs/learn-harness-engineering"
-entryUrl: "https://github.com/walkinglabs/learn-harness-engineering/blob/77e7a3e21469dcbece2558086c8d91657abeaa40/README.md"
+entryUrl: "https://github.com/walkinglabs/learn-harness-engineering/blob/77e7a3e21469dcbece2558086c8d91657abeaa40/docs/zh/lectures/lecture-01-why-capable-agents-still-fail/code/underspecified-task.md"
+sourceRel: "docs/zh/lectures/lecture-01-why-capable-agents-still-fail/code/underspecified-task.md"
+rawUrl: "/raw/09-harness/learn-harness-engineering/docs/zh/lectures/lecture-01-why-capable-agents-still-fail/code/underspecified-task.md"
+sourceSha256: "3e4f907f74b543a519dc6b33e821eb296697fd391191d37b285a9144bd22c9dc"
+pageSha256: "3e4f907f74b543a519dc6b33e821eb296697fd391191d37b285a9144bd22c9dc"
+contentMode: "local-full"
 zh: ""
 ---
 

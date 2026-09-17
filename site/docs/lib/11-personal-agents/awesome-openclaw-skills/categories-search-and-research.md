@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/VoltAgent/awesome-openclaw-skills"
-entryUrl: "https://github.com/VoltAgent/awesome-openclaw-skills/blob/37ad08c1b8e243d5f501c6fcaf7ac0b507bd83a1/README.md"
+entryUrl: "https://github.com/VoltAgent/awesome-openclaw-skills/blob/37ad08c1b8e243d5f501c6fcaf7ac0b507bd83a1/categories/search-and-research.md"
+sourceRel: "categories/search-and-research.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-skills/categories/search-and-research.md"
+sourceSha256: "0720c20953c415414e007d14ec0f5de41fe8f8cac026641d995dab7905387281"
+pageSha256: "0720c20953c415414e007d14ec0f5de41fe8f8cac026641d995dab7905387281"
+contentMode: "local-full"
 zh: ""
 ---
 

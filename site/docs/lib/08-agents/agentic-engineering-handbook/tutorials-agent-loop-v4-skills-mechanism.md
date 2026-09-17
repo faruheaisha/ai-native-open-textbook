@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/keyuchen21/agentic-engineering-handbook"
-entryUrl: "https://github.com/keyuchen21/agentic-engineering-handbook/blob/002d5456ac717fb6c4444005c9bb2ceff416d8c7/README.md"
+entryUrl: "https://github.com/keyuchen21/agentic-engineering-handbook/blob/002d5456ac717fb6c4444005c9bb2ceff416d8c7/tutorials/agent-loop/v4-skills-mechanism.md"
+sourceRel: "tutorials/agent-loop/v4-skills-mechanism.md"
+rawUrl: "/raw/08-agents/agentic-engineering-handbook/tutorials/agent-loop/v4-skills-mechanism.md"
+sourceSha256: "18c00430b14533b4355061a216c3d695255af226af4000625aafac158eb228e7"
+pageSha256: "18c00430b14533b4355061a216c3d695255af226af4000625aafac158eb228e7"
+contentMode: "local-full"
 zh: ""
 ---
 

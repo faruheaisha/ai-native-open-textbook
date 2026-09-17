@@ -1,0 +1,57 @@
+---
+title: "阿里云ai全栈一面"
+sourceId: "08-agents/zero2agent"
+sourceTitle: "Zero2Agent：从零实现 Agent"
+sourceKind: "课时教程"
+licenseLabel: "可转载"
+lang: "中文"
+tier: 2
+volume: "08-agents"
+sourceUrl: "https://github.com/ranxi2001/zero2Agent"
+entryUrl: "https://github.com/ranxi2001/zero2Agent/blob/46e9f7c28f84f54b2f6e45681d14989f01e18291/.claude/skills/scrape-nowcoder/nowcoder-agent-excellent-full/2026-08-13-阿里云ai全栈一面.md"
+sourceRel: ".claude/skills/scrape-nowcoder/nowcoder-agent-excellent-full/2026-08-13-阿里云ai全栈一面.md"
+rawUrl: "/raw/08-agents/zero2agent/.claude/skills/scrape-nowcoder/nowcoder-agent-excellent-full/2026-08-13-阿里云ai全栈一面.md"
+sourceSha256: "7e1c6173080f44689a15e8fb2a0af3df24f0155df47a54961da255b1d472d37f"
+pageSha256: "7e1c6173080f44689a15e8fb2a0af3df24f0155df47a54961da255b1d472d37f"
+contentMode: "local-full"
+zh: ""
+---
+
+# 阿里云ai全栈一面
+
+> 发布日期：2026-08-13
+> 来源：https://www.nowcoder.com/feed/main/detail/e67dfce683ea4a82bbf6e48456a22b92
+
+归档说明：保留原帖完整面试流程，并保持原有顺序；已移除账号、学校、作者所在地、个人结果、互动区和相关推荐，未补充答案或改写问题。
+
+---
+
+阿里云 秋招
+
+AI全栈开发工程师
+
+8月12日一面
+
+1.自我介绍
+
+2.算法题 力扣2958. 最多 K 个重复元素的最长子数组，用的阿里的平台，不能运行代码
+
+3.问我是不是熟悉python，然后开始问python八股了
+
+4.python的函数参数
+
+5.*和**什么意思，怎么用
+
+6.鸭子类型
+
+7.说到迭代器，生成器，在这两方面问了一堆，比如他俩的区别，底层原理等等
+
+8.数组切片的原理
+
+9.如何检验agent生成代码的质量
+
+10.如何提升agent生成代码的质量
+
+11.agent原理
+
+12.反问

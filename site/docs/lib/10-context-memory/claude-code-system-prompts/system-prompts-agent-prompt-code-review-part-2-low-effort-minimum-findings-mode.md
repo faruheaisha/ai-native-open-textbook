@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/Piebald-AI/claude-code-system-prompts"
-entryUrl: "https://github.com/Piebald-AI/claude-code-system-prompts/blob/3af4c6139aaabb0470440961ca8c8fb871099234/README.md"
+entryUrl: "https://github.com/Piebald-AI/claude-code-system-prompts/blob/3af4c6139aaabb0470440961ca8c8fb871099234/system-prompts/agent-prompt-code-review-part-2-low-effort-minimum-findings-mode.md"
+sourceRel: "system-prompts/agent-prompt-code-review-part-2-low-effort-minimum-findings-mode.md"
+rawUrl: "/raw/10-context-memory/claude-code-system-prompts/system-prompts/agent-prompt-code-review-part-2-low-effort-minimum-findings-mode.md"
+sourceSha256: "4f19b55348b4ce6bed41f3f3196b2e8d277ed58fd0d0ef5b05bd2fbdb51ed2a6"
+pageSha256: "4f19b55348b4ce6bed41f3f3196b2e8d277ed58fd0d0ef5b05bd2fbdb51ed2a6"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -18,7 +23,7 @@ zh: ""
 
 ## Turn 1 — read
 
-One tool call: read the unified diff (`git diff @{upstream}...HEAD; git diff HEAD`
+One tool call: read the unified diff (`git diff @\{upstream\}...HEAD; git diff HEAD`
 to cover both committed and uncommitted changes, or `git diff main...HEAD` /
 the target passed as an argument). Skip test/fixture
 hunks (`test/`, `spec/`, `__tests__/`, `*_test.*`, `*.test.*`,
@@ -38,7 +43,7 @@ Do **not** flag style, naming, perf, missing tests, or anything outside the
 hunk.
 
 ${HAS_REPORT_FINDINGS_TOOL?`Target **min(files_changed, 4) findings**, most-severe first, reported
-in one ${REPORT_FINDINGS_TOOL_NAME} call with `{level, findings}` — each
+in one ${REPORT_FINDINGS_TOOL_NAME\} call with `\{level, findings\}` — each
 entry has `file`, `line`, `summary`, `short_summary` (≤60 characters),
 and `failure_scenario`. If you have fewer, do one more pass focused on the
 largest changed file and on any **removed** code blocks. Call it with an
@@ -49,4 +54,4 @@ line each: `path/to/file.ext:123 — what's wrong and the concrete failure`.
 If you have fewer, do one more pass focused on the largest changed file
 and on any **removed** code blocks. Output `(none)` only if the diff is
 trivially correct after that pass.
-`}
+`\}

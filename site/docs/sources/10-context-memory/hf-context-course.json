@@ -1,0 +1,18 @@
+{
+  "id": "10-context-memory/hf-context-course",
+  "volume": "10-context-memory",
+  "local": "hf-context-course",
+  "title": "The Context Course",
+  "kind": "系统课程",
+  "license": "未声明（根目录无 LICENSE；仅 projects/pre-training/LICENSE）",
+  "licenseLabel": "仅引用",
+  "licenseNote": "不可整篇转载，站内只做导航与引用",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": false,
+  "repo": "huggingface/context-course",
+  "site": null,
+  "commit": "0448a7ca721a63a81531e1ba94f46f897c70645b",
+  "entryUrl": "https://github.com/huggingface/context-course/blob/0448a7ca721a63a81531e1ba94f46f897c70645b/README.md",
+  "docs": 136
+}

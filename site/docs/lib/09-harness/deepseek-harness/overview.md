@@ -9,12 +9,17 @@ tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/deepseek-ai/deepseek-harness"
 entryUrl: "https://github.com/deepseek-ai/deepseek-harness/blob/c291e7961a515f6d7af9304e7fd1d257929aef26/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/09-harness/deepseek-harness/README.md"
+sourceSha256: "b43a2af65d10028e5de61e4603f946bfce9b777df079e92745491c7700a6d58e"
+pageSha256: "b43a2af65d10028e5de61e4603f946bfce9b777df079e92745491c7700a6d58e"
+contentMode: "local-full"
 zh: ""
 ---
 
 # DeepSeek Harness
 
-English | [中文](https://github.com/deepseek-ai/deepseek-harness/blob/c291e7961a515f6d7af9304e7fd1d257929aef26/README.zh.md)
+English | [中文](/lib/09-harness/deepseek-harness/README.zh)
 
 DeepSeek Harness (`dsh`) is an open-source agent harness developed by [DeepSeek AI](https://deepseek.com).
 

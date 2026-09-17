@@ -1,0 +1,42 @@
+---
+title: "欢迎来到最后一个单元 [[介绍]]"
+sourceId: "08-agents/huggingface-agents-course"
+sourceTitle: "Hugging Face Agents Course（智能体课程）"
+sourceKind: "系统课程"
+licenseLabel: "可转载"
+lang: "英文"
+tier: 1
+volume: "08-agents"
+sourceUrl: "https://github.com/huggingface/agents-course"
+entryUrl: "https://github.com/huggingface/agents-course/blob/b3946b1d09d29c65736e219d48a8a736a2c52154/units/zh-CN/unit4/introduction.mdx"
+sourceRel: "units/zh-CN/unit4/introduction.mdx"
+rawUrl: "/raw/08-agents/huggingface-agents-course/units/zh-CN/unit4/introduction.mdx"
+sourceSha256: "4967c7bf3d574024b65c9072088e5f6d870b6618cad7bb21d596e0baa191107a"
+pageSha256: "4967c7bf3d574024b65c9072088e5f6d870b6618cad7bb21d596e0baa191107a"
+contentMode: "local-full"
+zh: ""
+---
+
+# 欢迎来到最后一个单元 [[介绍]]
+
+<img src="https://huggingface.co/datasets/agents-course/course-images/resolve/main/en/unit4/thumbnail.jpg" alt="AI Agents Course thumbnail" width="100%"/>
+
+欢迎来到课程的最后一个单元！🎉
+
+到目前为止，您已经**在AI智能体方面建立了坚实的基础**，从理解其组件到创建自己的智能体。有了这些知识，您现在可以**构建强大的智能体**并在这个快速发展的领域中赶上潮流。
+
+这个单元和应用您所学的知识有关。这是您的**最终动手项目**，完成它是您获得**课程证书**的入场券。
+
+## 挑战是什么？
+
+您将创建自己的智能体并**使用[GAIA基准](https://huggingface.co/spaces/gaia-benchmark/leaderboard)的一个子集评估其性能**。
+
+为了成功完成课程，您的智能体需要在基准测试中得到**30%或更高**的分数。实现这一目标，您将获得**完成证书**，正式认证您的专业知识。🏅
+
+此外，您还可以查看自己在所有课程参与者中的表现！我们提供了一个专门的[**学生排行榜**](https://huggingface.co/spaces/agents-course/Students_leaderboard)，您可以提交自己的成绩，并查看整个社区的进展情况。
+
+> 🚨 **提示：更高级的实践单元**
+>
+> 请注意，这个单元转向更实用的动手方法。在这一部分取得成功需要**更高级的编码知识**，并且与课程的前期部分相比，需要您在**较少明确指导**的情况下完成任务。
+
+这听起来很棒，对吧？让我们开始吧！🚀

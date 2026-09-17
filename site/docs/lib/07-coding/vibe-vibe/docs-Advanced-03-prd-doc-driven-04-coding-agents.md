@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/datawhalechina/vibe-vibe"
-entryUrl: "https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/README.md"
+entryUrl: "https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/Advanced/03-prd-doc-driven/04-coding-agents.md"
+sourceRel: "docs/Advanced/03-prd-doc-driven/04-coding-agents.md"
+rawUrl: "/raw/07-coding/vibe-vibe/docs/Advanced/03-prd-doc-driven/04-coding-agents.md"
+sourceSha256: "484dcad8a5d3fdc02132f83467cd2f70f9b193c49a36b9b5eeb8accff7a809bf"
+pageSha256: "484dcad8a5d3fdc02132f83467cd2f70f9b193c49a36b9b5eeb8accff7a809bf"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -81,7 +86,7 @@ AI 根据 PRD 中的"数据"相关描述，设计数据结构：
 
 | PRD 中的描述 | AI 理解的数据结构 |
 |-------------|------------------|
-| "任务有标题、完成状态" | `{ title: string, completed: boolean }` |
+| "任务有标题、完成状态" | `\{ title: string, completed: boolean \}` |
 | "用户可以添加多个任务" | `tasks: Array<Task>` |
 | "数据需要保存" | 需要 localStorage 或数据库 |
 
@@ -320,4 +325,4 @@ graph TD
 ## 相关内容
 
 - 前置：[3.3 PRD 编写实战](/lib/07-coding/vibe-vibe/docs-Advanced-03-prd-doc-driven-03-prd-template-guide)
-- 详见：[第四章：开发常识与技术栈](https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/Advanced/04-dev-fundamentals/index.md)
+- 详见：[第四章：开发常识与技术栈](/lib/07-coding/vibe-vibe/docs-Advanced-04-dev-fundamentals)

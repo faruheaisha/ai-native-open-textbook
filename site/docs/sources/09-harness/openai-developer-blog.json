@@ -1,0 +1,18 @@
+{
+  "id": "09-harness/openai-developer-blog",
+  "volume": "09-harness",
+  "local": "openai-developer-blog",
+  "title": "openai-developer-blog",
+  "kind": "官方博客",
+  "license": "官方博客（站点条款）",
+  "licenseLabel": "仅引用",
+  "licenseNote": "不可整篇转载，站内只做导航与引用",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": false,
+  "repo": null,
+  "site": "https://developers.openai.com/blog",
+  "commit": null,
+  "entryUrl": "https://developers.openai.com/blog",
+  "docs": 30
+}

@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/2025Emma/vibe-coding-cn"
-entryUrl: "https://github.com/2025Emma/vibe-coding-cn/blob/9b42dd10ddf3fff58f8c7a4d347175db107d7bf9/README.md"
+entryUrl: "https://github.com/2025Emma/vibe-coding-cn/blob/9b42dd10ddf3fff58f8c7a4d347175db107d7bf9/i18n/zh/prompts/coding_prompts/%2819,1%29_##_角色定义.md"
+sourceRel: "i18n/zh/prompts/coding_prompts/(19,1)_##_角色定义.md"
+rawUrl: "/raw/07-coding/vibe-coding-cn/i18n/zh/prompts/coding_prompts/(19,1)_##_角色定义.md"
+sourceSha256: "975062c378c8a017b0e0471f9249446fb5c844351373143e08af9606238f32b0"
+pageSha256: "975062c378c8a017b0e0471f9249446fb5c844351373143e08af9606238f32b0"
+contentMode: "local-full"
 zh: ""
 ---
 

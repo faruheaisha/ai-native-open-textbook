@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/2025Emma/vibe-coding-cn"
-entryUrl: "https://github.com/2025Emma/vibe-coding-cn/blob/9b42dd10ddf3fff58f8c7a4d347175db107d7bf9/README.md"
+entryUrl: "https://github.com/2025Emma/vibe-coding-cn/blob/9b42dd10ddf3fff58f8c7a4d347175db107d7bf9/i18n/zh/prompts/coding_prompts/%281,1%29_#_📘_项目上下文文档生成_·_工程化_Prompt（专业优化版）.md"
+sourceRel: "i18n/zh/prompts/coding_prompts/(1,1)_#_📘_项目上下文文档生成_·_工程化_Prompt（专业优化版）.md"
+rawUrl: "/raw/07-coding/vibe-coding-cn/i18n/zh/prompts/coding_prompts/(1,1)_#_📘_项目上下文文档生成_·_工程化_Prompt（专业优化版）.md"
+sourceSha256: "8d4c3c281f508fc721df5db7802af37bc9e6a161a675e22adcbc9ae033697c1d"
+pageSha256: "8d4c3c281f508fc721df5db7802af37bc9e6a161a675e22adcbc9ae033697c1d"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -43,92 +48,92 @@ zh: ""
 
 #### 2.1 项目概要（Project Overview）
 
-文档.项目概要 = {  
+文档.项目概要 = \{  
   项目名称: "暂无信息",  
   项目背景: "暂无信息",  
   目标与目的: "暂无信息",  
   要解决的问题: "暂无信息",  
   整体愿景: "暂无信息"  
-}
+\}
 
 ---
 
 #### 2.2 范围定义（Scope Definition）
 
-文档.范围定义 = {  
+文档.范围定义 = \{  
   当前范围: "暂无信息",  
   非本次范围: "暂无信息",  
   约束条件: "暂无信息"  
-}
+\}
 
 ---
 
 #### 2.3 关键实体与关系（Key Entities & Relationships）
 
-文档.实体信息 = {  
+文档.实体信息 = \{  
   核心实体: [],  
-  实体职责: {},        // key = 实体名称，value = 职责说明  
+  实体职责: \{\},        // key = 实体名称，value = 职责说明  
   实体关系描述: "暂无信息"  
-}
+\}
 
 ---
 
 #### 2.4 功能模块拆解（Functional Decomposition）
 
-文档.功能模块 = {  
+文档.功能模块 = \{  
   模块列表: [],  
-  模块详情: {  
-    模块名称: {  
+  模块详情: \{  
+    模块名称: \{  
       输入: "暂无信息",  
       输出: "暂无信息",  
       核心逻辑: "暂无信息"  
-    }  
-  },  
+    \}  
+  \},  
   典型用户场景: "暂无信息"  
-}
+\}
 
 ---
 
 #### 2.5 技术方向与关键决策（Technical Direction & Decisions）
 
-文档.技术方向 = {  
+文档.技术方向 = \{  
   客户端: "暂无信息",  
   服务端: "暂无信息",  
   模型或算法层: "暂无信息",  
   数据流与架构: "暂无信息",  
   已做技术决策: [],  
   可替代方案: []  
-}
+\}
 
 ---
 
 #### 2.6 交互、风格与输出约定（Interaction & Style Conventions）
 
-文档.交互约定 = {  
+文档.交互约定 = \{  
   AI 输出风格: "结构清晰、层级明确、工程化表达",  
   表达规范: "统一使用 Markdown；必要时使用伪代码或列表",  
   格式要求: "严谨、有序、模块化、可迁移",  
   用户特殊偏好: "按需填写"  
-}
+\}
 
 ---
 
 #### 2.7 当前进展总结（Current Status）
 
-文档.进展总结 = {  
+文档.进展总结 = \{  
   已确认事实: [],  
   未解决问题: []  
-}
+\}
 
 ---
 
 #### 2.8 后续计划与风险（Next Steps & Risks）
 
-文档.后续计划 = {  
+文档.后续计划 = \{  
   待讨论主题: [],  
   潜在风险与不确定性: [],  
   推荐的后续初始化 Prompt: "暂无信息"  
-}
+\}
 
 ---
 

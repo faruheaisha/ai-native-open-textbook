@@ -9,6 +9,11 @@ tier: 3
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/volcengine/MineContext"
 entryUrl: "https://github.com/volcengine/MineContext/blob/171c7a9ea8091e326ddcf0f10718aa1b58c83c65/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/11-personal-agents/mine-context/README.md"
+sourceSha256: "ffe35e60018365921612757391d49a14b1a8265d7c6ad08f23c8552048c592d1"
+pageSha256: "ffe35e60018365921612757391d49a14b1a8265d7c6ad08f23c8552048c592d1"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/zebbern/claude-code-guide"
-entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/README.md"
+entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/skills/authentication-patterns/SKILL.md"
+sourceRel: "skills/authentication-patterns/SKILL.md"
+rawUrl: "/raw/09-harness/claude-code-guide-zebbern/skills/authentication-patterns/SKILL.md"
+sourceSha256: "4c26152037ad282603465917df158e5bfcf44211f63ad92e854c9731c477214f"
+pageSha256: "4c26152037ad282603465917df158e5bfcf44211f63ad92e854c9731c477214f"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/AlephAITech/WorkBuddyGuide"
-entryUrl: "https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89da368fe208425ff50e121fe/README.md"
+entryUrl: "https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇%20案例篇：从一项任务到一支%20AI%20团队/第%2014%20章%20生活助手的价值，是减少琐碎/index.md"
+sourceRel: "docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 14 章 生活助手的价值，是减少琐碎/index.md"
+rawUrl: "/raw/04-work/workbuddy-guide/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 14 章 生活助手的价值，是减少琐碎/index.md"
+sourceSha256: "82b3147af1e5a63cc621784db4acb7fe2cecf8d4ae631ba7649db63b49954685"
+pageSha256: "82b3147af1e5a63cc621784db4acb7fe2cecf8d4ae631ba7649db63b49954685"
+contentMode: "local-full"
 zh: ""
 ---
 

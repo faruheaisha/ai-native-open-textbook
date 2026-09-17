@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/datawhalechina/vibe-vibe"
-entryUrl: "https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/README.md"
+entryUrl: "https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/Advanced/01-environment-setup/02-tech-stack.md"
+sourceRel: "docs/Advanced/01-environment-setup/02-tech-stack.md"
+rawUrl: "/raw/07-coding/vibe-vibe/docs/Advanced/01-environment-setup/02-tech-stack.md"
+sourceSha256: "74a5d45132863710a9020c823c27ff196b7a3d528ac1d3a130793b167e35522d"
+pageSha256: "74a5d45132863710a9020c823c27ff196b7a3d528ac1d3a130793b167e35522d"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -178,6 +183,6 @@ TypeScript 在开发阶段就能发现错误，AI 会用它写代码。你只需
 
 ## 相关内容
 
-- 详见：[1.1 代码格式演变](https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/Advanced/01-environment-setup/01-code-formats.md)
+- 详见：[1.1 代码格式演变](/lib/07-coding/vibe-vibe/docs-Advanced-01-environment-setup-01-code-formats)
 - 详见：[1.3 浏览器与服务器基础](/lib/07-coding/vibe-vibe/docs-Advanced-01-environment-setup-03-browser-server)
 - 后续：[1.5 包管理与项目配置](/lib/07-coding/vibe-vibe/docs-Advanced-01-environment-setup-05-package-manager-and-config)

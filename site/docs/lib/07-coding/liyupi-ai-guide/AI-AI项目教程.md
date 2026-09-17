@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/liyupi/ai-guide"
-entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a02735b38c866/README.md"
+entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a02735b38c866/AI/AI项目教程/README.md"
+sourceRel: "AI/AI项目教程/README.md"
+rawUrl: "/raw/07-coding/liyupi-ai-guide/AI/AI项目教程/README.md"
+sourceSha256: "618218dca05bef42873d87350c82aeae7945fc00070053e328392652d9ab59ec"
+pageSha256: "618218dca05bef42873d87350c82aeae7945fc00070053e328392652d9ab59ec"
+contentMode: "local-full"
 zh: ""
 ---
 

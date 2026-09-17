@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "08-agents"
 sourceUrl: "https://github.com/huggingface/agents-course"
-entryUrl: "https://github.com/huggingface/agents-course/blob/b3946b1d09d29c65736e219d48a8a736a2c52154/README.md"
+entryUrl: "https://github.com/huggingface/agents-course/blob/b3946b1d09d29c65736e219d48a8a736a2c52154/units/en/bonus-unit3/building_your_pokemon_agent.mdx"
+sourceRel: "units/en/bonus-unit3/building_your_pokemon_agent.mdx"
+rawUrl: "/raw/08-agents/huggingface-agents-course/units/en/bonus-unit3/building_your_pokemon_agent.mdx"
+sourceSha256: "ef03686fbc8d56b458dc16ee5100a0c355026fdc25fc21f83d4ab1bea57449bd"
+pageSha256: "ef03686fbc8d56b458dc16ee5100a0c355026fdc25fc21f83d4ab1bea57449bd"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -80,14 +85,14 @@ Here’s an excerpt showing how that decision-making works:
 
 
 ```python
-STANDARD_TOOL_SCHEMA = {
-    "choose_move": {
+STANDARD_TOOL_SCHEMA = \{
+    "choose_move": \{
         ...
-    },
-    "choose_switch": {
+    \},
+    "choose_switch": \{
         ...
-    },
-}
+    \},
+\}
 
 class LLMAgentBase(Player):
     def __init__(self, *args, **kwargs):
@@ -97,26 +102,26 @@ class LLMAgentBase(Player):
 
     def _format_battle_state(self, battle: Battle) -> str:
         active_pkmn = battle.active_pokemon
-        active_pkmn_info = f"Your active Pokemon: {active_pkmn.species} " \
-                           f"(Type: {'/'.join(map(str, active_pkmn.types))}) " \
-                           f"HP: {active_pkmn.current_hp_fraction * 100:.1f}% " \
-                           f"Status: {active_pkmn.status.name if active_pkmn.status else 'None'} " \
-                           f"Boosts: {active_pkmn.boosts}"
+        active_pkmn_info = f"Your active Pokemon: \{active_pkmn.species\} " \
+                           f"(Type: \{'/'.join(map(str, active_pkmn.types))\}) " \
+                           f"HP: \{active_pkmn.current_hp_fraction * 100:.1f\}% " \
+                           f"Status: \{active_pkmn.status.name if active_pkmn.status else 'None'\} " \
+                           f"Boosts: \{active_pkmn.boosts\}"
 
         opponent_pkmn = battle.opponent_active_pokemon
         opp_info_str = "Unknown"
         if opponent_pkmn:
-            opp_info_str = f"{opponent_pkmn.species} " \
-                           f"(Type: {'/'.join(map(str, opponent_pkmn.types))}) " \
-                           f"HP: {opponent_pkmn.current_hp_fraction * 100:.1f}% " \
-                           f"Status: {opponent_pkmn.status.name if opponent_pkmn.status else 'None'} " \
-                           f"Boosts: {opponent_pkmn.boosts}"
-        opponent_pkmn_info = f"Opponent's active Pokemon: {opp_info_str}"
+            opp_info_str = f"\{opponent_pkmn.species\} " \
+                           f"(Type: \{'/'.join(map(str, opponent_pkmn.types))\}) " \
+                           f"HP: \{opponent_pkmn.current_hp_fraction * 100:.1f\}% " \
+                           f"Status: \{opponent_pkmn.status.name if opponent_pkmn.status else 'None'\} " \
+                           f"Boosts: \{opponent_pkmn.boosts\}"
+        opponent_pkmn_info = f"Opponent's active Pokemon: \{opp_info_str\}"
 
         available_moves_info = "Available moves:\n"
         if battle.available_moves:
             available_moves_info += "\n".join(
-                [f"- {move.id} (Type: {move.type}, BP: {move.base_power}, Acc: {move.accuracy}, PP: {move.current_pp}/{move.max_pp}, Cat: {move.category.name})"
+                [f"- \{move.id\} (Type: \{move.type\}, BP: \{move.base_power\}, Acc: \{move.accuracy\}, PP: \{move.current_pp\}/\{move.max_pp\}, Cat: \{move.category.name\})"
                  for move in battle.available_moves]
             )
         else:
@@ -125,20 +130,20 @@ class LLMAgentBase(Player):
         available_switches_info = "Available switches:\n"
         if battle.available_switches:
               available_switches_info += "\n".join(
-                  [f"- {pkmn.species} (HP: {pkmn.current_hp_fraction * 100:.1f}%, Status: {pkmn.status.name if pkmn.status else 'None'})"
+                  [f"- \{pkmn.species\} (HP: \{pkmn.current_hp_fraction * 100:.1f\}%, Status: \{pkmn.status.name if pkmn.status else 'None'\})"
                    for pkmn in battle.available_switches]
               )
         else:
             available_switches_info += "- None"
 
-        state_str = f"{active_pkmn_info}\n" \
-                    f"{opponent_pkmn_info}\n\n" \
-                    f"{available_moves_info}\n\n" \
-                    f"{available_switches_info}\n\n" \
-                    f"Weather: {battle.weather}\n" \
-                    f"Terrains: {battle.fields}\n" \
-                    f"Your Side Conditions: {battle.side_conditions}\n" \
-                    f"Opponent Side Conditions: {battle.opponent_side_conditions}"
+        state_str = f"\{active_pkmn_info\}\n" \
+                    f"\{opponent_pkmn_info\}\n\n" \
+                    f"\{available_moves_info\}\n\n" \
+                    f"\{available_switches_info\}\n\n" \
+                    f"Weather: \{battle.weather\}\n" \
+                    f"Terrains: \{battle.fields\}\n" \
+                    f"Your Side Conditions: \{battle.side_conditions\}\n" \
+                    f"Opponent Side Conditions: \{battle.opponent_side_conditions\}"
         return state_str.strip()
 
     def _find_move_by_name(self, battle: Battle, move_name: str) -> Optional[Move]:
@@ -150,7 +155,7 @@ class LLMAgentBase(Player):
         # Fallback: Check display name (less reliable)
         for move in battle.available_moves:
             if move.name.lower() == move_name.lower():
-                print(f"Warning: Matched move by display name '{move.name}' instead of ID '{move.id}'. Input was '{move_name}'.")
+                print(f"Warning: Matched move by display name '\{move.name\}' instead of ID '\{move.id\}'. Input was '\{move_name\}'.")
                 return move
         return None
 
@@ -173,18 +178,18 @@ class LLMAgentBase(Player):
 
         if decision:
             function_name = decision.get("name")
-            args = decision.get("arguments", {})
+            args = decision.get("arguments", \{\})
             if function_name == "choose_move":
                 move_name = args.get("move_name")
                 if move_name:
                     chosen_move = self._find_move_by_name(battle, move_name)
                     if chosen_move and chosen_move in battle.available_moves:
                         action_taken = True
-                        chat_msg = f"AI Decision: Using move '{chosen_move.id}'."
+                        chat_msg = f"AI Decision: Using move '\{chosen_move.id\}'."
                         print(chat_msg)
                         return self.create_order(chosen_move)
                     else:
-                        fallback_reason = f"LLM chose unavailable/invalid move '{move_name}'."
+                        fallback_reason = f"LLM chose unavailable/invalid move '\{move_name\}'."
                 else:
                      fallback_reason = "LLM 'choose_move' called without 'move_name'."
             elif function_name == "choose_switch":
@@ -193,26 +198,26 @@ class LLMAgentBase(Player):
                     chosen_switch = self._find_pokemon_by_name(battle, pokemon_name)
                     if chosen_switch and chosen_switch in battle.available_switches:
                         action_taken = True
-                        chat_msg = f"AI Decision: Switching to '{chosen_switch.species}'."
+                        chat_msg = f"AI Decision: Switching to '\{chosen_switch.species\}'."
                         print(chat_msg)
                         return self.create_order(chosen_switch)
                     else:
-                        fallback_reason = f"LLM chose unavailable/invalid switch '{pokemon_name}'."
+                        fallback_reason = f"LLM chose unavailable/invalid switch '\{pokemon_name\}'."
                 else:
                     fallback_reason = "LLM 'choose_switch' called without 'pokemon_name'."
             else:
-                fallback_reason = f"LLM called unknown function '{function_name}'."
+                fallback_reason = f"LLM called unknown function '\{function_name\}'."
 
         if not action_taken:
             if not fallback_reason:
                  if error_message:
-                     fallback_reason = f"API Error: {error_message}"
+                     fallback_reason = f"API Error: \{error_message\}"
                  elif decision is None:
                       fallback_reason = "LLM did not provide a valid function call."
                  else:
                       fallback_reason = "Unknown error processing LLM decision."
 
-            print(f"Warning: {fallback_reason} Choosing random action.")
+            print(f"Warning: \{fallback_reason\} Choosing random action.")
 
             if battle.available_moves or battle.available_switches:
                  return self.choose_random_move(battle)
@@ -254,17 +259,17 @@ class TemplateAgent(LLMAgentBase):
             response = await self.template_client.chat.completions.create(
                 model=self.model,
                 messages=[
-                    {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": user_prompt},
+                    \{"role": "system", "content": system_prompt\},
+                    \{"role": "user", "content": user_prompt\},
                 ],
             )
             message = response.choices[0].message
             
-            return {"decision": {"name": function_name, "arguments": arguments&#125;&#125;
+            return \{"decision": \{"name": function_name, "arguments": arguments&#125;&#125;
 
         except Exception as e:
-            print(f"Unexpected error during call: {e}")
-            return {"error": f"Unexpected error: {e}"}
+            print(f"Unexpected error during call: \{e\}")
+            return \{"error": f"Unexpected error: \{e\}"\}
 ```
 
 This code won’t run out of the box, it’s a blueprint for your custom logic.

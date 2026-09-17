@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works"
-entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/README.md"
+entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/07-multi-agent.md"
+sourceRel: "docs/07-multi-agent.md"
+rawUrl: "/raw/09-harness/how-claude-code-works/docs/07-multi-agent.md"
+sourceSha256: "e16b9c2103238784487d9391b13a0d973d6fa5f649c69e020a02ad486562cfd7"
+pageSha256: "e16b9c2103238784487d9391b13a0d973d6fa5f649c69e020a02ad486562cfd7"
+contentMode: "local-full"
 zh: ""
 ---
 

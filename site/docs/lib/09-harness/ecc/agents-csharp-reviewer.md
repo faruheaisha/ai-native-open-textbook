@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/affaan-m/ECC"
-entryUrl: "https://github.com/affaan-m/ECC/blob/928c1dea72f5c330442fc1f595563398b8f389f7/README.md"
+entryUrl: "https://github.com/affaan-m/ECC/blob/928c1dea72f5c330442fc1f595563398b8f389f7/agents/csharp-reviewer.md"
+sourceRel: "agents/csharp-reviewer.md"
+rawUrl: "/raw/09-harness/ecc/agents/csharp-reviewer.md"
+sourceSha256: "34652d6a39387d0d008a90804b1b271ae62bba77abaf9537b79bd7705b1724e0"
+pageSha256: "34652d6a39387d0d008a90804b1b271ae62bba77abaf9537b79bd7705b1724e0"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -42,8 +47,8 @@ When invoked:
 - **CSRF/XSS**: Missing `[ValidateAntiForgeryToken]`, unencoded output in Razor
 
 ### CRITICAL — Error Handling
-- **Empty catch blocks**: `catch { }` or `catch (Exception) { }` — handle or rethrow
-- **Swallowed exceptions**: `catch { return null; }` — log context, throw specific
+- **Empty catch blocks**: `catch \{ \}` or `catch (Exception) \{ \}` — handle or rethrow
+- **Swallowed exceptions**: `catch \{ return null; \}` — log context, throw specific
 - **Missing `using`/`await using`**: Manual disposal of `IDisposable`/`IAsyncDisposable`
 - **Blocking async**: `.Result`, `.Wait()`, `.GetAwaiter().GetResult()` — use `await`
 

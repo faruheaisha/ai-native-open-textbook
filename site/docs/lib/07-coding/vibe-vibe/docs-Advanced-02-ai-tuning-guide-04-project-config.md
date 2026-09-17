@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/datawhalechina/vibe-vibe"
-entryUrl: "https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/README.md"
+entryUrl: "https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/Advanced/02-ai-tuning-guide/04-project-config.md"
+sourceRel: "docs/Advanced/02-ai-tuning-guide/04-project-config.md"
+rawUrl: "/raw/07-coding/vibe-vibe/docs/Advanced/02-ai-tuning-guide/04-project-config.md"
+sourceSha256: "bf22707ab2f5cb66d807e5b8f3d3c4d076966db64a5b4130dfc4165ad2c1b81e"
+pageSha256: "bf22707ab2f5cb66d807e5b8f3d3c4d076966db64a5b4130dfc4165ad2c1b81e"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -665,7 +670,7 @@ git pull
 
 - **项目级** (`.claude/settings.json`)：提交到 Git，不含密钥
 - **用户级** (`~/.claude/settings.json`)：不提交，包含个人密钥
-- 使用 `${VAR_NAME}` 引用环境变量
+- 使用 `$\{VAR_NAME\}` 引用环境变量
 
 ## 相关内容
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/shanraisshan/claude-code-best-practice"
-entryUrl: "https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/README.md"
+entryUrl: "https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/best-practice/claude-memory.md"
+sourceRel: "best-practice/claude-memory.md"
+rawUrl: "/raw/09-harness/claude-code-best-practice/best-practice/claude-memory.md"
+sourceSha256: "72cbd41221ba74eee1320c91af45b8e070afecfc6350235b9051389d0a03d565"
+pageSha256: "72cbd41221ba74eee1320c91af45b8e070afecfc6350235b9051389d0a03d565"
+contentMode: "local-full"
 zh: ""
 ---
 

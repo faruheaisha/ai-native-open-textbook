@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/Osly-AI/PocketManus"
-entryUrl: "https://github.com/Osly-AI/PocketManus/blob/8ab0ec5f2d5dc17ff58b060af7afcda08a9f57fd/README.md"
+entryUrl: "https://github.com/Osly-AI/PocketManus/blob/8ab0ec5f2d5dc17ff58b060af7afcda08a9f57fd/PocketFlow/docs/core_abstraction/node.md"
+sourceRel: "PocketFlow/docs/core_abstraction/node.md"
+rawUrl: "/raw/08-agents/pocket-manus/PocketFlow/docs/core_abstraction/node.md"
+sourceSha256: "7b8cb56a0841348d94b936ecc39f61be95074577e2944963806979b3010daa61"
+pageSha256: "7b8cb56a0841348d94b936ecc39f61be95074577e2944963806979b3010daa61"
+contentMode: "local-full"
 zh: ""
 ---
 

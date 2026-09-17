@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/hoangnb24/repository-harness"
-entryUrl: "https://github.com/hoangnb24/repository-harness/blob/e765792b635b4d5e3e5fc0578f82f9ca5dea2681/README.md"
+entryUrl: "https://github.com/hoangnb24/repository-harness/blob/e765792b635b4d5e3e5fc0578f82f9ca5dea2681/docs/plans/completed/p1-encode-invariants.md"
+sourceRel: "docs/plans/completed/p1-encode-invariants.md"
+rawUrl: "/raw/09-harness/repository-harness/docs/plans/completed/p1-encode-invariants.md"
+sourceSha256: "a131c3dbee3f410b66322db9f6cb4f9bede287f71434b7d60e63b09c2039df87"
+pageSha256: "a131c3dbee3f410b66322db9f6cb4f9bede287f71434b7d60e63b09c2039df87"
+contentMode: "local-full"
 zh: ""
 ---
 

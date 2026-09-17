@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/liyupi/ai-guide"
-entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a02735b38c866/README.md"
+entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a02735b38c866/AI/AI应用场景/AI%20+%20办公效率/教师必备DeepSeek使用指南来了！5大教学应用场景+实操案例+隐藏用法.md"
+sourceRel: "AI/AI应用场景/AI + 办公效率/教师必备DeepSeek使用指南来了！5大教学应用场景+实操案例+隐藏用法.md"
+rawUrl: "/raw/07-coding/liyupi-ai-guide/AI/AI应用场景/AI + 办公效率/教师必备DeepSeek使用指南来了！5大教学应用场景+实操案例+隐藏用法.md"
+sourceSha256: "51ebece718af5e0aa1a6ba6dfc2b04bb963c1e0d7d0febed92ebe32c119f6491"
+pageSha256: "51ebece718af5e0aa1a6ba6dfc2b04bb963c1e0d7d0febed92ebe32c119f6491"
+contentMode: "local-full"
 zh: ""
 ---
 

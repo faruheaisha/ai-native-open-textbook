@@ -1,0 +1,144 @@
+---
+title: "openai-codex-docs-official"
+sourceId: "09-harness/openai-codex-docs-official"
+sourceTitle: "openai-codex-docs-official"
+sourceKind: "官方文档"
+licenseLabel: "仅引用"
+lang: "英文"
+tier: 3
+volume: "09-harness"
+sourceUrl: "https://learn.chatgpt.com/docs"
+entryUrl: "https://learn.chatgpt.com/docs"
+sourceRel: "docs/codex-manual.md"
+rawUrl: "/raw/09-harness/openai-codex-docs-official/docs/codex-manual.md"
+sourceSha256: "4aa7febb59952bea88e45b8d207b2796fdac17f9611159045456124f4834c300"
+pageSha256: "1e39e23aec188ae8b9e5240574ab751c6bb47c6e8d9b8dc3beeef433b4b16add"
+contentMode: "local-full"
+zh: ""
+---
+
+## Platform, Enterprise, and Caveats
+
+Linux, Windows, enterprise controls, OSS notes, and product or policy caveats that shape deployment choices.
+
+### Access tokens
+
+Source: [Access tokens](https://learn.chatgpt.com/docs/enterprise/access-tokens.md)
+
+Codex access tokens are ChatGPT workspace credentials scoped to Codex permissions. They authenticate trusted non-interactive local workflows, including Codex CLI and app-server-based automation, with a ChatGPT workspace identity. Use them when a script, scheduled job, or CI runner needs repeatable local access.
+
+Codex access tokens are currently supported for ChatGPT Business and
+Enterprise workspaces.
+
+Create personal access tokens in the ChatGPT admin console at [Access tokens](https://chatgpt.com/admin/access-tokens). Each token belongs to its creator and that user's ChatGPT workspace. Tokens act as agent identities for programmatic local workflows. For tokens created from a dedicated non-human workspace identity's detail page, see [Service accounts](https://learn.chatgpt.com/docs/enterprise/service-accounts).
+
+If a Platform API key works for your automation, keep using API key auth. Use
+Codex access tokens when a trusted local workflow specifically needs ChatGPT
+workspace access, workspace-managed entitlements, or enterprise controls.
+
+Need to trigger a published ChatGPT workspace agent from your own system? That
+workflow requires **Workspace Agents** access. A Codex-only token can't
+authenticate workspace agent trigger calls. If your token dialog offers
+**Scopes**, select **Workspace Agents** for an agent trigger and **Codex** for
+Codex automation. Grant multiple scopes only when the workflow requires each
+one. See [Authenticate with Workspace Agent access
+tokens](https://developers.openai.com/workspace-agents/authentication).
+
+#### How access tokens work
+
+Use an access token when Codex CLI or an app-server client needs to run without a user completing a browser sign-in. The token represents the ChatGPT workspace user who created it, so runs can use that user's access and appear in workspace governance data.
+
+The client checks the token when a run starts and ties the run to that workspace identity. Treat the token like any other automation secret: store it in a secret manager, keep it out of logs, and rotate it according to your organization's policy.
+
+Use access tokens for:
+
+- `codex exec` jobs that run from trusted automation.
+- Local scripts that need repeatable, non-interactive Codex CLI runs.
+- Trusted app-server-based automation.
+- Enterprise workflows that associate usage with a ChatGPT workspace user instead of an API organization key.
+
+Main risks to avoid:
+
+- **Leaked secrets:** anyone with the token can start local runs through Codex CLI or an app-server client as the token creator. Store tokens in a secret manager, keep them out of logs, and rotate them according to your organization's policy.
+- **Runner trust:** public CI, forked pull requests, or shared machines can expose tokens to people outside your workspace. Use access tokens only on trusted runners.
+- **Shared identities:** one person's token reused across unrelated teams makes ownership and audit trails less clear. Create tokens for a specific workflow owner.
+- **Stale credentials:** long-lived tokens can remain active after the workflow changes. Prefer time-limited tokens and revoke tokens that are no longer used.
+- **Wrong scope or credential type:** Codex automation requires Codex access,
+  workspace agent triggers require Workspace Agents access, and general OpenAI
+  API calls require Platform API keys. If **Scopes** appears, grant only the
+  permissions the workflow requires.
+
+#### Enable access token creation
+
+Use the access token permission in workspace settings to turn on access token creation for allowed members.
+
+The access token permission controls token creation. It doesn't grant access to
+the ChatGPT desktop app, Codex CLI, or IDE extension, and it doesn't change a
+member's seat type, built-in workspace role, or local runtime permission
+profile. Token-authenticated Codex CLI and app-server workflows also require
+the user's local Codex permission.
+
+For the relationship between these controls, see
+[Roles and workspace permissions](https://learn.chatgpt.com/docs/enterprise/roles-and-workspace-permissions).
+
+1. Have a workspace owner open
+   [Workspace settings > Permissions & roles](https://chatgpt.com/admin/permissions).
+2. If the **Access tokens** section appears, enable **Allow users to create
+   personal access tokens**. If that section isn't available, enable **Allow
+   members to use Codex access tokens** in **Codex and Work Local** or
+   **Codex Local**.
+3. Enable the corresponding local Codex permission for the workflow owner:
+   **Allow members to use Codex and Work Locally** in **Codex and Work Local**,
+   or **Allow members to use Codex locally** in **Codex Local**. When **Work
+   Local** has its own section, **Use Work locally** controls Work and isn't
+   required for Codex tokens.
+
+Allow only people or service owners who understand the token's storage location, intended automation, and rotation schedule to create access tokens.
+
+Disabling local Codex permission suspends active Codex tokens owned by affected
+members; it doesn't revoke them. Restoring local Codex access reactivates those
+tokens. Revoke tokens when their access must end permanently.
+
+#### Set an access token expiration limit
+
+A workspace owner can set the longest validity window that members can choose
+for new access tokens. Open
+[Workspace settings > Permissions & roles](https://chatgpt.com/admin/permissions).
+If the **Access tokens** section appears, set **Access token expiration limit**
+there. Otherwise, look for that setting in **Codex and Work Local** or
+**Codex Local**.
+
+The limit applies to new access tokens. Existing tokens keep their current validity window.
+
+#### Create an access token
+
+Use the Access tokens page to name the token, review any available product
+scopes, and choose an appropriate validity window.
+
+1. Go to [Access tokens](https://chatgpt.com/admin/access-tokens).
+2. Select **Create**.
+
+3. Enter a descriptive name, such as `release-ci` or `nightly-docs-check`.
+
+4. If the dialog shows **Scopes**, select **Codex**. Select **Workspace
+   Agents** only if the same workflow also needs to trigger a workspace agent.
+   If the dialog has no scope selector, it creates a Codex-only token.
+5. Choose a finite validity window, such as 7, 30, 60, or 90 days. Scoped
+   personal access tokens must expire. An earlier Codex-only dialog
+   can offer **No expiration**; avoid that option unless your organization
+   approves it and rotates the token on a defined schedule.
+6. Select **Create**.
+7. Copy the generated access token immediately. You can't view it again after
+   you close the dialog.
+8. Store the token in your secret manager or CI secret store.
+
+The shortest custom validity window is one day. You can't use revoked or expired tokens to start new authenticated runs.
+
+#### Use an access token with Codex CLI
+
+If the token creation dialog lists a required Codex CLI version, update the CLI
+to that version or later before using the token.
+
+For ephemeral automation, store the token in `CODEX_ACCESS_TOKEN` and run Codex CLI normally:
+
+```bash

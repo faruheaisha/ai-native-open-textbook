@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "01-foundations"
 sourceUrl: "https://github.com/zorost/AI-Engineering-Lab"
-entryUrl: "https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/README.md"
+entryUrl: "https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/curriculum/projects/README.md"
+sourceRel: "curriculum/projects/README.md"
+rawUrl: "/raw/01-foundations/ai-engineering-lab/curriculum/projects/README.md"
+sourceSha256: "c72d671596832dbdb5316eace05a8110cf5abf717079cd0c124561daa83b127b"
+pageSha256: "c72d671596832dbdb5316eace05a8110cf5abf717079cd0c124561daa83b127b"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -29,8 +34,8 @@ The graduation project, deployed on Databricks:
 - **Production**: deployed end-to-end as a Databricks Asset Bundle with CI/CD,
   row/column governance, and a FinOps dashboard (Week 24)
 
-See [`reference/platforms/databricks/capstone/`](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/reference/platforms/databricks/capstone/README.md) (added in Week 21)
-and [`curriculum/week-24/`](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/curriculum/week-24/README.md).
+See [`reference/platforms/databricks/capstone/`](/lib/01-foundations/ai-engineering-lab/reference-platforms-databricks-capstone) (added in Week 21)
+and [`curriculum/week-24/`](/lib/01-foundations/ai-engineering-lab/curriculum-week-24).
 
 ## Milestone projects by phase
 

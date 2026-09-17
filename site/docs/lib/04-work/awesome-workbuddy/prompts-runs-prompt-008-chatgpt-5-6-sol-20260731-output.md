@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "04-work"
 sourceUrl: "https://github.com/staruhub/awesome-workbuddy"
-entryUrl: "https://github.com/staruhub/awesome-workbuddy/blob/e32b6c953154e41f6cb4e6b69fd7d933f5cef3d3/README.md"
+entryUrl: "https://github.com/staruhub/awesome-workbuddy/blob/e32b6c953154e41f6cb4e6b69fd7d933f5cef3d3/prompts/runs/prompt-008-chatgpt-5-6-sol-20260731/output.md"
+sourceRel: "prompts/runs/prompt-008-chatgpt-5-6-sol-20260731/output.md"
+rawUrl: "/raw/04-work/awesome-workbuddy/prompts/runs/prompt-008-chatgpt-5-6-sol-20260731/output.md"
+sourceSha256: "e2ee118a42632a52c260b348812a1ced6571749c9bc5aea243f7ecf474046353"
+pageSha256: "e2ee118a42632a52c260b348812a1ced6571749c9bc5aea243f7ecf474046353"
+contentMode: "local-full"
 zh: ""
 ---
 

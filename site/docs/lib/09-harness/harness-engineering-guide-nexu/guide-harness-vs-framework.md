@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/nexu-io/harness-engineering-guide"
-entryUrl: "https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/README.md"
+entryUrl: "https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/harness-vs-framework.md"
+sourceRel: "guide/harness-vs-framework.md"
+rawUrl: "/raw/09-harness/harness-engineering-guide-nexu/guide/harness-vs-framework.md"
+sourceSha256: "e1f15585aeb0550d533ea4e2fb6f5978a84af26e89c8b12216539151c81ce956"
+pageSha256: "e1f15585aeb0550d533ea4e2fb6f5978a84af26e89c8b12216539151c81ce956"
+contentMode: "local-full"
 zh: ""
 ---
 

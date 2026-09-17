@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/affaan-m/ECC"
-entryUrl: "https://github.com/affaan-m/ECC/blob/928c1dea72f5c330442fc1f595563398b8f389f7/README.md"
+entryUrl: "https://github.com/affaan-m/ECC/blob/928c1dea72f5c330442fc1f595563398b8f389f7/agents/fastapi-reviewer.md"
+sourceRel: "agents/fastapi-reviewer.md"
+rawUrl: "/raw/09-harness/ecc/agents/fastapi-reviewer.md"
+sourceSha256: "d8704e52fda045fa72cfc51de7937aa4e313b2161279ff8e11d878f6ab8a0d81"
+pageSha256: "d8704e52fda045fa72cfc51de7937aa4e313b2161279ff8e11d878f6ab8a0d81"
+contentMode: "local-full"
 zh: ""
 ---
 

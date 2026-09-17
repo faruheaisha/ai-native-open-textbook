@@ -10,6 +10,8 @@ lang: "中文"
 volume: "10-context-memory"
 sourceUrl: "https://github.com/langgptai/wonderful-prompts"
 entryUrl: "https://github.com/langgptai/wonderful-prompts/blob/c8e5dbd3bc01740728fd1ab8f8d4f654a17e3697/README.md"
+sourceRel: ""
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -19,10 +21,17 @@ zh: ""
 
 ## 课时
 
-1. [Role: []](examples-base.md)
-2. [Wonderful Prompts](examples-GPT_Generate_A_book.md)
-3. [Wonderful Prompts](examples-gpt_math_solver.md)
-4. [Wonderful Prompts](examples-gpt4_CAN_coder.md)
-5. [Wonderful Prompts](examples-super_experts_gpt.md)
+- **通用超级 Prompt 🔥**
+  - [示例——视频目标检测](/lib/10-context-memory/wonderful-prompts/examples-super_experts_gpt.md)
+- **编程**
+  - **资深编程专家 CAN**
+    - [示例——CAN 完整对话](/lib/10-context-memory/wonderful-prompts/examples-gpt4_CAN_coder.md)
+- **写作**
+  - **撰写一本书籍**
+    - [完整示例——写作智能机器人书籍](/lib/10-context-memory/wonderful-prompts/examples-GPT_Generate_A_book.md)
+- **有趣玩法**
+  - **数学方程求解**
+    - [完整示例——数学问题求解](/lib/10-context-memory/wonderful-prompts/examples-gpt_math_solver.md)
+- [Role: []](/lib/10-context-memory/wonderful-prompts/examples-base.md)
 
 开始学习 → [Role: []](examples-base.md)

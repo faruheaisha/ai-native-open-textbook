@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/ed-donner/production"
-entryUrl: "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/README.md"
+entryUrl: "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/community_contributions/aws_configure_tips.md"
+sourceRel: "community_contributions/aws_configure_tips.md"
+rawUrl: "/raw/08-agents/ed-donner-production/community_contributions/aws_configure_tips.md"
+sourceSha256: "7da56300a50253cd7f0d5e13a0db7941de50b28767902ca45fcaebd718ed7f7f"
+pageSha256: "7da56300a50253cd7f0d5e13a0db7941de50b28767902ca45fcaebd718ed7f7f"
+contentMode: "local-full"
 zh: ""
 ---
 

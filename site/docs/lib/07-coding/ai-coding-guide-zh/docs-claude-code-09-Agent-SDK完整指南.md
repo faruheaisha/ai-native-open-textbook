@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh"
-entryUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/README.md"
+entryUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/docs/claude-code/09-Agent-SDK完整指南.md"
+sourceRel: "docs/claude-code/09-Agent-SDK完整指南.md"
+rawUrl: "/raw/07-coding/ai-coding-guide-zh/docs/claude-code/09-Agent-SDK完整指南.md"
+sourceSha256: "1ea757110b3cd5ef8784d94ac9ee2d993e2fc480de773b31cbc86e17dd896cc6"
+pageSha256: "1ea757110b3cd5ef8784d94ac9ee2d993e2fc480de773b31cbc86e17dd896cc6"
+contentMode: "local-full"
 zh: ""
 ---
 

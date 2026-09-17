@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/openai/openai-cookbook"
-entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/README.md"
+entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/articles/codex_exec_plans.md"
+sourceRel: "articles/codex_exec_plans.md"
+rawUrl: "/raw/08-agents/openai-cookbook/articles/codex_exec_plans.md"
+sourceSha256: "a8f7bac9c378e853e09268518a2b4e59b8113c9f95cd53cb4144ca0d9534dc52"
+pageSha256: "a8f7bac9c378e853e09268518a2b4e59b8113c9f95cd53cb4144ca0d9534dc52"
+contentMode: "local-full"
 zh: ""
 ---
 

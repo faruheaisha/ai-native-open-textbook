@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works"
-entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/README.md"
+entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/19-dynamic-workflows.md"
+sourceRel: "docs/19-dynamic-workflows.md"
+rawUrl: "/raw/09-harness/how-claude-code-works/docs/19-dynamic-workflows.md"
+sourceSha256: "715249518cb752c0b36fe5612be47e869be80297fca748cee4527954a186840d"
+pageSha256: "715249518cb752c0b36fe5612be47e869be80297fca748cee4527954a186840d"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/hijasonxu1/How-to-use-dify"
-entryUrl: "https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/README.md"
+entryUrl: "https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/docs/chapters/08-agent-和工具调用.md"
+sourceRel: "docs/chapters/08-agent-和工具调用.md"
+rawUrl: "/raw/04-work/how-to-use-dify/docs/chapters/08-agent-和工具调用.md"
+sourceSha256: "db3b43e03d14dcd6dce2f87ca73ea47107b0c6d653fcaff3ffcd27f3289991f7"
+pageSha256: "db3b43e03d14dcd6dce2f87ca73ea47107b0c6d653fcaff3ffcd27f3289991f7"
+contentMode: "local-full"
 zh: ""
 ---
 

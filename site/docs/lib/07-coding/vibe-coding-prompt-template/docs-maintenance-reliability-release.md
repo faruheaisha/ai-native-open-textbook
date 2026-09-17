@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/KhazP/vibe-coding-prompt-template"
-entryUrl: "https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/README.md"
+entryUrl: "https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/docs/maintenance/reliability-release.md"
+sourceRel: "docs/maintenance/reliability-release.md"
+rawUrl: "/raw/07-coding/vibe-coding-prompt-template/docs/maintenance/reliability-release.md"
+sourceSha256: "d3fb058cf2ce6107d50d39f939411dca1507fd8907d13277a81f25699459489a"
+pageSha256: "d3fb058cf2ce6107d50d39f939411dca1507fd8907d13277a81f25699459489a"
+contentMode: "local-full"
 zh: ""
 ---
 

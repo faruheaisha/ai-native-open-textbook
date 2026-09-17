@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/ShouZhengAI/CS146S_CN"
-entryUrl: "https://github.com/ShouZhengAI/CS146S_CN/blob/0d65f36f6673147d6c298670da4f9b4bd7f991fa/README.md"
+entryUrl: "https://github.com/ShouZhengAI/CS146S_CN/blob/0d65f36f6673147d6c298670da4f9b4bd7f991fa/Assignments/week4/writeup.md"
+sourceRel: "Assignments/week4/writeup.md"
+rawUrl: "/raw/07-coding/cs146s-cn/Assignments/week4/writeup.md"
+sourceSha256: "d5b1eda0785a30de52745a7a2bfa5da87c24ef1b038d21532097a4af2d41528e"
+pageSha256: "d5b1eda0785a30de52745a7a2bfa5da87c24ef1b038d21532097a4af2d41528e"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -88,7 +93,7 @@ make run
 /docs-sync http://127.0.0.1:8000
 ```
 
-预期输出类似 `added: PUT /notes/{note_id}`、`changed: NoteCreate validation`、`remaining drift: none`。若服务不可达，命令停止并要求启动服务，不能猜 schema。它不修改应用代码和 OpenAPI，不删除人工安全说明；更新不满意时只需恢复 `docs/API.md`。
+预期输出类似 `added: PUT /notes/\{note_id\}`、`changed: NoteCreate validation`、`remaining drift: none`。若服务不可达，命令停止并要求启动服务，不能猜 schema。它不修改应用代码和 OpenAPI，不删除人工安全说明；更新不满意时只需恢复 `docs/API.md`。
 
 #### d. 自动化前后对比
 

@@ -1,0 +1,295 @@
+---
+title: "Tools and Sandboxing in Detail"
+sourceId: "10-context-memory/hf-context-course"
+sourceTitle: "The Context Course"
+sourceKind: "系统课程"
+licenseLabel: "仅引用"
+lang: "英文"
+tier: 1
+volume: "10-context-memory"
+sourceUrl: "https://github.com/huggingface/context-course"
+entryUrl: "https://github.com/huggingface/context-course/blob/0448a7ca721a63a81531e1ba94f46f897c70645b/units/en/unit6/tools-and-sandboxing.mdx"
+sourceRel: "units/en/unit6/tools-and-sandboxing.mdx"
+rawUrl: "/raw/10-context-memory/hf-context-course/units/en/unit6/tools-and-sandboxing.mdx"
+sourceSha256: "c3a5ed809503365379e22be1876b09b968a85e6d14601e90e4a98b0972815bf4"
+pageSha256: "c3a5ed809503365379e22be1876b09b968a85e6d14601e90e4a98b0972815bf4"
+contentMode: "local-full"
+zh: ""
+---
+
+# Tools and Sandboxing in Detail
+
+Tools are the agent's hands. Nano Harness enforces its security model at the tool boundary: path confinement, command allowlists, output limits, and write-off-by-default.
+
+<iframe
+    src="https://context-course-tool-sandbox.static.hf.space"
+    frameborder="0"
+    width="850"
+    height="450"
+></iframe>
+
+## The Four Tools
+
+### 1. list_dir(path) — List Files
+
+```python
+def list_dir(path="."):
+    """List files and directories."""
+    p = safe_path(path)  # Verify path is in workspace
+    if not p.is_dir():
+        raise NotADirectoryError(str(p))
+    return sorted(x.name + ("/" if x.is_dir() else "") for x in p.iterdir())
+```
+
+`safe_path()` blocks directory traversal (e.g., `../../etc/passwd`), the return values are filenames only — not absolute paths — and directories are suffixed with `/`.
+
+**Examples:**
+```python
+list_dir(".")             # ✓ OK
+list_dir("src")           # ✓ OK
+list_dir("../etc")        # ✗ BLOCKED by safe_path()
+```
+
+### 2. read_file(path, max_chars) — Read File
+
+```python
+def read_file(path, max_chars=4000):
+    """Read file with size limit."""
+    p = safe_path(path)
+    content = p.read_text(encoding="utf-8", errors="replace")
+    # Enforce framework-level limit
+    return clip(content, min(max_chars, MAX_CHARS))  # MAX_CHARS=8000
+```
+
+Paths go through `safe_path()`, the requested character count is capped at `MAX_CHARS`, and `errors="replace"` keeps binary files from crashing the read. Even if the agent asks for `max_chars=999999`, `min(999999, 8000)` wins.
+
+**Examples:**
+```python
+read_file("README.md")             # ✓ Up to 4000 chars
+read_file("data.txt", max_chars=500)  # ✓ Up to 500 chars
+read_file("huge.db")               # ✓ Clipped to 8000 chars (not unlimited)
+read_file("/etc/passwd")           # ✗ BLOCKED by safe_path()
+```
+
+### 3. write_file(path, content) — Write File
+
+```python
+ALLOW_WRITE = False  # Disabled by default!
+
+def write_file(path, content):
+    """Write file (gated by ALLOW_WRITE flag)."""
+    if not ALLOW_WRITE:
+        raise PermissionError("write_file disabled")
+    
+    p = safe_path(path)
+    p.parent.mkdir(parents=True, exist_ok=True)
+    p.write_text(str(content), encoding="utf-8")
+    return f"Wrote {len(str(content))} bytes to {p}"
+```
+
+Writing is off by default — the agent must have `ALLOW_WRITE=True` to touch disk. Paths are confined, and parent directories are created on demand.
+
+**Usage:**
+```python
+# Enable write explicitly
+ALLOW_WRITE = True
+
+write_file("output.txt", "Hello")  # ✓ OK if ALLOW_WRITE=True
+```
+
+### 4. exec_cmd(args) — Execute Shell Command
+
+```python
+ALLOW_COMMANDS = ["ls", "cat", "pwd", "echo", "head", "tail", "wc", "rg"]
+
+def exec_cmd(args):
+    """Execute command (whitelist only)."""
+    if args[0] not in ALLOW_COMMANDS:
+        raise PermissionError(f"Command '{args[0]}' not allowed")
+    
+    try:
+        result = subprocess.run(
+            args,
+            capture_output=True,
+            timeout=TIMEOUT_S,  # e.g., 30 seconds
+            text=True
+        )
+        output_parts = []
+        if result.stdout:
+            output_parts.append(f"stdout:\n{result.stdout}")
+        if result.stderr:
+            output_parts.append(f"stderr:\n{result.stderr}")
+        output = "\n\n".join(output_parts) or f"(exit code {result.returncode} with no output)"
+        return clip(output, MAX_CHARS)
+    except subprocess.TimeoutExpired:
+        return "Error: Command timed out"
+```
+
+Only commands in the allowlist run — `ls`, `cat`, `pwd`, `echo`, `head`, `tail`, `wc`, `rg`. Anything that mutates state or reaches the network (`rm`, `mv`, `curl`, `wget`) is rejected. A subprocess timeout stops hangs, stdout and stderr are both captured, and the combined output is clipped to `MAX_CHARS`.
+
+**Examples:**
+```python
+exec_cmd(["ls", "-la"])      # ✓ OK (ls whitelisted)
+exec_cmd(["pwd"])            # ✓ OK
+exec_cmd(["rg", "ERROR"])    # ✓ OK (rg is ripgrep, safe)
+exec_cmd(["rm", "-rf", "/"]) # ✗ BLOCKED (rm not whitelisted)
+exec_cmd(["curl", "evil.com"])  # ✗ BLOCKED (curl not whitelisted)
+```
+
+## Path Confinement: safe_path()
+
+Everything that takes a path flows through this one function:
+
+```python
+WORKSPACE = Path.cwd()  # e.g., /home/user/project
+
+def safe_path(user_input):
+    """Ensure path is within workspace."""
+    # Resolve to absolute path
+    requested = (WORKSPACE / user_input).resolve()
+    
+    # Check if it's inside workspace
+    if not requested.is_relative_to(WORKSPACE):
+        raise ValueError(f"Path {user_input} escapes workspace")
+    
+    return requested
+```
+
+**What it prevents:**
+
+```python
+# Attacker tries directory traversal
+safe_path("../../../etc/passwd")
+# → Resolves to /home/user/project/../../etc/passwd
+# → Resolves to /etc/passwd
+# → NOT relative to WORKSPACE
+# → Raises ValueError ✓
+
+# Attacker tries absolute path
+safe_path("/etc/passwd")
+# → Doesn't start with WORKSPACE
+# → Raises ValueError ✓
+
+# Legitimate use
+safe_path("data/models.txt")
+# → Resolves to /home/user/project/data/models.txt
+# → IS relative to WORKSPACE
+# → Returns path ✓
+```
+
+## Execution Sandboxing
+
+### Limited Global Scope
+
+When executing agent code:
+
+```python
+# Only these functions are available
+exec_globals = {
+    "__builtins__": {}, # need to explicitly remove builtins
+    "list_dir": list_dir,
+    "read_file": read_file,
+    "write_file": write_file,
+    "exec_cmd": exec_cmd,
+    "final_answer": final_answer
+}
+
+# Agent code runs here
+exec(agent_code, exec_globals)
+
+# Agent CANNOT do:
+# - import modules (no __builtins__)
+# - access files outside tools
+# - use network directly
+# - access parent process variables
+```
+
+This is intentionally strict. If you want helpers like `len()` or `print()`, add a small allowlist of safe builtins explicitly rather than inheriting Python's full default builtins by accident.
+
+### Error Containment
+
+Exceptions are caught and reported:
+
+```python
+try:
+    exec(agent_code, exec_globals)
+except Exception as e:
+    error_msg = f"Error: {type(e).__name__}: {str(e)}"
+    messages.append({"role": "user", "content": error_msg})
+    # Continue to next iteration; agent adapts
+```
+
+**Example workflow:**
+
+```
+Step 1: Agent tries to read huge file
+  Code: content = read_file("huge.dat", max_chars=999999)
+  Result: (Clipped to 8000 chars, agent sees it)
+
+Step 2: Agent tries forbidden command
+  Code: exec_cmd(["rm", "data.txt"])
+  Result: PermissionError: Command 'rm' not allowed
+  Agent sees error and tries different approach
+
+Step 3: Agent tries to escape workspace
+  Code: read_file("../../../etc/passwd")
+  Result: ValueError: Path escapes workspace
+  Agent learns and adjusts
+```
+
+## Commercial Agents vs. Nano Harness
+
+Commercial agents handle the same concerns behind the scenes. Claude Code and Codex both enforce path confinement, permission prompts, timeouts, and output limits automatically; the cost is that the rules are less visible. Nano Harness keeps everything explicit so you can read and modify the policy, at the cost of having to implement it yourself.
+
+## Designing Custom Tools
+
+If you extend nano_harness with new tools, follow these patterns:
+
+### Good Tool Design
+
+```python
+def good_tool(user_input, max_result_size=1000):
+    """
+    1. Validate and confine input
+    2. Perform operation
+    3. Limit output size
+    4. Return safe result
+    """
+    # 1. Validate input
+    if not isinstance(user_input, str):
+        raise TypeError("user_input must be string")
+    
+    path = safe_path(user_input)  # Confine paths
+    
+    # 2. Perform operation
+    result = path.read_text()
+    
+    # 3. Limit output
+    return clip(result, min(max_result_size, MAX_CHARS))
+```
+
+### Tool Anti-Patterns
+
+```python
+# ✗ BAD: No input validation
+def bad_tool_1(path):
+    return open(path).read()  # Reads anything!
+
+# ✗ BAD: No output limit
+def bad_tool_2(query):
+    return database.query(query)  # Could be terabytes
+
+# ✗ BAD: No error handling
+def bad_tool_3(url):
+    return requests.get(url).text  # Can timeout, hang
+
+# ✗ BAD: Trusts agent completely
+def bad_tool_4(command):
+    os.system(command)  # Agent can run rm -rf /
+```
+
+## Key Takeaways
+
+Limit what tools can reach. `safe_path()` keeps file access inside the workspace, command allowlists gate subprocess calls, output is clipped to stop context blowups, and writing is off until you turn it on. Errors become observations so the agent can adapt instead of crashing.
+
+Next, extending nano_harness with new tools and models.

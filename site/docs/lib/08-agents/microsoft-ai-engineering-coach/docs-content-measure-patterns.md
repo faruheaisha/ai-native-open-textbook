@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/microsoft/AI-Engineering-Coach"
-entryUrl: "https://github.com/microsoft/AI-Engineering-Coach/blob/18b1a3d16b586c171426c6a407cc5c2dc073556e/README.md"
+entryUrl: "https://github.com/microsoft/AI-Engineering-Coach/blob/18b1a3d16b586c171426c6a407cc5c2dc073556e/docs/content/measure/patterns.md"
+sourceRel: "docs/content/measure/patterns.md"
+rawUrl: "/raw/08-agents/microsoft-ai-engineering-coach/docs/content/measure/patterns.md"
+sourceSha256: "40cccfddfbea9ea1b5c89990806d76a5d1c6c120de67e9dc0680f110d3e1c363"
+pageSha256: "40cccfddfbea9ea1b5c89990806d76a5d1c6c120de67e9dc0680f110d3e1c363"
+contentMode: "local-full"
 zh: ""
 ---
 

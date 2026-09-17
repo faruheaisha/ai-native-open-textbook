@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/ShouZhengAI/CS146S_CN"
-entryUrl: "https://github.com/ShouZhengAI/CS146S_CN/blob/0d65f36f6673147d6c298670da4f9b4bd7f991fa/README.md"
+entryUrl: "https://github.com/ShouZhengAI/CS146S_CN/blob/0d65f36f6673147d6c298670da4f9b4bd7f991fa/Assignments/week1/README.md"
+sourceRel: "Assignments/week1/README.md"
+rawUrl: "/raw/07-coding/cs146s-cn/Assignments/week1/README.md"
+sourceSha256: "88679e65dd58fe967c0122a5d7bdaca5dffe580c037fcdf0b78cd1870c04e333"
+pageSha256: "88679e65dd58fe967c0122a5d7bdaca5dffe580c037fcdf0b78cd1870c04e333"
+contentMode: "local-full"
 zh: ""
 ---
 

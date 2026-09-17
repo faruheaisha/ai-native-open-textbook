@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/patchy631/ai-engineering-hub"
-entryUrl: "https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/README.md"
+entryUrl: "https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/Build-reasoning-model/README.md"
+sourceRel: "Build-reasoning-model/README.md"
+rawUrl: "/raw/10-context-memory/ai-engineering-hub/Build-reasoning-model/README.md"
+sourceSha256: "0011158fa9624fde4ddf875a79fd05acd8fa4e677179163204ee10a7360cb74d"
+pageSha256: "0011158fa9624fde4ddf875a79fd05acd8fa4e677179163204ee10a7360cb74d"
+contentMode: "local-full"
 zh: ""
 ---
 

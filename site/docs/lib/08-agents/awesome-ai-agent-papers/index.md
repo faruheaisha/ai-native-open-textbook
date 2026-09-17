@@ -10,6 +10,8 @@ lang: "英文"
 volume: "08-agents"
 sourceUrl: "https://github.com/VoltAgent/awesome-ai-agent-papers"
 entryUrl: "https://github.com/VoltAgent/awesome-ai-agent-papers/blob/4c0c1281f01c6e66a68c0db06b9cfd79277dcfa3/README.md"
+sourceRel: ""
+contentMode: "local-full"
 zh: ""
 ---
 

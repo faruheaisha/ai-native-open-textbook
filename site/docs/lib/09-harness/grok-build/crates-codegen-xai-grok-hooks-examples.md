@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/xai-org/grok-build"
-entryUrl: "https://github.com/xai-org/grok-build/blob/37949780c144e37df692e3d669051a21fec24f20/README.md"
+entryUrl: "https://github.com/xai-org/grok-build/blob/37949780c144e37df692e3d669051a21fec24f20/crates/codegen/xai-grok-hooks/examples/README.md"
+sourceRel: "crates/codegen/xai-grok-hooks/examples/README.md"
+rawUrl: "/raw/09-harness/grok-build/crates/codegen/xai-grok-hooks/examples/README.md"
+sourceSha256: "6e6f6542aac2c7cfe2f8c2a977d5cb0ce92c1b69f60eb610fe495eabf1be3330"
+pageSha256: "6e6f6542aac2c7cfe2f8c2a977d5cb0ce92c1b69f60eb610fe495eabf1be3330"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -91,7 +96,7 @@ chmod +x ~/.grok/hooks/bin/tool-logger.sh
 
 **Type:** blocking (`Stop`)
 
-Keeps the agent working until `cargo build` passes. A `Stop` hook runs when the agent is about to finish its turn; returning `{"decision":"block","reason":"…"}` feeds the reason back to the model and runs another round. The built-in cap ends the turn after 8 continuations. The hook sets a 300-second timeout because a timed-out Stop hook fails open and lets the agent stop.
+Keeps the agent working until `cargo build` passes. A `Stop` hook runs when the agent is about to finish its turn; returning `\{"decision":"block","reason":"…"\}` feeds the reason back to the model and runs another round. The built-in cap ends the turn after 8 continuations. The hook sets a 300-second timeout because a timed-out Stop hook fails open and lets the agent stop.
 
 **Install:**
 ```sh

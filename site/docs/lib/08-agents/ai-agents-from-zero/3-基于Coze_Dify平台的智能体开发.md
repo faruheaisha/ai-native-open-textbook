@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/didilili/ai-agents-from-zero"
-entryUrl: "https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/README.md"
+entryUrl: "https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/3-基于Coze&Dify平台的智能体开发.md"
+sourceRel: "3-基于Coze&Dify平台的智能体开发.md"
+rawUrl: "/raw/08-agents/ai-agents-from-zero/3-基于Coze&Dify平台的智能体开发.md"
+sourceSha256: "03a5f18d5df3fb10e53f102a4756c7b0756b7ccd39dbb2b6e1fe61464e9cfae8"
+pageSha256: "03a5f18d5df3fb10e53f102a4756c7b0756b7ccd39dbb2b6e1fe61464e9cfae8"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -34,7 +39,7 @@ zh: ""
 
 **学习建议：** 这章不用把每个平台的按钮全点一遍。第一遍先分清提示词、工具、知识库、变量、工作流分别负责什么；第二遍挑 1 个 Coze 案例和 1 个 Dify 案例实际做完，并到调试日志里看一次运行过程。能说清“哪个能力解决哪个问题”，比记住菜单位置更有用。
 
-**官方文档与资源**：详见 [工具导航与参考资料索引 - 低代码与智能体平台](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/工具导航与参考资料索引.md#低代码与智能体平台)。
+**官方文档与资源**：详见 [工具导航与参考资料索引 - 低代码与智能体平台](/lib/08-agents/ai-agents-from-zero/工具导航与参考资料索引#低代码与智能体平台)。
 
 ---
 
@@ -350,7 +355,7 @@ https://agent.xfyun.cn/home
 
 ### 4.4 案例 1：深夜情感主持
 
-[线上演示链接](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/教程案例链接汇总.md#案例-1深夜情感主持)（链接统一维护于 [教程案例链接汇总.md](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/教程案例链接汇总.md)）
+[线上演示链接](/lib/08-agents/ai-agents-from-zero/教程案例链接汇总#案例-1深夜情感主持)（链接统一维护于 [教程案例链接汇总.md](/lib/08-agents/ai-agents-from-zero/教程案例链接汇总)）
 
 **技术要点**
 
@@ -459,7 +464,7 @@ https://agent.xfyun.cn/home
 
 ### 4.5 案例 2：高考报考指南
 
-[线上演示链接](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/教程案例链接汇总.md#案例-2高考报考指南)（链接统一维护于 [教程案例链接汇总.md](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/教程案例链接汇总.md)）
+[线上演示链接](/lib/08-agents/ai-agents-from-zero/教程案例链接汇总#案例-2高考报考指南)（链接统一维护于 [教程案例链接汇总.md](/lib/08-agents/ai-agents-from-zero/教程案例链接汇总)）
 
 **技术要点**
 
@@ -540,7 +545,7 @@ https://agent.xfyun.cn/home
 
 ### 4.6 案例 3：家庭记账助手
 
-[线上演示链接](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/教程案例链接汇总.md#案例-3家庭记账助手)（链接统一维护于 [教程案例链接汇总.md](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/教程案例链接汇总.md)）
+[线上演示链接](/lib/08-agents/ai-agents-from-zero/教程案例链接汇总#案例-3家庭记账助手)（链接统一维护于 [教程案例链接汇总.md](/lib/08-agents/ai-agents-from-zero/教程案例链接汇总)）
 
 **技术要点**
 
@@ -921,9 +926,9 @@ Agent 日志如下：
 
 **1、案例：**（以 Coze 平台为例）
 
-案例 1：详细过程见 [Coze 案例：一键生成行业调研 PPT](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/案例与源码-1-Coze&Dify工作流智能体/3.1-Coze案例：一键生成行业调研PPT/3.1-一键生成行业调研PPT.md)
+案例 1：详细过程见 [Coze 案例：一键生成行业调研 PPT](/lib/08-agents/ai-agents-from-zero/案例与源码-1-Coze_Dify工作流智能体-3.1-Coze案例_一键生成行业调研PPT-3.1-一键生成行业调研PPT/index)
 
-案例 2：详细过程见 [Coze 案例：复刻爆款视频](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/案例与源码-1-Coze&Dify工作流智能体/3.2-Coze案例：复刻爆款视频/3.2-复刻爆款视频.md)
+案例 2：详细过程见 [Coze 案例：复刻爆款视频](/lib/08-agents/ai-agents-from-zero/案例与源码-1-Coze_Dify工作流智能体-3.2-Coze案例_复刻爆款视频-3.2-复刻爆款视频)
 
 **2、是否可以发布到商店/模板**（以 Coze 平台为例）
 
@@ -945,17 +950,17 @@ Agent 日志如下：
 
 **项目简介**：商户运营管家是一个综合性的智能体实战项目，围绕商户日常运营中的**营销推广、客户服务、市场洞察**三大场景，在 Coze 与 Dify 平台上实现 6 个子案例。涵盖从海报生成、卖点提炼与文案脚本，到投诉分类与客服对话分析，再到行业调研与商品评论分析，帮助理解如何用工作流与智能体组合解决真实业务问题。各子案例可独立学习，也可串联成一套完整的「运营管家」能力矩阵。
 
-1、产品营销海报生成：[Coze](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/案例与源码-1-Coze&Dify工作流智能体/3.3-Coze案例：产品营销海报生成/3.3-产品营销海报生成.md)
+1、产品营销海报生成：[Coze](/lib/08-agents/ai-agents-from-zero/案例与源码-1-Coze_Dify工作流智能体-3.3-Coze案例_产品营销海报生成-3.3-产品营销海报生成)
 
-2、客户投诉分类助手：[Dify](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/案例与源码-1-Coze&Dify工作流智能体/3.5-Dify案例：客户投诉分类助手/3.5-客户投诉分类助手.md)
+2、客户投诉分类助手：[Dify](/lib/08-agents/ai-agents-from-zero/案例与源码-1-Coze_Dify工作流智能体-3.5-Dify案例_客户投诉分类助手-3.5-客户投诉分类助手)
 
-3、一键生成行业调研报告：[Dify](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/案例与源码-1-Coze&Dify工作流智能体/3.4-Dify案例：一键生成行业调研报告/3.4-一键生成行业调研报告.md)
+3、一键生成行业调研报告：[Dify](/lib/08-agents/ai-agents-from-zero/案例与源码-1-Coze_Dify工作流智能体-3.4-Dify案例_一键生成行业调研报告-3.4-一键生成行业调研报告/index)
 
-4、客服对话记录分析：[Coze](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/案例与源码-1-Coze&Dify工作流智能体/3.6-Coze案例：客服对话记录分析/3.6-客服对话记录分析-Coze.md) / [Dify](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/案例与源码-1-Coze&Dify工作流智能体/3.7-Dify案例：客服对话记录分析/3.7-客服对话记录分析-Dify.md)
+4、客服对话记录分析：[Coze](/lib/08-agents/ai-agents-from-zero/案例与源码-1-Coze_Dify工作流智能体-3.6-Coze案例_客服对话记录分析-3.6-客服对话记录分析-Coze/index) / [Dify](/lib/08-agents/ai-agents-from-zero/案例与源码-1-Coze_Dify工作流智能体-3.7-Dify案例_客服对话记录分析-3.7-客服对话记录分析-Dify/index)
 
-5、商品评论分析：[Coze](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/案例与源码-1-Coze&Dify工作流智能体/3.8-Coze案例：商品评论分析/3.8-商品评论分析-商品评论分析-Coze.md) / [Dify](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/案例与源码-1-Coze&Dify工作流智能体/3.9-Dify案例：商品评论分析/3.9-商品评论分析-Dify.md)
+5、商品评论分析：[Coze](/lib/08-agents/ai-agents-from-zero/案例与源码-1-Coze_Dify工作流智能体-3.8-Coze案例_商品评论分析-3.8-商品评论分析-商品评论分析-Coze/index) / [Dify](/lib/08-agents/ai-agents-from-zero/案例与源码-1-Coze_Dify工作流智能体-3.9-Dify案例_商品评论分析-3.9-商品评论分析-Dify/index)
 
-6、商品营销卖点提炼：[Coze](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/案例与源码-1-Coze&Dify工作流智能体/3.10-Coze案例：商品营销卖点提炼/3.10-商品营销卖点提炼-Coze.md)
+6、商品营销卖点提炼：[Coze](/lib/08-agents/ai-agents-from-zero/案例与源码-1-Coze_Dify工作流智能体-3.10-Coze案例_商品营销卖点提炼-3.10-商品营销卖点提炼-Coze/index)
 
 ---
 
@@ -1115,4 +1120,4 @@ https://chatgpt.com/#pricing
 
 - 如果你想把平台工作流真正接进代码，继续看 [第 4 章 Python 调用 Dify 平台工作流](/lib/08-agents/ai-agents-from-zero/4-Python调用Dify平台工作流) 和 [第 5 章 Python 调用 Coze 平台工作流](/lib/08-agents/ai-agents-from-zero/5-Python调用Coze平台工作流)。
 - 如果你想继续补齐“平台智能体背后的 Agent 原理”，进入 [第 21 章 Agent 智能体](/lib/08-agents/ai-agents-from-zero/21-Agent智能体)。
-- 如果你想继续做平台项目实战，可以在 Coze 或 Dify 上选一个案例（如深夜情感主持、北京旅行助手、商品评论分析）从头跟做一遍并发布；若要做自动化流水线，可进入 [工作流案例](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/案例与源码-1-Coze&Dify工作流智能体/3.1-Coze案例：一键生成行业调研PPT/3.1-一键生成行业调研PPT.md) 学习。
+- 如果你想继续做平台项目实战，可以在 Coze 或 Dify 上选一个案例（如深夜情感主持、北京旅行助手、商品评论分析）从头跟做一遍并发布；若要做自动化流水线，可进入 [工作流案例](/lib/08-agents/ai-agents-from-zero/案例与源码-1-Coze_Dify工作流智能体-3.1-Coze案例_一键生成行业调研PPT-3.1-一键生成行业调研PPT/index) 学习。

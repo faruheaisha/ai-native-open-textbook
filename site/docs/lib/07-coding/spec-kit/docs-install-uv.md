@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/github/spec-kit"
-entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/README.md"
+entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/docs/install/uv.md"
+sourceRel: "docs/install/uv.md"
+rawUrl: "/raw/07-coding/spec-kit/docs/install/uv.md"
+sourceSha256: "bc1df5e89c9548fae683eb3b4e19b4e93b6c352032f93005f42d7cbc122cee6d"
+pageSha256: "bc1df5e89c9548fae683eb3b4e19b4e93b6c352032f93005f42d7cbc122cee6d"
+contentMode: "local-full"
 zh: ""
 ---
 

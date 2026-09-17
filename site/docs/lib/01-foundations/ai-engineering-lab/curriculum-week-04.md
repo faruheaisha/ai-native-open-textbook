@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "01-foundations"
 sourceUrl: "https://github.com/zorost/AI-Engineering-Lab"
-entryUrl: "https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/README.md"
+entryUrl: "https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/curriculum/week-04/README.md"
+sourceRel: "curriculum/week-04/README.md"
+rawUrl: "/raw/01-foundations/ai-engineering-lab/curriculum/week-04/README.md"
+sourceSha256: "4667257e9e899b9e214d5e56fbaf9a362fbe783a79e6f0b4fbebb2d65ca87c2b"
+pageSha256: "4667257e9e899b9e214d5e56fbaf9a362fbe783a79e6f0b4fbebb2d65ca87c2b"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -34,7 +39,7 @@ Without this week, ZoroLogistics gets a demo, not a model: a notebook whose trai
 
 | Day | Study | Run | Ship | Time |
 |---|---|---|---|---|
-| **Mon** | Read [`reference/knowledge-base/02-ml-dl-fundamentals.md`](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/reference/knowledge-base/02-ml-dl-fundamentals.md) §8 to 12 (tensors, autograd, training loop, regularization) | `01-pytorch-tensors-and-autograd.ipynb` tensor + autograd cells | Hand-computed gradient check | ~2 h |
+| **Mon** | Read [`reference/knowledge-base/02-ml-dl-fundamentals.md`](/lib/01-foundations/ai-engineering-lab/reference-knowledge-base-02-ml-dl-fundamentals) §8 to 12 (tensors, autograd, training loop, regularization) | `01-pytorch-tensors-and-autograd.ipynb` tensor + autograd cells | Hand-computed gradient check | ~2 h |
 | **Tue** | The training loop; loss vs. metric | Run the MLP notebook end-to-end; plot the curves | First learning-curve read | ~2.5 h |
 | **Wed** | Regularization (dropout, weight decay); hyperparameters | Tune width, dropout, weight decay on **val** | Best val-MAE combo | ~2.5 h |
 | **Thu** | Evals + error analysis | Compare neural vs baseline on test; slice by carrier/lane | Error-cluster table | ~2.5 h |
@@ -103,7 +108,7 @@ Both attack the same symptom (train much better than val) through different mech
 
 ### 7. Unpredictable outputs → evals + error analysis
 
-This is the habit the week *installs*, and the one Ng ranks as the biggest predictor of team velocity: **evals + error analysis** (see [`reference/knowledge-base/01-ai-engineering-discipline.md`](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/reference/knowledge-base/01-ai-engineering-discipline.md)). Your neural ETA must be *compared against the Week 3 baseline on the test set with the delta stated*, the eval gate, *then* you slice errors by **carrier and lane**, find the biggest cluster, and form a hypothesis. A metric tells you *how wrong*; error analysis tells you *where to look*.
+This is the habit the week *installs*, and the one Ng ranks as the biggest predictor of team velocity: **evals + error analysis** (see [`reference/knowledge-base/01-ai-engineering-discipline.md`](/lib/01-foundations/ai-engineering-lab/reference-knowledge-base-01-ai-engineering-discipline)). Your neural ETA must be *compared against the Week 3 baseline on the test set with the delta stated*, the eval gate, *then* you slice errors by **carrier and lane**, find the biggest cluster, and form a hypothesis. A metric tells you *how wrong*; error analysis tells you *where to look*.
 
 **Worked example 3: the honest head-to-head.** On the held-out test set the neural MLP scores **MAE 4.987 h / RMSE 9.377 h**; the retrained gradient-boosting baseline scores **MAE 4.871 h / RMSE 9.372 h**. The **delta is +0.116 h**, the MLP loses by about 7 minutes on average, a virtual tie. Slicing absolute error by carrier shows the worst carrier **C002 at 6.68 h** (vs. the ~5.0 h average) and the worst lane **L016 at 5.78 h**. The correct hypothesis is not "the model is bad" but "a few extreme delays dominate those slices, check weather and seasonality before blaming the network." That note is the deliverable.
 
@@ -123,7 +128,7 @@ flowchart TD
 
 The loop breaks in four classic ways. **Forgetting `opt.zero_grad()`** accumulates gradients across batches and training diverges; **forgetting `model.eval()`** leaves dropout on at inference, corrupting test predictions. **A 100× learning rate** makes the loss explode (the Week 4 exercise deliberately induces this and reads the wreck from the curve); **fitting the scaler on all data** leaks val/test statistics into training. It also breaks *conceptually* when you **skip the baseline comparison**, a neural net that "improved" only against its own training loss proves nothing, or when you **touch the test set while tuning**: tune width/dropout/weight decay on validation only, then evaluate test exactly once. And it breaks when you **expect a win**: on tabular data a small MLP often only *approaches* a well-tuned gradient-boosting baseline; the discipline, not the victory, is the deliverable.
 
-For deeper dives: the discipline file's §8 to 12, and [`reference/knowledge-base/01-ai-engineering-discipline.md`](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/reference/knowledge-base/01-ai-engineering-discipline.md) §"Building and deploying AI applications" for why unpredictable outputs demand evals + error analysis.
+For deeper dives: the discipline file's §8 to 12, and [`reference/knowledge-base/01-ai-engineering-discipline.md`](/lib/01-foundations/ai-engineering-lab/reference-knowledge-base-01-ai-engineering-discipline) §"Building and deploying AI applications" for why unpredictable outputs demand evals + error analysis.
 
 ## Notebook walkthrough
 

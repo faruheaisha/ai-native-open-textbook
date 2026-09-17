@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/mattpocock/skills"
-entryUrl: "https://github.com/mattpocock/skills/blob/3cca18b368ae95cdbdebbff572ccafa662551015/README.md"
+entryUrl: "https://github.com/mattpocock/skills/blob/3cca18b368ae95cdbdebbff572ccafa662551015/docs/productivity/teach.md"
+sourceRel: "docs/productivity/teach.md"
+rawUrl: "/raw/10-context-memory/mattpocock-skills/docs/productivity/teach.md"
+sourceSha256: "2ac7f1d694fdd744a5c5157477d5459e3d25876e0b65388d5441f934916b4970"
+pageSha256: "2ac7f1d694fdd744a5c5157477d5459e3d25876e0b65388d5441f934916b4970"
+contentMode: "local-full"
 zh: ""
 ---
 

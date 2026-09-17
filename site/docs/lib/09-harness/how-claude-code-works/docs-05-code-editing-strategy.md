@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works"
-entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/README.md"
+entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/05-code-editing-strategy.md"
+sourceRel: "docs/05-code-editing-strategy.md"
+rawUrl: "/raw/09-harness/how-claude-code-works/docs/05-code-editing-strategy.md"
+sourceSha256: "881da955f938e0821e7c0f07002601b9dff5dac1a43386a645170be48bc6a661"
+pageSha256: "881da955f938e0821e7c0f07002601b9dff5dac1a43386a645170be48bc6a661"
+contentMode: "local-full"
 zh: ""
 ---
 

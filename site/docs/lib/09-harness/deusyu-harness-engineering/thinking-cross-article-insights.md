@@ -8,13 +8,18 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/deusyu/harness-engineering"
-entryUrl: "https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/README.md"
+entryUrl: "https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/thinking/cross-article-insights.md"
+sourceRel: "thinking/cross-article-insights.md"
+rawUrl: "/raw/09-harness/deusyu-harness-engineering/thinking/cross-article-insights.md"
+sourceSha256: "2ddfba4c40a8d2c7b1f28d8c924617ceef368931030d1ab2908704cf250f88a5"
+pageSha256: "2ddfba4c40a8d2c7b1f28d8c924617ceef368931030d1ab2908704cf250f88a5"
+contentMode: "local-full"
 zh: ""
 ---
 
 # 跨文章深层洞见：文章库 × 实践记录交叉对比
 
-> 对 references/ 文章库、concepts/ 概念笔记、practice/ Ralph 实验的交叉分析（首轮写于文库仅 8 篇文章的时点，此后随文库滚动补充；文库现况见 [references/articles.md](/lib/09-harness/deusyu-harness-engineering/references-articles)）
+> 对 references/ 文章库、concepts/ 概念笔记、practice/ Ralph 实验的交叉分析（首轮写于文库仅 8 篇文章的时点，此后随文库滚动补充；文库现况见 [references/articles.md](/lib/09-harness/deusyu-harness-engineering/references-articles/index)）
 > 日期：2026-04-09（2026-04-10 更新：纳入 Fowler 正式版）
 
 ---
@@ -37,7 +42,7 @@ zh: ""
 
 ### 案例补充（OpenAI Symphony / 2026-04-27）
 
-Symphony（本仓库 [#16](/lib/09-harness/deusyu-harness-engineering/references-articles)）给"Harness 生命周期"提供了一个完整的**生→演化→分发**样本：
+Symphony（本仓库 [#16](/lib/09-harness/deusyu-harness-engineering/references-articles/index)）给"Harness 生命周期"提供了一个完整的**生→演化→分发**样本：
 
 | 阶段 | Symphony 实证 |
 |------|------|
@@ -140,7 +145,7 @@ Böckeler 在正式版中做了最诚实的分类：将 harness 的规制能力�
 
 ### 实证补充（OpenAI Symphony / 2026-04-27）
 
-Symphony（本仓库 [#16](/lib/09-harness/deusyu-harness-engineering/references-articles#article-16)）把"人类角色消解"**进一步推向非工程师角色**。文章原话：
+Symphony（本仓库 [#16](/lib/09-harness/deusyu-harness-engineering/references-articles/index#article-16)）把"人类角色消解"**进一步推向非工程师角色**。文章原话：
 
 > "我们的产品经理和设计师现在可以直接向 Symphony 提交功能请求。他们不需要 checkout 仓库，也不需要管理 Codex 会话。他们描述想要的功能，然后拿到一份 review packet，其中包含该功能在真实产品中运行的视频演示。"
 
@@ -191,7 +196,7 @@ Fowler 预测技术栈收敛（选型标准从"开发者偏好"变成"AI 友好�
 
 目前没有任何文章讨论**技术多样性作为系统韧性**的角色。
 
-### 反例与边界（OpenAI Symphony / 2026-04-27，本仓库 [#16](/lib/09-harness/deusyu-harness-engineering/references-articles)）
+### 反例与边界（OpenAI Symphony / 2026-04-27，本仓库 [#16](/lib/09-harness/deusyu-harness-engineering/references-articles/index)）
 
 Symphony 提供了一个**反向方向**的实证：当代码免费时，技术栈反而**会分化**。
 

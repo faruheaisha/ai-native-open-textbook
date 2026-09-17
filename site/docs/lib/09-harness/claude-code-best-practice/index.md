@@ -10,6 +10,8 @@ lang: "英文"
 volume: "09-harness"
 sourceUrl: "https://github.com/shanraisshan/claude-code-best-practice"
 entryUrl: "https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/README.md"
+sourceRel: ""
+contentMode: "local-full"
 zh: "on"
 ---
 
@@ -19,26 +21,231 @@ All major workflows converge on the same architectural pattern: **Research → P
 
 ## 课时
 
-1. [Video 1: From Vibe Coding to Agentic Engineering — Workflows with Claude Code](_-video-presentation-transcript-1-video-workflow.md)
-2. [Claude Code Best Practice](agent-teams-agent-teams-prompt.md)
-3. [Dubai Time Card](agent-teams-output-output.md)
-4. [CLI Startup Flags Best Practice](best-practice-claude-cli-startup-flags.md)
-5. [Commands Best Practice](best-practice-claude-commands.md)
-6. [MCP Servers Best Practice](best-practice-claude-mcp.md)
-7. [Claude Memory](best-practice-claude-memory.md)
-8. [Settings Best Practice](best-practice-claude-settings.md)
-9. [Skills Best Practice](best-practice-claude-skills.md)
-10. [Sub-agents Best Practice](best-practice-claude-subagents.md)
-11. [Verification Checklist — Settings Report](changelog-best-practice-claude-settings-verification-checklist.md)
-12. [Verification Checklist — Subagents Report](changelog-best-practice-claude-subagents-verification-checklist.md)
-13. [Verification Checklist — README CONCEPTS Section](changelog-best-practice-concepts-verification-checklist.md)
-14. [CLAUDE.md](CLAUDE.md)
-15. [Cross-Model (Claude Code + Codex) Workflow](development-workflows-cross-model-workflow-cross-model-workflow.md)
-16. [RPI Workflow](development-workflows-rpi-rpi-workflow.md)
-17. [Agent Teams Implementation](implementation-claude-agent-teams-implementation.md)
-18. [Commands Implementation](implementation-claude-commands-implementation.md)
-19. [Goal Implementation](implementation-claude-goal-implementation.md)
-20. [Skills Implementation](implementation-claude-skills-implementation.md)
-21. [Sub-agents Implementation](implementation-claude-subagents-implementation.md)
+- **🧠 CONCEPTS**
+  - **🔥 Hot**
+    - [Power-ups](/lib/09-harness/claude-code-best-practice/best-practice-claude-power-ups.md)
+    - [Tasks](/lib/09-harness/claude-code-best-practice/reports-claude-global-vs-project-settings.md)
+- [orchestration-workflow](/lib/09-harness/claude-code-best-practice/orchestration-workflow-orchestration-workflow.md)
+- **⚙️ DEVELOPMENT WORKFLOWS**
+  - **Others**
+    - [RPI](/lib/09-harness/claude-code-best-practice/development-workflows-rpi-rpi-workflow.md)
+    - [13 Tips](/lib/09-harness/claude-code-best-practice/tips-claude-boris-13-tips-03-jan-26.md)
+    - [Skills](/lib/09-harness/claude-code-best-practice/tips-claude-thariq-tips-17-mar-26.md)
+- **🔀 CROSS-MODEL WORKFLOWS**
+  - [Cross-Model (Claude Code + Codex) Workflow](/lib/09-harness/claude-code-best-practice/development-workflows-cross-model-workflow-cross-model-workflow.md)
+- **💡 TIPS AND TRICKS (83)**
+  - [multiple CLAUDE.md](/lib/09-harness/claude-code-best-practice/best-practice-claude-memory.md)
+  - [settings.json](/lib/09-harness/claude-code-best-practice/best-practice-claude-settings/index.md)
+  - [skills in subfolders](/lib/09-harness/claude-code-best-practice/reports-claude-skills-for-larger-mono-repos.md)
+  - [p50 of 118 lines](/lib/09-harness/claude-code-best-practice/tips-claude-boris-2-tips-25-mar-26.md)
+  - [6 Tips for Getting More Out of Opus 4.7 (Boris) \| 16/Apr/26](/lib/09-harness/claude-code-best-practice/tips-claude-boris-6-tips-16-apr-26.md)
+  - [Session Management & 1M Context (Thariq) \| 16/Apr/26](/lib/09-harness/claude-code-best-practice/tips-claude-thariq-tips-16-apr-26.md)
+  - [15 Hidden & Under-Utilized Features in Claude Code (Boris) \| 30/Mar/26](/lib/09-harness/claude-code-best-practice/tips-claude-boris-15-tips-30-mar-26.md)
+  - [Code Review & Test Time Compute (Boris) \| 10/Mar/26](/lib/09-harness/claude-code-best-practice/tips-claude-boris-2-tips-10-mar-26.md)
+  - [12 ways how people are customizing their claudes (Boris) \| 12/Feb/26](/lib/09-harness/claude-code-best-practice/tips-claude-boris-12-tips-12-feb-26.md)
+  - [10 tips for using Claude Code from the team (Boris) \| 01/Feb/26](/lib/09-harness/claude-code-best-practice/tips-claude-boris-10-tips-01-feb-26.md)
+  - [Spinner Verbs & Tips (extracted from CLI binary v2.1.121)](/lib/09-harness/claude-code-best-practice/reports-claude-spinner-verbs-and-tips.md)
+- **!**
+  - **video-presentation-transcript**
+    - [Video 1: From Vibe Coding to Agentic Engineering — Workflows with Claude Code](/lib/09-harness/claude-code-best-practice/_-video-presentation-transcript-1-video-workflow.md)
+- **.claude**
+  - **agent-memory**
+    - **weather-agent**
+      - [Weather Agent Memory](/lib/09-harness/claude-code-best-practice/_claude-agent-memory-weather-agent-MEMORY.md)
+      - [Dubai Temperature Readings](/lib/09-harness/claude-code-best-practice/_claude-agent-memory-weather-agent-readings.md)
+  - **agents**
+    - [Development Workflows Research Agent](/lib/09-harness/claude-code-best-practice/_claude-agents-development-workflows-research-agent.md)
+    - [Presentation Claude-Code Agent](/lib/09-harness/claude-code-best-practice/_claude-agents-presentation-claude-code.md)
+    - [Presentation Claude-Gemini Agent](/lib/09-harness/claude-code-best-practice/_claude-agents-presentation-claude-gemini/index.md)
+    - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/_claude-agents-presentation-claude-gemini/01-Target_Audience_Context.md)
+    - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/_claude-agents-presentation-claude-gemini/02-Presentation_Structure_as_of_writing_ver.md)
+    - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/_claude-agents-presentation-claude-gemini/03-Workflow.md)
+    - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/_claude-agents-presentation-claude-gemini/04-Learnings.md)
+    - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/_claude-agents-presentation-claude-gemini/05-Critical_Requirements.md)
+    - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/_claude-agents-presentation-claude-gemini/06-Output_Summary.md)
+    - [Presentation Vibe-Coding Agent](/lib/09-harness/claude-code-best-practice/_claude-agents-presentation-vibe-coding.md)
+    - [Time Agent](/lib/09-harness/claude-code-best-practice/_claude-agents-time-agent.md)
+    - [Weather Agent](/lib/09-harness/claude-code-best-practice/_claude-agents-weather-agent.md)
+    - **workflows**
+      - **best-practice**
+        - [Workflow Changelog — Commands Research Agent](/lib/09-harness/claude-code-best-practice/_claude-agents-workflows-best-practice-workflow-claude-commands-agent.md)
+        - [Workflow Changelog — Settings Research Agent](/lib/09-harness/claude-code-best-practice/_claude-agents-workflows-best-practice-workflow-claude-settings-agent.md)
+        - [Workflow Changelog — Skills Research Agent](/lib/09-harness/claude-code-best-practice/_claude-agents-workflows-best-practice-workflow-claude-skills-agent.md)
+        - [Workflow Changelog — Subagents Research Agent](/lib/09-harness/claude-code-best-practice/_claude-agents-workflows-best-practice-workflow-claude-subagents-agent.md)
+        - [Workflow Changelog — Concepts Research Agent](/lib/09-harness/claude-code-best-practice/_claude-agents-workflows-best-practice-workflow-concepts-agent.md)
+  - **commands**
+    - [Time Command](/lib/09-harness/claude-code-best-practice/_claude-commands-time-command.md)
+    - [Weather Orchestrator Command](/lib/09-harness/claude-code-best-practice/_claude-commands-weather-orchestrator.md)
+    - **workflows**
+      - [Workflow — Agent Collections](/lib/09-harness/claude-code-best-practice/_claude-commands-workflows-agent-collections.md)
+      - [Workflow — Development Workflows](/lib/09-harness/claude-code-best-practice/_claude-commands-workflows-development-workflows.md)
+      - [Workflow — Skill Collections](/lib/09-harness/claude-code-best-practice/_claude-commands-workflows-skill-collections.md)
+      - **best-practice**
+        - [Workflow Changelog — Commands Report](/lib/09-harness/claude-code-best-practice/_claude-commands-workflows-best-practice-workflow-claude-commands.md)
+        - [Workflow Changelog — Settings Report](/lib/09-harness/claude-code-best-practice/_claude-commands-workflows-best-practice-workflow-claude-settings.md)
+        - [Workflow Changelog — Skills Report](/lib/09-harness/claude-code-best-practice/_claude-commands-workflows-best-practice-workflow-claude-skills.md)
+        - [Workflow Changelog — Subagents Report](/lib/09-harness/claude-code-best-practice/_claude-commands-workflows-best-practice-workflow-claude-subagents.md)
+        - [Workflow Changelog — README Concepts](/lib/09-harness/claude-code-best-practice/_claude-commands-workflows-best-practice-workflow-concepts.md)
+  - **hooks**
+    - [HOOKS-README](/lib/09-harness/claude-code-best-practice/_claude-hooks-HOOKS-.md)
+  - **rules**
+    - [Markdown Docs](/lib/09-harness/claude-code-best-practice/_claude-rules-markdown-docs.md)
+    - [Presentation Delegation](/lib/09-harness/claude-code-best-practice/_claude-rules-presentation.md)
+  - **skills**
+    - **agent-browser**
+      - [Browser Automation with agent-browser](/lib/09-harness/claude-code-best-practice/_claude-skills-agent-browser-SKILL.md)
+    - **presentation**
+      - **presentation-structure**
+        - [Presentation Structure Skill](/lib/09-harness/claude-code-best-practice/_claude-skills-presentation-presentation-structure-SKILL.md)
+      - **presentation-styling**
+        - [Presentation Styling Skill](/lib/09-harness/claude-code-best-practice/_claude-skills-presentation-presentation-styling-SKILL.md)
+      - **vibe-to-agentic-framework**
+        - [The "Vibe Coding to Agentic Engineering" Framework](/lib/09-harness/claude-code-best-practice/_claude-skills-presentation-vibe-to-agentic-framework-SKILL.md)
+    - **time-skill**
+      - [Time Skill](/lib/09-harness/claude-code-best-practice/_claude-skills-time-skill-SKILL.md)
+    - **weather-fetcher**
+      - [Weather Fetcher Skill](/lib/09-harness/claude-code-best-practice/_claude-skills-weather-fetcher-SKILL.md)
+    - **weather-svg-creator**
+      - [Weather SVG Creator — Examples](/lib/09-harness/claude-code-best-practice/_claude-skills-weather-svg-creator-examples.md)
+      - [Weather SVG Creator — Reference](/lib/09-harness/claude-code-best-practice/_claude-skills-weather-svg-creator-reference.md)
+      - [Weather SVG Creator Skill](/lib/09-harness/claude-code-best-practice/_claude-skills-weather-svg-creator-SKILL.md)
+- **.codex**
+  - **hooks**
+    - [HOOKS-README](/lib/09-harness/claude-code-best-practice/_codex-hooks-HOOKS-.md)
+- **agent-teams**
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/agent-teams-agent-teams-prompt.md)
+  - **.claude**
+    - **agents**
+      - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/agent-teams-_claude-agents-time-agent.md)
+    - **commands**
+      - [Time Orchestrator Command](/lib/09-harness/claude-code-best-practice/agent-teams-_claude-commands-time-orchestrator.md)
+    - **skills**
+      - **time-fetcher**
+        - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/agent-teams-_claude-skills-time-fetcher-SKILL.md)
+      - **time-svg-creator**
+        - [Time SVG Creator — Examples](/lib/09-harness/claude-code-best-practice/agent-teams-_claude-skills-time-svg-creator-examples.md)
+        - [Time SVG Creator — Reference](/lib/09-harness/claude-code-best-practice/agent-teams-_claude-skills-time-svg-creator-reference.md)
+        - [Time SVG Creator Skill](/lib/09-harness/claude-code-best-practice/agent-teams-_claude-skills-time-svg-creator-SKILL.md)
+  - **output**
+    - [Dubai Time Card](/lib/09-harness/claude-code-best-practice/agent-teams-output-output.md)
+- **best-practice**
+  - [CLI Startup Flags Best Practice](/lib/09-harness/claude-code-best-practice/best-practice-claude-cli-startup-flags.md)
+  - [Commands Best Practice](/lib/09-harness/claude-code-best-practice/best-practice-claude-commands.md)
+  - [MCP Servers Best Practice](/lib/09-harness/claude-code-best-practice/best-practice-claude-mcp.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/best-practice-claude-settings/01-Table_of_Contents.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/best-practice-claude-settings/02-Settings_Hierarchy.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/best-practice-claude-settings/03-Core_Configuration.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/best-practice-claude-settings/04-Permissions.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/best-practice-claude-settings/05-Hooks.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/best-practice-claude-settings/06-MCP_Servers.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/best-practice-claude-settings/07-Sandbox.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/best-practice-claude-settings/08-Plugins.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/best-practice-claude-settings/09-Model_Configuration.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/best-practice-claude-settings/10-Display_UX.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/best-practice-claude-settings/11-AWS_Cloud_Credentials.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/best-practice-claude-settings/12-Environment_Variables_via_env.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/best-practice-claude-settings/13-Useful_Commands.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/best-practice-claude-settings/14-Quick_Reference_Complete_Example.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/best-practice-claude-settings/15-Sources.md)
+  - [Skills Best Practice](/lib/09-harness/claude-code-best-practice/best-practice-claude-skills.md)
+  - [Sub-agents Best Practice](/lib/09-harness/claude-code-best-practice/best-practice-claude-subagents.md)
+- **changelog**
+  - **best-practice**
+    - **claude-settings**
+      - [Verification Checklist — Settings Report](/lib/09-harness/claude-code-best-practice/changelog-best-practice-claude-settings-verification-checklist.md)
+    - **claude-subagents**
+      - [Verification Checklist — Subagents Report](/lib/09-harness/claude-code-best-practice/changelog-best-practice-claude-subagents-verification-checklist.md)
+    - **concepts**
+      - [Verification Checklist — README CONCEPTS Section](/lib/09-harness/claude-code-best-practice/changelog-best-practice-concepts-verification-checklist.md)
+- **development-workflows**
+  - **rpi**
+    - **.claude**
+      - **agents**
+        - [Review focus](/lib/09-harness/claude-code-best-practice/development-workflows-rpi-_claude-agents-code-reviewer.md)
+        - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/development-workflows-rpi-_claude-agents-constitutional-validator.md)
+        - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/development-workflows-rpi-_claude-agents-documentation-analyst-writer.md)
+        - [PRD rules](/lib/09-harness/claude-code-best-practice/development-workflows-rpi-_claude-agents-product-manager.md)
+        - [Requirement Parser Agent](/lib/09-harness/claude-code-best-practice/development-workflows-rpi-_claude-agents-requirement-parser.md)
+        - [Operating principles](/lib/09-harness/claude-code-best-practice/development-workflows-rpi-_claude-agents-senior-software-engineer.md)
+        - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/development-workflows-rpi-_claude-agents-technical-cto-advisor.md)
+        - [Operating principles](/lib/09-harness/claude-code-best-practice/development-workflows-rpi-_claude-agents-ux-designer.md)
+      - **commands**
+        - **rpi**
+          - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/development-workflows-rpi-_claude-commands-rpi-implement.md)
+          - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/development-workflows-rpi-_claude-commands-rpi-plan.md)
+          - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/development-workflows-rpi-_claude-commands-rpi-research.md)
+- **implementation**
+  - [Agent Teams Implementation](/lib/09-harness/claude-code-best-practice/implementation-claude-agent-teams-implementation.md)
+  - [Commands Implementation](/lib/09-harness/claude-code-best-practice/implementation-claude-commands-implementation.md)
+  - [Goal Implementation](/lib/09-harness/claude-code-best-practice/implementation-claude-goal-implementation.md)
+  - [Scheduled Tasks Implementation](/lib/09-harness/claude-code-best-practice/implementation-claude-scheduled-tasks-implementation.md)
+  - [Skills Implementation](/lib/09-harness/claude-code-best-practice/implementation-claude-skills-implementation.md)
+  - [Sub-agents Implementation](/lib/09-harness/claude-code-best-practice/implementation-claude-subagents-implementation.md)
+- **orchestration-workflow**
+  - [Weather Result](/lib/09-harness/claude-code-best-practice/orchestration-workflow-output.md)
+- **reports**
+  - [Claude Advanced Tool Use Patterns](/lib/09-harness/claude-code-best-practice/reports-claude-advanced-tool-use.md)
+  - [Agents vs Commands vs Skills — When to Use What](/lib/09-harness/claude-code-best-practice/reports-claude-agent-command-skill.md)
+  - [Claude Code: Agent Memory Frontmatter](/lib/09-harness/claude-code-best-practice/reports-claude-agent-memory.md)
+  - [Claude Agent SDK vs Claude CLI: System Prompts and Output Consistency](/lib/09-harness/claude-code-best-practice/reports-claude-agent-sdk-vs-cli-system-prompts.md)
+  - [Comprehensive Browser Automation MCP Comparison Report](/lib/09-harness/claude-code-best-practice/reports-claude-in-chrome-v-chrome-devtools-mcp.md)
+  - [Claude Code: Usage, Rate Limits & Extra Usage](/lib/09-harness/claude-code-best-practice/reports-claude-usage-and-rate-limits.md)
+  - [Learning Journey — Weather Reporter Redesign Plan](/lib/09-harness/claude-code-best-practice/reports-learning-journey-weather-reporter-redesign.md)
+  - [LLM Day-to-Day Degradation: Myth vs Reality](/lib/09-harness/claude-code-best-practice/reports-llm-day-to-day-degradation.md)
+  - [Why Harness is Important](/lib/09-harness/claude-code-best-practice/reports-why-harness-is-important.md)
+- **tutorial**
+  - [Day 0 — Claude Code Setup](/lib/09-harness/claude-code-best-practice/tutorial-day0.md)
+    - [Linux Setup](/lib/09-harness/claude-code-best-practice/tutorial-day0-linux.md)
+    - [macOS Setup](/lib/09-harness/claude-code-best-practice/tutorial-day0-mac.md)
+    - [Windows Setup](/lib/09-harness/claude-code-best-practice/tutorial-day0-windows.md)
+  - [Day 1 — Your First Conversation with Claude Code](/lib/09-harness/claude-code-best-practice/tutorial-day1.md)
+- **videos**
+  - [Head of Claude Code: What Happens After Coding Is Solved — Lenny's Podcast](/lib/09-harness/claude-code-best-practice/videos-claude-boris-lennys-podcast-19-feb-26/index.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-boris-lennys-podcast-19-feb-26/01-Video_Details.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-boris-lennys-podcast-19-feb-26/02-Transcript.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-boris-lennys-podcast-19-feb-26/03-Sources.md)
+  - [Building Claude Code with Boris Cherny — The Pragmatic Engineer](/lib/09-harness/claude-code-best-practice/videos-claude-boris-pragmatic-engineer-04-mar-26/index.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-boris-pragmatic-engineer-04-mar-26/01-Video_Details.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-boris-pragmatic-engineer-04-mar-26/02-Transcript.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-boris-pragmatic-engineer-04-mar-26/03-Sources.md)
+  - [Boris Cherny (Creator of Claude Code) On What Grew His Career — Ryan Peterman](/lib/09-harness/claude-code-best-practice/videos-claude-boris-ryan-peterman-15-dec-25/index.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-boris-ryan-peterman-15-dec-25/01-Video_Details.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-boris-ryan-peterman-15-dec-25/02-Transcript.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-boris-ryan-peterman-15-dec-25/03-Sources.md)
+  - [Inside Claude Code With Its Creator Boris Cherny — Y Combinator](/lib/09-harness/claude-code-best-practice/videos-claude-boris-y-combinator-17-feb-26/index.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-boris-y-combinator-17-feb-26/01-Video_Details.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-boris-y-combinator-17-feb-26/02-Transcript.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-boris-y-combinator-17-feb-26/03-Sources.md)
+  - [The Secrets of Claude Code From the Engineers Who Built It — Every](/lib/09-harness/claude-code-best-practice/videos-claude-cat-every-29-oct-25/index.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-cat-every-29-oct-25/01-Video_Details.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-cat-every-29-oct-25/02-Transcript.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-cat-every-29-oct-25/03-Sources.md)
+  - [Everything We Got Wrong About Research-Plan-Implement — MLOps Community](/lib/09-harness/claude-code-best-practice/videos-claude-dex-mlops-community-24-mar-26.md)
+  - [From Vibe Coding to Agentic Engineering — Andrej Karpathy](/lib/09-harness/claude-code-best-practice/videos-claude-karpathy-ai-engineer-02-may-26.md)
+  - [Full Walkthrough: Workflow for AI Coding — Matt Pocock](/lib/09-harness/claude-code-best-practice/videos-claude-matt-pocock-24-apr-26/index.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-matt-pocock-24-apr-26/01-Welcome_and_Setup.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-matt-pocock-24-apr-26/02-LLM_Constraints_The_Smart_Zone_vs_Dumb_Z.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-matt-pocock-24-apr-26/03-Multi-Phase_Plans_and_the_Ralph_Wiggum_L.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-matt-pocock-24-apr-26/04-LLMs_Like_the_Guy_from_Memento.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-matt-pocock-24-apr-26/05-Exercise_1_The_Grill_Me_Skill.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-matt-pocock-24-apr-26/06-Running_Grill_Me_on_Sarah_Chen_s_Slack_B.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-matt-pocock-24-apr-26/07-Q_A_Frameworks_Pair_Programming_Human-in.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-matt-pocock-24-apr-26/08-The_Two_Documents_Destination_and_Journe.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-matt-pocock-24-apr-26/09-Exercise_2_Write_a_PRD.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-matt-pocock-24-apr-26/10-Q_A_Break_1M_Context_Specs_vs_Code.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-matt-pocock-24-apr-26/11-Exercise_3_PRD_to_Issues_Vertical_Slices.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-matt-pocock-24-apr-26/12-Q_A_Stop_Conditions_Plan_Conciseness_Fut.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-matt-pocock-24-apr-26/13-Independently_Grabbable_Issues_and_Paral.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-matt-pocock-24-apr-26/14-Exercise_4_Running_the_AFK_Agent_Ralph_L.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-matt-pocock-24-apr-26/15-Q_A_Negative_Decisions_Code_Review_Volum.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-matt-pocock-24-apr-26/16-TDD_Red_Green_Refactor.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-matt-pocock-24-apr-26/17-Inspecting_the_Implementation.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-matt-pocock-24-apr-26/18-Deep_Modules_vs_Shallow_Modules.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-matt-pocock-24-apr-26/19-Improve_Codebase_Architecture_Skill.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-matt-pocock-24-apr-26/20-Q_A_Document_Persistence_Beads_Framework.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-matt-pocock-24-apr-26/21-Push_vs_Pull_Coding_Standards.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-matt-pocock-24-apr-26/22-Sand_Castle_Parallel_AFK_Loops.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-matt-pocock-24-apr-26/23-Improve_Codebase_Architecture_Results.md)
+  - [Claude Code Best Practice](/lib/09-harness/claude-code-best-practice/videos-claude-matt-pocock-24-apr-26/24-Wrap-Up.md)
 
 开始学习 → [Video 1: From Vibe Coding to Agentic Engineering — Workflows with Claude Code](_-video-presentation-transcript-1-video-workflow.md)

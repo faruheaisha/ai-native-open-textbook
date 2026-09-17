@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "04-work"
 sourceUrl: "https://github.com/coze-dev/coze-loop"
-entryUrl: "https://github.com/coze-dev/coze-loop/blob/5f1e4c234fc110c1bf674e882a6fd02109e1e1e6/README.md"
+entryUrl: "https://github.com/coze-dev/coze-loop/blob/5f1e4c234fc110c1bf674e882a6fd02109e1e1e6/frontend/infra/plugins/pkg-root-webpack-plugin/README.md"
+sourceRel: "frontend/infra/plugins/pkg-root-webpack-plugin/README.md"
+rawUrl: "/raw/04-work/coze-loop/frontend/infra/plugins/pkg-root-webpack-plugin/README.md"
+sourceSha256: "417ee08a64e6ca7db5768c36e2856908bd0b77997e7a01f11d2da1eab605437a"
+pageSha256: "417ee08a64e6ca7db5768c36e2856908bd0b77997e7a01f11d2da1eab605437a"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/2025Emma/vibe-coding-cn"
-entryUrl: "https://github.com/2025Emma/vibe-coding-cn/blob/9b42dd10ddf3fff58f8c7a4d347175db107d7bf9/README.md"
+entryUrl: "https://github.com/2025Emma/vibe-coding-cn/blob/9b42dd10ddf3fff58f8c7a4d347175db107d7bf9/i18n/zh/prompts/coding_prompts/%2822,5%29_前几天，我被_Claude_那些臃肿、过度设计的解决方案搞得很沮丧，里面有一大堆我不需要的“万一”功能。然后我尝试在我的.md"
+sourceRel: "i18n/zh/prompts/coding_prompts/(22,5)_前几天，我被_Claude_那些臃肿、过度设计的解决方案搞得很沮丧，里面有一大堆我不需要的“万一”功能。然后我尝试在我的.md"
+rawUrl: "/raw/07-coding/vibe-coding-cn/i18n/zh/prompts/coding_prompts/(22,5)_前几天，我被_Claude_那些臃肿、过度设计的解决方案搞得很沮丧，里面有一大堆我不需要的“万一”功能。然后我尝试在我的.md"
+sourceSha256: "dc7ea393f294d80a19b094d07f1487f8c8902aa632b15bf5b245bd998449135f"
+pageSha256: "dc7ea393f294d80a19b094d07f1487f8c8902aa632b15bf5b245bd998449135f"
+contentMode: "local-full"
 zh: ""
 ---
 

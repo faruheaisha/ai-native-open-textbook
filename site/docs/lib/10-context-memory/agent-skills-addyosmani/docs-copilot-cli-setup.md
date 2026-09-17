@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/addyosmani/agent-skills"
-entryUrl: "https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/README.md"
+entryUrl: "https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/docs/copilot-cli-setup.md"
+sourceRel: "docs/copilot-cli-setup.md"
+rawUrl: "/raw/10-context-memory/agent-skills-addyosmani/docs/copilot-cli-setup.md"
+sourceSha256: "5ecb11fa4f8b1d8bfd94f9f66f6e50037e8241fca34b3cbc598aee78f96762a9"
+pageSha256: "5ecb11fa4f8b1d8bfd94f9f66f6e50037e8241fca34b3cbc598aee78f96762a9"
+contentMode: "local-full"
 zh: ""
 ---
 

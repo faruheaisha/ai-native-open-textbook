@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/gsd-build/get-shit-done"
-entryUrl: "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/README.md"
+entryUrl: "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/agents/gsd-nyquist-auditor.md"
+sourceRel: "agents/gsd-nyquist-auditor.md"
+rawUrl: "/raw/10-context-memory/get-shit-done/agents/gsd-nyquist-auditor.md"
+sourceSha256: "d00b334cdfc369d0a3d1c408c958e25815fc0772a3e894a4c00d2959c07ba8bb"
+pageSha256: "d00b334cdfc369d0a3d1c408c958e25815fc0772a3e894a4c00d2959c07ba8bb"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -89,10 +94,10 @@ Convention discovery: existing tests → framework defaults → fallback.
 
 | Framework | File Pattern | Runner | Assert Style |
 |-----------|-------------|--------|--------------|
-| pytest | `test_{name}.py` | `pytest {file} -v` | `assert result == expected` |
-| jest | `{name}.test.ts` | `npx jest {file}` | `expect(result).toBe(expected)` |
-| vitest | `{name}.test.ts` | `npx vitest run {file}` | `expect(result).toBe(expected)` |
-| go test | `{name}_test.go` | `go test -v -run {Name}` | `if got != want { t.Errorf(...) }` |
+| pytest | `test_\{name\}.py` | `pytest \{file\} -v` | `assert result == expected` |
+| jest | `\{name\}.test.ts` | `npx jest \{file\}` | `expect(result).toBe(expected)` |
+| vitest | `\{name\}.test.ts` | `npx vitest run \{file\}` | `expect(result).toBe(expected)` |
+| go test | `\{name\}_test.go` | `go test -v -run \{Name\}` | `if got != want \{ t.Errorf(...) \}` |
 
 Per gap: Write test file. One focused test per requirement behavior. Arrange/Act/Assert. Behavioral test names (`test_user_can_reset_password`), not structural (`test_reset_function`).
 &lt;/step>
@@ -113,14 +118,14 @@ Max 3 iterations per failing test.
 | Assertion: test expectation wrong | Fix assertion, re-run |
 | Environment/runtime error | ESCALATE |
 
-Track: `{ gap_id, iteration, error_type, action, result }`
+Track: `\{ gap_id, iteration, error_type, action, result \}`
 
 After 3 failed iterations: ESCALATE with requirement, expected vs actual behavior, impl file reference.
 &lt;/step>
 
 &lt;step name="report">
-Resolved gaps: `{ task_id, requirement, test_type, automated_command, file_path, status: "green" }`
-Escalated gaps: `{ task_id, requirement, reason, debug_iterations, last_error }`
+Resolved gaps: `\{ task_id, requirement, test_type, automated_command, file_path, status: "green" \}`
+Escalated gaps: `\{ task_id, requirement, reason, debug_iterations, last_error \}`
 
 Return one of three formats below.
 &lt;/step>

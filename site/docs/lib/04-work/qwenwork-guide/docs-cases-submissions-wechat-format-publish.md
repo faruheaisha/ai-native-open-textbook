@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/wangxiaoshuai1998/QwenWorkGuide"
-entryUrl: "https://github.com/wangxiaoshuai1998/QwenWorkGuide/blob/002f698a68b69d3635acf6be0d6e27db69069071/README.md"
+entryUrl: "https://github.com/wangxiaoshuai1998/QwenWorkGuide/blob/002f698a68b69d3635acf6be0d6e27db69069071/docs/cases/submissions/wechat-format-publish/index.md"
+sourceRel: "docs/cases/submissions/wechat-format-publish/index.md"
+rawUrl: "/raw/04-work/qwenwork-guide/docs/cases/submissions/wechat-format-publish/index.md"
+sourceSha256: "34ab1515c674c5a90fd700a56f0c2e379804837a779b8e3071ea20962ae177b2"
+pageSha256: "34ab1515c674c5a90fd700a56f0c2e379804837a779b8e3071ea20962ae177b2"
+contentMode: "local-full"
 zh: ""
 ---
 

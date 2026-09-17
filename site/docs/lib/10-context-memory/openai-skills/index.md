@@ -1,0 +1,690 @@
+---
+title: "Agent Skills"
+landing: true
+tier: 3
+sourceId: "10-context-memory/openai-skills"
+sourceTitle: "Agent Skills"
+sourceKind: "技能与配置库"
+licenseLabel: "仅引用"
+lang: "英文"
+volume: "10-context-memory"
+sourceUrl: "https://github.com/openai/skills"
+entryUrl: "https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/README.md"
+sourceRel: ""
+contentMode: "local-full"
+zh: ""
+---
+
+# Agent Skills
+
+Agent Skills are folders of instructions, scripts, and resources that AI agents can discover and use to perform at specific tasks. Write once, use everywhere.
+
+## 课时
+
+- [Agent Skills](/lib/10-context-memory/openai-skills/skills-_curated-notion-knowledge-capture-evaluations.md)
+- **skills**
+  - **.curated**
+    - **aspnet-core**
+      - **references**
+        - [Reference Sections](/lib/10-context-memory/openai-skills/skills-_curated-aspnet-core-references-_sections.md)
+        - [APIs: Minimal And Controllers](/lib/10-context-memory/openai-skills/skills-_curated-aspnet-core-references-apis-minimal-and-controllers.md)
+        - [Data, State, And Services](/lib/10-context-memory/openai-skills/skills-_curated-aspnet-core-references-data-state-and-services.md)
+        - [Program And Pipeline](/lib/10-context-memory/openai-skills/skills-_curated-aspnet-core-references-program-and-pipeline.md)
+        - [Realtime, gRPC, And Background Work](/lib/10-context-memory/openai-skills/skills-_curated-aspnet-core-references-realtime-grpc-and-background-work.md)
+        - [Security And Identity](/lib/10-context-memory/openai-skills/skills-_curated-aspnet-core-references-security-and-identity.md)
+        - [ASP.NET Core Source Map](/lib/10-context-memory/openai-skills/skills-_curated-aspnet-core-references-source-map.md)
+        - [Stack Selection](/lib/10-context-memory/openai-skills/skills-_curated-aspnet-core-references-stack-selection.md)
+        - [Testing, Performance, And Operations](/lib/10-context-memory/openai-skills/skills-_curated-aspnet-core-references-testing-performance-and-operations.md)
+        - [Blazor](/lib/10-context-memory/openai-skills/skills-_curated-aspnet-core-references-ui-blazor.md)
+        - [MVC](/lib/10-context-memory/openai-skills/skills-_curated-aspnet-core-references-ui-mvc.md)
+        - [Razor Pages](/lib/10-context-memory/openai-skills/skills-_curated-aspnet-core-references-ui-razor-pages.md)
+        - [Versioning And Upgrades](/lib/10-context-memory/openai-skills/skills-_curated-aspnet-core-references-versioning-and-upgrades.md)
+      - [ASP.NET Core](/lib/10-context-memory/openai-skills/skills-_curated-aspnet-core-SKILL.md)
+    - **chatgpt-apps**
+      - **references**
+        - [App Archetypes](/lib/10-context-memory/openai-skills/skills-_curated-chatgpt-apps-references-app-archetypes.md)
+        - [Apps SDK Docs Workflow](/lib/10-context-memory/openai-skills/skills-_curated-chatgpt-apps-references-apps-sdk-docs-workflow.md)
+        - [Interactive State Sync Patterns](/lib/10-context-memory/openai-skills/skills-_curated-chatgpt-apps-references-interactive-state-sync-patterns.md)
+        - [Repo Contract And Validation](/lib/10-context-memory/openai-skills/skills-_curated-chatgpt-apps-references-repo-contract-and-validation.md)
+        - [Search And Fetch Standard](/lib/10-context-memory/openai-skills/skills-_curated-chatgpt-apps-references-search-fetch-standard.md)
+        - [Upstream Example Workflow](/lib/10-context-memory/openai-skills/skills-_curated-chatgpt-apps-references-upstream-example-workflow.md)
+        - [Window.openai Patterns](/lib/10-context-memory/openai-skills/skills-_curated-chatgpt-apps-references-window-openai-patterns.md)
+      - [ChatGPT Apps](/lib/10-context-memory/openai-skills/skills-_curated-chatgpt-apps-SKILL.md)
+    - **cli-creator**
+      - **references**
+        - [Codex CLI Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cli-creator-references-agent-cli-patterns.md)
+      - [CLI Creator](/lib/10-context-memory/openai-skills/skills-_curated-cli-creator-SKILL.md)
+    - **cloudflare-deploy**
+      - **references**
+        - **agents-sdk**
+          - [API Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-agents-sdk-api.md)
+          - [Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-agents-sdk-configuration.md)
+          - [Gotchas & Best Practices](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-agents-sdk-gotchas.md)
+          - [Patterns & Use Cases](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-agents-sdk-patterns.md)
+          - [Cloudflare Agents SDK](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-agents-sdk.md)
+        - **ai-gateway**
+          - [Configuration & Setup](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-ai-gateway-configuration.md)
+          - [Dynamic Routing](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-ai-gateway-dynamic-routing.md)
+          - [Features & Capabilities](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-ai-gateway-features.md)
+          - [Cloudflare AI Gateway](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-ai-gateway.md)
+          - [AI Gateway SDK Integration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-ai-gateway-sdk-integration.md)
+          - [AI Gateway Troubleshooting](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-ai-gateway-troubleshooting.md)
+        - **ai-search**
+          - [AI Search API Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-ai-search-api.md)
+          - [AI Search Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-ai-search-configuration.md)
+          - [AI Search Gotchas](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-ai-search-gotchas.md)
+          - [AI Search Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-ai-search-patterns.md)
+          - [Cloudflare AI Search Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-ai-search.md)
+        - **analytics-engine**
+          - [Analytics Engine API Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-analytics-engine-api.md)
+          - [Analytics Engine Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-analytics-engine-configuration.md)
+          - [Analytics Engine Gotchas](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-analytics-engine-gotchas.md)
+          - [Analytics Engine Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-analytics-engine-patterns.md)
+          - [Cloudflare Workers Analytics Engine Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-analytics-engine.md)
+        - **api-shield**
+          - [API Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-api-shield-api.md)
+          - [Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-api-shield-configuration.md)
+          - [Gotchas & Troubleshooting](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-api-shield-gotchas.md)
+          - [Patterns & Use Cases](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-api-shield-patterns.md)
+          - [Cloudflare API Shield Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-api-shield.md)
+        - **api**
+          - [API Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-api-api.md)
+          - [Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-api-configuration.md)
+          - [Gotchas & Troubleshooting](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-api-gotchas.md)
+          - [Common Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-api-patterns.md)
+          - [Cloudflare API Integration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-api.md)
+        - **argo-smart-routing**
+          - [Headers required](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-argo-smart-routing-api.md)
+          - [terraform/argo.tf](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-argo-smart-routing-configuration.md)
+          - [gotchas](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-argo-smart-routing-gotchas.md)
+          - [Integration Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-argo-smart-routing-patterns.md)
+          - [Cloudflare Argo Smart Routing Skill Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-argo-smart-routing.md)
+        - **bindings**
+          - [Bindings API Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-bindings-api.md)
+          - [Binding Configuration Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-bindings-configuration.md)
+          - [Binding Gotchas and Troubleshooting](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-bindings-gotchas.md)
+          - [Binding Patterns and Best Practices](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-bindings-patterns.md)
+          - [Cloudflare Bindings Skill Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-bindings.md)
+        - **bot-management**
+          - [Bot Management API](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-bot-management-api.md)
+          - [Bot Management Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-bot-management-configuration.md)
+          - [Bot Management Gotchas](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-bot-management-gotchas.md)
+          - [Bot Management Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-bot-management-patterns.md)
+          - [Cloudflare Bot Management](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-bot-management.md)
+        - **browser-rendering**
+          - [Browser Rendering API](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-browser-rendering-api.md)
+          - [Configuration & Setup](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-browser-rendering-configuration.md)
+          - [Browser Rendering Gotchas](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-browser-rendering-gotchas.md)
+          - [Browser Rendering Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-browser-rendering-patterns.md)
+          - [Cloudflare Browser Rendering Skill Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-browser-rendering.md)
+        - **c3**
+          - [C3 CLI Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-c3-api.md)
+          - [C3 Generated Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-c3-configuration.md)
+          - [C3 Troubleshooting](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-c3-gotchas.md)
+          - [C3 Usage Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-c3-patterns.md)
+          - [C3 (create-cloudflare)](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-c3.md)
+        - **cache-reserve**
+          - [Cache Reserve API](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-cache-reserve-api.md)
+          - [Cache Reserve Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-cache-reserve-configuration.md)
+          - [Cache Reserve Gotchas](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-cache-reserve-gotchas.md)
+          - [Cache Reserve Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-cache-reserve-patterns.md)
+          - [Cloudflare Cache Reserve](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-cache-reserve.md)
+        - **containers**
+          - [api](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-containers-api.md)
+          - [configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-containers-configuration.md)
+          - [gotchas](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-containers-gotchas.md)
+          - [patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-containers-patterns.md)
+          - [Cloudflare Containers Skill Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-containers.md)
+        - **cron-triggers**
+          - [Cron Triggers API](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-cron-triggers-api.md)
+          - [Cron Triggers Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-cron-triggers-configuration.md)
+          - [Cron Triggers Gotchas](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-cron-triggers-gotchas.md)
+          - [Cron Triggers Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-cron-triggers-patterns.md)
+          - [Cloudflare Cron Triggers](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-cron-triggers.md)
+        - **d1**
+          - [D1 API Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-d1-api.md)
+          - [D1 Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-d1-configuration.md)
+          - [D1 Gotchas & Troubleshooting](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-d1-gotchas.md)
+          - [D1 Patterns & Best Practices](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-d1-patterns.md)
+          - [Cloudflare D1 Database](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-d1.md)
+        - **ddos**
+          - [DDoS API](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-ddos-api.md)
+          - [DDoS Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-ddos-configuration.md)
+          - [DDoS Gotchas](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-ddos-gotchas.md)
+          - [DDoS Protection Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-ddos-patterns.md)
+          - [Cloudflare DDoS Protection](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-ddos.md)
+        - **do-storage**
+          - [DO Storage API Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-do-storage-api.md)
+          - [DO Storage Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-do-storage-configuration.md)
+          - [DO Storage Gotchas & Troubleshooting](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-do-storage-gotchas.md)
+          - [DO Storage Patterns & Best Practices](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-do-storage-patterns.md)
+          - [Cloudflare Durable Objects Storage](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-do-storage.md)
+          - [DO Storage Testing](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-do-storage-testing.md)
+        - **durable-objects**
+          - [Durable Objects API](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-durable-objects-api.md)
+          - [Durable Objects Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-durable-objects-configuration.md)
+          - [Durable Objects Gotchas](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-durable-objects-gotchas.md)
+          - [Durable Objects Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-durable-objects-patterns.md)
+          - [Cloudflare Durable Objects](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-durable-objects.md)
+        - **email-routing**
+          - [Email Routing API Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-email-routing-api.md)
+          - [Email Routing Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-email-routing-configuration.md)
+          - [Gotchas & Troubleshooting](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-email-routing-gotchas.md)
+          - [Common Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-email-routing-patterns.md)
+          - [Cloudflare Email Routing Skill Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-email-routing.md)
+        - **email-workers**
+          - [Email Workers API Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-email-workers-api.md)
+          - [Email Workers Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-email-workers-configuration.md)
+          - [Email Workers Gotchas](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-email-workers-gotchas.md)
+          - [Email Workers Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-email-workers-patterns.md)
+          - [Cloudflare Email Workers](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-email-workers.md)
+        - **hyperdrive**
+          - [API Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-hyperdrive-api.md)
+          - [Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-hyperdrive-configuration.md)
+          - [Gotchas](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-hyperdrive-gotchas.md)
+          - [Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-hyperdrive-patterns.md)
+          - [Hyperdrive](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-hyperdrive.md)
+        - **kv**
+          - [KV API Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-kv-api.md)
+          - [KV Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-kv-configuration.md)
+          - [KV Gotchas & Troubleshooting](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-kv-gotchas.md)
+          - [KV Patterns & Best Practices](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-kv-patterns.md)
+          - [Cloudflare Workers KV](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-kv.md)
+        - **miniflare**
+          - [Programmatic API](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-miniflare-api.md)
+          - [Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-miniflare-configuration.md)
+          - [Gotchas & Troubleshooting](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-miniflare-gotchas.md)
+          - [Testing Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-miniflare-patterns.md)
+          - [Miniflare](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-miniflare.md)
+        - **network-interconnect**
+          - [CNI API Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-network-interconnect-api.md)
+          - [CNI Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-network-interconnect-configuration.md)
+          - [CNI Gotchas & Troubleshooting](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-network-interconnect-gotchas.md)
+          - [CNI Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-network-interconnect-patterns.md)
+          - [Cloudflare Network Interconnect (CNI)](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-network-interconnect.md)
+        - **observability**
+          - [api](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-observability-api.md)
+          - [wrangler.toml](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-observability-configuration.md)
+          - [Verify config](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-observability-gotchas.md)
+          - [Observability Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-observability-patterns.md)
+          - [Cloudflare Observability Skill Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-observability.md)
+        - **pages-functions**
+          - [Function API](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-pages-functions-api.md)
+          - [Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-pages-functions-configuration.md)
+          - [Gotchas & Debugging](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-pages-functions-gotchas.md)
+          - [Common Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-pages-functions-patterns.md)
+          - [Cloudflare Pages Functions](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-pages-functions.md)
+        - **pages**
+          - [Functions API](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-pages-api.md)
+          - [Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-pages-configuration.md)
+          - [Gotchas](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-pages-gotchas.md)
+          - [Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-pages-patterns.md)
+          - [Cloudflare Pages](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-pages.md)
+        - **pipelines**
+          - [Pipelines API Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-pipelines-api.md)
+          - [Pipelines Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-pipelines-configuration.md)
+          - [Pipelines Gotchas](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-pipelines-gotchas.md)
+          - [Pipelines Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-pipelines-patterns.md)
+          - [Cloudflare Pipelines](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-pipelines.md)
+        - **pulumi**
+          - [API & Data Sources](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-pulumi-api.md)
+          - [Resource Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-pulumi-configuration.md)
+          - [Troubleshooting & Best Practices](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-pulumi-gotchas.md)
+          - [Architecture Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-pulumi-patterns.md)
+          - [Cloudflare Pulumi Provider](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-pulumi.md)
+        - **queues**
+          - [Queues API Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-queues-api.md)
+          - [Queues Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-queues-configuration.md)
+          - [Queues Gotchas & Troubleshooting](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-queues-gotchas.md)
+          - [Queues Patterns & Best Practices](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-queues-patterns.md)
+          - [Cloudflare Queues](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-queues.md)
+        - **r2-data-catalog**
+          - [API Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-r2-data-catalog-api.md)
+          - [Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-r2-data-catalog-configuration.md)
+          - [Gotchas & Troubleshooting](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-r2-data-catalog-gotchas.md)
+          - [Common Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-r2-data-catalog-patterns.md)
+          - [Cloudflare R2 Data Catalog Skill Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-r2-data-catalog.md)
+        - **r2-sql**
+          - [R2 SQL API Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-r2-sql-api.md)
+          - [R2 SQL Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-r2-sql-configuration.md)
+          - [R2 SQL Gotchas](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-r2-sql-gotchas.md)
+          - [R2 SQL Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-r2-sql-patterns.md)
+          - [Cloudflare R2 SQL Skill Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-r2-sql.md)
+        - **r2**
+          - [R2 API Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-r2-api.md)
+          - [R2 Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-r2-configuration.md)
+          - [R2 Gotchas & Troubleshooting](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-r2-gotchas.md)
+          - [R2 Patterns & Best Practices](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-r2-patterns.md)
+          - [Cloudflare R2 Object Storage](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-r2.md)
+        - **realtime-sfu**
+          - [API Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-realtime-sfu-api.md)
+          - [Configuration & Deployment](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-realtime-sfu-configuration.md)
+          - [Gotchas & Troubleshooting](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-realtime-sfu-gotchas.md)
+          - [Patterns & Use Cases](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-realtime-sfu-patterns.md)
+          - [Cloudflare Realtime SFU Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-realtime-sfu.md)
+        - **realtimekit**
+          - [RealtimeKit API Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-realtimekit-api.md)
+          - [RealtimeKit Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-realtimekit-configuration.md)
+          - [RealtimeKit Gotchas & Troubleshooting](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-realtimekit-gotchas.md)
+          - [RealtimeKit Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-realtimekit-patterns.md)
+          - [Cloudflare RealtimeKit](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-realtimekit.md)
+        - **sandbox**
+          - [API Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-sandbox-api.md)
+          - [Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-sandbox-configuration.md)
+          - [Gotchas & Best Practices](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-sandbox-gotchas.md)
+          - [Common Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-sandbox-patterns.md)
+          - [Cloudflare Sandbox SDK](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-sandbox.md)
+        - **secrets-store**
+          - [API Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-secrets-store-api.md)
+          - [Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-secrets-store-configuration.md)
+          - [Gotchas](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-secrets-store-gotchas.md)
+          - [Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-secrets-store-patterns.md)
+          - [Cloudflare Secrets Store](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-secrets-store.md)
+        - **smart-placement**
+          - [Smart Placement API](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-smart-placement-api.md)
+          - [Smart Placement Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-smart-placement-configuration.md)
+          - [Smart Placement Gotchas](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-smart-placement-gotchas.md)
+          - [Smart Placement Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-smart-placement-patterns.md)
+          - [Cloudflare Workers Smart Placement](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-smart-placement.md)
+        - **snippets**
+          - [Snippets API Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-snippets-api.md)
+          - [Snippets Configuration Guide](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-snippets-configuration.md)
+          - [Gotchas & Best Practices](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-snippets-gotchas.md)
+          - [Snippets Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-snippets-patterns.md)
+          - [Cloudflare Snippets Skill Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-snippets.md)
+        - **spectrum**
+          - [Create](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-spectrum-api.md)
+          - [configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-spectrum-configuration.md)
+          - [Test connectivity](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-spectrum-gotchas.md)
+          - [patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-spectrum-patterns.md)
+          - [Cloudflare Spectrum Skill Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-spectrum.md)
+        - **static-assets**
+          - [API Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-static-assets-api.md)
+          - [.assetsignore](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-static-assets-configuration.md)
+          - [gotchas](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-static-assets-gotchas.md)
+          - [patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-static-assets-patterns.md)
+          - [Cloudflare Static Assets Skill Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-static-assets.md)
+        - **stream**
+          - [Stream Live Streaming API](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-stream-api-live.md)
+          - [Stream API Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-stream-api.md)
+          - [Stream Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-stream-configuration.md)
+          - [Stream Gotchas](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-stream-gotchas.md)
+          - [Stream Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-stream-patterns.md)
+          - [Cloudflare Stream](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-stream.md)
+        - **tail-workers**
+          - [Tail Workers API Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-tail-workers-api.md)
+          - [Tail Workers Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-tail-workers-configuration.md)
+          - [Tail Workers Gotchas & Debugging](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-tail-workers-gotchas.md)
+          - [Tail Workers Common Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-tail-workers-patterns.md)
+          - [Cloudflare Tail Workers](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-tail-workers.md)
+        - **terraform**
+          - [Terraform Data Sources Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-terraform-api.md)
+          - [Terraform Configuration Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-terraform-configuration.md)
+          - [Terraform Troubleshooting & Best Practices](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-terraform-gotchas.md)
+          - [Terraform Patterns & Use Cases](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-terraform-patterns.md)
+          - [Cloudflare Terraform Provider](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-terraform.md)
+        - **tunnel**
+          - [Tunnel API](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-tunnel-api.md)
+          - [Tunnel Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-tunnel-configuration.md)
+          - [Tunnel Gotchas](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-tunnel-gotchas.md)
+          - [Tunnel Networking](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-tunnel-networking.md)
+          - [Tunnel Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-tunnel-patterns.md)
+          - [Cloudflare Tunnel](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-tunnel.md)
+        - **turn**
+          - [TURN API Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-turn-api.md)
+          - [TURN Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-turn-configuration.md)
+          - [TURN Gotchas & Troubleshooting](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-turn-gotchas.md)
+          - [TURN Implementation Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-turn-patterns.md)
+          - [Cloudflare TURN Service](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-turn.md)
+        - **turnstile**
+          - [API Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-turnstile-api.md)
+          - [Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-turnstile-configuration.md)
+          - [Troubleshooting & Gotchas](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-turnstile-gotchas.md)
+          - [Common Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-turnstile-patterns.md)
+          - [Cloudflare Turnstile Implementation Skill Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-turnstile.md)
+        - **vectorize**
+          - [Vectorize API Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-vectorize-api.md)
+          - [Vectorize Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-vectorize-configuration.md)
+          - [Vectorize Gotchas](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-vectorize-gotchas.md)
+          - [Vectorize Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-vectorize-patterns.md)
+          - [Cloudflare Vectorize](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-vectorize.md)
+        - **waf**
+          - [API Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-waf-api.md)
+          - [Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-waf-configuration.md)
+          - [Gotchas & Troubleshooting](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-waf-gotchas.md)
+          - [Common Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-waf-patterns.md)
+          - [Cloudflare WAF Expert Skill Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-waf.md)
+        - **web-analytics**
+          - [Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-web-analytics-configuration.md)
+          - [Web Analytics Gotchas](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-web-analytics-gotchas.md)
+          - [Framework Integration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-web-analytics-integration.md)
+          - [Web Analytics Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-web-analytics-patterns.md)
+          - [Cloudflare Web Analytics](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-web-analytics.md)
+        - **workerd**
+          - [Workerd APIs](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-workerd-api.md)
+          - [Workerd Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-workerd-configuration.md)
+          - [Workerd Gotchas](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-workerd-gotchas.md)
+          - [Workerd Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-workerd-patterns.md)
+          - [Workerd Runtime](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-workerd.md)
+        - **workers-ai**
+          - [Workers AI API Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-workers-ai-api.md)
+          - [Workers AI Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-workers-ai-configuration.md)
+          - [Workers AI Gotchas](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-workers-ai-gotchas.md)
+          - [Workers AI Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-workers-ai-patterns.md)
+          - [Cloudflare Workers AI](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-workers-ai.md)
+        - **workers-for-platforms**
+          - [API Operations](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-workers-for-platforms-api.md)
+          - [Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-workers-for-platforms-configuration.md)
+          - [Gotchas & Limits](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-workers-for-platforms-gotchas.md)
+          - [Multi-Tenant Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-workers-for-platforms-patterns.md)
+          - [Cloudflare Workers for Platforms](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-workers-for-platforms.md)
+        - **workers-playground**
+          - [Workers Playground API](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-workers-playground-api.md)
+          - [Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-workers-playground-configuration.md)
+          - [Workers Playground Gotchas](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-workers-playground-gotchas.md)
+          - [Workers Playground Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-workers-playground-patterns.md)
+          - [Cloudflare Workers Playground Skill Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-workers-playground.md)
+        - **workers-vpc**
+          - [TCP Sockets API Reference](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-workers-vpc-api.md)
+          - [Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-workers-vpc-configuration.md)
+          - [Gotchas and Troubleshooting](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-workers-vpc-gotchas.md)
+          - [Common Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-workers-vpc-patterns.md)
+          - [Workers VPC Connectivity](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-workers-vpc.md)
+        - **workers**
+          - [Workers Runtime APIs](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-workers-api.md)
+          - [Workers Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-workers-configuration.md)
+          - [Workers Frameworks](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-workers-frameworks.md)
+          - [Workers Gotchas](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-workers-gotchas.md)
+          - [Workers Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-workers-patterns.md)
+          - [Cloudflare Workers](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-workers.md)
+        - **workflows**
+          - [Workflow APIs](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-workflows-api.md)
+          - [Workflow Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-workflows-configuration.md)
+          - [Gotchas & Debugging](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-workflows-gotchas.md)
+          - [Workflow Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-workflows-patterns.md)
+          - [Cloudflare Workflows](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-workflows.md)
+        - **wrangler**
+          - [Wrangler Programmatic API](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-wrangler-api.md)
+          - [Authentication](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-wrangler-auth.md)
+          - [Wrangler Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-wrangler-configuration.md)
+          - [Wrangler Common Issues](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-wrangler-gotchas.md)
+          - [Wrangler Development Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-wrangler-patterns.md)
+          - [Cloudflare Wrangler](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-wrangler.md)
+        - **zaraz**
+          - [Zaraz Web API](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-zaraz-api.md)
+          - [Zaraz Configuration](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-zaraz-configuration.md)
+          - [Zaraz Gotchas](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-zaraz-gotchas.md)
+          - [Zaraz Reference Implementation Summary](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-zaraz-IMPLEMENTATION_SUMMARY.md)
+          - [Zaraz Patterns](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-zaraz-patterns.md)
+          - [Cloudflare Zaraz](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-references-zaraz.md)
+      - [Cloudflare Deploy](/lib/10-context-memory/openai-skills/skills-_curated-cloudflare-deploy-SKILL.md)
+    - **define-goal**
+      - [Define Goal](/lib/10-context-memory/openai-skills/skills-_curated-define-goal-SKILL.md)
+    - **figma-code-connect-components**
+      - **references**
+        - [Code Connect Mapping Checklist](/lib/10-context-memory/openai-skills/skills-_curated-figma-code-connect-components-references-mapping-checklist.md)
+      - [Code Connect Components](/lib/10-context-memory/openai-skills/skills-_curated-figma-code-connect-components-SKILL.md)
+    - **figma-create-design-system-rules**
+      - **references**
+        - [Rule Template Skeleton](/lib/10-context-memory/openai-skills/skills-_curated-figma-create-design-system-rules-references-rule-template.md)
+      - [Create Design System Rules](/lib/10-context-memory/openai-skills/skills-_curated-figma-create-design-system-rules-SKILL.md)
+    - **figma-create-new-file**
+      - [create_new_file — Create a New Figma File](/lib/10-context-memory/openai-skills/skills-_curated-figma-create-new-file-SKILL.md)
+    - **figma-generate-design**
+      - [Build / Update Screens from Design System](/lib/10-context-memory/openai-skills/skills-_curated-figma-generate-design-SKILL.md)
+    - **figma-generate-library**
+      - **references**
+        - [Code Connect Setup Reference](/lib/10-context-memory/openai-skills/skills-_curated-figma-generate-library-references-code-connect-setup.md)
+        - [Component Creation Reference](/lib/10-context-memory/openai-skills/skills-_curated-figma-generate-library-references-component-creation.md)
+        - [Discovery Phase Reference](/lib/10-context-memory/openai-skills/skills-_curated-figma-generate-library-references-discovery-phase.md)
+        - [Documentation Creation Reference](/lib/10-context-memory/openai-skills/skills-_curated-figma-generate-library-references-documentation-creation.md)
+        - [Error Recovery Reference](/lib/10-context-memory/openai-skills/skills-_curated-figma-generate-library-references-error-recovery.md)
+        - [Naming Conventions Reference](/lib/10-context-memory/openai-skills/skills-_curated-figma-generate-library-references-naming-conventions.md)
+        - [Token Creation Reference](/lib/10-context-memory/openai-skills/skills-_curated-figma-generate-library-references-token-creation.md)
+      - [Design System Builder — Figma MCP Skill](/lib/10-context-memory/openai-skills/skills-_curated-figma-generate-library-SKILL.md)
+    - **figma-implement-design**
+      - [Implement Design](/lib/10-context-memory/openai-skills/skills-_curated-figma-implement-design-SKILL.md)
+    - **figma-use**
+      - **references**
+        - [Figma Plugin API Reference](/lib/10-context-memory/openai-skills/skills-_curated-figma-use-references-api-reference.md)
+        - [Common Patterns](/lib/10-context-memory/openai-skills/skills-_curated-figma-use-references-common-patterns.md)
+        - [Component & Variant API Patterns](/lib/10-context-memory/openai-skills/skills-_curated-figma-use-references-component-patterns.md)
+        - [Effect Style API Patterns](/lib/10-context-memory/openai-skills/skills-_curated-figma-use-references-effect-style-patterns.md)
+        - [Gotchas & Common Mistakes](/lib/10-context-memory/openai-skills/skills-_curated-figma-use-references-gotchas.md)
+        - [Plugin API Patterns](/lib/10-context-memory/openai-skills/skills-_curated-figma-use-references-plugin-api-patterns.md)
+        - [Plugin API Index](/lib/10-context-memory/openai-skills/skills-_curated-figma-use-references-plugin-api-standalone..md)
+        - [Text Style API Patterns](/lib/10-context-memory/openai-skills/skills-_curated-figma-use-references-text-style-patterns.md)
+        - [Validation Workflow & Error Recovery](/lib/10-context-memory/openai-skills/skills-_curated-figma-use-references-validation-and-recovery.md)
+        - [Variable & Token API Patterns](/lib/10-context-memory/openai-skills/skills-_curated-figma-use-references-variable-patterns.md)
+        - **working-with-design-systems**
+          - [Working with design systems: Creating Components](/lib/10-context-memory/openai-skills/skills-_curated-figma-use-references-working-with-design-systems-wwds-components--creating.md)
+          - [Working with design systems: Using Components](/lib/10-context-memory/openai-skills/skills-_curated-figma-use-references-working-with-design-systems-wwds-components--using.md)
+          - [Components](/lib/10-context-memory/openai-skills/skills-_curated-figma-use-references-working-with-design-systems-wwds-components.md)
+          - [Working with design systems: Effect Styles](/lib/10-context-memory/openai-skills/skills-_curated-figma-use-references-working-with-design-systems-wwds-effect-styles.md)
+          - [Working with design systems: Text Styles](/lib/10-context-memory/openai-skills/skills-_curated-figma-use-references-working-with-design-systems-wwds-text-styles.md)
+          - [Working with design systems: Creating Variables](/lib/10-context-memory/openai-skills/skills-_curated-figma-use-references-working-with-design-systems-wwds-variables--creating.md)
+          - [Working with design systems: Using Variables](/lib/10-context-memory/openai-skills/skills-_curated-figma-use-references-working-with-design-systems-wwds-variables--using.md)
+          - [Working with design systems: Variables](/lib/10-context-memory/openai-skills/skills-_curated-figma-use-references-working-with-design-systems-wwds-variables.md)
+          - [Working with design systems](/lib/10-context-memory/openai-skills/skills-_curated-figma-use-references-working-with-design-systems-wwds.md)
+      - [use_figma — Figma Plugin API Skill](/lib/10-context-memory/openai-skills/skills-_curated-figma-use-SKILL.md)
+    - **figma**
+      - **references**
+        - [Figma MCP config reference](/lib/10-context-memory/openai-skills/skills-_curated-figma-references-figma-mcp-config.md)
+        - [Figma MCP tools and prompt patterns](/lib/10-context-memory/openai-skills/skills-_curated-figma-references-figma-tools-and-prompts.md)
+      - [Figma MCP](/lib/10-context-memory/openai-skills/skills-_curated-figma-SKILL.md)
+    - **gh-address-comments**
+      - [PR Comment Handler](/lib/10-context-memory/openai-skills/skills-_curated-gh-address-comments-SKILL.md)
+    - **gh-fix-ci**
+      - [Gh Pr Checks Plan Fix](/lib/10-context-memory/openai-skills/skills-_curated-gh-fix-ci-SKILL.md)
+    - **hatch-pet**
+      - **references**
+        - [Animation Rows](/lib/10-context-memory/openai-skills/skills-_curated-hatch-pet-references-animation-rows.md)
+        - [Codex Pet Contract](/lib/10-context-memory/openai-skills/skills-_curated-hatch-pet-references-codex-pet-contract.md)
+        - [QA Rubric](/lib/10-context-memory/openai-skills/skills-_curated-hatch-pet-references-qa-rubric.md)
+      - [Hatch Pet](/lib/10-context-memory/openai-skills/skills-_curated-hatch-pet-SKILL.md)
+    - **jupyter-notebook**
+      - **references**
+        - [Experiment Patterns](/lib/10-context-memory/openai-skills/skills-_curated-jupyter-notebook-references-experiment-patterns.md)
+        - [Notebook Structure](/lib/10-context-memory/openai-skills/skills-_curated-jupyter-notebook-references-notebook-structure.md)
+        - [Quality Checklist](/lib/10-context-memory/openai-skills/skills-_curated-jupyter-notebook-references-quality-checklist.md)
+        - [Tutorial Patterns](/lib/10-context-memory/openai-skills/skills-_curated-jupyter-notebook-references-tutorial-patterns.md)
+      - [Jupyter Notebook Skill](/lib/10-context-memory/openai-skills/skills-_curated-jupyter-notebook-SKILL.md)
+    - **linear**
+      - [Linear](/lib/10-context-memory/openai-skills/skills-_curated-linear-SKILL.md)
+    - **migrate-to-codex**
+      - **references**
+        - [Migration Differences](/lib/10-context-memory/openai-skills/skills-_curated-migrate-to-codex-references-differences.md)
+      - [Migrate to Codex](/lib/10-context-memory/openai-skills/skills-_curated-migrate-to-codex-SKILL.md)
+    - **netlify-deploy**
+      - **references**
+        - [Netlify CLI Commands Reference](/lib/10-context-memory/openai-skills/skills-_curated-netlify-deploy-references-cli-commands.md)
+        - [Netlify Deployment Patterns](/lib/10-context-memory/openai-skills/skills-_curated-netlify-deploy-references-deployment-patterns.md)
+        - [netlify.toml Configuration Reference](/lib/10-context-memory/openai-skills/skills-_curated-netlify-deploy-references-netlify-toml.md)
+      - [Netlify Deployment Skill](/lib/10-context-memory/openai-skills/skills-_curated-netlify-deploy-SKILL.md)
+    - **notion-knowledge-capture**
+      - **examples**
+        - [Example: Conversation to FAQ](/lib/10-context-memory/openai-skills/skills-_curated-notion-knowledge-capture-examples-conversation-to-faq.md)
+        - [Example: Decision Record Capture](/lib/10-context-memory/openai-skills/skills-_curated-notion-knowledge-capture-examples-decision-capture.md)
+        - [Example: How-To Guide from Discussion](/lib/10-context-memory/openai-skills/skills-_curated-notion-knowledge-capture-examples-how-to-guide.md)
+      - **reference**
+        - [Database Best Practices](/lib/10-context-memory/openai-skills/skills-_curated-notion-knowledge-capture-reference-database-best-practices.md)
+        - [Decision Log Database (ADR - Architecture Decision Records)](/lib/10-context-memory/openai-skills/skills-_curated-notion-knowledge-capture-reference-decision-log-database.md)
+        - [General Documentation Database](/lib/10-context-memory/openai-skills/skills-_curated-notion-knowledge-capture-reference-documentation-database.md)
+        - [FAQ Database](/lib/10-context-memory/openai-skills/skills-_curated-notion-knowledge-capture-reference-faq-database.md)
+        - [How-To Guide Database](/lib/10-context-memory/openai-skills/skills-_curated-notion-knowledge-capture-reference-how-to-guide-database.md)
+        - [Learning/Post-Mortem Database](/lib/10-context-memory/openai-skills/skills-_curated-notion-knowledge-capture-reference-learning-database.md)
+        - [Team Wiki Database](/lib/10-context-memory/openai-skills/skills-_curated-notion-knowledge-capture-reference-team-wiki-database.md)
+      - [Knowledge Capture](/lib/10-context-memory/openai-skills/skills-_curated-notion-knowledge-capture-SKILL.md)
+    - **notion-meeting-intelligence**
+      - **evaluations**
+        - [Meeting Intelligence Skill Evaluations](/lib/10-context-memory/openai-skills/skills-_curated-notion-meeting-intelligence-evaluations.md)
+      - **examples**
+        - [Example: Customer Meeting Prep](/lib/10-context-memory/openai-skills/skills-_curated-notion-meeting-intelligence-examples-customer-meeting.md)
+        - [Example: Executive Review Prep](/lib/10-context-memory/openai-skills/skills-_curated-notion-meeting-intelligence-examples-executive-review.md)
+        - [Example: Project Decision Meeting Prep](/lib/10-context-memory/openai-skills/skills-_curated-notion-meeting-intelligence-examples-project-decision.md)
+        - [Example: Sprint Planning Meeting Prep](/lib/10-context-memory/openai-skills/skills-_curated-notion-meeting-intelligence-examples-sprint-planning.md)
+      - **reference**
+        - [Brainstorming Meeting Template](/lib/10-context-memory/openai-skills/skills-_curated-notion-meeting-intelligence-reference-brainstorming-template.md)
+        - [Decision Meeting Template](/lib/10-context-memory/openai-skills/skills-_curated-notion-meeting-intelligence-reference-decision-meeting-template.md)
+        - [1:1 Meeting Template](/lib/10-context-memory/openai-skills/skills-_curated-notion-meeting-intelligence-reference-one-on-one-template.md)
+        - [Retrospective Template](/lib/10-context-memory/openai-skills/skills-_curated-notion-meeting-intelligence-reference-retrospective-template.md)
+        - [Sprint Planning Template](/lib/10-context-memory/openai-skills/skills-_curated-notion-meeting-intelligence-reference-sprint-planning-template.md)
+        - [Status Update Meeting Template](/lib/10-context-memory/openai-skills/skills-_curated-notion-meeting-intelligence-reference-status-update-template.md)
+        - [Meeting Template Selection Guide](/lib/10-context-memory/openai-skills/skills-_curated-notion-meeting-intelligence-reference-template-selection-guide.md)
+      - [Meeting Intelligence](/lib/10-context-memory/openai-skills/skills-_curated-notion-meeting-intelligence-SKILL.md)
+    - **notion-research-documentation**
+      - **evaluations**
+        - [Research & Documentation Skill Evaluations](/lib/10-context-memory/openai-skills/skills-_curated-notion-research-documentation-evaluations.md)
+      - **examples**
+        - [Example: Competitor Analysis](/lib/10-context-memory/openai-skills/skills-_curated-notion-research-documentation-examples-competitor-analysis.md)
+        - [Example: Market Research](/lib/10-context-memory/openai-skills/skills-_curated-notion-research-documentation-examples-market-research.md)
+        - [Example: Technical Investigation](/lib/10-context-memory/openai-skills/skills-_curated-notion-research-documentation-examples-technical-investigation.md)
+        - [Example: Group Trip Research & Planning](/lib/10-context-memory/openai-skills/skills-_curated-notion-research-documentation-examples-trip-planning.md)
+      - **reference**
+        - [Advanced Search Techniques](/lib/10-context-memory/openai-skills/skills-_curated-notion-research-documentation-reference-advanced-search.md)
+        - [Comparison Format](/lib/10-context-memory/openai-skills/skills-_curated-notion-research-documentation-reference-comparison-format.md)
+        - [Comparison Template](/lib/10-context-memory/openai-skills/skills-_curated-notion-research-documentation-reference-comparison-template.md)
+        - [Comprehensive Report Format](/lib/10-context-memory/openai-skills/skills-_curated-notion-research-documentation-reference-comprehensive-report-format.md)
+        - [Comprehensive Report Template](/lib/10-context-memory/openai-skills/skills-_curated-notion-research-documentation-reference-comprehensive-report-template.md)
+        - [Format Selection Guide](/lib/10-context-memory/openai-skills/skills-_curated-notion-research-documentation-reference-format-selection-guide.md)
+        - [Quick Brief Format](/lib/10-context-memory/openai-skills/skills-_curated-notion-research-documentation-reference-quick-brief-format.md)
+        - [Quick Brief Template](/lib/10-context-memory/openai-skills/skills-_curated-notion-research-documentation-reference-quick-brief-template.md)
+        - [Research Summary Format](/lib/10-context-memory/openai-skills/skills-_curated-notion-research-documentation-reference-research-summary-format.md)
+        - [Research Summary Template](/lib/10-context-memory/openai-skills/skills-_curated-notion-research-documentation-reference-research-summary-template.md)
+      - [Research & Documentation](/lib/10-context-memory/openai-skills/skills-_curated-notion-research-documentation-SKILL.md)
+    - **notion-spec-to-implementation**
+      - **evaluations**
+        - [Spec to Implementation Skill Evaluations](/lib/10-context-memory/openai-skills/skills-_curated-notion-spec-to-implementation-evaluations.md)
+      - **examples**
+        - [Example: API Feature Implementation](/lib/10-context-memory/openai-skills/skills-_curated-notion-spec-to-implementation-examples-api-feature.md)
+        - [Example: Database Migration Implementation](/lib/10-context-memory/openai-skills/skills-_curated-notion-spec-to-implementation-examples-database-migration.md)
+        - [Example: UI Component Implementation](/lib/10-context-memory/openai-skills/skills-_curated-notion-spec-to-implementation-examples-ui-component.md)
+      - **reference**
+        - [Milestone Summary Template](/lib/10-context-memory/openai-skills/skills-_curated-notion-spec-to-implementation-reference-milestone-summary-template.md)
+        - [Progress Tracking](/lib/10-context-memory/openai-skills/skills-_curated-notion-spec-to-implementation-reference-progress-tracking.md)
+        - [Progress Update Template](/lib/10-context-memory/openai-skills/skills-_curated-notion-spec-to-implementation-reference-progress-update-template.md)
+        - [Quick Implementation Plan Template](/lib/10-context-memory/openai-skills/skills-_curated-notion-spec-to-implementation-reference-quick-implementation-plan.md)
+        - [Specification Parsing](/lib/10-context-memory/openai-skills/skills-_curated-notion-spec-to-implementation-reference-spec-parsing.md)
+        - [Standard Implementation Plan Template](/lib/10-context-memory/openai-skills/skills-_curated-notion-spec-to-implementation-reference-standard-implementation-plan.md)
+        - [Task Creation Template](/lib/10-context-memory/openai-skills/skills-_curated-notion-spec-to-implementation-reference-task-creation-template.md)
+        - [Task Creation from Specs](/lib/10-context-memory/openai-skills/skills-_curated-notion-spec-to-implementation-reference-task-creation.md)
+      - [Spec to Implementation](/lib/10-context-memory/openai-skills/skills-_curated-notion-spec-to-implementation-SKILL.md)
+    - **openai-docs**
+      - **references**
+        - [Latest model guide](/lib/10-context-memory/openai-skills/skills-_curated-openai-docs-references-latest-model.md)
+        - [Personality](/lib/10-context-memory/openai-skills/skills-_curated-openai-docs-references-prompting-guide.md)
+        - [Upgrading to GPT-5.5](/lib/10-context-memory/openai-skills/skills-_curated-openai-docs-references-upgrade-guide.md)
+      - [OpenAI Docs](/lib/10-context-memory/openai-skills/skills-_curated-openai-docs-SKILL.md)
+    - **pdf**
+      - [PDF Skill](/lib/10-context-memory/openai-skills/skills-_curated-pdf-SKILL.md)
+    - **playwright-interactive**
+      - [Playwright Interactive Skill](/lib/10-context-memory/openai-skills/skills-_curated-playwright-interactive-SKILL.md)
+    - **playwright**
+      - **references**
+        - [Playwright CLI Reference](/lib/10-context-memory/openai-skills/skills-_curated-playwright-references-cli.md)
+        - [Playwright CLI Workflows](/lib/10-context-memory/openai-skills/skills-_curated-playwright-references-workflows.md)
+      - [Playwright CLI Skill](/lib/10-context-memory/openai-skills/skills-_curated-playwright-SKILL.md)
+    - **render-deploy**
+      - **references**
+        - [Render Blueprint Specification](/lib/10-context-memory/openai-skills/skills-_curated-render-deploy-references-blueprint-spec.md)
+        - [Codebase Analysis (Deploy)](/lib/10-context-memory/openai-skills/skills-_curated-render-deploy-references-codebase-analysis.md)
+        - [Render Configuration Guide](/lib/10-context-memory/openai-skills/skills-_curated-render-deploy-references-configuration-guide.md)
+        - [Deployment Details](/lib/10-context-memory/openai-skills/skills-_curated-render-deploy-references-deployment-details.md)
+        - [Direct Creation (MCP) Details](/lib/10-context-memory/openai-skills/skills-_curated-render-deploy-references-direct-creation.md)
+        - [Error patterns (compact)](/lib/10-context-memory/openai-skills/skills-_curated-render-deploy-references-error-patterns.md)
+        - [Post-deploy checks](/lib/10-context-memory/openai-skills/skills-_curated-render-deploy-references-post-deploy-checks.md)
+        - [Render Runtime Options](/lib/10-context-memory/openai-skills/skills-_curated-render-deploy-references-runtimes.md)
+        - [Render Service Types](/lib/10-context-memory/openai-skills/skills-_curated-render-deploy-references-service-types.md)
+        - [Basic troubleshooting (deploy-time and startup)](/lib/10-context-memory/openai-skills/skills-_curated-render-deploy-references-troubleshooting-basics.md)
+      - [Deploy to Render](/lib/10-context-memory/openai-skills/skills-_curated-render-deploy-SKILL.md)
+    - **screenshot**
+      - [Screenshot Capture](/lib/10-context-memory/openai-skills/skills-_curated-screenshot-SKILL.md)
+    - **security-best-practices**
+      - **references**
+        - [Go (Golang) Security Spec (Go 1.25.x, Standard Library, net/http)](/lib/10-context-memory/openai-skills/skills-_curated-security-best-practices-references-golang-general-backend-security.md)
+        - [Express (Node.js) Web Security Spec (Express 5.x / 4.19.2+, Node.js LTS)](/lib/10-context-memory/openai-skills/skills-_curated-security-best-practices-references-javascript-express-web-server-security.md)
+        - [Frontend JavaScript/TypeScript Web Security Spec (Vanilla Browser JS/TS, Modern Browsers)](/lib/10-context-memory/openai-skills/skills-_curated-security-best-practices-references-javascript-general-web-frontend-security.md)
+        - [jQuery Frontend Security Spec (jQuery 4.0.x, modern browsers)](/lib/10-context-memory/openai-skills/skills-_curated-security-best-practices-references-javascript-jquery-web-frontend-security.md)
+        - [Next.js (TypeScript/JavaScript) Web Security Spec (Next.js 16.1.x, Node.js 20.9+)](/lib/10-context-memory/openai-skills/skills-_curated-security-best-practices-references-javascript-typescript-nextjs-web-server-security.md)
+        - [React (JavaScript/TypeScript) Web Security Spec (React 19.x, TypeScript 5.x)](/lib/10-context-memory/openai-skills/skills-_curated-security-best-practices-references-javascript-typescript-react-web-frontend-security.md)
+        - [Vue.js Web Security Spec (Vue 3.x, TypeScript/JavaScript, common tooling: Vite)](/lib/10-context-memory/openai-skills/skills-_curated-security-best-practices-references-javascript-typescript-vue-web-frontend-security.md)
+        - [Django (Python) Web Security Spec (Django 6.0.x, Python 3.x)](/lib/10-context-memory/openai-skills/skills-_curated-security-best-practices-references-python-django-web-server-security.md)
+        - [FastAPI (Python) Web Security Spec (FastAPI 0.128.x, Python 3.x) ([PyPI][1])](/lib/10-context-memory/openai-skills/skills-_curated-security-best-practices-references-python-fastapi-web-server-security.md)
+        - [Flask (Python) Web Security Spec (Flask 3.1.x, Python 3.x)](/lib/10-context-memory/openai-skills/skills-_curated-security-best-practices-references-python-flask-web-server-security.md)
+      - [Security Best Practices](/lib/10-context-memory/openai-skills/skills-_curated-security-best-practices-SKILL.md)
+    - **security-ownership-map**
+      - **references**
+        - [Neo4j Import Notes](/lib/10-context-memory/openai-skills/skills-_curated-security-ownership-map-references-neo4j-import.md)
+      - [Security Ownership Map](/lib/10-context-memory/openai-skills/skills-_curated-security-ownership-map-SKILL.md)
+    - **security-threat-model**
+      - **references**
+        - [Threat Modeling Prompt Template for LLMs](/lib/10-context-memory/openai-skills/skills-_curated-security-threat-model-references-prompt-template.md)
+        - [Security Controls and Asset Categories](/lib/10-context-memory/openai-skills/skills-_curated-security-threat-model-references-security-controls-and-assets.md)
+      - [Threat Model Source Code Repo](/lib/10-context-memory/openai-skills/skills-_curated-security-threat-model-SKILL.md)
+    - **sentry**
+      - [Sentry (Read-only Observability)](/lib/10-context-memory/openai-skills/skills-_curated-sentry-SKILL.md)
+    - **speech**
+      - **references**
+        - [Accessibility read defaults](/lib/10-context-memory/openai-skills/skills-_curated-speech-references-accessibility.md)
+        - [Audio Speech API quick reference](/lib/10-context-memory/openai-skills/skills-_curated-speech-references-audio-api.md)
+        - [CLI reference (`scripts/text_to_speech.py`)](/lib/10-context-memory/openai-skills/skills-_curated-speech-references-cli.md)
+        - [Codex network approvals / sandbox notes](/lib/10-context-memory/openai-skills/skills-_curated-speech-references-codex-network.md)
+        - [IVR / phone prompt defaults](/lib/10-context-memory/openai-skills/skills-_curated-speech-references-ivr.md)
+        - [Narration / explainer defaults](/lib/10-context-memory/openai-skills/skills-_curated-speech-references-narration.md)
+        - [Instructioning best practices (TTS)](/lib/10-context-memory/openai-skills/skills-_curated-speech-references-prompting.md)
+        - [Sample instruction templates (copy/paste)](/lib/10-context-memory/openai-skills/skills-_curated-speech-references-sample-prompts.md)
+        - [Voice directions](/lib/10-context-memory/openai-skills/skills-_curated-speech-references-voice-directions.md)
+        - [Product demo / voiceover defaults](/lib/10-context-memory/openai-skills/skills-_curated-speech-references-voiceover.md)
+      - [Speech Generation Skill](/lib/10-context-memory/openai-skills/skills-_curated-speech-SKILL.md)
+    - **transcribe**
+      - **references**
+        - [gpt-4o-transcribe-diarize quick reference](/lib/10-context-memory/openai-skills/skills-_curated-transcribe-references-api.md)
+      - [Audio Transcribe](/lib/10-context-memory/openai-skills/skills-_curated-transcribe-SKILL.md)
+    - **vercel-deploy**
+      - [Vercel Deploy](/lib/10-context-memory/openai-skills/skills-_curated-vercel-deploy-SKILL.md)
+    - **winui-app**
+      - **references**
+        - [Reference Sections](/lib/10-context-memory/openai-skills/skills-_curated-winui-app-references-_sections.md)
+        - [accessibility input and localization](/lib/10-context-memory/openai-skills/skills-_curated-winui-app-references-accessibility-input-and-localization.md)
+        - [build run and launch verification](/lib/10-context-memory/openai-skills/skills-_curated-winui-app-references-build-run-and-launch-verification.md)
+        - [community toolkit controls and helpers](/lib/10-context-memory/openai-skills/skills-_curated-winui-app-references-community-toolkit-controls-and-helpers.md)
+        - [controls layout and adaptive ui](/lib/10-context-memory/openai-skills/skills-_curated-winui-app-references-controls-layout-and-adaptive-ui.md)
+        - [foundation environment audit and remediation](/lib/10-context-memory/openai-skills/skills-_curated-winui-app-references-foundation-environment-audit-and-remediation.md)
+        - [foundation setup and project selection](/lib/10-context-memory/openai-skills/skills-_curated-winui-app-references-foundation-setup-and-project-selection.md)
+        - [foundation template first recovery](/lib/10-context-memory/openai-skills/skills-_curated-winui-app-references-foundation-template-first-recovery.md)
+        - [foundation winui app structure](/lib/10-context-memory/openai-skills/skills-_curated-winui-app-references-foundation-winui-app-structure.md)
+        - [motion animations and polish](/lib/10-context-memory/openai-skills/skills-_curated-winui-app-references-motion-animations-and-polish.md)
+        - [performance diagnostics and responsiveness](/lib/10-context-memory/openai-skills/skills-_curated-winui-app-references-performance-diagnostics-and-responsiveness.md)
+        - [sample source map](/lib/10-context-memory/openai-skills/skills-_curated-winui-app-references-sample-source-map.md)
+        - [shell navigation and windowing](/lib/10-context-memory/openai-skills/skills-_curated-winui-app-references-shell-navigation-and-windowing.md)
+        - [styling theming materials and icons](/lib/10-context-memory/openai-skills/skills-_curated-winui-app-references-styling-theming-materials-and-icons.md)
+        - [testing debugging and review checklists](/lib/10-context-memory/openai-skills/skills-_curated-winui-app-references-testing-debugging-and-review-checklists.md)
+        - [windows app sdk lifecycle notifications and deployment](/lib/10-context-memory/openai-skills/skills-_curated-winui-app-references-windows-app-sdk-lifecycle-notifications-and-deployment.md)
+      - [WinUI App](/lib/10-context-memory/openai-skills/skills-_curated-winui-app-SKILL.md)
+    - **yeet**
+      - [SKILL](/lib/10-context-memory/openai-skills/skills-_curated-yeet-SKILL.md)
+  - **.system**
+    - **imagegen**
+      - **references**
+        - [CLI reference (`scripts/image_gen.py`)](/lib/10-context-memory/openai-skills/skills-_system-imagegen-references-cli.md)
+        - [Codex network approvals / sandbox notes](/lib/10-context-memory/openai-skills/skills-_system-imagegen-references-codex-network.md)
+        - [Image API quick reference](/lib/10-context-memory/openai-skills/skills-_system-imagegen-references-image-api.md)
+        - [Prompting best practices](/lib/10-context-memory/openai-skills/skills-_system-imagegen-references-prompting.md)
+        - [Sample prompts (copy/paste)](/lib/10-context-memory/openai-skills/skills-_system-imagegen-references-sample-prompts.md)
+      - [Image Generation Skill](/lib/10-context-memory/openai-skills/skills-_system-imagegen-SKILL.md)
+    - **openai-docs**
+      - **references**
+        - [Latest model guide](/lib/10-context-memory/openai-skills/skills-_system-openai-docs-references-latest-model.md)
+      - [OpenAI Docs](/lib/10-context-memory/openai-skills/skills-_system-openai-docs-SKILL.md)
+    - **plugin-creator**
+      - **references**
+        - [Plugin JSON sample spec](/lib/10-context-memory/openai-skills/skills-_system-plugin-creator-references-plugin-json-spec.md)
+      - [Plugin Creator](/lib/10-context-memory/openai-skills/skills-_system-plugin-creator-SKILL.md)
+    - **skill-creator**
+      - **references**
+        - [openai.yaml fields (full example + descriptions)](/lib/10-context-memory/openai-skills/skills-_system-skill-creator-references-openai_yaml.md)
+      - [Skill Creator](/lib/10-context-memory/openai-skills/skills-_system-skill-creator-SKILL.md)
+    - **skill-installer**
+      - [Skill Installer](/lib/10-context-memory/openai-skills/skills-_system-skill-installer-SKILL.md)
+
+开始学习 → [Reference Sections](skills-_curated-aspnet-core-references-_sections.md)

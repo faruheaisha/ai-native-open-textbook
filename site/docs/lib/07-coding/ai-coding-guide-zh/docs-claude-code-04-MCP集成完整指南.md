@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh"
-entryUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/README.md"
+entryUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/docs/claude-code/04-MCP集成完整指南.md"
+sourceRel: "docs/claude-code/04-MCP集成完整指南.md"
+rawUrl: "/raw/07-coding/ai-coding-guide-zh/docs/claude-code/04-MCP集成完整指南.md"
+sourceSha256: "5d4398ed02348c72707defc08ed8364bc4184253c5e55b6f795259e0f6209d75"
+pageSha256: "5d4398ed02348c72707defc08ed8364bc4184253c5e55b6f795259e0f6209d75"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -115,7 +120,7 @@ zh: ""
 
 | 术语 | 英文全称 | 通俗解释 | 生活类比 |
 |------|----------|----------|----------|
-| **JSON** | JavaScript Object Notation | 一种通用的数据格式，用花括号`{}`组织数据，MCP配置文件就是JSON格式 | 标准化的表格模板 |
+| **JSON** | JavaScript Object Notation | 一种通用的数据格式，用花括号`\{\}`组织数据，MCP配置文件就是JSON格式 | 标准化的表格模板 |
 | **`~`（波浪号）** | Home Directory | 用户的"家目录"，macOS是`/Users/用户名`，Linux是`/home/用户名`，Windows对应`C:\Users\用户名` | 你电脑上"我的文档"的上级目录 |
 | **MCP** | Model Context Protocol | AI工具的"USB接口标准"，让AI能连接各种外部工具 | USB接口标准 |
 | **MCP Server** | - | 符合MCP标准的"工具包"，提供特定功能 | USB设备（U盘、键盘） |
@@ -485,7 +490,7 @@ Claude Code：
 |------|------|------|------|
 | `command` | ✅ | 启动命令 | `"npx"`, `"node"`, `"python"` |
 | `args` | ✅ | 命令参数数组 | `["-y", "@modelcontextprotocol/server-xxx"]` |
-| `env` | ❌ | 环境变量对象 | `{"API_KEY": "xxx"}` |
+| `env` | ❌ | 环境变量对象 | `\{"API_KEY": "xxx"\}` |
 | `timeout` | ❌ | 超时时间(毫秒) | `60000` |
 
 #### 方式2：CLI命令（快速添加）
@@ -590,7 +595,7 @@ echo $GITHUB_PERSONAL_ACCESS_TOKEN
 }
 ```
 
-> 💡 **说明**：`${GITHUB_PERSONAL_ACCESS_TOKEN}` 会自动读取环境变量，不用把Token直接写在配置文件里
+> 💡 **说明**：`$\{GITHUB_PERSONAL_ACCESS_TOKEN\}` 会自动读取环境变量，不用把Token直接写在配置文件里
 
 **步骤4：验证配置**
 
@@ -679,7 +684,7 @@ claude
 > ⚠️ **安全建议**：
 > - 使用只读数据库用户
 > - 不要在配置文件中硬编码密码
-> - 连接字符串通过 `args` 传递，可使用环境变量替代硬编码：`"postgresql://${PGUSER}:${PGPASSWORD}@localhost:5432/database"`
+> - 连接字符串通过 `args` 传递，可使用环境变量替代硬编码：`"postgresql://${PGUSER}:${PGPASSWORD\}@localhost:5432/database"`
 
 **提供的工具**：
 
@@ -1890,7 +1895,7 @@ cat .mcp.json | jq .
 | 错误 | 示例 | 修复 |
 |------|------|------|
 | 缺少逗号 | `"a": 1 "b": 2` | `"a": 1, "b": 2` |
-| 多余逗号 | `"a": 1,}` | `"a": 1}` |
+| 多余逗号 | `"a": 1,\}` | `"a": 1\}` |
 | 使用单引号 | `'key': 'value'` | `"key": "value"` |
 | 未闭合的引号 | `"key: "value"` | `"key": "value"` |
 
@@ -2154,7 +2159,7 @@ npm publish --access public
 
 **A**：
 - ✅ 使用环境变量，不硬编码
-- ✅ 使用 `${VAR}` 语法引用
+- ✅ 使用 `$\{VAR\}` 语法引用
 - ✅ `.mcp.json` 只放引用，不放值
 - ✅ 敏感配置放Local作用域
 - ❌ 不要提交包含Key的文件到Git

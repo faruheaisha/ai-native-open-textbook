@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "08-agents"
 sourceUrl: "https://github.com/microsoft/ai-agents-for-beginners"
-entryUrl: "https://github.com/microsoft/ai-agents-for-beginners/blob/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translations/zh-CN/README.md"
+entryUrl: "https://github.com/microsoft/ai-agents-for-beginners/blob/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translations/zh-CN/03-agentic-design-patterns/code_samples/03-dotnet-agent-framework.md"
+sourceRel: "translations/zh-CN/03-agentic-design-patterns/code_samples/03-dotnet-agent-framework.md"
+rawUrl: "/raw/08-agents/microsoft-ai-agents-for-beginners/translations/zh-CN/03-agentic-design-patterns/code_samples/03-dotnet-agent-framework.md"
+sourceSha256: "f635d24528cc3bcc75325bc8aea5bab467c645d9af1284a37272eb087227852a"
+pageSha256: "f635d24528cc3bcc75325bc8aea5bab467c645d9af1284a37272eb087227852a"
+contentMode: "local-full"
 zh: ""
 ---
 

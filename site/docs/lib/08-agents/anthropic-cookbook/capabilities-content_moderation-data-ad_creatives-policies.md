@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "08-agents"
 sourceUrl: "https://github.com/anthropics/anthropic-cookbook"
-entryUrl: "https://github.com/anthropics/anthropic-cookbook/blob/a97b9a2dc300635f0c26b5e05d0b54bbe0279ee5/README.md"
+entryUrl: "https://github.com/anthropics/anthropic-cookbook/blob/a97b9a2dc300635f0c26b5e05d0b54bbe0279ee5/capabilities/content_moderation/data/ad_creatives/policies.md"
+sourceRel: "capabilities/content_moderation/data/ad_creatives/policies.md"
+rawUrl: "/raw/08-agents/anthropic-cookbook/capabilities/content_moderation/data/ad_creatives/policies.md"
+sourceSha256: "f53dd25a9c78e2d23e601a240a95679346a7c3dde595634146becb48715bcb12"
+pageSha256: "f53dd25a9c78e2d23e601a240a95679346a7c3dde595634146becb48715bcb12"
+contentMode: "local-full"
 zh: ""
 ---
 

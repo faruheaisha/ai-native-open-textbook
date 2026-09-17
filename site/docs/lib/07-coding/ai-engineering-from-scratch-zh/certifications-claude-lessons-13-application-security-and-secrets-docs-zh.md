@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh"
-entryUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/README.md"
+entryUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/certifications/claude/lessons/13-application-security-and-secrets/docs/zh.md"
+sourceRel: "certifications/claude/lessons/13-application-security-and-secrets/docs/zh.md"
+rawUrl: "/raw/07-coding/ai-engineering-from-scratch-zh/certifications/claude/lessons/13-application-security-and-secrets/docs/zh.md"
+sourceSha256: "c55344db248fc4cd7b76c38040e879a846d37fa4a2e4e6f643dcc82bd56182c3"
+pageSha256: "c55344db248fc4cd7b76c38040e879a846d37fa4a2e4e6f643dcc82bd56182c3"
+contentMode: "local-full"
 zh: ""
 ---
 

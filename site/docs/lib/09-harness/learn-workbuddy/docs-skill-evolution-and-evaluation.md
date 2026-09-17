@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/adongwanai/learn-workbuddy"
-entryUrl: "https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/README.md"
+entryUrl: "https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/docs/skill-evolution-and-evaluation.md"
+sourceRel: "docs/skill-evolution-and-evaluation.md"
+rawUrl: "/raw/09-harness/learn-workbuddy/docs/skill-evolution-and-evaluation.md"
+sourceSha256: "32400d4abc7d9f4c3ac748dbb87ff1daec85dc0d70e4d52fa015ae616183b2dd"
+pageSha256: "32400d4abc7d9f4c3ac748dbb87ff1daec85dc0d70e4d52fa015ae616183b2dd"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -92,12 +97,12 @@ s16 的 `audit_skill()` 保留 `rm -rf /`、`sudo`、`pip install` 这类直白�
 4. **评测意识**：README 里引用上面 6 类基准，说明本项目技能子系统对标的是
    哪几维（Utility + Retrieval/Routing + Safety），比空泛说"好用"有说服力。
    保持 24 章不变的离线基线已经落在
-   [`examples/retrieval_routing_eval/`](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/examples/retrieval_routing_eval/README.md)：统一评价
+   [`examples/retrieval_routing_eval/`](/lib/09-harness/learn-workbuddy/examples-retrieval_routing_eval)：统一评价
    Skill、Memory、Reflection 的 Recall@K、MRR、拒答、作用域泄漏、权限泄漏与
    Prompt 预算，并把生命周期、权限和 prompt override 过滤放在相关性算分之前。
 
 保持 24 章主线不变的可运行版本见
-[`examples/self_evolving_skills/`](https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/examples/self_evolving_skills/README.md)：它把成功 JSONL
+[`examples/self_evolving_skills/`](/lib/09-harness/learn-workbuddy/examples-self_evolving_skills)：它把成功 JSONL
 轨迹蒸馏成候选 `SKILL.md`，通过 held-out 回放、安全检查和显式人工审批后才进入
 版本化 Skill 库。
 

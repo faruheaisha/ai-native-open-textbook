@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/gsd-build/get-shit-done"
-entryUrl: "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/README.md"
+entryUrl: "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/agents/gsd-phase-researcher.md"
+sourceRel: "agents/gsd-phase-researcher.md"
+rawUrl: "/raw/10-context-memory/get-shit-done/agents/gsd-phase-researcher.md"
+sourceSha256: "580f514e145d1ffc1af17ae632bbc10b0668da601ab04093745bf61285524759"
+pageSha256: "580f514e145d1ffc1af17ae632bbc10b0668da601ab04093745bf61285524759"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -328,7 +333,7 @@ directory is a high-risk signal. Flag such packages `[SUS]` even if slopcheck ra
 
 ## RESEARCH.md Structure
 
-**Location:** `.planning/phases/XX-name/{phase_num}-RESEARCH.md`
+**Location:** `.planning/phases/XX-name/\{phase_num\}-RESEARCH.md`
 
 ```markdown
 # Phase [X]: [Name] - Research
@@ -638,7 +643,7 @@ If graph.json exists, check freshness:
 node "$HOME/.claude/get-shit-done/bin/gsd-tools.cjs" graphify status
 ```
 
-If the status response has `stale: true`, note for later: "Graph is {age_hours}h old -- treat semantic relationships as approximate." Include this annotation inline with any graph context injected below.
+If the status response has `stale: true`, note for later: "Graph is \{age_hours\}h old -- treat semantic relationships as approximate." Include this annotation inline with any graph context injected below.
 
 Query the graph for each major capability in the phase scope (2-3 queries per D-05, discovery-focused):
 

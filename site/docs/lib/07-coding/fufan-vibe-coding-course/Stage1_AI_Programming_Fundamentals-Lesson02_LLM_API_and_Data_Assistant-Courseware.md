@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/fufankeji/FuFan-VibeCodingCourse"
-entryUrl: "https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/README_CN.md"
+entryUrl: "https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/Stage1_AI_Programming_Fundamentals/Lesson02_LLM_API_and_Data_Assistant/Courseware/README.md"
+sourceRel: "Stage1_AI_Programming_Fundamentals/Lesson02_LLM_API_and_Data_Assistant/Courseware/README.md"
+rawUrl: "/raw/07-coding/fufan-vibe-coding-course/Stage1_AI_Programming_Fundamentals/Lesson02_LLM_API_and_Data_Assistant/Courseware/README.md"
+sourceSha256: "4ecbbdd076df029349fd3245a098a1622e45efbd5d26da154810bc718448f465"
+pageSha256: "4ecbbdd076df029349fd3245a098a1622e45efbd5d26da154810bc718448f465"
+contentMode: "local-full"
 zh: ""
 ---
 

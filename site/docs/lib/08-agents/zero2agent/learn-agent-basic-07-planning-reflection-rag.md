@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/ranxi2001/zero2Agent"
-entryUrl: "https://github.com/ranxi2001/zero2Agent/blob/46e9f7c28f84f54b2f6e45681d14989f01e18291/README.md"
+entryUrl: "https://github.com/ranxi2001/zero2Agent/blob/46e9f7c28f84f54b2f6e45681d14989f01e18291/learn-agent-basic/07-planning-reflection-rag/index.md"
+sourceRel: "learn-agent-basic/07-planning-reflection-rag/index.md"
+rawUrl: "/raw/08-agents/zero2agent/learn-agent-basic/07-planning-reflection-rag/index.md"
+sourceSha256: "271593b685333b12e552342df6a91021893003d8f4054eeb6e3b872cbc6a756f"
+pageSha256: "271593b685333b12e552342df6a91021893003d8f4054eeb6e3b872cbc6a756f"
+contentMode: "local-full"
 zh: ""
 ---
 

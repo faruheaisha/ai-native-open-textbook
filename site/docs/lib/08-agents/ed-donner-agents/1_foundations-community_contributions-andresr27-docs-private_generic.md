@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/ed-donner/agents"
-entryUrl: ""
+entryUrl: "https://github.com/ed-donner/agents/blob/8ceaf66c24643627c1e4806851736bdd444bdd4b/1_foundations/community_contributions/andresr27/docs/private_generic.md"
+sourceRel: "1_foundations/community_contributions/andresr27/docs/private_generic.md"
+rawUrl: "/raw/08-agents/ed-donner-agents/1_foundations/community_contributions/andresr27/docs/private_generic.md"
+sourceSha256: "46799a0834374c2c1bb66827e9df3cb04649f576e8f8c4bf5506969a06ac18f8"
+pageSha256: "46799a0834374c2c1bb66827e9df3cb04649f576e8f8c4bf5506969a06ac18f8"
+contentMode: "local-full"
 zh: ""
 ---
 

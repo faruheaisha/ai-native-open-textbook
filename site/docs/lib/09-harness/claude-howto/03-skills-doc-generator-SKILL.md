@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/luongnv89/claude-howto"
-entryUrl: "https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/README.md"
+entryUrl: "https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/03-skills/doc-generator/SKILL.md"
+sourceRel: "03-skills/doc-generator/SKILL.md"
+rawUrl: "/raw/09-harness/claude-howto/03-skills/doc-generator/SKILL.md"
+sourceSha256: "cad8762e85ca64ec958af4e607f6e21f17965c50f92e6c0022eec579adb80641"
+pageSha256: "cad8762e85ca64ec958af4e607f6e21f17965c50f92e6c0022eec579adb80641"
+contentMode: "local-full"
 zh: ""
 ---
 

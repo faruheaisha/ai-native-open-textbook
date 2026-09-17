@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/openai/openai-agents-python"
-entryUrl: "https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/README.md"
+entryUrl: "https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/config.md"
+sourceRel: "docs/config.md"
+rawUrl: "/raw/08-agents/openai-agents-python/docs/config.md"
+sourceSha256: "dfead5d75273b22cee128f470f9709484c967905eba61e6982704000010a9f90"
+pageSha256: "dfead5d75273b22cee128f470f9709484c967905eba61e6982704000010a9f90"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -20,11 +25,11 @@ These defaults still apply to sandbox-based workflows, but sandbox workspaces, s
 
 If you need to configure a specific agent or run instead, start with:
 
--   [Agents](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/agents.md) for instructions, tools, output types, handoffs, and guardrails on a plain `Agent`.
--   [Running agents](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/running_agents.md) for `RunConfig`, sessions, and conversation-state options.
--   [Sandbox agents](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/sandbox/guide.md) for `SandboxRunConfig`, manifests, capabilities, and sandbox-client-specific workspace setup.
+-   [Agents](/lib/08-agents/openai-agents-python/docs-agents) for instructions, tools, output types, handoffs, and guardrails on a plain `Agent`.
+-   [Running agents](/lib/08-agents/openai-agents-python/docs-running_agents) for `RunConfig`, sessions, and conversation-state options.
+-   [Sandbox agents](/lib/08-agents/openai-agents-python/docs-sandbox-guide) for `SandboxRunConfig`, manifests, capabilities, and sandbox-client-specific workspace setup.
 -   [Models](/lib/08-agents/openai-agents-python/docs-models) for model selection and provider configuration.
--   [Tracing](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/tracing.md) for per-run tracing metadata and custom trace processors.
+-   [Tracing](/lib/08-agents/openai-agents-python/docs-tracing) for per-run tracing metadata and custom trace processors.
 
 ## Configuration objects and dictionaries
 
@@ -212,7 +217,7 @@ You can also change the default without code by setting this environment variabl
 export OPENAI_AGENTS_TRACE_INCLUDE_SENSITIVE_DATA=0
 ```
 
-For full tracing controls, see the [tracing guide](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/tracing.md).
+For full tracing controls, see the [tracing guide](/lib/08-agents/openai-agents-python/docs-tracing).
 
 ## Debug logging
 

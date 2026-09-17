@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "01-foundations"
 sourceUrl: "https://github.com/EmbraceAGI/awesome-chatgpt-zh"
-entryUrl: "https://github.com/EmbraceAGI/awesome-chatgpt-zh/blob/f7c206f6b3e27dae3f4fa7fb1eee1852c72b1f68/README.md"
+entryUrl: "https://github.com/EmbraceAGI/awesome-chatgpt-zh/blob/f7c206f6b3e27dae3f4fa7fb1eee1852c72b1f68/docs/ChatGPT_prompts.md"
+sourceRel: "docs/ChatGPT_prompts.md"
+rawUrl: "/raw/01-foundations/awesome-chatgpt-zh/docs/ChatGPT_prompts.md"
+sourceSha256: "e2ff8c6ee1b7fcd43ec47b0c84a1b9724f5338db8d2aa8fd8c90a6a60699d951"
+pageSha256: "e2ff8c6ee1b7fcd43ec47b0c84a1b9724f5338db8d2aa8fd8c90a6a60699d951"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -165,7 +170,7 @@ DeepSeek-V4（Pro / Flash）默认开启**思考模式**（Thinking Mode），�
 | 竞赛数学、复杂规划、多步推理、疑难 bug | `max` | 思维链可能非常长，官方要求上下文至少 384K，`max_tokens` 要给足 |
 | 要求响应快、成本敏感 | V4-Flash | 推理能力逼近 V4-Pro，价格约为 1/3 |
 
-网页版 / App 通过"深度思考"按钮切换；API 通过 `thinking: {"type": "enabled"}` + `reasoning_effort` 控制；Anthropic 兼容接口用 `output_config.effort`（`none` 关闭思考）。
+网页版 / App 通过"深度思考"按钮切换；API 通过 `thinking: \{"type": "enabled"\}` + `reasoning_effort` 控制；Anthropic 兼容接口用 `output_config.effort`（`none` 关闭思考）。
 
 ### API 层面的硬规则
 
@@ -179,7 +184,7 @@ DeepSeek-V4（Pro / Flash）默认开启**思考模式**（Thinking Mode），�
 1. **直接描述任务与验收标准**，不要写"请一步一步思考"——思考模式已内置推理，重复要求只会让思维链更长更贵。把精力放在"输出必须满足什么"上。
 2. **少用 few-shot**。R1 起官方就建议零样本提示：示例会锚定模型思路，反而拉低推理模型的表现；确需示例时给 1 个即可，并说明"这只是格式示例"。
 3. **System prompt 保持简短**，把关键约束写进用户消息。R1 时代官方建议不用 system prompt，V4 已支持但仍以"用户消息说清楚"为主。
-4. **数学题**加一句"请逐步推理，并把最终答案放在 `\boxed{}` 内"（官方建议格式），便于程序解析。
+4. **数学题**加一句"请逐步推理，并把最终答案放在 `\boxed\{\}` 内"（官方建议格式），便于程序解析。
 5. **指定语言**："全程使用中文回答，代码注释也用中文"——避免思维链与答案中英混杂。
 6. **长上下文（最高 1M）**：材料放前、指令放后，并在结尾重述一遍关键问题；超长文档用清晰的分节标题切块，效果好于一整段塞入。
 7. **结构化输出**：明确 JSON schema 或表格列名，必要时开启 JSON Mode；思考模式下模型会先想清楚再输出，格式稳定性很高。
@@ -218,7 +223,7 @@ DeepSeek-V4（Pro / Flash）默认开启**思考模式**（Thinking Mode），�
 | DeepSeek 官方 Thinking Mode 指南 | [链接](https://api-docs.deepseek.com/guides/thinking_mode/) | 开启思考、`reasoning_effort`、`reasoning_content` 回传规则与不支持参数的权威说明 |
 | DeepSeek 官方 Function Calling 指南 | [链接](https://api-docs.deepseek.com/guides/function_calling) | 思考模式下的工具调用规范 |
 | DeepSeek-V4-Pro 模型卡 | [链接](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro) | 官方推荐采样参数、Non-Think / Think High / Think Max 三档说明 |
-| DeepSeek-R1 官方提示建议 | [链接](https://github.com/deepseek-ai/DeepSeek-R1#usage-recommendations) | 推理模型提示的经典四条：零样本、免 system prompt、数学用 `\boxed{}`、指定语言 |
+| DeepSeek-R1 官方提示建议 | [链接](https://github.com/deepseek-ai/DeepSeek-R1#usage-recommendations) | 推理模型提示的经典四条：零样本、免 system prompt、数学用 `\boxed\{\}`、指定语言 |
 | DeepSeek 生态指南 | [链接](/lib/01-foundations/awesome-chatgpt-zh/docs-DeepSeek) | 模型谱系、API 价格、编程智能体接入、dsh 与本地部署 |
 
 ## 现代提示技术与经典论文

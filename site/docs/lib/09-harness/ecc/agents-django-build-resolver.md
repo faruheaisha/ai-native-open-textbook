@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/affaan-m/ECC"
-entryUrl: "https://github.com/affaan-m/ECC/blob/928c1dea72f5c330442fc1f595563398b8f389f7/README.md"
+entryUrl: "https://github.com/affaan-m/ECC/blob/928c1dea72f5c330442fc1f595563398b8f389f7/agents/django-build-resolver.md"
+sourceRel: "agents/django-build-resolver.md"
+rawUrl: "/raw/09-harness/ecc/agents/django-build-resolver.md"
+sourceSha256: "643f1445336ef801f49cc56a00ad09af3435124ef841f4b023be19ee50662b29"
+pageSha256: "643f1445336ef801f49cc56a00ad09af3435124ef841f4b023be19ee50662b29"
+contentMode: "local-full"
 zh: ""
 ---
 

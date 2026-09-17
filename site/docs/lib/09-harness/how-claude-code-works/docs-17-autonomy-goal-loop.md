@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works"
-entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/README.md"
+entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/17-autonomy-goal-loop.md"
+sourceRel: "docs/17-autonomy-goal-loop.md"
+rawUrl: "/raw/09-harness/how-claude-code-works/docs/17-autonomy-goal-loop.md"
+sourceSha256: "8e4145453ab4f12e9798acc5d6fdec0d4ea9c565321b562f977b7c4188f0d8d7"
+pageSha256: "8e4145453ab4f12e9798acc5d6fdec0d4ea9c565321b562f977b7c4188f0d8d7"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -47,21 +52,21 @@ zh: ""
 > You are evaluating a stop-condition hook in Claude Code. Read the conversation transcript carefully, then judge whether the user-provided condition is satisfied.
 >
 > Your response must be a JSON object with one of these shapes:
-> - `{"ok": true, "reason": "<quote evidence from the transcript that satisfies the condition>"}`
-> - `{"ok": false, "reason": "<quote what is missing or what blocks the condition>"}`
-> - `{"ok": false, "impossible": true, "reason": "<explain why the condition can never be satisfied>"}`
+> - `\{"ok": true, "reason": "<quote evidence from the transcript that satisfies the condition>"\}`
+> - `\{"ok": false, "reason": "<quote what is missing or what blocks the condition>"\}`
+> - `\{"ok": false, "impossible": true, "reason": "<explain why the condition can never be satisfied>"\}`
 >
-> Always include a "reason" field, quoting specific text from the transcript whenever possible. If the transcript does not contain clear evidence that the condition is satisfied, return `{"ok": false, "reason": "insufficient evidence in transcript"}`.
+> Always include a "reason" field, quoting specific text from the transcript whenever possible. If the transcript does not contain clear evidence that the condition is satisfied, return `\{"ok": false, "reason": "insufficient evidence in transcript"\}`.
 >
-> Only use `{"ok": false, "impossible": true}` when the condition is genuinely unachievable in this session — for example: the condition is self-contradictory, it depends on a resource or capability that is unavailable, or the assistant has explicitly tried, exhausted reasonable approaches, and stated it cannot be done. Apply your own judgment when deciding this — the assistant claiming the goal is impossible is evidence, not proof; independently confirm the condition is genuinely unachievable rather than deferring to the assistant's self-assessment. Do not use it just because the goal has not been reached yet or because progress is slow. When in doubt, return `{"ok": false}` without "impossible".
+> Only use `\{"ok": false, "impossible": true\}` when the condition is genuinely unachievable in this session — for example: the condition is self-contradictory, it depends on a resource or capability that is unavailable, or the assistant has explicitly tried, exhausted reasonable approaches, and stated it cannot be done. Apply your own judgment when deciding this — the assistant claiming the goal is impossible is evidence, not proof; independently confirm the condition is genuinely unachievable rather than deferring to the assistant's self-assessment. Do not use it just because the goal has not been reached yet or because progress is slow. When in doubt, return `\{"ok": false\}` without "impossible".
 
-三种结果——达成、没达成、判定不可能——就是这段里的三个 JSON 形状。前两种直白；关键在第三种。`impossible` 是一道精心设计的死循环刹车，而整整一段都在提防同一件事：别让主 agent 把裁判忽悠着提前认输。“主 agent 说干不成，只算证据、不算铁证；裁判得自己独立确认，拿不准就返回 `{"ok": false}`、别加 `impossible`。”一个自治循环最怕的就两头——要么停不下来，要么被内部说服着草草收场，这段提示词正是同时冲着这两头写的。它甚至连“进度慢”都点名排除：慢不等于不可能。
+三种结果——达成、没达成、判定不可能——就是这段里的三个 JSON 形状。前两种直白；关键在第三种。`impossible` 是一道精心设计的死循环刹车，而整整一段都在提防同一件事：别让主 agent 把裁判忽悠着提前认输。“主 agent 说干不成，只算证据、不算铁证；裁判得自己独立确认，拿不准就返回 `\{"ok": false\}`、别加 `impossible`。”一个自治循环最怕的就两头——要么停不下来，要么被内部说服着草草收场，这段提示词正是同时冲着这两头写的。它甚至连“进度慢”都点名排除：慢不等于不可能。
 
 ### 三个抓包才看得到的工程细节
 
 把裁判的真实请求整个拆开，还能看到官方文档没提的三件事。
 
-第一，判决是 API 层强制的，不只是提示词请求。这条请求带了一个 `output_config`，用 JSON schema 把输出死死约束成 `{ok, reason, impossible}` 这个形状（`ok` 和 `reason` 必填、不许有别的字段）。提示词只是说明，schema 才是护栏——就算模型想自由发挥，也发挥不出这个形状之外。
+第一，判决是 API 层强制的，不只是提示词请求。这条请求带了一个 `output_config`，用 JSON schema 把输出死死约束成 `\{ok, reason, impossible\}` 这个形状（`ok` 和 `reason` 必填、不许有别的字段）。提示词只是说明，schema 才是护栏——就算模型想自由发挥，也发挥不出这个形状之外。
 
 第二，裁判不给工具、只让它看对话。请求里的 `tools` 是空的。这印证了官方那句“裁判不调用工具，只能判断已经出现在对话里的内容”：它虽然被塞了一个 transcript 路径，却没有任何工具去读那个文件。
 

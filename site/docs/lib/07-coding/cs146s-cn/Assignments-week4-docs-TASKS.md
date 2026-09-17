@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/ShouZhengAI/CS146S_CN"
-entryUrl: "https://github.com/ShouZhengAI/CS146S_CN/blob/0d65f36f6673147d6c298670da4f9b4bd7f991fa/README.md"
+entryUrl: "https://github.com/ShouZhengAI/CS146S_CN/blob/0d65f36f6673147d6c298670da4f9b4bd7f991fa/Assignments/week4/docs/TASKS.md"
+sourceRel: "Assignments/week4/docs/TASKS.md"
+rawUrl: "/raw/07-coding/cs146s-cn/Assignments/week4/docs/TASKS.md"
+sourceSha256: "66f4285a3b7fba2d68dc151b2b456a85af90350d68321aa2b75ed7f5dd6735f7"
+pageSha256: "66f4285a3b7fba2d68dc151b2b456a85af90350d68321aa2b75ed7f5dd6735f7"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -25,17 +30,17 @@ zh: ""
 - 在 `backend/tests/test_notes.py` 中添加测试
 
 ## 3) 完善行动项流程
-- 实现 `PUT /action-items/{id}/complete`（已有脚手架）
+- 实现 `PUT /action-items/\{id\}/complete`（已有脚手架）
 - 更新界面以反映完成状态（相关逻辑已接入），并扩充测试覆盖范围
 
 ## 4) 改进提取逻辑
 - 扩展 `backend/app/services/extract.py`，使其能够解析 `#tag` 之类的标签并返回这些标签
 - 为新的解析行为添加测试
-- （可选）提供 `POST /notes/{id}/extract`，用于将笔记转换为行动项
+- （可选）提供 `POST /notes/\{id\}/extract`，用于将笔记转换为行动项
 
 ## 5) 增强笔记的 CRUD 功能
-- 添加 `PUT /notes/{id}` 以编辑笔记（标题/内容）
-- 添加 `DELETE /notes/{id}` 以删除笔记
+- 添加 `PUT /notes/\{id\}` 以编辑笔记（标题/内容）
+- 添加 `DELETE /notes/\{id\}` 以删除笔记
 - 更新 `frontend/app.js` 以支持编辑/删除，并添加测试
 
 ## 6) 请求验证与错误处理

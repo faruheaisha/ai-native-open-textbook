@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/openai/openai-agents-python"
-entryUrl: "https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/README.md"
+entryUrl: "https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/index.md"
+sourceRel: "docs/index.md"
+rawUrl: "/raw/08-agents/openai-agents-python/docs/index.md"
+sourceSha256: "4cecdade9553fe2d8d6939f4bd9ad52c1938ed9b27082ba76c9d0798e6f462c5"
+pageSha256: "4cecdade9553fe2d8d6939f4bd9ad52c1938ed9b27082ba76c9d0798e6f462c5"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -57,7 +62,7 @@ Use the Agents SDK when:
 
 -   you want the runtime to manage turns, tool execution, guardrails, handoffs, or sessions
 -   your agent should produce artifacts or operate across multiple coordinated steps
--   you need a real workspace or resumable execution through [Sandbox agents](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/sandbox_agents.md)
+-   you need a real workspace or resumable execution through [Sandbox agents](/lib/08-agents/openai-agents-python/docs-sandbox_agents)
 
 You do not need to choose one globally. Many applications use the SDK for managed workflows and call the Responses API directly for lower-level paths.
 
@@ -91,8 +96,8 @@ export OPENAI_API_KEY=sk-...
 ## Start here
 
 -   Build your first text-based agent with the [Quickstart](/lib/08-agents/openai-agents-python/docs-quickstart).
--   Then decide how you want to carry state across turns in [Running agents](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/running_agents.md#choose-a-memory-strategy).
--   If the task depends on real files, repos, or isolated per-agent workspace state, read the [Sandbox agents quickstart](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/sandbox_agents.md).
+-   Then decide how you want to carry state across turns in [Running agents](/lib/08-agents/openai-agents-python/docs-running_agents#choose-a-memory-strategy).
+-   If the task depends on real files, repos, or isolated per-agent workspace state, read the [Sandbox agents quickstart](/lib/08-agents/openai-agents-python/docs-sandbox_agents).
 -   If you are deciding between handoffs and manager-style orchestration, read [Agent orchestration](/lib/08-agents/openai-agents-python/docs-multi_agent).
 
 ## Choose your path
@@ -102,11 +107,11 @@ Use this table when you know the job you want to do, but not which page explains
 | Goal | Start here |
 | --- | --- |
 | Build the first text agent and see one complete run | [Quickstart](/lib/08-agents/openai-agents-python/docs-quickstart) |
-| Add function tools, hosted tools, or agents as tools | [Tools](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/tools.md) |
-| Run a coding, review, or document agent inside a real isolated workspace | [Sandbox agents quickstart](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/sandbox_agents.md) and [Sandbox clients](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/sandbox/clients.md) |
+| Add function tools, hosted tools, or agents as tools | [Tools](/lib/08-agents/openai-agents-python/docs-tools) |
+| Run a coding, review, or document agent inside a real isolated workspace | [Sandbox agents quickstart](/lib/08-agents/openai-agents-python/docs-sandbox_agents) and [Sandbox clients](/lib/08-agents/openai-agents-python/docs-sandbox-clients) |
 | Decide between handoffs and manager-style orchestration | [Agent orchestration](/lib/08-agents/openai-agents-python/docs-multi_agent) |
-| Keep memory across turns | [Running agents](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/running_agents.md#choose-a-memory-strategy) and [Sessions](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/sessions/index.md) |
+| Keep memory across turns | [Running agents](/lib/08-agents/openai-agents-python/docs-running_agents#choose-a-memory-strategy) and [Sessions](/lib/08-agents/openai-agents-python/docs-sessions) |
 | Use OpenAI models, websocket transport, or non-OpenAI providers | [Models](/lib/08-agents/openai-agents-python/docs-models) |
-| Review outputs, run items, interruptions, and resume state | [Results](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/results.md) |
+| Review outputs, run items, interruptions, and resume state | [Results](/lib/08-agents/openai-agents-python/docs-results) |
 | Build a low-latency voice agent with `gpt-realtime-2.1` | [Realtime agents quickstart](/lib/08-agents/openai-agents-python/docs-realtime-quickstart) and [Realtime transport](/lib/08-agents/openai-agents-python/docs-realtime-transport) |
-| Build a speech-to-text / agent / text-to-speech pipeline | [Voice pipeline quickstart](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/voice/quickstart.md) |
+| Build a speech-to-text / agent / text-to-speech pipeline | [Voice pipeline quickstart](/lib/08-agents/openai-agents-python/docs-voice-quickstart) |

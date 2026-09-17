@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/luongnv89/claude-howto"
-entryUrl: "https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/README.md"
+entryUrl: "https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/03-skills/blog-draft/templates/outline-template.md"
+sourceRel: "03-skills/blog-draft/templates/outline-template.md"
+rawUrl: "/raw/09-harness/claude-howto/03-skills/blog-draft/templates/outline-template.md"
+sourceSha256: "94724599a28a14d031cf61c6643fee31f82ad6fde09f1a5d2686cbf996070fd8"
+pageSha256: "94724599a28a14d031cf61c6643fee31f82ad6fde09f1a5d2686cbf996070fd8"
+contentMode: "local-full"
 zh: ""
 ---
 

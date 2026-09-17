@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/deusyu/harness-engineering"
-entryUrl: "https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/README.md"
+entryUrl: "https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/concepts/01-repo-as-source-of-truth.md"
+sourceRel: "concepts/01-repo-as-source-of-truth.md"
+rawUrl: "/raw/09-harness/deusyu-harness-engineering/concepts/01-repo-as-source-of-truth.md"
+sourceSha256: "20d46914c2fd241ea00a945d018fa8ac5d0f4c2e350d9290f7ecc2816dc55eb6"
+pageSha256: "20d46914c2fd241ea00a945d018fa8ac5d0f4c2e350d9290f7ecc2816dc55eb6"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -61,7 +66,7 @@ docs/
 
 ### OpenAI Symphony — 任务跟踪器也是记录系统
 
-OpenAI Symphony（[references/articles.md #16](/lib/09-harness/deusyu-harness-engineering/references-articles#article-16)）把"记录系统"的边界**从仓库扩展到任务跟踪器**：每个打开的 Linear ticket 是一个"在飞工作"的记录单元，状态机映射到 ticket 状态字段（Backlog → In Progress → Review → Merging → Done）。
+OpenAI Symphony（[references/articles.md #16](/lib/09-harness/deusyu-harness-engineering/references-articles/index#article-16)）把"记录系统"的边界**从仓库扩展到任务跟踪器**：每个打开的 Linear ticket 是一个"在飞工作"的记录单元，状态机映射到 ticket 状态字段（Backlog → In Progress → Review → Merging → Done）。
 
 这给"仓库即记录系统"加了一条对称命题：
 

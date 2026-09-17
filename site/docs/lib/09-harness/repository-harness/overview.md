@@ -9,6 +9,11 @@ tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/hoangnb24/repository-harness"
 entryUrl: "https://github.com/hoangnb24/repository-harness/blob/e765792b635b4d5e3e5fc0578f82f9ca5dea2681/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/09-harness/repository-harness/README.md"
+sourceSha256: "c90551c50f0d5539619d145b3527f3767b45549b5f55f1aa4a9678c1db76ddcb"
+pageSha256: "c90551c50f0d5539619d145b3527f3767b45549b5f55f1aa4a9678c1db76ddcb"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -66,7 +71,7 @@ A typo does not need a plan. A migration spanning sessions does. A request to
 state topology, or response contract must stop before implementation.
 
 Start with [`AGENTS.md`](https://github.com/hoangnb24/repository-harness/blob/e765792b635b4d5e3e5fc0578f82f9ca5dea2681/AGENTS.md), then
-[`docs/WORKFLOW.md`](https://github.com/hoangnb24/repository-harness/blob/e765792b635b4d5e3e5fc0578f82f9ca5dea2681/docs/WORKFLOW.md).
+[`docs/WORKFLOW.md`](/lib/09-harness/repository-harness/docs-WORKFLOW).
 
 ## What Gets Installed
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/bonigarcia/context-engineering"
-entryUrl: "https://github.com/bonigarcia/context-engineering/blob/46719154489e410b509db4fb69ab1c29fb3362a0/README.md"
+entryUrl: "https://github.com/bonigarcia/context-engineering/blob/46719154489e410b509db4fb69ab1c29fb3362a0/ch01/python/anthropic-claude-streaming/README.md"
+sourceRel: "ch01/python/anthropic-claude-streaming/README.md"
+rawUrl: "/raw/10-context-memory/context-engineering-book/ch01/python/anthropic-claude-streaming/README.md"
+sourceSha256: "de84f6ececee820c3fdbb49d4af70d49288976aad29acec70d10a8877f149a24"
+pageSha256: "de84f6ececee820c3fdbb49d4af70d49288976aad29acec70d10a8877f149a24"
+contentMode: "local-full"
 zh: ""
 ---
 

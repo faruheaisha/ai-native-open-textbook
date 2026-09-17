@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial"
-entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/README.md"
+entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/docs/01-basics/01-introduction.md"
+sourceRel: "docs/01-basics/01-introduction.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-tutorial/docs/01-basics/01-introduction.md"
+sourceSha256: "969f8890b27e728117c62dd53ffc0ace5650030f8bfc71ab9a8440356ca96981"
+pageSha256: "969f8890b27e728117c62dd53ffc0ace5650030f8bfc71ab9a8440356ca96981"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -403,7 +408,7 @@ OpenClaw 采用按量付费模式，相比固定月费的在线服务可节省 7
 
 ---
 
-**下一章**：[第2章：环境搭建](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-01-basics-02-installation) - 5分钟完成安装
+**下一章**：[第2章：环境搭建](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-01-basics-02-installation/index) - 5分钟完成安装
 
 **返回目录**：[README](/lib/11-personal-agents/awesome-openclaw-tutorial/overview)
 

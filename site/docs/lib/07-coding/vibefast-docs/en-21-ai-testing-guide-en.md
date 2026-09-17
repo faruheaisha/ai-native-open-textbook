@@ -8,13 +8,18 @@ lang: "英文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/vibefast-app/vibefast-docs"
-entryUrl: "https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/README.md"
+entryUrl: "https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/21-ai-testing-guide-en.md"
+sourceRel: "en/21-ai-testing-guide-en.md"
+rawUrl: "/raw/07-coding/vibefast-docs/en/21-ai-testing-guide-en.md"
+sourceSha256: "5501a3ef9b079288fb7f710546eabc7aee2c240ae7882988d6c3b223e0e81a88"
+pageSha256: "5501a3ef9b079288fb7f710546eabc7aee2c240ae7882988d6c3b223e0e81a88"
+contentMode: "local-full"
 zh: ""
 ---
 
 # How to Test Your App: Let AI Generate curl Commands for Every Feature
 
-[English](/lib/07-coding/vibefast-docs/en-21-ai-testing-guide-en) · [繁中](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/zh/21-ai-testing-guide-zh.md) · [Español](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/es/21-ai-testing-guide-es.md) · [日本語](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/jp/21-ai-testing-guide-jp.md) · [Português (BR)](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/pt-br/21-ai-testing-guide-pt-br.md)
+[English](/lib/07-coding/vibefast-docs/en-21-ai-testing-guide-en) · [繁中](/lib/07-coding/vibefast-docs/zh-21-ai-testing-guide-zh) · [Español](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/es/21-ai-testing-guide-es.md) · [日本語](/lib/07-coding/vibefast-docs/jp-21-ai-testing-guide-jp) · [Português (BR)](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/pt-br/21-ai-testing-guide-pt-br.md)
 
 **Author:** Danko Peng ([@dankopeng](https://x.com/dankopeng))  
 **Updated:** March 2026  
@@ -92,7 +97,7 @@ curl -s -o /dev/null -w "%{http_code}" https://soapco.com/admin
 # Expected: 302 or 401, never 200
 ```
 
-`-o /dev/null` discards the HTML body so it doesn’t clutter your terminal. `-w "%{http_code}"` prints only the status code — for frontend testing, the status code is usually all you need.
+`-o /dev/null` discards the HTML body so it doesn’t clutter your terminal. `-w "%\{http_code\}"` prints only the status code — for frontend testing, the status code is usually all you need.
 
 -----
 

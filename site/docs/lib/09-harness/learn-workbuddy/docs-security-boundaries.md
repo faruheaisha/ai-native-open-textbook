@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/adongwanai/learn-workbuddy"
-entryUrl: "https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/README.md"
+entryUrl: "https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/docs/security-boundaries.md"
+sourceRel: "docs/security-boundaries.md"
+rawUrl: "/raw/09-harness/learn-workbuddy/docs/security-boundaries.md"
+sourceSha256: "760c3061eb534f5f683570e9e8f7adbe7aab83e0167b6b44803d1551ebe952e0"
+pageSha256: "760c3061eb534f5f683570e9e8f7adbe7aab83e0167b6b44803d1551ebe952e0"
+contentMode: "local-full"
 zh: ""
 ---
 

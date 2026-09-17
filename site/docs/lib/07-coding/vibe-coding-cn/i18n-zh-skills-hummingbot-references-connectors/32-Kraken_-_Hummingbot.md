@@ -1,0 +1,61 @@
+---
+title: "Vibe Coding CN"
+sourceId: "07-coding/vibe-coding-cn"
+sourceTitle: "Vibe Coding CN"
+sourceKind: "课时教程"
+licenseLabel: "可转载"
+lang: "中英混排"
+tier: 3
+volume: "07-coding"
+sourceUrl: "https://github.com/2025Emma/vibe-coding-cn"
+entryUrl: "https://github.com/2025Emma/vibe-coding-cn/blob/9b42dd10ddf3fff58f8c7a4d347175db107d7bf9/i18n/zh/skills/hummingbot/references/connectors.md"
+sourceRel: "i18n/zh/skills/hummingbot/references/connectors.md"
+rawUrl: "/raw/07-coding/vibe-coding-cn/i18n/zh/skills/hummingbot/references/connectors.md"
+sourceSha256: "16ff6b5efa43a0629074cd926d8e11b244d1cda26f6f4eee157acd5d0c75f303"
+pageSha256: "513d7ac470e54859efe5d501860e0e2afa5d26bd61e92613259856f86fb9983e"
+contentMode: "local-full"
+zh: ""
+---
+
+## Kraken - Hummingbot
+
+**URL:** https://hummingbot.org/exchanges/kraken/
+
+**Contents:**
+- Kraken
+- 🛠 Connector Info¶
+- ℹ️ Exchange Info¶
+- 🔑 How to Connect¶
+  - Generate API Keys¶
+  - Add Keys to Hummingbot¶
+- 🔀 Spot Connector¶
+  - Order Types¶
+  - Paper Trading¶
+
+Ensure the Access Websockets connection box is on. This step is necessary to obtain an authentication token for the WebSocket APIs through the GetWebSocketsToken endpoint. Without this, the Kraken connector will be unable to reconstruct the order book and place trades. See Troubleshooting for an example of an error message in Hummingbot when this box is left unchecked
+
+From inside the Hummingbot client, run connect kraken:
+
+If connection is successful:
+
+Integration to spot markets API endpoints
+
+This connector supports the following OrderType constants:
+
+Access the Paper Trade version of this connector by running connect kraken_paper_trade instead of connect kraken.
+
+If this is not available by default, you can configure Hummingbot to add this paper trade exchange. See Adding Exchanges for more information.
+
+**Examples:**
+
+Example 1 (unknown):
+```unknown
+Enter your Kraken API key >>>
+Enter your Kraken secret key >>>
+Enter your Kraken API Tier (Starter/intermediate/Pro) >>>
+```
+
+Example 2 (unknown):
+```unknown
+You are now connected to kraken
+```

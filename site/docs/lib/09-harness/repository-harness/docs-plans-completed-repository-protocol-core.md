@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/hoangnb24/repository-harness"
-entryUrl: "https://github.com/hoangnb24/repository-harness/blob/e765792b635b4d5e3e5fc0578f82f9ca5dea2681/README.md"
+entryUrl: "https://github.com/hoangnb24/repository-harness/blob/e765792b635b4d5e3e5fc0578f82f9ca5dea2681/docs/plans/completed/repository-protocol-core.md"
+sourceRel: "docs/plans/completed/repository-protocol-core.md"
+rawUrl: "/raw/09-harness/repository-harness/docs/plans/completed/repository-protocol-core.md"
+sourceSha256: "6834d7549b86b8843b0aa8d912b8569d1380ce11e974977ff55a30de0373fa54"
+pageSha256: "6834d7549b86b8843b0aa8d912b8569d1380ce11e974977ff55a30de0373fa54"
+contentMode: "local-full"
 zh: ""
 ---
 

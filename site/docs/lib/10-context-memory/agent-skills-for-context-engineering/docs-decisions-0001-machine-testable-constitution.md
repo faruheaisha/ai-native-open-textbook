@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering"
-entryUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/README.md"
+entryUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/docs/decisions/0001-machine-testable-constitution.md"
+sourceRel: "docs/decisions/0001-machine-testable-constitution.md"
+rawUrl: "/raw/10-context-memory/agent-skills-for-context-engineering/docs/decisions/0001-machine-testable-constitution.md"
+sourceSha256: "6c7505ef4c5a64bff21b9e06ae4c3bc270f40c2c6bfca79a908bf6e7ba4a60b7"
+pageSha256: "6c7505ef4c5a64bff21b9e06ae4c3bc270f40c2c6bfca79a908bf6e7ba4a60b7"
+contentMode: "local-full"
 zh: ""
 ---
 

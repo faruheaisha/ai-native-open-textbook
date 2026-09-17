@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering"
-entryUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering/blob/8b2a55d97590363fe50c3cc6b5e833b020a4bb4c/README.md"
+entryUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering/blob/8b2a55d97590363fe50c3cc6b5e833b020a4bb4c/agents/evolve_agent/evolve_prompt.md"
+sourceRel: "agents/evolve_agent/evolve_prompt.md"
+rawUrl: "/raw/09-harness/agentic-harness-engineering/agents/evolve_agent/evolve_prompt.md"
+sourceSha256: "e9fc0f5df51f4ddc6d07ae44567923f1ab74da33d9757024bed2373f2a319e76"
+pageSha256: "e9fc0f5df51f4ddc6d07ae44567923f1ab74da33d9757024bed2373f2a319e76"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -36,9 +41,9 @@ Only `workspace/` is your playground. Everything else is read-only or off-limits
 
 # Environment
 
-&#123;% if ws != "workspace" %}
+\{% if ws != "workspace" %\}
 > **WORKSPACE PATH**: Your workspace is at <code v-pre>{{ ws }}/</code> instead of `workspace/`. All `workspace/` references below apply to <code v-pre>{{ ws }}/</code>. Use <code v-pre>{{ ws }}/</code> in file operations, git commands, and the validation command.
-&#123;% endif %}
+\{% endif %\}
 
 > **Loop convention (IMPORTANT — read before analyzing `runs/`):**
 > You are currently in loop **iteration <code v-pre>{{ iteration }}</code>**. Each `runs/iteration_NNN/` folder mixes **two** generations of work:
@@ -98,7 +103,7 @@ Only `workspace/` is your playground. Everything else is read-only or off-limits
 | **Tool Implementation** | `workspace/tools/` | Controls tool behavior directly | New capabilities, smarter error handling, output formatting |
 | **Middleware** | `workspace/middleware/` + `code_agent.yaml` | Hooks into agent loop pipeline | Intercept/transform at execution level |
 | **Skill** | `workspace/skills/` + `code_agent.yaml` | On-demand — loaded when relevant | Reusable workflow patterns |
-| **Sub-Agent** | `workspace/sub_agents/{name}/` + `code_agent.yaml` | Delegated execution — isolated context | Offload specialized subtask to child agent |
+| **Sub-Agent** | `workspace/sub_agents/\{name\}/` + `code_agent.yaml` | Delegated execution — isolated context | Offload specialized subtask to child agent |
 | **Long-Term Memory** | `workspace/LongTermMEMORY.md` | Persistent cross-session knowledge — agent reads at startup, MODIFIABLE | Record recurring pitfalls, proven strategies, environment quirks, domain conventions that the agent should always remember |
 | **Short-Term Memory** | `workspace/ShortTermMEMORY.md` | Session-scoped scratch — managed by code agent at runtime, DO NOT MODIFY | _(read-only for evolve agent)_ |
 
@@ -115,8 +120,8 @@ For each failure pattern, consider **all** component types above — including c
 **Creating a file is NOT enough — register in `code_agent.yaml`:**
 - New tool → create `.tool.yaml` + Python implementation + add entry to `tools:` list
 - New middleware → create Python class + add entry to `middlewares:` list with `import:` path and `params:`
-- New skill → create `skills/{name}/SKILL.md` folder + add to `skills:` list
-- New sub-agent → create `sub_agents/{name}/agent.yaml` + add to `sub_agents:` list. Framework **auto-injects** `RecallSubAgent` tool — do NOT add it manually.
+- New skill → create `skills/\{name\}/SKILL.md` folder + add to `skills:` list
+- New sub-agent → create `sub_agents/\{name\}/agent.yaml` + add to `sub_agents:` list. Framework **auto-injects** `RecallSubAgent` tool — do NOT add it manually.
 
 ## How Code Gets Loaded
 
@@ -136,7 +141,7 @@ At runtime, the harness sets these environment variables **before** the code age
 | `LLM_MODEL` | Model identifier (e.g. `gpt-5.4`) |
 
 **All components** — code agent, sub-agents, and middleware — use these same env vars:
-- In agent YAML files: `${env.LLM_API_KEY}`, `${env.LLM_BASE_URL}`, `${env.LLM_MODEL}`
+- In agent YAML files: `${env.LLM_API_KEY}`, `${env.LLM_BASE_URL\}`, `${env.LLM_MODEL}`
 - In middleware Python code: `os.environ["LLM_API_KEY"]`, etc.
 
 **Do NOT hardcode API keys.** Always reference environment variables. This ensures your components work across all experiment configurations.
@@ -147,7 +152,7 @@ Middleware has access to the agent's LLM client via `ModelCallParams` in the `wr
 
 ### Sub-Agents use the same LLM
 
-Sub-agent YAML configs should use `${env.LLM_MODEL}` / `${env.LLM_BASE_URL}` / `${env.LLM_API_KEY}` in their `llm_config`. This automatically gives them the same LLM provider as the parent agent. See the evolution guide skill for end-to-end creation guide.
+Sub-agent YAML configs should use `${env.LLM_MODEL\}` / `${env.LLM_BASE_URL}` / `${env.LLM_API_KEY\}` in their `llm_config`. This automatically gives them the same LLM provider as the parent agent. See the evolution guide skill for end-to-end creation guide.
 
 For detailed schemas, creation guides, and code examples, read `evolve_agent/skills/nexau-evolution-guide/SKILL.md`.
 
@@ -169,7 +174,7 @@ When your query includes a "MANDATORY Strategy Constraint", you MUST follow it. 
 
 1. Read `evolution_history.md` — understand what's been tried, what worked, what failed
 2. **Read `runs/iteration_NNN/input/analysis/overview.md` FIRST** — this is your primary information source. It contains pre-analyzed root causes, failure patterns, and strategies for every task
-3. **Read `runs/iteration_NNN/input/analysis/detail/{task_name}.md`** for tasks needing deeper investigation — detailed per-task analysis with specific failure points and successful strategies
+3. **Read `runs/iteration_NNN/input/analysis/detail/\{task_name\}.md`** for tasks needing deeper investigation — detailed per-task analysis with specific failure points and successful strategies
 4. Only fall back to reading raw `nexau_in_memory_tracer.cleaned.json` when analysis is missing or insufficient for a specific question — this should be rare
 5. **After creating or modifying middleware**, read at least one `agent/nexau.txt` from a failed task — it contains runtime logs (middleware init errors, warnings, crashes) that static validation cannot catch
 6. Group failures into **pattern classes** — each pattern = a class of failures, not individual tasks

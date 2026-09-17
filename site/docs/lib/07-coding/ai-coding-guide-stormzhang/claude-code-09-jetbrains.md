@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/stormzhang/ai-coding-guide"
-entryUrl: "https://github.com/stormzhang/ai-coding-guide/blob/d187dbdb83fa1be051a850074eb518e30e2eb47c/README.md"
+entryUrl: "https://github.com/stormzhang/ai-coding-guide/blob/d187dbdb83fa1be051a850074eb518e30e2eb47c/claude-code/09-jetbrains.md"
+sourceRel: "claude-code/09-jetbrains.md"
+rawUrl: "/raw/07-coding/ai-coding-guide-stormzhang/claude-code/09-jetbrains.md"
+sourceSha256: "a0ba59ce625336e988d56307f63896445e99bd50637454024636b9a161182170"
+pageSha256: "a0ba59ce625336e988d56307f63896445e99bd50637454024636b9a161182170"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -358,7 +363,7 @@ print(greet("world"))
 帮我把它改成用 f-string，并加上类型注解
 ```
 
-**预期**：因为上一步设了 `auto`，改动**在 PyCharm 的 diff 查看器里**并排显示——左边原始 `return "Hello " + name`，右边改后 `return f"Hello {name}"`，签名也加了类型注解。看清楚了再接受。
+**预期**：因为上一步设了 `auto`，改动**在 PyCharm 的 diff 查看器里**并排显示——左边原始 `return "Hello " + name`，右边改后 `return f"Hello \{name\}"`，签名也加了类型注解。看清楚了再接受。
 
 跑到这步，**插件装好、CLI 连通、选区共享、diff 弹进 IDE 这四件核心你就都验过一遍了**。要是第 5 步它反问你哪个函数、或第 6 步 diff 没弹进 IDE，回头按第 03、04、06 节查。
 

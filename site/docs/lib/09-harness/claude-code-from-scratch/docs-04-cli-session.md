@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/Windy3f3f3f3f/claude-code-from-scratch"
-entryUrl: "https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/README.md"
+entryUrl: "https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/docs/04-cli-session.md"
+sourceRel: "docs/04-cli-session.md"
+rawUrl: "/raw/09-harness/claude-code-from-scratch/docs/04-cli-session.md"
+sourceSha256: "954a51edcfbdefb594d3943f80fbe96da160897d49eafd802aec08d90e0e13d2"
+pageSha256: "954a51edcfbdefb594d3943f80fbe96da160897d49eafd802aec08d90e0e13d2"
+contentMode: "local-full"
 zh: ""
 ---
 

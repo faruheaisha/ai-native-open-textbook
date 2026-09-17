@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works"
-entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/README.md"
+entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/20-agent-teams.md"
+sourceRel: "docs/20-agent-teams.md"
+rawUrl: "/raw/09-harness/how-claude-code-works/docs/20-agent-teams.md"
+sourceSha256: "0f4ba24e0fdfd1bbe922db17e89f3935e644d21e174db1de6591cfb69bdaf1e6"
+pageSha256: "0f4ba24e0fdfd1bbe922db17e89f3935e644d21e174db1de6591cfb69bdaf1e6"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -28,7 +33,7 @@ Agent Teams 换的是这层关系本身。一个 team 里有一个固定的 lead
 
 ## 20.2 一个 team 就是一个共享任务列表
 
-一个 team 是什么？先看快照那版的入口 TeamCreate——它的描述在快照源码里是一份 6.9KB 的全文，把话讲得很直白：建一个 team，就是建一个任务列表，teams 跟任务列表一一对应，Team 就等于 TaskList。（这个显式的 TeamCreate 是快照那版的用法；当前版本换了入口，等这一节讲完机制再交代。）落到磁盘上是两样东西：一个团队配置文件 `~/.claude/teams/{team-name}/config.json`，和一个任务列表目录 `~/.claude/tasks/{team-name}/`。前者记成员名册，后者放这个团队的所有任务。
+一个 team 是什么？先看快照那版的入口 TeamCreate——它的描述在快照源码里是一份 6.9KB 的全文，把话讲得很直白：建一个 team，就是建一个任务列表，teams 跟任务列表一一对应，Team 就等于 TaskList。（这个显式的 TeamCreate 是快照那版的用法；当前版本换了入口，等这一节讲完机制再交代。）落到磁盘上是两样东西：一个团队配置文件 `~/.claude/teams/\{team-name\}/config.json`，和一个任务列表目录 `~/.claude/tasks/\{team-name\}/`。前者记成员名册，后者放这个团队的所有任务。
 
 描述里给了一套七步用法，把组队干活讲成一条流水线。先用 TeamCreate 建队——同一步就把任务列表建出来了。再用 Task 工具往里加任务，任务自动进这个队的列表。然后是关键一步：用 Agent 工具派一个 teammate，带上 `team_name` 和一个 `name`，这个 agent 就加入了团队。接着用 TaskUpdate 把任务的 `owner` 指给某个空闲的 teammate，teammate 干完再 TaskUpdate 把它标成 completed。回合之间，闲下来的 teammate 会自动进 idle 状态并发一条通知——描述里专门叮嘱一句"对 idle 的队友要有耐心"。全部干完，用 SendMessage 发一个 `shutdown_request` 优雅关队。
 

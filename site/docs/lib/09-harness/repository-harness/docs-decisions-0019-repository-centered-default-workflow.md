@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/hoangnb24/repository-harness"
-entryUrl: "https://github.com/hoangnb24/repository-harness/blob/e765792b635b4d5e3e5fc0578f82f9ca5dea2681/README.md"
+entryUrl: "https://github.com/hoangnb24/repository-harness/blob/e765792b635b4d5e3e5fc0578f82f9ca5dea2681/docs/decisions/0019-repository-centered-default-workflow.md"
+sourceRel: "docs/decisions/0019-repository-centered-default-workflow.md"
+rawUrl: "/raw/09-harness/repository-harness/docs/decisions/0019-repository-centered-default-workflow.md"
+sourceSha256: "934104e62e67205933f356cf8c16253f77082d9a00a6d7c7139e45ca7752e497"
+pageSha256: "934104e62e67205933f356cf8c16253f77082d9a00a6d7c7139e45ca7752e497"
+contentMode: "local-full"
 zh: ""
 ---
 

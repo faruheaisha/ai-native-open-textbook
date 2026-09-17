@@ -1,0 +1,61 @@
+---
+title: "LLama3.3-RAG application"
+sourceId: "10-context-memory/ai-engineering-hub"
+sourceTitle: "AI Engineering Hub"
+sourceKind: "其他材料"
+licenseLabel: "可转载"
+lang: "英文"
+tier: 2
+volume: "10-context-memory"
+sourceUrl: "https://github.com/patchy631/ai-engineering-hub"
+entryUrl: "https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/document-chat-rag/README.md"
+sourceRel: "document-chat-rag/README.md"
+rawUrl: "/raw/10-context-memory/ai-engineering-hub/document-chat-rag/README.md"
+sourceSha256: "aa927be09f94bcbfba4007d772edfbb5e9c2fff951309d078e88a67940ca7187"
+pageSha256: "aa927be09f94bcbfba4007d772edfbb5e9c2fff951309d078e88a67940ca7187"
+contentMode: "local-full"
+zh: ""
+---
+
+# LLama3.3-RAG application
+
+This project leverages a locally Llama 3.3 to build a RAG application to **chat with your docs** and Streamlit to build the UI.
+
+## Demo
+
+Watch the demo video:
+
+[![Watch the video](https://github.com/patchy631/ai-engineering-hub/blob/main/document-chat-rag/resources/thumbnail.png)](https://www.youtube.com/watch?v=ZgNJMWipirk)
+
+## Installation and setup
+
+**Setup Ollama**:
+   ```bash
+   # setup ollama on linux 
+   curl -fsSL https://ollama.com/install.sh | sh
+   # pull llama 3.3:70B
+   ollama pull llama3.3 
+   ```
+**Setup Qdrant VectorDB**
+   ```bash
+   docker run -p 6333:6333 -p 6334:6334 \
+   -v $(pwd)/qdrant_storage:/qdrant/storage:z \
+   qdrant/qdrant
+   ```
+
+**Install Dependencies**:
+   Ensure you have Python 3.11 or later installed.
+   ```bash
+   pip install streamlit ollama llama-index-vector-stores-qdrant
+   ```
+
+---
+
+## 📬 Stay Updated with Our Newsletter!
+**Get a FREE Data Science eBook** 📖 with 150+ essential lessons in Data Science when you subscribe to our newsletter! Stay in the loop with the latest tutorials, insights, and exclusive resources. [Subscribe now!](https://join.dailydoseofds.com)
+
+[![Daily Dose of Data Science Newsletter](https://github.com/patchy631/ai-engineering/blob/main/resources/join_ddods.png)](https://join.dailydoseofds.com)
+
+---
+
+## Contribution

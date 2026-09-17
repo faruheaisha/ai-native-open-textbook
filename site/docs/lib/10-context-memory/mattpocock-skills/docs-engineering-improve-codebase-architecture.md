@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/mattpocock/skills"
-entryUrl: "https://github.com/mattpocock/skills/blob/3cca18b368ae95cdbdebbff572ccafa662551015/README.md"
+entryUrl: "https://github.com/mattpocock/skills/blob/3cca18b368ae95cdbdebbff572ccafa662551015/docs/engineering/improve-codebase-architecture.md"
+sourceRel: "docs/engineering/improve-codebase-architecture.md"
+rawUrl: "/raw/10-context-memory/mattpocock-skills/docs/engineering/improve-codebase-architecture.md"
+sourceSha256: "19d114c3e0f6000bac7233d1fb52b9cef63c72c12d8026a55218ef8200c9cbd3"
+pageSha256: "19d114c3e0f6000bac7233d1fb52b9cef63c72c12d8026a55218ef8200c9cbd3"
+contentMode: "local-full"
 zh: ""
 ---
 

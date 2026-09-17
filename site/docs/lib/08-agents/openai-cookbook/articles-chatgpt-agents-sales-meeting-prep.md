@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/openai/openai-cookbook"
-entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/README.md"
+entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/articles/chatgpt-agents-sales-meeting-prep.md"
+sourceRel: "articles/chatgpt-agents-sales-meeting-prep.md"
+rawUrl: "/raw/08-agents/openai-cookbook/articles/chatgpt-agents-sales-meeting-prep.md"
+sourceSha256: "6c4034b0404c4fa98e21bafb9c4de11f4bebd72f8d66613a3e25fc5e82006374"
+pageSha256: "6c4034b0404c4fa98e21bafb9c4de11f4bebd72f8d66613a3e25fc5e82006374"
+contentMode: "local-full"
 zh: ""
 ---
 

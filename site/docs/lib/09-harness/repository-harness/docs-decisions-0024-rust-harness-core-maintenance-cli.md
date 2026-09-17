@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/hoangnb24/repository-harness"
-entryUrl: "https://github.com/hoangnb24/repository-harness/blob/e765792b635b4d5e3e5fc0578f82f9ca5dea2681/README.md"
+entryUrl: "https://github.com/hoangnb24/repository-harness/blob/e765792b635b4d5e3e5fc0578f82f9ca5dea2681/docs/decisions/0024-rust-harness-core-maintenance-cli.md"
+sourceRel: "docs/decisions/0024-rust-harness-core-maintenance-cli.md"
+rawUrl: "/raw/09-harness/repository-harness/docs/decisions/0024-rust-harness-core-maintenance-cli.md"
+sourceSha256: "8580549ba10fcc4057e9c5456aa8d19336705c92c6652f0dabebc981c94cfbb9"
+pageSha256: "8580549ba10fcc4057e9c5456aa8d19336705c92c6652f0dabebc981c94cfbb9"
+contentMode: "local-full"
 zh: ""
 ---
 

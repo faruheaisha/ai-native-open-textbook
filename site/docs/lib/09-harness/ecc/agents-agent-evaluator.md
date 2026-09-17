@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/affaan-m/ECC"
-entryUrl: "https://github.com/affaan-m/ECC/blob/928c1dea72f5c330442fc1f595563398b8f389f7/README.md"
+entryUrl: "https://github.com/affaan-m/ECC/blob/928c1dea72f5c330442fc1f595563398b8f389f7/agents/agent-evaluator.md"
+sourceRel: "agents/agent-evaluator.md"
+rawUrl: "/raw/09-harness/ecc/agents/agent-evaluator.md"
+sourceSha256: "ea9f0a419e0fa0844df5e0951c6ad087a059dff43b59bba03018801c1b53a545"
+pageSha256: "ea9f0a419e0fa0844df5e0951c6ad087a059dff43b59bba03018801c1b53a545"
+contentMode: "local-full"
 zh: ""
 ---
 

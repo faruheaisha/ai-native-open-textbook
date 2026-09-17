@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/stormzhang/ai-coding-guide"
-entryUrl: "https://github.com/stormzhang/ai-coding-guide/blob/d187dbdb83fa1be051a850074eb518e30e2eb47c/README.md"
+entryUrl: "https://github.com/stormzhang/ai-coding-guide/blob/d187dbdb83fa1be051a850074eb518e30e2eb47c/claude-code/22-mcp.md"
+sourceRel: "claude-code/22-mcp.md"
+rawUrl: "/raw/07-coding/ai-coding-guide-stormzhang/claude-code/22-mcp.md"
+sourceSha256: "df6a6b2716779b801ddfb3bc68f294a1d2b58aa70d629273b734b0965274240b"
+pageSha256: "df6a6b2716779b801ddfb3bc68f294a1d2b58aa70d629273b734b0965274240b"
+contentMode: "local-full"
 zh: ""
 ---
 

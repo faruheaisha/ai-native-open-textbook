@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/langchain-ai/deepagents"
-entryUrl: "https://github.com/langchain-ai/deepagents/blob/d93ab3351bbf4c3687212f665094ccad100f2c08/README.md"
+entryUrl: "https://github.com/langchain-ai/deepagents/blob/d93ab3351bbf4c3687212f665094ccad100f2c08/examples/deploy-gtm-agent/subagents/market-researcher/skills/analyze-market/SKILL.md"
+sourceRel: "examples/deploy-gtm-agent/subagents/market-researcher/skills/analyze-market/SKILL.md"
+rawUrl: "/raw/09-harness/langchain-deepagents/examples/deploy-gtm-agent/subagents/market-researcher/skills/analyze-market/SKILL.md"
+sourceSha256: "e3c7779a951873806d1f5424f7d1fd1597162e1d97fff83563bd47df546dce06"
+pageSha256: "e3c7779a951873806d1f5424f7d1fd1597162e1d97fff83563bd47df546dce06"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/stormzhang/ai-coding-guide"
-entryUrl: "https://github.com/stormzhang/ai-coding-guide/blob/d187dbdb83fa1be051a850074eb518e30e2eb47c/README.md"
+entryUrl: "https://github.com/stormzhang/ai-coding-guide/blob/d187dbdb83fa1be051a850074eb518e30e2eb47c/claude-code/08-vscode.md"
+sourceRel: "claude-code/08-vscode.md"
+rawUrl: "/raw/07-coding/ai-coding-guide-stormzhang/claude-code/08-vscode.md"
+sourceSha256: "ff36770040631d797ff0f7670b272ae7f05e101c69386d4940ee529420b6c0f7"
+pageSha256: "ff36770040631d797ff0f7670b272ae7f05e101c69386d4940ee529420b6c0f7"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -211,7 +216,7 @@ code .
 帮我把它改成用 f-string，并加上类型注解
 ```
 
-**预期**：Claude 没问你「哪个函数」（说明选中上下文喂进去了），直接弹出并排 diff——右边把 `return "Hello " + name` 改成 `return f"Hello {name}"`、签名加了类型注解，下方出现**接受 / 拒绝**提示。看清再点接受。
+**预期**：Claude 没问你「哪个函数」（说明选中上下文喂进去了），直接弹出并排 diff——右边把 `return "Hello " + name` 改成 `return f"Hello \{name\}"`、签名加了类型注解，下方出现**接受 / 拒绝**提示。看清再点接受。
 
 **第 3 步：试一次计划模式**
 

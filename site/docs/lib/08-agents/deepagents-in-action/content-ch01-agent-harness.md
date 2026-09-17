@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/datawhalechina/deepagents-in-action"
-entryUrl: "https://github.com/datawhalechina/deepagents-in-action/blob/4097ff944f9ffa1bdfe2dd04f751f4416b058860/README.md"
+entryUrl: "https://github.com/datawhalechina/deepagents-in-action/blob/4097ff944f9ffa1bdfe2dd04f751f4416b058860/content/ch01-agent-harness.md"
+sourceRel: "content/ch01-agent-harness.md"
+rawUrl: "/raw/08-agents/deepagents-in-action/content/ch01-agent-harness.md"
+sourceSha256: "6a6dcf7a4b537858ec76ad510d61f95349e670e8424b879203668b2a98b8526c"
+pageSha256: "6a6dcf7a4b537858ec76ad510d61f95349e670e8424b879203668b2a98b8526c"
+contentMode: "local-full"
 zh: ""
 ---
 

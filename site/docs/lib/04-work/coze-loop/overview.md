@@ -9,6 +9,11 @@ tier: 3
 volume: "04-work"
 sourceUrl: "https://github.com/coze-dev/coze-loop"
 entryUrl: "https://github.com/coze-dev/coze-loop/blob/5f1e4c234fc110c1bf674e882a6fd02109e1e1e6/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/04-work/coze-loop/README.md"
+sourceSha256: "eefcc669bacb314fb2b405ef1bc59b00c425182bf3746a560abcfd56b6557f84"
+pageSha256: "eefcc669bacb314fb2b405ef1bc59b00c425182bf3746a560abcfd56b6557f84"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -23,7 +28,7 @@ zh: ""
   <a href="https://deepwiki.com/coze-dev/coze-loop"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki"></a>
 </p>
 
-English | [中文](https://github.com/coze-dev/coze-loop/blob/5f1e4c234fc110c1bf674e882a6fd02109e1e1e6/README.cn.md)
+English | [中文](/lib/04-work/coze-loop/README.cn)
 
 
 

@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/datawhalechina/deepagents-in-action"
-entryUrl: "https://github.com/datawhalechina/deepagents-in-action/blob/4097ff944f9ffa1bdfe2dd04f751f4416b058860/README.md"
+entryUrl: "https://github.com/datawhalechina/deepagents-in-action/blob/4097ff944f9ffa1bdfe2dd04f751f4416b058860/content/ch03-virtual-filesystem.md"
+sourceRel: "content/ch03-virtual-filesystem.md"
+rawUrl: "/raw/08-agents/deepagents-in-action/content/ch03-virtual-filesystem.md"
+sourceSha256: "ea2687c73591ef2737c6f09ae3e89628b363257047675d14298c06b538ff5210"
+pageSha256: "ea2687c73591ef2737c6f09ae3e89628b363257047675d14298c06b538ff5210"
+contentMode: "local-full"
 zh: ""
 ---
 

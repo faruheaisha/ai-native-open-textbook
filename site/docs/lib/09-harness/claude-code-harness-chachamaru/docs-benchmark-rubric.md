@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/Chachamaru127/claude-code-harness"
-entryUrl: "https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/README.md"
+entryUrl: "https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/docs/benchmark-rubric.md"
+sourceRel: "docs/benchmark-rubric.md"
+rawUrl: "/raw/09-harness/claude-code-harness-chachamaru/docs/benchmark-rubric.md"
+sourceSha256: "593ac5162245aec1208625bbc844b7f05c73b59d10dac42111f737126bad8cac"
+pageSha256: "593ac5162245aec1208625bbc844b7f05c73b59d10dac42111f737126bad8cac"
+contentMode: "local-full"
 zh: ""
 ---
 

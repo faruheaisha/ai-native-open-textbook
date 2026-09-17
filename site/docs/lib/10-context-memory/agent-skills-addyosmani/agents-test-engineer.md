@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/addyosmani/agent-skills"
-entryUrl: "https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/README.md"
+entryUrl: "https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/agents/test-engineer.md"
+sourceRel: "agents/test-engineer.md"
+rawUrl: "/raw/10-context-memory/agent-skills-addyosmani/agents/test-engineer.md"
+sourceSha256: "c4acde91d6307d88515387344a129a2d0679134e587596c3517d73faffcd5aa6"
+pageSha256: "c4acde91d6307d88515387344a129a2d0679134e587596c3517d73faffcd5aa6"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -101,4 +106,4 @@ When analyzing test coverage:
 
 - **Invoke directly when:** the user asks for test design, coverage analysis, or a Prove-It test for a specific bug.
 - **Invoke via:** `/test` (TDD workflow) or `/ship` (parallel fan-out for coverage gap analysis alongside `code-reviewer` and `security-auditor`).
-- **Do not invoke from another persona.** Recommendations to add tests belong in your report; the user or a slash command decides when to act on them. See [docs/agents.md](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/docs/agents.md).
+- **Do not invoke from another persona.** Recommendations to add tests belong in your report; the user or a slash command decides when to act on them. See [docs/agents.md](/lib/10-context-memory/agent-skills-addyosmani/docs-agents).

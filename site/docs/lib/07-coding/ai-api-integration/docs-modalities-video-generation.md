@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/CCCpan/ai-api-integration"
-entryUrl: "https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/README.md"
+entryUrl: "https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/docs/modalities/video-generation.md"
+sourceRel: "docs/modalities/video-generation.md"
+rawUrl: "/raw/07-coding/ai-api-integration/docs/modalities/video-generation.md"
+sourceSha256: "ee5a3e30465e7deb21e15adc2c72829747da3795dbdd789669f329d66be49868"
+pageSha256: "ee5a3e30465e7deb21e15adc2c72829747da3795dbdd789669f329d66be49868"
+contentMode: "local-full"
 zh: ""
 ---
 

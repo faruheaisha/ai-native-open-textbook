@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding"
-entryUrl: "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding/blob/e40e0feec02b90e308ccbfc7a8911d64118ccca0/README.md"
+entryUrl: "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding/blob/e40e0feec02b90e308ccbfc7a8911d64118ccca0/book/src/part3/ch09.md"
+sourceRel: "book/src/part3/ch09.md"
+rawUrl: "/raw/09-harness/harness-engineering-from-cc-to-ai-coding/book/src/part3/ch09.md"
+sourceSha256: "71817c309b67ca47d0f0f4bf4e891d98f1012d535fbabacb276e9fbb16954dce"
+pageSha256: "71817c309b67ca47d0f0f4bf4e891d98f1012d535fbabacb276e9fbb16954dce"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -230,7 +235,7 @@ export type AutoCompactTrackingState = {
 
 - **成功时**（`autoCompact.ts:332`）：`consecutiveFailures` 重置为 0
 - **失败时**（`autoCompact.ts:341-349`）：递增计数，达到 3 次后记录警告日志并不再尝试
-- **熔断后**：该会话后续所有轮次的 autocompact 请求直接返回 `{ wasCompacted: false }`
+- **熔断后**：该会话后续所有轮次的 autocompact 请求直接返回 `\{ wasCompacted: false \}`
 
 这个设计体现了一个重要原则：**宁可让用户手动执行 `/compact`，也不要用注定失败的重试浪费 API 预算**。熔断器只阻止自动压缩，用户仍然可以通过 `/compact` 命令手动触发。
 

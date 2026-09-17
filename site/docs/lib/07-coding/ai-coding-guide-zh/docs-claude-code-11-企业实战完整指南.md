@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh"
-entryUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/README.md"
+entryUrl: "https://github.com/KimYx0207/AI-Coding-Guide-Zh/blob/7a7c21b8e7dc976e8ade33b79ee000a172e63daf/docs/claude-code/11-企业实战完整指南.md"
+sourceRel: "docs/claude-code/11-企业实战完整指南.md"
+rawUrl: "/raw/07-coding/ai-coding-guide-zh/docs/claude-code/11-企业实战完整指南.md"
+sourceSha256: "e98bed7eddfc19090f328dddda3e53dcbd3e5d8fd00b3bd66ef0519592f5b505"
+pageSha256: "e98bed7eddfc19090f328dddda3e53dcbd3e5d8fd00b3bd66ef0519592f5b505"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "10-context-memory"
 sourceUrl: "https://github.com/coleam00/context-engineering-intro"
-entryUrl: "https://github.com/coleam00/context-engineering-intro/blob/a2d84b021cee1e2f4e77ba854bba0be8cb319035/README.md"
+entryUrl: "https://github.com/coleam00/context-engineering-intro/blob/a2d84b021cee1e2f4e77ba854bba0be8cb319035/use-cases/ai-coding-wisc-framework/README.md"
+sourceRel: "use-cases/ai-coding-wisc-framework/README.md"
+rawUrl: "/raw/10-context-memory/context-engineering-intro/use-cases/ai-coding-wisc-framework/README.md"
+sourceSha256: "71f3f41cdbc8da507ba88d32cca6156c0c7ed48779725ca8104e7fda33e33b05"
+pageSha256: "71f3f41cdbc8da507ba88d32cca6156c0c7ed48779725ca8104e7fda33e33b05"
+contentMode: "local-full"
 zh: "on"
 ---
 

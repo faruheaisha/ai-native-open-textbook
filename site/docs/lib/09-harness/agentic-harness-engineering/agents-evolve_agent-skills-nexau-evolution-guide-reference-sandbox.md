@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering"
-entryUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering/blob/8b2a55d97590363fe50c3cc6b5e833b020a4bb4c/README.md"
+entryUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering/blob/8b2a55d97590363fe50c3cc6b5e833b020a4bb4c/agents/evolve_agent/skills/nexau-evolution-guide/reference/sandbox.md"
+sourceRel: "agents/evolve_agent/skills/nexau-evolution-guide/reference/sandbox.md"
+rawUrl: "/raw/09-harness/agentic-harness-engineering/agents/evolve_agent/skills/nexau-evolution-guide/reference/sandbox.md"
+sourceSha256: "28f2518910303967137fade8c67e3bd16211821053021cb58bd4921372198d52"
+pageSha256: "28f2518910303967137fade8c67e3bd16211821053021cb58bd4921372198d52"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -35,7 +40,7 @@ When executing bash commands, the sandbox automatically redirects stdout and std
 
 ### How It Works
 
-1. **Output redirection**: Every `execute_bash` call creates a unique output directory under `/tmp/nexau_bash_tool_results/{uuid}/`, containing `command.txt`, `stdout.txt`, and `stderr.txt`.
+1. **Output redirection**: Every `execute_bash` call creates a unique output directory under `/tmp/nexau_bash_tool_results/\{uuid\}/`, containing `command.txt`, `stdout.txt`, and `stderr.txt`.
 2. **Smart truncation**: After command execution, `smart_truncate_output()` checks whether the combined stdout + stderr exceeds a character threshold. If so, each stream is independently truncated — keeping the first N and last M characters — with an omitted marker and a hint pointing to the full file.
 3. **Full output preserved**: The untruncated content is always available in the temp files, so the agent can use `read_file` to access the complete output when needed.
 
@@ -95,7 +100,7 @@ config = AgentConfig(
 
 | Aspect | LocalSandbox | E2BSandbox |
 |--------|-------------|------------|
-| Redirection | Python-level (`Popen(stdout=fout)`) | Shell-level (`{ cmd; } > stdout.txt 2> stderr.txt`) |
+| Redirection | Python-level (`Popen(stdout=fout)`) | Shell-level (`\{ cmd; \} > stdout.txt 2> stderr.txt`) |
 | File location | Local filesystem | Remote sandbox filesystem |
 | Reading output | `Path.read_text()` | `sandbox._filesystem.read()` |
 | Truncation | Same `smart_truncate_output()` logic | Same `smart_truncate_output()` logic |

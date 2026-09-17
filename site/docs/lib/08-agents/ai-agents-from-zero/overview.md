@@ -9,6 +9,11 @@ tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/didilili/ai-agents-from-zero"
 entryUrl: "https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/08-agents/ai-agents-from-zero/README.md"
+sourceSha256: "ce6162ba2acf2e8664faa128b352525e4f2baea90371710d7cf985c3e58fa0a8"
+pageSha256: "ce6162ba2acf2e8664faa128b352525e4f2baea90371710d7cf985c3e58fa0a8"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -21,7 +26,7 @@ zh: ""
   <p><em>2026 持续更新中 · 目标打造<b>「地表最强」</b>AI Agent 教程 —— <b>系统教程 + 可跑源码 + 面试题库 + 企业级实战项目 + 长期技术栈更新</b>，全面对齐「AI 智能体 / 大模型应用开发工程师」<b>培训课表</b>与<b>招聘 JD</b>的一条龙学习路线</em></p>
 </div>
 
-[快速开始](#quick-start) • [教程大纲](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/教程目录大纲.md) • [案例汇总](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/教程案例链接汇总.md#教程案例链接汇总源码与在线演示) • [更新日志](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/教程更新日志.md) • [面试题库](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/AI智能体与大模型应用开发面试题库.md) • [新手入门与常见问题](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/新手入门与常见问题.md)
+[快速开始](#quick-start) • [教程大纲](/lib/08-agents/ai-agents-from-zero/教程目录大纲) • [案例汇总](/lib/08-agents/ai-agents-from-zero/教程案例链接汇总#教程案例链接汇总源码与在线演示) • [更新日志](/lib/08-agents/ai-agents-from-zero/教程更新日志) • [面试题库](/lib/08-agents/ai-agents-from-zero/AI智能体与大模型应用开发面试题库/index) • [新手入门与常见问题](/lib/08-agents/ai-agents-from-zero/新手入门与常见问题)
 
   
 [📚 在线阅读](https://didilili.github.io/ai-agents-from-zero/#/)
@@ -30,7 +35,7 @@ zh: ""
 
 **📢 更新说明**：**AI 不停，更新不止**。本仓库将伴随 **AI 大模型技术栈持续进化**，坚持 **开源、系统化、长期更新**。模型、框架、Agent、实战项目，都会随着生态变化持续完善和升级。它不只是帮你入门，而是陪你一路成长，从零基础到能真正落地。
 
-目前 **概念篇** 已全部更新完毕，两个完整实战项目也已更新完毕：`NL2SQL + LangGraph` 实战项目 [电商问数](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/实战项目-电商问数/0-前言.md)（[源码仓库](https://github.com/didilili/shopkeeper-agent)）已于 5 月 3 日完成。`DeepAgents` 多智能体实战项目 [深度研搜](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/实战项目-深度研搜/0-前言.md)（[源码仓库](https://github.com/didilili/deepsearch-agents)）已于 5 月 17 日完成。你可以点击[更新日志](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/教程更新日志.md)，了解最新仓库动态。
+目前 **概念篇** 已全部更新完毕，两个完整实战项目也已更新完毕：`NL2SQL + LangGraph` 实战项目 [电商问数](/lib/08-agents/ai-agents-from-zero/实战项目-电商问数-0-前言)（[源码仓库](https://github.com/didilili/shopkeeper-agent)）已于 5 月 3 日完成。`DeepAgents` 多智能体实战项目 [深度研搜](/lib/08-agents/ai-agents-from-zero/实战项目-深度研搜-0-前言)（[源码仓库](https://github.com/didilili/deepsearch-agents)）已于 5 月 17 日完成。你可以点击[更新日志](/lib/08-agents/ai-agents-from-zero/教程更新日志)，了解最新仓库动态。
 
 ---
 
@@ -68,7 +73,7 @@ zh: ""
 
 - **可上线的项目能力**，能独立交付 AI Agent 应用（从环境到部署），从「只会调 API」进阶到能落地的工程实践。
 - **体系化的架构表达**，能讲清楚 RAG、Agent、MCP 等设计与取舍，面试与简历里经得起追问。
-- **面试与 JD 对齐**，独立 [面试题库](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/AI智能体与大模型应用开发面试题库.md)，与正文题号互链，按岗位能力域组织问法与答法，适合应届与转岗梳理口径。
+- **面试与 JD 对齐**，独立 [面试题库](/lib/08-agents/ai-agents-from-zero/AI智能体与大模型应用开发面试题库/index)，与正文题号互链，按岗位能力域组织问法与答法，适合应届与转岗梳理口径。
 - **工程化与简历素材**，企业向案例与多路召回、观测、成本等表述，项目可演示、可写进简历。
 - **可检索的知识地图**，成体系目录 + 案例源码，与常见「智能体 / 应用开发」课表维度对齐，便于对照补缺，少踩「只看过文章没跑过」的坑。
 - **明确的岗位对标**，可胜任 AI 应用开发工程师、AI Agent 工程师、AI 自动化流程开发及 AI 产品技术负责人等方向；尤其适合前端 / 后端 / 产品等背景转型 AI 与智能体开发。
@@ -77,7 +82,7 @@ zh: ""
 
 ## 📚 教程大纲（节选）
 
-完整导航见 **[教程目录大纲](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/教程目录大纲.md)** 与 [在线文档](https://didilili.github.io/ai-agents-from-zero/#/)。
+完整导航见 **[教程目录大纲](/lib/08-agents/ai-agents-from-zero/教程目录大纲)** 与 [在线文档](https://didilili.github.io/ai-agents-from-zero/#/)。
 
 > 这份大纲不是固定目录。后续将伴随 AI 技术栈继续演进，新的核心知识点、新框架和新项目实践会继续并入这条路线中。
 
@@ -117,25 +122,25 @@ zh: ""
 | --------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 掌柜智库                                | LangGraph RAG 工作流、MinerU/OCR、向量+稀疏+Neo4j 多路召回、HyDE/BGE-Rerank、RAGAS 评估                                                                                                |
 | 电商小二                                | 意图解析、多源知识库、流式回复、转人工机制、对话复盘、多渠道与监控                                                                                                                     |
-| [电商问数](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/实战项目-电商问数/0-前言.md) | 围绕自然语言问数，完整串起 MySQL 数仓、元数据知识库、Qdrant 向量检索、Elasticsearch 字段值检索、LangGraph 工作流、SQL 生成校验执行、FastAPI SSE 和前后端联调                           |
-| [深度研搜](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/实战项目-深度研搜/0-前言.md) | 基于 [DeepAgents](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/实战项目-深度研搜/1-DeepAgents基础与核心概念.md) 搭建多智能体研究系统，串起网络搜索、MySQL 查询、RAGFlow 知识库、文件读取生成、FastAPI 接口和 WebSocket 实时进度回传 |
+| [电商问数](/lib/08-agents/ai-agents-from-zero/实战项目-电商问数-0-前言) | 围绕自然语言问数，完整串起 MySQL 数仓、元数据知识库、Qdrant 向量检索、Elasticsearch 字段值检索、LangGraph 工作流、SQL 生成校验执行、FastAPI SSE 和前后端联调                           |
+| [深度研搜](/lib/08-agents/ai-agents-from-zero/实战项目-深度研搜-0-前言) | 基于 [DeepAgents](/lib/08-agents/ai-agents-from-zero/实战项目-深度研搜-1-DeepAgents基础与核心概念) 搭建多智能体研究系统，串起网络搜索、MySQL 查询、RAGFlow 知识库、文件读取生成、FastAPI 接口和 WebSocket 实时进度回传 |
 | 市场罗盘                                | 场景化任务拆解、从 0 到 1 设计与开发、阶段目标与进度管控、代码评审与成果展示                                                                                                           |
 
 > **已完成实战项目推荐：**
 >
-> - [电商问数](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/实战项目-电商问数/0-前言.md)（[源码仓库](https://github.com/didilili/shopkeeper-agent)）：不是简单的 SQL 生成 Demo，而是把 `MySQL`、`LangGraph`、`Qdrant`、`Elasticsearch`、`FastAPI` 等知识点放进同一条可运行的智能问数链路里。
-> - [深度研搜](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/实战项目-深度研搜/0-前言.md)（[源码仓库](https://github.com/didilili/deepsearch-agents)）：不是普通聊天框，而是围绕开放研究任务，把主智能体调度、子智能体分工、多来源资料检索、文件生成交付和前后端实时联动做成一条完整闭环。
+> - [电商问数](/lib/08-agents/ai-agents-from-zero/实战项目-电商问数-0-前言)（[源码仓库](https://github.com/didilili/shopkeeper-agent)）：不是简单的 SQL 生成 Demo，而是把 `MySQL`、`LangGraph`、`Qdrant`、`Elasticsearch`、`FastAPI` 等知识点放进同一条可运行的智能问数链路里。
+> - [深度研搜](/lib/08-agents/ai-agents-from-zero/实战项目-深度研搜-0-前言)（[源码仓库](https://github.com/didilili/deepsearch-agents)）：不是普通聊天框，而是围绕开放研究任务，把主智能体调度、子智能体分工、多来源资料检索、文件生成交付和前后端实时联动做成一条完整闭环。
 
 ### 05 大模型微调实践
 
 | 章节                                                               | 内容概要                                                  |
 | ------------------------------------------------------------------ | --------------------------------------------------------- |
-| [28 微调概述](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/28-大模型微调概述与整体流程.md)                      | 问题诊断、模型类型、基线和关键词项目流程                  |
-| [29 数据与模板](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/29-微调数据准备与对话模板.md)                      | 真实 JSONL、样本质量、清洗划分和对话模板                  |
-| [30 训练与高效微调](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/30-模型训练原理与高效微调.md)                  | 训练参数、显存算例、LoRA 与 QLoRA                         |
-| [31 LLaMA-Factory 微调实战](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/31-LLaMA-Factory环境搭建与微调实战.md) | AutoDL 单卡 / FP16、清洗版训练、日志与备份                |
-| [32 微调效果评估与模型部署](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/32-微调效果评估与模型部署.md)          | 单条验证、200 条双组预测与评分、导出与独立加载；vLLM 选做 |
-| [33 微调显存优化与多卡训练](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/33-微调显存优化与多卡训练.md)          | 单卡显存排查、并行分工、ZeRO 与短跑日志判断               |
+| [28 微调概述](/lib/08-agents/ai-agents-from-zero/28-大模型微调概述与整体流程)                      | 问题诊断、模型类型、基线和关键词项目流程                  |
+| [29 数据与模板](/lib/08-agents/ai-agents-from-zero/29-微调数据准备与对话模板/index)                      | 真实 JSONL、样本质量、清洗划分和对话模板                  |
+| [30 训练与高效微调](/lib/08-agents/ai-agents-from-zero/30-模型训练原理与高效微调/index)                  | 训练参数、显存算例、LoRA 与 QLoRA                         |
+| [31 LLaMA-Factory 微调实战](/lib/08-agents/ai-agents-from-zero/31-LLaMA-Factory环境搭建与微调实战/index) | AutoDL 单卡 / FP16、清洗版训练、日志与备份                |
+| [32 微调效果评估与模型部署](/lib/08-agents/ai-agents-from-zero/32-微调效果评估与模型部署/index)          | 单条验证、200 条双组预测与评分、导出与独立加载；vLLM 选做 |
+| [33 微调显存优化与多卡训练](/lib/08-agents/ai-agents-from-zero/33-微调显存优化与多卡训练/index)          | 单卡显存排查、并行分工、ZeRO 与短跑日志判断               |
 
 ### 06 大厂开发规范
 
@@ -154,7 +159,7 @@ zh: ""
 
 ## 🚀 快速开始
 
-结合 [在线文档](https://didilili.github.io/ai-agents-from-zero/#/) 一起学习。想马上跑通一个案例？按下面几步即可。更详细的环境说明、API 申请、常见报错处理见 [新手入门与常见问题](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/新手入门与常见问题.md)。
+结合 [在线文档](https://didilili.github.io/ai-agents-from-zero/#/) 一起学习。想马上跑通一个案例？按下面几步即可。更详细的环境说明、API 申请、常见报错处理见 [新手入门与常见问题](/lib/08-agents/ai-agents-from-zero/新手入门与常见问题)。
 
 1. **克隆仓库并进入项目目录**
 
@@ -175,7 +180,7 @@ zh: ""
 3. **配置 API Key**
    - 将根目录下的 `.env-example` 复制为 `.env`
    - 在 `.env` 中填入你的 API Key（如通义千问/阿里百炼、DeepSeek 等），变量名需与代码一致（如 `aliQwen-api`、`QWEN_API_KEY`、`deepseek-api`）
-   - 各平台 Key 的申请方式见 [新手入门与常见问题 - 各 API 平台如何申请 Key](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/新手入门与常见问题.md#_5、各-api-平台如何申请-key？)
+   - 各平台 Key 的申请方式见 [新手入门与常见问题 - 各 API 平台如何申请 Key](/lib/08-agents/ai-agents-from-zero/新手入门与常见问题#_5、各-api-平台如何申请-key？)
 
 4. **在项目根目录运行第一个案例**
 
@@ -183,9 +188,9 @@ zh: ""
    python 案例与源码-2-LangChain框架/01-helloworld/StandardDesc.py
    ```
 
-   **注意**：必须在**项目根目录**执行 `python`，否则会读不到 `.env`。若不想用云 API，可使用 [Ollama 本地模型](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/新手入门与常见问题.md#_54-不想用云-api：用本地-ollama（无需-key）)（无需 Key）。
+   **注意**：必须在**项目根目录**执行 `python`，否则会读不到 `.env`。若不想用云 API，可使用 [Ollama 本地模型](/lib/08-agents/ai-agents-from-zero/新手入门与常见问题#_54-不想用云-api：用本地-ollama（无需-key）)（无需 Key）。
 
-遇到 `ModuleNotFoundError`、API Key 报错、找不到 `.env` 等，请查看 [新手入门与常见问题 - 常见问题与解决](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/新手入门与常见问题.md#_6、常见问题与解决)。
+遇到 `ModuleNotFoundError`、API Key 报错、找不到 `.env` 等，请查看 [新手入门与常见问题 - 常见问题与解决](/lib/08-agents/ai-agents-from-zero/新手入门与常见问题#_6、常见问题与解决)。
 
 ---
 
@@ -201,8 +206,6 @@ zh: ""
 - **技术定位**：聚焦 **Python 智能体开发路线**，重点讲 **LangChain / LangGraph** 及相关工程实践，**不走 Spring AI / langchain4j 的 Java 路线**，更适合想直接进入 Python 大模型应用开发的同学。
 - **教程来源**：参考**尚硅谷《大模型智能体速成班》**等课程资料，并在此基础上结合公开文档、社区实践与项目经验持续**重构、补充与维护**，逐步整理成一套 **Python 智能体应用开发** 的系统化学习资料。
 - **面试题来源**：题库中有相当一部分题目整理自**大厂真实面试题**、公开面经与高频追问场景，并结合本仓库的章节主线做了工程化重构，更适合按项目和系统设计视角复习。
-- **内容构成**：**系统章节笔记** + **可运行案例源码** + **[面试题库](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/AI智能体与大模型应用开发面试题库.md)** （对标**同类线上培训**与**社招/校招 JD**）。
-
-
+- **内容构成**：**系统章节笔记** + **可运行案例源码** + **[面试题库](/lib/08-agents/ai-agents-from-zero/AI智能体与大模型应用开发面试题库/index)** （对标**同类线上培训**与**社招/校招 JD**）。
 
 **仓库英文名**：`ai-agents-from-zero` · **仓库中文名**：《AI 智能体实战速成指南：从零到企业级落地》

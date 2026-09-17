@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/datawhalechina/deepagents-in-action"
-entryUrl: "https://github.com/datawhalechina/deepagents-in-action/blob/4097ff944f9ffa1bdfe2dd04f751f4416b058860/README.md"
+entryUrl: "https://github.com/datawhalechina/deepagents-in-action/blob/4097ff944f9ffa1bdfe2dd04f751f4416b058860/content/ch11-filesystem-permissions.md"
+sourceRel: "content/ch11-filesystem-permissions.md"
+rawUrl: "/raw/08-agents/deepagents-in-action/content/ch11-filesystem-permissions.md"
+sourceSha256: "45b3942d0cd008cffdab05fb24f27599e4112960f961c14c6330b3bd180d6554"
+pageSha256: "45b3942d0cd008cffdab05fb24f27599e4112960f961c14c6330b3bd180d6554"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -81,7 +86,7 @@ agent = create_deep_agent(
 | `paths` | Glob 路径列表 | 指定规则覆盖哪些虚拟文件路径 |
 | `mode` | `"allow"`、`"deny"`、`"interrupt"` | 放行、拒绝，或暂停等待人工审批 |
 
-路径支持 `**` 递归匹配，也支持 `{a,b}` 交替匹配。例如：
+路径支持 `**` 递归匹配，也支持 `\{a,b\}` 交替匹配。例如：
 
 ```python
 FilesystemPermission(
@@ -555,7 +560,7 @@ PolicyWrapper.write(...)
 
 包装器必须保持 Backend 协议的返回类型和路径语义。策略拒绝应返回相应结果对象中的 `error`，让文件工具得到可处理的结构化失败；策略放行时则原样返回内部 Backend 的结果。
 
-> **CompositeBackend 路由内的路径语义**：如果把包装器放在 `routes={"/skills/": PolicyWrapper(...)}` 内部，`CompositeBackend` 会先剥离 `/skills/`，因此包装器看到的是 `/test-skill/SKILL.md`，而不是 `/skills/test-skill/SKILL.md`。此时 `deny_prefixes=["/skills/"]` 不会命中。若目标只是让整条 `/skills/**` 路由只读，优先在 Agent 层使用 `FilesystemPermission(paths=["/skills/**"], operations=["write"], mode="deny")`；确实需要内部动态策略时，可用 `deny_prefixes=["/"]` 覆盖该路由 Backend 的全部写入。
+> **CompositeBackend 路由内的路径语义**：如果把包装器放在 `routes=\{"/skills/": PolicyWrapper(...)\}` 内部，`CompositeBackend` 会先剥离 `/skills/`，因此包装器看到的是 `/test-skill/SKILL.md`，而不是 `/skills/test-skill/SKILL.md`。此时 `deny_prefixes=["/skills/"]` 不会命中。若目标只是让整条 `/skills/**` 路由只读，优先在 Agent 层使用 `FilesystemPermission(paths=["/skills/**"], operations=["write"], mode="deny")`；确实需要内部动态策略时，可用 `deny_prefixes=["/"]` 覆盖该路由 Backend 的全部写入。
 
 这段代码尚未实现 `delete()`。如果所用 Backend 和工具集支持删除，应按同一模式增加 `delete()` 与 `DeleteResult`，否则删除操作可能绕过这项策略。
 

@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "04-work"
 sourceUrl: "https://github.com/coze-dev/coze-loop"
-entryUrl: "https://github.com/coze-dev/coze-loop/blob/5f1e4c234fc110c1bf674e882a6fd02109e1e1e6/README.md"
+entryUrl: "https://github.com/coze-dev/coze-loop/blob/5f1e4c234fc110c1bf674e882a6fd02109e1e1e6/backend/modules/evaluation/infra/runtime/README.md"
+sourceRel: "backend/modules/evaluation/infra/runtime/README.md"
+rawUrl: "/raw/04-work/coze-loop/backend/modules/evaluation/infra/runtime/README.md"
+sourceSha256: "f5c52295f7161fbc6d47d47f391fc68bff3f95bc78791d6b8d84852ca2968a48"
+pageSha256: "f5c52295f7161fbc6d47d47f391fc68bff3f95bc78791d6b8d84852ca2968a48"
+contentMode: "local-full"
 zh: ""
 ---
 

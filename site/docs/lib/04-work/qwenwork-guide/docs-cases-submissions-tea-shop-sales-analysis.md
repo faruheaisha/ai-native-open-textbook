@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/wangxiaoshuai1998/QwenWorkGuide"
-entryUrl: "https://github.com/wangxiaoshuai1998/QwenWorkGuide/blob/002f698a68b69d3635acf6be0d6e27db69069071/README.md"
+entryUrl: "https://github.com/wangxiaoshuai1998/QwenWorkGuide/blob/002f698a68b69d3635acf6be0d6e27db69069071/docs/cases/submissions/tea-shop-sales-analysis/index.md"
+sourceRel: "docs/cases/submissions/tea-shop-sales-analysis/index.md"
+rawUrl: "/raw/04-work/qwenwork-guide/docs/cases/submissions/tea-shop-sales-analysis/index.md"
+sourceSha256: "5aa04ccf41a3b0f52beb1ea5c65235d20af5e7863cc8cda325f6bdf4491f2d38"
+pageSha256: "5aa04ccf41a3b0f52beb1ea5c65235d20af5e7863cc8cda325f6bdf4491f2d38"
+contentMode: "local-full"
 zh: ""
 ---
 

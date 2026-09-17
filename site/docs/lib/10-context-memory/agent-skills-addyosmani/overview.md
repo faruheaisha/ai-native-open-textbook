@@ -9,6 +9,11 @@ tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/addyosmani/agent-skills"
 entryUrl: "https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/10-context-memory/agent-skills-addyosmani/README.md"
+sourceSha256: "cb483f8d869d8e570f6737222c6da208d3509d3b0751fe3bd622be34771f2554"
+pageSha256: "cb483f8d869d8e570f6737222c6da208d3509d3b0751fe3bd622be34771f2554"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -239,61 +244,61 @@ The commands above are entry points. The pack includes 25 skills total — 24 li
 
 | Skill | What It Does | Use When |
 |-------|-------------|----------|
-| [using-agent-skills](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/skills/using-agent-skills/SKILL.md) | Maps incoming work to the right skill workflow and defines shared operating rules | Starting a session or deciding which skill applies |
+| [using-agent-skills](/lib/10-context-memory/agent-skills-addyosmani/skills-using-agent-skills-SKILL) | Maps incoming work to the right skill workflow and defines shared operating rules | Starting a session or deciding which skill applies |
 
 ### Define - Clarify what to build
 
 | Skill | What It Does | Use When |
 |-------|-------------|----------|
-| [interview-me](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/skills/interview-me/SKILL.md) | One-question-at-a-time interview that extracts what the user actually wants instead of what they think they should want, until ~95% confidence | The ask is underspecified, or the user invokes "interview me" / "grill me" |
-| [idea-refine](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/skills/idea-refine/SKILL.md) | Structured divergent/convergent thinking to turn vague ideas into concrete proposals | You have a rough concept that needs exploration |
-| [spec-driven-development](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/skills/spec-driven-development/SKILL.md) | Write a PRD covering objectives, commands, structure, code style, testing, and boundaries before any code | Starting a new project, feature, or significant change |
-| [constraint-driven-development](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/skills/constraint-driven-development/SKILL.md) | Interviews you for a quality bar with sane default thresholds, writes CONSTRAINTS.md, places each check by cost, and catches agents silencing checks or skipping tests to get green | No standards are written down, or an agent is producing more than anyone reads |
+| [interview-me](/lib/10-context-memory/agent-skills-addyosmani/skills-interview-me-SKILL) | One-question-at-a-time interview that extracts what the user actually wants instead of what they think they should want, until ~95% confidence | The ask is underspecified, or the user invokes "interview me" / "grill me" |
+| [idea-refine](/lib/10-context-memory/agent-skills-addyosmani/skills-idea-refine-SKILL) | Structured divergent/convergent thinking to turn vague ideas into concrete proposals | You have a rough concept that needs exploration |
+| [spec-driven-development](/lib/10-context-memory/agent-skills-addyosmani/skills-spec-driven-development-SKILL) | Write a PRD covering objectives, commands, structure, code style, testing, and boundaries before any code | Starting a new project, feature, or significant change |
+| [constraint-driven-development](/lib/10-context-memory/agent-skills-addyosmani/skills-constraint-driven-development-SKILL) | Interviews you for a quality bar with sane default thresholds, writes CONSTRAINTS.md, places each check by cost, and catches agents silencing checks or skipping tests to get green | No standards are written down, or an agent is producing more than anyone reads |
 
 ### Plan - Break it down
 
 | Skill | What It Does | Use When |
 |-------|-------------|----------|
-| [planning-and-task-breakdown](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/skills/planning-and-task-breakdown/SKILL.md) | Decompose specs into small, verifiable tasks with acceptance criteria and dependency ordering | You have a spec and need implementable units |
+| [planning-and-task-breakdown](/lib/10-context-memory/agent-skills-addyosmani/skills-planning-and-task-breakdown-SKILL) | Decompose specs into small, verifiable tasks with acceptance criteria and dependency ordering | You have a spec and need implementable units |
 
 ### Build - Write the code
 
 | Skill | What It Does | Use When |
 |-------|-------------|----------|
-| [incremental-implementation](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/skills/incremental-implementation/SKILL.md) | Thin vertical slices - implement, test, verify, commit. Feature flags, safe defaults, rollback-friendly changes | Any change touching more than one file |
-| [test-driven-development](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/skills/test-driven-development/SKILL.md) | Red-Green-Refactor, test pyramid (80/15/5), test sizes, DAMP over DRY, Beyonce Rule, browser testing | Implementing logic, fixing bugs, or changing behavior |
-| [context-engineering](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/skills/context-engineering/SKILL.md) | Feed agents the right information at the right time - rules files, context packing, MCP integrations | Starting a session, switching tasks, or when output quality drops |
-| [source-driven-development](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/skills/source-driven-development/SKILL.md) | Ground every framework decision in official documentation - verify, cite sources, flag what's unverified | You want authoritative, source-cited code for any framework or library |
-| [doubt-driven-development](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/skills/doubt-driven-development/SKILL.md) | Adversarial fresh-context review of every non-trivial decision in-flight - CLAIM → EXTRACT → DOUBT → RECONCILE → STOP, with optional user-authorized cross-model escalation | Stakes are high (production, security, irreversible), working in unfamiliar code, or a confident output is cheaper to verify now than to debug later |
-| [frontend-ui-engineering](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/skills/frontend-ui-engineering/SKILL.md) | Component architecture, design systems, state management, responsive design, WCAG 2.1 AA accessibility | Building or modifying user-facing interfaces |
-| [api-and-interface-design](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/skills/api-and-interface-design/SKILL.md) | Contract-first design, Hyrum's Law, One-Version Rule, error semantics, boundary validation | Designing APIs, module boundaries, or public interfaces |
+| [incremental-implementation](/lib/10-context-memory/agent-skills-addyosmani/skills-incremental-implementation-SKILL) | Thin vertical slices - implement, test, verify, commit. Feature flags, safe defaults, rollback-friendly changes | Any change touching more than one file |
+| [test-driven-development](/lib/10-context-memory/agent-skills-addyosmani/skills-test-driven-development-SKILL) | Red-Green-Refactor, test pyramid (80/15/5), test sizes, DAMP over DRY, Beyonce Rule, browser testing | Implementing logic, fixing bugs, or changing behavior |
+| [context-engineering](/lib/10-context-memory/agent-skills-addyosmani/skills-context-engineering-SKILL) | Feed agents the right information at the right time - rules files, context packing, MCP integrations | Starting a session, switching tasks, or when output quality drops |
+| [source-driven-development](/lib/10-context-memory/agent-skills-addyosmani/skills-source-driven-development-SKILL) | Ground every framework decision in official documentation - verify, cite sources, flag what's unverified | You want authoritative, source-cited code for any framework or library |
+| [doubt-driven-development](/lib/10-context-memory/agent-skills-addyosmani/skills-doubt-driven-development-SKILL) | Adversarial fresh-context review of every non-trivial decision in-flight - CLAIM → EXTRACT → DOUBT → RECONCILE → STOP, with optional user-authorized cross-model escalation | Stakes are high (production, security, irreversible), working in unfamiliar code, or a confident output is cheaper to verify now than to debug later |
+| [frontend-ui-engineering](/lib/10-context-memory/agent-skills-addyosmani/skills-frontend-ui-engineering-SKILL) | Component architecture, design systems, state management, responsive design, WCAG 2.1 AA accessibility | Building or modifying user-facing interfaces |
+| [api-and-interface-design](/lib/10-context-memory/agent-skills-addyosmani/skills-api-and-interface-design-SKILL) | Contract-first design, Hyrum's Law, One-Version Rule, error semantics, boundary validation | Designing APIs, module boundaries, or public interfaces |
 
 ### Verify - Prove it works
 
 | Skill | What It Does | Use When |
 |-------|-------------|----------|
-| [browser-testing-with-devtools](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/skills/browser-testing-with-devtools/SKILL.md) | Chrome DevTools MCP for live runtime data - DOM inspection, console logs, network traces, performance profiling | Building or debugging anything that runs in a browser |
-| [debugging-and-error-recovery](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/skills/debugging-and-error-recovery/SKILL.md) | Five-step triage: reproduce, localize, reduce, fix, guard. Stop-the-line rule, safe fallbacks | Tests fail, builds break, or behavior is unexpected |
+| [browser-testing-with-devtools](/lib/10-context-memory/agent-skills-addyosmani/skills-browser-testing-with-devtools-SKILL) | Chrome DevTools MCP for live runtime data - DOM inspection, console logs, network traces, performance profiling | Building or debugging anything that runs in a browser |
+| [debugging-and-error-recovery](/lib/10-context-memory/agent-skills-addyosmani/skills-debugging-and-error-recovery-SKILL) | Five-step triage: reproduce, localize, reduce, fix, guard. Stop-the-line rule, safe fallbacks | Tests fail, builds break, or behavior is unexpected |
 
 ### Review - Quality gates before merge
 
 | Skill | What It Does | Use When |
 |-------|-------------|----------|
-| [code-review-and-quality](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/skills/code-review-and-quality/SKILL.md) | Five-axis review, change sizing (~100 lines), severity labels (Nit/Optional/FYI), review speed norms, splitting strategies | Before merging any change |
-| [code-simplification](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/skills/code-simplification/SKILL.md) | Chesterton's Fence, Rule of 500, reduce complexity while preserving exact behavior | Code works but is harder to read or maintain than it should be |
-| [security-and-hardening](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/skills/security-and-hardening/SKILL.md) | OWASP Top 10 prevention, auth patterns, secrets management, dependency auditing, three-tier boundary system | Handling user input, auth, data storage, or external integrations |
-| [performance-optimization](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/skills/performance-optimization/SKILL.md) | Measure-first approach - Core Web Vitals targets, profiling workflows, bundle analysis, anti-pattern detection | Performance requirements exist or you suspect regressions |
+| [code-review-and-quality](/lib/10-context-memory/agent-skills-addyosmani/skills-code-review-and-quality-SKILL) | Five-axis review, change sizing (~100 lines), severity labels (Nit/Optional/FYI), review speed norms, splitting strategies | Before merging any change |
+| [code-simplification](/lib/10-context-memory/agent-skills-addyosmani/skills-code-simplification-SKILL) | Chesterton's Fence, Rule of 500, reduce complexity while preserving exact behavior | Code works but is harder to read or maintain than it should be |
+| [security-and-hardening](/lib/10-context-memory/agent-skills-addyosmani/skills-security-and-hardening-SKILL) | OWASP Top 10 prevention, auth patterns, secrets management, dependency auditing, three-tier boundary system | Handling user input, auth, data storage, or external integrations |
+| [performance-optimization](/lib/10-context-memory/agent-skills-addyosmani/skills-performance-optimization-SKILL) | Measure-first approach - Core Web Vitals targets, profiling workflows, bundle analysis, anti-pattern detection | Performance requirements exist or you suspect regressions |
 
 ### Ship - Deploy with confidence
 
 | Skill | What It Does | Use When |
 |-------|-------------|----------|
-| [git-workflow-and-versioning](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/skills/git-workflow-and-versioning/SKILL.md) | Trunk-based development, atomic commits, change sizing (~100 lines), the commit-as-save-point pattern | Making any code change (always) |
-| [ci-cd-and-automation](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/skills/ci-cd-and-automation/SKILL.md) | Shift Left, Faster is Safer, feature flags, quality gate pipelines, failure feedback loops | Setting up or modifying build and deploy pipelines |
-| [deprecation-and-migration](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/skills/deprecation-and-migration/SKILL.md) | Code-as-liability mindset, compulsory vs advisory deprecation, migration patterns, zombie code removal | Removing old systems, migrating users, or sunsetting features |
-| [documentation-and-adrs](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/skills/documentation-and-adrs/SKILL.md) | Architecture Decision Records, API docs, inline documentation standards - document the *why* | Making architectural decisions, changing APIs, or shipping features |
-| [observability-and-instrumentation](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/skills/observability-and-instrumentation/SKILL.md) | Structured logging, RED metrics, OpenTelemetry tracing, symptom-based alerting - instrument as you build | Adding telemetry, or shipping anything that runs in production |
-| [shipping-and-launch](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/skills/shipping-and-launch/SKILL.md) | Pre-launch checklists, feature flag lifecycle, staged rollouts, rollback procedures, monitoring setup | Preparing to deploy to production |
+| [git-workflow-and-versioning](/lib/10-context-memory/agent-skills-addyosmani/skills-git-workflow-and-versioning-SKILL) | Trunk-based development, atomic commits, change sizing (~100 lines), the commit-as-save-point pattern | Making any code change (always) |
+| [ci-cd-and-automation](/lib/10-context-memory/agent-skills-addyosmani/skills-ci-cd-and-automation-SKILL) | Shift Left, Faster is Safer, feature flags, quality gate pipelines, failure feedback loops | Setting up or modifying build and deploy pipelines |
+| [deprecation-and-migration](/lib/10-context-memory/agent-skills-addyosmani/skills-deprecation-and-migration-SKILL) | Code-as-liability mindset, compulsory vs advisory deprecation, migration patterns, zombie code removal | Removing old systems, migrating users, or sunsetting features |
+| [documentation-and-adrs](/lib/10-context-memory/agent-skills-addyosmani/skills-documentation-and-adrs-SKILL) | Architecture Decision Records, API docs, inline documentation standards - document the *why* | Making architectural decisions, changing APIs, or shipping features |
+| [observability-and-instrumentation](/lib/10-context-memory/agent-skills-addyosmani/skills-observability-and-instrumentation-SKILL) | Structured logging, RED metrics, OpenTelemetry tracing, symptom-based alerting - instrument as you build | Adding telemetry, or shipping anything that runs in production |
+| [shipping-and-launch](/lib/10-context-memory/agent-skills-addyosmani/skills-shipping-and-launch-SKILL) | Pre-launch checklists, feature flag lifecycle, staged rollouts, rollback procedures, monitoring setup | Preparing to deploy to production |
 
 ---
 
@@ -308,7 +313,7 @@ Pre-configured specialist personas for targeted reviews:
 | [security-auditor](/lib/10-context-memory/agent-skills-addyosmani/agents-security-auditor) | Security Engineer | Vulnerability detection, threat modeling, OWASP assessment |
 | [web-performance-auditor](/lib/10-context-memory/agent-skills-addyosmani/agents-web-performance-auditor) | Web Performance Engineer | Core Web Vitals audit with Quick/Deep modes and a metric-honesty rule; run it via `/webperf` |
 
-See [docs/agents.md](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/docs/agents.md) for the decision matrix, orchestration rules, and how personas compose with skills and slash commands.
+See [docs/agents.md](/lib/10-context-memory/agent-skills-addyosmani/docs-agents) for the decision matrix, orchestration rules, and how personas compose with skills and slash commands.
 
 ---
 
@@ -318,13 +323,13 @@ Quick-reference material that skills pull in when needed:
 
 | Reference | Covers |
 |-----------|--------|
-| [definition-of-done.md](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/references/definition-of-done.md) | Project-wide standing bar every change clears, contrasted with per-task acceptance criteria |
-| [testing-patterns.md](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/references/testing-patterns.md) | Test structure, naming, mocking, React/API/E2E examples, anti-patterns (JavaScript/TypeScript) |
-| [security-checklist.md](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/references/security-checklist.md) | Pre-commit checks, auth, input validation, headers, CORS, OWASP Top 10 |
-| [performance-checklist.md](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/references/performance-checklist.md) | Core Web Vitals targets, frontend/backend checklists, measurement commands |
-| [accessibility-checklist.md](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/references/accessibility-checklist.md) | Keyboard nav, screen readers, visual design, ARIA, testing tools |
-| [observability-checklist.md](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/references/observability-checklist.md) | On-call questions, structured logging, RED/USE metrics, tracing, symptom-based alerting, pre-launch gate |
-| [orchestration-patterns.md](https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/references/orchestration-patterns.md) | Endorsed multi-persona orchestration patterns, anti-patterns, and the "personas don't invoke personas" rule |
+| [definition-of-done.md](/lib/10-context-memory/agent-skills-addyosmani/references-definition-of-done) | Project-wide standing bar every change clears, contrasted with per-task acceptance criteria |
+| [testing-patterns.md](/lib/10-context-memory/agent-skills-addyosmani/references-testing-patterns) | Test structure, naming, mocking, React/API/E2E examples, anti-patterns (JavaScript/TypeScript) |
+| [security-checklist.md](/lib/10-context-memory/agent-skills-addyosmani/references-security-checklist) | Pre-commit checks, auth, input validation, headers, CORS, OWASP Top 10 |
+| [performance-checklist.md](/lib/10-context-memory/agent-skills-addyosmani/references-performance-checklist) | Core Web Vitals targets, frontend/backend checklists, measurement commands |
+| [accessibility-checklist.md](/lib/10-context-memory/agent-skills-addyosmani/references-accessibility-checklist) | Keyboard nav, screen readers, visual design, ARIA, testing tools |
+| [observability-checklist.md](/lib/10-context-memory/agent-skills-addyosmani/references-observability-checklist) | On-call questions, structured logging, RED/USE metrics, tracing, symptom-based alerting, pre-launch gate |
+| [orchestration-patterns.md](/lib/10-context-memory/agent-skills-addyosmani/references-orchestration-patterns) | Endorsed multi-persona orchestration patterns, anti-patterns, and the "personas don't invoke personas" rule |
 
 ---
 

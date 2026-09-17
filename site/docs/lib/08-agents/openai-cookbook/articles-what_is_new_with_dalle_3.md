@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/openai/openai-cookbook"
-entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/README.md"
+entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/articles/what_is_new_with_dalle_3.mdx"
+sourceRel: "articles/what_is_new_with_dalle_3.mdx"
+rawUrl: "/raw/08-agents/openai-cookbook/articles/what_is_new_with_dalle_3.mdx"
+sourceSha256: "295639182b7df356a70e1ab27bb7503fd69d49a4de67f2fa7372ef0404f26cdb"
+pageSha256: "295639182b7df356a70e1ab27bb7503fd69d49a4de67f2fa7372ef0404f26cdb"
+contentMode: "local-full"
 zh: ""
 ---
 

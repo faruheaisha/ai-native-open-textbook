@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/QoderAI/better-harness"
-entryUrl: "https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/README.md"
+entryUrl: "https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/adrs/checkpoint-backed-compare-sources.md"
+sourceRel: "docs/adrs/checkpoint-backed-compare-sources.md"
+rawUrl: "/raw/09-harness/better-harness/docs/adrs/checkpoint-backed-compare-sources.md"
+sourceSha256: "6949721f13ba81681473d4f67f48ea36367e5f92f0ed58a89a6afa3c442f3efb"
+pageSha256: "6949721f13ba81681473d4f67f48ea36367e5f92f0ed58a89a6afa3c442f3efb"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -21,7 +26,7 @@ zh: ""
 - Decision date: 2026-08-17
 - Related ADR: [Harness Checkpoint Experiment Compare](/lib/09-harness/better-harness/docs-adrs-harness-checkpoint-experiment-compare)
 - Implementation spec: [Checkpoint-anchored multi-lane harness
-  experiments](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/specs/2026-08-17-harness-studio-checkpoint-compare.md)
+  experiments](/lib/09-harness/better-harness/docs-specs-2026-08-17-harness-studio-checkpoint-compare)
 
 ## Context
 

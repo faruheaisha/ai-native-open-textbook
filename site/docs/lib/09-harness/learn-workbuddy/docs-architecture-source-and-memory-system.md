@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/adongwanai/learn-workbuddy"
-entryUrl: "https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/README.md"
+entryUrl: "https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/docs/architecture/source-and-memory-system.md"
+sourceRel: "docs/architecture/source-and-memory-system.md"
+rawUrl: "/raw/09-harness/learn-workbuddy/docs/architecture/source-and-memory-system.md"
+sourceSha256: "8980ff58187e31b29a7afc886df15bfa446019ba028d1441c4186f20ac0f583a"
+pageSha256: "8980ff58187e31b29a7afc886df15bfa446019ba028d1441c4186f20ac0f583a"
+contentMode: "local-full"
 zh: ""
 ---
 

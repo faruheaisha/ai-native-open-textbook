@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/shareAI-lab/learn-claude-code"
-entryUrl: "https://github.com/shareAI-lab/learn-claude-code/blob/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/README.md"
+entryUrl: "https://github.com/shareAI-lab/learn-claude-code/blob/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/docs/zh/s10-team-protocols.md"
+sourceRel: "docs/zh/s10-team-protocols.md"
+rawUrl: "/raw/09-harness/learn-claude-code/docs/zh/s10-team-protocols.md"
+sourceSha256: "b75d56dbf705e504446311205fa9a0fa8f42e9c016f4b1bc69b14d17af69cae7"
+pageSha256: "b75d56dbf705e504446311205fa9a0fa8f42e9c016f4b1bc69b14d17af69cae7"
+contentMode: "local-full"
 zh: ""
 ---
 

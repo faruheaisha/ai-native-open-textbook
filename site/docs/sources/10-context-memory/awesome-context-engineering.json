@@ -1,0 +1,18 @@
+{
+  "id": "10-context-memory/awesome-context-engineering",
+  "volume": "10-context-memory",
+  "local": "awesome-context-engineering",
+  "title": "Awesome Context Engineering（上下文工程清单）",
+  "kind": "工程手册",
+  "license": "MIT",
+  "licenseLabel": "可转载",
+  "licenseNote": "可转载可翻译，须保留署名与许可声明",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": true,
+  "repo": "Meirtz/Awesome-Context-Engineering",
+  "site": null,
+  "commit": "8b6ede2b5e610774e01d74902d65a51000d671a4",
+  "entryUrl": "https://github.com/Meirtz/Awesome-Context-Engineering/blob/8b6ede2b5e610774e01d74902d65a51000d671a4/README.md",
+  "docs": 2
+}

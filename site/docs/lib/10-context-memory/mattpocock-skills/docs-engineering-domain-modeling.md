@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/mattpocock/skills"
-entryUrl: "https://github.com/mattpocock/skills/blob/3cca18b368ae95cdbdebbff572ccafa662551015/README.md"
+entryUrl: "https://github.com/mattpocock/skills/blob/3cca18b368ae95cdbdebbff572ccafa662551015/docs/engineering/domain-modeling.md"
+sourceRel: "docs/engineering/domain-modeling.md"
+rawUrl: "/raw/10-context-memory/mattpocock-skills/docs/engineering/domain-modeling.md"
+sourceSha256: "31ceeec5fd53ca542230d89f3ef3d827408f2639919337003b771ac5a93c0027"
+pageSha256: "31ceeec5fd53ca542230d89f3ef3d827408f2639919337003b771ac5a93c0027"
+contentMode: "local-full"
 zh: ""
 ---
 

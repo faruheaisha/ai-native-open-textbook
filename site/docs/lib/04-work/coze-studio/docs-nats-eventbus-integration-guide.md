@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "04-work"
 sourceUrl: "https://github.com/coze-dev/coze-studio"
-entryUrl: "https://github.com/coze-dev/coze-studio/blob/fefb05ff27be1da939612fbf9faf5db62583b8ae/README.md"
+entryUrl: "https://github.com/coze-dev/coze-studio/blob/fefb05ff27be1da939612fbf9faf5db62583b8ae/docs/nats-eventbus-integration-guide.md"
+sourceRel: "docs/nats-eventbus-integration-guide.md"
+rawUrl: "/raw/04-work/coze-studio/docs/nats-eventbus-integration-guide.md"
+sourceSha256: "05242dc83b395475234e20f6b08bc9824ae51d28728b486968cb05405ae40c6d"
+pageSha256: "05242dc83b395475234e20f6b08bc9824ae51d28728b486968cb05405ae40c6d"
+contentMode: "local-full"
 zh: ""
 ---
 

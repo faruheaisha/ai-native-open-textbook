@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/zhiyue/vibe-coding-guide"
-entryUrl: "https://github.com/zhiyue/vibe-coding-guide/blob/ee8434ce526f629e0ca4ce00f6a66be6372327ac/README.md"
+entryUrl: "https://github.com/zhiyue/vibe-coding-guide/blob/ee8434ce526f629e0ca4ce00f6a66be6372327ac/chapters/07-when-ai-goes-wrong.md"
+sourceRel: "chapters/07-when-ai-goes-wrong.md"
+rawUrl: "/raw/07-coding/vibe-coding-guide/chapters/07-when-ai-goes-wrong.md"
+sourceSha256: "ac92b2957fae78abb8a89dfbd4de2876430cbd98d7185c2e83141258ce2d27d2"
+pageSha256: "ac92b2957fae78abb8a89dfbd4de2876430cbd98d7185c2e83141258ce2d27d2"
+contentMode: "local-full"
 zh: ""
 ---
 

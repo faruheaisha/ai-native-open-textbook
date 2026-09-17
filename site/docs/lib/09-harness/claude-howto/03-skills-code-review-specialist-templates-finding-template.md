@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/luongnv89/claude-howto"
-entryUrl: "https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/README.md"
+entryUrl: "https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/03-skills/code-review-specialist/templates/finding-template.md"
+sourceRel: "03-skills/code-review-specialist/templates/finding-template.md"
+rawUrl: "/raw/09-harness/claude-howto/03-skills/code-review-specialist/templates/finding-template.md"
+sourceSha256: "834ceaab877ae03e9b0b76c6c14af994afba41d226d04a71339493879003151f"
+pageSha256: "834ceaab877ae03e9b0b76c6c14af994afba41d226d04a71339493879003151f"
+contentMode: "local-full"
 zh: ""
 ---
 

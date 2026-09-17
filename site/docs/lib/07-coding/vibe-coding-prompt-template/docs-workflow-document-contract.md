@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/KhazP/vibe-coding-prompt-template"
-entryUrl: "https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/README.md"
+entryUrl: "https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/docs/workflow/document-contract.md"
+sourceRel: "docs/workflow/document-contract.md"
+rawUrl: "/raw/07-coding/vibe-coding-prompt-template/docs/workflow/document-contract.md"
+sourceSha256: "a057f095fa3e64502db89ab0628dbb5f3e9a331830bf3e3af650f27eae1cf3bb"
+pageSha256: "a057f095fa3e64502db89ab0628dbb5f3e9a331830bf3e3af650f27eae1cf3bb"
+contentMode: "local-full"
 zh: ""
 ---
 

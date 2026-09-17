@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/openai/openai-cookbook"
-entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/README.md"
+entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/examples/agents_sdk/multi-agent-portfolio-collaboration/prompts/code_interpreter.md"
+sourceRel: "examples/agents_sdk/multi-agent-portfolio-collaboration/prompts/code_interpreter.md"
+rawUrl: "/raw/08-agents/openai-cookbook/examples/agents_sdk/multi-agent-portfolio-collaboration/prompts/code_interpreter.md"
+sourceSha256: "4e8f2e783e74d7b37ce6f69319148dc32ddbaca405bfd0199b2a76f53d598251"
+pageSha256: "4e8f2e783e74d7b37ce6f69319148dc32ddbaca405bfd0199b2a76f53d598251"
+contentMode: "local-full"
 zh: ""
 ---
 

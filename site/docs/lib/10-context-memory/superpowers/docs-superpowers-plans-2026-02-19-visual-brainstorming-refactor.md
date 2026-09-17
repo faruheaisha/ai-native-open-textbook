@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/obra/superpowers"
-entryUrl: "https://github.com/obra/superpowers/blob/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/README.md"
+entryUrl: "https://github.com/obra/superpowers/blob/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/docs/superpowers/plans/2026-02-19-visual-brainstorming-refactor.md"
+sourceRel: "docs/superpowers/plans/2026-02-19-visual-brainstorming-refactor.md"
+rawUrl: "/raw/10-context-memory/superpowers/docs/superpowers/plans/2026-02-19-visual-brainstorming-refactor.md"
+sourceSha256: "fbc67c4e7c5e42ff6e8e647951b749a2610ca2e13639903867258032c175bbbe"
+pageSha256: "fbc67c4e7c5e42ff6e8e647951b749a2610ca2e13639903867258032c175bbbe"
+contentMode: "local-full"
 zh: ""
 ---
 

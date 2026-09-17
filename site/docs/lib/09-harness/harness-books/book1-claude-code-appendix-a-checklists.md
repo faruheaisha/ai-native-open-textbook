@@ -1,0 +1,197 @@
+---
+title: "附录 A 检查清单：把原则落成能执行的约束"
+sourceId: "09-harness/harness-books"
+sourceTitle: "Harness Books"
+sourceKind: "工程手册"
+licenseLabel: "仅引用"
+lang: "中文"
+tier: 3
+volume: "09-harness"
+sourceUrl: "https://github.com/wquguru/harness-books"
+entryUrl: "https://github.com/wquguru/harness-books/blob/fbf2b43e352443eea00eb9e4a32709a9f2c11a76/book1-claude-code/appendix-a-checklists.md"
+sourceRel: "book1-claude-code/appendix-a-checklists.md"
+rawUrl: "/raw/09-harness/harness-books/book1-claude-code/appendix-a-checklists.md"
+sourceSha256: "76e42ceebd89ecb61b5a9754998803b2bb397b75bd764befe5e27d9b76c5c58c"
+pageSha256: "76e42ceebd89ecb61b5a9754998803b2bb397b75bd764befe5e27d9b76c5c58c"
+contentMode: "local-full"
+zh: ""
+---
+
+# 附录 A 检查清单：把原则落成能执行的约束
+
+前面几章一直在谈原则。原则如果不能落成检查清单，最后很容易只剩一些听起来都对、却落不了地的判断。附录的任务，就是把那些容易说、难坚持的判断，压成几组可以直接拿去用的清单。
+
+这些清单并不保证系统自动变好，它们只是防止一些最常见、也最无聊的错误反复出现。工程里很多进步，本来就靠少犯重复错误，而不只是靠灵感。
+
+## A.1 Agent Runtime 设计清单
+
+一个 AI coding agent 如果要进入真实工程工作流，至少该回答清楚这些问题：
+
+- 是否存在明确的 query loop，而非把每轮调用都当作独立问答
+- 是否有跨轮状态对象，明确记录恢复、预算、压缩、hook、turn 计数等信息
+- 是否把模型输出当事件流处理，而不只是当最终文案处理
+- 是否能在中断时补齐未完成的 tool result，保持执行账本闭环
+- 是否区分完成、失败、恢复、继续这些不同终止语义
+- 是否为长会话设计了 context budget，而非只在超长时临场补锅
+
+如果这些问题里有两三个答不上来，那么这个系统大概率还停留在“会做 demo”的阶段，离“会跑工程流程”还有距离。
+
+## A.2 Prompt 设计清单
+
+system prompt 不该只是长，也该有分层和职责。
+
+检查时至少看这些：
+
+- 是否把身份描述、行为规则、工具约束、输出纪律分开组织
+- 是否明确 prompt 的优先级来源，例如默认、项目、自定义、追加、agent 专属 prompt
+- 是否把危险动作、越权动作、验证纪律写成明确规则，而非隐约暗示
+- 是否避免让 prompt 承担本该由 runtime 处理的职责
+- 是否允许团队稳定维护，而非每次修 bug 都往 prompt 里再塞一段话
+
+一个很实用的判断标准是：删掉某段 prompt 以后，系统行为会不会出现结构性变化。如果会，说明它真是控制面；如果不会，可能只是装饰。
+
+## A.3 Tool 与 Permission 设计清单
+
+凡是让模型碰世界的系统，都该先问这些：
+
+- 工具调用是否经过统一调度，而非让模型直接裸调
+- 并发是否需要显式证明安全，而非默认允许
+- 是否存在 `allow / deny / ask` 这样的权限语义分叉
+- 高风险工具是否被当成特例治理，而非与普通工具一视同仁
+- 是否能对中断、fallback、sibling failure 生成明确收尾语义
+- 是否能记录工具执行因果链，避免出现悬空 `tool_use`
+
+如果你的 Bash 和 ReadTool 在治理上几乎一样，那通常说明风险理解得还不够。
+
+## A.4 Context 治理清单
+
+任何长会话代理，迟早都会被上下文教育。早点治理，代价比较低。
+
+检查时至少看这些：
+
+- 长期规则、长期记忆、会话连续性、临时对话是否分层
+- 是否有明确入口文件和正文文件的区分，避免索引型文件不断膨胀
+- 是否对 memory、session memory、skill 附件设 token 预算
+- 是否预留 compact 输出空间，而非把窗口吃满再抢救
+- compact 之后是否恢复工作语义，例如计划、技能、关键文件、工具状态
+- 是否对 compact 自己失败也准备了恢复策略
+
+上下文治理做得好的系统，往往看起来有点吝啬。那种吝啬通常是优点，不是缺点。
+
+## A.5 Error Recovery 设计清单
+
+错误恢复最怕两件事：没有设计，和设计成死循环。
+
+至少要检查：
+
+- 可恢复错误是否先进入恢复分支，而非第一时间只展示给用户
+- 恢复路径是否分层，先低破坏性，再高破坏性
+- 是否有防止 reactive compact、stop hooks、retry 相互咬住的保护
+- `max_output_tokens` 后是否优先续写，而非优先 recap
+- 自动恢复是否有计数、限次和熔断
+- 中断是否也被当作需要语义收尾的失败态
+
+一个不会收手的恢复系统，和一个不会恢复的系统一样危险，只是它危险得更勤奋一点。
+
+## A.6 Multi-Agent 设计清单
+
+多代理的重点在于组织不确定性。检查时要看：
+
+- fork 时是否考虑 prompt cache 共享和 cache-safe 参数一致性
+- 子代理默认是否隔离 mutable state
+- 是否区分 research、implementation、verification、synthesis 角色
+- coordinator 是否真正承担综合理解，而非只转发 worker 结果
+- verification 是否独立于 implementation
+- agent 生命周期是否可观测、可中止、可清理
+- 父 abort 是否能传播到子代理，防止孤儿任务残留
+
+如果一个系统号称 multi-agent，但所有 agent 都在做差不多的事，而且没人真正负责 synthesis 和 verification，那它通常只是在把混乱扩成并行。
+
+## A.7 Team 落地清单
+
+团队推广时，最容易误判的一点，是把个人熟练度误当成制度成熟度。
+
+落地前最好先核对：
+
+- 是否已有分层 `CLAUDE.md`，且团队知道什么该写进去、什么不该写
+- 是否先统一验证定义，再批量造 skill
+- 是否按后果和环境敏感度划 approval 边界
+- 是否把关键制度挂在合适 hook 时点，而非全塞进静态文档
+- 是否保留 transcript、task output、hook event 等复盘证据
+- 是否有对 stale memory、过期规则、失效 skill 的维护机制
+
+一个团队真正能承受代理系统，往往是因为普通成员也能在制度内把它用对，而不只是依赖几个高手。
+
+## A.8 Review 问题单
+
+如果你要 review 一个 AI coding agent 方案，可以直接追问下面这些问题：
+
+- 哪些行为由 prompt 约束，哪些由 runtime 强制？
+- 模型误用工具时，谁来拦？在哪里拦？
+- 上下文何时压缩，压缩后如何恢复工作语义？
+- prompt too long 和 max output tokens 分别怎么恢复？
+- 中断后怎样保证 transcript 和工具结果一致？
+- 多代理里谁负责 synthesis，谁负责 verification？
+- 失败恢复有没有熔断和防死循环机制？
+- 团队如何审计代理做过什么、为什么这么做？
+
+一个方案如果在这些问题上总回答“到时候可以再加”，通常说明它现在还没有真正设计运行时，只是设计了一个乐观场景。
+
+## A.9 最后一个清单
+
+嫌前面都太长，至少记住：先设计权限再设计能力、先回滚再自治、先验证再交付、先上下文预算再长期对话、先生命周期再多代理、先制度再指望团队熟练。做到这六条未必立刻优秀；做不到大概率只是暂时没出事。
+
+## A.10 实现种子 (pseudocode stubs)
+
+把前几章的几个骨架压成可直接抄写的起点。具体形态见对应章节，这里只保留最小脊柱。
+
+### A.10.1 queryLoop (骨架，引自第 3 章)
+
+```
+state = { messages, toolUseContext, autoCompactTracking, turnCount, transition, ... }
+while not done(state):
+    govern_input(state)                 // memory / snip / collapse / autocompact
+    events = stream_model(state)
+    for e in events:
+        if e.is(tool_use): schedule(e, state.toolUseContext)
+        if e.is(api_error): return surface(e)
+    if interrupted: drain_tools_with_synthetic_results(state); break
+    state = advance(state, recover_if_needed(state))
+assert state.turnCount monotonic ∧ every tool_use has tool_result
+```
+
+### A.10.2 permission decision (骨架，引自第 4 章)
+
+```
+decision = hasPermissionsToUseTool(tool, input, ctx)
+match decision:
+    allow: exec(tool, input)
+    deny:  reject(reason)
+    ask:   route_to(coordinator | worker | classifier | interactive)
+assert decision ∈ {allow, deny, ask}        # 三值不塌缩
+assert ask never auto-escalates to allow    # 不可越权升级
+```
+
+### A.10.3 forkAgent (骨架，引自第 7 章)
+
+```
+params = CacheSafeParams { systemPrompt, userContext, systemContext, toolUseContext, forkContextMessages }
+ctx    = createSubagentContext(parent)       // mutable state isolated by default
+hooks.fire(SubagentStart, { agent_id, agent_type })
+defer hooks.fire(SubagentStop, { agent_transcript_path })
+assert parent.abort ⇒ propagate(child.abort)
+```
+
+### A.10.4 recoverFromError (骨架，引自第 6 章)
+
+```
+on recoverable_error(e):
+    if e.is(prompt_too_long):
+        if stagedCollapse > 0: recoverFromOverflow()
+        elif not hasAttemptedReactiveCompact: tryReactiveCompact()
+        else: surface(e); skip_stop_hooks()
+    if e.is(max_output_tokens):
+        if cap < MAX: raise(maxOutputTokensOverride); retry()
+        else: append(meta_continue_msg); retry()
+assert consecutiveFailures < MAX_CONSECUTIVE_AUTOCOMPACT_FAILURES
+```

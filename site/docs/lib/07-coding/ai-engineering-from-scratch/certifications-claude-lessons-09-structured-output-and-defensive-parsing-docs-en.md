@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/rohitg00/ai-engineering-from-scratch"
-entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/README.md"
+entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/certifications/claude/lessons/09-structured-output-and-defensive-parsing/docs/en.md"
+sourceRel: "certifications/claude/lessons/09-structured-output-and-defensive-parsing/docs/en.md"
+rawUrl: "/raw/07-coding/ai-engineering-from-scratch/certifications/claude/lessons/09-structured-output-and-defensive-parsing/docs/en.md"
+sourceSha256: "b01a33858c9c0f4ac03b9a828dda06452504677454972c1b20bf4b2e86b36d77"
+pageSha256: "b01a33858c9c0f4ac03b9a828dda06452504677454972c1b20bf4b2e86b36d77"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -242,7 +247,7 @@ When tool use is the structured-output mechanism, know the three public
 |---|---|---|
 | `auto` | The model may call a tool or return conversational text | Either path is valid |
 | `any` | The model must call one of the supplied tools | A typed tool result is required but several schemas are valid |
-| `{"type":"tool","name":"extract_metadata"}` | The named tool must be selected | One known extraction must happen before later work |
+| `\{"type":"tool","name":"extract_metadata"\}` | The named tool must be selected | One known extraction must happen before later work |
 
 For a final machine-readable response, prefer the current native structured
 output surface when it supports the required schema and feature combination.
@@ -271,7 +276,7 @@ lacks the required evidence.
 
 ## Streaming Produces Partial Syntax
 
-JSON received through a stream is incomplete until the relevant content block ends. The prefix `{"category":"bill` is not invalid yet. It is unfinished.
+JSON received through a stream is incomplete until the relevant content block ends. The prefix `\{"category":"bill` is not invalid yet. It is unfinished.
 
 Buffer the structured block. Do not repeatedly parse every character unless you use a parser designed for incremental JSON and understand its partial-state semantics. Do not trigger downstream actions when one required field happens to appear early.
 

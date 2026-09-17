@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "04-work"
 sourceUrl: "https://github.com/coze-dev/coze-studio"
-entryUrl: "https://github.com/coze-dev/coze-studio/blob/fefb05ff27be1da939612fbf9faf5db62583b8ae/README.md"
+entryUrl: "https://github.com/coze-dev/coze-studio/blob/fefb05ff27be1da939612fbf9faf5db62583b8ae/docker/atlas/README.md"
+sourceRel: "docker/atlas/README.md"
+rawUrl: "/raw/04-work/coze-studio/docker/atlas/README.md"
+sourceSha256: "2193047618765efed8dc436e41a82ff3f903698fe56722fd41d780c335220ec7"
+pageSha256: "2193047618765efed8dc436e41a82ff3f903698fe56722fd41d780c335220ec7"
+contentMode: "local-full"
 zh: ""
 ---
 

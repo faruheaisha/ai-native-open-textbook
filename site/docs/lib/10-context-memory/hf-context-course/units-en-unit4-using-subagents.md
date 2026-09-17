@@ -1,0 +1,557 @@
+---
+title: "Using Subagents"
+sourceId: "10-context-memory/hf-context-course"
+sourceTitle: "The Context Course"
+sourceKind: "系统课程"
+licenseLabel: "仅引用"
+lang: "英文"
+tier: 1
+volume: "10-context-memory"
+sourceUrl: "https://github.com/huggingface/context-course"
+entryUrl: "https://github.com/huggingface/context-course/blob/0448a7ca721a63a81531e1ba94f46f897c70645b/units/en/unit4/using-subagents.mdx"
+sourceRel: "units/en/unit4/using-subagents.mdx"
+rawUrl: "/raw/10-context-memory/hf-context-course/units/en/unit4/using-subagents.mdx"
+sourceSha256: "3569aef3af0b877552ca26e33a96950de00761244c552725d65c707d962a7c40"
+pageSha256: "3569aef3af0b877552ca26e33a96950de00761244c552725d65c707d962a7c40"
+contentMode: "local-full"
+zh: ""
+---
+
+# Using Subagents
+
+The approach differs between Claude Code, Codex, and Pi, but the core idea is the same: a parent agent delegates a scoped task to a child, often in parallel.
+
+![Fan-out fan-in pattern where a parent agent spawns parallel subagents](https://huggingface.co/datasets/mcp-course/images/resolve/main/unit4/fan-out-fan-in.svg)
+
+## Invoking Subagents
+
+### Conversational Invocation
+
+The simplest way to use subagents in Claude Code is conversational:
+
+```
+I need to compare 5 ML frameworks. Use subagents to research each one in parallel.
+For each framework, find:
+  - GitHub metrics (stars, contributors)
+  - Download popularity (PyPI, npm)
+  - Community sentiment (GitHub discussions)
+```
+
+Claude Code automatically recognizes this as work suitable for subagents and:
+1. Spawns 5 parallel subagents
+2. Each researches one framework
+3. Aggregates results into comparison report
+
+Claude handles the subagent logic behind the scenes.
+
+### Custom Agents
+
+For more control, define custom agents in `.claude/agents/*.md` with YAML frontmatter:
+
+```markdown
+---
+name: researcher
+description: Research-focused agent for deep file exploration
+tools: Read, Grep, Glob, WebFetch
+model: sonnet
+---
+You are an expert researcher. Your job is to thoroughly explore files,
+extract key information, and provide well-sourced insights.
+```
+
+Invoke it explicitly:
+
+```
+Use the researcher subagent to explore our auth system and report on security practices.
+```
+
+Claude Code launches the `researcher` subagent with the specified tools and system prompt.
+
+**Multiple custom agents:**
+
+```markdown
+
+---
+name: architect
+description: System design specialist
+tools: Read, Glob
+model: sonnet
+---
+You design systems. You think about scalability, reliability, and maintainability.
+
+---
+name: security-reviewer
+description: Security-focused code reviewer
+tools: Read, Grep
+model: sonnet
+---
+You are a security expert. Review code for vulnerabilities.
+```
+
+Use them:
+
+```
+Have the architect review our system and the security-reviewer check for vulnerabilities.
+```
+
+### CLAUDE.md Policies
+
+Define reusable policies in `.claude/CLAUDE.md` for when subagents should be used:
+
+```markdown
+# Project Guidelines
+
+## Code Review Policy
+
+All code reviews use a read-only security-reviewer subagent:
+
+When a user proposes a change to core auth/ or security/ code, automatically:
+1. Spawn a read-only security-reviewer subagent
+2. Give it Read and Grep access (no Write)
+3. Have it review for vulnerabilities
+4. Report findings to user before commit
+
+## Research Policy
+
+Research tasks (10+ files) always use subagents to explore independently.
+Each subagent focuses on one subsystem to avoid context overflow.
+```
+
+Claude Code can use these policies as guidance. They make delegation more consistent, but explicit requests are still the strongest signal when you need a specific subagent to run.
+
+### Skills in Subagents
+
+You can invoke skills directly in subagent tasks:
+
+```
+Use a subagent to run the "hf-api-search" skill to find all BERT models
+```
+
+Or define which subagent should run which skill:
+
+```yaml
+---
+name: hf-researcher
+description: Hugging Face specialist
+skills: 
+	- hf-api-search 
+	- hf-dataset-fetch
+model: sonnet
+---
+You are an expert at finding and evaluating models on Hugging Face.
+```
+
+### Hooks and Lifecycle Events
+
+Claude Code supports hooks via `hooks.json` format (see code.claude.com/docs/en/hooks). Hooks can trigger commands on events like `PostToolUse`, but **automatic subagent spawning from hooks is not a built-in feature**.
+
+Instead, define **CLAUDE.md policies** to guide when Claude should use subagents:
+
+**`.claude/CLAUDE.md`:**
+
+```markdown
+# Project Guidelines
+
+## Code Review Policy
+
+When proposing changes to core auth/ or security/ code:
+- Use a read-only security-reviewer subagent
+- Have it check for SQL injection, token leakage, privilege escalation
+- Report findings before committing
+
+## Testing Policy
+
+Large test suites (10+ files):
+- Use a worker subagent to run tests in parallel
+- Report coverage and failures
+- Recommend fixes before commit
+```
+
+Claude Code reads these policies as guidance and can use subagents when appropriate. This is more flexible than rigid hooks, but it is still guidance rather than a guaranteed trigger. When you need a specific subagent, ask for it explicitly.
+
+### Background Execution (Ctrl+B)
+
+When a subagent task is running, press **Ctrl+B** to send it to the background:
+
+```
+Researching 10 files...  [Press Ctrl+B]
+✓ Sent to background. You can continue working.
+```
+
+Check running tasks:
+
+```text
+/tasks
+```
+
+The `/tasks` view lists active background tasks and lets you bring a selected task back to the foreground.
+
+### Subagent Results
+
+Subagents report back with:
+- Structured findings
+- Source files and line numbers
+- Confidence levels
+- Recommendations for parent agent
+
+Parent agent uses these results to:
+- Combine findings
+- Make decisions
+- Generate final output
+- Handle conflicts or contradictions
+
+### Example: Research + Review Pipeline
+
+```
+Main task: "Design a new authentication system for our app"
+
+Claude Code automatically:
+1. [Spawns researcher subagent]
+   Task: "Explore our current auth system in 15+ files"
+   Tools: Read, Grep, Glob
+   Result: Current architecture, pain points
+   
+2. [Spawns architect subagent]
+   Task: "Design new auth using research from step 1"
+   Tools: Read (no Write)
+   Result: Proposed design
+   
+3. [Spawns security-reviewer subagent]
+   Task: "Review proposed design for security issues"
+   Tools: Read (read-only)
+   Result: Vulnerability report, recommendations
+   
+4. [Parent combines]
+   Input: Research, design, security review
+   Output: Final design proposal with risks noted
+```
+
+### Best Practices in Claude Code
+
+Start with conversational invocation — let Claude decide when subagents help. Define custom agents for specialist roles like security-reviewer or performance-tester. Use read-only tools for review agents to prevent accidental writes. Leverage CLAUDE.md policies for consistent rules across your team, monitor background tasks with `/tasks`, and let the parent agent resolve conflicts when subagents disagree.
+
+### Spawning Subagents in Codex
+
+Codex creates subagents **only when explicitly requested** via natural language. There is no separate `codex-agent` binary or CLI commands.
+
+Request subagent spawning naturally:
+
+```
+Spawn one agent per point in this list.
+Have pr_explorer map the affected code paths.
+Use the default agent to research the API.
+```
+
+Codex recognizes the request and spawns appropriate agents automatically.
+
+### Built-in Agent Types
+
+Codex provides **3 default agent types**:
+
+1. **default** — General-purpose fallback agent
+2. **worker** — Execution-focused, optimized for implementation and fixes
+3. **explorer** — Read-heavy, optimized for codebase exploration
+
+### Global Configuration
+
+Configure subagent behavior in your Codex config under `[agents]`:
+
+| Setting | Default | Purpose |
+|---------|---------|---------|
+| `max_threads` | 6 | Maximum concurrent open agent threads |
+| `max_depth` | 1 | Maximum nesting depth for spawned agents |
+| `job_max_runtime_seconds` | 1800 | Timeout per worker for batch jobs |
+
+Example `codex.toml`:
+```toml
+[agents]
+max_threads = 8
+max_depth = 1
+job_max_runtime_seconds = 3600
+```
+
+### Managing Subagents
+
+Use the `/agent` command to list active subagent threads and switch between them. Once attached to a thread, steer it in natural language:
+
+```text
+/agent
+```
+
+```
+Tell this agent to also check security.
+Stop the current agent.
+Close this agent and report findings.
+```
+
+### Custom Agent Types
+
+Define custom agents in `~/.codex/agents/` (user) or `.codex/agents/` (project) as TOML files:
+
+**`.codex/agents/pr_explorer.toml`:**
+```toml
+name = "pr_explorer"
+description = "Maps codebase and gathers evidence for PR reviews"
+developer_instructions = """
+You are a read-only codebase explorer. Map code paths affected by a PR,
+identify dependencies, and gather evidence about what changed and why.
+"""
+
+nickname_candidates = ["Atlas", "Delta", "Echo"]
+sandbox_mode = "read-only"
+```
+
+**`.codex/agents/docs_researcher.toml`:**
+```toml
+name = "docs_researcher"
+description = "Verifies APIs and framework behavior via MCP docs server"
+developer_instructions = """
+You verify that code uses APIs correctly. Check documentation,
+look for deprecations, and verify the framework behavior described in code.
+"""
+
+sandbox_mode = "read-only"
+mcp_servers = ["mcp://docs.framework.org"]
+```
+
+Required fields:
+- `name` — Agent identifier
+- `description` — What the agent does
+- `developer_instructions` — System prompt
+
+Optional fields:
+- `nickname_candidates` — Suggested friendly names
+- `model` — Override model selection
+- `sandbox_mode` — `read-only` for safe review agents
+- `mcp_servers` — Specialized tools and APIs
+- `skills.config` — Custom skill configurations
+
+### Sandbox and Approval Inheritance
+
+Subagents inherit the parent session's sandbox configuration:
+
+```
+Parent: "Review this code for security. Spawn a security-reviewer."
+→ security-reviewer automatically inherits parent's read-only mode
+
+Parent: "Find and fix all bugs." (with --yolo flag)
+→ Worker agents inherit full permissions
+```
+
+Approval requests from inactive threads surface to the parent. Parent session overrides (sandbox mode, `--yolo`) reapply to children.
+
+### CSV Batch Processing
+
+Process CSV files with parallel worker agents:
+
+```
+Process this CSV with one agent per row. 
+Column "model_name" should be evaluated on "benchmark".
+Save results to output.csv.
+```
+
+Codex uses the `spawn_agents_on_csv` tool with:
+- **csv_path** — Input CSV file
+- **instruction** — Task template (use `\{column\}` placeholders)
+- **id_column** — Unique row identifier
+- **output_schema** — Expected result structure
+- **output_csv_path** — Where to save combined results
+- **max_concurrency** — How many agents run in parallel
+- **max_runtime_seconds** — Timeout per worker
+
+Each worker must call `report_agent_job_result` exactly once with structured output.
+
+### Example: PR Review with Specialized Agents
+
+Define three custom agents:
+
+1. **pr_explorer** (read-only) — Maps codebase, gathers evidence
+2. **reviewer** (read-only) — Checks correctness, security, test coverage
+3. **docs_researcher** (read-only) — Verifies APIs via MCP docs server
+
+Invoke them naturally:
+
+```
+Have pr_explorer map the affected code paths,
+reviewer find real risks and verify tests are comprehensive,
+and docs_researcher verify the framework APIs are used correctly.
+```
+
+Codex spawns all three, they work in parallel, and report findings back to the parent.
+
+Results include:
+- Affected files and line numbers
+- Security and correctness issues
+- Test coverage gaps
+- API usage verification
+- Recommendations
+
+### Practical Example: Batch Model Evaluation
+
+```
+I need to evaluate 5 models on 3 benchmarks (15 tasks total).
+Process this CSV with one worker per row.
+Column "model" = model name, Column "benchmark" = benchmark name.
+Task: "Load model {model}, run on {benchmark}, report F1 and latency."
+Output to results.csv.
+Max 5 workers in parallel, 30 minute timeout per task.
+```
+
+Codex:
+1. Reads CSV with 15 rows
+2. Spawns up to 5 worker agents
+3. Each worker evaluates one model-benchmark pair
+4. Workers report results to `results.csv`
+5. Parent aggregates and analyzes
+
+### Best Practices in Codex
+
+1. **Request subagents conversationally** — "Spawn agents to..." or "Have agent X research..."
+2. **Use read-only sandbox for reviewers** — Prevents accidental modifications
+3. **Leverage custom agents for specialists** — pr_explorer, security-reviewer, docs_researcher
+4. **Use /agent command to monitor** — Switch threads, check progress, steer agents
+5. **Define CSV batch jobs for parallel work** — Ideal for evaluation, testing, research
+6. **Let subagents inherit parent sandbox** — No need to repeat sandbox settings
+
+### Install a Subagent Extension
+
+Pi does not ship with built-in subagents, but the official repo includes a `subagent` example extension that spawns isolated `pi` subprocesses.
+
+Project-local setup:
+
+```bash
+mkdir -p .pi/extensions/subagent .pi/agents .pi/prompts
+```
+
+### Custom Agents
+
+Define agents in `.pi/agents/*.md` with YAML frontmatter:
+
+```markdown
+---
+name: researcher
+description: Research-focused agent for deep file exploration
+tools: read, grep, find, ls
+---
+You are an expert researcher. Explore files broadly, compress findings,
+and return only the context another agent will need.
+```
+
+### Workflow Prompts
+
+The example extension also supports reusable prompt templates in `.pi/prompts/`. For example:
+
+```text
+/implement add OAuth2 authentication
+/scout-and-plan refactor auth to support OAuth
+```
+
+### Conversational Invocation
+
+Once the extension is loaded, you can still ask naturally:
+
+```text
+Use scout to map the auth system, then have planner produce an implementation plan.
+Run two reviewers in parallel after the code change.
+```
+
+The extension delegates each subtask to a separate `pi` process with its own context window.
+
+### Best Practices in Pi
+
+Keep agents in `.pi/agents/`, use read-only tool lists for reviewer agents, and rely on prompt templates or explicit requests for orchestration. Because this is extension-driven rather than built in, the exact workflow is yours to tune.
+
+## Worktree Isolation (Claude Code)
+
+When using subagents for parallel edits, use git worktrees to prevent conflicts:
+
+```bash
+# Main workspace
+git worktree add ../feature-a
+git worktree add ../feature-b
+
+# Subagent A works in feature-a/
+# Subagent B works in feature-b/
+# No conflicts—separate directories
+```
+
+Tell subagents where to work:
+
+```
+Subagent A: Create feature A in ../feature-a/ directory
+Subagent B: Create feature B in ../feature-b/ directory
+Then parent merges both features
+```
+
+## Real-World Example: Code Review Pipeline
+
+**Task:** "Review a proposed payment system for security issues and performance problems"
+
+```
+Main Agent:
+  Task: Review payment system proposal
+  
+  1. Spawn security-reviewer subagent (read-only)
+     Tools: Read, Grep
+     Task: Find vulnerabilities
+  
+  2. Spawn performance-reviewer subagent (read-only)
+     Tools: Read, Grep
+     Task: Identify bottlenecks
+  
+  3. [Both run in parallel]
+  
+  4. Main agent combines findings
+     Output: Final review with risks
+```
+
+Conversationally:
+
+```
+Use subagents to do a security and performance review of the payment system.
+Have security-reviewer look for SQL injection, token leakage, etc.
+Have performance-reviewer look for database queries, caching opportunities.
+Run both in parallel.
+```
+
+```
+Spawn two subagents to review the payment system:
+
+Agent 1 (security-reviewer):
+  Task: Find vulnerabilities (SQL injection, token leakage, privilege escalation)
+  
+Agent 2 (performance-reviewer):
+  Task: Find bottlenecks (slow queries, N+1 problems, caching opportunities)
+
+Run both in parallel.
+Combine findings and report risks and recommendations.
+```
+
+Codex:
+1. Spawns security-reviewer and performance-reviewer agents
+2. Both explore the payment_system/ codebase in parallel
+3. Security agent checks for vulnerabilities
+4. Performance agent identifies bottlenecks
+5. Parent agent combines findings into a final review report
+
+Use `/agent` to monitor progress or steer either agent during execution.
+
+```text
+Use the subagent extension to review the payment system in parallel:
+
+Task 1 (security reviewer):
+  Find SQL injection, token leakage, privilege escalation, and unsafe secrets handling.
+
+Task 2 (performance reviewer):
+  Find slow queries, N+1 patterns, unnecessary work inside request paths, and missing caches.
+
+Run both in parallel, then summarize the risks and concrete fixes.
+```
+
+With the official example extension, this is usually modeled as parallel tasks that each target a named agent from `.pi/agents/`.
+
+## Key Takeaways
+
+In Claude Code, use conversational invocation, custom agents in `.claude/agents/`, CLAUDE.md policies, and background execution with Ctrl+B. In Codex, request subagents in natural language with three built-in types (default, worker, explorer), define custom TOML agents, monitor with `/agent`, and use CSV batch jobs for parallel work. In Pi, install a subagent extension, define agents in `.pi/agents/`, and drive orchestration through prompt templates or explicit requests. All three approaches help when you have many files, several independent tasks, or need a fresh perspective. For parallel file edits, isolate work with git worktrees.
+
+Next, a hands-on multi-agent workflow.

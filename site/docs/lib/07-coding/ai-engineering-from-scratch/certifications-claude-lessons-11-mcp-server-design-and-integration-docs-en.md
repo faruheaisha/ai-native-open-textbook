@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/rohitg00/ai-engineering-from-scratch"
-entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/README.md"
+entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/certifications/claude/lessons/11-mcp-server-design-and-integration/docs/en.md"
+sourceRel: "certifications/claude/lessons/11-mcp-server-design-and-integration/docs/en.md"
+rawUrl: "/raw/07-coding/ai-engineering-from-scratch/certifications/claude/lessons/11-mcp-server-design-and-integration/docs/en.md"
+sourceSha256: "be7be71f1137efd21ead4673d31b0565afa46ea558f0dedeeb2a20567e474d15"
+pageSha256: "be7be71f1137efd21ead4673d31b0565afa46ea558f0dedeeb2a20567e474d15"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -274,7 +279,7 @@ The first result can request several inputs:
 
 The client gathers approved answers and retries the original method. The retry must use a new JSON-RPC ID because it is a new request. It includes `inputResponses` and echoes `requestState` exactly.
 
-For form elicitation, an empty `elicitation: {}` capability means implicit form support, while <code v-pre>elicitation: {"form": {}}</code> declares it explicitly. A URL-only declaration does not authorize a form request; the server returns `-32021` with `requiredCapabilities.elicitation.form`.
+For form elicitation, an empty `elicitation: \{\}` capability means implicit form support, while <code v-pre>elicitation: \{"form": \{}}</code> declares it explicitly. A URL-only declaration does not authorize a form request; the server returns `-32021` with `requiredCapabilities.elicitation.form`.
 
 ```json
 {

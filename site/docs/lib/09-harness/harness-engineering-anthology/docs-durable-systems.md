@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/lopopolo/harness-engineering"
-entryUrl: "https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/README.md"
+entryUrl: "https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/docs/durable-systems/README.md"
+sourceRel: "docs/durable-systems/README.md"
+rawUrl: "/raw/09-harness/harness-engineering-anthology/docs/durable-systems/README.md"
+sourceSha256: "f451b63999e42e1bd6ae0babe67962e5e1a1bc5d36e20e7c581879b2dacf363e"
+pageSha256: "f451b63999e42e1bd6ae0babe67962e5e1a1bc5d36e20e7c581879b2dacf363e"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -151,7 +156,7 @@ harness problem is how to help the worker choose intermediate states that are
 independently useful and make the eventual integration safer and easier to
 continue.
 
-[Artichoke's state-model refactor]: https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/evals/artichoke-state-modeling.md
+[Artichoke's state-model refactor]: /lib/09-harness/harness-engineering-anthology/evals-artichoke-state-modeling
 
 The size of the diff and run provide little information about whether a safe
 route is already known. In a separate case, Ryan describes [a 60-hour,

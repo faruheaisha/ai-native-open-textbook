@@ -10,34 +10,1127 @@ lang: "中英混排"
 volume: "07-coding"
 sourceUrl: "https://github.com/datawhalechina/easy-vibe"
 entryUrl: "https://github.com/datawhalechina/easy-vibe/blob/130e9b75b28b524e8cc74e615fd9733a4e2b330d/README.md"
+sourceRel: ""
+contentMode: "local-full"
 zh: ""
 ---
 
 # Easy-Vibe（Datawhale：从零做出真实产品）
 
+Want an expense tracker? Say it.
+
 ## 课时
 
-1. [算法导论](docs-zh-cn-appendix-1-computer-fundamentals-algorithm-thinking.md)
-2. [编译原理](docs-zh-cn-appendix-1-computer-fundamentals-compilers.md)
-3. [计算机网络：从输入网址到渲染页面](docs-zh-cn-appendix-1-computer-fundamentals-computer-networks.md)
-4. [计算机组成原理](docs-zh-cn-appendix-1-computer-fundamentals-computer-organization.md)
-5. [数据表示原理：编码、存储与传输](docs-zh-cn-appendix-1-computer-fundamentals-data-encoding-storage.md)
-6. [数据结构导论](docs-zh-cn-appendix-1-computer-fundamentals-data-structures.md)
-7. [操作系统原理：进程、内存与文件系统](docs-zh-cn-appendix-1-computer-fundamentals-operating-systems.md)
-8. [计算机系统全景：从开机到访问网站的过程](docs-zh-cn-appendix-1-computer-fundamentals-power-on-to-web.md)
-9. [编程语言概念：范式、演化与选型](docs-zh-cn-appendix-1-computer-fundamentals-programming-languages.md)
-10. [数字电路基础：从晶体管到 CPU](docs-zh-cn-appendix-1-computer-fundamentals-transistor-to-cpu.md)
-11. [类型系统导论](docs-zh-cn-appendix-1-computer-fundamentals-type-systems.md)
-12. [全栈开发导论：Vibe Coding 时代的计算机知识地图](docs-zh-cn-appendix-1-computer-fundamentals-vibe-coding-fullstack.md)
-13. [命令行与 Shell 脚本导论](docs-zh-cn-appendix-2-development-tools-command-line-shell.md)
-14. [调试原理与艺术](docs-zh-cn-appendix-2-development-tools-debugging-art.md)
-15. [浏览器调试器（DevTools）基础](docs-zh-cn-appendix-2-development-tools-debugging-art-2.md)
-16. [环境变量与 PATH 导论](docs-zh-cn-appendix-2-development-tools-environment-path.md)
-17. [Git 版本控制原理](docs-zh-cn-appendix-2-development-tools-git-version-control.md)
-18. [包管理器导论](docs-zh-cn-appendix-2-development-tools-package-managers.md)
-19. [端口与 localhost 原理](docs-zh-cn-appendix-2-development-tools-ports-localhost.md)
-20. [正则表达式基础](docs-zh-cn-appendix-2-development-tools-regex.md)
-21. [SSH 与密钥认证导论](docs-zh-cn-appendix-2-development-tools-ssh-authentication.md)
-22. [网页的隐藏维度：国际化与无障碍全景](docs-zh-cn-appendix-3-browser-and-frontend-a11n-i18n.md)
+- **.trae**
+  - **skills**
+    - **教程美化方案**
+      - [教程美化最佳实践](/lib/07-coding/easy-vibe/_trae-skills-教程美化方案-SKILL.md)
+    - **编写交互式教程指南**
+      - [编写交互式教程指南 (Interactive Tutorial Guide)](/lib/07-coding/easy-vibe/_trae-skills-编写交互式教程指南-SKILL.md)
+- **docs**
+  - **.vitepress**
+    - **theme**
+      - **components**
+        - **appendix**
+          - **terminal-intro**
+            - [Terminal Intro Components](/lib/07-coding/easy-vibe/docs-_vitepress-theme-components-appendix-terminal-intro.md)
+      - **locales**
+        - [Appendix Component I18n Migration](/lib/07-coding/easy-vibe/docs-_vitepress-theme-locales-APPENDIX_COMPONENT_I18N/index.md)
+    - [Vue 组件开发规范（避免 Build 卡住）](/lib/07-coding/easy-vibe/docs-_vitepress-VUE_COMPONENT_RULES.md)
+  - [Deployment Notes](/lib/07-coding/easy-vibe/docs-DEPLOYMENT.md)
+  - **en**
+    - **appendix**
+      - **1-computer-fundamentals**
+        - [Introduction to Algorithms](/lib/07-coding/easy-vibe/docs-en-appendix-1-computer-fundamentals-algorithm-thinking.md)
+        - [Compiler Principles](/lib/07-coding/easy-vibe/docs-en-appendix-1-computer-fundamentals-compilers.md)
+        - [Computer Networks: From URL to Page Rendering](/lib/07-coding/easy-vibe/docs-en-appendix-1-computer-fundamentals-computer-networks.md)
+        - [Computer Organization Principles](/lib/07-coding/easy-vibe/docs-en-appendix-1-computer-fundamentals-computer-organization.md)
+        - [Data Representation Principles: Encoding, Storage, and Transmission](/lib/07-coding/easy-vibe/docs-en-appendix-1-computer-fundamentals-data-encoding-storage.md)
+        - [Data Structures: An Introduction](/lib/07-coding/easy-vibe/docs-en-appendix-1-computer-fundamentals-data-structures.md)
+        - [Operating Systems Principles: Processes, Memory, and File Systems](/lib/07-coding/easy-vibe/docs-en-appendix-1-computer-fundamentals-operating-systems.md)
+        - [Computer System Overview: From Boot to Web Visit](/lib/07-coding/easy-vibe/docs-en-appendix-1-computer-fundamentals-power-on-to-web.md)
+        - [Programming Language Concepts: Paradigms, Evolution, and Selection](/lib/07-coding/easy-vibe/docs-en-appendix-1-computer-fundamentals-programming-languages.md)
+        - [Digital Circuit Basics: From Transistors to CPU](/lib/07-coding/easy-vibe/docs-en-appendix-1-computer-fundamentals-transistor-to-cpu.md)
+        - [Type Systems: An Introduction](/lib/07-coding/easy-vibe/docs-en-appendix-1-computer-fundamentals-type-systems.md)
+        - [Full-Stack Development: An Introduction — A Computer Map for the Vibe Coding Era](/lib/07-coding/easy-vibe/docs-en-appendix-1-computer-fundamentals-vibe-coding-fullstack.md)
+      - **2-development-tools**
+        - [An Introduction to Command Line and Shell Scripts](/lib/07-coding/easy-vibe/docs-en-appendix-2-development-tools-command-line-shell.md)
+        - [Principles of Debugging](/lib/07-coding/easy-vibe/docs-en-appendix-2-development-tools-debugging-art.md)
+        - **debugging-art**
+          - [Fundamentals of Browser DevTools](/lib/07-coding/easy-vibe/docs-en-appendix-2-development-tools-debugging-art-2.md)
+        - [An Introduction to Environment Variables and PATH](/lib/07-coding/easy-vibe/docs-en-appendix-2-development-tools-environment-path.md)
+        - [Principles of Git Version Control](/lib/07-coding/easy-vibe/docs-en-appendix-2-development-tools-git-version-control.md)
+        - [Fundamentals of Integrated Development Environment (IDE)](/lib/07-coding/easy-vibe/docs-en-appendix-2-development-tools-ide-basics.md)
+        - [An Introduction to Package Managers](/lib/07-coding/easy-vibe/docs-en-appendix-2-development-tools-package-managers.md)
+        - [Principles of Ports and Localhost](/lib/07-coding/easy-vibe/docs-en-appendix-2-development-tools-ports-localhost.md)
+        - [Fundamentals of Regular Expressions](/lib/07-coding/easy-vibe/docs-en-appendix-2-development-tools-regex.md)
+        - [An Introduction to SSH and Key Authentication](/lib/07-coding/easy-vibe/docs-en-appendix-2-development-tools-ssh-authentication.md)
+      - **3-browser-and-frontend**
+        - [The Hidden Dimensions of Web: Internationalization and Accessibility](/lib/07-coding/easy-vibe/docs-en-appendix-3-browser-and-frontend-a11n-i18n.md)
+        - [Principles of Browser Rendering](/lib/07-coding/easy-vibe/docs-en-appendix-3-browser-and-frontend-browser-as-os-rendering.md)
+        - [A Panorama of Frontend Engineering](/lib/07-coding/easy-vibe/docs-en-appendix-3-browser-and-frontend-frontend-engineering.md)
+        - [Principles of Frontend Frameworks](/lib/07-coding/easy-vibe/docs-en-appendix-3-browser-and-frontend-frontend-framework-nature.md)
+        - [An Introduction to Frontend Frameworks](/lib/07-coding/easy-vibe/docs-en-appendix-3-browser-and-frontend-frontend-frameworks.md)
+        - [Principles of Frontend Project Architecture](/lib/07-coding/easy-vibe/docs-en-appendix-3-browser-and-frontend-frontend-project-architecture.md)
+        - [Fundamentals of Graphics and Animation: Canvas and Related Technologies](/lib/07-coding/easy-vibe/docs-en-appendix-3-browser-and-frontend-graphics-animation.md)
+        - [Fundamentals of HTML/CSS Layout](/lib/07-coding/easy-vibe/docs-en-appendix-3-browser-and-frontend-html-css-layout.md)
+        - [Principles of JavaScript](/lib/07-coding/easy-vibe/docs-en-appendix-3-browser-and-frontend-javascript-deep-dive.md)
+        - [Principles of JavaScript Runtime](/lib/07-coding/easy-vibe/docs-en-appendix-3-browser-and-frontend-javascript-runtime.md)
+        - [Principles of Real-Time Communication: Polling, SSE, and WebSocket](/lib/07-coding/easy-vibe/docs-en-appendix-3-browser-and-frontend-realtime-communication.md)
+        - [An Introduction to Routing and Navigation](/lib/07-coding/easy-vibe/docs-en-appendix-3-browser-and-frontend-routing-navigation.md)
+        - [Principles of State Management](/lib/07-coding/easy-vibe/docs-en-appendix-3-browser-and-frontend-state-management.md)
+        - [Principles of TypeScript](/lib/07-coding/easy-vibe/docs-en-appendix-3-browser-and-frontend-typescript.md)
+        - [Principles of Web Performance Optimization](/lib/07-coding/easy-vibe/docs-en-appendix-3-browser-and-frontend-web-performance.md)
+      - **4-server-and-backend**
+        - [Principles of API Design: Frontend-Backend Communication Protocols](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-api-design.md)
+        - [An Introduction to APIs: Understanding Inter-Program Communication from Scratch](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-api-intro.md)
+        - [Principles of Asynchronous Task Queues](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-async-task-queues.md)
+        - [Principles of Authentication and Authorization](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-auth-authorization.md)
+        - [An Introduction to Backend Languages](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-backend-languages/index.md)
+        - [Principles of Backend Layered Architecture](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-backend-layered-architecture.md)
+        - [An Introduction to Backend Project Architecture](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-backend-project-architecture.md)
+        - [Principles of Caching: Strategies and Patterns](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-caching.md)
+        - [An Introduction to Client-Side Languages: Swift, Kotlin, and Dart](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-client-languages.md)
+        - [Principles of Concurrency, Asynchrony, and Multithreading](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-concurrency-async.md)
+        - [A Panorama of Cross-Platform Solutions](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-cross-platform.md)
+        - [Principles of Domain-Specific Languages (DSL)](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-domain-specific-languages.md)
+        - [An Introduction to File and Object Storage](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-file-storage.md)
+        - [Principles of HTTP Protocol: Frontend-Backend Communication](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-http-protocol.md)
+        - [Principles of Message Queues and Event-Driven Architecture](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-message-queues.md)
+        - [Principles of Rate Limiting and Backpressure](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-rate-limiting-backpressure.md)
+        - [A Panorama of Request Flow](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-request-journey.md)
+        - [Principles of Search Engines](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-search-engines.md)
+        - [Principles of Serialization: Data Translation](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-serialization.md)
+        - [Principles of Web Frameworks](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-web-frameworks.md)
+      - **5-data**
+        - [Principles of A/B Testing: Decision-Making with Data](/lib/07-coding/easy-vibe/docs-en-appendix-5-data-ab-testing.md)
+        - [Principles of Data Analysis](/lib/07-coding/easy-vibe/docs-en-appendix-5-data-data-analysis.md)
+        - [An Introduction to Data Governance](/lib/07-coding/easy-vibe/docs-en-appendix-5-data-data-governance.md)
+        - [Data Models: A Complete Overview — Document, Graph, Time-Series, and Vector](/lib/07-coding/easy-vibe/docs-en-appendix-5-data-data-models.md)
+        - [An Introduction to Event Tracking](/lib/07-coding/easy-vibe/docs-en-appendix-5-data-data-tracking.md)
+        - [Principles of Data Visualization](/lib/07-coding/easy-vibe/docs-en-appendix-5-data-data-visualization.md)
+        - [Principles of Databases: Indexes, Transactions, and Query Optimization](/lib/07-coding/easy-vibe/docs-en-appendix-5-data-database-fundamentals.md)
+      - **6-architecture-and-system-design**
+        - [Principles of Distributed Systems](/lib/07-coding/easy-vibe/docs-en-appendix-6-architecture-and-system-design-distributed-systems.md)
+        - [Principles of High Availability and Disaster Recovery](/lib/07-coding/easy-vibe/docs-en-appendix-6-architecture-and-system-design-high-availability.md)
+        - [An Introduction to Monolith-to-Microservices Evolution](/lib/07-coding/easy-vibe/docs-en-appendix-6-architecture-and-system-design-monolith-to-microservices.md)
+        - [System Design Methodology](/lib/07-coding/easy-vibe/docs-en-appendix-6-architecture-and-system-design-system-design-methodology.md)
+      - **7-infrastructure-and-operations**
+        - [An Introduction to CI/CD Automation](/lib/07-coding/easy-vibe/docs-en-appendix-7-infrastructure-and-operations-ci-cd.md)
+        - [Principles of Cloud Identity and Access Management](/lib/07-coding/easy-vibe/docs-en-appendix-7-infrastructure-and-operations-cloud-iam.md)
+        - [Fundamentals of Cloud Platforms in Practice](/lib/07-coding/easy-vibe/docs-en-appendix-7-infrastructure-and-operations-cloud-platforms.md)
+        - [Principles of Object Storage and CDN](/lib/07-coding/easy-vibe/docs-en-appendix-7-infrastructure-and-operations-cloud-storage-cdn/index.md)
+        - [Principles of Domain Names, DNS, and HTTPS](/lib/07-coding/easy-vibe/docs-en-appendix-7-infrastructure-and-operations-dns-https.md)
+        - [An Introduction to Docker Containerization](/lib/07-coding/easy-vibe/docs-en-appendix-7-infrastructure-and-operations-docker-containers.md)
+        - [Principles of Gateways and Reverse Proxies](/lib/07-coding/easy-vibe/docs-en-appendix-7-infrastructure-and-operations-gateway-proxy.md)
+        - [An Introduction to Incident Response and Troubleshooting](/lib/07-coding/easy-vibe/docs-en-appendix-7-infrastructure-and-operations-incident-response.md)
+        - [Principles of Infrastructure as Code](/lib/07-coding/easy-vibe/docs-en-appendix-7-infrastructure-and-operations-infrastructure-as-code.md)
+        - [Principles of Kubernetes Orchestration](/lib/07-coding/easy-vibe/docs-en-appendix-7-infrastructure-and-operations-kubernetes.md)
+        - [Fundamentals of Linux](/lib/07-coding/easy-vibe/docs-en-appendix-7-infrastructure-and-operations-linux-basics.md)
+        - [Principles of Load Balancing and Gateways](/lib/07-coding/easy-vibe/docs-en-appendix-7-infrastructure-and-operations-load-balancing-gateway.md)
+        - [Principles of Monitoring, Logging, and Alerting](/lib/07-coding/easy-vibe/docs-en-appendix-7-infrastructure-and-operations-monitoring-logging.md)
+      - **8-artificial-intelligence**
+        - [Principles of AI Agents and Tool Calling](/lib/07-coding/easy-vibe/docs-en-appendix-8-artificial-intelligence-ai-agents.md)
+        - [AI Capability Dictionary](/lib/07-coding/easy-vibe/docs-en-appendix-8-artificial-intelligence-ai-capability-dictionary/index.md)
+        - [A Brief History of AI: From Symbolic Logic to Hundred-Billion-Parameter Large Models](/lib/07-coding/easy-vibe/docs-en-appendix-8-artificial-intelligence-ai-history.md)
+        - [An Introduction to AI-Native Application Design](/lib/07-coding/easy-vibe/docs-en-appendix-8-artificial-intelligence-ai-native-app-design.md)
+        - [Principles of AI Agent Protocols: MCP and A2A](/lib/07-coding/easy-vibe/docs-en-appendix-8-artificial-intelligence-ai-protocols.md)
+        - [An Introduction to Context Engineering](/lib/07-coding/easy-vibe/docs-en-appendix-8-artificial-intelligence-context-engineering.md)
+        - [Principles of Embeddings and Vector Retrieval](/lib/07-coding/easy-vibe/docs-en-appendix-8-artificial-intelligence-embedding-vector-retrieval.md)
+        - [Principles of Image Generation](/lib/07-coding/easy-vibe/docs-en-appendix-8-artificial-intelligence-image-generation.md)
+        - [Principles of Large Language Model Operation](/lib/07-coding/easy-vibe/docs-en-appendix-8-artificial-intelligence-llm-principles.md)
+        - [An Introduction to Model Fine-Tuning and Deployment](/lib/07-coding/easy-vibe/docs-en-appendix-8-artificial-intelligence-model-finetuning-deployment.md)
+        - [Principles of Multimodal Models: Vision, Audio, and Video](/lib/07-coding/easy-vibe/docs-en-appendix-8-artificial-intelligence-multimodal-models.md)
+        - [Fundamentals of Neural Networks and Deep Learning](/lib/07-coding/easy-vibe/docs-en-appendix-8-artificial-intelligence-neural-networks.md)
+        - [An Introduction to Prompt Engineering](/lib/07-coding/easy-vibe/docs-en-appendix-8-artificial-intelligence-prompt-engineering.md)
+        - [Principles of RAG: Retrieval-Augmented Generation](/lib/07-coding/easy-vibe/docs-en-appendix-8-artificial-intelligence-rag.md)
+        - [Principles of Speech Synthesis and Recognition](/lib/07-coding/easy-vibe/docs-en-appendix-8-artificial-intelligence-speech-synthesis-recognition.md)
+        - [Principles of Transformers and Attention Mechanisms](/lib/07-coding/easy-vibe/docs-en-appendix-8-artificial-intelligence-transformer-attention.md)
+      - **9-engineering-excellence**
+        - [An Introduction to Code Quality and Refactoring](/lib/07-coding/easy-vibe/docs-en-appendix-9-engineering-excellence-code-quality-refactoring.md)
+        - [Fundamentals of Design Patterns](/lib/07-coding/easy-vibe/docs-en-appendix-9-engineering-excellence-design-patterns.md)
+        - [An Introduction to Open-Source Collaboration](/lib/07-coding/easy-vibe/docs-en-appendix-9-engineering-excellence-open-source-collaboration.md)
+        - [Fundamentals of Security Thinking: Offense and Defense](/lib/07-coding/easy-vibe/docs-en-appendix-9-engineering-excellence-security-thinking.md)
+        - [An Introduction to Technical Writing](/lib/07-coding/easy-vibe/docs-en-appendix-9-engineering-excellence-technical-writing.md)
+        - [Technology Selection Methodology](/lib/07-coding/easy-vibe/docs-en-appendix-9-engineering-excellence-technology-selection.md)
+        - [An Introduction to Testing Strategies](/lib/07-coding/easy-vibe/docs-en-appendix-9-engineering-excellence-testing-strategies.md)
+      - [Appendix](/lib/07-coding/easy-vibe/docs-en-appendix.md)
+    - **guide**
+      - [Project Introduction](/lib/07-coding/easy-vibe/docs-en-guide-introduction.md)
+    - **stage-1**
+      - **ai-capabilities-through-games**
+        - [Primary 1: AI Era, If You Can Speak, You Can Code](/lib/07-coding/easy-vibe/docs-en-stage-1-ai-capabilities-through-games.md)
+      - **appendix-a-product-thinking**
+        - [Product Thinking and Solution Design](/lib/07-coding/easy-vibe/docs-en-stage-1-appendix-a-product-thinking/index.md)
+      - **appendix-articles**
+        - **example0-1**
+          - [Comparing Seven AI Coding Tools](/lib/07-coding/easy-vibe/docs-en-stage-1-appendix-articles-example0-1-vibe-coding-tools-snake-game-tutorial.md)
+        - **example0-2**
+          - [Design a Website with Design and Coding Agents](/lib/07-coding/easy-vibe/docs-en-stage-1-appendix-articles-example0-2-vibe-coding-tools-build-website-with-ai-coding-and-design-agents.md)
+      - **appendix-b-common-errors**
+        - [What to Do When You Encounter Errors While Coding](/lib/07-coding/easy-vibe/docs-en-stage-1-appendix-b-common-errors.md)
+      - **appendix-consumer-scenarios**
+        - [C-End Scenario Inspiration Direction Reference](/lib/07-coding/easy-vibe/docs-en-stage-1-appendix-consumer-scenarios.md)
+      - **appendix-double-diamond**
+        - [Double Diamond: First Do the Right Thing, Then Do It Right](/lib/07-coding/easy-vibe/docs-en-stage-1-appendix-double-diamond.md)
+      - **appendix-idea-sources**
+        - [Where Creative Ideas Come From](/lib/07-coding/easy-vibe/docs-en-stage-1-appendix-idea-sources.md)
+      - **appendix-industry-scenarios**
+        - [Find AI Opportunities in Real Workflows](/lib/07-coding/easy-vibe/docs-en-stage-1-appendix-industry-scenarios.md)
+      - **appendix-jobs-to-be-done**
+        - [Use Jobs to Be Done to Find What Users Really Want to Get Done](/lib/07-coding/easy-vibe/docs-en-stage-1-appendix-jobs-to-be-done.md)
+      - **appendix-modelscope-static-site**
+        - [Publish Your Vibe Coding Project on ModelScope](/lib/07-coding/easy-vibe/docs-en-stage-1-appendix-modelscope-static-site.md)
+      - **appendix-mom-test**
+        - [The Mom Test: A User Interview Method for Validating Demand](/lib/07-coding/easy-vibe/docs-en-stage-1-appendix-mom-test.md)
+      - **building-prototype**
+        - [Beginner 3: Build a Prototype Hands-On](/lib/07-coding/easy-vibe/docs-en-stage-1-building-prototype.md)
+      - **clone-your-favorite-app**
+        - [Clone from a Screenshot: Your First Imitation Exercise](/lib/07-coding/easy-vibe/docs-en-stage-1-clone-your-favorite-app.md)
+      - **complete-project-practice**
+        - [Complete Project Practice: From an Idea to a Finished Work](/lib/07-coding/easy-vibe/docs-en-stage-1-complete-project-practice.md)
+      - **finding-great-idea**
+        - [Beginner Level 2: Finding Great Ideas](/lib/07-coding/easy-vibe/docs-en-stage-1-finding-great-idea.md)
+      - **integrating-ai-capabilities**
+        - [Add AI Capabilities to a Prototype](/lib/07-coding/easy-vibe/docs-en-stage-1-integrating-ai-capabilities.md)
+      - **introduction-to-ai-ide**
+        - [Beginner Level 2: Learn AI Programming Tools](/lib/07-coding/easy-vibe/docs-en-stage-1-introduction-to-ai-ide/index.md)
+      - **learning-map**
+        - [How to Learn This Course](/lib/07-coding/easy-vibe/docs-en-stage-1-learning-map.md)
+    - **stage-2**
+      - **ai-capabilities**
+        - **dify-knowledge-base**
+          - [Dify Basics and Knowledge Base Integration](/lib/07-coding/easy-vibe/docs-en-stage-2-ai-capabilities-dify-knowledge-base/index.md)
+      - **assignments**
+        - **copywriting-platform-supabase**
+          - [AI Marketing Copywriting SaaS](/lib/07-coding/easy-vibe/docs-en-stage-2-assignments-copywriting-platform-supabase.md)
+        - **custom-dify-agent-platform**
+          - [Custom Dify Agent Platform](/lib/07-coding/easy-vibe/docs-en-stage-2-assignments-custom-dify-agent-platform.md)
+        - **exam-management-express**
+          - [Online Exam & Management System](/lib/07-coding/easy-vibe/docs-en-stage-2-assignments-exam-management-express.md)
+        - **modern-landing-page**
+          - [Modern AI Image Generation SaaS](/lib/07-coding/easy-vibe/docs-en-stage-2-assignments-modern-landing-page.md)
+        - **movie-recommendation-springboot**
+          - [Spring Boot Movie Recommendation System](/lib/07-coding/easy-vibe/docs-en-stage-2-assignments-movie-recommendation-springboot.md)
+        - **simple-grocery-microservices**
+          - [Grocery E-Commerce Microservices System](/lib/07-coding/easy-vibe/docs-en-stage-2-assignments-simple-grocery-microservices.md)
+        - **traffic-data-visualization-go**
+          - [Go Traffic Data Analysis Platform](/lib/07-coding/easy-vibe/docs-en-stage-2-assignments-traffic-data-visualization-go.md)
+        - **travel-planning-agent-platform**
+          - [Travel Planning Agent Platform](/lib/07-coding/easy-vibe/docs-en-stage-2-assignments-travel-planning-agent-platform.md)
+      - **backend**
+        - **ai-interface-code**
+          - [Using LLMs to Write API Code and API Documentation](/lib/07-coding/easy-vibe/docs-en-stage-2-backend-ai-interface-code.md)
+        - **cloud-server-deployment**
+          - [Put Your Website Online (Advanced): Set Up Your Own VPS](/lib/07-coding/easy-vibe/docs-en-stage-2-backend-cloud-server-deployment.md)
+        - **database-supabase**
+          - [From Databases to Supabase](/lib/07-coding/easy-vibe/docs-en-stage-2-backend-database-supabase/index.md)
+        - **git-workflow**
+          - [Git and GitHub Workflow](/lib/07-coding/easy-vibe/docs-en-stage-2-backend-git-workflow.md)
+        - **modern-cli**
+          - [CLI AI Coding Tools](/lib/07-coding/easy-vibe/docs-en-stage-2-backend-modern-cli.md)
+        - **stripe-payment**
+          - [How to Integrate Stripe and Other Billing Systems](/lib/07-coding/easy-vibe/docs-en-stage-2-backend-stripe-payment.md)
+        - **zeabur-deployment**
+          - [Put Your Website Online (Easy): One-Click PaaS Deployment](/lib/07-coding/easy-vibe/docs-en-stage-2-backend-zeabur-deployment.md)
+      - **frontend**
+        - **design-to-code**
+          - [From Design Prototype to Project Code](/lib/07-coding/easy-vibe/docs-en-stage-2-frontend-design-to-code.md)
+        - **figma-mastergo**
+          - [Figma and MasterGo Basics](/lib/07-coding/easy-vibe/docs-en-stage-2-frontend-figma-mastergo.md)
+        - **hogwarts-portraits**
+          - [Project 4: Let's Build Hogwarts Portraits](/lib/07-coding/easy-vibe/docs-en-stage-2-frontend-hogwarts-portraits.md)
+        - **llm-skills-beautiful**
+          - [Make Interfaces Beautiful with LLMs and Skills: Prompts and Plugin Workflows](/lib/07-coding/easy-vibe/docs-en-stage-2-frontend-llm-skills-beautiful.md)
+        - **lovart-assets**
+          - [Starting from NanoBanana: Build Your Own Asset Production Agent](/lib/07-coding/easy-vibe/docs-en-stage-2-frontend-lovart-assets.md)
+        - **modern-component-library**
+          - [Upgrade Your Interface with Modern Component Libraries](/lib/07-coding/easy-vibe/docs-en-stage-2-frontend-modern-component-library.md)
+        - **multi-product-ui**
+          - [Designing Pages and Buttons with UI Design Guidelines](/lib/07-coding/easy-vibe/docs-en-stage-2-frontend-multi-product-ui.md)
+        - **ui-design**
+          - [Build Your First Modern Application - UI Design](/lib/07-coding/easy-vibe/docs-en-stage-2-frontend-ui-design.md)
+      - [Junior Developer](/lib/07-coding/easy-vibe/docs-en-stage-2.md)
+    - **stage-3**
+      - **ai-advanced**
+        - **langgraph-advanced-rag**
+          - [Intermediate and Advanced RAG with Workflow Orchestration - Using LangGraph as an Example](/lib/07-coding/easy-vibe/docs-en-stage-3-ai-advanced-langgraph-advanced-rag.md)
+        - **rag-introduction**
+          - [What You Will Learn in This Lesson](/lib/07-coding/easy-vibe/docs-en-stage-3-ai-advanced-rag-introduction/index.md)
+      - **core-skills**
+        - **agent-teams**
+          - [Claude Agent Teams Complete Guide](/lib/07-coding/easy-vibe/docs-en-stage-3-core-skills-agent-teams/index.md)
+        - **basics**
+          - [Claude Code Quickstart Core Guide](/lib/07-coding/easy-vibe/docs-en-stage-3-core-skills-basics.md)
+        - **claude-agent-sdk**
+          - [Claude Agent SDK Complete Guide](/lib/07-coding/easy-vibe/docs-en-stage-3-core-skills-claude-agent-sdk.md)
+        - **github-iterative-development**
+          - [Building Software End to End with GitHub Issues: From Product Conversation to a macOS App](/lib/07-coding/easy-vibe/docs-en-stage-3-core-skills-github-iterative-development.md)
+        - **long-running-tasks**
+          - [How to Make Claude Code Work for Long Durations](/lib/07-coding/easy-vibe/docs-en-stage-3-core-skills-long-running-tasks.md)
+        - **mcp**
+          - [Claude Code MCP Complete Guide](/lib/07-coding/easy-vibe/docs-en-stage-3-core-skills-mcp.md)
+        - **mobile-development**
+          - [Claude Code Remote Development on Mobile](/lib/07-coding/easy-vibe/docs-en-stage-3-core-skills-mobile-development.md)
+        - **skills**
+          - [Claude Code Skills Complete Guide](/lib/07-coding/easy-vibe/docs-en-stage-3-core-skills-skills.md)
+        - **spec-coding**
+          - [From Vibe Coding to Spec Coding: The Evolution of AI Programming](/lib/07-coding/easy-vibe/docs-en-stage-3-core-skills-spec-coding.md)
+        - **superpowers**
+          - [Claude Code Superpowers for Engineering-Grade Development](/lib/07-coding/easy-vibe/docs-en-stage-3-core-skills-superpowers.md)
+        - **workflow**
+          - [AI-Assisted Development Workflow](/lib/07-coding/easy-vibe/docs-en-stage-3-core-skills-workflow.md)
+      - **cross-platform**
+        - **ai-native-creator**
+          - [From a Web Page to Real Software, and Then to an AI-Native Product](/lib/07-coding/easy-vibe/docs-en-stage-3-cross-platform-ai-native-creator.md)
+        - **android-app**
+          - [How to Build a Simple Android App - Native Compose Development](/lib/07-coding/easy-vibe/docs-en-stage-3-cross-platform-android-app.md)
+        - **app-publishing**
+          - [How to Publish the Application You Built](/lib/07-coding/easy-vibe/docs-en-stage-3-cross-platform-app-publishing.md)
+        - **browser-ai-extension**
+          - [How to Build a Browser AI Assistant Extension: Summarize Any Webpage in One Click](/lib/07-coding/easy-vibe/docs-en-stage-3-cross-platform-browser-ai-extension.md)
+        - **choose-platform**
+          - [How to Choose the Right Platform for Your Application](/lib/07-coding/easy-vibe/docs-en-stage-3-cross-platform-choose-platform.md)
+        - **electron-voice-to-text**
+          - [How to Build a Cross-Platform Electron Desktop App: A Speech-to-Text Application](/lib/07-coding/easy-vibe/docs-en-stage-3-cross-platform-electron-voice-to-text.md)
+        - **flutter-app**
+          - [How to Build a Cross-Platform App with Flutter](/lib/07-coding/easy-vibe/docs-en-stage-3-cross-platform-flutter-app.md)
+        - **godot-game-development**
+          - [How to Build Platform, Pixel-Art, and 3D Games with Godot](/lib/07-coding/easy-vibe/docs-en-stage-3-cross-platform-godot-game-development.md)
+        - **ios-app**
+          - [How to Build an iOS App - Native SwiftUI Development](/lib/07-coding/easy-vibe/docs-en-stage-3-cross-platform-ios-app.md)
+        - **nft-minting**
+          - [How to Quickly Build and Mint an NFT: 10-Minute Starter Edition](/lib/07-coding/easy-vibe/docs-en-stage-3-cross-platform-nft-minting.md)
+        - **pwa-local-app**
+          - [How to Build a Local PWA App: Turn a Website into a "Real App"](/lib/07-coding/easy-vibe/docs-en-stage-3-cross-platform-pwa-local-app.md)
+        - **qt-industrial-hmi**
+          - [How to Build an Industrial Qt Desktop App: Pump Monitoring HMI System](/lib/07-coding/easy-vibe/docs-en-stage-3-cross-platform-qt-industrial-hmi.md)
+        - **react-native-expo**
+          - [Build a Store Inspection App with React Native and Expo](/lib/07-coding/easy-vibe/docs-en-stage-3-cross-platform-react-native-expo.md)
+        - **vscode-extension**
+          - [How to Build a VS Code Extension: Create Your AI Project Assistant](/lib/07-coding/easy-vibe/docs-en-stage-3-cross-platform-vscode-extension.md)
+        - **wechat-miniprogram-backend**
+          - [How to Build a WeChat Mini Program with a Backend](/lib/07-coding/easy-vibe/docs-en-stage-3-cross-platform-wechat-miniprogram-backend.md)
+        - **wechat-miniprogram**
+          - [How to Build the Simplest WeChat Mini Program](/lib/07-coding/easy-vibe/docs-en-stage-3-cross-platform-wechat-miniprogram.md)
+      - [Advanced Development](/lib/07-coding/easy-vibe/docs-en-stage-3.md)
+      - **personal-brand**
+        - **personal-website-blog**
+          - [How to Build Your Own Personal Website and Academic Blog - Static Deployment with GitHub Pages](/lib/07-coding/easy-vibe/docs-en-stage-3-personal-brand-personal-website-blog.md)
+    - **vibe-stories**
+      - [He Left a Five-Figure Monthly Salary to Help Rural School Kids "Use AI to Block Flies"](/lib/07-coding/easy-vibe/docs-en-vibe-stories-story-1.md)
+      - [During Finals Week, I Secretly Built a "Campus Xianyu" with AI](/lib/07-coding/easy-vibe/docs-en-vibe-stories-story-2.md)
+      - [I Built Each Student a Tireless "Straight-A Study Buddy"](/lib/07-coding/easy-vibe/docs-en-vibe-stories-story-3.md)
+      - [At 48, a Truck Driver Pulled Several All-Nighters and Used AI to Build an Overseas Tool Site](/lib/07-coding/easy-vibe/docs-en-vibe-stories-story-4.md)
+  - **zh-cn**
+    - **appendix**
+      - **1-computer-fundamentals**
+        - [算法导论](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-1-computer-fundamentals-algorithm-thinking.md)
+        - [编译原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-1-computer-fundamentals-compilers.md)
+        - [计算机网络：从输入网址到渲染页面](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-1-computer-fundamentals-computer-networks.md)
+        - [计算机组成原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-1-computer-fundamentals-computer-organization.md)
+        - [数据表示原理：编码、存储与传输](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-1-computer-fundamentals-data-encoding-storage.md)
+        - [数据结构导论](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-1-computer-fundamentals-data-structures.md)
+        - [操作系统原理：进程、内存与文件系统](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-1-computer-fundamentals-operating-systems.md)
+        - [计算机系统全景：从开机到访问网站的过程](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-1-computer-fundamentals-power-on-to-web.md)
+        - [编程语言概念：范式、演化与选型](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-1-computer-fundamentals-programming-languages.md)
+        - [数字电路基础：从晶体管到 CPU](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-1-computer-fundamentals-transistor-to-cpu.md)
+        - [类型系统导论](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-1-computer-fundamentals-type-systems.md)
+        - [全栈开发导论：Vibe Coding 时代的计算机知识地图](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-1-computer-fundamentals-vibe-coding-fullstack.md)
+      - **2-development-tools**
+        - [命令行与 Shell 脚本导论](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-2-development-tools-command-line-shell.md)
+        - [调试原理与艺术](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-2-development-tools-debugging-art.md)
+        - **debugging-art**
+          - [浏览器调试器（DevTools）基础](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-2-development-tools-debugging-art-2.md)
+        - [环境变量与 PATH 导论](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-2-development-tools-environment-path.md)
+        - [Git 版本控制原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-2-development-tools-git-version-control.md)
+        - [集成开发环境（IDE）基础](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-2-development-tools-ide-basics.md)
+        - [包管理器导论](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-2-development-tools-package-managers.md)
+        - [端口与 localhost 原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-2-development-tools-ports-localhost.md)
+        - [正则表达式基础](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-2-development-tools-regex.md)
+        - [SSH 与密钥认证导论](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-2-development-tools-ssh-authentication.md)
+      - **3-browser-and-frontend**
+        - [网页的隐藏维度：国际化与无障碍全景](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-3-browser-and-frontend-a11n-i18n.md)
+        - [浏览器渲染原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-3-browser-and-frontend-browser-as-os-rendering.md)
+        - [前端工程化全景](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-3-browser-and-frontend-frontend-engineering.md)
+        - [前端框架原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-3-browser-and-frontend-frontend-framework-nature.md)
+        - [前端框架导论](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-3-browser-and-frontend-frontend-frameworks.md)
+        - [前端项目架构原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-3-browser-and-frontend-frontend-project-architecture.md)
+        - [图形与动画基础：Canvas 与他的朋友们](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-3-browser-and-frontend-graphics-animation.md)
+        - [HTML/CSS 布局基础](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-3-browser-and-frontend-html-css-layout.md)
+        - [JavaScript 原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-3-browser-and-frontend-javascript-deep-dive.md)
+        - [JavaScript 运行时原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-3-browser-and-frontend-javascript-runtime.md)
+        - [实时通信原理：Polling/SSE/WebSocket](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-3-browser-and-frontend-realtime-communication.md)
+        - [路由与导航导论](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-3-browser-and-frontend-routing-navigation.md)
+        - [状态管理原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-3-browser-and-frontend-state-management.md)
+        - [TypeScript 原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-3-browser-and-frontend-typescript.md)
+        - [网页性能优化原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-3-browser-and-frontend-web-performance.md)
+      - **4-server-and-backend**
+        - [API 设计原理：前后端的通信协议](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-api-design.md)
+        - [API 入门导论：从零理解程序之间的通信](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-api-intro.md)
+        - [异步任务队列原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-async-task-queues.md)
+        - [认证与授权原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-auth-authorization.md)
+        - [后端语言导论](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-backend-languages/index.md)
+        - [后端分层架构原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-backend-layered-architecture.md)
+        - [后端项目架构导论](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-backend-project-architecture.md)
+        - [缓存原理与策略](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-caching.md)
+        - [客户端语言导论：Swift/Kotlin/Dart](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-client-languages.md)
+        - [并发异步与多线程原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-concurrency-async.md)
+        - [跨平台方案全景](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-cross-platform.md)
+        - [领域特定语言（DSL）原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-domain-specific-languages.md)
+        - [文件与对象存储导论](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-file-storage.md)
+        - [HTTP 协议原理：前后端的通信语言](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-http-protocol.md)
+        - [消息队列与事件驱动原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-message-queues.md)
+        - [限流与背压原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-rate-limiting-backpressure.md)
+        - [请求旅程全景](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-request-journey.md)
+        - [搜索引擎原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-search-engines.md)
+        - [序列化原理：数据的翻译](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-serialization.md)
+        - [Web 框架原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-web-frameworks.md)
+      - **5-data**
+        - [A/B 测试原理：用数据做决策](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-5-data-ab-testing.md)
+        - [数据分析原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-5-data-data-analysis.md)
+        - [数据治理导论](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-5-data-data-governance.md)
+        - [数据模型全景：文档/图/时序/向量](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-5-data-data-models.md)
+        - [数据埋点导论](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-5-data-data-tracking.md)
+        - [数据可视化原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-5-data-data-visualization.md)
+        - [数据库原理：索引/事务/查询优化](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-5-data-database-fundamentals.md)
+      - **6-architecture-and-system-design**
+        - [分布式系统原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-6-architecture-and-system-design-distributed-systems.md)
+        - [高可用与容灾原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-6-architecture-and-system-design-high-availability.md)
+        - [单体到微服务演进导论](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-6-architecture-and-system-design-monolith-to-microservices.md)
+        - [系统设计方法论](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-6-architecture-and-system-design-system-design-methodology.md)
+      - **7-infrastructure-and-operations**
+        - [CI/CD 自动化导论](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-7-infrastructure-and-operations-ci-cd.md)
+        - [云身份与权限管理原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-7-infrastructure-and-operations-cloud-iam.md)
+        - [云平台实战基础](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-7-infrastructure-and-operations-cloud-platforms.md)
+        - [对象存储与 CDN 原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-7-infrastructure-and-operations-cloud-storage-cdn/index.md)
+        - [域名 DNS 与 HTTPS 原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-7-infrastructure-and-operations-dns-https.md)
+        - [Docker 容器化导论](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-7-infrastructure-and-operations-docker-containers.md)
+        - [网关与反向代理原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-7-infrastructure-and-operations-gateway-proxy.md)
+        - [故障排查与应急响应导论](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-7-infrastructure-and-operations-incident-response.md)
+        - [基础设施即代码原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-7-infrastructure-and-operations-infrastructure-as-code.md)
+        - [Kubernetes 编排原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-7-infrastructure-and-operations-kubernetes.md)
+        - [Linux 基础](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-7-infrastructure-and-operations-linux-basics.md)
+        - [负载均衡与网关原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-7-infrastructure-and-operations-load-balancing-gateway.md)
+        - [监控日志与告警原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-7-infrastructure-and-operations-monitoring-logging.md)
+      - **8-artificial-intelligence**
+        - [AI Agent 原理与工具调用](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-8-artificial-intelligence-ai-agents.md)
+        - [AI 能力词典](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-8-artificial-intelligence-ai-capability-dictionary/index.md)
+        - [AI 简史：从符号逻辑到千亿参数大模型](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-8-artificial-intelligence-ai-history.md)
+        - [AI 原生应用设计导论](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-8-artificial-intelligence-ai-native-app-design.md)
+        - [AI Agent 协议原理：MCP 与 A2A](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-8-artificial-intelligence-ai-protocols.md)
+        - [上下文工程导论](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-8-artificial-intelligence-context-engineering.md)
+        - [Embedding 与向量检索原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-8-artificial-intelligence-embedding-vector-retrieval.md)
+        - [图像生成原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-8-artificial-intelligence-image-generation.md)
+        - [大语言模型工作原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-8-artificial-intelligence-llm-principles.md)
+        - [模型微调与部署导论](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-8-artificial-intelligence-model-finetuning-deployment.md)
+        - [多模态模型原理：视觉/音频/视频](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-8-artificial-intelligence-multimodal-models.md)
+        - [神经网络与深度学习基础](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-8-artificial-intelligence-neural-networks.md)
+        - [提示词工程导论](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-8-artificial-intelligence-prompt-engineering.md)
+        - [RAG 原理：检索增强生成](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-8-artificial-intelligence-rag.md)
+        - [语音合成与识别原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-8-artificial-intelligence-speech-synthesis-recognition.md)
+        - [Transformer 与注意力机制原理](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-8-artificial-intelligence-transformer-attention.md)
+      - **9-engineering-excellence**
+        - [代码质量与重构导论](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-9-engineering-excellence-code-quality-refactoring.md)
+        - [设计模式基础](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-9-engineering-excellence-design-patterns.md)
+        - [开源协作导论](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-9-engineering-excellence-open-source-collaboration.md)
+        - [安全思维与攻防基础](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-9-engineering-excellence-security-thinking.md)
+        - [技术文档写作导论](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-9-engineering-excellence-technical-writing.md)
+        - [技术选型方法论](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-9-engineering-excellence-technology-selection.md)
+        - [测试策略导论](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-9-engineering-excellence-testing-strategies.md)
+      - [附录](/lib/07-coding/easy-vibe/docs-zh-cn-appendix.md)
+    - **guide**
+      - [项目介绍](/lib/07-coding/easy-vibe/docs-zh-cn-guide-introduction.md)
+    - **stage-1**
+      - **ai-capabilities-through-games**
+        - [AI 时代的编程初体验](/lib/07-coding/easy-vibe/docs-zh-cn-stage-1-ai-capabilities-through-games.md)
+      - **appendix-a-product-thinking**
+        - [产品思维基础](/lib/07-coding/easy-vibe/docs-zh-cn-stage-1-appendix-a-product-thinking/index.md)
+      - **appendix-articles**
+        - **example0-1**
+          - [七款 AI 编程工具对比](/lib/07-coding/easy-vibe/docs-zh-cn-stage-1-appendix-articles-example0-1-vibe-coding-tools-snake-game-tutorial.md)
+        - **example0-2**
+          - [用设计和编程 Agent 设计网站](/lib/07-coding/easy-vibe/docs-zh-cn-stage-1-appendix-articles-example0-2-vibe-coding-tools-build-website-with-ai-coding-and-design-agents.md)
+      - **appendix-b-common-errors**
+        - [常见问题与排错](/lib/07-coding/easy-vibe/docs-zh-cn-stage-1-appendix-b-common-errors.md)
+      - **appendix-consumer-scenarios**
+        - [C 端场景灵感方向参考](/lib/07-coding/easy-vibe/docs-zh-cn-stage-1-appendix-consumer-scenarios.md)
+      - **appendix-double-diamond**
+        - [双钻设计模型](/lib/07-coding/easy-vibe/docs-zh-cn-stage-1-appendix-double-diamond.md)
+      - **appendix-idea-sources**
+        - [创意灵感从哪里来](/lib/07-coding/easy-vibe/docs-zh-cn-stage-1-appendix-idea-sources.md)
+      - **appendix-industry-scenarios**
+        - [从真实工作流里找 AI 场景](/lib/07-coding/easy-vibe/docs-zh-cn-stage-1-appendix-industry-scenarios.md)
+      - **appendix-jobs-to-be-done**
+        - [Jobs to Be Done 需求理论](/lib/07-coding/easy-vibe/docs-zh-cn-stage-1-appendix-jobs-to-be-done.md)
+      - **appendix-modelscope-static-site**
+        - [在魔搭社区发布你的 Vibe Coding 产物](/lib/07-coding/easy-vibe/docs-zh-cn-stage-1-appendix-modelscope-static-site.md)
+      - **appendix-mom-test**
+        - [The Mom Test：用户访谈方法](/lib/07-coding/easy-vibe/docs-zh-cn-stage-1-appendix-mom-test.md)
+      - **building-prototype**
+        - [构建可交互的产品原型](/lib/07-coding/easy-vibe/docs-zh-cn-stage-1-building-prototype.md)
+      - **clone-your-favorite-app**
+        - [从截图复刻：第一次模仿练习](/lib/07-coding/easy-vibe/docs-zh-cn-stage-1-clone-your-favorite-app.md)
+      - **complete-project-practice**
+        - [完整项目实战：从想法到作品](/lib/07-coding/easy-vibe/docs-zh-cn-stage-1-complete-project-practice.md)
+      - **finding-great-idea**
+        - [如何判断一个好点子](/lib/07-coding/easy-vibe/docs-zh-cn-stage-1-finding-great-idea.md)
+      - **integrating-ai-capabilities**
+        - [为原型接入 AI 能力](/lib/07-coding/easy-vibe/docs-zh-cn-stage-1-integrating-ai-capabilities.md)
+      - **introduction-to-ai-ide**
+        - [AI 编程工具介绍与使用](/lib/07-coding/easy-vibe/docs-zh-cn-stage-1-introduction-to-ai-ide/index.md)
+      - **learning-map**
+        - [如何学习本课程](/lib/07-coding/easy-vibe/docs-zh-cn-stage-1-learning-map.md)
+    - **stage-2**
+      - **ai-capabilities**
+        - **dify-knowledge-base**
+          - [Dify 入门与知识库集成](/lib/07-coding/easy-vibe/docs-zh-cn-stage-2-ai-capabilities-dify-knowledge-base/index.md)
+      - **assignments**
+        - **copywriting-platform-supabase**
+          - [AI 营销文案 SaaS 开发实战](/lib/07-coding/easy-vibe/docs-zh-cn-stage-2-assignments-copywriting-platform-supabase.md)
+          - [PRD：AI 营销文案 SaaS 平台](/lib/07-coding/easy-vibe/docs-zh-cn-stage-2-assignments-copywriting-platform-supabase-PRD.md)
+        - **custom-dify-agent-platform**
+          - [类 Dify 智能体平台开发实战](/lib/07-coding/easy-vibe/docs-zh-cn-stage-2-assignments-custom-dify-agent-platform.md)
+          - [PRD：类 Dify 智能体编排平台](/lib/07-coding/easy-vibe/docs-zh-cn-stage-2-assignments-custom-dify-agent-platform-PRD.md)
+        - **exam-management-express**
+          - [在线考试与管理系统开发实战](/lib/07-coding/easy-vibe/docs-zh-cn-stage-2-assignments-exam-management-express.md)
+          - [PRD：在线考试与管理系统](/lib/07-coding/easy-vibe/docs-zh-cn-stage-2-assignments-exam-management-express-PRD.md)
+        - **modern-landing-page**
+          - [现代 AI 生图 SaaS 开发实战](/lib/07-coding/easy-vibe/docs-zh-cn-stage-2-assignments-modern-landing-page.md)
+          - [PRD：现代 AI 生图 SaaS 平台](/lib/07-coding/easy-vibe/docs-zh-cn-stage-2-assignments-modern-landing-page-PRD.md)
+        - **movie-recommendation-springboot**
+          - [Spring Boot 电影推荐系统开发实战](/lib/07-coding/easy-vibe/docs-zh-cn-stage-2-assignments-movie-recommendation-springboot.md)
+          - [PRD：Spring Boot 电影推荐系统](/lib/07-coding/easy-vibe/docs-zh-cn-stage-2-assignments-movie-recommendation-springboot-PRD.md)
+        - **simple-grocery-microservices**
+          - [生鲜电商微服务系统开发实战](/lib/07-coding/easy-vibe/docs-zh-cn-stage-2-assignments-simple-grocery-microservices.md)
+          - [PRD：生鲜电商微服务系统](/lib/07-coding/easy-vibe/docs-zh-cn-stage-2-assignments-simple-grocery-microservices-PRD.md)
+        - **traffic-data-visualization-go**
+          - [Go 交通数据分析平台开发实战](/lib/07-coding/easy-vibe/docs-zh-cn-stage-2-assignments-traffic-data-visualization-go.md)
+          - [PRD：Go 交通数据分析与可视化平台](/lib/07-coding/easy-vibe/docs-zh-cn-stage-2-assignments-traffic-data-visualization-go-PRD.md)
+        - **travel-planning-agent-platform**
+          - [智能旅游规划 Agent 平台开发实战](/lib/07-coding/easy-vibe/docs-zh-cn-stage-2-assignments-travel-planning-agent-platform.md)
+          - [PRD：智能旅游规划 Agent 编排平台](/lib/07-coding/easy-vibe/docs-zh-cn-stage-2-assignments-travel-planning-agent-platform-PRD.md)
+      - **backend**
+        - **ai-interface-code**
+          - [大模型辅助编写接口代码与接口文档](/lib/07-coding/easy-vibe/docs-zh-cn-stage-2-backend-ai-interface-code.md)
+        - **cloud-server-deployment**
+          - [把网站发到网上（进阶方式）：自己买台 VPS 服务器搭建发布](/lib/07-coding/easy-vibe/docs-zh-cn-stage-2-backend-cloud-server-deployment.md)
+        - **database-supabase**
+          - [从数据库到 Supabase](/lib/07-coding/easy-vibe/docs-zh-cn-stage-2-backend-database-supabase/index.md)
+        - **git-workflow**
+          - [Git 和 GitHub 工作流](/lib/07-coding/easy-vibe/docs-zh-cn-stage-2-backend-git-workflow.md)
+        - **modern-cli**
+          - [CLI AI 编程工具](/lib/07-coding/easy-vibe/docs-zh-cn-stage-2-backend-modern-cli.md)
+        - **stripe-payment**
+          - [如何集成 Stripe 等收费系统](/lib/07-coding/easy-vibe/docs-zh-cn-stage-2-backend-stripe-payment.md)
+        - **zeabur-deployment**
+          - [把网站发到网上（简单方式）：Vercel/Zeabur/CloudBase 一键发布](/lib/07-coding/easy-vibe/docs-zh-cn-stage-2-backend-zeabur-deployment.md)
+      - **frontend**
+        - **design-to-code**
+          - [从设计原型到项目代码](/lib/07-coding/easy-vibe/docs-zh-cn-stage-2-frontend-design-to-code.md)
+        - **figma-mastergo**
+          - [Figma 与 MasterGo 入门](/lib/07-coding/easy-vibe/docs-zh-cn-stage-2-frontend-figma-mastergo.md)
+        - **hogwarts-portraits**
+          - [Project 4: 一起做霍格沃茨画像](/lib/07-coding/easy-vibe/docs-zh-cn-stage-2-frontend-hogwarts-portraits.md)
+        - **llm-skills-beautiful**
+          - [用 LLM 和 Skills 让界面变好看：提示词与插件实战](/lib/07-coding/easy-vibe/docs-zh-cn-stage-2-frontend-llm-skills-beautiful.md)
+        - **lovart-assets**
+          - [从 NanoBanana 出发，搭建自己的素材生产Agent](/lib/07-coding/easy-vibe/docs-zh-cn-stage-2-frontend-lovart-assets.md)
+        - **modern-component-library**
+          - [使用现代组件库更新你的界面](/lib/07-coding/easy-vibe/docs-zh-cn-stage-2-frontend-modern-component-library.md)
+        - **multi-product-ui**
+          - [参考 UI 设计规范设计页面和按钮](/lib/07-coding/easy-vibe/docs-zh-cn-stage-2-frontend-multi-product-ui.md)
+        - **ui-design**
+          - [构建第一个现代应用程序 - UI 设计](/lib/07-coding/easy-vibe/docs-zh-cn-stage-2-frontend-ui-design.md)
+      - [初中级开发](/lib/07-coding/easy-vibe/docs-zh-cn-stage-2.md)
+    - **stage-3**
+      - **ai-advanced**
+        - **langgraph-advanced-rag**
+          - [企业级客服 Agent 实战：用 LangGraph 搭建可升级、可审计的客服系统](/lib/07-coding/easy-vibe/docs-zh-cn-stage-3-ai-advanced-langgraph-advanced-rag.md)
+        - **llamaindex-enterprise-knowledge-base**
+          - [企业级知识库实战：用 LlamaIndex 搭建能落地的 RAG 系统](/lib/07-coding/easy-vibe/docs-zh-cn-stage-3-ai-advanced-llamaindex-enterprise-knowledge-base.md)
+        - **rag-introduction**
+          - [本节课你将学到](/lib/07-coding/easy-vibe/docs-zh-cn-stage-3-ai-advanced-rag-introduction/index.md)
+      - **core-skills**
+        - **agent-teams**
+          - [Claude Agent Teams 完全指南](/lib/07-coding/easy-vibe/docs-zh-cn-stage-3-core-skills-agent-teams/index.md)
+        - **basics**
+          - [Claude Code 快速上手核心指南](/lib/07-coding/easy-vibe/docs-zh-cn-stage-3-core-skills-basics.md)
+        - **claude-agent-sdk**
+          - [Claude Agent SDK 完全指南](/lib/07-coding/easy-vibe/docs-zh-cn-stage-3-core-skills-claude-agent-sdk.md)
+        - **github-iterative-development**
+          - [用 GitHub Issues 驱动 AI 全流程开发：从需求讨论到 macOS 成品](/lib/07-coding/easy-vibe/docs-zh-cn-stage-3-core-skills-github-iterative-development.md)
+        - **long-running-tasks**
+          - [如何让 Claude Code 长时间工作](/lib/07-coding/easy-vibe/docs-zh-cn-stage-3-core-skills-long-running-tasks.md)
+        - **mcp**
+          - [Claude Code MCP 完全指南](/lib/07-coding/easy-vibe/docs-zh-cn-stage-3-core-skills-mcp.md)
+        - **mobile-development**
+          - [Claude Code 手机远程开发](/lib/07-coding/easy-vibe/docs-zh-cn-stage-3-core-skills-mobile-development.md)
+        - **skills**
+          - [Claude Code Skills 完全指南](/lib/07-coding/easy-vibe/docs-zh-cn-stage-3-core-skills-skills.md)
+        - **spec-coding**
+          - [从 Vibe Coding 到 Spec Coding：先把需求写清楚，再让 AI 写代码](/lib/07-coding/easy-vibe/docs-zh-cn-stage-3-core-skills-spec-coding.md)
+        - **superpowers**
+          - [Claude Code Superpowers 工程级开发](/lib/07-coding/easy-vibe/docs-zh-cn-stage-3-core-skills-superpowers.md)
+        - **workflow**
+          - [AI 辅助开发工作流](/lib/07-coding/easy-vibe/docs-zh-cn-stage-3-core-skills-workflow.md)
+      - **cross-platform**
+        - **ai-native-creator**
+          - [从开发一个网页，到真正的程序，再到 AI 原生创作者](/lib/07-coding/easy-vibe/docs-zh-cn-stage-3-cross-platform-ai-native-creator.md)
+        - **android-app**
+          - [如何用 Jetpack Compose 开发 Android 原生应用](/lib/07-coding/easy-vibe/docs-zh-cn-stage-3-cross-platform-android-app.md)
+        - **app-publishing**
+          - [如何把开发好的程序发布上架](/lib/07-coding/easy-vibe/docs-zh-cn-stage-3-cross-platform-app-publishing.md)
+        - **browser-ai-extension**
+          - [如何开发浏览器 AI 助手插件](/lib/07-coding/easy-vibe/docs-zh-cn-stage-3-cross-platform-browser-ai-extension.md)
+        - **choose-platform**
+          - [如何选择你的应用该开发的平台](/lib/07-coding/easy-vibe/docs-zh-cn-stage-3-cross-platform-choose-platform.md)
+        - **electron-voice-to-text**
+          - [如何开发跨平台 Electron 桌面程序](/lib/07-coding/easy-vibe/docs-zh-cn-stage-3-cross-platform-electron-voice-to-text.md)
+        - **flutter-app**
+          - [如何开发 Flutter 跨平台应用](/lib/07-coding/easy-vibe/docs-zh-cn-stage-3-cross-platform-flutter-app.md)
+        - **godot-game-development**
+          - [如何用 Godot 开发横版、像素与 3D 游戏](/lib/07-coding/easy-vibe/docs-zh-cn-stage-3-cross-platform-godot-game-development.md)
+        - **ios-app**
+          - [如何用 SwiftUI 开发 iOS 原生应用](/lib/07-coding/easy-vibe/docs-zh-cn-stage-3-cross-platform-ios-app.md)
+        - **nft-minting**
+          - [如何在本地模拟链铸造 NFT](/lib/07-coding/easy-vibe/docs-zh-cn-stage-3-cross-platform-nft-minting.md)
+        - **pwa-local-app**
+          - [如何开发 PWA 本地应用](/lib/07-coding/easy-vibe/docs-zh-cn-stage-3-cross-platform-pwa-local-app.md)
+        - **qt-industrial-hmi**
+          - [如何开发企业 Qt 设备客户端](/lib/07-coding/easy-vibe/docs-zh-cn-stage-3-cross-platform-qt-industrial-hmi.md)
+        - **react-native-expo**
+          - [从零开始用 React Native + Expo 做一个门店巡检应用](/lib/07-coding/easy-vibe/docs-zh-cn-stage-3-cross-platform-react-native-expo.md)
+        - **vscode-extension**
+          - [如何开发 VS Code 插件](/lib/07-coding/easy-vibe/docs-zh-cn-stage-3-cross-platform-vscode-extension.md)
+        - **wechat-miniprogram-backend**
+          - [如何构建微信小程序（包含后端）](/lib/07-coding/easy-vibe/docs-zh-cn-stage-3-cross-platform-wechat-miniprogram-backend.md)
+        - **wechat-miniprogram**
+          - [如何构建微信小程序](/lib/07-coding/easy-vibe/docs-zh-cn-stage-3-cross-platform-wechat-miniprogram.md)
+      - [进阶开发](/lib/07-coding/easy-vibe/docs-zh-cn-stage-3.md)
+      - **personal-brand**
+        - **personal-website-blog**
+          - [如何构建属于自己的个人网页与学术博客](/lib/07-coding/easy-vibe/docs-zh-cn-stage-3-personal-brand-personal-website-blog.md)
+    - **vibe-stories**
+      - [放弃月入过万，他在农村小学带孩子们“用AI赶苍蝇”](/lib/07-coding/easy-vibe/docs-zh-cn-vibe-stories-story-1.md)
+      - [期末考试周，我偷偷用AI造了个“校园闲鱼”](/lib/07-coding/easy-vibe/docs-zh-cn-vibe-stories-story-2.md)
+      - [我给每个学生，做了一个不会累的“学霸同桌”](/lib/07-coding/easy-vibe/docs-zh-cn-vibe-stories-story-3.md)
+      - [48岁货车司机，熬了几个通宵，硬是用AI磕出一个出海工具站](/lib/07-coding/easy-vibe/docs-zh-cn-vibe-stories-story-4.md)
+  - **zh-tw**
+    - **appendix**
+      - **1-computer-fundamentals**
+        - [演算法導論](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-1-computer-fundamentals-algorithm-thinking.md)
+        - [編譯原理](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-1-computer-fundamentals-compilers.md)
+        - [計算機網路：從輸入網址到渲染頁面](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-1-computer-fundamentals-computer-networks.md)
+        - [計算機組成原理](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-1-computer-fundamentals-computer-organization.md)
+        - [資料表示原理：編碼、儲存與傳輸](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-1-computer-fundamentals-data-encoding-storage.md)
+        - [資料結構導論](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-1-computer-fundamentals-data-structures.md)
+        - [作業系統原理：行程、記憶體與檔案系統](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-1-computer-fundamentals-operating-systems.md)
+        - [計算機系統全景：從開機到訪問網站](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-1-computer-fundamentals-power-on-to-web.md)
+        - [程式語言概念：範式、演化與選型](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-1-computer-fundamentals-programming-languages.md)
+        - [數位電路基礎：從電晶體到 CPU](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-1-computer-fundamentals-transistor-to-cpu.md)
+        - [型別系統導論](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-1-computer-fundamentals-type-systems.md)
+        - [全棧開發導論：Vibe Coding 時代的計算機知識地圖](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-1-computer-fundamentals-vibe-coding-fullstack.md)
+      - **2-development-tools**
+        - [命令列與 Shell 腳本導論](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-2-development-tools-command-line-shell.md)
+        - [除錯原理與藝術](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-2-development-tools-debugging-art.md)
+        - **debugging-art**
+          - [瀏覽器除錯器（DevTools）基礎](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-2-development-tools-debugging-art-2.md)
+        - [環境變數與 PATH 導論](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-2-development-tools-environment-path.md)
+        - [Git 版本控制原理](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-2-development-tools-git-version-control.md)
+        - [整合開發環境（IDE）基礎](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-2-development-tools-ide-basics.md)
+        - [套件管理器導論](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-2-development-tools-package-managers.md)
+        - [連接埠與 localhost 原理](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-2-development-tools-ports-localhost.md)
+        - [正規表示式導論](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-2-development-tools-regex.md)
+        - [SSH 與金鑰認證原理](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-2-development-tools-ssh-authentication.md)
+      - **3-browser-and-frontend**
+        - [網頁的隱藏維度：國際化與無障礙全景](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-3-browser-and-frontend-a11n-i18n.md)
+        - [瀏覽器渲染原理](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-3-browser-and-frontend-browser-as-os-rendering.md)
+        - [前端工程化全景](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-3-browser-and-frontend-frontend-engineering.md)
+        - [前端框架原理](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-3-browser-and-frontend-frontend-framework-nature.md)
+        - [前端框架導論](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-3-browser-and-frontend-frontend-frameworks.md)
+        - [前端專案架構原理](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-3-browser-and-frontend-frontend-project-architecture.md)
+        - [圖形與動畫基礎：Canvas 與他的朋友們](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-3-browser-and-frontend-graphics-animation.md)
+        - [HTML/CSS 佈局基礎](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-3-browser-and-frontend-html-css-layout.md)
+        - [JavaScript 導論](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-3-browser-and-frontend-javascript-deep-dive.md)
+        - [JavaScript 執行時期原理](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-3-browser-and-frontend-javascript-runtime.md)
+        - [即時通訊原理：Polling/SSE/WebSocket](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-3-browser-and-frontend-realtime-communication.md)
+        - [路由與導航導論](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-3-browser-and-frontend-routing-navigation.md)
+        - [狀態管理原理](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-3-browser-and-frontend-state-management.md)
+        - [TypeScript 導論](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-3-browser-and-frontend-typescript.md)
+        - [網頁效能最佳化原理](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-3-browser-and-frontend-web-performance.md)
+      - **4-server-and-backend**
+        - [API 設計：前後端的通信協議](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-api-design.md)
+        - [API 入門導論：從零理解程式之間的通信](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-api-intro.md)
+        - [非同步任務佇列：生產者消費者模型](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-async-task-queues.md)
+        - [認證與授權原理](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-auth-authorization.md)
+        - [後端語言導論](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-backend-languages/index.md)
+        - [後端分層架構：分層責任邊界](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-backend-layered-architecture.md)
+        - [後端專案架構：分層與模組化](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-backend-project-architecture.md)
+        - [快取原理與策略](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-caching.md)
+        - [用戶端語言導論：Swift/Kotlin/Dart](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-client-languages.md)
+        - [並發非同步與多執行緒原理](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-concurrency-async.md)
+        - [跨平台方案全景](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-cross-platform.md)
+        - [領域特定語言（DSL）：宣告式抽象](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-domain-specific-languages.md)
+        - [檔案與物件儲存導論](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-file-storage.md)
+        - [HTTP 協定原理：前後端的通訊語言](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-http-protocol.md)
+        - [訊息佇列與事件驅動原理](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-message-queues.md)
+        - [限流與背壓：流量整形機制](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-rate-limiting-backpressure.md)
+        - [請求旅程全景](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-request-journey.md)
+        - [搜尋引擎原理](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-search-engines.md)
+        - [序列化：資料的編碼翻譯](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-serialization.md)
+        - [Web 框架原理](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-web-frameworks.md)
+      - **5-data**
+        - [A/B 測試原理：用資料做決策](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-5-data-ab-testing.md)
+        - [資料分析導論](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-5-data-data-analysis.md)
+        - [資料治理原理](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-5-data-data-governance.md)
+        - [資料模型全景：文件/圖/時序/向量](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-5-data-data-models.md)
+        - [資料埋點導論](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-5-data-data-tracking.md)
+        - [資料視覺化基礎](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-5-data-data-visualization.md)
+        - [資料庫基礎：索引/事務/查詢最佳化](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-5-data-database-fundamentals.md)
+      - **6-architecture-and-system-design**
+        - [分散式系統原理](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-6-architecture-and-system-design-distributed-systems.md)
+        - [高可用與容災原理](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-6-architecture-and-system-design-high-availability.md)
+        - [單體到微服務演進導論](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-6-architecture-and-system-design-monolith-to-microservices.md)
+        - [系統設計方法論](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-6-architecture-and-system-design-system-design-methodology.md)
+      - **7-infrastructure-and-operations**
+        - [CI/CD 自動化導論](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-7-infrastructure-and-operations-ci-cd.md)
+        - [雲端身分與權限管理原理](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-7-infrastructure-and-operations-cloud-iam.md)
+        - [雲平台導論](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-7-infrastructure-and-operations-cloud-platforms.md)
+        - [物件儲存與 CDN 原理](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-7-infrastructure-and-operations-cloud-storage-cdn/index.md)
+        - [域名 DNS 與 HTTPS 原理](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-7-infrastructure-and-operations-dns-https.md)
+        - [Docker 容器化導論](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-7-infrastructure-and-operations-docker-containers.md)
+        - [閘道器與反向代理原理](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-7-infrastructure-and-operations-gateway-proxy.md)
+        - [故障排查與應急響應導論](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-7-infrastructure-and-operations-incident-response.md)
+        - [基礎設施即程式碼基礎](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-7-infrastructure-and-operations-infrastructure-as-code.md)
+        - [Kubernetes 原理](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-7-infrastructure-and-operations-kubernetes.md)
+        - [Linux 基礎](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-7-infrastructure-and-operations-linux-basics.md)
+        - [負載平衡與閘道器原理](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-7-infrastructure-and-operations-load-balancing-gateway.md)
+        - [監控日誌與告警原理](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-7-infrastructure-and-operations-monitoring-logging.md)
+      - **8-artificial-intelligence**
+        - [AI Agent 原理與工具呼叫](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-8-artificial-intelligence-ai-agents.md)
+        - [AI 能力詞典](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-8-artificial-intelligence-ai-capability-dictionary/index.md)
+        - [AI 簡史：從符號邏輯到千億參數大模型](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-8-artificial-intelligence-ai-history.md)
+        - [AI 原生應用設計導論](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-8-artificial-intelligence-ai-native-app-design.md)
+        - [AI Agent 協定原理：MCP 與 A2A](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-8-artificial-intelligence-ai-protocols.md)
+        - [上下文工程導論](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-8-artificial-intelligence-context-engineering.md)
+        - [Embedding 與向量檢索原理](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-8-artificial-intelligence-embedding-vector-retrieval.md)
+        - [影像生成原理](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-8-artificial-intelligence-image-generation.md)
+        - [大語言模型工作原理](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-8-artificial-intelligence-llm-principles.md)
+        - [模型微調與部署導論](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-8-artificial-intelligence-model-finetuning-deployment.md)
+        - [多模態模型原理：視覺/音訊/影片](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-8-artificial-intelligence-multimodal-models.md)
+        - [神經網路與深度學習基礎](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-8-artificial-intelligence-neural-networks.md)
+        - [提示詞工程導論](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-8-artificial-intelligence-prompt-engineering.md)
+        - [RAG 原理：檢索增強生成](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-8-artificial-intelligence-rag.md)
+        - [語音合成與識別原理](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-8-artificial-intelligence-speech-synthesis-recognition.md)
+        - [Transformer 與注意力機制原理](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-8-artificial-intelligence-transformer-attention.md)
+      - **9-engineering-excellence**
+        - [程式碼品質與重構導論](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-9-engineering-excellence-code-quality-refactoring.md)
+        - [設計模式基礎](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-9-engineering-excellence-design-patterns.md)
+        - [開源協作導論](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-9-engineering-excellence-open-source-collaboration.md)
+        - [安全思維與攻防基礎](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-9-engineering-excellence-security-thinking.md)
+        - [技術文件寫作導論](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-9-engineering-excellence-technical-writing.md)
+        - [技術選型方法論](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-9-engineering-excellence-technology-selection.md)
+        - [測試策略導論](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-9-engineering-excellence-testing-strategies.md)
+      - [附錄](/lib/07-coding/easy-vibe/docs-zh-tw-appendix.md)
+    - **guide**
+      - [專案介紹](/lib/07-coding/easy-vibe/docs-zh-tw-guide-introduction.md)
+    - **stage-0**
+      - [新手與產品原型](/lib/07-coding/easy-vibe/docs-zh-tw-stage-0.md)
+    - **stage-1**
+      - **ai-capabilities-through-games**
+        - [初級一：AI 時代，會說話就會程式設計](/lib/07-coding/easy-vibe/docs-zh-tw-stage-1-ai-capabilities-through-games.md)
+      - **appendix-a-product-thinking**
+        - [產品思維與方案設計](/lib/07-coding/easy-vibe/docs-zh-tw-stage-1-appendix-a-product-thinking/index.md)
+      - **appendix-articles**
+        - **example0-1**
+          - [七款 AI 程式設計工具對比](/lib/07-coding/easy-vibe/docs-zh-tw-stage-1-appendix-articles-example0-1-vibe-coding-tools-snake-game-tutorial.md)
+        - **example0-2**
+          - [用設計和程式設計 Agent 設計網站](/lib/07-coding/easy-vibe/docs-zh-tw-stage-1-appendix-articles-example0-2-vibe-coding-tools-build-website-with-ai-coding-and-design-agents.md)
+      - **appendix-b-common-errors**
+        - [寫程式碼時遇到錯誤怎麼辦](/lib/07-coding/easy-vibe/docs-zh-tw-stage-1-appendix-b-common-errors.md)
+      - **appendix-consumer-scenarios**
+        - [C 端場景靈感方向參考](/lib/07-coding/easy-vibe/docs-zh-tw-stage-1-appendix-consumer-scenarios.md)
+      - **appendix-double-diamond**
+        - [雙鑽設計模型](/lib/07-coding/easy-vibe/docs-zh-tw-stage-1-appendix-double-diamond.md)
+      - **appendix-idea-sources**
+        - [創意靈感從哪裡來](/lib/07-coding/easy-vibe/docs-zh-tw-stage-1-appendix-idea-sources.md)
+      - **appendix-industry-scenarios**
+        - [從真實工作流里找 AI 場景](/lib/07-coding/easy-vibe/docs-zh-tw-stage-1-appendix-industry-scenarios.md)
+      - **appendix-jobs-to-be-done**
+        - [Jobs to Be Done 需求理論](/lib/07-coding/easy-vibe/docs-zh-tw-stage-1-appendix-jobs-to-be-done.md)
+      - **appendix-modelscope-static-site**
+        - [在魔搭社群發布你的 Vibe Coding 作品](/lib/07-coding/easy-vibe/docs-zh-tw-stage-1-appendix-modelscope-static-site.md)
+      - **appendix-mom-test**
+        - [The Mom Test：使用者訪談方法](/lib/07-coding/easy-vibe/docs-zh-tw-stage-1-appendix-mom-test.md)
+      - **building-prototype**
+        - [初級三：動手做出原型](/lib/07-coding/easy-vibe/docs-zh-tw-stage-1-building-prototype.md)
+      - **clone-your-favorite-app**
+        - [從截圖復刻：第一次模仿練習](/lib/07-coding/easy-vibe/docs-zh-tw-stage-1-clone-your-favorite-app.md)
+      - **complete-project-practice**
+        - [完整專案實作：從想法到作品](/lib/07-coding/easy-vibe/docs-zh-tw-stage-1-complete-project-practice.md)
+      - **finding-great-idea**
+        - [如何判斷一個好點子](/lib/07-coding/easy-vibe/docs-zh-tw-stage-1-finding-great-idea.md)
+      - **integrating-ai-capabilities**
+        - [為原型接入 AI 能力](/lib/07-coding/easy-vibe/docs-zh-tw-stage-1-integrating-ai-capabilities.md)
+      - **introduction-to-ai-ide**
+        - [初級二：學會 AI 程式設計工具](/lib/07-coding/easy-vibe/docs-zh-tw-stage-1-introduction-to-ai-ide/index.md)
+      - **learning-map**
+        - [如何學習本課程](/lib/07-coding/easy-vibe/docs-zh-tw-stage-1-learning-map.md)
+    - **stage-2**
+      - **ai-capabilities**
+        - **dify-knowledge-base**
+          - [Dify 入門與知識庫集成](/lib/07-coding/easy-vibe/docs-zh-tw-stage-2-ai-capabilities-dify-knowledge-base/index.md)
+      - **assignments**
+        - **copywriting-platform-supabase**
+          - [AI 營銷文案 SaaS 開發實戰](/lib/07-coding/easy-vibe/docs-zh-tw-stage-2-assignments-copywriting-platform-supabase.md)
+        - **custom-dify-agent-platform**
+          - [類 Dify 智能體平臺開發實戰](/lib/07-coding/easy-vibe/docs-zh-tw-stage-2-assignments-custom-dify-agent-platform.md)
+        - **exam-management-express**
+          - [在線考試與管理系統開發實戰](/lib/07-coding/easy-vibe/docs-zh-tw-stage-2-assignments-exam-management-express.md)
+        - **modern-landing-page**
+          - [現代 AI 生圖 SaaS 開發實戰](/lib/07-coding/easy-vibe/docs-zh-tw-stage-2-assignments-modern-landing-page.md)
+        - **movie-recommendation-springboot**
+          - [Spring Boot 電影推薦系統開發實戰](/lib/07-coding/easy-vibe/docs-zh-tw-stage-2-assignments-movie-recommendation-springboot.md)
+        - **simple-grocery-microservices**
+          - [生鮮電商微服務系統開發實戰](/lib/07-coding/easy-vibe/docs-zh-tw-stage-2-assignments-simple-grocery-microservices.md)
+        - **traffic-data-visualization-go**
+          - [Go 交通資料分析平臺開發實戰](/lib/07-coding/easy-vibe/docs-zh-tw-stage-2-assignments-traffic-data-visualization-go.md)
+        - **travel-planning-agent-platform**
+          - [智能旅遊規劃 Agent 平臺開發實戰](/lib/07-coding/easy-vibe/docs-zh-tw-stage-2-assignments-travel-planning-agent-platform.md)
+      - **backend**
+        - **ai-interface-code**
+          - [大模型輔助編寫接口程式碼與接口文檔](/lib/07-coding/easy-vibe/docs-zh-tw-stage-2-backend-ai-interface-code.md)
+        - **cloud-server-deployment**
+          - [把網站發到網上（進階方式）：自己買臺 VPS 伺服器搭建發佈](/lib/07-coding/easy-vibe/docs-zh-tw-stage-2-backend-cloud-server-deployment.md)
+        - **database-supabase**
+          - [從資料庫到 Supabase](/lib/07-coding/easy-vibe/docs-zh-tw-stage-2-backend-database-supabase/index.md)
+        - **git-workflow**
+          - [Git 和 GitHub 工作流](/lib/07-coding/easy-vibe/docs-zh-tw-stage-2-backend-git-workflow.md)
+        - **modern-cli**
+          - [CLI AI 程式設計工具](/lib/07-coding/easy-vibe/docs-zh-tw-stage-2-backend-modern-cli.md)
+        - **stripe-payment**
+          - [如何集成 Stripe 等收費系統](/lib/07-coding/easy-vibe/docs-zh-tw-stage-2-backend-stripe-payment.md)
+        - **zeabur-deployment**
+          - [把網站發到網上（簡單方式）：Vercel/Zeabur/CloudBase 一鍵發佈](/lib/07-coding/easy-vibe/docs-zh-tw-stage-2-backend-zeabur-deployment.md)
+      - **frontend**
+        - **design-to-code**
+          - [從設計原型到項目程式碼](/lib/07-coding/easy-vibe/docs-zh-tw-stage-2-frontend-design-to-code.md)
+        - **figma-mastergo**
+          - [Figma 與 MasterGo 入門](/lib/07-coding/easy-vibe/docs-zh-tw-stage-2-frontend-figma-mastergo.md)
+        - **hogwarts-portraits**
+          - [Project 4: 一起做霍格沃茨畫像](/lib/07-coding/easy-vibe/docs-zh-tw-stage-2-frontend-hogwarts-portraits.md)
+        - **llm-skills-beautiful**
+          - [用 LLM 和 Skills 讓界面變好看：提示詞與插件實戰](/lib/07-coding/easy-vibe/docs-zh-tw-stage-2-frontend-llm-skills-beautiful.md)
+        - **lovart-assets**
+          - [從 NanoBanana 出發，搭建自己的素材生產Agent](/lib/07-coding/easy-vibe/docs-zh-tw-stage-2-frontend-lovart-assets.md)
+        - **modern-component-library**
+          - [使用現代組件庫更新你的界面](/lib/07-coding/easy-vibe/docs-zh-tw-stage-2-frontend-modern-component-library.md)
+        - **multi-product-ui**
+          - [參考 UI 設計規範設計頁面和按鈕](/lib/07-coding/easy-vibe/docs-zh-tw-stage-2-frontend-multi-product-ui.md)
+        - **ui-design**
+          - [構建第一個現代應用程序 - UI 設計](/lib/07-coding/easy-vibe/docs-zh-tw-stage-2-frontend-ui-design.md)
+      - [初中級開發](/lib/07-coding/easy-vibe/docs-zh-tw-stage-2.md)
+    - **stage-3**
+      - **ai-advanced**
+        - **rag-introduction**
+          - [本課你將學到什麼](/lib/07-coding/easy-vibe/docs-zh-tw-stage-3-ai-advanced-rag-introduction/index.md)
+      - **core-skills**
+        - **agent-teams**
+          - [Claude Agent Teams 完整指南](/lib/07-coding/easy-vibe/docs-zh-tw-stage-3-core-skills-agent-teams/index.md)
+        - **basics**
+          - [Claude Code 快速上手核心指南](/lib/07-coding/easy-vibe/docs-zh-tw-stage-3-core-skills-basics.md)
+        - **claude-agent-sdk**
+          - [Claude Agent SDK 完整指南](/lib/07-coding/easy-vibe/docs-zh-tw-stage-3-core-skills-claude-agent-sdk.md)
+        - **github-iterative-development**
+          - [用 GitHub Issues 驅動 AI 全流程開發：從需求討論到 macOS 成品](/lib/07-coding/easy-vibe/docs-zh-tw-stage-3-core-skills-github-iterative-development.md)
+        - **long-running-tasks**
+          - [如何讓 Claude Code 長時間工作](/lib/07-coding/easy-vibe/docs-zh-tw-stage-3-core-skills-long-running-tasks.md)
+        - **mcp**
+          - [Claude Code MCP 完整指南](/lib/07-coding/easy-vibe/docs-zh-tw-stage-3-core-skills-mcp.md)
+        - **mobile-development**
+          - [Claude Code 行動開發](/lib/07-coding/easy-vibe/docs-zh-tw-stage-3-core-skills-mobile-development.md)
+        - **skills**
+          - [Claude Code Skills 完整指南](/lib/07-coding/easy-vibe/docs-zh-tw-stage-3-core-skills-skills.md)
+        - **spec-coding**
+          - [從 Vibe Coding 到 Spec Coding：AI 程式的進化](/lib/07-coding/easy-vibe/docs-zh-tw-stage-3-core-skills-spec-coding.md)
+        - **superpowers**
+          - [Claude Code Superpowers：工程級開發的超能力](/lib/07-coding/easy-vibe/docs-zh-tw-stage-3-core-skills-superpowers.md)
+        - **workflow**
+          - [AI 輔助開發工作流程](/lib/07-coding/easy-vibe/docs-zh-tw-stage-3-core-skills-workflow.md)
+      - **cross-platform**
+        - **ai-native-creator**
+          - [從做出網頁，到完整程式，再到 AI 原生產品](/lib/07-coding/easy-vibe/docs-zh-tw-stage-3-cross-platform-ai-native-creator.md)
+        - **android-app**
+          - [如何製作一個簡單的 Android 應用程式 - 原生 Compose 開發](/lib/07-coding/easy-vibe/docs-zh-tw-stage-3-cross-platform-android-app.md)
+        - **app-publishing**
+          - [如何把做好的程式發布上架](/lib/07-coding/easy-vibe/docs-zh-tw-stage-3-cross-platform-app-publishing.md)
+        - **browser-ai-extension**
+          - [如何構建瀏覽器 AI 助手擴展：一鍵摘要任何網頁](/lib/07-coding/easy-vibe/docs-zh-tw-stage-3-cross-platform-browser-ai-extension.md)
+        - **choose-platform**
+          - [如何為你的應用選擇合適的平台](/lib/07-coding/easy-vibe/docs-zh-tw-stage-3-cross-platform-choose-platform.md)
+        - **electron-voice-to-text**
+          - [如何構建跨平台 Electron 桌面應用：語音轉文字應用](/lib/07-coding/easy-vibe/docs-zh-tw-stage-3-cross-platform-electron-voice-to-text.md)
+        - **flutter-app**
+          - [如何用 Flutter 開發跨平台 App](/lib/07-coding/easy-vibe/docs-zh-tw-stage-3-cross-platform-flutter-app.md)
+        - **godot-game-development**
+          - [如何用 Godot 開發橫向、像素與 3D 遊戲](/lib/07-coding/easy-vibe/docs-zh-tw-stage-3-cross-platform-godot-game-development.md)
+        - **ios-app**
+          - [如何建置 iOS 應用程式 - 原生 SwiftUI 開發](/lib/07-coding/easy-vibe/docs-zh-tw-stage-3-cross-platform-ios-app.md)
+        - **nft-minting**
+          - [如何快速構建並鑄造 NFT：10 分鐘入門版](/lib/07-coding/easy-vibe/docs-zh-tw-stage-3-cross-platform-nft-minting.md)
+        - **pwa-local-app**
+          - [如何建置本機 PWA 應用程式：將網站變成「真正的應用程式」](/lib/07-coding/easy-vibe/docs-zh-tw-stage-3-cross-platform-pwa-local-app.md)
+        - **qt-industrial-hmi**
+          - [如何建置工業級 Qt 桌面應用程式：幫浦監控 HMI 系統](/lib/07-coding/easy-vibe/docs-zh-tw-stage-3-cross-platform-qt-industrial-hmi.md)
+        - **react-native-expo**
+          - [從零開始用 React Native + Expo 做門市巡檢 App](/lib/07-coding/easy-vibe/docs-zh-tw-stage-3-cross-platform-react-native-expo.md)
+        - **vscode-extension**
+          - [如何構建 VS Code 擴展：打造你的 AI 專案助理](/lib/07-coding/easy-vibe/docs-zh-tw-stage-3-cross-platform-vscode-extension.md)
+        - **wechat-miniprogram-backend**
+          - [如何建立包含後端的微信小程式](/lib/07-coding/easy-vibe/docs-zh-tw-stage-3-cross-platform-wechat-miniprogram-backend.md)
+        - **wechat-miniprogram**
+          - [如何構建最簡單的微信小程式](/lib/07-coding/easy-vibe/docs-zh-tw-stage-3-cross-platform-wechat-miniprogram.md)
+      - [高級開發](/lib/07-coding/easy-vibe/docs-zh-tw-stage-3.md)
+      - **personal-brand**
+        - **personal-website-blog**
+          - [如何建立自己的個人網站和學術部落格 - 使用 GitHub Pages 靜態部署](/lib/07-coding/easy-vibe/docs-zh-tw-stage-3-personal-brand-personal-website-blog.md)
+- **.vitepress**
+  - **theme**
+    - **locales**
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-_vitepress-theme-locales-APPENDIX_COMPONENT_I18N/01-Pattern.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-_vitepress-theme-locales-APPENDIX_COMPONENT_I18N/02-Current_Scope.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-_vitepress-theme-locales-APPENDIX_COMPONENT_I18N/03-Audit_Snapshot.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-_vitepress-theme-locales-APPENDIX_COMPONENT_I18N/04-Priority_Order.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-_vitepress-theme-locales-APPENDIX_COMPONENT_I18N/05-Verification.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-_vitepress-theme-locales-APPENDIX_COMPONENT_I18N/06-Retired_Unused_Components.md)
+- **en**
+  - **appendix**
+    - **4-server-and-backend**
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-backend-languages/01-1._Motivation_for_Understanding_Backend_.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-backend-languages/02-2._Core_Concepts_Understanding_the_Funda.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-backend-languages/03-3._Detailed_Overview_of_Mainstream_Backe.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-backend-languages/04-4._How_to_Choose_the_Right_Language_A_De.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-backend-languages/05-5._Real_Cases_How_Tech_Stacks_Evolve.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-backend-languages/06-6._Common_Myths_and_Truths.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-backend-languages/07-6.1_Emerging_and_Niche_Backend_Language_.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-backend-languages/08-6.2_Language_Applicability_and_Developab.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-backend-languages/09-7._Summary_No_Silver_Bullet_Only_Trade-o.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-backend-languages/10-8._More_Learning_Resources.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-backend-languages/11-9._Glossary.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-backend-languages/12-Conclusion_Selection_Is_an_Art.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-backend-languages/13-Appendix_Backend_Language_Application_Di.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-backend-languages/14-C_C_The_King_of_Systems-Level_Languages.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-backend-languages/15-Rust_The_Memory-Safe_Rising_Star_of_Syst.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-backend-languages/16-Python_The_1_Language_for_AI_and_Data_Sc.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-backend-languages/17-JavaScript_TypeScript_The_Ruler_of_Full-.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-backend-languages/18-Go_The_Top_Choice_for_the_Cloud-Native_E.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-backend-languages/19-Java_The_Evergreen_of_Enterprise_Applica.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-backend-languages/20-Node.js_The_Full-Stack_JavaScript_Revolu.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-backend-languages/21-How_to_Choose_Quick_Decision_Guide.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-backend-languages/22-PHP_The_Pioneer_Language_of_Web_Developm.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-backend-languages/23-Ruby_The_Elegant_Language_for_Rapid_Deve.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-backend-languages/24-C_The_Enterprise_Choice_in_the_.NET_Ecos.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-backend-languages/25-Kotlin_The_Modern_JVM_Language.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-backend-languages/26-Scala_The_JVM_King_of_Big_Data.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-backend-languages/27-Swift_The_Elegant_Choice_for_iOS_Backend.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-backend-languages/28-WebAssembly_The_Universal_Format_Compile.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-backend-languages/29-Erlang_Elixir_High-Concurrency_Fault-Tol.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-backend-languages/30-Go_Additional_Application_Directions_Sup.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-backend-languages/31-Python_Additional_Application_Directions.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-backend-languages/32-JavaScript_TypeScript_Additional_Applica.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-4-server-and-backend-backend-languages/33-How_to_Choose_Complete_Decision_Guide.md)
+    - **7-infrastructure-and-operations**
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-7-infrastructure-and-operations-cloud-storage-cdn/01-0._Introduction_Motivation_for_Filing_Up.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-7-infrastructure-and-operations-cloud-storage-cdn/02-1._Object_Storage_Your_Smart_Cloud_Wareh.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-7-infrastructure-and-operations-cloud-storage-cdn/03-2._CDN_Your_Global_Courier_Network.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-7-infrastructure-and-operations-cloud-storage-cdn/04-3._From_Upload_to_Access_Complete_Chain_.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-7-infrastructure-and-operations-cloud-storage-cdn/05-4._Traffic_Scheduling_Getting_Users_to_t.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-7-infrastructure-and-operations-cloud-storage-cdn/06-5._HTTPS_Optimization_Balancing_Security.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-7-infrastructure-and-operations-cloud-storage-cdn/07-6._Access_Analytics_Understanding_Your_C.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-7-infrastructure-and-operations-cloud-storage-cdn/08-7._Real-World_Case_Study_Building_an_Ima.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-7-infrastructure-and-operations-cloud-storage-cdn/09-8._Summary_The_Golden_Rules_of_Object_St.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-7-infrastructure-and-operations-cloud-storage-cdn/10-9._Practical_Code_Templates.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-7-infrastructure-and-operations-cloud-storage-cdn/11-10._Glossary.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-appendix-7-infrastructure-and-operations-cloud-storage-cdn/12-Summary_The_Golden_Rules_of_Object_Stora.md)
+    - **8-artificial-intelligence**
+      - [AI Capability Dictionary](/lib/07-coding/easy-vibe/docs-en-appendix-8-artificial-intelligence-ai-capability-dictionary/01-AI_Capability_Dictionary.md)
+      - [What You Will Learn in This Lesson](/lib/07-coding/easy-vibe/docs-en-appendix-8-artificial-intelligence-ai-capability-dictionary/02-What_You_Will_Learn_in_This_Lesson.md)
+      - [1. Text Tasks (Text / NLP / LLM)](/lib/07-coding/easy-vibe/docs-en-appendix-8-artificial-intelligence-ai-capability-dictionary/03-1._Text_Tasks_Text_NLP_LLM.md)
+      - [2. Image Modality (Image / Vision)](/lib/07-coding/easy-vibe/docs-en-appendix-8-artificial-intelligence-ai-capability-dictionary/04-2._Image_Modality_Image_Vision.md)
+      - [3. 3D / Spatial Modality (3D / Spatial / XR)](/lib/07-coding/easy-vibe/docs-en-appendix-8-artificial-intelligence-ai-capability-dictionary/05-3._3D_Spatial_Modality_3D_Spatial_XR.md)
+      - [4. Audio / Speech](/lib/07-coding/easy-vibe/docs-en-appendix-8-artificial-intelligence-ai-capability-dictionary/06-4._Audio_Speech.md)
+      - [5. Video](/lib/07-coding/easy-vibe/docs-en-appendix-8-artificial-intelligence-ai-capability-dictionary/07-5._Video.md)
+      - [6. Time Series & Sequential Decision](/lib/07-coding/easy-vibe/docs-en-appendix-8-artificial-intelligence-ai-capability-dictionary/08-6._Time_Series_Sequential_Decision.md)
+      - [7. Agents & Tool Use](/lib/07-coding/easy-vibe/docs-en-appendix-8-artificial-intelligence-ai-capability-dictionary/09-7._Agents_Tool_Use.md)
+      - [8. Retrieval & Knowledge](/lib/07-coding/easy-vibe/docs-en-appendix-8-artificial-intelligence-ai-capability-dictionary/10-8._Retrieval_Knowledge.md)
+      - [9. Safety, Alignment & Evaluation](/lib/07-coding/easy-vibe/docs-en-appendix-8-artificial-intelligence-ai-capability-dictionary/11-9._Safety_Alignment_Evaluation.md)
+      - [10. AI for Science (AI4Science)](/lib/07-coding/easy-vibe/docs-en-appendix-8-artificial-intelligence-ai-capability-dictionary/12-10._AI_for_Science_AI4Science.md)
+      - [11. Platform & Engineering Capabilities (MLOps / Infra)](/lib/07-coding/easy-vibe/docs-en-appendix-8-artificial-intelligence-ai-capability-dictionary/13-11._Platform_Engineering_Capabilities_ML.md)
+  - **stage-1**
+    - [Summary](/lib/07-coding/easy-vibe/docs-en-stage-1-appendix-a-product-thinking/07-Summary.md)
+    - [Appendix 1: Common Computer Terminology Quick Reference](/lib/07-coding/easy-vibe/docs-en-stage-1-introduction-to-ai-ide/03-Appendix_1_Common_Computer_Terminology_Q.md)
+  - **stage-2**
+    - **ai-capabilities**
+      - [[Bug] How to Fix HTTP Request Errors](/lib/07-coding/easy-vibe/docs-en-stage-2-ai-capabilities-dify-knowledge-base/09-Bug_How_to_Fix_HTTP_Request_Errors.md)
+    - **backend**
+      - [5. Becoming a Supabase Master](/lib/07-coding/easy-vibe/docs-en-stage-2-backend-database-supabase/07-5._Becoming_a_Supabase_Master.md)
+  - **stage-3**
+    - **ai-advanced**
+      - [Reference](/lib/07-coding/easy-vibe/docs-en-stage-3-ai-advanced-rag-introduction/11-Reference.md)
+    - **core-skills**
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-en-stage-3-core-skills-agent-teams/09-References.md)
+- **zh-cn**
+  - **appendix**
+    - **4-server-and-backend**
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-backend-languages/01-1._了解后端语言的动机.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-backend-languages/02-2._核心概念_理解后端语言的基本特征.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-backend-languages/03-3._主流后端语言详解.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-backend-languages/04-4._语言选型_决策框架.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-backend-languages/05-5._真实案例_技术栈演进路径.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-backend-languages/06-6._常见误区与真相.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-backend-languages/07-6.1_新兴与小众后端语言全景.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-backend-languages/08-6.2_语言适用范围与可开发程序总览.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-backend-languages/09-7._总结_没有银弹_只有权衡.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-backend-languages/10-8._更多学习资源.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-backend-languages/11-9._名词速查表_Glossary.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-backend-languages/12-结语_选择是一门艺术.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-backend-languages/13-附录_后端语言应用方向全景图.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-backend-languages/14-C_C_系统级语言之王.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-backend-languages/15-Rust_内存安全的系统编程新星.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-backend-languages/16-Python_AI_与数据科学的第一语言.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-backend-languages/17-JavaScript_TypeScript_Web_全栈统治者.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-backend-languages/18-Go_云原生时代的首选语言.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-backend-languages/19-Java_企业级应用的常青树.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-backend-languages/20-Node.js_JavaScript_的全栈革命.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-backend-languages/21-选型方法_快速决策指南.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-backend-languages/22-PHP_Web_开发的先驱语言.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-backend-languages/23-Ruby_优雅的快速开发语言.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-backend-languages/24-C_.NET_生态的企业级选择.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-backend-languages/25-Kotlin_现代的_JVM_语言.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-backend-languages/26-Scala_大数据的_JVM_之王.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-backend-languages/27-Swift_iOS_后端的优雅选择.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-backend-languages/28-WebAssembly_编译到浏览器的通用格式.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-backend-languages/29-Erlang_Elixir_高并发容错系统.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-backend-languages/30-Go_的额外应用方向_补充.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-backend-languages/31-Python_的额外应用方向_补充.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-backend-languages/32-JavaScript_TypeScript_的额外应用方向_补充.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-4-server-and-backend-backend-languages/33-选型方法_完整决策指南.md)
+    - **7-infrastructure-and-operations**
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-7-infrastructure-and-operations-cloud-storage-cdn/01-0._引言_文件上传下载这么_慢的原理.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-7-infrastructure-and-operations-cloud-storage-cdn/02-1._对象存储_你的_智能云仓库.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-7-infrastructure-and-operations-cloud-storage-cdn/03-2._CDN_你的_全球快递网络.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-7-infrastructure-and-operations-cloud-storage-cdn/04-3._从上传到访问_完整链路解析.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-7-infrastructure-and-operations-cloud-storage-cdn/05-4._流量调度_让用户访问_最近_的节点.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-7-infrastructure-and-operations-cloud-storage-cdn/06-5._HTTPS_优化_安全与性能的平衡.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-7-infrastructure-and-operations-cloud-storage-cdn/07-6._访问分析_看懂你的_CDN_报表.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-7-infrastructure-and-operations-cloud-storage-cdn/08-7._实战案例_从_0_搭建图片加速方案.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-7-infrastructure-and-operations-cloud-storage-cdn/09-8._总结_对象存储_CDN_的黄金法则.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-7-infrastructure-and-operations-cloud-storage-cdn/10-9._实战代码模板.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-7-infrastructure-and-operations-cloud-storage-cdn/11-10._名词对照表.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-7-infrastructure-and-operations-cloud-storage-cdn/12-总结_对象存储_CDN_的黄金法则.md)
+    - **8-artificial-intelligence**
+      - [AI 能力词典](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-8-artificial-intelligence-ai-capability-dictionary/01-AI_能力词典.md)
+      - [本节课你将学到](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-8-artificial-intelligence-ai-capability-dictionary/02-本节课你将学到.md)
+      - [1. 文本任务 (Text / NLP / LLM)](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-8-artificial-intelligence-ai-capability-dictionary/03-1._文本任务_Text_NLP_LLM.md)
+      - [2. 图像模态（Image / Vision）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-8-artificial-intelligence-ai-capability-dictionary/04-2._图像模态_Image_Vision.md)
+      - [3. 3D / 空间模态（3D / Spatial / XR）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-8-artificial-intelligence-ai-capability-dictionary/05-3._3D_空间模态_3D_Spatial_XR.md)
+      - [4. 音频（Audio / Speech）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-8-artificial-intelligence-ai-capability-dictionary/06-4._音频_Audio_Speech.md)
+      - [5. 视频（Video）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-8-artificial-intelligence-ai-capability-dictionary/07-5._视频_Video.md)
+      - [6. 时间序列与时序决策（Time Series & Sequential Decision）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-8-artificial-intelligence-ai-capability-dictionary/08-6._时间序列与时序决策_Time_Series_Sequential_Deci.md)
+      - [7. Agent 与工具调用层（Agents & Tool Use）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-8-artificial-intelligence-ai-capability-dictionary/09-7._Agent_与工具调用层_Agents_Tool_Use.md)
+      - [8. 检索增强与知识层（Retrieval & Knowledge）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-8-artificial-intelligence-ai-capability-dictionary/10-8._检索增强与知识层_Retrieval_Knowledge.md)
+      - [9. 安全、对齐与评估（Safety / Alignment / Evaluation）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-8-artificial-intelligence-ai-capability-dictionary/11-9._安全_对齐与评估_Safety_Alignment_Evaluation.md)
+      - [10. AI for Science（AI4Science）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-8-artificial-intelligence-ai-capability-dictionary/12-10._AI_for_Science_AI4Science.md)
+      - [11. 平台与工程能力（MLOps / Infra）](/lib/07-coding/easy-vibe/docs-zh-cn-appendix-8-artificial-intelligence-ai-capability-dictionary/13-11._平台与工程能力_MLOps_Infra.md)
+  - **stage-1**
+    - [总结](/lib/07-coding/easy-vibe/docs-zh-cn-stage-1-appendix-a-product-thinking/07-总结.md)
+    - [附录一：常见计算机术语速查表](/lib/07-coding/easy-vibe/docs-zh-cn-stage-1-introduction-to-ai-ide/03-附录一_常见计算机术语速查表.md)
+  - **stage-2**
+    - **ai-capabilities**
+      - [[Bug] HTTP 请求错误问题的解决方法](/lib/07-coding/easy-vibe/docs-zh-cn-stage-2-ai-capabilities-dify-knowledge-base/09-Bug_HTTP_请求错误问题的解决方法.md)
+    - **backend**
+      - [📚 课后作业](/lib/07-coding/easy-vibe/docs-zh-cn-stage-2-backend-database-supabase/10-课后作业.md)
+  - **stage-3**
+    - **ai-advanced**
+      - [Reference](/lib/07-coding/easy-vibe/docs-zh-cn-stage-3-ai-advanced-rag-introduction/11-Reference.md)
+    - **core-skills**
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-cn-stage-3-core-skills-agent-teams/09-参考资料.md)
+- **zh-tw**
+  - **appendix**
+    - **4-server-and-backend**
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-backend-languages/01-1._後端語言分類體系的必要性.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-backend-languages/02-2._核心概念_理解後端語言的基本特征.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-backend-languages/03-3._主流後端語言詳解.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-backend-languages/04-4._語言選型_決策框架.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-backend-languages/05-5._真實案例_技術棧演進路徑.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-backend-languages/06-6._常见误區與真相.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-backend-languages/07-6.1_新兴與小众後端語言全景.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-backend-languages/08-6.2_語言適用范围與可開發程序總览.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-backend-languages/09-7._總結_没有銀弹_只有權衡.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-backend-languages/10-8._更多學習资源.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-backend-languages/11-9._名词速查表_Glossary.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-backend-languages/12-結語_選择是一門艺術.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-backend-languages/13-附錄_後端語言應用方向全景图.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-backend-languages/14-C_C_系统级語言之王.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-backend-languages/15-Rust_內存安全的系统編程新星.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-backend-languages/16-Python_AI_與數據科學的第一語言.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-backend-languages/17-JavaScript_TypeScript_Web_全栈统治者.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-backend-languages/18-Go_云原生時代的首選語言.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-backend-languages/19-Java_企業级應用的常青树.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-backend-languages/20-Node.js_JavaScript_的全栈革命.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-backend-languages/21-選型方法_快速決策指南.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-backend-languages/22-PHP_Web_開發的先驅語言.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-backend-languages/23-Ruby_優雅的快速開發語言.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-backend-languages/24-C_.NET_生態的企業级選择.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-backend-languages/25-Kotlin_現代的_JVM_語言.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-backend-languages/26-Scala_大數據的_JVM_之王.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-backend-languages/27-Swift_iOS_後端的優雅選择.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-backend-languages/28-WebAssembly_編译到浏览器的通用格式.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-backend-languages/29-Erlang_Elixir_高并發容錯系统.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-backend-languages/30-Go_的额外應用方向_补充.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-backend-languages/31-Python_的额外應用方向_补充.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-backend-languages/32-JavaScript_TypeScript_的额外應用方向_补充.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-4-server-and-backend-backend-languages/33-選型方法_完整決策指南.md)
+    - **7-infrastructure-and-operations**
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-7-infrastructure-and-operations-cloud-storage-cdn/01-0._引言_檔案上傳下載這麼_慢_的動機.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-7-infrastructure-and-operations-cloud-storage-cdn/02-1._物件儲存_你的_智慧雲端倉庫.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-7-infrastructure-and-operations-cloud-storage-cdn/03-2._CDN_你的_全球快遞網路.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-7-infrastructure-and-operations-cloud-storage-cdn/04-3._從上傳到存取_完整鏈路解析.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-7-infrastructure-and-operations-cloud-storage-cdn/05-4._流量排程_讓使用者存取_最近_的節點.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-7-infrastructure-and-operations-cloud-storage-cdn/06-5._HTTPS_最佳化_安全與效能的平衡.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-7-infrastructure-and-operations-cloud-storage-cdn/07-6._存取分析_看懂你的_CDN_報表.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-7-infrastructure-and-operations-cloud-storage-cdn/08-7._實戰案例_從_0_搭建圖片加速方案.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-7-infrastructure-and-operations-cloud-storage-cdn/09-8._總結_物件儲存_CDN_的黃金法則.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-7-infrastructure-and-operations-cloud-storage-cdn/10-9._實戰程式碼範本.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-7-infrastructure-and-operations-cloud-storage-cdn/11-10._名詞對照表.md)
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-7-infrastructure-and-operations-cloud-storage-cdn/12-總結_物件儲存_CDN_的黃金法則.md)
+    - **8-artificial-intelligence**
+      - [AI 能力詞典](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-8-artificial-intelligence-ai-capability-dictionary/01-AI_能力詞典.md)
+      - [本節課你將學到](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-8-artificial-intelligence-ai-capability-dictionary/02-本節課你將學到.md)
+      - [1. 文本任務 (Text / NLP / LLM)](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-8-artificial-intelligence-ai-capability-dictionary/03-1._文本任務_Text_NLP_LLM.md)
+      - [2. 圖像模態（Image / Vision）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-8-artificial-intelligence-ai-capability-dictionary/04-2._圖像模態_Image_Vision.md)
+      - [3. 3D / 空間模態（3D / Spatial / XR）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-8-artificial-intelligence-ai-capability-dictionary/05-3._3D_空間模態_3D_Spatial_XR.md)
+      - [4. 音頻（Audio / Speech）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-8-artificial-intelligence-ai-capability-dictionary/06-4._音頻_Audio_Speech.md)
+      - [5. 視頻（Video）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-8-artificial-intelligence-ai-capability-dictionary/07-5._視頻_Video.md)
+      - [6. 時間序列與時序決策（Time Series & Sequential Decision）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-8-artificial-intelligence-ai-capability-dictionary/08-6._時間序列與時序決策_Time_Series_Sequential_Deci.md)
+      - [7. Agent 與工具調用層（Agents & Tool Use）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-8-artificial-intelligence-ai-capability-dictionary/09-7._Agent_與工具調用層_Agents_Tool_Use.md)
+      - [8. 檢索增強與知識層（Retrieval & Knowledge）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-8-artificial-intelligence-ai-capability-dictionary/10-8._檢索增強與知識層_Retrieval_Knowledge.md)
+      - [9. 安全、對齊與評估（Safety / Alignment / Evaluation）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-8-artificial-intelligence-ai-capability-dictionary/11-9._安全_對齊與評估_Safety_Alignment_Evaluation.md)
+      - [10. AI for Science（AI4Science）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-8-artificial-intelligence-ai-capability-dictionary/12-10._AI_for_Science_AI4Science.md)
+      - [11. 平臺與工程能力（MLOps / Infra）](/lib/07-coding/easy-vibe/docs-zh-tw-appendix-8-artificial-intelligence-ai-capability-dictionary/13-11._平臺與工程能力_MLOps_Infra.md)
+  - **stage-1**
+    - [總結](/lib/07-coding/easy-vibe/docs-zh-tw-stage-1-appendix-a-product-thinking/07-總結.md)
+    - [附錄一：常見計算機術語速查表](/lib/07-coding/easy-vibe/docs-zh-tw-stage-1-introduction-to-ai-ide/03-附錄一_常見計算機術語速查表.md)
+  - **stage-2**
+    - **ai-capabilities**
+      - [[Bug] HTTP 請求錯誤問題的解決方法](/lib/07-coding/easy-vibe/docs-zh-tw-stage-2-ai-capabilities-dify-knowledge-base/09-Bug_HTTP_請求錯誤問題的解決方法.md)
+    - **backend**
+      - [📚 課後作業](/lib/07-coding/easy-vibe/docs-zh-tw-stage-2-backend-database-supabase/10-課後作業.md)
+  - **stage-3**
+    - **ai-advanced**
+      - [參考資料](/lib/07-coding/easy-vibe/docs-zh-tw-stage-3-ai-advanced-rag-introduction/11-參考資料.md)
+    - **core-skills**
+      - [Easy-Vibe（Datawhale：从零做出真实产品）](/lib/07-coding/easy-vibe/docs-zh-tw-stage-3-core-skills-agent-teams/09-參考資料.md)
 
-开始学习 → [算法导论](docs-zh-cn-appendix-1-computer-fundamentals-algorithm-thinking.md)
+开始学习 → [教程美化最佳实践](_trae-skills-教程美化方案-SKILL.md)

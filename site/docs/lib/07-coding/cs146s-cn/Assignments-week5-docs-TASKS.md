@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/ShouZhengAI/CS146S_CN"
-entryUrl: "https://github.com/ShouZhengAI/CS146S_CN/blob/0d65f36f6673147d6c298670da4f9b4bd7f991fa/README.md"
+entryUrl: "https://github.com/ShouZhengAI/CS146S_CN/blob/0d65f36f6673147d6c298670da4f9b4bd7f991fa/Assignments/week5/docs/TASKS.md"
+sourceRel: "Assignments/week5/docs/TASKS.md"
+rawUrl: "/raw/07-coding/cs146s-cn/Assignments/week5/docs/TASKS.md"
+sourceSha256: "c771685fb320f1c38d51d1d61043c58792a686640607d9addf131a52568644e4"
+pageSha256: "c771685fb320f1c38d51d1d61043c58792a686640607d9addf131a52568644e4"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -34,7 +39,7 @@ zh: ""
 - 在 `backend/tests/test_notes.py` 中添加针对查询边界情况和分页的测试。
 
 ## 3) 完整的笔记 CRUD 与乐观式界面更新（中等）
-- 添加 `PUT /notes/{id}` 和 `DELETE /notes/{id}`。
+- 添加 `PUT /notes/\{id\}` 和 `DELETE /notes/\{id\}`。
 - 在前端进行乐观式状态更新，并在发生错误时执行回滚。
 - 在 `schemas.py` 中验证请求数据（最小长度，以及适当的最大长度）。
 - 添加成功场景和验证错误场景的测试。
@@ -48,8 +53,8 @@ zh: ""
 ## 5) 具有多对多关系的标签功能（复杂）
 - 添加 `Tag` 模型和连接表 `note_tags`（`Note` 与 `Tag` 之间为多对多关系）。
 - 端点：
-  - `GET /tags`、`POST /tags`、`DELETE /tags/{id}`
-  - 使用 `POST /notes/{id}/tags` 关联标签，使用 `DELETE /notes/{id}/tags/{tag_id}` 解除关联
+  - `GET /tags`、`POST /tags`、`DELETE /tags/\{id\}`
+  - 使用 `POST /notes/\{id\}/tags` 关联标签，使用 `DELETE /notes/\{id\}/tags/\{tag_id\}` 解除关联
 - 更新提取功能（参见下一个任务），根据 `#hashtags` 自动创建并关联标签。
 - 更新界面，以标签块形式显示标签，并支持按标签筛选笔记。
 - 添加针对模型关系和端点行为的测试。
@@ -58,15 +63,15 @@ zh: ""
 - 扩展 `backend/app/services/extract.py`，使其能够解析：
   - `#hashtags` → 标签
   - `- [ ] task text` → 待办事项
-- 添加 `POST /notes/{id}/extract`：
+- 添加 `POST /notes/\{id\}/extract`：
   - 返回结构化提取结果；当 `apply=true` 时，还可选择持久化新标签/待办事项。
 - 添加针对提取解析和 `apply=true` 持久化路径的测试。
 
 ## 7) 健壮的错误处理和响应封装（简单至中等）
 - 使用 Pydantic 模型添加验证（最小长度约束、非空字符串）。
 - 添加全局异常处理器，返回统一的 JSON 封装：
-  - `{ "ok": false, "error": { "code": "NOT_FOUND", "message": "..." } }`
-  - 成功响应：`{ "ok": true, "data": ... }`
+  - `\{ "ok": false, "error": \{ "code": "NOT_FOUND", "message": "..." \} \}`
+  - 成功响应：`\{ "ok": true, "data": ... \}`
 - 更新测试，断言成功和错误场景下的响应封装结构。
 
 ## 8) 为所有集合的列表端点添加分页（简单）

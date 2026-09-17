@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/Piebald-AI/claude-code-system-prompts"
-entryUrl: "https://github.com/Piebald-AI/claude-code-system-prompts/blob/3af4c6139aaabb0470440961ca8c8fb871099234/README.md"
+entryUrl: "https://github.com/Piebald-AI/claude-code-system-prompts/blob/3af4c6139aaabb0470440961ca8c8fb871099234/system-prompts/agent-prompt-code-review-part-5-recall-biased-verification-phase.md"
+sourceRel: "system-prompts/agent-prompt-code-review-part-5-recall-biased-verification-phase.md"
+rawUrl: "/raw/10-context-memory/claude-code-system-prompts/system-prompts/agent-prompt-code-review-part-5-recall-biased-verification-phase.md"
+sourceSha256: "a65735126422bcf99150709b015f5febd98a7aba013c8ad45cdd9c8118c21120"
+pageSha256: "a65735126422bcf99150709b015f5febd98a7aba013c8ad45cdd9c8118c21120"
+contentMode: "local-full"
 zh: ""
 ---
 

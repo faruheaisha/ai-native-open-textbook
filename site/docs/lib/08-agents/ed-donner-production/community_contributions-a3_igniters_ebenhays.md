@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/ed-donner/production"
-entryUrl: "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/README.md"
+entryUrl: "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/community_contributions/a3_igniters_ebenhays/README.md"
+sourceRel: "community_contributions/a3_igniters_ebenhays/README.md"
+rawUrl: "/raw/08-agents/ed-donner-production/community_contributions/a3_igniters_ebenhays/README.md"
+sourceSha256: "d5d1d68d6def5e72d529c394fdf70c19695ceef1ce06b33bc03237e6d3480ece"
+pageSha256: "d5d1d68d6def5e72d529c394fdf70c19695ceef1ce06b33bc03237e6d3480ece"
+contentMode: "local-full"
 zh: ""
 ---
 

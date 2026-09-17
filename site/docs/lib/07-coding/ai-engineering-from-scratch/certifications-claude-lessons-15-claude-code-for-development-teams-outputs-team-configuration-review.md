@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/rohitg00/ai-engineering-from-scratch"
-entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/README.md"
+entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/certifications/claude/lessons/15-claude-code-for-development-teams/outputs/team-configuration-review.md"
+sourceRel: "certifications/claude/lessons/15-claude-code-for-development-teams/outputs/team-configuration-review.md"
+rawUrl: "/raw/07-coding/ai-engineering-from-scratch/certifications/claude/lessons/15-claude-code-for-development-teams/outputs/team-configuration-review.md"
+sourceSha256: "c4b8625dd1f2340bb86a6a8afdcfb426163ceefe9c57ca2d467cc338bb115eeb"
+pageSha256: "c4b8625dd1f2340bb86a6a8afdcfb426163ceefe9c57ca2d467cc338bb115eeb"
+contentMode: "local-full"
 zh: ""
 ---
 

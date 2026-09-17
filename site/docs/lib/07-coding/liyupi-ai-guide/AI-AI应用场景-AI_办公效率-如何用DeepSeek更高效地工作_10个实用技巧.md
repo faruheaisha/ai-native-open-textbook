@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/liyupi/ai-guide"
-entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a02735b38c866/README.md"
+entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a02735b38c866/AI/AI应用场景/AI%20+%20办公效率/如何用DeepSeek更高效地工作：10个实用技巧.md"
+sourceRel: "AI/AI应用场景/AI + 办公效率/如何用DeepSeek更高效地工作：10个实用技巧.md"
+rawUrl: "/raw/07-coding/liyupi-ai-guide/AI/AI应用场景/AI + 办公效率/如何用DeepSeek更高效地工作：10个实用技巧.md"
+sourceSha256: "5995a6b736c1890a46d43263f63340d7ff4eb56842fa0a9d29164ea1890ea84a"
+pageSha256: "5995a6b736c1890a46d43263f63340d7ff4eb56842fa0a9d29164ea1890ea84a"
+contentMode: "local-full"
 zh: ""
 ---
 

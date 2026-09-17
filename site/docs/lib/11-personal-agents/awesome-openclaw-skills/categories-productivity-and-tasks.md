@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/VoltAgent/awesome-openclaw-skills"
-entryUrl: "https://github.com/VoltAgent/awesome-openclaw-skills/blob/37ad08c1b8e243d5f501c6fcaf7ac0b507bd83a1/README.md"
+entryUrl: "https://github.com/VoltAgent/awesome-openclaw-skills/blob/37ad08c1b8e243d5f501c6fcaf7ac0b507bd83a1/categories/productivity-and-tasks.md"
+sourceRel: "categories/productivity-and-tasks.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-skills/categories/productivity-and-tasks.md"
+sourceSha256: "3f21799c846de2eae7013156ef552f3fecb64d54e80d0d14bf8d220d4fa005f5"
+pageSha256: "3f21799c846de2eae7013156ef552f3fecb64d54e80d0d14bf8d220d4fa005f5"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -160,7 +165,7 @@ zh: ""
 - [postfast](https://clawskills.sh/skills/peturgeorgievv-postfast) - Schedule and manage social media posts across TikTok, Instagram, Facebook, X (Twitter), YouTube, LinkedIn, Threads.
 - [postqued-api](https://clawskills.sh/skills/syeddhasnainn-postqued-api) - PostQued social media scheduling API integration.
 - [ppt-ooxml-tool](https://clawskills.sh/skills/jason2be-ppt-ooxml-tool) - AI-agent Skill for PPTX OOXML localization workflows.
-- [proactive-soul](https://github.com/VoltAgent/awesome-openclaw-skills/blob/37ad08c1b8e243d5f501c6fcaf7ac0b507bd83a1/categories/[https:/clawskills.sh/skills/jason2be-ppt-ooxml-tool/README.md) - Gives your agent an inner life — proactive daily dispatches, persistent curiosity threads across sessions, and genuine pushback when it disagrees.
+- [proactive-soul]([https://clawskills.sh/skills/jason2be-ppt-ooxml-tool) - Gives your agent an inner life — proactive daily dispatches, persistent curiosity threads across sessions, and genuine pushback when it disagrees.
 - [publora](https://clawskills.sh/skills/sergebulaev-publora) - Publora API — schedule and publish social media posts across 10 platforms (X/Twitter, LinkedIn, Instagram, Threads.
 - [publora-mastodon](https://clawskills.sh/skills/sergebulaev-publora-mastodon) - Post or schedule content to Mastodon using the Publora API.
 - [qa-testing-bots](https://clawskills.sh/skills/g4dr-qa-testing-bots) - This skill enables Claude to build and run **automated QA testing bots** that simulate.

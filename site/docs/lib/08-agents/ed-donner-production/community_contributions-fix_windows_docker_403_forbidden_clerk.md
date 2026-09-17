@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/ed-donner/production"
-entryUrl: "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/README.md"
+entryUrl: "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/community_contributions/fix_windows_docker_403_forbidden_clerk.md"
+sourceRel: "community_contributions/fix_windows_docker_403_forbidden_clerk.md"
+rawUrl: "/raw/08-agents/ed-donner-production/community_contributions/fix_windows_docker_403_forbidden_clerk.md"
+sourceSha256: "d53b95075a3bbb40fbfc0460257067ac350cbdee50045d41cdce9fda98e4b64e"
+pageSha256: "d53b95075a3bbb40fbfc0460257067ac350cbdee50045d41cdce9fda98e4b64e"
+contentMode: "local-full"
 zh: ""
 ---
 

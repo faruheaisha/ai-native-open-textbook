@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "10-context-memory"
 sourceUrl: "https://github.com/coleam00/context-engineering-intro"
-entryUrl: "https://github.com/coleam00/context-engineering-intro/blob/a2d84b021cee1e2f4e77ba854bba0be8cb319035/README.md"
+entryUrl: "https://github.com/coleam00/context-engineering-intro/blob/a2d84b021cee1e2f4e77ba854bba0be8cb319035/use-cases/agent-factory-with-subagents/agents/rag_agent/planning/dependencies.md"
+sourceRel: "use-cases/agent-factory-with-subagents/agents/rag_agent/planning/dependencies.md"
+rawUrl: "/raw/10-context-memory/context-engineering-intro/use-cases/agent-factory-with-subagents/agents/rag_agent/planning/dependencies.md"
+sourceSha256: "8a5ea26ac1de103d8199e190e171b800430aee489a25ed98233675470d1dd274"
+pageSha256: "8a5ea26ac1de103d8199e190e171b800430aee489a25ed98233675470d1dd274"
+contentMode: "local-full"
 zh: "on"
 ---
 

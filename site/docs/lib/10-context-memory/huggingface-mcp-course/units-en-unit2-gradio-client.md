@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "10-context-memory"
 sourceUrl: "https://github.com/huggingface/mcp-course"
-entryUrl: "https://github.com/huggingface/mcp-course/blob/e706ccc0d7abe73c31813979c3451c0e31c8a464/README.md"
+entryUrl: "https://github.com/huggingface/mcp-course/blob/e706ccc0d7abe73c31813979c3451c0e31c8a464/units/en/unit2/gradio-client.mdx"
+sourceRel: "units/en/unit2/gradio-client.mdx"
+rawUrl: "/raw/10-context-memory/huggingface-mcp-course/units/en/unit2/gradio-client.mdx"
+sourceSha256: "b7a9a6e20db190570d081e18b016e814c100d7b57f6c41a030cbcf8a4f5ccbdb"
+pageSha256: "b7a9a6e20db190570d081e18b016e814c100d7b57f6c41a030cbcf8a4f5ccbdb"
+contentMode: "local-full"
 zh: "on"
 ---
 

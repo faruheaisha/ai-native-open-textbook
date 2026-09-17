@@ -1,0 +1,18 @@
+{
+  "id": "04-work/qwenwork-official-help",
+  "volume": "04-work",
+  "local": "qwenwork-official-help",
+  "title": "千问办公官方帮助中心（阿里云）",
+  "kind": "官方文档",
+  "license": "官方文档（阿里云帮助中心条款）",
+  "licenseLabel": "仅引用",
+  "licenseNote": "不可整篇转载，站内只做导航与引用",
+  "lang": "中文",
+  "needsTranslation": false,
+  "publishable": false,
+  "repo": null,
+  "site": null,
+  "commit": null,
+  "entryUrl": null,
+  "docs": 235
+}

@@ -10,6 +10,8 @@ lang: "英文"
 volume: "10-context-memory"
 sourceUrl: "https://github.com/patchy631/ai-engineering-hub"
 entryUrl: "https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/README.md"
+sourceRel: ""
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -19,28 +21,220 @@ Welcome to the **AI Engineering Hub** - your comprehensive resource for learning
 
 ## 课时
 
-1. [Summary Generator multi-agent workflow with ACP](acp-code.md)
-2. [Crash Course: Building AI Agents with Open-Source Tools](agent-with-mcp-memory.md)
-3. [Enterprise-grade, agentic RAG over complex real-world docs](agentic_rag_deepseek.md)
-4. [Agentic RAG using CrewAI](agentic_rag.md)
-5. [AI News generator](ai_news_generator.md)
-6. [Zep Documentation Data Directory](ai-avatar-demo-data.md)
-7. [AI Avatar Demo powered by Zep](ai-avatar-demo.md)
-8. [🚀 AI Engineering Roadmap](ai-engineering-roadmap.md)
-9. [🎙️ Podsite - AI Podcast Generation](ai-podcast-generation.md)
-10. [AI Podcast Generator](ai-podcast-generator.md)
-11. [Amazon Product Analysis MCP Server](amazon-product-analysis-server.md)
-12. [MCP-RL: Train AI Agents to Master MCP Servers with Reinforcement Learning](art_mcp_rl.md)
-13. [AssemblyAI Audio Analysis Toolkit](audio-analysis-toolkit.md)
-14. [Coding and Stock Analyst](autogen-stock-analyst.md)
-15. [Biotech Agentic Analyst](biotech-agentic-analyst.md)
-16. [{{crewname}} Crew](book-writer-flow-book_flow-book_writing_flow.md)
-17. [Chapter 1: Introduction to Astronomy in 2025](book-writer-flow-book_flow-book_writing_flow-src-book.md)
-18. [Book Writer flow using DeepMind's Gemma 3, CrewAI and BrightData](book-writer-flow.md)
-19. [Brand monitoring flow using DeepSeek-R1, CrewAI and BrightData](brand-monitoring.md)
-20. [Build Claude Code Harness using CrewAI](build-code-harness.md)
-21. [Build a reasoning model like DeepSeek-R1](Build-reasoning-model.md)
-22. [RAG over audio files using AssemblyAI](chat-with-audios.md)
-23. [Chat with Code using Qwen3-Coder](chat-with-code.md)
+- **🎯 Getting Started**
+  - [AI Engineering Roadmap](/lib/10-context-memory/ai-engineering-hub/ai-engineering-roadmap.md)
+- **🎓 Projects by Difficulty**
+  - **🟢 Beginner Projects**
+    - **OCR & Vision**
+      - [LaTeX OCR with Llama](/lib/10-context-memory/ai-engineering-hub/LaTeX-OCR-with-Llama.md)
+      - [Llama OCR](/lib/10-context-memory/ai-engineering-hub/llama-ocr.md)
+      - [Gemma-3 OCR](/lib/10-context-memory/ai-engineering-hub/gemma3-ocr.md)
+      - [Qwen 2.5 OCR](/lib/10-context-memory/ai-engineering-hub/qwen-2.5VL-ocr.md)
+    - **Chat Interfaces & UI**
+      - [Local ChatGPT with DeepSeek](/lib/10-context-memory/ai-engineering-hub/local-chatgpt_with_DeepSeek.md)
+      - [Local ChatGPT with Llama](/lib/10-context-memory/ai-engineering-hub/local-chatgpt.md)
+      - [Local ChatGPT with Gemma 3](/lib/10-context-memory/ai-engineering-hub/local-chatgpt_with_Gemma_3.md)
+      - [DeepSeek Thinking UI](/lib/10-context-memory/ai-engineering-hub/deepseek-thinking-ui.md)
+      - [Qwen3 Thinking UI](/lib/10-context-memory/ai-engineering-hub/qwen3-thinking-ui.md)
+      - [GPT-OSS Thinking UI](/lib/10-context-memory/ai-engineering-hub/gpt-oss-thinking-ui.md)
+      - [Streaming AI Chatbot](/lib/10-context-memory/ai-engineering-hub/streaming-ai-chatbot.md)
+    - **Basic RAG**
+      - [Simple RAG Workflow](/lib/10-context-memory/ai-engineering-hub/simple-rag-workflow.md)
+      - [Document Chat RAG](/lib/10-context-memory/ai-engineering-hub/document-chat-rag.md)
+      - [Fastest RAG Stack](/lib/10-context-memory/ai-engineering-hub/fastest-rag-stack.md)
+      - [GitHub RAG](/lib/10-context-memory/ai-engineering-hub/github-rag.md)
+      - [ModernBERT RAG](/lib/10-context-memory/ai-engineering-hub/modernbert-rag.md)
+      - [Llama 4 RAG](/lib/10-context-memory/ai-engineering-hub/llama-4-rag.md)
+    - **Multimodal & Media**
+      - [Image Generation with Janus-Pro](/lib/10-context-memory/ai-engineering-hub/imagegen-janus-pro.md)
+      - [Video RAG with Gemini](/lib/10-context-memory/ai-engineering-hub/video-rag-gemini.md)
+    - **Other Tools**
+      - [Website to API with FireCrawl](/lib/10-context-memory/ai-engineering-hub/Website-to-API-with-FireCrawl.md)
+      - [AI News Generator](/lib/10-context-memory/ai-engineering-hub/ai_news_generator.md)
+      - [Siamese Network](/lib/10-context-memory/ai-engineering-hub/siamese-network.md)
+  - **🟡 Intermediate Projects**
+    - **AI Agents & Workflows**
+      - [YouTube Trend Analysis](/lib/10-context-memory/ai-engineering-hub/Youtube-trend-analysis.md)
+      - [AutoGen Stock Analyst](/lib/10-context-memory/ai-engineering-hub/autogen-stock-analyst.md)
+      - [Agentic RAG](/lib/10-context-memory/ai-engineering-hub/agentic_rag.md)
+      - [Agentic RAG with DeepSeek](/lib/10-context-memory/ai-engineering-hub/agentic_rag_deepseek.md)
+      - [Book Writer Flow](/lib/10-context-memory/ai-engineering-hub/book-writer-flow.md)
+      - [Content Planner Flow](/lib/10-context-memory/ai-engineering-hub/content_planner_flow.md)
+      - [Brand Monitoring](/lib/10-context-memory/ai-engineering-hub/brand-monitoring.md)
+      - [Hotel Booking Crew](/lib/10-context-memory/ai-engineering-hub/hotel-booking-crew.md)
+      - [Deploy Agentic RAG](/lib/10-context-memory/ai-engineering-hub/deploy-agentic-rag.md)
+      - [Zep Memory Assistant](/lib/10-context-memory/ai-engineering-hub/zep-memory-assistant.md)
+      - [Agent with MCP Memory](/lib/10-context-memory/ai-engineering-hub/agent-with-mcp-memory.md)
+      - [ACP Code](/lib/10-context-memory/ai-engineering-hub/acp-code.md)
+      - [Motia Content Creation](/lib/10-context-memory/ai-engineering-hub/motia-content-creation.md)
+    - **Voice & Audio**
+      - [Real-time Voice Bot](/lib/10-context-memory/ai-engineering-hub/real-time-voicebot.md)
+      - [RAG Voice Agent](/lib/10-context-memory/ai-engineering-hub/rag-voice-agent.md)
+      - [Chat with Audios](/lib/10-context-memory/ai-engineering-hub/chat-with-audios.md)
+      - [Audio Analysis Toolkit](/lib/10-context-memory/ai-engineering-hub/audio-analysis-toolkit.md)
+      - [Multilingual Meeting Notes](/lib/10-context-memory/ai-engineering-hub/multilingual-meeting-notes-generator.md)
+    - **Advanced RAG**
+      - [RAG with Dockling](/lib/10-context-memory/ai-engineering-hub/rag-with-dockling.md)
+      - [Trustworthy RAG](/lib/10-context-memory/ai-engineering-hub/trustworthy-rag.md)
+      - [Fastest RAG with Milvus and Groq](/lib/10-context-memory/ai-engineering-hub/fastest-rag-milvus-groq.md)
+      - [Chat with Code](/lib/10-context-memory/ai-engineering-hub/chat-with-code.md)
+      - [RAG SQL Router](/lib/10-context-memory/ai-engineering-hub/rag-sql-router.md)
+    - **Multimodal**
+      - [DeepSeek Multimodal RAG](/lib/10-context-memory/ai-engineering-hub/deepseek-multimodal-RAG.md)
+      - [ColiVara Website RAG](/lib/10-context-memory/ai-engineering-hub/Colivara-deepseek-website-RAG.md)
+      - [Multimodal RAG with AssemblyAI](/lib/10-context-memory/ai-engineering-hub/multimodal-rag-assemblyai.md)
+    - **MCP (Model Context Protocol)**
+      - [Cursor Linkup MCP](/lib/10-context-memory/ai-engineering-hub/cursor_linkup_mcp.md)
+      - [EyeLevel MCP RAG](/lib/10-context-memory/ai-engineering-hub/eyelevel-mcp-rag.md)
+      - [LlamaIndex MCP](/lib/10-context-memory/ai-engineering-hub/llamaindex-mcp.md)
+      - [MCP Agentic RAG](/lib/10-context-memory/ai-engineering-hub/mcp-agentic-rag.md)
+      - [MCP Agentic RAG Firecrawl](/lib/10-context-memory/ai-engineering-hub/mcp-agentic-rag-firecrawl.md)
+      - [MCP Video RAG](/lib/10-context-memory/ai-engineering-hub/mcp-video-rag.md)
+      - [MCP Voice Agent](/lib/10-context-memory/ai-engineering-hub/mcp-voice-agent.md)
+      - [SDV MCP](/lib/10-context-memory/ai-engineering-hub/sdv-mcp.md)
+      - [KitOps MCP](/lib/10-context-memory/ai-engineering-hub/kitops-mcp.md)
+      - [Stagehand × MCP-Use](/lib/10-context-memory/ai-engineering-hub/stagehand_x_mcp-use.md)
+    - **Model Comparison & Evaluation**
+      - [Evaluation and Observability](/lib/10-context-memory/ai-engineering-hub/eval-and-observability.md)
+      - [Llama 4 vs DeepSeek-R1](/lib/10-context-memory/ai-engineering-hub/llama-4_vs_deepseek-r1.md)
+      - [Qwen3 vs DeepSeek-R1](/lib/10-context-memory/ai-engineering-hub/qwen3_vs_deepseek-r1.md)
+      - [O3 vs Claude Code](/lib/10-context-memory/ai-engineering-hub/o3-vs-claude-code.md)
+      - [Sonnet4 vs O4](/lib/10-context-memory/ai-engineering-hub/sonnet4-vs-o4.md)
+      - [Sonnet4 vs Qwen3-Coder](/lib/10-context-memory/ai-engineering-hub/sonnet4-vs-qwen3-coder.md)
+      - [Code Model Comparison](/lib/10-context-memory/ai-engineering-hub/code-model-comparison.md)
+      - [GPT-OSS vs Qwen3](/lib/10-context-memory/ai-engineering-hub/gpt-oss-vs-qwen3.md)
+  - **🔴 Advanced Projects**
+    - **Fine-tuning & Model Development**
+      - [DeepSeek Fine-tuning](/lib/10-context-memory/ai-engineering-hub/DeepSeek-finetuning.md)
+      - [Build Reasoning Model](/lib/10-context-memory/ai-engineering-hub/Build-reasoning-model.md)
+    - **Advanced Agent Systems**
+      - [Documentation Writer Flow](/lib/10-context-memory/ai-engineering-hub/documentation-writer-flow.md)
+      - [Multi-Agent Deep Researcher](/lib/10-context-memory/ai-engineering-hub/Multi-Agent-deep-researcher-mcp-windows-linux.md)
+      - [Multiplatform Deep Researcher](/lib/10-context-memory/ai-engineering-hub/multiplatform_deep_researcher.md)
+      - [Web Browsing Agent](/lib/10-context-memory/ai-engineering-hub/web-browsing-agent.md)
+      - [Paralegal Agent Crew](/lib/10-context-memory/ai-engineering-hub/paralegal-agent-crew.md)
+      - [FireCrawl Agent](/lib/10-context-memory/ai-engineering-hub/firecrawl-agent.md)
+      - [Context Engineering Workflow](/lib/10-context-memory/ai-engineering-hub/context-engineering-workflow.md)
+      - [Parlant Conversational Agent](/lib/10-context-memory/ai-engineering-hub/parlant-conversational-agent.md)
+      - [Stock Portfolio Analysis Agent](/lib/10-context-memory/ai-engineering-hub/stock-portfolio-analysis-agent.md)
+      - [Guidelines vs Traditional Prompt](/lib/10-context-memory/ai-engineering-hub/guidelines-vs-traditional-prompt.md)
+    - **Advanced MCP & Infrastructure**
+      - [MindsDB MCP](/lib/10-context-memory/ai-engineering-hub/mindsdb-mcp.md)
+      - [Financial Analyst DeepSeek](/lib/10-context-memory/ai-engineering-hub/financial-analyst-deepseek.md)
+      - [Graphiti MCP](/lib/10-context-memory/ai-engineering-hub/graphiti-mcp.md)
+      - [Pixeltable MCP](/lib/10-context-memory/ai-engineering-hub/pixeltable-mcp.md)
+      - [Ultimate AI Assistant](/lib/10-context-memory/ai-engineering-hub/ultimate-ai-assitant-using-mcp.md)
+    - **Production Systems**
+      - [GroundX Document Pipeline](/lib/10-context-memory/ai-engineering-hub/groundX-doc-pipeline.md)
+      - [NotebookLM Clone](/lib/10-context-memory/ai-engineering-hub/notebook-lm-clone.md)
+- [AI Avatar Demo powered by Zep](/lib/10-context-memory/ai-engineering-hub/ai-avatar-demo.md)
+  - [Zep Documentation Data Directory](/lib/10-context-memory/ai-engineering-hub/ai-avatar-demo-data.md)
+- [🎙️ Podsite - AI Podcast Generation](/lib/10-context-memory/ai-engineering-hub/ai-podcast-generation.md)
+- [AI Podcast Generator](/lib/10-context-memory/ai-engineering-hub/ai-podcast-generator.md)
+- [Amazon Product Analysis MCP Server](/lib/10-context-memory/ai-engineering-hub/amazon-product-analysis-server.md)
+- [MCP-RL: Train AI Agents to Master MCP Servers with Reinforcement Learning](/lib/10-context-memory/ai-engineering-hub/art_mcp_rl.md)
+- [Biotech Agentic Analyst](/lib/10-context-memory/ai-engineering-hub/biotech-agentic-analyst.md)
+- **book-writer-flow**
+  - **book_flow**
+    - [{{crewname}} Crew](/lib/10-context-memory/ai-engineering-hub/book-writer-flow-book_flow-book_writing_flow.md)
+      - **源码**
+        - [Chapter 1: Introduction to Astronomy in 2025](/lib/10-context-memory/ai-engineering-hub/book-writer-flow-book_flow-book_writing_flow-src-book.md)
+- [Build Claude Code Harness using CrewAI](/lib/10-context-memory/ai-engineering-hub/build-code-harness.md)
+- [Context Engineering with Pixeltable](/lib/10-context-memory/ai-engineering-hub/context-engineering-pipeline.md)
+- **context-engineering-workflow**
+  - **outputs**
+    - [Attention Is All You Need](/lib/10-context-memory/ai-engineering-hub/context-engineering-workflow-outputs-markdown_chunks.md)
+- [📚 Courses](/lib/10-context-memory/ai-engineering-hub/courses.md)
+  - [🎓 Anthropic Academy: Free AI Courses](/lib/10-context-memory/ai-engineering-hub/courses-anthropic-academy-courses.md)
+- [Database Memory Agent](/lib/10-context-memory/ai-engineering-hub/database-memory-agent.md)
+- [FineTune Studio](/lib/10-context-memory/ai-engineering-hub/finetune-studio-mcp-app.md)
+- [GRPO Fine-tuning on Fireworks Training API](/lib/10-context-memory/ai-engineering-hub/grpo-finetuning-qwen3.md)
+  - **agent-skill**
+    - **grpo-finetune**
+      - [GRPO Fine-Tune Skill](/lib/10-context-memory/ai-engineering-hub/grpo-finetuning-qwen3-agent-skill-grpo-finetune-SKILL.md)
+- [Hugging Face Skills (with Brightdata support)](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills.md)
+  - **apps**
+    - [Hackers Leaderboard](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-apps-hackers-leaderboard.md)
+    - [Humanity's Last Hackathon (of 2025)](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-apps-quests.md)
+      - [Week 1: Evaluate a Hub Model](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-apps-quests-02_evaluate-hub-model.md)
+      - [Week 2: Publish a Hub Dataset](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-apps-quests-03_publish-hub-dataset.md)
+      - [Week 3: Supervised Fine-Tuning on the Hub](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-apps-quests-04_sft-finetune-hub.md)
+  - **scripts**
+    - [AI Engineering Hub](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-scripts-AGENTS_TEMPLATE.md)
+  - **skills**
+    - **brightdata-web-mcp**
+      - [Bright Data Web MCP](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-brightdata-web-mcp-SKILL.md)
+      - **references**
+        - [Bright Data MCP Usage Examples](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-brightdata-web-mcp-references-examples.md)
+        - [Bright Data MCP Integrations](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-brightdata-web-mcp-references-integrations.md)
+        - [Bright Data MCP Setup Guide](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-brightdata-web-mcp-references-quickstart.md)
+        - [Bright Data MCP Tools Reference](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-brightdata-web-mcp-references-tools.md)
+        - [TOON Format for Token Optimization](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-brightdata-web-mcp-references-toon-format.md)
+    - **hugging-face-cli**
+      - [Hugging Face CLI](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-hugging-face-cli-SKILL.md)
+      - **references**
+        - [HF CLI Command Reference](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-hugging-face-cli-references-commands.md)
+        - [HF CLI Common Workflows & Examples](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-hugging-face-cli-references-examples.md)
+    - **hugging-face-datasets**
+      - [Overview](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-hugging-face-datasets-SKILL.md)
+    - **hugging-face-evaluation**
+      - [Overview](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-hugging-face-evaluation-SKILL.md)
+      - **示例**
+        - [Example Evaluation Table Formats](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-hugging-face-evaluation-examples-example_readme_tables.md)
+        - [Usage Examples](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-hugging-face-evaluation-examples-USAGE_EXAMPLES.md)
+    - **hugging-face-jobs**
+      - [Running Workloads on Hugging Face Jobs](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-hugging-face-jobs-SKILL.md)
+      - **references**
+        - [Hardware Selection Guide](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-hugging-face-jobs-references-hardware_guide.md)
+        - [Saving Results to Hugging Face Hub](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-hugging-face-jobs-references-hub_saving.md)
+        - [Token Usage Guide for Hugging Face Jobs](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-hugging-face-jobs-references-token_usage.md)
+        - [Troubleshooting Guide](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-hugging-face-jobs-references-troubleshooting.md)
+    - **hugging-face-model-trainer**
+      - [TRL Training on Hugging Face Jobs](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-hugging-face-model-trainer-SKILL.md)
+      - **references**
+        - [GGUF Conversion Guide](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-hugging-face-model-trainer-references-gguf_conversion.md)
+        - [Hardware Selection Guide](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-hugging-face-model-trainer-references-hardware_guide.md)
+        - [Saving Training Results to Hugging Face Hub](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-hugging-face-model-trainer-references-hub_saving.md)
+        - [Reliability Principles for Training Jobs](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-hugging-face-model-trainer-references-reliability_principles.md)
+        - [Trackio Integration for TRL Training](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-hugging-face-model-trainer-references-trackio_guide.md)
+        - [TRL Training Methods Overview](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-hugging-face-model-trainer-references-training_methods.md)
+        - [Common Training Patterns](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-hugging-face-model-trainer-references-training_patterns.md)
+        - [Troubleshooting TRL Training Jobs](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-hugging-face-model-trainer-references-troubleshooting.md)
+    - **hugging-face-paper-publisher**
+      - [Overview](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-hugging-face-paper-publisher-SKILL.md)
+      - **示例**
+        - [Example Usage: HF Paper Publisher Skill](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-hugging-face-paper-publisher-examples-example_usage.md)
+      - **references**
+        - [Quick Reference Guide](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-hugging-face-paper-publisher-references-quick_reference.md)
+      - **templates**
+        - [{{TITLE}}](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-hugging-face-paper-publisher-templates-arxiv.md)
+        - [{{TITLE}}](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-hugging-face-paper-publisher-templates-ml-report.md)
+        - [{{TITLE}}](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-hugging-face-paper-publisher-templates-modern.md)
+        - [{{TITLE}}](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-hugging-face-paper-publisher-templates-standard.md)
+    - **hugging-face-tool-builder**
+      - [Hugging Face API Tool Builder](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-hugging-face-tool-builder-SKILL.md)
+    - **hugging-face-trackio**
+      - [Trackio - Experiment Tracking for ML Training](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-hugging-face-trackio-SKILL.md)
+      - **references**
+        - [Logging Metrics with Trackio](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-hugging-face-trackio-references-logging_metrics.md)
+        - [Retrieving Metrics with Trackio CLI](/lib/10-context-memory/ai-engineering-hub/hugging-face-skills-skills-hugging-face-trackio-references-retrieving_metrics.md)
+- **kitops-mcp**
+  - **ml-project**
+    - [🤖 Minimal Model Training Demo](/lib/10-context-memory/ai-engineering-hub/kitops-mcp-ml-project-docs.md)
+- [Claude Sonnet 4.5 vs Minimax M2 vs Kimi K2 vs Gemini 3.0 on code generation using Opik](/lib/10-context-memory/ai-engineering-hub/minimaxm2-vs-sonnet4-5-vs-kimik2-vs-gemini3.md)
+- **multiplatform_deep_researcher**
+  - [iPhone 17 Launch: Comprehensive Update & Analysis](/lib/10-context-memory/ai-engineering-hub/multiplatform_deep_researcher-output.md)
+- [Open Agent Builder (with Composio)](/lib/10-context-memory/ai-engineering-hub/open-agent-builder.md)
+  - [Welcome to your Convex functions directory!](/lib/10-context-memory/ai-engineering-hub/open-agent-builder-convex.md)
+- [OpenClaw on DigitalOcean: Secure Deployment Guide](/lib/10-context-memory/ai-engineering-hub/openclaw-secure-deployment.md)
+- **pixeltable-mcp**
+  - [Audio Index MCP Server for Pixeltable](/lib/10-context-memory/ai-engineering-hub/pixeltable-mcp-audio-index.md)
+  - [Pixeltable MCP Server](/lib/10-context-memory/ai-engineering-hub/pixeltable-mcp-base-sdk.md)
+- [Sales Analytics Agent](/lib/10-context-memory/ai-engineering-hub/sales-analytics-agent.md)
+  - [Step-by-step Guide](/lib/10-context-memory/ai-engineering-hub/sales-analytics-agent-QUERY.md)
+- [Train YOLO26 Object Detection Model on a Custom Dataset](/lib/10-context-memory/ai-engineering-hub/train-yolo26-object-detection.md)
+- **video-rag-gemini**
+  - [🎬 Video RAG Usage Guide](/lib/10-context-memory/ai-engineering-hub/video-rag-gemini-USAGE.md)
+- [Zep Observations Demo](/lib/10-context-memory/ai-engineering-hub/zep-observations.md)
 
 开始学习 → [Summary Generator multi-agent workflow with ACP](acp-code.md)

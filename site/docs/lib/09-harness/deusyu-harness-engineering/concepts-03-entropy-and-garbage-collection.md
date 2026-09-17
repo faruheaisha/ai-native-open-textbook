@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/deusyu/harness-engineering"
-entryUrl: "https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/README.md"
+entryUrl: "https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/concepts/03-entropy-and-garbage-collection.md"
+sourceRel: "concepts/03-entropy-and-garbage-collection.md"
+rawUrl: "/raw/09-harness/deusyu-harness-engineering/concepts/03-entropy-and-garbage-collection.md"
+sourceSha256: "151f690cd4b816b250a456fbb9818f41816e3bf81b8d4921babf9572d5855781"
+pageSha256: "151f690cd4b816b250a456fbb9818f41816e3bf81b8d4921babf9572d5855781"
+contentMode: "local-full"
 zh: ""
 ---
 

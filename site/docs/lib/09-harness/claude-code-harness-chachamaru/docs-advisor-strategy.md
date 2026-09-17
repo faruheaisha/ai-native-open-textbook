@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/Chachamaru127/claude-code-harness"
-entryUrl: "https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/README.md"
+entryUrl: "https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/docs/advisor-strategy.md"
+sourceRel: "docs/advisor-strategy.md"
+rawUrl: "/raw/09-harness/claude-code-harness-chachamaru/docs/advisor-strategy.md"
+sourceSha256: "854a2c0629177f494e9d4a7944c71142158f24bf8db0ad2e62fa9afed523c0f2"
+pageSha256: "854a2c0629177f494e9d4a7944c71142158f24bf8db0ad2e62fa9afed523c0f2"
+contentMode: "local-full"
 zh: ""
 ---
 

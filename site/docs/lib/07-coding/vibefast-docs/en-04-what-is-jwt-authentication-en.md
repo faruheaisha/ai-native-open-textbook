@@ -8,13 +8,18 @@ lang: "英文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/vibefast-app/vibefast-docs"
-entryUrl: "https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/README.md"
+entryUrl: "https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/04-what-is-jwt-authentication-en.md"
+sourceRel: "en/04-what-is-jwt-authentication-en.md"
+rawUrl: "/raw/07-coding/vibefast-docs/en/04-what-is-jwt-authentication-en.md"
+sourceSha256: "2e49d83785fd2192f9990ab1a9f1ddc49637bdf5277bcba101fe1ebe1d8a0db0"
+pageSha256: "2e49d83785fd2192f9990ab1a9f1ddc49637bdf5277bcba101fe1ebe1d8a0db0"
+contentMode: "local-full"
 zh: ""
 ---
 
 # What is JWT? Plain English Explanation of This Tech You Use Every Day
 
-[English](/lib/07-coding/vibefast-docs/en-04-what-is-jwt-authentication-en) · [繁中](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/zh/04-what-is-jwt-authentication-zh.md) · [Español](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/es/04-what-is-jwt-authentication-es.md) · [日本語](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/jp/04-what-is-jwt-authentication-jp.md) · [Português (BR)](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/pt-br/04-what-is-jwt-authentication-pt-br.md)
+[English](/lib/07-coding/vibefast-docs/en-04-what-is-jwt-authentication-en) · [繁中](/lib/07-coding/vibefast-docs/zh-04-what-is-jwt-authentication-zh) · [Español](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/es/04-what-is-jwt-authentication-es.md) · [日本語](/lib/07-coding/vibefast-docs/jp-04-what-is-jwt-authentication-jp) · [Português (BR)](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/pt-br/04-what-is-jwt-authentication-pt-br.md)
 
 **Author:** Danko Peng ([@dankopeng](https://x.com/dankopeng))  
 **Updated:** March 2026  

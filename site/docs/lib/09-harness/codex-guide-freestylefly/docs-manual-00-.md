@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/freestylefly/CodexGuide"
-entryUrl: "https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/README.md"
+entryUrl: "https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/manual/00-index.md"
+sourceRel: "docs/manual/00-index.md"
+rawUrl: "/raw/09-harness/codex-guide-freestylefly/docs/manual/00-index.md"
+sourceSha256: "48abb82886c83977cdfaa02e843a6e64403c14468d6cb6771450aa7d66f492ca"
+pageSha256: "48abb82886c83977cdfaa02e843a6e64403c14468d6cb6771450aa7d66f492ca"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -64,5 +69,5 @@ zh: ""
 
 ## 延伸阅读
 
-- [近期 Codex 更新](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/manual/01-codex-updates.md)
+- [近期 Codex 更新](/lib/09-harness/codex-guide-freestylefly/docs-manual-01-codex-updates)
 - [参考来源与致谢](/lib/09-harness/codex-guide-freestylefly/docs-manual-02-credits)

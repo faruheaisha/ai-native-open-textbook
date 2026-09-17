@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/AlephAITech/WorkBuddyGuide"
-entryUrl: "https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89da368fe208425ff50e121fe/README.md"
+entryUrl: "https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇%20案例篇：从一项任务到一支%20AI%20团队/第%2017%20章%20会议结束不是终点，工作才刚刚开始/index.md"
+sourceRel: "docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 17 章 会议结束不是终点，工作才刚刚开始/index.md"
+rawUrl: "/raw/04-work/workbuddy-guide/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 17 章 会议结束不是终点，工作才刚刚开始/index.md"
+sourceSha256: "bcfc2b73141e58e9c32eb14bbdcc76d6d39ecf04462855d4ebb03b2de1199f05"
+pageSha256: "bcfc2b73141e58e9c32eb14bbdcc76d6d39ecf04462855d4ebb03b2de1199f05"
+contentMode: "local-full"
 zh: ""
 ---
 

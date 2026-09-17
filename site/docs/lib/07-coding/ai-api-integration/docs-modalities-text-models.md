@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/CCCpan/ai-api-integration"
-entryUrl: "https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/README.md"
+entryUrl: "https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/docs/modalities/text-models.md"
+sourceRel: "docs/modalities/text-models.md"
+rawUrl: "/raw/07-coding/ai-api-integration/docs/modalities/text-models.md"
+sourceSha256: "7dd58da24fe68b64d2d624e865d87168c73d44f13c8c9ef68b2162babc9d11cf"
+pageSha256: "7dd58da24fe68b64d2d624e865d87168c73d44f13c8c9ef68b2162babc9d11cf"
+contentMode: "local-full"
 zh: ""
 ---
 

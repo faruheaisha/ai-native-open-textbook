@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "13-local-ai"
 sourceUrl: "https://github.com/microsoft/edgeai-for-beginners"
-entryUrl: "https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/README.md"
+entryUrl: "https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/Module03/02.DeployingSLMinLocalEnv.md"
+sourceRel: "Module03/02.DeployingSLMinLocalEnv.md"
+rawUrl: "/raw/13-local-ai/edgeai-for-beginners/Module03/02.DeployingSLMinLocalEnv.md"
+sourceSha256: "da892e49318585fe19727dcc123821d6344bb01725a859588c2c4fc9605c47fc"
+pageSha256: "da892e49318585fe19727dcc123821d6344bb01725a859588c2c4fc9605c47fc"
+contentMode: "local-full"
 zh: ""
 ---
 

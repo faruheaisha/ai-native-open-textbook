@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/datawhalechina/vibe-vibe"
-entryUrl: "https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/README.md"
+entryUrl: "https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/Advanced/01-environment-setup/03-browser-server.md"
+sourceRel: "docs/Advanced/01-environment-setup/03-browser-server.md"
+rawUrl: "/raw/07-coding/vibe-vibe/docs/Advanced/01-environment-setup/03-browser-server.md"
+sourceSha256: "6091765e0641319d0adcf4a388df5c04ce3ca228da2e70a19d6110a955599ba2"
+pageSha256: "6091765e0641319d0adcf4a388df5c04ce3ca228da2e70a19d6110a955599ba2"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -119,7 +124,7 @@ graph LR
 
 ## 相关内容
 
-- 详见：[1.1 代码格式演变](https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/Advanced/01-environment-setup/01-code-formats.md)
+- 详见：[1.1 代码格式演变](/lib/07-coding/vibe-vibe/docs-Advanced-01-environment-setup-01-code-formats)
 - 详见：[1.2 技术栈概念](/lib/07-coding/vibe-vibe/docs-Advanced-01-environment-setup-02-tech-stack)
 - 后续：[1.5 包管理与项目配置](/lib/07-coding/vibe-vibe/docs-Advanced-01-environment-setup-05-package-manager-and-config)
 - 详见：[第十章 Localhost 与公网访问](https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/Advanced/10-localhost-public-access/README.md)

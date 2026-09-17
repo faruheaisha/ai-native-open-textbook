@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/shanraisshan/codex-cli-best-practice"
-entryUrl: "https://github.com/shanraisshan/codex-cli-best-practice/blob/b79f473a188632867354fc793894dfd368a18e48/README.md"
+entryUrl: "https://github.com/shanraisshan/codex-cli-best-practice/blob/b79f473a188632867354fc793894dfd368a18e48/best-practice/codex-mcp.md"
+sourceRel: "best-practice/codex-mcp.md"
+rawUrl: "/raw/09-harness/codex-cli-best-practice/best-practice/codex-mcp.md"
+sourceSha256: "a08a38d062e82f89875fa08d7933390cde0ac49887953f9594f01a8ed1df8feb"
+pageSha256: "a08a38d062e82f89875fa08d7933390cde0ac49887953f9594f01a8ed1df8feb"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -106,7 +111,7 @@ Codex supports richer MCP capabilities beyond plain tool calls:
 | Tool-call metadata | Codex sends `_meta` with requests; reads `_meta` from results |
 | Custom-server tool search | `/mcp` tool search extends to your own servers |
 | Server-driven elicitations | TUI renders a form from a JSON schema the server sends |
-| File-parameter uploads | Server declares `_meta: { "openai/fileParams": ["file", ...] }`; Codex rewrites the param schema to accept absolute local paths |
+| File-parameter uploads | Server declares `_meta: \{ "openai/fileParams": ["file", ...] \}`; Codex rewrites the param schema to accept absolute local paths |
 
 Approval policy `Never` auto-rejects elicitations. `DangerFullAccess` auto-
 approves them.

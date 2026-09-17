@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/datawhalechina/deepagents-in-action"
-entryUrl: "https://github.com/datawhalechina/deepagents-in-action/blob/4097ff944f9ffa1bdfe2dd04f751f4416b058860/README.md"
+entryUrl: "https://github.com/datawhalechina/deepagents-in-action/blob/4097ff944f9ffa1bdfe2dd04f751f4416b058860/content/ch10-sandboxes.md"
+sourceRel: "content/ch10-sandboxes.md"
+rawUrl: "/raw/08-agents/deepagents-in-action/content/ch10-sandboxes.md"
+sourceSha256: "fd30f9a61fb6697ef7954553418da87340df5dfe9f07a50e3770abbf16f3e0d4"
+pageSha256: "fd30f9a61fb6697ef7954553418da87340df5dfe9f07a50e3770abbf16f3e0d4"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -362,7 +367,7 @@ dcode --sandbox
 
 ### 设置脚本的边界
 
-`--sandbox-setup` 适合克隆受信任仓库、安装依赖或准备非敏感环境。Deep Agents Code 会用本地环境变量展开脚本中的 `${VAR}`；这不是把秘密“安全地传给沙箱”的机制。若脚本把 Token 写入沙箱，提示注入的 Agent 就可能读取并外传它。
+`--sandbox-setup` 适合克隆受信任仓库、安装依赖或准备非敏感环境。Deep Agents Code 会用本地环境变量展开脚本中的 `$\{VAR\}`；这不是把秘密“安全地传给沙箱”的机制。若脚本把 Token 写入沙箱，提示注入的 Agent 就可能读取并外传它。
 
 因此只对受信任脚本使用此功能；秘密应优先留在宿主工具中。如果确实必须注入短时凭证，结合完整工具审批、网络限制、最小权限和出站监控，并承认这仍是不安全的权宜之计。
 

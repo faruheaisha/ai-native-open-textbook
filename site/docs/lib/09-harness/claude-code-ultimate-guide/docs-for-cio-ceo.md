@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide"
-entryUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/README.md"
+entryUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/docs/for-cio-ceo.md"
+sourceRel: "docs/for-cio-ceo.md"
+rawUrl: "/raw/09-harness/claude-code-ultimate-guide/docs/for-cio-ceo.md"
+sourceSha256: "a1c4e2f8cb07fec7084171d412a653a50d1ab3f90e3b72fc869981452c8c5513"
+pageSha256: "a1c4e2f8cb07fec7084171d412a653a50d1ab3f90e3b72fc869981452c8c5513"
+contentMode: "local-full"
 zh: ""
 ---
 

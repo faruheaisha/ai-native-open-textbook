@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "04-work"
 sourceUrl: "https://github.com/tangshiyegit/agent-guide"
-entryUrl: "https://github.com/tangshiyegit/agent-guide/blob/ae8b2262e7a1e5bd0d466037c6ad9f6037b72c33/README.md"
+entryUrl: "https://github.com/tangshiyegit/agent-guide/blob/ae8b2262e7a1e5bd0d466037c6ad9f6037b72c33/src/Coze指南/AI基础知识/06.掌握DeepSeek从提问技巧开始.md"
+sourceRel: "src/Coze指南/AI基础知识/06.掌握DeepSeek从提问技巧开始.md"
+rawUrl: "/raw/04-work/agent-guide-office/src/Coze指南/AI基础知识/06.掌握DeepSeek从提问技巧开始.md"
+sourceSha256: "ece6f0b21e557d5a7c21d5f4b1a18f21fc24ef8e1296f5a0beac7928080e5779"
+pageSha256: "ece6f0b21e557d5a7c21d5f4b1a18f21fc24ef8e1296f5a0beac7928080e5779"
+contentMode: "local-full"
 zh: ""
 ---
 

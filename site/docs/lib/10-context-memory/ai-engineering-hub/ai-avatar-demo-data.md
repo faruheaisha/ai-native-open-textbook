@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/patchy631/ai-engineering-hub"
-entryUrl: "https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/README.md"
+entryUrl: "https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/ai-avatar-demo/data/README.md"
+sourceRel: "ai-avatar-demo/data/README.md"
+rawUrl: "/raw/10-context-memory/ai-engineering-hub/ai-avatar-demo/data/README.md"
+sourceSha256: "825e0c873aa608697b391faaf2841eca6c80e1ce6653d8c55b137f492c533cb6"
+pageSha256: "825e0c873aa608697b391faaf2841eca6c80e1ce6653d8c55b137f492c533cb6"
+contentMode: "local-full"
 zh: ""
 ---
 

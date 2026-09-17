@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering"
-entryUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/README.md"
+entryUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/docs/netflix_context.md"
+sourceRel: "docs/netflix_context.md"
+rawUrl: "/raw/10-context-memory/agent-skills-for-context-engineering/docs/netflix_context.md"
+sourceSha256: "81573a6abb27b3be545068e14e4383be5ba97056d1221f03fe5c51bf872baa5e"
+pageSha256: "81573a6abb27b3be545068e14e4383be5ba97056d1221f03fe5c51bf872baa5e"
+contentMode: "local-full"
 zh: ""
 ---
 

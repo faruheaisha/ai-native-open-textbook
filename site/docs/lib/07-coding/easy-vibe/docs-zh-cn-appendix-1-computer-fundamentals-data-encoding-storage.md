@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/datawhalechina/easy-vibe"
-entryUrl: "https://github.com/datawhalechina/easy-vibe/blob/130e9b75b28b524e8cc74e615fd9733a4e2b330d/README.md"
+entryUrl: "https://github.com/datawhalechina/easy-vibe/blob/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/appendix/1-computer-fundamentals/data-encoding-storage.md"
+sourceRel: "docs/zh-cn/appendix/1-computer-fundamentals/data-encoding-storage.md"
+rawUrl: "/raw/07-coding/easy-vibe/docs/zh-cn/appendix/1-computer-fundamentals/data-encoding-storage.md"
+sourceSha256: "19d0f548d225b569382aa61c1e87e55a8c22a33ce537721ce56bac57c3896ee6"
+pageSha256: "19d0f548d225b569382aa61c1e87e55a8c22a33ce537721ce56bac57c3896ee6"
+contentMode: "local-full"
 zh: ""
 ---
 

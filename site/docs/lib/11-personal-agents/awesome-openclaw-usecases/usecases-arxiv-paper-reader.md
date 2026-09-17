@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases"
-entryUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/README.md"
+entryUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/arxiv-paper-reader.md"
+sourceRel: "usecases/arxiv-paper-reader.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-usecases/usecases/arxiv-paper-reader.md"
+sourceSha256: "12c33fa3fbff6e22a316a4a0ed1df41587c54e5fed7cbefffde2dbc96b9833f3"
+pageSha256: "12c33fa3fbff6e22a316a4a0ed1df41587c54e5fed7cbefffde2dbc96b9833f3"
+contentMode: "local-full"
 zh: ""
 ---
 

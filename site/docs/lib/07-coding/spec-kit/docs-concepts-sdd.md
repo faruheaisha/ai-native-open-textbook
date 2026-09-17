@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/github/spec-kit"
-entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/README.md"
+entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/docs/concepts/sdd.md"
+sourceRel: "docs/concepts/sdd.md"
+rawUrl: "/raw/07-coding/spec-kit/docs/concepts/sdd.md"
+sourceSha256: "269cd82ad469ba53d5f9cbde4c9087dd92793003df8c5c2f3320c25bcf19a7a8"
+pageSha256: "269cd82ad469ba53d5f9cbde4c9087dd92793003df8c5c2f3320c25bcf19a7a8"
+contentMode: "local-full"
 zh: ""
 ---
 

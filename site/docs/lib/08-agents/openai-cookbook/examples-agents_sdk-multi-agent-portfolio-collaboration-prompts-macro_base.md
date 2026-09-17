@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/openai/openai-cookbook"
-entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/README.md"
+entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/examples/agents_sdk/multi-agent-portfolio-collaboration/prompts/macro_base.md"
+sourceRel: "examples/agents_sdk/multi-agent-portfolio-collaboration/prompts/macro_base.md"
+rawUrl: "/raw/08-agents/openai-cookbook/examples/agents_sdk/multi-agent-portfolio-collaboration/prompts/macro_base.md"
+sourceSha256: "f78dc8b561728b5eb5fcaefdac744a784fb1f0c000d92a5063f4858f6d9ebe03"
+pageSha256: "f78dc8b561728b5eb5fcaefdac744a784fb1f0c000d92a5063f4858f6d9ebe03"
+contentMode: "local-full"
 zh: ""
 ---
 

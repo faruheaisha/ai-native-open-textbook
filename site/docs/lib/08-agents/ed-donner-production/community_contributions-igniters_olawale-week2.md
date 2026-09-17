@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/ed-donner/production"
-entryUrl: "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/README.md"
+entryUrl: "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/community_contributions/igniters_olawale/week2.md"
+sourceRel: "community_contributions/igniters_olawale/week2.md"
+rawUrl: "/raw/08-agents/ed-donner-production/community_contributions/igniters_olawale/week2.md"
+sourceSha256: "3defa3f82f597032b317ed37eea160556f9a8dd2b58b6612b8e4644a62f71db5"
+pageSha256: "3defa3f82f597032b317ed37eea160556f9a8dd2b58b6612b8e4644a62f71db5"
+contentMode: "local-full"
 zh: ""
 ---
 

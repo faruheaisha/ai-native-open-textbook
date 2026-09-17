@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/KhazP/vibe-coding-prompt-template"
-entryUrl: "https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/README.md"
+entryUrl: "https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/examples/reddit-to-ai/PRD-reddit-to-ai-MVP.md"
+sourceRel: "examples/reddit-to-ai/PRD-reddit-to-ai-MVP.md"
+rawUrl: "/raw/07-coding/vibe-coding-prompt-template/examples/reddit-to-ai/PRD-reddit-to-ai-MVP.md"
+sourceSha256: "643bc14b4749e3e0ab543d0ae73cda84d49466bfb09a4177691c8a2232f0fdce"
+pageSha256: "643bc14b4749e3e0ab543d0ae73cda84d49466bfb09a4177691c8a2232f0fdce"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -67,9 +72,9 @@ Reddit threads hold some of the best discussion on the internet, and AI chats ar
 - **Priority:** P0 (Critical)
 
 #### 2. Prompt Presets & Custom Templates
-- **What:** One-click presets (Summarization, Debate Analysis, Sentiment Analysis, ELI5, Key Takeaways) plus custom templates using a `{content}` placeholder.
+- **What:** One-click presets (Summarization, Debate Analysis, Sentiment Analysis, ELI5, Key Takeaways) plus custom templates using a `\{content\}` placeholder.
 - **User Story:** As a user, I want my favorite analysis style saved so that I never retype instructions.
-- **Success Criteria:** every preset produces a complete prompt with the thread inserted at `{content}`; saved custom templates are reusable
+- **Success Criteria:** every preset produces a complete prompt with the thread inserted at `\{content\}`; saved custom templates are reusable
 - **Priority:** P0 (Critical)
 
 #### 3. Preview Before Sending (Context Budget)

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/microsoft/AI-Engineering-Coach"
-entryUrl: "https://github.com/microsoft/AI-Engineering-Coach/blob/18b1a3d16b586c171426c6a407cc5c2dc073556e/README.md"
+entryUrl: "https://github.com/microsoft/AI-Engineering-Coach/blob/18b1a3d16b586c171426c6a407cc5c2dc073556e/docs/content/getting-started/installation.md"
+sourceRel: "docs/content/getting-started/installation.md"
+rawUrl: "/raw/08-agents/microsoft-ai-engineering-coach/docs/content/getting-started/installation.md"
+sourceSha256: "b2c1a5841d304f165d2149d1f9b2176a82874dc6ffd731d5c370053867138836"
+pageSha256: "b2c1a5841d304f165d2149d1f9b2176a82874dc6ffd731d5c370053867138836"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "08-agents"
 sourceUrl: "https://github.com/huggingface/agents-course"
-entryUrl: "https://github.com/huggingface/agents-course/blob/b3946b1d09d29c65736e219d48a8a736a2c52154/README.md"
+entryUrl: "https://github.com/huggingface/agents-course/blob/b3946b1d09d29c65736e219d48a8a736a2c52154/units/en/bonus-unit1/fine-tuning.mdx"
+sourceRel: "units/en/bonus-unit1/fine-tuning.mdx"
+rawUrl: "/raw/08-agents/huggingface-agents-course/units/en/bonus-unit1/fine-tuning.mdx"
+sourceSha256: "c221b95a1e2298fec6830644052e1e578d95016ae4af2425cd673014ff93984a"
+pageSha256: "c221b95a1e2298fec6830644052e1e578d95016ae4af2425cd673014ff93984a"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "13-local-ai"
 sourceUrl: "https://github.com/microsoft/edgeai-for-beginners"
-entryUrl: "https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/README.md"
+entryUrl: "https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/Module02/README.md"
+sourceRel: "Module02/README.md"
+rawUrl: "/raw/13-local-ai/edgeai-for-beginners/Module02/README.md"
+sourceSha256: "d8a2d996e355e38ea7b63856a7ce71500edcf389c530ee1c826af210d89c0a6f"
+pageSha256: "d8a2d996e355e38ea7b63856a7ce71500edcf389c530ee1c826af210d89c0a6f"
+contentMode: "local-full"
 zh: "on"
 ---
 
@@ -46,7 +51,7 @@ This section emphasizes the democratization of AI technology through open-source
 
 <div class="tb-zh"><p>本节强调通过开源可及性推动 AI 技术的民主化，同时保持有竞争力的性能表现。</p></div>
 
-### **[Section 3: Gemma Family Fundamentals](/lib/13-local-ai/edgeai-for-beginners/Module02-03.GemmaFamily)**
+### **[Section 3: Gemma Family Fundamentals](/lib/13-local-ai/edgeai-for-beginners/Module02-03.GemmaFamily/index)**
 The third section explores Google's comprehensive approach to open-source multimodal AI, showcasing how research-driven development can deliver accessible yet powerful AI capabilities. This section covers:
 
 - **Research-Driven Innovation**: Comprehensive coverage of Gemma 3 and Gemma 3n architectures, featuring breakthrough Per-Layer Embeddings (PLE) technology and mobile-first optimization strategies
@@ -59,10 +64,10 @@ This section demonstrates how cutting-edge research can be translated into pract
 
 <div class="tb-zh"><p>本节展示如何把前沿研究转化为实用、易得的 AI 方案，从而催生新类别的应用。</p></div>
 
-### **[Section 4: BitNET Family Fundamentals](/lib/13-local-ai/edgeai-for-beginners/Module02-04.BitNETFamily)**
+### **[Section 4: BitNET Family Fundamentals](/lib/13-local-ai/edgeai-for-beginners/Module02-04.BitNETFamily/index)**
 The fourth section presents Microsoft's revolutionary approach to 1-bit quantization, representing the frontier of ultra-efficient AI deployment. This advanced section covers:
 
-- **Revolutionary Quantization**: Comprehensive exploration of 1.58-bit quantization using ternary weights {-1, 0, +1}, achieving 1.37x to 6.17x speedups with 55-82% energy reduction
+- **Revolutionary Quantization**: Comprehensive exploration of 1.58-bit quantization using ternary weights \{-1, 0, +1\}, achieving 1.37x to 6.17x speedups with 55-82% energy reduction
 - **Optimized Inference Framework**: Detailed coverage of bitnet.cpp implementation from [https://github.com/microsoft/BitNet](https://github.com/microsoft/BitNet), specialized kernels, and cross-platform optimizations delivering unprecedented efficiency gains
 - **Sustainable AI Leadership**: In-depth analysis of environmental benefits, democratized deployment capabilities, and new application scenarios enabled by extreme efficiency
 

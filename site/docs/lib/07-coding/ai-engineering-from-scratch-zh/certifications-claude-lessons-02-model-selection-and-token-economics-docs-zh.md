@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh"
-entryUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/README.md"
+entryUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/certifications/claude/lessons/02-model-selection-and-token-economics/docs/zh.md"
+sourceRel: "certifications/claude/lessons/02-model-selection-and-token-economics/docs/zh.md"
+rawUrl: "/raw/07-coding/ai-engineering-from-scratch-zh/certifications/claude/lessons/02-model-selection-and-token-economics/docs/zh.md"
+sourceSha256: "a21c01b05438ccf0665f6a356f5941626a4bab219354975fdb258291e1c114e4"
+pageSha256: "a21c01b05438ccf0665f6a356f5941626a4bab219354975fdb258291e1c114e4"
+contentMode: "local-full"
 zh: ""
 ---
 

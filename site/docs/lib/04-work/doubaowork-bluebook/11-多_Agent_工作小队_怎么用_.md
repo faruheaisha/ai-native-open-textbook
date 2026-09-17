@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/AlephAITech/DoubaoWorkGuide"
-entryUrl: "https://github.com/AlephAITech/DoubaoWorkGuide/blob/ad7338e8fc889ec082cdfb3fa41fb659520c7174/01-初始豆包工作.md"
+entryUrl: "https://github.com/AlephAITech/DoubaoWorkGuide/blob/ad7338e8fc889ec082cdfb3fa41fb659520c7174/11-多%20Agent（工作小队）怎么用？.md"
+sourceRel: "11-多 Agent（工作小队）怎么用？.md"
+rawUrl: "/raw/04-work/doubaowork-bluebook/11-多 Agent（工作小队）怎么用？.md"
+sourceSha256: "95562df4de71e79234edbd435a03be02bd0fb848765c58fa736b0703d3e721d0"
+pageSha256: "95562df4de71e79234edbd435a03be02bd0fb848765c58fa736b0703d3e721d0"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/walkinglabs/learn-harness-engineering"
-entryUrl: "https://github.com/walkinglabs/learn-harness-engineering/blob/77e7a3e21469dcbece2558086c8d91657abeaa40/README.md"
+entryUrl: "https://github.com/walkinglabs/learn-harness-engineering/blob/77e7a3e21469dcbece2558086c8d91657abeaa40/docs/zh/lectures/lecture-02-what-a-harness-actually-is/code/harness-components.md"
+sourceRel: "docs/zh/lectures/lecture-02-what-a-harness-actually-is/code/harness-components.md"
+rawUrl: "/raw/09-harness/learn-harness-engineering/docs/zh/lectures/lecture-02-what-a-harness-actually-is/code/harness-components.md"
+sourceSha256: "49474990487534531c5d7775e501c5a5da66a3b1ee7570640d60c21e91babaa4"
+pageSha256: "49474990487534531c5d7775e501c5a5da66a3b1ee7570640d60c21e91babaa4"
+contentMode: "local-full"
 zh: ""
 ---
 

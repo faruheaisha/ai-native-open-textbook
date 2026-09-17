@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "01-foundations"
 sourceUrl: "https://github.com/zorost/AI-Engineering-Lab"
-entryUrl: "https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/README.md"
+entryUrl: "https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/curriculum/week-06/README.md"
+sourceRel: "curriculum/week-06/README.md"
+rawUrl: "/raw/01-foundations/ai-engineering-lab/curriculum/week-06/README.md"
+sourceSha256: "1a3964f5b9a7dd91d73af1c91e09e24c360bfd55aa19fa666919625915b5f07d"
+pageSha256: "1a3964f5b9a7dd91d73af1c91e09e24c360bfd55aa19fa666919625915b5f07d"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -36,7 +41,7 @@ By Friday you can:
 
 | Day | Study | Run / build | Ship | Time |
 |---|---|---|---|---|
-| **Mon** | Message roles, system prompts, the technique ladder in [`reference/knowledge-base/04-prompt-context-engineering.md`](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/reference/knowledge-base/04-prompt-context-engineering.md) §2 to 3 | Skim `01-prompt-suite-bol-extraction.ipynb` cells 0 to 4 (the grader) | Notes: "a schema constrains shape, never truth" | ~2 h |
+| **Mon** | Message roles, system prompts, the technique ladder in [`reference/knowledge-base/04-prompt-context-engineering.md`](/lib/01-foundations/ai-engineering-lab/reference-knowledge-base-04-prompt-context-engineering) §2 to 3 | Skim `01-prompt-suite-bol-extraction.ipynb` cells 0 to 4 (the grader) | Notes: "a schema constrains shape, never truth" | ~2 h |
 | **Tue** | The measured loop and evals (§4) | Run notebook 1 versions 1 to 2 against the 20 BoLs | Per-field accuracy table for v1/v2 | ~2 h |
 | **Wed** | Structured outputs + few-shot (§3) | Run version 3; add the null rule and injection rule | v3 score + failure cases | ~2 h |
 | **Thu** | Context budgets, compaction, caching (§5) | Run `02-context-engineering.ipynb` end-to-end | Compaction % and cache-savings % | ~2 h |
@@ -46,7 +51,7 @@ By Friday you can:
 
 ## Concepts
 
-Read [`reference/knowledge-base/04-prompt-context-engineering.md`](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/reference/knowledge-base/04-prompt-context-engineering.md) first. The shift this week is from "what do I say" to "what do I put in front of the model, in what order, at what cost." Andrew Ng's Skills Map names the skill **context engineering**, not prompt engineering: phrasing became table stakes while the window became the scarce resource.
+Read [`reference/knowledge-base/04-prompt-context-engineering.md`](/lib/01-foundations/ai-engineering-lab/reference-knowledge-base-04-prompt-context-engineering) first. The shift this week is from "what do I say" to "what do I put in front of the model, in what order, at what cost." Andrew Ng's Skills Map names the skill **context engineering**, not prompt engineering: phrasing became table stakes while the window became the scarce resource.
 
 ### Message roles and the system prompt
 
@@ -104,7 +109,7 @@ Separate **jailbreak** (the *user* talks the model into breaking its own policy)
 
 ### Worked example 1: a BoL extraction budget
 
-The canonical seven-claimant budget for one extraction call, against an 8,000-token working ceiling (from [`knowledge-base/04`](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/reference/knowledge-base/04-prompt-context-engineering.md) §7.1), with the *measured* reality from the notebook overlaid:
+The canonical seven-claimant budget for one extraction call, against an 8,000-token working ceiling (from [`knowledge-base/04`](/lib/01-foundations/ai-engineering-lab/reference-knowledge-base-04-prompt-context-engineering) §7.1), with the *measured* reality from the notebook overlaid:
 
 | Claimant | Budget (tokens) | Measured in the notebook | What it holds |
 |---|---|---|---|

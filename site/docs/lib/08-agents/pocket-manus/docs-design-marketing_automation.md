@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/Osly-AI/PocketManus"
-entryUrl: "https://github.com/Osly-AI/PocketManus/blob/8ab0ec5f2d5dc17ff58b060af7afcda08a9f57fd/README.md"
+entryUrl: "https://github.com/Osly-AI/PocketManus/blob/8ab0ec5f2d5dc17ff58b060af7afcda08a9f57fd/docs/design/marketing_automation.md"
+sourceRel: "docs/design/marketing_automation.md"
+rawUrl: "/raw/08-agents/pocket-manus/docs/design/marketing_automation.md"
+sourceSha256: "891c761ec68893be807847748b7dc658bb74bcb52be92da30faeb35f7bc5f5e4"
+pageSha256: "891c761ec68893be807847748b7dc658bb74bcb52be92da30faeb35f7bc5f5e4"
+contentMode: "local-full"
 zh: ""
 ---
 

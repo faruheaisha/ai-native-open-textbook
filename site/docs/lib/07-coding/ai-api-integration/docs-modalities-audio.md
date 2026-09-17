@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/CCCpan/ai-api-integration"
-entryUrl: "https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/README.md"
+entryUrl: "https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/docs/modalities/audio.md"
+sourceRel: "docs/modalities/audio.md"
+rawUrl: "/raw/07-coding/ai-api-integration/docs/modalities/audio.md"
+sourceSha256: "5633641091b730a574a8a017bb20d2ff95c6e875c3fe14cdf4460c5df1da1e7c"
+pageSha256: "5633641091b730a574a8a017bb20d2ff95c6e875c3fe14cdf4460c5df1da1e7c"
+contentMode: "local-full"
 zh: ""
 ---
 

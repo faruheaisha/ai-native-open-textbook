@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/rohitg00/ai-engineering-from-scratch"
-entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/README.md"
+entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/certifications/claude/lessons/13-application-security-and-secrets/docs/en.md"
+sourceRel: "certifications/claude/lessons/13-application-security-and-secrets/docs/en.md"
+rawUrl: "/raw/07-coding/ai-engineering-from-scratch/certifications/claude/lessons/13-application-security-and-secrets/docs/en.md"
+sourceSha256: "e2d9634d9bf3400a05526f9b638220c53145036973fb1cc8fed47681fab3b713"
+pageSha256: "e2d9634d9bf3400a05526f9b638220c53145036973fb1cc8fed47681fab3b713"
+contentMode: "local-full"
 zh: ""
 ---
 

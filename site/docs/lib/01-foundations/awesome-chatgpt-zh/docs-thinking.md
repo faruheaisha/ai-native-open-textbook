@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "01-foundations"
 sourceUrl: "https://github.com/EmbraceAGI/awesome-chatgpt-zh"
-entryUrl: "https://github.com/EmbraceAGI/awesome-chatgpt-zh/blob/f7c206f6b3e27dae3f4fa7fb1eee1852c72b1f68/README.md"
+entryUrl: "https://github.com/EmbraceAGI/awesome-chatgpt-zh/blob/f7c206f6b3e27dae3f4fa7fb1eee1852c72b1f68/docs/thinking.md"
+sourceRel: "docs/thinking.md"
+rawUrl: "/raw/01-foundations/awesome-chatgpt-zh/docs/thinking.md"
+sourceSha256: "1357df2143a3bf11af1daed8ae6e8dec015550bd13cee1bd5d4a257f87e7c36a"
+pageSha256: "1357df2143a3bf11af1daed8ae6e8dec015550bd13cee1bd5d4a257f87e7c36a"
+contentMode: "local-full"
 zh: ""
 ---
 

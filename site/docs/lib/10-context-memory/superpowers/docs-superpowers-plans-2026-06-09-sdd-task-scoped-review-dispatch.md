@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/obra/superpowers"
-entryUrl: "https://github.com/obra/superpowers/blob/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/README.md"
+entryUrl: "https://github.com/obra/superpowers/blob/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/docs/superpowers/plans/2026-06-09-sdd-task-scoped-review-dispatch.md"
+sourceRel: "docs/superpowers/plans/2026-06-09-sdd-task-scoped-review-dispatch.md"
+rawUrl: "/raw/10-context-memory/superpowers/docs/superpowers/plans/2026-06-09-sdd-task-scoped-review-dispatch.md"
+sourceSha256: "1597b91dbf9f8113533c6da8410607c5ac6c47db92b043a1284fff075b037aa8"
+pageSha256: "1597b91dbf9f8113533c6da8410607c5ac6c47db92b043a1284fff075b037aa8"
+contentMode: "local-full"
 zh: ""
 ---
 

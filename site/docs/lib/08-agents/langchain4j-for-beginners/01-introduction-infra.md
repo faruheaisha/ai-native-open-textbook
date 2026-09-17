@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/microsoft/LangChain4j-for-Beginners"
-entryUrl: "https://github.com/microsoft/LangChain4j-for-Beginners/blob/9aed2ec27717775def0da2ff2d7950baa8995a64/README.md"
+entryUrl: "https://github.com/microsoft/LangChain4j-for-Beginners/blob/9aed2ec27717775def0da2ff2d7950baa8995a64/01-introduction/infra/README.md"
+sourceRel: "01-introduction/infra/README.md"
+rawUrl: "/raw/08-agents/langchain4j-for-beginners/01-introduction/infra/README.md"
+sourceSha256: "70cdf0ca8abf173c3daa4023ea59b8fa6a8b9a2f25764951a820ca23d8134084"
+pageSha256: "70cdf0ca8abf173c3daa4023ea59b8fa6a8b9a2f25764951a820ca23d8134084"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -61,10 +66,10 @@ All Spring Boot applications run locally on your machine:
 
 | Resource Type | Resource Name Pattern | Purpose |
 |--------------|----------------------|---------|
-| Resource Group | `rg-{environmentName}` | Contains all resources |
-| Azure OpenAI | `aoai-{resourceToken}` | AI model hosting |
+| Resource Group | `rg-\{environmentName\}` | Contains all resources |
+| Azure OpenAI | `aoai-\{resourceToken\}` | AI model hosting |
 
-> **Note:** `{resourceToken}` is a unique string generated from subscription ID, environment name, and location
+> **Note:** `\{resourceToken\}` is a unique string generated from subscription ID, environment name, and location
 
 ## Quick Start
 

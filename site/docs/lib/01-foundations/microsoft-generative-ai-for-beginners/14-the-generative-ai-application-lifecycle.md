@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "01-foundations"
 sourceUrl: "https://github.com/microsoft/generative-ai-for-beginners"
-entryUrl: "https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/README.md"
+entryUrl: "https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/14-the-generative-ai-application-lifecycle/README.md"
+sourceRel: "14-the-generative-ai-application-lifecycle/README.md"
+rawUrl: "/raw/01-foundations/microsoft-generative-ai-for-beginners/14-the-generative-ai-application-lifecycle/README.md"
+sourceSha256: "f51d0341059ae56d348331c9b19f7c7d0171953d3332b6d63beea498ab22da97"
+pageSha256: "f51d0341059ae56d348331c9b19f7c7d0171953d3332b6d63beea498ab22da97"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -96,4 +101,4 @@ Construct, from Proof-of-Concept(POC) until large scale applications with Prompt
 Amazing, now learn more about how we structure an application to use the concepts with the [Contoso Chat App](https://nitya.github.io/contoso-chat/?WT.mc_id=academic-105485-koreyst), to check how Cloud Advocacy adds those concepts in demonstrations. For more content, check our [Ignite breakout session!
 ](https://www.youtube.com/watch?v=DdOylyrTOWg)
 
-Now, check Lesson 15, to understand how [Retrieval Augmented Generation and Vector Databases](https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/15-rag-and-vector-databases/README.md) impact Generative AI and to make more engaging Applications!
+Now, check Lesson 15, to understand how [Retrieval Augmented Generation and Vector Databases](/lib/01-foundations/microsoft-generative-ai-for-beginners/15-rag-and-vector-databases) impact Generative AI and to make more engaging Applications!

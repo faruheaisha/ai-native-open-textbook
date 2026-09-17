@@ -8,13 +8,18 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide"
-entryUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide/blob/57673726396dd94acb23bdb1e67f27c78ee85a8e/README.md"
+entryUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide/blob/57673726396dd94acb23bdb1e67f27c78ee85a8e/pages/agents/ai-workflows-vs-ai-agents.en.mdx"
+sourceRel: "pages/agents/ai-workflows-vs-ai-agents.en.mdx"
+rawUrl: "/raw/10-context-memory/prompt-engineering-guide/pages/agents/ai-workflows-vs-ai-agents.en.mdx"
+sourceSha256: "5fa3e3df73d11b88c60a8ec6ffa1b815453a918a9f5d9bcc2c17150e18f06c21"
+pageSha256: "5fa3e3df73d11b88c60a8ec6ffa1b815453a918a9f5d9bcc2c17150e18f06c21"
+contentMode: "local-full"
 zh: ""
 ---
 
 # AI Workflows vs. AI Agents
 
-import { Callout } from 'nextra/components'
+import \{ Callout \} from 'nextra/components'
 
 ![AI Workflows vs. AI Agents](/mirror/8b/8bd2c2461b8690b081d6c2a000e1a50e55b321c6.webp)
 

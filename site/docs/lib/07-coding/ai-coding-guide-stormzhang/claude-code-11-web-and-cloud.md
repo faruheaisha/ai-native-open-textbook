@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/stormzhang/ai-coding-guide"
-entryUrl: "https://github.com/stormzhang/ai-coding-guide/blob/d187dbdb83fa1be051a850074eb518e30e2eb47c/README.md"
+entryUrl: "https://github.com/stormzhang/ai-coding-guide/blob/d187dbdb83fa1be051a850074eb518e30e2eb47c/claude-code/11-web-and-cloud.md"
+sourceRel: "claude-code/11-web-and-cloud.md"
+rawUrl: "/raw/07-coding/ai-coding-guide-stormzhang/claude-code/11-web-and-cloud.md"
+sourceSha256: "7bbf1f1d530223f3f29493ceb65db1f52f986f578259278ab2433eef9604b08c"
+pageSha256: "7bbf1f1d530223f3f29493ceb65db1f52f986f578259278ab2433eef9604b08c"
+contentMode: "local-full"
 zh: ""
 ---
 

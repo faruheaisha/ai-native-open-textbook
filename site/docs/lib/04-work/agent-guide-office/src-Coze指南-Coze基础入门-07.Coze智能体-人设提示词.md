@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "04-work"
 sourceUrl: "https://github.com/tangshiyegit/agent-guide"
-entryUrl: "https://github.com/tangshiyegit/agent-guide/blob/ae8b2262e7a1e5bd0d466037c6ad9f6037b72c33/README.md"
+entryUrl: "https://github.com/tangshiyegit/agent-guide/blob/ae8b2262e7a1e5bd0d466037c6ad9f6037b72c33/src/Coze指南/Coze基础入门/07.Coze智能体-人设提示词.md"
+sourceRel: "src/Coze指南/Coze基础入门/07.Coze智能体-人设提示词.md"
+rawUrl: "/raw/04-work/agent-guide-office/src/Coze指南/Coze基础入门/07.Coze智能体-人设提示词.md"
+sourceSha256: "f98d63e60ff12a5a1cd6674a5f5439820da97abe7b681797d46855a28513ce20"
+pageSha256: "f98d63e60ff12a5a1cd6674a5f5439820da97abe7b681797d46855a28513ce20"
+contentMode: "local-full"
 zh: ""
 ---
 

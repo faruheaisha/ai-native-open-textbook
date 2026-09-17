@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works"
-entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/README.md"
+entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/quick-start.md"
+sourceRel: "docs/quick-start.md"
+rawUrl: "/raw/09-harness/how-claude-code-works/docs/quick-start.md"
+sourceSha256: "81585283900a2762c24de69fc07b0f4565efcd8b17df998f59b85eaee7bcca9d"
+pageSha256: "81585283900a2762c24de69fc07b0f4565efcd8b17df998f59b85eaee7bcca9d"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -111,7 +116,7 @@ Snip 把大块工具输出替换成占位符，最轻量，几乎无信息损失
 
 每次 API 调用都要发送完整上下文，但大部分内容在相邻调用之间是不变的。通过缓存断点标记让 API 服务端复用已处理的前缀，省下重复处理这部分前缀的延迟和成本。系统还能自动检测缓存断裂（cache miss 率突增），归因到是 CLAUDE.md 变更、对话压缩还是工具结果过大导致的。
 
-> 深入阅读：[上下文工程](/lib/09-harness/how-claude-code-works/docs-03-context-engineering)
+> 深入阅读：[上下文工程](/lib/09-harness/how-claude-code-works/docs-03-context-engineering/index)
 
 ---
 
@@ -141,7 +146,7 @@ Claude Code 包含 50+ 内置工具，全部统一为 `Tool` 接口。核心设�
 
 MCP（Model Context Protocol）让 Claude Code 不再是一个封闭系统。通过 MCP，第三方开发者可以为 Claude Code 添加任意能力——连接数据库、调用内部 API、操作 Kubernetes 集群——而无需修改 Claude Code 本身的代码。MCP 工具和内置工具遵循同一套权限检查、输入校验、并发控制的规则。
 
-> 深入阅读：[工具系统](/lib/09-harness/how-claude-code-works/docs-04-tool-system)
+> 深入阅读：[工具系统](/lib/09-harness/how-claude-code-works/docs-04-tool-system/index)
 
 ---
 

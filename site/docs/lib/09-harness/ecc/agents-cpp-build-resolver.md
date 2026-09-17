@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/affaan-m/ECC"
-entryUrl: "https://github.com/affaan-m/ECC/blob/928c1dea72f5c330442fc1f595563398b8f389f7/README.md"
+entryUrl: "https://github.com/affaan-m/ECC/blob/928c1dea72f5c330442fc1f595563398b8f389f7/agents/cpp-build-resolver.md"
+sourceRel: "agents/cpp-build-resolver.md"
+rawUrl: "/raw/09-harness/ecc/agents/cpp-build-resolver.md"
+sourceSha256: "0a06faff0f6be85989a22c79647743d872c3348ca772ee860f048035473c1675"
+pageSha256: "0a06faff0f6be85989a22c79647743d872c3348ca772ee860f048035473c1675"
+contentMode: "local-full"
 zh: ""
 ---
 

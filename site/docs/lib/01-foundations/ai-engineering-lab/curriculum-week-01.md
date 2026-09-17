@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "01-foundations"
 sourceUrl: "https://github.com/zorost/AI-Engineering-Lab"
-entryUrl: "https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/README.md"
+entryUrl: "https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/curriculum/week-01/README.md"
+sourceRel: "curriculum/week-01/README.md"
+rawUrl: "/raw/01-foundations/ai-engineering-lab/curriculum/week-01/README.md"
+sourceSha256: "c4036cc24da13ab4c9a7e4e5df482ea6ea119a464f1eafa8a2532f4b2d41e6ca"
+pageSha256: "c4036cc24da13ab4c9a7e4e5df482ea6ea119a464f1eafa8a2532f4b2d41e6ca"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -33,7 +38,7 @@ This week you solve the foundation problem three ways. First, you stand up a **r
 
 | Day | Study | Run | Ship | Time |
 |---|---|---|---|---|
-| **Mon** | Read [`reference/knowledge-base/01-ai-engineering-discipline.md`](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/reference/knowledge-base/01-ai-engineering-discipline.md); set up VS Code, Python (uv/conda), and Git | Fork + clone the repo; create a working branch | A green `git status` on your own fork | ~2.5 h |
+| **Mon** | Read [`reference/knowledge-base/01-ai-engineering-discipline.md`](/lib/01-foundations/ai-engineering-lab/reference-knowledge-base-01-ai-engineering-discipline); set up VS Code, Python (uv/conda), and Git | Fork + clone the repo; create a working branch | A green `git status` on your own fork | ~2.5 h |
 | **Tue** | Python refresher: types, functions, classes, collections, comprehensions | `01-environment-and-tools.ipynb` NumPy cell (array, broadcast, mask) | Run the refresher cells without errors | ~2 h |
 | **Wed** | The seed habit and reproducibility | Run the environment-check notebook end-to-end | Readiness score recorded (aim for 6/6) | ~1.5 h |
 | **Thu** | Synthetic data generation; read `zoro/data.py` schemas | `02-zorologistics-data-generator.ipynb` preview cells | One-of-each-table preview printed | ~2 h |
@@ -42,7 +47,7 @@ This week you solve the foundation problem three ways. First, you stand up a **r
 
 ## Concepts
 
-This week is less about new syntax and more about installing a **discipline**. Read [`reference/knowledge-base/01-ai-engineering-discipline.md`](https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/reference/knowledge-base/01-ai-engineering-discipline.md) first, it is the spine of the whole program, and the one sentence to internalize is this: *AI outputs are unpredictable.* You do not know what an LLM will return, and you do not know what a trained model will predict on a new example. The entire Zorost method is a response to that fact: **ship a metric, ship an error analysis, and make every random draw reproducible** so the metric means the same thing tomorrow.
+This week is less about new syntax and more about installing a **discipline**. Read [`reference/knowledge-base/01-ai-engineering-discipline.md`](/lib/01-foundations/ai-engineering-lab/reference-knowledge-base-01-ai-engineering-discipline) first, it is the spine of the whole program, and the one sentence to internalize is this: *AI outputs are unpredictable.* You do not know what an LLM will return, and you do not know what a trained model will predict on a new example. The entire Zorost method is a response to that fact: **ship a metric, ship an error analysis, and make every random draw reproducible** so the metric means the same thing tomorrow.
 
 ### 1. What an AI engineer is: four skills, three loops
 

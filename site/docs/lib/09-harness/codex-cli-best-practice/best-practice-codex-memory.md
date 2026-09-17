@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/shanraisshan/codex-cli-best-practice"
-entryUrl: "https://github.com/shanraisshan/codex-cli-best-practice/blob/b79f473a188632867354fc793894dfd368a18e48/README.md"
+entryUrl: "https://github.com/shanraisshan/codex-cli-best-practice/blob/b79f473a188632867354fc793894dfd368a18e48/best-practice/codex-memory.md"
+sourceRel: "best-practice/codex-memory.md"
+rawUrl: "/raw/09-harness/codex-cli-best-practice/best-practice/codex-memory.md"
+sourceSha256: "66f6477815aa0efe812335825239b7508a5b761c25eecc48f5b6412616deec3e"
+pageSha256: "66f6477815aa0efe812335825239b7508a5b761c25eecc48f5b6412616deec3e"
+contentMode: "local-full"
 zh: ""
 ---
 

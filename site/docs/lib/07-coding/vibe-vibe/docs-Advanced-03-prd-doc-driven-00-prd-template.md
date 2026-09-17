@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/datawhalechina/vibe-vibe"
-entryUrl: "https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/README.md"
+entryUrl: "https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/Advanced/03-prd-doc-driven/00-prd-template.md"
+sourceRel: "docs/Advanced/03-prd-doc-driven/00-prd-template.md"
+rawUrl: "/raw/07-coding/vibe-vibe/docs/Advanced/03-prd-doc-driven/00-prd-template.md"
+sourceSha256: "d426c3af93554117dc13adeb8e82a58da525c37bd560a9f02cc4fa0c34016954"
+pageSha256: "d426c3af93554117dc13adeb8e82a58da525c37bd560a9f02cc4fa0c34016954"
+contentMode: "local-full"
 zh: ""
 ---
 

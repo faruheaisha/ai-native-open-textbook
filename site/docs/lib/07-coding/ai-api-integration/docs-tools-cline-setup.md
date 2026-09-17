@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/CCCpan/ai-api-integration"
-entryUrl: "https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/README.md"
+entryUrl: "https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/docs/tools/cline-setup.md"
+sourceRel: "docs/tools/cline-setup.md"
+rawUrl: "/raw/07-coding/ai-api-integration/docs/tools/cline-setup.md"
+sourceSha256: "1bab61bc0f3ef99d1b1321c332a65b35cd8e64f47249ba7aa5a3de4f0185fd55"
+pageSha256: "1bab61bc0f3ef99d1b1321c332a65b35cd8e64f47249ba7aa5a3de4f0185fd55"
+contentMode: "local-full"
 zh: ""
 ---
 

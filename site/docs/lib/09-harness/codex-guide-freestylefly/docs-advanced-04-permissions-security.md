@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/freestylefly/CodexGuide"
-entryUrl: "https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/README.md"
+entryUrl: "https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/advanced/04-permissions-security.md"
+sourceRel: "docs/advanced/04-permissions-security.md"
+rawUrl: "/raw/09-harness/codex-guide-freestylefly/docs/advanced/04-permissions-security.md"
+sourceSha256: "4958ff66508c5a1003d9543ec7f7d9184908c02ec7690a77188669acd8a8ba30"
+pageSha256: "4958ff66508c5a1003d9543ec7f7d9184908c02ec7690a77188669acd8a8ba30"
+contentMode: "local-full"
 zh: ""
 ---
 

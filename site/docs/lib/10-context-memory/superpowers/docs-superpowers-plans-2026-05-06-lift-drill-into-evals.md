@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/obra/superpowers"
-entryUrl: "https://github.com/obra/superpowers/blob/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/README.md"
+entryUrl: "https://github.com/obra/superpowers/blob/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/docs/superpowers/plans/2026-05-06-lift-drill-into-evals.md"
+sourceRel: "docs/superpowers/plans/2026-05-06-lift-drill-into-evals.md"
+rawUrl: "/raw/10-context-memory/superpowers/docs/superpowers/plans/2026-05-06-lift-drill-into-evals.md"
+sourceSha256: "3b1b5c8748dde0754872181631ef8b6188d0221b2723106ab2a82d2b9290accd"
+pageSha256: "3b1b5c8748dde0754872181631ef8b6188d0221b2723106ab2a82d2b9290accd"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -420,7 +425,7 @@ Tests:
 - Modify: `evals/backends/codex.yaml` (drop `SUPERPOWERS_ROOT` from `required_env`)
 - Modify: `evals/backends/gemini.yaml` (drop `SUPERPOWERS_ROOT` from `required_env`)
 
-The five `claude*.yaml` backend configs interpolate `${SUPERPOWERS_ROOT}` into `args` for the `--plugin-dir` flag — they keep `SUPERPOWERS_ROOT` in `required_env` because the interpolation needs it. The codex/gemini configs only listed it for engine.py/setup.py's `os.environ` reads, which the helper now satisfies.
+The five `claude*.yaml` backend configs interpolate `$\{SUPERPOWERS_ROOT\}` into `args` for the `--plugin-dir` flag — they keep `SUPERPOWERS_ROOT` in `required_env` because the interpolation needs it. The codex/gemini configs only listed it for engine.py/setup.py's `os.environ` reads, which the helper now satisfies.
 
 - [ ] **Step 1: Confirm current state**
 

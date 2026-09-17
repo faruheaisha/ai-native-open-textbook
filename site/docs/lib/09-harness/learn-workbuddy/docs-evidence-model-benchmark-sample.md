@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/adongwanai/learn-workbuddy"
-entryUrl: "https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/README.md"
+entryUrl: "https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/docs/evidence/model-benchmark-sample.md"
+sourceRel: "docs/evidence/model-benchmark-sample.md"
+rawUrl: "/raw/09-harness/learn-workbuddy/docs/evidence/model-benchmark-sample.md"
+sourceSha256: "c79b2aedfcd5f84812777e6b32e2ba0ab7e18f1ba623b87c6c72e0fe02236743"
+pageSha256: "c79b2aedfcd5f84812777e6b32e2ba0ab7e18f1ba623b87c6c72e0fe02236743"
+contentMode: "local-full"
 zh: ""
 ---
 

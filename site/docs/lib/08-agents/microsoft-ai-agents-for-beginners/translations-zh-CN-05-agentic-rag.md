@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "08-agents"
 sourceUrl: "https://github.com/microsoft/ai-agents-for-beginners"
-entryUrl: "https://github.com/microsoft/ai-agents-for-beginners/blob/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translations/zh-CN/README.md"
+entryUrl: "https://github.com/microsoft/ai-agents-for-beginners/blob/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translations/zh-CN/05-agentic-rag/README.md"
+sourceRel: "translations/zh-CN/05-agentic-rag/README.md"
+rawUrl: "/raw/08-agents/microsoft-ai-agents-for-beginners/translations/zh-CN/05-agentic-rag/README.md"
+sourceSha256: "18cd0ea1050a71cd169d92c7cfb9835423476d11692dd0aee87882940f589232"
+pageSha256: "18cd0ea1050a71cd169d92c7cfb9835423476d11692dd0aee87882940f589232"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -150,7 +155,7 @@ Agentic RAG代表了AI系统处理复杂、数据密集型任务的自然演进�
 
 ## 快速测试该代理（可选）
 
-在学习了如何在[第16课](https://github.com/microsoft/ai-agents-for-beginners/blob/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translations/zh-CN/16-deploying-scalable-agents/README.md)中部署代理之后，您可以通过[`tests/lesson-05-smoke-tests.json`](https://github.com/microsoft/ai-agents-for-beginners/blob/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/tests/lesson-05-smoke-tests.json)对本课的`TravelRAGAgent`进行快速测试——检查其回答是否基于知识库。有关如何运行测试，请参见[`tests/README.md`](https://github.com/microsoft/ai-agents-for-beginners/blob/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translations/zh-CN/tests/README.md)。
+在学习了如何在[第16课](/lib/08-agents/microsoft-ai-agents-for-beginners/translations-zh-CN-16-deploying-scalable-agents)中部署代理之后，您可以通过[`tests/lesson-05-smoke-tests.json`](https://github.com/microsoft/ai-agents-for-beginners/blob/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/tests/lesson-05-smoke-tests.json)对本课的`TravelRAGAgent`进行快速测试——检查其回答是否基于知识库。有关如何运行测试，请参见[`tests/README.md`](/lib/08-agents/microsoft-ai-agents-for-beginners/translations-zh-CN-tests)。
 
 ## 上一课
 

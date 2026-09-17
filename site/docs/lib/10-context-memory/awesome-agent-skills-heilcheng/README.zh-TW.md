@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/heilcheng/awesome-agent-skills"
-entryUrl: "https://github.com/heilcheng/awesome-agent-skills/blob/de9056857eb0e96da833469d2ee3ac392058225d/README.md"
+entryUrl: "https://github.com/heilcheng/awesome-agent-skills/blob/de9056857eb0e96da833469d2ee3ac392058225d/README.zh-TW.md"
+sourceRel: "README.zh-TW.md"
+rawUrl: "/raw/10-context-memory/awesome-agent-skills-heilcheng/README.zh-TW.md"
+sourceSha256: "c3a5e8ed00dec74fe32e92c3fc527e59963ff93e7f4853fb1cf1f1927632ae8d"
+pageSha256: "c3a5e8ed00dec74fe32e92c3fc527e59963ff93e7f4853fb1cf1f1927632ae8d"
+contentMode: "local-full"
 zh: ""
 ---
 

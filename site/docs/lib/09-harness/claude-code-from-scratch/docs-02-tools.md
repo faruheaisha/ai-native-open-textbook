@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/Windy3f3f3f3f/claude-code-from-scratch"
-entryUrl: "https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/README.md"
+entryUrl: "https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/docs/02-tools.md"
+sourceRel: "docs/02-tools.md"
+rawUrl: "/raw/09-harness/claude-code-from-scratch/docs/02-tools.md"
+sourceSha256: "848602c76d63257e36bdeffb102fc1393aa459f9e22d2adab42c6ad1e38d9a41"
+pageSha256: "848602c76d63257e36bdeffb102fc1393aa459f9e22d2adab42c6ad1e38d9a41"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -83,7 +88,7 @@ Created notes.txt.
 
 ### 工具执行：switch 分发器
 
-`default` 分支返回 `Unknown tool: ${name}` 而非抛异常——体现"错误是数据"的设计，让模型能自我纠正幻觉出的工具名。
+`default` 分支返回 `Unknown tool: $\{name\}` 而非抛异常——体现"错误是数据"的设计，让模型能自我纠正幻觉出的工具名。
 
 ### 逐个工具详解
 

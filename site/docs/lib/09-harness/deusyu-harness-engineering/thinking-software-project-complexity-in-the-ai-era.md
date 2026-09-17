@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/deusyu/harness-engineering"
-entryUrl: "https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/README.md"
+entryUrl: "https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/thinking/software-project-complexity-in-the-ai-era.md"
+sourceRel: "thinking/software-project-complexity-in-the-ai-era.md"
+rawUrl: "/raw/09-harness/deusyu-harness-engineering/thinking/software-project-complexity-in-the-ai-era.md"
+sourceSha256: "676755d0085fb1076e4d6f4e16fd8f0e2d77e28a136bbf26def3fb10542bdf31"
+pageSha256: "676755d0085fb1076e4d6f4e16fd8f0e2d77e28a136bbf26def3fb10542bdf31"
+contentMode: "local-full"
 zh: ""
 ---
 

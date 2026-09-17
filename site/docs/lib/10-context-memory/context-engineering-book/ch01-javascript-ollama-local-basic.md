@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/bonigarcia/context-engineering"
-entryUrl: "https://github.com/bonigarcia/context-engineering/blob/46719154489e410b509db4fb69ab1c29fb3362a0/README.md"
+entryUrl: "https://github.com/bonigarcia/context-engineering/blob/46719154489e410b509db4fb69ab1c29fb3362a0/ch01/javascript/ollama-local-basic/README.md"
+sourceRel: "ch01/javascript/ollama-local-basic/README.md"
+rawUrl: "/raw/10-context-memory/context-engineering-book/ch01/javascript/ollama-local-basic/README.md"
+sourceSha256: "f30ff7bcf55a3e78d5f6b7a7bb282be16a303cdc5b1100f250d55a3875a4d0ee"
+pageSha256: "f30ff7bcf55a3e78d5f6b7a7bb282be16a303cdc5b1100f250d55a3875a4d0ee"
+contentMode: "local-full"
 zh: ""
 ---
 

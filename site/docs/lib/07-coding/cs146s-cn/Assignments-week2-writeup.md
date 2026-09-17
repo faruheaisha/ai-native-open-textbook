@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/ShouZhengAI/CS146S_CN"
-entryUrl: "https://github.com/ShouZhengAI/CS146S_CN/blob/0d65f36f6673147d6c298670da4f9b4bd7f991fa/README.md"
+entryUrl: "https://github.com/ShouZhengAI/CS146S_CN/blob/0d65f36f6673147d6c298670da4f9b4bd7f991fa/Assignments/week2/writeup.md"
+sourceRel: "Assignments/week2/writeup.md"
+rawUrl: "/raw/07-coding/cs146s-cn/Assignments/week2/writeup.md"
+sourceSha256: "189022a4d984efa33076c49ca082386b299ff2fc3e27ec000d39a73968239819"
+pageSha256: "189022a4d984efa33076c49ca082386b299ff2fc3e27ec000d39a73968239819"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -88,7 +93,7 @@ week2/frontend/index.html:39-144
   抽出 requestJson、renderMessage、renderItems 和 extract，统一错误显示。
 ```
 
-主要改动：模型相关职责分层，API 返回保持 `{note_id, items}` 结构，前端请求与渲染逻辑复用；没有把 SQL 或模型细节泄漏到页面代码。
+主要改动：模型相关职责分层，API 返回保持 `\{note_id, items\}` 结构，前端请求与渲染逻辑复用；没有把 SQL 或模型细节泄漏到页面代码。
 
 反思：重构的重点不是增加类，而是分离变化原因。模型响应格式、行动项清洗和 HTTP 交互会独立变化，拆开后更容易测试和维护。
 

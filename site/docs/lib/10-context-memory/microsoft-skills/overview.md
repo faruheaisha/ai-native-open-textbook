@@ -9,6 +9,11 @@ tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/microsoft/skills"
 entryUrl: "https://github.com/microsoft/skills/blob/cf77b1efbf3117501f4727c476894751311ee885/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/10-context-memory/microsoft-skills/README.md"
+sourceSha256: "6075bd43893c2f0973609cb0526b21e2fb8a8963e7b2a256b19962842d0438cd"
+pageSha256: "6075bd43893c2f0973609cb0526b21e2fb8a8963e7b2a256b19962842d0438cd"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -628,10 +633,10 @@ Reusable prompt templates in [`.github/prompts/`](https://github.com/microsoft/s
 
 | Prompt | Purpose |
 |--------|---------|
-| [`code-review.prompt.md`](https://github.com/microsoft/skills/blob/cf77b1efbf3117501f4727c476894751311ee885/.github/prompts/code-review.prompt.md) | Structured code review with security, performance, and maintainability checks |
-| [`create-store.prompt.md`](https://github.com/microsoft/skills/blob/cf77b1efbf3117501f4727c476894751311ee885/.github/prompts/create-store.prompt.md) | Zustand store creation with TypeScript and subscribeWithSelector |
-| [`create-node.prompt.md`](https://github.com/microsoft/skills/blob/cf77b1efbf3117501f4727c476894751311ee885/.github/prompts/create-node.prompt.md) | React Flow custom node creation with handles and Zustand integration |
-| [`add-endpoint.prompt.md`](https://github.com/microsoft/skills/blob/cf77b1efbf3117501f4727c476894751311ee885/.github/prompts/add-endpoint.prompt.md) | FastAPI endpoint creation with Pydantic models and proper typing |
+| [`code-review.prompt.md`](/lib/10-context-memory/microsoft-skills/_github-prompts-code-review.prompt) | Structured code review with security, performance, and maintainability checks |
+| [`create-store.prompt.md`](/lib/10-context-memory/microsoft-skills/_github-prompts-create-store.prompt) | Zustand store creation with TypeScript and subscribeWithSelector |
+| [`create-node.prompt.md`](/lib/10-context-memory/microsoft-skills/_github-prompts-create-node.prompt) | React Flow custom node creation with handles and Zustand integration |
+| [`add-endpoint.prompt.md`](/lib/10-context-memory/microsoft-skills/_github-prompts-add-endpoint.prompt) | FastAPI endpoint creation with Pydantic models and proper typing |
 
 ### Documentation
 

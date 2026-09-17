@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/gsd-build/get-shit-done"
-entryUrl: "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/README.md"
+entryUrl: "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/agents/gsd-doc-verifier.md"
+sourceRel: "agents/gsd-doc-verifier.md"
+rawUrl: "/raw/10-context-memory/get-shit-done/agents/gsd-doc-verifier.md"
+sourceSha256: "7ed4d9611f678a951e819cde0ead4ea05c55aee66c6244f1c0da3ab0ddbfb938"
+pageSha256: "7ed4d9611f678a951e819cde0ead4ea05c55aee66c6244f1c0da3ab0ddbfb938"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -67,13 +72,13 @@ Extensions to detect: `.ts`, `.js`, `.cjs`, `.mjs`, `.md`, `.json`, `.yaml`, `.y
 
 Detection: scan inline code spans (text between single backticks) for tokens matching `[a-zA-Z0-9_./-]+\.(ts|js|cjs|mjs|md|json|yaml|yml|toml|txt|sh|py|go|rs|java|rb|css|html|tsx|jsx)`.
 
-Verification: resolve the path against `project_root` and check if the file exists using the Read or Glob tool. Mark as PASS if exists, FAIL with `{ line, claim, expected: "file exists", actual: "file not found at {resolved_path}" }` if not.
+Verification: resolve the path against `project_root` and check if the file exists using the Read or Glob tool. Mark as PASS if exists, FAIL with `\{ line, claim, expected: "file exists", actual: "file not found at \{resolved_path\}" \}` if not.
 
 **2. Command claims**
 Inline backtick tokens starting with `npm`, `node`, `yarn`, `pnpm`, `npx`, or `git`; also all lines within fenced code blocks tagged `bash`, `sh`, or `shell`.
 
 Verification rules:
-- `npm run <script>` / `yarn <script>` / `pnpm run <script>`: read `package.json` and check the `scripts` field for the script name. PASS if found, FAIL with `{ ..., expected: "script '<name>' in package.json", actual: "script not found" }` if missing.
+- `npm run <script>` / `yarn <script>` / `pnpm run <script>`: read `package.json` and check the `scripts` field for the script name. PASS if found, FAIL with `\{ ..., expected: "script '<name>' in package.json", actual: "script not found" \}` if missing.
 - `node <filepath>`: verify the file exists (same as file path claim).
 - `npx <pkg>`: check if the package appears in `package.json` `dependencies` or `devDependencies`.
 - Do NOT execute any commands. Existence check only.
@@ -84,19 +89,19 @@ Patterns like `GET /api/...`, `POST /api/...`, etc. in both prose and code block
 
 Detection pattern: `(GET|POST|PUT|DELETE|PATCH)\s+/[a-zA-Z0-9/_:-]+`
 
-Verification: grep for the endpoint path in source directories (`src/`, `routes/`, `api/`, `server/`, `app/`). Use patterns like `router\.(get|post|put|delete|patch)` and `app\.(get|post|put|delete|patch)`. PASS if found in any source file. FAIL with `{ ..., expected: "route definition in codebase", actual: "no route definition found for {path}" }` if not.
+Verification: grep for the endpoint path in source directories (`src/`, `routes/`, `api/`, `server/`, `app/`). Use patterns like `router\.(get|post|put|delete|patch)` and `app\.(get|post|put|delete|patch)`. PASS if found in any source file. FAIL with `\{ ..., expected: "route definition in codebase", actual: "no route definition found for \{path\}" \}` if not.
 
 **4. Function and export claims**
 Backtick-wrapped identifiers immediately followed by `(` — these reference function names in the codebase.
 
 Detection: inline code spans matching `[a-zA-Z_][a-zA-Z0-9_]*\(`.
 
-Verification: grep for the function name in source files (`src/`, `lib/`, `bin/`). Accept matches for `function <name>`, `const <name> =`, `<name>(`, or `export.*<name>`. PASS if any match found. FAIL with `{ ..., expected: "function '<name>' in codebase", actual: "no definition found" }` if not.
+Verification: grep for the function name in source files (`src/`, `lib/`, `bin/`). Accept matches for `function <name>`, `const <name> =`, `<name>(`, or `export.*<name>`. PASS if any match found. FAIL with `\{ ..., expected: "function '<name>' in codebase", actual: "no definition found" \}` if not.
 
 **5. Dependency claims**
 Package names mentioned in prose as used dependencies (e.g., "uses `express`" or "`lodash` for utilities"). These are backtick-wrapped names that appear in dependency context phrases: "uses", "requires", "depends on", "powered by", "built with".
 
-Verification: read `package.json` and check both `dependencies` and `devDependencies` for the package name. PASS if found. FAIL with `{ ..., expected: "package in package.json dependencies", actual: "package not found" }` if not.
+Verification: read `package.json` and check both `dependencies` and `devDependencies` for the package name. PASS if found. FAIL with `\{ ..., expected: "package in package.json dependencies", actual: "package not found" \}` if not.
 &lt;/claim_extraction>
 
 &lt;skip_rules>
@@ -105,7 +110,7 @@ Do NOT verify the following:
 - **VERIFY markers**: Claims wrapped in `` — these are already flagged for human review. Skip entirely.
 - **Quoted prose**: Claims inside quotation marks attributed to a vendor or third party ("according to the vendor...", "the npm documentation says...").
 - **Example prefixes**: Any claim immediately preceded by "e.g.", "example:", "for instance", "such as", or "like:".
-- **Placeholder paths**: Paths containing `your-`, `<name>`, `{...}`, `example`, `sample`, `placeholder`, or `my-`. These are templates, not real paths.
+- **Placeholder paths**: Paths containing `your-`, `<name>`, `\{...\}`, `example`, `sample`, `placeholder`, or `my-`. These are templates, not real paths.
 - **GSD marker**: The comment `` — skip entirely.
 - **Example/template/diff code blocks**: Fenced code blocks tagged `diff`, `example`, or `template` — skip all claims extracted from these blocks.
 - **Version numbers in prose**: Strings like "`3.0.2`" or "`v1.4`" that are version references, not paths or functions.
@@ -115,10 +120,10 @@ Do NOT verify the following:
 Follow these steps in order:
 
 **Step 1: Read the doc file**
-Use the Read tool to load the full content of the file at `doc_path` (resolved against `project_root`). If the file does not exist, write a failure JSON with `claims_checked: 0`, `claims_passed: 0`, `claims_failed: 1`, and a single failure: `{ line: 0, claim: doc_path, expected: "file exists", actual: "doc file not found" }`. Then return the confirmation and stop.
+Use the Read tool to load the full content of the file at `doc_path` (resolved against `project_root`). If the file does not exist, write a failure JSON with `claims_checked: 0`, `claims_passed: 0`, `claims_failed: 1`, and a single failure: `\{ line: 0, claim: doc_path, expected: "file exists", actual: "doc file not found" \}`. Then return the confirmation and stop.
 
 **Step 2: Check for package.json**
-Use the Read tool to load `{project_root}/package.json` if it exists. Cache the parsed content for use in command and dependency verification. If not present, note this — package.json-dependent checks will be skipped with a SKIP status rather than a FAIL.
+Use the Read tool to load `\{project_root\}/package.json` if it exists. Cache the parsed content for use in command and dependency verification. If not present, note this — package.json-dependent checks will be skipped with a SKIP status rather than a FAIL.
 
 **Step 3: Extract claims by line**
 Process the doc line by line. Track the current line number. For each line:
@@ -126,27 +131,27 @@ Process the doc line by line. Track the current line number. For each line:
 - Apply the skip rules before extracting claims
 - Extract all claims from each applicable category
 
-Build a list of `{ line, category, claim }` tuples.
+Build a list of `\{ line, category, claim \}` tuples.
 
 **Step 4: Verify each claim**
 For each extracted claim tuple, apply the verification method from `<claim_extraction>` for its category:
-- File path claims: use Glob (`{project_root}/**/{filename}`) or Read to check existence
+- File path claims: use Glob (`\{project_root\}/**/\{filename\}`) or Read to check existence
 - Command claims: check package.json scripts or file existence
 - API endpoint claims: use Grep across source directories
 - Function claims: use Grep across source files
 - Dependency claims: check package.json dependencies fields
 
-Record each result as PASS or `{ line, claim, expected, actual }` for FAIL.
+Record each result as PASS or `\{ line, claim, expected, actual \}` for FAIL.
 
 **Step 5: Aggregate results**
 Count:
 - `claims_checked`: total claims attempted (excludes skipped claims)
 - `claims_passed`: claims that returned PASS
 - `claims_failed`: claims that returned FAIL
-- `failures`: array of `{ line, claim, expected, actual }` objects for each failure
+- `failures`: array of `\{ line, claim, expected, actual \}` objects for each failure
 
 **Step 6: Write result JSON**
-Create `.planning/tmp/` directory if it does not exist. Write the result to `.planning/tmp/verify-{doc_filename}.json` where `{doc_filename}` is the basename of `doc_path` with extension (e.g., `README.md` → `verify-README.md.json`).
+Create `.planning/tmp/` directory if it does not exist. Write the result to `.planning/tmp/verify-\{doc_filename\}.json` where `\{doc_filename\}` is the basename of `doc_path` with extension (e.g., `README.md` → `verify-README.md.json`).
 
 Use the exact JSON shape from `<output_format>`.
 &lt;/verification_process>
@@ -212,7 +217,7 @@ If `claims_failed > 0`, append:
 - [ ] All five claim categories extracted line-by-line
 - [ ] Skip rules applied during extraction
 - [ ] Each claim verified using filesystem tools only
-- [ ] Result JSON written to `.planning/tmp/verify-{doc_filename}.json`
+- [ ] Result JSON written to `.planning/tmp/verify-\{doc_filename\}.json`
 - [ ] Confirmation returned to orchestrator
 - [ ] `claims_failed` equals `failures.length`
 - [ ] No modifications made to any doc file

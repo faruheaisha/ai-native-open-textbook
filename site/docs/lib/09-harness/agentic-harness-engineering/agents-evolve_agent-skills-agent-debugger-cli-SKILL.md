@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering"
-entryUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering/blob/8b2a55d97590363fe50c3cc6b5e833b020a4bb4c/README.md"
+entryUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering/blob/8b2a55d97590363fe50c3cc6b5e833b020a4bb4c/agents/evolve_agent/skills/agent-debugger-cli/SKILL.md"
+sourceRel: "agents/evolve_agent/skills/agent-debugger-cli/SKILL.md"
+rawUrl: "/raw/09-harness/agentic-harness-engineering/agents/evolve_agent/skills/agent-debugger-cli/SKILL.md"
+sourceSha256: "767026368df53a3c71a57984d98096a360f2e5fe765e59a0e7bb3a6cf44c399a"
+pageSha256: "767026368df53a3c71a57984d98096a360f2e5fe765e59a0e7bb3a6cf44c399a"
+contentMode: "local-full"
 zh: ""
 ---
 

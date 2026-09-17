@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/hijasonxu1/How-to-use-dify"
-entryUrl: "https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/README.md"
+entryUrl: "https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/docs/chapters/05-prompt-和变量.md"
+sourceRel: "docs/chapters/05-prompt-和变量.md"
+rawUrl: "/raw/04-work/how-to-use-dify/docs/chapters/05-prompt-和变量.md"
+sourceSha256: "3740c6d38a6dc9933db5b7f7628f3312eccefe8165ad9aa683d020db5d715def"
+pageSha256: "3740c6d38a6dc9933db5b7f7628f3312eccefe8165ad9aa683d020db5d715def"
+contentMode: "local-full"
 zh: ""
 ---
 

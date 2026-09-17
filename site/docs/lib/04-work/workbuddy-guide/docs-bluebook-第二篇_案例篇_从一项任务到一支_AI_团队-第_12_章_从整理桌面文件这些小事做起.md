@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/AlephAITech/WorkBuddyGuide"
-entryUrl: "https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89da368fe208425ff50e121fe/README.md"
+entryUrl: "https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇%20案例篇：从一项任务到一支%20AI%20团队/第%2012%20章%20从整理桌面文件这些小事做起/index.md"
+sourceRel: "docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 12 章 从整理桌面文件这些小事做起/index.md"
+rawUrl: "/raw/04-work/workbuddy-guide/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 12 章 从整理桌面文件这些小事做起/index.md"
+sourceSha256: "2431b6b7277af4e9ad750c780d57f459a138f9af6778174c02b2e6e1075ee95b"
+pageSha256: "2431b6b7277af4e9ad750c780d57f459a138f9af6778174c02b2e6e1075ee95b"
+contentMode: "local-full"
 zh: ""
 ---
 

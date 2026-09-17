@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/google-gemini/cookbook"
-entryUrl: "https://github.com/google-gemini/cookbook/blob/a1b990c859a34823c982f70edaff35b830511c64/README.md"
+entryUrl: "https://github.com/google-gemini/cookbook/blob/a1b990c859a34823c982f70edaff35b830511c64/examples/llamaindex/README.md"
+sourceRel: "examples/llamaindex/README.md"
+rawUrl: "/raw/08-agents/gemini-cookbook/examples/llamaindex/README.md"
+sourceSha256: "f5b1423e2bba7d96488cbc550240df01991ec0832d3913bcdb9c4734f29e241c"
+pageSha256: "f5b1423e2bba7d96488cbc550240df01991ec0832d3913bcdb9c4734f29e241c"
+contentMode: "local-full"
 zh: ""
 ---
 

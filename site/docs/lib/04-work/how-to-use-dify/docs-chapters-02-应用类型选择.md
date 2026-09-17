@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/hijasonxu1/How-to-use-dify"
-entryUrl: "https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/README.md"
+entryUrl: "https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/docs/chapters/02-应用类型选择.md"
+sourceRel: "docs/chapters/02-应用类型选择.md"
+rawUrl: "/raw/04-work/how-to-use-dify/docs/chapters/02-应用类型选择.md"
+sourceSha256: "fe1385eaa4127f792994267dd9c74af792ef885bb412bd26e0be9dad14d7fa9d"
+pageSha256: "fe1385eaa4127f792994267dd9c74af792ef885bb412bd26e0be9dad14d7fa9d"
+contentMode: "local-full"
 zh: ""
 ---
 

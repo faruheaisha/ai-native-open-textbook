@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/datawhalechina/vibe-vibe"
-entryUrl: "https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/README.md"
+entryUrl: "https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/Advanced/02-ai-tuning-guide/01-ai-economics.md"
+sourceRel: "docs/Advanced/02-ai-tuning-guide/01-ai-economics.md"
+rawUrl: "/raw/07-coding/vibe-vibe/docs/Advanced/02-ai-tuning-guide/01-ai-economics.md"
+sourceSha256: "3deb7ad24701507632da06ebb2e56286036004250afcc358e7bd9268b52c9376"
+pageSha256: "3deb7ad24701507632da06ebb2e56286036004250afcc358e7bd9268b52c9376"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -1,0 +1,18 @@
+{
+  "id": "07-coding/vibe-coding-101-for-engineers",
+  "volume": "07-coding",
+  "local": "vibe-coding-101-for-engineers",
+  "title": "Vibe Coding 101 for Software Engineers",
+  "kind": "系统课程",
+  "license": "未声明",
+  "licenseLabel": "仅引用",
+  "licenseNote": "不可整篇转载，站内只做导航与引用",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": false,
+  "repo": "goker/vibe-coding-101-for-software-engineers",
+  "site": null,
+  "commit": "60d5a7fc465fc10be3b4478486a9535f1045f607",
+  "entryUrl": "https://github.com/goker/vibe-coding-101-for-software-engineers/blob/60d5a7fc465fc10be3b4478486a9535f1045f607/README.md",
+  "docs": 52
+}

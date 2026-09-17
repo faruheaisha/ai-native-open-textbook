@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/xai-org/grok-build"
-entryUrl: "https://github.com/xai-org/grok-build/blob/37949780c144e37df692e3d669051a21fec24f20/README.md"
+entryUrl: "https://github.com/xai-org/grok-build/blob/37949780c144e37df692e3d669051a21fec24f20/crates/codegen/xai-grok-markdown/fuzz/README.md"
+sourceRel: "crates/codegen/xai-grok-markdown/fuzz/README.md"
+rawUrl: "/raw/09-harness/grok-build/crates/codegen/xai-grok-markdown/fuzz/README.md"
+sourceSha256: "c6a399b747b704b0afc2b8c31349e1bdd2a3adec108b061fbc02abd1803a125b"
+pageSha256: "c6a399b747b704b0afc2b8c31349e1bdd2a3adec108b061fbc02abd1803a125b"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -27,7 +32,7 @@ rustup toolchain install nightly
 
 | Target | What it fuzzes |
 |---|---|
-| `render_all` | All 8 combos: `pretty × syntect × {full, streaming}` for every input |
+| `render_all` | All 8 combos: `pretty × syntect × \{full, streaming\}` for every input |
 
 Each iteration runs:
 - `render_markdown_ratatui_full()` — 4 combos (pretty/non-pretty × syntect/no-syntect)

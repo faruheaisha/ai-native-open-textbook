@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "08-agents"
 sourceUrl: "https://github.com/huggingface/agents-course"
-entryUrl: "https://github.com/huggingface/agents-course/blob/b3946b1d09d29c65736e219d48a8a736a2c52154/README.md"
+entryUrl: "https://github.com/huggingface/agents-course/blob/b3946b1d09d29c65736e219d48a8a736a2c52154/units/en/bonus-unit1/what-is-function-calling.mdx"
+sourceRel: "units/en/bonus-unit1/what-is-function-calling.mdx"
+rawUrl: "/raw/08-agents/huggingface-agents-course/units/en/bonus-unit1/what-is-function-calling.mdx"
+sourceSha256: "e9a40c80b31fa60ebbe6d7c7917015960ee937ebec6432406b704e65ee52e415"
+pageSha256: "e9a40c80b31fa60ebbe6d7c7917015960ee937ebec6432406b704e65ee52e415"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -34,9 +39,9 @@ In a "typical" conversation with a model through an API, the conversation will a
 
 ```python
 conversation = [
-    {"role": "user", "content": "I need help with my order"},
-    {"role": "assistant", "content": "I'd be happy to help. Could you provide your order number?"},
-    {"role": "user", "content": "It's ORDER-123"},
+    \{"role": "user", "content": "I need help with my order"\},
+    \{"role": "assistant", "content": "I'd be happy to help. Could you provide your order number?"\},
+    \{"role": "user", "content": "It's ORDER-123"\},
 ]
 ```
 
@@ -49,27 +54,27 @@ If we take the [Mistral API](https://docs.mistral.ai/capabilities/function_calli
 
 ```python
 conversation = [
-    {
+    \{
         "role": "user",
         "content": "What's the status of my transaction T1001?"
-    },
-    {
+    \},
+    \{
         "role": "assistant",
         "content": "",
-        "function_call": {
+        "function_call": \{
             "name": "retrieve_payment_status",
-            "arguments": "{\"transaction_id\": \"T1001\"}"
-        }
-    },
-    {
+            "arguments": "\{\"transaction_id\": \"T1001\"\}"
+        \}
+    \},
+    \{
         "role": "tool",
         "name": "retrieve_payment_status",
-        "content": "{\"status\": \"Paid\"}"
-    },
-    {
+        "content": "\{\"status\": \"Paid\"\}"
+    \},
+    \{
         "role": "assistant",
         "content": "Your transaction T1001 has been successfully paid."
-    }
+    \}
 ]
 ```
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/patchy631/ai-engineering-hub"
-entryUrl: "https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/README.md"
+entryUrl: "https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/book-writer-flow/book_flow/book_writing_flow/README.md"
+sourceRel: "book-writer-flow/book_flow/book_writing_flow/README.md"
+rawUrl: "/raw/10-context-memory/ai-engineering-hub/book-writer-flow/book_flow/book_writing_flow/README.md"
+sourceSha256: "273c172e8ad213bdff7e3c6c2237379d0806a12c98d17115c7ae146fa0df1234"
+pageSha256: "273c172e8ad213bdff7e3c6c2237379d0806a12c98d17115c7ae146fa0df1234"
+contentMode: "local-full"
 zh: ""
 ---
 

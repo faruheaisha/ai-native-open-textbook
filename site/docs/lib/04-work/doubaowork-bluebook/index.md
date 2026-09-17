@@ -10,6 +10,8 @@ lang: "中文"
 volume: "04-work"
 sourceUrl: "https://github.com/AlephAITech/DoubaoWorkGuide"
 entryUrl: "https://github.com/AlephAITech/DoubaoWorkGuide/blob/ad7338e8fc889ec082cdfb3fa41fb659520c7174/01-初始豆包工作.md"
+sourceRel: ""
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -19,28 +21,62 @@ zh: ""
 
 ## 课时
 
-1. [豆包工作的下载、安装和登录](02-豆包工作的下载_安装和登录.md)
-2. [主界面、任务和项目，一张图讲明白](03-主界面_任务和项目_一张图讲明白.md)
-3. [五分钟跑完第一个豆包工作任务](04-五分钟跑完第一个豆包工作任务.md)
-4. [连接器怎么用，先跑一个能验收的小任务](05-连接器怎么用_先跑一个能验收的小任务.md)
-5. [豆包工作的 Skill 怎么选，怎么用](06-豆包工作的_Skill_怎么选_怎么用.md)
-6. [什么时候找工作伙伴/小队，什么时候直接开新任务](07-什么时候找工作伙伴小队_什么时候直接开新任务.md)
-7. [怎么用手机操控电脑端豆包工作](08-怎么用手机操控电脑端豆包工作.md)
-8. [API 服务和连接器，到底该怎么选？](09-API_服务和连接器_到底该怎么选_.md)
-9. [定时任务怎么建，才能稳定产出结果](10-定时任务怎么建_才能稳定产出结果.md)
-10. [多 Agent（工作小队）怎么用？](11-多_Agent_工作小队_怎么用_.md)
-11. [豆包工作常用指令模板，随手复制就能用](12-豆包工作常用指令模板_随手复制就能用.md)
-12. [一份材料，怎么让豆包工作接着做 Word、Excel 和 PPT](13-一份材料_怎么让豆包工作接着做_Word_Excel_和_PPT.md)
-13. [豆包工作最适配的还是飞书](14-豆包工作最适配的还是飞书.md)
-14. [让豆包工作整理桌面，先别急着让它动文件](15-让豆包工作整理桌面_先别急着让它动文件.md)
-15. [出门以后，怎么用手机接着跑电脑上的任务](16-出门以后_怎么用手机接着跑电脑上的任务.md)
-16. [把生活琐事，交给豆包工作先做一版](17-把生活琐事_交给豆包工作先做一版.md)
-17. [每天早上自动收到一份能用的资讯简报](18-每天早上自动收到一份能用的资讯简报.md)
-18. [收件箱很满，先找出今天必须处理的事](19-收件箱很满_先找出今天必须处理的事.md)
-19. [一场会议，从会前准备到待办落地](20-一场会议_从会前准备到待办落地.md)
-20. [一份 Word，从校对润色到排版交付](21-一份_Word_从校对润色到排版交付.md)
-21. [随意操作Excel，秒变数据分析大师](22-随意操作Excel_秒变数据分析大师.md)
-22. [从临时调研到交付正式报告，临时汇报不用愁](23-从临时调研到交付正式报告_临时汇报不用愁.md)
-23. [自动总结工作日报，提醒每日工作事项](24-自动总结工作日报_提醒每日工作事项.md)
+- **豆包工作指南**
+  - **使用篇｜先把豆包工作用起来**
+    - [豆包工作的下载、安装和登录](/lib/04-work/doubaowork-bluebook/02-豆包工作的下载_安装和登录.md)
+    - [主界面、任务和项目，一张图讲明白](/lib/04-work/doubaowork-bluebook/03-主界面_任务和项目_一张图讲明白.md)
+    - [五分钟跑完第一个豆包工作任务](/lib/04-work/doubaowork-bluebook/04-五分钟跑完第一个豆包工作任务.md)
+    - [连接器怎么用，先跑一个能验收的小任务](/lib/04-work/doubaowork-bluebook/05-连接器怎么用_先跑一个能验收的小任务.md)
+    - [豆包工作的 Skill 怎么选，怎么用](/lib/04-work/doubaowork-bluebook/06-豆包工作的_Skill_怎么选_怎么用.md)
+    - [什么时候找工作伙伴/小队，什么时候直接开新任务](/lib/04-work/doubaowork-bluebook/07-什么时候找工作伙伴小队_什么时候直接开新任务.md)
+    - [怎么用手机操控电脑端豆包工作](/lib/04-work/doubaowork-bluebook/08-怎么用手机操控电脑端豆包工作.md)
+    - [API 服务和连接器，到底该怎么选？](/lib/04-work/doubaowork-bluebook/09-API_服务和连接器_到底该怎么选_.md)
+    - [定时任务怎么建，才能稳定产出结果](/lib/04-work/doubaowork-bluebook/10-定时任务怎么建_才能稳定产出结果.md)
+    - [多 Agent（工作小队）怎么用？](/lib/04-work/doubaowork-bluebook/11-多_Agent_工作小队_怎么用_.md)
+    - [豆包工作常用指令模板，随手复制就能用](/lib/04-work/doubaowork-bluebook/12-豆包工作常用指令模板_随手复制就能用.md)
+  - **入门篇｜从豆包工作的一些小事开始**
+    - [一份材料，怎么让豆包工作接着做 Word、Excel 和 PPT](/lib/04-work/doubaowork-bluebook/13-一份材料_怎么让豆包工作接着做_Word_Excel_和_PPT.md)
+    - [豆包工作最适配的还是飞书](/lib/04-work/doubaowork-bluebook/14-豆包工作最适配的还是飞书.md)
+    - [让豆包工作整理桌面，先别急着让它动文件](/lib/04-work/doubaowork-bluebook/15-让豆包工作整理桌面_先别急着让它动文件.md)
+    - [出门以后，怎么用手机接着跑电脑上的任务](/lib/04-work/doubaowork-bluebook/16-出门以后_怎么用手机接着跑电脑上的任务.md)
+    - [把生活琐事，交给豆包工作先做一版](/lib/04-work/doubaowork-bluebook/17-把生活琐事_交给豆包工作先做一版.md)
+    - [每天早上自动收到一份能用的资讯简报](/lib/04-work/doubaowork-bluebook/18-每天早上自动收到一份能用的资讯简报.md)
+  - **场景篇｜把 豆包工作 放进真实工作**
+    - **个人提效场景**
+      - [收件箱很满，先找出今天必须处理的事](/lib/04-work/doubaowork-bluebook/19-收件箱很满_先找出今天必须处理的事.md)
+      - [一场会议，从会前准备到待办落地](/lib/04-work/doubaowork-bluebook/20-一场会议_从会前准备到待办落地.md)
+      - [一份 Word，从校对润色到排版交付](/lib/04-work/doubaowork-bluebook/21-一份_Word_从校对润色到排版交付.md)
+      - [随意操作Excel，秒变数据分析大师](/lib/04-work/doubaowork-bluebook/22-随意操作Excel_秒变数据分析大师.md)
+      - [从临时调研到交付正式报告，临时汇报不用愁](/lib/04-work/doubaowork-bluebook/23-从临时调研到交付正式报告_临时汇报不用愁.md)
+      - [自动总结工作日报，提醒每日工作事项](/lib/04-work/doubaowork-bluebook/24-自动总结工作日报_提醒每日工作事项.md)
+      - [快速读一本书，并迅速掌握书中的技能](/lib/04-work/doubaowork-bluebook/25-快速读一本书_并迅速掌握书中的技能.md)
+      - [用一个精美的个人网站包装你自己](/lib/04-work/doubaowork-bluebook/26-用一个精美的个人网站包装你自己.md)
+    - **自媒体场景**
+      - [今天写什么：从热点、同行到本周选题](/lib/04-work/doubaowork-bluebook/27-今天写什么_从热点_同行到本周选题.md)
+      - [从热点到公众号成稿](/lib/04-work/doubaowork-bluebook/28-从热点到公众号成稿.md)
+      - [同一份内容，怎么改成每个平台自己的版本](/lib/04-work/doubaowork-bluebook/29-同一份内容_怎么改成每个平台自己的版本.md)
+      - [从长文到能拍的口播与分镜](/lib/04-work/doubaowork-bluebook/30-从长文到能拍的口播与分镜.md)
+      - [长音视频怎样完成转写、字幕和高光切片](/lib/04-work/doubaowork-bluebook/31-长音视频怎样完成转写_字幕和高光切片.md)
+      - [从评论区找到下一篇内容，并复盘](/lib/04-work/doubaowork-bluebook/32-从评论区找到下一篇内容_并复盘.md)
+      - [个人 IP 怎么做GEO体检？](/lib/04-work/doubaowork-bluebook/33-个人_IP_怎么做GEO体检_.md)
+      - [爆款公众号文章转短视频](/lib/04-work/doubaowork-bluebook/34-爆款公众号文章转短视频.md)
+    - **知识管理场景**
+      - [从随手收藏到以后真正能搜](/lib/04-work/doubaowork-bluebook/35-从随手收藏到以后真正能搜.md)
+      - [重复文件和冲突版本，先看差异再决定](/lib/04-work/doubaowork-bluebook/36-重复文件和冲突版本_先看差异再决定.md)
+      - [项目结束，把文件、决策和交付物一起沉淀](/lib/04-work/doubaowork-bluebook/37-项目结束_把文件_决策和交付物一起沉淀.md)
+      - [老同事的经验别让它躺平！我用豆包工作把飞书知识库变成了可复用Skil](/lib/04-work/doubaowork-bluebook/38-老同事的经验别让它躺平_我用豆包工作把飞书知识库变成了可复用Skil.md)
+      - [企业制度不用翻烂知识库！我用豆包一句话查到加班流程还带出处](/lib/04-work/doubaowork-bluebook/39-企业制度不用翻烂知识库_我用豆包一句话查到加班流程还带出处.md)
+      - [分类太细反而难找！我用豆包+飞书知识库把541个GPT提示词案例重新归了类](/lib/04-work/doubaowork-bluebook/40-分类太细反而难找_我用豆包_飞书知识库把541个GPT提示词案例重新归了类.md)
+      - [哪些知识已经过期，自动找到 Owner 来确认](/lib/04-work/doubaowork-bluebook/41-哪些知识已经过期_自动找到_Owner_来确认.md)
+    - **电商场景**
+      - [从一张产品原图到整套主图](/lib/04-work/doubaowork-bluebook/42-从一张产品原图到整套主图.md)
+    - **金融场景**
+      - [收盘以后，怎样把市场变化变成明天的研究清单](/lib/04-work/doubaowork-bluebook/43-收盘以后_怎样把市场变化变成明天的研究清单.md)
+      - [财报出来以后，先看增长，再查增长质量](/lib/04-work/doubaowork-bluebook/44-财报出来以后_先看增长_再查增长质量.md)
+      - [第一次研究一家公司：从商业模式到八种关键追问](/lib/04-work/doubaowork-bluebook/45-第一次研究一家公司_从商业模式到八种关键追问.md)
+      - [从筛选到估值：统一口径以后，再比较和定价](/lib/04-work/doubaowork-bluebook/46-从筛选到估值_统一口径以后_再比较和定价.md)
+      - [看公司，也要看股东、管理层和治理结构](/lib/04-work/doubaowork-bluebook/47-看公司_也要看股东_管理层和治理结构.md)
+      - [市场到底在争什么：从多空分歧到研报事实审计](/lib/04-work/doubaowork-bluebook/48-市场到底在争什么_从多空分歧到研报事实审计.md)
+      - [从一张 K 线图开始，完成一场有证据的投研评审会](/lib/04-work/doubaowork-bluebook/49-从一张_K_线图开始_完成一场有证据的投研评审会.md)
 
 开始学习 → [豆包工作的下载、安装和登录](02-豆包工作的下载_安装和登录.md)

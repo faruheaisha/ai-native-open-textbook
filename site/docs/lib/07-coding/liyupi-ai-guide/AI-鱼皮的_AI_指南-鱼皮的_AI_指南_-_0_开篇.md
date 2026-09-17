@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/liyupi/ai-guide"
-entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a02735b38c866/README.md"
+entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a02735b38c866/AI/鱼皮的%20AI%20指南/鱼皮的%20AI%20指南%20-%200、开篇.md"
+sourceRel: "AI/鱼皮的 AI 指南/鱼皮的 AI 指南 - 0、开篇.md"
+rawUrl: "/raw/07-coding/liyupi-ai-guide/AI/鱼皮的 AI 指南/鱼皮的 AI 指南 - 0、开篇.md"
+sourceSha256: "02968fb472b0482e1ca89af9bb264bda176667555e7dd1fe894c666619a93f45"
+pageSha256: "02968fb472b0482e1ca89af9bb264bda176667555e7dd1fe894c666619a93f45"
+contentMode: "local-full"
 zh: ""
 ---
 

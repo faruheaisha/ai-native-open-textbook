@@ -1,0 +1,101 @@
+---
+title: "6.5 模型选择"
+sourceId: "04-work/qwenwork-guide"
+sourceTitle: "千问办公绿皮书（QwenWorkGuide）"
+sourceKind: "工程手册"
+licenseLabel: "可转载"
+lang: "中文"
+tier: 1
+volume: "04-work"
+sourceUrl: "https://github.com/wangxiaoshuai1998/QwenWorkGuide"
+entryUrl: "https://github.com/wangxiaoshuai1998/QwenWorkGuide/blob/002f698a68b69d3635acf6be0d6e27db69069071/docs/greenbook/第一部分%20使用手册：先把%20千问办公%20用起来/第6章%20桌面端核心功能/6.5%20模型选择/index.md"
+sourceRel: "docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.5 模型选择/index.md"
+rawUrl: "/raw/04-work/qwenwork-guide/docs/greenbook/第一部分 使用手册：先把 千问办公 用起来/第6章 桌面端核心功能/6.5 模型选择/index.md"
+sourceSha256: "873e9b88429f5c58275e31392831d2f6700e5ae24e368dd2c8afd71cb1cbb826"
+pageSha256: "873e9b88429f5c58275e31392831d2f6700e5ae24e368dd2c8afd71cb1cbb826"
+contentMode: "local-full"
+zh: ""
+---
+
+# **6.5 模型选择**
+
+了解可用的模型，为你的任务选择最合适的一款
+
+QwenWork 内置多个世界级 AI 模型，并提供灵活的选择机制，帮助你在效率、质量和成本之间找到最佳平衡。
+
+<span style="color: rgb(155, 93, 7); background-color: rgb(255, 249, 237);">**说明**</span>
+
+<span style="color: rgb(108, 87, 55); background-color: rgb(255, 249, 237);">QwenWork 的模型列表会持续更新。我们不断引入业界优秀的新模型，并根据模型表现和市场情况替换或下线旧模型，保持模型列表的高质量和可靠性。</span>
+
+## **可用模型**
+
+模型选择器提供以下选项：
+
+| <span style="color: rgb(39, 42, 38); background-color: rgb(245, 247, 243);">**模型**</span> | <span style="color: rgb(39, 42, 38); background-color: rgb(245, 247, 243);">**说明**</span> | <span style="color: rgb(39, 42, 38); background-color: rgb(245, 247, 243);">**推荐场景**</span> |
+|---------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| 高级（Advanced） | 强劲均衡，稳妥处理重点任务 | 重点项目决策、关键分析、需要稳定输出质量的任务 |
+| 基础（Basic） | 智能高效，适合日常任务 | 简单问答、文件格式转换、文案润色、信息查询 |
+| Qwen3.8-Max-Preview | 最强通义千问，具备进阶推理能力 | 需要顶级通义千问推理质量的任务 |
+
+## **如何选择**
+
+不同模型适合不同类型的任务，以下是一些参考建议：
+
+### **适合基础（Basic）的任务**
+- 格式转换（PDF 转 Word、CSV 转 Excel）
+- 简单的文件整理和重命名
+- 基础文案修改和翻译
+- 模板化的内容生成（如固定格式的邮件）
+- 快速的信息查询
+
+### **适合高级（Advanced）的任务**
+- 重点项目的关键决策与分析
+- 需要稳定可靠输出质量的任务
+- 中等复杂度的研究与撰写
+- 介于日常任务与深度推理之间的工作
+
+### **适合 Qwen3.8-Max-Preview 的任务**
+- 需要最强通义千问推理能力的任务
+- 基于通义千问的进阶分析与复杂问题求解
+- 对生成质量要求极高的长文创作
+
+## **切换方式**
+
+1\. 找到模型选择器
+
+在对话输入框旁边，点击模型下拉菜单。
+
+2\. 选择模型
+
+从 高级 / 基础 / Qwen3.8-Max-Preview 中选择一项。
+
+3\. 立即生效
+
+选择后立即生效，新模型将应用于当前会话的后续对话。无需重新开始会话。
+
+## **在任务中切换**
+
+你可以在同一个任务的执行过程中随时切换模型。比如：
+1. 先用 标准 让 AI 执行前几步的数据收集
+2. 到需要深度分析的步骤时，切换到 旗舰
+3. 最后的格式化输出步骤再切回 标准
+
+模型切换不会丢失上下文，AI 会继续之前的工作。
+
+## **Credits 消耗与管理**
+
+不同模型的 Credits 消耗不同。点击界面右上角的用量图标（⏱），再点击弹出的 查看我的用量 即可查看余额与用量明细。
+
+![](/mirror/2c/2c652ef09190ac3a2c50db08daf04c21f657d385.webp)
+
+<span style="color: rgb(161, 157, 150); background-color: rgb(248, 248, 247);">image.png</span>
+
+<span style="color: rgb(155, 93, 7); background-color: rgb(255, 249, 237);">**说明**</span>
+
+<span style="color: rgb(108, 87, 55); background-color: rgb(255, 249, 237);">建议先完整执行一次工作流来了解成本。对于定期执行的 定时任务，这一步尤其重要——它能帮你预估每日/每周的 Credits 消耗。</span>
+
+当 Credits 余额不足时：
+- 可以在账户设置中购买额外的 Credits
+- 切换到 高级 或 标准 来降低消耗
+
+<span style="color: rgb(73, 70, 65); background-color: rgb(245, 247, 240);">***来源：千文办公 官方指南。***</span>

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/affaan-m/ECC"
-entryUrl: "https://github.com/affaan-m/ECC/blob/928c1dea72f5c330442fc1f595563398b8f389f7/README.md"
+entryUrl: "https://github.com/affaan-m/ECC/blob/928c1dea72f5c330442fc1f595563398b8f389f7/agents/build-error-resolver.md"
+sourceRel: "agents/build-error-resolver.md"
+rawUrl: "/raw/09-harness/ecc/agents/build-error-resolver.md"
+sourceSha256: "acc9e14df59dd28d00f966b3a6cf0d9aeeda7e8a9ab7f1bc442466c0219c35ec"
+pageSha256: "acc9e14df59dd28d00f966b3a6cf0d9aeeda7e8a9ab7f1bc442466c0219c35ec"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -57,7 +62,7 @@ For each error:
 | `Property does not exist` | Add to interface or use optional `?` |
 | `Cannot find module` | Check tsconfig paths, install package, or fix import path |
 | `Type 'X' not assignable to 'Y'` | Parse/convert type or fix the type |
-| `Generic constraint` | Add `extends { ... }` |
+| `Generic constraint` | Add `extends \{ ... \}` |
 | `Hook called conditionally` | Move hooks to top level |
 | `'await' outside async` | Add `async` keyword |
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/gsd-build/get-shit-done"
-entryUrl: "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/README.md"
+entryUrl: "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/agents/gsd-pattern-mapper.md"
+sourceRel: "agents/gsd-pattern-mapper.md"
+rawUrl: "/raw/10-context-memory/get-shit-done/agents/gsd-pattern-mapper.md"
+sourceSha256: "d82b39fca5883ede4e346278c0fc31ce44e796aa851e0919690c060218834a6d"
+pageSha256: "d82b39fca5883ede4e346278c0fc31ce44e796aa851e0919690c060218834a6d"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -163,7 +168,7 @@ Write to: `$PHASE_DIR/$PADDED_PHASE-PATTERNS.md`
 
 ## PATTERNS.md Structure
 
-**Location:** `.planning/phases/XX-name/{phase_num}-PATTERNS.md`
+**Location:** `.planning/phases/XX-name/\{phase_num\}-PATTERNS.md`
 
 ```markdown
 # Phase [X]: [Name] - Pattern Map

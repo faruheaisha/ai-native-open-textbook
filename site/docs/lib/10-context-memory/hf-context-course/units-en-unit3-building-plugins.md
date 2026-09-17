@@ -1,0 +1,538 @@
+---
+title: "Building Your Own Plugin"
+sourceId: "10-context-memory/hf-context-course"
+sourceTitle: "The Context Course"
+sourceKind: "系统课程"
+licenseLabel: "仅引用"
+lang: "英文"
+tier: 1
+volume: "10-context-memory"
+sourceUrl: "https://github.com/huggingface/context-course"
+entryUrl: "https://github.com/huggingface/context-course/blob/0448a7ca721a63a81531e1ba94f46f897c70645b/units/en/unit3/building-plugins.mdx"
+sourceRel: "units/en/unit3/building-plugins.mdx"
+rawUrl: "/raw/10-context-memory/hf-context-course/units/en/unit3/building-plugins.mdx"
+sourceSha256: "20b6fd3b4cf965c6ee486daac5ebd1ed95954b64dd3d9504b9ae1cbb38d0fddd"
+pageSha256: "20b6fd3b4cf965c6ee486daac5ebd1ed95954b64dd3d9504b9ae1cbb38d0fddd"
+contentMode: "local-full"
+zh: ""
+---
+
+# Building Your Own Plugin
+
+Unit 2 produced a text-processor MCP server. In this lesson we package it as a **plugin**. For Claude Code and Codex that means a manifest plus bundled skills and MCP config; for OpenCode it means a plugin module written in TypeScript, with MCP configuration handled separately; for Pi it means a package declared in `package.json`, optionally paired with `pi-mcp-adapter` when you want MCP tools inside Pi.
+
+## Plugin Project Structure
+
+Create your plugin directory alongside the server you already built:
+
+```bash
+mkdir text-processor-plugin
+cd text-processor-plugin
+
+# Directory structure
+mkdir -p skills/{analyze-text,extract-keywords,check-reading-level}
+
+# Create core files
+touch README.md
+touch skills/analyze-text/SKILL.md
+touch skills/extract-keywords/SKILL.md
+touch skills/check-reading-level/SKILL.md
+```
+
+Notice what's different from Unit 2: no server code here. For Claude Code and Codex, the plugin **references** the MCP server you already built and deployed. OpenCode's native plugin branch below adds behavior in code and can still point at the same server separately if you want both surfaces. The Pi branch below reuses the same `skills/` directory inside a Pi package, and can pair those skills with the `pi-mcp-adapter` setup from Unit 2 when you want MCP tools available in Pi.
+
+## Step 1: Write the Skills
+
+This step applies directly to **Claude Code**, **Codex**, and **Pi**, where the bundle can ship `skills/`. If you're following the OpenCode branch, skip ahead to Step 2: OpenCode plugins are code modules, not skill bundles.
+
+Skills teach the agent *when* and *how* to use your MCP tools. Each skill wraps one of the tools from your text-processor server.
+
+### Skill 1: Analyze Text
+
+Create `skills/analyze-text/SKILL.md`:
+
+```markdown
+# Analyze Text
+
+Use the `analyze_text` tool from the text-processor MCP server to compute text statistics.
+
+## When to Use
+
+Use this skill when the user asks about text statistics, word counts, character counts, sentence counts, average word length, or readability metrics.
+
+## How to Use
+
+Call the `analyze_text` tool with the full text as input. The tool returns JSON with:
+- `total_characters`, `characters_without_spaces`
+- `total_words`, `total_sentences`
+- `average_word_length`, `average_sentence_length`
+- `unique_words`
+
+## Example
+
+User: "How complex is this paragraph?"
+
+1. Call `analyze_text` with the paragraph
+2. Interpret the statistics (high unique word ratio = diverse vocabulary, long average sentence length = complex prose)
+3. Summarize findings in plain language
+```
+
+### Skill 2: Extract Keywords
+
+Create `skills/extract-keywords/SKILL.md`:
+
+```markdown
+# Extract Keywords
+
+Use the `extract_keywords` tool from the text-processor MCP server to find the most important words in text.
+
+## When to Use
+
+Use this skill when the user asks for keywords, key terms, topic extraction, or content summarization.
+
+## How to Use
+
+Call `extract_keywords` with the text and an optional `count` parameter (default: 5). The tool returns JSON with a `keywords` array, each containing `word` and `frequency`.
+
+## Example
+
+User: "What are the main topics in this article?"
+
+1. Call `extract_keywords` with count=10
+2. Group related keywords into themes
+3. Present themes with supporting keyword frequencies
+```
+
+### Skill 3: Check Reading Level
+
+Create `skills/check-reading-level/SKILL.md`:
+
+```markdown
+# Check Reading Level
+
+Use the `check_reading_level` tool from the text-processor MCP server to estimate text difficulty.
+
+## When to Use
+
+Use this skill when the user asks about reading level, text difficulty, grade level, or audience appropriateness.
+
+## How to Use
+
+Call `check_reading_level` with the text. The tool returns JSON with:
+- `grade_level` (numeric Flesch-Kincaid grade)
+- `reading_level` (Elementary School, Middle School, High School, or College/Academic)
+
+## Example
+
+User: "Is this documentation appropriate for beginners?"
+
+1. Call `check_reading_level` with the text
+2. Compare the grade level to the target audience
+3. Suggest simplifications if the level is too high
+```
+
+## Step 2: Create the Plugin Entry Point
+
+Claude Code and Codex use manifests to declare what the plugin provides. OpenCode uses a plugin module instead. Pi uses `package.json` plus optional `extensions/`. The entry point differs by platform.
+
+Create the Claude Code manifest directory:
+
+```bash
+mkdir -p .claude-plugin
+```
+
+Create `.claude-plugin/plugin.json`:
+
+```json
+{
+  "name": "text-processor-plugin",
+  "version": "1.0.0",
+  "description": "Text analysis skills powered by the text-processor MCP server",
+  "author": {
+    "name": "Your Name"
+  }
+}
+```
+
+Create `.mcp.json` to point at your server. If you're using the **local** server from Unit 2:
+
+```json
+{
+  "mcpServers": {
+    "text-processor": {
+      "command": "python",
+      "args": ["../text-processor-mcp/server.py"]
+    }
+  }
+}
+```
+
+Or if you deployed to **Hugging Face Spaces**:
+
+```json
+{
+  "mcpServers": {
+    "text-processor": {
+      "url": "https://YOUR-USERNAME-text-processor-mcp.hf.space/gradio_api/mcp/"
+    }
+  }
+}
+```
+
+Create the Codex manifest directory:
+
+```bash
+mkdir -p .codex-plugin
+```
+
+Create `.codex-plugin/plugin.json`:
+
+```json
+{
+  "name": "text-processor-plugin",
+  "version": "1.0.0",
+  "description": "Text analysis skills powered by the text-processor MCP server",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Text Processor"
+  }
+}
+```
+
+Create `.mcp.json` to point at your server. For the **local** server:
+
+```json
+{
+  "mcpServers": {
+    "text-processor": {
+      "command": "python",
+      "args": ["../text-processor-mcp/server.py"]
+    }
+  }
+}
+```
+
+Or for the **Spaces deployment**:
+
+```json
+{
+  "mcpServers": {
+    "text-processor": {
+      "url": "https://YOUR-USERNAME-text-processor-mcp.hf.space/gradio_api/mcp/"
+    }
+  }
+}
+```
+
+OpenCode's native plugin layer is code-based, so this is the one branch in the course where the documented plugin surface is **not** Python. We'll build a minimal local plugin module, then note where skills or MCP config would live if you also want those.
+
+Create the project plugin directory:
+
+```bash
+mkdir -p .opencode/plugins
+```
+
+Create `.opencode/plugins/text-processor-plugin.ts`:
+
+```ts
+import type { Plugin } from "@opencode-ai/plugin"
+
+export const TextProcessorPlugin: Plugin = async ({ project, client, $, directory, worktree }) => {
+  await client.app.log({
+    body: {
+      service: "text-processor-plugin",
+      level: "info",
+      message: "Text Processor plugin initialized",
+    },
+  })
+
+  return {
+    "tool.execute.before": async (input) => {
+      if (input.tool === "read") {
+        await client.app.log({
+          body: {
+            service: "text-processor-plugin",
+            level: "info",
+            message: "Consider a text-analysis workflow after loading long documents.",
+          },
+        })
+      }
+    },
+  }
+}
+```
+
+This example is intentionally minimal and documented: OpenCode local plugins are startup-loaded JS/TS modules that return hooks. If you want to add custom tools instead of hooks, use the `tool()` helper from `@opencode-ai/plugin`.
+
+If you want to install the same plugin from npm instead of a local file, add it to `opencode.json`:
+
+```json
+{
+  "$schema": "https://opencode.ai/config.json",
+  "plugin": ["@your-org/text-processor-plugin"]
+}
+```
+
+If you also want the Unit 2 Python MCP server in OpenCode, configure it separately in `opencode.json` under the `mcp` key. That MCP configuration sits beside the plugin system; it is not the plugin itself.
+
+Pi packages use `package.json` as the manifest. Reuse the same `skills/` directory and declare it there:
+
+```bash
+mkdir -p extensions
+```
+
+Create `package.json`:
+
+```json
+{
+  "name": "text-processor-plugin",
+  "version": "1.0.0",
+  "keywords": ["pi-package"],
+  "pi": {
+    "skills": ["./skills"],
+    "extensions": ["./extensions"]
+  }
+}
+```
+
+Create `extensions/text-processor.ts`:
+
+```ts
+import type { ExtensionAPI } from "@mariozechner/pi-coding-agent";
+
+export default function (pi: ExtensionAPI) {
+  pi.registerCommand("text-processor-status", {
+    description: "Confirm the text-processor package is loaded",
+    handler: async (_args, ctx) => {
+      ctx.ui.notify(
+        "text-processor skills loaded. Pair this package with pi-mcp-adapter if you also want MCP tools.",
+      );
+    },
+  });
+}
+```
+
+Pi loads the `skills/` directory directly from the package. If you want the Unit 2 MCP server available as tools inside Pi, pair this package with the `pi-mcp-adapter` setup from Unit 2.
+
+## Step 3: Create the Human-Facing README
+
+For all three platforms, keep human documentation in `README.md`. Claude Code and Codex use `plugin.json` for install metadata; OpenCode loads the plugin module directly, so the README is for developers rather than the runtime.
+
+Create `README.md` at the plugin root:
+
+```markdown
+# Text Processor Plugin
+
+Plugin examples for text-analysis workflows built from the Unit 2 server and the Unit 3 skills.
+
+## Skills
+
+- **Analyze Text** — Word counts, sentence stats, vocabulary diversity
+- **Extract Keywords** — Find the most frequent meaningful terms
+- **Check Reading Level** — Flesch-Kincaid grade level estimation
+
+## Claude Code and Codex
+
+The manifest-first versions bundle:
+- skills in `skills/`
+- plugin metadata in `.claude-plugin/plugin.json` or `.codex-plugin/plugin.json`
+- optional MCP config in `.mcp.json`
+
+## OpenCode
+
+The OpenCode version is a local or npm-loaded JS/TS plugin module under `.opencode/plugins/` or the `plugin` array in `opencode.json`.
+
+## Related MCP Server
+
+If you also connect the `text-processor` MCP server, it provides:
+- `analyze_text` — Compute text statistics
+- `extract_keywords` — Extract frequent terms
+- `check_reading_level` — Estimate reading difficulty
+- `reverse_text` — Reverse a string
+
+## Setup
+
+The plugin can use your local server or the deployed Spaces version:
+
+**Local:** Ensure `text-processor-mcp/server.py` is available and the MCP runtime is installed.
+
+**Remote:** Update the `.mcp.json` or `opencode.json` URL to your deployed Space:
+`https://YOUR-USERNAME-text-processor-mcp.hf.space/gradio_api/mcp/`
+```
+
+## Step 4: Test Your Plugin
+
+To test a local plugin, expose it through a local marketplace file. Create `marketplace.json` next to your plugin directory:
+
+```json
+{
+  "name": "local-example-plugins",
+  "owner": { "name": "you" },
+  "plugins": [
+    {
+      "name": "text-processor-plugin",
+      "source": "./text-processor-plugin",
+      "description": "Text analysis skills"
+    }
+  ]
+}
+```
+
+Then inside Claude Code:
+
+```text
+/plugin marketplace add /absolute/path/to/marketplace.json
+/plugin install text-processor-plugin@local-example-plugins
+```
+
+Once installed, test the skills conversationally:
+
+```text
+Analyze the reading level of this text: "The mitochondria is the powerhouse of the cell.
+It provides energy through oxidative phosphorylation."
+```
+
+After editing plugin files, use `/plugin` to disable and re-enable the plugin so Claude Code picks up changes.
+
+Copy the plugin into your personal plugin directory:
+
+```bash
+mkdir -p ~/.codex/plugins
+cp -R /absolute/path/to/text-processor-plugin ~/.codex/plugins/text-processor-plugin
+```
+
+Add it to your personal marketplace at `~/.agents/plugins/marketplace.json`:
+
+Because `source.path` is resolved relative to the marketplace file, the path below walks back from `~/.agents/plugins/` to `~/.codex/plugins/` first.
+
+```json
+{
+  "name": "local-example-plugins",
+  "interface": {
+    "displayName": "Local Example Plugins"
+  },
+  "plugins": [
+    {
+      "name": "text-processor-plugin",
+      "source": {
+        "source": "local",
+        "path": "../../.codex/plugins/text-processor-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
+```
+
+Test conversationally:
+
+```
+Analyze the complexity of this paragraph for me
+```
+
+Open the plugin browser to verify the plugin is available:
+
+```
+/plugins
+```
+
+Install the plugin from that marketplace, then start a new thread and test it. If you change the marketplace file or update the local plugin folder, restart Codex before testing again.
+
+Place the local plugin file in `.opencode/plugins/`, then start OpenCode:
+
+```bash
+opencode
+```
+
+Because local plugins load at startup, the plugin is active for the session. Test with any workflow that reads a long document:
+
+```
+Summarize this document and note any text-analysis follow-up that would help.
+```
+
+If you also configured the Unit 2 MCP server separately in `opencode.json`, verify it:
+
+```bash
+opencode mcp list
+```
+
+If you edit the plugin file or the `plugin` list in `opencode.json`, restart OpenCode to reload startup plugins.
+
+Install the package from the local path:
+
+```bash
+pi install /absolute/path/to/text-processor-plugin -l
+pi install npm:pi-mcp-adapter
+```
+
+Add the Unit 2 server to `.mcp.json` so the package's skills have tools to call:
+
+```json
+{
+  "mcpServers": {
+    "text-processor": {
+      "url": "https://YOUR-USERNAME-text-processor-mcp.hf.space/gradio_api/mcp/"
+    }
+  }
+}
+```
+
+Start Pi:
+
+```bash
+pi
+```
+
+Test conversationally:
+
+```text
+Analyze the complexity of this paragraph for me
+```
+
+Use `/reload` after editing the package files or `.mcp.json` so Pi refreshes skills, extensions, and adapter state in the current session.
+
+## Complete Plugin Structure
+
+For Claude Code and Codex (assuming you use both), the final manifest-first plugin directory looks like:
+
+```
+text-processor-plugin/
+├── .claude-plugin/
+│   └── plugin.json                       # Claude Code manifest
+├── .codex-plugin/
+│   └── plugin.json                       # Codex manifest
+├── .mcp.json                             # Shared MCP config for both
+├── README.md                             # Documentation
+└── skills/
+    ├── analyze-text/SKILL.md
+    ├── extract-keywords/SKILL.md
+    └── check-reading-level/SKILL.md
+```
+
+For OpenCode, the plugin surface is separate:
+
+```text
+.opencode/
+├── plugins/
+│   └── text-processor-plugin.ts
+└── package.json          # optional
+```
+
+Notice there's **no server code** in the manifest-first plugin. The MCP server lives separately — either running locally from Unit 2's `text-processor-mcp/` directory or deployed on Hugging Face Spaces. Claude Code and Codex point at that server through `.mcp.json`. OpenCode can point at it separately in `opencode.json`, but that MCP config is adjacent to the plugin rather than inside it.
+
+This separation is a key design principle: **skills describe how to use tools, MCP servers provide the tools, and plugins package reusable agent behavior in the way each platform expects.**
+
+## Best Practices
+
+When building plugins, write skill descriptions that explain *when* to use a tool (not just *what* it does), reference existing MCP servers instead of duplicating code, keep only `plugin.json` inside the manifest directory, never hardcode API keys (use environment variables), version semantically (1.0.0, 1.1.0, 2.0.0), and test locally before publishing. For OpenCode, keep the plugin module small and focused, then add npm dependencies only when the hook or tool really needs them.
+
+## Key Takeaways
+
+Claude Code and Codex plugins are manifests that bundle skills and optional MCP or app config. OpenCode plugins are JS/TS modules; skills and MCP servers live beside them. In both worlds the MCP server from Unit 2 stays where it is — the plugin just references or complements it.
+
+Next, a quiz, then installing and using published plugins.

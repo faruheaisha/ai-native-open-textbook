@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/decodingai-magazine/second-brain-ai-assistant-course"
-entryUrl: "https://github.com/decodingai-magazine/second-brain-ai-assistant-course/blob/17ccef571db3e4b563826dab83ecc9298a54ede1/README.md"
+entryUrl: "https://github.com/decodingai-magazine/second-brain-ai-assistant-course/blob/17ccef571db3e4b563826dab83ecc9298a54ede1/apps/second-brain-online/README.md"
+sourceRel: "apps/second-brain-online/README.md"
+rawUrl: "/raw/08-agents/second-brain-ai-assistant-course/apps/second-brain-online/README.md"
+sourceSha256: "d23c5857a5a3452909f9c7a05b0496a83c51779d2dcae044cd9fded03eb42734"
+pageSha256: "d23c5857a5a3452909f9c7a05b0496a83c51779d2dcae044cd9fded03eb42734"
+contentMode: "local-full"
 zh: ""
 ---
 

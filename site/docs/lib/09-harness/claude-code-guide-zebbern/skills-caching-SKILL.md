@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/zebbern/claude-code-guide"
-entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/README.md"
+entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/skills/caching/SKILL.md"
+sourceRel: "skills/caching/SKILL.md"
+rawUrl: "/raw/09-harness/claude-code-guide-zebbern/skills/caching/SKILL.md"
+sourceSha256: "0d4edff8dcc7c7778e4977c0b362a58987194e04c106995c81f73f9a5456709e"
+pageSha256: "0d4edff8dcc7c7778e4977c0b362a58987194e04c106995c81f73f9a5456709e"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/adongwanai/learn-workbuddy"
-entryUrl: "https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/README.md"
+entryUrl: "https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/docs/progression-contract.md"
+sourceRel: "docs/progression-contract.md"
+rawUrl: "/raw/09-harness/learn-workbuddy/docs/progression-contract.md"
+sourceSha256: "c061c65435d69a173bcd5f984a8a38ebc67377f7d3ece95f0e1b81dcbd2a5e4c"
+pageSha256: "c061c65435d69a173bcd5f984a8a38ebc67377f7d3ece95f0e1b81dcbd2a5e4c"
+contentMode: "local-full"
 zh: ""
 ---
 

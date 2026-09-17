@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/ShouZhengAI/CS146S_CN"
-entryUrl: "https://github.com/ShouZhengAI/CS146S_CN/blob/0d65f36f6673147d6c298670da4f9b4bd7f991fa/README.md"
+entryUrl: "https://github.com/ShouZhengAI/CS146S_CN/blob/0d65f36f6673147d6c298670da4f9b4bd7f991fa/Assignments/week6/writeup.md"
+sourceRel: "Assignments/week6/writeup.md"
+rawUrl: "/raw/07-coding/cs146s-cn/Assignments/week6/writeup.md"
+sourceSha256: "fa081ba2d043f23cc8cddac47c3a28afec4c5b1edd8ca37ab4ebad92b562a0fb"
+pageSha256: "fa081ba2d043f23cc8cddac47c3a28afec4c5b1edd8ca37ab4ebad92b562a0fb"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -38,7 +43,7 @@ b. **Semgrep 标记的规则/类别**
 `python.sqlalchemy.security.audit.avoid-sqlalchemy-text.avoid-sqlalchemy-text`，类别为 CWE-89（SQL Injection）。
 
 c. **风险说明**  
-原搜索接口把查询参数 `q` 直接放进 `text(f"...{q}...")`。攻击者可闭合字符串并改变 `WHERE` 条件，读取非预期数据，甚至在支持多语句的驱动中修改数据。
+原搜索接口把查询参数 `q` 直接放进 `text(f"...\{q\}...")`。攻击者可闭合字符串并改变 `WHERE` 条件，读取非预期数据，甚至在支持多语句的驱动中修改数据。
 
 d. **修改与 AI 工具使用**  
 使用 AI 辅助定位数据流并核对所有数据库调用，随后逐处人工检查。

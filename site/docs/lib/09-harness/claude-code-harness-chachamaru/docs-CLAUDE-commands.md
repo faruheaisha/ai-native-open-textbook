@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/Chachamaru127/claude-code-harness"
-entryUrl: "https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/README.md"
+entryUrl: "https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/docs/CLAUDE-commands.md"
+sourceRel: "docs/CLAUDE-commands.md"
+rawUrl: "/raw/09-harness/claude-code-harness-chachamaru/docs/CLAUDE-commands.md"
+sourceSha256: "19038b3c02f831a1e9dfed5d1dd67bdb0bf5525768eb568e778de72505bddb08"
+pageSha256: "19038b3c02f831a1e9dfed5d1dd67bdb0bf5525768eb568e778de72505bddb08"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -41,5 +46,5 @@ Claude harness 開発時に使用するコマンドとハンドオフの一覧�
 ## 関連ドキュメント
 
 - [CLAUDE.md](https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/CLAUDE.md) - プロジェクト開発ガイド
-- [docs/CLAUDE-skill-catalog.md](https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/docs/CLAUDE-skill-catalog.md) - スキルカタログ
-- [docs/CLAUDE-feature-table.md](/lib/09-harness/claude-code-harness-chachamaru/docs-CLAUDE-feature-table) - 新機能活用テーブル
+- [docs/CLAUDE-skill-catalog.md](/lib/09-harness/claude-code-harness-chachamaru/docs-CLAUDE-skill-catalog) - スキルカタログ
+- [docs/CLAUDE-feature-table.md](/lib/09-harness/claude-code-harness-chachamaru/docs-CLAUDE-feature-table/index) - 新機能活用テーブル

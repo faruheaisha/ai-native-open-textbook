@@ -9,6 +9,11 @@ tier: 1
 volume: "08-agents"
 sourceUrl: "https://github.com/huggingface/agents-course"
 entryUrl: "https://github.com/huggingface/agents-course/blob/b3946b1d09d29c65736e219d48a8a736a2c52154/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/08-agents/huggingface-agents-course/README.md"
+sourceSha256: "1846feec93a196dec6e6c4a8c210c8d8c22f069ce4083169301301d95b20d64f"
+pageSha256: "1846feec93a196dec6e6c4a8c210c8d8c22f069ce4083169301301d95b20d64f"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -54,11 +59,11 @@ The course is divided into 4 units. These will take you from **the basics of age
 
 
 ```bibtex
-@misc{agents-course,
-  author = {Burtenshaw, Ben and Thomas, Joffrey and Simonini, Thomas and Paniego, Sergio},
-  title = {The Hugging Face Agents Course},
-  year = {2025},
-  howpublished = {\url{https://github.com/huggingface/agents-course&#125;&#125;,
-  note = {GitHub repository},
-}
+@misc\{agents-course,
+  author = \{Burtenshaw, Ben and Thomas, Joffrey and Simonini, Thomas and Paniego, Sergio\},
+  title = \{The Hugging Face Agents Course\},
+  year = \{2025\},
+  howpublished = \{\url\{https://github.com/huggingface/agents-course&#125;&#125;,
+  note = \{GitHub repository\},
+\}
 ```

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/ed-donner/production"
-entryUrl: "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/README.md"
+entryUrl: "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/community_contributions/README.md"
+sourceRel: "community_contributions/README.md"
+rawUrl: "/raw/08-agents/ed-donner-production/community_contributions/README.md"
+sourceSha256: "9816f9a161882dc1e2e7d5fc0339b85d6bc25c1ba3a3d41da8a2ecc5d111a7d6"
+pageSha256: "9816f9a161882dc1e2e7d5fc0339b85d6bc25c1ba3a3d41da8a2ecc5d111a7d6"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding"
-entryUrl: "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding/blob/e40e0feec02b90e308ccbfc7a8911d64118ccca0/README.md"
+entryUrl: "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding/blob/e40e0feec02b90e308ccbfc7a8911d64118ccca0/book/src/part2/ch06.md"
+sourceRel: "book/src/part2/ch06.md"
+rawUrl: "/raw/09-harness/harness-engineering-from-cc-to-ai-coding/book/src/part2/ch06.md"
+sourceSha256: "bffe20a400cbea64ccfe8a9308b2f16d22a04ff90aa71e173b44bc86704b3c27"
+pageSha256: "bffe20a400cbea64ccfe8a9308b2f16d22a04ff90aa71e173b44bc86704b3c27"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -611,12 +616,12 @@ ant-only 的灰度部署策略本身也值得关注。源码中的条件判断�
 
 | # | 模式名 | 源码原文（代表性引用） | 可复用模板 |
 |---|--------|----------------------|-----------|
-| 1 | **极简主义指令** | "Three similar lines of code is better than a premature abstraction." `prompts.ts:203` | 不要在任务范围外添加{X}。{N}行重复代码优于过早抽象。只在{边界条件}时才{额外行动}。 |
-| 2 | **渐进式升级** | "Don't retry the identical action blindly, but don't abandon a viable approach after a single failure either." `prompts.ts:233` | 当{操作}失败时，先{诊断}。不要盲目重试，也不要一次失败就放弃。只在{条件}时才{升级}。 |
-| 3 | **可逆性意识** | "Carefully consider the reversibility and blast radius of actions... measure twice, cut once." `prompts.ts:258-266` | 评估操作的可逆性和影响范围。可逆本地操作自由执行；不可逆/共享操作确认后执行。NEVER{危险操作}，unless 用户明确要求。 |
-| 4 | **工具偏好引导** | "Use Grep (NOT grep or rg)" `BashTool/prompt.ts:285` | 当需要{操作}时，使用{专用工具}（而非{通用命令}）。在两个位置冗余放置映射表。 |
+| 1 | **极简主义指令** | "Three similar lines of code is better than a premature abstraction." `prompts.ts:203` | 不要在任务范围外添加\{X\}。\{N\}行重复代码优于过早抽象。只在\{边界条件\}时才\{额外行动\}。 |
+| 2 | **渐进式升级** | "Don't retry the identical action blindly, but don't abandon a viable approach after a single failure either." `prompts.ts:233` | 当\{操作\}失败时，先\{诊断\}。不要盲目重试，也不要一次失败就放弃。只在\{条件\}时才\{升级\}。 |
+| 3 | **可逆性意识** | "Carefully consider the reversibility and blast radius of actions... measure twice, cut once." `prompts.ts:258-266` | 评估操作的可逆性和影响范围。可逆本地操作自由执行；不可逆/共享操作确认后执行。NEVER\{危险操作\}，unless 用户明确要求。 |
+| 4 | **工具偏好引导** | "Use Grep (NOT grep or rg)" `BashTool/prompt.ts:285` | 当需要\{操作\}时，使用\{专用工具\}（而非\{通用命令\}）。在两个位置冗余放置映射表。 |
 | 5 | **Agent 委托指引** | "Don't peek... Don't race..." `AgentTool/prompt.ts:91-93` | 不要偷看子Agent中间输出。不要在结果返回前以任何形式编造结果。fork子Agent显式声明身份，覆盖父提示词中的矛盾指令。 |
-| 6 | **数值锚定** | "keep text between tool calls to ≤25 words" `prompts.ts:534` | {输出类型}保持在≤{N}词以内。用精确数字替代"简洁"等定性描述。硬约束+软豁免组合。 |
+| 6 | **数值锚定** | "keep text between tool calls to ≤25 words" `prompts.ts:534` | \{输出类型\}保持在≤\{N\}词以内。用精确数字替代"简洁"等定性描述。硬约束+软豁免组合。 |
 
 **表 6-2：6 种行为引导模式汇总。** 每种模式都有明确的适用场景和可复用的模板结构。
 

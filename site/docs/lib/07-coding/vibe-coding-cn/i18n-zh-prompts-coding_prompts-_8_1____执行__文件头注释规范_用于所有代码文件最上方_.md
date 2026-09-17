@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/2025Emma/vibe-coding-cn"
-entryUrl: "https://github.com/2025Emma/vibe-coding-cn/blob/9b42dd10ddf3fff58f8c7a4d347175db107d7bf9/README.md"
+entryUrl: "https://github.com/2025Emma/vibe-coding-cn/blob/9b42dd10ddf3fff58f8c7a4d347175db107d7bf9/i18n/zh/prompts/coding_prompts/%288,1%29_#_执行📘_文件头注释规范（用于所有代码文件最上方）.md"
+sourceRel: "i18n/zh/prompts/coding_prompts/(8,1)_#_执行📘_文件头注释规范（用于所有代码文件最上方）.md"
+rawUrl: "/raw/07-coding/vibe-coding-cn/i18n/zh/prompts/coding_prompts/(8,1)_#_执行📘_文件头注释规范（用于所有代码文件最上方）.md"
+sourceSha256: "9c03f0bc8f56ec4752276316cba4646baee3928e2ad4820b401004776d46f488"
+pageSha256: "9c03f0bc8f56ec4752276316cba4646baee3928e2ad4820b401004776d46f488"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/hoangnb24/repository-harness"
-entryUrl: "https://github.com/hoangnb24/repository-harness/blob/e765792b635b4d5e3e5fc0578f82f9ca5dea2681/README.md"
+entryUrl: "https://github.com/hoangnb24/repository-harness/blob/e765792b635b4d5e3e5fc0578f82f9ca5dea2681/docs/decisions/0020-installation-profile-and-knowledge-boundaries.md"
+sourceRel: "docs/decisions/0020-installation-profile-and-knowledge-boundaries.md"
+rawUrl: "/raw/09-harness/repository-harness/docs/decisions/0020-installation-profile-and-knowledge-boundaries.md"
+sourceSha256: "3d8422c55ae070ca238e577b078f466ebeaaf2caa56a99a67a94ec37ce2497d2"
+pageSha256: "3d8422c55ae070ca238e577b078f466ebeaaf2caa56a99a67a94ec37ce2497d2"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/Piebald-AI/claude-code-system-prompts"
-entryUrl: "https://github.com/Piebald-AI/claude-code-system-prompts/blob/3af4c6139aaabb0470440961ca8c8fb871099234/README.md"
+entryUrl: "https://github.com/Piebald-AI/claude-code-system-prompts/blob/3af4c6139aaabb0470440961ca8c8fb871099234/system-prompts/agent-prompt-background-job-agent-instructions.md"
+sourceRel: "system-prompts/agent-prompt-background-job-agent-instructions.md"
+rawUrl: "/raw/10-context-memory/claude-code-system-prompts/system-prompts/agent-prompt-background-job-agent-instructions.md"
+sourceSha256: "54a0e8fc72cb02b77e9b6f55781562ad50495f61d30b4757f20c506880fe39f2"
+pageSha256: "54a0e8fc72cb02b77e9b6f55781562ad50495f61d30b4757f20c506880fe39f2"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -20,7 +25,7 @@ This session is a background job. The user may be live or away — respond natur
 
 **Restate.** State results in your own text even if a tool already printed them — the extractor can't see tool output. If the human replies, open your next turn by restating what they said before acting on it.
 
-For noisy investigation (grep sweeps, log trawls, broad search), spawn a subagent when you have the ${AGENT_TOOL_NAME} tool, and keep only the findings here.
+For noisy investigation (grep sweeps, log trawls, broad search), spawn a subagent when you have the $\{AGENT_TOOL_NAME\} tool, and keep only the findings here.
 
 **Completed.** First run a sanity check (test, build, re-read the ask) and say what you checked. Then write `result:` on its own line with a self-contained one-line headline — readable by someone who never saw the ask. That line is the *only* completion signal; prose like "done" or "finished" is not detected. `result:` means the ask is delivered — pushing or launching something that still needs to settle is narration, not `result:`. Skip it only for greetings and clarifying questions; an answer to a question *is* a deliverable.
 

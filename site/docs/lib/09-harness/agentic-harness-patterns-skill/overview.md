@@ -9,6 +9,11 @@ tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/keli-wen/agentic-harness-patterns-skill"
 entryUrl: "https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/09-harness/agentic-harness-patterns-skill/README.md"
+sourceSha256: "ded29548c1c109308b613474716698a478c70433829e1cd3d5b70b79c48225e6"
+pageSha256: "ded29548c1c109308b613474716698a478c70433829e1cd3d5b70b79c48225e6"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -49,15 +54,15 @@ Engineers building or extending:
 
 | # | Pattern | The Problem It Solves | Key Insight |
 |---|---|---|---|
-| 1 | [**Memory**](https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/skills/agentic-harness-patterns/SKILL.md#1-memory) | "My agent forgets everything between sessions" | Separate *instruction memory* (human-curated) from *auto-memory* (agent-written) from *session extraction* (background-derived). Each has different trust, persistence, and review needs. |
-| 2 | [**Skills**](https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/skills/agentic-harness-patterns/SKILL.md#2-skills) | "I re-explain workflows every conversation" | Skills are lazy-loaded instruction sets. Discovery must be cheap (~1% of context window); full body loads only on activation. Front-load trigger language — tails get truncated. |
-| 3 | [**Tools & Safety**](https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/skills/agentic-harness-patterns/SKILL.md#3-tools-and-safety) | "I want tools powerful but not dangerous" | Default to fail-closed. Concurrency is per-call, not per-tool. The permission pipeline has *side effects* — it tracks denials, transforms modes, and updates state. |
-| 4 | [**Context Engineering**](https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/skills/agentic-harness-patterns/SKILL.md#4-context-engineering) | "My agent sees too much, too little, or the wrong thing" | Four operations: **select** (just-in-time loading), **write** (the learning loop), **compress** (reactive compaction), **isolate** (delegation boundaries). |
-| 5 | [**Multi-agent**](https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/skills/agentic-harness-patterns/SKILL.md#5-multi-agent-coordination) | "I need parallelism without chaos" | Three patterns: Coordinator (zero-inheritance), Fork (full-inheritance, single-level), Swarm (flat peer roster). The coordinator must *synthesize*, not delegate understanding. |
-| 6 | [**Lifecycle**](https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/skills/agentic-harness-patterns/SKILL.md#6-lifecycle-and-extensibility) | "I need hooks, background tasks, startup sequence" | Hook trust is all-or-nothing. Task eviction is two-phase. Bootstrap is dependency-ordered with trust as the critical inflection point. |
+| 1 | [**Memory**](/lib/09-harness/agentic-harness-patterns-skill/skills-agentic-harness-patterns-SKILL#1-memory) | "My agent forgets everything between sessions" | Separate *instruction memory* (human-curated) from *auto-memory* (agent-written) from *session extraction* (background-derived). Each has different trust, persistence, and review needs. |
+| 2 | [**Skills**](/lib/09-harness/agentic-harness-patterns-skill/skills-agentic-harness-patterns-SKILL#2-skills) | "I re-explain workflows every conversation" | Skills are lazy-loaded instruction sets. Discovery must be cheap (~1% of context window); full body loads only on activation. Front-load trigger language — tails get truncated. |
+| 3 | [**Tools & Safety**](/lib/09-harness/agentic-harness-patterns-skill/skills-agentic-harness-patterns-SKILL#3-tools-and-safety) | "I want tools powerful but not dangerous" | Default to fail-closed. Concurrency is per-call, not per-tool. The permission pipeline has *side effects* — it tracks denials, transforms modes, and updates state. |
+| 4 | [**Context Engineering**](/lib/09-harness/agentic-harness-patterns-skill/skills-agentic-harness-patterns-SKILL#4-context-engineering) | "My agent sees too much, too little, or the wrong thing" | Four operations: **select** (just-in-time loading), **write** (the learning loop), **compress** (reactive compaction), **isolate** (delegation boundaries). |
+| 5 | [**Multi-agent**](/lib/09-harness/agentic-harness-patterns-skill/skills-agentic-harness-patterns-SKILL#5-multi-agent-coordination) | "I need parallelism without chaos" | Three patterns: Coordinator (zero-inheritance), Fork (full-inheritance, single-level), Swarm (flat peer roster). The coordinator must *synthesize*, not delegate understanding. |
+| 6 | [**Lifecycle**](/lib/09-harness/agentic-harness-patterns-skill/skills-agentic-harness-patterns-SKILL#6-lifecycle-and-extensibility) | "I need hooks, background tasks, startup sequence" | Hook trust is all-or-nothing. Task eviction is two-phase. Bootstrap is dependency-ordered with trust as the critical inflection point. |
 
 > [!TIP]
-> Each pattern includes: **Problem** -> **Golden Rules** -> **Start Here** (actionable first step) -> **Tradeoffs** -> **Gotchas** -> **Claude Code Evidence**. Start with the "Choose Your Problem" table in [SKILL.md](https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/skills/agentic-harness-patterns/SKILL.md).
+> Each pattern includes: **Problem** -> **Golden Rules** -> **Start Here** (actionable first step) -> **Tradeoffs** -> **Gotchas** -> **Claude Code Evidence**. Start with the "Choose Your Problem" table in [SKILL.md](/lib/09-harness/agentic-harness-patterns-skill/skills-agentic-harness-patterns-SKILL).
 
 ## Deep-Dive References
 
@@ -65,17 +70,17 @@ Engineers building or extending:
 
 | Reference | Covers |
 |---|---|
-| [memory-persistence-pattern](https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/skills/agentic-harness-patterns/references/memory-persistence-pattern.md) | Four-level instruction hierarchy, four-type auto-memory, background extraction with mutual exclusion |
-| [skill-runtime-pattern](https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/skills/agentic-harness-patterns/references/skill-runtime-pattern.md) | Four-source discovery, YAML frontmatter contract, budget-constrained listing, graceful degradation |
-| [tool-registry-pattern](https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/skills/agentic-harness-patterns/references/tool-registry-pattern.md) | Fail-closed builder, per-call concurrency, partition-sort-concatenate for cache stability |
-| [permission-gate-pattern](https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/skills/agentic-harness-patterns/references/permission-gate-pattern.md) | Single gate, three behaviors, strict layered evaluation, atomic claim for race-safe resolution |
+| [memory-persistence-pattern](/lib/09-harness/agentic-harness-patterns-skill/skills-agentic-harness-patterns-references-memory-persistence-pattern) | Four-level instruction hierarchy, four-type auto-memory, background extraction with mutual exclusion |
+| [skill-runtime-pattern](/lib/09-harness/agentic-harness-patterns-skill/skills-agentic-harness-patterns-references-skill-runtime-pattern) | Four-source discovery, YAML frontmatter contract, budget-constrained listing, graceful degradation |
+| [tool-registry-pattern](/lib/09-harness/agentic-harness-patterns-skill/skills-agentic-harness-patterns-references-tool-registry-pattern) | Fail-closed builder, per-call concurrency, partition-sort-concatenate for cache stability |
+| [permission-gate-pattern](/lib/09-harness/agentic-harness-patterns-skill/skills-agentic-harness-patterns-references-permission-gate-pattern) | Single gate, three behaviors, strict layered evaluation, atomic claim for race-safe resolution |
 | [agent-orchestration-pattern](/lib/09-harness/agentic-harness-patterns-skill/skills-agentic-harness-patterns-references-agent-orchestration-pattern) | Mutual exclusion of modes, fork cache optimization, flat swarm topology, tool filtering layers |
 | [context-engineering](/lib/09-harness/agentic-harness-patterns-skill/skills-agentic-harness-patterns-references-context-engineering-pattern) | Index: select / compress / isolate sub-pattern routing |
 | [select-pattern](/lib/09-harness/agentic-harness-patterns-skill/skills-agentic-harness-patterns-references-context-engineering-select-pattern) | Promise memoization, three-tier progressive disclosure, manual cache invalidation |
 | [compress-pattern](/lib/09-harness/agentic-harness-patterns-skill/skills-agentic-harness-patterns-references-context-engineering-compress-pattern) | Truncation with recovery pointers, reactive compaction, snapshot labeling |
 | [isolate-pattern](/lib/09-harness/agentic-harness-patterns-skill/skills-agentic-harness-patterns-references-context-engineering-isolate-pattern) | Zero-inheritance default, single-level fork boundary, worktree-based filesystem isolation |
 | [hook-lifecycle-pattern](/lib/09-harness/agentic-harness-patterns-skill/skills-agentic-harness-patterns-references-hook-lifecycle-pattern) | Single dispatch, all-or-nothing trust, six hook types, exit-code discipline |
-| [task-decomposition-pattern](https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/skills/agentic-harness-patterns/references/task-decomposition-pattern.md) | Typed prefixed IDs, strict state machine, disk-backed output, two-phase eviction |
+| [task-decomposition-pattern](/lib/09-harness/agentic-harness-patterns-skill/skills-agentic-harness-patterns-references-task-decomposition-pattern) | Typed prefixed IDs, strict state machine, disk-backed output, two-phase eviction |
 | [bootstrap-sequence-pattern](/lib/09-harness/agentic-harness-patterns-skill/skills-agentic-harness-patterns-references-bootstrap-sequence-pattern) | Dependency-ordered init, trust-split env vars, memoized concurrent callers, fast-path dispatch |
 
 ## How This Was Built
@@ -102,7 +107,7 @@ npx skills add github:keli-wen/agentic-harness-patterns-skill
 
   <img src="/mirror/61/61a8868a08633fba50acffab2f831078f9d20404.webp" alt="npx skills add screenshot" width="720">
 
-**Just reading:** Open [SKILL.md](https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/skills/agentic-harness-patterns/SKILL.md) (EN) or [SKILL.md](/lib/09-harness/agentic-harness-patterns-skill/skills-agentic-harness-patterns-zh-SKILL) (ZH).
+**Just reading:** Open [SKILL.md](/lib/09-harness/agentic-harness-patterns-skill/skills-agentic-harness-patterns-SKILL) (EN) or [SKILL.md](/lib/09-harness/agentic-harness-patterns-skill/skills-agentic-harness-patterns-zh-SKILL) (ZH).
 
 ## Project Structure
 

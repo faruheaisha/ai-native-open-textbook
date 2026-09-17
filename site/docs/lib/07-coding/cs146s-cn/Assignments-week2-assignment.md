@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/ShouZhengAI/CS146S_CN"
-entryUrl: "https://github.com/ShouZhengAI/CS146S_CN/blob/0d65f36f6673147d6c298670da4f9b4bd7f991fa/README.md"
+entryUrl: "https://github.com/ShouZhengAI/CS146S_CN/blob/0d65f36f6673147d6c298670da4f9b4bd7f991fa/Assignments/week2/assignment.md"
+sourceRel: "Assignments/week2/assignment.md"
+rawUrl: "/raw/07-coding/cs146s-cn/Assignments/week2/assignment.md"
+sourceSha256: "680f4415ff466b0633abee9e9cd935847463cbfb022a6dd204cc8f80df49fd38"
+pageSha256: "680f4415ff466b0633abee9e9cd935847463cbfb022a6dd204cc8f80df49fd38"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -57,7 +62,7 @@ poetry run uvicorn week2.app.main:app --reload
 
 一些提示：
 - 如需生成结构化输出（即字符串组成的 JSON 数组），请参阅此文档：https://ollama.com/blog/structured-outputs
-- 如需浏览可用的 Ollama 模型，请参阅此页面：https://ollama.com/library。请注意，模型越大，消耗的计算资源越多，因此建议从较小的模型开始。如需拉取并运行模型，请执行：`ollama run {MODEL_NAME}`
+- 如需浏览可用的 Ollama 模型，请参阅此页面：https://ollama.com/library。请注意，模型越大，消耗的计算资源越多，因此建议从较小的模型开始。如需拉取并运行模型，请执行：`ollama run \{MODEL_NAME\}`
 
 ### TODO 2：添加单元测试
 

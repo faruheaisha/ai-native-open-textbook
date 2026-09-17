@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "04-work"
 sourceUrl: "https://github.com/coze-dev/coze-studio"
-entryUrl: "https://github.com/coze-dev/coze-studio/blob/fefb05ff27be1da939612fbf9faf5db62583b8ae/README.md"
+entryUrl: "https://github.com/coze-dev/coze-studio/blob/fefb05ff27be1da939612fbf9faf5db62583b8ae/common/autoinstallers/rush-commands/src/convert-comments/README.md"
+sourceRel: "common/autoinstallers/rush-commands/src/convert-comments/README.md"
+rawUrl: "/raw/04-work/coze-studio/common/autoinstallers/rush-commands/src/convert-comments/README.md"
+sourceSha256: "ef6e3f7236482256f462152915bd857c7b1a44c7e433d4e7c38792f3fb4a744f"
+pageSha256: "ef6e3f7236482256f462152915bd857c7b1a44c7e433d4e7c38792f3fb4a744f"
+contentMode: "local-full"
 zh: ""
 ---
 

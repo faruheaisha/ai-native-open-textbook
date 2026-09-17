@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering"
-entryUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/README.md"
+entryUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/docs/agentskills.md"
+sourceRel: "docs/agentskills.md"
+rawUrl: "/raw/10-context-memory/agent-skills-for-context-engineering/docs/agentskills.md"
+sourceSha256: "ff8dcd984756f1cdbf75791920cb0e7515bf1f80dcbec07e60c4fa5cc565010d"
+pageSha256: "ff8dcd984756f1cdbf75791920cb0e7515bf1f80dcbec07e60c4fa5cc565010d"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -219,11 +224,11 @@ function parseMetadata(skillPath):
     content = readFile(skillPath + "/SKILL.md")
     frontmatter = extractYAMLFrontmatter(content)
 
-    return {
+    return \{
         name: frontmatter.name,
         description: frontmatter.description,
         path: skillPath
-    }
+    \}
 ​
 Injecting into context
 Include skill metadata in the system prompt so the model knows what skills are available.
@@ -878,7 +883,7 @@ This approach ensures you're solving actual problems rather than anticipating re
 
 Evaluation structure:
 
-{
+\{
   "skills": ["pdf-processing"],
   "query": "Extract all text from this PDF file and save it to output.txt",
   "files": ["test-files/document.pdf"],
@@ -887,7 +892,7 @@ Evaluation structure:
     "Extracts text content from all pages in the document without missing any pages",
     "Saves the extracted text to a file named output.txt in a clear, readable format"
   ]
-}
+\}
 This example demonstrates a data-driven evaluation with a simple testing rubric. We do not currently provide a built-in way to run these evaluations. Users can create their own evaluation system. Evaluations are your source of truth for measuring Skill effectiveness.
 
 Develop Skills iteratively with Claude
@@ -986,13 +991,13 @@ def process_file(path):
             return f.read()
     except FileNotFoundError:
         # Create file with default content instead of failing
-        print(f"File {path} not found, creating default")
+        print(f"File \{path\} not found, creating default")
         with open(path, 'w') as f:
             f.write('')
         return ''
     except PermissionError:
         # Provide alternative instead of failing
-        print(f"Cannot access {path}, using default")
+        print(f"Cannot access \{path\}, using default")
         return ''
 Bad example: Punt to Claude:
 

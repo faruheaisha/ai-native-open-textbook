@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works"
-entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/README.md"
+entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/02-agent-loop.md"
+sourceRel: "docs/02-agent-loop.md"
+rawUrl: "/raw/09-harness/how-claude-code-works/docs/02-agent-loop.md"
+sourceSha256: "105842154ed904b9d4679e052a1806e5402033598a24b15c459d7fd9b2f7de4a"
+pageSha256: "105842154ed904b9d4679e052a1806e5402033598a24b15c459d7fd9b2f7de4a"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -238,7 +243,7 @@ flowchart TD
 
 跟着代码走一遍循环体的关键步骤：
 
-第一步：4 级压缩流水线（详见[第 3 章](/lib/09-harness/how-claude-code-works/docs-03-context-engineering)）
+第一步：4 级压缩流水线（详见[第 3 章](/lib/09-harness/how-claude-code-works/docs-03-context-engineering/index)）
 
 每次循环迭代的入口处，消息列表依次经过 Tool Result Budget、Snip、Microcompact、Context Collapse、Autocompact。这是防御性设计——即使上一轮工具返回了 100K Token 的输出，压缩流水线会在 API 调用前将其控制在预算内。
 
@@ -403,7 +408,7 @@ const taskSummaryModule = feature('BG_SESSIONS')
 这个模式有三个层次：
 1. 编译时消除：`feature()` 在 Bun bundler 构建时求值。外部构建中 `feature('REACTIVE_COMPACT')` 返回 `false`，整个 `require()` 分支被 tree-shaking
 2. 类型安全：`as typeof import(...)` 让 TypeScript 知道模块的完整类型，IDE 补全和类型检查不受影响
-3. 运行时守卫：代码中使用 `if (contextCollapse) { contextCollapse.applyCollapsesIfNeeded(...) }`，编译时也会把这个 null 检查一并消除
+3. 运行时守卫：代码中使用 `if (contextCollapse) \{ contextCollapse.applyCollapsesIfNeeded(...) \}`，编译时也会把这个 null 检查一并消除
 
 ## 2.7 七个继续点（Continue Sites）
 
@@ -516,11 +521,11 @@ const EMPTY_USAGE = {
 
 > **设计决策：连续压缩失败的熔断器为什么阈值是 3 次？**
 >
-> `MAX_CONSECUTIVE_AUTOCOMPACT_FAILURES = 3`（`src/services/compact/autoCompact.ts`）。源码注释引用了生产数据：*"BQ 2026-03-10: 1,279 sessions had 50+ consecutive failures (up to 3,272) in a single session, wasting ~250K API calls/day globally."* 没有这个熔断器之前，压缩一旦进入失败循环，会在每一轮都白白发起一次完整的摘要 API 调用；这种调用的输出上限是 `MAX_OUTPUT_TOKENS_FOR_SUMMARY = 20K` tokens，并非每次都真的消耗这么多。注意熔断器不会直接终止主循环：连续失败 3 次后，`checkAutoCompact` 对本会话后续的 autocompact 尝试直接返回 `{ wasCompacted: false }`，压缩变成 no-op；`query()` 拿到失败计数只更新 tracking，随即继续往下迭代。如果上下文最终仍然超限，要经由上面第 5 条——PTL/MOT 恢复全部失败——才真正终止。3 次阈值在"给压缩服务恢复机会"和"避免资源浪费"之间取得平衡。
+> `MAX_CONSECUTIVE_AUTOCOMPACT_FAILURES = 3`（`src/services/compact/autoCompact.ts`）。源码注释引用了生产数据：*"BQ 2026-03-10: 1,279 sessions had 50+ consecutive failures (up to 3,272) in a single session, wasting ~250K API calls/day globally."* 没有这个熔断器之前，压缩一旦进入失败循环，会在每一轮都白白发起一次完整的摘要 API 调用；这种调用的输出上限是 `MAX_OUTPUT_TOKENS_FOR_SUMMARY = 20K` tokens，并非每次都真的消耗这么多。注意熔断器不会直接终止主循环：连续失败 3 次后，`checkAutoCompact` 对本会话后续的 autocompact 尝试直接返回 `\{ wasCompacted: false \}`，压缩变成 no-op；`query()` 拿到失败计数只更新 tracking，随即继续往下迭代。如果上下文最终仍然超限，要经由上面第 5 条——PTL/MOT 恢复全部失败——才真正终止。3 次阈值在"给压缩服务恢复机会"和"避免资源浪费"之间取得平衡。
 
 > **设计决策：为什么用异步生成器而不是回调/事件？**
 >
-> `query()` 是一个 `async function*`，通过 `yield` 逐步输出事件。相比 EventEmitter 这类回调模式，生成器有两个关键优势。一是背压控制：消费端不处理完上一个事件，生产端不会继续执行，天然防止事件堆积。二是线性控制流：循环的 7 个 continue site 可以用普通的 `state = { ... }; continue` 表达，不需要状态机的显式转换表。代价是调用方必须用 `for await...of` 消费，但在 Claude Code 中只有 QueryEngine 是消费者，这个约束完全可接受。
+> `query()` 是一个 `async function*`，通过 `yield` 逐步输出事件。相比 EventEmitter 这类回调模式，生成器有两个关键优势。一是背压控制：消费端不处理完上一个事件，生产端不会继续执行，天然防止事件堆积。二是线性控制流：循环的 7 个 continue site 可以用普通的 `state = \{ ... \}; continue` 表达，不需要状态机的显式转换表。代价是调用方必须用 `for await...of` 消费，但在 Claude Code 中只有 QueryEngine 是消费者，这个约束完全可接受。
 
 ## 2.11 设计亮点总结
 
@@ -535,4 +540,4 @@ const EMPTY_USAGE = {
 
 > **动手实践**：在 [claude-code-from-scratch](https://github.com/Windy3f3f3f3f/claude-code-from-scratch) 的 `src/agent.ts` 中，你可以看到一个 ~1,500 行的 Agent 主循环实现。对比本章描述的双层生成器架构，思考：为什么最小实现不需要分两层？什么规模下才值得引入 QueryEngine 这样的会话管理层？参见教程 [第 1 章：Agent Loop](https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/main/docs/01-agent-loop.md)。
 
-上一章：[概述](/lib/09-harness/how-claude-code-works/docs-01-overview) | 下一章：[上下文工程](/lib/09-harness/how-claude-code-works/docs-03-context-engineering)
+上一章：[概述](/lib/09-harness/how-claude-code-works/docs-01-overview) | 下一章：[上下文工程](/lib/09-harness/how-claude-code-works/docs-03-context-engineering/index)

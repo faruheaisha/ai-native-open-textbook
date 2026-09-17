@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/AlephAITech/WorkBuddyGuide"
-entryUrl: "https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89da368fe208425ff50e121fe/README.md"
+entryUrl: "https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第四篇%20岗位与行业落地/第%2027%20章%20行业路线图：从通用能力到行业工作流/index.md"
+sourceRel: "docs/bluebook/第四篇 岗位与行业落地/第 27 章 行业路线图：从通用能力到行业工作流/index.md"
+rawUrl: "/raw/04-work/workbuddy-guide/docs/bluebook/第四篇 岗位与行业落地/第 27 章 行业路线图：从通用能力到行业工作流/index.md"
+sourceSha256: "a637dd6befe324053623602048fa9ecbb54cf1b3f7f93ad89919335f21b20e9b"
+pageSha256: "a637dd6befe324053623602048fa9ecbb54cf1b3f7f93ad89919335f21b20e9b"
+contentMode: "local-full"
 zh: ""
 ---
 

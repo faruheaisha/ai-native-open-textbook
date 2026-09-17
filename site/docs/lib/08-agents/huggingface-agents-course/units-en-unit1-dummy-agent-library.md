@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "08-agents"
 sourceUrl: "https://github.com/huggingface/agents-course"
-entryUrl: "https://github.com/huggingface/agents-course/blob/b3946b1d09d29c65736e219d48a8a736a2c52154/README.md"
+entryUrl: "https://github.com/huggingface/agents-course/blob/b3946b1d09d29c65736e219d48a8a736a2c52154/units/en/unit1/dummy-agent-library.mdx"
+sourceRel: "units/en/unit1/dummy-agent-library.mdx"
+rawUrl: "/raw/08-agents/huggingface-agents-course/units/en/unit1/dummy-agent-library.mdx"
+sourceSha256: "c273c1de77cb4ae568723ece4f719c434c6357a029825c024b3ff22cee9a2f07"
+pageSha256: "c273c1de77cb4ae568723ece4f719c434c6357a029825c024b3ff22cee9a2f07"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -58,11 +63,11 @@ We use the `chat` method since it is a convenient and reliable way to apply chat
 ```python
 output = client.chat.completions.create(
     messages=[
-        {"role": "user", "content": "The capital of France is"},
+        \{"role": "user", "content": "The capital of France is"\},
     ],
     stream=False,
     max_tokens=1024,
-    extra_body={'thinking': {'type': 'disabled'&#125;&#125;,
+    extra_body=\{'thinking': \{'type': 'disabled'&#125;&#125;,
 )
 print(output.choices[0].message.content)
 ```
@@ -96,12 +101,12 @@ The way you use the tools is by specifying a json blob.
 Specifically, this json should have an `action` key (with the name of the tool to use) and an `action_input` key (with the input to the tool going here).
 
 The only values that should be in the "action" field are:
-get_weather: Get the current weather in a given location, args: {"location": {"type": "string"&#125;&#125;
+get_weather: Get the current weather in a given location, args: \{"location": \{"type": "string"&#125;&#125;
 example use :
 
 &#123;&#123;
   "action": "get_weather",
-  "action_input": {"location": "New York"}
+  "action_input": \{"location": "New York"\}
 &#125;&#125;
 
 
@@ -128,8 +133,8 @@ We need to append the user instruction after the system prompt. This happens ins
 
 ```python
 messages = [
-    {"role": "system", "content": SYSTEM_PROMPT},
-    {"role": "user", "content": "What's the weather in London?"},
+    \{"role": "system", "content": SYSTEM_PROMPT\},
+    \{"role": "user", "content": "What's the weather in London?"\},
 ]
 
 print(messages)
@@ -147,12 +152,12 @@ The way you use the tools is by specifying a json blob.
 Specifically, this json should have an `action` key (with the name of the tool to use) and a `action_input` key (with the input to the tool going here).
 
 The only values that should be in the "action" field are:
-get_weather: Get the current weather in a given location, args: {"location": {"type": "string"&#125;&#125;
+get_weather: Get the current weather in a given location, args: \{"location": \{"type": "string"&#125;&#125;
 example use :
 
 &#123;&#123;
   "action": "get_weather",
-  "action_input": {"location": "New York"}
+  "action_input": \{"location": "New York"\}
 &#125;&#125;
 
 ALWAYS use the following format:
@@ -184,7 +189,7 @@ output = client.chat.completions.create(
     messages=messages,
     stream=False,
     max_tokens=200,
-    extra_body={'thinking': {'type': 'disabled'&#125;&#125;,
+    extra_body=\{'thinking': \{'type': 'disabled'&#125;&#125;,
 )
 print(output.choices[0].message.content)
 ```
@@ -195,10 +200,10 @@ output:
 Thought: To answer the question, I need to get the current weather in London.
 Action:
 ```
-{
+\{
   "action": "get_weather",
-  "action_input": {"location": "London"}
-}
+  "action_input": \{"location": "London"\}
+\}
 ```
 Observation: The current weather in London is partly cloudy with a temperature of 12°C.
 Thought: I now know the final answer.
@@ -217,7 +222,7 @@ output = client.chat.completions.create(
     messages=messages,
     max_tokens=150,
     stop=["Observation:"], # Let's stop before any actual function is called
-    extra_body={'thinking': {'type': 'disabled'&#125;&#125;,
+    extra_body=\{'thinking': \{'type': 'disabled'&#125;&#125;,
 )
 
 print(output.choices[0].message.content)
@@ -229,10 +234,10 @@ output:
 Thought: To answer the question, I need to get the current weather in London.
 Action:
 ```
-{
+\{
   "action": "get_weather",
-  "action_input": {"location": "London"}
-}
+  "action_input": \{"location": "London"\}
+\}
 
 
 ````
@@ -244,7 +249,7 @@ Let's now create a **dummy get weather function**. In a real situation you could
 ```python
 # Dummy function
 def get_weather(location):
-    return f"the weather in {location} is sunny with low temperatures. \n"
+    return f"the weather in \{location\} is sunny with low temperatures. \n"
 
 get_weather('London')
 ```
@@ -259,16 +264,16 @@ Let's concatenate the system prompt, the base prompt, the completion until funct
 
 ```python
 messages=[
-    {"role": "system", "content": SYSTEM_PROMPT},
-    {"role": "user", "content": "What's the weather in London ?"},
-    {"role": "assistant", "content": output.choices[0].message.content + "Observation:\n" + get_weather('London')},
+    \{"role": "system", "content": SYSTEM_PROMPT\},
+    \{"role": "user", "content": "What's the weather in London ?"\},
+    \{"role": "assistant", "content": output.choices[0].message.content + "Observation:\n" + get_weather('London')\},
 ]
 
 output = client.chat.completions.create(
     messages=messages,
     stream=False,
     max_tokens=200,
-    extra_body={'thinking': {'type': 'disabled'&#125;&#125;,
+    extra_body=\{'thinking': \{'type': 'disabled'&#125;&#125;,
 )
 
 print(output.choices[0].message.content)
@@ -286,13 +291,13 @@ The way you use the tools is by specifying a json blob.
 Specifically, this json should have a `action` key (with the name of the tool to use) and a `action_input` key (with the input to the tool going here).
 
 The only values that should be in the "action" field are:
-get_weather: Get the current weather in a given location, args: {"location": {"type": "string"&#125;&#125;
+get_weather: Get the current weather in a given location, args: \{"location": \{"type": "string"&#125;&#125;
 example use :
 
-{
+\{
   "action": "get_weather",
-  "action_input": {"location": "New York"}
-}
+  "action_input": \{"location": "New York"\}
+\}
 
 ALWAYS use the following format:
 
@@ -318,10 +323,10 @@ Thought: To answer the question, I need to get the current weather in London.
 Action:
 
     ```json
-    {
+    \{
       "action": "get_weather",
-      "action_input": {"location": {"type": "string", "value": "London"&#125;&#125;
-    }
+      "action_input": \{"location": \{"type": "string", "value": "London"&#125;&#125;
+    \}
     ```
 
 Observation: The weather in London is sunny with low temperatures.

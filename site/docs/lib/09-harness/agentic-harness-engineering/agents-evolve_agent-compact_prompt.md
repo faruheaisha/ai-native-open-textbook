@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering"
-entryUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering/blob/8b2a55d97590363fe50c3cc6b5e833b020a4bb4c/README.md"
+entryUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering/blob/8b2a55d97590363fe50c3cc6b5e833b020a4bb4c/agents/evolve_agent/compact_prompt.md"
+sourceRel: "agents/evolve_agent/compact_prompt.md"
+rawUrl: "/raw/09-harness/agentic-harness-engineering/agents/evolve_agent/compact_prompt.md"
+sourceSha256: "ac350a7852ff28433c004a2f13ed0a8f4fe4727e3af0a898b52b62600416d0fb"
+pageSha256: "ac350a7852ff28433c004a2f13ed0a8f4fe4727e3af0a898b52b62600416d0fb"
+contentMode: "local-full"
 zh: ""
 ---
 

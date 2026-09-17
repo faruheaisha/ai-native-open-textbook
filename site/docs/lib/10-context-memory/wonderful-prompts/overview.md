@@ -9,6 +9,11 @@ tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/langgptai/wonderful-prompts"
 entryUrl: "https://github.com/langgptai/wonderful-prompts/blob/c8e5dbd3bc01740728fd1ab8f8d4f654a17e3697/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/10-context-memory/wonderful-prompts/README.md"
+sourceSha256: "adea83105edadaacd12821cbeb8949701530b9fd12e502dd2216c2da80c246dc"
+pageSha256: "adea83105edadaacd12821cbeb8949701530b9fd12e502dd2216c2da80c246dc"
+contentMode: "local-full"
 zh: ""
 ---
 

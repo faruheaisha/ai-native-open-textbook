@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/mattpocock/skills"
-entryUrl: "https://github.com/mattpocock/skills/blob/3cca18b368ae95cdbdebbff572ccafa662551015/README.md"
+entryUrl: "https://github.com/mattpocock/skills/blob/3cca18b368ae95cdbdebbff572ccafa662551015/docs/engineering/to-spec.md"
+sourceRel: "docs/engineering/to-spec.md"
+rawUrl: "/raw/10-context-memory/mattpocock-skills/docs/engineering/to-spec.md"
+sourceSha256: "47dbcde3e8ba381dc6650206bf36c64336c91f2d9de86ab1898355155081fe5a"
+pageSha256: "47dbcde3e8ba381dc6650206bf36c64336c91f2d9de86ab1898355155081fe5a"
+contentMode: "local-full"
 zh: ""
 ---
 

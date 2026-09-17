@@ -9,6 +9,11 @@ tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/keyuchen21/agentic-engineering-handbook"
 entryUrl: "https://github.com/keyuchen21/agentic-engineering-handbook/blob/002d5456ac717fb6c4444005c9bb2ceff416d8c7/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/08-agents/agentic-engineering-handbook/README.md"
+sourceSha256: "a9e3d39da36493171428d1d6f10d4e572e2c2de82420f3aa7821f55d9bb4f5f2"
+pageSha256: "a9e3d39da36493171428d1d6f10d4e572e2c2de82420f3aa7821f55d9bb4f5f2"
+contentMode: "local-full"
 zh: ""
 ---
 

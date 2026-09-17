@@ -17,6 +17,7 @@
 //   node scripts/build-site-content.mjs --maxDocs=40
 
 import fs from "node:fs";
+import crypto from "node:crypto";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -36,14 +37,33 @@ const args = Object.fromEntries(
 );
 const BATCH_KINDS = args.kinds ? new Set(args.kinds.split(",").filter(Boolean)) : null;
 const BATCH_VOLUMES = args.volumes ? new Set(args.volumes.split(",")) : null;
-// 每门课的正文篇数上限（兜底路径用）。编排口径是「入口文档 + 每个课时目录的主文档」，
-// 这个上限只防止个别超大仓库把整棵树灌进来。
-// 想要某门课完整收录，在 curation.json 的 readingPlan 里登记 roots（那边的默认上限是 600）。
-// 注：VitePress 把整站页面放在同一个进程里渲染，页面数直接决定构建内存：
-// 2500 页约 5GB，5200 页约 10GB，10000 页超过 12GB（本机 15.7GB 被撑爆）。加课要考虑这个。
-const MAX_DOCS = Number(args.maxDocs || 24);
+// 发布边界：默认只生成允许公开转载的来源；完整原件只允许显式 local-full 模式。
+// 这样即使部署平台直接执行 `npm run docs:build`，也不会把「仅引用」正文带入公开产物。
+const CONTENT_MODE = args.mode || process.env.TB_CONTENT_MODE || "public";
+const PUBLIC_BUILD = CONTENT_MODE !== "local-full";
+// 每门课的正文篇数上限。默认不设限 —— 课程要整门搬完，从中间截断比不收还糟。
+// 「默认 24 篇」那版让 113 门课里 70 门正好停在 24~28 篇：上游 17411 篇候选正文，
+// 站上只落了 2281 篇，长课全被腰斩（实例：千问办公绿皮书 413 篇只上了 24 篇）。
+//   --maxDocs=N   只用于试跑压规模；正式构建不要带。
+//   plan.limit    单门课的显式上限，只在确认该仓库混有大量非课程文件时才写。
+// 页面数直接决定 VitePress 的构建内存（整站页面在同一进程里渲染），
+// 目前靠 build.ps1 里的 --max-old-space-size 扛；再上一个量级要改成分批渲染。
+const MAX_DOCS = args.maxDocs ? Number(args.maxDocs) : 0;
 
 const catalog = JSON.parse(fs.readFileSync(CATALOG, "utf8"));
+
+// 上游自带的侧栏树（由 scripts/extract-upstream-nav.mjs 从各仓库的 sidebar.ts /
+// mkdocs.yml / SUMMARY.md / _sidebar.md / 站点快照里抽出来）。有它就用它，
+// 没有才退回按目录名编树 —— 上游怎么分章、怎么起标题，站上就怎么排。
+const UPSTREAM_NAV = (() => {
+  const f = path.join(ROOT, "catalog", "upstream-nav.json");
+  try {
+    return JSON.parse(fs.readFileSync(f, "utf8"));
+  } catch {
+    return {};
+  }
+})();
+const navOverrideOf = (id) => UPSTREAM_NAV[id] || null;
 
 // 人工分级：1 = 主线，2 = 进阶，3 = 参考。顺序即建议学习顺序。
 const curation = (() => {
@@ -257,7 +277,10 @@ function readingSet(s) {
     : path.join(UPSTREAM, ...s.dir.split("/"));
   const list = [];
   const seen = new Set();
-  const add = (abs, outRel) => {
+  const contentSeen = new Map();
+  const mirrorSkipped = [];
+  const splitLog = [];
+  const add = (abs, outRel, extra) => {
     if (!abs || seen.has(outRel)) return;
     let st;
     try {
@@ -267,7 +290,12 @@ function readingSet(s) {
     }
     if (!st.isFile()) return;
     seen.add(outRel);
-    list.push({ abs, outRel, relInSource: path.relative(srcDir, abs).split(path.sep).join("/") });
+    list.push(
+      Object.assign(
+        { abs, outRel, relInSource: path.relative(srcDir, abs).split(path.sep).join("/") },
+        extra || {}
+      )
+    );
   };
 
   const forced = curation.entries && curation.entries[s.id];
@@ -302,7 +330,19 @@ function readingSet(s) {
     }
 ;
 // 仓库事务文件与隐藏目录不是课程正文。
-const PLAN_SKIP_FILE = /(^|\/)(AGENTS|CHANGELOG|CODE_OF_CONDUCT|CONTRIBUTING|SECURITY|SUPPORT|NOTICE|PATENTS|LICENSE|_sidebar|_navbar|_\u5feb\u7167\u4fe1\u606f|_\u5feb\u7167\u7d22\u5f15)(\.mdx?)?$/i;
+// 纯仓库事务目录：CI 配置、模板、依赖缓存、发布片段。这些不是课程正文。
+// .github 整枝挡掉 —— 里面偶尔有 docs/，但全站合计不到 60 篇，换来的是不用再判 workflows；
+// 真正成体系的技能文档几乎都放 .agents/.claude/.cursor/.kiro 这些目录下，那些一律保留。
+const PLAN_SKIP_DOT_DIR = /^(?:\.git|\.changeset|\.devcontainer|\.vscode|\.idea|\.husky|\.circleci|\.gitlab|\.cache|\.next|\.venv|\.pnpm-store|\.yarn|\.turbo|\.parcel-cache|\.out-of-scope|\.greptile|\.adal|\.atom|\.nova|\.history)$/i;
+// .github 单独判断：CI 流水线、Issue 模板、依赖机器人不是课程正文，
+// 但很多技能型仓库把主体内容放在 .github/plugins、.github/skills、.github/agents 下
+// ——microsoft-skills 的 1324 篇插件技能定义全在 .github/plugins/，一刀切等于整门课清空。
+const PLAN_SKIP_GITHUB_SUB = /^(?:workflows|ISSUE_TEMPLATE|PULL_REQUEST_TEMPLATE|actions|dependabot)$/i;
+// AGENTS / CLAUDE 是「写给编码助手看的仓库说明」，只认全大写那一种写法。
+// 小写的 agents.md 是正文页：OpenAI Agents SDK 的核心文档、Anthropic 与 OpenAI 的
+// API 指南都叫这个名字，跟着一起挡掉等于把这几门课的主干章节整篇删掉。
+const PLAN_SKIP_FILE = /(^|\/)(CHANGELOG|CODE_OF_CONDUCT|CONTRIBUTING|SECURITY|SUPPORT|NOTICE|PATENTS|LICENSE|_sidebar|_navbar|_\u5feb\u7167\u4fe1\u606f|_\u5feb\u7167\u7d22\u5f15)([-_][A-Za-z0-9]{2,6})?(\.mdx?)?$/i;
+const PLAN_SKIP_AGENT_DOC = /(^|\/)(AGENTS|CLAUDE)([-_][A-Za-z0-9]{2,6})?(\.mdx?)?$/;
 
 // 多语种仓库会把同一份正文摊成十几个语种目录（i18n/ja、docs/ko、ar-pages…）。
 // 站点面向中文读者，只保留中文与英文，其余语种整枝跳过；中文的 zh-tw / zh-hant 也保留。
@@ -312,6 +352,9 @@ const PLAN_SKIP_LOCALE = new RegExp("^(" + LOCALE_CODES + ")([-_][a-z0-9]{2,6})?
 // zh / en 保留（中文版对本站读者有用），其余语种整篇跳过。
 const PLAN_SKIP_LOCALE_FILE = new RegExp("\\.(" + LOCALE_CODES + ")([-_][A-Za-z0-9]{2,6})?\\.mdx?$", "i");
 const PLAN_KEEP_LOCALE_DIR = /^(i18n|locales|lang|translations|locale)$/i;
+// 第三种写法是「文件名 + 大写语种后缀」：README-KO.md、README-PT-BR.md、README_UK.md。
+// 语种码一律大写，避免把 how-to-use-it.md 这种正常文件名误判成意大利语版；zh / en 一律保留。
+const PLAN_SKIP_LOCALE_SUFFIX = new RegExp("(?:^|[-_])(" + LOCALE_CODES.toUpperCase() + ")(?:-[A-Z]{2})?\\.mdx?$");
 function isForeignLocaleDir(seg) {
   const t = seg.trim().toLowerCase();
   if (PLAN_KEEP_LOCALE_DIR.test(t)) return false; // 容器目录本身保留，交给下一层判断
@@ -329,54 +372,363 @@ function planOutRel(rel) {
     // 段内的 .md 换成 _md，站内链接与文件名保持一致。
     .replace(/\.mdx?(?=$|[-_\s.])/gi, "_md")
     .split("/")
-    .map((seg) => seg.replace(/[^\w.\u4e00-\u9fff-]+/g, "_"))
+    // 段首的点和 VitePress 冲突：以「.」开头的文件名会被当成隐藏文件整篇忽略，
+    // 页面根本不生成，指向它的站内链接全变成死链（.claude/skills/xxx/SKILL.md 这类）。
+    // 段首点换成下划线，页面才真的存在。
+    .map((seg) => seg.replace(/^\.+/, "_").replace(/[^\w.\u4e00-\u9fff-]+/g, "_"))
     .join("-");
 }
+    // 顺序即上游目录顺序：用码点序 + 数字序，不要用中文拼音序
+    // （拼音序会把「第二部分」排到「第一部分」前面，导航与上游对不上）。
     collected.sort((a, b) => {
       const ra = path.relative(srcDir, a).split(path.sep).join("/");
       const rb = path.relative(srcDir, b).split(path.sep).join("/");
-      return ra.localeCompare(rb, "zh-Hans-CN", { numeric: true, sensitivity: "base" });
+      return ra.localeCompare(rb, "en", { numeric: true, sensitivity: "variant" });
     });
+    // 第一遍：按规则筛掉非课程文件，并为每条正文算出「内容摘要」。
+    const staged = [];
     for (const abs of collected) {
       const rel = path.relative(srcDir, abs).split(path.sep).join("/");
-      // 上游偶尔把整站文档拼成一个大文件（llms-full.md 之类），几百 KB 一条，
-      // 不是一节内容，渲染它也最吃内存。
+      // 上游偶尔把整站文档拼成一个大文件（llms-full.md 之类）—— 那些不是一节内容；
+      // 但「一本书就是一个文件」更常见（Codex 手册 2.2MB、Claude Code 全指南 1MB、
+      // ChatGPT 橙皮书 120KB），一律跳过等于整份文档没上站。这里只记体量，切不切另说。
+      let size = 0;
       try {
-        if (fs.statSync(abs).size > 512 * 1024) continue;
+        size = fs.statSync(abs).size;
       } catch {
         continue;
       }
       if (skip.some((p) => rel === p || rel.startsWith(p + "/"))) continue;
-      if (/(^|\/)\./.test(rel)) continue;
+      // 隐藏目录不都是垃圾。很多课程把技能、规则、笔记、命令放在 .agents/.claude/.cursor/
+      // .kiro/.opencode 这类目录下，整片跳过等于把正文丢掉 —— deepseek-harness 的 601 篇
+      // 架构笔记全在 .agents/notes/archived 下，一刀切之后这门课只剩 24 篇 README，
+      // 看着就是个空壳。只挡真正的仓库事务目录与发布流水线产物，其余按正文照搬。
+      if (rel.split("/").some((seg) => PLAN_SKIP_DOT_DIR.test(seg.trim()))) continue;
+      {
+        const segs = rel.split("/").map((x) => x.trim());
+        const gi = segs.indexOf(".github");
+        if (gi >= 0 && segs[gi + 1] && PLAN_SKIP_GITHUB_SUB.test(segs[gi + 1])) continue;
+      }
       if (PLAN_SKIP_FILE.test(rel)) continue;
+      if (PLAN_SKIP_AGENT_DOC.test(rel)) continue;
       if (rel.split("/").some(isForeignLocaleDir)) continue;
       if (PLAN_SKIP_LOCALE_FILE.test(rel)) continue;
-      if (/(^|\/)(assets?|images?|img|media|public|static|figures?|documents)(\/|$)/i.test(rel)) continue;
+      if (PLAN_SKIP_LOCALE_SUFFIX.test(rel)) continue;
+      // 配图目录整枝跳过（里面的 .md 基本都是占位桩）。
+      // public/ 不在此列：只有 .md/.mdx 会成为页面，而 public 下的 md 恰恰是可下载的正文
+      // —— 千问办公绿皮书把 73 篇教师技能定义放在 docs/public/skills/ 下，一刀切等于整片丢失。
+      if (/(^|\/)(assets?|images?|img|media|static|figures?|documents)(\/|$)/i.test(rel)) continue;
       if (/(^|\/)source\.md$/i.test(rel)) continue;
-      if (/(^|\/)QwenWorkGuide(\/|$)/.test(rel)) continue;
       // 上游导出工具会在章节里再套一层同名镜像目录（…/第一部分 X/ide/第一部分 X/…），
       // 目录名重复说明整棵子树是副本，跳过。
-      const dirSegs = rel.split("/").slice(0, -1).map((x) => x.trim().toLowerCase());
-      if (new Set(dirSegs).size !== dirSegs.length) continue;
+      // 广义词目录名重复 ≠ 副本：Docusaurus 的 docs/docs/、Next.js 的 agents/.claude/agents/、
+      // API 文档的 xxx/subresources/xxx/subresources/ 都是上游自己的正常布局。
+      // 只有「长的内容目录名，隔着至少一层又出现一次」才是导出工具套的镜像壳。
+      const GENERIC_DIR = new Set(["docs", "doc", "src", "source", "content", "contents", "website", "web", "site", "app", "apps", "packages", "package", "public", "static", "assets", "asset", "images", "image", "img", "media", "tests", "test", "examples", "example", "shared", "common", "skills", "skill", "agents", "agent", "references", "reference", "subresources", "resources", "resource", "api", "tools", "tool", "demo", "demos", "projects", "project", "templates", "template", "scripts", "lib", "libs", "core", "data", "main"]);
+      const segsRaw = rel.split("/").slice(0, -1).map((x) => x.trim());
+      const segsLow = segsRaw.map((x) => x.toLowerCase());
+      const dirSegs = segsLow;
+      let dupMirror = false;
+      for (let i = 0; i < segsLow.length; i += 1) {
+        const first = segsLow.indexOf(segsLow[i]);
+        if (first === i || i - first < 2) continue;
+        if (GENERIC_DIR.has(segsLow[i])) continue;
+        if (segsRaw[i].length < 8) continue;
+        dupMirror = true;
+        break;
+      }
+      if (dupMirror) continue;
+      // 上游导出工具还会把整章再套一层「去掉序号」的同名目录
+      // （…/第二部分 实战案例 从具体任务，走向AI Native/部分 实战案例 从具体任务，走向AI Native/…），
+      // 目录名互为子串、正文字字相同。这类子树同样是副本。
+      if (dirSegs.some((seg, i) => i > 0 && seg.length >= 8 && dirSegs[i - 1].includes(seg))) continue;
       if (entryRel && rel === entryRel) continue;
-      const base = planOutRel(rel);
+      // 内容摘要：去掉标题行与空行再比。导出工具产出的副本常常只差一句章节标题，
+      // 逐字节比不出来（千问办公绿皮书正本多一行「# 第1章 …」，副本没有，正文一字不差）。
+      // 正文太短的页面不参与去重，短页面撞车是正常的。
+      let digest = "";
+      try {
+        const norm = fs
+          .readFileSync(abs, "utf8")
+          .split(/\r?\n/)
+          .filter((l) => !/^\s*#{1,6}\s/.test(l))
+          .map((l) => l.trim())
+          .filter(Boolean)
+          .join("\n");
+        if (norm.length >= 400) digest = crypto.createHash("sha1").update(norm).digest("hex");
+      } catch {
+        digest = "";
+      }
+      // 标题键：上游自己会出同一份正文的两个版本（「5个技巧教你用 TRAE 做复杂数据分析」
+      // 与「5个技巧教你用 千问 做复杂数据分析」正文一字不差），只按正文比会把其中一页整页丢掉。
+      // 去重要求「标题 + 正文」都对上，才认定是同一份。
+      let titleKey = "";
+      try {
+        const raw = fs.readFileSync(abs, "utf8");
+        const h1 = raw.match(/^[ \t]{0,3}#[ \t]+(.+?)[ \t]*$/m);
+        const t = h1 ? h1[1] : path.basename(rel).replace(/\.mdx?$/i, "");
+        titleKey = t
+          .replace(/[\s\u3000]+/g, "")
+          .replace(/[\u3010\u3011\[\]]/g, "")
+          .replace(/[\uff5c|\uff1a:]/g, "")
+          .toLowerCase();
+      } catch {
+        titleKey = rel;
+      }
+      staged.push({ abs, rel, digest, titleKey, size });
+    }
+
+    if (process.env.TB_TRACE_FILTER) {
+      const pre = process.env.TB_TRACE_FILTER;
+      const hit = staged.filter((x) => x.rel.startsWith(pre));
+      console.error("STAGED " + s.id + " " + pre + " → " + hit.length + " 篇可上架" + (hit.length ? "" : "（已被过滤规则挡掉）"));
+    }
+
+    // 同一份正文出现多次时只留一条，而且必须留「正本」。
+    // 早先按排序取第一条：副本树的名字（QwenWorkGuide/第一篇…）排在中文目录之前，
+    // 结果副本把正本顶掉 —— 站上同一章一会儿来自副本、一会儿来自正本，看着就是一锅粥。
+    // 现在比层级：层级最浅的那条是正本。
+    const repOf = new Map();
+    for (const it of staged) {
+      if (!it.digest) continue;
+      const key = it.titleKey + "\u0000" + it.digest;
+      const depth = it.rel.split("/").length;
+      const cur = repOf.get(key);
+      if (!cur || depth < cur.depth || (depth === cur.depth && it.rel < cur.rel)) {
+        repOf.set(key, { rel: it.rel, depth });
+      }
+    }
+
+    // 整棵子树的副本，逐文件比是比不干净的：导出工具会连文件名带标题一起改
+    // （「第一部分」→「第一篇」、「【实战案例】」→「[实战案例]」），摘要对不上。
+    // 这里给每棵子树算指纹 —— 把「子树内相对路径 + 该文件的内容摘要」排序后取 sha1。
+    // 指纹相同的子树是同一棵树，只留层级最浅的一棵。
+    const dirFiles = new Map();
+    for (const it of staged) {
+      const segs = it.rel.split("/");
+      for (let k = 0; k < segs.length - 1; k++) {
+        const d = segs.slice(0, k + 1).join("/");
+        const suffix = segs.slice(k + 1).join("/");
+        if (!dirFiles.has(d)) dirFiles.set(d, []);
+        dirFiles.get(d).push(suffix + "|" + (it.digest || "raw:" + suffix));
+      }
+    }
+    const byFp = new Map();
+    for (const [d, arr] of dirFiles) {
+      arr.sort();
+      const fp = crypto.createHash("sha1").update(arr.join("\n")).digest("hex");
+      if (!byFp.has(fp)) byFp.set(fp, []);
+      byFp.get(fp).push(d);
+    }
+    // 同一棵树只留一棵：把指纹相同的目录并成连通块，一个块里只有一个赢家。
+    // 早先每个指纹组各自挑根、互相把对方挑掉过 —— 「5个技巧教你用 TRAE」与「5个技巧教你用 千问」
+    // 两篇正文一模一样，A 组判 TRAE 是副本、B 组判 千问 是副本，结果两页一起从站上消失。
+    // 另外要求目录同名（副本树的目录名总是一样的），避免把名字不同、内容相近的两章并成一章。
+    const dirParent = new Map();
+    const dirFind = (x) => {
+      let r = x;
+      while (dirParent.get(r) !== r) r = dirParent.get(r);
+      return r;
+    };
+    const dirUnion = (a, b) => {
+      const ra = dirFind(a);
+      const rb = dirFind(b);
+      if (ra !== rb) dirParent.set(rb, ra);
+    };
+    const dirBaseName = (d) =>
+      d.split("/").filter(Boolean).pop().trim().toLowerCase().replace(/\s+/g, " ");
+    const byFpRoot = new Map();
+    for (const [fp, dirsRaw] of byFp) {
+      if (dirsRaw.length < 2) continue;
+      for (const d of dirsRaw) if (!dirParent.has(d)) dirParent.set(d, d);
+      for (let i = 0; i < dirsRaw.length; i++) {
+        for (let j = i + 1; j < dirsRaw.length; j++) {
+          if (dirBaseName(dirsRaw[i]) !== dirBaseName(dirsRaw[j])) continue;
+          dirUnion(dirsRaw[i], dirsRaw[j]);
+        }
+      }
+    }
+    const components = new Map();
+    for (const d of dirParent.keys()) {
+      const r = dirFind(d);
+      if (!components.has(r)) components.set(r, []);
+      components.get(r).push(d);
+    }
+    const mirrorDirOf = new Map();
+    for (const [, members] of components) {
+      if (members.length < 2) continue;
+      // 互为祖孙的目录不参与删除（那是同一棵树往下套了一层空壳）。
+      const flat = members.filter(
+        (d) => !members.some((k) => k !== d && (k.startsWith(d + "/") || d.startsWith(k + "/")))
+      );
+      if (flat.length < 2) continue;
+      flat.sort((a, b) => a.split("/").length - b.split("/").length || a.length - b.length || (a < b ? -1 : 1));
+      for (const d of flat.slice(1)) mirrorDirOf.set(d, flat[0]);
+    }
+
+    // 单文件成书 / 超长文档：照它自己的标题层级切开，正文一字不动。
+    // 不切的话，一页两三万字翻不到底（橙皮书 120KB、Codex 手册 2.2MB 都是这样），
+    // 而超过 512KB 的以前干脆整篇丢掉。切开只改分页，不改文字。
+    const SPLIT_MIN = 60 * 1024;
+    const MAX_PARTS = 120;
+    const MAX_PART_BYTES = 120 * 1024;
+    const splitSections = (abs, base) => {
+      let text = "";
+      try {
+        text = fs.readFileSync(abs, "utf8");
+      } catch {
+        return null;
+      }
+      const lines = text.split(/\r?\n/);
+      const heads = [];
+      const slug = (t) =>
+        t
+          .replace(/[^\w.\u4e00-\u9fff-]+/g, "_")
+          .replace(/^_+|_+$/g, "")
+          .slice(0, 40) || "section";
+      let fence = null;
+      for (let i = 0; i < lines.length; i += 1) {
+        const f = /^\s{0,3}(`{3,}|~{3,})/.exec(lines[i]);
+        if (f) {
+          fence = fence ? null : f[1][0];
+          continue;
+        }
+        if (fence) continue;
+        const h = /^(#{1,6})\s+(\S.*?)\s*$/.exec(lines[i]);
+        if (h) heads.push({ line: i, level: h[1].length, text: h[2].replace(/[*`_]/g, "").trim() });
+      }
+      if (heads.length < 4) return null;
+      const byLevel = new Map();
+      for (const h of heads) byLevel.set(h.level, (byLevel.get(h.level) || 0) + 1);
+      const levels = [...byLevel.keys()].sort((a, b) => a - b);
+      // 选层：优先「最浅、且每一块都不超过 MAX_PART_BYTES」的那层。
+      //   · 只认最浅层：5MB 的 API 参考如果只有 4 个一级标题，切出来每块 1.2MB，等于没切；
+      //   · 只认「最大块最小」：80KB 的小文件会被切成 85 页，每页一行。
+      // 先压体量、再取最浅，两头都躲开；实在都超标就退回「最大块最小」。
+      const sizeOf = (a, b) => {
+        let n = 0;
+        for (let i = a; i < b; i += 1) n += lines[i].length + 1;
+        return n;
+      };
+      let marks = null;
+      let fallback = null;
+      let fallbackWorst = Infinity;
+      for (const L of levels) {
+        const ms = heads.filter((h) => h.level === L);
+        if (ms.length < 3 || ms.length > MAX_PARTS) continue;
+        let worst = 0;
+        ms.forEach((h, k) => {
+          const to = k + 1 < ms.length ? ms[k + 1].line : lines.length;
+          worst = Math.max(worst, sizeOf(h.line, to));
+        });
+        if (worst <= MAX_PART_BYTES) {
+          marks = ms;
+          break;
+        }
+        if (worst < fallbackWorst) {
+          fallbackWorst = worst;
+          fallback = ms;
+        }
+      }
+      if (!marks) marks = fallback;
+      if (!marks) return null;
+      const parts = [];
+      const pre = lines.slice(0, marks[0].line).join("\n");
+      marks.forEach((h, k) => {
+        const from = h.line;
+        const to = k + 1 < marks.length ? marks[k + 1].line : lines.length;
+        const body = lines.slice(from, to).join("\n").replace(/\s+$/, "");
+        if (!body.trim()) return;
+        parts.push({
+          outRel: base + "/" + String(parts.length + 1).padStart(2, "0") + "-" + slug(h.text) + ".md",
+          content: body,
+          title: h.text,
+        });
+      });
+      if (parts.length < 3) return null;
+      const toc = parts.map((p) => {
+        const rel = p.outRel.slice(base.length + 1).replace(/\.md$/, "");
+        return "- [" + p.title + "](" + rel + ".md)";
+      });
+      const head = pre.trim() || "# " + (parts[0].title || base);
+      return [
+        {
+          outRel: base + "/index.md",
+          content: head + "\n\n## 本篇目录\n\n" + toc.join("\n") + "\n",
+        },
+        ...parts,
+      ];
+    };
+
+    // 第二遍：留下代表条目，按正本的书目顺序上架。
+    const dropped = new Map();
+    for (const it of staged) {
+      if (!it.digest) continue;
+      const rep = repOf.get(it.titleKey + "\u0000" + it.digest);
+      if (rep && rep.rel !== it.rel) dropped.set(it.rel, rep.rel);
+      const segs = it.rel.split("/");
+      for (let k = 1; k < segs.length; k++) {
+        const d = segs.slice(0, k).join("/");
+        if (mirrorDirOf.has(d)) {
+          if (!dropped.has(it.rel)) dropped.set(it.rel, mirrorDirOf.get(d));
+          break;
+        }
+      }
+    }
+    for (const it of staged) {
+      const why = dropped.get(it.rel);
+      if (why && process.env.TB_TRACE_FILTER && it.rel.startsWith(process.env.TB_TRACE_FILTER)) {
+        console.error("DROP " + s.id + " " + it.rel + " ⟵ 与 " + why + " 判为同一份");
+      }
+      if (why) {
+        mirrorSkipped.push(it.rel + "  与 " + why + " 是同一份正文，只留正本");
+        continue;
+      }
+      const base = planOutRel(it.rel);
       if (!base) continue;
+      // 单文件成书 / 超长文档按它自己的标题切开；切不动就整篇照搬，
+      // 只有大到渲染不动的才按原样丢掉。
+      if (it.size >= SPLIT_MIN) {
+        const parts = splitSections(it.abs, base);
+        if (parts) {
+          for (const p of parts) add(it.abs, p.outRel, { content: p.content, noTrans: true, splitFrom: it.rel });
+          splitLog.push(it.rel + "  " + it.size + "B  →  " + parts.length + " 页");
+          continue;
+        }
+        // 无法按标题切分时仍保留完整正文。展示层可以接受超长单页，
+        // 而 raw archive 始终保存原始字节；任何情况下都不能静默丢课。
+        if (it.size > 512 * 1024) {
+          splitLog.push(it.rel + "  " + it.size + "B  切不动，按原样保留单页");
+        }
+      }
       let outRel = base + ".md";
       let n = 2;
       while (seen.has(outRel)) outRel = base + "-" + n++ + ".md";
-      add(abs, outRel);
+      add(it.abs, outRel);
     }
-    return { entryRel, list: list.slice(0, plan.limit || MAX_DOCS) };
+    const cap = plan.limit || MAX_DOCS;
+    return { entryRel, list: cap ? list.slice(0, cap) : list, mirrorSkipped, splitLog };
   }
 
-  return { entryRel, list: list.slice(0, MAX_DOCS) };
+  return { entryRel, list: MAX_DOCS ? list.slice(0, MAX_DOCS) : list, mirrorSkipped, splitLog };
 }
 
 function stripFrontmatter(text) {
   if (!text.startsWith("---")) return text;
   const lines = text.split(/\r?\n/);
   if (lines.length < 3) return text;
-  for (let i = 1; i < Math.min(lines.length, 60); i++) {
+  // 第一行的 --- 未必是 YAML 头，也可能就是一条分隔线。要求紧随其后出现 key: value，
+  // 否则原样返回 —— 免得把以分隔线开头的正文从中间切断。
+  let looksYaml = false;
+  for (let i = 1; i < Math.min(lines.length, 12); i++) {
+    if (lines[i].trim() === "---") break;
+    if (/^[A-Za-z_][A-Za-z0-9_-]*\s*:/.test(lines[i])) { looksYaml = true; break; }
+  }
+  if (!looksYaml) return text;
+  // 头部可以很长：教师技能包的定义块有 70~80 行（带 # 注释与嵌套列表），
+  // 早先只找前 60 行，找不到闭合就当没有头 —— 结果整块 YAML 被当正文渲染到页面上，
+  // 读者看到的是一屏 name:/description:/skill_id:（实例：千问办公 73 篇 skill 定义）。
+  for (let i = 1; i < Math.min(lines.length, 400); i++) {
     if (lines[i].trim() === "---") return lines.slice(i + 1).join("\n").replace(/^\n+/, "");
   }
   return text;
@@ -532,6 +884,14 @@ function balanceInlineTags(text) {
       i++;
       continue;
     }
+    // 列表项在 HTML 中必须各自闭合；上游偶尔把 <strong> 开在一项、
+    // </strong> 放到下一项，Markdown 会把标签跨过 <li>，Vue 解析即失败。
+    // 对列表项逐行平衡，孤立标记转成可见文本，不改正文字符。
+    if (/^\s*(?:[-*+]\s+|\d+[.)]\s+)/.test(line)) {
+      out.push(fixInlineBalance(line));
+      i++;
+      continue;
+    }
     let j = i;
     while (j < lines.length && lines[j].trim() && !MD_HTML_BLOCK_START.test(lines[j])) j++;
     out.push(...fixInlineBalance(lines.slice(i, j).join("\n")).split("\n"));
@@ -549,11 +909,20 @@ const escapeVueAndTags = (chunk) => mapOutsideMath(chunk, safeForVueText, MATH_O
 // 假标签，整个站的构建都会因此失败；把开头的 { 换成实体后渲染结果不变、构建恢复正常。
 const VUE_DIRECTIVE_LINE = /^([ \t]*(?:>[ \t]*|(?:[-*+]|\d+[.)])[ \t]+)*)\{%/gm;
 function escapeForVue(text) {
-  return text
-    .replace(/\{\{/g, "&#123;&#123;")
-    .replace(/\}\}/g, "&#125;&#125;")
-    .replace(/<script/gi, "&lt;script")
-    .replace(VUE_DIRECTIVE_LINE, "$1&#123;%");
+  return (
+    text
+      .replace(/\{\{/g, "&#123;&#123;")
+      .replace(/\}\}/g, "&#125;&#125;")
+      .replace(/<script/gi, "&lt;script")
+      // 单个花括号也有坑：VitePress 的 markdown-it-attrs 会把行尾的 {...} 当 HTML 属性块。
+      // 上游正文里的「… section.type ∈ { heading | paragraph | bullet }」会被整段吃掉，
+      // 读者看到的是半句话；属性名撞车时（里面带两个竖线）Vue 直接报 Duplicate attribute，
+      // 整站构建失败。花括号是 ASCII 标点，反斜杠转义后渲染结果与原文一致，
+      // 但这个块不再是属性语法，Vue 也不会再认它。
+      .replace(/\{/g, "\\{")
+      .replace(/\}/g, "\\}")
+      .replace(VUE_DIRECTIVE_LINE, "$1&#123;%")
+  );
 }
 
 // 围栏代码块会被 VitePress 加 v-pre 原样输出，其中的 {{ }} 与标签都不必转义；
@@ -617,9 +986,18 @@ function rewriteLinks(text, s, currentSourceRel, bySourceRel, currentOutRel) {
       return u;
     }
   };
+  // Markdown 尖括号地址可包含空格。中文转载工具偶尔把“转存失败”提示和真实
+  // 图片 URL 一起包进尖括号；展示层取出其中的远程 URL，原始字节仍由 raw 归档保留。
+  const normalizeWrappedUrl = (value) => {
+    const v = String(value || "").trim();
+    const inner = v.startsWith("<") && v.endsWith(">") ? v.slice(1, -1).trim() : v;
+    const embedded = /https?:\/\/\S+/i.exec(inner);
+    return embedded ? embedded[0].replace(/[>]+$/, "") : inner;
+  };
   const resolve = (url, isImage) => {
-    const clean = decode(url.split("#")[0].split("?")[0]);
-    const hash = url.includes("#") ? "#" + decode(url.slice(url.indexOf("#") + 1)) : "";
+    const normalized = normalizeWrappedUrl(url);
+    const clean = decode(normalized.split("#")[0].split("?")[0]);
+    const hash = normalized.includes("#") ? "#" + decode(normalized.slice(normalized.indexOf("#") + 1)) : "";
     if (!clean) return { url, hash };
     // 站内已经落了盘的资源优先。
     // 「/workbuddy-harness/fig-02.png」这种写法指的是站内路径（文件就在 public 下），
@@ -650,14 +1028,30 @@ function rewriteLinks(text, s, currentSourceRel, bySourceRel, currentOutRel) {
       // 也不再依赖渲染器对 .md 链接的二次改写（原始 HTML 里的链接同样适用）。
       return { url: "/lib/" + hit.replace(/\.md$/, "") + hash };
     }
+    // 某些上游文档把“站点根”链接写成 /reference/...、/api-reference/...。
+    // 它们不是本仓库的文件，不能按仓库根拼成 GitHub blob；根据课程所属文档站点
+    // 还原为可访问的绝对地址。未知来源继续走原有 blob 回退，不做猜测。
+    if (!isImage && clean.startsWith("/")) {
+      let host = "";
+      if (s.site) {
+        try { host = new URL(s.site).origin; } catch { host = ""; }
+      }
+      if (s.id === "07-coding/vibe-coding-cn") {
+        if (/coingecko/i.test(currentSourceRel)) host = "https://docs.coingecko.com";
+        else if (/polymarket/i.test(currentSourceRel)) host = "https://docs.polymarket.com";
+        else if (/hummingbot/i.test(currentSourceRel)) host = "https://hummingbot.org";
+      }
+      if (host) return { url: host + clean + hash };
+    }
     const blob = blobUrl(s, target);
     return blob ? { url: blob + hash } : { url: null };
   };
 
-  text = text.replace(/(!\[[^\]]*\]\()([^)\s]+)(\s*(?:"[^"]*"|'[^']*'))?(\))/g, (m, open, url, title, close) => {
-    if (/^https?:/i.test(url)) {
-      const l = localizeRaw(url);
-      return l === url ? m : open + l + (title || "") + close;
+  text = text.replace(/(!\[[^\]]*\]\()((?:<[^>]*>|[^)\s]+))(\s*(?:"[^"]*"|'[^']*'))?(\))/g, (m, open, url, title, close) => {
+    const normalized = normalizeWrappedUrl(url);
+    if (/^https?:/i.test(normalized)) {
+      const l = localizeRaw(normalized);
+      return open + (l === normalized ? normalized : l) + (title || "") + close;
     }
     if (/^data:/i.test(url)) return m;
     const r = resolve(url, true);
@@ -665,8 +1059,8 @@ function rewriteLinks(text, s, currentSourceRel, bySourceRel, currentOutRel) {
   });
 
   // 徽章写法「图片当链接文字」优先处理，否则嵌套的方括号会被拆错。
-  text = text.replace(/(\[!\[[^\]]*\]\([^)]*\)\]\()([^)\s]+)(\s*(?:"[^"]*"|'[^']*'))?(\))/g, (m, open, url, title, close) => {
-    if (/^(https?:|mailto:|data:|#)/i.test(url)) return m;
+  text = text.replace(/(\[!\[[^\]]*\]\([^)]*\)\]\()((?:<[^>]*>|[^)\s]+))(\s*(?:"[^"]*"|'[^']*'))?(\))/g, (m, open, url, title, close) => {
+    if (/^(https?:|mailto:|data:|#)/i.test(normalizeWrappedUrl(url))) return m;
     const r = resolve(url, false);
     if (r.url) return open + r.url + (title || "") + close;
     // 链接目标不可达时只保留图片本身（内容不丢，只是不再可点）
@@ -676,8 +1070,8 @@ function rewriteLinks(text, s, currentSourceRel, bySourceRel, currentOutRel) {
   // 普通链接：链接文字里不再允许方括号，避免吞掉嵌套结构。
   // 开头加 (?<!!) 是为了不碰图片语法——![alt](url) 里的 [alt](url) 长得和普通链接一样，
   // 先改图片再改链接时会把刚写好的站内路径当成相对链接二次解析（站内镜像路径尤其明显）。
-  text = text.replace(/(?<!!)(\[[^\[\]]*\]\()([^)\s]+)(\s*(?:"[^"]*"|'[^']*'))?(\))/g, (m, open, url, title, close) => {
-    if (/^(https?:|mailto:|data:|#)/i.test(url)) return m;
+  text = text.replace(/(?<!!)(\[[^\[\]]*\]\()((?:<[^>]*>|[^)\s]+))(\s*(?:"[^"]*"|'[^']*'))?(\))/g, (m, open, url, title, close) => {
+    if (/^(https?:|mailto:|data:|#)/i.test(normalizeWrappedUrl(url))) return m;
     const r = resolve(url, false);
     if (r.url) return open + r.url + (title || "") + close;
     // 链接目标不可达时保留链接文字
@@ -685,8 +1079,8 @@ function rewriteLinks(text, s, currentSourceRel, bySourceRel, currentOutRel) {
   });
 
   // 少数上游把「带方括号的标题」整段写进链接文字（[[实战案例]｜…](…)），第一遍吃不下。
-  text = text.replace(/(\[[^\[\]\n]*\[[^\[\]\n]*\][^\[\]\n]*\]\()([^)\s]+)(\s*(?:"[^"]*"|'[^']*'))?(\))/g, (m, open, url, title, close) => {
-    if (/^(https?:|mailto:|data:|#)/i.test(url)) return m;
+  text = text.replace(/(\[[^\[\]\n]*\[[^\[\]\n]*\][^\[\]\n]*\]\()((?:<[^>]*>|[^)\s]+))(\s*(?:"[^"]*"|'[^']*'))?(\))/g, (m, open, url, title, close) => {
+    if (/^(https?:|mailto:|data:|#)/i.test(normalizeWrappedUrl(url))) return m;
     const r = resolve(url, false);
     return r.url ? open + r.url + (title || "") + close : open.slice(1, -2);
   });
@@ -1293,7 +1687,7 @@ function stripChrome(text) {
 
   // 结尾：压掉连续空行与收尾横线
   while (out.length && (out[out.length - 1].trim() === "" || out[out.length - 1].trim() === "---" || out[out.length - 1].trim() === "</div>")) out.pop();
-  const finalText = out
+  let finalText = out
     .join("\n")
     .replace(/\n{3,}/g, "\n\n")
     .replace(/(?:^|\n)---(\s*\n---)+/g, "\n")
@@ -1301,13 +1695,30 @@ function stripChrome(text) {
 
   // 有些上游把 VitePress 站点的页面骨架（<script setup> / <style> / <template>）也放进了 md，
   // 那不是课程内容，整篇不要，免得读者看到一堆 &lt;script setup>。
+  // 上游的 md 里常带站点的 <style> / <script> 块（VitePress 允许在页面正文里写样式与脚本）。
+  // 那是页面皮肤，不是课程内容：整篇丢掉等于整页蒸发（千问办公的案例集首页就是这么没的），
+  // 原样留着读者又会看到一大段 CSS。这里只把这两类块剪掉，正文一个字不动。
+  finalText = finalText
+    .replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, "")
+    .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, "")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+  if (!finalText) return "";
+
   const bodyLines = finalText.split("\n").filter((l) => l.trim());
   const scaffold = bodyLines.filter((l) => /^<\/?(script|style|template)\b/i.test(l.trim())).length;
-  if (scaffold >= 2) return "";
+  // 剪完仍然只剩界面壳子（整篇是 <template> / <script setup>，没有散文）才整篇不要。
+  if (scaffold >= 2 && finalText.replace(/<[^>]*>/g, "").replace(/[#>*-`|:\s]/g, "").length < 200) return "";
 
   // 整篇以裸 HTML/JSX 标记为主（上游把界面骨架写进 md）的文档不是课程内容，整篇不要
+  // 整篇以标记语言为主、几乎没有散文的文档才是界面骨架。
+  // 早先只比「以 < 开头的行数占比」，把正文里正常用 <img>/<span>/<Tip> 的页面整篇判死：
+  // 千问办公「6.13 工作台-写作」53 行里 15 行是 <img>/<span>，整页连同 4 张插图一起消失；
+  // 全站实测 400 篇被这条规则误杀（Anthropic 官方文档 39 篇、Claude Code 文档 30 篇、
+  // 扣子开发文档 47 篇）。现在补一个必要条件：去掉标签后的散文不足 200 字才算骨架。
   const markup = bodyLines.filter((l) => /^<\/?[A-Za-z][^>]*>/.test(l.trim())).length;
-  if (markup >= 4 && bodyLines.length && markup / bodyLines.length > 0.25) return "";
+  const prose = finalText.replace(/<[^>]*>/g, "").replace(/[#>*-`|:\s]/g, "").length;
+  if (markup >= 4 && prose < 200) return "";
 
   return finalText;
 }
@@ -1490,6 +1901,9 @@ if (args.dumpParagraphs) {
     text = mapOutsideCode(text, sanitizeHtml);
     text = mapOutsideCode(text, balanceInlineTags);
     text = mapOutsideCode(text, escapeVueAndTags);
+    // escapeVueAndTags 可能把一个孤立的开标签转成实体，导致其配对的闭标签
+    // 变成新的孤立标签；再平衡一次，确保展示 Markdown 不向 Vue 泄漏非法闭合标签。
+    text = mapOutsideCode(text, balanceInlineTags);
     text = mapOutsideCode(text, vPreInlineCode);
     text = mapOutsideCode(text, unescapeTagsInInlineCode);
     dump[d.relInSource] = trBlocks(text).map((x) => (TR_MARK[x.type] || "") + x.text.trim());
@@ -1577,12 +1991,192 @@ if (args.debugDoc) {
   process.exit(0);
 }
 
+// 把一门课的课时按上游目录结构编成导航树。
+//
+// 为什么要有这一步：站点原先给每门课生成一条一维侧栏，把整门课摊成一列。
+// 上游自己分好的章（「第一部分 使用手册」「第6章 桌面端核心功能」…）在侧栏里全没了，
+// 一门 1150 页的课就变成一条一千多行的列表，读者根本找不到自己在哪。
+// 这里直接用课时在上游仓库里的目录层级建树，上游怎么分章，站上就怎么分。
+// 上游仓库自带导航定义时，标题与顺序一律照搬上游（VitePress sidebar / mdBook SUMMARY / mkdocs nav），
+// 只有上游没列到的页面才按目录结构补在后面——既不自己编顺序，也不漏页。
+// 目录名对读者没有信息量的（public / cases / src …），换一个读得懂的说法。
+const NAV_DIR_LABEL = {
+  public: "配套资源",
+  cases: "案例集",
+  submissions: "社区投稿",
+  community: "社区与共建",
+  plans: "更新计划",
+  help: "常见问题",
+  quiz: "练习与测验",
+  quizzes: "练习与测验",
+  projects: "动手项目",
+  examples: "示例",
+  solutions: "参考答案",
+  exercises: "练习",
+  assets: "素材与资源",
+  src: "源码",
+  docs: "文档",
+};
+const labelOfDir = (name) => NAV_DIR_LABEL[String(name).trim().toLowerCase()] || name;
+
+function buildNav(lessons, vol, local, navOverride) {
+  const link = (d) => `/lib/${vol}/${local}/${d.rel}`;
+  const segsOf = (d) => d.sourceRel.split("/").slice(0, -1);
+  const isDirIndex = (d) => /^(index|README)\.mdx?$/i.test(d.sourceRel.split("/").pop() || "");
+
+  // 所有课时共有的目录前缀（如 docs/greenbook）在导航里不带信息，先去掉。
+  const dirs = lessons.map(segsOf);
+  // 挂在仓库根上的入口文档（README.md）没有目录层级，让它参与公共前缀计算会把前缀算成空，
+  // 侧栏第一层就变成 docs / content 这种仓库内部目录名。只拿真正有层级的课时算前缀。
+  const leveled = dirs.filter((d) => d.length);
+  const prefix = [];
+  if (leveled.length) {
+    for (let i = 0; ; i += 1) {
+      const seg = leveled[0][i];
+      if (seg === undefined) break;
+      if (leveled.every((x) => x[i] === seg)) prefix.push(seg);
+      else break;
+    }
+  }
+
+  const root = { kids: new Map(), items: [], index: null };
+  lessons.forEach((d, k) => {
+    const segs = dirs[k].slice(prefix.length);
+    let node = root;
+    for (const seg of segs) {
+      if (!node.kids.has(seg)) node.kids.set(seg, { label: seg, kids: new Map(), items: [], index: null });
+      node = node.kids.get(seg);
+    }
+    if (isDirIndex(d)) node.index = d;
+    else node.items.push(d);
+  });
+
+  // 目录分两种：自己带 index 的，index 当这一级的入口（点标题就进去）；
+  // 不带 index 的，标题只是分组名，点不开。
+  const walk = (node) => {
+    const out = node.items.map((d) => ({ text: d.title, link: link(d) }));
+    for (const kid of node.kids.values()) {
+      const sub = walk(kid);
+      if (!sub.length && !kid.index) continue;
+      // 分组标题优先用该目录 index 页自己的 H1 —— 上游的章节标题写在正文里，
+      // 目录名却是导出工具生成的 slug（cases/submissions/annual-report-…）。
+      const item = { text: kid.index ? kid.index.title : labelOfDir(kid.label), items: sub };
+      if (kid.index) item.link = link(kid.index);
+      // 长课程默认折叠：一屏铺开几百行，反而没人用侧栏。
+      if (sub.length > 8) item.collapsed = true;
+      out.push(item);
+    }
+    return out;
+  };
+
+  const items = walk(root);
+  if (root.index) items.unshift({ text: root.index.title, link: link(root.index) });
+
+  if (!navOverride || !navOverride.length) return items;
+
+  const used = new Set();
+  // 把上游导航里的路径解析到某一课时上：route 可能写成目录（/greenbook/第1章…/）
+  // 也可能写成相对文件（Chapter1/README.md、agents.md）。
+  // 把上游导航里的路径解析到某一课时上。上游写法有两类：
+  //   文件式 —— Chapter1/README.md、docs/zh/quickstart.md、AI/xxx/yyy.md
+  //   目录式 —— /greenbook/第一部分…/第1章…/（站点路由，去掉仓库里的公共前缀后与目录同名）
+  const matchRoute = (route) => {
+    let raw = String(route || "").trim();
+    if (!raw) return null;
+    try { raw = decodeURIComponent(raw); } catch {}
+    raw = raw.replace(/^\/+/, "").replace(/\/+$/, "");
+    if (!raw) return null;
+    const free = lessons.filter((d) => !used.has(d));
+    if (!free.length) return null;
+    const isIndex = (d) => /(^|\/)(index|README)\.mdx?$/i.test(d.sourceRel);
+    const stemOf = (d) => d.sourceRel.split("/").pop().replace(/\.mdx?$/i, "");
+
+    if (/\.mdx?$/i.test(raw)) {
+      const rel = raw.replace(/^\.\//, "");
+      const exact = free.find((d) => d.sourceRel === rel);
+      if (exact) return exact;
+      const byTail = free.filter((d) => d.sourceRel.endsWith("/" + rel));
+      // 同名的候选里先看层级最浅的那个：docs/index.md 不该被指到 docs/zh/index.md。
+      byTail.sort((a, b) => a.sourceRel.split("/").length - b.sourceRel.split("/").length);
+      if (byTail.length) return byTail.find(isIndex) || byTail[0];
+      return null;
+    }
+
+    const segs = raw.split("/").filter(Boolean);
+    // 从最长的后缀开始试，逐段放宽：上游路由的站点前缀（greenbook、bluebook）
+    // 与仓库目录（docs/greenbook）对不上，但结尾几段一定同名。
+    for (let take = segs.length; take >= 1; take -= 1) {
+      const tail = segs.slice(segs.length - take);
+      const pool = free.filter((d) => {
+        const dirs = d.sourceRel.split("/").slice(0, -1);
+        if (take > dirs.length) return false;
+        return tail.every((x, i) => dirs[dirs.length - take + i] === x);
+      });
+      if (!pool.length) continue;
+      const idx = pool.find(isIndex);
+      if (idx) return idx;
+      // 目录名本身就是文件名（第1章 初识 千问办公.md）时优先取这一篇。
+      const last = tail[tail.length - 1];
+      const stem = pool.find((d) => stemOf(d) === last);
+      return stem || pool[0];
+    }
+    const last = segs[segs.length - 1];
+    return free.find((d) => stemOf(d) === last) || null;
+  };
+  const build = (list) => {
+    const out = [];
+    for (const raw of list) {
+      const node = { text: raw.text };
+      if (raw.items && raw.items.length) {
+        const kids = build(raw.items);
+        if (kids.length) node.items = kids;
+      }
+      if (raw.route) {
+        const hit = matchRoute(raw.route);
+        if (hit) { node.link = link(hit); used.add(hit); }
+      }
+      if (node.link || (node.items && node.items.length)) out.push(node);
+    }
+    return out;
+  };
+  const upstream = build(navOverride);
+  // 上游导航如果只认出零星几篇（多是占位式侧栏，或本仓库的目录结构与它不一致），
+  // 直接采信会把整门课压成两三个条目，剩下的全变成尾巴。覆盖率太低就退回按目录编树。
+  const minCov = Math.min(8, Math.max(3, Math.ceil(lessons.length * 0.1)));
+  if (used.size < minCov) {
+    if (process.env.TB_NAV_DEBUG) {
+      console.log(`     · 导航覆盖不足，退回目录结构：${vol}/${local} 认出 ${used.size}/${lessons.length}`);
+    }
+    return items;
+  }
+  if (process.env.TB_NAV_DEBUG) {
+    console.log(`     · 导航照搬上游：${vol}/${local} ${used.size}/${lessons.length} 篇`);
+  }
+  // 上游导航没列到的页面（案例集、技能库、阅读指南这类），按目录结构补在后面。
+  const rest = lessons.filter((d) => !used.has(d) && d.rel !== "overview");
+  const extra = rest.length ? buildNav(rest, vol, local, null) : [];
+  return upstream.concat(extra);
+}
+
+// 课程页的目录：同一棵树，渲染成嵌套列表。
+function navToMarkdown(items, indent) {
+  const pad = "  ".repeat(indent);
+  const out = [];
+  for (const it of items) {
+    const head = it.link ? `[${it.text}](${it.link}.md)` : `**${it.text}**`;
+    out.push(pad + "- " + head);
+    if (it.items && it.items.length) out.push(...navToMarkdown(it.items, indent + 1));
+  }
+  return out;
+}
+
 // ---------- 主流程 ----------
 
 const selected = catalog.sources.filter((s) => {
+  if (args.onlySrc && s.id !== args.onlySrc) return false;
   if (BATCH_VOLUMES && !BATCH_VOLUMES.has(s.volume)) return false;
   if (BATCH_KINDS && !BATCH_KINDS.has(s.kind)) return false;
-  if (!BATCH_KINDS && !s.publishable) return false; // 仅引用的官方文献不整篇搬入
+  if (PUBLIC_BUILD && !s.publishable) return false;
   return true;
 });
 
@@ -1594,7 +2188,10 @@ const registered = [];
 let docCount = 0;
 
 for (const s of selected) {
-  const { entryRel, list: set } = readingSet(s);
+  const { entryRel, list: set, splitLog } = readingSet(s);
+  if (splitLog && splitLog.length && process.env.TB_SPLIT_LOG) {
+    splitLog.forEach((x) => console.error("SPLIT  " + s.id + "  " + x));
+  }
   // 原来「少于 2 篇就跳过」，于是 5 份「可转载」的单文档清单（一份长 README，
   // 113KB–307KB）整份没上站。改成：空壳才跳，单篇要有实质体量才收。
   if (set.length < 2) {
@@ -1610,15 +2207,24 @@ for (const s of selected) {
   const outDir = path.posix.join(s.volume, s.local);
   // 上游有些页面整页都是组件壳子，清洗后是空的、不会进书；链接指向它们就会变成死链。
   const usable = set.filter((d) => !isStubDoc(d));
-  const bySourceRel = new Map(usable.map((d) => [d.relInSource, path.posix.join(outDir, d.outRel)]));
+  // 一个源文件拆成多页时，指向这个文件的站内链接要落到目录页。
+  const bySourceRel = new Map();
+  for (const d of usable) {
+    const cur = path.posix.join(outDir, d.outRel);
+    const prev = bySourceRel.get(d.relInSource);
+    if (!prev || /\/index$/.test(cur)) bySourceRel.set(d.relInSource, cur);
+  }
 
   const trans = loadTranslation(s);
   const pages = [];
   const processed = new Map();
   for (const d of set) {
-    const raw = fs.readFileSync(d.abs, "utf8");
+    const raw = d.content != null ? d.content : fs.readFileSync(d.abs, "utf8");
+    // d.content 可能是按标题拆出的展示页；来源校验必须始终指向完整上游文件，
+    // 因此 sourceSha256 取 d.abs 的原始字节，pageSha256 单独记录当前展示片段。
+    const sourceBytes = fs.readFileSync(d.abs);
     const body = stripChrome(stripFrontmatter(raw));
-    if (!body.trim() || isStubBody(body)) { if (process.env.TB_TRACE) console.error('SKIP ' + d.relInSource + ' len=' + body.replace(/\s/g,'').length); continue; }
+    if (!body.trim() || isStubBody(body)) { if (process.env.TB_TRACE_FILTER && String(d.relInSource || "").startsWith(process.env.TB_TRACE_FILTER)) console.error('STUB-DROP ' + s.id + ' ' + d.relInSource + ' len=' + body.replace(/\s/g, '').length); if (process.env.TB_TRACE) console.error('SKIP ' + d.relInSource + ' len=' + body.replace(/\s/g,'').length); continue; }
     const title = firstHeadingOf(body, s.title);
     let text = mapOutsideCode(body, (chunk) => rewriteLinks(chunk, s, d.relInSource, bySourceRel, path.posix.join(outDir, d.outRel)));
     text = mapOutsideCode(text, sanitizeHtml);
@@ -1627,7 +2233,7 @@ for (const s of selected) {
     text = mapOutsideCode(text, vPreInlineCode);
     text = mapOutsideCode(text, unescapeTagsInInlineCode);
     text = resolveLeftoverLinks(text, bySourceRel, d.relInSource);
-    text = withTranslations(text, trans[d.relInSource]);
+    text = withTranslations(text, d.noTrans ? undefined : trans[d.relInSource]);
     const outPath = path.join(LIB, s.volume, s.local, ...d.outRel.split("/"));
     const fm = {
       title,
@@ -1639,7 +2245,12 @@ for (const s of selected) {
       tier: tierOfSource(s.id),
       volume: s.volume,
       sourceUrl: s.repo ? `https://github.com/${s.repo}` : s.site || "",
-      entryUrl: entryRel ? blobUrl(s, entryRel) : s.site || "",
+      entryUrl: d.relInSource ? blobUrl(s, d.relInSource) : (entryRel ? blobUrl(s, entryRel) : s.site || ""),
+      sourceRel: d.relInSource || "",
+      rawUrl: d.relInSource ? `/raw/${s.id}/${d.relInSource}` : "",
+      sourceSha256: crypto.createHash("sha256").update(sourceBytes).digest("hex"),
+      pageSha256: crypto.createHash("sha256").update(raw, "utf8").digest("hex"),
+      contentMode: CONTENT_MODE,
       zh: Array.isArray(trans[d.relInSource]) && trans[d.relInSource].length ? "on" : "",
     };
     const fmText = Object.entries(fm)
@@ -1647,7 +2258,8 @@ for (const s of selected) {
       .join("\n");
     // 上游有些页面正文本身没有一级标题（README 直接以链接列表开头）。
     // 这类页面打开后顶部只有面包屑，读者看不出自己在哪一课，所以补一个标题。
-    const body0 = hasH1(text) ? text : `# ${title}\n\n${text}`;
+    // 拆出来的分页本身以小节标题开头，再补一级标题会变成「标题重复两行」。
+    const body0 = d.content != null || hasH1(text) ? text : `# ${title}\n\n${text}`;
     writeFile(outPath, `---\n${fmText}\n---\n\n${body0}\n`);
     processed.set(d.outRel, text);
     pages.push({ title, rel: d.outRel.replace(/\.md$/, ""), sourceRel: d.relInSource });
@@ -1673,6 +2285,8 @@ for (const s of selected) {
     volume: s.volume,
     sourceUrl: s.repo ? `https://github.com/${s.repo}` : s.site || "",
     entryUrl: entryRel ? blobUrl(s, entryRel) : s.site || "",
+    sourceRel: "",
+    contentMode: CONTENT_MODE,
     zh: hasZh ? "on" : "",
   };
   const landing = [
@@ -1688,7 +2302,7 @@ for (const s of selected) {
     "",
     "## 课时",
     "",
-    ...lessons.map((d, i) => `${i + 1}. [${d.title}](${d.rel}.md)`),
+    ...navToMarkdown(buildNav(lessons, s.volume, s.local, navOverrideOf(s.id)), 0),
     "",
     lessons.length ? `开始学习 → [${lessons[0].title}](${lessons[0].rel}.md)` : "",
     "",
@@ -1748,6 +2362,7 @@ for (const s of selected) {
     featured: tierOfSource(s.id) === 1,
     sourceUrl: s.repo ? `https://github.com/${s.repo}` : s.site,
     docs: pages,
+    nav: buildNav(pages, s.volume, s.local, navOverrideOf(s.id)),
   });
 
   writeFile(
@@ -1810,8 +2425,8 @@ writeFile(
     `export const totals = ${JSON.stringify(catalog.totals, null, 2)} as const`,
     `export const byKind = ${JSON.stringify(catalog.byKind, null, 2)} as const`,
     `export interface SourceEntry { id: string; volume: string; local: string; title: string; kind: string; category: string; tier: number; licenseLabel: string; lang: string; lessons: number; md: number; repo: string | null; site: string | null; commit: string | null; entryUrl: string | null; publishable: boolean; ported: boolean }`,
-    `export interface CourseDoc { title: string; rel: string; sourceRel: string }`,
-    `export interface Course { id: string; volume: string; local: string; title: string; kind: string; category: string; tier: number; license: string; licenseLabel: string; lang: string; publishable: boolean; repo: string | null; site: string | null; commit: string | null; sourceUrl: string | null; docs: CourseDoc[] }`,
+    `export interface CourseDoc { title: string; rel: string; sourceRel: string; rawUrl?: string; sourceSha256?: string; pageSha256?: string }`,
+    `export interface NavItem { text: string; link?: string; items?: NavItem[]; collapsed?: boolean }\nexport interface Course { id: string; volume: string; local: string; title: string; kind: string; category: string; tier: number; license: string; licenseLabel: string; lang: string; publishable: boolean; repo: string | null; site: string | null; commit: string | null; sourceUrl: string | null; docs: CourseDoc[]; nav: NavItem[] }`,
     `export const courses: Course[] = ${JSON.stringify(registered, null, 2)}`,
     `export const sources: SourceEntry[] = ${JSON.stringify(allSources, null, 2)}`,
     "",

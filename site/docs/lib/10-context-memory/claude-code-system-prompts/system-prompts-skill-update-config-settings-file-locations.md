@@ -1,0 +1,112 @@
+---
+title: "Claude Code System Prompts"
+sourceId: "10-context-memory/claude-code-system-prompts"
+sourceTitle: "Claude Code System Prompts"
+sourceKind: "源码研读"
+licenseLabel: "可转载"
+lang: "英文"
+tier: 2
+volume: "10-context-memory"
+sourceUrl: "https://github.com/Piebald-AI/claude-code-system-prompts"
+entryUrl: "https://github.com/Piebald-AI/claude-code-system-prompts/blob/3af4c6139aaabb0470440961ca8c8fb871099234/system-prompts/skill-update-config-settings-file-locations.md"
+sourceRel: "system-prompts/skill-update-config-settings-file-locations.md"
+rawUrl: "/raw/10-context-memory/claude-code-system-prompts/system-prompts/skill-update-config-settings-file-locations.md"
+sourceSha256: "3e0b83791830901b880a23de83e7e7f89c29579e01595c7046941f33b71d5f40"
+pageSha256: "3e0b83791830901b880a23de83e7e7f89c29579e01595c7046941f33b71d5f40"
+contentMode: "local-full"
+zh: ""
+---
+
+# Claude Code System Prompts
+
+## Settings File Locations
+
+Choose the appropriate file based on scope:
+
+| File | Scope | Git | Use For |
+|------|-------|-----|---------|
+| `~/.claude/settings.json` | Global | N/A | Personal preferences for all projects |
+| `.claude/settings.json` | Project | Commit | Team-wide hooks, permissions, plugins |
+| `.claude/settings.local.json` | Project | Gitignore | Personal overrides for this project |
+
+Settings load in order: user → project → local (later overrides earlier).
+
+## Settings Schema Reference
+
+### Permissions
+```json
+{
+  "permissions": {
+    "allow": ["Bash(npm *)", "Edit(.claude)", "Read"],
+    "deny": ["Bash(rm -rf *)"],
+    "ask": ["Edit(//etc/*)"],
+    "defaultMode": "default" | "plan" | "acceptEdits" | "dontAsk",
+    "additionalDirectories": ["/extra/dir"]
+  }
+}
+```
+
+**Permission Rule Syntax:**
+- Exact match: `"Bash(npm run test)"`
+- Prefix wildcard: `"Bash(git *)"` - matches `git`, `git status`, `git commit`, etc.
+- Tool only: `"Read"` - allows all Read operations
+
+### Environment Variables
+```json
+{
+  "env": {
+    "DEBUG": "true",
+    "MY_API_KEY": "value"
+  }
+}
+```
+
+### Model & Agent
+```json
+{
+  "model": "sonnet",  // or "fable", "opus", "haiku", full model ID
+  "agent": "agent-name",
+  "alwaysThinkingEnabled": true
+}
+```
+
+### Attribution (Commits & PRs)
+```json
+{
+  "attribution": {
+    "commit": "Custom commit trailer text",
+    "pr": "Custom PR description text"
+  }
+}
+```
+Set `commit` or `pr` to empty string `""` to hide that attribution.
+
+### MCP Server Management
+```json
+{
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": ["server1", "server2"],
+  "disabledMcpjsonServers": ["blocked-server"]
+}
+```
+
+### Plugins
+```json
+{
+  "enabledPlugins": {
+    "formatter@anthropic-tools": true
+  }
+}
+```
+Plugin syntax: `plugin-name@source` where source is `claude-code-marketplace`, `claude-plugins-official`, or `builtin`.
+
+### Other Settings
+- `language`: Preferred response language (e.g., "japanese")
+- `cleanupPeriodDays`: Days to keep transcripts before automatic cleanup (default: 30; minimum 1)
+- `respectGitignore`: Whether to respect .gitignore (default: true)
+- `spinnerTipsEnabled`: Show tips in spinner
+- `timeFormat`: Clock format for times shown in the UI: "auto" (default), "12-hour", "24-hour", "24-hour-utc", or a strftime pattern such as "%H:%M"
+- `timeZone`: IANA time zone for times shown in the UI, e.g. "UTC" (default: system time zone)
+- `spinnerVerbs`: Customize spinner verbs (`\{ "mode": "append" | "replace", "verbs": [...] \}`)
+- `spinnerTipsOverride`: Override spinner tips (`\{ "excludeDefault": true, "tips": ["Custom tip"] \}`)
+- `syntaxHighlightingDisabled`: Disable diff highlighting

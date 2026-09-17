@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/stormzhang/ai-coding-guide"
-entryUrl: "https://github.com/stormzhang/ai-coding-guide/blob/d187dbdb83fa1be051a850074eb518e30e2eb47c/README.md"
+entryUrl: "https://github.com/stormzhang/ai-coding-guide/blob/d187dbdb83fa1be051a850074eb518e30e2eb47c/claude-code/15-prompting.md"
+sourceRel: "claude-code/15-prompting.md"
+rawUrl: "/raw/07-coding/ai-coding-guide-stormzhang/claude-code/15-prompting.md"
+sourceSha256: "12e2184d5aea350060c9207bba64bf5beb2055264a8fe248e3edfd4c93057e6c"
+pageSha256: "12e2184d5aea350060c9207bba64bf5beb2055264a8fe248e3edfd4c93057e6c"
+contentMode: "local-full"
 zh: ""
 ---
 

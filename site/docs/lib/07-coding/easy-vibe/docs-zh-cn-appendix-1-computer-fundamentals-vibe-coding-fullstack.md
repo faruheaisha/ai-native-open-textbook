@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/datawhalechina/easy-vibe"
-entryUrl: "https://github.com/datawhalechina/easy-vibe/blob/130e9b75b28b524e8cc74e615fd9733a4e2b330d/README.md"
+entryUrl: "https://github.com/datawhalechina/easy-vibe/blob/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/appendix/1-computer-fundamentals/vibe-coding-fullstack.md"
+sourceRel: "docs/zh-cn/appendix/1-computer-fundamentals/vibe-coding-fullstack.md"
+rawUrl: "/raw/07-coding/easy-vibe/docs/zh-cn/appendix/1-computer-fundamentals/vibe-coding-fullstack.md"
+sourceSha256: "f68e87f32ed0a66a78d73c1fa920ab053eabc84fee67781b081eea4cba09f482"
+pageSha256: "f68e87f32ed0a66a78d73c1fa920ab053eabc84fee67781b081eea4cba09f482"
+contentMode: "local-full"
 zh: ""
 ---
 

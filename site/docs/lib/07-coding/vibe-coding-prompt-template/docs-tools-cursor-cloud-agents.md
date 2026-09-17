@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/KhazP/vibe-coding-prompt-template"
-entryUrl: "https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/README.md"
+entryUrl: "https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/docs/tools/cursor-cloud-agents.md"
+sourceRel: "docs/tools/cursor-cloud-agents.md"
+rawUrl: "/raw/07-coding/vibe-coding-prompt-template/docs/tools/cursor-cloud-agents.md"
+sourceSha256: "d8eb18e9fa7cff8bb09a93ab0ed319ca0f621a39b9221dda4c2a393e05d65daa"
+pageSha256: "d8eb18e9fa7cff8bb09a93ab0ed319ca0f621a39b9221dda4c2a393e05d65daa"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -9,6 +9,11 @@ tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/ranxi2001/zero2Agent"
 entryUrl: "https://github.com/ranxi2001/zero2Agent/blob/46e9f7c28f84f54b2f6e45681d14989f01e18291/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/08-agents/zero2agent/README.md"
+sourceSha256: "746e5328cbf22397d7a8823231998cde70f48b5904e71e8175c3a7a505b8ad83"
+pageSha256: "746e5328cbf22397d7a8823231998cde70f48b5904e71e8175c3a7a505b8ad83"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -155,7 +160,7 @@ agent    = chatbot + tools    # 图内回路，模型驱动工具
 
 这个模块以设计理念为主，把 DeepSeek Harness 同时看成一个可以直接运行的 Coding Agent，以及一套可以重新拼装的 Agent 开发框架。它不是“固定内核加扩展槽”，而是尽量不保留不可替换的特权内核。官方 Web 和 headless 是预置 Profile；模型、工具、文件系统、Shell、沙箱、会话存储、Subagent、UI 甚至 Loop 都可以通过插件和接缝替换。文章先讲 Cordis 的依赖、事件与可逆副作用，再拆解插件树、LLM 接缝、事实源、控制平面、上下文成本和安全策略，最后讨论动态生成插件的实验性自进化边界。
 
-官方 API 仍固定参考 `dsh-v0.1.0-rc.8`，但 API 只作为设计判断的证据；社区教程、电子书、白皮书和 NanoCordis 用于补充原理与教学实现。社区资料基于较早的 `rc.6` 时，README 不把它当作当前 API 规范，具体来源和许可证见 [THIRD_PARTY_NOTICES.md](https://github.com/ranxi2001/zero2Agent/blob/46e9f7c28f84f54b2f6e45681d14989f01e18291/THIRD_PARTY_NOTICES.md)。
+官方 API 仍固定参考 `dsh-v0.1.0-rc.8`，但 API 只作为设计判断的证据；社区教程、电子书、白皮书和 NanoCordis 用于补充原理与教学实现。社区资料基于较早的 `rc.6` 时，README 不把它当作当前 API 规范，具体来源和许可证见 [THIRD_PARTY_NOTICES.md](/lib/08-agents/zero2agent/THIRD_PARTY_NOTICES)。
 
 ### Pi Coding Agent
 
@@ -274,7 +279,7 @@ bundle exec jekyll serve
 
 本仓库的内容参考并引用了以下开源项目：
 
-- **[bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book/tree/e3883f8cec222c31e59c646be96641120863027e)** — Agent Basic 中模型 API、上下文工程与消融实验的概念参考；本仓库使用独立文字、示例与实验实现，详见 [THIRD_PARTY_NOTICES.md](https://github.com/ranxi2001/zero2Agent/blob/46e9f7c28f84f54b2f6e45681d14989f01e18291/THIRD_PARTY_NOTICES.md)
+- **[bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book/tree/e3883f8cec222c31e59c646be96641120863027e)** — Agent Basic 中模型 API、上下文工程与消融实验的概念参考；本仓库使用独立文字、示例与实验实现，详见 [THIRD_PARTY_NOTICES.md](/lib/08-agents/zero2agent/THIRD_PARTY_NOTICES)
 - **[shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code)** — Claude Code 模块的课程结构和核心内容来源，12 节渐进式 Agent 构建课程
 - **[lasywolf/Learn-OpenClaw](https://github.com/lasywolf/Learn-OpenClaw)** — OpenClaw 模块的核心思路和代码框架来源
 - **[pi-mcp/pi-mono](https://github.com/pi-mcp/pi-mono)** — 生产级 Coding Agent 的参考实现

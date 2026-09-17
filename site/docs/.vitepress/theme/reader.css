@@ -222,3 +222,32 @@ html .VPDoc:has(.tb-crumb) .vp-doc hr {
   background: var(--tb-line);
   margin: 2.4rem 0;
 }
+
+/* ---------- 十、mermaid 图 ----------
+   正文里 297 处流程图原先只是一段 `flowchart LR` 源码（见 theme/mermaid.ts）。
+   画出来以后原地保留代码块外壳：右上角的复制按钮仍然指向那份源码。
+
+   渲染器只 import('mermaid') 一次并按需触发，这里只管画出来之后的排版。 */
+
+/* 画好了就不必再占源码块那块高度。 */
+html .vp-doc div.language-mermaid.is-drawn > pre {
+  display: none;
+}
+
+html .vp-doc .tb-mermaid__figure {
+  padding: 6px 2px 2px;
+  /* 宽图（节点多的时序图）在窄屏靠横向滚动读完，不缩到看不清字。 */
+  overflow-x: auto;
+}
+
+html .vp-doc .tb-mermaid__figure svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* 画不出来时不留一个空壳，退回上面那块源码。 */
+html .vp-doc div.language-mermaid.is-failed .tb-mermaid__figure {
+  display: none;
+}

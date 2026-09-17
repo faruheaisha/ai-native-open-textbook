@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "01-foundations"
 sourceUrl: "https://github.com/zorost/AI-Engineering-Lab"
-entryUrl: "https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/README.md"
+entryUrl: "https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/curriculum/week-06/exercises.md"
+sourceRel: "curriculum/week-06/exercises.md"
+rawUrl: "/raw/01-foundations/ai-engineering-lab/curriculum/week-06/exercises.md"
+sourceSha256: "5b517d17f4131a3c1096cd60a1efed13c0dd2a40e9c36a733f664ddbd1b56cd0"
+pageSha256: "5b517d17f4131a3c1096cd60a1efed13c0dd2a40e9c36a733f664ddbd1b56cd0"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -26,7 +31,7 @@ zh: ""
 1. **Easy**: Set `OPENAI_MODEL` (or `OPENROUTER_MODEL`) before running; re-run only version 3 and diff its `OVERALL` row against the default model's score.
 2. **Standard**: Add a `version == 4` branch to `make_prompt` that prepends a "reason about the cargo block first" line; compare its accuracy *and* its token cost (the CoT text is extra input tokens).
 3. **Stretch**: Give each worksheet claimant a tier label (`pinned`/`compressible`/`disposable`) and, when the document triples, evict in that order before re-measuring the total against the ceiling.
-4. **Portfolio**: Wrap the three `make_prompt` versions and the grader in a function, dump `{version: score}` to JSON, and `sys.exit(1)` when the best score < 0.90.
+4. **Portfolio**: Wrap the three `make_prompt` versions and the grader in a function, dump `\{version: score\}` to JSON, and `sys.exit(1)` when the best score < 0.90.
 
 ## Checklist (mirrors manifest.json + Excel tracker)
 

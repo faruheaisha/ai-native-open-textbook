@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/shareAI-lab/learn-claude-code"
-entryUrl: "https://github.com/shareAI-lab/learn-claude-code/blob/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/README.md"
+entryUrl: "https://github.com/shareAI-lab/learn-claude-code/blob/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/docs/zh/s02-tool-use.md"
+sourceRel: "docs/zh/s02-tool-use.md"
+rawUrl: "/raw/09-harness/learn-claude-code/docs/zh/s02-tool-use.md"
+sourceSha256: "5e69a371f4cff9c3fb4d2393a9e638921eae65058432167ce7c76dcc7ebe6d9a"
+pageSha256: "5e69a371f4cff9c3fb4d2393a9e638921eae65058432167ce7c76dcc7ebe6d9a"
+contentMode: "local-full"
 zh: ""
 ---
 

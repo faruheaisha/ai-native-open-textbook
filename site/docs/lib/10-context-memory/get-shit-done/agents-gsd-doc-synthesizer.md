@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/gsd-build/get-shit-done"
-entryUrl: "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/README.md"
+entryUrl: "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/agents/gsd-doc-synthesizer.md"
+sourceRel: "agents/gsd-doc-synthesizer.md"
+rawUrl: "/raw/10-context-memory/get-shit-done/agents/gsd-doc-synthesizer.md"
+sourceSha256: "397e4b3a35c5f4dfd2be9c07a18cc8d3ebdbb3c0c6cad148d3762fc84642a262"
+pageSha256: "397e4b3a35c5f4dfd2be9c07a18cc8d3ebdbb3c0c6cad148d3762fc84642a262"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -81,7 +86,7 @@ For each classified doc, read the source and extract per-type content. Write per
   - Preserve every decision separately; synthesis happens in the next step
 
 - **PRDs** → `INTEL_DIR/requirements.md`
-  - One entry per requirement: ID (derive `REQ-{slug}`), source PRD path, description, acceptance criteria, scope
+  - One entry per requirement: ID (derive `REQ-\{slug\}`), source PRD path, description, acceptance criteria, scope
   - One PRD usually yields multiple requirements
 
 - **SPECs** → `INTEL_DIR/constraints.md`
@@ -90,7 +95,7 @@ For each classified doc, read the source and extract per-type content. Write per
 - **DOCs** → `INTEL_DIR/context.md`
   - Running notes keyed by topic; appended verbatim with source attribution
 
-Every entry must have `source: {path}` so downstream consumers can trace provenance.
+Every entry must have `source: \{path\}` so downstream consumers can trace provenance.
 &lt;/step>
 
 &lt;step name="detect_conflicts">

@@ -9,6 +9,11 @@ tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/datawhalechina/vibe-vibe"
 entryUrl: "https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/07-coding/vibe-vibe/README.md"
+sourceSha256: "c17276c5fecc8e1c8a6ef9c4354824ded7093b594483c28ad057aa1ce089d5de"
+pageSha256: "c17276c5fecc8e1c8a6ef9c4354824ded7093b594483c28ad057aa1ce089d5de"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -45,7 +50,7 @@ docker compose up -d --build
 
 默认访问地址为 `http://localhost:1024`。
 
-更完整的部署方式、静态文件部署方案和离线环境注意事项，请查看[部署指南](https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/deployment/index.md)。
+更完整的部署方式、静态文件部署方案和离线环境注意事项，请查看[部署指南](/lib/07-coding/vibe-vibe/docs-deployment)。
 
 ### 教程定位
 

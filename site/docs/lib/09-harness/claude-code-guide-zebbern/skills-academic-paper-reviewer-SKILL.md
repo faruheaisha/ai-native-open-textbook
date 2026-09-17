@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/zebbern/claude-code-guide"
-entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/README.md"
+entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/skills/academic-paper-reviewer/SKILL.md"
+sourceRel: "skills/academic-paper-reviewer/SKILL.md"
+rawUrl: "/raw/09-harness/claude-code-guide-zebbern/skills/academic-paper-reviewer/SKILL.md"
+sourceSha256: "6371cd3da51030f4c1478f5d68bcef96b48c63c674f9d983c754e643d52ddfc5"
+pageSha256: "6371cd3da51030f4c1478f5d68bcef96b48c63c674f9d983c754e643d52ddfc5"
+contentMode: "local-full"
 zh: ""
 ---
 

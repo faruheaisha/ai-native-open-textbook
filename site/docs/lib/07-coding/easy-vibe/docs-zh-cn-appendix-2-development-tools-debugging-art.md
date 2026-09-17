@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/datawhalechina/easy-vibe"
-entryUrl: "https://github.com/datawhalechina/easy-vibe/blob/130e9b75b28b524e8cc74e615fd9733a4e2b330d/README.md"
+entryUrl: "https://github.com/datawhalechina/easy-vibe/blob/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/appendix/2-development-tools/debugging-art.md"
+sourceRel: "docs/zh-cn/appendix/2-development-tools/debugging-art.md"
+rawUrl: "/raw/07-coding/easy-vibe/docs/zh-cn/appendix/2-development-tools/debugging-art.md"
+sourceSha256: "a5e00b62dec87c3a25edfd48bad22597ca8301e64b52c2c760fe7e52a5c4b6b5"
+pageSha256: "a5e00b62dec87c3a25edfd48bad22597ca8301e64b52c2c760fe7e52a5c4b6b5"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/walkinglabs/learn-harness-engineering"
-entryUrl: "https://github.com/walkinglabs/learn-harness-engineering/blob/77e7a3e21469dcbece2558086c8d91657abeaa40/README.md"
+entryUrl: "https://github.com/walkinglabs/learn-harness-engineering/blob/77e7a3e21469dcbece2558086c8d91657abeaa40/docs/zh/lectures/lecture-04-why-one-giant-instruction-file-fails/index.md"
+sourceRel: "docs/zh/lectures/lecture-04-why-one-giant-instruction-file-fails/index.md"
+rawUrl: "/raw/09-harness/learn-harness-engineering/docs/zh/lectures/lecture-04-why-one-giant-instruction-file-fails/index.md"
+sourceSha256: "e37a608cd68a98e21695c6ddd5dedefcd3f5de848a5b827dce6013cef588a8ed"
+pageSha256: "e37a608cd68a98e21695c6ddd5dedefcd3f5de848a5b827dce6013cef588a8ed"
+contentMode: "local-full"
 zh: ""
 ---
 

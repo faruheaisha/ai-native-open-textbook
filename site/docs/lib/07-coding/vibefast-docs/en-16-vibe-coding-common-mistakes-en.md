@@ -8,13 +8,18 @@ lang: "英文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/vibefast-app/vibefast-docs"
-entryUrl: "https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/README.md"
+entryUrl: "https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/en/16-vibe-coding-common-mistakes-en.md"
+sourceRel: "en/16-vibe-coding-common-mistakes-en.md"
+rawUrl: "/raw/07-coding/vibefast-docs/en/16-vibe-coding-common-mistakes-en.md"
+sourceSha256: "aa442f0b3968b216f0e0a71303b8e9fa41c4bd083048750359044c72de9925fa"
+pageSha256: "aa442f0b3968b216f0e0a71303b8e9fa41c4bd083048750359044c72de9925fa"
+contentMode: "local-full"
 zh: ""
 ---
 
 # 5 Pitfalls I've Hit in Vibe Coding (and How to Avoid Them)
 
-[English](/lib/07-coding/vibefast-docs/en-16-vibe-coding-common-mistakes-en) · [繁中](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/zh/16-vibe-coding-common-mistakes-zh.md) · [Español](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/es/16-vibe-coding-common-mistakes-es.md) · [日本語](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/jp/16-vibe-coding-common-mistakes-jp.md) · [Português (BR)](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/pt-br/16-vibe-coding-common-mistakes-pt-br.md)
+[English](/lib/07-coding/vibefast-docs/en-16-vibe-coding-common-mistakes-en) · [繁中](/lib/07-coding/vibefast-docs/zh-16-vibe-coding-common-mistakes-zh) · [Español](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/es/16-vibe-coding-common-mistakes-es.md) · [日本語](/lib/07-coding/vibefast-docs/jp-16-vibe-coding-common-mistakes-jp) · [Português (BR)](https://github.com/vibefast-app/vibefast-docs/blob/2a34bc50576f3f74fda6196ca9bebf851187bcf9/pt-br/16-vibe-coding-common-mistakes-pt-br.md)
 
 **Author:** Danko Peng ([@dankopeng](https://x.com/dankopeng))  
 **Updated:** March 2026  

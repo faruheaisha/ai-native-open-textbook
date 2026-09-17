@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/datawhalechina/vibe-vibe"
-entryUrl: "https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/README.md"
+entryUrl: "https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/Advanced/01-environment-setup/00-quick-start.md"
+sourceRel: "docs/Advanced/01-environment-setup/00-quick-start.md"
+rawUrl: "/raw/07-coding/vibe-vibe/docs/Advanced/01-environment-setup/00-quick-start.md"
+sourceSha256: "8fc558206f9db4a0554625afa36c9626a3036c2e19d9dbe3f5048504b01e2d81"
+pageSha256: "8fc558206f9db4a0554625afa36c9626a3036c2e19d9dbe3f5048504b01e2d81"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -27,7 +32,7 @@ zh: ""
 
 ---
 
-## Windows 用户 {#windows-users}
+## Windows 用户 \{#windows-users\}
 
 ### 1. 安装 [Git](https://git-scm.com/install/windows)
 
@@ -130,7 +135,7 @@ claude
 
 ---
 
-## Mac/Linux 用户 {#mac-linux-users}
+## Mac/Linux 用户 \{#mac-linux-users\}
 
 ### 1. 安装 Git
 
@@ -200,7 +205,7 @@ claude
 
 ---
 
-## 配置 GLM 模型 {#config-glm}
+## 配置 GLM 模型 \{#config-glm\}
 
 Claude Code 默认使用 Claude 官方模型，但你可以配置国内模型（如 GLM），更便宜且访问快。
 
@@ -248,7 +253,7 @@ claude
 
 ---
 
-## 关于 nvm（可选） {#about-nvm}
+## 关于 nvm（可选） \{#about-nvm\}
 
 Mac/Linux 用户的初始化脚本已自动安装 nvm（Node 版本管理器）。Windows 用户如果想管理多个 Node.js 版本，可以安装 nvm：
 
@@ -283,7 +288,7 @@ nvm list             # 查看已安装版本
 
 ---
 
-## 常见问题 {#faq}
+## 常见问题 \{#faq\}
 
 ### Q: 安装过程中遇到错误？
 
@@ -299,11 +304,11 @@ nvm list             # 查看已安装版本
 
 ---
 
-## 下一步 {#next-steps}
+## 下一步 \{#next-steps\}
 
 环境安装完成后，继续阅读：
 
-- [1.1 代码格式演变](https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/Advanced/01-environment-setup/01-code-formats.md)
+- [1.1 代码格式演变](/lib/07-coding/vibe-vibe/docs-Advanced-01-environment-setup-01-code-formats)
 - [1.2 认识技术栈](/lib/07-coding/vibe-vibe/docs-Advanced-01-environment-setup-02-tech-stack)
 - [1.5 包管理与项目配置](/lib/07-coding/vibe-vibe/docs-Advanced-01-environment-setup-05-package-manager-and-config)
 - [1.7 创建你的第一个项目](/lib/07-coding/vibe-vibe/docs-Advanced-01-environment-setup-07-creating-project)

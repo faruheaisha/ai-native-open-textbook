@@ -1,0 +1,18 @@
+{
+  "id": "07-coding/lovable-for-beginners",
+  "volume": "07-coding",
+  "local": "lovable-for-beginners",
+  "title": "Lovable for Beginners",
+  "kind": "系统课程",
+  "license": "未声明",
+  "licenseLabel": "仅引用",
+  "licenseNote": "不可整篇转载，站内只做导航与引用",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": false,
+  "repo": "cporter202/lovable-for-beginners",
+  "site": null,
+  "commit": "c4bfa59c80fa37c99dfa3810541537ab63840512",
+  "entryUrl": "https://github.com/cporter202/lovable-for-beginners/blob/c4bfa59c80fa37c99dfa3810541537ab63840512/README.md",
+  "docs": 21
+}

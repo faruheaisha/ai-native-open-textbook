@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/deusyu/harness-engineering"
-entryUrl: "https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/README.md"
+entryUrl: "https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/concepts/05-throughput-changes-merge.md"
+sourceRel: "concepts/05-throughput-changes-merge.md"
+rawUrl: "/raw/09-harness/deusyu-harness-engineering/concepts/05-throughput-changes-merge.md"
+sourceSha256: "e94fe5161cce9cfd8ddba018694c0051f62322fc9ec74be50f2682dee16e6305"
+pageSha256: "e94fe5161cce9cfd8ddba018694c0051f62322fc9ec74be50f2682dee16e6305"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -64,7 +69,7 @@ zh: ""
 
 ### OpenAI Symphony — 吞吐量从 PR 级跃迁到 ticket 级
 
-Symphony（[references/articles.md #16](/lib/09-harness/deusyu-harness-engineering/references-articles#article-16)）把吞吐量哲学**抽象到更高一层**：从"PR 流转速度"到"ticket 流转速度"。差别在哪——
+Symphony（[references/articles.md #16](/lib/09-harness/deusyu-harness-engineering/references-articles/index#article-16)）把吞吐量哲学**抽象到更高一层**：从"PR 流转速度"到"ticket 流转速度"。差别在哪——
 
 | 层级 | 单位 | 人类介入点 |
 |------|------|----------|

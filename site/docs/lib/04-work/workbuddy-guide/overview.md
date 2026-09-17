@@ -1,5 +1,5 @@
 ---
-title: "WorkBuddyGuide（蓝皮书 + 社区案例集）"
+title: "WorkBuddy 使用手册与实战指南"
 sourceId: "04-work/workbuddy-guide"
 sourceTitle: "WorkBuddyGuide（蓝皮书 + 社区案例集）"
 sourceKind: "工程手册"
@@ -8,121 +8,25 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/AlephAITech/WorkBuddyGuide"
-entryUrl: "https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89da368fe208425ff50e121fe/README.md"
+entryUrl: "https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/index.md"
+sourceRel: "docs/bluebook/index.md"
+rawUrl: "/raw/04-work/workbuddy-guide/docs/bluebook/index.md"
+sourceSha256: "69000365e8e123a13a55895b612affb61356529abe39b293f219995472c4c557"
+pageSha256: "69000365e8e123a13a55895b612affb61356529abe39b293f219995472c4c557"
+contentMode: "local-full"
 zh: ""
 ---
 
-# WorkBuddyGuide（蓝皮书 + 社区案例集）
+# WorkBuddy 使用手册与实战指南
 
-<h1 align="center">WorkBuddy 实战蓝皮书</h1>
+**27 章完整目录：从安装入门到 AI 工作系统**
 
-<p align="center"><strong>从第一项任务，到一支 AI 团队</strong></p>
+这是一本以真实任务为主线的 WorkBuddy 中文使用手册。你可以从下载安装和第一个任务开始，再进入 Skills、连接器、移动办公、知识管理、专业诊断、内容自动化和多 Agent 团队，最终把一次成功沉淀为团队可复用的 AI 工作系统。
 
-  简体中文 · <a href="https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89da368fe208425ff50e121fe/README_en.md">English</a> ·
-[参与共创](https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89da368fe208425ff50e121fe/CONTRIBUTING.md)
+## 章节目录
 
-> 这不是官方功能说明书的改写，而是一本以真实任务为主线的实战读本。先完成安装和第一项工作，再进入移动办公、知识管理、专业诊断、内容自动化和多 Agent 团队，最后把一次成功变成团队可复用的工作系统。
-
-## 在线阅读
-
-推荐访问 **[workbuddy.homes](https://workbuddy.homes/)** 阅读。网站提供完整侧边栏、全文搜索、章节目录、深色模式、流程图和移动端适配。
-
-GitHub 适合了解项目和参与贡献；真正阅读蓝皮书时，网站体验更完整。
-
-## 你会在这里看到什么
-
-| 部分 | 内容 |
-| --- | --- |
-| 第一篇 · 使用手册 | 下载、安装、界面、第一个任务、Skill、连接器、API 和自动化 |
-| 第二篇 · 案例篇 | 办公、文件、远程、资讯、知识、会议、投资、视频、自媒体和 GEO |
-| 第三篇 · 进阶篇 | 打造 Skill、多 Agent 系统设计、自动化可靠性 |
-| 第四篇 · 岗位与行业 | 不同岗位的使用路线和行业工作流 |
-| 附录 | 常用指令模板与场景速查表 |
-
-## 推荐阅读方式
-
-- **第一次使用**：从[第 1 章](/lib/04-work/workbuddy-guide/docs-bluebook-第一篇_使用手册_先把_WorkBuddy_用起来-第_1_章_初识_WorkBuddy)开始，按顺序完成第一篇。
-- **已经有具体任务**：直接进入第二篇对应案例，跑通后再阅读第三篇。
-- **准备团队落地**：重点阅读第三、四篇，并记录权限边界、验收标准和失败回退。
-
-更完整的路线见[如何阅读这本蓝皮书](https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89da368fe208425ff50e121fe/docs/reading-guide.md)。
-
-## 帮你解决
-
-如果你有真实的工作场景，却不知道怎样用 WorkBuddy 完成，可以前往 **[帮你解决](https://workbuddy.homes/help/)** 提交场景问卷。
-
-请在问卷中说明你遇到的问题、目前的处理方式、会用到的资料、期望结果和安全边界。我们会阅读并评估每一份需求；如果需要补充信息，会通过你主动留下的联系方式与你沟通。
-
-具有代表性和复用价值的问题，我们会尝试制作成完整的开源 Case，写清所用 Skill、安装与使用方法、任务描述、操作过程和最终效果，并发布到[社区案例集](https://workbuddy.homes/cases/)，帮助更多遇到类似问题的人。
-
-## 本地阅读与开发
-
-需要 Node.js 20～24，推荐 Node.js 22。
-
-```bash
-npm install
-npm run dev
-```
-
-本地构建：
-
-```bash
-npm run docs:build
-npm run docs:preview
-```
-
-## 参与共创
-
-我们优先收集真实、可复现的 WorkBuddy 使用案例。提交 Case 前，请先搜索[社区案例集](https://workbuddy.homes/cases/)和[蓝皮书目录](https://workbuddy.homes/bluebook/)，确认场景或任务没有重复。若目标相同但使用了不同的 Skill、方法或交付形式，请在 PR 中说明差异。
-
-每个案例至少需要写清：
-
-- **场景与问题**：谁在什么任务中遇到了什么困难。
-- **使用的 Skill**：Skill 的作用、来源、安装方式和必要配置。
-- **任务描述**：在 WorkBuddy 中输入的提示词、步骤或自动化设置。
-- **执行过程**：关键操作、权限要求、输入资料和安全边界。
-- **实际效果**：使用截图或其他结果证明展示最终输出。
-- **验收标准**：怎样判断任务已经正确完成。
-
-投稿时，在 `docs/cases/submissions/` 下为案例新建独立目录，使用 [Case 正文模板](https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89da368fe208425ff50e121fe/.github/CASE_TEMPLATE.md)编写内容，并通过 [Case PR 模板](https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89da368fe208425ff50e121fe/.github/PULL_REQUEST_TEMPLATE/case.md)提交。审核合并后，案例会自动出现在网站左侧目录；具有代表性的经典案例经过进一步复现和编辑后，可能进入蓝皮书正式章节。
-
-完整流程请阅读 [Case 投稿指南](https://workbuddy.homes/community/case-contributing)和[贡献指南](https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89da368fe208425ff50e121fe/CONTRIBUTING.md)。准备或提交 PR 后，也可以按网站提示加入 WorkBuddy 共创群，交流选题并获得内容完善建议。
-
-## 目录结构
-
-```text
-WorkBuddyGuide
-├─ .github/
-│  ├─ CASE_TEMPLATE.md             # Case 正文模板
-│  └─ PULL_REQUEST_TEMPLATE/       # Pull Request 模板
-├─ docs/
-│  ├─ .vitepress/                  # 网站配置、主题、导航与 SEO
-│  ├─ bluebook/                    # 蓝皮书正式章节
-│  ├─ cases/
-│  │  └─ submissions/              # 社区提交的独立 Case
-│  ├─ community/                   # Case 投稿与社区共创指南
-│  ├─ help/                        # “帮你解决”场景问卷页面
-│  ├─ public/                      # 网站图片、二维码等静态资源
-│  ├─ index.md                     # 网站首页
-│  └─ reading-guide.md             # 阅读指南
-├─ scripts/                        # 内容同步与辅助工具
-├─ CONTRIBUTING.md                 # 完整贡献规范
-├─ README.md                       # 中文项目说明
-└─ README_en.md                    # English README
-```
-
-## 部署
-
-本站使用 **VitePress + Cloudflare Pages + GitHub**。Cloudflare Pages 连接本仓库的 `main` 分支后，每次推送都会自动构建部署。配置见 [DEPLOYMENT.md](https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89da368fe208425ff50e121fe/DEPLOYMENT.md)。
-
-## 作者们
-
-感谢以下作者共同参与《WorkBuddy 蓝皮书》的创作与维护。点击名片可查看原图并扫描二维码。
-
-## 声明
-
-本项目是社区维护的 WorkBuddy 实战知识库。涉及产品功能、界面、价格、可用范围和安全策略等时效性信息时，请以 WorkBuddy 官方渠道为准。
-
-## 开源协议
-
-本项目采用 [MIT License](https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89da368fe208425ff50e121fe/LICENSE/README.md) 开源。你可以自由使用、复制、修改和分发本项目，但需要保留原始版权声明和许可证文本。
+- [第一篇 使用手册：先把 WorkBuddy 用起来](/lib/04-work/workbuddy-guide/docs-bluebook-第一篇_使用手册_先把_WorkBuddy_用起来)
+- [第二篇 案例篇：从一项任务到一支 AI 团队](/lib/04-work/workbuddy-guide/docs-bluebook-第二篇_案例篇_从一项任务到一支_AI_团队)
+- [第三篇 进阶篇：把案例变成自己的工作系统](/lib/04-work/workbuddy-guide/docs-bluebook-第三篇_进阶篇_把案例变成自己的工作系统)
+- [第四篇 岗位与行业落地](/lib/04-work/workbuddy-guide/docs-bluebook-第四篇_岗位与行业落地)
+- [附录](/lib/04-work/workbuddy-guide/docs-bluebook-附录)

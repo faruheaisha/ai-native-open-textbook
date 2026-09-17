@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/datawhalechina/vibe-vibe"
-entryUrl: "https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/README.md"
+entryUrl: "https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/Advanced/01-environment-setup/04-terminal-basics.md"
+sourceRel: "docs/Advanced/01-environment-setup/04-terminal-basics.md"
+rawUrl: "/raw/07-coding/vibe-vibe/docs/Advanced/01-environment-setup/04-terminal-basics.md"
+sourceSha256: "97892b356909891a46a051078d2f4fc21a08979ba7c9593b057cb9c438893b12"
+pageSha256: "97892b356909891a46a051078d2f4fc21a08979ba7c9593b057cb9c438893b12"
+contentMode: "local-full"
 zh: ""
 ---
 

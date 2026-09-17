@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works"
-entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/README.md"
+entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/21-background-fleet.md"
+sourceRel: "docs/21-background-fleet.md"
+rawUrl: "/raw/09-harness/how-claude-code-works/docs/21-background-fleet.md"
+sourceSha256: "911bbad8691bd1eb55fa4793065c7f2b89db81a2148c1e97ee5587278e235698"
+pageSha256: "911bbad8691bd1eb55fa4793065c7f2b89db81a2148c1e97ee5587278e235698"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -34,7 +39,7 @@ zh: ""
 
 ## 21.3 `claude agents`：一张表管所有后台会话
 
-脱终端解决了"一个会话怎么活下去"，`claude agents` 解决的是"好几个会话怎么一起看"。它在 CLI 里是一个正经的 Commander 子命令，描述逐字写着 Manage background agents。它带着一小组动作：`claude agents` 列出所有后台会话，`claude attach {id}` 把某一个在当前终端里打开接管，`claude logs {id}` 翻它最近的输出。这三条合起来就是一套朴素的舰队面板——列表看全局、attach 进单个、logs 事后翻账。
+脱终端解决了"一个会话怎么活下去"，`claude agents` 解决的是"好几个会话怎么一起看"。它在 CLI 里是一个正经的 Commander 子命令，描述逐字写着 Manage background agents。它带着一小组动作：`claude agents` 列出所有后台会话，`claude attach \{id\}` 把某一个在当前终端里打开接管，`claude logs \{id\}` 翻它最近的输出。这三条合起来就是一套朴素的舰队面板——列表看全局、attach 进单个、logs 事后翻账。
 
 那张表的关键是那个状态色。它把"哪个会话需要你介入"压缩成一列能一眼扫过的信号——你不必挨个 attach 进去看，扫一眼就知道该先管谁。至于具体哪个颜色对应哪种状态，字符串里只写了"用状态色扫出哪些需要你"，没把颜色到状态的映射写死，本文也不替它下结论。这里还藏着一条会咬人的规则：一个会话如果已经作为后台 agent 在跑，你就没法在别处直接 `--resume` 它。字符串把话说得很清楚——它现在是个后台 agent，去 `claude agents` 里 attach 上它，或者先在那儿把它停掉，才能在这边 resume。同一个会话不允许被两处同时接管，attach 与 resume 是互斥的入口。这条约束本身透出一点：后台会话不是可随便复制的一份状态，它有唯一归属，必须被独占接管，是个活进程。
 

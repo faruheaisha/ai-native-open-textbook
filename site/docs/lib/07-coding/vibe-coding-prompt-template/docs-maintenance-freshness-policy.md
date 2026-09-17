@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/KhazP/vibe-coding-prompt-template"
-entryUrl: "https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/README.md"
+entryUrl: "https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/docs/maintenance/freshness-policy.md"
+sourceRel: "docs/maintenance/freshness-policy.md"
+rawUrl: "/raw/07-coding/vibe-coding-prompt-template/docs/maintenance/freshness-policy.md"
+sourceSha256: "900aa57fc2eac5ec21c49a91ea727df5d09ee5ff3a8649d764b63ae2e8edb4bc"
+pageSha256: "900aa57fc2eac5ec21c49a91ea727df5d09ee5ff3a8649d764b63ae2e8edb4bc"
+contentMode: "local-full"
 zh: ""
 ---
 

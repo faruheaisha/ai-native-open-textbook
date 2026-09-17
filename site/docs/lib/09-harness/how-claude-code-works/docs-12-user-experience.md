@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works"
-entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/README.md"
+entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/12-user-experience.md"
+sourceRel: "docs/12-user-experience.md"
+rawUrl: "/raw/09-harness/how-claude-code-works/docs/12-user-experience.md"
+sourceSha256: "dfccb914e2367d8a4b8f6f7505de8e9af6641059e5014106ae0f226a1429b91d"
+pageSha256: "dfccb914e2367d8a4b8f6f7505de8e9af6641059e5014106ae0f226a1429b91d"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -311,7 +316,7 @@ Spinner 不仅仅是一个"加载中"的指示——它通过视觉变化编码�
 
 旋转字符（`src/components/Spinner/SpinnerGlyph.tsx`）：用一组星芒生长字符 `· ✢ ✳ ✶ ✻ ✽`（随平台略有差异）做正向循环，然后反向循环，形成流畅的来回旋转效果。
 
-停滞指示（`stalledIntensity`）：当模型超过一定时间没有产出新 Token 且没有活跃的工具调用时，`stalledIntensity` 从 0 渐增到 1。这驱动一个从主题色到 `ERROR_RED {r:171, g:43, b:63}` 的平滑 RGB 插值：
+停滞指示（`stalledIntensity`）：当模型超过一定时间没有产出新 Token 且没有活跃的工具调用时，`stalledIntensity` 从 0 渐增到 1。这驱动一个从主题色到 `ERROR_RED \{r:171, g:43, b:63\}` 的平滑 RGB 插值：
 
 ```typescript
 // 平滑颜色过渡：theme color → red
@@ -404,7 +409,7 @@ Diff 组件使用 React `Suspense` 模式——异步加载文件内容和计算
 
 ### 进度消息流
 
-工具在执行过程中可以通过 `yield { type: 'progress', content }` 发射进度事件（例如 Bash 工具流式输出 stdout/stderr）。这些事件沿着流式管线一路传递到 REPL 组件，通过 `renderToolResultMessage(content, progress)` 渲染为工具输出区域的实时更新。
+工具在执行过程中可以通过 `yield \{ type: 'progress', content \}` 发射进度事件（例如 Bash 工具流式输出 stdout/stderr）。这些事件沿着流式管线一路传递到 REPL 组件，通过 `renderToolResultMessage(content, progress)` 渲染为工具输出区域的实时更新。
 
 这意味着运行 `npm install` 时，用户实时看到每一行安装日志，而不是等 30 秒后一次性刷出来。即时反馈直接压下了"Agent 在干嘛？为什么这么久？"的焦虑。
 
@@ -569,7 +574,7 @@ Claude Code 支持用户自定义快捷键，配置文件位于 `~/.claude/keybi
 }
 ```
 
-顶层是 `bindings` 数组，每个元素是一个 `{ context, bindings }` 块：`context` 是枚举值（`Global`/`Chat`/`Confirmation` 等），`bindings` 是「按键序列 → 动作」的映射，动作要么是点分标识（如 `chat:submit`、`app:interrupt`），要么是 `command:xxx` 形式（执行对应斜杠命令）。
+顶层是 `bindings` 数组，每个元素是一个 `\{ context, bindings \}` 块：`context` 是枚举值（`Global`/`Chat`/`Confirmation` 等），`bindings` 是「按键序列 → 动作」的映射，动作要么是点分标识（如 `chat:submit`、`app:interrupt`），要么是 `command:xxx` 形式（执行对应斜杠命令）。
 
 键绑定系统支持三个关键特性：
 
@@ -630,9 +635,9 @@ Claude Code 的 Vim 子集不含 Visual、Command 两种模式——选择与删
 | inner paragraph | ip | 段落内部 |
 | a paragraph | ap | 整个段落（含空行） |
 | inner quotes | i", i' | 引号内部内容 |
-| inner parens | i(, i{ | 括号/花括号内部 |
+| inner parens | i(, i\{ | 括号/花括号内部 |
 
-操作符、移动和文本对象三者可以自由组合，形成强大的编辑语法：`diw` = 删除单词内部，`ci"` = 修改引号内的内容，`ya{` = 复制花括号内（含花括号）的内容。这种组合式设计让少量基本元素就能覆盖大量编辑场景，Vim 用户编辑长提示词时尤其顺手。
+操作符、移动和文本对象三者可以自由组合，形成强大的编辑语法：`diw` = 删除单词内部，`ci"` = 修改引号内的内容，`ya\{` = 复制花括号内（含花括号）的内容。这种组合式设计让少量基本元素就能覆盖大量编辑场景，Vim 用户编辑长提示词时尤其顺手。
 
 ## 14.8 REPL 主界面
 
@@ -835,4 +840,4 @@ Hit Testing 是文本选择的关键技术：Screen Buffer 中的每个 cell 不
 
 ---
 
-上一章：[系统提示词设计](/lib/09-harness/how-claude-code-works/docs-14-system-prompt-design) | 下一章：[最小必要组件](/lib/09-harness/how-claude-code-works/docs-13-minimal-components)
+上一章：[系统提示词设计](/lib/09-harness/how-claude-code-works/docs-14-system-prompt-design/index) | 下一章：[最小必要组件](/lib/09-harness/how-claude-code-works/docs-13-minimal-components)

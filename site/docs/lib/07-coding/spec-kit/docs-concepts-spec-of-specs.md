@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/github/spec-kit"
-entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/README.md"
+entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/docs/concepts/spec-of-specs.md"
+sourceRel: "docs/concepts/spec-of-specs.md"
+rawUrl: "/raw/07-coding/spec-kit/docs/concepts/spec-of-specs.md"
+sourceSha256: "95b067a664d2d3c92c5f9e8d9668dde7c8fb59834f7dba8f51605997a854c5af"
+pageSha256: "95b067a664d2d3c92c5f9e8d9668dde7c8fb59834f7dba8f51605997a854c5af"
+contentMode: "local-full"
 zh: ""
 ---
 

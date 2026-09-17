@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial"
-entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/README.md"
+entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/appendix/B-skills-catalog.md"
+sourceRel: "appendix/B-skills-catalog.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-tutorial/appendix/B-skills-catalog.md"
+sourceSha256: "47eafd7be7e518f9022b738d0b3852afd46b0ff17cbf0780b2b37e6e5c727657"
+pageSha256: "47eafd7be7e518f9022b738d0b3852afd46b0ff17cbf0780b2b37e6e5c727657"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -337,7 +342,7 @@ Docs，实现邮件整理、日程同步、文档自动生成。
 OpenClaw已内置飞书插件支持，无需单独安装Skill。只需配置飞书应用即可使用。
 
 **配置指南**：
-参见[飞书集成配置](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/docs/03-advanced/09-multi-platform-integration.md)
+参见[飞书集成配置](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-03-advanced-09-multi-platform-integration/index)
 
 ### 钉钉集成
 
@@ -346,7 +351,7 @@ OpenClaw已内置飞书插件支持，无需单独安装Skill。只需配置飞�
 **说明**： OpenClaw支持钉钉集成，通过配置钉钉机器人实现。
 
 **配置指南**：
-参见[钉钉集成配置](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/docs/03-advanced/09-multi-platform-integration.md)
+参见[钉钉集成配置](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-03-advanced-09-multi-platform-integration/index)
 
 ### 企业微信集成
 

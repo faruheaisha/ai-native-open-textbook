@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/mattpocock/skills"
-entryUrl: "https://github.com/mattpocock/skills/blob/3cca18b368ae95cdbdebbff572ccafa662551015/README.md"
+entryUrl: "https://github.com/mattpocock/skills/blob/3cca18b368ae95cdbdebbff572ccafa662551015/docs/engineering/ask-matt.md"
+sourceRel: "docs/engineering/ask-matt.md"
+rawUrl: "/raw/10-context-memory/mattpocock-skills/docs/engineering/ask-matt.md"
+sourceSha256: "813a78e29b999d895cbd2e7d95e09339e4d6dbf935c09133ac8dbd8dc3299299"
+pageSha256: "813a78e29b999d895cbd2e7d95e09339e4d6dbf935c09133ac8dbd8dc3299299"
+contentMode: "local-full"
 zh: ""
 ---
 

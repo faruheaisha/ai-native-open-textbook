@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/liyupi/ai-guide"
-entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a02735b38c866/README.md"
+entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a02735b38c866/AI/AI应用场景/AI%20+%20办公效率/DeepSeek%20R1%20+%20个人知识库，直接起飞！.md"
+sourceRel: "AI/AI应用场景/AI + 办公效率/DeepSeek R1 + 个人知识库，直接起飞！.md"
+rawUrl: "/raw/07-coding/liyupi-ai-guide/AI/AI应用场景/AI + 办公效率/DeepSeek R1 + 个人知识库，直接起飞！.md"
+sourceSha256: "21ceaf88856d6b12f4105b32c744b5fcbe4a7d80753573f68b1e70f2e2ba4ea4"
+pageSha256: "21ceaf88856d6b12f4105b32c744b5fcbe4a7d80753573f68b1e70f2e2ba4ea4"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide"
-entryUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/README.md"
+entryUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/docs/resource-evaluations/016-gang-rui-tasks-api-limitations.md"
+sourceRel: "docs/resource-evaluations/016-gang-rui-tasks-api-limitations.md"
+rawUrl: "/raw/09-harness/claude-code-ultimate-guide/docs/resource-evaluations/016-gang-rui-tasks-api-limitations.md"
+sourceSha256: "866753b420579a4dcae2657cccce0af2b4521370dbb0d8f17b387df86413e3a0"
+pageSha256: "866753b420579a4dcae2657cccce0af2b4521370dbb0d8f17b387df86413e3a0"
+contentMode: "local-full"
 zh: ""
 ---
 

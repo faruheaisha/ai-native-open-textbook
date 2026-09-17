@@ -9,6 +9,11 @@ tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know"
 entryUrl: "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/09-harness/claude-code-everything/README.md"
+sourceSha256: "0368bf9c655a50a16d901f9c099819fc5c52d8df874a3f17b465ed37eca922b5"
+pageSha256: "0368bf9c655a50a16d901f9c099819fc5c52d8df874a3f17b465ed37eca922b5"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -324,7 +329,7 @@ That's it — a working slash skill. Promote it to an Agent Skill later by movin
 
 The [full Skills guide in `docs/skills.md`](/lib/09-harness/claude-code-everything/docs-skills) covers:
 
-- The 8 skills shipped here: `/pr`, `/review`, `/tdd`, `/test`, `/five`, `/ux`, `/todo`, plus the Agent Skill [`/claude-md-review`](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/.claude/skills/claude-md-review/SKILL.md)
+- The 8 skills shipped here: `/pr`, `/review`, `/tdd`, `/test`, `/five`, `/ux`, `/todo`, plus the Agent Skill [`/claude-md-review`](/lib/09-harness/claude-code-everything/_claude-skills-claude-md-review-SKILL)
 - Bundled built-in skills (e.g. `/dataviz`, `/debug`, `/keybindings-help`)
 - Slash skills vs Agent Skills, and the [full frontmatter reference](/lib/09-harness/claude-code-everything/docs-skills#frontmatter-reference) — including why `allowed-tools` **grants** permission rather than restricting it
 - Workflow recipes — feature dev with TDD + PR, bug investigation, UX-first dev
@@ -548,15 +553,15 @@ The `description` is what the main session uses to decide when to delegate — k
 | Role | System prompt | Role description |
 |---|---|---|
 | Backend Engineer | [prompt](/lib/09-harness/claude-code-everything/specialized-agents-system-prompts-backend-engineer-prompt) | [description](/lib/09-harness/claude-code-everything/specialized-agents-Descriptions-backend-engineer-description) |
-| Frontend Engineer | [prompt](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/system-prompts/frontend-engineer-prompt.md) | [description](/lib/09-harness/claude-code-everything/specialized-agents-Descriptions-frontend-engineer-description) |
-| Database Engineer | [prompt](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/system-prompts/database-engineer-prompt.md) | [description](/lib/09-harness/claude-code-everything/specialized-agents-Descriptions-database-engineer-description) |
-| Tech Lead | [prompt](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/system-prompts/tech-lead-prompt.md) | [description](/lib/09-harness/claude-code-everything/specialized-agents-Descriptions-tech-lead-description) |
-| Code Reviewer | [prompt](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/system-prompts/code-reviewer-prompt.md) | [description](/lib/09-harness/claude-code-everything/specialized-agents-Descriptions-code-reviewer-description) |
-| Security Reviewer | [prompt](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/system-prompts/security-reviewer-prompt.md) | [description](/lib/09-harness/claude-code-everything/specialized-agents-Descriptions-security-reviewer-description) |
-| UX Engineer | [prompt](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/system-prompts/ux-engineer-prompt.md) | [description](/lib/09-harness/claude-code-everything/specialized-agents-Descriptions-ux-engineer-description) |
-| Design Reviewer | [prompt](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/system-prompts/design-reviewer.md) | — |
-| Project Manager | [prompt](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/system-prompts/project-manager-prompt.md) | [description](/lib/09-harness/claude-code-everything/specialized-agents-Descriptions-project-manager-description) |
-| Business Analyst | [prompt](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/system-prompts/business-analyst-prompt.md) | [description](/lib/09-harness/claude-code-everything/specialized-agents-Descriptions-business-analyst-description) |
+| Frontend Engineer | [prompt](/lib/09-harness/claude-code-everything/specialized-agents-system-prompts-frontend-engineer-prompt) | [description](/lib/09-harness/claude-code-everything/specialized-agents-Descriptions-frontend-engineer-description) |
+| Database Engineer | [prompt](/lib/09-harness/claude-code-everything/specialized-agents-system-prompts-database-engineer-prompt) | [description](/lib/09-harness/claude-code-everything/specialized-agents-Descriptions-database-engineer-description) |
+| Tech Lead | [prompt](/lib/09-harness/claude-code-everything/specialized-agents-system-prompts-tech-lead-prompt) | [description](/lib/09-harness/claude-code-everything/specialized-agents-Descriptions-tech-lead-description) |
+| Code Reviewer | [prompt](/lib/09-harness/claude-code-everything/specialized-agents-system-prompts-code-reviewer-prompt) | [description](/lib/09-harness/claude-code-everything/specialized-agents-Descriptions-code-reviewer-description) |
+| Security Reviewer | [prompt](/lib/09-harness/claude-code-everything/specialized-agents-system-prompts-security-reviewer-prompt) | [description](/lib/09-harness/claude-code-everything/specialized-agents-Descriptions-security-reviewer-description) |
+| UX Engineer | [prompt](/lib/09-harness/claude-code-everything/specialized-agents-system-prompts-ux-engineer-prompt) | [description](/lib/09-harness/claude-code-everything/specialized-agents-Descriptions-ux-engineer-description) |
+| Design Reviewer | [prompt](/lib/09-harness/claude-code-everything/specialized-agents-system-prompts-design-reviewer) | — |
+| Project Manager | [prompt](/lib/09-harness/claude-code-everything/specialized-agents-system-prompts-project-manager-prompt) | [description](/lib/09-harness/claude-code-everything/specialized-agents-Descriptions-project-manager-description) |
+| Business Analyst | [prompt](/lib/09-harness/claude-code-everything/specialized-agents-system-prompts-business-analyst-prompt) | [description](/lib/09-harness/claude-code-everything/specialized-agents-Descriptions-business-analyst-description) |
 
 #### Orchestrating specialists from the main session
 

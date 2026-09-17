@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/gsd-build/get-shit-done"
-entryUrl: "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/README.md"
+entryUrl: "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/agents/gsd-code-reviewer.md"
+sourceRel: "agents/gsd-code-reviewer.md"
+rawUrl: "/raw/10-context-memory/get-shit-done/agents/gsd-code-reviewer.md"
+sourceSha256: "807081bcbbe52e3f523c921c78a7603506b0804fd631e301020b0b2a9ef1b4e4"
+pageSha256: "807081bcbbe52e3f523c921c78a7603506b0804fd631e301020b0b2a9ef1b4e4"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -80,8 +85,8 @@ Patterns checked:
 - Hardcoded secrets: `(password|secret|api_key|token|apikey|api-key)\s*[=:]\s*['"][^'"]+['"]`
 - Dangerous functions: `eval\(|innerHTML|dangerouslySetInnerHTML|exec\(|system\(|shell_exec|passthru`
 - Debug artifacts: `console\.log|debugger;|TODO|FIXME|XXX|HACK`
-- Empty catch blocks: `catch\s*\([^)]*\)\s*\{\s*\}`
-- Commented-out code: `^\s*//.*[{};]|^\s*#.*:|^\s*/\*`
+- Empty catch blocks: `catch\s*\([^)]*\)\s*\\{\s*\\}`
+- Commented-out code: `^\s*//.*[\{\};]|^\s*#.*:|^\s*/\*`
 
 **standard** (default) — Read each changed file. Check for bugs, security issues, and quality problems in context. Cross-reference imports and exports. Target: 5-15 minutes.
 
@@ -263,7 +268,7 @@ For each finding, assign severity:
 &lt;/step>
 
 &lt;step name="write_review">
-**1. Create REVIEW.md** at `review_path` (if provided) or `{phase_dir}/{phase}-REVIEW.md`
+**1. Create REVIEW.md** at `review_path` (if provided) or `\{phase_dir\}/\{phase\}-REVIEW.md`
 
 **2. YAML frontmatter:**
 ```yaml
@@ -327,29 +332,29 @@ The `files_reviewed_list` field is REQUIRED — it preserves the exact file scop
 
 ## Warnings
 
-{If no warnings, omit this section}
+\{If no warnings, omit this section\}
 
-### WR-01: {Issue Title}
+### WR-01: \{Issue Title\}
 
 **File:** `path/to/file.ext:88`
-**Issue:** {Description}
-**Fix:** {Suggestion}
+**Issue:** \{Description\}
+**Fix:** \{Suggestion\}
 
 ## Info
 
-{If no info items, omit this section}
+\{If no info items, omit this section\}
 
-### IN-01: {Issue Title}
+### IN-01: \{Issue Title\}
 
 **File:** `path/to/file.ext:120`
-**Issue:** {Description}
-**Fix:** {Suggestion}
+**Issue:** \{Description\}
+**Fix:** \{Suggestion\}
 
 ---
 
-_Reviewed: {timestamp}_
+_Reviewed: \{timestamp\}_
 _Reviewer: Claude (gsd-code-reviewer)_
-_Depth: {depth}_
+_Depth: \{depth\}_
 ```
 
 **4. Return to orchestrator:** DO NOT commit. Orchestrator handles commit.

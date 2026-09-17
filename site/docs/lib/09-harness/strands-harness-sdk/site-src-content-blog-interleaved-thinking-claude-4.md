@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/strands-agents/harness-sdk"
-entryUrl: "https://github.com/strands-agents/harness-sdk/blob/7bda6c70e71cd07279470268c3d3b3f4b36adf53/README.md"
+entryUrl: "https://github.com/strands-agents/harness-sdk/blob/7bda6c70e71cd07279470268c3d3b3f4b36adf53/site/src/content/blog/interleaved-thinking-claude-4.mdx"
+sourceRel: "site/src/content/blog/interleaved-thinking-claude-4.mdx"
+rawUrl: "/raw/09-harness/strands-harness-sdk/site/src/content/blog/interleaved-thinking-claude-4.mdx"
+sourceSha256: "69f7fdf04ff4d1b2131be7950ea9638d8ccb146f24d313274d883f51c6a7c7d9"
+pageSha256: "69f7fdf04ff4d1b2131be7950ea9638d8ccb146f24d313274d883f51c6a7c7d9"
+contentMode: "local-full"
 zh: ""
 ---
 

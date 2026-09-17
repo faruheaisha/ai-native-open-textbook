@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh"
-entryUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/README.md"
+entryUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/certifications/claude/lessons/00-certification-strategy/docs/zh.md"
+sourceRel: "certifications/claude/lessons/00-certification-strategy/docs/zh.md"
+rawUrl: "/raw/07-coding/ai-engineering-from-scratch-zh/certifications/claude/lessons/00-certification-strategy/docs/zh.md"
+sourceSha256: "a1ef5f9d2ec8cb89f44fbcc62381a97fa5cdc2d153ad4c27885552a976f33185"
+pageSha256: "a1ef5f9d2ec8cb89f44fbcc62381a97fa5cdc2d153ad4c27885552a976f33185"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -271,6 +276,6 @@ python3 -m unittest discover tests -v
 - [Anthropic Partner 认证目录](https://anthropic-partners.skilljar.com/page/partner-certifications)
 - [Anthropic 认证 FAQ](https://anthropic-partners.skilljar.com/page/faq-certifications)
 - [Claude Certified Associate Foundations 考试指南](https://everpath-course-content.s3-accelerate.amazonaws.com/instructor%2F6nizmqk8tpzpfjvt6qmmav7rh%2Fpublic%2F1783542847%2FClaude+Certified+Associate+%E2%80%93+Foundations+Exam+Guide.pdf)
-- [CCAR-F Exact Mechanics Review](https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/certifications/claude/references/ccar-f-exact-mechanics.md)
+- [CCAR-F Exact Mechanics Review](/lib/07-coding/ai-engineering-from-scratch-zh/certifications-claude-references-ccar-f-exact-mechanics)
 - [Prompt 工程：技术与模式](https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/phases/11-llm-engineering/01-prompt-engineering/README.md)
 - [LLM 应用的评估与测试](https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/phases/11-llm-engineering/10-evaluation/README.md)

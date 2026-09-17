@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/shanraisshan/claude-code-best-practice"
-entryUrl: "https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/README.md"
+entryUrl: "https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/agent-teams/agent-teams-prompt.md"
+sourceRel: "agent-teams/agent-teams-prompt.md"
+rawUrl: "/raw/09-harness/claude-code-best-practice/agent-teams/agent-teams-prompt.md"
+sourceSha256: "b1898416034eddca3205c406bebcc332de2f184c95129c247a315edf947d0df1"
+pageSha256: "b1898416034eddca3205c406bebcc332de2f184c95129c247a315edf947d0df1"
+contentMode: "local-full"
 zh: "on"
 ---
 
@@ -47,7 +52,7 @@ Assign these teammates:
    - Include critical requirements: sequential flow, correct tool usage
      (Agent tool for agents, Skill tool for skills), and an output summary
    Coordinate with the other teammates via the shared task list to agree
-   on the data contract ({time, timezone, formatted}) passed between components.
+   on the data contract (\{time, timezone, formatted\}) passed between components.
 
 <div class="tb-zh"><p>1. Command Architect：在 agent-teams/.claude/commands/time-orchestrator.md 中设计并实现 /time-orchestrator 命令。该命令应当：通过 Agent 工具（而不是 bash）调用 time-agent，取回阿联酋迪拜（Asia/Dubai 时区，UTC+4）的当前时间；通过 Skill 工具调用 time-svg-creator skill，用取到的时间数据渲染 SVG 卡片；在 frontmatter 里使用 model: haiku；写明关键要求——流程串行、工具用法正确（agent 用 Agent 工具、skill 用 Skill 工具），并输出一段小结。还要通过共享任务清单与其他队友商定组件之间传递的数据契约（{time, timezone, formatted}）。</p></div>
 
@@ -83,7 +88,7 @@ Assign these teammates:
 <div class="tb-zh"><p>3. Skill Designer：在 agent-teams/.claude/skills/time-svg-creator/SKILL.md 中设计并实现 time-svg-creator skill，并配两个支撑文件：reference.md（SVG 模板与输出模板）和 examples.md（成对的输入/输出示例）。该 skill 应当：从调用上下文接收时间值、时区和格式化字符串；生成一张自包含的迪拜 SVG 时间卡，展示当前时间；把 SVG 写入 agent-teams/output/dubai-time.svg；把 markdown 小结写入 agent-teams/output/output.md；必须使用传入的精确时间，绝不重新取数；模板（带占位符的 SVG 标记与 markdown 输出模板）放在 reference.md 里，示例对放在 examples.md 里。同时创建 agent-teams/output/ 目录用于存放输出文件。</p></div>
 
 All three teammates should create tasks in the shared task list to
-coordinate the data contract: the agent returns {time, timezone, formatted},
+coordinate the data contract: the agent returns \{time, timezone, formatted\},
 the command passes it through context, and the skill consumes it.
 Start all three in parallel since the components are independent —
 they only need to agree on the data interface, not wait on each other's

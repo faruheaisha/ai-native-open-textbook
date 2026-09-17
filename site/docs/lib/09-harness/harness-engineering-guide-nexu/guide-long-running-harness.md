@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/nexu-io/harness-engineering-guide"
-entryUrl: "https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/README.md"
+entryUrl: "https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/long-running-harness.md"
+sourceRel: "guide/long-running-harness.md"
+rawUrl: "/raw/09-harness/harness-engineering-guide-nexu/guide/long-running-harness.md"
+sourceSha256: "656e865bea802b95077716581c8eeba2b715a901e5b60bb45f9f788a7c03cb6b"
+pageSha256: "656e865bea802b95077716581c8eeba2b715a901e5b60bb45f9f788a7c03cb6b"
+contentMode: "local-full"
 zh: ""
 ---
 

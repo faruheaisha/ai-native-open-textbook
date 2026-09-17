@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/langchain-ai/deepagents"
-entryUrl: "https://github.com/langchain-ai/deepagents/blob/d93ab3351bbf4c3687212f665094ccad100f2c08/README.md"
+entryUrl: "https://github.com/langchain-ai/deepagents/blob/d93ab3351bbf4c3687212f665094ccad100f2c08/examples/nvidia_deep_agent/skills/cuml-machine-learning/SKILL.md"
+sourceRel: "examples/nvidia_deep_agent/skills/cuml-machine-learning/SKILL.md"
+rawUrl: "/raw/09-harness/langchain-deepagents/examples/nvidia_deep_agent/skills/cuml-machine-learning/SKILL.md"
+sourceSha256: "7da469f42fa7bc3d6589466c43cee00157af56577bd0d5fe817856f6d86953f2"
+pageSha256: "7da469f42fa7bc3d6589466c43cee00157af56577bd0d5fe817856f6d86953f2"
+contentMode: "local-full"
 zh: ""
 ---
 

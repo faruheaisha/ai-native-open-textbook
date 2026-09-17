@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/Windy3f3f3f3f/claude-code-from-scratch"
-entryUrl: "https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/README.md"
+entryUrl: "https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/docs/08-memory.md"
+sourceRel: "docs/08-memory.md"
+rawUrl: "/raw/09-harness/claude-code-from-scratch/docs/08-memory.md"
+sourceSha256: "d35dc91610d6d2e39b8482f356510b1f82eefb508d11c91dfba69a79a4e7c804"
+pageSha256: "d35dc91610d6d2e39b8482f356510b1f82eefb508d11c91dfba69a79a4e7c804"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -89,7 +94,7 @@ type: feedback
 
 ### 保存与索引
 
-文件名格式 `{type}_{slugified_name}.md` 让文件系统排序时自动按类型分组，人眼扫描也一目了然。每次写入后立即重建索引，保持 MEMORY.md 与文件系统同步。
+文件名格式 `\{type\}_\{slugified_name\}.md` 让文件系统排序时自动按类型分组，人眼扫描也一目了然。每次写入后立即重建索引，保持 MEMORY.md 与文件系统同步。
 
 ### 索引截断
 

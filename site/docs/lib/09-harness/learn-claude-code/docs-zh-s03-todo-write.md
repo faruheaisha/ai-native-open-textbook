@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/shareAI-lab/learn-claude-code"
-entryUrl: "https://github.com/shareAI-lab/learn-claude-code/blob/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/README.md"
+entryUrl: "https://github.com/shareAI-lab/learn-claude-code/blob/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/docs/zh/s03-todo-write.md"
+sourceRel: "docs/zh/s03-todo-write.md"
+rawUrl: "/raw/09-harness/learn-claude-code/docs/zh/s03-todo-write.md"
+sourceSha256: "cf72e8faa2ca69e9d7b40fb953737f0ca5afd8bd6f8d955a8f5c79a39369ff24"
+pageSha256: "cf72e8faa2ca69e9d7b40fb953737f0ca5afd8bd6f8d955a8f5c79a39369ff24"
+contentMode: "local-full"
 zh: ""
 ---
 

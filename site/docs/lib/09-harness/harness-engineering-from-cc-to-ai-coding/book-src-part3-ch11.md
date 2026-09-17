@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding"
-entryUrl: "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding/blob/e40e0feec02b90e308ccbfc7a8911d64118ccca0/README.md"
+entryUrl: "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding/blob/e40e0feec02b90e308ccbfc7a8911d64118ccca0/book/src/part3/ch11.md"
+sourceRel: "book/src/part3/ch11.md"
+rawUrl: "/raw/09-harness/harness-engineering-from-cc-to-ai-coding/book/src/part3/ch11.md"
+sourceSha256: "67fa6cbbf836372e24eddb3ea549d436dfc6fe886ec920601733b4431391848a"
+pageSha256: "67fa6cbbf836372e24eddb3ea549d436dfc6fe886ec920601733b4431391848a"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -440,7 +445,7 @@ thinking 策略的三个分支：
 | 条件 | 行为 | 原因 |
 |------|------|------|
 | `hasThinking && !isRedactThinkingActive && !clearAllThinking` | `keep: 'all'` | 保留所有 thinking（正常工作状态） |
-| `hasThinking && !isRedactThinkingActive && clearAllThinking` | `keep: { type: 'thinking_turns', value: 1 }` | 只保留最后 1 轮 thinking（超过 1 小时空闲 = 缓存失效） |
+| `hasThinking && !isRedactThinkingActive && clearAllThinking` | `keep: \{ type: 'thinking_turns', value: 1 \}` | 只保留最后 1 轮 thinking（超过 1 小时空闲 = 缓存失效） |
 | `isRedactThinkingActive` | 不添加策略 | redacted thinking 块没有模型可见内容，无需管理 |
 
 注意 `clearAllThinking` 时 value 设为 1 而不是 0——源码注释（第 81 行）解释："the API schema requires value >= 1, and omitting the edit falls back to the model-policy default (often 'all'), which wouldn't clear."

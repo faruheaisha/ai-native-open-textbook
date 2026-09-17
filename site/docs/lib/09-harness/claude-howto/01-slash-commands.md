@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/luongnv89/claude-howto"
-entryUrl: "https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/README.md"
+entryUrl: "https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/01-slash-commands/README.md"
+sourceRel: "01-slash-commands/README.md"
+rawUrl: "/raw/09-harness/claude-howto/01-slash-commands/README.md"
+sourceSha256: "8ee8972d28462d9c5b0537135e5b84ea8b77d8fc3b9eb79c13c2e9816f5d7f48"
+pageSha256: "8ee8972d28462d9c5b0537135e5b84ea8b77d8fc3b9eb79c13c2e9816f5d7f48"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -23,7 +28,7 @@ Slash commands are shortcuts that control Claude's behavior during an interactiv
 - **Plugin commands**: Commands from installed plugins (`/frontend-design:frontend-design`)
 - **MCP prompts**: Commands from MCP servers (`/mcp__github__list_prs`)
 
-> **Note**: Custom slash commands have been merged into skills. Files in `.claude/commands/` still work, but skills (`.claude/skills/`) are now the recommended approach. Both create `/command-name` shortcuts. See the [Skills Guide](https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/03-skills/README.md) for the full reference.
+> **Note**: Custom slash commands have been merged into skills. Files in `.claude/commands/` still work, but skills (`.claude/skills/`) are now the recommended approach. Both create `/command-name` shortcuts. See the [Skills Guide](/lib/09-harness/claude-howto/03-skills) for the full reference.
 
 ## Built-in Commands Reference
 
@@ -112,7 +117,7 @@ Built-in commands are shortcuts for common actions. There are **60+ built-in com
 | `/upgrade` | Open upgrade page for higher plan tier |
 | `/usage` | Canonical usage dashboard (v2.1.118) — combines plan usage limits, rate limits, cost, and daily session stats. `/cost` and `/stats` are typing-shortcut aliases that open specific tabs |
 | `/voice` | Toggle push-to-talk voice dictation |
-| `/workflows` | View running and completed dynamic workflow runs (added v2.1.154). See [Dynamic Workflows](https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/09-advanced-features/README.md#dynamic-workflows) |
+| `/workflows` | View running and completed dynamic workflow runs (added v2.1.154). See [Dynamic Workflows](/lib/09-harness/claude-howto/09-advanced-features/index#dynamic-workflows) |
 
 > **Why `/cd` matters:** changing directories used to lose cache warmth (making the next turn slower and costlier); `/cd` preserves the prompt cache across the switch.
 
@@ -218,9 +223,9 @@ claude /team-onboarding
 The generated guide summarizes:
 
 - Project purpose and key conventions from [`CLAUDE.md`](/lib/09-harness/claude-howto/02-memory)
-- Available [skills](https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/03-skills/README.md) and when they are auto-invoked
-- Configured [subagents](https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/04-subagents/README.md) and their responsibilities
-- [Hooks](https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/06-hooks/README.md) that run on common events
+- Available [skills](/lib/09-harness/claude-howto/03-skills) and when they are auto-invoked
+- Configured [subagents](/lib/09-harness/claude-howto/04-subagents) and their responsibilities
+- [Hooks](/lib/09-harness/claude-howto/06-hooks) that run on common events
 - Common workflows newcomers should know about
 
 **Availability:** Shipped in Claude Code v2.1.101 (April 11, 2026).
@@ -330,7 +335,7 @@ Review PR #$0 with priority $1
 
 Usage: `/review-pr 456 high` → `$0`="456", `$1`="high"
 
-`${CLAUDE_PROJECT_DIR}` resolves to the absolute path of the project root (v2.1.196).
+`$\{CLAUDE_PROJECT_DIR\}` resolves to the absolute path of the project root (v2.1.196).
 
 ### Dynamic Context with Shell Commands
 

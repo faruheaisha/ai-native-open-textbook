@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/affaan-m/ECC"
-entryUrl: "https://github.com/affaan-m/ECC/blob/928c1dea72f5c330442fc1f595563398b8f389f7/README.md"
+entryUrl: "https://github.com/affaan-m/ECC/blob/928c1dea72f5c330442fc1f595563398b8f389f7/agents/e2e-runner.md"
+sourceRel: "agents/e2e-runner.md"
+rawUrl: "/raw/09-harness/ecc/agents/e2e-runner.md"
+sourceSha256: "94811f4bbc491c351cdf220ab103d6bd251fb1d88d9d46ba4c8162637a236a5b"
+pageSha256: "94811f4bbc491c351cdf220ab103d6bd251fb1d88d9d46ba4c8162637a236a5b"
+contentMode: "local-full"
 zh: ""
 ---
 

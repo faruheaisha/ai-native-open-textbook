@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/xai-org/grok-build"
-entryUrl: "https://github.com/xai-org/grok-build/blob/37949780c144e37df692e3d669051a21fec24f20/README.md"
+entryUrl: "https://github.com/xai-org/grok-build/blob/37949780c144e37df692e3d669051a21fec24f20/crates/codegen/xai-grok-agent/README.md"
+sourceRel: "crates/codegen/xai-grok-agent/README.md"
+rawUrl: "/raw/09-harness/grok-build/crates/codegen/xai-grok-agent/README.md"
+sourceSha256: "a282a96f22b83f042a7906af528becdda924e48df40dfca37fb55d018a9aa1eb"
+pageSha256: "a282a96f22b83f042a7906af528becdda924e48df40dfca37fb55d018a9aa1eb"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -143,7 +148,7 @@ Date: ${{ current_date }}
 ```
 
 With `promptMode: full`, the body IS the complete system prompt,
-rendered through MiniJinja with custom <code v-pre>${{ }}</code>/`${% %}` delimiters
+rendered through MiniJinja with custom <code v-pre>${{ }}</code>/`${% %\}` delimiters
 (to avoid collisions with literal <code v-pre>{{ }}</code> in prose).
 
 ### With completion requirement (orchestrated mode)
@@ -192,13 +197,13 @@ All frontmatter keys use **camelCase**.
 | `bash.timeoutSecs` | `float` | No | `120.0` | Bash command timeout |
 | `bash.outputByteLimit` | `int` | No | `200000` | Max output bytes |
 | `bash.cmdPrefix` | `string` | No | `null` | Command prefix |
-| `toolNameOverrides` | `map<string,string>` | No | `{}` | Canonical → model-facing name map |
-| `paramNameOverrides` | `map<string,map>` | No | `{}` | Per-tool param name map |
+| `toolNameOverrides` | `map<string,string>` | No | `\{\}` | Canonical → model-facing name map |
+| `paramNameOverrides` | `map<string,map>` | No | `\{\}` | Per-tool param name map |
 | `completionRequirement` | `object` | No | `null` | Tool that must be called before turn ends |
 | `completionRequirement.tool` | `string` | Yes* | — | Canonical tool name |
 | `completionRequirement.reminder` | `string` | Yes* | — | Reminder text when not called |
 | `completionRequirement.recovery` | `object` | No | `null` | Recovery policy for the harness |
-| `toolConfig` | `map<string,object>` | No | `{}` | Per-tool execution config |
+| `toolConfig` | `map<string,object>` | No | `\{\}` | Per-tool execution config |
 | `toolConfig.*.retry` | `object` | No | `null` | Retry config for a tool |
 
 *Required only when `completionRequirement` is set.
@@ -221,21 +226,21 @@ promptMode: extend                     promptMode: full
 | Variable | Description |
 |---|---|
 | <code v-pre>${{ tools.read_file }}</code> | Resolved name for `read_file` (or empty if disabled) |
-| <code v-pre>${{ tools.search_replace }}</code> | Resolved name for `search_replace` |
+| <code v-pre>${\{ tools.search_replace }}</code> | Resolved name for `search_replace` |
 | <code v-pre>${{ tools.run_terminal_cmd }}</code> | Resolved name for `run_terminal_cmd` |
-| <code v-pre>${{ tools.grep }}</code> | Resolved name for `grep` |
+| <code v-pre>${\{ tools.grep }}</code> | Resolved name for `grep` |
 | <code v-pre>${{ tools.list_dir }}</code> | Resolved name for `list_dir` |
-| <code v-pre>${{ tools.todo_write }}</code> | Resolved name for `todo_write` |
+| <code v-pre>${\{ tools.todo_write }}</code> | Resolved name for `todo_write` |
 | <code v-pre>${{ tools.skill }}</code> | Resolved name for `skill` |
-| <code v-pre>${{ tools.get_task_output }}</code> | Resolved name for `get_task_output` |
+| <code v-pre>${\{ tools.get_task_output }}</code> | Resolved name for `get_task_output` |
 | <code v-pre>${{ tools.kill_task }}</code> | Resolved name for `kill_task` |
-| <code v-pre>${{ tools.web_search }}</code> | Resolved name for `web_search` |
+| <code v-pre>${\{ tools.web_search }}</code> | Resolved name for `web_search` |
 | <code v-pre>${{ os_name }}</code> | Operating system (e.g. `"macos"`, `"linux"`) |
-| <code v-pre>${{ shell_path }}</code> | Shell path (e.g. `"/bin/zsh"`) |
+| <code v-pre>${\{ shell_path }}</code> | Shell path (e.g. `"/bin/zsh"`) |
 | <code v-pre>${{ working_directory }}</code> | Workspace path |
-| <code v-pre>${{ current_date }}</code> | Current date in the user's local timezone (`YYYY-MM-DD`) |
+| <code v-pre>${\{ current_date }}</code> | Current date in the user's local timezone (`YYYY-MM-DD`) |
 
-Conditionals: `${%- if tools.todo_write %}...${%- endif %}` — block
+Conditionals: `${%- if tools.todo_write %}...${%- endif %\}` — block
 is omitted when the tool is disabled.
 
 ## Discovery Rules

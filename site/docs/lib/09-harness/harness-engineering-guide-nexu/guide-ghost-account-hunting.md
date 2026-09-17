@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/nexu-io/harness-engineering-guide"
-entryUrl: "https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/README.md"
+entryUrl: "https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/ghost-account-hunting.md"
+sourceRel: "guide/ghost-account-hunting.md"
+rawUrl: "/raw/09-harness/harness-engineering-guide-nexu/guide/ghost-account-hunting.md"
+sourceSha256: "5ab2f142a399751ea7222cd68ef77daa12eb6446d78dec361a943a5c56064d47"
+pageSha256: "5ab2f142a399751ea7222cd68ef77daa12eb6446d78dec361a943a5c56064d47"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/jamwithai/production-agentic-rag-course"
-entryUrl: "https://github.com/jamwithai/production-agentic-rag-course/blob/424a0eb99edf841994f2a9a053912b489d2a94ff/README.md"
+entryUrl: "https://github.com/jamwithai/production-agentic-rag-course/blob/424a0eb99edf841994f2a9a053912b489d2a94ff/notebooks/week5/README.md"
+sourceRel: "notebooks/week5/README.md"
+rawUrl: "/raw/08-agents/production-agentic-rag-course/notebooks/week5/README.md"
+sourceSha256: "05b95c2f737473aa12b52faf47ae87db871a9684ab5d8cac662329b351628ad8"
+pageSha256: "05b95c2f737473aa12b52faf47ae87db871a9684ab5d8cac662329b351628ad8"
+contentMode: "local-full"
 zh: ""
 ---
 

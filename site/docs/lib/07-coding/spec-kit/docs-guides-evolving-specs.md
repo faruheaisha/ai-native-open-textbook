@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/github/spec-kit"
-entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/README.md"
+entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/docs/guides/evolving-specs.md"
+sourceRel: "docs/guides/evolving-specs.md"
+rawUrl: "/raw/07-coding/spec-kit/docs/guides/evolving-specs.md"
+sourceSha256: "8a1dfbc3f20f470f082ea75c9614e2f6992102b148870ddcfa1e2ba6ce93e978"
+pageSha256: "8a1dfbc3f20f470f082ea75c9614e2f6992102b148870ddcfa1e2ba6ce93e978"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -25,7 +30,7 @@ Existing projects need two separate maintenance loops:
 - **Feature artifact evolution** keeps repository-specific `specs/` artifacts
   aligned with the code and product behavior you intend to ship.
 
-Use the [upgrade workflow](https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/docs/upgrade.md) when you need newer Spec Kit project
+Use the [upgrade workflow](/lib/07-coding/spec-kit/docs-upgrade) when you need newer Spec Kit project
 files. Use one of the artifact persistence models below when requirements or
 implementation insights change an existing project.
 

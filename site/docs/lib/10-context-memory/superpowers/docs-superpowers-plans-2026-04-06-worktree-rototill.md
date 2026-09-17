@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/obra/superpowers"
-entryUrl: "https://github.com/obra/superpowers/blob/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/README.md"
+entryUrl: "https://github.com/obra/superpowers/blob/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/docs/superpowers/plans/2026-04-06-worktree-rototill.md"
+sourceRel: "docs/superpowers/plans/2026-04-06-worktree-rototill.md"
+rawUrl: "/raw/10-context-memory/superpowers/docs/superpowers/plans/2026-04-06-worktree-rototill.md"
+sourceSha256: "98d21b8bbbee1d7359aaf65ba74a9f1313d9f5114000613301a00244a415f61f"
+pageSha256: "98d21b8bbbee1d7359aaf65ba74a9f1313d9f5114000613301a00244a415f61f"
+contentMode: "local-full"
 zh: ""
 ---
 

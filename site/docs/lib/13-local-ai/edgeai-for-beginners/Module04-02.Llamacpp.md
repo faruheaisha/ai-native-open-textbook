@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "13-local-ai"
 sourceUrl: "https://github.com/microsoft/edgeai-for-beginners"
-entryUrl: "https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/README.md"
+entryUrl: "https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/Module04/02.Llamacpp.md"
+sourceRel: "Module04/02.Llamacpp.md"
+rawUrl: "/raw/13-local-ai/edgeai-for-beginners/Module04/02.Llamacpp.md"
+sourceSha256: "de73a7631516e6dd199ef43d8212806e2d74d4479a4d764017489c26519a8935"
+pageSha256: "de73a7631516e6dd199ef43d8212806e2d74d4479a4d764017489c26519a8935"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/Osly-AI/PocketManus"
-entryUrl: "https://github.com/Osly-AI/PocketManus/blob/8ab0ec5f2d5dc17ff58b060af7afcda08a9f57fd/README.md"
+entryUrl: "https://github.com/Osly-AI/PocketManus/blob/8ab0ec5f2d5dc17ff58b060af7afcda08a9f57fd/PocketFlow/docs/core_abstraction/parallel.md"
+sourceRel: "PocketFlow/docs/core_abstraction/parallel.md"
+rawUrl: "/raw/08-agents/pocket-manus/PocketFlow/docs/core_abstraction/parallel.md"
+sourceSha256: "9184e3fe3797bad9fb6e0923daacc5fc89ab3edfa475b80c176f433619d6d6b8"
+pageSha256: "9184e3fe3797bad9fb6e0923daacc5fc89ab3edfa475b80c176f433619d6d6b8"
+contentMode: "local-full"
 zh: ""
 ---
 

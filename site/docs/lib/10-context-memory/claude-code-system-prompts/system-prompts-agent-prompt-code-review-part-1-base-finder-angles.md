@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/Piebald-AI/claude-code-system-prompts"
-entryUrl: "https://github.com/Piebald-AI/claude-code-system-prompts/blob/3af4c6139aaabb0470440961ca8c8fb871099234/README.md"
+entryUrl: "https://github.com/Piebald-AI/claude-code-system-prompts/blob/3af4c6139aaabb0470440961ca8c8fb871099234/system-prompts/agent-prompt-code-review-part-1-base-finder-angles.md"
+sourceRel: "system-prompts/agent-prompt-code-review-part-1-base-finder-angles.md"
+rawUrl: "/raw/10-context-memory/claude-code-system-prompts/system-prompts/agent-prompt-code-review-part-1-base-finder-angles.md"
+sourceSha256: "0695cae32388d618a188556136b4a886f586850b1344784020528b53b77dfe83"
+pageSha256: "0695cae32388d618a188556136b4a886f586850b1344784020528b53b77dfe83"
+contentMode: "local-full"
 zh: ""
 ---
 

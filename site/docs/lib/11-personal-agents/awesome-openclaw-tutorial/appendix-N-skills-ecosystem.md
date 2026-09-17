@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial"
-entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/README.md"
+entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/appendix/N-skills-ecosystem.md"
+sourceRel: "appendix/N-skills-ecosystem.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-tutorial/appendix/N-skills-ecosystem.md"
+sourceSha256: "91d6992934a87d812476892d9d6c1e1df4a3d80995aaab9afa2fe449895e9ec0"
+pageSha256: "91d6992934a87d812476892d9d6c1e1df4a3d80995aaab9afa2fe449895e9ec0"
+contentMode: "local-full"
 zh: ""
 ---
 

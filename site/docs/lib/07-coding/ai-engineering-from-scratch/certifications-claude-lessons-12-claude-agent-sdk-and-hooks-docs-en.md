@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/rohitg00/ai-engineering-from-scratch"
-entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/README.md"
+entryUrl: "https://github.com/rohitg00/ai-engineering-from-scratch/blob/d18b8fe5a913c46011a3b06cb6ebd6a924414fd3/certifications/claude/lessons/12-claude-agent-sdk-and-hooks/docs/en.md"
+sourceRel: "certifications/claude/lessons/12-claude-agent-sdk-and-hooks/docs/en.md"
+rawUrl: "/raw/07-coding/ai-engineering-from-scratch/certifications/claude/lessons/12-claude-agent-sdk-and-hooks/docs/en.md"
+sourceSha256: "41c3eb4fd75af8bf81fad869652d4b328a98fb592acd65bf14cf5f8f41e7bcc3"
+pageSha256: "41c3eb4fd75af8bf81fad869652d4b328a98fb592acd65bf14cf5f8f41e7bcc3"
+contentMode: "local-full"
 zh: ""
 ---
 

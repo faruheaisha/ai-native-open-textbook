@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/revfactory/harness"
-entryUrl: "https://github.com/revfactory/harness/blob/cceac68ea1d0ad198ef4b7b906cd238375836387/README.md"
+entryUrl: "https://github.com/revfactory/harness/blob/cceac68ea1d0ad198ef4b7b906cd238375836387/skills/harness/references/skill-writing-guide.md"
+sourceRel: "skills/harness/references/skill-writing-guide.md"
+rawUrl: "/raw/09-harness/meta-skill-harness-revfactory/skills/harness/references/skill-writing-guide.md"
+sourceSha256: "5d7a883f5b451a69d35f6d1f354e1a67c9f92d9bb7d0acb31ccf1ccdf663215b"
+pageSha256: "5d7a883f5b451a69d35f6d1f354e1a67c9f92d9bb7d0acb31ccf1ccdf663215b"
+contentMode: "local-full"
 zh: ""
 ---
 

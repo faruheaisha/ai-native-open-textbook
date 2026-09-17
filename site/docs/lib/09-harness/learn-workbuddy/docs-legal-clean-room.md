@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/adongwanai/learn-workbuddy"
-entryUrl: "https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/README.md"
+entryUrl: "https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/docs/legal/clean-room.md"
+sourceRel: "docs/legal/clean-room.md"
+rawUrl: "/raw/09-harness/learn-workbuddy/docs/legal/clean-room.md"
+sourceSha256: "fa0f66d05fa6b6a10285ede4896a63ab1b4b2c186d9f209b836bd41085150dfb"
+pageSha256: "fa0f66d05fa6b6a10285ede4896a63ab1b4b2c186d9f209b836bd41085150dfb"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "04-work"
 sourceUrl: "https://github.com/coze-dev/coze-loop"
-entryUrl: "https://github.com/coze-dev/coze-loop/blob/5f1e4c234fc110c1bf674e882a6fd02109e1e1e6/README.md"
+entryUrl: "https://github.com/coze-dev/coze-loop/blob/5f1e4c234fc110c1bf674e882a6fd02109e1e1e6/docs/guidance/deployment-guide.md"
+sourceRel: "docs/guidance/deployment-guide.md"
+rawUrl: "/raw/04-work/coze-loop/docs/guidance/deployment-guide.md"
+sourceSha256: "533e80696f58b119372fe5e928a997d703d4cdf5b8fafbd2d1475f7a766b3486"
+pageSha256: "533e80696f58b119372fe5e928a997d703d4cdf5b8fafbd2d1475f7a766b3486"
+contentMode: "local-full"
 zh: ""
 ---
 

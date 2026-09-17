@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "10-context-memory"
 sourceUrl: "https://github.com/huggingface/mcp-course"
-entryUrl: "https://github.com/huggingface/mcp-course/blob/e706ccc0d7abe73c31813979c3451c0e31c8a464/README.md"
+entryUrl: "https://github.com/huggingface/mcp-course/blob/e706ccc0d7abe73c31813979c3451c0e31c8a464/units/en/unit2/gradio-server.mdx"
+sourceRel: "units/en/unit2/gradio-server.mdx"
+rawUrl: "/raw/10-context-memory/huggingface-mcp-course/units/en/unit2/gradio-server.mdx"
+sourceSha256: "ec3a4bcce9ca94c8356464eeaa0751aa8edf5fa021326ec73a6f29dfa3514db1"
+pageSha256: "ec3a4bcce9ca94c8356464eeaa0751aa8edf5fa021326ec73a6f29dfa3514db1"
+contentMode: "local-full"
 zh: "on"
 ---
 
@@ -186,17 +191,17 @@ You can test the server in two ways:
 <div class="tb-zh"><p>3. SSE 支持：部分 MCP 客户端不支持基于 SSE 的 MCP 服务端；遇到这种情况，请使用 mcp-remote。</p></div>
 
      ```json
-     {
-       "mcpServers": {
-         "gradio": {
+     \{
+       "mcpServers": \{
+         "gradio": \{
            "command": "npx",
            "args": [
              "mcp-remote",
              "http://localhost:7860/gradio_api/mcp/sse"
            ]
-         }
-       }
-     }
+         \}
+       \}
+     \}
      ```
 
 4. **Connection Issues**:

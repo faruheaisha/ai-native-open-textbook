@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/google-gemini/cookbook"
-entryUrl: "https://github.com/google-gemini/cookbook/blob/a1b990c859a34823c982f70edaff35b830511c64/README.md"
+entryUrl: "https://github.com/google-gemini/cookbook/blob/a1b990c859a34823c982f70edaff35b830511c64/tools/nb_tester/Design.md"
+sourceRel: "tools/nb_tester/Design.md"
+rawUrl: "/raw/08-agents/gemini-cookbook/tools/nb_tester/Design.md"
+sourceSha256: "6296279ffa4b039a852caf6c013757faf1746e879543523f3113ea69e5d49ee4"
+pageSha256: "6296279ffa4b039a852caf6c013757faf1746e879543523f3113ea69e5d49ee4"
+contentMode: "local-full"
 zh: ""
 ---
 

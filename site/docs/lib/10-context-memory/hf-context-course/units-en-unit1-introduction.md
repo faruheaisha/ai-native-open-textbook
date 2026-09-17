@@ -1,0 +1,84 @@
+---
+title: "Unit 1: Agent Skills"
+sourceId: "10-context-memory/hf-context-course"
+sourceTitle: "The Context Course"
+sourceKind: "系统课程"
+licenseLabel: "仅引用"
+lang: "英文"
+tier: 1
+volume: "10-context-memory"
+sourceUrl: "https://github.com/huggingface/context-course"
+entryUrl: "https://github.com/huggingface/context-course/blob/0448a7ca721a63a81531e1ba94f46f897c70645b/units/en/unit1/introduction.mdx"
+sourceRel: "units/en/unit1/introduction.mdx"
+rawUrl: "/raw/10-context-memory/hf-context-course/units/en/unit1/introduction.mdx"
+sourceSha256: "ed356622f209737d01d0ec73a8828f82fa0c13c8442dfffeca3b3749f171bf05"
+pageSha256: "ed356622f209737d01d0ec73a8828f82fa0c13c8442dfffeca3b3749f171bf05"
+contentMode: "local-full"
+zh: ""
+---
+
+# Unit 1: Agent Skills
+
+**Agent skills** are the foundational building block of agent context. This unit covers what they are, how they're structured, and how to install and write them.
+
+## Why Context Engineering Matters
+
+Without the right context, even a capable agent is working blind. It fills gaps with guesses, asks questions it shouldn't need to ask, and wastes time on work that has to be redone. They can start failing on ordinary tasks instead of just hard tasks. Instead of needing a better model, the agent needs better context.
+
+For example, ask Claude Code to "publish a dataset to Hugging Face" with no extra context, and the agent has to guess at authentication, schema, and required fields. It may get stuck, ask clarifying questions, or fill in plausible but wrong values. This wastes time and tokens.
+
+Give the same agent authentication instructions, the dataset schema, the API format, and pointers to common pitfalls, and the task finishes faster and more reliably.
+
+>[!TIP]
+> Code agents are only as good as the context you give them.
+>
+> Context engineering is the practice of structuring that context so the agent can find and use it.
+
+This principle runs through the rest of the course. It's the same reason communities publish shared contexts and teams invest in keeping their documentation close to the agent.
+
+## What Are Agent Skills?
+
+A **skill** is a self-contained package of knowledge that makes an agent good at one specific task. Skills are portable across projects and agents, reusable once installed, structured in a format agents can parse, and extensible through links to scripts and APIs.
+
+A skill is essentially an onboarding document for an agent: the same kind of step-by-step guide you'd give a new colleague, but written so the agent can load it on demand.
+
+They typically exist in the form of a directory that contains a `SKILL.md` markdown document with metadata and instructions. The directory is usually filled with key metadata, scripts and references that vary between different types of skills.
+
+## From Prompts to Portable Knowledge
+
+Skills differ from long prompts in one key way: they are structured, reusable, and discoverable. They live beyond a single conversation and can be loaded only when relevant. The next lesson goes deeper on this.
+
+## What You'll Learn in Unit 1
+
+By the end of this unit, you'll understand what skills are and why they matter, the Agent Skills Specification (the open standard for skill structure), the SKILL.md format, how to use skills with agents, how to build your first skill from scratch, and how to debug them when they don't work.
+
+## The Agent Skills Specification
+
+There's a formal standard for how skills are structured, called the **Agent Skills Specification**, maintained at [agentskills.io](https://agentskills.io).
+
+>[!TIP]
+> The Agent Skills Specification defines a portable format for packaging agent knowledge, originally created by Anthropic and now adopted by 30+ code agents worldwide.
+
+This spec ensures:
+- Skills work across different agents and platforms
+- Agents can automatically discover and load relevant skills
+- Communities can share and improve skills together
+- Tools and platforms can be built to support skill workflows
+
+## Why Skills Matter
+
+Without skills, context engineering looks like long repetitive prompts in every conversation, scattered wiki pages, and team members rebuilding the same context independently. With skills, context is defined once, updated in one place, composable across domains, and loaded by the agent on demand.
+
+## Prerequisites for Unit 1
+
+Before diving in, make sure you have:
+- A code agent set up (Claude Code, Codex, or open source)
+- Python installed for running helper scripts
+- A Hugging Face account
+- Familiarity with the command line
+
+If you're not set up yet, go back to Unit 0 and complete the tool setup section.
+
+## Key Takeaways
+
+Skills are portable, structured context that make agents better at specific tasks. They follow the Agent Skills Specification for cross-agent compatibility, and they sit at the heart of context engineering.

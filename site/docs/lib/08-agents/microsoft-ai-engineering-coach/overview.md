@@ -9,6 +9,11 @@ tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/microsoft/AI-Engineering-Coach"
 entryUrl: "https://github.com/microsoft/AI-Engineering-Coach/blob/18b1a3d16b586c171426c6a407cc5c2dc073556e/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/08-agents/microsoft-ai-engineering-coach/README.md"
+sourceSha256: "9a8a93d657c8d691fee73ddbbe6d2efeb48469d0f2a03b0a9ed4eb54c5f485c1"
+pageSha256: "9a8a93d657c8d691fee73ddbbe6d2efeb48469d0f2a03b0a9ed4eb54c5f485c1"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -128,7 +133,7 @@ After install:
 
 The same dashboard also runs as a canvas inside the GitHub Copilot app, so you do not need VS Code to use it.
 
-A canvas is an interactive side panel in the GitHub Copilot app. Rather than replying only in chat, the agent can open a canvas to show rich, task-specific UI that you view and interact with directly while you keep working. Extensions register their own canvases, and this repo ships one named **AI Engineer Coach** under [`.github/extensions/ai-engineer-coach/`](https://github.com/microsoft/AI-Engineering-Coach/blob/18b1a3d16b586c171426c6a407cc5c2dc073556e/.github/extensions/ai-engineer-coach/README.md). It reuses the exact webview bundle from the VS Code extension and parses your local session logs in process, so nothing leaves your machine.
+A canvas is an interactive side panel in the GitHub Copilot app. Rather than replying only in chat, the agent can open a canvas to show rich, task-specific UI that you view and interact with directly while you keep working. Extensions register their own canvases, and this repo ships one named **AI Engineer Coach** under [`.github/extensions/ai-engineer-coach/`](/lib/08-agents/microsoft-ai-engineering-coach/_github-extensions-ai-engineer-coach). It reuses the exact webview bundle from the VS Code extension and parses your local session logs in process, so nothing leaves your machine.
 
 To open it:
 

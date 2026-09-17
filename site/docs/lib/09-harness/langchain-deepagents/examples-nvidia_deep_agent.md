@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/langchain-ai/deepagents"
-entryUrl: "https://github.com/langchain-ai/deepagents/blob/d93ab3351bbf4c3687212f665094ccad100f2c08/README.md"
+entryUrl: "https://github.com/langchain-ai/deepagents/blob/d93ab3351bbf4c3687212f665094ccad100f2c08/examples/nvidia_deep_agent/README.md"
+sourceRel: "examples/nvidia_deep_agent/README.md"
+rawUrl: "/raw/09-harness/langchain-deepagents/examples/nvidia_deep_agent/README.md"
+sourceSha256: "3aa3e7183940b0b3daeda0b5b608b0d6e4af51785d1a5cd672c1f33a73d700d6"
+pageSha256: "3aa3e7183940b0b3daeda0b5b608b0d6e4af51785d1a5cd672c1f33a73d700d6"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -90,7 +95,7 @@ uv run langgraph dev --allow-blocking
 
 ## GPU vs CPU Sandbox Switching
 
-The agent supports runtime switching between GPU and CPU sandboxes via `context_schema`. Pass `context={"sandbox_type": "gpu"}` or `context={"sandbox_type": "cpu"}` when invoking. In Studio you can change this by clicking the manage assistants button on the bottom left.
+The agent supports runtime switching between GPU and CPU sandboxes via `context_schema`. Pass `context=\{"sandbox_type": "gpu"\}` or `context=\{"sandbox_type": "cpu"\}` when invoking. In Studio you can change this by clicking the manage assistants button on the bottom left.
 
 GPU mode uses the NVIDIA RAPIDS Docker image with an A10G GPU. CPU mode uses a lightweight image with pandas, numpy, and scipy.
 

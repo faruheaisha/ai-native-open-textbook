@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/openai/openai-cookbook"
-entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/README.md"
+entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/articles/gpt-oss/run-vllm.md"
+sourceRel: "articles/gpt-oss/run-vllm.md"
+rawUrl: "/raw/08-agents/openai-cookbook/articles/gpt-oss/run-vllm.md"
+sourceSha256: "12b32287ec789ecba7b7a83a4000d3681a9a41cf32130714a002bc989dfa524c"
+pageSha256: "12b32287ec789ecba7b7a83a4000d3681a9a41cf32130714a002bc989dfa524c"
+contentMode: "local-full"
 zh: ""
 ---
 

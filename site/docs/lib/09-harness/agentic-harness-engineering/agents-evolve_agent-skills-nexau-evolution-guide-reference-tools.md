@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering"
-entryUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering/blob/8b2a55d97590363fe50c3cc6b5e833b020a4bb4c/README.md"
+entryUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering/blob/8b2a55d97590363fe50c3cc6b5e833b020a4bb4c/agents/evolve_agent/skills/nexau-evolution-guide/reference/tools.md"
+sourceRel: "agents/evolve_agent/skills/nexau-evolution-guide/reference/tools.md"
+rawUrl: "/raw/09-harness/agentic-harness-engineering/agents/evolve_agent/skills/nexau-evolution-guide/reference/tools.md"
+sourceSha256: "fb0bb4a3568a330287dc13bd207a5e36d8c67a4c27a7675cb712564798196d8d"
+pageSha256: "fb0bb4a3568a330287dc13bd207a5e36d8c67a4c27a7675cb712564798196d8d"
+contentMode: "local-full"
 zh: ""
 ---
 

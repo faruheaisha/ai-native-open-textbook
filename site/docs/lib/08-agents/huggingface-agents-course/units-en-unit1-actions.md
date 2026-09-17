@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "08-agents"
 sourceUrl: "https://github.com/huggingface/agents-course"
-entryUrl: "https://github.com/huggingface/agents-course/blob/b3946b1d09d29c65736e219d48a8a736a2c52154/README.md"
+entryUrl: "https://github.com/huggingface/agents-course/blob/b3946b1d09d29c65736e219d48a8a736a2c52154/units/en/unit1/actions.mdx"
+sourceRel: "units/en/unit1/actions.mdx"
+rawUrl: "/raw/08-agents/huggingface-agents-course/units/en/unit1/actions.mdx"
+sourceSha256: "fd9a9a0d318d1c3a7fd654ac17e1da5dcab2e4f6255c8244959386996b7a54a6"
+pageSha256: "fd9a9a0d318d1c3a7fd654ac17e1da5dcab2e4f6255c8244959386996b7a54a6"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -69,10 +74,10 @@ For example, an agent needing to check the weather might output:
 ```json
 Thought: I need to check the current weather for New York.
 Action :
-{
+\{
   "action": "get_weather",
-  "action_input": {"location": "New York"}
-}
+  "action_input": \{"location": "New York"\}
+\}
 ```
 The framework can then easily parse the name of the function to call and the arguments to apply.
 
@@ -105,7 +110,7 @@ For example, a Code Agent tasked with fetching the weather might generate the fo
 # Code Agent Example: Retrieve Weather Information
 def get_weather(city):
     import requests
-    api_url = f"https://api.weather.com/v1/location/{city}?apiKey=YOUR_API_KEY"
+    api_url = f"https://api.weather.com/v1/location/\{city\}?apiKey=YOUR_API_KEY"
     response = requests.get(api_url)
     if response.status_code == 200:
         data = response.json()
@@ -115,7 +120,7 @@ def get_weather(city):
 
 # Execute the function and prepare the final answer
 result = get_weather("New York")
-final_answer = f"The current weather in New York is: {result}"
+final_answer = f"The current weather in New York is: \{result\}"
 print(final_answer)
 ```
 

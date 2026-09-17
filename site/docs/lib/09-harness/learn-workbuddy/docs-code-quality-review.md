@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/adongwanai/learn-workbuddy"
-entryUrl: "https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/README.md"
+entryUrl: "https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/docs/code-quality-review.md"
+sourceRel: "docs/code-quality-review.md"
+rawUrl: "/raw/09-harness/learn-workbuddy/docs/code-quality-review.md"
+sourceSha256: "4ffc9886de83986dc7dd74df5e6073a98d0cee3688d1c9adbbc72bf4eec86061"
+pageSha256: "4ffc9886de83986dc7dd74df5e6073a98d0cee3688d1c9adbbc72bf4eec86061"
+contentMode: "local-full"
 zh: ""
 ---
 

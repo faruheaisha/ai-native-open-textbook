@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/strands-agents/harness-sdk"
-entryUrl: "https://github.com/strands-agents/harness-sdk/blob/7bda6c70e71cd07279470268c3d3b3f4b36adf53/README.md"
+entryUrl: "https://github.com/strands-agents/harness-sdk/blob/7bda6c70e71cd07279470268c3d3b3f4b36adf53/site/CMS-TODO.md"
+sourceRel: "site/CMS-TODO.md"
+rawUrl: "/raw/09-harness/strands-harness-sdk/site/CMS-TODO.md"
+sourceSha256: "9ae51c0c747f5e2612b32cdc534386ef0f4b427d056f94b1a2b5595048500868"
+pageSha256: "9ae51c0c747f5e2612b32cdc534386ef0f4b427d056f94b1a2b5595048500868"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/cloudflare/vibesdk"
-entryUrl: "https://github.com/cloudflare/vibesdk/blob/9da158d82c597a0e8f4bf033cdccd1053fb6fb15/README.md"
+entryUrl: "https://github.com/cloudflare/vibesdk/blob/9da158d82c597a0e8f4bf033cdccd1053fb6fb15/docs/POSTMAN_COLLECTION_README.md"
+sourceRel: "docs/POSTMAN_COLLECTION_README.md"
+rawUrl: "/raw/07-coding/cloudflare-vibesdk/docs/POSTMAN_COLLECTION_README.md"
+sourceSha256: "eba1bcb955b06dc1458eebe0d70496a4268d1d554bd31ffef57e7d10b52a385e"
+pageSha256: "eba1bcb955b06dc1458eebe0d70496a4268d1d554bd31ffef57e7d10b52a385e"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -236,7 +241,7 @@ The collection uses these automatically managed variables:
 For WebSocket endpoints like agent communication:
 
 1. Use a WebSocket client (wscat, Postman WebSocket, etc.)
-2. Connect to: `ws://localhost:8787/api/agent/{agentId}/ws`
+2. Connect to: `ws://localhost:8787/api/agent/\{agentId\}/ws`
 3. Include authentication cookies
 4. Send/receive real-time messages during code generation
 

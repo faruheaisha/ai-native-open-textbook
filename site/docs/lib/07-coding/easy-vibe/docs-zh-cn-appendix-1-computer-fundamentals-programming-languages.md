@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/datawhalechina/easy-vibe"
-entryUrl: "https://github.com/datawhalechina/easy-vibe/blob/130e9b75b28b524e8cc74e615fd9733a4e2b330d/README.md"
+entryUrl: "https://github.com/datawhalechina/easy-vibe/blob/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/appendix/1-computer-fundamentals/programming-languages.md"
+sourceRel: "docs/zh-cn/appendix/1-computer-fundamentals/programming-languages.md"
+rawUrl: "/raw/07-coding/easy-vibe/docs/zh-cn/appendix/1-computer-fundamentals/programming-languages.md"
+sourceSha256: "5304efa40958ebf507a9a159845e34884b0fe28486dc0edcc0cbc382429537a1"
+pageSha256: "5304efa40958ebf507a9a159845e34884b0fe28486dc0edcc0cbc382429537a1"
+contentMode: "local-full"
 zh: ""
 ---
 

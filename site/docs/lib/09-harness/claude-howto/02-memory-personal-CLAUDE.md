@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/luongnv89/claude-howto"
-entryUrl: "https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/README.md"
+entryUrl: "https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/02-memory/personal-CLAUDE.md"
+sourceRel: "02-memory/personal-CLAUDE.md"
+rawUrl: "/raw/09-harness/claude-howto/02-memory/personal-CLAUDE.md"
+sourceSha256: "aca79e329065c44fce990f07a46d94443ff5d624d606f2b8d4a16522b0df61c8"
+pageSha256: "aca79e329065c44fce990f07a46d94443ff5d624d606f2b8d4a16522b0df61c8"
+contentMode: "local-full"
 zh: ""
 ---
 

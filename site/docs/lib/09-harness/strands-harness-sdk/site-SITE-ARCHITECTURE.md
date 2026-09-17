@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/strands-agents/harness-sdk"
-entryUrl: "https://github.com/strands-agents/harness-sdk/blob/7bda6c70e71cd07279470268c3d3b3f4b36adf53/README.md"
+entryUrl: "https://github.com/strands-agents/harness-sdk/blob/7bda6c70e71cd07279470268c3d3b3f4b36adf53/site/SITE-ARCHITECTURE.md"
+sourceRel: "site/SITE-ARCHITECTURE.md"
+rawUrl: "/raw/09-harness/strands-harness-sdk/site/SITE-ARCHITECTURE.md"
+sourceSha256: "c2bbcdb374c0720b1ab02d460bd43ebd3aba9b197b66f6e1ca0915e5beb2e93c"
+pageSha256: "c2bbcdb374c0720b1ab02d460bd43ebd3aba9b197b66f6e1ca0915e5beb2e93c"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -191,7 +196,7 @@ languages: Python
 ---
 ```
 
-Renders a note aside: "This provider is only supported in {languages}."
+Renders a note aside: "This provider is only supported in \{languages\}."
 
 ### `community`
 
@@ -304,7 +309,7 @@ These override default Starlight components:
 
 - **`Head.astro`**: Adds Mermaid diagram support and loads `SiteScripts` (Shortbread + WebSDK).
 - **`Header.astro`**: Custom header with navigation tabs and theme-aware logos (see [Header Navigation](#header-navigation) below).
-- **`Hero.astro`**: Suppresses the Starlight hero on `/blog/` paths. Blog pages pass a dummy `hero: { actions: [] }` to collapse Starlight's two-panel layout, and this override ensures that dummy hero has no visual output.
+- **`Hero.astro`**: Suppresses the Starlight hero on `/blog/` paths. Blog pages pass a dummy `hero: \{ actions: [] \}` to collapse Starlight's two-panel layout, and this override ensures that dummy hero has no visual output.
 - **`MarkdownContent.astro`**: Injects the custom frontmatter banners (experimental, community, languages) at the top of page content.
 - **`PageFrame.astro`**: Extends Starlight's default `PageFrame` to add a full-width site footer containing the `Copyright` component. The footer spans the content area (respecting sidebar offset) with `--sl-color-bg-nav` background to match the header.
 - **`Sidebar.astro`** and **`SidebarSublist.astro`**: Custom sidebar navigation that mimics MkDocs Material theme's `navigation.sections` behavior.
@@ -459,7 +464,7 @@ npx tsx scripts/api-generation-typescript.ts
 ```
 
 **Input:** `.build/sdk-typescript/src` (cloned SDK repository)
-**Output:** `.build/api-docs/typescript/{classes,interfaces,type-aliases,functions,namespaces}/*.md`
+**Output:** `.build/api-docs/typescript/\{classes,interfaces,type-aliases,functions,namespaces\}/*.md`
 
 ### TypeDoc Configuration (`typedoc.json`)
 
@@ -495,7 +500,7 @@ The generation script performs these transformations after typedoc runs:
 
 2. **Fixes relative links** to match the flat slug structure (e.g., `../interfaces/AgentData.md` → `../AgentData.md`) and updates `.md` extensions to `.mdx`. For namespace members and namespace index pages, cross-member links are rewritten to absolute slug paths (e.g., `[TracerConfig](https://github.com/strands-agents/harness-sdk/blob/7bda6c70e71cd07279470268c3d3b3f4b36adf53/interfaces/TracerConfig.md)` → `[TracerConfig](https://github.com/strands-agents/harness-sdk/blob/7bda6c70e71cd07279470268c3d3b3f4b36adf53/api/typescript/telemetry:TracerConfig/README.md)`) to ensure correct resolution regardless of the page's own URL.
 
-3. **Converts to MDX** — runs content through a `unified`/`remark-gfm` pipeline with `mdxToMarkdown()` serialization, which escapes characters that are valid in markdown but invalid in MDX (e.g. `{`, `}` outside code blocks). Content inside code fences is left untouched. Files are written as `.mdx` instead of `.md`. A targeted replacement also handles the literal string `<name>Data` that typedoc emits in prose to describe the naming pattern for data interfaces.
+3. **Converts to MDX** — runs content through a `unified`/`remark-gfm` pipeline with `mdxToMarkdown()` serialization, which escapes characters that are valid in markdown but invalid in MDX (e.g. `\{`, `\}` outside code blocks). Content inside code fences is left untouched. Files are written as `.mdx` instead of `.md`. A targeted replacement also handles the literal string `<name>Data` that typedoc emits in prose to describe the naming pattern for data interfaces.
 
 4. **Deletes the generated index.md** - We use our own custom index page instead
 
@@ -765,7 +770,7 @@ Our implementation renders documentation through Astro's container API, applies 
 
 - `/llms.txt` - Index with links to all docs organized by sidebar structure
 - `/llms-full.txt` - Complete documentation content (excludes API reference)
-- `/{slug}/index.md` - Any doc page in raw markdown format
+- `/\{slug\}/index.md` - Any doc page in raw markdown format
 
 ### Implementation Files
 
@@ -819,7 +824,7 @@ The blog is a standalone section at `/blog/` with its own content collection, la
   bio: The team behind the Strands Agents SDK.
 ```
 
-Schema: `{ id, name, role, bio, avatar? }` — all strings. The `id` field is used as the reference key from blog post frontmatter. Stored as a single YAML file (array of author objects) rather than individual JSON files per author.
+Schema: `\{ id, name, role, bio, avatar? \}` — all strings. The `id` field is used as the reference key from blog post frontmatter. Stored as a single YAML file (array of author objects) rather than individual JSON files per author.
 
 **Blog Posts** (`src/content/blog/*.mdx`):
 ```yaml
@@ -860,9 +865,9 @@ Helper functions used across all blog pages:
 
 ### Layouts
 
-**`BlogLayout.astro`** — Base layout for all blog pages. Uses Starlight's `<StarlightPage>` component to get the full page shell (head, styles, theme, header) for free. Passes `hasSidebar={false}` and `template: 'splash'` to suppress sidebar and doc-page chrome. Passes `hero: { actions: [] }` to collapse Starlight's two-panel layout into a single content panel (suppressing the auto-generated `PageTitle`). Extra head tags (canonical URL, OG/Twitter meta, RSS autodiscovery) are injected via the `frontmatter.head` array. A named `<slot name="head" />` is forwarded for page-specific head content (e.g. JSON-LD). The `Hero` component override (`src/components/overrides/Hero.astro`) suppresses the hero on `/blog/` paths so the dummy hero value has no visual effect.
+**`BlogLayout.astro`** — Base layout for all blog pages. Uses Starlight's `<StarlightPage>` component to get the full page shell (head, styles, theme, header) for free. Passes `hasSidebar=\{false\}` and `template: 'splash'` to suppress sidebar and doc-page chrome. Passes `hero: \{ actions: [] \}` to collapse Starlight's two-panel layout into a single content panel (suppressing the auto-generated `PageTitle`). Extra head tags (canonical URL, OG/Twitter meta, RSS autodiscovery) are injected via the `frontmatter.head` array. A named `<slot name="head" />` is forwarded for page-specific head content (e.g. JSON-LD). The `Hero` component override (`src/components/overrides/Hero.astro`) suppresses the hero on `/blog/` paths so the dummy hero value has no visual effect.
 
-**`BlogPostLayout.astro`** — Wraps `BlogLayout` with article-specific chrome: title, date, reading time, description, author byline, tags, cover image. Injects JSON-LD Article schema via the head slot. OG image URL: `/blog/og/{slug}.png`.
+**`BlogPostLayout.astro`** — Wraps `BlogLayout` with article-specific chrome: title, date, reading time, description, author byline, tags, cover image. Injects JSON-LD Article schema via the head slot. OG image URL: `/blog/og/\{slug\}.png`.
 
 ### Components (`src/components/blog/`)
 
@@ -903,7 +908,7 @@ Uses `@astrojs/rss`. Currently includes description only (not full rendered cont
 
 The blog extends the existing llms.txt system:
 
-- **`/blog/[slug]/index.md`** — Raw markdown endpoint for each post (mirrors the `[...slug]/index.md.ts` pattern for docs). Uses `renderEntryToMarkdown()` with `basePath: /blog/${post.id}/`.
+- **`/blog/[slug]/index.md`** — Raw markdown endpoint for each post (mirrors the `[...slug]/index.md.ts` pattern for docs). Uses `renderEntryToMarkdown()` with `basePath: /blog/$\{post.id\}/`.
 - **`/llms.txt`** — Extended with a `## Blog` section listing links to blog markdown endpoints.
 - **`/llms-full.txt`** — Extended to render blog posts inline after docs content.
 - **`src/util/render-to-markdown.ts`** — Generalized from `CollectionEntry<'docs'>` to `CollectionEntry<'docs'> | CollectionEntry<'blog'>` with an optional `basePath` parameter.

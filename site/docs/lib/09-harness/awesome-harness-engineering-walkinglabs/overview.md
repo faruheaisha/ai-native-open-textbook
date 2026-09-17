@@ -9,6 +9,11 @@ tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/walkinglabs/awesome-harness-engineering"
 entryUrl: "https://github.com/walkinglabs/awesome-harness-engineering/blob/cff9b006ef64c624a62cbb1ee36b0c4b2b3a67ad/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/09-harness/awesome-harness-engineering-walkinglabs/README.md"
+sourceSha256: "3441b0bb2485af3412671b380876e268a93d51df7ee5add3e244554a383ed0eb"
+pageSha256: "3441b0bb2485af3412671b380876e268a93d51df7ee5add3e244554a383ed0eb"
+contentMode: "local-full"
 zh: ""
 ---
 

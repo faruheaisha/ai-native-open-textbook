@@ -1,0 +1,30 @@
+---
+title: "Active-Prompt"
+sourceId: "10-context-memory/prompt-engineering-guide"
+sourceTitle: "Prompt Engineering Guide"
+sourceKind: "工程手册"
+licenseLabel: "可转载"
+lang: "英文"
+tier: 2
+volume: "10-context-memory"
+sourceUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide"
+entryUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide/blob/57673726396dd94acb23bdb1e67f27c78ee85a8e/pages/techniques/activeprompt.kr.mdx"
+sourceRel: "pages/techniques/activeprompt.kr.mdx"
+rawUrl: "/raw/10-context-memory/prompt-engineering-guide/pages/techniques/activeprompt.kr.mdx"
+sourceSha256: "75beb8d3a1f06ddea7b546c3cd11a2ee825fb0a8df96a979b5f4633c24383f9a"
+pageSha256: "75beb8d3a1f06ddea7b546c3cd11a2ee825fb0a8df96a979b5f4633c24383f9a"
+contentMode: "local-full"
+zh: ""
+---
+
+# Active-Prompt
+
+import \{ Callout, FileTree \} from 'nextra-theme-docs'
+import \{Screenshot\} from 'components/screenshot'
+import ACTIVE from '../../img/active-prompt.png'
+
+Chain-of-thought (CoT) 방법은 사람이 만든 고정된 규범을 의존합니다. 이 규범의 문제점은 다양한 작업에 대해 가장 효과적인 예시가 아닐 수 있다는 것입니다. 이 문제를 해결하기 위해 [Diao 외, (2023)](https://arxiv.org/pdf/2302.12246.pdf)는 최근 Active-Prompt라는 새로운 프롬프트 접근 방식을 제안하여 LLMs을 다양한 작업별 예시 프롬프트(사람이 설계한 CoT 추론으로 라벨링)에 적용했습니다.
+
+아래는 제안 방식에 대한 개요도입니다. 첫 번째 단계는 몇 가지 CoT 예제를 포함하거나 포함하지 않고 LLM에 질문하는 것입니다. 일련의 학습 질문에 대해 *k* 개의 가능한 답변이 생성됩니다. 불확실성 메트릭은 *k*개의 답변(불일치 사용)을 기반으로 계산됩니다. 가장 불확실한 질문은 사람이 주석을 달기 위해 선택합니다. 그런 다음 주석이 달린 새로운 예제를 사용하여 각 질문을 추론합니다.
+
+이미지 출처: [Diao et al., (2023)](https://arxiv.org/pdf/2302.12246.pdf)

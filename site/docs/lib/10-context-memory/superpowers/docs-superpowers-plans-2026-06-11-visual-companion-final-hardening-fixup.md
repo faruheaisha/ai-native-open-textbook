@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/obra/superpowers"
-entryUrl: "https://github.com/obra/superpowers/blob/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/README.md"
+entryUrl: "https://github.com/obra/superpowers/blob/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/docs/superpowers/plans/2026-06-11-visual-companion-final-hardening-fixup.md"
+sourceRel: "docs/superpowers/plans/2026-06-11-visual-companion-final-hardening-fixup.md"
+rawUrl: "/raw/10-context-memory/superpowers/docs/superpowers/plans/2026-06-11-visual-companion-final-hardening-fixup.md"
+sourceSha256: "5604d33566ba5ca9940924819892a6d3f095a8704e2705e3fcc64a23334ca2f3"
+pageSha256: "5604d33566ba5ca9940924819892a6d3f095a8704e2705e3fcc64a23334ca2f3"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -456,7 +461,7 @@ Expected: persisted-token fallback test fails because fallback reuses `.last-tok
 
 - [ ] **Step 5: Track token source in production code**
 
-In `skills/brainstorming/scripts/server.cjs`, replace the current `const TOKEN = (() => { ... })();` block with:
+In `skills/brainstorming/scripts/server.cjs`, replace the current `const TOKEN = (() => \{ ... \})();` block with:
 
 ```js
 function generateToken() {
@@ -667,7 +672,7 @@ Expected: matching-instance-id real server is reported `stale_pid` before implem
 
 - [ ] **Step 4: Generate and pass instance id in start-server**
 
-In `skills/brainstorming/scripts/start-server.sh`, after `LOG_FILE="${STATE_DIR}/server.log"`, add:
+In `skills/brainstorming/scripts/start-server.sh`, after `LOG_FILE="$\{STATE_DIR\}/server.log"`, add:
 
 ```bash
 SERVER_ID_FILE="${STATE_DIR}/server-instance-id"
@@ -817,7 +822,7 @@ function assertStartedOnExpectedPort(out) {
 }
 ```
 
-After `const { stdout: initialStdout } = await waitForServer(server);`, add:
+After `const \{ stdout: initialStdout \} = await waitForServer(server);`, add:
 
 ```js
   assertStartedOnExpectedPort(initialStdout);

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases"
-entryUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/README.md"
+entryUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/health-symptom-tracker.md"
+sourceRel: "usecases/health-symptom-tracker.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-usecases/usecases/health-symptom-tracker.md"
+sourceSha256: "84c9b1021176f6f9b5d68f093f92699a8432c0e50b48743e452d2d979a6c1c13"
+pageSha256: "84c9b1021176f6f9b5d68f093f92699a8432c0e50b48743e452d2d979a6c1c13"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/stormzhang/ai-coding-guide"
-entryUrl: "https://github.com/stormzhang/ai-coding-guide/blob/d187dbdb83fa1be051a850074eb518e30e2eb47c/README.md"
+entryUrl: "https://github.com/stormzhang/ai-coding-guide/blob/d187dbdb83fa1be051a850074eb518e30e2eb47c/claude-code/19-context-management.md"
+sourceRel: "claude-code/19-context-management.md"
+rawUrl: "/raw/07-coding/ai-coding-guide-stormzhang/claude-code/19-context-management.md"
+sourceSha256: "39bf72dbe4307f9c43426b9101cf082b76d261db892b0ba7afd93b9bbff3e2a8"
+pageSha256: "39bf72dbe4307f9c43426b9101cf082b76d261db892b0ba7afd93b9bbff3e2a8"
+contentMode: "local-full"
 zh: ""
 ---
 

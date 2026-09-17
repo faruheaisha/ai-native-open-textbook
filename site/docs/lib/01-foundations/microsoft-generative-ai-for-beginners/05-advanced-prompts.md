@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "01-foundations"
 sourceUrl: "https://github.com/microsoft/generative-ai-for-beginners"
-entryUrl: "https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/README.md"
+entryUrl: "https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/05-advanced-prompts/README.md"
+sourceRel: "05-advanced-prompts/README.md"
+rawUrl: "/raw/01-foundations/microsoft-generative-ai-for-beginners/05-advanced-prompts/README.md"
+sourceSha256: "959ec6b1ae192446c2151fcc2d11cf960ba33908a8b53a4432389ff9d5463c0c"
+pageSha256: "959ec6b1ae192446c2151fcc2d11cf960ba33908a8b53a4432389ff9d5463c0c"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -255,7 +260,7 @@ Import the correct module: The first line should import Flask instead of flask. 
 
 Add a main function: Add a if __name__ == '__main__': block to the end of the file to run the application when the file is executed.
 
-Use f-strings: Use f-strings to format the return statements in the route functions. For example, return 'Products' can be changed to return f'This is the {request.path} page'.
+Use f-strings: Use f-strings to format the return statements in the route functions. For example, return 'Products' can be changed to return f'This is the \{request.path\} page'.
 ```
 
 ```python
@@ -265,11 +270,11 @@ app = Flask(__name__)
 
 @app.route('/products')
 def products():
-    return f'This is the {request.path} page'
+    return f'This is the \{request.path\} page'
 
 @app.route('/customers')
 def customers():
-    return f'This is the {request.path} page'
+    return f'This is the \{request.path\} page'
 
 if __name__ == '__main__':
     app.run()
@@ -383,21 +388,21 @@ app.config["DEBUG"] = True
 
 #create a list of books
 books = [
-    {'id': 0,
+    \{'id': 0,
      'title': 'A Fire Upon the Deep',
      'author': 'Vernor Vinge',
      'first_sentence': 'The coldsleep itself was dreamless.',
-     'year_published': '1992'},
-    {'id': 1,
+     'year_published': '1992'\},
+    \{'id': 1,
      'title': 'The Ones Who Walk Away From Omelas',
      'author': 'Ursula K. Le Guin',
      'first_sentence': 'With a clamor of bells that set the swallows soaring, the Festival of Summer came to the city Omelas, bright-towered by the sea.',
-     'published': '1973'},
-    {'id': 2,
+     'published': '1973'\},
+    \{'id': 2,
      'title': 'Dhalgren',
      'author': 'Samuel R. Delany',
      'first_sentence': 'to wound the autumnal city.',
-     'published': '1975'}
+     'published': '1975'\}
 ]
 
 #create an endpoint for the API
@@ -473,7 +478,7 @@ def api_endpoint():
 #function to process the data
 def process_data(data):
     #process the data
-    result = {'result': 'success'}
+    result = \{'result': 'success'\}
 
     #return the result
     return result
@@ -568,9 +573,9 @@ app.config['DEBUG'] = True
 
 # create some test data
 books = [
-    {'id': 0, 'title': 'A Fire Upon The Deep', 'author': 'Vernor Vinge', 'first_sentence': 'The coldsleep itself was dreamless.', 'year_published': '1992'},
-    {'id': 1, 'title': 'The Ones Who Walk Away From Omelas', 'author': 'Ursula K. Le Guin', 'first_sentence': 'With a clamor of bells that set the swallows soaring, the Festival of Summer came to the city Omelas, bright-towered by the sea.', 'published': '1973'},
-    {'id': 2, 'title': 'Dhalgren', 'author': 'Samuel R. Delany', 'first_sentence': 'to wound the autumnal city.', 'published': '1975'}
+    \{'id': 0, 'title': 'A Fire Upon The Deep', 'author': 'Vernor Vinge', 'first_sentence': 'The coldsleep itself was dreamless.', 'year_published': '1992'\},
+    \{'id': 1, 'title': 'The Ones Who Walk Away From Omelas', 'author': 'Ursula K. Le Guin', 'first_sentence': 'With a clamor of bells that set the swallows soaring, the Festival of Summer came to the city Omelas, bright-towered by the sea.', 'published': '1973'\},
+    \{'id': 2, 'title': 'Dhalgren', 'author': 'Samuel R. Delany', 'first_sentence': 'to wound the autumnal city.', 'published': '1975'\}
 ]
 
 # create an endpoint
@@ -612,7 +617,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     name = request.args.get('name', 'World')
-    return f'Hello, {name}!'
+    return f'Hello, \{name\}!'
 
 if __name__ == '__main__':
     app.run()

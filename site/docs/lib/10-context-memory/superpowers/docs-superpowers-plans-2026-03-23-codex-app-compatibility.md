@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/obra/superpowers"
-entryUrl: "https://github.com/obra/superpowers/blob/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/README.md"
+entryUrl: "https://github.com/obra/superpowers/blob/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/docs/superpowers/plans/2026-03-23-codex-app-compatibility.md"
+sourceRel: "docs/superpowers/plans/2026-03-23-codex-app-compatibility.md"
+rawUrl: "/raw/10-context-memory/superpowers/docs/superpowers/plans/2026-03-23-codex-app-compatibility.md"
+sourceSha256: "28b0335e97ceea066ab2eefa9a02eea6bf30d3e580788ce462976efce13dc709"
+pageSha256: "28b0335e97ceea066ab2eefa9a02eea6bf30d3e580788ce462976efce13dc709"
+contentMode: "local-full"
 zh: ""
 ---
 

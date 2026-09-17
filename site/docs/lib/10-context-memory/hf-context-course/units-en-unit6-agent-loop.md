@@ -1,0 +1,292 @@
+---
+title: "The Agentic Loop Deep Dive"
+sourceId: "10-context-memory/hf-context-course"
+sourceTitle: "The Context Course"
+sourceKind: "系统课程"
+licenseLabel: "仅引用"
+lang: "英文"
+tier: 1
+volume: "10-context-memory"
+sourceUrl: "https://github.com/huggingface/context-course"
+entryUrl: "https://github.com/huggingface/context-course/blob/0448a7ca721a63a81531e1ba94f46f897c70645b/units/en/unit6/agent-loop.mdx"
+sourceRel: "units/en/unit6/agent-loop.mdx"
+rawUrl: "/raw/10-context-memory/hf-context-course/units/en/unit6/agent-loop.mdx"
+sourceSha256: "0fc658e37c4e2139968d1ea111ed80e9624cf60768abae0b27c58b1e2837e920"
+pageSha256: "0fc658e37c4e2139968d1ea111ed80e9624cf60768abae0b27c58b1e2837e920"
+contentMode: "local-full"
+zh: ""
+---
+
+# The Agentic Loop Deep Dive
+
+The core of nano_harness is a loop that runs at most fifty times: call the LLM, parse its code, execute it, observe results, repeat.
+
+<iframe
+    src="https://context-course-agent-loop.static.hf.space"
+    frameborder="0"
+    width="850"
+    height="450"
+></iframe>
+
+## Code Walkthrough
+
+### Configuration
+
+```python
+TASK = "Inspect the workspace and provide a summary."
+MODEL = os.getenv("NANO_MODEL", "zai-org/GLM-5.1")
+BASE_URL = os.getenv("OPENAI_BASE_URL", "https://router.huggingface.co/v1")
+API_KEY = os.getenv("HF_TOKEN", "")
+WORKSPACE = str(Path.cwd())
+MAX_STEPS = 50
+TEMPERATURE = 0.2
+TIMEOUT_S = 30
+MAX_CHARS = 8000
+ALLOW_WRITE = False
+ALLOW_COMMANDS = ["ls", "cat", "pwd", "echo", "head", "tail", "wc", "rg"]
+```
+
+`MODEL` is the HF model ID routed through Inference Providers, `MAX_STEPS` caps iterations at 50, `TEMPERATURE=0.2` keeps output deterministic, `ALLOW_COMMANDS` is the shell allowlist, `ALLOW_WRITE=False` keeps file mutation off by default, and `MAX_CHARS` bounds tool output to prevent context overflow.
+
+### System Prompt
+
+```python
+SYSTEM_PROMPT = f"""You are a code-first agent.
+Output only executable Python code, no prose.
+
+Tools available:
+- list_dir(path='.'): List directory contents
+- read_file(path, max_chars=4000): Read file
+- write_file(path, content): Write file (only if ALLOW_WRITE=True)
+- exec_cmd(args): Run shell command
+
+When task is complete, call:
+  final_answer(result)
+
+Constraints:
+- All file paths confined to workspace: {WORKSPACE}
+- Allowed commands: {ALLOW_COMMANDS}
+- Max output: {MAX_CHARS} chars
+- No markdown, no prose—only Python
+"""
+```
+
+The system prompt tells the model to output only Python code, lists the available tools, shows how to signal completion with `final_answer()`, and states the path, command, and size constraints.
+
+### Tool Definitions
+
+The tools are defined as Python functions that the model can call:
+
+```python
+def list_dir(path="."):
+    """List directory contents."""
+    p = safe_path(path)  # Ensure path is in workspace
+    if not p.is_dir():
+        raise NotADirectoryError(str(p))
+    return sorted([x.name + ("/" if x.is_dir() else "") for x in p.iterdir()])
+
+def read_file(path, max_chars=4000):
+    """Read file with size limit."""
+    p = safe_path(path)
+    content = p.read_text(encoding="utf-8", errors="replace")
+    return clip(content, min(max_chars, MAX_CHARS))  # Limit output
+
+def write_file(path, content):
+    """Write or create file if writes are enabled."""
+    if not ALLOW_WRITE:
+        raise PermissionError("write_file disabled")
+    p = safe_path(path)
+    p.parent.mkdir(parents=True, exist_ok=True)
+    p.write_text(str(content), encoding="utf-8")
+    return f"Wrote {len(str(content))} bytes"
+
+def exec_cmd(args):
+    """Execute shell command (whitelisted only)."""
+    if args[0] not in ALLOW_COMMANDS:
+        raise PermissionError(f"Command {args[0]} not allowed")
+    result = subprocess.run(args, capture_output=True, timeout=TIMEOUT_S, text=True)
+    output_parts = []
+    if result.stdout:
+        output_parts.append(f"stdout:\n{result.stdout}")
+    if result.stderr:
+        output_parts.append(f"stderr:\n{result.stderr}")
+    output = "\n\n".join(output_parts) or f"(exit code {result.returncode} with no output)"
+    return clip(output, MAX_CHARS)
+
+DONE = False
+FINAL_RESULT = None
+
+def final_answer(value):
+    """Agent calls this when task is complete."""
+    global DONE, FINAL_RESULT
+    DONE = True
+    FINAL_RESULT = value
+    return value
+```
+
+Each tool enforces safety at the boundary: path confinement, command allowlisting, output size limits, and explicit write gating.
+
+### The Main Loop
+
+The harness uses the Responses API. The OpenAI SDK accepts message-style `input` payloads and returns `response.output_text`, and the Hugging Face router exposes the same `/v1` surface via Inference Providers, so a single model ID (`zai-org/GLM-5.1`) drives the whole unit.
+
+```python
+def main():
+    global DONE, FINAL_RESULT
+    DONE = False
+    FINAL_RESULT = None
+    messages = [
+        {"role": "system", "content": SYSTEM_PROMPT},
+        {"role": "user", "content": TASK}
+    ]
+    
+    for step in range(MAX_STEPS):
+        print(f"\n[Step {step + 1}]")
+        
+        # 1. Call LLM
+        response = client.responses.create(
+            model=MODEL,
+            temperature=TEMPERATURE,
+            input=messages
+        )
+        
+        content = response.output_text
+        print(f"Model output:\n{content[:500]}...")
+        
+        # 2. Add model response to history
+        messages.append({"role": "assistant", "content": content})
+        
+        # 3. Parse and execute Python code
+        code = extract_python(content)  # Parse code block from response
+        try:
+            stdout_buffer = io.StringIO()
+            stderr_buffer = io.StringIO()
+            exec_globals = {
+                "__builtins__": {},
+                "list_dir": list_dir,
+                "read_file": read_file,
+                "write_file": write_file,
+                "exec_cmd": exec_cmd,
+                "final_answer": final_answer
+            }
+            with redirect_stdout(stdout_buffer), redirect_stderr(stderr_buffer):
+                exec(code, exec_globals)
+
+            stdout_text = stdout_buffer.getvalue().strip()
+            stderr_text = stderr_buffer.getvalue().strip()
+
+            if DONE:
+                result = f"Final answer: {clip(FINAL_RESULT)}"
+            else:
+                observations = []
+                if stdout_text:
+                    observations.append(f"stdout:\n{clip(stdout_text)}")
+                if stderr_text:
+                    observations.append(f"stderr:\n{clip(stderr_text)}")
+                result = "\n\n".join(observations) or "Executed successfully (no output)"
+        except FileNotFoundError:
+            result = "Error: FileNotFoundError: File not found"
+        except PermissionError as e:
+            result = f"Error: PermissionError: {str(e)}"
+        except subprocess.TimeoutExpired:
+            result = "Error: TimeoutError: Command took too long"
+        except Exception as e:
+            result = f"Error: {type(e).__name__}: {str(e)}"
+        
+        # 4. Check if agent called final_answer()
+        if DONE:
+            print(f"✓ Task complete: {FINAL_RESULT}")
+            break
+        
+        # 5. Add observation to message history
+        messages.append({"role": "user", "content": result})
+    
+    if not DONE:
+        print(f"✗ Max steps ({MAX_STEPS}) reached without final_answer()")
+```
+
+Four things matter in this loop. The message history accumulates system prompt, user task, and alternating assistant/observation turns. The LLM call uses a configurable model and a low temperature (0.2) for deterministic behavior. Code execution runs through `exec()` with a restricted globals dict that strips builtins and exposes only the tool functions. The loop then feeds back one of four observation types: stdout, stderr, an explicit final answer, or a structured error string.
+
+## Error Recovery
+
+The main loop above already handles the common failure modes explicitly:
+
+```python
+try:
+    with redirect_stdout(stdout_buffer), redirect_stderr(stderr_buffer):
+        exec(code, exec_globals)
+except FileNotFoundError:
+    result = "Error: FileNotFoundError: File not found"
+except PermissionError as e:
+    result = f"Error: PermissionError: {str(e)}"
+except subprocess.TimeoutExpired:
+    result = "Error: TimeoutError: Command took too long"
+except Exception as e:
+    result = f"Error: {type(e).__name__}: {str(e)}"
+
+# The model sees this observation and tries a different approach
+messages.append({"role": "user", "content": result})
+```
+
+The agent reads the failure as an observation and adjusts: list the directory after a missing file, stop trying `write_file` when writes are disabled, swap a blocked command for a whitelisted one, or break long-running work into smaller steps.
+
+## Step Limit Safety
+
+```python
+for step in range(MAX_STEPS):  # MAX_STEPS = 50
+    # ... run loop ...
+    if DONE:
+        break
+
+if not DONE:
+    print("Max steps reached without final_answer()")
+```
+
+The step limit guarantees termination. Simple tasks like "list files" finish in one to three steps; exploring a codebase typically takes five to ten; debugging something non-trivial can run fifteen to thirty.
+
+## Message History
+
+The message history is the agent's memory:
+
+```python
+messages = [
+    {"role": "system", "content": "You are a code-first agent..."},
+    {"role": "user", "content": "Inspect workspace and summarize"},
+    {"role": "assistant", "content": "list_dir('.')\nread_file('README.md')"},
+    {"role": "user", "content": "Found: ['README.md', 'src/', 'tests/']\n\nREADME.md contains:\n..."},
+    {"role": "assistant", "content": "read_file('src/main.py')"},
+    {"role": "user", "content": "src/main.py:\n..."},
+]
+```
+
+Every entry is a turn: system prompt, user task, then alternating agent code and observations. The LLM sees the whole history on each call, so it can refer back to earlier findings, avoid approaches that already failed, and build on what it learned.
+
+> [!NOTE]
+> **This is a simplification.** The nano harness treats memory as a flat conversation history — every prior turn stays in context until the window fills up. Production agent systems use much richer memory architectures: short-term scratchpads for working state, episodic memory for recalling past sessions, semantic memory for persistent knowledge, retrieval-augmented approaches that fetch relevant memories on demand, and compaction strategies that summarize older context to free up space. If you want to go deeper, look into the research on agent memory systems (e.g., MemoryAgentBench, A-MEM) and context compression (e.g., ACON). The nano harness is a teaching tool — it shows the minimal viable loop, not the full picture.
+
+## Context Management
+
+With MAX_TOKENS=4096 and MAX_CHARS=8000:
+
+```python
+# Good: Agent reads one file at a time
+read_file("test.py", max_chars=2000)  # 2000 chars ✓
+
+# Bad: Agent tries to read entire codebase at once
+read_file("large_codebase.py", max_chars=50000)  # Gets clipped to 8000
+```
+
+The agent learns to read strategically to stay within limits.
+
+> [!NOTE]
+> **Context management in production is a major topic.** Real code agents implement compaction (summarizing earlier context), structured note-taking (maintaining scratchpads of key findings), file-system-mediated context (writing intermediate results to files instead of keeping them in the window), and intelligent tool selection to minimize context consumption. Anthropic's context engineering guide describes these as core concerns for any serious agent deployment. The nano harness only demonstrates the simplest approach: hard character limits and hoping the agent reads strategically.
+
+## Design Decisions
+
+Python is precise where JSON or free-form text is ambiguous, so the agent outputs code. `safe_path()` resolves and validates every path against the workspace root to prevent directory traversal. Only an explicit allowlist of shell commands can run. A hard step limit and per-call output limit bound both runtime and context growth. And because exceptions are turned back into observations, the agent adapts instead of crashing.
+
+## Key Takeaways
+
+Call the LLM, parse its code, execute it with tools, observe, repeat. The system prompt defines tools, constraints, and the termination signal. Sandboxing happens at the tool boundary through path confinement, command allowlists, and size limits. Errors become observations and the full message history serves as memory.
+
+Next, tools and sandboxing in more detail.

@@ -1,0 +1,32 @@
+---
+title: "Matt Pocock Skills（工程技能库）"
+sourceId: "10-context-memory/mattpocock-skills"
+sourceTitle: "Matt Pocock Skills（工程技能库）"
+sourceKind: "技能与配置库"
+licenseLabel: "可转载"
+lang: "英文"
+tier: 3
+volume: "10-context-memory"
+sourceUrl: "https://github.com/mattpocock/skills"
+entryUrl: "https://github.com/mattpocock/skills/blob/3cca18b368ae95cdbdebbff572ccafa662551015/skills/in-progress/claude-handoff/SKILL.md"
+sourceRel: "skills/in-progress/claude-handoff/SKILL.md"
+rawUrl: "/raw/10-context-memory/mattpocock-skills/skills/in-progress/claude-handoff/SKILL.md"
+sourceSha256: "6738e8b7c7899ea0038fb7a5c859ca1b90c7b1eb40123dcdbe94c51b5b119f12"
+pageSha256: "6738e8b7c7899ea0038fb7a5c859ca1b90c7b1eb40123dcdbe94c51b5b119f12"
+contentMode: "local-full"
+zh: ""
+---
+
+# Matt Pocock Skills（工程技能库）
+
+Write a handoff summary of the current conversation so a fresh agent can continue the work. Instead of saving it, launch a background agent seeded with the summary as its prompt: `claude --bg --name "<descriptive name>" "<handoff summary>"`. It starts in the current working directory and returns immediately; the user manages it with `claude agents`.
+
+Always pass `-n`/`--name` with a descriptive name (e.g. `--name "Fix login bug"`); it sets the display name shown in the job list, session picker, and terminal title.
+
+Include a "suggested skills" section in the summary, naming which skills the next agent should call the Skill tool for.
+
+Do not duplicate content already captured in other artifacts (specs, plans, ADRs, issues, commits, diffs). Reference them by path or URL instead.
+
+Redact any sensitive information, such as API keys, passwords, or personally identifiable information, since the summary becomes the agent's prompt.
+
+If the user passed arguments, treat them as a description of what the next session will focus on and tailor the summary accordingly.

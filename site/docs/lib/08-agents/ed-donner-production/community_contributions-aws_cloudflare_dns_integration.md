@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/ed-donner/production"
-entryUrl: "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/README.md"
+entryUrl: "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/community_contributions/aws_cloudflare_dns_integration.md"
+sourceRel: "community_contributions/aws_cloudflare_dns_integration.md"
+rawUrl: "/raw/08-agents/ed-donner-production/community_contributions/aws_cloudflare_dns_integration.md"
+sourceSha256: "1365ec647fa57b99c5b221673b5cdbbc7758da04201297158f477a3c75b3e4b6"
+pageSha256: "1365ec647fa57b99c5b221673b5cdbbc7758da04201297158f477a3c75b3e4b6"
+contentMode: "local-full"
 zh: ""
 ---
 

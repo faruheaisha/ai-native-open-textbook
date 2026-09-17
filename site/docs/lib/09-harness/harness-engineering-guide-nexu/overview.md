@@ -9,6 +9,11 @@ tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/nexu-io/harness-engineering-guide"
 entryUrl: "https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/09-harness/harness-engineering-guide-nexu/README.md"
+sourceSha256: "01945c491b5bae9c9a831f58a3ec9778bbdc6bf41616a9d4abcf6434d9084681"
+pageSha256: "01945c491b5bae9c9a831f58a3ec9778bbdc6bf41616a9d4abcf6434d9084681"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -21,7 +26,7 @@ zh: ""
 
   🌐 <b><a href="https://harness-guide.com">harness-guide.com</a></b> | <a href="https://harness-guide.com/zh/">中文站</a>
 
-  <b>English</b> | <a href="https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/README.zh-CN.md">中文</a>
+  <b>English</b> | <a href="/lib/09-harness/harness-engineering-guide-nexu/README.zh-CN">中文</a>
 
 ---
 
@@ -35,8 +40,8 @@ This guide covers harness engineering from first principles to production patter
 
 | Topic | Description |
 |-------|-------------|
-| [What is a Harness?](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/what-is-harness.md) | The concept in 3 minutes. How it turns a model into an agent. Harness vs. framework vs. runtime. |
-| [Your First Harness](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/your-first-harness.md) | Build a working harness in 50 lines of Python. Complete code you can copy and run. |
+| [What is a Harness?](/lib/09-harness/harness-engineering-guide-nexu/guide-what-is-harness) | The concept in 3 minutes. How it turns a model into an agent. Harness vs. framework vs. runtime. |
+| [Your First Harness](/lib/09-harness/harness-engineering-guide-nexu/guide-your-first-harness) | Build a working harness in 50 lines of Python. Complete code you can copy and run. |
 | [Harness vs. Framework](/lib/09-harness/harness-engineering-guide-nexu/guide-harness-vs-framework) | When to use a raw harness vs. LangChain/CrewAI. Decision tree + side-by-side code comparison. |
 
 ## Core Concepts
@@ -44,7 +49,7 @@ This guide covers harness engineering from first principles to production patter
 | Topic | Description |
 |-------|-------------|
 | [Agentic Loop](/lib/09-harness/harness-engineering-guide-nexu/guide-agentic-loop) | The think → act → observe cycle. Turn budgets, parallel tool calls, loop detection, streaming. |
-| [Tool System](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/tool-system.md) | Tool registry, static vs. dynamic loading, MCP protocol, description quality patterns. |
+| [Tool System](/lib/09-harness/harness-engineering-guide-nexu/guide-tool-system) | Tool registry, static vs. dynamic loading, MCP protocol, description quality patterns. |
 | [Memory & Context](/lib/09-harness/harness-engineering-guide-nexu/guide-memory-and-context) | Context assembly, session management, two-tier memory (daily logs + long-term). AGENTS.md and MEMORY.md patterns. |
 | [Guardrails](/lib/09-harness/harness-engineering-guide-nexu/guide-guardrails) | Permission models, trust boundaries, sandboxing, prompt injection defense. |
 
@@ -54,8 +59,8 @@ This guide covers harness engineering from first principles to production patter
 |-------|-------------|
 | [Context Engineering](/lib/09-harness/harness-engineering-guide-nexu/guide-context-engineering) | Priority-based assembly, three lines of defense for compression, token budgeting. |
 | [Sandbox](/lib/09-harness/harness-engineering-guide-nexu/guide-sandbox) | Docker and Firecracker setups, network isolation, filesystem restrictions. |
-| [Skill System](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/skill-system.md) | Skill packaging, on-demand loading, SKILL.md format, thin harness + thick skills. |
-| [Sub-Agent](https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/sub-agent.md) | Leader-Worker pattern, file-based communication, session isolation, parallel execution. |
+| [Skill System](/lib/09-harness/harness-engineering-guide-nexu/guide-skill-system) | Skill packaging, on-demand loading, SKILL.md format, thin harness + thick skills. |
+| [Sub-Agent](/lib/09-harness/harness-engineering-guide-nexu/guide-sub-agent) | Leader-Worker pattern, file-based communication, session isolation, parallel execution. |
 | [Error Handling](/lib/09-harness/harness-engineering-guide-nexu/guide-error-handling) | Error classification, retry strategies, graceful degradation, checkpoint/resume. |
 | [Multi-Agent Orchestration](/lib/09-harness/harness-engineering-guide-nexu/guide-multi-agent-orchestration) | Orchestration patterns (pipeline, fan-out, supervisor), context isolation, real-world examples (Multica, Paseo, OpenClaw). |
 | [Scheduling & Automation](/lib/09-harness/harness-engineering-guide-nexu/guide-scheduling-and-automation) | Cron, heartbeats, event triggers. Session targeting, delivery, LangSmith vs harness-native comparison. |

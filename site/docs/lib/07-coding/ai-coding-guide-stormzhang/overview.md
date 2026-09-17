@@ -9,12 +9,17 @@ tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/stormzhang/ai-coding-guide"
 entryUrl: "https://github.com/stormzhang/ai-coding-guide/blob/d187dbdb83fa1be051a850074eb518e30e2eb47c/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/07-coding/ai-coding-guide-stormzhang/README.md"
+sourceSha256: "2db0e5d87e77341ec6c8578964bcad4089217e0d335153b84c18e41905b750e7"
+pageSha256: "2db0e5d87e77341ec6c8578964bcad4089217e0d335153b84c18e41905b750e7"
+contentMode: "local-full"
 zh: ""
 ---
 
 # Codex 中文教程与 AI 编程指南（含 Claude Code）
 
-**简体中文** | [English](https://github.com/stormzhang/ai-coding-guide/blob/d187dbdb83fa1be051a850074eb518e30e2eb47c/README.en.md)
+**简体中文** | [English](/lib/07-coding/ai-coding-guide-stormzhang/README.en)
 
 > 📘 **92 篇 · 约 52 万字** 精修中文教程，主力推荐 **Codex 39 篇**，同时保留 **Claude Code 53 篇**。适合 0 基础学习，从安装入门一直走到工程实战。
 

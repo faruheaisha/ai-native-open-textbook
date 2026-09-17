@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/filipecalegario/awesome-vibe-coding"
-entryUrl: "https://github.com/filipecalegario/awesome-vibe-coding/blob/59d50281e40651d574ea0ead592a08019d74730d/README.md"
+entryUrl: "https://github.com/filipecalegario/awesome-vibe-coding/blob/59d50281e40651d574ea0ead592a08019d74730d/README-CN.md"
+sourceRel: "README-CN.md"
+rawUrl: "/raw/07-coding/awesome-vibe-coding/README-CN.md"
+sourceSha256: "98fa47da1f15c79a0845f29c21d622b53ca7b8dd079fa0c440b04a4524cc94a6"
+pageSha256: "98fa47da1f15c79a0845f29c21d622b53ca7b8dd079fa0c440b04a4524cc94a6"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -16,7 +21,7 @@ zh: ""
 
 > 精选的氛围编程参考资源列表，与AI协作编写代码。
 
-[English](/lib/07-coding/awesome-vibe-coding/overview) | [Português](https://github.com/filipecalegario/awesome-vibe-coding/blob/59d50281e40651d574ea0ead592a08019d74730d/README-PT.md) | [한국어](https://github.com/filipecalegario/awesome-vibe-coding/blob/59d50281e40651d574ea0ead592a08019d74730d/README-KR.md) | 中文 | [日本語](https://github.com/filipecalegario/awesome-vibe-coding/blob/59d50281e40651d574ea0ead592a08019d74730d/README-JP.md)
+[English](/lib/07-coding/awesome-vibe-coding/overview) | [Português](https://github.com/filipecalegario/awesome-vibe-coding/blob/59d50281e40651d574ea0ead592a08019d74730d/README-PT.md) | [한국어](/lib/07-coding/awesome-vibe-coding/README-KR) | 中文 | [日本語](/lib/07-coding/awesome-vibe-coding/README-JP)
 
 ## 目录 
 

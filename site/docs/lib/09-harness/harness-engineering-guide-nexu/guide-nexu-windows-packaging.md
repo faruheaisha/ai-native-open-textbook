@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/nexu-io/harness-engineering-guide"
-entryUrl: "https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/README.md"
+entryUrl: "https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/nexu-windows-packaging.md"
+sourceRel: "guide/nexu-windows-packaging.md"
+rawUrl: "/raw/09-harness/harness-engineering-guide-nexu/guide/nexu-windows-packaging.md"
+sourceSha256: "fcdcdb35149fbeaf98cccfd905fc25df1c15f37efb53969c8a6c499e0f594264"
+pageSha256: "fcdcdb35149fbeaf98cccfd905fc25df1c15f37efb53969c8a6c499e0f594264"
+contentMode: "local-full"
 zh: ""
 ---
 

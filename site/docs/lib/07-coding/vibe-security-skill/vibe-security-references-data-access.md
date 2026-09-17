@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/raroque/vibe-security-skill"
-entryUrl: "https://github.com/raroque/vibe-security-skill/blob/850938f20f6915e7c3688d85c0a838f7909c87bb/README.md"
+entryUrl: "https://github.com/raroque/vibe-security-skill/blob/850938f20f6915e7c3688d85c0a838f7909c87bb/vibe-security/references/data-access.md"
+sourceRel: "vibe-security/references/data-access.md"
+rawUrl: "/raw/07-coding/vibe-security-skill/vibe-security/references/data-access.md"
+sourceSha256: "e69c2721958d9a82b362910da8fac151ecb7bfd37f987d1d997db36d99cefe7e"
+pageSha256: "e69c2721958d9a82b362910da8fac151ecb7bfd37f987d1d997db36d99cefe7e"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -30,7 +35,7 @@ const result = await db.query('SELECT * FROM users WHERE id = $1', [userId]);
 
 Even with an ORM, injection is possible:
 
-- **Validate input types with Zod before passing to Prisma.** `findFirst` and similar methods are vulnerable to operator injection if unvalidated objects are passed as filter values. An attacker can send `{ "email": { "contains": "" } }` to match all records.
+- **Validate input types with Zod before passing to Prisma.** `findFirst` and similar methods are vulnerable to operator injection if unvalidated objects are passed as filter values. An attacker can send `\{ "email": \{ "contains": "" \} \}` to match all records.
 
 ```typescript
 // BAD: raw request body passed directly to Prisma

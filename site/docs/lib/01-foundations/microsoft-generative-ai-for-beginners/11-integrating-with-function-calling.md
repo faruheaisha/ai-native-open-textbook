@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "01-foundations"
 sourceUrl: "https://github.com/microsoft/generative-ai-for-beginners"
-entryUrl: "https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/README.md"
+entryUrl: "https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/11-integrating-with-function-calling/README.md"
+sourceRel: "11-integrating-with-function-calling/README.md"
+rawUrl: "/raw/01-foundations/microsoft-generative-ai-for-beginners/11-integrating-with-function-calling/README.md"
+sourceSha256: "be93cd9a3a2816cdef3055eeb33cd6e1c61b1fc56b76aca2a8e63f50ee03cecb"
+pageSha256: "be93cd9a3a2816cdef3055eeb33cd6e1c61b1fc56b76aca2a8e63f50ee03cecb"
+contentMode: "local-full"
 zh: ""
 ---
 

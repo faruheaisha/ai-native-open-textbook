@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/lopopolo/harness-engineering"
-entryUrl: "https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/README.md"
+entryUrl: "https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/docs/last-mile-deployment/README.md"
+sourceRel: "docs/last-mile-deployment/README.md"
+rawUrl: "/raw/09-harness/harness-engineering-anthology/docs/last-mile-deployment/README.md"
+sourceSha256: "1028310767b7ac85bb17881cf5ad4258f3b388a5739d2d0ab452faa1c36556ab"
+pageSha256: "1028310767b7ac85bb17881cf5ad4258f3b388a5739d2d0ab452faa1c36556ab"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/ShouZhengAI/CS146S_CN"
-entryUrl: "https://github.com/ShouZhengAI/CS146S_CN/blob/0d65f36f6673147d6c298670da4f9b4bd7f991fa/README.md"
+entryUrl: "https://github.com/ShouZhengAI/CS146S_CN/blob/0d65f36f6673147d6c298670da4f9b4bd7f991fa/Assignments/week5/README.md"
+sourceRel: "Assignments/week5/README.md"
+rawUrl: "/raw/07-coding/cs146s-cn/Assignments/week5/README.md"
+sourceSha256: "4d5da7cef0f2e1a4afff33a2a929d640a044bf9f8a20951f5a983464722cb16a"
+pageSha256: "4d5da7cef0f2e1a4afff33a2a929d640a044bf9f8a20951f5a983464722cb16a"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -31,7 +36,7 @@ backend/tests/               API、关系、事务、错误和提取测试
 .warp/prompts/               多智能体角色与交接策略
 ```
 
-所有 API 成功时返回 `{ "ok": true, "data": ... }`；失败时返回 `{ "ok": false, "data": null, "error": { "code": ..., "message": ... } }`。集合的 `data` 包含 `items`、`total`、`page`、`page_size`。
+所有 API 成功时返回 `\{ "ok": true, "data": ... \}`；失败时返回 `\{ "ok": false, "data": null, "error": \{ "code": ..., "message": ... \} \}`。集合的 `data` 包含 `items`、`total`、`page`、`page_size`。
 
 ## 安装与运行
 
@@ -60,12 +65,12 @@ make format
 
 - `GET /notes/?page=1&page_size=10&tag=python`
 - `GET /notes/search?q=api&page=1&page_size=10&sort=created_desc|title_asc`
-- `POST /notes/`、`GET/PUT/DELETE /notes/{id}`
-- `POST /notes/{id}/extract?apply=true`
+- `POST /notes/`、`GET/PUT/DELETE /notes/\{id\}`
+- `POST /notes/\{id\}/extract?apply=true`
 - `GET /action-items/?completed=false&page=1&page_size=10`
 - `POST /action-items/bulk-complete`
-- `GET/POST /tags/`、`DELETE /tags/{id}`
-- `POST /notes/{id}/tags`、`DELETE /notes/{id}/tags/{tag_id}`
+- `GET/POST /tags/`、`DELETE /tags/\{id\}`
+- `POST /notes/\{id\}/tags`、`DELETE /notes/\{id\}/tags/\{tag_id\}`
 
 ## Warp Drive 使用
 

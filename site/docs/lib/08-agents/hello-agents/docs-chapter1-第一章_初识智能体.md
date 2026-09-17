@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/datawhalechina/hello-agents"
-entryUrl: "https://github.com/datawhalechina/hello-agents/blob/4f7682ceafe573d07cd8a7d0b89908500e83227d/docs/前言.md"
+entryUrl: "https://github.com/datawhalechina/hello-agents/blob/4f7682ceafe573d07cd8a7d0b89908500e83227d/docs/chapter1/第一章%20初识智能体.md"
+sourceRel: "docs/chapter1/第一章 初识智能体.md"
+rawUrl: "/raw/08-agents/hello-agents/docs/chapter1/第一章 初识智能体.md"
+sourceSha256: "f51dd1ae0d05c402bf7e948b436b432f36b189351c54fe6c272f2abf82475f08"
+pageSha256: "f51dd1ae0d05c402bf7e948b436b432f36b189351c54fe6c272f2abf82475f08"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -273,7 +278,7 @@ def get_weather(city: str) -> str:
     通过调用 wttr.in API 查询真实的天气信息。
     """
     # API端点，我们请求JSON格式的数据
-    url = f"https://wttr.in/{city}?format=j1"
+    url = f"https://wttr.in/\{city\}?format=j1"
     
     try:
         # 发起网络请求
@@ -289,14 +294,14 @@ def get_weather(city: str) -> str:
         temp_c = current_condition['temp_C']
         
         # 格式化成自然语言返回
-        return f"{city}当前天气:{weather_desc}，气温{temp_c}摄氏度"
+        return f"\{city\}当前天气:\{weather_desc\}，气温\{temp_c\}摄氏度"
         
     except requests.exceptions.RequestException as e:
         # 处理网络错误
-        return f"错误:查询天气时遇到网络问题 - {e}"
+        return f"错误:查询天气时遇到网络问题 - \{e\}"
     except (KeyError, IndexError) as e:
         # 处理数据解析错误
-        return f"错误:解析天气数据失败，可能是城市名称无效 - {e}"
+        return f"错误:解析天气数据失败，可能是城市名称无效 - \{e\}"
 ```
 
 （3）工具 2：搜索并推荐旅游景点
@@ -320,7 +325,7 @@ def get_attraction(city: str, weather: str) -> str:
     tavily = TavilyClient(api_key=api_key)
     
     # 3. 构造一个精确的查询
-    query = f"'{city}' 在'{weather}'天气下最值得去的旅游景点推荐及理由"
+    query = f"'\{city\}' 在'\{weather\}'天气下最值得去的旅游景点推荐及理由"
     
     try:
         # 4. 调用API，include_answer=True会返回一个综合性的回答
@@ -334,7 +339,7 @@ def get_attraction(city: str, weather: str) -> str:
         # 如果没有综合性回答，则格式化原始结果
         formatted_results = []
         for result in response.get("results", []):
-            formatted_results.append(f"- {result['title']}: {result['content']}")
+            formatted_results.append(f"- \{result['title']\}: \{result['content']\}")
         
         if not formatted_results:
              return "抱歉，没有找到相关的旅游景点推荐。"
@@ -342,17 +347,17 @@ def get_attraction(city: str, weather: str) -> str:
         return "根据搜索，为您找到以下信息:\n" + "\n".join(formatted_results)
 
     except Exception as e:
-        return f"错误:执行Tavily搜索时出现问题 - {e}"
+        return f"错误:执行Tavily搜索时出现问题 - \{e\}"
 ```
 
 最后，我们将所有工具函数放入一个字典，供主循环调用：
 
 ```python
 # 将所有工具函数放入一个字典，方便后续调用
-available_tools = {
+available_tools = \{
     "get_weather": get_weather,
     "get_attraction": get_attraction,
-}
+\}
 ```
 
 
@@ -377,8 +382,8 @@ class OpenAICompatibleClient:
         print("正在调用大语言模型...")
         try:
             messages = [
-                {'role': 'system', 'content': system_prompt},
-                {'role': 'user', 'content': prompt}
+                \{'role': 'system', 'content': system_prompt\},
+                \{'role': 'user', 'content': prompt\}
             ]
             response = self.client.chat.completions.create(
                 model=self.model,
@@ -389,7 +394,7 @@ class OpenAICompatibleClient:
             print("大语言模型响应成功。")
             return answer
         except Exception as e:
-            print(f"调用LLM API时发生错误: {e}")
+            print(f"调用LLM API时发生错误: \{e\}")
             return "错误:调用语言模型服务时出错。"
 ```
 
@@ -418,13 +423,13 @@ llm = OpenAICompatibleClient(
 
 # --- 2. 初始化 ---
 user_prompt = "你好，请帮我查询一下今天北京的天气，然后根据天气推荐一个合适的旅游景点。"
-prompt_history = [f"用户请求: {user_prompt}"]
+prompt_history = [f"用户请求: \{user_prompt\}"]
 
-print(f"用户输入: {user_prompt}\n" + "="*40)
+print(f"用户输入: \{user_prompt\}\n" + "="*40)
 
 # --- 3. 运行主循环 ---
 for i in range(5): # 设置最大循环次数
-    print(f"--- 循环 {i+1} ---\n")
+    print(f"--- 循环 \{i+1\} ---\n")
     
     # 3.1. 构建Prompt
     full_prompt = "\n".join(prompt_history)
@@ -438,22 +443,22 @@ for i in range(5): # 设置最大循环次数
         if truncated != llm_output.strip():
             llm_output = truncated
             print("已截断多余的 Thought-Action 对")
-    print(f"模型输出:\n{llm_output}\n")
+    print(f"模型输出:\n\{llm_output\}\n")
     prompt_history.append(llm_output)
     
     # 3.3. 解析并执行行动
     action_match = re.search(r"Action: (.*)", llm_output, re.DOTALL)
     if not action_match:
         observation = "错误: 未能解析到 Action 字段。请确保你的回复严格遵循 'Thought: ... Action: ...' 的格式。"
-        observation_str = f"Observation: {observation}"
-        print(f"{observation_str}\n" + "="*40)
+        observation_str = f"Observation: \{observation\}"
+        print(f"\{observation_str\}\n" + "="*40)
         prompt_history.append(observation_str)
         continue
     action_str = action_match.group(1).strip()
 
     if action_str.startswith("Finish"):
         final_answer = re.match(r"Finish\[(.*)\]", action_str).group(1)
-        print(f"任务完成，最终答案: {final_answer}")
+        print(f"任务完成，最终答案: \{final_answer\}")
         break
     
     tool_name = re.search(r"(\w+)\(", action_str).group(1)
@@ -463,11 +468,11 @@ for i in range(5): # 设置最大循环次数
     if tool_name in available_tools:
         observation = available_tools[tool_name](https://github.com/datawhalechina/hello-agents/blob/4f7682ceafe573d07cd8a7d0b89908500e83227d/docs/chapter1/**kwargs/README.md)
     else:
-        observation = f"错误:未定义的工具 '{tool_name}'"
+        observation = f"错误:未定义的工具 '\{tool_name\}'"
 
     # 3.4. 记录观察结果
-    observation_str = f"Observation: {observation}"
-    print(f"{observation_str}\n" + "="*40)
+    observation_str = f"Observation: \{observation\}"
+    print(f"\{observation_str\}\n" + "="*40)
     prompt_history.append(observation_str)
 ```
 

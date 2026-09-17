@@ -9,6 +9,11 @@ tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/ed-donner/production"
 entryUrl: "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/08-agents/ed-donner-production/README.md"
+sourceSha256: "fc5e1d1ef7c314d737cfc7e9301958f80e5c7fff83406f054ae37c124d304f4f"
+pageSha256: "fc5e1d1ef7c314d737cfc7e9301958f80e5c7fff83406f054ae37c124d304f4f"
+contentMode: "local-full"
 zh: ""
 ---
 

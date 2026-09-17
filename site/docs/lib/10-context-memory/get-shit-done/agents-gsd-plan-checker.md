@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/gsd-build/get-shit-done"
-entryUrl: "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/README.md"
+entryUrl: "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/agents/gsd-plan-checker.md"
+sourceRel: "agents/gsd-plan-checker.md"
+rawUrl: "/raw/10-context-memory/get-shit-done/agents/gsd-plan-checker.md"
+sourceSha256: "e92c2937abab2460d5abee05371d3e532b3ff8ea7999dad48beb62d0f59a6a1a"
+pageSha256: "e92c2937abab2460d5abee05371d3e532b3ff8ea7999dad48beb62d0f59a6a1a"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -456,7 +461,7 @@ Before running checks 8a-8d, verify VALIDATION.md exists:
 ls "${PHASE_DIR}"/*-VALIDATION.md 2>/dev/null
 ```
 
-**If missing:** **BLOCKING FAIL** — "VALIDATION.md not found for phase {N}. Re-run `/gsd:plan-phase {N} --research` to regenerate."
+**If missing:** **BLOCKING FAIL** — "VALIDATION.md not found for phase \{N\}. Re-run `/gsd:plan-phase \{N\} --research` to regenerate."
 Skip checks 8a-8d entirely. Report Dimension 8 as FAIL with this single issue.
 
 **If exists:** Proceed to checks 8a-8d.
@@ -685,7 +690,7 @@ for plan in "$PHASE_DIR"/*-PLAN.md; do
 done
 ```
 
-Parse JSON result: `{ valid, errors, warnings, task_count, tasks: [{name, hasFiles, hasAction, hasVerify, hasDone}], frontmatter_fields }`
+Parse JSON result: `\{ valid, errors, warnings, task_count, tasks: [\{name, hasFiles, hasAction, hasVerify, hasDone\}], frontmatter_fields \}`
 
 Map errors/warnings to verification dimensions:
 - Missing frontmatter field → `task_completeness` or `must_haves_derivation`
@@ -701,7 +706,7 @@ Extract must_haves from each plan using `gsd-sdk query`:
 MUST_HAVES=$(gsd-sdk query frontmatter.get "$PLAN_PATH" must_haves)
 ```
 
-Returns JSON: `{ truths: [...], artifacts: [...], key_links: [...] }`
+Returns JSON: `\{ truths: [...], artifacts: [...], key_links: [...] \}`
 
 **Expected structure:**
 

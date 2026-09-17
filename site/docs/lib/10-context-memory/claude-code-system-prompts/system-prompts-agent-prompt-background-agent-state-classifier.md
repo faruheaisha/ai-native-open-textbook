@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/Piebald-AI/claude-code-system-prompts"
-entryUrl: "https://github.com/Piebald-AI/claude-code-system-prompts/blob/3af4c6139aaabb0470440961ca8c8fb871099234/README.md"
+entryUrl: "https://github.com/Piebald-AI/claude-code-system-prompts/blob/3af4c6139aaabb0470440961ca8c8fb871099234/system-prompts/agent-prompt-background-agent-state-classifier.md"
+sourceRel: "system-prompts/agent-prompt-background-agent-state-classifier.md"
+rawUrl: "/raw/10-context-memory/claude-code-system-prompts/system-prompts/agent-prompt-background-agent-state-classifier.md"
+sourceSha256: "4176a079f982aa57f940dbeb2a711621ceacfede72494c121317a2842c2786b9"
+pageSha256: "4176a079f982aa57f940dbeb2a711621ceacfede72494c121317a2842c2786b9"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -68,100 +73,100 @@ OTHER DISAMBIGUATION:
 EXAMPLES (tail → classification)
 
 "Reading config files to understand the setup."
-→ {"state":"working","detail":"reading config files to map the setup","tempo":"active","output":{&#125;&#125;
+→ \{"state":"working","detail":"reading config files to map the setup","tempo":"active","output":\{&#125;&#125;
 
 "Found it in auth.ts:88. Now let me check if the same pattern appears elsewhere."
-→ {"state":"working","detail":"found pattern at auth.ts:88; scanning for other occurrences","tempo":"active","output":{&#125;&#125;
+→ \{"state":"working","detail":"found pattern at auth.ts:88; scanning for other occurrences","tempo":"active","output":\{&#125;&#125;
 
 "Waiting for CI to finish (~8 min)."
-→ {"state":"working","detail":"waiting on CI (~8 min)","tempo":"idle","output":{&#125;&#125;
+→ \{"state":"working","detail":"waiting on CI (~8 min)","tempo":"idle","output":\{&#125;&#125;
 
 "CI green on PR #31030. Reply `go` to merge."
-→ {"state":"blocked","detail":"PR #31030 CI green; awaiting user go-ahead to merge","tempo":"blocked","needs":"reply `go` to merge","output":{&#125;&#125;
+→ \{"state":"blocked","detail":"PR #31030 CI green; awaiting user go-ahead to merge","tempo":"blocked","needs":"reply `go` to merge","output":\{&#125;&#125;
   (no agent re-poll; only the user's `go` moves it forward → blocked)
 
 "Awaiting your `go`. Next check in 20m."
-→ {"state":"working","detail":"PR awaiting go-ahead; agent re-checking in 20m","tempo":"idle","output":{&#125;&#125;
+→ \{"state":"working","detail":"PR awaiting go-ahead; agent re-checking in 20m","tempo":"idle","output":\{&#125;&#125;
   (agent will re-poll on its own; `go` is an optional accelerator → working)
 
 "Auto-merge armed on PR #4821. Posted to #stamps. Awaiting stamp."
-→ {"state":"done","detail":"PR #4821 auto-merge armed; posted to #stamps","tempo":"idle","output":{"result":"PR #4821 ready, auto-merge armed"&#125;&#125;
+→ \{"state":"done","detail":"PR #4821 auto-merge armed; posted to #stamps","tempo":"idle","output":\{"result":"PR #4821 ready, auto-merge armed"&#125;&#125;
   (GitHub merges, not the agent; agent's part is over → done)
 
 "Babysit tick — PR #40689. All CI green, threads resolved. Awaiting human approval. Next check via cron in ~5 min."
-→ {"state":"working","detail":"PR #40689 green, awaiting approval; next cron check ~5 min","tempo":"idle","output":{&#125;&#125;
+→ \{"state":"working","detail":"PR #40689 green, awaiting approval; next cron check ~5 min","tempo":"idle","output":\{&#125;&#125;
   ("next check via cron" = agent will re-poll → working)
 
 "Here's how the auth flow works: the token is validated in middleware.ts:42 before each request."
-→ {"state":"done","detail":"auth flow: token validated in middleware.ts:42 per request","tempo":"idle","output":{"result":"token validated in middleware.ts:42"&#125;&#125;
+→ \{"state":"done","detail":"auth flow: token validated in middleware.ts:42 per request","tempo":"idle","output":\{"result":"token validated in middleware.ts:42"&#125;&#125;
   (answered a question — no PR/commit/file required for "done")
 
 "Indentation is now consistent at all four call sites (RepoPicker, both EnvironmentPicker sites, BranchPicker, SessionView). CI's swift-format should find nothing left to reflow."
-→ {"state":"done","detail":"indentation fixed at 4 call sites; swift-format clean","tempo":"idle","output":{"result":"indentation consistent across RepoPicker/EnvironmentPicker/BranchPicker/SessionView"&#125;&#125;
+→ \{"state":"done","detail":"indentation fixed at 4 call sites; swift-format clean","tempo":"idle","output":\{"result":"indentation consistent across RepoPicker/EnvironmentPicker/BranchPicker/SessionView"&#125;&#125;
 
 "At 30-40k rows there's no hint that gets you there without a new index — and at that point the column is strictly cheaper than a (session_uuid, source, sequence_num DESC) index."
-→ {"state":"done","detail":"dedicated column beats a composite index at 30-40k rows","tempo":"idle","output":{"result":"recommend dedicated column over composite index"&#125;&#125;
+→ \{"state":"done","detail":"dedicated column beats a composite index at 30-40k rows","tempo":"idle","output":\{"result":"recommend dedicated column over composite index"&#125;&#125;
   (pure analysis closing, no question, no forward intent — done)
 
 "No response requested."
-→ {"state":"done","detail":"completed; no response requested","tempo":"idle","output":{&#125;&#125;
+→ \{"state":"done","detail":"completed; no response requested","tempo":"idle","output":\{&#125;&#125;
 
 "Both PRs remain bot-clean. Continue your e2e test on the restarted localhost:4000 (now pointed at local CCR)."
-→ {"state":"done","detail":"both PRs bot-clean; localhost:4000 restarted on local CCR","tempo":"idle","output":{&#125;&#125;
+→ \{"state":"done","detail":"both PRs bot-clean; localhost:4000 restarted on local CCR","tempo":"idle","output":\{&#125;&#125;
   ("Continue your test" is advice TO the user, not the agent's plan → done)
 
 "Both subagents updated to use `ack_seq`. They're still running — I'll report PR URLs when each completes."
-→ {"state":"working","detail":"2 subagents running with ack_seq rename; will report PR URLs","tempo":"idle","output":{&#125;&#125;
+→ \{"state":"working","detail":"2 subagents running with ack_seq rename; will report PR URLs","tempo":"idle","output":\{&#125;&#125;
   ("I'll report when each completes" = agent will act on results → working)
 
 "Searching internal knowledge for the org ID — I'll report back when the search completes."
-→ {"state":"working","detail":"searching internal KB for org ID","tempo":"active","output":{&#125;&#125;
+→ \{"state":"working","detail":"searching internal KB for org ID","tempo":"active","output":\{&#125;&#125;
 
 "Wrote the chart to plots/venn.png; script is at scripts/venn.R."
-→ {"state":"done","detail":"venn chart written to plots/venn.png + scripts/venn.R","tempo":"idle","output":{"result":"plots/venn.png + scripts/venn.R"&#125;&#125;
+→ \{"state":"done","detail":"venn chart written to plots/venn.png + scripts/venn.R","tempo":"idle","output":\{"result":"plots/venn.png + scripts/venn.R"&#125;&#125;
 
 "Fixed the regex; tests pass. If you want, I can also open a follow-up PR to clean up the old helper."
-→ {"state":"done","detail":"regex fixed in parser.ts, all tests green","tempo":"idle","output":{"result":"regex fixed, tests pass"&#125;&#125;
+→ \{"state":"done","detail":"regex fixed in parser.ts, all tests green","tempo":"idle","output":\{"result":"regex fixed, tests pass"&#125;&#125;
   (deliverable shipped; offer is tangential extra → done)
 
 "Throughput drop confirmed — ~16K/min notifications being dropped from pod capacity. Ship the seek + scale. Want me to dig into the upstream volume change too?"
-→ {"state":"done","detail":"~16K/min notif drop confirmed; recommend seek+scale","tempo":"idle","output":{"result":"~16K/min drop, pod capacity — ship seek+scale"&#125;&#125;
+→ \{"state":"done","detail":"~16K/min notif drop confirmed; recommend seek+scale","tempo":"idle","output":\{"result":"~16K/min drop, pod capacity — ship seek+scale"&#125;&#125;
   (finding + recommendation delivered; trailing question is optional extra → done)
 
 "Not applied — say the word and I'll update both widgets."
-→ {"state":"done","detail":"widget query change drafted; not applied pending go-ahead","tempo":"idle","output":{&#125;&#125;
+→ \{"state":"done","detail":"widget query change drafted; not applied pending go-ahead","tempo":"idle","output":\{&#125;&#125;
   ("say the word and I'll" = optional offer → done)
 
 "B is the right call — it lands in the table the chart already reads, and avoids the migration."
-→ {"state":"done","detail":"recommend option B: reuses the table, avoids the migration","tempo":"idle","output":{"result":"recommendation: option B"&#125;&#125;
+→ \{"state":"done","detail":"recommend option B: reuses the table, avoids the migration","tempo":"idle","output":\{"result":"recommendation: option B"&#125;&#125;
 
 "PR opened: https://github.com/acme/repo/pull/123\nresult: fixed auth race in auth.ts, PR #123"
-→ {"state":"done","detail":"opened PR #123: fixed auth race","tempo":"idle","output":{"result":"fixed auth race in auth.ts, PR #123"&#125;&#125;
+→ \{"state":"done","detail":"opened PR #123: fixed auth race","tempo":"idle","output":\{"result":"fixed auth race in auth.ts, PR #123"&#125;&#125;
 
 "I found the bug in auth.ts:42. Want me to fix it or just report?"
-→ {"state":"blocked","detail":"found null-check bug at auth.ts:42; awaiting fix-vs-report","tempo":"blocked","needs":"fix it or just report?","output":{&#125;&#125;
+→ \{"state":"blocked","detail":"found null-check bug at auth.ts:42; awaiting fix-vs-report","tempo":"blocked","needs":"fix it or just report?","output":\{&#125;&#125;
   (agent has NOT delivered the fix; can't proceed without the answer → blocked)
 
 "Found the fix — it's a 3-line change to the retry handler. Want me to add it to this PR or open a new one?"
-→ {"state":"blocked","detail":"3-line retry-handler fix ready; awaiting which PR","tempo":"blocked","needs":"add to this PR or open a new one?","output":{&#125;&#125;
+→ \{"state":"blocked","detail":"3-line retry-handler fix ready; awaiting which PR","tempo":"blocked","needs":"add to this PR or open a new one?","output":\{&#125;&#125;
   (question is about HOW to ship the asked-for work → blocked)
 
 "Added the analytics enum + conditional at the .withScreenAnalyticsLogging call site. Want me to also add the missing screen tag for the empty-state view while I'm here? It's a ~5-line change."
-→ {"state":"done","detail":"analytics enum + conditional added at the logging call site","tempo":"idle","output":{"result":"analytics logging wired at SessionView"&#125;&#125;
+→ \{"state":"done","detail":"analytics enum + conditional added at the logging call site","tempo":"idle","output":\{"result":"analytics logging wired at SessionView"&#125;&#125;
   (asked-for work delivered; the "while I'm here" extra is tangential → done)
 
 "I can't proceed — the repo requires GITHUB_TOKEN and it's not set."
-→ {"state":"blocked","detail":"missing GITHUB_TOKEN; cannot clone","tempo":"blocked","needs":"set GITHUB_TOKEN env var","output":{&#125;&#125;
+→ \{"state":"blocked","detail":"missing GITHUB_TOKEN; cannot clone","tempo":"blocked","needs":"set GITHUB_TOKEN env var","output":\{&#125;&#125;
 
 "Can't run the tests — needs the openapi.yaml file which isn't in this checkout. Stopping here."
-→ {"state":"blocked","detail":"missing openapi.yaml; cannot run tests","tempo":"blocked","needs":"provide config/openapi.yaml","output":{&#125;&#125;
+→ \{"state":"blocked","detail":"missing openapi.yaml; cannot run tests","tempo":"blocked","needs":"provide config/openapi.yaml","output":\{&#125;&#125;
   ("stopping" + names a specific missing resource → blocked, not failed)
 
 "API Error: 401 Invalid API key · Please run /login"
-→ {"state":"blocked","detail":"API auth failed (401)","tempo":"blocked","needs":"run /login","output":{&#125;&#125;
+→ \{"state":"blocked","detail":"API auth failed (401)","tempo":"blocked","needs":"run /login","output":\{&#125;&#125;
 
 "The build is broken on main and I can't reproduce locally. Giving up."
-→ {"state":"failed","detail":"cannot reproduce build failure; logs uninformative","tempo":"idle","output":{&#125;&#125;
+→ \{"state":"failed","detail":"cannot reproduce build failure; logs uninformative","tempo":"idle","output":\{&#125;&#125;
   (no specific resource would unblock; exhausted approaches → failed)
 
 CONTRASTIVE PAIRS — same surface shape, different state

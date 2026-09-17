@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/ed-donner/production"
-entryUrl: "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/README.md"
+entryUrl: "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/community_contributions/arijitdeb1_nova_lite_invocation_error_fix.md"
+sourceRel: "community_contributions/arijitdeb1_nova_lite_invocation_error_fix.md"
+rawUrl: "/raw/08-agents/ed-donner-production/community_contributions/arijitdeb1_nova_lite_invocation_error_fix.md"
+sourceSha256: "29c8749cf508e27c1bc5db4020d0fa6d53bc967a962a5411b9404ff2b22820fd"
+pageSha256: "29c8749cf508e27c1bc5db4020d0fa6d53bc967a962a5411b9404ff2b22820fd"
+contentMode: "local-full"
 zh: ""
 ---
 

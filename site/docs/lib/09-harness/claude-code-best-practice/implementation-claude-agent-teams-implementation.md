@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/shanraisshan/claude-code-best-practice"
-entryUrl: "https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/README.md"
+entryUrl: "https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/implementation/claude-agent-teams-implementation.md"
+sourceRel: "implementation/claude-agent-teams-implementation.md"
+rawUrl: "/raw/09-harness/claude-code-best-practice/implementation/claude-agent-teams-implementation.md"
+sourceSha256: "f70c9d94f79a162bbc0d1a367797af14feb6bb174103451f4da55f1264d86fb8"
+pageSha256: "f70c9d94f79a162bbc0d1a367797af14feb6bb174103451f4da55f1264d86fb8"
+contentMode: "local-full"
 zh: "on"
 ---
 

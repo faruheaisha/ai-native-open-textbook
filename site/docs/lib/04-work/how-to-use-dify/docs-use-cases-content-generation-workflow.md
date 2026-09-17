@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/hijasonxu1/How-to-use-dify"
-entryUrl: "https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/README.md"
+entryUrl: "https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/docs/use-cases/content-generation-workflow.md"
+sourceRel: "docs/use-cases/content-generation-workflow.md"
+rawUrl: "/raw/04-work/how-to-use-dify/docs/use-cases/content-generation-workflow.md"
+sourceSha256: "6be99dafa5b3538cec78fbc5e36d5a2d234df62efdc84765f90b0a1c93c423fb"
+pageSha256: "6be99dafa5b3538cec78fbc5e36d5a2d234df62efdc84765f90b0a1c93c423fb"
+contentMode: "local-full"
 zh: ""
 ---
 

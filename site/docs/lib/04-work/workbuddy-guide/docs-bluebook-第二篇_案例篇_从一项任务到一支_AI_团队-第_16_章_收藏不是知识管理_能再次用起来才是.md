@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/AlephAITech/WorkBuddyGuide"
-entryUrl: "https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89da368fe208425ff50e121fe/README.md"
+entryUrl: "https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇%20案例篇：从一项任务到一支%20AI%20团队/第%2016%20章%20收藏不是知识管理，能再次用起来才是/index.md"
+sourceRel: "docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 16 章 收藏不是知识管理，能再次用起来才是/index.md"
+rawUrl: "/raw/04-work/workbuddy-guide/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 16 章 收藏不是知识管理，能再次用起来才是/index.md"
+sourceSha256: "96a05da72d423bae9a5c7745dc6686498286e40355bc7298f5db3945d032dc0a"
+pageSha256: "96a05da72d423bae9a5c7745dc6686498286e40355bc7298f5db3945d032dc0a"
+contentMode: "local-full"
 zh: ""
 ---
 

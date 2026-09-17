@@ -1,0 +1,18 @@
+{
+  "id": "10-context-memory/openai-skills",
+  "volume": "10-context-memory",
+  "local": "openai-skills",
+  "title": "Agent Skills",
+  "kind": "技能与配置库",
+  "license": "逐技能 LICENSE.txt（抽样为 Apache-2.0）",
+  "licenseLabel": "仅引用",
+  "licenseNote": "技能包逐条许可不同，含限制性条款，站内仅做导航与引用",
+  "lang": "英文",
+  "needsTranslation": true,
+  "publishable": false,
+  "repo": "openai/skills",
+  "site": null,
+  "commit": "49f948faa9258a0c61caceaf225e179651397431",
+  "entryUrl": "https://github.com/openai/skills/blob/49f948faa9258a0c61caceaf225e179651397431/README.md",
+  "docs": 523
+}

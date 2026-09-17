@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering"
-entryUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering/blob/8b2a55d97590363fe50c3cc6b5e833b020a4bb4c/README.md"
+entryUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering/blob/8b2a55d97590363fe50c3cc6b5e833b020a4bb4c/agents/evolve_agent/skills/nexau-evolution-guide/reference/hooks.md"
+sourceRel: "agents/evolve_agent/skills/nexau-evolution-guide/reference/hooks.md"
+rawUrl: "/raw/09-harness/agentic-harness-engineering/agents/evolve_agent/skills/nexau-evolution-guide/reference/hooks.md"
+sourceSha256: "1650eecabea3741745bbae70d00e5eb8dd0631a87f838db5a6238e2c099312f6"
+pageSha256: "1650eecabea3741745bbae70d00e5eb8dd0631a87f838db5a6238e2c099312f6"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -298,7 +303,7 @@ middleware = LongToolOutputMiddleware(
 - **String output**: Directly truncated and appended with a hint.
 - **Dict with `content` key**: Truncates the `content` field; other keys (e.g. `returnDisplay`) are preserved.
 - **Dict with `result` key**: Same as `content`.
-- **Dict without known keys**: Serializes the full dict as JSON, truncates, and wraps in `{"content": ...}`.
+- **Dict without known keys**: Serializes the full dict as JSON, truncates, and wraps in `\{"content": ...\}`.
 
 **Truncated output example:**
 

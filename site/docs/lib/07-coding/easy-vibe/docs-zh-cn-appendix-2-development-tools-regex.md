@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/datawhalechina/easy-vibe"
-entryUrl: "https://github.com/datawhalechina/easy-vibe/blob/130e9b75b28b524e8cc74e615fd9733a4e2b330d/README.md"
+entryUrl: "https://github.com/datawhalechina/easy-vibe/blob/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/appendix/2-development-tools/regex.md"
+sourceRel: "docs/zh-cn/appendix/2-development-tools/regex.md"
+rawUrl: "/raw/07-coding/easy-vibe/docs/zh-cn/appendix/2-development-tools/regex.md"
+sourceSha256: "5fd732183744ff3d934fb6f3dbe9fab8b2eb03f06b928169028a44e581348a39"
+pageSha256: "5fd732183744ff3d934fb6f3dbe9fab8b2eb03f06b928169028a44e581348a39"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -63,8 +68,8 @@ zh: ""
 | `*` | 0 次或多次 | `ab*` → a, ab, abbb |
 | `+` | 1 次或多次 | `ab+` → ab, abbb（不匹配 a） |
 | `?` | 0 次或 1 次 | `colou?r` → color, colour |
-| `{3}` | 恰好 3 次 | `\d{3}` → 123 |
-| `{2,4}` | 2 到 4 次 | `\d{2,4}` → 12, 1234 |
+| `\{3\}` | 恰好 3 次 | `\d\{3\}` → 123 |
+| `\{2,4\}` | 2 到 4 次 | `\d\{2,4\}` → 12, 1234 |
 
 ### 2.3 积木三：位置和分组
 
@@ -102,7 +107,7 @@ zh: ""
 拆解：
 - `1` — 以 1 开头
 - `[3-9]` — 第二位是 3-9
-- `\d{9}` — 后面跟 9 位数字
+- `\d\{9\}` — 后面跟 9 位数字
 
 ### 3.3 密码强度检查
 
@@ -114,7 +119,7 @@ zh: ""
 - `(?=.*[a-z])` — 至少一个小写字母（前瞻断言）
 - `(?=.*[A-Z])` — 至少一个大写字母
 - `(?=.*\d)` — 至少一个数字
-- `.{8,}` — 总长度至少 8 位
+- `.\{8,\}` — 总长度至少 8 位
 
 ---
 

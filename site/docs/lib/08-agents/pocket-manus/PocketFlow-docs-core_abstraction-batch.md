@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/Osly-AI/PocketManus"
-entryUrl: "https://github.com/Osly-AI/PocketManus/blob/8ab0ec5f2d5dc17ff58b060af7afcda08a9f57fd/README.md"
+entryUrl: "https://github.com/Osly-AI/PocketManus/blob/8ab0ec5f2d5dc17ff58b060af7afcda08a9f57fd/PocketFlow/docs/core_abstraction/batch.md"
+sourceRel: "PocketFlow/docs/core_abstraction/batch.md"
+rawUrl: "/raw/08-agents/pocket-manus/PocketFlow/docs/core_abstraction/batch.md"
+sourceSha256: "3f993c61808573cdf0cda17cb01b77a10808de9429f4132e88ca56db668518e3"
+pageSha256: "3f993c61808573cdf0cda17cb01b77a10808de9429f4132e88ca56db668518e3"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -76,7 +81,7 @@ summarize_all_files.run(shared)
 ```
 
 ### Under the Hood
-1. `prep(shared)` returns a list of param dicts—e.g., `[{filename: "file1.txt"}, {filename: "file2.txt"}, ...]`.
+1. `prep(shared)` returns a list of param dicts—e.g., `[\{filename: "file1.txt"\}, \{filename: "file2.txt"\}, ...]`.
 2. The **BatchFlow** loops through each dict. For each one:
    - It merges the dict with the BatchFlow’s own `params`.
    - It calls `flow.run(shared)` using the merged result.
@@ -87,7 +92,7 @@ summarize_all_files.run(shared)
 ## 3. Nested or Multi-Level Batches
 
 You can nest a **BatchFlow** in another **BatchFlow**. For instance:
-- **Outer** batch: returns a list of diretory param dicts (e.g., `{"directory": "/pathA"}`, `{"directory": "/pathB"}`, ...).
+- **Outer** batch: returns a list of diretory param dicts (e.g., `\{"directory": "/pathA"\}`, `\{"directory": "/pathB"\}`, ...).
 - **Inner** batch: returning a list of per-file param dicts.
 
 At each level, **BatchFlow** merges its own param dict with the parent’s. By the time you reach the **innermost** node, the final `params` is the merged result of **all** parents in the chain. This way, a nested structure can keep track of the entire context (e.g., directory + file name) at once.

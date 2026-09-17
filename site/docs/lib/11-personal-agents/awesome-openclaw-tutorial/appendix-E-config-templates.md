@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial"
-entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/README.md"
+entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/appendix/E-config-templates.md"
+sourceRel: "appendix/E-config-templates.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-tutorial/appendix/E-config-templates.md"
+sourceSha256: "04322f70867382d4d291b51842e5ade00be3ac553086a9a213d8f0609f1702d5"
+pageSha256: "04322f70867382d4d291b51842e5ade00be3ac553086a9a213d8f0609f1702d5"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -101,10 +106,10 @@ zh: ""
 
 > ⚠️ 模型认证通过 `openclaw models auth add` 命令交互式配置，API Key 不直接写在配置文件中。以下配置设置模型选择和备用策略。
 
-    {
-      agents: {
-        defaults: {
-          model: {
+    \{
+      agents: \{
+        defaults: \{
+          model: \{
             // 主模型：DeepSeek（最便宜）
             primary: "deepseek/deepseek-chat",
             // 备用模型：Kimi长文档 → GLM兜底
@@ -112,15 +117,15 @@ zh: ""
               "moonshot/moonshot-v1-128k",
               "zhipu/glm-4-flash",
             ],
-          },
-          models: {
-            "deepseek/deepseek-chat": { alias: "ds" },
-            "moonshot/moonshot-v1-128k": { alias: "kimi" },
-            "zhipu/glm-4-flash": { alias: "glm" },
-          },
-        },
-      },
-    }
+          \},
+          models: \{
+            "deepseek/deepseek-chat": \{ alias: "ds" \},
+            "moonshot/moonshot-v1-128k": \{ alias: "kimi" \},
+            "zhipu/glm-4-flash": \{ alias: "glm" \},
+          \},
+        \},
+      \},
+    \}
 
 **配置API Key（命令行执行）**：
 
@@ -149,48 +154,48 @@ zh: ""
 
 ### 2. 国际模型配置
 
-    {
-      agents: {
-        defaults: {
-          model: {
+    \{
+      agents: \{
+        defaults: \{
+          model: \{
             primary: "anthropic/claude-sonnet-4-5",
             fallbacks: [
               "openai/gpt-5.2",
               "anthropic/claude-opus-4-6",
             ],
-          },
-          imageModel: {
+          \},
+          imageModel: \{
             primary: "anthropic/claude-sonnet-4-5",
-          },
-          models: {
-            "anthropic/claude-opus-4-6": { alias: "opus" },
-            "anthropic/claude-sonnet-4-5": { alias: "sonnet" },
-            "openai/gpt-5.2": { alias: "gpt" },
-          },
-        },
-      },
-    }
+          \},
+          models: \{
+            "anthropic/claude-opus-4-6": \{ alias: "opus" \},
+            "anthropic/claude-sonnet-4-5": \{ alias: "sonnet" \},
+            "openai/gpt-5.2": \{ alias: "gpt" \},
+          \},
+        \},
+      \},
+    \}
 
 ### 3. 中转API配置
 
 > 中转API使用OpenAI兼容格式，通过环境变量设置Key和BaseURL。
 
-    {
-      env: {
-        vars: {
+    \{
+      env: \{
+        vars: \{
           OPENAI_API_KEY: "your-relay-api-key",
           OPENAI_BASE_URL: "https://tryallapi.com/v1",
-        },
-      },
-      agents: {
-        defaults: {
-          model: {
+        \},
+      \},
+      agents: \{
+        defaults: \{
+          model: \{
             primary: "openai/gpt-4o-mini",
             fallbacks: ["openai/gpt-4o"],
-          },
-        },
-      },
-    }
+          \},
+        \},
+      \},
+    \}
 
 **优势**：
 - ✅ 一个API密钥访问多个模型
@@ -199,16 +204,16 @@ zh: ""
 
 ### 4. 本地模型（完全免费）
 
-    {
-      agents: {
-        defaults: {
-          model: {
+    \{
+      agents: \{
+        defaults: \{
+          model: \{
             primary: "ollama/qwen2.5:32b",
             fallbacks: ["ollama/llama3.1:8b"],
-          },
-        },
-      },
-    }
+          \},
+        \},
+      \},
+    \}
 
 **前提**：需先安装Ollama并拉取模型：
 
@@ -219,114 +224,114 @@ zh: ""
 
 ### 1. 飞书Bot
 
-    {
-      channels: {
-        feishu: {
+    \{
+      channels: \{
+        feishu: \{
           enabled: true,
           appId: "cli_your_app_id",
           appSecret: "your_app_secret",
           dmPolicy: "pairing",
-        },
-      },
-    }
+        \},
+      \},
+    \}
 
 > 飞书接入需安装插件：`openclaw plugins install @m1heng-clawd/feishu`，详见本书第12章。
 
 ### 2. 企业微信Bot
 
-    {
-      channels: {
-        wework: {
+    \{
+      channels: \{
+        wework: \{
           enabled: true,
           corpId: "ww_your_corp_id",
           agentSecret: "your_agent_secret",
           dmPolicy: "pairing",
-        },
-      },
-    }
+        \},
+      \},
+    \}
 
 > 企业微信接入需安装插件：`openclaw plugins install @m1heng-clawd/wework`，详见本书第13章。
 
 ### 3. 钉钉Bot
 
-    {
-      channels: {
-        dingtalk: {
+    \{
+      channels: \{
+        dingtalk: \{
           enabled: true,
           appKey: "your_app_key",
           appSecret: "your_app_secret",
           dmPolicy: "pairing",
-        },
-      },
-    }
+        \},
+      \},
+    \}
 
 > 详见本书第13章。
 
 ### 4. Telegram Bot
 
-    {
-      channels: {
-        telegram: {
+    \{
+      channels: \{
+        telegram: \{
           enabled: true,
           botToken: "1234567890:ABCdefGHIjklMNOpqrsTUVwxyz",
           dmPolicy: "pairing",
           allowFrom: ["your_telegram_user_id"],
-          groups: { "*": { requireMention: true } },
-        },
-      },
-    }
+          groups: \{ "*": \{ requireMention: true \} \},
+        \},
+      \},
+    \}
 
 ### 5. 多平台同时接入
 
-    {
-      channels: {
-        telegram: {
+    \{
+      channels: \{
+        telegram: \{
           enabled: true,
           botToken: "your_telegram_token",
           dmPolicy: "pairing",
-          groups: { "*": { requireMention: true } },
-        },
-        whatsapp: {
+          groups: \{ "*": \{ requireMention: true \} \},
+        \},
+        whatsapp: \{
           dmPolicy: "pairing",
           allowFrom: ["+86138xxxxxxxx"],
-          groups: { "*": { requireMention: true } },
-        },
-        discord: {
+          groups: \{ "*": \{ requireMention: true \} \},
+        \},
+        discord: \{
           enabled: true,
           token: "your_discord_token",
-          dm: { enabled: true },
-        },
-      },
-    }
+          dm: \{ enabled: true \},
+        \},
+      \},
+    \}
 
 ## C.4 Skills配置
 
 > ⚠️ Skills通过 `clawhub install <slug>` 安装，不在配置文件中列出安装列表。配置文件中只对已安装的Skills进行个性化配置（如API Key、启停等）。
 
-    {
-      skills: {
-        entries: {
-          "nano-banana-pro": {
+    \{
+      skills: \{
+        entries: \{
+          "nano-banana-pro": \{
             enabled: true,
-            env: {
+            env: \{
               GEMINI_API_KEY: "your-gemini-key",
-            },
-          },
-          "brave-search": {
+            \},
+          \},
+          "brave-search": \{
             enabled: true,
-            env: {
+            env: \{
               BRAVE_API_KEY: "your-brave-key",
-            },
-          },
-          "tavily-search": {
+            \},
+          \},
+          "tavily-search": \{
             enabled: true,
-            env: {
+            env: \{
               TAVILY_API_KEY: "your-tavily-key",
-            },
-          },
-        },
-      },
-    }
+            \},
+          \},
+        \},
+      \},
+    \}
 
 **安装Skills（命令行执行）**：
 
@@ -342,13 +347,13 @@ zh: ""
 
 **配置文件中的Cron全局设置**：
 
-    {
-      cron: {
+    \{
+      cron: \{
         enabled: true,
         maxConcurrentRuns: 2,
         sessionRetention: "24h",
-      },
-    }
+      \},
+    \}
 
 **创建定时任务（命令行执行）**：
 

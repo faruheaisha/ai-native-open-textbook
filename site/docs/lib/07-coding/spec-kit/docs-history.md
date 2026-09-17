@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/github/spec-kit"
-entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/README.md"
+entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/docs/history.md"
+sourceRel: "docs/history.md"
+rawUrl: "/raw/07-coding/spec-kit/docs/history.md"
+sourceSha256: "2429afac563bf3d1f01e8e0b9d2f7e40f14de9dc490e72a95fca25b9d194a8ef"
+pageSha256: "2429afac563bf3d1f01e8e0b9d2f7e40f14de9dc490e72a95fca25b9d194a8ef"
+contentMode: "local-full"
 zh: ""
 ---
 

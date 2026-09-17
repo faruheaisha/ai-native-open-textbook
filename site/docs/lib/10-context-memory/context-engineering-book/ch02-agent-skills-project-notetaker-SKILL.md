@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/bonigarcia/context-engineering"
-entryUrl: "https://github.com/bonigarcia/context-engineering/blob/46719154489e410b509db4fb69ab1c29fb3362a0/README.md"
+entryUrl: "https://github.com/bonigarcia/context-engineering/blob/46719154489e410b509db4fb69ab1c29fb3362a0/ch02/agent-skills/project-notetaker/SKILL.md"
+sourceRel: "ch02/agent-skills/project-notetaker/SKILL.md"
+rawUrl: "/raw/10-context-memory/context-engineering-book/ch02/agent-skills/project-notetaker/SKILL.md"
+sourceSha256: "9fa448bfaf3f16a99392486387e837b32a1e3a41b5d2a3f164fd2fd14185b130"
+pageSha256: "9fa448bfaf3f16a99392486387e837b32a1e3a41b5d2a3f164fd2fd14185b130"
+contentMode: "local-full"
 zh: ""
 ---
 

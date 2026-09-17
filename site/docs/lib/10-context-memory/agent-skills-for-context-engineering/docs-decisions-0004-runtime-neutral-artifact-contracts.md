@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering"
-entryUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/README.md"
+entryUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/docs/decisions/0004-runtime-neutral-artifact-contracts.md"
+sourceRel: "docs/decisions/0004-runtime-neutral-artifact-contracts.md"
+rawUrl: "/raw/10-context-memory/agent-skills-for-context-engineering/docs/decisions/0004-runtime-neutral-artifact-contracts.md"
+sourceSha256: "524a61fc6e5cabcc0848315e94fe6ccd24be5777eeeb8b8dfa166a4626d67bf1"
+pageSha256: "524a61fc6e5cabcc0848315e94fe6ccd24be5777eeeb8b8dfa166a4626d67bf1"
+contentMode: "local-full"
 zh: ""
 ---
 

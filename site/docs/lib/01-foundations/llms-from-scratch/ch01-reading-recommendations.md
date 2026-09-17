@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "01-foundations"
 sourceUrl: "https://github.com/rasbt/LLMs-from-scratch"
-entryUrl: "https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/README.md"
+entryUrl: "https://github.com/rasbt/LLMs-from-scratch/blob/ef9fbc2f52bf9bbb6769f43e6d726bbba4aed03e/ch01/reading-recommendations.md"
+sourceRel: "ch01/reading-recommendations.md"
+rawUrl: "/raw/01-foundations/llms-from-scratch/ch01/reading-recommendations.md"
+sourceSha256: "49bcd6718597dc8124dea80a5eb10c40d3fc502c0920defb13157a49760a3f3f"
+pageSha256: "49bcd6718597dc8124dea80a5eb10c40d3fc502c0920defb13157a49760a3f3f"
+contentMode: "local-full"
 zh: ""
 ---
 

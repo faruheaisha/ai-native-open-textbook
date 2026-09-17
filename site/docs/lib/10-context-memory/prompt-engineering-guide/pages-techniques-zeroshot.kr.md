@@ -1,0 +1,40 @@
+---
+title: "Zero-Shot Prompting"
+sourceId: "10-context-memory/prompt-engineering-guide"
+sourceTitle: "Prompt Engineering Guide"
+sourceKind: "工程手册"
+licenseLabel: "可转载"
+lang: "英文"
+tier: 2
+volume: "10-context-memory"
+sourceUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide"
+entryUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide/blob/57673726396dd94acb23bdb1e67f27c78ee85a8e/pages/techniques/zeroshot.kr.mdx"
+sourceRel: "pages/techniques/zeroshot.kr.mdx"
+rawUrl: "/raw/10-context-memory/prompt-engineering-guide/pages/techniques/zeroshot.kr.mdx"
+sourceSha256: "a6c0a1c29d8668d32de66fe94bcf39893e46a2faa548c88ead6b02994ec94a63"
+pageSha256: "a6c0a1c29d8668d32de66fe94bcf39893e46a2faa548c88ead6b02994ec94a63"
+contentMode: "local-full"
+zh: ""
+---
+
+# Zero-Shot Prompting
+대량의 데이터를 학습하고 지침을 따르도록 튜닝된 오늘날의 머신러닝은 제로샷(zero-shot)으로 작업을 수행할 수 있습니다. 이전 장에서 몇 가지 제로샷 예제를 시도해 보았습니다. 다음은 우리가 사용한 예제 중 하나입니다.
+
+*Prompt:*
+```
+텍스트를 중립, 부정 또는 긍정으로 분류합니다.
+
+텍스트: 휴가는 괜찮을 것 같아요.
+감정:
+```
+
+*Output:*
+```
+중립
+```
+
+위의 프롬프트에서는 모델에 예제를 제공하지 않았습니다. 이는 제로샷으로 동작된 것을 알 수 있습니다.
+
+명령어 튜닝(Instruction tuning)은 제로샷(zero-shot) 학습을 개선한다고 다음의 논문에서 보고되었습니다. [Wei et al. (2022)](https://arxiv.org/pdf/2109.01652.pdf). 명령어 튜닝은 본질적으로 명령어를 통해 설명된 데이터 세트에 대한 모델을 미세 조정 하는 개념입니다. 또한, [RLHF](https://arxiv.org/abs/1706.03741) (사람의 피드백을 통한 강화 학습)는 모델이 사람이 원하는 결과에 더 잘 맞도록 조정되는 명령어 튜닝을 확장하는 데 사용되었습니다. 이러한 개발 방식은 ChatGPT와 같은 모델에서 사용되었습니다. 다음 장에서 이러한 모든 접근 방식과 방법에 대해 설명하겠습니다.
+
+제로샷이 동작하지 않는 경우에는 프롬프트에 데모나 예시를 제공하여 퓨샷으로 프롬프트를 유도하는 것이 좋습니다. 다음 장에서는 제로샷 프롬프트에 대한 데모를 보여 드리겠습니다.

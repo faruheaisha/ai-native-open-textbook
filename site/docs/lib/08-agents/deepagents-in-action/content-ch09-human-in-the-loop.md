@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/datawhalechina/deepagents-in-action"
-entryUrl: "https://github.com/datawhalechina/deepagents-in-action/blob/4097ff944f9ffa1bdfe2dd04f751f4416b058860/README.md"
+entryUrl: "https://github.com/datawhalechina/deepagents-in-action/blob/4097ff944f9ffa1bdfe2dd04f751f4416b058860/content/ch09-human-in-the-loop.md"
+sourceRel: "content/ch09-human-in-the-loop.md"
+rawUrl: "/raw/08-agents/deepagents-in-action/content/ch09-human-in-the-loop.md"
+sourceSha256: "c2cc603505c38b9bbe724eb975a4455eaab798e79067e9616ff6d2f3ff4b5ac7"
+pageSha256: "c2cc603505c38b9bbe724eb975a4455eaab798e79067e9616ff6d2f3ff4b5ac7"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -86,7 +91,7 @@ agent = create_deep_agent(
 |---|---|
 | `True` | 启用中断，允许所有决策（approve / edit / reject / respond） |
 | `False` | 不中断，Agent 直接执行 |
-| `{"allowed_decisions": [...]}` | 启用中断，只允许指定的决策类型 |
+| `\{"allowed_decisions": [...]\}` | 启用中断，只允许指定的决策类型 |
 
 ### 四种决策类型
 
@@ -398,7 +403,7 @@ agent = create_deep_agent(
 )
 ```
 
-恢复方式和普通工具一致：检查 `result.interrupts[0].value["action_requests"]`，然后用 `Command(resume={"decisions": [...]})` 继续执行。文件系统权限中断会和你传入的 `interrupt_on` 合并，因此一次人工审查可以同时覆盖自定义工具和受保护文件路径。
+恢复方式和普通工具一致：检查 `result.interrupts[0].value["action_requests"]`，然后用 `Command(resume=\{"decisions": [...]\})` 继续执行。文件系统权限中断会和你传入的 `interrupt_on` 合并，因此一次人工审查可以同时覆盖自定义工具和受保护文件路径。
 
 v0.7 中 `write_file` 会完整覆盖已有文件，内置 `delete` 还能递归删除目录。因此 `operations=["write"]` 保护的不只是“新建或编辑”，也包括覆盖和删除；包含受保护后代的目录删除会整体拒绝，不会只删掉其中一部分。真实文件系统上的敏感路径优先使用路径权限，`interrupt_on` 更适合控制自定义工具或对所有路径采用同一审批策略。
 

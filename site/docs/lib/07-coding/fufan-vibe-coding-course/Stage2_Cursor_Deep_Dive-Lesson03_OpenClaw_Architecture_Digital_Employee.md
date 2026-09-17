@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/fufankeji/FuFan-VibeCodingCourse"
-entryUrl: "https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/README_CN.md"
+entryUrl: "https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/Stage2_Cursor_Deep_Dive/Lesson03_OpenClaw_Architecture_Digital_Employee/README.md"
+sourceRel: "Stage2_Cursor_Deep_Dive/Lesson03_OpenClaw_Architecture_Digital_Employee/README.md"
+rawUrl: "/raw/07-coding/fufan-vibe-coding-course/Stage2_Cursor_Deep_Dive/Lesson03_OpenClaw_Architecture_Digital_Employee/README.md"
+sourceSha256: "5d1ea1c79a7afac38b3d412780b1adf8f595bac8c63f9ae8716940679f572675"
+pageSha256: "5d1ea1c79a7afac38b3d412780b1adf8f595bac8c63f9ae8716940679f572675"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -40,4 +45,4 @@ The `.excalidraw` files are the **original editable courseware**. You can modify
 
 ## Related
 
-- [← Back to Stage 2](https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/Stage2_Cursor_Deep_Dive/README.md)
+- [← Back to Stage 2](/lib/07-coding/fufan-vibe-coding-course/Stage2_Cursor_Deep_Dive)

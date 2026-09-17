@@ -9,6 +9,11 @@ tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/shanraisshan/codex-cli-best-practice"
 entryUrl: "https://github.com/shanraisshan/codex-cli-best-practice/blob/b79f473a188632867354fc793894dfd368a18e48/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/09-harness/codex-cli-best-practice/README.md"
+sourceSha256: "090e711bcc36301320b6dd18975a8d846c7a52b8c464a3196933394d27ef38b2"
+pageSha256: "090e711bcc36301320b6dd18975a8d846c7a52b8c464a3196933394d27ef38b2"
+contentMode: "local-full"
 zh: "on"
 ---
 

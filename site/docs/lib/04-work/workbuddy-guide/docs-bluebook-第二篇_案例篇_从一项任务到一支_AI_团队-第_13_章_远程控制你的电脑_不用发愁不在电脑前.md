@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/AlephAITech/WorkBuddyGuide"
-entryUrl: "https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89da368fe208425ff50e121fe/README.md"
+entryUrl: "https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇%20案例篇：从一项任务到一支%20AI%20团队/第%2013%20章%20远程控制你的电脑，不用发愁不在电脑前/index.md"
+sourceRel: "docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 13 章 远程控制你的电脑，不用发愁不在电脑前/index.md"
+rawUrl: "/raw/04-work/workbuddy-guide/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 13 章 远程控制你的电脑，不用发愁不在电脑前/index.md"
+sourceSha256: "2fd669cc8659b162cd965e9b9ecf1f74c8b6ea5a135ac7bab8635178ed40126f"
+pageSha256: "2fd669cc8659b162cd965e9b9ecf1f74c8b6ea5a135ac7bab8635178ed40126f"
+contentMode: "local-full"
 zh: ""
 ---
 

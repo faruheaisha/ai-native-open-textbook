@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/obra/superpowers"
-entryUrl: "https://github.com/obra/superpowers/blob/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/README.md"
+entryUrl: "https://github.com/obra/superpowers/blob/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/docs/superpowers/plans/2026-07-30-codex-efficiency-fixes.md"
+sourceRel: "docs/superpowers/plans/2026-07-30-codex-efficiency-fixes.md"
+rawUrl: "/raw/10-context-memory/superpowers/docs/superpowers/plans/2026-07-30-codex-efficiency-fixes.md"
+sourceSha256: "78e7b8cd163ee78ac16a9ba9fbfffe3ae98b7711c092d75c7283bd325fdf42f7"
+pageSha256: "78e7b8cd163ee78ac16a9ba9fbfffe3ae98b7711c092d75c7283bd325fdf42f7"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -566,7 +571,7 @@ Append the results table and verdict to the log (criteria from Step 2). Privacy-
 - Consumes: Tasks 5, 6; Task 7 must have PASSED.
 - Produces: T4 layer-2 verdict.
 
-- [ ] **Step 1: Pre-register** — arm=fix, `cx-ceremony-{spike,bounded,arch}`, 3 reps each, scorer `score_e4.py`; criteria: bounded — approval turn present, 0 committed spec/plan docs, 0 writing-plans ritual; arch — two-doc flow intact 3/3; spike — no docs, minimal ceremony; plus gauntlet task completion preserved per cell. Budget ~$40. Commit.
+- [ ] **Step 1: Pre-register** — arm=fix, `cx-ceremony-\{spike,bounded,arch\}`, 3 reps each, scorer `score_e4.py`; criteria: bounded — approval turn present, 0 committed spec/plan docs, 0 writing-plans ritual; arch — two-doc flow intact 3/3; spike — no docs, minimal ceremony; plus gauntlet task completion preserved per cell. Budget ~$40. Commit.
 
 - [ ] **Step 2: Smoke test** — 1 bounded rep; hand-inspect the rollout for scenario health (not for the measured behavior).
 
@@ -628,7 +633,7 @@ Append the results table and verdict to the log (criteria from Step 2). Privacy-
 - Consumes: `/tmp/sp-arm-fix`; the containerized triggering approach (host runs are confounded — `superpowers-autoresearch` docs and `scripts/evals-container`).
 - Produces: the "brainstorming still auto-triggers" evidence line every T4 PR cites.
 
-- [ ] **Step 1: Pre-register** — prompt: exactly `Let's make a react todo list`; fix arm; 3 reps × {codex, claude, gemini}; criterion: brainstorming loads before any implementation action AND the session heads down the architectural path (new project), 3/3 per harness. Commit.
+- [ ] **Step 1: Pre-register** — prompt: exactly `Let's make a react todo list`; fix arm; 3 reps × \{codex, claude, gemini\}; criterion: brainstorming loads before any implementation action AND the session heads down the architectural path (new project), 3/3 per harness. Commit.
 
 - [ ] **Step 2: Run** — containerized, per the campaign's triggering method; verify skill load from transcripts/rollouts by hand.
 

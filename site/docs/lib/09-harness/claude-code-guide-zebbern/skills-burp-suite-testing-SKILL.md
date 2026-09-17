@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/zebbern/claude-code-guide"
-entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/README.md"
+entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/skills/burp-suite-testing/SKILL.md"
+sourceRel: "skills/burp-suite-testing/SKILL.md"
+rawUrl: "/raw/09-harness/claude-code-guide-zebbern/skills/burp-suite-testing/SKILL.md"
+sourceSha256: "57cc116cdc19f4506d541ad31514e5ab79410d4ad22eee15b8c31e957090800e"
+pageSha256: "57cc116cdc19f4506d541ad31514e5ab79410d4ad22eee15b8c31e957090800e"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -283,7 +288,7 @@ Review attack output:
 1 UNION SELECT NULL--
 
 # XSS
-<script>alert(1)</script>
+
 "><img src=x onerror=alert(1)>
 javascript:alert(1)
 

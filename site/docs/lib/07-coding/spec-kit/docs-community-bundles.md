@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/github/spec-kit"
-entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/README.md"
+entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/docs/community/bundles.md"
+sourceRel: "docs/community/bundles.md"
+rawUrl: "/raw/07-coding/spec-kit/docs/community/bundles.md"
+sourceSha256: "97754bf012fb98ca596bd8a31e388ed12a6c5f57ba4e82ea2cc1fa110ef070e0"
+pageSha256: "97754bf012fb98ca596bd8a31e388ed12a6c5f57ba4e82ea2cc1fa110ef070e0"
+contentMode: "local-full"
 zh: ""
 ---
 

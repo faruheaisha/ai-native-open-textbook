@@ -10,6 +10,8 @@ lang: "英文"
 volume: "10-context-memory"
 sourceUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering"
 entryUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/README.md"
+sourceRel: ""
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -19,28 +21,285 @@ A comprehensive, open collection of Agent Skills focused on context engineering 
 
 ## 课时
 
-1. [CLAUDE.md](CLAUDE.md)
-2. [PDF Processing](docs-agentskills.md)
-3. [Agent Skills for Context Engineering](docs-blogs.md)
-4. [Agent Skills for Context Engineering](docs-claude_research.md)
-5. [Agent Skills for Context Engineering](docs-compression.md)
-6. [ADR-0001: Machine-testable, deny-by-default authority](docs-decisions-0001-machine-testable-constitution.md)
-7. [ADR-0002: Treat the corpus inventory as a checked derived view](docs-decisions-0002-derived-corpus-inventory.md)
-8. [ADR-0003: Publish allowlisted projections, not redacted private records](docs-decisions-0003-allowlisted-public-projections.md)
-9. [ADR-0004: Make schemas, identity, and frozen bytes runtime-neutral](docs-decisions-0004-runtime-neutral-artifact-contracts.md)
-10. [Architecture decision records](docs-decisions.md)
-11. [Agent Skills for Context Engineering](docs-gemini_research.md)
-12. [Agent Skills for Context Engineering](docs-hncapsule.md)
-13. [Agent Skills for Context Engineering](docs-netflix_context.md)
-14. [Skills Improvement Analysis: Lessons from Anthropic's "Building Claude Code" Article](docs-skills-improvement-analysis.md)
-15. [SPEC-000: Program constitution and authority model](docs-specs-SPEC-000-program-constitution.md)
-16. [SPEC-001: Repository reconciliation and generated corpus inventory](docs-specs-SPEC-001-repository-reconciliation.md)
-17. [SPEC-002: Public and private boundary](docs-specs-SPEC-002-public-private-boundary.md)
-18. [SPEC-003: Schema registry and artifact identity](docs-specs-SPEC-003-schema-registry.md)
-19. [Agent Skills for Context Engineering](docs-vercel_tool.md)
-20. [Book SFT Pipeline](examples-book-sft-pipeline.md)
-21. [Segmentation Strategies](examples-book-sft-pipeline-references-segmentation-strategies.md)
-22. [Tinker Format Specification](examples-book-sft-pipeline-references-tinker-format.md)
-23. [Book SFT Pipeline](examples-book-sft-pipeline-SKILL.md)
+- **Skills Overview**
+  - **Foundational Skills**
+    - [context-fundamentals](/lib/10-context-memory/agent-skills-for-context-engineering/skills-context-fundamentals-SKILL.md)
+    - [context-degradation](/lib/10-context-memory/agent-skills-for-context-engineering/skills-context-degradation-SKILL.md)
+    - [context-compression](/lib/10-context-memory/agent-skills-for-context-engineering/skills-context-compression-SKILL.md)
+  - **Architectural Skills**
+    - [multi-agent-patterns](/lib/10-context-memory/agent-skills-for-context-engineering/skills-multi-agent-patterns-SKILL.md)
+    - [long-horizon-prompting](/lib/10-context-memory/agent-skills-for-context-engineering/skills-long-horizon-prompting-SKILL.md)
+    - [memory-systems](/lib/10-context-memory/agent-skills-for-context-engineering/skills-memory-systems-SKILL.md)
+    - [tool-design](/lib/10-context-memory/agent-skills-for-context-engineering/skills-tool-design-SKILL.md)
+    - [filesystem-context](/lib/10-context-memory/agent-skills-for-context-engineering/skills-filesystem-context-SKILL.md)
+    - [hosted-agents](/lib/10-context-memory/agent-skills-for-context-engineering/skills-hosted-agents-SKILL.md)
+  - **Operational Skills**
+    - [context-optimization](/lib/10-context-memory/agent-skills-for-context-engineering/skills-context-optimization-SKILL.md)
+    - [latent-briefing](/lib/10-context-memory/agent-skills-for-context-engineering/skills-latent-briefing-SKILL.md)
+    - [evaluation](/lib/10-context-memory/agent-skills-for-context-engineering/skills-evaluation-SKILL.md)
+    - [advanced-evaluation](/lib/10-context-memory/agent-skills-for-context-engineering/skills-advanced-evaluation-SKILL.md)
+    - [harness-engineering](/lib/10-context-memory/agent-skills-for-context-engineering/skills-harness-engineering-SKILL.md)
+    - [self-improvement-loops](/lib/10-context-memory/agent-skills-for-context-engineering/skills-self-improvement-loops-SKILL.md)
+  - **Development Methodology**
+    - [project-development](/lib/10-context-memory/agent-skills-for-context-engineering/skills-project-development-SKILL.md)
+  - **Cognitive Architecture Skills**
+    - [bdi-mental-states](/lib/10-context-memory/agent-skills-for-context-engineering/skills-bdi-mental-states-SKILL.md)
+- **Examples**
+  - [examples](/lib/10-context-memory/agent-skills-for-context-engineering/examples-x-to-book-system.md)
+  - [digital-brain-skill](/lib/10-context-memory/agent-skills-for-context-engineering/examples-digital-brain-skill.md)
+  - [llm-as-judge-skills](/lib/10-context-memory/agent-skills-for-context-engineering/examples-llm-as-judge-skills.md)
+  - [book-sft-pipeline](/lib/10-context-memory/agent-skills-for-context-engineering/examples-book-sft-pipeline.md)
+  - [interleaved-thinking](/lib/10-context-memory/agent-skills-for-context-engineering/examples-interleaved-thinking.md)
+  - [long-horizon-prompt-lab](/lib/10-context-memory/agent-skills-for-context-engineering/examples-long-horizon-prompt-lab.md)
+  - **Digital Brain Skill Example**
+    - [HOW-SKILLS-BUILT-THIS.md](/lib/10-context-memory/agent-skills-for-context-engineering/examples-digital-brain-skill-HOW-SKILLS-BUILT-THIS.md)
+- **Researcher Operating System**
+  - [researcher](/lib/10-context-memory/agent-skills-for-context-engineering/researcher.md)
+  - **Measured router-benchmark results**
+    - [researcher/benchmarks/router/results-published/2026-05-15.md](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-benchmarks-router-results-published-2026-05-15.md)
+    - [researcher/benchmarks/router/results-published/2026-05-15-v2.md](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-benchmarks-router-results-published-2026-05-15-v2.md)
+    - [researcher/benchmarks/router/results-published/2026-05-19.md](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-benchmarks-router-results-published-2026-05-19.md)
+  - **What it includes**
+    - [live corpus inventory](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-generated-corpus-summary.md)
+  - **Operator commands**
+    - [researcher/runbooks/continuous-operation.md](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-runbooks-continuous-operation.md)
+- **Structure**
+  - [template](/lib/10-context-memory/agent-skills-for-context-engineering/template-SKILL.md)
+- [Agent Skills for Context Engineering](/lib/10-context-memory/agent-skills-for-context-engineering/SKILL.md)
+- **文档**
+  - [PDF Processing](/lib/10-context-memory/agent-skills-for-context-engineering/docs-agentskills.md)
+  - [Agent Skills for Context Engineering](/lib/10-context-memory/agent-skills-for-context-engineering/docs-blogs.md)
+  - [Agent Skills for Context Engineering](/lib/10-context-memory/agent-skills-for-context-engineering/docs-claude_research.md)
+  - [Agent Skills for Context Engineering](/lib/10-context-memory/agent-skills-for-context-engineering/docs-compression.md)
+  - [Agent Skills for Context Engineering](/lib/10-context-memory/agent-skills-for-context-engineering/docs-gemini_research.md)
+  - [Agent Skills for Context Engineering](/lib/10-context-memory/agent-skills-for-context-engineering/docs-hncapsule.md)
+  - [Agent Skills for Context Engineering](/lib/10-context-memory/agent-skills-for-context-engineering/docs-netflix_context.md)
+  - [Skills Improvement Analysis: Lessons from Anthropic's "Building Claude Code" Article](/lib/10-context-memory/agent-skills-for-context-engineering/docs-skills-improvement-analysis.md)
+  - [Agent Skills for Context Engineering](/lib/10-context-memory/agent-skills-for-context-engineering/docs-vercel_tool.md)
+  - [Architecture decision records](/lib/10-context-memory/agent-skills-for-context-engineering/docs-decisions.md)
+    - [ADR-0001: Machine-testable, deny-by-default authority](/lib/10-context-memory/agent-skills-for-context-engineering/docs-decisions-0001-machine-testable-constitution.md)
+    - [ADR-0002: Treat the corpus inventory as a checked derived view](/lib/10-context-memory/agent-skills-for-context-engineering/docs-decisions-0002-derived-corpus-inventory.md)
+    - [ADR-0003: Publish allowlisted projections, not redacted private records](/lib/10-context-memory/agent-skills-for-context-engineering/docs-decisions-0003-allowlisted-public-projections.md)
+    - [ADR-0004: Make schemas, identity, and frozen bytes runtime-neutral](/lib/10-context-memory/agent-skills-for-context-engineering/docs-decisions-0004-runtime-neutral-artifact-contracts.md)
+  - **specs**
+    - [SPEC-000: Program constitution and authority model](/lib/10-context-memory/agent-skills-for-context-engineering/docs-specs-SPEC-000-program-constitution.md)
+    - [SPEC-001: Repository reconciliation and generated corpus inventory](/lib/10-context-memory/agent-skills-for-context-engineering/docs-specs-SPEC-001-repository-reconciliation.md)
+    - [SPEC-002: Public and private boundary](/lib/10-context-memory/agent-skills-for-context-engineering/docs-specs-SPEC-002-public-private-boundary.md)
+    - [SPEC-003: Schema registry and artifact identity](/lib/10-context-memory/agent-skills-for-context-engineering/docs-specs-SPEC-003-schema-registry.md)
+- **示例**
+  - **book-sft-pipeline**
+    - [Book SFT Pipeline](/lib/10-context-memory/agent-skills-for-context-engineering/examples-book-sft-pipeline-SKILL.md)
+    - **示例**
+      - [Example: Gertrude Stein Style Transfer](/lib/10-context-memory/agent-skills-for-context-engineering/examples-book-sft-pipeline-examples-gertrude-stein.md)
+        - [Sample Model Outputs](/lib/10-context-memory/agent-skills-for-context-engineering/examples-book-sft-pipeline-examples-gertrude-stein-sample_outputs.md)
+    - **references**
+      - [Segmentation Strategies](/lib/10-context-memory/agent-skills-for-context-engineering/examples-book-sft-pipeline-references-segmentation-strategies.md)
+      - [Tinker Format Specification](/lib/10-context-memory/agent-skills-for-context-engineering/examples-book-sft-pipeline-references-tinker-format.md)
+  - **digital-brain-skill**
+    - [Digital Brain - Claude Instructions](/lib/10-context-memory/agent-skills-for-context-engineering/examples-digital-brain-skill-AGENT.md)
+    - [Digital Brain](/lib/10-context-memory/agent-skills-for-context-engineering/examples-digital-brain-skill-SKILL.md)
+    - [Skills Mapping: Digital Brain](/lib/10-context-memory/agent-skills-for-context-engineering/examples-digital-brain-skill-SKILLS-MAPPING.md)
+    - **content**
+      - [Content Calendar](/lib/10-context-memory/agent-skills-for-context-engineering/examples-digital-brain-skill-content-calendar.md)
+      - [Content Hub](/lib/10-context-memory/agent-skills-for-context-engineering/examples-digital-brain-skill-content-CONTENT.md)
+      - **templates**
+        - [LinkedIn Post Template](/lib/10-context-memory/agent-skills-for-context-engineering/examples-digital-brain-skill-content-templates-linkedin-post.md)
+        - [Newsletter Template](/lib/10-context-memory/agent-skills-for-context-engineering/examples-digital-brain-skill-content-templates-newsletter.md)
+        - [Thread Template](/lib/10-context-memory/agent-skills-for-context-engineering/examples-digital-brain-skill-content-templates-thread.md)
+    - **示例**
+      - [Example: Content Creation Workflow](/lib/10-context-memory/agent-skills-for-context-engineering/examples-digital-brain-skill-examples-content-workflow.md)
+      - [Example: Meeting Preparation Workflow](/lib/10-context-memory/agent-skills-for-context-engineering/examples-digital-brain-skill-examples-meeting-prep.md)
+    - **identity**
+      - [Bio Variants](/lib/10-context-memory/agent-skills-for-context-engineering/examples-digital-brain-skill-identity-bio-variants.md)
+      - [Personal Brand Strategy](/lib/10-context-memory/agent-skills-for-context-engineering/examples-digital-brain-skill-identity-brand.md)
+      - [Identity Module](/lib/10-context-memory/agent-skills-for-context-engineering/examples-digital-brain-skill-identity-IDENTITY.md)
+      - [Voice & Tone Guide](/lib/10-context-memory/agent-skills-for-context-engineering/examples-digital-brain-skill-identity-voice.md)
+    - **knowledge**
+      - [Competitive Landscape](/lib/10-context-memory/agent-skills-for-context-engineering/examples-digital-brain-skill-knowledge-competitors.md)
+      - [Knowledge Base](/lib/10-context-memory/agent-skills-for-context-engineering/examples-digital-brain-skill-knowledge-KNOWLEDGE.md)
+      - **research**
+        - [Research: [TOPIC]](/lib/10-context-memory/agent-skills-for-context-engineering/examples-digital-brain-skill-knowledge-research-_template.md)
+    - **network**
+      - [Introductions Tracker](/lib/10-context-memory/agent-skills-for-context-engineering/examples-digital-brain-skill-network-intros.md)
+      - [Network Module](/lib/10-context-memory/agent-skills-for-context-engineering/examples-digital-brain-skill-network-NETWORK.md)
+    - **operations**
+      - [Operations Module](/lib/10-context-memory/agent-skills-for-context-engineering/examples-digital-brain-skill-operations-OPERATIONS.md)
+      - [Task List](/lib/10-context-memory/agent-skills-for-context-engineering/examples-digital-brain-skill-operations-todos.md)
+      - **reviews**
+        - [Weekly Review: Week of [DATE]](/lib/10-context-memory/agent-skills-for-context-engineering/examples-digital-brain-skill-operations-reviews-_weekly_template.md)
+    - **references**
+      - [File Format Reference](/lib/10-context-memory/agent-skills-for-context-engineering/examples-digital-brain-skill-references-file-formats.md)
+  - **interleaved-thinking**
+    - [Reasoning Trace Optimizer](/lib/10-context-memory/agent-skills-for-context-engineering/examples-interleaved-thinking-SKILL.md)
+    - **文档**
+      - [Aligning to What? Rethinking Agent Generalization in MiniMax M2](/lib/10-context-memory/agent-skills-for-context-engineering/examples-interleaved-thinking-docs-agentthinking.md)
+      - [M2.1 Tool Use & Interleaved Thinking](/lib/10-context-memory/agent-skills-for-context-engineering/examples-interleaved-thinking-docs-interleavedthinking.md)
+      - [Compatible Anthropic API](/lib/10-context-memory/agent-skills-for-context-engineering/examples-interleaved-thinking-docs-m2-1.md)
+    - **generated_skills**
+      - **comprehensive-research-agent**
+        - [Comprehensive Research Agent Best Practices](/lib/10-context-memory/agent-skills-for-context-engineering/examples-interleaved-thinking-generated_skills-comprehensive-research-agent-SKILL.md)
+  - **llm-as-judge-skills**
+    - [Agents Index](/lib/10-context-memory/agent-skills-for-context-engineering/examples-llm-as-judge-skills-agents.md)
+      - **evaluator-agent**
+        - [Evaluator Agent](/lib/10-context-memory/agent-skills-for-context-engineering/examples-llm-as-judge-skills-agents-evaluator-agent-evaluator-agent.md)
+      - **orchestrator-agent**
+        - [Orchestrator Agent](/lib/10-context-memory/agent-skills-for-context-engineering/examples-llm-as-judge-skills-agents-orchestrator-agent-orchestrator-agent.md)
+      - **research-agent**
+        - [Research Agent](/lib/10-context-memory/agent-skills-for-context-engineering/examples-llm-as-judge-skills-agents-research-agent-research-agent.md)
+    - [Prompts Index](/lib/10-context-memory/agent-skills-for-context-engineering/examples-llm-as-judge-skills-prompts.md)
+      - **agent-system**
+        - [Orchestrator System Prompt](/lib/10-context-memory/agent-skills-for-context-engineering/examples-llm-as-judge-skills-prompts-agent-system-orchestrator-prompt.md)
+      - **evaluation**
+        - [Direct Scoring Prompt](/lib/10-context-memory/agent-skills-for-context-engineering/examples-llm-as-judge-skills-prompts-evaluation-direct-scoring-prompt.md)
+        - [Pairwise Comparison Prompt](/lib/10-context-memory/agent-skills-for-context-engineering/examples-llm-as-judge-skills-prompts-evaluation-pairwise-comparison-prompt.md)
+      - **research**
+        - [Research Synthesis Prompt](/lib/10-context-memory/agent-skills-for-context-engineering/examples-llm-as-judge-skills-prompts-research-research-synthesis-prompt.md)
+    - [Skills Index](/lib/10-context-memory/agent-skills-for-context-engineering/examples-llm-as-judge-skills-skills.md)
+      - **context-fundamentals**
+        - [Context Fundamentals Skill](/lib/10-context-memory/agent-skills-for-context-engineering/examples-llm-as-judge-skills-skills-context-fundamentals-context-fundamentals.md)
+      - **llm-evaluator**
+        - [LLM-Evaluator Skill](/lib/10-context-memory/agent-skills-for-context-engineering/examples-llm-as-judge-skills-skills-llm-evaluator-llm-evaluator.md)
+      - **tool-design**
+        - [Agent Tool Design Skill](/lib/10-context-memory/agent-skills-for-context-engineering/examples-llm-as-judge-skills-skills-tool-design-tool-design.md)
+    - [Tools Index](/lib/10-context-memory/agent-skills-for-context-engineering/examples-llm-as-judge-skills-tools.md)
+      - **evaluation**
+        - [Direct Score Tool](/lib/10-context-memory/agent-skills-for-context-engineering/examples-llm-as-judge-skills-tools-evaluation-direct-score.md)
+        - [Generate Rubric Tool](/lib/10-context-memory/agent-skills-for-context-engineering/examples-llm-as-judge-skills-tools-evaluation-generate-rubric.md)
+        - [Pairwise Compare Tool](/lib/10-context-memory/agent-skills-for-context-engineering/examples-llm-as-judge-skills-tools-evaluation-pairwise-compare.md)
+      - **orchestration**
+        - [Delegate to Agent Tool](/lib/10-context-memory/agent-skills-for-context-engineering/examples-llm-as-judge-skills-tools-orchestration-delegate-to-agent.md)
+      - **research**
+        - [Read URL Tool](/lib/10-context-memory/agent-skills-for-context-engineering/examples-llm-as-judge-skills-tools-research-read-url.md)
+        - [Web Search Tool](/lib/10-context-memory/agent-skills-for-context-engineering/examples-llm-as-judge-skills-tools-research-web-search.md)
+  - **long-horizon-prompt-lab**
+    - **report**
+      - [CDC Report Provenance](/lib/10-context-memory/agent-skills-for-context-engineering/examples-long-horizon-prompt-lab-report-PROVENANCE.md)
+  - **x-to-book-system**
+    - [PRD: X-to-Book Multi-Agent System](/lib/10-context-memory/agent-skills-for-context-engineering/examples-x-to-book-system-PRD.md)
+    - [Skills Mapping: X-to-Book System](/lib/10-context-memory/agent-skills-for-context-engineering/examples-x-to-book-system-SKILLS-MAPPING.md)
+- [Governance policy](/lib/10-context-memory/agent-skills-for-context-engineering/governance.md)
+  - **generated**
+    - [Authority table](/lib/10-context-memory/agent-skills-for-context-engineering/governance-generated-authority-table.md)
+- **researcher**
+  - [The Infinite Software Crisis – Jake Nations, Netflix](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-example_output.md)
+  - [Agent Skills for Context Engineering](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-llm-as-a-judge.md)
+  - [Source Registry](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-source-registry.md)
+  - [Private artifact storage](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-artifacts.md)
+  - [Researcher Benchmarks](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-benchmarks.md)
+    - [Benchmark Architecture Plan](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-benchmarks-PLAN.md)
+    - [Effectiveness Benchmark (Stage 3)](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-benchmarks-effectiveness.md)
+      - **tasks**
+        - [001 - Filesystem context offload](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-benchmarks-effectiveness-tasks-001-filesystem-context-offload.md)
+          - [Agent Skills for Context Engineering](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-benchmarks-effectiveness-tasks-001-filesystem-context-offload-task.md)
+          - **starting**
+            - [Workspace layout](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-benchmarks-effectiveness-tasks-001-filesystem-context-offload-starting-instructions.md)
+    - [Router Benchmark (Stage 2)](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-benchmarks-router.md)
+      - [Available skills ({{SKILLCOUNT}})](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-benchmarks-router-routing-prompt.md)
+      - [Published Router Benchmark Results](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-benchmarks-router-results-published.md)
+    - [Researcher SDK Runner](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-benchmarks-sdk-runner.md)
+  - [Claim Provenance](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-claims.md)
+  - **corpus**
+    - [SPEC-001 reconciliation report](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-corpus-reconciliation-report.md)
+  - [Public export boundary](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-exports.md)
+    - **示例**
+      - [Restricted citation projection example](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-exports-examples-restricted-citation-v1.md)
+  - **fixtures**
+    - [Export boundary fixtures](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-fixtures-export.md)
+    - **skill-proposals**
+      - [Skill Proposal: Harness Engineering From Autoresearch](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-fixtures-skill-proposals-harness-engineering-proposal.md)
+  - **insights**
+    - [Auto-Research Experiment: Lessons From Building The Researcher OS](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-insights-auto-research-experiment.md)
+    - [How We Built v2.3.0](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-insights-how-we-built-this.md)
+  - [Mechanism Registry](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-mechanisms.md)
+  - [Researcher Queue](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-queue.md)
+  - **rubrics**
+    - [Content Curation Rubric](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-rubrics-content-curation.md)
+    - [Harness Change Rubric](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-rubrics-harness-change.md)
+    - [Pairwise Skill Revision Rubric](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-rubrics-pairwise-skill-revision.md)
+    - [Skill Change Rubric](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-rubrics-skill-change.md)
+  - **runbooks**
+    - [Autonomous Research Loop](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-runbooks-autonomous-research-loop.md)
+    - [Constitution amendment and emergency disable](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-runbooks-governance-amendment.md)
+    - [PR Readiness Runbook](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-runbooks-pr-readiness.md)
+    - [Public export correction and removal](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-runbooks-public-export-correction.md)
+    - [Schema migration, quarantine, and rollback](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-runbooks-schema-migration.md)
+  - [Researcher Runs](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-runs.md)
+    - **20260515-035228-executable-autonomous-research-frameworks**
+      - [Research Thread: 20260515-035228-executable-autonomous-research-frameworks](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-runs-20260515-035228-executable-autonomous-research-frameworks-THREAD.md)
+      - **proposals**
+        - [Skill Proposal: Executable autonomous research frameworks](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-runs-20260515-035228-executable-autonomous-research-frameworks-proposals-skill-proposal.md)
+      - **sources**
+        - **evidence**
+          - [Deep Research Evidence Summary](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-runs-20260515-035228-executable-autonomous-research-frameworks-sources-evidence-deep-research-summary.md)
+  - [Schema registry and canonical artifacts](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-schemas.md)
+    - **generated**
+      - [Generated schema compatibility matrix](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-schemas-generated-compatibility-matrix.md)
+  - **templates**
+    - [Research Thread: [Run ID]](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-templates-research-thread.md)
+    - [Skill Proposal: [Short Title]](/lib/10-context-memory/agent-skills-for-context-engineering/researcher-templates-skill-proposal.md)
+- **skills**
+  - **advanced-evaluation**
+    - **references**
+      - [Bias Mitigation Techniques for LLM Evaluation](/lib/10-context-memory/agent-skills-for-context-engineering/skills-advanced-evaluation-references-bias-mitigation.md)
+      - [Evaluation Pipeline Diagram](/lib/10-context-memory/agent-skills-for-context-engineering/skills-advanced-evaluation-references-evaluation-pipeline.md)
+      - [LLM-as-Judge Implementation Patterns](/lib/10-context-memory/agent-skills-for-context-engineering/skills-advanced-evaluation-references-implementation-patterns.md)
+      - [Metric Selection Guide for LLM Evaluation](/lib/10-context-memory/agent-skills-for-context-engineering/skills-advanced-evaluation-references-metrics-guide.md)
+  - **bdi-mental-states**
+    - **references**
+      - [BDI Ontology Core Patterns](/lib/10-context-memory/agent-skills-for-context-engineering/skills-bdi-mental-states-references-bdi-ontology-core.md)
+      - [BDI Framework Integration Patterns](/lib/10-context-memory/agent-skills-for-context-engineering/skills-bdi-mental-states-references-framework-integration.md)
+      - [BDI RDF Examples](/lib/10-context-memory/agent-skills-for-context-engineering/skills-bdi-mental-states-references-rdf-examples.md)
+      - [SPARQL Competency Queries](/lib/10-context-memory/agent-skills-for-context-engineering/skills-bdi-mental-states-references-sparql-competency.md)
+  - **context-compression**
+    - **references**
+      - [Context Compression Evaluation Framework](/lib/10-context-memory/agent-skills-for-context-engineering/skills-context-compression-references-evaluation-framework.md)
+  - **context-degradation**
+    - **references**
+      - [Context Degradation Patterns: Technical Reference](/lib/10-context-memory/agent-skills-for-context-engineering/skills-context-degradation-references-patterns.md)
+  - **context-fundamentals**
+    - **references**
+      - [Context Components: Technical Reference](/lib/10-context-memory/agent-skills-for-context-engineering/skills-context-fundamentals-references-context-components.md)
+  - **context-optimization**
+    - **references**
+      - [Context Optimization Reference](/lib/10-context-memory/agent-skills-for-context-engineering/skills-context-optimization-references-optimization_techniques.md)
+  - **evaluation**
+    - **references**
+      - [Evaluation Reference: Metrics and Implementation](/lib/10-context-memory/agent-skills-for-context-engineering/skills-evaluation-references-metrics.md)
+  - **filesystem-context**
+    - **references**
+      - [Filesystem Context Implementation Patterns](/lib/10-context-memory/agent-skills-for-context-engineering/skills-filesystem-context-references-implementation-patterns.md)
+  - **hosted-agents**
+    - **references**
+      - [Infrastructure Patterns for Hosted Agents](/lib/10-context-memory/agent-skills-for-context-engineering/skills-hosted-agents-references-infrastructure-patterns.md)
+  - **latent-briefing**
+    - **references**
+      - [Attention Matching (AM) and Task-Guided Scoring](/lib/10-context-memory/agent-skills-for-context-engineering/skills-latent-briefing-references-attention-matching-formulation.md)
+  - **long-horizon-prompting**
+    - **references**
+      - [The Cycle Double Cover Prompt, Annotated](/lib/10-context-memory/agent-skills-for-context-engineering/skills-long-horizon-prompting-references-cdc-prompt-annotated.md)
+      - [Research Evidence for Long-Horizon Brief Elements](/lib/10-context-memory/agent-skills-for-context-engineering/skills-long-horizon-prompting-references-research-evidence.md)
+      - [Pseudo-Formal Task Brief Template](/lib/10-context-memory/agent-skills-for-context-engineering/skills-long-horizon-prompting-references-task-brief-template.md)
+      - [Vendor Long-Horizon Prompting Doctrine](/lib/10-context-memory/agent-skills-for-context-engineering/skills-long-horizon-prompting-references-vendor-guidance.md)
+  - **memory-systems**
+    - **references**
+      - [Memory Systems: Technical Reference](/lib/10-context-memory/agent-skills-for-context-engineering/skills-memory-systems-references-implementation.md)
+  - **multi-agent-patterns**
+    - **references**
+      - [Multi-Agent Patterns: Technical Reference](/lib/10-context-memory/agent-skills-for-context-engineering/skills-multi-agent-patterns-references-frameworks.md)
+  - **project-development**
+    - **references**
+      - [Case Studies: LLM Project Development](/lib/10-context-memory/agent-skills-for-context-engineering/skills-project-development-references-case-studies.md)
+      - [Pipeline Patterns for LLM Projects](/lib/10-context-memory/agent-skills-for-context-engineering/skills-project-development-references-pipeline-patterns.md)
+  - **self-improvement-loops**
+    - **references**
+      - [Loop Design Evidence](/lib/10-context-memory/agent-skills-for-context-engineering/skills-self-improvement-loops-references-loop-design-evidence.md)
+  - **tool-design**
+    - **references**
+      - [Architectural Reduction: Production Evidence](/lib/10-context-memory/agent-skills-for-context-engineering/skills-tool-design-references-architectural_reduction.md)
+      - [Tool Design Best Practices](/lib/10-context-memory/agent-skills-for-context-engineering/skills-tool-design-references-best_practices.md)
+- **template**
+  - **references**
+    - [Reference File](/lib/10-context-memory/agent-skills-for-context-engineering/template-references-reference-file.md)
+    - [Topic Details](/lib/10-context-memory/agent-skills-for-context-engineering/template-references-topic-details.md)
 
-开始学习 → [CLAUDE.md](CLAUDE.md)
+开始学习 → [PDF Processing](docs-agentskills.md)

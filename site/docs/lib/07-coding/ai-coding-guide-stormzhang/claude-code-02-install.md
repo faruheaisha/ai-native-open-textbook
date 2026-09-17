@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/stormzhang/ai-coding-guide"
-entryUrl: "https://github.com/stormzhang/ai-coding-guide/blob/d187dbdb83fa1be051a850074eb518e30e2eb47c/README.md"
+entryUrl: "https://github.com/stormzhang/ai-coding-guide/blob/d187dbdb83fa1be051a850074eb518e30e2eb47c/claude-code/02-install.md"
+sourceRel: "claude-code/02-install.md"
+rawUrl: "/raw/07-coding/ai-coding-guide-stormzhang/claude-code/02-install.md"
+sourceSha256: "cf067d145e1813c326ff2783d08b9ff51ffa91c1d7321c26f646662e97278ce0"
+pageSha256: "cf067d145e1813c326ff2783d08b9ff51ffa91c1d7321c26f646662e97278ce0"
+contentMode: "local-full"
 zh: ""
 ---
 

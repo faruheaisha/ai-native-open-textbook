@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/fufankeji/FuFan-VibeCodingCourse"
-entryUrl: "https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/README_CN.md"
+entryUrl: "https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/Stage2_Cursor_Deep_Dive/Lesson04_OpenClaw_Custom_Dev_Full_Process/02_系统规范文档/architecture-overview-1.0/客户端与UI关系说明.md"
+sourceRel: "Stage2_Cursor_Deep_Dive/Lesson04_OpenClaw_Custom_Dev_Full_Process/02_系统规范文档/architecture-overview-1.0/客户端与UI关系说明.md"
+rawUrl: "/raw/07-coding/fufan-vibe-coding-course/Stage2_Cursor_Deep_Dive/Lesson04_OpenClaw_Custom_Dev_Full_Process/02_系统规范文档/architecture-overview-1.0/客户端与UI关系说明.md"
+sourceSha256: "f7d3f5a3beeea82e3fd8775433de00f9ef2b6cef301d719a7aba2759a6c041dc"
+pageSha256: "f7d3f5a3beeea82e3fd8775433de00f9ef2b6cef301d719a7aba2759a6c041dc"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/addyosmani/agent-skills"
-entryUrl: "https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/README.md"
+entryUrl: "https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/docs/gemini-cli-setup.md"
+sourceRel: "docs/gemini-cli-setup.md"
+rawUrl: "/raw/10-context-memory/agent-skills-addyosmani/docs/gemini-cli-setup.md"
+sourceSha256: "982d9cdc469fb26cbd4dd6a2d26d1894f2b93e2f821dd8646c188dacb8150803"
+pageSha256: "982d9cdc469fb26cbd4dd6a2d26d1894f2b93e2f821dd8646c188dacb8150803"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/datawhalechina/easy-vibe"
-entryUrl: "https://github.com/datawhalechina/easy-vibe/blob/130e9b75b28b524e8cc74e615fd9733a4e2b330d/README.md"
+entryUrl: "https://github.com/datawhalechina/easy-vibe/blob/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/appendix/2-development-tools/environment-path.md"
+sourceRel: "docs/zh-cn/appendix/2-development-tools/environment-path.md"
+rawUrl: "/raw/07-coding/easy-vibe/docs/zh-cn/appendix/2-development-tools/environment-path.md"
+sourceSha256: "c157a9207139b1885422b34a58a80193ef5dc690155daeb5e1e25a48a74126ec"
+pageSha256: "c157a9207139b1885422b34a58a80193ef5dc690155daeb5e1e25a48a74126ec"
+contentMode: "local-full"
 zh: ""
 ---
 

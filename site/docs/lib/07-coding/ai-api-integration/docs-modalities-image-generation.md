@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/CCCpan/ai-api-integration"
-entryUrl: "https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/README.md"
+entryUrl: "https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/docs/modalities/image-generation.md"
+sourceRel: "docs/modalities/image-generation.md"
+rawUrl: "/raw/07-coding/ai-api-integration/docs/modalities/image-generation.md"
+sourceSha256: "1a92e0d2f56426d5092115f2226d8916fc8751aee94503a2a1dbc54de5cb0b5a"
+pageSha256: "1a92e0d2f56426d5092115f2226d8916fc8751aee94503a2a1dbc54de5cb0b5a"
+contentMode: "local-full"
 zh: ""
 ---
 

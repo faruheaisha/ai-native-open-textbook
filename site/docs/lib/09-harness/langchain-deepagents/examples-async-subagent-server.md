@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/langchain-ai/deepagents"
-entryUrl: "https://github.com/langchain-ai/deepagents/blob/d93ab3351bbf4c3687212f665094ccad100f2c08/README.md"
+entryUrl: "https://github.com/langchain-ai/deepagents/blob/d93ab3351bbf4c3687212f665094ccad100f2c08/examples/async-subagent-server/README.md"
+sourceRel: "examples/async-subagent-server/README.md"
+rawUrl: "/raw/09-harness/langchain-deepagents/examples/async-subagent-server/README.md"
+sourceSha256: "5993458ae009fdcd244d14f5f97e6ade624fb2f51a1877a930f4095c7da56188"
+pageSha256: "5993458ae009fdcd244d14f5f97e6ade624fb2f51a1877a930f4095c7da56188"
+contentMode: "local-full"
 zh: ""
 ---
 

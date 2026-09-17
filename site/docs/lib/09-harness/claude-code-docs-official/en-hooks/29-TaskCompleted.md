@@ -1,0 +1,74 @@
+---
+title: "claude-code-docs-official"
+sourceId: "09-harness/claude-code-docs-official"
+sourceTitle: "claude-code-docs-official"
+sourceKind: "官方文档"
+licenseLabel: "仅引用"
+lang: "英文"
+tier: 3
+volume: "09-harness"
+sourceUrl: "https://code.claude.com/docs"
+entryUrl: "https://code.claude.com/docs"
+sourceRel: "en/hooks.md"
+rawUrl: "/raw/09-harness/claude-code-docs-official/en/hooks.md"
+sourceSha256: "a6f4f82aca2e63d64ba787c2dc8d735ff95ae86fd3a53471b87eb089133cbdca"
+pageSha256: "9e6dab01cf16417b24fb63e297b0e4b7b98ba63d469462236da2af0651cef421"
+contentMode: "local-full"
+zh: ""
+---
+
+### TaskCompleted
+
+Runs when a task is being marked as completed. This fires in two situations: when any agent explicitly marks a task as completed through the TaskUpdate tool, or when an [agent team](https://code.claude.com/docs/en/agent-teams) teammate finishes its turn with in-progress tasks. Use this to enforce completion criteria like passing tests or lint checks before a task can close.
+
+TaskCompleted hooks don't support matchers and fire on every occurrence.
+
+#### TaskCompleted input
+
+In addition to the [common input fields](#common-input-fields), TaskCompleted hooks receive `task_id`, `task_subject`, and optionally `task_description`, `teammate_name`, and `team_name`.
+
+```json theme={null}
+{
+  "session_id": "abc123",
+  "transcript_path": "/Users/.../.claude/projects/.../00893aaf-19fa-41d2-8238-13269b9b3ca0.jsonl",
+  "cwd": "/Users/...",
+  "permission_mode": "default",
+  "hook_event_name": "TaskCompleted",
+  "task_id": "task-001",
+  "task_subject": "Implement user authentication",
+  "task_description": "Add login and signup endpoints",
+  "teammate_name": "implementer",
+  "team_name": "session-a1b2c3d4"
+}
+```
+
+| Field              | Description                                                                |
+| :----------------- | :------------------------------------------------------------------------- |
+| `task_id`          | Identifier of the task being completed                                     |
+| `task_subject`     | Title of the task                                                          |
+| `task_description` | Detailed description of the task. May be absent                            |
+| `teammate_name`    | Name of the teammate completing the task. May be absent                    |
+| `team_name`        | Deprecated. Session-derived team name; will be removed in a future release |
+
+#### TaskCompleted decision control
+
+TaskCompleted hooks support two ways to control task completion:
+
+* **Exit code 2**: the task is not marked as completed and the stderr message is fed back to the model as feedback.
+* **JSON `\{"continue": false, "stopReason": "..."\}`**: when a teammate finishing its turn triggered the event, stops the teammate entirely, matching `Stop` hook behavior. The `stopReason` is shown to the user. When the `TaskUpdate` tool triggered the event, Claude Code ignores `continue: false`; exit code 2 still blocks the completion.
+
+This example runs tests and blocks task completion if they fail:
+
+```bash theme={null}
+#!/bin/bash
+INPUT=$(cat)
+TASK_SUBJECT=$(echo "$INPUT" | jq -r '.task_subject')
+
+# Run the test suite
+if ! npm test 2>&1; then
+  echo "Tests not passing. Fix failing tests before completing: $TASK_SUBJECT" >&2
+  exit 2
+fi
+
+exit 0
+```

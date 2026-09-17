@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/microsoft/skills"
-entryUrl: "https://github.com/microsoft/skills/blob/cf77b1efbf3117501f4727c476894751311ee885/README.md"
+entryUrl: "https://github.com/microsoft/skills/blob/cf77b1efbf3117501f4727c476894751311ee885/tests/scenarios/azure-ai-ml-py/acceptance-criteria.md"
+sourceRel: "tests/scenarios/azure-ai-ml-py/acceptance-criteria.md"
+rawUrl: "/raw/10-context-memory/microsoft-skills/tests/scenarios/azure-ai-ml-py/acceptance-criteria.md"
+sourceSha256: "ffa428b0c53f48f93b72cd1514b407ccf038a875781eaeb2a8b9aed1d1542a04"
+pageSha256: "ffa428b0c53f48f93b72cd1514b407ccf038a875781eaeb2a8b9aed1d1542a04"
+contentMode: "local-full"
 zh: ""
 ---
 

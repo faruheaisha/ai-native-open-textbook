@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/fufankeji/FuFan-VibeCodingCourse"
-entryUrl: "https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/README_CN.md"
+entryUrl: "https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/Stage1_AI_Programming_Fundamentals/Lesson01_Dev_Workflow_and_Environment/chatgpt-clone/frontend/README.md"
+sourceRel: "Stage1_AI_Programming_Fundamentals/Lesson01_Dev_Workflow_and_Environment/chatgpt-clone/frontend/README.md"
+rawUrl: "/raw/07-coding/fufan-vibe-coding-course/Stage1_AI_Programming_Fundamentals/Lesson01_Dev_Workflow_and_Environment/chatgpt-clone/frontend/README.md"
+sourceSha256: "f58b5b17f83db63c09a9f2c059ec435ac8a3feb66f9337391ed5f3f62cff4e63"
+pageSha256: "f58b5b17f83db63c09a9f2c059ec435ac8a3feb66f9337391ed5f3f62cff4e63"
+contentMode: "local-full"
 zh: ""
 ---
 

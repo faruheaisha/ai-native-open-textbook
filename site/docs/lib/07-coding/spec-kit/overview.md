@@ -9,6 +9,11 @@ tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/github/spec-kit"
 entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/07-coding/spec-kit/README.md"
+sourceSha256: "cba3c17953bd9453e8f53d378ed4fa4c5272c3633ad313ad600de5bb4979a17a"
+pageSha256: "cba3c17953bd9453e8f53d378ed4fa4c5272c3633ad313ad600de5bb4979a17a"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -25,7 +30,7 @@ zh: ""
     
 
     <strong>English</strong> ·
-[简体中文](https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/README.zh-CN.md)
+[简体中文](/lib/07-coding/spec-kit/README.zh-CN)
 
 > [!NOTE]
 > **One year of Spec Kit — and 1.0.0**
@@ -165,7 +170,7 @@ specify init my-project --non-interactive --ignore-agent-tools
 specify init --here --force --non-interactive --integration claude
 ```
 
-To check for updates or upgrade the installed CLI, use the self-management commands. See the [Upgrade Guide](https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/docs/upgrade.md) for detailed scenarios and customization options.
+To check for updates or upgrade the installed CLI, use the self-management commands. See the [Upgrade Guide](/lib/07-coding/spec-kit/docs-upgrade) for detailed scenarios and customization options.
 
 ```bash
 # Check whether a newer release is available (read-only — does not modify anything)
@@ -225,7 +230,7 @@ Use **`/speckit.implement`** to execute all tasks and build your feature accordi
 /speckit.implement
 ```
 
-For detailed step-by-step instructions, see our [comprehensive guide](https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/spec-driven.md).
+For detailed step-by-step instructions, see our [comprehensive guide](/lib/07-coding/spec-kit/spec-driven).
 
 ## 📽️ Video Overview
 
@@ -246,7 +251,7 @@ Explore community-contributed resources on the [Spec Kit docs site](https://gith
 > [!NOTE]
 > Community contributions are independently created and maintained by their respective authors. Review source code before installation and use at your own discretion.
 
-Want to contribute? See the [Extension Publishing Guide](https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/extensions/EXTENSION-PUBLISHING-GUIDE.md), the [Presets Publishing Guide](https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/presets/PUBLISHING.md), or the [Community Bundles guide](/lib/07-coding/spec-kit/docs-community-bundles).
+Want to contribute? See the [Extension Publishing Guide](/lib/07-coding/spec-kit/extensions-EXTENSION-PUBLISHING-GUIDE), the [Presets Publishing Guide](/lib/07-coding/spec-kit/presets-PUBLISHING), or the [Community Bundles guide](/lib/07-coding/spec-kit/docs-community-bundles).
 
 ## 🤖 Supported AI Coding Agent Integrations
 

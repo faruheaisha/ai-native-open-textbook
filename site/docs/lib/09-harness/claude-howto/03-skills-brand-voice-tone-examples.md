@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/luongnv89/claude-howto"
-entryUrl: "https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/README.md"
+entryUrl: "https://github.com/luongnv89/claude-howto/blob/97bfb0685e03112ad39845889061d02cef6e534c/03-skills/brand-voice/tone-examples.md"
+sourceRel: "03-skills/brand-voice/tone-examples.md"
+rawUrl: "/raw/09-harness/claude-howto/03-skills/brand-voice/tone-examples.md"
+sourceSha256: "dfc6db13c2ab766044c4f42cb3dc523def36edeea4c7e699c6608aa4e861df1c"
+pageSha256: "dfc6db13c2ab766044c4f42cb3dc523def36edeea4c7e699c6608aa4e861df1c"
+contentMode: "local-full"
 zh: ""
 ---
 

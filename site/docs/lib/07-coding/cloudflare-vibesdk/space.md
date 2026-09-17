@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/cloudflare/vibesdk"
-entryUrl: "https://github.com/cloudflare/vibesdk/blob/9da158d82c597a0e8f4bf033cdccd1053fb6fb15/README.md"
+entryUrl: "https://github.com/cloudflare/vibesdk/blob/9da158d82c597a0e8f4bf033cdccd1053fb6fb15/space/README.md"
+sourceRel: "space/README.md"
+rawUrl: "/raw/07-coding/cloudflare-vibesdk/space/README.md"
+sourceSha256: "badda60828a86be5acd95f263dce4398c805f47a537417d03474063bf08a748c"
+pageSha256: "badda60828a86be5acd95f263dce4398c805f47a537417d03474063bf08a748c"
+contentMode: "local-full"
 zh: ""
 ---
 

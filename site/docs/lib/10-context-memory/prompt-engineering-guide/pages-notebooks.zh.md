@@ -1,0 +1,30 @@
+---
+title: "Prompt Engineering笔记本"
+sourceId: "10-context-memory/prompt-engineering-guide"
+sourceTitle: "Prompt Engineering Guide"
+sourceKind: "工程手册"
+licenseLabel: "可转载"
+lang: "英文"
+tier: 2
+volume: "10-context-memory"
+sourceUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide"
+entryUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide/blob/57673726396dd94acb23bdb1e67f27c78ee85a8e/pages/notebooks.zh.mdx"
+sourceRel: "pages/notebooks.zh.mdx"
+rawUrl: "/raw/10-context-memory/prompt-engineering-guide/pages/notebooks.zh.mdx"
+sourceSha256: "a7dae468b0923a6aa2e3893824d98a47210f6cceaba769e731f755aca9a21552"
+pageSha256: "a7dae468b0923a6aa2e3893824d98a47210f6cceaba769e731f755aca9a21552"
+contentMode: "local-full"
+zh: ""
+---
+
+# Prompt Engineering笔记本
+
+包含了我们设计的一系列笔记本，帮助您开始进行Prompt Engineering。更多内容即将添加！
+
+| 描述   | 笔记本   | 
+| :------------ | :---------: | 
+|学习如何使用`openai`和`LangChain`库执行许多不同类型的常见任务|[Prompt Engineering入门](https://github.com/dair-ai/Prompt-Engineering-Guide/blob/main/notebooks/pe-lecture.ipynb)|
+|学习如何使用Python解释器与语言模型结合使用代码作为推理来解决常见任务。|[程序辅助语言模型](https://github.com/dair-ai/Prompt-Engineering-Guide/blob/main/notebooks/pe-pal.ipynb)|
+|学习更多关于如何使用`openai`库调用ChatGPT API的内容。|[ChatGPT API介绍](https://github.com/dair-ai/Prompt-Engineering-Guide/blob/main/notebooks/pe-chatgpt-intro.ipynb)|
+|学习如何使用`LangChain`库使用ChatGPT功能。 |[使用LangChain的ChatGPT API](https://github.com/dair-ai/Prompt-Engineering-Guide/blob/main/notebooks/pe-chatgpt-langchain.ipynb)|
+|学习关于对抗Prompt Engineering的内容，包括防御措施。|[对抗Prompt Engineering](https://github.com/dair-ai/Prompt-Engineering-Guide/blob/main/notebooks/pe-chatgpt-adversarial.ipynb)|

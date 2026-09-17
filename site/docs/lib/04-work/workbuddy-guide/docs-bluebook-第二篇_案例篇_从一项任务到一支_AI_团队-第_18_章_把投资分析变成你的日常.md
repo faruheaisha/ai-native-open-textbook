@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/AlephAITech/WorkBuddyGuide"
-entryUrl: "https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89da368fe208425ff50e121fe/README.md"
+entryUrl: "https://github.com/AlephAITech/WorkBuddyGuide/blob/814ec835e9dae4a89da368fe208425ff50e121fe/docs/bluebook/第二篇%20案例篇：从一项任务到一支%20AI%20团队/第%2018%20章%20把投资分析变成你的日常/index.md"
+sourceRel: "docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 18 章 把投资分析变成你的日常/index.md"
+rawUrl: "/raw/04-work/workbuddy-guide/docs/bluebook/第二篇 案例篇：从一项任务到一支 AI 团队/第 18 章 把投资分析变成你的日常/index.md"
+sourceSha256: "ec6a25a1c187b483bcc480114394531e95b5a8e4ae53f61346b858c84804cfd7"
+pageSha256: "ec6a25a1c187b483bcc480114394531e95b5a8e4ae53f61346b858c84804cfd7"
+contentMode: "local-full"
 zh: ""
 ---
 

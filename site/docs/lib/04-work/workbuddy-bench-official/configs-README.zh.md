@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "04-work"
 sourceUrl: "https://github.com/Tencent/workbuddy-bench"
-entryUrl: "https://github.com/Tencent/workbuddy-bench/blob/625b2233093ae4f23e76be28c1f341d41cc70373/README.md"
+entryUrl: "https://github.com/Tencent/workbuddy-bench/blob/625b2233093ae4f23e76be28c1f341d41cc70373/configs/README.zh.md"
+sourceRel: "configs/README.zh.md"
+rawUrl: "/raw/04-work/workbuddy-bench-official/configs/README.zh.md"
+sourceSha256: "93dd7d7c4284c10136543b43f2a301d41b462b9f8702212e78abda491e08225e"
+pageSha256: "93dd7d7c4284c10136543b43f2a301d41b462b9f8702212e78abda491e08225e"
+contentMode: "local-full"
 zh: ""
 ---
 

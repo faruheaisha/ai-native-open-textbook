@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/google-gemini/cookbook"
-entryUrl: "https://github.com/google-gemini/cookbook/blob/a1b990c859a34823c982f70edaff35b830511c64/README.md"
+entryUrl: "https://github.com/google-gemini/cookbook/blob/a1b990c859a34823c982f70edaff35b830511c64/tools/README.md"
+sourceRel: "tools/README.md"
+rawUrl: "/raw/08-agents/gemini-cookbook/tools/README.md"
+sourceSha256: "8a7631a9255cd2a5a947338773ffd7e94b186a438a0099044166f24e4a421355"
+pageSha256: "8a7631a9255cd2a5a947338773ffd7e94b186a438a0099044166f24e4a421355"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -94,7 +99,7 @@ python tools/check_readme_links.py --all
 - **`gemini::model_selector`**:
   - Verifies that model selectors use the canonical Colab form pattern:
     ```python
-    MODEL_ID = "gemini-3.7-flash" # @param ["gemini-3.1-pro-preview", "gemini-3.7-flash", "gemini-3.5-flash-lite", "gemini-2.5-pro"] {"allow-input":true, isTemplate: true}
+    MODEL_ID = "gemini-3.7-flash" # @param ["gemini-3.1-pro-preview", "gemini-3.7-flash", "gemini-3.5-flash-lite", "gemini-2.5-pro"] \{"allow-input":true, isTemplate: true\}
     ```
   - Verifies that the default assigned model exists in the option list.
   - Verifies that models in the list are sorted in logical order from most capable to least capable: **current generation (Pro $\rightarrow$ Flash $\rightarrow$ Flash-Lite)**, followed by **previous generation (e.g. Pro 2.5)**.

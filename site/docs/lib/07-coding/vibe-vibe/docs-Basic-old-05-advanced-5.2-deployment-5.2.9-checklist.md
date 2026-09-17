@@ -1,0 +1,85 @@
+---
+title: "5.2.9 本节检查清单"
+sourceId: "07-coding/vibe-vibe"
+sourceTitle: "Vibe Vibe —— 人人都能学会的 AI 编程（Vibe Coding）指南"
+sourceKind: "课时教程"
+licenseLabel: "限非商用"
+lang: "中文"
+tier: 3
+volume: "07-coding"
+sourceUrl: "https://github.com/datawhalechina/vibe-vibe"
+entryUrl: "https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/Basic-old/05-advanced/5.2-deployment/5.2.9-checklist.md"
+sourceRel: "docs/Basic-old/05-advanced/5.2-deployment/5.2.9-checklist.md"
+rawUrl: "/raw/07-coding/vibe-vibe/docs/Basic-old/05-advanced/5.2-deployment/5.2.9-checklist.md"
+sourceSha256: "78e599e16323e0a7160d6d29a0559100f117f28f6334e4687d5b717343fccfce"
+pageSha256: "78e599e16323e0a7160d6d29a0559100f117f28f6334e4687d5b717343fccfce"
+contentMode: "local-full"
+zh: ""
+---
+
+# 5.2.9 本节检查清单
+
+完成本节学习后，逐项确认你已经掌握了以下内容。
+
+## 知识检查
+
+- [ ] 理解了"部署"的含义：把代码放到服务器上，让所有人都能访问
+- [ ] 知道 Zeabur 和 Vercel 的区别，以及为什么大陆用户建议用 Zeabur
+- [ ] 了解了代码更新后自动部署的工作原理
+
+## 操作检查
+
+- [ ] 注册了部署平台账号（Zeabur 或 Vercel）
+- [ ] 成功部署了第四章的待办清单项目
+- [ ] 获得了一个可公开访问的网址
+- [ ] 在浏览器中验证了网站功能正常
+- [ ] **在手机上验证了可以正常访问**（这一条很重要）
+
+## 进阶检查（可选）
+
+- [ ] 尝试修改代码，提交更新，验证自动部署生效
+- [ ] 把网址分享给朋友或家人，让他们试用
+- [ ] 了解了部署失败时如何排查问题
+
+## 本节核心要点
+
+经过本节学习，你应该掌握了：
+
+| 能力 | 具体表现 |
+|------|---------|
+| 部署网站 | 能独立将本地项目部署到互联网上 |
+| 平台选择 | 知道根据自己的情况选择合适的部署平台 |
+| 问题排查 | 遇到部署问题时知道如何查看日志和求助 AI |
+| 持续更新 | 理解 Push 即部署的工作流程 |
+
+## 你现在拥有了什么
+
+完成本节后，你已经：
+
+- 拥有了一个真正的网址（如 `my-todo.zeabur.app`）
+- 可以让任何人通过这个链接访问你的作品
+- 具备了将任何项目发布到互联网的能力
+- 你的作品 24 小时在线，不需要开着电脑
+
+这是一个了不起的里程碑。
+
+从第四章到现在，你完成了：
+- 从零开始做出一个待办清单
+- 把代码上传到 GitHub 保管
+- 把网站发布到互联网上
+
+你已经走完了从"想法"到"产品"的完整流程。
+
+::: tip 恭喜你
+你的作品现在全世界都能看到了。这不是终点，而是新的起点。
+
+接下来，我们会学习如何保护你的作品和数据安全。
+:::
+
+## 下一步行动
+
+1. 把你的网址分享给朋友或家人，让他们体验一下
+2. 在手机上试试你的待办清单，感受"随时随地使用"的便利
+3. 准备好进入下一节：学习 AI 时代的安全意识
+
+→ [5.3 护城河：AI 时代的安全意识](https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/Basic-old/05-advanced/5.3-security/README.md)

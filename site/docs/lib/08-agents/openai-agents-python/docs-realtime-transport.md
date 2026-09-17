@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/openai/openai-agents-python"
-entryUrl: "https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/README.md"
+entryUrl: "https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/realtime/transport.md"
+sourceRel: "docs/realtime/transport.md"
+rawUrl: "/raw/08-agents/openai-agents-python/docs/realtime/transport.md"
+sourceSha256: "1fca65d0b7bd91290066ae8d12770acd586ead703fa73d8b8b97df012ef5b230"
+pageSha256: "1fca65d0b7bd91290066ae8d12770acd586ead703fa73d8b8b97df012ef5b230"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -88,7 +93,7 @@ This topology looks like:
 1. OpenAI sends your service a webhook such as `realtime.call.incoming`.
 2. Your service accepts the call through the Realtime Calls API.
 3. Your Python service starts a `RealtimeRunner(..., model=OpenAIRealtimeSIPModel())`.
-4. The session connects with `model_config={"call_id": ...}` and then processes events like any other realtime session.
+4. The session connects with `model_config=\{"call_id": ...\}` and then processes events like any other realtime session.
 
 This is the topology shown in [`examples/realtime/twilio_sip`](https://github.com/openai/openai-agents-python/tree/main/examples/realtime/twilio_sip).
 

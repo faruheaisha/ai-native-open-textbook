@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/zebbern/claude-code-guide"
-entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/README.md"
+entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/skills/active-directory-attacks/SKILL.md"
+sourceRel: "skills/active-directory-attacks/SKILL.md"
+rawUrl: "/raw/09-harness/claude-code-guide-zebbern/skills/active-directory-attacks/SKILL.md"
+sourceSha256: "a086e99cb5f9a45f9499a465800189739acd65c555559960af52cdd2c3fcc61e"
+pageSha256: "a086e99cb5f9a45f9499a465800189739acd65c555559960af52cdd2c3fcc61e"
+contentMode: "local-full"
 zh: ""
 ---
 

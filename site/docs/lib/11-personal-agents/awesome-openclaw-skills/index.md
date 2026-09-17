@@ -10,6 +10,8 @@ lang: "英文"
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/VoltAgent/awesome-openclaw-skills"
 entryUrl: "https://github.com/VoltAgent/awesome-openclaw-skills/blob/37ad08c1b8e243d5f501c6fcaf7ac0b507bd83a1/README.md"
+sourceRel: ""
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -19,28 +21,36 @@ OpenClaw is a locally-running AI assistant that operates directly on your machin
 
 ## 课时
 
-1. [AI & LLMs](categories-ai-and-llms.md)
-2. [Apple Apps & Services](categories-apple-apps-and-services.md)
-3. [Browser & Automation](categories-browser-and-automation.md)
-4. [Calendar & Scheduling](categories-calendar-and-scheduling.md)
-5. [Clawdbot Tools](categories-clawdbot-tools.md)
-6. [CLI Utilities](categories-cli-utilities.md)
-7. [Coding Agents & IDEs](categories-coding-agents-and-ides.md)
-8. [Communication](categories-communication.md)
-9. [Data & Analytics](categories-data-and-analytics.md)
-10. [DevOps & Cloud](categories-devops-and-cloud.md)
-11. [Gaming](categories-gaming.md)
-12. [Git & GitHub](categories-git-and-github.md)
-13. [Health & Fitness](categories-health-and-fitness.md)
-14. [Image & Video Generation](categories-image-and-video-generation.md)
-15. [iOS & macOS Development](categories-ios-and-macos-development.md)
-16. [Marketing & Sales](categories-marketing-and-sales.md)
-17. [Media & Streaming](categories-media-and-streaming.md)
-18. [Moltbook](categories-moltbook.md)
-19. [Notes & PKM](categories-notes-and-pkm.md)
-20. [PDF & Documents](categories-pdf-and-documents.md)
-21. [Personal Development](categories-personal-development.md)
-22. [Productivity & Tasks](categories-productivity-and-tasks.md)
-23. [Search & Research](categories-search-and-research.md)
+- **Table of Contents**
+  - [View all 159 skills in Git & GitHub →](/lib/11-personal-agents/awesome-openclaw-skills/categories-git-and-github.md)
+  - [View all 1200 skills in Coding Agents & IDEs →](/lib/11-personal-agents/awesome-openclaw-skills/categories-coding-agents-and-ides.md)
+  - [View all 323 skills in Browser & Automation →](/lib/11-personal-agents/awesome-openclaw-skills/categories-browser-and-automation.md)
+  - [View all 925 skills in Web & Frontend Development →](/lib/11-personal-agents/awesome-openclaw-skills/categories-web-and-frontend-development.md)
+  - [View all 392 skills in DevOps & Cloud →](/lib/11-personal-agents/awesome-openclaw-skills/categories-devops-and-cloud.md)
+  - [View all 170 skills in Image & Video Generation →](/lib/11-personal-agents/awesome-openclaw-skills/categories-image-and-video-generation.md)
+  - [View all 44 skills in Apple Apps & Services →](/lib/11-personal-agents/awesome-openclaw-skills/categories-apple-apps-and-services.md)
+  - [View all 342 skills in Search & Research →](/lib/11-personal-agents/awesome-openclaw-skills/categories-search-and-research.md)
+  - [View all 37 skills in Clawdbot Tools →](/lib/11-personal-agents/awesome-openclaw-skills/categories-clawdbot-tools.md)
+  - [View all 180 skills in CLI Utilities →](/lib/11-personal-agents/awesome-openclaw-skills/categories-cli-utilities.md)
+  - [View all 107 skills in Marketing & Sales →](/lib/11-personal-agents/awesome-openclaw-skills/categories-marketing-and-sales.md)
+  - [View all 207 skills in Productivity & Tasks →](/lib/11-personal-agents/awesome-openclaw-skills/categories-productivity-and-tasks.md)
+  - [View all 185 skills in AI & LLMs →](/lib/11-personal-agents/awesome-openclaw-skills/categories-ai-and-llms.md)
+  - [View all 83 skills in Media & Streaming →](/lib/11-personal-agents/awesome-openclaw-skills/categories-media-and-streaming.md)
+  - [View all 69 skills in Notes & PKM →](/lib/11-personal-agents/awesome-openclaw-skills/categories-notes-and-pkm.md)
+  - [View all 29 skills in iOS & macOS Development →](/lib/11-personal-agents/awesome-openclaw-skills/categories-ios-and-macos-development.md)
+  - [View all 111 skills in Transportation →](/lib/11-personal-agents/awesome-openclaw-skills/categories-transportation.md)
+  - [View all 53 skills in Personal Development →](/lib/11-personal-agents/awesome-openclaw-skills/categories-personal-development.md)
+  - [View all 84 skills in Health & Fitness →](/lib/11-personal-agents/awesome-openclaw-skills/categories-health-and-fitness.md)
+  - [View all 145 skills in Communication →](/lib/11-personal-agents/awesome-openclaw-skills/categories-communication.md)
+  - [View all 46 skills in Speech & Transcription →](/lib/11-personal-agents/awesome-openclaw-skills/categories-speech-and-transcription.md)
+  - [View all 43 skills in Smart Home & IoT →](/lib/11-personal-agents/awesome-openclaw-skills/categories-smart-home-and-iot.md)
+  - [View all 51 skills in Shopping & E-commerce →](/lib/11-personal-agents/awesome-openclaw-skills/categories-shopping-and-e-commerce.md)
+  - [View all 66 skills in Calendar & Scheduling →](/lib/11-personal-agents/awesome-openclaw-skills/categories-calendar-and-scheduling.md)
+  - [View all 110 skills in PDF & Documents →](/lib/11-personal-agents/awesome-openclaw-skills/categories-pdf-and-documents.md)
+  - [View all 32 skills in Self-Hosted & Automation →](/lib/11-personal-agents/awesome-openclaw-skills/categories-self-hosted-and-automation.md)
+  - [View all 54 skills in Security & Passwords →](/lib/11-personal-agents/awesome-openclaw-skills/categories-security-and-passwords.md)
+  - [View all 35 skills in Gaming →](/lib/11-personal-agents/awesome-openclaw-skills/categories-gaming.md)
+- [Data & Analytics](/lib/11-personal-agents/awesome-openclaw-skills/categories-data-and-analytics.md)
+- [Moltbook](/lib/11-personal-agents/awesome-openclaw-skills/categories-moltbook.md)
 
 开始学习 → [AI & LLMs](categories-ai-and-llms.md)

@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works"
-entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/README.md"
+entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/01-overview.md"
+sourceRel: "docs/01-overview.md"
+rawUrl: "/raw/09-harness/how-claude-code-works/docs/01-overview.md"
+sourceSha256: "ffcb6d953e1aa49d3168abc114b1ebf29fad44153220fe268d0689ec4b663140"
+pageSha256: "ffcb6d953e1aa49d3168abc114b1ebf29fad44153220fe268d0689ec4b663140"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -105,7 +110,7 @@ export async function* query(
 
 注意 `query()` 的返回类型 `AsyncGenerator<..., Terminal>`——`Terminal` 是 generator 的 return type，代表查询的最终状态，与 yield 出的中间事件流是分离的。这种"双通道"（yield 流式事件 + return 最终结果）只有 generator 能干净地表达。
 
-整个数据流形成嵌套的 generator 管道，入口分两条。交互式路径由 REPL 直接调用 `query()`：`REPL.tsx:146` 处 `import { query }`，主循环在 `REPL.tsx:2793` 的 `for await (const event of query({...}))`。无头 / `-p` / SDK 路径先经会话引擎再汇入核心循环：`cli/print.ts` 先调 `QueryEngine.submitMessage()` / `ask()`，再进入 `query()`。两条路径最终都收敛到同一个 `query()`，由它调用 `queryModelWithStreaming()`（`services/api/claude.ts`）。每一层 generator 在管道上叠加自己的处理逻辑——压缩、错误恢复、权限检查——但对上层来说，它只是一个统一的 `AsyncGenerator` 事件流。
+整个数据流形成嵌套的 generator 管道，入口分两条。交互式路径由 REPL 直接调用 `query()`：`REPL.tsx:146` 处 `import \{ query \}`，主循环在 `REPL.tsx:2793` 的 `for await (const event of query(\{...\}))`。无头 / `-p` / SDK 路径先经会话引擎再汇入核心循环：`cli/print.ts` 先调 `QueryEngine.submitMessage()` / `ask()`，再进入 `query()`。两条路径最终都收敛到同一个 `query()`，由它调用 `queryModelWithStreaming()`（`services/api/claude.ts`）。每一层 generator 在管道上叠加自己的处理逻辑——压缩、错误恢复、权限检查——但对上层来说，它只是一个统一的 `AsyncGenerator` 事件流。
 
 ### 2. 防御性分层安全
 
@@ -165,7 +170,7 @@ const taskSummaryModule = feature('BG_SESSIONS')
   : null
 ```
 
-`as typeof import(...)` 类型断言让 TypeScript 在编译期获得正确的类型信息，而 `feature()` 在 Bun bundler 构建时被求值——如果结果为 `false`，整个 `require()` 分支和相关代码都被 tree-shaken 移除。使用这些模块的代码总是先检查 `if (contextCollapse) { ... }`，这个条件判断本身也在编译时被消除。
+`as typeof import(...)` 类型断言让 TypeScript 在编译期获得正确的类型信息，而 `feature()` 在 Bun bundler 构建时被求值——如果结果为 `false`，整个 `require()` 分支和相关代码都被 tree-shaken 移除。使用这些模块的代码总是先检查 `if (contextCollapse) \{ ... \}`，这个条件判断本身也在编译时被消除。
 
 ### 4. 状态集中 + 不可变更新
 
@@ -179,7 +184,7 @@ Claude Code 有约 55 个工具（工具注册表口径，含 feature-gated，�
 
 `bootstrap/state.ts` 的解决方案是通过显式的 getter/setter 函数暴露状态（如 `getSessionId()`、`getTotalCostUSD()`、`setMainLoopModelOverride()`），而不是导出可变对象。每个模块只导入自己需要的 getter/setter 函数，从而打破 import 循环；每次修改都经过函数调用，可以轻松添加日志或断点追踪。
 
-UI 状态使用 Zustand 模式的不可变更新——`setAppState(prev => ({ ...prev, newField: value }))`——保证 React 组件能正确感知状态变化。
+UI 状态使用 Zustand 模式的不可变更新——`setAppState(prev => (\{ ...prev, newField: value \}))`——保证 React 组件能正确感知状态变化。
 
 这不是一个"理想"的架构——团队自己也在控制全局状态的增长。但在 Claude Code 这样的复杂系统中，集中管理的 getter/setter 是一个务实的平衡：比全局变量安全，比完整的状态管理框架（如 Redux）轻量。
 
@@ -194,7 +199,7 @@ UI 状态使用 Zustand 模式的不可变更新——`setAppState(prev => ({ ..
 
 为什么四级而非只用 Autocompact？如果只有 Autocompact，每次上下文接近满就必须调用 API 生成摘要——用户要多等一次，细节也随摘要丢失。先执行零成本的 Snip 和 Microcompact，系统往往能释放足够的空间，避免触发昂贵的 Autocompact。实践中，很多对话自始至终都不需要走到 Autocompact 这一步。
 
-详见 [第 3 章：上下文工程](/lib/09-harness/how-claude-code-works/docs-03-context-engineering)。
+详见 [第 3 章：上下文工程](/lib/09-harness/how-claude-code-works/docs-03-context-engineering/index)。
 
 ### 6. 工具即扩展点
 
@@ -448,7 +453,7 @@ graph TB
 
 ### 模块依赖规则
 
-这个分层有一条关键的依赖规则：**核心循环（query.ts）依赖服务层，但永远不依赖 UI 层**——`query.ts` 不 import `REPL.tsx`，所以你可以把整个终端 UI 替换为 Web UI，核心循环及其以下的所有模块完全不用改动。反过来的依赖是单向的：交互式 UI 即 `REPL.tsx`，直接 import 并驱动 `query()`（`REPL.tsx:146` `import { query }`）；无头 / `-p` / SDK 路径先经 `QueryEngine` 会话层，再进入同一个 `query()`。SDK 模式就是后者的直接体现：它不走终端 UI，直接通过 QueryEngine 与核心循环交互。
+这个分层有一条关键的依赖规则：**核心循环（query.ts）依赖服务层，但永远不依赖 UI 层**——`query.ts` 不 import `REPL.tsx`，所以你可以把整个终端 UI 替换为 Web UI，核心循环及其以下的所有模块完全不用改动。反过来的依赖是单向的：交互式 UI 即 `REPL.tsx`，直接 import 并驱动 `query()`（`REPL.tsx:146` `import \{ query \}`）；无头 / `-p` / SDK 路径先经 `QueryEngine` 会话层，再进入同一个 `query()`。SDK 模式就是后者的直接体现：它不走终端 UI，直接通过 QueryEngine 与核心循环交互。
 
 ## 1.8 代码规模参考
 

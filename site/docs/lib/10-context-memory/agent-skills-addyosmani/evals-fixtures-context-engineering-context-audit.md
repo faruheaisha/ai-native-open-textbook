@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/addyosmani/agent-skills"
-entryUrl: "https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/README.md"
+entryUrl: "https://github.com/addyosmani/agent-skills/blob/6ca0cd7db39b41b1c37e26d335c507ee92382c6d/evals/fixtures/context-engineering/context-audit.md"
+sourceRel: "evals/fixtures/context-engineering/context-audit.md"
+rawUrl: "/raw/10-context-memory/agent-skills-addyosmani/evals/fixtures/context-engineering/context-audit.md"
+sourceSha256: "48130238edcf4ee51632c173de6b4bb53868ba935c4f70bceae7913490e7dd8e"
+pageSha256: "48130238edcf4ee51632c173de6b4bb53868ba935c4f70bceae7913490e7dd8e"
+contentMode: "local-full"
 zh: ""
 ---
 

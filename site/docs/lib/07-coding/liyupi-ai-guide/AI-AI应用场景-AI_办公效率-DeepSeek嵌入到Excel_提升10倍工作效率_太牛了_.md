@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/liyupi/ai-guide"
-entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a02735b38c866/README.md"
+entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a02735b38c866/AI/AI应用场景/AI%20+%20办公效率/DeepSeek嵌入到Excel，提升10倍工作效率，太牛了！.md"
+sourceRel: "AI/AI应用场景/AI + 办公效率/DeepSeek嵌入到Excel，提升10倍工作效率，太牛了！.md"
+rawUrl: "/raw/07-coding/liyupi-ai-guide/AI/AI应用场景/AI + 办公效率/DeepSeek嵌入到Excel，提升10倍工作效率，太牛了！.md"
+sourceSha256: "48158ee9129962242ea84ed8b0aca654f41adfdf7885c6407f417c44407004d9"
+pageSha256: "48158ee9129962242ea84ed8b0aca654f41adfdf7885c6407f417c44407004d9"
+contentMode: "local-full"
 zh: ""
 ---
 

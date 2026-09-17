@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/revfactory/harness"
-entryUrl: "https://github.com/revfactory/harness/blob/cceac68ea1d0ad198ef4b7b906cd238375836387/README.md"
+entryUrl: "https://github.com/revfactory/harness/blob/cceac68ea1d0ad198ef4b7b906cd238375836387/_workspace/release/audit-2026-04-18.md"
+sourceRel: "_workspace/release/audit-2026-04-18.md"
+rawUrl: "/raw/09-harness/meta-skill-harness-revfactory/_workspace/release/audit-2026-04-18.md"
+sourceSha256: "57649084fbd69f691d81ffaffa57a20fe4b533f4a0b20a06b3f6273c6c76bcd7"
+pageSha256: "57649084fbd69f691d81ffaffa57a20fe4b533f4a0b20a06b3f6273c6c76bcd7"
+contentMode: "local-full"
 zh: ""
 ---
 

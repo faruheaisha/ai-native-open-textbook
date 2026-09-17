@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/mattpocock/skills"
-entryUrl: "https://github.com/mattpocock/skills/blob/3cca18b368ae95cdbdebbff572ccafa662551015/README.md"
+entryUrl: "https://github.com/mattpocock/skills/blob/3cca18b368ae95cdbdebbff572ccafa662551015/docs/engineering/codebase-design.md"
+sourceRel: "docs/engineering/codebase-design.md"
+rawUrl: "/raw/10-context-memory/mattpocock-skills/docs/engineering/codebase-design.md"
+sourceSha256: "80a8c23d4729447bd8934127b03f1a38d41ff62283deaade95ca6d118307397c"
+pageSha256: "80a8c23d4729447bd8934127b03f1a38d41ff62283deaade95ca6d118307397c"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/ed-donner/agents"
-entryUrl: ""
+entryUrl: "https://github.com/ed-donner/agents/blob/8ceaf66c24643627c1e4806851736bdd444bdd4b/1_foundations/community_contributions/blt909/README.md"
+sourceRel: "1_foundations/community_contributions/blt909/README.md"
+rawUrl: "/raw/08-agents/ed-donner-agents/1_foundations/community_contributions/blt909/README.md"
+sourceSha256: "1836881985921b0dc806cb270e15a4ce2c54f369ee12ee9de02aa329e6fe22b6"
+pageSha256: "1836881985921b0dc806cb270e15a4ce2c54f369ee12ee9de02aa329e6fe22b6"
+contentMode: "local-full"
 zh: ""
 ---
 

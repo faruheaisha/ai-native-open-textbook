@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/github/spec-kit"
-entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/README.md"
+entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/docs/concepts/spec-persistence.md"
+sourceRel: "docs/concepts/spec-persistence.md"
+rawUrl: "/raw/07-coding/spec-kit/docs/concepts/spec-persistence.md"
+sourceSha256: "8f532defb5ad6019e1e4d839de8fdb9f70e84a0e6609cf8f7b5e22bcce0f4cc2"
+pageSha256: "8f532defb5ad6019e1e4d839de8fdb9f70e84a0e6609cf8f7b5e22bcce0f4cc2"
+contentMode: "local-full"
 zh: ""
 ---
 

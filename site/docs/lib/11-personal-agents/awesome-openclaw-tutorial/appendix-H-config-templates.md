@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial"
-entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/README.md"
+entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/appendix/H-config-templates.md"
+sourceRel: "appendix/H-config-templates.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-tutorial/appendix/H-config-templates.md"
+sourceSha256: "1d66d7ad2ba2fe1d21c241c74400e28aa381aca490090e75e3e262480d3f5693"
+pageSha256: "1d66d7ad2ba2fe1d21c241c74400e28aa381aca490090e75e3e262480d3f5693"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -1031,8 +1036,8 @@ echo "✅ 配置文件已生成：~/.openclaw/config.json"
 
 ## 📚 相关资源
 
-- [第2章：环境搭建](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-01-basics-02-installation)
-- [第11章：高级配置](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/docs/03-advanced/11-advanced-configuration.md)
+- [第2章：环境搭建](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-01-basics-02-installation/index)
+- [第11章：高级配置](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-03-advanced-11-advanced-configuration)
 - [附录E：常见问题](/lib/11-personal-agents/awesome-openclaw-tutorial/appendix-E-common-problems)
 - [附录F：最佳实践](/lib/11-personal-agents/awesome-openclaw-tutorial/appendix-F-best-practices)
 

@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works"
-entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/README.md"
+entryUrl: "https://github.com/Windy3f3f3f3f/how-claude-code-works/blob/f4d6505ed9162a0ee6be089190f74c419ecacb19/docs/10-plan-mode.md"
+sourceRel: "docs/10-plan-mode.md"
+rawUrl: "/raw/09-harness/how-claude-code-works/docs/10-plan-mode.md"
+sourceSha256: "00bb4366504577d120dd67a0e15a37b1f2c105323673eeb9585beb4bc51d430f"
+pageSha256: "00bb4366504577d120dd67a0e15a37b1f2c105323673eeb9585beb4bc51d430f"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -524,7 +529,7 @@ Plan 模式深度集成在 [权限系统](/lib/09-harness/how-claude-code-works/
 
 ### 9.9.2 与多 Agent 系统
 
-Plan 模式为 [多 Agent 架构](/lib/09-harness/how-claude-code-works/docs-07-multi-agent) 中的子 Agent 提供专用指令（`src/utils/messages.ts:3399-3417`）。子 Agent 的计划文件使用独立的命名空间（`{slug}-agent-{agentId}.md`），避免与主会话的计划文件冲突。
+Plan 模式为 [多 Agent 架构](/lib/09-harness/how-claude-code-works/docs-07-multi-agent) 中的子 Agent 提供专用指令（`src/utils/messages.ts:3399-3417`）。子 Agent 的计划文件使用独立的命名空间（`\{slug\}-agent-\{agentId\}.md`），避免与主会话的计划文件冲突。
 
 ### 9.9.3 与 normalizeToolInput
 

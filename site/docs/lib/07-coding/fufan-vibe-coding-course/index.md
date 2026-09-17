@@ -10,35 +10,689 @@ lang: "中英混排"
 volume: "07-coding"
 sourceUrl: "https://github.com/fufankeji/FuFan-VibeCodingCourse"
 entryUrl: "https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/README_CN.md"
+sourceRel: ""
+contentMode: "local-full"
 zh: ""
 ---
 
 # Vibe Coding：AI 编程实战课
 
+**👉 [进入导学 →](/lib/07-coding/fufan-vibe-coding-course/00_Introduction)**
+
 ## 课时
 
-1. [导学：环境配置与工具准备](00_Introduction-README_CN.md)
-2. [00Introduction: Environment Setup](00_Introduction.md)
-3. [FuFan-VibeCodingCourse](CLAUDE.md)
-4. [React + TypeScript + Vite](Stage1_AI_Programming_Fundamentals-Lesson01_Dev_Workflow_and_Environment-chatgpt-clone-frontend.md)
-5. [类ChatGPT对话系统架构规划](Stage1_AI_Programming_Fundamentals-Lesson01_Dev_Workflow_and_Environment-Courseware-02_课程资料-plans-chatgpt_clone_plan_82c449d6.plan.md)
-6. [DeepSeek 智能对话系统 - 分阶段实施计划](Stage1_AI_Programming_Fundamentals-Lesson01_Dev_Workflow_and_Environment-Courseware-02_课程资料-plans-deepseek_chat_system_d15b7da2.plan.md)
-7. [Vibe Coding AI 编程范式与快速上手实践](Stage1_AI_Programming_Fundamentals-Lesson01_Dev_Workflow_and_Environment-Courseware-README_CN.md)
-8. [Vibe Coding AI Programming Paradigm and Hands-on Practice](Stage1_AI_Programming_Fundamentals-Lesson01_Dev_Workflow_and_Environment-Courseware.md)
-9. [从零开发智能数据分析助理](Stage1_AI_Programming_Fundamentals-Lesson02_LLM_API_and_Data_Assistant-Courseware-README_CN.md)
-10. [Building an Intelligent Data Analysis Assistant from Scratch](Stage1_AI_Programming_Fundamentals-Lesson02_LLM_API_and_Data_Assistant-Courseware.md)
-11. [Data Analysis Assistant - Backend](Stage1_AI_Programming_Fundamentals-Lesson02_LLM_API_and_Data_Assistant-NL2SQLAgent-backend.md)
-12. [Data Analysis Assistant - Frontend](Stage1_AI_Programming_Fundamentals-Lesson02_LLM_API_and_Data_Assistant-NL2SQLAgent-frontend.md)
-13. [智能数据分析助理](Stage1_AI_Programming_Fundamentals-Lesson02_LLM_API_and_Data_Assistant-NL2SQLAgent.md)
-14. [阶段一：AI 编程基础](Stage1_AI_Programming_Fundamentals-README_CN.md)
-15. [Stage 1: AI Programming Fundamentals](Stage1_AI_Programming_Fundamentals.md)
-16. [Lesson 03 & 04: OpenClaw 源码架构拆解与二次开发 · 搭建数字员工](Stage2_Cursor_Deep_Dive-Lesson03_OpenClaw_Architecture_Digital_Employee-README_CN.md)
-17. [Lesson 03 & 04: OpenClaw Source Architecture & Secondary Development — Building a Digital Employee](Stage2_Cursor_Deep_Dive-Lesson03_OpenClaw_Architecture_Digital_Employee.md)
-18. [客户端与 Web UI 的关系说明](Stage2_Cursor_Deep_Dive-Lesson04_OpenClaw_Custom_Dev_Full_Process-02_系统规范文档-architecture-overview-1.0-客户端与UI关系说明.md)
-19. [OpenClaw 数据流详解](Stage2_Cursor_Deep_Dive-Lesson04_OpenClaw_Custom_Dev_Full_Process-02_系统规范文档-architecture-overview-1.0-数据流说明.md)
-20. [OpenClaw 项目整体架构说明](Stage2_Cursor_Deep_Dive-Lesson04_OpenClaw_Custom_Dev_Full_Process-02_系统规范文档-architecture-overview-1.0-系统架构说明.md)
-21. [Agent、Channels 和 Plugins 三者关系详解](Stage2_Cursor_Deep_Dive-Lesson04_OpenClaw_Custom_Dev_Full_Process-02_系统规范文档-architecture-overview-1.0-Agent-Channels-Plugins关系说明.md)
-22. [Channel 独立性说明：每个外部服务都有独立的 Channel](Stage2_Cursor_Deep_Dive-Lesson04_OpenClaw_Custom_Dev_Full_Process-02_系统规范文档-architecture-overview-1.0-Channel独立性说明.md)
-23. [Channel 统一接口规范说明](Stage2_Cursor_Deep_Dive-Lesson04_OpenClaw_Custom_Dev_Full_Process-02_系统规范文档-architecture-overview-1.0-Channel统一接口规范.md)
+- [00Introduction: Environment Setup](/lib/07-coding/fufan-vibe-coding-course/00_Introduction.md)
+  - [导学：环境配置与工具准备](/lib/07-coding/fufan-vibe-coding-course/00_Introduction-README_CN.md)
+- [Stage 1: AI Programming Fundamentals](/lib/07-coding/fufan-vibe-coding-course/Stage1_AI_Programming_Fundamentals.md)
+  - [阶段一：AI 编程基础](/lib/07-coding/fufan-vibe-coding-course/Stage1_AI_Programming_Fundamentals-README_CN.md)
+  - **Lesson01_Dev_Workflow_and_Environment**
+    - **chatgpt-clone**
+      - [React + TypeScript + Vite](/lib/07-coding/fufan-vibe-coding-course/Stage1_AI_Programming_Fundamentals-Lesson01_Dev_Workflow_and_Environment-chatgpt-clone-frontend.md)
+    - [Vibe Coding AI Programming Paradigm and Hands-on Practice](/lib/07-coding/fufan-vibe-coding-course/Stage1_AI_Programming_Fundamentals-Lesson01_Dev_Workflow_and_Environment-Courseware.md)
+      - [Vibe Coding AI 编程范式与快速上手实践](/lib/07-coding/fufan-vibe-coding-course/Stage1_AI_Programming_Fundamentals-Lesson01_Dev_Workflow_and_Environment-Courseware-README_CN.md)
+      - **02_课程资料**
+        - **更新计划**
+          - [类ChatGPT对话系统架构规划](/lib/07-coding/fufan-vibe-coding-course/Stage1_AI_Programming_Fundamentals-Lesson01_Dev_Workflow_and_Environment-Courseware-02_课程资料-plans-chatgpt_clone_plan_82c449d6.plan.md)
+          - [DeepSeek 智能对话系统 - 分阶段实施计划](/lib/07-coding/fufan-vibe-coding-course/Stage1_AI_Programming_Fundamentals-Lesson01_Dev_Workflow_and_Environment-Courseware-02_课程资料-plans-deepseek_chat_system_d15b7da2.plan.md)
+  - **Lesson02_LLM_API_and_Data_Assistant**
+    - [Building an Intelligent Data Analysis Assistant from Scratch](/lib/07-coding/fufan-vibe-coding-course/Stage1_AI_Programming_Fundamentals-Lesson02_LLM_API_and_Data_Assistant-Courseware.md)
+      - [从零开发智能数据分析助理](/lib/07-coding/fufan-vibe-coding-course/Stage1_AI_Programming_Fundamentals-Lesson02_LLM_API_and_Data_Assistant-Courseware-README_CN.md)
+    - [智能数据分析助理](/lib/07-coding/fufan-vibe-coding-course/Stage1_AI_Programming_Fundamentals-Lesson02_LLM_API_and_Data_Assistant-NL2SQLAgent.md)
+      - [Data Analysis Assistant - Backend](/lib/07-coding/fufan-vibe-coding-course/Stage1_AI_Programming_Fundamentals-Lesson02_LLM_API_and_Data_Assistant-NL2SQLAgent-backend.md)
+      - [Data Analysis Assistant - Frontend](/lib/07-coding/fufan-vibe-coding-course/Stage1_AI_Programming_Fundamentals-Lesson02_LLM_API_and_Data_Assistant-NL2SQLAgent-frontend.md)
+- [Stage 2: Cursor Deep Dive](/lib/07-coding/fufan-vibe-coding-course/Stage2_Cursor_Deep_Dive.md)
+  - [阶段二：Cursor 深入实战](/lib/07-coding/fufan-vibe-coding-course/Stage2_Cursor_Deep_Dive-README_CN.md)
+  - [Lesson 03 & 04: OpenClaw Source Architecture & Secondary Development — Building a Digital Employee](/lib/07-coding/fufan-vibe-coding-course/Stage2_Cursor_Deep_Dive-Lesson03_OpenClaw_Architecture_Digital_Employee.md)
+    - [Lesson 03 & 04: OpenClaw 源码架构拆解与二次开发 · 搭建数字员工](/lib/07-coding/fufan-vibe-coding-course/Stage2_Cursor_Deep_Dive-Lesson03_OpenClaw_Architecture_Digital_Employee-README_CN.md)
+  - [Lesson 04: OpenClaw Custom Development — Full Process](/lib/07-coding/fufan-vibe-coding-course/Stage2_Cursor_Deep_Dive-Lesson04_OpenClaw_Custom_Dev_Full_Process.md)
+    - **02_系统规范文档**
+      - **architecture-overview-1.0**
+        - [Agent、Channels 和 Plugins 三者关系详解](/lib/07-coding/fufan-vibe-coding-course/Stage2_Cursor_Deep_Dive-Lesson04_OpenClaw_Custom_Dev_Full_Process-02_系统规范文档-architecture-overview-1.0-Agent-Channels-Plugins关系说明.md)
+        - [Channel 独立性说明：每个外部服务都有独立的 Channel](/lib/07-coding/fufan-vibe-coding-course/Stage2_Cursor_Deep_Dive-Lesson04_OpenClaw_Custom_Dev_Full_Process-02_系统规范文档-architecture-overview-1.0-Channel独立性说明.md)
+        - [Channel 统一接口规范说明](/lib/07-coding/fufan-vibe-coding-course/Stage2_Cursor_Deep_Dive-Lesson04_OpenClaw_Custom_Dev_Full_Process-02_系统规范文档-architecture-overview-1.0-Channel统一接口规范.md)
+        - [Gateway 核心代码复用性分析](/lib/07-coding/fufan-vibe-coding-course/Stage2_Cursor_Deep_Dive-Lesson04_OpenClaw_Custom_Dev_Full_Process-02_系统规范文档-architecture-overview-1.0-Gateway核心代码复用性分析.md)
+        - [Gateway 组件深度分析](/lib/07-coding/fufan-vibe-coding-course/Stage2_Cursor_Deep_Dive-Lesson04_OpenClaw_Custom_Dev_Full_Process-02_系统规范文档-architecture-overview-1.0-Gateway组件深度分析.md)
+        - [Phase 1：客户端层（CLI / WebUI / macOS / iOS / Android）与 Gateway 通信架构解析](/lib/07-coding/fufan-vibe-coding-course/Stage2_Cursor_Deep_Dive-Lesson04_OpenClaw_Custom_Dev_Full_Process-02_系统规范文档-architecture-overview-1.0-phase1_cli_spec.md)
+        - [Phase 2：Gateway 可复用架构与多客户端对接规范（源码版）](/lib/07-coding/fufan-vibe-coding-course/Stage2_Cursor_Deep_Dive-Lesson04_OpenClaw_Custom_Dev_Full_Process-02_系统规范文档-architecture-overview-1.0-phase2_gateway_reuse_contracts.md)
+        - [Phase 3：Plugins / Channels 统一输入输出接口规范（源码版）](/lib/07-coding/fufan-vibe-coding-course/Stage2_Cursor_Deep_Dive-Lesson04_OpenClaw_Custom_Dev_Full_Process-02_系统规范文档-architecture-overview-1.0-phase3_channel_plugin_io_spec.md)
+        - [Phase 4：Agent 运行时架构设计（源码解构）](/lib/07-coding/fufan-vibe-coding-course/Stage2_Cursor_Deep_Dive-Lesson04_OpenClaw_Custom_Dev_Full_Process-02_系统规范文档-architecture-overview-1.0-phase4_agent_runtime_architecture.md)
+        - [客户端与 Web UI 的关系说明](/lib/07-coding/fufan-vibe-coding-course/Stage2_Cursor_Deep_Dive-Lesson04_OpenClaw_Custom_Dev_Full_Process-02_系统规范文档-architecture-overview-1.0-客户端与UI关系说明.md)
+        - [OpenClaw 数据流详解](/lib/07-coding/fufan-vibe-coding-course/Stage2_Cursor_Deep_Dive-Lesson04_OpenClaw_Custom_Dev_Full_Process-02_系统规范文档-architecture-overview-1.0-数据流说明.md)
+        - [OpenClaw 项目整体架构说明](/lib/07-coding/fufan-vibe-coding-course/Stage2_Cursor_Deep_Dive-Lesson04_OpenClaw_Custom_Dev_Full_Process-02_系统规范文档-architecture-overview-1.0-系统架构说明.md)
+      - **architecture-overview-2.0**
+        - **v1.0**
+          - [Phase 1：OpenClaw CLI 模块开发规范（v1.0）](/lib/07-coding/fufan-vibe-coding-course/Stage2_Cursor_Deep_Dive-Lesson04_OpenClaw_Custom_Dev_Full_Process-02_系统规范文档-architecture-overview-2.0-v1.0-phase1_cli_specv1.0.md)
+          - [Phase 2：Gateway 可复用架构与多客户端对接规范（v1.0，源码版）](/lib/07-coding/fufan-vibe-coding-course/Stage2_Cursor_Deep_Dive-Lesson04_OpenClaw_Custom_Dev_Full_Process-02_系统规范文档-architecture-overview-2.0-v1.0-phase2_gateway_reuse_contracts.mdv1.0.md)
+          - [Phase 3：Plugins / Channels 统一输入输出规范（v1.0，源码版）](/lib/07-coding/fufan-vibe-coding-course/Stage2_Cursor_Deep_Dive-Lesson04_OpenClaw_Custom_Dev_Full_Process-02_系统规范文档-architecture-overview-2.0-v1.0-phase3_channel_plugin_io_specv1.0.md)
+          - [Phase 4：Agent Runtime 架构说明 v1.0（基于最新源码）](/lib/07-coding/fufan-vibe-coding-course/Stage2_Cursor_Deep_Dive-Lesson04_OpenClaw_Custom_Dev_Full_Process-02_系统规范文档-architecture-overview-2.0-v1.0-phase4_agent_runtime_architecture.mdv1.0.md)
+          - [OpenClaw 系统架构说明 v1.0](/lib/07-coding/fufan-vibe-coding-course/Stage2_Cursor_Deep_Dive-Lesson04_OpenClaw_Custom_Dev_Full_Process-02_系统规范文档-architecture-overview-2.0-v1.0-系统架构说明v1.0.md)
+- [Stage 3: Claude Code Engineering](/lib/07-coding/fufan-vibe-coding-course/Stage3_Claude_Code_Engineering.md)
+  - [阶段三：Claude Code 工程化实战](/lib/07-coding/fufan-vibe-coding-course/Stage3_Claude_Code_Engineering-README_CN.md)
+  - [Lesson 05: Claude Code Architecture — Industrial-Grade Practice](/lib/07-coding/fufan-vibe-coding-course/Stage3_Claude_Code_Engineering-Lesson05_Claude_Code_Architecture.md)
+    - [Lesson 05: Claude Code 架构拆解 · 工业级实战](/lib/07-coding/fufan-vibe-coding-course/Stage3_Claude_Code_Engineering-Lesson05_Claude_Code_Architecture-README_CN.md)
+    - **GraphRAGAgent**
+      - **文档**
+        - [Bridge Pipeline Specification v1.0](/lib/07-coding/fufan-vibe-coding-course/Stage3_Claude_Code_Engineering-Lesson05_Claude_Code_Architecture-GraphRAGAgent-docs-bridge_pipeline_specification-v1.0.md)
+        - [LangExtract Pipeline 规范文档 v1.0](/lib/07-coding/fufan-vibe-coding-course/Stage3_Claude_Code_Engineering-Lesson05_Claude_Code_Architecture-GraphRAGAgent-docs-langextract_specification-v1.0.md)
+        - [LangExtract Pipeline 规范文档](/lib/07-coding/fufan-vibe-coding-course/Stage3_Claude_Code_Engineering-Lesson05_Claude_Code_Architecture-GraphRAGAgent-docs-langextract_specification.md)
+        - [MinerU 文档解析规范文档 v1.0](/lib/07-coding/fufan-vibe-coding-course/Stage3_Claude_Code_Engineering-Lesson05_Claude_Code_Architecture-GraphRAGAgent-docs-mineru_specification-v1.0.md)
+        - [MinerU 文档解析规范文档](/lib/07-coding/fufan-vibe-coding-course/Stage3_Claude_Code_Engineering-Lesson05_Claude_Code_Architecture-GraphRAGAgent-docs-mineru_specification.md)
+  - [Lesson 06: Multimodal RAG System](/lib/07-coding/fufan-vibe-coding-course/Stage3_Claude_Code_Engineering-Lesson06_Multimodal_RAG_System.md)
+    - [GraphRAG Studio — 产品需求文档（PRD）v1.0](/lib/07-coding/fufan-vibe-coding-course/Stage3_Claude_Code_Engineering-Lesson06_Multimodal_RAG_System-product_requirements_document-v1.0.md)
+    - [Lesson 06：多模态 RAG 知识库系统](/lib/07-coding/fufan-vibe-coding-course/Stage3_Claude_Code_Engineering-Lesson06_Multimodal_RAG_System-README_CN.md)
+    - **GraphRAGAgent**
+      - **文档**
+        - [Agentic-RAG 规范文档 v1.0](/lib/07-coding/fufan-vibe-coding-course/Stage3_Claude_Code_Engineering-Lesson06_Multimodal_RAG_System-GraphRAGAgent-docs-agentic_rag_specification-v1.0.md)
+        - [多模态 RAG 后端服务接口规范 v1.0](/lib/07-coding/fufan-vibe-coding-course/Stage3_Claude_Code_Engineering-Lesson06_Multimodal_RAG_System-GraphRAGAgent-docs-backend_service_specification-v1.0.md)
+        - [GraphRAG Studio — 前端 Web 系统设计规范 v1.0](/lib/07-coding/fufan-vibe-coding-course/Stage3_Claude_Code_Engineering-Lesson06_Multimodal_RAG_System-GraphRAGAgent-docs-frontend_design_specification-v1.0.md)
+      - [构建产品原型](/lib/07-coding/fufan-vibe-coding-course/Stage3_Claude_Code_Engineering-Lesson06_Multimodal_RAG_System-GraphRAGAgent-frontend.md)
+        - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage3_Claude_Code_Engineering-Lesson06_Multimodal_RAG_System-GraphRAGAgent-frontend-ATTRIBUTIONS.md)
+      - **mineru_mvp**
+        - **output**
+          - **a8bea3dd_sample_graphrag_overview**
+            - [GraphRAG System](/lib/07-coding/fufan-vibe-coding-course/Stage3_Claude_Code_Engineering-Lesson06_Multimodal_RAG_System-GraphRAGAgent-mineru_mvp-output-a8bea3dd_sample_graphrag_overview-full.md)
+  - [Bonus 【加餐】: Claude Code Quickstart Public Workshop](/lib/07-coding/fufan-vibe-coding-course/Stage3_Claude_Code_Engineering-LessonBonus_Claude_Code_Quickstart.md)
+    - [Bonus 【加餐】：Claude Code 快速入门公开课](/lib/07-coding/fufan-vibe-coding-course/Stage3_Claude_Code_Engineering-LessonBonus_Claude_Code_Quickstart-README_CN.md)
+    - [Bonus Courseware](/lib/07-coding/fufan-vibe-coding-course/Stage3_Claude_Code_Engineering-LessonBonus_Claude_Code_Quickstart-Courseware.md)
+      - [Bonus 课件](/lib/07-coding/fufan-vibe-coding-course/Stage3_Claude_Code_Engineering-LessonBonus_Claude_Code_Quickstart-Courseware-README_CN.md)
+    - **fufan-cc-flow**
+      - [Fufan-CC Flow](/lib/07-coding/fufan-vibe-coding-course/Stage3_Claude_Code_Engineering-LessonBonus_Claude_Code_Quickstart-fufan-cc-flow-fufan-cc-flow-src.md)
+        - [Fufan-CC Flow — 产品需求文档](/lib/07-coding/fufan-vibe-coding-course/Stage3_Claude_Code_Engineering-LessonBonus_Claude_Code_Quickstart-fufan-cc-flow-fufan-cc-flow-src-REQUIREMENTS.md)
+- [Stage 4: Enterprise Practice](/lib/07-coding/fufan-vibe-coding-course/Stage4_Enterprise_Practice.md)
+  - **Lesson07_Document_Review_Agent**
+    - **AgentTeamProject**
+      - **文档**
+        - **00_setup**
+          - [Agent Teams & LangChain MCP 环境配置与验证报告](/lib/07-coding/fufan-vibe-coding-course/Stage4_Enterprise_Practice-Lesson07_Document_Review_Agent-AgentTeamProject-docs-00_setup-agent_teams_langchain_mcp_setup.md)
+          - [项目规范文档](/lib/07-coding/fufan-vibe-coding-course/Stage4_Enterprise_Practice-Lesson07_Document_Review_Agent-AgentTeamProject-docs-00_setup-project_rules.md)
+        - **01_business_research**
+          - [业务调研汇总报告：合同/法务类文档 Agent 审核场景](/lib/07-coding/fufan-vibe-coding-course/Stage4_Enterprise_Practice-Lesson07_Document_Review_Agent-AgentTeamProject-docs-01_business_research-business_summary.md)
+          - [合同/法务类文档审核：Agent 技术应用调研报告](/lib/07-coding/fufan-vibe-coding-course/Stage4_Enterprise_Practice-Lesson07_Document_Review_Agent-AgentTeamProject-docs-01_business_research-contract_review_agent_research.md)
+          - [合同/法务类文档 Agent 审核场景 — 反方技术风险审查报告](/lib/07-coding/fufan-vibe-coding-course/Stage4_Enterprise_Practice-Lesson07_Document_Review_Agent-AgentTeamProject-docs-01_business_research-contract_review_agent_risks_adversarial.md)
+        - **02_competitive_analysis**
+          - [竞品分析阶段汇总报告](/lib/07-coding/fufan-vibe-coding-course/Stage4_Enterprise_Practice-Lesson07_Document_Review_Agent-AgentTeamProject-docs-02_competitive_analysis-analysis_summary.md)
+          - [竞品分析：合同/法务文档审核结果呈现方式](/lib/07-coding/fufan-vibe-coding-course/Stage4_Enterprise_Practice-Lesson07_Document_Review_Agent-AgentTeamProject-docs-02_competitive_analysis-review_result_presentation_analysis.md)
+          - [合同/法务文档审核系统竞品分析：文档审核流程深度拆解](/lib/07-coding/fufan-vibe-coding-course/Stage4_Enterprise_Practice-Lesson07_Document_Review_Agent-AgentTeamProject-docs-02_competitive_analysis-review_workflow_analysis.md)
+        - **03_problem_modeling**
+          - [业务问题建模](/lib/07-coding/fufan-vibe-coding-course/Stage4_Enterprise_Practice-Lesson07_Document_Review_Agent-AgentTeamProject-docs-03_problem_modeling-problem_model.md)
+        - **04_interaction_design**
+          - [合同审核系统 — 交互链路与状态机规范 v1.0](/lib/07-coding/fufan-vibe-coding-course/Stage4_Enterprise_Practice-Lesson07_Document_Review_Agent-AgentTeamProject-docs-04_interaction_design-flow_state_spec-v1.0.md)
+          - [合同审核系统 HITL 架构总览 v1.0](/lib/07-coding/fufan-vibe-coding-course/Stage4_Enterprise_Practice-Lesson07_Document_Review_Agent-AgentTeamProject-docs-04_interaction_design-langchain_hitl_arch-v1.0.md)
+          - [交互链路规范：上传入口 → 文档校验 → 解析任务创建](/lib/07-coding/fufan-vibe-coding-course/Stage4_Enterprise_Practice-Lesson07_Document_Review_Agent-AgentTeamProject-docs-04_interaction_design-t1_upload_and_parse.md)
+          - [合同审核系统 — 中间状态交互链路规范](/lib/07-coding/fufan-vibe-coding-course/Stage4_Enterprise_Practice-Lesson07_Document_Review_Agent-AgentTeamProject-docs-04_interaction_design-t2_review_states.md)
+          - [人工审批交互链路规范](/lib/07-coding/fufan-vibe-coding-course/Stage4_Enterprise_Practice-Lesson07_Document_Review_Agent-AgentTeamProject-docs-04_interaction_design-t3_hitl_approval.md)
+        - **06_architecture**
+          - [后端服务架构规范 v1.0](/lib/07-coding/fufan-vibe-coding-course/Stage4_Enterprise_Practice-Lesson07_Document_Review_Agent-AgentTeamProject-docs-06_architecture-backend_service_arch-v1.0.md)
+          - [合同审核系统 — 数据模型全局规范](/lib/07-coding/fufan-vibe-coding-course/Stage4_Enterprise_Practice-Lesson07_Document_Review_Agent-AgentTeamProject-docs-06_architecture-data_model_spec-v1.0.md)
+          - [前端架构规范总文档 v1.0](/lib/07-coding/fufan-vibe-coding-course/Stage4_Enterprise_Practice-Lesson07_Document_Review_Agent-AgentTeamProject-docs-06_architecture-frontend_arch-spec-v1.0.md)
+          - [前后端功能边界规范 v1.0](/lib/07-coding/fufan-vibe-coding-course/Stage4_Enterprise_Practice-Lesson07_Document_Review_Agent-AgentTeamProject-docs-06_architecture-frontend_backend_boundary_spec-v1.0.md)
+          - [前端设计规范 v1.0](/lib/07-coding/fufan-vibe-coding-course/Stage4_Enterprise_Practice-Lesson07_Document_Review_Agent-AgentTeamProject-docs-06_architecture-frontend_design_spec-v1.0.md)
+          - [合同审核 LangChain HITL 工作流规范 v1.0](/lib/07-coding/fufan-vibe-coding-course/Stage4_Enterprise_Practice-Lesson07_Document_Review_Agent-AgentTeamProject-docs-06_architecture-langchain_hitl_workflow-v1.0.md)
+        - **07_data_model**
+          - [HITL 人机交互数据模型规范](/lib/07-coding/fufan-vibe-coding-course/Stage4_Enterprise_Practice-Lesson07_Document_Review_Agent-AgentTeamProject-docs-07_data_model-hitl_interaction_model.md)
+          - [合同审核系统 — 审核规则与结果数据模型](/lib/07-coding/fufan-vibe-coding-course/Stage4_Enterprise_Practice-Lesson07_Document_Review_Agent-AgentTeamProject-docs-07_data_model-review_rules_model.md)
+          - [数据模型规范：文档上传与任务状态](/lib/07-coding/fufan-vibe-coding-course/Stage4_Enterprise_Practice-Lesson07_Document_Review_Agent-AgentTeamProject-docs-07_data_model-upload_and_task_model.md)
+        - **08_api_spec**
+          - [合同审核系统 API 规范 v1.0](/lib/07-coding/fufan-vibe-coding-course/Stage4_Enterprise_Practice-Lesson07_Document_Review_Agent-AgentTeamProject-docs-08_api_spec-api_spec-v1.0.md)
+        - **09_frontend_plan**
+          - [前端规划 T1：文档上传与任务状态路由](/lib/07-coding/fufan-vibe-coding-course/Stage4_Enterprise_Practice-Lesson07_Document_Review_Agent-AgentTeamProject-docs-09_frontend_plan-t1_upload_and_task_routing.md)
+          - [审核展示组件规划文档 v1.0](/lib/07-coding/fufan-vibe-coding-course/Stage4_Enterprise_Practice-Lesson07_Document_Review_Agent-AgentTeamProject-docs-09_frontend_plan-t2_review_components.md)
+          - [前端 HITL 交互 UI 规划文档 v1.0](/lib/07-coding/fufan-vibe-coding-course/Stage4_Enterprise_Practice-Lesson07_Document_Review_Agent-AgentTeamProject-docs-09_frontend_plan-t3_hitl_ui_design.md)
+        - **11_integration_testing**
+          - [前后端联调计划 v1.0](/lib/07-coding/fufan-vibe-coding-course/Stage4_Enterprise_Practice-Lesson07_Document_Review_Agent-AgentTeamProject-docs-11_integration_testing-plan_integration-v1.0.md)
+      - [产品前端 UI 原型](/lib/07-coding/fufan-vibe-coding-course/Stage4_Enterprise_Practice-Lesson07_Document_Review_Agent-AgentTeamProject-frontend.md)
+        - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage4_Enterprise_Practice-Lesson07_Document_Review_Agent-AgentTeamProject-frontend-ATTRIBUTIONS.md)
+- [Stage 5: OpenSpec Applied](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied.md)
+  - [阶段五：OpenSpec 应用实战](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-README_CN.md)
+  - [Lesson 08: OpenSpec Getting Started — Hands-on Practice](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson08_OpenSpec_Getting_Started.md)
+    - [Lesson 08: OpenSpec 入门实战](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson08_OpenSpec_Getting_Started-README_CN.md)
+    - [React + TypeScript + Vite](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson08_OpenSpec_Getting_Started-my-website.md)
+      - **openspec**
+        - **changes**
+          - **add-about-section**
+            - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson08_OpenSpec_Getting_Started-my-website-openspec-changes-add-about-section-design.md)
+            - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson08_OpenSpec_Getting_Started-my-website-openspec-changes-add-about-section-proposal.md)
+            - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson08_OpenSpec_Getting_Started-my-website-openspec-changes-add-about-section-tasks.md)
+            - **specs**
+              - **about-section**
+                - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson08_OpenSpec_Getting_Started-my-website-openspec-changes-add-about-section-specs-about-section-spec.md)
+          - **add-seo**
+            - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson08_OpenSpec_Getting_Started-my-website-openspec-changes-add-seo-design.md)
+            - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson08_OpenSpec_Getting_Started-my-website-openspec-changes-add-seo-proposal.md)
+            - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson08_OpenSpec_Getting_Started-my-website-openspec-changes-add-seo-tasks.md)
+            - **specs**
+              - **seo-meta**
+                - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson08_OpenSpec_Getting_Started-my-website-openspec-changes-add-seo-specs-seo-meta-spec.md)
+          - **archive**
+            - **2026-04-09-add-hero-section**
+              - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson08_OpenSpec_Getting_Started-my-website-openspec-changes-archive-2026-04-09-add-hero-section-design.md)
+              - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson08_OpenSpec_Getting_Started-my-website-openspec-changes-archive-2026-04-09-add-hero-section-proposal.md)
+              - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson08_OpenSpec_Getting_Started-my-website-openspec-changes-archive-2026-04-09-add-hero-section-tasks.md)
+              - **specs**
+                - **hero-section**
+                  - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson08_OpenSpec_Getting_Started-my-website-openspec-changes-archive-2026-04-09-add-hero-section-specs-hero-section-spec.md)
+            - **2026-04-09-add-navigation**
+              - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson08_OpenSpec_Getting_Started-my-website-openspec-changes-archive-2026-04-09-add-navigation-design.md)
+              - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson08_OpenSpec_Getting_Started-my-website-openspec-changes-archive-2026-04-09-add-navigation-proposal.md)
+              - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson08_OpenSpec_Getting_Started-my-website-openspec-changes-archive-2026-04-09-add-navigation-tasks.md)
+            - **2026-04-09-add-project-section**
+              - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson08_OpenSpec_Getting_Started-my-website-openspec-changes-archive-2026-04-09-add-project-section-design.md)
+              - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson08_OpenSpec_Getting_Started-my-website-openspec-changes-archive-2026-04-09-add-project-section-proposal.md)
+              - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson08_OpenSpec_Getting_Started-my-website-openspec-changes-archive-2026-04-09-add-project-section-tasks.md)
+              - **specs**
+                - **hero-section**
+                  - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson08_OpenSpec_Getting_Started-my-website-openspec-changes-archive-2026-04-09-add-project-section-specs-hero-section-spec.md)
+        - **specs**
+          - **hero-section**
+            - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson08_OpenSpec_Getting_Started-my-website-openspec-specs-hero-section-spec.md)
+          - **navigation**
+            - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson08_OpenSpec_Getting_Started-my-website-openspec-specs-navigation-spec.md)
+          - **project-section**
+            - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson08_OpenSpec_Getting_Started-my-website-openspec-specs-project-section-spec.md)
+          - **theme-switching**
+            - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson08_OpenSpec_Getting_Started-my-website-openspec-specs-theme-switching-spec.md)
+  - [Lesson 09: OpenSpec Advanced Practice](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice.md)
+    - [Lesson 09: OpenSpec 应用进阶](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-README_CN.md)
+    - **my-website**
+      - **openspec**
+        - **changes**
+          - **archive**
+            - **2026-04-15-ai-chat**
+              - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-changes-archive-2026-04-15-ai-chat-design.md)
+              - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-changes-archive-2026-04-15-ai-chat-proposal.md)
+              - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-changes-archive-2026-04-15-ai-chat-tasks.md)
+              - **specs**
+                - **chat-backend**
+                  - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-changes-archive-2026-04-15-ai-chat-specs-chat-backend-spec.md)
+                - **chat-ui**
+                  - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-changes-archive-2026-04-15-ai-chat-specs-chat-ui-spec.md)
+                - **dashboard-layout**
+                  - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-changes-archive-2026-04-15-ai-chat-specs-dashboard-layout-spec.md)
+            - **2026-04-15-analytics-deploy**
+              - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-changes-archive-2026-04-15-analytics-deploy-design.md)
+              - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-changes-archive-2026-04-15-analytics-deploy-proposal.md)
+              - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-changes-archive-2026-04-15-analytics-deploy-tasks.md)
+              - **achievements**
+                - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-changes-archive-2026-04-15-analytics-deploy-achievements-spec.md)
+              - **dashboard-layout**
+                - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-changes-archive-2026-04-15-analytics-deploy-dashboard-layout-spec.md)
+              - **deploy-config**
+                - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-changes-archive-2026-04-15-analytics-deploy-deploy-config-spec.md)
+              - **specs**
+                - **dashboard-layout**
+                  - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-changes-archive-2026-04-15-analytics-deploy-specs-dashboard-layout-spec.md)
+                - **deploy-config**
+                  - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-changes-archive-2026-04-15-analytics-deploy-specs-deploy-config-spec.md)
+                - **study-calendar**
+                  - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-changes-archive-2026-04-15-analytics-deploy-specs-study-calendar-spec.md)
+                - **study-stats**
+                  - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-changes-archive-2026-04-15-analytics-deploy-specs-study-stats-spec.md)
+              - **study-analytics**
+                - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-changes-archive-2026-04-15-analytics-deploy-study-analytics-spec.md)
+              - **study-calendar**
+                - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-changes-archive-2026-04-15-analytics-deploy-study-calendar-spec.md)
+              - **study-stats**
+                - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-changes-archive-2026-04-15-analytics-deploy-study-stats-spec.md)
+            - **2026-04-15-study-dashboard**
+              - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-changes-archive-2026-04-15-study-dashboard-design.md)
+              - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-changes-archive-2026-04-15-study-dashboard-proposal.md)
+              - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-changes-archive-2026-04-15-study-dashboard-tasks.md)
+              - **specs**
+                - **ai-suggestions**
+                  - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-changes-archive-2026-04-15-study-dashboard-specs-ai-suggestions-spec.md)
+                - **daily-goals**
+                  - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-changes-archive-2026-04-15-study-dashboard-specs-daily-goals-spec.md)
+                - **dashboard-layout**
+                  - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-changes-archive-2026-04-15-study-dashboard-specs-dashboard-layout-spec.md)
+                - **study-stats**
+                  - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-changes-archive-2026-04-15-study-dashboard-specs-study-stats-spec.md)
+                - **study-trends**
+                  - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-changes-archive-2026-04-15-study-dashboard-specs-study-trends-spec.md)
+            - **2026-04-15-user-auth**
+              - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-changes-archive-2026-04-15-user-auth-design.md)
+              - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-changes-archive-2026-04-15-user-auth-proposal.md)
+              - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-changes-archive-2026-04-15-user-auth-tasks.md)
+              - **specs**
+                - **auth-login**
+                  - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-changes-archive-2026-04-15-user-auth-specs-auth-login-spec.md)
+                - **auth-registration**
+                  - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-changes-archive-2026-04-15-user-auth-specs-auth-registration-spec.md)
+                - **backend-setup**
+                  - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-changes-archive-2026-04-15-user-auth-specs-backend-setup-spec.md)
+                - **dashboard-layout**
+                  - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-changes-archive-2026-04-15-user-auth-specs-dashboard-layout-spec.md)
+                - **user-profile**
+                  - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-changes-archive-2026-04-15-user-auth-specs-user-profile-spec.md)
+        - **specs**
+          - **achievements**
+            - [achievements Specification](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-specs-achievements-spec.md)
+          - **ai-suggestions**
+            - [ai-suggestions Specification](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-specs-ai-suggestions-spec.md)
+          - **auth-login**
+            - [auth-login Specification](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-specs-auth-login-spec.md)
+          - **auth-registration**
+            - [auth-registration Specification](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-specs-auth-registration-spec.md)
+          - **backend-setup**
+            - [backend-setup Specification](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-specs-backend-setup-spec.md)
+          - **chat-backend**
+            - [chat-backend Specification](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-specs-chat-backend-spec.md)
+          - **chat-ui**
+            - [chat-ui Specification](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-specs-chat-ui-spec.md)
+          - **daily-goals**
+            - [daily-goals Specification](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-specs-daily-goals-spec.md)
+          - **dashboard-layout**
+            - [dashboard-layout Specification](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-specs-dashboard-layout-spec.md)
+          - **deploy-config**
+            - [deploy-config Specification](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-specs-deploy-config-spec.md)
+          - **study-analytics**
+            - [study-analytics Specification](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-specs-study-analytics-spec.md)
+          - **study-calendar**
+            - [study-calendar Specification](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-specs-study-calendar-spec.md)
+          - **study-stats**
+            - [study-stats Specification](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-specs-study-stats-spec.md)
+          - **study-trends**
+            - [study-trends Specification](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-specs-study-trends-spec.md)
+          - **user-profile**
+            - [user-profile Specification](/lib/07-coding/fufan-vibe-coding-course/Stage5_OpenSpec_Applied-Lesson09_OpenSpec_Advanced_Practice-my-website-openspec-specs-user-profile-spec.md)
+- [Stage 6: Spec-Kit Applied](/lib/07-coding/fufan-vibe-coding-course/Stage6_SpecKit_Applied.md)
+  - [阶段六：Spec-Kit 应用实战](/lib/07-coding/fufan-vibe-coding-course/Stage6_SpecKit_Applied-README_CN.md)
+  - [Lesson 10: Spec-Kit Getting Started — Hands-on Practice](/lib/07-coding/fufan-vibe-coding-course/Stage6_SpecKit_Applied-Lesson10_SpecKit_Getting_Started.md)
+    - [Lesson 10: Spec-Kit 入门实战](/lib/07-coding/fufan-vibe-coding-course/Stage6_SpecKit_Applied-Lesson10_SpecKit_Getting_Started-README_CN.md)
+  - [Lesson 11: Spec-Kit Advanced Practice](/lib/07-coding/fufan-vibe-coding-course/Stage6_SpecKit_Applied-Lesson11_SpecKit_Advanced_Practice.md)
+    - [Lesson 11: Spec-Kit 应用进阶](/lib/07-coding/fufan-vibe-coding-course/Stage6_SpecKit_Applied-Lesson11_SpecKit_Advanced_Practice-README_CN.md)
+    - **MyAgentHub**
+      - **.claude**
+        - **skills**
+          - **figma-to-nextjs-migration**
+            - [figma-to-nextjs-migration — UI 原型到生产脚手架的工程化迁移](/lib/07-coding/fufan-vibe-coding-course/Stage6_SpecKit_Applied-Lesson11_SpecKit_Advanced_Practice-MyAgentHub-_claude-skills-figma-to-nextjs-migration-SKILL.md)
+            - **示例**
+              - [AgentHub 首次搬家记录（成功案例）](/lib/07-coding/fufan-vibe-coding-course/Stage6_SpecKit_Applied-Lesson11_SpecKit_Advanced_Practice-MyAgentHub-_claude-skills-figma-to-nextjs-migration-examples-agenthub-migration-log.md)
+            - **references**
+              - [搬家常见报错 + 解法](/lib/07-coding/fufan-vibe-coding-course/Stage6_SpecKit_Applied-Lesson11_SpecKit_Advanced_Practice-MyAgentHub-_claude-skills-figma-to-nextjs-migration-references-common-errors.md)
+              - [Hydration mismatch 修复模式](/lib/07-coding/fufan-vibe-coding-course/Stage6_SpecKit_Applied-Lesson11_SpecKit_Advanced_Practice-MyAgentHub-_claude-skills-figma-to-nextjs-migration-references-hydration-fixes.md)
+              - [搬家 7 步完整流程（从 Figma Make / v0.dev / Bolt 的 Vite 项目到 Next.js 15 App Router）](/lib/07-coding/fufan-vibe-coding-course/Stage6_SpecKit_Applied-Lesson11_SpecKit_Advanced_Practice-MyAgentHub-_claude-skills-figma-to-nextjs-migration-references-migration-steps.md)
+              - [React Router ↔ Next.js App Router 对照表](/lib/07-coding/fufan-vibe-coding-course/Stage6_SpecKit_Applied-Lesson11_SpecKit_Advanced_Practice-MyAgentHub-_claude-skills-figma-to-nextjs-migration-references-rr-to-next-mapping.md)
+              - ["use client" 判定规则](/lib/07-coding/fufan-vibe-coding-course/Stage6_SpecKit_Applied-Lesson11_SpecKit_Advanced_Practice-MyAgentHub-_claude-skills-figma-to-nextjs-migration-references-use-client-rules.md)
+      - [Start Project](/lib/07-coding/fufan-vibe-coding-course/Stage6_SpecKit_Applied-Lesson11_SpecKit_Advanced_Practice-MyAgentHub-Start_Project.md)
+        - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage6_SpecKit_Applied-Lesson11_SpecKit_Advanced_Practice-MyAgentHub-Start_Project-ATTRIBUTIONS.md)
+- [Stage 7: Superpowers Applied](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied.md)
+  - [阶段七：Superpowers 应用实战](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-README_CN.md)
+  - [Lesson 12: Superpowers Getting Started — TDD-Driven Development](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started.md)
+    - [Lesson 12: Superpowers 基础入门 · TDD 驱动开发](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-README_CN.md)
+    - [NanoClaw Dashboard v2](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-dashboard-v2.md)
+      - **文档**
+        - **superpowers**
+          - **更新计划**
+            - [NanoClaw Dashboard v2 · Phase 0+1 Implementation Plan](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-dashboard-v2-docs-superpowers-plans-2026-05-09-nanoclaw-dashboard-v2-phase0-1/index.md)
+            - [NanoClaw Dashboard v2 · Phase 0+1 Implementation Plan](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-dashboard-v2-docs-superpowers-plans-2026-05-09-nanoclaw-dashboard-v2-phase0-1/01-NanoClaw_Dashboard_v2_Phase_0_1_Implemen.md)
+            - [Phase 0 · 脚手架与主题](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-dashboard-v2-docs-superpowers-plans-2026-05-09-nanoclaw-dashboard-v2-phase0-1/02-Phase_0_脚手架与主题.md)
+            - [Phase 1 · 纯逻辑（TDD 重点）](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-dashboard-v2-docs-superpowers-plans-2026-05-09-nanoclaw-dashboard-v2-phase0-1/03-Phase_1_纯逻辑_TDD_重点.md)
+            - [Phase 1 · 视觉（可批量）](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-dashboard-v2-docs-superpowers-plans-2026-05-09-nanoclaw-dashboard-v2-phase0-1/04-Phase_1_视觉_可批量.md)
+            - [收尾](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-dashboard-v2-docs-superpowers-plans-2026-05-09-nanoclaw-dashboard-v2-phase0-1/05-收尾.md)
+          - **postmortems**
+            - [Phase 0+1 开发复盘](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-dashboard-v2-docs-superpowers-postmortems-2026-05-09-phase0-1-retrospective.md)
+          - **specs**
+            - [NanoClaw Dashboard v2 · 产品规格文档（PRD/Spec）](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-dashboard-v2-docs-superpowers-specs-2026-05-09-nanoclaw-dashboard-v2-design.md)
+    - [NanoClaw Dashboard](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-dashboard.md)
+    - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend.md)
+      - [Contributors](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-CONTRIBUTORS.md)
+      - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-README_ja.md)
+      - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-README_zh.md)
+      - **.claude**
+        - **skills**
+          - **add-atomic-chat-tool**
+            - [Add Atomic Chat Integration](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-atomic-chat-tool-SKILL.md)
+          - **add-codex**
+            - [Codex agent provider](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-codex-SKILL.md)
+          - **add-dashboard**
+            - [/add-dashboard — NanoClaw Dashboard](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-dashboard-SKILL.md)
+          - **add-deltachat**
+            - [Remove DeltaChat](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-deltachat-REMOVE.md)
+            - [Add DeltaChat Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-deltachat-SKILL.md)
+            - [Verify DeltaChat](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-deltachat-VERIFY.md)
+          - **add-discord**
+            - [Remove Discord](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-discord-REMOVE.md)
+            - [Add Discord Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-discord-SKILL.md)
+            - [Verify Discord](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-discord-VERIFY.md)
+          - **add-emacs**
+            - [Add Emacs Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-emacs-SKILL.md)
+          - **add-gcal-tool**
+            - [Add Google Calendar Tool (OneCLI-native)](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-gcal-tool-SKILL.md)
+          - **add-gchat**
+            - [Remove Google Chat Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-gchat-REMOVE.md)
+            - [Add Google Chat Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-gchat-SKILL.md)
+            - [Verify Google Chat Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-gchat-VERIFY.md)
+          - **add-github**
+            - [Remove GitHub Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-github-REMOVE.md)
+            - [Add GitHub Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-github-SKILL.md)
+            - [Verify GitHub Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-github-VERIFY.md)
+          - **add-gmail-tool**
+            - [Add Gmail Tool (OneCLI-native)](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-gmail-tool-SKILL.md)
+          - **add-imessage**
+            - [Remove iMessage Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-imessage-REMOVE.md)
+            - [Add iMessage Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-imessage-SKILL.md)
+            - [Verify iMessage Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-imessage-VERIFY.md)
+          - **add-karpathy-llm-wiki**
+            - [LLM Wiki](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-karpathy-llm-wiki-llm-wiki.md)
+            - [Add Karpathy LLM Wiki](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-karpathy-llm-wiki-SKILL.md)
+          - **add-linear**
+            - [Remove Linear Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-linear-REMOVE.md)
+            - [Add Linear Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-linear-SKILL.md)
+            - [Verify Linear Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-linear-VERIFY.md)
+          - **add-macos-statusbar**
+            - [Add macOS Menu Bar Status Indicator](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-macos-statusbar-SKILL.md)
+          - **add-matrix**
+            - [Remove Matrix Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-matrix-REMOVE.md)
+            - [Add Matrix Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-matrix-SKILL.md)
+            - [Verify Matrix Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-matrix-VERIFY.md)
+          - **add-ollama-provider**
+            - [Add Ollama Provider](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-ollama-provider-SKILL.md)
+          - **add-ollama-tool**
+            - [Add Ollama Integration](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-ollama-tool-SKILL.md)
+          - **add-opencode**
+            - [OpenCode agent provider](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-opencode-SKILL.md)
+          - **add-parallel**
+            - [Add Parallel AI Integration](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-parallel-SKILL.md)
+          - **add-resend**
+            - [Remove Resend Email Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-resend-REMOVE.md)
+            - [Add Resend Email Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-resend-SKILL.md)
+            - [Verify Resend Email Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-resend-VERIFY.md)
+          - **add-signal**
+            - [Remove Signal](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-signal-REMOVE.md)
+            - [Add Signal Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-signal-SKILL.md)
+            - [Verify Signal](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-signal-VERIFY.md)
+          - **add-slack**
+            - [Remove Slack](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-slack-REMOVE.md)
+            - [Add Slack Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-slack-SKILL.md)
+            - [Verify Slack](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-slack-VERIFY.md)
+          - **add-teams**
+            - [Remove Microsoft Teams Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-teams-REMOVE.md)
+            - [Add Microsoft Teams Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-teams-SKILL.md)
+            - [Verify Microsoft Teams Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-teams-VERIFY.md)
+          - **add-telegram**
+            - [Remove Telegram](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-telegram-REMOVE.md)
+            - [Add Telegram Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-telegram-SKILL.md)
+            - [Verify Telegram](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-telegram-VERIFY.md)
+          - **add-vercel**
+            - [Add Vercel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-vercel-SKILL.md)
+            - **container-skills**
+              - **vercel-cli**
+                - [Vercel CLI](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-vercel-container-skills-vercel-cli-SKILL.md)
+          - **add-webex**
+            - [Remove Webex Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-webex-REMOVE.md)
+            - [Add Webex Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-webex-SKILL.md)
+            - [Verify Webex Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-webex-VERIFY.md)
+          - **add-wechat**
+            - [Remove WeChat Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-wechat-REMOVE.md)
+            - [Add WeChat Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-wechat-SKILL.md)
+          - **add-whatsapp-cloud**
+            - [Remove WhatsApp Cloud API Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-whatsapp-cloud-REMOVE.md)
+            - [Add WhatsApp Cloud API Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-whatsapp-cloud-SKILL.md)
+            - [Verify WhatsApp Cloud API Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-whatsapp-cloud-VERIFY.md)
+          - **add-whatsapp**
+            - [Add WhatsApp Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-add-whatsapp-SKILL.md)
+          - **claw**
+            - [claw — NanoClaw CLI](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-claw-SKILL.md)
+          - **convert-to-apple-container**
+            - [Convert to Apple Container](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-convert-to-apple-container-SKILL.md)
+          - **customize**
+            - [NanoClaw Customization](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-customize-SKILL.md)
+          - **debug**
+            - [NanoClaw Container Debugging](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-debug-SKILL.md)
+          - **get-qodo-rules**
+            - [Get Qodo Rules Skill](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-get-qodo-rules-SKILL.md)
+            - **references**
+              - [Formatting and Outputting Rules](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-get-qodo-rules-references-output-format.md)
+              - [Fetching Rules with Pagination](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-get-qodo-rules-references-pagination.md)
+              - [Repository Scope Detection](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-get-qodo-rules-references-repository-scope.md)
+          - **init-first-agent**
+            - [Init First Agent](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-init-first-agent-SKILL.md)
+          - **init-onecli**
+            - [Initialize OneCLI Agent Vault](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-init-onecli-SKILL.md)
+          - **manage-channels**
+            - [Manage Channels](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-manage-channels-SKILL.md)
+          - **manage-mounts**
+            - [Manage Mounts](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-manage-mounts-SKILL.md)
+          - **migrate-from-v1**
+            - [Finish v1 → v2 migration](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-migrate-from-v1-SKILL.md)
+          - **migrate-nanoclaw**
+            - [Diagnostics](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-migrate-nanoclaw-diagnostics.md)
+            - [Context](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-migrate-nanoclaw-SKILL.md)
+          - **qodo-pr-resolver**
+            - [Qodo PR Resolver](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-qodo-pr-resolver-SKILL.md)
+            - **resources**
+              - [Git Provider Commands Reference](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-qodo-pr-resolver-resources-providers.md)
+          - **setup**
+            - [NanoClaw Setup](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-setup-SKILL.md)
+          - **update-nanoclaw**
+            - [Diagnostics](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-update-nanoclaw-diagnostics.md)
+            - [About](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-update-nanoclaw-SKILL.md)
+          - **update-skills**
+            - [About](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-update-skills-SKILL.md)
+          - **use-native-credential-proxy**
+            - [Use Native Credential Proxy](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-use-native-credential-proxy-SKILL.md)
+          - **x-integration**
+            - [X (Twitter) Integration](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_claude-skills-x-integration-SKILL.md)
+      - **.github**
+        - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-_github-PULL_REQUEST_TEMPLATE.md)
+      - **container**
+        - **agent-runner**
+          - **源码**
+            - **mcp-tools**
+              - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-container-agent-runner-src-mcp-tools-agents.instructions.md)
+              - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-container-agent-runner-src-mcp-tools-core.instructions.md)
+              - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-container-agent-runner-src-mcp-tools-interactive.instructions.md)
+              - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-container-agent-runner-src-mcp-tools-scheduling.instructions.md)
+              - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-container-agent-runner-src-mcp-tools-self-mod.instructions.md)
+        - **skills**
+          - **agent-browser**
+            - [Browser Automation with agent-browser](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-container-skills-agent-browser-SKILL.md)
+          - **frontend-engineer**
+            - [Frontend Engineer](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-container-skills-frontend-engineer-SKILL.md)
+          - **self-customize**
+            - [Self-Customization](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-container-skills-self-customize-SKILL.md)
+          - **slack-formatting**
+            - [Slack Message Formatting (mrkdwn)](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-container-skills-slack-formatting-SKILL.md)
+          - **vercel-cli**
+            - [Vercel CLI](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-container-skills-vercel-cli-SKILL.md)
+          - **welcome**
+            - [/welcome — Channel Onboarding (Updated)](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-container-skills-welcome-SKILL.md)
+      - [NanoClaw Documentation](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-docs.md)
+        - [NanoClaw Agent-Runner Details](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-docs-agent-runner-details.md)
+        - [NanoClaw API Details](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-docs-api-details.md)
+        - [Apple Container Networking Setup (macOS 26)](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-docs-APPLE-CONTAINER-NETWORKING.md)
+        - [NanoClaw Architecture Diagram](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-docs-architecture-diagram.md)
+        - [NanoClaw Architecture (Draft)](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-docs-architecture.md)
+        - [Branch & Fork Maintenance Guidelines](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-docs-BRANCH-FORK-MAINTENANCE.md)
+        - [Build & Runtime](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-docs-build-and-runtime.md)
+        - [NanoClaw — Central DB Schema](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-docs-db-central.md)
+        - [NanoClaw — Per-Session DB Schema](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-docs-db-session.md)
+        - [NanoClaw Database Architecture — Overview](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-docs-db.md)
+        - [Running NanoClaw in Docker Sandboxes (Manual Setup)](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-docs-docker-sandboxes.md)
+        - [Channel Isolation Model](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-docs-isolation-model.md)
+        - [v1 → v2 Migration — Development Guide](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-docs-migration-dev.md)
+        - [Running Agents on Local Ollama](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-docs-ollama.md)
+        - [NanoClaw Requirements](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-docs-REQUIREMENTS.md)
+        - [Claude Agent SDK Deep Dive](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-docs-SDK_DEEP_DIVE.md)
+        - [Setup flow](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-docs-setup-flow.md)
+        - [Setup Wiring — Status & Remaining Work](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-docs-setup-wiring.md)
+        - [Skills as Branches](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-docs-skills-as-branches.md)
+        - [NanoClaw Specification](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-docs-SPEC.md)
+        - [NanoClaw v1 → v2 — what changed](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-docs-v1-to-v2-changes.md)
+        - **superpowers**
+          - **specs**
+            - [NanoClaw v2 架构探索 — 二开前置理解](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-docs-superpowers-specs-2026-05-07-nanoclaw-architecture-探索.md)
+      - [Repo Tokens](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-repo-tokens.md)
+      - **源码**
+        - **modules**
+          - **approvals**
+            - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-src-modules-approvals-agent.md)
+            - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-src-modules-approvals-project.md)
+          - **interactive**
+            - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-src-modules-interactive-agent.md)
+            - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-src-modules-interactive-project.md)
+          - **self-mod**
+            - [Self-modification](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-src-modules-self-mod-agent.md)
+            - [Self-mod module](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson12_Superpowers_Getting_Started-nanoclaw-v2-backend-src-modules-self-mod-project.md)
+  - [Lesson 13: Spec-Kit × Superpowers — 9-Step Cooperative Workflow](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation.md)
+    - [Lesson 13: Spec-Kit × Superpowers · 9 步协同首讲](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-README_CN.md)
+    - **nanoclaw-v2-backend**
+      - **.claude**
+        - **skills**
+          - **add-discord**
+            - [Remove Discord](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-add-discord-REMOVE.md)
+            - [Verify Discord](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-add-discord-VERIFY.md)
+          - **add-gchat**
+            - [Remove Google Chat Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-add-gchat-REMOVE.md)
+            - [Verify Google Chat Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-add-gchat-VERIFY.md)
+          - **add-github**
+            - [Remove GitHub Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-add-github-REMOVE.md)
+            - [Verify GitHub Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-add-github-VERIFY.md)
+          - **add-imessage**
+            - [Remove iMessage Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-add-imessage-REMOVE.md)
+            - [Verify iMessage Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-add-imessage-VERIFY.md)
+          - **add-linear**
+            - [Remove Linear Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-add-linear-REMOVE.md)
+            - [Verify Linear Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-add-linear-VERIFY.md)
+          - **add-matrix**
+            - [Remove Matrix Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-add-matrix-REMOVE.md)
+            - [Verify Matrix Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-add-matrix-VERIFY.md)
+          - **add-resend**
+            - [Remove Resend Email Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-add-resend-REMOVE.md)
+            - [Verify Resend Email Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-add-resend-VERIFY.md)
+          - **add-signal**
+            - [Remove Signal](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-add-signal-REMOVE.md)
+            - [Verify Signal](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-add-signal-VERIFY.md)
+          - **add-slack**
+            - [Remove Slack](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-add-slack-REMOVE.md)
+            - [Verify Slack](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-add-slack-VERIFY.md)
+          - **add-teams**
+            - [Remove Microsoft Teams Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-add-teams-REMOVE.md)
+            - [Verify Microsoft Teams Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-add-teams-VERIFY.md)
+          - **add-telegram**
+            - [Remove Telegram](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-add-telegram-REMOVE.md)
+            - [Verify Telegram](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-add-telegram-VERIFY.md)
+          - **add-webex**
+            - [Remove Webex Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-add-webex-REMOVE.md)
+            - [Verify Webex Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-add-webex-VERIFY.md)
+          - **add-whatsapp-cloud**
+            - [Remove WhatsApp Cloud API Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-add-whatsapp-cloud-REMOVE.md)
+            - [Verify WhatsApp Cloud API Channel](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-add-whatsapp-cloud-VERIFY.md)
+          - **platform-aware-citation**
+            - [Failing Test · Phase E 真凭据](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-platform-aware-citation-failing-test.md)
+            - [Platform-Aware Citation](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-platform-aware-citation-SKILL.md)
+          - **speckit-analyze**
+            - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-speckit-analyze-SKILL.md)
+          - **speckit-checklist**
+            - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-speckit-checklist-SKILL.md)
+          - **speckit-clarify**
+            - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-speckit-clarify-SKILL.md)
+          - **speckit-constitution**
+            - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-speckit-constitution-SKILL.md)
+          - **speckit-git-commit**
+            - [Auto-Commit Changes](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-speckit-git-commit-SKILL.md)
+          - **speckit-git-feature**
+            - [Create Feature Branch](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-speckit-git-feature-SKILL.md)
+          - **speckit-git-initialize**
+            - [Initialize Git Repository](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-speckit-git-initialize-SKILL.md)
+          - **speckit-git-remote**
+            - [Detect Git Remote URL](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-speckit-git-remote-SKILL.md)
+          - **speckit-git-validate**
+            - [Validate Feature Branch](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-speckit-git-validate-SKILL.md)
+          - **speckit-implement**
+            - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-speckit-implement-SKILL.md)
+          - **speckit-plan**
+            - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-speckit-plan-SKILL.md)
+          - **speckit-specify**
+            - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-speckit-specify-SKILL.md)
+          - **speckit-tasks**
+            - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-speckit-tasks-SKILL.md)
+          - **speckit-taskstoissues**
+            - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-speckit-taskstoissues-SKILL.md)
+          - **style-wechat-official**
+            - [Style · 微信公众号](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-style-wechat-official-SKILL.md)
+          - **style-weibo**
+            - [Style · 微博](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-style-weibo-SKILL.md)
+          - **style-xiaohongshu**
+            - [Style · 小红书](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-style-xiaohongshu-SKILL.md)
+          - **wire-nanoclaw-channel**
+            - [Wire a Channel to NanoClaw](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_claude-skills-wire-nanoclaw-channel-SKILL.md)
+      - **.specify**
+        - **extensions**
+          - [Git Branching Workflow Extension](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_specify-extensions-git.md)
+            - **commands**
+              - [Auto-Commit Changes](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_specify-extensions-git-commands-speckit.git.commit.md)
+              - [Create Feature Branch](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_specify-extensions-git-commands-speckit.git.feature.md)
+              - [Initialize Git Repository](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_specify-extensions-git-commands-speckit.git.initialize.md)
+              - [Detect Git Remote URL](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_specify-extensions-git-commands-speckit.git.remote.md)
+              - [Validate Feature Branch](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_specify-extensions-git-commands-speckit.git.validate.md)
+        - **memory**
+          - [[PROJECTNAME] Constitution](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_specify-memory-constitution.md)
+        - **templates**
+          - [[PROJECT NAME] Development Guidelines](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_specify-templates-agent-file-template.md)
+          - [[CHECKLIST TYPE] Checklist: [FEATURE NAME]](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_specify-templates-checklist-template.md)
+          - [Implementation Plan: [FEATURE]](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_specify-templates-plan-template.md)
+          - [Feature Specification: [FEATURE NAME]](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_specify-templates-spec-template.md)
+          - [Tasks: [FEATURE NAME]](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-_specify-templates-tasks-template.md)
+      - **文档**
+        - **superpowers**
+          - **specs**
+            - [NanoClaw v2 架构探索 — 二开导览图](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-docs-superpowers-specs-2026-05-07-nanoclaw-architecture-探索.md)
+      - **groups**
+        - [Content Coordinator](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-groups-CLAUDE.local.md)
+        - **content-coordinator**
+          - [Content Coordinator](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-groups-content-coordinator-CLAUDE.local.md)
+        - **content-researcher**
+          - [Content Researcher](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-groups-content-researcher-CLAUDE.local.md)
+        - **gongzhonghao-writer**
+          - [Gongzhonghao Writer](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-groups-gongzhonghao-writer-CLAUDE.local.md)
+        - **weibo-writer**
+          - [Weibo Writer](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-groups-weibo-writer-CLAUDE.local.md)
+        - **xiaohongshu-writer**
+          - [Xiaohongshu Writer](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-groups-xiaohongshu-writer-CLAUDE.local.md)
+      - **specs**
+        - **daily-news-agent**
+          - [知识日报 Agent · Brainstorming](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-specs-daily-news-agent-brainstorming.md)
+          - [Execution Report: daily-news-agent](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-specs-daily-news-agent-execution-report.md)
+          - [Implementation Plan: daily-news-agent](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-specs-daily-news-agent-plan.md)
+          - [Stage 1·Retrospective · Spec-kit + Superpowers 9 步协同首讲](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-specs-daily-news-agent-retrospective.md)
+          - [Code Review · daily-news-agent](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-specs-daily-news-agent-review.md)
+          - [Feature Specification: daily-news-agent](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-specs-daily-news-agent-spec.md)
+          - [Tasks: daily-news-agent](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-specs-daily-news-agent-tasks.md)
+          - **checklists**
+            - [Specification Quality Checklist: daily-news-agent](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-specs-daily-news-agent-checklists-requirements.md)
+        - **lessons-learned**
+          - [Stage 2 Lessons-Learned 三件套 · Brainstorming](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-specs-lessons-learned-brainstorming.md)
+        - **multi-platform-content**
+          - [Multi-Platform Content Generation · Brainstorming](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-specs-multi-platform-content-brainstorming.md)
+          - [Clarify: multi-platform-content](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-specs-multi-platform-content-clarify.md)
+          - [Plan: multi-platform-content](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-specs-multi-platform-content-plan.md)
+          - [Feature Specification: multi-platform-content](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-specs-multi-platform-content-spec.md)
+          - [Tasks: multi-platform-content](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-specs-multi-platform-content-tasks.md)
+          - **drafts**
+            - **2026-05-13**
+              - [AI 工程化周报·研究产物](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-specs-multi-platform-content-drafts-2026-05-13-research.md)
+              - [AI 编程工具正在重塑开发者生态：一周社区信号全扫描](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-specs-multi-platform-content-drafts-2026-05-13-wechat-official.md)
+              - [Vibe Coding：AI 编程实战课](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-specs-multi-platform-content-drafts-2026-05-13-weibo.md)
+              - [🤯 AI 帮我删了上万个文件·这30天开发圈炸了](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-specs-multi-platform-content-drafts-2026-05-13-xiaohongshu.md)
+        - **wire-nanoclaw-channel-skill**
+          - [Telegram Channel 装机·Fresh Baseline 实跑（2026-05-12）](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-specs-wire-nanoclaw-channel-skill-baseline-failures.md)
+          - [Clarifications · wire-nanoclaw-channel skill spec](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-specs-wire-nanoclaw-channel-skill-clarifications.md)
+          - [Telegram Channel 装机·GREEN Rerun（2026-05-12）](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-specs-wire-nanoclaw-channel-skill-green-rerun.md)
+          - [Plan · wire-nanoclaw-channel skill 重构](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-specs-wire-nanoclaw-channel-skill-plan.md)
+          - [Stage 2 Retrospective · wire-nanoclaw-channel skill 抽取](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-specs-wire-nanoclaw-channel-skill-retrospective.md)
+          - [Review · wire-nanoclaw-channel skill 重构](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-specs-wire-nanoclaw-channel-skill-review.md)
+          - [Spec · wire-nanoclaw-channel skill](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-specs-wire-nanoclaw-channel-skill-spec.md)
+          - [Tasks · wire-nanoclaw-channel skill 重构](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-specs-wire-nanoclaw-channel-skill-tasks.md)
+          - **checklists**
+            - [Specification Quality Checklist: wire-nanoclaw-channel skill](/lib/07-coding/fufan-vibe-coding-course/Stage7_Superpowers_Applied-Lesson13_SpecKit_Superpowers_Cooperation-nanoclaw-v2-backend-specs-wire-nanoclaw-channel-skill-checklists-requirements.md)
+- [Stage 8: AlphaProject Applied](/lib/07-coding/fufan-vibe-coding-course/Stage8_AlphaProject_Applied.md)
+  - [阶段八：AlphaProject 综合项目实战](/lib/07-coding/fufan-vibe-coding-course/Stage8_AlphaProject_Applied-README_CN.md)
+  - [Lesson 14: AlphaProject Part 1 — Deep Market Research & PRD Generation](/lib/07-coding/fufan-vibe-coding-course/Stage8_AlphaProject_Applied-Lesson14_AlphaProject_Research_PRD.md)
+    - [Lesson 14: AlphaProject 上篇 · 深度调研 & 产品需求文档生成](/lib/07-coding/fufan-vibe-coding-course/Stage8_AlphaProject_Applied-Lesson14_AlphaProject_Research_PRD-README_CN.md)
+  - [Lesson 15: AlphaProject Part 2 — Architecture Selection, UI Design & Claude Code Setup](/lib/07-coding/fufan-vibe-coding-course/Stage8_AlphaProject_Applied-Lesson15_AlphaProject_Architecture_UI.md)
+    - [Lesson 15: AlphaProject 中篇 · 技术架构选型、UI 设计 & Claude Code 环境配置](/lib/07-coding/fufan-vibe-coding-course/Stage8_AlphaProject_Applied-Lesson15_AlphaProject_Architecture_UI-README_CN.md)
+  - [Lesson 16: AlphaProject Part 3 — Full-Stack Testing Strategy](/lib/07-coding/fufan-vibe-coding-course/Stage8_AlphaProject_Applied-Lesson16_AlphaProject_Testing.md)
+    - [Lesson 16: AlphaProject 下篇 · 全栈测试体系](/lib/07-coding/fufan-vibe-coding-course/Stage8_AlphaProject_Applied-Lesson16_AlphaProject_Testing-README_CN.md)
 
 开始学习 → [导学：环境配置与工具准备](00_Introduction-README_CN.md)

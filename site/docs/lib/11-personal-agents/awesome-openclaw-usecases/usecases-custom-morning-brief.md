@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases"
-entryUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/README.md"
+entryUrl: "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/659895e58e2105c6db8fbef39f446c8a786a480c/usecases/custom-morning-brief.md"
+sourceRel: "usecases/custom-morning-brief.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-usecases/usecases/custom-morning-brief.md"
+sourceSha256: "10235d13107f3374612cddca647bccc84b59fa16402b55d7309c250e95f042f1"
+pageSha256: "10235d13107f3374612cddca647bccc84b59fa16402b55d7309c250e95f042f1"
+contentMode: "local-full"
 zh: ""
 ---
 

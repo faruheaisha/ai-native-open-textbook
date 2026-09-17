@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/gsd-build/get-shit-done"
-entryUrl: "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/README.md"
+entryUrl: "https://github.com/gsd-build/get-shit-done/blob/bdcaab2c752d9a33a1a1ca9acf3a3c81fb991815/agents/gsd-executor.md"
+sourceRel: "agents/gsd-executor.md"
+rawUrl: "/raw/10-context-memory/get-shit-done/agents/gsd-executor.md"
+sourceSha256: "08d3b33ea9e825c616da8e1cab24d7781aa3adbf26dbf6122a105cdee5b99273"
+pageSha256: "08d3b33ea9e825c616da8e1cab24d7781aa3adbf26dbf6122a105cdee5b99273"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -254,7 +259,7 @@ Do NOT continue reading. Analysis without action is a stuck signal.
 &lt;authentication_gates>
 **Auth errors during `type="auto"` execution are gates, not failures.**
 
-**Indicators:** "Not authenticated", "Not logged in", "Unauthorized", "401", "403", "Please run {tool} login", "Set {ENV_VAR}"
+**Indicators:** "Not authenticated", "Not logged in", "Unauthorized", "401", "403", "Please run \{tool\} login", "Set \{ENV_VAR\}"
 
 **Protocol:**
 1. Recognize it's an auth gate (not a bug)
@@ -360,11 +365,11 @@ When executing task with `tdd="true"`:
 
 **1. Check test infrastructure** (if first TDD task): detect project type, install test framework if needed.
 
-**2. RED:** Read `<behavior>`, create test file, write failing tests, run (MUST fail), commit: `test({phase}-{plan}): add failing test for [feature]`
+**2. RED:** Read `<behavior>`, create test file, write failing tests, run (MUST fail), commit: `test(\{phase\}-\{plan\}): add failing test for [feature]`
 
-**3. GREEN:** Read `<implementation>`, write minimal code to pass, run (MUST pass), commit: `feat({phase}-{plan}): implement [feature]`
+**3. GREEN:** Read `<implementation>`, write minimal code to pass, run (MUST pass), commit: `feat(\{phase\}-\{plan\}): implement [feature]`
 
-**4. REFACTOR (if needed):** Clean up, run tests (MUST still pass), commit only if changes: `refactor({phase}-{plan}): clean up [feature]`
+**4. REFACTOR (if needed):** Clean up, run tests (MUST still pass), commit only if changes: `refactor(\{phase\}-\{plan\}): clean up [feature]`
 
 **Error handling:** RED doesn't fail ��� investigate. GREEN doesn't pass → debug/iterate. REFACTOR breaks → undo.
 
@@ -390,7 +395,7 @@ If RED or GREEN gate commits are missing, add a warning to SUMMARY.md under a `#
 
 1. Stop. Do not run the task's implementation step.
 2. Emit the structured halt report defined in `references/execute-mvp-tdd.md` (header line, reason code, expected behavior, required next step).
-3. Update `STATE.md` with `last_gate_trip: {plan_id}/{task_id}`.
+3. Update `STATE.md` with `last_gate_trip: \{plan_id\}/\{task_id\}`.
 4. Exit the current execution wave cleanly. Prior commits in the same wave stay — do not roll back.
 
 **Behavior-Adding Task detection** (the gate only fires when this predicate returns true): apply via the centralized verb instead of inlining the three checks:
@@ -498,7 +503,7 @@ git add src/types/user.ts
 ```bash
 gsd-sdk query commit-to-subrepo "{type}({phase}-{plan}): {concise task description}" --files file1 file2 ...
 ```
-Returns JSON with per-repo commit hashes: `{ committed: true, repos: { "backend": { hash: "abc", files: [...] }, ... } }`. Record all hashes for SUMMARY.
+Returns JSON with per-repo commit hashes: `\{ committed: true, repos: \{ "backend": \{ hash: "abc", files: [...] \}, ... \} \}`. Record all hashes for SUMMARY.
 
 **Otherwise (standard single-repo):**
 ```bash
@@ -511,7 +516,7 @@ git commit -m "{type}({phase}-{plan}): {concise task description}
 
 **5. Record hash:**
 - **Single-repo:** `TASK_COMMIT=$(git rev-parse --short HEAD)` — track for SUMMARY.
-- **Multi-repo (sub_repos):** Extract hashes from `commit-to-subrepo` JSON output (`repos.{name}.hash`). Record all hashes for SUMMARY (e.g., `backend@abc1234, frontend@def5678`).
+- **Multi-repo (sub_repos):** Extract hashes from `commit-to-subrepo` JSON output (`repos.\{name\}.hash`). Record all hashes for SUMMARY (e.g., `backend@abc1234, frontend@def5678`).
 
 **6. Post-commit deletion check:** After recording the hash, verify the commit did not accidentally delete tracked files:
 ```bash

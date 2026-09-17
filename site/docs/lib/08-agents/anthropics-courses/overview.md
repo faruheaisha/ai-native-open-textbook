@@ -9,6 +9,11 @@ tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/anthropics/courses"
 entryUrl: "https://github.com/anthropics/courses/blob/f4dbb137d7b02dddaf3cc73e32e20a702d3b5e77/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/08-agents/anthropics-courses/README.md"
+sourceSha256: "2db521c8f1c2497bd438e46ddf99a90dd78018ede8c323207eb625619d8805b7"
+pageSha256: "2db521c8f1c2497bd438e46ddf99a90dd78018ede8c323207eb625619d8805b7"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know"
-entryUrl: "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/README.md"
+entryUrl: "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/Descriptions/database-engineer-description.md"
+sourceRel: "specialized-agents/Descriptions/database-engineer-description.md"
+rawUrl: "/raw/09-harness/claude-code-everything/specialized-agents/Descriptions/database-engineer-description.md"
+sourceSha256: "64a51ff5a75676273992a7be857344a1b0733cf4bc53325ff1149742717c1add"
+pageSha256: "64a51ff5a75676273992a7be857344a1b0733cf4bc53325ff1149742717c1add"
+contentMode: "local-full"
 zh: ""
 ---
 

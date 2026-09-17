@@ -9,6 +9,11 @@ tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/CCCpan/ai-api-integration"
 entryUrl: "https://github.com/CCCpan/ai-api-integration/blob/95cd8c6f48e58dfe96703a37b6c8fccb583bea74/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/07-coding/ai-api-integration/README.md"
+sourceSha256: "6b0e9308c081f354a4f633d6c687f41d302189a4e791816b0fb90f7a4107f57b"
+pageSha256: "6b0e9308c081f354a4f633d6c687f41d302189a4e791816b0fb90f7a4107f57b"
+contentMode: "local-full"
 zh: ""
 ---
 

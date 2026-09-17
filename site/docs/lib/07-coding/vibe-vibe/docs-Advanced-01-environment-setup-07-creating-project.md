@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/datawhalechina/vibe-vibe"
-entryUrl: "https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/README.md"
+entryUrl: "https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/Advanced/01-environment-setup/07-creating-project.md"
+sourceRel: "docs/Advanced/01-environment-setup/07-creating-project.md"
+rawUrl: "/raw/07-coding/vibe-vibe/docs/Advanced/01-environment-setup/07-creating-project.md"
+sourceSha256: "b7c030ebd0a4e96cf0e9f3632624521a68f0bec7c946ff15730098dd86144789"
+pageSha256: "b7c030ebd0a4e96cf0e9f3632624521a68f0bec7c946ff15730098dd86144789"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/mattpocock/skills"
-entryUrl: "https://github.com/mattpocock/skills/blob/3cca18b368ae95cdbdebbff572ccafa662551015/README.md"
+entryUrl: "https://github.com/mattpocock/skills/blob/3cca18b368ae95cdbdebbff572ccafa662551015/docs/engineering/wayfinder.md"
+sourceRel: "docs/engineering/wayfinder.md"
+rawUrl: "/raw/10-context-memory/mattpocock-skills/docs/engineering/wayfinder.md"
+sourceSha256: "5e186ef2b90a77ccf7b48ff7c72bbc97fc5c2ba0abe316b91fefa206cb18430e"
+pageSha256: "5e186ef2b90a77ccf7b48ff7c72bbc97fc5c2ba0abe316b91fefa206cb18430e"
+contentMode: "local-full"
 zh: ""
 ---
 

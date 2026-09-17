@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering"
-entryUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering/blob/8b2a55d97590363fe50c3cc6b5e833b020a4bb4c/README.md"
+entryUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering/blob/8b2a55d97590363fe50c3cc6b5e833b020a4bb4c/agents/code_agent_simple/systemprompt.md"
+sourceRel: "agents/code_agent_simple/systemprompt.md"
+rawUrl: "/raw/09-harness/agentic-harness-engineering/agents/code_agent_simple/systemprompt.md"
+sourceSha256: "081f513b5db4892ead447fc4dfe38d1e534b7a430e27f63c35c7e5ffad1ce41d"
+pageSha256: "081f513b5db4892ead447fc4dfe38d1e534b7a430e27f63c35c7e5ffad1ce41d"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/shanraisshan/claude-code-best-practice"
-entryUrl: "https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/README.md"
+entryUrl: "https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/implementation/claude-skills-implementation.md"
+sourceRel: "implementation/claude-skills-implementation.md"
+rawUrl: "/raw/09-harness/claude-code-best-practice/implementation/claude-skills-implementation.md"
+sourceSha256: "936eefefb720355ea909e2dc7cbe95f49a6ab0dd641dd13d13ee7061db426bfd"
+pageSha256: "936eefefb720355ea909e2dc7cbe95f49a6ab0dd641dd13d13ee7061db426bfd"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -31,7 +36,7 @@ Two skills are implemented in this repo as part of the **Command → Agent → S
 
 ## Weather SVG Creator (Skill)
 
-**File**: [`.claude/skills/weather-svg-creator/SKILL.md`](https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/.claude/skills/weather-svg-creator/SKILL.md)
+**File**: [`.claude/skills/weather-svg-creator/SKILL.md`](/lib/09-harness/claude-code-best-practice/_claude-skills-weather-svg-creator-SKILL)
 
 ```yaml
 ---
@@ -71,7 +76,7 @@ This is a **skill** — invoked directly by the command via the Skill tool. It r
 
 ## Weather Fetcher (Agent Skill)
 
-**File**: [`.claude/skills/weather-fetcher/SKILL.md`](https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/.claude/skills/weather-fetcher/SKILL.md)
+**File**: [`.claude/skills/weather-fetcher/SKILL.md`](/lib/09-harness/claude-code-best-practice/_claude-skills-weather-fetcher-SKILL)
 
 ```yaml
 ---

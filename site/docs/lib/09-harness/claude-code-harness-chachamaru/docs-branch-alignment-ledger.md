@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/Chachamaru127/claude-code-harness"
-entryUrl: "https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/README.md"
+entryUrl: "https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/docs/branch-alignment-ledger.md"
+sourceRel: "docs/branch-alignment-ledger.md"
+rawUrl: "/raw/09-harness/claude-code-harness-chachamaru/docs/branch-alignment-ledger.md"
+sourceSha256: "da7496495c1491fdee36dbc5ad97c99caf5b36cf5a834637b1596f0b71eea56a"
+pageSha256: "da7496495c1491fdee36dbc5ad97c99caf5b36cf5a834637b1596f0b71eea56a"
+contentMode: "local-full"
 zh: ""
 ---
 

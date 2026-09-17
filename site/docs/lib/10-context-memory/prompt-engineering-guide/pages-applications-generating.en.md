@@ -1,0 +1,69 @@
+---
+title: "Generating Data"
+sourceId: "10-context-memory/prompt-engineering-guide"
+sourceTitle: "Prompt Engineering Guide"
+sourceKind: "工程手册"
+licenseLabel: "可转载"
+lang: "英文"
+tier: 2
+volume: "10-context-memory"
+sourceUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide"
+entryUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide/blob/57673726396dd94acb23bdb1e67f27c78ee85a8e/pages/applications/generating.en.mdx"
+sourceRel: "pages/applications/generating.en.mdx"
+rawUrl: "/raw/10-context-memory/prompt-engineering-guide/pages/applications/generating.en.mdx"
+sourceSha256: "1de08f66bbe1557365d0e905e722aaf0100a3ef0baa38eed451a4d50dc007231"
+pageSha256: "1de08f66bbe1557365d0e905e722aaf0100a3ef0baa38eed451a4d50dc007231"
+contentMode: "local-full"
+zh: ""
+---
+
+# Generating Data
+
+import \{ Callout \} from 'nextra/components'
+
+LLMs have strong capabilities to generate coherent text. Using effective prompt strategies can steer the model to produce better, consistent, and more factual responses. LLMs can also be especially useful for generating data which is really useful to run all sorts of experiments and evaluations. For example, we can use it to generate quick samples for a sentiment classifier like so:
+
+*Prompt:*
+```
+Produce 10 exemplars for sentiment analysis. Examples are categorized as either positive or negative. Produce 2 negative examples and 8 positive examples. Use this format for the examples:
+Q: <sentence>
+A: <sentiment>
+```
+
+*Output:*
+```
+Q: I just got the best news ever!
+A: Positive
+
+Q: We just got a raise at work!
+A: Positive
+
+Q: I'm so proud of what I accomplished today.
+A: Positive
+
+Q: I'm having the best day ever!
+A: Positive
+
+Q: I'm really looking forward to the weekend.
+A: Positive
+
+Q: I just got the best present ever!
+A: Positive
+
+Q: I'm so happy right now.
+A: Positive
+
+Q: I'm so blessed to have such an amazing family.
+A: Positive
+
+Q: The weather outside is so gloomy.
+A: Negative
+
+Q: I just got some terrible news.
+A: Negative
+```
+
+This is very useful. We actually use this example for a different test in another section of the guides.
+
+Learn more about advanced prompting methods in our new AI courses. [Join now!](https://academy.dair.ai/)
+Use code PROMPTING20 to get an extra 20% off.

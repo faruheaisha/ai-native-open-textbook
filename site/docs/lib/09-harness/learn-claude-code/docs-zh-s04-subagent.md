@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/shareAI-lab/learn-claude-code"
-entryUrl: "https://github.com/shareAI-lab/learn-claude-code/blob/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/README.md"
+entryUrl: "https://github.com/shareAI-lab/learn-claude-code/blob/0dcafa2ae053a1ddd6a72f265431104b08a5aa13/docs/zh/s04-subagent.md"
+sourceRel: "docs/zh/s04-subagent.md"
+rawUrl: "/raw/09-harness/learn-claude-code/docs/zh/s04-subagent.md"
+sourceSha256: "17dc2b6c4695abbf1737b1b7f7a8aec6bdb00d40211801237e047fd336a5ade0"
+pageSha256: "17dc2b6c4695abbf1737b1b7f7a8aec6bdb00d40211801237e047fd336a5ade0"
+contentMode: "local-full"
 zh: ""
 ---
 

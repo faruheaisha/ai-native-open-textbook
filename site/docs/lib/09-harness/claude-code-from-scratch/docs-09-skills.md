@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/Windy3f3f3f3f/claude-code-from-scratch"
-entryUrl: "https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/README.md"
+entryUrl: "https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/docs/09-skills.md"
+sourceRel: "docs/09-skills.md"
+rawUrl: "/raw/09-harness/claude-code-from-scratch/docs/09-skills.md"
+sourceSha256: "a713a215c5e4083dd28e4b38dbdd79f083eb030ee3315a8854d53147778f4973"
+pageSha256: "a713a215c5e4083dd28e4b38dbdd79f083eb030ee3315a8854d53147778f4973"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -101,7 +106,7 @@ flowchart LR
 
 ### Prompt 模板替换
 
-`$ARGUMENTS` 替换用户传入的参数，`${CLAUDE_SKILL_DIR}` 替换技能目录路径（技能可以在目录里放模板文件，在 prompt 中用 `read_file` 引用）。Claude Code 还支持 `` !`shell_command` `` 内联执行，我们没有实现——它增加了安全风险，教程场景不需要。
+`$ARGUMENTS` 替换用户传入的参数，`${CLAUDE_SKILL_DIR\}` 替换技能目录路径（技能可以在目录里放模板文件，在 prompt 中用 `read_file` 引用）。Claude Code 还支持 `` !`shell_command` `` 内联执行，我们没有实现——它增加了安全风险，教程场景不需要。
 
 ### 双重调用路径
 
@@ -166,7 +171,7 @@ fork 时子 Agent 工具受 `allowedTools` 白名单约束，没指定则排除 
 |------|------------|-------------|
 | **技能来源** | 6 个（managed/project/user/plugin/bundled/MCP） | 2 个（project + user） |
 | **技能加载** | 懒加载 + token 预算控制 | 启动时全量加载 + 缓存 |
-| **Prompt 替换** | `$ARGUMENTS` + `${CLAUDE_SKILL_DIR}` + `` !`shell` `` | `$ARGUMENTS` + `${CLAUDE_SKILL_DIR}` |
+| **Prompt 替换** | `$ARGUMENTS` + `${CLAUDE_SKILL_DIR}` + `` !`shell` `` | `$ARGUMENTS` + `$\{CLAUDE_SKILL_DIR\}` |
 
 ---
 

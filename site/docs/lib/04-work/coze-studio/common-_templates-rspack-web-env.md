@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "04-work"
 sourceUrl: "https://github.com/coze-dev/coze-studio"
-entryUrl: "https://github.com/coze-dev/coze-studio/blob/fefb05ff27be1da939612fbf9faf5db62583b8ae/README.md"
+entryUrl: "https://github.com/coze-dev/coze-studio/blob/fefb05ff27be1da939612fbf9faf5db62583b8ae/common/_templates/rspack-web/env/README.md"
+sourceRel: "common/_templates/rspack-web/env/README.md"
+rawUrl: "/raw/04-work/coze-studio/common/_templates/rspack-web/env/README.md"
+sourceSha256: "549f58e175cc54edbdfdc73c908f035e7b7cc0f730f34f4566734109f575783f"
+pageSha256: "549f58e175cc54edbdfdc73c908f035e7b7cc0f730f34f4566734109f575783f"
+contentMode: "local-full"
 zh: ""
 ---
 

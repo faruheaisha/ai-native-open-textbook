@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/VoltAgent/awesome-openclaw-skills"
-entryUrl: "https://github.com/VoltAgent/awesome-openclaw-skills/blob/37ad08c1b8e243d5f501c6fcaf7ac0b507bd83a1/README.md"
+entryUrl: "https://github.com/VoltAgent/awesome-openclaw-skills/blob/37ad08c1b8e243d5f501c6fcaf7ac0b507bd83a1/categories/ios-and-macos-development.md"
+sourceRel: "categories/ios-and-macos-development.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-skills/categories/ios-and-macos-development.md"
+sourceSha256: "28efa0a53d6a747e9f24b119d91b975163500d64af4fdce0f8af52107281e279"
+pageSha256: "28efa0a53d6a747e9f24b119d91b975163500d64af4fdce0f8af52107281e279"
+contentMode: "local-full"
 zh: ""
 ---
 

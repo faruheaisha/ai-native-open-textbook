@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "04-work"
 sourceUrl: "https://github.com/coze-dev/coze-loop"
-entryUrl: "https://github.com/coze-dev/coze-loop/blob/5f1e4c234fc110c1bf674e882a6fd02109e1e1e6/README.md"
+entryUrl: "https://github.com/coze-dev/coze-loop/blob/5f1e4c234fc110c1bf674e882a6fd02109e1e1e6/frontend/infra/plugins/postcss-plugin/README.md"
+sourceRel: "frontend/infra/plugins/postcss-plugin/README.md"
+rawUrl: "/raw/04-work/coze-loop/frontend/infra/plugins/postcss-plugin/README.md"
+sourceSha256: "44ac09a6cd7b0b126f6b419587164370d9c7686491cde725da77f1307380e6c7"
+pageSha256: "44ac09a6cd7b0b126f6b419587164370d9c7686491cde725da77f1307380e6c7"
+contentMode: "local-full"
 zh: ""
 ---
 

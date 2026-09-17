@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/shanraisshan/claude-code-best-practice"
-entryUrl: "https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/README.md"
+entryUrl: "https://github.com/shanraisshan/claude-code-best-practice/blob/2d6ea151c0d7189c3eaf364809c5574bd210e545/development-workflows/rpi/rpi-workflow.md"
+sourceRel: "development-workflows/rpi/rpi-workflow.md"
+rawUrl: "/raw/09-harness/claude-code-best-practice/development-workflows/rpi/rpi-workflow.md"
+sourceSha256: "b2a159b1c0f686f736c8cfd05294bfc79d2101dbad23648d0e163f372796ad61"
+pageSha256: "b2a159b1c0f686f736c8cfd05294bfc79d2101dbad23648d0e163f372796ad61"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -88,7 +93,7 @@ Result: Feature complete, ready for PR.
 
 ## Feature Folder Structure
 
-All feature work lives in `rpi/{feature-slug}/`:
+All feature work lives in `rpi/\{feature-slug\}/`:
 
 ```
 rpi/{feature-slug}/

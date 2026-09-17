@@ -9,6 +9,11 @@ tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/xai-org/grok-build"
 entryUrl: "https://github.com/xai-org/grok-build/blob/37949780c144e37df692e3d669051a21fec24f20/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/09-harness/grok-build/README.md"
+sourceSha256: "322066de9f5bc136295bd0ae4f1752cef3d8dcb1a8f9d88044609e7b6d7abcf7"
+pageSha256: "322066de9f5bc136295bd0ae4f1752cef3d8dcb1a8f9d88044609e7b6d7abcf7"
+contentMode: "local-full"
 zh: ""
 ---
 

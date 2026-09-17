@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "04-work"
 sourceUrl: "https://github.com/tangshiyegit/agent-guide"
-entryUrl: "https://github.com/tangshiyegit/agent-guide/blob/ae8b2262e7a1e5bd0d466037c6ad9f6037b72c33/README.md"
+entryUrl: "https://github.com/tangshiyegit/agent-guide/blob/ae8b2262e7a1e5bd0d466037c6ad9f6037b72c33/src/Coze指南/AI基础知识/10.用DeepSeek制作精美海报.md"
+sourceRel: "src/Coze指南/AI基础知识/10.用DeepSeek制作精美海报.md"
+rawUrl: "/raw/04-work/agent-guide-office/src/Coze指南/AI基础知识/10.用DeepSeek制作精美海报.md"
+sourceSha256: "4ff59dbdeef37bd0b73dc572f5296ccf8b9491c306fd7708e0c4857351286bcc"
+pageSha256: "4ff59dbdeef37bd0b73dc572f5296ccf8b9491c306fd7708e0c4857351286bcc"
+contentMode: "local-full"
 zh: ""
 ---
 

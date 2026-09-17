@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/Chachamaru127/claude-code-harness"
-entryUrl: "https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/README.md"
+entryUrl: "https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/docs/claude-md-structure-audit.md"
+sourceRel: "docs/claude-md-structure-audit.md"
+rawUrl: "/raw/09-harness/claude-code-harness-chachamaru/docs/claude-md-structure-audit.md"
+sourceSha256: "3aa9b1c75ad7683df980fc154f30c11c7f93d7bc859d4ee45e342837f665b4fb"
+pageSha256: "3aa9b1c75ad7683df980fc154f30c11c7f93d7bc859d4ee45e342837f665b4fb"
+contentMode: "local-full"
 zh: ""
 ---
 

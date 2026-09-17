@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/stormzhang/ai-coding-guide"
-entryUrl: "https://github.com/stormzhang/ai-coding-guide/blob/d187dbdb83fa1be051a850074eb518e30e2eb47c/README.md"
+entryUrl: "https://github.com/stormzhang/ai-coding-guide/blob/d187dbdb83fa1be051a850074eb518e30e2eb47c/claude-code/18-claude-md-guide.md"
+sourceRel: "claude-code/18-claude-md-guide.md"
+rawUrl: "/raw/07-coding/ai-coding-guide-stormzhang/claude-code/18-claude-md-guide.md"
+sourceSha256: "cd5d030c31e9f8eeb3d0cbc881b79b7ecbcc1df3a8ea9bb4898beb6f38f15547"
+pageSha256: "cd5d030c31e9f8eeb3d0cbc881b79b7ecbcc1df3a8ea9bb4898beb6f38f15547"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -31,7 +36,7 @@ CLAUDE.md（Claude 的项目记忆文件）这东西，写好了是神器，写�
 - 用 `@` 语法引用其他文件的正确姿势，以及它对上下文的真实代价
 - 会话里临时补一条记忆的官方做法，加一套「好 vs 烂」对照表当模板
 
-> ℹ️ 本篇只聚焦 CLAUDE.md 这一个文件怎么写好、怎么维护。`/init` 一键生成的玩法在 [12「项目初始化」](/lib/07-coding/ai-coding-guide-stormzhang/claude-code-12-project-init) 讲过了，更广的自动记忆（auto-memory）机制留给 [25「记忆系统」](https://github.com/stormzhang/ai-coding-guide/blob/d187dbdb83fa1be051a850074eb518e30e2eb47c/claude-code/25-memory.md) 专门聊。
+> ℹ️ 本篇只聚焦 CLAUDE.md 这一个文件怎么写好、怎么维护。`/init` 一键生成的玩法在 [12「项目初始化」](/lib/07-coding/ai-coding-guide-stormzhang/claude-code-12-project-init) 讲过了，更广的自动记忆（auto-memory）机制留给 [25「记忆系统」](/lib/07-coding/ai-coding-guide-stormzhang/claude-code-25-memory) 专门聊。
 
 ---
 
@@ -206,7 +211,7 @@ CLAUDE.md 不是写完一次就供起来的，它得跟着项目长。这节讲�
 
 Claude 会帮你把这条写进 CLAUDE.md 文件。你也可以随时敲 `/memory` 命令，它会列出当前会话加载的所有 CLAUDE.md、CLAUDE.local.md 和规则文件，**点一下就在编辑器里打开**，手动改也行。**想让 Claude 自己决定怎么措辞就用第一种；想精确控制措辞就用 `/memory` 自己编辑。**
 
-> ℹ️ 一个版本差异提醒：早期 Claude Code 里，在输入框用 `#` 开头打一句话能快速追加记忆。新版本里这套交互已经变了——**以官方现在的做法为准：要么直接让 Claude「加进 CLAUDE.md」，要么用 `/memory` 自己编辑**。你敲一句「记住 xxx」，Claude 默认多半存进它自己的自动记忆（auto-memory，那是 [25「记忆系统」](https://github.com/stormzhang/ai-coding-guide/blob/d187dbdb83fa1be051a850074eb518e30e2eb47c/claude-code/25-memory.md) 的话题）；想明确进 CLAUDE.md，就把「加进 CLAUDE.md」这句话说全。
+> ℹ️ 一个版本差异提醒：早期 Claude Code 里，在输入框用 `#` 开头打一句话能快速追加记忆。新版本里这套交互已经变了——**以官方现在的做法为准：要么直接让 Claude「加进 CLAUDE.md」，要么用 `/memory` 自己编辑**。你敲一句「记住 xxx」，Claude 默认多半存进它自己的自动记忆（auto-memory，那是 [25「记忆系统」](/lib/07-coding/ai-coding-guide-stormzhang/claude-code-25-memory) 的话题）；想明确进 CLAUDE.md，就把「加进 CLAUDE.md」这句话说全。
 
 ### 定期精简，删掉过时和打架的
 

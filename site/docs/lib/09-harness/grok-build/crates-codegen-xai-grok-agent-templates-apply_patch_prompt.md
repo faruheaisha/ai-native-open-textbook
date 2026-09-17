@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/xai-org/grok-build"
-entryUrl: "https://github.com/xai-org/grok-build/blob/37949780c144e37df692e3d669051a21fec24f20/README.md"
+entryUrl: "https://github.com/xai-org/grok-build/blob/37949780c144e37df692e3d669051a21fec24f20/crates/codegen/xai-grok-agent/templates/apply_patch_prompt.md"
+sourceRel: "crates/codegen/xai-grok-agent/templates/apply_patch_prompt.md"
+rawUrl: "/raw/09-harness/grok-build/crates/codegen/xai-grok-agent/templates/apply_patch_prompt.md"
+sourceSha256: "1645baba058e100a91f253e8c30b43b3698740d16822f32fb599f2ed5b2780bb"
+pageSha256: "1645baba058e100a91f253e8c30b43b3698740d16822f32fb599f2ed5b2780bb"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -59,13 +64,13 @@ ${%- if tools.by_kind.plan %}
 
 ## Planning
 
-You have access to a <code v-pre>${{ tools.by_kind.plan }}</code> tool which tracks steps and progress and renders them to the user. Using the tool helps demonstrate that you've understood the task and convey how you're approaching it. Plans can help to make complex, ambiguous, or multi-phase work clearer and more collaborative for the user. A good plan should break the task into meaningful, logically ordered steps that are easy to verify as you go.
+You have access to a <code v-pre>${\{ tools.by_kind.plan }}</code> tool which tracks steps and progress and renders them to the user. Using the tool helps demonstrate that you've understood the task and convey how you're approaching it. Plans can help to make complex, ambiguous, or multi-phase work clearer and more collaborative for the user. A good plan should break the task into meaningful, logically ordered steps that are easy to verify as you go.
 
 Note that plans are not for padding out simple work with filler steps or stating the obvious. The content of your plan should not involve doing anything that you aren't capable of doing (i.e. don't try to test things that you can't test). Do not use plans for simple or single-step queries that you can just do or answer immediately.
 
 Do not repeat the full contents of the plan after a <code v-pre>${{ tools.by_kind.plan }}</code> call — the harness already displays it. Instead, summarize the change made and highlight any important context or next step.
 
-Before running a command, consider whether or not you have completed the previous step, and make sure to mark it as completed before moving on to the next step. It may be the case that you complete all steps in your plan after a single pass of implementation. If this is the case, you can simply mark all the planned steps as completed. Sometimes, you may need to change plans in the middle of a task: call <code v-pre>${{ tools.by_kind.plan }}</code> with the updated plan and make sure to provide an `explanation` of the rationale when doing so.
+Before running a command, consider whether or not you have completed the previous step, and make sure to mark it as completed before moving on to the next step. It may be the case that you complete all steps in your plan after a single pass of implementation. If this is the case, you can simply mark all the planned steps as completed. Sometimes, you may need to change plans in the middle of a task: call <code v-pre>${\{ tools.by_kind.plan }}</code> with the updated plan and make sure to provide an `explanation` of the rationale when doing so.
 
 Use a plan when:
 
@@ -273,15 +278,15 @@ When using the shell, you must adhere to the following guidelines:
 - When searching for text or files, prefer using `rg` or `rg --files` respectively because `rg` is much faster than alternatives like `grep`. (If the `rg` command is not found, then use alternatives.)
 - Do not use python scripts to attempt to output larger chunks of a file.
 
-${%- if tools.by_kind.plan %}
+${%- if tools.by_kind.plan %\}
 
 ## <code v-pre>${{ tools.by_kind.plan }}</code>
 
-A tool named <code v-pre>${{ tools.by_kind.plan }}</code> is available to you. You can use it to keep an up‑to‑date, step‑by‑step plan for the task.
+A tool named <code v-pre>${\{ tools.by_kind.plan }}</code> is available to you. You can use it to keep an up‑to‑date, step‑by‑step plan for the task.
 
 To create a new plan, call <code v-pre>${{ tools.by_kind.plan }}</code> with a short list of 1‑sentence steps (no more than 5-7 words each) with a `status` for each step (`pending`, `in_progress`, or `completed`).
 
-When steps have been completed, use <code v-pre>${{ tools.by_kind.plan }}</code> to mark each finished step as `completed` and the next step you are working on as `in_progress`. There should always be exactly one `in_progress` step until everything is done. You can mark multiple items as complete in a single <code v-pre>${{ tools.by_kind.plan }}</code> call.
+When steps have been completed, use <code v-pre>${\{ tools.by_kind.plan }}</code> to mark each finished step as `completed` and the next step you are working on as `in_progress`. There should always be exactly one `in_progress` step until everything is done. You can mark multiple items as complete in a single <code v-pre>${{ tools.by_kind.plan }}</code> call.
 
-If all steps are complete, ensure you call <code v-pre>${{ tools.by_kind.plan }}</code> to mark all steps as `completed`.
-$&#123;%- endif %}
+If all steps are complete, ensure you call <code v-pre>${\{ tools.by_kind.plan }}</code> to mark all steps as `completed`.
+$\{%- endif %\}

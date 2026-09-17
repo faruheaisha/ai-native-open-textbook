@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/nexu-io/harness-engineering-guide"
-entryUrl: "https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/README.md"
+entryUrl: "https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/classifier-permissions.md"
+sourceRel: "guide/classifier-permissions.md"
+rawUrl: "/raw/09-harness/harness-engineering-guide-nexu/guide/classifier-permissions.md"
+sourceSha256: "4eed321d1be556c2aee7022e17efb038b2f8f577b7fb38c8fc673d2408b7fe22"
+pageSha256: "4eed321d1be556c2aee7022e17efb038b2f8f577b7fb38c8fc673d2408b7fe22"
+contentMode: "local-full"
 zh: ""
 ---
 

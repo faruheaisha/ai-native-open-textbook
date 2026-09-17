@@ -8,13 +8,18 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/deusyu/harness-engineering"
-entryUrl: "https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/README.md"
+entryUrl: "https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/thinking/fix-the-process-not-the-code.md"
+sourceRel: "thinking/fix-the-process-not-the-code.md"
+rawUrl: "/raw/09-harness/deusyu-harness-engineering/thinking/fix-the-process-not-the-code.md"
+sourceSha256: "8e04d249341d6bda788884ae0ca4bbfb90f3a7890edfb890a7b8805fc8342f75"
+pageSha256: "8e04d249341d6bda788884ae0ca4bbfb90f3a7890edfb890a7b8805fc8342f75"
+contentMode: "local-full"
 zh: ""
 ---
 
 # 修流程，不修代码：Bun 重写案例的范式信号
 
-> 触发：Jarred Sumner《Rewriting Bun in Rust》（[references/articles.md #56](/lib/09-harness/deusyu-harness-engineering/references-articles)，译文见 [works/bun-in-rust-translation.md](https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/works/bun-in-rust-translation.md)）。
+> 触发：Jarred Sumner《Rewriting Bun in Rust》（[references/articles.md #56](/lib/09-harness/deusyu-harness-engineering/references-articles/index)，译文见 [works/bun-in-rust-translation.md](/lib/09-harness/deusyu-harness-engineering/works-bun-in-rust-translation)）。
 > 对照对象：#36 动态工作流、#48 Cursor 规模化、#49 并行 Claude 造 C 编译器、#55 外环问责。
 > 日期：2026-07-22
 

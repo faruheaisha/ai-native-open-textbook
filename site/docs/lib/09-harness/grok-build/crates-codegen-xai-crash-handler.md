@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/xai-org/grok-build"
-entryUrl: "https://github.com/xai-org/grok-build/blob/37949780c144e37df692e3d669051a21fec24f20/README.md"
+entryUrl: "https://github.com/xai-org/grok-build/blob/37949780c144e37df692e3d669051a21fec24f20/crates/codegen/xai-crash-handler/README.md"
+sourceRel: "crates/codegen/xai-crash-handler/README.md"
+rawUrl: "/raw/09-harness/grok-build/crates/codegen/xai-crash-handler/README.md"
+sourceSha256: "28e7c62ba73fa00e52208055510e40228e2090f708359c0e5ca0a329f6e9286b"
+pageSha256: "28e7c62ba73fa00e52208055510e40228e2090f708359c0e5ca0a329f6e9286b"
+contentMode: "local-full"
 zh: ""
 ---
 

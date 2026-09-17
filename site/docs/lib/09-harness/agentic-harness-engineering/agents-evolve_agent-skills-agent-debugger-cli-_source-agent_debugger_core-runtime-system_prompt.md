@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering"
-entryUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering/blob/8b2a55d97590363fe50c3cc6b5e833b020a4bb4c/README.md"
+entryUrl: "https://github.com/china-qijizhifeng/agentic-harness-engineering/blob/8b2a55d97590363fe50c3cc6b5e833b020a4bb4c/agents/evolve_agent/skills/agent-debugger-cli/_source/agent_debugger_core/runtime/system_prompt.md"
+sourceRel: "agents/evolve_agent/skills/agent-debugger-cli/_source/agent_debugger_core/runtime/system_prompt.md"
+rawUrl: "/raw/09-harness/agentic-harness-engineering/agents/evolve_agent/skills/agent-debugger-cli/_source/agent_debugger_core/runtime/system_prompt.md"
+sourceSha256: "28fa245b35b8d20089f1422b72008b79ce0122e188f0a9959b4a6aba65b3df3f"
+pageSha256: "28fa245b35b8d20089f1422b72008b79ce0122e188f0a9959b4a6aba65b3df3f"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -25,7 +30,7 @@ override the Output contract: the JSON schema shape, the two-mode dispatch
 
 ## Input
 The user message lists one or more local file paths to normalized trace JSON
-(OpenAI `messages` format). Each file contains `{"trace_id": "...", "messages": [...]}`.
+(OpenAI `messages` format). Each file contains `\{"trace_id": "...", "messages": [...]\}`.
 Do not expect the trace to be embedded in this system prompt; you must read
 the files via tools.
 

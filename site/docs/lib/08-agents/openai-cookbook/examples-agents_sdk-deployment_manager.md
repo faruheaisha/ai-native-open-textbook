@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/openai/openai-cookbook"
-entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/README.md"
+entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/examples/agents_sdk/deployment_manager/README.md"
+sourceRel: "examples/agents_sdk/deployment_manager/README.md"
+rawUrl: "/raw/08-agents/openai-cookbook/examples/agents_sdk/deployment_manager/README.md"
+sourceSha256: "5d09fafe36424f07215c147150514633ea912bbbe22d7b44e1fb60542805b5a8"
+pageSha256: "5d09fafe36424f07215c147150514633ea912bbbe22d7b44e1fb60542805b5a8"
+contentMode: "local-full"
 zh: ""
 ---
 

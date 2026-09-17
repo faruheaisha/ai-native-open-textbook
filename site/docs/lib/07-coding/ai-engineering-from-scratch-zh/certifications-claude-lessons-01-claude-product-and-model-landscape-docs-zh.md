@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh"
-entryUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/README.md"
+entryUrl: "https://github.com/fancyboi999/ai-engineering-from-scratch-zh/blob/109181ce68128c1bf27ec20867177007a8bace89/certifications/claude/lessons/01-claude-product-and-model-landscape/docs/zh.md"
+sourceRel: "certifications/claude/lessons/01-claude-product-and-model-landscape/docs/zh.md"
+rawUrl: "/raw/07-coding/ai-engineering-from-scratch-zh/certifications/claude/lessons/01-claude-product-and-model-landscape/docs/zh.md"
+sourceSha256: "9dd467f75bfdff445af8d89b182640121e6b44ae363bcd4648ceaab4bd0fc9ff"
+pageSha256: "9dd467f75bfdff445af8d89b182640121e6b44ae363bcd4648ceaab4bd0fc9ff"
+contentMode: "local-full"
 zh: ""
 ---
 

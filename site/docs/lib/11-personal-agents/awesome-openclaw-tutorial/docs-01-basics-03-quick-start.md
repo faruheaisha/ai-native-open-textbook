@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial"
-entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/README.md"
+entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/docs/01-basics/03-quick-start.md"
+sourceRel: "docs/01-basics/03-quick-start.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-tutorial/docs/01-basics/03-quick-start.md"
+sourceSha256: "0a18966030bd7f08b96acf9854354262fd275a2d24bf0c51ef360667d287c3b0"
+pageSha256: "0a18966030bd7f08b96acf9854354262fd275a2d24bf0c51ef360667d287c3b0"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -581,7 +586,7 @@ AI 的名称、身份、主题设定。
 
 ## 3.4 模型选择指南
 
-> 💡 **快速选择**：新手推荐 Claude Haiku 4.5 或 DeepSeek，性价比高且完全够用。详细的模型对比和切换策略请参考 [第11章节：高级配置](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/docs/03-advanced/11-advanced-configuration.md)。
+> 💡 **快速选择**：新手推荐 Claude Haiku 4.5 或 DeepSeek，性价比高且完全够用。详细的模型对比和切换策略请参考 [第11章节：高级配置](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-03-advanced-11-advanced-configuration)。
 
 ***
 
@@ -846,7 +851,7 @@ openclaw gateway restart
 ```
 
 > 📚 **想了解更多？**\
-> 详细的模型对比、多模型切换策略、参考 \[第1参考 [第10章节：高级配置](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/docs/03-advanced/11-advanced-configuration.md)。
+> 详细的模型对比、多模型切换策略、参考 \[第1参考 [第10章节：高级配置](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-03-advanced-11-advanced-configuration)。
 
 ## 3.5 Gateway 网关配置（进阶）
 

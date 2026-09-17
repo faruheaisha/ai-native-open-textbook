@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/ed-donner/production"
-entryUrl: "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/README.md"
+entryUrl: "https://github.com/ed-donner/production/blob/daeb3dae34be3287842ea7faa3e6f4cba467028b/community_contributions/aws-copilot.md"
+sourceRel: "community_contributions/aws-copilot.md"
+rawUrl: "/raw/08-agents/ed-donner-production/community_contributions/aws-copilot.md"
+sourceSha256: "6df8666088647dfc6b6263ec7d00346a08e1f7d9793d79325e314fc73cc7964c"
+pageSha256: "6df8666088647dfc6b6263ec7d00346a08e1f7d9793d79325e314fc73cc7964c"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/AlephAITech/DoubaoWorkGuide"
-entryUrl: "https://github.com/AlephAITech/DoubaoWorkGuide/blob/ad7338e8fc889ec082cdfb3fa41fb659520c7174/01-初始豆包工作.md"
+entryUrl: "https://github.com/AlephAITech/DoubaoWorkGuide/blob/ad7338e8fc889ec082cdfb3fa41fb659520c7174/06-豆包工作的%20Skill%20怎么选，怎么用.md"
+sourceRel: "06-豆包工作的 Skill 怎么选，怎么用.md"
+rawUrl: "/raw/04-work/doubaowork-bluebook/06-豆包工作的 Skill 怎么选，怎么用.md"
+sourceSha256: "13c63dd146a0d2a5515cc5992f003c6385209574d0a8d90b92e30961b7d1f7da"
+pageSha256: "13c63dd146a0d2a5515cc5992f003c6385209574d0a8d90b92e30961b7d1f7da"
+contentMode: "local-full"
 zh: ""
 ---
 

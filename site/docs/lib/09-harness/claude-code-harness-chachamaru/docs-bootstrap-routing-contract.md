@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/Chachamaru127/claude-code-harness"
-entryUrl: "https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/README.md"
+entryUrl: "https://github.com/Chachamaru127/claude-code-harness/blob/2b2b74805321089bd9b660a1064fa97556299703/docs/bootstrap-routing-contract.md"
+sourceRel: "docs/bootstrap-routing-contract.md"
+rawUrl: "/raw/09-harness/claude-code-harness-chachamaru/docs/bootstrap-routing-contract.md"
+sourceSha256: "cbe2a6ae3565bdcdad0dc009da999a70f02e400bac8d785c651ab97c034dae58"
+pageSha256: "cbe2a6ae3565bdcdad0dc009da999a70f02e400bac8d785c651ab97c034dae58"
+contentMode: "local-full"
 zh: ""
 ---
 

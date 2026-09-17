@@ -10,6 +10,8 @@ lang: "中文"
 volume: "10-context-memory"
 sourceUrl: "https://github.com/yzfly/Awesome-MCP-ZH"
 entryUrl: "https://github.com/yzfly/Awesome-MCP-ZH/blob/616590af2bc94fcd98dd0b88a0b740ad6cb86a9d/README.md"
+sourceRel: ""
+contentMode: "local-full"
 zh: ""
 ---
 

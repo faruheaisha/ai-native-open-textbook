@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/QoderAI/better-harness"
-entryUrl: "https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/README.md"
+entryUrl: "https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/adrs/README.md"
+sourceRel: "docs/adrs/README.md"
+rawUrl: "/raw/09-harness/better-harness/docs/adrs/README.md"
+sourceSha256: "97199d949bf13f8d7e1da79ea136cad302bd4bdbf3e6a3db0102f3cfab7eb15d"
+pageSha256: "97199d949bf13f8d7e1da79ea136cad302bd4bdbf3e6a3db0102f3cfab7eb15d"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -26,7 +31,7 @@ deprecated.
 | ID | Decision | Status | Decision date | Scope |
 | --- | --- | --- | --- | --- |
 | `ADR-0001` | [AI-Optimized Directory Structure](/lib/09-harness/better-harness/docs-adrs-directory-structure) | Proposed | 2026-07-16 | Directory ownership, artifact routing, migration gates, and target-directory activation |
-| `ADR-0002` | [Developer Experience System](/lib/09-harness/better-harness/docs-adrs-developer-experience-system) | Proposed | 2026-07-31 | Journeys, federated contracts, projections, native evidence, governance, support, and DX measurement |
+| `ADR-0002` | [Developer Experience System](/lib/09-harness/better-harness/docs-adrs-developer-experience-system/index) | Proposed | 2026-07-31 | Journeys, federated contracts, projections, native evidence, governance, support, and DX measurement |
 | `ADR-0003` | [Harness Run Evidence Bridge](/lib/09-harness/better-harness/docs-adrs-harness-run-evidence-bridge) | Proposed | 2026-08-15 | Harness revision and run evidence ingestion into the Inspector normalization chain |
 | `ADR-0004` | [Harness Checkpoint Experiment Compare](/lib/09-harness/better-harness/docs-adrs-harness-checkpoint-experiment-compare) | Proposed | 2026-08-17 | Checkpoint-anchored mixed-origin experiments, derived treatment axes, per-contrast verdicts, and the Studio experiment lifecycle |
 | `ADR-0005` | [Checkpoint-backed Compare Sources and Materialization](/lib/09-harness/better-harness/docs-adrs-checkpoint-backed-compare-sources) | Proposed | 2026-08-17 | Source-neutral checkpoint discovery, request provenance, adapter projections, and per-lane materialization |

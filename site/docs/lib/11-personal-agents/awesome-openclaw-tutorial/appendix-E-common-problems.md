@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial"
-entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/README.md"
+entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/appendix/E-common-problems.md"
+sourceRel: "appendix/E-common-problems.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-tutorial/appendix/E-common-problems.md"
+sourceSha256: "16935830985f495e6aa1314c47881a8a00e409edd356a899a019cd1a731ba75a"
+pageSha256: "16935830985f495e6aa1314c47881a8a00e409edd356a899a019cd1a731ba75a"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -441,7 +446,7 @@ OpenClaw 提供了**官方微信接入方案 ClawBot**（橙皮书 v1.4 新增�
 **注意事项**：
 - ClawBot 基于 WeChatFerry，目前仅支持 Windows
 - **强烈建议使用小号**，有封号风险
-- 详见 [第9章 9.5 微信接入](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/docs/03-advanced/09-multi-platform-integration.md)
+- 详见 [第9章 9.5 微信接入](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-03-advanced-09-multi-platform-integration/index)
 
 ### Q16: Telegram Bot无响应？
 
@@ -534,10 +539,10 @@ openclaw session prune --days 30
 
 ## 🔍 更多资源
 
-- [第2章节：安装部署](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-01-basics-02-installation) - 完整安装指南
-- [第8章节：Skills扩展](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/docs/03-advanced/08-skills-extension.md) - Skills使用管理
-- [第9章节：多平台集成](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/docs/03-advanced/09-multi-platform-integration.md) - 平台接入配置
-- [第11章节：高级配置](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/docs/03-advanced/11-advanced-configuration.md) - 模型、记忆、审批与性能
+- [第2章节：安装部署](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-01-basics-02-installation/index) - 完整安装指南
+- [第8章节：Skills扩展](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-03-advanced-08-skills-extension) - Skills使用管理
+- [第9章节：多平台集成](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-03-advanced-09-multi-platform-integration/index) - 平台接入配置
+- [第11章节：高级配置](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-03-advanced-11-advanced-configuration) - 模型、记忆、审批与性能
 
 ---
 

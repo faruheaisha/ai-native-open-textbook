@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/strands-agents/harness-sdk"
-entryUrl: "https://github.com/strands-agents/harness-sdk/blob/7bda6c70e71cd07279470268c3d3b3f4b36adf53/README.md"
+entryUrl: "https://github.com/strands-agents/harness-sdk/blob/7bda6c70e71cd07279470268c3d3b3f4b36adf53/site/src/content/blog/multimodal-evaluators-mllm-as-a-judge-image-to-text-strands-evals.mdx"
+sourceRel: "site/src/content/blog/multimodal-evaluators-mllm-as-a-judge-image-to-text-strands-evals.mdx"
+rawUrl: "/raw/09-harness/strands-harness-sdk/site/src/content/blog/multimodal-evaluators-mllm-as-a-judge-image-to-text-strands-evals.mdx"
+sourceSha256: "65036f9a3b8d894ee1c1798650a7d8c753ad0031b65249af69b095755314f09f"
+pageSha256: "65036f9a3b8d894ee1c1798650a7d8c753ad0031b65249af69b095755314f09f"
+contentMode: "local-full"
 zh: ""
 ---
 

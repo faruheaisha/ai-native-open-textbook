@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/lopopolo/harness-engineering"
-entryUrl: "https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/README.md"
+entryUrl: "https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/docs/durable-systems/dependency-ownership.md"
+sourceRel: "docs/durable-systems/dependency-ownership.md"
+rawUrl: "/raw/09-harness/harness-engineering-anthology/docs/durable-systems/dependency-ownership.md"
+sourceSha256: "88e8137bee43095dcea9c1adb1c3f3c388bf2d92d3b63b27f70360c7b827065f"
+pageSha256: "88e8137bee43095dcea9c1adb1c3f3c388bf2d92d3b63b27f70360c7b827065f"
+contentMode: "local-full"
 zh: ""
 ---
 

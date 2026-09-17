@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "13-local-ai"
 sourceUrl: "https://github.com/microsoft/edgeai-for-beginners"
-entryUrl: "https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/README.md"
+entryUrl: "https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/Module02/06.phisilica.md"
+sourceRel: "Module02/06.phisilica.md"
+rawUrl: "/raw/13-local-ai/edgeai-for-beginners/Module02/06.phisilica.md"
+sourceSha256: "37d661960f0c5a521df06138996bf35ca4e92dc5bc17e604eaef125a0fcf2a60"
+pageSha256: "37d661960f0c5a521df06138996bf35ca4e92dc5bc17e604eaef125a0fcf2a60"
+contentMode: "local-full"
 zh: ""
 ---
 

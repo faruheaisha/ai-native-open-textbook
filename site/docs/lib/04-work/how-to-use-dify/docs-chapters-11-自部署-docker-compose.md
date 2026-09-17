@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/hijasonxu1/How-to-use-dify"
-entryUrl: "https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/README.md"
+entryUrl: "https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/docs/chapters/11-自部署-docker-compose.md"
+sourceRel: "docs/chapters/11-自部署-docker-compose.md"
+rawUrl: "/raw/04-work/how-to-use-dify/docs/chapters/11-自部署-docker-compose.md"
+sourceSha256: "31ea610bd75ccb538988483c03e4a96339cc5db6f5dfc462f76b2a7a845fb2c5"
+pageSha256: "31ea610bd75ccb538988483c03e4a96339cc5db6f5dfc462f76b2a7a845fb2c5"
+contentMode: "local-full"
 zh: ""
 ---
 

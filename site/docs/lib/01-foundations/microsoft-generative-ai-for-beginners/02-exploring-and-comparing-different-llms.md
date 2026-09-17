@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "01-foundations"
 sourceUrl: "https://github.com/microsoft/generative-ai-for-beginners"
-entryUrl: "https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/README.md"
+entryUrl: "https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/02-exploring-and-comparing-different-llms/README.md"
+sourceRel: "02-exploring-and-comparing-different-llms/README.md"
+rawUrl: "/raw/01-foundations/microsoft-generative-ai-for-beginners/02-exploring-and-comparing-different-llms/README.md"
+sourceSha256: "27f7cf2b1a2ba88b82cd70b3d5e672fc5fb55970fc50938521fdaa552afbbe98"
+pageSha256: "27f7cf2b1a2ba88b82cd70b3d5e672fc5fb55970fc50938521fdaa552afbbe98"
+contentMode: "local-full"
 zh: "on"
 ---
 

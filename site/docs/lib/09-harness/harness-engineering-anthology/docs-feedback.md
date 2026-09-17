@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/lopopolo/harness-engineering"
-entryUrl: "https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/README.md"
+entryUrl: "https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/docs/feedback/README.md"
+sourceRel: "docs/feedback/README.md"
+rawUrl: "/raw/09-harness/harness-engineering-anthology/docs/feedback/README.md"
+sourceSha256: "9c290ab2abafe48ca36f88f3bbe022765b237d1d745689749315a12d375b4884"
+pageSha256: "9c290ab2abafe48ca36f88f3bbe022765b237d1d745689749315a12d375b4884"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -400,5 +405,5 @@ keeps truth with the target, and grades the contract at the outcome boundary.
 [Optimize for Measured Effectiveness] accounts for the human attention, latency,
 risk, compute, and maintenance cost of the resulting improvement.
 
-[Evaluate the Harness]: https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/evals/README.md
+[Evaluate the Harness]: /lib/09-harness/harness-engineering-anthology/evals
 [Optimize for Measured Effectiveness]: /lib/09-harness/harness-engineering-anthology/docs-effectiveness

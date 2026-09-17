@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/github/spec-kit"
-entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/README.md"
+entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/docs/guides/monorepo.md"
+sourceRel: "docs/guides/monorepo.md"
+rawUrl: "/raw/07-coding/spec-kit/docs/guides/monorepo.md"
+sourceSha256: "eb3f39c296b839b8f7df1335d737e801798a4d431ffc0a628538cd2600eb8d94"
+pageSha256: "eb3f39c296b839b8f7df1335d737e801798a4d431ffc0a628538cd2600eb8d94"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -88,7 +93,7 @@ ERROR: SPECIFY_INIT_DIR is not a Spec Kit project (no .specify/ directory): /hom
 `SPECIFY_INIT_DIR` selects the **project**; `SPECIFY_FEATURE_DIRECTORY` selects
 the **feature** within it. They compose: set both to pick a project and a
 feature non-interactively. See the
-[`SPECIFY_INIT_DIR` reference](https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/docs/reference/core.md#environment-variables) for
+[`SPECIFY_INIT_DIR` reference](/lib/07-coding/spec-kit/docs-reference-core#environment-variables) for
 the full contract and the two-axes model.
 
 The `specify` CLI's project-scoped subcommands honor the same variable, so they

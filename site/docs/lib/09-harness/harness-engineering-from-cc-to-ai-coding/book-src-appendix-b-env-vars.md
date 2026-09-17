@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding"
-entryUrl: "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding/blob/e40e0feec02b90e308ccbfc7a8911d64118ccca0/README.md"
+entryUrl: "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding/blob/e40e0feec02b90e308ccbfc7a8911d64118ccca0/book/src/appendix/b-env-vars.md"
+sourceRel: "book/src/appendix/b-env-vars.md"
+rawUrl: "/raw/09-harness/harness-engineering-from-cc-to-ai-coding/book/src/appendix/b-env-vars.md"
+sourceSha256: "59da2b0a71d3b1f9b2c8991973615437d722dbdc80fa40197da96adee79ee1aa"
+pageSha256: "59da2b0a71d3b1f9b2c8991973615437d722dbdc80fa40197da96adee79ee1aa"
+contentMode: "local-full"
 zh: ""
 ---
 

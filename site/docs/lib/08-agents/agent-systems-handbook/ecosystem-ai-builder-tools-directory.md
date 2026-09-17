@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "08-agents"
 sourceUrl: "https://github.com/Prompthon-IO/agent-systems-handbook"
-entryUrl: "https://github.com/Prompthon-IO/agent-systems-handbook/blob/5b71cfa598701a34834f33b42be5f8a422138a3c/README.md"
+entryUrl: "https://github.com/Prompthon-IO/agent-systems-handbook/blob/5b71cfa598701a34834f33b42be5f8a422138a3c/ecosystem/ai-builder-tools-directory.mdx"
+sourceRel: "ecosystem/ai-builder-tools-directory.mdx"
+rawUrl: "/raw/08-agents/agent-systems-handbook/ecosystem/ai-builder-tools-directory.mdx"
+sourceSha256: "65e273f507c778481a01b4712307d3232c14863597a675aa41125f4706cd96e5"
+pageSha256: "65e273f507c778481a01b4712307d3232c14863597a675aa41125f4706cd96e5"
+contentMode: "local-full"
 zh: ""
 ---
 

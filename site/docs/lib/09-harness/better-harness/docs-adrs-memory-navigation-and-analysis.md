@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/QoderAI/better-harness"
-entryUrl: "https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/README.md"
+entryUrl: "https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/adrs/memory-navigation-and-analysis.md"
+sourceRel: "docs/adrs/memory-navigation-and-analysis.md"
+rawUrl: "/raw/09-harness/better-harness/docs/adrs/memory-navigation-and-analysis.md"
+sourceSha256: "dd0963422c7362549d6f48da8b0428fc6f9185173f44807fdb2017e86db224a9"
+pageSha256: "dd0963422c7362549d6f48da8b0428fc6f9185173f44807fdb2017e86db224a9"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -22,7 +27,7 @@ zh: ""
 - Request: 区分 Memory 范围，保留左下角入口与右侧 AI 分析，并确保产品 UI 简洁。
 - Consolidates: 原 `memory-scope-and-navigation` 草案与 Memory 导航、AI 分析设计。
 - Baseline: PR #161，`904aeebe27788bd2ccb1ea46c724f097510a50c2`。
-- Related: [原生 Memory 来源](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/specs/2026-09-09-native-memory-sources.md)、[文档读取交互](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/specs/2026-09-09-memory-reader-interaction.md)、[Studio 设计规范](/lib/09-harness/better-harness/DESIGN)
+- Related: [原生 Memory 来源](/lib/09-harness/better-harness/docs-specs-2026-09-09-native-memory-sources)、[文档读取交互](/lib/09-harness/better-harness/docs-specs-2026-09-09-memory-reader-interaction)、[Studio 设计规范](/lib/09-harness/better-harness/DESIGN)
 
 ## Context
 
@@ -123,8 +128,8 @@ ChatGPT 云端记忆连接器、读取私有数据库、修改原生 Memory、�
 
 文档读取交互已在 `31b6375` 提交，构建、12 项浏览器测试与真实数据三种屏宽验证记录见关联 spec。后续实现须覆盖上述 AC、明暗主题及 console/page errors，并分别记录 Windows/Linux CI 与安装后的 Desktop 证据。
 
-本轮已按 [Memory 浏览与分析实现](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/specs/2026-09-09-memory-browser-implementation.md) 完成本地代码与验证。原生 v2 保留旧 CLI 投影，默认 Memory 接入真实库，分析使用固定来源及章节 focus；本地结果不代表 Windows/Linux CI 或安装后的 Desktop 已验证。
+本轮已按 [Memory 浏览与分析实现](/lib/09-harness/better-harness/docs-specs-2026-09-09-memory-browser-implementation) 完成本地代码与验证。原生 v2 保留旧 CLI 投影，默认 Memory 接入真实库，分析使用固定来源及章节 focus；本地结果不代表 Windows/Linux CI 或安装后的 Desktop 已验证。
 
-维护者后续反馈二级侧栏与空分类形成交互绕路，已按 [Memory 分类导航交互调整](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/specs/2026-09-09-memory-navigation-interaction.md) 收敛为紧凑页签、有界摘要加载、分类状态恢复和单条直读。该调整替代早期“四项独占侧栏、先手工读来源才有分类”的交互。
+维护者后续反馈二级侧栏与空分类形成交互绕路，已按 [Memory 分类导航交互调整](/lib/09-harness/better-harness/docs-specs-2026-09-09-memory-navigation-interaction) 收敛为紧凑页签、有界摘要加载、分类状态恢复和单条直读。该调整替代早期“四项独占侧栏、先手工读来源才有分类”的交互。
 
-最新交互以 [Memory 目录工作台与 ACP 分析](https://github.com/QoderAI/better-harness/blob/e1538c15a98856b3349f365d951f4fa0bcc33f24/docs/specs/2026-09-09-memory-explorer-acp.md) 为准，替代分类标签与独立 CLI 分析通道。早期 spec 的验证属于对应历史切片。
+最新交互以 [Memory 目录工作台与 ACP 分析](/lib/09-harness/better-harness/docs-specs-2026-09-09-memory-explorer-acp) 为准，替代分类标签与独立 CLI 分析通道。早期 spec 的验证属于对应历史切片。

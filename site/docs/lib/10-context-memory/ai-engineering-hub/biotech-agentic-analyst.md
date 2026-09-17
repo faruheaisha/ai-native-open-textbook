@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/patchy631/ai-engineering-hub"
-entryUrl: "https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/README.md"
+entryUrl: "https://github.com/patchy631/ai-engineering-hub/blob/2c9b106168d4540b88e727e4aa316c06c856c2b7/biotech-agentic-analyst/README.md"
+sourceRel: "biotech-agentic-analyst/README.md"
+rawUrl: "/raw/10-context-memory/ai-engineering-hub/biotech-agentic-analyst/README.md"
+sourceSha256: "dc39b27a97fd44a806cd0465c955c3409eb7ff255e1cf45a39c670de83497970"
+pageSha256: "dc39b27a97fd44a806cd0465c955c3409eb7ff255e1cf45a39c670de83497970"
+contentMode: "local-full"
 zh: ""
 ---
 

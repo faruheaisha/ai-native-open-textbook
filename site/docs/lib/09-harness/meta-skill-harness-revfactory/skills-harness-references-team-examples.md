@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/revfactory/harness"
-entryUrl: "https://github.com/revfactory/harness/blob/cceac68ea1d0ad198ef4b7b906cd238375836387/README.md"
+entryUrl: "https://github.com/revfactory/harness/blob/cceac68ea1d0ad198ef4b7b906cd238375836387/skills/harness/references/team-examples.md"
+sourceRel: "skills/harness/references/team-examples.md"
+rawUrl: "/raw/09-harness/meta-skill-harness-revfactory/skills/harness/references/team-examples.md"
+sourceSha256: "3a51b549f21ceb78541a0e0517de4aa3eae613d520d08e4c65a0e4440f1f5ebd"
+pageSha256: "3a51b549f21ceb78541a0e0517de4aa3eae613d520d08e4c65a0e4440f1f5ebd"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -40,7 +45,7 @@ zh: ""
 | background-researcher | general-purpose | 배경/경쟁/학술 | research_background.md |
 | (리더 = 오케스트레이터) | — | 통합 보고서 | 종합보고서.md |
 
-> 리서치 에이전트는 `general-purpose` 빌트인 타입을 사용하되, 반드시 `.claude/agents/{name}.md` 파일로 정의한다. 파일에는 역할·조사 범위·팀 통신 프로토콜을 명시하여 재사용성과 협업 품질을 보장한다.
+> 리서치 에이전트는 `general-purpose` 빌트인 타입을 사용하되, 반드시 `.claude/agents/\{name\}.md` 파일로 정의한다. 파일에는 역할·조사 범위·팀 통신 프로토콜을 명시하여 재사용성과 협업 품질을 보장한다.
 
 ### 오케스트레이터 워크플로우 (에이전트 팀)
 
@@ -234,7 +239,7 @@ description: "웹툰 패널의 품질을 검수하는 전문가. 구도, 캐릭�
 - 출력: `_workspace/review_report.md`
 - 형식:
   ```
-  ## Panel {N}
+  ## Panel \{N\}
   - 판정: PASS | FIX | REDO
   - 사유: [구체적 이유]
   - 수정 지시: [FIX/REDO인 경우 구체적 수정 방향]
@@ -328,13 +333,13 @@ test ────SendMessage──→ security      ("인증 모듈 테스트 �
 ## 산출물 패턴 요약
 
 ### 에이전트 정의 파일
-위치: `프로젝트/.claude/agents/{agent-name}.md`
+위치: `프로젝트/.claude/agents/\{agent-name\}.md`
 필수 섹션: 핵심 역할, 작업 원칙, 입력/출력 프로토콜, 에러 핸들링, 협업
 팀 모드 추가 섹션: **팀 통신 프로토콜** (메시지 수신/발신, 작업 요청 범위)
 
 ### 스킬 파일 구조
-위치: `프로젝트/.claude/skills/{skill-name}/SKILL.md` (프로젝트 레벨)
-또는: `~/.claude/skills/{skill-name}/SKILL.md` (글로벌 레벨)
+위치: `프로젝트/.claude/skills/\{skill-name\}/SKILL.md` (프로젝트 레벨)
+또는: `~/.claude/skills/\{skill-name\}/SKILL.md` (글로벌 레벨)
 
 ### 통합 스킬 (오케스트레이터)
 팀 전체를 조율하는 상위 스킬. 시나리오별 에이전트 구성과 워크플로우를 정의.

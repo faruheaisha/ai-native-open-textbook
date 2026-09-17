@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/liyupi/ai-guide"
-entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a02735b38c866/README.md"
+entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a02735b38c866/AI/AI应用场景/AI%20+%20办公效率/法律人保姆级deepseek使用指南（附指令版）.md"
+sourceRel: "AI/AI应用场景/AI + 办公效率/法律人保姆级deepseek使用指南（附指令版）.md"
+rawUrl: "/raw/07-coding/liyupi-ai-guide/AI/AI应用场景/AI + 办公效率/法律人保姆级deepseek使用指南（附指令版）.md"
+sourceSha256: "082a1c652df8a48c070c7dd3033bb23b441ba124dc153e445cd502d53d2723c9"
+pageSha256: "082a1c652df8a48c070c7dd3033bb23b441ba124dc153e445cd502d53d2723c9"
+contentMode: "local-full"
 zh: ""
 ---
 

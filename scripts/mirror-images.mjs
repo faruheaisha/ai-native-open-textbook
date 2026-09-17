@@ -298,7 +298,10 @@ function pruneIndex(map) {
   for (const [k, v] of Object.entries(map)) {
     if (typeof v !== "string" || !v) continue;
     if (isLocalValue(v)) {
-      const abs = path.join(DOCS, v.replace(/^\//, "").split("/").join(path.sep));
+// 站内路径是相对站点根的（/mirror/xx/y.webp），文件落在 docs/public 下。
+// 原先按 docs/ 拼，少了一级 public：每条本地记录都被判成「文件不存在」，
+// 整张镜像表会被 prune 掉，只剩 raw 地址那几百条（实测 1993 条 -> 313 条）。
+      const abs = path.join(DOCS, "public", v.replace(/^\//, "").split("/").join(path.sep));
       try { if (fs.statSync(abs).size > 0) out[k] = v; } catch {}
     } else if (v.startsWith(RAW_HOST)) out[k] = v;
   }

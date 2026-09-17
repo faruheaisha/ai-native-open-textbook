@@ -9,6 +9,11 @@ tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/affaan-m/ECC"
 entryUrl: "https://github.com/affaan-m/ECC/blob/928c1dea72f5c330442fc1f595563398b8f389f7/README.md"
+sourceRel: "README.md"
+rawUrl: "/raw/09-harness/ecc/README.md"
+sourceSha256: "6eace6f0257d035bce34129283a3e27bdd8612535294c48359651ac24d04b799"
+pageSha256: "6eace6f0257d035bce34129283a3e27bdd8612535294c48359651ac24d04b799"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -235,7 +240,7 @@ Pre-manifest installations are handled conservatively: ECC removes its marked `A
 
 You can also open the ECC repository directly in Codex for a project-local setup. Codex reads the root `AGENTS.md` and the trusted project configuration in `.codex/` without a global sync. Do not add the native marketplace plugin on top of the sync flow.
 
-For repo navigation, surface ownership, and PR diff packet guidance, read the [Codex ECC Navigation Map](https://github.com/affaan-m/ECC/blob/928c1dea72f5c330442fc1f595563398b8f389f7/docs/CODEX-NAVIGATION-GUIDE.md). See the [.codex plugin notes](https://github.com/affaan-m/ECC/blob/928c1dea72f5c330442fc1f595563398b8f389f7/.codex-plugin/README.md) for native lifecycle details.
+For repo navigation, surface ownership, and PR diff packet guidance, read the [Codex ECC Navigation Map](/lib/09-harness/ecc/docs-CODEX-NAVIGATION-GUIDE). See the [.codex plugin notes](/lib/09-harness/ecc/_codex-plugin) for native lifecycle details.
 
 ### Other agents and editors
 
@@ -255,9 +260,9 @@ cd ECC
 | OpenCode | `npm install && npm run build:opencode && ./install.sh --profile full --target opencode` | Builds the plugin payload before the full install |
 | Gemini CLI | `./install.sh --profile minimal --target gemini` | Project-local `.gemini/` config |
 | Zed | `./install.sh --profile minimal --target zed` | Project-local `.zed/` adapter |
-| Antigravity | `./install.sh --profile minimal --target antigravity` | See the [Antigravity guide](https://github.com/affaan-m/ECC/blob/928c1dea72f5c330442fc1f595563398b8f389f7/docs/ANTIGRAVITY-GUIDE.md) |
-| Qwen CLI | `./install.sh --profile minimal --target qwen` | See the [Qwen guide](https://github.com/affaan-m/ECC/blob/928c1dea72f5c330442fc1f595563398b8f389f7/docs/QWEN-GUIDE.md) |
-| Hermes | `./install.sh --profile minimal --target hermes` | See the [Hermes setup guide](https://github.com/affaan-m/ECC/blob/928c1dea72f5c330442fc1f595563398b8f389f7/docs/HERMES-SETUP.md) |
+| Antigravity | `./install.sh --profile minimal --target antigravity` | See the [Antigravity guide](/lib/09-harness/ecc/docs-ANTIGRAVITY-GUIDE) |
+| Qwen CLI | `./install.sh --profile minimal --target qwen` | See the [Qwen guide](/lib/09-harness/ecc/docs-QWEN-GUIDE) |
+| Hermes | `./install.sh --profile minimal --target hermes` | See the [Hermes setup guide](/lib/09-harness/ecc/docs-HERMES-SETUP) |
 | OpenClaw | `./install.sh --profile minimal --target openclaw` | Managed home-directory install |
 | Kimi Code CLI | `./install.sh --profile minimal --target kimi` | Project-local `.kimi-code/` install · [Get Kimi Code](https://www.kimi.com/code?aff=ecc) |
 | CodeBuddy | `./install.sh --profile minimal --target codebuddy` | Project-local `.codebuddy/` install |
@@ -265,7 +270,7 @@ cd ECC
 
 GitHub Copilot support is already included in this repository. `.github/copilot-instructions.md` provides the instruction layer, `.github/prompts/` contains the reusable `/plan`, `/tdd`, `/security-review`, `/build-fix`, and `/refactor` prompts, and `.vscode/settings.json` enables `chat.promptFiles`.
 
-For a harness without a native ECC target, use the [manual adaptation guide](https://github.com/affaan-m/ECC/blob/928c1dea72f5c330442fc1f595563398b8f389f7/docs/MANUAL-ADAPTATION-GUIDE.md). It explains how to carry a small set of ECC skills and workflow instructions into chat-style tools without pretending hooks or native skill discovery are available.
+For a harness without a native ECC target, use the [manual adaptation guide](/lib/09-harness/ecc/docs-MANUAL-ADAPTATION-GUIDE). It explains how to carry a small set of ECC skills and workflow instructions into chat-style tools without pretending hooks or native skill discovery are available.
 
 Cursor installs agent definitions under `.cursor/agents/ecc-*.md`. Cursor-native loading behavior can vary by Cursor build. ECC does not install root `AGENTS.md` into `.cursor/`. The adapter keeps Cursor's context scoped to its native rules and agent surfaces.
 

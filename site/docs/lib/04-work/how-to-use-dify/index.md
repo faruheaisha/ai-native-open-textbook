@@ -10,6 +10,8 @@ lang: "中文"
 volume: "04-work"
 sourceUrl: "https://github.com/hijasonxu1/How-to-use-dify"
 entryUrl: "https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/README.md"
+sourceRel: ""
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -19,25 +21,48 @@ zh: ""
 
 ## 课时
 
-1. [Dify 应用类型选择速查表](cheatsheets-app-type-decision.md)
-2. [Dify 知识库 RAG 调试清单](cheatsheets-rag-checklist.md)
-3. [Workflow 节点设计速查表](cheatsheets-workflow-node-checklist.md)
-4. [01 认识 Dify](docs-chapters-01-认识-dify.md)
-5. [02 应用类型选择](docs-chapters-02-应用类型选择.md)
-6. [03 第一个聊天助手](docs-chapters-03-第一个聊天助手.md)
-7. [04 Chatflow 对话流](docs-chapters-04-chatflow-对话流.md)
-8. [05 Prompt 和变量](docs-chapters-05-prompt-和变量.md)
-9. [06 知识库 RAG](docs-chapters-06-知识库-rag.md)
-10. [07 Workflow 工作流](docs-chapters-07-workflow-工作流.md)
-11. [08 Agent 和工具调用](docs-chapters-08-agent-和工具调用.md)
-12. [09 调试和评估](docs-chapters-09-调试和评估.md)
-13. [10 API 发布和集成](docs-chapters-10-api-发布和集成.md)
-14. [11 自部署 Docker Compose](docs-chapters-11-自部署-docker-compose.md)
-15. [12 生产交付和团队协作](docs-chapters-12-生产交付和团队协作.md)
-16. [Dify 官方资料入口](docs-reference-official-links.md)
-17. [Dify 生产检查清单](docs-reference-production-checklist.md)
-18. [案例：内容生成工作流](docs-use-cases-content-generation-workflow.md)
-19. [案例：客服知识库机器人](docs-use-cases-customer-service-rag.md)
-20. [案例：内部运营助手](docs-use-cases-internal-ops-agent.md)
+- **从这里开始**
+  - [docs/chapters/01-认识-dify.md](/lib/04-work/how-to-use-dify/docs-chapters-01-认识-dify.md)
+  - [docs/chapters/02-应用类型选择.md](/lib/04-work/how-to-use-dify/docs-chapters-02-应用类型选择.md)
+  - [docs/chapters/03-第一个聊天助手.md](/lib/04-work/how-to-use-dify/docs-chapters-03-第一个聊天助手.md)
+  - [docs/chapters/06-知识库-rag.md](/lib/04-work/how-to-use-dify/docs-chapters-06-知识库-rag.md)
+  - [docs/chapters/07-workflow-工作流.md](/lib/04-work/how-to-use-dify/docs-chapters-07-workflow-工作流.md)
+  - [docs/chapters/08-agent-和工具调用.md](/lib/04-work/how-to-use-dify/docs-chapters-08-agent-和工具调用.md)
+  - [docs/chapters/10-api-发布和集成.md](/lib/04-work/how-to-use-dify/docs-chapters-10-api-发布和集成.md)
+- **内容地图**
+  - [系统教程](/lib/04-work/how-to-use-dify/docs-chapters-09-调试和评估.md)
+  - [案例库](/lib/04-work/how-to-use-dify/docs-use-cases-internal-ops-agent.md)
+  - [速查表](/lib/04-work/how-to-use-dify/cheatsheets-rag-checklist.md)
+  - [模板库](/lib/04-work/how-to-use-dify/templates-prompt-template.md)
+  - [练习题](/lib/04-work/how-to-use-dify/exercises-02-build-faq-rag.md)
+  - [排错指南](/lib/04-work/how-to-use-dify/docs-troubleshooting.md)
+- **推荐学习路线**
+  - **路线 A：零基础入门**
+    - [练习 01：个人助手](/lib/04-work/how-to-use-dify/exercises-01-build-personal-assistant.md)
+    - [docs/chapters/04-chatflow-对话流.md](/lib/04-work/how-to-use-dify/docs-chapters-04-chatflow-对话流.md)
+  - **路线 B：知识库问答**
+    - [templates/knowledge-base-description-template.md](/lib/04-work/how-to-use-dify/templates-knowledge-base-description-template.md)
+  - **路线 C：工作流自动化**
+    - [templates/workflow-design-template.md](/lib/04-work/how-to-use-dify/templates-workflow-design-template.md)
+    - [练习 03：内容改写工作流](/lib/04-work/how-to-use-dify/exercises-03-content-workflow.md)
+  - **路线 D：自部署和生产使用**
+    - [docs/chapters/11-自部署-docker-compose.md](/lib/04-work/how-to-use-dify/docs-chapters-11-自部署-docker-compose.md)
+    - [docs/reference/production-checklist.md](/lib/04-work/how-to-use-dify/docs-reference-production-checklist.md)
+- **当前内容**
+  - [docs/tutorial-plan.md](/lib/04-work/how-to-use-dify/docs-tutorial-plan.md)
+  - [docs/glossary.md](/lib/04-work/how-to-use-dify/docs-glossary.md)
+  - [docs/project-standard.md](/lib/04-work/how-to-use-dify/docs-project-standard.md)
+  - [docs/content-matrix.md](/lib/04-work/how-to-use-dify/docs-content-matrix.md)
+  - [docs/reference/official-links.md](/lib/04-work/how-to-use-dify/docs-reference-official-links.md)
+- **cheatsheets**
+  - [Dify 应用类型选择速查表](/lib/04-work/how-to-use-dify/cheatsheets-app-type-decision.md)
+  - [Workflow 节点设计速查表](/lib/04-work/how-to-use-dify/cheatsheets-workflow-node-checklist.md)
+- [文档目录](/lib/04-work/how-to-use-dify/docs.md)
+  - **chapters**
+    - [05 Prompt 和变量](/lib/04-work/how-to-use-dify/docs-chapters-05-prompt-和变量.md)
+    - [12 生产交付和团队协作](/lib/04-work/how-to-use-dify/docs-chapters-12-生产交付和团队协作.md)
+  - **use-cases**
+    - [案例：内容生成工作流](/lib/04-work/how-to-use-dify/docs-use-cases-content-generation-workflow.md)
+    - [案例：客服知识库机器人](/lib/04-work/how-to-use-dify/docs-use-cases-customer-service-rag.md)
 
 开始学习 → [Dify 应用类型选择速查表](cheatsheets-app-type-decision.md)

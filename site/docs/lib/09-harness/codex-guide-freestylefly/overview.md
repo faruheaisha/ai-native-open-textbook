@@ -8,215 +8,146 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/freestylefly/CodexGuide"
-entryUrl: "https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/README.md"
+entryUrl: "https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/index.md"
+sourceRel: "docs/index.md"
+rawUrl: "/raw/09-harness/codex-guide-freestylefly/docs/index.md"
+sourceSha256: "eddb5da3d16586007793a547e60dba83474c400d4e708d01ce4a7cdc621d7e90"
+pageSha256: "eddb5da3d16586007793a547e60dba83474c400d4e708d01ce4a7cdc621d7e90"
+contentMode: "local-full"
 zh: ""
 ---
 
 # Codex 实践指南（CodexGuide）
 
-<h3 align="center">面向全球初学者、创作者、开发者与团队的 Codex 实践指南</h3>
 
-  
-  
-  
-  
-  
-  
 
-  简体中文
-  ·
-[English](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/README_en.md)
-  ·
-[在线阅读](https://codexguide.ai/)
-  ·
-[主题皮肤](https://theme.codexguide.ai/)
-  ·
-[学习路线](/lib/09-harness/codex-guide-freestylefly/docs-guide)
-  ·
-[快速上手](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/start/00-index.md)
-  ·
-[进阶教程](/lib/09-harness/codex-guide-freestylefly/docs-advanced-00-)
-  ·
-[实战案例](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/recipes/00-index.md)
-  ·
-[参考手册](/lib/09-harness/codex-guide-freestylefly/docs-manual-00-)
-  ·
-[社区共建图](/lib/09-harness/codex-guide-freestylefly/docs-community-roadmap)
+<section class="home-section home-core">
 
-> 从第一次上手，到把 Codex 接入真实工作流；帮助不同背景的人用 Codex 完成开发、创作、研究、自动化与团队协作。
-> 如果这个项目帮你节省了摸索时间，欢迎点亮 Star，让更多人看到它。
+<div class="home-section-kicker">核心内容</div>
 
-<p align="right">感谢<a href="https://www.packyapi.ai/register?aff=CV0c">packyapi</a>的独家赞助</p>
+## 选择适合你的教程
 
-## 在线网站
+CodexGuide 提供分层次的精细教学。助力你快速入门 Codex，并通过进阶教程掌握实用的技巧。
 
-**CodexGuide 的在线阅读地址是 [codexguide.ai](https://codexguide.ai/)。**
+<div class="home-core-layout">
+  <div class="home-core-card home-core-card-primary">
+    <span class="home-core-index">入门</span>
+    <strong>快速上手</strong>
+    <span>从认识 Codex、安装账号、桌面 App 到第一个任务，先让 Codex 真正完成一次可验证的工作。</span>
+    <ul>
+      <li>安装与账号准备</li>
+      <li>了解桌面 App 基本组成</li>
+      <li>跑通第一个任务</li>
+    </ul>
+[进入快速上手](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/start/README.md)
+    <em>适合第一次使用 Codex 的读者</em>
+  </div>
+  <div class="home-core-stack">
+    <div class="home-core-card">
+      <span class="home-core-index">进阶</span>
+      <strong>进阶教程</strong>
+      <span>助力更进一步了解 Codex，学习AI业内广受认可的规范与技巧，并掌握 Codex 的独家功能。</span>
+      <ul>
+        <li>理解费用与上下文</li>
+        <li>AGENTS.md、Skills 和 Plugins</li>
+        <li>权限管理、Hooks、沙盒与审批</li>
+      </ul>
+[查看进阶教程](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/advanced/README.md)
+      <em>适合准备长期使用和希望进一步理解Codex的人</em>
+    </div>
+    <div class="home-core-card">
+      <span class="home-core-index">实战</span>
+      <strong>实战案例</strong>
+      <span>观摩大神如何使用Codex，帮助你在了解理论知识后如何快速提高工作效率。</span>
+      <ul>
+        <li>浏览器、PPT、Obsidian 和飞书</li>
+        <li>Figma、CI、远程排障和代码审查</li>
+        <li>把案例改成自己的任务模板</li>
+      </ul>
+[浏览实战案例](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/recipes/README.md)
+      <em>适合寻找灵感和可复用模板的人</em>
+    </div>
+  </div>
+</div>
 
-    <img src="https://cdn.canghecode.com/codexguide/assets/homepage-preview.png" alt="CodexGuide 网站首页预览" width="920" />
+</section>
 
-GitHub README 适合快速了解项目，真正学习时更推荐打开网站阅读：网站里有更完整的导航、搜索、侧边栏目录、截图、设置速查图、学习路线和实战案例。每篇关键资料都会尽量标注最后核对日期，方便你判断内容是否需要回到 OpenAI 官方资料重新确认。
+<section class="home-section home-final">
 
-如果你正在第一次接触 Codex，可以直接从网站的 [学习路线](https://codexguide.ai/guide/) 开始；如果你已经知道自己要用 CLI、桌面 App、Cloud 或 IDE，可以先看 [快速上手](https://codexguide.ai/start/) 和 [进阶教程](https://codexguide.ai/advanced/)。
+## 提供优质的教学资源
 
-## 主题皮肤
+更适合国人的阅读习惯，用中文拆解 Codex 的安装、配置、权限边界和真实工作流，帮你更快从“会打开”走到“能落地、能复用、能交付”。
 
-**CodexGuide 的主题皮肤站地址是 [theme.codexguide.ai](https://theme.codexguide.ai/)。**
+<div class="home-random-card" id="home-random-advanced-card">
+  <strong>AGENTS.md</strong>
+  <em>AGENTS.md 是面向 coding agent 的 README。README 主要给人看，讲项目是什么、怎么上手；AGENTS.md 给 Codex 和其他 coding agent 看，告诉它们改代码前应该遵守哪些项目规则。</em>
+[↗](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/advanced/02-agents-md/README.md)
+</div>
 
-    <img src="/mirror/fc/fc07ee78ff818070e98c4632ad46a0c74d26ccc5.webp" alt="CodexGuide 主题皮肤网站截图" width="920" />
+<p class="home-gallery-label">更多优质教程：</p>
 
-这里可以预览 Codex Themes 的官方主题、使用方法和下载入口，适合想给 Codex 桌面工作区换上个性化视觉风格的用户。
+<div class="home-gallery-frame" aria-label="CodexGuide 优质教程节选">
+  <div class="home-gallery-track">
+[<span>快速上手</span> <strong>用 Codex 完成第一个任务</strong> <em>任务完成后，Codex 会在对话中展示结果，同时将生成的文件写入工作目录。如果生成的是网页文件，可以直接点击 Codex 弹出的“打开”按钮，在 App 内置浏览器中预览效果。</em>](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/start/06-first-task/README.md)
+[<span>快速上手</span> <strong>任务设计</strong> <em>把目标、范围、上下文、禁止事项和验收方式写清楚，Codex 才能知道该改哪里、不能碰哪里，以及什么时候算完成。</em>](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/start/07-task-design/README.md)
+[<span>进阶教程</span> <strong>AGENTS.md</strong> <em>AGENTS.md 是面向 coding agent 的 README。README 主要给人看，讲项目是什么、怎么上手；AGENTS.md 给 Codex 和其他 coding agent 看，告诉它们改代码前应该遵守哪些项目规则。</em>](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/advanced/02-agents-md/README.md)
+[<span>进阶教程</span> <strong>Skills 和 Plugins</strong> <em>AGENTS.md 像是项目里的通用工作规则，Skill 则是某一类任务的专项流程。写 PR Review、整理飞书文档、生成 PPT、修复 CI、做安全扫描，这些流程如果经常重复，就适合沉淀成 Skill。</em>](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/advanced/03-skills-plugins-mcp/README.md)
+[<span>进阶教程</span> <strong>沙盒与审批</strong> <em>沙盒就是实验室的墙和门禁：它规定 Codex 能碰哪些设备、能不能连外网、能不能写入项目外文件夹。墙内的常规操作可以自己做，墙外的事情需要先获得许可。</em>](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/advanced/07-sandbox-approvals/README.md)
+[<span>进阶教程</span> <strong>自动线程管理</strong> <em>在 Codex 里，一次对话就是一个 thread。线程拥有独立上下文，适合处理长期任务、后台跟进和多路线探索，也能缓解复杂任务里的上下文干扰。</em>](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/advanced/08-thread-management/README.md)
+[<span>实战案例</span> <strong>让 Codex 操控浏览器</strong> <em>Playwright MCP 把打开浏览器、访问网页、点击按钮、填写输入框、读取页面内容、截图、验证结果等浏览器操作，封装成 AI 可以调用的工具。</em>](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/recipes/03-playwright-mcp/README.md)
+[<span>实战案例</span> <strong>连接 Obsidian 知识库</strong> <em>把 Codex 接进本地笔记，可以让资料整理、结构重写、配图和引用检查都沉淀在同一个知识库里，后续复用更稳定。</em>](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/recipes/05-obsidian-codex/README.md)
+[<span>实战案例</span> <strong>CI 失败自动修复</strong> <em>从失败日志定位问题，让 Codex 先读 CI 输出，再回到仓库里修改代码、补验证，并把修复过程整理成可以审查的 PR。</em>](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/recipes/13-github-actions-ci-fix/README.md)
+[<span>快速上手</span> <strong>用 Codex 完成第一个任务</strong> <em>任务完成后，Codex 会在对话中展示结果，同时将生成的文件写入工作目录。如果生成的是网页文件，可以直接点击 Codex 弹出的“打开”按钮，在 App 内置浏览器中预览效果。</em>](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/start/06-first-task/README.md)
+[<span>快速上手</span> <strong>任务设计</strong> <em>把目标、范围、上下文、禁止事项和验收方式写清楚，Codex 才能知道该改哪里、不能碰哪里，以及什么时候算完成。</em>](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/start/07-task-design/README.md)
+[<span>进阶教程</span> <strong>AGENTS.md</strong> <em>AGENTS.md 是面向 coding agent 的 README。README 主要给人看，讲项目是什么、怎么上手；AGENTS.md 给 Codex 和其他 coding agent 看，告诉它们改代码前应该遵守哪些项目规则。</em>](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/advanced/02-agents-md/README.md)
+[<span>进阶教程</span> <strong>Skills 和 Plugins</strong> <em>AGENTS.md 像是项目里的通用工作规则，Skill 则是某一类任务的专项流程。写 PR Review、整理飞书文档、生成 PPT、修复 CI、做安全扫描，这些流程如果经常重复，就适合沉淀成 Skill。</em>](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/advanced/03-skills-plugins-mcp/README.md)
+[<span>进阶教程</span> <strong>沙盒与审批</strong> <em>沙盒就是实验室的墙和门禁：它规定 Codex 能碰哪些设备、能不能连外网、能不能写入项目外文件夹。墙内的常规操作可以自己做，墙外的事情需要先获得许可。</em>](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/advanced/07-sandbox-approvals/README.md)
+[<span>进阶教程</span> <strong>自动线程管理</strong> <em>在 Codex 里，一次对话就是一个 thread。线程拥有独立上下文，适合处理长期任务、后台跟进和多路线探索，也能缓解复杂任务里的上下文干扰。</em>](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/advanced/08-thread-management/README.md)
+[<span>实战案例</span> <strong>让 Codex 操控浏览器</strong> <em>Playwright MCP 把打开浏览器、访问网页、点击按钮、填写输入框、读取页面内容、截图、验证结果等浏览器操作，封装成 AI 可以调用的工具。</em>](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/recipes/03-playwright-mcp/README.md)
+[<span>实战案例</span> <strong>连接 Obsidian 知识库</strong> <em>把 Codex 接进本地笔记，可以让资料整理、结构重写、配图和引用检查都沉淀在同一个知识库里，后续复用更稳定。</em>](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/recipes/05-obsidian-codex/README.md)
+[<span>实战案例</span> <strong>CI 失败自动修复</strong> <em>从失败日志定位问题，让 Codex 先读 CI 输出，再回到仓库里修改代码、补验证，并把修复过程整理成可以审查的 PR。</em>](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/recipes/13-github-actions-ci-fix/README.md)
+  </div>
+</div>
 
-## 项目愿景
+</section>
 
-Codex 正在从“帮你写代码的工具”，演进为一套覆盖 CLI、Cloud/Web、IDE extension、桌面 App、移动端协同、浏览器和自动化能力的 AI 工作流系统。
+<section class="home-section home-community">
 
-CodexGuide 想做的不是命令速查表，而是一份面向真实任务的实践知识库。它关注三个问题：
+<div class="home-community-copy">
 
-- **怎么开始**：初学者应该从哪个入口、哪个任务、哪个设置开始。
-- **怎么交付**：如何把需求讲清楚，让 Codex 读项目、改文件、跑命令、给出可检查结果。
-- **怎么沉淀**：如何把一次成功任务变成团队可复用的模板、规则、案例和安全边界。
+<div class="home-section-kicker">付费交流群</div>
 
-这份教程主要以中文组织内容，但目标并不局限在中文用户或开发者。它也会覆盖创作者、研究者、产品、运营、技术写作者、团队负责人，以及需要把 Codex 接入日常工作的非开发场景。
+## 和认真使用 Codex 的人一起进步
 
-## 适合谁
+当教程无法覆盖你的真实场景，可以在群里交流配置、工作流、Skills、Plugins、自动化和项目实战。智能体每天汇总各群精华，加入任一群也能了解整个 Codex 社区当天的重点。9.9 元一次付费，入群资格长期有效。
 
-- **第一次使用 Codex 的小白**：跟着桌面 App、订阅、设置、手机协同和第一个任务跑通完整闭环。
-- **想把 Codex 用进项目的开发者**：学习 CLI、IDE、Git、测试、CI、AGENTS.md、沙盒与审批。
-- **内容创作者与知识工作者**：把 Codex 用在写作、PPT、资料整理、知识库、浏览器和工作流自动化里。
-- **团队负责人和工具建设者**：建立团队规则、任务模板、权限边界、复盘结构和可迁移案例库。
-- **正在选入口的人**：对比桌面 App、CLI、Cloud、IDE、ChatGPT 手机端和插件生态的适用场景。
+<p class="home-community-scale"><strong>已有 5 个 Codex 交流群满员</strong><span>新成员将加入当前开放群，并持续收到整个社区的每日精华。</span></p>
 
-## 你会在这里看到什么
+<ul class="home-community-benefits">
+  <li>围绕真实问题交流，减少泛泛讨论</li>
+  <li>智能体每日汇总多个群的核心话题</li>
+  <li>持续获取实战案例与重要更新</li>
+  <li>认识同样在长期使用 Codex 的伙伴</li>
+</ul>
 
-| 内容 | 说明 |
-| --- | --- |
-| 入门路线 | 从安装、登录、订阅、设置、手机协同、API 连接到第一个低风险任务 |
-| 入口地图 | 解释桌面 App、CLI、Cloud、IDE、ChatGPT 和集成生态该怎么选 |
-| 配置专题 | 覆盖 CLI 选项、`config.toml` 和项目规则配置 |
-| 工作流方法 | 任务设计、验证方式、团队 playbook |
-| 实战案例 | PPT、Draw.io、浏览器、Obsidian、临床文献综述、飞书、Figma、Notion、CI 修复等场景 |
-| 官方资料索引 | 汇总 OpenAI 官方资料、GitHub 仓库和关键事实来源 |
+<div class="home-action-row">
+[¥9.9 了解并加入](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/community/join.md)
+[参与社区共建](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/community/roadmap.md)
+</div>
 
-## 推荐阅读路径
+<p class="home-community-note">支付宝支付 · 付款后当前浏览器自动保存入群资格</p>
 
-### 1. 第一次上手
+</div>
 
-先读 [学习路线](/lib/09-harness/codex-guide-freestylefly/docs-guide)，再完成 [桌面 App 下载与安装](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/start/02-app-installation.md)、[订阅 Plus / Pro](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/start/03-account-plan.md)、[桌面 App 总览](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/start/05-app-overview.md) 和 [第一个任务](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/start/06-first-task.md)。
+<aside class="home-community-panel">
+  <span>适合这些读者</span>
+  <strong>你已经开始使用 Codex，并希望把它真正融入工作</strong>
+  <ul>
+    <li>手上有具体问题或项目</li>
+    <li>愿意分享过程和有效经验</li>
+    <li>希望获得长期、稳定的中文交流环境</li>
+  </ul>
+[查看完整介绍](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/community/join.md)
+</aside>
 
-### 2. 想用 Codex 改真实项目
-
-从 [CLI 安装与登录](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/start/10-cli-installation.md) 开始，接着看 [第一次让 Codex 改代码](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/start/11-cli-first-run.md)、[AGENTS.md](/lib/09-harness/codex-guide-freestylefly/docs-advanced-02-agents-md)、[沙盒与审批](/lib/09-harness/codex-guide-freestylefly/docs-advanced-07-sandbox-approvals)。
-
-### 3. 想把 Codex 放进团队
-
-先看 [团队 playbook](/lib/09-harness/codex-guide-freestylefly/docs-advanced-10-team-playbook)，再补齐 [参考手册](/lib/09-harness/codex-guide-freestylefly/docs-manual-00-)、[沙盒与审批](/lib/09-harness/codex-guide-freestylefly/docs-advanced-07-sandbox-approvals)、[排障手册](/lib/09-harness/codex-guide-freestylefly/docs-advanced-11-troubleshooting) 和 [实战案例库](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/recipes/00-index.md)。
-
-## 快速入口
-
-| 模块 | 适合解决什么问题 |
-| --- | --- |
-| [学习路线](/lib/09-harness/codex-guide-freestylefly/docs-guide) | 从入门、进阶到团队化的阅读顺序 |
-| [快速上手](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/start/00-index.md) | 桌面 App、账号、首个任务和任务闭环 |
-| [手机端协同桌面任务](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/start/09-mobile-control.md) | 用 ChatGPT 手机 App 中的 Codex 入口跟进桌面任务 |
-| [CLI 安装与登录](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/start/10-cli-installation.md) | 在本地终端安装 Codex CLI 并完成登录 |
-| [第一次让 Codex 改代码](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/start/11-cli-first-run.md) | 用 CLI 进入真实仓库，完成一次可检查的代码任务 |
-| [进阶教程](/lib/09-harness/codex-guide-freestylefly/docs-advanced-00-) | CLI、IDE、Cloud、权限、AGENTS.md、自动化和团队实践 |
-| [参考手册](/lib/09-harness/codex-guide-freestylefly/docs-manual-00-) | OpenAI 官方资料、Codex 更新记录和参考来源 |
-| [AGENTS.md](/lib/09-harness/codex-guide-freestylefly/docs-advanced-02-agents-md) | 给 Codex 编写项目级规则和协作边界 |
-| [沙盒与审批](/lib/09-harness/codex-guide-freestylefly/docs-advanced-07-sandbox-approvals) | 文件、命令、网络、凭据和生产资源的安全边界 |
-| [自动线程管理](/lib/09-harness/codex-guide-freestylefly/docs-advanced-08-thread-management) | 继续、分叉、移交和整理 Codex 任务 |
-| [Cloud、IDE 与桌面 App](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/start/14-cloud.md) | 不同 Codex 使用入口的适用场景 |
-| [实战案例库](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/docs/recipes/00-index.md) | 可复制到真实项目的任务模板和复盘结构 |
-
-## 内容框架
-
-```text
-CodexGuide
-├─ guide         # 学习路线
-├─ start         # 快速上手
-├─ advanced      # 进阶教程
-├─ recipes       # 实战案例
-├─ manual        # 参考手册
-└─ community     # 社区共建图与贡献方向
-```
-
-当前已搭建：
-
-- Codex 桌面 App 入门路径。
-- ChatGPT 手机 App 协同桌面任务。
-- Codex CLI 和 IDE 使用路径。
-- Codex 多入口使用地图和选择建议。
-- Codex 配置与扩展专题。
-- 任务说明、提示词模板和验证方法。
-- 团队实践方法。
-- `AGENTS.md` 项目规则模板。
-- 沙盒、审批和安全边界说明。
-- Cloud、IDE、桌面 App、ChatGPT 使用场景对照。
-- 内容生产、知识库、浏览器、CI 修复等案例模板。
-- 在线文档站、官方资料索引和社区贡献模板。
-
-## 本地预览
-
-环境要求：
-
-- Node.js 22.12+，且低于 25
-- pnpm 10.33.0
-
-```bash
-pnpm install
-pnpm dev
-```
-
-构建静态站点：
-
-```bash
-pnpm build
-```
-
-默认开发服务会启动 VuePress 文档站。线上版本会发布到 [codexguide.ai](https://codexguide.ai/)。
-
-## 设计原则
-
-- **官方优先**：功能、价格、可用性、安全策略以 OpenAI 官方资料为准。
-- **小白友好**：每个入门章节尽量说明“为什么这样做”和“什么时候不要这样做”。
-- **真实任务导向**：减少抽象概念堆砌，多给可复制的任务流程、输入、输出和验证方式。
-- **安全边界清晰**：涉及文件写入、命令执行、联网、凭据、浏览器和电脑操控时明确风险。
-- **可沉淀**：鼓励把一次成功任务整理成 AGENTS.md、模板、案例、复盘和团队规范。
-
-## Star 趋势图
-
-## 社区共建
-
-欢迎加入 CodexGuide 交流群，与同频伙伴一起交流 Codex 使用经验、实践案例和最新动态。点击[加入 Codex 交流群](https://codexguide.ai/community/join)即可加入，也欢迎微信扫码关注公众号 **苍何**，获取更多 AI 工具与效率实践。
-
-  <img src="/mirror/34/3447f478347ba75a5424698afc4b9a95c40d804e.webp" alt="微信扫码关注公众号苍何" width="720" />
-
-## 事实来源
-
-本仓库优先引用官方资料，并会在关键页面标注“最后核对日期”。当前骨架参考：
-
-- [OpenAI Codex 产品页](https://openai.com/codex/)
-- [Codex in ChatGPT Help Center](https://help.openai.com/en/articles/11369540-codex-in-chatgpt)
-- [OpenAI Codex CLI Getting Started](https://help.openai.com/en/articles/11096431-openai-codex-cli-getting-started)
-- [Codex cloud docs](https://platform.openai.com/docs/codex)
-- [openai/codex GitHub repository](https://github.com/openai/codex)
-
-## 参与贡献
-
-欢迎提交：
-
-- 新手友好的教程改写。
-- 可复现的真实案例。
-- 常见错误和解决方案。
-- 团队实践、模板和工作流。
-- 官方文档变更同步。
-
-请先阅读 [贡献指南](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/CONTRIBUTING.md)。如果你还不确定怎么贡献，可以从 [社区共建图](/lib/09-harness/codex-guide-freestylefly/docs-community-roadmap) 或 `good first issue` 开始。
-
-## 开源协议
-
-本项目采用 [MIT License](https://github.com/freestylefly/CodexGuide/blob/f93c14ba1239178f63210c7e2e6e6965ebf59e79/LICENSE/README.md) 开源。你可以在保留许可声明的前提下自由使用、修改、分发与二次开发。
-
-## 声明
-
-本项目是社区维护的 Codex 实践知识库，并非 OpenAI 官方项目。涉及功能、计划、价格、可用性和安全策略等时间敏感信息时，请以 OpenAI 官方资料为准。
+</section>

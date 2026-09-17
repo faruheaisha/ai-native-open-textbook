@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/ed-donner/agents"
-entryUrl: ""
+entryUrl: "https://github.com/ed-donner/agents/blob/8ceaf66c24643627c1e4806851736bdd444bdd4b/1_foundations/community_contributions/amirna2_contributions/personal-ai/README.md"
+sourceRel: "1_foundations/community_contributions/amirna2_contributions/personal-ai/README.md"
+rawUrl: "/raw/08-agents/ed-donner-agents/1_foundations/community_contributions/amirna2_contributions/personal-ai/README.md"
+sourceSha256: "677c469696e230c6d338f7e27a37d8172c0bfc4bc04061c1917479e333205314"
+pageSha256: "677c469696e230c6d338f7e27a37d8172c0bfc4bc04061c1917479e333205314"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -65,7 +70,7 @@ This application features a template-based prompt management system that separat
 - **`promptkit.py`**: Template rendering engine with variable substitution
 - **`prompts/` directory**: All AI prompts stored as markdown templates
 - **Template composition**: Complex prompts built by composing simpler templates
-- **Variable substitution**: Dynamic content injection using `{variable}` syntax
+- **Variable substitution**: Dynamic content injection using `\{variable\}` syntax
 
 ### Template Features
 

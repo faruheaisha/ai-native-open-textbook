@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/KhazP/vibe-coding-prompt-template"
-entryUrl: "https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/README.md"
+entryUrl: "https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/examples/reddit-to-ai/agent_docs/reconstructed-progress.md"
+sourceRel: "examples/reddit-to-ai/agent_docs/reconstructed-progress.md"
+rawUrl: "/raw/07-coding/vibe-coding-prompt-template/examples/reddit-to-ai/agent_docs/reconstructed-progress.md"
+sourceSha256: "a522be03db8a3406cd1137d7a03865c4d5e8180b431e018f21f8dbbbd0973f2e"
+pageSha256: "a522be03db8a3406cd1137d7a03865c4d5e8180b431e018f21f8dbbbd0973f2e"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -19,7 +24,7 @@ This is the original May 31, 2025 example snapshot, not current verification evi
 ## Current State 📍
 **Last Updated:** May 31, 2025
 **Working On:** Preview screen — editable prompt + live context-size meter (characters, estimated tokens, comment count)
-**Recently Completed:** Smart thread scraping with quick filters, and the prompt builder with 5 presets + `{content}` custom templates
+**Recently Completed:** Smart thread scraping with quick filters, and the prompt builder with 5 presets + `\{content\}` custom templates
 **Blocked By:** None
 
 ## Roadmap 🗺️
@@ -31,7 +36,7 @@ This is the original May 31, 2025 example snapshot, not current verification evi
 
 ### Phase 2: Core Features
 - [x] Smart thread scraping + quick filters (hide bots, minimum score)
-- [x] Prompt presets (Summarization, Debate Analysis, Sentiment, ELI5, Key Takeaways) + `{content}` custom templates
+- [x] Prompt presets (Summarization, Debate Analysis, Sentiment, ELI5, Key Takeaways) + `\{content\}` custom templates
 - [ ] Preview screen with context budget meter ← in progress
 - [ ] Send to AI platforms (auto-paste) + copy-prompt fallback overlay
 

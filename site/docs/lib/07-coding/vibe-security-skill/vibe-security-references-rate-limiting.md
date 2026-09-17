@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/raroque/vibe-security-skill"
-entryUrl: "https://github.com/raroque/vibe-security-skill/blob/850938f20f6915e7c3688d85c0a838f7909c87bb/README.md"
+entryUrl: "https://github.com/raroque/vibe-security-skill/blob/850938f20f6915e7c3688d85c0a838f7909c87bb/vibe-security/references/rate-limiting.md"
+sourceRel: "vibe-security/references/rate-limiting.md"
+rawUrl: "/raw/07-coding/vibe-security-skill/vibe-security/references/rate-limiting.md"
+sourceSha256: "604a9e2c1c4ff58e66a38b35d07ec73b1b2e29b8f7ec827f7153d305058e8b50"
+pageSha256: "604a9e2c1c4ff58e66a38b35d07ec73b1b2e29b8f7ec827f7153d305058e8b50"
+contentMode: "local-full"
 zh: ""
 ---
 

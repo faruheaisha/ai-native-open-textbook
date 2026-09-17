@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/wangxiaoshuai1998/QwenWorkGuide"
-entryUrl: "https://github.com/wangxiaoshuai1998/QwenWorkGuide/blob/002f698a68b69d3635acf6be0d6e27db69069071/README.md"
+entryUrl: "https://github.com/wangxiaoshuai1998/QwenWorkGuide/blob/002f698a68b69d3635acf6be0d6e27db69069071/docs/cases/submissions/jz-2025-showreel/index.md"
+sourceRel: "docs/cases/submissions/jz-2025-showreel/index.md"
+rawUrl: "/raw/04-work/qwenwork-guide/docs/cases/submissions/jz-2025-showreel/index.md"
+sourceSha256: "33f4a9bda4c7419624c2157f5004af26e76e1b92ec57dfd92afa0b48a8430dca"
+pageSha256: "33f4a9bda4c7419624c2157f5004af26e76e1b92ec57dfd92afa0b48a8430dca"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -86,7 +91,7 @@ zh: ""
 
 **第 10-11 轮**：作品展示面积太小 → 放大 Mockup 尺寸并增加漂浮动画；标题从节点位置浮出，带连接线和持续漂浮。
 
-**第 12 轮**：页面空白打不开 → JS 语法错误（`},0})` 漏了一个 `}`），修复后正常。
+**第 12 轮**：页面空白打不开 → JS 语法错误（`\},0\})` 漏了一个 `\}`），修复后正常。
 
 **第 13-14 轮**：动画太快 → 全局减速 1.5-2 倍，缓动改用 `power4.inOut` / `back.out(1.2)`；五子棋视频被裁切 → Mockup 内容区比例精确匹配视频比例（780×528 对应 1.560）。
 
@@ -190,9 +195,9 @@ https://github.com/JZCreative/2025showreel
 
 ### 放大动画瞬间跳变
 
-**问题**：退出旧场景和新场景的 `camS` tween 各自创建临时对象 `{s: camS}`，timeline 创建时 `camS=1.3`，新场景 tween 从 1.3→1.3 无渐变。
+**问题**：退出旧场景和新场景的 `camS` tween 各自创建临时对象 `\{s: camS\}`，timeline 创建时 `camS=1.3`，新场景 tween 从 1.3→1.3 无渐变。
 
-**解决**：在 `goScene()` 开头创建共享对象 `const camObj = {s: camS}`，退出和新场景的 tween 都操作同一对象，退出 tween 先把值归 1，新场景 tween 再从 1 渐变到 1.3。
+**解决**：在 `goScene()` 开头创建共享对象 `const camObj = \{s: camS\}`，退出和新场景的 tween 都操作同一对象，退出 tween 先把值归 1，新场景 tween 再从 1 渐变到 1.3。
 
 ### GitHub 大文件警告
 

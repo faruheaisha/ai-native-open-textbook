@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding"
-entryUrl: "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding/blob/e40e0feec02b90e308ccbfc7a8911d64118ccca0/README.md"
+entryUrl: "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding/blob/e40e0feec02b90e308ccbfc7a8911d64118ccca0/book/src/part2/ch06b.md"
+sourceRel: "book/src/part2/ch06b.md"
+rawUrl: "/raw/09-harness/harness-engineering-from-cc-to-ai-coding/book/src/part2/ch06b.md"
+sourceSha256: "cc57d81f2f00defbaa08ca539192ca87c96e935308e440b132825344248feadd"
+pageSha256: "cc57d81f2f00defbaa08ca539192ca87c96e935308e440b132825344248feadd"
+contentMode: "local-full"
 zh: ""
 ---
 

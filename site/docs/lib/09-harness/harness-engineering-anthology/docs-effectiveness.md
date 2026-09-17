@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/lopopolo/harness-engineering"
-entryUrl: "https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/README.md"
+entryUrl: "https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/docs/effectiveness/README.md"
+sourceRel: "docs/effectiveness/README.md"
+rawUrl: "/raw/09-harness/harness-engineering-anthology/docs/effectiveness/README.md"
+sourceSha256: "c6696a232a1621c8b8f14dc7a559749b2e4068892e6c7e01db8085f4154d5c18"
+pageSha256: "c6696a232a1621c8b8f14dc7a559749b2e4068892e6c7e01db8085f4154d5c18"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -53,7 +58,7 @@ team's future velocity. The [whole-job boundary] and its proof should be
 declared before proxy measures begin to look like success.
 
 [ladders up to]: https://x.com/_lopopolo/status/2055111894181335279
-[whole-job boundary]: https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/docs/whole-job/README.md
+[whole-job boundary]: /lib/09-harness/harness-engineering-anthology/docs-whole-job
 
 ## Count fully loaded human attention
 
@@ -225,7 +230,7 @@ Infrastructure]. [Evaluate the Harness] prices the trajectory as well as the
 accepted result.
 
 [Turn Feedback Into Infrastructure]: /lib/09-harness/harness-engineering-anthology/docs-feedback
-[Evaluate the Harness]: https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/evals/README.md
+[Evaluate the Harness]: /lib/09-harness/harness-engineering-anthology/evals
 
 ## Price the lifetime
 

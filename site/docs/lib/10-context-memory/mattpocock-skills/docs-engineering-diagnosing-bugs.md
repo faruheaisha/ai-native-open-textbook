@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/mattpocock/skills"
-entryUrl: "https://github.com/mattpocock/skills/blob/3cca18b368ae95cdbdebbff572ccafa662551015/README.md"
+entryUrl: "https://github.com/mattpocock/skills/blob/3cca18b368ae95cdbdebbff572ccafa662551015/docs/engineering/diagnosing-bugs.md"
+sourceRel: "docs/engineering/diagnosing-bugs.md"
+rawUrl: "/raw/10-context-memory/mattpocock-skills/docs/engineering/diagnosing-bugs.md"
+sourceSha256: "beaa81743d3343e8192e7a6feba8e0c95e4a044ce71ef3c6503f8323902f7c90"
+pageSha256: "beaa81743d3343e8192e7a6feba8e0c95e4a044ce71ef3c6503f8323902f7c90"
+contentMode: "local-full"
 zh: ""
 ---
 

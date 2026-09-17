@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know"
-entryUrl: "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/README.md"
+entryUrl: "https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know/blob/d9e93740193aeae2cd661c7ddf6f0c8f8989860b/specialized-agents/Descriptions/backend-engineer-description.md"
+sourceRel: "specialized-agents/Descriptions/backend-engineer-description.md"
+rawUrl: "/raw/09-harness/claude-code-everything/specialized-agents/Descriptions/backend-engineer-description.md"
+sourceSha256: "e12794f568dd7544f3be27533e0b027eac212fabc0857493647409aac6751abb"
+pageSha256: "e12794f568dd7544f3be27533e0b027eac212fabc0857493647409aac6751abb"
+contentMode: "local-full"
 zh: ""
 ---
 

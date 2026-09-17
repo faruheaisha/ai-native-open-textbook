@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/Windy3f3f3f3f/claude-code-from-scratch"
-entryUrl: "https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/README.md"
+entryUrl: "https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/docs/05-streaming.md"
+sourceRel: "docs/05-streaming.md"
+rawUrl: "/raw/09-harness/claude-code-from-scratch/docs/05-streaming.md"
+sourceSha256: "5c86cce9151586e9cf5f17d940288185d0e4d2604bd108377c11e26ef886b63d"
+pageSha256: "5c86cce9151586e9cf5f17d940288185d0e4d2604bd108377c11e26ef886b63d"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -60,7 +65,7 @@ greeting.txt says: hello from step one.
 
 ### Anthropic 后端：SDK 内置 stream
 
-Anthropic SDK 封装了全部 SSE 解析细节：`stream.on("text")` 直接给文本增量，`stream.finalMessage()` 返回和非流式完全一样的 `Message` 对象。`{ signal }` 把 AbortController 传进去，Ctrl+C 可以中断网络请求。
+Anthropic SDK 封装了全部 SSE 解析细节：`stream.on("text")` 直接给文本增量，`stream.finalMessage()` 返回和非流式完全一样的 `Message` 对象。`\{ signal \}` 把 AbortController 传进去，Ctrl+C 可以中断网络请求。
 
 ### OpenAI 兼容后端：手动 chunk 累积
 

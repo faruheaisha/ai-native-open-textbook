@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/openai/openai-cookbook"
-entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/README.md"
+entryUrl: "https://github.com/openai/openai-cookbook/blob/a0709e05a54d8dd1c4d9be3fc0a41526c3496c39/articles/gpt-oss/run-locally-lmstudio.md"
+sourceRel: "articles/gpt-oss/run-locally-lmstudio.md"
+rawUrl: "/raw/08-agents/openai-cookbook/articles/gpt-oss/run-locally-lmstudio.md"
+sourceSha256: "a4a7ebe9e7852d72b6a302e41e909f55e334a53f8b69656e506e117e1bb623cf"
+pageSha256: "a4a7ebe9e7852d72b6a302e41e909f55e334a53f8b69656e506e117e1bb623cf"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "08-agents"
 sourceUrl: "https://github.com/anthropics/anthropic-cookbook"
-entryUrl: "https://github.com/anthropics/anthropic-cookbook/blob/a97b9a2dc300635f0c26b5e05d0b54bbe0279ee5/README.md"
+entryUrl: "https://github.com/anthropics/anthropic-cookbook/blob/a97b9a2dc300635f0c26b5e05d0b54bbe0279ee5/claude_agent_sdk/chief_of_staff_agent/output_reports/hiring_decision.md"
+sourceRel: "claude_agent_sdk/chief_of_staff_agent/output_reports/hiring_decision.md"
+rawUrl: "/raw/08-agents/anthropic-cookbook/claude_agent_sdk/chief_of_staff_agent/output_reports/hiring_decision.md"
+sourceSha256: "99282d931cc61a4011d08a8209c47765d1a7c6df9a6c10b53c841cb29de0880a"
+pageSha256: "99282d931cc61a4011d08a8209c47765d1a7c6df9a6c10b53c841cb29de0880a"
+contentMode: "local-full"
 zh: ""
 ---
 

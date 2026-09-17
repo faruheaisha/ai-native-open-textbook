@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/obra/superpowers"
-entryUrl: "https://github.com/obra/superpowers/blob/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/README.md"
+entryUrl: "https://github.com/obra/superpowers/blob/b36e0829c6d0140e93cfef2ca599b1b07d4a7797/docs/superpowers/plans/2026-01-22-document-review-system.md"
+sourceRel: "docs/superpowers/plans/2026-01-22-document-review-system.md"
+rawUrl: "/raw/10-context-memory/superpowers/docs/superpowers/plans/2026-01-22-document-review-system.md"
+sourceSha256: "92875a4d7db7acef7737ace512ed5a6ae29ab76aff421633276a4a824c5d5cf7"
+pageSha256: "92875a4d7db7acef7737ace512ed5a6ae29ab76aff421633276a4a824c5d5cf7"
+contentMode: "local-full"
 zh: ""
 ---
 

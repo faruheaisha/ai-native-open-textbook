@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/microsoft/AI-Engineering-Coach"
-entryUrl: "https://github.com/microsoft/AI-Engineering-Coach/blob/18b1a3d16b586c171426c6a407cc5c2dc073556e/README.md"
+entryUrl: "https://github.com/microsoft/AI-Engineering-Coach/blob/18b1a3d16b586c171426c6a407cc5c2dc073556e/docs/content/improve/context-health.md"
+sourceRel: "docs/content/improve/context-health.md"
+rawUrl: "/raw/08-agents/microsoft-ai-engineering-coach/docs/content/improve/context-health.md"
+sourceSha256: "6a2ae100620c00558911ae4e6f79f2023f302abb31f9685e5a8695f11f36f254"
+pageSha256: "6a2ae100620c00558911ae4e6f79f2023f302abb31f9685e5a8695f11f36f254"
+contentMode: "local-full"
 zh: ""
 ---
 

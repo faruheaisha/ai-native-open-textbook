@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/VoltAgent/awesome-openclaw-skills"
-entryUrl: "https://github.com/VoltAgent/awesome-openclaw-skills/blob/37ad08c1b8e243d5f501c6fcaf7ac0b507bd83a1/README.md"
+entryUrl: "https://github.com/VoltAgent/awesome-openclaw-skills/blob/37ad08c1b8e243d5f501c6fcaf7ac0b507bd83a1/categories/image-and-video-generation.md"
+sourceRel: "categories/image-and-video-generation.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-skills/categories/image-and-video-generation.md"
+sourceSha256: "afb7f5b57939b6f6e8e373bd59fa67306ba346a0d7bc715fd86d0c609e8d6e57"
+pageSha256: "afb7f5b57939b6f6e8e373bd59fa67306ba346a0d7bc715fd86d0c609e8d6e57"
+contentMode: "local-full"
 zh: ""
 ---
 

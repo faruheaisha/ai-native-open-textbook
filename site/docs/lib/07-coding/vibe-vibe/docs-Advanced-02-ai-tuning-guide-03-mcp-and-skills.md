@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/datawhalechina/vibe-vibe"
-entryUrl: "https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/README.md"
+entryUrl: "https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/Advanced/02-ai-tuning-guide/03-mcp-and-skills.md"
+sourceRel: "docs/Advanced/02-ai-tuning-guide/03-mcp-and-skills.md"
+rawUrl: "/raw/07-coding/vibe-vibe/docs/Advanced/02-ai-tuning-guide/03-mcp-and-skills.md"
+sourceSha256: "fa09c463e895949aedf6a921ccb23ff95f835d641699c637b4d86c9673d13f54"
+pageSha256: "fa09c463e895949aedf6a921ccb23ff95f835d641699c637b4d86c9673d13f54"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -1103,5 +1108,5 @@ graph TB
 - 前置：2.2 VibeCoding 工作流
 - 详见：2.4 项目规则配置
 - 扩展：[MCP 官方仓库](https://github.com/modelcontextprotocol/servers)
-- 扩展：[插件官方文档](https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/Advanced/02-ai-tuning-guide/hhttps:/github.com/anthropics/claude-plugins-official/README.md)
+- 扩展：[插件官方文档](hhttps://github.com/anthropics/claude-plugins-official)
 - 扩展：[Agent Skills 官方文档](https://code.claude.com/docs/zh-CN/skills)

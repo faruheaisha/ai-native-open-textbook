@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/didilili/ai-agents-from-zero"
-entryUrl: "https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/README.md"
+entryUrl: "https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/21-Agent智能体.md"
+sourceRel: "21-Agent智能体.md"
+rawUrl: "/raw/08-agents/ai-agents-from-zero/21-Agent智能体.md"
+sourceSha256: "55c3bc5145953b5c65d82a394c6794c5350aad14281def7a980cd460d94c28bc"
+pageSha256: "55c3bc5145953b5c65d82a394c6794c5350aad14281def7a980cd460d94c28bc"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -25,7 +30,7 @@ zh: ""
 
 **学习建议：** Agent 这章先抓一句话：Agent 是决策层，不是工具本身。读的时候先看它如何决定下一步，再看 Tool、RAG、MCP、Function Calling 分别给它补了什么能力。代码部分重点比较旧的 AgentExecutor 和新的 `create_agent` 思路；读完后要能判断一个需求到底该用普通链、工具调用，还是 Agent。
 
-**官方文档与资源**：详见 [工具导航与参考资料索引 - 工具调用、MCP与智能体](https://github.com/didilili/ai-agents-from-zero/blob/ea7f28ffe0b2c2650e3936f3bb591560225702b3/工具导航与参考资料索引.md#工具调用、MCP与智能体)。
+**官方文档与资源**：详见 [工具导航与参考资料索引 - 工具调用、MCP与智能体](/lib/08-agents/ai-agents-from-zero/工具导航与参考资料索引#工具调用、MCP与智能体)。
 
 ---
 
@@ -235,7 +240,7 @@ from langchain.agents import create_agent
 
 还有一个实践补充：
 
-**当前官方 1.x 文档更强调以 `messages` 状态作为 Agent 的统一输入。**但本教程仓库中为了教学连续性，仍保留了部分 `{"input": "..."}` 风格示例。读代码时先抓住入口含义：**它们都是在给 Agent 一个“新的用户请求”**，只是不同版本、不同适配层的调用方式略有差异。
+**当前官方 1.x 文档更强调以 `messages` 状态作为 Agent 的统一输入。**但本教程仓库中为了教学连续性，仍保留了部分 `\{"input": "..."\}` 风格示例。读代码时先抓住入口含义：**它们都是在给 Agent 一个“新的用户请求”**，只是不同版本、不同适配层的调用方式略有差异。
 
 ---
 
@@ -268,7 +273,7 @@ from langchain.agents import create_agent
 ("placeholder", "{agent_scratchpad}")
 ```
 
-其中 `ChatPromptTemplate`、占位符与消息结构，与 [第 13 章 提示词与消息模板](/lib/08-agents/ai-agents-from-zero/13-提示词与消息模板) 一脉相承；这里多出来的 `{agent_scratchpad}` 专供多轮工具循环使用。
+其中 `ChatPromptTemplate`、占位符与消息结构，与 [第 13 章 提示词与消息模板](/lib/08-agents/ai-agents-from-zero/13-提示词与消息模板) 一脉相承；这里多出来的 `\{agent_scratchpad\}` 专供多轮工具循环使用。
 
 这不是装饰，它的作用非常关键。它相当于 Agent 的“草稿区 / 中间步骤区”，用来承接：模型上一轮决定调用什么工具；工具返回了什么；下一轮模型基于这些信息继续推理。
 

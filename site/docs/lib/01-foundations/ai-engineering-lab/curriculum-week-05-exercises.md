@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "01-foundations"
 sourceUrl: "https://github.com/zorost/AI-Engineering-Lab"
-entryUrl: "https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/README.md"
+entryUrl: "https://github.com/zorost/AI-Engineering-Lab/blob/cdd8dbdf559f72211a7c068e8877918441531e52/curriculum/week-05/exercises.md"
+sourceRel: "curriculum/week-05/exercises.md"
+rawUrl: "/raw/01-foundations/ai-engineering-lab/curriculum/week-05/exercises.md"
+sourceSha256: "149202b94fc9b5e23cdc59189a5ae1923beb049c2a5e08ca695b4363870d7e97"
+pageSha256: "149202b94fc9b5e23cdc59189a5ae1923beb049c2a5e08ca695b4363870d7e97"
+contentMode: "local-full"
 zh: ""
 ---
 

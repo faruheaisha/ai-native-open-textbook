@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/stormzhang/ai-coding-guide"
-entryUrl: "https://github.com/stormzhang/ai-coding-guide/blob/d187dbdb83fa1be051a850074eb518e30e2eb47c/README.md"
+entryUrl: "https://github.com/stormzhang/ai-coding-guide/blob/d187dbdb83fa1be051a850074eb518e30e2eb47c/claude-code/13-project-structure.md"
+sourceRel: "claude-code/13-project-structure.md"
+rawUrl: "/raw/07-coding/ai-coding-guide-stormzhang/claude-code/13-project-structure.md"
+sourceSha256: "41bc28467912979e860a4edd96679003159dc68e6a749d0193d9588860ed3be0"
+pageSha256: "41bc28467912979e860a4edd96679003159dc68e6a749d0193d9588860ed3be0"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -167,7 +172,7 @@ Claude 每次进项目**第一个读**的文件。项目是什么、怎么跑、
 
 **`CLAUDE.local.md` 要你自己加 `.gitignore`。** 它和 `settings.local.json` 不一样，不会自动忽略——跑 `/init` 选「个人」选项时会帮你加，否则记得手动加一行。
 
-**密钥永远别硬写进任何配置文件。** 官方推荐的做法是在配置里用环境变量引用，比如写 `${GITHUB_TOKEN}` 而不是把 token 明文贴进去——Claude Code 启动时从你的 shell 环境读，**token 根本不落到文件里**。这条建议雷打不动地执行。
+**密钥永远别硬写进任何配置文件。** 官方推荐的做法是在配置里用环境变量引用，比如写 `$\{GITHUB_TOKEN\}` 而不是把 token 明文贴进去——Claude Code 启动时从你的 shell 环境读，**token 根本不落到文件里**。这条建议雷打不动地执行。
 
 > 💡 **一句话总结**：团队共享的（`CLAUDE.md`、`settings.json`、`commands/` 等）进 git；带「local」的和**任何含密钥的**绝不提交——`settings.local.json` 系统自动帮你忽略，`CLAUDE.local.md` 要你手动加。
 

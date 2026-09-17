@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/Windy3f3f3f3f/claude-code-from-scratch"
-entryUrl: "https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/README.md"
+entryUrl: "https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/en/docs/00-introduction.md"
+sourceRel: "en/docs/00-introduction.md"
+rawUrl: "/raw/09-harness/claude-code-from-scratch/en/docs/00-introduction.md"
+sourceSha256: "76c10af80232655c4a4f9d48d9f245a290729de1d3965233c564ffcf0a309ae7"
+pageSha256: "76c10af80232655c4a4f9d48d9f245a290729de1d3965233c564ffcf0a309ae7"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -165,18 +170,18 @@ Each chapter explains how the minimal version is built, and points to the matchi
 | [2. Tool System](/lib/09-harness/claude-code-from-scratch/en-docs-02-tools) | `tools.ts` | `src/Tool.ts` + `src/tools/` (66+ tools) |
 | [3. System Prompt](/lib/09-harness/claude-code-from-scratch/en-docs-03-system-prompt) | `prompt.ts` | `src/constants/prompts.ts` |
 | [4. CLI & Sessions](/lib/09-harness/claude-code-from-scratch/en-docs-04-cli-session) | `cli.ts` + `session.ts` | `src/entrypoints/cli.tsx` |
-| [5. Streaming Output](https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/en/docs/05-streaming.md) | the two stream methods in `agent.ts` | `src/services/api/claude.ts` |
-| [6. Permissions & Security](https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/en/docs/06-permissions.md) | `checkPermission()` + rule config in `tools.ts` | `src/utils/permissions/` (52KB) |
-| [7. Context Management](https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/en/docs/07-context.md) | `checkAndCompact()` in `agent.ts` | `src/services/compact/` |
+| [5. Streaming Output](/lib/09-harness/claude-code-from-scratch/en-docs-05-streaming) | the two stream methods in `agent.ts` | `src/services/api/claude.ts` |
+| [6. Permissions & Security](/lib/09-harness/claude-code-from-scratch/en-docs-06-permissions) | `checkPermission()` + rule config in `tools.ts` | `src/utils/permissions/` (52KB) |
+| [7. Context Management](/lib/09-harness/claude-code-from-scratch/en-docs-07-context) | `checkAndCompact()` in `agent.ts` | `src/services/compact/` |
 | **Phase 2: Advanced Capabilities** | | |
-| [8. Memory System](https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/en/docs/08-memory.md) | `memory.ts` | `src/utils/memory.ts` |
-| [9. Skills System](https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/en/docs/09-skills.md) | `skills.ts` | `src/utils/skills.ts` + `src/tools/SkillTool/` |
-| [10. Plan Mode](https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/en/docs/10-plan-mode.md) | `agent.ts` + `tools.ts` + `cli.ts` | `EnterPlanMode` / `ExitPlanMode` |
-| [11. Multi-Agent](https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/en/docs/11-multi-agent.md) | `subagent.ts` + `agent.ts` | `src/tools/AgentTool/` |
-| [12. MCP Integration](https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/en/docs/12-mcp.md) | `mcp.ts` | `src/services/mcpClient.ts` |
-| [13. Architecture Comparison](https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/en/docs/13-whats-next.md) | global comparison | global comparison |
+| [8. Memory System](/lib/09-harness/claude-code-from-scratch/en-docs-08-memory) | `memory.ts` | `src/utils/memory.ts` |
+| [9. Skills System](/lib/09-harness/claude-code-from-scratch/en-docs-09-skills) | `skills.ts` | `src/utils/skills.ts` + `src/tools/SkillTool/` |
+| [10. Plan Mode](/lib/09-harness/claude-code-from-scratch/en-docs-10-plan-mode) | `agent.ts` + `tools.ts` + `cli.ts` | `EnterPlanMode` / `ExitPlanMode` |
+| [11. Multi-Agent](/lib/09-harness/claude-code-from-scratch/en-docs-11-multi-agent) | `subagent.ts` + `agent.ts` | `src/tools/AgentTool/` |
+| [12. MCP Integration](/lib/09-harness/claude-code-from-scratch/en-docs-12-mcp) | `mcp.ts` | `src/services/mcpClient.ts` |
+| [13. Architecture Comparison](/lib/09-harness/claude-code-from-scratch/en-docs-13-whats-next) | global comparison | global comparison |
 | **Phase 3: Autonomous Operation** | | |
-| [15. Autonomy & Continuation](https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/en/docs/15-autonomy.md) | `autonomy.ts` | `/goal` · `/loop` · Auto Mode |
+| [15. Autonomy & Continuation](/lib/09-harness/claude-code-from-scratch/en-docs-15-autonomy) | `autonomy.ts` | `/goal` · `/loop` · Auto Mode |
 
 ---
 

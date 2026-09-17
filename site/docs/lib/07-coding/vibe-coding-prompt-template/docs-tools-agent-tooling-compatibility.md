@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/KhazP/vibe-coding-prompt-template"
-entryUrl: "https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/README.md"
+entryUrl: "https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/docs/tools/agent-tooling-compatibility.md"
+sourceRel: "docs/tools/agent-tooling-compatibility.md"
+rawUrl: "/raw/07-coding/vibe-coding-prompt-template/docs/tools/agent-tooling-compatibility.md"
+sourceSha256: "323bfae97f3c8eb00169306e3e94bddcb41ee879316ee2f797f2a918112ebe7b"
+pageSha256: "323bfae97f3c8eb00169306e3e94bddcb41ee879316ee2f797f2a918112ebe7b"
+contentMode: "local-full"
 zh: ""
 ---
 

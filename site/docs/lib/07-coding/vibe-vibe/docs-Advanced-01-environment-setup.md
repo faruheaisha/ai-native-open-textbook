@@ -8,7 +8,12 @@ lang: "中文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/datawhalechina/vibe-vibe"
-entryUrl: "https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/README.md"
+entryUrl: "https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/Advanced/01-environment-setup/index.md"
+sourceRel: "docs/Advanced/01-environment-setup/index.md"
+rawUrl: "/raw/07-coding/vibe-vibe/docs/Advanced/01-environment-setup/index.md"
+sourceSha256: "bbeb18246134aff0f36a5d36f0faeeb543f9dd13437f8f8eaacc30cd034f1c13"
+pageSha256: "bbeb18246134aff0f36a5d36f0faeeb543f9dd13437f8f8eaacc30cd034f1c13"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -30,7 +35,7 @@ zh: ""
 
 老师傅说："AI 能写代码，但'怎么让它跑起来'需要你理解。这就像导航：能告诉你路线，但你得先会开车。环境搭建不是门槛，而是你与 AI 协作的第一步。"
 
-→ **[1.1 代码格式演变](https://github.com/datawhalechina/vibe-vibe/blob/f2e121d9b6c689c0e682921df60d73e279c5e316/docs/Advanced/01-environment-setup/01-code-formats.md)** 会带你从单文件 HTML 走向现代模块化开发。
+→ **[1.1 代码格式演变](/lib/07-coding/vibe-vibe/docs-Advanced-01-environment-setup-01-code-formats)** 会带你从单文件 HTML 走向现代模块化开发。
 
 ---
 

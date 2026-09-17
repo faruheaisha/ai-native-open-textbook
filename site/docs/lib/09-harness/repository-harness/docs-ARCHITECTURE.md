@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/hoangnb24/repository-harness"
-entryUrl: "https://github.com/hoangnb24/repository-harness/blob/e765792b635b4d5e3e5fc0578f82f9ca5dea2681/README.md"
+entryUrl: "https://github.com/hoangnb24/repository-harness/blob/e765792b635b4d5e3e5fc0578f82f9ca5dea2681/docs/ARCHITECTURE.md"
+sourceRel: "docs/ARCHITECTURE.md"
+rawUrl: "/raw/09-harness/repository-harness/docs/ARCHITECTURE.md"
+sourceSha256: "06816d8219892cec51c3e288320ef19228383393c42d437f2c2d8f80e56c816a"
+pageSha256: "06816d8219892cec51c3e288320ef19228383393c42d437f2c2d8f80e56c816a"
+contentMode: "local-full"
 zh: ""
 ---
 

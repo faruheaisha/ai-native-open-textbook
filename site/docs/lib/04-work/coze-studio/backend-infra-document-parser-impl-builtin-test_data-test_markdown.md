@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "04-work"
 sourceUrl: "https://github.com/coze-dev/coze-studio"
-entryUrl: "https://github.com/coze-dev/coze-studio/blob/fefb05ff27be1da939612fbf9faf5db62583b8ae/README.md"
+entryUrl: "https://github.com/coze-dev/coze-studio/blob/fefb05ff27be1da939612fbf9faf5db62583b8ae/backend/infra/document/parser/impl/builtin/test_data/test_markdown.md"
+sourceRel: "backend/infra/document/parser/impl/builtin/test_data/test_markdown.md"
+rawUrl: "/raw/04-work/coze-studio/backend/infra/document/parser/impl/builtin/test_data/test_markdown.md"
+sourceSha256: "f3d1315f550a5548a2d2cf4f4aa96530444a2ae0fe0be21fef2172387d7d4edd"
+pageSha256: "f3d1315f550a5548a2d2cf4f4aa96530444a2ae0fe0be21fef2172387d7d4edd"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -270,7 +275,7 @@ Bob-->Alice: I am good thanks!
 作者 [@ghosert][3]     
 2015 年 06月 15日    
 
-[^LaTeX]: https://github.com/coze-dev/coze-studio/blob/fefb05ff27be1da939612fbf9faf5db62583b8ae/backend/infra/document/parser/impl/builtin/test_data/支持/README.md **LaTeX** 编辑显示支持，例如：$\sum_{i=1}^n a_i=0$， 访问 [MathJax][4] 参考更多使用方法。
+[^LaTeX]: https://github.com/coze-dev/coze-studio/blob/fefb05ff27be1da939612fbf9faf5db62583b8ae/backend/infra/document/parser/impl/builtin/test_data/支持/README.md **LaTeX** 编辑显示支持，例如：$\sum_\{i=1\}^n a_i=0$， 访问 [MathJax][4] 参考更多使用方法。
 
 [^code]: https://github.com/coze-dev/coze-studio/blob/fefb05ff27be1da939612fbf9faf5db62583b8ae/backend/infra/document/parser/impl/builtin/test_data/代码高亮功能支持包括/README.md Java, Python, JavaScript 在内的，**四十一**种主流编程语言。
 

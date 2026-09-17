@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "08-agents"
 sourceUrl: "https://github.com/microsoft/ai-agents-for-beginners"
-entryUrl: "https://github.com/microsoft/ai-agents-for-beginners/blob/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translations/zh-CN/README.md"
+entryUrl: "https://github.com/microsoft/ai-agents-for-beginners/blob/25b7985f3b2dc37a84f4a7387ccd3c9f0e5b1595/translations/zh-CN/08-multi-agent/code_samples/workflows-agent-framework/README.md"
+sourceRel: "translations/zh-CN/08-multi-agent/code_samples/workflows-agent-framework/README.md"
+rawUrl: "/raw/08-agents/microsoft-ai-agents-for-beginners/translations/zh-CN/08-multi-agent/code_samples/workflows-agent-framework/README.md"
+sourceSha256: "7a8d61ccb5d22de97c9e01d3ff5d72ce969b226b7b3c705baec22818eab4429a"
+pageSha256: "7a8d61ccb5d22de97c9e01d3ff5d72ce969b226b7b3c705baec22818eab4429a"
+contentMode: "local-full"
 zh: ""
 ---
 

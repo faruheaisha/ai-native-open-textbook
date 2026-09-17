@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/adongwanai/learn-workbuddy"
-entryUrl: "https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/README.md"
+entryUrl: "https://github.com/adongwanai/learn-workbuddy/blob/d8c2a32614555196e405f20c67e23ed84f2f2239/docs/appendix/provider-adapter.md"
+sourceRel: "docs/appendix/provider-adapter.md"
+rawUrl: "/raw/09-harness/learn-workbuddy/docs/appendix/provider-adapter.md"
+sourceSha256: "81fa52106d7cce1e63fdb55c85b604051e6c24da34b325dc15355eef1fab7070"
+pageSha256: "81fa52106d7cce1e63fdb55c85b604051e6c24da34b325dc15355eef1fab7070"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -22,13 +27,13 @@ zh: ""
 
 | 关注点 | DeepSeek / Anthropic-compatible Messages API | OpenAI Responses API |
 |---|---|---|
-| 工具定义 | `{name, description, input_schema}` | `{type:"function", name, description, parameters}` |
+| 工具定义 | `\{name, description, input_schema\}` | `\{type:"function", name, description, parameters\}` |
 | 模型请求工具 | `tool_use` content block，含 `id`、`name`、`input` | `function_call` output item，含 `call_id`、`name`、`arguments` |
 | 参数编码 | 已经是 dict | JSON 字符串，需要 `json.loads` |
 | 返回工具结果 | `tool_result` block，引用 `tool_use_id` | `function_call_output` item，引用 `call_id` |
 | 结果放置位置 | `user` message 的 `content` list | 顶层 typed input item |
 | 系统提示 | `system=` | `instructions=` |
-| assistant turn | `{role:"assistant", content: response.content}` | `response.output` item list |
+| assistant turn | `\{role:"assistant", content: response.content\}` | `response.output` item list |
 
 最容易踩坑的两点：OpenAI 的工具参数是 JSON 字符串，DeepSeek / Anthropic-compatible 是 dict；两边工具调用 ID 字段也不同。adapter 的意义就是把这些差异从主 loop 里拿掉。
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/Osly-AI/PocketManus"
-entryUrl: "https://github.com/Osly-AI/PocketManus/blob/8ab0ec5f2d5dc17ff58b060af7afcda08a9f57fd/README.md"
+entryUrl: "https://github.com/Osly-AI/PocketManus/blob/8ab0ec5f2d5dc17ff58b060af7afcda08a9f57fd/PocketFlow/docs/design_pattern/memory.md"
+sourceRel: "PocketFlow/docs/design_pattern/memory.md"
+rawUrl: "/raw/08-agents/pocket-manus/PocketFlow/docs/design_pattern/memory.md"
+sourceSha256: "acaccefabe5c0f430448a192f6a8aedd9cb601d3d2bf4dc4a10c31a2346fdc08"
+pageSha256: "acaccefabe5c0f430448a192f6a8aedd9cb601d3d2bf4dc4a10c31a2346fdc08"
+contentMode: "local-full"
 zh: ""
 ---
 

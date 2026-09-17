@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/deusyu/harness-engineering"
-entryUrl: "https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/README.md"
+entryUrl: "https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/concepts/02-mechanical-enforcement.md"
+sourceRel: "concepts/02-mechanical-enforcement.md"
+rawUrl: "/raw/09-harness/deusyu-harness-engineering/concepts/02-mechanical-enforcement.md"
+sourceSha256: "2a796ac8b50762c124db61bcc401a47a21b1fc5fa6b327f4b93a6afe761a9b59"
+pageSha256: "2a796ac8b50762c124db61bcc401a47a21b1fc5fa6b327f4b93a6afe761a9b59"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -63,7 +68,7 @@ Consider extracting types to <domain>/types/ and service logic to <domain>/servi
 
 ### OpenAI Symphony — 给目标，不规定状态转换
 
-OpenAI Symphony（[references/articles.md #16](/lib/09-harness/deusyu-harness-engineering/references-articles#article-16)）提供了**机械化执行的反向边界**。OpenAI 的工程师早期把智能体当作状态机里的刚性节点，每个状态规定智能体只能做特定动作。文章原话：
+OpenAI Symphony（[references/articles.md #16](/lib/09-harness/deusyu-harness-engineering/references-articles/index#article-16)）提供了**机械化执行的反向边界**。OpenAI 的工程师早期把智能体当作状态机里的刚性节点，每个状态规定智能体只能做特定动作。文章原话：
 
 > "把智能体当作状态机里的刚性节点并不好用。模型会变得更聪明，也能解决比我们预设框架更大的问题。"
 

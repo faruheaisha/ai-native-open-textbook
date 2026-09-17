@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/github/spec-kit"
-entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/README.md"
+entryUrl: "https://github.com/github/spec-kit/blob/c173bf19a6654e3b05386ec3599349a55282b897/docs/community/overview.md"
+sourceRel: "docs/community/overview.md"
+rawUrl: "/raw/07-coding/spec-kit/docs/community/overview.md"
+sourceSha256: "cd078eb0423430eb20645bb68c74b3c85f324e69870ae6e0db22c5a1c7b7db40"
+pageSha256: "cd078eb0423430eb20645bb68c74b3c85f324e69870ae6e0db22c5a1c7b7db40"
+contentMode: "local-full"
 zh: ""
 ---
 

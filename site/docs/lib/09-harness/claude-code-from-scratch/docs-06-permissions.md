@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/Windy3f3f3f3f/claude-code-from-scratch"
-entryUrl: "https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/README.md"
+entryUrl: "https://github.com/Windy3f3f3f3f/claude-code-from-scratch/blob/0b452360866433fde0dc77cd37ada9d303546592/docs/06-permissions.md"
+sourceRel: "docs/06-permissions.md"
+rawUrl: "/raw/09-harness/claude-code-from-scratch/docs/06-permissions.md"
+sourceSha256: "1b9e85ad0f7ee79667535c247097f364582cc9e6b63ccef616603271bf8151a5"
+pageSha256: "1b9e85ad0f7ee79667535c247097f364582cc9e6b63ccef616603271bf8151a5"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -84,7 +89,7 @@ Windows 模式加 `i` 标志是因为 Windows 命令本身不区分大小写。
 
 #### 规则解析（parseRule）
 
-把字符串规则拆成结构化数据。`run_shell(npm test*)` → `{tool: "run_shell", pattern: "npm test*"}`，裸工具名 → `{tool: "read_file", pattern: null}`。
+把字符串规则拆成结构化数据。`run_shell(npm test*)` → `\{tool: "run_shell", pattern: "npm test*"\}`，裸工具名 → `\{tool: "read_file", pattern: null\}`。
 
 #### 加载规则（loadPermissionRules）
 
@@ -102,7 +107,7 @@ Windows 模式加 `i` 标志是因为 Windows 命令本身不区分大小写。
 
 ### 3. 统一权限检查
 
-`checkPermission` 是权限系统的统一入口，整合了权限模式、配置文件规则和内置危险检测，返回 `{action, message}`，action 三种值：`allow`、`deny`、`confirm`。
+`checkPermission` 是权限系统的统一入口，整合了权限模式、配置文件规则和内置危险检测，返回 `\{action, message\}`，action 三种值：`allow`、`deny`、`confirm`。
 
 优先级：**deny 规则 > allow 规则 > 模式逻辑 > 内置危险检测 > 默认允许**。
 

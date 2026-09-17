@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/liyupi/ai-guide"
-entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a02735b38c866/README.md"
+entryUrl: "https://github.com/liyupi/ai-guide/blob/539082c1df5743bb34d72a17857a02735b38c866/AI/AI项目教程/AI%20+%20Cursor%20开发一个肺活量测试器.md"
+sourceRel: "AI/AI项目教程/AI + Cursor 开发一个肺活量测试器.md"
+rawUrl: "/raw/07-coding/liyupi-ai-guide/AI/AI项目教程/AI + Cursor 开发一个肺活量测试器.md"
+sourceSha256: "659dc938d98280cc682dd42701558f5ee3738a8d6e9fa1ec5dba1de4689fe97d"
+pageSha256: "659dc938d98280cc682dd42701558f5ee3738a8d6e9fa1ec5dba1de4689fe97d"
+contentMode: "local-full"
 zh: ""
 ---
 

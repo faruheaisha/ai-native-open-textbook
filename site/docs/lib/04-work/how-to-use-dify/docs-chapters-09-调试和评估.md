@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/hijasonxu1/How-to-use-dify"
-entryUrl: "https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/README.md"
+entryUrl: "https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/docs/chapters/09-调试和评估.md"
+sourceRel: "docs/chapters/09-调试和评估.md"
+rawUrl: "/raw/04-work/how-to-use-dify/docs/chapters/09-调试和评估.md"
+sourceSha256: "c77aa9c356c6ef402c29f96f0d8ab810d3bf23c2c9daace49d6b3dd8dc8277ee"
+pageSha256: "c77aa9c356c6ef402c29f96f0d8ab810d3bf23c2c9daace49d6b3dd8dc8277ee"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "13-local-ai"
 sourceUrl: "https://github.com/microsoft/edgeai-for-beginners"
-entryUrl: "https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/README.md"
+entryUrl: "https://github.com/microsoft/edgeai-for-beginners/blob/e88f123a4bb5796594919db3a13257c429d1288c/Module02/02.QwenFamily.md"
+sourceRel: "Module02/02.QwenFamily.md"
+rawUrl: "/raw/13-local-ai/edgeai-for-beginners/Module02/02.QwenFamily.md"
+sourceSha256: "afefbb75c31239a60e29ee7ae2808b2860290730305ddecf046488c12949cb58"
+pageSha256: "afefbb75c31239a60e29ee7ae2808b2860290730305ddecf046488c12949cb58"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -1219,7 +1224,7 @@ class SecureQwenService:
         """Sanitize user input to prevent injection attacks"""
         # Remove or escape potentially harmful patterns
         dangerous_patterns = [
-            "<script>", "</script>", 
+            "", 
             "javascript:", "data:",
             "<iframe>", "</iframe>"
         ]
@@ -1523,4 +1528,4 @@ After completing this module, you will be able to:
 
 ## What's next
 
-- [03: Gemma Family Fundamentals](/lib/13-local-ai/edgeai-for-beginners/Module02-03.GemmaFamily)
+- [03: Gemma Family Fundamentals](/lib/13-local-ai/edgeai-for-beginners/Module02-03.GemmaFamily/index)

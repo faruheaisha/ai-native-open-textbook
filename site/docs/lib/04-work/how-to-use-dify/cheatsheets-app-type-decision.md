@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "04-work"
 sourceUrl: "https://github.com/hijasonxu1/How-to-use-dify"
-entryUrl: "https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/README.md"
+entryUrl: "https://github.com/hijasonxu1/How-to-use-dify/blob/8d32c2067bfeab108a9646fe0371319f6c1d5134/cheatsheets/app-type-decision.md"
+sourceRel: "cheatsheets/app-type-decision.md"
+rawUrl: "/raw/04-work/how-to-use-dify/cheatsheets/app-type-decision.md"
+sourceSha256: "fabcc7b6c8e5140e5c66d9add73c49d3f58795986c93621755fec1368252e187"
+pageSha256: "fabcc7b6c8e5140e5c66d9add73c49d3f58795986c93621755fec1368252e187"
+contentMode: "local-full"
 zh: ""
 ---
 

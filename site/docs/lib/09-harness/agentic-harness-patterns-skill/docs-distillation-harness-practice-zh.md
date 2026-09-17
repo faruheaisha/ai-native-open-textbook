@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/keli-wen/agentic-harness-patterns-skill"
-entryUrl: "https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/README.md"
+entryUrl: "https://github.com/keli-wen/agentic-harness-patterns-skill/blob/17549f55b84a94b1ff647ae4711be600fe8ae12f/docs/distillation-harness-practice-zh.md"
+sourceRel: "docs/distillation-harness-practice-zh.md"
+rawUrl: "/raw/09-harness/agentic-harness-patterns-skill/docs/distillation-harness-practice-zh.md"
+sourceSha256: "989305a3d0c4324d3cccf1ab98967a336b4a0e214166337a7ee2eb955571f9af"
+pageSha256: "989305a3d0c4324d3cccf1ab98967a336b4a0e214166337a7ee2eb955571f9af"
+contentMode: "local-full"
 zh: ""
 ---
 

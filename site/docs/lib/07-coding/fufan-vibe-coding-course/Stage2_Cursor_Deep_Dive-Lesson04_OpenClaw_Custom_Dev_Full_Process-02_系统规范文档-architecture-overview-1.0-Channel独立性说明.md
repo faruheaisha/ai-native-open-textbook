@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/fufankeji/FuFan-VibeCodingCourse"
-entryUrl: "https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/README_CN.md"
+entryUrl: "https://github.com/fufankeji/FuFan-VibeCodingCourse/blob/5336ede159a7ac2ce0ee136324fe5bffd56970ca/Stage2_Cursor_Deep_Dive/Lesson04_OpenClaw_Custom_Dev_Full_Process/02_系统规范文档/architecture-overview-1.0/Channel独立性说明.md"
+sourceRel: "Stage2_Cursor_Deep_Dive/Lesson04_OpenClaw_Custom_Dev_Full_Process/02_系统规范文档/architecture-overview-1.0/Channel独立性说明.md"
+rawUrl: "/raw/07-coding/fufan-vibe-coding-course/Stage2_Cursor_Deep_Dive/Lesson04_OpenClaw_Custom_Dev_Full_Process/02_系统规范文档/architecture-overview-1.0/Channel独立性说明.md"
+sourceSha256: "bcfc59f4f0df4bf497347a71546bb5116ace656c0e538cedc12e62637ed08c13"
+pageSha256: "bcfc59f4f0df4bf497347a71546bb5116ace656c0e538cedc12e62637ed08c13"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -819,6 +824,6 @@ Gateway 处理（只懂英语）
 2. 独立的 Channel ID：`"telegram"` vs `"whatsapp"`
 3. 独立的能力声明：Telegram 支持 4 种聊天类型，WhatsApp 只支持 2 种
 4. 独立的配置路径：`channels.telegram` vs `channels.whatsapp`
-5. 独立的注册：`api.registerChannel({ plugin: telegramPlugin })` vs `api.registerChannel({ plugin: whatsappPlugin })`
+5. 独立的注册：`api.registerChannel(\{ plugin: telegramPlugin \})` vs `api.registerChannel(\{ plugin: whatsappPlugin \})`
 
 **结论**：每个外部服务都需要自己专属的 Channel Plugin！

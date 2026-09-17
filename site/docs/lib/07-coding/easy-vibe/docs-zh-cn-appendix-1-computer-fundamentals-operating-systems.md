@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/datawhalechina/easy-vibe"
-entryUrl: "https://github.com/datawhalechina/easy-vibe/blob/130e9b75b28b524e8cc74e615fd9733a4e2b330d/README.md"
+entryUrl: "https://github.com/datawhalechina/easy-vibe/blob/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/appendix/1-computer-fundamentals/operating-systems.md"
+sourceRel: "docs/zh-cn/appendix/1-computer-fundamentals/operating-systems.md"
+rawUrl: "/raw/07-coding/easy-vibe/docs/zh-cn/appendix/1-computer-fundamentals/operating-systems.md"
+sourceSha256: "a220d0a3c155cbb8faf41726c9e45004c7b929edc7094698a7b465ecbbaf96b9"
+pageSha256: "a220d0a3c155cbb8faf41726c9e45004c7b929edc7094698a7b465ecbbaf96b9"
+contentMode: "local-full"
 zh: ""
 ---
 

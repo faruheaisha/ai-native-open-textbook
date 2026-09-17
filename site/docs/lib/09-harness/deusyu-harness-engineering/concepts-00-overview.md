@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/deusyu/harness-engineering"
-entryUrl: "https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/README.md"
+entryUrl: "https://github.com/deusyu/harness-engineering/blob/858c0da6570aad32947c09c7e83fb04f46d22ebe/concepts/00-overview.md"
+sourceRel: "concepts/00-overview.md"
+rawUrl: "/raw/09-harness/deusyu-harness-engineering/concepts/00-overview.md"
+sourceSha256: "b08cf8e0d81e40553043c52d4f10b20f7a98bcee8246675d128a4d2cee848f66"
+pageSha256: "b08cf8e0d81e40553043c52d4f10b20f7a98bcee8246675d128a4d2cee848f66"
+contentMode: "local-full"
 zh: ""
 ---
 

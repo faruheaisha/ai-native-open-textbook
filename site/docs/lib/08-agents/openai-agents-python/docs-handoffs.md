@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/openai/openai-agents-python"
-entryUrl: "https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/README.md"
+entryUrl: "https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/handoffs.md"
+sourceRel: "docs/handoffs.md"
+rawUrl: "/raw/08-agents/openai-agents-python/docs/handoffs.md"
+sourceSha256: "63dd07234b5effdb3285d3ae9abf2d7b2e86b17e81d9151ac9f186bccc418fa5"
+pageSha256: "63dd07234b5effdb3285d3ae9abf2d7b2e86b17e81d9151ac9f186bccc418fa5"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -107,14 +112,14 @@ It does not replace the next agent's main input, and it does not choose a differ
 
 ### When to use `input_type`
 
-Use `input_type` when the handoff needs a small piece of model-generated metadata such as `reason`, `language`, `priority`, or `summary`. For example, a triage agent can hand off to a refund agent with `{ "reason": "duplicate_charge", "priority": "high" }`, and `on_handoff` can log or persist that metadata before the refund agent takes over.
+Use `input_type` when the handoff needs a small piece of model-generated metadata such as `reason`, `language`, `priority`, or `summary`. For example, a triage agent can hand off to a refund agent with `\{ "reason": "duplicate_charge", "priority": "high" \}`, and `on_handoff` can log or persist that metadata before the refund agent takes over.
 
 Choose a different mechanism when the goal is different:
 
 -   Put existing application state and dependencies in [`RunContextWrapper.context`][agents.run_context.RunContextWrapper.context]. See the [context guide](/lib/08-agents/openai-agents-python/docs-context).
 -   Use [`input_filter`][agents.handoffs.Handoff.input_filter], [`RunConfig.nest_handoff_history`][agents.run.RunConfig.nest_handoff_history], or [`RunConfig.handoff_history_mapper`][agents.run.RunConfig.handoff_history_mapper] if you want to change what history the receiving agent sees.
 -   Register one handoff per destination if there are multiple possible specialists. `input_type` can add metadata to the chosen handoff, but it does not dispatch between destinations.
--   If you want structured input for a nested specialist without transferring the conversation, prefer [`Agent.as_tool(parameters=...)`][agents.agent.Agent.as_tool]. See [tools](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/tools.md#structured-input-for-tool-agents).
+-   If you want structured input for a nested specialist without transferring the conversation, prefer [`Agent.as_tool(parameters=...)`][agents.agent.Agent.as_tool]. See [tools](/lib/08-agents/openai-agents-python/docs-tools#structured-input-for-tool-agents).
 
 ## Input filters
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/lopopolo/harness-engineering"
-entryUrl: "https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/README.md"
+entryUrl: "https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/docs/fixed-worker/README.md"
+sourceRel: "docs/fixed-worker/README.md"
+rawUrl: "/raw/09-harness/harness-engineering-anthology/docs/fixed-worker/README.md"
+sourceSha256: "09861ef156692b237b614011908e2299be9a18bd1addb74057e457f649a0c43a"
+pageSha256: "09861ef156692b237b614011908e2299be9a18bd1addb74057e457f649a0c43a"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -35,7 +40,7 @@ permissions, tests, logs, graders, and canaries. [Route Context Just in Time]
 and [Make Capabilities Legible and Operable] develop the two levers.
 
 [Route Context Just in Time]: /lib/09-harness/harness-engineering-anthology/docs-just-in-time-context
-[Make Capabilities Legible and Operable]: https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/docs/tool-legibility/README.md
+[Make Capabilities Legible and Operable]: /lib/09-harness/harness-engineering-anthology/docs-tool-legibility
 
 ## Work in adoption epochs
 

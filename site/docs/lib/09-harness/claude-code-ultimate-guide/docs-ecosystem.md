@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide"
-entryUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/README.md"
+entryUrl: "https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/af05b84fb6e32432dae2114ee2a72c44ef3d29b1/docs/ecosystem.md"
+sourceRel: "docs/ecosystem.md"
+rawUrl: "/raw/09-harness/claude-code-ultimate-guide/docs/ecosystem.md"
+sourceSha256: "11e38cd29bd4f1f5537501e379625aa42eb9b0f50c3bed9df30792096c76337b"
+pageSha256: "11e38cd29bd4f1f5537501e379625aa42eb9b0f50c3bed9df30792096c76337b"
+contentMode: "local-full"
 zh: ""
 ---
 

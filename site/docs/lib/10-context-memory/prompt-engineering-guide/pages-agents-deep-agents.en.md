@@ -8,13 +8,18 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide"
-entryUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide/blob/57673726396dd94acb23bdb1e67f27c78ee85a8e/README.md"
+entryUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide/blob/57673726396dd94acb23bdb1e67f27c78ee85a8e/pages/agents/deep-agents.en.mdx"
+sourceRel: "pages/agents/deep-agents.en.mdx"
+rawUrl: "/raw/10-context-memory/prompt-engineering-guide/pages/agents/deep-agents.en.mdx"
+sourceSha256: "08a8b7eece37d93dc3c0b32341948d002c3759c379d4462c336a61f233ab0d4f"
+pageSha256: "08a8b7eece37d93dc3c0b32341948d002c3759c379d4462c336a61f233ab0d4f"
+contentMode: "local-full"
 zh: ""
 ---
 
 # Deep Agents
 
-import { Callout } from 'nextra/components'
+import \{ Callout \} from 'nextra/components'
 
 Most agents today are shallow.
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/Osly-AI/PocketManus"
-entryUrl: "https://github.com/Osly-AI/PocketManus/blob/8ab0ec5f2d5dc17ff58b060af7afcda08a9f57fd/README.md"
+entryUrl: "https://github.com/Osly-AI/PocketManus/blob/8ab0ec5f2d5dc17ff58b060af7afcda08a9f57fd/examples/pocketflow_marketing/output/ai_workflow_research.md"
+sourceRel: "examples/pocketflow_marketing/output/ai_workflow_research.md"
+rawUrl: "/raw/08-agents/pocket-manus/examples/pocketflow_marketing/output/ai_workflow_research.md"
+sourceSha256: "71a1e12c10b176293e5ec27ea745eb0147b1246ad1d48c3a0e80d0637a8920f4"
+pageSha256: "71a1e12c10b176293e5ec27ea745eb0147b1246ad1d48c3a0e80d0637a8920f4"
+contentMode: "local-full"
 zh: ""
 ---
 

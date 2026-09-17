@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "10-context-memory"
 sourceUrl: "https://github.com/huggingface/mcp-course"
-entryUrl: "https://github.com/huggingface/mcp-course/blob/e706ccc0d7abe73c31813979c3451c0e31c8a464/README.md"
+entryUrl: "https://github.com/huggingface/mcp-course/blob/e706ccc0d7abe73c31813979c3451c0e31c8a464/units/en/unit2/lemonade-server.mdx"
+sourceRel: "units/en/unit2/lemonade-server.mdx"
+rawUrl: "/raw/10-context-memory/huggingface-mcp-course/units/en/unit2/lemonade-server.mdx"
+sourceSha256: "2d922eda61903443f645589660bc437a2752c45dd00b4b368db4caf52a827158"
+pageSha256: "2d922eda61903443f645589660bc437a2752c45dd00b4b368db4caf52a827158"
+contentMode: "local-full"
 zh: "on"
 ---
 

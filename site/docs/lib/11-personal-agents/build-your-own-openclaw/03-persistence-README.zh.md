@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/czl9707/build-your-own-openclaw"
-entryUrl: ""
+entryUrl: "https://github.com/czl9707/build-your-own-openclaw/blob/37ae5dd255a0451609e67ad6d6a51fa5de80523c/03-persistence/README.zh.md"
+sourceRel: "03-persistence/README.zh.md"
+rawUrl: "/raw/11-personal-agents/build-your-own-openclaw/03-persistence/README.zh.md"
+sourceSha256: "19c5d9d69719993209a1b0e4116dd64c01bd2dd5ab7db07c7bf99956af5aa38c"
+pageSha256: "19c5d9d69719993209a1b0e4116dd64c01bd2dd5ab7db07c7bf99956af5aa38c"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -42,7 +47,7 @@ cp default_workspace/config.example.yaml default_workspace/config.user.yaml
 ## 关键组件
 
 - **.history/index.jsonl**：基于 JSONL 文件的会话索引，包含元数据
-- **.history/sessions/{id}.jsonl**：基于 JSONL 文件的消息存储
+- **.history/sessions/\{id\}.jsonl**：基于 JSONL 文件的消息存储
 
 [src/mybot/core/history.py](https://github.com/czl9707/build-your-own-openclaw/blob/37ae5dd255a0451609e67ad6d6a51fa5de80523c/03-persistence/src/mybot/core/history.py) - 新文件
 

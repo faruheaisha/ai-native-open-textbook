@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "09-harness"
 sourceUrl: "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding"
-entryUrl: "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding/blob/e40e0feec02b90e308ccbfc7a8911d64118ccca0/README.md"
+entryUrl: "https://github.com/ZhangHanDong/harness-engineering-from-cc-to-ai-coding/blob/e40e0feec02b90e308ccbfc7a8911d64118ccca0/book/src/part3/ch12.md"
+sourceRel: "book/src/part3/ch12.md"
+rawUrl: "/raw/09-harness/harness-engineering-from-cc-to-ai-coding/book/src/part3/ch12.md"
+sourceSha256: "19aa01f956cf32553c3ffc68f98e4288a2474fcd00e27bb35a7965a5a962f0b0"
+pageSha256: "19aa01f956cf32553c3ffc68f98e4288a2474fcd00e27bb35a7965a5a962f0b0"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -260,7 +265,7 @@ export function roughTokenCountEstimation(
 
 **表 12-3：文件类型感知的 Token 估算规则汇总**
 
-JSON 文件使用 2 而非 4 的原因在注释（第213-215行）中解释得很清楚：**密集的 JSON 包含大量单字符 token**（`{`、`}`、`:`、`,`、`"`），这使得每个 token 平均只对应约 2 个字节。如果仍然用 4 来估算，一个 100KB 的 JSON 文件会被估算为 25K token，而实际可能接近 50K——这个低估可能导致超大的工具结果未被持久化，悄悄进入上下文。
+JSON 文件使用 2 而非 4 的原因在注释（第213-215行）中解释得很清楚：**密集的 JSON 包含大量单字符 token**（`\{`、`\}`、`:`、`,`、`"`），这使得每个 token 平均只对应约 2 个字节。如果仍然用 4 来估算，一个 100KB 的 JSON 文件会被估算为 25K token，而实际可能接近 50K——这个低估可能导致超大的工具结果未被持久化，悄悄进入上下文。
 
 `bytesPerTokenForFileType`（第215-224行）根据文件扩展名返回不同的系数：
 

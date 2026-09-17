@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/revfactory/harness"
-entryUrl: "https://github.com/revfactory/harness/blob/cceac68ea1d0ad198ef4b7b906cd238375836387/README.md"
+entryUrl: "https://github.com/revfactory/harness/blob/cceac68ea1d0ad198ef4b7b906cd238375836387/skills/harness/references/orchestrator-template.md"
+sourceRel: "skills/harness/references/orchestrator-template.md"
+rawUrl: "/raw/09-harness/meta-skill-harness-revfactory/skills/harness/references/orchestrator-template.md"
+sourceSha256: "b948d278836bc9085f19de8d6893f695972dc45e9c7389fff0f10d8fa8037763"
+pageSha256: "b948d278836bc9085f19de8d6893f695972dc45e9c7389fff0f10d8fa8037763"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -71,10 +76,10 @@ description: "{도메인} 에이전트 팀을 조율하는 오케스트레이터
 1. 팀 생성:
    ```
    TeamCreate(
-     team_name: "{domain}-team",
+     team_name: "\{domain\}-team",
      members: [
-       { name: "{teammate-1}", agent_type: "{type}", model: "opus", prompt: "{역할 설명 및 작업 지시}" },
-       { name: "{teammate-2}", agent_type: "{type}", model: "opus", prompt: "{역할 설명 및 작업 지시}" },
+       \{ name: "\{teammate-1\}", agent_type: "\{type\}", model: "opus", prompt: "\{역할 설명 및 작업 지시\}" \},
+       \{ name: "\{teammate-2\}", agent_type: "\{type\}", model: "opus", prompt: "\{역할 설명 및 작업 지시\}" \},
        ...
      ]
    )
@@ -83,9 +88,9 @@ description: "{도메인} 에이전트 팀을 조율하는 오케스트레이터
 2. 작업 등록:
    ```
    TaskCreate(tasks: [
-     { title: "{작업1}", description: "{상세}", assignee: "{teammate-1}" },
-     { title: "{작업2}", description: "{상세}", assignee: "{teammate-2}" },
-     { title: "{작업3}", description: "{상세}", depends_on: ["{작업1}"] },
+     \{ title: "\{작업1\}", description: "\{상세\}", assignee: "\{teammate-1\}" \},
+     \{ title: "\{작업2\}", description: "\{상세\}", assignee: "\{teammate-2\}" \},
+     \{ title: "\{작업3\}", description: "\{상세\}", depends_on: ["\{작업1\}"] \},
      ...
    ])
    ```
@@ -232,7 +237,7 @@ description: "{도메인} 에이전트를 조율하는 오케스트레이터. {�
 
 ## 템플릿 C: 하이브리드 모드
 
-Phase마다 다른 실행 모드를 사용한다. 각 Phase 상단에 `**실행 모드:** {팀 | 서브}`를 명시한다.
+Phase마다 다른 실행 모드를 사용한다. 각 Phase 상단에 `**실행 모드:** \{팀 | 서브\}`를 명시한다.
 
 ```markdown
 ---
@@ -293,7 +298,7 @@ description: "{도메인} 오케스트레이터 (하이브리드). {키워드}. 
 오케스트레이터 description은 초기 실행 키워드만으로는 부족하다. 다음 후속 작업 표현을 반드시 포함하라:
 
 - 재실행/다시 실행/업데이트/수정/보완
-- "{도메인}의 {부분}만 다시"
+- "\{도메인\}의 \{부분\}만 다시"
 - "이전 결과 기반으로", "결과 개선"
 - 도메인 관련 일상적 요청 (예: 런치 전략 하네스라면 "런치", "홍보", "트렌딩" 등)
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/lopopolo/harness-engineering"
-entryUrl: "https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/README.md"
+entryUrl: "https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/docs/proof/README.md"
+sourceRel: "docs/proof/README.md"
+rawUrl: "/raw/09-harness/harness-engineering-anthology/docs/proof/README.md"
+sourceSha256: "a3e8392c77991b9fcbeffe41c5d3e39a0f02afc8d1ec35c6a57ecd9a1291af7d"
+pageSha256: "a3e8392c77991b9fcbeffe41c5d3e39a0f02afc8d1ec35c6a57ecd9a1291af7d"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -244,7 +249,7 @@ that part of verification.
 [Evaluate the Harness] separates outcome, proof, architecture, and trajectory
 cost so a convenient proxy cannot silently replace the job being measured.
 
-[Evaluate the Harness]: https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/evals/README.md
+[Evaluate the Harness]: /lib/09-harness/harness-engineering-anthology/evals
 
 ## Say what the evidence did not establish
 
@@ -268,4 +273,4 @@ upgrade, and a production release need different evidence and authority. The
 repository journeys and records any boundary the available evidence does not
 reach.
 
-[Repository Review Playbook]: https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/playbooks/repository-review.md
+[Repository Review Playbook]: /lib/09-harness/harness-engineering-anthology/playbooks-repository-review

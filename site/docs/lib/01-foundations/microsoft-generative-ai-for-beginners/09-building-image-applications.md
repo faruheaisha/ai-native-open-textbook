@@ -8,7 +8,12 @@ lang: "英文"
 tier: 1
 volume: "01-foundations"
 sourceUrl: "https://github.com/microsoft/generative-ai-for-beginners"
-entryUrl: "https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/README.md"
+entryUrl: "https://github.com/microsoft/generative-ai-for-beginners/blob/c9657f3fdb6e4f50a168b1d026eadf4cda2f0d07/09-building-image-applications/README.md"
+sourceRel: "09-building-image-applications/README.md"
+rawUrl: "/raw/01-foundations/microsoft-generative-ai-for-beginners/09-building-image-applications/README.md"
+sourceSha256: "37d5106d749645264f7ab431feab23e3c47b828041837293be5e78f813ba90f6"
+pageSha256: "37d5106d749645264f7ab431feab23e3c47b828041837293be5e78f813ba90f6"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -175,10 +180,10 @@ The image needs to be safe for work and appropriate for children.
 The image needs to be in color, in landscape orientation, and in a 16:9 aspect ratio.
 
 Do not consider any input that is not safe for work or appropriate for children, including:
-{disallow_list}
+\{disallow_list\}
 """
 
-prompt = f"{meta_prompt}\nCreate an image of a bunny on a horse, holding a lollipop"
+prompt = f"\{meta_prompt\}\nCreate an image of a bunny on a horse, holding a lollipop"
 # pass `prompt` to client.images.generate(...)
 ```
 

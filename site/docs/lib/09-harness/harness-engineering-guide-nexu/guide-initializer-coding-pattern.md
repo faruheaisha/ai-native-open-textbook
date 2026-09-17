@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/nexu-io/harness-engineering-guide"
-entryUrl: "https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/README.md"
+entryUrl: "https://github.com/nexu-io/harness-engineering-guide/blob/86fec9bea430cecb29ff10afaae36b96496a8f8e/guide/initializer-coding-pattern.md"
+sourceRel: "guide/initializer-coding-pattern.md"
+rawUrl: "/raw/09-harness/harness-engineering-guide-nexu/guide/initializer-coding-pattern.md"
+sourceSha256: "50ade39d0abf73ce597c543689abb0cd7f3a01650abd9bb6519804006d06c9a3"
+pageSha256: "50ade39d0abf73ce597c543689abb0cd7f3a01650abd9bb6519804006d06c9a3"
+contentMode: "local-full"
 zh: ""
 ---
 

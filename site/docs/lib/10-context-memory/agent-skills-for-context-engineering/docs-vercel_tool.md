@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "10-context-memory"
 sourceUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering"
-entryUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/README.md"
+entryUrl: "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/blob/6dbe1a1d868eab51a3bc9011b0f55e2891513e40/docs/vercel_tool.md"
+sourceRel: "docs/vercel_tool.md"
+rawUrl: "/raw/10-context-memory/agent-skills-for-context-engineering/docs/vercel_tool.md"
+sourceSha256: "b46f3256e166ba0c4a7bbfdbc87bd8688adace61e00a01aa39ca874e28c77067"
+pageSha256: "b46f3256e166ba0c4a7bbfdbc87bd8688adace61e00a01aa39ca874e28c77067"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -55,18 +60,18 @@ Every edge case meant another patch, and every model update meant re-calibrating
 
 ai-sdk@6.0.0-beta.160 ToolLoopAgent
 
-import { ToolLoopAgent } from 'ai';
-import { GetEntityJoins, LoadCatalog, /*...*/ } from '@/lib/tools'
-const agent = new ToolLoopAgent({
+import \{ ToolLoopAgent \} from 'ai';
+import \{ GetEntityJoins, LoadCatalog, /*...*/ \} from '@/lib/tools'
+const agent = new ToolLoopAgent(\{
   model: "anthropic/claude-opus-4.5",
   instructions: "",
-  tools: {
+  tools: \{
       GetEntityJoins, LoadCatalog, RecallContext, LoadEntityDetails, 
       SearchCatalog, ClarifyIntent, SearchSchema, GenerateAnalysisPlan, 
       FinalizeQueryPlan, FinalizeNoData, JoinPathFinder, SyntaxValidator, 
       FinalizeBuild, ExecuteSQL, FormatResults, VisualizeData, ExplainResults
-    },
-});
+    \},
+\});
 Link to headingA new idea, what if we just… stopped?
 We realized we were fighting gravity. Constraining the model’s reasoning. Summarizing information that it could read on its own. Building tools to protect it from complexity that it could handle.
 
@@ -91,32 +96,32 @@ This works because the semantic layer is already great documentation. The files 
 
 ai-sdk@6.0.0-beta.160 ToolLoopAgent
 
-import { Sandbox } from "@vercel/sandbox";
-import { files } from './semantic-catalog'
-import { tool, ToolLoopAgent } from "ai";
-import { ExecuteSQL } from "@/lib/tools";}
+import \{ Sandbox \} from "@vercel/sandbox";
+import \{ files \} from './semantic-catalog'
+import \{ tool, ToolLoopAgent \} from "ai";
+import \{ ExecuteSQL \} from "@/lib/tools";\}
 
 const sandbox = await Sandbox.create();
 await sandbox.writeFiles(files);
 
-const executeCommandTool(sandbox: Sandbox) {
-  return tool({
+const executeCommandTool(sandbox: Sandbox) \{
+  return tool(\{
     /* ... */
-    execute: async ({ command }) => {
+    execute: async (\{ command \}) => \{
       const result = await sandbox.exec(command);
-      return { /* */ };
-    }
-  })
-}
+      return \{ /* */ \};
+    \}
+  \})
+\}
 
-const agent = new ToolLoopAgent({
+const agent = new ToolLoopAgent(\{
   model: "anthropic/claude-opus-4.5",
   instructions: "",
-  tools: {
+  tools: \{
     ExecuteCommand: executeCommandTool(sandbox),
     ExecuteSQL,
-   },
-})
+   \},
+\})
 Link to heading3.5x faster, 37% fewer tokens, 100% success rate
 We benchmarked the old architecture against the new file system approach across 5 representative queries.
 

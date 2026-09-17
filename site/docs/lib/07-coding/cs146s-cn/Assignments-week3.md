@@ -8,7 +8,12 @@ lang: "中文"
 tier: 1
 volume: "07-coding"
 sourceUrl: "https://github.com/ShouZhengAI/CS146S_CN"
-entryUrl: "https://github.com/ShouZhengAI/CS146S_CN/blob/0d65f36f6673147d6c298670da4f9b4bd7f991fa/README.md"
+entryUrl: "https://github.com/ShouZhengAI/CS146S_CN/blob/0d65f36f6673147d6c298670da4f9b4bd7f991fa/Assignments/week3/README.md"
+sourceRel: "Assignments/week3/README.md"
+rawUrl: "/raw/07-coding/cs146s-cn/Assignments/week3/README.md"
+sourceSha256: "da547f1b4e12bcc4980f76f49cdbb0c79a15cf521ab0e4c95c8dac1bc5fa9079"
+pageSha256: "da547f1b4e12bcc4980f76f49cdbb0c79a15cf521ab0e4c95c8dac1bc5fa9079"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -208,7 +213,7 @@ python -m server.main --transport streamable-http
 
 ## 工具参考
 
-所有工具都返回 JSON。成功时 `ok` 为 `true`；失败时返回 <code v-pre>{"ok": false, "error": {"type", "message", "status_code"}}</code>。自动重试或空结果等非致命情况位于 `meta.warnings` 或 `warnings`。
+所有工具都返回 JSON。成功时 `ok` 为 `true`；失败时返回 <code v-pre>\{"ok": false, "error": \{"type", "message", "status_code"}}</code>。自动重试或空结果等非致命情况位于 `meta.warnings` 或 `warnings`。
 
 ### 1. `search_github_issues`
 

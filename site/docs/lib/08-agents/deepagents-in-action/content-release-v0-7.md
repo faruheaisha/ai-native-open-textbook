@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "08-agents"
 sourceUrl: "https://github.com/datawhalechina/deepagents-in-action"
-entryUrl: "https://github.com/datawhalechina/deepagents-in-action/blob/4097ff944f9ffa1bdfe2dd04f751f4416b058860/README.md"
+entryUrl: "https://github.com/datawhalechina/deepagents-in-action/blob/4097ff944f9ffa1bdfe2dd04f751f4416b058860/content/release-v0-7.md"
+sourceRel: "content/release-v0-7.md"
+rawUrl: "/raw/08-agents/deepagents-in-action/content/release-v0-7.md"
+sourceSha256: "887067170b77f3b656d4f18208a9ab053a2ef70047e8b029fe650cd7e13248ce"
+pageSha256: "887067170b77f3b656d4f18208a9ab053a2ef70047e8b029fe650cd7e13248ce"
+contentMode: "local-full"
 zh: ""
 ---
 

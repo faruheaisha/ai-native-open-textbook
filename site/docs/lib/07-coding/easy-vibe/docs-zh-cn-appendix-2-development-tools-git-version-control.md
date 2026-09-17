@@ -8,7 +8,12 @@ lang: "中英混排"
 tier: 2
 volume: "07-coding"
 sourceUrl: "https://github.com/datawhalechina/easy-vibe"
-entryUrl: "https://github.com/datawhalechina/easy-vibe/blob/130e9b75b28b524e8cc74e615fd9733a4e2b330d/README.md"
+entryUrl: "https://github.com/datawhalechina/easy-vibe/blob/130e9b75b28b524e8cc74e615fd9733a4e2b330d/docs/zh-cn/appendix/2-development-tools/git-version-control.md"
+sourceRel: "docs/zh-cn/appendix/2-development-tools/git-version-control.md"
+rawUrl: "/raw/07-coding/easy-vibe/docs/zh-cn/appendix/2-development-tools/git-version-control.md"
+sourceSha256: "21ec6b9ffcfdf27a4cc2a5486c8c3b0dc617aab544dbeb20ef67774da087f516"
+pageSha256: "21ec6b9ffcfdf27a4cc2a5486c8c3b0dc617aab544dbeb20ef67774da087f516"
+contentMode: "local-full"
 zh: ""
 ---
 

@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "10-context-memory"
 sourceUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide"
-entryUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide/blob/57673726396dd94acb23bdb1e67f27c78ee85a8e/README.md"
+entryUrl: "https://github.com/dair-ai/Prompt-Engineering-Guide/blob/57673726396dd94acb23bdb1e67f27c78ee85a8e/pages/about.zh.mdx"
+sourceRel: "pages/about.zh.mdx"
+rawUrl: "/raw/10-context-memory/prompt-engineering-guide/pages/about.zh.mdx"
+sourceSha256: "418a566b7c49be72de49963669d0aa0b7016900b763f854e5648a8bac0473da3"
+pageSha256: "418a566b7c49be72de49963669d0aa0b7016900b763f854e5648a8bac0473da3"
+contentMode: "local-full"
 zh: ""
 ---
 

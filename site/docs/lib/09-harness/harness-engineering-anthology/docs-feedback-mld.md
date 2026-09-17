@@ -8,7 +8,12 @@ lang: "英文"
 tier: 2
 volume: "09-harness"
 sourceUrl: "https://github.com/lopopolo/harness-engineering"
-entryUrl: "https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/README.md"
+entryUrl: "https://github.com/lopopolo/harness-engineering/blob/226c8d35fb6ea3ed55467753dba6dea2b5fd5778/docs/feedback/mld.md"
+sourceRel: "docs/feedback/mld.md"
+rawUrl: "/raw/09-harness/harness-engineering-anthology/docs/feedback/mld.md"
+sourceSha256: "bb14ee703151441e869864019def4a6cd7821052fb518b923e7b13f2b006a4ac"
+pageSha256: "bb14ee703151441e869864019def4a6cd7821052fb518b923e7b13f2b006a4ac"
+contentMode: "local-full"
 zh: ""
 ---
 

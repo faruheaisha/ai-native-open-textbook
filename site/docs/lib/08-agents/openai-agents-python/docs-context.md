@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "08-agents"
 sourceUrl: "https://github.com/openai/openai-agents-python"
-entryUrl: "https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/README.md"
+entryUrl: "https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/context.md"
+sourceRel: "docs/context.md"
+rawUrl: "/raw/08-agents/openai-agents-python/docs/context.md"
+sourceSha256: "5b24beace18e679b073ad9ef8f958888d8e78f28d67498a5ce1684efd2ebe6fb"
+pageSha256: "5b24beace18e679b073ad9ef8f958888d8e78f28d67498a5ce1684efd2ebe6fb"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -66,7 +71,7 @@ Only `wrapper.context` is your app-defined object. The other fields are runtime 
 
 If you later serialize a [`RunState`][agents.run_state.RunState] for human-in-the-loop or durable job workflows, that runtime metadata is saved with the state. Avoid putting secrets in [`RunContextWrapper.context`][agents.run_context.RunContextWrapper.context] if you intend to persist or transmit serialized state.
 
-Conversation state is a separate concern. Use `result.to_input_list()`, `session`, `conversation_id`, or `previous_response_id` depending on how you want to carry turns forward. See [results](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/results.md), [running agents](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/running_agents.md), and [sessions](https://github.com/openai/openai-agents-python/blob/83c737fd0b8d9a53bd39fa2a0856070417bb0bd3/docs/sessions/index.md) for that decision.
+Conversation state is a separate concern. Use `result.to_input_list()`, `session`, `conversation_id`, or `previous_response_id` depending on how you want to carry turns forward. See [results](/lib/08-agents/openai-agents-python/docs-results), [running agents](/lib/08-agents/openai-agents-python/docs-running_agents), and [sessions](/lib/08-agents/openai-agents-python/docs-sessions) for that decision.
 
 ```python
 import asyncio

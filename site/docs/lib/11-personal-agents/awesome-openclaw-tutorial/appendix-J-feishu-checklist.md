@@ -8,7 +8,12 @@ lang: "中文"
 tier: 2
 volume: "11-personal-agents"
 sourceUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial"
-entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/README.md"
+entryUrl: "https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/appendix/J-feishu-checklist.md"
+sourceRel: "appendix/J-feishu-checklist.md"
+rawUrl: "/raw/11-personal-agents/awesome-openclaw-tutorial/appendix/J-feishu-checklist.md"
+sourceSha256: "00cae6f26cbd17734dd397878a777359dd7cd2b9dff3dc3a89afa66183fbf795"
+pageSha256: "00cae6f26cbd17734dd397878a777359dd7cd2b9dff3dc3a89afa66183fbf795"
+contentMode: "local-full"
 zh: ""
 ---
 
@@ -226,7 +231,7 @@ openclaw logs --limit 100
 
 ## 📚 相关文档
 
-- [第9章：多平台集成](https://github.com/xianyu110/awesome-openclaw-tutorial/blob/0b0943dc41725e80d64f7f8d745d185e7752be4d/docs/03-advanced/09-multi-platform-integration.md)
+- [第9章：多平台集成](/lib/11-personal-agents/awesome-openclaw-tutorial/docs-03-advanced-09-multi-platform-integration/index)
 - [附录E：常见问题速查](/lib/11-personal-agents/awesome-openclaw-tutorial/appendix-E-common-problems#问题14飞书bot不回复)
 - [飞书开放平台文档](https://open.feishu.cn/document/)
 

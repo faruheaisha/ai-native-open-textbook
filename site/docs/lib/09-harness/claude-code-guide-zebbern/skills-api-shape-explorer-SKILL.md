@@ -8,7 +8,12 @@ lang: "英文"
 tier: 3
 volume: "09-harness"
 sourceUrl: "https://github.com/zebbern/claude-code-guide"
-entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/README.md"
+entryUrl: "https://github.com/zebbern/claude-code-guide/blob/64c890fe74c3ccfad673dc9c71dc85b8dd2f4817/skills/api-shape-explorer/SKILL.md"
+sourceRel: "skills/api-shape-explorer/SKILL.md"
+rawUrl: "/raw/09-harness/claude-code-guide-zebbern/skills/api-shape-explorer/SKILL.md"
+sourceSha256: "e4c35d909cc5e9bdbc31aa8359af6fb0e00f5659904e55cc3d2c8c11c72f7cb0"
+pageSha256: "e4c35d909cc5e9bdbc31aa8359af6fb0e00f5659904e55cc3d2c8c11c72f7cb0"
+contentMode: "local-full"
 zh: ""
 ---
 
