@@ -28,12 +28,29 @@ function listCourses() {
     for (const c of fs.readdirSync(path.join(LIB, v.name), { withFileTypes: true }).sort((a, b) => (a.name < b.name ? -1 : 1))) {
       if (!c.isDirectory()) continue;
       const dir = path.join(LIB, v.name, c.name);
-      const pages = fs.readdirSync(dir).filter((f) => f.endsWith(".md")).length;
-      out.push({ vol: v.name, course: c.name, dir, pages });
+      const files = fs.readdirSync(dir).filter((f) => f.endsWith(".md")).sort();
+      // 单门课可能本身就超过 MAX_PAGES（例如 1,000+ 页）。按课程整目录
+      // 移动会让该批次再次 OOM，因此把超大课程拆成可恢复的文件切片。
+      if (process.env.TB_SPLIT_LARGE_COURSES !== "0" && files.length > MAX_PAGES) {
+        for (let i = 0; i < files.length; i += MAX_PAGES) {
+          out.push({
+            vol: v.name,
+            course: c.name,
+            dir,
+            files: files.slice(i, i + MAX_PAGES),
+            slice: Math.floor(i / MAX_PAGES),
+            pages: Math.min(MAX_PAGES, files.length - i),
+          });
+        }
+      } else {
+        out.push({ vol: v.name, course: c.name, dir, files: null, slice: null, pages: files.length });
+      }
     }
   }
   return out;
 }
+
+const unitKey = (c) => `${c.vol}/${c.course}${c.slice == null ? "" : `#${c.slice}`}`;
 
 const all = listCourses();
 console.log("课程目录", all.length, "页数合计", all.reduce((s, x) => s + x.pages, 0));
@@ -63,6 +80,17 @@ function stash(list, to) {
   // 之前还原时拿的还是 lib 里的路径，等于让目录改名到自己身上，
   // 报 ENOENT 之外还把 94 门课留在了暂存区。
   for (const c of list) {
+    if (c.files) {
+      const sliceRoot = path.join(to ? STASH : LIB, c.vol, c.course, `.slice-${c.slice}`);
+      if (to) {
+        fs.mkdirSync(sliceRoot, { recursive: true });
+        for (const file of c.files) fs.renameSync(path.join(c.dir, file), path.join(sliceRoot, file));
+      } else {
+        for (const file of c.files) fs.renameSync(path.join(sliceRoot, file), path.join(c.dir, file));
+        fs.rmSync(sliceRoot, { recursive: true, force: true });
+      }
+      continue;
+    }
     const from = path.join(to ? LIB : STASH, c.vol, c.course);
     const target = path.join(to ? STASH : LIB, c.vol, c.course);
     fs.mkdirSync(path.dirname(target), { recursive: true });
@@ -95,8 +123,8 @@ fs.mkdirSync(STASH, { recursive: true });
 
 for (let i = 0; i < batches.length; i++) {
   const batch = batches[i];
-  const inBatch = new Set(batch.map((c) => c.vol + "/" + c.course));
-  const out = all.filter((c) => !inBatch.has(c.vol + "/" + c.course));
+  const inBatch = new Set(batch.map(unitKey));
+  const out = all.filter((c) => !inBatch.has(unitKey(c)));
   const pages = batch.reduce((s, x) => s + x.pages, 0);
   const t0 = Date.now();
   console.log("\n== 批次 " + (i + 1) + "/" + batches.length + " · " + pages + " 页 · 挪走 " + out.length + " 门 ==");
