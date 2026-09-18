@@ -1,7 +1,12 @@
 import { compile } from '@vue/compiler-dom'
 import { defineConfig } from 'vitepress'
 import type { DefaultTheme } from 'vitepress'
-import { courses, volumes } from './theme/generated/catalog'
+// 分批构建时由 scripts/deploy/build-batches.mjs 生成只包含当前批次的目录，
+// 避免每一批都把完整 12MB 课程树复制进 SSR 页面。正式构建仍使用全量目录。
+const catalog = process.env.TB_BATCH_CATALOG === '1'
+  ? await import('./theme/generated/catalog-batch')
+  : await import('./theme/generated/catalog')
+const { courses, volumes } = catalog
 import { SITE } from './theme/generated/site'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'

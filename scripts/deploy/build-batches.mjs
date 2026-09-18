@@ -8,6 +8,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { spawnSync } from "node:child_process";
+import { pathToFileURL } from "node:url";
 
 const ROOT = process.cwd();
 const DOCS = path.join(ROOT, "site", "docs");
@@ -75,6 +76,46 @@ console.log(
 if ((wantedVolumes || wantedCourses) && selected.length === 0) {
   throw new Error("筛选条件没有匹配到课程，请检查 TB_BUILD_ONLY / TB_COURSES");
 }
+
+// 分批构建只需要当前批次的课程侧栏。完整 catalog.ts 约 12MB，且包含每门课
+// 的完整导航树；VitePress SSR 会在每页重复持有它，单门课也会把 Node 堆顶到
+// 4GB 以上。生成一个临时、同形状的模块，正文和导航数据本身不做改写。
+const batchCatalog = path.join(ROOT, "site", "docs", ".vitepress", "theme", "generated", "catalog-batch.ts");
+let batchCatalogCreated = false;
+async function writeBatchCatalog() {
+  if (!wantedVolumes && !wantedCourses) return;
+  const source = await import(`${pathToFileURL(path.join(ROOT, "site", "docs", ".vitepress", "theme", "generated", "catalog.ts")).href}?batch=${Date.now()}`);
+  const wanted = new Set(selected.map((c) => `${c.vol}/${c.course}`));
+  const courses = source.courses.filter((c) => wanted.has(`${c.volume}/${c.local}`));
+  const volumes = source.volumes.filter((v) => courses.some((c) => c.volume === v.id));
+  const selectedKindCounts = Object.fromEntries(
+    courses.reduce((counts, c) => counts.set(c.kind, (counts.get(c.kind) || 0) + 1), new Map()),
+  );
+  const byKind = Object.fromEntries(
+    Object.entries(source.byKind).map(([k, value]) => [k, { ...value, count: selectedKindCounts[value.kind] || 0 }]),
+  );
+  const serial = (value) => JSON.stringify(value, null, 2);
+  const text = [
+    "// 临时批次目录，由 build-batches.mjs 生成，构建结束自动删除。",
+    `export const generatedAt = ${serial(source.generatedAt)}`,
+    `export const volumes = ${serial(volumes)}`,
+    `export const courses = ${serial(courses)}`,
+    `export const sources = ${serial(source.sources)}`,
+    `export const byKind = ${serial(byKind)}`,
+    `export const categoryOrder = ${serial(source.categoryOrder)}`,
+    `export const kindOrder = ${serial(source.kindOrder)}`,
+    `export const tierLabel = ${serial(source.tierLabel)}`,
+    `export const totals = ${serial(source.totals)}`,
+    "",
+  ].join("\n");
+  fs.writeFileSync(batchCatalog, text, "utf8");
+  batchCatalogCreated = true;
+}
+function cleanBatchCatalog() {
+  if (batchCatalogCreated) fs.rmSync(batchCatalog, { force: true });
+}
+process.on("exit", cleanBatchCatalog);
+await writeBatchCatalog();
 
 const batches = [];
 let cur = [];
@@ -171,6 +212,7 @@ for (let i = 0; i < batches.length; i++) {
         NODE_OPTIONS,
         DOCS_HOST: HOST,
         TB_BATCH_BUILD: "1",
+        TB_BATCH_CATALOG: batchCatalogCreated ? "1" : "0",
         // 产物目录走环境变量：路径里有空格，命令行参数会被 shell 拆开（曾把产物写进 E:\claude）。
         TB_OUT_DIR: BATCHDIR,
       }),
