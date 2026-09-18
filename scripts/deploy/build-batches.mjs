@@ -12,7 +12,7 @@ import { spawnSync } from "node:child_process";
 const ROOT = process.cwd();
 const DOCS = path.join(ROOT, "site", "docs");
 const LIB = path.join(DOCS, "lib");
-const STASH = path.join(ROOT, "site", ".batch-stash");
+const STASH = process.env.TB_STASH || path.join(ROOT, "site", ".batch-stash");
 // E 盘只剩 1GB，整站产物 5GB 起步，构建直接 ENOSPC。产物目录可以用环境变量指到别的盘。
 const DIST = process.env.TB_DIST || path.join(DOCS, ".vitepress", "dist");
 const BATCHDIR = process.env.TB_BATCHDIR || path.join(DOCS, ".vitepress", "dist-batch");
