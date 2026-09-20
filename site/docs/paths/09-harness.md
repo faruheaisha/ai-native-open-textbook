@@ -6,7 +6,7 @@ title: "Harness 与编码 Agent"
 
 编码 Agent 的工程实践与原理：上下文装配、权限、循环与工具面。
 
-共 38 条来源，其中 32 门可在站内直接阅读。
+共 38 条来源，其中 35 门可在站内直接阅读。
 
 ## 主线
 
@@ -35,6 +35,7 @@ title: "Harness 与编码 Agent"
 | [Codex CLI Best Practice](/lib/09-harness/codex-cli-best-practice/index) | 工程手册与指南 | ★★ 进阶 | 15 | [打开 ↗](https://github.com/shanraisshan/codex-cli-best-practice) |
 | [Codex 橙皮书](/lib/09-harness/codex-orange-book/index) | 工程手册与指南 | ★★ 进阶 | 14 | [打开 ↗](https://github.com/bozhouDev/codex-orange-book) |
 | [Claude Code Ultimate Guide](/lib/09-harness/claude-code-ultimate-guide/index) | 工程手册与指南 | ★ 参考 | 954 | [打开 ↗](https://github.com/FlorianBruniaux/claude-code-ultimate-guide) |
+| [claude-code-docs-official](/lib/09-harness/claude-code-docs-official/index) | 官方文献（外链原文） | ★ 参考 | 656 | [打开 ↗](https://code.claude.com/docs) |
 | [ECC —— Harness 性能优化系统](/lib/09-harness/ecc/index) | 速查清单与索引 | ★ 参考 | 483 | [打开 ↗](https://github.com/affaan-m/ECC) |
 | [Claude Code Guide（zebbern）](/lib/09-harness/claude-code-guide-zebbern/index) | 工程手册与指南 | ★ 参考 | 234 | [打开 ↗](https://github.com/zebbern/claude-code-guide) |
 | [openai-codex-docs-official](/lib/09-harness/openai-codex-docs-official/index) | 官方文献（外链原文） | ★ 参考 | 179 | [打开 ↗](https://learn.chatgpt.com/docs) |
@@ -44,7 +45,9 @@ title: "Harness 与编码 Agent"
 | [Strands Harness SDK](/lib/09-harness/strands-harness-sdk/index) | 工程手册与指南 | ★ 参考 | 57 | [打开 ↗](https://github.com/strands-agents/harness-sdk) |
 | [Claude Code Everything You Need to Know](/lib/09-harness/claude-code-everything/index) | 工程手册与指南 | ★ 参考 | 48 | [打开 ↗](https://github.com/wesammustafa/Claude-Code-Everything-You-Need-to-Know) |
 | [Repository Harness（仓库级 Agent 工作区）](/lib/09-harness/repository-harness/index) | 工程手册与指南 | ★ 参考 | 45 | [打开 ↗](https://github.com/hoangnb24/repository-harness) |
+| [Harness Books](/lib/09-harness/harness-books/index) | 工程手册与指南 | ★ 参考 | 37 | [打开 ↗](https://github.com/wquguru/harness-books) |
 | [Agentic Harness Patterns（模式与技能）](/lib/09-harness/agentic-harness-patterns-skill/index) | 技能、配置与模板 | ★ 参考 | 31 | [打开 ↗](https://github.com/keli-wen/agentic-harness-patterns-skill) |
+| [openai-developer-blog](/lib/09-harness/openai-developer-blog/index) | 官方文献（外链原文） | ★ 参考 | 30 | [打开 ↗](https://developers.openai.com/blog) |
 | [Harness —— Claude Code 团队架构工厂](/lib/09-harness/meta-skill-harness-revfactory/index) | 工程手册与指南 | ★ 参考 | 18 | [打开 ↗](https://github.com/revfactory/harness) |
 | [Grok Build（xAI 官方 CLI）](/lib/09-harness/grok-build/index) | 实践案例与产品 | ★ 参考 | 10 | [打开 ↗](https://github.com/xai-org/grok-build) |
 | [Awesome Harness Engineering（ai-boost）](/lib/09-harness/awesome-harness-engineering-aiboost/index) | 工程手册与指南 | ★ 参考 | 5 | [打开 ↗](https://github.com/ai-boost/awesome-harness-engineering) |

@@ -9,6 +9,7 @@ const catalog = process.env.TB_BATCH_CATALOG === '1'
 const { courses, volumes } = catalog
 import { SITE } from './theme/generated/site'
 import path from 'node:path'
+import fs from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { setPublicDir, sizeFor, decorateHtml } from './image-dims.mts'
 
@@ -47,8 +48,8 @@ function vueSafe(html: string): string {
 
 const BASE = process.env.DOCS_BASE || '/'
 const origin = `https://${HOST.replace(/^https?:\/\//, '')}`
-const mirrorBuildRoot = path
-  .join(path.dirname(fileURLToPath(import.meta.url)), '..', 'public', '.mirror-build-stash')
+const mirrorPublicDir = path
+  .join(path.dirname(fileURLToPath(import.meta.url)), '..', 'public', 'mirror')
   .replaceAll('\\', '/')
 const workbuddyBuildRoot = path
   .join(path.dirname(fileURLToPath(import.meta.url)), '..', 'public', 'workbuddy-harness')
@@ -101,15 +102,20 @@ export default defineConfig({
   // 分批构建用：整站一次构建会 OOM，见 scripts/deploy/build-batches.mjs。
   // 命令行传 --outDir 会被 shell 按空格拆开（路径里有「claude code」），所以走环境变量。
   outDir: process.env.TB_OUT_DIR || undefined,
+  // 低内存机器上的逃生门：关闭压缩能显著降低 esbuild 链接与压缩的内存峰值
+  // （TB_NO_MINIFY=1 时）。产物 JS 变大，但页面内容不变，仅资源哈希不同。
+  build: { minify: process.env.TB_NO_MINIFY === '1' ? false : 'esbuild' },
   // 分批构建低磁盘模式：图片目录仍以 junction 提供给 Markdown 解析，
   // 但禁止 Vite 把整套镜像复制进每个批次的临时产物。
+  // 别名直接指向真实镜像目录：Vite 会把引用到的图片解析成哈希资产，
+  // 与 build-batches 的产物形态一致；publicDir 关闭保证 1.2GB 镜像本体不进产物。
   vite: {
     publicDir: process.env.TB_SKIP_MIRROR === '1' ? false : undefined,
     resolve:
       process.env.TB_SKIP_MIRROR === '1'
         ? {
             alias: [
-              { find: /^\/mirror\//, replacement: `${mirrorBuildRoot}/` },
+              { find: /^\/mirror\//, replacement: `${mirrorPublicDir}/` },
               { find: /^\/workbuddy-harness\//, replacement: `${workbuddyBuildRoot}/` },
             ],
           }

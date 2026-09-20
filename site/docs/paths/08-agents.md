@@ -6,7 +6,7 @@ title: "智能体工程"
 
 单 Agent 到多 Agent 的系统化构建：工具、记忆、编排与评测。
 
-共 26 条来源，其中 25 门可在站内直接阅读。
+共 26 条来源，其中 26 门可在站内直接阅读。
 
 ## 主线
 
@@ -31,6 +31,7 @@ title: "智能体工程"
 | [BabyAgent - 后端工程师的 AI Agent 教学项目 (Go 语言版)](/lib/08-agents/baby-agent/index) | 系统课程 | ★★ 进阶 | 14 | [打开 ↗](https://github.com/baby-llm/baby-agent) |
 | [Agentic Engineering Handbook](/lib/08-agents/agentic-engineering-handbook/index) | 工程手册与指南 | ★★ 进阶 | 7 | [打开 ↗](https://github.com/keyuchen21/agentic-engineering-handbook) |
 | [OpenAI Agents SDK（Python）](/lib/08-agents/openai-agents-python/index) | 实践案例与产品 | ★ 参考 | 234 | [打开 ↗](https://github.com/openai/openai-agents-python) |
+| [openai-cookbook-docs](/lib/08-agents/openai-cookbook-docs/index) | 官方文献（外链原文） | ★ 参考 | 193 | [打开 ↗](https://developers.openai.com/cookbook) |
 | [AI Engineering Coach（微软）](/lib/08-agents/microsoft-ai-engineering-coach/index) | 系统课程 | ★ 参考 | 91 | [打开 ↗](https://github.com/microsoft/AI-Engineering-Coach) |
 | [Ed Donner：AI Agents 实战课](/lib/08-agents/ed-donner-agents/index) | 系统课程 | ★ 参考 | 61 | [打开 ↗](https://github.com/ed-donner/agents) |
 | [AI in Production](/lib/08-agents/ed-donner-production/index) | 系统课程 | ★ 参考 | 47 | [打开 ↗](https://github.com/ed-donner/production) |
