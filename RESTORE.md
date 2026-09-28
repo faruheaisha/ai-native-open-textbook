@@ -1,6 +1,8 @@
 # 新电脑接手指南（RESTORE）
 
 目的：换一台电脑后，从 GitHub 克隆本仓库，按本文恢复全部工作环境。全文按顺序执行即可。
+本仓库工作的上下文手册在 **AGENTS.md**（项目是什么、真源层级、设计文档地图、常用命令、纪律）——新会话先读它。
+
 
 ## 仓库里有什么（已随 Git 上传）
 
@@ -32,7 +34,7 @@
 
 ### 0. 前置要求
 
-- Node.js 20 或更高；Git；部署相关脚本在 WSL 里跑（Windows 用户装好 WSL + rsync）。
+- Node.js 20 或更高；Git；Python 3（蓝皮书 PDF 构建 `scripts/build-bluebook-catalog-pdf.py` 需 `pip install reportlab`）；部署相关脚本在 WSL 里跑（Windows 用户装好 WSL + rsync）。
 - `cd site && npm ci`
 
 ### 1. 克隆仓库
