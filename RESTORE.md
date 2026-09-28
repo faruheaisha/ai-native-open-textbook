@@ -39,7 +39,10 @@
 
 ### 1. 克隆仓库
 
+Windows 必须先开长路径支持，否则部分课程文件名超长（260 字符限制），克隆会残缺且不报明显错误：
+
 ```bash
+git config --global core.longpaths true
 git clone https://github.com/faruheaisha/ai-native-open-textbook.git
 cd ai-native-open-textbook
 git checkout v1.0-full-20260920   # 当前里程碑；或直接用 main
