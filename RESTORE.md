@@ -26,6 +26,8 @@
 | `site/node_modules/` | 约 300 MB | `cd site && npm ci` |
 | 部署私钥 | 极小 | **只能从旧电脑手动拷贝，见「部署凭据」** |
 
+> 19 个非 Git 来源的快照（约 207MB）在 Release `v1.0-full-20260920` 附件里，见下文步骤 2。
+
 ## 恢复步骤（顺序执行）
 
 ### 0. 前置要求
@@ -49,7 +51,7 @@ node scripts/restore-upstream.mjs
 
 脚本按 `catalog/catalog.json` 的 repo + commit 锚点浅克隆 124 个 Git 来源，可中断续跑（默认跳过已存在目录，`--force` 重来）。
 
-**注意**：143 条来源里有 19 条不是 Git 仓库（OpenAI/Anthropic/Coze 等官方文档的网页导出），脚本结束时会打印完整清单。它们的快照需要用移动硬盘或私有通道从旧电脑的 `upstream/<对应路径>` 拷过来。**在这 19 条补齐之前，不要运行 raw 归档重建**（`build-raw-archive.mjs` 遇到缺失快照会直接报错，不会写坏数据）。
+**注意**：143 条来源里有 19 条不是 Git 仓库（OpenAI/Anthropic/Coze 等官方文档的网页导出），脚本结束时会打印完整清单。它们的快照已打包在 GitHub Release `v1.0-full-20260920` 的附件 `upstream-non-git-19.tar.gz` 里，下载后解压到 `upstream/` 即可（`tar xzf upstream-non-git-19.tar.gz -C upstream`）。**在这 19 条补齐之前，不要运行 raw 归档重建**（`build-raw-archive.mjs` 遇到缺失快照会直接报错，不会写坏数据）。
 
 ### 3. 重建图片镜像与原件归档
 
